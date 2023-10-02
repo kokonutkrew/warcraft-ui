@@ -1,15 +1,17 @@
 
 OmniCCDB = {
-	["profileKeys"] = {
-		["Kkorgrimmar - Skull Rock"] = "Default",
-		["Kkbrill - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
-		["Kkundercity - Skull Rock"] = "Default",
-		["Bannhammer - Skull Rock"] = "Default",
-	},
 	["global"] = {
 		["dbVersion"] = 6,
 		["addonVersion"] = "10.1.1",
+	},
+	["profileKeys"] = {
+		["Kkorgrimmar - Whitemane"] = "Default",
+		["Kkorgrimmar - Skull Rock"] = "Default",
+		["Cupcakess - Whitemane"] = "Default",
+		["Kkbrill - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -54,9 +56,9 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["soon"] = {
-						},
 						["seconds"] = {
+						},
+						["soon"] = {
 						},
 						["minutes"] = {
 						},
@@ -64,9 +66,9 @@ OmniCCDB = {
 				},
 				["Plater Nameplates Theme"] = {
 					["textStyles"] = {
-						["soon"] = {
-						},
 						["seconds"] = {
+						},
+						["soon"] = {
 						},
 						["minutes"] = {
 						},

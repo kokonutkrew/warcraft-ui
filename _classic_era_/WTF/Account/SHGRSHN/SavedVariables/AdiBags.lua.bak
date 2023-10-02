@@ -3,10 +3,10 @@ AdiBagsDB = {
 	["char"] = {
 		["Samoanlegend - Grobbulus"] = {
 			["collapsedSections"] = {
-				["Bag #3#Bag #3"] = true,
+				["Bag #1#Bag #1"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
-				["Bag #1#Bag #1"] = true,
+				["Bag #3#Bag #3"] = true,
 			},
 		},
 		["Samoanmystic - Grobbulus"] = {
@@ -44,6 +44,9 @@ AdiBagsDB = {
 			["profiles"] = {
 				["Default"] = {
 					["version"] = 3,
+					["overrides"] = {
+						[17058] = "Trade Goods#Trade Goods",
+					},
 				},
 				["KokonutKrew"] = {
 					["version"] = 3,
@@ -72,18 +75,18 @@ AdiBagsDB = {
 						[18641] = "Consumable#Consumable",
 						[6948] = "Equipment#Miscellaneous",
 						[9327] = "Quest#Quest",
-						[12460] = "Consumable#Consumable",
+						[8391] = "Trade Goods#Trade Goods",
 						[6218] = "Trade Goods#Parts",
 						[11754] = "Reagent#Reagent",
-						[13180] = "Consumable#Consumable",
+						[5956] = "Trade Goods#Parts",
 						[4398] = "Consumable#Consumable",
-						[21324] = "Equipment#Miscellaneous",
+						[8392] = "Trade Goods#Trade Goods",
 						[9173] = "Trade Goods#Parts",
 						[20560] = "Quest#Quest",
-						[8392] = "Trade Goods#Trade Goods",
-						[5956] = "Trade Goods#Parts",
+						[21324] = "Equipment#Miscellaneous",
+						[13180] = "Consumable#Consumable",
 						[12451] = "Consumable#Consumable",
-						[8391] = "Trade Goods#Trade Goods",
+						[12460] = "Consumable#Consumable",
 					},
 				},
 			},
@@ -106,18 +109,7 @@ AdiBagsDB = {
 		},
 		["ClassicItemLevel"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["Junk"] = {
-			["profiles"] = {
-				["KokonutKrew"] = {
-					["exclude"] = {
-						[20742] = true,
-					},
-				},
-			},
-		},
-		["DataSource"] = {
+		["AdiBags_TooltipInfo"] = {
 		},
 		["ItemRackSets"] = {
 			["profiles"] = {
@@ -126,10 +118,27 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["AdiBags_TooltipInfo"] = {
+		["DataSource"] = {
+		},
+		["Junk"] = {
+			["profiles"] = {
+				["Default"] = {
+					["exclude"] = {
+						[17058] = true,
+					},
+				},
+				["KokonutKrew"] = {
+					["exclude"] = {
+						[20742] = true,
+					},
+				},
+			},
+		},
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
+		["Kktailor - Whitemane"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "KokonutKrew",
 		["Samoanbeast - Grobbulus"] = "Default",
@@ -138,15 +147,18 @@ AdiBagsDB = {
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanmystic - Grobbulus"] = "KokonutKrew",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Samoanslayer - Skull Rock"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
 	},
@@ -174,13 +186,13 @@ AdiBagsDB = {
 					["xOffset"] = -100.739868164063,
 					["yOffset"] = 124.147300720215,
 				},
-				["Bank"] = {
-					["xOffset"] = 355.619658619458,
-					["yOffset"] = -205.844301875099,
-				},
 				["Backpack"] = {
 					["xOffset"] = -86.5185333711124,
 					["yOffset"] = 150.222328898643,
+				},
+				["Bank"] = {
+					["xOffset"] = 355.619658619458,
+					["yOffset"] = -205.844301875099,
 				},
 			},
 			["positionMode"] = "manual",

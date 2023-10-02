@@ -1,14 +1,39 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		[4] = {
-		},
+		{
+		}, -- [1]
+		{
+		}, -- [2]
 		["tip"] = {
 		},
 	},
-	["currentStep"] = 4,
+	["currentStep"] = 2,
 	["questObjectivesCache"] = {
-		[0] = 2,
+		[0] = 14,
+		[745] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Palemane Tanner slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Palemane Skinner slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Palemane Poacher slain: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
 		[747] = {
 			{
 				["type"] = "item",
@@ -25,6 +50,36 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
+		[766] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Prairie Wolf Heart: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Flatland Cougar Femur: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Plainstrider Scale: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Swoop Gizzard: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [4]
+		},
 		[753] = {
 			{
 				["type"] = "item",
@@ -34,21 +89,133 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
+		[790] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Sarkoth's Mangled Claw: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[757] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 12,
+				["text"] = "Bristleback Belt: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[788] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Mottled Boar slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[761] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Trophy Swoop Quill: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[748] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Prairie Wolf Paw: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 4,
+				["text"] = "Plainstrider Talon: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[780] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Battleboar Snout: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Battleboar Flank: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[3376] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Chief Sharptusk Thornmantle's Head: 1/1",
+				["finished"] = true,
+				["numFulfilled"] = 1,
+			}, -- [1]
+		},
+		[750] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Mountain Cougar Pelt: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[771] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 2,
+				["text"] = "Well Stone: 0/2",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 2,
+				["text"] = "Ambercorn: 0/2",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[743] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Windfury Talon: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
 	},
-	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
+	["currentGuideGroup"] = "Horde 1-22",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
 		[747] = "The Hunt Begins",
 		[753] = "A Humble Task",
 		[750] = "The Hunt Continues",
-		[752] = "A Humble Task",
+		[757] = "Rite of Strength",
 		[780] = "The Battleboars",
+		[752] = "A Humble Task",
 	},
-	["currentGuideName"] = "01-06 Tauren",
+	["currentGuideName"] = "01-10 Durotar",
 	["stepSkip"] = {
 	},
-	["currentStepId"] = 2799834375,
+	["currentStepId"] = 1520109466,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -59,24 +226,181 @@ RXPCTrackingData = {
 			["levels"] = {
 				{
 					["groupExperience"] = 0,
-					["deaths"] = 0,
+					["deaths"] = 1,
 					["mobs"] = {
+						["Mulgore"] = {
+							["xp"] = 408,
+							["count"] = 7,
+						},
 					},
 					["timestamp"] = {
 						["dateStarted"] = {
 							["monthDay"] = 5,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 12,
+							["weekday"] = 3,
 							["year"] = 2023,
 							["hour"] = 18,
-							["weekday"] = 3,
+							["minute"] = 12,
+						},
+						["finished"] = 518,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 39,
 						},
 						["started"] = 0,
 					},
 					["quests"] = {
 					},
 				}, -- [1]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Mulgore"] = {
+							["xp"] = 394,
+							["count"] = 7,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 39,
+						},
+						["finished"] = 924,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 46,
+						},
+						["started"] = 519,
+					},
+					["quests"] = {
+						["Mulgore"] = {
+							[3094] = 40,
+							[752] = 85,
+							[747] = 170,
+							[753] = 250,
+						},
+					},
+				}, -- [2]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Mulgore"] = {
+							["xp"] = 864,
+							["count"] = 16,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 46,
+						},
+						["finished"] = 1343,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 53,
+						},
+						["started"] = 925,
+					},
+					["quests"] = {
+						["Mulgore"] = {
+							[755] = 250,
+						},
+					},
+				}, -- [3]
+				{
+					["groupExperience"] = 1159,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Mulgore"] = {
+							["xp"] = 1674,
+							["count"] = 46,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 53,
+						},
+						["finished"] = 2689,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 28,
+							["year"] = 2023,
+							["hour"] = 21,
+							["weekday"] = 1,
+						},
+						["started"] = 1344,
+					},
+					["quests"] = {
+						["Mulgore"] = {
+							[750] = 250,
+						},
+					},
+				}, -- [4]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 1,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 28,
+							["year"] = 2023,
+							["hour"] = 21,
+							["weekday"] = 1,
+						},
+						["started"] = 2690,
+					},
+					["quests"] = {
+						["Mulgore"] = {
+							[763] = 340,
+							[780] = 450,
+							[767] = 55,
+							[3376] = 675,
+							[757] = 450,
+							[1656] = 110,
+							[781] = 360,
+						},
+					},
+				}, -- [5]
 			},
 		},
 	},
@@ -88,13 +412,66 @@ RXPCComms = {
 	["profiles"] = {
 		["Samoanbeast - Skull Rock"] = {
 			["players"] = {
-				["Nbvcnvbbcnv"] = {
+				["Farmcraft"] = {
 					["isRxp"] = true,
-					["lastSeen"] = 2591.961,
-					["xpPercentage"] = 70,
-					["level"] = 3,
+					["lastSeen"] = 50757.103,
+					["xpPercentage"] = 52,
+					["level"] = 1,
 					["timePlayed"] = 0,
 					["class"] = "DRUID",
+				},
+				["Kksummon"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 48981.14,
+					["xpPercentage"] = 4,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 1,
+				},
+				["Ozgard"] = {
+					["timePlayed"] = 715.4259999999995,
+					["class"] = "DRUID",
+					["xp"] = 28,
+				},
+				["Darkestork"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 50757.337,
+					["xpPercentage"] = 6,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 3,
+				},
+				["Warriorss"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 50757.337,
+					["xpPercentage"] = 12,
+					["level"] = 2,
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+				},
+				["Sleepyhed"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 50757.103,
+					["xpPercentage"] = 52,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 3,
+				},
+				["Nbvcnvbbcnv"] = {
+					["level"] = 3,
+					["lastSeen"] = 2591.961,
+					["xpPercentage"] = 70,
+					["class"] = "DRUID",
+					["timePlayed"] = 0,
+					["isRxp"] = true,
+				},
+			},
+			["announcements"] = {
+				["01-12 Mulgore"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
 				},
 			},
 		},

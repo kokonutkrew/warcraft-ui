@@ -1,6 +1,7 @@
 
 SilverDragon3DB = {
 	["profileKeys"] = {
+		["Kktailor - Whitemane"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
@@ -10,14 +11,16 @@ SilverDragon3DB = {
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanmystic - Grobbulus"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Samoansavage - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
 	},

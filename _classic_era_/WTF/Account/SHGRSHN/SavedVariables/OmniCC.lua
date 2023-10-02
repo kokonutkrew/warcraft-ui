@@ -1,6 +1,7 @@
 
 OmniCCDB = {
 	["profileKeys"] = {
+		["Kktailor - Whitemane"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
@@ -11,6 +12,8 @@ OmniCCDB = {
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanmystic - Grobbulus"] = "Default",
 		["Goldenshots - Defias Pillager"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
@@ -19,13 +22,13 @@ OmniCCDB = {
 		["Samoanranger - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 	},
 	["global"] = {
 		["dbVersion"] = 6,
-		["addonVersion"] = "10.1.1",
+		["addonVersion"] = "10.1.2",
 	},
 	["profiles"] = {
 		["Default"] = {

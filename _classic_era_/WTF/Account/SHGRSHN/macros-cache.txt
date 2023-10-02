@@ -2,6 +2,9 @@ VER 3 000000000000006C "/1 Guild" "134400"
 /1 The <[O.o]><[KK]> Crafting Guild! Active. Non-toxic. Discord community!
 /s The <[O.o]><[KK]> Crafting Guild! Active. Non-toxic. Discord community!
 END
+VER 3 0000000000000070 "/2 Portals" "134400"
+/2 [Summon] WTS Summons Services. Currently Summoning: Orgrimmar
+END
 VER 3 0000000000000068 "/fgi invite" "134400"
 /fgi nextSearch
 /fgi invite
@@ -252,6 +255,11 @@ VER 3 0000000000000063 "loc1" "135817"
 /cast Immolate
 /cast !Shoot
 END
+VER 3 0000000000000071 "loc10" "136163"
+#showtooltip
+/stopcast
+/use drain soul
+END
 VER 3 0000000000000066 "loc2" "134400"
 #showtooltip
 /use shadow bolt
@@ -259,8 +267,12 @@ END
 VER 3 0000000000000069 "loc3" "134400"
 #showtooltip
 /stopattack
-/petattack
 /use corruption
+END
+VER 3 0000000000000074 "loc4" "136139"
+#showtooltip
+/use curse of agony
+/petattack
 /cast !Shoot
 END
 VER 3 0000000000000064 "loc8" "134400"
@@ -271,6 +283,14 @@ VER 3 0000000000000067 "locA1" "134400"
 #showtooltip
 /use demon skin
 END
+VER 3 0000000000000075 "locA7" "134400"
+#showtooltip
+/use life tap
+END
+VER 3 0000000000000076 "locM5" "134400"
+#showtooltip
+/use fear
+END
 VER 3 0000000000000065 "locPetAttack" "134400"
 #showtooltip
 /petattack
@@ -278,6 +298,41 @@ END
 VER 3 0000000000000062 "locPetRecall" "134400"
 /petfollow
 /petpassive
+END
+VER 3 000000000000007A "mag1" "134400"
+#showtooltip
+/stopcast
+/use frostbolt
+END
+VER 3 000000000000007B "mag2" "134400"
+#showtooltip
+/stopcast
+/use fireball
+END
+VER 3 0000000000000077 "mag3" "134400"
+#showtooltip
+/script SetRaidTarget("target", 8);
+/p Kill %T ^-^
+/use fire blast
+/cast !Shoot
+END
+VER 3 000000000000007C "mag5" "134400"
+#showtooltip
+/stopcast
+/use frost nova
+END
+VER 3 0000000000000079 "magAlt3" "134400"
+#showtooltip
+/use frost armor
+END
+VER 3 0000000000000078 "magAlt4" "134400"
+#showtooltip
+/use conjure water
+END
+VER 3 000000000000007D "magCC" "134400"
+#showtooltip
+/stopcast
+/use polymorph
 END
 VER 3 0000000000000054 "mSkull" "INV_MISC_QUESTIONMARK"
 /script SetRaidTarget("target", 8);
@@ -288,6 +343,10 @@ VER 3 0000000000000038 "P.Fishing" "INV_MISC_QUESTIONMARK"
 /run local l="Aquadynamic Fish Attract" if not GetWeaponEnchantInfo() and IsEquippedItemType("Fishing Poles") and GetItemCount(l)>0 then UseItemByName(l) end
 /equip [noworn:Fishing Poles] Fishing Pole
 /cast [worn:Fishing Poles] Fishing
+END
+VER 3 0000000000000072 "petDismiss" "132936"
+#showtooltip
+/petdismiss
 END
 VER 3 0000000000000050 "rougeAmbush" "INV_MISC_QUESTIONMARK"
 #showtooltip Ambush
@@ -305,10 +364,18 @@ VER 3 000000000000004F "rougeSap" "INV_MISC_QUESTIONMARK"
 /cast Sap
 /cast Pick Pocket
 END
-VER 3 0000000000000059 "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
-END
 VER 3 000000000000006B "RXPTargeting" "132150"
+/targetexact Rathorian
+/targetexact Aean Swiftriver
+/targetexact Barak Kodobane
+/targetexact Bael'dun Officer
+/targetexact Dishu
+/targetexact Witchwing Slayer
+/targetexact Razormane Mystic
+/targetexact Owatanka
+/targetlasttarget [dead]
+END
+VER 3 0000000000000059 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000048 "warBloodrage" "INV_MISC_QUESTIONMARK"

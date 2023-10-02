@@ -1,0 +1,984 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 5105.469,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 56,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:15]|h|r |cFF4DDBFF [2/9] Applying database corrections...",
+					["timestamp"] = 5164.092000000001,
+					["serverTime"] = 1695782608,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:15]|h|r |cFF4DDBFF [3/9] Initializing townfolks...",
+					["timestamp"] = 5164.161,
+					["serverTime"] = 1695782608,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:16]|h|r |cFFffff00[Questie]|r The 'Harvest Festival' world event is active!",
+					["timestamp"] = 5165.161,
+					["serverTime"] = 1695782609,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:18]|h|r |cffffaeaeDetails!:|r A new version has been installed: /details news    ",
+					["timestamp"] = 5166.794,
+					["serverTime"] = 1695782611,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:18]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 5166.794,
+					["serverTime"] = 1695782611,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:18]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 5166.794,
+					["serverTime"] = 1695782611,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:18]|h|r |cFF4DDBFF [4/9] Initializing locale...",
+					["timestamp"] = 5167.227,
+					["serverTime"] = 1695782611,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:18]|h|r |cFF4DDBFF [5/9] Optimizing waypoints...",
+					["timestamp"] = 5167.294,
+					["serverTime"] = 1695782611,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:19]|h|r |cFF4DDBFF [6/9] Updating NPCs...",
+					["timestamp"] = 5167.994,
+					["serverTime"] = 1695782612,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:25]|h|r |cFF4DDBFF [7/9] Updating objects...",
+					["timestamp"] = 5174.474,
+					["serverTime"] = 1695782618,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:30]|h|r |cFF4DDBFF [8/9] Updating quests...",
+					["timestamp"] = 5179.217000000001,
+					["serverTime"] = 1695782623,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:35]|h|r |cFF4DDBFF [9/9] Updating items...",
+					["timestamp"] = 5184.179,
+					["serverTime"] = 1695782628,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:38]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Welcome to DBM. Type /dbm help for a list of supported commands. To access options type /dbm in your chat to begin configuration. Load specific zones manually to configure any boss specific settings to your liking as well. DBM will setup defaults for your spec, but you may want to fine tune these.",
+					["r"] = 0.41,
+					["serverTime"] = 1695782631,
+					["timestamp"] = 5186.79,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:39]|h|r |cFFAAEEFFQuestie DB update complete!",
+					["timestamp"] = 5188.431000000001,
+					["serverTime"] = 1695782632,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:44:56]|h|r Daggers was added to your collection!",
+					["timestamp"] = 5264.899,
+					["serverTime"] = 1695782709,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:44:57]|h|r |cff33ff99HonorSpy|r: All data was purged",
+					["timestamp"] = 5266.254,
+					["serverTime"] = 1695782710,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:44:57]|h|r |cff33ff99HonorSpy|r: Weekly data was reset",
+					["timestamp"] = 5266.254,
+					["serverTime"] = 1695782710,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:45:01]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
+					["timestamp"] = 5270.709,
+					["serverTime"] = 1695782714,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:45:01]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
+					["timestamp"] = 5270.709,
+					["serverTime"] = 1695782714,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:45:01]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
+					["timestamp"] = 5270.709,
+					["serverTime"] = 1695782714,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:22]|h|r Your character jumped.",
+					["timestamp"] = 5351.599,
+					["serverTime"] = 1695782795,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:26]|h|r Type '/help' for a listing of a few commands.",
+					["serverTime"] = 1695782799,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 5355.259,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:36]|h|r Your character jumped.",
+					["timestamp"] = 5365.176,
+					["serverTime"] = 1695782809,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:37]|h|r Your character jumped.",
+					["timestamp"] = 5366.179,
+					["serverTime"] = 1695782810,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:50]|h|r Your character jumped.",
+					["timestamp"] = 5379.313,
+					["serverTime"] = 1695782823,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:05]|h|r Your character jumped.",
+					["timestamp"] = 5394.656,
+					["serverTime"] = 1695782838,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:14]|h|r Your character jumped.",
+					["timestamp"] = 5403.613,
+					["serverTime"] = 1695782847,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:17]|h|r Quest accepted: Rude Awakening",
+					["serverTime"] = 1695782850,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5406.271,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:18]|h|r Your character jumped.",
+					["timestamp"] = 5407.39,
+					["serverTime"] = 1695782851,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:21]|h|r Your character jumped.",
+					["timestamp"] = 5409.914,
+					["serverTime"] = 1695782854,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:22]|h|r Your character jumped.",
+					["timestamp"] = 5411.719,
+					["serverTime"] = 1695782855,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:24]|h|r Your character jumped.",
+					["timestamp"] = 5413.123000000001,
+					["serverTime"] = 1695782857,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:25]|h|r Your character jumped.",
+					["timestamp"] = 5414.042,
+					["serverTime"] = 1695782858,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:31]|h|r Interface action failed because of an AddOn",
+					["serverTime"] = 1695782864,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 5420.057,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:37]|h|r Your skill in Defense has increased to 2.",
+					["serverTime"] = 1695782870,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5426.057,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:38]|h|r Your skill in Daggers has increased to 2.",
+					["serverTime"] = 1695782871,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5427.344,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:43]|h|r Your skill in Daggers has increased to 3.",
+					["serverTime"] = 1695782876,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5432.174,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:45]|h|r Your skill in Defense has increased to 3.",
+					["serverTime"] = 1695782878,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5434.199000000001,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:52]|h|r You receive loot: |cff9d9d9d|Hitem:7073::::::::1:::::::::|h[Broken Fang]|h|r.",
+					["serverTime"] = 1695782885,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5441.099,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:57]|h|r Your character jumped.",
+					["timestamp"] = 5446.447,
+					["serverTime"] = 1695782890,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:58]|h|r Your character jumped.",
+					["timestamp"] = 5447.533,
+					["serverTime"] = 1695782891,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:00]|h|r Your character jumped.",
+					["timestamp"] = 5449.154,
+					["serverTime"] = 1695782893,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:02]|h|r Your character jumped.",
+					["timestamp"] = 5451.511,
+					["serverTime"] = 1695782895,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:03]|h|r Your character jumped.",
+					["timestamp"] = 5452.58,
+					["serverTime"] = 1695782896,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:05]|h|r Your character jumped.",
+					["timestamp"] = 5454.151,
+					["serverTime"] = 1695782898,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:24]|h|r You receive loot: |cff9d9d9d|Hitem:4865::::::::1:::::::::|h[Ruined Pelt]|h|r.",
+					["serverTime"] = 1695782917,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5473.053,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:32]|h|r Your character jumped.",
+					["timestamp"] = 5481.225,
+					["serverTime"] = 1695782925,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:36]|h|r Your character jumped.",
+					["timestamp"] = 5485.721000000001,
+					["serverTime"] = 1695782929,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:45]|h|r Your character jumped.",
+					["timestamp"] = 5494.446,
+					["serverTime"] = 1695782938,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:56]|h|r Your character jumped.",
+					["timestamp"] = 5505.607,
+					["serverTime"] = 1695782949,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:44]|h|r Your character jumped.",
+					["timestamp"] = 5553.292,
+					["serverTime"] = 1695782997,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:47]|h|r Your Undercity reputation has increased by 50.",
+					["serverTime"] = 1695783000,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5555.999,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:47]|h|r Rude Awakening completed.",
+					["serverTime"] = 1695783000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5556.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:47]|h|r Experience gained: 40.",
+					["serverTime"] = 1695783000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5556.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:27]|h|r Quest accepted: The Mindless Ones",
+					["serverTime"] = 1695783040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5596.065000000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:28]|h|r Your character jumped.",
+					["timestamp"] = 5597.017,
+					["serverTime"] = 1695783041,
+				}, -- [56]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #4:",
+					["timestamp"] = 5105.469,
+				}, -- [57]
+				{
+					["message"] = "- Adjusting new value for UIParent Scale Fine Tune if the UIParent feature is enabled.",
+					["timestamp"] = 5105.469,
+				}, -- [58]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #5:",
+					["timestamp"] = 5105.469,
+				}, -- [59]
+				{
+					["message"] = "- Replacing some parts of Aura Reorder mod.",
+					["timestamp"] = 5105.469,
+				}, -- [60]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #6:",
+					["timestamp"] = 5105.469,
+				}, -- [61]
+				{
+					["message"] = "- Adding 'Bolster' into the buff tracking auras (automatic tracking).",
+					["timestamp"] = 5105.469,
+				}, -- [62]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #7:",
+					["timestamp"] = 5105.469,
+				}, -- [63]
+				{
+					["message"] = "- Update on scripts for 8.2 wow patch.",
+					["timestamp"] = 5105.469,
+				}, -- [64]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #8:",
+					["timestamp"] = 5105.469,
+				}, -- [65]
+				{
+					["message"] = "",
+					["timestamp"] = 5105.469,
+				}, -- [66]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #9:",
+					["timestamp"] = 5105.469,
+				}, -- [67]
+				{
+					["message"] = "- Removing deprecated mod 'No Target Alpha [Plater]', please use 'Units which isn't your target' in the General Settings tab.",
+					["timestamp"] = 5105.469,
+				}, -- [68]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #10:",
+					["timestamp"] = 5105.469,
+				}, -- [69]
+				{
+					["message"] = "- Buff Settings have been changed to support anchoring of both Buff Frames. The offsets and anchors were migrated automatically.",
+					["timestamp"] = 5105.469,
+				}, -- [70]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #11:",
+					["timestamp"] = 5105.469,
+				}, -- [71]
+				{
+					["message"] = "- Disabling 8.0 deprecated mods.",
+					["timestamp"] = 5105.469,
+				}, -- [72]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #12:",
+					["timestamp"] = 5105.469,
+				}, -- [73]
+				{
+					["message"] = "- Disabling 'Cast Bar Icon Config' by default.",
+					["timestamp"] = 5105.469,
+				}, -- [74]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #13:",
+					["timestamp"] = 5105.469,
+				}, -- [75]
+				{
+					["message"] = "- Adding 'Breath of Coldheart' into the ignored buffs (automatic tracking).",
+					["timestamp"] = 5105.469,
+				}, -- [76]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #14:",
+					["timestamp"] = 5105.469,
+				}, -- [77]
+				{
+					["message"] = "- Cleanup wrong indexes in npc_cache and npc_colors.",
+					["timestamp"] = 5105.469,
+				}, -- [78]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #15:",
+					["timestamp"] = 5105.469,
+				}, -- [79]
+				{
+					["message"] = "- Adding Sanctum of Domination triggers for scripts.",
+					["timestamp"] = 5105.469,
+				}, -- [80]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #16:",
+					["timestamp"] = 5105.469,
+				}, -- [81]
+				{
+					["message"] = "- Wipe on captured casts due to a backend change.",
+					["timestamp"] = 5105.469,
+				}, -- [82]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #17:",
+					["timestamp"] = 5105.469,
+				}, -- [83]
+				{
+					["message"] = "- Disable the change nameplate color from 'Blink by Time Left' script.",
+					["timestamp"] = 5105.469,
+				}, -- [84]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #18:",
+					["timestamp"] = 5105.469,
+				}, -- [85]
+				{
+					["message"] = "- Added Wing Buffet spell to frontal cone script.",
+					["timestamp"] = 5105.469,
+				}, -- [86]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #19:",
+					["timestamp"] = 5105.469,
+				}, -- [87]
+				{
+					["message"] = "- Added default ghost aura spells.",
+					["timestamp"] = 5105.469,
+				}, -- [88]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #20:",
+					["timestamp"] = 5105.469,
+				}, -- [89]
+				{
+					["message"] = "- Added Season 4 Dungeon Spells Into Scripts.",
+					["timestamp"] = 5105.469,
+				}, -- [90]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #21:",
+					["timestamp"] = 5105.469,
+				}, -- [91]
+				{
+					["message"] = "- Disabling 'Add - Tag Number [P]' script.",
+					["timestamp"] = 5105.469,
+				}, -- [92]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #22:",
+					["timestamp"] = 5105.469,
+				}, -- [93]
+				{
+					["message"] = "- Cleanup wrong indexes in cast_colors and cast_audiocues.",
+					["timestamp"] = 5105.469,
+				}, -- [94]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #23:",
+					["timestamp"] = 5105.469,
+				}, -- [95]
+				{
+					["message"] = "- Patching scripts for Ruby Life Pools Season 1 Dragonflight.",
+					["timestamp"] = 5105.469,
+				}, -- [96]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #24:",
+					["timestamp"] = 5105.469,
+				}, -- [97]
+				{
+					["message"] = "- Patching scripts for Temple of the Jade Serpent Season 1 Dragonflight.",
+					["timestamp"] = 5105.469,
+				}, -- [98]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #25:",
+					["timestamp"] = 5105.469,
+				}, -- [99]
+				{
+					["message"] = "- Patching scripts triggers for season of Dragonflight Mythic+.",
+					["timestamp"] = 5105.469,
+				}, -- [100]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #26:",
+					["timestamp"] = 5105.469,
+				}, -- [101]
+				{
+					["message"] = "- test patch.",
+					["timestamp"] = 5105.469,
+				}, -- [102]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #27:",
+					["timestamp"] = 5105.469,
+				}, -- [103]
+				{
+					["message"] = "- Added support for season 2 mythic dungeons.",
+					["timestamp"] = 5105.469,
+				}, -- [104]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #28:",
+					["timestamp"] = 5105.469,
+				}, -- [105]
+				{
+					["message"] = "- Modifying the default cast bar color of 'Cast - Ultra Important [P]' to yellow.",
+					["timestamp"] = 5105.469,
+				}, -- [106]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #29:",
+					["timestamp"] = 5105.469,
+				}, -- [107]
+				{
+					["message"] = "- Setup auto-toggle for 'Hide Blizzard Healthbars'.",
+					["timestamp"] = 5105.469,
+				}, -- [108]
+				{
+					["message"] = "|cFFFFFFAAPlater|r  Applied Patch #30:",
+					["timestamp"] = 5105.469,
+				}, -- [109]
+				{
+					["message"] = "- Cleanup wrong indexes in npcs_renamed.",
+					["timestamp"] = 5105.469,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:42:52]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 5105.469,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:08]|h|r |cff33ff99Gnosis|r: Gnosis v5.07 (v5.09) loaded (enabled)",
+					["timestamp"] = 5156.788000000001,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:08]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 5156.788000000001,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:08]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 5156.788000000001,
+					["serverTime"] = 1695782601,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:08]|h|r CensusPlusWotlk Client Language changed, Database purged.",
+					["r"] = 1,
+					["serverTime"] = 1695782601,
+					["timestamp"] = 5156.788000000001,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:09]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["r"] = 1,
+					["serverTime"] = 1695782602,
+					["timestamp"] = 5156.788000000001,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:09]|h|r Registered character: Fiesh-Pagle",
+					["timestamp"] = 5156.788000000001,
+					["serverTime"] = 1695782602,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:09]|h|r Enter |cff00ff00/ltm|r or click the minimap button to open Leatrix Maps.",
+					["r"] = 1,
+					["serverTime"] = 1695782602,
+					["timestamp"] = 5156.788000000001,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:10]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1695782603,
+					["timestamp"] = 5156.788000000001,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:10]|h|r You are not in a guild.",
+					["serverTime"] = 1695782603,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 5159.239000000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:11]|h|r Enter |cff00ff00/ltp|r or click the minimap button to open Leatrix Plus.",
+					["r"] = 1,
+					["serverTime"] = 1695782604,
+					["timestamp"] = 5159.239000000001,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:13]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 5162.132000000001,
+					["serverTime"] = 1695782606,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:13]|h|r |cff33ff99Questie|r: [Migration] Migrating Questie for v6.0.0",
+					["timestamp"] = 5162.132000000001,
+					["serverTime"] = 1695782606,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:13]|h|r |cff33ff99Questie|r: [Migration] Migrated Questie to v6.0.0 and removed 0 party entries from the Journey",
+					["timestamp"] = 5162.132000000001,
+					["serverTime"] = 1695782606,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:13]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 5162.132000000001,
+					["serverTime"] = 1695782606,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:13]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 5162.132000000001,
+					["serverTime"] = 1695782606,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:14]|h|r |cFFAAEEFFQuestie DB has updated!|r|cFFFF6F22 Data is being processed, this may take a few moments and cause some lag...",
+					["timestamp"] = 5163.286,
+					["serverTime"] = 1695782607,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:43:14]|h|r |cFF4DDBFF [1/9] Loading database...",
+					["timestamp"] = 5163.286,
+					["serverTime"] = 1695782607,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

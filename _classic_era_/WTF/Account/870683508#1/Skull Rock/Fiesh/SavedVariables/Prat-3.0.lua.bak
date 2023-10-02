@@ -1,0 +1,2046 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 6,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1695789431,
+					["timestamp"] = 13923.078,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695789671,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1695791380,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 13923.078,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 13923.078,
+				}, -- [4]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 13923.078,
+				}, -- [5]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 13923.078,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 23,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:28]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["r"] = 1,
+					["serverTime"] = 1695791381,
+					["timestamp"] = 13923.078,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:29]|h|r Registered character: Fiesh-SkullRock",
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791382,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:29]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1695791382,
+					["timestamp"] = 13923.078,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:894:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: i was a milk boy once",
+					["serverTime"] = 1695791382,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13938.316,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Iexyn-SkullRock:895:CHANNEL:2|h|cff3fc6eaIexyn|r|h|cffd8d8d8]|r: ..what are you doin, step dad?",
+					["serverTime"] = 1695791382,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13938.316,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:896:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: then i stopped at your moms",
+					["serverTime"] = 1695791382,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13938.316,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:897:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: now im the milk man",
+					["serverTime"] = 1695791382,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13938.316,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:30]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 13938.316,
+					["serverTime"] = 1695791383,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:30]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 13938.316,
+					["serverTime"] = 1695791383,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fkindied:900:CHANNEL:2|h|cff0070ddFkindied|r|h|cffd8d8d8]|r: dont die yal",
+					["serverTime"] = 1695791385,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13940.93,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:32]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 13941.121,
+					["serverTime"] = 1695791385,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:33]|h|r You have invited |cfffff468Bloodbandit|r to join your guild.",
+					["serverTime"] = 1695791386,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13942.164,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:33]|h|r |cFFffff00[Questie]|r The 'Harvest Festival' world event is active!",
+					["timestamp"] = 13942.204,
+					["serverTime"] = 1695791386,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:33]|h|r You have invited |cff8787edPelna|r to join your guild.",
+					["serverTime"] = 1695791386,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13942.691,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:36]|h|r You have invited |cffc69b6dMadmon|r to join your guild.",
+					["serverTime"] = 1695791389,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13944.845,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:36]|h|r |cffc69b6dMadmon|r declines your guild invitation.",
+					["serverTime"] = 1695791389,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13945.142,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:44]|h|r |cff8787edPelna|r declines your guild invitation.",
+					["serverTime"] = 1695791397,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13952.814,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:44]|h|r You have invited |cffc69b6dSarkis|r to join your guild.",
+					["serverTime"] = 1695791397,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13953.649,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:45]|h|r |cfffff468Bloodbandit|r declines your guild invitation.",
+					["serverTime"] = 1695791398,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13954.435,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:47]|h|r |cffc69b6dSarkis|r declines your guild invitation.",
+					["serverTime"] = 1695791400,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13955.905,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:48]|h|r You have invited |cffff7c0aHammurabì|r to join your guild.",
+					["serverTime"] = 1695791401,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13957.443,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:49]|h|r |cffff7c0aHammurabì|r declines your guild invitation.",
+					["serverTime"] = 1695791402,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13957.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:50]|h|r |cffd8d8d8[|r|Hplayer:Hammurabì-SkullRock:920:WHISPER:HAMMURABÌ-SKULLROCK|h|cffd84e4e39|r:|cffff7c0aHammurabì|r|h|cffd8d8d8]|r is Away From Keyboard: Away from Keyboard",
+					["serverTime"] = 1695791403,
+					["r"] = 1,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13958.947,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Femalepants-SkullRock:777:CHANNEL:2|h|cfffff468Femalepants|r|h|cffd8d8d8]|r: OFFICIAL Somewhere over the Rainbow - Israel \"IZ\" Kamakawiwoʻole",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791195,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fishytanktwo-SkullRock:778:CHANNEL:2|h|cff65b2651|r:|cffc69b6dFishytanktwo|r|h|cffd8d8d8]|r: brill is basically XR",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791195,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:779:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: im rolling a backwood",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791198,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Donning-SkullRock:780:CHANNEL:2|h|cff3fc6eaDonning|r|h|cffd8d8d8]|r: XROADS RAP BATTLE RN",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791205,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:38]|h|r You have invited |cffaad372Kelanarn|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791211,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Donning-SkullRock:782:CHANNEL:2|h|cff3fc6eaDonning|r|h|cffd8d8d8]|r: THE BARRENSVS TRISFAL",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791212,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:40]|h|r [W To] |cffd8d8d8[|r|Hplayer:Kelanarn-SkullRock:783:WHISPER:KELANARN-SKULLROCK|h|cffd84e4e50|r:|cffaad372Kelanarn|r|h|cffd8d8d8]|r: Hey |cffaad372Kelanarn|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791213,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						56, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:41]|h|r |cffaad372Kelanarn|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791214,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:41]|h|r You have invited |cfffff468Higher|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791214,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:41]|h|r |cfffff468Higher|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791214,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:43]|h|r [W To] |cffd8d8d8[|r|Hplayer:Higher-SkullRock:789:WHISPER:HIGHER-SKULLROCK|h|cffd84e4e48|r:|cfffff468Higher|r|h|cffd8d8d8]|r: Hey |cfffff468Higher|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791216,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						58, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:43]|h|r |cffd8d8d8[|r|Hplayer:Higher-SkullRock:790:WHISPER:HIGHER-SKULLROCK|h|cffd84e4e48|r:|cfffff468Higher|r|h|cffd8d8d8]|r is Away From Keyboard: Away from Keyboard",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791216,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						58, -- [3]
+						60, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:45]|h|r You have invited |cfffff468Jubae|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791218,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:45]|h|r You have invited |cff3fc6eaYigexiaofa|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791218,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:46]|h|r |cff8787edEdgewalker|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791219,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:46]|h|r |cff3fc6eaYigexiaofa|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791219,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:47]|h|r [W To] |cffd8d8d8[|r|Hplayer:Jubae-SkullRock:795:WHISPER:JUBAE-SKULLROCK|h|cffd84e4e56|r:|cfffff468Jubae|r|h|cffd8d8d8]|r: Hey |cfffff468Jubae|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791220,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						61, -- [3]
+						62, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:47]|h|r [W To] |cffd8d8d8[|r|Hplayer:Yigexiaofa-SkullRock:796:WHISPER:YIGEXIAOFA-SKULLROCK|h|cffd84e4e44|r:|cff3fc6eaYigexiaofa|r|h|cffd8d8d8]|r: Hey |cff3fc6eaYigexiaofa|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791220,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						63, -- [3]
+						64, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:48]|h|r You have invited |cffaad372Fìshstíx|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791221,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:48]|h|r |cffaad372Fìshstíx|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791221,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:49]|h|r [W To] |cffd8d8d8[|r|Hplayer:Fìshstíx-SkullRock:799:WHISPER:FÌSHSTÍX-SKULLROCK|h|cffd84e4e47|r:|cffaad372Fìshstíx|r|h|cffd8d8d8]|r: Hey |cffaad372Fìshstíx|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791222,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:51]|h|r You have invited |cffffffffTiggle|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791224,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:51]|h|r |cffffffffTiggle|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791224,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:52]|h|r [W To] |cffd8d8d8[|r|Hplayer:Tiggle-SkullRock:802:WHISPER:TIGGLE-SKULLROCK|h|cffd84e4e41|r:|cffffffffTiggle|r|h|cffd8d8d8]|r: Hey |cffffffffTiggle|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791225,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						67, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:54]|h|r You have invited |cffffffffBurrowrush|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791227,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:55]|h|r [W To] |cffd8d8d8[|r|Hplayer:Burrowrush-SkullRock:804:WHISPER:BURROWRUSH-SKULLROCK|h|cffd84e4e42|r:|cffffffffBurrowrush|r|h|cffd8d8d8]|r: Hey |cffffffffBurrowrush|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791228,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						69, -- [3]
+						70, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:57]|h|r You have invited |cffffffffVitaming|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791230,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:58]|h|r |cffffffffVitaming|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791231,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:06:58]|h|r [W To] |cffd8d8d8[|r|Hplayer:Vitaming-SkullRock:807:WHISPER:VITAMING-SKULLROCK|h|cffd84e4e47|r:|cffffffffVitaming|r|h|cffd8d8d8]|r: Hey |cffffffffVitaming|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791231,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						71, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:00]|h|r You have invited |cfffff468Doomtusk|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791233,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:00]|h|r You have invited |cffaad372Badaim|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791233,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:01]|h|r |cffaad372Badaim|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791234,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:02]|h|r [W To] |cffd8d8d8[|r|Hplayer:Badaim-SkullRock:812:WHISPER:BADAIM-SKULLROCK|h|cffd84e4e40|r:|cffaad372Badaim|r|h|cffd8d8d8]|r: Hey |cffaad372Badaim|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791235,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						73, -- [3]
+						74, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:02]|h|r [W To] |cffd8d8d8[|r|Hplayer:Doomtusk-SkullRock:813:WHISPER:DOOMTUSK-SKULLROCK|h|cffd84e4e40|r:|cfffff468Doomtusk|r|h|cffd8d8d8]|r: Hey |cfffff468Doomtusk|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791235,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						75, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:03]|h|r You have invited |cffc69b6dFut|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791236,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:04]|h|r [W To] |cffd8d8d8[|r|Hplayer:Fut-SkullRock:817:WHISPER:FUT-SKULLROCK|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: Hey |cffc69b6dFut|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791237,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						77, -- [3]
+						78, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:05]|h|r |cfffff468Doomtusk|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791238,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:05]|h|r |cfffff468Jubae|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791238,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:06]|h|r You have invited |cffff7c0aMecat|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791239,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:07]|h|r [W To] |cffd8d8d8[|r|Hplayer:Mecat-SkullRock:823:WHISPER:MECAT-SKULLROCK|h|cffd84e4e43|r:|cffff7c0aMecat|r|h|cffd8d8d8]|r: Hey |cffff7c0aMecat|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791240,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						79, -- [3]
+						80, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:07]|h|r |cffffffffBurrowrush|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791240,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:09]|h|r You have invited |cff8787edFlimzy|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791242,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:09]|h|r |cff8787edFlimzy|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791242,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:11]|h|r [W To] |cffd8d8d8[|r|Hplayer:Flimzy-SkullRock:827:WHISPER:FLIMZY-SKULLROCK|h|cffd84e4e42|r:|cff8787edFlimzy|r|h|cffd8d8d8]|r: Hey |cff8787edFlimzy|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791244,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:12]|h|r You have invited |cfffff468Madge|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791245,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:13]|h|r [W To] |cffd8d8d8[|r|Hplayer:Madge-SkullRock:829:WHISPER:MADGE-SKULLROCK|h|cffd84e4e41|r:|cfffff468Madge|r|h|cffd8d8d8]|r: Hey |cfffff468Madge|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791246,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						83, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:15]|h|r [W From] |cffd8d8d8[|r|Hplayer:Jubae-SkullRock:830:WHISPER:JUBAE-SKULLROCK|h|cffd84e4e56|r:|cfffff468Jubae|r|h|cffd8d8d8]|r: ty for the offer!",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791248,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						61, -- [3]
+						85, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:16]|h|r You have invited |cffaad372Vicetwist|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791249,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:16]|h|r |cffaad372Vicetwist|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791249,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:17]|h|r [W To] |cffd8d8d8[|r|Hplayer:Vicetwist-SkullRock:833:WHISPER:VICETWIST-SKULLROCK|h|cffd84e4e43|r:|cffaad372Vicetwist|r|h|cffd8d8d8]|r: Hey |cffaad372Vicetwist|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791250,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						86, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:23]|h|r |cfffff468Madge|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791256,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:835:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: gay",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791259,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:27]|h|r [W From] |cffd8d8d8[|r|Hplayer:Fut-SkullRock:836:WHISPER:FUT-SKULLROCK|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: hi |cff00ff00fiesh|r",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791260,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						77, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Donning-SkullRock:837:CHANNEL:2|h|cff3fc6eaDonning|r|h|cffd8d8d8]|r: *!@#ers",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791261,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:30]|h|r [W From] |cffd8d8d8[|r|Hplayer:Fut-SkullRock:839:WHISPER:FUT-SKULLROCK|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: thanks for the |cffffff00|Hinvplr:Fut-SkullRock|h[inv]|h|r",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791263,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						77, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:33]|h|r [W From] |cffd8d8d8[|r|Hplayer:Fut-SkullRock:840:WHISPER:FUT-SKULLROCK|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: im just running solo right now",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791266,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						77, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:34]|h|r |cffc69b6dFut|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791267,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:40]|h|r Dungeon difficulty set to Normal",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791273,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:40]|h|r You have invited |cffc69b6dFut|r to join your group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791273,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:40]|h|r [W From] |cffd8d8d8[|r|Hplayer:Fut-SkullRock:844:WHISPER:FUT-SKULLROCK|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: and im just rolling enchant right now",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791273,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						77, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Femalepants-SkullRock:845:CHANNEL:2|h|cfffff468Femalepants|r|h|cffd8d8d8]|r: were all g f words",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791275,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:846:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: our worst fighter vs their worst in a duel tot he death",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791277,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:45]|h|r [W From] |cffd8d8d8[|r|Hplayer:Fut-SkullRock:847:WHISPER:FUT-SKULLROCK|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: what bout you",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791278,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						77, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:46]|h|r |cffc69b6dFut|r joins the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791279,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:55]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fut-SkullRock:850:PARTY|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: hi |cff00ff00fiesh|r whats up",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791288,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						89, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:56]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Fiesh-SkullRock:851:PARTY|h|cffd8d83f5|r:|cff8787edFiesh|r|h|cffd8d8d8]|r: sry i was just testing something out",
+					["b"] = 1,
+					["r"] = 0.4627451300621033,
+					["g"] = 0.7843137979507446,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791289,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						89, -- [3]
+						91, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:07:59]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Fiesh-SkullRock:852:PARTY|h|cffd8d83f5|r:|cff8787edFiesh|r|h|cffd8d8d8]|r: thanks!",
+					["b"] = 1,
+					["r"] = 0.4627451300621033,
+					["g"] = 0.7843137979507446,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791292,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						89, -- [3]
+						91, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:01]|h|r You have invited |cfffff468Malcah|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791294,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:01]|h|r You have invited |cffffffffAlphinaud|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791294,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:03]|h|r [W To] |cffd8d8d8[|r|Hplayer:Malcah-SkullRock:855:WHISPER:MALCAH-SKULLROCK|h|cffd84e4e40|r:|cfffff468Malcah|r|h|cffd8d8d8]|r: Hey |cfffff468Malcah|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791296,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						92, -- [3]
+						93, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:03]|h|r [W To] |cffd8d8d8[|r|Hplayer:Alphinaud-SkullRock:856:WHISPER:ALPHINAUD-SKULLROCK|h|cffd84e4e40|r:|cffffffffAlphinaud|r|h|cffd8d8d8]|r: Hey |cffffffffAlphinaud|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791296,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						94, -- [3]
+						95, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Femalepants-SkullRock:857:CHANNEL:2|h|cfffff468Femalepants|r|h|cffd8d8d8]|r: carefull cussing in public they will ban you",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791297,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:05]|h|r |cfffff468Malcah|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791298,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:07]|h|r You have invited |cfffff468Emofour|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791300,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:08]|h|r [W To] |cffd8d8d8[|r|Hplayer:Emofour-SkullRock:860:WHISPER:EMOFOUR-SKULLROCK|h|cffd84e4e40|r:|cfffff468Emofour|r|h|cffd8d8d8]|r: Hey |cfffff468Emofour|r, which professions are you leveling? The (okay) crafting guild is looking for dedicated crafters <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791301,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						96, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:10]|h|r |cffffffffAlphinaud|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791303,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:11]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fut-SkullRock:862:PARTY|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: np",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791304,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						89, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Numberrthree-SkullRock:863:CHANNEL:2|h|cfffff468Numberrthree|r|h|cffd8d8d8]|r: ur a closet gay if you have sex with high body count women b/c you want the $%^&* inside near your dick",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791304,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:864:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: !@#$",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791304,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fishytanktwo-SkullRock:865:CHANNEL:2|h|cff65b2651|r:|cffc69b6dFishytanktwo|r|h|cffd8d8d8]|r: im telling my mom",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791306,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:15]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Fiesh-SkullRock:866:PARTY|h|cffd8d83f5|r:|cff8787edFiesh|r|h|cffd8d8d8]|r: have a good one!",
+					["b"] = 1,
+					["r"] = 0.4627451300621033,
+					["g"] = 0.7843137979507446,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791308,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						89, -- [3]
+						91, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fishytanktwo-SkullRock:867:CHANNEL:2|h|cff65b2651|r:|cffc69b6dFishytanktwo|r|h|cffd8d8d8]|r: she will ban all of you",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791310,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:18]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fut-SkullRock:868:PARTY|h|cffd84e4e40|r:|cffc69b6dFut|r|h|cffd8d8d8]|r: you too",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791311,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						89, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Donning-SkullRock:869:CHANNEL:2|h|cff3fc6eaDonning|r|h|cffd8d8d8]|r: oh no",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791312,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:21]|h|r You leave the group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791314,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:23]|h|r |cffd8d8d8[|r|Hplayer:Pb:871|h|cff65b2651|r:|cffffffffPb|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791316,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fishytanktwo-SkullRock:872:CHANNEL:2|h|cff65b2651|r:|cffc69b6dFishytanktwo|r|h|cffd8d8d8]|r: she is super hot though",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791319,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:873:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: %^&*alingus",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791325,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Carcinth:874:CHANNEL:2|h|cff8787edCarcinth|r|h|cffd8d8d8]|r: anyone for |Hquestie:408:Player-5099-01AE4D0B|h|cFFFF1A1A[|r|cFFFF1A1A[13] The Family Crypt|r|cFFFF1A1A]|r|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791338,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Donning-SkullRock:875:CHANNEL:2|h|cff3fc6eaDonning|r|h|cffd8d8d8]|r: im ur moms fav maintenance guy",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791339,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:08:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Femalepants-SkullRock:880:CHANNEL:2|h|cfffff468Femalepants|r|h|cffd8d8d8]|r: hey fishy this is your step dad you need to keep your mouth shut about my girlfriend!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791352,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xoz-SkullRock:886:CHANNEL:2|h|cffc69b6dXoz|r|h|cffd8d8d8]|r: negrosopholese",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791354,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:07]|h|r |cfffff468Emofour|r declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791360,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:07]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fishytanktwo-SkullRock:892:CHANNEL:2|h|cff65b2651|r:|cffc69b6dFishytanktwo|r|h|cffd8d8d8]|r: sorry daddy",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791360,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:13]|h|r |cffff7d0aGrumplebear|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 13923.078,
+					["serverTime"] = 1695791366,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [118]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 14 seconds",
+					["timestamp"] = 13923.078,
+				}, -- [119]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 13923.078,
+				}, -- [120]
+				{
+					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
+					["timestamp"] = 13923.078,
+				}, -- [121]
+				{
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 13923.078,
+				}, -- [122]
+				{
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 13923.078,
+				}, -- [123]
+				{
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 13923.078,
+				}, -- [124]
+				{
+					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 13923.078,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:24]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 13923.078,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:27]|h|r Guild Message of the Day: The <[O.o]><[KK]> Crafting Guild. Join discord and self assign profession roles. See guild info.",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 13923.078,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:09:27]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 13923.078,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

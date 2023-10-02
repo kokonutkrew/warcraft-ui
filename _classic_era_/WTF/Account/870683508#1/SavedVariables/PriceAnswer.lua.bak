@@ -1,0 +1,21 @@
+
+PriceAnswerDB = {
+	["profileKeys"] = {
+		["Fishhook - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+	},
+	["global"] = {
+		["replyChannel"] = {
+			["guildChannel"] = "GUILD",
+		},
+		["trigger"] = "!price",
+		["tsmSources"] = {
+			["dbregionmarketavg"] = false,
+			["dbminbuyout"] = false,
+			["dbhistorical"] = false,
+			["dbmarket"] = false,
+			["dbregionhistorical"] = false,
+		},
+	},
+}

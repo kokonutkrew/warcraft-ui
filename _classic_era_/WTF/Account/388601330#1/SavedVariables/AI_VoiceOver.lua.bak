@@ -1,13 +1,44 @@
 
 VoiceOverDB = {
+	["char"] = {
+		["Øø - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5177-1-48-3309-0000773819"] = true,
+				["Creature-0-5175-1-56-3370-000009AE1D"] = true,
+				["Creature-0-5178-1-79-3370-000009AE94"] = true,
+				["Creature-0-5177-1-85-3309-000012E90C"] = true,
+				["Creature-0-5177-1-70-3309-000012E8D0"] = true,
+				["Creature-0-5175-1-81-3309-000005B72F"] = true,
+			},
+		},
+	},
 	["profileKeys"] = {
+		["Cupcakess - Whitemane"] = "Cupcakess - Whitemane",
+		["Kkorgrimmar - Whitemane"] = "Kkorgrimmar - Whitemane",
 		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 	},
 	["profiles"] = {
+		["Cupcakess - Whitemane"] = {
+		},
+		["Kkorgrimmar - Whitemane"] = {
+		},
 		["Kkundercity - Skull Rock"] = {
+			["MinimapButton"] = {
+				["LibDBIcon"] = {
+					["minimapPos"] = 205.7032530822387,
+				},
+			},
 		},
 		["Øø - Skull Rock"] = {
+			["MinimapButton"] = {
+				["LibDBIcon"] = {
+					["minimapPos"] = 184.243008875289,
+				},
+			},
+		},
+		["Bannhammer - Skull Rock"] = {
 		},
 	},
 }

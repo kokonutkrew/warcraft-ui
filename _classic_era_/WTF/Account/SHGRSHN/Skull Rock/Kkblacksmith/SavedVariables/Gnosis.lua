@@ -126,9 +126,14 @@ GnosisCharConfig = {
 				},
 			},
 			["cboptver"] = 4.62,
-			["forcefreealign"] = false,
 			["aligntime"] = "RIGHT",
 			["scale"] = 1,
+			["colText"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["height"] = 28,
 			["fontsize_lat"] = 0,
 			["colBorder"] = {
@@ -137,18 +142,13 @@ GnosisCharConfig = {
 				0, -- [3]
 				0.85, -- [4]
 			},
-			["colText"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["colInterrupted"] = {
 				1, -- [1]
 				0.8, -- [2]
 				0, -- [3]
 				0.7, -- [4]
 			},
+			["bIconUnlocked"] = true,
 			["strata"] = "MEDIUM",
 			["bEn"] = true,
 			["colChanneled"] = {
@@ -163,24 +163,24 @@ GnosisCharConfig = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["bIconUnlocked"] = true,
-			["border"] = 2,
 			["colOutOfRange"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = 2,
 			["bShowCBS"] = true,
 			["strGap"] = 15,
+			["forcefreealign"] = false,
 			["bartype"] = "cb",
 			["iconside"] = "LEFT",
 			["bShowPlayerLatency"] = true,
 			["bExtChannels"] = true,
-			["bUnlocked"] = false,
 			["bResizeLongName"] = false,
 			["fontoutline"] = "OUTLINE",
 			["bShowWNC"] = false,
+			["bUnlocked"] = false,
 			["relationsel"] = 1,
 			["ingroupsel"] = 1,
 			["alignlat"] = "ADAPT",
@@ -324,9 +324,14 @@ GnosisCharConfig = {
 				},
 			},
 			["cboptver"] = 4.62,
-			["forcefreealign"] = false,
 			["aligntime"] = "RIGHT",
 			["scale"] = 1,
+			["colText"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["height"] = 20,
 			["fontsize_lat"] = 0,
 			["colBorder"] = {
@@ -335,18 +340,13 @@ GnosisCharConfig = {
 				0, -- [3]
 				0.85, -- [4]
 			},
-			["colText"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["colInterrupted"] = {
 				1, -- [1]
 				0.8, -- [2]
 				0, -- [3]
 				0.7, -- [4]
 			},
+			["bIconUnlocked"] = false,
 			["strata"] = "MEDIUM",
 			["bEn"] = true,
 			["colChanneled"] = {
@@ -361,24 +361,24 @@ GnosisCharConfig = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["bIconUnlocked"] = false,
-			["border"] = 2,
 			["colOutOfRange"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = 2,
 			["bShowCBS"] = true,
 			["strGap"] = 15,
+			["forcefreealign"] = false,
 			["bartype"] = "cb",
 			["iconside"] = "LEFT",
 			["bShowPlayerLatency"] = true,
 			["bExtChannels"] = true,
-			["bUnlocked"] = false,
 			["bResizeLongName"] = false,
 			["fontoutline"] = "OUTLINE",
 			["bShowWNC"] = false,
+			["bUnlocked"] = false,
 			["relationsel"] = 1,
 			["ingroupsel"] = 1,
 			["alignlat"] = "ADAPT",
@@ -522,9 +522,14 @@ GnosisCharConfig = {
 				},
 			},
 			["cboptver"] = 4.62,
-			["forcefreealign"] = false,
 			["aligntime"] = "RIGHT",
 			["scale"] = 1,
+			["colText"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["height"] = 20,
 			["fontsize_lat"] = 0,
 			["colBorder"] = {
@@ -533,18 +538,13 @@ GnosisCharConfig = {
 				0, -- [3]
 				0.85, -- [4]
 			},
-			["colText"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["colInterrupted"] = {
 				1, -- [1]
 				0.8, -- [2]
 				0, -- [3]
 				0.7, -- [4]
 			},
+			["bIconUnlocked"] = false,
 			["strata"] = "MEDIUM",
 			["bEn"] = true,
 			["colChanneled"] = {
@@ -559,24 +559,24 @@ GnosisCharConfig = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["bIconUnlocked"] = false,
-			["border"] = 2,
 			["colOutOfRange"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = 2,
 			["bShowCBS"] = true,
 			["strGap"] = 15,
+			["forcefreealign"] = false,
 			["bartype"] = "cb",
 			["iconside"] = "LEFT",
 			["bShowPlayerLatency"] = true,
 			["bExtChannels"] = true,
-			["bUnlocked"] = false,
 			["bResizeLongName"] = false,
 			["fontoutline"] = "OUTLINE",
 			["bShowWNC"] = false,
+			["bUnlocked"] = false,
 			["relationsel"] = 1,
 			["ingroupsel"] = 1,
 			["alignlat"] = "ADAPT",
@@ -720,9 +720,14 @@ GnosisCharConfig = {
 				},
 			},
 			["cboptver"] = 4.62,
-			["forcefreealign"] = false,
 			["aligntime"] = "RIGHT",
 			["scale"] = 1,
+			["colText"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["height"] = 20,
 			["fontsize_lat"] = 0,
 			["colBorder"] = {
@@ -731,18 +736,13 @@ GnosisCharConfig = {
 				0, -- [3]
 				0.85, -- [4]
 			},
-			["colText"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["colInterrupted"] = {
 				1, -- [1]
 				0.8, -- [2]
 				0, -- [3]
 				0.7, -- [4]
 			},
+			["bIconUnlocked"] = false,
 			["strata"] = "MEDIUM",
 			["bEn"] = true,
 			["colChanneled"] = {
@@ -757,24 +757,24 @@ GnosisCharConfig = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["bIconUnlocked"] = false,
-			["border"] = 2,
 			["colOutOfRange"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = 2,
 			["bShowCBS"] = true,
 			["strGap"] = 15,
+			["forcefreealign"] = false,
 			["bartype"] = "cb",
 			["iconside"] = "LEFT",
 			["bShowPlayerLatency"] = true,
 			["bExtChannels"] = true,
-			["bUnlocked"] = false,
 			["bResizeLongName"] = false,
 			["fontoutline"] = "OUTLINE",
 			["bShowWNC"] = false,
+			["bUnlocked"] = false,
 			["relationsel"] = 1,
 			["ingroupsel"] = 1,
 			["alignlat"] = "ADAPT",
@@ -918,9 +918,14 @@ GnosisCharConfig = {
 				},
 			},
 			["cboptver"] = 4.62,
-			["forcefreealign"] = false,
 			["aligntime"] = "RIGHT",
 			["scale"] = 1,
+			["colText"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["height"] = 20,
 			["fontsize_lat"] = 0,
 			["colBorder"] = {
@@ -929,18 +934,13 @@ GnosisCharConfig = {
 				0, -- [3]
 				0.85, -- [4]
 			},
-			["colText"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["colInterrupted"] = {
 				1, -- [1]
 				0.8, -- [2]
 				0, -- [3]
 				0.7, -- [4]
 			},
+			["bIconUnlocked"] = false,
 			["strata"] = "MEDIUM",
 			["bEn"] = true,
 			["colChanneled"] = {
@@ -955,24 +955,24 @@ GnosisCharConfig = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["bIconUnlocked"] = false,
-			["border"] = 2,
 			["colOutOfRange"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["border"] = 2,
 			["bShowCBS"] = true,
 			["strGap"] = 15,
+			["forcefreealign"] = false,
 			["bartype"] = "cb",
 			["iconside"] = "LEFT",
 			["bShowPlayerLatency"] = true,
 			["bExtChannels"] = true,
-			["bUnlocked"] = false,
 			["bResizeLongName"] = false,
 			["fontoutline"] = "OUTLINE",
 			["bShowWNC"] = false,
+			["bUnlocked"] = false,
 			["relationsel"] = 1,
 			["ingroupsel"] = 1,
 			["alignlat"] = "ADAPT",

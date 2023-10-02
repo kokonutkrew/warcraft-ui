@@ -1,23 +1,26 @@
 
 BiSTrackerDB = {
 	["profileKeys"] = {
+		["Kktailor - Whitemane"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
 		["Samoansavage - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
-		["Samoanmystic - Grobbulus"] = "Default",
+		["Samoanslayer - Grobbulus"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanslayer - Grobbulus"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

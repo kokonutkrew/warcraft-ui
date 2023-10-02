@@ -2,26 +2,25 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Samoanraja - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Kkbanker - Skull Rock"] = "Samoanslayer - Grobbulus",
+		["Samoanrelic - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Kktailor - Whitemane"] = "Samoanslayer - Grobbulus",
+		["Kktailor - Skull Rock"] = "Samoanslayer - Grobbulus",
 		["Samoanmystic - Grobbulus"] = "Samoanslayer - Grobbulus",
-		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Kkbank - Whitemane"] = "Samoanslayer - Grobbulus",
 		["Samoanlegend - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Kk - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanbeast - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Ss - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoansage - Grobbulus"] = "Samoanslayer - Grobbulus",
-		["Samoanrelic - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanranger - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoansavage - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Dd - Grobbulus"] = "Samoanslayer - Grobbulus",
 	},
 	["profiles"] = {
 		["Samoanslayer - Grobbulus"] = {
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["use_square_mode"] = false,
 			["is_first_run"] = false,
 			["arrow_color"] = {
 				1, -- [1]
@@ -29,28 +28,29 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["main_frame_size"] = {
-				300, -- [1]
-				500.000030517578, -- [2]
-			},
+			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["arrow_anchor_x"] = 0,
-			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
 			["row_height"] = 20,
+			["arrow_anchor_x"] = 0,
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
 			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["y"] = -1.52587890625e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -58,13 +58,14 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
-			["y"] = -1.52587890625e-05,
-			["x"] = 3.0517578125e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -76,9 +77,16 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["x"] = 3.0517578125e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["font_size"] = 10,
 			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
 		},
 	},
 }

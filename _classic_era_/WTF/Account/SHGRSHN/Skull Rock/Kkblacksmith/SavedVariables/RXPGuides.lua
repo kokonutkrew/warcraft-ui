@@ -1,14 +1,8 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		[79] = {
-		},
-		[80] = {
-		},
-		["tip"] = {
-		},
 	},
-	["currentStep"] = 80,
+	["currentStep"] = 1,
 	["questObjectivesCache"] = {
 		[0] = 37,
 		[354] = {
@@ -422,7 +416,7 @@ RXPCData = {
 			}, -- [1]
 		},
 	},
-	["currentGuideGroup"] = "RestedXP Horde 1-22",
+	["currentGuideGroup"] = "",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
@@ -445,25 +439,9 @@ RXPCData = {
 		[370] = "At War With The Scarlet Crusade",
 		[792] = "Vile Familiars",
 	},
-	["currentGuideName"] = "06-11 Tirisfal Glades",
+	["currentGuideName"] = "",
 	["stepSkip"] = {
-		[61] = true,
-		[50] = true,
-		[27] = true,
-		[74] = true,
-		[54] = true,
-		[8] = true,
-		[31] = true,
-		[10] = true,
-		[53] = true,
-		[36] = true,
-		[72] = true,
-		[40] = true,
-		[14] = true,
-		[35] = true,
-		[43] = true,
 	},
-	["currentStepId"] = 438898756,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -912,12 +890,12 @@ RXPCComms = {
 					["xp"] = 42,
 				},
 				["Failgasm"] = {
-					["level"] = 12,
+					["class"] = "HUNTER",
 					["lastSeen"] = 31664.88,
 					["xpPercentage"] = 90,
-					["class"] = "HUNTER",
-					["timePlayed"] = 0,
 					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 12,
 				},
 				["Havokk"] = {
 					["timePlayed"] = 157.929999999993,

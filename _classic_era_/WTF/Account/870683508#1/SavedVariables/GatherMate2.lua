@@ -1,0 +1,46 @@
+
+GatherMate2DB = {
+	["profileKeys"] = {
+		["Fiesh - Pagle"] = "Default",
+		["Fishhook - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
+		["Farmcraft - Skull Rock"] = "Default",
+		["Fiesh - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Fishook - Skull Rock"] = "Default",
+	},
+	["global"] = {
+		["data_version"] = 5,
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+GatherMate2HerbDB = {
+	[1414] = {
+		[5199551700] = 408,
+	},
+}
+GatherMate2MineDB = {
+}
+GatherMate2FishDB = {
+	[1413] = {
+		[4510226900] = 109,
+	},
+}
+GatherMate2GasDB = nil
+GatherMate2TreasureDB = {
+	[1413] = {
+		[6378492100] = 502,
+	},
+	[1411] = {
+		[4661790000] = 502,
+		[6176511700] = 502,
+		[5128210500] = 502,
+	},
+	[1412] = {
+		[3555624100] = 502,
+	},
+}

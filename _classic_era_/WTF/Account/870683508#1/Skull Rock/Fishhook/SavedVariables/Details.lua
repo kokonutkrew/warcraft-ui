@@ -1,0 +1,34841 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1079,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.001563,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 678.001563,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 710.001563,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kresh"] = 710,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696204241,
+							["nome"] = "Joexd",
+							["on_hold"] = false,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 228,
+										},
+										["n_total"] = 128,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 228,
+										["c_max"] = 53,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 47,
+										["successful_casted"] = 0,
+										["c_total"] = 100,
+										["n_amt"] = 4,
+										["n_max"] = 39,
+										["r_amt"] = 0,
+									},
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 228,
+										},
+										["n_total"] = 228,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 228,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 105,
+										},
+										["n_total"] = 105,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 105,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 117,
+										},
+										["n_total"] = 117,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 117,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 23,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "5099-01A9FF11",
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204240,
+							["damage_taken"] = 0.001563,
+							["start_time"] = 1696204223,
+							["delay"] = 0,
+							["last_dps"] = 27.30355187664879,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008146,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 227.008146,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 227.008146,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Environment (Fire)"] = true,
+								["Kresh"] = true,
+							},
+							["targets"] = {
+								["Deviate Crocolisk"] = 50,
+								["Kresh"] = 177,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696204315,
+							["nome"] = "Fishhook",
+							["on_hold"] = false,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 3,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 6,
+										},
+										["n_total"] = 0,
+										["DODGE"] = 1,
+										["n_min"] = 0,
+										["g_dmg"] = 6,
+										["counter"] = 6,
+										["MISS"] = 1,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["n_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["total"] = 6,
+										["a_amt"] = 0,
+									}, -- [1]
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Crocolisk"] = 50,
+											["Kresh"] = 136,
+										},
+										["n_total"] = 186,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 186,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 35,
+										},
+										["n_total"] = 35,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 35,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "5099-01B2A1BB",
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204313,
+							["damage_taken"] = 431.008146,
+							["start_time"] = 1696204218,
+							["delay"] = 0,
+							["last_dps"] = 8.729739501619749,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.006759,
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 196.006759,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 196.006759,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kresh"] = 196,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696204241,
+							["nome"] = "Gihunter",
+							["on_hold"] = false,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 111,
+										},
+										["n_total"] = 111,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 111,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 41,
+										},
+										["n_total"] = 41,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 41,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "5099-01B2459E",
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204241,
+							["damage_taken"] = 0.006759,
+							["start_time"] = 1696204226,
+							["delay"] = 0,
+							["last_dps"] = 7.537561875100121,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.005301,
+							["pets"] = {
+								"Strength of Earth Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 170.005301,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 170.005301,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kresh"] = 170,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696204241,
+							["nome"] = "Kylablast",
+							["on_hold"] = false,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 2,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 107,
+										},
+										["n_total"] = 74,
+										["n_min"] = 21,
+										["g_dmg"] = 33,
+										["counter"] = 5,
+										["total"] = 107,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 30,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 38,
+										},
+										["n_total"] = 38,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 38,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 25,
+										},
+										["n_total"] = 25,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 25,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 25,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "5099-019B323F",
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204239,
+							["damage_taken"] = 0.005301,
+							["start_time"] = 1696204219,
+							["delay"] = 0,
+							["last_dps"] = 6.537659629291255,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.003439,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 135.003439,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 135.003439,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Kresh"] = true,
+							},
+							["targets"] = {
+								["Kresh"] = 135,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696204241,
+							["nome"] = "Kaevee",
+							["on_hold"] = false,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 1,
+										["b_dmg"] = 13,
+										["targets"] = {
+											["Kresh"] = 135,
+										},
+										["n_total"] = 110,
+										["n_min"] = 13,
+										["g_dmg"] = 25,
+										["counter"] = 8,
+										["total"] = 135,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 26,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "5099-019E70EF",
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204241,
+							["damage_taken"] = 371.003439,
+							["start_time"] = 1696204218,
+							["delay"] = 0,
+							["last_dps"] = 5.191641247503126,
+						}, -- [5]
+						{
+							["flag_original"] = 68136,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 415.005027,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 415.005027,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5175-43-6721-3653-00001A03E2",
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Gihunter"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 44,
+								["Kaevee"] = 371,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 371,
+							},
+							["aID"] = "3653",
+							["end_time"] = 1696204241,
+							["totalabsorbed"] = 0.005027,
+							["nome"] = "Kresh",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 44,
+											["Kaevee"] = 371,
+										},
+										["n_total"] = 415,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 415,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 11,
+										["n_max"] = 44,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204239,
+							["damage_taken"] = 1388.005027,
+							["start_time"] = 1696204218,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 32.004246,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 32.004246,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kresh"] = 32,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.004246,
+							["end_time"] = 1696204241,
+							["nome"] = "Kongarth <Joexd>",
+							["ownerName"] = "Joexd",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kresh"] = 32,
+										},
+										["n_total"] = 32,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 32,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 7,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696204239,
+							["damage_taken"] = 0.004246,
+							["start_time"] = 1696204227,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 0.004509,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.004509,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5175-43-6721-5874-00001A05CB",
+							["damage_from"] = {
+								["Deviate Crocolisk"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "5874",
+							["end_time"] = 1696204315,
+							["totalabsorbed"] = 0.004509,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Strength of Earth Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 4.004509,
+							["start_time"] = 1696204315,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1079,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "SHAMAN",
+							["totalover"] = 0.002697,
+							["total_without_pet"] = 256.002697,
+							["total"] = 256.002697,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.002697,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kaevee"] = 256,
+							},
+							["totalover_without_pet"] = 0.002697,
+							["aID"] = "5099-019B323F",
+							["healing_taken"] = 0.002697,
+							["end_time"] = 1696204241,
+							["targets_overheal"] = {
+							},
+							["start_time"] = 1696204234,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 138,
+										["targets"] = {
+											["Kaevee"] = 256,
+										},
+										["n_total"] = 256,
+										["n_min"] = 39,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 256,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 1696204239,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002697,
+							["delay"] = 0,
+							["nome"] = "Kylablast",
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.006466,
+							["total_without_pet"] = 0.006466,
+							["total"] = 0.006466,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.006466,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006466,
+							["aID"] = "5099-019E70EF",
+							["healing_taken"] = 256.006466,
+							["end_time"] = 1696204241,
+							["targets_overheal"] = {
+							},
+							["start_time"] = 1696204241,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006466,
+							["delay"] = 0,
+							["nome"] = "Kaevee",
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1079,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.002433,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.002433,
+							["total"] = 20.002433,
+							["serial"] = "Player-5099-019E70EF",
+							["received"] = 20.002433,
+							["targets"] = {
+								["Kaevee"] = 20,
+							},
+							["powertype"] = 1,
+							["alternatepower"] = 0.002433,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["total"] = 20,
+										["totalover"] = 0,
+										["id"] = "Bloodrage",
+										["targets"] = {
+											["Kaevee"] = 20,
+										},
+										["counter"] = 11,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.002433,
+							["tipo"] = 3,
+							["boss_fight_component"] = true,
+							["last_event"] = 1696204238,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1079,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Taunt"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Taunt",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 125,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[3219] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 3219,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bloodrage"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Bloodrage",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Battle Stance"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Battle Stance",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Defensive Stance"] = {
+										["activedamt"] = 1,
+										["id"] = "Defensive Stance",
+										["targets"] = {
+										},
+										["actived_at"] = 1696204221,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 18,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1696204241,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["boss_fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 21,
+										["id"] = "Corruption",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 19,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 23,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 51,
+							["nome"] = "Joexd",
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1696204241,
+							["aID"] = "5099-01A9FF11",
+							["serial"] = "Player-5099-01A9FF11",
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 22,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 23,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 37,
+							["nome"] = "Gihunter",
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1696204241,
+							["aID"] = "5099-01B2459E",
+							["serial"] = "Player-5099-01B2459E",
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = -1,
+										["uptime"] = 14,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 23,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 14,
+							["nome"] = "Fishhook",
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1696204241,
+							["aID"] = "5099-01B2A1BB",
+							["serial"] = "Player-5099-01B2A1BB",
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 2,
+							["nome"] = "Kylablast",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1696204241,
+							["aID"] = "5099-019B323F",
+							["serial"] = "Player-5099-019B323F",
+							["boss_fight_component"] = true,
+						}, -- [5]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["tipo"] = 4,
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1079,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 206268.794,
+				["tempo_start"] = 1696204218,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossIcon"] = "",
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					13308, -- [1]
+					256, -- [2]
+					{
+						20, -- [1]
+						[0] = 55,
+						["alternatepower"] = 0,
+						[3] = 280,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Fishhook"] = {
+						{
+							true, -- [1]
+							6, -- [2]
+							13, -- [3]
+							1696258397.765, -- [4]
+							510, -- [5]
+							"Environment (Fire)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							6, -- [2]
+							13, -- [3]
+							1696258401.385, -- [4]
+							510, -- [5]
+							"Environment (Fire)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							6, -- [2]
+							12, -- [3]
+							1696258405.462, -- [4]
+							510, -- [5]
+							"Environment (Fire)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							3, -- [2]
+							115, -- [3]
+							1696258927.873, -- [4]
+							770, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							3, -- [2]
+							28, -- [3]
+							1696259075.216, -- [4]
+							770, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							6, -- [2]
+							14, -- [3]
+							1696259256.526, -- [4]
+							770, -- [5]
+							"Environment (Fire)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							3, -- [2]
+							192, -- [3]
+							1696259674.67, -- [4]
+							770, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 8,
+					},
+				},
+				["frags_need_refresh"] = false,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Flame Shock"] = 1,
+					},
+					["Kongarth"] = {
+						["Torment"] = 2,
+					},
+					["Kaevee"] = {
+						["Taunt"] = 2,
+						["Sunder Armor"] = 3,
+						["Bloodrage"] = 1,
+						["Defensive Stance"] = 1,
+					},
+					["Joexd"] = {
+						["Shoot"] = 6,
+						["Corruption"] = 2,
+						["Immolate"] = 1,
+						["Curse of Agony"] = 1,
+					},
+					["Gihunter"] = {
+						["Hunter's Mark"] = 2,
+						["Arcane Shot"] = 2,
+						["Auto Shot"] = 7,
+						["Serpent Sting"] = 1,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Kylablast"] = {
+						["Healing Wave"] = 3,
+						["Rockbiter Weapon"] = 1,
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+				},
+				["instance_type"] = "party",
+				["data_fim"] = "17:50:41",
+				["hasTimer"] = 22.10800000000745,
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Kresh",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 206198.183,
+				["CombatEndedAt"] = 206198.183,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:50:19",
+				["end_time"] = 206196.731,
+				["combat_id"] = 1079,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Normal",
+					["index"] = 0,
+					["zone"] = "Wailing Caverns",
+					["encounter"] = "Kresh",
+					["mapid"] = 43,
+					["try_number"] = 1,
+					["name"] = "Kresh",
+					["diff"] = 201,
+					["ej_instance_id"] = 0,
+					["id"] = 587,
+					["unixtime"] = 1696204241,
+					["killed"] = true,
+				},
+				["totals_grupo"] = {
+					1406, -- [1]
+					256, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_counter"] = 1088,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 256.002697,
+							["Kaevee"] = 0.006466,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 177.008146,
+							["Gihunter"] = 196.006759,
+							["Kaevee"] = 135.003439,
+							["Joexd"] = 710.001563,
+							["Kylablast"] = 170.005301,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 206170.727,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1063,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 985.007012,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 985.007012,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 985,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203711,
+							["totalabsorbed"] = 0.007012,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 550,
+										},
+										["n_total"] = 318,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 550,
+										["c_max"] = 118,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 114,
+										["successful_casted"] = 0,
+										["c_total"] = 232,
+										["n_amt"] = 6,
+										["n_max"] = 60,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 131,
+										},
+										["n_total"] = 131,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 131,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 34,
+										},
+										["n_total"] = 34,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 34,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 34,
+										["r_amt"] = 0,
+									},
+									["Frost Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 91,
+										},
+										["n_total"] = 91,
+										["n_min"] = 91,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 91,
+										["c_max"] = 0,
+										["id"] = "Frost Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 91,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 179,
+										},
+										["n_total"] = 179,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 179,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 48,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203710,
+							["damage_taken"] = 224.007012,
+							["start_time"] = 1696203684,
+							["delay"] = 0,
+							["last_dps"] = 36.26282119058952,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 385.006306,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 385.006306,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 385,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203711,
+							["totalabsorbed"] = 0.006306,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 114,
+										},
+										["n_total"] = 114,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 114,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 35,
+										},
+										["n_total"] = 35,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 35,
+										["r_amt"] = 0,
+									},
+									["Drain Life"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 38,
+										},
+										["n_total"] = 38,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 38,
+										["c_max"] = 0,
+										["id"] = "Drain Life",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 19,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 174,
+										},
+										["n_total"] = 174,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 174,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 24,
+										},
+										["n_total"] = 24,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203710,
+							["damage_taken"] = 0.006306,
+							["start_time"] = 1696203690,
+							["delay"] = 0,
+							["last_dps"] = 14.17392430880217,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 302.005847,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 302.005847,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 302,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203711,
+							["totalabsorbed"] = 0.005847,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 2,
+										["g_amt"] = 0,
+										["b_dmg"] = 82,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 269,
+										},
+										["n_total"] = 269,
+										["n_min"] = 40,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 269,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 49,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203707,
+							["damage_taken"] = 134.005847,
+							["start_time"] = 1696203685,
+							["delay"] = 0,
+							["last_dps"] = 11.11828027095663,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 129.00783,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 268.00783,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 268,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203711,
+							["totalabsorbed"] = 0.00783,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 18,
+										},
+										["n_total"] = 18,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 18,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									}, -- [1]
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 69,
+										},
+										["n_total"] = 69,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 69,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 36,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 42,
+										},
+										["n_total"] = 42,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 42,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 21,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203709,
+							["damage_taken"] = 0.00783,
+							["start_time"] = 1696203693,
+							["delay"] = 0,
+							["last_dps"] = 9.866650590877128,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 255.00136,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 255.00136,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 255,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203711,
+							["totalabsorbed"] = 0.00136,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 150,
+										},
+										["n_total"] = 78,
+										["n_min"] = 39,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 150,
+										["c_max"] = 72,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 72,
+										["successful_casted"] = 0,
+										["c_total"] = 72,
+										["n_amt"] = 2,
+										["n_max"] = 39,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 39,
+										},
+										["n_total"] = 39,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 39,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+									["Earth Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 66,
+										},
+										["n_total"] = 66,
+										["n_min"] = 66,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = "Earth Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 66,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203696,
+							["damage_taken"] = 79.00136,
+							["start_time"] = 1696203699,
+							["delay"] = 1696203696,
+							["last_dps"] = 9.38782019659079,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 437.004484,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 437.004484,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3638-000019EB56",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Gihunter"] = true,
+								["Cat <Gihunter>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 224,
+								["Kylablast"] = 79,
+								["Kaevee"] = 134,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								79, -- [1]
+								134, -- [2]
+							},
+							["totalabsorbed"] = 0.004484,
+							["fight_component"] = true,
+							["end_time"] = 1696203711,
+							["aID"] = "3638",
+							["nome"] = "Devouring Ectoplasm",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 224,
+											["Kylablast"] = 79,
+											["Kaevee"] = 134,
+										},
+										["n_total"] = 358,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 437,
+										["c_max"] = 79,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 79,
+										["successful_casted"] = 0,
+										["c_total"] = 79,
+										["n_amt"] = 11,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203707,
+							["damage_taken"] = 2195.004484,
+							["start_time"] = 1696203684,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 139.003969,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 139.003969,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 139,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203711,
+							["totalabsorbed"] = 0.003969,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 139,
+										},
+										["n_total"] = 103,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 139,
+										["c_max"] = 36,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 36,
+										["successful_casted"] = 0,
+										["c_total"] = 36,
+										["n_amt"] = 5,
+										["n_max"] = 23,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203709,
+							["damage_taken"] = 0.003969,
+							["start_time"] = 1696203697,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1063,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Joexd"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01A9FF11",
+							["totalover"] = 36.007828,
+							["total_without_pet"] = 2.007828,
+							["total"] = 2.007828,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01A9FF11",
+							["totalabsorb"] = 0.007828,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Joexd"] = 2,
+							},
+							["totalover_without_pet"] = 0.007828,
+							["tipo"] = 2,
+							["healing_taken"] = 2.007828,
+							["fight_component"] = true,
+							["end_time"] = 1696203711,
+							["targets_overheal"] = {
+								["Joexd"] = 36,
+							},
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Drain Life"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Joexd"] = 36,
+										},
+										["n_max"] = 2,
+										["targets"] = {
+											["Joexd"] = 2,
+										},
+										["n_total"] = 2,
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 36,
+										["total"] = 2,
+										["spellschool"] = 32,
+										["id"] = "Drain Life",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203709,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["last_event"] = 1696203696,
+							["totaldenied"] = 0.007828,
+							["delay"] = 1696203696,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.005129,
+							["total_without_pet"] = 192.005129,
+							["total"] = 192.005129,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.005129,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kylablast"] = 42,
+								["Fishhook"] = 150,
+							},
+							["totalover_without_pet"] = 0.005129,
+							["tipo"] = 2,
+							["healing_taken"] = 42.005129,
+							["fight_component"] = true,
+							["end_time"] = 1696203711,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 80,
+										["targets"] = {
+											["Kylablast"] = 42,
+											["Fishhook"] = 150,
+										},
+										["n_total"] = 192,
+										["n_min"] = 42,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 192,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203705,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203710,
+							["totaldenied"] = 0.005129,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01B2A1BB",
+							["totalover"] = 0.007769,
+							["total_without_pet"] = 0.007769,
+							["total"] = 0.007769,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01B2A1BB",
+							["totalabsorb"] = 0.007769,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007769,
+							["tipo"] = 2,
+							["healing_taken"] = 150.007769,
+							["fight_component"] = true,
+							["end_time"] = 1696203711,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203711,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.007769,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [3]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1063,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.006822,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.006822,
+							["total"] = 9.006822,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.006822,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203753,
+							["totalover"] = 0.006822,
+							["alternatepower"] = 0.006822,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1063,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime"] = 27,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["last_event"] = 1696203711,
+							["serial"] = "Player-5099-019B323F",
+							["aID"] = "5099-019B323F",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Taunt"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Taunt",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 108,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[3219] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 3219,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5242] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Battle Shout"] = {
+										["activedamt"] = 1,
+										["id"] = "Battle Shout",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203696,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 23,
+							["nome"] = "Kaevee",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203711,
+							["serial"] = "Player-5099-019E70EF",
+							["aID"] = "5099-019E70EF",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Drain Life"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Drain Life",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 27,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 38,
+							["pets"] = {
+							},
+							["last_event"] = 1696203711,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Joexd",
+							["tipo"] = 4,
+							["aID"] = "5099-01A9FF11",
+							["serial"] = "Player-5099-01A9FF11",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 27,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 3,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203711,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [4]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Frost Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Frost Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Flame Shock"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 24,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Lightning Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["activedamt"] = 1,
+										["id"] = 8076,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203684,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[325] = {
+										["activedamt"] = 1,
+										["id"] = 325,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203684,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 28,
+							["pets"] = {
+							},
+							["last_event"] = 1696203710,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Fishhook",
+							["tipo"] = 4,
+							["aID"] = "5099-01B2A1BB",
+							["serial"] = "Player-5099-01B2A1BB",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1063,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205654.349,
+				["tempo_start"] = 1696203684,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1070,
+				["totals"] = {
+					2632, -- [1]
+					194, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					2056, -- [1]
+					194, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Frost Shock"] = 1,
+						["Flame Shock"] = 2,
+					},
+					["Gihunter"] = {
+						["Skinning"] = 1,
+						["Hunter's Mark"] = 1,
+						["Serpent Sting"] = 1,
+						["Auto Shot"] = 2,
+						["Arcane Shot"] = 2,
+					},
+					["Kaevee"] = {
+						["Battle Shout"] = 1,
+						["Rend"] = 1,
+						["Taunt"] = 1,
+						["Sunder Armor"] = 2,
+					},
+					["Kylablast"] = {
+						["Healing Wave"] = 3,
+						["Stoneskin Totem"] = 1,
+						["Stoneclaw Totem"] = 1,
+						["Earth Shock"] = 1,
+					},
+					["Joexd"] = {
+						["Corruption"] = 2,
+						["Shoot"] = 2,
+						["Drain Life"] = 1,
+						["Immolate"] = 2,
+						["Curse of Agony"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:41:52",
+				["hasTimer"] = 26.15999999997439,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Devouring Ectoplasm",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 11.96699999997509,
+				["CombatEndedAt"] = 205666.316,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:41:25",
+				["end_time"] = 205667.118,
+				["combat_id"] = 1063,
+				["overall_added"] = true,
+				["frags"] = {
+					["Devouring Ectoplasm"] = 2,
+					["Searing Totem II"] = 1,
+					["Searing Totem"] = 1,
+				},
+				["contra"] = "Devouring Ectoplasm",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Joexd"] = 2.007828,
+							["Kylablast"] = 192.005129,
+							["Fishhook"] = 0.007769,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Joexd"] = 385.006306,
+							["Gihunter"] = 268.00783,
+							["Kaevee"] = 302.005847,
+							["Kylablast"] = 255.00136,
+							["Fishhook"] = 985.007012,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205639.955,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1062,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 486.002481,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 563.002481,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+								["Deviate Stinglash"] = true,
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 312,
+								["Deviate Slayer"] = 251,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.002481,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 25,
+										["targets"] = {
+											["Deviate Stinglash"] = 165,
+											["Deviate Slayer"] = 147,
+										},
+										["n_total"] = 312,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 312,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 47,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 50,
+											["Deviate Slayer"] = 57,
+										},
+										["n_total"] = 88,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 107,
+										["c_max"] = 19,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 19,
+										["successful_casted"] = 0,
+										["c_total"] = 19,
+										["n_amt"] = 7,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+									["Earth Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 67,
+											["Deviate Slayer"] = 0,
+										},
+										["n_total"] = 67,
+										["n_min"] = 67,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 67,
+										["c_max"] = 0,
+										["spellschool"] = 8,
+										["id"] = "Earth Shock",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 67,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203674,
+							["damage_taken"] = 36.002481,
+							["start_time"] = 1696203652,
+							["delay"] = 0,
+							["last_dps"] = 24.35026517020778,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 518.002922,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 562.002922,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 191,
+								["Deviate Slayer"] = 371,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.002922,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 112,
+											["Deviate Slayer"] = 211,
+										},
+										["n_total"] = 212,
+										["n_min"] = 49,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 323,
+										["c_max"] = 111,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 111,
+										["successful_casted"] = 0,
+										["c_total"] = 111,
+										["n_amt"] = 4,
+										["n_max"] = 61,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 35,
+											["Deviate Slayer"] = 52,
+										},
+										["n_total"] = 87,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 87,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 70,
+										},
+										["n_total"] = 70,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 70,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 35,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 38,
+										},
+										["n_total"] = 38,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 38,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203675,
+							["damage_taken"] = 124.002922,
+							["start_time"] = 1696203653,
+							["delay"] = 0,
+							["last_dps"] = 24.3070335193276,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 407.005178,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 482.005178,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 250,
+								["Deviate Slayer"] = 232,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.005178,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 151,
+											["Deviate Slayer"] = 144,
+										},
+										["n_total"] = 295,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 295,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 40,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 16,
+											["Deviate Slayer"] = 8,
+										},
+										["n_total"] = 24,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 44,
+											["Deviate Slayer"] = 44,
+										},
+										["n_total"] = 88,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 88,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203675,
+							["damage_taken"] = 0.005178,
+							["start_time"] = 1696203655,
+							["delay"] = 0,
+							["last_dps"] = 20.8470731369889,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 310.00864,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 324.00864,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 150,
+								["Deviate Slayer"] = 174,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.00864,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 35,
+											["Deviate Slayer"] = 37,
+										},
+										["n_total"] = 72,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 72,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 37,
+										["r_amt"] = 0,
+									},
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 38,
+											["Deviate Slayer"] = 38,
+										},
+										["n_total"] = 76,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 76,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 69,
+											["Deviate Slayer"] = 69,
+										},
+										["n_total"] = 138,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 138,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 8,
+											["Deviate Slayer"] = 16,
+										},
+										["n_total"] = 24,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203674,
+							["damage_taken"] = 0.00864,
+							["start_time"] = 1696203656,
+							["delay"] = 0,
+							["last_dps"] = 14.01360840795015,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 310.008114,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 310.008114,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+								["Deviate Stinglash"] = true,
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 42,
+								["Deviate Stinglash"] = 187,
+								["Deviate Slayer"] = 81,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203684,
+							["totalabsorbed"] = 0.008114,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 42,
+											["Deviate Stinglash"] = 186,
+											["Deviate Slayer"] = 81,
+										},
+										["n_total"] = 309,
+										["n_min"] = 39,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 309,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Sunder Armor"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = "Sunder Armor",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Revenge"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 1,
+										["targets"] = {
+											["Deviate Stinglash"] = 1,
+										},
+										["n_total"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = "Revenge",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 1,
+										["r_amt"] = 0,
+									},
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203683,
+							["damage_taken"] = 165.008114,
+							["start_time"] = 1696203658,
+							["delay"] = 0,
+							["last_dps"] = 13.4080755157738,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 179.002767,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 179.002767,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-00001A0144",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Joexd"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Kylablast"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 124,
+								["Kaevee"] = 55,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 55,
+							},
+							["totalabsorbed"] = 0.002767,
+							["fight_component"] = true,
+							["end_time"] = 1696203675,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 124,
+											["Kaevee"] = 55,
+										},
+										["n_total"] = 179,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 179,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 42,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203662,
+							["damage_taken"] = 1109.002767,
+							["start_time"] = 1696203666,
+							["delay"] = 1696203662,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 157.004993,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 157.004993,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3631-00001A01EB",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Joexd"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Gihunter"] = true,
+							},
+							["targets"] = {
+								["Searing Totem <Kylablast>"] = 36,
+								["Kylablast"] = 36,
+								["Kaevee"] = 85,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								36, -- [1]
+								85, -- [2]
+							},
+							["totalabsorbed"] = 0.004993,
+							["fight_component"] = true,
+							["end_time"] = 1696203675,
+							["aID"] = "3631",
+							["nome"] = "Deviate Stinglash",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Searing Totem <Kylablast>"] = 36,
+											["Kylablast"] = 36,
+											["Kaevee"] = 85,
+										},
+										["n_total"] = 101,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 56,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 56,
+										["successful_casted"] = 0,
+										["c_total"] = 56,
+										["n_amt"] = 3,
+										["n_max"] = 36,
+										["total"] = 157,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203674,
+							["damage_taken"] = 1090.004993,
+							["start_time"] = 1696203664,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 77.00227100000001,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 77.00227100000001,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0391",
+							["damage_from"] = {
+								["Deviate Stinglash"] = true,
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 30,
+								["Deviate Slayer"] = 47,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.002271,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 30,
+											["Deviate Slayer"] = 47,
+										},
+										["n_total"] = 62,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 77,
+										["c_max"] = 15,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 15,
+										["successful_casted"] = 0,
+										["c_total"] = 15,
+										["n_amt"] = 6,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203674,
+							["damage_taken"] = 36.002271,
+							["start_time"] = 1696203653,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 75.008179,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 75.008179,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 39,
+								["Deviate Slayer"] = 36,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.008179,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 8,
+										["targets"] = {
+											["Deviate Stinglash"] = 39,
+											["Deviate Slayer"] = 36,
+										},
+										["n_total"] = 75,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 75,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 20,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203673,
+							["damage_taken"] = 0.008179,
+							["start_time"] = 1696203658,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 44.007896,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 44.007896,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A03A1",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 44,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.007896,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 16,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203674,
+							["damage_taken"] = 0.007896,
+							["start_time"] = 1696203669,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 14.003199,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 14.003199,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 14,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203675,
+							["totalabsorbed"] = 0.003199,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 14,
+										},
+										["n_total"] = 14,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 14,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203660,
+							["damage_taken"] = 0.003199,
+							["start_time"] = 1696203674,
+							["delay"] = 1696203660,
+							["last_dps"] = 0,
+						}, -- [11]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1062,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1062,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.004966,
+							["targets"] = {
+								["Joexd"] = 85,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "5099-01A9FF11",
+							["passiveover"] = 0.004966,
+							["total"] = 85.004966,
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Life Tap"] = {
+										["total"] = 85,
+										["totalover"] = 0,
+										["id"] = "Life Tap",
+										["targets"] = {
+											["Joexd"] = 85,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 85.004966,
+							["classe"] = "WARLOCK",
+							["last_event"] = 1696203679,
+							["totalover"] = 0.004966,
+							["alternatepower"] = 0.004966,
+							["serial"] = "Player-5099-01A9FF11",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1062,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-019B323F",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["buff_uptime"] = 23,
+							["tipo"] = 4,
+							["classe"] = "SHAMAN",
+							["serial"] = "Player-5099-019B323F",
+							["last_event"] = 1696203675,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Taunt"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Taunt",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 92,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[3219] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 3219,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Battle Stance"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Battle Stance",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Defensive Stance"] = {
+										["activedamt"] = 1,
+										["id"] = "Defensive Stance",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203656,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 9,
+							["nome"] = "Kaevee",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203675,
+							["serial"] = "Player-5099-019E70EF",
+							["aID"] = "5099-019E70EF",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["buff_uptime"] = 23,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 30,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203675,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = -1,
+										["uptime"] = 13,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 14,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 23,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 27,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203675,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [4]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["activedamt"] = -1,
+										["id"] = "Flame Shock",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203662,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 23,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203675,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [5]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0391",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A03A1",
+							["classe"] = "PET",
+						}, -- [8]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1062,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205624.512,
+				["tempo_start"] = 1696203652,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1069,
+				["totals"] = {
+					2602, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 85,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					2031, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 85,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 2,
+					},
+					["Kylablast"] = {
+						["Searing Totem"] = 1,
+						["Earth Shock"] = 2,
+					},
+					["Kaevee"] = {
+						["Taunt"] = 1,
+						["Sunder Armor"] = 2,
+						["Revenge"] = 1,
+						["Defensive Stance"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Fishhook"] = {
+						["Searing Totem"] = 1,
+						["Strength of Earth Totem"] = 1,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 8,
+						["Arcane Shot"] = 4,
+						["Hunter's Mark"] = 1,
+						["Serpent Sting"] = 3,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 2,
+					},
+					["Joexd"] = {
+						["Shoot"] = 4,
+						["Corruption"] = 2,
+						["Immolate"] = 2,
+						["Curse of Agony"] = 2,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 5,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:41:16",
+				["hasTimer"] = 22.11599999997998,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Slayer",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 6.684999999997672,
+				["CombatEndedAt"] = 205631.197,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:40:53",
+				["end_time"] = 205631.247,
+				["combat_id"] = 1062,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Stinglash"] = 1,
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Deviate Slayer",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Joexd"] = 324.00864,
+							["Gihunter"] = 482.005178,
+							["Kaevee"] = 268.008114,
+							["Fishhook"] = 562.002922,
+							["Kylablast"] = 563.002481,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+					["Kaevee"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							25, -- [3]
+							1696203682.512, -- [4]
+							657, -- [5]
+							"Devouring Ectoplasm", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["start_time"] = 205608.126,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1061,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 448.003493,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 448.003493,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 448,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203652,
+							["totalabsorbed"] = 0.003493,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 153,
+										},
+										["n_total"] = 153,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 153,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 56,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 53,
+										},
+										["n_total"] = 53,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 105,
+										},
+										["n_total"] = 105,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 105,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 35,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 137,
+										},
+										["n_total"] = 137,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 137,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203652,
+							["damage_taken"] = 224.003493,
+							["start_time"] = 1696203626,
+							["delay"] = 0,
+							["last_dps"] = 31.8093931411473,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 369.001703,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 369.001703,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 369,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.001703,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 283,
+										},
+										["n_total"] = 195,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 283,
+										["c_max"] = 88,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 88,
+										["successful_casted"] = 0,
+										["c_total"] = 88,
+										["n_amt"] = 4,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 30,
+										},
+										["n_total"] = 30,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+									["Overpower"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 56,
+										},
+										["n_total"] = 56,
+										["n_min"] = 56,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 56,
+										["c_max"] = 0,
+										["id"] = "Overpower",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 56,
+										["r_amt"] = 0,
+									},
+									["Sunder Armor"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "Sunder Armor",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 72.00170299999999,
+							["start_time"] = 1696203624,
+							["delay"] = 0,
+							["last_dps"] = 26.20006411530339,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 165.005954,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 194.005954,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 194,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.005954,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 112,
+										},
+										["n_total"] = 112,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 112,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 40,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 9,
+										},
+										["n_total"] = 9,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 0.005954,
+							["start_time"] = 1696203630,
+							["delay"] = 0,
+							["last_dps"] = 13.77491863106821,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 153.005576,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 177.005576,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 177,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.005576,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 76,
+										},
+										["n_total"] = 76,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 76,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 69,
+										},
+										["n_total"] = 69,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 69,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 8,
+										},
+										["n_total"] = 8,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 0.005576,
+							["start_time"] = 1696203634,
+							["delay"] = 0,
+							["last_dps"] = 12.5678483385379,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 0.003226,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 20.003226,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 20,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.003226,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 0.003226,
+							["start_time"] = 1696203635,
+							["delay"] = 0,
+							["last_dps"] = 1.420280176086081,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 296.008833,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 296.008833,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-00001A01A7",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Joexd"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Fishhook"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 224,
+								["Kaevee"] = 72,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 72,
+							},
+							["totalabsorbed"] = 0.008833,
+							["fight_component"] = true,
+							["end_time"] = 1696203638,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 224,
+											["Kaevee"] = 72,
+										},
+										["n_total"] = 296,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 296,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 43,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 1208.008833,
+							["start_time"] = 1696203624,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 29.005168,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 29.005168,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 29,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.005168,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 29,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29,
+										["c_max"] = 29,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 29,
+										["successful_casted"] = 0,
+										["c_total"] = 29,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203636,
+							["damage_taken"] = 0.005168,
+							["start_time"] = 1696203636,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 24.006509,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 24.006509,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 24,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.006509,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 24,
+										},
+										["n_total"] = 24,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 12,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 0.006509,
+							["start_time"] = 1696203635,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 20.002736,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 20.002736,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00009A037C",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 20,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203638,
+							["totalabsorbed"] = 0.002736,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 20,
+										},
+										["n_total"] = 20,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 20,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203637,
+							["damage_taken"] = 0.002736,
+							["start_time"] = 1696203635,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1061,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.004383,
+							["total_without_pet"] = 66.004383,
+							["total"] = 66.004383,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.004383,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Fishhook"] = 66,
+							},
+							["totalover_without_pet"] = 0.004383,
+							["tipo"] = 2,
+							["healing_taken"] = 0.004383,
+							["fight_component"] = true,
+							["end_time"] = 1696203638,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Fishhook"] = 66,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 66,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 66,
+										["c_max"] = 66,
+										["c_total"] = 66,
+										["totaldenied"] = 0,
+										["n_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203638,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203638,
+							["totaldenied"] = 0.004383,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01B2A1BB",
+							["totalover"] = 0.004704,
+							["total_without_pet"] = 0.004704,
+							["total"] = 0.004704,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01B2A1BB",
+							["totalabsorb"] = 0.004704,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004704,
+							["tipo"] = 2,
+							["healing_taken"] = 66.004704,
+							["fight_component"] = true,
+							["end_time"] = 1696203638,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203638,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.004704,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1061,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1061,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 56,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[3219] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 3219,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 15,
+							["nome"] = "Kaevee",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203638,
+							["serial"] = "Player-5099-019E70EF",
+							["aID"] = "5099-019E70EF",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["buff_uptime"] = 14,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 11,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203638,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 14,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 5,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203638,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["activedamt"] = 1,
+										["id"] = 325,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203624,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									["Lightning Shield"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Lightning Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 11,
+							["pets"] = {
+							},
+							["last_event"] = 1696203637,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Fishhook",
+							["tipo"] = 4,
+							["aID"] = "5099-01B2A1BB",
+							["serial"] = "Player-5099-01B2A1BB",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime"] = 0,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["last_event"] = 1696203638,
+							["serial"] = "Player-5099-019B323F",
+							["aID"] = "5099-019B323F",
+						}, -- [5]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00009A037C",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [7]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1061,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205607.608,
+				["tempo_start"] = 1696203624,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1068,
+				["totals"] = {
+					1504, -- [1]
+					66, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1135, -- [1]
+					66, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 3,
+						["Serpent Sting"] = 1,
+						["Skinning"] = 1,
+						["Arcane Shot"] = 2,
+					},
+					["Kaevee"] = {
+						["Rend"] = 1,
+						["Overpower"] = 1,
+						["Sunder Armor"] = 2,
+					},
+					["Joexd"] = {
+						["Corruption"] = 1,
+						["Immolate"] = 1,
+						["Curse of Agony"] = 1,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 2,
+					},
+					["Kylablast"] = {
+						["Searing Totem"] = 1,
+						["Stoneskin Totem"] = 1,
+						["Healing Wave"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:40:39",
+				["hasTimer"] = 14.08400000000256,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Slayer",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 11.86000000001513,
+				["CombatEndedAt"] = 205593.241,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:40:25",
+				["end_time"] = 205594.079,
+				["combat_id"] = 1061,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Deviate Slayer",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 66.004383,
+							["Fishhook"] = 0.004704,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 398.003493,
+							["Gihunter"] = 194.005954,
+							["Kaevee"] = 369.001703,
+							["Kylablast"] = 20.003226,
+							["Joexd"] = 177.005576,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205579.995,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1060,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 313.002356,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 313.002356,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 313,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203617,
+							["totalabsorbed"] = 0.002356,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 259,
+										},
+										["n_total"] = 153,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 259,
+										["c_max"] = 106,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 106,
+										["successful_casted"] = 0,
+										["c_total"] = 106,
+										["n_amt"] = 3,
+										["n_max"] = 52,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Overpower"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 54,
+										},
+										["n_total"] = 54,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 54,
+										["c_max"] = 0,
+										["id"] = "Overpower",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 54,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203614,
+							["damage_taken"] = 66.00235599999999,
+							["start_time"] = 1696203606,
+							["delay"] = 0,
+							["last_dps"] = 29.82395007139312,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 269.005452,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 269.005452,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 269,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203617,
+							["totalabsorbed"] = 0.005452,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 160,
+										},
+										["n_total"] = 160,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 160,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 57,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 35,
+										},
+										["n_total"] = 35,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 74,
+										},
+										["n_total"] = 74,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 74,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203614,
+							["damage_taken"] = 0.005452,
+							["start_time"] = 1696203605,
+							["delay"] = 0,
+							["last_dps"] = 25.63177246301795,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 186.002321,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 186.002321,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 186,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203617,
+							["totalabsorbed"] = 0.002321,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 155,
+										},
+										["n_total"] = 78,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 155,
+										["c_max"] = 77,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 77,
+										["successful_casted"] = 0,
+										["c_total"] = 77,
+										["n_amt"] = 2,
+										["n_max"] = 42,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 9,
+										},
+										["n_total"] = 9,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 22,
+										},
+										["n_total"] = 22,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203614,
+							["damage_taken"] = 0.002321,
+							["start_time"] = 1696203608,
+							["delay"] = 0,
+							["last_dps"] = 17.72294626008258,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 144.003559,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 171.003559,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 171,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203617,
+							["totalabsorbed"] = 0.003559,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 118,
+										},
+										["n_total"] = 118,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 118,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 44,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 26,
+										},
+										["n_total"] = 26,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 26,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203613,
+							["damage_taken"] = 0.003559,
+							["start_time"] = 1696203607,
+							["delay"] = 0,
+							["last_dps"] = 16.29381219624599,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 134.006709,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 134.006709,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 134,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203617,
+							["totalabsorbed"] = 0.006709,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 76,
+										},
+										["n_total"] = 76,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 76,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 51,
+										},
+										["n_total"] = 51,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 7,
+										},
+										["n_total"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 7,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203614,
+							["damage_taken"] = 0.006709,
+							["start_time"] = 1696203611,
+							["delay"] = 0,
+							["last_dps"] = 12.76862401140427,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 66.00721899999999,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 66.00721899999999,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-00001A0292",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Joexd"] = true,
+								["Gihunter"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 66,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 66,
+							},
+							["totalabsorbed"] = 0.007219,
+							["fight_component"] = true,
+							["end_time"] = 1696203617,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 66,
+										},
+										["n_total"] = 66,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 66,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 34,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203614,
+							["damage_taken"] = 1073.007219,
+							["start_time"] = 1696203607,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 27.005228,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 27.005228,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0365",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 27,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203617,
+							["totalabsorbed"] = 0.005228,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 27,
+										},
+										["n_total"] = 10,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 27,
+										["c_max"] = 17,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 17,
+										["successful_casted"] = 0,
+										["c_total"] = 17,
+										["n_amt"] = 1,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203611,
+							["damage_taken"] = 0.005228,
+							["start_time"] = 1696203609,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1060,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1060,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.008024,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.008024,
+							["total"] = 9.008024,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.008024,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203623,
+							["totalover"] = 0.008024,
+							["alternatepower"] = 0.008024,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1060,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 48,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[3219] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 3219,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 7,
+							["nome"] = "Kaevee",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203617,
+							["serial"] = "Player-5099-019E70EF",
+							["aID"] = "5099-019E70EF",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 12,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 12,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203617,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["activedamt"] = -1,
+										["id"] = "Hunter's Mark",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203614,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 12,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 4,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203617,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lightning Shield"] = {
+										["activedamt"] = 1,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203610,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 9,
+							["nome"] = "Fishhook",
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203617,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["aID"] = "5099-019B323F",
+							["last_event"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["tipo"] = 4,
+						}, -- [5]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0365",
+							["classe"] = "PET",
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1060,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["tempo_start"] = 1696203605,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1067,
+				["totals"] = {
+					1139, -- [1]
+					0, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1046, -- [1]
+					0, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Joexd"] = {
+						["Shoot"] = 1,
+						["Corruption"] = 1,
+						["Immolate"] = 1,
+						["Curse of Agony"] = 1,
+					},
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Searing Totem"] = 1,
+						["Flametongue Weapon"] = 1,
+					},
+					["Kaevee"] = {
+						["Overpower"] = 1,
+						["Sunder Armor"] = 3,
+					},
+					["Fishhook"] = {
+						["Flametongue Weapon"] = 1,
+						["Lightning Shield"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 2,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 3,
+						["Serpent Sting"] = 1,
+						["Arcane Shot"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:40:17",
+				["hasTimer"] = 10.49500000002445,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Slayer",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 205571.301,
+				["CombatEndedAt"] = 205571.301,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:40:06",
+				["end_time"] = 205572.053,
+				["combat_id"] = 1060,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Deviate Slayer",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 269.005452,
+							["Gihunter"] = 186.002321,
+							["Kaevee"] = 313.002356,
+							["Joexd"] = 134.006709,
+							["Kylablast"] = 171.003559,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205561.558,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1059,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 1702.005843,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 2057.005843,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 735,
+								["Deviate Stalker"] = 486,
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 549,
+								["Deviate Stinglash"] = 216,
+								["Deviate Slayer"] = 71,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 230,
+							},
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.005843,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 2,
+										["g_amt"] = 0,
+										["b_dmg"] = 93,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 350,
+											["Deviate Stalker"] = 203,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 260,
+											["Deviate Stinglash"] = 112,
+											["Deviate Slayer"] = 54,
+										},
+										["n_total"] = 875,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 979,
+										["c_max"] = 104,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 104,
+										["successful_casted"] = 0,
+										["c_total"] = 104,
+										["n_amt"] = 17,
+										["n_max"] = 61,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 133,
+											["Deviate Stalker"] = 63,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 67,
+											["Deviate Stinglash"] = 36,
+											["Deviate Slayer"] = 17,
+										},
+										["n_total"] = 238,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 316,
+										["c_max"] = 28,
+										["spellschool"] = 4,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 25,
+										["successful_casted"] = 0,
+										["c_total"] = 78,
+										["n_amt"] = 14,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 34,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 34,
+										},
+										["n_total"] = 68,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 68,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 34,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 168,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 96,
+											["Deviate Stalker"] = 75,
+										},
+										["n_total"] = 339,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 339,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 16,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203572,
+							["damage_taken"] = 375.005843,
+							["start_time"] = 1696203494,
+							["delay"] = 0,
+							["last_dps"] = 25.14953776087017,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 1812.00794,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1812.00794,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+								["Deviate Stinglash"] = true,
+								["Deviate Stalker"] = true,
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 815,
+								["Deviate Stalker"] = 327,
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 206,
+								["Deviate Stinglash"] = 341,
+								["Deviate Slayer"] = 123,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 426,
+							},
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.00794,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 2,
+										["g_amt"] = 0,
+										["b_dmg"] = 90,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 728,
+											["Deviate Stalker"] = 258,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 163,
+											["Deviate Stinglash"] = 263,
+											["Deviate Slayer"] = 53,
+										},
+										["n_total"] = 1156,
+										["n_min"] = 43,
+										["g_dmg"] = 0,
+										["counter"] = 26,
+										["total"] = 1465,
+										["c_max"] = 110,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 91,
+										["successful_casted"] = 0,
+										["c_total"] = 309,
+										["n_amt"] = 22,
+										["n_max"] = 58,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 9,
+											["Deviate Stinglash"] = 10,
+											["Devouring Ectoplasm"] = 38,
+										},
+										["n_total"] = 57,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 57,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+									["Thunder Clap"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 49,
+											["Deviate Stalker"] = 69,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 34,
+											["Deviate Stinglash"] = 52,
+											["Deviate Slayer"] = 70,
+										},
+										["n_total"] = 274,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 274,
+										["c_max"] = 0,
+										["id"] = "Thunder Clap",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 16,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Mocking Blow"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 16,
+										},
+										["n_total"] = 16,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 16,
+										["c_max"] = 0,
+										["id"] = "Mocking Blow",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 16,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203604,
+							["damage_taken"] = 991.00794,
+							["start_time"] = 1696203492,
+							["delay"] = 0,
+							["last_dps"] = 22.15412380334526,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 1254.001304,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1484.001304,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 341,
+								["Deviate Stinglash"] = 330,
+								["Deviate Slayer"] = 813,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 38,
+							},
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.001304,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 114,
+											["Deviate Stinglash"] = 115,
+											["Deviate Slayer"] = 228,
+										},
+										["n_total"] = 457,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 457,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 12,
+										["n_max"] = 39,
+										["r_amt"] = 0,
+									},
+									["Shadow Bolt"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 98,
+											["Deviate Slayer"] = 99,
+										},
+										["n_total"] = 197,
+										["n_min"] = 98,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 197,
+										["c_max"] = 0,
+										["id"] = "Shadow Bolt",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 99,
+										["r_amt"] = 0,
+									},
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 96,
+										},
+										["n_total"] = 96,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 96,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 40,
+										["r_amt"] = 0,
+									},
+									["Drain Life"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 55,
+										},
+										["n_total"] = 55,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 55,
+										["c_max"] = 0,
+										["id"] = "Drain Life",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 19,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 51,
+											["Deviate Stinglash"] = 69,
+											["Deviate Slayer"] = 141,
+										},
+										["n_total"] = 261,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 261,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 48,
+											["Deviate Slayer"] = 140,
+										},
+										["n_total"] = 188,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 188,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 15,
+										["n_max"] = 23,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203573,
+							["damage_taken"] = 162.001304,
+							["start_time"] = 1696203514,
+							["delay"] = 0,
+							["last_dps"] = 18.14382149624676,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 817.00639,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1272.00639,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 312,
+								["Deviate Stalker"] = 218,
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 429,
+								["Deviate Stinglash"] = 156,
+								["Deviate Slayer"] = 157,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 186,
+							},
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.00639,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 25,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 142,
+											["Deviate Stalker"] = 71,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 205,
+											["Deviate Stinglash"] = 110,
+											["Deviate Slayer"] = 68,
+										},
+										["n_total"] = 596,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 596,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 17,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 24,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 16,
+											["Deviate Stalker"] = 9,
+										},
+										["n_total"] = 49,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 49,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 42,
+											["Deviate Stalker"] = 22,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 42,
+											["Deviate Stinglash"] = 22,
+											["Deviate Slayer"] = 44,
+										},
+										["n_total"] = 172,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 172,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203573,
+							["damage_taken"] = 39.00639,
+							["start_time"] = 1696203499,
+							["delay"] = 0,
+							["last_dps"] = 15.55191145724575,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+								"Stoneskin Totem <Kylablast>", -- [2]
+								"Stoneclaw Totem <Kylablast>", -- [3]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 92.007458,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 199.007458,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+								["Deviate Stinglash"] = true,
+								["Deviate Stalker"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 86,
+								["Deviate Stinglash"] = 44,
+								["Deviate Stalker"] = 48,
+								["Deviate Slayer"] = 21,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 42,
+							},
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.007458,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 44,
+											["Deviate Stalker"] = 48,
+										},
+										["n_total"] = 92,
+										["n_min"] = 44,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 92,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 48,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203573,
+							["damage_taken"] = 517.007458,
+							["start_time"] = 1696203545,
+							["delay"] = 1696203534,
+							["last_dps"] = 2.433121712657082,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+								"Cloned Ectoplasm <Devouring Ectoplasm>", -- [1]
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 576.004126,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 934.004126,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3638-000019EF82",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Joexd"] = true,
+								["Gihunter"] = true,
+								["Fishhook"] = true,
+								["Kongarth <Joexd>"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 375,
+								["Gihunter"] = 39,
+								["Kaevee"] = 126,
+								["Stoneclaw Totem <Kylablast>"] = 97,
+								["Cat <Gihunter>"] = 30,
+								["Kongarth <Joexd>"] = 229,
+								["Kylablast"] = 38,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								38, -- [1]
+								126, -- [2]
+							},
+							["totalabsorbed"] = 0.004126,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["aID"] = "3638",
+							["nome"] = "Devouring Ectoplasm",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 47,
+											["Gihunter"] = 39,
+											["Kaevee"] = 126,
+											["Stoneclaw Totem <Kylablast>"] = 97,
+											["Kongarth"] = 0,
+											["Kongarth <Joexd>"] = 229,
+											["Kylablast"] = 38,
+										},
+										["n_total"] = 576,
+										["DODGE"] = 1,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["MISS"] = 1,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["n_max"] = 47,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 19,
+										["total"] = 576,
+										["a_amt"] = 0,
+									}, -- [1]
+									["Clone"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Clone",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203571,
+							["damage_taken"] = 2289.004126,
+							["start_time"] = 1696203494,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 619.007935,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 619.007935,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-000019FB9B",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Joexd"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Fishhook"] = true,
+								["Cat <Gihunter>"] = true,
+								["Kongarth <Joexd>"] = true,
+							},
+							["targets"] = {
+								["Joexd"] = 162,
+								["Kaevee"] = 457,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 457,
+							},
+							["totalabsorbed"] = 0.007935,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Joexd"] = 162,
+											["Kaevee"] = 457,
+										},
+										["n_total"] = 545,
+										["a_amt"] = 0,
+										["n_min"] = 24,
+										["MISS"] = 2,
+										["counter"] = 22,
+										["DODGE"] = 1,
+										["r_amt"] = 0,
+										["c_max"] = 74,
+										["n_max"] = 36,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 74,
+										["successful_casted"] = 0,
+										["c_total"] = 74,
+										["n_amt"] = 17,
+										["total"] = 619,
+										["g_dmg"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203604,
+							["damage_taken"] = 1185.007935,
+							["start_time"] = 1696203528,
+							["delay"] = 1696203542,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 486.004465,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 486.004465,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3631-000019FB52",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Joexd"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Fishhook"] = true,
+							},
+							["targets"] = {
+								["Stoneskin Totem <Kylablast>"] = 29,
+								["Kylablast"] = 276,
+								["Kaevee"] = 181,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								276, -- [1]
+								181, -- [2]
+							},
+							["totalabsorbed"] = 0.004465,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["aID"] = "3631",
+							["nome"] = "Deviate Stinglash",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Stoneskin Totem <Kylablast>"] = 29,
+											["Kylablast"] = 276,
+											["Kaevee"] = 181,
+										},
+										["n_total"] = 486,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 486,
+										["c_max"] = 0,
+										["MISS"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 17,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Lash"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Lash",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203563,
+							["damage_taken"] = 1087.004465,
+							["start_time"] = 1696203529,
+							["delay"] = 1696203563,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 460.002512,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 460.002512,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3634-00009A0159",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Gihunter"] = true,
+							},
+							["targets"] = {
+								["Searing Totem II <Fishhook>"] = 30,
+								["Kylablast"] = 203,
+								["Kaevee"] = 227,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								203, -- [1]
+								227, -- [2]
+							},
+							["totalabsorbed"] = 0.002512,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["aID"] = "3634",
+							["nome"] = "Deviate Stalker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Searing Totem II <Fishhook>"] = 30,
+											["Kylablast"] = 203,
+											["Kaevee"] = 227,
+										},
+										["n_total"] = 460,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["DODGE"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 16,
+										["n_max"] = 35,
+										["total"] = 460,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203552,
+							["damage_taken"] = 1079.002512,
+							["start_time"] = 1696203529,
+							["delay"] = 1696203552,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 455.007849,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 455.007849,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 104,
+								["Deviate Stalker"] = 116,
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 166,
+								["Deviate Stinglash"] = 24,
+								["Deviate Slayer"] = 45,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 104,
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.007849,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 14,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 104,
+											["Deviate Stalker"] = 116,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 166,
+											["Deviate Stinglash"] = 24,
+											["Cloned Ectoplasm"] = 0,
+											["Deviate Slayer"] = 45,
+										},
+										["n_total"] = 414,
+										["a_amt"] = 0,
+										["n_min"] = 14,
+										["MISS"] = 1,
+										["counter"] = 24,
+										["DODGE"] = 2,
+										["r_amt"] = 0,
+										["c_max"] = 41,
+										["n_max"] = 25,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 41,
+										["successful_casted"] = 0,
+										["c_total"] = 41,
+										["n_amt"] = 19,
+										["total"] = 455,
+										["g_dmg"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203563,
+							["damage_taken"] = 30.007849,
+							["start_time"] = 1696203523,
+							["delay"] = 1696203563,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008984,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 358.008984,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 358.008984,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-5780-00001A0308",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+							},
+							["targets"] = {
+								["Cat <Gihunter>"] = 30,
+								["Fishhook"] = 328,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["aID"] = "5780",
+							["ownerName"] = "Devouring Ectoplasm",
+							["nome"] = "Cloned Ectoplasm <Devouring Ectoplasm>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cat <Gihunter>"] = 30,
+											["Fishhook"] = 328,
+										},
+										["n_total"] = 358,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 358,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 10,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["monster"] = true,
+							["custom"] = 0,
+							["last_event"] = 1696203537,
+							["damage_taken"] = 1184.008984,
+							["start_time"] = 1696203550,
+							["delay"] = 1696203537,
+							["last_dps"] = 0,
+						}, -- [11]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 355.003148,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 355.003148,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A02E3",
+							["damage_from"] = {
+								["Deviate Stalker"] = true,
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 92,
+								["Deviate Stinglash"] = 68,
+								["Devouring Ectoplasm"] = 50,
+								["Deviate Stalker"] = 145,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.003148,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 92,
+											["Deviate Stinglash"] = 68,
+											["Devouring Ectoplasm"] = 50,
+											["Deviate Stalker"] = 145,
+										},
+										["n_total"] = 306,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 355,
+										["c_max"] = 26,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 23,
+										["successful_casted"] = 0,
+										["c_total"] = 49,
+										["n_amt"] = 20,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203572,
+							["damage_taken"] = 30.003148,
+							["start_time"] = 1696203519,
+							["delay"] = 1696203508,
+							["last_dps"] = 0,
+						}, -- [12]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 230.004535,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 230.004535,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 176,
+								["Deviate Slayer"] = 54,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.004535,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 176,
+											["Deviate Slayer"] = 54,
+										},
+										["n_total"] = 206,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 230,
+										["c_max"] = 24,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 24,
+										["successful_casted"] = 0,
+										["c_total"] = 24,
+										["n_amt"] = 15,
+										["n_max"] = 15,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203573,
+							["damage_taken"] = 229.004535,
+							["start_time"] = 1696203536,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [13]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 107.004678,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 107.004678,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A02FF",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 42,
+								["Deviate Stinglash"] = 44,
+								["Deviate Slayer"] = 21,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 42,
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.004678,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 42,
+											["Deviate Stinglash"] = 44,
+											["Deviate Slayer"] = 21,
+										},
+										["n_total"] = 92,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 107,
+										["c_max"] = 15,
+										["spellschool"] = 4,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 15,
+										["successful_casted"] = 0,
+										["c_total"] = 15,
+										["n_amt"] = 9,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203534,
+							["damage_taken"] = 0.004678,
+							["start_time"] = 1696203545,
+							["delay"] = 1696203534,
+							["last_dps"] = 0,
+						}, -- [14]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 0.00858,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00858,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3579-00001A0322",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3579",
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.00858,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Stoneclaw Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 97.00858,
+							["start_time"] = 1696203574,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [15]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 0.001323,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001323,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-5873-00001A02FB",
+							["damage_from"] = {
+								["Deviate Stinglash"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "5873",
+							["end_time"] = 1696203574,
+							["totalabsorbed"] = 0.001323,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Stoneskin Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 29.001323,
+							["start_time"] = 1696203574,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [16]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1059,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.002501,
+							["total_without_pet"] = 1283.002501,
+							["total"] = 1283.002501,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.002501,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kylablast"] = 451,
+								["Kaevee"] = 832,
+							},
+							["totalover_without_pet"] = 0.002501,
+							["tipo"] = 2,
+							["healing_taken"] = 451.002501,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 153,
+										["targets"] = {
+											["Kylablast"] = 451,
+											["Kaevee"] = 832,
+										},
+										["n_total"] = 1162,
+										["n_min"] = 37,
+										["counter"] = 13,
+										["overheal"] = 0,
+										["total"] = 1283,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 121,
+										["c_max"] = 121,
+										["c_total"] = 121,
+										["totaldenied"] = 0,
+										["n_amt"] = 12,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203523,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203564,
+							["totaldenied"] = 0.002501,
+							["delay"] = 1696203564,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.005375,
+							["total_without_pet"] = 0.005375,
+							["total"] = 0.005375,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.005375,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.005375,
+							["tipo"] = 2,
+							["healing_taken"] = 832.005375,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203574,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.005375,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Fishhook"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01B2A1BB",
+							["totalover"] = 63.008902,
+							["total_without_pet"] = 253.008902,
+							["total"] = 253.008902,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01B2A1BB",
+							["totalabsorb"] = 0.008902,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Fishhook"] = 253,
+							},
+							["totalover_without_pet"] = 0.008902,
+							["tipo"] = 2,
+							["healing_taken"] = 253.008902,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["targets_overheal"] = {
+								["Fishhook"] = 63,
+							},
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Fishhook"] = 63,
+										},
+										["n_max"] = 253,
+										["targets"] = {
+											["Fishhook"] = 253,
+										},
+										["n_total"] = 253,
+										["n_min"] = 253,
+										["counter"] = 1,
+										["overheal"] = 63,
+										["total"] = 253,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203573,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203529,
+							["totaldenied"] = 0.008902,
+							["delay"] = 1696203529,
+							["heal_enemy_amt"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Joexd"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01A9FF11",
+							["totalover"] = 34.00871100000001,
+							["total_without_pet"] = 21.008711,
+							["total"] = 21.008711,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01A9FF11",
+							["totalabsorb"] = 0.008711,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Joexd"] = 21,
+							},
+							["totalover_without_pet"] = 0.008711,
+							["tipo"] = 2,
+							["healing_taken"] = 21.008711,
+							["fight_component"] = true,
+							["end_time"] = 1696203574,
+							["targets_overheal"] = {
+								["Joexd"] = 34,
+							},
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Drain Life"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Joexd"] = 34,
+										},
+										["n_max"] = 18,
+										["targets"] = {
+											["Joexd"] = 21,
+										},
+										["n_total"] = 21,
+										["n_min"] = 3,
+										["counter"] = 3,
+										["overheal"] = 34,
+										["total"] = 21,
+										["spellschool"] = 32,
+										["id"] = "Drain Life",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203571,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["last_event"] = 1696203537,
+							["totaldenied"] = 0.008711,
+							["delay"] = 1696203537,
+							["heal_enemy_amt"] = 0,
+						}, -- [4]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1059,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.004111,
+							["pets"] = {
+							},
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.004111,
+							["total"] = 49.004111,
+							["serial"] = "Player-5099-019E70EF",
+							["received"] = 49.004111,
+							["targets"] = {
+								["Kaevee"] = 49,
+							},
+							["powertype"] = 1,
+							["alternatepower"] = 0.004111,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["total"] = 40,
+										["totalover"] = 0,
+										["id"] = "Bloodrage",
+										["targets"] = {
+											["Kaevee"] = 40,
+										},
+										["counter"] = 22,
+									},
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.004111,
+							["tipo"] = 3,
+							["last_event"] = 1696203603,
+							["fight_component"] = true,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1059,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Charge Stun"] = {
+										["activedamt"] = -1,
+										["id"] = "Charge Stun",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203493,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thunder Clap"] = {
+										["appliedamt"] = 11,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 65,
+										["id"] = "Thunder Clap",
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Shout"] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 29,
+										["id"] = "Demoralizing Shout",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 6,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 63,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mocking Blow"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Mocking Blow",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 348,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 82,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[3219] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 82,
+										["id"] = 3219,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 82,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bloodrage"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 20,
+										["id"] = "Bloodrage",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 82,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 186,
+							["pets"] = {
+							},
+							["last_event"] = 1696203574,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 35,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Drain Life"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Drain Life",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 32,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 82,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 82,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 93,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["last_event"] = 1696203574,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Joexd",
+							["tipo"] = 4,
+							["aID"] = "5099-01A9FF11",
+							["serial"] = "Player-5099-01A9FF11",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 19,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 24,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 82,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 82,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 43,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203574,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 40,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Lightning Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["activedamt"] = 1,
+										["id"] = 325,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203492,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 40,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["last_event"] = 1696203574,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Fishhook",
+							["tipo"] = 4,
+							["aID"] = "5099-01B2A1BB",
+							["serial"] = "Player-5099-01B2A1BB",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["aID"] = "5099-019B323F",
+							["fight_component"] = true,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["classe"] = "SHAMAN",
+							["serial"] = "Player-5099-019B323F",
+							["last_event"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A02E3",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A02FF",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Devouring Ectoplasm",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3638-000019EF82",
+							["aID"] = "3638",
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Deviate Stinglash",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3631-000019FB52",
+							["aID"] = "3631",
+						}, -- [9]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [10]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1059,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205561.558,
+				["tempo_start"] = 1696203492,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1066,
+				["totals"] = {
+					9323, -- [1]
+					1557, -- [2]
+					{
+						49, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					5677, -- [1]
+					1557, -- [2]
+					{
+						49, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Devouring Ectoplasm"] = {
+						["Clone"] = 1,
+					},
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Searing Totem"] = 1,
+						["Stoneclaw Totem"] = 1,
+						["Stoneskin Totem"] = 2,
+						["Healing Wave"] = 13,
+					},
+					["Kaevee"] = {
+						["Thunder Clap"] = 6,
+						["Bloodrage"] = 2,
+						["Demoralizing Shout"] = 1,
+						["Sunder Armor"] = 7,
+						["Rend"] = 3,
+						["Mocking Blow"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 3,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 10,
+					},
+					["Fishhook"] = {
+						["Healing Wave"] = 1,
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 2,
+						["Flame Shock"] = 4,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 17,
+						["Serpent Sting"] = 5,
+						["Hunter's Mark"] = 1,
+						["Arcane Shot"] = 8,
+					},
+					["Kongarth"] = {
+						["Torment"] = 5,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Deviate Stinglash"] = {
+						["Lash"] = 2,
+					},
+					["Joexd"] = {
+						["Corruption"] = 4,
+						["Shadow Bolt"] = 2,
+						["Shoot"] = 3,
+						["Drain Life"] = 1,
+						["Immolate"] = 4,
+						["Curse of Agony"] = 3,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 19,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:39:35",
+				["hasTimer"] = 80.73099999999977,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Devouring Ectoplasm",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 8.095000000001164,
+				["CombatEndedAt"] = 205529.616,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:38:13",
+				["end_time"] = 205530.088,
+				["combat_id"] = 1059,
+				["overall_added"] = true,
+				["frags"] = {
+					["Devouring Ectoplasm"] = 2,
+					["Cloned Ectoplasm"] = 1,
+					["Deviate Stalker"] = 1,
+					["Deviate Stinglash"] = 1,
+					["Searing Totem"] = 1,
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Devouring Ectoplasm",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Joexd"] = 21.008711,
+							["Fishhook"] = 253.008902,
+							["Kylablast"] = 1283.002501,
+							["Kaevee"] = 0.005375,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 2057.005843,
+							["Gihunter"] = 1272.00639,
+							["Kaevee"] = 1812.00794,
+							["Kylablast"] = 199.007458,
+							["Joexd"] = 1484.001304,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205448.297,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [6]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1058,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 337.006749,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 337.006749,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 337,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.006749,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 252,
+										},
+										["n_total"] = 252,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 252,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 54,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Sunder Armor"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "Sunder Armor",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Overpower"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 58,
+										},
+										["n_total"] = 58,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 58,
+										["c_max"] = 0,
+										["id"] = "Overpower",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 58,
+										["r_amt"] = 0,
+									},
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 27,
+										},
+										["n_total"] = 27,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 27,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203483,
+							["damage_taken"] = 102.006749,
+							["start_time"] = 1696203471,
+							["delay"] = 0,
+							["last_dps"] = 22.33903944052573,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 298.007271,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 328.007271,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 328,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.007271,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 158,
+										},
+										["n_total"] = 158,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 158,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 56,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 53,
+										},
+										["n_total"] = 53,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 8,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 87,
+										},
+										["n_total"] = 87,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 87,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 49,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203482,
+							["damage_taken"] = 84.007271,
+							["start_time"] = 1696203473,
+							["delay"] = 0,
+							["last_dps"] = 21.74249443190887,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 222.005764,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 262.005764,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 262,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.005764,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 2,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 117,
+										},
+										["n_total"] = 45,
+										["n_min"] = 45,
+										["g_dmg"] = 72,
+										["counter"] = 3,
+										["total"] = 117,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 45,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 39,
+										},
+										["n_total"] = 39,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 39,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+									["Earth Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 66,
+										},
+										["n_total"] = 66,
+										["n_min"] = 66,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = "Earth Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 66,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203484,
+							["damage_taken"] = 0.005764,
+							["start_time"] = 1696203473,
+							["delay"] = 0,
+							["last_dps"] = 17.36747739624964,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 105.004819,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 149.004819,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 149,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.004819,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 75,
+										},
+										["n_total"] = 75,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 75,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									},
+									[2] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 2,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 8,
+										},
+										["n_total"] = 8,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 22,
+										},
+										["n_total"] = 22,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203484,
+							["damage_taken"] = 0.004819,
+							["start_time"] = 1696203478,
+							["delay"] = 0,
+							["last_dps"] = 9.877026315782766,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 107.005632,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 119.005632,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 119,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.005632,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 69,
+										},
+										["n_total"] = 69,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 69,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 38,
+										},
+										["n_total"] = 38,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 38,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203484,
+							["damage_taken"] = 0.005632,
+							["start_time"] = 1696203481,
+							["delay"] = 0,
+							["last_dps"] = 7.888481506026725,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 186.008388,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 186.008388,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-000019FBEE",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Fishhook"] = true,
+								["Gihunter"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 84,
+								["Kaevee"] = 102,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 102,
+							},
+							["totalabsorbed"] = 0.008388,
+							["fight_component"] = true,
+							["end_time"] = 1696203486,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 84,
+											["Kaevee"] = 102,
+										},
+										["n_total"] = 186,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["MISS"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 45,
+										["total"] = 186,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203483,
+							["damage_taken"] = 1195.008388,
+							["start_time"] = 1696203471,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 44.001949,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 44.001949,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 44,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.001949,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203484,
+							["damage_taken"] = 0.001949,
+							["start_time"] = 1696203482,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 40.001675,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 40.001675,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A02E0",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 40,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.001675,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 40,
+										},
+										["n_total"] = 40,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 40,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203483,
+							["damage_taken"] = 0.001675,
+							["start_time"] = 1696203476,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 30.006664,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 30.006664,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A02E3",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 30,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.006664,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 30,
+										},
+										["n_total"] = 30,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203482,
+							["damage_taken"] = 0.006664,
+							["start_time"] = 1696203480,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 12.005703,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 12.005703,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Slayer"] = 12,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203486,
+							["totalabsorbed"] = 0.005703,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 12,
+										},
+										["n_total"] = 12,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 12,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 12,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203482,
+							["damage_taken"] = 0.005703,
+							["start_time"] = 1696203482,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1058,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.005556,
+							["total_without_pet"] = 44.005556,
+							["total"] = 44.005556,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.005556,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kaevee"] = 44,
+							},
+							["totalover_without_pet"] = 0.005556,
+							["tipo"] = 2,
+							["healing_taken"] = 0.005556,
+							["fight_component"] = true,
+							["end_time"] = 1696203486,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 44,
+										["targets"] = {
+											["Kaevee"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 44,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 44,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203480,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203480,
+							["totaldenied"] = 0.005556,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.006322,
+							["total_without_pet"] = 0.006322,
+							["total"] = 0.006322,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.006322,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006322,
+							["tipo"] = 2,
+							["healing_taken"] = 44.006322,
+							["fight_component"] = true,
+							["end_time"] = 1696203486,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203486,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.006322,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1058,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.006427,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.006427,
+							["total"] = 9.006427,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.006427,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203492,
+							["totalover"] = 0.006427,
+							["alternatepower"] = 0.006427,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1058,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Charge Stun"] = {
+										["activedamt"] = -1,
+										["id"] = "Charge Stun",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203471,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 45,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[2367] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 2367,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2378] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 2378,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[673] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 673,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 14,
+							["pets"] = {
+							},
+							["last_event"] = 1696203486,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 7,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203486,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 13,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203486,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lightning Shield"] = {
+										["activedamt"] = 0,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203471,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 11,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203486,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["aID"] = "5099-019B323F",
+							["fight_component"] = true,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["classe"] = "SHAMAN",
+							["serial"] = "Player-5099-019B323F",
+							["last_event"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A02E0",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A02E3",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [8]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1058,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205428.705,
+				["tempo_start"] = 1696203471,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1065,
+				["totals"] = {
+					1381, -- [1]
+					44, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1069, -- [1]
+					44, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Earth Shock"] = 1,
+						["Searing Totem"] = 1,
+						["Healing Wave"] = 1,
+					},
+					["Kaevee"] = {
+						["Rend"] = 1,
+						["Overpower"] = 1,
+						["Sunder Armor"] = 2,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 3,
+					},
+					["Fishhook"] = {
+						["Strength of Earth Totem"] = 1,
+						["Lightning Shield"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Gihunter"] = {
+						["Hunter's Mark"] = 1,
+						["Serpent Sting"] = 1,
+						["Auto Shot"] = 3,
+						["Arcane Shot"] = 2,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 1,
+					},
+					["Joexd"] = {
+						["Corruption"] = 1,
+						["Immolate"] = 1,
+						["Curse of Agony"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:38:06",
+				["hasTimer"] = 14.08400000000256,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Slayer",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 12.1699999999837,
+				["CombatEndedAt"] = 205440.875,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:37:51",
+				["end_time"] = 205441.477,
+				["combat_id"] = 1058,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Deviate Slayer",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 44.005556,
+							["Kaevee"] = 0.006322,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 328.007271,
+							["Kylablast"] = 262.005764,
+							["Kaevee"] = 337.006749,
+							["Joexd"] = 119.005632,
+							["Gihunter"] = 149.004819,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205426.391,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [7]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1057,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 889.008778,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1076.008778,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 312,
+								["Devouring Ectoplasm"] = 611,
+								["Deviate Slayer"] = 153,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.008778,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 318,
+											["Cloned Ectoplasm"] = 0,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 157,
+											["Deviate Slayer"] = 52,
+										},
+										["n_total"] = 527,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 527,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 10,
+										["n_max"] = 59,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 17,
+											["Devouring Ectoplasm"] = 99,
+											["Deviate Slayer"] = 17,
+										},
+										["n_total"] = 133,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 133,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 83,
+											["Devouring Ectoplasm"] = 96,
+											["Deviate Slayer"] = 50,
+										},
+										["n_total"] = 229,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 229,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 10,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203440,
+							["damage_taken"] = 38.008778,
+							["start_time"] = 1696203399,
+							["delay"] = 0,
+							["last_dps"] = 24.0998203278898,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 761.003136,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 926.003136,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 266,
+								["Deviate Slayer"] = 660,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.003136,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 25,
+											["Deviate Slayer"] = 196,
+										},
+										["n_total"] = 169,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 221,
+										["c_max"] = 52,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 52,
+										["successful_casted"] = 0,
+										["c_total"] = 52,
+										["n_amt"] = 6,
+										["n_max"] = 40,
+										["r_amt"] = 0,
+									},
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 38,
+											["Deviate Slayer"] = 190,
+										},
+										["n_total"] = 228,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 228,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 69,
+											["Deviate Slayer"] = 141,
+										},
+										["n_total"] = 210,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 210,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 8,
+											["Deviate Slayer"] = 94,
+										},
+										["n_total"] = 102,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 102,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 16,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 184.003136,
+							["start_time"] = 1696203407,
+							["delay"] = 0,
+							["last_dps"] = 20.74008098906282,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 747.005542,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 747.005542,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = true,
+								["Devouring Ectoplasm"] = true,
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 275,
+								["Devouring Ectoplasm"] = 223,
+								["Deviate Slayer"] = 249,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.005542,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 43,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 275,
+											["Devouring Ectoplasm"] = 214,
+											["Deviate Slayer"] = 239,
+										},
+										["n_total"] = 552,
+										["n_min"] = 41,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 728,
+										["c_max"] = 89,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 87,
+										["successful_casted"] = 0,
+										["c_total"] = 176,
+										["n_amt"] = 12,
+										["n_max"] = 53,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Revenge"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 9,
+											["Deviate Slayer"] = 10,
+										},
+										["n_total"] = 19,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 19,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = "Revenge",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203440,
+							["damage_taken"] = 712.005542,
+							["start_time"] = 1696203399,
+							["delay"] = 0,
+							["last_dps"] = 16.73099672997086,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 403.002465,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 612.002465,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 205,
+								["Devouring Ectoplasm"] = 337,
+								["Deviate Slayer"] = 70,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.002465,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 117,
+											["Devouring Ectoplasm"] = 142,
+											["Deviate Slayer"] = 32,
+										},
+										["n_total"] = 221,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 291,
+										["c_max"] = 70,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 70,
+										["successful_casted"] = 0,
+										["c_total"] = 70,
+										["n_amt"] = 6,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 32,
+											["Deviate Slayer"] = 16,
+										},
+										["n_total"] = 48,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 48,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 21,
+											["Devouring Ectoplasm"] = 21,
+											["Deviate Slayer"] = 22,
+										},
+										["n_total"] = 64,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 64,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 0.002465,
+							["start_time"] = 1696203408,
+							["delay"] = 0,
+							["last_dps"] = 13.70727613778414,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 157.008153,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 157.008153,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 115,
+								["Deviate Slayer"] = 42,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.008153,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 90,
+											["Deviate Slayer"] = 42,
+										},
+										["n_total"] = 90,
+										["n_min"] = 40,
+										["g_dmg"] = 42,
+										["counter"] = 3,
+										["total"] = 132,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 25,
+										},
+										["n_total"] = 25,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 25,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 0.008153,
+							["start_time"] = 1696203436,
+							["delay"] = 1696203431,
+							["last_dps"] = 3.516577517468759,
+						}, -- [5]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+								"Cloned Ectoplasm <Devouring Ectoplasm>", -- [1]
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 217.005303,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 551.005303,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3638-000019EFD6",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 551,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 551,
+							},
+							["totalabsorbed"] = 0.005303,
+							["fight_component"] = true,
+							["end_time"] = 1696203443,
+							["aID"] = "3638",
+							["nome"] = "Devouring Ectoplasm",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 217,
+										},
+										["n_total"] = 217,
+										["a_amt"] = 0,
+										["n_min"] = 26,
+										["MISS"] = 1,
+										["counter"] = 11,
+										["DODGE"] = 2,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["n_max"] = 35,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["total"] = 217,
+										["g_dmg"] = 0,
+									}, -- [1]
+									["Clone"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Clone",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 1171.005303,
+							["start_time"] = 1696203399,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 383.006474,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 383.006474,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-00001A0169",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Joexd"] = true,
+								["Kylablast"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Seasofcheese"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Fishhook"] = true,
+							},
+							["targets"] = {
+								["Joexd"] = 184,
+								["Fishhook"] = 38,
+								["Kaevee"] = 161,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 161,
+							},
+							["totalabsorbed"] = 0.006474,
+							["fight_component"] = true,
+							["end_time"] = 1696203443,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Joexd"] = 184,
+											["Fishhook"] = 38,
+											["Kaevee"] = 161,
+										},
+										["n_total"] = 309,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["MISS"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 74,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 74,
+										["successful_casted"] = 0,
+										["c_total"] = 74,
+										["n_amt"] = 9,
+										["n_max"] = 40,
+										["total"] = 383,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203424,
+							["damage_taken"] = 1276.006474,
+							["start_time"] = 1696203419,
+							["delay"] = 1696203424,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007666,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 334.007666,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 334.007666,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-5780-00001A02AE",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Joexd"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Cat <Gihunter>"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Kylablast"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 334,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 334,
+							},
+							["fight_component"] = true,
+							["end_time"] = 1696203443,
+							["aID"] = "5780",
+							["ownerName"] = "Devouring Ectoplasm",
+							["nome"] = "Cloned Ectoplasm <Devouring Ectoplasm>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kongarth"] = 0,
+											["Kaevee"] = 334,
+										},
+										["n_total"] = 213,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 334,
+										["c_max"] = 61,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 60,
+										["successful_casted"] = 0,
+										["c_total"] = 121,
+										["n_amt"] = 7,
+										["n_max"] = 33,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["monster"] = true,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 1173.007666,
+							["start_time"] = 1696203427,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 209.003451,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 209.003451,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 142,
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 67,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.003451,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 142,
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 67,
+										},
+										["n_total"] = 139,
+										["n_min"] = 19,
+										["g_dmg"] = 20,
+										["counter"] = 8,
+										["total"] = 209,
+										["c_max"] = 50,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 50,
+										["successful_casted"] = 0,
+										["c_total"] = 50,
+										["n_amt"] = 6,
+										["n_max"] = 26,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 0.003451,
+							["start_time"] = 1696203430,
+							["delay"] = 1696203422,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 187.006009,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 187.006009,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0298",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 55,
+								["Devouring Ectoplasm"] = 98,
+								["Deviate Slayer"] = 34,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.006009,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 55,
+											["Devouring Ectoplasm"] = 98,
+											["Deviate Slayer"] = 34,
+										},
+										["n_total"] = 161,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 187,
+										["c_max"] = 26,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 26,
+										["successful_casted"] = 0,
+										["c_total"] = 26,
+										["n_amt"] = 11,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203436,
+							["damage_taken"] = 0.006009,
+							["start_time"] = 1696203404,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 165.004935,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 165.004935,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Cloned Ectoplasm <Devouring Ectoplasm>"] = 126,
+								["Deviate Slayer"] = 39,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203443,
+							["totalabsorbed"] = 0.004935,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cloned Ectoplasm <Devouring Ectoplasm>"] = 126,
+											["Deviate Slayer"] = 39,
+										},
+										["n_total"] = 165,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 165,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 12,
+										["n_max"] = 16,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203442,
+							["damage_taken"] = 0.004935,
+							["start_time"] = 1696203419,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [11]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1057,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.004605,
+							["total_without_pet"] = 515.004605,
+							["total"] = 515.004605,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.004605,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Joexd"] = 37,
+								["Kaevee"] = 478,
+							},
+							["totalover_without_pet"] = 0.004605,
+							["tipo"] = 2,
+							["healing_taken"] = 0.004605,
+							["fight_component"] = true,
+							["end_time"] = 1696203443,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 141,
+										["targets"] = {
+											["Joexd"] = 37,
+											["Kaevee"] = 478,
+										},
+										["n_total"] = 460,
+										["n_min"] = 37,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 515,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 55,
+										["c_max"] = 55,
+										["c_total"] = 55,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203404,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203439,
+							["totaldenied"] = 0.004605,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.00673,
+							["total_without_pet"] = 0.00673,
+							["total"] = 0.00673,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.00673,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00673,
+							["tipo"] = 2,
+							["healing_taken"] = 478.00673,
+							["fight_component"] = true,
+							["end_time"] = 1696203443,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203443,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.00673,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01A9FF11",
+							["totalover"] = 0.00504,
+							["total_without_pet"] = 0.00504,
+							["total"] = 0.00504,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01A9FF11",
+							["totalabsorb"] = 0.00504,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00504,
+							["tipo"] = 2,
+							["healing_taken"] = 37.00504,
+							["fight_component"] = true,
+							["end_time"] = 1696203443,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203443,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.00504,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [3]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1057,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 66834,
+							["resource"] = 0.008516,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.008516,
+							["total"] = 9.008516,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.008516,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203470,
+							["totalover"] = 0.008516,
+							["alternatepower"] = 0.008516,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1057,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 44,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime"] = 44,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["last_event"] = 1696203443,
+							["serial"] = "Player-5099-019B323F",
+							["aID"] = "5099-019B323F",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = "Corruption",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 19,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 19,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 44,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 44,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 61,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["last_event"] = 1696203443,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Joexd",
+							["tipo"] = 4,
+							["aID"] = "5099-01A9FF11",
+							["serial"] = "Player-5099-01A9FF11",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 44,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 44,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 35,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203443,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 24,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 44,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["activedamt"] = 1,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203432,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 44,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 24,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203443,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0298",
+							["classe"] = "PET",
+						}, -- [5]
+						{
+							["flag_original"] = 1298,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Taunt"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Taunt",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 32,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 8,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["aID"] = "5099-019E70EF",
+							["fight_component"] = true,
+							["debuff_uptime"] = 38,
+							["nome"] = "Kaevee",
+							["grupo"] = true,
+							["last_event"] = 1696203442,
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 4,
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Devouring Ectoplasm",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3638-000019EFD6",
+							["aID"] = "3638",
+						}, -- [8]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1057,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205354.795,
+				["tempo_start"] = 1696203399,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1064,
+				["totals"] = {
+					4554, -- [1]
+					515, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					2957, -- [1]
+					515, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Devouring Ectoplasm"] = {
+						["Clone"] = 1,
+					},
+					["Kylablast"] = {
+						["Stoneskin Totem"] = 1,
+						["Healing Wave"] = 8,
+					},
+					["Kaevee"] = {
+						["Taunt"] = 2,
+						["Sunder Armor"] = 7,
+						["Revenge"] = 3,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Joexd"] = {
+						["Shoot"] = 7,
+						["Corruption"] = 3,
+						["Immolate"] = 2,
+						["Curse of Agony"] = 2,
+					},
+					["Gihunter"] = {
+						["Skinning"] = 2,
+						["Hunter's Mark"] = 2,
+						["Serpent Sting"] = 4,
+						["Auto Shot"] = 8,
+						["Arcane Shot"] = 5,
+					},
+					["Kongarth"] = {
+						["Torment"] = 4,
+					},
+					["Fishhook"] = {
+						["Lightning Shield"] = 1,
+						["Flametongue Weapon"] = 1,
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 3,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 11,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:37:24",
+				["hasTimer"] = 43.58999999999651,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Devouring Ectoplasm",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 44.14699999999721,
+				["CombatEndedAt"] = 205398.942,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:36:39",
+				["end_time"] = 205398.942,
+				["combat_id"] = 1057,
+				["overall_added"] = true,
+				["frags"] = {
+					["Devouring Ectoplasm"] = 1,
+					["Searing Totem II"] = 1,
+					["Cloned Ectoplasm"] = 1,
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Devouring Ectoplasm",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Joexd"] = 0.00504,
+							["Kylablast"] = 515.004605,
+							["Kaevee"] = 0.00673,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Joexd"] = 926.003136,
+							["Gihunter"] = 612.002465,
+							["Kaevee"] = 747.005542,
+							["Kylablast"] = 157.008153,
+							["Fishhook"] = 1076.008778,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205354.294,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [8]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1056,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 877.003563,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1072.003563,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Deviate Stinglash"] = true,
+								["Deviate Stalker"] = true,
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 367,
+								["Deviate Stalker"] = 323,
+								["Deviate Slayer"] = 382,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.003563,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 181,
+											["Deviate Stalker"] = 113,
+											["Deviate Slayer"] = 169,
+										},
+										["n_total"] = 463,
+										["n_min"] = 53,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 463,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 63,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 54,
+											["Deviate Stalker"] = 34,
+											["Deviate Slayer"] = 52,
+										},
+										["n_total"] = 140,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 140,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 35,
+										},
+										["n_total"] = 35,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 35,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 88,
+											["Deviate Stalker"] = 100,
+											["Deviate Slayer"] = 51,
+										},
+										["n_total"] = 239,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 239,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 13,
+										["n_max"] = 49,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203388,
+							["damage_taken"] = 471.003563,
+							["start_time"] = 1696203350,
+							["delay"] = 0,
+							["last_dps"] = 25.9797775973593,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 804.004621,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 830.004621,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 213,
+								["Deviate Stalker"] = 402,
+								["Deviate Slayer"] = 215,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.004621,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 26,
+											["Deviate Stalker"] = 159,
+										},
+										["n_total"] = 141,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 185,
+										["c_max"] = 44,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 44,
+										["successful_casted"] = 0,
+										["c_total"] = 44,
+										["n_amt"] = 4,
+										["n_max"] = 40,
+										["r_amt"] = 0,
+									},
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 76,
+											["Deviate Stalker"] = 114,
+											["Deviate Slayer"] = 114,
+										},
+										["n_total"] = 304,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 304,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 69,
+											["Deviate Stalker"] = 105,
+											["Deviate Slayer"] = 69,
+										},
+										["n_total"] = 243,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 243,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 16,
+											["Deviate Stalker"] = 24,
+											["Deviate Slayer"] = 32,
+										},
+										["n_total"] = 72,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 72,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203388,
+							["damage_taken"] = 0.004621,
+							["start_time"] = 1696203355,
+							["delay"] = 0,
+							["last_dps"] = 20.11498487749009,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 610.005552,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 610.005552,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Stinglash"] = true,
+								["Deviate Stalker"] = true,
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 181,
+								["Deviate Stalker"] = 235,
+								["Deviate Slayer"] = 194,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.005552,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 181,
+											["Deviate Stalker"] = 235,
+											["Deviate Slayer"] = 157,
+										},
+										["n_total"] = 573,
+										["n_min"] = 42,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 573,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 12,
+										["n_max"] = 54,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 37,
+										},
+										["n_total"] = 37,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 37,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203387,
+							["damage_taken"] = 348.005552,
+							["start_time"] = 1696203348,
+							["delay"] = 0,
+							["last_dps"] = 14.78335438528239,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 445.001067,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 556.001067,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+								["Deviate Stalker"] = true,
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 216,
+								["Deviate Stalker"] = 166,
+								["Deviate Slayer"] = 174,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.001067,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 163,
+											["Deviate Stalker"] = 105,
+											["Deviate Slayer"] = 39,
+										},
+										["n_total"] = 307,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 307,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 44,
+										["r_amt"] = 0,
+									},
+									[2] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stalker"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 2,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 8,
+											["Deviate Stalker"] = 17,
+											["Deviate Slayer"] = 25,
+										},
+										["n_total"] = 50,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 50,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 22,
+											["Deviate Stalker"] = 44,
+											["Deviate Slayer"] = 22,
+										},
+										["n_total"] = 88,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 88,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203388,
+							["damage_taken"] = 108.001067,
+							["start_time"] = 1696203350,
+							["delay"] = 0,
+							["last_dps"] = 13.47456721517862,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 269.005015,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 387.005015,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 187,
+								["Deviate Stalker"] = 49,
+								["Deviate Slayer"] = 151,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.005015,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 128,
+											["Deviate Slayer"] = 43,
+										},
+										["n_total"] = 43,
+										["n_min"] = 43,
+										["g_dmg"] = 39,
+										["counter"] = 3,
+										["total"] = 171,
+										["c_max"] = 89,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 89,
+										["successful_casted"] = 0,
+										["c_total"] = 89,
+										["n_amt"] = 1,
+										["n_max"] = 43,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 32,
+											["Deviate Slayer"] = 13,
+										},
+										["n_total"] = 26,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 45,
+										["c_max"] = 19,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 19,
+										["successful_casted"] = 0,
+										["c_total"] = 19,
+										["n_amt"] = 2,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 53,
+										},
+										["n_total"] = 53,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 25,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203383,
+							["damage_taken"] = 0.005015,
+							["start_time"] = 1696203349,
+							["delay"] = 0,
+							["last_dps"] = 9.378983956569833,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 330.002168,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 330.002168,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3631-000019FC37",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Fishhook"] = true,
+								["Gihunter"] = true,
+								["Cat <Gihunter>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 156,
+								["Kaevee"] = 174,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 174,
+							},
+							["totalabsorbed"] = 0.002168,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["aID"] = "3631",
+							["nome"] = "Deviate Stinglash",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 156,
+											["Kylablast"] = 0,
+											["Kaevee"] = 174,
+										},
+										["n_total"] = 57,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 86,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 52,
+										["successful_casted"] = 0,
+										["c_total"] = 273,
+										["n_amt"] = 2,
+										["n_max"] = 29,
+										["total"] = 330,
+									}, -- [1]
+									["Lash"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Lash",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203387,
+							["damage_taken"] = 1164.002168,
+							["start_time"] = 1696203372,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 326.004557,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 326.004557,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3634-00001A0159",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 44,
+								["Gihunter"] = 108,
+								["Kaevee"] = 174,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 174,
+							},
+							["totalabsorbed"] = 0.004557,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["aID"] = "3634",
+							["nome"] = "Deviate Stalker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 44,
+											["Gihunter"] = 108,
+											["Kaevee"] = 174,
+										},
+										["n_total"] = 272,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 326,
+										["c_max"] = 54,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 54,
+										["successful_casted"] = 0,
+										["c_total"] = 54,
+										["n_amt"] = 8,
+										["n_max"] = 44,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203374,
+							["damage_taken"] = 1175.004557,
+							["start_time"] = 1696203370,
+							["delay"] = 1696203374,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 271.008129,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 271.008129,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-00001A0074",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Joexd"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Gihunter"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 271,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008129,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 271,
+										},
+										["n_total"] = 271,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 271,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 46,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203362,
+							["damage_taken"] = 1116.008129,
+							["start_time"] = 1696203376,
+							["delay"] = 1696203362,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 195.007737,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 195.007737,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0265",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 44,
+								["Deviate Stalker"] = 76,
+								["Deviate Slayer"] = 75,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.007737,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 44,
+											["Deviate Stalker"] = 76,
+											["Deviate Slayer"] = 75,
+										},
+										["n_total"] = 195,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 195,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 13,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203383,
+							["damage_taken"] = 0.007737,
+							["start_time"] = 1696203352,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 118.006426,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 118.006426,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0266",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 27,
+								["Deviate Stalker"] = 49,
+								["Deviate Slayer"] = 42,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.006426,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 27,
+											["Deviate Stalker"] = 49,
+											["Deviate Slayer"] = 42,
+										},
+										["n_total"] = 102,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 118,
+										["c_max"] = 16,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 16,
+										["successful_casted"] = 0,
+										["c_total"] = 16,
+										["n_amt"] = 10,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203381,
+							["damage_taken"] = 0.006426,
+							["start_time"] = 1696203354,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 111.006116,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 111.006116,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 23,
+								["Deviate Slayer"] = 88,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.006116,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 23,
+											["Deviate Slayer"] = 88,
+										},
+										["n_total"] = 111,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 111,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 24,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203386,
+							["damage_taken"] = 0.006116,
+							["start_time"] = 1696203380,
+							["delay"] = 1696203362,
+							["last_dps"] = 0,
+						}, -- [11]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 26.003308,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 26.003308,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 26,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203389,
+							["totalabsorbed"] = 0.003308,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 26,
+										},
+										["n_total"] = 26,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 26,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 14,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203388,
+							["damage_taken"] = 0.003308,
+							["start_time"] = 1696203386,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [12]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1056,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.006438,
+							["total_without_pet"] = 646.006438,
+							["total"] = 646.006438,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.006438,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Fishhook"] = 457,
+								["Gihunter"] = 38,
+								["Kaevee"] = 151,
+							},
+							["totalover_without_pet"] = 0.006438,
+							["tipo"] = 2,
+							["healing_taken"] = 0.006438,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 156,
+										["targets"] = {
+											["Fishhook"] = 457,
+											["Gihunter"] = 38,
+											["Kaevee"] = 151,
+										},
+										["n_total"] = 646,
+										["n_min"] = 38,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 646,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203356,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203386,
+							["totaldenied"] = 0.006438,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01B2A1BB",
+							["totalover"] = 316.0067,
+							["total_without_pet"] = 253.0067,
+							["total"] = 253.0067,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01B2A1BB",
+							["totalabsorb"] = 0.0067,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Gihunter"] = 108,
+								["Kaevee"] = 145,
+							},
+							["totalover_without_pet"] = 0.0067,
+							["tipo"] = 2,
+							["healing_taken"] = 457.0067,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["targets_overheal"] = {
+								["Gihunter"] = 166,
+								["Kaevee"] = 150,
+							},
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Gihunter"] = 166,
+											["Kaevee"] = 150,
+										},
+										["n_max"] = 145,
+										["targets"] = {
+											["Gihunter"] = 108,
+											["Kaevee"] = 145,
+										},
+										["n_total"] = 253,
+										["n_min"] = 108,
+										["counter"] = 2,
+										["overheal"] = 316,
+										["total"] = 253,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203388,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203378,
+							["totaldenied"] = 0.0067,
+							["delay"] = 1696203378,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+								["Fishhook"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01B2459E",
+							["totalover"] = 0.00184,
+							["total_without_pet"] = 0.00184,
+							["total"] = 0.00184,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01B2459E",
+							["totalabsorb"] = 0.00184,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00184,
+							["tipo"] = 2,
+							["healing_taken"] = 146.00184,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203389,
+							["classe"] = "HUNTER",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.00184,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 66834,
+							["healing_from"] = {
+								["Kylablast"] = true,
+								["Fishhook"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.006977,
+							["total_without_pet"] = 0.006977,
+							["total"] = 0.006977,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.006977,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006977,
+							["tipo"] = 2,
+							["healing_taken"] = 296.006977,
+							["fight_component"] = true,
+							["end_time"] = 1696203389,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203389,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.006977,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [4]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1056,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.001076,
+							["targets"] = {
+								["Joexd"] = 85,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "5099-01A9FF11",
+							["passiveover"] = 0.001076,
+							["total"] = 85.001076,
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Life Tap"] = {
+										["total"] = 85,
+										["totalover"] = 0,
+										["id"] = "Life Tap",
+										["targets"] = {
+											["Joexd"] = 85,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 85.001076,
+							["classe"] = "WARLOCK",
+							["last_event"] = 1696203393,
+							["totalover"] = 0.001076,
+							["alternatepower"] = 0.001076,
+							["serial"] = "Player-5099-01A9FF11",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1056,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 41,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 41,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 12,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["last_event"] = 1696203389,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kylablast",
+							["tipo"] = 4,
+							["aID"] = "5099-019B323F",
+							["serial"] = "Player-5099-019B323F",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Taunt"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Taunt",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Charge Stun"] = {
+										["activedamt"] = -1,
+										["id"] = "Charge Stun",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203348,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 21,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Battle Shout"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Battle Shout",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Battle Stance"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Battle Stance",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5242] = {
+										["activedamt"] = 1,
+										["id"] = 5242,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203348,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									["Defensive Stance"] = {
+										["activedamt"] = 1,
+										["id"] = "Defensive Stance",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203360,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 36,
+							["pets"] = {
+							},
+							["last_event"] = 1696203388,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 27,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 19,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["buff_uptime"] = 41,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 41,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 66,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203389,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 26,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 41,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 41,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 49,
+							["pets"] = {
+							},
+							["last_event"] = 1696203389,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Gihunter",
+							["tipo"] = 4,
+							["aID"] = "5099-01B2459E",
+							["serial"] = "Player-5099-01B2459E",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [4]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = -1,
+										["uptime"] = 30,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Lightning Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["activedamt"] = 1,
+										["id"] = 325,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203348,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 30,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["last_event"] = 1696203389,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Fishhook",
+							["tipo"] = 4,
+							["aID"] = "5099-01B2A1BB",
+							["serial"] = "Player-5099-01B2A1BB",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0265",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0266",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Deviate Stinglash",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3631-000019FC37",
+							["aID"] = "3631",
+						}, -- [8]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [9]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1056,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205334.078,
+				["tempo_start"] = 1696203348,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1063,
+				["totals"] = {
+					4382, -- [1]
+					899, -- [2]
+					{
+						0, -- [1]
+						[0] = 85,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					3005, -- [1]
+					899, -- [2]
+					{
+						0, -- [1]
+						[0] = 85,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Healing Wave"] = 7,
+						["Stoneskin Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Kaevee"] = {
+						["Taunt"] = 1,
+						["Rend"] = 1,
+						["Sunder Armor"] = 5,
+						["Defensive Stance"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 10,
+					},
+					["Joexd"] = {
+						["Shoot"] = 6,
+						["Corruption"] = 3,
+						["Immolate"] = 3,
+						["Curse of Agony"] = 3,
+					},
+					["Gihunter"] = {
+						["Hunter's Mark"] = 2,
+						["Serpent Sting"] = 4,
+						["Auto Shot"] = 9,
+						["Arcane Shot"] = 5,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Deviate Stinglash"] = {
+						["Lash"] = 1,
+					},
+					["Fishhook"] = {
+						["Flame Shock"] = 2,
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Healing Wave"] = 2,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 12,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:36:30",
+				["hasTimer"] = 40.26000000000931,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Slayer",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 10.33799999998882,
+				["CombatEndedAt"] = 205344.416,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:35:48",
+				["end_time"] = 205344.799,
+				["combat_id"] = 1056,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Stalker"] = 1,
+					["Deviate Stinglash"] = 1,
+					["Searing Totem II"] = 1,
+					["Searing Totem"] = 1,
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Deviate Slayer",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Fishhook"] = 253.0067,
+							["Gihunter"] = 0.00184,
+							["Kylablast"] = 646.006438,
+							["Kaevee"] = 0.006977,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Joexd"] = 830.004621,
+							["Gihunter"] = 556.001067,
+							["Kaevee"] = 610.005552,
+							["Kylablast"] = 387.005015,
+							["Fishhook"] = 1072.003563,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205303.536,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [9]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1055,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 1341.005722,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1384.005722,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 412,
+								["Deviate Stinglash"] = 372,
+								["Deviate Slayer"] = 600,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203348,
+							["totalabsorbed"] = 0.005722,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 291,
+											["Deviate Stinglash"] = 194,
+											["Deviate Slayer"] = 324,
+										},
+										["n_total"] = 308,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 809,
+										["c_max"] = 139,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 109,
+										["successful_casted"] = 0,
+										["c_total"] = 501,
+										["n_amt"] = 5,
+										["n_max"] = 65,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 50,
+											["Deviate Stinglash"] = 35,
+											["Deviate Slayer"] = 69,
+										},
+										["n_total"] = 154,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 154,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 70,
+										},
+										["n_total"] = 70,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 70,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 35,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 71,
+											["Deviate Stinglash"] = 100,
+											["Deviate Slayer"] = 137,
+										},
+										["n_total"] = 308,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 308,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 13,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203347,
+							["damage_taken"] = 140.005722,
+							["start_time"] = 1696203302,
+							["delay"] = 0,
+							["last_dps"] = 25.05441205648504,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 719.008,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 719.008,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Lurker"] = true,
+								["Deviate Stinglash"] = true,
+								["Devouring Ectoplasm"] = true,
+								["Deviate Slayer"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 194,
+								["Deviate Stinglash"] = 252,
+								["Deviate Slayer"] = 273,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.008,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 162,
+											["Deviate Stinglash"] = 223,
+											["Deviate Slayer"] = 235,
+										},
+										["n_total"] = 620,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 620,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 11,
+										["n_max"] = 62,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Mocking Blow"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 32,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 32,
+										["c_max"] = 32,
+										["id"] = "Mocking Blow",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 32,
+										["successful_casted"] = 0,
+										["c_total"] = 32,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 38,
+											["Deviate Stinglash"] = 29,
+										},
+										["n_total"] = 67,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 67,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203333,
+							["damage_taken"] = 267.008,
+							["start_time"] = 1696203299,
+							["delay"] = 0,
+							["last_dps"] = 13.01607530775021,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 531.006221,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 667.006221,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 203,
+								["Deviate Stinglash"] = 286,
+								["Deviate Slayer"] = 178,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.006221,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 22,
+										},
+										["n_total"] = 22,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									}, -- [1]
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 2,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [2]
+									[0] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 113,
+											["Deviate Stinglash"] = 115,
+											["Deviate Slayer"] = 116,
+										},
+										["n_total"] = 267,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 344,
+										["c_max"] = 77,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 77,
+										["successful_casted"] = 0,
+										["c_total"] = 77,
+										["n_amt"] = 7,
+										["n_max"] = 42,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Slayer"] = 18,
+											["Deviate Stinglash"] = 17,
+										},
+										["n_total"] = 35,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 42,
+											["Deviate Stinglash"] = 44,
+											["Deviate Slayer"] = 44,
+										},
+										["n_total"] = 88,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 130,
+										["c_max"] = 42,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 42,
+										["successful_casted"] = 0,
+										["c_total"] = 42,
+										["n_amt"] = 4,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203334,
+							["damage_taken"] = 0.006221,
+							["start_time"] = 1696203304,
+							["delay"] = 0,
+							["last_dps"] = 12.07469625271746,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 311.002947,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 311.002947,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 105,
+								["Deviate Stinglash"] = 168,
+								["Deviate Slayer"] = 38,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.002947,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 38,
+											["Deviate Stinglash"] = 76,
+											["Deviate Slayer"] = 38,
+										},
+										["n_total"] = 152,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 152,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 51,
+											["Deviate Stinglash"] = 69,
+										},
+										["n_total"] = 120,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 120,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 16,
+											["Deviate Stinglash"] = 23,
+										},
+										["n_total"] = 39,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 39,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203334,
+							["damage_taken"] = 0.002947,
+							["start_time"] = 1696203320,
+							["delay"] = 1696203314,
+							["last_dps"] = 5.630031625634548,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 117.002904,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 188.002904,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 157,
+								["Deviate Slayer"] = 31,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.002904,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 92,
+										},
+										["n_total"] = 92,
+										["n_min"] = 44,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 92,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 48,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 25,
+										},
+										["n_total"] = 25,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 25,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203335,
+							["damage_taken"] = 64.002904,
+							["start_time"] = 1696203319,
+							["delay"] = 0,
+							["last_dps"] = 3.403383490225049,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 211.008754,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 211.008754,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3633-00001A0030",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 140,
+								["Kaevee"] = 71,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 71,
+							},
+							["totalabsorbed"] = 0.008754,
+							["fight_component"] = true,
+							["end_time"] = 1696203336,
+							["aID"] = "3633",
+							["nome"] = "Deviate Slayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Fishhook"] = 140,
+											["Kaevee"] = 71,
+										},
+										["n_total"] = 211,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 211,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 37,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203324,
+							["damage_taken"] = 1120.008754,
+							["start_time"] = 1696203325,
+							["delay"] = 1696203324,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 136.001308,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 136.001308,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 26,
+								["Deviate Stinglash"] = 110,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.001308,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 26,
+											["Deviate Stinglash"] = 110,
+										},
+										["n_total"] = 80,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 136,
+										["c_max"] = 56,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 56,
+										["successful_casted"] = 0,
+										["c_total"] = 56,
+										["n_amt"] = 3,
+										["n_max"] = 28,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203334,
+							["damage_taken"] = 0.001308,
+							["start_time"] = 1696203329,
+							["delay"] = 1696203313,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 126.00101,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 126.00101,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3631-00001A012F",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 126,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 126,
+							},
+							["totalabsorbed"] = 0.00101,
+							["fight_component"] = true,
+							["end_time"] = 1696203336,
+							["aID"] = "3631",
+							["nome"] = "Deviate Stinglash",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 126,
+										},
+										["n_total"] = 126,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["MISS"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 37,
+										["total"] = 126,
+									}, -- [1]
+									["Lash"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Lash",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203311,
+							["damage_taken"] = 1078.00101,
+							["start_time"] = 1696203325,
+							["delay"] = 1696203311,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 93.00128699999999,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 93.00128699999999,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3638-000019F1D5",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Joexd"] = true,
+								["Cat <Gihunter>"] = true,
+								["Kylablast"] = true,
+							},
+							["targets"] = {
+								["Kylablast"] = 64,
+								["Kaevee"] = 29,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								64, -- [1]
+								29, -- [2]
+							},
+							["totalabsorbed"] = 0.001287,
+							["fight_component"] = true,
+							["end_time"] = 1696203336,
+							["aID"] = "3638",
+							["nome"] = "Devouring Ectoplasm",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kylablast"] = 64,
+											["Kaevee"] = 29,
+										},
+										["n_total"] = 93,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 32,
+										["total"] = 93,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203333,
+							["damage_taken"] = 1071.001287,
+							["start_time"] = 1696203323,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 71.006749,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 71.006749,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0243",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 40,
+								["Deviate Slayer"] = 31,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.006749,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 40,
+											["Deviate Slayer"] = 31,
+										},
+										["n_total"] = 71,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 71,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203333,
+							["damage_taken"] = 0.006749,
+							["start_time"] = 1696203319,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 43.007455,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 43.007455,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0237",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Stinglash"] = 43,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203336,
+							["totalabsorbed"] = 0.007455,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Stinglash"] = 43,
+										},
+										["n_total"] = 43,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 43,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203312,
+							["damage_taken"] = 0.007455,
+							["start_time"] = 1696203330,
+							["delay"] = 1696203312,
+							["last_dps"] = 0,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 41.00648,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 41.00648,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3641-000019FFE7",
+							["on_hold"] = false,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kaevee"] = 41,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 41,
+							},
+							["totalabsorbed"] = 0.00648,
+							["fight_component"] = true,
+							["end_time"] = 1696203336,
+							["aID"] = "3641",
+							["nome"] = "Deviate Lurker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 41,
+										},
+										["n_total"] = 41,
+										["n_min"] = 41,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 41,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203281,
+							["damage_taken"] = 0.00648,
+							["start_time"] = 1696203335,
+							["delay"] = 1696203281,
+							["last_dps"] = 0,
+						}, -- [12]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1055,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 26.003937,
+							["total_without_pet"] = 320.003937,
+							["total"] = 320.003937,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.003937,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kylablast"] = 46,
+								["Kaevee"] = 274,
+							},
+							["totalover_without_pet"] = 0.003937,
+							["tipo"] = 2,
+							["healing_taken"] = 46.003937,
+							["fight_component"] = true,
+							["end_time"] = 1696203336,
+							["targets_overheal"] = {
+								["Kaevee"] = 26,
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaevee"] = 26,
+										},
+										["n_max"] = 80,
+										["targets"] = {
+											["Kylablast"] = 46,
+											["Kaevee"] = 274,
+										},
+										["n_total"] = 264,
+										["n_min"] = 41,
+										["counter"] = 6,
+										["overheal"] = 26,
+										["total"] = 320,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 56,
+										["c_max"] = 56,
+										["c_total"] = 56,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203308,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203329,
+							["totaldenied"] = 0.003937,
+							["delay"] = 1696203291,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.008568,
+							["total_without_pet"] = 0.008568,
+							["total"] = 0.008568,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.008568,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008568,
+							["tipo"] = 2,
+							["healing_taken"] = 274.008568,
+							["fight_component"] = true,
+							["end_time"] = 1696203336,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203336,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.008568,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1055,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.007007,
+							["pets"] = {
+							},
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.007007,
+							["total"] = 29.007007,
+							["serial"] = "Player-5099-019E70EF",
+							["received"] = 29.007007,
+							["targets"] = {
+								["Kaevee"] = 29,
+							},
+							["powertype"] = 1,
+							["alternatepower"] = 0.007007,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["total"] = 20,
+										["totalover"] = 0,
+										["id"] = "Bloodrage",
+										["targets"] = {
+											["Kaevee"] = 20,
+										},
+										["counter"] = 11,
+									},
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.007007,
+							["tipo"] = 3,
+							["last_event"] = 1696203347,
+							["fight_component"] = true,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1055,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Rend"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 24,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mocking Blow"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Mocking Blow",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 65,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 55,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bloodrage"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Bloodrage",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 53,
+							["pets"] = {
+							},
+							["last_event"] = 1696203336,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 18,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Drain Soul"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 25,
+										["id"] = "Drain Soul",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 14,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 59,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 55,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Drain Soul"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = "Drain Soul",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 61,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203336,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = "Hunter's Mark",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 17,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 55,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 55,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 40,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203336,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 31,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 55,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 55,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lightning Shield"] = {
+										["activedamt"] = 0,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203300,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 31,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203336,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime"] = 0,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["last_event"] = 1696203336,
+							["serial"] = "Player-5099-019B323F",
+							["aID"] = "5099-019B323F",
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0237",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Deviate Stinglash",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3631-00001A012F",
+							["aID"] = "3631",
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A0243",
+							["classe"] = "PET",
+						}, -- [8]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1055,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205303.414,
+				["tempo_start"] = 1696203281,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1062,
+				["totals"] = {
+					3740, -- [1]
+					320, -- [2]
+					{
+						29, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					3019, -- [1]
+					320, -- [2]
+					{
+						29, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Stoneskin Totem"] = 2,
+						["Searing Totem"] = 1,
+						["Healing Wave"] = 6,
+					},
+					["Kaevee"] = {
+						["Bloodrage"] = 1,
+						["Rend"] = 2,
+						["Sunder Armor"] = 5,
+						["Mocking Blow"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 6,
+					},
+					["Joexd"] = {
+						["Corruption"] = 3,
+						["Drain Soul"] = 1,
+						["Immolate"] = 2,
+						["Curse of Agony"] = 3,
+					},
+					["Gihunter"] = {
+						["Hunter's Mark"] = 3,
+						["Serpent Sting"] = 3,
+						["Auto Shot"] = 9,
+						["Arcane Shot"] = 5,
+					},
+					["Deviate Stinglash"] = {
+						["Lash"] = 1,
+					},
+					["Fishhook"] = {
+						["Lightning Shield"] = 1,
+						["Stoneclaw Totem"] = 1,
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 3,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 3,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:35:37",
+				["hasTimer"] = 55.23999999999069,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Lurker",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 9.295000000012806,
+				["CombatEndedAt"] = 205292.146,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:34:42",
+				["end_time"] = 205292.297,
+				["combat_id"] = 1055,
+				["overall_added"] = true,
+				["frags"] = {
+					["Stoneclaw Totem II"] = 1,
+					["Deviate Stinglash"] = 1,
+					["Devouring Ectoplasm"] = 1,
+					["Deviate Slayer"] = 1,
+				},
+				["contra"] = "Deviate Lurker",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 320.003937,
+							["Kaevee"] = 0.008568,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 1335.005722,
+							["Gihunter"] = 667.006221,
+							["Kaevee"] = 719.008,
+							["Kylablast"] = 188.002904,
+							["Joexd"] = 311.002947,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205237.057,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [10]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1054,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 370.005892,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 370.005892,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Devouring Ectoplasm"] = true,
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 370,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.005892,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 334,
+										},
+										["n_total"] = 219,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 334,
+										["c_max"] = 115,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 115,
+										["successful_casted"] = 0,
+										["c_total"] = 115,
+										["n_amt"] = 4,
+										["n_max"] = 58,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Sunder Armor"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "Sunder Armor",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 36,
+										},
+										["n_total"] = 36,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 36,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203256,
+							["damage_taken"] = 238.005892,
+							["start_time"] = 1696203240,
+							["delay"] = 0,
+							["last_dps"] = 19.34367900457422,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 258.00717,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 302.00717,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 302,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.00717,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 118,
+										},
+										["n_total"] = 118,
+										["n_min"] = 55,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 118,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 63,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 107,
+										},
+										["n_total"] = 36,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 107,
+										["c_max"] = 71,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 71,
+										["successful_casted"] = 0,
+										["c_total"] = 71,
+										["n_amt"] = 3,
+										["n_max"] = 12,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203257,
+							["damage_taken"] = 0.00717,
+							["start_time"] = 1696203247,
+							["delay"] = 0,
+							["last_dps"] = 15.78874790880323,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 285.003827,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 285.003827,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 285,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.003827,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 182,
+										},
+										["n_total"] = 182,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 182,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 40,
+										},
+										["n_total"] = 40,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 40,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 63,
+										},
+										["n_total"] = 21,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 63,
+										["c_max"] = 42,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 42,
+										["successful_casted"] = 0,
+										["c_total"] = 42,
+										["n_amt"] = 1,
+										["n_max"] = 21,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203258,
+							["damage_taken"] = 0.003827,
+							["start_time"] = 1696203245,
+							["delay"] = 0,
+							["last_dps"] = 14.89982366162753,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 76.002478,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 89.002478,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 89,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.002478,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Immolate"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 76,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 76,
+										["c_max"] = 76,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 76,
+										["successful_casted"] = 0,
+										["c_total"] = 76,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203257,
+							["damage_taken"] = 0.002478,
+							["start_time"] = 1696203255,
+							["delay"] = 0,
+							["last_dps"] = 4.652994458379269,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 0.007429,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 28.007429,
+							["colocacao"] = 5,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 28,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.007429,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203255,
+							["damage_taken"] = 0.007429,
+							["start_time"] = 1696203250,
+							["delay"] = 0,
+							["last_dps"] = 1.46421105185915,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 238.00286,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 238.00286,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3638-00001A007E",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 238,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 238,
+							},
+							["totalabsorbed"] = 0.00286,
+							["fight_component"] = true,
+							["end_time"] = 1696203259,
+							["aID"] = "3638",
+							["nome"] = "Devouring Ectoplasm",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 238,
+										},
+										["n_total"] = 238,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 238,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 33,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203257,
+							["damage_taken"] = 1074.00286,
+							["start_time"] = 1696203240,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 44.002496,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 44.002496,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0200",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 44,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.002496,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203257,
+							["damage_taken"] = 0.002496,
+							["start_time"] = 1696203252,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 28.003736,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 28.003736,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A01E9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 28,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.003736,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 28,
+										},
+										["n_total"] = 28,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 28,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203255,
+							["damage_taken"] = 0.003736,
+							["start_time"] = 1696203250,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 13.004733,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 13.004733,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 13,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203259,
+							["totalabsorbed"] = 0.004733,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 13,
+										},
+										["n_total"] = 13,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 13,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203257,
+							["damage_taken"] = 0.004733,
+							["start_time"] = 1696203257,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1054,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.007606,
+							["total_without_pet"] = 305.007606,
+							["total"] = 305.007606,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.007606,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kaevee"] = 305,
+							},
+							["totalover_without_pet"] = 0.007606,
+							["tipo"] = 2,
+							["healing_taken"] = 0.007606,
+							["fight_component"] = true,
+							["end_time"] = 1696203259,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 157,
+										["targets"] = {
+											["Kaevee"] = 305,
+										},
+										["n_total"] = 305,
+										["n_min"] = 73,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 305,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203248,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203256,
+							["totaldenied"] = 0.007606,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.002486,
+							["total_without_pet"] = 0.002486,
+							["total"] = 0.002486,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.002486,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002486,
+							["tipo"] = 2,
+							["healing_taken"] = 305.002486,
+							["fight_component"] = true,
+							["end_time"] = 1696203259,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203259,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.002486,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1054,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1054,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime"] = 19,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["last_event"] = 1696203259,
+							["serial"] = "Player-5099-019B323F",
+							["aID"] = "5099-019B323F",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 14,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 19,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 26,
+							["pets"] = {
+							},
+							["last_event"] = 1696203259,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["buff_uptime"] = 19,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 7,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203259,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Concussive Shot"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Concussive Shot",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 19,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 19,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203259,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [4]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 19,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["activedamt"] = 0,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203245,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["activedamt"] = 1,
+										["id"] = 8076,
+										["targets"] = {
+										},
+										["actived_at"] = 1696203240,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 11,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203259,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [5]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A01E9",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A0200",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [8]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1054,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205202.733,
+				["tempo_start"] = 1696203240,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1061,
+				["totals"] = {
+					1312, -- [1]
+					305, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					989, -- [1]
+					305, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Healing Wave"] = 3,
+					},
+					["Kaevee"] = {
+						["Sunder Armor"] = 3,
+						["Rend"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 2,
+					},
+					["Fishhook"] = {
+						["Lightning Shield"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 6,
+						["Concussive Shot"] = 1,
+						["Arcane Shot"] = 2,
+						["Serpent Sting"] = 1,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Joexd"] = {
+						["Corruption"] = 1,
+						["Immolate"] = 1,
+						["Curse of Agony"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:34:19",
+				["hasTimer"] = 19.12800000002608,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Devouring Ectoplasm",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 11.19899999999325,
+				["CombatEndedAt"] = 205213.932,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:34:00",
+				["end_time"] = 205214.349,
+				["combat_id"] = 1054,
+				["overall_added"] = true,
+				["frags"] = {
+					["Searing Totem"] = 1,
+					["Devouring Ectoplasm"] = 1,
+				},
+				["contra"] = "Devouring Ectoplasm",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 305.007606,
+							["Kaevee"] = 0.002486,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 302.00717,
+							["Gihunter"] = 285.003827,
+							["Kaevee"] = 370.005892,
+							["Kylablast"] = 28.007429,
+							["Joexd"] = 89.002478,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205195.221,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [11]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1053,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 216.004309,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 298.004309,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 298,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.004309,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 156,
+										},
+										["n_total"] = 156,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 156,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 41,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 16,
+										},
+										["n_total"] = 16,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 16,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 44,
+										},
+										["n_total"] = 44,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203236,
+							["damage_taken"] = 0.004309,
+							["start_time"] = 1696203226,
+							["delay"] = 0,
+							["last_dps"] = 19.74061400372208,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 247.002544,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 294.002544,
+							["colocacao"] = 2,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 294,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.002544,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 137,
+										},
+										["n_total"] = 137,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 137,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 69,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 35,
+										},
+										["n_total"] = 35,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 75,
+										},
+										["n_total"] = 75,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 75,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203235,
+							["damage_taken"] = 0.002544,
+							["start_time"] = 1696203229,
+							["delay"] = 0,
+							["last_dps"] = 19.47552623212678,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 249.00375,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 249.00375,
+							["colocacao"] = 3,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Creeper"] = true,
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 249,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.00375,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 222,
+										},
+										["n_total"] = 222,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 222,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 57,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 27,
+										},
+										["n_total"] = 27,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 27,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203234,
+							["damage_taken"] = 285.00375,
+							["start_time"] = 1696203223,
+							["delay"] = 0,
+							["last_dps"] = 16.49468402226798,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 200.003753,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 236.003753,
+							["colocacao"] = 4,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 236,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.003753,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 141,
+										},
+										["n_total"] = 55,
+										["n_min"] = 55,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 141,
+										["c_max"] = 86,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 86,
+										["successful_casted"] = 0,
+										["c_total"] = 86,
+										["n_amt"] = 1,
+										["n_max"] = 55,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 13,
+										},
+										["n_total"] = 13,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 13,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 13,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 46,
+										},
+										["n_total"] = 46,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 46,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 25,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203236,
+							["damage_taken"] = 0.003753,
+							["start_time"] = 1696203224,
+							["delay"] = 0,
+							["last_dps"] = 15.6335289480756,
+						}, -- [4]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 285.004932,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 285.004932,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3632-000019FF1B",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Kylablast"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Cat <Gihunter>"] = true,
+								["Gihunter"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 285,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 285,
+							},
+							["totalabsorbed"] = 0.004932,
+							["fight_component"] = true,
+							["end_time"] = 1696203238,
+							["aID"] = "3632",
+							["nome"] = "Deviate Creeper",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 285,
+										},
+										["n_total"] = 144,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 285,
+										["c_max"] = 73,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 68,
+										["successful_casted"] = 0,
+										["c_total"] = 141,
+										["n_amt"] = 5,
+										["n_max"] = 31,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203235,
+							["damage_taken"] = 1077.004932,
+							["start_time"] = 1696203223,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 82.002307,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 82.002307,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 82,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.002307,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 23,
+										["targets"] = {
+											["Deviate Creeper"] = 82,
+										},
+										["n_total"] = 82,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 82,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 31,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203235,
+							["damage_taken"] = 0.002307,
+							["start_time"] = 1696203231,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 47.008725,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 47.008725,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A01E8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 47,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.008725,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 47,
+										},
+										["n_total"] = 47,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 47,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203234,
+							["damage_taken"] = 0.008725,
+							["start_time"] = 1696203229,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 36.008053,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 36.008053,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A01E9",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 36,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203238,
+							["totalabsorbed"] = 0.008053,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 36,
+										},
+										["n_total"] = 21,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 36,
+										["c_max"] = 15,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 15,
+										["successful_casted"] = 0,
+										["c_total"] = 15,
+										["n_amt"] = 2,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203234,
+							["damage_taken"] = 0.008053,
+							["start_time"] = 1696203229,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1053,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.007559,
+							["total_without_pet"] = 125.007559,
+							["total"] = 125.007559,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.007559,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kaevee"] = 125,
+							},
+							["totalover_without_pet"] = 0.007559,
+							["tipo"] = 2,
+							["healing_taken"] = 0.007559,
+							["fight_component"] = true,
+							["end_time"] = 1696203238,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 81,
+										["targets"] = {
+											["Kaevee"] = 125,
+										},
+										["n_total"] = 125,
+										["n_min"] = 44,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 125,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203230,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203233,
+							["totaldenied"] = 0.007559,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.005151,
+							["total_without_pet"] = 0.005151,
+							["total"] = 0.005151,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.005151,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.005151,
+							["tipo"] = 2,
+							["healing_taken"] = 125.005151,
+							["fight_component"] = true,
+							["end_time"] = 1696203238,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203238,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.005151,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1053,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1053,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Charge Stun"] = {
+										["activedamt"] = -1,
+										["id"] = "Charge Stun",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203223,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Battle Shout"] = {
+										["activedamt"] = 0,
+										["id"] = "Battle Shout",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203231,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 20,
+							["pets"] = {
+							},
+							["last_event"] = 1696203238,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-01A9FF11",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Joexd",
+							["grupo"] = true,
+							["buff_uptime"] = 15,
+							["tipo"] = 4,
+							["classe"] = "WARLOCK",
+							["serial"] = "Player-5099-01A9FF11",
+							["last_event"] = 1696203238,
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["activedamt"] = -1,
+										["id"] = "Hunter's Mark",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203236,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 8,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203238,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 7,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203238,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 12,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["last_event"] = 1696203238,
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kylablast",
+							["tipo"] = 4,
+							["aID"] = "5099-019B323F",
+							["serial"] = "Player-5099-019B323F",
+							["buff_uptime_targets"] = {
+							},
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A01E8",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A01E9",
+							["classe"] = "PET",
+						}, -- [7]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1053,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205184.062,
+				["tempo_start"] = 1696203223,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1060,
+				["totals"] = {
+					1362, -- [1]
+					125, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					912, -- [1]
+					125, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Healing Wave"] = 2,
+						["Stoneskin Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Kaevee"] = {
+						["Battle Shout"] = 1,
+						["Rend"] = 1,
+						["Sunder Armor"] = 1,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 4,
+						["Serpent Sting"] = 1,
+						["Arcane Shot"] = 2,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 2,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 2,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:33:58",
+				["hasTimer"] = 15.09599999999045,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Creeper",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 8.747999999992317,
+				["CombatEndedAt"] = 205192.81,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:33:43",
+				["end_time"] = 205193.508,
+				["combat_id"] = 1053,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Creeper"] = 1,
+				},
+				["contra"] = "Deviate Creeper",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 125.007559,
+							["Kaevee"] = 0.005151,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 294.002544,
+							["Kylablast"] = 236.003753,
+							["Gihunter"] = 298.004309,
+							["Kaevee"] = 249.00375,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205178.412,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [12]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1052,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 328.004503,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 328.004503,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Creeper"] = true,
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 328,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.004503,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["b_dmg"] = 58,
+										["targets"] = {
+											["Deviate Creeper"] = 300,
+										},
+										["n_total"] = 300,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 300,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 63,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 28,
+										},
+										["n_total"] = 28,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 28,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203190,
+							["damage_taken"] = 188.004503,
+							["start_time"] = 1696203176,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 188.007431,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 188.007431,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3632-00001A0173",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem <Kylablast>"] = true,
+								["Gihunter"] = true,
+								["Kaevee"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Kongarth <Joexd>"] = true,
+								["Joexd"] = true,
+							},
+							["targets"] = {
+								["Kaevee"] = 188,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 188,
+							},
+							["totalabsorbed"] = 0.007431,
+							["fight_component"] = true,
+							["end_time"] = 1696203193,
+							["aID"] = "3632",
+							["nome"] = "Deviate Creeper",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kaevee"] = 188,
+										},
+										["n_total"] = 127,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["DODGE"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 61,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 61,
+										["successful_casted"] = 0,
+										["c_total"] = 61,
+										["n_amt"] = 5,
+										["n_max"] = 28,
+										["total"] = 188,
+									}, -- [1]
+									["Infected Wound"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Infected Wound",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203190,
+							["damage_taken"] = 995.007431,
+							["start_time"] = 1696203178,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 84.00556399999999,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 84.00556399999999,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3630-00009A0169",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Joexd"] = true,
+								["Seasofcheese"] = true,
+								["Kongarth <Joexd>"] = true,
+							},
+							["targets"] = {
+								["Seasofcheese"] = 84,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005564,
+							["fight_component"] = true,
+							["end_time"] = 1696203193,
+							["aID"] = "3630",
+							["nome"] = "Deviate Coiler",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Seasofcheese"] = 84,
+										},
+										["n_total"] = 84,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 84,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 31,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203182,
+							["damage_taken"] = 591.005564,
+							["start_time"] = 1696203186,
+							["delay"] = 1696203182,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1300,
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["classe"] = "WARLOCK",
+							["total_without_pet"] = 226.003584,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 289.003584,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01A9FF11",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 126,
+								["Deviate Coiler"] = 163,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.003584,
+							["aID"] = "5099-01A9FF11",
+							["nome"] = "Joexd",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 38,
+											["Deviate Coiler"] = 114,
+										},
+										["n_total"] = 152,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 152,
+										["c_max"] = 0,
+										["id"] = "Corruption",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 38,
+										["r_amt"] = 0,
+									},
+									["Immolate"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 51,
+										},
+										["n_total"] = 51,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = "Immolate",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+									["Curse of Agony"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 23,
+										},
+										["n_total"] = 23,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 23,
+										["c_max"] = 0,
+										["id"] = "Curse of Agony",
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 8,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203191,
+							["damage_taken"] = 0.003584,
+							["start_time"] = 1696203178,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 63.007883,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 63.007883,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 14,
+								["Deviate Coiler"] = 49,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.007883,
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 14,
+											["Deviate Coiler"] = 49,
+										},
+										["n_total"] = 63,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 63,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 14,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203191,
+							["damage_taken"] = 0.007883,
+							["start_time"] = 1696203178,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 203.007917,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 203.007917,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 203,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.007917,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 146,
+										},
+										["n_total"] = 146,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 146,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 42,
+										["r_amt"] = 0,
+									},
+									["Serpent Sting"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 35,
+										},
+										["n_total"] = 35,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = "Serpent Sting",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 9,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 22,
+										},
+										["n_total"] = 22,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203191,
+							["damage_taken"] = 0.007917,
+							["start_time"] = 1696203178,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 266.006417,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 308.006417,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 308,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.006417,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 141,
+										},
+										["n_total"] = 141,
+										["n_min"] = 67,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 141,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 74,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 36,
+										},
+										["n_total"] = 36,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 36,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 89,
+										},
+										["n_total"] = 89,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 89,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203190,
+							["damage_taken"] = 0.006417,
+							["start_time"] = 1696203179,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 42.002422,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 42.002422,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A01BC",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 42,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.002422,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 42,
+										},
+										["n_total"] = 42,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 42,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 15,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203189,
+							["damage_taken"] = 0.002422,
+							["start_time"] = 1696203184,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 0.00183,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 30.00183,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019B323F",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 30,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.00183,
+							["aID"] = "5099-019B323F",
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203189,
+							["damage_taken"] = 0.00183,
+							["start_time"] = 1696203184,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 30.006413,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 30.006413,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A01BD",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Deviate Creeper"] = 30,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "2523",
+							["end_time"] = 1696203193,
+							["totalabsorbed"] = 0.006413,
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Creeper"] = 30,
+										},
+										["n_total"] = 30,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 11,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203189,
+							["damage_taken"] = 0.006413,
+							["start_time"] = 1696203184,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1052,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019B323F",
+							["totalover"] = 0.002564,
+							["total_without_pet"] = 118.002564,
+							["total"] = 118.002564,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019B323F",
+							["totalabsorb"] = 0.002564,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kaevee"] = 118,
+							},
+							["totalover_without_pet"] = 0.002564,
+							["tipo"] = 2,
+							["healing_taken"] = 0.002564,
+							["fight_component"] = true,
+							["end_time"] = 1696203193,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kylablast",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 81,
+										["targets"] = {
+											["Kaevee"] = 118,
+										},
+										["n_total"] = 118,
+										["n_min"] = 37,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 118,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203185,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203188,
+							["totaldenied"] = 0.002564,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["healing_from"] = {
+								["Kylablast"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.004025,
+							["total_without_pet"] = 0.004025,
+							["total"] = 0.004025,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.004025,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004025,
+							["tipo"] = 2,
+							["healing_taken"] = 118.004025,
+							["fight_component"] = true,
+							["end_time"] = 1696203193,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203193,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.004025,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1052,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.008561,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.008561,
+							["total"] = 9.008561,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.008561,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203222,
+							["totalover"] = 0.008561,
+							["alternatepower"] = 0.008561,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1052,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Charge Stun"] = {
+										["activedamt"] = -1,
+										["id"] = "Charge Stun",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203176,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 21,
+							["pets"] = {
+							},
+							["last_event"] = 1696203193,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Corruption"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 14,
+										["id"] = "Corruption",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Immolate"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = "Immolate",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Curse of Agony"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = "Curse of Agony",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Kongarth <Joexd>", -- [1]
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 22,
+							["nome"] = "Joexd",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203193,
+							["serial"] = "Player-5099-01A9FF11",
+							["aID"] = "5099-01A9FF11",
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 12,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203193,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [3]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["activedamt"] = 0,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203178,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 12,
+							["nome"] = "Fishhook",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696203193,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Searing Totem <Kylablast>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[8072] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8072,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime"] = 0,
+							["nome"] = "Kylablast",
+							["grupo"] = true,
+							["tipo"] = 4,
+							["last_event"] = 1696203193,
+							["serial"] = "Player-5099-019B323F",
+							["aID"] = "5099-019B323F",
+						}, -- [5]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["ownerName"] = "Joexd",
+							["nome"] = "Kongarth <Joexd>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A01BC",
+							["classe"] = "PET",
+						}, -- [7]
+						{
+							["flag_original"] = 8466,
+							["pets"] = {
+							},
+							["aID"] = "2523",
+							["ownerName"] = "Kylablast",
+							["nome"] = "Searing Totem <Kylablast>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-2523-00001A01BD",
+							["classe"] = "PET",
+						}, -- [8]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Deviate Creeper",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3632-00001A0173",
+							["aID"] = "3632",
+						}, -- [9]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1052,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205134.897,
+				["tempo_start"] = 1696203176,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1059,
+				["totals"] = {
+					1858, -- [1]
+					118, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1023, -- [1]
+					118, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Searing Totem <Kylablast>"] = {
+						["Attack"] = 1,
+					},
+					["Kylablast"] = {
+						["Searing Totem"] = 1,
+						["Stoneskin Totem"] = 1,
+						["Flametongue Weapon"] = 1,
+						["Healing Wave"] = 2,
+					},
+					["Kaevee"] = {
+						["Sunder Armor"] = 3,
+						["Rend"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Kongarth <Joexd>"] = {
+						["Torment"] = 1,
+					},
+					["Fishhook"] = {
+						["Strength of Earth Totem"] = 1,
+						["Lightning Shield"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 5,
+						["Serpent Sting"] = 1,
+						["Arcane Shot"] = 1,
+					},
+					["Deviate Creeper"] = {
+						["Infected Wound"] = 1,
+					},
+					["Searing Totem"] = {
+						["Attack"] = 2,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 2,
+					},
+					["Joexd"] = {
+						["Corruption"] = 2,
+						["Immolate"] = 1,
+						["Curse of Agony"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:33:13",
+				["hasTimer"] = 17.11600000000908,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Creeper",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 12.9429999999993,
+				["CombatEndedAt"] = 205147.84,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:32:56",
+				["end_time"] = 205148.746,
+				["combat_id"] = 1052,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Creeper"] = 1,
+					["Deviate Coiler"] = 1,
+				},
+				["contra"] = "Deviate Creeper",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kylablast"] = 118.002564,
+							["Kaevee"] = 0.004025,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Joexd"] = 289.003584,
+							["Gihunter"] = 203.007917,
+							["Kaevee"] = 328.004503,
+							["Kylablast"] = 30.00183,
+							["Fishhook"] = 308.006417,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205131.63,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [13]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1051,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 780.007599,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 780.007599,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-019E70EF",
+							["damage_from"] = {
+								["Deviate Coiler"] = true,
+							},
+							["targets"] = {
+								["Deviate Coiler"] = 780,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203145,
+							["totalabsorbed"] = 0.007599,
+							["aID"] = "5099-019E70EF",
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 2,
+										["g_amt"] = 0,
+										["b_dmg"] = 96,
+										["targets"] = {
+											["Deviate Coiler"] = 704,
+										},
+										["n_total"] = 574,
+										["n_min"] = 44,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 704,
+										["c_max"] = 130,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 130,
+										["successful_casted"] = 0,
+										["c_total"] = 130,
+										["n_amt"] = 10,
+										["n_max"] = 64,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Coiler"] = 76,
+										},
+										["n_total"] = 76,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 76,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203143,
+							["damage_taken"] = 379.007599,
+							["start_time"] = 1696203106,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 408.004009,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 408.004009,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3630-00001A0169",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Seasofcheese"] = true,
+								["Kaevee"] = true,
+							},
+							["targets"] = {
+								["Seasofcheese"] = 29,
+								["Kaevee"] = 379,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 379,
+							},
+							["totalabsorbed"] = 0.004009,
+							["fight_component"] = true,
+							["end_time"] = 1696203176,
+							["aID"] = "3630",
+							["nome"] = "Deviate Coiler",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Seasofcheese"] = 29,
+											["Kaevee"] = 379,
+										},
+										["n_total"] = 408,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 13,
+										["n_max"] = 36,
+										["total"] = 408,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203174,
+							["damage_taken"] = 1591.004009,
+							["start_time"] = 1696203115,
+							["delay"] = 1696203135,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 231.008627,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 361.008627,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 17,
+								["Deviate Coiler"] = 344,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203176,
+							["totalabsorbed"] = 0.008627,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Coiler"] = 112,
+										},
+										["n_total"] = 112,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 112,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 62,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Coiler"] = 18,
+										},
+										["n_total"] = 18,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 18,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deviate Coiler"] = 101,
+										},
+										["n_total"] = 101,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 101,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 50,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203152,
+							["damage_taken"] = 0.008627,
+							["start_time"] = 1696203137,
+							["delay"] = 1696203152,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 130.001217,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 130.001217,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A017B",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Devouring Ectoplasm"] = 17,
+								["Deviate Coiler"] = 113,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "3902",
+							["end_time"] = 1696203176,
+							["totalabsorbed"] = 0.001217,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Devouring Ectoplasm"] = 17,
+											["Deviate Coiler"] = 113,
+										},
+										["n_total"] = 130,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 130,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 17,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696203152,
+							["damage_taken"] = 0.001217,
+							["start_time"] = 1696203142,
+							["delay"] = 1696203152,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1051,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-01B2A1BB",
+							["totalover"] = 184.006991,
+							["total_without_pet"] = 379.006991,
+							["total"] = 379.006991,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-01B2A1BB",
+							["totalabsorb"] = 0.006991,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Kaevee"] = 379,
+							},
+							["totalover_without_pet"] = 0.006991,
+							["tipo"] = 2,
+							["healing_taken"] = 0.006991,
+							["fight_component"] = true,
+							["end_time"] = 1696203145,
+							["targets_overheal"] = {
+								["Kaevee"] = 184,
+							},
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaevee"] = 184,
+										},
+										["n_max"] = 284,
+										["targets"] = {
+											["Kaevee"] = 379,
+										},
+										["n_total"] = 379,
+										["n_min"] = 95,
+										["counter"] = 2,
+										["overheal"] = 184,
+										["total"] = 379,
+										["spellschool"] = 8,
+										["id"] = "Healing Wave",
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203132,
+							["classe"] = "SHAMAN",
+							["custom"] = 0,
+							["last_event"] = 1696203138,
+							["totaldenied"] = 0.006991,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 66834,
+							["healing_from"] = {
+								["Fishhook"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "5099-019E70EF",
+							["totalover"] = 0.005258,
+							["total_without_pet"] = 0.005258,
+							["total"] = 0.005258,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-5099-019E70EF",
+							["totalabsorb"] = 0.005258,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.005258,
+							["tipo"] = 2,
+							["healing_taken"] = 379.005258,
+							["fight_component"] = true,
+							["end_time"] = 1696203145,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["start_time"] = 1696203145,
+							["classe"] = "WARRIOR",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["totaldenied"] = 0.005258,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1051,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.004062,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.004062,
+							["total"] = 9.004062,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.004062,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203175,
+							["totalover"] = 0.004062,
+							["alternatepower"] = 0.004062,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1051,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Sunder Armor"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 25,
+										["id"] = "Sunder Armor",
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 25,
+										["id"] = "Rend",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 39,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 39,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Battle Shout"] = {
+										["activedamt"] = 0,
+										["id"] = "Battle Shout",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203130,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 50,
+							["pets"] = {
+							},
+							["last_event"] = 1696203145,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Kaevee",
+							["tipo"] = 4,
+							["aID"] = "5099-019E70EF",
+							["serial"] = "Player-5099-019E70EF",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-01A9FF11",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 39,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Joexd",
+							["grupo"] = true,
+							["buff_uptime"] = 39,
+							["tipo"] = 4,
+							["classe"] = "WARLOCK",
+							["serial"] = "Player-5099-01A9FF11",
+							["last_event"] = 1696203145,
+						}, -- [2]
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-01B2459E",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 39,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Gihunter",
+							["grupo"] = true,
+							["buff_uptime"] = 39,
+							["tipo"] = 4,
+							["classe"] = "HUNTER",
+							["serial"] = "Player-5099-01B2459E",
+							["last_event"] = 1696203145,
+						}, -- [3]
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 5,
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["activedamt"] = 1,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696203112,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8076] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 8076,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 13,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["last_event"] = 1696203145,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Fishhook",
+							["tipo"] = 4,
+							["aID"] = "5099-01B2A1BB",
+							["serial"] = "Player-5099-01B2A1BB",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3902-00001A017B",
+							["classe"] = "PET",
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1051,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["CombatStartedAt"] = 205069.871,
+				["tempo_start"] = 1696203106,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1058,
+				["totals"] = {
+					3149, -- [1]
+					379, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1011, -- [1]
+					379, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Lightning Shield"] = 2,
+						["Healing Wave"] = 2,
+						["Flametongue Weapon"] = 1,
+						["Strength of Earth Totem"] = 1,
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 7,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Kaevee"] = {
+						["Battle Shout"] = 1,
+						["Rend"] = 2,
+						["Sunder Armor"] = 4,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:32:25",
+				["hasTimer"] = 38.20699999999488,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deviate Coiler",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 29.37399999998161,
+				["CombatEndedAt"] = 205099.245,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "17:31:47",
+				["end_time"] = 205100.214,
+				["combat_id"] = 1051,
+				["overall_added"] = true,
+				["frags"] = {
+					["Deviate Coiler"] = 1,
+				},
+				["contra"] = "Deviate Coiler",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Fishhook"] = 379.006991,
+							["Kaevee"] = 0.005258,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 344.008627,
+							["Kaevee"] = 780.007599,
+						}, -- [1]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 205062.007,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [14]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1050,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["total_without_pet"] = 158.001483,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 266.001483,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2459E",
+							["damage_from"] = {
+								["Kolkar Stormer"] = true,
+							},
+							["targets"] = {
+								["Kolkar Stormer"] = 266,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696202972,
+							["totalabsorbed"] = 0.001483,
+							["aID"] = "5099-01B2459E",
+							["nome"] = "Gihunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									[0] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kolkar Stormer"] = 116,
+										},
+										["n_total"] = 116,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 116,
+										["c_max"] = 0,
+										["id"] = 0,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 40,
+										["r_amt"] = 0,
+									},
+									["Arcane Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kolkar Stormer"] = 42,
+										},
+										["n_total"] = 42,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 42,
+										["c_max"] = 0,
+										["id"] = "Arcane Shot",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 21,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696202971,
+							["damage_taken"] = 51.001483,
+							["start_time"] = 1696202964,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 65.002926,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 65.002926,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5177-1-73-3273-00001A0054",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Gihunter"] = true,
+								["Cat <Gihunter>"] = true,
+							},
+							["targets"] = {
+								["Gihunter"] = 51,
+								["Cat <Gihunter>"] = 14,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.002926,
+							["fight_component"] = true,
+							["end_time"] = 1696202972,
+							["aID"] = "3273",
+							["nome"] = "Kolkar Stormer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Cat <Gihunter>"] = 14,
+										},
+										["n_total"] = 14,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 14,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Lightning Bolt"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Gihunter"] = 51,
+										},
+										["n_total"] = 51,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = "Lightning Bolt",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 51,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696202970,
+							["damage_taken"] = 266.002926,
+							["start_time"] = 1696202968,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 108.003281,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 108.003281,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["damage_from"] = {
+								["Kolkar Stormer"] = true,
+							},
+							["targets"] = {
+								["Kolkar Stormer"] = 108,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["end_time"] = 1696202972,
+							["totalabsorbed"] = 0.003281,
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kolkar Stormer"] = 108,
+										},
+										["n_total"] = 22,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 108,
+										["c_max"] = 45,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 41,
+										["successful_casted"] = 0,
+										["c_total"] = 86,
+										["n_amt"] = 1,
+										["n_max"] = 22,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696202971,
+							["damage_taken"] = 14.003281,
+							["start_time"] = 1696202966,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 0.002257,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.002257,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696203106,
+							["totalabsorbed"] = 0.002257,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 5.002257,
+							["start_time"] = 1696203106,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1050,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1050,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["resource"] = 0.008688,
+							["targets"] = {
+								["Kaevee"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-019E70EF",
+							["passiveover"] = 0.008688,
+							["total"] = 9.008688,
+							["nome"] = "Kaevee",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["totalover"] = 0,
+										["id"] = "Charge",
+										["targets"] = {
+											["Kaevee"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 9.008688,
+							["classe"] = "WARRIOR",
+							["last_event"] = 1696203105,
+							["totalover"] = 0.008688,
+							["alternatepower"] = 0.008688,
+							["serial"] = "Player-5099-019E70EF",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1050,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-01A9FF11",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[706] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 706,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Joexd",
+							["grupo"] = true,
+							["buff_uptime"] = 8,
+							["tipo"] = 4,
+							["classe"] = "WARLOCK",
+							["serial"] = "Player-5099-01A9FF11",
+							["last_event"] = 1696202972,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Hunter's Mark"] = {
+										["activedamt"] = -1,
+										["id"] = "Hunter's Mark",
+										["targets"] = {
+										},
+										["actived_at"] = 1696202971,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Concussive Shot"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = "Concussive Shot",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Serpent Sting"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Serpent Sting",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Cat <Gihunter>", -- [1]
+							},
+							["buff_uptime"] = 8,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[13165] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 13165,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 9,
+							["nome"] = "Gihunter",
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1696202972,
+							["serial"] = "Player-5099-01B2459E",
+							["aID"] = "5099-01B2459E",
+						}, -- [2]
+						{
+							["flag_original"] = 4370,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["ownerName"] = "Gihunter",
+							["nome"] = "Cat <Gihunter>",
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kolkar Stormer",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-5177-1-73-3273-00001A0054",
+							["aID"] = "3273",
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1050,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Joexd"] = "Player-5099-01A9FF11",
+					["Kylablast"] = "Player-5099-019B323F",
+					["Kaevee"] = "Player-5099-019E70EF",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+					["Gihunter"] = "Player-5099-01B2459E",
+				},
+				["raid_roster_indexed"] = {
+					"Kylablast", -- [1]
+					"Gihunter", -- [2]
+					"Fishhook", -- [3]
+					"Kaevee", -- [4]
+					"Joexd", -- [5]
+				},
+				["tempo_start"] = 1696202964,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["combat_counter"] = 1057,
+				["totals"] = {
+					336, -- [1]
+					0, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					158, -- [1]
+					0, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Cat <Gihunter>"] = {
+						["Growl"] = 1,
+					},
+					["Kolkar Stormer"] = {
+						["Lightning Bolt"] = 1,
+					},
+					["Gihunter"] = {
+						["Auto Shot"] = 2,
+						["Concussive Shot"] = 1,
+						["Arcane Shot"] = 1,
+						["Serpent Sting"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "17:29:32",
+				["hasTimer"] = 6.024999999994179,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Kolkar Stormer",
+				["trinketProcs"] = {
+				},
+				["aura_timeline"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Gihunter"] = 266.001483,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 204927.445,
+				["combat_id"] = 1050,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["contra"] = "Kolkar Stormer",
+				["player_last_events"] = {
+					["Fishhook"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							5, -- [3]
+							1696203091.875, -- [4]
+							550, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["data_inicio"] = "17:29:25",
+				["start_time"] = 204920.417,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Kolkar Stormer"] = 1,
+				},
+			}, -- [15]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1049,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 148.00413,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 148.00413,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-4129-0000190F33",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 148,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.00413,
+							["fight_component"] = true,
+							["end_time"] = 1696156555,
+							["aID"] = "4129",
+							["nome"] = "Hecklefang Snarler",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Samoanslayer"] = 148,
+										},
+										["n_total"] = 104,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 148,
+										["c_max"] = 44,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 44,
+										["successful_casted"] = 0,
+										["c_total"] = 44,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156554,
+							["damage_taken"] = 449.00413,
+							["start_time"] = 1696156542,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 66834,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 221.003578,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 221.003578,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+								["Hecklefang Snarler"] = true,
+							},
+							["targets"] = {
+								["Hecklefang Snarler"] = 221,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156555,
+							["totalabsorbed"] = 0.003578,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["n_max"] = 59,
+										["targets"] = {
+											["Hecklefang Snarler"] = 221,
+										},
+										["n_total"] = 171,
+										["n_min"] = 55,
+										["g_dmg"] = 50,
+										["counter"] = 5,
+										["total"] = 221,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156554,
+							["damage_taken"] = 148.003578,
+							["start_time"] = 1696156542,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 211.008409,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 228.008409,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+								["Hecklefang Snarler"] = 228,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156555,
+							["totalabsorbed"] = 0.008409,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["n_max"] = 51,
+										["targets"] = {
+											["Hecklefang Snarler"] = 91,
+										},
+										["n_total"] = 51,
+										["n_min"] = 51,
+										["g_dmg"] = 40,
+										["counter"] = 3,
+										["total"] = 91,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Hecklefang Snarler"] = 46,
+										},
+										["n_total"] = 18,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 46,
+										["c_max"] = 28,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 28,
+										["successful_casted"] = 0,
+										["c_total"] = 28,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 50,
+										["targets"] = {
+											["Hecklefang Snarler"] = 74,
+										},
+										["n_total"] = 74,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 74,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156555,
+							["damage_taken"] = 284.008409,
+							["start_time"] = 1696156547,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 17.001351,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 17.001351,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194B96",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Hecklefang Snarler"] = 17,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156555,
+							["totalabsorbed"] = 0.001351,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Hecklefang Snarler"] = 17,
+										},
+										["n_total"] = 17,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 17,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156553,
+							["damage_taken"] = 0.001351,
+							["start_time"] = 1696156553,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1049,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1049,
+					["_ActorTable"] = {
+						{
+							["received"] = 20.001457,
+							["resource"] = 0.001457,
+							["targets"] = {
+								["Samoanslayer"] = 20,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-0198BB70",
+							["totalover"] = 0.001457,
+							["total"] = 20.001457,
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["total"] = 20,
+										["id"] = "Bloodrage",
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 20,
+										},
+										["counter"] = 11,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 66834,
+							["classe"] = "WARRIOR",
+							["tipo"] = 3,
+							["passiveover"] = 0.001457,
+							["alternatepower"] = 0.001457,
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156553,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1049,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 26,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156555,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [1]
+						{
+							["flag_original"] = 66834,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Demoralizing Shout"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Demoralizing Shout",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 10,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Bloodrage",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Samoanslayer",
+							["grupo"] = true,
+							["last_event"] = 1696156555,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-0198BB70",
+							["aID"] = "5099-0198BB70",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194B96",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1049,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158502.724,
+				["tempo_start"] = 1696156542,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					18478, -- [1]
+					157, -- [2]
+					{
+						54, -- [1]
+						[0] = 467,
+						["alternatepower"] = 0,
+						[3] = 240,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 1,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Fishhook"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							284, -- [3]
+							1696189300.246, -- [4]
+							630, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Samoanslayer"] = {
+						["Bloodrage"] = 1,
+						["Demoralizing Shout"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:35:55",
+				["hasTimer"] = 13.09299999999348,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Hecklefang Snarler",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 7.846999999979744,
+				["CombatEndedAt"] = 158510.571,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:35:42",
+				["end_time"] = 158510.721,
+				["combat_id"] = 1049,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Hecklefang Snarler",
+				["combat_counter"] = 1056,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Samoanslayer"] = 221.003578,
+							["Fishhook"] = 228.008409,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					432, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158497.628,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Hecklefang Snarler"] = 1,
+				},
+			}, -- [16]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1048,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 354.005776,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 430.005776,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+								["Bristleback Thornweaver"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 102,
+								["Bristleback Thornweaver"] = 328,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156465,
+							["totalabsorbed"] = 0.005776,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["n_max"] = 57,
+										["targets"] = {
+											["Bristleback Hunter"] = 57,
+											["Bristleback Thornweaver"] = 155,
+										},
+										["n_total"] = 212,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 212,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 48,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Hunter"] = 17,
+											["Bristleback Thornweaver"] = 58,
+										},
+										["n_total"] = 50,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 75,
+										["c_max"] = 25,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 25,
+										["successful_casted"] = 0,
+										["c_total"] = 25,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 34,
+										["targets"] = {
+											["Bristleback Thornweaver"] = 67,
+										},
+										["n_total"] = 67,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 67,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156464,
+							["damage_taken"] = 234.005776,
+							["start_time"] = 1696156452,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 88.00684100000001,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 88.00684100000001,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3261-0001194AD4",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 88,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.006841,
+							["fight_component"] = true,
+							["end_time"] = 1696156465,
+							["aID"] = "3261",
+							["nome"] = "Bristleback Thornweaver",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Fishhook"] = 70,
+										},
+										["n_total"] = 70,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 70,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Fishhook"] = 18,
+											["Samoanslayer"] = 0,
+										},
+										["n_total"] = 18,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 18,
+										["c_max"] = 0,
+										["spellschool"] = 8,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 1,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156459,
+							["damage_taken"] = 397.006841,
+							["start_time"] = 1696156452,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 76.003776,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 76.003776,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194B33",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 28,
+								["Bristleback Thornweaver"] = 48,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156465,
+							["totalabsorbed"] = 0.003776,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Hunter"] = 28,
+											["Bristleback Thornweaver"] = 48,
+										},
+										["n_total"] = 76,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 76,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156464,
+							["damage_taken"] = 0.003776,
+							["start_time"] = 1696156454,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 193.002722,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 193.002722,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3258-0000994B0D",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Fishhook"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 146,
+								["Samoanslayer"] = 47,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.002722,
+							["fight_component"] = true,
+							["end_time"] = 1696156542,
+							["aID"] = "3258",
+							["nome"] = "Bristleback Hunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Samoanslayer"] = 47,
+										},
+										["n_total"] = 47,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["a_amt"] = 0,
+										["total"] = 47,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Poisoned Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 44,
+										["targets"] = {
+											["Fishhook"] = 146,
+										},
+										["n_total"] = 146,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 146,
+										["c_max"] = 0,
+										["id"] = "Poisoned Shot",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156515,
+							["damage_taken"] = 412.002722,
+							["start_time"] = 1696156521,
+							["delay"] = 1696156515,
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 379.006841,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 379.006841,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 310,
+								["Bristleback Thornweaver"] = 69,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156465,
+							["totalabsorbed"] = 0.006841,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 69,
+										["targets"] = {
+											["Bristleback Hunter"] = 296,
+											["Bristleback Thornweaver"] = 69,
+										},
+										["n_total"] = 132,
+										["n_min"] = 63,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 365,
+										["c_max"] = 120,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 113,
+										["successful_casted"] = 0,
+										["c_total"] = 233,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Thunder Clap"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Bristleback Hunter"] = 7,
+										},
+										["n_total"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = "Thunder Clap",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Rend"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Bristleback Hunter"] = 7,
+										},
+										["n_total"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = "Rend",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156464,
+							["damage_taken"] = 47.006841,
+							["start_time"] = 1696156455,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [5]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1048,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1048,
+					["_ActorTable"] = {
+						{
+							["received"] = 9.008723,
+							["resource"] = 0.008723,
+							["targets"] = {
+								["Samoanslayer"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-0198BB70",
+							["totalover"] = 0.008723,
+							["total"] = 9.008723,
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Charge"] = {
+										["total"] = 9,
+										["id"] = "Charge",
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 9,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 1298,
+							["classe"] = "WARRIOR",
+							["tipo"] = 3,
+							["passiveover"] = 0.008723,
+							["alternatepower"] = 0.008723,
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156455,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1048,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Charge Stun"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = "Charge Stun",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thunder Clap"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = "Thunder Clap",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rend"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Rend",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 13,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 13,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Samoanslayer",
+							["grupo"] = true,
+							["last_event"] = 1696156465,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-0198BB70",
+							["aID"] = "5099-0198BB70",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 26,
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-01B2A1BB",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["tipo"] = 4,
+							["classe"] = "SHAMAN",
+							["serial"] = "Player-5099-01B2A1BB",
+							["last_event"] = 1696156465,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194B33",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["nome"] = "Bristleback Hunter",
+							["monster"] = true,
+							["tipo"] = 4,
+							["aID"] = "3258",
+							["serial"] = "Creature-0-5178-1-57-3258-0000994B0D",
+							["last_event"] = 0,
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1048,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["tempo_start"] = 1696156452,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					1090, -- [1]
+					0, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Fishhook"] = {
+						{
+							true, -- [1]
+							"Poisoned Shot", -- [2]
+							17, -- [3]
+							1696156474.661, -- [4]
+							494, -- [5]
+							"Bristleback Hunter", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+							true, -- [1]
+							"Poisoned Shot", -- [2]
+							17, -- [3]
+							1696156484.632, -- [4]
+							541, -- [5]
+							"Bristleback Hunter", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [2]
+						{
+							true, -- [1]
+							"Poisoned Shot", -- [2]
+							17, -- [3]
+							1696156494.652, -- [4]
+							575, -- [5]
+							"Bristleback Hunter", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [3]
+						{
+							true, -- [1]
+							"Poisoned Shot", -- [2]
+							17, -- [3]
+							1696156504.577, -- [4]
+							610, -- [5]
+							"Bristleback Hunter", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [4]
+						{
+							true, -- [1]
+							"Poisoned Shot", -- [2]
+							17, -- [3]
+							1696156514.628, -- [4]
+							610, -- [5]
+							"Bristleback Hunter", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 6,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Samoanslayer"] = {
+						["Charge"] = 1,
+						["Thunder Clap"] = 1,
+						["Rend"] = 2,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 4,
+					},
+					["Bristleback Hunter"] = {
+						["Poisoned Shot"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:34:26",
+				["hasTimer"] = 12.18700000000536,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Thornweaver",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158420.548,
+				["CombatEndedAt"] = 158420.548,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:34:13",
+				["end_time"] = 158421.025,
+				["combat_id"] = 1048,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Thornweaver",
+				["combat_counter"] = 1055,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 430.005776,
+							["Samoanslayer"] = 379.006841,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					733, -- [1]
+					0, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158407.824,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Hunter"] = 1,
+					["Bristleback Thornweaver"] = 1,
+				},
+			}, -- [17]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1047,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 162.003607,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 162.003607,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3258-0001194B0D",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 162,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.003607,
+							["fight_component"] = true,
+							["end_time"] = 1696156433,
+							["aID"] = "3258",
+							["nome"] = "Bristleback Hunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Fishhook"] = 102,
+										},
+										["n_total"] = 102,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 102,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Shoot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30,
+										["targets"] = {
+											["Fishhook"] = 60,
+										},
+										["n_total"] = 60,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 60,
+										["c_max"] = 0,
+										["id"] = "Shoot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156430,
+							["damage_taken"] = 438.003607,
+							["start_time"] = 1696156422,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 305.006264,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 334.006264,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 334,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156433,
+							["totalabsorbed"] = 0.006264,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 2,
+										["n_max"] = 0,
+										["targets"] = {
+											["Bristleback Hunter"] = 102,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 102,
+										["counter"] = 2,
+										["total"] = 102,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Hunter"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Bristleback Hunter"] = 99,
+										},
+										["n_total"] = 99,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 99,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Bristleback Hunter"] = 71,
+										},
+										["n_total"] = 71,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 71,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156430,
+							["damage_taken"] = 162.006264,
+							["start_time"] = 1696156422,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 29.005562,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 29.005562,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194B17",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 29,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156433,
+							["totalabsorbed"] = 0.005562,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Bristleback Hunter"] = 29,
+										},
+										["n_total"] = 29,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156429,
+							["damage_taken"] = 0.005562,
+							["start_time"] = 1696156426,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 104.007403,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 104.007403,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 104,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156433,
+							["totalabsorbed"] = 0.007403,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["g_amt"] = 0,
+										["n_max"] = 57,
+										["targets"] = {
+											["Bristleback Hunter"] = 104,
+										},
+										["n_total"] = 104,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 104,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 47,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156429,
+							["damage_taken"] = 0.007403,
+							["start_time"] = 1696156426,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1047,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1047,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1047,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-0198BB70",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Samoanslayer",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156433,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 11,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Lightning Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["activedamt"] = 1,
+										["id"] = 325,
+										["targets"] = {
+										},
+										["actived_at"] = 1696156422,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156433,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194B17",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["nome"] = "Bristleback Hunter",
+							["monster"] = true,
+							["tipo"] = 4,
+							["aID"] = "3258",
+							["serial"] = "Creature-0-5178-1-57-3258-0000994B0D",
+							["last_event"] = 0,
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1047,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158405.801,
+				["tempo_start"] = 1696156422,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					600, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Searing Totem"] = 1,
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 1,
+					},
+					["Bristleback Hunter"] = {
+						["Shoot"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:33:54",
+				["hasTimer"] = 11.08699999999953,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Hunter",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158387.995,
+				["CombatEndedAt"] = 158387.995,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:33:43",
+				["end_time"] = 158388.963,
+				["combat_id"] = 1047,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Hunter",
+				["combat_counter"] = 1054,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 334.006264,
+							["Samoanslayer"] = 104.007403,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					409, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158377.876,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Hunter"] = 1,
+				},
+			}, -- [18]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1046,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 113.007628,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 113.007628,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3258-0000994AED",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 113,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007628,
+							["fight_component"] = true,
+							["end_time"] = 1696156402,
+							["aID"] = "3258",
+							["nome"] = "Bristleback Hunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Fishhook"] = 80,
+										},
+										["n_total"] = 80,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 80,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Shoot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Fishhook"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Shoot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156393,
+							["damage_taken"] = 381.007628,
+							["start_time"] = 1696156387,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 228.003097,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 259.003097,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 259,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156402,
+							["totalabsorbed"] = 0.003097,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["n_max"] = 52,
+										["targets"] = {
+											["Bristleback Hunter"] = 147,
+										},
+										["n_total"] = 100,
+										["n_min"] = 48,
+										["g_dmg"] = 47,
+										["counter"] = 3,
+										["total"] = 147,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Bristleback Hunter"] = 57,
+										},
+										["n_total"] = 32,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 57,
+										["c_max"] = 25,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 25,
+										["successful_casted"] = 0,
+										["c_total"] = 25,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12,
+										["targets"] = {
+											["Bristleback Hunter"] = 24,
+										},
+										["n_total"] = 24,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156394,
+							["damage_taken"] = 113.003097,
+							["start_time"] = 1696156388,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 31.004002,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 31.004002,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194AF4",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 31,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156402,
+							["totalabsorbed"] = 0.004002,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Bristleback Hunter"] = 31,
+										},
+										["n_total"] = 31,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156393,
+							["damage_taken"] = 0.004002,
+							["start_time"] = 1696156391,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 122.007646,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 122.007646,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 122,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156402,
+							["totalabsorbed"] = 0.007646,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 63,
+										["targets"] = {
+											["Bristleback Hunter"] = 122,
+										},
+										["n_total"] = 122,
+										["n_min"] = 59,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 122,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156394,
+							["damage_taken"] = 0.007646,
+							["start_time"] = 1696156391,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1046,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1046,
+					["_ActorTable"] = {
+						{
+							["received"] = 20.005197,
+							["resource"] = 0.005197,
+							["targets"] = {
+								["Samoanslayer"] = 20,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-0198BB70",
+							["totalover"] = 0.005197,
+							["total"] = 20.005197,
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["total"] = 20,
+										["id"] = "Bloodrage",
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 20,
+										},
+										["counter"] = 11,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 1298,
+							["classe"] = "WARRIOR",
+							["tipo"] = 3,
+							["passiveover"] = 0.005197,
+							["alternatepower"] = 0.005197,
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156402,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1046,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 25,
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-0198BB70",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[5242] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bloodrage"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = "Bloodrage",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Samoanslayer",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156402,
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["activedamt"] = -1,
+										["id"] = "Flame Shock",
+										["targets"] = {
+										},
+										["actived_at"] = 1696156394,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 15,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156402,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194AF4",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1046,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158375.024,
+				["tempo_start"] = 1696156387,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					494, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Searing Totem"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 1,
+					},
+					["Samoanslayer"] = {
+						["Bloodrage"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:33:22",
+				["hasTimer"] = 14.14100000000326,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Hunter",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158350.005,
+				["CombatEndedAt"] = 158350.005,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:33:07",
+				["end_time"] = 158357.738,
+				["combat_id"] = 1046,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Hunter",
+				["combat_counter"] = 1053,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 259.003097,
+							["Samoanslayer"] = 122.007646,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					350, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158342.555,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Hunter"] = 1,
+				},
+			}, -- [19]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1045,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 269.006802,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 300.006802,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Thornweaver"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 47,
+								["Bristleback Thornweaver"] = 253,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156387,
+							["totalabsorbed"] = 0.006802,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 59,
+										["targets"] = {
+											["Bristleback Thornweaver"] = 156,
+										},
+										["n_total"] = 156,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 156,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Thornweaver"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Bristleback Thornweaver"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Bristleback Hunter"] = 47,
+										},
+										["n_total"] = 47,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 47,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156387,
+							["damage_taken"] = 94.006802,
+							["start_time"] = 1696156365,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 100.004379,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 100.004379,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3261-0000994A83",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 94,
+								["Samoanslayer"] = 6,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.004379,
+							["fight_component"] = true,
+							["end_time"] = 1696156387,
+							["aID"] = "3261",
+							["nome"] = "Bristleback Thornweaver",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Fishhook"] = 53,
+										},
+										["n_total"] = 53,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Entangling Roots"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Fishhook"] = 29,
+										},
+										["n_total"] = 29,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = "Entangling Roots",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Samoanslayer"] = 6,
+											["Fishhook"] = 12,
+										},
+										["n_total"] = 18,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 18,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["RESIST"] = 1,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156374,
+							["damage_taken"] = 426.004379,
+							["start_time"] = 1696156380,
+							["delay"] = 1696156374,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 31.006294,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 31.006294,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194ADC",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Thornweaver"] = 31,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156372,
+							["totalabsorbed"] = 0.006294,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Bristleback Thornweaver"] = 31,
+										},
+										["n_total"] = 31,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156370,
+							["damage_taken"] = 0.006294,
+							["start_time"] = 1696156367,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 173.004323,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 173.004323,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+								["Bristleback Thornweaver"] = true,
+							},
+							["targets"] = {
+								["Bristleback Thornweaver"] = 173,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156372,
+							["totalabsorbed"] = 0.004323,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 63,
+										["targets"] = {
+											["Bristleback Thornweaver"] = 173,
+										},
+										["n_total"] = 63,
+										["n_min"] = 63,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 173,
+										["c_max"] = 110,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 110,
+										["successful_casted"] = 0,
+										["c_total"] = 110,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156370,
+							["damage_taken"] = 6.004323,
+							["start_time"] = 1696156367,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1045,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1045,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1045,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-01B2A1BB",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = "Lightning Shield",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["activedamt"] = 1,
+										["id"] = 325,
+										["targets"] = {
+										},
+										["actived_at"] = 1696156365,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["tipo"] = 4,
+							["classe"] = "SHAMAN",
+							["serial"] = "Player-5099-01B2A1BB",
+							["last_event"] = 1696156372,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["nome"] = "Bristleback Thornweaver",
+							["monster"] = true,
+							["tipo"] = 4,
+							["aID"] = "3261",
+							["serial"] = "Creature-0-5178-1-57-3261-0000994A83",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194ADC",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["buff_uptime"] = 0,
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-0198BB70",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Battle Shout"] = {
+										["activedamt"] = 1,
+										["id"] = "Battle Shout",
+										["targets"] = {
+										},
+										["actived_at"] = 1696156369,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[5242] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 5242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Samoanslayer",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156372,
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1045,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158341.905,
+				["tempo_start"] = 1696156365,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					698, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Fishhook"] = {
+						{
+							true, -- [1]
+							"Entangling Roots", -- [2]
+							9, -- [3]
+							1696156374.758, -- [4]
+							506, -- [5]
+							"Bristleback Thornweaver", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Samoanslayer"] = {
+						["Battle Shout"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 1,
+					},
+					["Bristleback Thornweaver"] = {
+						["Entangling Roots"] = 1,
+						["Thorns"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:32:53",
+				["hasTimer"] = 6.089999999996508,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Thornweaver",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158328.133,
+				["CombatEndedAt"] = 158328.133,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:32:46",
+				["end_time"] = 158328.4,
+				["combat_id"] = 1045,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Thornweaver",
+				["combat_counter"] = 1052,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 253.006802,
+							["Samoanslayer"] = 173.004323,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					442, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158321.279,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Thornweaver"] = 1,
+				},
+			}, -- [20]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1044,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 107.007881,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 107.007881,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3258-0001194A53",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 107,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007881,
+							["fight_component"] = true,
+							["end_time"] = 1696156355,
+							["aID"] = "3258",
+							["nome"] = "Bristleback Hunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Fishhook"] = 78,
+										},
+										["n_total"] = 78,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 78,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Shoot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Fishhook"] = 29,
+										},
+										["n_total"] = 29,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = "Shoot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156349,
+							["damage_taken"] = 419.007881,
+							["start_time"] = 1696156344,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 270.004762,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 311.004762,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 311,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156355,
+							["totalabsorbed"] = 0.004762,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 51,
+										["targets"] = {
+											["Bristleback Hunter"] = 98,
+										},
+										["n_total"] = 98,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 98,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Hunter"] = 34,
+										},
+										["n_total"] = 34,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 34,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Bristleback Hunter"] = 66,
+										},
+										["n_total"] = 66,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Bristleback Hunter"] = 72,
+										},
+										["n_total"] = 72,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 72,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156352,
+							["damage_taken"] = 107.004762,
+							["start_time"] = 1696156344,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 41.005708,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 41.005708,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194AC8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 41,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156355,
+							["totalabsorbed"] = 0.005708,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Bristleback Hunter"] = 41,
+										},
+										["n_total"] = 41,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 41,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156352,
+							["damage_taken"] = 0.005708,
+							["start_time"] = 1696156347,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 108.001916,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 108.001916,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 108,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156355,
+							["totalabsorbed"] = 0.001916,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 55,
+										["targets"] = {
+											["Bristleback Hunter"] = 108,
+										},
+										["n_total"] = 108,
+										["n_min"] = 53,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 108,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156354,
+							["damage_taken"] = 0.001916,
+							["start_time"] = 1696156351,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1044,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1044,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1044,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 22,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 9,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156355,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194AC8",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1044,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158319.989,
+				["tempo_start"] = 1696156344,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					526, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 2,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:32:36",
+				["hasTimer"] = 10.07999999998719,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Hunter",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158310.288,
+				["CombatEndedAt"] = 158310.288,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:32:25",
+				["end_time"] = 158310.921,
+				["combat_id"] = 1044,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Hunter",
+				["combat_counter"] = 1051,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 311.004762,
+							["Samoanslayer"] = 108.001916,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					378, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158299.841,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Hunter"] = 1,
+				},
+			}, -- [21]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1043,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 375.005923,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 375.005923,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Water Seeker"] = true,
+							},
+							["targets"] = {
+								["Bristleback Water Seeker"] = 375,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156289,
+							["totalabsorbed"] = 0.005923,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 155,
+										},
+										["n_total"] = 155,
+										["n_min"] = 49,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 155,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 34,
+										},
+										["n_total"] = 34,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 34,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 66,
+										},
+										["n_total"] = 66,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 120,
+										},
+										["n_total"] = 120,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 120,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156288,
+							["damage_taken"] = 65.005923,
+							["start_time"] = 1696156279,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 65.005949,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 65.005949,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3260-0000194A75",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 65,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005949,
+							["fight_component"] = true,
+							["end_time"] = 1696156289,
+							["aID"] = "3260",
+							["nome"] = "Bristleback Water Seeker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Fishhook"] = 65,
+										},
+										["n_total"] = 65,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 65,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156286,
+							["damage_taken"] = 375.005949,
+							["start_time"] = 1696156280,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1043,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1043,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1043,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 20,
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Lightning Shield"] = {
+										["activedamt"] = 1,
+										["id"] = "Lightning Shield",
+										["targets"] = {
+										},
+										["actived_at"] = 1696156281,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 9,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156289,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1043,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158298.9,
+				["tempo_start"] = 1696156279,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					440, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Flame Shock"] = 1,
+						["Lightning Shield"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:31:29",
+				["hasTimer"] = 9.083000000013271,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Water Seeker",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158244.001,
+				["CombatEndedAt"] = 158244.001,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:31:19",
+				["end_time"] = 158244.63,
+				["combat_id"] = 1043,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Water Seeker",
+				["combat_counter"] = 1050,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 375.005923,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					375, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158234.546,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Water Seeker"] = 1,
+				},
+			}, -- [22]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1042,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 258.001081,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 289.001081,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Water Seeker"] = true,
+							},
+							["targets"] = {
+								["Bristleback Water Seeker"] = 289,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156256,
+							["totalabsorbed"] = 0.001081,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 97,
+										},
+										["n_total"] = 97,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 97,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 33,
+										},
+										["n_total"] = 33,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Lightning Shield"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 34,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 68,
+										},
+										["n_total"] = 68,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 68,
+										["c_max"] = 0,
+										["id"] = "Lightning Shield",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 60,
+										},
+										["n_total"] = 60,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 60,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156246,
+							["damage_taken"] = 189.001081,
+							["start_time"] = 1696156250,
+							["delay"] = 1696156246,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 189.003166,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 189.003166,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3260-0000193086",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Fishhook"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 189,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.003166,
+							["fight_component"] = true,
+							["end_time"] = 1696156279,
+							["aID"] = "3260",
+							["nome"] = "Bristleback Water Seeker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Fishhook"] = 80,
+										},
+										["n_total"] = 41,
+										["n_min"] = 20,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 80,
+										["c_max"] = 39,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 39,
+										["successful_casted"] = 0,
+										["c_total"] = 39,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Poison"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11,
+										["targets"] = {
+											["Fishhook"] = 109,
+										},
+										["n_total"] = 109,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 109,
+										["c_max"] = 0,
+										["id"] = "Poison",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156276,
+							["damage_taken"] = 404.003166,
+							["start_time"] = 1696156241,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 115.007076,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 115.007076,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Water Seeker"] = 115,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156256,
+							["totalabsorbed"] = 0.007076,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 60,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 115,
+										},
+										["n_total"] = 115,
+										["n_min"] = 55,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 115,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156247,
+							["damage_taken"] = 0.007076,
+							["start_time"] = 1696156244,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 31.002388,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 31.002388,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194A61",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Water Seeker"] = 31,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156256,
+							["totalabsorbed"] = 0.002388,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Bristleback Water Seeker"] = 31,
+										},
+										["n_total"] = 31,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156246,
+							["damage_taken"] = 0.002388,
+							["start_time"] = 1696156253,
+							["delay"] = 1696156246,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1042,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1042,
+					["_ActorTable"] = {
+						{
+							["received"] = 20.006046,
+							["resource"] = 0.006046,
+							["targets"] = {
+								["Samoanslayer"] = 20,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "5099-0198BB70",
+							["totalover"] = 0.006046,
+							["total"] = 20.006046,
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["total"] = 20,
+										["id"] = "Bloodrage",
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 20,
+										},
+										["counter"] = 11,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 1298,
+							["classe"] = "WARRIOR",
+							["tipo"] = 3,
+							["passiveover"] = 0.006046,
+							["alternatepower"] = 0.006046,
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156256,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1042,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 30,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[325] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 325,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156256,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194A61",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 1298,
+							["buff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "5099-0198BB70",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Bloodrage"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = "Bloodrage",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Samoanslayer",
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-5099-0198BB70",
+							["last_event"] = 1696156256,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1042,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158234.332,
+				["tempo_start"] = 1696156241,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					593, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Fishhook"] = {
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156257.87, -- [4]
+							484, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156260.904, -- [4]
+							486, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [2]
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156263.879, -- [4]
+							501, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [3]
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156266.834, -- [4]
+							502, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [4]
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156269.822, -- [4]
+							517, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [5]
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156272.88, -- [4]
+							519, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [6]
+						{
+							true, -- [1]
+							"Poison", -- [2]
+							11, -- [3]
+							1696156275.855, -- [4]
+							533, -- [5]
+							"Bristleback Water Seeker", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 8,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Samoanslayer"] = {
+						["Bloodrage"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 1,
+					},
+					["Fishhook"] = {
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:30:56",
+				["hasTimer"] = 13.1140000000014,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Water Seeker",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158203.559,
+				["CombatEndedAt"] = 158203.559,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:30:42",
+				["end_time"] = 158211.584,
+				["combat_id"] = 1042,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Water Seeker",
+				["combat_counter"] = 1049,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 289.001081,
+							["Samoanslayer"] = 115.007076,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					373, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158197.467,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Water Seeker"] = 1,
+				},
+			}, -- [23]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1041,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 145.0083,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 145.0083,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3258-00001930A5",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Fishhook"] = true,
+								["Searing Totem II <Fishhook>"] = true,
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Fishhook"] = 102,
+								["Searing Totem II <Fishhook>"] = 43,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.0083,
+							["fight_component"] = true,
+							["end_time"] = 1696156232,
+							["aID"] = "3258",
+							["nome"] = "Bristleback Hunter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Fishhook"] = 72,
+										},
+										["n_total"] = 21,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 72,
+										["c_max"] = 51,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 51,
+										["successful_casted"] = 0,
+										["c_total"] = 51,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Shoot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30,
+										["targets"] = {
+											["Fishhook"] = 30,
+										},
+										["n_total"] = 30,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Shoot",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Poisoned Shot"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 43,
+										["targets"] = {
+											["Searing Totem II <Fishhook>"] = 43,
+										},
+										["n_total"] = 43,
+										["n_min"] = 43,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 43,
+										["c_max"] = 0,
+										["id"] = "Poisoned Shot",
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156226,
+							["damage_taken"] = 407.0083,
+							["start_time"] = 1696156218,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["total_without_pet"] = 272.0053,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 301.0053,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-01B2A1BB",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+								["Bristleback Water Seeker"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 301,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156232,
+							["totalabsorbed"] = 0.0053,
+							["aID"] = "5099-01B2A1BB",
+							["nome"] = "Fishhook",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 1,
+										["n_max"] = 50,
+										["targets"] = {
+											["Bristleback Hunter"] = 131,
+										},
+										["n_total"] = 93,
+										["n_min"] = 43,
+										["g_dmg"] = 38,
+										["counter"] = 3,
+										["total"] = 131,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									["Flametongue Attack"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Bristleback Hunter"] = 57,
+										},
+										["n_total"] = 32,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 57,
+										["c_max"] = 25,
+										["id"] = "Flametongue Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 25,
+										["successful_casted"] = 0,
+										["c_total"] = 25,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									["Flame Shock"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Bristleback Hunter"] = 84,
+										},
+										["n_total"] = 84,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 84,
+										["c_max"] = 0,
+										["id"] = "Flame Shock",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156228,
+							["damage_taken"] = 123.0053,
+							["start_time"] = 1696156219,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 21.008165,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 21.008165,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3260-0000193081",
+							["on_hold"] = false,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Fishhook"] = 21,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008165,
+							["fight_component"] = true,
+							["end_time"] = 1696156232,
+							["aID"] = "3260",
+							["nome"] = "Bristleback Water Seeker",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Poison"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11,
+										["targets"] = {
+											["Fishhook"] = 21,
+										},
+										["n_total"] = 21,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 21,
+										["c_max"] = 0,
+										["id"] = "Poison",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156222,
+							["damage_taken"] = 0.008165,
+							["start_time"] = 1696156228,
+							["delay"] = 1696156222,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["total_without_pet"] = 29.002207,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 29.002207,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194A4A",
+							["damage_from"] = {
+								["Bristleback Hunter"] = true,
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 29,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["classe"] = "PET",
+							["end_time"] = 1696156232,
+							["totalabsorbed"] = 0.002207,
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["spells"] = {
+								["_ActorTable"] = {
+									["Attack"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Bristleback Hunter"] = 29,
+										},
+										["n_total"] = 29,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = "Attack",
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156224,
+							["damage_taken"] = 43.002207,
+							["start_time"] = 1696156221,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 1298,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 106.004143,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 106.004143,
+							["on_hold"] = false,
+							["total_extra"] = 0,
+							["serial"] = "Player-5099-0198BB70",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bristleback Hunter"] = 106,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1696156232,
+							["totalabsorbed"] = 0.004143,
+							["aID"] = "5099-0198BB70",
+							["nome"] = "Samoanslayer",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 54,
+										["targets"] = {
+											["Bristleback Hunter"] = 106,
+										},
+										["n_total"] = 106,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 106,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1696156230,
+							["damage_taken"] = 0.004143,
+							["start_time"] = 1696156227,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [5]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1041,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1041,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1041,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									["Flame Shock"] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = "Flame Shock",
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 14,
+							["pets"] = {
+								"Searing Totem II <Fishhook>", -- [1]
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[19708] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 19708,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Fishhook",
+							["grupo"] = true,
+							["last_event"] = 1696156232,
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["pets"] = {
+							},
+							["aID"] = "3902",
+							["ownerName"] = "Fishhook",
+							["nome"] = "Searing Totem II <Fishhook>",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-5178-1-57-3902-0000194A4A",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["nome"] = "Bristleback Hunter",
+							["monster"] = true,
+							["tipo"] = 4,
+							["aID"] = "3258",
+							["serial"] = "Creature-0-5178-1-57-3258-00001930A5",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1041,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Samoanslayer"] = "Player-5099-0198BB70",
+					["Fishhook"] = "Player-5099-01B2A1BB",
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Fishhook", -- [2]
+				},
+				["CombatStartedAt"] = 158197.081,
+				["tempo_start"] = 1696156218,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossTimers"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					573, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Fishhook"] = {
+						["Flame Shock"] = 1,
+					},
+					["Searing Totem II"] = {
+						["Attack"] = 1,
+					},
+					["Bristleback Hunter"] = {
+						["Poisoned Shot"] = 1,
+					},
+					["Searing Totem II <Fishhook>"] = {
+						["Attack"] = 1,
+					},
+				},
+				["instance_type"] = "none",
+				["data_fim"] = "04:30:33",
+				["hasTimer"] = 13.08400000000256,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Bristleback Hunter",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 158187.788,
+				["CombatEndedAt"] = 158187.788,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "04:30:19",
+				["end_time"] = 158188.055,
+				["combat_id"] = 1041,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bristleback Hunter",
+				["combat_counter"] = 1048,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Fishhook"] = 301.0053,
+							["Samoanslayer"] = 106.004143,
+						}, -- [1]
+					},
+				},
+				["totals_grupo"] = {
+					378, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158173.965,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Bristleback Hunter"] = 1,
+				},
+			}, -- [24]
+		},
+	},
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["group_frames"] = true,
+		["lines_per_column"] = 12,
+		["frames"] = {
+			["defensive-raid"] = {
+			},
+			["main"] = {
+			},
+			["ofensive"] = {
+			},
+			["defensive-target"] = {
+			},
+			["utility"] = {
+			},
+			["defensive-personal"] = {
+			},
+		},
+		["show_options"] = false,
+		["own_frame"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = false,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
+		["height"] = 18,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["show_title"] = true,
+		["filters"] = {
+			["itemutil"] = false,
+			["itempower"] = false,
+			["defensive-target"] = false,
+			["itemheal"] = false,
+			["defensive-personal"] = false,
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["crowdcontrol"] = false,
+			["utility"] = false,
+		},
+	},
+	["last_version"] = "1.14.4 11914",
+	["player_stats"] = {
+	},
+	["force_font_outline"] = "",
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["last_raid_plugin"] = "DETAILS_PLUGIN_TINY_THREAT",
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -347.6666870117188,
+					["x"] = 603.5184326171875,
+					["w"] = 310.0000610351563,
+					["h"] = 157.9999847412109,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 43,
+	["data_harvest_for_charsts"] = {
+		["players"] = {
+			{
+				["name"] = "Damage of Each Individual Player",
+				["playerOnly"] = true,
+				["playerKey"] = "total",
+				["combatObjectContainer"] = 1,
+			}, -- [1]
+		},
+		["totals"] = {
+			{
+				["combatObjectSubTableKey"] = 1,
+				["name"] = "Damage of All Player Combined",
+				["combatObjectSubTableName"] = "totals",
+			}, -- [1]
+		},
+	},
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Fiesh-Pagle",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["combat_log"] = {
+		["inverse_deathlog_overalldata"] = false,
+		["track_hunter_frenzy"] = false,
+		["evoker_calc_damage"] = false,
+		["inverse_deathlog_raid"] = false,
+		["merge_critical_heals"] = false,
+		["merge_gemstones_1007"] = false,
+		["evoker_show_realtimedps"] = false,
+		["inverse_deathlog_mplus"] = false,
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1697154542,
+		["last_version"] = 15,
+		["Realistexile"] = {
+			"Realistexile", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			1, -- [7]
+		},
+	},
+	["mythic_plus_log"] = {
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_roles"] = {
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["ignore_nicktag"] = false,
+	["data_harvested_for_charts"] = {
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["disable_gouge"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["row_height"] = 20,
+			["arrow_anchor_x"] = 0,
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = -1.52587890625e-05,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = -1.52587890625e-05,
+				["x"] = -6.103515625e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["x"] = 3.0517578125e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["font_size"] = 10,
+			["author"] = "Terciob",
+			["main_frame_locked"] = false,
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000305175781, -- [2]
+			},
+		},
+	},
+	["last_instance_time"] = 1696203732,
+	["combat_id"] = 1080,
+	["savedStyles"] = {
+	},
+	["last_day"] = "02",
+	["character_data"] = {
+		["logons"] = 41,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1298,
+					["pets"] = {
+					},
+					["classe"] = "WARRIOR",
+					["total_without_pet"] = 4686.07338,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 4686.07338,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Player-5099-019E70EF",
+					["damage_from"] = {
+						["Druid of the Fang"] = true,
+						["Evolving Ectoplasm"] = true,
+						["Deviate Crocolisk"] = true,
+						["Deviate Guardian"] = true,
+						["Deviate Ravager"] = true,
+						["Kresh"] = true,
+					},
+					["targets"] = {
+						["Druid of the Fang"] = 531,
+						["Evolving Ectoplasm"] = 736,
+						["Deviate Crocolisk"] = 765,
+						["Kresh"] = 135,
+						["Deviate Guardian"] = 1764,
+						["Deviate Ravager"] = 748,
+						["Snake"] = 7,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 531,
+					},
+					["totalabsorbed"] = 0.07338,
+					["end_time"] = 1696203767,
+					["nome"] = "Kaevee",
+					["aID"] = "5099-019E70EF",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 9,
+								["b_amt"] = 7,
+								["g_amt"] = 4,
+								["b_dmg"] = 239,
+								["targets"] = {
+									["Druid of the Fang"] = 471,
+									["Evolving Ectoplasm"] = 694,
+									["Deviate Crocolisk"] = 703,
+									["Deviate Guardian"] = 1509,
+									["Deviate Ravager"] = 631,
+									["Kresh"] = 135,
+								},
+								["n_total"] = 3019,
+								["a_amt"] = 0,
+								["n_min"] = 0,
+								["MISS"] = 3,
+								["counter"] = 82,
+								["DODGE"] = 2,
+								["r_amt"] = 0,
+								["c_max"] = 128,
+								["n_max"] = 66,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 959,
+								["n_amt"] = 62,
+								["total"] = 4143,
+								["g_dmg"] = 165,
+							}, -- [1]
+							[0] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Evolving Ectoplasm"] = 42,
+									["Deviate Guardian"] = 62,
+								},
+								["n_total"] = 104,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 104,
+								["c_max"] = 0,
+								["id"] = 0,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 5,
+								["n_max"] = 23,
+								["r_amt"] = 0,
+							},
+							["Thunder Clap"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Snake"] = 7,
+									["Deviate Guardian"] = 17,
+									["Deviate Ravager"] = 16,
+								},
+								["n_total"] = 40,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 40,
+								["c_max"] = 0,
+								["id"] = "Thunder Clap",
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 3,
+								["n_max"] = 17,
+								["r_amt"] = 0,
+							},
+							["Revenge"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Evolving Ectoplasm"] = 0,
+									["Deviate Crocolisk"] = 9,
+								},
+								["n_total"] = 9,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["MISS"] = 1,
+								["id"] = "Revenge",
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 9,
+								["total"] = 9,
+							},
+							["Overpower"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Ravager"] = 62,
+									["Deviate Guardian"] = 51,
+								},
+								["n_total"] = 113,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 113,
+								["c_max"] = 0,
+								["id"] = "Overpower",
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 62,
+								["r_amt"] = 0,
+							},
+							["Sunder Armor"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 0,
+									["Deviate Guardian"] = 0,
+									["Evolving Ectoplasm"] = 0,
+									["Deviate Crocolisk"] = 0,
+								},
+								["n_total"] = 0,
+								["a_amt"] = 0,
+								["n_min"] = 0,
+								["MISS"] = 3,
+								["counter"] = 6,
+								["DODGE"] = 2,
+								["r_amt"] = 0,
+								["c_max"] = 0,
+								["n_max"] = 0,
+								["id"] = "Sunder Armor",
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["total"] = 0,
+								["g_dmg"] = 0,
+							},
+							["Rend"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 60,
+									["Deviate Guardian"] = 125,
+									["Deviate Ravager"] = 39,
+									["Deviate Crocolisk"] = 53,
+								},
+								["n_total"] = 277,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 33,
+								["total"] = 277,
+								["c_max"] = 0,
+								["a_amt"] = 0,
+								["id"] = "Rend",
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 31,
+								["n_max"] = 10,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 3325.07338,
+					["start_time"] = 1696203488,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 1872.032288,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 1872.032288,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3637-00021A03E3",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Searing Totem <Kylablast>"] = true,
+						["Kylablast"] = true,
+						["Kaevee"] = true,
+						["Searing Totem II <Fishhook>"] = true,
+						["Cat <Gihunter>"] = true,
+						["Joexd"] = true,
+						["Gihunter"] = true,
+						["Fishhook"] = true,
+						["Kongarth <Joexd>"] = true,
+					},
+					["targets"] = {
+						["Fishhook"] = 359,
+						["Kylablast"] = 502,
+						["Kaevee"] = 1011,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						502, -- [1]
+						1011, -- [2]
+					},
+					["totalabsorbed"] = 0.032288,
+					["fight_component"] = true,
+					["end_time"] = 1696203767,
+					["aID"] = "3637",
+					["nome"] = "Deviate Guardian",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Fishhook"] = 359,
+									["Kylablast"] = 502,
+									["Kaevee"] = 1011,
+								},
+								["n_total"] = 1686,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 49,
+								["MISS"] = 1,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["DODGE"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 95,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 186,
+								["n_amt"] = 44,
+								["n_max"] = 50,
+								["total"] = 1872,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 6634.032288,
+					["start_time"] = 1696203663,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 1298,
+					["pets"] = {
+						"Searing Totem <Kylablast>", -- [1]
+					},
+					["classe"] = "SHAMAN",
+					["total_without_pet"] = 2010.045824,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 2189.045824,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Player-5099-019B323F",
+					["damage_from"] = {
+						["Deviate Guardian"] = true,
+						["Evolving Ectoplasm"] = true,
+						["Deviate Crocolisk"] = true,
+					},
+					["targets"] = {
+						["Druid of the Fang"] = 70,
+						["Evolving Ectoplasm"] = 583,
+						["Deviate Crocolisk"] = 463,
+						["Deviate Guardian"] = 830,
+						["Deviate Ravager"] = 73,
+						["Kresh"] = 170,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 70,
+					},
+					["totalabsorbed"] = 0.045824,
+					["end_time"] = 1696203767,
+					["nome"] = "Kylablast",
+					["aID"] = "5099-019B323F",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 2,
+								["g_amt"] = 9,
+								["b_dmg"] = 83,
+								["targets"] = {
+									["Druid of the Fang"] = 70,
+									["Evolving Ectoplasm"] = 276,
+									["Deviate Crocolisk"] = 288,
+									["Deviate Guardian"] = 461,
+									["Kresh"] = 107,
+								},
+								["n_total"] = 841,
+								["n_min"] = 0,
+								["g_dmg"] = 361,
+								["counter"] = 29,
+								["total"] = 1202,
+								["c_max"] = 0,
+								["DODGE"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 18,
+								["n_max"] = 73,
+								["r_amt"] = 0,
+							}, -- [1]
+							["Flametongue Attack"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 115,
+									["Evolving Ectoplasm"] = 13,
+									["Kresh"] = 38,
+								},
+								["n_total"] = 166,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 14,
+								["total"] = 166,
+								["c_max"] = 0,
+								["spellschool"] = 4,
+								["id"] = "Flametongue Attack",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["RESIST"] = 1,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 13,
+								["n_max"] = 13,
+								["r_amt"] = 0,
+							},
+							["Lightning Shield"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 87,
+									["Evolving Ectoplasm"] = 58,
+									["Deviate Crocolisk"] = 29,
+								},
+								["n_total"] = 174,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 174,
+								["c_max"] = 0,
+								["id"] = "Lightning Shield",
+								["r_dmg"] = 0,
+								["spellschool"] = 8,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 6,
+								["n_max"] = 29,
+								["r_amt"] = 0,
+							},
+							["Flame Shock"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kresh"] = 25,
+									["Deviate Guardian"] = 46,
+								},
+								["n_total"] = 71,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 71,
+								["c_max"] = 0,
+								["id"] = "Flame Shock",
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 5,
+								["n_max"] = 25,
+								["r_amt"] = 0,
+							},
+							["Earth Shock"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Ravager"] = 64,
+									["Deviate Guardian"] = 64,
+									["Evolving Ectoplasm"] = 134,
+									["Deviate Crocolisk"] = 135,
+								},
+								["n_total"] = 397,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 397,
+								["c_max"] = 0,
+								["spellschool"] = 8,
+								["id"] = "Earth Shock",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["RESIST"] = 1,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 6,
+								["n_max"] = 68,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 670.0458239999999,
+					["start_time"] = 1696203638,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 1297,
+					["pets"] = {
+						"Searing Totem II <Fishhook>", -- [1]
+					},
+					["classe"] = "SHAMAN",
+					["total_without_pet"] = 2359.054181,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 2727.054181,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Player-5099-01B2A1BB",
+					["damage_from"] = {
+						["Druid of the Fang"] = true,
+						["Deviate Guardian"] = true,
+						["Evolving Ectoplasm"] = true,
+						["Kresh"] = true,
+					},
+					["targets"] = {
+						["Druid of the Fang"] = 204,
+						["Evolving Ectoplasm"] = 647,
+						["Deviate Crocolisk"] = 266,
+						["Deviate Guardian"] = 1168,
+						["Deviate Ravager"] = 265,
+						["Kresh"] = 177,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 204,
+					},
+					["totalabsorbed"] = 0.054181,
+					["end_time"] = 1696203767,
+					["nome"] = "Fishhook",
+					["aID"] = "5099-01B2A1BB",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 1,
+								["g_amt"] = 14,
+								["b_dmg"] = 51,
+								["targets"] = {
+									["Druid of the Fang"] = 1,
+									["Evolving Ectoplasm"] = 289,
+									["Deviate Crocolisk"] = 7,
+									["Deviate Guardian"] = 301,
+									["Deviate Ravager"] = 111,
+									["Kresh"] = 6,
+								},
+								["n_total"] = 583,
+								["DODGE"] = 5,
+								["n_min"] = 0,
+								["g_dmg"] = 31,
+								["counter"] = 57,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["c_max"] = 101,
+								["n_max"] = 67,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 19,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 101,
+								["n_amt"] = 10,
+								["total"] = 715,
+								["MISS"] = 8,
+							}, -- [1]
+							["Flametongue Attack"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 87,
+									["Evolving Ectoplasm"] = 67,
+									["Deviate Ravager"] = 34,
+								},
+								["n_total"] = 188,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 188,
+								["c_max"] = 0,
+								["id"] = "Flametongue Attack",
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 11,
+								["n_max"] = 18,
+								["r_amt"] = 0,
+							},
+							["Lightning Shield"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 34,
+									["Deviate Guardian"] = 106,
+									["Evolving Ectoplasm"] = 66,
+									["Kresh"] = 35,
+								},
+								["n_total"] = 241,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 241,
+								["c_max"] = 0,
+								["spellschool"] = 8,
+								["id"] = "Lightning Shield",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["RESIST"] = 1,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 7,
+								["n_max"] = 36,
+								["r_amt"] = 0,
+							},
+							["Frost Shock"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 91,
+								},
+								["n_total"] = 91,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 91,
+								["c_max"] = 0,
+								["id"] = "Frost Shock",
+								["r_dmg"] = 0,
+								["spellschool"] = 16,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 91,
+								["r_amt"] = 0,
+							},
+							["Flame Shock"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 78,
+									["Evolving Ectoplasm"] = 59,
+									["Deviate Crocolisk"] = 259,
+									["Deviate Guardian"] = 490,
+									["Deviate Ravager"] = 102,
+									["Kresh"] = 136,
+								},
+								["n_total"] = 1045,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 50,
+								["total"] = 1124,
+								["c_max"] = 79,
+								["id"] = "Flame Shock",
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 79,
+								["n_amt"] = 49,
+								["n_max"] = 50,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 686.054181,
+					["start_time"] = 1696203562,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 1298,
+					["pets"] = {
+						"Cat <Gihunter>", -- [1]
+					},
+					["classe"] = "HUNTER",
+					["total_without_pet"] = 2859.049683,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 3213.049683,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Player-5099-01B2459E",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Druid of the Fang"] = 190,
+						["Evolving Ectoplasm"] = 709,
+						["Deviate Crocolisk"] = 90,
+						["Deviate Guardian"] = 1173,
+						["Deviate Ravager"] = 855,
+						["Kresh"] = 196,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 190,
+					},
+					["totalabsorbed"] = 0.04968300000000001,
+					["end_time"] = 1696203767,
+					["nome"] = "Gihunter",
+					["aID"] = "5099-01B2459E",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Evolving Ectoplasm"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 2,
+								["id"] = 2,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [2]
+							[0] = {
+								["c_amt"] = 4,
+								["b_amt"] = 1,
+								["g_amt"] = 0,
+								["b_dmg"] = 29,
+								["targets"] = {
+									["Druid of the Fang"] = 82,
+									["Evolving Ectoplasm"] = 393,
+									["Deviate Crocolisk"] = 68,
+									["Deviate Guardian"] = 789,
+									["Deviate Ravager"] = 538,
+									["Kresh"] = 111,
+								},
+								["n_total"] = 1665,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 55,
+								["total"] = 1981,
+								["c_max"] = 86,
+								["id"] = 0,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 316,
+								["n_amt"] = 51,
+								["n_max"] = 44,
+								["r_amt"] = 0,
+							},
+							["Raptor Strike"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Ravager"] = 40,
+									["Evolving Ectoplasm"] = 37,
+								},
+								["n_total"] = 77,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 77,
+								["c_max"] = 0,
+								["id"] = "Raptor Strike",
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 40,
+								["r_amt"] = 0,
+							},
+							["Arcane Shot"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 1,
+								["g_amt"] = 0,
+								["b_dmg"] = 33,
+								["targets"] = {
+									["Druid of the Fang"] = 21,
+									["Evolving Ectoplasm"] = 138,
+									["Deviate Crocolisk"] = 22,
+									["Deviate Guardian"] = 183,
+									["Deviate Ravager"] = 110,
+									["Kresh"] = 44,
+								},
+								["n_total"] = 485,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 27,
+								["total"] = 518,
+								["c_max"] = 33,
+								["MISS"] = 3,
+								["id"] = "Arcane Shot",
+								["r_dmg"] = 0,
+								["spellschool"] = 64,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 33,
+								["n_amt"] = 23,
+								["n_max"] = 22,
+								["r_amt"] = 0,
+							},
+							["Wing Clip"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Evolving Ectoplasm"] = 4,
+								},
+								["n_total"] = 4,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 4,
+								["c_max"] = 0,
+								["id"] = "Wing Clip",
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 4,
+								["r_amt"] = 0,
+							},
+							["Serpent Sting"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 8,
+									["Evolving Ectoplasm"] = 56,
+									["Kresh"] = 41,
+									["Deviate Guardian"] = 108,
+									["Deviate Ravager"] = 66,
+								},
+								["n_total"] = 279,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 38,
+								["IMMUNE"] = 2,
+								["r_amt"] = 0,
+								["spellschool"] = 8,
+								["MISS"] = 2,
+								["id"] = "Serpent Sting",
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 34,
+								["n_max"] = 9,
+								["total"] = 279,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.04968300000000001,
+					["start_time"] = 1696203589,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 4370,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["total_without_pet"] = 354.023062,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 354.023062,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Pet-0-5177-1-73-3475-05009D0F16",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Druid of the Fang"] = 79,
+						["Deviate Guardian"] = 93,
+						["Deviate Ravager"] = 101,
+						["Evolving Ectoplasm"] = 81,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 79,
+					},
+					["aID"] = "Pet-0-5177-1-73-3475-05009D0F16",
+					["end_time"] = 1696203767,
+					["totalabsorbed"] = 0.023062,
+					["ownerName"] = "Gihunter",
+					["nome"] = "Cat <Gihunter>",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 5,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 79,
+									["Deviate Guardian"] = 93,
+									["Deviate Ravager"] = 101,
+									["Evolving Ectoplasm"] = 81,
+								},
+								["n_total"] = 260,
+								["n_min"] = 0,
+								["g_dmg"] = 94,
+								["counter"] = 20,
+								["total"] = 354,
+								["c_max"] = 0,
+								["MISS"] = 4,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 11,
+								["n_max"] = 30,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.023062,
+					["start_time"] = 1696203728,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [6]
+				{
+					["flag_original"] = 8466,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["total_without_pet"] = 179.039039,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 179.039039,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-2523-00001A03FD",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Deviate Ravager"] = 9,
+						["Deviate Guardian"] = 57,
+						["Evolving Ectoplasm"] = 102,
+						["Deviate Crocolisk"] = 11,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "2523",
+					["end_time"] = 1696203767,
+					["totalabsorbed"] = 0.039039,
+					["ownerName"] = "Kylablast",
+					["nome"] = "Searing Totem <Kylablast>",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Attack"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Ravager"] = 9,
+									["Deviate Guardian"] = 57,
+									["Evolving Ectoplasm"] = 102,
+									["Deviate Crocolisk"] = 11,
+								},
+								["n_total"] = 164,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 179,
+								["c_max"] = 15,
+								["id"] = "Attack",
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 15,
+								["n_amt"] = 17,
+								["n_max"] = 11,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.039039,
+					["start_time"] = 1696203717,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [7]
+				{
+					["flag_original"] = 1300,
+					["pets"] = {
+						"Kongarth <Joexd>", -- [1]
+					},
+					["classe"] = "WARLOCK",
+					["total_without_pet"] = 4286.043866999999,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 4586.043866999999,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Player-5099-01A9FF11",
+					["damage_from"] = {
+						["Evolving Ectoplasm"] = true,
+					},
+					["targets"] = {
+						["Druid of the Fang"] = 303,
+						["Evolving Ectoplasm"] = 1075,
+						["Deviate Crocolisk"] = 144,
+						["Deviate Guardian"] = 1699,
+						["Deviate Ravager"] = 655,
+						["Kresh"] = 710,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 303,
+					},
+					["totalabsorbed"] = 0.043867,
+					["end_time"] = 1696203767,
+					["nome"] = "Joexd",
+					["aID"] = "5099-01A9FF11",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							["Corruption"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 114,
+									["Evolving Ectoplasm"] = 494,
+									["Deviate Crocolisk"] = 114,
+									["Deviate Guardian"] = 570,
+									["Deviate Ravager"] = 190,
+									["Kresh"] = 228,
+								},
+								["n_total"] = 1710,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 45,
+								["total"] = 1710,
+								["c_max"] = 0,
+								["id"] = "Corruption",
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 45,
+								["n_max"] = 38,
+								["r_amt"] = 0,
+							},
+							["Shadow Bolt"] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 96,
+									["Deviate Guardian"] = 202,
+									["Deviate Ravager"] = 149,
+								},
+								["n_total"] = 298,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 447,
+								["c_max"] = 149,
+								["id"] = "Shadow Bolt",
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 149,
+								["n_amt"] = 3,
+								["n_max"] = 104,
+								["r_amt"] = 0,
+							},
+							[0] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Evolving Ectoplasm"] = 122,
+									["Deviate Guardian"] = 174,
+									["Deviate Ravager"] = 65,
+									["Kresh"] = 228,
+								},
+								["n_total"] = 489,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 589,
+								["c_max"] = 53,
+								["id"] = 0,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 100,
+								["n_amt"] = 16,
+								["n_max"] = 39,
+								["r_amt"] = 0,
+							},
+							["Drain Life"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 18,
+								},
+								["n_total"] = 18,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 18,
+								["c_max"] = 0,
+								["id"] = "Drain Life",
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 18,
+								["r_amt"] = 0,
+							},
+							["Immolate"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 69,
+									["Evolving Ectoplasm"] = 279,
+									["Deviate Crocolisk"] = 6,
+									["Deviate Guardian"] = 399,
+									["Deviate Ravager"] = 156,
+									["Kresh"] = 105,
+								},
+								["n_total"] = 1014,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 35,
+								["total"] = 1014,
+								["c_max"] = 0,
+								["id"] = "Immolate",
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 35,
+								["n_max"] = 51,
+								["r_amt"] = 0,
+							},
+							["Curse of Agony"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Druid of the Fang"] = 24,
+									["Evolving Ectoplasm"] = 152,
+									["Deviate Crocolisk"] = 24,
+									["Deviate Guardian"] = 128,
+									["Deviate Ravager"] = 63,
+									["Kresh"] = 117,
+								},
+								["n_total"] = 508,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 52,
+								["total"] = 508,
+								["c_max"] = 0,
+								["id"] = "Curse of Agony",
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 52,
+								["n_max"] = 23,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 80.04386699999999,
+					["start_time"] = 1696203604,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [8]
+				{
+					["flag_original"] = 4370,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["total_without_pet"] = 300.0424,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 300.0424,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+					["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Evolving Ectoplasm"] = 28,
+						["Deviate Guardian"] = 208,
+						["Deviate Ravager"] = 32,
+						["Kresh"] = 32,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.0424,
+					["end_time"] = 1696203767,
+					["nome"] = "Kongarth <Joexd>",
+					["ownerName"] = "Joexd",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Evolving Ectoplasm"] = 28,
+									["Deviate Guardian"] = 208,
+									["Deviate Ravager"] = 32,
+									["Kresh"] = 32,
+								},
+								["n_total"] = 300,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["MISS"] = 2,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["a_amt"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 25,
+								["n_max"] = 17,
+								["total"] = 300,
+							}, -- [1]
+							["Torment"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["spellschool"] = 32,
+								["id"] = "Torment",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["RESIST"] = 1,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.0424,
+					["start_time"] = 1696203697,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [9]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 923.023503,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 923.023503,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3640-00039A03E2",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Searing Totem <Kylablast>"] = true,
+						["Kylablast"] = true,
+						["Kaevee"] = true,
+						["Searing Totem II <Fishhook>"] = true,
+						["Kongarth <Joexd>"] = true,
+						["Joexd"] = true,
+						["Gihunter"] = true,
+						["Cat <Gihunter>"] = true,
+						["Fishhook"] = true,
+					},
+					["targets"] = {
+						["Joexd"] = 80,
+						["Fishhook"] = 209,
+						["Kylablast"] = 118,
+						["Kaevee"] = 516,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						118, -- [1]
+						516, -- [2]
+					},
+					["totalabsorbed"] = 0.023503,
+					["fight_component"] = true,
+					["end_time"] = 1696203788,
+					["aID"] = "3640",
+					["nome"] = "Evolving Ectoplasm",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Joexd"] = 80,
+									["Fishhook"] = 209,
+									["Kylablast"] = 118,
+									["Kaevee"] = 516,
+								},
+								["n_total"] = 851,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 26,
+								["total"] = 923,
+								["c_max"] = 72,
+								["a_amt"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 72,
+								["n_amt"] = 24,
+								["n_max"] = 45,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 3750.023503,
+					["start_time"] = 1696203736,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [10]
+				{
+					["flag_original"] = 8465,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["total_without_pet"] = 368.039283,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 368.039283,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3902-00001A0411",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Deviate Guardian"] = 184,
+						["Deviate Ravager"] = 18,
+						["Evolving Ectoplasm"] = 166,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "3902",
+					["end_time"] = 1696203788,
+					["totalabsorbed"] = 0.039283,
+					["ownerName"] = "Fishhook",
+					["nome"] = "Searing Totem II <Fishhook>",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Attack"] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Deviate Guardian"] = 184,
+									["Deviate Ravager"] = 18,
+									["Evolving Ectoplasm"] = 166,
+								},
+								["n_total"] = 331,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 24,
+								["total"] = 368,
+								["c_max"] = 19,
+								["id"] = "Attack",
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 37,
+								["n_amt"] = 22,
+								["n_max"] = 17,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.039283,
+					["start_time"] = 1696203724,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 590.017377,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 590.017377,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3636-00009A03E3",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Searing Totem <Kylablast>"] = true,
+						["Kylablast"] = true,
+						["Kaevee"] = true,
+						["Searing Totem II <Fishhook>"] = true,
+						["Kongarth <Joexd>"] = true,
+						["Joexd"] = true,
+						["Gihunter"] = true,
+						["Cat <Gihunter>"] = true,
+						["Fishhook"] = true,
+					},
+					["targets"] = {
+						["Kaevee"] = 590,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[2] = 590,
+					},
+					["totalabsorbed"] = 0.017377,
+					["fight_component"] = true,
+					["end_time"] = 1696203820,
+					["aID"] = "3636",
+					["nome"] = "Deviate Ravager",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Gihunter"] = 0,
+									["Kaevee"] = 590,
+								},
+								["n_total"] = 590,
+								["a_amt"] = 0,
+								["n_min"] = 0,
+								["MISS"] = 1,
+								["counter"] = 19,
+								["DODGE"] = 1,
+								["r_amt"] = 0,
+								["c_max"] = 0,
+								["n_max"] = 40,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 16,
+								["total"] = 590,
+								["g_dmg"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 2596.017377,
+					["start_time"] = 1696203781,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [12]
+				{
+					["flag_original"] = 2600,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.008177,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.008177,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-2914-00089A03E3",
+					["damage_from"] = {
+						["Kaevee"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "2914",
+					["fight_component"] = true,
+					["end_time"] = 1696203820,
+					["totalabsorbed"] = 0.008177,
+					["nome"] = "Snake",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 7.008177,
+					["start_time"] = 1696203817,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [13]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 371.028326,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 371.028326,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-5053-00051A03E2",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fishhook"] = true,
+						["Searing Totem <Kylablast>"] = true,
+						["Kylablast"] = true,
+						["Kaevee"] = true,
+						["Gihunter"] = true,
+						["Joexd"] = true,
+					},
+					["targets"] = {
+						["Kylablast"] = 50,
+						["Kaevee"] = 321,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						50, -- [1]
+						321, -- [2]
+					},
+					["totalabsorbed"] = 0.028326,
+					["fight_component"] = true,
+					["end_time"] = 1696204107,
+					["aID"] = "5053",
+					["nome"] = "Deviate Crocolisk",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kylablast"] = 50,
+									["Kaevee"] = 321,
+								},
+								["n_total"] = 247,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 22,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["MISS"] = 4,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 43,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 3,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 124,
+								["n_amt"] = 12,
+								["n_max"] = 25,
+								["total"] = 371,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1728.028326,
+					["start_time"] = 1696204066,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [14]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 590.015555,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 590.015555,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3840-00039A03E3",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Fishhook"] = true,
+						["Gihunter"] = true,
+						["Kaevee"] = true,
+						["Joexd"] = true,
+						["Cat <Gihunter>"] = true,
+						["Kylablast"] = true,
+					},
+					["targets"] = {
+						["Fishhook"] = 74,
+						["Kaevee"] = 516,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[2] = 516,
+					},
+					["totalabsorbed"] = 0.015555,
+					["fight_component"] = true,
+					["end_time"] = 1696204107,
+					["aID"] = "3840",
+					["nome"] = "Druid of the Fang",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kaevee"] = 304,
+								},
+								["n_total"] = 304,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 304,
+								["c_max"] = 0,
+								["MISS"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 8,
+								["n_max"] = 53,
+								["r_amt"] = 0,
+							}, -- [1]
+							["Druid's Slumber"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Druid's Slumber",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							["Lightning Bolt"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Fishhook"] = 74,
+									["Kaevee"] = 212,
+								},
+								["n_total"] = 286,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 286,
+								["c_max"] = 0,
+								["id"] = "Lightning Bolt",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["c_total"] = 0,
+								["n_amt"] = 4,
+								["n_max"] = 80,
+								["r_amt"] = 0,
+							},
+							["Serpent Form"] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = "Serpent Form",
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1298.015555,
+					["start_time"] = 1696204080,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [15]
+				{
+					["flag_original"] = 68136,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 415.009213,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 415.009213,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3653-00001A03E2",
+					["damage_from"] = {
+						["Joexd"] = true,
+						["Kylablast"] = true,
+						["Kaevee"] = true,
+						["Fishhook"] = true,
+						["Kongarth <Joexd>"] = true,
+						["Gihunter"] = true,
+					},
+					["targets"] = {
+						["Fishhook"] = 44,
+						["Kaevee"] = 371,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[2] = 371,
+					},
+					["aID"] = "3653",
+					["end_time"] = 1696204241,
+					["totalabsorbed"] = 0.009212999999999999,
+					["nome"] = "Kresh",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Fishhook"] = 44,
+									["Kaevee"] = 371,
+								},
+								["n_total"] = 415,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 415,
+								["c_max"] = 0,
+								["DODGE"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 11,
+								["n_max"] = 44,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1388.009213,
+					["start_time"] = 1696204215,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [16]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1298,
+					["targets_overheal"] = {
+						["Kaevee"] = 126,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "SHAMAN",
+					["totalover"] = 126.056253,
+					["total_without_pet"] = 2191.056253,
+					["total"] = 2191.056253,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5099-019B323F",
+					["totalabsorb"] = 0.056253,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Fishhook"] = 263,
+						["Kylablast"] = 189,
+						["Kaevee"] = 1739,
+					},
+					["nome"] = "Kylablast",
+					["totalover_without_pet"] = 0.056253,
+					["healing_taken"] = 474.056253,
+					["fight_component"] = true,
+					["end_time"] = 1696203820,
+					["start_time"] = 1696203744,
+					["healing_from"] = {
+						["Kylablast"] = true,
+						["Fishhook"] = true,
+					},
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							["Healing Wave"] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaevee"] = 126,
+								},
+								["n_max"] = 162,
+								["targets"] = {
+									["Fishhook"] = 263,
+									["Kylablast"] = 189,
+									["Kaevee"] = 1739,
+								},
+								["n_total"] = 2136,
+								["n_min"] = 0,
+								["counter"] = 33,
+								["overheal"] = 126,
+								["total"] = 2191,
+								["spellschool"] = 8,
+								["id"] = "Healing Wave",
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 55,
+								["c_total"] = 55,
+								["totaldenied"] = 0,
+								["n_amt"] = 32,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["aID"] = "5099-019B323F",
+					["last_event"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.056253,
+					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+						["Kylablast"] = true,
+						["Fishhook"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "5099-01B2A1BB",
+					["totalover"] = 156.019746,
+					["total_without_pet"] = 773.019746,
+					["total"] = 773.019746,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5099-01B2A1BB",
+					["totalabsorb"] = 0.019746,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Fishhook"] = 70,
+						["Kylablast"] = 285,
+						["Kaevee"] = 418,
+					},
+					["totalover_without_pet"] = 0.019746,
+					["tipo"] = 2,
+					["healing_taken"] = 333.0197460000001,
+					["fight_component"] = true,
+					["end_time"] = 1696203820,
+					["targets_overheal"] = {
+						["Fishhook"] = 103,
+						["Kaevee"] = 53,
+					},
+					["nome"] = "Fishhook",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Lesser Healing Wave"] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Fishhook"] = 103,
+									["Kaevee"] = 53,
+								},
+								["n_max"] = 126,
+								["targets"] = {
+									["Fishhook"] = 70,
+									["Kaevee"] = 126,
+								},
+								["n_total"] = 196,
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 156,
+								["total"] = 196,
+								["spellschool"] = 8,
+								["id"] = "Lesser Healing Wave",
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["absorbed"] = 0,
+							},
+							["Healing Wave"] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 292,
+								["targets"] = {
+									["Kylablast"] = 285,
+									["Kaevee"] = 292,
+								},
+								["n_total"] = 577,
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 0,
+								["total"] = 577,
+								["spellschool"] = 8,
+								["id"] = "Healing Wave",
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["start_time"] = 1696203807,
+					["classe"] = "SHAMAN",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["totaldenied"] = 0.019746,
+					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 66834,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "WARRIOR",
+					["totalover"] = 0.05631000000000001,
+					["total_without_pet"] = 0.05631000000000001,
+					["total"] = 0.05631000000000001,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5099-019E70EF",
+					["totalabsorb"] = 0.05631000000000001,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["nome"] = "Kaevee",
+					["totalover_without_pet"] = 0.05631000000000001,
+					["healing_taken"] = 2157.05631,
+					["fight_component"] = true,
+					["end_time"] = 1696203820,
+					["start_time"] = 1696203817,
+					["healing_from"] = {
+						["Kylablast"] = true,
+						["Fishhook"] = true,
+					},
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["aID"] = "5099-019E70EF",
+					["last_event"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.05631000000000001,
+					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 1298,
+					["targets_overheal"] = {
+						["Joexd"] = 18,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 18.011266,
+					["total_without_pet"] = 0.011266,
+					["total"] = 0.011266,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5099-01A9FF11",
+					["totalabsorb"] = 0.011266,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.011266,
+					["healing_taken"] = 0.011266,
+					["totaldenied"] = 0.011266,
+					["end_time"] = 1696203879,
+					["last_event"] = 0,
+					["nome"] = "Joexd",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Drain Life"] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Joexd"] = 18,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Joexd"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 18,
+								["total"] = 0,
+								["spellschool"] = 32,
+								["id"] = "Drain Life",
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["healing_from"] = {
+					},
+					["classe"] = "WARLOCK",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["start_time"] = 1696203873,
+					["delay"] = 0,
+					["aID"] = "5099-01A9FF11",
+				}, -- [4]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1298,
+					["resource"] = 0.334307,
+					["pets"] = {
+					},
+					["aID"] = "5099-019E70EF",
+					["passiveover"] = 0.001672,
+					["total"] = 40.011052,
+					["serial"] = "Player-5099-019E70EF",
+					["received"] = 40.011052,
+					["targets"] = {
+						["Kaevee"] = 0,
+					},
+					["powertype"] = 1,
+					["alternatepower"] = 0.011052,
+					["nome"] = "Kaevee",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							["Bloodrage"] = {
+								["total"] = 40,
+								["totalover"] = 0,
+								["id"] = "Bloodrage",
+								["targets"] = {
+									["Kaevee"] = 0,
+								},
+								["counter"] = 22,
+							},
+							["Charge"] = {
+								["total"] = 0,
+								["id"] = "Charge",
+								["totalover"] = 0,
+								["targets"] = {
+									["Kaevee"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 7,
+					},
+					["grupo"] = true,
+					["classe"] = "WARRIOR",
+					["totalover"] = 0.001672,
+					["tipo"] = 3,
+					["fight_component"] = true,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["resource"] = 0.038254,
+					["pets"] = {
+					},
+					["aID"] = "5099-01A9FF11",
+					["passiveover"] = 0.008044,
+					["total"] = 0.008044,
+					["serial"] = "Player-5099-01A9FF11",
+					["received"] = 0.008044,
+					["targets"] = {
+						["Joexd"] = 0,
+					},
+					["powertype"] = 0,
+					["alternatepower"] = 0.008044,
+					["nome"] = "Joexd",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Life Tap"] = {
+								["total"] = 0,
+								["id"] = "Life Tap",
+								["totalover"] = 0,
+								["targets"] = {
+									["Joexd"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 7,
+					},
+					["classe"] = "WARLOCK",
+					["last_event"] = 0,
+					["totalover"] = 0.008044,
+					["tipo"] = 3,
+					["grupo"] = true,
+				}, -- [2]
+				{
+					["flag_original"] = 66834,
+					["resource"] = 0.113373,
+					["pets"] = {
+					},
+					["aID"] = "5099-0198BB70",
+					["passiveover"] = 0.006258,
+					["total"] = 0.006258,
+					["serial"] = "Player-5099-0198BB70",
+					["received"] = 0.006258,
+					["targets"] = {
+						["Samoanslayer"] = 0,
+					},
+					["powertype"] = 1,
+					["alternatepower"] = 0.006258,
+					["nome"] = "Samoanslayer",
+					["spells"] = {
+						["_ActorTable"] = {
+							["Bloodrage"] = {
+								["total"] = 0,
+								["id"] = "Bloodrage",
+								["totalover"] = 0,
+								["targets"] = {
+									["Samoanslayer"] = 0,
+								},
+								["counter"] = 0,
+							},
+							["Charge"] = {
+								["total"] = 0,
+								["id"] = "Charge",
+								["totalover"] = 0,
+								["targets"] = {
+									["Samoanslayer"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 7,
+					},
+					["classe"] = "WARRIOR",
+					["last_event"] = 0,
+					["totalover"] = 0.006258,
+					["tipo"] = 3,
+					["grupo"] = true,
+				}, -- [3]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Flame Shock"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = "Flame Shock",
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 104,
+					["classe"] = "SHAMAN",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[325] = {
+								["actived_at"] = 3392407910,
+								["refreshamt"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 325,
+								["uptime"] = 56,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Lightning Shield"] = {
+								["actived_at"] = 1696204033,
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = "Lightning Shield",
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[8076] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 8076,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[8072] = {
+								["actived_at"] = 1696203774,
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 8072,
+								["uptime"] = 36,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["nome"] = "Kylablast",
+					["fight_component"] = true,
+					["debuff_uptime"] = 11,
+					["pets"] = {
+						"Searing Totem <Kylablast>", -- [1]
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["aID"] = "5099-019B323F",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Player-5099-019B323F",
+					["boss_fight_component"] = true,
+				}, -- [1]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Taunt"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = "Taunt",
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Thunder Clap"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = "Thunder Clap",
+								["uptime"] = 14,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Sunder Armor"] = {
+								["refreshamt"] = 34,
+								["activedamt"] = 0,
+								["appliedamt"] = 13,
+								["id"] = "Sunder Armor",
+								["uptime"] = 135,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Demoralizing Shout"] = {
+								["id"] = "Demoralizing Shout",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Rend"] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 9,
+								["id"] = "Rend",
+								["uptime"] = 98,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Charge Stun"] = {
+								["id"] = "Charge Stun",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Mocking Blow"] = {
+								["id"] = "Mocking Blow",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 1213,
+					["classe"] = "WARRIOR",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Battle Shout"] = {
+								["actived_at"] = 1696203967,
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = "Battle Shout",
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[3219] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 3219,
+								["uptime"] = 277,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Bloodrage"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = "Bloodrage",
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5242] = {
+								["actived_at"] = 3392407847,
+								["refreshamt"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 5242,
+								["uptime"] = 85,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Defensive Stance"] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 3,
+								["activedamt"] = 3,
+								["uptime"] = 0,
+								["id"] = "Defensive Stance",
+								["actived_at"] = 5088612128,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[673] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 673,
+								["uptime"] = 277,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Battle Stance"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = "Battle Stance",
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[2378] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 2378,
+								["uptime"] = 277,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[2367] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 2367,
+								["uptime"] = 277,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["nome"] = "Kaevee",
+					["fight_component"] = true,
+					["debuff_uptime"] = 259,
+					["pets"] = {
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["aID"] = "5099-019E70EF",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Player-5099-019E70EF",
+					["boss_fight_component"] = true,
+				}, -- [2]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Corruption"] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 17,
+								["id"] = "Corruption",
+								["uptime"] = 157,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Drain Soul"] = {
+								["id"] = "Drain Soul",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Drain Life"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = "Drain Life",
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Immolate"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 13,
+								["id"] = "Immolate",
+								["uptime"] = 84,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Curse of Agony"] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 14,
+								["id"] = "Curse of Agony",
+								["uptime"] = 120,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
+						"Kongarth <Joexd>", -- [1]
+					},
+					["aID"] = "5099-01A9FF11",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[706] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 706,
+								["uptime"] = 277,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Drain Soul"] = {
+								["id"] = "Drain Soul",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 363,
+					["nome"] = "Joexd",
+					["buff_uptime"] = 277,
+					["buff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["classe"] = "WARLOCK",
+					["serial"] = "Player-5099-01A9FF11",
+					["boss_fight_component"] = true,
+				}, -- [3]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Hunter's Mark"] = {
+								["refreshamt"] = 1,
+								["appliedamt"] = 9,
+								["activedamt"] = -3,
+								["uptime"] = 105,
+								["id"] = "Hunter's Mark",
+								["actived_at"] = 3392407551,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Concussive Shot"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = "Concussive Shot",
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Wing Clip"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = "Wing Clip",
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Serpent Sting"] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 12,
+								["id"] = "Serpent Sting",
+								["uptime"] = 116,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
+					},
+					["aID"] = "5099-01B2459E",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[13165] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 13165,
+								["uptime"] = 277,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 241,
+					["nome"] = "Gihunter",
+					["buff_uptime"] = 277,
+					["buff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["classe"] = "HUNTER",
+					["serial"] = "Player-5099-01B2459E",
+					["boss_fight_component"] = true,
+				}, -- [4]
+				{
+					["flag_original"] = 1297,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Frost Shock"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = "Frost Shock",
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Flame Shock"] = {
+								["refreshamt"] = 0,
+								["activedamt"] = -1,
+								["appliedamt"] = 13,
+								["id"] = "Flame Shock",
+								["uptime"] = 117,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 257,
+					["classe"] = "SHAMAN",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[325] = {
+								["actived_at"] = 1696203774,
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 325,
+								["uptime"] = 221,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Lightning Shield"] = {
+								["refreshamt"] = 3,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["uptime"] = 11,
+								["id"] = "Lightning Shield",
+								["actived_at"] = 10177223696,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[8076] = {
+								["actived_at"] = 3392407764,
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 8076,
+								["uptime"] = 25,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[19708] = {
+								["id"] = 19708,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["nome"] = "Fishhook",
+					["fight_component"] = true,
+					["debuff_uptime"] = 125,
+					["pets"] = {
+						"Searing Totem II <Fishhook>", -- [1]
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["aID"] = "5099-01B2A1BB",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Player-5099-01B2A1BB",
+					["boss_fight_component"] = true,
+				}, -- [5]
+				{
+					["flag_original"] = 8466,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["ownerName"] = "Kylablast",
+					["nome"] = "Searing Totem <Kylablast>",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-5175-43-6721-2523-00001A03FD",
+					["aID"] = "2523",
+				}, -- [6]
+				{
+					["flag_original"] = 4370,
+					["pets"] = {
+					},
+					["aID"] = "Pet-0-5177-1-73-1860-02009B8881",
+					["ownerName"] = "Joexd",
+					["nome"] = "Kongarth <Joexd>",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
+					["classe"] = "PET",
+				}, -- [7]
+				{
+					["flag_original"] = 8465,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["ownerName"] = "Fishhook",
+					["nome"] = "Searing Totem II <Fishhook>",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-5175-43-6721-3902-00001A0411",
+					["aID"] = "3902",
+				}, -- [8]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Druid of the Fang",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3840-00039A03E3",
+					["aID"] = "3840",
+				}, -- [9]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["aID"] = "3638",
+					["fight_component"] = true,
+					["nome"] = "Devouring Ectoplasm",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-73-3638-000019EF82",
+					["last_event"] = 0,
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "3631",
+					["fight_component"] = true,
+					["nome"] = "Deviate Stinglash",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-73-3631-000019FB52",
+					["last_event"] = 0,
+				}, -- [11]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["aID"] = "3632",
+					["fight_component"] = true,
+					["nome"] = "Deviate Creeper",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-73-3632-00001A0173",
+					["last_event"] = 0,
+				}, -- [12]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "3273",
+					["fight_component"] = true,
+					["nome"] = "Kolkar Stormer",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-73-3273-00001A0054",
+					["last_event"] = 0,
+				}, -- [13]
+				{
+					["flag_original"] = 66834,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							["Demoralizing Shout"] = {
+								["id"] = "Demoralizing Shout",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Charge Stun"] = {
+								["id"] = "Charge Stun",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Rend"] = {
+								["id"] = "Rend",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Thunder Clap"] = {
+								["id"] = "Thunder Clap",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 0,
+					["pets"] = {
+					},
+					["aID"] = "5099-0198BB70",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[5242] = {
+								["id"] = 5242,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Battle Shout"] = {
+								["id"] = "Battle Shout",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Bloodrage"] = {
+								["id"] = "Bloodrage",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 0,
+					["debuff_uptime_targets"] = {
+					},
+					["nome"] = "Samoanslayer",
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Player-5099-0198BB70",
+					["classe"] = "WARRIOR",
+				}, -- [14]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "3258",
+					["fight_component"] = true,
+					["nome"] = "Bristleback Hunter",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5178-1-57-3258-0000994B0D",
+					["last_event"] = 0,
+				}, -- [15]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["aID"] = "3261",
+					["fight_component"] = true,
+					["nome"] = "Bristleback Thornweaver",
+					["monster"] = true,
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5178-1-57-3261-0000994A83",
+					["last_event"] = 0,
+				}, -- [16]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1696203732,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["bossTimers"] = {
+		},
+		["combat_counter"] = 1071,
+		["totals"] = {
+			23363.479126, -- [1]
+			2964.123909999999, -- [2]
+			{
+				40.00938, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["amountCasts"] = {
+			["Searing Totem <Kylablast>"] = {
+				["Attack"] = 7,
+			},
+			["Kylablast"] = {
+				["Stoneclaw Totem"] = 1,
+				["Healing Wave"] = 33,
+				["Rockbiter Weapon"] = 3,
+				["Stoneskin Totem"] = 3,
+				["Flame Shock"] = 2,
+				["Lightning Shield"] = 1,
+				["Strength of Earth Totem"] = 2,
+				["Searing Totem"] = 7,
+				["Earth Shock"] = 7,
+			},
+			["Kaevee"] = {
+				["Taunt"] = 5,
+				["Bloodrage"] = 2,
+				["Rend"] = 12,
+				["Defensive Stance"] = 3,
+				["Thunder Clap"] = 1,
+				["Revenge"] = 3,
+				["Shoot Gun"] = 1,
+				["Overpower"] = 2,
+				["Battle Shout"] = 1,
+				["Sunder Armor"] = 36,
+			},
+			["Searing Totem II <Fishhook>"] = {
+				["Attack"] = 6,
+			},
+			["Searing Totem"] = {
+				["Attack"] = 11,
+			},
+			["Joexd"] = {
+				["Corruption"] = 18,
+				["Shadow Bolt"] = 4,
+				["Shoot"] = 22,
+				["Drain Life"] = 1,
+				["Immolate"] = 13,
+				["Curse of Agony"] = 16,
+			},
+			["Gihunter"] = {
+				["Serpent Sting"] = 16,
+				["Raptor Strike"] = 2,
+				["Skinning"] = 4,
+				["Hunter's Mark"] = 10,
+				["Auto Shot"] = 58,
+				["Concussive Shot"] = 3,
+				["Wing Clip"] = 1,
+				["Arcane Shot"] = 29,
+			},
+			["Druid of the Fang"] = {
+				["Druid's Slumber"] = 1,
+				["Lightning Bolt"] = 4,
+				["Serpent Form"] = 1,
+			},
+			["Kongarth"] = {
+				["Torment"] = 6,
+			},
+			["Searing Totem II"] = {
+				["Attack"] = 19,
+			},
+			["Fishhook"] = {
+				["Lesser Healing Wave"] = 2,
+				["Lightning Shield"] = 7,
+				["Healing Wave"] = 2,
+				["Frost Shock"] = 1,
+				["Strength of Earth Totem"] = 2,
+				["Searing Totem"] = 6,
+				["Flame Shock"] = 13,
+			},
+			["Kongarth <Joexd>"] = {
+				["Torment"] = 8,
+			},
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["totals_grupo"] = {
+			17401.252695, -- [1]
+			2964.123909999999, -- [2]
+			{
+				40.00938, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["end_time"] = 206196.731,
+		["data_inicio"] = "17:42:35",
+		["spells_cast_timeline"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 26.00399999998626,
+				["type"] = 6,
+				["name"] = "Kresh",
+				["clock"] = "17:50:19",
+			}, -- [1]
+			{
+				["elapsed"] = 10.04300000000512,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:49:37",
+			}, -- [2]
+			{
+				["elapsed"] = 18.09299999999348,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:48:54",
+			}, -- [3]
+			{
+				["elapsed"] = 12.10699999998906,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:48:35",
+			}, -- [4]
+			{
+				["elapsed"] = 49.45999999999185,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:47:37",
+			}, -- [5]
+			{
+				["elapsed"] = 16.10499999998137,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:47:04",
+			}, -- [6]
+			{
+				["elapsed"] = 20.20100000000093,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:46:14",
+			}, -- [7]
+			{
+				["elapsed"] = 26.09200000000419,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:45:42",
+			}, -- [8]
+			{
+				["elapsed"] = 20.08400000000256,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:45:14",
+			}, -- [9]
+			{
+				["elapsed"] = 25.27799999999115,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:44:14",
+			}, -- [10]
+			{
+				["elapsed"] = 29.24799999999232,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:43:10",
+			}, -- [11]
+			{
+				["elapsed"] = 13.08399999997346,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:42:55",
+			}, -- [12]
+			{
+				["elapsed"] = 12.13399999999092,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "17:42:35",
+			}, -- [13]
+		},
+		["data_fim"] = "17:50:41",
+		["overall_enemy_name"] = "-- x -- x --",
+		["frags"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 205918.7980000001,
+		["TimeData"] = {
+		},
+		["trinketProcs"] = {
+		},
+	},
+	["last_realversion"] = 155,
+	["on_death_menu"] = false,
+	["combat_counter"] = 1089,
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+	},
+}

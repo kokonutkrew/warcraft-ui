@@ -1,0 +1,20 @@
+
+SlaveGirlOptions = {
+	["Setting"] = {
+		["Øø"] = {
+			["AutoShareQuest"] = true,
+			["Monitor"] = true,
+			["AutoAcceptQuest"] = true,
+			["LowHealthSound"] = true,
+			["StopFollowSound"] = true,
+			["LowManaThreshold"] = 40,
+			["StartFollowSound"] = true,
+			["LowHealthThreshold"] = 50,
+			["LowManaCooldown"] = 25,
+			["LowManaSound"] = true,
+			["LowHealthCooldown"] = 15,
+			["AutoAcceptGroupInvite"] = true,
+		},
+	},
+	["DataCode"] = "1",
+}

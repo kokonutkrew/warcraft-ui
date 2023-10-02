@@ -111,3 +111,4 @@ ValhallaGuildTools: disabled
 ViragDevTool: disabled
 WhereToGatherClassic: disabled
 +Wowhead_Looter: disabled
+PriceAnswer: disabled

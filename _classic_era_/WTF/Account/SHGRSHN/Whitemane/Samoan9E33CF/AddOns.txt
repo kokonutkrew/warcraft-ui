@@ -1,5 +1,0 @@
-FastGuildInvite: enabled
-ClassicLootManager_Tracker: disabled
-ClassicLootManager: disabled
-GreenWall: enabled
-Guild_Roster_Manager: enabled

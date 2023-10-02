@@ -1,0 +1,10 @@
+
+KILLTRACK_CHAR = {
+	["MOBS"] = {
+		[1512] = {
+			["LastKillAt"] = 1695782913,
+			["Kills"] = 2,
+			["Name"] = "Duskbat",
+		},
+	},
+}

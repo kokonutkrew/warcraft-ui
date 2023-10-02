@@ -1,7 +1,7 @@
 
 wlScans = {
 	["titles"] = "",
-	["timePlayedTotal"] = 673,
+	["timePlayedTotal"] = 4375,
 }
 wlSetting = {
 }

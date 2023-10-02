@@ -18,22 +18,24 @@ AdiBagsDB = {
 		},
 		["ClassicItemLevel"] = {
 		},
-		["AdiBags_TooltipInfo"] = {
-		},
-		["ItemRackSets"] = {
-		},
-		["DataSource"] = {
+		["MoneyFrame"] = {
 		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["DataSource"] = {
+		},
+		["ItemRackSets"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
 		},
 	},
 	["profileKeys"] = {
+		["Kkorgrimmar - Whitemane"] = "Default",
 		["Kkorgrimmar - Skull Rock"] = "Default",
+		["Cupcakess - Whitemane"] = "Default",
 		["Kkbrill - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
@@ -41,9 +43,9 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
+					["Name"] = "Bag Lag Fix",
 				},
 			},
 		},

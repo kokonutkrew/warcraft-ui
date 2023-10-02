@@ -1,0 +1,1726 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 36038.731,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 46,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:46]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:243:CHANNEL:3|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695028129,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36699.818,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:02]|h|r You have invited Samoanranger to join your guild.",
+					["serverTime"] = 1695028145,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36715.87,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:03]|h|r guild join Samoanranger",
+					["timestamp"] = 36717.403,
+					["serverTime"] = 1695028146,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:03]|h|r Samoanranger has joined the guild.",
+					["serverTime"] = 1695028146,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36717.403,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:03]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger:252|h|cffa5a5a5Samoanranger|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1695028146,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36717.403,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:04]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-Whitemane|h|cffd84e4e26|r:|cffaad372Samoanranger|r-|cfffe3870Whi|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1695028147,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						1, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36718.306,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Windfarty:256:CHANNEL:2|h|cff0070ddWindfarty|r|h|cffd8d8d8]|r: |CFFFF0000need 3 dps |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1695028152,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						9, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36723.138,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:17]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Pathological-Whitemane:263:CHANNEL:3|h|cffd84e4e60|r:|cff8787edPathological|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:21342::::::::60:::::::::|h[Core Felcloth Bag]|h|r|cff0070dd|Hitem:21341::::::::60:::::::::|h[Felcloth Bag]|h|r|cff0070dd|Hitem:19684::::::::60:::::::::|h[Bloodvine Boots]|h|r|cff0070dd|Hitem:19683::::::::60:::::::::|h[Bloodvine Leggings]|h|r|cff0070dd|Hitem:19682::::::::60:::::::::|h[Bloodvine Vest]|h|r",
+					["serverTime"] = 1695028160,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36730.875,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:18]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:265:CHANNEL:3|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695028161,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36732.708,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:19]|h|r |cffaad372Samoanranger|r|r has gone offline.",
+					["serverTime"] = 1695028162,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36733.408,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:19]|h|r |cffaad372Samoanranger|r|r has gone offline.",
+					["serverTime"] = 1695028162,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						1, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36733.641,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:21]|h|r 18 Sep '23 02:09am : |cffabd473Samoanranger|r has JOINED the guild! (LVL: 26)",
+					["r"] = 0.5,
+					["serverTime"] = 1695028164,
+					["timestamp"] = 36735.008,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:23]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Pathological-Whitemane:275:CHANNEL:3|h|cffd84e4e60|r:|cff8787edPathological|r|h|cffd8d8d8]|r: |cff0070dd|Hitem:20539::::::::60:::::::::|h[Runed Stygian Belt]|h|r|cff0070dd|Hitem:20537::::::::60:::::::::|h[Runed Stygian Boots]|h|r|cff0070dd|Hitem:20538::::::::60:::::::::|h[Runed Stygian Leggings]|h|r",
+					["serverTime"] = 1695028166,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36737.175,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:40]|h|r [Y] |cffd8d8d8[|r|Hplayer:Adelizzy-Whitemane:293:YELL|h|cffd84e4e8|r:|cff8787edAdelizzy|r|h|cffd8d8d8]|r: WTT 1k on wrath the server is pagle for 1k on here",
+					["serverTime"] = 1695028183,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36753.908,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:43]|h|r [Y] |cffd8d8d8[|r|Hplayer:Killswitch-Thunderfury:299:YELL|h|cffc69b6dKillswitch|r-|cffea4475Thu|r|h|cffd8d8d8]|r: wtb bulk |cff1eff00|Hitem:12360::::::::60:::::::::|h[Arcanite Bar]|h|r xmutes or wtt mats for bars - will tip",
+					["serverTime"] = 1695028186,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36756.875,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:09:44]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Killswitch-Thunderfury:301:CHANNEL:3|h|cffc69b6dKillswitch|r-|cffea4475Thu|r|h|cffd8d8d8]|r: wtb bulk |cff1eff00|Hitem:12360::::::::60:::::::::|h[Arcanite Bar]|h|r xmutes or wtt mats for bars - will tip",
+					["serverTime"] = 1695028187,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36758.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:01]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Pheej-Whitemane:325:CHANNEL:3|h|cffc69b6dPheej|r|h|cffd8d8d8]|r: tank lfg uldaman",
+					["serverTime"] = 1695028204,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36775.708,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:10]|h|r You have invited Kkbank to join your guild.",
+					["serverTime"] = 1695028213,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36784.421,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:12]|h|r guild join Kkbank",
+					["timestamp"] = 36786.046,
+					["serverTime"] = 1695028215,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:12]|h|r Kkbank has joined the guild.",
+					["serverTime"] = 1695028215,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36786.046,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:12]|h|r |cffd8d8d8[|r|Hplayer:Kkbank:335|h|cffa5a5a5Kkbank|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1695028215,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36786.046,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:20]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:344:CHANNEL:3|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695028223,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36794.261,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:36]|h|r |cffaad372Kkbank|r|r has gone offline.",
+					["serverTime"] = 1695028239,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36809.961,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:37]|h|r |cffc69b6dKúre|r looks tipsy.",
+					["serverTime"] = 1695028240,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36811.464,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:37]|h|r 18 Sep '23 02:10am : |cffabd473Kkbank|r has JOINED the guild! (LVL: 9)",
+					["r"] = 0.5,
+					["serverTime"] = 1695028240,
+					["timestamp"] = 36811.564,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Windfarty-Whitemane:369:CHANNEL:2|h|cff0070ddWindfarty|r|h|cffd8d8d8]|r: |CFFFF00001 dps for |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1695028247,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						9, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36818.131,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:53]|h|r [Y] |cffd8d8d8[|r|Hplayer:Gilpunky-Whitemane:379:YELL|h|cffd84e4e60|r:|cff3fc6eaGilpunky|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t WTS SFK BOOST 50g/5run |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t BEST SERVICE 120-130 MOBS + kill ARUGAL |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  GROUP LOOT",
+					["serverTime"] = 1695028255,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36827.431,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:10:57]|h|r [Y] |cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:385:YELL|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695028259,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36831.098,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:11:01]|h|r [Y] |cffd8d8d8[|r|Hplayer:Matryoshka-Whitemane:393:YELL|h|cffd84e4e60|r:|cff3fc6eaMatryoshka|r|h|cffd8d8d8]|r: SEELING BOOST ZG 11 PACK SOLO OR DUO PM ExP 27-33K.cheap priece",
+					["serverTime"] = 1695028263,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36835.231,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:11:32]|h|r [Y] |cffd8d8d8[|r|Hplayer:Gilpunky-Whitemane:421:YELL|h|cffd84e4e60|r:|cff3fc6eaGilpunky|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t WTS SFK BOOST 50g/5run |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t BEST SERVICE 120-130 MOBS + kill ARUGAL |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  GROUP LOOT",
+					["serverTime"] = 1695028294,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36866.431,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:12:11]|h|r [Y] |cffd8d8d8[|r|Hplayer:Gilpunky-Whitemane:438:YELL|h|cffd84e4e60|r:|cff3fc6eaGilpunky|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t WTS SFK BOOST 50g/5run |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t BEST SERVICE 120-130 MOBS + kill ARUGAL |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  GROUP LOOT",
+					["serverTime"] = 1695028333,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36905.464,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:12:34]|h|r [Y] |cffd8d8d8[|r|Hplayer:Runthetrain:454:YELL|h|cffc69b6dRunthetrain|r|h|cffd8d8d8]|r: 1 dps for RFC",
+					["serverTime"] = 1695028357,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36928.731,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:12:36]|h|r [Y] |cffd8d8d8[|r|Hplayer:Fãme-Smolderweb:455:YELL|h|cffc69b6dFãme|r-|cff5cf1eaSmo|r|h|cffd8d8d8]|r: WTB Arcanite Transmute with my mats 40g",
+					["serverTime"] = 1695028359,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36930.097,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:13:01]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:458:CHANNEL:3|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695028384,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36955.531,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:13:04]|h|r [Y] |cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:460:YELL|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695028387,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36958.664,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:13:08]|h|r |Hplayer:Naughtypots:0:TEXT_EMOTE:|hNaughtypots|h hugs Lunarbeast.",
+					["serverTime"] = 1695028391,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						24, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36962.431,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:13:13]|h|r [Y] |cffd8d8d8[|r|Hplayer:Adelizzy-Whitemane:463:YELL|h|cffd84e4e8|r:|cff8787edAdelizzy|r|h|cffd8d8d8]|r: WTT 1k on wrath classic the server is pagle for 100g on here",
+					["serverTime"] = 1695028396,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36967.097,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:13:38]|h|r |cffc69b6dKúre|r seems to be sobering up.",
+					["serverTime"] = 1695028421,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36992.597,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:14:59]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Shrank-Whitemane:486:CHANNEL:3|h|cff3fc6eaShrank|r|h|cffd8d8d8]|r: WTS [Arcane Crystal]x62 PST PRICE",
+					["serverTime"] = 1695028501,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37073.497,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:15:10]|h|r You are now AFK: Away from Keyboard",
+					["serverTime"] = 1695028512,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37084.697,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:15:47]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Adelizzy-Whitemane:510:CHANNEL:3|h|cffd84e4e8|r:|cff8787edAdelizzy|r|h|cffd8d8d8]|r: WTT Wrath gold the server is Pagle for gold on here",
+					["serverTime"] = 1695028550,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37120.964,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:16:12]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Angryzug-Whitemane:514:CHANNEL:3|h|cffd84e4e6|r:|cffc69b6dAngryzug|r|h|cffd8d8d8]|r: LF 1 healer for STRAT LIVE. PST Sinofwrath",
+					["serverTime"] = 1695028575,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37146.531,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:16:21]|h|r You are no longer AFK.",
+					["serverTime"] = 1695028584,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37155.491,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:16:24]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - Orgrimmar]|h",
+					["serverTime"] = 1695028587,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37158.378,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:16:24]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. Trade - City]|h",
+					["serverTime"] = 1695028587,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37158.378,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:16:24]|h|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1695028587,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 37158.378,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:00:43]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36217.473,
+					["serverTime"] = 1695027645,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:00:45]|h|r |cff40c7ebBilljoy|r has gone offline.",
+					["serverTime"] = 1695027647,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36219.662,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:00:54]|h|r GRM: Your Guild Leader Has Globally Set the Timestamp Formatting to: < 09/18/23 >",
+					["r"] = 1,
+					["serverTime"] = 1695027656,
+					["timestamp"] = 36228.418,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:00:54]|h|r GRM: Your Guild Leader Has Set Join Dates to only be added to the Custom Note",
+					["r"] = 1,
+					["serverTime"] = 1695027656,
+					["timestamp"] = 36228.418,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:00:54]|h|r GRM: Your Guild Leader has set the Custom Join Tag to \"Joined:\"",
+					["r"] = 1,
+					["serverTime"] = 1695027656,
+					["timestamp"] = 36228.418,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:00:54]|h|r GRM: Your Guild Leader has set the Custom Rejoin Tag to \"Rejoined:\"",
+					["r"] = 1,
+					["serverTime"] = 1695027656,
+					["timestamp"] = 36228.418,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:01:49]|h|r Your character jumped.",
+					["timestamp"] = 36282.954,
+					["serverTime"] = 1695027711,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:02:00]|h|r GRM: Syncing Data With Guildies Now...\n(Loading screens may cause sync to fail)",
+					["r"] = 1,
+					["serverTime"] = 1695027723,
+					["timestamp"] = 36293.951,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:02:03]|h|r GRM: Sync With Guildies Complete... (No Updates)",
+					["r"] = 1,
+					["serverTime"] = 1695027726,
+					["timestamp"] = 36297.261,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:02:03]|h|r ",
+					["r"] = 1,
+					["serverTime"] = 1695027726,
+					["timestamp"] = 36297.261,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:02:03]|h|r \n|CFFFF0000GRM Audit Report:|r 0% complete. 8 members with incomplete data.",
+					["r"] = 1,
+					["serverTime"] = 1695027726,
+					["timestamp"] = 36297.261,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:03:30]|h|r Discovered Orgrimmar: 55 experience gained",
+					["serverTime"] = 1695027812,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36384.265,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:03:30]|h|r |Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. General - Orgrimmar]|h",
+					["serverTime"] = 1695027812,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36384.428,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:03:30]|h|r |Hchannel:channel:4|h[4] |h Changed Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1695027812,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36384.428,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:03:34]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Naughtypots-Whitemane:76:CHANNEL:3|h|cffc69b6dNaughtypots|r|h|cffd8d8d8]|r: Anyone got the mats for Elixir of Greater Defense?",
+					["serverTime"] = 1695027816,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36387.921,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:03:38]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Naughtypots-Whitemane:77:CHANNEL:3|h|cffc69b6dNaughtypots|r|h|cffd8d8d8]|r: And can anyone here craft it?",
+					["serverTime"] = 1695027820,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36391.948,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:01]|h|r Your character jumped.",
+					["timestamp"] = 36415.264,
+					["serverTime"] = 1695027843,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:04]|h|r Your character jumped.",
+					["timestamp"] = 36417.838,
+					["serverTime"] = 1695027846,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:07]|h|r [Y] |cffd8d8d8[|r|Hplayer:Killswitch-Thunderfury:89:YELL|h|cffc69b6dKillswitch|r-|cffea4475Thu|r|h|cffd8d8d8]|r: wtb bulk |cff1eff00|Hitem:12360::::::::60:::::::::|h[Arcanite Bar]|h|r xmutes or wtt mats for bars - will tip",
+					["serverTime"] = 1695027849,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36421.057,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:08]|h|r Your character jumped.",
+					["timestamp"] = 36422.143,
+					["serverTime"] = 1695027850,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:08]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Killswitch-Thunderfury:91:CHANNEL:3|h|cffc69b6dKillswitch|r-|cffea4475Thu|r|h|cffd8d8d8]|r: wtb bulk |cff1eff00|Hitem:12360::::::::60:::::::::|h[Arcanite Bar]|h|r xmutes or wtt mats for bars - will tip",
+					["serverTime"] = 1695027850,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36422.544,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:32]|h|r |cffc79c6eSamoanbank|r has gone offline.",
+					["serverTime"] = 1695027874,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36446.407,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:32]|h|r |cffc79c6eSamoanbank|r has gone offline.",
+					["serverTime"] = 1695027874,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						1, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36446.641,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:32]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Lazengunn:119:CHANNEL:3|h|cffc69b6dLazengunn|r|h|cffd8d8d8]|r: LF2DPS ZF",
+					["serverTime"] = 1695027874,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36446.641,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:04:43]|h|r |Hplayer:Emte:0:TEXT_EMOTE:|hEmte|h bursts into dance.",
+					["serverTime"] = 1695027885,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36457.508,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:05:02]|h|r You have invited Samoanranger to join your guild.",
+					["serverTime"] = 1695027905,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36476.04,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:05:02]|h|r You don't have permission to do that.",
+					["serverTime"] = 1695027905,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36476.04,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:05:13]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Daniuge-Whitemane:133:CHANNEL:3|h|cffc69b6dDaniuge|r|h|cffd8d8d8]|r: wtb Enchant 30 Spellpower",
+					["serverTime"] = 1695027916,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36487.701,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:05:40]|h|r |Hplayer:Emte:0:TEXT_EMOTE:|hEmte|h thanks Magexp.",
+					["serverTime"] = 1695027943,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36514.301,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:06:09]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Shrank-Whitemane:148:CHANNEL:3|h|cff3fc6eaShrank|r|h|cffd8d8d8]|r: WTS |cff1eff00|Hitem:12363::::::::60:::::::::|h[Arcane Crystal]|h|rx51 PST PRICE",
+					["serverTime"] = 1695027972,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36543.201,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:06:31]|h|r [Y] |cffd8d8d8[|r|Hplayer:Beatbop-Whitemane:156:YELL|h|cffd84e4e58|r:|cfffff468Beatbop|r|h|cffd8d8d8]|r: wtb PORT UC PLEZ",
+					["serverTime"] = 1695027993,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36564.901,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:06:35]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Nastykillah-Thunderfury:157:CHANNEL:3|h|cffd84e4e60|r:|cff3fc6eaNastykillah|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTT My Classic Era G x Ur Wrath G pst for inf |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695027997,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36569.268,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:06:39]|h|r [Y] |cffd8d8d8[|r|Hplayer:Krakn-Whitemane:158:YELL|h|cfffff468Krakn|r|h|cffd8d8d8]|r: ^ me too UC",
+					["serverTime"] = 1695028001,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36573.734,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:04]|h|r |cffd8d8d8[|r|Hplayer:Samoanbank:165|h|cffd84e4e10|r:|cffc69b6dSamoanbank|r|h|cffd8d8d8]|r|r|CFFFFFF00 has come online.",
+					["serverTime"] = 1695028026,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36598.268,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:04]|h|r |cff00ff00<FGI>|r The hash was checked with Samoanbank, the same hash.",
+					["timestamp"] = 36598.67,
+					["serverTime"] = 1695028026,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:06]|h|r |cffd8d8d8[|r|Hplayer:Samoanbank-Whitemane|h|cffd84e4e10|r:|cffc69b6dSamoanbank|r-|cfffe3870Whi|r|h|cffd8d8d8]|r|r|CFFFFFF00 has come online.",
+					["serverTime"] = 1695028028,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						1, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36600.07,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:18]|h|r guild promote Samoanbank Kkorgrimmar Member.",
+					["timestamp"] = 36612.57,
+					["serverTime"] = 1695028040,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:18]|h|r |cffc69b6dSamoanbank|r has promoted |cff00ff00Kkorgrimmar|r to Member.",
+					["serverTime"] = 1695028040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36612.57,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36613.003,
+					["serverTime"] = 1695028041,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r guild promote Samoanbank Kkorgrimmar ---------------.",
+					["timestamp"] = 36613.003,
+					["serverTime"] = 1695028041,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r |cffc69b6dSamoanbank|r has promoted |cff00ff00Kkorgrimmar|r to ---------------.",
+					["serverTime"] = 1695028041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36613.003,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r guild promote Samoanbank Kkorgrimmar ---------------.",
+					["timestamp"] = 36613.246,
+					["serverTime"] = 1695028041,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r |cffc69b6dSamoanbank|r has promoted |cff00ff00Kkorgrimmar|r to ---------------.",
+					["serverTime"] = 1695028041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36613.246,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r guild promote Samoanbank Kkorgrimmar ---------------.",
+					["timestamp"] = 36613.746,
+					["serverTime"] = 1695028041,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r |cffc69b6dSamoanbank|r has promoted |cff00ff00Kkorgrimmar|r to ---------------.",
+					["serverTime"] = 1695028041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36613.746,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36613.746,
+					["serverTime"] = 1695028041,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r guild promote Samoanbank Kkorgrimmar ---------------.",
+					["timestamp"] = 36613.746,
+					["serverTime"] = 1695028041,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:19]|h|r |cffc69b6dSamoanbank|r has promoted |cff00ff00Kkorgrimmar|r to ---------------.",
+					["serverTime"] = 1695028041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36613.746,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r |cffc79c6eSamoanbank|r PROMOTED |cffc79c6eKkorgrimmar|r from Member to ---------------",
+					["r"] = 1,
+					["serverTime"] = 1695028042,
+					["timestamp"] = 36614.181,
+					["g"] = 0.914,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r GRM: Your rank has changed. Re-evaluating sync permissions.",
+					["r"] = 1,
+					["serverTime"] = 1695028042,
+					["timestamp"] = 36614.181,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r guild promote Samoanbank Kkorgrimmar ---------------.",
+					["timestamp"] = 36614.248,
+					["serverTime"] = 1695028042,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r |cffc69b6dSamoanbank|r has promoted |cff00ff00Kkorgrimmar|r to ---------------.",
+					["serverTime"] = 1695028042,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36614.248,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r guild promote Samoanbank Kkorgrimmar Veteran.",
+					["timestamp"] = 36614.481,
+					["serverTime"] = 1695028042,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r |cffc79c6eSamoanbank|r PROMOTED |cffc79c6eKkorgrimmar|r from --------------- to Veteran",
+					["r"] = 1,
+					["serverTime"] = 1695028042,
+					["timestamp"] = 36614.481,
+					["g"] = 0.914,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r GRM: Your rank has changed. Re-evaluating sync permissions.",
+					["r"] = 1,
+					["serverTime"] = 1695028042,
+					["timestamp"] = 36614.481,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36614.481,
+					["serverTime"] = 1695028042,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r guild promote Samoanbank Kkorgrimmar Officer.",
+					["timestamp"] = 36614.729,
+					["serverTime"] = 1695028042,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r |cffc79c6eSamoanbank|r PROMOTED |cffc79c6eKkorgrimmar|r from Veteran to Officer",
+					["r"] = 1,
+					["serverTime"] = 1695028042,
+					["timestamp"] = 36614.729,
+					["g"] = 0.914,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:20]|h|r GRM: Your rank has changed. Re-evaluating sync permissions.",
+					["r"] = 1,
+					["serverTime"] = 1695028042,
+					["timestamp"] = 36614.729,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:21]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36615.007,
+					["serverTime"] = 1695028043,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:37]|h|r 18 Sep '23 02:07am : Guild Rank Renamed from Veteran to ---------------",
+					["r"] = 1,
+					["serverTime"] = 1695028059,
+					["timestamp"] = 36631.778,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:37]|h|r 18 Sep '23 02:07am : Guild Rank Renamed from --------------- to Veteran",
+					["r"] = 1,
+					["serverTime"] = 1695028059,
+					["timestamp"] = 36631.778,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:40]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36634.411,
+					["serverTime"] = 1695028062,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:40]|h|r [Y] |cffd8d8d8[|r|Hplayer:Madmedic-Fairbanks:193:YELL|h|cff0070ddMadmedic|r-|cffd733aaFai|r|h|cffd8d8d8]|r: wtb port uc",
+					["serverTime"] = 1695028062,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36634.411,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:52]|h|r GRM: Your rank has changed. Re-evaluating sync permissions.",
+					["r"] = 1,
+					["serverTime"] = 1695028074,
+					["timestamp"] = 36645.882,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:52]|h|r 18 Sep '23 02:07am : Guild Rank Renamed from Officer to ---------------",
+					["r"] = 1,
+					["serverTime"] = 1695028074,
+					["timestamp"] = 36645.882,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:52]|h|r 18 Sep '23 02:07am : Guild Rank Renamed from --------------- to Officer",
+					["r"] = 1,
+					["serverTime"] = 1695028074,
+					["timestamp"] = 36645.882,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:57]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Killswitch-Thunderfury:204:CHANNEL:3|h|cffc69b6dKillswitch|r-|cffea4475Thu|r|h|cffd8d8d8]|r: wtb bulk |cff1eff00|Hitem:12360::::::::60:::::::::|h[Arcanite Bar]|h|r xmutes or wtt mats for bars - will tip",
+					["serverTime"] = 1695028080,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						15, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36651.582,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:07:58]|h|r [Y] |cffd8d8d8[|r|Hplayer:Killswitch-Thunderfury:207:YELL|h|cffc69b6dKillswitch|r-|cffea4475Thu|r|h|cffd8d8d8]|r: wtb bulk |cff1eff00|Hitem:12360::::::::60:::::::::|h[Arcanite Bar]|h|r xmutes or wtt mats for bars - will tip",
+					["serverTime"] = 1695028081,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36652.749,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:12]|h|r guild promote Samoanbank Kkorgrimmar Member.",
+					["timestamp"] = 36665.916,
+					["serverTime"] = 1695028095,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:12]|h|r |cffc79c6eSamoanbank|r PROMOTED |cffc79c6eKkorgrimmar|r from Officer to Member",
+					["r"] = 1,
+					["serverTime"] = 1695028095,
+					["timestamp"] = 36665.916,
+					["g"] = 0.914,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:12]|h|r GRM: Your rank has changed. Re-evaluating sync permissions.",
+					["r"] = 1,
+					["serverTime"] = 1695028095,
+					["timestamp"] = 36665.916,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:12]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 36666.149,
+					["serverTime"] = 1695028095,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:13]|h|r 18 Sep '23 02:07am : Guild Rank Renamed from --------------- to Member",
+					["r"] = 1,
+					["serverTime"] = 1695028096,
+					["timestamp"] = 36667.532,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:20]|h|r GRM: Syncing Data With Guildies Now...\n(Loading screens may cause sync to fail)",
+					["r"] = 1,
+					["serverTime"] = 1695028103,
+					["timestamp"] = 36674.198,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:23]|h|r GRM: Sync With Guildies Complete... (No Updates)",
+					["r"] = 1,
+					["serverTime"] = 1695028106,
+					["timestamp"] = 36677.001,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:23]|h|r ",
+					["r"] = 1,
+					["serverTime"] = 1695028106,
+					["timestamp"] = 36677.001,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:23]|h|r \n|CFFFF0000GRM Audit Report:|r 0% complete. 8 members with incomplete data.",
+					["r"] = 1,
+					["serverTime"] = 1695028106,
+					["timestamp"] = 36677.001,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:24]|h|r guild promote Samoanbank Cupcakess Member.",
+					["timestamp"] = 36678.101,
+					["serverTime"] = 1695028107,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:24]|h|r |cffc79c6eSamoanbank|r PROMOTED |cffabd473Cupcakess|r from Officer to Member",
+					["r"] = 1,
+					["serverTime"] = 1695028107,
+					["timestamp"] = 36678.101,
+					["g"] = 0.914,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:37]|h|r |cffc79c6eSamoanbank|r has gone offline.",
+					["serverTime"] = 1695028120,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36691.301,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:08:37]|h|r |cffc79c6eSamoanbank|r has gone offline.",
+					["serverTime"] = 1695028120,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						1, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 36691.502,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -75,7 +75,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 5,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -90,36 +90,24 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
+					["serverTime"] = 1695020411,
 					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 28982.579,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863748,
-					["b"] = 0,
+					["g"] = 1,
 				}, -- [1]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1693865753,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 30456.458,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 28982.579,
 				}, -- [2]
 				{
-					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
-					["timestamp"] = 30456.458,
-				}, -- [3]
-				{
 					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 30456.458,
-				}, -- [4]
+					["timestamp"] = 28982.579,
+				}, -- [3]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
 					["r"] = 1,
@@ -127,10 +115,10 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 30444.161,
+					["timestamp"] = 28936.155,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [5]
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -256,7 +244,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 20,
+			["headIndex"] = 112,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -270,104 +258,1117 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:53]|h|r RestedXP Guides: Targeting macro updated with (Grull Hawkwind)",
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693865753,
+					["message"] = "|cff979797|Hpratcopy|h[00:24:53]|h|r Guild Message of the Day: Join discord and register your chosen professions. Afterlife Server: Whitemane. See guild info tab. <[O.o]><[KK]>",
+					["serverTime"] = 1695020411,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 28982.579,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:54]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
-					["r"] = 1,
-					["serverTime"] = 1693865754,
-					["timestamp"] = 30456.458,
-					["g"] = 1,
-					["b"] = 0.5,
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 28982.579,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:55]|h|r Registered character: Bannhammer-SkullRock",
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693865755,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 28982.579,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:55]|h|r CensusPlusWotlk Taking census of characters online...",
-					["r"] = 1,
-					["serverTime"] = 1693865755,
-					["timestamp"] = 30456.458,
-					["g"] = 1,
-					["b"] = 0.5,
+					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
+					["timestamp"] = 28936.155,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:56]|h|r |cff00ff00<FGI>|r Init synchronization from Kktailor",
-					["timestamp"] = 30458.767,
-					["serverTime"] = 1693865756,
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 28936.155,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:57]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
-					["timestamp"] = 30460.538,
-					["serverTime"] = 1693865757,
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 28936.155,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:57]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
-					["timestamp"] = 30460.538,
-					["serverTime"] = 1693865757,
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 28936.155,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:57]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
-					["timestamp"] = 30460.621,
-					["serverTime"] = 1693865757,
+					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 28936.155,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:58]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 1.",
-					["timestamp"] = 30460.781,
-					["serverTime"] = 1693865758,
+					["message"] = "|cff979797|Hpratcopy|h[00:59:55]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 28936.155,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:03]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Bannhammer-SkullRock:1787:GUILD|h|cffd8d83f1|r:|cffc69b6dBannhammer|r|h|cffd8d8d8]|r: you rang?",
-					["serverTime"] = 1693865763,
+					["message"] = "|cff979797|Hpratcopy|h[01:00:08]|h|r Guild Message of the Day: Join discord and register chosen professions. Afterlife Server: Whitemane. See guild info tab. <[O.o]><[KK]>",
 					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 28982.579,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:08]|h|r |cff33ff99Gnosis|r: Gnosis v5.07 (v5.09) loaded (enabled)",
+					["timestamp"] = 28982.579,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:08]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 28982.579,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:10]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["r"] = 1,
+					["serverTime"] = 1695020412,
+					["timestamp"] = 28982.579,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:10]|h|r Registered character: Bannhammer-SkullRock",
+					["timestamp"] = 28982.579,
+					["serverTime"] = 1695020412,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:11]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1695020413,
+					["timestamp"] = 28982.579,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:12]|h|r |cff00ff00<FGI>|r Init synchronization from Samoanranger",
+					["timestamp"] = 28985.625,
+					["serverTime"] = 1695020414,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:14]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 28988.129,
+					["serverTime"] = 1695020416,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:14]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 28988.129,
+					["serverTime"] = 1695020416,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:14]|h|r |cff33ff99HonorSpy|r: All data was purged",
+					["timestamp"] = 28988.129,
+					["serverTime"] = 1695020416,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:14]|h|r |cff33ff99HonorSpy|r: Weekly data was reset",
+					["timestamp"] = 28988.129,
+					["serverTime"] = 1695020416,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:15]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 28988.799,
+					["serverTime"] = 1695020417,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:15]|h|r |cFFAAEEFFQuestie DB has updated!|r|cFFFF6F22 Data is being processed, this may take a few moments and cause some lag...",
+					["timestamp"] = 28988.955,
+					["serverTime"] = 1695020417,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:15]|h|r |cFF4DDBFF [1/9] Loading database...",
+					["timestamp"] = 28988.955,
+					["serverTime"] = 1695020417,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:16]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 5.",
+					["timestamp"] = 28990.111,
+					["serverTime"] = 1695020418,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:16]|h|r |cFF4DDBFF [2/9] Applying database corrections...",
+					["timestamp"] = 28990.32,
+					["serverTime"] = 1695020418,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:16]|h|r |cFF4DDBFF [3/9] Initializing townfolks...",
+					["timestamp"] = 28990.423,
+					["serverTime"] = 1695020418,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:18]|h|r |cffffaeaeDetails!:|r A new version has been installed: /details news    ",
+					["timestamp"] = 28992.605,
+					["serverTime"] = 1695020420,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:18]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hRend: No current timer.|h",
+					["timestamp"] = 28992.605,
+					["serverTime"] = 1695020420,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:18]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hOnyxia: No current timer.|h",
+					["timestamp"] = 28992.605,
+					["serverTime"] = 1695020420,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:18]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hNefarian: No current timer.|h",
+					["timestamp"] = 28992.605,
+					["serverTime"] = 1695020420,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:20]|h|r |cFF4DDBFF [4/9] Initializing locale...",
+					["timestamp"] = 28993.846,
+					["serverTime"] = 1695020422,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:20]|h|r |cFF4DDBFF [5/9] Optimizing waypoints...",
+					["timestamp"] = 28993.913,
+					["serverTime"] = 1695020422,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:20]|h|r |cFF4DDBFF [6/9] Updating NPCs...",
+					["timestamp"] = 28994.72,
+					["serverTime"] = 1695020422,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:28]|h|r |cFF4DDBFF [7/9] Updating objects...",
+					["timestamp"] = 29002.086,
+					["serverTime"] = 1695020430,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:33]|h|r |cFF4DDBFF [8/9] Updating quests...",
+					["timestamp"] = 29006.885,
+					["serverTime"] = 1695020435,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:38]|h|r |cFF4DDBFF [9/9] Updating items...",
+					["timestamp"] = 29011.9,
+					["serverTime"] = 1695020440,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:00:42]|h|r |cFFAAEEFFQuestie DB update complete!",
+					["timestamp"] = 29016.484,
+					["serverTime"] = 1695020444,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:01:28]|h|r GRM: Syncing Data With Guildies Now...\n(Loading screens may cause sync to fail)",
+					["r"] = 1,
+					["serverTime"] = 1695020491,
+					["timestamp"] = 29061.893,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:01:33]|h|r GRM: Sync Failed with |cffabd473Samoanranger|r...",
+					["r"] = 1,
+					["serverTime"] = 1695020496,
+					["timestamp"] = 29067.426,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:01:59]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
+					["timestamp"] = 29093.027,
+					["serverTime"] = 1695020522,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:01:59]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
+					["timestamp"] = 29093.027,
+					["serverTime"] = 1695020522,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:01:59]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
+					["timestamp"] = 29093.027,
+					["serverTime"] = 1695020522,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:03:11]|h|r 18 Sep '23 12:03am : |cfffff569Scopophobia|r has Leveled to 27 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695020593,
+					["timestamp"] = 29165.472,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:05:11]|h|r |cfffff569|cfffff468Buizel|r|r has gone offline.",
+					["serverTime"] = 1695020714,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 30465.782,
+					["timestamp"] = 29285.09,
 					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [10]
+					["b"] = 0,
+				}, -- [44]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:03]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hRend: No current timer.|h",
-					["timestamp"] = 30466.467,
-					["serverTime"] = 1693865763,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:03]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hOnyxia: No current timer.|h",
-					["timestamp"] = 30466.467,
-					["serverTime"] = 1693865763,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:03]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hNefarian: No current timer.|h",
-					["timestamp"] = 30466.467,
-					["serverTime"] = 1693865763,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:15]|h|r |cff0070ddAllianceorc|r has been kicked out of the guild by |cff00ff00Bannhammer|r.",
-					["serverTime"] = 1693865775,
+					["message"] = "|cff979797|Hpratcopy|h[01:06:03]|h|r |cffd8d8d8[|r|Hplayer:Buizel:2628|h|cffd84e4e23|r:|cfffff468Buizel|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695020765,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29337.578,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:06:14]|h|r |cfff58cbaNoxius|r has gone offline.",
+					["serverTime"] = 1695020776,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29348.596,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:07:38]|h|r |cff40c7ebRoxhc|r has gone offline.",
+					["serverTime"] = 1695020861,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29432.276,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:07:42]|h|r You are now AFK: Away from Keyboard",
+					["serverTime"] = 1695020865,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29436.03,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:11:51]|h|r |cff40c7ebMagicalbussy|r|r has Left the guild (LVL: 13)\n|cFFFFFFFFTime as Member: 15 days|r",
+					["r"] = 0.5,
+					["serverTime"] = 1695021113,
+					["timestamp"] = 29685.476,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:12:05]|h|r |cffabd473|cffaad372Futureaspir|r|r has gone offline.",
+					["serverTime"] = 1695021127,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29699.243,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:12:59]|h|r |cff40c7ebKleytal|r has gone offline.",
+					["serverTime"] = 1695021182,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29753.44,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:13:07]|h|r |cffd8d8d8[|r|Hplayer:Futureaspir:2649|h|cffd84e4e48|r:|cffaad372Futureaspir|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021190,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29761.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:13:55]|h|r |cff8787edGooncumander|r has gone offline.",
+					["serverTime"] = 1695021238,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29809.1,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:14:25]|h|r |cffd8d8d8[|r|Hplayer:Kleytal:2656|h|cffd84e4e20|r:|cff3fc6eaKleytal|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021267,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29839.377,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:14:27]|h|r GRM: |cff40c7ebKleytal|r matches rules for a promotion and is currently online.",
+					["r"] = 1,
+					["serverTime"] = 1695021269,
+					["timestamp"] = 29840.884,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:14:27]|h|r 18 Sep '23 12:14am : |cfffff569Nokarim|r has Leveled to 13 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695021269,
+					["timestamp"] = 29841.151,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:15:27]|h|r 18 Sep '23 12:15am : |cffabd473Maelya|r has Leveled to 42 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695021329,
+					["timestamp"] = 29901.697,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:15:35]|h|r |cffd8d8d8[|r|Hplayer:Wumpore:2657|h|cffd84e4e13|r:|cfffff468Wumpore|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021337,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29909.602,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:17:38]|h|r 18 Sep '23 12:17am : |cff40c7ebThevictorone|r has Leveled to 10 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695021460,
+					["timestamp"] = 30032.006,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:25]|h|r |cffd8d8d8[|r|Hplayer:Gooncumander:2658|h|cffd84e4e12|r:|cff8787edGooncumander|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021507,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30079.257,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:18:27]|h|r 18 Sep '23 12:18am : |cfffff569Wumpore|r has Leveled to 14 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695021509,
+					["timestamp"] = 30081.006,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:19:19]|h|r |cff40c7ebEgortos|r has gone offline.",
+					["serverTime"] = 1695021561,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30132.913,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:19:44]|h|r |cffd8d8d8[|r|Hplayer:Alittlehorny:2669|h|cffd84e4e19|r:|cffff7c0aAlittlehorny|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021586,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30158.656,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:06]|h|r |cffd8d8d8[|r|Hplayer:Big:2671|h|cffd84e4e37|r:|cffc69b6dBig|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021668,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30240.759,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:18]|h|r guild join Cheezefish",
+					["timestamp"] = 30252.667,
+					["serverTime"] = 1695021680,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:18]|h|r Cheezefish has joined the guild.",
+					["serverTime"] = 1695021680,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30252.667,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:19]|h|r |cffd8d8d8[|r|Hplayer:Cheezefish:2673|h|cffa5a5a5Cheezefish|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1695021681,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30252.667,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:21:39]|h|r 18 Sep '23 12:21am : |cffabd473Cheezefish|r has JOINED the guild! (LVL: 31)",
+					["r"] = 0.5,
+					["serverTime"] = 1695021701,
+					["timestamp"] = 30272.887,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:22:13]|h|r |cfffff569|cfffff468Cakeman|r|r has gone offline.",
+					["serverTime"] = 1695021735,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30307.706,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:22:23]|h|r You are no longer AFK.",
+					["serverTime"] = 1695021745,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30317.13,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:22:57]|h|r |cffff7d0aAlittlehorny|r has gone offline.",
+					["serverTime"] = 1695021779,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30351.047,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:23:26]|h|r |cffffffffTharamus|r has been kicked out of the guild by |cff00ff00Bannhammer|r.",
+					["serverTime"] = 1695021809,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30379.823,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:23:49]|h|r |cffc69b6dVeryblackcow|r has been kicked out of the guild by |cff00ff00Bannhammer|r.",
+					["serverTime"] = 1695021832,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30403.132,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:24:17]|h|r |cffffffffLgbrandon|r has been kicked out of the guild by |cff00ff00Bannhammer|r.",
+					["serverTime"] = 1695021860,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30431.067,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:24:52]|h|r |cff40c7ebWaldfireone|r has gone offline.",
+					["serverTime"] = 1695021894,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30466.394,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:24:57]|h|r |cffd8d8d8[|r|Hplayer:Waldfireone:2705|h|cffd84e4e11|r:|cff3fc6eaWaldfireone|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695021899,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30471.002,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:24:58]|h|r GRM: |cff40c7ebWaldfireone|r matches rules for a promotion and is currently online.",
+					["r"] = 1,
+					["serverTime"] = 1695021900,
+					["timestamp"] = 30472.532,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:26:01]|h|r |cffc79c6eBig|r has gone offline.",
+					["serverTime"] = 1695021963,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30535.102,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:27:50]|h|r |cffd8d8d8[|r|Hplayer:Big:2713|h|cffd84e4e37|r:|cffc69b6dBig|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022073,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30644.745,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:27:52]|h|r |cffd8d8d8[|r|Hplayer:Alittlehorny:2714|h|cffd84e4e19|r:|cffff7c0aAlittlehorny|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022075,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30645.846,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:20]|h|r You are now AFK: Away from Keyboard",
+					["serverTime"] = 1695022162,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30734.535,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:23]|h|r |cffabd473|cffaad372Maelya|r|r has gone offline.",
+					["serverTime"] = 1695022165,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30737.688,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:30:27]|h|r |cffd8d8d8[|r|Hplayer:Kayles:2719|h|cffd84e4e19|r:|cfffff468Kayles|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022229,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30801.717,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:30:53]|h|r |cffff7d0aAlittlehorny|r has gone offline.",
+					["serverTime"] = 1695022255,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30826.794,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:30:58]|h|r |cff8787edGooncumander|r has gone offline.",
+					["serverTime"] = 1695022260,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30832.429,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:31]|h|r 18 Sep '23 12:32am : |cff8787edSpoopieboi|r has Leveled to 10 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695022354,
+					["timestamp"] = 30925.612,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:35]|h|r |cffc79c6eHardyards|r|r has Left the guild (LVL: 22)\n|cFFFFFFFFTime as Member: < 1 day|r",
+					["r"] = 0.5,
+					["serverTime"] = 1695022418,
+					["timestamp"] = 30989.31,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:08]|h|r 18 Sep '23 12:34am : |cffffffffSculptress|r has Leveled to 10 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695022451,
+					["timestamp"] = 31021.823,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:46]|h|r |cffabd473Devilwitch|r|r has Left the guild (LVL: 30)\n|cFFFFFFFFTime as Member: 1 day|r",
+					["r"] = 0.5,
+					["serverTime"] = 1695022489,
+					["timestamp"] = 31060.756,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:36:16]|h|r |cffd8d8d8[|r|Hplayer:Rimyobb:2724|h|cffd84e4e7|r:|cffffffffRimyobb|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022579,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31150.277,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:38:25]|h|r |cffd8d8d8[|r|Hplayer:Susul:2729|h|cffd84e4e32|r:|cff3fc6eaSusul|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022708,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31279.653,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:38:27]|h|r 18 Sep '23 12:38am : |cfffff569Hezzabing|r has Leveled to 11 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695022710,
+					["timestamp"] = 31281.07,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:38:33]|h|r |cfffff569|cfffff468Scopophobia|r|r has gone offline.",
+					["serverTime"] = 1695022716,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31287.249,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:39:31]|h|r |cffd8d8d8[|r|Hplayer:Gooncumander:2731|h|cffd84e4e12|r:|cff8787edGooncumander|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022774,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31344.941,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:39:47]|h|r [S] |cffd8d8d8[|r|Hplayer:Rubiksuno-SkullRock:2732:SAY|h|cffd84e4e7|r:|cffff7c0aRubiksuno|r|h|cffd8d8d8]|r: good night",
+					["serverTime"] = 1695022789,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
 						false, -- [2]
 						3, -- [3]
 						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 30478.082,
+					["timestamp"] = 31360.874,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:19]|h|r |cffd8d8d8[|r|Hplayer:Scopophobia:2733|h|cffd84e4e27|r:|cfffff468Scopophobia|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022821,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31392.8,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [14]
+				}, -- [96]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dusturgani-SkullRock:1801:CHANNEL:2|h|cffff7c0aDusturgani|r|h|cffd8d8d8]|r: anyone need fizsprocket?",
-					["serverTime"] = 1693865786,
+					["message"] = "|cff979797|Hpratcopy|h[01:40:20]|h|r 18 Sep '23 12:40am : |cff40c7ebWaldfireone|r has Leveled to 12 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695022822,
+					["timestamp"] = 31394.533,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:36]|h|r |cffd8d8d8[|r|Hplayer:Gallorextwo:2734|h|cffd84e4e26|r:|cffffffffGallorextwo|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695022838,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31410.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:41:24]|h|r |cffffffffRimyobb|r has gone offline.",
+					["serverTime"] = 1695022887,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31458.506,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:41:56]|h|r 18 Sep '23 12:42am : |cffabd473Irascibl|r has Leveled to 40 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695022919,
+					["timestamp"] = 31490.663,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:58]|h|r |cffd8d8d8[|r|Hplayer:Rimyobb:2736|h|cffd84e4e7|r:|cffffffffRimyobb|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695023101,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31672.463,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:45:26]|h|r |cffffffffRimyobb|r has gone offline.",
+					["serverTime"] = 1695023129,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31700.226,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:45:36]|h|r |cfffff569|cfffff468Wumpore|r|r has gone offline.",
+					["serverTime"] = 1695023139,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31710.559,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:46:09]|h|r 18 Sep '23 12:46am : |cffc79c6eJabazulu|r has Leveled to 10 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695023171,
+					["timestamp"] = 31742.999,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:46:34]|h|r |cff8787edSpoopieboi|r has gone offline.",
+					["serverTime"] = 1695023196,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31768.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:49:24]|h|r |cffd8d8d8[|r|Hplayer:Poonfire:2760|h|cffd84e4e22|r:|cffff7c0aPoonfire|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695023367,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31938.218,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:50:24]|h|r |cffd8d8d8[|r|Hplayer:Roflnova:2789|h|cffd84e4e18|r:|cff3fc6eaRoflnova|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695023426,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31998.357,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:50:55]|h|r |cffd8d8d8[|r|Hplayer:Trevelyan:2799|h|cffd84e4e19|r:|cff3fc6eaTrevelyan|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1695023457,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 32029.238,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:52:26]|h|r 18 Sep '23 12:52am : |cff40c7ebHavenshadow|r has Leveled to 14 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1695023549,
+					["timestamp"] = 32119.883,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:54:20]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1695023662,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 32234.513,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:54:41]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - Mulgore]|h",
+					["serverTime"] = 1695023683,
 					["r"] = 1,
 					["extraData"] = {
 						70, -- [1]
@@ -376,1591 +1377,25 @@ Prat3HighCPUPerCharDB = {
 						6, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 30489.668,
+					["timestamp"] = 32254.86,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:28]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Bodeezl-SkullRock:1804:GUILD|h|cffd84e4e18|r:|cff8787edBodeezl|r|h|cffd8d8d8]|r: woa",
-					["serverTime"] = 1693865788,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 30490.904,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Girubev:1808:CHANNEL:2|h|cffc69b6dGirubev|r|h|cffd8d8d8]|r: F",
-					["serverTime"] = 1693865793,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						5, -- [3]
-						9, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 30496.018,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:33]|h|r |cffabd473|cffaad372Bakiz|r|r has gone offline.",
-					["serverTime"] = 1693865793,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 30496.235,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:34]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Bannhammer-SkullRock:1811:GUILD|h|cffd8d83f1|r:|cffc69b6dBannhammer|r|h|cffd8d8d8]|r: like a thief in the night",
-					["serverTime"] = 1693865794,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 30496.877,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:16:36]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Frostmagii-SkullRock:1812:GUILD|h|cffd84e4e12|r:|cff3fc6eaFrostmagii|r|h|cffd8d8d8]|r: ./cheer",
-					["serverTime"] = 1693865796,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						1, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 30499.283,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:16]|h|r \"Psychozombie\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863976,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:17]|h|r \"Komfu\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863977,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:17]|h|r \"Valarmorghul\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863977,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:17]|h|r \"Centaofdeass\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863977,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:17]|h|r \"Pemba\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863977,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:17]|h|r \"Plsnodiesir\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863977,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:18]|h|r \"Oíntment\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863978,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:18]|h|r \"Prarrior\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863978,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:18]|h|r You have invited Crazytom to join your guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863978,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:18]|h|r \"Bdaddyssf\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863978,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:18]|h|r Crazytom declines your guild invitation.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863978,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:19]|h|r \"Bladetooth\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863979,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:19]|h|r \"Sarevok\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863979,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:19]|h|r \"Diehaard\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863979,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:19]|h|r \"Ignia\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863979,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:19]|h|r You cannot invite players from the opposing alliance into your guild",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863979,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:20]|h|r \"Johnswitch\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863980,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:20]|h|r \"Stabii\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863980,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:20]|h|r \"Locknballs\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863980,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:20]|h|r Prowllock is already in a guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863980,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:20]|h|r Kenshinz is already in a guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863980,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r \"Mooforceone\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863981,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r \"Ramish\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863981,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r \"Joshycow\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863981,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r \"Lorter\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863981,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r \"Rishi\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863981,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:21]|h|r \"Greenhunt\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863981,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:22]|h|r \"Nodeffdez\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863982,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:22]|h|r \"Deadgringa\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863982,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:22]|h|r \"Seífer\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863982,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:22]|h|r \"Urchar\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863982,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:23]|h|r \"Aouei\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863983,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:23]|h|r You have invited Bullybeef to join your guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863983,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:23]|h|r \"Rids\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863983,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:23]|h|r \"Poimlok\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863983,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:24]|h|r \"Piner\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863984,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:24]|h|r \"Igs\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863984,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:24]|h|r \"Dallassalad\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863984,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:24]|h|r \"Occu\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863984,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:24]|h|r \"Freezeyamon\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863984,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:25]|h|r You have invited Milkmandave to join your guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863985,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:25]|h|r \"Utamr\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863985,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:25]|h|r \"Valensz\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863985,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:25]|h|r \"Hanikiya\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863985,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:26]|h|r Bullybeef declines your guild invitation.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863986,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:27]|h|r Milkmandave declines your guild invitation.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863987,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:27]|h|r You have invited Nichael to join your guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863987,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:27]|h|r You have invited Cornwallus to join your guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863987,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:27]|h|r Nichael declines your guild invitation.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863987,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:28]|h|r \"Ðemondagger\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863988,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:28]|h|r \"Mooberrie\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863988,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:28]|h|r \"Deathflyer\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863988,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:28]|h|r \"Genos\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863988,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:29]|h|r \"Banditka\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863989,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:29]|h|r \"Sulsa\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863989,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:30]|h|r Cornwallus declines your guild invitation.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863990,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:32]|h|r \"Zoomster\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863992,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:32]|h|r \"Bauce\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863992,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:32]|h|r \"Tade\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863992,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:32]|h|r \"Gnang\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863992,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:33]|h|r \"Alivë\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863993,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:33]|h|r \"Majestica\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863993,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:33]|h|r \"Gohae\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863993,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:33]|h|r \"Zamu\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863993,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:34]|h|r \"Kimimaro\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863994,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:34]|h|r \"Taiwanone\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863994,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:34]|h|r \"Osarga\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863994,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:34]|h|r You have invited Megallos to join your guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863994,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:34]|h|r \"Makibox\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863994,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:34]|h|r \"Pisslover\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863994,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:35]|h|r \"Erased\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863995,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:35]|h|r \"Outofmana\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863995,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:35]|h|r \"Ulbert\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863995,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:35]|h|r \"Julivia\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863995,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:35]|h|r \"Reekz\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863995,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:36]|h|r \"Foolaid\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863996,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:36]|h|r \"Zumakaliff\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863996,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:36]|h|r \"Tulock\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863996,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:36]|h|r Milkingtank is already in a guild.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863996,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:37]|h|r \"Cáboose\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863997,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:37]|h|r \"Dhrago\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863997,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:37]|h|r \"Kofu\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863997,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:37]|h|r \"Thenextrogue\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863997,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:38]|h|r \"Cornchild\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863998,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:38]|h|r \"Follower\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863998,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:38]|h|r \"Sagetusk\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863998,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:38]|h|r Megallos declines your guild invitation.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863998,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:38]|h|r \"Kuramisama\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863998,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:46:38]|h|r \"Sxyen\" |cffffffffnot|r found.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693863998,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:47:27]|h|r Discovered Bloodhoof Village: 45 experience gained",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864047,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:47:34]|h|r |cffd8d8d8[|r|Hplayer:Mallus:680|h|cffd84e4e11|r:|cffc69b6dMallus|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864054,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
 				}, -- [111]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[15:47:44]|h|r Your Thunder Bluff reputation has increased by 25.",
-					["b"] = 1,
-					["r"] = 0.501960813999176,
-					["g"] = 0.501960813999176,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864064,
+					["message"] = "|cff979797|Hpratcopy|h[01:54:41]|h|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Mulgore]|h",
+					["serverTime"] = 1695023683,
+					["r"] = 1,
 					["extraData"] = {
-						36, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:47:44]|h|r You receive item: |cffffffff|Hitem:4540::::::::1:::::::::|h[Tough Hunk of Bread]|h|rx5.",
-					["b"] = 0,
-					["r"] = 0,
-					["g"] = 0.6666666865348816,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864064,
-					["extraData"] = {
-						28, -- [1]
+						72, -- [1]
 						false, -- [2]
 						8, -- [3]
 						9, -- [4]
 						["n"] = 4,
 					},
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:47:44]|h|r A Task Unfinished completed.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864064,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:47:44]|h|r Experience gained: 110.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864064,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:48:11]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - Mulgore]|h",
-					["b"] = 0.7529412508010864,
-					["r"] = 1,
+					["timestamp"] = 32254.86,
 					["g"] = 0.7529412508010864,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864091,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						12, -- [3]
-						13, -- [4]
-						["n"] = 4,
-					},
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[15:48:11]|h|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Mulgore]|h",
 					["b"] = 0.7529412508010864,
-					["r"] = 1,
-					["g"] = 0.7529412508010864,
-					["timestamp"] = 30456.458,
-					["serverTime"] = 1693864091,
-					["extraData"] = {
-						72, -- [1]
-						false, -- [2]
-						15, -- [3]
-						16, -- [4]
-						["n"] = 4,
-					},
-				}, -- [117]
-				{
-					["message"] = "0 days, 0 hours, 27 minutes, 42 seconds",
-					["timestamp"] = 30456.458,
-				}, -- [118]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 30456.458,
-				}, -- [119]
-				{
-					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
-					["timestamp"] = 30444.161,
-				}, -- [120]
-				{
-					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
-					["timestamp"] = 30444.161,
-				}, -- [121]
-				{
-					["message"] = "Maekor Overpower Alert loaded.",
-					["timestamp"] = 30444.161,
-				}, -- [122]
-				{
-					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
-					["timestamp"] = 30444.161,
-				}, -- [123]
-				{
-					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
-					["timestamp"] = 30444.161,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:49]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
-					["timestamp"] = 30444.161,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:53]|h|r Guild Message of the Day: Join discord and register your chosen professions. Afterlife Server: Whitemane. See guild info tab. <[O.o]><[KK]>",
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 30456.151,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:53]|h|r |cff33ff99Gnosis|r: Gnosis v5.07 (v5.09) loaded (enabled)",
-					["timestamp"] = 30456.458,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[16:15:53]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
-					["timestamp"] = 30456.458,
-				}, -- [128]
+				}, -- [112]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],

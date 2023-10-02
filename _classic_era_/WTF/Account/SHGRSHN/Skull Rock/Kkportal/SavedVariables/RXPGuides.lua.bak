@@ -1,18 +1,319 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		[6] = {
-		},
-		["tip"] = {
+		[155] = {
 		},
 	},
-	["currentStep"] = 6,
+	["currentStep"] = 155,
 	["questObjectivesCache"] = {
-		[788] = {
+		[0] = 38,
+		[354] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Gregor's Remains: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Nissa's Remains: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Thurman's Remains: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[356] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Bleeding Horror slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Wandering Spirit slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[357] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "The Lich's Spellbook: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[3902] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenged Goods: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5441] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Peons Awoken: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[362] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Devlin's Remains: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[426] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Notched Rib: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Blackened Skull: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[427] = {
 			{
 				["type"] = "monster",
 				["numRequired"] = 10,
-				["text"] = "Mottled Boar slain: 0/10",
+				["text"] = "Scarlet Warrior slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[365] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Tirisfal Pumpkin: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[367] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Darkhound Blood: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[368] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Vile Fin Scale: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[369] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 4,
+				["text"] = "Vicious Night Web Spider Venom: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[370] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 1,
+				["text"] = "Captain Perrine slain: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 3,
+				["text"] = "Scarlet Zealot slain: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "monster",
+				["numRequired"] = 3,
+				["text"] = "Scarlet Missionary slain: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[371] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 1,
+				["text"] = "Captain Vachon slain: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Scarlet Friar slain: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[372] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 1,
+				["text"] = "Captain Melrache slain: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 2,
+				["text"] = "Scarlet Bodyguard slain: 0/2",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[4641] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[374] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Scarlet Insignia Ring: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[375] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Duskbat Pelt: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Coarse Thread: 1/1",
+				["finished"] = true,
+				["numFulfilled"] = 1,
+			}, -- [2]
+		},
+		[376] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenger Paw: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Duskbat Wing: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[380] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 6,
+				["text"] = "Young Night Web Spider slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Night Web Spider slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[381] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 12,
+				["text"] = "Scarlet Armband: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[382] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Scarlet Crusade Documents: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[1882] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Balnir Snapdragons: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5481] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Gloom Weed: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[6395] = {
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Samuel's Remains Buried: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[398] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Maggot Eye's Paw: 0/1",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -35,16 +336,16 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[6395] = {
+		[404] = {
 			{
-				["type"] = "object",
-				["numRequired"] = 1,
-				["text"] = "Samuel's Remains Buried: 0/1",
+				["type"] = "item",
+				["numRequired"] = 7,
+				["text"] = "Putrid Claw: 0/7",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[4641] = {
+		[1881] = {
 			{
 				["type"] = "event",
 				["numRequired"] = 1,
@@ -53,70 +354,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[4402] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 10,
-				["text"] = "Cactus Apple: 0/10",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
-		[380] = {
+		[409] = {
 			{
 				["type"] = "monster",
-				["numRequired"] = 6,
-				["text"] = "Young Night Web Spider slain: 0/10",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-			{
-				["type"] = "monster",
-				["numRequired"] = 8,
-				["text"] = "Night Web Spider slain: 0/8",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [2]
-		},
-		[3902] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 6,
-				["text"] = "Scavenged Goods: 0/6",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
-		[5441] = {
-			{
-				["type"] = "monster",
-				["numRequired"] = 5,
-				["text"] = "Peons Awoken: 0/5",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
-		[376] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 6,
-				["text"] = "Scavenger Paw: 0/6",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-			{
-				["type"] = "item",
-				["numRequired"] = 6,
-				["text"] = "Duskbat Wing: 0/6",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [2]
-		},
-		[3901] = {
-			{
-				["type"] = "monster",
-				["numRequired"] = 12,
-				["text"] = "Rattlecage Skeleton slain: 0/12",
+				["numRequired"] = 1,
+				["text"] = "Lillith Nefara slain: 0/1",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -127,6 +369,15 @@ RXPCData = {
 				["numRequired"] = 1,
 				["generated"] = true,
 				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[788] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Mottled Boar slain: 0/10",
+				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
@@ -146,32 +397,114 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
-		[0] = 13,
+		[3901] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Rattlecage Skeleton slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5482] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Doom Weed: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[4402] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Cactus Apple: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[358] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Rot Hide Graverobber slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Rot Hide Mongrel slain: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Embalming Ichor: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
 	},
-	["currentGuideGroup"] = "RestedXP Horde 1-22",
+	["currentGuideGroup"] = "Horde 1-22",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
+		[1882] = "The Balnir Farmstead",
 		[788] = "Cutting Teeth",
-		[790] = "Sarkoth",
-		[792] = "Vile Familiars",
-		[4402] = "Galgar's Cactus Apple Surprise",
 		[789] = "Sting of the Scorpid",
-		[5441] = "Lazy Peons",
-		[376] = "The Damned",
+		[426] = "The Mills Overrun",
+		[790] = "Sarkoth",
 		[3902] = "Scavenging Deathknell",
+		[4402] = "Galgar's Cactus Apple Surprise",
+		[5441] = "Lazy Peons",
 		[364] = "The Mindless Ones",
+		[356] = "Rear Guard Patrol",
+		[374] = "Proof of Demise",
+		[368] = "A New Plague",
+		[376] = "The Damned",
 		[3901] = "Rattling the Rattlecages",
+		[361] = "A Letter Undelivered",
+		[369] = "A New Plague",
+		[792] = "Vile Familiars",
+		[354] = "Deaths in the Family",
+		[362] = "The Haunted Mills",
+		[370] = "At War With The Scarlet Crusade",
+		[372] = "At War With The Scarlet Crusade",
 	},
-	["currentGuideName"] = "01-06 Tirisfal Glades",
+	["currentGuideName"] = "01-11 Tirisfal Glades",
 	["stepSkip"] = {
-		true, -- [1]
-		true, -- [2]
-		nil, -- [3]
-		true, -- [4]
-		true, -- [5]
+		[2] = true,
+		[139] = true,
+		[91] = true,
+		[95] = true,
+		[34] = true,
+		[132] = true,
+		[72] = true,
+		[109] = true,
+		[76] = true,
+		[152] = true,
+		[22] = true,
+		[115] = true,
+		[68] = true,
+		[55] = true,
+		[121] = true,
+		[123] = true,
+		[94] = true,
+		[127] = true,
+		[49] = true,
+		[51] = true,
+		[84] = true,
+		[142] = true,
+		[43] = true,
+		[77] = true,
+		[24] = true,
+		[81] = true,
+		[118] = true,
 	},
-	["currentStepId"] = 256773511,
+	["currentStepId"] = 2727677631,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -302,12 +635,12 @@ RXPCTrackingData = {
 					},
 				}, -- [3]
 				{
-					["groupExperience"] = 442,
+					["groupExperience"] = 1443,
 					["deaths"] = 0,
 					["mobs"] = {
 						["Tirisfal Glades"] = {
-							["xp"] = 442,
-							["count"] = 23,
+							["xp"] = 1443,
+							["count"] = 40,
 						},
 					},
 					["timestamp"] = {
@@ -320,11 +653,304 @@ RXPCTrackingData = {
 							["hour"] = 13,
 							["minute"] = 34,
 						},
+						["finished"] = 4706,
+						["dateFinished"] = {
+							["monthDay"] = 8,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 14,
+							["minute"] = 6,
+						},
 						["started"] = 2232,
 					},
 					["quests"] = {
 					},
 				}, -- [4]
+				{
+					["groupExperience"] = 2461,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 616,
+							["count"] = 23,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 8,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 14,
+							["minute"] = 6,
+						},
+						["finished"] = 5816,
+						["dateFinished"] = {
+							["monthDay"] = 8,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 14,
+							["minute"] = 24,
+						},
+						["started"] = 4707,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[380] = 360,
+							[6395] = 450,
+							[382] = 675,
+							[381] = 360,
+						},
+					},
+				}, -- [5]
+				{
+					["groupExperience"] = 2290,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 2540,
+							["count"] = 41,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 8,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 14,
+							["minute"] = 24,
+						},
+						["finished"] = 7382,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 42,
+							["year"] = 2023,
+							["hour"] = 3,
+							["weekday"] = 1,
+						},
+						["started"] = 5817,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[383] = 340,
+							[8] = 110,
+							[5481] = 230,
+							[404] = 410,
+						},
+					},
+				}, -- [6]
+				{
+					["groupExperience"] = 768,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 2272,
+							["count"] = 24,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 42,
+							["year"] = 2023,
+							["hour"] = 3,
+							["weekday"] = 1,
+						},
+						["finished"] = 8196,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 55,
+							["year"] = 2023,
+							["hour"] = 3,
+							["weekday"] = 1,
+						},
+						["started"] = 7383,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[365] = 625,
+							[407] = 160,
+							[427] = 700,
+							[367] = 550,
+						},
+					},
+				}, -- [7]
+				{
+					["groupExperience"] = 1263,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 3160,
+							["count"] = 86,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 55,
+							["year"] = 2023,
+							["hour"] = 3,
+							["weekday"] = 1,
+						},
+						["finished"] = 10211,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 4,
+							["minute"] = 29,
+						},
+						["started"] = 8197,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[5482] = 550,
+							[368] = 775,
+						},
+					},
+				}, -- [8]
+				{
+					["groupExperience"] = 319,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 3659,
+							["count"] = 58,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 4,
+							["minute"] = 29,
+						},
+						["finished"] = 12165,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 17,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 1,
+						},
+						["started"] = 10212,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[398] = 850,
+							[375] = 700,
+							[358] = 700,
+							[354] = 875,
+						},
+					},
+				}, -- [9]
+				{
+					["groupExperience"] = 173,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 3321,
+							["count"] = 41,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 17,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 1,
+						},
+						["finished"] = 15066,
+						["dateFinished"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 16,
+							["minute"] = 7,
+						},
+						["started"] = 12166,
+					},
+					["quests"] = {
+						["Undercity"] = {
+							[405] = 180,
+							[1881] = 85,
+						},
+						["Tirisfal Glades"] = {
+							[374] = 625,
+							[361] = 480,
+							[355] = 85,
+							[426] = 875,
+							[362] = 420,
+							[370] = 775,
+							[359] = 200,
+							[360] = 390,
+						},
+					},
+				}, -- [10]
+				{
+					["groupExperience"] = 3318,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 1308,
+							["count"] = 30,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 24,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 1,
+							["year"] = 2023,
+							["hour"] = 16,
+							["minute"] = 7,
+						},
+						["started"] = 15067,
+					},
+					["quests"] = {
+						["Undercity"] = {
+							[357] = 525,
+							[1882] = 850,
+						},
+						["Tirisfal Glades"] = {
+							[409] = 675,
+							[369] = 220,
+							[356] = 650,
+							[371] = 850,
+							[372] = 900,
+							[492] = 875,
+							[366] = 350,
+						},
+					},
+				}, -- [11]
 			},
 		},
 	},
@@ -337,45 +963,135 @@ RXPCComms = {
 		["Kkportal - Skull Rock"] = {
 			["players"] = {
 				["Bubels"] = {
-					["class"] = "PRIEST",
+					["level"] = 1,
 					["lastSeen"] = 22568.439,
 					["xpPercentage"] = 66,
-					["isRxp"] = true,
+					["class"] = "PRIEST",
 					["timePlayed"] = 133.5689999999995,
-					["level"] = 1,
-				},
-				["Failgasm"] = {
-					["level"] = 12,
-					["class"] = "HUNTER",
-					["lastSeen"] = 32656.714,
-					["timePlayed"] = 117.0800000000018,
 					["isRxp"] = true,
-					["xp"] = 40,
-					["xpPercentage"] = 91,
 				},
-				["Bvss"] = {
-					["class"] = "WARRIOR",
-					["lastSeen"] = 25294.896,
-					["xpPercentage"] = 5,
+				["Turdles"] = {
 					["isRxp"] = true,
-					["timePlayed"] = 1922.541999999998,
-					["level"] = 4,
+					["lastSeen"] = 55337.283,
+					["xpPercentage"] = 32,
+					["level"] = 5,
+					["timePlayed"] = 2426.753000000004,
+					["class"] = "MAGE",
+				},
+				["Elvanng"] = {
+					["timePlayed"] = 86.67900000000009,
+					["class"] = "ROGUE",
+					["xp"] = 55,
+				},
+				["Bloodinfect"] = {
+					["timePlayed"] = 169.4030000000021,
+					["class"] = "WARLOCK",
+					["xp"] = 12,
+				},
+				["Geevus"] = {
+					["timePlayed"] = 713.331000000002,
+					["class"] = "ROGUE",
+					["xp"] = 525,
 				},
 				["Scrapes"] = {
-					["class"] = "WARLOCK",
+					["level"] = 3,
 					["lastSeen"] = 25822.361,
 					["xpPercentage"] = 74,
-					["isRxp"] = true,
+					["class"] = "WARLOCK",
 					["timePlayed"] = 1829.665999999997,
-					["level"] = 3,
+					["isRxp"] = true,
 				},
 				["Marshmello"] = {
-					["class"] = "WARLOCK",
-					["lastSeen"] = 25585.915,
-					["xpPercentage"] = 65,
-					["isRxp"] = true,
-					["timePlayed"] = 1829.665999999997,
 					["level"] = 3,
+					["lastSeen"] = 18615.979,
+					["xpPercentage"] = 65,
+					["class"] = "WARLOCK",
+					["timePlayed"] = 2497.584999999999,
+					["isRxp"] = true,
+				},
+				["Sheugly"] = {
+					["timePlayed"] = 612.1719999999623,
+					["class"] = "WARRIOR",
+					["xp"] = 24,
+				},
+				["Bonespur"] = {
+					["class"] = "WARLOCK",
+					["level"] = 10,
+					["lastSeen"] = 16696.418,
+					["xpPercentage"] = 91,
+					["isRxp"] = true,
+					["xp"] = 48,
+					["timePlayed"] = 43.30500000000029,
+				},
+				["Comacho"] = {
+					["timePlayed"] = 612.1719999999623,
+					["class"] = "WARRIOR",
+					["xp"] = 24,
+				},
+				["戰三世"] = {
+					["timePlayed"] = 243.8389999999781,
+					["class"] = "WARRIOR",
+					["xp"] = 80,
+				},
+				["Fingerlimzee"] = {
+					["timePlayed"] = 612.1719999999623,
+					["class"] = "PRIEST",
+					["xp"] = 24,
+				},
+				["Brainheal"] = {
+					["timePlayed"] = 78.09500000000116,
+					["class"] = "SHAMAN",
+					["xp"] = 13,
+				},
+				["Bvss"] = {
+					["level"] = 4,
+					["lastSeen"] = 25294.896,
+					["xpPercentage"] = 5,
+					["class"] = "WARRIOR",
+					["timePlayed"] = 1922.541999999998,
+					["isRxp"] = true,
+				},
+				["Fiesh"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 9779.146,
+					["xpPercentage"] = 78,
+					["level"] = 5,
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+				},
+				["Failgasm"] = {
+					["class"] = "HUNTER",
+					["level"] = 12,
+					["lastSeen"] = 32656.714,
+					["xpPercentage"] = 91,
+					["isRxp"] = true,
+					["xp"] = 40,
+					["timePlayed"] = 117.0800000000018,
+				},
+				["Steron"] = {
+					["timePlayed"] = 94.79899999999907,
+					["class"] = "PRIEST",
+					["xp"] = 46,
+				},
+			},
+			["announcements"] = {
+				["06-11 Tirisfal Glades"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+				["01-06 Tirisfal Glades"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+				["01-11 Tirisfal Glades"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
 				},
 			},
 		},

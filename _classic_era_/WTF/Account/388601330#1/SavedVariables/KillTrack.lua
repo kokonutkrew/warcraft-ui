@@ -2,34 +2,48 @@
 KILLTRACK = {
 	["LOAD_MESSAGE"] = false,
 	["DATETIME_FORMAT"] = "%Y-%m-%d %H:%M:%S",
-	["TOOLTIP"] = true,
+	["COUNT_GROUP"] = false,
 	["PRINTKILLS"] = false,
 	["SHOW_EXP"] = false,
-	["ACHIEV_THRESHOLD"] = 1000,
+	["TOOLTIP"] = true,
 	["PRINTNEW"] = false,
 	["MOBS"] = {
-		[3124] = {
+		[3100] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Scorpid Worker",
-		},
-		[3102] = {
-			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Felstalker",
+			["Name"] = "Elder Mottled Boar",
 		},
 		[3101] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Vile Familiar",
 		},
+		[3102] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Felstalker",
+		},
+		[3124] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Scorpid Worker",
+		},
 		[2958] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Prairie Wolf",
 		},
+		[3098] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Mottled Boar",
+		},
 	},
-	["DISABLE_RAIDS"] = false,
+	["IMMEDIATE"] = {
+		["THRESHOLD"] = 0,
+		["POSITION"] = {
+		},
+	},
 	["BROKER"] = {
 		["MINIMAP"] = {
 			["hide"] = true,
@@ -37,10 +51,6 @@ KILLTRACK = {
 		["SHORT_TEXT"] = false,
 	},
 	["DISABLE_DUNGEONS"] = false,
-	["IMMEDIATE"] = {
-		["THRESHOLD"] = 0,
-		["POSITION"] = {
-		},
-	},
-	["COUNT_GROUP"] = false,
+	["DISABLE_RAIDS"] = false,
+	["ACHIEV_THRESHOLD"] = 1000,
 }

@@ -1,0 +1,7 @@
+
+PriceAnswerDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Skull Rock"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+	},
+}

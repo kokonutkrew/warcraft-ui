@@ -1,0 +1,1196 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 49517.202,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 91,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
+					["timestamp"] = 49517.202,
+				}, -- [1]
+				{
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 49517.202,
+				}, -- [2]
+				{
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 49517.202,
+				}, -- [3]
+				{
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 49517.202,
+				}, -- [4]
+				{
+					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 49517.202,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:31]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 49517.202,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:33]|h|r [SG] Slave Girl 2.6 loaded.",
+					["r"] = 0.25,
+					["timestamp"] = 49517.202,
+					["g"] = 1,
+					["b"] = 0.25,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:38]|h|r [SG] New player detected. Setting defaults.",
+					["r"] = 1,
+					["timestamp"] = 49533.102,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:38]|h|r |cff33ff99Gnosis|r: Gnosis v5.07 (v5.09) loaded (enabled)",
+					["timestamp"] = 49533.175,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:38]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 49533.175,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:39]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["r"] = 1,
+					["serverTime"] = 1696047595,
+					["timestamp"] = 49533.175,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:40]|h|r Registered character: Farmcraft-SkullRock",
+					["timestamp"] = 49533.175,
+					["serverTime"] = 1696047596,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:41]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1696047597,
+					["timestamp"] = 49533.175,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:41]|h|r You are not in a guild.",
+					["serverTime"] = 1696047597,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49536.34,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:43]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 49538.299,
+					["serverTime"] = 1696047599,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:43]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 49538.299,
+					["serverTime"] = 1696047599,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:43]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 49538.412,
+					["serverTime"] = 1696047599,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:43]|h|r |cff33ff99Questie|r: [Migration] Migrating Questie for v6.0.0",
+					["timestamp"] = 49538.412,
+					["serverTime"] = 1696047599,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:43]|h|r |cff33ff99Questie|r: [Migration] Migrated Questie to v6.0.0 and removed 0 party entries from the Journey",
+					["timestamp"] = 49538.412,
+					["serverTime"] = 1696047599,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:45]|h|r |cFFffff00[Questie]|r The 'Harvest Festival' world event is active!",
+					["timestamp"] = 49539.903,
+					["serverTime"] = 1696047601,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:48]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 49543.185,
+					["serverTime"] = 1696047604,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:19:48]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 49543.185,
+					["serverTime"] = 1696047604,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:21:19]|h|r |cffd8d8d8[|r|Hplayer:Altpank:4186|h|cffa5a5a5Altpank|r|h|cffd8d8d8]|r invites you to join Dumb ways to die.",
+					["serverTime"] = 1696047695,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49634.504,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:31]|h|r |cffd8d8d8[|r|Hplayer:Samoanbeast:4194|h|cffd8d83f1|r:|cffff7c0aSamoanbeast|r|h|cffd8d8d8]|r has invited you to join a group.",
+					["serverTime"] = 1696047767,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49706.371,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:22:33]|h|r Dungeon difficulty set to Normal",
+					["serverTime"] = 1696047769,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49708.636,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:23:33]|h|r You receive item: |cffffffff|Hitem:7626::::::::1:::::::::|h[Bundle of Furs]|h|r.",
+					["serverTime"] = 1696047829,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49768.495,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:23:33]|h|r Quest accepted: A Task Unfinished",
+					["serverTime"] = 1696047829,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49768.529,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:24:41]|h|r [SG] You are now taking orders from Samoanbeast.",
+					["r"] = 0.25,
+					["serverTime"] = 1696047897,
+					["timestamp"] = 49836.711,
+					["g"] = 1,
+					["b"] = 0.25,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:24:45]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Sleepyhed-SkullRock:4212:PARTY|h|cffd8d83f2|r:|cff8787edSleepyhed|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 2 to 3 in 12 minutes 19 seconds",
+					["serverTime"] = 1696047901,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49840.337,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:25:52]|h|r Dalorath has reached level 60!",
+					["serverTime"] = 1696047968,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 49907.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:27:30]|h|r |cffd8d8d8[|r|Hplayer:Neohart:4239|h|cffa5a5a5Neohart|r|h|cffd8d8d8]|r invites you to join Lords of the Locker Room.",
+					["serverTime"] = 1696048066,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50004.895,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:08]|h|r Discovered Bloodhoof Village: 45 experience gained",
+					["serverTime"] = 1696048104,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50043.662,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:33]|h|r Your Thunder Bluff reputation has increased by 25.",
+					["serverTime"] = 1696048129,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50068.123,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:33]|h|r You receive item: |cffffffff|Hitem:159::::::::1:::::::::|h[Refreshing Spring Water]|h|rx5.",
+					["serverTime"] = 1696048129,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50068.123,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:33]|h|r A Task Unfinished completed.",
+					["serverTime"] = 1696048129,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50068.157,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:33]|h|r Experience gained: 110.",
+					["serverTime"] = 1696048129,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50068.157,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:33]|h|r |cff33ff99FarmingBar|r: |cffffcc00Farming update:|r Refreshing Spring Water x7|r (|cff00ff00+5|r)",
+					["timestamp"] = 50068.257,
+					["serverTime"] = 1696048129,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:37]|h|r Bloodhoof Village is now your home.",
+					["serverTime"] = 1696048133,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50072.368,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:28:42]|h|r Your character jumped.",
+					["timestamp"] = 50076.929,
+					["serverTime"] = 1696048138,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:29:08]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Darkestork-SkullRock:4270:PARTY|h|cffd8d83f2|r:|cff8787edDarkestork|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 2 to 3 in 13 minutes 0 seconds",
+					["serverTime"] = 1696048164,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						5, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50103.539,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:29:33]|h|r Your character jumped.",
+					["timestamp"] = 50128.623,
+					["serverTime"] = 1696048189,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:29:36]|h|r Your character jumped.",
+					["timestamp"] = 50131.023,
+					["serverTime"] = 1696048192,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:30:03]|h|r Your character jumped.",
+					["timestamp"] = 50157.97,
+					["serverTime"] = 1696048219,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:30:04]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warriorss-SkullRock:4274:PARTY|h|cffd8d83f1|r:|cff8787edWarriorss|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Questie : 10/10 Mottled Boar for |Hquestie:788:Player-5099-01B3DD17|h|cFFFFFF00[|r|cFFFFFF00[2] Cutting Teeth|r|cFFFFFF00]|r|h!",
+					["serverTime"] = 1696048220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						5, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50159.321,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:30:05]|h|r Your character jumped.",
+					["timestamp"] = 50160.239,
+					["serverTime"] = 1696048221,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:30:07]|h|r Your character jumped.",
+					["timestamp"] = 50161.828,
+					["serverTime"] = 1696048223,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:31:35]|h|r Your character jumped.",
+					["timestamp"] = 50250.626,
+					["serverTime"] = 1696048311,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:31:37]|h|r Your character jumped.",
+					["timestamp"] = 50251.876,
+					["serverTime"] = 1696048313,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:31:38]|h|r Your character jumped.",
+					["timestamp"] = 50253.492,
+					["serverTime"] = 1696048314,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:31:40]|h|r Your character jumped.",
+					["timestamp"] = 50254.976,
+					["serverTime"] = 1696048316,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:32:15]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Sleepyhed-SkullRock:4326:PARTY|h|cffd8d83f3|r:|cff8787edSleepyhed|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Questie : 6/6 Vile Familiar Head for |Hquestie:1485:Player-5099-01B3D9CF|h|cFFFF8040[|r|cFFFF8040[4] Vile Familiars|r|cFFFF8040]|r|h!",
+					["serverTime"] = 1696048351,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50289.96900000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:33:55]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warriorss-SkullRock:4338:PARTY|h|cffd8d83f1|r:|cff8787edWarriorss|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 1 to 2 in 14 minutes 53 seconds",
+					["serverTime"] = 1696048451,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						5, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50389.984,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:34:07]|h|r |Hplayer:Flirting:0:TEXT_EMOTE:|hFlirting|h flirts with Samoanbeast.",
+					["serverTime"] = 1696048463,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50402.751,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:34:09]|h|r |Hplayer:Flirting:0:TEXT_EMOTE:|hFlirting|h flirts with you.",
+					["serverTime"] = 1696048465,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50404.518,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:34:11]|h|r |Hplayer:Samoanbeast:0:TEXT_EMOTE:|hSamoanbeast|h waves at Flirting.",
+					["serverTime"] = 1696048467,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						11, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50406.284,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:34:23]|h|r [S] |cffd8d8d8[|r|Hplayer:Samoanbeast-SkullRock:4339:SAY|h|cffd8d83f1|r:|cffff7c0aSamoanbeast|r|h|cffd8d8d8]|r: on our way to durotar",
+					["serverTime"] = 1696048479,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50417.951,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:34:29]|h|r [S] |cffd8d8d8[|r|Hplayer:Samoanbeast-SkullRock:4340:SAY|h|cffd8d83f1|r:|cffff7c0aSamoanbeast|r|h|cffd8d8d8]|r: hopefully we dont die again lol",
+					["serverTime"] = 1696048485,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50424.051,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:34:29]|h|r [S] |cffd8d8d8[|r|Hplayer:Flirting-SkullRock:4341:SAY|h|cff0070ddFlirting|r|h|cffd8d8d8]|r: gl!",
+					["serverTime"] = 1696048485,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						14, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50424.651,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:12]|h|r RestedXP Guides: A macro has been automatically built to aid in leveling. Please move RXPTargeting to your action bars.",
+					["timestamp"] = 50467.369,
+					["serverTime"] = 1696048528,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:15]|h|r |Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. General - The Barrens]|h",
+					["serverTime"] = 1696048531,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50470.002,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:15]|h|r |Hchannel:channel:4|h[4] |h Changed Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - The Barrens]|h",
+					["serverTime"] = 1696048531,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50470.002,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bullystik:4349:CHANNEL:2|h|cffff7c0aBullystik|r|h|cffd8d8d8]|r: LF Healer for cweam",
+					["serverTime"] = 1696048542,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50481.069,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:41]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Freemelk:4354:CHANNEL:2|h|cffff7c0aFreemelk|r|h|cffd8d8d8]|r: then gtg",
+					["serverTime"] = 1696048557,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50496.368,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bullystik-SkullRock:4355:CHANNEL:2|h|cffff7c0aBullystik|r|h|cffd8d8d8]|r: cweam sesh",
+					["serverTime"] = 1696048568,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50507.435,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:35:53]|h|r Discovered Camp Taurajo: 55 experience gained",
+					["serverTime"] = 1696048569,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50508.102,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:05]|h|r Camp Taurajo, The Barrens was added to your collection!",
+					["timestamp"] = 50520.661,
+					["serverTime"] = 1696048581,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Freemelk-SkullRock:4359:CHANNEL:2|h|cffff7c0aFreemelk|r|h|cffd8d8d8]|r: also need dps",
+					["serverTime"] = 1696048588,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50527.086,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Freemelk-SkullRock:4360:CHANNEL:2|h|cffff7c0aFreemelk|r|h|cffd8d8d8]|r: damage for cweam",
+					["serverTime"] = 1696048595,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50534.619,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arboles:4363:CHANNEL:2|h|cff0070ddArboles|r|h|cffd8d8d8]|r: i wove ice cweam",
+					["serverTime"] = 1696048598,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50537.052,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bullystik-SkullRock:4364:CHANNEL:2|h|cffff7c0aBullystik|r|h|cffd8d8d8]|r: I wove udder cweam",
+					["serverTime"] = 1696048620,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50558.886,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Khabinda-SkullRock:4365:CHANNEL:2|h|cffc69b6dKhabinda|r|h|cffd8d8d8]|r: |Hquestie:873:Player-5099-01B13486|h|cFFFF1A1A[|r|cFFFF1A1A[27] Isha Awak|r|cFFFF1A1A]|r|h??",
+					["serverTime"] = 1696048622,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50561.552,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:36:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Freemelk-SkullRock:4366:CHANNEL:2|h|cffff7c0aFreemelk|r|h|cffd8d8d8]|r: i got fwee cewam",
+					["serverTime"] = 1696048633,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50571.852,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:37:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Freemelk-SkullRock:4367:CHANNEL:2|h|cffff7c0aFreemelk|r|h|cffd8d8d8]|r: cweam*",
+					["serverTime"] = 1696048638,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50577.419,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:37:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cuatropalos:4368:CHANNEL:2|h|cff0070ddCuatropalos|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000k need healer, carry group",
+					["serverTime"] = 1696048655,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50593.852,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:37:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Theshamysham-SkullRock:4369:CHANNEL:2|h|cff0070ddTheshamysham|r|h|cffd8d8d8]|r: anyone doing couterattack?",
+					["serverTime"] = 1696048656,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50595.152,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:37:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Inart-SkullRock:4370:CHANNEL:2|h|cffff7c0aInart|r|h|cffd8d8d8]|r: LFM for counter attack",
+					["serverTime"] = 1696048661,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50600.619,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:38:02]|h|r Buu has reached level 60!",
+					["serverTime"] = 1696048698,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50637.71900000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:38:44]|h|r RestedXP Guides: All matches expired",
+					["timestamp"] = 50679.286,
+					["serverTime"] = 1696048740,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:30]|h|r RestedXP Guides: All matches expired",
+					["timestamp"] = 50724.886,
+					["serverTime"] = 1696048786,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:42]|h|r |cffff7c0aSamoanbeast|r has died.",
+					["serverTime"] = 1696048798,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50736.919,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:44]|h|r RestedXP Guides: Rare Found! Aean Swiftriver is nearby.",
+					["timestamp"] = 50739.552,
+					["serverTime"] = 1696048800,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:44]|h|r RestedXP Guides: Rare Found! Marcus Bel is nearby.",
+					["timestamp"] = 50739.552,
+					["serverTime"] = 1696048800,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:45]|h|r RestedXP Guides: Rare Found! Hannah Bladeleaf is nearby.",
+					["timestamp"] = 50740.636,
+					["serverTime"] = 1696048801,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:45]|h|r RestedXP Guides: Rare Found! Thora Feathermoon is nearby.",
+					["timestamp"] = 50740.636,
+					["serverTime"] = 1696048801,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:46]|h|r Interface action failed because of an AddOn",
+					["serverTime"] = 1696048802,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 50741.053,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:50]|h|r Your skill in Defense has increased to 2.",
+					["serverTime"] = 1696048806,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						37, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50745.014,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:39:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cuatropalos-SkullRock:4409:CHANNEL:2|h|cff0070ddCuatropalos|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000k need healer, carry group",
+					["serverTime"] = 1696048811,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50750.245,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:05]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Neonjames-SkullRock:4410:CHANNEL:2|h|cff0070ddNeonjames|r|h|cffd8d8d8]|r: lf tank wc: guild group",
+					["serverTime"] = 1696048821,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50760.222,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:51]|h|r RestedXP Guides: All matches expired",
+					["timestamp"] = 50805.861,
+					["serverTime"] = 1696048867,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:52]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - The Barrens]|h",
+					["serverTime"] = 1696048868,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50806.931,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:40:52]|h|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - The Barrens]|h",
+					["serverTime"] = 1696048868,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 50806.931,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

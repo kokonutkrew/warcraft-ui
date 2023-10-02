@@ -120,3 +120,4 @@ ClassicLootManager: disabled
 Guildbook_ClassicEra: enabled
 LibDBIcon-1.0: disabled
 Myslot: disabled
+PriceAnswer: disabled

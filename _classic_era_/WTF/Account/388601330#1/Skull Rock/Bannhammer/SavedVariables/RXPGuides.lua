@@ -1,23 +1,10 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		{
-		}, -- [1]
-		["tip"] = {
-		},
 	},
 	["currentStep"] = 1,
 	["questObjectivesCache"] = {
 		[0] = 3,
-		[753] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 1,
-				["text"] = "Water Pitcher: 0/1",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
 		[750] = {
 			{
 				["type"] = "item",
@@ -43,20 +30,28 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
+		[753] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Water Pitcher: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
 	},
-	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
+	["currentGuideGroup"] = "",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
 		[752] = "A Humble Task",
-		[747] = "The Hunt Begins",
 		[753] = "A Humble Task",
 		[750] = "The Hunt Continues",
+		[747] = "The Hunt Begins",
 	},
-	["currentGuideName"] = "01-06 Tauren",
+	["currentGuideName"] = "",
 	["stepSkip"] = {
 	},
-	["currentStepId"] = 2799834337,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {

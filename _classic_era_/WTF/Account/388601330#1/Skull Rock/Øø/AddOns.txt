@@ -26,7 +26,7 @@ AtlasLootClassic_Data: disabled
 AtlasLootClassic_DungeonsAndRaids: disabled
 AtlasLootClassic_Factions: disabled
 AtlasLootClassic_PvP: disabled
-Auctionator: disabled
+Auctionator: enabled
 AutoEquipQuestItem: disabled
 AutoOpenItems: disabled
 AutoOpenItemsSettings: disabled

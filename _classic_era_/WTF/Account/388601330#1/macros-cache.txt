@@ -1,6 +1,9 @@
 VER 3 0000000000000088 "/1 guild" "134400"
 /1 The <[O.o]><[KK]> Crafting Guild! Active. Non-toxic. Discord community! [KK]
 END
+VER 3 000000000000008A "/2 summon" "134400"
+/3 [Summon] WTS Summons to Org, pst now
+END
 VER 3 0000000000000037 "/d reload" "134414"
 #show hearthstone
 /reload
@@ -227,12 +230,14 @@ VER 3 0000000000000061 "rougeSap" "INV_Misc_QuestionMark"
 /cast Pick Pocket
 END
 VER 3 0000000000000062 "RXPTargeting" "132150"
-/targetexact Arra'chea
-/targetexact Galak Outrunner
-/targetexact Supervisor Fizsprocket
-/targetexact Sister Hatelash
-/targetexact Galak Centaur
-/targetexact Grull Hawkwind
+/targetexact Zalazane
+/targetexact Felweaver Scornn
+/targetexact Makasgar
+/targetexact Captain Flat Tusk
+/targetexact Voodoo Trolls
+/targetexact Dustwind Storm Witch
+/targetexact Fizzle Darkstorm
+/targetexact Nartok
 /targetlasttarget [dead]
 END
 VER 3 0000000000000063 "test" "134400"

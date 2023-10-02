@@ -76,6 +76,13 @@ CoreProfileDB = {
 				["showStartupMessageCommsChanges"] = false,
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+				["showStartupMessageClassic"] = false,
+				["showStartupMessage2000"] = false,
+				["showStartupMessageCommsChanges"] = false,
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 				["showStartupMessageClassic"] = false,
@@ -84,13 +91,6 @@ CoreProfileDB = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-				["showStartupMessageClassic"] = false,
-				["showStartupMessage2000"] = false,
-				["showStartupMessageCommsChanges"] = false,
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 				["showStartupMessageClassic"] = false,
 				["showStartupMessage2000"] = false,
@@ -116,6 +116,7 @@ CommunicationsProfileDB = {
 		["Dd - Grobbulus"] = "Dd - Grobbulus",
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
 		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
+		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
 		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
 		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
@@ -148,6 +149,8 @@ CommunicationsProfileDB = {
 		["Samoanranger - Defias Pillager"] = {
 		},
 		["Samoanmystic - Grobbulus"] = {
+		},
+		["Kkbank - Whitemane"] = {
 		},
 		["Bannhammer - Skull Rock"] = {
 		},
@@ -206,6 +209,7 @@ TeamProfileDB = {
 			["lootSetMasterLooter"] = true,
 			["global"] = {
 			},
+			["masterChangeClickToMove"] = true,
 			["newTeamList"] = {
 				["Marshmellow-Grobbulus"] = {
 					{
@@ -256,7 +260,6 @@ TeamProfileDB = {
 					}, -- [1]
 				},
 			},
-			["masterChangeClickToMove"] = true,
 			["lootSlavesOptOutOfLoot"] = true,
 			["lootSetFreeForAll"] = false,
 		},
@@ -641,6 +644,97 @@ TeamProfileDB = {
 			["lootSlavesOptOutOfLoot"] = true,
 			["lootSetFreeForAll"] = false,
 		},
+		["Samoansavage - Grobbulus"] = {
+			["lootSetAutomatically"] = true,
+			["master"] = "Marshmellow-Grobbulus",
+			["lootSetMasterLooter"] = true,
+			["lootSetFreeForAll"] = false,
+			["newTeamList"] = {
+				["Marshmellow-Grobbulus"] = {
+					{
+						["order"] = 2,
+						["class"] = "MAGE",
+						["name"] = "Marshmellow-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoansage-Grobbulus"] = {
+					{
+						["order"] = 9,
+						["class"] = "SHAMAN",
+						["name"] = "Samoansage-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanmystic-Grobbulus"] = {
+					{
+						["order"] = 3,
+						["class"] = "MAGE",
+						["name"] = "Samoanmystic-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanbeast-Grobbulus"] = {
+					{
+						["order"] = 4,
+						["class"] = "DRUID",
+						["name"] = "Samoanbeast-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanranger-Grobbulus"] = {
+					{
+						["order"] = 7,
+						["class"] = "HUNTER",
+						["name"] = "Samoanranger-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanrelic-Grobbulus"] = {
+					{
+						["order"] = 8,
+						["class"] = "PRIEST",
+						["name"] = "Samoanrelic-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoansavage-Grobbulus"] = {
+					{
+						["order"] = 10,
+						["class"] = "ROGUE",
+						["name"] = "Samoansavage-Grobbulus",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Tigerlilly-Grobbulus"] = {
+					{
+						["order"] = 5,
+						["class"] = "HUNTER",
+						["name"] = "Tigerlilly-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanslayer-Grobbulus"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanlegend-Grobbulus"] = {
+					{
+						["order"] = 6,
+						["class"] = "WARLOCK",
+						["name"] = "Samoanlegend-Grobbulus",
+						["online"] = false,
+					}, -- [1]
+				},
+			},
+			["lootSlavesOptOutOfLoot"] = true,
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["lootSetAutomatically"] = true,
 			["master"] = "Marshmellow-Grobbulus",
@@ -775,97 +869,6 @@ TeamProfileDB = {
 						["order"] = 4,
 						["class"] = "DRUID",
 						["name"] = "Samoanbeast-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-			},
-			["lootSlavesOptOutOfLoot"] = true,
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
-			["lootSetAutomatically"] = true,
-			["master"] = "Marshmellow-Grobbulus",
-			["lootSetMasterLooter"] = true,
-			["lootSetFreeForAll"] = false,
-			["newTeamList"] = {
-				["Marshmellow-Grobbulus"] = {
-					{
-						["order"] = 2,
-						["class"] = "MAGE",
-						["name"] = "Marshmellow-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoansage-Grobbulus"] = {
-					{
-						["order"] = 9,
-						["class"] = "SHAMAN",
-						["name"] = "Samoansage-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanmystic-Grobbulus"] = {
-					{
-						["order"] = 3,
-						["class"] = "MAGE",
-						["name"] = "Samoanmystic-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanbeast-Grobbulus"] = {
-					{
-						["order"] = 4,
-						["class"] = "DRUID",
-						["name"] = "Samoanbeast-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanranger-Grobbulus"] = {
-					{
-						["order"] = 7,
-						["class"] = "HUNTER",
-						["name"] = "Samoanranger-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanrelic-Grobbulus"] = {
-					{
-						["order"] = 8,
-						["class"] = "PRIEST",
-						["name"] = "Samoanrelic-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoansavage-Grobbulus"] = {
-					{
-						["order"] = 10,
-						["class"] = "ROGUE",
-						["name"] = "Samoansavage-Grobbulus",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Tigerlilly-Grobbulus"] = {
-					{
-						["order"] = 5,
-						["class"] = "HUNTER",
-						["name"] = "Tigerlilly-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanslayer-Grobbulus"] = {
-					{
-						["order"] = 1,
-						["class"] = "WARRIOR",
-						["name"] = "Samoanslayer-Grobbulus",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanlegend-Grobbulus"] = {
-					{
-						["order"] = 6,
-						["class"] = "WARLOCK",
-						["name"] = "Samoanlegend-Grobbulus",
 						["online"] = false,
 					}, -- [1]
 				},
@@ -1255,6 +1258,66 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["tagList"] = {
+				["Marshmellow-Grobbulus"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoansage-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanmystic-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanbeast-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanranger-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrelic-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoansavage-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Tigerlilly-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanslayer-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanlegend-Grobbulus"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["tagList"] = {
 				["Tigerlilly-Grobbulus"] = {
@@ -1334,66 +1397,6 @@ TagProfileDB = {
 					"minion", -- [2]
 				},
 				["Samoanbeast-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-			},
-			["groupList"] = {
-				"all", -- [1]
-				"druid", -- [2]
-				"hunter", -- [3]
-				"mage", -- [4]
-				"master", -- [5]
-				"minion", -- [6]
-				"paladin", -- [7]
-				"priest", -- [8]
-				"rogue", -- [9]
-				"shaman", -- [10]
-				"warlock", -- [11]
-				"warrior", -- [12]
-			},
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
-			["tagList"] = {
-				["Marshmellow-Grobbulus"] = {
-					"all", -- [1]
-					"master", -- [2]
-				},
-				["Samoansage-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoanmystic-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoanbeast-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoanranger-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoanrelic-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoansavage-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Tigerlilly-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoanslayer-Grobbulus"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoanlegend-Grobbulus"] = {
 					"all", -- [1]
 					"minion", -- [2]
 				},
@@ -1549,6 +1552,20 @@ MessageProfileDB = {
 				}, -- [2]
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+			["areas"] = {
+				{
+					["soundToPlay"] = "",
+					["type"] = 3,
+				}, -- [1]
+				{
+					["soundToPlay"] = "",
+					["type"] = 3,
+				}, -- [2]
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
@@ -1564,20 +1581,6 @@ MessageProfileDB = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-			["areas"] = {
-				{
-					["soundToPlay"] = "",
-					["type"] = 3,
-				}, -- [1]
-				{
-					["soundToPlay"] = "",
-					["type"] = 3,
-				}, -- [2]
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 			["areas"] = {
@@ -1645,15 +1648,15 @@ CurrProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -1752,6 +1755,16 @@ DisplayTeamProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["backgroundStyle"] = "None",
+			["showFollowStatus"] = false,
+			["borderStyle"] = "None",
+			["experienceStatusShowPercentage"] = false,
+			["followStatusWidth"] = 84,
+			["experienceStatusShowValues"] = true,
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["backgroundStyle"] = "None",
 			["showFollowStatus"] = false,
@@ -1763,16 +1776,6 @@ DisplayTeamProfileDB = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["backgroundStyle"] = "None",
-			["showFollowStatus"] = false,
-			["borderStyle"] = "None",
-			["experienceStatusShowPercentage"] = false,
-			["followStatusWidth"] = 84,
-			["experienceStatusShowValues"] = true,
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["backgroundStyle"] = "None",
 			["showFollowStatus"] = false,
 			["borderStyle"] = "None",
@@ -1865,6 +1868,15 @@ FollowProfileDB = {
 			["strobePauseIfDrinking"] = true,
 			["useFollowMaster"] = true,
 		},
+		["Samoansavage - Grobbulus"] = {
+			["autoFollowAfterCombat"] = true,
+			["overrideStrobeTargetWithMaster"] = true,
+			["global"] = {
+			},
+			["followMaster"] = 5,
+			["strobePauseIfDrinking"] = true,
+			["useFollowMaster"] = true,
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["overrideStrobeTargetWithMaster"] = true,
 			["global"] = {
@@ -1874,15 +1886,6 @@ FollowProfileDB = {
 			["useFollowMaster"] = true,
 		},
 		["Samoanranger - Grobbulus"] = {
-			["overrideStrobeTargetWithMaster"] = true,
-			["global"] = {
-			},
-			["followMaster"] = 5,
-			["strobePauseIfDrinking"] = true,
-			["useFollowMaster"] = true,
-		},
-		["Samoansavage - Grobbulus"] = {
-			["autoFollowAfterCombat"] = true,
 			["overrideStrobeTargetWithMaster"] = true,
 			["global"] = {
 			},
@@ -1945,15 +1948,15 @@ InteractionProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -1980,7 +1983,6 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanraja - Grobbulus"] = {
-			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2065,6 +2067,7 @@ ItemUseProfileDB = {
 			},
 			["global"] = {
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["KokonutKrew"] = {
 			["backgroundStyle"] = "None",
@@ -2358,7 +2361,6 @@ ItemUseProfileDB = {
 			["numberOfRows"] = 1,
 		},
 		["Kk - Grobbulus"] = {
-			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2443,6 +2445,7 @@ ItemUseProfileDB = {
 			},
 			["global"] = {
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["Samoanbeast - Grobbulus"] = {
 			["backgroundStyle"] = "None",
@@ -2735,6 +2738,103 @@ ItemUseProfileDB = {
 			["frameYOffset"] = 146.641876220703,
 			["numberOfRows"] = 1,
 		},
+		["Samoansavage - Grobbulus"] = {
+			["backgroundStyle"] = "None",
+			["itemUseScale"] = 0.5,
+			["itemsAdvanced"] = {
+				{
+					["action"] = 5505,
+					["kind"] = "spell",
+				}, -- [1]
+				{
+					["action"] = "item:17191",
+					["kind"] = "item",
+				}, -- [2]
+				{
+					["action"] = "item:19858",
+					["kind"] = "item",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["frameXOffset"] = 372.261199951172,
+			["itemUseTitleHeight"] = 2,
+			["autoAddSatchelsItemsToBar"] = true,
+			["framePoint"] = "BOTTOMLEFT",
+			["borderStyle"] = "None",
+			["frameYOffset"] = 146.641876220703,
+			["frameRelativePoint"] = "BOTTOMLEFT",
+			["numberOfItems"] = 3,
+			["global"] = {
+			},
+			["numberOfRows"] = 1,
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["backgroundStyle"] = "None",
 			["frameYOffset"] = 146.641876220703,
@@ -2929,105 +3029,7 @@ ItemUseProfileDB = {
 			["itemUseScale"] = 0.5,
 			["numberOfRows"] = 1,
 		},
-		["Samoansavage - Grobbulus"] = {
-			["backgroundStyle"] = "None",
-			["itemUseScale"] = 0.5,
-			["itemsAdvanced"] = {
-				{
-					["action"] = 5505,
-					["kind"] = "spell",
-				}, -- [1]
-				{
-					["action"] = "item:17191",
-					["kind"] = "item",
-				}, -- [2]
-				{
-					["action"] = "item:19858",
-					["kind"] = "item",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["frameXOffset"] = 372.261199951172,
-			["itemUseTitleHeight"] = 2,
-			["autoAddSatchelsItemsToBar"] = true,
-			["framePoint"] = "BOTTOMLEFT",
-			["borderStyle"] = "None",
-			["frameYOffset"] = 146.641876220703,
-			["frameRelativePoint"] = "BOTTOMLEFT",
-			["numberOfItems"] = 3,
-			["global"] = {
-			},
-			["numberOfRows"] = 1,
-		},
 		["Dd - Grobbulus"] = {
-			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -3112,6 +3114,7 @@ ItemUseProfileDB = {
 			},
 			["global"] = {
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 	},
 }
@@ -3163,15 +3166,15 @@ PurchaseProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -3229,15 +3232,15 @@ QuestProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -3280,11 +3283,11 @@ QuestWatcherProfileDB = {
 			["enableQuestWatcher"] = false,
 		},
 		["Samoanlegend - Grobbulus"] = {
-			["watcherFrameYOffset"] = 0,
 			["watcherFrameRelativePoint"] = "TOPRIGHT",
+			["watcherFrameYOffset"] = 0,
+			["watcherFramePoint"] = "TOPRIGHT",
 			["global"] = {
 			},
-			["watcherFramePoint"] = "TOPRIGHT",
 		},
 		["Kk - Grobbulus"] = {
 			["global"] = {
@@ -3308,6 +3311,12 @@ QuestWatcherProfileDB = {
 			},
 			["enableQuestWatcher"] = false,
 		},
+		["Samoansavage - Grobbulus"] = {
+			["watcherFrameYOffset"] = 32.7285118103027,
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["watcherFrameYOffset"] = 32.7285118103027,
 			["global"] = {
@@ -3315,12 +3324,6 @@ QuestWatcherProfileDB = {
 			["enableQuestWatcher"] = false,
 		},
 		["Samoanranger - Grobbulus"] = {
-			["watcherFrameYOffset"] = 32.7285118103027,
-			["global"] = {
-			},
-			["enableQuestWatcher"] = false,
-		},
-		["Samoansavage - Grobbulus"] = {
 			["watcherFrameYOffset"] = 32.7285118103027,
 			["global"] = {
 			},
@@ -3380,15 +3383,15 @@ SellProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -3446,15 +3449,15 @@ TalkProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -3517,6 +3520,11 @@ BankProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["globalBankdList"] = false,
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
@@ -3526,11 +3534,6 @@ BankProfileDB = {
 			["global"] = {
 			},
 			["globalBankdList"] = false,
-		},
-		["Samoansavage - Grobbulus"] = {
-			["globalBankdList"] = false,
-			["global"] = {
-			},
 		},
 		["Dd - Grobbulus"] = {
 			["global"] = {
@@ -3592,17 +3595,17 @@ ToonProfileDB = {
 			},
 			["autoAcceptResurrectRequest"] = false,
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+			["autoAcceptResurrectRequest"] = false,
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 			["autoAcceptResurrectRequest"] = false,
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-			["autoAcceptResurrectRequest"] = false,
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 			["autoAcceptResurrectRequest"] = false,
@@ -3661,15 +3664,15 @@ TradeProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -3727,15 +3730,15 @@ MailProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},
@@ -3793,15 +3796,15 @@ ISBoxerProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoansavage - Grobbulus"] = {
+			["global"] = {
+			},
+		},
 		["Samoanrelic - Grobbulus"] = {
 			["global"] = {
 			},
 		},
 		["Samoanranger - Grobbulus"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Grobbulus"] = {
 			["global"] = {
 			},
 		},

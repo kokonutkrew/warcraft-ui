@@ -1,0 +1,79 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		{
+		}, -- [1]
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[0] = 1,
+		[363] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+	},
+	["currentGuideGroup"] = "Horde 1-22",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+	},
+	["currentGuideName"] = "01-11 Tirisfal Glades",
+	["stepSkip"] = {
+	},
+	["currentStepId"] = 2727676521,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
+	},
+	["profiles"] = {
+		["Fiesh - Pagle"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 104,
+							["count"] = 2,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 42,
+							["year"] = 2023,
+							["hour"] = 22,
+							["weekday"] = 3,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[363] = 40,
+						},
+					},
+				}, -- [1]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
+	},
+	["profiles"] = {
+		["Fiesh - Pagle"] = {
+		},
+	},
+}
+RXPCSettings = nil

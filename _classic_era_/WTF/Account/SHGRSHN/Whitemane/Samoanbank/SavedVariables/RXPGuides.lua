@@ -1,10 +1,8 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		[54] = {
-		},
 	},
-	["currentStep"] = 54,
+	["currentStep"] = 1,
 	["questObjectivesCache"] = {
 		[771] = {
 			{
@@ -202,11 +200,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [4]
 		},
-		[870] = {
+		[1498] = {
 			{
-				["type"] = "event",
-				["numRequired"] = 1,
-				["text"] = "Explore the waters of the Forgotten Pools",
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Singed Scale: 0/5",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -229,15 +227,7 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[833] = {
-			{
-				["type"] = "monster",
-				["numRequired"] = 8,
-				["text"] = "Bristleback Interloper slain: 0/8",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
+		[0] = 21,
 		[754] = {
 			{
 				["type"] = "event",
@@ -247,7 +237,15 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[0] = 21,
+		[833] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Bristleback Interloper slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
 		[848] = {
 			{
 				["type"] = "item",
@@ -257,21 +255,21 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[1498] = {
+		[870] = {
 			{
-				["type"] = "item",
-				["numRequired"] = 5,
-				["text"] = "Singed Scale: 0/5",
+				["type"] = "event",
+				["numRequired"] = 1,
+				["text"] = "Explore the waters of the Forgotten Pools",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
 	},
-	["currentGuideGroup"] = "RestedXP Horde 1-22",
+	["currentGuideGroup"] = "",
 	["flightPaths"] = {
 		[77] = "Camp Taurajo, The Barrens",
-		[25] = "Crossroads, The Barrens",
 		[22] = "Thunder Bluff, Mulgore",
+		[25] = "Crossroads, The Barrens",
 	},
 	["questNameCache"] = {
 		[771] = "Rite of Vision",
@@ -293,30 +291,18 @@ RXPCData = {
 		[766] = "Mazzranache",
 		[1656] = "A Task Unfinished",
 		[767] = "Rite of Vision",
-		[746] = "Dwarven Digging",
+		[751] = "The Ravaged Caravan",
 		[861] = "The Hunter's Way",
 		[1498] = "Path of Defense",
-		[833] = "A Sacred Burial",
-		[754] = "Winterhoof Cleansing",
 		[776] = "Rites of the Earthmother",
+		[754] = "Winterhoof Cleansing",
+		[833] = "A Sacred Burial",
 		[848] = "Fungal Spores",
-		[751] = "The Ravaged Caravan",
+		[746] = "Dwarven Digging",
 	},
-	["currentGuideName"] = "06-12 Mulgore",
+	["currentGuideName"] = "",
 	["stepSkip"] = {
-		true, -- [1]
-		[27] = true,
-		[39] = true,
-		[15] = true,
-		[43] = true,
-		[32] = true,
-		[51] = true,
-		[20] = true,
-		[28] = true,
-		[12] = true,
-		[30] = true,
 	},
-	["currentStepId"] = 3097037918,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -339,10 +325,10 @@ RXPCTrackingData = {
 							["monthDay"] = 31,
 							["day"] = 0,
 							["month"] = 8,
-							["minute"] = 27,
+							["weekday"] = 5,
 							["year"] = 2023,
 							["hour"] = 23,
-							["weekday"] = 5,
+							["minute"] = 27,
 						},
 						["finished"] = 9728,
 						["started"] = 2,
@@ -370,10 +356,10 @@ RXPCTrackingData = {
 							["monthDay"] = 1,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 3,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 0,
-							["weekday"] = 6,
+							["minute"] = 3,
 						},
 						["started"] = 11874,
 					},
@@ -397,20 +383,20 @@ RXPCTrackingData = {
 							["monthDay"] = 31,
 							["day"] = 0,
 							["month"] = 8,
-							["minute"] = 27,
+							["weekday"] = 5,
 							["year"] = 2023,
 							["hour"] = 23,
-							["weekday"] = 5,
+							["minute"] = 27,
 						},
 						["finished"] = 11873,
 						["dateFinished"] = {
 							["monthDay"] = 1,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 3,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 0,
-							["weekday"] = 6,
+							["minute"] = 3,
 						},
 						["started"] = 9729,
 					},
@@ -439,8 +425,8 @@ RXPCComms = {
 					["collect"] = {
 					},
 					["complete"] = {
-						["Swoop Hunting"] = 8,
 						["Thunderhorn Totem"] = 8,
+						["Swoop Hunting"] = 8,
 					},
 				},
 			},

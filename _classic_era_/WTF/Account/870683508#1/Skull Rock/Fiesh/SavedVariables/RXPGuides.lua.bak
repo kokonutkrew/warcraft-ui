@@ -1,0 +1,471 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		[53] = {
+		},
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 53,
+	["questObjectivesCache"] = {
+		[0] = 17,
+		[363] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[364] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Mindless Zombie slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Wretched Zombie slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[3902] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenged Goods: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[427] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Scarlet Warrior slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[404] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 7,
+				["text"] = "Putrid Claw: 0/7",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[381] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 12,
+				["text"] = "Scarlet Armband: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[358] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Rot Hide Graverobber slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Rot Hide Mongrel slain: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Embalming Ichor: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[382] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Scarlet Crusade Documents: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[367] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Darkhound Blood: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[6395] = {
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Samuel's Remains Buried: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[1470] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Rattlecage Skull: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[376] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenger Paw: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Duskbat Wing: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[5481] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Gloom Weed: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[3901] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Rattlecage Skeleton slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5482] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Doom Weed: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[380] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Young Night Web Spider slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Night Web Spider slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[365] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Tirisfal Pumpkin: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+	},
+	["currentGuideGroup"] = "Horde 1-22",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+		[367] = "A New Plague",
+		[404] = "A Putrid Task",
+		[364] = "The Mindless Ones",
+		[3901] = "Rattling the Rattlecages",
+		[1470] = "Piercing the Veil",
+		[5481] = "Gordo's Task",
+		[376] = "The Damned",
+	},
+	["currentGuideName"] = "01-11 Tirisfal Glades",
+	["stepSkip"] = {
+		[2] = true,
+		[8] = true,
+		[40] = true,
+		[28] = true,
+		[30] = true,
+		[49] = true,
+	},
+	["currentStepId"] = 2727676891,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
+	},
+	["profiles"] = {
+		["Fiesh - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 280,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 342,
+							["count"] = 12,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 8,
+						},
+						["finished"] = 551,
+						["dateFinished"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 17,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[363] = 40,
+						},
+					},
+				}, -- [1]
+				{
+					["groupExperience"] = 717,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 527,
+							["count"] = 22,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 17,
+						},
+						["finished"] = 944,
+						["dateFinished"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 23,
+						},
+						["started"] = 552,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[1470] = 190,
+						},
+					},
+				}, -- [2]
+				{
+					["groupExperience"] = 760,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 428,
+							["count"] = 16,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 23,
+						},
+						["finished"] = 1567,
+						["dateFinished"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 34,
+						},
+						["started"] = 945,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[3099] = 40,
+							[364] = 170,
+							[376] = 170,
+						},
+					},
+				}, -- [3]
+				{
+					["groupExperience"] = 505,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 997,
+							["count"] = 23,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 34,
+						},
+						["finished"] = 2295,
+						["dateFinished"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 46,
+						},
+						["started"] = 1568,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[3901] = 250,
+							[3902] = 320,
+							[380] = 360,
+						},
+					},
+				}, -- [4]
+				{
+					["groupExperience"] = 35,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 110,
+							["count"] = 2,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 26,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 3,
+							["year"] = 2023,
+							["hour"] = 20,
+							["minute"] = 46,
+						},
+						["started"] = 2296,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[381] = 360,
+							[382] = 675,
+							[383] = 340,
+							[6395] = 450,
+							[5481] = 230,
+							[8] = 110,
+						},
+					},
+				}, -- [5]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
+	},
+	["profiles"] = {
+		["Fiesh - Skull Rock"] = {
+			["players"] = {
+				["Sgthook"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 8160.676,
+					["xpPercentage"] = 47,
+					["level"] = 3,
+					["timePlayed"] = 104.0520000000006,
+					["class"] = "WARRIOR",
+				},
+				["Bayratatat"] = {
+					["timePlayed"] = 0,
+					["class"] = "MAGE",
+					["xp"] = 35,
+				},
+				["Kkportal"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 9779.158,
+					["xpPercentage"] = 80,
+					["level"] = 11,
+					["timePlayed"] = 0,
+					["class"] = "MAGE",
+				},
+				["Scythemo"] = {
+					["timePlayed"] = 430.4780000000001,
+					["class"] = "PRIEST",
+					["xp"] = 30,
+				},
+				["Changas"] = {
+					["timePlayed"] = 188.7829999999995,
+					["class"] = "WARLOCK",
+					["xp"] = 20,
+				},
+				["Ganelgojo"] = {
+					["timePlayed"] = 745.8960000000006,
+					["class"] = "MAGE",
+					["xp"] = 40,
+				},
+				["Rzhavchina"] = {
+					["timePlayed"] = 279.6019999999999,
+					["class"] = "HUNTER",
+					["xp"] = 17,
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

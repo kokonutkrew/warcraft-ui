@@ -1,10 +1,12 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+		["Kkorgrimmar - Whitemane"] = "Default",
 		["Kkorgrimmar - Skull Rock"] = "Default",
+		["Cupcakess - Whitemane"] = "Default",
 		["Kkbrill - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
@@ -33,20 +35,26 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+		["Kkorgrimmar - Whitemane"] = "Kkorgrimmar - Whitemane",
 		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+		["Cupcakess - Whitemane"] = "Cupcakess - Whitemane",
 		["Kkbrill - Skull Rock"] = "Kkbrill - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 	},
 	["profiles"] = {
+		["Kkorgrimmar - Whitemane"] = {
+		},
 		["Kkorgrimmar - Skull Rock"] = {
+		},
+		["Cupcakess - Whitemane"] = {
 		},
 		["Kkbrill - Skull Rock"] = {
 		},
-		["Øø - Skull Rock"] = {
-		},
 		["Kkundercity - Skull Rock"] = {
+		},
+		["Øø - Skull Rock"] = {
 		},
 		["Bannhammer - Skull Rock"] = {
 		},

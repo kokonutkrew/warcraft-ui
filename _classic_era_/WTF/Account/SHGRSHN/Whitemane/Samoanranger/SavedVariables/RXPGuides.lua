@@ -32,6 +32,16 @@ RXPCTrackingData = {
 					["quests"] = {
 					},
 				},
+				[26] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+					},
+				},
 			},
 		},
 	},

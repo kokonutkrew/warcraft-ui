@@ -1,9 +1,9 @@
 
-wlTime = 1693963251
+wlTime = 1696261387
 wlVersion = 20502
 wlUploaded = 0
-wlStats = "4^1^0^0^0^0^enUS^51146"
-wlExportData = ""
+wlStats = "19^1^0^0^0^1^enUS^51535"
+wlExportData = "who=US,Whitemane,Kktailor,0&realmId=0&timePlayedTotal=203787&titles=;"
 wlRealmList = {
 }
 wlAuction = {
@@ -17,10 +17,10 @@ wlObject = {
 		["0^Orgrimmar"] = {
 			[1454] = {
 				{
-					["y"] = 707,
+					["y"] = 706,
 					["x"] = 506,
 					["dl"] = 1454,
-					["n"] = 2,
+					["n"] = 25,
 				}, -- [1]
 				["n"] = 1,
 			},
@@ -30,7 +30,109 @@ wlObject = {
 wlProfile = {
 }
 wlProfileData = {
-	["Samoanranger^Defias Pillager"] = {
+	["Øø^Skull Rock"] = {
+		["talents"] = "",
+		["factions"] = {
+			[76] = 3100,
+			[68] = 500,
+			[81] = 3100,
+			[530] = 4000,
+		},
+		["guid"] = "Player-5099-019DF234",
+		["timestamp"] = 1693602437,
+		["class"] = 5,
+		["level"] = 1,
+		["version"] = 1,
+		["equipment"] = {
+			[5] = "item:6144::::::::1:::::::::",
+			[16] = "item:36::::::::1:::::::::",
+			[4] = "item:53::::::::1:::::::::",
+			[7] = "item:52::::::::1:::::::::",
+		},
+		["race"] = 8,
+		["name"] = "Øø",
+		["sex"] = 3,
+		["locale"] = "enUS",
+		["skills"] = {
+			["Holy"] = 5,
+			["Language: Troll"] = 300,
+			["Unarmed"] = 1,
+			["Language: Orcish"] = 300,
+			["Maces"] = 1,
+			["Wands"] = 1,
+			["Defense"] = 1,
+		},
+		["quests"] = {
+		},
+		["realm"] = "Skull Rock",
+	},
+	["Samoanbank^Whitemane"] = {
+		["talents"] = "",
+		["realm"] = "Whitemane",
+		["guid"] = "Player-5066-019D7166",
+		["timestamp"] = 1693548189,
+		["class"] = 1,
+		["level"] = 8,
+		["equipment"] = {
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			"item:6125::::::::8:::::::::", -- [4]
+			"item:2656:15:::::::8:::::::::", -- [5]
+			"item:4913::::::::8:::::::::", -- [6]
+			"item:10635:15:::::::8:::::::::", -- [7]
+			"item:4972::::::::8:::::::::", -- [8]
+			"item:2651::::::::8:::::::::", -- [9]
+			"item:4910:15:::::::8:::::::::", -- [10]
+			[16] = "item:2493::::::::8:::::::::",
+			[15] = "item:1421::::::::8:::::::::",
+		},
+		["locale"] = "enUS",
+		["race"] = 6,
+		["name"] = "Samoanbank",
+		["sex"] = 2,
+		["version"] = 1,
+		["skills"] = {
+			["Two-Handed Maces"] = 39,
+			["Defense"] = 38,
+			["Fury"] = 40,
+			["Maces"] = 1,
+			["First Aid"] = 1,
+			["Unarmed"] = 1,
+			["Arms"] = 40,
+			["Axes"] = 34,
+			["Language: Orcish"] = 300,
+			["Language: Taurahe"] = 300,
+		},
+		["quests"] = {
+			[771] = true,
+			[757] = true,
+			[745] = true,
+			[747] = true,
+			[763] = true,
+			[748] = true,
+			[780] = true,
+			[750] = true,
+			[3091] = true,
+			[1656] = true,
+			[767] = true,
+			[752] = true,
+			[766] = true,
+			[753] = true,
+			[781] = true,
+			[754] = true,
+			[749] = true,
+			[755] = true,
+			[3376] = true,
+		},
+		["factions"] = {
+			[76] = 3100,
+			[68] = 500,
+			[81] = 5800,
+			[530] = 3100,
+		},
+	},
+	["Kkbank^Whitemane"] = {
 		["talents"] = "",
 		["factions"] = {
 			[530] = 5735,
@@ -39,11 +141,15 @@ wlProfileData = {
 			[76] = 6685,
 			[470] = 600,
 		},
-		["guid"] = "Player-5126-0248ED84",
-		["timestamp"] = 1693616107,
+		["guid"] = "Player-5066-019E33CF",
+		["timestamp"] = 1695026898,
 		["class"] = 3,
 		["level"] = 9,
+		["name"] = "Kkbank",
+		["locale"] = "enUS",
+		["race"] = 2,
 		["version"] = 1,
+		["sex"] = 2,
 		["equipment"] = {
 			[7] = "item:4921::::::::9:::::::::",
 			[15] = "item:1421::::::::9:::::::::",
@@ -55,10 +161,6 @@ wlProfileData = {
 			[6] = "item:4919::::::::9:::::::::",
 			[18] = "item:2504::::::::9:::::::::",
 		},
-		["race"] = 2,
-		["name"] = "Samoanranger",
-		["sex"] = 2,
-		["locale"] = "enUS",
 		["skills"] = {
 			["Beast Mastery"] = 45,
 			["Skinning"] = 6,
@@ -67,8 +169,8 @@ wlProfileData = {
 			["First Aid"] = 1,
 			["Cooking"] = 1,
 			["Language: Orcish"] = 300,
-			["Unarmed"] = 1,
 			["Survival"] = 45,
+			["Unarmed"] = 1,
 			["Defense"] = 41,
 			["Axes"] = 50,
 			["Marksmanship"] = 45,
@@ -105,9 +207,122 @@ wlProfileData = {
 			[817] = true,
 			[4641] = true,
 		},
+		["realm"] = "Whitemane",
+	},
+	["Samoanranger^Defias Pillager"] = {
+		["talents"] = "",
 		["realm"] = "Defias Pillager",
+		["guid"] = "Player-5126-0248ED84",
+		["skills"] = {
+			["Beast Mastery"] = 45,
+			["Skinning"] = 6,
+			["Fishing"] = 1,
+			["Bows"] = 44,
+			["First Aid"] = 1,
+			["Cooking"] = 1,
+			["Language: Orcish"] = 300,
+			["Marksmanship"] = 45,
+			["Survival"] = 45,
+			["Defense"] = 41,
+			["Axes"] = 50,
+			["Unarmed"] = 1,
+			["Enchanting"] = 1,
+		},
+		["class"] = 3,
+		["timestamp"] = 1693616107,
+		["equipment"] = {
+			[7] = "item:4921::::::::9:::::::::",
+			[15] = "item:1421::::::::9:::::::::",
+			[8] = "item:4942::::::::9:::::::::",
+			[16] = "item:4923::::::::9:::::::::",
+			[9] = "item:4928::::::::9:::::::::",
+			[5] = "item:1364::::::::9:::::::::",
+			[10] = "item:4940::::::::9:::::::::",
+			[6] = "item:4919::::::::9:::::::::",
+			[18] = "item:2504::::::::9:::::::::",
+		},
+		["locale"] = "enUS",
+		["race"] = 2,
+		["name"] = "Samoanranger",
+		["sex"] = 2,
+		["version"] = 1,
+		["level"] = 9,
+		["quests"] = {
+			[818] = true,
+			[834] = true,
+			[788] = true,
+			[804] = true,
+			[789] = true,
+			[805] = true,
+			[790] = true,
+			[806] = true,
+			[791] = true,
+			[823] = true,
+			[808] = true,
+			[6394] = true,
+			[794] = true,
+			[4641] = true,
+			[826] = true,
+			[817] = true,
+			[3087] = true,
+			[792] = true,
+			[828] = true,
+			[825] = true,
+			[837] = true,
+			[815] = true,
+			[830] = true,
+			[784] = true,
+			[2161] = true,
+			[3911] = true,
+			[4402] = true,
+			[786] = true,
+			[5441] = true,
+		},
+		["factions"] = {
+			[530] = 5735,
+			[68] = 500,
+			[81] = 3100,
+			[76] = 6685,
+			[470] = 600,
+		},
 	},
 	["Bannhammer^Skull Rock"] = {
+		["talents"] = "",
+		["realm"] = "Skull Rock",
+		["guid"] = "Player-5099-01A16E0B",
+		["timestamp"] = 1693862944,
+		["class"] = 1,
+		["level"] = 1,
+		["locale"] = "enUS",
+		["equipment"] = {
+			[16] = "item:2361::::::::1:::::::::",
+			[7] = "item:139::::::::1:::::::::",
+			[4] = "item:6125::::::::1:::::::::",
+		},
+		["race"] = 6,
+		["version"] = 1,
+		["sex"] = 2,
+		["name"] = "Bannhammer",
+		["skills"] = {
+			["Two-Handed Maces"] = 1,
+			["Defense"] = 1,
+			["Axes"] = 1,
+			["Unarmed"] = 1,
+			["Arms"] = 5,
+			["Maces"] = 1,
+			["Language: Orcish"] = 300,
+			["Language: Taurahe"] = 300,
+		},
+		["quests"] = {
+		},
+		["factions"] = {
+			[76] = 3100,
+			[68] = 500,
+			[81] = 4000,
+			[530] = 3100,
+		},
+	},
+	["Samoanbeast^Skull Rock"] = {
 		["talents"] = "",
 		["factions"] = {
 			[76] = 3100,
@@ -115,188 +330,394 @@ wlProfileData = {
 			[81] = 4000,
 			[530] = 3100,
 		},
-		["guid"] = "Player-5099-01A16E0B",
-		["level"] = 1,
-		["class"] = 1,
+		["guid"] = "Player-5099-01A29802",
 		["skills"] = {
-			["Two-Handed Maces"] = 1,
-			["Defense"] = 1,
 			["Language: Taurahe"] = 300,
+			["Defense"] = 1,
+			["Staves"] = 1,
 			["Unarmed"] = 1,
-			["Arms"] = 5,
-			["Axes"] = 1,
 			["Language: Orcish"] = 300,
 			["Maces"] = 1,
+			["Restoration"] = 5,
+			["Balance"] = 5,
 		},
-		["name"] = "Bannhammer",
-		["locale"] = "enUS",
-		["race"] = 6,
+		["class"] = 11,
+		["timestamp"] = 1693963251,
 		["version"] = 1,
-		["sex"] = 2,
 		["equipment"] = {
-			[16] = "item:2361::::::::1:::::::::",
-			[7] = "item:139::::::::1:::::::::",
-			[4] = "item:6125::::::::1:::::::::",
+			[5] = "item:6139::::::::1:::::::::",
+			[16] = "item:35::::::::1:::::::::",
+			[7] = "item:6124::::::::1:::::::::",
 		},
-		["timestamp"] = 1693862944,
+		["race"] = 6,
+		["name"] = "Samoanbeast",
+		["sex"] = 2,
+		["locale"] = "enUS",
+		["level"] = 1,
 		["quests"] = {
 		},
 		["realm"] = "Skull Rock",
-	},
-	["Øø^Skull Rock"] = {
-		["talents"] = "",
-		["realm"] = "Skull Rock",
-		["guid"] = "Player-5099-019DF234",
-		["level"] = 1,
-		["class"] = 5,
-		["skills"] = {
-			["Holy"] = 5,
-			["Language: Troll"] = 300,
-			["Unarmed"] = 1,
-			["Defense"] = 1,
-			["Language: Orcish"] = 300,
-			["Wands"] = 1,
-			["Maces"] = 1,
-		},
-		["locale"] = "enUS",
-		["equipment"] = {
-			[5] = "item:6144::::::::1:::::::::",
-			[16] = "item:36::::::::1:::::::::",
-			[4] = "item:53::::::::1:::::::::",
-			[7] = "item:52::::::::1:::::::::",
-		},
-		["race"] = 8,
-		["version"] = 1,
-		["sex"] = 3,
-		["name"] = "Øø",
-		["timestamp"] = 1693602437,
-		["quests"] = {
-		},
-		["factions"] = {
-			[76] = 3100,
-			[68] = 500,
-			[81] = 3100,
-			[530] = 4000,
-		},
-	},
-	["Samoanbank^Whitemane"] = {
-		["talents"] = "",
-		["factions"] = {
-			[76] = 3100,
-			[68] = 500,
-			[81] = 5800,
-			[530] = 3100,
-		},
-		["guid"] = "Player-5066-019D7166",
-		["level"] = 8,
-		["class"] = 1,
-		["skills"] = {
-			["Two-Handed Maces"] = 39,
-			["Defense"] = 38,
-			["Fury"] = 40,
-			["Maces"] = 1,
-			["First Aid"] = 1,
-			["Unarmed"] = 1,
-			["Arms"] = 40,
-			["Axes"] = 34,
-			["Language: Taurahe"] = 300,
-			["Language: Orcish"] = 300,
-		},
-		["version"] = 1,
-		["equipment"] = {
-			nil, -- [1]
-			nil, -- [2]
-			nil, -- [3]
-			"item:6125::::::::8:::::::::", -- [4]
-			"item:2656:15:::::::8:::::::::", -- [5]
-			"item:4913::::::::8:::::::::", -- [6]
-			"item:10635:15:::::::8:::::::::", -- [7]
-			"item:4972::::::::8:::::::::", -- [8]
-			"item:2651::::::::8:::::::::", -- [9]
-			"item:4910:15:::::::8:::::::::", -- [10]
-			[16] = "item:2493::::::::8:::::::::",
-			[15] = "item:1421::::::::8:::::::::",
-		},
-		["race"] = 6,
-		["name"] = "Samoanbank",
-		["sex"] = 2,
-		["locale"] = "enUS",
-		["timestamp"] = 1693548189,
-		["quests"] = {
-			[771] = true,
-			[757] = true,
-			[745] = true,
-			[747] = true,
-			[763] = true,
-			[748] = true,
-			[780] = true,
-			[750] = true,
-			[3091] = true,
-			[1656] = true,
-			[767] = true,
-			[752] = true,
-			[3376] = true,
-			[753] = true,
-			[781] = true,
-			[754] = true,
-			[749] = true,
-			[755] = true,
-			[766] = true,
-		},
-		["realm"] = "Whitemane",
 	},
 	["Cupcakeheals^Skull Rock"] = {
 		["talents"] = "",
-		["factions"] = {
-			[76] = 3100,
-			[68] = 500,
-			[81] = 3100,
-			[530] = 4000,
-		},
+		["realm"] = "Skull Rock",
 		["guid"] = "Player-5099-019DE59A",
+		["level"] = 1,
+		["class"] = 5,
 		["skills"] = {
 			["Holy"] = 5,
 			["Language: Troll"] = 300,
 			["Unarmed"] = 1,
-			["Maces"] = 1,
+			["Defense"] = 1,
 			["Language: Orcish"] = 300,
 			["Wands"] = 1,
-			["Defense"] = 1,
+			["Maces"] = 1,
 		},
-		["class"] = 5,
-		["timestamp"] = 1693597880,
-		["name"] = "Cupcakeheals",
 		["locale"] = "enUS",
-		["race"] = 8,
-		["version"] = 1,
-		["sex"] = 3,
 		["equipment"] = {
 			[5] = "item:6144::::::::1:::::::::",
 			[16] = "item:36::::::::1:::::::::",
 			[4] = "item:53::::::::1:::::::::",
 			[7] = "item:52::::::::1:::::::::",
 		},
-		["level"] = 1,
+		["race"] = 8,
+		["version"] = 1,
+		["sex"] = 3,
+		["name"] = "Cupcakeheals",
+		["timestamp"] = 1693597880,
 		["quests"] = {
 		},
-		["realm"] = "Skull Rock",
+		["factions"] = {
+			[76] = 3100,
+			[68] = 500,
+			[81] = 3100,
+			[530] = 4000,
+		},
+	},
+	["Kktailor^Whitemane"] = {
+		["talents"] = "0050202-005030032",
+		["realm"] = "Whitemane",
+		["guid"] = "Player-5066-01B03CE7",
+		["skills"] = {
+			["Tailoring"] = 136,
+			["Defense"] = 141,
+			["Enchanting"] = 111,
+			["Fishing"] = 1,
+			["Language: Orcish"] = 300,
+			["Affliction"] = 155,
+			["First Aid"] = 89,
+			["Cooking"] = 166,
+			["Staves"] = 95,
+			["Destruction"] = 155,
+			["Unarmed"] = 1,
+			["Demonology"] = 155,
+			["Wands"] = 150,
+			["Daggers"] = 55,
+			["Language: Gutterspeak"] = 300,
+		},
+		["class"] = 9,
+		["timestamp"] = 1695555908,
+		["locale"] = "enUS",
+		["equipment"] = {
+			nil, -- [1]
+			nil, -- [2]
+			"item:14182::::::851:1729077120:31:::::::::", -- [3]
+			nil, -- [4]
+			"item:6465:242:::::::31:::::::::", -- [5]
+			"item:16975::::::::31:::::::::", -- [6]
+			"item:6903::::::::31:::::::::", -- [7]
+			"item:4320::::::::31:::::::::", -- [8]
+			"item:9846::::::1021:1108314112:31:::::::::", -- [9]
+			"item:16740::::::::31:::::::::", -- [10]
+			"item:15467::::::::31:::::::::", -- [11]
+			"item:5313::::::::31:::::::::", -- [12]
+			nil, -- [13]
+			nil, -- [14]
+			"item:6667::::::::31:::::::::", -- [15]
+			"item:6631::::::::31:::::::::", -- [16]
+			[18] = "item:7001::::::::31:::::::::",
+			[19] = "item:5976::::::::31:::::::::",
+		},
+		["race"] = 5,
+		["version"] = 1,
+		["sex"] = 3,
+		["name"] = "Kktailor",
+		["level"] = 31,
+		["quests"] = {
+			[871] = true,
+			[903] = true,
+			[6922] = true,
+			[357] = true,
+			[405] = true,
+			[840] = true,
+			[872] = true,
+			[235] = true,
+			[501] = true,
+			[1359] = true,
+			[873] = true,
+			[905] = true,
+			[358] = true,
+			[374] = true,
+			[422] = true,
+			[874] = true,
+			[906] = true,
+			[3099] = true,
+			[502] = true,
+			[843] = true,
+			[875] = true,
+			[907] = true,
+			[359] = true,
+			[375] = true,
+			[407] = true,
+			[844] = true,
+			[439] = true,
+			[4921] = true,
+			[5147] = true,
+			[6442] = true,
+			[845] = true,
+			[877] = true,
+			[909] = true,
+			[360] = true,
+			[6461] = true,
+			[376] = true,
+			[527] = true,
+			[423] = true,
+			[846] = true,
+			[440] = true,
+			[3369] = true,
+			[437] = true,
+			[6981] = true,
+			[2] = true,
+			[528] = true,
+			[438] = true,
+			[421] = true,
+			[879] = true,
+			[65601] = true,
+			[372] = true,
+			[876] = true,
+			[5151] = true,
+			[529] = true,
+			[409] = true,
+			[848] = true,
+			[880] = true,
+			[901] = true,
+			[4881] = true,
+			[4021] = true,
+			[2996] = true,
+			[8] = true,
+			[6503] = true,
+			[849] = true,
+			[881] = true,
+			[913] = true,
+			[6504] = true,
+			[362] = true,
+			[852] = true,
+			[1058] = true,
+			[4966] = true,
+			[426] = true,
+			[882] = true,
+			[6523] = true,
+			[6282] = true,
+			[5481] = true,
+			[5482] = true,
+			[1060] = true,
+			[819] = true,
+			[851] = true,
+			[1507] = true,
+			[1061] = true,
+			[435] = true,
+			[363] = true,
+			[1508] = true,
+			[1062] = true,
+			[411] = true,
+			[427] = true,
+			[884] = true,
+			[1063] = true,
+			[23] = true,
+			[549] = true,
+			[1510] = true,
+			[1064] = true,
+			[821] = true,
+			[853] = true,
+			[885] = true,
+			[1065] = true,
+			[855] = true,
+			[364] = true,
+			[380] = true,
+			[25] = true,
+			[1130] = true,
+			[371] = true,
+			[1513] = true,
+			[1067] = true,
+			[355] = true,
+			[492] = true,
+			[1069] = true,
+			[1068] = true,
+			[6541] = true,
+			[1196] = true,
+			[887] = true,
+			[6284] = true,
+			[824] = true,
+			[365] = true,
+			[381] = true,
+			[6543] = true,
+			[6544] = true,
+			[429] = true,
+			[888] = true,
+			[1066] = true,
+			[6548] = true,
+			[247] = true,
+			[425] = true,
+			[3921] = true,
+			[6561] = true,
+			[857] = true,
+			[498] = true,
+			[890] = true,
+			[6301] = true,
+			[366] = true,
+			[382] = true,
+			[398] = true,
+			[494] = true,
+			[858] = true,
+			[6562] = true,
+			[6563] = true,
+			[478] = true,
+			[6565] = true,
+			[3901] = true,
+			[3902] = true,
+			[430] = true,
+			[216] = true,
+			[891] = true,
+			[6571] = true,
+			[447] = true,
+			[367] = true,
+			[383] = true,
+			[370] = true,
+			[6321] = true,
+			[6322] = true,
+			[6323] = true,
+			[6324] = true,
+			[354] = true,
+			[445] = true,
+			[5052] = true,
+			[493] = true,
+			[865] = true,
+			[1515] = true,
+			[893] = true,
+			[1195] = true,
+			[1511] = true,
+			[368] = true,
+			[1509] = true,
+			[1492] = true,
+			[5064] = true,
+			[449] = true,
+			[894] = true,
+			[1491] = true,
+			[1197] = true,
+			[496] = true,
+			[1358] = true,
+			[850] = true,
+			[3221] = true,
+			[863] = true,
+			[895] = true,
+			[1149] = true,
+			[959] = true,
+			[369] = true,
+			[4821] = true,
+			[1086] = true,
+			[1483] = true,
+			[1487] = true,
+			[896] = true,
+			[1087] = true,
+			[481] = true,
+			[1470] = true,
+			[1512] = true,
+			[546] = true,
+			[3366] = true,
+			[1471] = true,
+			[3261] = true,
+			[4542] = true,
+			[1918] = true,
+			[6621] = true,
+			[892] = true,
+			[5041] = true,
+			[3281] = true,
+			[1473] = true,
+			[4841] = true,
+			[6564] = true,
+			[482] = true,
+			[6629] = true,
+			[842] = true,
+			[4865] = true,
+			[477] = true,
+			[867] = true,
+			[899] = true,
+			[1093] = true,
+			[6381] = true,
+			[6382] = true,
+			[6383] = true,
+			[1094] = true,
+			[24] = true,
+			[6641] = true,
+			[900] = true,
+			[1095] = true,
+			[868] = true,
+			[499] = true,
+			[5881] = true,
+			[1096] = true,
+			[6393] = true,
+			[869] = true,
+			[6395] = true,
+			[441] = true,
+			[356] = true,
+			[742] = true,
+			[878] = true,
+			[404] = true,
+			[6401] = true,
+			[870] = true,
+			[902] = true,
+			[6441] = true,
+			[55296] = true,
+			[4904] = true,
+		},
+		["factions"] = {
+			[470] = 2605,
+			[81] = 6515,
+			[369] = 1552,
+			[530] = 4506,
+			[577] = 1552,
+			[68] = 12726,
+			[21] = 1552,
+			[529] = 400,
+			[76] = 6625,
+		},
 	},
 	["Goldenshots^Defias Pillager"] = {
 		["talents"] = "",
-		["realm"] = "Defias Pillager",
+		["factions"] = {
+			[69] = 4000,
+			[54] = 3100,
+			[47] = 3100,
+			[72] = 3100,
+		},
 		["guid"] = "Player-5126-0252A253",
+		["level"] = 1,
+		["class"] = 3,
 		["skills"] = {
-			["Unarmed"] = 1,
-			["Defense"] = 1,
-			["Language: Darnassian"] = 300,
 			["Survival"] = 5,
-			["Marksmanship"] = 5,
+			["Defense"] = 1,
 			["Daggers"] = 1,
+			["Unarmed"] = 1,
+			["Marksmanship"] = 5,
 			["Bows"] = 1,
+			["Language: Darnassian"] = 300,
 			["Language: Common"] = 300,
 		},
-		["class"] = 3,
-		["timestamp"] = 1693616534,
+		["name"] = "Goldenshots",
+		["locale"] = "enUS",
+		["race"] = 4,
+		["version"] = 1,
+		["sex"] = 2,
 		["equipment"] = {
 			[7] = "item:147::::::::1:::::::::",
 			[8] = "item:129::::::::1:::::::::",
@@ -304,54 +725,100 @@ wlProfileData = {
 			[4] = "item:148::::::::1:::::::::",
 			[16] = "item:2092::::::::1:::::::::",
 		},
-		["locale"] = "enUS",
-		["race"] = 4,
-		["name"] = "Goldenshots",
-		["sex"] = 2,
-		["version"] = 1,
-		["level"] = 1,
+		["timestamp"] = 1693616534,
 		["quests"] = {
 		},
-		["factions"] = {
-			[72] = 3100,
-			[54] = 3100,
-			[69] = 4000,
-			[47] = 3100,
-		},
+		["realm"] = "Defias Pillager",
 	},
-	["Samoanbeast^Skull Rock"] = {
+	["Kkbanker^Skull Rock"] = {
 		["talents"] = "",
 		["realm"] = "Skull Rock",
-		["guid"] = "Player-5099-01A29802",
-		["locale"] = "enUS",
-		["class"] = 11,
-		["timestamp"] = 1693963251,
-		["level"] = 1,
+		["guid"] = "Player-5099-01AB892D",
+		["timestamp"] = 1696261387,
+		["class"] = 1,
+		["level"] = 10,
 		["equipment"] = {
-			[5] = "item:6139::::::::1:::::::::",
-			[16] = "item:35::::::::1:::::::::",
-			[7] = "item:6124::::::::1:::::::::",
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			"item:6125::::::::10:::::::::", -- [4]
+			"item:2656::::::::10:::::::::", -- [5]
+			"item:15480::::::::10:::::::::", -- [6]
+			"item:10635::::::::10:::::::::", -- [7]
+			"item:15481::::::::10:::::::::", -- [8]
+			"item:3280::::::::10:::::::::", -- [9]
+			"item:15484::::::::10:::::::::", -- [10]
+			nil, -- [11]
+			nil, -- [12]
+			nil, -- [13]
+			nil, -- [14]
+			"item:15299::::::::10:::::::::", -- [15]
+			"item:3190::::::::10:::::::::", -- [16]
+			[18] = "item:2774::::::::10:::::::::",
+			[19] = "item:5976::::::::10:::::::::",
 		},
+		["locale"] = "enUS",
 		["race"] = 6,
-		["version"] = 1,
+		["name"] = "Kkbanker",
 		["sex"] = 2,
-		["name"] = "Samoanbeast",
+		["version"] = 1,
 		["skills"] = {
+			["Protection"] = 50,
+			["Defense"] = 46,
 			["Language: Taurahe"] = 300,
-			["Defense"] = 1,
-			["Balance"] = 5,
-			["Unarmed"] = 1,
+			["Fury"] = 50,
+			["Fishing"] = 1,
+			["Mining"] = 64,
+			["First Aid"] = 23,
 			["Maces"] = 1,
+			["Cooking"] = 17,
+			["Two-Handed Maces"] = 48,
+			["Guns"] = 3,
+			["Unarmed"] = 1,
+			["Arms"] = 50,
+			["Axes"] = 30,
 			["Language: Orcish"] = 300,
-			["Restoration"] = 5,
-			["Staves"] = 1,
+			["Enchanting"] = 1,
 		},
 		["quests"] = {
+			[761] = true,
+			[763] = true,
+			[767] = true,
+			[771] = true,
+			[1656] = true,
+			[775] = true,
+			[781] = true,
+			[854] = true,
+			[3376] = true,
+			[746] = true,
+			[748] = true,
+			[750] = true,
+			[752] = true,
+			[754] = true,
+			[756] = true,
+			[758] = true,
+			[1819] = true,
+			[766] = true,
+			[833] = true,
+			[772] = true,
+			[780] = true,
+			[1505] = true,
+			[3091] = true,
+			[743] = true,
+			[745] = true,
+			[747] = true,
+			[749] = true,
+			[751] = true,
+			[753] = true,
+			[755] = true,
+			[1498] = true,
+			[773] = true,
+			[757] = true,
 		},
 		["factions"] = {
 			[76] = 3100,
 			[68] = 500,
-			[81] = 4000,
+			[81] = 6750,
 			[530] = 3100,
 		},
 	},
@@ -366,50 +833,150 @@ wlUnit = {
 			},
 		},
 	},
-	["3309"] = {
+	["10537"] = {
 		["isPvp"] = true,
 		["reaction"] = {
-			["9^Horde^5"] = 1693616148300,
+			["31^Horde^5"] = 1695555554985,
 		},
 		["sex"] = {
 			[2] = 1,
 		},
-		["gossip"] = {
-			["banker"] = 1,
-		},
 		["class"] = "WARRIOR",
 		["spec"] = {
 			[0] = {
-				[45] = {
+				[55] = {
 					["loc"] = {
-						["Orgrimmar"] = {
-							[1454] = {
+						["Thousand Needles"] = {
+							[1441] = {
 								{
-									["y"] = 693,
-									["x"] = 499,
-									["dl"] = 1454,
-									["n"] = 1,
+									["y"] = 509,
+									["x"] = 457,
+									["dl"] = 1441,
+									["n"] = 2,
 								}, -- [1]
 								["n"] = 1,
 							},
 						},
 					},
 					["powertype"] = 1,
-					["health"] = 5544,
+					["health"] = 3398,
 					["powermax"] = 0,
 				},
 			},
 		},
-		["faction"] = "Orgrimmar",
+		["faction"] = "Thunder Bluff",
 	},
-	["2982"] = {
+	["3430"] = {
 		["spec"] = {
 			[0] = {
 				["spell"] = {
-					["Mark of the Wild"] = 1,
+					["Wisdom of Agamaggan"] = 1,
+					["Rising Spirit"] = 1,
+					["Agamaggan's Agility"] = 2,
 				},
 			},
 		},
+	},
+	["4949"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Warchief's Blessing"] = 16,
+				},
+			},
+		},
+	},
+	["3322"] = {
+		["isPvp"] = true,
+		["merchant"] = {
+			["3024^0^1^7471"] = -1,
+			["3033^0^200^315"] = -1,
+			["3023^0^1^3969"] = -1,
+			["2511^0^1^1393"] = -1,
+			["2516^0^200^10"] = -1,
+			["5441^0^1^1052"] = -1,
+			["2519^0^200^52"] = -1,
+			["11284^0^200^1052"] = -1,
+			["2509^0^1^435"] = -1,
+		},
+		["gossip"] = {
+			["vendor"] = 1,
+		},
+		["spec"] = {
+			[0] = {
+				[30] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 622,
+									["x"] = 523,
+									["dl"] = 1454,
+									["n"] = 1,
+								}, -- [1]
+								{
+									["y"] = 614,
+									["x"] = 522,
+									["dl"] = 1454,
+									["n"] = 1,
+								}, -- [2]
+								["n"] = 2,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 1003,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["reaction"] = {
+			["10^Horde^5"] = 1696189545717,
+		},
+		["faction"] = "Orgrimmar",
+		["canRepair"] = 1,
+		["class"] = "WARRIOR",
+		["sex"] = {
+			[3] = 1,
+		},
+	},
+	["7506"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Infallible Mind"] = 1,
+				},
+			},
+		},
+	},
+	["3678"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Mark of the Wild"] = 2,
+				},
+			},
+		},
+	},
+	["9551"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["31^Horde^5"] = 1695555604153,
+		},
+		["sex"] = {
+			[2] = 1,
+		},
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[37] = {
+					["powertype"] = 1,
+					["health"] = 1536,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["faction"] = "Thunder Bluff",
 	},
 	["3055"] = {
 		["isPvp"] = true,
@@ -420,7 +987,6 @@ wlUnit = {
 			[2] = 1,
 		},
 		["class"] = "WARRIOR",
-		["faction"] = "Thunder Bluff",
 		["spec"] = {
 			[0] = {
 				[10] = {
@@ -443,11 +1009,275 @@ wlUnit = {
 				},
 			},
 		},
+		["faction"] = "Thunder Bluff",
+	},
+	["2982"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Mark of the Wild"] = 1,
+				},
+			},
+		},
+	},
+	["3309"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["9^Horde^5"] = 1693616148300,
+			["10^Horde^5"] = 1696189706766,
+		},
+		["sex"] = {
+			[2] = 2,
+		},
+		["faction"] = "Orgrimmar",
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[45] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 693,
+									["x"] = 499,
+									["dl"] = 1454,
+									["n"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 5544,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["gossip"] = {
+			["banker"] = 2,
+		},
+	},
+	["3370"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["10^Horde^5"] = 1696198050545,
+		},
+		["sex"] = {
+			[2] = 2,
+		},
+		["class"] = "WARRIOR",
+		["faction"] = "Orgrimmar",
+		["spec"] = {
+			[0] = {
+				[45] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 750,
+									["x"] = 442,
+									["dl"] = 1454,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 2218,
+					["powermax"] = 0,
+				},
+			},
+		},
+	},
+	["1938"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Arcane Intellect"] = 1,
+				},
+			},
+		},
+	},
+	["5907"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Rock Skin"] = 1,
+				},
+			},
+		},
+	},
+	["5188"] = {
+		["isPvp"] = true,
+		["merchant"] = {
+			["5976^0^1^10526"] = -1,
+		},
+		["reaction"] = {
+			["10^Horde^5"] = 1696198058132,
+		},
+		["sex"] = {
+			[3] = 2,
+		},
+		["faction"] = "Orgrimmar",
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[30] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 747,
+									["x"] = 438,
+									["dl"] = 1454,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 1003,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["gossip"] = {
+			["vendor"] = 2,
+		},
+	},
+	["8724"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["10^Horde^5"] = 1696259198352,
+		},
+		["sex"] = {
+			[2] = 1,
+		},
+		["gossip"] = {
+			["auctioneer"] = 1,
+		},
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[50] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 647,
+									["x"] = 555,
+									["dl"] = 1454,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 6645,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["faction"] = "Orgrimmar",
+	},
+	["173758"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Rallying Cry of the Dragonslayer"] = 4,
+				},
+			},
+		},
+	},
+	["10645"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["30^Horde^5"] = 1695555483033,
+		},
+		["sex"] = {
+			[3] = 1,
+		},
+		["class"] = "WARRIOR",
+		["faction"] = "Thunder Bluff",
+		["spec"] = {
+			[0] = {
+				[30] = {
+					["loc"] = {
+						["Thousand Needles"] = {
+							[1441] = {
+								{
+									["y"] = 516,
+									["x"] = 460,
+									["dl"] = 1441,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 1003,
+					["powermax"] = 0,
+				},
+			},
+		},
+	},
+	["4317"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["31^Horde^5"] = 1695555613362,
+		},
+		["sex"] = {
+			[3] = 1,
+		},
+		["gossip"] = {
+			["taxi"] = 1,
+		},
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[55] = {
+					["loc"] = {
+						["Thousand Needles"] = {
+							[1441] = {
+								{
+									["y"] = 493,
+									["x"] = 452,
+									["dl"] = 1441,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 7842,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["faction"] = "Thunder Bluff",
 	},
 }
 wlItemDurability = {
 }
 wlItemBonuses = {
+	[2840] = {
+		["bonuses"] = {
+			["3524"] = 1,
+		},
+	},
 }
 wlTradeSkillDifficulty = {
+	["Mining"] = {
+		["i2840"] = {
+			["easy"] = {
+				64, -- [1]
+				64, -- [2]
+			},
+		},
+	},
 }

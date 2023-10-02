@@ -5,7 +5,7 @@ Anchor: LEFT
 X: 30
 Y: -22
 W: 235
-H: 125
+H: 28
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: TOP

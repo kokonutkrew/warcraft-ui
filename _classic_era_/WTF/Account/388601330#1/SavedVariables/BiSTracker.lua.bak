@@ -1,11 +1,13 @@
 
 BiSTrackerDB = {
 	["profileKeys"] = {
-		["Kkorgrimmar - Skull Rock"] = "Default",
-		["Kkbrill - Skull Rock"] = "Default",
-		["Kkundercity - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
+		["Kkorgrimmar - Skull Rock"] = "Default",
+		["Cupcakess - Whitemane"] = "Default",
+		["Kkbrill - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Kkorgrimmar - Whitemane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

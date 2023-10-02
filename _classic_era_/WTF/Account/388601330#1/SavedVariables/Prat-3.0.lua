@@ -2,6 +2,17 @@
 Prat3DB = {
 	["namespaces"] = {
 		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["kk"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+					},
+				},
+			},
 		},
 		["Prat_Fading"] = {
 		},
@@ -43,11 +54,11 @@ Prat3DB = {
 		},
 		["Prat_Bubbles"] = {
 		},
-		["Prat_Timestamps"] = {
-		},
-		["Prat_Paragraph"] = {
+		["Prat_TellTarget"] = {
 		},
 		["Prat_Achievements"] = {
+		},
+		["Prat_Paragraph"] = {
 		},
 		["Prat_DebugModules"] = {
 		},
@@ -59,13 +70,13 @@ Prat3DB = {
 		},
 		["Prat_Sounds"] = {
 		},
-		["Prat_ChannelNames"] = {
+		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Invites"] = {
 		},
 		["Prat_LinkInfoIcons"] = {
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_ChannelNames"] = {
 		},
 		["Prat_ChatLog"] = {
 		},
@@ -73,22 +84,24 @@ Prat3DB = {
 		},
 		["Prat_Buttons"] = {
 		},
-		["Prat_TellTarget"] = {
+		["Prat_Timestamps"] = {
 		},
 		["Prat_HoverTips"] = {
 		},
 	},
 	["profileKeys"] = {
+		["Kkorgrimmar - Whitemane"] = "Default",
 		["Kkorgrimmar - Skull Rock"] = "Default",
+		["Cupcakess - Whitemane"] = "Default",
 		["Kkbrill - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -98,7 +111,7 @@ Prat3DB = {
 				["LinkInfoIcons"] = 2,
 				["DebugModules"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

@@ -1,0 +1,82 @@
+
+SilverDragon3DB = {
+	["profileKeys"] = {
+		["Fiesh - Pagle"] = "Default",
+		["Fishhook - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
+		["Farmcraft - Skull Rock"] = "Default",
+		["Fiesh - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Fishook - Skull Rock"] = "Default",
+	},
+	["namespaces"] = {
+		["Overlay"] = {
+		},
+		["VignetteStretch"] = {
+		},
+		["TomTom"] = {
+		},
+		["Macro"] = {
+		},
+		["Tooltip"] = {
+		},
+		["Scan_Chat"] = {
+		},
+		["ClickTarget"] = {
+			["profiles"] = {
+				["Default"] = {
+					["anchor"] = {
+						["y"] = -132.3148193359375,
+						["point"] = "RIGHT",
+					},
+				},
+			},
+		},
+		["LDB"] = {
+		},
+		["Scan_Vignettes"] = {
+		},
+		["Scan_Targets"] = {
+		},
+		["Sync"] = {
+		},
+		["Announce"] = {
+		},
+		["Marker"] = {
+		},
+	},
+	["global"] = {
+		["mob_count"] = {
+			[5837] = 2,
+			[5823] = 1,
+			[5824] = 1,
+			[2283] = 1,
+			[3056] = 2,
+			[5829] = 1,
+			[5830] = 2,
+			[1531] = 1,
+			[3068] = 1,
+			[3398] = 1,
+			[5841] = 1,
+		},
+		["mob_seen"] = {
+			[5837] = 1696118484,
+			[5823] = 1696041396,
+			[5824] = 1696192707,
+			[2283] = 1696138664,
+			[3056] = 1696225647,
+			[5829] = 1696119149,
+			[5830] = 1696154531,
+			[1531] = 1696135053,
+			[3068] = 1696002286,
+			[3398] = 1696124083,
+			[5841] = 1696199120,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+SilverDragon2DB = nil

@@ -1,0 +1,4 @@
+Blizzard_CompactRaidFrames: enabled
+Blizzard_CombatText: enabled
+Gnosis: disabled
+GreenWall: disabled

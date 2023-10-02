@@ -1,0 +1,95 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[0] = 0,
+	},
+	["currentGuideGroup"] = "",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+	},
+	["currentGuideName"] = "",
+	["stepSkip"] = {
+	},
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
+	},
+	["profiles"] = {
+		["Farmcraft - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 110,
+					["deaths"] = 1,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 29,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 19,
+							["year"] = 2023,
+							["hour"] = 21,
+							["weekday"] = 6,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Mulgore"] = {
+							[1656] = 110,
+						},
+					},
+				}, -- [1]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
+	},
+	["profiles"] = {
+		["Farmcraft - Skull Rock"] = {
+			["players"] = {
+				["Darkestork"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 50757.264,
+					["xpPercentage"] = 6,
+					["level"] = 3,
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+				},
+				["Sleepyhed"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 50757.03,
+					["xpPercentage"] = 52,
+					["level"] = 3,
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+				},
+				["Warriorss"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 50757.464,
+					["xpPercentage"] = 12,
+					["level"] = 2,
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+				},
+				["Samoanbeast"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 50757.264,
+					["xpPercentage"] = 52,
+					["level"] = 1,
+					["timePlayed"] = 0,
+					["class"] = "DRUID",
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

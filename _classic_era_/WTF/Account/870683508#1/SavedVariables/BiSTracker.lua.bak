@@ -1,0 +1,17 @@
+
+BiSTrackerDB = {
+	["profileKeys"] = {
+		["Fishook - Skull Rock"] = "Default",
+		["Fishhook - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
+		["Farmcraft - Skull Rock"] = "Default",
+		["Fiesh - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Fiesh - Pagle"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

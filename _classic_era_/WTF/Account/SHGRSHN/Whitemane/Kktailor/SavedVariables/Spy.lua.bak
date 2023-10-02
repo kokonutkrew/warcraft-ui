@@ -1,0 +1,44 @@
+
+SpyPerCharDB = {
+	["KOSData"] = {
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+		["Sozglen-Anathema"] = {
+			["mapID"] = 1441,
+			["guild"] = "Total Orc Death",
+			["zone"] = "Thousand Needles",
+			["mapY"] = 0.23,
+			["class"] = "ROGUE",
+			["subZone"] = "",
+			["isEnemy"] = true,
+			["mapX"] = 0.3,
+			["race"] = "Night Elf",
+			["name"] = "Sozglen-Anathema",
+			["faction"] = "Alliance",
+			["time"] = 1695555444,
+			["level"] = 40,
+			["isGuess"] = true,
+			["rank"] = 2,
+		},
+		["Piecepipe"] = {
+			["mapID"] = 1441,
+			["guild"] = "okay",
+			["zone"] = "Thousand Needles",
+			["mapY"] = 0.23,
+			["class"] = "MAGE",
+			["subZone"] = "",
+			["isEnemy"] = true,
+			["mapX"] = 0.3,
+			["race"] = "Human",
+			["name"] = "Piecepipe",
+			["faction"] = "Alliance",
+			["time"] = 1695555442,
+			["level"] = 40,
+			["isGuess"] = true,
+			["rank"] = 0,
+		},
+	},
+	["version"] = "1.1",
+}

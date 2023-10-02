@@ -463,9 +463,23 @@ FarmingBarDB = {
 	},
 	["profileKeys"] = {
 		["Samoanranger - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Kktailor - Whitemane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["bars"] = {
+				{
+					["point"] = {
+						"TOP", -- [1]
+						nil, -- [2]
+						"TOP", -- [3]
+						-304.9877014160156, -- [4]
+						-15.04934120178223, -- [5]
+					},
+				}, -- [1]
+			},
 		},
 	},
 }

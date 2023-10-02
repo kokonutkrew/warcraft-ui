@@ -11,11 +11,11 @@ DBM-PvP: disabled
 DBM-Raids-Vanilla: disabled
 FastGuildInvite: enabled
 AddonUsage: disabled
-AdiBags: disabled
-AdiBags-BOEOverlay: disabled
-AdiBags-ClassicItemLevel: disabled
-AdiBags-ItemRackSets: disabled
-AdiBags_Config: disabled
+AdiBags: enabled
+AdiBags-BOEOverlay: enabled
+AdiBags-ClassicItemLevel: enabled
+AdiBags-ItemRackSets: enabled
+AdiBags_Config: enabled
 AllTheThings: disabled
 AtlasLootClassic_Maps: disabled
 AtlasLootClassic_Options: disabled
@@ -46,7 +46,7 @@ Details_TinyThreat: disabled
 Details_Vanguard: disabled
 EMA-Classic: disabled
 FarmingBar: disabled
-FieldGuide: disabled
+FieldGuide: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 GatherNotify: disabled
@@ -68,8 +68,8 @@ HeroRotation_Warlock: disabled
 HeroRotation_Warrior: disabled
 honorspy: disabled
 Informant: disabled
-ItemRack: disabled
-ItemRackOptions: disabled
+ItemRack: enabled
+ItemRackOptions: enabled
 KillTrack: disabled
 Leatrix_Maps: disabled
 Leatrix_Plus: disabled
@@ -97,8 +97,8 @@ Spy: disabled
 TomPoints: disabled
 TomTom: disabled
 TotemStatus: disabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 ValhallaGuildTools: disabled
 ViragDevTool: disabled
 WeakAuras: disabled
@@ -118,3 +118,4 @@ ClassicLootManager: disabled
 Guildbook_ClassicEra: enabled
 LibDBIcon-1.0: disabled
 Myslot: disabled
+PriceAnswer: disabled

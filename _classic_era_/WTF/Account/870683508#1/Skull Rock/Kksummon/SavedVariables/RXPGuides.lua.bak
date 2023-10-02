@@ -1,0 +1,100 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[0] = 1,
+		[4641] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+	},
+	["currentGuideGroup"] = "",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+	},
+	["currentGuideName"] = "",
+	["stepSkip"] = {
+	},
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+	},
+	["profiles"] = {
+		["Kksummon - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 18,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 18,
+							["count"] = 1,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 29,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 21,
+							["minute"] = 2,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[4641] = 40,
+						},
+					},
+				}, -- [1]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+	},
+	["profiles"] = {
+		["Kksummon - Skull Rock"] = {
+			["players"] = {
+				["Darkestork"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 48981.408,
+					["xpPercentage"] = 14,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 1,
+				},
+				["Sleepyhed"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 48981.408,
+					["xpPercentage"] = 92,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 1,
+				},
+				["Samoanbeast"] = {
+					["class"] = "DRUID",
+					["lastSeen"] = 48981.408,
+					["xpPercentage"] = 79,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 5,
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

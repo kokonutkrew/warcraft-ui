@@ -1,11 +1,13 @@
 
 SilverDragon3DB = {
 	["profileKeys"] = {
-		["Kkorgrimmar - Skull Rock"] = "Default",
-		["Kkbrill - Skull Rock"] = "Default",
-		["Kkundercity - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
+		["Kkorgrimmar - Skull Rock"] = "Default",
+		["Cupcakess - Whitemane"] = "Default",
+		["Kkbrill - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Kkorgrimmar - Whitemane"] = "Default",
 	},
 	["namespaces"] = {
 		["Overlay"] = {
@@ -26,13 +28,13 @@ SilverDragon3DB = {
 		},
 		["Scan_Vignettes"] = {
 		},
-		["Scan_Targets"] = {
+		["Marker"] = {
 		},
 		["Sync"] = {
 		},
 		["Announce"] = {
 		},
-		["Marker"] = {
+		["Scan_Targets"] = {
 		},
 	},
 	["profiles"] = {

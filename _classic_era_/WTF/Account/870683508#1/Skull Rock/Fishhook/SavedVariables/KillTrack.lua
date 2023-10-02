@@ -1,0 +1,901 @@
+
+KILLTRACK_CHAR = {
+	["MOBS"] = {
+		[2956] = {
+			["LastKillAt"] = 1695999717,
+			["Kills"] = 1,
+			["Name"] = "Adult Plainstrider",
+		},
+		[3467] = {
+			["LastKillAt"] = 1696114312,
+			["Kills"] = 1,
+			["Name"] = "Baron Longshore",
+		},
+		[2959] = {
+			["LastKillAt"] = 1696000069,
+			["Kills"] = 1,
+			["Name"] = "Prairie Stalker",
+		},
+		[11519] = {
+			["Name"] = "Bazzalan",
+			["Kills"] = 0,
+		},
+		[2960] = {
+			["Name"] = "Prairie Wolf Alpha",
+			["Kills"] = 0,
+		},
+		[3471] = {
+			["LastKillAt"] = 1696133424,
+			["Kills"] = 1,
+			["Name"] = "Tinkerer Sniggles",
+		},
+		[2962] = {
+			["LastKillAt"] = 1696001723,
+			["Kills"] = 6,
+			["Name"] = "Windfury Harpy",
+		},
+		[12296] = {
+			["Name"] = "Sickly Gazelle",
+			["Kills"] = 0,
+		},
+		[2963] = {
+			["LastKillAt"] = 1696002296,
+			["Kills"] = 7,
+			["Name"] = "Windfury Wind Witch",
+		},
+		[4127] = {
+			["LastKillAt"] = 1696138045,
+			["Kills"] = 4,
+			["Name"] = "Hecklefang Hyena",
+		},
+		[3475] = {
+			["Name"] = "Echeyakee",
+			["Kills"] = 0,
+		},
+		[3988] = {
+			["LastKillAt"] = 1696151562,
+			["Kills"] = 7,
+			["Name"] = "Venture Co. Operator",
+		},
+		[2969] = {
+			["LastKillAt"] = 1696000577,
+			["Kills"] = 1,
+			["Name"] = "Wiry Swoop",
+		},
+		[2970] = {
+			["LastKillAt"] = 1696000545,
+			["Kills"] = 7,
+			["Name"] = "Swoop",
+		},
+		[3098] = {
+			["LastKillAt"] = 1695872574,
+			["Kills"] = 15,
+			["Name"] = "Mottled Boar",
+		},
+		[3226] = {
+			["LastKillAt"] = 1695964691,
+			["Kills"] = 1,
+			["Name"] = "Corrupted Scorpid",
+		},
+		[3099] = {
+			["Name"] = "Dire Mottled Boar",
+			["Kills"] = 0,
+		},
+		[3227] = {
+			["Name"] = "Corrupted Bloodtalon Scythemaw",
+			["Kills"] = 0,
+		},
+		[3100] = {
+			["Name"] = "Elder Mottled Boar",
+			["Kills"] = 0,
+		},
+		[11318] = {
+			["LastKillAt"] = 1696121870,
+			["Kills"] = 5,
+			["Name"] = "Ragefire Trogg",
+		},
+		[11320] = {
+			["LastKillAt"] = 1696122226,
+			["Kills"] = 2,
+			["Name"] = "Earthborer",
+		},
+		[11322] = {
+			["LastKillAt"] = 1696122671,
+			["Kills"] = 2,
+			["Name"] = "Searing Blade Cultist",
+		},
+		[3102] = {
+			["LastKillAt"] = 1695878340,
+			["Kills"] = 4,
+			["Name"] = "Felstalker",
+		},
+		[2975] = {
+			["LastKillAt"] = 1695999758,
+			["Kills"] = 1,
+			["Name"] = "Venture Co. Hireling",
+		},
+		[3103] = {
+			["LastKillAt"] = 1695959035,
+			["Kills"] = 3,
+			["Name"] = "Makrura Clacker",
+		},
+		[3104] = {
+			["LastKillAt"] = 1695958920,
+			["Kills"] = 5,
+			["Name"] = "Makrura Shellhide",
+		},
+		[3232] = {
+			["LastKillAt"] = 1696005467,
+			["Kills"] = 6,
+			["Name"] = "Bristleback Interloper",
+		},
+		[2978] = {
+			["LastKillAt"] = 1696006297,
+			["Kills"] = 16,
+			["Name"] = "Venture Co. Worker",
+		},
+		[3106] = {
+			["LastKillAt"] = 1695959219,
+			["Kills"] = 15,
+			["Name"] = "Pygmy Surf Crawler",
+		},
+		[3234] = {
+			["Name"] = "Lost Barrens Kodo",
+			["Kills"] = 0,
+		},
+		[11858] = {
+			["Name"] = "Grundig Darkcloud",
+			["Kills"] = 0,
+		},
+		[3110] = {
+			["LastKillAt"] = 1695965811,
+			["Kills"] = 4,
+			["Name"] = "Dreadmaw Crocolisk",
+		},
+		[5951] = {
+			["Name"] = "Hare",
+			["Kills"] = 0,
+		},
+		[3112] = {
+			["LastKillAt"] = 1695962890,
+			["Kills"] = 4,
+			["Name"] = "Razormane Scout",
+		},
+		[3240] = {
+			["LastKillAt"] = 1696139577,
+			["Kills"] = 1,
+			["Name"] = "Stormsnout",
+		},
+		[3113] = {
+			["LastKillAt"] = 1695963158,
+			["Kills"] = 3,
+			["Name"] = "Razormane Dustrunner",
+		},
+		[6466] = {
+			["Name"] = "Gamon",
+			["Kills"] = 0,
+		},
+		[3114] = {
+			["LastKillAt"] = 1696041527,
+			["Kills"] = 4,
+			["Name"] = "Razormane Battleguard",
+		},
+		[3242] = {
+			["LastKillAt"] = 1696094503,
+			["Kills"] = 14,
+			["Name"] = "Zhevra Runner",
+		},
+		[3115] = {
+			["LastKillAt"] = 1695966360,
+			["Kills"] = 5,
+			["Name"] = "Dustwind Harpy",
+		},
+		[3243] = {
+			["LastKillAt"] = 1696093894,
+			["Kills"] = 2,
+			["Name"] = "Savannah Highmane",
+		},
+		[3116] = {
+			["LastKillAt"] = 1695967936,
+			["Kills"] = 2,
+			["Name"] = "Dustwind Pillager",
+		},
+		[3244] = {
+			["LastKillAt"] = 1696093793,
+			["Kills"] = 29,
+			["Name"] = "Greater Plainstrider",
+		},
+		[3117] = {
+			["LastKillAt"] = 1695967844,
+			["Kills"] = 7,
+			["Name"] = "Dustwind Savage",
+		},
+		[3245] = {
+			["LastKillAt"] = 1696153225,
+			["Kills"] = 7,
+			["Name"] = "Ornery Plainstrider",
+		},
+		[3118] = {
+			["LastKillAt"] = 1695967808,
+			["Kills"] = 6,
+			["Name"] = "Dustwind Storm Witch",
+		},
+		[3246] = {
+			["LastKillAt"] = 1696044844,
+			["Kills"] = 11,
+			["Name"] = "Fleeting Plainstrider",
+		},
+		[3119] = {
+			["LastKillAt"] = 1695962109,
+			["Kills"] = 6,
+			["Name"] = "Kolkar Drudge",
+		},
+		[3247] = {
+			["Name"] = "Thunderhawk Hatchling",
+			["Kills"] = 0,
+		},
+		[3120] = {
+			["LastKillAt"] = 1695962162,
+			["Kills"] = 2,
+			["Name"] = "Kolkar Outrunner",
+		},
+		[3248] = {
+			["Name"] = "Barrens Giraffe",
+			["Kills"] = 0,
+		},
+		[3121] = {
+			["LastKillAt"] = 1695961786,
+			["Kills"] = 7,
+			["Name"] = "Durotar Tiger",
+		},
+		[11912] = {
+			["LastKillAt"] = 1696146720,
+			["Kills"] = 3,
+			["Name"] = "Grimtotem Brute",
+		},
+		[3122] = {
+			["LastKillAt"] = 1695961067,
+			["Kills"] = 2,
+			["Name"] = "Bloodtalon Taillasher",
+		},
+		[3123] = {
+			["Name"] = "Bloodtalon Scythemaw",
+			["Kills"] = 0,
+		},
+		[3124] = {
+			["LastKillAt"] = 1695874002,
+			["Kills"] = 12,
+			["Name"] = "Scorpid Worker",
+		},
+		[3380] = {
+			["LastKillAt"] = 1696095226,
+			["Kills"] = 4,
+			["Name"] = "Burning Blade Acolyte",
+		},
+		[3381] = {
+			["LastKillAt"] = 1696136867,
+			["Kills"] = 7,
+			["Name"] = "Southsea Brigand",
+		},
+		[3254] = {
+			["LastKillAt"] = 1696094811,
+			["Kills"] = 4,
+			["Name"] = "Sunscale Lashtail",
+		},
+		[3382] = {
+			["LastKillAt"] = 1696136970,
+			["Kills"] = 8,
+			["Name"] = "Southsea Cannoneer",
+		},
+		[3255] = {
+			["LastKillAt"] = 1696139266,
+			["Kills"] = 11,
+			["Name"] = "Sunscale Screecher",
+		},
+		[3128] = {
+			["LastKillAt"] = 1695958261,
+			["Kills"] = 15,
+			["Name"] = "Kul Tiras Sailor",
+		},
+		[3256] = {
+			["LastKillAt"] = 1696139455,
+			["Kills"] = 16,
+			["Name"] = "Sunscale Scytheclaw",
+		},
+		[3129] = {
+			["LastKillAt"] = 1695957928,
+			["Kills"] = 8,
+			["Name"] = "Kul Tiras Marine",
+		},
+		[2620] = {
+			["Name"] = "Prairie Dog",
+			["Kills"] = 0,
+		},
+		[3258] = {
+			["LastKillAt"] = 1696156445,
+			["Kills"] = 3,
+			["Name"] = "Bristleback Hunter",
+		},
+		[3131] = {
+			["Name"] = "Lightning Hide",
+			["Kills"] = 0,
+		},
+		[3260] = {
+			["LastKillAt"] = 1696156304,
+			["Kills"] = 5,
+			["Name"] = "Bristleback Water Seeker",
+		},
+		[10685] = {
+			["Name"] = "Swine",
+			["Kills"] = 0,
+		},
+		[3265] = {
+			["LastKillAt"] = 1696040389,
+			["Kills"] = 3,
+			["Name"] = "Razormane Hunter",
+		},
+		[3266] = {
+			["LastKillAt"] = 1696095746,
+			["Kills"] = 3,
+			["Name"] = "Razormane Defender",
+		},
+		[3394] = {
+			["LastKillAt"] = 1696129757,
+			["Kills"] = 1,
+			["Name"] = "Barak Kodobane",
+		},
+		[3267] = {
+			["LastKillAt"] = 1696040606,
+			["Kills"] = 8,
+			["Name"] = "Razormane Water Seeker",
+		},
+		[3395] = {
+			["LastKillAt"] = 1696138146,
+			["Kills"] = 1,
+			["Name"] = "Verog the Dervish",
+		},
+		[3268] = {
+			["LastKillAt"] = 1696040582,
+			["Kills"] = 7,
+			["Name"] = "Razormane Thornweaver",
+		},
+		[3396] = {
+			["Name"] = "Hezrul Bloodmark",
+			["Kills"] = 0,
+		},
+		[3269] = {
+			["LastKillAt"] = 1696095982,
+			["Kills"] = 1,
+			["Name"] = "Razormane Geomancer",
+		},
+		[3397] = {
+			["LastKillAt"] = 1696139292,
+			["Kills"] = 1,
+			["Name"] = "Kolkar Bloodcharger",
+		},
+		[3653] = {
+			["Name"] = "Kresh",
+			["Kills"] = 0,
+		},
+		[3271] = {
+			["LastKillAt"] = 1696095730,
+			["Kills"] = 6,
+			["Name"] = "Razormane Mystic",
+		},
+		[3272] = {
+			["LastKillAt"] = 1696142298,
+			["Kills"] = 14,
+			["Name"] = "Kolkar Wrangler",
+		},
+		[9456] = {
+			["Name"] = "Warlord Krom'zar",
+			["Kills"] = 0,
+		},
+		[3273] = {
+			["LastKillAt"] = 1696142283,
+			["Kills"] = 12,
+			["Name"] = "Kolkar Stormer",
+		},
+		[5766] = {
+			["Name"] = "Savannah Cub",
+			["Kills"] = 0,
+		},
+		[3274] = {
+			["LastKillAt"] = 1696139336,
+			["Kills"] = 2,
+			["Name"] = "Kolkar Pack Runner",
+		},
+		[3275] = {
+			["Name"] = "Kolkar Marauder",
+			["Kills"] = 0,
+		},
+		[3276] = {
+			["LastKillAt"] = 1696142616,
+			["Kills"] = 16,
+			["Name"] = "Witchwing Harpy",
+		},
+		[3277] = {
+			["LastKillAt"] = 1696144583,
+			["Kills"] = 15,
+			["Name"] = "Witchwing Roguefeather",
+		},
+		[3278] = {
+			["LastKillAt"] = 1696152862,
+			["Kills"] = 23,
+			["Name"] = "Witchwing Slayer",
+		},
+		[11520] = {
+			["LastKillAt"] = 1696122553,
+			["Kills"] = 1,
+			["Name"] = "Taragaman the Hungerer",
+		},
+		[3279] = {
+			["LastKillAt"] = 1696143640,
+			["Kills"] = 1,
+			["Name"] = "Witchwing Ambusher",
+		},
+		[3280] = {
+			["LastKillAt"] = 1696143574,
+			["Kills"] = 4,
+			["Name"] = "Witchwing Windcaller",
+		},
+		[5780] = {
+			["Name"] = "Cloned Ectoplasm",
+			["Kills"] = 0,
+		},
+		[3281] = {
+			["LastKillAt"] = 1695872498,
+			["Kills"] = 2,
+			["Name"] = "Sarkoth",
+		},
+		[3282] = {
+			["LastKillAt"] = 1696135132,
+			["Kills"] = 4,
+			["Name"] = "Venture Co. Mercenary",
+		},
+		[3284] = {
+			["LastKillAt"] = 1696135087,
+			["Kills"] = 11,
+			["Name"] = "Venture Co. Drudger",
+		},
+		[8996] = {
+			["LastKillAt"] = 1696123129,
+			["Kills"] = 10,
+			["Name"] = "Voidwalker Minion",
+		},
+		[3286] = {
+			["Name"] = "Venture Co. Overseer",
+			["Kills"] = 0,
+		},
+		[4263] = {
+			["LastKillAt"] = 1696148992,
+			["Kills"] = 12,
+			["Name"] = "Deepmoss Hatchling",
+		},
+		[3415] = {
+			["LastKillAt"] = 1696135830,
+			["Kills"] = 10,
+			["Name"] = "Savannah Huntress",
+		},
+		[9524] = {
+			["LastKillAt"] = 1696141352,
+			["Kills"] = 7,
+			["Name"] = "Kolkar Invader",
+		},
+		[3035] = {
+			["LastKillAt"] = 1696000129,
+			["Kills"] = 5,
+			["Name"] = "Flatland Cougar",
+		},
+		[11319] = {
+			["LastKillAt"] = 1696121976,
+			["Kills"] = 3,
+			["Name"] = "Ragefire Shaman",
+		},
+		[11321] = {
+			["LastKillAt"] = 1696122217,
+			["Kills"] = 3,
+			["Name"] = "Molten Elemental",
+		},
+		[11323] = {
+			["LastKillAt"] = 1696122470,
+			["Kills"] = 1,
+			["Name"] = "Searing Blade Enforcer",
+		},
+		[4129] = {
+			["LastKillAt"] = 1696156570,
+			["Kills"] = 1,
+			["Name"] = "Hecklefang Snarler",
+		},
+		[2914] = {
+			["Name"] = "Snake",
+			["Kills"] = 0,
+		},
+		[3261] = {
+			["LastKillAt"] = 1696156387,
+			["Kills"] = 1,
+			["Name"] = "Bristleback Thornweaver",
+		},
+		[3425] = {
+			["LastKillAt"] = 1696116699,
+			["Kills"] = 9,
+			["Name"] = "Savannah Prowler",
+		},
+		[3991] = {
+			["Name"] = "Venture Co. Deforester",
+			["Kills"] = 0,
+		},
+		[3426] = {
+			["Name"] = "Zhevra Charger",
+			["Kills"] = 0,
+		},
+		[3640] = {
+			["Name"] = "Evolving Ectoplasm",
+			["Kills"] = 0,
+		},
+		[5053] = {
+			["LastKillAt"] = 1696204182,
+			["Kills"] = 1,
+			["Name"] = "Deviate Crocolisk",
+		},
+		[3300] = {
+			["Name"] = "Adder",
+			["Kills"] = 0,
+		},
+		[4005] = {
+			["LastKillAt"] = 1696148905,
+			["Kills"] = 7,
+			["Name"] = "Deepmoss Creeper",
+		},
+		[4264] = {
+			["Name"] = "Deepmoss Matriarch",
+			["Kills"] = 0,
+		},
+		[3939] = {
+			["LastKillAt"] = 1696096006,
+			["Kills"] = 4,
+			["Name"] = "Razormane Wolf",
+		},
+		[5823] = {
+			["LastKillAt"] = 1696041457,
+			["Kills"] = 1,
+			["Name"] = "Death Flayer",
+		},
+		[6145] = {
+			["Name"] = "School of Fish",
+			["Kills"] = 0,
+		},
+		[4007] = {
+			["LastKillAt"] = 1696149136,
+			["Kills"] = 6,
+			["Name"] = "Deepmoss Venomspitter",
+		},
+		[3641] = {
+			["Name"] = "Deviate Lurker",
+			["Kills"] = 0,
+		},
+		[11910] = {
+			["LastKillAt"] = 1696147042,
+			["Kills"] = 2,
+			["Name"] = "Grimtotem Ruffian",
+		},
+		[3461] = {
+			["Name"] = "Oasis Snapjaw",
+			["Kills"] = 0,
+		},
+		[5829] = {
+			["Name"] = "Snort the Heckler",
+			["Kills"] = 0,
+		},
+		[5830] = {
+			["Name"] = "Sister Rathtalon",
+			["Kills"] = 0,
+		},
+		[3051] = {
+			["LastKillAt"] = 1696006155,
+			["Kills"] = 2,
+			["Name"] = "Supervisor Fizsprocket",
+		},
+		[3385] = {
+			["Name"] = "Theramore Marine",
+			["Kills"] = 0,
+		},
+		[3205] = {
+			["LastKillAt"] = 1695960541,
+			["Kills"] = 1,
+			["Name"] = "Zalazane",
+		},
+		[3285] = {
+			["LastKillAt"] = 1696133338,
+			["Kills"] = 3,
+			["Name"] = "Venture Co. Peon",
+		},
+		[4073] = {
+			["Name"] = "XT:4",
+			["Kills"] = 0,
+		},
+		[3204] = {
+			["LastKillAt"] = 1695969493,
+			["Kills"] = 1,
+			["Name"] = "Gazz'uz",
+		},
+		[5837] = {
+			["Name"] = "Stonearm",
+			["Kills"] = 0,
+		},
+		[3438] = {
+			["LastKillAt"] = 1696095676,
+			["Kills"] = 1,
+			["Name"] = "Kreenig Snarlsnout",
+		},
+		[6606] = {
+			["LastKillAt"] = 1696134841,
+			["Kills"] = 1,
+			["Name"] = "Overseer Glibby",
+		},
+		[3183] = {
+			["LastKillAt"] = 1695873805,
+			["Kills"] = 1,
+			["Name"] = "Yarrog Baneshadow",
+		},
+		[3566] = {
+			["LastKillAt"] = 1696005548,
+			["Kills"] = 2,
+			["Name"] = "Flatland Prowler",
+		},
+		[3111] = {
+			["LastKillAt"] = 1695962786,
+			["Kills"] = 4,
+			["Name"] = "Razormane Quilboar",
+		},
+		[3125] = {
+			["LastKillAt"] = 1695959542,
+			["Kills"] = 1,
+			["Name"] = "Clattering Scorpid",
+		},
+		[11911] = {
+			["LastKillAt"] = 1696147013,
+			["Kills"] = 3,
+			["Name"] = "Grimtotem Mercenary",
+		},
+		[3823] = {
+			["Name"] = "Ghostpaw Runner",
+			["Kills"] = 0,
+		},
+		[4316] = {
+			["LastKillAt"] = 1696139330,
+			["Kills"] = 3,
+			["Name"] = "Kolkar Packhound",
+		},
+		[3127] = {
+			["LastKillAt"] = 1696041576,
+			["Kills"] = 16,
+			["Name"] = "Venomtail Scorpid",
+		},
+		[6020] = {
+			["Name"] = "Slimeshell Makrura",
+			["Kills"] = 0,
+		},
+		[11921] = {
+			["LastKillAt"] = 1696147894,
+			["Kills"] = 1,
+			["Name"] = "Besseleth",
+		},
+		[2979] = {
+			["LastKillAt"] = 1696006323,
+			["Kills"] = 17,
+			["Name"] = "Venture Co. Supervisor",
+		},
+		[3130] = {
+			["Name"] = "Thunder Lizard",
+			["Kills"] = 0,
+		},
+		[2989] = {
+			["LastKillAt"] = 1696001372,
+			["Kills"] = 7,
+			["Name"] = "Bael'dun Digger",
+		},
+		[3379] = {
+			["LastKillAt"] = 1696095202,
+			["Kills"] = 1,
+			["Name"] = "Burning Blade Bruiser",
+		},
+		[3445] = {
+			["Name"] = "Supervisor Lugwizzle",
+			["Kills"] = 0,
+		},
+		[4166] = {
+			["Name"] = "Gazelle",
+			["Kills"] = 0,
+		},
+		[3241] = {
+			["LastKillAt"] = 1696119653,
+			["Kills"] = 1,
+			["Name"] = "Savannah Patriarch",
+		},
+		[6494] = {
+			["Name"] = "Tazan",
+			["Kills"] = 0,
+		},
+		[3192] = {
+			["Name"] = "Lieutenant Benedict",
+			["Kills"] = 0,
+		},
+		[3197] = {
+			["LastKillAt"] = 1695969602,
+			["Kills"] = 5,
+			["Name"] = "Burning Blade Fanatic",
+		},
+		[3101] = {
+			["LastKillAt"] = 1695873856,
+			["Kills"] = 10,
+			["Name"] = "Vile Familiar",
+		},
+		[11518] = {
+			["Name"] = "Jergosh the Invoker",
+			["Kills"] = 0,
+		},
+		[11517] = {
+			["Name"] = "Oggleflint",
+			["Kills"] = 0,
+		},
+		[12922] = {
+			["LastKillAt"] = 1696038923,
+			["Kills"] = 3,
+			["Name"] = "Imp Minion",
+		},
+		[3195] = {
+			["LastKillAt"] = 1696038980,
+			["Kills"] = 2,
+			["Name"] = "Burning Blade Thug",
+		},
+		[3068] = {
+			["LastKillAt"] = 1696002331,
+			["Kills"] = 1,
+			["Name"] = "Mazzranache",
+		},
+		[3196] = {
+			["LastKillAt"] = 1696038908,
+			["Kills"] = 4,
+			["Name"] = "Burning Blade Neophyte",
+		},
+		[9523] = {
+			["LastKillAt"] = 1696141310,
+			["Kills"] = 3,
+			["Name"] = "Kolkar Stormseer",
+		},
+		[3452] = {
+			["Name"] = "Serena Bloodfeather",
+			["Kills"] = 0,
+		},
+		[3835] = {
+			["Name"] = "Biletoad",
+			["Kills"] = 0,
+		},
+		[3198] = {
+			["LastKillAt"] = 1695969052,
+			["Kills"] = 1,
+			["Name"] = "Burning Blade Apprentice",
+		},
+		[3630] = {
+			["Name"] = "Deviate Coiler",
+			["Kills"] = 0,
+		},
+		[3199] = {
+			["LastKillAt"] = 1696038932,
+			["Kills"] = 3,
+			["Name"] = "Burning Blade Cultist",
+		},
+		[3206] = {
+			["LastKillAt"] = 1695960853,
+			["Kills"] = 4,
+			["Name"] = "Voodoo Troll",
+		},
+		[3632] = {
+			["Name"] = "Deviate Creeper",
+			["Kills"] = 0,
+		},
+		[11913] = {
+			["LastKillAt"] = 1696147035,
+			["Kills"] = 2,
+			["Name"] = "Grimtotem Sorcerer",
+		},
+		[2957] = {
+			["Name"] = "Elder Plainstrider",
+			["Kills"] = 0,
+		},
+		[3633] = {
+			["LastKillAt"] = 1696203677,
+			["Kills"] = 2,
+			["Name"] = "Deviate Slayer",
+		},
+		[4006] = {
+			["LastKillAt"] = 1696147632,
+			["Kills"] = 1,
+			["Name"] = "Deepmoss Webspinner",
+		},
+		[3840] = {
+			["LastKillAt"] = 1696204120,
+			["Kills"] = 1,
+			["Name"] = "Druid of the Fang",
+		},
+		[3203] = {
+			["Name"] = "Fizzle Darkstorm",
+			["Kills"] = 0,
+		},
+		[3989] = {
+			["LastKillAt"] = 1696150162,
+			["Kills"] = 6,
+			["Name"] = "Venture Co. Logger",
+		},
+		[2949] = {
+			["LastKillAt"] = 1696000945,
+			["Kills"] = 13,
+			["Name"] = "Palemane Tanner",
+		},
+		[11324] = {
+			["LastKillAt"] = 1696122834,
+			["Kills"] = 1,
+			["Name"] = "Searing Blade Warlock",
+		},
+		[2950] = {
+			["LastKillAt"] = 1696001034,
+			["Kills"] = 9,
+			["Name"] = "Palemane Skinner",
+		},
+		[3680] = {
+			["Name"] = "Serpentbloom Snake",
+			["Kills"] = 0,
+		},
+		[2951] = {
+			["LastKillAt"] = 1696001072,
+			["Kills"] = 5,
+			["Name"] = "Palemane Poacher",
+		},
+		[3638] = {
+			["LastKillAt"] = 1696203437,
+			["Kills"] = 2,
+			["Name"] = "Devouring Ectoplasm",
+		},
+		[3207] = {
+			["LastKillAt"] = 1695961105,
+			["Kills"] = 7,
+			["Name"] = "Hexed Troll",
+		},
+		[3631] = {
+			["Name"] = "Deviate Stinglash",
+			["Kills"] = 0,
+		},
+		[3463] = {
+			["Name"] = "Wandering Barrens Giraffe",
+			["Kills"] = 0,
+		},
+		[3634] = {
+			["Name"] = "Deviate Stalker",
+			["Kills"] = 0,
+		},
+		[2990] = {
+			["LastKillAt"] = 1696001328,
+			["Kills"] = 4,
+			["Name"] = "Bael'dun Appraiser",
+		},
+		[5893] = {
+			["LastKillAt"] = 1696041873,
+			["Kills"] = 1,
+			["Name"] = "Minor Manifestation of Fire",
+		},
+		[3636] = {
+			["Name"] = "Deviate Ravager",
+			["Kills"] = 0,
+		},
+		[2971] = {
+			["Name"] = "Taloned Swoop",
+			["Kills"] = 0,
+		},
+		[3637] = {
+			["LastKillAt"] = 1696203780,
+			["Kills"] = 1,
+			["Name"] = "Deviate Guardian",
+		},
+	},
+}

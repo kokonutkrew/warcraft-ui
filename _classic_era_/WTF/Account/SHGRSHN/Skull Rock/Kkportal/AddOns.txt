@@ -112,7 +112,7 @@ WhereToGatherClassic: disabled
 +Wowhead_Looter: disabled
 [KK]: enabled
 Ace3: disabled
-Deathlog: disabled
+Deathlog: enabled
 ClassicLootManager_Alerts: disabled
 ClassicLootManager_Integrations: disabled
 ClassicLootManager_Tracker: disabled
@@ -120,3 +120,4 @@ ClassicLootManager: disabled
 Guildbook_ClassicEra: enabled
 LibDBIcon-1.0: disabled
 Myslot: disabled
+PriceAnswer: disabled

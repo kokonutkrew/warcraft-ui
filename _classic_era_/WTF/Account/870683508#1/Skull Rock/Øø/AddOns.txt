@@ -1,0 +1,3 @@
+GreenWall: disabled
+Blizzard_CompactRaidFrames: enabled
+Blizzard_CombatText: enabled

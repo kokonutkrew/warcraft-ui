@@ -1,0 +1,1157 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301878.666,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 124,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
+					["timestamp"] = 301878.666,
+				}, -- [1]
+				{
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 301878.666,
+				}, -- [2]
+				{
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 301878.666,
+				}, -- [3]
+				{
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 301878.666,
+				}, -- [4]
+				{
+					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 301878.666,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:44]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 301878.666,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:57]|h|r |cff33ff99Gnosis|r: Gnosis v5.07 (v5.09) loaded (enabled)",
+					["timestamp"] = 301923.885,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:57]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 301923.885,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:58]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 301923.885,
+					["serverTime"] = 1695555423,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:58]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["r"] = 1,
+					["serverTime"] = 1695555423,
+					["timestamp"] = 301923.885,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:36:58]|h|r Registered character: Kktailor-Whitemane",
+					["timestamp"] = 301923.885,
+					["serverTime"] = 1695555423,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:00]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1695555425,
+					["timestamp"] = 301923.885,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:00]|h|r You are not in a guild.",
+					["serverTime"] = 1695555425,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301926.778,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:01]|h|r |Hchannel:channel:7|h[7] |h Changed Channel: |Hchannel:CHANNEL:7|h[7. kk]|h",
+					["serverTime"] = 1695555426,
+					["r"] = 1,
+					["extraData"] = {
+						75, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301927.653,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 301928.591,
+					["serverTime"] = 1695555427,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff33ff99Questie|r: [Migration] Migrating Questie for v6.0.0",
+					["timestamp"] = 301928.591,
+					["serverTime"] = 1695555427,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff33ff99Questie|r: [Migration] Migrated Questie to v6.0.0 and removed 0 party entries from the Journey",
+					["timestamp"] = 301928.591,
+					["serverTime"] = 1695555427,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 301928.591,
+					["serverTime"] = 1695555427,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 301928.591,
+					["serverTime"] = 1695555427,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff33ff99HonorSpy|r: All data was purged",
+					["timestamp"] = 301928.888,
+					["serverTime"] = 1695555427,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff33ff99HonorSpy|r: Weekly data was reset",
+					["timestamp"] = 301928.888,
+					["serverTime"] = 1695555427,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Shield - Minor Stamina was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Heavy Woolen Gloves was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:6326::::::::30:::::::::|h[Recipe: Slitherskin Mackerel]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Bolt of Silk Cloth was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Anti-Venom was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:6325::::::::30:::::::::|h[Recipe: Brilliant Smallfish]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffff00[Level 10]|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:5488::::::::30:::::::::|h[Recipe: Crispy Lizard Tail]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Summon Imp was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:6274::::::::30:::::::::|h[Pattern: Blue Overalls]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Summon Succubus was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:21099::::::::30:::::::::|h[Recipe: Smoked Sagefish]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Chest - Lesser Health was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Coyote Steak was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffff00[Level 30]|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Lesser Magic Wand was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Woolen Boots was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Goblin Deviled Clams was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchanting was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:3734::::::::30:::::::::|h[Recipe: Big Bear Steak]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:6272::::::::30:::::::::|h[Pattern: Blue Linen Robe]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Pearl-clasped Cloak was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff1eff00|Hitem:6342::::::::30:::::::::|h[Formula: Enchant Chest - Minor Mana]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Spidersilk Boots was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff1eff00|Hitem:6661::::::::30:::::::::|h[Recipe: Savory Deviate Delight]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r White Linen Shirt was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Heavy Woolen Pants was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Handstitched Linen Britches was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Gloves of Meditation was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:5772::::::::30:::::::::|h[Pattern: Red Woolen Bag]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r White Linen Robe was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Greater Magic Wand was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Woolen Bag was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Brown Linen Robe was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Bolt of Woolen Cloth was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffff00[Wailing Caverns]|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Wool Bandage was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:6330::::::::30:::::::::|h[Recipe: Bristle Whisker Catfish]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Bracer - Minor Stamina was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Barbaric Linen Vest was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Summon Voidwalker was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Spiced Wolf Meat was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:20758::::::::30:::::::::|h[Formula: Minor Wizard Oil]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Heavy Linen Bandage was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Runed Silver Rod was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Cloak - Minor Protection was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Chest - Minor Absorption was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Soft-soled Linen Boots was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Crab Cake was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Dry Pork Ribs was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Boiled Clams was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff1eff00|Hitem:2598::::::::30:::::::::|h[Pattern: Red Linen Robe]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:3735::::::::30:::::::::|h[Recipe: Hot Lion Chops]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffff00[Level 20]|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cff1eff00|Hitem:4292::::::::30:::::::::|h[Pattern: Green Woolen Bag]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Linen Bag was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Chest - Minor Health was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r Enchant Cloak - Minor Resistance was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:02]|h|r |cffffffff|Hitem:5486::::::::30:::::::::|h[Recipe: Strider Stew]|h|r was added to your collection!",
+					["timestamp"] = 301929.037,
+					["serverTime"] = 1695555427,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Denia:4836:CHANNEL:6|h|cffc69b6dDenia|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000k tank dps",
+					["serverTime"] = 1695555429,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301930.731,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:05]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
+					["timestamp"] = 301931.649,
+					["serverTime"] = 1695555430,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:05]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
+					["timestamp"] = 301931.649,
+					["serverTime"] = 1695555430,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:05]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
+					["timestamp"] = 301931.649,
+					["serverTime"] = 1695555430,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:05]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Topdog:4837:CHANNEL:6|h|cff3fc6eaTopdog|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|tWTS Mara Boost Service|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t 300-330+ Mobs FFA LOOT  min lv 30-50 AFkable (epic no RES)no summ 1 spot left",
+					["serverTime"] = 1695555430,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301932.268,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:07]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 301933.893,
+					["serverTime"] = 1695555432,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:07]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 301933.893,
+					["serverTime"] = 1695555432,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dudepakas:4838:CHANNEL:6|h|cff8787edDudepakas|r|h|cffd8d8d8]|r: LFM SM LIB - CAN SUMMON |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1695555439,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301940.601,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dudepakas-Whitemane:4839:CHANNEL:6|h|cff8787edDudepakas|r|h|cffd8d8d8]|r: LFM SM LIB - CAN SUMMON |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1695555439,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301940.818,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:15]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Habiba:4840:CHANNEL:6|h|cff3fc6eaHabiba|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t SELLING STRATH BOOST 170-200+ MOBS || FAST AND SMOOTH RUNS |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t NO SUMMON - 1 spot left",
+					["serverTime"] = 1695555440,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301942.139,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:24]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Pantora-Anathema:4841:CHANNEL:6|h|cffaad372Pantora|r-|cffc982e1Ana|r|h|cffd8d8d8]|r: LF tank Mara full then gtg",
+					["serverTime"] = 1695555449,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301951.154,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:27]|h|r Your character jumped.",
+					["timestamp"] = 301953.884,
+					["serverTime"] = 1695555452,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Pantora-Anathema:4842:CHANNEL:6|h|cffaad372Pantora|r-|cffc982e1Ana|r|h|cffd8d8d8]|r: have summons",
+					["serverTime"] = 1695555452,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301954.369,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:31]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rip-Anathema:4843:CHANNEL:6|h|cfffff468Rip|r-|cffc982e1Ana|r|h|cffd8d8d8]|r: |Hquestie:6583:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60] The Test of Skulls, Somnus|r|cFFFF1A1A]|r|h|Hquestie:6584:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60] The Test of Skulls, Chronalis|r|cFFFF1A1A]|r|h|Hquestie:6582:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60] The Test of Skulls, Scryer|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1695555456,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301957.896,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:31]|h|r |Hchannel:channel:5|h[5] |h |cffffff00Sun Rock Retreat is under attack!|r",
+					["serverTime"] = 1695555456,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301958.085,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:33]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Warning:4845:CHANNEL:6|h|cff3fc6eaWarning|r|h|cffd8d8d8]|r: WTS SFK CARRY FULL RUN+KILL ARUGAL  3 SPOT",
+					["serverTime"] = 1695555458,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301960.189,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Fetti:4846:CHANNEL:6|h|cffc69b6dFetti|r|h|cffd8d8d8]|r: LF 1 Heals 2 DPS LBRS PST",
+					["serverTime"] = 1695555459,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301961.376,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nakani:4847:CHANNEL:6|h|cff3fc6eaNakani|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t ZG duo - 1 spot |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t NORMAL BOOST NO FLY HACK",
+					["serverTime"] = 1695555462,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301964.175,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:43]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Vanhouten:4850:CHANNEL:6|h|cff3fc6eaVanhouten|r|h|cffd8d8d8]|r: WTB Rod of the Ogre Magi",
+					["serverTime"] = 1695555468,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301970.591,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rip-Anathema:4851:CHANNEL:6|h|cfffff468Rip|r-|cffc982e1Ana|r|h|cffd8d8d8]|r: |Hquestie:6583:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60R] The Test of Skulls, Somnus|r|cFFFF1A1A]|r|h|Hquestie:6584:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60R] The Test of Skulls, Chronalis|r|cFFFF1A1A]|r|h|Hquestie:6582:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60R] The Test of Skulls, Scryer|r|cFFFF1A1A]|r|h LFM",
+					["serverTime"] = 1695555473,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301975.136,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:37:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Agroplz-Thunderfury:4852:CHANNEL:6|h|cffc69b6dAgroplz|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTB MARA BOOST NEED SUMMON",
+					["serverTime"] = 1695555479,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301981.51,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:05]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Donsai:4853:CHANNEL:6|h|cff3fc6eaDonsai|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t WTS |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t STRAT BOOST |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t 170-210 MOBS |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t BIG EXP /RUN FFA LOOT GET 400 REP NAX CHEAP PRICE PST!!! |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t  3/4  SPOT LEFT!!!",
+					["serverTime"] = 1695555490,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301992.423,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r You gain 2350 experience.",
+					["serverTime"] = 1695555492,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						34, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Congratulations, you have reached level 31!",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r You have gained 29 hit points and 51 mana.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r You have gained 1 talent point.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your Stamina increases by 1.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your Intellect increases by 1.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your Spirit increases by 2.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your Thunder Bluff reputation has increased by 100.",
+					["serverTime"] = 1695555492,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your skill in Destruction has increased to 155.",
+					["serverTime"] = 1695555492,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your skill in Demonology has increased to 155.",
+					["serverTime"] = 1695555492,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Your skill in Affliction has increased to 155.",
+					["serverTime"] = 1695555492,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301993.894,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r You receive item: |cff1eff00|Hitem:15468::::::::31:::::::::|h[Windsong Drape]|h|r.",
+					["serverTime"] = 1695555492,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301994.383,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Free at Last completed.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301994.383,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:07]|h|r Experience gained: 2350.",
+					["serverTime"] = 1695555492,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301994.383,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:08]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dudepakas-Whitemane:4862:CHANNEL:6|h|cff8787edDudepakas|r|h|cffd8d8d8]|r: LF3M SM LIB - TANK AND DPS - CAN SUMMON |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1695555493,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301995.146,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:09]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dudepakas-Whitemane:4863:CHANNEL:6|h|cff8787edDudepakas|r|h|cffd8d8d8]|r: LF3M SM LIB - TANK AND DPS - CAN SUMMON |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1695555494,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 301995.647,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Haroldramis-ArcaniteReaper:4864:CHANNEL:6|h|cfffff468Haroldramis|r-|cfff46323Arc|r|h|cffd8d8d8]|r: LF SM boost",
+					["serverTime"] = 1695555510,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 302011.64,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nakani-Whitemane:4865:CHANNEL:6|h|cff3fc6eaNakani|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t ZG duo - 1 spot |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t NORMAL BOOST NO FLY HACK",
+					["serverTime"] = 1695555510,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 302011.874,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Fetti-Whitemane:4866:CHANNEL:6|h|cffc69b6dFetti|r|h|cffd8d8d8]|r: LF 1 Heals 2 DPS LBRS PST",
+					["serverTime"] = 1695555514,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 302015.868,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Agroplz-Thunderfury:4867:CHANNEL:6|h|cffc69b6dAgroplz|r-|cffea4475Thu|r|h|cffd8d8d8]|r: WTB MARA BOOST NEED SUMMON",
+					["serverTime"] = 1695555519,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 302021.198,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rip-Anathema:4868:CHANNEL:6|h|cfffff468Rip|r-|cffc982e1Ana|r|h|cffd8d8d8]|r: |Hquestie:6583:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60R] The Test of Skulls, Somnus|r|cFFFF1A1A]|r|h|Hquestie:6584:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60R] The Test of Skulls, Chronalis|r|cFFFF1A1A]|r|h|Hquestie:6582:Player-5066-01979C12|h|cFFFF1A1A[|r|cFFFF1A1A[60R] The Test of Skulls, Scryer|r|cFFFF1A1A]|r|h LFM",
+					["serverTime"] = 1695555520,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 302021.717,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:38:36]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dudepakas-Whitemane:4869:CHANNEL:6|h|cff8787edDudepakas|r|h|cffd8d8d8]|r: LF3M SM LIB - TANK AND DPS - CAN SUMMON |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1695555521,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 302022.769,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

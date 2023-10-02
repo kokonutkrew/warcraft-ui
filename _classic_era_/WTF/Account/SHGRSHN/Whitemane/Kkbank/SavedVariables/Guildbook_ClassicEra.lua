@@ -1,0 +1,2 @@
+
+GUILDBOOK_CHARACTER = nil

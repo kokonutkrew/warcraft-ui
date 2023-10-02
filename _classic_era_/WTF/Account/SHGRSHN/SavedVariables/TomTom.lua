@@ -1,6 +1,7 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+		["Kktailor - Whitemane"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
@@ -9,17 +10,19 @@ TomTomDB = {
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
-		["Samoanmystic - Grobbulus"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
 		["Øø - Skull Rock"] = "Default",
+		["Samoanranger - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Samoanranger - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -48,6 +51,7 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+		["Kktailor - Whitemane"] = "Kktailor - Whitemane",
 		["Samoanlegend - Grobbulus"] = "Samoanlegend - Grobbulus",
 		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanbeast - Grobbulus"] = "Samoanbeast - Grobbulus",
@@ -56,19 +60,23 @@ TomTomWaypointsM = {
 		["Dd - Grobbulus"] = "Dd - Grobbulus",
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
 		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
 		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
-		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
+		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
 	},
 	["profiles"] = {
+		["Kktailor - Whitemane"] = {
+		},
 		["Samoanlegend - Grobbulus"] = {
 		},
 		["Samoanslayer - Grobbulus"] = {
@@ -110,21 +118,19 @@ TomTomWaypointsM = {
 		},
 		["Samoanranger - Defias Pillager"] = {
 		},
+		["Samoanbank - Whitemane"] = {
+		},
+		["Kkbanker - Skull Rock"] = {
+		},
 		["Samoanmystic - Grobbulus"] = {
 		},
-		["Samoanbank - Whitemane"] = {
+		["Samoanbeast - Skull Rock"] = {
 		},
 		["Bannhammer - Skull Rock"] = {
 		},
 		["Kk - Grobbulus"] = {
 		},
-		["Goldenshots - Defias Pillager"] = {
-		},
 		["Øø - Skull Rock"] = {
-		},
-		["Samoansage - Grobbulus"] = {
-		},
-		["Cupcakeheals - Skull Rock"] = {
 		},
 		["Samoanranger - Grobbulus"] = {
 			[1412] = {
@@ -176,9 +182,15 @@ TomTomWaypointsM = {
 				},
 			},
 		},
+		["Samoansage - Grobbulus"] = {
+		},
+		["Cupcakeheals - Skull Rock"] = {
+		},
+		["Goldenshots - Defias Pillager"] = {
+		},
 		["Samoanrelic - Grobbulus"] = {
 		},
-		["Samoanbeast - Skull Rock"] = {
+		["Kkbank - Whitemane"] = {
 		},
 	},
 }

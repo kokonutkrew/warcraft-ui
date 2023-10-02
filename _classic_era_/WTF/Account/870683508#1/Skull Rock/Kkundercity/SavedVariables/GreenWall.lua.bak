@@ -1,0 +1,23 @@
+
+GreenWall = {
+	["created"] = "2023-10-01 14:35:54",
+	["log"] = false,
+	["debug"] = 0,
+	["joindelay"] = 30,
+	["verbose"] = false,
+	["updated"] = "2023-10-01 14:35:54",
+	["roster"] = true,
+	["logsize"] = 2048,
+	["version"] = "1.11.8+classic-era",
+	["redact"] = true,
+	["ochat"] = false,
+	["tag"] = true,
+}
+GreenWallMeta = {
+	["updated"] = "2023-10-01 14:47:24",
+	["mode"] = "account",
+	["version"] = "1.11.8+classic-era",
+	["created"] = "2023-10-01 14:35:54",
+}
+GreenWallLog = {
+}

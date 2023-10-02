@@ -38,8 +38,8 @@ AUCTIONATOR_CONFIG = {
 	},
 	["default_tab"] = 0,
 	["selling_reselect_item"] = {
-		["key"] = "item:8178::::::501",
-		["classID"] = 2,
+		["key"] = "item:4238::::::",
+		["classID"] = 1,
 	},
 	["undercut_items_ahead"] = 0,
 	["undercut_percentage"] = 0,
@@ -75,6 +75,8 @@ AUCTIONATOR_CONFIG = {
 	["historical_prices"] = {
 	},
 	["gear_vendor_price_multiplier"] = 0,
+	["columns_selling_search_3"] = {
+	},
 	["save_last_duration_as_default"] = false,
 	["columns_cancelling"] = {
 		["Items Ahead"] = false,
@@ -89,6 +91,26 @@ AUCTIONATOR_CONFIG = {
 		["Undercut Price"] = true,
 	},
 	["auction_mean_tooltips"] = false,
+	["crafting_info_show_cost"] = true,
+	["show_selling_bid_price"] = false,
+	["prospect_tooltips"] = false,
+	["columns_shopping_historical_prices"] = {
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Upper Unit Price"] = true,
+		["Available"] = false,
+	},
+	["starting_price_percentage_2"] = 95,
+	["auction_chat_log"] = true,
+	["auto_list_search"] = false,
+	["selling_post_stack_remainder"] = false,
+	["crafting_info_show_profit"] = true,
+	["mailbox_tooltips"] = true,
+	["auction_duration"] = 24,
+	["selling_bag_collapsed"] = false,
+	["default_list_2"] = "",
+	["selling_auto_select_next"] = false,
+	["auction_sales_preference"] = "static",
 	["columns_shopping"] = {
 		["Name"] = false,
 		["Available"] = false,
@@ -96,31 +118,10 @@ AUCTIONATOR_CONFIG = {
 		["Owned?"] = true,
 		["Top?"] = true,
 	},
-	["show_selling_bid_price"] = false,
-	["crafting_info_show_cost"] = true,
-	["columns_shopping_historical_prices"] = {
-		["Date"] = false,
-		["Unit Price"] = false,
-		["Upper Unit Price"] = true,
-		["Available"] = false,
-	},
-	["selling_auto_select_next"] = false,
-	["starting_price_percentage_2"] = 95,
-	["auto_list_search"] = false,
-	["crafting_info_show_profit"] = true,
-	["auction_chat_log"] = true,
-	["mailbox_tooltips"] = true,
-	["selling_post_stack_remainder"] = false,
-	["selling_bag_collapsed"] = false,
-	["auction_duration"] = 24,
-	["default_list_2"] = "",
-	["auction_sales_preference"] = "static",
-	["prospect_tooltips"] = false,
 	["splash_screen_version"] = "10.1.6",
 	["crafting_info_show"] = true,
-	["columns_selling_search_3"] = {
-	},
 	["selling_prev_shortcut"] = "BACKSPACE",
+	["selling_ignore_item_level"] = false,
 }
 AUCTIONATOR_SAVEDVARS = {
 }
@@ -131,156 +132,126 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["Skull Rock Horde"] = {
 		["4561"] = {
 			["a"] = {
-				[1342] = 4,
 			},
 			["l"] = {
-				[1342] = 599,
 			},
 			["h"] = {
-				[1342] = 600,
 			},
 			["m"] = 599,
 		},
 		["4362"] = {
 			["a"] = {
-				[1342] = 4,
-				[1344] = 4,
 			},
 			["l"] = {
-				[1342] = 525,
-				[1344] = 499,
 			},
 			["h"] = {
-				[1342] = 526,
-				[1344] = 500,
 			},
 			["m"] = 499,
 		},
 		["727"] = {
 			["a"] = {
-				[1342] = 13,
 			},
 			["l"] = {
-				[1342] = 564,
 			},
 			["h"] = {
-				[1342] = 565,
 			},
 			["m"] = 564,
 		},
 		["g:8178:10"] = {
 			["a"] = {
-				[1342] = 1,
 			},
 			["l"] = {
-				[1342] = 595,
 			},
 			["h"] = {
-				[1342] = 596,
-				[1344] = 595,
+			},
+			["m"] = 595,
+		},
+		["g:4362:10"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 499,
+		},
+		["8178"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
 			},
 			["m"] = 595,
 		},
 		["g:4561:11"] = {
 			["a"] = {
-				[1342] = 4,
 			},
 			["l"] = {
-				[1342] = 599,
 			},
 			["h"] = {
-				[1342] = 600,
 			},
 			["m"] = 599,
 		},
-		["g:4362:10"] = {
-			["a"] = {
-				[1342] = 4,
-				[1344] = 4,
-			},
-			["l"] = {
-				[1342] = 525,
-				[1344] = 499,
-			},
-			["h"] = {
-				[1342] = 526,
-				[1344] = 500,
-			},
-			["m"] = 499,
-		},
 		["g:727:10"] = {
 			["a"] = {
-				[1342] = 13,
 			},
 			["l"] = {
-				[1342] = 564,
 			},
 			["h"] = {
-				[1342] = 565,
 			},
 			["m"] = 564,
 		},
 		["g:15486:12"] = {
 			["a"] = {
-				[1342] = 3,
 			},
 			["l"] = {
-				[1342] = 538,
 			},
 			["h"] = {
-				[1342] = 539,
 			},
 			["m"] = 538,
-		},
-		["8178"] = {
-			["a"] = {
-				[1342] = 1,
-			},
-			["l"] = {
-				[1342] = 595,
-			},
-			["h"] = {
-				[1342] = 596,
-				[1344] = 595,
-			},
-			["m"] = 595,
 		},
 		["15486"] = {
 			["a"] = {
-				[1342] = 3,
 			},
 			["l"] = {
-				[1342] = 538,
 			},
 			["h"] = {
-				[1342] = 539,
 			},
 			["m"] = 538,
 		},
-		["g:5071:14"] = {
+		["4238"] = {
 			["a"] = {
-				[1344] = 19,
+				[1360] = 50,
 			},
 			["l"] = {
-				[1344] = 691,
+				[1360] = 248,
 			},
 			["h"] = {
-				[1344] = 692,
+				[1360] = 249,
+			},
+			["m"] = 248,
+		},
+		["g:5071:14"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
 			},
 			["m"] = 691,
 		},
 		["5071"] = {
 			["a"] = {
-				[1344] = 19,
 			},
 			["l"] = {
-				[1344] = 691,
 			},
 			["h"] = {
-				[1344] = 692,
 			},
 			["m"] = 691,
 		},
+	},
+	["Whitemane Horde"] = {
 	},
 }
 AUCTIONATOR_POSTING_HISTORY = {
@@ -323,13 +294,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 		}, -- [2]
 	},
 	["__dbversion"] = 1,
-	["g:4561:11"] = {
-		{
-			["price"] = 599,
-			["quantity"] = 1,
-			["time"] = 1693862546,
-		}, -- [1]
-	},
 	["g:4362:10"] = {
 		{
 			["price"] = 525,
@@ -349,11 +313,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1693862558,
 		}, -- [1]
 	},
-	["g:15486:12"] = {
+	["g:4561:11"] = {
 		{
-			["price"] = 538,
+			["price"] = 599,
 			["quantity"] = 1,
-			["time"] = 1693862558,
+			["time"] = 1693862546,
 		}, -- [1]
 	},
 	["g:727:10"] = {
@@ -361,6 +325,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["price"] = 564,
 			["quantity"] = 1,
 			["time"] = 1693862550,
+		}, -- [1]
+	},
+	["g:15486:12"] = {
+		{
+			["price"] = 538,
+			["quantity"] = 1,
+			["time"] = 1693862558,
 		}, -- [1]
 	},
 	["8178"] = {
@@ -374,6 +345,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["quantity"] = 1,
 			["time"] = 1694055532,
 		}, -- [2]
+	},
+	["4238"] = {
+		{
+			["price"] = 248,
+			["quantity"] = 15,
+			["time"] = 1695401938,
+		}, -- [1]
 	},
 	["g:5071:14"] = {
 		{
@@ -391,7 +369,34 @@ AUCTIONATOR_POSTING_HISTORY = {
 	},
 }
 AUCTIONATOR_VENDOR_PRICE_CACHE = {
+	["3371"] = 4,
+	["2321"] = 100,
+	["6530"] = 100,
+	["2604"] = 50,
+	["4291"] = 500,
+	["5956"] = 18,
+	["2320"] = 10,
+	["6532"] = 250,
+	["6256"] = 23,
+	["3713"] = 160,
+	["2678"] = 2,
+	["4289"] = 50,
 	["__dbversion"] = 1,
+	["6529"] = 50,
+	["3466"] = 2000,
+	["2928"] = 20,
+	["2901"] = 81,
+	["3372"] = 40,
+	["7005"] = 82,
+	["2605"] = 100,
+	["2880"] = 100,
+	["4399"] = 200,
+	["2692"] = 40,
+	["3857"] = 500,
+	["6260"] = 50,
+	["2324"] = 25,
+	["6217"] = 124,
+	["4400"] = 2000,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
 }

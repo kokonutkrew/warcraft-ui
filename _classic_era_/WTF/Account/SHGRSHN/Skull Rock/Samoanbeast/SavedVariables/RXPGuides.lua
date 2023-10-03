@@ -1,14 +1,8 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		[16] = {
-		},
-		[15] = {
-		},
-		["tip"] = {
-		},
 	},
-	["currentStep"] = 16,
+	["currentStep"] = 1,
 	["questObjectivesCache"] = {
 		[771] = {
 			{
@@ -226,25 +220,6 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[792] = {
-			{
-				["type"] = "monster",
-				["numRequired"] = 12,
-				["text"] = "Vile Familiar slain: 5/12",
-				["finished"] = false,
-				["numFulfilled"] = 5,
-			}, -- [1]
-		},
-		[4402] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 10,
-				["text"] = "Cactus Apple: 0/10",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
-		[0] = 20,
 		[757] = {
 			{
 				["type"] = "item",
@@ -254,8 +229,27 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
+		[0] = 20,
+		[4402] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Cactus Apple: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[792] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Vile Familiar slain: 5/12",
+				["finished"] = false,
+				["numFulfilled"] = 5,
+			}, -- [1]
+		},
 	},
-	["currentGuideGroup"] = "Horde 1-22",
+	["currentGuideGroup"] = "",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
@@ -268,15 +262,12 @@ RXPCData = {
 		[5441] = "Lazy Peons",
 		[780] = "The Battleboars",
 		[752] = "A Humble Task",
-		[4641] = "Your Place In The World",
 		[750] = "The Hunt Continues",
+		[4641] = "Your Place In The World",
 	},
-	["currentGuideName"] = "01-10 Durotar",
+	["currentGuideName"] = "",
 	["stepSkip"] = {
-		true, -- [1]
-		[4] = true,
 	},
-	["currentStepId"] = 1520109713,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -303,20 +294,20 @@ RXPCTrackingData = {
 							["monthDay"] = 5,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 12,
+							["weekday"] = 3,
 							["year"] = 2023,
 							["hour"] = 18,
-							["weekday"] = 3,
+							["minute"] = 12,
 						},
 						["finished"] = 2154,
 						["dateFinished"] = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 18,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 6,
+							["minute"] = 18,
 						},
 						["started"] = 0,
 					},
@@ -344,20 +335,20 @@ RXPCTrackingData = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 18,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 6,
+							["minute"] = 18,
 						},
 						["finished"] = 3231,
 						["dateFinished"] = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 35,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 6,
+							["minute"] = 35,
 						},
 						["started"] = 2155,
 					},
@@ -367,9 +358,9 @@ RXPCTrackingData = {
 						},
 						["Mulgore"] = {
 							[3094] = 40,
+							[752] = 85,
 							[753] = 250,
 							[747] = 170,
-							[752] = 85,
 						},
 					},
 				}, -- [2]
@@ -391,20 +382,20 @@ RXPCTrackingData = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 35,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 6,
+							["minute"] = 35,
 						},
 						["finished"] = 1343,
 						["dateFinished"] = {
 							["monthDay"] = 24,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 53,
+							["weekday"] = 1,
 							["year"] = 2023,
 							["hour"] = 19,
-							["weekday"] = 1,
+							["minute"] = 53,
 						},
 						["started"] = 3232,
 					},
@@ -433,20 +424,20 @@ RXPCTrackingData = {
 							["monthDay"] = 24,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 53,
+							["weekday"] = 1,
 							["year"] = 2023,
 							["hour"] = 19,
-							["weekday"] = 1,
+							["minute"] = 53,
 						},
 						["finished"] = 2689,
 						["dateFinished"] = {
 							["monthDay"] = 24,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 1,
+							["minute"] = 28,
 							["year"] = 2023,
 							["hour"] = 21,
-							["minute"] = 28,
+							["weekday"] = 1,
 						},
 						["started"] = 1344,
 					},
@@ -466,22 +457,22 @@ RXPCTrackingData = {
 							["monthDay"] = 24,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 1,
+							["minute"] = 28,
 							["year"] = 2023,
 							["hour"] = 21,
-							["minute"] = 28,
+							["weekday"] = 1,
 						},
 						["started"] = 2690,
 					},
 					["quests"] = {
 						["Mulgore"] = {
 							[763] = 340,
+							[1656] = 110,
 							[781] = 360,
-							[767] = 55,
 							[3376] = 675,
 							[757] = 450,
 							[780] = 450,
-							[1656] = 110,
+							[767] = 55,
 						},
 					},
 				}, -- [5]
@@ -497,20 +488,20 @@ RXPCComms = {
 		["Samoanbeast - Skull Rock"] = {
 			["players"] = {
 				["Farmcraft"] = {
-					["class"] = "DRUID",
+					["level"] = 1,
 					["lastSeen"] = 52798.362,
 					["xpPercentage"] = 78,
-					["isRxp"] = true,
+					["class"] = "DRUID",
 					["timePlayed"] = 325.0119999999952,
-					["level"] = 1,
+					["isRxp"] = true,
 				},
 				["Kksummon"] = {
-					["level"] = 1,
+					["isRxp"] = true,
 					["lastSeen"] = 53081.772,
 					["xpPercentage"] = 58,
-					["class"] = "WARLOCK",
+					["level"] = 1,
 					["timePlayed"] = 2653.764000000003,
-					["isRxp"] = true,
+					["class"] = "WARLOCK",
 				},
 				["Ozgard"] = {
 					["timePlayed"] = 715.4259999999995,
@@ -518,35 +509,35 @@ RXPCComms = {
 					["xp"] = 28,
 				},
 				["Darkestork"] = {
-					["level"] = 3,
+					["isRxp"] = true,
 					["lastSeen"] = 53082.006,
 					["xpPercentage"] = 28,
-					["class"] = "WARLOCK",
-					["timePlayed"] = 3097.862999999998,
-					["isRxp"] = true,
-				},
-				["Nbvcnvbbcnv"] = {
-					["isRxp"] = true,
-					["lastSeen"] = 2591.961,
-					["xpPercentage"] = 70,
 					["level"] = 3,
-					["timePlayed"] = 0,
-					["class"] = "DRUID",
-				},
-				["Sleepyhed"] = {
-					["level"] = 4,
-					["lastSeen"] = 53082.006,
-					["xpPercentage"] = 31,
-					["class"] = "WARLOCK",
 					["timePlayed"] = 3097.862999999998,
-					["isRxp"] = true,
+					["class"] = "WARLOCK",
 				},
 				["Warriorss"] = {
-					["class"] = "WARLOCK",
+					["level"] = 3,
 					["lastSeen"] = 53082.006,
 					["xpPercentage"] = 4,
-					["isRxp"] = true,
+					["class"] = "WARLOCK",
 					["timePlayed"] = 3097.862999999998,
+					["isRxp"] = true,
+				},
+				["Sleepyhed"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 53082.006,
+					["xpPercentage"] = 31,
+					["level"] = 4,
+					["timePlayed"] = 3097.862999999998,
+					["class"] = "WARLOCK",
+				},
+				["Nbvcnvbbcnv"] = {
+					["class"] = "DRUID",
+					["lastSeen"] = 2591.961,
+					["xpPercentage"] = 70,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
 					["level"] = 3,
 				},
 			},

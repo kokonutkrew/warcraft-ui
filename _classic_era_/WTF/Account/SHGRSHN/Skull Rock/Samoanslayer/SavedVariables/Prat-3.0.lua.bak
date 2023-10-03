@@ -1,0 +1,2299 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359998.362,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 28,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:05]|h|r You are now AFK: Away from Keyboard",
+					["serverTime"] = 1696358538,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360479.902,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:05]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Helarn-SkullRock:248:CHANNEL:5|h|cffff7c0aHelarn|r|h|cffd8d8d8]|r: DPS LFG SFK",
+					["serverTime"] = 1696358538,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						17, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360480.769,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:10]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Harmer-SkullRock:249:CHANNEL:5|h|cffc69b6dHarmer|r|h|cffd8d8d8]|r: LFM dps gnomer!",
+					["serverTime"] = 1696358543,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360485.436,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:12]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:250:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF1M Tank for SFK",
+					["serverTime"] = 1696358545,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360487.538,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:13]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Warrithar-SkullRock:251:CHANNEL:1|h|cffc69b6dWarrithar|r|h|cffd8d8d8]|r: it is if your budget is 14.99",
+					["serverTime"] = 1696358546,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						86, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360488.338,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:18]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Twentytwos-SkullRock:252:CHANNEL:5|h|cffd84e4e60|r:|cffc69b6dTwentytwos|r|h|cffd8d8d8]|r: LFG |Hquestie:3962:Player-5099-0192CDC5|h|cFFFF1A1A[|r|cFFFF1A1A[56+] It's Dangerous to Go Alone|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696358551,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						52, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360493.344,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:20]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gorgish:254:CHANNEL:5|h|cffc69b6dGorgish|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 dps/heals |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696358553,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						88, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360495.011,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:30]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sheeprancher:256:CHANNEL:5|h|cff3fc6eaSheeprancher|r|h|cffd8d8d8]|r: actually, how giraffes ended up in the barrens is a very interesting story",
+					["serverTime"] = 1696358563,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						90, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360505.525,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:32]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Swearingcop-SkullRock:257:CHANNEL:1|h|cffc69b6dSwearingcop|r|h|cffd8d8d8]|r: why doncha try to buy your drugs with 15 dollars ya cant",
+					["serverTime"] = 1696358565,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						92, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360506.959,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:34]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Doodley-SkullRock:258:CHANNEL:5|h|cffff7c0aDoodley|r|h|cffd8d8d8]|r: LF2M SM ARMS/CATH",
+					["serverTime"] = 1696358567,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360509.292,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:37]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Dotomasprime-SkullRock:259:CHANNEL:1|h|cff8787edDotomasprime|r|h|cffd8d8d8]|r: LTB wool",
+					["serverTime"] = 1696358570,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						94, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360512.625,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:38]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lilhoof:260:CHANNEL:5|h|cffc69b6dLilhoof|r|h|cffd8d8d8]|r: tank/dps lfg BFD",
+					["serverTime"] = 1696358571,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						96, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360513.459,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:45]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Swearingcop-SkullRock:262:CHANNEL:1|h|cffc69b6dSwearingcop|r|h|cffd8d8d8]|r: i pay about 75",
+					["serverTime"] = 1696358578,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						92, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360520.259,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:45]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:263:CHANNEL:5|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696358578,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360520.525,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:46]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Ugli-SkullRock:264:CHANNEL:5|h|cfffff468Ugli|r|h|cffd8d8d8]|r: LFG SM LIB 39 Rogue",
+					["serverTime"] = 1696358579,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						70, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360520.959,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:47]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq52|k:181:266:BN_INLINE_TOAST_ALERT:0|h[|Kq52|k]|h has gone offline.",
+					["serverTime"] = 1696358580,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						"CHAT_MSG_BN_INLINE_TOAST_ALERT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360522.044,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:47]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:267:CHANNEL:5|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696358580,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360522.311,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:49]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wôô:269:CHANNEL:5|h|cffaad372Wôô|r|h|cffd8d8d8]|r: YOU havent READ the LORE bro!",
+					["serverTime"] = 1696358582,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						98, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360524.056,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:49]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sadlyagain:270:CHANNEL:5|h|cffff7c0aSadlyagain|r|h|cffd8d8d8]|r: |CFFFF0000starting group for |CFF00FF00rf|CFFFF0000k need heals/dps",
+					["serverTime"] = 1696358582,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						100, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360524.756,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:50]|h|r Hashy has reached level 60!",
+					["serverTime"] = 1696358583,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360525.057,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:50]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mvproto:272:CHANNEL:5|h|cffc69b6dMvproto|r|h|cffd8d8d8]|r: do tell sheeprancher",
+					["serverTime"] = 1696358583,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						102, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360525.557,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:53]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sheeprancher-SkullRock:276:CHANNEL:5|h|cff3fc6eaSheeprancher|r|h|cffd8d8d8]|r: I've done several research papers on Giraffa camelopardalis, and their origin",
+					["serverTime"] = 1696358586,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						90, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360528.591,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:55]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Harmer-SkullRock:277:CHANNEL:5|h|cffc69b6dHarmer|r|h|cffd8d8d8]|r: LFM dps gnomer",
+					["serverTime"] = 1696358588,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360530.427,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:58]|h|r You are no longer AFK.",
+					["serverTime"] = 1696358591,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360533.065,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:59]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gorgish-SkullRock:280:CHANNEL:5|h|cffc69b6dGorgish|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 dps/heals |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696358592,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						88, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360533.931,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:43:01]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nittaly-SkullRock:281:CHANNEL:5|h|cffffffffNittaly|r|h|cffd8d8d8]|r: do tell",
+					["serverTime"] = 1696358594,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						76, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360536.415,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:43:01]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - The Barrens]|h",
+					["serverTime"] = 1696358594,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						104, -- [4]
+						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360536.699,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:43:01]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Barrens]|h",
+					["serverTime"] = 1696358594,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						106, -- [3]
+						107, -- [4]
+						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360536.699,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r Minor Healing Potion was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r |cffffff00[Level 10]|r was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r |cffffff00[Level 20]|r was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r Elixir of Minor Defense was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r Elixir of Lion's Strength was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r One-Handed Swords was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:29]|h|r |cffffff00[Ragefire Chasm]|r was added to your collection!",
+					["timestamp"] = 360024.228,
+					["serverTime"] = 1696358082,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:30]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu:51:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF2M Tank DPS for SFK",
+					["serverTime"] = 1696358083,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360024.98,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:30]|h|r |cffc69b6dWouldy|r has gone offline.",
+					["serverTime"] = 1696358083,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360024.98,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:30]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Yorch:53:CHANNEL:5|h|cffc69b6dYorch|r|h|cffd8d8d8]|r: LFM DPS gnomer 32+",
+					["serverTime"] = 1696358083,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360025.58,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:32]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 360027.648,
+					["serverTime"] = 1696358085,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:32]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 360027.648,
+					["serverTime"] = 1696358085,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:39]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Yorch-SkullRock:58:CHANNEL:5|h|cffc69b6dYorch|r|h|cffd8d8d8]|r: LF1M DPS gnomer 32+",
+					["serverTime"] = 1696358092,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360034.606,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:44]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Hoal:61:CHANNEL:1|h|cffaad372Hoal|r|h|cffd8d8d8]|r: lfm |Hquestie:4021:Player-5099-01B58386|h|cFFFFFF00[|r|cFFFFFF00[20] Counterattack!|r|cFFFFFF00]|r|h",
+					["serverTime"] = 1696358097,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360039.303,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:58]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dyzzy:64:CHANNEL:5|h|cffc69b6dDyzzy|r|h|cffd8d8d8]|r: tank looking for SM world tour",
+					["serverTime"] = 1696358111,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						13, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360053.63,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:59]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:65:CHANNEL:5|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ WC",
+					["serverTime"] = 1696358112,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360054.653,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:03]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Helarn:66:CHANNEL:5|h|cffff7c0aHelarn|r|h|cffd8d8d8]|r: dps LFG SFK",
+					["serverTime"] = 1696358116,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						17, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360058.138,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:05]|h|r |cffd8d8d8[|r|Hplayer:Takiap:67|h|cff8b8b8b12|r:|cff0070ddTakiap|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358118,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360059.92,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:21]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Forresthump:73:CHANNEL:5|h|cffff7c0aForresthump|r|h|cffd8d8d8]|r: LFM |Hquestie:193:Player-5099-01AFE9E9|h|cFFFF1A1A[|r|cFFFF1A1A[40+] Panther Mastery|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696358134,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360076.362,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:24]|h|r |cffd8d8d8[|r|Hplayer:Totehim:75|h|cffd84e4e46|r:|cff0070ddTotehim|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358137,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360079.379,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:26]|h|r GRM: |cfff58cbaTotehim|r matches rules for a promotion and is currently online.",
+					["r"] = 1,
+					["serverTime"] = 1696358139,
+					["timestamp"] = 360080.895,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:47]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Isentar:98:CHANNEL:5|h|cff8787edIsentar|r|h|cffd8d8d8]|r: LF3M - SM WORLD TOUR - HEALS DPS",
+					["serverTime"] = 1696358160,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360102.431,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:48]|h|r |cffd8d8d8[|r|Hplayer:Maskredevil:99|h|cffd84e4e37|r:|cff3fc6eaMaskredevil|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358161,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360103.634,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:35:52]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Hoal-SkullRock:101:CHANNEL:1|h|cffaad372Hoal|r|h|cffd8d8d8]|r: lfm |Hquestie:4021:Player-5099-01B58386|h|cFFFFFF00[|r|cFFFFFF00[20] Counterattack!|r|cFFFFFF00]|r|h",
+					["serverTime"] = 1696358165,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360107.309,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:02]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jams:107:CHANNEL:5|h|cff3fc6eaJams|r|h|cffd8d8d8]|r: DPS LF WC",
+					["serverTime"] = 1696358175,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360117.446,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:10]|h|r |cffffffffArmpitcoomer |CFFFF0000(M)|r|r has gone offline.",
+					["serverTime"] = 1696358183,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360125.413,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:11]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Isentar-SkullRock:115:CHANNEL:5|h|cff8787edIsentar|r|h|cffd8d8d8]|r: LF2M - SM WORLD TOUR - HEALS DPS",
+					["serverTime"] = 1696358184,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360126.169,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:16]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:120:CHANNEL:5|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ group WC",
+					["serverTime"] = 1696358189,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360130.823,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:19]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Helarn-SkullRock:123:CHANNEL:5|h|cffff7c0aHelarn|r|h|cffd8d8d8]|r: dps LFG SFK",
+					["serverTime"] = 1696358192,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						17, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360134.257,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:28]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Reauxge:127:CHANNEL:1|h|cfffff468Reauxge|r|h|cffd8d8d8]|r: Anyone for |Hquestie:875:Player-5099-01B166D3|h|cFF40C040[|r|cFF40C040[16] Harpy Lieutenants|r|cFF40C040]|r|h",
+					["serverTime"] = 1696358201,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						25, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360143.757,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:47]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Isentar-SkullRock:138:CHANNEL:5|h|cff8787edIsentar|r|h|cffd8d8d8]|r: FULL TY!",
+					["serverTime"] = 1696358220,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360162.766,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:54]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jams-SkullRock:143:CHANNEL:5|h|cff3fc6eaJams|r|h|cffd8d8d8]|r: LFM WC 18+",
+					["serverTime"] = 1696358227,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360169.099,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:36:58]|h|r |cffd8d8d8[|r|Hplayer:Sharti:147|h|cffd8d83f22|r:|cffc69b6dSharti|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358231,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360173.666,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:03]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aliive:150:CHANNEL:5|h|cffffffffAliive|r|h|cffd8d8d8]|r: LFM SM GY, tank and dps",
+					["serverTime"] = 1696358236,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						27, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360177.831,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:04]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:151:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF2M Tank DPS for SFK",
+					["serverTime"] = 1696358237,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360179.532,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:16]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Thotlock-SkullRock:156:GUILD|h|cffd88b6523|r:|cff8787edThotlock|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r whats better |cff1eff00|Hitem:6477::::::::23:::::::::|h[Grassland Sash]|h|r|cff1eff00|Hitem:4786::::::::23:::::::::|h[Wise Man's Belt]|h|r",
+					["serverTime"] = 1696358249,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						29, -- [3]
+						30, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360190.809,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:29]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq52|k:181:161:BN_INLINE_TOAST_ALERT:0|h[|Kq52|k] (|T-18:10:10:0:0:32:32:0:32:0:32|t Topgunjoe11)|h has come online.",
+					["serverTime"] = 1696358262,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						"CHAT_MSG_BN_INLINE_TOAST_ALERT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360203.908,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:40]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Maskredevil-SkullRock:166:CHANNEL:5|h|cffd84e4e37|r:|cff3fc6eaMaskredevil|r|h|cffd8d8d8]|r: 37 Mage LFG SM GY Lib Arm",
+					["serverTime"] = 1696358273,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360215.411,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:41]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Doodley:167:CHANNEL:5|h|cffff7c0aDoodley|r|h|cffd8d8d8]|r: LFM SM FULL RUN",
+					["serverTime"] = 1696358274,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360216.411,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:42]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Camelclutch:168:CHANNEL:5|h|cffc69b6dCamelclutch|r|h|cffd8d8d8]|r: |CFFFF0000tank/dps |CFF00FF00lfg|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696358275,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360217.144,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:43]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:169:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF1M Tank for SFK",
+					["serverTime"] = 1696358276,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360217.975,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:45]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rahholman:171:CHANNEL:5|h|cffc69b6dRahholman|r|h|cffd8d8d8]|r: DPS LF ZF ULD MD",
+					["serverTime"] = 1696358278,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						39, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360220.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:47]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Dudes-SkullRock:172:GUILD|h|cffd84e4e50|r:|cff3fc6eaDudes|r|h|cffd8d8d8]|r: |cff1eff00|Hitem:6477::::::::50:::::::::|h[Grassland Sash]|h|r this one imo",
+					["serverTime"] = 1696358280,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						29, -- [3]
+						41, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360221.975,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:58]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Deadlytoxic-SkullRock:175:GUILD|h|cffd84e4e48|r:|cff0070ddDeadlytoxic|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r ye",
+					["serverTime"] = 1696358291,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						29, -- [3]
+						42, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360232.778,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:37:59]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Cripesalmity-SkullRock:176:CHANNEL:5|h|cffd84e4e60|r:|cffffffffCripesalmity|r|h|cffd8d8d8]|r: LFG Live Strat----60 heals",
+					["serverTime"] = 1696358292,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360234.036,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:01]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Doodley-SkullRock:177:CHANNEL:5|h|cffff7c0aDoodley|r|h|cffd8d8d8]|r: LFM SM ARMS/CATH",
+					["serverTime"] = 1696358294,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360236.033,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:02]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:178:CHANNEL:5|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ group WC",
+					["serverTime"] = 1696358295,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360237.12,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:07]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jams-SkullRock:179:CHANNEL:5|h|cff3fc6eaJams|r|h|cffd8d8d8]|r: LFM WC need 1 dps 1 tank 1 heals",
+					["serverTime"] = 1696358300,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360242.341,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:09]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aliive-SkullRock:180:CHANNEL:5|h|cffffffffAliive|r|h|cffd8d8d8]|r: LFM tank/dps for SM GY",
+					["serverTime"] = 1696358302,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						27, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360243.841,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:18]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Heelhook:181:CHANNEL:5|h|cffd84e4e60|r:|cff3fc6eaHeelhook|r|h|cffd8d8d8]|r: 60 mage lf dungeons",
+					["serverTime"] = 1696358311,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360253.647,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:20]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Eflottery:182:CHANNEL:5|h|cff0070ddEflottery|r|h|cffd8d8d8]|r: LFG Uldaman/ZF",
+					["serverTime"] = 1696358313,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						45, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360255.747,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:28]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:183:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF1M Tank for SFK",
+					["serverTime"] = 1696358321,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360263.781,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:46]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Hoal-SkullRock:184:CHANNEL:1|h|cffaad372Hoal|r|h|cffd8d8d8]|r: lfm |Hquestie:4021:Player-5099-01B58386|h|cFFFFFF00[|r|cFFFFFF00[20] Counterattack!|r|cFFFFFF00]|r|h",
+					["serverTime"] = 1696358339,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360281.614,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:49]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Noiwonthealu-SkullRock:185:CHANNEL:1|h|cffffffffNoiwonthealu|r|h|cffd8d8d8]|r: any tren users?",
+					["serverTime"] = 1696358342,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						47, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360284.614,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:12]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Cripesalmity-SkullRock:186:CHANNEL:5|h|cffd84e4e60|r:|cffffffffCripesalmity|r|h|cffd8d8d8]|r: LFG Live Strat----60 heals",
+					["serverTime"] = 1696358365,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360307.629,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:16]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Doodley-SkullRock:187:CHANNEL:5|h|cffff7c0aDoodley|r|h|cffd8d8d8]|r: LFM SM ARMS/CATH",
+					["serverTime"] = 1696358369,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360311.029,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:18]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Hulnhc-SkullRock:188:GUILD|h|cffd84e4e36|r:|cffc69b6dHulnhc|r|h|cffd8d8d8]|r: yea |cff1eff00|Hitem:6477::::::::36:::::::::|h[Grassland Sash]|h|r",
+					["serverTime"] = 1696358371,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						29, -- [3]
+						49, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360312.629,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:19]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Iggy:189:CHANNEL:5|h|cffc69b6dIggy|r|h|cffd8d8d8]|r: any raiding guilds?",
+					["serverTime"] = 1696358372,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360314.618,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:21]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:190:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF1M Tank for SFK",
+					["serverTime"] = 1696358374,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360316.518,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:25]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Hulnhc-SkullRock:191:GUILD|h|cffd84e4e36|r:|cffc69b6dHulnhc|r|h|cffd8d8d8]|r: get all that extra stam",
+					["serverTime"] = 1696358378,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						29, -- [3]
+						49, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360319.952,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:36]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Twentytwos:192:CHANNEL:5|h|cffd84e4e60|r:|cffc69b6dTwentytwos|r|h|cffd8d8d8]|r: LFG |Hquestie:3962:Player-5099-0192CDC5|h|cFFFF1A1A[|r|cFFFF1A1A[56+] It's Dangerous to Go Alone|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696358389,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						52, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360331.568,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:41]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Harmer:193:CHANNEL:5|h|cffc69b6dHarmer|r|h|cffd8d8d8]|r: LFM DPS gnomer!",
+					["serverTime"] = 1696358394,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360335.868,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:41]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Poo-SkullRock:194:CHANNEL:5|h|cffffffffPoo|r|h|cffd8d8d8]|r: your a loc go solo it",
+					["serverTime"] = 1696358394,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						56, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360336.468,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:49]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Camelclutch-SkullRock:195:CHANNEL:5|h|cffc69b6dCamelclutch|r|h|cffd8d8d8]|r: |CFFFF0000tank/dps |CFF00FF00lfg|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696358402,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360344.335,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:56]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Hulnhc-SkullRock:196:GUILD|h|cffd84e4e36|r:|cffc69b6dHulnhc|r|h|cffd8d8d8]|r: also dont forget to go back to some low level grey mobs and let them auto you to get your defense up as a ranged",
+					["serverTime"] = 1696358409,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						29, -- [3]
+						49, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360350.968,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:39:59]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:197:CHANNEL:5|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF tank and heals WC",
+					["serverTime"] = 1696358412,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360354.69,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:02]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Cripesalmity-SkullRock:198:CHANNEL:5|h|cffd84e4e60|r:|cffffffffCripesalmity|r|h|cffd8d8d8]|r: LFG Live Strat----60 heals",
+					["serverTime"] = 1696358415,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360357.118,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:03]|h|r |cffd8d8d8[|r|Hplayer:Wouldy:199|h|cffd84e4e50|r:|cffc69b6dWouldy|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358416,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360357.982,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:04]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Doodley-SkullRock:200:CHANNEL:5|h|cffff7c0aDoodley|r|h|cffd8d8d8]|r: LFM SM ARMS/CATH",
+					["serverTime"] = 1696358417,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360358.868,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:04]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Typopolice-SkullRock:201:CHANNEL:1|h|cffc69b6dTypopolice|r|h|cffd8d8d8]|r: i pay a lot of money to be here im sick of abusers its like having another internet bill im not leaving  you are",
+					["serverTime"] = 1696358417,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						58, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360359.134,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:22]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Warcitaa:203:CHANNEL:5|h|cffc69b6dWarcitaa|r|h|cffd8d8d8]|r: LFM |Hquestie:507:Player-5099-01ADEF17|h|cFFFF1A1A[|r|cFFFF1A1A[42] Lord Aliden Perenolde|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696358435,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						60, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360377.116,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:23]|h|r |cffd8d8d8[|r|Hplayer:Azerito:204|h|cffd84e4e48|r:|cffaad372Azerito|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358436,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360377.783,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:28]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:205:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF1M Tank for SFK",
+					["serverTime"] = 1696358441,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360383.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:39]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Camelclutch-SkullRock:206:CHANNEL:5|h|cffc69b6dCamelclutch|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c need heals",
+					["serverTime"] = 1696358452,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360393.783,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:39]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Harmer-SkullRock:207:CHANNEL:5|h|cffc69b6dHarmer|r|h|cffd8d8d8]|r: LFM DPS gnomer!",
+					["serverTime"] = 1696358452,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360394.692,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:40:52]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Spookyrob:208:CHANNEL:5|h|cff8787edSpookyrob|r|h|cffd8d8d8]|r: giraff kill kinda funny",
+					["serverTime"] = 1696358465,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360407.559,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:02]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Freud:211:CHANNEL:5|h|cffffffffFreud|r|h|cffd8d8d8]|r: LF2M Hinterland Elite Quests",
+					["serverTime"] = 1696358475,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						64, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360417.187,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:04]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hornypriest:213:CHANNEL:5|h|cffffffffHornypriest|r|h|cffd8d8d8]|r: was about to say",
+					["serverTime"] = 1696358477,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						66, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360418.887,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:04]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Cripesalmity-SkullRock:215:CHANNEL:5|h|cffd84e4e60|r:|cffffffffCripesalmity|r|h|cffd8d8d8]|r: LFG Live Strat----60 heals",
+					["serverTime"] = 1696358477,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360419.487,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:05]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Camelclutch-SkullRock:217:CHANNEL:5|h|cffc69b6dCamelclutch|r|h|cffd8d8d8]|r: |CFFFF0000lf3m |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1696358478,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360419.787,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:05]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Spookyrob-SkullRock:218:CHANNEL:5|h|cff8787edSpookyrob|r|h|cffd8d8d8]|r: bro died to a passive mob",
+					["serverTime"] = 1696358478,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360419.787,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:14]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Harmer-SkullRock:223:CHANNEL:5|h|cffc69b6dHarmer|r|h|cffd8d8d8]|r: LFM dps gnomer!",
+					["serverTime"] = 1696358487,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360429.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:18]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Doodley-SkullRock:226:CHANNEL:5|h|cffff7c0aDoodley|r|h|cffd8d8d8]|r: LF3M SM ARMS/CATH",
+					["serverTime"] = 1696358491,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360433.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:20]|h|r |cffabd473|cffaad372Futureaspir|r|r has gone offline.",
+					["serverTime"] = 1696358493,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360435.755,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:22]|h|r 03 Oct '23 11:41am : |cffffffffHealmommy|r has Leveled to 31 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1696358495,
+					["timestamp"] = 360437.61,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:26]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Richardtheiv:230:CHANNEL:5|h|cff8787edRichardtheiv|r|h|cffd8d8d8]|r: someone died to a giraffe? oof",
+					["serverTime"] = 1696358499,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						68, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360441.459,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:28]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Ugli:232:CHANNEL:5|h|cfffff468Ugli|r|h|cffd8d8d8]|r: LFG SM LIB 39 Rogue",
+					["serverTime"] = 1696358501,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						70, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360443.426,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:30]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Thedrood:233:CHANNEL:5|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696358503,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360445.426,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:30]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kylu-SkullRock:234:CHANNEL:5|h|cff0070ddKylu|r|h|cffd8d8d8]|r: LF1M Tank for SFK",
+					["serverTime"] = 1696358503,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360445.426,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Firstade-SkullRock:235:CHANNEL:1|h|cffffffffFirstade|r|h|cffd8d8d8]|r: $15 is a lot of money?",
+					["serverTime"] = 1696358507,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						10, -- [3]
+						74, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360449.259,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:34]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Spookyrob-SkullRock:236:CHANNEL:5|h|cff8787edSpookyrob|r|h|cffd8d8d8]|r: yeah that lvl 10",
+					["serverTime"] = 1696358507,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360449.492,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:42]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nittaly:238:CHANNEL:5|h|cffffffffNittaly|r|h|cffd8d8d8]|r: why are girafees in freaking barrens makes no sense ecologicaly",
+					["serverTime"] = 1696358515,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						76, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360457.159,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:46]|h|r |cffd8d8d8[|r|Hplayer:Tuuna:239|h|cffd84e4e51|r:|cffc69b6dTuuna|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696358519,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360461.026,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:49]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Harmer-SkullRock:240:CHANNEL:5|h|cffc69b6dHarmer|r|h|cffd8d8d8]|r: LFM dps gnomer!",
+					["serverTime"] = 1696358522,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360464.002,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:54]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:241:CHANNEL:5|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696358527,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360468.969,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:56]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sea:242:CHANNEL:5|h|cff0070ddSea|r|h|cffd8d8d8]|r: but quilboar and centuar, those are ok?",
+					["serverTime"] = 1696358529,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						78, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360471.069,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:56]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Feno:243:CHANNEL:5|h|cff0070ddFeno|r|h|cffd8d8d8]|r: long nex tall trees",
+					["serverTime"] = 1696358529,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						80, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360471.069,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:41:57]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Smunk:244:CHANNEL:5|h|cfffff468Smunk|r|h|cffd8d8d8]|r: okay nerd",
+					["serverTime"] = 1696358530,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						82, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360472.769,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:00]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mutterz:245:CHANNEL:5|h|cffffffffMutterz|r|h|cffd8d8d8]|r: lfg |Hquestie:547:Player-5099-01A936AA|h|cFFFF1A1A[|r|cFFFF1A1A[30+] Humbert's Sword|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696358533,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						84, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360475.669,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:42:02]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:246:CHANNEL:5|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank WC",
+					["serverTime"] = 1696358535,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 360477.002,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -31,13 +31,16 @@ HHTD_SavedVariables = {
 		["Samoanbank - Whitemane"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kkbanker - Skull Rock"] = {
+		["Kkbank - Whitemane"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanbeast - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanmystic - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbeast - Skull Rock"] = {
+		["Goldenshots - Defias Pillager"] = {
 			["settingsMigrated"] = false,
 		},
 		["Bannhammer - Skull Rock"] = {
@@ -46,7 +49,7 @@ HHTD_SavedVariables = {
 		["Kk - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Øø - Skull Rock"] = {
+		["Samoanslayer - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanranger - Grobbulus"] = {
@@ -58,13 +61,13 @@ HHTD_SavedVariables = {
 		["Cupcakeheals - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Goldenshots - Defias Pillager"] = {
+		["Kkbanker - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kkbank - Whitemane"] = {
+		["Øø - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 	},
@@ -91,17 +94,18 @@ HHTD_SavedVariables = {
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
 		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
 		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
-		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
 		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
 		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
-		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 	},
 }

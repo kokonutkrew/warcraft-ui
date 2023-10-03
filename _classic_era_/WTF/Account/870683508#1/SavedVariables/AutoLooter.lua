@@ -26,10 +26,10 @@ AutoLooterDB = {
 					["WoW Token"] = false,
 				},
 				["Trade Goods"] = {
-					["Parts"] = false,
-					["Trade Goods"] = false,
-					["Explosives"] = false,
 					["Devices"] = false,
+					["Explosives"] = false,
+					["Trade Goods"] = false,
+					["Parts"] = false,
 				},
 				["Recipe"] = {
 					["Tailoring"] = false,
@@ -85,8 +85,8 @@ AutoLooterDB = {
 					["Generic(OBSOLETE)"] = false,
 				},
 				["Projectile"] = {
-					["Arrow"] = false,
 					["Bullet"] = false,
+					["Arrow"] = false,
 				},
 				["Jewelry(OBSOLETE)"] = {
 					["Jewelry(OBSOLETE)"] = false,
@@ -108,9 +108,9 @@ AutoLooterDB = {
 					["Two-Handed Maces"] = false,
 					["Guns"] = false,
 					["Fist Weapons"] = false,
-					["Daggers"] = false,
-					["Wands"] = false,
 					["Thrown"] = false,
+					["Wands"] = false,
+					["Daggers"] = false,
 					["Two-Handed Axes"] = false,
 				},
 			},

@@ -2,8 +2,8 @@
 KILLTRACK = {
 	["LOAD_MESSAGE"] = false,
 	["DATETIME_FORMAT"] = "%Y-%m-%d %H:%M:%S",
+	["TOOLTIP"] = true,
 	["PRINTKILLS"] = false,
-	["COUNT_GROUP"] = false,
 	["SHOW_EXP"] = false,
 	["ACHIEV_THRESHOLD"] = 1000,
 	["PRINTNEW"] = false,
@@ -62,8 +62,9 @@ KILLTRACK = {
 		},
 		[12296] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
+			["Kills"] = 1,
 			["Name"] = "Sickly Gazelle",
+			["LastKillAt"] = 1696356721,
 		},
 		[2963] = {
 			["LastKillAt"] = 1696002296,
@@ -74,10 +75,10 @@ KILLTRACK = {
 		},
 		[4127] = {
 			["AchievCount"] = 0,
-			["Kills"] = 4,
+			["Kills"] = 5,
 			["Name"] = "Hecklefang Hyena",
-			["Exp"] = 51,
-			["LastKillAt"] = 1696138045,
+			["Exp"] = 152,
+			["LastKillAt"] = 1696357043,
 		},
 		[3475] = {
 			["AchievCount"] = 0,
@@ -260,10 +261,10 @@ KILLTRACK = {
 		},
 		[3242] = {
 			["AchievCount"] = 0,
-			["Kills"] = 14,
+			["Kills"] = 15,
 			["Name"] = "Zhevra Runner",
-			["Exp"] = 4,
-			["LastKillAt"] = 1696094503,
+			["Exp"] = 132,
+			["LastKillAt"] = 1696356775,
 		},
 		[3115] = {
 			["AchievCount"] = 0,
@@ -414,10 +415,10 @@ KILLTRACK = {
 		},
 		[3255] = {
 			["AchievCount"] = 0,
-			["Kills"] = 11,
+			["Kills"] = 12,
 			["Name"] = "Sunscale Screecher",
-			["Exp"] = 51,
-			["LastKillAt"] = 1696139266,
+			["Exp"] = 79,
+			["LastKillAt"] = 1696357089,
 		},
 		[3128] = {
 			["AchievCount"] = 0,
@@ -561,11 +562,18 @@ KILLTRACK = {
 			["Exp"] = 4,
 			["LastKillAt"] = 1696139292,
 		},
+		[8886] = {
+			["AchievCount"] = 0,
+			["Kills"] = 3,
+			["Name"] = "Deviate Python",
+			["Exp"] = 6,
+			["LastKillAt"] = 1696314648,
+		},
 		[3653] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Kresh",
-			["Exp"] = 1633,
+			["Exp"] = 1788,
 		},
 		[3271] = {
 			["LastKillAt"] = 1696095730,
@@ -573,6 +581,13 @@ KILLTRACK = {
 			["Name"] = "Razormane Mystic",
 			["Exp"] = 39,
 			["AchievCount"] = 0,
+		},
+		[5755] = {
+			["AchievCount"] = 0,
+			["Kills"] = 4,
+			["Name"] = "Deviate Viper",
+			["Exp"] = 39,
+			["LastKillAt"] = 1696314794,
 		},
 		[3272] = {
 			["AchievCount"] = 0,
@@ -606,11 +621,23 @@ KILLTRACK = {
 			["Exp"] = 51,
 			["LastKillAt"] = 1696139336,
 		},
+		[10685] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Swine",
+		},
 		[3275] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Kolkar Marauder",
 			["Exp"] = 58,
+		},
+		[3637] = {
+			["AchievCount"] = 0,
+			["Kills"] = 6,
+			["Name"] = "Deviate Guardian",
+			["Exp"] = 32,
+			["LastKillAt"] = 1696313997,
 		},
 		[3276] = {
 			["AchievCount"] = 0,
@@ -619,12 +646,24 @@ KILLTRACK = {
 			["Exp"] = 45,
 			["LastKillAt"] = 1696142616,
 		},
+		[3631] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Deviate Stinglash",
+			["Exp"] = 96,
+		},
 		[3277] = {
 			["AchievCount"] = 0,
 			["Kills"] = 15,
 			["Name"] = "Witchwing Roguefeather",
 			["Exp"] = 39,
 			["LastKillAt"] = 1696144583,
+		},
+		[3634] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Deviate Stalker",
+			["Exp"] = 16,
 		},
 		[3278] = {
 			["AchievCount"] = 0,
@@ -647,6 +686,11 @@ KILLTRACK = {
 			["Exp"] = 60,
 			["LastKillAt"] = 1696143640,
 		},
+		[6145] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "School of Fish",
+		},
 		[3280] = {
 			["AchievCount"] = 0,
 			["Kills"] = 4,
@@ -666,12 +710,35 @@ KILLTRACK = {
 			["Exp"] = 14,
 			["AchievCount"] = 0,
 		},
+		[1513] = {
+			["AchievCount"] = 0,
+			["Kills"] = 8,
+			["Name"] = "Mangy Duskbat",
+			["Exp"] = 30,
+			["LastKillAt"] = 1695785112,
+		},
 		[3282] = {
 			["AchievCount"] = 0,
 			["Kills"] = 4,
 			["Name"] = "Venture Co. Mercenary",
 			["Exp"] = 42,
 			["LastKillAt"] = 1696135132,
+		},
+		[2957] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Elder Plainstrider",
+		},
+		[3991] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Venture Co. Deforester",
+			["Exp"] = 74,
+		},
+		[3461] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Oasis Snapjaw",
 		},
 		[3284] = {
 			["AchievCount"] = 0,
@@ -680,11 +747,12 @@ KILLTRACK = {
 			["Exp"] = 36,
 			["LastKillAt"] = 1696135087,
 		},
-		[11518] = {
+		[3636] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Jergosh the Invoker",
-			["Exp"] = 780,
+			["Kills"] = 3,
+			["Name"] = "Deviate Ravager",
+			["Exp"] = 32,
+			["LastKillAt"] = 1696313646,
 		},
 		[8996] = {
 			["AchievCount"] = 0,
@@ -693,12 +761,12 @@ KILLTRACK = {
 			["Exp"] = 21,
 			["LastKillAt"] = 1696123129,
 		},
-		[11324] = {
+		[3205] = {
 			["AchievCount"] = 0,
 			["Kills"] = 1,
-			["Name"] = "Searing Blade Warlock",
-			["Exp"] = 35,
-			["LastKillAt"] = 1696122834,
+			["Name"] = "Zalazane",
+			["Exp"] = 27,
+			["LastKillAt"] = 1695960541,
 		},
 		[3286] = {
 			["AchievCount"] = 0,
@@ -706,11 +774,12 @@ KILLTRACK = {
 			["Name"] = "Venture Co. Overseer",
 			["Exp"] = 51,
 		},
-		[11517] = {
+		[3640] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Oggleflint",
-			["Exp"] = 764,
+			["Kills"] = 3,
+			["Name"] = "Evolving Ectoplasm",
+			["Exp"] = 5,
+			["LastKillAt"] = 1696313937,
 		},
 		[4263] = {
 			["AchievCount"] = 0,
@@ -719,32 +788,31 @@ KILLTRACK = {
 			["Exp"] = 31,
 			["LastKillAt"] = 1696148992,
 		},
-		[3415] = {
-			["AchievCount"] = 0,
-			["Kills"] = 10,
-			["Name"] = "Savannah Huntress",
-			["Exp"] = 29,
-			["LastKillAt"] = 1696135830,
-		},
-		[3640] = {
+		[3670] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Evolving Ectoplasm",
-			["Exp"] = 42,
+			["Name"] = "Lord Pythas",
+			["Exp"] = 1824,
 		},
-		[3245] = {
+		[2949] = {
 			["AchievCount"] = 0,
-			["Kills"] = 7,
-			["Name"] = "Ornery Plainstrider",
-			["Exp"] = 47,
-			["LastKillAt"] = 1696153225,
+			["Kills"] = 13,
+			["Name"] = "Palemane Tanner",
+			["Exp"] = 29,
+			["LastKillAt"] = 1696000945,
 		},
-		[3241] = {
-			["LastKillAt"] = 1696119653,
+		[3671] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Lady Anacondra",
+			["Exp"] = 1617,
+		},
+		[5756] = {
+			["AchievCount"] = 0,
 			["Kills"] = 1,
-			["Name"] = "Savannah Patriarch",
-			["Exp"] = 63,
-			["AchievCount"] = 0,
+			["Name"] = "Deviate Venomwing",
+			["Exp"] = 42,
+			["LastKillAt"] = 1696312074,
 		},
 		[9524] = {
 			["LastKillAt"] = 1696141352,
@@ -760,21 +828,25 @@ KILLTRACK = {
 			["Exp"] = 57,
 			["LastKillAt"] = 1696000129,
 		},
-		[3463] = {
+		[3989] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Wandering Barrens Giraffe",
+			["Kills"] = 6,
+			["Name"] = "Venture Co. Logger",
+			["Exp"] = 62,
+			["LastKillAt"] = 1696150162,
 		},
-		[2957] = {
+		[3633] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Elder Plainstrider",
+			["Kills"] = 2,
+			["Name"] = "Deviate Slayer",
+			["Exp"] = 96,
+			["LastKillAt"] = 1696203677,
 		},
-		[3631] = {
+		[3674] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Deviate Stinglash",
-			["Exp"] = 16,
+			["Name"] = "Skum",
+			["Exp"] = 1824,
 		},
 		[11319] = {
 			["AchievCount"] = 0,
@@ -797,69 +869,66 @@ KILLTRACK = {
 			["Exp"] = 30,
 			["LastKillAt"] = 1696122470,
 		},
-		[1509] = {
+		[4129] = {
 			["AchievCount"] = 0,
-			["Kills"] = 9,
-			["Name"] = "Ragged Scavenger",
-			["Exp"] = 48,
-			["LastKillAt"] = 1695785140,
-		},
-		[3206] = {
-			["AchievCount"] = 0,
-			["Kills"] = 4,
-			["Name"] = "Voodoo Troll",
-			["Exp"] = 41,
-			["LastKillAt"] = 1695960853,
-		},
-		[2989] = {
-			["LastKillAt"] = 1696001372,
-			["Kills"] = 7,
-			["Name"] = "Bael'dun Digger",
-			["Exp"] = 39,
-			["AchievCount"] = 0,
-		},
-		[2950] = {
-			["AchievCount"] = 0,
-			["Kills"] = 9,
-			["Name"] = "Palemane Skinner",
-			["Exp"] = 29,
-			["LastKillAt"] = 1696001034,
-		},
-		[3111] = {
-			["AchievCount"] = 0,
-			["Kills"] = 4,
-			["Name"] = "Razormane Quilboar",
-			["Exp"] = 71,
-			["LastKillAt"] = 1695962786,
-		},
-		[3204] = {
-			["LastKillAt"] = 1695969493,
 			["Kills"] = 1,
-			["Name"] = "Gazz'uz",
-			["Exp"] = 54,
+			["Name"] = "Hecklefang Snarler",
+			["Exp"] = 66,
+			["LastKillAt"] = 1696156570,
+		},
+		[3632] = {
 			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Deviate Creeper",
+			["Exp"] = 16,
+		},
+		[3415] = {
+			["AchievCount"] = 0,
+			["Kills"] = 11,
+			["Name"] = "Savannah Huntress",
+			["Exp"] = 29,
+			["LastKillAt"] = 1696356711,
+		},
+		[3261] = {
+			["AchievCount"] = 0,
+			["Kills"] = 1,
+			["Name"] = "Bristleback Thornweaver",
+			["Exp"] = 61,
+			["LastKillAt"] = 1696156387,
+		},
+		[2979] = {
+			["LastKillAt"] = 1696006323,
+			["Kills"] = 17,
+			["Name"] = "Venture Co. Supervisor",
+			["Exp"] = 55,
+			["AchievCount"] = 0,
+		},
+		[4166] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Gazelle",
 		},
 		[2914] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Snake",
 		},
-		[3989] = {
+		[5048] = {
 			["AchievCount"] = 0,
-			["Kills"] = 6,
-			["Name"] = "Venture Co. Logger",
-			["Exp"] = 62,
-			["LastKillAt"] = 1696150162,
+			["Kills"] = 0,
+			["Name"] = "Deviate Adder",
+			["Exp"] = 31,
 		},
 		[3680] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Serpentbloom Snake",
 		},
-		[4166] = {
+		[3630] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Gazelle",
+			["Name"] = "Deviate Coiler",
+			["Exp"] = 16,
 		},
 		[3426] = {
 			["AchievCount"] = 0,
@@ -873,27 +942,29 @@ KILLTRACK = {
 		},
 		[5053] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
+			["Kills"] = 6,
 			["Name"] = "Deviate Crocolisk",
-			["Exp"] = 17,
-			["LastKillAt"] = 1696204182,
+			["Exp"] = 12,
+			["LastKillAt"] = 1696314084,
 		},
 		[3300] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Adder",
 		},
-		[1513] = {
+		[5055] = {
 			["AchievCount"] = 0,
-			["Kills"] = 8,
-			["Name"] = "Mangy Duskbat",
-			["Exp"] = 30,
-			["LastKillAt"] = 1695785112,
+			["Kills"] = 9,
+			["Name"] = "Deviate Lasher",
+			["Exp"] = 8,
+			["LastKillAt"] = 1696313100,
 		},
-		[6494] = {
+		[5056] = {
+			["LastKillAt"] = 1696311740,
+			["Kills"] = 1,
+			["Name"] = "Deviate Dreadfang",
+			["Exp"] = 42,
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Tazan",
 		},
 		[3939] = {
 			["AchievCount"] = 0,
@@ -908,38 +979,37 @@ KILLTRACK = {
 			["Exp"] = 43,
 			["LastKillAt"] = 1696041457,
 		},
-		[3226] = {
-			["AchievCount"] = 0,
+		[4006] = {
+			["LastKillAt"] = 1696147632,
 			["Kills"] = 1,
-			["Name"] = "Corrupted Scorpid",
-			["Exp"] = 94,
-			["LastKillAt"] = 1695964691,
+			["Name"] = "Deepmoss Webspinner",
+			["Exp"] = 51,
+			["AchievCount"] = 0,
 		},
-		[3385] = {
+		[4007] = {
+			["AchievCount"] = 0,
+			["Kills"] = 6,
+			["Name"] = "Deepmoss Venomspitter",
+			["Exp"] = 54,
+			["LastKillAt"] = 1696149136,
+		},
+		[4005] = {
+			["LastKillAt"] = 1696148905,
+			["Kills"] = 7,
+			["Name"] = "Deepmoss Creeper",
+			["Exp"] = 47,
+			["AchievCount"] = 0,
+		},
+		[3452] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Theramore Marine",
-			["Exp"] = 58,
+			["Name"] = "Serena Bloodfeather",
+			["Exp"] = 74,
 		},
-		[11912] = {
-			["AchievCount"] = 0,
-			["Kills"] = 3,
-			["Name"] = "Grimtotem Brute",
-			["Exp"] = 30,
-			["LastKillAt"] = 1696146720,
-		},
-		[2951] = {
-			["AchievCount"] = 0,
-			["Kills"] = 5,
-			["Name"] = "Palemane Poacher",
-			["Exp"] = 43,
-			["LastKillAt"] = 1696001072,
-		},
-		[3630] = {
+		[6020] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Deviate Coiler",
-			["Exp"] = 16,
+			["Name"] = "Slimeshell Makrura",
 		},
 		[5829] = {
 			["AchievCount"] = 0,
@@ -958,10 +1028,12 @@ KILLTRACK = {
 			["Exp"] = 96,
 			["LastKillAt"] = 1696006155,
 		},
-		[6020] = {
+		[1504] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Slimeshell Makrura",
+			["Kills"] = 3,
+			["Name"] = "Young Night Web Spider",
+			["Exp"] = 20,
+			["LastKillAt"] = 1695785925,
 		},
 		[3425] = {
 			["AchievCount"] = 0,
@@ -970,36 +1042,36 @@ KILLTRACK = {
 			["Exp"] = 32,
 			["LastKillAt"] = 1696116699,
 		},
-		[3183] = {
+		[11910] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Yarrog Baneshadow",
-			["Exp"] = 34,
-			["LastKillAt"] = 1695873805,
+			["Kills"] = 2,
+			["Name"] = "Grimtotem Ruffian",
+			["Exp"] = 24,
+			["LastKillAt"] = 1696147042,
 		},
 		[4073] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "XT:4",
 		},
-		[6606] = {
+		[3566] = {
+			["LastKillAt"] = 1696005548,
+			["Kills"] = 2,
+			["Name"] = "Flatland Prowler",
+			["Exp"] = 66,
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Overseer Glibby",
-			["Exp"] = 42,
-			["LastKillAt"] = 1696134841,
 		},
 		[5837] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Stonearm",
 		},
-		[3197] = {
+		[3380] = {
 			["AchievCount"] = 0,
-			["Kills"] = 5,
-			["Name"] = "Burning Blade Fanatic",
-			["Exp"] = 42,
-			["LastKillAt"] = 1695969602,
+			["Kills"] = 4,
+			["Name"] = "Burning Blade Acolyte",
+			["Exp"] = 36,
+			["LastKillAt"] = 1696095226,
 		},
 		[4075] = {
 			["AchievCount"] = 0,
@@ -1013,25 +1085,23 @@ KILLTRACK = {
 			["Exp"] = 46,
 			["LastKillAt"] = 1696095676,
 		},
-		[3566] = {
-			["LastKillAt"] = 1696005548,
-			["Kills"] = 2,
-			["Name"] = "Flatland Prowler",
-			["Exp"] = 66,
+		[6606] = {
 			["AchievCount"] = 0,
+			["Kills"] = 1,
+			["Name"] = "Overseer Glibby",
+			["Exp"] = 42,
+			["LastKillAt"] = 1696134841,
 		},
-		[1504] = {
+		[3823] = {
 			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Ghostpaw Runner",
+		},
+		[3285] = {
+			["LastKillAt"] = 1696133338,
 			["Kills"] = 3,
-			["Name"] = "Young Night Web Spider",
-			["Exp"] = 20,
-			["LastKillAt"] = 1695785925,
-		},
-		[11913] = {
-			["LastKillAt"] = 1696147035,
-			["Kills"] = 2,
-			["Name"] = "Grimtotem Sorcerer",
-			["Exp"] = 30,
+			["Name"] = "Venture Co. Peon",
+			["Exp"] = 42,
 			["AchievCount"] = 0,
 		},
 		[11911] = {
@@ -1041,10 +1111,12 @@ KILLTRACK = {
 			["Exp"] = 24,
 			["AchievCount"] = 0,
 		},
-		[3823] = {
+		[11913] = {
+			["LastKillAt"] = 1696147035,
+			["Kills"] = 2,
+			["Name"] = "Grimtotem Sorcerer",
+			["Exp"] = 30,
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Ghostpaw Runner",
 		},
 		[4316] = {
 			["AchievCount"] = 0,
@@ -1058,12 +1130,11 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Stephen Bhartec",
 		},
-		[3285] = {
-			["LastKillAt"] = 1696133338,
-			["Kills"] = 3,
-			["Name"] = "Venture Co. Peon",
-			["Exp"] = 42,
+		[3130] = {
 			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Thunder Lizard",
+			["Exp"] = 25,
 		},
 		[11921] = {
 			["LastKillAt"] = 1696147894,
@@ -1084,19 +1155,19 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Daniel Ulfman",
 		},
-		[3124] = {
+		[3127] = {
+			["LastKillAt"] = 1696041576,
+			["Kills"] = 16,
+			["Name"] = "Venomtail Scorpid",
+			["Exp"] = 36,
 			["AchievCount"] = 0,
-			["Kills"] = 14,
-			["Name"] = "Scorpid Worker",
-			["Exp"] = 13,
-			["LastKillAt"] = 1695874002,
 		},
-		[1512] = {
+		[11320] = {
 			["AchievCount"] = 0,
-			["Kills"] = 8,
-			["Name"] = "Duskbat",
-			["Exp"] = 22,
-			["LastKillAt"] = 1695784941,
+			["Kills"] = 2,
+			["Name"] = "Earthborer",
+			["Exp"] = 33,
+			["LastKillAt"] = 1696122226,
 		},
 		[3445] = {
 			["AchievCount"] = 0,
@@ -1108,17 +1179,19 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Karrel Grayves",
 		},
-		[4264] = {
+		[3098] = {
+			["LastKillAt"] = 1695872574,
+			["Kills"] = 25,
+			["Name"] = "Mottled Boar",
+			["Exp"] = 11,
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Deepmoss Matriarch",
-			["Exp"] = 62,
 		},
-		[3130] = {
+		[3119] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Thunder Lizard",
-			["Exp"] = 25,
+			["Kills"] = 7,
+			["Name"] = "Kolkar Drudge",
+			["Exp"] = 18,
+			["LastKillAt"] = 1696053137,
 		},
 		[3192] = {
 			["AchievCount"] = 0,
@@ -1133,33 +1206,32 @@ KILLTRACK = {
 			["Exp"] = 68,
 			["AchievCount"] = 0,
 		},
-		[3098] = {
-			["LastKillAt"] = 1695872574,
-			["Kills"] = 25,
-			["Name"] = "Mottled Boar",
-			["Exp"] = 11,
+		[4264] = {
 			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Deepmoss Matriarch",
+			["Exp"] = 62,
 		},
-		[11320] = {
+		[1512] = {
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Earthborer",
-			["Exp"] = 33,
-			["LastKillAt"] = 1696122226,
+			["Kills"] = 8,
+			["Name"] = "Duskbat",
+			["Exp"] = 22,
+			["LastKillAt"] = 1695784941,
 		},
-		[3127] = {
-			["LastKillAt"] = 1696041576,
-			["Kills"] = 16,
-			["Name"] = "Venomtail Scorpid",
-			["Exp"] = 36,
+		[3183] = {
 			["AchievCount"] = 0,
+			["Kills"] = 1,
+			["Name"] = "Yarrog Baneshadow",
+			["Exp"] = 34,
+			["LastKillAt"] = 1695873805,
 		},
-		[3119] = {
+		[3124] = {
 			["AchievCount"] = 0,
-			["Kills"] = 7,
-			["Name"] = "Kolkar Drudge",
-			["Exp"] = 18,
-			["LastKillAt"] = 1696053137,
+			["Kills"] = 14,
+			["Name"] = "Scorpid Worker",
+			["Exp"] = 13,
+			["LastKillAt"] = 1695874002,
 		},
 		[3195] = {
 			["AchievCount"] = 0,
@@ -1182,18 +1254,19 @@ KILLTRACK = {
 			["Exp"] = 55,
 			["LastKillAt"] = 1696038908,
 		},
-		[3380] = {
+		[3638] = {
 			["AchievCount"] = 0,
-			["Kills"] = 4,
-			["Name"] = "Burning Blade Acolyte",
-			["Exp"] = 36,
-			["LastKillAt"] = 1696095226,
+			["Kills"] = 2,
+			["Name"] = "Devouring Ectoplasm",
+			["Exp"] = 16,
+			["LastKillAt"] = 1696203437,
 		},
-		[3452] = {
+		[3197] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Serena Bloodfeather",
-			["Exp"] = 74,
+			["Kills"] = 5,
+			["Name"] = "Burning Blade Fanatic",
+			["Exp"] = 42,
+			["LastKillAt"] = 1695969602,
 		},
 		[3835] = {
 			["AchievCount"] = 0,
@@ -1221,53 +1294,50 @@ KILLTRACK = {
 			["Exp"] = 82,
 			["AchievCount"] = 0,
 		},
-		[11910] = {
+		[2951] = {
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Grimtotem Ruffian",
-			["Exp"] = 24,
-			["LastKillAt"] = 1696147042,
+			["Kills"] = 5,
+			["Name"] = "Palemane Poacher",
+			["Exp"] = 43,
+			["LastKillAt"] = 1696001072,
 		},
-		[3638] = {
+		[11912] = {
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Devouring Ectoplasm",
-			["Exp"] = 16,
-			["LastKillAt"] = 1696203437,
+			["Kills"] = 3,
+			["Name"] = "Grimtotem Brute",
+			["Exp"] = 30,
+			["LastKillAt"] = 1696146720,
 		},
-		[4005] = {
-			["LastKillAt"] = 1696148905,
-			["Kills"] = 7,
-			["Name"] = "Deepmoss Creeper",
-			["Exp"] = 47,
-			["AchievCount"] = 0,
-		},
-		[4007] = {
-			["AchievCount"] = 0,
-			["Kills"] = 6,
-			["Name"] = "Deepmoss Venomspitter",
-			["Exp"] = 54,
-			["LastKillAt"] = 1696149136,
-		},
-		[4006] = {
-			["LastKillAt"] = 1696147632,
-			["Kills"] = 1,
-			["Name"] = "Deepmoss Webspinner",
-			["Exp"] = 51,
-			["AchievCount"] = 0,
-		},
-		[3634] = {
+		[3385] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Deviate Stalker",
-			["Exp"] = 16,
+			["Name"] = "Theramore Marine",
+			["Exp"] = 58,
+		},
+		[3226] = {
+			["AchievCount"] = 0,
+			["Kills"] = 1,
+			["Name"] = "Corrupted Scorpid",
+			["Exp"] = 94,
+			["LastKillAt"] = 1695964691,
+		},
+		[6494] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Tazan",
+		},
+		[3641] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Deviate Lurker",
+			["Exp"] = 96,
 		},
 		[3840] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
+			["Kills"] = 19,
 			["Name"] = "Druid of the Fang",
-			["Exp"] = 51,
-			["LastKillAt"] = 1696204120,
+			["Exp"] = 39,
+			["LastKillAt"] = 1696314644,
 		},
 		[3203] = {
 			["AchievCount"] = 0,
@@ -1275,47 +1345,54 @@ KILLTRACK = {
 			["Name"] = "Fizzle Darkstorm",
 			["Exp"] = 25,
 		},
-		[10685] = {
+		[3111] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Swine",
+			["Kills"] = 4,
+			["Name"] = "Razormane Quilboar",
+			["Exp"] = 71,
+			["LastKillAt"] = 1695962786,
 		},
-		[2949] = {
+		[3204] = {
+			["LastKillAt"] = 1695969493,
+			["Kills"] = 1,
+			["Name"] = "Gazz'uz",
+			["Exp"] = 54,
 			["AchievCount"] = 0,
-			["Kills"] = 13,
-			["Name"] = "Palemane Tanner",
+		},
+		[2989] = {
+			["LastKillAt"] = 1696001372,
+			["Kills"] = 7,
+			["Name"] = "Bael'dun Digger",
+			["Exp"] = 39,
+			["AchievCount"] = 0,
+		},
+		[2950] = {
+			["AchievCount"] = 0,
+			["Kills"] = 9,
+			["Name"] = "Palemane Skinner",
 			["Exp"] = 29,
-			["LastKillAt"] = 1696000945,
+			["LastKillAt"] = 1696001034,
 		},
-		[3261] = {
+		[1509] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Bristleback Thornweaver",
-			["Exp"] = 61,
-			["LastKillAt"] = 1696156387,
+			["Kills"] = 9,
+			["Name"] = "Ragged Scavenger",
+			["Exp"] = 48,
+			["LastKillAt"] = 1695785140,
 		},
-		[3205] = {
+		[3206] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Zalazane",
-			["Exp"] = 27,
-			["LastKillAt"] = 1695960541,
+			["Kills"] = 4,
+			["Name"] = "Voodoo Troll",
+			["Exp"] = 41,
+			["LastKillAt"] = 1695960853,
 		},
-		[3632] = {
+		[5761] = {
+			["LastKillAt"] = 1696313105,
+			["Kills"] = 7,
+			["Name"] = "Deviate Shambler",
+			["Exp"] = 40,
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Deviate Creeper",
-			["Exp"] = 16,
-		},
-		[3461] = {
-			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Oasis Snapjaw",
-		},
-		[3641] = {
-			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Deviate Lurker",
 		},
 		[3207] = {
 			["AchievCount"] = 0,
@@ -1324,31 +1401,30 @@ KILLTRACK = {
 			["Exp"] = 88,
 			["LastKillAt"] = 1695961105,
 		},
-		[3633] = {
+		[3241] = {
+			["LastKillAt"] = 1696119653,
+			["Kills"] = 1,
+			["Name"] = "Savannah Patriarch",
+			["Exp"] = 63,
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Deviate Slayer",
-			["Exp"] = 16,
-			["LastKillAt"] = 1696203677,
 		},
-		[6145] = {
+		[3463] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "School of Fish",
+			["Name"] = "Wandering Barrens Giraffe",
 		},
-		[2979] = {
-			["LastKillAt"] = 1696006323,
-			["Kills"] = 17,
-			["Name"] = "Venture Co. Supervisor",
-			["Exp"] = 55,
+		[11518] = {
 			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Jergosh the Invoker",
+			["Exp"] = 780,
 		},
-		[3637] = {
+		[3245] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Deviate Guardian",
-			["Exp"] = 42,
-			["LastKillAt"] = 1696203780,
+			["Kills"] = 7,
+			["Name"] = "Ornery Plainstrider",
+			["Exp"] = 47,
+			["LastKillAt"] = 1696153225,
 		},
 		[5893] = {
 			["AchievCount"] = 0,
@@ -1356,31 +1432,28 @@ KILLTRACK = {
 			["Name"] = "Minor Manifestation of Fire",
 			["LastKillAt"] = 1696041873,
 		},
-		[3636] = {
+		[11517] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Deviate Ravager",
-			["Exp"] = 42,
+			["Name"] = "Oggleflint",
+			["Exp"] = 764,
 		},
-		[4129] = {
+		[11324] = {
 			["AchievCount"] = 0,
 			["Kills"] = 1,
-			["Name"] = "Hecklefang Snarler",
-			["Exp"] = 66,
-			["LastKillAt"] = 1696156570,
+			["Name"] = "Searing Blade Warlock",
+			["Exp"] = 35,
+			["LastKillAt"] = 1696122834,
 		},
-		[3991] = {
+		[3257] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Venture Co. Deforester",
-			["Exp"] = 74,
+			["Kills"] = 1,
+			["Name"] = "Ishamuhale",
+			["Exp"] = 66,
+			["LastKillAt"] = 1696357120,
 		},
 	},
-	["IMMEDIATE"] = {
-		["THRESHOLD"] = 0,
-		["POSITION"] = {
-		},
-	},
+	["DISABLE_RAIDS"] = false,
 	["BROKER"] = {
 		["MINIMAP"] = {
 			["hide"] = true,
@@ -1388,6 +1461,10 @@ KILLTRACK = {
 		["SHORT_TEXT"] = false,
 	},
 	["DISABLE_DUNGEONS"] = false,
-	["DISABLE_RAIDS"] = false,
-	["TOOLTIP"] = true,
+	["IMMEDIATE"] = {
+		["THRESHOLD"] = 0,
+		["POSITION"] = {
+		},
+	},
+	["COUNT_GROUP"] = false,
 }

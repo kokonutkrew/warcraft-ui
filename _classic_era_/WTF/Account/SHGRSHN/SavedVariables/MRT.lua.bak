@@ -47,10 +47,11 @@ VMRT = {
 		["timeToKillAnalyze"] = 15,
 	},
 	["ProfileKeys"] = {
-		["Samoanranger-SkullRock"] = "default",
-		["Bannhammer-SkullRock"] = "default",
+		["Samoanslayer-SkullRock"] = "default",
 		["Samoanbank-Whitemane"] = "default",
+		["Bannhammer-SkullRock"] = "default",
 		["Cupcakeheals-SkullRock"] = "default",
+		["Samoanranger-SkullRock"] = "default",
 		["Kkbanker-SkullRock"] = "default",
 		["Samoanbeast-SkullRock"] = "default",
 		["Kktailor-SkullRock"] = "default",
@@ -81,6 +82,8 @@ VMRT = {
 			},
 			["Goldenshots"] = {
 			},
+			["Samoanslayer"] = {
+			},
 			["Øø"] = {
 			},
 			["Cupcakeheals"] = {
@@ -100,13 +103,14 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
+			["Samoanslayer"] = 0,
 			["Samoanbank"] = 0,
 			["Kkleather"] = 0,
 			["Vynarel"] = 0,
 			["Estoe"] = 0,
-			["Fishhook"] = 0,
-			["Paxi"] = 0,
 			["Gorebanker"] = 0,
+			["Kktailor"] = 0,
+			["Fishhook"] = 0,
 			["Goldenshots"] = 0,
 			["Rustyventure"] = 0,
 			["Cupcakeheals"] = 0,
@@ -127,7 +131,7 @@ VMRT = {
 			["Samoanranger"] = 0,
 			["Rxxll"] = 0,
 			["Patjam"] = 0,
-			["Kktailor"] = 0,
+			["Paxi"] = 0,
 			["Guerrero"] = 0,
 			["Bullshotter"] = 0,
 		},

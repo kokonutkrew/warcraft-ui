@@ -2284,10 +2284,10 @@ KILLTRACK = {
 			["Kills"] = 4,
 			["Name"] = "Eye of Naxxramas",
 		},
-		[15542] = {
+		[12473] = {
 			["AchievCount"] = 0,
-			["Kills"] = 3,
-			["Name"] = "Twilight Marauder",
+			["Kills"] = 1,
+			["Name"] = "Arcanite Dragonling",
 		},
 		[15510] = {
 			["AchievCount"] = 0,
@@ -2310,10 +2310,10 @@ KILLTRACK = {
 			["Kills"] = 2,
 			["Name"] = "Death Talon Wyrmkin",
 		},
-		[11450] = {
+		[15542] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Gordok Reaver",
+			["Kills"] = 3,
+			["Name"] = "Twilight Marauder",
 		},
 		[10435] = {
 			["AchievCount"] = 0,
@@ -2597,10 +2597,10 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Stonevault Basher",
 		},
-		[1765] = {
+		[883] = {
 			["AchievCount"] = 0,
-			["Kills"] = 6,
-			["Name"] = "Worg",
+			["Kills"] = 0,
+			["Name"] = "Deer",
 		},
 		[14465] = {
 			["AchievCount"] = 0,
@@ -2617,10 +2617,10 @@ KILLTRACK = {
 			["Kills"] = 17,
 			["Name"] = "Helboar",
 		},
-		[883] = {
+		[12050] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Deer",
+			["Kills"] = 2,
+			["Name"] = "Stormpike Defender",
 		},
 		[15464] = {
 			["AchievCount"] = 0,
@@ -2688,10 +2688,10 @@ KILLTRACK = {
 			["Kills"] = 2,
 			["Name"] = "Mad Servant",
 		},
-		[12050] = {
+		[1765] = {
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Stormpike Defender",
+			["Kills"] = 6,
+			["Name"] = "Worg",
 		},
 		[1766] = {
 			["AchievCount"] = 0,
@@ -2855,10 +2855,10 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Gravelsnout Kobold",
 		},
-		[11339] = {
+		[113] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
-			["Name"] = "Hakkari Shadow Hunter",
+			["Name"] = "Stonetusk Boar",
 		},
 		[2573] = {
 			["AchievCount"] = 0,
@@ -2887,10 +2887,10 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Dabyrie Militia",
 		},
-		[10316] = {
+		[11339] = {
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Blackhand Incarcerator",
+			["Kills"] = 0,
+			["Name"] = "Hakkari Shadow Hunter",
 		},
 		[11347] = {
 			["AchievCount"] = 0,
@@ -2932,25 +2932,25 @@ KILLTRACK = {
 			["Kills"] = 1,
 			["Name"] = "Flamewaker Healer",
 		},
-		[10412] = {
+		[12458] = {
 			["AchievCount"] = 0,
-			["Kills"] = 9,
-			["Name"] = "Crypt Crawler",
+			["Kills"] = 2,
+			["Name"] = "Blackwing Taskmaster",
 		},
 		[15511] = {
 			["AchievCount"] = 0,
 			["Kills"] = 0,
 			["Name"] = "Lord Kri",
 		},
-		[12458] = {
-			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Blackwing Taskmaster",
-		},
 		[1816] = {
 			["AchievCount"] = 0,
 			["Kills"] = 1,
 			["Name"] = "Diseased Grizzly",
+		},
+		[10412] = {
+			["AchievCount"] = 0,
+			["Kills"] = 9,
+			["Name"] = "Crypt Crawler",
 		},
 		[11443] = {
 			["AchievCount"] = 0,
@@ -3022,10 +3022,10 @@ KILLTRACK = {
 			["Kills"] = 0,
 			["Name"] = "Elder Saltwater Crocolisk",
 		},
-		[11667] = {
+		[8598] = {
 			["AchievCount"] = 0,
-			["Kills"] = 2,
-			["Name"] = "Flameguard",
+			["Kills"] = 1,
+			["Name"] = "Frenzied Plaguehound",
 		},
 		[5274] = {
 			["AchievCount"] = 0,
@@ -3096,11 +3096,10 @@ KILLTRACK = {
 			["Kills"] = 2,
 			["Name"] = "Molten Destroyer",
 		},
-		[4303] = {
+		[11667] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Scarlet Abbot",
-			["Exp"] = 126,
+			["Kills"] = 2,
+			["Name"] = "Flameguard",
 		},
 		[8606] = {
 			["AchievCount"] = 0,
@@ -3422,10 +3421,11 @@ KILLTRACK = {
 			["Kills"] = 4,
 			["Name"] = "Vekniss Hive Crawler",
 		},
-		[8598] = {
+		[4303] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Frenzied Plaguehound",
+			["Kills"] = 0,
+			["Name"] = "Scarlet Abbot",
+			["Exp"] = 126,
 		},
 		[4287] = {
 			["AchievCount"] = 0,
@@ -3488,10 +3488,10 @@ KILLTRACK = {
 			["Kills"] = 6,
 			["Name"] = "Swarmguard Needler",
 		},
-		[113] = {
+		[10316] = {
 			["AchievCount"] = 0,
-			["Kills"] = 0,
-			["Name"] = "Stonetusk Boar",
+			["Kills"] = 2,
+			["Name"] = "Blackhand Incarcerator",
 		},
 		[1923] = {
 			["AchievCount"] = 0,
@@ -3743,10 +3743,10 @@ KILLTRACK = {
 			["Kills"] = 2,
 			["Name"] = "Chromatic Whelp",
 		},
-		[12473] = {
+		[11450] = {
 			["AchievCount"] = 0,
-			["Kills"] = 1,
-			["Name"] = "Arcanite Dragonling",
+			["Kills"] = 0,
+			["Name"] = "Gordok Reaver",
 		},
 		[11668] = {
 			["AchievCount"] = 0,

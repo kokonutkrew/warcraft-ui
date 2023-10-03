@@ -1,0 +1,1139 @@
+
+CoreProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+CommunicationsProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+		},
+		["Samoanslayer - Skull Rock"] = {
+		},
+		["Kkbanker - Skull Rock"] = {
+		},
+		["Samoanbank - Skull Rock"] = {
+		},
+		["[KK]"] = {
+		},
+	},
+}
+TeamProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["master"] = "Samoanbeast-SkullRock",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanbeast-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanbeast-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+			["master"] = "Samoanslayer-SkullRock",
+			["newTeamList"] = {
+				["Samoanslayer-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["master"] = "Kkbanker-SkullRock",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Kkbanker-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Kkbanker-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["master"] = "Samoanbank-SkullRock",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanbank-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanbank-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["[KK]"] = {
+			["master"] = "Kktailor-SkullRock",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Fishhook-SkullRock"] = {
+					{
+						["order"] = 2,
+						["class"] = "SHAMAN",
+						["name"] = "Fishhook-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Kktailor-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARLOCK",
+						["name"] = "Kktailor-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+	},
+}
+TagProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["tagList"] = {
+				["Samoanbeast-SkullRock"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["tagList"] = {
+				["Samoanslayer-SkullRock"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["tagList"] = {
+				["Kkbanker-SkullRock"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["tagList"] = {
+				["Samoanbank-SkullRock"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["tagList"] = {
+				["Fishhook-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Kktailor-SkullRock"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
+	},
+}
+MessageProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+InformationProfileDB = nil
+InformationClassicProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+DisplayTeamProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+			["showTeamList"] = false,
+		},
+	},
+}
+FollowProfileDB = nil
+GuildProfileDB = nil
+InteractionProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+ItemUseProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanbank - Skull Rock"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["[KK]"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["showItemUse"] = false,
+		},
+	},
+}
+PurchaseProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+QuestProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+QuestWatcherProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+	},
+}
+SellProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+TalkProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+			["doNotForwardRealIdWhispers"] = false,
+		},
+	},
+}
+ToonProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+TradeProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+MailProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+BankProfileDB = {
+	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+		["Kktailor - Skull Rock"] = "[KK]",
+		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanbeast - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanslayer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Kkbanker - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+ISBoxerProfileDB = nil

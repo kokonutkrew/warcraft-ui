@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -29,7 +29,7 @@ Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -42,6 +42,38 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -52,7 +84,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -65,6 +97,38 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -75,7 +139,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 22,
+			["headIndex"] = 9,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -90,23 +154,23 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["b"] = 0,
-					["serverTime"] = 1696157445,
-					["timestamp"] = 239363.986,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["b"] = 0,
 					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696309666,
+					["r"] = 1,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[04:49:10]|h|r You have been disconnected from Blizzard services.",
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
 					["b"] = 0,
 					["r"] = 1,
+					["serverTime"] = 1696323136,
+					["timestamp"] = 357425.197,
 					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696157365,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
@@ -114,227 +178,71 @@ Prat3HighCPUPerCharDB = {
 				}, -- [2]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696354442,
 					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696157951,
-					["r"] = 1,
 				}, -- [3]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1696169478,
-					["timestamp"] = 239363.986,
-					["g"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
 				}, -- [4]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
+					["serverTime"] = 1696355483,
 					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 357425.197,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696174778,
-					["b"] = 0,
+					["g"] = 1,
 				}, -- [5]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
 					["b"] = 0,
-					["serverTime"] = 1696186341,
-					["timestamp"] = 239363.986,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["g"] = 1,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:49]|h|r You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696176364,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
 				}, -- [7]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696189052,
-					["r"] = 1,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
 				}, -- [8]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
 					["r"] = 1,
-					["serverTime"] = 1696191070,
-					["timestamp"] = 239363.986,
-					["g"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["timestamp"] = 357407.747,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [9]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696191747,
-					["b"] = 0,
-				}, -- [10]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["b"] = 0,
-					["serverTime"] = 1696194785,
-					["timestamp"] = 239363.986,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [11]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696194876,
-					["r"] = 1,
-				}, -- [12]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1696194932,
-					["timestamp"] = 239363.986,
-					["g"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [13]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696197048,
-					["b"] = 0,
-				}, -- [14]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["b"] = 0,
-					["serverTime"] = 1696202534,
-					["timestamp"] = 239363.986,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [15]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696212203,
-					["r"] = 1,
-				}, -- [16]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1696224634,
-					["timestamp"] = 239363.986,
-					["g"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [17]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696231281,
-					["b"] = 0,
-				}, -- [18]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1696237423,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 239363.986,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [19]
-				{
-					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
-					["timestamp"] = 239363.986,
-				}, -- [20]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 239363.986,
-				}, -- [21]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 239350.324,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [22]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -345,7 +253,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame7"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -358,6 +266,38 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -368,7 +308,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame6"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -381,6 +321,38 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -391,7 +363,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame8"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -404,6 +376,38 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -414,7 +418,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame4"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 6,
+			["headIndex"] = 55,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -428,60 +432,888 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[20:03:09]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["serverTime"] = 1696224634,
-					["timestamp"] = 239363.986,
+					["message"] = "|cff979797|Hpratcopy|h[02:52:01]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
 					["g"] = 1,
+					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696354442,
+					["b"] = 0.250980406999588,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[23:30:19]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["g"] = 1,
-					["r"] = 0.250980406999588,
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
 					["extraData"] = {
-						5, -- [1]
+						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696231281,
-					["b"] = 0.250980406999588,
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:21:09]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["b"] = 0.250980406999588,
+					["message"] = "|cff979797|Hpratcopy|h[11:33:48]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
+					["serverTime"] = 1696355483,
 					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 239363.986,
-					["serverTime"] = 1696231284,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 357425.197,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
+					["g"] = 1,
 				}, -- [3]
 				{
-					["message"] = "0 days, 1 hours, 42 minutes, 19 seconds",
-					["timestamp"] = 239363.986,
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
 				}, -- [4]
 				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 239363.986,
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:03:29]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:51:10]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
 					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 239363.87,
+					["timestamp"] = 357425.142,
 					["g"] = 1,
 					["b"] = 0.250980406999588,
-				}, -- [6]
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:51:44]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:7:PARTY|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: areyou heals dps or tank?",
+					["serverTime"] = 1696355517,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357459.266,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:03]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:14:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: i am dps",
+					["serverTime"] = 1696355536,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357477.913,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:06]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:15:PARTY|h|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: ok",
+					["serverTime"] = 1696355539,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357480.953,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:25]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:29:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: welcome",
+					["serverTime"] = 1696355618,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357560.69,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:40]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Concradfive-SkullRock:35:PARTY|h|cffffffffConcradfive|r|h|cffd8d8d8]|r: sup",
+					["serverTime"] = 1696355633,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						42, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357574.912,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:01]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:39:PARTY|h|cffd8d83f19|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: am i too low for WC or it's ok?",
+					["serverTime"] = 1696355654,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357596.421,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:06]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:40:PARTY|h|cffd8d83f19|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: almost 20",
+					["serverTime"] = 1696355659,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357601.251,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:20]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:44:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: ur fine",
+					["serverTime"] = 1696355673,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357614.87,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:06]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Concradfive-SkullRock:58:PARTY|h|cffffffffConcradfive|r|h|cffd8d8d8]|r: son wake up sry cant make it",
+					["serverTime"] = 1696355719,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						42, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357660.843,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:58:09]|h|r [W To] |cffd8d8d8[|r|Hplayer:Futureaspir-SkullRock:104:WHISPER:FUTUREASPIR-SKULLROCK|h|cffd84e4e60|r:|cffaad372Futureaspir|r|h|cffd8d8d8]|r: hey future, mind if I ask which professions you are using?",
+					["serverTime"] = 1696355902,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						84, -- [3]
+						85, -- [4]
+						"CHAT_MSG_WHISPER_INFORM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 357844.516,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:01:13]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:143:PARTY|h|cffd8d83f19|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Questie : 6/6 Harpy Lieutenant Ring for |Hquestie:875:Player-5099-01B4B324|h|cFF40C040[|r|cFF40C040[16] Harpy Lieutenants|r|cFF40C040]|r|h!",
+					["serverTime"] = 1696356086,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358028.674,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:02:28]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:166:PARTY|h|cffd8d83f20|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 19 to 20 in 1 hour 23 minutes 45 seconds",
+					["serverTime"] = 1696356161,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358103.294,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:02:39]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:172:PARTY|h|cffd8d83f20|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: Flying to 80 ETA 52 seconds",
+					["serverTime"] = 1696356172,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358114.1,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:02:57]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:179:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: good go train :)",
+					["serverTime"] = 1696356190,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358132.463,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:03:23]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:185:PARTY|h|cffd8d83f20|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: :P",
+					["serverTime"] = 1696356216,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358158.3,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:03:51]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:199:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Questie : 1/1 Snufflenose Command Stick for |Hquestie:1221:Player-5099-01B2A1BB|h|cFFFF1A1A[|r|cFFFF1A1A[26D] Blueleaf Tubers|r|cFFFF1A1A]|r|h!",
+					["serverTime"] = 1696356244,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358186.706,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:06]|h|r [W From] |cffd8d8d8[|r|Hplayer:Mykungfu:222:WHISPER:MYKUNGFU|h|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: mage dps",
+					["serverTime"] = 1696356319,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						157, -- [3]
+						158, -- [4]
+						"CHAT_MSG_WHISPER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358260.736,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:25]|h|r [W From] |cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:231:WHISPER:MYKUNGFU-SKULLROCK|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: ?",
+					["serverTime"] = 1696356338,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						169, -- [3]
+						170, -- [4]
+						"CHAT_MSG_WHISPER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358280.579,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:31]|h|r [W To] |cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:232:WHISPER:MYKUNGFU-SKULLROCK|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: talking to the group",
+					["serverTime"] = 1696356344,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						169, -- [3]
+						171, -- [4]
+						"CHAT_MSG_WHISPER_INFORM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358286.324,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:46]|h|r [W From] |cffd8d8d8[|r|Hplayer:Milkums:235:WHISPER:MILKUMS|h|cfffff468Milkums|r|h|cffd8d8d8]|r: 21 rogue if you need dps",
+					["serverTime"] = 1696356359,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						"CHAT_MSG_WHISPER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358300.797,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:46]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:236:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: 21 mage that wants to come",
+					["serverTime"] = 1696356359,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358300.797,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:52]|h|r [W From] |cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:239:WHISPER:MYKUNGFU-SKULLROCK|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: okay",
+					["serverTime"] = 1696356365,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						169, -- [3]
+						170, -- [4]
+						"CHAT_MSG_WHISPER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358307.003,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:05:57]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:247:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: im not specced for healing",
+					["serverTime"] = 1696356370,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358312.062,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:02]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:258:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: but i know how to heal",
+					["serverTime"] = 1696356375,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358317.461,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:13]|h|r [W From] |cffd8d8d8[|r|Hplayer:Ungoliant-SkullRock:270:WHISPER:UNGOLIANT-SKULLROCK|h|cff3fc6eaUngoliant|r|h|cffd8d8d8]|r: what level is your tank?",
+					["serverTime"] = 1696356386,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						184, -- [3]
+						185, -- [4]
+						"CHAT_MSG_WHISPER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358328.375,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:15]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:275:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: we have all the dps",
+					["serverTime"] = 1696356388,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358330.01,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:20]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:278:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: just need tank and healer",
+					["serverTime"] = 1696356393,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358334.907,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:25]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:284:PARTY|h|cffd8d83f20|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: i can leave 2, im looking at the time and dont know if i can make it",
+					["serverTime"] = 1696356398,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358340.139,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:36]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:289:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: ok",
+					["serverTime"] = 1696356409,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358350.902,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:45]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Warchalrogue-SkullRock:295:PARTY|h|cffd8d83f20|r:|cfffff468Warchalrogue|r|h|cffd8d8d8]|r: tc all and DONT DIE!!!",
+					["serverTime"] = 1696356418,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						43, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358360.414,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:06:47]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:296:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: inv |cff3fc6eamykungfu|r",
+					["serverTime"] = 1696356420,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358361.869,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:07:22]|h|r [W To] |cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:312:WHISPER:MYKUNGFU-SKULLROCK|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: did you get inv?",
+					["serverTime"] = 1696356455,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						169, -- [3]
+						171, -- [4]
+						"CHAT_MSG_WHISPER_INFORM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358396.972,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:07:30]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:318:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: welcome",
+					["serverTime"] = 1696356463,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358405.709,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:07:36]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:321:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: hey",
+					["serverTime"] = 1696356469,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358410.814,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:13:27]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:414:PARTY|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: hello there",
+					["serverTime"] = 1696356820,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						209, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358762.255,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:16:57]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:486:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: i am trying folks, ask your guild",
+					["serverTime"] = 1696357030,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358971.992,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:17:07]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:492:PARTY|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: none online atm :P",
+					["serverTime"] = 1696357040,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						209, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 358982.209,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:17:41]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:505:PARTY|h|cffff7c0aThedrood|r|h|cffd8d8d8]|r: We need a tank right?",
+					["serverTime"] = 1696357074,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						209, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359016.38,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:17:48]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:508:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: yes",
+					["serverTime"] = 1696357081,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359023.056,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:18:29]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:524:PARTY|h|cffd8d83f20|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Questie : 1/1 Ishamuhale's Fang for |Hquestie:882:Player-5099-01B2A1BB|h|cFFFFFF00[|r|cFFFFFF00[19] Ishamuhale |cFF00ff00(Complete)|r|r|cFFFFFF00]|r|h!",
+					["serverTime"] = 1696357122,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359064.27,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:32]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:630:PARTY|h|cffd8d83f21|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 20 to 21 in 1 day 1 hour 34 minutes 46 seconds",
+					["serverTime"] = 1696357425,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359367.279,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:20]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Amnel-SkullRock:662:GUILD|h|cffd84e4e53|r:|cfffff468Amnel|r|h|cffd8d8d8]|r: inv to change layer pls",
+					["serverTime"] = 1696357533,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						296, -- [3]
+						297, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359474.722,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:53]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:718:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: inv Pibbpog",
+					["serverTime"] = 1696357686,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359628.418,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:56]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:719:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: another mage",
+					["serverTime"] = 1696357689,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359631.333,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:10]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:723:PARTY|h|cffd8d83f20|r:|cffff7c0aThedrood|r|h|cffd8d8d8]|r: dont we need a tank?",
+					["serverTime"] = 1696357703,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						209, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359645.461,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:16]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:727:PARTY|h|cffd8d83f21|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: is he taking your spot?",
+					["serverTime"] = 1696357709,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359651.06,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:16]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:728:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: oh wait nvm lol",
+					["serverTime"] = 1696357709,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359651.06,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:20]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:734:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: yea, we need a tank",
+					["serverTime"] = 1696357713,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359655.201,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [55]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -492,7 +1324,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame9"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -505,6 +1337,38 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:52:36]|h|r You have been disconnected from Blizzard services.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1696326769,
+					["timestamp"] = 357425.197,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:50:46]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 357425.197,
+					["serverTime"] = 1696355459,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 24 seconds",
+					["timestamp"] = 357425.197,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 357425.197,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -515,7 +1379,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 1,
+			["headIndex"] = 16,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -529,2151 +1393,2014 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:19]|h|r Crank Fizzlebub says: Hm... if you're looking to adle wits, Warbrush, then the secret behind Zanzil's zombies might just do the trick!",
-					["serverTime"] = 1696239453,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						56, -- [3]
-						57, -- [4]
-						"CHAT_MSG_MONSTER_SAY", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241394.019,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:02]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Duckroyal-SkullRock:4297:CHANNEL:6|h|cff0070ddDuckroyal|r|h|cffd8d8d8]|r: any gnomer groups?",
-					["serverTime"] = 1696238776,
+					["message"] = "|cff979797|Hpratcopy|h[12:28:36]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:743:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank WC 20+",
+					["serverTime"] = 1696357729,
 					["r"] = 1,
 					["extraData"] = {
 						74, -- [1]
 						false, -- [2]
-						1, -- [3]
-						156, -- [4]
+						3, -- [3]
+						22, -- [4]
 						"CHAT_MSG_CHANNEL", -- [5]
 						[7] = nil --[[ skipped inline function ]],
 						["n"] = 7,
 					},
-					["timestamp"] = 240717.623,
+					["timestamp"] = 359671.403,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:41]|h|r |cffc79c6eKkbanker|r has gone offline.",
+					["serverTime"] = 1696357734,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359675.811,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stormscar-SkullRock:4298:CHANNEL:6|h|cff0070ddStormscar|r|h|cffd8d8d8]|r: DPS LFG RFK",
-					["serverTime"] = 1696238778,
+					["message"] = "|cff979797|Hpratcopy|h[12:28:44]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Forresthump-SkullRock:746:CHANNEL:6|h|cffff7c0aForresthump|r|h|cffd8d8d8]|r: LFM |Hquestie:193:Player-5099-01AFE9E9|h|cFFFF1A1A[|r|cFFFF1A1A[40+] Panther Mastery|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357737,
 					["r"] = 1,
 					["extraData"] = {
 						74, -- [1]
 						false, -- [2]
-						1, -- [3]
-						160, -- [4]
+						3, -- [3]
+						268, -- [4]
 						"CHAT_MSG_CHANNEL", -- [5]
 						[7] = nil --[[ skipped inline function ]],
 						["n"] = 7,
 					},
-					["timestamp"] = 240718.86,
+					["timestamp"] = 359679.075,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dømeshot:4299:CHANNEL:6|h|cffaad372Dømeshot|r|h|cffd8d8d8]|r: WTB PORT TO UC FROM ORG WILL TIP",
-					["serverTime"] = 1696238778,
+					["message"] = "|cff979797|Hpratcopy|h[12:28:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:748:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357748,
 					["r"] = 1,
 					["extraData"] = {
 						74, -- [1]
 						false, -- [2]
-						1, -- [3]
-						166, -- [4]
+						3, -- [3]
+						195, -- [4]
 						"CHAT_MSG_CHANNEL", -- [5]
 						[7] = nil --[[ skipped inline function ]],
 						["n"] = 7,
 					},
-					["timestamp"] = 240719.428,
+					["timestamp"] = 359690.708,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:06]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Slushii-SkullRock:4300:CHANNEL:6|h|cff8787edSlushii|r|h|cffd8d8d8]|r: oui, petit biscuit",
-					["serverTime"] = 1696238780,
+					["message"] = "|cff979797|Hpratcopy|h[12:28:56]|h|r You feel rested.",
+					["serverTime"] = 1696357749,
 					["r"] = 1,
 					["extraData"] = {
-						74, -- [1]
+						1, -- [1]
 						false, -- [2]
 						1, -- [3]
-						168, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
 						[7] = nil --[[ skipped inline function ]],
 						["n"] = 7,
 					},
-					["timestamp"] = 240720.866,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 359691.375,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4301:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: LF DPS RFC",
-					["serverTime"] = 1696238793,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240733.819,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4302:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: LF DPS RFC",
-					["serverTime"] = 1696238797,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240737.865,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Braff-SkullRock:4303:CHANNEL:6|h|cff8787edBraff|r|h|cffd8d8d8]|r: I met my second wife during a gnomeregen run in classic wow in 2019",
-					["serverTime"] = 1696238797,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						18, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240738.216,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Krei:4304:CHANNEL:6|h|cffaad372Krei|r|h|cffd8d8d8]|r: sorry i do not speak croissant",
-					["serverTime"] = 1696238799,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						170, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240739.853,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:27]|h|r |cffd8d8d8[|r|Hplayer:Badrika:4305|h|cffd84e4e34|r:|cffaad372Badrika|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["serverTime"] = 1696238801,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240742.577,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:30]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gazzman:4306:CHANNEL:6|h|cff3fc6eaGazzman|r|h|cffd8d8d8]|r: JE SUIS FROMAGE",
-					["serverTime"] = 1696238804,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						172, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240744.87,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Karengos:4307:CHANNEL:6|h|cffc69b6dKarengos|r|h|cffd8d8d8]|r: Small Black Pouch from fishing wtf",
-					["serverTime"] = 1696238806,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						174, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240747.176,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Xcodet-SkullRock:4308:CHANNEL:6|h|cffffffffXcodet|r|h|cffd8d8d8]|r: LF1M WC need Tank",
-					["serverTime"] = 1696238806,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						136, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240747.176,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kavu-SkullRock:4309:CHANNEL:6|h|cff3fc6eaKavu|r|h|cffd8d8d8]|r: Fair Dinkum - Australian Guild - Looking for new members, pst for |cffffff00|Hinvplr:Kavu-SkullRock|h[invite]|h|r",
-					["serverTime"] = 1696238811,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						24, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240752.674,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Arkamnn-SkullRock:4310:CHANNEL:6|h|cfffff468Arkamnn|r|h|cffd8d8d8]|r: LF 2 DPS and heal gnomer",
-					["serverTime"] = 1696238815,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						154, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240756.2,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Henryw:4311:CHANNEL:6|h|cffc69b6dHenryw|r|h|cffd8d8d8]|r: are there any rfc quests that start in skull rock cave?",
-					["serverTime"] = 1696238816,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						176, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240757.387,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4312:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: YES",
-					["serverTime"] = 1696238823,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240764.272,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:52]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Slushii-SkullRock:4313:CHANNEL:6|h|cff8787edSlushii|r|h|cffd8d8d8]|r: hidden enemies",
-					["serverTime"] = 1696238826,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						168, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240767.046,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Onon-SkullRock:4314:CHANNEL:6|h|cffaad372Onon|r|h|cffd8d8d8]|r: no it starts from thrall in org",
-					["serverTime"] = 1696238827,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						178, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240768.434,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Slushii-SkullRock:4315:CHANNEL:6|h|cff8787edSlushii|r|h|cffd8d8d8]|r: from thrall",
-					["serverTime"] = 1696238828,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						168, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240769.32,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:26:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4316:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: LF DPS RFC",
-					["serverTime"] = 1696238829,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240769.904,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Shwankly-SkullRock:4317:CHANNEL:6|h|cffffffffShwankly|r|h|cffd8d8d8]|r: LF2M Dps/Tank SM Lib/Arm/Cath",
-					["serverTime"] = 1696238838,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						74, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240779.214,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:10]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4318:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: LF DPS RFC",
-					["serverTime"] = 1696238844,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240785.314,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kerstab-SkullRock:4319:CHANNEL:6|h|cfffff468Kerstab|r|h|cffd8d8d8]|r: LFM |Hquestie:2937:Player-5099-01A102D6|h|cFFFF1A1A[|r|cFFFF1A1A[55+] Summoning Shadra|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696238848,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						158, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240789.091,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Axorc-SkullRock:4320:CHANNEL:6|h|cffc69b6dAxorc|r|h|cffd8d8d8]|r: only quest IN skull rock is an item drop off",
-					["serverTime"] = 1696238848,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						120, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240789.091,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Axorc-SkullRock:4321:CHANNEL:6|h|cffc69b6dAxorc|r|h|cffd8d8d8]|r: Gazz'Uz",
-					["serverTime"] = 1696238854,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						120, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240795.075,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Henryw-SkullRock:4322:CHANNEL:6|h|cffc69b6dHenryw|r|h|cffd8d8d8]|r: is quest lots of xp or not really worth?",
-					["serverTime"] = 1696238871,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						176, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240812.541,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Karengos-SkullRock:4324:CHANNEL:6|h|cffc69b6dKarengos|r|h|cffd8d8d8]|r: be level 12, Gazz is 14",
-					["serverTime"] = 1696238874,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						174, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240815.165,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Xcodet-SkullRock:4325:CHANNEL:6|h|cffffffffXcodet|r|h|cffd8d8d8]|r: LF1M WC need Tank",
-					["serverTime"] = 1696238874,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						136, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240815.399,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:46]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4326:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: bru",
-					["serverTime"] = 1696238880,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240820.831,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:46]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stormscar-SkullRock:4327:CHANNEL:6|h|cff0070ddStormscar|r|h|cffd8d8d8]|r: DPS LFG RFK",
-					["serverTime"] = 1696238880,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						160, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240821.467,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4328:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: LF DPS RFC",
-					["serverTime"] = 1696238888,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240829.188,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:27:59]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Shwankly-SkullRock:4329:CHANNEL:6|h|cffffffffShwankly|r|h|cffd8d8d8]|r: LF2M Dps/Tank SM Lib/Arm/Cath",
-					["serverTime"] = 1696238893,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						74, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240834.304,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:07]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Fenny-SkullRock:4331:CHANNEL:6|h|cff0070ddFenny|r|h|cffd8d8d8]|r: any quest you arent 5 levels over is good xp, starts getting bad then",
-					["serverTime"] = 1696238901,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						180, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240842.559,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:13]|h|r |cffd8d8d8[|r|Hplayer:Refaze:4332|h|cffd84e4e35|r:|cfffff468Refaze|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["serverTime"] = 1696238907,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240848.509,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:15]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nittaly-SkullRock:4333:CHANNEL:6|h|cffffffffNittaly|r|h|cffd8d8d8]|r: IT DONT SNOW IN L.A. HOMES",
-					["serverTime"] = 1696238909,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						128, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240850.436,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:16]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Slushii-SkullRock:4334:CHANNEL:6|h|cff8787edSlushii|r|h|cffd8d8d8]|r: lf enchanter minor speed",
-					["serverTime"] = 1696238910,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						168, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240851.305,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:17]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Fenny-SkullRock:4335:CHANNEL:6|h|cff0070ddFenny|r|h|cffd8d8d8]|r: 6 i mean",
-					["serverTime"] = 1696238911,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						180, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240852.441,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Karengos-SkullRock:4336:CHANNEL:6|h|cffc69b6dKarengos|r|h|cffd8d8d8]|r: quests are awful, collect 8 bone chips and turn in to the dwarf",
-					["serverTime"] = 1696238913,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						174, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240854.463,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:21]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4337:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES",
-					["serverTime"] = 1696238915,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240855.951,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:21]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mortalmorph:4338:CHANNEL:6|h|cffffffffMortalmorph|r|h|cffd8d8d8]|r: LF3M DPS RFK",
-					["serverTime"] = 1696238915,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						182, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240856.719,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Shootncunce-SkullRock:4339:CHANNEL:6|h|cffaad372Shootncunce|r|h|cffd8d8d8]|r: LFM |Hquestie:208:Player-5099-01AA2609|h|cFFFF1A1A[|r|cFFFF1A1A[43+] Big Game Hunter|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696238917,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						162, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240858.323,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Braff-SkullRock:4340:CHANNEL:6|h|cff8787edBraff|r|h|cffd8d8d8]|r: No one appreciated me anymore",
-					["serverTime"] = 1696238926,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						18, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240866.796,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4341:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696238928,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240869.654,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rriippbozo-SkullRock:4342:CHANNEL:6|h|cff0070ddRriippbozo|r|h|cffd8d8d8]|r: anyone else getting DC's last couple of days? literally had none for the first month...then last 2 days...",
-					["serverTime"] = 1696238932,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						110, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240873.698,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stormscar-SkullRock:4343:CHANNEL:6|h|cff0070ddStormscar|r|h|cffd8d8d8]|r: DPS LFG RFK",
-					["serverTime"] = 1696238936,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						160, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240877.709,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:46]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Afoot-SkullRock:4344:CHANNEL:6|h|cff0070ddAfoot|r|h|cffd8d8d8]|r: I appreciate you Braff",
-					["serverTime"] = 1696238940,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						184, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240881.772,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ovega-SkullRock:4345:CHANNEL:6|h|cfffff468Ovega|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Hellscream|r|cffffffff>|r is Recruiting 40+,  Looking for Skilled End Game Players. We Have A Disc and are Growing Fast, pst if interested.",
-					["serverTime"] = 1696238942,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						88, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240883.594,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4346:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: LF DPS RFC",
-					["serverTime"] = 1696238943,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240883.812,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zeyco-SkullRock:4347:CHANNEL:6|h|cff0070ddZeyco|r|h|cffd8d8d8]|r: LF2M DPS SFK",
-					["serverTime"] = 1696238947,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						138, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240888.257,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:56]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Shwankly-SkullRock:4348:CHANNEL:6|h|cffffffffShwankly|r|h|cffd8d8d8]|r: LF2M Dps/Tank SM Lib/Arm/Cath",
-					["serverTime"] = 1696238950,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						74, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240891.081,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:28:58]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4349:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: government taking my wifi",
-					["serverTime"] = 1696238952,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240892.869,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:01]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Arkamnn-SkullRock:4350:CHANNEL:6|h|cfffff468Arkamnn|r|h|cffd8d8d8]|r: 1 dps and heal for gnomer",
-					["serverTime"] = 1696238955,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						154, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240895.828,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Chucknorris-SkullRock:4351:CHANNEL:6|h|cfffff468Chucknorris|r|h|cffd8d8d8]|r: LFM |Hquestie:208:Player-5099-019BFF27|h|cFFFF1A1A[|r|cFFFF1A1A[43+] Big Game Hunter|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696238958,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						116, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240899.237,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:11]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zeyco-SkullRock:4352:CHANNEL:6|h|cff0070ddZeyco|r|h|cffd8d8d8]|r: LF1M DPS SFK",
-					["serverTime"] = 1696238965,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						138, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240906.457,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:21]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Waltlitty-SkullRock:4353:CHANNEL:6|h|cffc69b6dWaltlitty|r|h|cffd8d8d8]|r: LF1M DPS SFK",
-					["serverTime"] = 1696238975,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						34, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240915.935,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4354:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: NEED ONE DPS RFC",
-					["serverTime"] = 1696238979,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240920.597,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4355:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: GTG",
-					["serverTime"] = 1696238980,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240921.483,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:29]|h|r |cffff7d0aThtsnotmilk|r has gone offline.",
-					["serverTime"] = 1696238983,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240924.358,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Raistllin-SkullRock:4357:CHANNEL:6|h|cffffffffRaistllin|r|h|cffd8d8d8]|r: need 1m|Hquestie:208:Player-5099-01A1E8CC|h|cFFFF1A1A[|r|cFFFF1A1A[43+] Big Game Hunter|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696238986,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						186, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240926.955,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kavu-SkullRock:4358:CHANNEL:6|h|cff3fc6eaKavu|r|h|cffd8d8d8]|r: Fair Dinkum - Australian Guild - Looking for new members, pst for |cffffff00|Hinvplr:Kavu-SkullRock|h[invite]|h|r",
-					["serverTime"] = 1696238988,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						24, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240929.077,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:29:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stormscar-SkullRock:4359:CHANNEL:6|h|cff0070ddStormscar|r|h|cffd8d8d8]|r: DPS LFG RFK",
-					["serverTime"] = 1696238991,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						160, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240932.62,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:00]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4360:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696239014,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240955.377,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Riskycurses:4361:CHANNEL:6|h|cff8787edRiskycurses|r|h|cffd8d8d8]|r: Ive been online for 3 minutes and no ones died yet. Dead server",
-					["serverTime"] = 1696239037,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						188, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240978.674,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Arkamnn-SkullRock:4362:CHANNEL:6|h|cfffff468Arkamnn|r|h|cffd8d8d8]|r: LFM heal to gnomer and good to go",
-					["serverTime"] = 1696239049,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						154, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 240990.392,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4363:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: look at the time my man",
-					["serverTime"] = 1696239059,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241000.62,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Braff-SkullRock:4364:CHANNEL:6|h|cff8787edBraff|r|h|cffd8d8d8]|r: I have significant problems with socialising with women",
-					["serverTime"] = 1696239063,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						18, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241004.012,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:50]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Standbyme-SkullRock:4365:CHANNEL:6|h|cffc69b6dStandbyme|r|h|cffd8d8d8]|r: Your moms a dead server",
-					["serverTime"] = 1696239064,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						76, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241004.848,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zulatalmi-SkullRock:4366:CHANNEL:6|h|cffc69b6dZulatalmi|r|h|cffd8d8d8]|r: Man I wish death log gave us alliance deaths too",
-					["serverTime"] = 1696239065,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						108, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241005.818,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:51]|h|r |cffd8d8d8[|r|Hplayer:Acup:4367|h|cffd84e4e40|r:|cffaad372Acup|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["serverTime"] = 1696239065,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241006.303,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:53]|h|r 02 Oct '23 02:31am : |cffff7d0aReclusive|r has Leveled to 24 (+1 level)",
-					["r"] = 0,
-					["serverTime"] = 1696239067,
-					["timestamp"] = 241008.08,
-					["g"] = 0.44,
-					["b"] = 0.87,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Futureaspir-SkullRock:4368:CHANNEL:6|h|cffd84e4e60|r:|cffaad372Futureaspir|r|h|cffd8d8d8]|r: 666",
-					["serverTime"] = 1696239068,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						190, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241009.551,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:30:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nittaly-SkullRock:4369:CHANNEL:6|h|cffffffffNittaly|r|h|cffd8d8d8]|r: someone die right now or i will freaking stop playing",
-					["serverTime"] = 1696239069,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						128, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241010.537,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:03]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stormscar-SkullRock:4370:CHANNEL:6|h|cff0070ddStormscar|r|h|cffd8d8d8]|r: DPS LFG RFK",
-					["serverTime"] = 1696239077,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						160, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241018.342,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:07]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mortalmorph-SkullRock:4371:CHANNEL:6|h|cffffffffMortalmorph|r|h|cffd8d8d8]|r: LF2M DPS RFK",
-					["serverTime"] = 1696239081,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						182, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241022.404,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:09]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4372:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: ill say it",
-					["serverTime"] = 1696239083,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241024.459,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:10]|h|r |cffd8d8d8[|r|Hplayer:Narku:4373|h|cffd84e4e25|r:|cffaad372Narku|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["serverTime"] = 1696239084,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241025.461,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:16]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4377:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696239090,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241031.066,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:17]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bouncedass-SkullRock:4378:CHANNEL:6|h|cfffff468Bouncedass|r|h|cffd8d8d8]|r: i dont care that you broke your elbow",
-					["serverTime"] = 1696239091,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						144, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241031.952,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kerstab-SkullRock:4379:CHANNEL:6|h|cfffff468Kerstab|r|h|cffd8d8d8]|r: LFM |Hquestie:2937:Player-5099-01A102D6|h|cFFFF1A1A[|r|cFFFF1A1A[55+] Summoning Shadra|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696239093,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						158, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241033.957,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Marizarax-SkullRock:4380:CHANNEL:6|h|cff3fc6eaMarizarax|r|h|cffd8d8d8]|r: someone just died like 10 min ago to the alliance pat in barrens",
-					["serverTime"] = 1696239097,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						192, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241038.737,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:24]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rriippbozo-SkullRock:4381:CHANNEL:6|h|cff0070ddRriippbozo|r|h|cffd8d8d8]|r: F rip bozo",
-					["serverTime"] = 1696239098,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						110, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241039.004,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:27]|h|r Woodley has reached level 60!",
-					["serverTime"] = 1696239101,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241041.963,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Marizarax-SkullRock:4384:CHANNEL:6|h|cff3fc6eaMarizarax|r|h|cffd8d8d8]|r: ya missed it",
-					["serverTime"] = 1696239102,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						192, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241043.333,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kavu-SkullRock:4385:CHANNEL:6|h|cff3fc6eaKavu|r|h|cffd8d8d8]|r: Fair Dinkum - Australian Guild - Looking for new members, pst for |cffffff00|Hinvplr:Kavu-SkullRock|h[invite]|h|r",
-					["serverTime"] = 1696239106,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						24, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241047.411,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:31:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Riskycurses-SkullRock:4386:CHANNEL:6|h|cff8787edRiskycurses|r|h|cffd8d8d8]|r: damn Nittaly, wish granted",
-					["serverTime"] = 1696239121,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						188, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241062.432,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nittaly-SkullRock:4389:CHANNEL:6|h|cffffffffNittaly|r|h|cffd8d8d8]|r: im running away",
-					["serverTime"] = 1696239148,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						128, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241089.056,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:18]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zulatalmi-SkullRock:4390:CHANNEL:6|h|cffc69b6dZulatalmi|r|h|cffd8d8d8]|r: 'no' he says lol",
-					["serverTime"] = 1696239152,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						108, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241093.017,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Arkamnn-SkullRock:4391:CHANNEL:6|h|cfffff468Arkamnn|r|h|cffd8d8d8]|r: LF healer to gnomeregan and gtg",
-					["serverTime"] = 1696239160,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						154, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241101.172,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Riskycurses-SkullRock:4392:CHANNEL:6|h|cff8787edRiskycurses|r|h|cffd8d8d8]|r: A while ago I saw someone die to a Son. Last words were \"why me\"",
-					["serverTime"] = 1696239174,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						188, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241115.06,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gertier-SkullRock:4393:CHANNEL:6|h|cffffffffGertier|r|h|cffd8d8d8]|r: RIPBOZO",
-					["serverTime"] = 1696239185,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						102, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241125.936,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kavu-SkullRock:4394:CHANNEL:6|h|cff3fc6eaKavu|r|h|cffd8d8d8]|r: Fair Dinkum - Australian Guild - Looking for new members, pst for |cffffff00|Hinvplr:Kavu-SkullRock|h[invite]|h|r",
-					["serverTime"] = 1696239185,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						24, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241126.137,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:32:57]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nittaly-SkullRock:4396:CHANNEL:6|h|cffffffffNittaly|r|h|cffd8d8d8]|r: the first cut is the deepest",
-					["serverTime"] = 1696239191,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						128, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241132.739,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:01]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bylethouo:4397:CHANNEL:6|h|cff0070ddBylethouo|r|h|cffd8d8d8]|r: LFG scholo resto shaman",
-					["serverTime"] = 1696239195,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						194, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241136.599,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:17]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Blazinkush-SkullRock:4399:CHANNEL:6|h|cffffffffBlazinkush|r|h|cffd8d8d8]|r: i saw someone die to sons that said",
-					["serverTime"] = 1696239211,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						196, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241152.056,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:18]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Standbyme-SkullRock:4400:CHANNEL:6|h|cffc69b6dStandbyme|r|h|cffd8d8d8]|r: LFG |Hquestie:6283:Player-5099-01B27143|h|cFFFF1A1A[|r|cFFFF1A1A[26+] Bloodfury Bloodline|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696239212,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						76, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241153.026,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Blazinkush-SkullRock:4401:CHANNEL:6|h|cffffffffBlazinkush|r|h|cffd8d8d8]|r: phew sons almost got me",
-					["serverTime"] = 1696239226,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						196, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241167.465,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:33]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4402:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696239227,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241168.251,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Riskycurses-SkullRock:4403:CHANNEL:6|h|cff8787edRiskycurses|r|h|cffd8d8d8]|r: lol",
-					["serverTime"] = 1696239232,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						188, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241173.199,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Onon-SkullRock:4404:CHANNEL:6|h|cffaad372Onon|r|h|cffd8d8d8]|r: lol",
-					["serverTime"] = 1696239236,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						178, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241177.444,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kavu-SkullRock:4405:CHANNEL:6|h|cff3fc6eaKavu|r|h|cffd8d8d8]|r: Fair Dinkum - Australian Guild - Looking for new members, pst for |cffffff00|Hinvplr:Kavu-SkullRock|h[invite]|h|r",
-					["serverTime"] = 1696239241,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						24, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241182.643,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:51]|h|r CensusPlusWotlk Taking census of characters online...",
-					["r"] = 1,
-					["serverTime"] = 1696239245,
-					["timestamp"] = 241185.801,
-					["g"] = 1,
-					["b"] = 0.5,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Braff-SkullRock:4406:CHANNEL:6|h|cff8787edBraff|r|h|cffd8d8d8]|r: I struggle to retain relationships with women",
-					["serverTime"] = 1696239245,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						18, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241186.47,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:33:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Riskycurses-SkullRock:4407:CHANNEL:6|h|cff8787edRiskycurses|r|h|cffd8d8d8]|r: I damn near died to a son once. My last words came close to being \"fffffuuuuuuuuuu\"",
-					["serverTime"] = 1696239248,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						188, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241189.11,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:10]|h|r |cffabd473|cffaad372Narku|r|r has gone offline.",
-					["serverTime"] = 1696239264,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241205.689,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:11]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Riskycurses-SkullRock:4423:CHANNEL:6|h|cff8787edRiskycurses|r|h|cffd8d8d8]|r: Swiftness pot saved my life at 3%",
-					["serverTime"] = 1696239265,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						188, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241206.765,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:13]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rriippbozo-SkullRock:4424:CHANNEL:6|h|cff0070ddRriippbozo|r|h|cffd8d8d8]|r: not so invisible",
-					["serverTime"] = 1696239267,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						110, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241208.402,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4425:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696239274,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241215.772,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:33]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nittaly-SkullRock:4426:CHANNEL:6|h|cffffffffNittaly|r|h|cffd8d8d8]|r: ANY ONE WANT Viscous Hammer",
-					["serverTime"] = 1696239287,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						128, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241228.424,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:44]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Qh-SkullRock:4430:CHANNEL:6|h|cff0070ddQh|r|h|cffd8d8d8]|r: how viscous we talking?",
-					["serverTime"] = 1696239298,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						198, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241238.889,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:56]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zulatalmi-SkullRock:4431:CHANNEL:6|h|cffc69b6dZulatalmi|r|h|cffd8d8d8]|r: Link that, mofo",
-					["serverTime"] = 1696239310,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						108, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241251.589,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [111]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:34:57]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Onon-SkullRock:4432:CHANNEL:6|h|cffaad372Onon|r|h|cffd8d8d8]|r: molassas",
-					["serverTime"] = 1696239311,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						178, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241252.391,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:35:05]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4433:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696239319,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241260.063,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:35:05]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Rendable:4434:CHANNEL:6|h|cffc69b6dRendable|r|h|cffd8d8d8]|r: LFG SFK",
-					["serverTime"] = 1696239319,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						200, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241260.364,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:35:07]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mortalmorph-SkullRock:4435:CHANNEL:6|h|cffffffffMortalmorph|r|h|cffd8d8d8]|r: LF1M DPS RFK",
-					["serverTime"] = 1696239321,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						182, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241261.835,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:35:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tríckshots-SkullRock:4436:CHANNEL:2|h|cffaad372Tríckshots|r|h|cffd8d8d8]|r: anyone |Hquestie:736:Player-5099-01AC1F30|h|cFFFF1A1A[|r|cFFFF1A1A[44+] The Star, the Hand and the Heart|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696239326,
+					["message"] = "|cff979797|Hpratcopy|h[12:28:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Netherhusk-SkullRock:750:CHANNEL:2|h|cff8787edNetherhusk|r|h|cffd8d8d8]|r: LFM 2 DPS for RFC",
+					["serverTime"] = 1696357751,
 					["r"] = 1,
 					["extraData"] = {
 						70, -- [1]
 						false, -- [2]
-						202, -- [3]
-						203, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241267.502,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:35:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Axorc-SkullRock:4437:CHANNEL:6|h|cffc69b6dAxorc|r|h|cffd8d8d8]|r: where my viscous ax",
-					["serverTime"] = 1696239351,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						120, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241292.355,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [117]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:35:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Axorc-SkullRock:4438:CHANNEL:6|h|cffc69b6dAxorc|r|h|cffd8d8d8]|r: bull#$%^",
-					["serverTime"] = 1696239353,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						120, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241294.026,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:36:02]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Standbyme-SkullRock:4440:CHANNEL:6|h|cffc69b6dStandbyme|r|h|cffd8d8d8]|r: |Hquestie:6283:Player-5099-01B27143|h|cFFFF1A1A[|r|cFFFF1A1A[26+] Bloodfury Bloodline|r|cFFFF1A1A]|r|h LFG",
-					["serverTime"] = 1696239376,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						76, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241317.091,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:36:33]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mekhänite:4442:CHANNEL:6|h|cffff7c0aMekhänite|r|h|cffd8d8d8]|r: lfm |Hquestie:2418:Player-5099-01A324EB|h|cFFFF1A1A[|r|cFFFF1A1A[36D] Power Stones|r|cFFFF1A1A]|r|h|Hquestie:2202:Player-5099-01A324EB|h|cFFFF1A1A[|r|cFFFF1A1A[42D] Uldaman Reagent Run|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696239407,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						205, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241348.378,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:36:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Roughpriest-SkullRock:4443:CHANNEL:6|h|cffffffffRoughpriest|r|h|cffd8d8d8]|r: LFM DEADMINES. NEED DPS + HEALER. PST",
-					["serverTime"] = 1696239414,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						146, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241355.399,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:36:50]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kavu-SkullRock:4444:CHANNEL:6|h|cff3fc6eaKavu|r|h|cffd8d8d8]|r: Fair Dinkum - Australian Guild - Looking for new members, pst for |cffffff00|Hinvplr:Kavu-SkullRock|h[invite]|h|r",
-					["serverTime"] = 1696239424,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						24, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241364.936,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:36:59]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
-					["serverTime"] = 1696239433,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						58, -- [3]
-						59, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241373.944,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:10]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mortalmorph-SkullRock:4446:CHANNEL:6|h|cffffffffMortalmorph|r|h|cffd8d8d8]|r: LF1M DPS RFK 30+",
-					["serverTime"] = 1696239444,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						182, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241385.376,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:12]|h|r Crank Fizzlebub looks from side to side...",
-					["serverTime"] = 1696239446,
-					["r"] = 1,
-					["extraData"] = {
-						17, -- [1]
-						false, -- [2]
-						54, -- [3]
-						55, -- [4]
-						"CHAT_MSG_MONSTER_EMOTE", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241387.333,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:13]|h|r 02 Oct '23 02:37am : |cffc79c6eOnslaughtt|r has Leveled to 32 (+1 level)",
-					["r"] = 0,
-					["serverTime"] = 1696239447,
-					["timestamp"] = 241387.768,
-					["g"] = 0.44,
-					["b"] = 0.87,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:16]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mekhänite-SkullRock:4448:CHANNEL:6|h|cffff7c0aMekhänite|r|h|cffd8d8d8]|r: lfm |Hquestie:2418:Player-5099-01A324EB|h|cFFFF1A1A[|r|cFFFF1A1A[36D] Power Stones|r|cFFFF1A1A]|r|h|Hquestie:2202:Player-5099-01A324EB|h|cFFFF1A1A[|r|cFFFF1A1A[42D] Uldaman Reagent Run|r|cFFFF1A1A]|r|h|Hquestie:2342:Player-5099-01A324EB|h|cFFFF1A1A[|r|cFFFF1A1A[43] Reclaimed Treasures|r|cFFFF1A1A]|r|h",
-					["serverTime"] = 1696239450,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
-						205, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 241391.144,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[03:37:17]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Necroids:4449:CHANNEL:6|h|cffc69b6dNecroids|r|h|cffd8d8d8]|r: LFG RFC (TANK)",
-					["serverTime"] = 1696239451,
-					["r"] = 1,
-					["extraData"] = {
-						74, -- [1]
-						false, -- [2]
-						1, -- [3]
+						6, -- [3]
 						207, -- [4]
 						"CHAT_MSG_CHANNEL", -- [5]
 						[7] = nil --[[ skipped inline function ]],
 						["n"] = 7,
 					},
-					["timestamp"] = 241392.448,
+					["timestamp"] = 359693.52,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:00]|h|r |cffd8d8d8[|r|Hplayer:Samoanslayer:751|h|cffd8d83f20|r:|cffc69b6dSamoanslayer|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696357753,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359695.602,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:01]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kamijou-SkullRock:752:CHANNEL:6|h|cff8787edKamijou|r|h|cffd8d8d8]|r: LFG Gnomer",
+					["serverTime"] = 1696357754,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						288, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359696.769,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:756:CHANNEL:2|h|cffd8d83f20|r:|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696357765,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						320, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359707.467,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Tylinis-SkullRock:761:CHANNEL:6|h|cff8787edTylinis|r|h|cffd8d8d8]|r: lfm |Hquestie:4961:Player-5099-01A6907E|h|cFFFF1A1A[|r|cFFFF1A1A[40] Cleansing of the Orb of Orahil|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357772,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						66, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359714.444,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Freud-SkullRock:764:CHANNEL:6|h|cffd84e4e50|r:|cffffffffFreud|r|h|cffd8d8d8]|r: LF1M Hinterland Elites",
+					["serverTime"] = 1696357776,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						290, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359717.943,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé-SkullRock:765:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns, need a dps then g2g",
+					["serverTime"] = 1696357778,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359720.639,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Cripesalmity:767:CHANNEL:6|h|cffd84e4e60|r:|cffffffffCripesalmity|r|h|cffd8d8d8]|r: LFG Live Strat----60 heals",
+					["serverTime"] = 1696357779,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						322, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359721.616,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Groscure-SkullRock:772:CHANNEL:6|h|cffffffffGroscure|r|h|cffd8d8d8]|r: heals lf RFC",
+					["serverTime"] = 1696357794,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						234, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359735.953,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Shootrmcdabn-SkullRock:774:CHANNEL:6|h|cffd84e4e46|r:|cffaad372Shootrmcdabn|r|h|cffd8d8d8]|r: 46 hunter LFG ZF",
+					["serverTime"] = 1696357800,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						266, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359742.414,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:29:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:775:CHANNEL:6|h|cffd8d83f20|r:|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696357802,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						258, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359743.865,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:22:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zenwar-SkullRock:607:CHANNEL:6|h|cffc69b6dZenwar|r|h|cffd8d8d8]|r: LF 1 DPS RFK",
+					["serverTime"] = 1696357374,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						256, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359315.887,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:22:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:608:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ group WC",
+					["serverTime"] = 1696357375,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359317.207,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:22:44]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Quillfaster-SkullRock:609:CHANNEL:6|h|cff3fc6eaQuillfaster|r|h|cffd8d8d8]|r: LFM Gnomer Need Tank/Heals",
+					["serverTime"] = 1696357377,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359318.787,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:22:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Serrated-SkullRock:610:CHANNEL:6|h|cfffff468Serrated|r|h|cffd8d8d8]|r: LF1M RFC Tank",
+					["serverTime"] = 1696357382,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						155, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359324.61,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:06]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zenwar-SkullRock:611:CHANNEL:6|h|cffc69b6dZenwar|r|h|cffd8d8d8]|r: LF 1 DPS RFK",
+					["serverTime"] = 1696357399,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						256, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359341.232,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Redd-SkullRock:612:CHANNEL:6|h|cfffff468Redd|r|h|cffd8d8d8]|r: LFM |Hquestie:5096:Player-5099-01909CBA|h|cFFFF1A1A[|r|cFFFF1A1A[53] Scarlet Diversions|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357407,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						270, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359349.727,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Quillfaster-SkullRock:613:CHANNEL:6|h|cff3fc6eaQuillfaster|r|h|cffd8d8d8]|r: LFM Gnomer Need Tank/Heals",
+					["serverTime"] = 1696357413,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359355.063,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:22]|h|r Your character jumped.",
+					["timestamp"] = 359357.38,
+					["serverTime"] = 1696357415,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Congratulations, you have reached level 21!",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r You have gained 22 hit points and 40 mana.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r You have gained 1 talent point.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your Strength increases by 1.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your Stamina increases by 1.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your Intellect increases by 1.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your Spirit increases by 1.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your Thunder Bluff reputation has increased by 150.",
+					["serverTime"] = 1696357420,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						278, -- [3]
+						279, -- [4]
+						"CHAT_MSG_COMBAT_FACTION_CHANGE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your skill in Restoration has increased to 105.",
+					["serverTime"] = 1696357420,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						203, -- [3]
+						204, -- [4]
+						"CHAT_MSG_SKILL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your skill in Elemental Combat has increased to 105.",
+					["serverTime"] = 1696357420,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						203, -- [3]
+						204, -- [4]
+						"CHAT_MSG_SKILL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Your skill in Enhancement has increased to 105.",
+					["serverTime"] = 1696357420,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						203, -- [3]
+						204, -- [4]
+						"CHAT_MSG_SKILL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.05,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Ishamuhale completed.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.391,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Experience gained: 1800.",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.391,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r Quest accepted: Enraged Thunder Lizards",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.529,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r |cff3fc6eaMykungfu|r is too far away to receive your quest",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.703,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r |cffaad372Gonjasmoker|r is too far away to receive your quest",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.703,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:27]|h|r |cffff7c0aThedrood|r is too far away to receive your quest",
+					["serverTime"] = 1696357420,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359362.703,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:31]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ðismal:625:CHANNEL:6|h|cff8787edÐismal|r|h|cffd8d8d8]|r: 150 enchanting/145 engineering at lvl 10!!!",
+					["serverTime"] = 1696357424,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						280, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359365.806,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:31]|h|r Quest accepted: The Ashenvale Hunt",
+					["serverTime"] = 1696357424,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359366.007,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:31]|h|r |cff3fc6eaMykungfu|r is too far away to receive your quest",
+					["serverTime"] = 1696357424,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359366.333,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:31]|h|r |cffaad372Gonjasmoker|r is too far away to receive your quest",
+					["serverTime"] = 1696357424,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359366.333,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:31]|h|r |cffff7c0aThedrood|r is too far away to receive your quest",
+					["serverTime"] = 1696357424,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359366.333,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:32]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:630:PARTY|h|cffd8d83f21|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 20 to 21 in 1 day 1 hour 34 minutes 46 seconds",
+					["serverTime"] = 1696357425,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359367.279,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:34]|h|r Your character jumped.",
+					["timestamp"] = 359368.871,
+					["serverTime"] = 1696357427,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:34]|h|r 03 Oct '23 11:23am : |cfff58cbaFishhook|r has Leveled to 21 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1696357427,
+					["timestamp"] = 359369.705,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:42]|h|r Your character jumped.",
+					["timestamp"] = 359377.404,
+					["serverTime"] = 1696357435,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:44]|h|r Your character jumped.",
+					["timestamp"] = 359379.32,
+					["serverTime"] = 1696357437,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stampythecow:634:CHANNEL:2|h|cffc69b6dStampythecow|r|h|cffd8d8d8]|r: alliance patrol just east of camp t",
+					["serverTime"] = 1696357439,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						282, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359381.54,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Souljahboy:635:CHANNEL:6|h|cff8787edSouljahboy|r|h|cffd8d8d8]|r: LFM for RFC need all!",
+					["serverTime"] = 1696357440,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						284, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359381.81,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:51]|h|r Your character jumped.",
+					["timestamp"] = 359386.054,
+					["serverTime"] = 1696357444,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:23:59]|h|r Your character jumped.",
+					["timestamp"] = 359394.237,
+					["serverTime"] = 1696357452,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:00]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:637:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357453,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						195, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359395.13,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:02]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Quillfaster-SkullRock:640:CHANNEL:6|h|cff3fc6eaQuillfaster|r|h|cffd8d8d8]|r: LFM Gnomer Need Tank and g2g",
+					["serverTime"] = 1696357455,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359396.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:03]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Torgaz:643:CHANNEL:6|h|cff3fc6eaTorgaz|r|h|cffd8d8d8]|r: lfg |Hquestie:5147:Player-5099-019E80C4|h|cFFFF1A1A[|r|cFFFF1A1A[29] Wanted - Arnak Grimtotem|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357456,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						286, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359398.451,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zenwar-SkullRock:644:CHANNEL:6|h|cffc69b6dZenwar|r|h|cffd8d8d8]|r: LF 1 DPS RFK",
+					["serverTime"] = 1696357457,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						256, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359398.988,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:09]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kamijou:645:CHANNEL:6|h|cff8787edKamijou|r|h|cffd8d8d8]|r: LFG Gnomer",
+					["serverTime"] = 1696357462,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						288, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359404.662,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:11]|h|r |cffd8d8d8[|r|Hplayer:Russoh:646|h|cffd84e4e32|r:|cfffff468Russoh|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696357464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359406.133,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:16]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:647:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ group WC",
+					["serverTime"] = 1696357469,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359411.097,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Netherhusk-SkullRock:648:CHANNEL:2|h|cff8787edNetherhusk|r|h|cffd8d8d8]|r: LFM 2 DPS for RFC",
+					["serverTime"] = 1696357471,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						207, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359413.618,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:22]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Souljahboy-SkullRock:649:CHANNEL:6|h|cff8787edSouljahboy|r|h|cffd8d8d8]|r: LF3M for RFC need all!",
+					["serverTime"] = 1696357475,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						284, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359417.597,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Freud:650:CHANNEL:6|h|cffffffffFreud|r|h|cffd8d8d8]|r: LFM3M Hinterland Elite Quests",
+					["serverTime"] = 1696357478,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						290, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359420.6,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ðismal-SkullRock:651:CHANNEL:6|h|cff8787edÐismal|r|h|cffd8d8d8]|r: PAY ATTENTION TO ME!!!",
+					["serverTime"] = 1696357481,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						280, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359423.315,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Poocrayon-SkullRock:652:CHANNEL:6|h|cffd8d83f23|r:|cff0070ddPoocrayon|r|h|cffd8d8d8]|r: how bad is mulgore to lvl up in comparison with teldrassil?",
+					["serverTime"] = 1696357490,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359431.89,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Austeezymon-SkullRock:653:CHANNEL:6|h|cff3fc6eaAusteezymon|r|h|cffd8d8d8]|r: 39 mage LFG SM world tour",
+					["serverTime"] = 1696357490,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						151, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359432.627,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:654:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357491,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						195, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359433.211,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:24:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Richardcheez-SkullRock:655:CHANNEL:2|h|cffaad372Richardcheez|r|h|cffd8d8d8]|r: cords?",
+					["serverTime"] = 1696357493,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						292, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359435.65,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:07]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Poocrayon-SkullRock:656:CHANNEL:6|h|cffd8d83f23|r:|cff0070ddPoocrayon|r|h|cffd8d8d8]|r: the night elf starting area is just pure $%^",
+					["serverTime"] = 1696357520,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359462.361,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:12]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Lousassle:657:CHANNEL:6|h|cffaad372Lousassle|r|h|cffd8d8d8]|r: Any ZF gamers?",
+					["serverTime"] = 1696357525,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						294, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359466.948,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:13]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Feno-SkullRock:658:CHANNEL:6|h|cff0070ddFeno|r|h|cffd8d8d8]|r: mulgore very easy time, good farming",
+					["serverTime"] = 1696357526,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						129, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359468.454,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:659:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF tank 20+ group WC",
+					["serverTime"] = 1696357527,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359469.62,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:15]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Zewji-SkullRock:660:CHANNEL:6|h|cfffff468Zewji|r|h|cffd8d8d8]|r: LFM RFC, have quests, need tank, healer, and 1 dps",
+					["serverTime"] = 1696357528,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						272, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359469.904,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:18]|h|r |cffd8d8d8[|r|Hplayer:Theunholyp:661|h|cffd88b6524|r:|cffffffffTheunholyp|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696357531,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359473.454,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:20]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Amnel-SkullRock:662:GUILD|h|cffd84e4e53|r:|cfffff468Amnel|r|h|cffd8d8d8]|r: inv to change layer pls",
+					["serverTime"] = 1696357533,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						296, -- [3]
+						297, -- [4]
+						"CHAT_MSG_GUILD", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359474.722,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Austeezymon-SkullRock:663:CHANNEL:6|h|cff3fc6eaAusteezymon|r|h|cffd8d8d8]|r: no horde quests in tel so easy mulgore",
+					["serverTime"] = 1696357533,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						151, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359474.722,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Poocrayon-SkullRock:664:CHANNEL:6|h|cffd8d83f23|r:|cff0070ddPoocrayon|r|h|cffd8d8d8]|r: lol",
+					["serverTime"] = 1696357541,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359483.312,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:31]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:666:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357544,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						195, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359486.435,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Pigor:669:CHANNEL:6|h|cfffff468Pigor|r|h|cffd8d8d8]|r: someone invite me for a hop plz",
+					["serverTime"] = 1696357548,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						298, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359490.703,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dotterel:674:CHANNEL:6|h|cff8787edDotterel|r|h|cffd8d8d8]|r: true hc is leveling up horde in tel",
+					["serverTime"] = 1696357562,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						300, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359504.721,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Diabloivsuck:675:CHANNEL:6|h|cfffff468Diabloivsuck|r|h|cffd8d8d8]|r: |Hquestie:673:Player-5099-01B08FAD|h|cFFFF1A1A[|r|cFFFF1A1A[40+] Foul Magics|r|cFFFF1A1A]|r|h lfg",
+					["serverTime"] = 1696357562,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						302, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359504.721,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:50]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Poocrayon-SkullRock:676:CHANNEL:6|h|cffd8d83f23|r:|cff0070ddPoocrayon|r|h|cffd8d8d8]|r: I'm never leveling up a night elf again",
+					["serverTime"] = 1696357563,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						62, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359505.105,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé:679:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns",
+					["serverTime"] = 1696357567,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359509.722,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:680:CHANNEL:6|h|cffd8d83f20|r:|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696357568,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						258, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359510.056,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:56]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Twentysided:681:CHANNEL:6|h|cffffffffTwentysided|r|h|cffd8d8d8]|r: LFG Arathi Highland elite quests |Hquestie:639:Player-5099-01A948BD|h|cFFFF1A1A[|r|cFFFF1A1A[37+] Sigil of Strom|r|cFFFF1A1A]|r|h|Hquestie:679:Player-5099-01A948BD|h|cFFFF1A1A[|r|cFFFF1A1A[40+] Call to Arms|r|cFFFF1A1A]|r|h|Hquestie:673:Player-5099-01A948BD|h|cFFFF1A1A[|r|cFFFF1A1A[40+] Foul Magics|r|cFFFF1A1A]|r|h|Hquestie:680:Player-5099-01A948BD|h|cFFFF1A1A[|r|cFFFF1A1A[40+] The Real Threat|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357569,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						306, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359510.955,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:25:59]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:683:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ WC",
+					["serverTime"] = 1696357572,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359514.739,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:00]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Forresthump-SkullRock:684:CHANNEL:6|h|cffff7c0aForresthump|r|h|cffd8d8d8]|r: LFM |Hquestie:193:Player-5099-01AFE9E9|h|cFFFF1A1A[|r|cFFFF1A1A[40+] Panther Mastery|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357573,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						268, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359515.5,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:01]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Souljahboy-SkullRock:685:CHANNEL:6|h|cff8787edSouljahboy|r|h|cffd8d8d8]|r: LF3M for RFC need all!",
+					["serverTime"] = 1696357574,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						284, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359516.472,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:07]|h|r |cffffffffTheunholyp|r has gone offline.",
+					["serverTime"] = 1696357580,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359522.5,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:11]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Austeezymon-SkullRock:688:CHANNEL:6|h|cff3fc6eaAusteezymon|r|h|cffd8d8d8]|r: 39 mage LFG SM world tour",
+					["serverTime"] = 1696357584,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						151, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359526.397,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:12]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé-SkullRock:689:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns",
+					["serverTime"] = 1696357585,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359527.25,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:13]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:690:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357586,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						195, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359528.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:13]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Redd-SkullRock:691:CHANNEL:6|h|cffd84e4e57|r:|cfffff468Redd|r|h|cffd8d8d8]|r: LFM |Hquestie:5096:Player-5099-01909CBA|h|cFFFF1A1A[|r|cFFFF1A1A[53] Scarlet Diversions|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696357586,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						270, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359528.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé-SkullRock:699:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns",
+					["serverTime"] = 1696357610,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359552.227,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:703:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank WC 20+",
+					["serverTime"] = 1696357618,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359560.643,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Moldrid:704:CHANNEL:6|h|cffffffffMoldrid|r|h|cffd8d8d8]|r: we out here",
+					["serverTime"] = 1696357621,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						308, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359562.925,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Quillfaster-SkullRock:705:CHANNEL:6|h|cff3fc6eaQuillfaster|r|h|cffd8d8d8]|r: LFM Gnomer Need Tank and g2g",
+					["serverTime"] = 1696357622,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359564.066,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:26:59]|h|r |cffd8d8d8[|r|Hplayer:Azerito:706|h|cffd84e4e48|r:|cffaad372Azerito|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696357632,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359574.324,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:05]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stinkylinky-SkullRock:707:CHANNEL:6|h|cffffffffStinkylinky|r|h|cffd8d8d8]|r: Healer LFG WC",
+					["serverTime"] = 1696357638,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						310, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359580.65,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:708:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357652,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						195, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359594.203,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Helarn:709:CHANNEL:6|h|cffff7c0aHelarn|r|h|cffd8d8d8]|r: dps LFG SFK",
+					["serverTime"] = 1696357653,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						312, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359594.871,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé-SkullRock:710:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns",
+					["serverTime"] = 1696357656,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359597.895,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:31]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:712:CHANNEL:6|h|cffd8d83f20|r:|cffff7c0aThedrood|r|h|cffd8d8d8]|r: LF Tank WC and GTG",
+					["serverTime"] = 1696357664,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						258, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359606.633,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Souljahboy-SkullRock:713:CHANNEL:6|h|cff8787edSouljahboy|r|h|cffd8d8d8]|r: LF1M Need Heals for RFC!",
+					["serverTime"] = 1696357668,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						284, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359609.951,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Freud-SkullRock:714:CHANNEL:6|h|cffffffffFreud|r|h|cffd8d8d8]|r: LFM Hinterland Elites room for 2",
+					["serverTime"] = 1696357670,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						290, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359612.522,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:44]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:715:CHANNEL:6|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: LF Tank 20+ group WC",
+					["serverTime"] = 1696357677,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359619.361,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Boommstick:716:CHANNEL:2|h|cffaad372Boommstick|r|h|cffd8d8d8]|r: LFG |Hquestie:891:Player-5099-01B30287|h|cFFFFFF00[|r|cFFFFFF00[20] The Guns of Northwatch|r|cFFFFFF00]|r|h",
+					["serverTime"] = 1696357677,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						314, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359619.633,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé-SkullRock:717:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns, need a tank and dps then g2g",
+					["serverTime"] = 1696357680,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359622.016,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:53]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:718:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: inv Pibbpog",
+					["serverTime"] = 1696357686,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359628.418,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:56]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:719:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: another mage",
+					["serverTime"] = 1696357689,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359631.333,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:27:56]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Helarn-SkullRock:720:CHANNEL:6|h|cffff7c0aHelarn|r|h|cffd8d8d8]|r: dps LFG SFK",
+					["serverTime"] = 1696357689,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						312, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359631.666,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:01]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Dookiesweats-SkullRock:721:CHANNEL:6|h|cffaad372Dookiesweats|r|h|cffd8d8d8]|r: LF1M HEALER SFK WE HAVE SUMMONS",
+					["serverTime"] = 1696357694,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						195, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359636.316,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:06]|h|r |cffff7c0aThedrood|r receives loot: |cffffffff|Hitem:2934::::::::21:::::::::|h[Ruined Leather Scraps]|h|r.",
+					["serverTime"] = 1696357699,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359641.729,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:10]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Thedrood-SkullRock:723:PARTY|h|cffd8d83f20|r:|cffff7c0aThedrood|r|h|cffd8d8d8]|r: dont we need a tank?",
+					["serverTime"] = 1696357703,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						209, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359645.461,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:14]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Aliive:725:CHANNEL:6|h|cffffffffAliive|r|h|cffd8d8d8]|r: healer LFG RFK",
+					["serverTime"] = 1696357707,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						316, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359649.171,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:16]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Fishhook-SkullRock:727:PARTY|h|cffd8d83f21|r:|cff0070ddFishhook|r|h|cffd8d8d8]|r: is he taking your spot?",
+					["serverTime"] = 1696357709,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						19, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359651.06,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:16]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Mykungfu-SkullRock:728:PARTY|h|cffd8d83f21|r:|cff3fc6eaMykungfu|r|h|cffd8d8d8]|r: oh wait nvm lol",
+					["serverTime"] = 1696357709,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						9, -- [3]
+						192, -- [4]
+						"CHAT_MSG_PARTY", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359651.06,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:19]|h|r |cffd8d8d8[|r|Hplayer:Maskredevil:733|h|cffd84e4e37|r:|cff3fc6eaMaskredevil|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1696357712,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359654.024,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:19]|h|r Your character jumped.",
+					["timestamp"] = 359654.614,
+					["serverTime"] = 1696357712,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:20]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Gonjasmoker-SkullRock:734:PARTY|h|cffd8d83f21|r:|cffaad372Gonjasmoker|r|h|cffd8d8d8]|r: yea, we need a tank",
+					["serverTime"] = 1696357713,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						"CHAT_MSG_PARTY_LEADER", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359655.201,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:21]|h|r |cffff7c0aThedrood|r receives loot: |cffffffff|Hitem:2318::::::::21:::::::::|h[Light Leather]|h|r.",
+					["serverTime"] = 1696357714,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359656.194,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:31]|h|r Your character jumped.",
+					["timestamp"] = 359666.006,
+					["serverTime"] = 1696357724,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Gnomophobé-SkullRock:740:CHANNEL:6|h|cfffff468Gnomophobé|r|h|cffd8d8d8]|r: LFM Wailing Caverns, need a tank and dps then g2g",
+					["serverTime"] = 1696357725,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						304, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359667.3,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:33]|h|r Your character jumped.",
+					["timestamp"] = 359668.318,
+					["serverTime"] = 1696357726,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:35]|h|r Your character jumped.",
+					["timestamp"] = 359670.409,
+					["serverTime"] = 1696357728,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:28:36]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Crustygrundl:741:CHANNEL:6|h|cffd84e4e53|r:|cff3fc6eaCrustygrundl|r|h|cffd8d8d8]|r: F, didn't have faith",
+					["serverTime"] = 1696357729,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						3, -- [3]
+						318, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 359671.013,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [128]

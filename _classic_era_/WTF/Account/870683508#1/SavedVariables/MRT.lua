@@ -33,18 +33,18 @@ VMRT = {
 			[103] = 10,
 			[72] = 10,
 			[104] = 10,
-			[1473] = 10,
-			[73] = 10,
-			[581] = 10,
-			[105] = 10,
-			[577] = 10,
-			[256] = 10,
-			[254] = 10,
 			[252] = 10,
+			[73] = 10,
+			[254] = 10,
+			[105] = 10,
+			[256] = 10,
+			[577] = 10,
+			[581] = 10,
+			[1473] = 10,
 		},
 		["Type"] = 2,
-		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
+		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
 		["Fishhook-SkullRock"] = "default",
@@ -52,11 +52,13 @@ VMRT = {
 		["Fiesh-Pagle"] = "default",
 		["Fishook-SkullRock"] = "default",
 		["Fiesh-SkullRock"] = "default",
-		["Farmcraft-SkullRock"] = "default",
 		["Øø-SkullRock"] = "default",
+		["Farmcraft-SkullRock"] = "default",
 		["Kkundercity-SkullRock"] = "default",
 	},
 	["Encounter"] = {
+		["names"] = {
+		},
 		["list"] = {
 			["Fiesh"] = {
 			},
@@ -66,14 +68,12 @@ VMRT = {
 			},
 			["Øø"] = {
 			},
-			["Kksummon"] = {
+			["Farmcraft"] = {
 			},
 			["Fishhook"] = {
 			},
-			["Farmcraft"] = {
+			["Kksummon"] = {
 			},
-		},
-		["names"] = {
 		},
 	},
 	["Marks"] = {
@@ -84,7 +84,9 @@ VMRT = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
 			["Wartech"] = 0,
+			["Rajabuli"] = 0,
 			["Fishook"] = 0,
+			["Yomamaa"] = 0,
 			["Scythemo"] = 0,
 			["Lenmar"] = 0,
 			["Magiczombie"] = 0,
@@ -103,6 +105,7 @@ VMRT = {
 			["Myserie"] = 0,
 			["Bulmä"] = 0,
 			["Varthakam"] = 0,
+			["Frostynugss"] = 0,
 			["Ariyi"] = 0,
 			["Acidpoth"] = 0,
 			["Skalabrax"] = 0,
@@ -124,36 +127,38 @@ VMRT = {
 			["Fiesh"] = 0,
 			["Kkbanker"] = 0,
 			["Banitot"] = 0,
+			["Rodeoboy"] = 0,
 			["Bayratatat"] = 0,
 			["Ahha"] = 0,
-			["Kaghak"] = 0,
-			["犇羴鱻"] = 0,
-			["Samoanslayer"] = 0,
+			["Kaevee"] = 0,
+			["Joexd"] = 0,
+			["Gihunter"] = 0,
+			["Yeettogrow"] = 0,
 			["Demonpimpin"] = 0,
-			["Emotionaldam"] = 0,
+			["Healingspree"] = 0,
 			["Kkundercity"] = 0,
-			["Darkestork"] = 0,
-			["Kksummon"] = 0,
-			["Shadowmax"] = 0,
+			["Warriorss"] = 0,
+			["Raymoo"] = 0,
+			["Actualbutter"] = 0,
 			["Kainblade"] = 0,
-			["Nytesoil"] = 0,
+			["Shieldcity"] = 0,
+			["Mykungfu"] = 0,
+			["Kylablast"] = 0,
 			["Tukraw"] = 0,
 			["Khreed"] = 0,
-			["Rasaq"] = 0,
-			["Kylablast"] = 0,
 			["Wrktm"] = 0,
-			["Gonny"] = 0,
 			["ßlàsphémist"] = 0,
+			["Gonny"] = 0,
 			["Shrublove"] = 0,
-			["Shieldcity"] = 0,
-			["Actualbutter"] = 0,
-			["Raymoo"] = 0,
-			["Warriorss"] = 0,
-			["Healingspree"] = 0,
-			["Yeettogrow"] = 0,
-			["Gihunter"] = 0,
-			["Joexd"] = 0,
-			["Kaevee"] = 0,
+			["Rasaq"] = 0,
+			["Nytesoil"] = 0,
+			["Shadowmax"] = 0,
+			["Kksummon"] = 0,
+			["Darkestork"] = 0,
+			["Emotionaldam"] = 0,
+			["Samoanslayer"] = 0,
+			["犇羴鱻"] = 0,
+			["Kaghak"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -176,13 +181,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -191,13 +196,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -206,13 +211,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [3]
 			{
 				["frameGeneral"] = true,
@@ -220,13 +225,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -234,13 +239,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -248,13 +253,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -262,13 +267,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -276,13 +281,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -290,13 +295,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -304,13 +309,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [10]
 			{
 				["frameGeneral"] = true,
@@ -318,13 +323,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [11]
 		},
 		["Priority"] = {
@@ -348,24 +353,17 @@ VMRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeLowIlvl"] = true,
 		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["InviteTool"] = {
-		["Words"] = "инв inv byd штм 123",
-		["InvByChat"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 2,
-		["Ranks"] = {
-			true, -- [1]
+	["RaidCheck"] = {
+		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["WeaponEnch"] = {
 		},
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
-		["PromoteNames"] = "",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
+		["FlaskExp"] = 1,
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
@@ -374,6 +372,8 @@ VMRT = {
 	},
 	["WhoPulled"] = {
 	},
+	["Profiles"] = {
+	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
 		["fightsNum"] = 2,
@@ -381,8 +381,6 @@ VMRT = {
 		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
 		},
-	},
-	["Profiles"] = {
 	},
 	["Profile"] = "default",
 	["LootLink"] = {
@@ -407,9 +405,9 @@ VMRT = {
 			"", -- [3]
 		},
 		["Strata"] = "HIGH",
+		["OnlyPromoted"] = true,
 		["BlackLastUpdateTime"] = {
 		},
-		["OnlyPromoted"] = true,
 		["OptionsFormatting"] = true,
 	},
 	["Logging"] = {
@@ -417,6 +415,7 @@ VMRT = {
 	["MarksBar"] = {
 		["pulltimer"] = 10,
 		["pulltimer_right"] = 10,
+		["Strata"] = "HIGH",
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
@@ -424,7 +423,6 @@ VMRT = {
 			true, -- [4]
 			true, -- [5]
 		},
-		["Strata"] = "HIGH",
 	},
 	["VisNote"] = {
 		["data"] = {
@@ -432,12 +430,19 @@ VMRT = {
 		["sync_data"] = {
 		},
 	},
-	["RaidCheck"] = {
-		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrame"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["FlaskExp"] = 1,
-		["WeaponEnch"] = {
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
 		},
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
 	},
 }

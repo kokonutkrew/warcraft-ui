@@ -17,11 +17,11 @@ SpyDB = {
 				},
 				["Øø"] = {
 				},
-				["Farmcraft"] = {
+				["Kksummon"] = {
 				},
 				["Fishhook"] = {
 				},
-				["Kksummon"] = {
+				["Farmcraft"] = {
 				},
 			},
 		},
@@ -37,17 +37,17 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
 		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
 		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Fiesh - Pagle"] = "Fiesh - Pagle",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
 	},
 	["profiles"] = {
-		["Fishook - Skull Rock"] = {
+		["Fiesh - Pagle"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -71,7 +71,7 @@ SpyDB = {
 			["MainWindowVis"] = false,
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Øø - Skull Rock"] = {
+		["Kkundercity - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -119,7 +119,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kkundercity - Skull Rock"] = {
+		["Øø - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -131,7 +131,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Fiesh - Pagle"] = {
+		["Fishook - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {

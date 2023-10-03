@@ -11,18 +11,19 @@ NITdatabase = {
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
-		["Samoanmystic - Grobbulus"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Samoanslayer - Skull Rock"] = "Default",
 		["Samoansavage - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 	},
 	["global"] = {
 		["Defias Pillager"] = {
@@ -143,8 +144,52 @@ NITdatabase = {
 		["Skull Rock"] = {
 			["trades"] = {
 			},
-			["weeklyResetTime"] = 1696345213,
+			["weeklyResetTime"] = 1696950012,
 			["myChars"] = {
+				["Samoanslayer"] = {
+					["fishingSkill"] = 1,
+					["cookingSkill"] = 1,
+					["profSkill1"] = 1,
+					["durabilityAverage"] = 86.01190476190477,
+					["prof2"] = "Herbalism",
+					["savedInstances"] = {
+					},
+					["maxXP"] = 23200,
+					["gender"] = "Male",
+					["prof1"] = "Alchemy",
+					["restedXP"] = 8112,
+					["totalBagSlots"] = 42,
+					["freeBagSlots"] = 15,
+					["guild"] = "KK",
+					["raceEnglish"] = "Orc",
+					["profSkillMax1"] = 75,
+					["resting"] = true,
+					["time"] = 1696358634,
+					["gold"] = 14060,
+					["realm"] = "Skull Rock",
+					["guildRankName"] = "Member",
+					["classLocalized"] = "Warrior",
+					["raceLocalized"] = "Orc",
+					["fishingSkillMax"] = 75,
+					["firstaidSkill"] = 1,
+					["classEnglish"] = "WARRIOR",
+					["profSkill2"] = 53,
+					["cookingSkillMax"] = 75,
+					["level"] = 20,
+					["race"] = "Orc",
+					["marks"] = {
+						[20558] = 0,
+						[20559] = 0,
+						[20560] = 0,
+					},
+					["currentXP"] = 176,
+					["cooldowns"] = {
+					},
+					["firstaidSkillMax"] = 75,
+					["quests"] = {
+					},
+					["profSkillMax2"] = 75,
+				},
 				["Bannhammer"] = {
 					["fishingSkill"] = 0,
 					["cookingSkill"] = 0,
@@ -294,13 +339,13 @@ NITdatabase = {
 					["prof1"] = "Enchanting",
 					["restedXP"] = 11400,
 					["totalBagSlots"] = 52,
-					["freeBagSlots"] = 42,
+					["freeBagSlots"] = 49,
 					["guild"] = "KK",
 					["raceEnglish"] = "Tauren",
 					["profSkillMax1"] = 75,
 					["resting"] = true,
-					["time"] = 1696271860,
-					["gold"] = 49396,
+					["time"] = 1696357725,
+					["gold"] = 55698,
 					["realm"] = "Skull Rock",
 					["profSkillMax2"] = 150,
 					["quests"] = {
@@ -2314,11 +2359,11 @@ NITdatabase = {
 						[33] = 4,
 						[229] = 3,
 						[309] = 16,
-						[389] = 3,
+						[509] = 17,
 						[43] = 6,
 						[531] = 41,
+						[389] = 3,
 						[329] = 10,
-						[509] = 17,
 						[189] = 6,
 						[469] = 14,
 						[249] = 12,
@@ -5334,26 +5379,26 @@ NITdatabase = {
 							["class"] = "Rogue",
 							["classEnglish"] = "ROGUE",
 						},
-						["Thuggernaut"] = {
+						["Supervillin"] = {
 							["level"] = 60,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "All Cats Are Beautiful",
 						},
 						["Jhessa"] = {
 							["level"] = 60,
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
+						["Thuggernaut"] = {
+							["level"] = 60,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+						},
 						["Bovolt"] = {
 							["level"] = 60,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
-						},
-						["Supervillin"] = {
-							["level"] = 60,
-							["class"] = "Priest",
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "All Cats Are Beautiful",
 						},
 						["Philoetius"] = {
 							["level"] = 60,
@@ -8947,17 +8992,17 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Final Boss",
 						},
-						["Esge"] = {
+						["Terra"] = {
 							["level"] = 60,
-							["classEnglish"] = "HUNTER",
-							["class"] = "Hunter",
+							["classEnglish"] = "MAGE",
+							["class"] = "Mage",
 						},
-						["Cobybeef"] = {
+						["Biscuitlady"] = {
 							["level"] = 60,
 							["classEnglish"] = "DRUID",
 							["class"] = "Druid",
 						},
-						["Terra"] = {
+						["Innersky"] = {
 							["level"] = 60,
 							["classEnglish"] = "MAGE",
 							["class"] = "Mage",
@@ -8972,15 +9017,15 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["class"] = "Hunter",
 						},
-						["Innersky"] = {
-							["level"] = 60,
-							["classEnglish"] = "MAGE",
-							["class"] = "Mage",
-						},
-						["Biscuitlady"] = {
+						["Cobybeef"] = {
 							["level"] = 60,
 							["classEnglish"] = "DRUID",
 							["class"] = "Druid",
+						},
+						["Esge"] = {
+							["level"] = 60,
+							["classEnglish"] = "HUNTER",
+							["class"] = "Hunter",
 						},
 					},
 					["class"] = "Warrior",
@@ -9167,20 +9212,21 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Thunderzz"] = {
+						["Sophx"] = {
 							["level"] = 60,
-							["class"] = "Hunter",
-							["classEnglish"] = "HUNTER",
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Final Boss",
 						},
 						["Hotsoda"] = {
 							["level"] = 60,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
 						},
-						["Otano"] = {
+						["Thunderzz"] = {
 							["level"] = 60,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
 						},
 						["Ezellohar"] = {
 							["level"] = 60,
@@ -9208,11 +9254,10 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Sophx"] = {
+						["Otano"] = {
 							["level"] = 60,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Final Boss",
 						},
 						["Kittenmeow"] = {
 							["level"] = 60,

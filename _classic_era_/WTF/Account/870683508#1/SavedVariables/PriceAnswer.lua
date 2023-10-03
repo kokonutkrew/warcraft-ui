@@ -6,10 +6,10 @@ PriceAnswerDB = {
 		["Øø - Skull Rock"] = "Default",
 	},
 	["global"] = {
-		["trigger"] = "!price",
 		["replyChannel"] = {
 			["guildChannel"] = "GUILD",
 		},
+		["trigger"] = "!price",
 		["tsmSources"] = {
 			["dbregionmarketavg"] = false,
 			["dbminbuyout"] = false,

@@ -47,21 +47,22 @@ VMRT = {
 		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
-		["Samoanbank-Whitemane"] = "default",
-		["Bannhammer-SkullRock"] = "default",
+		["Kkbank-Whitemane"] = "default",
 		["Cupcakeheals-SkullRock"] = "default",
-		["Samoanranger-SkullRock"] = "default",
+		["Bannhammer-SkullRock"] = "default",
+		["Goldenshots-DefiasPillager"] = "default",
+		["Samoanbank-Whitemane"] = "default",
 		["Kkbanker-SkullRock"] = "default",
 		["Samoanbeast-SkullRock"] = "default",
-		["Goldenshots-DefiasPillager"] = "default",
+		["Kkportal-SkullRock"] = "default",
 		["Samoanbank-SkullRock"] = "default",
 		["Kktailor-Whitemane"] = "default",
-		["Kkportal-SkullRock"] = "default",
 		["Kkleather-SkullRock"] = "default",
 		["Samoanranger-DefiasPillager"] = "default",
+		["Samoanranger-SkullRock"] = "default",
 		["Kktailor-SkullRock"] = "default",
 		["Øø-SkullRock"] = "default",
-		["Kkbank-Whitemane"] = "default",
+		["Samoanslayer-SkullRock"] = "default",
 	},
 	["Encounter"] = {
 		["names"] = {
@@ -83,13 +84,15 @@ VMRT = {
 			},
 			["Goldenshots"] = {
 			},
+			["Kkbanker"] = {
+			},
 			["Øø"] = {
 			},
 			["Cupcakeheals"] = {
 			},
-			["Kkbanker"] = {
-			},
 			["Kkbank"] = {
+			},
+			["Samoanslayer"] = {
 			},
 		},
 	},
@@ -100,13 +103,14 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
+			["Samoanslayer"] = 0,
 			["Samoanbank"] = 0,
 			["Kkleather"] = 0,
 			["Estoe"] = 0,
 			["Vynarel"] = 0,
 			["Guerrero"] = 0,
-			["Kktailor"] = 0,
-			["Fishhook"] = 0,
+			["Paxi"] = 0,
+			["Gorebanker"] = 0,
 			["Rustyventure"] = 0,
 			["Goldenshots"] = 0,
 			["Sleepo"] = 0,
@@ -127,8 +131,8 @@ VMRT = {
 			["Garnoth"] = 0,
 			["Rxxll"] = 0,
 			["Patjam"] = 0,
-			["Gorebanker"] = 0,
-			["Paxi"] = 0,
+			["Fishhook"] = 0,
+			["Kktailor"] = 0,
 			["Bullshotter"] = 0,
 		},
 		["NoRaid"] = true,

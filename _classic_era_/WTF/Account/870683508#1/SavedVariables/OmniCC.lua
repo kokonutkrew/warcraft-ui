@@ -1,18 +1,18 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.1.1",
-	},
 	["profileKeys"] = {
-		["Fiesh - Pagle"] = "Default",
+		["Fishook - Skull Rock"] = "Default",
 		["Fishhook - Skull Rock"] = "Default",
-		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Kksummon - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
-		["Fishook - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Fiesh - Pagle"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.1.2",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -57,9 +57,9 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},
@@ -67,9 +67,9 @@ OmniCCDB = {
 				},
 				["Plater Nameplates Theme"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},

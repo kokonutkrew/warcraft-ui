@@ -1,13 +1,13 @@
 
 WT_LearnedPetAbilities = {
-	[16358] = true,
 	[16351] = true,
+	[16302] = true,
 	[16363] = true,
 	[16352] = true,
 	[16321] = true,
 	[16346] = true,
 	[16357] = true,
-	[16302] = true,
+	[16358] = true,
 }
 WT_NeedsToOpenBeastTraining = false
 WT_IgnoredSpells = {

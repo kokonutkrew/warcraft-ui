@@ -4,7 +4,7 @@ NeatMinimapSaved = {
 	["doClock"] = false,
 	["doNight"] = true,
 	["addonVersion"] = "v1.10.05",
-	["delay"] = 0.5,
 	["addonHash"] = "c06130d",
+	["delay"] = 0.5,
 	["doGarrison"] = false,
 }

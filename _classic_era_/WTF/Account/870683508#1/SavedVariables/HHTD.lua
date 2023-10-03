@@ -1,13 +1,13 @@
 
 HHTD_SavedVariables = {
 	["char"] = {
-		["Fiesh - Pagle"] = {
+		["Fishook - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Fishhook - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kkundercity - Skull Rock"] = {
+		["Øø - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Kksummon - Skull Rock"] = {
@@ -19,26 +19,12 @@ HHTD_SavedVariables = {
 		["Fiesh - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Øø - Skull Rock"] = {
+		["Kkundercity - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Fishook - Skull Rock"] = {
+		["Fiesh - Pagle"] = {
 			["settingsMigrated"] = false,
 		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
-	["profileKeys"] = {
-		["Fiesh - Pagle"] = "Fiesh - Pagle",
-		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
-		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
-		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
 	},
 	["namespaces"] = {
 		["Announcer"] = {
@@ -47,5 +33,19 @@ HHTD_SavedVariables = {
 		},
 		["NPH"] = {
 		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
+		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 }

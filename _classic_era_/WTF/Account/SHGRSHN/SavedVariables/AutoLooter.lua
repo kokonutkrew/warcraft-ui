@@ -11,14 +11,19 @@ AutoLooterDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
 		["Kkblacksmith - Skull Rock"] = "Default",
 		["Kktailor - Skull Rock"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
+		["Samoanbank - Skull Rock"] = "Default",
 		["Kkleather - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["minimap"] = {
+				["minimapPos"] = 126.7706989453666,
+			},
 			["typeTable"] = {
 				["Quiver"] = {
 					["Quiver"] = false,

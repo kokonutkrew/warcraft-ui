@@ -21,35 +21,35 @@ AdiBagsDB = {
 		},
 		["ClassicItemLevel"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["Junk"] = {
-		},
-		["DataSource"] = {
+		["AdiBags_TooltipInfo"] = {
 		},
 		["ItemRackSets"] = {
 		},
-		["AdiBags_TooltipInfo"] = {
+		["DataSource"] = {
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Fiesh - Pagle"] = "Default",
+		["Fishook - Skull Rock"] = "Default",
 		["Fishhook - Skull Rock"] = "Default",
-		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Kksummon - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
-		["Fishook - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
+		["Fiesh - Pagle"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
+					["Percent"] = 1,
 				},
 			},
 		},

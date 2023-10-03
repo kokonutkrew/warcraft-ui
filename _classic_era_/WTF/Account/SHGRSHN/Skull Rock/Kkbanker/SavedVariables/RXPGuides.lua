@@ -387,8 +387,8 @@ RXPCTrackingData = {
 						["Mulgore"] = {
 							[3091] = 40,
 							[755] = 250,
-							[747] = 170,
 							[753] = 250,
+							[747] = 170,
 						},
 					},
 				}, -- [2]
@@ -497,12 +497,12 @@ RXPCTrackingData = {
 					["quests"] = {
 						["Mulgore"] = {
 							[763] = 340,
-							[781] = 360,
 							[767] = 55,
+							[781] = 360,
 							[3376] = 675,
 							[757] = 450,
-							[1656] = 110,
 							[780] = 450,
+							[1656] = 110,
 						},
 					},
 				}, -- [5]
@@ -576,10 +576,10 @@ RXPCTrackingData = {
 					},
 					["quests"] = {
 						["Mulgore"] = {
-							[772] = 480,
 							[754] = 550,
-							[771] = 625,
 							[748] = 450,
+							[771] = 625,
+							[772] = 480,
 						},
 					},
 				}, -- [7]
@@ -724,12 +724,12 @@ RXPCComms = {
 					["xp"] = 40,
 				},
 				["Fishhook"] = {
-					["class"] = "SHAMAN",
+					["isRxp"] = true,
 					["lastSeen"] = 166392.475,
 					["xpPercentage"] = 18,
-					["isRxp"] = true,
-					["timePlayed"] = 0,
 					["level"] = 20,
+					["timePlayed"] = 0,
+					["class"] = "SHAMAN",
 				},
 				["Fukdisshat"] = {
 					["timePlayed"] = 3455.026,

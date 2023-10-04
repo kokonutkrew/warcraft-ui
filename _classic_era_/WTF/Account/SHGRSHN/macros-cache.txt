@@ -449,7 +449,7 @@ END
 VER 3 000000000000012C "xAggroDistance" "136222"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
 END
-VER 3 000000000000002F "xAnyHeal" "132293"
+VER 3 000000000000002F "xAnyHeal" "136222"
 /use Major Healthstone
 /use Greater Healthstone
 /use Healthstone
@@ -461,7 +461,7 @@ END
 VER 3 000000000000012D "xChicken" "136222"
 /chicken
 END
-VER 3 000000000000002E "xDrink" "132293"
+VER 3 000000000000002E "xDrink" "136222"
 /oom
 END
 VER 3 0000000000000027 "xHideChat" "136222"
@@ -480,7 +480,7 @@ VER 3 0000000000000015 "xMountUtility" "136222"
 /use [noflyable][mod:alt] Grand Black War Mammoth
 /use [mod:alt] Obsidian Nightwing
 END
-VER 3 00000000000001A1 "xPartyStart" "136116"
+VER 3 00000000000001A1 "xPartyStart" "136222"
 /run ConvertToParty()
 /run InviteUnit("Kecil");
 /run InviteUnit("Marshmellow"); 
@@ -489,7 +489,7 @@ VER 3 00000000000001A1 "xPartyStart" "136116"
 /ffa
 /changeactionbar 2
 END
-VER 3 00000000000001A2 "xRaidStart" "136116"
+VER 3 00000000000001A2 "xRaidStart" "136222"
 /run ConvertToRaid()
 /script SetLootMethod("master", "Samoanslayer", 4);
 /run InviteUnit("Kecil");

@@ -1,6 +1,42 @@
 
 SpyDB = {
 	["kosData"] = {
+		["Whitemane"] = {
+			["Horde"] = {
+				["Kktailor"] = {
+				},
+				["Kkbank"] = {
+				},
+				["Samoanbank"] = {
+				},
+			},
+		},
+		["Skull Rock"] = {
+			["Horde"] = {
+				["Samoanslayer"] = {
+				},
+				["Bannhammer"] = {
+				},
+				["Øø"] = {
+				},
+				["Cupcakeheals"] = {
+				},
+				["Kkbanker"] = {
+				},
+				["Samoanbeast"] = {
+				},
+			},
+		},
+		["Defias Pillager"] = {
+			["Horde"] = {
+				["Samoanranger"] = {
+				},
+			},
+			["Alliance"] = {
+				["Goldenshots"] = {
+				},
+			},
+		},
 		["Grobbulus"] = {
 			["Horde"] = {
 				["Samoanslayer"] = {
@@ -29,49 +65,13 @@ SpyDB = {
 				},
 			},
 		},
-		["Whitemane"] = {
-			["Horde"] = {
-				["Kktailor"] = {
-				},
-				["Kkbank"] = {
-				},
-				["Samoanbank"] = {
-				},
-			},
-		},
-		["Defias Pillager"] = {
-			["Horde"] = {
-				["Samoanranger"] = {
-				},
-			},
-			["Alliance"] = {
-				["Goldenshots"] = {
-				},
-			},
-		},
-		["Skull Rock"] = {
-			["Horde"] = {
-				["Samoanslayer"] = {
-				},
-				["Bannhammer"] = {
-				},
-				["Øø"] = {
-				},
-				["Cupcakeheals"] = {
-				},
-				["Kkbanker"] = {
-				},
-				["Samoanbeast"] = {
-				},
-			},
-		},
 	},
 	["removeKOSData"] = {
-		["Grobbulus"] = {
+		["Whitemane"] = {
 			["Horde"] = {
 			},
 		},
-		["Whitemane"] = {
+		["Skull Rock"] = {
 			["Horde"] = {
 			},
 		},
@@ -81,7 +81,7 @@ SpyDB = {
 			["Alliance"] = {
 			},
 		},
-		["Skull Rock"] = {
+		["Grobbulus"] = {
 			["Horde"] = {
 			},
 		},
@@ -96,9 +96,9 @@ SpyDB = {
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
 		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
-		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
+		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
 		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
@@ -106,7 +106,7 @@ SpyDB = {
 		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
 		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
 	},

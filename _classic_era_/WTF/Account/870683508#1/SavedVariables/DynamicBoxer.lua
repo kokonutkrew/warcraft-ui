@@ -1,6 +1,6 @@
 
 dynamicBoxerSaved = {
-	["configVersion"] = 1,
+	["addonVersion"] = "v3.11.05",
 	["addonHash"] = "84f95bb",
 	["statusScale"] = 0.9999999534936553,
 	["statusPos"] = {
@@ -10,9 +10,9 @@ dynamicBoxerSaved = {
 	},
 	["debugLog"] = {
 	},
-	["addonVersion"] = "v3.11.05",
-	["serializedMemberHistory"] = {
-	},
+	["configVersion"] = 1,
 	["serializedMasterHistory"] = {
+	},
+	["serializedMemberHistory"] = {
 	},
 }

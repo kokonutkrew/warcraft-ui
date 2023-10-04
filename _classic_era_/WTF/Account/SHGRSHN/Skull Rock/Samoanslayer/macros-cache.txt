@@ -1,0 +1,20 @@
+VER 3 0000000001000003 "warBloodThirst" "134400"
+#showtooltip
+/startattack
+/castsequence reset=combat/target/30 sunder armor, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst bloodthirst
+/use 14
+END
+VER 3 0000000001000002 "warDeathWish" "134400"
+#showtooltip
+/castsequence reset=180 death wish,blood fury,blood fury,blood fury,blood fury,blood fury,blood fury
+END
+VER 3 0000000001000004 "warMitigate" "134400"
+#showtooltip
+/castsequence reset=45 demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout
+END
+VER 3 0000000001000001 "warSlam" "134400"
+#showtooltip
+/stopcasting
+/cast Slam
+/stopcasting
+END

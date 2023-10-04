@@ -9,19 +9,25 @@ SpyDB = {
 		},
 		["Skull Rock"] = {
 			["Horde"] = {
-				["Fiesh"] = {
-				},
-				["Kkundercity"] = {
-				},
-				["Fishook"] = {
-				},
-				["Øø"] = {
-				},
 				["Farmcraft"] = {
+				},
+				["Bannhammer"] = {
 				},
 				["Fishhook"] = {
 				},
+				["Kkundercity"] = {
+				},
 				["Kksummon"] = {
+				},
+				["Tygrrlilly"] = {
+				},
+				["Øø"] = {
+				},
+				["Fishook"] = {
+				},
+				["Fiesh"] = {
+				},
+				["Komrad"] = {
 				},
 			},
 		},
@@ -37,16 +43,43 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
 		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
 		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
 		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
 		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 	["profiles"] = {
+		["Tygrrlilly - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Bannhammer - Skull Rock"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
 		["Fishook - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
@@ -59,7 +92,9 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Fishhook - Skull Rock"] = {
+		["Kksummon - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -67,8 +102,18 @@ SpyDB = {
 					},
 				},
 			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Fishhook - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Øø - Skull Rock"] = {
@@ -83,7 +128,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kksummon - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {

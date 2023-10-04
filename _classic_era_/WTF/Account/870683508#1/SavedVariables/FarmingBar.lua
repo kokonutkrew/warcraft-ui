@@ -1,20 +1,23 @@
 
 FarmingBarDB = {
-	["global"] = {
-		["version"] = 7,
-		["settings"] = {
-			["autoLoot"] = true,
-		},
-	},
 	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 		["Fishook - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
 		["Fishhook - Skull Rock"] = "Default",
 		["Øø - Skull Rock"] = "Default",
-		["Kksummon - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
 		["Fiesh - Pagle"] = "Default",
+	},
+	["global"] = {
+		["settings"] = {
+			["autoLoot"] = true,
+		},
+		["version"] = 7,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -24,8 +27,8 @@ FarmingBarDB = {
 						"TOP", -- [1]
 						nil, -- [2]
 						"TOP", -- [3]
-						17.96304512023926, -- [4]
-						0, -- [5]
+						24.28397750854492, -- [4]
+						-16.59261322021484, -- [5]
 					},
 					["skin"] = "FarmingBar_Minimal",
 					["fontstrings"] = {
@@ -37,6 +40,8 @@ FarmingBarDB = {
 						},
 					},
 					["numButtons"] = 5,
+					["buttonSize"] = 64,
+					["alpha"] = 0.39,
 					["buttons"] = {
 						{
 							["onUse"] = {
@@ -54,14 +59,13 @@ FarmingBarDB = {
 									["name"] = "Bright Baubles",
 									["includeGuildBank"] = {
 									},
+									["includeAlts"] = false,
 									["altIDs"] = {
 									},
-									["includeAlts"] = false,
 								}, -- [1]
 							},
 							["objective"] = 0,
 							["mute"] = false,
-							["title"] = "Bright Baubles",
 							["icon"] = {
 								["id"] = 134139,
 								["type"] = "AUTO",
@@ -70,6 +74,7 @@ FarmingBarDB = {
 								["func"] = "function(trackers, GetTrackerCount)\n    -- This is the structure of the tracker table:\n    --trackers = {\n    --    [1] = {\n    --        type = \"ITEM\", -- \"CURRENCY\"\n    --        id = 0000,\n    --        objective = 1,\n    --        includeAllFactions = false,\n    --        includeAlts = false,\n    --        includeBank = false,\n    --        includeGuildBank = {\n    --             [\"GuildKey\"] = true\n    --        },\n    --        altIDs = {\n    --            {\n    --                type = \"ITEM\", -- \"CURRENCY\"\n    --                name = \"\",\n    --                id = 0000,\n    --                multiplier = 1,\n    --            }\n    --        },\n    --    },\n    --}\n    \n    -- NOTE: make sure the first argument of GetTrackerCount is nil\n    -- This function is not necessary, but available if your custom function is simple and doesn't change the way each tracker is calculated.\n    --local count =  GetTrackerCount(_, trackers[1])\n    \n    return GetTrackerCount(_, trackers[1])\nend",
 								["type"] = "ALL",
 							},
+							["title"] = "Bright Baubles",
 						}, -- [1]
 						{
 							["onUse"] = {
@@ -87,22 +92,22 @@ FarmingBarDB = {
 									["name"] = "Raw Rockscale Cod",
 									["includeGuildBank"] = {
 									},
-									["includeAlts"] = false,
 									["altIDs"] = {
 									},
+									["includeAlts"] = false,
 								}, -- [1]
 							},
 							["objective"] = 0,
 							["mute"] = false,
-							["icon"] = {
-								["id"] = 133890,
-								["type"] = "AUTO",
-							},
+							["title"] = "Raw Rockscale Cod",
 							["condition"] = {
 								["func"] = "function(trackers, GetTrackerCount)\n    -- This is the structure of the tracker table:\n    --trackers = {\n    --    [1] = {\n    --        type = \"ITEM\", -- \"CURRENCY\"\n    --        id = 0000,\n    --        objective = 1,\n    --        includeAllFactions = false,\n    --        includeAlts = false,\n    --        includeBank = false,\n    --        includeGuildBank = {\n    --             [\"GuildKey\"] = true\n    --        },\n    --        altIDs = {\n    --            {\n    --                type = \"ITEM\", -- \"CURRENCY\"\n    --                name = \"\",\n    --                id = 0000,\n    --                multiplier = 1,\n    --            }\n    --        },\n    --    },\n    --}\n    \n    -- NOTE: make sure the first argument of GetTrackerCount is nil\n    -- This function is not necessary, but available if your custom function is simple and doesn't change the way each tracker is calculated.\n    --local count =  GetTrackerCount(_, trackers[1])\n    \n    return GetTrackerCount(_, trackers[1])\nend",
 								["type"] = "ALL",
 							},
-							["title"] = "Raw Rockscale Cod",
+							["icon"] = {
+								["id"] = 133890,
+								["type"] = "AUTO",
+							},
 						}, -- [2]
 						{
 							["onUse"] = {
@@ -120,22 +125,22 @@ FarmingBarDB = {
 									["name"] = "Raw Spotted Yellowtail",
 									["includeGuildBank"] = {
 									},
-									["includeAlts"] = false,
 									["altIDs"] = {
 									},
+									["includeAlts"] = false,
 								}, -- [1]
 							},
 							["objective"] = 0,
 							["mute"] = false,
-							["icon"] = {
-								["id"] = 133887,
-								["type"] = "AUTO",
-							},
+							["title"] = "Raw Spotted Yellowtail",
 							["condition"] = {
 								["func"] = "function(trackers, GetTrackerCount)\n    -- This is the structure of the tracker table:\n    --trackers = {\n    --    [1] = {\n    --        type = \"ITEM\", -- \"CURRENCY\"\n    --        id = 0000,\n    --        objective = 1,\n    --        includeAllFactions = false,\n    --        includeAlts = false,\n    --        includeBank = false,\n    --        includeGuildBank = {\n    --             [\"GuildKey\"] = true\n    --        },\n    --        altIDs = {\n    --            {\n    --                type = \"ITEM\", -- \"CURRENCY\"\n    --                name = \"\",\n    --                id = 0000,\n    --                multiplier = 1,\n    --            }\n    --        },\n    --    },\n    --}\n    \n    -- NOTE: make sure the first argument of GetTrackerCount is nil\n    -- This function is not necessary, but available if your custom function is simple and doesn't change the way each tracker is calculated.\n    --local count =  GetTrackerCount(_, trackers[1])\n    \n    return GetTrackerCount(_, trackers[1])\nend",
 								["type"] = "ALL",
 							},
-							["title"] = "Raw Spotted Yellowtail",
+							["icon"] = {
+								["id"] = 133887,
+								["type"] = "AUTO",
+							},
 						}, -- [3]
 						{
 							["onUse"] = {
@@ -153,22 +158,22 @@ FarmingBarDB = {
 									["name"] = "Firefin Snapper",
 									["includeGuildBank"] = {
 									},
-									["includeAlts"] = false,
 									["altIDs"] = {
 									},
+									["includeAlts"] = false,
 								}, -- [1]
 							},
 							["objective"] = 0,
 							["mute"] = false,
-							["icon"] = {
-								["id"] = 134299,
-								["type"] = "AUTO",
-							},
+							["title"] = "Firefin Snapper",
 							["condition"] = {
 								["func"] = "function(trackers, GetTrackerCount)\n    -- This is the structure of the tracker table:\n    --trackers = {\n    --    [1] = {\n    --        type = \"ITEM\", -- \"CURRENCY\"\n    --        id = 0000,\n    --        objective = 1,\n    --        includeAllFactions = false,\n    --        includeAlts = false,\n    --        includeBank = false,\n    --        includeGuildBank = {\n    --             [\"GuildKey\"] = true\n    --        },\n    --        altIDs = {\n    --            {\n    --                type = \"ITEM\", -- \"CURRENCY\"\n    --                name = \"\",\n    --                id = 0000,\n    --                multiplier = 1,\n    --            }\n    --        },\n    --    },\n    --}\n    \n    -- NOTE: make sure the first argument of GetTrackerCount is nil\n    -- This function is not necessary, but available if your custom function is simple and doesn't change the way each tracker is calculated.\n    --local count =  GetTrackerCount(_, trackers[1])\n    \n    return GetTrackerCount(_, trackers[1])\nend",
 								["type"] = "ALL",
 							},
-							["title"] = "Firefin Snapper",
+							["icon"] = {
+								["id"] = 134299,
+								["type"] = "AUTO",
+							},
 						}, -- [4]
 						{
 							["onUse"] = {
@@ -186,26 +191,24 @@ FarmingBarDB = {
 									["name"] = "Oily Blackmouth",
 									["includeGuildBank"] = {
 									},
-									["includeAlts"] = false,
 									["altIDs"] = {
 									},
+									["includeAlts"] = false,
 								}, -- [1]
 							},
 							["objective"] = 0,
 							["mute"] = false,
-							["icon"] = {
-								["id"] = 134302,
-								["type"] = "AUTO",
-							},
+							["title"] = "Oily Blackmouth",
 							["condition"] = {
 								["func"] = "function(trackers, GetTrackerCount)\n    -- This is the structure of the tracker table:\n    --trackers = {\n    --    [1] = {\n    --        type = \"ITEM\", -- \"CURRENCY\"\n    --        id = 0000,\n    --        objective = 1,\n    --        includeAllFactions = false,\n    --        includeAlts = false,\n    --        includeBank = false,\n    --        includeGuildBank = {\n    --             [\"GuildKey\"] = true\n    --        },\n    --        altIDs = {\n    --            {\n    --                type = \"ITEM\", -- \"CURRENCY\"\n    --                name = \"\",\n    --                id = 0000,\n    --                multiplier = 1,\n    --            }\n    --        },\n    --    },\n    --}\n    \n    -- NOTE: make sure the first argument of GetTrackerCount is nil\n    -- This function is not necessary, but available if your custom function is simple and doesn't change the way each tracker is calculated.\n    --local count =  GetTrackerCount(_, trackers[1])\n    \n    return GetTrackerCount(_, trackers[1])\nend",
 								["type"] = "ALL",
 							},
-							["title"] = "Oily Blackmouth",
+							["icon"] = {
+								["id"] = 134302,
+								["type"] = "AUTO",
+							},
 						}, -- [5]
 					},
-					["alpha"] = 0.39,
-					["buttonSize"] = 64,
 				}, -- [1]
 			},
 			["style"] = {

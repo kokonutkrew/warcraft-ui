@@ -1,10 +1,13 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 		["Fishook - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
 		["Fishhook - Skull Rock"] = "Default",
 		["Øø - Skull Rock"] = "Default",
-		["Kksummon - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
@@ -36,23 +39,32 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
 		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
 		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
 		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
 		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 	["profiles"] = {
+		["Tygrrlilly - Skull Rock"] = {
+		},
+		["Bannhammer - Skull Rock"] = {
+		},
 		["Fishook - Skull Rock"] = {
+		},
+		["Kksummon - Skull Rock"] = {
 		},
 		["Fishhook - Skull Rock"] = {
 		},
 		["Øø - Skull Rock"] = {
 		},
-		["Kksummon - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
 		},
 		["Farmcraft - Skull Rock"] = {
 		},

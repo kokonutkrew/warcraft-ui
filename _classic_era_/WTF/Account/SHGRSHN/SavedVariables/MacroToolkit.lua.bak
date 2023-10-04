@@ -1,0 +1,19 @@
+
+MacroToolkitDB = {
+	["global"] = {
+		["backups"] = {
+		},
+		["ebackups"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Kktailor - Skull Rock"] = "profile",
+		["Samoanslayer - Skull Rock"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+			["y"] = 391.6543273925781,
+			["x"] = 134.5309295654297,
+		},
+	},
+}

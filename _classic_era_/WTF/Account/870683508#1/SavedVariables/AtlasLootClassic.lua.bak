@@ -1,26 +1,32 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["Fiesh - Pagle"] = "Fiesh - Pagle",
-		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
-		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
-		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
-	},
 	["global"] = {
 		["__addonrevision"] = 3010003,
 	},
+	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
+		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
+		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
+	},
 	["profiles"] = {
-		["Fiesh - Pagle"] = {
+		["Tygrrlilly - Skull Rock"] = {
 		},
-		["Fishhook - Skull Rock"] = {
+		["Fishook - Skull Rock"] = {
 		},
 		["Kkundercity - Skull Rock"] = {
 		},
+		["Fishhook - Skull Rock"] = {
+		},
 		["Kksummon - Skull Rock"] = {
+		},
+		["Komrad - Skull Rock"] = {
 		},
 		["Farmcraft - Skull Rock"] = {
 		},
@@ -28,7 +34,7 @@ AtlasLootClassicDB = {
 		},
 		["Øø - Skull Rock"] = {
 		},
-		["Fishook - Skull Rock"] = {
+		["Fiesh - Pagle"] = {
 		},
 	},
 }

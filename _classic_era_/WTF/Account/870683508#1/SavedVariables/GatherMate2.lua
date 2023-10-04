@@ -1,17 +1,20 @@
 
 GatherMate2DB = {
-	["global"] = {
-		["data_version"] = 5,
-	},
 	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 		["Fishook - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
 		["Fishhook - Skull Rock"] = "Default",
 		["Øø - Skull Rock"] = "Default",
-		["Kksummon - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
 		["Fiesh - Pagle"] = "Default",
+	},
+	["global"] = {
+		["data_version"] = 5,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -37,6 +40,7 @@ GatherMate2GasDB = nil
 GatherMate2TreasureDB = {
 	[1413] = {
 		[6378492100] = 502,
+		[4288550900] = 502,
 	},
 	[1411] = {
 		[4661790000] = 502,

@@ -1,12 +1,16 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
+		[64] = {
+		},
 		["tip"] = {
 		},
+		[66] = {
+		},
 	},
-	["currentStep"] = 36,
+	["currentStep"] = 66,
 	["questObjectivesCache"] = {
-		[0] = 90,
+		[0] = 93,
 		[837] = {
 			{
 				["type"] = "monster",
@@ -269,6 +273,29 @@ RXPCData = {
 				["type"] = "monster",
 				["numRequired"] = 3,
 				["text"] = "Razormane Hunter slain: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[879] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Kuz's Skull: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Nak's Skull: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Lok's Skull: 0/1",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [3]
@@ -675,7 +702,25 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
-		[1528] = {
+		[1535] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Filled Brown Waterskin: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[913] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Thunderhawk Wings: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[3261] = {
 			{
 				["type"] = "event",
 				["numRequired"] = 1,
@@ -690,6 +735,24 @@ RXPCData = {
 				["numRequired"] = 1,
 				["generated"] = true,
 				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5441] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Peons Awoken: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[827] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Searing Collar: 0/6",
+				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
@@ -709,24 +772,6 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
-		[827] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 6,
-				["text"] = "Searing Collar: 0/6",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
-		[5441] = {
-			{
-				["type"] = "monster",
-				["numRequired"] = 5,
-				["text"] = "Peons Awoken: 0/5",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
 		[6394] = {
 			{
 				["type"] = "item",
@@ -745,11 +790,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[899] = {
+		[870] = {
 			{
-				["type"] = "item",
-				["numRequired"] = 60,
-				["text"] = "Bristleback Quilboar Tusk: 0/60",
+				["type"] = "event",
+				["numRequired"] = 1,
+				["text"] = "Explore the waters of the Forgotten Pools",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -763,15 +808,6 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[5761] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 1,
-				["text"] = "Taragaman the Hungerer's Heart: 0/1",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
 		[6523] = {
 			{
 				["type"] = "event",
@@ -780,6 +816,22 @@ RXPCData = {
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
+		},
+		[6461] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Deepmoss Creeper slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 7,
+				["text"] = "Deepmoss Venomspitter slain: 0/7",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
 		},
 		[764] = {
 			{
@@ -797,21 +849,14 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
-		[6461] = {
+		[899] = {
 			{
-				["type"] = "monster",
-				["numRequired"] = 10,
-				["text"] = "Deepmoss Creeper slain: 0/10",
+				["type"] = "item",
+				["numRequired"] = 60,
+				["text"] = "Bristleback Quilboar Tusk: 0/60",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
-			{
-				["type"] = "monster",
-				["numRequired"] = 7,
-				["text"] = "Deepmoss Venomspitter slain: 0/7",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [2]
 		},
 		[907] = {
 			{
@@ -831,11 +876,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[789] = {
+		[1062] = {
 			{
-				["type"] = "item",
-				["numRequired"] = 10,
-				["text"] = "Scorpid Worker Tail: 0/10",
+				["type"] = "monster",
+				["numRequired"] = 15,
+				["text"] = "Venture Co. Logger slain: 0/15",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -849,14 +894,21 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[5729] = {
+		[6548] = {
 			{
-				["type"] = "event",
-				["numRequired"] = 1,
-				["generated"] = true,
-				["text"] = "Objective Complete",
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Grimtotem Ruffian slain: 0/8",
+				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 6,
+				["text"] = "Grimtotem Mercenary slain: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
 		},
 		[4402] = {
 			{
@@ -876,11 +928,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[4021] = {
+		[761] = {
 			{
 				["type"] = "item",
-				["numRequired"] = 1,
-				["text"] = "Piece of Krom'zar's Banner: 0/1",
+				["numRequired"] = 8,
+				["text"] = "Trophy Swoop Quill: 0/8",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -930,11 +982,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[761] = {
+		[4021] = {
 			{
 				["type"] = "item",
-				["numRequired"] = 8,
-				["text"] = "Trophy Swoop Quill: 0/8",
+				["numRequired"] = 1,
+				["text"] = "Piece of Krom'zar's Banner: 0/1",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -971,27 +1023,20 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [3]
 		},
-		[6548] = {
+		[5729] = {
 			{
-				["type"] = "monster",
-				["numRequired"] = 8,
-				["text"] = "Grimtotem Ruffian slain: 0/8",
-				["finished"] = false,
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
 				["numFulfilled"] = 0,
 			}, -- [1]
-			{
-				["type"] = "monster",
-				["numRequired"] = 6,
-				["text"] = "Grimtotem Mercenary slain: 0/6",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [2]
 		},
-		[1062] = {
+		[789] = {
 			{
-				["type"] = "monster",
-				["numRequired"] = 15,
-				["text"] = "Venture Co. Logger slain: 0/15",
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Scorpid Worker Tail: 0/10",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -1005,11 +1050,11 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[870] = {
+		[5761] = {
 			{
-				["type"] = "event",
+				["type"] = "item",
 				["numRequired"] = 1,
-				["text"] = "Explore the waters of the Forgotten Pools",
+				["text"] = "Taragaman the Hungerer's Heart: 0/1",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -1046,7 +1091,7 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [3]
 		},
-		[3261] = {
+		[1528] = {
 			{
 				["type"] = "event",
 				["numRequired"] = 1,
@@ -1059,12 +1104,12 @@ RXPCData = {
 	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
 	["flightPaths"] = {
 		[80] = "Ratchet, The Barrens",
-		[77] = "Camp Taurajo, The Barrens",
-		[25] = "Crossroads, The Barrens",
 		[22] = "Thunder Bluff, Mulgore",
+		[25] = "Crossroads, The Barrens",
+		[29] = "Sun Rock Retreat, Stonetalon Mountains",
 		[61] = "Splintertree Post, Ashenvale",
 		[23] = "Orgrimmar, Durotar",
-		[29] = "Sun Rock Retreat, Stonetalon Mountains",
+		[77] = "Camp Taurajo, The Barrens",
 	},
 	["questNameCache"] = {
 		[887] = "Southsea Freebooters",
@@ -1089,46 +1134,55 @@ RXPCData = {
 		[1524] = "Call of Fire",
 		[835] = "Securing the Lines",
 		[900] = "Samophlange",
-		[6461] = "Blood Feeders",
-		[851] = "Verog the Dervish",
+		[872] = "The Disruption Ends",
+		[761] = "Swoop Hunting",
 		[786] = "Thwarting Kolkar Aggression",
 		[788] = "Cutting Teeth",
 		[790] = "Sarkoth",
 		[792] = "Vile Familiars",
 		[794] = "Burning Blade Medallion",
-		[6629] = "Kill Grundig Darkcloud",
+		[4402] = "Galgar's Cactus Apple Surprise",
 		[924] = "The Demon Seed",
 		[6523] = "Protect Kaya",
 		[1525] = "Call of Fire",
-		[855] = "Centaur Bracers",
-		[743] = "Dangers of the Windfury",
 		[871] = "Disrupt the Attacks",
-		[833] = "A Sacred Burial",
+		[743] = "Dangers of the Windfury",
+		[6461] = "Blood Feeders",
+		[1516] = "Call of Earth",
 		[749] = "The Ravaged Caravan",
 		[869] = "Raptor Thieves",
-		[1516] = "Call of Earth",
+		[833] = "A Sacred Burial",
 		[818] = "A Solvent Spirit",
-		[4402] = "Galgar's Cactus Apple Surprise",
-		[761] = "Swoop Hunting",
-		[872] = "The Disruption Ends",
+		[855] = "Centaur Bracers",
+		[851] = "Verog the Dervish",
+		[6629] = "Kill Grundig Darkcloud",
 	},
 	["currentGuideName"] = "19-23 Stonetalon/Barrens/Ashenvale",
 	["stepSkip"] = {
 		true, -- [1]
-		[33] = true,
-		[26] = true,
+		[59] = true,
 		[4] = true,
 		[16] = true,
+		[32] = true,
+		[33] = true,
 		[9] = true,
-		[18] = true,
-		[10] = true,
 		[35] = true,
-		[11] = true,
+		[10] = true,
+		[40] = true,
+		[42] = true,
 		[22] = true,
 		[23] = true,
-		[32] = true,
+		[46] = true,
+		[47] = true,
+		[50] = true,
+		[26] = true,
+		[53] = true,
+		[54] = true,
+		[56] = true,
+		[18] = true,
+		[11] = true,
 	},
-	["currentStepId"] = 45817584,
+	["currentStepId"] = 45818060,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -1151,20 +1205,20 @@ RXPCTrackingData = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 4,
+							["minute"] = 49,
 							["year"] = 2023,
 							["hour"] = 16,
-							["minute"] = 49,
+							["weekday"] = 4,
 						},
 						["finished"] = 577,
 						["dateFinished"] = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 44,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 20,
-							["weekday"] = 4,
+							["minute"] = 44,
 						},
 						["started"] = 0,
 					},
@@ -1188,20 +1242,20 @@ RXPCTrackingData = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 44,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 20,
-							["weekday"] = 4,
+							["minute"] = 44,
 						},
 						["finished"] = 1017,
 						["dateFinished"] = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 51,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 20,
-							["weekday"] = 4,
+							["minute"] = 51,
 						},
 						["started"] = 578,
 					},
@@ -1228,20 +1282,20 @@ RXPCTrackingData = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 51,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 20,
-							["weekday"] = 4,
+							["minute"] = 51,
 						},
 						["finished"] = 1396,
 						["dateFinished"] = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 57,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 20,
-							["weekday"] = 4,
+							["minute"] = 57,
 						},
 						["started"] = 1018,
 					},
@@ -1267,20 +1321,20 @@ RXPCTrackingData = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 57,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 20,
-							["weekday"] = 4,
+							["minute"] = 57,
 						},
 						["finished"] = 2114,
 						["dateFinished"] = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 9,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 21,
-							["weekday"] = 4,
+							["minute"] = 9,
 						},
 						["started"] = 1397,
 					},
@@ -1307,20 +1361,20 @@ RXPCTrackingData = {
 							["monthDay"] = 27,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 9,
+							["weekday"] = 4,
 							["year"] = 2023,
 							["hour"] = 21,
-							["weekday"] = 4,
+							["minute"] = 9,
 						},
 						["finished"] = 11380,
 						["dateFinished"] = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 5,
+							["minute"] = 24,
 							["year"] = 2023,
 							["hour"] = 20,
-							["minute"] = 24,
+							["weekday"] = 5,
 						},
 						["started"] = 2115,
 					},
@@ -1330,8 +1384,8 @@ RXPCTrackingData = {
 							[1517] = 270,
 							[1518] = 450,
 							[6394] = 450,
-							[823] = 320,
 							[805] = 230,
+							[823] = 320,
 						},
 					},
 				}, -- [5]
@@ -1349,20 +1403,20 @@ RXPCTrackingData = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 5,
+							["minute"] = 24,
 							["year"] = 2023,
 							["hour"] = 20,
-							["minute"] = 24,
+							["weekday"] = 5,
 						},
 						["finished"] = 12868,
 						["dateFinished"] = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 5,
+							["minute"] = 49,
 							["year"] = 2023,
 							["hour"] = 20,
-							["minute"] = 49,
+							["weekday"] = 5,
 						},
 						["started"] = 11381,
 					},
@@ -1388,20 +1442,20 @@ RXPCTrackingData = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 5,
+							["minute"] = 49,
 							["year"] = 2023,
 							["hour"] = 20,
-							["minute"] = 49,
+							["weekday"] = 5,
 						},
 						["finished"] = 15719,
 						["dateFinished"] = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 5,
+							["minute"] = 37,
 							["year"] = 2023,
 							["hour"] = 21,
-							["minute"] = 37,
+							["weekday"] = 5,
 						},
 						["started"] = 12869,
 					},
@@ -1426,20 +1480,20 @@ RXPCTrackingData = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 5,
+							["minute"] = 37,
 							["year"] = 2023,
 							["hour"] = 21,
-							["minute"] = 37,
+							["weekday"] = 5,
 						},
 						["finished"] = 17535,
 						["dateFinished"] = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 14,
+							["weekday"] = 5,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 5,
+							["minute"] = 14,
 						},
 						["started"] = 15720,
 					},
@@ -1474,20 +1528,20 @@ RXPCTrackingData = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 14,
+							["weekday"] = 5,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 5,
+							["minute"] = 14,
 						},
 						["finished"] = 20217,
 						["dateFinished"] = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 59,
+							["weekday"] = 5,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 5,
+							["minute"] = 59,
 						},
 						["started"] = 17536,
 					},
@@ -1514,20 +1568,20 @@ RXPCTrackingData = {
 							["monthDay"] = 28,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 59,
+							["weekday"] = 5,
 							["year"] = 2023,
 							["hour"] = 22,
-							["weekday"] = 5,
+							["minute"] = 59,
 						},
 						["finished"] = 24214,
 						["dateFinished"] = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 6,
+							["minute"] = 5,
 							["year"] = 2023,
 							["hour"] = 0,
-							["minute"] = 5,
+							["weekday"] = 6,
 						},
 						["started"] = 20218,
 					},
@@ -1567,20 +1621,20 @@ RXPCTrackingData = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 6,
+							["minute"] = 5,
 							["year"] = 2023,
 							["hour"] = 0,
-							["minute"] = 5,
+							["weekday"] = 6,
 						},
 						["finished"] = 30343,
 						["dateFinished"] = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 27,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 8,
-							["weekday"] = 6,
+							["minute"] = 27,
 						},
 						["started"] = 24215,
 					},
@@ -1619,20 +1673,20 @@ RXPCTrackingData = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 27,
+							["weekday"] = 6,
 							["year"] = 2023,
 							["hour"] = 8,
-							["weekday"] = 6,
+							["minute"] = 27,
 						},
 						["finished"] = 34929,
 						["dateFinished"] = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 6,
+							["minute"] = 45,
 							["year"] = 2023,
 							["hour"] = 9,
-							["minute"] = 45,
+							["weekday"] = 6,
 						},
 						["started"] = 30344,
 					},
@@ -1676,20 +1730,20 @@ RXPCTrackingData = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 6,
+							["minute"] = 45,
 							["year"] = 2023,
 							["hour"] = 9,
-							["minute"] = 45,
+							["weekday"] = 6,
 						},
 						["finished"] = 40526,
 						["dateFinished"] = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 6,
+							["minute"] = 39,
 							["year"] = 2023,
 							["hour"] = 19,
-							["minute"] = 39,
+							["weekday"] = 6,
 						},
 						["started"] = 34930,
 					},
@@ -1729,20 +1783,20 @@ RXPCTrackingData = {
 							["monthDay"] = 29,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 6,
+							["minute"] = 39,
 							["year"] = 2023,
 							["hour"] = 19,
-							["minute"] = 39,
+							["weekday"] = 6,
 						},
 						["finished"] = 63524,
 						["dateFinished"] = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 51,
+							["weekday"] = 7,
 							["year"] = 2023,
 							["hour"] = 10,
-							["weekday"] = 7,
+							["minute"] = 51,
 						},
 						["started"] = 40527,
 					},
@@ -1754,9 +1808,9 @@ RXPCTrackingData = {
 						["The Barrens"] = {
 							[1527] = 1150,
 							[819] = 1050,
-							[924] = 1250,
-							[845] = 900,
 							[1492] = 440,
+							[845] = 900,
+							[924] = 1250,
 						},
 					},
 				}, -- [14]
@@ -1778,20 +1832,20 @@ RXPCTrackingData = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 51,
+							["weekday"] = 7,
 							["year"] = 2023,
 							["hour"] = 10,
-							["weekday"] = 7,
+							["minute"] = 51,
 						},
 						["finished"] = 72327,
 						["dateFinished"] = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 1,
+							["weekday"] = 7,
 							["year"] = 2023,
 							["hour"] = 18,
-							["weekday"] = 7,
+							["minute"] = 1,
 						},
 						["started"] = 63525,
 					},
@@ -1799,12 +1853,12 @@ RXPCTrackingData = {
 						["The Barrens"] = {
 							[887] = 750,
 							[903] = 1050,
-							[869] = 900,
+							[892] = 100,
 							[872] = 1050,
 							[895] = 1150,
 							[890] = 100,
-							[892] = 100,
 							[850] = 875,
+							[869] = 900,
 						},
 						["Ragefire Chasm"] = {
 							[5722] = 875,
@@ -1829,20 +1883,20 @@ RXPCTrackingData = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["minute"] = 1,
+							["weekday"] = 7,
 							["year"] = 2023,
 							["hour"] = 18,
-							["weekday"] = 7,
+							["minute"] = 1,
 						},
 						["finished"] = 83206,
 						["dateFinished"] = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 7,
+							["minute"] = 11,
 							["year"] = 2023,
 							["hour"] = 21,
-							["minute"] = 11,
+							["weekday"] = 7,
 						},
 						["started"] = 72328,
 					},
@@ -1877,20 +1931,20 @@ RXPCTrackingData = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 7,
+							["minute"] = 11,
 							["year"] = 2023,
 							["hour"] = 21,
-							["minute"] = 11,
+							["weekday"] = 7,
 						},
 						["finished"] = 89793,
 						["dateFinished"] = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 7,
+							["minute"] = 0,
 							["year"] = 2023,
 							["hour"] = 23,
-							["minute"] = 0,
+							["weekday"] = 7,
 						},
 						["started"] = 83207,
 					},
@@ -1903,8 +1957,8 @@ RXPCTrackingData = {
 							[905] = 1250,
 							[881] = 1450,
 							[902] = 1150,
-							[858] = 1350,
 							[896] = 1700,
+							[858] = 1350,
 						},
 					},
 				}, -- [17]
@@ -1926,20 +1980,20 @@ RXPCTrackingData = {
 							["monthDay"] = 30,
 							["day"] = 0,
 							["month"] = 9,
-							["weekday"] = 7,
+							["minute"] = 0,
 							["year"] = 2023,
 							["hour"] = 23,
-							["minute"] = 0,
+							["weekday"] = 7,
 						},
 						["finished"] = 96279,
 						["dateFinished"] = {
 							["monthDay"] = 1,
 							["day"] = 0,
 							["month"] = 10,
-							["weekday"] = 1,
+							["minute"] = 49,
 							["year"] = 2023,
 							["hour"] = 0,
-							["minute"] = 49,
+							["weekday"] = 1,
 						},
 						["started"] = 89794,
 					},
@@ -1954,10 +2008,10 @@ RXPCTrackingData = {
 							[851] = 1000,
 							[3921] = 490,
 							[855] = 1250,
-							[4021] = 1950,
-							[6541] = 150,
-							[821] = 1350,
 							[1061] = 320,
+							[821] = 1350,
+							[6541] = 150,
+							[4021] = 1950,
 						},
 					},
 				}, -- [18]
@@ -1979,20 +2033,20 @@ RXPCTrackingData = {
 							["monthDay"] = 1,
 							["day"] = 0,
 							["month"] = 10,
-							["weekday"] = 1,
+							["minute"] = 49,
 							["year"] = 2023,
 							["hour"] = 0,
-							["minute"] = 49,
+							["weekday"] = 1,
 						},
 						["finished"] = 103389,
 						["dateFinished"] = {
 							["monthDay"] = 1,
 							["day"] = 0,
 							["month"] = 10,
-							["weekday"] = 1,
+							["minute"] = 47,
 							["year"] = 2023,
 							["hour"] = 2,
-							["minute"] = 47,
+							["weekday"] = 1,
 						},
 						["started"] = 96280,
 					},
@@ -2001,9 +2055,9 @@ RXPCTrackingData = {
 							[1069] = 1950,
 							[1094] = 825,
 							[6548] = 1350,
-							[1062] = 1450,
-							[6629] = 1350,
 							[6523] = 1350,
+							[6629] = 1350,
+							[1062] = 1450,
 						},
 						["Stonetalon Mountains"] = {
 							[1093] = 1650,
@@ -2031,20 +2085,20 @@ RXPCTrackingData = {
 							["monthDay"] = 1,
 							["day"] = 0,
 							["month"] = 10,
-							["weekday"] = 1,
+							["minute"] = 47,
 							["year"] = 2023,
 							["hour"] = 2,
-							["minute"] = 47,
+							["weekday"] = 1,
 						},
 						["finished"] = 195476,
 						["dateFinished"] = {
 							["monthDay"] = 3,
 							["day"] = 0,
 							["month"] = 10,
-							["weekday"] = 3,
+							["minute"] = 23,
 							["year"] = 2023,
 							["hour"] = 11,
-							["minute"] = 23,
+							["weekday"] = 3,
 						},
 						["started"] = 103390,
 					},
@@ -2061,19 +2115,37 @@ RXPCTrackingData = {
 					},
 				}, -- [20]
 				{
-					["groupExperience"] = 1800,
+					["groupExperience"] = 2804,
 					["deaths"] = 0,
 					["mobs"] = {
+						["The Wailing Caverns"] = {
+							["xp"] = 80,
+							["count"] = 1,
+						},
+						["The Barrens"] = {
+							["xp"] = 924,
+							["count"] = 18,
+						},
 					},
 					["timestamp"] = {
 						["dateStarted"] = {
 							["monthDay"] = 3,
 							["day"] = 0,
 							["month"] = 10,
-							["weekday"] = 3,
+							["minute"] = 23,
 							["year"] = 2023,
 							["hour"] = 11,
-							["minute"] = 23,
+							["weekday"] = 3,
+						},
+						["finished"] = 210208,
+						["dateFinished"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 10,
+							["minute"] = 1,
+							["year"] = 2023,
+							["hour"] = 23,
+							["weekday"] = 3,
 						},
 						["started"] = 195477,
 					},
@@ -2083,6 +2155,47 @@ RXPCTrackingData = {
 						},
 					},
 				}, -- [21]
+				{
+					["groupExperience"] = 18119,
+					["deaths"] = 0,
+					["mobs"] = {
+						["The Barrens"] = {
+							["xp"] = 4268,
+							["count"] = 82,
+						},
+						["The Wailing Caverns"] = {
+							["xp"] = 76,
+							["count"] = 1,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 10,
+							["minute"] = 1,
+							["year"] = 2023,
+							["hour"] = 23,
+							["weekday"] = 3,
+						},
+						["started"] = 210209,
+					},
+					["quests"] = {
+						["The Barrens"] = {
+							[880] = 925,
+							[5052] = 1250,
+							[907] = 1700,
+							[878] = 1650,
+							[1491] = 1350,
+							[899] = 1950,
+							[883] = 1300,
+						},
+						["The Wailing Caverns"] = {
+							[1487] = 2050,
+							[1486] = 1600,
+						},
+					},
+				}, -- [22]
 			},
 		},
 	},
@@ -2094,12 +2207,6 @@ RXPCComms = {
 	["profiles"] = {
 		["Fishhook - Skull Rock"] = {
 			["announcements"] = {
-				["01-10 Durotar"] = {
-					["collect"] = {
-					},
-					["complete"] = {
-					},
-				},
 				["12-17 The Barrens"] = {
 					["collect"] = {
 					},
@@ -2107,6 +2214,18 @@ RXPCComms = {
 					},
 				},
 				["10-12 Durotar"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+				["01-10 Durotar"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+				["19-23 Stonetalon/Barrens/Ashenvale"] = {
 					["collect"] = {
 					},
 					["complete"] = {
@@ -2179,13 +2298,13 @@ RXPCComms = {
 					["xp"] = 34,
 				},
 				["Messiahbolic"] = {
-					["level"] = 9,
-					["class"] = "WARRIOR",
-					["lastSeen"] = 7405.636,
 					["timePlayed"] = 95.08599999999933,
 					["isRxp"] = true,
-					["xp"] = 850,
+					["lastSeen"] = 7405.636,
 					["xpPercentage"] = 89,
+					["class"] = "WARRIOR",
+					["xp"] = 850,
+					["level"] = 9,
 				},
 				["Raymoo"] = {
 					["class"] = "WARRIOR",
@@ -2196,13 +2315,13 @@ RXPCComms = {
 					["level"] = 17,
 				},
 				["Magiczombie"] = {
-					["timePlayed"] = 395.5170000000071,
-					["isRxp"] = true,
+					["class"] = "MAGE",
+					["level"] = 14,
 					["lastSeen"] = 97460.766,
 					["xpPercentage"] = 92,
-					["class"] = "MAGE",
+					["isRxp"] = true,
 					["xp"] = 39,
-					["level"] = 14,
+					["timePlayed"] = 395.5170000000071,
 				},
 				["Manaia"] = {
 					["level"] = 4,
@@ -2223,13 +2342,18 @@ RXPCComms = {
 					["xp"] = 34,
 				},
 				["Murof"] = {
-					["timePlayed"] = 520.2880000000005,
-					["isRxp"] = true,
+					["class"] = "MAGE",
+					["level"] = 11,
 					["lastSeen"] = 189004.613,
 					["xpPercentage"] = 16,
-					["class"] = "MAGE",
+					["isRxp"] = true,
 					["xp"] = 90,
-					["level"] = 11,
+					["timePlayed"] = 520.2880000000005,
+				},
+				["Ozark"] = {
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+					["xp"] = 80,
 				},
 				["Magrothole"] = {
 					["timePlayed"] = 2035.801999999996,
@@ -2244,6 +2368,22 @@ RXPCComms = {
 					["timePlayed"] = 0,
 					["class"] = "WARRIOR",
 				},
+				["Jodyfroster"] = {
+					["level"] = 18,
+					["lastSeen"] = 137317.411,
+					["xpPercentage"] = 19,
+					["class"] = "MAGE",
+					["timePlayed"] = 101.2090000000026,
+					["isRxp"] = true,
+				},
+				["Lenmar"] = {
+					["level"] = 16,
+					["lastSeen"] = 135733.825,
+					["xpPercentage"] = 14,
+					["class"] = "WARLOCK",
+					["timePlayed"] = 478.5040000000154,
+					["isRxp"] = true,
+				},
 				["Mealsheals"] = {
 					["level"] = 10,
 					["lastSeen"] = 189005.081,
@@ -2252,10 +2392,10 @@ RXPCComms = {
 					["timePlayed"] = 550.3880000000063,
 					["isRxp"] = true,
 				},
-				["Rajabuli"] = {
-					["timePlayed"] = 4695.782999999996,
-					["class"] = "SHAMAN",
-					["xp"] = 16,
+				["Crzylegs"] = {
+					["timePlayed"] = 0,
+					["class"] = "WARRIOR",
+					["xp"] = 80,
 				},
 				["Gonjasmoker"] = {
 					["level"] = 21,
@@ -2265,17 +2405,17 @@ RXPCComms = {
 					["timePlayed"] = 645.1959999999963,
 					["isRxp"] = true,
 				},
-				["Rodeoboy"] = {
-					["timePlayed"] = 4695.782999999996,
-					["class"] = "SHAMAN",
+				["Kaevee"] = {
+					["timePlayed"] = 1267.356,
+					["class"] = "WARRIOR",
 					["xp"] = 16,
 				},
 				["Samoanslayer"] = {
 					["class"] = "WARRIOR",
-					["lastSeen"] = 191045.694,
-					["xpPercentage"] = 0,
+					["lastSeen"] = 407179.578,
+					["xpPercentage"] = 84,
 					["isRxp"] = true,
-					["timePlayed"] = 31454.44200000004,
+					["timePlayed"] = 35036.66700000002,
 					["level"] = 20,
 				},
 				["Yomamaa"] = {
@@ -2291,15 +2431,22 @@ RXPCComms = {
 					["timePlayed"] = 2214.368000000002,
 					["class"] = "WARLOCK",
 				},
-				["Kaghak"] = {
-					["timePlayed"] = 406.637000000017,
-					["class"] = "WARLOCK",
-					["xp"] = 34,
+				["Shadowmax"] = {
+					["timePlayed"] = 225.9409999999916,
+					["isRxp"] = true,
+					["lastSeen"] = 180292.864,
+					["xpPercentage"] = 1,
+					["class"] = "PRIEST",
+					["xp"] = 24,
+					["level"] = 7,
 				},
-				["Kaevee"] = {
-					["timePlayed"] = 1267.356,
-					["class"] = "WARRIOR",
-					["xp"] = 16,
+				["Bourkestreet"] = {
+					["level"] = 33,
+					["lastSeen"] = 187590.536,
+					["xpPercentage"] = 14,
+					["class"] = "PRIEST",
+					["timePlayed"] = 0,
+					["isRxp"] = true,
 				},
 				["Wenurt"] = {
 					["timePlayed"] = 54.04300000000512,
@@ -2316,10 +2463,13 @@ RXPCComms = {
 					["class"] = "WARLOCK",
 					["xp"] = 45,
 				},
-				["Kyzan"] = {
-					["timePlayed"] = 866.9649999999965,
-					["class"] = "SHAMAN",
-					["xp"] = 34,
+				["Warchalrogue"] = {
+					["level"] = 19,
+					["lastSeen"] = 357438.802,
+					["xpPercentage"] = 74,
+					["class"] = "ROGUE",
+					["timePlayed"] = 0,
+					["isRxp"] = true,
 				},
 				["Sakaasting"] = {
 					["isRxp"] = true,
@@ -2329,13 +2479,10 @@ RXPCComms = {
 					["timePlayed"] = 0,
 					["class"] = "MAGE",
 				},
-				["Warchalrogue"] = {
-					["level"] = 19,
-					["lastSeen"] = 357438.802,
-					["xpPercentage"] = 74,
-					["class"] = "ROGUE",
-					["timePlayed"] = 0,
-					["isRxp"] = true,
+				["Keekoshokee"] = {
+					["timePlayed"] = 94.58499999999913,
+					["class"] = "SHAMAN",
+					["xp"] = 33,
 				},
 				["Khreed"] = {
 					["timePlayed"] = 2148.513999999996,
@@ -2370,18 +2517,15 @@ RXPCComms = {
 					["class"] = "ROGUE",
 					["xp"] = 22,
 				},
+				["Missamerica"] = {
+					["timePlayed"] = 705.3000000000002,
+					["class"] = "PRIEST",
+					["xp"] = 800,
+				},
 				["Bulmä"] = {
 					["timePlayed"] = 275.4290000000037,
 					["class"] = "HUNTER",
 					["xp"] = 35,
-				},
-				["Kylablast"] = {
-					["class"] = "SHAMAN",
-					["lastSeen"] = 204505.365,
-					["xpPercentage"] = 40,
-					["isRxp"] = true,
-					["timePlayed"] = 1267.356,
-					["level"] = 18,
 				},
 				["Wrktm"] = {
 					["timePlayed"] = 534.4370000000054,
@@ -2393,10 +2537,13 @@ RXPCComms = {
 					["class"] = "HUNTER",
 					["xp"] = 38,
 				},
-				["Missamerica"] = {
-					["timePlayed"] = 705.3000000000002,
-					["class"] = "PRIEST",
-					["xp"] = 800,
+				["Kylablast"] = {
+					["class"] = "SHAMAN",
+					["lastSeen"] = 204505.365,
+					["xpPercentage"] = 40,
+					["isRxp"] = true,
+					["timePlayed"] = 1267.356,
+					["level"] = 18,
 				},
 				["Shrublove"] = {
 					["timePlayed"] = 369.7190000000119,
@@ -2408,24 +2555,20 @@ RXPCComms = {
 					["class"] = "HUNTER",
 					["xp"] = 94,
 				},
-				["Keekoshokee"] = {
-					["timePlayed"] = 94.58499999999913,
+				["Kyzan"] = {
+					["timePlayed"] = 866.9649999999965,
 					["class"] = "SHAMAN",
-					["xp"] = 33,
+					["xp"] = 34,
 				},
 				["Frostynugss"] = {
 					["timePlayed"] = 4695.782999999996,
 					["class"] = "DRUID",
 					["xp"] = 16,
 				},
-				["Shadowmax"] = {
-					["level"] = 7,
-					["class"] = "PRIEST",
-					["lastSeen"] = 180292.864,
-					["timePlayed"] = 225.9409999999916,
-					["isRxp"] = true,
-					["xp"] = 24,
-					["xpPercentage"] = 1,
+				["Kaghak"] = {
+					["timePlayed"] = 406.637000000017,
+					["class"] = "WARLOCK",
+					["xp"] = 34,
 				},
 				["Frostmyglizz"] = {
 					["level"] = 29,
@@ -2435,29 +2578,20 @@ RXPCComms = {
 					["timePlayed"] = 467.570000000007,
 					["isRxp"] = true,
 				},
-				["Bourkestreet"] = {
-					["level"] = 33,
-					["lastSeen"] = 187590.536,
-					["xpPercentage"] = 14,
-					["class"] = "PRIEST",
+				["Rodeoboy"] = {
+					["timePlayed"] = 4695.782999999996,
+					["class"] = "SHAMAN",
+					["xp"] = 16,
+				},
+				["Rajabuli"] = {
+					["timePlayed"] = 4695.782999999996,
+					["class"] = "SHAMAN",
+					["xp"] = 16,
+				},
+				["Valaralu"] = {
 					["timePlayed"] = 0,
-					["isRxp"] = true,
-				},
-				["Lenmar"] = {
-					["level"] = 16,
-					["lastSeen"] = 135733.825,
-					["xpPercentage"] = 14,
-					["class"] = "WARLOCK",
-					["timePlayed"] = 478.5040000000154,
-					["isRxp"] = true,
-				},
-				["Jodyfroster"] = {
-					["level"] = 18,
-					["lastSeen"] = 137317.411,
-					["xpPercentage"] = 19,
-					["class"] = "MAGE",
-					["timePlayed"] = 101.2090000000026,
-					["isRxp"] = true,
+					["class"] = "HUNTER",
+					["xp"] = 80,
 				},
 				["Ariyi"] = {
 					["timePlayed"] = 127.027,

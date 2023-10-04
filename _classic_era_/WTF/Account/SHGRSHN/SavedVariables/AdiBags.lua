@@ -1,11 +1,12 @@
 
 AdiBagsDB = {
 	["char"] = {
-		["Samoansage - Grobbulus"] = {
+		["Samoanlegend - Grobbulus"] = {
 			["collapsedSections"] = {
+				["Bag #3#Bag #3"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
-				["Bag #3#Bag #3"] = true,
+				["Bag #1#Bag #1"] = true,
 			},
 		},
 		["Samoanmystic - Grobbulus"] = {
@@ -28,12 +29,11 @@ AdiBagsDB = {
 				["Bank bag #2#Bank bag #2"] = true,
 			},
 		},
-		["Samoanlegend - Grobbulus"] = {
+		["Samoansage - Grobbulus"] = {
 			["collapsedSections"] = {
-				["Bag #3#Bag #3"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
-				["Bag #1#Bag #1"] = true,
+				["Bag #3#Bag #3"] = true,
 			},
 		},
 	},
@@ -149,8 +149,8 @@ AdiBagsDB = {
 		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
 		["Goldenshots - Defias Pillager"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
 		["Samoanmystic - Grobbulus"] = "KokonutKrew",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
@@ -158,7 +158,7 @@ AdiBagsDB = {
 		["Samoanranger - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
 		["Øø - Skull Rock"] = "Default",
 	},
@@ -167,9 +167,9 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
+					["Name"] = "Bag Lag Fix",
 				},
 			},
 			["positions"] = {

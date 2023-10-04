@@ -1,17 +1,23 @@
 
 HonorSpyDB = {
 	["char"] = {
-		["Fiesh - Pagle"] = {
+		["Tygrrlilly - Skull Rock"] = {
+			["last_reset"] = 1696345200,
+		},
+		["Fishook - Skull Rock"] = {
+			["last_reset"] = 1695740400,
+		},
+		["Kkundercity - Skull Rock"] = {
 			["last_reset"] = 1695740400,
 		},
 		["Fishhook - Skull Rock"] = {
 			["last_reset"] = 1696345200,
 		},
-		["Kkundercity - Skull Rock"] = {
-			["last_reset"] = 1695740400,
-		},
 		["Kksummon - Skull Rock"] = {
 			["last_reset"] = 1695740400,
+		},
+		["Komrad - Skull Rock"] = {
+			["last_reset"] = 1696345200,
 		},
 		["Farmcraft - Skull Rock"] = {
 			["last_reset"] = 1695740400,
@@ -22,29 +28,31 @@ HonorSpyDB = {
 		["Øø - Skull Rock"] = {
 			["last_reset"] = 1695740400,
 		},
-		["Fishook - Skull Rock"] = {
+		["Fiesh - Pagle"] = {
 			["last_reset"] = 1695740400,
 		},
 	},
 	["profileKeys"] = {
-		["Fiesh - Pagle"] = "Default",
-		["Fishhook - Skull Rock"] = "Default",
+		["Tygrrlilly - Skull Rock"] = "Default",
+		["Fishook - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
+		["Fishhook - Skull Rock"] = "Default",
 		["Kksummon - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
 		["Øø - Skull Rock"] = "Default",
-		["Fishook - Skull Rock"] = "Default",
+		["Fiesh - Pagle"] = "Default",
 	},
 	["factionrealm"] = {
 		["Horde - Skull Rock"] = {
-			["isSom"] = true,
+			["actualCommPrefix"] = "HonorSpy7",
 			["som_Checked"] = true,
 			["last_reset"] = 1696345200,
 			["connectedRealms"] = {
 				["SkullRock"] = true,
 			},
-			["actualCommPrefix"] = "HonorSpy7",
+			["isSom"] = true,
 		},
 		["Horde - Pagle"] = {
 			["connectedRealms"] = {

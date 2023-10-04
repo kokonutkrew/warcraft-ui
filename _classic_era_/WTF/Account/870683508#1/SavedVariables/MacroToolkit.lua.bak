@@ -1,0 +1,10 @@
+
+MacroToolkitDB = {
+	["profileKeys"] = {
+		["Fishhook - Skull Rock"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

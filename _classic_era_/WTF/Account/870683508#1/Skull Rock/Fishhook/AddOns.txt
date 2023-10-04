@@ -4,3 +4,5 @@ Gnosis: disabled
 GreenWall: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+RXPGuides: enabled
+Mama: disabled

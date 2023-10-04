@@ -11,9 +11,9 @@ NITdatabase = {
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoanmystic - Grobbulus"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Goldenshots - Defias Pillager"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
@@ -21,7 +21,7 @@ NITdatabase = {
 		["Samoansavage - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
 		["Øø - Skull Rock"] = "Default",
 	},
@@ -144,28 +144,28 @@ NITdatabase = {
 		["Skull Rock"] = {
 			["trades"] = {
 			},
-			["weeklyResetTime"] = 1696950012,
+			["weeklyResetTime"] = 1696950011,
 			["myChars"] = {
 				["Samoanslayer"] = {
 					["fishingSkill"] = 1,
 					["cookingSkill"] = 1,
 					["profSkill1"] = 1,
-					["durabilityAverage"] = 86.01190476190477,
+					["durabilityAverage"] = 100,
 					["prof2"] = "Herbalism",
 					["savedInstances"] = {
 					},
 					["maxXP"] = 23200,
 					["gender"] = "Male",
 					["prof1"] = "Alchemy",
-					["restedXP"] = 8112,
+					["restedXP"] = 54,
 					["totalBagSlots"] = 42,
-					["freeBagSlots"] = 15,
+					["freeBagSlots"] = 16,
 					["guild"] = "KK",
 					["raceEnglish"] = "Orc",
 					["profSkillMax1"] = 75,
 					["resting"] = true,
-					["time"] = 1696358634,
-					["gold"] = 14060,
+					["time"] = 1696412725,
+					["gold"] = 13137,
 					["realm"] = "Skull Rock",
 					["guildRankName"] = "Member",
 					["classLocalized"] = "Warrior",
@@ -182,7 +182,7 @@ NITdatabase = {
 						[20559] = 0,
 						[20560] = 0,
 					},
-					["currentXP"] = 176,
+					["currentXP"] = 20906,
 					["cooldowns"] = {
 					},
 					["firstaidSkillMax"] = 75,
@@ -2359,11 +2359,11 @@ NITdatabase = {
 						[33] = 4,
 						[229] = 3,
 						[309] = 16,
-						[509] = 17,
+						[389] = 3,
 						[43] = 6,
 						[531] = 41,
-						[389] = 3,
 						[329] = 10,
+						[509] = 17,
 						[189] = 6,
 						[469] = 14,
 						[249] = 12,
@@ -5379,26 +5379,26 @@ NITdatabase = {
 							["class"] = "Rogue",
 							["classEnglish"] = "ROGUE",
 						},
-						["Supervillin"] = {
+						["Thuggernaut"] = {
 							["level"] = 60,
-							["class"] = "Priest",
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "All Cats Are Beautiful",
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
 						},
 						["Jhessa"] = {
 							["level"] = 60,
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Thuggernaut"] = {
-							["level"] = 60,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
-						},
 						["Bovolt"] = {
 							["level"] = 60,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
+						},
+						["Supervillin"] = {
+							["level"] = 60,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "All Cats Are Beautiful",
 						},
 						["Philoetius"] = {
 							["level"] = 60,
@@ -8992,6 +8992,11 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Final Boss",
 						},
+						["Cobybeef"] = {
+							["level"] = 60,
+							["classEnglish"] = "DRUID",
+							["class"] = "Druid",
+						},
 						["Terra"] = {
 							["level"] = 60,
 							["classEnglish"] = "MAGE",
@@ -9001,11 +9006,6 @@ NITdatabase = {
 							["level"] = 60,
 							["classEnglish"] = "DRUID",
 							["class"] = "Druid",
-						},
-						["Innersky"] = {
-							["level"] = 60,
-							["classEnglish"] = "MAGE",
-							["class"] = "Mage",
 						},
 						["Knifeboy"] = {
 							["level"] = 60,
@@ -9017,15 +9017,15 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["class"] = "Hunter",
 						},
-						["Cobybeef"] = {
-							["level"] = 60,
-							["classEnglish"] = "DRUID",
-							["class"] = "Druid",
-						},
 						["Esge"] = {
 							["level"] = 60,
 							["classEnglish"] = "HUNTER",
 							["class"] = "Hunter",
+						},
+						["Innersky"] = {
+							["level"] = 60,
+							["classEnglish"] = "MAGE",
+							["class"] = "Mage",
 						},
 					},
 					["class"] = "Warrior",
@@ -9212,21 +9212,20 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Sophx"] = {
+						["Thunderzz"] = {
 							["level"] = 60,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Final Boss",
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
 						},
 						["Hotsoda"] = {
 							["level"] = 60,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
 						},
-						["Thunderzz"] = {
+						["Otano"] = {
 							["level"] = 60,
-							["class"] = "Hunter",
-							["classEnglish"] = "HUNTER",
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
 						},
 						["Ezellohar"] = {
 							["level"] = 60,
@@ -9254,10 +9253,11 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Otano"] = {
+						["Sophx"] = {
 							["level"] = 60,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Final Boss",
 						},
 						["Kittenmeow"] = {
 							["level"] = 60,

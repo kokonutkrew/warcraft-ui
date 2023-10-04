@@ -1,7 +1,16 @@
 
 HHTD_SavedVariables = {
 	["char"] = {
+		["Tygrrlilly - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Bannhammer - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
 		["Fishook - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Kksummon - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Fishhook - Skull Rock"] = {
@@ -10,7 +19,7 @@ HHTD_SavedVariables = {
 		["Øø - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kksummon - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Farmcraft - Skull Rock"] = {
@@ -26,6 +35,23 @@ HHTD_SavedVariables = {
 			["settingsMigrated"] = false,
 		},
 	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
+		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
+		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
+	},
 	["namespaces"] = {
 		["Announcer"] = {
 		},
@@ -33,19 +59,5 @@ HHTD_SavedVariables = {
 		},
 		["NPH"] = {
 		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
-	["profileKeys"] = {
-		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
-		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
-		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
-		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 }

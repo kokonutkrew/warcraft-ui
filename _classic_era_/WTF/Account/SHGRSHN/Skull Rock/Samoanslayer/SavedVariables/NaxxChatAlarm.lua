@@ -8,8 +8,8 @@ ChatAlarm = {
 		0, -- [1]
 		1, -- [2]
 	},
-	["txtAutoChat"] = "",
-	["DDBoxTemplateSearch"] = 1,
+	["txtAutoChat"] = "DD search group for WC",
+	["DDBoxTemplateSearch"] = 2,
 	["chkBtnActive"] = true,
 	["chkBtnTrade"] = false,
 	["chkBtnPostGuild"] = false,
@@ -38,7 +38,7 @@ ChatAlarm = {
 			"lfm+rf", -- [2]
 			"ragefire", -- [3]
 			"rf", -- [4]
-			"RF", -- [5]
+			"RFC", -- [5]
 		}, -- [1]
 		{
 			"lfg+hdw", -- [1]

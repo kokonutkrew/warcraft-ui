@@ -1,7 +1,7 @@
 VER 3 0000000001000002 "01.RangedPull" "INV_MISC_QUESTIONMARK"
-#showtool
+#showtooltip
 /startattack
-/castsequence [form:3] reset=25/combat berserker rage, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow
+/castsequence [form:3] reset=25/combat berserker rage, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow
 /use berserker stance
 END
 VER 3 000000000100000C "02.LightDamage" "INV_MISC_QUESTIONMARK"

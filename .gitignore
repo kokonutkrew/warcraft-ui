@@ -12,13 +12,17 @@
 # ＫＯＫＯＮＵＴＫＲＥＷ
 ################################################################################
 
-!\#kokonutkrew/**
-\#kokonutkrew/bgnotifier/**
-\#kokonutkrew/overwolf/**
-\#kokonutkrew/raider.io/**
-\#kokonutkrew/tsm/**
-\#kokonutkrew/wowhead/**
-
+!\#kokonutkrew/*.txt
+!\#kokonutkrew/hotkeynet/AutoExec.xml
+!\#kokonutkrew/hotkeynet/hkn_settings.txt
+!\#kokonutkrew/overwolf/Overwolf.exe.config
+!\#kokonutkrew/tsm/*.txt
+!\#kokonutkrew/ui-ide/**
+!\#kokonutkrew/warcraft-logs/*.txt
+!\#kokonutkrew/weak-aura-backup/**
+!\#kokonutkrew/wowhead/*.txt
+!\#kokonutkrew/wow-open-box/*.bat
+!\#kokonutkrew/wow-open-box/*.tcl
 
 ################################################################################
 # Retail

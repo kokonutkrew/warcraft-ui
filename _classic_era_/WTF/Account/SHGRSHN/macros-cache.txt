@@ -1,6 +1,8 @@
 VER 3 0000000000000005 "/F1.TargetSelf" "135914"
 /focus
 /target player
+/click MamaFollow
+/click MamaAssist
 END
 VER 3 0000000000000001 "/F2.Follow" "135914"
 /follow party1

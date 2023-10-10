@@ -19,10 +19,10 @@ HHTD_SavedVariables = {
 		["Ss - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Skull Rock"] = {
+		["Samoanbank - Whitemane"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kkportal - Skull Rock"] = {
+		["Samoanranger - Defias Pillager"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansavage - Grobbulus"] = {
@@ -34,13 +34,10 @@ HHTD_SavedVariables = {
 		["Samoanraja - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Defias Pillager"] = {
+		["Kkportal - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Øø - Skull Rock"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoanmystic - Grobbulus"] = {
+		["Samoanbeast - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Kkbanker - Skull Rock"] = {
@@ -49,7 +46,10 @@ HHTD_SavedVariables = {
 		["Kkbank - Whitemane"] = {
 			["settingsMigrated"] = false,
 		},
-		["Goldenshots - Defias Pillager"] = {
+		["Samoanmystic - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanranger - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
 		["Bannhammer - Skull Rock"] = {
@@ -61,7 +61,7 @@ HHTD_SavedVariables = {
 		["Samoanslayer - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Grobbulus"] = {
+		["Goldenshots - Defias Pillager"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansage - Grobbulus"] = {
@@ -70,14 +70,22 @@ HHTD_SavedVariables = {
 		["Cupcakeheals - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbeast - Skull Rock"] = {
+		["Øø - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbank - Whitemane"] = {
+		["Samoanranger - Skull Rock"] = {
 			["settingsMigrated"] = false,
+		},
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -87,37 +95,29 @@ HHTD_SavedVariables = {
 		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanbeast - Grobbulus"] = "Samoanbeast - Grobbulus",
 		["Ss - Grobbulus"] = "Ss - Grobbulus",
-		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
-		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
+		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
+		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
 		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
 		["Dd - Grobbulus"] = "Dd - Grobbulus",
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
-		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
 		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
-		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
 		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
-		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
+		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
-		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
+		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
 	},
 	["global"] = {
 		["settingsMigrated"] = false,
 		["oldNameEnableState"] = 0,
-	},
-	["namespaces"] = {
-		["Announcer"] = {
-		},
-		["CM"] = {
-		},
-		["NPH"] = {
-		},
 	},
 }

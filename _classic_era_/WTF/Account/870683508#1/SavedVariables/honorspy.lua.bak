@@ -14,7 +14,7 @@ HonorSpyDB = {
 			["last_reset"] = 1695740400,
 		},
 		["Fishhook - Skull Rock"] = {
-			["last_reset"] = 1696345200,
+			["last_reset"] = 1696950000,
 		},
 		["Øø - Skull Rock"] = {
 			["last_reset"] = 1695740400,
@@ -52,7 +52,7 @@ HonorSpyDB = {
 		["Horde - Skull Rock"] = {
 			["isSom"] = true,
 			["som_Checked"] = true,
-			["last_reset"] = 1696345200,
+			["last_reset"] = 1696950000,
 			["connectedRealms"] = {
 				["SkullRock"] = true,
 			},

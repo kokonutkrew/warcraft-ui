@@ -1,5 +1,14 @@
 
 FarmingBarDB = {
+	["profileKeys"] = {
+		["Samoanranger - Skull Rock"] = "Default",
+		["Samoanslayer - Skull Rock"] = "Default",
+		["Kktailor - Whitemane"] = "Default",
+		["Kktailor - Skull Rock"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
+	},
 	["global"] = {
 		["backup"] = {
 			["char"] = {
@@ -35,10 +44,10 @@ FarmingBarDB = {
 							["buttonsPerRow"] = 13,
 							["objectives"] = {
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["title"] = "",
 									["itemID"] = 13510,
+									["type"] = "item",
+									["title"] = "",
+									["includeBank"] = false,
 								}, -- [1]
 								{
 									["type"] = "item",
@@ -46,16 +55,16 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [2]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 5634,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 5634,
+									["includeBank"] = false,
 								}, -- [3]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 13442,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 13442,
+									["includeBank"] = false,
 								}, -- [4]
 								{
 									["type"] = "item",
@@ -63,28 +72,28 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [5]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 12460,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 12460,
+									["includeBank"] = false,
 								}, -- [6]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 8410,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 8410,
+									["includeBank"] = false,
 								}, -- [7]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 12451,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 12451,
+									["includeBank"] = false,
 								}, -- [8]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 20079,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 20079,
+									["includeBank"] = false,
 								}, -- [9]
 								{
 									["type"] = "item",
@@ -108,22 +117,22 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [14]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 13458,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 13458,
+									["includeBank"] = false,
 								}, -- [15]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 6049,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 6049,
+									["includeBank"] = false,
 								}, -- [16]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 13457,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 13457,
+									["includeBank"] = false,
 								}, -- [17]
 								nil, -- [18]
 								{
@@ -132,10 +141,10 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [19]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 8412,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 8412,
+									["includeBank"] = false,
 								}, -- [20]
 								{
 									["type"] = "item",
@@ -143,10 +152,10 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [21]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 20080,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 20080,
+									["includeBank"] = false,
 								}, -- [22]
 								{
 									["type"] = "item",
@@ -154,10 +163,10 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [23]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 18269,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 18269,
+									["includeBank"] = false,
 								}, -- [24]
 								{
 									["type"] = "item",
@@ -184,10 +193,10 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [32]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 8411,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 8411,
+									["includeBank"] = false,
 								}, -- [33]
 								{
 									["type"] = "item",
@@ -195,10 +204,10 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [34]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 20081,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 20081,
+									["includeBank"] = false,
 								}, -- [35]
 								{
 									["type"] = "item",
@@ -206,16 +215,16 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [36]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 20709,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 20709,
+									["includeBank"] = false,
 								}, -- [37]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 21023,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 21023,
+									["includeBank"] = false,
 								}, -- [38]
 								nil, -- [39]
 								nil, -- [40]
@@ -252,10 +261,10 @@ FarmingBarDB = {
 									["includeBank"] = false,
 								}, -- [48]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 11952,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 11952,
+									["includeBank"] = false,
 								}, -- [49]
 								{
 									["type"] = "item",
@@ -277,22 +286,22 @@ FarmingBarDB = {
 								nil, -- [59]
 								nil, -- [60]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["title"] = "",
 									["itemID"] = 20516,
+									["type"] = "item",
+									["title"] = "",
+									["includeBank"] = false,
 								}, -- [61]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["itemID"] = 20390,
 									["title"] = "",
+									["type"] = "item",
+									["itemID"] = 20390,
+									["includeBank"] = false,
 								}, -- [62]
 								{
-									["type"] = "item",
-									["includeBank"] = false,
-									["title"] = "",
 									["itemID"] = 20388,
+									["type"] = "item",
+									["title"] = "",
+									["includeBank"] = false,
 								}, -- [63]
 								{
 									["type"] = "item",
@@ -323,10 +332,10 @@ FarmingBarDB = {
 							["enabled"] = true,
 							["objectives"] = {
 								[6] = {
-									["itemID"] = 1710,
-									["includeBank"] = false,
-									["title"] = "",
 									["type"] = "item",
+									["includeBank"] = false,
+									["itemID"] = 1710,
+									["title"] = "",
 								},
 							},
 						}, -- [1]
@@ -360,7 +369,7 @@ FarmingBarDB = {
 						}, -- [1]
 					},
 				},
-				["Samoanbeast - Skull Rock"] = {
+				["Samoanbank - Whitemane"] = {
 					["bars"] = {
 						{
 							["enabled"] = true,
@@ -388,7 +397,7 @@ FarmingBarDB = {
 						}, -- [1]
 					},
 				},
-				["Samoanranger - Grobbulus"] = {
+				["Øø - Skull Rock"] = {
 					["bars"] = {
 						{
 							["enabled"] = true,
@@ -409,7 +418,7 @@ FarmingBarDB = {
 						}, -- [1]
 					},
 				},
-				["Øø - Skull Rock"] = {
+				["Samoanranger - Grobbulus"] = {
 					["bars"] = {
 						{
 							["enabled"] = true,
@@ -423,7 +432,7 @@ FarmingBarDB = {
 						}, -- [1]
 					},
 				},
-				["Samoanbank - Whitemane"] = {
+				["Samoanbeast - Skull Rock"] = {
 					["bars"] = {
 						{
 							["enabled"] = true,
@@ -441,16 +450,16 @@ FarmingBarDB = {
 				["Samoanraja - Grobbulus"] = "Default",
 				["Samoanranger - Defias Pillager"] = "Default",
 				["Samoanmystic - Grobbulus"] = "Default",
-				["Samoanbeast - Skull Rock"] = "Default",
+				["Samoanbank - Whitemane"] = "Default",
 				["Bannhammer - Skull Rock"] = "Default",
 				["Kk - Grobbulus"] = "Default",
 				["Goldenshots - Defias Pillager"] = "Default",
-				["Samoanranger - Grobbulus"] = "Default",
+				["Øø - Skull Rock"] = "Default",
 				["Samoansage - Grobbulus"] = "Default",
 				["Cupcakeheals - Skull Rock"] = "Default",
-				["Øø - Skull Rock"] = "Default",
+				["Samoanranger - Grobbulus"] = "Default",
 				["Samoanrelic - Grobbulus"] = "Default",
-				["Samoanbank - Whitemane"] = "Default",
+				["Samoanbeast - Skull Rock"] = "Default",
 			},
 			["profiles"] = {
 				["Default"] = {
@@ -460,15 +469,6 @@ FarmingBarDB = {
 			},
 		},
 		["version"] = 7,
-	},
-	["profileKeys"] = {
-		["Samoanranger - Skull Rock"] = "Default",
-		["Samoanslayer - Skull Rock"] = "Default",
-		["Kktailor - Whitemane"] = "Default",
-		["Kktailor - Skull Rock"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
-		["Kkportal - Skull Rock"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

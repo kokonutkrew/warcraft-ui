@@ -19,10 +19,10 @@ HHTD_SavedVariables = {
 		["Ss - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbank - Whitemane"] = {
+		["Samoanranger - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Defias Pillager"] = {
+		["Kkportal - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansavage - Grobbulus"] = {
@@ -34,13 +34,10 @@ HHTD_SavedVariables = {
 		["Samoanraja - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kkportal - Skull Rock"] = {
+		["Samoanranger - Defias Pillager"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbeast - Skull Rock"] = {
-			["settingsMigrated"] = false,
-		},
-		["Kkbank - Whitemane"] = {
+		["Øø - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanmystic - Grobbulus"] = {
@@ -49,7 +46,10 @@ HHTD_SavedVariables = {
 		["Kkbanker - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Grobbulus"] = {
+		["Kkbank - Whitemane"] = {
+			["settingsMigrated"] = false,
+		},
+		["Goldenshots - Defias Pillager"] = {
 			["settingsMigrated"] = false,
 		},
 		["Bannhammer - Skull Rock"] = {
@@ -61,7 +61,7 @@ HHTD_SavedVariables = {
 		["Samoanslayer - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Goldenshots - Defias Pillager"] = {
+		["Samoanranger - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansage - Grobbulus"] = {
@@ -70,27 +70,15 @@ HHTD_SavedVariables = {
 		["Cupcakeheals - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Øø - Skull Rock"] = {
+		["Samoanbeast - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Skull Rock"] = {
+		["Samoanbank - Whitemane"] = {
 			["settingsMigrated"] = false,
 		},
-	},
-	["namespaces"] = {
-		["Announcer"] = {
-		},
-		["CM"] = {
-		},
-		["NPH"] = {
-		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Kktailor - Whitemane",
@@ -99,25 +87,37 @@ HHTD_SavedVariables = {
 		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanbeast - Grobbulus"] = "Samoanbeast - Grobbulus",
 		["Ss - Grobbulus"] = "Ss - Grobbulus",
-		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
-		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
+		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
 		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
 		["Dd - Grobbulus"] = "Dd - Grobbulus",
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
-		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
-		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
+		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
 		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
-		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
+		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
+		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
 		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
-		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
+		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
-		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
 	},
 }

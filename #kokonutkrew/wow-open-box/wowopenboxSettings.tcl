@@ -1,24 +1,24 @@
 array set settings {
 	1,posXY	{0 0}
-	1,size	{1280 700}
+	1,size	{1164 655}
 	1,stayOnTop	0
-	2,posXY	{1280 0}
-	2,size	{640 350}
+	2,posXY	{744 360}
+	2,size	{1164 655}
 	2,stayOnTop	0
-	3,posXY	{1280 350}
-	3,size	{640 350}
+	3,posXY	{480 840}
+	3,size	{480 210}
 	3,stayOnTop	0
-	4,posXY	{0 700}
-	4,size	{640 350}
+	4,posXY	{960 840}
+	4,size	{480 210}
 	4,stayOnTop	0
-	5,posXY	{640 700}
-	5,size	{640 350}
+	5,posXY	{1440 840}
+	5,size	{480 210}
 	5,stayOnTop	0
 	6,posXY	{1280 700}
 	6,size	{640 350}
 	6,stayOnTop	0
 	DEBUG	0
-	aspectRatio	Any
+	aspectRatio	16/9
 	autoCapture	1
 	autoKillName	WowVoiceProxy.exe
 	autoKillOn	1
@@ -66,15 +66,15 @@ array set settings {
 	hk9,swap	Ctrl-Shift-F9
 	ignoreMonitorIdx	2,3
 	lastUpdateChecked	1696958416
-	layoutAuto	1
+	layoutAuto	0
 	layoutMaxWindows	32
-	layoutOneRowCol	0
+	layoutOneRowCol	1
 	layoutOneSize	0
 	layoutScale	1/6
 	layoutSnap	4
 	layoutStacked	0
 	layoutTop	0
-	mainWindowGeometry	225x438+449+159
+	mainWindowGeometry	225x438+1973+217
 	mfIndicator,label	🐭
 	mouseDelay	0
 	mouseFocusOffAtExit	1
@@ -82,7 +82,7 @@ array set settings {
 	mouseInsideGameWindowFocuses	0
 	mouseOutsideWindowsPauses	1
 	mouseWatchInterval	50
-	numWindows	6
+	numWindows	2
 	overlayAllClickable	0
 	overlayAlpha	0.7
 	overlayAnchor	n
@@ -92,7 +92,7 @@ array set settings {
 	overlayFontSize2	48
 	overlayShowBorder	1
 	profile	{[KK]}
-	profiles	{Default {[KK]} {[KK]}}
+	profiles	{Default {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]} {[KK]}}
 	rrAlwaysFocus	1
 	rrCustomExcludeList	0
 	rrIndicator,label	⟳

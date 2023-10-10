@@ -14,23 +14,26 @@ ChatAlarm = {
 	["chkBtnTrade"] = false,
 	["chkBtnPostGuild"] = false,
 	["chkBtnGuild"] = false,
-	["chkBtnTooltip"] = true,
+	["Merge"] = {
+		"<ini> group search for <player>", -- [1]
+		"<player> search group for <ini>", -- [2]
+	},
 	["DDBoxDelay"] = 1,
 	["chkBtnLFG"] = true,
-	["chkBtnSearchLFG"] = false,
+	["chkBtnSearchTank"] = false,
 	["txtSeperate"] = "/",
 	["r"] = {
 		1, -- [1]
 		0, -- [2]
 	},
 	["chkBtnAntiSpam"] = true,
-	["chkBtnSearchDD"] = true,
+	["chkBtnPlayerColor"] = true,
+	["chkBtnSound"] = true,
+	["chkBtnGeneral"] = true,
 	["ver"] = 1.331,
 	["chkBtnSearchHeal"] = false,
 	["chkBtnSearchLFM"] = true,
-	["chkBtnGeneral"] = true,
-	["chkBtnSound"] = true,
-	["chkBtnPlayerColor"] = true,
+	["chkBtnSearchDD"] = true,
 	["chkBtnWithPlayer"] = false,
 	["TemplateWords"] = {
 		{
@@ -240,9 +243,6 @@ ChatAlarm = {
 			"", -- [6]
 		}, -- [29]
 	},
-	["chkBtnSearchTank"] = false,
-	["Merge"] = {
-		"<ini> group search for <player>", -- [1]
-		"<player> search group for <ini>", -- [2]
-	},
+	["chkBtnSearchLFG"] = false,
+	["chkBtnTooltip"] = true,
 }

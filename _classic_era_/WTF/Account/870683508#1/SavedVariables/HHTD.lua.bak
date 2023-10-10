@@ -35,10 +35,6 @@ HHTD_SavedVariables = {
 			["settingsMigrated"] = false,
 		},
 	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
 	["profileKeys"] = {
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
@@ -51,6 +47,10 @@ HHTD_SavedVariables = {
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
 		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Fiesh - Pagle"] = "Fiesh - Pagle",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 	["namespaces"] = {
 		["Announcer"] = {

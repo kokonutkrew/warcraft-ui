@@ -119,3 +119,6 @@ AI_VoiceOverData_Vanilla: disabled
 WhatsTraining: disabled
 WhereToGatherClassic: disabled
 +Wowhead_Looter: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+OPie_Classic: disabled

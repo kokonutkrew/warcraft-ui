@@ -369,15 +369,15 @@ KILLTRACK_CHAR = {
 			["Kills"] = 6,
 			["Name"] = "Theramore Preserver",
 		},
-		[5756] = {
-			["LastKillAt"] = 1696471487,
-			["Kills"] = 5,
-			["Name"] = "Deviate Venomwing",
-		},
 		[3126] = {
 			["LastKillAt"] = 1696598119,
 			["Kills"] = 8,
 			["Name"] = "Armored Scorpid",
+		},
+		[3396] = {
+			["LastKillAt"] = 1696837816,
+			["Kills"] = 1,
+			["Name"] = "Hezrul Bloodmark",
 		},
 		[3265] = {
 			["LastKillAt"] = 1696619866,
@@ -414,10 +414,10 @@ KILLTRACK_CHAR = {
 			["Kills"] = 18,
 			["Name"] = "Razormane Thornweaver",
 		},
-		[3396] = {
-			["LastKillAt"] = 1696837816,
-			["Kills"] = 1,
-			["Name"] = "Hezrul Bloodmark",
+		[5756] = {
+			["LastKillAt"] = 1696471487,
+			["Kills"] = 5,
+			["Name"] = "Deviate Venomwing",
 		},
 		[3269] = {
 			["LastKillAt"] = 1696619883,
@@ -429,10 +429,10 @@ KILLTRACK_CHAR = {
 			["Kills"] = 5,
 			["Name"] = "Kolkar Bloodcharger",
 		},
-		[3654] = {
-			["LastKillAt"] = 1696397889,
-			["Kills"] = 1,
-			["Name"] = "Mutanus the Devourer",
+		[5762] = {
+			["LastKillAt"] = 1696472403,
+			["Kills"] = 3,
+			["Name"] = "Deviate Moccasin",
 		},
 		[3653] = {
 			["LastKillAt"] = 1696470101,
@@ -444,18 +444,18 @@ KILLTRACK_CHAR = {
 			["Kills"] = 9,
 			["Name"] = "Razormane Mystic",
 		},
-		[5762] = {
-			["LastKillAt"] = 1696472403,
-			["Kills"] = 3,
-			["Name"] = "Deviate Moccasin",
+		[3654] = {
+			["LastKillAt"] = 1696397889,
+			["Kills"] = 1,
+			["Name"] = "Mutanus the Devourer",
 		},
 		[3272] = {
 			["LastKillAt"] = 1696837838,
 			["Kills"] = 39,
 			["Name"] = "Kolkar Wrangler",
 		},
-		[9456] = {
-			["Name"] = "Warlord Krom'zar",
+		[3655] = {
+			["Name"] = "Mad Magglish",
 			["Kills"] = 0,
 		},
 		[3273] = {
@@ -504,10 +504,9 @@ KILLTRACK_CHAR = {
 			["Name"] = "Deviate Faerie Dragon",
 			["Kills"] = 0,
 		},
-		[3278] = {
-			["LastKillAt"] = 1696837368,
-			["Kills"] = 39,
-			["Name"] = "Witchwing Slayer",
+		[5775] = {
+			["Name"] = "Verdan the Everliving",
+			["Kills"] = 0,
 		},
 		[11520] = {
 			["LastKillAt"] = 1696122553,
@@ -754,9 +753,10 @@ KILLTRACK_CHAR = {
 			["Kills"] = 29,
 			["Name"] = "Burning Blade Fanatic",
 		},
-		[5830] = {
-			["Name"] = "Sister Rathtalon",
-			["Kills"] = 0,
+		[12138] = {
+			["LastKillAt"] = 1696607492,
+			["Kills"] = 1,
+			["Name"] = "Lunaclaw",
 		},
 		[5831] = {
 			["Name"] = "Swiftmane",
@@ -766,10 +766,9 @@ KILLTRACK_CHAR = {
 			["Name"] = "Snort the Heckler",
 			["Kills"] = 0,
 		},
-		[12138] = {
-			["LastKillAt"] = 1696607492,
-			["Kills"] = 1,
-			["Name"] = "Lunaclaw",
+		[5830] = {
+			["Name"] = "Sister Rathtalon",
+			["Kills"] = 0,
 		},
 		[3051] = {
 			["LastKillAt"] = 1696006155,
@@ -807,20 +806,20 @@ KILLTRACK_CHAR = {
 			["Kills"] = 2,
 			["Name"] = "Deviate Slayer",
 		},
-		[3566] = {
-			["LastKillAt"] = 1696005548,
+		[6606] = {
+			["LastKillAt"] = 1696831422,
 			["Kills"] = 2,
-			["Name"] = "Flatland Prowler",
+			["Name"] = "Overseer Glibby",
 		},
 		[3183] = {
 			["LastKillAt"] = 1695873805,
 			["Kills"] = 1,
 			["Name"] = "Yarrog Baneshadow",
 		},
-		[6606] = {
-			["LastKillAt"] = 1696831422,
+		[3566] = {
+			["LastKillAt"] = 1696005548,
 			["Kills"] = 2,
-			["Name"] = "Overseer Glibby",
+			["Name"] = "Flatland Prowler",
 		},
 		[3438] = {
 			["LastKillAt"] = 1696619742,
@@ -1040,9 +1039,10 @@ KILLTRACK_CHAR = {
 			["Kills"] = 5,
 			["Name"] = "Palemane Poacher",
 		},
-		[5775] = {
-			["Name"] = "Verdan the Everliving",
-			["Kills"] = 0,
+		[3278] = {
+			["LastKillAt"] = 1696837368,
+			["Kills"] = 39,
+			["Name"] = "Witchwing Slayer",
 		},
 		[3207] = {
 			["LastKillAt"] = 1696593903,
@@ -1058,8 +1058,8 @@ KILLTRACK_CHAR = {
 			["Name"] = "Wandering Barrens Giraffe",
 			["Kills"] = 0,
 		},
-		[3655] = {
-			["Name"] = "Mad Magglish",
+		[9456] = {
+			["Name"] = "Warlord Krom'zar",
 			["Kills"] = 0,
 		},
 		[3261] = {

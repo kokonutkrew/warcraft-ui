@@ -11,23 +11,23 @@ SpyDB = {
 			["Horde"] = {
 				["Farmcraft"] = {
 				},
-				["Komrad"] = {
-				},
 				["Fishhook"] = {
 				},
-				["Bannhammer"] = {
+				["Komrad"] = {
+				},
+				["Kkundercity"] = {
 				},
 				["Kksummon"] = {
 				},
 				["Fiesh"] = {
 				},
-				["Tygrrlilly"] = {
+				["Øø"] = {
 				},
 				["Fishook"] = {
 				},
-				["Øø"] = {
+				["Tygrrlilly"] = {
 				},
-				["Kkundercity"] = {
+				["Bannhammer"] = {
 				},
 			},
 		},

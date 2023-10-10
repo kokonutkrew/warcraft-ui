@@ -1,38 +1,38 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.1.2",
-	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Default",
 		["Kktailor - Skull Rock"] = "Default",
-		["Samoanslayer - Grobbulus"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
-		["Samoanranger - Skull Rock"] = "Default",
+		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
 		["Samoanranger - Whitemane"] = "Default",
 		["Samoanslayed - Whitemane"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
 		["Øø - Skull Rock"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
-		["Kkportal - Skull Rock"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
 		["Goldenshots - Defias Pillager"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoanmystic - Grobbulus"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Samoansavage - Grobbulus"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.1.2",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -51,9 +51,9 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},
@@ -61,9 +61,9 @@ OmniCCDB = {
 				},
 				["Plater Nameplates Theme"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},

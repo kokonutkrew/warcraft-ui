@@ -1,54 +1,6 @@
 
 SpyDB = {
 	["kosData"] = {
-		["Grobbulus"] = {
-			["Horde"] = {
-				["Samoanslayer"] = {
-				},
-				["Samoanranger"] = {
-				},
-				["Samoanmystic"] = {
-				},
-				["Samoansavage"] = {
-				},
-				["Samoanbeast"] = {
-				},
-				["Samoanrelic"] = {
-				},
-				["Dd"] = {
-				},
-				["Samoansage"] = {
-				},
-				["Samoanraja"] = {
-				},
-				["Kk"] = {
-				},
-				["Ss"] = {
-				},
-				["Samoanlegend"] = {
-				},
-			},
-		},
-		["Whitemane"] = {
-			["Horde"] = {
-				["Kktailor"] = {
-				},
-				["Kkbank"] = {
-				},
-				["Samoanbank"] = {
-				},
-			},
-		},
-		["Defias Pillager"] = {
-			["Horde"] = {
-				["Samoanranger"] = {
-				},
-			},
-			["Alliance"] = {
-				["Goldenshots"] = {
-				},
-			},
-		},
 		["Skull Rock"] = {
 			["Horde"] = {
 				["Samoanslayer"] = {
@@ -65,19 +17,67 @@ SpyDB = {
 				},
 				["Cupcakeheals"] = {
 				},
+				["Bannhammer"] = {
+				},
 				["Kkportal"] = {
 				},
-				["Bannhammer"] = {
+			},
+		},
+		["Grobbulus"] = {
+			["Horde"] = {
+				["Samoanslayer"] = {
+				},
+				["Samoanranger"] = {
+				},
+				["Samoanmystic"] = {
+				},
+				["Samoansavage"] = {
+				},
+				["Samoanbeast"] = {
+				},
+				["Samoanrelic"] = {
+				},
+				["Samoansage"] = {
+				},
+				["Dd"] = {
+				},
+				["Samoanraja"] = {
+				},
+				["Kk"] = {
+				},
+				["Ss"] = {
+				},
+				["Samoanlegend"] = {
+				},
+			},
+		},
+		["Defias Pillager"] = {
+			["Horde"] = {
+				["Samoanranger"] = {
+				},
+			},
+			["Alliance"] = {
+				["Goldenshots"] = {
+				},
+			},
+		},
+		["Whitemane"] = {
+			["Horde"] = {
+				["Kktailor"] = {
+				},
+				["Kkbank"] = {
+				},
+				["Samoanbank"] = {
 				},
 			},
 		},
 	},
 	["removeKOSData"] = {
-		["Grobbulus"] = {
+		["Skull Rock"] = {
 			["Horde"] = {
 			},
 		},
-		["Whitemane"] = {
+		["Grobbulus"] = {
 			["Horde"] = {
 			},
 		},
@@ -87,7 +87,7 @@ SpyDB = {
 			["Alliance"] = {
 			},
 		},
-		["Skull Rock"] = {
+		["Whitemane"] = {
 			["Horde"] = {
 			},
 		},
@@ -99,38 +99,38 @@ SpyDB = {
 		["Samoanslayer - Grobbulus"] = "KokonutKrew",
 		["Samoanbeast - Grobbulus"] = "Samoanbeast - Grobbulus",
 		["Ss - Grobbulus"] = "Ss - Grobbulus",
-		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
 		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
-		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
 		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
-		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
 		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
-		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
 		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
-		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
+		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
-		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
+		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
 	},
 	["profiles"] = {
 		["KokonutKrew"] = {
 			["InvertSpy"] = true,
 			["MainWindow"] = {
+				["AlphaBG"] = 0.5,
+				["Alpha"] = 0.5,
 				["Position"] = {
 					["y"] = 120.296127319336,
 					["x"] = 1011.8642578125,
 					["w"] = 172.000061035156,
 					["h"] = 82.999984741211,
 				},
-				["Alpha"] = 0.5,
-				["AlphaBG"] = 0.5,
 			},
 			["BarTexture"] = "Blizzard",
 			["UseData"] = true,
@@ -217,19 +217,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Samoanranger - Skull Rock"] = {
-			["AppendUnitNameCheck"] = true,
-			["MainWindowVis"] = false,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["AppendUnitKoSCheck"] = true,
-		},
-		["Samoanranger - Grobbulus"] = {
+		["Kktailor - Whitemane"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -253,7 +241,9 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kkportal - Skull Rock"] = {
+		["Samoanranger - Grobbulus"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -261,8 +251,18 @@ SpyDB = {
 					},
 				},
 			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Goldenshots - Defias Pillager"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Samoanraja - Grobbulus"] = {
@@ -277,9 +277,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Samoanranger - Defias Pillager"] = {
-			["AppendUnitNameCheck"] = true,
-			["MainWindowVis"] = false,
+		["Kkportal - Skull Rock"] = {
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -287,6 +285,8 @@ SpyDB = {
 					},
 				},
 			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Samoansavage - Grobbulus"] = {
@@ -320,14 +320,14 @@ SpyDB = {
 		["Samoanslayer - Grobbulus"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindow"] = {
+				["AlphaBG"] = 0.3,
+				["Alpha"] = 0.3,
 				["Position"] = {
 					["y"] = 682.333374023438,
 					["x"] = 1153.037109375,
 					["w"] = 172.000061035156,
 					["h"] = 195.000015258789,
 				},
-				["Alpha"] = 0.3,
-				["AlphaBG"] = 0.3,
 			},
 			["Colors"] = {
 				["Alert"] = {
@@ -349,7 +349,7 @@ SpyDB = {
 			["UseData"] = true,
 			["ShareData"] = true,
 		},
-		["Kkbanker - Skull Rock"] = {
+		["Samoanmystic - Grobbulus"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -361,7 +361,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kkbank - Whitemane"] = {
+		["Kkbanker - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -421,7 +421,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Samoanmystic - Grobbulus"] = {
+		["Kkbank - Whitemane"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -457,7 +457,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Goldenshots - Defias Pillager"] = {
+		["Samoanranger - Defias Pillager"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -481,7 +481,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kktailor - Whitemane"] = {
+		["Samoanranger - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {

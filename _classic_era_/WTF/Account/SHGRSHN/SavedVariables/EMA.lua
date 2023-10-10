@@ -83,6 +83,7 @@ TeamProfileDB = {
 			},
 		},
 		["Default"] = {
+			["master"] = "Samoanslayer-SkullRock",
 			["newTeamList"] = {
 				["Samoanranger-SkullRock"] = {
 					{
@@ -109,7 +110,6 @@ TeamProfileDB = {
 					}, -- [1]
 				},
 			},
-			["master"] = "Samoanslayer-SkullRock",
 		},
 		["[KK]"] = {
 			["global"] = {
@@ -119,56 +119,16 @@ TeamProfileDB = {
 				["Fishhook-SkullRock"] = {
 					{
 						["order"] = 2,
-						["class"] = "SHAMAN",
+						["class"] = "UNKNOWN",
 						["name"] = "Fishhook-SkullRock",
 						["online"] = true,
 					}, -- [1]
 				},
 				["Kkportal-SkullRock"] = {
 					{
-						["order"] = 7,
+						["order"] = 1,
 						["class"] = "MAGE",
 						["name"] = "Kkportal-SkullRock",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Komrad-SkullRock"] = {
-					{
-						["order"] = 6,
-						["class"] = "HUNTER",
-						["name"] = "Komrad-SkullRock",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Samoanranger-SkullRock"] = {
-					{
-						["order"] = 5,
-						["class"] = "HUNTER",
-						["name"] = "Samoanranger-SkullRock",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Kkbanker-SkullRock"] = {
-					{
-						["order"] = 4,
-						["class"] = "WARRIOR",
-						["name"] = "Kkbanker-SkullRock",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Kktailor-SkullRock"] = {
-					{
-						["order"] = 1,
-						["class"] = "WARLOCK",
-						["name"] = "Kktailor-SkullRock",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Samoanslayer-SkullRock"] = {
-					{
-						["order"] = 3,
-						["class"] = "WARRIOR",
-						["name"] = "Samoanslayer-SkullRock",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -453,9 +413,10 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanranger - Skull Rock"] = {
+			["itemUseTitleHeight"] = 2,
+			["frameYOffset"] = 70.00000762939453,
 			["global"] = {
 			},
-			["frameYOffset"] = 70.00000762939453,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -538,9 +499,10 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Kkportal - Skull Rock"] = {
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -624,8 +586,6 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
 		},
 		["Default"] = {
 			["itemsAdvanced"] = {
@@ -849,10 +809,10 @@ QuestProfileDB = {
 		["[KK]"] = {
 			["global"] = {
 			},
-			["acceptFromTeam"] = true,
 			["onlyAcceptQuestsFrom"] = true,
-			["doNotAutoAccept"] = false,
 			["masterAutoShareQuestOnAccept"] = true,
+			["acceptFromTeam"] = true,
+			["doNotAutoAccept"] = false,
 		},
 	},
 }

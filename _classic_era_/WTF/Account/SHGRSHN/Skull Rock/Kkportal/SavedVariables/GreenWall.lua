@@ -9,12 +9,12 @@ GreenWall = {
 	["roster"] = true,
 	["logsize"] = 2048,
 	["version"] = "1.11.8+classic-era",
-	["ochat"] = false,
 	["redact"] = true,
+	["ochat"] = false,
 	["tag"] = true,
 }
 GreenWallMeta = {
-	["updated"] = "2023-09-04 13:59:03",
+	["updated"] = "2023-10-10 14:05:22",
 	["mode"] = "account",
 	["version"] = "1.11.8+classic-era",
 	["created"] = "2023-08-30 02:09:28",

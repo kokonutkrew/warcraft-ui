@@ -16,16 +16,16 @@ dynamicBoxerSaved = {
 	["manual"] = 0,
 	["showIdAtStart"] = true,
 	["disablePopUps"] = false,
+	["delayAccept"] = false,
+	["useUIScale"] = true,
+	["serializedMemberHistory"] = {
+	},
+	["configVersion"] = 1,
+	["addonVersion"] = "v3.11.05",
+	["maxParty"] = 5,
 	["statusPos"] = {
 		"BOTTOMLEFT", -- [1]
 		1036.64208984375, -- [2]
 		853.3333740234375, -- [3]
 	},
-	["useUIScale"] = true,
-	["addonVersion"] = "v3.11.05",
-	["configVersion"] = 1,
-	["serializedMemberHistory"] = {
-	},
-	["maxParty"] = 5,
-	["delayAccept"] = false,
 }

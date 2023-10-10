@@ -1,9 +1,8 @@
 
 AdiBagsDB = {
 	["char"] = {
-		["Samoanlegend - Grobbulus"] = {
+		["Samoansage - Grobbulus"] = {
 			["collapsedSections"] = {
-				["Bag #1#Bag #1"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
 				["Bag #3#Bag #3"] = true,
@@ -29,11 +28,12 @@ AdiBagsDB = {
 				["Bank bag #2#Bank bag #2"] = true,
 			},
 		},
-		["Samoansage - Grobbulus"] = {
+		["Samoanlegend - Grobbulus"] = {
 			["collapsedSections"] = {
+				["Bag #3#Bag #3"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
-				["Bag #3#Bag #3"] = true,
+				["Bag #1#Bag #1"] = true,
 			},
 		},
 	},
@@ -76,18 +76,18 @@ AdiBagsDB = {
 						[18641] = "Consumable#Consumable",
 						[6948] = "Equipment#Miscellaneous",
 						[9327] = "Quest#Quest",
-						[8391] = "Trade Goods#Trade Goods",
+						[12460] = "Consumable#Consumable",
 						[6218] = "Trade Goods#Parts",
 						[11754] = "Reagent#Reagent",
-						[5956] = "Trade Goods#Parts",
+						[13180] = "Consumable#Consumable",
 						[4398] = "Consumable#Consumable",
-						[8392] = "Trade Goods#Trade Goods",
+						[21324] = "Equipment#Miscellaneous",
 						[9173] = "Trade Goods#Parts",
 						[20560] = "Quest#Quest",
-						[21324] = "Equipment#Miscellaneous",
-						[13180] = "Consumable#Consumable",
+						[8392] = "Trade Goods#Trade Goods",
+						[5956] = "Trade Goods#Parts",
 						[12451] = "Consumable#Consumable",
-						[12460] = "Consumable#Consumable",
+						[8391] = "Trade Goods#Trade Goods",
 					},
 				},
 			},
@@ -110,16 +110,7 @@ AdiBagsDB = {
 		},
 		["ClassicItemLevel"] = {
 		},
-		["AdiBags_TooltipInfo"] = {
-		},
-		["ItemRackSets"] = {
-			["profiles"] = {
-				["KokonutKrew"] = {
-					["singleGroup"] = true,
-				},
-			},
-		},
-		["DataSource"] = {
+		["MoneyFrame"] = {
 		},
 		["Junk"] = {
 			["profiles"] = {
@@ -135,7 +126,16 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["MoneyFrame"] = {
+		["DataSource"] = {
+		},
+		["ItemRackSets"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["singleGroup"] = true,
+				},
+			},
+		},
+		["AdiBags_TooltipInfo"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -145,35 +145,35 @@ AdiBagsDB = {
 		["Samoanslayer - Grobbulus"] = "KokonutKrew",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoansavage - Grobbulus"] = "Default",
-		["Kkportal - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanmystic - Grobbulus"] = "KokonutKrew",
 		["Kkbank - Whitemane"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Samoanranger - Grobbulus"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoanranger - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanranger - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
+					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
-					["Name"] = "Bag Lag Fix",
 				},
 			},
 			["positions"] = {
@@ -190,13 +190,13 @@ AdiBagsDB = {
 					["xOffset"] = -100.739868164063,
 					["yOffset"] = 124.147300720215,
 				},
-				["Backpack"] = {
-					["xOffset"] = -86.5185333711124,
-					["yOffset"] = 150.222328898643,
-				},
 				["Bank"] = {
 					["xOffset"] = 355.619658619458,
 					["yOffset"] = -205.844301875099,
+				},
+				["Backpack"] = {
+					["xOffset"] = -86.5185333711124,
+					["yOffset"] = 150.222328898643,
 				},
 			},
 			["positionMode"] = "manual",

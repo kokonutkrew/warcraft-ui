@@ -4187,11 +4187,7 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["__TrashAt"] = 1695782567,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-					["SpellIds"] = {
-						350421, -- [1]
-						355787, -- [2]
-						348513, -- [3]
-					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -4329,7 +4325,11 @@ PlaterDB = {
 						}, -- [12]
 					},
 					["version"] = -1,
-					["Name"] = "Cast - Alert + Timer [P]",
+					["SpellIds"] = {
+						350421, -- [1]
+						355787, -- [2]
+						348513, -- [3]
+					},
 					["NpcNames"] = {
 					},
 				}, -- [1]
@@ -4388,13 +4388,13 @@ PlaterDB = {
 				["Auto Set Skull"] = 11,
 				["Spiteful Affix"] = 3,
 				["Add - Non Elite Trash [P]"] = 4,
-				["Countdown"] = 11,
-				["Fixate"] = 11,
 				["Cast - Stop Casting"] = 4,
+				["Fixate"] = 11,
+				["Cast - On Going Cast [P]"] = 2,
 				["Fixate by Unit Buff [P]"] = 2,
 				["Cast - Frontal Cone"] = 15,
 				["Add - Explode on Die [P]"] = 1,
-				["Cast - On Going Cast [P]"] = 2,
+				["Countdown"] = 11,
 				["Cast - Quick Flash"] = 2,
 				["Explosion Affix M+"] = 14,
 				["Unit - Show Energy"] = 11,
@@ -4404,14 +4404,14 @@ PlaterDB = {
 				["Dont Have Aura"] = 1,
 				["Players Targetting Amount"] = 4,
 				["Color Automation"] = 1,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 				["Cast Bar Icon Config"] = 2,
 				["Aura Reorder"] = 3,
-				["Extra Border"] = 2,
+				["Hide Neutral Units"] = 1,
 				["Attacking Specific Unit"] = 2,
 				["Target Color"] = 3,
 				["Execute Range"] = 1,
-				["Hide Neutral Units"] = 1,
+				["Combo Points"] = 6,
 			},
 			["aura2_x_offset"] = 0,
 			["saved_cvars"] = {
@@ -4423,7 +4423,7 @@ PlaterDB = {
 				["nameplateShowEnemies"] = "1",
 				["nameplateShowFriends"] = "0",
 			},
-			["login_counter"] = 124,
+			["login_counter"] = 126,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["global_health_width"] = 112,
@@ -5216,25 +5216,25 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 	["_general_logs"] = {
-		"2023-10-10 10:51:40 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [1]
-		"2023-10-09 23:50:01 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [2]
-		"2023-10-09 22:55:46 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [3]
-		"2023-10-09 21:41:12 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Bannhammer", -- [4]
-		"2023-10-08 22:33:05 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [5]
-		"2023-10-06 14:48:24 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [6]
-		"2023-10-06 13:05:27 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [7]
-		"2023-10-06 09:43:10 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [8]
-		"2023-10-06 05:36:38 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [9]
-		"2023-10-06 04:39:38 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [10]
-		"2023-10-06 04:35:01 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [11]
-		"2023-10-06 03:45:51 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [12]
-		"2023-10-06 03:41:51 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [13]
-		"2023-10-06 03:35:50 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [14]
-		"2023-10-05 09:58:00 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [15]
-		"2023-10-05 08:50:19 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [16]
-		"2023-10-04 18:48:47 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [17]
-		"2023-10-04 13:01:06 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [18]
-		"2023-10-04 10:29:45 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [19]
+		"2023-10-10 14:07:01 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [1]
+		"2023-10-10 14:03:54 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [2]
+		"2023-10-10 10:51:40 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [3]
+		"2023-10-09 23:50:01 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [4]
+		"2023-10-09 22:55:46 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [5]
+		"2023-10-09 21:41:12 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Bannhammer", -- [6]
+		"2023-10-08 22:33:05 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [7]
+		"2023-10-06 14:48:24 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [8]
+		"2023-10-06 13:05:27 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [9]
+		"2023-10-06 09:43:10 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [10]
+		"2023-10-06 05:36:38 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [11]
+		"2023-10-06 04:39:38 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [12]
+		"2023-10-06 04:35:01 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [13]
+		"2023-10-06 03:45:51 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [14]
+		"2023-10-06 03:41:51 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [15]
+		"2023-10-06 03:35:50 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Komrad", -- [16]
+		"2023-10-05 09:58:00 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [17]
+		"2023-10-05 08:50:19 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [18]
+		"2023-10-04 18:48:47 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Fishhook", -- [19]
 	},
 	["_error_logs"] = {
 	},

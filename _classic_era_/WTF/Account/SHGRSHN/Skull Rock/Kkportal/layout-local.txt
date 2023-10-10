@@ -41,13 +41,6 @@ X: 28
 Y: -13
 W: 784
 H: 260
-Frame: GRM_RosterChangeLogFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -11
-Y: -7
-W: 600
-H: 535
 Frame: GRM_SyncTrackerWindow
 FrameLevel: 1
 Anchor: CENTER

@@ -50,9 +50,9 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
+					["Percent"] = 1,
 				},
 			},
 		},

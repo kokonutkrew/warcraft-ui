@@ -43,10 +43,6 @@ HHTD_SavedVariables = {
 		["NPH"] = {
 		},
 	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
 	["profileKeys"] = {
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
 		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
@@ -59,5 +55,9 @@ HHTD_SavedVariables = {
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
 		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
 		["Fiesh - Pagle"] = "Fiesh - Pagle",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 }

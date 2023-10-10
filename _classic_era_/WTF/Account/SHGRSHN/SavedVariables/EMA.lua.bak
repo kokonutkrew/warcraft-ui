@@ -83,7 +83,6 @@ TeamProfileDB = {
 			},
 		},
 		["Default"] = {
-			["master"] = "Samoanslayer-SkullRock",
 			["newTeamList"] = {
 				["Samoanranger-SkullRock"] = {
 					{
@@ -110,6 +109,7 @@ TeamProfileDB = {
 					}, -- [1]
 				},
 			},
+			["master"] = "Samoanslayer-SkullRock",
 		},
 		["[KK]"] = {
 			["global"] = {
@@ -121,7 +121,7 @@ TeamProfileDB = {
 						["order"] = 2,
 						["class"] = "SHAMAN",
 						["name"] = "Fishhook-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Kkportal-SkullRock"] = {
@@ -137,7 +137,7 @@ TeamProfileDB = {
 						["order"] = 6,
 						["class"] = "HUNTER",
 						["name"] = "Komrad-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Samoanranger-SkullRock"] = {
@@ -145,7 +145,7 @@ TeamProfileDB = {
 						["order"] = 5,
 						["class"] = "HUNTER",
 						["name"] = "Samoanranger-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Kkbanker-SkullRock"] = {
@@ -153,7 +153,7 @@ TeamProfileDB = {
 						["order"] = 4,
 						["class"] = "WARRIOR",
 						["name"] = "Kkbanker-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Kktailor-SkullRock"] = {
@@ -161,7 +161,7 @@ TeamProfileDB = {
 						["order"] = 1,
 						["class"] = "WARLOCK",
 						["name"] = "Kktailor-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Samoanslayer-SkullRock"] = {
@@ -169,7 +169,7 @@ TeamProfileDB = {
 						["order"] = 3,
 						["class"] = "WARRIOR",
 						["name"] = "Samoanslayer-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 			},
@@ -453,97 +453,9 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanranger - Skull Rock"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
+			["global"] = {
 			},
 			["frameYOffset"] = 70.00000762939453,
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
-		},
-		["Kkportal - Skull Rock"] = {
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -625,6 +537,94 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Kkportal - Skull Rock"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
 			},
 		},
 		["Default"] = {
@@ -849,10 +849,10 @@ QuestProfileDB = {
 		["[KK]"] = {
 			["global"] = {
 			},
-			["onlyAcceptQuestsFrom"] = true,
-			["masterAutoShareQuestOnAccept"] = true,
 			["acceptFromTeam"] = true,
+			["onlyAcceptQuestsFrom"] = true,
 			["doNotAutoAccept"] = false,
+			["masterAutoShareQuestOnAccept"] = true,
 		},
 	},
 }

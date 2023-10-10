@@ -477,16 +477,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 3,
+							["nome"] = "Marloco",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Marloco",
 							["last_event"] = 1696918441,
-							["aID"] = "5099-01A85C0F",
-							["serial"] = "Player-5099-01A85C0F",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01A85C0F",
+							["aID"] = "5099-01A85C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -527,41 +527,41 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 9,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918441,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-000024EAD0",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 4370,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "Pet-0-5175-1-49-416-03009B3343",
 							["ownerName"] = "Marloco",
 							["nome"] = "Nokpit <Marloco>",
 							["last_event"] = 0,
-							["aID"] = "Pet-0-5175-1-49-416-03009B3343",
-							["serial"] = "Pet-0-5175-1-49-416-03009B3343",
 							["tipo"] = 4,
+							["serial"] = "Pet-0-5175-1-49-416-03009B3343",
+							["classe"] = "PET",
 						}, -- [5]
 					},
 				}, -- [4]
@@ -590,13 +590,13 @@ _detalhes_database = {
 				},
 				["combat_counter"] = 2218,
 				["totals"] = {
-					2367, -- [1]
+					2979, -- [1]
 					0, -- [2]
 					{
 						20, -- [1]
 						[0] = 28,
 						["alternatepower"] = 0,
-						[3] = 0,
+						[3] = 40,
 						[6] = 0,
 					}, -- [3]
 					{
@@ -635,13 +635,13 @@ _detalhes_database = {
 				},
 				["frags_need_refresh"] = true,
 				["amountCasts"] = {
+					["Nokpit"] = {
+						["Firebolt"] = 1,
+					},
 					["Fishhook"] = {
 						["Flame Shock"] = 1,
 					},
 					["Nokpit <Marloco>"] = {
-						["Firebolt"] = 1,
-					},
-					["Nokpit"] = {
 						["Firebolt"] = 1,
 					},
 					["Dustwind Storm Witch"] = {
@@ -1099,16 +1099,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 7,
+							["nome"] = "Marloco",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Marloco",
 							["last_event"] = 1696918423,
-							["aID"] = "5099-01A85C0F",
-							["serial"] = "Player-5099-01A85C0F",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01A85C0F",
+							["aID"] = "5099-01A85C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -1150,29 +1150,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918423,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-0000A4EB63",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -1660,16 +1660,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 2,
+							["nome"] = "Marloco",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Marloco",
 							["last_event"] = 1696918406,
-							["aID"] = "5099-01A85C0F",
-							["serial"] = "Player-5099-01A85C0F",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01A85C0F",
+							["aID"] = "5099-01A85C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -1711,16 +1711,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918406,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -2195,16 +2195,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918388,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -2677,16 +2677,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918383,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -3240,16 +3240,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 5,
+							["nome"] = "Marloco",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Marloco",
 							["last_event"] = 1696918378,
-							["aID"] = "5099-01A85C0F",
-							["serial"] = "Player-5099-01A85C0F",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01A85C0F",
+							["aID"] = "5099-01A85C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -3302,29 +3302,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 8,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918377,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-000024EB63",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -3900,16 +3900,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 9,
+							["nome"] = "Marloco",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Marloco",
 							["last_event"] = 1696918358,
-							["aID"] = "5099-01A85C0F",
-							["serial"] = "Player-5099-01A85C0F",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01A85C0F",
+							["aID"] = "5099-01A85C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -3950,29 +3950,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918358,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-000024C690",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -4412,29 +4412,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918331,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-000024EA97",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -4894,29 +4894,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918326,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-000024EB4B",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -5371,29 +5371,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918318,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-000024EAF9",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -6167,16 +6167,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 7,
+							["nome"] = "Kkportal",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Kkportal",
 							["last_event"] = 1696918310,
-							["aID"] = "5099-019D7287",
-							["serial"] = "Player-5099-019D7287",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-019D7287",
+							["aID"] = "5099-019D7287",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -6250,16 +6250,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 41,
+							["nome"] = "Marloco",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Marloco",
 							["last_event"] = 1696918310,
-							["aID"] = "5099-01A85C0F",
-							["serial"] = "Player-5099-01A85C0F",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01A85C0F",
+							["aID"] = "5099-01A85C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 1047,
@@ -6313,41 +6313,41 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 30,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918310,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3118",
 							["monster"] = true,
 							["nome"] = "Dustwind Storm Witch",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3118-0000A4E9E5",
-							["aID"] = "3118",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024EB1F",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024EB1F",
+							["classe"] = "PET",
 						}, -- [5]
 					},
 				}, -- [4]
@@ -6813,16 +6813,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918263,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -7205,16 +7205,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918248,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -7627,16 +7627,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918149,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8217,16 +8217,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918127,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8741,28 +8741,28 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 10,
+							["nome"] = "Fishhook",
 							["debuff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918091,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024EA60",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024EA60",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -9187,16 +9187,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918047,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -9591,16 +9591,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918032,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -10026,16 +10026,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918019,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -10790,16 +10790,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 5,
+							["nome"] = "Kkportal",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Kkportal",
 							["last_event"] = 1696918009,
-							["aID"] = "5099-019D7287",
-							["serial"] = "Player-5099-019D7287",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-019D7287",
+							["aID"] = "5099-019D7287",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -10853,41 +10853,41 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 5,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696918009,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3198",
 							["monster"] = true,
 							["nome"] = "Burning Blade Apprentice",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3198-0000A4E8CF",
-							["aID"] = "3198",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024EA07",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024EA07",
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -11551,41 +11551,41 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 12,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917985,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3204",
 							["monster"] = true,
 							["nome"] = "Gazz'uz",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3204-000024E93D",
-							["aID"] = "3204",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024E9F4",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024E9F4",
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -12262,29 +12262,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917964,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3198",
 							["monster"] = true,
 							["nome"] = "Burning Blade Apprentice",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3198-000124E9D6",
-							["aID"] = "3198",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -12792,16 +12792,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 6,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917945,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -13385,41 +13385,41 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 12,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917937,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024E9C3",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024E9C3",
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3198",
 							["monster"] = true,
 							["nome"] = "Burning Blade Apprentice",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3198-0000A4E933",
-							["aID"] = "3198",
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -13800,16 +13800,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 2,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917918,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -14336,16 +14336,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917911,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -14761,16 +14761,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917874,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -15132,10 +15132,10 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1696917860,
+							["tipo"] = 4,
 							["aID"] = "5099-01B2A1BB",
 							["serial"] = "Player-5099-01B2A1BB",
-							["tipo"] = 4,
+							["last_event"] = 1696917860,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -15575,16 +15575,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917844,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -16153,41 +16153,41 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917823,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3198",
 							["monster"] = true,
 							["nome"] = "Burning Blade Apprentice",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3198-000124E933",
-							["aID"] = "3198",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024E958",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024E958",
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -16656,22 +16656,22 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1696917804,
+							["tipo"] = 4,
 							["aID"] = "5099-01B2A1BB",
 							["serial"] = "Player-5099-01B2A1BB",
-							["tipo"] = 4,
+							["last_event"] = 1696917804,
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024E946",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024E946",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -17217,29 +17217,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917779,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3204",
 							["monster"] = true,
 							["nome"] = "Gazz'uz",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3204-000024E620",
-							["aID"] = "3204",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -17882,29 +17882,29 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917729,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "3198",
 							["monster"] = true,
 							["nome"] = "Burning Blade Apprentice",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-5175-1-49-3198-000024E8AB",
-							["aID"] = "3198",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -18371,16 +18371,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917709,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -19034,28 +19034,28 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917656,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "3902",
 							["ownerName"] = "Fishhook",
 							["nome"] = "Searing Totem II <Fishhook>",
 							["last_event"] = 0,
-							["aID"] = "3902",
-							["serial"] = "Creature-0-5175-1-49-3902-000024E8AF",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-5175-1-49-3902-000024E8AF",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -19611,16 +19611,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 4,
+							["nome"] = "Kkportal",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Kkportal",
 							["last_event"] = 1696917642,
-							["aID"] = "5099-019D7287",
-							["serial"] = "Player-5099-019D7287",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-019D7287",
+							["aID"] = "5099-019D7287",
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -19673,16 +19673,16 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
+							["nome"] = "Fishhook",
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
-							["nome"] = "Fishhook",
 							["last_event"] = 1696917642,
-							["aID"] = "5099-01B2A1BB",
-							["serial"] = "Player-5099-01B2A1BB",
 							["tipo"] = 4,
+							["serial"] = "Player-5099-01B2A1BB",
+							["aID"] = "5099-01B2A1BB",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -20392,8 +20392,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1696841495,
 							["tipo"] = 4,
+							["last_event"] = 1696841495,
 							["serial"] = "Player-5099-01B2A1BB",
 							["aID"] = "5099-01B2A1BB",
 						}, -- [1]
@@ -20401,14 +20401,14 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["aID"] = "4008",
+							["classe"] = "UNKNOW",
 							["monster"] = true,
 							["nome"] = "Cliff Stormer",
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["tipo"] = 4,
 							["serial"] = "Creature-0-5176-1-72-4008-000023AAB8",
-							["classe"] = "UNKNOW",
+							["aID"] = "4008",
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
@@ -21550,8 +21550,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1696841429,
 							["tipo"] = 4,
+							["last_event"] = 1696841429,
 							["serial"] = "Player-5099-01B2A1BB",
 							["aID"] = "5099-01B2A1BB",
 						}, -- [1]
@@ -22026,8 +22026,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1696841402,
 							["tipo"] = 4,
+							["last_event"] = 1696841402,
 							["serial"] = "Player-5099-01B2A1BB",
 							["aID"] = "5099-01B2A1BB",
 						}, -- [1]
@@ -22187,10 +22187,10 @@ _detalhes_database = {
 			["defensive-personal"] = false,
 		},
 		["width"] = 120,
-		["cooldowns"] = {
-		},
 		["height"] = 18,
 		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
@@ -22241,10 +22241,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -361.0988464355469,
-					["x"] = -606.283935546875,
-					["w"] = 304.46923828125,
-					["h"] = 118.4938430786133,
+					["y"] = -318.4321823120117,
+					["x"] = -530.1715240478516,
+					["w"] = 304.4692077636719,
+					["h"] = 118.4938278198242,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -22313,47 +22313,21 @@ _detalhes_database = {
 		["evoker_show_realtimedps"] = false,
 		["inverse_deathlog_mplus"] = false,
 	},
-	["data_harvested_for_charts"] = {
-	},
+	["ignore_nicktag"] = false,
 	["mythic_plus_log"] = {
 	},
-	["on_death_menu"] = false,
+	["combat_counter"] = 2218,
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["nick_tag_cache"] = {
-		["last_version"] = 15,
-		["nextreset"] = 1697154542,
-		["Realistexile"] = {
-			"Realistexile", -- [1]
-			"", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"", -- [4]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			1, -- [7]
-		},
+	["data_harvested_for_charts"] = {
 	},
+	["on_death_menu"] = false,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["ignore_nicktag"] = false,
 	["last_realversion"] = 155,
 	["last_instance_time"] = 1696468625,
 	["combat_id"] = 2195,
@@ -22361,7 +22335,7 @@ _detalhes_database = {
 	},
 	["last_day"] = "10",
 	["character_data"] = {
-		["logons"] = 64,
+		["logons"] = 66,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -22427,9 +22401,9 @@ _detalhes_database = {
 									["Kresh"] = 135,
 								},
 								["n_total"] = 3019,
-								["g_dmg"] = 165,
+								["MISS"] = 3,
 								["n_min"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 165,
 								["counter"] = 82,
 								["DODGE"] = 2,
 								["total"] = 4143,
@@ -22447,7 +22421,7 @@ _detalhes_database = {
 								["c_total"] = 959,
 								["n_amt"] = 62,
 								["r_amt"] = 0,
-								["MISS"] = 3,
+								["a_amt"] = 0,
 							}, -- [1]
 							[0] = {
 								["c_amt"] = 0,
@@ -22580,9 +22554,9 @@ _detalhes_database = {
 									["Deviate Crocolisk"] = 0,
 								},
 								["n_total"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 3,
 								["n_min"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 6,
 								["DODGE"] = 2,
 								["total"] = 0,
@@ -22600,7 +22574,7 @@ _detalhes_database = {
 								["c_total"] = 0,
 								["n_amt"] = 0,
 								["r_amt"] = 0,
-								["MISS"] = 3,
+								["a_amt"] = 0,
 							},
 							["Rend"] = {
 								["c_amt"] = 0,
@@ -22653,16 +22627,16 @@ _detalhes_database = {
 					["totalabsorbed"] = 225.154523,
 					["pets"] = {
 					},
-					["aID"] = "3637",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 10826.154523,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 10826.154523,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-5175-43-6721-3637-00021A03E3",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["damage_from"] = {
 						["Rodeoboy"] = true,
 						["Searing Totem <Kylablast>"] = true,
@@ -22674,9 +22648,9 @@ _detalhes_database = {
 						["Fire Nova Totem <Rajabuli>"] = true,
 						["Gihunter"] = true,
 						["Dernand"] = true,
-						["Fire Nova Totem <Yomamaa>"] = true,
+						["Yomamaa"] = true,
 						["Searing Totem II <Rodeoboy>"] = true,
-						["Lazgup <Dernand>"] = true,
+						["Fire Nova Totem <Yomamaa>"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Joexd"] = true,
 						["Kongarth <Joexd>"] = true,
@@ -22693,7 +22667,7 @@ _detalhes_database = {
 						["Fishhook"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Yomamaa"] = true,
+						["Lazgup <Dernand>"] = true,
 					},
 					["targets"] = {
 						["Rodeoboy"] = 460,
@@ -22719,7 +22693,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1696203767,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["aID"] = "3637",
 					["nome"] = "Deviate Guardian",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22749,7 +22723,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 419,
 								["MISS"] = 19,
-								["total"] = 10826,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["c_amt"] = 17,
 								["id"] = 1,
@@ -22763,7 +22737,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1021,
 								["n_amt"] = 342,
-								["r_amt"] = 0,
+								["total"] = 10826,
 								["b_dmg"] = 235,
 							}, -- [1]
 						},
@@ -22993,12 +22967,13 @@ _detalhes_database = {
 						"Earthbind Totem <Fishhook>", -- [4]
 						"Fire Nova Totem II <Fishhook>", -- [5]
 					},
-					["aID"] = "5099-01B2A1BB",
+					["classe"] = "SHAMAN",
 					["total_without_pet"] = 429826.5378219999,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 459970.537822,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01B2A1BB",
 					["damage_from"] = {
@@ -23065,14 +23040,14 @@ _detalhes_database = {
 						["Kolkar Stormseer"] = true,
 						["Deviate Adder"] = true,
 						["Skum"] = true,
-						["Hecklefang Hyena"] = true,
+						["Deviate Dreadfang"] = true,
 						["Gazz'uz"] = true,
 						["Witchwing Roguefeather"] = true,
 						["Cannoneer Whessan"] = true,
 						["Fleeting Plainstrider"] = true,
 						["Grimtotem Ruffian"] = true,
 						["Witchwing Windcaller"] = true,
-						["Bristleback Geomancer"] = true,
+						["Zhevra Charger"] = true,
 						["Kolkar Wrangler"] = true,
 						["Southsea Cannoneer"] = true,
 						["Grimtotem Brute"] = true,
@@ -23108,10 +23083,10 @@ _detalhes_database = {
 						["Venomtail Scorpid"] = true,
 						["Hezrul Bloodmark"] = true,
 						["Bloodtalon Scythemaw"] = true,
-						["Supervisor Lugwizzle"] = true,
+						["Swiftmane"] = true,
 						["Baron Longshore"] = true,
 						["Witchwing Harpy"] = true,
-						["Pygmy Surf Crawler"] = true,
+						["Hecklefang Hyena"] = true,
 						["Razormane Defender"] = true,
 						["Bristleback Water Seeker"] = true,
 						["Bloodtalon Taillasher"] = true,
@@ -23119,19 +23094,19 @@ _detalhes_database = {
 						["Venture Co. Peon"] = true,
 						["Burning Blade Apprentice"] = true,
 						["Kresh"] = true,
-						["Zhevra Charger"] = true,
-						["Razormane Thornweaver"] = true,
-						["Lady Anacondra"] = true,
 						["Tinkerer Sniggles"] = true,
-						["Deviate Dreadfang"] = true,
-						["Deviate Slayer"] = true,
 						["Kolkar Invader"] = true,
-						["Durotar Tiger"] = true,
+						["Lady Anacondra"] = true,
+						["Pygmy Surf Crawler"] = true,
+						["Deviate Slayer"] = true,
+						["Bristleback Geomancer"] = true,
 						["Lost Barrens Kodo"] = true,
+						["Durotar Tiger"] = true,
+						["Razormane Thornweaver"] = true,
 						["Deviate Lasher"] = true,
 						["Deviate Coiler"] = true,
+						["Supervisor Lugwizzle"] = true,
 						["Zalazane"] = true,
-						["Swiftmane"] = true,
 						["Venture Co. Overseer"] = true,
 						["Venture Co. Enforcer"] = true,
 						["Sunscale Screecher"] = true,
@@ -23158,7 +23133,7 @@ _detalhes_database = {
 						["Voodoo Troll"] = 2105,
 						["Deviate Crocolisk"] = 2660,
 						["Verog the Dervish"] = 396,
-						["Deviate Faerie Dragon"] = 146,
+						["Cannoneer Smythe"] = 507,
 						["Deviate Stalker"] = 1028,
 						["Deviate Ravager"] = 11593,
 						["Captain Fairmount"] = 558,
@@ -23174,7 +23149,7 @@ _detalhes_database = {
 						["Kreenig Snarlsnout"] = 321,
 						["Savannah Prowler"] = 6951,
 						["Hexed Troll"] = 1424,
-						["Armored Scorpid"] = 1291,
+						["Dustwind Harpy"] = 412,
 						["Kolkar Bloodcharger"] = 1168,
 						["Warlord Kolkanis"] = 182,
 						["Sunscale Lashtail"] = 704,
@@ -23211,7 +23186,7 @@ _detalhes_database = {
 						["Fleeting Plainstrider"] = 1143,
 						["Grimtotem Ruffian"] = 3099,
 						["Witchwing Windcaller"] = 2982,
-						["Zhevra Charger"] = 262,
+						["Bristleback Geomancer"] = 4814,
 						["Kolkar Wrangler"] = 7709,
 						["Southsea Cannoneer"] = 3634,
 						["Grimtotem Brute"] = 248,
@@ -23225,29 +23200,29 @@ _detalhes_database = {
 						["Dreadmaw Crocolisk"] = 1429,
 						["Greater Plainstrider"] = 5407,
 						["Voidwalker Minion <Burning Blade Apprentice>"] = 365,
-						["Baron Longshore"] = 364,
+						["Thunderhead"] = 528,
 						["Burning Blade Fanatic"] = 4468,
-						["Serena Bloodfeather"] = 672,
+						["Deviate Faerie Dragon"] = 146,
 						["Dustwind Savage"] = 4823,
 						["Deviate Guardian"] = 13891,
 						["Zalazane"] = 580,
 						["Venture Co. Overseer"] = 3666,
 						["Pygmy Surf Crawler"] = 654,
 						["Lakota'mani"] = 434,
-						["Sunscale Scytheclaw"] = 6705,
+						["Serena Bloodfeather"] = 672,
 						["Deviate Stinglash"] = 643,
 						["Thunder Lizard"] = 181,
 						["Mad Magglish"] = 298,
 						["Oasis Snapjaw"] = 10496,
 						["Hezrul Bloodmark"] = 497,
-						["Kolkar Invader"] = 587,
-						["Verdan the Everliving"] = 1435,
 						["Lost Barrens Kodo"] = 545,
+						["Verdan the Everliving"] = 1435,
+						["Deviate Slayer"] = 570,
 						["Razormane Thornweaver"] = 2613,
 						["Thunderhawk Hatchling"] = 190,
 						["Echeyakee"] = 328,
 						["Dustwind Pillager"] = 1038,
-						["Cannoneer Smythe"] = 507,
+						["Elder Mottled Boar"] = 1624,
 						["Corrupted Scorpid"] = 223,
 						["Ornery Plainstrider"] = 4055,
 						["Evolving Ectoplasm"] = 11465,
@@ -23266,27 +23241,27 @@ _detalhes_database = {
 						["Bloodtalon Taillasher"] = 1750,
 						["Venture Co. Peon"] = 4886,
 						["Warlord Krom'zar"] = 405,
-						["Theramore Preserver"] = 3100,
+						["Shadethicket Stone Mover"] = 99,
 						["Savannah Cub"] = 74,
 						["Burning Blade Apprentice"] = 4069,
 						["Lady Anacondra"] = 1626,
 						["Kresh"] = 1361,
-						["Voidwalker Minion <Gazz'uz>"] = 278,
-						["Bristleback Geomancer"] = 4814,
-						["Elder Mottled Boar"] = 1624,
+						["Sunscale Scytheclaw"] = 6705,
+						["Kolkar Invader"] = 587,
+						["Armored Scorpid"] = 1291,
 						["Durotar Tiger"] = 2388,
-						["Hecklefang Hyena"] = 10184,
+						["Hecklefang Snarler"] = 1947,
 						["Deviate Lasher"] = 3675,
 						["Deviate Coiler"] = 2102,
-						["Deviate Slayer"] = 570,
+						["Baron Longshore"] = 364,
+						["Zhevra Charger"] = 262,
 						["Swiftmane"] = 988,
-						["Thunderhead"] = 528,
 						["Venture Co. Enforcer"] = 6067,
-						["Shadethicket Stone Mover"] = 99,
-						["Dustwind Harpy"] = 412,
+						["Voidwalker Minion <Gazz'uz>"] = 278,
+						["Theramore Preserver"] = 3100,
 						["Fizzle Darkstorm"] = 585,
 						["Witchwing Slayer"] = 6125,
-						["Hecklefang Snarler"] = 1947,
+						["Hecklefang Hyena"] = 10184,
 						["Razormane Dustrunner"] = 1165,
 					},
 					["friendlyfire_total"] = 0,
@@ -23298,9 +23273,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 5.537821999999999,
 					["end_time"] = 1696203767,
-					["friendlyfire"] = {
-					},
-					["classe"] = "SHAMAN",
+					["on_hold"] = false,
+					["aID"] = "5099-01B2A1BB",
 					["nome"] = "Fishhook",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -23325,7 +23299,7 @@ _detalhes_database = {
 									["Voodoo Troll"] = 1698,
 									["Kresh"] = 437,
 									["Verog the Dervish"] = 267,
-									["Cannoneer Smythe"] = 243,
+									["Deviate Faerie Dragon"] = 86,
 									["Deviate Stalker"] = 576,
 									["Deviate Ravager"] = 5291,
 									["Lost Barrens Kodo"] = 469,
@@ -23377,7 +23351,7 @@ _detalhes_database = {
 									["Burning Blade Apprentice"] = 2791,
 									["Grimtotem Ruffian"] = 1959,
 									["Witchwing Windcaller"] = 1840,
-									["Bristleback Geomancer"] = 3327,
+									["Zhevra Charger"] = 190,
 									["Kolkar Wrangler"] = 4423,
 									["Southsea Cannoneer"] = 1578,
 									["Grimtotem Brute"] = 173,
@@ -23396,13 +23370,13 @@ _detalhes_database = {
 									["Greater Plainstrider"] = 3311,
 									["Voidwalker Minion <Burning Blade Apprentice>"] = 267,
 									["Lakota'mani"] = 259,
-									["Surf Crawler"] = 1130,
-									["Hecklefang Snarler"] = 1153,
+									["Venomtail Scorpid"] = 4344,
+									["Lord Pythas"] = 745,
 									["Thunder Lizard"] = 78,
 									["Mad Magglish"] = 180,
 									["Pygmy Surf Crawler"] = 431,
 									["Serena Bloodfeather"] = 322,
-									["Razormane Mystic"] = 448,
+									["Baron Longshore"] = 134,
 									["Verdan the Everliving"] = 549,
 									["Captain Fairmount"] = 259,
 									["Dustwind Harpy"] = 225,
@@ -23410,8 +23384,8 @@ _detalhes_database = {
 									["Echeyakee"] = 201,
 									["Dustwind Pillager"] = 740,
 									["Makrura Clacker"] = 401,
-									["Supervisor Lugwizzle"] = 158,
-									["Savannah Matriarch"] = 264,
+									["Deviate Stinglash"] = 385,
+									["Kolkar Drudge"] = 1277,
 									["Evolving Ectoplasm"] = 5908,
 									["Mutanus the Devourer"] = 979,
 									["Bloodtalon Scythemaw"] = 1705,
@@ -23420,32 +23394,32 @@ _detalhes_database = {
 									["Witchwing Harpy"] = 3229,
 									["Razormane Defender"] = 2275,
 									["Bloodtalon Taillasher"] = 1309,
-									["Kolkar Drudge"] = 1277,
 									["Fleeting Plainstrider"] = 733,
 									["Deviate Crocolisk"] = 1121,
-									["Bristleback Water Seeker"] = 1884,
 									["Oasis Snapjaw"] = 6775,
-									["Zhevra Charger"] = 190,
+									["Bristleback Water Seeker"] = 1884,
+									["Kolkar Invader"] = 226,
+									["Bristleback Geomancer"] = 3327,
 									["Venture Co. Peon"] = 2749,
 									["Warlord Krom'zar"] = 306,
-									["Barak Kodobane"] = 70,
 									["Zalazane"] = 387,
 									["Devouring Ectoplasm"] = 302,
-									["Lady Anacondra"] = 955,
-									["Deviate Faerie Dragon"] = 86,
-									["Kolkar Invader"] = 226,
-									["Voidwalker Minion <Gazz'uz>"] = 265,
-									["Thunderhead"] = 328,
-									["Durotar Tiger"] = 2008,
 									["Deviate Slayer"] = 119,
+									["Lady Anacondra"] = 955,
+									["Hecklefang Snarler"] = 1153,
+									["Cannoneer Smythe"] = 243,
+									["Barak Kodobane"] = 70,
+									["Surf Crawler"] = 1130,
+									["Durotar Tiger"] = 2008,
+									["Savannah Matriarch"] = 264,
 									["Deviate Lasher"] = 941,
 									["Deviate Coiler"] = 1306,
-									["Baron Longshore"] = 134,
-									["Deviate Stinglash"] = 385,
-									["Hezrul Bloodmark"] = 270,
+									["Voidwalker Minion <Gazz'uz>"] = 265,
+									["Thunderhead"] = 328,
+									["Supervisor Lugwizzle"] = 158,
 									["Venture Co. Enforcer"] = 3447,
-									["Lord Pythas"] = 745,
-									["Venomtail Scorpid"] = 4344,
+									["Hezrul Bloodmark"] = 270,
+									["Razormane Mystic"] = 448,
 									["Fizzle Darkstorm"] = 454,
 									["Witchwing Slayer"] = 3837,
 									["Theramore Preserver"] = 2258,
@@ -23637,15 +23611,15 @@ _detalhes_database = {
 									["Deviate Ravager"] = 151,
 									["Deviate Dreadfang"] = 96,
 									["Deviate Lasher"] = 40,
-									["Nightmare Ectoplasm"] = 55,
+									["Mutanus the Devourer"] = 60,
 									["Druid of the Fang"] = 265,
 									["Deviate Venomwing"] = 20,
 									["Evolving Ectoplasm"] = 40,
-									["Kresh"] = 5,
+									["Nightmare Ectoplasm"] = 55,
 									["Deviate Moccasin"] = 43,
 									["Deviate Crocolisk"] = 47,
 									["Deviate Python"] = 35,
-									["Mutanus the Devourer"] = 60,
+									["Kresh"] = 5,
 								},
 								["n_total"] = 1309,
 								["n_min"] = 0,
@@ -23697,7 +23671,7 @@ _detalhes_database = {
 									["Lost Barrens Kodo"] = 39,
 									["Southsea Brigand"] = 435,
 									["Makrura Shellhide"] = 63,
-									["Razormane Thornweaver"] = 303,
+									["Razormane Water Seeker"] = 390,
 									["Swiftmane"] = 102,
 									["Deviate Moccasin"] = 282,
 									["Kolkar Stormer"] = 879,
@@ -23758,18 +23732,18 @@ _detalhes_database = {
 									["Burning Blade Fanatic"] = 917,
 									["Dustwind Savage"] = 789,
 									["Pygmy Surf Crawler"] = 26,
-									["Elder Mottled Boar"] = 355,
+									["Zalazane"] = 165,
 									["Lakota'mani"] = 38,
 									["Greater Plainstrider"] = 741,
 									["Grimtotem Mercenary"] = 447,
 									["Thunder Lizard"] = 54,
 									["Mad Magglish"] = 50,
-									["Shadethicket Stone Mover"] = 99,
-									["Hecklefang Snarler"] = 332,
+									["Devouring Ectoplasm"] = 50,
+									["Sunscale Screecher"] = 573,
 									["Cannoneer Smythe"] = 75,
 									["Verdan the Everliving"] = 271,
 									["Captain Fairmount"] = 99,
-									["Devouring Ectoplasm"] = 50,
+									["Baron Longshore"] = 63,
 									["Thunderhawk Hatchling"] = 77,
 									["Echeyakee"] = 26,
 									["Dustwind Pillager"] = 126,
@@ -23779,40 +23753,40 @@ _detalhes_database = {
 									["Evolving Ectoplasm"] = 2113,
 									["Mutanus the Devourer"] = 340,
 									["Razormane Mystic"] = 72,
-									["Razormane Battleguard"] = 315,
+									["Serena Bloodfeather"] = 99,
 									["Bloodtalon Scythemaw"] = 478,
-									["Razormane Water Seeker"] = 390,
+									["Razormane Thornweaver"] = 303,
 									["Venture Co. Overseer"] = 459,
-									["Sunscale Scytheclaw"] = 747,
+									["Shadethicket Stone Mover"] = 99,
 									["Hecklefang Hyena"] = 1383,
 									["Witchwing Harpy"] = 768,
-									["Theramore Preserver"] = 441,
+									["Elder Mottled Boar"] = 355,
 									["Bristleback Water Seeker"] = 422,
 									["Razormane Defender"] = 633,
 									["Fleeting Plainstrider"] = 231,
 									["Venture Co. Peon"] = 960,
 									["Warlord Krom'zar"] = 99,
 									["Deviate Crocolisk"] = 1005,
-									["Venomtail Scorpid"] = 1435,
+									["Sunscale Scytheclaw"] = 747,
 									["Razormane Wolf"] = 143,
 									["Lady Anacondra"] = 411,
 									["Bristleback Geomancer"] = 765,
+									["Theramore Preserver"] = 441,
 									["Deviate Guardian"] = 2911,
 									["Deviate Slayer"] = 252,
-									["Zalazane"] = 165,
 									["Durotar Tiger"] = 291,
-									["Barak Kodobane"] = 51,
+									["Venomtail Scorpid"] = 1435,
 									["Deviate Lasher"] = 257,
 									["Deviate Coiler"] = 227,
-									["Baron Longshore"] = 63,
-									["Sunscale Screecher"] = 573,
+									["Barak Kodobane"] = 51,
+									["Razormane Battleguard"] = 315,
 									["Deviate Stinglash"] = 63,
 									["Venture Co. Enforcer"] = 819,
 									["Dustwind Harpy"] = 63,
 									["Kolkar Drudge"] = 660,
 									["Fizzle Darkstorm"] = 75,
 									["Witchwing Slayer"] = 865,
-									["Serena Bloodfeather"] = 99,
+									["Hecklefang Snarler"] = 332,
 									["Razormane Dustrunner"] = 228,
 								},
 								["n_total"] = 75279,
@@ -23881,14 +23855,14 @@ _detalhes_database = {
 									["Makrura Clacker"] = 70,
 									["Razormane Mystic"] = 105,
 									["Kolkar Stormseer"] = 35,
-									["Serena Bloodfeather"] = 35,
+									["Deviate Adder"] = 830,
 									["Skum"] = 0,
 									["Overseer Glibby"] = 35,
 									["Burning Blade Bruiser"] = 139,
 									["Savannah Patriarch"] = 37,
 									["Witchwing Harpy"] = 700,
 									["Witchwing Roguefeather"] = 802,
-									["Razormane Defender"] = 455,
+									["Clattering Scorpid"] = 36,
 									["Theramore Marine"] = 1583,
 									["Bloodtalon Taillasher"] = 111,
 									["Voodoo Troll"] = 104,
@@ -23908,7 +23882,7 @@ _detalhes_database = {
 									["Venture Co. Enforcer"] = 455,
 									["Deviate Ravager"] = 642,
 									["Venture Co. Mercenary"] = 559,
-									["Lost Barrens Kodo"] = 37,
+									["Captain Fairmount"] = 105,
 									["Razormane Scout"] = 35,
 									["Cannoneer Whessan"] = 70,
 									["Kolkar Invader"] = 70,
@@ -23924,8 +23898,8 @@ _detalhes_database = {
 									["Pygmy Surf Crawler"] = 184,
 									["Dreadmaw Crocolisk"] = 145,
 									["Sunscale Scytheclaw"] = 1030,
-									["Fleeting Plainstrider"] = 74,
-									["Deviate Adder"] = 830,
+									["Razormane Defender"] = 455,
+									["Serena Bloodfeather"] = 35,
 									["Kolkar Stormer"] = 209,
 									["Savannah Huntress"] = 441,
 									["Dustwind Savage"] = 420,
@@ -23943,11 +23917,11 @@ _detalhes_database = {
 									["Dustwind Harpy"] = 70,
 									["Verdan the Everliving"] = 35,
 									["Armored Scorpid"] = 148,
-									["Burning Blade Fanatic"] = 420,
+									["Deviate Crocolisk"] = 200,
 									["Kolkar Bloodcharger"] = 140,
 									["Warlord Kolkanis"] = 35,
 									["Dustwind Pillager"] = 105,
-									["Deviate Crocolisk"] = 200,
+									["Evolving Ectoplasm"] = 510,
 									["Theramore Preserver"] = 173,
 									["Sunscale Lashtail"] = 110,
 									["Kolkar Drudge"] = 175,
@@ -23965,28 +23939,28 @@ _detalhes_database = {
 									["Bristleback Hunter"] = 1748,
 									["Ornery Plainstrider"] = 552,
 									["Venture Co. Peon"] = 348,
+									["Burning Blade Fanatic"] = 420,
 									["Lunaclaw"] = 35,
-									["Evolving Ectoplasm"] = 510,
 									["Razormane Geomancer"] = 280,
 									["Deviate Viper"] = 261,
 									["Lady Anacondra"] = 69,
 									["Elder Mottled Boar"] = 257,
 									["Zhevra Runner"] = 367,
 									["Ishamuhale"] = 106,
-									["Clattering Scorpid"] = 36,
+									["Fleeting Plainstrider"] = 74,
 									["Durotar Tiger"] = 74,
 									["Razormane Quilboar"] = 105,
 									["Deviate Python"] = 70,
 									["Deviate Coiler"] = 252,
-									["Captain Fairmount"] = 105,
-									["Lord Pythas"] = 67,
 									["Verog the Dervish"] = 35,
-									["Deviate Venomwing"] = 255,
-									["Grimtotem Brute"] = 35,
-									["Hecklefang Snarler"] = 332,
 									["Razormane Battleguard"] = 70,
+									["Grimtotem Brute"] = 35,
+									["Deviate Venomwing"] = 255,
 									["Sunscale Screecher"] = 696,
 									["Deviate Moccasin"] = 111,
+									["Hecklefang Snarler"] = 332,
+									["Lord Pythas"] = 67,
+									["Lost Barrens Kodo"] = 37,
 									["Razormane Dustrunner"] = 70,
 								},
 								["n_total"] = 37700,
@@ -24035,7 +24009,7 @@ _detalhes_database = {
 									["Grimtotem Mercenary"] = 70,
 									["Savannah Cub"] = 74,
 									["Burning Blade Apprentice"] = 68,
-									["Deviate Crocolisk"] = 252,
+									["Kresh"] = 218,
 									["Witchwing Windcaller"] = 275,
 									["Kolkar Wrangler"] = 140,
 									["Southsea Cannoneer"] = 274,
@@ -24060,7 +24034,7 @@ _detalhes_database = {
 									["Ornery Plainstrider"] = 355,
 									["Mutanus the Devourer"] = 383,
 									["Lord Cobrahn"] = 135,
-									["Oasis Snapjaw"] = 798,
+									["Evolving Ectoplasm"] = 1042,
 									["Stormsnout"] = 557,
 									["Cannoneer Smythe"] = 69,
 									["Witchwing Slayer"] = 274,
@@ -24085,14 +24059,14 @@ _detalhes_database = {
 									["Deviate Lasher"] = 173,
 									["Deviate Coiler"] = 146,
 									["Savannah Huntress"] = 73,
-									["Evolving Ectoplasm"] = 1042,
+									["Swiftmane"] = 71,
 									["Devouring Ectoplasm"] = 138,
 									["Deviate Venomwing"] = 731,
 									["Voodoo Troll"] = 67,
-									["Kresh"] = 218,
-									["Swiftmane"] = 71,
-									["Lord Pythas"] = 67,
 									["Grimtotem Ruffian"] = 106,
+									["Oasis Snapjaw"] = 798,
+									["Lord Pythas"] = 67,
+									["Deviate Crocolisk"] = 252,
 									["Greater Plainstrider"] = 142,
 								},
 								["n_total"] = 27145,
@@ -24991,16 +24965,16 @@ _detalhes_database = {
 					["totalabsorbed"] = 24.237129,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3640",
 					["total_without_pet"] = 10793.237129,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 10793.237129,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5175-43-6721-3640-00039A03E2",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3640-00039A03E2",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Rodeoboy"] = true,
 						["Searing Totem <Kylablast>"] = true,
@@ -25067,7 +25041,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1696203788,
 					["boss_fight_component"] = true,
-					["aID"] = "3640",
+					["classe"] = "UNKNOW",
 					["nome"] = "Evolving Ectoplasm",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -25102,9 +25076,9 @@ _detalhes_database = {
 									["Joexd"] = 80,
 								},
 								["n_total"] = 9988,
-								["g_dmg"] = 0,
+								["a_amt"] = 1,
 								["n_min"] = 0,
-								["MISS"] = 13,
+								["g_dmg"] = 0,
 								["counter"] = 452,
 								["DODGE"] = 24,
 								["total"] = 10793,
@@ -25122,7 +25096,7 @@ _detalhes_database = {
 								["c_total"] = 805,
 								["n_amt"] = 384,
 								["r_amt"] = 0,
-								["a_amt"] = 1,
+								["MISS"] = 13,
 							}, -- [1]
 						},
 						["tipo"] = 2,
@@ -25151,12 +25125,12 @@ _detalhes_database = {
 					["friendlyfire"] = {
 					},
 					["damage_from"] = {
-						["Kolkar Outrunner"] = true,
+						["Bristleback Hunter"] = true,
 						["Kolkar Stormer"] = true,
 						["Bloodtalon Scythemaw"] = true,
 						["Kolkar Wrangler"] = true,
 						["Deviate Guardian"] = true,
-						["Theramore Preserver"] = true,
+						["Kolkar Outrunner"] = true,
 						["Cannoneer Smythe"] = true,
 						["Southsea Cannoneer"] = true,
 						["Captain Fairmount"] = true,
@@ -25179,7 +25153,7 @@ _detalhes_database = {
 						["Kolkar Drudge"] = true,
 						["Nightmare Ectoplasm"] = true,
 						["Deviate Dreadfang"] = true,
-						["Bristleback Hunter"] = true,
+						["Theramore Preserver"] = true,
 						["Dustwind Storm Witch"] = true,
 						["Venomtail Scorpid"] = true,
 					},
@@ -25188,7 +25162,7 @@ _detalhes_database = {
 						["Deviate Shambler"] = 1392,
 						["Deviate Creeper"] = 385,
 						["Bristleback Thornweaver"] = 292,
-						["Hezrul Bloodmark"] = 105,
+						["Bloodtalon Scythemaw"] = 189,
 						["Burning Blade Acolyte"] = 55,
 						["Razormane Hunter"] = 78,
 						["Deviate Lurker"] = 47,
@@ -25204,18 +25178,18 @@ _detalhes_database = {
 						["Razormane Defender"] = 46,
 						["Theramore Marine"] = 1375,
 						["Grimtotem Mercenary"] = 207,
-						["Sunscale Screecher"] = 85,
+						["Hecklefang Snarler"] = 130,
 						["Voodoo Troll"] = 59,
 						["Burning Blade Apprentice"] = 120,
 						["Grimtotem Ruffian"] = 166,
-						["Lord Pythas"] = 53,
-						["Hecklefang Snarler"] = 130,
-						["Witchwing Windcaller"] = 189,
+						["Witchwing Slayer"] = 461,
 						["Kresh"] = 84,
-						["Zhevra Charger"] = 35,
+						["Witchwing Windcaller"] = 189,
 						["Voidwalker Minion <Burning Blade Apprentice>"] = 28,
-						["Venture Co. Enforcer"] = 279,
+						["Zhevra Charger"] = 35,
 						["Serena Bloodfeather"] = 71,
+						["Venture Co. Enforcer"] = 279,
+						["Southsea Cannoneer"] = 187,
 						["Kolkar Wrangler"] = 270,
 						["Verog the Dervish"] = 34,
 						["Deviate Slayer"] = 75,
@@ -25233,24 +25207,24 @@ _detalhes_database = {
 						["Witchwing Harpy"] = 298,
 						["Sunscale Scytheclaw"] = 316,
 						["Cannoneer Whessan"] = 46,
-						["Kolkar Stormer"] = 288,
+						["Skum"] = 160,
 						["Southsea Brigand"] = 161,
 						["Razormane Wolf"] = 44,
 						["Druid of the Fang"] = 2811,
-						["Cliff Stormer"] = 33,
+						["Venomtail Scorpid"] = 227,
 						["Razormane Thornweaver"] = 196,
 						["Savannah Matriarch"] = 78,
 						["Oasis Snapjaw"] = 102,
-						["Venomtail Scorpid"] = 227,
+						["Thunderhead"] = 78,
 						["Dreadmaw Crocolisk"] = 17,
+						["Hezrul Bloodmark"] = 105,
+						["Cliff Stormer"] = 33,
+						["Deviate Guardian"] = 1463,
+						["Kolkar Stormer"] = 288,
+						["Elder Mottled Boar"] = 26,
+						["Dustwind Savage"] = 115,
 						["Pygmy Surf Crawler"] = 13,
 						["Zalazane"] = 28,
-						["Thunderhead"] = 78,
-						["Burning Blade Fanatic"] = 147,
-						["Deviate Guardian"] = 1463,
-						["Dustwind Savage"] = 115,
-						["Lunaclaw"] = 17,
-						["Kolkar Outrunner"] = 172,
 						["Kreenig Snarlsnout"] = 37,
 						["Savannah Prowler"] = 180,
 						["Lakota'mani"] = 29,
@@ -25263,14 +25237,14 @@ _detalhes_database = {
 						["Razormane Mystic"] = 27,
 						["Verdan the Everliving"] = 188,
 						["Armored Scorpid"] = 16,
-						["Evolving Ectoplasm"] = 809,
+						["Ornery Plainstrider"] = 195,
 						["Thunderhawk Hatchling"] = 28,
 						["Echeyakee"] = 27,
 						["Dustwind Pillager"] = 16,
-						["Kolkar Drudge"] = 149,
+						["Evolving Ectoplasm"] = 809,
 						["Corrupted Scorpid"] = 66,
 						["Sunscale Lashtail"] = 19,
-						["Ornery Plainstrider"] = 195,
+						["Kolkar Drudge"] = 149,
 						["Nightmare Ectoplasm"] = 79,
 						["Surf Crawler"] = 30,
 						["Lord Cobrahn"] = 104,
@@ -25286,26 +25260,26 @@ _detalhes_database = {
 						["Voidwalker Minion"] = 183,
 						["Venture Co. Peon"] = 609,
 						["Venture Co. Drudger"] = 545,
-						["Elder Mottled Boar"] = 26,
-						["Bloodtalon Scythemaw"] = 189,
+						["Kolkar Outrunner"] = 172,
+						["Lunaclaw"] = 17,
 						["Deviate Viper"] = 559,
 						["Makrura Clacker"] = 28,
 						["Savannah Huntress"] = 61,
-						["Voidwalker Minion <Gazz'uz>"] = 13,
+						["Burning Blade Fanatic"] = 147,
 						["Ishamuhale"] = 101,
 						["Devouring Ectoplasm"] = 48,
 						["Durotar Tiger"] = 15,
 						["Razormane Quilboar"] = 32,
 						["Deviate Python"] = 47,
 						["Deviate Coiler"] = 171,
+						["Lord Pythas"] = 53,
 						["Deviate Crocolisk"] = 35,
 						["Deviate Moccasin"] = 173,
-						["Skum"] = 160,
 						["Deviate Venomwing"] = 876,
 						["Bristleback Geomancer"] = 234,
-						["Southsea Cannoneer"] = 187,
+						["Voidwalker Minion <Gazz'uz>"] = 13,
 						["Fizzle Darkstorm"] = 56,
-						["Witchwing Slayer"] = 461,
+						["Sunscale Screecher"] = 85,
 						["Lightning Hide"] = 43,
 						["Razormane Dustrunner"] = 16,
 					},
@@ -25332,7 +25306,7 @@ _detalhes_database = {
 									["Deviate Shambler"] = 1392,
 									["Deviate Creeper"] = 385,
 									["Bristleback Thornweaver"] = 292,
-									["Hezrul Bloodmark"] = 105,
+									["Bloodtalon Scythemaw"] = 189,
 									["Burning Blade Acolyte"] = 55,
 									["Razormane Hunter"] = 78,
 									["Deviate Lurker"] = 47,
@@ -25348,18 +25322,18 @@ _detalhes_database = {
 									["Razormane Defender"] = 46,
 									["Theramore Marine"] = 1375,
 									["Grimtotem Mercenary"] = 207,
-									["Sunscale Screecher"] = 85,
+									["Hecklefang Snarler"] = 130,
 									["Voodoo Troll"] = 59,
 									["Burning Blade Apprentice"] = 120,
 									["Grimtotem Ruffian"] = 166,
-									["Lord Pythas"] = 53,
-									["Hecklefang Snarler"] = 130,
-									["Witchwing Windcaller"] = 189,
+									["Witchwing Slayer"] = 461,
 									["Kresh"] = 84,
-									["Zhevra Charger"] = 35,
+									["Witchwing Windcaller"] = 189,
 									["Voidwalker Minion <Burning Blade Apprentice>"] = 28,
-									["Venture Co. Enforcer"] = 279,
+									["Zhevra Charger"] = 35,
 									["Serena Bloodfeather"] = 71,
+									["Venture Co. Enforcer"] = 279,
+									["Southsea Cannoneer"] = 187,
 									["Kolkar Wrangler"] = 270,
 									["Verog the Dervish"] = 34,
 									["Deviate Slayer"] = 75,
@@ -25377,24 +25351,24 @@ _detalhes_database = {
 									["Witchwing Harpy"] = 298,
 									["Sunscale Scytheclaw"] = 316,
 									["Cannoneer Whessan"] = 46,
-									["Kolkar Stormer"] = 288,
+									["Skum"] = 160,
 									["Southsea Brigand"] = 161,
 									["Razormane Wolf"] = 44,
 									["Druid of the Fang"] = 2811,
-									["Cliff Stormer"] = 33,
+									["Venomtail Scorpid"] = 227,
 									["Razormane Thornweaver"] = 196,
 									["Savannah Matriarch"] = 78,
 									["Oasis Snapjaw"] = 102,
-									["Venomtail Scorpid"] = 227,
+									["Thunderhead"] = 78,
 									["Dreadmaw Crocolisk"] = 17,
+									["Hezrul Bloodmark"] = 105,
+									["Cliff Stormer"] = 33,
+									["Deviate Guardian"] = 1463,
+									["Kolkar Stormer"] = 288,
+									["Elder Mottled Boar"] = 26,
+									["Dustwind Savage"] = 115,
 									["Pygmy Surf Crawler"] = 13,
 									["Zalazane"] = 28,
-									["Thunderhead"] = 78,
-									["Burning Blade Fanatic"] = 147,
-									["Deviate Guardian"] = 1463,
-									["Dustwind Savage"] = 115,
-									["Lunaclaw"] = 17,
-									["Kolkar Outrunner"] = 172,
 									["Kreenig Snarlsnout"] = 37,
 									["Savannah Prowler"] = 180,
 									["Lakota'mani"] = 29,
@@ -25407,14 +25381,14 @@ _detalhes_database = {
 									["Razormane Mystic"] = 27,
 									["Verdan the Everliving"] = 188,
 									["Armored Scorpid"] = 16,
-									["Evolving Ectoplasm"] = 809,
+									["Ornery Plainstrider"] = 195,
 									["Thunderhawk Hatchling"] = 28,
 									["Echeyakee"] = 27,
 									["Dustwind Pillager"] = 16,
-									["Kolkar Drudge"] = 149,
+									["Evolving Ectoplasm"] = 809,
 									["Corrupted Scorpid"] = 66,
 									["Sunscale Lashtail"] = 19,
-									["Ornery Plainstrider"] = 195,
+									["Kolkar Drudge"] = 149,
 									["Nightmare Ectoplasm"] = 79,
 									["Surf Crawler"] = 30,
 									["Lord Cobrahn"] = 104,
@@ -25430,26 +25404,26 @@ _detalhes_database = {
 									["Voidwalker Minion"] = 183,
 									["Venture Co. Peon"] = 609,
 									["Venture Co. Drudger"] = 545,
-									["Elder Mottled Boar"] = 26,
-									["Bloodtalon Scythemaw"] = 189,
+									["Kolkar Outrunner"] = 172,
+									["Lunaclaw"] = 17,
 									["Deviate Viper"] = 559,
 									["Makrura Clacker"] = 28,
 									["Savannah Huntress"] = 61,
-									["Voidwalker Minion <Gazz'uz>"] = 13,
+									["Burning Blade Fanatic"] = 147,
 									["Ishamuhale"] = 101,
 									["Devouring Ectoplasm"] = 48,
 									["Durotar Tiger"] = 15,
 									["Razormane Quilboar"] = 32,
 									["Deviate Python"] = 47,
 									["Deviate Coiler"] = 171,
+									["Lord Pythas"] = 53,
 									["Deviate Crocolisk"] = 35,
 									["Deviate Moccasin"] = 173,
-									["Skum"] = 160,
 									["Deviate Venomwing"] = 876,
 									["Bristleback Geomancer"] = 234,
-									["Southsea Cannoneer"] = 187,
+									["Voidwalker Minion <Gazz'uz>"] = 13,
 									["Fizzle Darkstorm"] = 56,
-									["Witchwing Slayer"] = 461,
+									["Sunscale Screecher"] = 85,
 									["Lightning Hide"] = 43,
 									["Razormane Dustrunner"] = 16,
 								},
@@ -25492,28 +25466,28 @@ _detalhes_database = {
 					["totalabsorbed"] = 288.13642,
 					["pets"] = {
 					},
-					["aID"] = "3636",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 9960.136419999999,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 9960.136419999999,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5175-43-6721-3636-00009A03E3",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-6721-3636-00009A03E3",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Rodeoboy"] = true,
 						["Searing Totem <Kylablast>"] = true,
 						["Kaevee"] = true,
 						["Searing Totem II <Fishhook>"] = true,
-						["Fire Nova Totem <Rajabuli>"] = true,
+						["Joexd"] = true,
 						["Ghsthunter"] = true,
-						["Rajabuli"] = true,
+						["Fire Nova Totem <Rajabuli>"] = true,
 						["Lazgup <Dernand>"] = true,
 						["Gihunter"] = true,
 						["Yomamaa"] = true,
-						["Joexd"] = true,
+						["Rajabuli"] = true,
 						["Searing Totem II <Rodeoboy>"] = true,
 						["Disciple of Naralex"] = true,
 						["TheRake <Ghsthunter>"] = true,
@@ -25561,7 +25535,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1696203820,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["aID"] = "3636",
 					["nome"] = "Deviate Ravager",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -25590,9 +25564,9 @@ _detalhes_database = {
 									["Fishhook"] = 2050,
 								},
 								["n_total"] = 9057,
-								["g_dmg"] = 0,
+								["MISS"] = 17,
 								["n_min"] = 0,
-								["a_amt"] = 1,
+								["g_dmg"] = 0,
 								["counter"] = 380,
 								["DODGE"] = 17,
 								["total"] = 9662,
@@ -25610,7 +25584,7 @@ _detalhes_database = {
 								["c_total"] = 605,
 								["n_amt"] = 321,
 								["r_amt"] = 0,
-								["MISS"] = 17,
+								["a_amt"] = 1,
 							}, -- [1]
 							["Thorns Aura"] = {
 								["c_amt"] = 0,
@@ -25716,7 +25690,7 @@ _detalhes_database = {
 						["Rodeoboy"] = true,
 						["Geltai <Ozark>"] = true,
 						["Kaevee"] = true,
-						["Searing Totem II <Fishhook>"] = true,
+						["Shakrom <Valaralu>"] = true,
 						["Ghsthunter"] = true,
 						["Joexd"] = true,
 						["Gihunter"] = true,
@@ -25726,7 +25700,7 @@ _detalhes_database = {
 						["Lazgup <Dernand>"] = true,
 						["Dontriskit"] = true,
 						["Rajabuli"] = true,
-						["Shakrom <Valaralu>"] = true,
+						["Searing Totem II <Fishhook>"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Frostynugss"] = true,
 						["Searing Totem <Kylablast>"] = true,
@@ -25849,13 +25823,12 @@ _detalhes_database = {
 					["totalabsorbed"] = 285.582785,
 					["pets"] = {
 					},
-					["aID"] = "3840",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 47453.58278500001,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 47453.58278500001,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-5175-43-6721-3840-00039A03E3",
 					["tipo"] = 1,
@@ -25866,13 +25839,13 @@ _detalhes_database = {
 						["Kaevee"] = true,
 						["Shakrom <Valaralu>"] = true,
 						["Ghsthunter"] = true,
-						["Fishhook"] = true,
+						["Joexd"] = true,
 						["Gihunter"] = true,
-						["Dernand"] = true,
+						["Lazgup <Dernand>"] = true,
 						["Yomamaa"] = true,
 						["Searing Totem II <Rodeoboy>"] = true,
-						["Lazgup <Dernand>"] = true,
-						["Rajabuli"] = true,
+						["Fire Nova Totem <Yomamaa>"] = true,
+						["Fishhook"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Fire Nova Totem <Rajabuli>"] = true,
 						["Kylablast"] = true,
@@ -25885,29 +25858,29 @@ _detalhes_database = {
 						["Frostynugss"] = true,
 						["Ozark"] = true,
 						["Fire Nova Totem <Rodeoboy>"] = true,
-						["Joexd"] = true,
+						["Rajabuli"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Fire Nova Totem <Yomamaa>"] = true,
+						["Dernand"] = true,
 					},
 					["targets"] = {
 						["Rodeoboy"] = 617,
 						["Kaevee"] = 516,
 						["Searing Totem II <Fishhook>"] = 4,
 						["Ghsthunter"] = 233,
-						["Fishhook"] = 4164,
+						["Rajabuli"] = 3087,
 						["Ozark"] = 214,
-						["Dernand"] = 357,
+						["Yomamaa"] = 7273,
 						["Neirbo"] = 624,
 						["Searing Totem II <Rajabuli>"] = 4,
 						["Dontriskit"] = 9530,
 						["Tremor Totem <Fishhook>"] = 4,
 						["Frostynugss"] = 8215,
 						["Lazgup <Dernand>"] = 151,
-						["Yomamaa"] = 7273,
+						["Dernand"] = 357,
 						["Crzylegs"] = 12009,
 						["Valaralu"] = 451,
-						["Rajabuli"] = 3087,
+						["Fishhook"] = 4164,
 					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -25918,8 +25891,9 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["end_time"] = 1696204107,
-					["on_hold"] = false,
-					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["aID"] = "3840",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -25941,9 +25915,9 @@ _detalhes_database = {
 								},
 								["n_total"] = 20789,
 								["DODGE"] = 78,
-								["MISS"] = 308,
+								["a_amt"] = 1,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 308,
 								["counter"] = 1317,
 								["spellschool"] = 1,
 								["r_amt"] = 0,
@@ -25961,7 +25935,7 @@ _detalhes_database = {
 								["c_total"] = 2957,
 								["n_amt"] = 816,
 								["b_dmg"] = 756,
-								["a_amt"] = 1,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Healing Touch"] = {
 								["c_amt"] = 0,
@@ -26213,13 +26187,12 @@ _detalhes_database = {
 						"Stoneclaw Totem II <Rodeoboy>", -- [4]
 						"Earthbind Totem <Rodeoboy>", -- [5]
 					},
-					["classe"] = "SHAMAN",
+					["aID"] = "5099-01A31BEA",
 					["total_without_pet"] = 7381.466968000001,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 9815.466968,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01A31BEA",
 					["damage_from"] = {
@@ -26256,12 +26229,12 @@ _detalhes_database = {
 						["Deviate Lasher"] = 384,
 						["Deviate Python"] = 75,
 						["Deviate Coiler"] = 316,
+						["Deviate Crocolisk"] = 566,
 						["Mutanus the Devourer"] = 212,
-						["Nightmare Ectoplasm"] = 15,
 						["Druid of the Fang"] = 752,
 						["Deviate Venomwing"] = 98,
 						["Evolving Ectoplasm"] = 1441,
-						["Deviate Crocolisk"] = 566,
+						["Nightmare Ectoplasm"] = 15,
 						["Deviate Moccasin"] = 203,
 						["Devouring Ectoplasm"] = 107,
 						["Deviate Adder"] = 105,
@@ -26274,8 +26247,9 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.4669679999999999,
 					["end_time"] = 1696310087,
-					["aID"] = "5099-01A31BEA",
-					["on_hold"] = false,
+					["classe"] = "SHAMAN",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -26305,9 +26279,9 @@ _detalhes_database = {
 									["Deviate Adder"] = 61,
 								},
 								["n_total"] = 4305,
-								["MISS"] = 1,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 1,
 								["counter"] = 144,
 								["DODGE"] = 1,
 								["total"] = 4886,
@@ -26325,7 +26299,7 @@ _detalhes_database = {
 								["c_total"] = 581,
 								["n_amt"] = 130,
 								["r_amt"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Flametongue Attack"] = {
 								["c_amt"] = 5,
@@ -26588,12 +26562,12 @@ _detalhes_database = {
 						["Samoanslayer"] = true,
 						["Neirbo"] = true,
 						["Searing Totem II <Fishhook>"] = true,
-						["Lazgup <Dernand>"] = true,
+						["Dernand"] = true,
 						["Ghsthunter"] = true,
 						["Fishhook"] = true,
 						["Searing Totem II <Yomamaa>"] = true,
+						["Lazgup <Dernand>"] = true,
 						["Yomamaa"] = true,
-						["Dernand"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Rajabuli"] = true,
 						["Rodeoboy"] = true,
@@ -26638,7 +26612,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 95,
 								["MISS"] = 5,
-								["r_amt"] = 0,
+								["total"] = 2800,
 								["c_max"] = 77,
 								["DODGE"] = 1,
 								["id"] = 1,
@@ -26653,7 +26627,7 @@ _detalhes_database = {
 								["c_total"] = 431,
 								["n_amt"] = 79,
 								["b_dmg"] = 95,
-								["total"] = 2800,
+								["r_amt"] = 0,
 							}, -- [1]
 							["Infected Wound"] = {
 								["c_amt"] = 0,
@@ -26701,13 +26675,12 @@ _detalhes_database = {
 						"Tremor Totem <Yomamaa>", -- [3]
 						"Stoneclaw Totem <Yomamaa>", -- [4]
 					},
-					["classe"] = "SHAMAN",
+					["aID"] = "5099-01A573D7",
 					["total_without_pet"] = 61919.40981599997,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 66975.40981599997,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01A573D7",
 					["damage_from"] = {
@@ -26767,8 +26740,9 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.409816,
 					["end_time"] = 1696310087,
-					["aID"] = "5099-01A573D7",
-					["on_hold"] = false,
+					["classe"] = "SHAMAN",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -26880,11 +26854,11 @@ _detalhes_database = {
 									["Deviate Lasher"] = 22,
 									["Deviate Guardian"] = 30,
 									["Deviate Python"] = 38,
-									["Deviate Stalker"] = 61,
-									["Druid of the Fang"] = 232,
 									["Deviate Adder"] = 91,
-									["Evolving Ectoplasm"] = 58,
+									["Druid of the Fang"] = 232,
 									["Kresh"] = 60,
+									["Evolving Ectoplasm"] = 58,
+									["Deviate Stalker"] = 61,
 									["Deviate Viper"] = 123,
 									["Lady Anacondra"] = 29,
 									["Deviate Ravager"] = 61,
@@ -27156,13 +27130,12 @@ _detalhes_database = {
 						"Searing Totem II <Rajabuli>", -- [1]
 						"Fire Nova Totem <Rajabuli>", -- [2]
 					},
-					["classe"] = "SHAMAN",
+					["aID"] = "5099-01B34F78",
 					["total_without_pet"] = 55591.39293399999,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 62045.392934,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01B34F78",
 					["damage_from"] = {
@@ -27218,8 +27191,9 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.392934,
 					["end_time"] = 1696310087,
-					["aID"] = "5099-01B34F78",
-					["on_hold"] = false,
+					["classe"] = "SHAMAN",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -27614,13 +27588,12 @@ _detalhes_database = {
 					["flag_original"] = 1298,
 					["pets"] = {
 					},
-					["classe"] = "DRUID",
+					["aID"] = "5099-01A72CBD",
 					["total_without_pet"] = 43585.42871199999,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 43585.42871199999,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01A72CBD",
 					["damage_from"] = {
@@ -27683,8 +27656,9 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.428712,
 					["end_time"] = 1696310087,
-					["aID"] = "5099-01A72CBD",
-					["on_hold"] = false,
+					["classe"] = "DRUID",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -27725,7 +27699,7 @@ _detalhes_database = {
 								["g_dmg"] = 262,
 								["counter"] = 671,
 								["a_amt"] = 0,
-								["r_amt"] = 0,
+								["total"] = 28305,
 								["c_max"] = 104,
 								["DODGE"] = 23,
 								["id"] = 1,
@@ -27740,7 +27714,7 @@ _detalhes_database = {
 								["c_total"] = 4027,
 								["n_amt"] = 555,
 								["b_dmg"] = 762,
-								["total"] = 28305,
+								["r_amt"] = 0,
 							}, -- [1]
 							["Growl"] = {
 								["c_amt"] = 0,
@@ -28002,16 +27976,16 @@ _detalhes_database = {
 						["Deviate Creeper"] = 102,
 						["Deviate Lasher"] = 14,
 						["Deviate Guardian"] = 300,
-						["Kresh"] = 58,
+						["Deviate Adder"] = 28,
 						["Deviate Viper"] = 134,
 						["Druid of the Fang"] = 985,
 						["Deviate Venomwing"] = 76,
 						["Evolving Ectoplasm"] = 193,
-						["Deviate Stalker"] = 43,
+						["Kresh"] = 58,
 						["Skum"] = 148,
 						["Lord Pythas"] = 166,
 						["Deviate Ravager"] = 274,
-						["Deviate Adder"] = 28,
+						["Deviate Stalker"] = 43,
 					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -28036,16 +28010,16 @@ _detalhes_database = {
 									["Deviate Creeper"] = 102,
 									["Deviate Lasher"] = 14,
 									["Deviate Guardian"] = 300,
-									["Kresh"] = 58,
+									["Deviate Adder"] = 28,
 									["Deviate Viper"] = 134,
 									["Druid of the Fang"] = 985,
 									["Deviate Venomwing"] = 76,
 									["Evolving Ectoplasm"] = 193,
-									["Deviate Stalker"] = 43,
+									["Kresh"] = 58,
 									["Skum"] = 148,
 									["Lord Pythas"] = 166,
 									["Deviate Ravager"] = 274,
-									["Deviate Adder"] = 28,
+									["Deviate Stalker"] = 43,
 								},
 								["n_total"] = 3285,
 								["n_min"] = 0,
@@ -29247,15 +29221,16 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.200821,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "5761",
 					["total_without_pet"] = 14744.200821,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 14744.200821,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-5761-00019BA4A6",
-					["aID"] = "5761",
+					["classe"] = "UNKNOW",
 					["damage_from"] = {
 						["Rodeoboy"] = true,
 						["Geltai <Ozark>"] = true,
@@ -29264,13 +29239,13 @@ _detalhes_database = {
 						["Ghsthunter"] = true,
 						["Rajabuli"] = true,
 						["Ozark"] = true,
-						["Dernand"] = true,
+						["Lazgup <Dernand>"] = true,
 						["Searing Totem II <Rodeoboy>"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Neirbo"] = true,
 						["Searing Totem II <Rajabuli>"] = true,
 						["Dontriskit"] = true,
-						["Lazgup <Dernand>"] = true,
+						["Fire Nova Totem <Yomamaa>"] = true,
 						["Fire Nova Totem <Rajabuli>"] = true,
 						["Fishhook"] = true,
 						["Frostynugss"] = true,
@@ -29279,7 +29254,7 @@ _detalhes_database = {
 						["Yomamaa"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Fire Nova Totem <Yomamaa>"] = true,
+						["Dernand"] = true,
 					},
 					["targets"] = {
 						["Rodeoboy"] = 377,
@@ -29308,8 +29283,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1696310999,
 					["boss_fight_component"] = true,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["nome"] = "Deviate Shambler",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29344,7 +29318,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 591,
 								["MISS"] = 23,
-								["total"] = 14744,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["c_amt"] = 28,
 								["id"] = 1,
@@ -29358,7 +29332,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1600,
 								["n_amt"] = 489,
-								["r_amt"] = 0,
+								["total"] = 14744,
 								["b_dmg"] = 504,
 							}, -- [1]
 							["Wild Regeneration"] = {
@@ -29421,12 +29395,12 @@ _detalhes_database = {
 						["Ghsthunter"] = true,
 						["Rajabuli"] = true,
 						["Ozark"] = true,
-						["Lazgup <Dernand>"] = true,
+						["Yomamaa"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Searing Totem II <Rajabuli>"] = true,
 						["Dontriskit"] = true,
-						["Yomamaa"] = true,
-						["Dernand"] = true,
+						["Lazgup <Dernand>"] = true,
+						["Fire Nova Totem <Yomamaa>"] = true,
 						["Shakrom <Valaralu>"] = true,
 						["Searing Totem II <Yomamaa>"] = true,
 						["Fishhook"] = true,
@@ -29434,7 +29408,7 @@ _detalhes_database = {
 						["Frostynugss"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Fire Nova Totem <Yomamaa>"] = true,
+						["Dernand"] = true,
 					},
 					["targets"] = {
 						["Rodeoboy"] = 1633,
@@ -29443,12 +29417,12 @@ _detalhes_database = {
 						["Ghsthunter"] = 314,
 						["Rajabuli"] = 969,
 						["Ozark"] = 81,
-						["Yomamaa"] = 989,
+						["Fire Nova Totem <Yomamaa>"] = 16,
 						["Stoneclaw Totem II <Rodeoboy>"] = 164,
 						["Neirbo"] = 118,
 						["Dontriskit"] = 2483,
 						["TheRake <Ghsthunter>"] = 183,
-						["Fire Nova Totem <Yomamaa>"] = 16,
+						["Dernand"] = 172,
 						["Lazgup <Dernand>"] = 29,
 						["Frostynugss"] = 1818,
 						["Fishhook"] = 1797,
@@ -29456,7 +29430,7 @@ _detalhes_database = {
 						["Stoneclaw Totem <Yomamaa>"] = 182,
 						["Crzylegs"] = 2289,
 						["Valaralu"] = 123,
-						["Dernand"] = 172,
+						["Yomamaa"] = 989,
 					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -29501,7 +29475,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 372,
 								["MISS"] = 10,
-								["total"] = 7213,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["c_amt"] = 21,
 								["id"] = 1,
@@ -29515,7 +29489,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 706,
 								["n_amt"] = 320,
-								["r_amt"] = 0,
+								["total"] = 7213,
 								["b_dmg"] = 77,
 							}, -- [1]
 							["Wide Slash"] = {
@@ -29842,7 +29816,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 78,
 								["MISS"] = 1,
-								["total"] = 2384,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["c_amt"] = 5,
 								["id"] = 1,
@@ -29856,7 +29830,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 313,
 								["n_amt"] = 65,
-								["r_amt"] = 0,
+								["total"] = 2384,
 								["b_dmg"] = 162,
 							}, -- [1]
 							["Toxic Spit"] = {
@@ -29993,9 +29967,9 @@ _detalhes_database = {
 									["Dontriskit"] = 821,
 								},
 								["n_total"] = 7403,
-								["MISS"] = 21,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 21,
 								["counter"] = 285,
 								["DODGE"] = 13,
 								["total"] = 8254,
@@ -30013,7 +29987,7 @@ _detalhes_database = {
 								["c_total"] = 851,
 								["n_amt"] = 230,
 								["r_amt"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Terrify"] = {
 								["c_amt"] = 0,
@@ -30403,30 +30377,29 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3670",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 4691.021817,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 4691.021817,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-3670-00001BA4A4",
-					["classe"] = "UNKNOW",
+					["aID"] = "3670",
 					["damage_from"] = {
 						["Geltai <Ozark>"] = true,
 						["Fire Nova Totem <Fishhook>"] = true,
 						["Searing Totem II <Fishhook>"] = true,
 						["Ghsthunter"] = true,
-						["Rajabuli"] = true,
+						["Fishhook"] = true,
 						["Ozark"] = true,
 						["Yomamaa"] = true,
 						["Neirbo"] = true,
 						["Dontriskit"] = true,
 						["Dernand"] = true,
-						["Frostynugss"] = true,
 						["Searing Totem II <Yomamaa>"] = true,
-						["Fishhook"] = true,
+						["Frostynugss"] = true,
+						["Rajabuli"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Shakrom <Valaralu>"] = true,
 						["Crzylegs"] = true,
@@ -30437,15 +30410,15 @@ _detalhes_database = {
 						["Geltai <Ozark>"] = 77,
 						["Neirbo"] = 387,
 						["Shakrom <Valaralu>"] = 76,
-						["Yomamaa"] = 148,
+						["TheRake <Ghsthunter>"] = 199,
 						["Rajabuli"] = 77,
 						["Frostynugss"] = 1588,
-						["Dernand"] = 75,
-						["TheRake <Ghsthunter>"] = 199,
+						["Lazgup <Dernand>"] = 78,
+						["Yomamaa"] = 148,
 						["Dontriskit"] = 840,
 						["Crzylegs"] = 834,
 						["Fishhook"] = 312,
-						["Lazgup <Dernand>"] = 78,
+						["Dernand"] = 75,
 					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -30455,7 +30428,8 @@ _detalhes_database = {
 					["totalabsorbed"] = 119.021817,
 					["end_time"] = 1696312894,
 					["boss_fight_component"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Lord Pythas",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -30477,7 +30451,7 @@ _detalhes_database = {
 								["a_amt"] = 1,
 								["counter"] = 74,
 								["MISS"] = 14,
-								["total"] = 2167,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["c_amt"] = 3,
 								["id"] = 1,
@@ -30491,7 +30465,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 209,
 								["n_amt"] = 50,
-								["r_amt"] = 0,
+								["total"] = 2167,
 								["b_dmg"] = 70,
 							}, -- [1]
 							["Healing Touch"] = {
@@ -30532,12 +30506,12 @@ _detalhes_database = {
 									["Dontriskit"] = 141,
 									["Fishhook"] = 312,
 									["Frostynugss"] = 231,
+									["Lazgup <Dernand>"] = 78,
 									["Yomamaa"] = 148,
-									["TheRake <Ghsthunter>"] = 151,
 									["Dernand"] = 75,
 									["Crzylegs"] = 70,
 									["Rajabuli"] = 77,
-									["Lazgup <Dernand>"] = 78,
+									["TheRake <Ghsthunter>"] = 151,
 								},
 								["n_total"] = 1517,
 								["n_min"] = 0,
@@ -30630,16 +30604,15 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3671",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 2309.027793,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 2309.027793,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-3671-00001BA4A4",
-					["classe"] = "UNKNOW",
+					["aID"] = "3671",
 					["damage_from"] = {
 						["Geltai <Ozark>"] = true,
 						["TheRake <Ghsthunter>"] = true,
@@ -30662,9 +30635,9 @@ _detalhes_database = {
 						["Frostynugss"] = 140,
 						["TheRake <Ghsthunter>"] = 160,
 						["Yomamaa"] = 244,
+						["Dontriskit"] = 517,
 						["Shakrom <Valaralu>"] = 360,
 						["Crzylegs"] = 439,
-						["Dontriskit"] = 517,
 						["Rajabuli"] = 189,
 					},
 					["friendlyfire_total"] = 0,
@@ -30674,7 +30647,8 @@ _detalhes_database = {
 					["totalabsorbed"] = 69.027793,
 					["end_time"] = 1696314019,
 					["boss_fight_component"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Lady Anacondra",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -30778,9 +30752,9 @@ _detalhes_database = {
 									["Frostynugss"] = 100,
 									["TheRake <Ghsthunter>"] = 160,
 									["Yomamaa"] = 80,
+									["Dontriskit"] = 144,
 									["Shakrom <Valaralu>"] = 360,
 									["Crzylegs"] = 114,
-									["Dontriskit"] = 144,
 									["Rajabuli"] = 100,
 								},
 								["n_total"] = 1318,
@@ -30836,13 +30810,13 @@ _detalhes_database = {
 						["Ghsthunter"] = true,
 						["Fishhook"] = true,
 						["Ozark"] = true,
-						["Yomamaa"] = true,
+						["Fire Nova Totem <Yomamaa>"] = true,
 						["Searing Totem II <Rodeoboy>"] = true,
 						["Neirbo"] = true,
 						["Searing Totem II <Rajabuli>"] = true,
 						["Dontriskit"] = true,
 						["Dernand"] = true,
-						["Fire Nova Totem <Yomamaa>"] = true,
+						["Lazgup <Dernand>"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Searing Totem II <Yomamaa>"] = true,
 						["Shakrom <Valaralu>"] = true,
@@ -30850,7 +30824,7 @@ _detalhes_database = {
 						["Rajabuli"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Lazgup <Dernand>"] = true,
+						["Yomamaa"] = true,
 					},
 					["targets"] = {
 						["Rodeoboy"] = 414,
@@ -30892,9 +30866,9 @@ _detalhes_database = {
 									["Crzylegs"] = 1441,
 								},
 								["n_total"] = 7332,
-								["MISS"] = 25,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 25,
 								["counter"] = 307,
 								["DODGE"] = 13,
 								["total"] = 8058,
@@ -30912,7 +30886,7 @@ _detalhes_database = {
 								["c_total"] = 726,
 								["n_amt"] = 247,
 								["r_amt"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Localized Toxin"] = {
 								["c_amt"] = 0,
@@ -30966,16 +30940,16 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.167145,
 					["pets"] = {
 					},
-					["aID"] = "5048",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 8554.167145000001,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 8554.167145000001,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5176-43-14727-5048-00001BA4A4",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5176-43-14727-5048-00001BA4A4",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Rodeoboy"] = true,
 						["Geltai <Ozark>"] = true,
@@ -31024,7 +30998,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1696314135,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["aID"] = "5048",
 					["nome"] = "Deviate Adder",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -31050,9 +31024,9 @@ _detalhes_database = {
 									["Shakrom <Valaralu>"] = 129,
 								},
 								["n_total"] = 7103,
-								["MISS"] = 9,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 9,
 								["counter"] = 284,
 								["DODGE"] = 17,
 								["total"] = 7755,
@@ -31070,7 +31044,7 @@ _detalhes_database = {
 								["c_total"] = 652,
 								["n_amt"] = 242,
 								["r_amt"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Poison"] = {
 								["c_amt"] = 0,
@@ -31123,15 +31097,16 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.066888,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "8886",
 					["total_without_pet"] = 2409.066888,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 2409.066888,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-8886-00001BA4A4",
-					["aID"] = "8886",
+					["classe"] = "UNKNOW",
 					["damage_from"] = {
 						["Rodeoboy"] = true,
 						["Geltai <Ozark>"] = true,
@@ -31140,18 +31115,18 @@ _detalhes_database = {
 						["Ghsthunter"] = true,
 						["Rajabuli"] = true,
 						["Ozark"] = true,
-						["TheRake <Ghsthunter>"] = true,
+						["Yomamaa"] = true,
 						["Neirbo"] = true,
 						["Dontriskit"] = true,
 						["Searing Totem II <Fishhook>"] = true,
-						["Yomamaa"] = true,
+						["TheRake <Ghsthunter>"] = true,
 						["Frostynugss"] = true,
-						["Fire Nova Totem <Yomamaa>"] = true,
+						["Lazgup <Dernand>"] = true,
 						["Dernand"] = true,
 						["Fishhook"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Lazgup <Dernand>"] = true,
+						["Fire Nova Totem <Yomamaa>"] = true,
 					},
 					["targets"] = {
 						["Rodeoboy"] = 316,
@@ -31175,8 +31150,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1696314381,
 					["nome"] = "Deviate Python",
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -31201,14 +31175,14 @@ _detalhes_database = {
 									["Fire Nova Totem <Rodeoboy>"] = 4,
 								},
 								["n_total"] = 2192,
-								["a_amt"] = 0,
-								["MISS"] = 14,
-								["n_min"] = 0,
 								["g_dmg"] = 0,
+								["a_amt"] = 0,
+								["n_min"] = 0,
+								["MISS"] = 14,
 								["counter"] = 186,
-								["spellschool"] = 1,
-								["r_amt"] = 0,
 								["c_max"] = 48,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
 								["c_amt"] = 7,
 								["id"] = 1,
 								["r_dmg"] = 0,
@@ -31286,7 +31260,7 @@ _detalhes_database = {
 								["counter"] = 53,
 								["DODGE"] = 7,
 								["total"] = 418,
-								["c_max"] = 17,
+								["spellschool"] = 1,
 								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
@@ -31299,7 +31273,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 17,
 								["n_amt"] = 39,
-								["spellschool"] = 1,
+								["c_max"] = 17,
 								["n_max"] = 13,
 							}, -- [1]
 						},
@@ -31615,12 +31589,19 @@ _detalhes_database = {
 					["flag_original"] = 1298,
 					["pets"] = {
 					},
-					["classe"] = "WARRIOR",
+					["aID"] = "5099-01ADF911",
 					["total_without_pet"] = 56888.40895999999,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 56888.40895999999,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+						["Fishhook"] = {
+							["spells"] = {
+								48, -- [1]
+							},
+							["total"] = 48,
+						},
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01ADF911",
 					["damage_from"] = {
@@ -31661,15 +31642,15 @@ _detalhes_database = {
 						["Deviate Dreadfang"] = 3416,
 						["Verdan the Everliving"] = 619,
 						["Lord Serpentis"] = 471,
-						["Deviate Crocolisk"] = 2159,
+						["Nightmare Ectoplasm"] = 1244,
 						["Deviate Lasher"] = 1209,
 						["Lord Pythas"] = 754,
-						["Mutanus the Devourer"] = 871,
 						["Kresh"] = 227,
+						["Mutanus the Devourer"] = 871,
 						["Druid of the Fang"] = 17737,
 						["Deviate Venomwing"] = 3937,
 						["Evolving Ectoplasm"] = 3997,
-						["Nightmare Ectoplasm"] = 1244,
+						["Deviate Crocolisk"] = 2159,
 						["Deviate Moccasin"] = 1067,
 						["Lord Cobrahn"] = 381,
 						["Deviate Python"] = 499,
@@ -31682,15 +31663,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.4089599999999999,
 					["end_time"] = 1696393965,
-					["aID"] = "5099-01ADF911",
-					["friendlyfire"] = {
-						["Fishhook"] = {
-							["spells"] = {
-								48, -- [1]
-							},
-							["total"] = 48,
-						},
-					},
+					["classe"] = "WARRIOR",
+					["on_hold"] = false,
 					["nome"] = "Crzylegs",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -31880,9 +31854,9 @@ _detalhes_database = {
 									["Kresh"] = 60,
 								},
 								["n_total"] = 2484,
-								["a_amt"] = 0,
+								["MISS"] = 4,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["a_amt"] = 0,
 								["counter"] = 219,
 								["DODGE"] = 2,
 								["r_amt"] = 0,
@@ -31900,7 +31874,7 @@ _detalhes_database = {
 								["c_total"] = 0,
 								["n_amt"] = 212,
 								["total"] = 2484,
-								["MISS"] = 4,
+								["g_dmg"] = 0,
 							},
 							["Fire Shield"] = {
 								["c_amt"] = 0,
@@ -32021,14 +31995,14 @@ _detalhes_database = {
 									["Deviate Lasher"] = 18,
 								},
 								["n_total"] = 926,
-								["MISS"] = 5,
-								["g_dmg"] = 0,
-								["n_min"] = 0,
 								["a_amt"] = 0,
+								["MISS"] = 5,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 143,
 								["r_amt"] = 0,
 								["total"] = 1087,
-								["c_max"] = 20,
+								["spellschool"] = 1,
 								["c_amt"] = 9,
 								["id"] = "Revenge",
 								["r_dmg"] = 0,
@@ -32041,7 +32015,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 161,
 								["n_amt"] = 107,
-								["spellschool"] = 1,
+								["c_max"] = 20,
 								["n_max"] = 10,
 							},
 							["Shield Bash"] = {
@@ -32171,15 +32145,15 @@ _detalhes_database = {
 									["Verdan the Everliving"] = 57,
 									["Deviate Python"] = 18,
 									["Deviate Lasher"] = 18,
-									["Mutanus the Devourer"] = 150,
+									["Deviate Crocolisk"] = 703,
 									["Druid of the Fang"] = 2517,
 									["Deviate Venomwing"] = 1244,
 									["Evolving Ectoplasm"] = 1038,
-									["Kresh"] = 50,
+									["Mutanus the Devourer"] = 150,
 									["Deviate Moccasin"] = 207,
 									["Lord Pythas"] = 102,
 									["Lord Cobrahn"] = 61,
-									["Deviate Crocolisk"] = 703,
+									["Kresh"] = 50,
 								},
 								["n_total"] = 9922,
 								["g_dmg"] = 0,
@@ -32187,7 +32161,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 139,
 								["MISS"] = 6,
-								["r_amt"] = 0,
+								["total"] = 10931,
 								["c_max"] = 215,
 								["c_amt"] = 5,
 								["id"] = "Heroic Strike",
@@ -32201,7 +32175,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1009,
 								["n_amt"] = 115,
-								["total"] = 10931,
+								["r_amt"] = 0,
 								["b_dmg"] = 170,
 							},
 						},
@@ -32222,12 +32196,13 @@ _detalhes_database = {
 					["pets"] = {
 						"Shakrom <Valaralu>", -- [1]
 					},
-					["classe"] = "HUNTER",
+					["aID"] = "5099-01B4EE83",
 					["total_without_pet"] = 50818.46152,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 75448.46151999998,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01B4EE83",
 					["damage_from"] = {
@@ -32271,9 +32246,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.4615199999999999,
 					["end_time"] = 1696393965,
-					["aID"] = "5099-01B4EE83",
-					["friendlyfire"] = {
-					},
+					["classe"] = "HUNTER",
+					["on_hold"] = false,
 					["nome"] = "Valaralu",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -32319,18 +32293,18 @@ _detalhes_database = {
 									["Lord Serpentis"] = 0,
 									["Deviate Shambler"] = 0,
 									["Deviate Dreadfang"] = 0,
-									["Mutanus the Devourer"] = 0,
-									["Deviate Guardian"] = 0,
 									["Kresh"] = 0,
+									["Deviate Guardian"] = 0,
+									["Deviate Adder"] = 0,
 									["Deviate Faerie Dragon"] = 0,
 									["Druid of the Fang"] = 0,
 									["Deviate Venomwing"] = 0,
 									["Evolving Ectoplasm"] = 0,
-									["Deviate Crocolisk"] = 0,
+									["Mutanus the Devourer"] = 0,
 									["Deviate Viper"] = 0,
-									["Deviate Adder"] = 0,
-									["Deviate Ravager"] = 0,
 									["Nightmare Ectoplasm"] = 0,
+									["Deviate Ravager"] = 0,
+									["Deviate Crocolisk"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -32371,15 +32345,15 @@ _detalhes_database = {
 									["Verdan the Everliving"] = 882,
 									["Deviate Python"] = 62,
 									["Skum"] = 687,
-									["Mutanus the Devourer"] = 991,
+									["Kresh"] = 142,
 									["Lord Pythas"] = 43,
 									["Druid of the Fang"] = 12653,
 									["Deviate Venomwing"] = 1960,
 									["Evolving Ectoplasm"] = 2558,
-									["Nightmare Ectoplasm"] = 533,
+									["Mutanus the Devourer"] = 991,
 									["Deviate Moccasin"] = 812,
 									["Lord Cobrahn"] = 508,
-									["Kresh"] = 142,
+									["Nightmare Ectoplasm"] = 533,
 									["Deviate Crocolisk"] = 447,
 								},
 								["n_total"] = 33700,
@@ -32446,15 +32420,15 @@ _detalhes_database = {
 									["Deviate Ravager"] = 301,
 									["Deviate Dreadfang"] = 510,
 									["Verdan the Everliving"] = 80,
-									["Deviate Crocolisk"] = 102,
-									["Mutanus the Devourer"] = 192,
+									["Nightmare Ectoplasm"] = 58,
+									["Kresh"] = 67,
 									["Druid of the Fang"] = 1692,
 									["Deviate Venomwing"] = 231,
 									["Evolving Ectoplasm"] = 368,
-									["Nightmare Ectoplasm"] = 58,
+									["Deviate Crocolisk"] = 102,
 									["Deviate Moccasin"] = 49,
 									["Lord Cobrahn"] = 96,
-									["Kresh"] = 67,
+									["Mutanus the Devourer"] = 192,
 									["Skum"] = 0,
 								},
 								["n_total"] = 5617,
@@ -32603,13 +32577,13 @@ _detalhes_database = {
 									["Verdan the Everliving"] = 132,
 									["Deviate Python"] = 35,
 									["Druid of the Fang"] = 650,
-									["Mutanus the Devourer"] = 165,
+									["Deviate Crocolisk"] = 69,
 									["Evolving Ectoplasm"] = 66,
-									["Kresh"] = 70,
+									["Mutanus the Devourer"] = 165,
 									["Deviate Moccasin"] = 73,
 									["Nightmare Ectoplasm"] = 33,
 									["Skum"] = 104,
-									["Deviate Crocolisk"] = 69,
+									["Kresh"] = 70,
 								},
 								["n_total"] = 2030,
 								["n_min"] = 0,
@@ -32746,7 +32720,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 1213,
 								["MISS"] = 77,
-								["r_amt"] = 0,
+								["total"] = 19373,
 								["c_max"] = 43,
 								["c_amt"] = 66,
 								["id"] = 1,
@@ -32760,7 +32734,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 2272,
 								["n_amt"] = 919,
-								["total"] = 19373,
+								["r_amt"] = 0,
 								["b_dmg"] = 293,
 							}, -- [1]
 							["Fire Shield"] = {
@@ -32829,11 +32803,12 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 586,
-								["c_max"] = 25,
-								["total"] = 5233,
 								["spellschool"] = 1,
+								["total"] = 5233,
+								["c_max"] = 25,
 								["r_amt"] = 0,
-								["id"] = "Claw",
+								["extra"] = {
+								},
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["BLOCK"] = 16,
@@ -32843,8 +32818,7 @@ _detalhes_database = {
 								["successful_casted"] = 3,
 								["c_total"] = 382,
 								["n_amt"] = 494,
-								["extra"] = {
-								},
+								["id"] = "Claw",
 								["b_dmg"] = 11,
 							},
 						},
@@ -32864,12 +32838,13 @@ _detalhes_database = {
 					["pets"] = {
 						"Geltai <Ozark>", -- [1]
 					},
-					["classe"] = "WARLOCK",
+					["aID"] = "5099-01AE6FA5",
 					["total_without_pet"] = 23048.39195599999,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 32516.391956,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01AE6FA5",
 					["damage_from"] = {
@@ -32893,15 +32868,15 @@ _detalhes_database = {
 						["Deviate Dreadfang"] = 2013,
 						["Verdan the Everliving"] = 1198,
 						["Lord Serpentis"] = 767,
-						["Deviate Crocolisk"] = 464,
+						["Nightmare Ectoplasm"] = 96,
 						["Deviate Lasher"] = 731,
 						["Lord Pythas"] = 983,
-						["Mutanus the Devourer"] = 673,
 						["Kresh"] = 426,
+						["Mutanus the Devourer"] = 673,
 						["Druid of the Fang"] = 8438,
 						["Deviate Venomwing"] = 1578,
 						["Evolving Ectoplasm"] = 1195,
-						["Nightmare Ectoplasm"] = 96,
+						["Deviate Crocolisk"] = 464,
 						["Deviate Moccasin"] = 459,
 						["Lord Cobrahn"] = 359,
 						["Deviate Python"] = 483,
@@ -32914,9 +32889,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.3919560000000001,
 					["end_time"] = 1696393965,
-					["aID"] = "5099-01AE6FA5",
-					["friendlyfire"] = {
-					},
+					["classe"] = "WARLOCK",
+					["on_hold"] = false,
 					["nome"] = "Ozark",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -33286,11 +33260,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Druid of the Fang"] = 665,
 									["Deviate Adder"] = 849,
-									["Deviate Lasher"] = 600,
-									["Deviate Crocolisk"] = 341,
-									["Deviate Viper"] = 504,
-									["Lord Cobrahn"] = 169,
 									["Deviate Python"] = 363,
+									["Deviate Crocolisk"] = 341,
+									["Deviate Lasher"] = 600,
+									["Lord Cobrahn"] = 169,
+									["Deviate Viper"] = 504,
 									["Snake"] = 21,
 								},
 								["n_total"] = 3512,
@@ -33595,16 +33569,16 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3669",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 792.012929,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 792.012929,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5175-43-778-3669-00001CE85A",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-778-3669-00001CE85A",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Geltai <Ozark>"] = true,
 						["Fire Nova Totem <Fishhook>"] = true,
@@ -33631,7 +33605,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.012929,
 					["end_time"] = 1696395250,
 					["nome"] = "Lord Cobrahn",
-					["classe"] = "UNKNOW",
+					["aID"] = "3669",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -33645,9 +33619,9 @@ _detalhes_database = {
 									["Crzylegs"] = 334,
 								},
 								["n_total"] = 478,
-								["g_dmg"] = 0,
+								["MISS"] = 1,
 								["n_min"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 18,
 								["DODGE"] = 1,
 								["total"] = 644,
@@ -33665,7 +33639,7 @@ _detalhes_database = {
 								["c_total"] = 166,
 								["n_amt"] = 12,
 								["r_amt"] = 0,
-								["MISS"] = 1,
+								["a_amt"] = 0,
 							}, -- [1]
 							["Druid's Slumber"] = {
 								["c_amt"] = 0,
@@ -33808,7 +33782,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 18,
 								["MISS"] = 1,
-								["r_amt"] = 0,
+								["total"] = 339,
 								["c_max"] = 0,
 								["c_amt"] = 0,
 								["id"] = 1,
@@ -33822,7 +33796,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 14,
-								["total"] = 339,
+								["r_amt"] = 0,
 								["n_max"] = 31,
 							}, -- [1]
 						},
@@ -33841,16 +33815,16 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3673",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 662.0198620000001,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 662.0198620000001,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5175-43-778-3673-00001CE85A",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-778-3673-00001CE85A",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Geltai <Ozark>"] = true,
 						["Neirbo"] = true,
@@ -33878,7 +33852,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.019862,
 					["end_time"] = 1696397047,
 					["nome"] = "Lord Serpentis",
-					["classe"] = "UNKNOW",
+					["aID"] = "3673",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -33984,16 +33958,16 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "5775",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 3866.016537,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 3866.016537,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5175-43-778-5775-00001CE85A",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-778-5775-00001CE85A",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Geltai <Ozark>"] = true,
 						["Neirbo"] = true,
@@ -34023,7 +33997,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.016537,
 					["end_time"] = 1696397140,
 					["nome"] = "Verdan the Everliving",
-					["classe"] = "UNKNOW",
+					["aID"] = "5775",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -34037,9 +34011,9 @@ _detalhes_database = {
 									["Crzylegs"] = 1707,
 								},
 								["n_total"] = 2748,
-								["g_dmg"] = 0,
+								["MISS"] = 1,
 								["n_min"] = 0,
-								["a_amt"] = 1,
+								["g_dmg"] = 0,
 								["counter"] = 21,
 								["DODGE"] = 2,
 								["total"] = 3111,
@@ -34057,7 +34031,7 @@ _detalhes_database = {
 								["c_total"] = 363,
 								["n_amt"] = 16,
 								["r_amt"] = 0,
-								["MISS"] = 1,
+								["a_amt"] = 1,
 							}, -- [1]
 							["Grasping Vines"] = {
 								["c_amt"] = 0,
@@ -34170,7 +34144,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 66,
 								["MISS"] = 1,
-								["total"] = 2325,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["DODGE"] = 4,
 								["id"] = 1,
@@ -34185,7 +34159,7 @@ _detalhes_database = {
 								["c_total"] = 231,
 								["n_amt"] = 56,
 								["n_max"] = 53,
-								["r_amt"] = 0,
+								["total"] = 2325,
 							}, -- [1]
 						},
 						["tipo"] = 2,
@@ -34276,7 +34250,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 104,
 								["MISS"] = 8,
-								["total"] = 1914,
+								["r_amt"] = 0,
 								["spellschool"] = 1,
 								["DODGE"] = 7,
 								["id"] = 1,
@@ -34291,7 +34265,7 @@ _detalhes_database = {
 								["c_total"] = 383,
 								["n_amt"] = 76,
 								["n_max"] = 31,
-								["r_amt"] = 0,
+								["total"] = 1914,
 							}, -- [1]
 						},
 						["tipo"] = 2,
@@ -34377,21 +34351,21 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3654",
+					["classe"] = "UNKNOW",
 					["total_without_pet"] = 1886.01402,
 					["last_dps_realtime"] = 0,
 					["monster"] = true,
 					["total"] = 1886.01402,
-					["on_hold"] = false,
-					["total_extra"] = 0,
-					["serial"] = "Creature-0-5175-43-778-3654-00001CFA0A",
 					["friendlyfire"] = {
 					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-5175-43-778-3654-00001CFA0A",
+					["on_hold"] = false,
 					["damage_from"] = {
 						["Geltai <Ozark>"] = true,
 						["Neirbo"] = true,
+						["Searing Totem II <Fishhook>"] = true,
 						["Shakrom <Valaralu>"] = true,
-						["Dontriskit"] = true,
 						["TheRake <Ghsthunter>"] = true,
 						["Ghsthunter"] = true,
 						["Fishhook"] = true,
@@ -34401,7 +34375,7 @@ _detalhes_database = {
 						["Lazgup <Dernand>"] = true,
 						["Crzylegs"] = true,
 						["Valaralu"] = true,
-						["Searing Totem II <Fishhook>"] = true,
+						["Dontriskit"] = true,
 					},
 					["targets"] = {
 						["Fishhook"] = 805,
@@ -34416,7 +34390,7 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.01402,
 					["end_time"] = 1696397876,
 					["nome"] = "Mutanus the Devourer",
-					["classe"] = "UNKNOW",
+					["aID"] = "3654",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -34431,9 +34405,9 @@ _detalhes_database = {
 									["Dontriskit"] = 69,
 								},
 								["n_total"] = 1493,
-								["MISS"] = 1,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 1,
 								["counter"] = 37,
 								["DODGE"] = 4,
 								["r_amt"] = 0,
@@ -34451,7 +34425,7 @@ _detalhes_database = {
 								["c_total"] = 84,
 								["n_amt"] = 30,
 								["total"] = 1577,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Terrify"] = {
 								["c_amt"] = 0,
@@ -35082,7 +35056,7 @@ _detalhes_database = {
 								["g_dmg"] = 297,
 								["counter"] = 100,
 								["MISS"] = 2,
-								["r_amt"] = 0,
+								["total"] = 6372,
 								["c_max"] = 145,
 								["DODGE"] = 2,
 								["id"] = 1,
@@ -35097,7 +35071,7 @@ _detalhes_database = {
 								["c_total"] = 903,
 								["n_amt"] = 82,
 								["b_dmg"] = 164,
-								["total"] = 6372,
+								["r_amt"] = 0,
 							}, -- [1]
 							["Rend"] = {
 								["c_amt"] = 0,
@@ -36496,12 +36470,13 @@ _detalhes_database = {
 					["pets"] = {
 						"TheRake <Ghsthunter>", -- [1]
 					},
-					["aID"] = "5099-01B3152E",
+					["classe"] = "HUNTER",
 					["total_without_pet"] = 56815.487479,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 91471.48747900003,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01B3152E",
 					["damage_from"] = {
@@ -36534,10 +36509,10 @@ _detalhes_database = {
 						["Deviate Viper"] = 4757,
 						["Mad Magglish"] = 651,
 						["Deviate Ravager"] = 8369,
-						["Nightmare Ectoplasm"] = 1110,
+						["Mutanus the Devourer"] = 1619,
 						["Devouring Ectoplasm"] = 125,
 						["Verdan the Everliving"] = 1824,
-						["Mutanus the Devourer"] = 1619,
+						["Deviate Crocolisk"] = 1343,
 						["Kresh"] = 556,
 						["Deviate Python"] = 363,
 						["Deviate Coiler"] = 683,
@@ -36546,7 +36521,7 @@ _detalhes_database = {
 						["Druid of the Fang"] = 23541,
 						["Deviate Venomwing"] = 3483,
 						["Evolving Ectoplasm"] = 7270,
-						["Deviate Crocolisk"] = 1343,
+						["Nightmare Ectoplasm"] = 1110,
 						["Deviate Moccasin"] = 1466,
 						["Lord Cobrahn"] = 788,
 						["Deviate Stinglash"] = 192,
@@ -36559,9 +36534,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.4874790000000001,
 					["end_time"] = 1696468043,
-					["friendlyfire"] = {
-					},
-					["classe"] = "HUNTER",
+					["on_hold"] = false,
+					["aID"] = "5099-01B3152E",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -36577,21 +36551,21 @@ _detalhes_database = {
 									["Deviate Python"] = 79,
 									["Deviate Lasher"] = 96,
 									["Deviate Coiler"] = 159,
-									["Deviate Stalker"] = 201,
-									["Deviate Crocolisk"] = 19,
-									["Deviate Moccasin"] = 233,
-									["Deviate Adder"] = 90,
-									["Evolving Ectoplasm"] = 760,
 									["Nightmare Ectoplasm"] = 311,
+									["Deviate Adder"] = 90,
+									["Deviate Moccasin"] = 233,
+									["Deviate Crocolisk"] = 19,
+									["Evolving Ectoplasm"] = 760,
+									["Deviate Stalker"] = 201,
 									["Deviate Viper"] = 167,
 									["Mad Magglish"] = 389,
 									["Deviate Ravager"] = 90,
 									["Deviate Guardian"] = 124,
 								},
 								["n_total"] = 3826,
-								["g_dmg"] = 0,
+								["MISS"] = 44,
 								["n_min"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 218,
 								["DODGE"] = 5,
 								["total"] = 4401,
@@ -36609,7 +36583,7 @@ _detalhes_database = {
 								["c_total"] = 575,
 								["n_amt"] = 151,
 								["r_amt"] = 0,
-								["MISS"] = 44,
+								["a_amt"] = 0,
 							}, -- [1]
 							{
 								["c_amt"] = 0,
@@ -36657,7 +36631,7 @@ _detalhes_database = {
 									["Deviate Creeper"] = 1805,
 									["Deviate Guardian"] = 2913,
 									["Deviate Dreadfang"] = 1897,
-									["Kresh"] = 220,
+									["Mutanus the Devourer"] = 817,
 									["Deviate Stalker"] = 268,
 									["Deviate Viper"] = 2412,
 									["Deviate Stinglash"] = 124,
@@ -36665,8 +36639,8 @@ _detalhes_database = {
 									["Lord Pythas"] = 424,
 									["Devouring Ectoplasm"] = 72,
 									["Verdan the Everliving"] = 1091,
-									["Deviate Crocolisk"] = 788,
 									["Nightmare Ectoplasm"] = 311,
+									["Deviate Crocolisk"] = 788,
 									["Deviate Python"] = 4,
 									["Deviate Coiler"] = 189,
 									["Deviate Lasher"] = 139,
@@ -36674,7 +36648,7 @@ _detalhes_database = {
 									["Druid of the Fang"] = 11621,
 									["Deviate Venomwing"] = 1839,
 									["Evolving Ectoplasm"] = 2542,
-									["Mutanus the Devourer"] = 817,
+									["Kresh"] = 220,
 									["Deviate Moccasin"] = 330,
 									["Lord Cobrahn"] = 381,
 									["Lady Anacondra"] = 157,
@@ -36788,15 +36762,15 @@ _detalhes_database = {
 									["Deviate Dreadfang"] = 234,
 									["Verdan the Everliving"] = 112,
 									["Skum"] = 0,
-									["Kresh"] = 67,
+									["Mutanus the Devourer"] = 128,
 									["Lord Pythas"] = 80,
 									["Deviate Coiler"] = 17,
-									["Deviate Crocolisk"] = 66,
 									["Nightmare Ectoplasm"] = 34,
+									["Deviate Crocolisk"] = 66,
 									["Druid of the Fang"] = 1333,
 									["Deviate Venomwing"] = 185,
 									["Evolving Ectoplasm"] = 320,
-									["Mutanus the Devourer"] = 128,
+									["Kresh"] = 67,
 									["Deviate Moccasin"] = 149,
 									["Lord Cobrahn"] = 48,
 									["Deviate Adder"] = 102,
@@ -37127,10 +37101,10 @@ _detalhes_database = {
 						["Deviate Viper"] = 1630,
 						["Mad Magglish"] = 262,
 						["Deviate Ravager"] = 3373,
-						["Nightmare Ectoplasm"] = 449,
+						["Mutanus the Devourer"] = 445,
 						["Devouring Ectoplasm"] = 53,
 						["Verdan the Everliving"] = 588,
-						["Mutanus the Devourer"] = 445,
+						["Deviate Crocolisk"] = 318,
 						["Kresh"] = 174,
 						["Deviate Python"] = 119,
 						["Deviate Coiler"] = 318,
@@ -37139,7 +37113,7 @@ _detalhes_database = {
 						["Druid of the Fang"] = 8892,
 						["Deviate Venomwing"] = 1042,
 						["Evolving Ectoplasm"] = 3136,
-						["Deviate Crocolisk"] = 318,
+						["Nightmare Ectoplasm"] = 449,
 						["Deviate Moccasin"] = 664,
 						["Lord Cobrahn"] = 247,
 						["Deviate Stinglash"] = 51,
@@ -37175,10 +37149,10 @@ _detalhes_database = {
 									["Deviate Viper"] = 1291,
 									["Mad Magglish"] = 154,
 									["Deviate Ravager"] = 2747,
-									["Nightmare Ectoplasm"] = 392,
+									["Mutanus the Devourer"] = 317,
 									["Devouring Ectoplasm"] = 39,
 									["Verdan the Everliving"] = 490,
-									["Mutanus the Devourer"] = 317,
+									["Deviate Crocolisk"] = 196,
 									["Kresh"] = 127,
 									["Deviate Python"] = 52,
 									["Deviate Coiler"] = 265,
@@ -37187,7 +37161,7 @@ _detalhes_database = {
 									["Druid of the Fang"] = 6797,
 									["Deviate Venomwing"] = 803,
 									["Evolving Ectoplasm"] = 2475,
-									["Deviate Crocolisk"] = 196,
+									["Nightmare Ectoplasm"] = 392,
 									["Deviate Moccasin"] = 569,
 									["Lord Cobrahn"] = 247,
 									["Deviate Stinglash"] = 41,
@@ -37199,7 +37173,7 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 1183,
 								["MISS"] = 30,
-								["r_amt"] = 0,
+								["total"] = 26592,
 								["c_max"] = 62,
 								["DODGE"] = 23,
 								["id"] = 1,
@@ -37214,7 +37188,7 @@ _detalhes_database = {
 								["c_total"] = 4839,
 								["n_amt"] = 1006,
 								["b_dmg"] = 261,
-								["total"] = 26592,
+								["r_amt"] = 0,
 							}, -- [1]
 							["Bite"] = {
 								["c_amt"] = 7,
@@ -37325,9 +37299,9 @@ _detalhes_database = {
 								},
 								["n_total"] = 4598,
 								["DODGE"] = 2,
-								["a_amt"] = 0,
+								["MISS"] = 8,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["a_amt"] = 0,
 								["counter"] = 419,
 								["b_dmg"] = 39,
 								["total"] = 5431,
@@ -37345,7 +37319,7 @@ _detalhes_database = {
 								["c_total"] = 833,
 								["n_amt"] = 371,
 								["r_amt"] = 0,
-								["MISS"] = 8,
+								["g_dmg"] = 0,
 							},
 							["Fire Shield"] = {
 								["c_amt"] = 0,
@@ -37424,22 +37398,23 @@ _detalhes_database = {
 					["pets"] = {
 						"Lazgup <Dernand>", -- [1]
 					},
-					["aID"] = "5099-01AFAA2C",
+					["classe"] = "WARLOCK",
 					["total_without_pet"] = 35133.457742,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 45398.457742,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01AFAA2C",
 					["damage_from"] = {
 						["Druid of the Fang"] = true,
 						["Environment (Falling)"] = true,
-						["Deviate Python"] = true,
-						["Deviate Adder"] = true,
-						["Deviate Lasher"] = true,
-						["Lord Pythas"] = true,
 						["Deviate Moccasin"] = true,
+						["Deviate Adder"] = true,
+						["Deviate Python"] = true,
+						["Lord Pythas"] = true,
+						["Deviate Lasher"] = true,
 						["Environment (Fire)"] = true,
 					},
 					["targets"] = {
@@ -37478,9 +37453,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.4577420000000001,
 					["end_time"] = 1696468222,
-					["friendlyfire"] = {
-					},
-					["classe"] = "WARLOCK",
+					["on_hold"] = false,
+					["aID"] = "5099-01AFAA2C",
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38023,13 +37997,13 @@ _detalhes_database = {
 						["Deviate Lasher"] = 156,
 						["Lord Pythas"] = 178,
 						["Deviate Python"] = 91,
-						["Nightmare Ectoplasm"] = 29,
 						["Mutanus the Devourer"] = 320,
+						["Deviate Crocolisk"] = 106,
 						["Skum"] = 205,
 						["Druid of the Fang"] = 2737,
 						["Deviate Venomwing"] = 358,
 						["Evolving Ectoplasm"] = 704,
-						["Deviate Crocolisk"] = 106,
+						["Nightmare Ectoplasm"] = 29,
 						["Deviate Moccasin"] = 105,
 						["Lord Cobrahn"] = 79,
 						["Lady Anacondra"] = 94,
@@ -38066,13 +38040,13 @@ _detalhes_database = {
 									["Deviate Lasher"] = 156,
 									["Lord Pythas"] = 178,
 									["Deviate Python"] = 91,
-									["Nightmare Ectoplasm"] = 29,
 									["Mutanus the Devourer"] = 320,
+									["Deviate Crocolisk"] = 106,
 									["Skum"] = 205,
 									["Druid of the Fang"] = 2737,
 									["Deviate Venomwing"] = 358,
 									["Evolving Ectoplasm"] = 704,
-									["Deviate Crocolisk"] = 106,
+									["Nightmare Ectoplasm"] = 29,
 									["Deviate Moccasin"] = 105,
 									["Lord Cobrahn"] = 79,
 									["Lady Anacondra"] = 94,
@@ -38115,12 +38089,13 @@ _detalhes_database = {
 					["flag_original"] = 1298,
 					["pets"] = {
 					},
-					["aID"] = "5099-01B117B4",
+					["classe"] = "PRIEST",
 					["total_without_pet"] = 12971.361406,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 12971.361406,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01B117B4",
 					["damage_from"] = {
@@ -38166,9 +38141,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.361406,
 					["end_time"] = 1696468455,
-					["classe"] = "PRIEST",
-					["friendlyfire"] = {
-					},
+					["aID"] = "5099-01B117B4",
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38189,12 +38163,12 @@ _detalhes_database = {
 									["Deviate Dreadfang"] = 619,
 									["Verdan the Everliving"] = 98,
 									["Deviate Python"] = 152,
+									["Mutanus the Devourer"] = 217,
 									["Nightmare Ectoplasm"] = 34,
-									["Deviate Crocolisk"] = 205,
 									["Druid of the Fang"] = 2723,
 									["Deviate Venomwing"] = 517,
 									["Evolving Ectoplasm"] = 1312,
-									["Mutanus the Devourer"] = 217,
+									["Deviate Crocolisk"] = 205,
 									["Skum"] = 350,
 									["Devouring Ectoplasm"] = 194,
 									["Deviate Adder"] = 579,
@@ -38389,12 +38363,13 @@ _detalhes_database = {
 					["pets"] = {
 						"Target Dummy <Dontriskit>", -- [1]
 					},
-					["classe"] = "WARRIOR",
+					["aID"] = "5099-01B5E1CA",
 					["total_without_pet"] = 48068.43036800001,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 48068.43036800001,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["total_extra"] = 0,
 					["serial"] = "Player-5099-01B5E1CA",
 					["damage_from"] = {
@@ -38436,16 +38411,16 @@ _detalhes_database = {
 						["Deviate Lasher"] = 1458,
 						["Devouring Ectoplasm"] = 151,
 						["Verdan the Everliving"] = 738,
-						["Deviate Crocolisk"] = 2073,
+						["Mutanus the Devourer"] = 367,
 						["Lord Pythas"] = 140,
 						["Deviate Python"] = 664,
-						["Kresh"] = 444,
 						["Nightmare Ectoplasm"] = 970,
+						["Kresh"] = 444,
 						["Skum"] = 761,
 						["Druid of the Fang"] = 14564,
 						["Deviate Venomwing"] = 1510,
 						["Evolving Ectoplasm"] = 4185,
-						["Mutanus the Devourer"] = 367,
+						["Deviate Crocolisk"] = 2073,
 						["Deviate Moccasin"] = 555,
 						["Lord Cobrahn"] = 475,
 						["Deviate Dreadfang"] = 1806,
@@ -38458,9 +38433,8 @@ _detalhes_database = {
 					},
 					["totalabsorbed"] = 0.430368,
 					["end_time"] = 1696468611,
-					["friendlyfire"] = {
-					},
-					["aID"] = "5099-01B5E1CA",
+					["on_hold"] = false,
+					["classe"] = "WARRIOR",
 					["nome"] = "Dontriskit",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38480,16 +38454,16 @@ _detalhes_database = {
 									["Deviate Lasher"] = 731,
 									["Devouring Ectoplasm"] = 143,
 									["Verdan the Everliving"] = 635,
-									["Deviate Crocolisk"] = 1705,
+									["Mutanus the Devourer"] = 281,
 									["Lord Pythas"] = 100,
 									["Deviate Python"] = 454,
-									["Kresh"] = 323,
 									["Nightmare Ectoplasm"] = 511,
+									["Kresh"] = 323,
 									["Skum"] = 639,
 									["Druid of the Fang"] = 13186,
 									["Deviate Venomwing"] = 1295,
 									["Evolving Ectoplasm"] = 3669,
-									["Mutanus the Devourer"] = 281,
+									["Deviate Crocolisk"] = 1705,
 									["Deviate Moccasin"] = 516,
 									["Lord Cobrahn"] = 405,
 									["Deviate Dreadfang"] = 1589,
@@ -38796,9 +38770,9 @@ _detalhes_database = {
 								},
 								["n_total"] = 901,
 								["DODGE"] = 5,
-								["g_dmg"] = 0,
+								["MISS"] = 4,
 								["n_min"] = 0,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 116,
 								["b_dmg"] = 0,
 								["total"] = 1005,
@@ -38816,7 +38790,7 @@ _detalhes_database = {
 								["c_total"] = 104,
 								["n_amt"] = 97,
 								["r_amt"] = 0,
-								["MISS"] = 4,
+								["a_amt"] = 0,
 							},
 							["Fire Shield"] = {
 								["c_amt"] = 0,
@@ -38834,16 +38808,16 @@ _detalhes_database = {
 									["Deviate Lasher"] = 509,
 									["Devouring Ectoplasm"] = 8,
 									["Verdan the Everliving"] = 32,
-									["Deviate Crocolisk"] = 148,
+									["Mutanus the Devourer"] = 9,
 									["Lord Pythas"] = 40,
 									["Deviate Python"] = 182,
-									["Kresh"] = 58,
 									["Nightmare Ectoplasm"] = 159,
+									["Kresh"] = 58,
 									["Skum"] = 15,
 									["Druid of the Fang"] = 681,
 									["Deviate Venomwing"] = 66,
 									["Evolving Ectoplasm"] = 273,
-									["Mutanus the Devourer"] = 9,
+									["Deviate Crocolisk"] = 148,
 									["Deviate Moccasin"] = 20,
 									["Lord Cobrahn"] = 32,
 									["Deviate Dreadfang"] = 124,
@@ -38916,9 +38890,9 @@ _detalhes_database = {
 									["Lord Serpentis"] = 0,
 								},
 								["n_total"] = 0,
-								["g_dmg"] = 0,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["MISS"] = 8,
+								["g_dmg"] = 0,
 								["counter"] = 21,
 								["DODGE"] = 8,
 								["total"] = 0,
@@ -38936,7 +38910,7 @@ _detalhes_database = {
 								["c_total"] = 0,
 								["n_amt"] = 0,
 								["r_amt"] = 0,
-								["a_amt"] = 0,
+								["MISS"] = 8,
 							},
 							[0] = {
 								["c_amt"] = 1,
@@ -39863,7 +39837,7 @@ _detalhes_database = {
 								["MISS"] = 7,
 								["counter"] = 36,
 								["a_amt"] = 0,
-								["total"] = 72,
+								["r_amt"] = 0,
 								["c_max"] = 0,
 								["c_amt"] = 0,
 								["id"] = 1,
@@ -39877,7 +39851,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 1,
-								["r_amt"] = 0,
+								["total"] = 72,
 								["n_max"] = 22,
 							}, -- [1]
 							["Entangling Roots"] = {
@@ -44627,9 +44601,9 @@ _detalhes_database = {
 						["Fishhook"] = true,
 						["Ykkingrr"] = true,
 						["Sarkrast"] = true,
+						["Searing Totem II <Fishhook>"] = true,
 						["野猪"] = true,
 						["Infestorsfmg"] = true,
-						["Searing Totem II <Fishhook>"] = true,
 						["Samoanbeast"] = true,
 					},
 					["targets"] = {
@@ -46534,7 +46508,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 69,
 								["MISS"] = 5,
-								["r_amt"] = 0,
+								["total"] = 1112,
 								["c_max"] = 38,
 								["c_amt"] = 1,
 								["id"] = 1,
@@ -46548,7 +46522,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 38,
 								["n_amt"] = 54,
-								["total"] = 1112,
+								["r_amt"] = 0,
 								["n_max"] = 23,
 							}, -- [1]
 							["Curse of Mending"] = {
@@ -47792,9 +47766,9 @@ _detalhes_database = {
 									["Fire Nova Totem II <Fishhook>"] = 36,
 								},
 								["n_total"] = 1727,
-								["MISS"] = 4,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 4,
 								["counter"] = 90,
 								["DODGE"] = 11,
 								["r_amt"] = 0,
@@ -47812,7 +47786,7 @@ _detalhes_database = {
 								["c_total"] = 176,
 								["n_amt"] = 70,
 								["total"] = 1903,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Battle Shout"] = {
 								["c_amt"] = 0,
@@ -47932,7 +47906,7 @@ _detalhes_database = {
 								["MISS"] = 1,
 								["counter"] = 49,
 								["a_amt"] = 0,
-								["r_amt"] = 0,
+								["total"] = 869,
 								["c_max"] = 40,
 								["c_amt"] = 1,
 								["id"] = 1,
@@ -47946,7 +47920,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 40,
 								["n_amt"] = 37,
-								["total"] = 869,
+								["r_amt"] = 0,
 								["n_max"] = 27,
 							}, -- [1]
 						},
@@ -48004,9 +47978,9 @@ _detalhes_database = {
 									["Venture Co. Overseer"] = 884,
 								},
 								["n_total"] = 1537,
-								["MISS"] = 10,
+								["a_amt"] = 0,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 10,
 								["counter"] = 73,
 								["DODGE"] = 2,
 								["r_amt"] = 0,
@@ -48024,7 +47998,7 @@ _detalhes_database = {
 								["c_total"] = 453,
 								["n_amt"] = 52,
 								["total"] = 1990,
-								["a_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							["Eviscerate"] = {
 								["c_amt"] = 0,
@@ -49795,7 +49769,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["counter"] = 6,
 								["MISS"] = 1,
-								["r_amt"] = 0,
+								["total"] = 128,
 								["c_max"] = 0,
 								["c_amt"] = 0,
 								["id"] = 1,
@@ -49809,7 +49783,7 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 2,
-								["total"] = 128,
+								["r_amt"] = 0,
 								["n_max"] = 68,
 							}, -- [1]
 							["Strike"] = {
@@ -51103,7 +51077,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "WARLOCK",
+					["aID"] = "5099-01A9FF11",
 					["totalover"] = 18.011266,
 					["total_without_pet"] = 0.011266,
 					["total"] = 0.011266,
@@ -51158,12 +51132,12 @@ _detalhes_database = {
 					["targets_overheal"] = {
 						["Joexd"] = 18,
 					},
-					["aID"] = "5099-01A9FF11",
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1696203873,
 					["delay"] = 0,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "WARLOCK",
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
@@ -51718,7 +51692,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "UNKNOW",
+					["heal_enemy_amt"] = 9509,
 					["totalover"] = 0.148329,
 					["total_without_pet"] = 0.148329,
 					["monster"] = true,
@@ -51748,12 +51722,12 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["start_time"] = 1696312789,
-					["heal_enemy_amt"] = 9509,
+					["aID"] = "3840",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.148329,
 					["delay"] = 0,
-					["aID"] = "3840",
+					["classe"] = "UNKNOW",
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
@@ -52038,7 +52012,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.35583,
 					["total_without_pet"] = 0.35583,
 					["total"] = 0.35583,
@@ -52054,7 +52028,7 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["aID"] = "Pet-0-5178-1-116-3121-08009D515F",
+					["classe"] = "PET",
 					["totalover_without_pet"] = 0.35583,
 					["healing_taken"] = 1065.35583,
 					["fight_component"] = true,
@@ -52067,7 +52041,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "Pet-0-5178-1-116-3121-08009D515F",
 					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
@@ -52487,7 +52461,7 @@ _detalhes_database = {
 						"Lazgup <Dernand>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "5099-01AFAA2C",
 					["totalover"] = 54.106266,
 					["total_without_pet"] = 152.106266,
 					["total"] = 152.106266,
@@ -52545,12 +52519,12 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["start_time"] = 1696469512,
-					["aID"] = "5099-01AFAA2C",
+					["classe"] = "WARLOCK",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["totaldenied"] = 0.106266,
 					["delay"] = 0,
-					["classe"] = "WARLOCK",
+					["heal_enemy_amt"] = 0,
 				}, -- [22]
 				{
 					["flag_original"] = 4370,
@@ -52560,7 +52534,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
+					["aID"] = "Pet-0-5178-1-116-416-01009C682A",
 					["totalover"] = 0.009781999999999999,
 					["total_without_pet"] = 0.009781999999999999,
 					["total"] = 0.009781999999999999,
@@ -52589,12 +52563,12 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["start_time"] = 1696469917,
-					["aID"] = "Pet-0-5178-1-116-416-01009C682A",
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["totaldenied"] = 0.009781999999999999,
 					["delay"] = 0,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 				}, -- [23]
 				{
 					["flag_original"] = 66834,
@@ -52605,7 +52579,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "DRUID",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.03120100000000001,
 					["total_without_pet"] = 437.031201,
 					["total"] = 437.031201,
@@ -52662,12 +52636,12 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["start_time"] = 1696594634,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "5099-01B3E425",
 					["custom"] = 0,
 					["last_event"] = 0,
 					["totaldenied"] = 0.03120100000000001,
 					["delay"] = 0,
-					["aID"] = "5099-01B3E425",
+					["classe"] = "DRUID",
 				}, -- [24]
 				{
 					["flag_original"] = 1298,
@@ -52676,7 +52650,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "5099-01B3369A",
+					["heal_enemy_amt"] = 10,
 					["totalover"] = 0.015282,
 					["total_without_pet"] = 0.015282,
 					["total"] = 0.015282,
@@ -52705,12 +52679,12 @@ _detalhes_database = {
 					["grupo"] = true,
 					["healing_from"] = {
 					},
-					["heal_enemy_amt"] = 10,
+					["classe"] = "SHAMAN",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["start_time"] = 1696829495,
 					["delay"] = 0,
-					["classe"] = "SHAMAN",
+					["aID"] = "5099-01B3369A",
 				}, -- [25]
 				{
 					["flag_original"] = 1304,
@@ -52720,7 +52694,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "5099-01B891BD",
 					["totalover"] = 60.021165,
 					["total_without_pet"] = 60.021165,
 					["total"] = 60.021165,
@@ -52779,12 +52753,12 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["start_time"] = 1696830816,
-					["aID"] = "5099-01B891BD",
+					["classe"] = "UNGROUPPLAYER",
 					["custom"] = 0,
 					["last_event"] = 0,
 					["totaldenied"] = 0.021165,
 					["delay"] = 0,
-					["classe"] = "UNGROUPPLAYER",
+					["heal_enemy_amt"] = 0,
 				}, -- [26]
 				{
 					["flag_original"] = 66834,
@@ -52794,7 +52768,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "5099-01B6EB4C",
 					["totalover"] = 0.01431,
 					["total_without_pet"] = 0.01431,
 					["total"] = 0.01431,
@@ -52823,12 +52797,12 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["start_time"] = 1696840454,
-					["aID"] = "5099-01B6EB4C",
+					["classe"] = "WARRIOR",
 					["custom"] = 0,
 					["last_event"] = 0,
 					["totaldenied"] = 0.01431,
 					["delay"] = 0,
-					["classe"] = "WARRIOR",
+					["heal_enemy_amt"] = 0,
 				}, -- [27]
 			},
 		}, -- [2]
@@ -53288,11 +53262,11 @@ _detalhes_database = {
 					["pets"] = {
 						"Searing Totem <Kylablast>", -- [1]
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["boss_fight_component"] = true,
-					["serial"] = "Player-5099-019B323F",
+					["last_event"] = 0,
 					["aID"] = "5099-019B323F",
+					["serial"] = "Player-5099-019B323F",
+					["tipo"] = 4,
 				}, -- [1]
 				{
 					["flag_original"] = 1047,
@@ -53469,11 +53443,11 @@ _detalhes_database = {
 					["grupo"] = true,
 					["pets"] = {
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["boss_fight_component"] = true,
-					["serial"] = "Player-5099-019E70EF",
+					["last_event"] = 0,
 					["aID"] = "5099-019E70EF",
+					["serial"] = "Player-5099-019E70EF",
+					["tipo"] = 4,
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
@@ -53528,7 +53502,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 277,
+					["pets"] = {
+						"Kongarth <Joexd>", -- [1]
+					},
 					["classe"] = "WARLOCK",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -53552,20 +53528,18 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 363,
-					["debuff_uptime_targets"] = {
-					},
-					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
 					["grupo"] = true,
-					["pets"] = {
-						"Kongarth <Joexd>", -- [1]
-					},
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
+					["buff_uptime"] = 277,
+					["nome"] = "Joexd",
+					["last_event"] = 0,
 					["aID"] = "5099-01A9FF11",
 					["serial"] = "Player-5099-01A9FF11",
-					["nome"] = "Joexd",
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
@@ -53615,7 +53589,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 277,
+					["pets"] = {
+					},
 					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -53633,19 +53608,18 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 241,
-					["debuff_uptime_targets"] = {
-					},
-					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
 					["grupo"] = true,
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
+					["buff_uptime"] = 277,
+					["nome"] = "Gihunter",
+					["last_event"] = 0,
 					["aID"] = "5099-01B2459E",
 					["serial"] = "Player-5099-01B2459E",
-					["nome"] = "Gihunter",
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [4]
 				{
 					["flag_original"] = 1297,
@@ -53729,7 +53703,7 @@ _detalhes_database = {
 					},
 					["serial"] = "Player-5099-01B2A1BB",
 					["buff_uptime"] = 14249,
-					["interrupt"] = 50.224899,
+					["nome"] = "Fishhook",
 					["dispell_oque"] = {
 						[0] = 1,
 					},
@@ -53751,8 +53725,8 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["classe"] = "SHAMAN",
-					["nome"] = "Fishhook",
 					["boss_fight_component"] = true,
+					["interrupt"] = 50.224899,
 					["grupo"] = true,
 					["last_event"] = 0,
 					["buff_uptime_spells"] = {
@@ -53914,10 +53888,10 @@ _detalhes_database = {
 					["ownerName"] = "Joexd",
 					["boss_fight_component"] = true,
 					["nome"] = "Kongarth <Joexd>",
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["classe"] = "PET",
 					["serial"] = "Pet-0-5177-1-73-1860-02009B8881",
-					["tipo"] = 4,
+					["last_event"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 8465,
@@ -53927,10 +53901,10 @@ _detalhes_database = {
 					["ownerName"] = "Fishhook",
 					["boss_fight_component"] = true,
 					["nome"] = "Searing Totem II <Fishhook>",
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["classe"] = "PET",
 					["serial"] = "Creature-0-5175-43-6721-3902-00001A0411",
-					["tipo"] = 4,
+					["last_event"] = 0,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -53950,53 +53924,53 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3638",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Devouring Ectoplasm",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-73-3638-000019EF82",
-					["classe"] = "UNKNOW",
+					["aID"] = "3638",
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3631",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Deviate Stinglash",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-73-3631-000019FB52",
-					["classe"] = "UNKNOW",
+					["aID"] = "3631",
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3632",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Deviate Creeper",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-73-3632-00001A0173",
-					["classe"] = "UNKNOW",
+					["aID"] = "3632",
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3273",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Kolkar Stormer",
 					["monster"] = true,
-					["tipo"] = 4,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-5177-1-73-3273-00001A0054",
 					["last_event"] = 0,
+					["aID"] = "3273",
+					["serial"] = "Creature-0-5177-1-73-3273-00001A0054",
+					["tipo"] = 4,
 				}, -- [13]
 				{
 					["flag_original"] = 66834,
@@ -54133,8 +54107,8 @@ _detalhes_database = {
 					["buff_uptime_targets"] = {
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-5099-0198BB70",
@@ -54144,27 +54118,27 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3258",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Bristleback Hunter",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5178-1-57-3258-0000994B0D",
-					["classe"] = "UNKNOW",
+					["aID"] = "3258",
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3261",
 					["fight_component"] = true,
 					["nome"] = "Bristleback Thornweaver",
 					["monster"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5178-1-57-3261-0000994A83",
-					["aID"] = "3261",
+					["classe"] = "UNKNOW",
 				}, -- [16]
 				{
 					["flag_original"] = 1047,
@@ -54391,12 +54365,12 @@ _detalhes_database = {
 					["grupo"] = true,
 					["debuff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
-					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
-					["serial"] = "Player-5099-01A72CBD",
+					["tipo"] = 4,
 					["aID"] = "5099-01A72CBD",
+					["serial"] = "Player-5099-01A72CBD",
+					["last_event"] = 0,
 				}, -- [17]
 				{
 					["flag_original"] = 1047,
@@ -54477,7 +54451,7 @@ _detalhes_database = {
 					},
 					["serial"] = "Player-5099-01A573D7",
 					["buff_uptime"] = 8420,
-					["interrupt"] = 47.1508,
+					["boss_fight_component"] = true,
 					["dispell_oque"] = {
 						[0] = 6,
 					},
@@ -54501,8 +54475,8 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["classe"] = "SHAMAN",
-					["boss_fight_component"] = true,
 					["nome"] = "Yomamaa",
+					["interrupt"] = 47.1508,
 					["grupo"] = true,
 					["last_event"] = 0,
 					["buff_uptime_spells"] = {
@@ -54720,7 +54694,7 @@ _detalhes_database = {
 					},
 					["serial"] = "Player-5099-01A31BEA",
 					["buff_uptime"] = 8289,
-					["interrupt"] = 3.021203,
+					["nome"] = "Rodeoboy",
 					["dispell_oque"] = {
 						[0] = 26,
 					},
@@ -54757,8 +54731,8 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["classe"] = "SHAMAN",
-					["nome"] = "Rodeoboy",
 					["boss_fight_component"] = true,
+					["interrupt"] = 3.021203,
 					["grupo"] = true,
 					["tipo"] = 4,
 					["buff_uptime_spells"] = {
@@ -54999,7 +54973,7 @@ _detalhes_database = {
 						[0] = 57,
 					},
 					["debuff_uptime"] = 1144,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["interrupt_targets"] = {
 						["Druid of the Fang"] = 53,
@@ -55009,15 +54983,15 @@ _detalhes_database = {
 					["serial"] = "Player-5099-01B34F78",
 					["buff_uptime"] = 143,
 					["interrupt"] = 57.17379,
-					["boss_fight_component"] = true,
+					["nome"] = "Rajabuli",
 					["grupo"] = true,
 					["last_event"] = 0,
 					["classe"] = "SHAMAN",
 					["tipo"] = 4,
 					["fight_component"] = true,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Rajabuli",
+					["boss_fight_component"] = true,
 				}, -- [20]
 				{
 					["flag_original"] = 8466,
@@ -55027,8 +55001,8 @@ _detalhes_database = {
 					["ownerName"] = "Yomamaa",
 					["boss_fight_component"] = true,
 					["nome"] = "Searing Totem II <Yomamaa>",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5178-1-57-3902-00001BA34F",
 					["aID"] = "3902",
 				}, -- [21]
@@ -55040,10 +55014,10 @@ _detalhes_database = {
 					["ownerName"] = "Rajabuli",
 					["boss_fight_component"] = true,
 					["nome"] = "Searing Totem II <Rajabuli>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["aID"] = "3902",
 					["serial"] = "Creature-0-5178-1-57-3902-00001BA466",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [22]
 				{
 					["flag_original"] = 8466,
@@ -55053,10 +55027,10 @@ _detalhes_database = {
 					["ownerName"] = "Rodeoboy",
 					["nome"] = "Searing Totem II <Rodeoboy>",
 					["boss_fight_component"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["aID"] = "3902",
 					["serial"] = "Creature-0-5176-43-14727-3902-00009BA4EE",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [23]
 				{
 					["flag_original"] = 2600,
@@ -55092,75 +55066,75 @@ _detalhes_database = {
 					["ownerName"] = "Rodeoboy",
 					["nome"] = "Earthbind Totem <Rodeoboy>",
 					["boss_fight_component"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["aID"] = "2630",
 					["serial"] = "Creature-0-5176-43-14727-2630-00001BA789",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [26]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "5055",
 					["fight_component"] = true,
 					["nome"] = "Deviate Lasher",
 					["monster"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-5055-00011BA4A4",
-					["aID"] = "5055",
+					["classe"] = "UNKNOW",
 				}, -- [27]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "5756",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Deviate Venomwing",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-5756-00001BA4A6",
-					["classe"] = "UNKNOW",
+					["aID"] = "5756",
 				}, -- [28]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "5056",
 					["fight_component"] = true,
 					["nome"] = "Deviate Dreadfang",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "5056",
-					["serial"] = "Creature-0-5176-43-14727-5056-00011BA4A6",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5176-43-14727-5056-00011BA4A6",
+					["last_event"] = 0,
 				}, -- [29]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3674",
 					["fight_component"] = true,
 					["nome"] = "Skum",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "3674",
-					["serial"] = "Creature-0-5176-43-14727-3674-00001BA4A4",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5176-43-14727-3674-00001BA4A4",
+					["last_event"] = 0,
 				}, -- [30]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3670",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Lord Pythas",
-					["tipo"] = 4,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-5176-43-14727-3670-00001BA4A4",
 					["last_event"] = 0,
+					["aID"] = "3670",
+					["serial"] = "Creature-0-5176-43-14727-3670-00001BA4A4",
+					["tipo"] = 4,
 				}, -- [31]
 				{
 					["flag_original"] = 2632,
@@ -55177,11 +55151,8 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 155,
 					["spellschool"] = 8,
-					["nome"] = "Thunderclap",
-					["aID"] = "3670",
 					["boss_fight_component"] = true,
-					["tipo"] = 4,
-					["damage_twin"] = "Lord Pythas",
+					["aID"] = "3670",
 					["debuff_uptime_targets"] = {
 						["Neirbo"] = {
 							["uptime"] = 10,
@@ -55247,6 +55218,9 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
+					["tipo"] = 4,
+					["damage_twin"] = "Lord Pythas",
+					["nome"] = "Thunderclap",
 					["serial"] = "Creature-0-5176-43-14727-3670-00001BA4A4",
 					["last_event"] = 0,
 				}, -- [32]
@@ -55265,8 +55239,6 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 194,
 					["spellschool"] = 1,
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
 					["debuff_uptime_targets"] = {
 						["Rodeoboy"] = {
 							["uptime"] = 12,
@@ -55339,9 +55311,11 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
+					["classe"] = "UNKNOW",
+					["nome"] = "Dazed",
 					["last_event"] = 0,
 					["damage_twin"] = "Deviate Shambler",
-					["nome"] = "Dazed",
+					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-5176-43-14727-5761-00021BA4A6",
 					["tipo"] = 4,
 				}, -- [33]
@@ -55360,11 +55334,8 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 12,
 					["spellschool"] = 32,
-					["nome"] = "Sleep",
-					["classe"] = "UNKNOW",
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["damage_twin"] = "Lord Pythas",
+					["classe"] = "UNKNOW",
 					["debuff_uptime_targets"] = {
 						["Fishhook"] = {
 							["uptime"] = 7,
@@ -55402,6 +55373,9 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
+					["last_event"] = 0,
+					["damage_twin"] = "Lord Pythas",
+					["nome"] = "Sleep",
 					["serial"] = "Creature-0-5176-43-14727-3670-00001BA4A4",
 					["tipo"] = 4,
 				}, -- [34]
@@ -55409,40 +55383,40 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3671",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Lady Anacondra",
-					["tipo"] = 4,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-5176-43-14727-3671-00001BA4A4",
 					["last_event"] = 0,
+					["aID"] = "3671",
+					["serial"] = "Creature-0-5176-43-14727-3671-00001BA4A4",
+					["tipo"] = 4,
 				}, -- [35]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "5755",
 					["fight_component"] = true,
 					["nome"] = "Deviate Viper",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "5755",
-					["serial"] = "Creature-0-5176-43-14727-5755-00011BA4A5",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5176-43-14727-5755-00011BA4A5",
+					["last_event"] = 0,
 				}, -- [36]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "5048",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Deviate Adder",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5176-43-14727-5048-00001BA4A4",
-					["classe"] = "UNKNOW",
+					["aID"] = "5048",
 				}, -- [37]
 				{
 					["flag_original"] = 1047,
@@ -55715,11 +55689,11 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["boss_fight_component"] = true,
-					["nome"] = "Valaralu",
 					["tipo"] = 4,
 					["last_event"] = 0,
-					["serial"] = "Player-5099-01B4EE83",
 					["buff_uptime"] = 3603,
+					["serial"] = "Player-5099-01B4EE83",
+					["nome"] = "Valaralu",
 				}, -- [41]
 				{
 					["flag_original"] = 1047,
@@ -55850,12 +55824,12 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["buff_uptime"] = 2255,
+					["aID"] = "5099-01AE6FA5",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Player-5099-01AE6FA5",
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
-					["aID"] = "5099-01AE6FA5",
-					["serial"] = "Player-5099-01AE6FA5",
-					["tipo"] = 4,
 				}, -- [42]
 				{
 					["flag_original"] = 1298,
@@ -56073,7 +56047,7 @@ _detalhes_database = {
 						[0] = 21,
 					},
 					["debuff_uptime"] = 1617,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["interrupt_targets"] = {
 						["Druid of the Fang"] = 18,
@@ -56084,15 +56058,15 @@ _detalhes_database = {
 					["serial"] = "Player-5099-01ADF911",
 					["buff_uptime"] = 2601,
 					["boss_fight_component"] = true,
-					["interrupt"] = 21.088754,
+					["nome"] = "Crzylegs",
 					["grupo"] = true,
 					["last_event"] = 0,
 					["aID"] = "5099-01ADF911",
 					["tipo"] = 4,
 					["fight_component"] = true,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Crzylegs",
+					["interrupt"] = 21.088754,
 				}, -- [43]
 				{
 					["flag_original"] = 4370,
@@ -56102,10 +56076,10 @@ _detalhes_database = {
 					["ownerName"] = "Ozark",
 					["nome"] = "Geltai <Ozark>",
 					["boss_fight_component"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["aID"] = "Pet-0-5178-1-116-416-01009C3BB4",
 					["serial"] = "Pet-0-5178-1-116-416-01009C3BB4",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [44]
 				{
 					["flag_original"] = 4370,
@@ -56129,62 +56103,62 @@ _detalhes_database = {
 					["ownerName"] = "Fishhook",
 					["boss_fight_component"] = true,
 					["nome"] = "Earthbind Totem <Fishhook>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["aID"] = "2630",
 					["serial"] = "Creature-0-5175-43-778-2630-00001CEDCF",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [46]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3669",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Lord Cobrahn",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-43-778-3669-00001CE85A",
-					["aID"] = "3669",
+					["classe"] = "UNKNOW",
 				}, -- [47]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "5053",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Deviate Crocolisk",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-43-778-5053-00041CE85A",
-					["classe"] = "UNKNOW",
+					["aID"] = "5053",
 				}, -- [48]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3673",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Lord Serpentis",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-43-778-3673-00001CE85A",
-					["aID"] = "3673",
+					["classe"] = "UNKNOW",
 				}, -- [49]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "5775",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Verdan the Everliving",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-43-778-5775-00001CE85A",
-					["aID"] = "5775",
+					["classe"] = "UNKNOW",
 				}, -- [50]
 				{
 					["flag_original"] = 68168,
@@ -56201,6 +56175,11 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 6,
 					["spellschool"] = 1,
+					["nome"] = "Grasping Vines",
+					["aID"] = "5775",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["damage_twin"] = "Verdan the Everliving",
 					["debuff_uptime_targets"] = {
 						["Fishhook"] = {
 							["uptime"] = 4,
@@ -56224,11 +56203,6 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
-					["aID"] = "5775",
-					["nome"] = "Grasping Vines",
-					["last_event"] = 0,
-					["damage_twin"] = "Verdan the Everliving",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-5175-43-778-5775-00001CE85A",
 					["tipo"] = 4,
 				}, -- [51]
@@ -56247,6 +56221,11 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 6,
 					["spellschool"] = 8,
+					["nome"] = "Thundercrack",
+					["aID"] = "3654",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["damage_twin"] = "Mutanus the Devourer",
 					["debuff_uptime_targets"] = {
 						["Fishhook"] = {
 							["uptime"] = 2,
@@ -56263,11 +56242,6 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
-					["aID"] = "3654",
-					["nome"] = "Thundercrack",
-					["last_event"] = 0,
-					["damage_twin"] = "Mutanus the Devourer",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-5175-43-778-3654-00001CFA0A",
 					["tipo"] = 4,
 				}, -- [52]
@@ -56275,14 +56249,14 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3654",
 					["monster"] = true,
 					["boss_fight_component"] = true,
 					["nome"] = "Mutanus the Devourer",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-43-778-3654-00001CFA0A",
-					["aID"] = "3654",
+					["classe"] = "UNKNOW",
 				}, -- [53]
 				{
 					["flag_original"] = 68168,
@@ -56299,6 +56273,11 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 6,
 					["spellschool"] = 32,
+					["nome"] = "Naralex's Nightmare",
+					["aID"] = "3654",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["damage_twin"] = "Mutanus the Devourer",
 					["debuff_uptime_targets"] = {
 						["Fishhook"] = {
 							["uptime"] = 6,
@@ -56315,11 +56294,6 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
-					["aID"] = "3654",
-					["nome"] = "Naralex's Nightmare",
-					["last_event"] = 0,
-					["damage_twin"] = "Mutanus the Devourer",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-5175-43-778-3654-00001CFA0A",
 					["tipo"] = 4,
 				}, -- [54]
@@ -56338,6 +56312,11 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 14,
 					["spellschool"] = 32,
+					["nome"] = "Terrify",
+					["aID"] = "3654",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["damage_twin"] = "Mutanus the Devourer",
 					["debuff_uptime_targets"] = {
 						["Fishhook"] = {
 							["uptime"] = 12,
@@ -56354,11 +56333,6 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
-					["aID"] = "3654",
-					["nome"] = "Terrify",
-					["last_event"] = 0,
-					["damage_twin"] = "Mutanus the Devourer",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-5175-43-778-3654-00001CFA0A",
 					["tipo"] = 4,
 				}, -- [55]
@@ -56366,53 +56340,53 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3260",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Bristleback Water Seeker",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5178-1-116-3260-00001CF6DA",
-					["classe"] = "UNKNOW",
+					["aID"] = "3260",
 				}, -- [56]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3240",
 					["fight_component"] = true,
 					["nome"] = "Stormsnout",
 					["monster"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5178-1-116-3240-00001CFB73",
-					["aID"] = "3240",
+					["classe"] = "UNKNOW",
 				}, -- [57]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3263",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Bristleback Geomancer",
 					["fight_component"] = true,
-					["tipo"] = 4,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-5177-1-62-3263-00001D018E",
 					["last_event"] = 0,
+					["aID"] = "3263",
+					["serial"] = "Creature-0-5177-1-62-3263-00001D018E",
+					["tipo"] = 4,
 				}, -- [58]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3247",
 					["fight_component"] = true,
 					["nome"] = "Thunderhawk Hatchling",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "3247",
-					["serial"] = "Creature-0-5177-1-62-3247-00001CF70F",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-62-3247-00001CF70F",
+					["last_event"] = 0,
 				}, -- [59]
 				{
 					["flag_original"] = 68136,
@@ -56430,14 +56404,14 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3461",
 					["monster"] = true,
 					["nome"] = "Oasis Snapjaw",
 					["fight_component"] = true,
-					["tipo"] = 4,
-					["aID"] = "3461",
-					["serial"] = "Creature-0-5177-1-62-3461-00001D0552",
 					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-62-3461-00001D0552",
+					["tipo"] = 4,
 				}, -- [61]
 				{
 					["flag_original"] = 68136,
@@ -56455,14 +56429,14 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3256",
 					["fight_component"] = true,
 					["nome"] = "Sunscale Scytheclaw",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "3256",
-					["serial"] = "Creature-0-5177-1-62-3256-00001D00ED",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-62-3256-00001D00ED",
+					["last_event"] = 0,
 				}, -- [63]
 				{
 					["flag_original"] = 1047,
@@ -56543,7 +56517,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 2739,
+					["pets"] = {
+						"Lazgup <Dernand>", -- [1]
+					},
 					["classe"] = "WARLOCK",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -56635,13 +56611,11 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["boss_fight_component"] = true,
-					["nome"] = "Dernand",
-					["tipo"] = 4,
-					["pets"] = {
-						"Lazgup <Dernand>", -- [1]
-					},
-					["serial"] = "Player-5099-01AFAA2C",
+					["buff_uptime"] = 2739,
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Player-5099-01AFAA2C",
+					["nome"] = "Dernand",
 				}, -- [64]
 				{
 					["flag_original"] = 1047,
@@ -56858,7 +56832,7 @@ _detalhes_database = {
 						[0] = 9,
 					},
 					["debuff_uptime"] = 2973,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["interrupt_targets"] = {
 						["Druid of the Fang"] = 9,
@@ -56866,15 +56840,15 @@ _detalhes_database = {
 					["serial"] = "Player-5099-01B5E1CA",
 					["buff_uptime"] = 2140,
 					["boss_fight_component"] = true,
-					["interrupt"] = 9.047922,
+					["nome"] = "Dontriskit",
 					["grupo"] = true,
 					["last_event"] = 0,
 					["aID"] = "5099-01B5E1CA",
 					["tipo"] = 4,
 					["fight_component"] = true,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Dontriskit",
+					["interrupt"] = 9.047922,
 				}, -- [65]
 				{
 					["flag_original"] = 1047,
@@ -57196,11 +57170,11 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["buff_uptime"] = 15880,
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["boss_fight_component"] = true,
-					["serial"] = "Player-5099-01B3152E",
+					["last_event"] = 0,
 					["classe"] = "HUNTER",
+					["serial"] = "Player-5099-01B3152E",
+					["tipo"] = 4,
 				}, -- [66]
 				{
 					["flag_original"] = 1047,
@@ -57237,13 +57211,13 @@ _detalhes_database = {
 					["aID"] = "5099-01B117B4",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							["Spirit Tap"] = {
-								["refreshamt"] = 1,
-								["appliedamt"] = 13,
-								["activedamt"] = 13,
-								["uptime"] = 62,
-								["id"] = "Spirit Tap",
-								["actived_at"] = 15268232872,
+							["Inner Fire"] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["uptime"] = 0,
+								["id"] = "Inner Fire",
+								["actived_at"] = 3392938322,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -57379,13 +57353,13 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Inner Fire"] = {
-								["refreshamt"] = 0,
-								["appliedamt"] = 2,
-								["activedamt"] = 2,
-								["uptime"] = 0,
-								["id"] = "Inner Fire",
-								["actived_at"] = 3392938322,
+							["Spirit Tap"] = {
+								["refreshamt"] = 1,
+								["appliedamt"] = 13,
+								["activedamt"] = 13,
+								["uptime"] = 62,
+								["id"] = "Spirit Tap",
+								["actived_at"] = 15268232872,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -57456,14 +57430,14 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3655",
 					["fight_component"] = true,
 					["nome"] = "Mad Magglish",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "3655",
-					["serial"] = "Creature-0-5178-1-116-3655-00001E0A5D",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5178-1-116-3655-00001E0A5D",
+					["last_event"] = 0,
 				}, -- [69]
 				{
 					["flag_original"] = 4370,
@@ -57487,10 +57461,10 @@ _detalhes_database = {
 					["ownerName"] = "Dontriskit",
 					["boss_fight_component"] = true,
 					["nome"] = "Target Dummy <Dontriskit>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["classe"] = "PET",
 					["serial"] = "Creature-0-5176-43-3543-2673-00001E106A",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [71]
 				{
 					["flag_original"] = 2632,
@@ -57507,6 +57481,11 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 2,
 					["spellschool"] = 8,
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Poison",
+					["tipo"] = 4,
+					["damage_twin"] = "Deviate Adder",
 					["debuff_uptime_targets"] = {
 						["Fishhook"] = {
 							["uptime"] = 0,
@@ -57530,11 +57509,6 @@ _detalhes_database = {
 							["refreshamt"] = 0,
 						},
 					},
-					["classe"] = "UNKNOW",
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
-					["damage_twin"] = "Deviate Adder",
-					["nome"] = "Poison",
 					["serial"] = "Creature-0-5176-43-3543-5048-00009E0EA9",
 					["last_event"] = 0,
 				}, -- [72]
@@ -57694,54 +57668,54 @@ _detalhes_database = {
 					["debuff_uptime"] = 35,
 					["buff_uptime"] = 3001,
 					["tipo"] = 4,
-					["nome"] = "Samoanbeast",
-					["grupo"] = true,
 					["debuff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["grupo"] = true,
 					["buff_uptime_targets"] = {
 					},
-					["serial"] = "Player-5099-01B3E425",
+					["last_event"] = 0,
 					["classe"] = "DRUID",
+					["serial"] = "Player-5099-01B3E425",
+					["nome"] = "Samoanbeast",
 				}, -- [74]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3122",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Bloodtalon Taillasher",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3122-00001FF1E3",
-					["classe"] = "UNKNOW",
+					["aID"] = "3122",
 				}, -- [75]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3207",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Hexed Troll",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3207-00001FF13C",
-					["classe"] = "UNKNOW",
+					["aID"] = "3207",
 				}, -- [76]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3206",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Voodoo Troll",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3206-00001FF708",
-					["classe"] = "UNKNOW",
+					["aID"] = "3206",
 				}, -- [77]
 				{
 					["flag_original"] = 1304,
@@ -57760,10 +57734,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
-					["pets"] = {
-					},
+					["buff_uptime"] = 78,
 					["aID"] = "5099-01B40D30",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -57801,13 +57774,14 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 8,
-					["nome"] = "Frostybrah",
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
+					["nome"] = "Frostybrah",
 					["grupo"] = true,
-					["buff_uptime"] = 78,
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Player-5099-01B40D30",
 					["classe"] = "UNGROUPPLAYER",
 				}, -- [78]
@@ -57815,105 +57789,105 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3205",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Zalazane",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3205-00001FF75C",
-					["classe"] = "UNKNOW",
+					["aID"] = "3205",
 				}, -- [79]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3119",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Kolkar Drudge",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3119-00009FF856",
-					["classe"] = "UNKNOW",
+					["aID"] = "3119",
 				}, -- [80]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3120",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Kolkar Outrunner",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3120-00001FF940",
-					["classe"] = "UNKNOW",
+					["aID"] = "3120",
 				}, -- [81]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "5808",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Warlord Kolkanis",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-5808-00001FF8FC",
-					["classe"] = "UNKNOW",
+					["aID"] = "5808",
 				}, -- [82]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3111",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Razormane Quilboar",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3111-00001FFE60",
-					["classe"] = "UNKNOW",
+					["aID"] = "3111",
 				}, -- [83]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3112",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Razormane Scout",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3112-00001FFEB3",
-					["classe"] = "UNKNOW",
+					["aID"] = "3112",
 				}, -- [84]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3113",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Razormane Dustrunner",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3113-00001FD411",
-					["classe"] = "UNKNOW",
+					["aID"] = "3113",
 				}, -- [85]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3114",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Razormane Battleguard",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3114-00001FFF26",
-					["classe"] = "UNKNOW",
+					["aID"] = "3114",
 				}, -- [86]
 				{
 					["flag_original"] = 4680,
@@ -57931,118 +57905,118 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3198",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Burning Blade Apprentice",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3198-00001FC269",
-					["classe"] = "UNKNOW",
+					["aID"] = "3198",
 				}, -- [88]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3203",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Fizzle Darkstorm",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3203-0000200025",
-					["classe"] = "UNKNOW",
+					["aID"] = "3203",
 				}, -- [89]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3130",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Thunder Lizard",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3130-0000200020",
-					["classe"] = "UNKNOW",
+					["aID"] = "3130",
 				}, -- [90]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3131",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Lightning Hide",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3131-00001FF0A0",
-					["classe"] = "UNKNOW",
+					["aID"] = "3131",
 				}, -- [91]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3110",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Dreadmaw Crocolisk",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3110-00001FFF0C",
-					["classe"] = "UNKNOW",
+					["aID"] = "3110",
 				}, -- [92]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3127",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Venomtail Scorpid",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5175-1-61-3127-00001FFFD2",
-					["classe"] = "UNKNOW",
+					["aID"] = "3127",
 				}, -- [93]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3226",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Corrupted Scorpid",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3226-00001FF62E",
-					["classe"] = "UNKNOW",
+					["aID"] = "3226",
 				}, -- [94]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3123",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Bloodtalon Scythemaw",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3123-00001FED4F",
-					["classe"] = "UNKNOW",
+					["aID"] = "3123",
 				}, -- [95]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3204",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Gazz'uz",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3204-00001FFE8A",
-					["classe"] = "UNKNOW",
+					["aID"] = "3204",
 				}, -- [96]
 				{
 					["flag_original"] = 68136,
@@ -58060,40 +58034,40 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3118",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Dustwind Storm Witch",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3118-00002009D9",
-					["classe"] = "UNKNOW",
+					["aID"] = "3118",
 				}, -- [98]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3116",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Dustwind Pillager",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3116-0000200E66",
-					["classe"] = "UNKNOW",
+					["aID"] = "3116",
 				}, -- [99]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3197",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Burning Blade Fanatic",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5175-1-61-3197-000020101D",
-					["classe"] = "UNKNOW",
+					["aID"] = "3197",
 				}, -- [100]
 				{
 					["flag_original"] = 1304,
@@ -58166,8 +58140,8 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 					},
 					["grupo"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-5099-01AA1237",
@@ -58177,27 +58151,27 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3268",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Razormane Thornweaver",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-62-3268-0000201E7F",
-					["classe"] = "UNKNOW",
+					["aID"] = "3268",
 				}, -- [102]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3265",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Razormane Hunter",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-62-3265-0000201E7F",
-					["classe"] = "UNKNOW",
+					["aID"] = "3265",
 				}, -- [103]
 				{
 					["flag_original"] = 1047,
@@ -58247,8 +58221,7 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["aID"] = "5099-019E6408",
-					["pets"] = {
-					},
+					["buff_uptime"] = 336,
 					["classe"] = "MAGE",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -58326,14 +58299,15 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 19,
+					["nome"] = "Magicmay",
 					["buff_uptime_targets"] = {
 					},
+					["grupo"] = true,
 					["debuff_uptime_targets"] = {
 					},
-					["grupo"] = true,
-					["nome"] = "Magicmay",
 					["tipo"] = 4,
-					["buff_uptime"] = 336,
+					["pets"] = {
+					},
 					["serial"] = "Player-5099-019E6408",
 					["last_event"] = 0,
 				}, -- [104]
@@ -58341,93 +58315,93 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3267",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Razormane Water Seeker",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5177-1-62-3267-0000201E4B",
-					["classe"] = "UNKNOW",
+					["aID"] = "3267",
 				}, -- [105]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3266",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Razormane Defender",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5177-1-62-3266-0000201E7A",
-					["classe"] = "UNKNOW",
+					["aID"] = "3266",
 				}, -- [106]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3269",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Razormane Geomancer",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5177-1-62-3269-0000201ECD",
-					["classe"] = "UNKNOW",
+					["aID"] = "3269",
 				}, -- [107]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3380",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Burning Blade Acolyte",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-62-3380-0000201FD7",
-					["classe"] = "UNKNOW",
+					["aID"] = "3380",
 				}, -- [108]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3254",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Sunscale Lashtail",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-62-3254-00002020B1",
-					["classe"] = "UNKNOW",
+					["aID"] = "3254",
 				}, -- [109]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3239",
 					["fight_component"] = true,
 					["nome"] = "Thunderhead",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "3239",
-					["serial"] = "Creature-0-5177-1-62-3239-0000201AA1",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-62-3239-0000201AA1",
+					["last_event"] = 0,
 				}, -- [110]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 						"Lunaclaw Spirit <Lunaclaw>", -- [1]
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "12138",
 					["fight_component"] = true,
 					["nome"] = "Lunaclaw",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "12138",
-					["serial"] = "Creature-0-5177-1-62-12138-0000202CF5",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-5177-1-62-12138-0000202CF5",
+					["last_event"] = 0,
 				}, -- [111]
 				{
 					["flag_original"] = 2584,
@@ -58475,27 +58449,27 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3271",
 					["fight_component"] = true,
 					["nome"] = "Razormane Mystic",
 					["monster"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5178-1-116-3271-0000205A6E",
-					["aID"] = "3271",
+					["classe"] = "UNKNOW",
 				}, -- [114]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "3272",
 					["monster"] = true,
 					["nome"] = "Kolkar Wrangler",
 					["fight_component"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5178-1-116-3272-0000205FF7",
-					["aID"] = "3272",
+					["classe"] = "UNKNOW",
 				}, -- [115]
 				{
 					["flag_original"] = 1047,
@@ -58538,7 +58512,8 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["aID"] = "5099-01B59B46",
-					["buff_uptime"] = 20,
+					["pets"] = {
+					},
 					["classe"] = "WARLOCK",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -58566,15 +58541,14 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 0,
-					["debuff_uptime_targets"] = {
-					},
-					["nome"] = "Orrekar",
-					["grupo"] = true,
 					["buff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["pets"] = {
+					["debuff_uptime_targets"] = {
 					},
+					["grupo"] = true,
+					["nome"] = "Orrekar",
+					["tipo"] = 4,
+					["buff_uptime"] = 20,
 					["serial"] = "Player-5099-01B59B46",
 					["last_event"] = 0,
 				}, -- [116]
@@ -58612,53 +58586,53 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3382",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Southsea Cannoneer",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3382-0000238442",
-					["classe"] = "UNKNOW",
+					["aID"] = "3382",
 				}, -- [118]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3381",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Southsea Brigand",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3381-000123850D",
-					["classe"] = "UNKNOW",
+					["aID"] = "3381",
 				}, -- [119]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3397",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Kolkar Bloodcharger",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5177-1-80-3397-0000238621",
-					["classe"] = "UNKNOW",
+					["aID"] = "3397",
 				}, -- [120]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3274",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Kolkar Pack Runner",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3274-0000238A0A",
-					["classe"] = "UNKNOW",
+					["aID"] = "3274",
 				}, -- [121]
 				{
 					["flag_original"] = 1047,
@@ -58838,14 +58812,14 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3385",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Theramore Marine",
 					["monster"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-5177-1-80-3385-0000238BB0",
 					["tipo"] = 4,
+					["aID"] = "3385",
+					["serial"] = "Creature-0-5177-1-80-3385-0000238BB0",
+					["last_event"] = 0,
 				}, -- [125]
 				{
 					["flag_original"] = 1047,
@@ -58902,8 +58876,8 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["nome"] = "Uddertwister",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Player-5099-01B3369A",
 					["aID"] = "5099-01B3369A",
 				}, -- [126]
@@ -58997,14 +58971,14 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3276",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Witchwing Harpy",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3276-000023903E",
-					["classe"] = "UNKNOW",
+					["aID"] = "3276",
 				}, -- [128]
 				{
 					["flag_original"] = 1047,
@@ -59041,14 +59015,14 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3277",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Witchwing Roguefeather",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3277-0000238F8E",
-					["classe"] = "UNKNOW",
+					["aID"] = "3277",
 				}, -- [130]
 				{
 					["flag_original"] = 1047,
@@ -59085,14 +59059,14 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3282",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Venture Co. Mercenary",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3282-0000238E11",
-					["classe"] = "UNKNOW",
+					["aID"] = "3282",
 				}, -- [132]
 				{
 					["flag_original"] = 1304,
@@ -59199,28 +59173,28 @@ _detalhes_database = {
 					["debuff_uptime"] = 21,
 					["buff_uptime"] = 192,
 					["tipo"] = 4,
-					["buff_uptime_targets"] = {
-					},
-					["grupo"] = true,
 					["debuff_uptime_targets"] = {
 					},
+					["grupo"] = true,
+					["nome"] = "Bddsfmg",
 					["last_event"] = 0,
 					["aID"] = "5099-01B891BD",
 					["serial"] = "Player-5099-01B891BD",
-					["nome"] = "Bddsfmg",
+					["buff_uptime_targets"] = {
+					},
 				}, -- [133]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3278",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Witchwing Slayer",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3278-0000239D30",
-					["classe"] = "UNKNOW",
+					["aID"] = "3278",
 				}, -- [134]
 				{
 					["flag_original"] = 1047,
@@ -59380,8 +59354,8 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["nome"] = "Settsuo",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Player-5099-01B5097D",
 					["aID"] = "5099-01B5097D",
 				}, -- [136]
@@ -59389,79 +59363,79 @@ _detalhes_database = {
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3283",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Venture Co. Enforcer",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3283-000023A68C",
-					["classe"] = "UNKNOW",
+					["aID"] = "3283",
 				}, -- [137]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3782",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Shadethicket Stone Mover",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5178-1-73-3782-000023A5EA",
-					["classe"] = "UNKNOW",
+					["aID"] = "3782",
 				}, -- [138]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3452",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Serena Bloodfeather",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3452-000023AEE4",
-					["classe"] = "UNKNOW",
+					["aID"] = "3452",
 				}, -- [139]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3396",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Hezrul Bloodmark",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3396-000023AC1A",
-					["classe"] = "UNKNOW",
+					["aID"] = "3396",
 				}, -- [140]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3386",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Theramore Preserver",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3386-000023B055",
-					["classe"] = "UNKNOW",
+					["aID"] = "3386",
 				}, -- [141]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "3393",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Captain Fairmount",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-3393-000023B1D1",
-					["classe"] = "UNKNOW",
+					["aID"] = "3393",
 				}, -- [142]
 				{
 					["flag_original"] = 1047,
@@ -59536,41 +59510,41 @@ _detalhes_database = {
 					["debuff_uptime"] = 54,
 					["buff_uptime"] = 63,
 					["last_event"] = 0,
-					["nome"] = "Kumentine",
-					["grupo"] = true,
 					["debuff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["buff_uptime_targets"] = {
 					},
 					["tipo"] = 4,
 					["aID"] = "5099-01B6EB4C",
 					["serial"] = "Player-5099-01B6EB4C",
-					["buff_uptime_targets"] = {
-					},
+					["nome"] = "Kumentine",
 				}, -- [143]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "9523",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["nome"] = "Kolkar Stormseer",
 					["monster"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-5177-1-80-9523-000123BAF4",
-					["classe"] = "UNKNOW",
+					["aID"] = "9523",
 				}, -- [144]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "9524",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Kolkar Invader",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-9524-000023BAF4",
-					["classe"] = "UNKNOW",
+					["aID"] = "9524",
 				}, -- [145]
 				{
 					["flag_original"] = 1298,
@@ -59616,40 +59590,40 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "9456",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Warlord Krom'zar",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5177-1-80-9456-000023BC33",
-					["classe"] = "UNKNOW",
+					["aID"] = "9456",
 				}, -- [147]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "11911",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Grimtotem Mercenary",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5176-1-72-11911-000023BCC3",
-					["classe"] = "UNKNOW",
+					["aID"] = "11911",
 				}, -- [148]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
-					["aID"] = "4008",
+					["classe"] = "UNKNOW",
 					["monster"] = true,
 					["nome"] = "Cliff Stormer",
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5176-1-72-4008-000023AAB8",
-					["classe"] = "UNKNOW",
+					["aID"] = "4008",
 				}, -- [149]
 				{
 					["flag_original"] = 1047,
@@ -59679,8 +59653,7 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["aID"] = "5099-019D7287",
-					["pets"] = {
-					},
+					["buff_uptime"] = 546,
 					["classe"] = "MAGE",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -59708,14 +59681,15 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 16,
-					["nome"] = "Kkportal",
-					["debuff_uptime_targets"] = {
-					},
-					["grupo"] = true,
 					["buff_uptime_targets"] = {
 					},
+					["nome"] = "Kkportal",
+					["grupo"] = true,
+					["debuff_uptime_targets"] = {
+					},
 					["tipo"] = 4,
-					["buff_uptime"] = 546,
+					["pets"] = {
+					},
 					["serial"] = "Player-5099-019D7287",
 					["last_event"] = 0,
 				}, -- [150]
@@ -59799,16 +59773,16 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 67,
+					["nome"] = "Marloco",
 					["buff_uptime_targets"] = {
 					},
+					["grupo"] = true,
 					["debuff_uptime_targets"] = {
 					},
-					["grupo"] = true,
-					["nome"] = "Marloco",
 					["tipo"] = 4,
-					["classe"] = "UNGROUPPLAYER",
-					["serial"] = "Player-5099-01A85C0F",
 					["last_event"] = 0,
+					["serial"] = "Player-5099-01A85C0F",
+					["classe"] = "UNGROUPPLAYER",
 				}, -- [151]
 				{
 					["flag_original"] = 4376,
@@ -59946,10 +59920,10 @@ _detalhes_database = {
 			["Orrekar"] = {
 				["Shadow Bolt"] = 2,
 			},
-			["Uddertwister"] = {
-				["Earth Shock"] = 1,
-				["Stoneclaw Totem"] = 1,
-				["Flame Shock"] = 1,
+			["Razormane Defender"] = {
+				["Demoralizing Shout"] = 7,
+				["Battle Stance"] = 1,
+				["Heroic Strike"] = 7,
 			},
 			["Theramore Marine"] = {
 				["Disarm"] = 5,
@@ -60143,12 +60117,12 @@ _detalhes_database = {
 				["Skinning"] = 23,
 				["Immolation Trap"] = 2,
 				["Healing Potion"] = 1,
-				["Concussive Shot"] = 3,
-				["Aspect of the Cheetah"] = 3,
 				["Heavy Leather"] = 5,
+				["Aspect of the Cheetah"] = 3,
+				["Mongoose Bite"] = 3,
 				["Aspect of the Monkey"] = 3,
 				["Multi-Shot"] = 17,
-				["Mongoose Bite"] = 3,
+				["Concussive Shot"] = 3,
 				["Wing Clip"] = 6,
 				["Serpent Sting"] = 170,
 			},
@@ -60246,10 +60220,10 @@ _detalhes_database = {
 			["Burning Blade Apprentice"] = {
 				["Shadow Bolt"] = 17,
 			},
-			["Bristleback Geomancer"] = {
-				["Fireball"] = 17,
-				["Quick Flame Ward"] = 2,
-				["Flamestrike"] = 1,
+			["Kolkar Invader"] = {
+				["Strike"] = 3,
+				["Fling Torch"] = 3,
+				["Rushing Charge"] = 2,
 			},
 			["Searing Totem <Kylablast>"] = {
 				["Attack"] = 7,
@@ -60258,10 +60232,8 @@ _detalhes_database = {
 				["Shoot"] = 19,
 				["Net"] = 3,
 			},
-			["Lazgup"] = {
-				["Firebolt"] = 345,
-				["Fire Shield"] = 51,
-				["Phase Shift"] = 34,
+			["Searing Totem II <Fishhook>"] = {
+				["Attack"] = 520,
 			},
 			["Kolkar Pack Runner"] = {
 				["Battle Shout"] = 1,
@@ -60391,8 +60363,8 @@ _detalhes_database = {
 				["Naralex's Nightmare"] = 2,
 				["Thundercrack"] = 1,
 			},
-			["Deviate Stinglash"] = {
-				["Lash"] = 2,
+			["Sunscale Scytheclaw"] = {
+				["Thrash"] = 6,
 			},
 			["Geltai"] = {
 				["Phase Shift"] = 22,
@@ -60412,27 +60384,13 @@ _detalhes_database = {
 				["Claw"] = 54,
 				["Bite"] = 31,
 			},
-			["Yomamaa"] = {
-				["Tremor Totem"] = 15,
-				["Stoneclaw Totem"] = 3,
-				["Healing Wave"] = 3,
-				["Flametongue Weapon"] = 9,
-				["Flame Shock"] = 81,
-				["Lesser Healing Wave"] = 9,
-				["Frostbrand Weapon"] = 3,
-				["Lesser Agility"] = 1,
-				["Lesser Intellect"] = 1,
-				["Frost Shock"] = 23,
-				["Fire Nova Totem"] = 13,
-				["Cure Poison"] = 6,
-				["Lesser Strength"] = 1,
-				["Lightning Shield"] = 4,
-				["Stoneskin Totem"] = 5,
-				["Berserking"] = 11,
-				["Lightning Bolt"] = 4,
-				["Strength of Earth Totem"] = 6,
-				["Searing Totem"] = 37,
-				["Earth Shock"] = 51,
+			["Joexd"] = {
+				["Shoot"] = 22,
+				["Shadow Bolt"] = 4,
+				["Corruption"] = 18,
+				["Drain Life"] = 1,
+				["Immolate"] = 13,
+				["Curse of Agony"] = 16,
 			},
 			["Venomtail Scorpid"] = {
 				["Venom Sting"] = 2,
@@ -60463,25 +60421,6 @@ _detalhes_database = {
 			["Bristleback Water Seeker"] = {
 				["Frost Nova"] = 3,
 			},
-			["Captain Fairmount"] = {
-				["Battle Shout"] = 1,
-			},
-			["Grimtotem Mercenary"] = {
-				["Throw"] = 1,
-				["Pummel"] = 5,
-			},
-			["Razormane Defender"] = {
-				["Demoralizing Shout"] = 7,
-				["Battle Stance"] = 1,
-				["Heroic Strike"] = 7,
-			},
-			["Warlord Krom'zar"] = {
-				["Strike"] = 1,
-				["Create Krom'zar's Banner"] = 1,
-			},
-			["Kongarth"] = {
-				["Torment"] = 6,
-			},
 			["Dontriskit"] = {
 				["Battle Shout"] = 12,
 				["Charge"] = 1,
@@ -60505,8 +60444,27 @@ _detalhes_database = {
 				["Taunt"] = 114,
 				["Target Dummy"] = 2,
 			},
+			["Grimtotem Mercenary"] = {
+				["Throw"] = 1,
+				["Pummel"] = 5,
+			},
+			["Uddertwister"] = {
+				["Earth Shock"] = 1,
+				["Stoneclaw Totem"] = 1,
+				["Flame Shock"] = 1,
+			},
+			["Warlord Krom'zar"] = {
+				["Strike"] = 1,
+				["Create Krom'zar's Banner"] = 1,
+			},
+			["Kongarth"] = {
+				["Torment"] = 6,
+			},
 			["Searing Totem II <Rajabuli>"] = {
 				["Attack"] = 44,
+			},
+			["Captain Fairmount"] = {
+				["Battle Shout"] = 1,
 			},
 			["Lady Anacondra"] = {
 				["Sleep"] = 4,
@@ -60515,19 +60473,6 @@ _detalhes_database = {
 			},
 			["Deviate Venomwing"] = {
 				["Toxic Spit"] = 102,
-			},
-			["Frostsfmg"] = {
-				["Instant Poison"] = 1,
-				["Slice and Dice"] = 1,
-				["Evasion"] = 1,
-				["Riposte"] = 1,
-				["Sinister Strike"] = 6,
-				["Eviscerate"] = 1,
-			},
-			["Kolkar Invader"] = {
-				["Strike"] = 3,
-				["Fling Torch"] = 3,
-				["Rushing Charge"] = 2,
 			},
 			["Samoanslayer"] = {
 				["Battle Shout"] = 15,
@@ -60539,23 +60484,38 @@ _detalhes_database = {
 				["Demoralizing Shout"] = 2,
 				["Rend"] = 12,
 			},
-			["Razormane Water Seeker"] = {
-				["Creeping Mold"] = 12,
+			["Bristleback Geomancer"] = {
+				["Fireball"] = 17,
+				["Quick Flame Ward"] = 2,
+				["Flamestrike"] = 1,
 			},
-			["Searing Totem II <Fishhook>"] = {
-				["Attack"] = 520,
-			},
-			["Deviate Lasher"] = {
-				["Wide Slash"] = 18,
-			},
-			["Thunderhead"] = {
-				["Lizard Bolt"] = 1,
+			["Frostsfmg"] = {
+				["Instant Poison"] = 1,
+				["Slice and Dice"] = 1,
+				["Evasion"] = 1,
+				["Riposte"] = 1,
+				["Sinister Strike"] = 6,
+				["Eviscerate"] = 1,
 			},
 			["Southsea Cannoneer"] = {
 				["Shoot"] = 14,
 			},
+			["Lazgup"] = {
+				["Firebolt"] = 345,
+				["Fire Shield"] = 51,
+				["Phase Shift"] = 34,
+			},
+			["Deviate Lasher"] = {
+				["Wide Slash"] = 18,
+			},
+			["Razormane Water Seeker"] = {
+				["Creeping Mold"] = 12,
+			},
 			["Oasis Snapjaw"] = {
 				["Sling Dirt"] = 4,
+			},
+			["Thunderhead"] = {
+				["Lizard Bolt"] = 1,
 			},
 			["Kumentine"] = {
 				["Battle Shout"] = 1,
@@ -60568,16 +60528,30 @@ _detalhes_database = {
 				["Battle Shout"] = 6,
 				["Disarm"] = 2,
 			},
-			["Joexd"] = {
-				["Shoot"] = 22,
-				["Shadow Bolt"] = 4,
-				["Corruption"] = 18,
-				["Drain Life"] = 1,
-				["Immolate"] = 13,
-				["Curse of Agony"] = 16,
+			["Deviate Stinglash"] = {
+				["Lash"] = 2,
 			},
-			["Sunscale Scytheclaw"] = {
-				["Thrash"] = 6,
+			["Yomamaa"] = {
+				["Tremor Totem"] = 15,
+				["Stoneclaw Totem"] = 3,
+				["Healing Wave"] = 3,
+				["Flametongue Weapon"] = 9,
+				["Flame Shock"] = 81,
+				["Lesser Healing Wave"] = 9,
+				["Frostbrand Weapon"] = 3,
+				["Lesser Agility"] = 1,
+				["Lesser Intellect"] = 1,
+				["Frost Shock"] = 23,
+				["Fire Nova Totem"] = 13,
+				["Cure Poison"] = 6,
+				["Lesser Strength"] = 1,
+				["Lightning Shield"] = 4,
+				["Stoneskin Totem"] = 5,
+				["Berserking"] = 11,
+				["Lightning Bolt"] = 4,
+				["Strength of Earth Totem"] = 6,
+				["Searing Totem"] = 37,
+				["Earth Shock"] = 51,
 			},
 			["Fizzle Darkstorm"] = {
 				["Shadow Bolt"] = 1,
@@ -60618,12 +60592,6 @@ _detalhes_database = {
 		},
 		["end_time"] = 139367.444,
 		["data_inicio"] = "17:42:35",
-		["frags"] = {
-		},
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = "00:14:01",
-		["overall_enemy_name"] = "-- x -- x --",
 		["segments_added"] = {
 			{
 				["elapsed"] = 15.0909999999858,
@@ -60866,6 +60834,12 @@ _detalhes_database = {
 				["clock"] = "02:49:53",
 			}, -- [40]
 		},
+		["frags"] = {
+		},
+		["data_fim"] = "00:14:01",
+		["overall_enemy_name"] = "-- x -- x --",
+		["spells_cast_timeline"] = {
+		},
 		["cleu_timeline"] = {
 		},
 		["start_time"] = 123239.122,
@@ -60908,11 +60882,11 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				300, -- [1]
 				500.0000305175781, -- [2]
 			},
+			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
@@ -60920,14 +60894,29 @@ _detalhes_database = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
+			["author"] = "Terciob",
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -60939,22 +60928,7 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["author"] = "Terciob",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["font_size"] = 10,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = -1.52587890625e-05,
-			["use_spark"] = true,
 			["x"] = 3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -60969,9 +60943,35 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["combat_counter"] = 2218,
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
+	},
+	["nick_tag_cache"] = {
+		["last_version"] = 15,
+		["nextreset"] = 1697154542,
+		["Realistexile"] = {
+			"Realistexile", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			1, -- [7]
+		},
 	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {

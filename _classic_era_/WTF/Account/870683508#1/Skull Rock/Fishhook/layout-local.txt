@@ -25,15 +25,8 @@ FrameLevel: 1
 Anchor: TOPRIGHT
 X: -190
 Y: -140
-W: 87
+W: 95
 H: 68
-Frame: GRM_RosterChangeLogFrame
-FrameLevel: 1
-Anchor: TOP
-X: 30
-Y: -77
-W: 600
-H: 535
 Frame: GRM_SyncTrackerWindow
 FrameLevel: 1
 Anchor: CENTER

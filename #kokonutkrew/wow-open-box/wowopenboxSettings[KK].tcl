@@ -31,7 +31,6 @@ array set settings {
 	dontCaptureList	{explorer.exe SndVol.exe}
 	focusAlsoFG	1
 	game	{World of Warcraft}
-	games	{"World of Warcraft" "Overwatch" "EVE" "Star Wars\u2122: The Old Republic\u2122"}
 	hk,capture	Ctrl-Shift-C
 	hk,focusFollowMouse	Ctrl-Shift-F
 	hk,focusMain	Ctrl-Shift-W
@@ -65,7 +64,6 @@ array set settings {
 	hk9,focus	Ctrl-F9
 	hk9,swap	Ctrl-Shift-F9
 	ignoreMonitorIdx	2,3
-	lastUpdateChecked	1696958416
 	layoutAuto	1
 	layoutMaxWindows	32
 	layoutOneRowCol	0
@@ -91,8 +89,6 @@ array set settings {
 	overlayFontSize1	48
 	overlayFontSize2	48
 	overlayShowBorder	1
-	profile	{[KK]}
-	profiles	{Default {[KK]} {[KK]}}
 	rrAlwaysFocus	1
 	rrCustomExcludeList	0
 	rrIndicator,label	⟳

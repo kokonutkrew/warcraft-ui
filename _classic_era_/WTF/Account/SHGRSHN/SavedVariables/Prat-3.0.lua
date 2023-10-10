@@ -6,29 +6,29 @@ Prat3DB = {
 				["Default"] = {
 					["colors"] = {
 						["worlddefense"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
 						["hcdeathalertschannel"] = {
-							["b"] = 0.7529412508010864,
-							["g"] = 0.7529412508010864,
 							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
 						},
 						["kk"] = {
-							["b"] = 0.7529412508010864,
-							["g"] = 0.7529412508010864,
 							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
 						},
 						["wealth"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["lookingforgroup"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
 					},
 				},
@@ -64,11 +64,11 @@ Prat3DB = {
 		["Prat_Frames"] = {
 			["profiles"] = {
 				["Default"] = {
-					["minchatwidthdefault"] = 296,
+					["initialized"] = true,
 					["framealpha"] = 0,
 					["maxchatheightdefault"] = 400,
-					["maxchatwidthdefault"] = 608.0000610351562,
-					["initialized"] = true,
+					["maxchatwidthdefault"] = 608,
+					["minchatwidthdefault"] = 296.0000305175781,
 				},
 			},
 		},
@@ -95,7 +95,7 @@ Prat3DB = {
 		},
 		["Prat_Sounds"] = {
 		},
-		["Prat_Bubbles"] = {
+		["Prat_DebugModules"] = {
 		},
 		["Prat_TellTarget"] = {
 		},
@@ -111,13 +111,13 @@ Prat3DB = {
 		},
 		["Prat_PopupMessage"] = {
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_ChannelNames"] = {
 		},
 		["Prat_Invites"] = {
 		},
 		["Prat_LinkInfoIcons"] = {
 		},
-		["Prat_ChannelNames"] = {
+		["Prat_ChannelSticky"] = {
 		},
 		["Prat_ChatLog"] = {
 		},
@@ -135,7 +135,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_DebugModules"] = {
+		["Prat_Bubbles"] = {
 		},
 		["Prat_HoverTips"] = {
 		},
@@ -147,31 +147,31 @@ Prat3DB = {
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
-		["Kkportal - Skull Rock"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
-		["Samoanmystic - Grobbulus"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
 		["Kkbank - Whitemane"] = "Default",
-		["Samoansavage - Grobbulus"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanranger - Skull Rock"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -181,7 +181,7 @@ Prat3DB = {
 				["LinkInfoIcons"] = 2,
 				["DebugModules"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

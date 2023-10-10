@@ -19,11 +19,11 @@ AutoLayerDB = {
 		["Kkblacksmith - Skull Rock"] = {
 		},
 		["Kktailor - Skull Rock"] = {
-			["layered"] = 66,
-			["whisper"] = true,
 			["minimap"] = {
 				["minimapPos"] = 218.3423250949552,
 			},
+			["whisper"] = true,
+			["layered"] = 66,
 		},
 		["Kkbanker - Skull Rock"] = {
 		},

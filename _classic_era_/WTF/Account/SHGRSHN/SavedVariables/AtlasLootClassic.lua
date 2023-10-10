@@ -1,8 +1,5 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 3010003,
-	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Kktailor - Whitemane",
 		["Kktailor - Skull Rock"] = "Kktailor - Skull Rock",
@@ -10,34 +7,34 @@ AtlasLootClassicDB = {
 		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanbeast - Grobbulus"] = "Samoanbeast - Grobbulus",
 		["Ss - Grobbulus"] = "Ss - Grobbulus",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
-		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
+		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
 		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Dd - Grobbulus"] = "Dd - Grobbulus",
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
-		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
-		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
+		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
 		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
 		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
 		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
-		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
+		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
-		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
+	},
+	["global"] = {
+		["__addonrevision"] = 3010003,
 	},
 	["profiles"] = {
 		["Kktailor - Whitemane"] = {
 		},
 		["Kktailor - Skull Rock"] = {
-			["minimap"] = {
-				["minimapPos"] = 204.7315214618736,
-			},
 			["GUI"] = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
@@ -47,6 +44,9 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 204.7315214618736,
+			},
 		},
 		["Samoanlegend - Grobbulus"] = {
 			["minimap"] = {
@@ -54,6 +54,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Samoanslayer - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 156.543921345181,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -70,9 +73,6 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 156.543921345181,
-			},
 		},
 		["Samoanbeast - Grobbulus"] = {
 			["minimap"] = {
@@ -84,9 +84,9 @@ AtlasLootClassicDB = {
 				["minimapPos"] = 140.926596225582,
 			},
 		},
-		["Samoanbeast - Skull Rock"] = {
+		["Samoanranger - Skull Rock"] = {
 		},
-		["Samoanranger - Defias Pillager"] = {
+		["Kkportal - Skull Rock"] = {
 		},
 		["Samoanranger - Grobbulus"] = {
 		},
@@ -94,20 +94,23 @@ AtlasLootClassicDB = {
 		},
 		["Samoanraja - Grobbulus"] = {
 		},
-		["Kkportal - Skull Rock"] = {
+		["Samoanranger - Defias Pillager"] = {
 		},
-		["Goldenshots - Defias Pillager"] = {
-		},
-		["Samoanmystic - Grobbulus"] = {
+		["Samoansavage - Grobbulus"] = {
 			["minimap"] = {
-				["minimapPos"] = 143.75621412615,
+				["minimapPos"] = 84.1541906541644,
 			},
 		},
 		["Kkbanker - Skull Rock"] = {
 		},
 		["Kkbank - Whitemane"] = {
 		},
-		["Øø - Skull Rock"] = {
+		["Samoanmystic - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 143.75621412615,
+			},
+		},
+		["Samoanbank - Whitemane"] = {
 		},
 		["Bannhammer - Skull Rock"] = {
 		},
@@ -118,7 +121,7 @@ AtlasLootClassicDB = {
 		},
 		["Samoanslayer - Skull Rock"] = {
 		},
-		["Samoanbank - Whitemane"] = {
+		["Øø - Skull Rock"] = {
 		},
 		["Samoansage - Grobbulus"] = {
 			["minimap"] = {
@@ -127,14 +130,11 @@ AtlasLootClassicDB = {
 		},
 		["Cupcakeheals - Skull Rock"] = {
 		},
-		["Samoansavage - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 84.1541906541644,
-			},
+		["Goldenshots - Defias Pillager"] = {
 		},
 		["Samoanrelic - Grobbulus"] = {
 		},
-		["Samoanranger - Skull Rock"] = {
+		["Samoanbeast - Skull Rock"] = {
 		},
 	},
 }

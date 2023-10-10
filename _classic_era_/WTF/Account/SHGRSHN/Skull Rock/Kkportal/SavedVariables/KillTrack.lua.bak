@@ -17,8 +17,8 @@ KILLTRACK_CHAR = {
 			["Name"] = "Thunder Lizard",
 		},
 		[11320] = {
-			["LastKillAt"] = 1696920655,
-			["Kills"] = 2,
+			["LastKillAt"] = 1696955232,
+			["Kills"] = 4,
 			["Name"] = "Earthborer",
 		},
 		[3099] = {
@@ -45,8 +45,8 @@ KILLTRACK_CHAR = {
 			["Kills"] = 0,
 		},
 		[11324] = {
-			["LastKillAt"] = 1696921565,
-			["Kills"] = 3,
+			["LastKillAt"] = 1696956330,
+			["Kills"] = 4,
 			["Name"] = "Searing Blade Warlock",
 		},
 		[3100] = {
@@ -59,14 +59,18 @@ KILLTRACK_CHAR = {
 			["Name"] = "Dustwind Pillager",
 		},
 		[8996] = {
-			["LastKillAt"] = 1696921285,
-			["Kills"] = 3,
+			["LastKillAt"] = 1696956262,
+			["Kills"] = 5,
 			["Name"] = "Voidwalker Minion",
 		},
 		[3203] = {
 			["LastKillAt"] = 1696915480,
 			["Kills"] = 1,
 			["Name"] = "Fizzle Darkstorm",
+		},
+		[11517] = {
+			["Name"] = "Oggleflint",
+			["Kills"] = 0,
 		},
 		[3227] = {
 			["Name"] = "Corrupted Bloodtalon Scythemaw",
@@ -135,53 +139,53 @@ KILLTRACK_CHAR = {
 			["Name"] = "Fleeting Plainstrider",
 			["Kills"] = 0,
 		},
-		[11321] = {
-			["LastKillAt"] = 1696920866,
-			["Kills"] = 2,
-			["Name"] = "Molten Elemental",
+		[11519] = {
+			["Name"] = "Bazzalan",
+			["Kills"] = 0,
 		},
-		[11319] = {
-			["LastKillAt"] = 1696920540,
-			["Kills"] = 2,
-			["Name"] = "Ragefire Shaman",
+		[11518] = {
+			["Name"] = "Jergosh the Invoker",
+			["Kills"] = 0,
 		},
 		[3113] = {
 			["LastKillAt"] = 1696913245,
 			["Kills"] = 4,
 			["Name"] = "Razormane Dustrunner",
 		},
-		[3111] = {
-			["LastKillAt"] = 1696912728,
-			["Kills"] = 4,
-			["Name"] = "Razormane Quilboar",
+		[11323] = {
+			["LastKillAt"] = 1696956006,
+			["Kills"] = 7,
+			["Name"] = "Searing Blade Enforcer",
 		},
-		[11318] = {
-			["LastKillAt"] = 1696920337,
-			["Kills"] = 3,
-			["Name"] = "Ragefire Trogg",
+		[11322] = {
+			["LastKillAt"] = 1696956264,
+			["Kills"] = 9,
+			["Name"] = "Searing Blade Cultist",
 		},
 		[12922] = {
 			["LastKillAt"] = 1696915467,
 			["Kills"] = 1,
 			["Name"] = "Imp Minion",
 		},
-		[11322] = {
-			["LastKillAt"] = 1696921646,
+		[11318] = {
+			["LastKillAt"] = 1696954964,
 			["Kills"] = 7,
-			["Name"] = "Searing Blade Cultist",
+			["Name"] = "Ragefire Trogg",
 		},
-		[11323] = {
-			["LastKillAt"] = 1696921469,
-			["Kills"] = 2,
-			["Name"] = "Searing Blade Enforcer",
+		[3111] = {
+			["LastKillAt"] = 1696912728,
+			["Kills"] = 4,
+			["Name"] = "Razormane Quilboar",
 		},
-		[11518] = {
-			["Name"] = "Jergosh the Invoker",
-			["Kills"] = 0,
+		[11319] = {
+			["LastKillAt"] = 1696955016,
+			["Kills"] = 6,
+			["Name"] = "Ragefire Shaman",
 		},
-		[11519] = {
-			["Name"] = "Bazzalan",
-			["Kills"] = 0,
+		[11321] = {
+			["LastKillAt"] = 1696955177,
+			["Kills"] = 3,
+			["Name"] = "Molten Elemental",
 		},
 	},
 }

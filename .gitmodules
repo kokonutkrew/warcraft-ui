@@ -1,3 +1,6 @@
 [submodule "#kokonutkrew/github/auto-fish"]
 	path = "#kokonutkrew/github/auto-fish"
 	url = git@github.com:jsbots/AutoFish.git
+[submodule "#kokonutkrew/github/git-crypt-key"]
+	path = "#kokonutkrew/github/git-crypt-key"
+	url = git@github.com:S4M04NSL4Y3R/key.git

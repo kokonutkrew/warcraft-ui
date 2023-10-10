@@ -8,32 +8,29 @@ ChatAlarm = {
 		0, -- [1]
 		1, -- [2]
 	},
-	["txtAutoChat"] = "LF1M RFC, Tank",
+	["txtAutoChat"] = "LF1M RFC,  DPS",
 	["DDBoxTemplateSearch"] = 1,
 	["chkBtnActive"] = true,
 	["chkBtnTrade"] = false,
 	["chkBtnPostGuild"] = false,
 	["chkBtnGuild"] = false,
-	["Merge"] = {
-		"<ini> group search for <player>", -- [1]
-		"<player> search group for <ini>", -- [2]
-	},
+	["chkBtnTooltip"] = true,
 	["DDBoxDelay"] = 1,
 	["chkBtnLFG"] = true,
-	["chkBtnSearchTank"] = false,
+	["chkBtnSearchLFG"] = false,
 	["txtSeperate"] = "/",
 	["r"] = {
 		1, -- [1]
 		0, -- [2]
 	},
 	["chkBtnAntiSpam"] = true,
-	["chkBtnPlayerColor"] = true,
-	["chkBtnSound"] = true,
-	["chkBtnGeneral"] = false,
-	["chkBtnSearchLFM"] = true,
-	["chkBtnSearchHeal"] = false,
-	["ver"] = 1.331,
 	["chkBtnSearchDD"] = true,
+	["ver"] = 1.331,
+	["chkBtnSearchHeal"] = false,
+	["chkBtnSearchLFM"] = true,
+	["chkBtnGeneral"] = true,
+	["chkBtnSound"] = true,
+	["chkBtnPlayerColor"] = true,
 	["chkBtnWithPlayer"] = false,
 	["TemplateWords"] = {
 		{
@@ -243,6 +240,9 @@ ChatAlarm = {
 			"", -- [6]
 		}, -- [29]
 	},
-	["chkBtnSearchLFG"] = false,
-	["chkBtnTooltip"] = true,
+	["chkBtnSearchTank"] = false,
+	["Merge"] = {
+		"<ini> group search for <player>", -- [1]
+		"<player> search group for <ini>", -- [2]
+	},
 }

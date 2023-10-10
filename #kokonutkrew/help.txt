@@ -9,15 +9,28 @@ git submodule update --init --recursive
 ////////////////////////////////////////////////////////////////////////////////
 
 git submodule update --recursive --remote
+git add `#kokonutkrew/github/auto-fish
+git commit -m "Update submodule: #kokonutkrew/github/auto-fish"
 
 ////////////////////////////////////////////////////////////////////////////////
 // Add a new submodule
 ////////////////////////////////////////////////////////////////////////////////
 
 git submodule add https://github.com/example/repo.git path/to/submodule
-git submodule add git@github.com:jsbots/AutoFish.git #kokonutkrew/auto-fish
+git submodule add -f git@github.com:jsbots/AutoFish.git `#kokonutkrew/github/auto-fish
 git commit -m "Add submodule: #kokonutkrew/auto-fish"
 
+git submodule add -f git@github.com:S4M04NSL4Y3R/key.git `#kokonutkrew/github/git-crypt-key
+
+////////////////////////////////////////////////////////////////////////////////
+// Remove a new submodule
+////////////////////////////////////////////////////////////////////////////////
+
+git submodule deinit -f path/to/submodule
+git rm -f path/to/submodule
+
+git submodule deinit -f `#kokonutkrew/github/auto-fish*
+git rm -f `#kokonutkrew/github/auto-fish*
 
 ////////////////////////////////////////////////////////////////////////////////
 // Tracking/Untracking Commands

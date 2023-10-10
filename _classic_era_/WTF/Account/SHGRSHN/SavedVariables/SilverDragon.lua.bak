@@ -7,26 +7,26 @@ SilverDragon3DB = {
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
-		["Samoanranger - Skull Rock"] = "Default",
-		["Kkportal - Skull Rock"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
-		["Øø - Skull Rock"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Kkbank - Whitemane"] = "Default",
 		["Samoanmystic - Grobbulus"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoansavage - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
 	},
 	["namespaces"] = {
 		["Overlay"] = {
@@ -55,7 +55,7 @@ SilverDragon3DB = {
 		},
 		["Scan_Vignettes"] = {
 		},
-		["Scan_Targets"] = {
+		["Macro"] = {
 		},
 		["LDB"] = {
 			["profiles"] = {
@@ -68,7 +68,7 @@ SilverDragon3DB = {
 		},
 		["Announce"] = {
 		},
-		["Macro"] = {
+		["Scan_Targets"] = {
 		},
 	},
 	["global"] = {
@@ -103,12 +103,12 @@ SilverDragon3DB = {
 			[5831] = 1,
 			[9046] = 10,
 			[5800] = 1,
-			[16380] = 1,
-			[2931] = 1,
-			[5797] = 3,
-			[14279] = 1,
-			[5933] = 1,
 			[3672] = 1,
+			[5933] = 1,
+			[14279] = 1,
+			[5797] = 3,
+			[2931] = 1,
+			[16380] = 1,
 		},
 		["mob_seen"] = {
 			[14342] = 1598905075,
@@ -141,12 +141,12 @@ SilverDragon3DB = {
 			[5831] = 1696402976,
 			[9046] = 1605233468,
 			[5800] = 1599966115,
-			[16380] = 1607111163,
-			[2931] = 1598691348,
-			[5797] = 1696400770,
-			[14279] = 1603983549,
-			[5933] = 1605335208,
 			[3672] = 1696552529,
+			[5933] = 1605335208,
+			[14279] = 1603983549,
+			[5797] = 1696400770,
+			[2931] = 1598691348,
+			[16380] = 1607111163,
 		},
 	},
 	["profiles"] = {

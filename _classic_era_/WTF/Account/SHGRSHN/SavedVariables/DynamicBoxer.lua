@@ -16,16 +16,16 @@ dynamicBoxerSaved = {
 	["showIdAtStart"] = true,
 	["serializedMemberHistory"] = {
 	},
-	["autoInvite"] = true,
+	["serializedMasterHistory"] = {
+	},
 	["statusScale"] = 0.9999999534936553,
+	["configVersion"] = 1,
+	["autoRaid"] = true,
 	["statusPos"] = {
 		"BOTTOMLEFT", -- [1]
 		1061.926025390625, -- [2]
 		851.7531127929688, -- [3]
 	},
-	["autoRaid"] = true,
-	["configVersion"] = 1,
 	["maxParty"] = 5,
-	["serializedMasterHistory"] = {
-	},
+	["autoInvite"] = true,
 }

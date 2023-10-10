@@ -83,6 +83,7 @@ TeamProfileDB = {
 			},
 		},
 		["Default"] = {
+			["master"] = "Samoanslayer-SkullRock",
 			["newTeamList"] = {
 				["Samoanranger-SkullRock"] = {
 					{
@@ -109,12 +110,11 @@ TeamProfileDB = {
 					}, -- [1]
 				},
 			},
-			["master"] = "Samoanslayer-SkullRock",
 		},
 		["[KK]"] = {
 			["global"] = {
 			},
-			["master"] = "Samoanranger-SkullRock",
+			["master"] = "Kkportal-SkullRock",
 			["newTeamList"] = {
 				["Fishhook-SkullRock"] = {
 					{
@@ -297,7 +297,7 @@ TagProfileDB = {
 				},
 				["Kkportal-SkullRock"] = {
 					"all", -- [1]
-					"minion", -- [2]
+					"master", -- [2]
 				},
 				["Komrad-SkullRock"] = {
 					"all", -- [1]
@@ -305,7 +305,7 @@ TagProfileDB = {
 				},
 				["Samoanranger-SkullRock"] = {
 					"all", -- [1]
-					"master", -- [2]
+					"minion", -- [2]
 				},
 				["Kkbanker-SkullRock"] = {
 					"all", -- [1]
@@ -453,10 +453,6 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanranger - Skull Rock"] = {
-			["itemUseTitleHeight"] = 2,
-			["frameYOffset"] = 70.00000762939453,
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -538,9 +534,14 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
+			},
+			["frameYOffset"] = 70.00000762939453,
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
 			},
 		},
 		["Kkportal - Skull Rock"] = {
+			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
 			["itemsAdvanced"] = {
@@ -625,7 +626,6 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Default"] = {
 			["itemsAdvanced"] = {
@@ -849,10 +849,10 @@ QuestProfileDB = {
 		["[KK]"] = {
 			["global"] = {
 			},
-			["acceptFromTeam"] = true,
 			["onlyAcceptQuestsFrom"] = true,
-			["doNotAutoAccept"] = false,
 			["masterAutoShareQuestOnAccept"] = true,
+			["acceptFromTeam"] = true,
+			["doNotAutoAccept"] = false,
 		},
 	},
 }

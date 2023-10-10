@@ -8,24 +8,22 @@ FishingModeDB = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
 		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
 		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
 		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["volumeOverrideEnabled"] = true,
-			["swapEquipmentSet"] = true,
 			["bindings"] = {
 				["CAST_LINE"] = {
 					nil, -- [1]
@@ -36,9 +34,11 @@ FishingModeDB = {
 					"F", -- [2]
 				},
 			},
+			["swapEquipmentSet"] = true,
 			["minimap"] = {
 				["minimapPos"] = 116.5649877300965,
 			},
+			["volumeOverrideEnabled"] = true,
 		},
 		["Threadcraft - Emerald Dream"] = {
 		},
@@ -61,9 +61,9 @@ FishingModeDB = {
 				["minimapPos"] = 249.5671351124465,
 			},
 		},
-		["Farmcraft - Tichondrius"] = {
-		},
 		["Gearcraft - Emerald Dream"] = {
+		},
+		["Farmcraft - Tichondrius"] = {
 		},
 		["Samoanruin - Emerald Dream"] = {
 		},
@@ -76,13 +76,13 @@ FishingModeDB = {
 		},
 		["Ikkl - Emerald Dream"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Farmcraft - Emerald Dream"] = {
 		},
 		["Threadcrafts - Emerald Dream"] = {
 		},
-		["Farmcraft - Emerald Dream"] = {
-		},
 		["Mf - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Dustcraft - Emerald Dream"] = {
 		},

@@ -29,7 +29,7 @@ VWQL = {
 			[52330] = true,
 			[50509] = true,
 			[55301] = true,
-			[51608] = true,
+			[54569] = true,
 			[53289] = true,
 			[52875] = true,
 			[52474] = true,
@@ -40,7 +40,7 @@ VWQL = {
 			[51676] = true,
 			[51100] = true,
 			[52047] = true,
-			[54569] = true,
+			[51608] = true,
 			[54571] = true,
 			[52196] = true,
 			[50858] = true,
@@ -58,16 +58,16 @@ VWQL = {
 			[52864] = true,
 			[54601] = true,
 			[55466] = true,
-			[51656] = true,
-			[51583] = true,
-			[52794] = true,
 			[50459] = true,
-			[51026] = true,
-			[51431] = true,
+			[55300] = true,
+			[52794] = true,
 			[51782] = true,
+			[51656] = true,
+			[51431] = true,
+			[51026] = true,
 			[51469] = true,
 			[54621] = true,
-			[55300] = true,
+			[51583] = true,
 			[51972] = true,
 			[50847] = true,
 			[56141] = true,
@@ -120,14 +120,14 @@ VWQL = {
 		["VERSION"] = 100,
 		["Filter"] = 63,
 		["Quests"] = {
-			[60602] = true,
-			[61538] = true,
 			[61883] = true,
+			[59599] = true,
+			[60602] = true,
 			[61353] = true,
 			[59234] = true,
 			[60657] = true,
 			[58144] = true,
-			[59599] = true,
+			[61538] = true,
 		},
 		["FilterType"] = {
 		},
@@ -140,15 +140,15 @@ VWQL = {
 			[71205] = true,
 			[69931] = true,
 			[70623] = true,
-			[70149] = true,
+			[70074] = true,
 			[61813] = true,
 			[70176] = true,
-			[67012] = true,
+			[72022] = true,
 			[69938] = true,
-			[70074] = true,
+			[70149] = true,
 			[71140] = true,
 			[70646] = true,
-			[72022] = true,
+			[67012] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -161,22 +161,22 @@ VWQL = {
 		},
 		["VERSION"] = 105,
 		["Quests"] = {
-			[54182] = true,
 			[70623] = true,
-			[67012] = true,
+			[54182] = true,
+			[72022] = true,
 			[71205] = true,
 			[69931] = true,
 			[54129] = true,
 			[66588] = true,
 			[70149] = true,
 			[69938] = true,
-			[70176] = true,
-			[72022] = true,
+			[54281] = true,
+			[67012] = true,
 			[53877] = true,
 			[70074] = true,
-			[53726] = true,
+			[70176] = true,
 			[70646] = true,
-			[54281] = true,
+			[53726] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -191,7 +191,7 @@ VWQL = {
 		},
 	},
 	["Samoanslayer-EmeraldDream"] = {
-		["VERSION"] = 105,
+		["VERSION"] = 107,
 		["Filter"] = 63,
 		["Quests"] = {
 			[66934] = true,
@@ -209,31 +209,31 @@ VWQL = {
 			[72019] = true,
 			[59804] = true,
 			[59617] = true,
-			[61352] = true,
-			[66618] = true,
 			[70417] = true,
 			[70421] = true,
 			[70047] = true,
+			[66618] = true,
 			[58505] = true,
 			[59578] = true,
 			[70634] = true,
 			[70638] = true,
 			[72028] = true,
 			[61791] = true,
-			[70146] = true,
+			[61352] = true,
 			[70780] = true,
+			[70146] = true,
 			[60476] = true,
-			[60602] = true,
 			[61948] = true,
-			[61667] = true,
+			[69938] = true,
+			[61689] = true,
 			[61870] = true,
 			[60533] = true,
-			[61689] = true,
+			[61667] = true,
 			[60659] = true,
-			[69938] = true,
+			[61815] = true,
 			[60872] = true,
 			[61189] = true,
-			[61815] = true,
+			[60602] = true,
 			[61879] = true,
 		},
 		["FilterType"] = {
@@ -247,7 +247,7 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["VERSION"] = 105,
+	["VERSION"] = 107,
 	["AnchorQCBLeft"] = 17.00074768066406,
 	["Herbcraft-EmeraldDream"] = {
 		["VERSION"] = 105,
@@ -261,12 +261,12 @@ VWQL = {
 			[66588] = true,
 			[70149] = true,
 			[70176] = true,
-			[67012] = true,
+			[72022] = true,
 			[69938] = true,
 			[70074] = true,
 			[61813] = true,
 			[70646] = true,
-			[72022] = true,
+			[67012] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -290,30 +290,13 @@ VWQL = {
 		["VERSION"] = 100,
 	},
 	["AnchorQCBTop"] = 932.2222290039062,
-	["Orecraft-EmeraldDream"] = {
+	["Fedieb-EmeraldDream"] = {
 		["Filter"] = 63,
-		["VERSION"] = 105,
-		["Quests"] = {
-			[61060] = true,
-			[61870] = true,
-			[61189] = true,
-			[70149] = true,
-			[66588] = true,
-			[69938] = true,
-			[61879] = true,
-			[70934] = true,
-			[70442] = true,
-			[61791] = true,
-			[61948] = true,
-			[72022] = true,
-			[70549] = true,
-			[69931] = true,
-			[70057] = true,
-			[67062] = true,
-			[70622] = true,
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["VERSION"] = 101,
 	},
 	["Samoantank-EmeraldDream"] = {
 		["Filter"] = 63,
@@ -358,21 +341,31 @@ VWQL = {
 		},
 		["VERSION"] = 100,
 	},
-	["Agenolm-EmeraldDream"] = {
-		["VERSION"] = 104,
+	["Samoaninja-Tichondrius"] = {
+		["VERSION"] = 100,
 		["FilterType"] = {
 		},
 		["Quests"] = {
 		},
 		["Filter"] = 63,
 	},
-	["Gl-EmeraldDream"] = {
+	["Samoanruin-EmeraldDream"] = {
 		["Filter"] = 63,
-		["FilterType"] = {
-		},
+		["VERSION"] = 100,
+		["RegularQuestMode"] = true,
 		["Quests"] = {
 		},
+		["FilterType"] = {
+		},
+	},
+	["Samoanrelic-EmeraldDream"] = {
 		["VERSION"] = 100,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
 	},
 	["Samoanrelic-Stormrage"] = {
 		["Filter"] = 63,
@@ -385,15 +378,6 @@ VWQL = {
 	["Samoanbeast-EmeraldDream"] = {
 		["Filter"] = 63,
 		["VERSION"] = 105,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Samoanrelic-EmeraldDream"] = {
-		["VERSION"] = 100,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
 		["Quests"] = {
 		},
 		["FilterType"] = {
@@ -417,13 +401,18 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["Samoansage-Tichondrius"] = {
-		["Filter"] = 63,
+	["Samoandrake-EmeraldDream"] = {
+		["VERSION"] = 105,
 		["FilterType"] = {
 		},
 		["Quests"] = {
+			[66588] = true,
+			[69938] = true,
+			[67012] = true,
+			[71205] = true,
+			[69931] = true,
 		},
-		["VERSION"] = 104,
+		["Filter"] = 63,
 	},
 	["Dustcraft-EmeraldDream"] = {
 		["Filter"] = 63,
@@ -452,6 +441,23 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
+	["Mf-EmeraldDream"] = {
+		["VERSION"] = 105,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Samoansage-Tichondrius"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Arrow_PointX"] = 4.000030040740967,
 	["Samoantitan-EmeraldDream"] = {
 		["Filter"] = 63,
 		["VERSION"] = 100,
@@ -461,38 +467,15 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Samoandrake-EmeraldDream"] = {
-		["VERSION"] = 105,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[66588] = true,
-			[69938] = true,
-			[67012] = true,
-			[71205] = true,
-			[69931] = true,
-		},
-		["Filter"] = 63,
-	},
-	["Arrow_PointX"] = 4.000030040740967,
-	["Mf-EmeraldDream"] = {
-		["VERSION"] = 105,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
 	["Ignore"] = {
 	},
-	["Samoanruin-EmeraldDream"] = {
+	["Gl-EmeraldDream"] = {
 		["Filter"] = 63,
-		["VERSION"] = 100,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
 	},
 	["Forgecraft-Illidan"] = {
 		["Filter"] = 63,
@@ -501,6 +484,14 @@ VWQL = {
 		["Quests"] = {
 		},
 		["VERSION"] = 105,
+	},
+	["Agenolm-EmeraldDream"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Samoansurge-EmeraldDream"] = {
 		["Filter"] = 63,
@@ -511,14 +502,6 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Samoaninja-Tichondrius"] = {
-		["VERSION"] = 100,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
 	["Samoanghost-EmeraldDream"] = {
 		["Filter"] = 63,
 		["VERSION"] = 100,
@@ -528,13 +511,30 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Fedieb-EmeraldDream"] = {
+	["Orecraft-EmeraldDream"] = {
 		["Filter"] = 63,
+		["VERSION"] = 105,
+		["Quests"] = {
+			[61060] = true,
+			[61870] = true,
+			[61189] = true,
+			[70149] = true,
+			[66588] = true,
+			[69938] = true,
+			[61879] = true,
+			[70934] = true,
+			[70442] = true,
+			[61791] = true,
+			[61948] = true,
+			[72022] = true,
+			[70549] = true,
+			[69931] = true,
+			[70057] = true,
+			[67062] = true,
+			[70622] = true,
+		},
 		["FilterType"] = {
 		},
-		["Quests"] = {
-		},
-		["VERSION"] = 101,
 	},
 	["Ishaesh-EmeraldDream"] = {
 		["VERSION"] = 104,

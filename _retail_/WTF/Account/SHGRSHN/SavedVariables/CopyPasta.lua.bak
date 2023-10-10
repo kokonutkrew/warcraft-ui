@@ -16,27 +16,27 @@ PasteDB = {
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
 		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
 		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 277.7920920206388,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 676.0000610351562,
 				["left"] = 1416.000244140625,
 				["width"] = 500.0000610351563,
-			},
-			["minimap"] = {
-				["minimapPos"] = 277.7920920206388,
 			},
 		},
 		["Threadcraft - Emerald Dream"] = {
@@ -115,6 +115,15 @@ PasteDB = {
 		["Samoanmystic - Emerald Dream"] = {
 			["loaded"] = true,
 		},
+		["Farmcraft - Emerald Dream"] = {
+			["loaded"] = true,
+		},
+		["Threadcrafts - Emerald Dream"] = {
+			["loaded"] = true,
+		},
+		["Mf - Emerald Dream"] = {
+			["loaded"] = true,
+		},
 		["Samoansage - Emerald Dream"] = {
 			["whispertarget"] = "",
 			["where"] = "Default",
@@ -128,15 +137,6 @@ PasteDB = {
 			["minimap"] = {
 				["minimapPos"] = 161.8007794502354,
 			},
-		},
-		["Threadcrafts - Emerald Dream"] = {
-			["loaded"] = true,
-		},
-		["Farmcraft - Emerald Dream"] = {
-			["loaded"] = true,
-		},
-		["Mf - Emerald Dream"] = {
-			["loaded"] = true,
 		},
 		["Dustcraft - Emerald Dream"] = {
 			["loaded"] = true,

@@ -14,26 +14,23 @@ ChatAlarm = {
 	["chkBtnTrade"] = false,
 	["chkBtnPostGuild"] = false,
 	["chkBtnGuild"] = false,
-	["ver"] = 1.331,
+	["chkBtnTooltip"] = true,
 	["DDBoxDelay"] = 1,
 	["chkBtnLFG"] = true,
-	["Merge"] = {
-		"<ini> group search for <player>", -- [1]
-		"<player> search group for <ini>", -- [2]
-	},
-	["chkBtnSearchTank"] = false,
+	["chkBtnSearchLFG"] = true,
+	["txtSeperate"] = "/",
 	["r"] = {
 		1, -- [1]
 		0, -- [2]
 	},
-	["txtSeperate"] = "/",
 	["chkBtnAntiSpam"] = true,
-	["chkBtnPlayerColor"] = true,
-	["chkBtnSound"] = true,
-	["chkBtnSearchLFM"] = false,
-	["chkBtnGeneral"] = false,
 	["chkBtnSearchDD"] = true,
+	["chkBtnSearchLFM"] = false,
 	["chkBtnSearchHeal"] = false,
+	["ver"] = 1.331,
+	["chkBtnGeneral"] = false,
+	["chkBtnSound"] = true,
+	["chkBtnPlayerColor"] = true,
 	["chkBtnWithPlayer"] = false,
 	["TemplateWords"] = {
 		{
@@ -243,6 +240,9 @@ ChatAlarm = {
 			"", -- [6]
 		}, -- [29]
 	},
-	["chkBtnSearchLFG"] = true,
-	["chkBtnTooltip"] = true,
+	["chkBtnSearchTank"] = false,
+	["Merge"] = {
+		"<ini> group search for <player>", -- [1]
+		"<player> search group for <ini>", -- [2]
+	},
 }

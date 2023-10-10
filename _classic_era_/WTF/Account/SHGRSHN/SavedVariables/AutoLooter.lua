@@ -11,13 +11,15 @@ AutoLooterDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Samoanbeast - Skull Rock"] = "Default",
-		["Samoanslayer - Skull Rock"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Kkblacksmith - Skull Rock"] = "Default",
 		["Kktailor - Skull Rock"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanbank - Skull Rock"] = "Default",
 		["Kkleather - Skull Rock"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
+		["Samoanslayer - Skull Rock"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -33,10 +35,10 @@ AutoLooterDB = {
 					["WoW Token"] = false,
 				},
 				["Trade Goods"] = {
-					["Devices"] = false,
-					["Explosives"] = false,
-					["Trade Goods"] = false,
 					["Parts"] = false,
+					["Trade Goods"] = false,
+					["Explosives"] = false,
+					["Devices"] = false,
 				},
 				["Recipe"] = {
 					["Tailoring"] = false,
@@ -92,8 +94,8 @@ AutoLooterDB = {
 					["Generic(OBSOLETE)"] = false,
 				},
 				["Projectile"] = {
-					["Bullet"] = false,
 					["Arrow"] = false,
+					["Bullet"] = false,
 				},
 				["Jewelry(OBSOLETE)"] = {
 					["Jewelry(OBSOLETE)"] = false,
@@ -115,9 +117,9 @@ AutoLooterDB = {
 					["Two-Handed Maces"] = false,
 					["Guns"] = false,
 					["Fist Weapons"] = false,
-					["Thrown"] = false,
-					["Wands"] = false,
 					["Daggers"] = false,
+					["Wands"] = false,
+					["Thrown"] = false,
 					["Two-Handed Axes"] = false,
 				},
 			},

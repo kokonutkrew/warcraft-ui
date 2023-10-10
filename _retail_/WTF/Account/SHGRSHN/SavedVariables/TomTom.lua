@@ -19,11 +19,11 @@ TomTomDB = {
 		["Ishaesh - Emerald Dream"] = "Default",
 		["Gearcraft - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
-		["Ikkl - Emerald Dream"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoanghost - Frostmourne"] = "Default",
 		["Shadowcraft - Emerald Dream"] = "Default",
-		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
+		["Ikkl - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoanlegend - Emerald Dream"] = "Default",
@@ -125,11 +125,11 @@ TomTomWaypointsM = {
 		["Ishaesh - Emerald Dream"] = "Ishaesh - Emerald Dream",
 		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
 		["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
@@ -547,23 +547,23 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Samoantank - Emerald Dream"] = {
-		},
-		["Ikkl - Emerald Dream"] = {
-		},
 		["Samoanghost - Frostmourne"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoantank - Emerald Dream"] = {
 		},
 		["Shadowcraft - Emerald Dream"] = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["Ikkl - Emerald Dream"] = {
 		},
 		["Samoantank - Tichondrius"] = {
 		},
 		["Samoansage - Emerald Dream"] = {
 		},
-		["Samoanlegend - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Forgecraft - Emerald Dream"] = {
 		},
@@ -595,7 +595,7 @@ TomTomWaypointsM = {
 		},
 		["Samoaninja - Tichondrius"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoanlegend - Emerald Dream"] = {
 		},
 		["Mf - Emerald Dream"] = {
 		},

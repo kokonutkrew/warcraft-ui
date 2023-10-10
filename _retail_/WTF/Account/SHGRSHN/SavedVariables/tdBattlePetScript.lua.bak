@@ -1,7 +1,7 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 	["global"] = {
-		["version"] = "v1.5",
+		["version"] = "v1.7.5",
 		["scripts"] = {
 			["AllInOne"] = {
 			},
@@ -23,20 +23,20 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Farmcraft - Tichondrius"] = "Default",
 		["Xb - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
 		["Threadcraft - Emerald Dream"] = "Default",
 		["Samoanbeast - Emerald Dream"] = "Default",
 		["Samoanruin - Emerald Dream"] = "Default",
-		["Herbcraft - Emerald Dream"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
+		["Farmcraft - Tichondrius"] = "Default",
+		["Ikkl - Emerald Dream"] = "Default",
 		["Samoanranger - Emerald Dream"] = "Default",
-		["Samoanmystic - Emerald Dream"] = "Default",
 		["Samoanlegend - Emerald Dream"] = "Default",
+		["Samoanmystic - Emerald Dream"] = "Default",
 		["Forgecraft - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
 		["Dustcraft - Emerald Dream"] = "Default",
-		["Ikkl - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
 		["Gearcraft - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {

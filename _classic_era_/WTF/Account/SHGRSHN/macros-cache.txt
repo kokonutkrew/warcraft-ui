@@ -140,6 +140,15 @@ VER 3 0000000000000036 "AltD.Cure" "132094"
 END
 VER 3 0000000000000037 "AltU.Speed" "132094"
 END
+VER 3 00000000000001B0 "craftAll" "134400"
+/click TSMDestroyBtn LeftButton 1
+/click TSMCraftingBtn LeftButton 1
+/tsm destroy
+/run AutoLootMailItem(1)
+/targetenemy
+/petattack
+/castsequence shadow bolt, hand of gul'dan
+END
 VER 3 00000000000001A4 "craftBoltHexweav" "132763"
 /run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Hexweave Cloth" then DoTradeSkill(i,(select(3,GetTradeSkillInfo(i)))) end end
 END
@@ -148,6 +157,11 @@ VER 3 00000000000000F1 "debug reload" "136232"
 END
 VER 3 00000000000000F2 "debugIdentify" "136232"
 /run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end
+END
+VER 3 00000000000001B1 "dru2" "134400"
+#showtooltip
+/castsequence mangle (bear), faerie fire (feral), lacerate, swipe (bear)
+/cast maul
 END
 VER 3 000000000000015A "eIronGrenades" "134400"
 #show dense dynamite
@@ -165,7 +179,7 @@ VER 3 00000000000001A7 "eSolidDynamite" "134400"
 /use [@cursor] solid dynamite
 /stopcasting
 END
-VER 3 00000000000000FE "GRM_Tool" "134400"
+VER 3 00000000000000FE "GRM_Tool" "INV_MISC_QUESTIONMARK"
 /run GRM.Report("Reserved for GRM Macro Tool Usage. Please do not delete.")
 END
 VER 3 0000000000000165 "hun1" "INV_Misc_QuestionMark"
@@ -317,7 +331,8 @@ VER 3 000000000000004F "rougeSap" "INV_MISC_QUESTIONMARK"
 /cast Pick Pocket
 END
 VER 3 00000000000001A5 "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
+/targetexact Apothecary Helbrim
+/targetlasttarget [dead]
 END
 VER 3 000000000000019E "shaTotem" "134400"
 #showtooltip

@@ -14,7 +14,7 @@ GreenWall = {
 	["tag"] = true,
 }
 GreenWallMeta = {
-	["updated"] = "2023-09-02 21:48:52",
+	["updated"] = "2023-10-06 04:22:17",
 	["mode"] = "account",
 	["version"] = "1.11.8+classic-era",
 	["created"] = "2023-08-30 00:05:44",

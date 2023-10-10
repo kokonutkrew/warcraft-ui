@@ -20,8 +20,8 @@ HandyNotesDB = {
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Forgecraft - Area 52"] = "Forgecraft - Area 52",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
@@ -72,9 +72,9 @@ HandyNotesDB = {
 		},
 		["Forgecraft - Area 52"] = {
 		},
-		["Herbcraft - Emerald Dream"] = {
-		},
 		["Bantoruskk - Emerald Dream"] = {
+		},
+		["Herbcraft - Emerald Dream"] = {
 		},
 		["Forgecraft - Illidan"] = {
 		},
@@ -119,8 +119,8 @@ HandyNotes_HandyNotesDB = {
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Forgecraft - Area 52"] = "Forgecraft - Area 52",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
@@ -171,9 +171,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Forgecraft - Area 52"] = {
 		},
-		["Herbcraft - Emerald Dream"] = {
-		},
 		["Bantoruskk - Emerald Dream"] = {
+		},
+		["Herbcraft - Emerald Dream"] = {
 		},
 		["Forgecraft - Illidan"] = {
 		},

@@ -2,6 +2,634 @@
 TDDB_DEVTOOLS = {
 	["errors"] = {
 		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4840 Unrecognized XML: AbsDimension",
+		}, -- [1]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4840 Unrecognized XML: Size",
+		}, -- [2]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4839 Unrecognized XML: TitleRegion",
+		}, -- [3]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4788 Unrecognized XML attribute: wraponspaces",
+		}, -- [4]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4014 Unrecognized XML attribute: tile",
+		}, -- [5]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4014 Unrecognized XML attribute: bgFile",
+		}, -- [6]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:4014 Unrecognized XML: Backdrop",
+		}, -- [7]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3697 Unrecognized XML attribute: tile",
+		}, -- [8]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3697 Unrecognized XML attribute: bgFile",
+		}, -- [9]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3697 Unrecognized XML: Backdrop",
+		}, -- [10]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3626 Unrecognized XML attribute: wraponspaces",
+		}, -- [11]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3544 Unrecognized XML attribute: wraponspaces",
+		}, -- [12]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3462 Unrecognized XML attribute: wraponspaces",
+		}, -- [13]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3380 Unrecognized XML attribute: wraponspaces",
+		}, -- [14]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:3298 Unrecognized XML attribute: wraponspaces",
+		}, -- [15]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:2257 Unrecognized XML attribute: tile",
+		}, -- [16]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:2257 Unrecognized XML attribute: bgFile",
+		}, -- [17]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:2257 Unrecognized XML: Backdrop",
+		}, -- [18]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:2028 Unrecognized XML attribute: wraponspaces",
+		}, -- [19]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1907 Unrecognized XML attribute: wraponspaces",
+		}, -- [20]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1601 Unrecognized XML attribute: tile",
+		}, -- [21]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1601 Unrecognized XML attribute: bgFile",
+		}, -- [22]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1601 Unrecognized XML: Backdrop",
+		}, -- [23]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1565 Unrecognized XML attribute: tile",
+		}, -- [24]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1565 Unrecognized XML attribute: bgFile",
+		}, -- [25]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1565 Unrecognized XML: Backdrop",
+		}, -- [26]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:1364 Unrecognized XML attribute: wraponspaces",
+		}, -- [27]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:273 Unrecognized XML attribute: tile",
+		}, -- [28]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:273 Unrecognized XML attribute: edgeFile",
+		}, -- [29]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:273 Unrecognized XML attribute: bgFile",
+		}, -- [30]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:273 Unrecognized XML: Backdrop",
+		}, -- [31]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:266 Unrecognized XML attribute: clampToScreen",
+		}, -- [32]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:192 Unrecognized XML attribute: tile",
+		}, -- [33]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:192 Unrecognized XML attribute: edgeFile",
+		}, -- [34]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:192 Unrecognized XML attribute: bgFile",
+		}, -- [35]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:192 Unrecognized XML: Backdrop",
+		}, -- [36]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:190 Unrecognized XML attribute: point",
+		}, -- [37]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:190 Unrecognized XML: Anchor",
+		}, -- [38]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:190 Unrecognized XML: Anchors",
+		}, -- [39]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:189 Unrecognized XML attribute: y",
+		}, -- [40]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:189 Unrecognized XML attribute: x",
+		}, -- [41]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:189 Unrecognized XML: AbsDimension",
+		}, -- [42]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:189 Unrecognized XML: Size",
+		}, -- [43]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:188 Unrecognized XML: TitleRegion",
+		}, -- [44]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:180 Unrecognized XML attribute: clampToScreen",
+		}, -- [45]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:45 Unrecognized XML attribute: point",
+		}, -- [46]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:45 Unrecognized XML: Anchor",
+		}, -- [47]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:45 Unrecognized XML: Anchors",
+		}, -- [48]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:44 Unrecognized XML attribute: y",
+		}, -- [49]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:44 Unrecognized XML attribute: x",
+		}, -- [50]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:44 Unrecognized XML: AbsDimension",
+		}, -- [51]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:44 Unrecognized XML: Size",
+		}, -- [52]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:43 Unrecognized XML: TitleRegion",
+		}, -- [53]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:35 Unrecognized XML attribute: clampToScreen",
+		}, -- [54]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:18 Unrecognized XML attribute: tile",
+		}, -- [55]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:18 Unrecognized XML attribute: bgFile",
+		}, -- [56]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/GuildGreet/GuildGreet.xml:18 Unrecognized XML: Backdrop",
+		}, -- [57]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: a",
+		}, -- [58]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: b",
+		}, -- [59]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: g",
+		}, -- [60]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: r",
+		}, -- [61]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML: Color",
+		}, -- [62]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:26 Unrecognized XML attribute: val",
+		}, -- [63]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:26 Unrecognized XML: AbsValue",
+		}, -- [64]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:25 Unrecognized XML: EdgeSize",
+		}, -- [65]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:23 Unrecognized XML attribute: val",
+		}, -- [66]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:23 Unrecognized XML: AbsValue",
+		}, -- [67]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:22 Unrecognized XML: TileSize",
+		}, -- [68]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: bottom",
+		}, -- [69]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: top",
+		}, -- [70]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: right",
+		}, -- [71]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: left",
+		}, -- [72]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML: AbsInset",
+		}, -- [73]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:19 Unrecognized XML: BackgroundInsets",
+		}, -- [74]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML attribute: tile",
+		}, -- [75]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML attribute: edgeFile",
+		}, -- [76]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML attribute: bgFile",
+		}, -- [77]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML: Backdrop",
+		}, -- [78]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: bottom",
+		}, -- [79]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: top",
+		}, -- [80]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: right",
+		}, -- [81]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: left",
+		}, -- [82]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML: AbsInset",
+		}, -- [83]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:11 Unrecognized XML: BackgroundInsets",
+		}, -- [84]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:9 Unrecognized XML attribute: val",
+		}, -- [85]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:9 Unrecognized XML: AbsValue",
+		}, -- [86]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:8 Unrecognized XML: TileSize",
+		}, -- [87]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:6 Unrecognized XML attribute: val",
+		}, -- [88]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:6 Unrecognized XML: AbsValue",
+		}, -- [89]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:5 Unrecognized XML: EdgeSize",
+		}, -- [90]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML attribute: tile",
+		}, -- [91]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML attribute: edgeFile",
+		}, -- [92]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML attribute: bgFile",
+		}, -- [93]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML: Backdrop",
+		}, -- [94]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/Chatter/Modules/AltNames.lua:1 (null)",
+		}, -- [95]
+		{
+			["count"] = 3,
+			["err"] = "Interface/AddOns/!!!tdDevTools/UI/Console.lua:1 (null)",
+		}, -- [96]
+		{
+			["count"] = 344,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [97]
+		{
+			["count"] = 344,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [98]
+		{
+			["count"] = 344,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [99]
+		{
+			["count"] = 344,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+		}, -- [100]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:17 Unrecognized XML: AbsValue",
+		}, -- [101]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:16 Unrecognized XML: EdgeSize",
+		}, -- [102]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML attribute: tile",
+		}, -- [103]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML attribute: edgeFile",
+		}, -- [104]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML attribute: bgFile",
+		}, -- [105]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML: Backdrop",
+		}, -- [106]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingLocationsFrame.xml:178 Couldn't find inherited node: OptionsSmallCheckButtonTemplate",
+		}, -- [107]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:160 Unrecognized XML attribute: val",
+		}, -- [108]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:160 Unrecognized XML: AbsValue",
+		}, -- [109]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:159 Unrecognized XML: EdgeSize",
+		}, -- [110]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:157 Unrecognized XML attribute: val",
+		}, -- [111]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:157 Unrecognized XML: AbsValue",
+		}, -- [112]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:156 Unrecognized XML: TileSize",
+		}, -- [113]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: bottom",
+		}, -- [114]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: top",
+		}, -- [115]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: right",
+		}, -- [116]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: left",
+		}, -- [117]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML: AbsInset",
+		}, -- [118]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:153 Unrecognized XML: BackgroundInsets",
+		}, -- [119]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML attribute: tile",
+		}, -- [120]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML attribute: edgeFile",
+		}, -- [121]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML attribute: bgFile",
+		}, -- [122]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML: Backdrop",
+		}, -- [123]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingDatabase.lua:1 (null)",
+		}, -- [124]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/Libs/LibFishing-1.0/LibFishing-1.0.lua:1 (null)",
+		}, -- [125]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:91 Unrecognized XML attribute: val",
+		}, -- [126]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:91 Unrecognized XML: EdgeSize",
+		}, -- [127]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:90 Unrecognized XML attribute: edgeFile",
+		}, -- [128]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:90 Unrecognized XML: Backdrop",
+		}, -- [129]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/CaerdonWardrobe/Config.lua:1 (null)",
+		}, -- [130]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/CaerdonWardrobe/features/Tooltip.lua:1 (null)",
+		}, -- [131]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/BigDebuffs/BigDebuffs.xml:9 Unrecognized XML attribute: point",
+		}, -- [132]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/BigDebuffs/BigDebuffs.xml:9 Unrecognized XML: Anchor",
+		}, -- [133]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/BigDebuffs/BigDebuffs.xml:8 Unrecognized XML: Anchors",
+		}, -- [134]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML attribute: b",
+		}, -- [135]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML attribute: g",
+		}, -- [136]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML attribute: r",
+		}, -- [137]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML: BorderColor",
+		}, -- [138]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML attribute: b",
+		}, -- [139]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML attribute: g",
+		}, -- [140]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML attribute: r",
+		}, -- [141]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML: Color",
+		}, -- [142]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: bottom",
+		}, -- [143]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: top",
+		}, -- [144]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: right",
+		}, -- [145]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: left",
+		}, -- [146]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML: AbsInset",
+		}, -- [147]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:465 Unrecognized XML: BackgroundInsets",
+		}, -- [148]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:464 Unrecognized XML attribute: val",
+		}, -- [149]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:464 Unrecognized XML: EdgeSize",
+		}, -- [150]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:463 Unrecognized XML attribute: val",
+		}, -- [151]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:463 Unrecognized XML: TileSize",
+		}, -- [152]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML attribute: tile",
+		}, -- [153]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML attribute: edgeFile",
+		}, -- [154]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML attribute: bgFile",
+		}, -- [155]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML: Backdrop",
+		}, -- [156]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ACP/ACP.xml:178 Unrecognized XML attribute: moveable",
+		}, -- [157]
+		{
 			["path"] = "|cff00ffff...terface/AddOns/DataStore_Quests/DataStore_Quests.lua|r|cffffffff:|r|cffff00ff360|r",
 			["count"] = 8,
 			["time"] = 1685506405,
@@ -9,7 +637,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/DataStore_Quests/DataStore_Quests.lua\"]:360: in function <...terface/AddOns/DataStore_Quests/DataStore_Quests.lua:357>\n[string \"@Interface/AddOns/DataStore_Quests/DataStore_Quests.lua\"]:481: in function <...terface/AddOns/DataStore_Quests/DataStore_Quests.lua:407>\n[string \"@Interface/AddOns/DataStore_Quests/DataStore_Quests.lua\"]:521: in function <...terface/AddOns/DataStore_Quests/DataStore_Quests.lua:520>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/DataStore/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua\"]:24: in function <...ore/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:20>\n[string \"@Interface/AddOns/DataStore/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua\"]:59: in function `Fire'\n[string \"@Interface/AddOns/DataStore/libs/AceEvent-3.0/AceEvent-3.0.lua\"]:120: in function <.../AddOns/DataStore/libs/AceEvent-3.0/AceEvent-3.0.lua:119>\n",
 			["full"] = "...terface/AddOns/DataStore_Quests/DataStore_Quests.lua:360: attempt to call global 'GetNumQuestLogRewardSpells' (a nil value)",
 			["formatted"] = "attempt to call global 'GetNumQuestLogRewardSpells' (a nil value)",
-		}, -- [1]
+		}, -- [158]
 		{
 			["path"] = "|cff00ffffInterface/AddOns/AstralKeys/Affixes.lua|r|cffffffff:|r|cffff00ff107|r",
 			["count"] = 6,
@@ -18,55 +646,35 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AstralKeys/Affixes.lua\"]:107: in function `method'\n[string \"@Interface/AddOns/AstralKeys/Events.lua\"]:82: in function <Interface/AddOns/AstralKeys/Events.lua:78>\n",
 			["full"] = "Interface/AddOns/AstralKeys/Affixes.lua:107: attempt to index field '?' (a nil value)",
 			["formatted"] = "attempt to index field '?' (a nil value)",
-		}, -- [2]
+		}, -- [159]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:1 (null)",
-		}, -- [3]
+		}, -- [160]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/UI/Console.lua:1 (null)",
-		}, -- [4]
+		}, -- [161]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [5]
+		}, -- [162]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [6]
+		}, -- [163]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [7]
+		}, -- [164]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
-		}, -- [8]
+		}, -- [165]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:1 (null)",
-		}, -- [9]
-		{
-			["count"] = 1,
-			["err"] = "Interface/AddOns/!!!tdDevTools/UI/Console.lua:1 (null)",
-		}, -- [10]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [11]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [12]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [13]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
-		}, -- [14]
+		}, -- [166]
 		{
 			["path"] = "|cff00ffff...e/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua|r|cffffffff:|r|cffff00ff188|r",
 			["count"] = 1,
@@ -75,31 +683,31 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua\"]:188: in main chunk\n",
 			["full"] = "...e/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:188: table index is nil",
 			["formatted"] = "table index is nil",
-		}, -- [15]
+		}, -- [167]
 		{
 			["count"] = 57,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/MBB/MBB.xml:664 Unrecognized XML attribute: relativeFrom",
-		}, -- [16]
+		}, -- [168]
 		{
 			["count"] = 57,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/MBB/MBB.xml:624 Unrecognized XML attribute: relativeFrom",
-		}, -- [17]
+		}, -- [169]
 		{
 			["count"] = 57,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/MBB/MBB.xml:223 Unrecognized XML attribute: relativeFrom",
-		}, -- [18]
+		}, -- [170]
 		{
 			["count"] = 59,
 			["err"] = "Interface/AddOns/MBB/MBB.xml:664 Unrecognized XML attribute: relativeFrom",
-		}, -- [19]
+		}, -- [171]
 		{
 			["count"] = 59,
 			["err"] = "Interface/AddOns/MBB/MBB.xml:624 Unrecognized XML attribute: relativeFrom",
-		}, -- [20]
+		}, -- [172]
 		{
 			["count"] = 59,
 			["err"] = "Interface/AddOns/MBB/MBB.xml:223 Unrecognized XML attribute: relativeFrom",
-		}, -- [21]
+		}, -- [173]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 33,
@@ -108,7 +716,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [22]
+		}, -- [174]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 13,
@@ -117,7 +725,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3355: in function <Interface/FrameXML/UIParent.lua:3350>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3393: in function <Interface/FrameXML/UIParent.lua:3362>\n[string \"=[C]\"]: in function `CloseWindows'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3410: in function <Interface/FrameXML/UIParent.lua:3408>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/FrameXML/UIParent.lua\"]:4059: in function <Interface/FrameXML/UIParent.lua:4001>\n[string \"=[C]\"]: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AddonFactory blocked from using FriendsFrame:Hide()",
 			["formatted"] = "AddonFactory blocked from using FriendsFrame:Hide()",
-		}, -- [23]
+		}, -- [175]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -126,7 +734,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `GetLastTicketResponse'\n[string \"@Interface/AddOns/Blizzard_Communities/CommunitiesHyperlink.lua\"]:10: in function <...AddOns/Blizzard_Communities/CommunitiesHyperlink.lua:7>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using GetLastTicketResponse() (Only usable by Blizzard)",
 			["formatted"] = "TradeSkillMaster forbidden from using GetLastTicketResponse() (Only usable by Blizzard)",
-		}, -- [24]
+		}, -- [176]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -135,7 +743,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton10:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton10:SetShown()",
-		}, -- [25]
+		}, -- [177]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -144,7 +752,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton9:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton9:SetShown()",
-		}, -- [26]
+		}, -- [178]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -153,7 +761,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton8:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton8:SetShown()",
-		}, -- [27]
+		}, -- [179]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -162,7 +770,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton7:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton7:SetShown()",
-		}, -- [28]
+		}, -- [180]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -171,7 +779,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton6:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton6:SetShown()",
-		}, -- [29]
+		}, -- [181]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -180,7 +788,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton5:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton5:SetShown()",
-		}, -- [30]
+		}, -- [182]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -189,7 +797,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton4:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton4:SetShown()",
-		}, -- [31]
+		}, -- [183]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -198,7 +806,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton3:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton3:SetShown()",
-		}, -- [32]
+		}, -- [184]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -207,7 +815,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton2:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton2:SetShown()",
-		}, -- [33]
+		}, -- [185]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -216,7 +824,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton1:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton1:SetShown()",
-		}, -- [34]
+		}, -- [186]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -225,7 +833,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton8:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton8:SetPoint()",
-		}, -- [35]
+		}, -- [187]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -234,7 +842,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton7:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton7:SetPoint()",
-		}, -- [36]
+		}, -- [188]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -243,7 +851,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton6:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton6:SetPoint()",
-		}, -- [37]
+		}, -- [189]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -252,7 +860,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton4:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton4:SetPoint()",
-		}, -- [38]
+		}, -- [190]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -261,7 +869,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton3:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton3:SetPoint()",
-		}, -- [39]
+		}, -- [191]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -270,7 +878,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton2:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton2:SetPoint()",
-		}, -- [40]
+		}, -- [192]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -279,7 +887,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton1:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton1:SetPoint()",
-		}, -- [41]
+		}, -- [193]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -288,7 +896,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton10:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton10:SetPoint()",
-		}, -- [42]
+		}, -- [194]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -297,7 +905,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton9:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton9:SetPoint()",
-		}, -- [43]
+		}, -- [195]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -306,7 +914,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/AnchorUtil.lua\"]:42: in function `SetPointWithExtraOffset'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:256: in function `ApplyAnchoring'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:201: in function `ApplyToRegions'\n[string \"@Interface/SharedXML/GridLayoutUtil.lua\"]:141: in function `ApplyGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:163: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:737: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:78: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton5:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton5:SetPoint()",
-		}, -- [44]
+		}, -- [196]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -315,7 +923,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Disable'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:883: in function `UpdateButton'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:336: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton12:Disable()",
 			["formatted"] = "Hekili blocked from using SpellButton12:Disable()",
-		}, -- [45]
+		}, -- [197]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -324,7 +932,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:335: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton12:Show()",
 			["formatted"] = "Hekili blocked from using SpellButton12:Show()",
-		}, -- [46]
+		}, -- [198]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -333,7 +941,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Enable'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:894: in function `UpdateButton'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:336: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton11:Enable()",
 			["formatted"] = "Hekili blocked from using SpellButton11:Enable()",
-		}, -- [47]
+		}, -- [199]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -342,7 +950,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:335: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton11:Show()",
 			["formatted"] = "Hekili blocked from using SpellButton11:Show()",
-		}, -- [48]
+		}, -- [200]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -351,7 +959,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Disable'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:883: in function `UpdateButton'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:336: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton10:Disable()",
 			["formatted"] = "Hekili blocked from using SpellButton10:Disable()",
-		}, -- [49]
+		}, -- [201]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -360,7 +968,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:335: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton10:Show()",
 			["formatted"] = "Hekili blocked from using SpellButton10:Show()",
-		}, -- [50]
+		}, -- [202]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -369,7 +977,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1409: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1461: in function <Interface/FrameXML/ContainerFrame.lua:1448>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: BuyEmAll forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "BuyEmAll forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [51]
+		}, -- [203]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -378,295 +986,295 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [52]
+		}, -- [204]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:336 Frame DressUpModel: Unknown method OnUpdate in element OnUpdate",
-		}, -- [53]
+		}, -- [205]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:335 Frame DressUpModel: Unknown method OnLeave in element OnLeave",
-		}, -- [54]
+		}, -- [206]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:334 Frame DressUpModel: Unknown method OnEnter in element OnEnter",
-		}, -- [55]
+		}, -- [207]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:333 Frame DressUpModel: Unknown method OnMouseDown in element OnMouseDown",
-		}, -- [56]
+		}, -- [208]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:332 Frame DressUpModel: Unknown method OnLoad in element OnLoad",
-		}, -- [57]
+		}, -- [209]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:780 DressUpModel: Has bad mixin: TransMogWishListModelMixin",
-		}, -- [58]
+		}, -- [210]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:396 Frame Frame: Unknown method OnLoad in element OnLoad",
-		}, -- [59]
+		}, -- [211]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:764 Frame: Has bad mixin: TransmogWishListPagingMixin",
-		}, -- [60]
+		}, -- [212]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:750 Frame EditBox: Unknown method OnTextChanged in element OnTextChanged",
-		}, -- [61]
+		}, -- [213]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:749 Frame EditBox: Unknown method OnEnterPressed in element OnEnterPressed",
-		}, -- [62]
+		}, -- [214]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:748 Frame EditBox: Unknown method OnEscapePressed in element OnEscapePressed",
-		}, -- [63]
+		}, -- [215]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:747 Frame EditBox: Unknown method OnLoad in element OnLoad",
-		}, -- [64]
+		}, -- [216]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:725 EditBox: Has bad mixin: TWLAddBoxMixin",
-		}, -- [65]
+		}, -- [217]
 		{
 			["count"] = 16,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:443 Frame Button: Unknown method OnClick in element OnClick",
-		}, -- [66]
+		}, -- [218]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:484 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [67]
+		}, -- [219]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:479 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [68]
+		}, -- [220]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:474 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [69]
+		}, -- [221]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:469 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [70]
+		}, -- [222]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:464 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [71]
+		}, -- [223]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:459 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [72]
+		}, -- [224]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:454 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [73]
+		}, -- [225]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:667 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [74]
+		}, -- [226]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:337 Frame DressUpModel: Unknown method OnShow in element OnShow",
-		}, -- [75]
+		}, -- [227]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:656 DressUpModel: Has bad mixin: TransMogWishListModelMixin",
-		}, -- [76]
+		}, -- [228]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:734 TransmogWishListModPicker: Has bad mixin: TWLModPickerMixin",
-		}, -- [77]
+		}, -- [229]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:881 Frame TransmogWishListFrame: Unknown method OnMouseWheel in element OnMouseWheel",
-		}, -- [78]
+		}, -- [230]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:880 Frame TransmogWishListFrame: Unknown method OnEnter in element OnEnter",
-		}, -- [79]
+		}, -- [231]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:879 Frame TransmogWishListFrame: Unknown method OnHide in element OnHide",
-		}, -- [80]
+		}, -- [232]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:878 Frame TransmogWishListFrame: Unknown method OnShow in element OnShow",
-		}, -- [81]
+		}, -- [233]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:877 Frame TransmogWishListFrame: Unknown method OnLoad in element OnLoad",
-		}, -- [82]
+		}, -- [234]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:614 TransmogWishListFrame: Has bad mixin: TransmogWishListMixin",
-		}, -- [83]
+		}, -- [235]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.lua:1 (null)",
-		}, -- [84]
+		}, -- [236]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:766 Unrecognized XML attribute: down",
-		}, -- [85]
+		}, -- [237]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/Config.xml:3 Couldn't find frame parent: InterfaceOptionsFramePanelContainer",
-		}, -- [86]
+		}, -- [238]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML attribute: y",
-		}, -- [87]
+		}, -- [239]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML attribute: x",
-		}, -- [88]
+		}, -- [240]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML: Offset",
-		}, -- [89]
+		}, -- [241]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML attribute: y",
-		}, -- [90]
+		}, -- [242]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML attribute: x",
-		}, -- [91]
+		}, -- [243]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML: Offset",
-		}, -- [92]
+		}, -- [244]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML attribute: y",
-		}, -- [93]
+		}, -- [245]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML attribute: x",
-		}, -- [94]
+		}, -- [246]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML: Offset",
-		}, -- [95]
+		}, -- [247]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:113 Frame StatusBar: Unknown function CastingBarFrame_OnShow in element OnShow",
-		}, -- [96]
+		}, -- [248]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:112 Frame StatusBar: Unknown function CastingBarFrame_OnUpdate in element OnUpdate",
-		}, -- [97]
+		}, -- [249]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:111 Frame StatusBar: Unknown function CastingBarFrame_OnEvent in element OnEvent",
-		}, -- [98]
+		}, -- [250]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:110 Frame StatusBar: Unknown function CastingBarFrame_OnLoad in element OnLoad",
-		}, -- [99]
+		}, -- [251]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ItemTooltipProfessionIcons/ItemTooltipProfessionIcons.lua:1 (null)",
-		}, -- [100]
+		}, -- [252]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/Gnobesy/Gnobesy.xml:5 Couldn't find inherited node: InterfaceOptionsSmallCheckButtonTemplate",
-		}, -- [101]
+		}, -- [253]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: bottom",
-		}, -- [102]
+		}, -- [254]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: top",
-		}, -- [103]
+		}, -- [255]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: right",
-		}, -- [104]
+		}, -- [256]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: left",
-		}, -- [105]
+		}, -- [257]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML: AbsInset",
-		}, -- [106]
+		}, -- [258]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:16 Unrecognized XML: BackgroundInsets",
-		}, -- [107]
+		}, -- [259]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:14 Unrecognized XML attribute: val",
-		}, -- [108]
+		}, -- [260]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:14 Unrecognized XML: AbsValue",
-		}, -- [109]
+		}, -- [261]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:13 Unrecognized XML: TileSize",
-		}, -- [110]
+		}, -- [262]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:11 Unrecognized XML attribute: val",
-		}, -- [111]
+		}, -- [263]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:11 Unrecognized XML: AbsValue",
-		}, -- [112]
+		}, -- [264]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:10 Unrecognized XML: EdgeSize",
-		}, -- [113]
+		}, -- [265]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: tile",
-		}, -- [114]
+		}, -- [266]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: edgeFile",
-		}, -- [115]
+		}, -- [267]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: bgFile",
-		}, -- [116]
+		}, -- [268]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML: Backdrop",
-		}, -- [117]
+		}, -- [269]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/QuestHandler.lua:1 (null)",
-		}, -- [118]
+		}, -- [270]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/OptionsPanel.lua:1 (null)",
-		}, -- [119]
+		}, -- [271]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Core.lua:1 (null)",
-		}, -- [120]
+		}, -- [272]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: category",
-		}, -- [121]
+		}, -- [273]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: header",
-		}, -- [122]
+		}, -- [274]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: name",
-		}, -- [123]
+		}, -- [275]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML: Binding",
-		}, -- [124]
+		}, -- [276]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -675,7 +1283,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "PremadeGroupsFilter forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: PremadeGroupsFilter forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "PremadeGroupsFilter forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [125]
+		}, -- [277]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -684,7 +1292,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `UseQuestLogSpecialItem'\n[string \"@Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua\"]:95: in function <...ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua:88>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using UseQuestLogSpecialItem() (Only usable by Blizzard)",
 			["formatted"] = "TradeSkillMaster forbidden from using UseQuestLogSpecialItem() (Only usable by Blizzard)",
-		}, -- [126]
+		}, -- [278]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 5,
@@ -693,7 +1301,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/FriendsFrame.lua\"]:1060: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: DeModal blocked from using UNKNOWN()",
 			["formatted"] = "DeModal blocked from using UNKNOWN()",
-		}, -- [127]
+		}, -- [279]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -702,7 +1310,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `CreateListing'\n[string \"@Interface/FrameXML/LFGList.lua\"]:1056: in function `LFGListEntryCreation_ListGroupInternal'\n[string \"@Interface/FrameXML/LFGList.lua\"]:1118: in function `LFGListEntryCreation_CheckAutoCreate'\n[string \"@Interface/FrameXML/LFGList.lua\"]:659: in function `LFGListEntryCreation_Show'\n[string \"@Interface/FrameXML/LFGList.lua\"]:2119: in function <Interface/FrameXML/LFGList.lua:2116>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CreateListing()",
 			["formatted"] = "AngrierWorldQuests blocked from using CreateListing()",
-		}, -- [128]
+		}, -- [280]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 19,
@@ -711,7 +1319,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `FocusUnit'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:1543: in function `RefreshTargetAndFocus'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:1483: in function `OnEditModeEnter'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:172: in function `EnterEditMode'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:196: in function <Interface/FrameXML/EditModeManager.lua:194>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:2890: in function `SetUIPanel'\n[string \"@Interface/FrameXML/UIParent.lua\"]:2694: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/UIParent.lua\"]:2598: in function <Interface/FrameXML/UIParent.lua:2594>\n[string \"=[C]\"]: in function `SetAttribute'\n...\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1617: in function `?'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:5204: in function <Interface/FrameXML/ChatFrame.lua:5170>\n[string \"=[C]\"]: in function `ChatEdit_ParseText'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:4888: in function `ChatEdit_SendText'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:3132: in function <Interface/FrameXML/ChatFrame.lua:3125>\n[string \"=[C]\"]: in function `RunMacroText'\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:468: in function `handler'\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:690: in function <Interface/FrameXML/SecureTemplates.lua:672>\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:727: in function <Interface/FrameXML/SecureTemplates.lua:725>\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:749: in function <Interface/FrameXML/SecureTemplates.lua:730>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests forbidden from using FocusUnit() (Only usable by Blizzard)",
 			["formatted"] = "AngrierWorldQuests forbidden from using FocusUnit() (Only usable by Blizzard)",
-		}, -- [129]
+		}, -- [281]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -720,7 +1328,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `TargetUnit'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:1539: in function `RefreshTargetAndFocus'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:1483: in function `OnEditModeEnter'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:172: in function `EnterEditMode'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:196: in function <Interface/FrameXML/EditModeManager.lua:194>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:2890: in function `SetUIPanel'\n[string \"@Interface/FrameXML/UIParent.lua\"]:2694: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/UIParent.lua\"]:2598: in function <Interface/FrameXML/UIParent.lua:2594>\n[string \"=[C]\"]: in function `SetAttribute'\n...\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1617: in function `?'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:5204: in function <Interface/FrameXML/ChatFrame.lua:5170>\n[string \"=[C]\"]: in function `ChatEdit_ParseText'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:4888: in function `ChatEdit_SendText'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:3132: in function <Interface/FrameXML/ChatFrame.lua:3125>\n[string \"=[C]\"]: in function `RunMacroText'\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:468: in function `handler'\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:690: in function <Interface/FrameXML/SecureTemplates.lua:672>\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:727: in function <Interface/FrameXML/SecureTemplates.lua:725>\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:749: in function <Interface/FrameXML/SecureTemplates.lua:730>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests forbidden from using TargetUnit() (Only usable by Blizzard)",
 			["formatted"] = "AngrierWorldQuests forbidden from using TargetUnit() (Only usable by Blizzard)",
-		}, -- [130]
+		}, -- [282]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -729,7 +1337,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7:ShowBase()",
-		}, -- [131]
+		}, -- [283]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -738,7 +1346,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6:ShowBase()",
-		}, -- [132]
+		}, -- [284]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -747,7 +1355,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5:ShowBase()",
-		}, -- [133]
+		}, -- [285]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -756,7 +1364,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetScaleBase'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:48: in function `SetScale'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:594: in function `UpdateRightActionBarPositions'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:566: in function `UpdateActionBarLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:676: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:350: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeft:SetScaleBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeft:SetScaleBase()",
-		}, -- [134]
+		}, -- [286]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -765,7 +1373,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetScaleBase'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:48: in function `SetScale'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:594: in function `UpdateRightActionBarPositions'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:566: in function `UpdateActionBarLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:676: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:350: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRight:SetScaleBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRight:SetScaleBase()",
-		}, -- [135]
+		}, -- [287]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -774,7 +1382,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeft:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeft:ShowBase()",
-		}, -- [136]
+		}, -- [288]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -783,7 +1391,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button12:SetShown()",
-		}, -- [137]
+		}, -- [289]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -792,7 +1400,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button11:SetShown()",
-		}, -- [138]
+		}, -- [290]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -801,7 +1409,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button10:SetShown()",
-		}, -- [139]
+		}, -- [291]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -810,7 +1418,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button9:SetShown()",
-		}, -- [140]
+		}, -- [292]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -819,7 +1427,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button8:SetShown()",
-		}, -- [141]
+		}, -- [293]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -828,7 +1436,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button7:SetShown()",
-		}, -- [142]
+		}, -- [294]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -837,7 +1445,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button6:SetShown()",
-		}, -- [143]
+		}, -- [295]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -846,7 +1454,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button5:SetShown()",
-		}, -- [144]
+		}, -- [296]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -855,7 +1463,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button4:SetShown()",
-		}, -- [145]
+		}, -- [297]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -864,7 +1472,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button3:SetShown()",
-		}, -- [146]
+		}, -- [298]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -873,7 +1481,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button2:SetShown()",
-		}, -- [147]
+		}, -- [299]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -882,7 +1490,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button1:SetShown()",
-		}, -- [148]
+		}, -- [300]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -891,7 +1499,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:57: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7:SetFrameStrata()",
-		}, -- [149]
+		}, -- [301]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -900,7 +1508,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button12:SetShown()",
-		}, -- [150]
+		}, -- [302]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -909,7 +1517,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button11:SetShown()",
-		}, -- [151]
+		}, -- [303]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -918,7 +1526,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button10:SetShown()",
-		}, -- [152]
+		}, -- [304]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -927,7 +1535,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button9:SetShown()",
-		}, -- [153]
+		}, -- [305]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -936,7 +1544,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button8:SetShown()",
-		}, -- [154]
+		}, -- [306]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -945,7 +1553,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button7:SetShown()",
-		}, -- [155]
+		}, -- [307]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -954,7 +1562,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button6:SetShown()",
-		}, -- [156]
+		}, -- [308]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -963,7 +1571,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button5:SetShown()",
-		}, -- [157]
+		}, -- [309]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -972,7 +1580,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button4:SetShown()",
-		}, -- [158]
+		}, -- [310]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -981,7 +1589,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button3:SetShown()",
-		}, -- [159]
+		}, -- [311]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -990,7 +1598,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button2:SetShown()",
-		}, -- [160]
+		}, -- [312]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -999,7 +1607,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button1:SetShown()",
-		}, -- [161]
+		}, -- [313]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1008,7 +1616,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:56: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6:SetFrameStrata()",
-		}, -- [162]
+		}, -- [314]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1017,7 +1625,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button12:SetShown()",
-		}, -- [163]
+		}, -- [315]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1026,7 +1634,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button11:SetShown()",
-		}, -- [164]
+		}, -- [316]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1035,7 +1643,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button10:SetShown()",
-		}, -- [165]
+		}, -- [317]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1044,7 +1652,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button9:SetShown()",
-		}, -- [166]
+		}, -- [318]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1053,7 +1661,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button8:SetShown()",
-		}, -- [167]
+		}, -- [319]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1062,7 +1670,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button7:SetShown()",
-		}, -- [168]
+		}, -- [320]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1071,7 +1679,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button6:SetShown()",
-		}, -- [169]
+		}, -- [321]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1080,7 +1688,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button5:SetShown()",
-		}, -- [170]
+		}, -- [322]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1089,7 +1697,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button4:SetShown()",
-		}, -- [171]
+		}, -- [323]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1098,7 +1706,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button3:SetShown()",
-		}, -- [172]
+		}, -- [324]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1107,7 +1715,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button2:SetShown()",
-		}, -- [173]
+		}, -- [325]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1116,7 +1724,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button1:SetShown()",
-		}, -- [174]
+		}, -- [326]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1125,7 +1733,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:55: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5:SetFrameStrata()",
-		}, -- [175]
+		}, -- [327]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1134,7 +1742,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton12:SetShown()",
-		}, -- [176]
+		}, -- [328]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1143,7 +1751,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton11:SetShown()",
-		}, -- [177]
+		}, -- [329]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1152,7 +1760,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton10:SetShown()",
-		}, -- [178]
+		}, -- [330]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1161,7 +1769,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton9:SetShown()",
-		}, -- [179]
+		}, -- [331]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1170,7 +1778,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton8:SetShown()",
-		}, -- [180]
+		}, -- [332]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1179,7 +1787,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton7:SetShown()",
-		}, -- [181]
+		}, -- [333]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1188,7 +1796,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton6:SetShown()",
-		}, -- [182]
+		}, -- [334]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1197,7 +1805,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton5:SetShown()",
-		}, -- [183]
+		}, -- [335]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1206,7 +1814,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton4:SetShown()",
-		}, -- [184]
+		}, -- [336]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1215,7 +1823,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton3:SetShown()",
-		}, -- [185]
+		}, -- [337]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1224,7 +1832,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton2:SetShown()",
-		}, -- [186]
+		}, -- [338]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1233,7 +1841,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton1:SetShown()",
-		}, -- [187]
+		}, -- [339]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1242,7 +1850,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:54: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeft:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeft:SetFrameStrata()",
-		}, -- [188]
+		}, -- [340]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1251,7 +1859,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRight:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRight:ShowBase()",
-		}, -- [189]
+		}, -- [341]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1260,7 +1868,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton12:SetShown()",
-		}, -- [190]
+		}, -- [342]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1269,7 +1877,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton11:SetShown()",
-		}, -- [191]
+		}, -- [343]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1278,7 +1886,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton10:SetShown()",
-		}, -- [192]
+		}, -- [344]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1287,7 +1895,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton9:SetShown()",
-		}, -- [193]
+		}, -- [345]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1296,7 +1904,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton8:SetShown()",
-		}, -- [194]
+		}, -- [346]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1305,7 +1913,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton7:SetShown()",
-		}, -- [195]
+		}, -- [347]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1314,7 +1922,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton6:SetShown()",
-		}, -- [196]
+		}, -- [348]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1323,7 +1931,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton5:SetShown()",
-		}, -- [197]
+		}, -- [349]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1332,7 +1940,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton4:SetShown()",
-		}, -- [198]
+		}, -- [350]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1341,7 +1949,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton3:SetShown()",
-		}, -- [199]
+		}, -- [351]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1350,7 +1958,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton2:SetShown()",
-		}, -- [200]
+		}, -- [352]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1359,7 +1967,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton1:SetShown()",
-		}, -- [201]
+		}, -- [353]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1368,7 +1976,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:53: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRight:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRight:SetFrameStrata()",
-		}, -- [202]
+		}, -- [354]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1377,7 +1985,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRight:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRight:ShowBase()",
-		}, -- [203]
+		}, -- [355]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1386,7 +1994,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton12:SetShown()",
-		}, -- [204]
+		}, -- [356]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1395,7 +2003,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton11:SetShown()",
-		}, -- [205]
+		}, -- [357]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1404,7 +2012,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton10:SetShown()",
-		}, -- [206]
+		}, -- [358]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1413,7 +2021,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton9:SetShown()",
-		}, -- [207]
+		}, -- [359]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1422,7 +2030,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton8:SetShown()",
-		}, -- [208]
+		}, -- [360]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1431,7 +2039,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton7:SetShown()",
-		}, -- [209]
+		}, -- [361]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1440,7 +2048,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton6:SetShown()",
-		}, -- [210]
+		}, -- [362]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1449,7 +2057,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton5:SetShown()",
-		}, -- [211]
+		}, -- [363]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1458,7 +2066,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton4:SetShown()",
-		}, -- [212]
+		}, -- [364]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1467,7 +2075,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton3:SetShown()",
-		}, -- [213]
+		}, -- [365]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1476,7 +2084,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton2:SetShown()",
-		}, -- [214]
+		}, -- [366]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1485,7 +2093,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton1:SetShown()",
-		}, -- [215]
+		}, -- [367]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1494,7 +2102,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:52: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRight:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRight:SetFrameStrata()",
-		}, -- [216]
+		}, -- [368]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1503,7 +2111,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `ShowBase'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:347: in function `UpdateVisibility'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:190: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeft:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeft:ShowBase()",
-		}, -- [217]
+		}, -- [369]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1512,7 +2120,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton12:SetShown()",
-		}, -- [218]
+		}, -- [370]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1521,7 +2129,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton11:SetShown()",
-		}, -- [219]
+		}, -- [371]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1530,7 +2138,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton10:SetShown()",
-		}, -- [220]
+		}, -- [372]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1539,7 +2147,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton9:SetShown()",
-		}, -- [221]
+		}, -- [373]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1548,7 +2156,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton8:SetShown()",
-		}, -- [222]
+		}, -- [374]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1557,7 +2165,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton7:SetShown()",
-		}, -- [223]
+		}, -- [375]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1566,7 +2174,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton6:SetShown()",
-		}, -- [224]
+		}, -- [376]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1575,7 +2183,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton5:SetShown()",
-		}, -- [225]
+		}, -- [377]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1584,7 +2192,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton4:SetShown()",
-		}, -- [226]
+		}, -- [378]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1593,7 +2201,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton3:SetShown()",
-		}, -- [227]
+		}, -- [379]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1602,7 +2210,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton2:SetShown()",
-		}, -- [228]
+		}, -- [380]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1611,7 +2219,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:189: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton1:SetShown()",
-		}, -- [229]
+		}, -- [381]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1620,7 +2228,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:195: in function `UpdateFrameStrata'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:187: in function `SetShowGrid'\n[string \"@Interface/FrameXML/MultiActionBars.lua\"]:51: in function `MultiActionBar_ShowAllGrids'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:195: in function <Interface/FrameXML/SpellBookFrame.lua:185>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3189: in function `ShowUIPanel'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeft:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeft:SetFrameStrata()",
-		}, -- [230]
+		}, -- [382]
 		{
 			["path"] = "|cff00ffff[string \"=[tsm error check]\"]|r|cffffffff:|r|cffff00ff1|r",
 			["count"] = 2,
@@ -1629,7 +2237,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Lua error in aura 'Rune Position': init\nWeakAuras Version: 5.3.4\nAura Version: 2.0.1\nbad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["full"] = "[string \"=[tsm error check]\"]:1: Lua error in aura 'Rune Position': init\nWeakAuras Version: 5.3.4\nAura Version: 2.0.1\nbad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["formatted"] = "Lua error in aura 'Rune Position': init\nWeakAuras Version: 5.3.4\nAura Version: 2.0.1\nbad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
-		}, -- [231]
+		}, -- [383]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 67,
@@ -1638,7 +2246,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:145: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember1:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember1:Show()",
-		}, -- [232]
+		}, -- [384]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 42,
@@ -1647,7 +2255,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:220: in function `CompactUnitFrame_SetUpFrame'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:56: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember5:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:Show()",
-		}, -- [233]
+		}, -- [385]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -1656,7 +2264,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:77: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Hide()",
-		}, -- [234]
+		}, -- [386]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1665,7 +2273,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Hide()",
-		}, -- [235]
+		}, -- [387]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1674,7 +2282,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Hide()",
-		}, -- [236]
+		}, -- [388]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1683,7 +2291,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Hide()",
-		}, -- [237]
+		}, -- [389]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 55,
@@ -1692,7 +2300,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:145: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember2:Show()",
-		}, -- [238]
+		}, -- [390]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1701,7 +2309,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/SharedXML/LayoutFrame.lua\"]:240: in function `LayoutChildren'\n[string \"@Interface/SharedXML/LayoutFrame.lua\"]:172: in function `Layout'\n[string \"@Interface/FrameXML/PartyFrame.lua\"]:99: in function `UpdatePaddingAndLayout'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:61: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrame:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrame:SetPoint()",
-		}, -- [239]
+		}, -- [391]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1710,7 +2318,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:117: in function `CompactRaidGroup_UpdateLayout'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:134: in function `CompactRaidGroup_UpdateBorder'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:60: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember5:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:SetPoint()",
-		}, -- [240]
+		}, -- [392]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1719,7 +2327,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:117: in function `CompactRaidGroup_UpdateLayout'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:134: in function `CompactRaidGroup_UpdateBorder'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:60: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember4:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:SetPoint()",
-		}, -- [241]
+		}, -- [393]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1728,7 +2336,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:117: in function `CompactRaidGroup_UpdateLayout'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:134: in function `CompactRaidGroup_UpdateBorder'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:60: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember3:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember3:SetPoint()",
-		}, -- [242]
+		}, -- [394]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1737,7 +2345,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:117: in function `CompactRaidGroup_UpdateLayout'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:134: in function `CompactRaidGroup_UpdateBorder'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:60: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember2:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember2:SetPoint()",
-		}, -- [243]
+		}, -- [395]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1746,7 +2354,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:112: in function `CompactRaidGroup_UpdateLayout'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:134: in function `CompactRaidGroup_UpdateBorder'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:60: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember1:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember1:SetPoint()",
-		}, -- [244]
+		}, -- [396]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 50,
@@ -1755,7 +2363,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember4:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:Show()",
-		}, -- [245]
+		}, -- [397]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 52,
@@ -1764,7 +2372,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember3:Show()",
-		}, -- [246]
+		}, -- [398]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -1773,7 +2381,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:220: in function `CompactUnitFrame_SetUpFrame'\n[string \"@Interface/FrameXML/CompactPartyFrame.lua\"]:56: in function <Interface/FrameXML/CompactPartyFrame.lua:28>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember5:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:Hide()",
-		}, -- [247]
+		}, -- [399]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1782,7 +2390,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember4:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:Hide()",
-		}, -- [248]
+		}, -- [400]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -1791,7 +2399,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:305: in function `AddUnitFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:256: in function `AddPets'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:170: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:Show()",
-		}, -- [249]
+		}, -- [401]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 12,
@@ -1800,7 +2408,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Show()",
-		}, -- [250]
+		}, -- [402]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -1809,7 +2417,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member4:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member4:Show()",
-		}, -- [251]
+		}, -- [403]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -1818,7 +2426,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member3:Show()",
-		}, -- [252]
+		}, -- [404]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -1827,7 +2435,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member2:Show()",
-		}, -- [253]
+		}, -- [405]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 17,
@@ -1836,7 +2444,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Show()",
-		}, -- [254]
+		}, -- [406]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 18,
@@ -1845,7 +2453,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Show()",
-		}, -- [255]
+		}, -- [407]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 18,
@@ -1854,7 +2462,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:50: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Show()",
-		}, -- [256]
+		}, -- [408]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1863,7 +2471,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:394: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:145: in function <Interface/FrameXML/CompactUnitFrame.lua:47>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Show()",
-		}, -- [257]
+		}, -- [409]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1872,7 +2480,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:164: in function `FlowContainer_DoLayout'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:17: in function `FlowContainer_ResumeUpdates'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:174: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:SetPoint()",
-		}, -- [258]
+		}, -- [410]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1881,7 +2489,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:164: in function `FlowContainer_DoLayout'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:17: in function `FlowContainer_ResumeUpdates'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:174: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup3:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:SetPoint()",
-		}, -- [259]
+		}, -- [411]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1890,7 +2498,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:164: in function `FlowContainer_DoLayout'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:17: in function `FlowContainer_ResumeUpdates'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:174: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:52: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:SetPoint()",
-		}, -- [260]
+		}, -- [412]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1899,7 +2507,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:164: in function `FlowContainer_DoLayout'\n[string \"@Interface/FrameXML/FlowContainer.lua\"]:17: in function `FlowContainer_ResumeUpdates'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:174: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:52: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:SetPoint()",
-		}, -- [261]
+		}, -- [413]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1908,7 +2516,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:225: in function `AddGroup'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:197: in function `AddGroups'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:164: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:Show()",
-		}, -- [262]
+		}, -- [414]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1917,7 +2525,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:225: in function `AddGroup'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:197: in function `AddGroups'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:164: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:52: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:Show()",
-		}, -- [263]
+		}, -- [415]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1926,7 +2534,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:225: in function `AddGroup'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:197: in function `AddGroups'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:164: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:52: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:Show()",
-		}, -- [264]
+		}, -- [416]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1935,7 +2543,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `unusedFunc'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:151: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup3:unusedFunc()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:unusedFunc()",
-		}, -- [265]
+		}, -- [417]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1944,7 +2552,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `unusedFunc'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:151: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:52: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2:unusedFunc()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:unusedFunc()",
-		}, -- [266]
+		}, -- [418]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1953,7 +2561,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `unusedFunc'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:151: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:52: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1:unusedFunc()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:unusedFunc()",
-		}, -- [267]
+		}, -- [419]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 5,
@@ -1962,7 +2570,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:174: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:SetAttribute()",
-		}, -- [268]
+		}, -- [420]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1971,7 +2579,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:174: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member4:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member4:SetAttribute()",
-		}, -- [269]
+		}, -- [421]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1980,7 +2588,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:174: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member3:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member3:SetAttribute()",
-		}, -- [270]
+		}, -- [422]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1989,7 +2597,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:174: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:67: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member2:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member2:SetAttribute()",
-		}, -- [271]
+		}, -- [423]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1998,7 +2606,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:174: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:77: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:SetAttribute()",
-		}, -- [272]
+		}, -- [424]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -2007,7 +2615,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:174: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:27: in function `releaseFunc'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameReservationManager.lua\"]:27: in function `CompactRaidFrameReservation_ReleaseUnusedReservations'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:346: in function `ReleaseAllReservedFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:178: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:SetAttribute()",
-		}, -- [273]
+		}, -- [425]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -2016,7 +2624,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:27: in function `releaseFunc'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameReservationManager.lua\"]:27: in function `CompactRaidFrameReservation_ReleaseUnusedReservations'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:346: in function `ReleaseAllReservedFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:178: in function `LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:128: in function `TryUpdate'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:57: in function <...actRaidFrames/Blizzard_CompactRaidFrameContainer.lua:50>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:Hide()",
-		}, -- [274]
+		}, -- [426]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2025,7 +2633,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:397: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:319: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/FrameXML/CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:77: in function `CompactRaidGroup_UpdateUnits'\n[string \"@Interface/FrameXML/CompactRaidGroup.lua\"]:10: in function `CompactRaidGroup_OnEvent'\n[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1: in function <[string \"*CompactRaidGroup.xml:121_OnEvent\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Hide()",
-		}, -- [275]
+		}, -- [427]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2034,7 +2642,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `FocusUnit'\n[string \"@Interface/FrameXML/UnitPopupSharedButtonMixins.lua\"]:1679: in function `OnClick'\n[string \"@Interface/FrameXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/SharedXML/UIDropDownMenu.lua\"]:1007: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:136_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:136_OnClick\"]:1>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: ConsolePort forbidden from using FocusUnit() (Only usable by Blizzard)",
 			["formatted"] = "ConsolePort forbidden from using FocusUnit() (Only usable by Blizzard)",
-		}, -- [276]
+		}, -- [428]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 43,
@@ -2043,7 +2651,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPointBase'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:72: in function `SetPoint'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:638: in function `UpdateBottomActionBarPositions'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:564: in function `UpdateActionBarLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:676: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/StanceBar.lua\"]:73: in function `UpdateState'\n[string \"@Interface/FrameXML/StanceBar.lua\"]:12: in function <Interface/FrameXML/StanceBar.lua:10>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using MultiBarBottomRight:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using MultiBarBottomRight:SetPointBase()",
-		}, -- [277]
+		}, -- [429]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 43,
@@ -2052,7 +2660,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPointBase'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:72: in function `SetPoint'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:638: in function `UpdateBottomActionBarPositions'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:564: in function `UpdateActionBarLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:676: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/StanceBar.lua\"]:73: in function `UpdateState'\n[string \"@Interface/FrameXML/StanceBar.lua\"]:12: in function <Interface/FrameXML/StanceBar.lua:10>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using MultiBarBottomLeft:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using MultiBarBottomLeft:SetPointBase()",
-		}, -- [278]
+		}, -- [430]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -2061,7 +2669,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:350: in function `UpdatePressAndHoldAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:412: in function `Update'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:362: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using OverrideActionBarButton2:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using OverrideActionBarButton2:SetAttribute()",
-		}, -- [279]
+		}, -- [431]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2070,7 +2678,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPointBase'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:72: in function `SetPoint'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:633: in function `UpdateBottomActionBarPositions'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:564: in function `UpdateActionBarLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:676: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:368: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using MainMenuBar:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using MainMenuBar:SetPointBase()",
-		}, -- [280]
+		}, -- [432]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2079,7 +2687,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton12:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton12:SetShown()",
-		}, -- [281]
+		}, -- [433]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2088,7 +2696,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton11:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton11:SetShown()",
-		}, -- [282]
+		}, -- [434]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2097,7 +2705,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton10:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton10:SetShown()",
-		}, -- [283]
+		}, -- [435]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2106,7 +2714,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton9:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton9:SetShown()",
-		}, -- [284]
+		}, -- [436]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2115,7 +2723,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton8:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton8:SetShown()",
-		}, -- [285]
+		}, -- [437]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2124,7 +2732,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton7:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton7:SetShown()",
-		}, -- [286]
+		}, -- [438]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2133,7 +2741,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton6:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton6:SetShown()",
-		}, -- [287]
+		}, -- [439]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2142,7 +2750,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton5:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton5:SetShown()",
-		}, -- [288]
+		}, -- [440]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2151,7 +2759,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton4:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton4:SetShown()",
-		}, -- [289]
+		}, -- [441]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2160,7 +2768,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton3:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton3:SetShown()",
-		}, -- [290]
+		}, -- [442]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2169,7 +2777,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton2:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton2:SetShown()",
-		}, -- [291]
+		}, -- [443]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2178,7 +2786,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:206: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:367: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton1:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton1:SetShown()",
-		}, -- [292]
+		}, -- [444]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -2187,7 +2795,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:350: in function `UpdatePressAndHoldAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:412: in function `Update'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:362: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton2:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton2:SetAttribute()",
-		}, -- [293]
+		}, -- [445]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2196,7 +2804,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:350: in function `UpdatePressAndHoldAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:412: in function `Update'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:362: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using OverrideActionBarButton5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using OverrideActionBarButton5:SetAttribute()",
-		}, -- [294]
+		}, -- [446]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2205,7 +2813,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:350: in function `UpdatePressAndHoldAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:412: in function `Update'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:362: in function `UpdateAction'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:821: in function `OnEvent'\n[string \"@Interface/FrameXML/ActionButton.lua\"]:216: in function <Interface/FrameXML/ActionButton.lua:213>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton5:SetAttribute()",
-		}, -- [295]
+		}, -- [447]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 22,
@@ -2214,39 +2822,39 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: in function `SetPointBase'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:72: in function `SetPoint'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:638: in function `UpdateBottomActionBarPositions'\n[string \"@Interface/FrameXML/EditModeManager.lua\"]:564: in function `UpdateActionBarLayout'\n[string \"@Interface/FrameXML/EditModeSystemTemplates.lua\"]:676: in function `UpdateGridLayout'\n[string \"@Interface/FrameXML/StanceBar.lua\"]:73: in function `UpdateState'\n[string \"@Interface/FrameXML/StanceBar.lua\"]:12: in function <Interface/FrameXML/StanceBar.lua:10>\n[string \"=[C]\"]: ?\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using StanceBar:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using StanceBar:SetPointBase()",
-		}, -- [296]
+		}, -- [448]
 		{
 			["count"] = 7,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdFamilyFamiliar/Addon.lua:1 (null)",
-		}, -- [297]
+		}, -- [449]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdBattlePetScript_Rematch/UI.lua:1 (null)",
-		}, -- [298]
+		}, -- [450]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdBattlePetScript_Rematch/Version.lua:1 (null)",
-		}, -- [299]
+		}, -- [451]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdBattlePetScript_Rematch/Addon.lua:1 (null)",
-		}, -- [300]
+		}, -- [452]
 		{
 			["count"] = 7,
 			["err"] = "Interface/AddOns/tdFamilyFamiliar/Addon.lua:1 (null)",
-		}, -- [301]
+		}, -- [453]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/tdBattlePetScript_Rematch/UI.lua:1 (null)",
-		}, -- [302]
+		}, -- [454]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/tdBattlePetScript_Rematch/Version.lua:1 (null)",
-		}, -- [303]
+		}, -- [455]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/tdBattlePetScript_Rematch/Addon.lua:1 (null)",
-		}, -- [304]
+		}, -- [456]
 		{
 			["path"] = "|cff00ffff...terface/AddOns/tdBattlePetScript/Extension/Round.lua|r|cffffffff:|r|cffff00ff12|r",
 			["count"] = 1,
@@ -2255,7 +2863,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "...terface/AddOns/tdBattlePetScript/Extension/Round.lua:12: table index is nil",
 			["full"] = "...terface/AddOns/tdBattlePetScript/Extension/Round.lua:12: table index is nil",
 			["formatted"] = "table index is nil",
-		}, -- [305]
+		}, -- [457]
 		{
 			["path"] = "|cff00ffffInterface/AddOns/tdFamilyFamiliar/Addon.lua|r|cffffffff:|r|cffff00ff58|r",
 			["count"] = 1,
@@ -2264,6 +2872,6 @@ TDDB_DEVTOOLS = {
 			["err"] = "Interface/AddOns/tdFamilyFamiliar/Addon.lua:58: GameTooltip doesn't have a \"OnTooltipSetUnit\" script",
 			["full"] = "Interface/AddOns/tdFamilyFamiliar/Addon.lua:58: GameTooltip doesn't have a \"OnTooltipSetUnit\" script",
 			["formatted"] = "GameTooltip doesn't have a \"OnTooltipSetUnit\" script",
-		}, -- [306]
+		}, -- [458]
 	},
 }

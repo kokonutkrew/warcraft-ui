@@ -1,62 +1,8 @@
 
 KILLTRACK_CHAR = {
 	["MOBS"] = {
-		[5831] = {
-			["Name"] = "Swiftmane",
-			["Kills"] = 0,
-		},
-		[3245] = {
-			["Name"] = "Ornery Plainstrider",
-			["Kills"] = 0,
-		},
-		[3247] = {
-			["LastKillAt"] = 1696400680,
-			["Kills"] = 1,
-			["Name"] = "Thunderhawk Hatchling",
-		},
-		[2970] = {
-			["Name"] = "Swoop",
-			["Kills"] = 0,
-		},
-		[3463] = {
-			["LastKillAt"] = 1696410702,
-			["Kills"] = 1,
-			["Name"] = "Wandering Barrens Giraffe",
-		},
-		[3461] = {
-			["LastKillAt"] = 1696401082,
-			["Kills"] = 3,
-			["Name"] = "Oasis Snapjaw",
-		},
-		[3474] = {
-			["LastKillAt"] = 1696400709,
-			["Kills"] = 1,
-			["Name"] = "Lakota'mani",
-		},
-		[4127] = {
-			["Name"] = "Hecklefang Hyena",
-			["Kills"] = 0,
-		},
-		[3261] = {
-			["Name"] = "Bristleback Thornweaver",
-			["Kills"] = 0,
-		},
-		[3263] = {
-			["LastKillAt"] = 1696400544,
-			["Kills"] = 6,
-			["Name"] = "Bristleback Geomancer",
-		},
-		[3234] = {
-			["LastKillAt"] = 1696400909,
-			["Kills"] = 1,
-			["Name"] = "Lost Barrens Kodo",
-		},
-		[2957] = {
-			["Name"] = "Elder Plainstrider",
-			["Kills"] = 0,
-		},
-		[2959] = {
-			["Name"] = "Prairie Stalker",
+		[3673] = {
+			["Name"] = "Lord Serpentis",
 			["Kills"] = 0,
 		},
 		[3240] = {
@@ -64,38 +10,117 @@ KILLTRACK_CHAR = {
 			["Kills"] = 3,
 			["Name"] = "Stormsnout",
 		},
+		[3634] = {
+			["Name"] = "Deviate Stalker",
+			["Kills"] = 0,
+		},
+		[12296] = {
+			["Name"] = "Sickly Gazelle",
+			["Kills"] = 0,
+		},
+		[2957] = {
+			["Name"] = "Elder Plainstrider",
+			["Kills"] = 0,
+		},
+		[5756] = {
+			["LastKillAt"] = 1696443149,
+			["Kills"] = 2,
+			["Name"] = "Deviate Venomwing",
+		},
+		[3674] = {
+			["Name"] = "Skum",
+			["Kills"] = 0,
+		},
+		[5048] = {
+			["LastKillAt"] = 1696444121,
+			["Kills"] = 1,
+			["Name"] = "Deviate Adder",
+		},
+		[3257] = {
+			["Name"] = "Ishamuhale",
+			["Kills"] = 0,
+		},
+		[3273] = {
+			["Name"] = "Kolkar Stormer",
+			["Kills"] = 0,
+		},
+		[3234] = {
+			["LastKillAt"] = 1696400909,
+			["Kills"] = 1,
+			["Name"] = "Lost Barrens Kodo",
+		},
 		[3242] = {
 			["Name"] = "Zhevra Runner",
 			["Kills"] = 0,
 		},
-		[3244] = {
-			["Name"] = "Greater Plainstrider",
-			["Kills"] = 0,
-		},
-		[3246] = {
-			["Name"] = "Fleeting Plainstrider",
-			["Kills"] = 0,
-		},
-		[3426] = {
-			["Name"] = "Zhevra Charger",
-			["Kills"] = 0,
-		},
-		[3260] = {
-			["Name"] = "Bristleback Water Seeker",
-			["Kills"] = 0,
+		[3840] = {
+			["LastKillAt"] = 1696443102,
+			["Kills"] = 7,
+			["Name"] = "Druid of the Fang",
 		},
 		[3258] = {
 			["LastKillAt"] = 1696400531,
 			["Kills"] = 9,
 			["Name"] = "Bristleback Hunter",
 		},
-		[3632] = {
-			["LastKillAt"] = 1696402420,
-			["Kills"] = 1,
-			["Name"] = "Deviate Creeper",
+		[5775] = {
+			["Name"] = "Verdan the Everliving",
+			["Kills"] = 0,
 		},
-		[3256] = {
-			["Name"] = "Sunscale Scytheclaw",
+		[3463] = {
+			["LastKillAt"] = 1696410702,
+			["Kills"] = 1,
+			["Name"] = "Wandering Barrens Giraffe",
+		},
+		[3272] = {
+			["Name"] = "Kolkar Wrangler",
+			["Kills"] = 0,
+		},
+		[3416] = {
+			["Name"] = "Savannah Matriarch",
+			["Kills"] = 0,
+		},
+		[5761] = {
+			["LastKillAt"] = 1696442522,
+			["Kills"] = 2,
+			["Name"] = "Deviate Shambler",
+		},
+		[5763] = {
+			["Name"] = "Nightmare Ectoplasm",
+			["Kills"] = 0,
+		},
+		[5762] = {
+			["LastKillAt"] = 1696444312,
+			["Kills"] = 1,
+			["Name"] = "Deviate Moccasin",
+		},
+		[3637] = {
+			["Name"] = "Deviate Guardian",
+			["Kills"] = 0,
+		},
+		[3653] = {
+			["Name"] = "Kresh",
+			["Kills"] = 0,
+		},
+		[2960] = {
+			["Name"] = "Prairie Wolf Alpha",
+			["Kills"] = 0,
+		},
+		[5053] = {
+			["LastKillAt"] = 1696441438,
+			["Kills"] = 2,
+			["Name"] = "Deviate Crocolisk",
+		},
+		[3669] = {
+			["Name"] = "Lord Cobrahn",
+			["Kills"] = 0,
+		},
+		[3670] = {
+			["Name"] = "Lord Pythas",
+			["Kills"] = 0,
+		},
+		[3244] = {
+			["Name"] = "Greater Plainstrider",
 			["Kills"] = 0,
 		},
 		[3630] = {
@@ -103,23 +128,135 @@ KILLTRACK_CHAR = {
 			["Kills"] = 1,
 			["Name"] = "Deviate Coiler",
 		},
-		[4129] = {
-			["LastKillAt"] = 1696400722,
+		[3260] = {
+			["Name"] = "Bristleback Water Seeker",
+			["Kills"] = 0,
+		},
+		[3835] = {
+			["Name"] = "Biletoad",
+			["Kills"] = 0,
+		},
+		[3654] = {
+			["Name"] = "Mutanus the Devourer",
+			["Kills"] = 0,
+		},
+		[5055] = {
+			["LastKillAt"] = 1696442814,
 			["Kills"] = 1,
-			["Name"] = "Hecklefang Snarler",
+			["Name"] = "Deviate Lasher",
 		},
-		[3416] = {
-			["Name"] = "Savannah Matriarch",
+		[2914] = {
+			["Name"] = "Snake",
 			["Kills"] = 0,
 		},
-		[3257] = {
-			["Name"] = "Ishamuhale",
+		[3426] = {
+			["Name"] = "Zhevra Charger",
 			["Kills"] = 0,
+		},
+		[3245] = {
+			["Name"] = "Ornery Plainstrider",
+			["Kills"] = 0,
+		},
+		[5056] = {
+			["LastKillAt"] = 1696443377,
+			["Kills"] = 3,
+			["Name"] = "Deviate Dreadfang",
+		},
+		[3261] = {
+			["Name"] = "Bristleback Thornweaver",
+			["Kills"] = 0,
+		},
+		[8886] = {
+			["LastKillAt"] = 1696441216,
+			["Kills"] = 1,
+			["Name"] = "Deviate Python",
+		},
+		[5755] = {
+			["Name"] = "Deviate Viper",
+			["Kills"] = 0,
+		},
+		[3474] = {
+			["LastKillAt"] = 1696400709,
+			["Kills"] = 1,
+			["Name"] = "Lakota'mani",
 		},
 		[5766] = {
 			["LastKillAt"] = 1696403041,
 			["Kills"] = 1,
 			["Name"] = "Savannah Cub",
+		},
+		[3256] = {
+			["Name"] = "Sunscale Scytheclaw",
+			["Kills"] = 0,
+		},
+		[3246] = {
+			["Name"] = "Fleeting Plainstrider",
+			["Kills"] = 0,
+		},
+		[3632] = {
+			["LastKillAt"] = 1696402420,
+			["Kills"] = 1,
+			["Name"] = "Deviate Creeper",
+		},
+		[4129] = {
+			["LastKillAt"] = 1696400722,
+			["Kills"] = 1,
+			["Name"] = "Hecklefang Snarler",
+		},
+		[2959] = {
+			["Name"] = "Prairie Stalker",
+			["Kills"] = 0,
+		},
+		[4127] = {
+			["Name"] = "Hecklefang Hyena",
+			["Kills"] = 0,
+		},
+		[2970] = {
+			["Name"] = "Swoop",
+			["Kills"] = 0,
+		},
+		[5831] = {
+			["Name"] = "Swiftmane",
+			["Kills"] = 0,
+		},
+		[3680] = {
+			["LastKillAt"] = 1696440539,
+			["Kills"] = 1,
+			["Name"] = "Serpentbloom Snake",
+		},
+		[3247] = {
+			["LastKillAt"] = 1696400680,
+			["Kills"] = 1,
+			["Name"] = "Thunderhawk Hatchling",
+		},
+		[3461] = {
+			["LastKillAt"] = 1696401082,
+			["Kills"] = 3,
+			["Name"] = "Oasis Snapjaw",
+		},
+		[3263] = {
+			["LastKillAt"] = 1696400544,
+			["Kills"] = 6,
+			["Name"] = "Bristleback Geomancer",
+		},
+		[3636] = {
+			["LastKillAt"] = 1696443849,
+			["Kills"] = 3,
+			["Name"] = "Deviate Ravager",
+		},
+		[3640] = {
+			["LastKillAt"] = 1696443874,
+			["Kills"] = 1,
+			["Name"] = "Evolving Ectoplasm",
+		},
+		[3035] = {
+			["Name"] = "Flatland Cougar",
+			["Kills"] = 0,
+		},
+		[3671] = {
+			["LastKillAt"] = 1696440145,
+			["Kills"] = 1,
+			["Name"] = "Lady Anacondra",
 		},
 	},
 }

@@ -45,14 +45,14 @@ Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 EMA-Classic: disabled
-FarmingBar: enabled
+FarmingBar: disabled
 FieldGuide: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 GatherNotify: enabled
 Ginv: disabled
 Gnosis: enabled
-GreenWall: enabled
+GreenWall: disabled
 GTFO: enabled
 Guild_Roster_Manager: enabled
 HHTD: enabled
@@ -89,7 +89,7 @@ Prat-3.0: enabled
 Prat-3.0_Libraries: enabled
 Questie: enabled
 RCLootCouncil_Classic: enabled
-RXPGuides: enabled
+RXPGuides: disabled
 SilverDragon: enabled
 SilverDragon_Overlay: enabled
 SilverDragon_RangeExtender: enabled
@@ -133,3 +133,4 @@ Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
 MacroToolkit: enabled
 MacroToolkitIcons: enabled
+OPie_Classic: disabled

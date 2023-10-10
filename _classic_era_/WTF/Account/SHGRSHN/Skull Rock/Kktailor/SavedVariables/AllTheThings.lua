@@ -3,9 +3,9 @@ ATTClassicSettingsPerCharacter = {
 	["RWPFilters"] = {
 	},
 	["Filters"] = {
-		[100] = true,
-		[101] = true,
-		[102] = true,
+		[100] = false,
+		[101] = false,
+		[102] = false,
 		[200] = true,
 	},
 }

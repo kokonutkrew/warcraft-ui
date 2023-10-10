@@ -29,8 +29,8 @@ MythicDungeonToolsDB = {
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Kk - Bloodhoof"] = "Kk - Bloodhoof",
@@ -480,6 +480,16 @@ MythicDungeonToolsDB = {
 							},
 						}, -- [6]
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "2.2 SD by Dratnos",
+					["mdi"] = {
+						["freehold"] = 1,
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+					},
 					["value"] = {
 						["currentPull"] = 14,
 						["currentSublevel"] = 1,
@@ -888,25 +898,11 @@ MythicDungeonToolsDB = {
 							}, -- [33]
 						},
 					},
-					["text"] = "2.2 SD by Dratnos",
-					["mdi"] = {
-						["freehold"] = 1,
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 				}, -- [2]
 				{
 					["mdiEnabled"] = false,
 					["week"] = 5,
 					["objects"] = {
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
 					},
 					["value"] = {
 						["selection"] = {
@@ -1177,6 +1173,10 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 					["text"] = "Fortified",
 					["difficulty"] = 14,
 					["mdi"] = {
@@ -1201,10 +1201,6 @@ MythicDungeonToolsDB = {
 				{
 					["difficulty"] = 30,
 					["week"] = 1,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["value"] = {
 						["selection"] = {
 							25, -- [1]
@@ -1323,11 +1319,11 @@ MythicDungeonToolsDB = {
 								[11] = {
 									7, -- [1]
 								},
-								[12] = {
-									2, -- [1]
-								},
 								[7] = {
 									4, -- [1]
+								},
+								[12] = {
+									2, -- [1]
 								},
 								["color"] = "3e3eff",
 							}, -- [10]
@@ -1354,12 +1350,12 @@ MythicDungeonToolsDB = {
 							}, -- [12]
 							{
 								["color"] = "3eff9e",
-								[9] = {
-									2, -- [1]
-								},
 								[7] = {
 									8, -- [1]
 									9, -- [2]
+								},
+								[9] = {
+									2, -- [1]
 								},
 								[8] = {
 									6, -- [1]
@@ -1498,6 +1494,10 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [26]
 						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["text"] = "SWEEET",
 					["mdi"] = {

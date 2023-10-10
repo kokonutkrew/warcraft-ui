@@ -5,6 +5,16 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
+						["worlddefense"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["hcdeathalertschannel"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
 						["kk"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
@@ -15,10 +25,10 @@ Prat3DB = {
 							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
 						},
-						["hcdeathalertschannel"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
+						["lookingforgroup"] = {
 							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
 					},
 				},
@@ -132,18 +142,21 @@ Prat3DB = {
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Default",
+		["Kktailor - Skull Rock"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
 		["Øø - Skull Rock"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
 		["Kkbank - Whitemane"] = "Default",
 		["Samoanmystic - Grobbulus"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
@@ -151,7 +164,7 @@ Prat3DB = {
 		["Samoansavage - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
 	},

@@ -1,0 +1,18 @@
+
+AutoLayerDB = {
+	["profileKeys"] = {
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
+	},
+	["profiles"] = {
+		["Fishhook - Skull Rock"] = {
+			["layered"] = 273,
+		},
+		["Bannhammer - Skull Rock"] = {
+		},
+		["Komrad - Skull Rock"] = {
+			["layered"] = 2,
+		},
+	},
+}

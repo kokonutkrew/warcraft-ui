@@ -1,36 +1,5 @@
 
 FGI_DB = {
-	["realm"] = {
-		["Emerald Dream"] = {
-			["leave"] = {
-				["Baxoj"] = true,
-				["Kkdelete"] = true,
-				["Delmirey"] = true,
-				["Vicrøcíty"] = true,
-				["Ansenaria"] = true,
-				["Ðropshot"] = true,
-				["Dignity"] = true,
-				["Ðomo"] = true,
-				["Ravenstörm"] = true,
-				["Vandy"] = true,
-			},
-			["blackList"] = {
-				["Flyingsnow"] = "no reason",
-			},
-			["filtersList"] = {
-				["All"] = {
-					["lvlRange"] = false,
-					["filterByName"] = false,
-					["rioMPlus"] = false,
-					["raceFilter"] = false,
-					["rioRaid"] = false,
-					["filteredCount"] = 0,
-					["filterOn"] = true,
-					["classFilter"] = false,
-				},
-			},
-		},
-	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
 		["Threadcraft - Emerald Dream"] = "Default",
@@ -44,34 +13,6 @@ FGI_DB = {
 		["Samoanruin - Emerald Dream"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Gearcraft - Emerald Dream"] = "Default",
-	},
-	["global"] = {
-		["scanFrame"] = {
-			["yOfs"] = 58.0002326965332,
-			["xOfs"] = -387.9995422363281,
-			["point"] = "BOTTOM",
-			["relativePoint"] = "BOTTOM",
-		},
-		["community"] = {
-		},
-		["keyBind"] = {
-			["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
-			["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
-		},
-		["minimap"] = {
-			["minimapPos"] = 132.1659503447638,
-		},
-		["guildLinks"] = {
-			["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
-		},
-		["mainFrame"] = {
-			["yOfs"] = 135.9999542236328,
-			["xOfs"] = 52.9998664855957,
-			["point"] = "BOTTOM",
-			["relativePoint"] = "BOTTOM",
-		},
-		["inviteType"] = 3,
-		["introShow"] = false,
 	},
 	["factionrealm"] = {
 		["Alliance - Emerald Dream"] = {
@@ -92,8 +33,8 @@ FGI_DB = {
 					["Âzmodeus"] = true,
 					["Soundasleep"] = true,
 					["Shaaggy"] = true,
-					["Sabben"] = true,
 					["Adarind"] = true,
+					["Sabben"] = true,
 					["Jesterlavore"] = true,
 				},
 				["whoQueryList"] = {
@@ -185,6 +126,65 @@ FGI_DB = {
 			["guild"] = "KK",
 			["messageList"] = {
 				"Hey NAME are you looking for a guild? Join the GUILDLINK or check us out at kokonutkrew.com", -- [1]
+			},
+		},
+	},
+	["global"] = {
+		["scanFrame"] = {
+			["yOfs"] = 58.0002326965332,
+			["xOfs"] = -387.9995422363281,
+			["point"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
+		},
+		["community"] = {
+		},
+		["keyBind"] = {
+			["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
+			["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
+		},
+		["minimap"] = {
+			["minimapPos"] = 132.1659503447638,
+		},
+		["guildLinks"] = {
+			["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
+		},
+		["mainFrame"] = {
+			["yOfs"] = 135.9999542236328,
+			["xOfs"] = 52.9998664855957,
+			["point"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
+		},
+		["inviteType"] = 3,
+		["introShow"] = false,
+	},
+	["realm"] = {
+		["Emerald Dream"] = {
+			["leave"] = {
+				["Baxoj"] = true,
+				["Kkdelete"] = true,
+				["Delmirey"] = true,
+				["Vicrøcíty"] = true,
+				["Ansenaria"] = true,
+				["Ðropshot"] = true,
+				["Dignity"] = true,
+				["Ðomo"] = true,
+				["Ravenstörm"] = true,
+				["Vandy"] = true,
+			},
+			["blackList"] = {
+				["Flyingsnow"] = "no reason",
+			},
+			["filtersList"] = {
+				["All"] = {
+					["lvlRange"] = false,
+					["rioRaid"] = false,
+					["rioMPlus"] = false,
+					["raceFilter"] = false,
+					["filterByName"] = false,
+					["filteredCount"] = 0,
+					["filterOn"] = true,
+					["classFilter"] = false,
+				},
 			},
 		},
 	},

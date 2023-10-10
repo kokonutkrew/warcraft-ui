@@ -1,32 +1,18 @@
 
 FGI_DB = {
-	["global"] = {
-		["scanFrame"] = {
-			["yOfs"] = 58.0002326965332,
-			["xOfs"] = -387.9995422363281,
-			["point"] = "BOTTOM",
-			["relativePoint"] = "BOTTOM",
-		},
-		["community"] = {
-		},
-		["keyBind"] = {
-			["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
-			["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
-		},
-		["minimap"] = {
-			["minimapPos"] = 132.1659503447638,
-		},
-		["guildLinks"] = {
-			["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
-		},
-		["mainFrame"] = {
-			["yOfs"] = 135.9999542236328,
-			["xOfs"] = 52.9998664855957,
-			["point"] = "BOTTOM",
-			["relativePoint"] = "BOTTOM",
-		},
-		["inviteType"] = 3,
-		["introShow"] = false,
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Gearcraft - Emerald Dream"] = "Default",
+		["Forgecraft - Emerald Dream"] = "Default",
+		["Farmcraft - Tichondrius"] = "Default",
+		["Samoanruin - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Kkdev - Emerald Dream"] = "Default",
 	},
 	["factionrealm"] = {
 		["Alliance - Emerald Dream"] = {
@@ -46,8 +32,8 @@ FGI_DB = {
 				["tempSendedInvites"] = {
 					["Soundasleep"] = true,
 					["Âzmodeus"] = true,
-					["Sabben"] = true,
 					["Adarind"] = true,
+					["Sabben"] = true,
 					["Shaaggy"] = true,
 					["Jesterlavore"] = true,
 				},
@@ -143,19 +129,33 @@ FGI_DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "Default",
-		["Threadcraft - Emerald Dream"] = "Default",
-		["Samoanbeast - Emerald Dream"] = "Default",
-		["Herbcraft - Emerald Dream"] = "Default",
-		["Samoansage - Emerald Dream"] = "Default",
-		["Samoanranger - Emerald Dream"] = "Default",
-		["Farmcraft - Tichondrius"] = "Default",
-		["Forgecraft - Emerald Dream"] = "Default",
-		["Gearcraft - Emerald Dream"] = "Default",
-		["Samoanruin - Emerald Dream"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
-		["Kkdev - Emerald Dream"] = "Default",
+	["global"] = {
+		["scanFrame"] = {
+			["yOfs"] = 58.0002326965332,
+			["xOfs"] = -387.9995422363281,
+			["point"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
+		},
+		["community"] = {
+		},
+		["keyBind"] = {
+			["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
+			["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
+		},
+		["minimap"] = {
+			["minimapPos"] = 132.1659503447638,
+		},
+		["guildLinks"] = {
+			["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
+		},
+		["mainFrame"] = {
+			["yOfs"] = 135.9999542236328,
+			["xOfs"] = 52.9998664855957,
+			["point"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
+		},
+		["inviteType"] = 3,
+		["introShow"] = false,
 	},
 	["realm"] = {
 		["Emerald Dream"] = {
@@ -180,10 +180,10 @@ FGI_DB = {
 					["classFilter"] = false,
 					["filterOn"] = true,
 					["filteredCount"] = 0,
-					["rioRaid"] = false,
+					["filterByName"] = false,
 					["raceFilter"] = false,
 					["rioMPlus"] = false,
-					["filterByName"] = false,
+					["rioRaid"] = false,
 				},
 			},
 		},
@@ -197,9 +197,9 @@ FGI_DEBUG = {
 		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
-		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",

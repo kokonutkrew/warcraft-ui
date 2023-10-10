@@ -5,11 +5,11 @@ GreenWallAccount = {
 	["debug"] = 0,
 	["joindelay"] = 30,
 	["verbose"] = false,
-	["updated"] = "2023-10-01 14:47:24",
+	["updated"] = "2023-10-06 04:22:29",
 	["roster"] = true,
 	["logsize"] = 2048,
 	["version"] = "1.11.8+classic-era",
-	["redact"] = true,
 	["ochat"] = false,
+	["redact"] = true,
 	["tag"] = true,
 }

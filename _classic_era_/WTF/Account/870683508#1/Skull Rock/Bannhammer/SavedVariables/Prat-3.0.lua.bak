@@ -1,0 +1,1740 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1696415770,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 417713.332,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:02:58]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 417713.332,
+					["serverTime"] = 1696410190,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 days, 1 hours, 33 minutes, 0 seconds",
+					["timestamp"] = 417713.332,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 417713.332,
+				}, -- [4]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 417699.01,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 57,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r guild promote Kkbanker Soldner Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416318,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Soldner|r to Member.",
+					["serverTime"] = 1696416318,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r guild promote Kkbanker Sixcents Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416318,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r |cffc69b6dKkbanker|r has promoted |cffffffffSixcents|r to Member.",
+					["serverTime"] = 1696416318,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r guild promote Kkbanker Slopain Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416318,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aSlopain|r to Member.",
+					["serverTime"] = 1696416318,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:09]|h|r guild promote Kkbanker Stinkyboi Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416319,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:09]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Stinkyboi|r to Member.",
+					["serverTime"] = 1696416319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:09]|h|r guild promote Kkbanker Symava Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416319,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:09]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddSymava|r to Member.",
+					["serverTime"] = 1696416319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:09]|h|r guild promote Kkbanker Sçrub Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416319,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:09]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aSçrub|r to Member.",
+					["serverTime"] = 1696416319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:12]|h|r guild promote Kkbanker Tankmehard Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416322,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:12]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dTankmehard|r to Member.",
+					["serverTime"] = 1696416322,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Tethras Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaTethras|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Tarzug Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddTarzug|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Thotlock Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cff8787edThotlock|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Tazzno Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Tazzno|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Todfeuer Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaTodfeuer|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Totehim Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddTotehim|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r guild promote Kkbanker Trapero Member.",
+					["timestamp"] = 418267.72,
+					["serverTime"] = 1696416323,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:13]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Trapero|r to Member.",
+					["serverTime"] = 1696416323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418267.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Trolltoe Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddTrolltoe|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Usdabeef Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dUsdabeef|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Trubow Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Trubow|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Tulaira Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cffffffffTulaira|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Turdferg Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Turdferg|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Williever Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Williever|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r guild promote Kkbanker Vmag Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416327,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:17]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaVmag|r to Member.",
+					["serverTime"] = 1696416327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:18]|h|r guild promote Kkbanker Wilby Member.",
+					["timestamp"] = 418271.873,
+					["serverTime"] = 1696416328,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:18]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Wilby|r to Member.",
+					["serverTime"] = 1696416328,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418271.873,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:20]|h|r guild promote Kkbanker Zeznath Member.",
+					["timestamp"] = 418274.956,
+					["serverTime"] = 1696416330,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:20]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Zeznath|r to Member.",
+					["serverTime"] = 1696416330,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418274.956,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:20]|h|r guild promote Kkbanker 劳资数到四 Member.",
+					["timestamp"] = 418274.956,
+					["serverTime"] = 1696416330,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:20]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372劳资数到四|r to Member.",
+					["serverTime"] = 1696416330,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418274.956,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:58]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1696416370,
+					["timestamp"] = 418312.799,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:46:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bullwak:1176:CHANNEL:2|h|cffc69b6dBullwak|r|h|cffd8d8d8]|r: anyone wanna kill ghost howl",
+					["serverTime"] = 1696416381,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418323.899,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:47:07]|h|r Bigtall has reached level 60!",
+					["serverTime"] = 1696416439,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418381.946,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:47:15]|h|r |cffabd473|cffaad372Trollyspirit|r|r has gone offline.",
+					["serverTime"] = 1696416447,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418389.846,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:48:50]|h|r |Hplayer:Fullcream-SkullRock:1181:EMOTE:|hFullcream|h |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t RestedXP Guides: I just leveled from 3 to 4 in 8 minutes 2 seconds",
+					["serverTime"] = 1696416542,
+					["r"] = 1,
+					["extraData"] = {
+						11, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						"CHAT_MSG_EMOTE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418485.167,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:48:50]|h|r |cffc79c6eKkbanker|r has gone offline.",
+					["serverTime"] = 1696416542,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418485.4,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:48:56]|h|r You are no longer AFK.",
+					["serverTime"] = 1696416548,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418490.783,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:49:21]|h|r Smashfight has reached level 60!",
+					["serverTime"] = 1696416573,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418515.972,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:53:01]|h|r |cffc79c6eOnslaughtt|r has gone offline.",
+					["serverTime"] = 1696416793,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418736.375,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:51]|h|r |cffc69b6dKkbanker|r has promoted |cffffffffHolywarz|r to Member.",
+					["serverTime"] = 1696416301,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418245.63,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:51]|h|r guild promote Kkbanker Huatah Member.",
+					["timestamp"] = 418245.63,
+					["serverTime"] = 1696416301,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:51]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aHuatah|r to Member.",
+					["serverTime"] = 1696416301,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418245.63,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:54]|h|r guild promote Kkbanker Jagrar Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416304,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:54]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aJagrar|r to Member.",
+					["serverTime"] = 1696416304,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:54]|h|r guild promote Kkbanker Johnnyguitar Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416304,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:54]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dJohnnyguitar|r to Member.",
+					["serverTime"] = 1696416304,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r guild promote Kkbanker Killuareight Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416305,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Killuareight|r to Member.",
+					["serverTime"] = 1696416305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r guild promote Kkbanker Kawkawan Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416305,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aKawkawan|r to Member.",
+					["serverTime"] = 1696416305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r guild promote Kkbanker Kwakarra Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416305,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaKwakarra|r to Member.",
+					["serverTime"] = 1696416305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r guild promote Kkbanker Kaiu Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416305,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Kaiu|r to Member.",
+					["serverTime"] = 1696416305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r guild promote Kkbanker Jareace Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416305,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r |cffc69b6dKkbanker|r has promoted |cff8787edJareace|r to Member.",
+					["serverTime"] = 1696416305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r guild promote Kkbanker Khryspe Member.",
+					["timestamp"] = 418249.605,
+					["serverTime"] = 1696416305,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:55]|h|r |cffc69b6dKkbanker|r has promoted |cff8787edKhryspe|r to Member.",
+					["serverTime"] = 1696416305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418249.605,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r guild promote Kkbanker Kylablast Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416308,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddKylablast|r to Member.",
+					["serverTime"] = 1696416308,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r guild promote Kkbanker Lamuugue Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416308,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Lamuugue|r to Member.",
+					["serverTime"] = 1696416308,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r guild promote Kkbanker Lathspell Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416308,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aLathspell|r to Member.",
+					["serverTime"] = 1696416308,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r guild promote Kkbanker Mirim Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416308,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Mirim|r to Member.",
+					["serverTime"] = 1696416308,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r guild promote Kkbanker Lostunkn Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416308,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Lostunkn|r to Member.",
+					["serverTime"] = 1696416308,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r guild promote Kkbanker Lataiz Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416308,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:58]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaLataiz|r to Member.",
+					["serverTime"] = 1696416308,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:59]|h|r guild promote Kkbanker Laymothy Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416309,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:59]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaLaymothy|r to Member.",
+					["serverTime"] = 1696416309,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:59]|h|r guild promote Kkbanker Magorgasmico Member.",
+					["timestamp"] = 418253.052,
+					["serverTime"] = 1696416309,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:44:59]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaMagorgasmico|r to Member.",
+					["serverTime"] = 1696416309,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418253.052,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:01]|h|r guild promote Kkbanker Mooarrior Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416311,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:01]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dMooarrior|r to Member.",
+					["serverTime"] = 1696416311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:01]|h|r guild promote Kkbanker Morrenn Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416311,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:01]|h|r |cffc69b6dKkbanker|r has promoted |cff8787edMorrenn|r to Member.",
+					["serverTime"] = 1696416311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:01]|h|r guild promote Kkbanker Nezamba Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416311,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:01]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dNezamba|r to Member.",
+					["serverTime"] = 1696416311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r guild promote Kkbanker Mágic Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416312,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaMágic|r to Member.",
+					["serverTime"] = 1696416312,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r guild promote Kkbanker Omajun Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416312,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Omajun|r to Member.",
+					["serverTime"] = 1696416312,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r guild promote Kkbanker Rajabuli Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416312,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddRajabuli|r to Member.",
+					["serverTime"] = 1696416312,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r guild promote Kkbanker Ormandle Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416312,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Ormandle|r to Member.",
+					["serverTime"] = 1696416312,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r guild promote Kkbanker Porain Member.",
+					["timestamp"] = 418256.518,
+					["serverTime"] = 1696416312,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:02]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Porain|r to Member.",
+					["serverTime"] = 1696416312,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418256.518,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Ramjam Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dRamjam|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Ricodico Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cffff7c0aRicodico|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Rodeoboy Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddRodeoboy|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Sakorvis Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cffc69b6dSakorvis|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Shamçow Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cff0070ddShamçow|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Rifframbahzo Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cffaad372Rifframbahzo|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r guild promote Kkbanker Shartin Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416315,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:05]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Shartin|r to Member.",
+					["serverTime"] = 1696416315,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:06]|h|r guild promote Kkbanker Shiestyupg Member.",
+					["timestamp"] = 418259.949,
+					["serverTime"] = 1696416316,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:06]|h|r |cffc69b6dKkbanker|r has promoted |cffffffffShiestyupg|r to Member.",
+					["serverTime"] = 1696416316,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418259.949,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r guild promote Kkbanker Shirayomi Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416318,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r |cffc69b6dKkbanker|r has promoted |cff3fc6eaShirayomi|r to Member.",
+					["serverTime"] = 1696416318,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r guild promote Kkbanker Skinnystab Member.",
+					["timestamp"] = 418263.242,
+					["serverTime"] = 1696416318,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:08]|h|r |cffc69b6dKkbanker|r has promoted |cfffff468Skinnystab|r to Member.",
+					["serverTime"] = 1696416318,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 418263.242,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

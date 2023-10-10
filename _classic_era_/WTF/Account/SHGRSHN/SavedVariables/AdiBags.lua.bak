@@ -46,6 +46,7 @@ AdiBagsDB = {
 					["version"] = 3,
 					["overrides"] = {
 						[17058] = "Trade Goods#Trade Goods",
+						[7005] = "Miscellaneous#Miscellaneous",
 					},
 				},
 				["KokonutKrew"] = {
@@ -139,18 +140,21 @@ AdiBagsDB = {
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Default",
+		["Kktailor - Skull Rock"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "KokonutKrew",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Samoansavage - Grobbulus"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
 		["Samoanranger - Defias Pillager"] = "Default",
-		["Øø - Skull Rock"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
-		["Kkbanker - Skull Rock"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
+		["Samoanmystic - Grobbulus"] = "KokonutKrew",
 		["Kkbank - Whitemane"] = "Default",
+		["Kkbanker - Skull Rock"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
@@ -158,18 +162,18 @@ AdiBagsDB = {
 		["Samoanranger - Grobbulus"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Samoanmystic - Grobbulus"] = "KokonutKrew",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
+					["Percent"] = 1,
 				},
 			},
 			["positions"] = {

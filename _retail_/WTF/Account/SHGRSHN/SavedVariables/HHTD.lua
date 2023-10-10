@@ -43,16 +43,16 @@ HHTD_SavedVariables = {
 		["Vithun - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanrelic - Emerald Dream"] = {
+		["Aheenan - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Herbcraft - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Feerless - Emerald Dream"] = {
+		["Samoansneaky - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Aheenan - Emerald Dream"] = {
+		["Samoanrelic - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Scootervin - Emerald Dream"] = {
@@ -61,7 +61,7 @@ HHTD_SavedVariables = {
 		["Haedshot - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Samoantitan - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Farmcraft - Emerald Dream"] = {
@@ -73,10 +73,10 @@ HHTD_SavedVariables = {
 		["Dustcraft - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansaint - Stormrage"] = {
+		["Samoantotems - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["Samoanmystic - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanzero - Emerald Dream"] = {
@@ -85,19 +85,19 @@ HHTD_SavedVariables = {
 		["Samoanreaper - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoantotems - Stormrage"] = {
+		["Samoansaint - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 		["Wealthgaming - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbeast - Emerald Dream"] = {
+		["Serepa - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
 		["Tingerce - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Craudy - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansage - Emerald Dream"] = {
@@ -109,13 +109,13 @@ HHTD_SavedVariables = {
 		["Samoanstrap - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Craudy - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Forgecraft - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansavage - Stormrage"] = {
+		["Kakattack - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 		["Gfsdfgsd - Tichondrius"] = {
@@ -145,7 +145,7 @@ HHTD_SavedVariables = {
 		["Samoanruin - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kakattack - Stormrage"] = {
+		["Samoansavage - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 		["Brunderan - Emerald Dream"] = {
@@ -157,7 +157,7 @@ HHTD_SavedVariables = {
 		["Samoansteel - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Serepa - Tichondrius"] = {
+		["Samoanbeast - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Mf - Emerald Dream"] = {
@@ -169,12 +169,16 @@ HHTD_SavedVariables = {
 		["Autumnx - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansneaky - Tichondrius"] = {
+		["Feerless - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoantitan - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
@@ -191,31 +195,31 @@ HHTD_SavedVariables = {
 		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
 		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
-		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
-		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
 		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
-		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
 		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
@@ -225,20 +229,16 @@ HHTD_SavedVariables = {
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
-		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
-		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 	["namespaces"] = {
 		["Announcer"] = {

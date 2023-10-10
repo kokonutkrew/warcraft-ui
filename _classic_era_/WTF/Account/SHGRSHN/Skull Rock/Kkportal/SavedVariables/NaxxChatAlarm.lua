@@ -8,7 +8,7 @@ ChatAlarm = {
 		0, -- [1]
 		1, -- [2]
 	},
-	["txtAutoChat"] = "",
+	["txtAutoChat"] = "LF1M RFC,  DPS",
 	["DDBoxTemplateSearch"] = 1,
 	["chkBtnActive"] = true,
 	["chkBtnTrade"] = false,
@@ -17,18 +17,18 @@ ChatAlarm = {
 	["chkBtnTooltip"] = true,
 	["DDBoxDelay"] = 1,
 	["chkBtnLFG"] = true,
-	["chkBtnSearchLFG"] = true,
+	["chkBtnSearchLFG"] = false,
 	["txtSeperate"] = "/",
 	["r"] = {
 		1, -- [1]
 		0, -- [2]
 	},
 	["chkBtnAntiSpam"] = true,
-	["chkBtnSearchHeal"] = false,
 	["chkBtnSearchDD"] = true,
-	["chkBtnSearchLFM"] = false,
 	["ver"] = 1.331,
-	["chkBtnGeneral"] = false,
+	["chkBtnSearchHeal"] = false,
+	["chkBtnSearchLFM"] = true,
+	["chkBtnGeneral"] = true,
 	["chkBtnSound"] = true,
 	["chkBtnPlayerColor"] = true,
 	["chkBtnWithPlayer"] = false,
@@ -38,7 +38,7 @@ ChatAlarm = {
 			"lfm+rf", -- [2]
 			"ragefire", -- [3]
 			"rf", -- [4]
-			"RF", -- [5]
+			"RFC", -- [5]
 		}, -- [1]
 		{
 			"lfg+hdw", -- [1]

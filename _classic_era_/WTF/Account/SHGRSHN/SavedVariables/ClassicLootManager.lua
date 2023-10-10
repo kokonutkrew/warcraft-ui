@@ -405,6 +405,14 @@ CLM2_DB = {
 		},
 		["guild"] = {
 		},
+		["integration"] = {
+			["wowdkpbot"] = {
+			},
+			["global"] = {
+			},
+			["rclc.handlers"] = {
+			},
+		},
 		["ledger"] = {
 		},
 		["raid"] = {
@@ -426,6 +434,30 @@ CLM2_DB = {
 					["hideInCombat"] = true,
 					["scale"] = 1,
 					["barWidth"] = 340,
+				},
+				["export"] = {
+					["location"] = {
+						[3] = "CENTER",
+						[4] = 0,
+						[5] = 0,
+					},
+					["export_config"] = {
+						["timerange"] = {
+							["begin"] = {
+								["day"] = 1,
+								["year"] = 2019,
+								["month"] = 1,
+							},
+							["finish"] = {
+								["day"] = 31,
+								["year"] = 2022,
+								["month"] = 12,
+							},
+						},
+						["format"] = 0,
+						["data"] = {
+						},
+					},
 				},
 				["unifiedgui"] = {
 					["location"] = {
@@ -454,8 +486,8 @@ CLM2_DB = {
 					["never_show"] = false,
 					["lastVersion"] = {
 						["minor"] = 4,
+						["patch"] = 3,
 						["major"] = 4,
-						["patch"] = 1,
 						["changeset"] = "",
 					},
 				},
@@ -911,6 +943,20 @@ CLM2_DB = {
 				["sounds"] = true,
 			},
 			["profileInfo"] = {
+				["Kkportal-SkullRock"] = {
+					["spec"] = {
+						["one"] = 0,
+						["three"] = 0,
+						["two"] = 0,
+					},
+					["version"] = {
+						["minor"] = 4,
+						["patch"] = 3,
+						["major"] = 4,
+						["changeset"] = "",
+					},
+					["role"] = "NONE",
+				},
 			},
 			["auctionHistory2"] = {
 				["enable"] = true,

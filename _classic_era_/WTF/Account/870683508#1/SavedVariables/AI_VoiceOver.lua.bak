@@ -1,6 +1,19 @@
 
 VoiceOverDB = {
 	["char"] = {
+		["Fishook - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5176-1-98-3157-000012E949"] = true,
+				["Creature-0-5176-1-98-3143-000012E949"] = true,
+			},
+		},
+		["Bannhammer - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5175-1-40-2980-00001C22E4"] = true,
+				["Creature-0-5175-1-40-6747-00001C22E4"] = true,
+				["Creature-0-5175-1-40-3059-00001C22E3"] = true,
+			},
+		},
 		["Fishhook - Skull Rock"] = {
 			["hasSeenGossipForNPC"] = {
 				["Creature-0-5178-1-57-10668-000012E898"] = true,
@@ -13,6 +26,7 @@ VoiceOverDB = {
 				["Creature-0-5175-1-45-3143-000012E85D"] = true,
 				["Creature-0-5177-1-62-3442-00001C231F"] = true,
 				["Creature-0-5178-1-55-11868-000012E898"] = true,
+				["Creature-0-5178-1-116-3389-00001C23D1"] = true,
 				["Creature-0-5177-1-62-3432-00001C231F"] = true,
 				["Creature-0-5175-1-45-3615-00001C22E7"] = true,
 				["Creature-0-5178-1-55-2857-000012E897"] = true,
@@ -23,10 +37,12 @@ VoiceOverDB = {
 				["Creature-0-5177-1-86-10378-000012E90D"] = true,
 				["Creature-0-5178-1-57-3615-000012E89B"] = true,
 				["Creature-0-5177-1-73-6791-000012E8D0"] = true,
+				["Creature-0-5175-1-35-5769-00001C22E3"] = true,
 				["Creature-0-5175-1-45-3387-00001C22E5"] = true,
 				["Creature-0-5177-1-70-3332-000012E8D0"] = true,
 				["Creature-0-5175-1-39-4949-000012E85B"] = true,
 				["Creature-0-5175-1-44-3615-000012E85D"] = true,
+				["Creature-0-5175-1-89-5769-00001C23D1"] = true,
 				["Creature-0-5175-1-80-7731-000012E90C"] = true,
 				["Creature-0-5177-1-62-3615-00001C2321"] = true,
 				["Creature-0-5178-1-57-3704-000012E899"] = true,
@@ -38,57 +54,74 @@ VoiceOverDB = {
 				["Creature-0-5178-1-69-5884-000012E8D1"] = true,
 				["Creature-0-5177-1-86-6791-000012E90D"] = true,
 				["Creature-0-5177-1-86-3429-000012E90C"] = true,
+				["Creature-0-5176-1-56-3399-00001C231E"] = true,
 				["Creature-0-5178-1-56-4312-000012E897"] = true,
 				["Creature-0-5175-1-95-3216-000012E949"] = true,
 				["Creature-0-5178-1-55-3309-000012E897"] = true,
 				["Creature-0-5175-1-44-3429-000012E85D"] = true,
+				["Creature-0-5178-1-57-3442-000012E898"] = true,
 				["Creature-0-5175-1-45-15012-000012E85E"] = true,
+				["Creature-0-5175-1-71-10378-00001C2358"] = true,
 				["Creature-0-5178-1-55-15765-000012E897"] = true,
+				["Creature-0-5178-1-57-3389-000012E897"] = true,
 				["Creature-0-5177-1-70-3310-000012E8D0"] = true,
+				["Creature-0-5176-43-3543-3678-00001E0EA8"] = true,
 				["Creature-0-5177-1-70-2857-000012E8D1"] = true,
+				["Creature-0-5177-1-70-3399-000012E8D1"] = true,
+				["Creature-0-5178-1-55-3399-000012E898"] = true,
 				["Creature-0-5177-1-62-5943-000012E899"] = true,
+				["Creature-0-5178-1-69-3157-000012E8D0"] = true,
+				["Creature-0-5178-1-57-5901-000012E897"] = true,
 				["Creature-0-5175-1-39-3216-000012E85C"] = true,
 				["Creature-0-5175-1-39-3310-000012E85C"] = true,
+				["Creature-0-5175-1-81-2995-000012E90C"] = true,
+				["Creature-0-5176-43-14727-3678-00001BA4A4"] = true,
 				["Creature-0-5177-1-62-5953-000C12E899"] = true,
 				["Creature-0-5177-1-62-3448-00001C231E"] = true,
-				["Creature-0-5178-1-55-3399-000012E898"] = true,
 				["Creature-0-5178-1-56-7731-000012E897"] = true,
-				["Creature-0-5178-1-69-3157-000012E8D0"] = true,
+				["Creature-0-5175-1-44-3489-000012E85F"] = true,
+				["Creature-0-5177-1-70-3309-000012E8D0"] = true,
 				["Creature-0-5175-43-778-3678-00001CE85A"] = true,
 				["Creature-0-5175-1-39-3309-000012E85C"] = true,
 				["Creature-0-5178-1-56-11860-000012E897"] = true,
 				["Creature-0-5178-1-55-3332-000012E898"] = true,
-				["Creature-0-5175-1-95-3309-000012E949"] = true,
+				["Creature-0-5176-1-58-11833-000012E896"] = true,
 				["Creature-0-5175-1-44-3432-000012E85D"] = true,
-				["Creature-0-5176-43-14727-3678-00001BA4A4"] = true,
-				["Creature-0-5175-1-80-4312-000012E90D"] = true,
-				["Creature-0-5178-1-57-5901-000012E897"] = true,
 				["Creature-0-5178-1-57-3387-000012E898"] = true,
-				["Creature-0-5177-1-70-3309-000012E8D0"] = true,
+				["Creature-0-5177-1-62-5953-000012E899"] = true,
+				["Creature-0-5177-1-62-3173-000012E899"] = true,
+				["Creature-0-5175-1-80-4312-000012E90D"] = true,
+				["Creature-0-5175-1-95-3309-000012E949"] = true,
 				["Creature-0-5175-1-80-11860-000012E90C"] = true,
 				["Creature-0-5175-43-6721-3678-00001A03E2"] = true,
-				["Creature-0-5177-1-70-3399-000012E8D1"] = true,
-				["Creature-0-5177-1-62-3173-000012E899"] = true,
-				["Creature-0-5177-1-62-10378-00001C231E"] = true,
-				["Creature-0-5178-1-57-3389-000012E897"] = true,
-				["Creature-0-5175-1-81-2995-000012E90C"] = true,
 				["Creature-0-5175-1-39-3332-000012E85D"] = true,
-				["Creature-0-5176-1-58-11833-000012E896"] = true,
-				["Creature-0-5175-1-44-3489-000012E85F"] = true,
-				["Creature-0-5177-1-62-5953-000012E899"] = true,
-				["Creature-0-5175-1-71-10378-00001C2358"] = true,
-				["Creature-0-5178-1-57-3442-000012E898"] = true,
+				["Creature-0-5176-1-56-11868-00001C231E"] = true,
+				["Creature-0-5177-1-62-10378-00001C231E"] = true,
+				["Creature-0-5175-1-89-2995-00001C23D1"] = true,
+				["Creature-0-5178-1-116-3483-00001C23D3"] = true,
+				["Creature-0-5178-1-116-3615-00001C23D2"] = true,
+				["Creature-0-5176-1-56-3216-00001C231E"] = true,
+				["Creature-0-5176-1-56-3344-00001C231E"] = true,
+				["Creature-0-5176-1-72-4312-00001C2394"] = true,
+				["Creature-0-5178-1-73-12696-00001C2394"] = true,
+				["Creature-0-5176-1-56-3310-00001C231E"] = true,
 			},
 		},
-		["Fishook - Skull Rock"] = {
+		["Kksummon - Skull Rock"] = {
 			["hasSeenGossipForNPC"] = {
-				["Creature-0-5176-1-98-3157-000012E949"] = true,
-				["Creature-0-5176-1-98-3143-000012E949"] = true,
+				["Creature-0-5175-1-45-3143-000012E85D"] = true,
+				["Creature-0-5175-1-45-6928-000012E85C"] = true,
 			},
 		},
-		["Kkundercity - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
 			["hasSeenGossipForNPC"] = {
-				["Creature-0-5175-1-45-9564-000012E85C"] = true,
+				["Creature-0-5176-1-56-3296-00061C2320"] = true,
+				["Creature-0-5176-1-56-2857-00001C231F"] = true,
+				["Creature-0-5178-1-117-3143-00001C23D1"] = true,
+				["Creature-0-5176-1-56-3399-00001C231E"] = true,
+				["Creature-0-5176-1-56-3309-00001C231E"] = true,
+				["Creature-0-5176-1-56-11868-00001C231E"] = true,
+				["Creature-0-5176-1-56-3373-00001C231E"] = true,
 			},
 		},
 		["Farmcraft - Skull Rock"] = {
@@ -100,15 +133,14 @@ VoiceOverDB = {
 		["Fiesh - Skull Rock"] = {
 			["hasSeenGossipForNPC"] = {
 				["Creature-0-5175-0-89-5690-000012E949"] = true,
-				["Creature-0-5175-0-89-5688-000012E949"] = true,
-				["Creature-0-5176-0-51-5690-000012E896"] = true,
 				["Creature-0-5176-0-51-1569-000012E896"] = true,
+				["Creature-0-5176-0-51-5690-000012E896"] = true,
+				["Creature-0-5175-0-89-5688-000012E949"] = true,
 			},
 		},
-		["Kksummon - Skull Rock"] = {
+		["Kkundercity - Skull Rock"] = {
 			["hasSeenGossipForNPC"] = {
-				["Creature-0-5175-1-45-3143-000012E85D"] = true,
-				["Creature-0-5175-1-45-6928-000012E85C"] = true,
+				["Creature-0-5175-1-45-9564-000012E85C"] = true,
 			},
 		},
 		["Fiesh - Pagle"] = {
@@ -119,26 +151,29 @@ VoiceOverDB = {
 	},
 	["profileKeys"] = {
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
 		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
 		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 	["profiles"] = {
 		["Tygrrlilly - Skull Rock"] = {
 		},
+		["Bannhammer - Skull Rock"] = {
+		},
 		["Fishook - Skull Rock"] = {
 		},
-		["Kkundercity - Skull Rock"] = {
+		["Kksummon - Skull Rock"] = {
 		},
 		["Fishhook - Skull Rock"] = {
 		},
-		["Kksummon - Skull Rock"] = {
+		["Øø - Skull Rock"] = {
 		},
 		["Komrad - Skull Rock"] = {
 		},
@@ -146,7 +181,7 @@ VoiceOverDB = {
 		},
 		["Fiesh - Skull Rock"] = {
 		},
-		["Øø - Skull Rock"] = {
+		["Kkundercity - Skull Rock"] = {
 		},
 		["Fiesh - Pagle"] = {
 		},

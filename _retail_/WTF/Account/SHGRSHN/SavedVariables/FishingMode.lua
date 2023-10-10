@@ -13,8 +13,8 @@ FishingModeDB = {
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
-		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
 		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
@@ -74,9 +74,9 @@ FishingModeDB = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Mf - Emerald Dream"] = {
-		},
 		["Samoanmystic - Emerald Dream"] = {
+		},
+		["Mf - Emerald Dream"] = {
 		},
 		["Threadcrafts - Emerald Dream"] = {
 		},

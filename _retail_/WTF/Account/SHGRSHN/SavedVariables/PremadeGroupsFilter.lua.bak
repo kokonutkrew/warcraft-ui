@@ -7,10 +7,10 @@ PremadeGroupsFilterSettings = {
 	["coloredGroupTexts"] = true,
 	["leaderCrown"] = false,
 	["dialogMovable"] = true,
-	["classCircle"] = true,
+	["version"] = 1,
 	["classBar"] = false,
 	["coloredApplications"] = true,
 	["persistSignUpNote"] = true,
 	["skipSignUpDialog"] = false,
-	["version"] = 1,
+	["classCircle"] = true,
 }

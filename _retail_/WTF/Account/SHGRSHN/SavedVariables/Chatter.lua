@@ -1,6 +1,8 @@
 
 ChatterDB = {
 	["namespaces"] = {
+		["PlayerNames"] = {
+		},
 		["AltLinks"] = {
 			["profiles"] = {
 				["KokonutKrew"] = {
@@ -95,6 +97,11 @@ ChatterDB = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+						},
+						["Services"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
 						["Say"] = {
 							["r"] = 1,
@@ -232,6 +239,8 @@ ChatterDB = {
 		},
 		["Server Positioning"] = {
 		},
+		["Mousewheel Scroll"] = {
+		},
 		["Timestamps"] = {
 		},
 		["EditBox"] = {
@@ -246,24 +255,13 @@ ChatterDB = {
 				},
 			},
 		},
-		["ChatTabs"] = {
-		},
-		["Mousewheel Scroll"] = {
-		},
-		["CopyChat"] = {
-		},
 		["ChatFont"] = {
 		},
-		["Editbox History"] = {
-			["realm"] = {
-				["Emerald Dream"] = {
-					["history"] = {
-						"/chatter", -- [1]
-						"/chatter", -- [2]
-						"/s test", -- [3]
-					},
-				},
-			},
+		["ChatTabs"] = {
+		},
+		["Highlight"] = {
+		},
+		["CopyChat"] = {
 		},
 		["ChannelNames"] = {
 			["profiles"] = {
@@ -274,11 +272,26 @@ ChatterDB = {
 				},
 			},
 		},
+		["Editbox History"] = {
+			["realm"] = {
+				["Emerald Dream"] = {
+					["history"] = {
+						"/chatter", -- [1]
+						"/chatter", -- [2]
+						"/s test", -- [3]
+						"/reload", -- [4]
+					},
+				},
+			},
+		},
+		["UrlCopy"] = {
+		},
 		["JustifyText"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Samoansavage - Emerald Dream"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

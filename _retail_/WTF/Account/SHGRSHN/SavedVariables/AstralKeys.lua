@@ -1,31 +1,13 @@
 
 AstralKeys = {
-	{
-		["btag"] = "LokTarOgar#11419",
-		["weekly_best"] = 16,
-		["class"] = "PALADIN",
-		["key_level"] = 19,
-		["unit"] = "Skrubdin-Area52",
-		["dungeon_id"] = 251,
-		["week"] = 306,
-		["faction"] = "1",
-		["time_stamp"] = 47223,
-		["source"] = "friend",
-	}, -- [1]
-	{
-		["btag"] = "SamuelMH#1913",
-		["weekly_best"] = 13,
-		["class"] = "DEATHKNIGHT",
-		["key_level"] = 16,
-		["unit"] = "Honustustere-Stormrage",
-		["dungeon_id"] = 406,
-		["week"] = 306,
-		["faction"] = "0",
-		["time_stamp"] = 0,
-		["source"] = "friend",
-	}, -- [2]
 }
 AstralCharacters = {
+	{
+		["weekly_best"] = 0,
+		["class"] = "WARRIOR",
+		["unit"] = "Samoanslayer-EmeraldDream",
+		["faction"] = 0,
+	}, -- [1]
 }
 AstralKeysSettings = {
 	["wipedOldTables"] = true,
@@ -33,7 +15,7 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1686063600,
+		["init_time"] = 1696950000,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
@@ -94,19 +76,19 @@ AstralMinimap = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
-		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
 		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
 	},
 	["profiles"] = {
@@ -117,10 +99,7 @@ AstralMinimap = {
 		},
 		["Gearcraft - Emerald Dream"] = {
 		},
-		["Herbcraft - Emerald Dream"] = {
-			["minimap"] = {
-				["minimapPos"] = 331.5398924476409,
-			},
+		["Samoanruin - Emerald Dream"] = {
 		},
 		["Threadcraft - Emerald Dream"] = {
 			["minimap"] = {
@@ -132,36 +111,39 @@ AstralMinimap = {
 				["minimapPos"] = 278.0545944368383,
 			},
 		},
-		["Samoanruin - Emerald Dream"] = {
+		["Herbcraft - Emerald Dream"] = {
+			["minimap"] = {
+				["minimapPos"] = 331.5398924476409,
+			},
 		},
 		["Samoansage - Emerald Dream"] = {
 		},
-		["Farmcraft - Tichondrius"] = {
+		["Ikkl - Emerald Dream"] = {
 		},
 		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Samoanlegend - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Forgecraft - Emerald Dream"] = {
 			["minimap"] = {
 				["minimapPos"] = 277.8917095847406,
 			},
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoanlegend - Emerald Dream"] = {
 		},
 		["Dustcraft - Emerald Dream"] = {
 		},
-		["Ikkl - Emerald Dream"] = {
+		["Farmcraft - Tichondrius"] = {
 		},
 		["Xb - Emerald Dream"] = {
 		},
 	},
 }
 AstralAffixes = {
-	["season_affix"] = 132,
-	["season_start_week"] = 284,
+	["season_affix"] = 0,
+	["season_start_week"] = 324,
 }
 AstralLists = {
 	{

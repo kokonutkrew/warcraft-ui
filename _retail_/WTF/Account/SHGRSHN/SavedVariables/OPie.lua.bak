@@ -8,17 +8,17 @@ OneRing_Config = {
 		["Emerald Dream-Samoansage-3"] = "KokonutKrew",
 		["Emerald Dream-Herbcraft-3"] = "KokonutKrew",
 	},
-	["_GameVersion"] = "9.2.0",
-	["_OPieVersion"] = "Xe 6 (3.106)",
+	["_GameVersion"] = "10.1.7",
+	["_OPieVersion"] = "Xe 2a (3.104)",
 	["ProfileStorage"] = {
 		["default"] = {
 		},
 		["KokonutKrew"] = {
+			["CenterAction"] = true,
 			["RingAtMouse"] = true,
 			["Bindings"] = {
 				["KKOpie2"] = "CTRL-SHIFT-SPACE",
 			},
-			["CenterAction"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -33,8 +33,8 @@ OneRing_Config = {
 					["id"] = 125439,
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuel7WdE2wr",
 					["id"] = 265225,
+					["sliceToken"] = "ABuel7WdE2wr",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuel7WdE2we",

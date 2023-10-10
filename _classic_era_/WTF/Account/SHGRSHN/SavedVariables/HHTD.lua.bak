@@ -4,6 +4,9 @@ HHTD_SavedVariables = {
 		["Kktailor - Whitemane"] = {
 			["settingsMigrated"] = false,
 		},
+		["Kktailor - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
 		["Samoanlegend - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
@@ -14,6 +17,12 @@ HHTD_SavedVariables = {
 			["settingsMigrated"] = false,
 		},
 		["Ss - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanranger - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Kkportal - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansavage - Grobbulus"] = {
@@ -31,13 +40,13 @@ HHTD_SavedVariables = {
 		["Øø - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanbeast - Skull Rock"] = {
-			["settingsMigrated"] = false,
-		},
 		["Kkbanker - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Kkbank - Whitemane"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanmystic - Grobbulus"] = {
 			["settingsMigrated"] = false,
 		},
 		["Goldenshots - Defias Pillager"] = {
@@ -61,7 +70,7 @@ HHTD_SavedVariables = {
 		["Cupcakeheals - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanmystic - Grobbulus"] = {
+		["Samoanbeast - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Grobbulus"] = {
@@ -77,18 +86,21 @@ HHTD_SavedVariables = {
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Kktailor - Whitemane",
+		["Kktailor - Skull Rock"] = "Kktailor - Skull Rock",
 		["Samoanlegend - Grobbulus"] = "Samoanlegend - Grobbulus",
 		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanbeast - Grobbulus"] = "Samoanbeast - Grobbulus",
 		["Ss - Grobbulus"] = "Ss - Grobbulus",
+		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
 		["Samoansavage - Grobbulus"] = "Samoansavage - Grobbulus",
 		["Dd - Grobbulus"] = "Dd - Grobbulus",
 		["Samoanraja - Grobbulus"] = "Samoanraja - Grobbulus",
 		["Samoanranger - Defias Pillager"] = "Samoanranger - Defias Pillager",
 		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Kkbanker - Skull Rock"] = "Kkbanker - Skull Rock",
 		["Kkbank - Whitemane"] = "Kkbank - Whitemane",
+		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
 		["Goldenshots - Defias Pillager"] = "Goldenshots - Defias Pillager",
 		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Kk - Grobbulus"] = "Kk - Grobbulus",
@@ -96,7 +108,7 @@ HHTD_SavedVariables = {
 		["Samoanranger - Grobbulus"] = "Samoanranger - Grobbulus",
 		["Samoansage - Grobbulus"] = "Samoansage - Grobbulus",
 		["Cupcakeheals - Skull Rock"] = "Cupcakeheals - Skull Rock",
-		["Samoanmystic - Grobbulus"] = "Samoanmystic - Grobbulus",
+		["Samoanbeast - Skull Rock"] = "Samoanbeast - Skull Rock",
 		["Samoanrelic - Grobbulus"] = "Samoanrelic - Grobbulus",
 		["Samoanbank - Whitemane"] = "Samoanbank - Whitemane",
 	},

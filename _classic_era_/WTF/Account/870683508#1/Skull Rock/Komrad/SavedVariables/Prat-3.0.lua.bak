@@ -1,0 +1,1012 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 7,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696584984,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1696585342,
+					["timestamp"] = 71528.674,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696585581,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1696588533,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 71528.674,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [4]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 71528.674,
+				}, -- [5]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 71528.674,
+				}, -- [6]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 71514.102,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 83,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:15]|h|r Congratulations, you have reached level 4!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696587701,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:15]|h|r You have gained 17 hit points and 8 mana.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696587701,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:15]|h|r Your Agility increases by 2.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696587701,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:15]|h|r Your Intellect increases by 1.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696587701,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:15]|h|r Your Spirit increases by 1.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696587701,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [5]
+				{
+					["message"] = "0 days, 0 hours, 13 minutes, 52 seconds",
+					["timestamp"] = 71528.674,
+				}, -- [6]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 71528.674,
+				}, -- [7]
+				{
+					["message"] = "MoLib aliased into DynamicBoxer",
+					["timestamp"] = 71514.102,
+				}, -- [8]
+				{
+					["message"] = "DynamicBoxer Warning: ISBoxer is not present, install and configure MAMA, use www.WowOpenBox.org or expect much limited/reduced functionality!",
+					["r"] = 0.96,
+					["timestamp"] = 71514.102,
+					["g"] = 0.63,
+					["b"] = 0.26,
+				}, -- [9]
+				{
+					["message"] = "DynamicBoxer v3.11.05 by MooreaTv: type /dbox for command list/help.",
+					["timestamp"] = 71514.102,
+				}, -- [10]
+				{
+					["message"] = "DynamicBoxer Warning: Token isn't set yet...",
+					["r"] = 0.96,
+					["timestamp"] = 71514.102,
+					["g"] = 0.63,
+					["b"] = 0.26,
+				}, -- [11]
+				{
+					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
+					["timestamp"] = 71514.102,
+				}, -- [12]
+				{
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 71514.102,
+				}, -- [13]
+				{
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 71514.102,
+				}, -- [14]
+				{
+					["message"] = "Mama v1.21.1 by MooreaTv: type /mama for command list/help.",
+					["timestamp"] = 71514.102,
+				}, -- [15]
+				{
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 71514.102,
+				}, -- [16]
+				{
+					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 71514.102,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:03]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 71514.102,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:05]|h|r [SG] Slave Girl 2.6 loaded.",
+					["r"] = 0.25,
+					["timestamp"] = 71514.102,
+					["g"] = 1,
+					["b"] = 0.25,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:06]|h|r Guild Message of the Day: The <[O.o]><[KK]> Crafting Guild. Join discord and register chosen professions. Afterlife Server: Whitemane. New tabbard <3",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 71528.674,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:07]|h|r |cff33ff99Gnosis|r: Gnosis v5.10 loaded (enabled)",
+					["timestamp"] = 71528.674,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:07]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
+					["timestamp"] = 71528.674,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:07]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
+					["timestamp"] = 71528.674,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:07]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
+					["timestamp"] = 71528.674,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:07]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 71528.674,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:07]|h|r RestedXP Guides: Targeting macro updated with (Duokna)",
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696588533,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:08]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["r"] = 1,
+					["serverTime"] = 1696588534,
+					["timestamp"] = 71528.674,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:09]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696588535,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:09]|h|r Registered character: Komrad-SkullRock",
+					["timestamp"] = 71528.674,
+					["serverTime"] = 1696588535,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:10]|h|r CensusPlusWotlk Taking census of characters online...",
+					["r"] = 1,
+					["serverTime"] = 1696588536,
+					["timestamp"] = 71528.674,
+					["g"] = 1,
+					["b"] = 0.5,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:10]|h|r Mama-DBox: In guild, 833 total, 12 online.",
+					["timestamp"] = 71532.356,
+					["serverTime"] = 1696588536,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:10]|h|r Dungeon difficulty set to Normal",
+					["serverTime"] = 1696588536,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71532.356,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:10]|h|r Looting changed to free-for-all.",
+					["serverTime"] = 1696588536,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71532.356,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:12]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 71534.55500000001,
+					["serverTime"] = 1696588538,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:12]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 71534.55500000001,
+					["serverTime"] = 1696588538,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:12]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 71534.724,
+					["serverTime"] = 1696588538,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:12]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 4.",
+					["timestamp"] = 71534.794,
+					["serverTime"] = 1696588538,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:16]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 71538.689,
+					["serverTime"] = 1696588542,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:16]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 71538.689,
+					["serverTime"] = 1696588542,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:29]|h|r Your character jumped.",
+					["timestamp"] = 71551.393,
+					["serverTime"] = 1696588555,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:30]|h|r Your character jumped.",
+					["timestamp"] = 71552.07800000001,
+					["serverTime"] = 1696588556,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:33]|h|r Your character jumped.",
+					["timestamp"] = 71555.722,
+					["serverTime"] = 1696588559,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:35]|h|r Quest accepted: Vanquish the Betrayers",
+					["serverTime"] = 1696588561,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71557.332,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:39]|h|r Mama Error: You need to setup Mama and your DynamicBoxer team one time setup first: |cFF99E5FF/mama config|r",
+					["r"] = 0.9,
+					["serverTime"] = 1696588565,
+					["timestamp"] = 71561.75600000001,
+					["g"] = 0.1,
+					["b"] = 0.1,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:46]|h|r Your character jumped.",
+					["timestamp"] = 71568.057,
+					["serverTime"] = 1696588572,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:35:52]|h|r Your character jumped.",
+					["timestamp"] = 71574.517,
+					["serverTime"] = 1696588578,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:00]|h|r You receive item: |cffffffff|Hitem:5956::::::::4:::::::::|h[Blacksmith Hammer]|h|r.",
+					["serverTime"] = 1696588586,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71582.539,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:01]|h|r RestedXP Guides: Targeting macro updated with (Zureetha Fargaze)",
+					["timestamp"] = 71583.196,
+					["serverTime"] = 1696588587,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:01]|h|r RestedXP Guides: Targeting macro updated with (Jen'shan)",
+					["timestamp"] = 71583.332,
+					["serverTime"] = 1696588587,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:01]|h|r RestedXP Guides: Targeting macro updated with (Foreman Thazz'ril)",
+					["timestamp"] = 71583.583,
+					["serverTime"] = 1696588587,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:01]|h|r RestedXP Guides: Targeting macro updated with (Scorpid Worker)",
+					["timestamp"] = 71583.78,
+					["serverTime"] = 1696588587,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:01]|h|r RestedXP Guides: Targeting macro updated with (Vile Familiar)",
+					["timestamp"] = 71583.78,
+					["serverTime"] = 1696588587,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:01]|h|r RestedXP Guides: Targeting macro updated with (Lazy Peon)",
+					["timestamp"] = 71583.78,
+					["serverTime"] = 1696588587,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:02]|h|r RestedXP Guides: Targeting macro updated with (Mottled Boar)",
+					["timestamp"] = 71584.416,
+					["serverTime"] = 1696588588,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:02]|h|r RestedXP Guides: Targeting macro updated with (Galgar)",
+					["timestamp"] = 71584.583,
+					["serverTime"] = 1696588588,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:06]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Ogarviashank:705:CHANNEL:1|h|cfffff468Ogarviashank|r|h|cffd8d8d8]|r: anyone wanna do |Hquestie:806:Player-5099-01B6952B|h|cFFFF1A1A[|r|cFFFF1A1A[12] Dark Storms|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696588592,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71588.744,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Millox:706:CHANNEL:1|h|cff0070ddMillox|r|h|cffd8d8d8]|r: ill come",
+					["serverTime"] = 1696588605,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						8, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71601.16,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:20]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx115.",
+					["serverTime"] = 1696588606,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71601.964,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:20]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx85.",
+					["serverTime"] = 1696588606,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71601.964,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:20]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx115.",
+					["serverTime"] = 1696588606,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71602.83,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:21]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx85.",
+					["serverTime"] = 1696588607,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71602.931,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:21]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx115.",
+					["serverTime"] = 1696588607,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71603.399,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:21]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx85.",
+					["serverTime"] = 1696588607,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71603.485,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:21]|h|r RestedXP Guides: Targeting macro updated with (Gornek)",
+					["timestamp"] = 71603.683,
+					["serverTime"] = 1696588607,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:25]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Ogarviashank-SkullRock:713:CHANNEL:1|h|cfffff468Ogarviashank|r|h|cffd8d8d8]|r: koo",
+					["serverTime"] = 1696588611,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						"CHAT_MSG_CHANNEL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71606.85800000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:25]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx115.",
+					["serverTime"] = 1696588611,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71607.334,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:25]|h|r You receive item: |cffffffff|Hitem:2512::::::::4:::::::::|h[Rough Arrow]|h|rx85.",
+					["serverTime"] = 1696588611,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						"CHAT_MSG_LOOT", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71607.334,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:31]|h|r Your character jumped.",
+					["timestamp"] = 71613.321,
+					["serverTime"] = 1696588617,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:37]|h|r Your character jumped.",
+					["timestamp"] = 71618.94900000001,
+					["serverTime"] = 1696588623,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:38]|h|r Your character jumped.",
+					["timestamp"] = 71620.153,
+					["serverTime"] = 1696588624,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r You have learned how to create a new item: Smelt Copper.",
+					["serverTime"] = 1696588628,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71624.137,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r You have gained the Mining skill.",
+					["serverTime"] = 1696588628,
+					["r"] = 0.3333333432674408,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						"CHAT_MSG_SKILL", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71624.137,
+					["g"] = 0.3333333432674408,
+					["b"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r You have learned a new ability: Smelting.",
+					["serverTime"] = 1696588628,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71624.197,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r You have learned a new ability: Find Minerals.",
+					["serverTime"] = 1696588628,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						"CHAT_MSG_SYSTEM", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71624.197,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r Smelting was added to your collection!",
+					["timestamp"] = 71624.347,
+					["serverTime"] = 1696588628,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r Smelt Copper was added to your collection!",
+					["timestamp"] = 71624.347,
+					["serverTime"] = 1696588628,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:42]|h|r Find Minerals was added to your collection!",
+					["timestamp"] = 71624.347,
+					["serverTime"] = 1696588628,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:43]|h|r Your character jumped.",
+					["timestamp"] = 71624.878,
+					["serverTime"] = 1696588629,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:45]|h|r Your character jumped.",
+					["timestamp"] = 71627.134,
+					["serverTime"] = 1696588631,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:46]|h|r Your character jumped.",
+					["timestamp"] = 71628.103,
+					["serverTime"] = 1696588632,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:48]|h|r Your character jumped.",
+					["timestamp"] = 71630.334,
+					["serverTime"] = 1696588634,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:52]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Durotar]|h",
+					["serverTime"] = 1696588638,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						12, -- [4]
+						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71633.84300000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:52]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Durotar]|h",
+					["serverTime"] = 1696588638,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
+					},
+					["timestamp"] = 71633.84300000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

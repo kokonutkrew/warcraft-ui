@@ -1,0 +1,320 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 34,
+	["questObjectivesCache"] = {
+		[788] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Mottled Boar slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[790] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Sarkoth's Mangled Claw: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[792] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Vile Familiar slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[6394] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Thazz'ril's Pick: 1/1",
+				["finished"] = true,
+				["numFulfilled"] = 1,
+			}, -- [1]
+		},
+		[4641] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[4402] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Cactus Apple: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[789] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Scorpid Worker Tail: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5441] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Peons Awoken: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[794] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Burning Blade Medallion: 1/1",
+				["finished"] = true,
+				["numFulfilled"] = 1,
+			}, -- [1]
+		},
+		[0] = 10,
+		[804] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+	},
+	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+		[5441] = "Lazy Peons",
+		[4402] = "Galgar's Cactus Apple Surprise",
+		[788] = "Cutting Teeth",
+		[790] = "Sarkoth",
+		[792] = "Vile Familiars",
+		[4641] = "Your Place In The World",
+		[789] = "Sting of the Scorpid",
+	},
+	["currentGuideName"] = "01-06 Orc/Troll",
+	["stepSkip"] = {
+		[20] = true,
+		[31] = true,
+		[10] = true,
+		[18] = true,
+		[12] = true,
+		[19] = true,
+		[4] = true,
+	},
+	["currentStepId"] = 3857651648,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
+	},
+	["profiles"] = {
+		["Komrad - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 301,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 301,
+							["count"] = 11,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 10,
+							["minute"] = 0,
+							["year"] = 2023,
+							["hour"] = 18,
+							["weekday"] = 3,
+						},
+						["finished"] = 3517,
+						["dateFinished"] = {
+							["monthDay"] = 6,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 3,
+							["minute"] = 1,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[4641] = 40,
+						},
+					},
+				}, -- [1]
+				{
+					["groupExperience"] = 979,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 319,
+							["count"] = 11,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 6,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 3,
+							["minute"] = 1,
+						},
+						["finished"] = 4050,
+						["dateFinished"] = {
+							["monthDay"] = 6,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 3,
+							["minute"] = 10,
+						},
+						["started"] = 3518,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[3082] = 40,
+							[790] = 450,
+							[788] = 170,
+						},
+					},
+				}, -- [2]
+				{
+					["groupExperience"] = 1431,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 801,
+							["count"] = 28,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 6,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 3,
+							["minute"] = 10,
+						},
+						["finished"] = 4712,
+						["dateFinished"] = {
+							["monthDay"] = 6,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 3,
+							["minute"] = 21,
+						},
+						["started"] = 4051,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[4402] = 380,
+							[789] = 250,
+						},
+					},
+				}, -- [3]
+				{
+					["groupExperience"] = 916,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 356,
+							["count"] = 12,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 6,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 6,
+							["year"] = 2023,
+							["hour"] = 3,
+							["minute"] = 21,
+						},
+						["started"] = 4713,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[5441] = 450,
+							[792] = 450,
+							[804] = 110,
+						},
+					},
+				}, -- [4]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
+	},
+	["profiles"] = {
+		["Komrad - Skull Rock"] = {
+			["players"] = {
+				["Gimko"] = {
+					["timePlayed"] = 99.5049999999901,
+					["class"] = "SHAMAN",
+					["xp"] = 24,
+				},
+				["Buggzbunny"] = {
+					["class"] = "MAGE",
+					["level"] = 35,
+					["lastSeen"] = 71360.683,
+					["xpPercentage"] = 83,
+					["isRxp"] = true,
+					["xp"] = 26,
+					["timePlayed"] = 105.0010000000038,
+				},
+				["Samoanranger"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 71360.916,
+					["xpPercentage"] = 58,
+					["level"] = 4,
+					["timePlayed"] = 1755.187000000005,
+					["class"] = "HUNTER",
+				},
+			},
+			["announcements"] = {
+				["01-06 Orc/Troll"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

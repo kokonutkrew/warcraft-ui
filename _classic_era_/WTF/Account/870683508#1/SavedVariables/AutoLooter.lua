@@ -14,8 +14,8 @@ AutoLooterDB = {
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Default",
 		["Komrad - Skull Rock"] = "Default",
-		["Øø - Skull Rock"] = "Default",
 		["Kkundercity - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
@@ -29,10 +29,10 @@ AutoLooterDB = {
 					["WoW Token"] = false,
 				},
 				["Trade Goods"] = {
-					["Parts"] = false,
-					["Trade Goods"] = false,
-					["Explosives"] = false,
 					["Devices"] = false,
+					["Explosives"] = false,
+					["Trade Goods"] = false,
+					["Parts"] = false,
 				},
 				["Recipe"] = {
 					["Tailoring"] = false,
@@ -88,8 +88,8 @@ AutoLooterDB = {
 					["Generic(OBSOLETE)"] = false,
 				},
 				["Projectile"] = {
-					["Arrow"] = false,
 					["Bullet"] = false,
+					["Arrow"] = false,
 				},
 				["Jewelry(OBSOLETE)"] = {
 					["Jewelry(OBSOLETE)"] = false,
@@ -111,9 +111,9 @@ AutoLooterDB = {
 					["Two-Handed Maces"] = false,
 					["Guns"] = false,
 					["Fist Weapons"] = false,
-					["Daggers"] = false,
-					["Wands"] = false,
 					["Thrown"] = false,
+					["Wands"] = false,
+					["Daggers"] = false,
 					["Two-Handed Axes"] = false,
 				},
 			},

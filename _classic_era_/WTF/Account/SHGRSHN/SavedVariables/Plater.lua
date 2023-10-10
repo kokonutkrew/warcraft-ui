@@ -20,26 +20,29 @@ PlaterDB = {
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Default",
+		["Kktailor - Skull Rock"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
 		["Samoansavage - Grobbulus"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanbank - Whitemane"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Samoanbeast - Skull Rock"] = "Default",
+		["Kkbank - Whitemane"] = "Default",
 		["Samoanmystic - Grobbulus"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
-		["Goldenshots - Defias Pillager"] = "Default",
+		["Samoanranger - Grobbulus"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoanranger - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
-		["Samoanrelic - Grobbulus"] = "Default",
 		["Øø - Skull Rock"] = "Default",
+		["Samoanrelic - Grobbulus"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -4251,8 +4254,8 @@ PlaterDB = {
 				["nameplateShowFriendlyGuardians"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"@Interface/AddOns/Plater/Plater.lua\"]:2325: in function <Interface/AddOns/Plater/Plater.lua:2306>\n",
 				["nameplateOccludedAlphaMult"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"@Interface/AddOns/Plater/Plater.lua\"]:2325: in function <Interface/AddOns/Plater/Plater.lua:2306>\n",
 				["nameplateMinScale"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"@Interface/AddOns/Plater/Plater.lua\"]:2325: in function <Interface/AddOns/Plater/Plater.lua:2306>\n",
-				["nameplateShowEnemies"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"ALLNAMEPLATES\"]:4: in function <[string \"ALLNAMEPLATES\"]:1>\n",
-				["nameplateShowFriends"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"ALLNAMEPLATES\"]:5: in function <[string \"ALLNAMEPLATES\"]:1>\n",
+				["nameplateShowEnemies"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"NAMEPLATES\"]:3: in function <[string \"NAMEPLATES\"]:1>\n",
+				["nameplateShowFriends"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"FRIENDNAMEPLATES\"]:3: in function <[string \"FRIENDNAMEPLATES\"]:1>\n",
 				["NamePlateVerticalScale"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"@Interface/AddOns/Plater/Plater.lua\"]:2325: in function <Interface/AddOns/Plater/Plater.lua:2306>\n",
 			},
 			["aura2_y_offset"] = 5,
@@ -4279,6 +4282,11 @@ PlaterDB = {
 				[14663] = {
 					"Corrupted Stoneskin Totem VI", -- [1]
 					"Blackwing Lair", -- [2]
+				},
+				[5048] = {
+					"Deviate Adder", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[14695] = {
 					"Lord Blackwood", -- [1]
@@ -4355,6 +4363,11 @@ PlaterDB = {
 				[14883] = {
 					"Voodoo Slave", -- [1]
 					"Zul'Gurub", -- [2]
+				},
+				[11318] = {
+					"Ragefire Trogg", -- [1]
+					"Ragefire Chasm", -- [2]
+					"enUS", -- [3]
 				},
 				[11322] = {
 					"Searing Blade Cultist", -- [1]
@@ -4472,6 +4485,11 @@ PlaterDB = {
 					"Risen Construct", -- [1]
 					"Scholomance", -- [2]
 				},
+				[3653] = {
+					"Kresh", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
 				[11518] = {
 					"Jergosh the Invoker", -- [1]
 					"Ragefire Chasm", -- [2]
@@ -4500,13 +4518,28 @@ PlaterDB = {
 					"Garr", -- [1]
 					"Molten Core", -- [2]
 				},
+				[3669] = {
+					"Lord Cobrahn", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
 				[11582] = {
 					"Scholomance Dark Summoner", -- [1]
 					"Scholomance", -- [2]
 				},
+				[3671] = {
+					"Lady Anacondra", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
 				[12101] = {
 					"Lava Surger", -- [1]
 					"Molten Core", -- [2]
+				},
+				[3673] = {
+					"Lord Serpentis", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[14664] = {
 					"Corrupted Healing Stream Totem V", -- [1]
@@ -4756,6 +4789,11 @@ PlaterDB = {
 					"Risen Guard", -- [1]
 					"Scholomance", -- [2]
 				},
+				[11519] = {
+					"Bazzalan", -- [1]
+					"Ragefire Chasm", -- [2]
+					"enUS", -- [3]
+				},
 				[10505] = {
 					"Instructor Malicia", -- [1]
 					"Scholomance", -- [2]
@@ -4776,13 +4814,51 @@ PlaterDB = {
 					"Skeletal Servant", -- [1]
 					"Stratholme", -- [2]
 				},
+				[3654] = {
+					"Mutanus the Devourer", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
 				[8996] = {
 					"Voidwalker Minion", -- [1]
 					"Ragefire Chasm", -- [2]
 				},
+				[3680] = {
+					"Serpentbloom Snake", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[5763] = {
+					"Nightmare Ectoplasm", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[5775] = {
+					"Verdan the Everliving", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[3674] = {
+					"Skum", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[3670] = {
+					"Lord Pythas", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[5913] = {
+					"Tremor Totem", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
+				},
 				[15667] = {
 					"Glob of Viscidus", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
+				},
+				[10495] = {
+					"Diseased Ghoul", -- [1]
+					"Scholomance", -- [2]
 				},
 				[12098] = {
 					"Sulfuron Harbinger", -- [1]
@@ -4792,33 +4868,84 @@ PlaterDB = {
 					"Vile Scarab", -- [1]
 					"Ruins of Ahn'Qiraj", -- [2]
 				},
+				[5761] = {
+					"Deviate Shambler", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[5755] = {
+					"Deviate Viper", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[3637] = {
+					"Deviate Guardian", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
 				[12118] = {
 					"Lucifron", -- [1]
 					"Molten Core", -- [2]
 				},
-				[4540] = {
-					"Scarlet Monk", -- [1]
-					"Scarlet Monastery", -- [2]
+				[3640] = {
+					"Evolving Ectoplasm", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[13160] = {
 					"Carrion Swarmer", -- [1]
 					"Dire Maul", -- [2]
 				},
+				[4540] = {
+					"Scarlet Monk", -- [1]
+					"Scarlet Monastery", -- [2]
+				},
+				[5053] = {
+					"Deviate Crocolisk", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[5055] = {
+					"Deviate Lasher", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[3636] = {
+					"Deviate Ravager", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[10417] = {
+					"Venom Belcher", -- [1]
+					"Stratholme", -- [2]
+				},
 				[15727] = {
 					"C'Thun", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
+				},
+				[14321] = {
+					"Guard Fengus", -- [1]
+					"Dire Maul", -- [2]
+				},
+				[10400] = {
+					"Thuzadin Necromancer", -- [1]
+					"Stratholme", -- [2]
 				},
 				[9096] = {
 					"Rage Talon Dragonspawn", -- [1]
 					"Blackrock Spire", -- [2]
 				},
+				[15240] = {
+					"Vekniss Hive Crawler", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
+				},
 				[15236] = {
 					"Vekniss Wasp", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
 				},
-				[15240] = {
-					"Vekniss Hive Crawler", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[11663] = {
+					"Flamewaker Healer", -- [1]
+					"Molten Core", -- [2]
 				},
 				[11667] = {
 					"Flameguard", -- [1]
@@ -4832,6 +4959,14 @@ PlaterDB = {
 					"Qiraji Champion", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
 				},
+				[11598] = {
+					"Risen Guardian", -- [1]
+					"Scholomance", -- [2]
+				},
+				[14024] = {
+					"Corrupted Blue Whelp", -- [1]
+					"Blackwing Lair", -- [2]
+				},
 				[15264] = {
 					"Anubisath Sentinel", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
@@ -4840,9 +4975,13 @@ PlaterDB = {
 					"Fire Elemental", -- [1]
 					"Scarlet Monastery", -- [2]
 				},
-				[15463] = {
-					"Grace of Air Totem III", -- [1]
+				[11622] = {
+					"Rattlegore", -- [1]
 					"Scholomance", -- [2]
+				},
+				[10876] = {
+					"Undead Scarab", -- [1]
+					"Stratholme", -- [2]
 				},
 				[10681] = {
 					"Summoned Blackhand Veteran", -- [1]
@@ -4852,13 +4991,13 @@ PlaterDB = {
 					"Zulian Tiger", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[5913] = {
-					"Tremor Totem", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[10416] = {
+					"Bile Spewer", -- [1]
+					"Stratholme", -- [2]
 				},
-				[5925] = {
-					"Grounding Totem", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[11659] = {
+					"Molten Destroyer", -- [1]
+					"Molten Core", -- [2]
 				},
 				[10697] = {
 					"Bile Slime", -- [1]
@@ -4868,13 +5007,13 @@ PlaterDB = {
 					"Vekniss Drone", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
 				},
-				[14321] = {
-					"Guard Fengus", -- [1]
-					"Dire Maul", -- [2]
+				[14515] = {
+					"High Priestess Arlokk", -- [1]
+					"Zul'Gurub", -- [2]
 				},
-				[10400] = {
-					"Thuzadin Necromancer", -- [1]
-					"Stratholme", -- [2]
+				[10218] = {
+					"Superior Healing Ward", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[15312] = {
 					"Obsidian Nullifier", -- [1]
@@ -4892,9 +5031,10 @@ PlaterDB = {
 					"Chromatic Drakonid", -- [1]
 					"Blackwing Lair", -- [2]
 				},
-				[10218] = {
-					"Superior Healing Ward", -- [1]
-					"Zul'Gurub", -- [2]
+				[3840] = {
+					"Druid of the Fang", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[14821] = {
 					"Razzashi Raptor", -- [1]
@@ -4904,9 +5044,10 @@ PlaterDB = {
 					"Withered Mistress", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[15043] = {
-					"Zulian Crocolisk", -- [1]
-					"Zul'Gurub", -- [2]
+				[8886] = {
+					"Deviate Python", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[15344] = {
 					"Swarmguard Needler", -- [1]
@@ -4916,21 +5057,21 @@ PlaterDB = {
 					"Kurinnaxx", -- [1]
 					"Ruins of Ahn'Qiraj", -- [2]
 				},
-				[11663] = {
-					"Flamewaker Healer", -- [1]
-					"Molten Core", -- [2]
+				[11450] = {
+					"Gordok Reaver", -- [1]
+					"Dire Maul", -- [2]
 				},
-				[11598] = {
-					"Risen Guardian", -- [1]
-					"Scholomance", -- [2]
-				},
-				[10416] = {
-					"Bile Spewer", -- [1]
+				[10411] = {
+					"Eye of Naxxramas", -- [1]
 					"Stratholme", -- [2]
 				},
-				[11659] = {
-					"Molten Destroyer", -- [1]
-					"Molten Core", -- [2]
+				[10469] = {
+					"Scholomance Adept", -- [1]
+					"Scholomance", -- [2]
+				},
+				[10809] = {
+					"Stonespine", -- [1]
+					"Stratholme", -- [2]
 				},
 				[89] = {
 					"Infernal", -- [1]
@@ -4940,9 +5081,9 @@ PlaterDB = {
 					"Blood Steward of Kirtonos", -- [1]
 					"Scholomance", -- [2]
 				},
-				[10436] = {
-					"Baroness Anastari", -- [1]
-					"Stratholme", -- [2]
+				[14386] = {
+					"Wandering Eye of Kilrogg", -- [1]
+					"Dire Maul", -- [2]
 				},
 				[3853] = {
 					"Shadowfang Moonwalker", -- [1]
@@ -4964,32 +5105,33 @@ PlaterDB = {
 					"Shadowfang Glutton", -- [1]
 					"Shadowfang Keep", -- [2]
 				},
-				[11622] = {
-					"Rattlegore", -- [1]
-					"Scholomance", -- [2]
+				[3861] = {
+					"Bleak Worg", -- [1]
+					"Shadowfang Keep", -- [2]
+				},
+				[10391] = {
+					"Skeletal Berserker", -- [1]
+					"Stratholme", -- [2]
 				},
 				[11320] = {
 					"Earthborer", -- [1]
 					"Ragefire Chasm", -- [2]
 				},
-				[14386] = {
-					"Wandering Eye of Kilrogg", -- [1]
-					"Dire Maul", -- [2]
-				},
-				[3861] = {
-					"Bleak Worg", -- [1]
-					"Shadowfang Keep", -- [2]
+				[11324] = {
+					"Searing Blade Warlock", -- [1]
+					"Ragefire Chasm", -- [2]
+					"enUS", -- [3]
 				},
 				[3862] = {
 					"Slavering Worg", -- [1]
 					"Shadowfang Keep", -- [2]
 				},
-				[10876] = {
-					"Undead Scarab", -- [1]
-					"Stratholme", -- [2]
+				[7416] = {
+					"Mana Spring Totem IV", -- [1]
+					"Zul'Gurub", -- [2]
 				},
-				[11352] = {
-					"Gurubashi Berserker", -- [1]
+				[14507] = {
+					"High Priest Venoxis", -- [1]
 					"Zul'Gurub", -- [2]
 				},
 				[10318] = {
@@ -5036,20 +5178,20 @@ PlaterDB = {
 					"Jin'do the Hexxer", -- [1]
 					"Zul'Gurub", -- [2]
 				},
+				[15726] = {
+					"Eye Tentacle", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
+				},
 				[11388] = {
 					"Witherbark Speaker", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[3877] = {
-					"Wailing Guardsman", -- [1]
-					"Shadowfang Keep", -- [2]
+				[4306] = {
+					"Scarlet Torturer", -- [1]
+					"Scarlet Monastery", -- [2]
 				},
-				[10485] = {
-					"Risen Aberration", -- [1]
-					"Scholomance", -- [2]
-				},
-				[10809] = {
-					"Stonespine", -- [1]
+				[10413] = {
+					"Crypt Beast", -- [1]
 					"Stratholme", -- [2]
 				},
 				[12422] = {
@@ -5060,9 +5202,9 @@ PlaterDB = {
 					"Mangled Cadaver", -- [1]
 					"Stratholme", -- [2]
 				},
-				[14024] = {
-					"Corrupted Blue Whelp", -- [1]
-					"Blackwing Lair", -- [2]
+				[15984] = {
+					"Sartura's Royal Guard", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
 				},
 				[10901] = {
 					"Lorekeeper Polkelt", -- [1]
@@ -5080,29 +5222,29 @@ PlaterDB = {
 					"Razorclaw the Butcher", -- [1]
 					"Shadowfang Keep", -- [2]
 				},
-				[15516] = {
-					"Battleguard Sartura", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
-				},
 				[10406] = {
 					"Ghoul Ravener", -- [1]
+					"Stratholme", -- [2]
+				},
+				[10390] = {
+					"Skeletal Guardian", -- [1]
 					"Stratholme", -- [2]
 				},
 				[12458] = {
 					"Blackwing Taskmaster", -- [1]
 					"Blackwing Lair", -- [2]
 				},
-				[10390] = {
-					"Skeletal Guardian", -- [1]
-					"Stratholme", -- [2]
+				[11831] = {
+					"Hakkari Witch Doctor", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[14510] = {
 					"High Priestess Mar'li", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[15726] = {
-					"Eye Tentacle", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[15461] = {
+					"Shrieker Scarab", -- [1]
+					"Ruins of Ahn'Qiraj", -- [2]
 				},
 				[15041] = {
 					"Spawn of Mar'li", -- [1]
@@ -5128,37 +5270,13 @@ PlaterDB = {
 					"Firemaw", -- [1]
 					"Blackwing Lair", -- [2]
 				},
-				[14515] = {
-					"High Priestess Arlokk", -- [1]
-					"Zul'Gurub", -- [2]
-				},
-				[10413] = {
-					"Crypt Beast", -- [1]
+				[10436] = {
+					"Baroness Anastari", -- [1]
 					"Stratholme", -- [2]
 				},
-				[14507] = {
-					"High Priest Venoxis", -- [1]
+				[11361] = {
+					"Zulian Tiger", -- [1]
 					"Zul'Gurub", -- [2]
-				},
-				[12557] = {
-					"Grethok the Controller", -- [1]
-					"Blackwing Lair", -- [2]
-				},
-				[10470] = {
-					"Scholomance Neophyte", -- [1]
-					"Scholomance", -- [2]
-				},
-				[10411] = {
-					"Eye of Naxxramas", -- [1]
-					"Stratholme", -- [2]
-				},
-				[10478] = {
-					"Splintered Skeleton", -- [1]
-					"Scholomance", -- [2]
-				},
-				[10482] = {
-					"Risen Lackey", -- [1]
-					"Scholomance", -- [2]
 				},
 				[10486] = {
 					"Risen Warrior", -- [1]
@@ -5168,61 +5286,52 @@ PlaterDB = {
 					"Wushoolay", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[11551] = {
-					"Necrofiend", -- [1]
+				[10470] = {
+					"Scholomance Neophyte", -- [1]
 					"Scholomance", -- [2]
 				},
-				[10498] = {
-					"Spectral Tutor", -- [1]
+				[5756] = {
+					"Deviate Venomwing", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
+				},
+				[10478] = {
+					"Splintered Skeleton", -- [1]
 					"Scholomance", -- [2]
 				},
-				[10502] = {
-					"Lady Illucia Barov", -- [1]
+				[10482] = {
+					"Risen Lackey", -- [1]
 					"Scholomance", -- [2]
 				},
-				[10506] = {
-					"Kirtonos the Herald", -- [1]
-					"Scholomance", -- [2]
-				},
-				[4306] = {
-					"Scarlet Torturer", -- [1]
-					"Scarlet Monastery", -- [2]
-				},
-				[15101] = {
-					"Zulian Prowler", -- [1]
-					"Zul'Gurub", -- [2]
-				},
-				[10391] = {
-					"Skeletal Berserker", -- [1]
-					"Stratholme", -- [2]
-				},
-				[3855] = {
-					"Shadowfang Darksoul", -- [1]
-					"Shadowfang Keep", -- [2]
-				},
-				[15391] = {
-					"Captain Qeez", -- [1]
-					"Ruins of Ahn'Qiraj", -- [2]
-				},
-				[10366] = {
-					"Rage Talon Dragon Guard", -- [1]
-					"Blackrock Spire", -- [2]
-				},
-				[14965] = {
-					"Frenzied Bloodseeker Bat", -- [1]
-					"Zul'Gurub", -- [2]
-				},
-				[3850] = {
-					"Sorcerer Ashcrombe", -- [1]
-					"Shadowfang Keep", -- [2]
+				[5762] = {
+					"Deviate Moccasin", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[12416] = {
 					"Blackwing Legionnaire", -- [1]
 					"Blackwing Lair", -- [2]
 				},
-				[15984] = {
-					"Sartura's Royal Guard", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[10498] = {
+					"Spectral Tutor", -- [1]
+					"Scholomance", -- [2]
+				},
+				[11520] = {
+					"Taragaman the Hungerer", -- [1]
+					"Ragefire Chasm", -- [2]
+					"enUS", -- [3]
+				},
+				[15101] = {
+					"Zulian Prowler", -- [1]
+					"Zul'Gurub", -- [2]
+				},
+				[10506] = {
+					"Kirtonos the Herald", -- [1]
+					"Scholomance", -- [2]
+				},
+				[10366] = {
+					"Rage Talon Dragon Guard", -- [1]
+					"Blackrock Spire", -- [2]
 				},
 				[4290] = {
 					"Scarlet Guardsman", -- [1]
@@ -5232,21 +5341,57 @@ PlaterDB = {
 					"High Priest Thekal", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[15461] = {
-					"Shrieker Scarab", -- [1]
-					"Ruins of Ahn'Qiraj", -- [2]
+				[12557] = {
+					"Grethok the Controller", -- [1]
+					"Blackwing Lair", -- [2]
+				},
+				[11352] = {
+					"Gurubashi Berserker", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[11338] = {
 					"Hakkari Shadowcaster", -- [1]
 					"Zul'Gurub", -- [2]
 				},
+				[15934] = {
+					"Hive'Zara Hornet", -- [1]
+					"Ruins of Ahn'Qiraj", -- [2]
+				},
+				[3850] = {
+					"Sorcerer Ashcrombe", -- [1]
+					"Shadowfang Keep", -- [2]
+				},
+				[14517] = {
+					"High Priestess Jeklik", -- [1]
+					"Zul'Gurub", -- [2]
+				},
+				[11551] = {
+					"Necrofiend", -- [1]
+					"Scholomance", -- [2]
+				},
+				[3983] = {
+					"Interrogator Vishas", -- [1]
+					"Scarlet Monastery", -- [2]
+				},
+				[3868] = {
+					"Blood Seeker", -- [1]
+					"Shadowfang Keep", -- [2]
+				},
+				[13996] = {
+					"Blackwing Technician", -- [1]
+					"Blackwing Lair", -- [2]
+				},
+				[10442] = {
+					"Chromatic Whelp", -- [1]
+					"Blackrock Spire", -- [2]
+				},
 				[12099] = {
 					"Firesworn", -- [1]
 					"Molten Core", -- [2]
 				},
-				[11340] = {
-					"Hakkari Blood Priest", -- [1]
-					"Zul'Gurub", -- [2]
+				[15324] = {
+					"Qiraji Gladiator", -- [1]
+					"Ruins of Ahn'Qiraj", -- [2]
 				},
 				[14662] = {
 					"Corrupted Fire Nova Totem V", -- [1]
@@ -5256,9 +5401,9 @@ PlaterDB = {
 					"Scarshield Acolyte", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[11361] = {
-					"Zulian Tiger", -- [1]
-					"Zul'Gurub", -- [2]
+				[7456] = {
+					"Hooters", -- [1]
+					"Molten Core", -- [2]
 				},
 				[4279] = {
 					"Odo the Blindwatcher", -- [1]
@@ -5272,9 +5417,9 @@ PlaterDB = {
 					"Scarlet Sentry", -- [1]
 					"Scarlet Monastery", -- [2]
 				},
-				[14666] = {
-					"Corrupted Windfury Totem III", -- [1]
-					"Blackwing Lair", -- [2]
+				[15235] = {
+					"Vekniss Stinger", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
 				},
 				[4287] = {
 					"Scarlet Gallant", -- [1]
@@ -5284,13 +5429,13 @@ PlaterDB = {
 					"Scarlet Evoker", -- [1]
 					"Scarlet Monastery", -- [2]
 				},
-				[4291] = {
-					"Scarlet Diviner", -- [1]
-					"Scarlet Monastery", -- [2]
+				[11121] = {
+					"Black Guard Swordsmith", -- [1]
+					"Stratholme", -- [2]
 				},
-				[4301] = {
-					"Scarlet Centurion", -- [1]
-					"Scarlet Monastery", -- [2]
+				[9097] = {
+					"Scarshield Legionnaire", -- [1]
+					"Blackrock Spire", -- [2]
 				},
 				[4295] = {
 					"Scarlet Myrmidon", -- [1]
@@ -5304,17 +5449,17 @@ PlaterDB = {
 					"Scarlet Chaplain", -- [1]
 					"Scarlet Monastery", -- [2]
 				},
-				[15229] = {
-					"Vekniss Soldier", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[4301] = {
+					"Scarlet Centurion", -- [1]
+					"Scarlet Monastery", -- [2]
 				},
 				[4303] = {
 					"Scarlet Abbot", -- [1]
 					"Scarlet Monastery", -- [2]
 				},
-				[15249] = {
-					"Qiraji Lasher", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[12119] = {
+					"Flamewaker Protector", -- [1]
+					"Molten Core", -- [2]
 				},
 				[11664] = {
 					"Flamewaker Elite", -- [1]
@@ -5324,33 +5469,33 @@ PlaterDB = {
 					"Firelord", -- [1]
 					"Molten Core", -- [2]
 				},
-				[11672] = {
-					"Core Rager", -- [1]
-					"Molten Core", -- [2]
+				[15249] = {
+					"Qiraji Lasher", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
 				},
 				[9098] = {
 					"Scarshield Spellbinder", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[15111] = {
-					"Mad Servant", -- [1]
-					"Zul'Gurub", -- [2]
+				[3875] = {
+					"Haunted Servitor", -- [1]
+					"Shadowfang Keep", -- [2]
 				},
 				[14750] = {
 					"Gurubashi Bat Rider", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[11121] = {
-					"Black Guard Swordsmith", -- [1]
-					"Stratholme", -- [2]
+				[7425] = {
+					"Fire Resistance Totem III", -- [1]
+					"Molten Core", -- [2]
 				},
-				[10442] = {
-					"Chromatic Whelp", -- [1]
+				[10083] = {
+					"Rage Talon Flamescale", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[13996] = {
-					"Blackwing Technician", -- [1]
-					"Blackwing Lair", -- [2]
+				[3887] = {
+					"Baron Silverlaine", -- [1]
+					"Shadowfang Keep", -- [2]
 				},
 				[10678] = {
 					"Plagued Hatchling", -- [1]
@@ -5364,41 +5509,41 @@ PlaterDB = {
 					"Mindless Skeleton", -- [1]
 					"Stratholme", -- [2]
 				},
-				[11339] = {
-					"Hakkari Shadow Hunter", -- [1]
-					"Zul'Gurub", -- [2]
-				},
-				[15324] = {
-					"Qiraji Gladiator", -- [1]
-					"Ruins of Ahn'Qiraj", -- [2]
-				},
-				[15235] = {
-					"Vekniss Stinger", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
-				},
-				[7403] = {
-					"Strength of Earth Totem IV", -- [1]
-					"Molten Core", -- [2]
-				},
-				[12119] = {
-					"Flamewaker Protector", -- [1]
-					"Molten Core", -- [2]
+				[14323] = {
+					"Guard Slip'kik", -- [1]
+					"Dire Maul", -- [2]
 				},
 				[12259] = {
 					"Gehennas", -- [1]
 					"Molten Core", -- [2]
 				},
-				[3983] = {
-					"Interrogator Vishas", -- [1]
-					"Scarlet Monastery", -- [2]
+				[11669] = {
+					"Flame Imp", -- [1]
+					"Molten Core", -- [2]
+				},
+				[7403] = {
+					"Strength of Earth Totem IV", -- [1]
+					"Molten Core", -- [2]
+				},
+				[14022] = {
+					"Corrupted Red Whelp", -- [1]
+					"Blackwing Lair", -- [2]
+				},
+				[15233] = {
+					"Vekniss Guardian", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
+				},
+				[11441] = {
+					"Gordok Brute", -- [1]
+					"Dire Maul", -- [2]
 				},
 				[15317] = {
 					"Qiraji Scorpion", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
 				},
-				[11257] = {
-					"Scholomance Handler", -- [1]
-					"Scholomance", -- [2]
+				[11374] = {
+					"Hooktooth Frenzy", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[15325] = {
 					"Hive'Zara Wasp", -- [1]
@@ -5420,45 +5565,45 @@ PlaterDB = {
 					"Blackhand Dragon Handler", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[7425] = {
-					"Fire Resistance Totem III", -- [1]
-					"Molten Core", -- [2]
+				[11257] = {
+					"Scholomance Handler", -- [1]
+					"Scholomance", -- [2]
 				},
 				[11261] = {
 					"Doctor Theolen Krastinov", -- [1]
 					"Scholomance", -- [2]
 				},
-				[11374] = {
-					"Hooktooth Frenzy", -- [1]
+				[15111] = {
+					"Mad Servant", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[14022] = {
-					"Corrupted Red Whelp", -- [1]
-					"Blackwing Lair", -- [2]
-				},
-				[11441] = {
-					"Gordok Brute", -- [1]
-					"Dire Maul", -- [2]
-				},
-				[11669] = {
-					"Flame Imp", -- [1]
+				[11672] = {
+					"Core Rager", -- [1]
 					"Molten Core", -- [2]
+				},
+				[15229] = {
+					"Vekniss Soldier", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
+				},
+				[4291] = {
+					"Scarlet Diviner", -- [1]
+					"Scarlet Monastery", -- [2]
 				},
 				[15369] = {
 					"Ayamiss the Hunter", -- [1]
 					"Ruins of Ahn'Qiraj", -- [2]
 				},
-				[10083] = {
-					"Rage Talon Flamescale", -- [1]
+				[14666] = {
+					"Corrupted Windfury Totem III", -- [1]
+					"Blackwing Lair", -- [2]
+				},
+				[9818] = {
+					"Blackhand Summoner", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[3887] = {
-					"Baron Silverlaine", -- [1]
-					"Shadowfang Keep", -- [2]
-				},
-				[3875] = {
-					"Haunted Servitor", -- [1]
-					"Shadowfang Keep", -- [2]
+				[11339] = {
+					"Hakkari Shadow Hunter", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[15385] = {
 					"Colonel Zerran", -- [1]
@@ -5472,17 +5617,17 @@ PlaterDB = {
 					"Atal'ai Mistress", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[14323] = {
-					"Guard Slip'kik", -- [1]
-					"Dire Maul", -- [2]
+				[4304] = {
+					"Scarlet Tracking Hound", -- [1]
+					"Scarlet Monastery", -- [2]
 				},
-				[14517] = {
-					"High Priestess Jeklik", -- [1]
-					"Zul'Gurub", -- [2]
+				[11673] = {
+					"Ancient Core Hound", -- [1]
+					"Molten Core", -- [2]
 				},
-				[15233] = {
-					"Vekniss Guardian", -- [1]
-					"Ahn'Qiraj Temple", -- [2]
+				[15391] = {
+					"Captain Qeez", -- [1]
+					"Ruins of Ahn'Qiraj", -- [2]
 				},
 				[11321] = {
 					"Molten Elemental", -- [1]
@@ -5492,25 +5637,25 @@ PlaterDB = {
 					"Chromatic Elite Guard", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[4304] = {
-					"Scarlet Tracking Hound", -- [1]
-					"Scarlet Monastery", -- [2]
+				[11340] = {
+					"Hakkari Blood Priest", -- [1]
+					"Zul'Gurub", -- [2]
 				},
-				[9097] = {
-					"Scarshield Legionnaire", -- [1]
-					"Blackrock Spire", -- [2]
+				[14025] = {
+					"Corrupted Bronze Whelp", -- [1]
+					"Blackwing Lair", -- [2]
 				},
-				[11673] = {
-					"Ancient Core Hound", -- [1]
-					"Molten Core", -- [2]
+				[14965] = {
+					"Frenzied Bloodseeker Bat", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[10319] = {
 					"Blackhand Iron Guard", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[7456] = {
-					"Hooters", -- [1]
-					"Molten Core", -- [2]
+				[10502] = {
+					"Lady Illucia Barov", -- [1]
+					"Scholomance", -- [2]
 				},
 				[9816] = {
 					"Pyroguard Emberseer", -- [1]
@@ -5532,41 +5677,41 @@ PlaterDB = {
 					"Zulian Panther", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[9818] = {
-					"Blackhand Summoner", -- [1]
-					"Blackrock Spire", -- [2]
+				[11830] = {
+					"Hakkari Priest", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[11373] = {
 					"Razzashi Cobra", -- [1]
 					"Zul'Gurub", -- [2]
 				},
-				[15934] = {
-					"Hive'Zara Hornet", -- [1]
-					"Ruins of Ahn'Qiraj", -- [2]
+				[15112] = {
+					"Brain Wash Totem", -- [1]
+					"Zul'Gurub", -- [2]
 				},
-				[3868] = {
-					"Blood Seeker", -- [1]
+				[3855] = {
+					"Shadowfang Darksoul", -- [1]
 					"Shadowfang Keep", -- [2]
 				},
 				[10363] = {
 					"General Drakkisath", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[11831] = {
-					"Hakkari Witch Doctor", -- [1]
-					"Zul'Gurub", -- [2]
+				[15516] = {
+					"Battleguard Sartura", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
 				},
 				[10371] = {
 					"Rage Talon Captain", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[11830] = {
-					"Hakkari Priest", -- [1]
-					"Zul'Gurub", -- [2]
+				[3877] = {
+					"Wailing Guardsman", -- [1]
+					"Shadowfang Keep", -- [2]
 				},
-				[15112] = {
-					"Brain Wash Totem", -- [1]
-					"Zul'Gurub", -- [2]
+				[14262] = {
+					"Green Drakonid", -- [1]
+					"Blackwing Lair", -- [2]
 				},
 				[10383] = {
 					"Broken Cadaver", -- [1]
@@ -5616,9 +5761,9 @@ PlaterDB = {
 					"Anubisath Warrior", -- [1]
 					"Ahn'Qiraj Temple", -- [2]
 				},
-				[14025] = {
-					"Corrupted Bronze Whelp", -- [1]
-					"Blackwing Lair", -- [2]
+				[10485] = {
+					"Risen Aberration", -- [1]
+					"Scholomance", -- [2]
 				},
 				[10435] = {
 					"Magistrate Barthilas", -- [1]
@@ -5636,17 +5781,17 @@ PlaterDB = {
 					"Chromatic Dragonspawn", -- [1]
 					"Blackrock Spire", -- [2]
 				},
-				[10469] = {
-					"Scholomance Adept", -- [1]
+				[10433] = {
+					"Marduk Blackpool", -- [1]
 					"Scholomance", -- [2]
 				},
-				[7416] = {
-					"Mana Spring Totem IV", -- [1]
-					"Zul'Gurub", -- [2]
+				[5925] = {
+					"Grounding Totem", -- [1]
+					"Ahn'Qiraj Temple", -- [2]
 				},
-				[11450] = {
-					"Gordok Reaver", -- [1]
-					"Dire Maul", -- [2]
+				[15043] = {
+					"Zulian Crocolisk", -- [1]
+					"Zul'Gurub", -- [2]
 				},
 				[10463] = {
 					"Shrieking Banshee", -- [1]
@@ -5664,13 +5809,13 @@ PlaterDB = {
 					"Scholomance Student", -- [1]
 					"Scholomance", -- [2]
 				},
-				[10433] = {
-					"Marduk Blackpool", -- [1]
-					"Scholomance", -- [2]
+				[11350] = {
+					"Gurubashi Axe Thrower", -- [1]
+					"Zul'Gurub", -- [2]
 				},
-				[14262] = {
-					"Green Drakonid", -- [1]
-					"Blackwing Lair", -- [2]
+				[15463] = {
+					"Grace of Air Totem III", -- [1]
+					"Scholomance", -- [2]
 				},
 				[10487] = {
 					"Risen Protector", -- [1]
@@ -5680,17 +5825,19 @@ PlaterDB = {
 					"Risen Bonewarder", -- [1]
 					"Scholomance", -- [2]
 				},
-				[10495] = {
-					"Diseased Ghoul", -- [1]
-					"Scholomance", -- [2]
+				[11517] = {
+					"Oggleflint", -- [1]
+					"Ragefire Chasm", -- [2]
+					"enUS", -- [3]
 				},
 				[10499] = {
 					"Spectral Researcher", -- [1]
 					"Scholomance", -- [2]
 				},
-				[11350] = {
-					"Gurubashi Axe Thrower", -- [1]
-					"Zul'Gurub", -- [2]
+				[5056] = {
+					"Deviate Dreadfang", -- [1]
+					"Wailing Caverns", -- [2]
+					"enUS", -- [3]
 				},
 				[10507] = {
 					"The Ravenian", -- [1]
@@ -5708,9 +5855,10 @@ PlaterDB = {
 					"Mindless Undead", -- [1]
 					"Stratholme", -- [2]
 				},
-				[10417] = {
-					"Venom Belcher", -- [1]
-					"Stratholme", -- [2]
+				[11319] = {
+					"Ragefire Shaman", -- [1]
+					"Ragefire Chasm", -- [2]
+					"enUS", -- [3]
 				},
 			},
 			["script_data_trash"] = {
@@ -6426,18 +6574,18 @@ PlaterDB = {
 				["Cast - Big Alert"] = 14,
 				["Cast - Circular Swipe"] = 4,
 				["Cast - Shield Interrupt"] = 2,
-				["Auto Set Skull"] = 11,
-				["Add - Explode on Die [P]"] = 1,
 				["Color Change"] = 1,
-				["Countdown"] = 11,
-				["Add - Non Elite Trash [P]"] = 4,
-				["Cast - On Going Cast [P]"] = 2,
-				["Aura Border Color"] = 1,
+				["Add - Explode on Die [P]"] = 1,
+				["Spiteful Affix"] = 3,
 				["Cast - Stop Casting"] = 4,
+				["Add - Non Elite Trash [P]"] = 4,
+				["Countdown"] = 11,
+				["Aura Border Color"] = 1,
+				["Cast - On Going Cast [P]"] = 2,
 				["Fixate by Unit Buff [P]"] = 2,
 				["Cast - Frontal Cone"] = 15,
 				["Fixate"] = 11,
-				["Spiteful Affix"] = 3,
+				["Auto Set Skull"] = 11,
 				["Unit - Important"] = 5,
 				["Cast - Very Important"] = 15,
 				["Fixate On You"] = 11,
@@ -6472,7 +6620,7 @@ PlaterDB = {
 				["nameplateMaxDistance"] = "20",
 				["nameplateShowFriendlyMinions"] = "0",
 				["nameplateSelfScale"] = "1.0",
-				["nameplateShowEnemies"] = "1",
+				["nameplateShowEnemies"] = "0",
 				["NamePlateVerticalScale"] = "1",
 				["nameplateSelectedAlpha"] = "1",
 				["nameplateSelfTopInset"] = ".5",
@@ -6486,7 +6634,7 @@ PlaterDB = {
 				["nameplateMinScale"] = "1",
 				["nameplateOtherTopInset"] = "0.085",
 				["nameplateSelfBottomInset"] = ".2",
-				["nameplateShowFriends"] = "1",
+				["nameplateShowFriends"] = "0",
 				["nameplateShowFriendlyGuardians"] = "0",
 				["NamePlateHorizontalScale"] = "1",
 				["nameplateRemovalAnimation"] = "1",
@@ -6494,7 +6642,7 @@ PlaterDB = {
 				["nameplateSelfAlpha"] = "0.75",
 				["nameplateOccludedAlphaMult"] = "1",
 			},
-			["login_counter"] = 1533,
+			["login_counter"] = 1596,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["global_health_width"] = 112,
@@ -6530,18 +6678,18 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Kastfall-Azralon",
-					["Time"] = 1547392935,
+					["Name"] = "Color Automation [Plater]",
 					["Desc"] = "Easy way to change the color of an unit. Open the constructor script and follow the examples.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
 					},
-					["Name"] = "Color Automation [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\color_bar",
-					["version"] = -1,
+					["Time"] = 1547392935,
 				}, -- [1]
 				{
 					["Enabled"] = false,
@@ -6572,7 +6720,7 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Izimode-Azralon",
-					["Time"] = 1541606242,
+					["Name"] = "Hide Neutral Units [Plater]",
 					["Desc"] = "Hide neutral units, show when selected, see the constructor script for options.",
 					["Hooks"] = {
 						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
@@ -6583,12 +6731,12 @@ PlaterDB = {
 						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.ShowNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.OnlyInOpenWorld = true;\n    envTable.ShowInCombat = true;\n    \n    --consts\n    envTable.REACTION_NEUTRAL = 4;\n    \n    --functions to hide and show the healthBar\n    function envTable.HideNameplate (unitFrame)\n        Plater.HideHealthBar (unitFrame)\n        Plater.DisableHighlight (unitFrame)\n        envTable.IsHidden = true\n    end\n    \n    function envTable.ShowNameplate (unitFrame)\n        Plater.ShowHealthBar (unitFrame)\n        Plater.EnableHighlight (unitFrame)\n        envTable.IsHidden = false\n    end\n    \nend\n\n\n\n\n",
 					},
-					["Name"] = "Hide Neutral Units [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 1990989,
-					["version"] = -1,
+					["Time"] = 1541606242,
 				}, -- [2]
 				{
 					["LastHookEdited"] = "",
@@ -6815,18 +6963,18 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Izimode-Azralon",
-					["Time"] = 1554138845,
+					["Name"] = "Don't Have Aura [Plater]",
 					["Desc"] = "Change the nameplate color when a nameplate does not have the auras set in the constructor script.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --do nothing if the player isn't in combat\n    if (not Plater.IsInCombat()) then\n        return \n    end\n    \n    --do nothing if the unit isn't in combat\n    if (not unitFrame.InCombat) then\n        return\n    end\n    \n    --do nothing if the unit is the player it self\n    if (unitFrame.IsSelf) then\n        return\n    end\n    \n    --check the auras\n    local hasAura = false\n    \n    for auraName, _ in pairs (envTable.TrackingAuras) do\n        if (Plater.NameplateHasAura (unitFrame, auraName)) then\n            hasAura = true\n            break\n        end\n    end\n    \n    if (not hasAura) then\n        Plater.SetNameplateColor (unitFrame, envTable.NameplateColor)\n    else\n        if (envTable.ForceRefreshNameplateColor) then\n            Plater.RefreshNameplateColor (unitFrame) \n        end\n    end    \n    \nend",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --Important: lines starting with double dashes are comments and are not part of the script\n    \n    --set this to true if you are not using threat colors in the health bar\n    envTable.ForceRefreshNameplateColor = true\n    \n    --if the unit does not have any of the following auras, it will be painted with the color listed below\n    --list of spells to track, can be the spell name (case-sensitive) or the spellID\n    envTable.TrackingAuras = {\n        --[\"Nightblade\"] = true, --this is an example using the spell name\n        --[195452] = true, --this is an example using the spellID\n        \n    }\n    \n    --which color the nameplate wil be changed\n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    --you may also use /plater colors\n    envTable.NameplateColor = \"pink\"\n    \nend",
 					},
-					["Name"] = "Don't Have Aura [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 136207,
-					["version"] = -1,
+					["Time"] = 1554138845,
 				}, -- [4]
 				{
 					["Enabled"] = false,
@@ -6857,18 +7005,18 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Ahwa-Azralon",
-					["Time"] = 1547406548,
+					["Name"] = "Execute Range [Plater]",
 					["Desc"] = "Add extra effects to execute range. See the constructor script for options.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        if (healthBar.CurrentHealth / healthBar.CurrentHealthMax <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame)\n        end        \n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = false\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * envTable.ExecutePercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
 					},
-					["Name"] = "Execute Range [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 135358,
-					["version"] = -1,
+					["Time"] = 1547406548,
 				}, -- [5]
 				{
 					["LastHookEdited"] = "",
@@ -7025,7 +7173,7 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Tecno-Azralon",
-					["Time"] = 1567879805,
+					["Name"] = "Extra Border [Plater]",
 					["Desc"] = "Add another border with more customizations. This border can also be manipulated by other scripts.",
 					["Hooks"] = {
 						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
@@ -7034,12 +7182,12 @@ PlaterDB = {
 						["Destructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    envTable.BorderFrame:Hide()\n    \nend\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border color\n    local borderColor = \"yellow\"\n    \n    --size of the border\n    local borderSize = 1\n    \n    --transparency\n    local borderAlpha = 1\n    \n    --enabled (set to false it you only want to use the extra border in other scripts)\n    local isEnabled = true\n    \n    --export border (allow the border to be used by other scripts)\n    --other scripts can use:\n    --unitFrame.healthBar.extraBorder:Show()\n    --unitFrame.healthBar.extraBorder:SetVertexColor (r, g, b)\n    --unitFrame.healthBar.extraBorder:SetBorderSizes (borderSize)\n    local canExportBorder = true\n    \n    --do not add the border to personal bar\n    local noPersonalBar = true\n    \n    --private\n    do\n        \n        local newBorder = CreateFrame (\"frame\", nil, unitFrame.healthBar, \"PlaterNamePlateFullBorderTemplate\")\n        envTable.BorderFrame = newBorder\n        \n        newBorder:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n        newBorder:UpdateSizes()\n        \n        local r, g, b = DetailsFramework:ParseColors (borderColor)\n        newBorder:SetVertexColor (r, g, b, borderAlpha)\n        \n        envTable.ShowOnPersonalBar = not noPersonalBar\n        \n        if (canExportBorder) then\n            unitFrame.healthBar.extraBorder = newBorder\n        end\n        \n        if (not isEnabled) then\n            envTable.IsEnabled = false\n        else\n            envTable.IsEnabled = true\n        end\n    end\n    \nend\n\n\n",
 					},
-					["Name"] = "Extra Border [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 133689,
-					["version"] = -1,
+					["Time"] = 1567879805,
 				}, -- [8]
 				{
 					["OptionsValues"] = {
@@ -7127,7 +7275,7 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Izimode-Azralon",
-					["Time"] = 1548278227,
+					["Name"] = "Players Targeting a Target [Plater]",
 					["Desc"] = "Show how many raid members are targeting the unit",
 					["Hooks"] = {
 						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShow = false;\n    envTable.TargetAmount:SetText (\"\")\nend\n\n\n",
@@ -7137,12 +7285,12 @@ PlaterDB = {
 						["Enter Combat"] = "function (self, unitId, unitFrame, envTable)\n    \n    --check if can show the amount of targets\n    envTable.CanShow = envTable.CanShowTargetAmount();\n    \n    if (not envTable.CanShow) then\n        envTable.TargetAmount:SetText (\"\") \n    end\nend\n\n\n\n\n",
 						["Constructor"] = "--all gray text like this are comments and do not run as code\n--build the settings and basic functions for the hook\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --declare setting variables:\n    local textColor = \"orange\";\n    local textSize = 12;\n    \n    local showInRaid = true;\n    local showInDungeon = true;\n    local showInArena = false;\n    local showInBattleground = false;\n    local showInOpenWorld = true;\n    \n    envTable.UpdateInterval = 2; --each 2 updates in the nameplate it'll update the amount of targets\n    \n    local anchor = {\n        side = 6, --1 = topleft 2 = left 3 = bottomleft 4 = bottom 5 = bottom right 6 = right 7 = topright 8 = top\n        x = 4, --x offset\n        y = 0, --y offset\n    };\n    \n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------\n    \n    \n    --frames:\n    \n    --create the text that will show the amount of people targeting the unit\n    if (not  unitFrame.healthBar.TargetAmount) then\n        envTable.TargetAmount = Plater:CreateLabel (unitFrame.healthBar, \"\", textSize, textColor);\n        Plater.SetAnchor (envTable.TargetAmount, anchor);\n        unitFrame.healthBar.TargetAmount = envTable.TargetAmount\n    end\n    \n    --in case Plater wipes the envTable\n    envTable.TargetAmount = unitFrame.healthBar.TargetAmount\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --private variables (they will be used in the other scripts within this hook)\n    envTable.CanShow = false;\n    envTable.UpdateCooldown = 0;\n    envTable.InRaid = false;\n    envTable.InParty = false;\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --functions\n    \n    --update the InRaid or InParty proprieties\n    function envTable.UpdateGroupType()\n        if (IsInRaid()) then\n            envTable.InRaid = true;\n            envTable.InParty = false;     \n            \n        elseif (IsInGroup()) then\n            envTable.InRaid = false;\n            envTable.InParty = true;   \n            \n        else\n            envTable.InRaid = false;            \n            envTable.InParty = false;\n        end\n    end\n    \n    --this function controls if the amount of targets can show following the settings in the top of this script\n    function envTable.CanShowTargetAmount()\n        \n        local _, instanceType, difficultyID, _, _, _, _, instanceMapID, instanceGroupSize = GetInstanceInfo()\n        \n        if (showInRaid and instanceType == \"raid\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInDungeon and instanceType == \"party\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInArena and instanceType == \"arena\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInBattleground and instanceType == \"pvp\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInOpenWorld and instanceType == \"none\") then\n            envTable.UpdateGroupType()\n            if (envTable.InRaid or envTable.InParty) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    --get the amount of player targetting the unit in raid or party\n    function envTable.NumTargetsInRaid (unitFrame)\n        local amount = 0\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        return amount\n    end\n    \n    function envTable.NumTargetsInParty()\n        local amount = 0\n        for i = 1, GetNumGroupMembers() - 1 do\n            local unit = \"party\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        local unit = \"playertarget\"\n        if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n            amount = amount + 1\n        end        \n        \n        return amount\n    end\n    \nend",
 					},
-					["Name"] = "Players Targeting a Target [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 1966587,
-					["version"] = -1,
+					["Time"] = 1548278227,
 				}, -- [10]
 				{
 					["Enabled"] = false,
@@ -7173,7 +7321,7 @@ PlaterDB = {
 						},
 					},
 					["Author"] = "Izimode-Azralon",
-					["Time"] = 1552354619,
+					["Name"] = "Current Target Color [Plater]",
 					["Desc"] = "Changes the target color to the color set in the constructor script.",
 					["Hooks"] = {
 						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend",
@@ -7181,12 +7329,12 @@ PlaterDB = {
 						["Target Changed"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend\n\n\n\n\n\n\n\n\n\n\n",
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --usage: color name e.g \"red\" \"yellow\"; color table e.g {1, 0, 0} {1, 1, 0}; hex string e.g. \"#FF0000\" \"FFFF00\"\n    \n    envTable.TargetColor = \"purple\"\n    --envTable.TargetColor = \"#FF00FF\"\n    --envTable.TargetColor = {252/255, 0/255, 254/255}\n    \n    function envTable.UpdateColor (unitFrame)\n        --do not change the color of the personal bar\n        if (not unitFrame.IsSelf) then\n            \n            --if this nameplate the current target of the player?\n            if (unitFrame.namePlateIsTarget) then\n                Plater.SetNameplateColor (unitFrame, envTable.TargetColor)  --rgb\n            else\n                --refresh the nameplate color\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n        end\n    end\n    \nend\n\n\n\n\n",
 					},
-					["Name"] = "Current Target Color [Plater]",
+					["version"] = -1,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 878211,
-					["version"] = -1,
+					["Time"] = 1552354619,
 				}, -- [11]
 				{
 					["OptionsValues"] = {
@@ -7300,25 +7448,25 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 	["_general_logs"] = {
-		"2023-10-04 03:42:23 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [1]
-		"2023-10-04 02:51:19 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [2]
-		"2023-10-04 02:21:31 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [3]
-		"2023-10-04 01:59:33 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [4]
-		"2023-10-04 01:54:26 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [5]
-		"2023-10-04 01:40:06 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [6]
-		"2023-10-04 00:56:44 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [7]
-		"2023-10-03 23:51:23 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [8]
-		"2023-10-03 12:43:30 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [9]
-		"2023-10-03 12:34:15 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanslayer", -- [10]
-		"2023-10-03 11:51:46 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [11]
-		"2023-10-03 01:03:56 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [12]
-		"2023-10-02 12:32:36 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [13]
-		"2023-10-02 12:26:59 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [14]
-		"2023-10-02 12:14:05 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [15]
-		"2023-10-02 09:46:22 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [16]
-		"2023-10-02 09:45:01 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [17]
-		"2023-10-02 09:42:05 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [18]
-		"2023-10-02 09:37:29 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [19]
+		"2023-10-10 09:36:11 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkportal", -- [1]
+		"2023-10-10 01:15:06 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkportal", -- [2]
+		"2023-10-09 22:20:37 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkportal", -- [3]
+		"2023-10-09 22:19:39 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkportal", -- [4]
+		"2023-10-09 22:18:34 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkportal", -- [5]
+		"2023-10-09 22:10:56 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkportal", -- [6]
+		"2023-10-09 21:37:47 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [7]
+		"2023-10-09 21:36:18 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [8]
+		"2023-10-09 04:32:26 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kktailor", -- [9]
+		"2023-10-08 10:17:40 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kktailor", -- [10]
+		"2023-10-08 09:39:25 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kktailor", -- [11]
+		"2023-10-08 09:34:23 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [12]
+		"2023-10-06 09:15:07 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kktailor", -- [13]
+		"2023-10-06 09:13:20 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [14]
+		"2023-10-06 08:26:26 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [15]
+		"2023-10-06 05:41:18 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kktailor", -- [16]
+		"2023-10-06 04:57:50 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanranger", -- [17]
+		"2023-10-06 04:46:09 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Kkbanker", -- [18]
+		"2023-10-06 04:37:08 | INIT | Plater-v564.2-Classic | Framework v468 | 1.14.4 | enUS | Samoanranger", -- [19]
 	},
 	["_error_logs"] = {
 	},

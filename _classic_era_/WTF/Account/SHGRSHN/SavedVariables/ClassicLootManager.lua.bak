@@ -405,6 +405,14 @@ CLM2_DB = {
 		},
 		["guild"] = {
 		},
+		["integration"] = {
+			["wowdkpbot"] = {
+			},
+			["global"] = {
+			},
+			["rclc.handlers"] = {
+			},
+		},
 		["ledger"] = {
 		},
 		["raid"] = {
@@ -501,6 +509,30 @@ CLM2_DB = {
 				},
 			},
 			["gui"] = {
+				["export"] = {
+					["location"] = {
+						[3] = "CENTER",
+						[4] = 0,
+						[5] = 0,
+					},
+					["export_config"] = {
+						["timerange"] = {
+							["begin"] = {
+								["year"] = 2019,
+								["day"] = 1,
+								["month"] = 1,
+							},
+							["finish"] = {
+								["year"] = 2022,
+								["day"] = 31,
+								["month"] = 12,
+							},
+						},
+						["format"] = 0,
+						["data"] = {
+						},
+					},
+				},
 				["bidding"] = {
 					["autoOpen"] = true,
 					["autoUpdateBidValue"] = false,
@@ -542,8 +574,8 @@ CLM2_DB = {
 					},
 					["lastVersion"] = {
 						["minor"] = 4,
-						["patch"] = 1,
 						["major"] = 4,
+						["patch"] = 3,
 						["changeset"] = "",
 					},
 					["never_show"] = false,

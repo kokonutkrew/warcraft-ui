@@ -1,12 +1,11 @@
 
 AdiBagsDB = {
 	["char"] = {
-		["Samoanlegend - Grobbulus"] = {
+		["Samoansage - Grobbulus"] = {
 			["collapsedSections"] = {
-				["Bag #3#Bag #3"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
-				["Bag #1#Bag #1"] = true,
+				["Bag #3#Bag #3"] = true,
 			},
 		},
 		["Samoanmystic - Grobbulus"] = {
@@ -29,11 +28,12 @@ AdiBagsDB = {
 				["Bank bag #2#Bank bag #2"] = true,
 			},
 		},
-		["Samoansage - Grobbulus"] = {
+		["Samoanlegend - Grobbulus"] = {
 			["collapsedSections"] = {
+				["Bag #3#Bag #3"] = true,
 				["Bag #2#Bag #2"] = true,
 				["Bag #4#Bag #4"] = true,
-				["Bag #3#Bag #3"] = true,
+				["Bag #1#Bag #1"] = true,
 			},
 		},
 	},
@@ -46,6 +46,7 @@ AdiBagsDB = {
 					["version"] = 3,
 					["overrides"] = {
 						[17058] = "Trade Goods#Trade Goods",
+						[7005] = "Miscellaneous#Miscellaneous",
 					},
 				},
 				["KokonutKrew"] = {
@@ -139,37 +140,40 @@ AdiBagsDB = {
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Default",
+		["Kktailor - Skull Rock"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "KokonutKrew",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
-		["Samoansavage - Grobbulus"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
+		["Øø - Skull Rock"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Goldenshots - Defias Pillager"] = "Default",
-		["Samoanmystic - Grobbulus"] = "KokonutKrew",
+		["Kkbank - Whitemane"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Samoanmystic - Grobbulus"] = "KokonutKrew",
+		["Samoanranger - Grobbulus"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoanranger - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Kkbank - Whitemane"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
 		["Samoanrelic - Grobbulus"] = "Default",
-		["Øø - Skull Rock"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
+					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 				},
 			},
 			["positions"] = {

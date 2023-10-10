@@ -2,15 +2,15 @@
 SilverDragon3DB = {
 	["profileKeys"] = {
 		["Tygrrlilly - Skull Rock"] = "Default",
-		["Bannhammer - Skull Rock"] = "Default",
 		["Fishook - Skull Rock"] = "Default",
-		["Kksummon - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
+		["Kkundercity - Skull Rock"] = "Default",
 		["Fishhook - Skull Rock"] = "Default",
 		["Øø - Skull Rock"] = "Default",
 		["Komrad - Skull Rock"] = "Default",
 		["Farmcraft - Skull Rock"] = "Default",
 		["Fiesh - Skull Rock"] = "Default",
-		["Kkundercity - Skull Rock"] = "Default",
+		["Kksummon - Skull Rock"] = "Default",
 		["Fiesh - Pagle"] = "Default",
 	},
 	["namespaces"] = {
@@ -40,47 +40,51 @@ SilverDragon3DB = {
 		},
 		["Scan_Vignettes"] = {
 		},
-		["Scan_Targets"] = {
+		["Marker"] = {
 		},
 		["Sync"] = {
 		},
 		["Announce"] = {
 		},
-		["Marker"] = {
+		["Scan_Targets"] = {
 		},
 	},
 	["global"] = {
 		["mob_count"] = {
+			[5808] = 1,
 			[5837] = 2,
 			[5823] = 1,
 			[5824] = 1,
 			[2283] = 1,
 			[3056] = 2,
 			[5797] = 1,
+			[3398] = 1,
 			[5829] = 1,
 			[5830] = 2,
 			[5831] = 1,
+			[5799] = 1,
+			[5841] = 1,
 			[1531] = 1,
 			[3068] = 1,
-			[5841] = 1,
-			[3398] = 1,
-			[5799] = 1,
+			[5826] = 1,
 		},
 		["mob_seen"] = {
+			[5808] = 1696594574,
 			[5837] = 1696118484,
 			[5823] = 1696041396,
 			[5824] = 1696192707,
 			[2283] = 1696138664,
 			[3056] = 1696225647,
 			[5797] = 1696400770,
+			[3398] = 1696124083,
 			[5829] = 1696119149,
 			[5830] = 1696154531,
 			[5831] = 1696402976,
+			[5799] = 1696400771,
+			[5841] = 1696199120,
 			[1531] = 1696135053,
 			[3068] = 1696002286,
-			[5841] = 1696199120,
-			[3398] = 1696124083,
-			[5799] = 1696400771,
+			[5826] = 1696588306,
 		},
 	},
 	["profiles"] = {

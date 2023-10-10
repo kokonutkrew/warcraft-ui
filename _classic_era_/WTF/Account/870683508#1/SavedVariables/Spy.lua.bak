@@ -11,21 +11,23 @@ SpyDB = {
 			["Horde"] = {
 				["Farmcraft"] = {
 				},
+				["Bannhammer"] = {
+				},
 				["Fishhook"] = {
 				},
 				["Kkundercity"] = {
 				},
 				["Kksummon"] = {
 				},
-				["Komrad"] = {
+				["Tygrrlilly"] = {
 				},
 				["Øø"] = {
 				},
-				["Fiesh"] = {
-				},
 				["Fishook"] = {
 				},
-				["Tygrrlilly"] = {
+				["Fiesh"] = {
+				},
+				["Komrad"] = {
 				},
 			},
 		},
@@ -42,18 +44,31 @@ SpyDB = {
 	},
 	["profileKeys"] = {
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
 		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
 		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
 		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
 		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
 		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
 		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 	["profiles"] = {
 		["Tygrrlilly - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Bannhammer - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -77,7 +92,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kkundercity - Skull Rock"] = {
+		["Kksummon - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -101,7 +116,7 @@ SpyDB = {
 			["MainWindowVis"] = false,
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Kksummon - Skull Rock"] = {
+		["Øø - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -149,7 +164,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
-		["Øø - Skull Rock"] = {
+		["Kkundercity - Skull Rock"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {

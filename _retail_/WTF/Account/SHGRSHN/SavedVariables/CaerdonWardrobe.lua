@@ -1,6 +1,7 @@
 
 CaerdonWardrobeConfig = {
 	["Binding"] = {
+		["ShowBoARepItems"] = false,
 		["ShowGearSetsAsIcon"] = false,
 		["ShowBoE"] = true,
 		["Position"] = "BOTTOM",
@@ -12,9 +13,8 @@ CaerdonWardrobeConfig = {
 			["GuildBank"] = true,
 		},
 	},
-	["Version"] = 11,
 	["Debug"] = {
-		["Enabled"] = true,
+		["Enabled"] = false,
 	},
 	["Icon"] = {
 		["ShowLearnableByOther"] = {
@@ -22,23 +22,26 @@ CaerdonWardrobeConfig = {
 			["GuildBank"] = true,
 			["BankAndBags"] = true,
 			["EncounterJournal"] = true,
-			["SameLookDifferentItem"] = false,
 			["Auction"] = true,
 		},
 		["ShowLearnable"] = {
-			["Auction"] = true,
-			["GuildBank"] = true,
-			["SameLookDifferentItem"] = true,
-			["BankAndBags"] = true,
 			["Merchant"] = true,
+			["SameLookDifferentLevel"] = true,
+			["BankAndBags"] = true,
+			["Auction"] = true,
+			["SameLookDifferentItem"] = false,
+			["GuildBank"] = true,
 		},
 		["EnableAnimation"] = true,
 		["Position"] = "TOPLEFT",
-		["ShowQuestItems"] = true,
+		["ShowUpgrades"] = {
+			["BankAndBags"] = true,
+		},
 		["ShowSellable"] = {
 			["BankAndBags"] = true,
 			["GuildBank"] = false,
 		},
+		["ShowQuestItems"] = true,
 		["ShowOldExpansion"] = {
 			["Other"] = false,
 			["Auction"] = true,
@@ -47,4 +50,5 @@ CaerdonWardrobeConfig = {
 			["Reagents"] = true,
 		},
 	},
+	["Version"] = 22,
 }

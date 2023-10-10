@@ -1,31 +1,13 @@
 
 AstralKeys = {
-	{
-		["btag"] = "LokTarOgar#11419",
-		["weekly_best"] = 16,
-		["class"] = "PALADIN",
-		["key_level"] = 19,
-		["unit"] = "Skrubdin-Area52",
-		["dungeon_id"] = 251,
-		["week"] = 306,
-		["faction"] = "1",
-		["time_stamp"] = 47223,
-		["source"] = "friend",
-	}, -- [1]
-	{
-		["btag"] = "SamuelMH#1913",
-		["weekly_best"] = 13,
-		["class"] = "DEATHKNIGHT",
-		["key_level"] = 16,
-		["unit"] = "Honustustere-Stormrage",
-		["dungeon_id"] = 406,
-		["week"] = 306,
-		["faction"] = "0",
-		["time_stamp"] = 0,
-		["source"] = "friend",
-	}, -- [2]
 }
 AstralCharacters = {
+	{
+		["weekly_best"] = 0,
+		["class"] = "WARRIOR",
+		["faction"] = 0,
+		["unit"] = "Samoanslayer-EmeraldDream",
+	}, -- [1]
 }
 AstralKeysSettings = {
 	["wipedOldTables"] = true,
@@ -33,15 +15,16 @@ AstralKeysSettings = {
 		["show_minimap_button"] = {
 			["isEnabled"] = true,
 		},
-		["init_time"] = 1686063600,
+		["init_time"] = 1696950000,
 		["expanded_tooltip"] = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["raid"] = false,
 			["party"] = true,
 			["no_key"] = false,
+			["raid"] = false,
 			["guild"] = true,
+			["all_characters"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -92,20 +75,20 @@ AstralKeysSettings = {
 AstralMinimap = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
 		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
-		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
 	},
 	["profiles"] = {
@@ -114,9 +97,9 @@ AstralMinimap = {
 				["minimapPos"] = 61.4768308403542,
 			},
 		},
-		["Farmcraft - Tichondrius"] = {
-		},
 		["Xb - Emerald Dream"] = {
+		},
+		["Ikkl - Emerald Dream"] = {
 		},
 		["Threadcraft - Emerald Dream"] = {
 			["minimap"] = {
@@ -128,17 +111,20 @@ AstralMinimap = {
 				["minimapPos"] = 278.0545944368383,
 			},
 		},
-		["Samoanruin - Emerald Dream"] = {
+		["Herbcraft - Emerald Dream"] = {
+			["minimap"] = {
+				["minimapPos"] = 331.5398924476409,
+			},
 		},
-		["Ikkl - Emerald Dream"] = {
+		["Farmcraft - Tichondrius"] = {
 		},
 		["Samoansage - Emerald Dream"] = {
 		},
 		["Samoanranger - Emerald Dream"] = {
 		},
-		["Samoanlegend - Emerald Dream"] = {
-		},
 		["Samoanmystic - Emerald Dream"] = {
+		},
+		["Samoanlegend - Emerald Dream"] = {
 		},
 		["Forgecraft - Emerald Dream"] = {
 			["minimap"] = {
@@ -149,18 +135,15 @@ AstralMinimap = {
 		},
 		["Dustcraft - Emerald Dream"] = {
 		},
-		["Herbcraft - Emerald Dream"] = {
-			["minimap"] = {
-				["minimapPos"] = 331.5398924476409,
-			},
+		["Samoanruin - Emerald Dream"] = {
 		},
 		["Gearcraft - Emerald Dream"] = {
 		},
 	},
 }
 AstralAffixes = {
-	["season_affix"] = 132,
-	["season_start_week"] = 284,
+	["season_affix"] = 0,
+	["season_start_week"] = 324,
 }
 AstralLists = {
 	{
@@ -203,11 +186,11 @@ AstralLists = {
 			["Nôrsk-Zul'jin"] = "Brolk#1336",
 			["Ocanada-Nordrassil"] = "Sueki#1883",
 			["Ishdk-Zul'jin"] = "SkylerTime#1362",
-			["Honustustere-Stormrage"] = "SamuelMH#1913",
 			["Skrubdin-Area52"] = "LokTarOgar#11419",
-			["Slinkz-Tichondrius"] = "Sleepypie#1817",
 			["Warkhan-Whisperwind"] = "Kroxx#1651",
+			["Slinkz-Tichondrius"] = "Sleepypie#1817",
 			["Mohrda-Area52"] = true,
+			["Honustustere-Stormrage"] = "SamuelMH#1913",
 			["Jasanne-Undermine"] = "Sueki#1883",
 			["Frostyrage-Exodar"] = "Frosty#14110",
 			["Frostylovesu-Exodar"] = "Frosty#14110",

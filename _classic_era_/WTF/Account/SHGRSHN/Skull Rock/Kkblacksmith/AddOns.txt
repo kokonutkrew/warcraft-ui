@@ -129,3 +129,4 @@ SlaveGirl: disabled
 AI_VoiceOver: disabled
 AI_VoiceOverData_Vanilla: disabled
 WhatsTraining: disabled
+OPie_Classic: disabled

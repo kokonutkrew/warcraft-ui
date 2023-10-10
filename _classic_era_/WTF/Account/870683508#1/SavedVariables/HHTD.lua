@@ -4,13 +4,13 @@ HHTD_SavedVariables = {
 		["Tygrrlilly - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Bannhammer - Skull Rock"] = {
-			["settingsMigrated"] = false,
-		},
 		["Fishook - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kksummon - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Kkundercity - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Fishhook - Skull Rock"] = {
@@ -28,29 +28,12 @@ HHTD_SavedVariables = {
 		["Fiesh - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kkundercity - Skull Rock"] = {
+		["Kksummon - Skull Rock"] = {
 			["settingsMigrated"] = false,
 		},
 		["Fiesh - Pagle"] = {
 			["settingsMigrated"] = false,
 		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
-	["profileKeys"] = {
-		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
-		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
-		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
-		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
-		["Øø - Skull Rock"] = "Øø - Skull Rock",
-		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
-		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
-		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
-		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
-		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 	["namespaces"] = {
 		["Announcer"] = {
@@ -59,5 +42,22 @@ HHTD_SavedVariables = {
 		},
 		["NPH"] = {
 		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
+		["Fishook - Skull Rock"] = "Fishook - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Fishhook - Skull Rock"] = "Fishhook - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Komrad - Skull Rock"] = "Komrad - Skull Rock",
+		["Farmcraft - Skull Rock"] = "Farmcraft - Skull Rock",
+		["Fiesh - Skull Rock"] = "Fiesh - Skull Rock",
+		["Kksummon - Skull Rock"] = "Kksummon - Skull Rock",
+		["Fiesh - Pagle"] = "Fiesh - Pagle",
 	},
 }

@@ -782,9 +782,9 @@ RematchSettings = {
 		},
 		["Collected"] = {
 		},
-		["Sources"] = {
-		},
 		["Similar"] = {
+		},
+		["Sources"] = {
 		},
 		["Breed"] = {
 		},
@@ -821,3 +821,5 @@ RematchSettings = {
 		[1238] = "Top 20 Battle Pet",
 	},
 }
+Rematch4Saved = nil
+Rematch4Settings = nil

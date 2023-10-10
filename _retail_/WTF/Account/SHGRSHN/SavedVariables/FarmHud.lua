@@ -1,5 +1,6 @@
 
 FarmHudDB = {
+	["trailPathOnMinimap"] = true,
 	["coords_color"] = {
 		1, -- [1]
 		0.82, -- [2]
@@ -16,6 +17,7 @@ FarmHudDB = {
 	["tracking^136465"] = "client",
 	["tracking^132328"] = "client",
 	["coords_radius"] = 0.51,
+	["trailPathScale"] = 1,
 	["areaborder_quest_alpha"] = 1,
 	["tracking^136457"] = "client",
 	["tracking^136464"] = "client",
@@ -25,8 +27,16 @@ FarmHudDB = {
 	["rotation"] = true,
 	["areaborder_arch_show"] = "blizz",
 	["tracking^136025"] = "client",
+	["trailPathColor1"] = {
+		1, -- [1]
+		0.2, -- [2]
+		0.2, -- [3]
+		1, -- [4]
+		0.75, -- [5]
+	},
 	["hud_size"] = 1,
 	["tracking^132275"] = "client",
+	["trailPathShow"] = true,
 	["coords_show"] = true,
 	["tracking^457292"] = "client",
 	["showDummy"] = true,
@@ -89,12 +99,16 @@ FarmHudDB = {
 	},
 	["buttons_show"] = true,
 	["tracking^135861"] = "client",
+	["text_scale"] = 1.4,
 	["tracking^535615"] = "client",
+	["gathercircle_show"] = true,
+	["trailPathCount"] = 32,
+	["tracking^134153"] = "client",
 	["tracking^613074"] = "client",
 	["cardinalpoints_radius"] = 0.47,
-	["text_scale"] = 1.4,
+	["trailPathTimeout"] = 60,
 	["areaborder_task_texture"] = false,
-	["gathercircle_show"] = true,
+	["tracking^133888"] = "client",
 	["time_bottom"] = false,
 	["tracking^136466"] = "client",
 	["MinimapIcon"] = {
@@ -113,7 +127,7 @@ FarmHudDB = {
 	["cardinalpoints_show"] = true,
 	["tracking^136217"] = "client",
 	["QuestArrowInfoMsg"] = false,
-	["tracking^134153"] = "client",
+	["trailPathIcon"] = "arrow01",
 	["tracking^136452"] = "client",
 	["tracking^136142"] = "client",
 }

@@ -1,0 +1,3 @@
+
+WFT_lootDatabase = {
+}

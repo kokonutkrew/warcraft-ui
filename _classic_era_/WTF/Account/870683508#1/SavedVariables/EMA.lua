@@ -1,17 +1,21 @@
 
 CoreProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -19,7 +23,7 @@ CoreProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -27,45 +31,32 @@ CoreProfileDB = {
 }
 CommunicationsProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-		},
 		["Tygrrlilly - Skull Rock"] = {
+		},
+		["Komrad - Skull Rock"] = {
+		},
+		["[KK]"] = {
 		},
 		["Default"] = {
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 		},
 	},
 }
 TeamProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-			["global"] = {
-			},
-			["master"] = "Bannhammer-SkullRock",
-			["newTeamList"] = {
-				["Bannhammer-SkullRock"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Bannhammer-SkullRock",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
 		["Tygrrlilly - Skull Rock"] = {
 			["master"] = "Tygrrlilly-SkullRock",
 			["global"] = {
@@ -77,6 +68,76 @@ TeamProfileDB = {
 						["class"] = "UNKNOWN",
 						["name"] = "Tygrrlilly-SkullRock",
 						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Komrad - Skull Rock"] = {
+			["master"] = "Komrad-SkullRock",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Komrad-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Komrad-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["[KK]"] = {
+			["master"] = "Samoanranger-SkullRock",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Fishhook-SkullRock"] = {
+					{
+						["order"] = 2,
+						["class"] = "SHAMAN",
+						["name"] = "Fishhook-SkullRock",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Komrad-SkullRock"] = {
+					{
+						["order"] = 6,
+						["class"] = "HUNTER",
+						["name"] = "Komrad-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Samoanranger-SkullRock"] = {
+					{
+						["order"] = 5,
+						["class"] = "HUNTER",
+						["name"] = "Samoanranger-SkullRock",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Kkbanker-SkullRock"] = {
+					{
+						["order"] = 4,
+						["class"] = "WARRIOR",
+						["name"] = "Kkbanker-SkullRock",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Kktailor-SkullRock"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARLOCK",
+						["name"] = "Kktailor-SkullRock",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanslayer-SkullRock"] = {
+					{
+						["order"] = 3,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-SkullRock",
+						["online"] = false,
 					}, -- [1]
 				},
 			},
@@ -99,7 +160,7 @@ TeamProfileDB = {
 						["order"] = 2,
 						["class"] = "HUNTER",
 						["name"] = "Komrad-SkullRock",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Bannhammer-SkullRock"] = {
@@ -112,16 +173,16 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["Komrad - Skull Rock"] = {
-			["master"] = "Komrad-SkullRock",
+		["Bannhammer - Skull Rock"] = {
+			["master"] = "Bannhammer-SkullRock",
 			["global"] = {
 			},
 			["newTeamList"] = {
-				["Komrad-SkullRock"] = {
+				["Bannhammer-SkullRock"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Komrad-SkullRock",
+						["name"] = "Bannhammer-SkullRock",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -131,25 +192,17 @@ TeamProfileDB = {
 }
 TagProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["tagList"] = {
-				["Fishhook-SkullRock"] = {
+				["Tygrrlilly-SkullRock"] = {
 					"all", -- [1]
 					"master", -- [2]
-				},
-				["Bannhammer-SkullRock"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Komrad-SkullRock"] = {
-					"all", -- [1]
-					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -169,11 +222,59 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
 			["tagList"] = {
-				["Tygrrlilly-SkullRock"] = {
+				["Komrad-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Fishhook-SkullRock"] = {
 					"all", -- [1]
 					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"druid", -- [2]
+				"hunter", -- [3]
+				"mage", -- [4]
+				"master", -- [5]
+				"minion", -- [6]
+				"paladin", -- [7]
+				"priest", -- [8]
+				"rogue", -- [9]
+				"shaman", -- [10]
+				"warlock", -- [11]
+				"warrior", -- [12]
+			},
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["tagList"] = {
+				["Fishhook-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Komrad-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanranger-SkullRock"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Kkbanker-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Kktailor-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanslayer-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -203,6 +304,10 @@ TagProfileDB = {
 					"all", -- [1]
 					"minion", -- [2]
 				},
+				["Bannhammer-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
 			},
 			["groupList"] = {
 				"all", -- [1]
@@ -221,15 +326,19 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["tagList"] = {
-				["Komrad-SkullRock"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
 				["Fishhook-SkullRock"] = {
 					"all", -- [1]
 					"master", -- [2]
+				},
+				["Bannhammer-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Komrad-SkullRock"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -253,17 +362,21 @@ TagProfileDB = {
 }
 MessageProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -271,7 +384,7 @@ MessageProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -280,17 +393,21 @@ MessageProfileDB = {
 InformationProfileDB = nil
 InformationClassicProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -298,7 +415,7 @@ InformationClassicProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -306,26 +423,31 @@ InformationClassicProfileDB = {
 }
 DisplayTeamProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-			["global"] = {
-			},
-		},
 		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
+		},
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+			["showTeamList"] = false,
 		},
 		["Default"] = {
 			["global"] = {
 			},
 			["showTeamList"] = false,
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -335,21 +457,13 @@ FollowProfileDB = nil
 GuildProfileDB = nil
 InteractionProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-			["global"] = {
-			},
-		},
 		["Tygrrlilly - Skull Rock"] = {
-			["global"] = {
-			},
-		},
-		["Default"] = {
 			["global"] = {
 			},
 		},
@@ -357,103 +471,28 @@ InteractionProfileDB = {
 			["global"] = {
 			},
 		},
+		["[KK]"] = {
+			["global"] = {
+			},
+		},
+		["Default"] = {
+			["global"] = {
+			},
+		},
+		["Bannhammer - Skull Rock"] = {
+			["global"] = {
+			},
+		},
 	},
 }
 ItemUseProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
-		},
 		["Tygrrlilly - Skull Rock"] = {
 			["itemsAdvanced"] = {
 				{
@@ -540,6 +579,181 @@ ItemUseProfileDB = {
 			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
+		},
+		["Komrad - Skull Rock"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["[KK]"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["showItemUse"] = false,
 		},
 		["Default"] = {
 			["itemsAdvanced"] = {
@@ -629,10 +843,7 @@ ItemUseProfileDB = {
 			},
 			["showItemUse"] = false,
 		},
-		["Komrad - Skull Rock"] = {
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
+		["Bannhammer - Skull Rock"] = {
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -715,22 +926,29 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 	},
 }
 PurchaseProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -738,7 +956,7 @@ PurchaseProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -746,25 +964,33 @@ PurchaseProfileDB = {
 }
 QuestProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-			["global"] = {
-			},
-		},
 		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
+		},
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["acceptFromTeam"] = true,
+			["global"] = {
+			},
+			["doNotAutoAccept"] = false,
+			["onlyAcceptQuestsFrom"] = true,
+			["masterAutoShareQuestOnAccept"] = true,
 		},
 		["Default"] = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -772,26 +998,31 @@ QuestProfileDB = {
 }
 QuestWatcherProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
-			["global"] = {
-			},
-		},
 		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
+		},
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
 		},
 		["Default"] = {
 			["global"] = {
 			},
 			["enableQuestWatcher"] = false,
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -799,17 +1030,21 @@ QuestWatcherProfileDB = {
 }
 SellProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -817,7 +1052,7 @@ SellProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -825,17 +1060,21 @@ SellProfileDB = {
 }
 TalkProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -843,7 +1082,7 @@ TalkProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -851,17 +1090,21 @@ TalkProfileDB = {
 }
 ToonProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -869,7 +1112,7 @@ ToonProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -877,17 +1120,21 @@ ToonProfileDB = {
 }
 TradeProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -895,7 +1142,7 @@ TradeProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -903,17 +1150,21 @@ TradeProfileDB = {
 }
 MailProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -921,7 +1172,7 @@ MailProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},
@@ -929,17 +1180,21 @@ MailProfileDB = {
 }
 BankProfileDB = {
 	["profileKeys"] = {
-		["Bannhammer - Skull Rock"] = "Default",
+		["Komrad - Skull Rock"] = "[KK]",
 		["Fishhook - Skull Rock"] = "Default",
 		["Tygrrlilly - Skull Rock"] = "Tygrrlilly - Skull Rock",
-		["Komrad - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
-		["Bannhammer - Skull Rock"] = {
+		["Tygrrlilly - Skull Rock"] = {
 			["global"] = {
 			},
 		},
-		["Tygrrlilly - Skull Rock"] = {
+		["Komrad - Skull Rock"] = {
+			["global"] = {
+			},
+		},
+		["[KK]"] = {
 			["global"] = {
 			},
 		},
@@ -947,7 +1202,7 @@ BankProfileDB = {
 			["global"] = {
 			},
 		},
-		["Komrad - Skull Rock"] = {
+		["Bannhammer - Skull Rock"] = {
 			["global"] = {
 			},
 		},

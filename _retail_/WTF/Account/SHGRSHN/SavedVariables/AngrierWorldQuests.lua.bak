@@ -1,7 +1,7 @@
 
 AngrierWorldQuests_Config = {
-	["__version"] = 21,
 	["__filters"] = 24,
+	["__version"] = 22,
 	["disabledFilters"] = 3725425,
 	["collapsed"] = true,
 }

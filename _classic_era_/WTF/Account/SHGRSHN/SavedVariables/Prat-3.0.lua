@@ -5,6 +5,16 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
+						["worlddefense"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["hcdeathalertschannel"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
 						["kk"] = {
 							["b"] = 0.7529412508010864,
 							["g"] = 0.7529412508010864,
@@ -15,10 +25,10 @@ Prat3DB = {
 							["g"] = 0.752941250801086,
 							["r"] = 1,
 						},
-						["hcdeathalertschannel"] = {
-							["b"] = 0.7529412508010864,
-							["g"] = 0.7529412508010864,
+						["lookingforgroup"] = {
 							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
 						},
 					},
 				},
@@ -132,28 +142,31 @@ Prat3DB = {
 	},
 	["profileKeys"] = {
 		["Kktailor - Whitemane"] = "Default",
+		["Kktailor - Skull Rock"] = "Default",
 		["Samoanlegend - Grobbulus"] = "Default",
 		["Samoanslayer - Grobbulus"] = "Default",
 		["Samoanbeast - Grobbulus"] = "Default",
 		["Ss - Grobbulus"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
 		["Samoanranger - Grobbulus"] = "Default",
 		["Dd - Grobbulus"] = "Default",
 		["Samoanraja - Grobbulus"] = "Default",
-		["Samoanranger - Defias Pillager"] = "Default",
-		["Samoanbank - Whitemane"] = "Default",
+		["Kkportal - Skull Rock"] = "Default",
 		["Goldenshots - Defias Pillager"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
 		["Kkbanker - Skull Rock"] = "Default",
 		["Kkbank - Whitemane"] = "Default",
-		["Samoanbeast - Skull Rock"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
 		["Bannhammer - Skull Rock"] = "Default",
 		["Kk - Grobbulus"] = "Default",
 		["Samoanslayer - Skull Rock"] = "Default",
-		["Samoansavage - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
 		["Samoansage - Grobbulus"] = "Default",
 		["Cupcakeheals - Skull Rock"] = "Default",
-		["Samoanmystic - Grobbulus"] = "Default",
-		["Samoanrelic - Grobbulus"] = "Default",
 		["Øø - Skull Rock"] = "Default",
+		["Samoanrelic - Grobbulus"] = "Default",
+		["Samoanranger - Skull Rock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

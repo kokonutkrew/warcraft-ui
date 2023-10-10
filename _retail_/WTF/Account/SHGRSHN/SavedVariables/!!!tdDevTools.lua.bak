@@ -2,6 +2,406 @@
 TDDB_DEVTOOLS = {
 	["errors"] = {
 		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:17 Unrecognized XML: AbsValue",
+		}, -- [1]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:16 Unrecognized XML: EdgeSize",
+		}, -- [2]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML attribute: tile",
+		}, -- [3]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML attribute: edgeFile",
+		}, -- [4]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML attribute: bgFile",
+		}, -- [5]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingExtravaganza.xml:15 Unrecognized XML: Backdrop",
+		}, -- [6]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingLocationsFrame.xml:178 Couldn't find inherited node: OptionsSmallCheckButtonTemplate",
+		}, -- [7]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:160 Unrecognized XML attribute: val",
+		}, -- [8]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:160 Unrecognized XML: AbsValue",
+		}, -- [9]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:159 Unrecognized XML: EdgeSize",
+		}, -- [10]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:157 Unrecognized XML attribute: val",
+		}, -- [11]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:157 Unrecognized XML: AbsValue",
+		}, -- [12]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:156 Unrecognized XML: TileSize",
+		}, -- [13]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: bottom",
+		}, -- [14]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: top",
+		}, -- [15]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: right",
+		}, -- [16]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML attribute: left",
+		}, -- [17]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:154 Unrecognized XML: AbsInset",
+		}, -- [18]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:153 Unrecognized XML: BackgroundInsets",
+		}, -- [19]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML attribute: tile",
+		}, -- [20]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML attribute: edgeFile",
+		}, -- [21]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML attribute: bgFile",
+		}, -- [22]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingScrollMenu.xml:152 Unrecognized XML: Backdrop",
+		}, -- [23]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/FishingDatabase.lua:1 (null)",
+		}, -- [24]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FishingBuddy/Libs/LibFishing-1.0/LibFishing-1.0.lua:1 (null)",
+		}, -- [25]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:91 Unrecognized XML attribute: val",
+		}, -- [26]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:91 Unrecognized XML: EdgeSize",
+		}, -- [27]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:90 Unrecognized XML attribute: edgeFile",
+		}, -- [28]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/FarmHud/FarmHud.xml:90 Unrecognized XML: Backdrop",
+		}, -- [29]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: a",
+		}, -- [30]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: b",
+		}, -- [31]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: g",
+		}, -- [32]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML attribute: r",
+		}, -- [33]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:28 Unrecognized XML: Color",
+		}, -- [34]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:26 Unrecognized XML attribute: val",
+		}, -- [35]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:26 Unrecognized XML: AbsValue",
+		}, -- [36]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:25 Unrecognized XML: EdgeSize",
+		}, -- [37]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:23 Unrecognized XML attribute: val",
+		}, -- [38]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:23 Unrecognized XML: AbsValue",
+		}, -- [39]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:22 Unrecognized XML: TileSize",
+		}, -- [40]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: bottom",
+		}, -- [41]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: top",
+		}, -- [42]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: right",
+		}, -- [43]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML attribute: left",
+		}, -- [44]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:20 Unrecognized XML: AbsInset",
+		}, -- [45]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:19 Unrecognized XML: BackgroundInsets",
+		}, -- [46]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML attribute: tile",
+		}, -- [47]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML attribute: edgeFile",
+		}, -- [48]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML attribute: bgFile",
+		}, -- [49]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ExtTabardUI/ExtTabardUI.xml:18 Unrecognized XML: Backdrop",
+		}, -- [50]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: bottom",
+		}, -- [51]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: top",
+		}, -- [52]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: right",
+		}, -- [53]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML attribute: left",
+		}, -- [54]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:12 Unrecognized XML: AbsInset",
+		}, -- [55]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:11 Unrecognized XML: BackgroundInsets",
+		}, -- [56]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:9 Unrecognized XML attribute: val",
+		}, -- [57]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:9 Unrecognized XML: AbsValue",
+		}, -- [58]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:8 Unrecognized XML: TileSize",
+		}, -- [59]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:6 Unrecognized XML attribute: val",
+		}, -- [60]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:6 Unrecognized XML: AbsValue",
+		}, -- [61]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:5 Unrecognized XML: EdgeSize",
+		}, -- [62]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML attribute: tile",
+		}, -- [63]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML attribute: edgeFile",
+		}, -- [64]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML attribute: bgFile",
+		}, -- [65]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/ChatFrameBorders.xml:4 Unrecognized XML: Backdrop",
+		}, -- [66]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/Chatter/Modules/AltNames.lua:1 (null)",
+		}, -- [67]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/CaerdonWardrobe/Config.lua:1 (null)",
+		}, -- [68]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/CaerdonWardrobe/features/Tooltip.lua:1 (null)",
+		}, -- [69]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/BigDebuffs/BigDebuffs.xml:9 Unrecognized XML attribute: point",
+		}, -- [70]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/BigDebuffs/BigDebuffs.xml:9 Unrecognized XML: Anchor",
+		}, -- [71]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/BigDebuffs/BigDebuffs.xml:8 Unrecognized XML: Anchors",
+		}, -- [72]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML attribute: b",
+		}, -- [73]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML attribute: g",
+		}, -- [74]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML attribute: r",
+		}, -- [75]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:469 Unrecognized XML: BorderColor",
+		}, -- [76]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML attribute: b",
+		}, -- [77]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML attribute: g",
+		}, -- [78]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML attribute: r",
+		}, -- [79]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:468 Unrecognized XML: Color",
+		}, -- [80]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: bottom",
+		}, -- [81]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: top",
+		}, -- [82]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: right",
+		}, -- [83]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML attribute: left",
+		}, -- [84]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:466 Unrecognized XML: AbsInset",
+		}, -- [85]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:465 Unrecognized XML: BackgroundInsets",
+		}, -- [86]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:464 Unrecognized XML attribute: val",
+		}, -- [87]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:464 Unrecognized XML: EdgeSize",
+		}, -- [88]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:463 Unrecognized XML attribute: val",
+		}, -- [89]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:463 Unrecognized XML: TileSize",
+		}, -- [90]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML attribute: tile",
+		}, -- [91]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML attribute: edgeFile",
+		}, -- [92]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML attribute: bgFile",
+		}, -- [93]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/AddonUsage/AddonUsage.xml:462 Unrecognized XML: Backdrop",
+		}, -- [94]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/ACP/ACP.xml:178 Unrecognized XML attribute: moveable",
+		}, -- [95]
+		{
+			["count"] = 2,
+			["err"] = "Interface/AddOns/!!!tdDevTools/UI/Console.lua:1 (null)",
+		}, -- [96]
+		{
+			["count"] = 343,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [97]
+		{
+			["count"] = 343,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [98]
+		{
+			["count"] = 343,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [99]
+		{
+			["count"] = 343,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+		}, -- [100]
+		{
 			["path"] = "|cff00ffff...terface/AddOns/DataStore_Quests/DataStore_Quests.lua|r|cffffffff:|r|cffff00ff360|r",
 			["count"] = 8,
 			["time"] = 1685506405,
@@ -9,7 +409,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "...terface/AddOns/DataStore_Quests/DataStore_Quests.lua:360: attempt to call global 'GetNumQuestLogRewardSpells' (a nil value)",
 			["full"] = "...terface/AddOns/DataStore_Quests/DataStore_Quests.lua:360: attempt to call global 'GetNumQuestLogRewardSpells' (a nil value)",
 			["formatted"] = "attempt to call global 'GetNumQuestLogRewardSpells' (a nil value)",
-		}, -- [1]
+		}, -- [101]
 		{
 			["path"] = "|cff00ffffInterface/AddOns/AstralKeys/Affixes.lua|r|cffffffff:|r|cffff00ff107|r",
 			["count"] = 6,
@@ -18,55 +418,35 @@ TDDB_DEVTOOLS = {
 			["err"] = "Interface/AddOns/AstralKeys/Affixes.lua:107: attempt to index field '?' (a nil value)",
 			["full"] = "Interface/AddOns/AstralKeys/Affixes.lua:107: attempt to index field '?' (a nil value)",
 			["formatted"] = "attempt to index field '?' (a nil value)",
-		}, -- [2]
+		}, -- [102]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:1 (null)",
-		}, -- [3]
+		}, -- [103]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/UI/Console.lua:1 (null)",
-		}, -- [4]
+		}, -- [104]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [5]
+		}, -- [105]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [6]
+		}, -- [106]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [7]
+		}, -- [107]
 		{
 			["count"] = 340,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
-		}, -- [8]
+		}, -- [108]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:1 (null)",
-		}, -- [9]
-		{
-			["count"] = 1,
-			["err"] = "Interface/AddOns/!!!tdDevTools/UI/Console.lua:1 (null)",
-		}, -- [10]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [11]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [12]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
-		}, -- [13]
-		{
-			["count"] = 342,
-			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
-		}, -- [14]
+		}, -- [109]
 		{
 			["path"] = "|cff00ffff...e/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua|r|cffffffff:|r|cffff00ff188|r",
 			["count"] = 1,
@@ -75,31 +455,31 @@ TDDB_DEVTOOLS = {
 			["err"] = "...e/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:188: table index is nil",
 			["full"] = "...e/AddOns/DataStore_Garrisons/DataStore_Garrisons.lua:188: table index is nil",
 			["formatted"] = "table index is nil",
-		}, -- [15]
+		}, -- [110]
 		{
 			["count"] = 57,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/MBB/MBB.xml:664 Unrecognized XML attribute: relativeFrom",
-		}, -- [16]
+		}, -- [111]
 		{
 			["count"] = 57,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/MBB/MBB.xml:624 Unrecognized XML attribute: relativeFrom",
-		}, -- [17]
+		}, -- [112]
 		{
 			["count"] = 57,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/MBB/MBB.xml:223 Unrecognized XML attribute: relativeFrom",
-		}, -- [18]
+		}, -- [113]
 		{
 			["count"] = 59,
 			["err"] = "Interface/AddOns/MBB/MBB.xml:664 Unrecognized XML attribute: relativeFrom",
-		}, -- [19]
+		}, -- [114]
 		{
 			["count"] = 59,
 			["err"] = "Interface/AddOns/MBB/MBB.xml:624 Unrecognized XML attribute: relativeFrom",
-		}, -- [20]
+		}, -- [115]
 		{
 			["count"] = 59,
 			["err"] = "Interface/AddOns/MBB/MBB.xml:223 Unrecognized XML attribute: relativeFrom",
-		}, -- [21]
+		}, -- [116]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 33,
@@ -108,7 +488,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1402: in function <Interface/FrameXML/ContainerFrame.lua:1311>\n[string \"=[C]\"]: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1454: in function <Interface/FrameXML/ContainerFrame.lua:1441>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [22]
+		}, -- [117]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 13,
@@ -117,7 +497,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AddonFactory blocked from using FriendsFrame:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AddonFactory blocked from using FriendsFrame:Hide()",
 			["formatted"] = "AddonFactory blocked from using FriendsFrame:Hide()",
-		}, -- [23]
+		}, -- [118]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -126,7 +506,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster forbidden from using GetLastTicketResponse() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using GetLastTicketResponse() (Only usable by Blizzard)",
 			["formatted"] = "TradeSkillMaster forbidden from using GetLastTicketResponse() (Only usable by Blizzard)",
-		}, -- [24]
+		}, -- [119]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -135,7 +515,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton10:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton10:SetShown()",
-		}, -- [25]
+		}, -- [120]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -144,7 +524,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton9:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton9:SetShown()",
-		}, -- [26]
+		}, -- [121]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -153,7 +533,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton8:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton8:SetShown()",
-		}, -- [27]
+		}, -- [122]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -162,7 +542,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton7:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton7:SetShown()",
-		}, -- [28]
+		}, -- [123]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -171,7 +551,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton6:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton6:SetShown()",
-		}, -- [29]
+		}, -- [124]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -180,7 +560,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton5:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton5:SetShown()",
-		}, -- [30]
+		}, -- [125]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -189,7 +569,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton4:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton4:SetShown()",
-		}, -- [31]
+		}, -- [126]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -198,7 +578,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton3:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton3:SetShown()",
-		}, -- [32]
+		}, -- [127]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -207,7 +587,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton2:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton2:SetShown()",
-		}, -- [33]
+		}, -- [128]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 30,
@@ -216,7 +596,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton1:SetShown()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton1:SetShown()",
-		}, -- [34]
+		}, -- [129]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -225,7 +605,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton8:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton8:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton8:SetPoint()",
-		}, -- [35]
+		}, -- [130]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -234,7 +614,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton7:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton7:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton7:SetPoint()",
-		}, -- [36]
+		}, -- [131]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -243,7 +623,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton6:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton6:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton6:SetPoint()",
-		}, -- [37]
+		}, -- [132]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -252,7 +632,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton4:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton4:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton4:SetPoint()",
-		}, -- [38]
+		}, -- [133]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -261,7 +641,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton3:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton3:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton3:SetPoint()",
-		}, -- [39]
+		}, -- [134]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -270,7 +650,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton2:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton2:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton2:SetPoint()",
-		}, -- [40]
+		}, -- [135]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 20,
@@ -279,7 +659,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton1:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton1:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton1:SetPoint()",
-		}, -- [41]
+		}, -- [136]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -288,7 +668,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton10:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton10:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton10:SetPoint()",
-		}, -- [42]
+		}, -- [137]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -297,7 +677,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton9:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton9:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton9:SetPoint()",
-		}, -- [43]
+		}, -- [138]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -306,7 +686,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "OribosExchange blocked from using PetActionButton5:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange blocked from using PetActionButton5:SetPoint()",
 			["formatted"] = "OribosExchange blocked from using PetActionButton5:SetPoint()",
-		}, -- [44]
+		}, -- [139]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -315,7 +695,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Hekili blocked from using SpellButton12:Disable()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton12:Disable()",
 			["formatted"] = "Hekili blocked from using SpellButton12:Disable()",
-		}, -- [45]
+		}, -- [140]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -324,7 +704,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Hekili blocked from using SpellButton12:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton12:Show()",
 			["formatted"] = "Hekili blocked from using SpellButton12:Show()",
-		}, -- [46]
+		}, -- [141]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -333,7 +713,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Hekili blocked from using SpellButton11:Enable()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton11:Enable()",
 			["formatted"] = "Hekili blocked from using SpellButton11:Enable()",
-		}, -- [47]
+		}, -- [142]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -342,7 +722,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Hekili blocked from using SpellButton11:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton11:Show()",
 			["formatted"] = "Hekili blocked from using SpellButton11:Show()",
-		}, -- [48]
+		}, -- [143]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -351,7 +731,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Hekili blocked from using SpellButton10:Disable()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton10:Disable()",
 			["formatted"] = "Hekili blocked from using SpellButton10:Disable()",
-		}, -- [49]
+		}, -- [144]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -360,7 +740,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "Hekili blocked from using SpellButton10:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: Hekili blocked from using SpellButton10:Show()",
 			["formatted"] = "Hekili blocked from using SpellButton10:Show()",
-		}, -- [50]
+		}, -- [145]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -369,7 +749,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "BuyEmAll forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: BuyEmAll forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "BuyEmAll forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [51]
+		}, -- [146]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -378,295 +758,295 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1409: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1461: in function <Interface/FrameXML/ContainerFrame.lua:1448>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [52]
+		}, -- [147]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:336 Frame DressUpModel: Unknown method OnUpdate in element OnUpdate",
-		}, -- [53]
+		}, -- [148]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:335 Frame DressUpModel: Unknown method OnLeave in element OnLeave",
-		}, -- [54]
+		}, -- [149]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:334 Frame DressUpModel: Unknown method OnEnter in element OnEnter",
-		}, -- [55]
+		}, -- [150]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:333 Frame DressUpModel: Unknown method OnMouseDown in element OnMouseDown",
-		}, -- [56]
+		}, -- [151]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:332 Frame DressUpModel: Unknown method OnLoad in element OnLoad",
-		}, -- [57]
+		}, -- [152]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:780 DressUpModel: Has bad mixin: TransMogWishListModelMixin",
-		}, -- [58]
+		}, -- [153]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:396 Frame Frame: Unknown method OnLoad in element OnLoad",
-		}, -- [59]
+		}, -- [154]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:764 Frame: Has bad mixin: TransmogWishListPagingMixin",
-		}, -- [60]
+		}, -- [155]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:750 Frame EditBox: Unknown method OnTextChanged in element OnTextChanged",
-		}, -- [61]
+		}, -- [156]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:749 Frame EditBox: Unknown method OnEnterPressed in element OnEnterPressed",
-		}, -- [62]
+		}, -- [157]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:748 Frame EditBox: Unknown method OnEscapePressed in element OnEscapePressed",
-		}, -- [63]
+		}, -- [158]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:747 Frame EditBox: Unknown method OnLoad in element OnLoad",
-		}, -- [64]
+		}, -- [159]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:725 EditBox: Has bad mixin: TWLAddBoxMixin",
-		}, -- [65]
+		}, -- [160]
 		{
 			["count"] = 16,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:443 Frame Button: Unknown method OnClick in element OnClick",
-		}, -- [66]
+		}, -- [161]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:484 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [67]
+		}, -- [162]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:479 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [68]
+		}, -- [163]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:474 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [69]
+		}, -- [164]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:469 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [70]
+		}, -- [165]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:464 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [71]
+		}, -- [166]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:459 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [72]
+		}, -- [167]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:454 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [73]
+		}, -- [168]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:667 Button: Has bad mixin: TWLModButtonMixin",
-		}, -- [74]
+		}, -- [169]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:337 Frame DressUpModel: Unknown method OnShow in element OnShow",
-		}, -- [75]
+		}, -- [170]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:656 DressUpModel: Has bad mixin: TransMogWishListModelMixin",
-		}, -- [76]
+		}, -- [171]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:734 TransmogWishListModPicker: Has bad mixin: TWLModPickerMixin",
-		}, -- [77]
+		}, -- [172]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:881 Frame TransmogWishListFrame: Unknown method OnMouseWheel in element OnMouseWheel",
-		}, -- [78]
+		}, -- [173]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:880 Frame TransmogWishListFrame: Unknown method OnEnter in element OnEnter",
-		}, -- [79]
+		}, -- [174]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:879 Frame TransmogWishListFrame: Unknown method OnHide in element OnHide",
-		}, -- [80]
+		}, -- [175]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:878 Frame TransmogWishListFrame: Unknown method OnShow in element OnShow",
-		}, -- [81]
+		}, -- [176]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:877 Frame TransmogWishListFrame: Unknown method OnLoad in element OnLoad",
-		}, -- [82]
+		}, -- [177]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:614 TransmogWishListFrame: Has bad mixin: TransmogWishListMixin",
-		}, -- [83]
+		}, -- [178]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.lua:1 (null)",
-		}, -- [84]
+		}, -- [179]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:766 Unrecognized XML attribute: down",
-		}, -- [85]
+		}, -- [180]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/Config.xml:3 Couldn't find frame parent: InterfaceOptionsFramePanelContainer",
-		}, -- [86]
+		}, -- [181]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML attribute: y",
-		}, -- [87]
+		}, -- [182]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML attribute: x",
-		}, -- [88]
+		}, -- [183]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML: Offset",
-		}, -- [89]
+		}, -- [184]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML attribute: y",
-		}, -- [90]
+		}, -- [185]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML attribute: x",
-		}, -- [91]
+		}, -- [186]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML: Offset",
-		}, -- [92]
+		}, -- [187]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML attribute: y",
-		}, -- [93]
+		}, -- [188]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML attribute: x",
-		}, -- [94]
+		}, -- [189]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML: Offset",
-		}, -- [95]
+		}, -- [190]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:113 Frame StatusBar: Unknown function CastingBarFrame_OnShow in element OnShow",
-		}, -- [96]
+		}, -- [191]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:112 Frame StatusBar: Unknown function CastingBarFrame_OnUpdate in element OnUpdate",
-		}, -- [97]
+		}, -- [192]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:111 Frame StatusBar: Unknown function CastingBarFrame_OnEvent in element OnEvent",
-		}, -- [98]
+		}, -- [193]
 		{
 			["count"] = 6,
 			["err"] = "Interface/AddOns/sArena/sArena.xml:110 Frame StatusBar: Unknown function CastingBarFrame_OnLoad in element OnLoad",
-		}, -- [99]
+		}, -- [194]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ItemTooltipProfessionIcons/ItemTooltipProfessionIcons.lua:1 (null)",
-		}, -- [100]
+		}, -- [195]
 		{
 			["count"] = 4,
 			["err"] = "Interface/AddOns/Gnobesy/Gnobesy.xml:5 Couldn't find inherited node: InterfaceOptionsSmallCheckButtonTemplate",
-		}, -- [101]
+		}, -- [196]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: bottom",
-		}, -- [102]
+		}, -- [197]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: top",
-		}, -- [103]
+		}, -- [198]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: right",
-		}, -- [104]
+		}, -- [199]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: left",
-		}, -- [105]
+		}, -- [200]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML: AbsInset",
-		}, -- [106]
+		}, -- [201]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:16 Unrecognized XML: BackgroundInsets",
-		}, -- [107]
+		}, -- [202]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:14 Unrecognized XML attribute: val",
-		}, -- [108]
+		}, -- [203]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:14 Unrecognized XML: AbsValue",
-		}, -- [109]
+		}, -- [204]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:13 Unrecognized XML: TileSize",
-		}, -- [110]
+		}, -- [205]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:11 Unrecognized XML attribute: val",
-		}, -- [111]
+		}, -- [206]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:11 Unrecognized XML: AbsValue",
-		}, -- [112]
+		}, -- [207]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:10 Unrecognized XML: EdgeSize",
-		}, -- [113]
+		}, -- [208]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: tile",
-		}, -- [114]
+		}, -- [209]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: edgeFile",
-		}, -- [115]
+		}, -- [210]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: bgFile",
-		}, -- [116]
+		}, -- [211]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML: Backdrop",
-		}, -- [117]
+		}, -- [212]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/QuestHandler.lua:1 (null)",
-		}, -- [118]
+		}, -- [213]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/OptionsPanel.lua:1 (null)",
-		}, -- [119]
+		}, -- [214]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Core.lua:1 (null)",
-		}, -- [120]
+		}, -- [215]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: category",
-		}, -- [121]
+		}, -- [216]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: header",
-		}, -- [122]
+		}, -- [217]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: name",
-		}, -- [123]
+		}, -- [218]
 		{
 			["count"] = 2,
 			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML: Binding",
-		}, -- [124]
+		}, -- [219]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -675,7 +1055,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1409: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1461: in function <Interface/FrameXML/ContainerFrame.lua:1448>\n",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: PremadeGroupsFilter forbidden from using UNKNOWN() (Only usable by Blizzard)",
 			["formatted"] = "PremadeGroupsFilter forbidden from using UNKNOWN() (Only usable by Blizzard)",
-		}, -- [125]
+		}, -- [220]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -684,7 +1064,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster forbidden from using UseQuestLogSpecialItem() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using UseQuestLogSpecialItem() (Only usable by Blizzard)",
 			["formatted"] = "TradeSkillMaster forbidden from using UseQuestLogSpecialItem() (Only usable by Blizzard)",
-		}, -- [126]
+		}, -- [221]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 5,
@@ -693,7 +1073,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "DeModal blocked from using UNKNOWN()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: DeModal blocked from using UNKNOWN()",
 			["formatted"] = "DeModal blocked from using UNKNOWN()",
-		}, -- [127]
+		}, -- [222]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -702,7 +1082,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CreateListing()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CreateListing()",
 			["formatted"] = "AngrierWorldQuests blocked from using CreateListing()",
-		}, -- [128]
+		}, -- [223]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 19,
@@ -711,7 +1091,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests forbidden from using FocusUnit() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests forbidden from using FocusUnit() (Only usable by Blizzard)",
 			["formatted"] = "AngrierWorldQuests forbidden from using FocusUnit() (Only usable by Blizzard)",
-		}, -- [129]
+		}, -- [224]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -720,7 +1100,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests forbidden from using TargetUnit() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests forbidden from using TargetUnit() (Only usable by Blizzard)",
 			["formatted"] = "AngrierWorldQuests forbidden from using TargetUnit() (Only usable by Blizzard)",
-		}, -- [130]
+		}, -- [225]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -729,7 +1109,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7:ShowBase()",
-		}, -- [131]
+		}, -- [226]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -738,7 +1118,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6:ShowBase()",
-		}, -- [132]
+		}, -- [227]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -747,7 +1127,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5:ShowBase()",
-		}, -- [133]
+		}, -- [228]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -756,7 +1136,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeft:SetScaleBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeft:SetScaleBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeft:SetScaleBase()",
-		}, -- [134]
+		}, -- [229]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -765,7 +1145,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRight:SetScaleBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRight:SetScaleBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRight:SetScaleBase()",
-		}, -- [135]
+		}, -- [230]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -774,7 +1154,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeft:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeft:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeft:ShowBase()",
-		}, -- [136]
+		}, -- [231]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -783,7 +1163,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button12:SetShown()",
-		}, -- [137]
+		}, -- [232]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -792,7 +1172,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button11:SetShown()",
-		}, -- [138]
+		}, -- [233]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -801,7 +1181,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button10:SetShown()",
-		}, -- [139]
+		}, -- [234]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -810,7 +1190,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button9:SetShown()",
-		}, -- [140]
+		}, -- [235]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -819,7 +1199,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button8:SetShown()",
-		}, -- [141]
+		}, -- [236]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -828,7 +1208,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button7:SetShown()",
-		}, -- [142]
+		}, -- [237]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -837,7 +1217,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button6:SetShown()",
-		}, -- [143]
+		}, -- [238]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -846,7 +1226,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button5:SetShown()",
-		}, -- [144]
+		}, -- [239]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -855,7 +1235,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button4:SetShown()",
-		}, -- [145]
+		}, -- [240]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -864,7 +1244,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button3:SetShown()",
-		}, -- [146]
+		}, -- [241]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -873,7 +1253,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button2:SetShown()",
-		}, -- [147]
+		}, -- [242]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -882,7 +1262,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7Button1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7Button1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7Button1:SetShown()",
-		}, -- [148]
+		}, -- [243]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -891,7 +1271,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar7:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar7:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar7:SetFrameStrata()",
-		}, -- [149]
+		}, -- [244]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -900,7 +1280,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button12:SetShown()",
-		}, -- [150]
+		}, -- [245]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -909,7 +1289,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button11:SetShown()",
-		}, -- [151]
+		}, -- [246]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -918,7 +1298,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button10:SetShown()",
-		}, -- [152]
+		}, -- [247]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -927,7 +1307,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button9:SetShown()",
-		}, -- [153]
+		}, -- [248]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -936,7 +1316,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button8:SetShown()",
-		}, -- [154]
+		}, -- [249]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -945,7 +1325,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button7:SetShown()",
-		}, -- [155]
+		}, -- [250]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -954,7 +1334,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button6:SetShown()",
-		}, -- [156]
+		}, -- [251]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -963,7 +1343,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button5:SetShown()",
-		}, -- [157]
+		}, -- [252]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -972,7 +1352,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button4:SetShown()",
-		}, -- [158]
+		}, -- [253]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -981,7 +1361,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button3:SetShown()",
-		}, -- [159]
+		}, -- [254]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -990,7 +1370,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button2:SetShown()",
-		}, -- [160]
+		}, -- [255]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -999,7 +1379,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6Button1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6Button1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6Button1:SetShown()",
-		}, -- [161]
+		}, -- [256]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1008,7 +1388,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar6:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar6:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar6:SetFrameStrata()",
-		}, -- [162]
+		}, -- [257]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1017,7 +1397,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button12:SetShown()",
-		}, -- [163]
+		}, -- [258]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1026,7 +1406,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button11:SetShown()",
-		}, -- [164]
+		}, -- [259]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1035,7 +1415,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button10:SetShown()",
-		}, -- [165]
+		}, -- [260]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1044,7 +1424,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button9:SetShown()",
-		}, -- [166]
+		}, -- [261]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1053,7 +1433,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button8:SetShown()",
-		}, -- [167]
+		}, -- [262]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1062,7 +1442,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button7:SetShown()",
-		}, -- [168]
+		}, -- [263]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1071,7 +1451,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button6:SetShown()",
-		}, -- [169]
+		}, -- [264]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1080,7 +1460,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button5:SetShown()",
-		}, -- [170]
+		}, -- [265]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1089,7 +1469,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button4:SetShown()",
-		}, -- [171]
+		}, -- [266]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1098,7 +1478,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button3:SetShown()",
-		}, -- [172]
+		}, -- [267]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1107,7 +1487,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button2:SetShown()",
-		}, -- [173]
+		}, -- [268]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1116,7 +1496,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5Button1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5Button1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5Button1:SetShown()",
-		}, -- [174]
+		}, -- [269]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1125,7 +1505,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBar5:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBar5:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBar5:SetFrameStrata()",
-		}, -- [175]
+		}, -- [270]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1134,7 +1514,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton12:SetShown()",
-		}, -- [176]
+		}, -- [271]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1143,7 +1523,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton11:SetShown()",
-		}, -- [177]
+		}, -- [272]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1152,7 +1532,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton10:SetShown()",
-		}, -- [178]
+		}, -- [273]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1161,7 +1541,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton9:SetShown()",
-		}, -- [179]
+		}, -- [274]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1170,7 +1550,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton8:SetShown()",
-		}, -- [180]
+		}, -- [275]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1179,7 +1559,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton7:SetShown()",
-		}, -- [181]
+		}, -- [276]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1188,7 +1568,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton6:SetShown()",
-		}, -- [182]
+		}, -- [277]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1197,7 +1577,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton5:SetShown()",
-		}, -- [183]
+		}, -- [278]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1206,7 +1586,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton4:SetShown()",
-		}, -- [184]
+		}, -- [279]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1215,7 +1595,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton3:SetShown()",
-		}, -- [185]
+		}, -- [280]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1224,7 +1604,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton2:SetShown()",
-		}, -- [186]
+		}, -- [281]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1233,7 +1613,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeftButton1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeftButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeftButton1:SetShown()",
-		}, -- [187]
+		}, -- [282]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1242,7 +1622,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarLeft:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarLeft:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarLeft:SetFrameStrata()",
-		}, -- [188]
+		}, -- [283]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1251,7 +1631,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRight:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRight:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRight:ShowBase()",
-		}, -- [189]
+		}, -- [284]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1260,7 +1640,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton12:SetShown()",
-		}, -- [190]
+		}, -- [285]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1269,7 +1649,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton11:SetShown()",
-		}, -- [191]
+		}, -- [286]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1278,7 +1658,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton10:SetShown()",
-		}, -- [192]
+		}, -- [287]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1287,7 +1667,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton9:SetShown()",
-		}, -- [193]
+		}, -- [288]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1296,7 +1676,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton8:SetShown()",
-		}, -- [194]
+		}, -- [289]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1305,7 +1685,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton7:SetShown()",
-		}, -- [195]
+		}, -- [290]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1314,7 +1694,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton6:SetShown()",
-		}, -- [196]
+		}, -- [291]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1323,7 +1703,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton5:SetShown()",
-		}, -- [197]
+		}, -- [292]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1332,7 +1712,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton4:SetShown()",
-		}, -- [198]
+		}, -- [293]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1341,7 +1721,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton3:SetShown()",
-		}, -- [199]
+		}, -- [294]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1350,7 +1730,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton2:SetShown()",
-		}, -- [200]
+		}, -- [295]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1359,7 +1739,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRightButton1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRightButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRightButton1:SetShown()",
-		}, -- [201]
+		}, -- [296]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1368,7 +1748,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarRight:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarRight:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarRight:SetFrameStrata()",
-		}, -- [202]
+		}, -- [297]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1377,7 +1757,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRight:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRight:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRight:ShowBase()",
-		}, -- [203]
+		}, -- [298]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1386,7 +1766,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton12:SetShown()",
-		}, -- [204]
+		}, -- [299]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1395,7 +1775,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton11:SetShown()",
-		}, -- [205]
+		}, -- [300]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1404,7 +1784,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton10:SetShown()",
-		}, -- [206]
+		}, -- [301]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1413,7 +1793,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton9:SetShown()",
-		}, -- [207]
+		}, -- [302]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1422,7 +1802,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton8:SetShown()",
-		}, -- [208]
+		}, -- [303]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1431,7 +1811,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton7:SetShown()",
-		}, -- [209]
+		}, -- [304]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1440,7 +1820,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton6:SetShown()",
-		}, -- [210]
+		}, -- [305]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1449,7 +1829,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton5:SetShown()",
-		}, -- [211]
+		}, -- [306]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1458,7 +1838,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton4:SetShown()",
-		}, -- [212]
+		}, -- [307]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1467,7 +1847,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton3:SetShown()",
-		}, -- [213]
+		}, -- [308]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1476,7 +1856,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton2:SetShown()",
-		}, -- [214]
+		}, -- [309]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1485,7 +1865,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRightButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRightButton1:SetShown()",
-		}, -- [215]
+		}, -- [310]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1494,7 +1874,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomRight:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomRight:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomRight:SetFrameStrata()",
-		}, -- [216]
+		}, -- [311]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1503,7 +1883,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeft:ShowBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeft:ShowBase()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeft:ShowBase()",
-		}, -- [217]
+		}, -- [312]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1512,7 +1892,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton12:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton12:SetShown()",
-		}, -- [218]
+		}, -- [313]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1521,7 +1901,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton11:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton11:SetShown()",
-		}, -- [219]
+		}, -- [314]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1530,7 +1910,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton10:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton10:SetShown()",
-		}, -- [220]
+		}, -- [315]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1539,7 +1919,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton9:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton9:SetShown()",
-		}, -- [221]
+		}, -- [316]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1548,7 +1928,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton8:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton8:SetShown()",
-		}, -- [222]
+		}, -- [317]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1557,7 +1937,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton7:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton7:SetShown()",
-		}, -- [223]
+		}, -- [318]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1566,7 +1946,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton6:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton6:SetShown()",
-		}, -- [224]
+		}, -- [319]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1575,7 +1955,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton5:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton5:SetShown()",
-		}, -- [225]
+		}, -- [320]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1584,7 +1964,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton4:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton4:SetShown()",
-		}, -- [226]
+		}, -- [321]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1593,7 +1973,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton3:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton3:SetShown()",
-		}, -- [227]
+		}, -- [322]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1602,7 +1982,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton2:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton2:SetShown()",
-		}, -- [228]
+		}, -- [323]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1611,7 +1991,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeftButton1:SetShown()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeftButton1:SetShown()",
-		}, -- [229]
+		}, -- [324]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1620,7 +2000,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "TradeSkillMaster blocked from using MultiBarBottomLeft:SetFrameStrata()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster blocked from using MultiBarBottomLeft:SetFrameStrata()",
 			["formatted"] = "TradeSkillMaster blocked from using MultiBarBottomLeft:SetFrameStrata()",
-		}, -- [230]
+		}, -- [325]
 		{
 			["path"] = "|cff00ffff[string \"=[tsm error check]\"]|r|cffffffff:|r|cffff00ff1|r",
 			["count"] = 2,
@@ -1629,7 +2009,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"=[tsm error check]\"]:1: in main chunk\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:111: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:90>\n[string \"=[C]\"]: in function `CreateFontString'\n[string \"return function() aura_env.yellow = {r=1, g=0.96, b=0.41}\"]:106: in function `createLabel'\n[string \"return function() aura_env.yellow = {r=1, g=0.96, b=0.41}\"]:51: in function `createRing'\n[string \"return function() aura_env.yellow = {r=1, g=0.96, b=0.41}\"]:16: in function `onInit'\n[string \"return function() aura_env.yellow = {r=1, g=0.96, b=0.41}\"]:114: in function <[string \"return function() aura_env.yellow = {r=1, g...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1437: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1423>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1453: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1444>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1616: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1524>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1723: in function `ScanForLoads'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1791: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1789>\n",
 			["full"] = "[string \"=[tsm error check]\"]:1: Lua error in aura 'Rune Position': init\nWeakAuras Version: 5.3.4\nAura Version: 2.0.1\nbad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["formatted"] = "Lua error in aura 'Rune Position': init\nWeakAuras Version: 5.3.4\nAura Version: 2.0.1\nbad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
-		}, -- [231]
+		}, -- [326]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 67,
@@ -1638,7 +2018,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember1:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember1:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember1:Show()",
-		}, -- [232]
+		}, -- [327]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 42,
@@ -1647,7 +2027,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember5:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:Show()",
-		}, -- [233]
+		}, -- [328]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -1656,7 +2036,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Hide()",
-		}, -- [234]
+		}, -- [329]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1665,7 +2045,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Hide()",
-		}, -- [235]
+		}, -- [330]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1674,7 +2054,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Hide()",
-		}, -- [236]
+		}, -- [331]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1683,7 +2063,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Hide()",
-		}, -- [237]
+		}, -- [332]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 55,
@@ -1692,7 +2072,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember2:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember2:Show()",
-		}, -- [238]
+		}, -- [333]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1701,7 +2081,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrame:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrame:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrame:SetPoint()",
-		}, -- [239]
+		}, -- [334]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1710,7 +2090,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember5:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:SetPoint()",
-		}, -- [240]
+		}, -- [335]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1719,7 +2099,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember4:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:SetPoint()",
-		}, -- [241]
+		}, -- [336]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1728,7 +2108,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember3:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember3:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember3:SetPoint()",
-		}, -- [242]
+		}, -- [337]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1737,7 +2117,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember2:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember2:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember2:SetPoint()",
-		}, -- [243]
+		}, -- [338]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 26,
@@ -1746,7 +2126,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember1:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember1:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember1:SetPoint()",
-		}, -- [244]
+		}, -- [339]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 50,
@@ -1755,7 +2135,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember4:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:Show()",
-		}, -- [245]
+		}, -- [340]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 52,
@@ -1764,7 +2144,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember3:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember3:Show()",
-		}, -- [246]
+		}, -- [341]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -1773,7 +2153,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember5:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember5:Hide()",
-		}, -- [247]
+		}, -- [342]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -1782,7 +2162,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactPartyFrameMember4:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactPartyFrameMember4:Hide()",
-		}, -- [248]
+		}, -- [343]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 10,
@@ -1791,7 +2171,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:Show()",
-		}, -- [249]
+		}, -- [344]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 12,
@@ -1800,7 +2180,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Show()",
-		}, -- [250]
+		}, -- [345]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -1809,7 +2189,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member4:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member4:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member4:Show()",
-		}, -- [251]
+		}, -- [346]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -1818,7 +2198,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member3:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member3:Show()",
-		}, -- [252]
+		}, -- [347]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 16,
@@ -1827,7 +2207,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member2:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member2:Show()",
-		}, -- [253]
+		}, -- [348]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 17,
@@ -1836,7 +2216,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:Show()",
-		}, -- [254]
+		}, -- [349]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 18,
@@ -1845,7 +2225,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member4:Show()",
-		}, -- [255]
+		}, -- [350]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 18,
@@ -1854,7 +2234,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member3:Show()",
-		}, -- [256]
+		}, -- [351]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1863,7 +2243,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member2:Show()",
-		}, -- [257]
+		}, -- [352]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -1872,7 +2252,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:SetPoint()",
-		}, -- [258]
+		}, -- [353]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1881,7 +2261,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup3:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:SetPoint()",
-		}, -- [259]
+		}, -- [354]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1890,7 +2270,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:SetPoint()",
-		}, -- [260]
+		}, -- [355]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1899,7 +2279,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:SetPoint()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1:SetPoint()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:SetPoint()",
-		}, -- [261]
+		}, -- [356]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1908,7 +2288,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup3:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:Show()",
-		}, -- [262]
+		}, -- [357]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1917,7 +2297,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:Show()",
-		}, -- [263]
+		}, -- [358]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1926,7 +2306,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:Show()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1:Show()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:Show()",
-		}, -- [264]
+		}, -- [359]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 21,
@@ -1935,7 +2315,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:unusedFunc()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup3:unusedFunc()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup3:unusedFunc()",
-		}, -- [265]
+		}, -- [360]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1944,7 +2324,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:unusedFunc()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2:unusedFunc()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2:unusedFunc()",
-		}, -- [266]
+		}, -- [361]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 27,
@@ -1953,7 +2333,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:unusedFunc()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1:unusedFunc()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1:unusedFunc()",
-		}, -- [267]
+		}, -- [362]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 5,
@@ -1962,7 +2342,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:SetAttribute()",
-		}, -- [268]
+		}, -- [363]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1971,7 +2351,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member4:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member4:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member4:SetAttribute()",
-		}, -- [269]
+		}, -- [364]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1980,7 +2360,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member3:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member3:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member3:SetAttribute()",
-		}, -- [270]
+		}, -- [365]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1989,7 +2369,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member2:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member2:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member2:SetAttribute()",
-		}, -- [271]
+		}, -- [366]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -1998,7 +2378,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup1Member5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup1Member5:SetAttribute()",
-		}, -- [272]
+		}, -- [367]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 8,
@@ -2007,7 +2387,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:SetAttribute()",
-		}, -- [273]
+		}, -- [368]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 4,
@@ -2016,7 +2396,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidFrame1:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidFrame1:Hide()",
-		}, -- [274]
+		}, -- [369]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2025,7 +2405,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Hide()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Hide()",
 			["formatted"] = "AngrierWorldQuests blocked from using CompactRaidGroup2Member5:Hide()",
-		}, -- [275]
+		}, -- [370]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2034,7 +2414,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "ConsolePort forbidden from using FocusUnit() (Only usable by Blizzard)",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: ConsolePort forbidden from using FocusUnit() (Only usable by Blizzard)",
 			["formatted"] = "ConsolePort forbidden from using FocusUnit() (Only usable by Blizzard)",
-		}, -- [276]
+		}, -- [371]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 43,
@@ -2043,7 +2423,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using MultiBarBottomRight:SetPointBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using MultiBarBottomRight:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using MultiBarBottomRight:SetPointBase()",
-		}, -- [277]
+		}, -- [372]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 43,
@@ -2052,7 +2432,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using MultiBarBottomLeft:SetPointBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using MultiBarBottomLeft:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using MultiBarBottomLeft:SetPointBase()",
-		}, -- [278]
+		}, -- [373]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -2061,7 +2441,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using OverrideActionBarButton2:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using OverrideActionBarButton2:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using OverrideActionBarButton2:SetAttribute()",
-		}, -- [279]
+		}, -- [374]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2070,7 +2450,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using MainMenuBar:SetPointBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using MainMenuBar:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using MainMenuBar:SetPointBase()",
-		}, -- [280]
+		}, -- [375]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2079,7 +2459,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton12:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton12:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton12:SetShown()",
-		}, -- [281]
+		}, -- [376]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2088,7 +2468,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton11:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton11:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton11:SetShown()",
-		}, -- [282]
+		}, -- [377]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2097,7 +2477,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton10:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton10:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton10:SetShown()",
-		}, -- [283]
+		}, -- [378]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2106,7 +2486,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton9:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton9:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton9:SetShown()",
-		}, -- [284]
+		}, -- [379]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2115,7 +2495,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton8:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton8:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton8:SetShown()",
-		}, -- [285]
+		}, -- [380]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2124,7 +2504,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton7:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton7:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton7:SetShown()",
-		}, -- [286]
+		}, -- [381]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2133,7 +2513,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton6:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton6:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton6:SetShown()",
-		}, -- [287]
+		}, -- [382]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2142,7 +2522,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton5:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton5:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton5:SetShown()",
-		}, -- [288]
+		}, -- [383]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2151,7 +2531,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton4:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton4:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton4:SetShown()",
-		}, -- [289]
+		}, -- [384]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2160,7 +2540,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton3:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton3:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton3:SetShown()",
-		}, -- [290]
+		}, -- [385]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2169,7 +2549,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton2:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton2:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton2:SetShown()",
-		}, -- [291]
+		}, -- [386]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 3,
@@ -2178,7 +2558,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton1:SetShown()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton1:SetShown()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton1:SetShown()",
-		}, -- [292]
+		}, -- [387]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 2,
@@ -2187,7 +2567,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton2:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton2:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton2:SetAttribute()",
-		}, -- [293]
+		}, -- [388]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2196,7 +2576,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using OverrideActionBarButton5:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using OverrideActionBarButton5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using OverrideActionBarButton5:SetAttribute()",
-		}, -- [294]
+		}, -- [389]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 1,
@@ -2205,7 +2585,7 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using ActionButton5:SetAttribute()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using ActionButton5:SetAttribute()",
 			["formatted"] = "AngrierWorldQuests blocked from using ActionButton5:SetAttribute()",
-		}, -- [295]
+		}, -- [390]
 		{
 			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
 			["count"] = 22,
@@ -2214,39 +2594,39 @@ TDDB_DEVTOOLS = {
 			["err"] = "AngrierWorldQuests blocked from using StanceBar:SetPointBase()",
 			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: AngrierWorldQuests blocked from using StanceBar:SetPointBase()",
 			["formatted"] = "AngrierWorldQuests blocked from using StanceBar:SetPointBase()",
-		}, -- [296]
+		}, -- [391]
 		{
 			["count"] = 7,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdFamilyFamiliar/Addon.lua:1 (null)",
-		}, -- [297]
+		}, -- [392]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdBattlePetScript_Rematch/UI.lua:1 (null)",
-		}, -- [298]
+		}, -- [393]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdBattlePetScript_Rematch/Version.lua:1 (null)",
-		}, -- [299]
+		}, -- [394]
 		{
 			["count"] = 1,
 			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdBattlePetScript_Rematch/Addon.lua:1 (null)",
-		}, -- [300]
+		}, -- [395]
 		{
 			["count"] = 7,
 			["err"] = "Interface/AddOns/tdFamilyFamiliar/Addon.lua:1 (null)",
-		}, -- [301]
+		}, -- [396]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/tdBattlePetScript_Rematch/UI.lua:1 (null)",
-		}, -- [302]
+		}, -- [397]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/tdBattlePetScript_Rematch/Version.lua:1 (null)",
-		}, -- [303]
+		}, -- [398]
 		{
 			["count"] = 1,
 			["err"] = "Interface/AddOns/tdBattlePetScript_Rematch/Addon.lua:1 (null)",
-		}, -- [304]
+		}, -- [399]
 		{
 			["path"] = "|cff00ffff...terface/AddOns/tdBattlePetScript/Extension/Round.lua|r|cffffffff:|r|cffff00ff12|r",
 			["count"] = 1,
@@ -2255,7 +2635,7 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/tdBattlePetScript/Extension/Round.lua\"]:12: in function <...terface/AddOns/tdBattlePetScript/Extension/Round.lua:9>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua\"]:66: in function <.../AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua:61>\n[string \"@Interface/AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua\"]:523: in function `EnableAddon'\n[string \"@Interface/AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua\"]:536: in function `EnableAddon'\n[string \"@Interface/AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua\"]:536: in function `EnableAddon'\n[string \"@Interface/AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua\"]:626: in function <.../AddOns/DataStore/libs/AceAddon-3.0/AceAddon-3.0.lua:611>\n",
 			["full"] = "...terface/AddOns/tdBattlePetScript/Extension/Round.lua:12: table index is nil",
 			["formatted"] = "table index is nil",
-		}, -- [305]
+		}, -- [400]
 		{
 			["path"] = "|cff00ffffInterface/AddOns/tdFamilyFamiliar/Addon.lua|r|cffffffff:|r|cffff00ff58|r",
 			["count"] = 1,
@@ -2264,6 +2644,6 @@ TDDB_DEVTOOLS = {
 			["stack"] = "[string \"=[C]\"]: in function `HookScript'\n[string \"@Interface/AddOns/tdFamilyFamiliar/Addon.lua\"]:58: in main chunk\n",
 			["full"] = "Interface/AddOns/tdFamilyFamiliar/Addon.lua:58: GameTooltip doesn't have a \"OnTooltipSetUnit\" script",
 			["formatted"] = "GameTooltip doesn't have a \"OnTooltipSetUnit\" script",
-		}, -- [306]
+		}, -- [401]
 	},
 }

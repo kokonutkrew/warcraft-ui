@@ -15,8 +15,8 @@ PasteDB = {
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
-		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
 		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
@@ -112,9 +112,6 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
-		["Mf - Emerald Dream"] = {
-			["loaded"] = true,
-		},
 		["Samoansage - Emerald Dream"] = {
 			["whispertarget"] = "",
 			["where"] = "Default",
@@ -128,6 +125,9 @@ PasteDB = {
 				["left"] = 1399.000244140625,
 				["width"] = 500.0000610351563,
 			},
+		},
+		["Mf - Emerald Dream"] = {
+			["loaded"] = true,
 		},
 		["Threadcrafts - Emerald Dream"] = {
 			["loaded"] = true,

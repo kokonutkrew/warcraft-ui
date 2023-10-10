@@ -19,6 +19,13 @@ VER 3 000000000000014D "/tar" "INV_Misc_QuestionMark"
 /target ursa
 /target legacki
 END
+VER 3 00000000000001A0 "/totem" "134400"
+/run if not UnitAffectingCombat("player")then for i=1,4 do n="t"..i CreateFrame("Button",n,UIParent,"SecureUnitButtonTemplate")_G[n]:SetAttribute("type","destroytotem")_G[n]:SetAttribute("totem-slot",i)end end
+/click t1
+/click t2
+/click t3
+/click t4
+END
 VER 3 000000000000014E "01.RangedPull" "INV_Misc_QuestionMark"
 #showtooltip
 /follow party1
@@ -226,10 +233,10 @@ VER 3 0000000000000175 "rougeSap" "INV_Misc_QuestionMark"
 /cast Sap
 /cast Pick Pocket
 END
-VER 3 0000000000000176 "RXPTargeting" "132150"
+VER 3 0000000000000177 "RXPTargeting" "132150"
 /targetexact Dishu
 /targetexact Witchwing Slayer
-/targetexact Bael'dun Officer
+/targetexact Razormane Mystic
 /targetexact Owatanka
 /targetexact Brine
 /targetexact Thunderhawk Hatchling
@@ -237,8 +244,15 @@ VER 3 0000000000000176 "RXPTargeting" "132150"
 /targetexact Greater Thunderhawk
 /targetlasttarget [dead]
 END
-VER 3 0000000000000177 "RXPTargeting" "132150"
-/targetexact Grull Hawkwind
+VER 3 0000000000000176 "RXPTargeting" "132150"
+/targetexact Dishu
+/targetexact Witchwing Slayer
+/targetexact Razormane Mystic
+/targetexact Owatanka
+/targetexact Brine
+/targetexact Thunderhawk Hatchling
+/targetexact Thunderhawk Cloudscraper
+/targetexact Greater Thunderhawk
 /targetlasttarget [dead]
 END
 VER 3 000000000000019E "shaTotem" "134400"
@@ -252,53 +266,6 @@ VER 3 0000000000000178 "test" "134400"
 /tway 8 54
 /tway 7 50
 END
-VER 3 00000000000001A0 "war1" "134400"
-#showtooltip
-/startattack
-/castsequence [form:3] reset=25/combat berserker rage, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow
-/use berserker stance
-END
-VER 3 00000000000001A1 "war2" "134400"
-#showtooltip
-/startattack
-/castsequence [form:1] heroic strike
-/castsequence [form:2] sunder armor
-/castsequence [form:3] heroic strike
-/use 14
-END
-VER 3 00000000000001A2 "war3" "134400"
-/use bloodrage
-/use rend
-/use 13
-END
-VER 3 00000000000001A3 "war4" "134400"
-#showtooltip
-/startattack
-/castsequence [form:3] reset=combat/target/30 whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind
-/use berserker stance
-END
-VER 3 00000000000001A4 "war5" "134400"
-#showtooltip
-/castsequence reset=120 battle shout,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage
-END
-VER 3 00000000000001A5 "war910" "134400"
-/use [form:1] overpower
-/use [form:2] revenge
-/use [form:3] overpower
-/use execute
-END
-VER 3 00000000000001A6 "war911" "134400"
-#showtooltip
-/stopcasting
-/stopcasting
-/stopcasting
-/use whirlwind
-END
-VER 3 00000000000001A8 "war912" "134400"
-#show Execute
-/use [form:3] execute
-/use berserker stance
-END
 VER 3 0000000000000179 "warBloodrage" "134400"
 #show bloodrage
 /castsequence reset=60 bloodrage, berserker rage, berserker rage
@@ -309,12 +276,6 @@ VER 3 000000000000017A "warBloodThirst" "INV_Misc_QuestionMark"
 /castsequence reset=combat/target/30 sunder armor, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst bloodthirst
 /use 14
 END
-VER 3 00000000000001A9 "warCharge" "134400"
-#showtooltip
-/castsequence [form:3,combat] berserker stance, intercept
-/castsequence [form:1] reset=combat/target/30 charge, battle shout, thunder clap, demoralizing shout
-/use battle stance
-END
 VER 3 000000000000017B "warCooldown" "INV_Misc_QuestionMark"
 #showtooltip
 /castsequence [form:1] retaliation
@@ -324,12 +285,6 @@ END
 VER 3 000000000000017C "warDeathWish" "INV_Misc_QuestionMark"
 #showtooltip
 /castsequence reset=180 death wish,blood fury,blood fury,blood fury,blood fury,blood fury,blood fury
-END
-VER 3 00000000000001AD "warE" "134400"
-#showtooltip
-/castsequence [form:1] hamstring
-/castsequence [form:2] disarm
-/castsequence [form:3] hamstring
 END
 VER 3 000000000000017D "warFuryRotation" "INV_Misc_QuestionMark"
 #showtooltip
@@ -352,30 +307,12 @@ VER 3 0000000000000180 "warMockingBlow" "134400"
 /castsequence [form:1] reset=600 mocking blow, challenging shout, piercing howl, mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow
 /use battle stance
 END
-VER 3 00000000000001AB "warOverpower" "134400"
-#show Overpower
-/use [form:1] overpower
-/use battle stance
-END
-VER 3 00000000000001AA "warQ" "134400"
-#showtooltip
-/castsequence [form:1] reset=target shield bash
-/castsequence [form:2] shield bash
-/castsequence [form:3] pummel
-END
 VER 3 0000000000000181 "warRend" "134400"
 #show rend
 /startattack
 /castsequence [form:1] rend
 /castsequence [form:2] rend
 /castsequence [form:3] battle stance
-END
-VER 3 00000000000001AC "warRevenge" "134400"
-#show Revenge
-/use [form:2] revenge
-/use defensive stance
-/equipslot 17 drillborer disk
-/equipslot 16 doom's edge
 END
 VER 3 0000000000000182 "warSlam" "INV_Misc_QuestionMark"
 #showtooltip
@@ -387,12 +324,6 @@ VER 3 0000000000000183 "warSunder" "INV_Misc_QuestionMark"
 #showtooltip
 /use sunder armor
 /use 14
-END
-VER 3 00000000000001AE "warTaunt" "134400"
-#show taunt
-/use [mod:shift] mocking blow
-/use [form:2] taunt
-/use defensive stance
 END
 VER 3 0000000000000184 "warThunderClap" "134400"
 #show thunder clap

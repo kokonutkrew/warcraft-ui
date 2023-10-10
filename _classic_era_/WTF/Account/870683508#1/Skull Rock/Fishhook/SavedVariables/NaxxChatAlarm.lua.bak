@@ -8,8 +8,8 @@ ChatAlarm = {
 		0, -- [1]
 		1, -- [2]
 	},
-	["txtAutoChat"] = "",
-	["DDBoxTemplateSearch"] = 27,
+	["txtAutoChat"] = "LFG WC, 22 Shaman",
+	["DDBoxTemplateSearch"] = 2,
 	["chkBtnActive"] = true,
 	["chkBtnTrade"] = false,
 	["chkBtnPostGuild"] = false,
@@ -19,7 +19,7 @@ ChatAlarm = {
 		"<player> search group for <ini>", -- [2]
 	},
 	["DDBoxDelay"] = 1,
-	["chkBtnLFG"] = false,
+	["chkBtnLFG"] = true,
 	["chkBtnSearchTank"] = false,
 	["txtSeperate"] = "/",
 	["r"] = {
@@ -29,10 +29,10 @@ ChatAlarm = {
 	["chkBtnAntiSpam"] = true,
 	["chkBtnPlayerColor"] = true,
 	["chkBtnSound"] = true,
-	["chkBtnGeneral"] = false,
-	["ver"] = 1.331,
-	["chkBtnSearchHeal"] = false,
+	["chkBtnGeneral"] = true,
 	["chkBtnSearchLFM"] = false,
+	["chkBtnSearchHeal"] = false,
+	["ver"] = 1.331,
 	["chkBtnSearchDD"] = true,
 	["chkBtnWithPlayer"] = false,
 	["TemplateWords"] = {

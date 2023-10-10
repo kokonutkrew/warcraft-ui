@@ -1,18 +1,31 @@
 
 dynamicBoxerSaved = {
-	["configVersion"] = 1,
+	["watched"] = {
+		["fullTeamInfo"] = true,
+	},
+	["autoInvite"] = true,
+	["autoRaid"] = true,
 	["addonHash"] = "84f95bb",
 	["statusScale"] = 0.9999999534936553,
+	["autoInviteSlot"] = 1,
+	["debugLog"] = {
+	},
+	["serializedMasterHistory"] = {
+	},
+	["disableTooltips"] = false,
+	["manual"] = 0,
+	["showIdAtStart"] = true,
+	["disablePopUps"] = false,
 	["statusPos"] = {
 		"BOTTOMLEFT", -- [1]
 		1036.64208984375, -- [2]
 		853.3333740234375, -- [3]
 	},
-	["debugLog"] = {
-	},
+	["useUIScale"] = true,
 	["addonVersion"] = "v3.11.05",
+	["configVersion"] = 1,
 	["serializedMemberHistory"] = {
 	},
-	["serializedMasterHistory"] = {
-	},
+	["maxParty"] = 5,
+	["delayAccept"] = false,
 }

@@ -75,7 +75,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 15,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -90,167 +90,35 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1696909027,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 129922.729,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["b"] = 0,
 					["g"] = 1,
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696258839,
-					["r"] = 1,
 				}, -- [1]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1696260166,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 129922.729,
 				}, -- [2]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260742,
-					["b"] = 0,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 129922.729,
 				}, -- [3]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
 					["r"] = 1,
-					["b"] = 0,
-					["serverTime"] = 1696260785,
-					["timestamp"] = 318597.665,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["timestamp"] = 129859.243,
 					["g"] = 1,
+					["b"] = 0,
 				}, -- [4]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260822,
-					["r"] = 1,
-				}, -- [5]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1696260861,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [6]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260895,
-					["b"] = 0,
-				}, -- [7]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["b"] = 0,
-					["serverTime"] = 1696260928,
-					["timestamp"] = 318597.665,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [8]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260957,
-					["r"] = 1,
-				}, -- [9]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1696271238,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [10]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696271576,
-					["b"] = 0,
-				}, -- [11]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1696316656,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 318597.665,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [12]
-				{
-					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
-					["timestamp"] = 318597.665,
-				}, -- [13]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 318597.665,
-				}, -- [14]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318579.021,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [15]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -376,7 +244,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 98,
+			["headIndex"] = 41,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -390,1045 +258,353 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:22:32]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["g"] = 1,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260742,
-					["b"] = 0.250980406999588,
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:22:45]|h|r Type '/help' for a listing of a few commands.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["serverTime"] = 1696260179,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["r"] = 1,
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:32:08]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["r"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1696260785,
-					["timestamp"] = 318597.665,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:32:51]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260822,
-					["r"] = 0.250980406999588,
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:33:28]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["serverTime"] = 1696260861,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:34:07]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["g"] = 1,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260895,
-					["b"] = 0.250980406999588,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:34:42]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["r"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-					["serverTime"] = 1696260928,
-					["timestamp"] = 318597.665,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:35:15]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696260957,
-					["r"] = 0.250980406999588,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:35:43]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["serverTime"] = 1696271238,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[12:27:03]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["g"] = 1,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696271576,
-					["b"] = 0.250980406999588,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[12:32:42]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
-					["serverTime"] = 1696316656,
-					["r"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-					["timestamp"] = 318597.665,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [11]
-				{
-					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
-					["timestamp"] = 318597.665,
-				}, -- [12]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 318597.665,
-				}, -- [13]
-				{
 					["message"] = "MoLib aliased into DynamicBoxer",
-					["timestamp"] = 318579.021,
-				}, -- [14]
+					["timestamp"] = 129859.243,
+				}, -- [1]
 				{
 					["message"] = "DynamicBoxer Warning: ISBoxer is not present, install and configure MAMA, use www.WowOpenBox.org or expect much limited/reduced functionality!",
 					["r"] = 0.96,
-					["timestamp"] = 318579.021,
+					["timestamp"] = 129859.243,
 					["g"] = 0.63,
 					["b"] = 0.26,
-				}, -- [15]
+				}, -- [2]
 				{
 					["message"] = "DynamicBoxer v3.11.05 by MooreaTv: type /dbox for command list/help.",
-					["timestamp"] = 318579.021,
-				}, -- [16]
+					["timestamp"] = 129859.243,
+				}, -- [3]
 				{
 					["message"] = "DynamicBoxer Warning: Token isn't set yet...",
 					["r"] = 0.96,
-					["timestamp"] = 318579.021,
+					["timestamp"] = 129859.243,
 					["g"] = 0.63,
 					["b"] = 0.26,
-				}, -- [17]
-				{
-					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
-					["timestamp"] = 318579.021,
-				}, -- [18]
+				}, -- [4]
 				{
 					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
-					["timestamp"] = 318579.021,
-				}, -- [19]
+					["timestamp"] = 129859.243,
+				}, -- [5]
 				{
 					["message"] = "Maekor Overpower Alert loaded.",
-					["timestamp"] = 318579.021,
-				}, -- [20]
+					["timestamp"] = 129859.243,
+				}, -- [6]
 				{
 					["message"] = "Mama v1.21.1 by MooreaTv: type /mama for command list/help.",
-					["timestamp"] = 318579.021,
-				}, -- [21]
+					["timestamp"] = 129859.243,
+				}, -- [7]
 				{
 					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
-					["timestamp"] = 318579.021,
-				}, -- [22]
+					["timestamp"] = 129859.243,
+				}, -- [8]
 				{
 					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
-					["timestamp"] = 318579.021,
-				}, -- [23]
+					["timestamp"] = 129859.243,
+				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:03:58]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
-					["timestamp"] = 318579.021,
-				}, -- [24]
+					["message"] = "|cff979797|Hpratcopy|h[21:36:27]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 129859.243,
+				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:00]|h|r [SG] Slave Girl 2.6 loaded.",
+					["message"] = "|cff979797|Hpratcopy|h[21:36:34]|h|r [SG] Slave Girl 2.6 loaded.",
 					["r"] = 0.25,
-					["timestamp"] = 318579.021,
+					["timestamp"] = 129859.243,
 					["g"] = 1,
 					["b"] = 0.25,
-				}, -- [25]
+				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r Guild Message of the Day: Organizing class/raid leadership. Reach out on discord. Afterlife server: Whitemane. See guild info. <[O.o]><[KK]>",
+					["message"] = "|cff979797|Hpratcopy|h[21:36:36]|h|r Guild Message of the Day: The <[O.o]><[KK]> Crafting Guild. Join discord and register chosen professions. Afterlife Server: Whitemane. New tabbard <3",
 					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 318597.551,
+					["timestamp"] = 129922.633,
 					["g"] = 1,
 					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:37]|h|r |cff33ff99Gnosis|r: Gnosis v5.10 loaded (enabled)",
+					["timestamp"] = 129922.729,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:37]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
+					["timestamp"] = 129922.729,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:37]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
+					["timestamp"] = 129922.729,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:37]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
+					["timestamp"] = 129922.729,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:37]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 129922.729,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:39]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 129922.729,
+					["serverTime"] = 1696909029,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:39]|h|r Registered character: Kkbanker-SkullRock",
+					["timestamp"] = 129922.729,
+					["serverTime"] = 1696909029,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:41]|h|r Mama-DBox: In guild, 791 total, 32 online.",
+					["timestamp"] = 129926.728,
+					["serverTime"] = 1696909031,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:43]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 129928.718,
+					["serverTime"] = 1696909033,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:43]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
+					["timestamp"] = 129928.718,
+					["serverTime"] = 1696909033,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:43]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 129929.51,
+					["serverTime"] = 1696909033,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ungabuunga:482:CHANNEL:2|h|cfffff468Ungabuunga|r|h|cffd8d8d8]|r: LFM ULDA NEED ALL",
+					["serverTime"] = 1696909034,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129930.259,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:47]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
+					["timestamp"] = 129932.746,
+					["serverTime"] = 1696909037,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:36:47]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
+					["timestamp"] = 129932.746,
+					["serverTime"] = 1696909037,
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r |cff33ff99Gnosis|r: Gnosis v5.10 loaded (enabled)",
-					["timestamp"] = 318597.665,
+					["message"] = "|cff979797|Hpratcopy|h[21:36:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Turklesfmg:487:CHANNEL:2|h|cff3fc6eaTurklesfmg|r|h|cffd8d8d8]|r: LVL 18 mage LFG WC.",
+					["serverTime"] = 1696909038,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129934.294,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
-					["timestamp"] = 318597.665,
+					["message"] = "|cff979797|Hpratcopy|h[21:36:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Onslaughtt-SkullRock:492:CHANNEL:2|h|cffd84e4e36|r:|cffc69b6dOnslaughtt|r|h|cffd8d8d8]|r: LFM GY/LIB Need All",
+					["serverTime"] = 1696909043,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129939.495,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
-					["timestamp"] = 318597.665,
+					["message"] = "|cff979797|Hpratcopy|h[21:36:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sleepypeon:494:CHANNEL:2|h|cff0070ddSleepypeon|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:5756::::::::1:::::::::|h[Sliverblade]|h|r discounted from AH",
+					["serverTime"] = 1696909044,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129940.043,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
-					["timestamp"] = 318597.665,
+					["message"] = "|cff979797|Hpratcopy|h[21:36:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deuselkhc:496:CHANNEL:2|h|cff8787edDeuselkhc|r|h|cffd8d8d8]|r: LF TANK for BFD",
+					["serverTime"] = 1696909046,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129942.037,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:02]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
-					["timestamp"] = 318597.665,
+					["message"] = "|cff979797|Hpratcopy|h[21:36:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jinzo:498:CHANNEL:2|h|cffffffffJinzo|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t Enchanter || Crusader || Fiery || Weap +20 Spirit & +15 Strg || Riding & Move Speed || Chest +100 Hp/Mana || Bracer +9 Stam/Strg/Spirit & +7 Intel || Gloves/Boots +7 Agility [Your Mats} |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1696909047,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129943.341,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [31]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:04]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
+					["message"] = "|cff979797|Hpratcopy|h[21:37:05]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dachops:506:CHANNEL:2|h|cffc69b6dDachops|r|h|cffd8d8d8]|r: LF rogue |cff1eff00|Hitem:5758::::::::60:::::::::|h[Mithril Lockbox]|h|r",
+					["serverTime"] = 1696909054,
 					["r"] = 1,
-					["serverTime"] = 1696316657,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["b"] = 0.5,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129951.163,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:05]|h|r Registered character: Kkbanker-SkullRock",
-					["timestamp"] = 318597.665,
-					["serverTime"] = 1696316658,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:07]|h|r Crìtíque has reached level 60!",
+					["serverTime"] = 1696909056,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						16, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129953.577,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [33]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:06]|h|r CensusPlusWotlk Taking census of characters online...",
+					["message"] = "|cff979797|Hpratcopy|h[21:37:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ledge:510:CHANNEL:2|h|cffc69b6dLedge|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:13022::::::::1:::::::::|h[Gryphonwing Long Bow]|h|r",
+					["serverTime"] = 1696909061,
 					["r"] = 1,
-					["serverTime"] = 1696316659,
-					["timestamp"] = 318597.665,
-					["g"] = 1,
-					["b"] = 0.5,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129958.634,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [34]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:06]|h|r Mama-DBox: In guild, 861 total, 14 online.",
-					["timestamp"] = 318601.585,
-					["serverTime"] = 1696316659,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ungabuunga-SkullRock:512:CHANNEL:2|h|cfffff468Ungabuunga|r|h|cffd8d8d8]|r: LFM ULDA NEED ALL",
+					["serverTime"] = 1696909063,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129960.414,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [35]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:09]|h|r |cff00ff00<FGI>|r Init synchronization from Fishhook",
-					["timestamp"] = 318604.087,
-					["serverTime"] = 1696316662,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ztrukmage-SkullRock:514:CHANNEL:2|h|cff3fc6eaZtrukmage|r|h|cffd8d8d8]|r: |CFFFF000015 mage |CFF00FF00lfg|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696909065,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129962.437,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [36]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:09]|h|r RestedXP Guides: SilverDragon has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
-					["timestamp"] = 318604.087,
-					["serverTime"] = 1696316662,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nlghtmare:515:CHANNEL:2|h|cfffff468Nlghtmare|r|h|cffd8d8d8]|r: lfm Gnomer need all",
+					["serverTime"] = 1696909066,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129962.721,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [37]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:09]|h|r RestedXP Guides: TomTom has known incompatibilities with the Waypoint Arrow. Disable it if you're experiencing navigation issues.",
-					["timestamp"] = 318604.087,
-					["serverTime"] = 1696316662,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ghilisfmg:517:CHANNEL:2|h|cfffff468Ghilisfmg|r|h|cffd8d8d8]|r: 22 rogue LFG WC",
+					["serverTime"] = 1696909071,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129968.426,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [38]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:09]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
-					["timestamp"] = 318604.386,
-					["serverTime"] = 1696316662,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Edboythree:519:CHANNEL:2|h|cffc69b6dEdboythree|r|h|cffd8d8d8]|r: |CFFFF0000lf dps |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1696909074,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129971.166,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [39]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:10]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 4.",
-					["timestamp"] = 318604.819,
-					["serverTime"] = 1696316663,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thazdyngow:522:CHANNEL:2|h|cffc69b6dThazdyngow|r|h|cffd8d8d8]|r: LF1m BFD DPS",
+					["serverTime"] = 1696909078,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129974.96,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:12]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hYou are on a layered realm.|h|h",
-					["timestamp"] = 318607.693,
-					["serverTime"] = 1696316665,
+					["message"] = "|cff979797|Hpratcopy|h[21:37:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Discrete-SkullRock:523:CHANNEL:2|h|cfffff468Discrete|r|h|cffd8d8d8]|r: LF Heals Gnomer",
+					["serverTime"] = 1696909078,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						30, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 129975.195,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:12]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|h|HNWBCustomLink:timers|hClick here to view current timers.|h|h",
-					["timestamp"] = 318607.693,
-					["serverTime"] = 1696316665,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vernzo:9:CHANNEL:2|h|cfffff468Vernzo|r|h|cffd8d8d8]|r: LF Healer and Tank Sunken Temple",
-					["serverTime"] = 1696316666,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318608.042,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thunder:11:CHANNEL:2|h|cff0070ddThunder|r|h|cffd8d8d8]|r: LF Enchanter Minor Speed to Boots",
-					["serverTime"] = 1696316670,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						4, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318612.468,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gankmefour:12:CHANNEL:2|h|cffc69b6dGankmefour|r|h|cffd8d8d8]|r: LF healer UD strat",
-					["serverTime"] = 1696316670,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						6, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318612.468,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Berserked:13:CHANNEL:2|h|cffc69b6dBerserked|r|h|cffd8d8d8]|r: lf 1 dps dm",
-					["serverTime"] = 1696316670,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318612.776,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Berserked-SkullRock:15:CHANNEL:2|h|cffc69b6dBerserked|r|h|cffd8d8d8]|r: deadmines*",
-					["serverTime"] = 1696316673,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318615.484,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:20]|h|r You receive item: |cff1eff00|Hitem:5212::::::::10:::::::::|h[Blazing Wand]|h|r.",
-					["serverTime"] = 1696316673,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318615.562,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:24]|h|r You receive item: |cff1eff00|Hitem:15486::::::6:1587275776:10:::::::::|h[War Torn Shield of Strength]|h|r.",
-					["serverTime"] = 1696316677,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318619.227,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:25]|h|r You receive item: |cff1eff00|Hitem:4562::::::840:1396361344:10:::::::::|h[Severing Axe of the Eagle]|h|r.",
-					["serverTime"] = 1696316678,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318620.166,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:26]|h|r You receive item: |cff1eff00|Hitem:3308::::::::10:::::::::|h[Barbaric Cloth Gloves]|h|r.",
-					["serverTime"] = 1696316679,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318621.665,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:27]|h|r You receive item: |cff1eff00|Hitem:2632::::::1547:222549248:10:::::::::|h[Curved Dagger of Power]|h|r.",
-					["serverTime"] = 1696316680,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318622.501,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:28]|h|r You receive item: |cff1eff00|Hitem:15010::::::754:86059776:10:::::::::|h[Primal Wraps of the Owl]|h|r.",
-					["serverTime"] = 1696316681,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318623.55,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:29]|h|r You receive item: |cff1eff00|Hitem:8178::::::22:1632630144:10:::::::::|h[Training Sword of Stamina]|h|r.",
-					["serverTime"] = 1696316682,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318624.569,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:36]|h|r You receive item: |cffffffff|Hitem:16083::::::::10:::::::::|h[Expert Fishing - The Bass and You]|h|r.",
-					["serverTime"] = 1696316689,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318631.527,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:46]|h|r You receive item: |cff1eff00|Hitem:3192::::::840:275327360:10:::::::::|h[Short Bastard Sword of the Eagle]|h|r.",
-					["serverTime"] = 1696316699,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318640.816,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:50]|h|r You receive item: |cff1eff00|Hitem:15308::::::588:2042891776:10:::::::::|h[Feral Cord of the Monkey]|h|r.",
-					["serverTime"] = 1696316703,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318644.884,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Conelord:32:CHANNEL:2|h|cffffffffConelord|r|h|cffd8d8d8]|r: LF enchanter speed to boots",
-					["serverTime"] = 1696316708,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						12, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318650.119,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:55]|h|r |cffd8d8d8[|r|Hplayer:Dur:33|h|cffd84e4e25|r:|cff3fc6eaDur|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["serverTime"] = 1696316708,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						14, -- [3]
-						15, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318650.721,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:58]|h|r You receive item: |cff1eff00|Hitem:15495::::::1179:1182390656:10:::::::::|h[Bloodspattered Wristbands of the Bear]|h|r.",
-					["serverTime"] = 1696316711,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318653.475,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:04:59]|h|r You receive item: |cff1eff00|Hitem:14725::::::::10:::::::::|h[War Paint Waistband]|h|r.",
-					["serverTime"] = 1696316712,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318654.291,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:00]|h|r You receive item: |cff1eff00|Hitem:5212::::::::10:::::::::|h[Blazing Wand]|h|r.",
-					["serverTime"] = 1696316713,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						"CHAT_MSG_LOOT", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318654.926,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:01]|h|r |cffd8d8d8[|r|Hplayer:Azerito:37|h|cffd84e4e47|r:|cffaad372Azerito|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
-					["serverTime"] = 1696316714,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						14, -- [3]
-						15, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318655.862,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vernzo-SkullRock:43:CHANNEL:2|h|cfffff468Vernzo|r|h|cffd8d8d8]|r: LF Healer and Tank Sunken Temple",
-					["serverTime"] = 1696316729,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318670.873,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:21]|h|r GRM: Syncing Data With Guildies Now...\n(Loading screens may cause sync to fail)",
-					["r"] = 1,
-					["serverTime"] = 1696316734,
-					["timestamp"] = 318676.121,
-					["g"] = 0.84,
-					["b"] = 0,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pll:46:CHANNEL:2|h|cffffffffPll|r|h|cffd8d8d8]|r: LFG Healer BFD",
-					["serverTime"] = 1696316737,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						16, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318679.066,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:39]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Onionrogue:52:CHANNEL:1|h|cfffff468Onionrogue|r|h|cffd8d8d8]|r: LF1 MORE ROUGE doing poison quest we have 2",
-					["serverTime"] = 1696316752,
-					["r"] = 1,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318694.283,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:46]|h|r GRM: Sync With Guildies Complete... (6 Items Updated)",
-					["r"] = 1,
-					["serverTime"] = 1696316759,
-					["timestamp"] = 318701.536,
-					["g"] = 0.84,
-					["b"] = 0,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:46]|h|r \n6  : Custom Notes\n",
-					["r"] = 1,
-					["serverTime"] = 1696316759,
-					["timestamp"] = 318701.536,
-					["g"] = 0.84,
-					["b"] = 0,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:46]|h|r \n|CFFFF0000GRM Audit Report:|r 9% complete. 789 members with incomplete data.",
-					["r"] = 1,
-					["serverTime"] = 1696316759,
-					["timestamp"] = 318701.536,
-					["g"] = 0.84,
-					["b"] = 0,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:05:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Italiano:67:CHANNEL:2|h|cffaad372Italiano|r|h|cffd8d8d8]|r: Soloing Cyclonian Service 5g / 14g Including All Charms PST",
-					["serverTime"] = 1696316769,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						21, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318711.224,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:10]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:3192::::::840:275327360:10:::::::::|h[Short Bastard Sword of the Eagle]|h|r 1 stack of 1, totalling 5|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 97|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318725.717,
-					["serverTime"] = 1696316783,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:17]|h|r |cff40c7ebDur|r has gone offline.",
-					["serverTime"] = 1696316790,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						14, -- [3]
-						15, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318732.346,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:17]|h|r |cffd8d8d8[|r|Hplayer:Fcku:78|h|cffd84e4e29|r:|cff3fc6eaFcku|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 has come online.",
-					["serverTime"] = 1696316790,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						14, -- [3]
-						15, -- [4]
-						"CHAT_MSG_SYSTEM", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318732.346,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:19]|h|r GRM: |cff40c7ebFcku|r matches rules for a promotion and is currently online.",
-					["r"] = 1,
-					["serverTime"] = 1696316792,
-					["timestamp"] = 318733.862,
-					["g"] = 0.84,
-					["b"] = 0,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:20]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:5212::::::::10:::::::::|h[Blazing Wand]|h|r 2 stacks of 1, totalling 29|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 94|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318734.921,
-					["serverTime"] = 1696316793,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:23]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:8178::::::22:1632630144:10:::::::::|h[Training Sword of Stamina]|h|r 1 stack of 1, totalling 4|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 99|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318738.277,
-					["serverTime"] = 1696316796,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vernzo-SkullRock:85:CHANNEL:2|h|cfffff468Vernzo|r|h|cffd8d8d8]|r: LF Healer and Tank Sunken Temple",
-					["serverTime"] = 1696316799,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318741.728,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:27]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:14725::::::::10:::::::::|h[War Paint Waistband]|h|r 1 stack of 1, totalling 9|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 97|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318742.262,
-					["serverTime"] = 1696316800,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:29]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:15010::::::754:86059776:10:::::::::|h[Primal Wraps of the Owl]|h|r 1 stack of 1, totalling 5|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 99|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318744.576,
-					["serverTime"] = 1696316802,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Berserked-SkullRock:89:CHANNEL:2|h|cffc69b6dBerserked|r|h|cffd8d8d8]|r: lf 1 dps deadmines",
-					["serverTime"] = 1696316808,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						8, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318749.866,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:35]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:15486::::::6:1587275776:10:::::::::|h[War Torn Shield of Strength]|h|r 1 stack of 1, totalling 11|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 97|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318750.451,
-					["serverTime"] = 1696316808,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:38]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:15495::::::1179:1182390656:10:::::::::|h[Bloodspattered Wristbands of the Bear]|h|r 1 stack of 1, totalling 11|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 99|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318753.16,
-					["serverTime"] = 1696316811,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:41]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:3308::::::::10:::::::::|h[Barbaric Cloth Gloves]|h|r 1 stack of 1, totalling 6|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 75|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318755.964,
-					["serverTime"] = 1696316814,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:47]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:15308::::::588:2042891776:10:::::::::|h[Feral Cord of the Monkey]|h|r 1 stack of 1, totalling 10|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t",
-					["timestamp"] = 318762.142,
-					["serverTime"] = 1696316820,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pll-SkullRock:94:CHANNEL:2|h|cffffffffPll|r|h|cffd8d8d8]|r: LFG Heals BFD",
-					["serverTime"] = 1696316822,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						16, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318764.557,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:54]|h|r |cff87abffAuctionator: |r|cff1eff00|Hitem:2632::::::1547:222549248:10:::::::::|h[Curved Dagger of Power]|h|r 1 stack of 1, totalling 15|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t",
-					["timestamp"] = 318768.969,
-					["serverTime"] = 1696316827,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Higher:96:CHANNEL:2|h|cfffff468Higher|r|h|cffd8d8d8]|r: wtb uc port",
-					["serverTime"] = 1696316830,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						23, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318772.423,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:06:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tompo:97:CHANNEL:2|h|cffc69b6dTompo|r|h|cffd8d8d8]|r: HORDES MINIONS HC - an Australian Guild from Frostmourne, by Gatemaster75.  Playing from QLD along the Coastline on his yacht.  LFM HC lvl 10+ to get on Discord & play as groups when can to aim at 60.  Good Luck!",
-					["serverTime"] = 1696316832,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						25, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318774.711,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:09]|h|r |cff87abffAuctionator: |r|cffffffff|Hitem:16083::::::::10:::::::::|h[Expert Fishing - The Bass and You]|h|r 1 stack of 1, totalling 1|TInterface\\MoneyFrame\\UI-GoldIcon:0:0:2:0|t 23|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 41|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t",
-					["timestamp"] = 318784.471,
-					["serverTime"] = 1696316842,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:22]|h|r Your character jumped.",
-					["timestamp"] = 318797.387,
-					["serverTime"] = 1696316855,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:32]|h|r |Hplayer:Willyjohnson:0:TEXT_EMOTE:|hWillyjohnson|h raises his fist in anger at Glootie.",
-					["serverTime"] = 1696316865,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						27, -- [3]
-						28, -- [4]
-						"CHAT_MSG_TEXT_EMOTE", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318807.08,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:32]|h|r Your character jumped.",
-					["timestamp"] = 318807.281,
-					["serverTime"] = 1696316865,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ez:108:CHANNEL:2|h|cff0070ddEz|r|h|cffd8d8d8]|r: 260+ Enchanting LFW - Chest (+50 hp, +65 mana, +3 stats) - Gloves (1% attack speed, +5 agi, +5/7 str) - Boots (Minor Speed, +5 agi, +5 stam) - Weapons (2h +7 dmg, 1h +4 dmg) - Bracers (+7 str, +5 int) PST for more info.",
-					["serverTime"] = 1696316871,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						29, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318813.398,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maestra:109:CHANNEL:2|h|cff3fc6eaMaestra|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:6468::::::::5:::::::::|h[Deviate Scale Belt]|h|r4g",
-					["serverTime"] = 1696316877,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						31, -- [4]
-						"CHAT_MSG_CHANNEL", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318819.202,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:51]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
-					["serverTime"] = 1696316884,
-					["r"] = 1,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						18, -- [3]
-						33, -- [4]
-						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318825.975,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:51]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
-					["serverTime"] = 1696316884,
-					["r"] = 1,
-					["extraData"] = {
-						70, -- [1]
-						false, -- [2]
-						1, -- [3]
-						35, -- [4]
-						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318825.975,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[01:07:51]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Orgrimmar]|h",
-					["serverTime"] = 1696316884,
-					["r"] = 1,
-					["extraData"] = {
-						71, -- [1]
-						false, -- [2]
-						37, -- [3]
-						38, -- [4]
-						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
-						[7] = nil --[[ skipped inline function ]],
-						["n"] = 7,
-					},
-					["timestamp"] = 318825.975,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [98]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],

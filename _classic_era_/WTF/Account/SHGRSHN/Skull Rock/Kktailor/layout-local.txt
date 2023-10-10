@@ -6,10 +6,3 @@ X: 28
 Y: -13
 W: 784
 H: 260
-Frame: MacroToolkitFrame
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 135
-Y: -38
-W: 638
-H: 424

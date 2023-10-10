@@ -9,8 +9,8 @@ GreenWall = {
 	["roster"] = true,
 	["logsize"] = 2048,
 	["version"] = "1.11.8+classic-era",
-	["redact"] = true,
 	["ochat"] = false,
+	["redact"] = true,
 	["tag"] = true,
 }
 GreenWallMeta = {

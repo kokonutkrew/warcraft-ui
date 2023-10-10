@@ -1,0 +1,195 @@
+
+GLDG_Data = {
+	["ShowIgnore"] = false,
+	["FilterOnline"] = false,
+	["RankFilter"] = "",
+	["GuildAlias"] = {
+	},
+	["colours"] = {
+		["friends"] = {
+			["goOff"] = "|cFF7F7F7F",
+			["isOff"] = "|cFFFFFFFF",
+			["relog"] = "|cFF3FFF3F",
+			["online"] = "|cFFA0FFA0",
+			["achievment"] = "|cFF001FFF",
+			["lvl"] = "|cFF7F7F7F",
+			["rank"] = "|cFFCC00CC",
+			["list"] = "|cFFFF7F00",
+			["alias"] = "|cFFFFA0A0",
+			["new"] = "|cFFFF3F3F",
+		},
+		["guild"] = {
+			["goOff"] = "|cFF7F7F7F",
+			["isOff"] = "|cFFFFFFFF",
+			["relog"] = "|cFF3FFF3F",
+			["online"] = "|cFFA0FFA0",
+			["achievment"] = "|cFF001FFF",
+			["lvl"] = "|cFF7F7F7F",
+			["rank"] = "|cFFCC00CC",
+			["list"] = "|cFFFF7F00",
+			["alias"] = "|cFFFFA0A0",
+			["new"] = "|cFFFF3F3F",
+		},
+		["channel"] = {
+			["goOff"] = "|cFF7F7F7F",
+			["isOff"] = "|cFFFFFFFF",
+			["relog"] = "|cFF3FFF3F",
+			["online"] = "|cFFA0FFA0",
+			["achievment"] = "|cFF001FFF",
+			["lvl"] = "|cFF7F7F7F",
+			["rank"] = "|cFFCC00CC",
+			["list"] = "|cFFFF7F00",
+			["alias"] = "|cFFFFA0A0",
+			["new"] = "|cFFFF3F3F",
+		},
+		["header"] = "|c7FFF0000",
+		["help"] = "|cFFFFFF7F",
+	},
+	["KK@Samoanslayer-EmeraldDream"] = {
+		["UseGuildDefault"] = true,
+	},
+	["MAGEFilter"] = true,
+	["NewLevel"] = {
+		"Congratulations %s on reaching level %s", -- [1]
+		"%s, grats on getting level %s", -- [2]
+	},
+	["AutoGreet"] = {
+	},
+	["GuildSort"] = false,
+	["CheckedGuildAlert"] = false,
+	["ROGUEFilter"] = true,
+	["Greet"] = {
+		"Hi %s", -- [1]
+		"Hello %s", -- [2]
+		"Hey %s", -- [3]
+	},
+	["FilterUnassigned"] = false,
+	["ByeGuild"] = {
+		"Good bye guildies", -- [1]
+	},
+	["UseLocalTime"] = false,
+	["WARLOCKFilter"] = true,
+	["PALADINFilter"] = true,
+	["FilterWithFriends"] = false,
+	["LaterChannel"] = {
+		"See you later friends", -- [1]
+	},
+	["Night"] = {
+		"Goodbye %s", -- [1]
+		"Bye bye %s", -- [2]
+		"Good night %s", -- [3]
+	},
+	["Guild"] = {
+		"Hi guildies", -- [1]
+	},
+	["GuildFilter"] = "",
+	["PRIESTFilter"] = true,
+	["FilterGuild"] = false,
+	["GuildSettings"] = {
+		["DeltaPopup"] = false,
+		["UseGuildDefault"] = true,
+		["AutoAssign"] = false,
+		["NoGratsOnLogin"] = false,
+		["SupressJoin"] = false,
+		["SupressAchievment"] = false,
+		["SupressRank"] = false,
+		["ListNames"] = false,
+		["Whisper"] = false,
+		["AutoAssignEgp"] = false,
+		["SupressLevel"] = false,
+		["SupressGreet"] = false,
+		["IncludeOwn"] = false,
+		["ListAchievments"] = false,
+		["ShowWhoSpam"] = false,
+		["ExtendIgnored"] = false,
+		["Randomize"] = false,
+		["ListLevelUpOff"] = false,
+		["AddPostfix"] = false,
+		["MinLevelUp"] = 0,
+		["ExtendAlias"] = false,
+		["ExtendMain"] = false,
+		["ListLevelUp"] = false,
+		["WhisperLevelup"] = false,
+		["ExtendChat"] = false,
+		["RelogTime"] = 2,
+		["GreetAsMain"] = false,
+		["ListNamesOff"] = false,
+		["ListQuit"] = false,
+		["AutoAssignAlias"] = false,
+	},
+	["NightGuild"] = {
+		"Good night guildies", -- [1]
+	},
+	["ListUp"] = false,
+	["Bye"] = {
+		"Goodbye %s", -- [1]
+		"Bye bye %s", -- [2]
+	},
+	["FilterMyFriends"] = false,
+	["UseFriends"] = false,
+	["HUNTERFilter"] = true,
+	["ChannelNames"] = {
+	},
+	["Welcome"] = {
+		"Welcome to the guild %s", -- [1]
+		"Hi %s, nice to have you in the guild", -- [2]
+		"Welcome %s, good you're joining us", -- [3]
+	},
+	["ShowAlt"] = false,
+	["PlayerChatFrame"] = {
+		["Samoanslayer-Emerald Dream"] = 0,
+	},
+	["Frameopts"] = {
+	},
+	["GroupAlt"] = false,
+	["LaterGuild"] = {
+		"See you later guildies", -- [1]
+	},
+	["NightChannel"] = {
+		"Good night friends", -- [1]
+	},
+	["Achievment"] = {
+		"Congratulations %s for %s", -- [1]
+		"Congratulations %s", -- [2]
+		"Grats %s", -- [3]
+	},
+	["Channel"] = {
+		"Hi friends", -- [1]
+	},
+	["SHAMANFilter"] = true,
+	["MONKFilter"] = true,
+	["AutoWho"] = false,
+	["WARRIORFilter"] = true,
+	["ByeChannel"] = {
+		"Good bye friends", -- [1]
+	},
+	["ShowNewerVersions"] = false,
+	["DEMONHUNTERFilter"] = true,
+	["Collections"] = {
+	},
+	["ListSize"] = 5,
+	["UpdateTime"] = 0,
+	["FilterCurrentChannel"] = false,
+	["GreetGuild"] = {
+	},
+	["Custom"] = {
+	},
+	["DEATHKNIGHTFilter"] = true,
+	["FilterWithChannel"] = false,
+	["DRUIDFilter"] = true,
+	["ListVisible"] = false,
+	["GreetBack"] = {
+		"Welcome back %s", -- [1]
+		"Hi again %s", -- [2]
+		"Hi %s, welcome back", -- [3]
+	},
+	["GreetChannel"] = {
+	},
+	["NewRank"] = {
+		"Congratulations %s with your promotion to %s", -- [1]
+		"Grats for %s on becoming %s", -- [2]
+	},
+	["Ranks"] = {
+	},
+	["ExtendPlayerMenu"] = false,
+}

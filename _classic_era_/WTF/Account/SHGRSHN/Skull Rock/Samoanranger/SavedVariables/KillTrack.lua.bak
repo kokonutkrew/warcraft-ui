@@ -9,77 +9,126 @@ KILLTRACK_CHAR = {
 			["Name"] = "Razormane Dustrunner",
 			["Kills"] = 0,
 		},
+		[4127] = {
+			["Name"] = "Hecklefang Hyena",
+			["Kills"] = 0,
+		},
 		[5951] = {
 			["Name"] = "Hare",
 			["Kills"] = 0,
+		},
+		[3243] = {
+			["LastKillAt"] = 1693434123,
+			["Kills"] = 5,
+			["Name"] = "Savannah Highmane",
+		},
+		[3183] = {
+			["LastKillAt"] = 1696588455,
+			["Kills"] = 1,
+			["Name"] = "Yarrog Baneshadow",
 		},
 		[3123] = {
 			["LastKillAt"] = 1693380494,
 			["Kills"] = 5,
 			["Name"] = "Bloodtalon Scythemaw",
 		},
+		[3281] = {
+			["Name"] = "Sarkoth",
+			["Kills"] = 0,
+		},
 		[3127] = {
 			["LastKillAt"] = 1693381173,
 			["Kills"] = 15,
 			["Name"] = "Venomtail Scorpid",
+		},
+		[3098] = {
+			["LastKillAt"] = 1696586318,
+			["Kills"] = 2,
+			["Name"] = "Mottled Boar",
 		},
 		[3131] = {
 			["LastKillAt"] = 1693379751,
 			["Kills"] = 2,
 			["Name"] = "Lightning Hide",
 		},
-		[3226] = {
-			["LastKillAt"] = 1693380055,
-			["Kills"] = 1,
-			["Name"] = "Corrupted Scorpid",
+		[3102] = {
+			["LastKillAt"] = 1696588414,
+			["Kills"] = 2,
+			["Name"] = "Felstalker",
 		},
 		[3197] = {
 			["LastKillAt"] = 1693379647,
 			["Kills"] = 1,
 			["Name"] = "Burning Blade Fanatic",
 		},
-		[3203] = {
-			["LastKillAt"] = 1693379717,
-			["Kills"] = 1,
-			["Name"] = "Fizzle Darkstorm",
-		},
-		[4127] = {
-			["Name"] = "Hecklefang Hyena",
-			["Kills"] = 0,
-		},
-		[3244] = {
-			["Name"] = "Greater Plainstrider",
-			["Kills"] = 0,
-		},
 		[3122] = {
 			["LastKillAt"] = 1693381354,
 			["Kills"] = 1,
 			["Name"] = "Bloodtalon Taillasher",
-		},
-		[12922] = {
-			["LastKillAt"] = 1693379697,
-			["Kills"] = 1,
-			["Name"] = "Imp Minion",
-		},
-		[3126] = {
-			["LastKillAt"] = 1693381388,
-			["Kills"] = 2,
-			["Name"] = "Armored Scorpid",
 		},
 		[3110] = {
 			["LastKillAt"] = 1693380079,
 			["Kills"] = 1,
 			["Name"] = "Dreadmaw Crocolisk",
 		},
+		[3203] = {
+			["LastKillAt"] = 1693379717,
+			["Kills"] = 1,
+			["Name"] = "Fizzle Darkstorm",
+		},
+		[3267] = {
+			["LastKillAt"] = 1693433552,
+			["Kills"] = 1,
+			["Name"] = "Razormane Water Seeker",
+		},
+		[3100] = {
+			["LastKillAt"] = 1693379964,
+			["Kills"] = 3,
+			["Name"] = "Elder Mottled Boar",
+		},
+		[3126] = {
+			["LastKillAt"] = 1693381388,
+			["Kills"] = 2,
+			["Name"] = "Armored Scorpid",
+		},
 		[3130] = {
 			["LastKillAt"] = 1693379878,
 			["Kills"] = 4,
 			["Name"] = "Thunder Lizard",
 		},
+		[3244] = {
+			["LastKillAt"] = 1693434175,
+			["Kills"] = 11,
+			["Name"] = "Greater Plainstrider",
+		},
+		[3246] = {
+			["Name"] = "Fleeting Plainstrider",
+			["Kills"] = 0,
+		},
+		[3124] = {
+			["LastKillAt"] = 1696587255,
+			["Kills"] = 13,
+			["Name"] = "Scorpid Worker",
+		},
+		[12922] = {
+			["LastKillAt"] = 1693379697,
+			["Kills"] = 1,
+			["Name"] = "Imp Minion",
+		},
+		[3254] = {
+			["LastKillAt"] = 1693433295,
+			["Kills"] = 1,
+			["Name"] = "Sunscale Lashtail",
+		},
 		[3099] = {
 			["LastKillAt"] = 1693379919,
 			["Kills"] = 1,
 			["Name"] = "Dire Mottled Boar",
+		},
+		[3101] = {
+			["LastKillAt"] = 1696588433,
+			["Kills"] = 8,
+			["Name"] = "Vile Familiar",
 		},
 		[3227] = {
 			["LastKillAt"] = 1693380946,
@@ -87,21 +136,22 @@ KILLTRACK_CHAR = {
 			["Name"] = "Corrupted Bloodtalon Scythemaw",
 		},
 		[3415] = {
+			["LastKillAt"] = 1693434082,
+			["Kills"] = 29,
 			["Name"] = "Savannah Huntress",
-			["Kills"] = 0,
 		},
-		[3100] = {
-			["LastKillAt"] = 1693379964,
-			["Kills"] = 3,
-			["Name"] = "Elder Mottled Boar",
+		[3268] = {
+			["Name"] = "Razormane Thornweaver",
+			["Kills"] = 0,
 		},
 		[12296] = {
 			["Name"] = "Sickly Gazelle",
 			["Kills"] = 0,
 		},
-		[3246] = {
-			["Name"] = "Fleeting Plainstrider",
-			["Kills"] = 0,
+		[3226] = {
+			["LastKillAt"] = 1693380055,
+			["Kills"] = 1,
+			["Name"] = "Corrupted Scorpid",
 		},
 	},
 }

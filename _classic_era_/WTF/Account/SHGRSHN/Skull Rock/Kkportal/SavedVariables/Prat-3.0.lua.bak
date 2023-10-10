@@ -16,11 +16,11 @@ Prat3CharDB = {
 			},
 			["ChatFrame9EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
 			["ChatFrame2EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -50,7 +50,7 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
-		["ChatFrame4"] = {
+		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -75,7 +75,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 1,
+			["headIndex"] = 8,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -91,14 +91,82 @@ Prat3HighCPUPerCharDB = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
 					["r"] = 1,
+					["b"] = 0,
+					["serverTime"] = 1696911089,
+					["timestamp"] = 143016.664,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 127673.536,
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 143016.664,
+					["serverTime"] = 1696911548,
+					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1696911614,
+					["timestamp"] = 143016.664,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 143016.664,
+					["serverTime"] = 1696911673,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1696922139,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 143016.664,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [5]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 143016.664,
+				}, -- [6]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 143016.664,
+				}, -- [7]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 143016.664,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [1]
+				}, -- [8]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -176,7 +244,7 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
-		["ChatFrame10"] = {
+		["ChatFrame4"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -224,7 +292,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 52,
+			["headIndex"] = 3,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -238,629 +306,1713 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff0bda51GreenWall:|r v1.11.8+classic-era loaded.",
-					["timestamp"] = 127673.536,
+					["message"] = "|cff979797|Hpratcopy|h[01:35:10]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1696923339,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						130, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144236.611,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [1]
 				{
-					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.9.4, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
-					["timestamp"] = 127673.536,
+					["message"] = "|cff979797|Hpratcopy|h[01:35:10]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1696923339,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						132, -- [2]
+						133, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144236.611,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [2]
 				{
-					["message"] = "Maekor Overpower Alert loaded.",
-					["timestamp"] = 127673.536,
+					["message"] = "|cff979797|Hpratcopy|h[01:35:10]|h|r |Hchannel:channel:7|h[7] |h Left Channel: |Hchannel:CHANNEL:7|h[7. GuildRecruitment - City]|h",
+					["serverTime"] = 1696923339,
+					["r"] = 1,
+					["extraData"] = {
+						75, -- [1]
+						135, -- [2]
+						136, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144236.611,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [3]
 				{
-					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
-					["timestamp"] = 127673.536,
+					["message"] = "|cff979797|Hpratcopy|h[01:29:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kabonk-SkullRock:11507:CHANNEL:6|h|cffc69b6dKabonk|r|h|cffd8d8d8]|r: LF 1 HEAL ULDA! SMOOTH RUN!",
+					["serverTime"] = 1696923017,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143914.671,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [4]
 				{
-					["message"] = "NeatMinimap v1.10.05 by MooreaTv: type /nmm for command list/help.",
-					["timestamp"] = 127673.536,
+					["message"] = "|cff979797|Hpratcopy|h[01:29:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Antivaxdad:11508:CHANNEL:6|h|cffaad372Antivaxdad|r|h|cffd8d8d8]|r: F",
+					["serverTime"] = 1696923018,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						205, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143914.955,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:30]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
-					["timestamp"] = 127673.536,
+					["message"] = "|cff979797|Hpratcopy|h[01:29:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Welcometodie:11509:CHANNEL:6|h|cffffffffWelcometodie|r|h|cffd8d8d8]|r: F",
+					["serverTime"] = 1696923018,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						207, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143915.256,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:34]|h|r Guild Message of the Day: Join discord and register your chosen professions. Afterlife: Whitemane. See guild info tab. <[O.o]><[KK]>",
-					["r"] = 0.250980406999588,
+					["message"] = "|cff979797|Hpratcopy|h[01:29:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Lobaloba-SkullRock:11510:CHANNEL:6|h|cffaad372Lobaloba|r|h|cffd8d8d8]|r: FFF",
+					["serverTime"] = 1696923018,
+					["r"] = 1,
 					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
+						74, -- [1]
+						4, -- [2]
+						209, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127684.052,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143915.557,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:34]|h|r |cff33ff99Gnosis|r: Gnosis v5.07 (v5.09) loaded (enabled)",
-					["timestamp"] = 127684.125,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:34]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
-					["timestamp"] = 127684.125,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:35]|h|r CensusPlusWotlk  v0.9.17 Loaded - type /censusplus or /CensusPlusWotlk  or /census for valid commands. Looking to help build the addon or website? Check out the discord https://discord.gg/DjcXKtKr88",
-					["r"] = 1,
-					["serverTime"] = 1693382971,
-					["timestamp"] = 127684.125,
-					["g"] = 1,
-					["b"] = 0.5,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:36]|h|r CensusPlusWotlk Taking census of characters online...",
-					["r"] = 1,
-					["serverTime"] = 1693382972,
-					["timestamp"] = 127684.125,
-					["g"] = 1,
-					["b"] = 0.5,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:37]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
-					["timestamp"] = 127686.939,
-					["serverTime"] = 1693382973,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:37]|h|r Staves was added to your collection!",
-					["timestamp"] = 127687.095,
-					["serverTime"] = 1693382973,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:40]|h|r You wave at Khaan.",
-					["serverTime"] = 1693382977,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 127689.726,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:42]|h|r You wave at Wolfrage.",
-					["serverTime"] = 1693382979,
-					["r"] = 1,
-					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 127692.01,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:42]|h|r You have invited |cffaad372Wolfrage|r to join your guild.",
-					["serverTime"] = 1693382979,
+					["message"] = "|cff979797|Hpratcopy|h[01:29:51]|h|r You have invited |cffc69b6dNaliduo|r to join your guild.",
+					["serverTime"] = 1696923020,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127692.093,
+					["timestamp"] = 143917.062,
 					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kiwkiww-SkullRock:11512:CHANNEL:6|h|cffaad372Kiwkiww|r|h|cffd8d8d8]|r: big F",
+					["serverTime"] = 1696923020,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						118, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143917.496,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Tooreal:11515:CHANNEL:6|h|cfffff468Tooreal|r|h|cffd8d8d8]|r: to a guard?",
+					["serverTime"] = 1696923024,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						211, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143921.672,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:56]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Lxd:11517:CHANNEL:6|h|cffaad372Lxd|r|h|cffd8d8d8]|r: 彦祖在吗   求组换个位面 谢谢",
+					["serverTime"] = 1696923025,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						213, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143922.579,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:57]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Lobaloba-SkullRock:11519:CHANNEL:6|h|cffaad372Lobaloba|r|h|cffd8d8d8]|r: dueling?",
+					["serverTime"] = 1696923026,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						209, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143922.909,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:57]|h|r |cffc69b6dNaliduo|r declines your guild invitation.",
+					["serverTime"] = 1696923026,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143923.244,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:29:58]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Verycoolorc-SkullRock:11523:CHANNEL:6|h|cffaad372Verycoolorc|r|h|cffd8d8d8]|r: bro hearthed while under attack didnt he...",
+					["serverTime"] = 1696923027,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						215, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143924.263,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:30:00]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Bobkazsfmg-SkullRock:11524:CHANNEL:6|h|cfffff468Bobkazsfmg|r|h|cffd8d8d8]|r: WTB Krol Blade",
+					["serverTime"] = 1696923029,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						217, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143925.885,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:30:00]|h|r You receive loot: |cffffffff|Hitem:5466::::::::14:::::::::|h[Scorpid Stinger]|h|r.",
+					["serverTime"] = 1696923029,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143926.452,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:44]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hRend: No current timer.|h",
-					["timestamp"] = 127694.132,
-					["serverTime"] = 1693382981,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:00]|h|r You receive loot: |cff9d9d9d|Hitem:4872::::::::14:::::::::|h[Dry Scorpid Eye]|h|r.",
+					["serverTime"] = 1696923029,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143926.686,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:44]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hOnyxia: No current timer.|h",
-					["timestamp"] = 127694.132,
-					["serverTime"] = 1693382981,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:04]|h|r You receive loot: |cffffffff|Hitem:2318::::::::14:::::::::|h[Light Leather]|h|r.",
+					["serverTime"] = 1696923033,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143930.146,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [18]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:44]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hNefarian: No current timer.|h",
-					["timestamp"] = 127694.132,
-					["serverTime"] = 1693382981,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:09]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mfbtvsfmg-SkullRock:11528:CHANNEL:6|h|cffff7c0aMfbtvsfmg|r|h|cffd8d8d8]|r: LFM |Hquestie:1088:Player-5099-01B873FD|h|cFFFF1A1A[|r|cFFFF1A1A[29] Ordanus|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696923038,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						185, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 143934.809,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [19]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:44]|h|r You wave at Kazgrækthr.",
-					["serverTime"] = 1693382981,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:18]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Krendl-SkullRock:11534:CHANNEL:6|h|cffd84e4e20|r:|cffaad372Krendl|r|h|cffd8d8d8]|r: Hunter DPS LFG WC",
+					["serverTime"] = 1696923047,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						122, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127694.216,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143943.786,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:45]|h|r |cff8787edKazgrækthr|r is already in a guild.",
-					["serverTime"] = 1693382982,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:21]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Yorch-SkullRock:11535:CHANNEL:6|h|cffc69b6dYorch|r|h|cffd8d8d8]|r: LF2M dps SM ARM 36+",
+					["serverTime"] = 1696923050,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						7, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127694.35,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 143947.68,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:47]|h|r |cffaad372Khaan|r declines your guild invitation.",
-					["serverTime"] = 1693382984,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:28]|h|r You have invited |cffffffffEgburt|r to join your guild.",
+					["serverTime"] = 1696923057,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127696.355,
+					["timestamp"] = 143954.232,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:47]|h|r You wave at Nodens.",
-					["serverTime"] = 1693382984,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:31]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Doieatpoop-SkullRock:11538:GUILD|h|cffd84e4e22|r:|cff3fc6eaDoieatpoop|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r haveu  read brave new world?",
+					["serverTime"] = 1696923060,
+					["r"] = 0.250980406999588,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						5, -- [1]
+						160, -- [2]
+						164, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127696.606,
-					["g"] = 0.501960813999176,
+					["timestamp"] = 143957.262,
+					["g"] = 1,
 					["b"] = 0.250980406999588,
 				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:47]|h|r You have invited |cffaad372Nodens|r to join your guild.",
-					["serverTime"] = 1693382984,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:32]|h|r |cffffffffEgburt|r declines your guild invitation.",
+					["serverTime"] = 1696923061,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127696.773,
+					["timestamp"] = 143958.244,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:49]|h|r |cffaad372Graga|r is already in a guild.",
-					["serverTime"] = 1693382986,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:38]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Doieatpoop-SkullRock:11540:GUILD|h|cffd84e4e22|r:|cff3fc6eaDoieatpoop|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r its like that but u just gotta be somewhat imaginative",
+					["serverTime"] = 1696923067,
+					["r"] = 0.250980406999588,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						5, -- [1]
+						160, -- [2]
+						164, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127698.394,
+					["timestamp"] = 143963.542,
 					["g"] = 1,
-					["b"] = 0,
+					["b"] = 0.250980406999588,
 				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:49]|h|r You wave at Graga.",
-					["serverTime"] = 1693382986,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Sonnette-SkullRock:11541:CHANNEL:6|h|cff8787edSonnette|r|h|cffd8d8d8]|r: O.o how do you die from a guard",
+					["serverTime"] = 1696923069,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						219, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127698.427,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143966.651,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:51]|h|r You wave at Kazrami.",
-					["serverTime"] = 1693382988,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Antivaxdad-SkullRock:11546:CHANNEL:6|h|cffaad372Antivaxdad|r|h|cffd8d8d8]|r: pvp?",
+					["serverTime"] = 1696923076,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						205, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127700.733,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143973.689,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [27]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:09:51]|h|r You have invited |cff0070ddKazrami|r to join your guild.",
-					["serverTime"] = 1693382988,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Hertty-SkullRock:11547:CHANNEL:6|h|cfffff468Hertty|r|h|cffd8d8d8]|r: mamahuevo",
+					["serverTime"] = 1696923078,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						221, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127700.884,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 143974.909,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [28]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:00]|h|r You wave at Khaan.",
-					["serverTime"] = 1693382997,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thunderstuck:11549:CHANNEL:6|h|cff0070ddThunderstuck|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696923080,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						223, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127710.077,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143977.45,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [29]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:00]|h|r You have invited |cffaad372Khaan|r to join your guild.",
-					["serverTime"] = 1693382997,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:51]|h|r You receive loot: |cffffffff|Hitem:2934::::::::14:::::::::|h[Ruined Leather Scraps]|h|r.",
+					["serverTime"] = 1696923080,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127710.16,
-					["g"] = 1,
+					["timestamp"] = 143977.684,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:11]|h|r You have invited |cffc69b6dTheironfist|r to join your guild.",
-					["serverTime"] = 1693383008,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Xhena:11552:CHANNEL:6|h|cffaad372Xhena|r|h|cffd8d8d8]|r: click the wrong flightmaster?",
+					["serverTime"] = 1696923082,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						225, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127720.474,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 143979.055,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [31]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:11]|h|r You wave at Theironfist.",
-					["serverTime"] = 1693383008,
+					["message"] = "|cff979797|Hpratcopy|h[01:30:58]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Aus-SkullRock:11556:CHANNEL:6|h|cfffff468Aus|r|h|cffd8d8d8]|r: hearthed while something was poly probs",
+					["serverTime"] = 1696923087,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						227, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127720.49,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143983.952,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:12]|h|r You wave at Brickfrog.",
-					["serverTime"] = 1693383009,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:01]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Huntoon-SkullRock:11558:CHANNEL:6|h|cffaad372Huntoon|r|h|cffd8d8d8]|r: 32 hunter LFG any dungeon group",
+					["serverTime"] = 1696923090,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						146, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127722.095,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 143987.078,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [33]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:12]|h|r You have invited |cff0070ddBrickfrog|r to join your guild.",
-					["serverTime"] = 1693383009,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:06]|h|r Chvostek has reached level 60!",
+					["serverTime"] = 1696923095,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127722.229,
+					["timestamp"] = 143992.259,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [34]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:14]|h|r |cffc69b6dTheironfist|r declines your guild invitation.",
-					["serverTime"] = 1693383011,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:12]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Goobies-SkullRock:11560:CHANNEL:6|h|cffd84e4e24|r:|cfffff468Goobies|r|h|cffd8d8d8]|r: Rogue LFG SFK",
+					["serverTime"] = 1696923101,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						98, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127723.967,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 143997.993,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [35]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:18]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Failgasm-SkullRock:9498:GUILD|h|cffd84e4e18|r:|cffaad372Failgasm|r|h|cffd8d8d8]|r: well it took about 30 mins to swim to westfall and get the bird lol.. gonna call it a night",
-					["serverTime"] = 1693383015,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						5, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 127728.263,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kharee-SkullRock:9499:CHANNEL:1|h|cff3fc6eaKharee|r|h|cffd8d8d8]|r: google is a good friend to people with lots of questions",
-					["serverTime"] = 1693383016,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Vaccination-SkullRock:11565:CHANNEL:6|h|cffd84e4e25|r:|cff8787edVaccination|r|h|cffd8d8d8]|r: LFM BFD",
+					["serverTime"] = 1696923109,
 					["r"] = 1,
 					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						229, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127728.497,
+					["timestamp"] = 144006.351,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:31:21]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Chastity:11566:CHANNEL:6|h|cffffffffChastity|r|h|cffd8d8d8]|r: why does hearthing while under attack aggro?",
+					["serverTime"] = 1696923110,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						231, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144006.802,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [37]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:23]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Failgasm-SkullRock:9500:GUILD|h|cffd84e4e18|r:|cffaad372Failgasm|r|h|cffd8d8d8]|r: later guys",
-					["serverTime"] = 1693383020,
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						5, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 127732.391,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:24]|h|r |cffaad372Khaan|r declines your guild invitation.",
-					["serverTime"] = 1693383021,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Crustyorc-SkullRock:11567:CHANNEL:6|h|cffc69b6dCrustyorc|r|h|cffd8d8d8]|r: LFM |Hquestie:2937:Player-5099-019F3F3F|h|cFFFF1A1A[|r|cFFFF1A1A[55+] Summoning Shadra|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696923114,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						94, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127733.344,
-					["g"] = 1,
+					["timestamp"] = 144011.064,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:31:28]|h|r You receive loot: |cff9d9d9d|Hitem:4877::::::::14:::::::::|h[Stone Arrowhead]|h|r.",
+					["serverTime"] = 1696923117,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144014.043,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [39]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:25]|h|r |cff0070ddBrickfrog|r declines your guild invitation.",
-					["serverTime"] = 1693383022,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Aynk-SkullRock:11573:CHANNEL:6|h|cff0070ddAynk|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|tSCAr NOn|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t For Oceanic/this time of day players. We DON'T DIE, we will RAID, we're FRIENDLY and accept anyone. Whisper for more info or |cffffff00|Hinvplr:Aynk-SkullRock|h[invite]|h|r!",
+					["serverTime"] = 1696923118,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						152, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127734.531,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 144014.707,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [40]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:35]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Hardtotem-SkullRock:9503:CHANNEL:1|h|cff0070ddHardtotem|r|h|cffd8d8d8]|r: im banned from google",
-					["serverTime"] = 1693383032,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:31]|h|r You receive loot: |cffffffff|Hitem:2318::::::::14:::::::::|h[Light Leather]|h|r.",
+					["serverTime"] = 1696923120,
+					["r"] = 0,
 					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						7, -- [3]
-						10, -- [4]
-						["n"] = 4,
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127744.794,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 144017.281,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [41]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:41]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Kandari-SkullRock:9504:CHANNEL:1|h|cfffff468Kandari|r|h|cffd8d8d8]|r: ...riiiight",
-					["serverTime"] = 1693383038,
-					["r"] = 1,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						7, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 127750.811,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:32]|h|r Your character jumped.",
+					["timestamp"] = 144018.017,
+					["serverTime"] = 1696923121,
 				}, -- [42]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:43]|h|r |cffaad372Wolfrage|r declines your guild invitation.",
-					["serverTime"] = 1693383040,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:33]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Qfx:11577:CHANNEL:6|h|cfffff468Qfx|r|h|cffd8d8d8]|r: not grats anymore kek",
+					["serverTime"] = 1696923122,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						233, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127752.316,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 144019.527,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [43]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:46]|h|r You wave at Rustyventure.",
-					["serverTime"] = 1693383043,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:35]|h|r You receive loot: |cffffffff|Hitem:5466::::::::14:::::::::|h[Scorpid Stinger]|h|r.",
+					["serverTime"] = 1696923124,
+					["r"] = 0,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127756.109,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 144020.758,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [44]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:46]|h|r You have invited |cfffff468Rustyventure|r to join your guild.",
-					["serverTime"] = 1693383043,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mazrax:11580:CHANNEL:6|h|cffaad372Mazrax|r|h|cffd8d8d8]|r: dps lfg sm gy/lib",
+					["serverTime"] = 1696923124,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						235, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127756.21,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 144021.025,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [45]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:10:52]|h|r |cff0070ddKazrami|r declines your guild invitation.",
-					["serverTime"] = 1693383049,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:38]|h|r You receive loot: |cffffffff|Hitem:2318::::::::14:::::::::|h[Light Leather]|h|r.",
+					["serverTime"] = 1696923127,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127761.316,
-					["g"] = 1,
+					["timestamp"] = 144023.933,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [46]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:11:05]|h|r You wave at Graga.",
-					["serverTime"] = 1693383062,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thunderstuck-SkullRock:11583:CHANNEL:6|h|cff0070ddThunderstuck|r|h|cffd8d8d8]|r: |CFFFF0000lf2m tank/heals/dps |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1696923137,
 					["r"] = 1,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						223, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127775.066,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 144033.813,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [47]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:11:05]|h|r |cffaad372Graga|r is already in a guild.",
-					["serverTime"] = 1693383062,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:57]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Goobies-SkullRock:11584:CHANNEL:6|h|cffd84e4e24|r:|cfffff468Goobies|r|h|cffd8d8d8]|r: Rogue LFG SFK",
+					["serverTime"] = 1696923146,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						98, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127775.15,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 144043.023,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [48]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:11:08]|h|r |cfffff468Rustyventure|r declines your guild invitation.",
-					["serverTime"] = 1693383064,
+					["message"] = "|cff979797|Hpratcopy|h[01:31:58]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Stunkkyy-SkullRock:11585:CHANNEL:6|h|cffd84e4e23|r:|cfffff468Stunkkyy|r|h|cffd8d8d8]|r: 23 rogue lfg wc",
+					["serverTime"] = 1696923147,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						59, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127777.907,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 144044.327,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [49]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:11:19]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Hardtotem-SkullRock:9510:CHANNEL:1|h|cff0070ddHardtotem|r|h|cffd8d8d8]|r: ya i sued them and won 5 million usd but am not allowed to use their service",
-					["serverTime"] = 1693383075,
+					["message"] = "|cff979797|Hpratcopy|h[01:32:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Uchihasarada-SkullRock:11587:CHANNEL:6|h|cfffff468Uchihasarada|r|h|cffd8d8d8]|r: dps LFG SM Lib",
+					["serverTime"] = 1696923153,
 					["r"] = 1,
 					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						7, -- [3]
-						10, -- [4]
-						["n"] = 4,
+						74, -- [1]
+						4, -- [2]
+						45, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127789.238,
+					["timestamp"] = 144049.942,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [50]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:11:26]|h|r You wave at Xekke.",
-					["serverTime"] = 1693383082,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[01:32:06]|h|r You receive loot: |cffffffff|Hitem:4886::::::::14:::::::::|h[Venomtail Poison Sac]|h|r.",
+					["serverTime"] = 1696923155,
+					["r"] = 0,
 					["extraData"] = {
-						12, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127796.141,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 144052.65,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [51]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[02:11:26]|h|r You have invited |cffaad372Xekke|r to join your guild.",
-					["serverTime"] = 1693383082,
+					["message"] = "|cff979797|Hpratcopy|h[01:32:07]|h|r You receive loot: |cffffffff|Hitem:5466::::::::14:::::::::|h[Scorpid Stinger]|h|r.",
+					["serverTime"] = 1696923156,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144052.79,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:07]|h|r You receive loot: |cff9d9d9d|Hitem:4872::::::::14:::::::::|h[Dry Scorpid Eye]|h|r.",
+					["serverTime"] = 1696923156,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144052.984,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:10]|h|r You receive loot: |cffffffff|Hitem:2318::::::::14:::::::::|h[Light Leather]|h|r.",
+					["serverTime"] = 1696923159,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144056.126,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:11]|h|r Your character jumped.",
+					["timestamp"] = 144056.748,
+					["serverTime"] = 1696923160,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:20]|h|r You receive loot: |cffffffff|Hitem:4886::::::::14:::::::::|h[Venomtail Poison Sac]|h|r.",
+					["serverTime"] = 1696923169,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144066.534,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:21]|h|r You receive loot: |cffffffff|Hitem:5466::::::::14:::::::::|h[Scorpid Stinger]|h|r.",
+					["serverTime"] = 1696923170,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144066.699,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:21]|h|r You receive loot: |cff9d9d9d|Hitem:4867::::::::14:::::::::|h[Broken Scorpid Leg]|h|r.",
+					["serverTime"] = 1696923170,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144066.878,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Drinkinprob-SkullRock:11598:CHANNEL:6|h|cff3fc6eaDrinkinprob|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfg|CFFFF0000 arm/cath, |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000d",
+					["serverTime"] = 1696923174,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						178, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144071.465,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Yorch-SkullRock:11599:CHANNEL:6|h|cffc69b6dYorch|r|h|cffd8d8d8]|r: LF1M dps SM ARM 36+",
+					["serverTime"] = 1696923176,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144073.639,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Huntoon-SkullRock:11600:CHANNEL:6|h|cffaad372Huntoon|r|h|cffd8d8d8]|r: 32 hunter LFG any dungeon group",
+					["serverTime"] = 1696923177,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						146, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144074.558,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:38]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
+					["serverTime"] = 1696923187,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						75, -- [2]
+						128, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144084.087,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:38]|h|r |Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1696923187,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						130, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144084.087,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:38]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1696923187,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						132, -- [2]
+						133, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144084.087,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:38]|h|r |Hchannel:channel:7|h[7] |h Changed Channel: |Hchannel:CHANNEL:7|h[7. GuildRecruitment - City]|h",
+					["serverTime"] = 1696923187,
+					["r"] = 1,
+					["extraData"] = {
+						75, -- [1]
+						135, -- [2]
+						136, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144084.087,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:39]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 4.",
+					["timestamp"] = 144084.986,
+					["serverTime"] = 1696923188,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:44]|h|r Sold junk for 4 Silver, 6 Copper.",
+					["r"] = 1,
+					["serverTime"] = 1696923193,
+					["timestamp"] = 144090.316,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:45]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Goldforsale-SkullRock:11611:CHANNEL:3|h|cffffffffGoldforsale|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfm|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696923194,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						132, -- [2]
+						237, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144091.034,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:45]|h|r |cffff7d0aKawkawan|r has gone offline.",
+					["serverTime"] = 1696923194,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 127796.225,
+					["timestamp"] = 144091.24,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [52]
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thunderstuck-SkullRock:11617:CHANNEL:6|h|cff0070ddThunderstuck|r|h|cffd8d8d8]|r: |CFFFF0000lf1m tank |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1696923200,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						223, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144097.231,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shoahbiz-SkullRock:11619:CHANNEL:2|h|cffaad372Shoahbiz|r|h|cffd8d8d8]|r: wtb port from org to TB",
+					["serverTime"] = 1696923201,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						239, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144098.042,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:54]|h|r You have invited |cffffffffRortek|r to join your guild.",
+					["serverTime"] = 1696923203,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144100.373,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:56]|h|r |cffffffffRortek|r declines your guild invitation.",
+					["serverTime"] = 1696923205,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144102.36,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:57]|h|r You have invited |cffffffffFinalheal|r to join your guild.",
+					["serverTime"] = 1696923206,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144103.231,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:32:57]|h|r |cffffffffFinalheal|r declines your guild invitation.",
+					["serverTime"] = 1696923206,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144103.448,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finessesfmg-SkullRock:11632:CHANNEL:2|h|cff0070ddFinessesfmg|r|h|cffd8d8d8]|r: |CFFFF000016 sham |CFF00FF00lfg|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c",
+					["serverTime"] = 1696923212,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						241, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144109.648,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:04]|h|r Your character jumped.",
+					["timestamp"] = 144109.899,
+					["serverTime"] = 1696923213,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Khorgak-SkullRock:11636:CHANNEL:2|h|cff0070ddKhorgak|r|h|cffd8d8d8]|r: posture check",
+					["serverTime"] = 1696923220,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						243, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144116.844,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:12]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Mfbtvsfmg-SkullRock:11637:CHANNEL:6|h|cffff7c0aMfbtvsfmg|r|h|cffd8d8d8]|r: LFM |Hquestie:1088:Player-5099-01B873FD|h|cFFFF1A1A[|r|cFFFF1A1A[29] Ordanus|r|cFFFF1A1A]|r|h",
+					["serverTime"] = 1696923221,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						185, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144118.048,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:15]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Aus-SkullRock:11639:CHANNEL:6|h|cfffff468Aus|r|h|cffd8d8d8]|r: DPS LFG ZF",
+					["serverTime"] = 1696923224,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						227, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144121.309,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:17]|h|r 10 Oct '23 12:33am : |cffc79c6eJohnnyguitar|r |CFFFF0000(M)|r has Leveled to 25 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1696923226,
+					["timestamp"] = 144122.819,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Neverwitnesa-SkullRock:11642:CHANNEL:6|h|cff3fc6eaNeverwitnesa|r|h|cffd8d8d8]|r: 33 mage LFG Gnome/SM GY Lib",
+					["serverTime"] = 1696923228,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						108, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144125.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Goldforsale-SkullRock:11649:CHANNEL:6|h|cffffffffGoldforsale|r|h|cffd8d8d8]|r: |CFFFF0000lf tank |CFF00FF00rf|CFFFF0000c g2g",
+					["serverTime"] = 1696923248,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						194, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144144.968,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:42]|h|r You feel rested.",
+					["serverTime"] = 1696923251,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144147.84,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:43]|h|r You have invited |cffff7c0aDowytwo|r to join your guild.",
+					["serverTime"] = 1696923252,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144149.038,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jbpeterson:11655:CHANNEL:2|h|cffc69b6dJbpeterson|r|h|cffd8d8d8]|r: thanks m8",
+					["serverTime"] = 1696923253,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						245, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144149.922,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cherryhot-SkullRock:11657:CHANNEL:2|h|cff3fc6eaCherryhot|r|h|cffd8d8d8]|r: LFG ulda/zf",
+					["serverTime"] = 1696923254,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						247, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144151.56,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:46]|h|r |cffff7c0aDowytwo|r declines your guild invitation.",
+					["serverTime"] = 1696923255,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144152.066,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:47]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Huntoon-SkullRock:11660:CHANNEL:6|h|cffaad372Huntoon|r|h|cffd8d8d8]|r: 32 hunter LFG any dungeon group",
+					["serverTime"] = 1696923256,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						146, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144153.071,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thunderstuck-SkullRock:11661:CHANNEL:6|h|cff0070ddThunderstuck|r|h|cffd8d8d8]|r: |CFFFF0000lf1m tank |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1696923257,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						223, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144154.392,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:49]|h|r You have invited |cffaad372Bowgli|r to join your guild.",
+					["serverTime"] = 1696923258,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144155.428,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:51]|h|r |cffaad372Bowgli|r declines your guild invitation.",
+					["serverTime"] = 1696923260,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144157.646,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Todsfmg:11667:CHANNEL:6|h|cffd84e4e29|r:|cff0070ddTodsfmg|r|h|cffd8d8d8]|r: |CFFFF0000|CFF00FF00lfg|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000k",
+					["serverTime"] = 1696923263,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						249, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144160.237,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Wabits-SkullRock:11669:CHANNEL:6|h|cffaad372Wabits|r|h|cffd8d8d8]|r: LFG BRD UD STrat ZG w/e",
+					["serverTime"] = 1696923264,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						116, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144161.331,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:33:58]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Yahmon:11670:CHANNEL:6|h|cff0070ddYahmon|r|h|cffd8d8d8]|r: LFM SFK 23+",
+					["serverTime"] = 1696923267,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						251, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144163.84,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:00]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Krendl-SkullRock:11671:CHANNEL:6|h|cffaad372Krendl|r|h|cffd8d8d8]|r: Hunter DPS LFG WC",
+					["serverTime"] = 1696923269,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						122, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144166.262,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:04]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Kabonk-SkullRock:11672:CHANNEL:6|h|cffc69b6dKabonk|r|h|cffd8d8d8]|r: LF 1 HEAL ULDA! SMOOTH RUN!",
+					["serverTime"] = 1696923273,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144170.692,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:07]|h|r Your character jumped.",
+					["timestamp"] = 144172.753,
+					["serverTime"] = 1696923276,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:07]|h|r You have invited |cffff7c0aWaygumoo|r to join your guild.",
+					["serverTime"] = 1696923276,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144173.582,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:08]|h|r Your character jumped.",
+					["timestamp"] = 144174.401,
+					["serverTime"] = 1696923277,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:08]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Goldforsale-SkullRock:11674:CHANNEL:6|h|cffffffffGoldforsale|r|h|cffd8d8d8]|r: |CFFFF0000lf tank |CFF00FF00rf|CFFFF0000c g2g",
+					["serverTime"] = 1696923277,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						194, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144174.603,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:11]|h|r You have invited |cffaad372Apacha|r to join your guild.",
+					["serverTime"] = 1696923280,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144176.716,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:11]|h|r |cffaad372Apacha|r declines your guild invitation.",
+					["serverTime"] = 1696923280,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144177.051,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:12]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Lowu-SkullRock:11679:CHANNEL:6|h|cffd84e4e30|r:|cfffff468Lowu|r|h|cffd8d8d8]|r: 30 rog LFG for BFD",
+					["serverTime"] = 1696923281,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						253, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144177.736,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:12]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq222|k:129:11680:BN_INLINE_TOAST_ALERT:0|h[|Kq222|k]|h has gone offline.",
+					["serverTime"] = 1696923281,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						255, -- [2]
+						256, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144177.736,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wutdahell-SkullRock:11682:CHANNEL:2|h|cff0070ddWutdahell|r|h|cffd8d8d8]|r: WTB|cff0070dd|Hitem:23199::::::::60:::::::::|h[Totem of the Storm]|h|r+",
+					["serverTime"] = 1696923282,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						257, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144178.859,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Goldforsale-SkullRock:11683:CHANNEL:2|h|cffffffffGoldforsale|r|h|cffd8d8d8]|r: |CFFFF0000lf tank |CFF00FF00rf|CFFFF0000c g2g",
+					["serverTime"] = 1696923282,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						259, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144178.859,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:13]|h|r Your character jumped.",
+					["timestamp"] = 144179.2,
+					["serverTime"] = 1696923282,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:15]|h|r Your character jumped.",
+					["timestamp"] = 144181.692,
+					["serverTime"] = 1696923284,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:17]|h|r |cffff7c0aWaygumoo|r declines your guild invitation.",
+					["serverTime"] = 1696923286,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144183.414,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:22]|h|r |Hplayer:Loxboxs:0:TEXT_EMOTE:|hLoxboxs|h greets you with a hearty hello!",
+					["serverTime"] = 1696923291,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						261, -- [2]
+						262, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144188.478,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:24]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Nyphodora-SkullRock:11686:CHANNEL:6|h|cff3fc6eaNyphodora|r|h|cffd8d8d8]|r: lfg SM cath and maybe arm",
+					["serverTime"] = 1696923293,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						263, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144190.249,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Boomerboi-SkullRock:11687:CHANNEL:2|h|cff3fc6eaBoomerboi|r|h|cffd8d8d8]|r: WTB Port to TB from Org",
+					["serverTime"] = 1696923295,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						265, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144192.489,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:29]|h|r [W From] |cffd8d8d8[|r|Hplayer:Apacha-SkullRock:11688:WHISPER:APACHA-SKULLROCK|h|cffd84e4e30|r:|cffaad372Apacha|r|h|cffd8d8d8]|r: no thanks",
+					["serverTime"] = 1696923298,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						267, -- [2]
+						268, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144194.829,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Goobies-SkullRock:11689:CHANNEL:6|h|cfffff468Goobies|r|h|cffd8d8d8]|r: Rogue LFG SFK",
+					["serverTime"] = 1696923298,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						98, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144194.829,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Justamule-SkullRock:11691:CHANNEL:6|h|cff3fc6eaJustamule|r|h|cffd8d8d8]|r: |CFFFF0000lf3m |CFF00FF00rf|CFFFF0000d heals 2 dps",
+					["serverTime"] = 1696923304,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						269, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144200.82,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finsham:11692:CHANNEL:2|h|cff0070ddFinsham|r|h|cffd8d8d8]|r: got you",
+					["serverTime"] = 1696923304,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						271, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144201.08,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Yolokat-SkullRock:11694:CHANNEL:6|h|cffaad372Yolokat|r|h|cffd8d8d8]|r: |CFFFF0000dps |CFF00FF00lfg|CFFFF0000 |CFF00FF00|CFF00FF00rf|CFFFF0000|CFFFF0000c have all the quests ready to share",
+					["serverTime"] = 1696923304,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						273, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144201.448,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rotorr-SkullRock:11696:CHANNEL:2|h|cffff7c0aRotorr|r|h|cffd8d8d8]|r: LF MAGE PORT ORG > UC",
+					["serverTime"] = 1696923309,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						275, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144206.647,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:41]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darothe:11697:CHANNEL:2|h|cff8787edDarothe|r|h|cffd8d8d8]|r: selling level 13 wands pst",
+					["serverTime"] = 1696923310,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						277, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144206.897,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finsham-SkullRock:11698:CHANNEL:2|h|cff0070ddFinsham|r|h|cffd8d8d8]|r: got you",
+					["serverTime"] = 1696923317,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						271, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144214.325,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oopsilagged-SkullRock:11699:CHANNEL:2|h|cfffff468Oopsilagged|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:2824::::::::53:::::::::|h[Hurricane]|h|r250g",
+					["serverTime"] = 1696923325,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						279, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144222.297,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:34:56]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Thunderstuck-SkullRock:11700:CHANNEL:6|h|cff0070ddThunderstuck|r|h|cffd8d8d8]|r: |CFFFF0000lf1m tank |CFF00FF00rf|CFFFF0000c",
+					["serverTime"] = 1696923325,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						223, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144222.297,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:35:05]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brwzd:11701:CHANNEL:2|h|cff3fc6eaBrwzd|r|h|cffd8d8d8]|r: WTB port Org to TB",
+					["serverTime"] = 1696923334,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						1, -- [2]
+						281, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144231.023,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:35:07]|h|r Finding the Antidote completed.",
+					["serverTime"] = 1696923336,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						13, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144233.446,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:35:07]|h|r You receive item: |cffffffff|Hitem:4904::::::::14:::::::::|h[Venomtail Antidote]|h|r.",
+					["serverTime"] = 1696923336,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						31, -- [2]
+						32, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144233.446,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:35:10]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Heph-SkullRock:11704:CHANNEL:6|h|cffaad372Heph|r|h|cffd8d8d8]|r: lf heals for uldaman",
+					["serverTime"] = 1696923339,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						4, -- [2]
+						181, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144236.344,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:35:10]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
+					["serverTime"] = 1696923339,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						75, -- [2]
+						128, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 144236.611,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],

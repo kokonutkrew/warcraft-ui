@@ -21,11 +21,11 @@ HandyNotesDB = {
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Forgecraft - Area 52"] = "Forgecraft - Area 52",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
-		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
@@ -74,7 +74,7 @@ HandyNotesDB = {
 		},
 		["Samoanslayer - Emerald Dream"] = {
 		},
-		["Herbcraft - Emerald Dream"] = {
+		["Bantoruskk - Emerald Dream"] = {
 		},
 		["Forgecraft - Illidan"] = {
 		},
@@ -82,7 +82,7 @@ HandyNotesDB = {
 		},
 		["Samoandrake - Emerald Dream"] = {
 		},
-		["Bantoruskk - Emerald Dream"] = {
+		["Herbcraft - Emerald Dream"] = {
 		},
 		["Samoanrelic - Stormrage"] = {
 		},
@@ -120,11 +120,11 @@ HandyNotes_HandyNotesDB = {
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Forgecraft - Area 52"] = "Forgecraft - Area 52",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
 		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
-		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
@@ -173,7 +173,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Samoanslayer - Emerald Dream"] = {
 		},
-		["Herbcraft - Emerald Dream"] = {
+		["Bantoruskk - Emerald Dream"] = {
 		},
 		["Forgecraft - Illidan"] = {
 		},
@@ -181,7 +181,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Samoandrake - Emerald Dream"] = {
 		},
-		["Bantoruskk - Emerald Dream"] = {
+		["Herbcraft - Emerald Dream"] = {
 		},
 		["Samoanrelic - Stormrage"] = {
 		},

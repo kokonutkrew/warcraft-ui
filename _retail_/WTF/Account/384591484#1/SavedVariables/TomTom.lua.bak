@@ -1,6 +1,7 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Default",
 		["Samoanlock - Emerald Dream"] = "Default",
 		["Samoansensei - Emerald Dream"] = "Default",
@@ -44,6 +45,12 @@ TomTomDB = {
 		["Samoanmystic - Tichondrius"] = "Default",
 		["Samoanwar - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+=======
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -57,6 +64,7 @@ TomTomDB = {
 				},
 			},
 			["block"] = {
+<<<<<<< Updated upstream
 				["enable"] = false,
 			},
 		},
@@ -69,6 +77,15 @@ TomTomDB = {
 			},
 			["block"] = {
 				["enable"] = false,
+=======
+				["position"] = {
+					"LEFT", -- [1]
+					nil, -- [2]
+					"LEFT", -- [3]
+					3.33312463760376, -- [4]
+					-94.44420623779297, -- [5]
+				},
+>>>>>>> Stashed changes
 			},
 		},
 	},
@@ -76,6 +93,7 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
@@ -207,5 +225,21 @@ TomTomWaypointsM = {
 		},
 		["Royders - Emerald Dream"] = {
 		},
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+		},
+		["Sonikk - Emerald Dream"] = {
+		},
+		["Ashh - Emerald Dream"] = {
+		},
+		["Samoanbatman - Emerald Dream"] = {
+		},
+>>>>>>> Stashed changes
 	},
 }

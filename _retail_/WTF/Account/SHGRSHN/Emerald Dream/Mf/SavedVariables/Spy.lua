@@ -1,12 +1,19 @@
 
 SpyPerCharDB = {
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
 		["Draazz"] = 1606942090,
 		["Herpexio"] = 1608326277,
 		["Kaijinn"] = 1611979218,
 		["Karthi"] = 1614298422,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+>>>>>>> Stashed changes
 	},
 	["IgnoreData"] = {
 	},

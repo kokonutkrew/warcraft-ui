@@ -1,0 +1,185 @@
+
+ItemTooltipIconsConfig = {
+["Emerald Dream"] = {
+["Xb"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanruin"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Kkdev"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoantitan"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoansavage"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Herbcraft"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Threadcraft"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Forgecraft"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Fedieb"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoansurge"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanranger"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanmystic"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Farmcraft"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Mf"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanbeast"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Orecraft"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoansentry"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanslayer"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoansage"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Gl"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanrelic"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoanghost"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Dustcraft"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+},
+["Stormrage"] = {
+["Samoanrelic"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoansavage"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoantitan"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+},
+["Frostmourne"] = {
+["Samoanghost"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+},
+["Tichondrius"] = {
+["Samoaninja"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+["Samoantank"] = {
+["showProfs"] = true,
+["iconSize"] = 18,
+["profFlags"] = 1023,
+["includeVendor"] = true,
+},
+},
+}

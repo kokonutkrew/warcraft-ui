@@ -1,5 +1,8 @@
-## v4.10.32 Changes
+## v4.14.20 Changes
 
-* Fixed error some users were getting when opening the Dashboard
+* [Retail] Updated for 11.0.5
+* [Classic] Updated for 4.4.1
+* [Classic] Crafting related fixes for non-english clients
+* Fix for clearing unread mails
 
-[Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)
+[Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

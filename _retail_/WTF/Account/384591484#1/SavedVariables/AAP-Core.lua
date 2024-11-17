@@ -1,22 +1,34 @@
 
 AAP1 = {
+<<<<<<< Updated upstream
 	["GliderName"] = "Goblin Glider Kit",
 	["Stormrage"] = {
 		["Samoantitan"] = {
 			["SavedVer"] = 8.1046,
 			["A13"] = 1,
+=======
+	["EmeraldDream"] = {
+		["Samoanlock"] = {
+			["A84"] = 1,
+			["QuestCounter2"] = 404,
+>>>>>>> Stashed changes
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
 				["AutoRepair"] = 0,
 				["Greetings3"] = 0,
+<<<<<<< Updated upstream
 				["BannerScale"] = 0.71,
 				["ChooseQuests"] = 0,
+=======
+				["AutoFlight"] = 1,
+>>>>>>> Stashed changes
 				["AutoGossip"] = 1,
 				["Hide"] = 0,
 				["ShowMap10s"] = 0,
 				["ShowGroup"] = 1,
 				["OrderListScale"] = 1,
+<<<<<<< Updated upstream
 				["WQs"] = 1,
 				["BannerShow"] = 0,
 				["Partytop"] = -269.9999694824219,
@@ -26,10 +38,23 @@ AAP1 = {
 				["left"] = 1200,
 				["ShowBlobs"] = 1,
 				["DisableHeirloomWarning"] = 0,
+=======
+				["leftLiz"] = 150,
+				["AutoVendor"] = 0,
+				["topLiz"] = -150,
+				["arrowtop"] = -719.9999186197916,
+				["Scale"] = 0.71,
+				["AutoAccept"] = 1,
+				["CutScene"] = 1,
+				["left"] = 1566.666259765625,
+				["ShowBlobs"] = 1,
+				["Greetings2"] = 1,
+>>>>>>> Stashed changes
 				["AutoHandIn"] = 1,
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 1200,
+<<<<<<< Updated upstream
 				["AutoShareQ"] = 0,
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
@@ -483,8 +508,73 @@ AAP1 = {
 			["QuestCounter2"] = 63,
 			["QlineSkip"] = {
 			},
+=======
+				["Partytop"] = -269.9999694824219,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["ShowQList"] = 1,
+				["ShowMapBlobs"] = 1,
+				["Hcamptop"] = -215.9999755859375,
+				["Partyleft"] = 768,
+				["MiniMapBlobAlpha"] = 1,
+				["alpha"] = 1,
+				["AutoHandInChoice"] = 0,
+				["top"] = -78.2220458984375,
+				["ChooseQuests"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["Beta1"] = 1,
+				["ShowArrow"] = 1,
+				["QuestButtons"] = 1,
+				["AutoShareQ"] = 0,
+				["DisableHeirloomWarning"] = 0,
+			},
+			["LoaPick"] = 0,
+			["QuestCounter"] = 404,
+			["A588"] = 1,
+			["FirstLoadz"] = 1,
+			["A249"] = 1,
+>>>>>>> Stashed changes
 			["SkippedBonusObj"] = {
 			},
+			["BonusSkips"] = {
+			},
+			["WantedQuestList"] = {
+			},
+			["1533-Z2-Bastion-Story"] = 50,
+			["A539"] = 1,
+			["A1670"] = 1,
+			["AAP_DoWarCampaign"] = 0,
+			["A1550"] = 1,
+			["A572"] = 1,
+			["A111"] = 1,
+			["A12"] = 1,
+			["A1527"] = 1,
+			["QlineSkip"] = {
+			},
+		},
+		["Samoanbatman"] = {
+			["A84"] = 1,
+			["A619"] = 1,
+			["A2016"] = 1,
+			["A627"] = 1,
+			["QuestCounter2"] = 1365,
+			["A542"] = 1,
+			["A630"] = 1,
+			["A895"] = 1,
+			["SkippedBonusObj"] = {
+			},
+			["A588"] = 1,
+			["QuestCounter"] = 1365,
+			["LoaPick"] = 0,
+			["1670-Venthyr"] = 20,
+			["A1550"] = 1,
+			["WantedQuestList"] = {
+			},
+			["FirstLoadz"] = 1,
+			["A42"] = 1,
+			["A1543"] = 1,
+			["A1355"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -781,7 +871,145 @@ AAP1 = {
 				["CutScene"] = 1,
 				["left"] = 1200,
 				["ShowBlobs"] = 1,
+				["DisableHeirloomWarning"] = 0,
+				["AutoHandIn"] = 1,
+				["ArrowFPS"] = 2,
+				["Lock"] = 0,
+				["Hcampleft"] = 1200,
+				["AutoShareQ"] = 0,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["QuestButtons"] = 1,
+				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
+				["Scale"] = 0.71,
+				["MiniMapBlobAlpha"] = 1,
+				["Partyleft"] = 1420.000122070313,
+				["AutoHandInChoice"] = 0,
+				["top"] = -215.9999755859375,
+				["ChooseQuests"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["alpha"] = 1,
+				["Hcamptop"] = -215.9999755859375,
+				["ShowQList"] = 1,
+				["Partytop"] = -76.99981689453125,
 				["Greetings2"] = 1,
+			},
+			["A1565"] = 1,
+			["A13"] = 1,
+			["A1670"] = 1,
+			["AAP_DoWarCampaign"] = 0,
+			["BonusSkips"] = {
+			},
+			["A572"] = 1,
+			["A539"] = 1,
+			["1670-Kyrian"] = 14,
+			["A111"] = 1,
+			["QlineSkip"] = {
+			},
+		},
+		["Ashh"] = {
+			["A84"] = 1,
+			["QuestCounter2"] = 219,
+			["A895"] = 1,
+			["Settings"] = {
+				["LockArrow"] = 0,
+				["ShowQuestListOrder"] = 0,
+				["AutoRepair"] = 0,
+				["Greetings3"] = 0,
+				["AutoFlight"] = 1,
+				["AutoGossip"] = 1,
+				["Hide"] = 0,
+				["ShowMap10s"] = 0,
+				["ShowGroup"] = 1,
+				["OrderListScale"] = 1,
+				["leftLiz"] = 150,
+				["AutoVendor"] = 0,
+				["topLiz"] = -150,
+				["arrowtop"] = -719.9999186197916,
+				["DisableHeirloomWarning"] = 0,
+				["AutoAccept"] = 1,
+				["CutScene"] = 1,
+				["left"] = 1592.221923828125,
+				["ShowBlobs"] = 1,
+				["AutoShareQ"] = 0,
+				["AutoHandIn"] = 1,
+				["ArrowFPS"] = 2,
+				["Lock"] = 0,
+				["Hcampleft"] = 1200,
+				["QuestButtons"] = 1,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["Hcamptop"] = -215.9999755859375,
+				["ShowArrow"] = 1,
+				["ShowMapBlobs"] = 1,
+				["alpha"] = 1,
+				["MiniMapBlobAlpha"] = 1,
+				["Partyleft"] = 768,
+				["AutoHandInChoice"] = 0,
+				["top"] = -118.22216796875,
+				["ChooseQuests"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["Beta1"] = 1,
+				["ShowQList"] = 1,
+				["Partytop"] = -269.9999694824219,
+				["Greetings2"] = 1,
+				["Scale"] = 0.71,
+			},
+			["A127"] = 1,
+			["LoaPick"] = 0,
+			["A876"] = 1,
+			["QuestCounter"] = 219,
+			["FirstLoadz"] = 1,
+			["A539"] = 1,
+			["WantedQuestList"] = {
+			},
+			["A13"] = 1,
+			["A113"] = 1,
+			["A118"] = 1,
+			["A84-DesMephisto-Stormwind-War"] = 3,
+			["BonusSkips"] = {
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["SkippedBonusObj"] = {
+			},
+			["HSLoc"] = 84,
+			["QlineSkip"] = {
+			},
+		},
+		["Sonikk"] = {
+			["FirstLoadz"] = 1,
+			["QuestCounter"] = 62,
+			["SkippedBonusObj"] = {
+			},
+			["QuestCounter2"] = 62,
+			["LoaPick"] = 0,
+			["A84-DesMephisto-Stormwind-War"] = 1,
+			["WantedQuestList"] = {
+			},
+			["Settings"] = {
+				["LockArrow"] = 0,
+				["ShowQuestListOrder"] = 0,
+				["AutoRepair"] = 0,
+				["Greetings3"] = 0,
+				["AutoFlight"] = 1,
+				["AutoGossip"] = 1,
+				["Hide"] = 0,
+				["ShowMap10s"] = 0,
+				["ShowGroup"] = 1,
+				["OrderListScale"] = 1,
+				["leftLiz"] = 150,
+				["AutoVendor"] = 0,
+				["topLiz"] = -150,
+				["arrowtop"] = -719.9999186197916,
+				["Greetings2"] = 1,
+				["AutoAccept"] = 1,
+				["CutScene"] = 1,
+				["left"] = 1200,
+				["ShowBlobs"] = 1,
+				["Scale"] = 0.71,
 				["AutoHandIn"] = 1,
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
@@ -792,16 +1020,27 @@ AAP1 = {
 				["ArrowScale"] = 0.71,
 				["ShowQList"] = 1,
 				["ShowMapBlobs"] = 1,
+<<<<<<< Updated upstream
 				["ShowArrow"] = 1,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
+=======
+				["Hcamptop"] = -215.9999755859375,
+>>>>>>> Stashed changes
 				["Partyleft"] = 768,
+				["MiniMapBlobAlpha"] = 1,
+				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
+<<<<<<< Updated upstream
 				["Scale"] = 0.71,
 				["Hcamptop"] = -215.9999755859375,
+=======
+				["Beta1"] = 1,
+				["ShowArrow"] = 1,
+>>>>>>> Stashed changes
 				["QuestButtons"] = 1,
 				["AutoShareQ"] = 0,
 				["DisableHeirloomWarning"] = 0,
@@ -944,6 +1183,7 @@ AAP1 = {
 			},
 			["BonusSkips"] = {
 			},
+<<<<<<< Updated upstream
 			["WantedQuestList"] = {
 			},
 			["LoaPick"] = 0,
@@ -1081,7 +1321,11 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["Greetings2"] = 1,
 			},
+=======
+			["A32"] = 1,
+>>>>>>> Stashed changes
 			["AAP_DoWarCampaign"] = 0,
+			["A84"] = 1,
 			["QlineSkip"] = {
 			},
 		},
@@ -1090,6 +1334,7 @@ AAP1 = {
 AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
+<<<<<<< Updated upstream
 	[49134] = "Antorus, the Burning Throne: The Heart of Argus",
 	[48639] = "Army of the Light",
 	[40990] = "A Good Recipe List",
@@ -1533,12 +1778,132 @@ AAPQuestNames = {
 	[34778] = "Migrant Workers",
 	[111] = "Speak with Gramma",
 	[27978] = "Ghostbuster",
+=======
+	[27920] = "Armored to the Teeth",
+	[29575] = "Undercutting the Competition",
+	[63986] = "Tazavesh: Raiders of the Lost Artifact",
+	[60057] = "Necrotic Wake: A Paragon's Plight",
+	[61331] = "Return Lost Souls",
+	[39364] = "Equipment Blueprint: Gyroscopic Internal Stabilizer",
+	[48639] = "Army of the Light",
+	[42420] = "Court of Farondis",
+	[42170] = "The Dreamweavers",
+	[60466] = "The Old Ways",
+	[36471] = "A New Darkmoon Challenger!",
+	[38253] = "Garrison Campaign: War Council",
+	[38257] = "We Need a Shipwright",
+	[64304] = "New Opportunities Await",
+	[33066] = "Soul Shards of Summoning",
+	[57327] = "Prototypes for Inspiration",
+	[48441] = "Remnants of Darkfall Ridge",
+	[50604] = "Tortollan Seekers",
+	[53910] = "Repel the Horde!",
+	[40329] = "Battle Pet Tamers: Warlords",
+	[54938] = "A Brother's Help",
+	[54180] = "Quest",
+	[36404] = "Clearing the Garden",
+	[32175] = "Darkmoon Pet Battle!",
+	[55851] = "Essential Empowerment",
+	[62693] = "A Calling in Ardenweald",
+	[35666] = "Rangari in the Red",
+	[55609] = "Operation: Mechagon - The Mechoriginator",
+	[53073] = "Hook Point Investigation",
+	[11905] = "Postponing the Inevitable",
+	[33269] = "Cleaning Up Gul'var",
+	[35686] = "Rage and Wisdom",
+	[57661] = "Silk Shortage",
+	[29659] = "Lost Treasure",
+	[64527] = "Observing the Chase",
+	[11911] = "Quickening",
+	[64106] = "A Unified Effort",
+	[61099] = "The Search for Baine",
+	[57454] = "Silence in the Stalks",
+	[60508] = "On the Trail",
+	[36592] = "Bigger is Better",
+	[36615] = "My Very Own Castle",
+	[37777] = "Death to Tremor!",
+	[50600] = "Order of Embers",
+	[29887] = "The Elder's Instruments",
+	[33075] = "A Hero's Welcome",
+	[50605] = "Alliance War Effort",
+	[29433] = "Test Your Strength",
+	[62932] = "Explore Torghast",
+	[60269] = "Reawakening",
+	[29438] = "He Shoots, He Scores!",
+	[60267] = "Prison of the Forgotten",
+	[51391] = "Defang the Faithless",
+	[56648] = "Call to Arms: Nazjatar",
+	[36286] = "Transponder 047-B",
+	[37433] = "Proving Grounds",
+	[37183] = "The Critical Path",
+	[55602] = "What Will It Lure?",
+	[62718] = "Hero's Rest",
+	[54975] = "A Brief Respite",
+	[53074] = "Reinforcements",
+	[37087] = "Lost in Transition",
+	[29463] = "It's Hammer Time",
+	[48641] = "Armies of Legionfall",
+	[42422] = "The Wardens",
+	[61984] = "Replenish the Reservoir",
+	[29598] = "Taretha's Diversion",
+	[50562] = "Champions of Azeroth",
+	[29691] = "Bring Me A Shrubbery!",
+	[43179] = "The Kirin Tor of Dalaran",
+	[56128] = "Drowning the Horde",
+	[60061] = "Tough as Silk",
+	[54519] = "Squad Goals",
+	[52028] = "Comb the Desert",
+	[52544] = "The War Cache",
+	[36624] = "Ashran Appearance",
+	[38344] = "Mystery Notebook",
+	[37775] = "Death to Nullifier Darkoor!",
+	[42421] = "The Nightfallen",
+	[29570] = "Rescuing the Expedition",
+	[63949] = "Shaping Fate",
+	[42234] = "The Valarjar",
+	[58496] = "An Unwelcome Advisor",
+	[62691] = "A Calling in Revendreth",
+	[36438] = "Beatface vs. Boulder",
+	[27604] = "Jammal'an the Prophet",
+	[44720] = "A Call to Action",
+	[53436] = "Azerite for the Alliance",
+	[51027] = "Supplies Needed: Sea Stalk",
+	[29762] = "Family Heirlooms",
+	[62719] = "The Final Pieces",
+	[56119] = "The Waveblade Ankoan",
+	[53583] = "Adapting Our Tactics",
+	[57270] = "The Temple of Purity",
+	[27354] = "Mastering the Arcane",
+	[48642] = "Argussian Reach",
+	[29658] = "The Calculator",
+	[11973] = "Prisoner of War",
+	[60125] = "Mists of Pandaria: To Pandaria!",
+	[58881] = "Tracking Quest",
+	[36495] = "News from Talador",
+	[28398] = "The Pyromancer's Grimoire",
+	[34192] = "Things Are Not Goren Our Way",
+	[34704] = "A Rediscovered Legend",
+	[60316] = "WANTED: Altered Sentinel",
+	[53711] = "A Sound Defense",
+	[38356] = "Bringing the Bass",
+	[60120] = "Burning Crusade: To Outland!",
+	[60281] = "Rule 4: Make A List",
+	[37776] = "Death to Undertow!",
+	[53909] = "Besieged Allies",
+	[50601] = "Storm's Wake",
+	[42233] = "Highmountain Tribes",
+	[47952] = "The Missing Fleet",
+	[51394] = "Break the Siege",
+	[51389] = "Breaking Free",
+	[36646] = "Your First Engineering Work Order",
+>>>>>>> Stashed changes
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {
 	["FPs"] = {
 		["Alliance"] = {
 			[572] = {
+<<<<<<< Updated upstream
 				["Samoanbatman-EmeraldDream"] = {
 					["Conts"] = {
 					},
@@ -1556,28 +1921,67 @@ AAP_Transport = {
 				["fpn"] = {
 					[1569] = "Akeeta's Hovel, Shadowmoon Valley",
 					[1447] = "Fort Wrynn (Alliance), Talador",
+=======
+				["Samoanlock-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+				["Samoanbatman-EmeraldDream"] = {
+					[1467] = 1,
+					[1381] = 1,
+					[1569] = 1,
+					["Conts"] = {
+						[572] = 1,
+					},
+					[1476] = 1,
+					[1420] = 1,
+					[1383] = 1,
+					[1620] = 1,
+					[1384] = 1,
+					[1510] = 1,
+					[1518] = 1,
+				},
+				["fpn"] = {
+					[1569] = "Akeeta's Hovel, Shadowmoon Valley",
+					[1384] = "Exile's Rise, Shadowmoon Valley",
+>>>>>>> Stashed changes
 					[1451] = "Anchorite's Sojourn, Talador",
 					[1518] = "Wildwood Wash, Gorgrond",
 					[1648] = "Sha'naari Refuge, Tanaan Jungle",
 					[1467] = "The Draakorium, Shadowmoon Valley",
 					[1475] = "Socrethar's Rise, Shadowmoon Valley",
 					[1420] = "Stormshield (Alliance), Ashran",
+<<<<<<< Updated upstream
 					[1503] = "Throne of the Elements, Nagrand",
 					[1381] = "Embaari Village, Shadowmoon Valley",
 					[1574] = "Joz's Rylaks, Nagrand",
 					[1389] = "Bloodmaul Slag Mines, Frostfire Ridge",
+=======
+					[1440] = "Zangarra, Talador",
+					[1381] = "Embaari Village, Shadowmoon Valley",
+					[1574] = "Joz's Rylaks, Nagrand",
+					[1515] = "Crow's Crook, Spires of Arak",
+>>>>>>> Stashed changes
 					[1645] = "The Iron Front, Tanaan Jungle",
 					[1523] = "Deeproot, Gorgrond",
 					[1468] = "Elodor (Alliance), Shadowmoon Valley",
 					[1476] = "Lunarfall (Alliance), Shadowmoon Valley",
+<<<<<<< Updated upstream
 					[1384] = "Exile's Rise, Shadowmoon Valley",
 					[1567] = "Temple of Karabor, Shadowmoon Valley",
 					[1382] = "Twilight Glade, Shadowmoon Valley",
 					[1452] = "Retribution Point, Talador",
+=======
+					[1389] = "Bloodmaul Slag Mines, Frostfire Ridge",
+					[1567] = "Temple of Karabor, Shadowmoon Valley",
+					[1382] = "Twilight Glade, Shadowmoon Valley",
+					[1511] = "Bastion Rise, Gorgrond",
+>>>>>>> Stashed changes
 					[1453] = "Exarch's Refuge, Talador",
 					[1646] = "Vault of the Earth, Tanaan Jungle",
 					[1524] = "Iron Docks, Gorgrond",
 					[1528] = "Iron Siegeworks, Frostfire Ridge",
+<<<<<<< Updated upstream
 					[1508] = "Veil Terokk, Spires of Arak",
 					[1507] = "Yrel's Watch, Nagrand",
 					[1440] = "Zangarra, Talador",
@@ -1587,6 +1991,17 @@ AAP_Transport = {
 					[1556] = "Tranquil Court, Shadowmoon Valley",
 					[1509] = "Talon Watch, Spires of Arak",
 					[1643] = "Aktar's Post, Tanaan Jungle",
+=======
+					[1510] = "Pinchwhistle Gearworks, Spires of Arak",
+					[1573] = "Nivek's Overlook, Nagrand",
+					[1507] = "Yrel's Watch, Nagrand",
+					[1506] = "Telaari Station, Nagrand",
+					[1503] = "Throne of the Elements, Nagrand",
+					[1447] = "Fort Wrynn (Alliance), Talador",
+					[1493] = "Southport, Spires of Arak",
+					[1448] = "Redemption Rise, Talador",
+					[1509] = "Talon Watch, Spires of Arak",
+>>>>>>> Stashed changes
 					[1568] = "Everbloom Wilds, Gorgrond",
 					[1383] = "Path of the Light, Shadowmoon Valley",
 					[1450] = "Shattrath City, Talador",
@@ -1594,6 +2009,7 @@ AAP_Transport = {
 					[1647] = "Malo's Lookout, Tanaan Jungle",
 					[1462] = "Terokkar Refuge, Talador",
 					[1529] = "Darktide Roost, Shadowmoon Valley",
+<<<<<<< Updated upstream
 					[1513] = "Apexis Excavation, Spires of Arak",
 					[1572] = "Rilzit's Holdfast, Nagrand",
 					[1448] = "Redemption Rise, Talador",
@@ -1602,10 +2018,21 @@ AAP_Transport = {
 					[1515] = "Crow's Crook, Spires of Arak",
 					[1519] = "Highpass, Gorgrond",
 					[1520] = "Breaker's Crown, Gorgrond",
+=======
+					[1643] = "Aktar's Post, Tanaan Jungle",
+					[1513] = "Apexis Excavation, Spires of Arak",
+					[1572] = "Rilzit's Holdfast, Nagrand",
+					[1556] = "Tranquil Court, Shadowmoon Valley",
+					[1452] = "Retribution Point, Talador",
+					[1519] = "Highpass, Gorgrond",
+					[1620] = "Lion's Watch, Tanaan Jungle",
+					[1508] = "Veil Terokk, Spires of Arak",
+>>>>>>> Stashed changes
 					[1502] = "The Ring of Trials, Nagrand",
 					[1539] = "Skysea Ridge, Gorgrond",
 				},
 			},
+<<<<<<< Updated upstream
 			[424] = {
 				["Samoanlock-EmeraldDream"] = {
 					["Conts"] = {
@@ -1628,7 +2055,34 @@ AAP_Transport = {
 				},
 			},
 			[1550] = {
+=======
+			[13] = {
+>>>>>>> Stashed changes
 				["Samoanbatman-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+				["Sonikk-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+				["Ashh-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+			},
+			[1550] = {
+				["Samoanlock-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+				["Samoanbatman-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+			},
+			[876] = {
+				["Ashh-EmeraldDream"] = {
 					["Conts"] = {
 					},
 				},
@@ -1706,10 +2160,17 @@ AAP_Transport = {
 					},
 				},
 			},
+			[113] = {
+				["Ashh-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+			},
 		},
 	},
 }
 AAP_Custom = {
+<<<<<<< Updated upstream
 	["Samoanwar-EmeraldDream"] = {
 	},
 	["Samoanlock-EmeraldDream"] = {
@@ -1750,6 +2211,23 @@ AAP_Custom = {
 		"(8/8) 10-50 Spires of Arak", -- [8]
 	},
 	["Samoanhunter-EmeraldDream"] = {
+=======
+	["Samoanlock-EmeraldDream"] = {
+	},
+	["Samoanbatman-EmeraldDream"] = {
+	},
+	["Sonikk-EmeraldDream"] = {
+		"(1/8) 10-50 Stormwind", -- [1]
+		"(2/8) 10-50 Tanaan Jungle", -- [2]
+		"(3/8) 10-50 Shadowmoon", -- [3]
+		"(4/8) 10-50 Gorgrond", -- [4]
+		"(5/8) 10-50 Talador", -- [5]
+		"(6/8) 10-50 Shadowmoon", -- [6]
+		"(7/8) 10-50 Talador", -- [7]
+		"(8/8) 10-50 Spires of Arak", -- [8]
+	},
+	["Ashh-EmeraldDream"] = {
+>>>>>>> Stashed changes
 		"(1/8) 10-50 Stormwind", -- [1]
 		"(2/8) 10-50 Tanaan Jungle", -- [2]
 		"(3/8) 10-50 Shadowmoon", -- [3]
@@ -1761,11 +2239,15 @@ AAP_Custom = {
 	},
 }
 AAP_ZoneComplete = {
+<<<<<<< Updated upstream
 	["Samoanwar-EmeraldDream"] = {
 	},
 	["Samoanlock-EmeraldDream"] = {
 		["(1/8) 10-50 Stormwind"] = 1,
 		["(2/8) 10-50 Tanaan Jungle"] = 1,
+=======
+	["Samoanlock-EmeraldDream"] = {
+>>>>>>> Stashed changes
 	},
 	["Samoanbatman-EmeraldDream"] = {
 		["(2/8) 10-50 Tanaan Jungle"] = 1,
@@ -1782,6 +2264,10 @@ AAP_ZoneComplete = {
 		["(2/8) 10-50 Tanaan Jungle"] = 1,
 	},
 	["Samoanhunter-EmeraldDream"] = {
+	},
+	["Sonikk-EmeraldDream"] = {
+	},
+	["Ashh-EmeraldDream"] = {
 	},
 }
 AAP_TaxiTimers = {

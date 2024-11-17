@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+local addonName, addon = ...
+
+>>>>>>> Stashed changes
 local L = TomTomLocals
 
 local function createconfig()
@@ -36,8 +41,13 @@ local function createconfig()
 			TomTom:ShowHideWorldCoords()
 		elseif ns == "arrow" then
 			TomTom:ShowHideCrazyArrow()
+<<<<<<< Updated upstream
         elseif ns == "poi" and (not TomTom.CLASSIC) then
             TomTom:EnableDisablePOIIntegration()
+=======
+		elseif ns == "poi" and TomTom.WOW_MAINLINE then
+			TomTom:EnableDisablePOIIntegration()
+>>>>>>> Stashed changes
 		elseif opt == "otherzone" then
 			TomTom:ReloadWaypoints()
 		elseif info.arg == "minimap.enable" or info.arg == "worldmap.enable" then
@@ -306,9 +316,30 @@ local function createconfig()
 						width = "double",
 						arg = "arrow.showdistance",
 					},
+<<<<<<< Updated upstream
 					scale = {
 						type = "range",
 						order = 3,
+=======
+					distanceUnits = {
+						order = 3,
+						type = "select",
+						name = L["Distance unit to use"],
+						desc = L["Configures which unit (yards, metrics, auto) to show distances in"],
+						width = "double",
+						values = {
+							["auto"] = "Automatic (yards for US, metric elsewhere)",
+							["yards"] = "Show the distance in yards",
+							["meters"] = "Show the distance in meters",
+							["humanyards"] = "Show distance in miles and yards",
+							["humanmeters"] = "Show distance in km and meters",
+						},
+						arg = "arrow.distanceUnits",
+					},
+					scale = {
+						type = "range",
+						order = 4,
+>>>>>>> Stashed changes
 						name = L["Scale"],
 						desc = L["This setting allows you to change the scale of the waypoint arrow, making it larger or smaller"],
 						min = 0, max = 3, step = 0.05,
@@ -316,7 +347,11 @@ local function createconfig()
 					},
 					alpha = {
 						type = "range",
+<<<<<<< Updated upstream
 						order = 4,
+=======
+						order = 5,
+>>>>>>> Stashed changes
 						name = L["Alpha"],
 						desc = L["This setting allows you to change the opacity of the waypoint arrow, making it transparent or opaque"],
 						min = 0.1, max = 1.0, step = 0.05,
@@ -324,7 +359,11 @@ local function createconfig()
 					},
 					title_width = {
 						type = "range",
+<<<<<<< Updated upstream
 						order = 5,
+=======
+						order = 6,
+>>>>>>> Stashed changes
 						name = L["Title Width"],
 						desc = L["This setting allows you to specify the maximum width of the title text.  Any titles that are longer than this width (in game pixels) will be wrapped to the next line."],
 						min = 0, max = 500, step = 1,
@@ -332,7 +371,11 @@ local function createconfig()
 					},
 					title_height = {
 						type = "range",
+<<<<<<< Updated upstream
 						order = 6,
+=======
+						order = 7,
+>>>>>>> Stashed changes
 						name = L["Title Height"],
 						desc = L["This setting allows you to specify the maximum height of the title text.  Any titles that are longer than this height (in game pixels) will be truncated."],
 						min = 0, max = 300, step = 1,
@@ -340,7 +383,11 @@ local function createconfig()
 					},
 					title_scale = {
 						type = "range",
+<<<<<<< Updated upstream
 						order = 7,
+=======
+						order = 8,
+>>>>>>> Stashed changes
 						name = L["Title Scale"],
 						desc = L["This setting allows you to specify the scale of the title text."],
 						min = 0, max = 3, step = 0.05,
@@ -348,14 +395,22 @@ local function createconfig()
 					},
 					title_alpha = {
 						type = "range",
+<<<<<<< Updated upstream
 						order = 8,
+=======
+						order = 9,
+>>>>>>> Stashed changes
 						name = L["Title Alpha"],
 						desc = L["This setting allows you to change the opacity of the title text, making it transparent or opaque"],
 						min = 0, max = 1.0, step = 0.05,
 						arg = "arrow.title_alpha",
 					},
 					reset_position = {
+<<<<<<< Updated upstream
 						order = 9,
+=======
+						order = 10,
+>>>>>>> Stashed changes
 						type = "execute",
 						name = L["Reset Position"],
 						desc = L["Resets the position of the waypoint arrow if its been dragged off screen"],
@@ -896,7 +951,11 @@ local function createBlizzOptions()
 	dialog:AddToBlizOptions("TomTom-Feeds", options.args.feeds.name, "TomTom")
 
 	-- POI Options
+<<<<<<< Updated upstream
 	if not TomTom.CLASSIC then
+=======
+	if TomTom.WOW_MAINLINE then
+>>>>>>> Stashed changes
 		config:RegisterOptionsTable("TomTom-POI", options.args.poi)
 		dialog:AddToBlizOptions("TomTom-POI", options.args.poi.name, "TomTom")
 	end
@@ -911,13 +970,33 @@ local function createBlizzOptions()
 	return blizzPanel
 end
 
+<<<<<<< Updated upstream
 SLASH_TOMTOM1 = "/tomtom"
 local blizzPanel
 SlashCmdList["TOMTOM"] = function(msg)
+=======
+local aboutOptions = {
+	type = "group",
+	args = {
+		version = {
+			order = 1,
+			type = "description",
+			name = function() return "Version: TomTom-".. addon.version end,
+
+		}
+	},
+}
+
+local blizzPanel
+function addon:CreateConfigPanels()
+	config:RegisterOptionsTable("TomTom", aboutOptions)
+	local aboutFrame = dialog:AddToBlizOptions("TomTom", "TomTom")
+>>>>>>> Stashed changes
 	if not registered then
 		blizzPanel = createBlizzOptions()
 		registered = true
 	end
+<<<<<<< Updated upstream
 
 	InterfaceOptionsFrame_OpenToCategory("TomTom")
 	InterfaceOptionsFrame_OpenToCategory("TomTom")
@@ -932,3 +1011,24 @@ hijackFrame:SetScript("OnShow", function(self)
 
 	self:SetScript("OnShow", nil)
 end)
+=======
+end
+
+SLASH_TOMTOM1 = "/tomtom"
+SlashCmdList["TOMTOM"] = function(msg)
+	local tokens = {}
+	for token in msg:gmatch("%S+") do table.insert(tokens, token) end
+
+	if tokens[1] and tokens[1]:lower() == "help" then
+		TomTom.slashCommandUsage()
+		return
+	end
+
+	if Settings then
+		Settings.OpenToCategory("TomTom")
+	elseif InterfaceOptionsFrame_OpenToCategory then
+		InterfaceOptionsFrame_OpenToCategory("TomTom")
+		InterfaceOptionsFrame_OpenToCategory("TomTom")
+	end
+end
+>>>>>>> Stashed changes

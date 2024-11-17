@@ -1,0 +1,2 @@
+
+ItemTooltipIconsConfig = nil

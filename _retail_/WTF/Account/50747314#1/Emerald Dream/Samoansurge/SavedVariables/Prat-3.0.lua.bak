@@ -1,0 +1,2049 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 36,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arconmedon-EmeraldDream:2276:CHANNEL:2|h|cfff38bb9Arconmedon|r|h|cffd8d8d8]|r: - RUIN MYTHIC + Key Group formation, basic training. VALOR KEY FARM. Best in slot gear, Versatility Valor gearing. Listed: Custom PVP Group Finder. Discord: |cffffffff|Hurl:https://discord.gg/ruin|h[https://discord.gg/ruin]|h|r Streaming: |cffffffff|Hurl:https://twitch.tv/RuinTV|h[https://twitch.tv/RuinTV]|h|r",
+					["serverTime"] = 1618188379,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						80, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198677.064,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:33]|h|r Lunã creates: |cff00ccff|Hitem:122353::::::::46:269:::1:583::::|h[Dignified Headmaster's Charge]|h|r.",
+					["serverTime"] = 1618188393,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198691.065,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2279:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: *+*|cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r*+* Join us! Just do it! We are a friendly group looking to meet more fun people to play with!",
+					["serverTime"] = 1618188413,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198711.538,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:49:05]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2298:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r Is looking to expand our Raid and RBG teams. We are 9/10H CN, run RBGs weekly, push  M+keys, and have 5+ events every week so there is something for everyone. PST!",
+					["serverTime"] = 1618188545,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198842.833,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:51:00]|h|r |cfffefefeLunã|r leaves the party.",
+					["serverTime"] = 1618188660,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198958.116,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:52:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dirtyjab-EmeraldDream:2433:CHANNEL:2|h|cff00fe97Dirtyjab|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1618188724,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199021.666,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:56:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jandorr-EmeraldDream:2480:CHANNEL:2|h|cfffefefeJandorr|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:184797::::::::60:256:::3:6652:1472:6646:1:28:1707:::|h[Zink's Subtle Shank]|h|r PST w/ OFFER",
+					["serverTime"] = 1618188971,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199269.165,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:56:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2485:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r is looking to build a fresh RBG team. If you are a low CR PvPer looking for a chill group to progress with please message me for more info!",
+					["serverTime"] = 1618188990,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199287.911,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:56:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Franknnbeanz-EmeraldDream:2487:CHANNEL:2|h|cff006fdcFranknnbeanz|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1618188999,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199297.101,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:58:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2498:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r Is looking to expand our Raid and RBG teams. We are 9/10H CN, run RBGs weekly, push  M+keys, and have 5+ events every week so there is something for everyone. PST!",
+					["serverTime"] = 1618189130,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199427.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slumkiing-EmeraldDream:2499:CHANNEL:2|h|cff00fe97Slumkiing|r|h|cffd8d8d8]|r: im struggling to pick between human monk or zandalari",
+					["serverTime"] = 1618189159,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199457.396,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2500:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: horde sucks",
+					["serverTime"] = 1618189168,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199466.534,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Doodbruh-EmeraldDream:2501:CHANNEL:2|h|cffa22fc8Doodbruh|r|h|cffd8d8d8]|r: gnome",
+					["serverTime"] = 1618189173,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						105, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199471.079,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slumkiing-EmeraldDream:2502:CHANNEL:2|h|cff00fe97Slumkiing|r|h|cffd8d8d8]|r: i mean i play both sides",
+					["serverTime"] = 1618189196,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199494.018,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spkilla-EmeraldDream:2503:CHANNEL:2|h|cfff38bb9Spkilla|r|h|cffd8d8d8]|r: panda. panda.panda panda panda",
+					["serverTime"] = 1618189200,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						107, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199498.111,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2504:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: then you know horde sucks",
+					["serverTime"] = 1618189203,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199501.586,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:05]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq54|k:23:2505:BN_INLINE_TOAST_ALERT:0|h[|Kq54|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tMrFistington)|h has come online.",
+					["serverTime"] = 1618189205,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						5, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199503.157,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slumkiing-EmeraldDream:2506:CHANNEL:2|h|cff00fe97Slumkiing|r|h|cffd8d8d8]|r: lol",
+					["serverTime"] = 1618189210,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199508.47,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blastroid-EmeraldDream:2507:CHANNEL:2|h|cffa9d271Blastroid|r|h|cffd8d8d8]|r: TAKES 5 hours to get to shadowlands quests",
+					["serverTime"] = 1618189211,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						110, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199509.539,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tinarra-EmeraldDream:2508:CHANNEL:2|h|cff3ec6eaTinarra|r|h|cffd8d8d8]|r: takes me 5 hours to fuck your mom lol",
+					["serverTime"] = 1618189238,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199535.735,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stryper-EmeraldDream:2509:CHANNEL:2|h|cfff38bb9Stryper|r|h|cffd8d8d8]|r: dude",
+					["serverTime"] = 1618189244,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						114, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199542.425,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2510:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: you must have the libido of a sex god man",
+					["serverTime"] = 1618189250,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199548.507,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2511:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: 5 hours??!!",
+					["serverTime"] = 1618189257,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199555.189,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dirtyjab-EmeraldDream:2512:CHANNEL:2|h|cff00fe97Dirtyjab|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1618189269,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199567.269,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tipsypally-EmeraldDream:2513:CHANNEL:2|h|cfff38bb9Tipsypally|r|h|cffd8d8d8]|r: jesus what do you take?",
+					["serverTime"] = 1618189270,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199568.004,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slumkiing-EmeraldDream:2514:CHANNEL:2|h|cff00fe97Slumkiing|r|h|cffd8d8d8]|r: gas station stinger pills, a shit ton of themm",
+					["serverTime"] = 1618189290,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199587.7,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2515:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: or maybe the prostate trick...",
+					["serverTime"] = 1618189318,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199615.634,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:02:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slumkiing-EmeraldDream:2516:CHANNEL:2|h|cff00fe97Slumkiing|r|h|cffd8d8d8]|r: oooooooh",
+					["serverTime"] = 1618189324,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199622.1,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:02:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lheannan-EmeraldDream:2517:CHANNEL:2|h|cfffe7b09Lheannan|r|h|cffd8d8d8]|r: the what trick?",
+					["serverTime"] = 1618189366,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						118, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199664.553,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stir-EmeraldDream:2518:CHANNEL:2|h|cff8687edStir|r|h|cffd8d8d8]|r: i hate my life bros",
+					["serverTime"] = 1618189389,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						120, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199687.617,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tommyßahama-EmeraldDream:2519:CHANNEL:2|h|cfff38bb9Tommyßahama|r|h|cffd8d8d8]|r: welcome",
+					["serverTime"] = 1618189401,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						122, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199699.496,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2520:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: why",
+					["serverTime"] = 1618189422,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199719.828,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tommyßahama-EmeraldDream:2521:CHANNEL:2|h|cfff38bb9Tommyßahama|r|h|cffd8d8d8]|r: yeah why",
+					["serverTime"] = 1618189434,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						122, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199732.376,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:05:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tommyßahama-EmeraldDream:2522:CHANNEL:2|h|cfff38bb9Tommyßahama|r|h|cffd8d8d8]|r: looks like he offed himself",
+					["serverTime"] = 1618189506,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						122, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199804.067,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:05:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2523:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: yup",
+					["serverTime"] = 1618189522,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199820.441,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:05:33]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1618189533,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 199830.882,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:00]|h|r Reputation with Cenarion Expedition increased by 750.",
+					["serverTime"] = 1618187460,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197758.425,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:00]|h|r Reputation with Guild increased by 250.",
+					["serverTime"] = 1618187460,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197758.486,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:00]|h|r Rescuing the Expedition completed.",
+					["serverTime"] = 1618187460,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197758.486,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:00]|h|r Experience gained: 6150.",
+					["serverTime"] = 1618187460,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197758.486,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:00]|h|r |cFF8040FFGRA|r: Taxed loot/quest: 2 Gold, 2 Silver, 20 Copper",
+					["timestamp"] = 197758.486,
+					["serverTime"] = 1618187460,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:00]|h|r Received 20 Gold, 22 Silver.",
+					["serverTime"] = 1618187460,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197758.486,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:03]|h|r You gain 6150 experience.",
+					["serverTime"] = 1618187463,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.625,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:216519:0|h[Celestial Fortune]|h|r.",
+					["serverTime"] = 1618187464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.641,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r Reputation with Sporeggar increased by 1125.",
+					["serverTime"] = 1618187464,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.641,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r You are now Friendly with Sporeggar.",
+					["serverTime"] = 1618187464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.641,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r Congratulations, you have reached |cffFF4E00|Hlevelup:46:LEVEL_UP_TYPE_CHARACTER|h[Level 46]|h|r!",
+					["serverTime"] = 1618187464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 197761.929,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r Bring Me A Shrubbery! completed.",
+					["serverTime"] = 1618187464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.929,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r Experience gained: 6150.",
+					["serverTime"] = 1618187464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.929,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r |cFF8040FFGRA|r: Taxed loot/quest: 2 Gold, 2 Silver, 20 Copper",
+					["timestamp"] = 197761.929,
+					["serverTime"] = 1618187464,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r Received 20 Gold, 22 Silver.",
+					["serverTime"] = 1618187464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.929,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:04]|h|r Reputation with Guild increased by 250.",
+					["serverTime"] = 1618187464,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197761.929,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r You gain 6300 experience.",
+					["serverTime"] = 1618187468,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.238,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r Reputation with Sporeggar increased by 1575.",
+					["serverTime"] = 1618187468,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.238,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r Stalk the Stalker completed.",
+					["serverTime"] = 1618187468,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.307,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r Experience gained: 6300.",
+					["serverTime"] = 1618187468,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.307,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r |cFF8040FFGRA|r: Taxed loot/quest: 2 Gold, 8 Silver, 56 Copper",
+					["timestamp"] = 197766.307,
+					["serverTime"] = 1618187468,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r Received 20 Gold, 85 Silver, 60 Copper.",
+					["serverTime"] = 1618187468,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.307,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r |cffd8d8d8[|r|Hplayer:Teeshot-Stormrage:2201:ACHIEVEMENT|h|cff8b8b8b16|r:|cffa9d271Teeshot|r-|cffc4955eSto|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:4956:Player-60-0E33415D:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r |cffffffff(|rCompleted 4/10/21|cffffffff)|r!",
+					["serverTime"] = 1618187468,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						47, -- [3]
+						62, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.307,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r You receive item: |cff0070dd|Hitem:28109::::::::46:268::11:1:6710:2:9:46:28:1886:::|h[Essence Infused Mushroom]|h|r. |cffffd200|Hshareitem:28109::::::::46:268::11:1:6710:2:9:46:28:1886::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1618187468,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						14, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.307,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:08]|h|r Reputation with Guild increased by 250.",
+					["serverTime"] = 1618187468,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197766.307,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:10]|h|r |cffa5a5a5Niñ|r-Kael'thas has left the instance group.",
+					["serverTime"] = 1618187470,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197768.342,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:12]|h|r You gain 6300 experience.",
+					["serverTime"] = 1618187472,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197769.959,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:12]|h|r A Necessary Evil completed.",
+					["serverTime"] = 1618187472,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197769.982,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:12]|h|r Experience gained: 6300.",
+					["serverTime"] = 1618187472,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197769.982,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:12]|h|r |cFF8040FFGRA|r: Taxed loot/quest: 2 Gold, 8 Silver, 56 Copper",
+					["timestamp"] = 197769.982,
+					["serverTime"] = 1618187472,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:12]|h|r Received 20 Gold, 85 Silver, 60 Copper.",
+					["serverTime"] = 1618187472,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197769.982,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:12]|h|r Reputation with Guild increased by 250.",
+					["serverTime"] = 1618187472,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197769.982,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:17]|h|r |cffd8d8d8[|r|Hplayer:Lunã-EmeraldDream:2210:ACHIEVEMENT|h|cff8b8b8b14|r:|cfffefefeLunã|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:4956:Player-162-0B54B8AB:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r |cffffffff(|rCompleted 4/10/21|cffffffff)|r!",
+					["serverTime"] = 1618187477,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						47, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197775.263,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:29]|h|r 2021-4-11 07:31pm : |CFF00FF96Samoansurge|r |CFFFF0000(M)|r (|CFFFFF569Samoansavage|r) has Leveled to 46 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1618187489,
+					["timestamp"] = 197786.669,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:36]|h|r Lunã has left the instance group.",
+					["serverTime"] = 1618187496,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197794.451,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:36]|h|r |cffa5a5a5Teeshot|r-Stormrage has left the instance group.",
+					["serverTime"] = 1618187496,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197794.451,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:36]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1618187496,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197794.451,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:36]|h|r |Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1618187496,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197794.451,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:36]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1618187496,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197794.451,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:40]|h|r You feel rested.",
+					["serverTime"] = 1618187500,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197798.35,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:54]|h|r Repaired for 3 Silver, 29 Copper.",
+					["r"] = 1,
+					["serverTime"] = 1618187514,
+					["timestamp"] = 197811.792,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:54]|h|r |cff00fe97ElvUI:|r Your items have been repaired for: 3|cffc7c7cfs|r 29|cffeda55fc|r",
+					["timestamp"] = 197812.341,
+					["serverTime"] = 1618187514,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:55]|h|r Sold junk for 5 Gold, 28 Silver, 41 Copper.",
+					["r"] = 1,
+					["serverTime"] = 1618187515,
+					["timestamp"] = 197813.315,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:32:01]|h|r [S] |cffd8d8d8[|r|Hplayer:Squittle-EmeraldDream:2217:SAY|h|cffa22fc8Squittle|r|h|cffd8d8d8]|r: work them calves work them calves",
+					["serverTime"] = 1618187521,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						41, -- [3]
+						64, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197819.458,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:32:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Malathala-EmeraldDream:2218:CHANNEL:2|h|cff006fdcMalathala|r|h|cffd8d8d8]|r: LF Leatherworker to make |cff0070dd|Hitem:15056::::::::60:263:::::::|h[Stormshroud Armor]|h|r SET PLEASE",
+					["serverTime"] = 1618187531,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197829.009,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:32:38]|h|r You gained: |cffffffff40|TInterface\\MoneyFrame\\UI-GoldIcon:0:0:2:0|t 2|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 17|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t|r",
+					["serverTime"] = 1618187558,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 197855.993,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:32:38]|h|r |cFF8040FFGRA|r: Taxed sales: 4 Gold, 21 Copper",
+					["timestamp"] = 197855.993,
+					["serverTime"] = 1618187558,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:09]|h|r You leave the group.",
+					["serverTime"] = 1618187589,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197887.165,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2220:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r Is looking to expand our Raid and RBG teams. We are 9/10H CN, run RBGs weekly, push  M+keys, and have 5+ events every week so there is something for everyone. PST!",
+					["serverTime"] = 1618187595,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197893.033,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:25]|h|r |cff3ec6eaFenlanlan|r leaves the party.",
+					["serverTime"] = 1618187605,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197902.765,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:31]|h|r Kyra Boucher says: Welcome.",
+					["serverTime"] = 1618187611,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197908.851,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:40]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Grand Expedition Yak' (460) not yet known. |cffff9900|Hitem:cosFix:mountId:460|h[Click here to define it!]|h|r",
+					["timestamp"] = 197918.43,
+					["serverTime"] = 1618187620,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:46]|h|r William says: No fair!  Gimme back my gorilla!!",
+					["serverTime"] = 1618187626,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197924.032,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:33:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lua-EmeraldDream:2224:CHANNEL:2|h|cff006fdcLua|r|h|cffd8d8d8]|r: Been off for a couple of weeks. Nothing new, I take it? No solo challenge content?",
+					["serverTime"] = 1618187632,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197929.809,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:24]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Valley of Heroes is under attack!|r",
+					["serverTime"] = 1618187664,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						21, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197962.529,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:26]|h|r Darnassian Refugee says: Gone? What do you mean, gone? I demand reimbursement!",
+					["serverTime"] = 1618187666,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197964.599,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cokoshark-EmeraldDream:2227:CHANNEL:2|h|cfffe7b09Cokoshark|r|h|cffd8d8d8]|r: nope - still random nobodies logging in every few weeks",
+					["serverTime"] = 1618187667,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197964.846,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:30]|h|r You don't have permission to do that.",
+					["serverTime"] = 1618187670,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197968.377,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:30]|h|r You don't have permission to do that.",
+					["serverTime"] = 1618187670,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197968.377,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:30]|h|r You don't have permission to do that.",
+					["serverTime"] = 1618187670,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197968.377,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:30]|h|r You don't have permission to do that.",
+					["serverTime"] = 1618187670,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197968.377,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:30]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansurge-EmeraldDream:2232:GUILD|h|cffd8bc3f46|r:|cff00fe97Samoansurge|r|h|cffd8d8d8]|r: Guild Tax deposited: 39 Gold, 61 Silver, 23 Copper",
+					["serverTime"] = 1618187670,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						44, -- [3]
+						75, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197968.511,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Franknnbeanz-EmeraldDream:2233:CHANNEL:2|h|cff006fdcFranknnbeanz|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1618187674,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197972.496,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fergain-EmeraldDream:2234:CHANNEL:2|h|cfff38bb9Fergain|r|h|cffd8d8d8]|r: Any Max BS on link plse",
+					["serverTime"] = 1618187694,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						78, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197992.14,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:34:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arconmedon-EmeraldDream:2235:CHANNEL:2|h|cfff38bb9Arconmedon|r|h|cffd8d8d8]|r: - RUIN MYTHIC + Key Group formation, basic training. VALOR KEY FARM. Best in slot gear, Versatility Valor gearing. Listed: Custom PVP Group Finder. Discord: |cffffffff|Hurl:https://discord.gg/ruin|h[https://discord.gg/ruin]|h|r Streaming: |cffffffff|Hurl:https://twitch.tv/RuinTV|h[https://twitch.tv/RuinTV]|h|r",
+					["serverTime"] = 1618187698,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						80, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197996.561,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:35:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lua-EmeraldDream:2236:CHANNEL:2|h|cff006fdcLua|r|h|cffd8d8d8]|r: Back in 9.1 then, when hopefully there's a tad bit of content.",
+					["serverTime"] = 1618187701,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 197999.255,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:35:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cokoshark-EmeraldDream:2237:CHANNEL:2|h|cfffe7b09Cokoshark|r|h|cffd8d8d8]|r: kbye",
+					["serverTime"] = 1618187711,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198009.354,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:35:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lua-EmeraldDream:2238:CHANNEL:2|h|cff006fdcLua|r|h|cffd8d8d8]|r: Fergain, you can get anybody to link blacksmith, then you view the \"unlearned\" tab.",
+					["serverTime"] = 1618187718,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198015.875,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:35:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arahezan-EmeraldDream:2240:CHANNEL:2|h|cff3ec6eaArahezan|r|h|cffd8d8d8]|r: good bye man",
+					["serverTime"] = 1618187729,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198027.255,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:35:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2241:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: *+*|cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r*+* Join us! Just do it! We are a friendly group looking to meet more fun people to play with!",
+					["serverTime"] = 1618187758,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198056.221,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:36:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Malathala-EmeraldDream:2242:CHANNEL:2|h|cffd84e4e60|r:|cff006fdcMalathala|r|h|cffd8d8d8]|r: LF Leatherworker to make |cff0070dd|Hitem:15056::::::::60:263:::::::|h[Stormshroud Armor]|h|r SET",
+					["serverTime"] = 1618187805,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198103.267,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:37:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:2243:CHANNEL:2|h|cffa9d271Rains|r|h|cffd8d8d8]|r: I just tried whispering you on my lw.",
+					["serverTime"] = 1618187864,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198162.481,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:37:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nejibana-EmeraldDream:2244:CHANNEL:2|h|cff3ec6eaNejibana|r|h|cffd8d8d8]|r: paying 700g for a tank and heals and |cffffff00|Hquest:58798:2044|h[The Spires of Ascension]|h|r Devos kill pst",
+					["serverTime"] = 1618187875,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198173.503,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:38:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nejibana-EmeraldDream:2245:CHANNEL:2|h|cff3ec6eaNejibana|r|h|cffd8d8d8]|r: on normal",
+					["serverTime"] = 1618187889,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198186.804,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:38:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Boxofwín-EmeraldDream:2246:CHANNEL:2|h|cffa9d271Boxofwín|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-262842-162-78835430|h[Guild: Onyx Brotherhood]|h|rOnyx gives strength. It promotes vigor, steadfastness and stamina. Imparts self-confidence, helping you to be at ease in your surroundings. All Welcome One of US",
+					["serverTime"] = 1618187899,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198196.703,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:39:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2247:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r Is looking to expand our Raid and RBG teams. We are 9/10H CN, run RBGs weekly, push  M+keys, and have 5+ events every week so there is something for everyone. PST!",
+					["serverTime"] = 1618187955,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198252.772,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:40:33]|h|r You are now Away: AFK",
+					["serverTime"] = 1618188033,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198330.884,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:41:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Goldielox-EmeraldDream:2249:CHANNEL:2|h|cff8687edGoldielox|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:72146::::::::1:265:::::::|h[Swift Lovebird]|h|r |cff0070dd|Hitem:142265::::::::1:265:::::::|h[Big Red Raygun]|h|r",
+					["serverTime"] = 1618188069,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198366.728,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:41:11]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq32|k:45:2250:BN_INLINE_TOAST_ALERT:0|h[|Kq32|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tMecurius)|h has come online.",
+					["serverTime"] = 1618188071,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						5, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198369.485,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:41:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nejibana-EmeraldDream:2251:CHANNEL:2|h|cff3ec6eaNejibana|r|h|cffd8d8d8]|r: paying 800g for taank and heals for Devos kill on normal",
+					["serverTime"] = 1618188090,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198387.763,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:41:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2252:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r Is looking to expand our Raid and RBG teams. We are 9/10H CN, run RBGs weekly, push  M+keys, and have 5+ events every week so there is something for everyone. PST!",
+					["serverTime"] = 1618188099,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198396.785,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:42:11]|h|r |cffd8d8d8[|r|Hplayer:Samoanbatman:2263|h|cffd84e4e60|r:|cffa22fc8Samoanbatman|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1618188131,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198428.78,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:43:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nejibana-EmeraldDream:2264:CHANNEL:2|h|cff3ec6eaNejibana|r|h|cffd8d8d8]|r: offering 500g each for tank and heal normal |cffff2020|Hquest:58798:2044|h[The Spires of Ascension]|h|r need devos kill free gold guys",
+					["serverTime"] = 1618188183,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198481.125,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:43:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Torialoth-EmeraldDream:2265:CHANNEL:2|h|cff006fdcTorialoth|r|h|cffd8d8d8]|r: its a normal dungeon for 500 gold. help em out.",
+					["serverTime"] = 1618188230,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						93, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198528.09,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:43:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ardgal-EmeraldDream:2266:CHANNEL:2|h|cffa9d271Ardgal|r|h|cffd8d8d8]|r: any guilds doing aotc runs for gold",
+					["serverTime"] = 1618188236,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						95, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198534.405,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:44:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dirtyjab-EmeraldDream:2267:CHANNEL:2|h|cff00fe97Dirtyjab|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1618188243,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198541.322,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:44:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flamingö-EmeraldDream:2268:CHANNEL:2|h|cffc31d39Flamingö|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r is looking to build a fresh RBG team. If you are a low CR PvPer looking for a chill group to progress with please message me for more info!",
+					["serverTime"] = 1618188261,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198559.132,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:44:56]|h|r Lunã is now |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage.",
+					["serverTime"] = 1618188296,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 198593.874,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:45:43]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Babyweiner-EmeraldDream:2269:CHANNEL:2|h|cff006fdcBabyweiner|r|h|cffd8d8d8]|r: LF guild",
+					["serverTime"] = 1618188343,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						99, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198640.624,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:01]|h|r Lunã creates: |cff00ccff|Hitem:122663::::::::46:269:::::::|h[Eternal Amulet of the Redeemed]|h|r.",
+					["serverTime"] = 1618188361,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198658.953,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:13]|h|r Lunã creates: |cff00ccff|Hitem:122361::::::::46:269:::1:582::::|h[Swift Hand of Justice]|h|r.",
+					["serverTime"] = 1618188373,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198671.033,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:19]|h|r Lunã creates: |cff00ccff|Hitem:128169::::::::46:269:::::::|h[Signet of the Third Fleet]|h|r.",
+					["serverTime"] = 1618188379,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 198676.797,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

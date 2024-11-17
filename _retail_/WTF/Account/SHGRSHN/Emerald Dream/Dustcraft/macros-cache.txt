@@ -1,6 +1,35 @@
+<<<<<<< Updated upstream
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dus[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Hel
+=======
+VER 3 0100000000000008 "Bookin Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=target/combat/3 moonfire, moonkin form, sunfire
+END
+VER 3 0100000000000003 "Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip moonfire
+/use [noform:4] moonkin form
+/use moonfire
+END
+VER 3 0100000000000006 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
+END
+VER 3 0100000000000005 "Prowl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [noform:2] cat form
+/use prowl
+END
+VER 3 0100000000000004 "Speed" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence stampeding roar, dash, darkflight
+END
+VER 3 0100000000000007 "Sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip sunfire
+/use [noform:4] moonkin form
+/use sunfire
+>>>>>>> Stashed changes
 END

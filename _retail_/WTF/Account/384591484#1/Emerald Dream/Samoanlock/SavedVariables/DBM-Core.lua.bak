@@ -1,4 +1,9 @@
 
 DBM_UsedProfile = "Default"
+<<<<<<< Updated upstream
 DBM_UseDualProfile = true
 DBM_CharSavedRevision = 20190816172852
+=======
+DBM_UseDualProfile = false
+DBM_CharSavedRevision = 20210513150709
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: Vd2
 FrameLevel: 2
 Anchor: TOPLEFT
@@ -20,3 +21,12 @@ X: -194
 Y: -162
 W: 160
 H: 52
+=======
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 200
+>>>>>>> Stashed changes

@@ -1,0 +1,2 @@
+
+MonkeySpeedVars = nil

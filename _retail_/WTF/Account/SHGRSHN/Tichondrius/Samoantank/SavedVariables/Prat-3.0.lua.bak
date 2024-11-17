@@ -26,7 +26,10 @@ Prat3CharDB = {
 	},
 }
 Prat3HighCPUPerCharDB = {
+<<<<<<< Updated upstream
 	["time"] = 1601148802,
+=======
+>>>>>>> Stashed changes
 	["scrollback"] = {
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
@@ -118,7 +121,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame6"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 28,
+=======
+			["headIndex"] = 23,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -131,17 +138,27 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[09:53:17]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+=======
+					["message"] = "|cff979797|Hpratcopy|h[11:53:23]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["serverTime"] = 1618854803,
+>>>>>>> Stashed changes
 					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 171772.506,
+=======
+					["timestamp"] = 182560.358,
+>>>>>>> Stashed changes
 					["g"] = 1,
 					["b"] = 0.250980406999588,
 				}, -- [1]
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[09:53:44]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Oshawa-Tichondrius:681:CHANNEL:4|h|cfffe7b09Oshawa|r|h|cffd8d8d8]|r: k prove it",
 					["serverTime"] = 1603382017,
 					["r"] = 1,
@@ -546,6 +563,303 @@ Prat3HighCPUPerCharDB = {
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [28]
+=======
+					["message"] = "|cff979797|Hpratcopy|h[12:19:57]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["serverTime"] = 1618856397,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:05:36]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1618859136,
+					["timestamp"] = 182560.358,
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:07:11]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:29:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: over",
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1618859231,
+					["timestamp"] = 182560.358,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:40]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:82:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: under",
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1618859320,
+					["timestamp"] = 182560.358,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:54]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:99:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: got confused lol",
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						42, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1618859334,
+					["timestamp"] = 182560.358,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:10:06]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859406,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:15]|h|r [S] |cffd8d8d8[|r|Hplayer:Gronker-Tichondrius:317:SAY|h|cffc59a6cGronker|r|h|cffd8d8d8]|r: Under",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859655,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:17]|h|r [S] |cffd8d8d8[|r|Hplayer:Gronker-Tichondrius:323:SAY|h|cffc59a6cGronker|r|h|cffd8d8d8]|r: I feel it",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859657,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:20]|h|r [S] |cffd8d8d8[|r|Hplayer:Gronker-Tichondrius:327:SAY|h|cffc59a6cGronker|r|h|cffd8d8d8]|r: Just joking",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859660,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:22]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:756:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: nice a 7",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860082,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:48]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:803:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: over",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860108,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:43]|h|r [S] |cffd8d8d8[|r|Hplayer:Porterhouze-Tichondrius:935:SAY|h|cffd84e4e57|r:|cff006fdcPorterhouze|r|h|cffd8d8d8]|r: under",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860223,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:54]|h|r [S] |cffd8d8d8[|r|Hplayer:Femboi-Tichondrius:955:SAY|h|cfffe7b09Femboi|r|h|cffd8d8d8]|r: the queerdom kings will rice",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860234,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						110, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:55]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:958:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: u done skull",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860235,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:56]|h|r [S] |cffd8d8d8[|r|Hplayer:Porterhouze-Tichondrius:960:SAY|h|cffd84e4e57|r:|cff006fdcPorterhouze|r|h|cffd8d8d8]|r: damn   i was gonna say 7 lmao",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860236,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:02]|h|r [S] |cffd8d8d8[|r|Hplayer:Skullkiidd-Tichondrius:968:SAY|h|cff8b8b8b1|r:|cff00fe97Skullkiidd|r|h|cffd8d8d8]|r: yes aloria",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860242,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						111, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:29]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:1019:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: under",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860269,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:44]|h|r [S] |cffd8d8d8[|r|Hplayer:Skullkiidd-Tichondrius:1057:SAY|h|cff8b8b8b1|r:|cff00fe97Skullkiidd|r|h|cffd8d8d8]|r: i meant i was done with the chess game",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860284,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						111, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:45]|h|r [S] |cffd8d8d8[|r|Hplayer:Skullkiidd-Tichondrius:1060:SAY|h|cff8b8b8b1|r:|cff00fe97Skullkiidd|r|h|cffd8d8d8]|r: xD",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860285,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						111, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 18 |4minute:minutes;, 50 |4second:seconds;",
+					["timestamp"] = 182560.358,
+				}, -- [21]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 182560.358,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:05]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["serverTime"] = 1618861445,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 182593.52,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [23]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -578,7 +892,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 2,
+=======
+			["headIndex"] = 0,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -590,6 +908,7 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+<<<<<<< Updated upstream
 				{
 					["message"] = "|cff979797|Hpratcopy|h[09:53:27]|h|r Total time played: 87 |4day:days;, 19 |4hour:hours;, 19 |4minute:minutes;, 25 |4second:seconds;",
 					["serverTime"] = 1603382000,
@@ -614,6 +933,8 @@ Prat3HighCPUPerCharDB = {
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [2]
+=======
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -646,7 +967,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 112,
+=======
+			["headIndex"] = 14,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -659,6 +984,7 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
 					["timestamp"] = 171755.887,
 				}, -- [1]
@@ -696,11 +1022,34 @@ Prat3HighCPUPerCharDB = {
 				}, -- [6]
 				{
 					["message"] = "|cff979797|Hpratcopy|h[09:53:17]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+=======
+					["message"] = "|cff979797|Hpratcopy|h[13:43:40]|h|r |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["r"] = 1,
+					["serverTime"] = 1618861420,
+					["timestamp"] = 182560.358,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:44]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618861424,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:44]|h|r |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618861424,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:05]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["serverTime"] = 1618861445,
+>>>>>>> Stashed changes
 					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 171772.506,
 					["g"] = 1,
 					["b"] = 0.250980406999588,
@@ -1167,10 +1516,189 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thicknight-Tichondrius:708:CHANNEL:2|h|cffc31d39Thicknight|r|h|cffd8d8d8]|r: Did someone say |cffff8000|Hitem:19019:3370:::::::50:250:::::::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r",
 					["serverTime"] = 1603382113,
 					["r"] = 0.9098039865493774,
+=======
+					["timestamp"] = 182593.52,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:06]|h|r AAP Loaded",
+					["timestamp"] = 182593.52,
+					["serverTime"] = 1618861446,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wilhuokan-Tichondrius:1207:CHANNEL:2|h|cfffef367Wilhuokan|r|h|cffd8d8d8]|r: WTS M+15 Just >>190k|cffffffff<|r|cff00ff00< |r|cffffffff>|r4+15s DEAL 608k!|cffffffff<|r|cff00ff00  m+14 155k m+12 135k <|| Buy 2Keys or more & get FREE ARMOR STACK! || Torghast || WTS TLPD, Voidtalon, GreyCamel and more || H & M Castle Nathria || Leveling || GOLD ONLY! |r|cffffffff>|r> buy from Huokan GBank <<",
+					["serverTime"] = 1618861449,
+					["r"] = 0.9098039865493774,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182601.352,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mokorush-Tichondrius:1210:CHANNEL:2|h|cffc59a6cMokorush|r|h|cffd8d8d8]|r: WTS ||  and M+ 7 - 15 ||SPECIAL DEALS FOR MULTIPLES RUNS  || Torghat Runs and Twisting corridos   ||PVP Boost 2s 0-1800 rating or HOUR deals ||  We accept gold on any server!!! GOLD ONLY",
+					["serverTime"] = 1618861451,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182603.382,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:18]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Sky Golem' (522) not yet known. |cffff9900|Hitem:cosFix:mountId:522|h[Click here to define it!]|h|r",
+					["timestamp"] = 182610.765,
+					["serverTime"] = 1618861458,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wâlrus-Tichondrius:1222:CHANNEL:2|h|cfffe7b09Wâlrus|r|h|cffd8d8d8]|r: WTS M+15 timed|| All loot for you and a 226 item in the weekly vault || 800+ carries sold || 1900+ io hall of fame team running now || discounts for multiple runs || Gold only.",
+					["serverTime"] = 1618861464,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182617.311,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:1224:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS +15 Only 190k/ +15 261k Specific Key TIMED!! Mythic Keys 0-20!/+14 155K /+12 135k /+10 115K /(BUY 2 GET FREE LOOT FUNNELS)(DISCOUNT FOR 4 RUNS/8 RUNS) |cffffffff<|r|cff00ff00Huokan Verified Adv|r|cffffffff>|r ONLY GOLD",
+					["serverTime"] = 1618861469,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182621.825,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:1225:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS +15 Only 190k/ +15 261k Specific Key TIMED!! Mythic Keys 0-20!/+14 155K /+12 135k /+10 115K /(BUY 2 GET FREE LOOT FUNNELS)(DISCOUNT FOR 4 RUNS/8 RUNS) |cffffffff<|r|cff00ff00Huokan Verified Adv|r|cffffffff>|r ONLY GOLD",
+					["serverTime"] = 1618861487,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182640.272,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:49]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 182642.051,
+					["serverTime"] = 1618861489,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sweetcatt-Tichondrius:1226:CHANNEL:2|h|cfff38bb9Sweetcatt|r|h|cffd8d8d8]|r: !!WTS +15 Only 190k/(BUY 2 GET FREE LOOT FUNNELS)+15 261k TIMED SPECIFIC KEY/Mythic Keys +7-20!/+14 155K /+12 135k /+10 115K /(SPECIAL DEAL FOR 4 RUNS/ 8 RUNS)|cffffffff<|r|cff00ff00WTS  CN|r|cffffffff>|r!WTS! Torghast/WTS leveling 51-60)(Rbg 0-2400) ONLY GOLD >>HUOKAN COMMUNITY<<",
+					["serverTime"] = 1618861494,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182646.891,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:44:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mokorush-Tichondrius:1227:CHANNEL:2|h|cffc59a6cMokorush|r|h|cffd8d8d8]|r: WTS ||  and M+ 7 - 15 ||SPECIAL DEALS FOR MULTIPLES RUNS  || Torghat Runs and Twisting corridos   ||PVP Boost 2s 0-1800 rating or HOUR deals ||  We accept gold on any server!!! GOLD ONLY",
+					["serverTime"] = 1618861498,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182650.754,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:25]|h|r You receive item: |cffffffff|Hitem:74708::::::::47:70:::::::|h[Enchant Chest - Glorious Stats]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859965,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:26]|h|r You receive item: |cffffffff|Hitem:74704::::::::47:70:::::::|h[Enchant Bracer - Exceptional Strength]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859966,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:27]|h|r You receive item: |cff0070dd|Hitem:83765::::::::47:70:::::::|h[Angerhide Leg Armor]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859967,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Baetwos-Tichondrius:578:CHANNEL:2|h|cffc59a6cBaetwos|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:153594::::::::1:71::13::1:28:872:::|h[Xiwyllag ATV]|h|r Flying Mount 19k at AH also selling |cffa335ee|Hitem:161134::::::::1:71:::::::|h[Mecha-Mogul Mk2]|h|r flying mount 75k at AH",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859973,
+>>>>>>> Stashed changes
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+<<<<<<< Updated upstream
 						37, -- [4]
 						["n"] = 4,
 					},
@@ -1182,10 +1710,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dìabløh-Tichondrius:709:CHANNEL:2|h|cff006fdcDìabløh|r|h|cffd8d8d8]|r: lmao trumps gonna win bro the dnc loves to raw dog themselves in the *!@ every year with their noms",
 					["serverTime"] = 1603382113,
 					["r"] = 0.9098039865493774,
+=======
+						92, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Adkarna-Tichondrius:591:CHANNEL:2|h|cffd8bc3f47|r:|cfffef367Adkarna|r|h|cffd8d8d8]|r: WTS +14+15 TIMED. All tradeable loot and specific key included for free... Pst for info... more 300 runs solds. GOLD ONLY!!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859985,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						43, -- [4]
 						["n"] = 4,
 					},
@@ -1197,10 +1739,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Unoblitz-Tichondrius:712:CHANNEL:2|h|cffc59a6cUnoblitz|r|h|cffd8d8d8]|r: wipe and try again",
 					["serverTime"] = 1603382125,
 					["r"] = 0.9098039865493774,
+=======
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wilhuokan-Tichondrius:597:CHANNEL:2|h|cfffef367Wilhuokan|r|h|cffd8d8d8]|r: WTS M+15 Just >>190k|cffffffff<|r|cff00ff00< |r|cffffffff>|r4+15s DEAL 608k!|cffffffff<|r|cff00ff00  m+14 155k m+12 135k <|| Buy 2Keys or more & get FREE ARMOR STACK! || Torghast || WTS TLPD, Voidtalon, GreyCamel and more || H & M Castle Nathria || Leveling || GOLD ONLY! |r|cffffffff>|r> buy from Huokan GBank <<",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859988,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						45, -- [4]
 						["n"] = 4,
 					},
@@ -1217,6 +1773,49 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ariealle-Tichondrius:713:CHANNEL:2|h|cff3ec6eaAriealle|r|h|cffd8d8d8]|r: SYLVANAS IS SO HOT",
 					["serverTime"] = 1603382128,
 					["r"] = 0.9098039865493774,
+=======
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darkyrsam-Tichondrius:603:CHANNEL:2|h|cffc59a6cDarkyrsam|r|h|cffd8d8d8]|r: WTS |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Mount run 100% Guaranteed!! Gold Only !!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618859992,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nnkomahlfa-Tichondrius:620:CHANNEL:2|h|cfffe7b09Nnkomahlfa|r|h|cffd8d8d8]|r: WTS M+ [14-15-17] intime. Discounts for 2 runs or more. Mail stack armor for free! Team ready! Go!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860002,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wâlrus-Tichondrius:623:CHANNEL:2|h|cfffe7b09Wâlrus|r|h|cffd8d8d8]|r: WTS M+15 timed|| All loot for you and a 226 item in the weekly vault || 800+ carries sold || 1900+ io hall of fame team running now || discounts for multiple runs || Gold only.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860003,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
@@ -1224,6 +1823,7 @@ Prat3HighCPUPerCharDB = {
 						4, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 171909.936,
 					["g"] = 0.6196078658103943,
 					["b"] = 0.4745098352432251,
@@ -1232,10 +1832,21 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moonflo-Tichondrius:714:CHANNEL:2|h|cfff38bb9Moonflo|r|h|cffd8d8d8]|r: nooooo Bernie is gonna be the next Sylvana",
 					["serverTime"] = 1603382135,
 					["r"] = 0.9098039865493774,
+=======
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kelkh-Tichondrius:638:CHANNEL:2|h|cff006fdcKelkh|r|h|cffd8d8d8]|r: WTS > M+15 190k || M+14 155k || M+12 135K || M+10 115k|cffffffff<|r|cff00ff00 || BUY 2 AND GET FREE ARMOR STACK! || Specific keys & Armor stack available! || KSM DEALS || 30 DISCOUNT FOR 4+ RUNS || Heroic/Mythic Castle Nathria || Gold Only!  |r|cffffffff>|rHuokan Community<",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860013,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						13, -- [4]
 						["n"] = 4,
 					},
@@ -1247,10 +1858,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deâthwinter-Tichondrius:716:CHANNEL:2|h|cffa22fc8Deâthwinter|r|h|cffd8d8d8]|r: WTS 0-5 mask selling 350+ times carried  0 mask clear=15k gold 4mask= 40k gold  5mask=60k gold quest page and 100-125 ilvl item reward very cheap!!  right now!!",
 					["serverTime"] = 1603382140,
 					["r"] = 0.9098039865493774,
+=======
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dotabunk-Tichondrius:642:CHANNEL:2|h|cff3ec6eaDotabunk|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00TGR|r|cffffffff>|r Selling timed 16s 375k, timed 15s 250k, untimed 14s 165k, KSM, Torghast 60k",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860017,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						47, -- [4]
 						["n"] = 4,
 					},
@@ -1277,10 +1902,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dìabløh-Tichondrius:718:CHANNEL:2|h|cff006fdcDìabløh|r|h|cffd8d8d8]|r: biden has the mental capacity of most toasters now a days",
 					["serverTime"] = 1603382147,
 					["r"] = 0.9098039865493774,
+=======
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nnkomahlfa-Tichondrius:656:CHANNEL:2|h|cfffe7b09Nnkomahlfa|r|h|cffd8d8d8]|r: WTS M+ [14-15-17] intime. Discounts for 2 runs or more. Mail stack armor for free! Team ready! Go!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860028,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						43, -- [4]
 						["n"] = 4,
 					},
@@ -1292,10 +1931,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Salezmon-Tichondrius:719:CHANNEL:2|h|cff006fdcSalezmon|r|h|cffd8d8d8]|r: >Huokan Community|cffffffff<|r|cff00ff00 WTS M+15 Base 89k w/Armor Stack 95k WTS M+15-20 || Specific Keys 105k || Multi-run discounts || WTS Mecha Mount || Visions 0-5 Mask. Pst for more info |r|cffffffff>|rGOLD ONLY<",
 					["serverTime"] = 1603382148,
 					["r"] = 0.9098039865493774,
+=======
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cinvitaosell-Tichondrius:664:CHANNEL:2|h|cff3ec6eaCinvitaosell|r|h|cffd8d8d8]|r: [WTS] M+ 2-17 Timed or Untimed! Discount on 4 or more runs! || KSM || Mounts (Voidtalon, Time-Lost, etc.) || Leveling || Torghast || PvP || Heroic Full Clear (Funnels Available!) || Whisp For Info! >>RESET DEALS|cffffffff<|r|cff00ff00<  [Gold Only]  <Vanlune Community|r|cffffffff>|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860035,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						51, -- [4]
 						["n"] = 4,
 					},
@@ -1307,10 +1960,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Genö-Tichondrius:720:CHANNEL:2|h|cffc59a6cGenö|r|h|cffd8d8d8]|r: sylvannas 202",
 					["serverTime"] = 1603382149,
 					["r"] = 0.9098039865493774,
+=======
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:36]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jesibell-Tichondrius:665:CHANNEL:2|h|cff3ec6eaJesibell|r|h|cffd8d8d8]|r: WTB |cffffffff|Hitem:168583::::::::60:63:::::::|h[Widowbloom]|h|r PST...",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860036,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						53, -- [4]
 						["n"] = 4,
 					},
@@ -1322,10 +1989,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thicknight-Tichondrius:721:CHANNEL:2|h|cffc31d39Thicknight|r|h|cffd8d8d8]|r: I mean sylv doesnt have a dumptruck but I'd certainly hit it with a brick",
 					["serverTime"] = 1603382149,
 					["r"] = 0.9098039865493774,
+=======
+						94, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darkyrsam-Tichondrius:684:CHANNEL:2|h|cffc59a6cDarkyrsam|r|h|cffd8d8d8]|r: WTS |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Mount run 100% Guaranteed!! Gold Only !!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860044,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						37, -- [4]
 						["n"] = 4,
 					},
@@ -1337,10 +2018,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:55:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tyrañt-Tichondrius:723:CHANNEL:2|h|cffc31d39Tyrañt|r|h|cffd8d8d8]|r: Yo how tf do i get to argus again?",
 					["serverTime"] = 1603382151,
 					["r"] = 0.9098039865493774,
+=======
+						56, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bbinv-Tichondrius:685:CHANNEL:2|h|cff00fe97Bbinv|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Boosting Buddies Community|r|cffffffff>|r is Giving away ONE MILLION GOLD! Also recruiting Boosters and Advertisers! Incredible Advertiser cuts and perks! Daily Payments! Apply Today and make some gold! **GOLD ONLY**! |cffffffff|Hurl:https://discord.gg/dvUwEsjJKa|h[https://discord.gg/dvUwEsjJKa]|h|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860044,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						55, -- [4]
 						["n"] = 4,
 					},
@@ -1352,10 +2047,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:56:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tyrañt-Tichondrius:724:CHANNEL:2|h|cffc31d39Tyrañt|r|h|cffd8d8d8]|r: Anyone?",
 					["serverTime"] = 1603382153,
 					["r"] = 0.9098039865493774,
+=======
+						84, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hunterwilly-Tichondrius:689:CHANNEL:2|h|cffa22fc8Hunterwilly|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Huokan Community|r|cffffffff>|r WTS  +15 190k||+14 155k||+12 135k||+10 115k (Buy 2 and get Armor Stack Free)|| || M+ 2-20 TIMED||||M+15 261k TIMED||+4 and +8 run Deals|| Torgast/TC 1-8 || Hero and Mythic CN |||| --GOLD ONLY--|||| Buy only from huokan Guild Bank",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860046,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						55, -- [4]
 						["n"] = 4,
 					},
@@ -1542,10 +2251,819 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:56:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moosestafa-Tichondrius:741:CHANNEL:2|h|cfffe7b09Moosestafa|r|h|cffd8d8d8]|r: mages though now have all kinds of slow your ^&* down now crap. I can see monks crapping on mages as we run all over the place, or baddie mages that just stand there getting rolled by any melee class",
 					["serverTime"] = 1603382209,
 					["r"] = 0.9098039865493774,
+=======
+						76, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:58]|h|r Auction created.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860058,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:20:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Panchona-Tichondrius:709:CHANNEL:2|h|cff3ec6eaPanchona|r|h|cffd8d8d8]|r: WTS M+ 0-19 Timed-Untimed (get 2 or more for free armor stack) / Every day CN runs hero&mythic loot funnel avail. / leveling boost 51-60 /All torghast layers / All PVP boosts. Ask for deals: GOLD ONLY. |cffffffff<|r|cff00ff00Huokan Community|r|cffffffff>|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860058,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:01]|h|r Auction created.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860061,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:05]|h|r Auction created.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860065,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nnkomahlfa-Tichondrius:722:CHANNEL:2|h|cfffe7b09Nnkomahlfa|r|h|cffd8d8d8]|r: WTS M+ [14-15-17] intime. Discounts for 2 runs or more. Mail stack armor for free! Team ready! Go!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860066,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:08]|h|r Auction created.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860068,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakedcookie-Tichondrius:739:CHANNEL:2|h|cffa9d271Bakedcookie|r|h|cffd8d8d8]|r: Need someone to cheer you on during your constant pug wipes? Well here I am -- Selling Motivation Whispers during your wipe fest -- PST for Prime Deals!!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860076,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:16]|h|r |cff00fe97Skullkiidd|r rolls 6 (1-6)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860076,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:16]|h|r |cff00fe97Skullkiidd|r rolls 1 (1-6)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860076,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:16]|h|r |Hplayer:Skullkiidd-Tichondrius:742:EMOTE:|h|cff00fe97Skullkiidd|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860076,
+					["extraData"] = {
+						11, -- [1]
+						false, -- [2]
+						58, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:17]|h|r You receive item: |cff0070dd|Hitem:74725::::::::47:70:::::::|h[Enchant Weapon - Elemental Force]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860077,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:17]|h|r |Hplayer:Skullkiidd:745:TEXT_EMOTE:|h|cff00fe97Skullkiidd|r|h apologizes to Aloriâ.  Sorry!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860077,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:17]|h|r |Hplayer:Skullkiidd:748:TEXT_EMOTE:|h|cff00fe97Skullkiidd|r|h apologizes to Aloriâ.  Sorry!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860077,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:19]|h|r You receive item: |cff0070dd|Hitem:128544::::::::47:70:::::::|h[Enchant Ring - Binding of Versatility]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860079,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:22]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:756:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: nice a 7",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860082,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spartanbabe-Tichondrius:778:CHANNEL:2|h|cff3ec6eaSpartanbabe|r|h|cffd8d8d8]|r: Hate pugging raids? Want to gear up fast? LAST Heroic |cff66bbff|Hjournal:0:1190:15|h[Castle Nathria]|h|r BEFORE RESET in 5 HOURS!  Full run available for CHEAP! <3 LEATHER, CLOTH & MAIL FUNNELS AVAIL!! 5 SPOTS LEFT! <3 ||Gold Only||",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860094,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						99, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:39]|h|r |Hplayer:Skullkiidd-Tichondrius:788:EMOTE:|h|cff00fe97Skullkiidd|r|h Aloriâ  PLACES 20000g",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860099,
+					["extraData"] = {
+						11, -- [1]
+						false, -- [2]
+						58, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:48]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:803:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: over",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860108,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vusale-Tichondrius:813:CHANNEL:2|h|cfffefefeVusale|r|h|cffd8d8d8]|r: -WTS M +15 190k-  !!BUY 2 GET FREE LOOT FUNNEL!! l ((SPECIAL DEAL FOR 4 RUNS OR MORE)) WTS M +10-20   l +14 155K l  l +12 135k l  l +10 115K l !KSM DEALS! / WTS H Castle Nathria / WTS Torghast / ONLY GOLD >Huokan Community< PM",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860114,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:21:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darkyrsam-Tichondrius:819:CHANNEL:2|h|cffc59a6cDarkyrsam|r|h|cffd8d8d8]|r: WTS |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Mount run 100% Guaranteed!! Gold Only !!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860119,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eliessian-Tichondrius:830:CHANNEL:2|h|cff3ec6eaEliessian|r|h|cffd8d8d8]|r: 10/10 Mythic Guild selling full clear Heroic, AOTC, and up to 6/10 Mythic Castle Nathria. Loot funnels available for Heroic, individual bosses available for Mythic. Heroic run Monday at 9 pst, Mythic run Tuesday-Thursday at 9 pst. WTS, gold only!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860130,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nnkomahlfa-Tichondrius:832:CHANNEL:2|h|cfffe7b09Nnkomahlfa|r|h|cffd8d8d8]|r: WTS M+ [14-15-17] intime. Discounts for 2 runs or more. Mail stack armor for free! Team ready! Go!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860132,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wilhuokan-Tichondrius:836:CHANNEL:2|h|cfffef367Wilhuokan|r|h|cffd8d8d8]|r: WTS M+15 Just >>190k|cffffffff<|r|cff00ff00< |r|cffffffff>|r4+15s DEAL 608k!|cffffffff<|r|cff00ff00  m+14 155k m+12 135k <|| Buy 2Keys or more & get FREE ARMOR STACK! || Torghast || WTS TLPD, Voidtalon, GreyCamel and more || H & M Castle Nathria || Leveling || GOLD ONLY! |r|cffffffff>|r> buy from Huokan GBank <<",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860138,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kelkh-Tichondrius:838:CHANNEL:2|h|cff006fdcKelkh|r|h|cffd8d8d8]|r: WTS > M+15 190k || M+14 155k || M+12 135K || M+10 115k|cffffffff<|r|cff00ff00 || BUY 2 AND GET FREE ARMOR STACK! || Specific keys & Armor stack available! || KSM DEALS || 30 DISCOUNT FOR 4+ RUNS || Heroic/Mythic Castle Nathria || Gold Only!  |r|cffffffff>|rHuokan Community<",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860140,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bbinv-Tichondrius:845:CHANNEL:2|h|cff00fe97Bbinv|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Boosting Buddies Community|r|cffffffff>|r is recruiting Boosters and Advertisers! Incredible Advertiser cuts and perks! Daily Payments! Apply Today and make some gold! **GOLD ONLY**! |cffffffff|Hurl:https://discord.gg/dvUwEsjJKa|h[https://discord.gg/dvUwEsjJKa]|h|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860147,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hunterwilly-Tichondrius:846:CHANNEL:2|h|cffa22fc8Hunterwilly|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Huokan Community|r|cffffffff>|r WTS  +15 190k||+14 155k||+12 135k||+10 115k (Buy 2 and get Armor Stack Free)|| || M+ 2-20 TIMED||||M+15 261k TIMED||+4 and +8 run Deals|| Torgast/TC 1-8 || Hero and Mythic CN |||| --GOLD ONLY--|||| Buy only from huokan Guild Bank",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860147,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:36]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ammia-Tichondrius:856:CHANNEL:2|h|cffc59a6cAmmia|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00<WTS|r|cffffffff>|r> |cffffffff<|r|cff00ff00<HUOKAN BOOSTING COMMUNITY|r|cffffffff>|r> bring the best services for you (!|cffffffff<|r|cff00ff00MYTHIC PLUS KEY +5-+20|r|cffffffff>|r!/Torghast Layer 1-8-Twisting Corridors 1-8) And more... Special offert Mythic +15 |cffffffff<|r|cff00ff00<ONLY GOLD|r|cffffffff>|r>Only buy from Huokan GuildBanks",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860156,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rolanf-Tichondrius:859:CHANNEL:2|h|cffa9d271Rolanf|r|h|cffd8d8d8]|r: WTS fast torghast layers 2-8 &Twisting Corridor1-8. Gold only",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860158,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dotabunk-Tichondrius:860:CHANNEL:2|h|cff3ec6eaDotabunk|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00TGR|r|cffffffff>|r Selling timed 16s 375k, timed 15s 250k, untimed 14s 165k, KSM, Torghast 60k",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860158,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Qassimmq-Tichondrius:871:CHANNEL:2|h|cff3ec6eaQassimmq|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Huokan Boosting Community|r|cffffffff>|r WTS M+ 0-20 II +15 190K II +14 155K II BUY 2 OR MORE GET FREE LOOT FUNNEL II KSM 261K PER KEY II DEALS FOR 4 OR MORE RUNS II MYTHIC NATHRIA II RBG CARRY UP TO 2400  |cffffffff<|r|cff00ff00GOLD ONLY|r|cffffffff>|r Only buy from Huokan GuildBanks",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860169,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:22:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Panchona-Tichondrius:881:CHANNEL:2|h|cff3ec6eaPanchona|r|h|cffd8d8d8]|r: WTS M+ 0-19 Timed-Untimed (get 2 or more for free armor stack) / Every day CN runs hero&mythic loot funnel avail. / leveling boost 51-60 /All torghast layers / All PVP boosts. Ask for deals: GOLD ONLY. |cffffffff<|r|cff00ff00Huokan Community|r|cffffffff>|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860178,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bbinv-Tichondrius:883:CHANNEL:2|h|cff00fe97Bbinv|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Boosting Buddies Community|r|cffffffff>|r is recruiting Boosters and Advertisers! Incredible Advertiser cuts and perks! Daily Payments! Apply Today and make some gold! **GOLD ONLY**! |cffffffff|Hurl:https://discord.gg/dvUwEsjJKa|h[https://discord.gg/dvUwEsjJKa]|h|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860180,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunchskie-Tichondrius:886:CHANNEL:2|h|cfffe7b09Lunchskie|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-268433-11-98092039|h[Guild: Secret Tunnel]|h|r 8/10M and 10/10H is recruiting for mythic raid progression. Our raid times are Th & Su 5-8 Server. Pst for more info.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860182,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						105, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nnkomahlfa-Tichondrius:893:CHANNEL:2|h|cfffe7b09Nnkomahlfa|r|h|cffd8d8d8]|r: WTS M+ [14-15-17] intime. Discounts for 2 runs or more. Mail stack armor for free! Team ready! Go!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860188,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crimsonink-Tichondrius:900:CHANNEL:2|h|cfff38bb9Crimsonink|r|h|cffd8d8d8]|r: :) WTS *W* MWorldtour  / M+2-19 / KSM superdeal /torghast 1-8 / CN FullHEr,Last,AOTC MyThic BOSSES / Buy 2 or more keys get free funnel / GoldOnly / HuokanBoostng / BuyOnlyFromHoukanGuildbank / Basically Selling Everything :D",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860195,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mokorush-Tichondrius:920:CHANNEL:2|h|cffc59a6cMokorush|r|h|cffd8d8d8]|r: WTS ||  and M+ 7 - 15 ||SPECIAL DEALS FOR MULTIPLES RUNS  || Torghat Runs and Twisting corridos   ||PVP Boost 2s 0-1800 rating or HOUR deals ||  We accept gold on any server!!! GOLD ONLY",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860212,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:33]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lilxandrin-Tichondrius:922:CHANNEL:2|h|cffc59a6cLilxandrin|r|h|cffd8d8d8]|r: can anyone help run me through level 8 torghast",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860213,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						107, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:36]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cinvitaosell-Tichondrius:926:CHANNEL:2|h|cff3ec6eaCinvitaosell|r|h|cffd8d8d8]|r: [WTS] M+ 2-17 Timed or Untimed! Discount on 4 or more runs! || KSM || Mounts (Voidtalon, Time-Lost, etc.) || Leveling || Torghast || PvP || Heroic Full Clear (Funnels Available!) || Whisp For Info! >>RESET DEALS|cffffffff<|r|cff00ff00<  [Gold Only]  <Vanlune Community|r|cffffffff>|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860216,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:43]|h|r [S] |cffd8d8d8[|r|Hplayer:Porterhouze-Tichondrius:935:SAY|h|cffd84e4e57|r:|cff006fdcPorterhouze|r|h|cffd8d8d8]|r: under",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860223,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:45]|h|r |cff00fe97Skullkiidd|r rolls 2 (1-6)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860225,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:45]|h|r |cff00fe97Skullkiidd|r rolls 5 (1-6)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860225,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:45]|h|r |Hplayer:Skullkiidd-Tichondrius:940:EMOTE:|h|cff00fe97Skullkiidd|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860225,
+					["extraData"] = {
+						11, -- [1]
+						false, -- [2]
+						58, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:46]|h|r |Hplayer:Skullkiidd:942:TEXT_EMOTE:|h|cff00fe97Skullkiidd|r|h apologizes to Porterhouze.  Sorry!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860226,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:47]|h|r |Hplayer:Skullkiidd:944:TEXT_EMOTE:|h|cff00fe97Skullkiidd|r|h apologizes to Porterhouze.  Sorry!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860227,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunchskie-Tichondrius:954:CHANNEL:2|h|cfffe7b09Lunchskie|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-268433-11-98092039|h[Guild: Secret Tunnel]|h|r 8/10M and 10/10H is recruiting for mythic raid progression. Our raid times are Th & Su 5-8 Server. Pst for more info.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860232,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						105, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:54]|h|r [S] |cffd8d8d8[|r|Hplayer:Femboi-Tichondrius:955:SAY|h|cfffe7b09Femboi|r|h|cffd8d8d8]|r: the queerdom kings will rice",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860234,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						110, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:55]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:958:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: u done skull",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860235,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:56]|h|r [S] |cffd8d8d8[|r|Hplayer:Porterhouze-Tichondrius:960:SAY|h|cffd84e4e57|r:|cff006fdcPorterhouze|r|h|cffd8d8d8]|r: damn   i was gonna say 7 lmao",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860236,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:58]|h|r |Hplayer:Skullkiidd:962:TEXT_EMOTE:|h|cff00fe97Skullkiidd|r|h cheers at Aloriâ!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860238,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:23:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sweetcatt-Tichondrius:963:CHANNEL:2|h|cfff38bb9Sweetcatt|r|h|cffd8d8d8]|r: !!WTS +15 Only 190k/(BUY 2 GET FREE LOOT FUNNELS)+15 261k TIMED SPECIFIC KEY/Mythic Keys +7-20!/+14 155K /+12 135k /+10 115K /(SPECIAL DEAL FOR 4 RUNS/ 8 RUNS)|cffffffff<|r|cff00ff00WTS  CN|r|cffffffff>|r!WTS! Torghast/WTS leveling 51-60)(Rbg 0-2400) ONLY GOLD >>HUOKAN COMMUNITY<<",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860238,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:02]|h|r [S] |cffd8d8d8[|r|Hplayer:Skullkiidd-Tichondrius:968:SAY|h|cff8b8b8b1|r:|cff00fe97Skullkiidd|r|h|cffd8d8d8]|r: yes aloria",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860242,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						111, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shárpshooter-Tichondrius:969:CHANNEL:2|h|cffa9d271Shárpshooter|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:182990::::::::60:253:::::::|h[Legionnaire's Bloodstained Sabatons]|h|r|cffa335ee|Hitem:182990::::::::60:253:::::::|h[Legionnaire's Bloodstained Sabatons]|h|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860243,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:07]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Panchona-Tichondrius:977:CHANNEL:2|h|cff3ec6eaPanchona|r|h|cffd8d8d8]|r: WTS M+ 0-19 Timed-Untimed (get 2 or more for free armor stack) / Every day CN runs hero&mythic loot funnel avail. / leveling boost 51-60 /All torghast layers / All PVP boosts. Ask for deals: GOLD ONLY. |cffffffff<|r|cff00ff00Huokan Community|r|cffffffff>|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860247,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ammia-Tichondrius:982:CHANNEL:2|h|cffc59a6cAmmia|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00<WTS|r|cffffffff>|r> |cffffffff<|r|cff00ff00<HUOKAN BOOSTING COMMUNITY|r|cffffffff>|r> bring the best services for you (!|cffffffff<|r|cff00ff00MYTHIC PLUS KEY +5-+20|r|cffffffff>|r!/Torghast Layer 1-8-Twisting Corridors 1-8) And more... Special offert Mythic +15 |cffffffff<|r|cff00ff00<ONLY GOLD|r|cffffffff>|r>Only buy from Huokan GuildBanks",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860250,
+>>>>>>> Stashed changes
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+<<<<<<< Updated upstream
 						15, -- [4]
 						["n"] = 4,
 					},
@@ -1562,10 +3080,39 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rhardok-Tichondrius:742:CHANNEL:2|h|cff006fdcRhardok|r|h|cffd8d8d8]|r: horde isnt evil",
 					["serverTime"] = 1603382219,
 					["r"] = 0.9098039865493774,
+=======
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Inertz-Tichondrius:988:CHANNEL:2|h|cfff38bb9Inertz|r|h|cffd8d8d8]|r: WTS Torghast ALL LAYERS 1-8!! || PST for Details.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860254,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+						114, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Inertz-Tichondrius:991:CHANNEL:2|h|cfff38bb9Inertz|r|h|cffd8d8d8]|r: WTS Torghast ALL LAYERS 1-8!! || PST for Details.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860255,
+>>>>>>> Stashed changes
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+<<<<<<< Updated upstream
 						67, -- [4]
 						["n"] = 4,
 					},
@@ -1577,10 +3124,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ravenbreeze-Tichondrius:744:CHANNEL:2|h|cfffe7b09Ravenbreeze|r|h|cffd8d8d8]|r: WTS|cffa335ee|Hitem:90655::::::::45:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r23K GOLD",
 					["serverTime"] = 1603382224,
 					["r"] = 0.9098039865493774,
+=======
+						114, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darkyrsam-Tichondrius:992:CHANNEL:2|h|cffc59a6cDarkyrsam|r|h|cffd8d8d8]|r: WTS |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Mount run 100% Guaranteed!! Gold Only !!",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860256,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						71, -- [4]
 						["n"] = 4,
 					},
@@ -1622,10 +3183,54 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mymage-Tichondrius:747:CHANNEL:2|h|cff3ec6eaMymage|r|h|cffd8d8d8]|r: the jedi are evil",
 					["serverTime"] = 1603382225,
 					["r"] = 0.9098039865493774,
+=======
+						56, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:17]|h|r Auction cancelled.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860257,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:19]|h|r Auction cancelled.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860259,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kelkh-Tichondrius:1002:CHANNEL:2|h|cff006fdcKelkh|r|h|cffd8d8d8]|r: WTS > M+15 190k || M+14 155k || M+12 135K || M+10 115k|cffffffff<|r|cff00ff00 || BUY 2 AND GET FREE ARMOR STACK! || Specific keys & Armor stack available! || KSM DEALS || 30 DISCOUNT FOR 4+ RUNS || Heroic/Mythic Castle Nathria || Gold Only!  |r|cffffffff>|rHuokan Community<",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860261,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						75, -- [4]
 						["n"] = 4,
 					},
@@ -1652,10 +3257,39 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:749:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: The horde isnt evil, Sylv literally murdered her own people to feed to the maw to get power",
 					["serverTime"] = 1603382230,
 					["r"] = 0.9098039865493774,
+=======
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:22]|h|r Auction cancelled.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860262,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bbinv-Tichondrius:1010:CHANNEL:2|h|cff00fe97Bbinv|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Boosting Buddies Community|r|cffffffff>|r is recruiting Boosters and Advertisers! Incredible Advertiser cuts and perks! Daily Payments! Apply Today and make some gold! **GOLD ONLY**! |cffffffff|Hurl:https://discord.gg/dvUwEsjJKa|h[https://discord.gg/dvUwEsjJKa]|h|r",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860264,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						29, -- [4]
 						["n"] = 4,
 					},
@@ -1667,10 +3301,24 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ravenbreeze-Tichondrius:750:CHANNEL:2|h|cfffe7b09Ravenbreeze|r|h|cffd8d8d8]|r: WTS|cffa335ee|Hitem:90655::::::::45:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r23K GOLD",
 					["serverTime"] = 1603382233,
 					["r"] = 0.9098039865493774,
+=======
+						84, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunchskie-Tichondrius:1011:CHANNEL:2|h|cfffe7b09Lunchskie|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-268433-11-98092039|h[Guild: Secret Tunnel]|h|r 8/10M and 10/10H is recruiting for mythic raid progression. Our raid times are Th & Su 5-8 Server. Pst for more info.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860264,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						71, -- [4]
 						["n"] = 4,
 					},
@@ -1712,10 +3360,54 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shadowzar-Tichondrius:755:CHANNEL:2|h|cfffefefeShadowzar|r|h|cffd8d8d8]|r: the horde isnt evil.. sylv is",
 					["serverTime"] = 1603382247,
 					["r"] = 0.9098039865493774,
+=======
+						105, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:25]|h|r Auction cancelled.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860265,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:29]|h|r [S] |cffd8d8d8[|r|Hplayer:Aloriâ-Tichondrius:1019:SAY|h|cffa22fc8Aloriâ|r|h|cffd8d8d8]|r: under",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860269,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:31]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunchskie-Tichondrius:1023:CHANNEL:2|h|cfffe7b09Lunchskie|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-268433-11-98092039|h[Guild: Secret Tunnel]|h|r 8/10M and 10/10H is recruiting for mythic raid progression. Our raid times are Th & Su 5-8 Server. Pst for more info.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860271,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						63, -- [4]
 						["n"] = 4,
 					},
@@ -1747,10 +3439,54 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:57:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:758:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: Glad anything is supposed to be difficult. Theyre the high tier players.",
 					["serverTime"] = 1603382259,
 					["r"] = 0.9098039865493774,
+=======
+						105, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:31]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flannyms-Tichondrius:1024:CHANNEL:2|h|cffc59a6cFlannyms|r|h|cffd8d8d8]|r: Selling RBG wins and rating. Come get your desired rating or wins for gear upgrades and vault. PST for more details. GOLD only",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860271,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:32]|h|r Ericjohnston yells: None may challenge the Brotherhood!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860272,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						116, -- [3]
+						117, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hunterwilly-Tichondrius:1026:CHANNEL:2|h|cffa22fc8Hunterwilly|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Huokan Community|r|cffffffff>|r WTS  +15 190k||+14 155k||+12 135k||+10 115k (Buy 2 and get Armor Stack Free)|| || M+ 2-20 TIMED||||M+15 261k TIMED||+4 and +8 run Deals|| Torgast/TC 1-8 || Hero and Mythic CN |||| --GOLD ONLY--|||| Buy only from huokan Guild Bank",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860272,
+>>>>>>> Stashed changes
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+<<<<<<< Updated upstream
 						29, -- [4]
 						["n"] = 4,
 					},
@@ -1807,10 +3543,69 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:58:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:763:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: higher**",
 					["serverTime"] = 1603382274,
 					["r"] = 0.9098039865493774,
+=======
+						76, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:34]|h|r |cffa9d271Véggas|r rolls 3 (1-6)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860274,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:34]|h|r |cffa9d271Véggas|r rolls 2 (1-6)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860274,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:34]|h|r |Hplayer:Véggas-Tichondrius:1032:EMOTE:|h|cffa9d271Véggas|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860274,
+					["extraData"] = {
+						11, -- [1]
+						false, -- [2]
+						58, -- [3]
+						118, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stroney-Tichondrius:1033:CHANNEL:2|h|cfffefefeStroney|r|h|cffd8d8d8]|r: #STRONEY",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860275,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						29, -- [4]
 						["n"] = 4,
 					},
@@ -1892,10 +3687,129 @@ Prat3HighCPUPerCharDB = {
 					["message"] = "|cff979797|Hpratcopy|h[09:58:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Claudio-Tichondrius:771:CHANNEL:2|h|cffc31d39Claudio|r|h|cffd8d8d8]|r: Rank One DK 3284 exp Selling arena achieves in pre patch pm for details",
 					["serverTime"] = 1603382298,
 					["r"] = 0.9098039865493774,
+=======
+						119, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:35]|h|r You receive item: |cffffffff|Hitem:74704::::::::47:70:::::::|h[Enchant Bracer - Exceptional Strength]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860275,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:36]|h|r You receive item: |cff0070dd|Hitem:83765::::::::47:70:::::::|h[Angerhide Leg Armor]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860276,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:36]|h|r |Hplayer:Véggas:1040:TEXT_EMOTE:|h|cffa9d271Véggas|r|h cheers at Zuldren!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860276,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						121, -- [4]
+						["n"] = 4,
+					},
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:37]|h|r You receive item: |cffffffff|Hitem:74708::::::::47:70:::::::|h[Enchant Chest - Glorious Stats]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860277,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:37]|h|r You receive item: |cffa335ee|Hitem:83006::::::::47:70:::::::|h[Greater Tiger Fang Inscription]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860277,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:38]|h|r |Hplayer:Véggas:1046:TEXT_EMOTE:|h|cffa9d271Véggas|r|h cheers at Aloriâ!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860278,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						121, -- [4]
+						["n"] = 4,
+					},
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:40]|h|r |Hplayer:Véggas:1050:TEXT_EMOTE:|h|cffa9d271Véggas|r|h cheers at Aloriâ!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860280,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						121, -- [4]
+						["n"] = 4,
+					},
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:41]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kidneythøt-Tichondrius:1051:CHANNEL:2|h|cfffef367Kidneythøt|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:182978::::::::60:260::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Barkweave Wristwraps]|h|r with socket",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860281,
+>>>>>>> Stashed changes
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
 						1, -- [3]
+<<<<<<< Updated upstream
 						85, -- [4]
 						["n"] = 4,
 					},
@@ -1908,6 +3822,140 @@ Prat3HighCPUPerCharDB = {
 					["timestamp"] = 172084.383,
 					["serverTime"] = 1603382302,
 				}, -- [112]
+=======
+						122, -- [4]
+						["n"] = 4,
+					},
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:41]|h|r |Hplayer:Ericjohnston:1052:TEXT_EMOTE:|h|cfffef367Ericjohnston|r|h dances with Auctioneer Fazdran.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860281,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						60, -- [3]
+						124, -- [4]
+						["n"] = 4,
+					},
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:44]|h|r [S] |cffd8d8d8[|r|Hplayer:Skullkiidd-Tichondrius:1057:SAY|h|cff8b8b8b1|r:|cff00fe97Skullkiidd|r|h|cffd8d8d8]|r: i meant i was done with the chess game",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860284,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						111, -- [4]
+						["n"] = 4,
+					},
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:45]|h|r [S] |cffd8d8d8[|r|Hplayer:Skullkiidd-Tichondrius:1060:SAY|h|cff8b8b8b1|r:|cff00fe97Skullkiidd|r|h|cffd8d8d8]|r: xD",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860285,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						62, -- [3]
+						111, -- [4]
+						["n"] = 4,
+					},
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:48]|h|r |Hplayer:Véggas-Tichondrius:1064:EMOTE:|h|cffa9d271Véggas|r|h Aloriâ |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t WINS |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t 20000g! WOAH!!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860288,
+					["extraData"] = {
+						11, -- [1]
+						false, -- [2]
+						58, -- [3]
+						118, -- [4]
+						["n"] = 4,
+					},
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:24:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wâlrus-Tichondrius:1073:CHANNEL:2|h|cfffe7b09Wâlrus|r|h|cffd8d8d8]|r: WTS M+15 timed|| All loot for you and a 226 item in the weekly vault || 800+ carries sold || 1900+ io hall of fame team running now || discounts for multiple runs || Gold only.",
+					["b"] = 0.4745098352432251,
+					["r"] = 0.9098039865493774,
+					["g"] = 0.6196078658103943,
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618860293,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [117]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 18 |4minute:minutes;, 42 |4second:seconds;",
+					["timestamp"] = 182560.358,
+				}, -- [118]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 182560.358,
+				}, -- [119]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 182517.916,
+				}, -- [120]
+				{
+					["message"] = "|cFF8040FFGuild Revenue Agent|r version 1.9. Type |cFF8040FF/gra help|r for help.",
+					["timestamp"] = 182517.916,
+				}, -- [121]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 182517.916,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:17]|h|r |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 182517.916,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:29]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tYou have 1 friend |4request:requests;.",
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 182560.358,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:35]|h|r Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 182560.358,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:35]|h|r Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 182560.358,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:36]|h|r |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618861416,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:43:36]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 182560.358,
+					["serverTime"] = 1618861416,
+				}, -- [128]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

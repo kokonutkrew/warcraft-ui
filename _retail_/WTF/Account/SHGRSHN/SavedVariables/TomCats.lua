@@ -1,5 +1,6 @@
 
 TomCats_Account = {
+<<<<<<< Updated upstream
 	["notifications"] = {
 		["NZOTHLAUNCH"] = true,
 	},
@@ -30,4 +31,40 @@ TomCats_Account = {
 			["position"] = -2.657094711587241,
 		},
 	},
+=======
+["loveisintheair"] = {
+},
+["discoveriesVersion"] = "2.4.1",
+["lastVersionSeen"] = "2.4.1",
+["preferences"] = {
+["MapOptions"] = {
+["iconScale"] = 1,
+["iconAnimationEnabled"] = true,
+},
+["TomCats-LunarFestivalMinimapButton"] = {
+["hidden"] = false,
+["position"] = -2.514,
+},
+["TomCats-LoveIsInTheAirMinimapButton"] = {
+["hidden"] = false,
+["position"] = -3.262,
+},
+["TomCats-MinimapButton"] = {
+["hidden"] = false,
+["position"] = -2.888,
+},
+["betaEnabled"] = false,
+["defaultVignetteIcon"] = "default",
+},
+["lastExpirationWarning"] = 1646192162,
+["discoveriesResetCount"] = 0,
+["discoveries"] = {
+["vignetteAtlases"] = {
+},
+["vignettes"] = {
+},
+},
+["lunarfestival"] = {
+},
+>>>>>>> Stashed changes
 }

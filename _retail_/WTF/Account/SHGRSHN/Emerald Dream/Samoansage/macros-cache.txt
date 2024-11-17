@@ -1,7 +1,44 @@
+<<<<<<< Updated upstream
+=======
+VER 3 0100000000000017 "001_KK_RESTO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] 001_KK_RESTO RightButton; [button:3] 001_KK_RESTO MiddleButton; [button:4] 001_KK_RESTO Button4; [button:5] 001_KK_RESTO Button5; 001_KK_RESTO
+END
+VER 3 010000000000000F "Capacitor Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform
+/use [@cursor] capacitor totem
+END
+VER 3 0100000000000013 "Chain Lightning" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/targetenemy [dead]
+/use chain lightning
+END
+VER 3 0100000000000018 "Earth Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [@focus] reset=2, earth shield, unleash life, primordial wave, rip tide
+/use earth shield
+END
+VER 3 0100000000000014 "Earthbind Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] earthbind totem
+END
+VER 3 010000000000001B "Earthgrab Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] earthgrab totem
+END
+VER 3 0100000000000010 "Earthquake" "INV_MISC_QUESTIONMARK"
+#showtooltip earthquake
+/use [@cursor] earthquake
+END
+VER 3 0100000000000011 "Flame Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [@targettarget,harm,exists] flame shock; [@mouseover,harm,exists] flame shock; reset=3/target flame shock, frost shock, frost shock, frost shock
+END
+>>>>>>> Stashed changes
 VER 3 0100000000000004 "Healing Surge" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@focus=exists] healing surge
-/use healing surge
+/use [@focus,help,nodead] healing surge; [dead,help] ancestral spirit; [dead,harm] targetenemy; healing surge
 END
 VER 3 0100000000000003 "Healing Wave" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -13,18 +50,31 @@ VER 3 0100000000000006 "Interupt" "INV_MISC_QUESTIONMARK"
 /cast [target=focus,exists,nodead] wind shear
 /cast wind shear
 END
+<<<<<<< Updated upstream
 VER 3 010000000000000C "KK_RESTO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click [button:2] KK_RESTO RightButton; [button:3] KK_RESTO MiddleButton; [button:4] KK_RESTO Button4; [button:5] KK_RESTO Button5; KK_RESTO
+=======
+VER 3 0100000000000019 "Lava Burst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@targettarget,harm,exists] lava burst; lava burst
+>>>>>>> Stashed changes
 END
 VER 3 0100000000000005 "Riptide" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover] riptide
 /use healing riptide
 END
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 010000000000001C "Trinkets" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=119 13, 14
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 010000000000001D "Unleash Life" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [@focus] reset=2 unleash life, earth shield, unleash life, primordial wave, rip tide
+/use unleash life
+END
+VER 3 010000000000001A "Wind Rush Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] wind rush totem
 END

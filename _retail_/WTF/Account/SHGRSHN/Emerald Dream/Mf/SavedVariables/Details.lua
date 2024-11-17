@@ -766,7 +766,11 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["last_version"] = "v9.0.2.8316",
+=======
+	["last_version"] = "9.2.09694",
+>>>>>>> Stashed changes
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -780,8 +784,12 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
+<<<<<<< Updated upstream
 		["nextreset"] = 1616840938,
+=======
+>>>>>>> Stashed changes
 		["last_version"] = 14,
+		["nextreset"] = 1647138485,
 	},
 	["last_instance_id"] = 0,
 	["announce_interrupts"] = {
@@ -793,7 +801,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 0,
 	["active_profile"] = "KokonutKrew",
-	["last_realversion"] = 144,
+	["last_realversion"] = 146,
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
@@ -1002,11 +1010,11 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
+<<<<<<< Updated upstream
 	["last_day"] = "17",
 	["announce_firsthit"] = {
 		["enabled"] = true,
@@ -1018,6 +1026,16 @@ _detalhes_database = {
 	["combat_id"] = 2,
 	["savedStyles"] = {
 	},
+=======
+	["character_data"] = {
+		["logons"] = 202,
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["combat_counter"] = 596,
+>>>>>>> Stashed changes
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -1041,10 +1059,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -376.4999237060547,
 					["x"] = -815.9999694824219,
 					["w"] = 228,
 					["h"] = 109,
+=======
+					["y"] = -430.0794740537717,
+					["x"] = -813.7606252245387,
+					["w"] = 238.0000762939453,
+					["h"] = 131,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -1076,10 +1101,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -376.4999237060547,
 					["x"] = -588,
 					["w"] = 228,
 					["h"] = 109,
+=======
+					["y"] = -430.0794740537717,
+					["x"] = -585.2805599619254,
+					["w"] = 238.0000762939453,
+					["h"] = 131,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -1092,7 +1124,14 @@ _detalhes_database = {
 		{
 			["modo"] = 2,
 			["sub_attribute"] = 1,
+<<<<<<< Updated upstream
 			["horizontalSnap"] = true,
+=======
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = false,
+			["is_open"] = true,
+>>>>>>> Stashed changes
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1100,6 +1139,7 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
+<<<<<<< Updated upstream
 			["is_open"] = true,
 			["isLocked"] = false,
 			["snap"] = {
@@ -1114,6 +1154,19 @@ _detalhes_database = {
 					["x"] = 402.7499114729541,
 					["w"] = 150.0002136230469,
 					["h"] = 450,
+=======
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 5,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -212.3147583007813,
+					["x"] = -816.9266510009766,
+					["w"] = 197.4075622558594,
+					["h"] = 74.55563354492188,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -1135,7 +1188,11 @@ _detalhes_database = {
 				1, -- [5]
 			},
 			["is_open"] = true,
+<<<<<<< Updated upstream
 			["isLocked"] = false,
+=======
+			["isLocked"] = true,
+>>>>>>> Stashed changes
 			["snap"] = {
 				3, -- [1]
 			},
@@ -1144,10 +1201,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -252.5017389601529,
 					["x"] = 539.7499447166331,
 					["w"] = 172.3529968261719,
 					["h"] = 450,
+=======
+					["y"] = -212.3147277832031,
+					["x"] = -621.2969970703125,
+					["w"] = 193.8517761230469,
+					["h"] = 74.55557250976562,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -1157,14 +1221,63 @@ _detalhes_database = {
 				},
 			},
 		}, -- [4]
+<<<<<<< Updated upstream
+=======
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = false,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -454.0001373291016,
+					["x"] = 524.0008544921875,
+					["w"] = 309.9999389648438,
+					["h"] = 157.9999847412109,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [5]
 	},
-	["force_font_outline"] = "",
+	["combat_id"] = 0,
+	["savedStyles"] = {
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+>>>>>>> Stashed changes
+	},
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
 		["only_first"] = 5,
 		["where"] = 1,
 	},
+<<<<<<< Updated upstream
 	["tabela_overall"] = {
 		{
 			["tipo"] = 2,
@@ -1583,6 +1696,12 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
+=======
+	["force_font_outline"] = "",
+	["cached_talents"] = {
+	},
+	["last_day"] = "01",
+>>>>>>> Stashed changes
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -1594,15 +1713,17 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_roles"] = {
 	},
 	["cached_specs"] = {
+<<<<<<< Updated upstream
 		["Player-162-09289A99"] = 577,
 		["Player-162-0B499E99"] = 261,
 		["Player-162-08AA47AB"] = 264,
 		["Player-162-0B4FF486"] = 72,
 		["Player-162-0A5D1D2F"] = 65,
+=======
+		["Player-162-0B4FF486"] = 73,
+>>>>>>> Stashed changes
 	},
 }

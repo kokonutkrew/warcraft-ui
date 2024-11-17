@@ -1,6 +1,7 @@
 
 RaiderIO_Config = {
 }
+<<<<<<< Updated upstream
 RaiderIO_LastCharacter = "us-Tygrrlilly-emerald-dream"
 RaiderIO_MissingCharacters = {
 	["us-Spektakul-emerald-dream"] = true,
@@ -60,5 +61,9 @@ RaiderIO_MissingCharacters = {
 	["us-Icewallo-emerald-dream"] = true,
 	["us-Rheinhart-emerald-dream"] = true,
 	["us-Arcdaelous-emerald-dream"] = true,
+=======
+RaiderIO_LastCharacter = "us-Cukie-emerald-dream"
+RaiderIO_MissingCharacters = {
+>>>>>>> Stashed changes
 }
 RaiderIO_CachedRuns = nil

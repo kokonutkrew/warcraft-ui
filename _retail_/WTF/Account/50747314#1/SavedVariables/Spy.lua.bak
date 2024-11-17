@@ -2,6 +2,7 @@
 SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
+<<<<<<< Updated upstream
 			["Horde"] = {
 				["Gl"] = {
 				},
@@ -12,19 +13,213 @@ SpyDB = {
 				["Kokonutkween"] = {
 				},
 				["Buhbles"] = {
+=======
+			["Alliance"] = {
+				["Samoanslayer"] = {
+				},
+				["Samoantitan"] = {
+				},
+				["Samoansavage"] = {
+					["shamzakel"] = {
+						["added"] = 1618290221,
+					},
+					["shinscraper"] = {
+						["added"] = 1618290259,
+					},
+					["xuper"] = {
+						["added"] = 1618290234,
+					},
+					["boomsquanch"] = {
+						["name"] = "boomsquanch",
+						["kos"] = 1,
+						["time"] = 1618290193,
+						["added"] = 1618293668,
+						["isEnemy"] = true,
+					},
+				},
+				["Kokonutkween"] = {
+					["shamzakel"] = {
+						["added"] = 1618290221,
+						["time"] = 1618290221,
+						["name"] = "shamzakel",
+						["isEnemy"] = true,
+					},
+					["shinscraper"] = {
+						["added"] = 1618290259,
+						["time"] = 1618290259,
+						["name"] = "shinscraper",
+						["isEnemy"] = true,
+					},
+					["xuper"] = {
+						["added"] = 1618290234,
+						["time"] = 1618290234,
+						["name"] = "xuper",
+						["isEnemy"] = true,
+					},
+					["boomsquanch"] = {
+						["added"] = 1618293668,
+						["time"] = 1618290193,
+						["name"] = "boomsquanch",
+						["isEnemy"] = true,
+					},
+				},
+				["Herbcraft"] = {
+					["shamzakel"] = {
+						["added"] = 1618290221,
+					},
+					["shinscraper"] = {
+						["added"] = 1618290259,
+					},
+					["xuper"] = {
+						["added"] = 1618290234,
+					},
+					["boomsquanch"] = {
+						["added"] = 1618293668,
+					},
+				},
+				["Threadcraft"] = {
+					["shamzakel"] = {
+						["added"] = 1618290221,
+					},
+					["shinscraper"] = {
+						["added"] = 1618290259,
+					},
+					["xuper"] = {
+						["added"] = 1618290234,
+					},
+					["boomsquanch"] = {
+						["added"] = 1618293668,
+					},
+				},
+				["Mp"] = {
+				},
+				["Urorincar"] = {
+				},
+				["Mf"] = {
+				},
+				["Samoanranger"] = {
+				},
+				["Samoanbeast"] = {
+					["shamzakel"] = {
+						["added"] = 1618290221,
+					},
+					["shinscraper"] = {
+						["added"] = 1618290259,
+					},
+					["xuper"] = {
+						["added"] = 1618290234,
+					},
+					["boomsquanch"] = {
+						["added"] = 1618293668,
+					},
+				},
+				["Forgecraft"] = {
+				},
+				["Farmcraft"] = {
+				},
+				["Samoansage"] = {
+					["shamzakel"] = {
+						["added"] = 1618290221,
+					},
+					["shinscraper"] = {
+						["added"] = 1618290259,
+					},
+					["xuper"] = {
+						["added"] = 1618290234,
+					},
+					["boomsquanch"] = {
+						["added"] = 1618293668,
+					},
+				},
+				["Orecraft"] = {
+					["shamzakel"] = {
+						["name"] = "shamzakel",
+						["kos"] = 1,
+						["time"] = 1618290221,
+						["added"] = 1618290221,
+						["isEnemy"] = true,
+					},
+					["shinscraper"] = {
+						["name"] = "shinscraper",
+						["kos"] = 1,
+						["time"] = 1618290259,
+						["added"] = 1618290259,
+						["isEnemy"] = true,
+					},
+					["xuper"] = {
+						["name"] = "xuper",
+						["kos"] = 1,
+						["time"] = 1618290234,
+						["added"] = 1618290234,
+						["isEnemy"] = true,
+					},
+					["boomsquanch"] = {
+						["name"] = "boomsquanch",
+						["kos"] = 1,
+						["time"] = 1618290193,
+						["added"] = 1618293668,
+						["isEnemy"] = true,
+					},
+				},
+				["Samoansurge"] = {
+				},
+				["Kokonutkiing"] = {
+					["shamzakel"] = {
+						["time"] = 1618290221,
+						["name"] = "shamzakel",
+						["added"] = 1618290221,
+						["isEnemy"] = true,
+					},
+					["shinscraper"] = {
+						["time"] = 1618290259,
+						["name"] = "shinscraper",
+						["added"] = 1618290259,
+						["isEnemy"] = true,
+					},
+					["xuper"] = {
+						["time"] = 1618290234,
+						["name"] = "xuper",
+						["added"] = 1618290234,
+						["isEnemy"] = true,
+					},
+					["boomsquanch"] = {
+						["time"] = 1618290193,
+						["name"] = "boomsquanch",
+						["added"] = 1618293668,
+						["isEnemy"] = true,
+					},
+				},
+				["Niniconys"] = {
+				},
+			},
+		},
+		["Stormrage"] = {
+			["Alliance"] = {
+				["Samoantitan"] = {
+				},
+				["Samoanrelic"] = {
+>>>>>>> Stashed changes
 				},
 			},
 		},
 	},
 	["removeKOSData"] = {
 		["Emerald Dream"] = {
+<<<<<<< Updated upstream
 			["Horde"] = {
 			},
+=======
+			["Alliance"] = {
+			},
+		},
+		["Stormrage"] = {
+>>>>>>> Stashed changes
 			["Alliance"] = {
 			},
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
 		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
 		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
@@ -58,6 +253,32 @@ SpyDB = {
 		["Buhbles - Emerald Dream"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoanbeast - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Orecraft - Emerald Dream"] = "KokonutKrew",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew",
+		["Urorincar - Emerald Dream"] = "Urorincar - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Niniconys - Emerald Dream"] = "Niniconys - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "KokonutKrew",
+		["Mp - Emerald Dream"] = "Mp - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+>>>>>>> Stashed changes
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -79,5 +300,253 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
+<<<<<<< Updated upstream
+=======
+		["Samoantitan - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoanrelic - Stormrage"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Kokonutkiing - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Forgecraft - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoansavage - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Urorincar - Emerald Dream"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoansage - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Niniconys - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Mf - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Farmcraft - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Mp - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["KokonutKrew"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["AlphaBG"] = 0.9,
+				["Alpha"] = 0.6,
+				["Position"] = {
+					["y"] = 0,
+					["x"] = 1639.555297851563,
+					["w"] = 159.9999542236328,
+					["h"] = 34.00002288818359,
+				},
+			},
+			["MinimapDetection"] = true,
+			["OnlyAnnounceKoS"] = true,
+			["PurgeData"] = "OneDay",
+			["InvertSpy"] = true,
+			["AppendUnitKoSCheck"] = true,
+			["AppendUnitNameCheck"] = true,
+			["WarnOnKOSGuild"] = true,
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DisplayListData"] = "NameGuild",
+			["Font"] = "Arial Narrow",
+			["ShowKoSButton"] = true,
+			["Announce"] = "Guild",
+			["HideSpy"] = true,
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Orecraft - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+>>>>>>> Stashed changes
 	},
 }

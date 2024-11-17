@@ -1,0 +1,25 @@
+
+ABP_PLUS_DB = {
+["profileKeys"] = {
+["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
+["Shadowdaggr - Area 52"] = "Shadowdaggr - Area 52",
+["Flameing - Emerald Dream"] = "Flameing - Emerald Dream",
+["Demenchonone - Emerald Dream"] = "Demenchonone - Emerald Dream",
+["Kkmeki - Emerald Dream"] = "Kkmeki - Emerald Dream",
+},
+["profiles"] = {
+["Voidspeakerr - Emerald Dream"] = {
+},
+["Shadowdaggr - Area 52"] = {
+},
+["Flameing - Emerald Dream"] = {
+},
+["Demenchonone - Emerald Dream"] = {
+},
+["Kkmeki - Emerald Dream"] = {
+},
+},
+}
+ABP_LOG_LEVEL = 0
+ABP_DEBUG_MODE = false
+ABP_DEBUG_ENABLED_CATEGORIES = nil

@@ -1,16 +1,10 @@
-lightweight tag 2642d8d80a40d7ff2c843eb2b1d511d9ea3c51be v4.0.6
-Author:	VallanTV <thevallantv@protonmail.com>
-Date:	Wed Mar 10 10:13:36 2021 -0800
+lightweight tag da9069a8940511552df3b03df9014d7409dc261c 4.0.26-release
+Author:	pereira-a <pereirasmandre@gmail.com>
+Date:	Sat Sep 14 13:05:31 2024 +0000
 
-commit 2642d8d80a40d7ff2c843eb2b1d511d9ea3c51be
-Author: VallanTV <thevallantv@protonmail.com>
-Date:   Wed Mar 10 10:12:39 2021 -0800
+commit da9069a8940511552df3b03df9014d7409dc261c
+Author: pereira-a <pereirasmandre@gmail.com>
+Date:   Sat Sep 14 13:05:31 2024 +0000
 
-    bump game version
-
-commit 48a81430932995af4b1bbe8674fc0e203b70ade8
-Author: VallanTV <thevallantv@protonmail.com>
-Date:   Wed Mar 10 10:12:39 2021 -0800
-
-    bump game version
+    110002
 

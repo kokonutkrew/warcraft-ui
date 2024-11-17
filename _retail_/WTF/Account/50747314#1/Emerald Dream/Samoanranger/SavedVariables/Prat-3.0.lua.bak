@@ -1,0 +1,4355 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 32,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:34:45]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1618166085,
+					["timestamp"] = 185708.406,
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:38:33]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618166313,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:48]|h|r [S] |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2114:SAY|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: wow congrats",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168428,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						57, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:52]|h|r [S] |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2116:SAY|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: thats awesome",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168432,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						57, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "0 |4day:days;, 1 |4hour:hours;, 56 |4minute:minutes;, 40 |4second:seconds;",
+					["timestamp"] = 185708.406,
+				}, -- [5]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 185708.406,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:43]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1618175444,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 185741.333,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:59]|h|r [W To] |cffd8d8d8[|r|Hplayer:Ishsish-EmeraldDream:8:WHISPER:ISHSISH-EMERALDDREAM|h|cffd8bc3f60|r:|cfffef367Ishsish|r|h|cffd8d8d8]|r: Hey |cfffef367Ishsish|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175459,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185757.018,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:37]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:22:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: hi sam",
+					["serverTime"] = 1618175497,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185795.504,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:14]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:24:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Hey man, just getting this toon to an inn for rested xp",
+					["serverTime"] = 1618175534,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185832.321,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:23]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:25:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: ok lol",
+					["serverTime"] = 1618175543,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185840.645,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:26]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:26:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Got back from a 3.6 mi run",
+					["serverTime"] = 1618175546,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185843.766,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:36]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:30:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: cool",
+					["serverTime"] = 1618175556,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185853.808,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:38]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:31:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: I hope all this training pays off",
+					["serverTime"] = 1618175558,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185856.598,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:01]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:32:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Thanks for this mount btw |cffa335ee|Hitem:35513::::::::58:254::22::1:28:872:::|h[Swift White Hawkstrider]|h|r!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+					["serverTime"] = 1618175581,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185878.875,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:02]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:33:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: I just came back from a 3 lbs meal lol",
+					["serverTime"] = 1618175582,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185880.483,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:07]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:34:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: no problem",
+					["serverTime"] = 1618175587,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185884.997,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:06]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:40:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Yes the epic Sunday meal- glad you didnt miss it!",
+					["serverTime"] = 1618175646,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185944.621,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:11]|h|r [W To] |cffd8d8d8[|r|Hplayer:Freshbreeze-EmeraldDream:42:WHISPER:FRESHBREEZE-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Freshbreeze|r|h|cffd8d8d8]|r: Hey |cff00fe97Freshbreeze|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175651,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.412,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:11]|h|r |cffd8d8d8[|r|Hplayer:Freshbreeze-EmeraldDream:43:WHISPER:FRESHBREEZE-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Freshbreeze|r|h|cffd8d8d8]|r is Away:AFK",
+					["serverTime"] = 1618175651,
+					["r"] = 1,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						15, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.412,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Zoriam-EmeraldDream:44:WHISPER:ZORIAM-EMERALDDREAM|h|cffd8bc3f60|r:|cfffe7b09Zoriam|r|h|cffd8d8d8]|r: Hey |cfffe7b09Zoriam|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175652,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.692,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Elry-EmeraldDream:45:WHISPER:ELRY-EMERALDDREAM|h|cffd8bc3f60|r:|cfffe7b09Elry|r|h|cffd8d8d8]|r: Hey |cfffe7b09Elry|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175652,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.692,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Enchantix-EmeraldDream:46:WHISPER:ENCHANTIX-EMERALDDREAM|h|cffd8bc3f60|r:|cfffe7b09Enchantix|r|h|cffd8d8d8]|r: Hey |cfffe7b09Enchantix|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175652,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.99,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:17]|h|r [W To] |cffd8d8d8[|r|Hplayer:Nowayjose-EmeraldDream:47:WHISPER:NOWAYJOSE-EMERALDDREAM|h|cffd8bc3f60|r:|cffa22fc8Nowayjose|r|h|cffd8d8d8]|r: Hey |cffa22fc8Nowayjose|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175657,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185954.761,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:39]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:54:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: lol same",
+					["serverTime"] = 1618175679,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185976.958,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Sealina-EmeraldDream:57:WHISPER:SEALINA-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcSealina|r|h|cffd8d8d8]|r: Hey |cff006fdcSealina|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175712,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186010.461,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:18]|h|r [W To] |cffd8d8d8[|r|Hplayer:Köna-EmeraldDream:58:WHISPER:KÖNA-EMERALDDREAM|h|cffd8bc3f60|r:|cffc59a6cKöna|r|h|cffd8d8d8]|r: Hey |cffc59a6cKöna|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175718,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186016.006,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:44]|h|r [W To] |cffd8d8d8[|r|Hplayer:Kormalice-EmeraldDream:60:WHISPER:KORMALICE-EMERALDDREAM|h|cffd8bc3f60|r:|cffa9d271Kormalice|r|h|cffd8d8d8]|r: Hey |cffa9d271Kormalice|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175744,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186042.562,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Bulyzhnik-EmeraldDream:61:WHISPER:BULYZHNIK-EMERALDDREAM|h|cffd8bc3f60|r:|cffc31d39Bulyzhnik|r|h|cffd8d8d8]|r: Hey |cffc31d39Bulyzhnik|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175745,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						32, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186042.862,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Dholen-EmeraldDream:62:WHISPER:DHOLEN-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcDholen|r|h|cffd8d8d8]|r: Hey |cff006fdcDholen|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175745,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						34, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186043.148,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Twohi-EmeraldDream:63:WHISPER:TWOHI-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcTwohi|r|h|cffd8d8d8]|r: Hey |cff006fdcTwohi|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175745,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186043.39,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:46]|h|r [W To] |cffd8d8d8[|r|Hplayer:Fridhe-EmeraldDream:64:WHISPER:FRIDHE-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcFridhe|r|h|cffd8d8d8]|r: Hey |cff006fdcFridhe|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175746,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186043.672,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [32]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:47]|h|r Coilskar Witch dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167407,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:47]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167407,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:48]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167408,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:08]|h|r You receive loot: |cffffffff|Hitem:21877::::::::58:254:::::::|h[Netherweave Cloth]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167428,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:09]|h|r You loot 2 Gold, 5 Silver, 82 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167429,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:45]|h|r Sunblade Warlock dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167585,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:45]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167585,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:45]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167585,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:47]|h|r Sunblade Blood Knight dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167587,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:47]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167587,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:47]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167587,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:52]|h|r Sister of Torment dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167592,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:52]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167592,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:53]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167593,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:54]|h|r Sunblade Mage Guard dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167594,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:54]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167594,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:54]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167594,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:06]|h|r Sunblade Magister dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167666,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:06]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167666,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:06]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167666,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:12]|h|r Ethereum Smuggler dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167672,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:12]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167672,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:12]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167672,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:14]|h|r Apocaraptor-Bonechewer receives loot: |cffffffff|Hitem:37097::::::::58:254:::::::|h[Scroll of Versatility VII]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167674,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:16]|h|r Hackyn-Dalaran receives loot: |cffffffff|Hitem:21877::::::::58:254:::::::|h[Netherweave Cloth]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167676,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:16]|h|r You receive loot: |cffffffff|Hitem:21877::::::::58:254:::::::|h[Netherweave Cloth]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167676,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:16]|h|r Hackyn-Dalaran receives loot: |cffffffff|Hitem:27860::::::::58:254:::::::|h[Purified Draenic Water]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167676,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:16]|h|r You receive loot: |cffffffff|Hitem:27855::::::::58:254:::::::|h[Mag'har Grainbread]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167676,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:17]|h|r You loot 3 Gold, 17 Silver, 23 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167677,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:45]|h|r Sunblade Sentinel dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167705,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:45]|h|r Reputation with Shattered Sun Offensive increased by 48.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167705,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:45]|h|r Reputation with Ironforge increased by 33.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167705,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:01:50]|h|r You receive loot: |cff9d9d9d|Hitem:24508::::::::58:254:::::::|h[Elemental Fragment]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167710,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:13]|h|r Sister of Torment dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167733,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:13]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167733,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:13]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167733,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:13]|h|r Sunblade Magister dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167733,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:13]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167733,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:13]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167733,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:17]|h|r Sunblade Warlock dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167737,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:17]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167737,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:18]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167738,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:18]|h|r Sunblade Blood Knight dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167738,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:18]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167738,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:18]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167738,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:21]|h|r Sunblade Mage Guard dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167741,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:21]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167741,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:21]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167741,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:23]|h|r Mariennia receives loot: |cffffffff|Hitem:21877::::::::58:254:::::::|h[Netherweave Cloth]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167743,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:23]|h|r Mariennia receives loot: |cff1eff00|Hitem:24766::::::::58:254::22:2:6654:1691:2:28:1079:9:30:::|h[Clefthoof Wanderboots of the Fireflash]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167743,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:24]|h|r Whackamob-Dalaran receives loot: |cffffffff|Hitem:37093::::::::58:254:::::::|h[Scroll of Stamina VII]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167744,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:02:26]|h|r You loot 28 Silver, 1 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167746,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:39]|h|r Sunblade Physician dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167999,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:39]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167999,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:39]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618167999,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:55]|h|r Sunblade Mage Guard dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168015,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:55]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168015,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:55]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168015,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:58]|h|r Sunblade Magister dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168018,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:58]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168018,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:06:58]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168018,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:07:02]|h|r Sunblade Blood Knight dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168022,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:07:02]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168022,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:07:02]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168022,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:07:07]|h|r You receive loot: |cff9d9d9d|Hitem:25395::::::::58:254::22:1:6656:2:28:1079:9:30:::|h[Deteriorating Plate Pants]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168027,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:07:08]|h|r You loot 55 Silver, 37 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168028,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:02]|h|r Eramas Brightblaze dies, you gain 190 experience. (+144 exp Rested bonus, +14 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168082,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:02]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168082,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:02]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168082,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:08]|h|r Apoko dies, you gain 190 experience. (+144 exp Rested bonus, +14 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168088,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:08]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168088,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:08]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168088,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:12]|h|r Kagani Nightstrike dies, you gain 190 experience. (+144 exp Rested bonus, +14 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168092,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:12]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168092,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:12]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168092,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:30]|h|r Ellrys Duskhallow dies, you gain 190 experience. (+144 exp Rested bonus, +14 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168110,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:30]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168110,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:30]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168110,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:30]|h|r Priestess Delrissa dies, you gain 2856 experience. (+2163 exp Rested bonus, +198 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168110,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:30]|h|r Reputation with Shattered Sun Offensive increased by 400.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168110,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:30]|h|r Reputation with Ironforge increased by 330.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168110,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:38]|h|r Mariennia receives loot: |cff0070dd|Hitem:133464::::::::58:254::22:2:7191:6652:2:28:181:9:53:::|h[Commendation of Kael'thas]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168118,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:39]|h|r You receive currency: |cff0070dd|Hcurrency:1166:0|h[Timewarped Badge]|h|r x5.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168119,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:39]|h|r You loot 6 Gold, 68 Silver, 72 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168119,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:08:56]|h|r Tiratha-Duskwood receives loot: |cff0070dd|Hitem:133446::::::::58:254::22:2:7191:6652:2:28:181:9:60:::|h[Battle-Mace of the High Priestess]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168136,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:32]|h|r Sunblade Warlock dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168172,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:32]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168172,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:32]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168172,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:39]|h|r Ethereum Smuggler dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168179,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:39]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168179,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:40]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168180,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:48]|h|r Sunblade Magister dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168188,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:48]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168188,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:48]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168188,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:52]|h|r Sunblade Physician dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168192,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:52]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168192,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:52]|h|r Reputation with Ironforge increased by 16.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168192,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:54]|h|r Coilskar Witch dies, you gain 858 experience. (+650 exp Rested bonus, +60 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168194,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:54]|h|r Reputation with Shattered Sun Offensive increased by 24.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168194,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:54]|h|r Reputation with Ironforge increased by 17.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168194,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:09:59]|h|r You loot 1 Gold, 14 Silver, 27 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168199,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:11:09]|h|r Phoenix Egg dies, you gain 144 experience. (+109 exp Rested bonus, +10 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168269,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r Kael'thas Sunstrider dies, you gain 7616 experience. (+5768 exp Rested bonus, +528 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r Reputation with Shattered Sun Offensive increased by 400.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r Reputation with Ironforge increased by 330.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r You gain 48590 experience.",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r You receive currency: |cff0070dd|Hcurrency:1166:0|h[Timewarped Badge]|h|r x10.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:36]|h|r Tiratha-Duskwood receives loot: |cff0070dd|Hitem:23572::::::::58:254:::::::|h[Primal Nether]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168356,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:36]|h|r Tiratha-Duskwood receives loot: |cffa335ee|Hitem:35513::::::::58:254::22::1:28:872:::|h[Swift White Hawkstrider]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168356,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:36]|h|r You receive currency: |cff0070dd|Hcurrency:1166:0|h[Timewarped Badge]|h|r x10.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168356,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:36]|h|r Tiratha-Duskwood receives loot: |cff0070dd|Hitem:133449::::::::58:254::22:2:7191:6652:2:28:181:9:60:::|h[Cord of Reconstruction]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168356,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:36]|h|r You receive loot: |cff0070dd|Hitem:23572::::::::58:254:::::::|h[Primal Nether]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168356,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:37]|h|r You receive loot: |cff0070dd|Hitem:129747::::::::58:254::::1:28:1079:::|h[Swirling Timewarped Vial]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168357,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:37]|h|r Mariennia receives loot: |cff0070dd|Hitem:23572::::::::58:254:::::::|h[Primal Nether]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168357,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:37]|h|r You loot 16 Gold, 75 Silver, 90 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168357,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:37]|h|r Mariennia receives loot: |cff0070dd|Hitem:129747::::::::58:254::::1:28:1079:::|h[Swirling Timewarped Vial]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168357,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:37]|h|r Mariennia receives loot: |cff0070dd|Hitem:35504::::::::58:254::22::1:28:373:::|h[Phoenix Hatchling]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168357,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:49]|h|r Apocaraptor-Bonechewer receives loot: |cff0070dd|Hitem:23572::::::::58:254:::::::|h[Primal Nether]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168369,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:50]|h|r Apocaraptor-Bonechewer receives loot: |cff0070dd|Hitem:129747::::::::58:254::::1:28:1079:::|h[Swirling Timewarped Vial]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168370,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:52]|h|r Apocaraptor-Bonechewer receives loot: |cff0070dd|Hitem:133472::::::::58:254::22:2:7191:6652:2:28:181:9:60:::|h[Quickening Blade of the Prince]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168372,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r You gain 367 experience.",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Reputation with Shattered Sun Offensive increased by 400.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r You gain 367 experience.",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Reputation with Shattered Sun Offensive increased by 400.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:24]|h|r Bobaduck receives loot: |cff0070dd|Hitem:23572::::::::58:254:::::::|h[Primal Nether]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168404,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:56]|h|r You receive item: |cffa335ee|Hitem:35513::::::::58:254::22::1:28:872:::|h[Swift White Hawkstrider]|h|r. |cffffd200|Hshareitem:35513::::::::58:254::22::1:28:872::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168436,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						18, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [126]
+				{
+					["message"] = "0 |4day:days;, 1 |4hour:hours;, 56 |4minute:minutes;, 36 |4second:seconds;",
+					["timestamp"] = 185708.406,
+				}, -- [127]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 185708.406,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 57,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:04]|h|r 2 |4player:players; total",
+					["serverTime"] = 1618175464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185761.972,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:09]|h|r |cffd8d8d8[|r|Hplayer:Hinghury:13|h|cffd8bc3f60|r:|cff3ec6eaHinghury|r|h|cffd8d8d8]|r: Level 60 Night Elf Mage |cffffffff<|r|cff00ff00IM FOSSIN IT|r|cffffffff>|r - Ardenweald",
+					["serverTime"] = 1618175469,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185767.512,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:09]|h|r 1 |4player:players; total",
+					["serverTime"] = 1618175469,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185767.512,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:09]|h|r |cffd8d8d8[|r|Hplayer:Spaceship:15|h|cffd8bc3f60|r:|cff3ec6eaSpaceship|r|h|cffd8d8d8]|r: Level 60 Night Elf Mage |cffffffff<|r|cff00ff00War Council|r|cffffffff>|r - Chamber of Heart - Raider|cffffffff|r.IO M+ Score: 1316.",
+					["serverTime"] = 1618175469,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185767.512,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:09]|h|r 1 |4player:players; total",
+					["serverTime"] = 1618175469,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185767.512,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:15]|h|r |cffd8d8d8[|r|Hplayer:Windsmove:17|h|cffd8bc3f60|r:|cff00fe97Windsmove|r|h|cffd8d8d8]|r: Level 60 Night Elf Monk - Ardenweald",
+					["serverTime"] = 1618175475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185772.817,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:15]|h|r 1 |4player:players; total",
+					["serverTime"] = 1618175475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185772.817,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:15]|h|r |cffd8d8d8[|r|Hplayer:Ashtlen:19|h|cffd8bc3f60|r:|cff00fe97Ashtlen|r|h|cffd8d8d8]|r: Level 60 Night Elf Monk |cffffffff<|r|cff00ff00Happy Hour|r|cffffffff>|r - Mists of Tirna Scithe - Raider|cffffffff|r.IO M+ Score: 2035.",
+					["serverTime"] = 1618175475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185772.817,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:15]|h|r 1 |4player:players; total",
+					["serverTime"] = 1618175475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185772.817,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:32]|h|r Captain Vandrel says: We have fleshbags behind the lines. Take a squad and deal with it!",
+					["serverTime"] = 1618175492,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185790.104,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:37]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:22:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: hi sam",
+					["serverTime"] = 1618175497,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185795.504,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:05]|h|r Captain Vandrel says: Reinforce the flanks. I want our line secure!",
+					["serverTime"] = 1618175525,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185823.498,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:14]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:24:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Hey man, just getting this toon to an inn for rested xp",
+					["serverTime"] = 1618175534,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185832.321,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:23]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:25:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: ok lol",
+					["serverTime"] = 1618175543,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185840.645,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:26]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:26:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Got back from a 3.6 mi run",
+					["serverTime"] = 1618175546,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185843.766,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:28]|h|r Odew Testan says: You will find no meditation pools here, Kyrian.",
+					["serverTime"] = 1618175548,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185846.406,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:34]|h|r Ravenomous yells: Who has left me so many juicy spiderling corpses!",
+					["serverTime"] = 1618175554,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185852.237,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:34]|h|r Captain Vandrel says: Get those ballistae repaired immediately!",
+					["serverTime"] = 1618175554,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185852.237,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:36]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:30:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: cool",
+					["serverTime"] = 1618175556,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185853.808,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:12:38]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:31:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: I hope all this training pays off",
+					["serverTime"] = 1618175558,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185856.598,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:01]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:32:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Thanks for this mount btw |cffa335ee|Hitem:35513::::::::58:254::22::1:28:872:::|h[Swift White Hawkstrider]|h|r!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+					["serverTime"] = 1618175581,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185878.875,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:02]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:33:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: I just came back from a 3 lbs meal lol",
+					["serverTime"] = 1618175582,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185880.483,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:07]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:34:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: no problem",
+					["serverTime"] = 1618175587,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185884.997,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:07]|h|r Captain Vandrel says: We need more pressure. Get those ballistae firing faster!",
+					["serverTime"] = 1618175587,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185885.4,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:32]|h|r You have added the mount Swift White Hawkstrider to your collection.",
+					["serverTime"] = 1618175612,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185910.547,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:33]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:37:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:884:Player-162-0A01CDAD:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Swift White Hawkstrider]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["serverTime"] = 1618175613,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						7, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185911.018,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:33]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:38:ACHIEVEMENT|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:884:Player-162-0A01CDAD:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Swift White Hawkstrider]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r! |cffffd200|Hshareachieve:884:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1618175613,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185911.018,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:37]|h|r Captain Vandrel says: Get those ballistae repaired immediately!",
+					["serverTime"] = 1618175617,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185914.701,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:13:46]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Swift White Hawkstrider' (213) not yet known. |cffff9900|Hitem:cosFix:mountId:213|h[Click here to define it!]|h|r",
+					["timestamp"] = 185923.607,
+					["serverTime"] = 1618175626,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:06]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:40:GUILD|h|cffd8bc3f58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: Yes the epic Sunday meal- glad you didnt miss it!",
+					["serverTime"] = 1618175646,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185944.621,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:10]|h|r Captain Vandrel says: We need more pressure. Get those ballistae firing faster!",
+					["serverTime"] = 1618175650,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185947.634,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:11]|h|r [W To] |cffd8d8d8[|r|Hplayer:Freshbreeze-EmeraldDream:42:WHISPER:FRESHBREEZE-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Freshbreeze|r|h|cffd8d8d8]|r: Hey |cff00fe97Freshbreeze|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175651,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.412,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:11]|h|r |cffd8d8d8[|r|Hplayer:Freshbreeze-EmeraldDream:43:WHISPER:FRESHBREEZE-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Freshbreeze|r|h|cffd8d8d8]|r is Away:AFK",
+					["serverTime"] = 1618175651,
+					["r"] = 1,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						15, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.412,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Zoriam-EmeraldDream:44:WHISPER:ZORIAM-EMERALDDREAM|h|cffd8bc3f60|r:|cfffe7b09Zoriam|r|h|cffd8d8d8]|r: Hey |cfffe7b09Zoriam|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175652,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.692,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Elry-EmeraldDream:45:WHISPER:ELRY-EMERALDDREAM|h|cffd8bc3f60|r:|cfffe7b09Elry|r|h|cffd8d8d8]|r: Hey |cfffe7b09Elry|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175652,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.692,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Enchantix-EmeraldDream:46:WHISPER:ENCHANTIX-EMERALDDREAM|h|cffd8bc3f60|r:|cfffe7b09Enchantix|r|h|cffd8d8d8]|r: Hey |cfffe7b09Enchantix|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175652,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185949.99,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:17]|h|r [W To] |cffd8d8d8[|r|Hplayer:Nowayjose-EmeraldDream:47:WHISPER:NOWAYJOSE-EMERALDDREAM|h|cffd8bc3f60|r:|cffa22fc8Nowayjose|r|h|cffd8d8d8]|r: Hey |cffa22fc8Nowayjose|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175657,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185954.761,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:22]|h|r |cffd8d8d8[|r|Hplayer:Gizmorte:48|h|cffd8bc3f60|r:|cffc31d39Gizmorte|r|h|cffd8d8d8]|r: Level 60 Night Elf Death Knight - Maldraxxus",
+					["serverTime"] = 1618175662,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185959.775,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:22]|h|r |cffd8d8d8[|r|Hplayer:Aureliano:49|h|cffd8bc3f60|r:|cffc31d39Aureliano|r|h|cffd8d8d8]|r: Level 60 Night Elf Death Knight |cffffffff<|r|cff00ff00YoMamaSoFat|r|cffffffff>|r - Oribos",
+					["serverTime"] = 1618175662,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185959.775,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:22]|h|r |cffd8d8d8[|r|Hplayer:Toastyjr:50|h|cffd8bc3f60|r:|cffc31d39Toastyjr|r|h|cffd8d8d8]|r: Level 60 Night Elf Death Knight - Oribos",
+					["serverTime"] = 1618175662,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185959.775,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:22]|h|r 3 |4player:players; total",
+					["serverTime"] = 1618175662,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185959.775,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:22]|h|r 0 |4player:players; total",
+					["serverTime"] = 1618175662,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185959.775,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:39]|h|r Captain Vandrel says: Reinforce the flanks. I want our line secure!",
+					["serverTime"] = 1618175679,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185976.958,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:14:39]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:54:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: lol same",
+					["serverTime"] = 1618175679,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185976.958,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:02]|h|r |CFFFF7D0AChernovaxx |CFFFF0000(M)|r|r has gone offline.",
+					["serverTime"] = 1618175702,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185999.935,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:12]|h|r Captain Vandrel says: Get those ballistae repaired immediately!",
+					["serverTime"] = 1618175712,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186009.944,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:12]|h|r [W To] |cffd8d8d8[|r|Hplayer:Sealina-EmeraldDream:57:WHISPER:SEALINA-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcSealina|r|h|cffd8d8d8]|r: Hey |cff006fdcSealina|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175712,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186010.461,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:18]|h|r [W To] |cffd8d8d8[|r|Hplayer:Köna-EmeraldDream:58:WHISPER:KÖNA-EMERALDDREAM|h|cffd8bc3f60|r:|cffc59a6cKöna|r|h|cffd8d8d8]|r: Hey |cffc59a6cKöna|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175718,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186016.006,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:41]|h|r Captain Vandrel says: We have fleshbags behind the lines. Take a squad and deal with it!",
+					["serverTime"] = 1618175741,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186038.916,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:44]|h|r [W To] |cffd8d8d8[|r|Hplayer:Kormalice-EmeraldDream:60:WHISPER:KORMALICE-EMERALDDREAM|h|cffd8bc3f60|r:|cffa9d271Kormalice|r|h|cffd8d8d8]|r: Hey |cffa9d271Kormalice|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175744,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186042.562,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Bulyzhnik-EmeraldDream:61:WHISPER:BULYZHNIK-EMERALDDREAM|h|cffd8bc3f60|r:|cffc31d39Bulyzhnik|r|h|cffd8d8d8]|r: Hey |cffc31d39Bulyzhnik|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175745,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						32, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186042.862,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Dholen-EmeraldDream:62:WHISPER:DHOLEN-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcDholen|r|h|cffd8d8d8]|r: Hey |cff006fdcDholen|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175745,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						34, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186043.148,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Twohi-EmeraldDream:63:WHISPER:TWOHI-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcTwohi|r|h|cffd8d8d8]|r: Hey |cff006fdcTwohi|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175745,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186043.39,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:15:46]|h|r [W To] |cffd8d8d8[|r|Hplayer:Fridhe-EmeraldDream:64:WHISPER:FRIDHE-EMERALDDREAM|h|cffd8bc3f60|r:|cff006fdcFridhe|r|h|cffd8d8d8]|r: Hey |cff006fdcFridhe|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175746,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186043.672,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:16:14]|h|r Captain Vandrel says: Get those ballistae repaired immediately!",
+					["serverTime"] = 1618175774,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186072.289,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:16:30]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Maldraxxus]|h",
+					["serverTime"] = 1618175790,
+					["r"] = 0.7647059559822083,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186088.421,
+					["g"] = 0.9019608497619629,
+					["b"] = 0.9098039865493774,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:16:30]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Maldraxxus]|h",
+					["serverTime"] = 1618175790,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 186088.421,
+					["g"] = 0.8941177129745483,
+					["b"] = 0.4745098352432251,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Mariennia-EmeraldDream:2056:GUILD|h|cffd84e4e53|r:|cfffe7b09Mariennia|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:682:Player-162-0A16C5A8:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						46, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2057:GUILD|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:661:Player-162-0A01CDAD:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						46, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2058:GUILD|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:682:Player-162-0A01CDAD:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						46, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Mariennia-EmeraldDream:2059:ACHIEVEMENT|h|cffd84e4e53|r:|cfffe7b09Mariennia|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:661:Player-162-0A16C5A8:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Mariennia-EmeraldDream:2060:ACHIEVEMENT|h|cffd84e4e53|r:|cfffe7b09Mariennia|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:682:Player-162-0A16C5A8:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2061:ACHIEVEMENT|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:661:Player-162-0A01CDAD:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r! |cffffd200|Hshareachieve:661:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2062:ACHIEVEMENT|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:682:Player-162-0A01CDAD:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r! |cffffd200|Hshareachieve:682:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Bobaduck-EmeraldDream:2063:ACHIEVEMENT|h|cffd84e4e52|r:|cffa9d271Bobaduck|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:661:Player-162-0B2B7343:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Bobaduck-EmeraldDream:2064:ACHIEVEMENT|h|cffd84e4e52|r:|cffa9d271Bobaduck|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:682:Player-162-0B2B7343:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2065:ACHIEVEMENT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:661:Player-1136-08D6CE6A:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2066:ACHIEVEMENT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:682:Player-1136-08D6CE6A:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Magister's Terrace]|h|r |cffffffff(|rCompleted 4/11/21|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r Experience gained: 48590.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r Received 90 Gold, 97 Silver, 92 Copper.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:33]|h|r |cffd8d8d8[|r|Hplayer:Bobaduck-EmeraldDream:2071:ACHIEVEMENT|h|cffd84e4e52|r:|cffa9d271Bobaduck|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:4476:Player-162-0B2B7343:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r |cffffffff(|rCompleted 1/20/10|cffffffff)|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168353,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						49, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:37]|h|r Quest accepted: The Swirling Vial",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168357,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:46]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2083:INSTANCE_CHAT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r: |cffa5a5a5Tiratha|r you got the mount!!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168366,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:50]|h|r You are already on that quest.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168370,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:53]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Bobaduck-EmeraldDream:2088:INSTANCE_CHAT|h|cffd84e4e52|r:|cffa9d271Bobaduck|r|h|cffd8d8d8]|r: nice!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168373,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:12:58]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Bobaduck-EmeraldDream:2089:INSTANCE_CHAT|h|cffd84e4e52|r:|cffa9d271Bobaduck|r|h|cffd8d8d8]|r: mind if i get a rez?",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168378,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r A Radical Notion completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Experience gained: 367.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Received 10 Gold, 50 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Tiratha-Duskwood:2095:INSTANCE_CHAT|h|cffd84e4e60|r:|cfffefefeTiratha|r-|cffc867c7Dus|r|h|cffd8d8d8]|r: So.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Twisted Associations completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Experience gained: 367.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:03]|h|r Received 10 Gold, 50 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168383,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:05]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2101:INSTANCE_CHAT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r: i forgot",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168385,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:08]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Tiratha-Duskwood:2102:INSTANCE_CHAT|h|cffd84e4e60|r:|cfffefefeTiratha|r-|cffc867c7Dus|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:35513::::::::60:258::22::1:28:872:::|h[Swift White Hawkstrider]|h|r Up for roll",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168388,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:11]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2103:INSTANCE_CHAT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r: awesome",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168391,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:12]|h|r |cffa5a5a5Apocaraptor|r rolls 44 (1-100)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168392,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:19]|h|r |cffa9d271Bobaduck|r rolls 72 (1-100)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168399,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:19]|h|r |cff00ff00Samoanranger|r rolls 67 (1-100)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168399,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:20]|h|r |CFFABD473|cffa9d271Pfkiller|r |CFFFF0000(M)|r|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168400,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:23]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2108:INSTANCE_CHAT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r: boo",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168403,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:24]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:5:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tDonnieDice)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168404,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						31, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:28]|h|r |cfffe7b09Mariennia|r rolls 91 (1-100)",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168408,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:39]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Tiratha-Duskwood:2112:INSTANCE_CHAT|h|cffd84e4e60|r:|cfffefefeTiratha|r-|cffc867c7Dus|r|h|cffd8d8d8]|r: And mari wins it",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168419,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:45]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Bobaduck-EmeraldDream:2113:INSTANCE_CHAT|h|cffd84e4e53|r:|cffa9d271Bobaduck|r|h|cffd8d8d8]|r: grats!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168425,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:48]|h|r [S] |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2114:SAY|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: wow congrats",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168428,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						57, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:48]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2115:INSTANCE_CHAT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r: grats!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168428,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:13:52]|h|r [S] |cffd8d8d8[|r|Hplayer:Samoanranger-EmeraldDream:2116:SAY|h|cffd84e4e58|r:|cffa9d271Samoanranger|r|h|cffd8d8d8]|r: thats awesome",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168432,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						57, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:00]|h|r |cffa9d271Bobaduck|r has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168440,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:05]|h|r |Hplayer:Apocaraptor:2119:TEXT_EMOTE:|h|cff00fe97Apocaraptor|r|h-Bonechewer cheers at Mariennia!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168445,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						59, -- [3]
+						60, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:09]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Apocaraptor-Bonechewer:2120:INSTANCE_CHAT|h|cffd84e4e60|r:|cff00fe97Apocaraptor|r-|cffd9dd1cBon|r|h|cffd8d8d8]|r: thanks for the run guys!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168449,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						37, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:20]|h|r |CFFFF7D0AMariennia|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168460,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:28]|h|r |cffa5a5a5Tiratha|r-Duskwood has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168468,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:14:30]|h|r |cffa5a5a5Apocaraptor|r-Bonechewer has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168470,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:17:24]|h|r |CFFF58CBAKrimmzon |CFFFF0000(M)|r|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168644,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:19:17]|h|r You are now Away: AFK",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618168757,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "0 |4day:days;, 1 |4hour:hours;, 51 |4minute:minutes;, 15 |4second:seconds;",
+					["timestamp"] = 185708.406,
+				}, -- [107]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 185708.406,
+				}, -- [108]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 185681.013,
+				}, -- [109]
+				{
+					["message"] = "|cFF8040FFGuild Revenue Agent|r version 1.9. Type |cFF8040FF/gra help|r for help.",
+					["timestamp"] = 185681.013,
+				}, -- [110]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 185681.013,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:07]|h|r |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 185681.013,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:31]|h|r Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 185708.406,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:31]|h|r Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 185708.406,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:31]|h|r |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618175432,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:36]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618175437,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:36]|h|r |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 185708.406,
+					["serverTime"] = 1618175437,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:37]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Sky Golem' (522) not yet known. |cffff9900|Hitem:cosFix:mountId:522|h[Click here to define it!]|h|r",
+					["timestamp"] = 185734.776,
+					["serverTime"] = 1618175438,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:37]|h|r Quest accepted: Rallying Maldraxxus",
+					["serverTime"] = 1618175438,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185734.776,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:43]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1618175444,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 185741.333,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:58]|h|r |cffd8d8d8[|r|Hplayer:Daralana:4|h|cffd8bc3f60|r:|cfffef367Daralana|r|h|cffd8d8d8]|r: Level 60 Night Elf Rogue |cffffffff<|r|cff00ff00The Loch Mess|r|cffffffff>|r - Torghast, Tower of the Damned",
+					["serverTime"] = 1618175458,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185756.438,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:58]|h|r |cffd8d8d8[|r|Hplayer:Yhora:5|h|cffd8bc3f60|r:|cfffef367Yhora|r|h|cffd8d8d8]|r: Level 60 Night Elf Rogue - Ardenweald",
+					["serverTime"] = 1618175458,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185756.438,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:58]|h|r |cffd8d8d8[|r|Hplayer:Grictavend:6|h|cffd8bc3f60|r:|cfffef367Grictavend|r|h|cffd8d8d8]|r: Level 60 Night Elf Rogue - Stormwind City",
+					["serverTime"] = 1618175458,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185756.438,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:58]|h|r 3 |4player:players; total",
+					["serverTime"] = 1618175458,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185756.438,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:10:59]|h|r [W To] |cffd8d8d8[|r|Hplayer:Ishsish-EmeraldDream:8:WHISPER:ISHSISH-EMERALDDREAM|h|cffd8bc3f60|r:|cfffef367Ishsish|r|h|cffd8d8d8]|r: Hey |cfffef367Ishsish|r do you need help with +9-15 keystones? |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is a social guild which enjoys helping other players. Tuesdays, post your key in our discord!",
+					["serverTime"] = 1618175459,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185757.018,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:03]|h|r Captain Vandrel says: Get those ballistae repaired immediately!",
+					["serverTime"] = 1618175463,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185760.734,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:04]|h|r |cffd8d8d8[|r|Hplayer:Ataegina:10|h|cffd8bc3f60|r:|cfffefefeAtaegina|r|h|cffd8d8d8]|r: Level 60 Night Elf Priest - Sinfall",
+					["serverTime"] = 1618175464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185761.972,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:11:04]|h|r |cffd8d8d8[|r|Hplayer:Iyathalaine:11|h|cffd8bc3f60|r:|cfffefefeIyathalaine|r|h|cffd8d8d8]|r: Level 60 Night Elf Priest |cffffffff<|r|cff00ff00Asgard|r|cffffffff>|r - Revendreth",
+					["serverTime"] = 1618175464,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185761.972,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

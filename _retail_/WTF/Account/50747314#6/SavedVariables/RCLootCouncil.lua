@@ -1,0 +1,3 @@
+
+RCLootCouncilDB = nil
+RCLootCouncilLootDB = nil

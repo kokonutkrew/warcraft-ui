@@ -3,12 +3,9 @@ local fn = addon.functions
 local L = FGI:GetLocale()
 local settings = L.settings
 local size = settings.size
-local color = addon.color
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
-local fontSize = fn.fontSize
 
 local CustomList
 
@@ -20,13 +17,11 @@ local function btnText(frame)
 end
 
 local w,h = 623, 568
-interface.settings.CustomList.content = GUI:Create("SimpleGroup")
-CustomList = interface.settings.CustomList.content
-CustomList:SetWidth(w-20)
-CustomList:SetHeight(h-20)
-CustomList.frame:SetParent(interface.settings.CustomList)
+interface.settings.CustomList = GUI:Create("GroupFrame")
+CustomList = interface.settings.CustomList
 CustomList:SetLayout("NIL")
-CustomList:SetPoint("TOPLEFT", interface.settings.CustomList, "TOPLEFT", 10, -10)
+interface.settings:AddChild(CustomList)
+interface.settings.AddContent('CustomList', L["Пользовательский список"], CustomList, w-20, h-20)
 
 
 CustomList.list = GUI:Create("MultiLineEditBox")
@@ -47,6 +42,17 @@ frame:SetTooltip(L["Использовать пользовательский с
 frame:SetPoint("TOPLEFT", CustomList.list.frame, "BOTTOMLEFT", 0, 0)
 frame.frame:HookScript("OnClick", function()
 	DB.realm.customWho = CustomList.customList:GetValue()
+end)
+CustomList:AddChild(frame)
+
+CustomList.strict = GUI:Create("TCheckBox")
+local frame = CustomList.strict
+frame:SetWidth(size.customListBtn)
+frame:SetLabel(L["Строго"])
+frame:SetTooltip(L["Не углублять поиск если вернулось 50 игроков"])
+frame:SetPoint("TOPRIGHT", CustomList.list.frame, "BOTTOMRIGHT", 0, 0)
+frame.frame:HookScript("OnClick", function()
+	DB.realm.strictCustom = CustomList.strict:GetValue()
 end)
 CustomList:AddChild(frame)
 
@@ -82,4 +88,5 @@ frame:SetScript('OnEvent', function()
 	end
 	
 	CustomList.customList:SetValue(DB.realm.customWho or false)
+	CustomList.strict:SetValue(DB.realm.strictCustom or false)
 end)

@@ -1,7 +1,11 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
+<<<<<<< Updated upstream
 	["session"] = 433,
+=======
+	["session"] = 3,
+>>>>>>> Stashed changes
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\StaticPopup.lua:4460: bad argument #2 to 'SetFormattedText' (string expected, got nil)",

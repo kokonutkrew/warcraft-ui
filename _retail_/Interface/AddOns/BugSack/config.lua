@@ -6,6 +6,7 @@ local L = addon.L
 local frame = addon.frame
 frame.name = addonName
 frame:Hide()
+local ldbi = LibStub("LibDBIcon-1.0")
 
 frame:SetScript("OnShow", function(frame)
 	local function newCheckbox(label, description, onClick)
@@ -50,13 +51,28 @@ frame:SetScript("OnShow", function(frame)
 		function(self, value)
 			BugSackLDBIconDB.hide = not value
 			if BugSackLDBIconDB.hide then
-				LibStub("LibDBIcon-1.0"):Hide(addonName)
+				ldbi:Hide(addonName)
 			else
-				LibStub("LibDBIcon-1.0"):Show(addonName)
+				ldbi:Show(addonName)
 			end
 		end)
 	minimap:SetPoint("TOPLEFT", chatFrame, "BOTTOMLEFT", 0, -8)
 	minimap:SetChecked(not BugSackLDBIconDB.hide)
+
+	if ldbi:IsButtonCompartmentAvailable() then
+		local addonCompartment = newCheckbox(
+			L.addonCompartment,
+			L.addonCompartment_desc,
+			function(self, value)
+				if value then
+					ldbi:AddButtonToCompartment("BugSack")
+				else
+					ldbi:RemoveButtonFromCompartment("BugSack")
+				end
+			end)
+		addonCompartment:SetPoint("LEFT", minimap, "RIGHT", 150, 0)
+		addonCompartment:SetChecked(ldbi:IsButtonInCompartment("BugSack"))
+	end
 
 	local mute = newCheckbox(
 		L["Mute"],
@@ -88,22 +104,29 @@ frame:SetScript("OnShow", function(frame)
 	end
 	BugSackFontSizeText:SetText(L["Font size"])
 
-	local dropdown = CreateFrame("Frame", "BugSackSoundDropdown", frame, "UIDropDownMenuTemplate")
-	dropdown:SetPoint("LEFT", fontSizeDropdown, "RIGHT", 150, 0)
-	dropdown.initialize = function()
+	local soundDropdown = CreateFrame("Frame", "BugSackSoundDropdown", frame, "UIDropDownMenuTemplate")
+	soundDropdown:SetPoint("LEFT", fontSizeDropdown, "RIGHT", 150, 0)
+	soundDropdown.initialize = function()
 		wipe(info)
 		for _, sound in next, LibStub("LibSharedMedia-3.0"):List("sound") do
 			info.text = sound
 			info.value = sound
 			info.func = function(self)
 				addon.db.soundMedia = self.value
-				BugSackSoundDropdownText:SetText(self:GetText())
+				soundDropdown.Text:SetText(self:GetText())
 			end
 			info.checked = sound == addon.db.soundMedia
 			UIDropDownMenu_AddButton(info)
 		end
 	end
-	BugSackSoundDropdownText:SetText(L["Sound"])
+	soundDropdown.Text:SetText(L["Sound"])
+
+	local master = newCheckbox(
+		L.useMaster,
+		L.useMasterDesc,
+		function(self, value) addon.db.useMaster = value end)
+		master:SetChecked(addon.db.useMaster)
+		master:SetPoint("LEFT", soundDropdown, "RIGHT", 140, 0)
 
 	local clear = CreateFrame("Button", "BugSackSaveButton", frame, "UIPanelButtonTemplate")
 	clear:SetText(L["Wipe saved bugs"])
@@ -116,7 +139,20 @@ frame:SetScript("OnShow", function(frame)
 	clear.tooltipText = L["Wipe saved bugs"]
 	clear.newbieText = L.wipeDesc
 
+	local altWipe = newCheckbox(
+		L["Minimap icon alt-click wipe"],
+		L.altWipeDesc,
+		function(self, value) addon.db.altwipe = value end)
+	altWipe:SetChecked(addon.db.altwipe)
+	altWipe:SetPoint("LEFT", clear, "RIGHT", 10, 0)
+
 	frame:SetScript("OnShow", nil)
 end)
-InterfaceOptions_AddCategory(frame)
 
+if InterfaceOptions_AddCategory then
+	InterfaceOptions_AddCategory(frame)
+else
+	local category, layout = Settings.RegisterCanvasLayoutCategory(frame, frame.name);
+	Settings.RegisterAddOnCategory(category);
+	addon.settingsCategory = category
+end

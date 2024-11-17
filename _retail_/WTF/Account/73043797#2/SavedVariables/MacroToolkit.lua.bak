@@ -1,0 +1,11 @@
+
+MacroToolkitDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "profile",
+		["Cukie - Emerald Dream"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

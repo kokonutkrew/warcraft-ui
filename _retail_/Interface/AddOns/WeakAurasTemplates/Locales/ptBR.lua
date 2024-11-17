@@ -1,17 +1,25 @@
-if not WeakAuras.IsCorrectVersion() then return end
+if not WeakAuras.IsLibsOK() then return end
 
-if not(GetLocale() == "ptBR") then
+if (GAME_LOCALE or GetLocale()) ~= "ptBR" then
   return
 end
 
 local L = WeakAuras.L
 
 -- WeakAuras/Templates
-	L[" Debuff"] = "Debuff"
-	L["<70% Mana"] = "<70% Mana"
-	L[">70% Mana"] = ">70% Mana"
+	--[[Translation missing --]]
+	L["(Dwarf)"] = "(Dwarf)"
+	--[[Translation missing --]]
+	L["(Dwarf/Human)"] = "(Dwarf/Human)"
+	--[[Translation missing --]]
+	L["(Human)"] = "(Human)"
+	--[[Translation missing --]]
+	L["(Night Elf)"] = "(Night Elf)"
+	--[[Translation missing --]]
+	L["(Troll)"] = "(Troll)"
+	--[[Translation missing --]]
+	L["(Undead)"] = "(Undead)"
 	L["Abilities"] = "Habilidades"
-	L["Ability"] = "Habilidade"
 	L["Add Triggers"] = "Adicionar gatilhos"
 	L["Always Active"] = "Sempre ativo"
 	L["Always Show"] = "Mostrar sempre"
@@ -40,45 +48,32 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Basic Show On Ready"] = "Basic Show On Ready"
 	L["Bloodlust/Heroism"] = "Sede de Sangue/Heroísmo"
-	--[[Translation missing --]]
-	L["Bonded Buff"] = "Bonded Buff"
-	L["Buff"] = "Buff"
 	L["buff"] = "Buff"
-	L["Buff on Other"] = "Buff em Outros"
 	L["Buffs"] = "Buffs"
-	L["Build Up"] = "Acumular"
 	L["Cancel"] = "Cancelar"
 	L["Cast"] = "Lançar"
 	L["Charge and Buff Tracking"] = "Carga e Rastreamento de Buff"
 	L["Charge and Debuff Tracking"] = "Carga e Rastreamento de Debuff"
 	L["Charge and Duration Tracking"] = "Carga e Rastreamento de Duração"
 	L["Charge Tracking"] = "Rastreamento de Carga"
-	--[[Translation missing --]]
-	L["Combustion Ready"] = "Combustion Ready"
-	--[[Translation missing --]]
-	L["Conduits"] = "Conduits"
-	--[[Translation missing --]]
-	L["Cooldown"] = "Cooldown"
 	L["cooldown"] = "tempo de recarga"
 	--[[Translation missing --]]
 	L["Cooldown Tracking"] = "Cooldown Tracking"
 	--[[Translation missing --]]
-	L["Create Auras"] = "Create Auras"
+	L["Cooldowns"] = "Cooldowns"
 	--[[Translation missing --]]
-	L["Debuff"] = "Debuff"
+	L["Create Auras"] = "Create Auras"
 	--[[Translation missing --]]
 	L["debuff"] = "debuff"
 	--[[Translation missing --]]
 	L["Debuffs"] = "Debuffs"
 	--[[Translation missing --]]
-	L["Empowered Buff"] = "Empowered Buff"
-	--[[Translation missing --]]
-	L["Fire"] = "Fire"
-	--[[Translation missing --]]
-	L["Frost"] = "Frost"
+	L["dps buff"] = "dps buff"
 	L["General"] = "Geral"
 	--[[Translation missing --]]
 	L["Health"] = "Health"
+	--[[Translation missing --]]
+	L["Highlight while action is queued."] = "Highlight while action is queued."
 	--[[Translation missing --]]
 	L["Highlight while active, red when out of range."] = "Highlight while active, red when out of range."
 	--[[Translation missing --]]
@@ -98,11 +93,7 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Keeps existing triggers intact"] = "Keeps existing triggers intact"
 	--[[Translation missing --]]
-	L["Legendaries"] = "Legendaries"
-	--[[Translation missing --]]
-	L["Meteor Ready"] = "Meteor Ready"
-	--[[Translation missing --]]
-	L["Nature"] = "Nature"
+	L["Master Channeler Rune"] = "Master Channeler Rune"
 	--[[Translation missing --]]
 	L["Next"] = "Next"
 	--[[Translation missing --]]
@@ -126,7 +117,7 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Pet Behavior"] = "Pet Behavior"
 	--[[Translation missing --]]
-	L["PvP Talents"] = "PvP Talents"
+	L["regen buff"] = "regen buff"
 	--[[Translation missing --]]
 	L["Replace all existing triggers"] = "Replace all existing triggers"
 	--[[Translation missing --]]
@@ -151,6 +142,8 @@ local L = WeakAuras.L
 	L["Show Charges with Range Tracking"] = "Show Charges with Range Tracking"
 	--[[Translation missing --]]
 	L["Show Charges with Usable Check"] = "Show Charges with Usable Check"
+	--[[Translation missing --]]
+	L["Show Cooldown and Action Queued"] = "Show Cooldown and Action Queued"
 	--[[Translation missing --]]
 	L["Show Cooldown and Buff"] = "Show Cooldown and Buff"
 	--[[Translation missing --]]
@@ -198,17 +191,7 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Show Totem and Charge Information"] = "Show Totem and Charge Information"
 	--[[Translation missing --]]
-	L["Slow"] = "Slow"
-	--[[Translation missing --]]
-	L["slow debuff"] = "slow debuff"
-	--[[Translation missing --]]
 	L["Stance"] = "Stance"
-	--[[Translation missing --]]
-	L["stun debuff"] = "stun debuff"
-	--[[Translation missing --]]
-	L["Stun Debuff"] = "Stun Debuff"
-	--[[Translation missing --]]
-	L["Totem"] = "Totem"
 	--[[Translation missing --]]
 	L["Track the charge and proc, highlight while proc is active, turns red when out of range, blue on insufficient resources."] = "Track the charge and proc, highlight while proc is active, turns red when out of range, blue on insufficient resources."
 	--[[Translation missing --]]

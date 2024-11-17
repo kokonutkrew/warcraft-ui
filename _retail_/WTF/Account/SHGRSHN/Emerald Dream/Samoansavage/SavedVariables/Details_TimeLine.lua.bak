@@ -2,6 +2,7 @@
 DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
+<<<<<<< Updated upstream
 		{
 			["date_start"] = "20:42:58",
 			["date_end"] = "20:45:13",
@@ -3101,12 +3102,27 @@ DetailsTimeLineDB = {
 	},
 	["useicons"] = true,
 	["window_scale"] = 1,
+=======
+	},
+	["hide_on_combat"] = false,
+	["IndividualSpells"] = {
+	},
+	["useicons"] = true,
+	["cooldowns_timeline"] = {
+	},
+	["window_scale"] = 1,
+	["deaths_data"] = {
+	},
+	["debuff_timeline"] = {
+	},
+>>>>>>> Stashed changes
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+<<<<<<< Updated upstream
 	["deaths_data"] = {
 		{
 			["Dagonra-Lothar"] = {
@@ -5622,5 +5638,8 @@ DetailsTimeLineDB = {
 				}, -- [27]
 			},
 		}, -- [4]
+=======
+	["BossSpellCast"] = {
+>>>>>>> Stashed changes
 	},
 }

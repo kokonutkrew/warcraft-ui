@@ -1,5 +1,6 @@
 
 BattleGroundEnemiesDB = {
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoanbeast - Emerald Dream"] = "Default",
@@ -59,4 +60,51 @@ BattleGroundEnemiesDB = {
 			},
 		},
 	},
+=======
+["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "Default",
+["Fedieb - Emerald Dream"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
+["Samoanranger - Emerald Dream"] = "Default",
+["Orecraft - Emerald Dream"] = "Default",
+["Samoanmystic - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoansavage - Stormrage"] = "Default",
+["Samoansurge - Emerald Dream"] = "Default",
+["Samoanruin - Emerald Dream"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Gl - Emerald Dream"] = "Default",
+["Samoanrelic - Emerald Dream"] = "Default",
+["Samoanrelic - Stormrage"] = "Default",
+["Mf - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Samoanghost - Frostmourne"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Samoantitan - Stormrage"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["onlyShowWhenNewVersion"] = true,
+["Enemies"] = {
+["15"] = {
+["Position_Y"] = 593.0665074162971,
+["Position_X"] = 1127.82285717065,
+},
+},
+["lastReadVersion"] = "9.0.5.6",
+["Allies"] = {
+["Enabled"] = false,
+["15"] = {
+["Position_Y"] = 688.3554854181057,
+["Position_X"] = 128.000654141124,
+},
+},
+},
+},
+>>>>>>> Stashed changes
 }

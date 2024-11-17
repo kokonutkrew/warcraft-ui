@@ -2,6 +2,7 @@
 DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
+<<<<<<< Updated upstream
 		{
 			["date_end"] = "20:45:13",
 			["date_start"] = "20:42:58",
@@ -4017,12 +4018,20 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+=======
+	},
+	["hide_on_combat"] = false,
+	["IndividualSpells"] = {
+	},
+	["useicons"] = true,
+>>>>>>> Stashed changes
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+<<<<<<< Updated upstream
 	["BossSpellCast"] = {
 		{
 			["Margrave Stradama"] = {
@@ -5622,5 +5631,15 @@ DetailsTimeLineDB = {
 				}, -- [27]
 			},
 		}, -- [4]
+=======
+	["window_scale"] = 1,
+	["deaths_data"] = {
+	},
+	["debuff_timeline"] = {
+	},
+	["cooldowns_timeline"] = {
+	},
+	["BossSpellCast"] = {
+>>>>>>> Stashed changes
 	},
 }

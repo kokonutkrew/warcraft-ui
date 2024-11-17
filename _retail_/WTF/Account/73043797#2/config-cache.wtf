@@ -33,5 +33,9 @@ SET petJournalSourceFilters "-2048"
 SET petJournalSort "1"
 SET toyBoxCollectedFilters ""
 SET transmogrifySourceFilters ""
+<<<<<<< Updated upstream
 SET advJournalLastOpened "1614853717"
+=======
+SET advJournalLastOpened "1617650042"
+>>>>>>> Stashed changes
 SET AllowDangerousScripts "1"

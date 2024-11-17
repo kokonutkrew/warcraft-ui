@@ -1,0 +1,15 @@
+
+LootAppraiserReloadedDB = {
+["profileKeys"] = {
+["Herbcraft - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}
+LALootDB = {
+["profileKeys"] = {
+["Herbcraft - Area 52"] = "Default",
+},
+}

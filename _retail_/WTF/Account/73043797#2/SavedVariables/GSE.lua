@@ -2,7 +2,16 @@
 GSEOptions = {
 	["use2"] = true,
 	["showGSEUsers"] = false,
+<<<<<<< Updated upstream
 	["UnfoundSpellIDs"] = {
+=======
+	["editorHeight"] = 700,
+	["filterList"] = {
+		["Spec"] = true,
+		["Class"] = true,
+		["Global"] = true,
+		["All"] = false,
+>>>>>>> Stashed changes
 	},
 	["Updated801"] = true,
 	["autoCreateMacroStubsGlobal"] = false,
@@ -24,17 +33,31 @@ GSEOptions = {
 		["LeftControl"] = false,
 		["LeftButton"] = false,
 		["LeftAlt"] = false,
+<<<<<<< Updated upstream
 		["RighttButton"] = false,
 		["RightAlt"] = false,
 		["MiddleButton"] = false,
 		["Button5"] = false,
 		["Button4"] = false,
+=======
+		["RightShift"] = false,
+		["RightAlt"] = false,
+		["AnyMod"] = false,
+		["Button5"] = false,
+>>>>>>> Stashed changes
 		["LeftShift"] = false,
+		["Shift"] = false,
 		["Control"] = false,
 		["Shift"] = true,
 		["RightControl"] = false,
+<<<<<<< Updated upstream
 		["AnyMod"] = false,
 		["RightShift"] = false,
+=======
+		["MiddleButton"] = false,
+		["Button4"] = false,
+		["RightButton"] = false,
+>>>>>>> Stashed changes
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["WOWSHORTCUTS"] = "|cffddaaff",
@@ -54,6 +77,7 @@ GSEOptions = {
 	["sendDebugOutputToChatWindow"] = false,
 	["DisabledSequences"] = {
 	},
+<<<<<<< Updated upstream
 	["Update2633"] = true,
 	["sendDebugOutputToDebugOutput"] = false,
 	["KEYWORD"] = "|cff88bbdd",
@@ -68,17 +92,34 @@ GSEOptions = {
 	["PromptSample"] = true,
 	["clearUIErrors"] = false,
 	["INDENT"] = "|cffccaa88",
+=======
+	["sendDebugOutputToDebugOutput"] = false,
+	["DefaultImportAction"] = "MERGE",
+	["CreateGlobalButtons"] = false,
+	["ActiveSequenceVersions"] = {
+	},
+	["STRING"] = "|cff888888",
+	["showGSEoocqueue"] = true,
+	["STANDARDFUNCS"] = "|cff55ddcc",
+	["useExternalMSTimings"] = true,
+	["TitleColour"] = "|cFFFF0000",
+	["hideUIErrors"] = false,
+	["INDENT"] = "|cffccaa88",
+	["clearUIErrors"] = false,
+>>>>>>> Stashed changes
 	["DebugModules"] = {
 		["Translator"] = false,
 		["GUI"] = false,
 		["Storage"] = false,
 		["Editor"] = false,
+		["Versions"] = false,
 		["API"] = false,
 		["Versions"] = false,
 		["Viewer"] = false,
 		["Transmission"] = false,
 	},
 	["Update2415"] = true,
+<<<<<<< Updated upstream
 	["COMMENT"] = "|cff55cc55",
 	["ActiveSequenceVersions"] = {
 	},
@@ -90,9 +131,17 @@ GSEOptions = {
 	},
 	["UseVerboseExportFormat"] = false,
 	["CONCAT"] = "|cffcc7777",
+=======
+	["Update2601"] = true,
+	["editorWidth"] = 500,
+	["autoCreateMacroStubsClass"] = true,
+	["UseVerboseExportFormat"] = false,
+	["AuthorColour"] = "|cFF00D1FF",
+>>>>>>> Stashed changes
 	["RealtimeParse"] = false,
 	["overflowPersonalMacros"] = false,
 	["UNKNOWN"] = "|cffff6666",
+<<<<<<< Updated upstream
 	["UnfoundSpells"] = {
 		[""] = true,
 		["Swiftmend"] = true,
@@ -179,6 +228,11 @@ GSEOptions = {
 	},
 	["AuthorColour"] = "|cFF00D1FF",
 	["Update2305"] = true,
+=======
+	["overflowPersonalMacros"] = false,
+	["Update2633"] = true,
+	["Updated801"] = true,
+>>>>>>> Stashed changes
 	["AddInPacks"] = {
 		["GS-MultiboxMacros"] = {
 			["Name"] = "GS-MultiboxMacros",
@@ -229,6 +283,7 @@ GSEOptions = {
 			},
 		},
 	},
+<<<<<<< Updated upstream
 	["autoCreateMacroStubsClass"] = false,
 	["use12"] = true,
 	["DebugPrintModConditionsOnKeyPress"] = false,
@@ -238,6 +293,16 @@ GSEOptions = {
 	["setDefaultIconQuestionMark"] = true,
 	["editorHeight"] = 700,
 	["DefaultImportAction"] = "MERGE",
+=======
+	["use12"] = false,
+	["COMMENT"] = "|cff55cc55",
+	["NormalColour"] = "|cFFFFFFFF",
+	["autoCreateMacroStubsGlobal"] = false,
+	["saveAllMacrosLocal"] = true,
+	["setDefaultIconQuestionMark"] = true,
+	["Update2305"] = true,
+	["KEYWORD"] = "|cff88bbdd",
+>>>>>>> Stashed changes
 }
 GSELibrary = nil
 GSEStorage = {

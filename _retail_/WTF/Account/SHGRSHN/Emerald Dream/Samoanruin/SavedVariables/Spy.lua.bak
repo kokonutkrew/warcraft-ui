@@ -1,6 +1,7 @@
 
 SpyPerCharDB = {
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = {
 			["mapID"] = 1670,
 			["guild"] = "CrossFaded",
@@ -67,14 +68,23 @@ SpyPerCharDB = {
 			["mapX"] = 0.58,
 			["time"] = 1606943841,
 		},
+=======
+>>>>>>> Stashed changes
 	},
 	["IgnoreData"] = {
 	},
 	["version"] = "1.1",
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Herpexio"] = 1608326277,
 		["Whackers"] = 1608326279,
 		["Draazz"] = 1606942090,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+>>>>>>> Stashed changes
 	},
 }

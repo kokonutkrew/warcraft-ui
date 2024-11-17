@@ -1,10 +1,27 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Gl - Emerald Dream"] = "Default",
 		["Kokonutkiing - Emerald Dream"] = "Default",
 		["Buhbles - Emerald Dream"] = "Default",
 		["Kokonutkween - Emerald Dream"] = "Default",
+=======
+		["Urorincar - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Kokonutkween - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Niniconys - Emerald Dream"] = "Default",
+		["Farmcraft - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
+		["Mp - Emerald Dream"] = "Default",
+		["Kokonutkiing - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Orecraft - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -18,12 +35,51 @@ TomTomDB = {
 				},
 			},
 			["block"] = {
+<<<<<<< Updated upstream
 				["position"] = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
 					-34.0001220703125, -- [4]
 					77.99993133544922, -- [5]
+=======
+				["enable"] = false,
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-7.110930442810059, -- [4]
+					-142.6667175292969, -- [5]
+				},
+			},
+		},
+		["KokonutKrew"] = {
+			["block"] = {
+				["enable"] = false,
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					-100, -- [5]
+				},
+			},
+			["persistence"] = {
+				["savewaypoints"] = false,
+			},
+			["general"] = {
+				["confirmremoveall"] = false,
+				["announce"] = true,
+				["corpse_arrow"] = false,
+			},
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+>>>>>>> Stashed changes
 				},
 			},
 		},
@@ -32,6 +88,7 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
 		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
 		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
@@ -46,5 +103,51 @@ TomTomWaypointsM = {
 		},
 		["Kokonutkween - Emerald Dream"] = {
 		},
+=======
+		["Urorincar - Emerald Dream"] = "Urorincar - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Niniconys - Emerald Dream"] = "Niniconys - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Mp - Emerald Dream"] = "Mp - Emerald Dream",
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+	},
+	["profiles"] = {
+		["Urorincar - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Orecraft - Emerald Dream"] = {
+		},
+		["Kokonutkween - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Niniconys - Emerald Dream"] = {
+		},
+		["KokonutKrew"] = {
+		},
+		["Mf - Emerald Dream"] = {
+		},
+		["Mp - Emerald Dream"] = {
+		},
+		["Farmcraft - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Kokonutkiing - Emerald Dream"] = {
+		},
+>>>>>>> Stashed changes
 	},
 }

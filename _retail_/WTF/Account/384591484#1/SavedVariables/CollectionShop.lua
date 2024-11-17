@@ -15,7 +15,10 @@ COLLECTIONSHOP_SAVEDVARIABLES = {
 		["RECIPES"] = 0,
 	},
 	["version"] = 4.04,
+<<<<<<< Updated upstream
 	["autoselectAfterAuctionUnavailable"] = true,
+=======
+>>>>>>> Stashed changes
 	["modeFilters"] = {
 		["TOYS"] = {
 		},
@@ -28,4 +31,8 @@ COLLECTIONSHOP_SAVEDVARIABLES = {
 		["RECIPES"] = {
 		},
 	},
+<<<<<<< Updated upstream
+=======
+	["autoselectAfterAuctionUnavailable"] = true,
+>>>>>>> Stashed changes
 }

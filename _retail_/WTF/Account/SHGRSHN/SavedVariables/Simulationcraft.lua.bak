@@ -1,6 +1,7 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
 		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
@@ -29,11 +30,53 @@ SimulationCraftDB = {
 		["Samoanbeast - Emerald Dream"] = {
 		},
 		["Samoansage - Emerald Dream"] = {
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansentry - Emerald Dream"] = "Samoansentry - Emerald Dream",
+		["Samoaninja - Tichondrius"] = "Samoaninja - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Fedieb - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+>>>>>>> Stashed changes
 		},
 		["Samoanranger - Emerald Dream"] = {
 		},
 		["Orecraft - Emerald Dream"] = {
 		},
+<<<<<<< Updated upstream
 		["Craudy - Emerald Dream"] = {
 		},
 		["Hfishsamoan - Ravenholdt"] = {
@@ -63,6 +106,47 @@ SimulationCraftDB = {
 		["Aheenan - Emerald Dream"] = {
 		},
 		["Samoanslayer - Emerald Dream"] = {
+=======
+		["Forgecraft - Emerald Dream"] = {
+		},
+		["Samoansavage - Stormrage"] = {
+		},
+		["Kkdev - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoanghost - Frostmourne"] = {
+		},
+		["Gl - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
+		},
+		["Farmcraft - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Herbcraft - Emerald Dream"] = {
+		},
+		["Samoanruin - Emerald Dream"] = {
+		},
+		["Samoansurge - Emerald Dream"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Samoansentry - Emerald Dream"] = {
+		},
+		["Samoaninja - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Mf - Emerald Dream"] = {
+		},
+		["Xb - Emerald Dream"] = {
+		},
+		["Dustcraft - Emerald Dream"] = {
+		},
+		["Samoanghost - Emerald Dream"] = {
+>>>>>>> Stashed changes
 		},
 		["Samoantitan - Stormrage"] = {
 		},

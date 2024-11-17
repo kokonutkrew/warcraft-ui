@@ -1,0 +1,3 @@
+
+glrHistory = nil
+guildData = nil

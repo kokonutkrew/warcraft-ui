@@ -1,6 +1,7 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
 		["Ckpanda - Emerald Dream"] = "Ckpanda - Emerald Dream",
 		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
@@ -24,5 +25,21 @@ SimulationCraftDB = {
 		},
 		["Buhbles - Emerald Dream"] = {
 		},
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+		},
+		["Sonikk - Emerald Dream"] = {
+		},
+		["Ashh - Emerald Dream"] = {
+		},
+		["Samoanbatman - Emerald Dream"] = {
+		},
+>>>>>>> Stashed changes
 	},
 }

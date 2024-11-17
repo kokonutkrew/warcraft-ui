@@ -1,5 +1,6 @@
 
 DeathGraphsDBDeaths = {
+<<<<<<< Updated upstream
 	["1849-15"] = {
 		["hash"] = "1849-15",
 		["type"] = "deaths",
@@ -507,4 +508,12 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
+=======
+}
+DeathGraphsDBEndurance = {
+}
+DeathGraphsDBCurrent = {
+}
+DeathGraphsDBGraph = {
+>>>>>>> Stashed changes
 }

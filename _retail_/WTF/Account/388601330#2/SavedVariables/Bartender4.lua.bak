@@ -3,6 +3,7 @@ Bartender4DB = {
 	["namespaces"] = {
 		["StatusTrackingBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -33,13 +34,21 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+=======
+>>>>>>> Stashed changes
 				["Cupkek - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
+<<<<<<< Updated upstream
 						["scale"] = 1.264999985694885,
 						["x"] = -515,
 						["point"] = "BOTTOM",
+=======
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["scale"] = 1.264999985694885,
+>>>>>>> Stashed changes
 						["y"] = 62,
 					},
 				},
@@ -47,6 +56,7 @@ Bartender4DB = {
 		},
 		["ActionBars"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["actionbars"] = {
 						{
@@ -255,29 +265,56 @@ Bartender4DB = {
 								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+>>>>>>> Stashed changes
 							},
 						}, -- [1]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+<<<<<<< Updated upstream
 								["y"] = -227.4998474121094,
 								["x"] = -231.5001831054688,
 								["point"] = "CENTER",
+=======
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -227.4998474121094,
+>>>>>>> Stashed changes
 							},
 						}, -- [2]
 						{
 							["rows"] = 12,
+<<<<<<< Updated upstream
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
+=======
+							["version"] = 3,
+							["padding"] = 5,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+>>>>>>> Stashed changes
 							},
 						}, -- [3]
 						{
 							["rows"] = 12,
+<<<<<<< Updated upstream
 							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
@@ -302,6 +339,32 @@ Bartender4DB = {
 								["y"] = 110,
 								["x"] = -510,
 								["point"] = "BOTTOM",
+=======
+							["version"] = 3,
+							["padding"] = 5,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 110,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 110,
+>>>>>>> Stashed changes
 							},
 						}, -- [6]
 						{
@@ -318,6 +381,7 @@ Bartender4DB = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -348,12 +412,21 @@ Bartender4DB = {
 						["y"] = -252.4999389648438,
 						["x"] = -63.50006103515625,
 						["point"] = "CENTER",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -63.50006103515625,
+						["point"] = "CENTER",
+						["y"] = -252.4999389648438,
+>>>>>>> Stashed changes
 					},
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -391,6 +464,15 @@ Bartender4DB = {
 						["scale"] = 1,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["version"] = 3,
+					["padding"] = -2,
+					["position"] = {
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+>>>>>>> Stashed changes
 						["y"] = 41.75,
 					},
 				},
@@ -398,6 +480,7 @@ Bartender4DB = {
 		},
 		["BagBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -428,12 +511,21 @@ Bartender4DB = {
 						["y"] = 38.5,
 						["x"] = 345,
 						["point"] = "BOTTOM",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 345,
+						["point"] = "BOTTOM",
+						["y"] = 38.5,
+>>>>>>> Stashed changes
 					},
 				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -461,19 +553,28 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+=======
+>>>>>>> Stashed changes
 				["Cupkek - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
+<<<<<<< Updated upstream
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
+=======
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+>>>>>>> Stashed changes
 					},
 				},
 			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -505,6 +606,14 @@ Bartender4DB = {
 						["scale"] = 1,
 						["x"] = -460,
 						["point"] = "BOTTOM",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+>>>>>>> Stashed changes
 						["y"] = 143,
 					},
 				},
@@ -512,6 +621,7 @@ Bartender4DB = {
 		},
 		["PetBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -542,12 +652,21 @@ Bartender4DB = {
 						["y"] = 143,
 						["x"] = -120,
 						["point"] = "BOTTOM",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -120,
+						["point"] = "BOTTOM",
+						["y"] = 143,
+>>>>>>> Stashed changes
 					},
 				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Sprinkles - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -578,12 +697,21 @@ Bartender4DB = {
 						["y"] = 42.50006103515625,
 						["x"] = 104.5,
 						["point"] = "CENTER",
+=======
+				["Cupkek - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 104.5,
+						["point"] = "CENTER",
+						["y"] = 42.50006103515625,
+>>>>>>> Stashed changes
 					},
 				},
 			},
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
 		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
 		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
@@ -605,6 +733,11 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+=======
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["profiles"] = {
+>>>>>>> Stashed changes
 		["Cupkek - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,

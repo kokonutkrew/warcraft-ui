@@ -1,9 +1,0 @@
-
-FieldGuideOptions = {
-	["showTalents"] = true,
-	["showKnownSpells"] = false,
-	["minimapTable"] = {
-		["hide"] = true,
-	},
-	["showEnemySpells"] = false,
-}

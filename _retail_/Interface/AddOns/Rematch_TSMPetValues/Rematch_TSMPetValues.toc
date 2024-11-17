@@ -1,12 +1,13 @@
-## Interface: 90002
+## Interface: 110000, 110002
 ## Title: Rematch - TSM Pet Values
-## Notes: Add TSM market values ​​to the Rematch pet list
+## Notes: Add TSM market values to the Rematch pet list
 ## Notes-deDE: Ergänzt die Haustierliste von Rematch um TSM-Marktwerte
 ## Author: Expelliarm5s
-## Version: 1.1.20
+## Version: 1.2.6
 ## Dependencies:
+## IconTexture: Interface\Icons\Spell_Magic_PolymorphChicken.blp
 ## SavedVariables: Rematch_TSMPetValuesDB
-
+## X-License: All rights reserved.
 
 # Libs
 Libs\LibStub\LibStub.lua
@@ -29,8 +30,6 @@ Libs\Ace3\AceConfig-3.0\AceConfig-3.0.xml
 
 Libs\LibDataBroker-1.1\LibDataBroker-1.1.xml
 Libs\LibQTip-1.0\lib.xml
-Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
-Libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
 
 # Locales
 Locale\enUS.lua
@@ -38,19 +37,22 @@ Locale\deDE.lua
 
 # Main
 Rematch_TSMPetValues.lua
-Options.lua
-LDB.Lua
-PetItem.lua
+Modules\Options.lua
+Modules\LDB.Lua
 
-# Price Providers
-PriceSource_TSM.lua
-PriceSource_UJ.lua
-PriceSource_AHDB.lua
+# TSM4 Price Provider 
+Modules\PetItem_TSM.lua
 
 # GUI Hooks
-GUI_Rematch_Petlist1.lua
-GUI_Rematch_Petlist2.lua
-GUI_Rematch_Sorting.lua
-GUI_Tooltip.lua
+# Rematch 4
+Modules\GUI_Rematch4_Petlist1.lua
+Modules\GUI_Rematch4_Petlist2.lua
+Modules\GUI_Rematch4_Sorting.lua
+
+# Rematch 5
+Modules\GUI_Rematch5_Petlist1.lua
+Modules\GUI_Rematch5_Petlist2.lua
+Modules\GUI_Rematch5_Sorting.lua
+
 
 ## EOF

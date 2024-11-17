@@ -2,6 +2,7 @@
 MBB_Exclude = {
 }
 MBB_Options = {
+<<<<<<< Updated upstream
 	["CollapseTimeout"] = 5,
 	["AltExpandDirection"] = 1,
 	["AttachToMinimap"] = 0,
@@ -12,4 +13,16 @@ MBB_Options = {
 		-150.4999542236328, -- [2]
 	},
 	["DetachedButtonPos"] = "TOPRIGHT",
+=======
+	["CollapseTimeout"] = 1,
+	["AltExpandDirection"] = 4,
+	["AttachToMinimap"] = 1,
+	["ExpandDirection"] = 1,
+	["MaxButtonsPerLine"] = 0,
+	["ButtonPos"] = {
+		-26.37116050720215, -- [1]
+		-71.16226959228516, -- [2]
+	},
+	["DetachedButtonPos"] = "TOPLEFT",
+>>>>>>> Stashed changes
 }

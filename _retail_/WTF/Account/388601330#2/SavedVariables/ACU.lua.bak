@@ -1,0 +1,10 @@
+
+AddonCpuUsageDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

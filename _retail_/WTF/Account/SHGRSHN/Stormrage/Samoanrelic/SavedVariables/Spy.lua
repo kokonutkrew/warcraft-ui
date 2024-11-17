@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["PlayerData"] = {
 		["Albedø-Thrall"] = {
 			["mapID"] = 627,
@@ -21,4 +22,13 @@ SpyPerCharDB = {
 	["version"] = "1.1",
 	["KOSData"] = {
 	},
+=======
+	["KOSData"] = {
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+	},
+	["version"] = "1.1",
+>>>>>>> Stashed changes
 }

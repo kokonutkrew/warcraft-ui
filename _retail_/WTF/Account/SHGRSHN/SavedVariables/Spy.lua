@@ -1,5 +1,6 @@
 
 SpyDB = {
+<<<<<<< Updated upstream
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
@@ -2368,4 +2369,860 @@ SpyDB = {
 			["AppendUnitKoSCheck"] = true,
 		},
 	},
+=======
+["kosData"] = {
+["Stormrage"] = {
+["Alliance"] = {
+["Samoanrelic"] = {
+},
+["Samoansavage"] = {
+},
+["Samoantitan"] = {
+},
+},
+},
+["Tichondrius"] = {
+["Horde"] = {
+["Samoaninja"] = {
+},
+["Samoantank"] = {
+},
+},
+},
+["Frostmourne"] = {
+["Alliance"] = {
+["Samoanghost"] = {
+},
+},
+},
+["Area 52"] = {
+["Horde"] = {
+["Threadcraft"] = {
+},
+},
+},
+["Emerald Dream"] = {
+["Alliance"] = {
+["Xb"] = {
+["shamzakel"] = {
+["name"] = "shamzakel",
+["added"] = 1618290221,
+["time"] = 1618290221,
+["isEnemy"] = true,
+},
+["shinscraper"] = {
+["name"] = "shinscraper",
+["added"] = 1618290259,
+["time"] = 1618290259,
+["isEnemy"] = true,
+},
+["xuper"] = {
+["name"] = "xuper",
+["added"] = 1618290234,
+["time"] = 1618290234,
+["isEnemy"] = true,
+},
+["boomsquanch"] = {
+["name"] = "boomsquanch",
+["added"] = 1618293668,
+["time"] = 1618290193,
+["isEnemy"] = true,
+},
+},
+["Samoanruin"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Kkdev"] = {
+["shamzakel"] = {
+["name"] = "shamzakel",
+["added"] = 1618290221,
+["time"] = 1618290221,
+["isEnemy"] = true,
+},
+["shinscraper"] = {
+["name"] = "shinscraper",
+["added"] = 1618290259,
+["time"] = 1618290259,
+["isEnemy"] = true,
+},
+["xuper"] = {
+["name"] = "xuper",
+["added"] = 1618290234,
+["time"] = 1618290234,
+["isEnemy"] = true,
+},
+["boomsquanch"] = {
+["name"] = "boomsquanch",
+["added"] = 1618293668,
+["time"] = 1618290193,
+["isEnemy"] = true,
+},
+},
+["Samoantitan"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoansavage"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["name"] = "boomsquanch",
+["kos"] = 1,
+["time"] = 1618290193,
+["added"] = 1618293668,
+["isEnemy"] = true,
+},
+},
+["Herbcraft"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Threadcraft"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Forgecraft"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Fedieb"] = {
+},
+["Samoansurge"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoanranger"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoanmystic"] = {
+},
+["Farmcraft"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Mf"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoanbeast"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Gl"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoansentry"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+["time"] = 1618290221,
+["name"] = "shamzakel",
+["isEnemy"] = true,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+["time"] = 1618290259,
+["name"] = "shinscraper",
+["isEnemy"] = true,
+},
+["xuper"] = {
+["added"] = 1618290234,
+["time"] = 1618290234,
+["name"] = "xuper",
+["isEnemy"] = true,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+["time"] = 1618290193,
+["name"] = "boomsquanch",
+["isEnemy"] = true,
+},
+},
+["Samoanslayer"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoansage"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Orecraft"] = {
+["shamzakel"] = {
+["name"] = "shamzakel",
+["kos"] = 1,
+["time"] = 1618290221,
+["added"] = 1618290221,
+["isEnemy"] = true,
+},
+["shinscraper"] = {
+["name"] = "shinscraper",
+["kos"] = 1,
+["time"] = 1618290259,
+["added"] = 1618290259,
+["isEnemy"] = true,
+},
+["xuper"] = {
+["name"] = "xuper",
+["kos"] = 1,
+["time"] = 1618290234,
+["added"] = 1618290234,
+["isEnemy"] = true,
+},
+["boomsquanch"] = {
+["name"] = "boomsquanch",
+["kos"] = 1,
+["time"] = 1618290193,
+["added"] = 1618293668,
+["isEnemy"] = true,
+},
+},
+["Samoanrelic"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Samoanghost"] = {
+["shamzakel"] = {
+["added"] = 1618290221,
+},
+["shinscraper"] = {
+["added"] = 1618290259,
+},
+["xuper"] = {
+["added"] = 1618290234,
+},
+["boomsquanch"] = {
+["added"] = 1618293668,
+},
+},
+["Dustcraft"] = {
+["shamzakel"] = {
+["name"] = "shamzakel",
+["time"] = 1618290221,
+["zone"] = "SMV Alliance Garrison Level 3",
+["kos"] = 1,
+["subZone"] = "",
+["added"] = 1618290221,
+["isEnemy"] = true,
+},
+["shinscraper"] = {
+["name"] = "shinscraper",
+["time"] = 1618290259,
+["zone"] = "SMV Alliance Garrison Level 3",
+["kos"] = 1,
+["subZone"] = "",
+["added"] = 1618290259,
+["isEnemy"] = true,
+},
+["xuper"] = {
+["name"] = "xuper",
+["time"] = 1618290234,
+["zone"] = "SMV Alliance Garrison Level 3",
+["kos"] = 1,
+["subZone"] = "",
+["added"] = 1618290234,
+["isEnemy"] = true,
+},
+["boomsquanch"] = {
+["name"] = "boomsquanch",
+["time"] = 1618293668,
+["zone"] = "SMV Alliance Garrison Level 3",
+["kos"] = 1,
+["subZone"] = "",
+["added"] = 1618293668,
+["isEnemy"] = true,
+},
+},
+},
+},
+},
+["removeKOSData"] = {
+["Stormrage"] = {
+["Alliance"] = {
+},
+},
+["Tichondrius"] = {
+["Horde"] = {
+},
+},
+["Frostmourne"] = {
+["Alliance"] = {
+},
+},
+["Area 52"] = {
+["Horde"] = {
+},
+},
+["Emerald Dream"] = {
+["Alliance"] = {
+},
+},
+},
+["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+["Threadcraft - Emerald Dream"] = "KokonutKrew",
+["Samoanbeast - Emerald Dream"] = "KokonutKrew",
+["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Samoansurge - Emerald Dream"] = "KokonutKrew",
+["Samoanranger - Emerald Dream"] = "KokonutKrew",
+["Orecraft - Emerald Dream"] = "KokonutKrew",
+["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Forgecraft - Emerald Dream"] = "KokonutKrew",
+["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+["Samoansavage - Emerald Dream"] = "KokonutKrew",
+["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+["Farmcraft - Emerald Dream"] = "KokonutKrew",
+["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+["Herbcraft - Emerald Dream"] = "KokonutKrew",
+["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+["Samoansage - Emerald Dream"] = "KokonutKrew",
+["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+["Samoansentry - Emerald Dream"] = "Samoansentry - Emerald Dream",
+["Samoaninja - Tichondrius"] = "Samoaninja - Tichondrius",
+["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+["Samoantitan - Stormrage"] = "KokonutKrew",
+},
+["profiles"] = {
+["Samoanslayer - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Fedieb - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["KokonutKrew"] = {
+["MainWindowVis"] = false,
+["MainWindow"] = {
+["AlphaBG"] = 0.9,
+["Alpha"] = 0.6,
+["Position"] = {
+["y"] = 0,
+["x"] = 1639.555297851563,
+["w"] = 159.9999542236328,
+["h"] = 34.00002288818359,
+},
+},
+["MinimapDetection"] = true,
+["OnlyAnnounceKoS"] = true,
+["PurgeData"] = "OneDay",
+["InvertSpy"] = true,
+["AppendUnitKoSCheck"] = true,
+["AppendUnitNameCheck"] = true,
+["WarnOnKOSGuild"] = true,
+["Colors"] = {
+["Alert"] = {
+["Stealth Text"] = {
+["a"] = 1,
+},
+["Name Text"] = {
+["a"] = 1,
+},
+},
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["DisplayListData"] = "NameGuild",
+["Font"] = "Arial Narrow",
+["ShowKoSButton"] = true,
+["Announce"] = "Guild",
+["HideSpy"] = true,
+},
+["Samoanghost - Frostmourne"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Threadcraft - Area 52"] = {
+["MainWindowVis"] = false,
+},
+["Samoantitan - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoanranger - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Orecraft - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoanmystic - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Forgecraft - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoansavage - Stormrage"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoansavage - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Kkdev - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoantank - Tichondrius"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Gl - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoanrelic - Stormrage"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Mf - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoansage - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Alert"] = {
+["Stealth Text"] = {
+["a"] = 1,
+},
+["Name Text"] = {
+["a"] = 1,
+},
+},
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Herbcraft - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoanruin - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoanrelic - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoansentry - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoaninja - Tichondrius"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoansurge - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Farmcraft - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Alert"] = {
+["Stealth Text"] = {
+["a"] = 1,
+},
+["Name Text"] = {
+["a"] = 1,
+},
+},
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Threadcraft - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Dustcraft - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Samoanghost - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Alert"] = {
+["Stealth Text"] = {
+["a"] = 1,
+},
+["Name Text"] = {
+["a"] = 1,
+},
+},
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+["Xb - Emerald Dream"] = {
+["AppendUnitNameCheck"] = true,
+["MainWindowVis"] = false,
+["Colors"] = {
+["Bar"] = {
+["Bar Text"] = {
+["a"] = 1,
+},
+},
+},
+["AppendUnitKoSCheck"] = true,
+},
+},
+>>>>>>> Stashed changes
 }

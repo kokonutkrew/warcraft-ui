@@ -1,6 +1,7 @@
 
 SpyPerCharDB = {
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Kumomage"] = {
 			["mapID"] = 1533,
 			["zone"] = "Bastion",
@@ -11468,17 +11469,40 @@ SpyPerCharDB = {
 			["level"] = 60,
 			["mapX"] = 0.37,
 			["subZone"] = "Hall of Shapes",
+=======
+		["Kharnis"] = {
+			["mapID"] = 1701,
+			["guild"] = "Silverblades",
+			["zone"] = "Ardenweald",
+			["mapY"] = 0.33,
+			["class"] = "DEMONHUNTER",
+			["isEnemy"] = true,
+			["race"] = "Blood Elf",
+			["isGuess"] = false,
+			["subZone"] = "Heart of the Forest",
+			["mapX"] = 0.39,
+			["level"] = 60,
+			["time"] = 1630284382,
+			["name"] = "Kharnis",
+>>>>>>> Stashed changes
 		},
 	},
 	["IgnoreData"] = {
 	},
 	["version"] = "1.1",
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
 		["Herpexio"] = 1608326277,
 		["Karthi"] = 1614298422,
 		["Kaijinn"] = 1611979218,
 		["Draazz"] = 1606942090,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+>>>>>>> Stashed changes
 	},
 }

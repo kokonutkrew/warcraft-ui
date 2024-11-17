@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 AAP-Core: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
@@ -45,6 +46,65 @@ DataStore_Stats: disabled
 DataStore_Talents: disabled
 Details_TargetCaller: disabled
 Details: disabled
+=======
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_AuraBarsMovers: disabled
+ElvUI_CustomTweaks: disabled
+ElvUI_DTBars2: disabled
+ElvUI_QuestXP: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+OPie_Classic: disabled
+RaiderIO_DB_TW_H_R: disabled
+RaiderIO_DB_TW_H: disabled
+RaiderIO_DB_TW_A_R: disabled
+RaiderIO_DB_TW_A: disabled
+RaiderIO_DB_KR_H_R: disabled
+RaiderIO_DB_KR_H: disabled
+RaiderIO_DB_KR_A_R: disabled
+RaiderIO_DB_KR_A: disabled
+RaiderIO_DB_EU_H_R: disabled
+RaiderIO_DB_EU_H: disabled
+RaiderIO_DB_EU_A_R: disabled
+RaiderIO_DB_EU_A: disabled
+ElvUI_OptionsUI: disabled
+Bartender4: enabled
+FastGuildInvite: enabled
+[KK] Guild: disabled
+[KK] FGI: disabled
+[KK] GRA: disabled
+[KK] Guild Test: disabled
+WhereToGather: disabled
+Train-All: enabled
+TomTom: enabled
+ItemTooltipProfessionIcons: enabled
+ElitismHelper: enabled
+Details_TargetCaller: disabled
+CanIMogIt: disabled
+BuyEmAll: enabled
+BattlePetBreedID: disabled
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AAP-Shadowlands: disabled
+ACU: disabled
+AllTheThings: disabled
+AutoOpen: enabled
+BtWQuests: disabled
+BtWQuestsBattleForAzerothPrologue: disabled
+BtWQuestsShadowlands: disabled
+!BugGrabber: enabled
+BugSack: enabled
+CameraOverShoulderFix: disabled
+cancel-pet-fight: disabled
+Clique: enabled
+CollectionShop: disabled
+CovenantMissionHelper: disabled
+DeathNote: disabled
+Details: enabled
+>>>>>>> Stashed changes
 Details_DeathGraphs: disabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled
@@ -56,6 +116,7 @@ Details_Vanguard: disabled
 Details_ChartViewer: disabled
 DynamicCam: disabled
 ExRT: disabled
+<<<<<<< Updated upstream
 FarmHud: disabled
 FarmHud_QuestArrow: disabled
 FishingBuddy: disabled
@@ -131,21 +192,101 @@ TheUndermineJournal: disabled
 TomTom: disabled
 WeakAuras: disabled
 WeakAurasArchive: disabled
+=======
+Gnobesy: enabled
+GuildBankSnapshots: disabled
+GuildLotteryRaffle: disabled
+Guild_Roster_Manager: disabled
+HandyNotes: disabled
+HandyNotes_MoleMachine: disabled
+HHPH: disabled
+HivemindMount: disabled
+iGuard: disabled
+Immersion: enabled
+Leatrix_Maps: enabled
+Leatrix_Plus: enabled
+MacroToolkit: enabled
+MacroToolkitIcons: enabled
+MBB: enabled
+MonkeySpeed: disabled
+Myslot: disabled
+OPie: enabled
+PersonalLootHelper: enabled
+PetTracker: disabled
+PetTracker_Battle: disabled
+PetTracker_Config: disabled
+PetTracker_Journal: disabled
+Prat-3.0: enabled
+Prat-3.0_Libraries: enabled
+PrettyReps: disabled
+ProfessionsComplete: enabled
+RaiderIO: enabled
+RaiderIO_DB_US_A: enabled
+RaiderIO_DB_US_H: disabled
+RaiderIO_DB_US_A_R: enabled
+RaiderIO_DB_US_H_R: disabled
+RCLootCouncil: disabled
+RCLootCouncil_EPGP: disabled
+RCLootCouncil_ExtraUtilities: disabled
+RCLootCouncil_GroupGear: disabled
+Rematch: enabled
+Rematch_TSMPetValues: enabled
+Simulationcraft: disabled
+Spy: enabled
+TomCats-Hivemind: disabled
+WeakAuras: enabled
+>>>>>>> Stashed changes
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestsList: disabled
+<<<<<<< Updated upstream
 DejaCharacterStats: disabled
 TradeSkillMaster: disabled
 TradeSkillMaster_AppHelper: disabled
 DBM-Core: disabled
 DBM-DefaultSkin: disabled
+=======
+GSE: enabled
+GSE_GUI: disabled
+GSE_LDB: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
+ElvUI: disabled
+RecklessAbandon: enabled
+DBM-Core: enabled
+>>>>>>> Stashed changes
 DBM-GUI: disabled
 DBM-StatusBarTimers: disabled
 DBM-Brawlers: disabled
 DBM-CastleNathria: disabled
 DBM-DMF: disabled
 DBM-Party-Shadowlands: disabled
+<<<<<<< Updated upstream
 DBM-Shadowlands: disabled
 DBM-WorldEvents: disabled
 FastGuildInvite: disabled
+=======
+DBM-SanctumOfDomination: disabled
+DBM-Shadowlands: disabled
+DBM-WorldEvents: disabled
+AdiBags: enabled
+AdiBags_BoE_BoA: enabled
+AdiBags_Hearthstones: enabled
+AdiBags_Config: enabled
+AdiBags_Fishing_Items: enabled
+Tukui: disabled
+TomCats-ArathiHighlandsRares: disabled
+TomCats-DarkshoreRares: disabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled
+TomCats-WarfrontsCommandCenter: disabled
+TomCats-Complete: disabled
+TomCats-ChildrensWeek: disabled
+TomCats-HallowsEnd: disabled
+TomCats-LoveIsInTheAir: disabled
+TomCats-LunarFestival: disabled
+TomCats-Noblegarden: disabled
+MegaMacro: disabled
+>>>>>>> Stashed changes

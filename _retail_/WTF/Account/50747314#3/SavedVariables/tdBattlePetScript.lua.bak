@@ -1,0 +1,35 @@
+
+TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+["profileKeys"] = {
+["Voidspeakerr - Emerald Dream"] = "Default",
+["Shadowdaggr - Area 52"] = "Default",
+["Flameing - Emerald Dream"] = "Default",
+["Demenchonone - Emerald Dream"] = "Default",
+["Kkmeki - Emerald Dream"] = "Default",
+},
+["global"] = {
+["version"] = "0.0.0.0",
+["scripts"] = {
+["FirstEnemy"] = {
+},
+["AllInOne"] = {
+},
+["Base"] = {
+},
+["Rematch4"] = {
+},
+["Rematch"] = {
+},
+},
+},
+["profiles"] = {
+["Default"] = {
+["pluginOrders"] = {
+"Rematch",
+"Base",
+"FirstEnemy",
+"AllInOne",
+},
+},
+},
+}

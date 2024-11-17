@@ -14,6 +14,7 @@ DBMCastleNathria_SavedStats = {
 		["heroicPulls"] = 3,
 		["normalKills"] = 4,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["normalBestTime"] = 412.2880000000005,
 		["mythicPulls"] = 0,
 		["heroicKills"] = 3,
@@ -21,6 +22,14 @@ DBMCastleNathria_SavedStats = {
 		["timewalkerPulls"] = 0,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 505.7720000000008,
+=======
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["CastleNathriaTrash"] = {
@@ -43,13 +52,19 @@ DBMCastleNathria_SavedStats = {
 		["challengePulls"] = 0,
 	},
 	["2393"] = {
+<<<<<<< Updated upstream
 		["heroicLastTime"] = 226.5920000000042,
 		["normalPulls"] = 17,
+=======
+		["heroicLastTime"] = 246.4420000000027,
+		["normalPulls"] = 1,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
 		["lfr25Kills"] = 0,
 		["heroic25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["heroicBestTime"] = 223.7920000000013,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
@@ -63,6 +78,21 @@ DBMCastleNathria_SavedStats = {
 		["heroicKills"] = 8,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 224.5750000000007,
+=======
+		["heroicBestTime"] = 246.4420000000027,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalLastTime"] = 388.3820000000414,
+		["normalKills"] = 1,
+		["heroic25Kills"] = 0,
+		["normalBestTime"] = 388.3820000000414,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 2,
+		["normal25Kills"] = 0,
+		["heroicPulls"] = 2,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 7,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2425"] = {
@@ -79,6 +109,7 @@ DBMCastleNathria_SavedStats = {
 		["heroicPulls"] = 12,
 		["normalKills"] = 6,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["normalBestTime"] = 352.3629999999976,
 		["mythicPulls"] = 0,
 		["heroicKills"] = 1,
@@ -86,6 +117,14 @@ DBMCastleNathria_SavedStats = {
 		["timewalkerPulls"] = 0,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 352.3629999999976,
+=======
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 5,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2428"] = {
@@ -99,6 +138,7 @@ DBMCastleNathria_SavedStats = {
 		["heroicBestTime"] = 247.6440000000002,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["mythicPulls"] = 0,
 		["normalKills"] = 9,
 		["normalBestTime"] = 256.8090000000084,
@@ -109,6 +149,16 @@ DBMCastleNathria_SavedStats = {
 		["timewalkerPulls"] = 0,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 314.5679999999993,
+=======
+		["normalKills"] = 0,
+		["heroic25Kills"] = 0,
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2422"] = {
@@ -126,12 +176,21 @@ DBMCastleNathria_SavedStats = {
 		["normalKills"] = 7,
 		["normalBestTime"] = 296.4779999999992,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["mythicPulls"] = 0,
 		["heroicKills"] = 4,
 		["normal25Kills"] = 0,
 		["timewalkerPulls"] = 0,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 296.4779999999992,
+=======
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2420"] = {
@@ -148,6 +207,7 @@ DBMCastleNathria_SavedStats = {
 		["heroicPulls"] = 8,
 		["normalKills"] = 9,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["normalBestTime"] = 253.5119999999879,
 		["mythicPulls"] = 0,
 		["heroicKills"] = 4,
@@ -160,6 +220,19 @@ DBMCastleNathria_SavedStats = {
 	["2394"] = {
 		["heroicLastTime"] = 291.5360000000001,
 		["normalPulls"] = 11,
+=======
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 0,
+		["challengePulls"] = 0,
+	},
+	["2394"] = {
+		["heroicLastTime"] = 315.6830000000009,
+		["normalPulls"] = 2,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -168,6 +241,7 @@ DBMCastleNathria_SavedStats = {
 		["heroicBestTime"] = 291.5360000000001,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["heroicPulls"] = 11,
 		["normalKills"] = 6,
 		["heroic25Kills"] = 0,
@@ -178,6 +252,17 @@ DBMCastleNathria_SavedStats = {
 		["timewalkerPulls"] = 0,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 272.7630000000063,
+=======
+		["normalKills"] = 0,
+		["heroicBestTime"] = 315.6830000000009,
+		["heroic25Kills"] = 0,
+		["heroicKills"] = 1,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 2,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2424"] = {
@@ -189,16 +274,26 @@ DBMCastleNathria_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalLastTime"] = 581.9370000000054,
 		["normalKills"] = 6,
 		["normalBestTime"] = 462.9419999999991,
+=======
+		["normalLastTime"] = 629.2630000000354,
+		["normalKills"] = 1,
+		["normalBestTime"] = 629.2630000000354,
+>>>>>>> Stashed changes
 		["heroic25Kills"] = 0,
 		["heroicKills"] = 0,
 		["timewalkerPulls"] = 0,
 		["mythicPulls"] = 0,
 		["normal25Kills"] = 0,
 		["timewalkerKills"] = 0,
+<<<<<<< Updated upstream
 		["heroicPulls"] = 19,
+=======
+		["heroicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2429"] = {
@@ -216,6 +311,7 @@ DBMCastleNathria_SavedStats = {
 		["normalKills"] = 9,
 		["normalBestTime"] = 298.9030000000494,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["timewalkerPulls"] = 0,
 		["heroicKills"] = 6,
 		["mythicPulls"] = 0,
@@ -227,11 +323,24 @@ DBMCastleNathria_SavedStats = {
 	["2418"] = {
 		["heroicLastTime"] = 332.6759999999995,
 		["normalPulls"] = 15,
+=======
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 4,
+		["challengePulls"] = 0,
+	},
+	["2418"] = {
+		["normalPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
 		["lfr25Kills"] = 0,
 		["heroic25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["heroicBestTime"] = 309.7170000000042,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
@@ -245,6 +354,18 @@ DBMCastleNathria_SavedStats = {
 		["timewalkerPulls"] = 0,
 		["timewalkerKills"] = 0,
 		["normalLastTime"] = 364.2620000000024,
+=======
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalKills"] = 0,
+		["heroic25Kills"] = 0,
+		["heroicKills"] = 0,
+		["timewalkerPulls"] = 0,
+		["mythicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["heroicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 }

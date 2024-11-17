@@ -3,6 +3,7 @@ WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
 	["displays"] = {
+<<<<<<< Updated upstream
 		["KK-Wake of Ashes"] = {
 			["iconSource"] = -1,
 			["authorOptions"] = {
@@ -206,4 +207,16 @@ WeakAurasSaved = {
 		["yOffset"] = -143.499694824219,
 	},
 	["editor_theme"] = "Monokai",
+=======
+	},
+	["lastArchiveClear"] = 1616916334,
+	["minimap"] = {
+		["hide"] = false,
+	},
+	["lastUpgrade"] = 1616916364,
+	["dbVersion"] = 44,
+	["registered"] = {
+	},
+	["login_squelch_time"] = 10,
+>>>>>>> Stashed changes
 }

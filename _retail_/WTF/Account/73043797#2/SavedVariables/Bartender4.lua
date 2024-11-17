@@ -3,7 +3,11 @@ Bartender4DB = {
 	["namespaces"] = {
 		["StatusTrackingBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Bunni - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -68,11 +72,35 @@ Bartender4DB = {
 						["y"] = 62,
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1.264999985694885,
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["y"] = 62,
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1.264999985694885,
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["y"] = 62,
+					},
+				},
 			},
 		},
 		["ActionBars"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -2756,12 +2784,145 @@ Bartender4DB = {
 						},
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4998474121094,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4998474121094,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3031,6 +3192,9 @@ Bartender4DB = {
 					},
 				},
 				["Cherriebomb - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.0000305175781,
@@ -3078,11 +3242,32 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -252.4999389648438,
+						["x"] = -63.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -252.4999389648438,
+						["x"] = -63.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+					["version"] = 3,
+>>>>>>> Stashed changes
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -3473,10 +3658,31 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
 			},
 		},
 		["BagBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3748,6 +3954,9 @@ Bartender4DB = {
 					},
 				},
 				["Cherriebomb - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3795,10 +4004,27 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -4104,6 +4330,9 @@ Bartender4DB = {
 					},
 				},
 				["Cherriebomb - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4441,11 +4670,33 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
@@ -4766,10 +5017,28 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 143,
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -5040,6 +5309,9 @@ Bartender4DB = {
 					},
 				},
 				["Cherriebomb - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 127,
@@ -5087,10 +5359,27 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -5356,6 +5645,9 @@ Bartender4DB = {
 					},
 				},
 				["Cherriebomb - Emerald Dream"] = {
+=======
+				["Grapejellie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47.50003051757813,
@@ -5403,10 +5695,27 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Cherriebomb - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Cukie - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
 			},
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
@@ -5512,11 +5821,19 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+=======
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+	},
+	["profiles"] = {
+>>>>>>> Stashed changes
 		["Grapejellie - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+<<<<<<< Updated upstream
 		["Samoantotems - Stormrage"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
@@ -5620,11 +5937,14 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+=======
+>>>>>>> Stashed changes
 		["Cherriebomb - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+<<<<<<< Updated upstream
 		["Marshmello - Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
@@ -5646,6 +5966,9 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Samoanrelic - Stormrage"] = {
+=======
+		["Cukie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",

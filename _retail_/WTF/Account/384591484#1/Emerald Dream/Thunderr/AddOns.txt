@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 AAP-Core: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
@@ -21,10 +22,34 @@ Bartender4: disabled
 BattleGroundEnemies: disabled
 BigDebuffs: disabled
 BtWQuests: disabled
+=======
+[KK] FGI: disabled
+[KK] GRA: disabled
+[KK] Guild: disabled
+[KK] Guild Test: disabled
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AAP-Shadowlands: disabled
+ACU: disabled
+AdiBags: disabled
+AdiBags_BoE_BoA: disabled
+AdiBags_Config: disabled
+AllTheThings: disabled
+ArenaMaster_DB_EU: disabled
+ArenaMasterPvPInspect: disabled
+ArenaMaster_DB_US: disabled
+AutoOpen: disabled
+Bartender4: disabled
+BattlePetBreedID: disabled
+BattleGroundEnemies: disabled
+BtWQuests: disabled
+BtWQuestsBattleForAzerothPrologue: disabled
+>>>>>>> Stashed changes
 BtWQuestsShadowlands: disabled
 !BugGrabber: disabled
 BugSack: disabled
 BuyEmAll: disabled
+<<<<<<< Updated upstream
 CaerdonWardrobe: disabled
 CanIMogIt: disabled
 ChampionCommander: disabled
@@ -50,10 +75,22 @@ DataStore_Spells: disabled
 DataStore_Stats: disabled
 DataStore_Talents: disabled
 Details: disabled
+=======
+CameraOverShoulderFix: disabled
+CanIMogIt: disabled
+cancel-pet-fight: disabled
+Clique: disabled
+CollectionShop: disabled
+CovenantMissionHelper: disabled
+Details_TargetCaller: disabled
+Details: disabled
+Details_DeathGraphs: disabled
+>>>>>>> Stashed changes
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled
 Details_DataStorage: disabled
 Details_Streamer: disabled
+<<<<<<< Updated upstream
 Details_TinyThreat: disabled
 Details_Vanguard: disabled
 DynamicCam: disabled
@@ -122,6 +159,48 @@ Prat-3.0: disabled
 Prat-3.0_Libraries: disabled
 PrettyReps: disabled
 PVPSound: disabled
+=======
+Details_TimeLine: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
+Details_Covenants: disabled
+Details_ChartViewer: disabled
+DynamicCam: disabled
+ElitismHelper: disabled
+Gnobesy: disabled
+GuildBankSnapshots: disabled
+GuildLotteryRaffle: disabled
+Guild_Roster_Manager: disabled
+HandyNotes: disabled
+HandyNotes_MoleMachine: disabled
+HandyNotes_ShadowlandsTreasures: disabled
+HHPH: disabled
+HivemindMount: disabled
+iGuard: disabled
+Immersion: disabled
+ItemTooltipProfessionIcons: disabled
+Leatrix_Maps: disabled
+Leatrix_Plus: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+MRT: disabled
+ExRT: disabled
+MBB: disabled
+MistsOfTirnaScitheHelper: disabled
+MonkeySpeed: disabled
+Myslot: disabled
+MythicDungeonTools: disabled
+OPie: disabled
+PersonalLootHelper: disabled
+PetTracker: disabled
+PetTracker_Battle: disabled
+PetTracker_Config: disabled
+PetTracker_Journal: disabled
+Prat-3.0: disabled
+Prat-3.0_Libraries: disabled
+PrettyReps: disabled
+ProfessionsComplete: disabled
+>>>>>>> Stashed changes
 RaiderIO: disabled
 RaiderIO_DB_US_A: disabled
 RaiderIO_DB_US_H: disabled
@@ -139,6 +218,7 @@ RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_TW_A_R: disabled
 RaiderIO_DB_TW_H_R: disabled
+<<<<<<< Updated upstream
 RareShare: disabled
 RareShareNazjatar: disabled
 RareScanner: disabled
@@ -165,21 +245,62 @@ WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestTracker: disabled
 zbGuildManager: disabled
+=======
+RareTrackerCore: disabled
+RareTrackerMaw: disabled
+RCLootCouncil: disabled
+RCLootCouncil_EPGP: disabled
+RCLootCouncil_ExtraUtilities: disabled
+RCLootCouncil_GroupGear: disabled
+Rematch: disabled
+Rematch_TSMPetValues: disabled
+Simulationcraft: disabled
+Spy: disabled
+TheUndermineJournal: disabled
+TomCats: disabled
+TomCats-Hivemind: disabled
+TomTom: disabled
+Train-All: disabled
+VenturePlan: disabled
+WeakAuras: disabled
+WeakAurasArchive: disabled
+WeakAurasCompanion: disabled
+WeakAurasModelPaths: disabled
+WeakAurasOptions: disabled
+WeakAurasTemplates: disabled
+WhereToGather: disabled
+WorldQuestsList: disabled
+>>>>>>> Stashed changes
 GSE: disabled
 GSE_GUI: disabled
 GSE_LDB: disabled
 TradeSkillMaster: disabled
+<<<<<<< Updated upstream
 TradeSkillMaster_AppHelper: disabled
 GS-MultiboxMacros: disabled
 DBM-Core: disabled
 DBM-DefaultSkin: disabled
+=======
+AdiBags_Fishing_Items: disabled
+TradeSkillMaster_AppHelper: disabled
+ElvUI: disabled
+ElvUI_OptionsUI: disabled
+REPorter: disabled
+RecklessAbandon: disabled
+Tukui: disabled
+DBM-Core: disabled
+>>>>>>> Stashed changes
 DBM-GUI: disabled
 DBM-StatusBarTimers: disabled
 DBM-Brawlers: disabled
 DBM-CastleNathria: disabled
 DBM-DMF: disabled
 DBM-Party-Shadowlands: disabled
+<<<<<<< Updated upstream
 DBM-Interrupts: disabled
+=======
+DBM-SanctumOfDomination: disabled
+>>>>>>> Stashed changes
 DBM-Shadowlands: disabled
 DBM-WorldEvents: disabled
 FastGuildInvite: disabled

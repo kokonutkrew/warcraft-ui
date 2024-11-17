@@ -1,7 +1,12 @@
 
 DBMShadowlands_SavedStats = {
+<<<<<<< Updated upstream
 	["2433"] = {
 		["normalPulls"] = 1,
+=======
+	["2456"] = {
+		["normalPulls"] = 8,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -9,7 +14,11 @@ DBMShadowlands_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalKills"] = 1,
+=======
+		["normalKills"] = 6,
+>>>>>>> Stashed changes
 		["heroic25Kills"] = 0,
 		["timewalkerPulls"] = 0,
 		["heroicKills"] = 0,
@@ -19,6 +28,7 @@ DBMShadowlands_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
+<<<<<<< Updated upstream
 	["2432"] = {
 		["normalPulls"] = 1,
 		["challengeKills"] = 0,
@@ -40,6 +50,8 @@ DBMShadowlands_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
+=======
+>>>>>>> Stashed changes
 	["2431"] = {
 		["normalPulls"] = 1,
 		["challengeKills"] = 0,
@@ -49,6 +61,7 @@ DBMShadowlands_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalBestTime"] = 114.0260000000126,
 		["normalKills"] = 1,
 		["normalLastTime"] = 114.0260000000126,
@@ -59,6 +72,18 @@ DBMShadowlands_SavedStats = {
 		["normal25Kills"] = 0,
 		["timewalkerKills"] = 0,
 		["mythicPulls"] = 0,
+=======
+		["normalLastTime"] = 115.6360000000568,
+		["normalKills"] = 1,
+		["heroicPulls"] = 0,
+		["normalBestTime"] = 115.6360000000568,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["normal25Kills"] = 0,
+		["mythicPulls"] = 0,
+		["timewalkerKills"] = 0,
+		["heroic25Kills"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2430"] = {
@@ -80,4 +105,64 @@ DBMShadowlands_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
+<<<<<<< Updated upstream
+=======
+	["2432"] = {
+		["normalPulls"] = 0,
+		["challengeKills"] = 0,
+		["challengeBestRank"] = 0,
+		["mythicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalKills"] = 0,
+		["heroic25Kills"] = 0,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+		["challengePulls"] = 0,
+	},
+	["2468"] = {
+		["normalPulls"] = 0,
+		["challengeKills"] = 0,
+		["challengeBestRank"] = 0,
+		["mythicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalKills"] = 0,
+		["heroic25Kills"] = 0,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+		["challengePulls"] = 0,
+	},
+	["2433"] = {
+		["normalPulls"] = 1,
+		["challengeKills"] = 0,
+		["challengeBestRank"] = 0,
+		["mythicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalKills"] = 1,
+		["heroic25Kills"] = 0,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+		["challengePulls"] = 0,
+	},
+>>>>>>> Stashed changes
 }

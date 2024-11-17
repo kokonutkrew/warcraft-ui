@@ -1,6 +1,7 @@
 
 SpyPerCharDB = {
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Shnoopitup-Mal'Ganis"] = {
 			["mapID"] = 25,
 			["zone"] = "Hillsbrad Foothills",
@@ -56,6 +57,8 @@ SpyPerCharDB = {
 			["race"] = "Zandalari Troll",
 			["name"] = "Maub-Quel'Thalas",
 		},
+=======
+>>>>>>> Stashed changes
 	},
 	["IgnoreData"] = {
 	},

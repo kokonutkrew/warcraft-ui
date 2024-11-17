@@ -1,52 +1,55 @@
-## Interface: 90002
+## Interface: 110002, 110005
+## X-Interface: Retail
 ## Author: Knoot
 ## Title: |cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r |cff16ABB5FastGuildInvite|r
-## Version: 81
+## Version: 129
 ## X-Curse-Project-ID: 313283
+## X-Wago-ID: kRNLQ46o
 ## SavedVariables: FGI_DB, FGI_DEBUG
 ## DefaultState: enabled
-
-FGI_Constants.lua
+## OptionalDependencies: WagoAnalytics
 
 Libs\LibStub\LibStub.lua
 Libs\AceAddon-3.0\AceAddon-3.0.xml
 Libs\AceConsole-3.0\AceConsole-3.0.xml
 Libs\AceDB-3.0\AceDB-3.0.xml
-Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.xml
 Libs\AceEvent-3.0\AceEvent-3.0.xml
 Libs\AceGUI-3.0\AceGUI-3.0.xml
 Libs\AceSerializer-3.0\AceSerializer-3.0.xml
 Libs\LibCompress\lib.xml
 Libs\LibWho\LibWho.lua
+Libs\LibGraph-2.0\LibGraph-2.0\LibGraph-2.0.lua
+Libs\LibDeflate\lib.xml
+Libs\ChatThrottleLib\ChatThrottleLib.xml
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0\lib.xml
 
-
+FGI_Constants.lua
 Locale\Locale.xml
 Libs\GUI.lua
 
-Libs\Alerts\Alerts.lua
-
-Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
-Libs\LibDBIcon-1.0\lib.xml
-
 init.lua
-
-
-
 
 functions.lua
 FGI_Core.lua
-chooseInvites.lua
 mainFrame.lua
 settings.lua
 message.lua
 keybindings.lua
 filtersFrame.lua
+searchByLocation.lua
 Scan.lua
 blackList.lua
 customList.lua
+quietList.lua
 synch.lua
 credits.lua
 security.lua
 intro.lua
 logs.lua
 customInterface.lua
+dump.lua
+guild.lua
+statistic.lua
+debug.lua

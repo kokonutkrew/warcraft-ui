@@ -1,6 +1,7 @@
 
 AAP1 = {
 	["EmeraldDream"] = {
+<<<<<<< Updated upstream
 		["Sprinkles"] = {
 			["FirstLoadz"] = 1,
 			["QuestCounter"] = 164,
@@ -75,6 +76,15 @@ AAP1 = {
 			["AAP_DoWarCampaign"] = 0,
 			["BonusSkips"] = {
 			},
+=======
+		["Cupkek"] = {
+			["FirstLoadz"] = 1,
+			["WantedQuestList"] = {
+			},
+			["QuestCounter2"] = 82,
+			["AAP_DoWarCampaign"] = 0,
+			["QuestCounter"] = 82,
+>>>>>>> Stashed changes
 			["A895"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -91,12 +101,19 @@ AAP1 = {
 				["AutoVendor"] = 0,
 				["topLiz"] = -150,
 				["arrowtop"] = -719.9999186197916,
+<<<<<<< Updated upstream
 				["Greetings2"] = 1,
+=======
+>>>>>>> Stashed changes
 				["AutoAccept"] = 1,
 				["CutScene"] = 1,
 				["left"] = 1200,
 				["ShowBlobs"] = 1,
+<<<<<<< Updated upstream
 				["Scale"] = 0.71,
+=======
+				["Greetings2"] = 1,
+>>>>>>> Stashed changes
 				["AutoHandIn"] = 1,
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
@@ -105,16 +122,24 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
+<<<<<<< Updated upstream
 				["ShowQList"] = 1,
 				["ShowMapBlobs"] = 1,
 				["Hcamptop"] = -215.9999755859375,
 				["Partyleft"] = 768,
+=======
+				["Partyleft"] = 768,
+				["ShowQList"] = 1,
+				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
+>>>>>>> Stashed changes
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
+<<<<<<< Updated upstream
 				["Beta1"] = 1,
 				["ShowArrow"] = 1,
 				["QuestButtons"] = 1,
@@ -124,11 +149,24 @@ AAP1 = {
 			["WantedQuestList"] = {
 			},
 			["A84-DesMephisto-Stormwind-War"] = 1,
+=======
+				["Scale"] = 0.71,
+				["QuestButtons"] = 1,
+				["AutoShareQ"] = 0,
+				["Hcamptop"] = -215.9999755859375,
+				["DisableHeirloomWarning"] = 0,
+			},
+			["BonusSkips"] = {
+			},
+			["SkippedBonusObj"] = {
+			},
+>>>>>>> Stashed changes
 			["LoaPick"] = 0,
 			["A876"] = 1,
 			["QlineSkip"] = {
 			},
 		},
+<<<<<<< Updated upstream
 		["Buhbels"] = {
 			["A84"] = 1,
 			["QuestCounter2"] = 53,
@@ -260,11 +298,14 @@ AAP1 = {
 			},
 			["QuestCounter"] = 0,
 		},
+=======
+>>>>>>> Stashed changes
 	},
 }
 AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
+<<<<<<< Updated upstream
 	[55965] = "Westward Bound",
 	[55981] = "Right Beneath Their Eyes",
 	[55989] = "Catapult Destruction",
@@ -332,11 +373,32 @@ AAPQuestNames = {
 	[49226] = "Silencing the Sisters",
 	[49230] = "Local Flavor",
 	[58908] = "Finding Your Way",
+=======
+	[27739] = "The Gnoll King",
+	[29538] = "Make Them Bleed",
+	[29539] = "Heart of Rage",
+	[57249] = "A Timely Invitation",
+	[29540] = "The Breaker",
+	[51144] = "A Bundle of Furs",
+	[334] = "Package for Thurman",
+	[48419] = "Lured and Allured",
+	[49226] = "Silencing the Sisters",
+	[48421] = "Blood in the Tides",
+	[49230] = "Local Flavor",
+	[26414] = "Hitting a Walleye",
+	[50349] = "An Overrun Mine",
+	[49178] = "My Favorite Things",
+	[27737] = "By Fire Be Saved!",
+	[51149] = "Left at the Port",
+	[29412] = "Blown Away",
+	[50544] = "The Hunters of Kennings Lodge",
+>>>>>>> Stashed changes
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {
 	["FPs"] = {
 		["Alliance"] = {
+<<<<<<< Updated upstream
 			[572] = {
 				["Sprinkles-EmeraldDream"] = {
 					["Conts"] = {
@@ -356,6 +418,59 @@ AAP_Transport = {
 			[876] = {
 				["Cupkek-EmeraldDream"] = {
 					["Conts"] = {
+=======
+			[876] = {
+				["fpn"] = {
+					[2106] = "Arom's Stand, Drustvar",
+					[2138] = "Fort Daelin, Stormsong Valley",
+					[2034] = "Hangman's Point, Drustvar",
+					[2042] = "Vigil Hill, Tiragarde Sound",
+					[2107] = "Watchman's Rise, Drustvar",
+					[2052] = "Anglepoint Wharf, Tiragarde Sound",
+					[2060] = "Hatherford, Tiragarde Sound",
+					[2084] = "Norwington Estate, Tiragarde Sound",
+					[2108] = "Falconhurst, Drustvar",
+					[2053] = "Old Drust Road, Tiragarde Sound",
+					[2023] = "Freehold, Tiragarde Sound",
+					[2077] = "Castaway Point, Tiragarde Sound",
+					[2035] = "Fletcher's Hollow, Drustvar",
+					[2101] = "The Amber Waves, Stormsong Valley",
+					[2109] = "Whitegrove Chapel, Drustvar",
+					[2054] = "Firebreaker Expedition, Tiragarde Sound",
+					[2133] = "Shrine of the Storm, Stormsong Valley",
+					[2086] = "Brennadam, Stormsong Valley",
+					[2102] = "Roughneck Camp, Tiragarde Sound",
+					[2055] = "Southwind Station, Tiragarde Sound",
+					[2079] = "Kennings Lodge, Tiragarde Sound",
+					[2087] = "Outrigger Post, Tiragarde Sound",
+					[2056] = "Fallhaven, Drustvar",
+					[2442] = "Overspark Expedition Camp, Mechagon",
+					[2277] = "Proudmoore Keep, Tiragarde Sound",
+					[2096] = "Tol Dagor, Tiragarde Sound",
+					[2104] = "Eastpoint Station, Tiragarde Sound",
+					[2057] = "Fletcher's Hollow, Drustvar",
+					[2089] = "Seekers Vista, Stormsong Valley",
+					[2033] = "Fallhaven, Drustvar",
+					[2278] = "Mariner's Row, Tiragarde Sound",
+					[2097] = "Deadwash, Stormsong Valley",
+					[2105] = "Tradewinds Market, Tiragarde Sound",
+					[2088] = "Mildenhall Meadery, Stormsong Valley",
+					[2037] = "Barbthorn Ridge, Drustvar",
+					[2127] = "Anyport, Drustvar",
+					[2074] = "Bridgeport, Tiragarde Sound",
+					[2085] = "Tidecross, Stormsong Valley",
+					[2137] = "Millstone Hamlet, Stormsong Valley",
+					[2083] = "Tradewinds Market, Tiragarde Sound",
+				},
+				["Cupkek-EmeraldDream"] = {
+					[2077] = 1,
+					[2074] = 1,
+					[2060] = 1,
+					[2023] = 1,
+					[2083] = 1,
+					["Conts"] = {
+						[876] = 1,
+>>>>>>> Stashed changes
 					},
 				},
 			},
@@ -363,6 +478,7 @@ AAP_Transport = {
 	},
 }
 AAP_Custom = {
+<<<<<<< Updated upstream
 	["Buhbels-EmeraldDream"] = {
 		nil, -- [1]
 		"(1/8) 10-50 Stormwind", -- [2]
@@ -407,6 +523,12 @@ AAP_ZoneComplete = {
 	},
 	["Gizelin-EmeraldDream"] = {
 	},
+=======
+	["Cupkek-EmeraldDream"] = {
+	},
+}
+AAP_ZoneComplete = {
+>>>>>>> Stashed changes
 	["Cupkek-EmeraldDream"] = {
 	},
 }

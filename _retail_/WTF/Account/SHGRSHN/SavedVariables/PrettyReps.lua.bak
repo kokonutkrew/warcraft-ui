@@ -11,8 +11,13 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 3,
 			["exaltedTotal"] = 7,
+=======
+			["internalIndex"] = 14,
+			["exaltedTotal"] = 8,
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["hasBonusRepGain"] = false,
@@ -23,17 +28,30 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["internalIndex"] = 4,
+=======
+					["internalIndex"] = 15,
+					["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["isExpansion"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 8,
+<<<<<<< Updated upstream
 					["isChild"] = true,
+=======
+					["isAlliance"] = true,
+>>>>>>> Stashed changes
 					["canToggleAtWar"] = false,
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 2159,
+<<<<<<< Updated upstream
 					["isAlliance"] = true,
+=======
+					["isChild"] = true,
+>>>>>>> Stashed changes
 					["isMaxed"] = true,
 					["name"] = "7th Legion",
 					["earnedValue"] = 42000,
@@ -59,13 +77,21 @@ PrettyRepsDB = {
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 2164,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["hasRep"] = false,
 					["name"] = "Champions of Azeroth",
 					["earnedValue"] = 42000,
 					["isMaxed"] = true,
 					["playerName"] = "Samoantitan",
+=======
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "Champions of Azeroth",
+					["hasRep"] = false,
+					["earnedValue"] = 42000,
+>>>>>>> Stashed changes
 					["topValue"] = 42000,
+					["isChild"] = true,
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
@@ -87,12 +113,17 @@ PrettyRepsDB = {
 					["isActive"] = true,
 					["factionID"] = 2161,
 					["isAlliance"] = true,
+<<<<<<< Updated upstream
 					["isMaxed"] = true,
 					["name"] = "Order of Embers",
 					["earnedValue"] = 42000,
 					["hasRep"] = false,
 					["playerName"] = "Samoantitan",
+=======
+>>>>>>> Stashed changes
 					["topValue"] = 42000,
+					["earnedValue"] = 42000,
+					["isChild"] = true,
 				}, -- [3]
 				{
 					["hasBonusRepGain"] = false,
@@ -103,17 +134,30 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["internalIndex"] = 7,
+=======
+					["internalIndex"] = 16,
+					["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["isExpansion"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 8,
+<<<<<<< Updated upstream
 					["isChild"] = true,
+=======
+					["isAlliance"] = true,
+>>>>>>> Stashed changes
 					["canToggleAtWar"] = false,
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 2160,
+<<<<<<< Updated upstream
 					["isAlliance"] = true,
+=======
+					["isChild"] = true,
+>>>>>>> Stashed changes
 					["isMaxed"] = true,
 					["name"] = "Proudmoore Admiralty",
 					["earnedValue"] = 42000,
@@ -134,17 +178,30 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 7,
+<<<<<<< Updated upstream
 					["internalIndex"] = 8,
+=======
+					["internalIndex"] = 17,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
 					["colorIndex"] = 7,
+<<<<<<< Updated upstream
 					["isExpansion"] = false,
+=======
+>>>>>>> Stashed changes
 					["canToggleAtWar"] = false,
 					["factionStandingtext"] = "Revered",
 					["isActive"] = true,
 					["factionID"] = 2391,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["hasRep"] = false,
+=======
+					["hasRep"] = false,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 					["name"] = "Rustbolt Resistance",
 					["earnedValue"] = 21565,
 					["isMaxed"] = false,
@@ -249,13 +306,21 @@ PrettyRepsDB = {
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 2163,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["hasRep"] = false,
 					["name"] = "Tortollan Seekers",
 					["earnedValue"] = 42000,
 					["isMaxed"] = true,
 					["playerName"] = "Samoantitan",
+=======
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "Tortollan Seekers",
+					["hasRep"] = false,
+					["earnedValue"] = 42000,
+>>>>>>> Stashed changes
 					["topValue"] = 42000,
+					["isChild"] = true,
 				}, -- [11]
 				{
 					["name"] = "Uldum Accord",
@@ -264,6 +329,7 @@ PrettyRepsDB = {
 				{
 					["hasBonusRepGain"] = false,
 					["description"] = "Comprised of exiles and scavengers, the Voldunai use their knowledge of the sands to thrive where others would wither and die.",
+<<<<<<< Updated upstream
 					["isExpansion"] = false,
 					["bottomValue"] = 9000,
 					["isLayoutChild"] = false,
@@ -338,6 +404,8 @@ PrettyRepsDB = {
 				{
 					["hasBonusRepGain"] = false,
 					["description"] = "The oldest empire of Azeroth, the Zandalari are powerful trolls who bargain with fearsome loa and whose navy is unmatched on the Great Sea.",
+=======
+>>>>>>> Stashed changes
 					["isExpansion"] = false,
 					["bottomValue"] = 3000,
 					["isLayoutChild"] = false,
@@ -351,6 +419,57 @@ PrettyRepsDB = {
 					["playerName"] = "Samoantank",
 					["factionStandingtext"] = "Friendly",
 					["isActive"] = true,
+<<<<<<< Updated upstream
+=======
+					["factionID"] = 2158,
+					["name"] = "Voldunai",
+					["earnedValue"] = 5330,
+					["topValue"] = 9000,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["isHorde"] = true,
+				}, -- [13]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "An ancient species of deep sea warriors, the Waveblade Ankoan traverse the deepest and most dangerous parts of the ocean.",
+					["isExpansion"] = false,
+					["bottomValue"] = 21000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 7,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = true,
+					["colorIndex"] = 7,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["playerName"] = "Samoantitan",
+					["factionStandingtext"] = "Revered",
+					["isActive"] = true,
+					["factionID"] = 2400,
+					["hasRep"] = false,
+					["name"] = "Waveblade Ankoan",
+					["isAlliance"] = true,
+					["topValue"] = 42000,
+					["earnedValue"] = 21386,
+					["isChild"] = true,
+				}, -- [14]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "The oldest empire of Azeroth, the Zandalari are powerful trolls who bargain with fearsome loa and whose navy is unmatched on the Great Sea.",
+					["isExpansion"] = false,
+					["bottomValue"] = 3000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 5,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+>>>>>>> Stashed changes
 					["factionID"] = 2103,
 					["name"] = "Zandalari Empire",
 					["earnedValue"] = 4730,
@@ -364,6 +483,10 @@ PrettyRepsDB = {
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+<<<<<<< Updated upstream
+=======
+			["isCollapsed"] = false,
+>>>>>>> Stashed changes
 			["canToggleAtWar"] = true,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -373,7 +496,11 @@ PrettyRepsDB = {
 			["name"] = "Battle for Azeroth",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [1]
 		{
@@ -386,7 +513,11 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 12,
+=======
+			["internalIndex"] = 18,
+>>>>>>> Stashed changes
 			["exaltedTotal"] = 14,
 			["children"] = {
 				{
@@ -413,8 +544,13 @@ PrettyRepsDB = {
 					["name"] = "Argussian Reach",
 					["hasRep"] = false,
 					["earnedValue"] = 42000,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 42000,
+=======
+					["topValue"] = 42000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
@@ -504,15 +640,50 @@ PrettyRepsDB = {
 					["isWatched"] = false,
 					["colorIndex"] = 5,
 					["playerName"] = "Samoantank",
+<<<<<<< Updated upstream
 					["factionStandingtext"] = "Stranger",
 					["isActive"] = true,
+=======
+					["factionStandingtext"] = "Whelpling",
+					["isActive"] = true,
+					["factionID"] = 2135,
+					["isFriendship"] = true,
+					["topValue"] = 1000,
+					["name"] = "Chromie",
+					["hasRep"] = false,
+					["earnedValue"] = 30,
+					["friendshipID"] = 2135,
+					["isChild"] = true,
+				}, -- [5]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "Once a student of the Kirin Tor, Margoss has turned to fishing to ease his stressful life.",
+					["isExpansion"] = false,
+					["bottomValue"] = 0,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 1,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Stranger",
+					["isActive"] = true,
+>>>>>>> Stashed changes
 					["factionID"] = 1975,
 					["isFriendship"] = true,
 					["topValue"] = 8400,
 					["name"] = "Conjurer Margoss",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["friendshipID"] = 1975,
 					["earnedValue"] = 2750,
+=======
+					["earnedValue"] = 2750,
+					["friendshipID"] = 1975,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [6]
 				{
@@ -528,6 +699,7 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 7,
+<<<<<<< Updated upstream
 					["internalIndex"] = 14,
 					["atWarWith"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
@@ -553,6 +725,8 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 7,
+=======
+>>>>>>> Stashed changes
 					["isMaxed"] = false,
 					["atWarWith"] = false,
 					["isWatched"] = false,
@@ -560,13 +734,44 @@ PrettyRepsDB = {
 					["playerName"] = "Samoantank",
 					["factionStandingtext"] = "Revered",
 					["isActive"] = true,
+<<<<<<< Updated upstream
+=======
+					["factionID"] = 1900,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "Court of Farondis",
+					["hasRep"] = false,
+					["earnedValue"] = 39597,
+					["topValue"] = 42000,
+					["isChild"] = true,
+				}, -- [8]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "The druids and their allies in Val'sharah have guarded the Emerald Dream since time immemorial.",
+					["isExpansion"] = false,
+					["bottomValue"] = 21000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 7,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 7,
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Revered",
+					["isActive"] = true,
+>>>>>>> Stashed changes
 					["factionID"] = 1883,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["name"] = "Dreamweavers",
 					["hasRep"] = false,
 					["earnedValue"] = 39072,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 42000,
+=======
+					["topValue"] = 42000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [9]
 				{
 					["hasBonusRepGain"] = false,
@@ -620,8 +825,13 @@ PrettyRepsDB = {
 					["topValue"] = 16800,
 					["name"] = "Impus",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["friendshipID"] = 2102,
 					["earnedValue"] = 10200,
+=======
+					["earnedValue"] = 10200,
+					["friendshipID"] = 2102,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [13]
 				{
@@ -645,8 +855,13 @@ PrettyRepsDB = {
 					["topValue"] = 16800,
 					["name"] = "Keeper Raynae",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["friendshipID"] = 2098,
 					["earnedValue"] = 9750,
+=======
+					["earnedValue"] = 9750,
+					["friendshipID"] = 2098,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [14]
 				{
@@ -670,8 +885,13 @@ PrettyRepsDB = {
 					["topValue"] = 42999,
 					["name"] = "Sha'leth",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["friendshipID"] = 2101,
 					["earnedValue"] = 42999,
+=======
+					["earnedValue"] = 42999,
+					["friendshipID"] = 2101,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [15]
 				{
@@ -690,7 +910,11 @@ PrettyRepsDB = {
 					["atWarWith"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 8,
+<<<<<<< Updated upstream
 					["playerName"] = "Hfishsamoan",
+=======
+					["playerName"] = "Samoantank",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 1859,
@@ -698,8 +922,13 @@ PrettyRepsDB = {
 					["name"] = "The Nightfallen",
 					["hasRep"] = false,
 					["earnedValue"] = 42000,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 42000,
+=======
+					["topValue"] = 42000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [17]
 				{
 					["hasBonusRepGain"] = false,
@@ -710,16 +939,25 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["internalIndex"] = 15,
+=======
+					["isMaxed"] = true,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
 					["colorIndex"] = 8,
+<<<<<<< Updated upstream
 					["canToggleAtWar"] = false,
+=======
+					["playerName"] = "Samoantank",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 1894,
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["name"] = "The Wardens",
 					["earnedValue"] = 42000,
@@ -729,12 +967,22 @@ PrettyRepsDB = {
 				}, -- [18]
 				{
 					["hasBonusRepGain"] = false,
+=======
+					["earnedValue"] = 42000,
+					["topValue"] = 42000,
+					["isChild"] = true,
+				}, -- [18]
+				{
+					["hasBonusRepGain"] = false,
+					["hasEncountered"] = true,
+>>>>>>> Stashed changes
 					["description"] = "These are the chosen warriors of Odyn, sworn to his service in life and death.",
 					["isExpansion"] = false,
 					["bottomValue"] = 42000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["isMaxed"] = true,
 					["atWarWith"] = false,
 					["isWatched"] = false,
@@ -749,12 +997,34 @@ PrettyRepsDB = {
 					["earnedValue"] = 42000,
 					["topValue"] = 42000,
 					["isChild"] = true,
+=======
+					["internalIndex"] = 19,
+					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 8,
+					["canToggleAtWar"] = false,
+					["factionStandingtext"] = "Exalted",
+					["isActive"] = true,
+					["factionID"] = 1948,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["name"] = "Valarjar",
+					["earnedValue"] = 42000,
+					["isMaxed"] = true,
+					["playerName"] = "Samoantank",
+					["topValue"] = 42000,
+>>>>>>> Stashed changes
 				}, -- [19]
 			},
 			["isExpansion"] = true,
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+<<<<<<< Updated upstream
+=======
+			["isCollapsed"] = true,
+>>>>>>> Stashed changes
 			["canToggleAtWar"] = false,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -764,7 +1034,11 @@ PrettyRepsDB = {
 			["name"] = "Legion",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [2]
 		{
@@ -777,30 +1051,50 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 16,
+=======
+			["internalIndex"] = 20,
+>>>>>>> Stashed changes
 			["exaltedTotal"] = 7,
 			["children"] = {
 				{
 					["hasBonusRepGain"] = false,
+					["hasEncountered"] = true,
 					["description"] = "Working from the shadows, the Arakkoa Outcasts seek to bring a brighter tomorrow.",
 					["isExpansion"] = false,
 					["bottomValue"] = 42000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["isMaxed"] = true,
+=======
+					["internalIndex"] = 21,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
 					["colorIndex"] = 8,
+<<<<<<< Updated upstream
 					["playerName"] = "Samoantank",
+=======
+					["canToggleAtWar"] = false,
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 1515,
-					["parent"] = nil --[[ skipped recursive table ]],
-					["name"] = "Arakkoa Outcasts",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["earnedValue"] = 42000,
 					["isChild"] = true,
+=======
+					["isChild"] = true,
+					["name"] = "Arakkoa Outcasts",
+					["earnedValue"] = 42000,
+					["isMaxed"] = true,
+					["playerName"] = "Samoantank",
+>>>>>>> Stashed changes
 					["topValue"] = 42000,
 				}, -- [1]
 				{
@@ -812,7 +1106,11 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 6,
+<<<<<<< Updated upstream
 					["internalIndex"] = 17,
+=======
+					["internalIndex"] = 22,
+>>>>>>> Stashed changes
 					["parent"] = nil --[[ skipped recursive table ]],
 					["atWarWith"] = false,
 					["isWatched"] = false,
@@ -843,7 +1141,11 @@ PrettyRepsDB = {
 					["isWatched"] = false,
 					["colorIndex"] = 5,
 					["parent"] = nil --[[ skipped recursive table ]],
+<<<<<<< Updated upstream
 					["playerName"] = "Samoansavage",
+=======
+					["playerName"] = "Herbcraft",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Friendly",
 					["isActive"] = true,
 					["factionID"] = 1847,
@@ -851,7 +1153,11 @@ PrettyRepsDB = {
 					["name"] = "Hand of the Prophet",
 					["isAlliance"] = true,
 					["isChild"] = true,
+<<<<<<< Updated upstream
 					["earnedValue"] = 4650,
+=======
+					["earnedValue"] = 4850,
+>>>>>>> Stashed changes
 					["topValue"] = 9000,
 				}, -- [3]
 				{
@@ -945,9 +1251,15 @@ PrettyRepsDB = {
 					["hasRep"] = false,
 					["name"] = "Sha'tari Defense",
 					["isAlliance"] = true,
+<<<<<<< Updated upstream
 					["topValue"] = 3000,
 					["earnedValue"] = 0,
 					["isChild"] = true,
+=======
+					["isChild"] = true,
+					["earnedValue"] = 0,
+					["topValue"] = 3000,
+>>>>>>> Stashed changes
 				}, -- [7]
 				{
 					["isUnobtainable"] = true,
@@ -1112,11 +1424,19 @@ PrettyRepsDB = {
 							["isActive"] = true,
 							["factionID"] = 1739,
 							["topValue"] = 10000,
+<<<<<<< Updated upstream
 							["hasRep"] = false,
 							["name"] = "Vivianne",
 							["earnedValue"] = 0,
 							["isFriendship"] = true,
 							["friendshipID"] = 1739,
+=======
+							["isFriendship"] = true,
+							["name"] = "Vivianne",
+							["hasRep"] = false,
+							["friendshipID"] = 1739,
+							["earnedValue"] = 0,
+>>>>>>> Stashed changes
 							["isChild"] = true,
 							["isHorde"] = true,
 						}, -- [7]
@@ -1132,8 +1452,13 @@ PrettyRepsDB = {
 					["topValue"] = 3000,
 					["name"] = "Barracks Bodyguards",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["colorIndex"] = 4,
 					["earnedValue"] = 0,
+=======
+					["earnedValue"] = 0,
+					["colorIndex"] = 4,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [14]
 			},
@@ -1141,6 +1466,7 @@ PrettyRepsDB = {
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+			["isCollapsed"] = true,
 			["canToggleAtWar"] = false,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -1150,19 +1476,32 @@ PrettyRepsDB = {
 			["name"] = "Warlords of Draenor",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [3]
 		{
 			["hasBonusRepGain"] = false,
 			["description"] = "",
 			["exaltedCount"] = 2,
+<<<<<<< Updated upstream
 			["isExpansion"] = true,
+=======
+			["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
 			["bottomValue"] = 0,
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["isMaxed"] = false,
+=======
+			["internalIndex"] = 23,
+			["exaltedTotal"] = 11,
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["factionID"] = 1375,
@@ -1269,8 +1608,12 @@ PrettyRepsDB = {
 					["name"] = "Order of the Cloud Serpent",
 					["hasRep"] = false,
 					["earnedValue"] = 3000,
+<<<<<<< Updated upstream
 					["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 					["topValue"] = 9000,
+					["isChild"] = true,
 				}, -- [7]
 				{
 					["hasBonusRepGain"] = false,
@@ -1280,6 +1623,7 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["isMaxed"] = true,
 					["atWarWith"] = false,
 					["isWatched"] = false,
@@ -1289,6 +1633,22 @@ PrettyRepsDB = {
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 1242,
+=======
+					["internalIndex"] = 24,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 8,
+					["isAlliance"] = true,
+					["canToggleAtWar"] = false,
+					["factionStandingtext"] = "Exalted",
+					["isActive"] = true,
+					["factionID"] = 1242,
+					["isChild"] = true,
+					["isMaxed"] = true,
+					["name"] = "Pearlfin Jinyu",
+					["earnedValue"] = 42000,
+>>>>>>> Stashed changes
 					["hasRep"] = false,
 					["name"] = "Pearlfin Jinyu",
 					["isAlliance"] = true,
@@ -1304,7 +1664,11 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 5,
+<<<<<<< Updated upstream
 					["isMaxed"] = false,
+=======
+					["internalIndex"] = 25,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 5,
@@ -1316,7 +1680,14 @@ PrettyRepsDB = {
 					["name"] = "Shado-Pan",
 					["hasRep"] = false,
 					["isChild"] = true,
+<<<<<<< Updated upstream
 					["earnedValue"] = 3011,
+=======
+					["name"] = "Shado-Pan",
+					["earnedValue"] = 3520,
+					["isMaxed"] = false,
+					["playerName"] = "Samoaninja",
+>>>>>>> Stashed changes
 					["topValue"] = 9000,
 				}, -- [9]
 				{
@@ -1463,8 +1834,13 @@ PrettyRepsDB = {
 					["name"] = "The Lorewalkers",
 					["hasRep"] = false,
 					["earnedValue"] = 0,
+<<<<<<< Updated upstream
 					["topValue"] = 3000,
 					["isChild"] = true,
+=======
+					["isChild"] = true,
+					["topValue"] = 3000,
+>>>>>>> Stashed changes
 				}, -- [16]
 				{
 					["hasBonusRepGain"] = false,
@@ -1498,8 +1874,13 @@ PrettyRepsDB = {
 							["topValue"] = 42999,
 							["name"] = "Nat Pagle",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["friendshipID"] = 1358,
 							["earnedValue"] = 42999,
+=======
+							["earnedValue"] = 42999,
+							["friendshipID"] = 1358,
+>>>>>>> Stashed changes
 							["isChild"] = true,
 						}, -- [1]
 					},
@@ -1514,8 +1895,13 @@ PrettyRepsDB = {
 					["topValue"] = 42000,
 					["name"] = "The Anglers",
 					["hasRep"] = true,
+<<<<<<< Updated upstream
 					["colorIndex"] = 7,
 					["earnedValue"] = 25550,
+=======
+					["earnedValue"] = 25550,
+					["colorIndex"] = 7,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [17]
 				{
@@ -1566,8 +1952,13 @@ PrettyRepsDB = {
 							["topValue"] = 8400,
 							["name"] = "Gina Mudclaw",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["friendshipID"] = 1281,
 							["earnedValue"] = 3000,
+=======
+							["earnedValue"] = 3000,
+							["friendshipID"] = 1281,
+>>>>>>> Stashed changes
 							["isChild"] = true,
 						}, -- [5]
 						{
@@ -1602,15 +1993,27 @@ PrettyRepsDB = {
 					["topValue"] = 9000,
 					["name"] = "The Tillers",
 					["hasRep"] = true,
+<<<<<<< Updated upstream
 					["colorIndex"] = 5,
 					["earnedValue"] = 4099,
+=======
+					["earnedValue"] = 4099,
+					["colorIndex"] = 5,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [18]
 			},
 			["parent"] = nil --[[ skipped recursive table ]],
 			["isWatched"] = false,
+<<<<<<< Updated upstream
 			["exaltedTotal"] = 11,
 			["playerName"] = "Samoansage",
+=======
+			["colorIndex"] = 4,
+			["isChild"] = false,
+			["isCollapsed"] = true,
+			["canToggleAtWar"] = true,
+>>>>>>> Stashed changes
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
 			["factionID"] = 1245,
@@ -1618,8 +2021,12 @@ PrettyRepsDB = {
 			["colorIndex"] = 4,
 			["name"] = "Mists of Pandaria",
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["isChild"] = false,
 			["atWarWith"] = false,
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [4]
 		{
@@ -1632,7 +2039,11 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 18,
+=======
+			["internalIndex"] = 26,
+>>>>>>> Stashed changes
 			["exaltedTotal"] = 5,
 			["children"] = {
 				{
@@ -1655,8 +2066,13 @@ PrettyRepsDB = {
 					["name"] = "Avengers of Hyjal",
 					["hasRep"] = false,
 					["earnedValue"] = 16670,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 21000,
+=======
+					["topValue"] = 21000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [1]
 				{
 					["hasBonusRepGain"] = false,
@@ -1678,12 +2094,17 @@ PrettyRepsDB = {
 					["isActive"] = true,
 					["factionID"] = 1177,
 					["isAlliance"] = true,
+<<<<<<< Updated upstream
 					["isMaxed"] = false,
 					["name"] = "Baradin's Wardens",
 					["earnedValue"] = 0,
 					["hasRep"] = false,
 					["playerName"] = "Samoantitan",
+=======
+>>>>>>> Stashed changes
 					["topValue"] = 3000,
+					["earnedValue"] = 0,
+					["isChild"] = true,
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
@@ -1711,29 +2132,36 @@ PrettyRepsDB = {
 				}, -- [3]
 				{
 					["hasBonusRepGain"] = false,
-					["hasEncountered"] = true,
 					["description"] = "Faced with the impending devastation of Mount Hyjal, the most powerful members of the Cenarion Circle have joined forces with their Emerald Dragonflight allies to fend off Ragnaros' elemental hordes and the Twilight's Hammer.",
 					["isExpansion"] = false,
 					["bottomValue"] = 0,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 4,
+<<<<<<< Updated upstream
 					["internalIndex"] = 20,
+=======
+					["isMaxed"] = false,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
-					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
 					["colorIndex"] = 4,
-					["canToggleAtWar"] = false,
+					["playerName"] = "Samoantank",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 1158,
-					["hasRep"] = false,
-					["isChild"] = true,
+					["parent"] = nil --[[ skipped recursive table ]],
 					["name"] = "Guardians of Hyjal",
+<<<<<<< Updated upstream
 					["earnedValue"] = 2486,
 					["isMaxed"] = false,
 					["playerName"] = "Samoantank",
+=======
+					["hasRep"] = false,
+					["earnedValue"] = 2486,
+>>>>>>> Stashed changes
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [4]
 				{
 					["hasBonusRepGain"] = false,
@@ -1791,7 +2219,11 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
+<<<<<<< Updated upstream
 					["internalIndex"] = 21,
+=======
+					["internalIndex"] = 27,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
@@ -1822,6 +2254,7 @@ PrettyRepsDB = {
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+			["isCollapsed"] = true,
 			["canToggleAtWar"] = true,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -1831,7 +2264,11 @@ PrettyRepsDB = {
 			["name"] = "Cataclysm",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [5]
 		{
@@ -1844,7 +2281,11 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 22,
+=======
+			["internalIndex"] = 28,
+>>>>>>> Stashed changes
 			["exaltedTotal"] = 13,
 			["children"] = {
 				{
@@ -1852,6 +2293,7 @@ PrettyRepsDB = {
 					["description"] = "Led by Tirion Fordring, the Argent Crusade combines the reformed Order of the Silver Hand with the Argent Dawn in one final push against the forces of the Lich King.",
 					["isExpansion"] = false,
 					["bottomValue"] = 42000,
+<<<<<<< Updated upstream
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 8,
@@ -1880,22 +2322,37 @@ PrettyRepsDB = {
 					["isHeader"] = false,
 					["standingID"] = 5,
 					["internalIndex"] = 23,
+=======
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 8,
+					["internalIndex"] = 29,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
-					["colorIndex"] = 5,
+					["colorIndex"] = 8,
 					["canToggleAtWar"] = false,
-					["factionStandingtext"] = "Friendly",
+					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 1090,
 					["hasRep"] = false,
 					["isChild"] = true,
+<<<<<<< Updated upstream
 					["name"] = "Kirin Tor",
 					["earnedValue"] = 6461,
 					["isMaxed"] = false,
 					["playerName"] = "Samoantank",
 					["topValue"] = 9000,
 				}, -- [2]
+=======
+					["name"] = "Argent Crusade",
+					["earnedValue"] = 42000,
+					["isMaxed"] = true,
+					["playerName"] = "Samoantank",
+					["topValue"] = 42000,
+				}, -- [1]
+>>>>>>> Stashed changes
 				{
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
@@ -2000,7 +2457,7 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 5,
-					["internalIndex"] = 25,
+					["internalIndex"] = 30,
 					["atWarWith"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
@@ -2008,6 +2465,133 @@ PrettyRepsDB = {
 					["canToggleAtWar"] = false,
 					["factionStandingtext"] = "Friendly",
 					["isActive"] = true,
+<<<<<<< Updated upstream
+=======
+					["factionID"] = 1090,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["name"] = "Kirin Tor",
+					["earnedValue"] = 6461,
+					["isMaxed"] = false,
+					["playerName"] = "Samoantank",
+					["topValue"] = 9000,
+				}, -- [2]
+				{
+					["hasBonusRepGain"] = false,
+					["hasEncountered"] = true,
+					["description"] = "Freed from the grasp of the Lich King, his former Death Knights have regrouped against him under the banner of Highlord Darion Mograine.",
+					["isExpansion"] = false,
+					["bottomValue"] = 9000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 6,
+					["internalIndex"] = 31,
+					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 6,
+					["canToggleAtWar"] = false,
+					["factionStandingtext"] = "Honored",
+					["isActive"] = true,
+					["factionID"] = 1098,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["name"] = "Knights of the Ebon Blade",
+					["earnedValue"] = 9366,
+					["isMaxed"] = false,
+					["playerName"] = "Samoantank",
+					["topValue"] = 21000,
+				}, -- [3]
+				{
+					["hasBonusRepGain"] = false,
+					["hasEncountered"] = true,
+					["description"] = "Under a pact by Tirion Fordring and Darion Mograine, the Argent Crusade and the Knights of the Ebon Blade have set aside their differences during the attack on Icecrown Citadel until the Lich King is slain.",
+					["isExpansion"] = false,
+					["bottomValue"] = 42000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 8,
+					["internalIndex"] = 32,
+					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 8,
+					["canToggleAtWar"] = false,
+					["factionStandingtext"] = "Exalted",
+					["isActive"] = true,
+					["factionID"] = 1156,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["name"] = "The Ashen Verdict",
+					["earnedValue"] = 42000,
+					["isMaxed"] = true,
+					["playerName"] = "Samoantank",
+					["topValue"] = 42000,
+				}, -- [4]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "The tuskarr are a tough but peaceful people who derive their livelihood from fishing and whaling.  Their settlements have recently come under fierce attack and welcome any allies who would come to their aid.",
+					["isExpansion"] = false,
+					["bottomValue"] = 3000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 5,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+					["factionID"] = 1073,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "The Kalu'ak",
+					["hasRep"] = false,
+					["earnedValue"] = 8900,
+					["topValue"] = 9000,
+					["isChild"] = true,
+				}, -- [5]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "The frost giants of the Storm Peaks are a war-like race that makes their home in Dun Niffelem.",
+					["isExpansion"] = false,
+					["bottomValue"] = -42000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 1,
+					["isMaxed"] = false,
+					["atWarWith"] = true,
+					["isWatched"] = false,
+					["colorIndex"] = 1,
+					["playerName"] = "Forgecraft",
+					["factionStandingtext"] = "Hated",
+					["isActive"] = true,
+					["factionID"] = 1119,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "The Sons of Hodir",
+					["hasRep"] = false,
+					["earnedValue"] = -40050,
+					["topValue"] = -6000,
+					["isChild"] = true,
+				}, -- [6]
+				{
+					["hasBonusRepGain"] = false,
+					["hasEncountered"] = true,
+					["description"] = "With the Blue Dragonflight's violent upheaval against all mortal users of magic, the remaining dragonflights have banded under the leadership of the Red Dragonflight to combat their wayward kin.",
+					["isExpansion"] = false,
+					["bottomValue"] = 3000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 5,
+					["internalIndex"] = 33,
+					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["canToggleAtWar"] = false,
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+>>>>>>> Stashed changes
 					["factionID"] = 1091,
 					["hasRep"] = false,
 					["isChild"] = true,
@@ -2024,10 +2608,16 @@ PrettyRepsDB = {
 					["isExpansion"] = false,
 					["bottomValue"] = 0,
 					["isLayoutChild"] = true,
+					["parent"] = nil --[[ skipped recursive table ]],
 					["isHeader"] = true,
 					["standingID"] = 4,
+<<<<<<< Updated upstream
 					["isMaxed"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
+=======
+					["internalIndex"] = 34,
+					["exaltedTotal"] = 4,
+>>>>>>> Stashed changes
 					["children"] = {
 						{
 							["hasBonusRepGain"] = false,
@@ -2049,8 +2639,12 @@ PrettyRepsDB = {
 							["name"] = "Explorers' League",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
+<<<<<<< Updated upstream
 							["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [1]
 						{
 							["hasBonusRepGain"] = false,
@@ -2072,8 +2666,12 @@ PrettyRepsDB = {
 							["name"] = "The Frostborn",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
+<<<<<<< Updated upstream
 							["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [2]
 						{
 							["hasBonusRepGain"] = false,
@@ -2095,8 +2693,12 @@ PrettyRepsDB = {
 							["name"] = "The Silver Covenant",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
+<<<<<<< Updated upstream
 							["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
@@ -2106,15 +2708,29 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 4,
+<<<<<<< Updated upstream
 							["isMaxed"] = false,
+=======
+							["internalIndex"] = 35,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
 							["colorIndex"] = 4,
+<<<<<<< Updated upstream
 							["playerName"] = "Samoansavage",
 							["factionStandingtext"] = "Neutral",
 							["isActive"] = true,
 							["factionID"] = 1050,
 							["parent"] = nil --[[ skipped recursive table ]],
+=======
+							["canToggleAtWar"] = false,
+							["factionStandingtext"] = "Neutral",
+							["isActive"] = true,
+							["factionID"] = 1050,
+							["hasRep"] = false,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 							["name"] = "Valiance Expedition",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
@@ -2122,9 +2738,16 @@ PrettyRepsDB = {
 							["topValue"] = 3000,
 						}, -- [4]
 					},
+<<<<<<< Updated upstream
 					["isWatched"] = false,
 					["exaltedTotal"] = 4,
 					["atWarWith"] = false,
+=======
+					["earnedValue"] = 750,
+					["isWatched"] = false,
+					["colorIndex"] = 4,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 					["playerName"] = "Samoansavage",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
@@ -2245,11 +2868,19 @@ PrettyRepsDB = {
 					["isActive"] = true,
 					["factionID"] = 1052,
 					["topValue"] = 42000,
+<<<<<<< Updated upstream
 					["atWarWith"] = false,
 					["name"] = "Horde Expedition",
 					["earnedValue"] = 42000,
 					["hasRep"] = true,
 					["exaltedTotal"] = 4,
+=======
+					["hasRep"] = true,
+					["name"] = "Horde Expedition",
+					["earnedValue"] = 42000,
+					["exaltedTotal"] = 4,
+					["atWarWith"] = false,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 					["isHorde"] = true,
 				}, -- [9]
@@ -2322,8 +2953,13 @@ PrettyRepsDB = {
 					["topValue"] = 42000,
 					["name"] = "Sholazar Basin",
 					["hasRep"] = false,
+<<<<<<< Updated upstream
 					["colorIndex"] = 7,
 					["earnedValue"] = 26194,
+=======
+					["earnedValue"] = 26194,
+					["colorIndex"] = 7,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [10]
 			},
@@ -2331,6 +2967,7 @@ PrettyRepsDB = {
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+			["isCollapsed"] = true,
 			["canToggleAtWar"] = true,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -2340,7 +2977,11 @@ PrettyRepsDB = {
 			["name"] = "Wrath of the Lich King",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [6]
 		{
@@ -2353,17 +2994,26 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 26,
+=======
+			["internalIndex"] = 36,
+>>>>>>> Stashed changes
 			["exaltedTotal"] = 13,
 			["children"] = {
 				{
 					["hasBonusRepGain"] = false,
+<<<<<<< Updated upstream
+=======
+					["hasEncountered"] = true,
+>>>>>>> Stashed changes
 					["description"] = "The elite of the Broken tribe known as the Ashtongue, officially aligned with Illidan. The Deathsworn are Akama's most trusted lieutenants and are privy to their leader's mysterious motivations.",
 					["isExpansion"] = false,
 					["bottomValue"] = 3000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 5,
+<<<<<<< Updated upstream
 					["isMaxed"] = false,
 					["atWarWith"] = false,
 					["isWatched"] = false,
@@ -2378,6 +3028,24 @@ PrettyRepsDB = {
 					["earnedValue"] = 7099,
 					["topValue"] = 9000,
 					["isChild"] = true,
+=======
+					["internalIndex"] = 37,
+					["atWarWith"] = false,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["canToggleAtWar"] = false,
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+					["factionID"] = 1012,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["name"] = "Ashtongue Deathsworn",
+					["earnedValue"] = 6730,
+					["isMaxed"] = false,
+					["playerName"] = "Samoantank",
+					["topValue"] = 9000,
+>>>>>>> Stashed changes
 				}, -- [1]
 				{
 					["hasBonusRepGain"] = false,
@@ -2399,18 +3067,23 @@ PrettyRepsDB = {
 					["name"] = "Cenarion Expedition",
 					["hasRep"] = false,
 					["earnedValue"] = 8858,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 9000,
+=======
+					["topValue"] = 9000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
-					["hasEncountered"] = true,
 					["description"] = "Vestiges of the Sons of Lothar, veterans of the Alliance that first came into Draenor, have steadfastly held on to this Hellfire outpost.  They are now joined by the armies from Stormwind and Ironforge.",
 					["isExpansion"] = false,
 					["bottomValue"] = 9000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 6,
+<<<<<<< Updated upstream
 					["internalIndex"] = 27,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["atWarWith"] = false,
@@ -2425,9 +3098,23 @@ PrettyRepsDB = {
 					["isMaxed"] = false,
 					["name"] = "Honor Hold",
 					["earnedValue"] = 12107,
-					["hasRep"] = false,
+=======
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 6,
+					["parent"] = nil --[[ skipped recursive table ]],
 					["playerName"] = "Samoansavage",
+					["factionStandingtext"] = "Honored",
+					["isActive"] = true,
+					["factionID"] = 946,
+>>>>>>> Stashed changes
+					["hasRep"] = false,
+					["name"] = "Honor Hold",
+					["isAlliance"] = true,
 					["topValue"] = 21000,
+					["earnedValue"] = 12107,
+					["isChild"] = true,
 				}, -- [3]
 				{
 					["hasBonusRepGain"] = false,
@@ -2438,7 +3125,11 @@ PrettyRepsDB = {
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 5,
+<<<<<<< Updated upstream
 					["internalIndex"] = 28,
+=======
+					["internalIndex"] = 38,
+>>>>>>> Stashed changes
 					["atWarWith"] = false,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["isWatched"] = false,
@@ -2450,9 +3141,15 @@ PrettyRepsDB = {
 					["hasRep"] = false,
 					["isChild"] = true,
 					["name"] = "Keepers of Time",
+<<<<<<< Updated upstream
 					["earnedValue"] = 4117,
 					["isMaxed"] = false,
 					["playerName"] = "Samoansavage",
+=======
+					["earnedValue"] = 5408,
+					["isMaxed"] = false,
+					["playerName"] = "Samoanslayer",
+>>>>>>> Stashed changes
 					["topValue"] = 9000,
 				}, -- [4]
 				{
@@ -2488,13 +3185,91 @@ PrettyRepsDB = {
 					["name"] = "Sporeggar",
 					["hasRep"] = false,
 					["earnedValue"] = 15260,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 21000,
+=======
+					["topValue"] = 21000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [8]
 				{
 					["hasBonusRepGain"] = false,
 					["description"] = "Led by Nexus-Prince Haramad, the Consortium is a loosely affiliated cartel of ethereal smugglers, traders and thieves that has come to Outland to benefit from its riches.",
 					["isExpansion"] = false,
+<<<<<<< Updated upstream
+=======
+					["bottomValue"] = 3000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 5,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["playerName"] = "Orecraft",
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+					["factionID"] = 933,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "The Consortium",
+					["hasRep"] = false,
+					["earnedValue"] = 4513,
+					["topValue"] = 9000,
+					["isChild"] = true,
+				}, -- [9]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "This reclusive group of brown-skinned orcs has escaped any form of demonic corruption.  They have retained their traditional way of life in the face of great changes in Outland.",
+					["isExpansion"] = false,
+					["bottomValue"] = 3000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 5,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+					["factionID"] = 941,
+					["name"] = "The Mag'har",
+					["earnedValue"] = 6062,
+					["topValue"] = 9000,
+					["hasRep"] = false,
+					["isChild"] = true,
+					["isHorde"] = true,
+				}, -- [10]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "A secretive subgroup of the Bronze Dragonflight, led by Soridormi, prime mate of Nozdormu.",
+					["isExpansion"] = false,
+					["bottomValue"] = 9000,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 6,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 6,
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Honored",
+					["isActive"] = true,
+					["factionID"] = 990,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "The Scale of the Sands",
+					["hasRep"] = false,
+					["earnedValue"] = 9408,
+					["topValue"] = 21000,
+					["isChild"] = true,
+				}, -- [11]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "A secret sect of the Kirin Tor founded to spy on Medivh and his activities.",
+					["isExpansion"] = false,
+>>>>>>> Stashed changes
 					["bottomValue"] = 0,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
@@ -2506,6 +3281,7 @@ PrettyRepsDB = {
 					["playerName"] = "Samoantank",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
+<<<<<<< Updated upstream
 					["factionID"] = 933,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["name"] = "The Consortium",
@@ -2576,6 +3352,8 @@ PrettyRepsDB = {
 					["playerName"] = "Samoantank",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
+=======
+>>>>>>> Stashed changes
 					["factionID"] = 967,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["name"] = "The Violet Eye",
@@ -2597,12 +3375,20 @@ PrettyRepsDB = {
 					["isWatched"] = false,
 					["colorIndex"] = 6,
 					["parent"] = nil --[[ skipped recursive table ]],
+<<<<<<< Updated upstream
 					["playerName"] = "Samoantank",
+=======
+					["playerName"] = "Samoaninja",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Honored",
 					["isActive"] = true,
 					["factionID"] = 947,
 					["name"] = "Thrallmar",
+<<<<<<< Updated upstream
 					["earnedValue"] = 9349,
+=======
+					["earnedValue"] = 10000,
+>>>>>>> Stashed changes
 					["topValue"] = 21000,
 					["hasRep"] = false,
 					["isChild"] = true,
@@ -2615,23 +3401,38 @@ PrettyRepsDB = {
 				}, -- [14]
 				{
 					["hasBonusRepGain"] = false,
+<<<<<<< Updated upstream
+=======
+					["hasEncountered"] = true,
+>>>>>>> Stashed changes
 					["description"] = "",
 					["exaltedCount"] = 0,
 					["isExpansion"] = false,
 					["bottomValue"] = 3000,
 					["isLayoutChild"] = true,
 					["isHeader"] = true,
+<<<<<<< Updated upstream
 					["standingID"] = 5,
 					["isMaxed"] = false,
 					["children"] = {
 						{
 							["hasBonusRepGain"] = false,
+=======
+					["parent"] = nil --[[ skipped recursive table ]],
+					["standingID"] = 5,
+					["internalIndex"] = 39,
+					["children"] = {
+						{
+							["hasBonusRepGain"] = false,
+							["hasEncountered"] = true,
+>>>>>>> Stashed changes
 							["description"] = "The refugees of Shattrath come from diverse backgrounds and races.  Word of helpful deeds spreads quickly among the Denizens of Lower City.",
 							["isExpansion"] = false,
 							["bottomValue"] = 9000,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 6,
+<<<<<<< Updated upstream
 							["isMaxed"] = false,
 							["atWarWith"] = false,
 							["isWatched"] = false,
@@ -2645,6 +3446,23 @@ PrettyRepsDB = {
 							["hasRep"] = false,
 							["earnedValue"] = 9696,
 							["isChild"] = true,
+=======
+							["internalIndex"] = 40,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 6,
+							["canToggleAtWar"] = false,
+							["factionStandingtext"] = "Honored",
+							["isActive"] = true,
+							["factionID"] = 1011,
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Lower City",
+							["earnedValue"] = 9696,
+							["isMaxed"] = false,
+							["playerName"] = "Samoansavage",
+>>>>>>> Stashed changes
 							["topValue"] = 21000,
 						}, -- [1]
 						{
@@ -2655,6 +3473,7 @@ PrettyRepsDB = {
 							["hasBonusRepGain"] = false,
 							["description"] = "Shattrath City's final push against Prince Kael'thas' operations in the Sunwell.",
 							["isExpansion"] = false,
+<<<<<<< Updated upstream
 							["bottomValue"] = 0,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
@@ -2665,14 +3484,32 @@ PrettyRepsDB = {
 							["colorIndex"] = 4,
 							["playerName"] = "Samoantank",
 							["factionStandingtext"] = "Neutral",
+=======
+							["bottomValue"] = 3000,
+							["isLayoutChild"] = true,
+							["isHeader"] = false,
+							["standingID"] = 5,
+							["isMaxed"] = false,
+							["atWarWith"] = false,
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+							["playerName"] = "Samoanbeast",
+							["factionStandingtext"] = "Friendly",
+>>>>>>> Stashed changes
 							["isActive"] = true,
 							["factionID"] = 1077,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["name"] = "Shattered Sun Offensive",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["earnedValue"] = 2792,
 							["isChild"] = true,
 							["topValue"] = 3000,
+=======
+							["earnedValue"] = 6127,
+							["topValue"] = 9000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
@@ -2694,8 +3531,13 @@ PrettyRepsDB = {
 							["name"] = "The Aldor",
 							["hasRep"] = false,
 							["earnedValue"] = 0,
+<<<<<<< Updated upstream
 							["topValue"] = 3000,
 							["isChild"] = true,
+=======
+							["isChild"] = true,
+							["topValue"] = 3000,
+>>>>>>> Stashed changes
 						}, -- [4]
 						{
 							["hasBonusRepGain"] = false,
@@ -2717,8 +3559,13 @@ PrettyRepsDB = {
 							["name"] = "The Scryers",
 							["hasRep"] = false,
 							["earnedValue"] = 7010,
+<<<<<<< Updated upstream
 							["topValue"] = 9000,
 							["isChild"] = true,
+=======
+							["isChild"] = true,
+							["topValue"] = 9000,
+>>>>>>> Stashed changes
 						}, -- [5]
 						{
 							["hasBonusRepGain"] = false,
@@ -2740,6 +3587,7 @@ PrettyRepsDB = {
 							["name"] = "The Sha'tar",
 							["hasRep"] = false,
 							["earnedValue"] = 10253,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["topValue"] = 21000,
 						}, -- [6]
@@ -2748,22 +3596,43 @@ PrettyRepsDB = {
 					["isWatched"] = false,
 					["colorIndex"] = 5,
 					["playerName"] = "Samoantank",
+=======
+							["topValue"] = 21000,
+							["isChild"] = true,
+						}, -- [6]
+					},
+					["isChild"] = true,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["atWarWith"] = false,
+					["canToggleAtWar"] = false,
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Friendly",
 					["isActive"] = true,
 					["factionID"] = 936,
 					["exaltedTotal"] = 5,
+<<<<<<< Updated upstream
 					["topValue"] = 9000,
 					["name"] = "Shattrath City",
 					["earnedValue"] = 3510,
 					["atWarWith"] = false,
 					["hasRep"] = false,
 					["isChild"] = true,
+=======
+					["isMaxed"] = false,
+					["name"] = "Shattrath City",
+					["earnedValue"] = 3510,
+					["hasRep"] = false,
+					["playerName"] = "Samoantank",
+					["topValue"] = 9000,
+>>>>>>> Stashed changes
 				}, -- [15]
 			},
 			["isExpansion"] = true,
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+			["isCollapsed"] = true,
 			["canToggleAtWar"] = false,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -2773,7 +3642,11 @@ PrettyRepsDB = {
 			["name"] = "The Burning Crusade",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [7]
 		{
@@ -2786,8 +3659,13 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 29,
 			["exaltedTotal"] = 22,
+=======
+			["internalIndex"] = 41,
+			["exaltedTotal"] = 23,
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["hasBonusRepGain"] = false,
@@ -2832,8 +3710,12 @@ PrettyRepsDB = {
 					["name"] = "Bloodsail Buccaneers",
 					["hasRep"] = false,
 					["earnedValue"] = -7000,
+<<<<<<< Updated upstream
 					["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 					["topValue"] = -6000,
+					["isChild"] = true,
 				}, -- [2]
 				{
 					["name"] = "Brood of Nozdormu",
@@ -2841,10 +3723,36 @@ PrettyRepsDB = {
 				}, -- [3]
 				{
 					["hasBonusRepGain"] = false,
-					["hasEncountered"] = true,
 					["description"] = "The druids of Cenarion Circle are guardians of nature and make their home in tranquil Moonglade.",
 					["isExpansion"] = false,
 					["bottomValue"] = 3000,
+<<<<<<< Updated upstream
+=======
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 5,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Friendly",
+					["isActive"] = true,
+					["factionID"] = 609,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "Cenarion Circle",
+					["hasRep"] = false,
+					["earnedValue"] = 3150,
+					["isChild"] = true,
+					["topValue"] = 9000,
+				}, -- [4]
+				{
+					["hasBonusRepGain"] = false,
+					["hasEncountered"] = true,
+					["description"] = "A carnival that showcases the weird and the extraordinary, located on a mysterious island only accessible for the first week of every month.",
+					["isExpansion"] = false,
+					["bottomValue"] = 0,
+>>>>>>> Stashed changes
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 5,
@@ -2856,6 +3764,7 @@ PrettyRepsDB = {
 					["canToggleAtWar"] = false,
 					["factionStandingtext"] = "Friendly",
 					["isActive"] = true,
+<<<<<<< Updated upstream
 					["factionID"] = 609,
 					["hasRep"] = false,
 					["isChild"] = true,
@@ -2882,6 +3791,11 @@ PrettyRepsDB = {
 					["isActive"] = true,
 					["factionID"] = 909,
 					["parent"] = nil --[[ skipped recursive table ]],
+=======
+					["factionID"] = 909,
+					["hasRep"] = false,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 					["name"] = "Darkmoon Faire",
 					["hasRep"] = false,
 					["earnedValue"] = 2668,
@@ -2912,8 +3826,13 @@ PrettyRepsDB = {
 					["name"] = "Hydraxian Waterlords",
 					["hasRep"] = false,
 					["earnedValue"] = 22799,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 42000,
+=======
+					["topValue"] = 42000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [7]
 				{
 					["name"] = "Magram Clan Centaur",
@@ -2957,6 +3876,7 @@ PrettyRepsDB = {
 					["atWarWith"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 4,
+<<<<<<< Updated upstream
 					["parent"] = {
 						["hasBonusRepGain"] = false,
 						["description"] = "",
@@ -2980,6 +3900,32 @@ PrettyRepsDB = {
 						["isChild"] = false,
 						["colorIndex"] = 4,
 					},
+=======
+					["playerName"] = "Samoantitan",
+					["factionStandingtext"] = "Neutral",
+					["isActive"] = true,
+					["factionID"] = 349,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "Ravenholdt",
+					["hasRep"] = false,
+					["earnedValue"] = 367,
+					["topValue"] = 3000,
+					["isChild"] = true,
+				}, -- [9]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "A remnant of the once powerful elves living in Dire Maul, yet still wise and knowledgeable about great secrets. ",
+					["isExpansion"] = false,
+					["bottomValue"] = 0,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 4,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 4,
+					["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
 					["playerName"] = "Samoantank",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
@@ -2993,13 +3939,17 @@ PrettyRepsDB = {
 				}, -- [10]
 				{
 					["hasBonusRepGain"] = false,
+<<<<<<< Updated upstream
 					["hasEncountered"] = true,
+=======
+>>>>>>> Stashed changes
 					["description"] = "A primarily human criminal organization that operates mostly out of the Alterac Mountains and Hillsbrad Foothills.",
 					["isExpansion"] = false,
 					["bottomValue"] = -42000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
 					["standingID"] = 1,
+<<<<<<< Updated upstream
 					["internalIndex"] = 47,
 					["parent"] = {
 						["hasBonusRepGain"] = false,
@@ -3027,6 +3977,13 @@ PrettyRepsDB = {
 					["atWarWith"] = true,
 					["isWatched"] = false,
 					["colorIndex"] = 1,
+=======
+					["isMaxed"] = false,
+					["atWarWith"] = true,
+					["isWatched"] = false,
+					["colorIndex"] = 1,
+					["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
 					["playerName"] = "Samoanranger",
 					["canToggleAtWar"] = false,
 					["factionStandingtext"] = "Hated",
@@ -3036,9 +3993,13 @@ PrettyRepsDB = {
 					["isUnobtainable"] = true,
 					["name"] = "Syndicate",
 					["earnedValue"] = -11075,
+<<<<<<< Updated upstream
 					["isMaxed"] = false,
 					["hasRep"] = false,
+=======
+>>>>>>> Stashed changes
 					["topValue"] = -6000,
+					["isChild"] = true,
 				}, -- [11]
 				{
 					["hasBonusRepGain"] = false,
@@ -3060,8 +4021,13 @@ PrettyRepsDB = {
 					["name"] = "Thorium Brotherhood",
 					["hasRep"] = false,
 					["earnedValue"] = 11440,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["topValue"] = 21000,
+=======
+					["topValue"] = 21000,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 				}, -- [12]
 				{
 					["hasBonusRepGain"] = false,
@@ -3083,15 +4049,42 @@ PrettyRepsDB = {
 					["name"] = "Timbermaw Hold",
 					["hasRep"] = false,
 					["earnedValue"] = -2796,
+<<<<<<< Updated upstream
 					["topValue"] = 0,
 					["isChild"] = true,
+=======
+					["isChild"] = true,
+					["topValue"] = 0,
+>>>>>>> Stashed changes
 				}, -- [13]
 				{
-					["name"] = "Wintersaber Trainers",
+					["hasBonusRepGain"] = false,
+<<<<<<< Updated upstream
+=======
+					["description"] = "This small group of reclusive night elves raises and trains wintersabers in the Winterspring area.",
+					["isExpansion"] = false,
+					["bottomValue"] = 0,
+					["isLayoutChild"] = false,
+					["isHeader"] = false,
+					["standingID"] = 4,
+					["isMaxed"] = false,
+					["atWarWith"] = false,
+					["isWatched"] = false,
+					["colorIndex"] = 4,
+					["playerName"] = "Samoanslayer",
+					["factionStandingtext"] = "Neutral",
+					["isActive"] = true,
 					["factionID"] = 589,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["name"] = "Wintersaber Trainers",
+					["hasRep"] = false,
+					["earnedValue"] = 0,
+					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [14]
 				{
 					["hasBonusRepGain"] = false,
+>>>>>>> Stashed changes
 					["description"] = "These trolls have come to Yojamba Isle in an effort to recruit help against the resurrected Blood God and his Atal'ai Priests in Zul'Gurub.",
 					["isExpansion"] = false,
 					["bottomValue"] = 0,
@@ -3102,6 +4095,7 @@ PrettyRepsDB = {
 					["atWarWith"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 4,
+<<<<<<< Updated upstream
 					["parent"] = {
 						["hasBonusRepGain"] = false,
 						["description"] = "",
@@ -3125,16 +4119,24 @@ PrettyRepsDB = {
 						["isChild"] = false,
 						["colorIndex"] = 4,
 					},
+=======
+					["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
 					["playerName"] = "Samoansavage",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 270,
 					["isUnobtainable"] = true,
 					["name"] = "Zandalar Tribe",
+<<<<<<< Updated upstream
+=======
+					["earnedValue"] = 0,
+>>>>>>> Stashed changes
 					["hasRep"] = false,
 					["earnedValue"] = 0,
 					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [15]
 				{
 					["hasBonusRepGain"] = false,
@@ -3147,7 +4149,11 @@ PrettyRepsDB = {
 					["parent"] = nil --[[ skipped recursive table ]],
 					["isHeader"] = true,
 					["standingID"] = 7,
+<<<<<<< Updated upstream
 					["internalIndex"] = 32,
+=======
+					["internalIndex"] = 43,
+>>>>>>> Stashed changes
 					["exaltedTotal"] = 7,
 					["children"] = {
 						{
@@ -3159,7 +4165,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 33,
+=======
+							["internalIndex"] = 44,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3185,7 +4195,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 34,
+=======
+							["internalIndex"] = 45,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3211,7 +4225,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 35,
+=======
+							["internalIndex"] = 46,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3237,7 +4255,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 36,
+=======
+							["internalIndex"] = 47,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3263,7 +4285,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 37,
+=======
+							["internalIndex"] = 48,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3289,7 +4315,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 38,
+=======
+							["internalIndex"] = 49,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3315,7 +4345,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 39,
+=======
+							["internalIndex"] = 50,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3329,7 +4363,7 @@ PrettyRepsDB = {
 							["name"] = "Tushui Pandaren",
 							["earnedValue"] = 8999,
 							["isMaxed"] = false,
-							["playerName"] = "Samoansavage",
+							["playerName"] = "Forgecraft",
 							["topValue"] = 9000,
 						}, -- [7]
 					},
@@ -3378,9 +4412,15 @@ PrettyRepsDB = {
 							["factionID"] = 1133,
 							["name"] = "Bilgewater Cartel",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 42000,
 							["topValue"] = 42000,
+=======
+							["topValue"] = 42000,
+							["earnedValue"] = 42000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [1]
 						{
 							["hasBonusRepGain"] = false,
@@ -3400,9 +4440,15 @@ PrettyRepsDB = {
 							["factionID"] = 530,
 							["name"] = "Darkspear Trolls",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 42000,
 							["topValue"] = 42000,
+=======
+							["topValue"] = 42000,
+							["earnedValue"] = 42000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [2]
 						{
 							["hasBonusRepGain"] = false,
@@ -3422,9 +4468,15 @@ PrettyRepsDB = {
 							["factionID"] = 76,
 							["name"] = "Orgrimmar",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 42000,
 							["topValue"] = 42000,
+=======
+							["topValue"] = 42000,
+							["earnedValue"] = 42000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
@@ -3444,9 +4496,15 @@ PrettyRepsDB = {
 							["factionID"] = 911,
 							["name"] = "Silvermoon City",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 42000,
 							["topValue"] = 42000,
+=======
+							["topValue"] = 42000,
+							["earnedValue"] = 42000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [4]
 						{
 							["hasBonusRepGain"] = false,
@@ -3466,9 +4524,15 @@ PrettyRepsDB = {
 							["factionID"] = 81,
 							["name"] = "Thunder Bluff",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 42000,
 							["topValue"] = 42000,
+=======
+							["topValue"] = 42000,
+							["earnedValue"] = 42000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [5]
 						{
 							["hasBonusRepGain"] = false,
@@ -3488,9 +4552,15 @@ PrettyRepsDB = {
 							["factionID"] = 68,
 							["name"] = "Undercity",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 42000,
 							["topValue"] = 42000,
+=======
+							["topValue"] = 42000,
+							["earnedValue"] = 42000,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [6]
 						{
 							["hasBonusRepGain"] = false,
@@ -3510,9 +4580,15 @@ PrettyRepsDB = {
 							["factionID"] = 1352,
 							["name"] = "Huojin Pandaren",
 							["hasRep"] = false,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["earnedValue"] = 8999,
 							["topValue"] = 9000,
+=======
+							["topValue"] = 9000,
+							["earnedValue"] = 8999,
+							["isChild"] = true,
+>>>>>>> Stashed changes
 						}, -- [7]
 					},
 					["parent"] = nil --[[ skipped recursive table ]],
@@ -3522,6 +4598,7 @@ PrettyRepsDB = {
 					["factionStandingtext"] = "Exalted",
 					["isActive"] = true,
 					["factionID"] = 67,
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["exaltedTotal"] = 7,
 					["name"] = "Horde",
@@ -3529,6 +4606,15 @@ PrettyRepsDB = {
 					["earnedValue"] = 42000,
 					["atWarWith"] = false,
 					["topValue"] = 42000,
+=======
+					["topValue"] = 42000,
+					["hasRep"] = false,
+					["name"] = "Horde",
+					["earnedValue"] = 42000,
+					["exaltedTotal"] = 7,
+					["atWarWith"] = false,
+					["isChild"] = true,
+>>>>>>> Stashed changes
 					["isHorde"] = true,
 				}, -- [17]
 				{
@@ -3542,7 +4628,11 @@ PrettyRepsDB = {
 					["isHeader"] = true,
 					["exaltedTotal"] = 3,
 					["standingID"] = 4,
+<<<<<<< Updated upstream
 					["internalIndex"] = 40,
+=======
+					["internalIndex"] = 51,
+>>>>>>> Stashed changes
 					["isExpansion"] = false,
 					["children"] = {
 						{
@@ -3566,7 +4656,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 41,
+=======
+							["internalIndex"] = 52,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["isWatched"] = false,
 							["colorIndex"] = 5,
@@ -3592,7 +4686,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 42,
+=======
+							["internalIndex"] = 53,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3618,7 +4716,11 @@ PrettyRepsDB = {
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 6,
+<<<<<<< Updated upstream
 							["internalIndex"] = 43,
+=======
+							["internalIndex"] = 54,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
@@ -3640,7 +4742,11 @@ PrettyRepsDB = {
 					["isWatched"] = false,
 					["colorIndex"] = 4,
 					["earnedValue"] = 0,
+<<<<<<< Updated upstream
 					["playerName"] = "Samoantitan",
+=======
+					["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 891,
@@ -3679,12 +4785,20 @@ PrettyRepsDB = {
 							["factionStandingtext"] = "Rank 2",
 							["isActive"] = true,
 							["factionID"] = 2010,
+<<<<<<< Updated upstream
 							["hasRep"] = false,
+=======
+							["isFriendship"] = true,
+>>>>>>> Stashed changes
 							["friendshipID"] = 2010,
 							["name"] = "Brawl'gar Arena (Season 3)",
 							["earnedValue"] = 1750,
 							["topValue"] = 2000,
+<<<<<<< Updated upstream
 							["isFriendship"] = true,
+=======
+							["hasRep"] = false,
+>>>>>>> Stashed changes
 							["isChild"] = true,
 						}, -- [1]
 						{
@@ -3707,12 +4821,20 @@ PrettyRepsDB = {
 							["factionStandingtext"] = "Rank 5",
 							["isActive"] = true,
 							["factionID"] = 1690,
+<<<<<<< Updated upstream
 							["hasRep"] = false,
+=======
+							["isFriendship"] = true,
+>>>>>>> Stashed changes
 							["friendshipID"] = 1690,
 							["name"] = "Brawl'gar Arena (Season 2)",
 							["earnedValue"] = 4250,
 							["topValue"] = 5000,
+<<<<<<< Updated upstream
 							["isFriendship"] = true,
+=======
+							["hasRep"] = false,
+>>>>>>> Stashed changes
 							["isChild"] = true,
 						}, -- [3]
 						{
@@ -3738,6 +4860,7 @@ PrettyRepsDB = {
 							["isChild"] = true,
 						}, -- [4]
 						{
+<<<<<<< Updated upstream
 							["hasBonusRepGain"] = false,
 							["description"] = "The Defilers seek to claim Arathi Basin's valuable resources for the Horde.",
 							["isExpansion"] = false,
@@ -3815,27 +4938,115 @@ PrettyRepsDB = {
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "This booming coastal city is run by Baron Revilgaz of the Blackwater Raiders.  Mortal enemies of the Bloodsail Buccaneers and part of the Steamwheedle Cartel.",
+=======
+							["hasBonusRepGain"] = false,
+							["description"] = "The Defilers seek to claim Arathi Basin's valuable resources for the Horde.",
+>>>>>>> Stashed changes
 							["isExpansion"] = false,
 							["bottomValue"] = 3000,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 45,
+=======
+							["isMaxed"] = false,
+>>>>>>> Stashed changes
 							["atWarWith"] = false,
 							["parent"] = nil --[[ skipped recursive table ]],
 							["isWatched"] = false,
 							["colorIndex"] = 5,
+<<<<<<< Updated upstream
 							["canToggleAtWar"] = true,
 							["factionStandingtext"] = "Friendly",
 							["isActive"] = true,
 							["factionID"] = 21,
 							["hasRep"] = false,
 							["isChild"] = true,
-							["name"] = "Booty Bay",
-							["earnedValue"] = 4858,
-							["isMaxed"] = false,
-							["playerName"] = "Samoansavage",
+=======
+							["playerName"] = "Samoantank",
+							["factionStandingtext"] = "Friendly",
+							["isActive"] = true,
+							["factionID"] = 510,
+							["name"] = "The Defilers",
+							["hasRep"] = false,
 							["topValue"] = 9000,
+							["earnedValue"] = 8955,
+							["isChild"] = true,
+						}, -- [5]
+						{
+							["hasBonusRepGain"] = false,
+							["description"] = "Fierce orcs of the Warsong Clan, locked in battle against the Silverwing Sentinels in Warsong Gulch.",
+							["isExpansion"] = false,
+							["bottomValue"] = 3000,
+							["isLayoutChild"] = true,
+							["isHeader"] = false,
+							["standingID"] = 5,
+							["isMaxed"] = false,
+							["atWarWith"] = false,
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+							["playerName"] = "Samoantank",
+							["factionStandingtext"] = "Friendly",
+							["isActive"] = true,
+							["factionID"] = 889,
+							["name"] = "Warsong Outriders",
+							["hasRep"] = false,
+							["topValue"] = 9000,
+							["earnedValue"] = 5620,
+							["isChild"] = true,
+						}, -- [6]
+					},
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 4,
+					["playerName"] = "Samoantank",
+					["factionStandingtext"] = "Neutral",
+					["isActive"] = true,
+					["factionID"] = 892,
+					["topValue"] = 3000,
+					["hasRep"] = false,
+					["name"] = "Horde Forces",
+					["earnedValue"] = 0,
+					["exaltedTotal"] = 5,
+					["atWarWith"] = false,
+					["isChild"] = true,
+					["isHorde"] = true,
+				}, -- [19]
+				{
+					["hasBonusRepGain"] = false,
+					["description"] = "",
+					["exaltedCount"] = 0,
+					["isExpansion"] = false,
+					["bottomValue"] = 0,
+					["isLayoutChild"] = true,
+					["isHeader"] = true,
+					["standingID"] = 4,
+					["isMaxed"] = false,
+					["children"] = {
+						{
+							["hasBonusRepGain"] = false,
+							["description"] = "This booming coastal city is run by Baron Revilgaz of the Blackwater Raiders.  Mortal enemies of the Bloodsail Buccaneers and part of the Steamwheedle Cartel.",
+							["isExpansion"] = false,
+							["bottomValue"] = 3000,
+							["isLayoutChild"] = true,
+							["isHeader"] = false,
+							["standingID"] = 5,
+							["isMaxed"] = false,
+							["atWarWith"] = false,
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+							["playerName"] = "Samoansavage",
+							["factionStandingtext"] = "Friendly",
+							["isActive"] = true,
+							["factionID"] = 21,
+							["parent"] = nil --[[ skipped recursive table ]],
+>>>>>>> Stashed changes
+							["name"] = "Booty Bay",
+							["hasRep"] = false,
+							["earnedValue"] = 4858,
+							["topValue"] = 9000,
+							["isChild"] = true,
 						}, -- [1]
 						{
 							["hasBonusRepGain"] = false,
@@ -3857,8 +5068,12 @@ PrettyRepsDB = {
 							["name"] = "Everlook",
 							["hasRep"] = false,
 							["earnedValue"] = 2679,
+<<<<<<< Updated upstream
 							["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [2]
 						{
 							["hasBonusRepGain"] = false,
@@ -3880,8 +5095,12 @@ PrettyRepsDB = {
 							["name"] = "Gadgetzan",
 							["hasRep"] = false,
 							["earnedValue"] = 2679,
+<<<<<<< Updated upstream
 							["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
@@ -3903,31 +5122,47 @@ PrettyRepsDB = {
 							["name"] = "Ratchet",
 							["hasRep"] = false,
 							["earnedValue"] = 2679,
+<<<<<<< Updated upstream
 							["isChild"] = true,
+=======
+>>>>>>> Stashed changes
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [4]
 					},
+<<<<<<< Updated upstream
 					["isChild"] = true,
 					["isWatched"] = false,
 					["colorIndex"] = 4,
 					["atWarWith"] = false,
 					["canToggleAtWar"] = true,
+=======
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isWatched"] = false,
+					["colorIndex"] = 4,
+					["playerName"] = "Samoansavage",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 169,
 					["exaltedTotal"] = 4,
+<<<<<<< Updated upstream
 					["isMaxed"] = false,
+=======
+					["topValue"] = 3000,
+>>>>>>> Stashed changes
 					["name"] = "Steamwheedle Cartel",
 					["earnedValue"] = 2679,
 					["hasRep"] = false,
-					["playerName"] = "Samoansavage",
-					["topValue"] = 3000,
+					["atWarWith"] = false,
+					["isChild"] = true,
 				}, -- [20]
 			},
 			["isExpansion"] = true,
 			["isWatched"] = false,
 			["colorIndex"] = 4,
 			["isChild"] = false,
+			["isCollapsed"] = true,
 			["canToggleAtWar"] = true,
 			["factionStandingtext"] = "Neutral",
 			["isActive"] = true,
@@ -3937,7 +5172,11 @@ PrettyRepsDB = {
 			["name"] = "Classic",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Samoantitan",
+=======
+			["playerName"] = "Samoansage",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [8]
 	},
@@ -3955,7 +5194,7 @@ PrettyRepsDB = {
 		["ShowGuild"] = true,
 	},
 	["Headers"] = {
-		["Unobtainable"] = false,
+		["Unobtainable"] = true,
 		["Guild"] = false,
 		["Favourites"] = false,
 	},

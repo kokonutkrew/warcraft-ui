@@ -1,0 +1,34 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Emerald Dream"] = {
+			["Alliance"] = {
+				["Cupkek"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Emerald Dream"] = {
+			["Alliance"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["profiles"] = {
+		["Cupkek - Emerald Dream"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

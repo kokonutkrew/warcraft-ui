@@ -1,9 +1,19 @@
 SET autoInteract "1"
+<<<<<<< Updated upstream
+=======
+SET autoDismountFlying "1"
+>>>>>>> Stashed changes
 SET flaggedTutorials "v##$##%##5##9##K##=##E##+##,##[##8##)##(##;##:##D##I##A##B##6##?##@##J##F##3"
 SET actionedAdventureJournalEntries "v"
 SET nameplateTargetRadialPosition "1"
 SET CameraKeepCharacterCentered "0"
 SET cameraDistanceMaxZoomFactor "2.6"
+<<<<<<< Updated upstream
 SET showTutorials "0"
 SET talentFrameShown "1"
 SET advJournalLastOpened "1615548196"
+=======
+SET talentFrameShown "1"
+SET petJournalTab "5"
+SET advJournalLastOpened "1620030994"
+>>>>>>> Stashed changes

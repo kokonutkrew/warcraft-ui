@@ -3,14 +3,12 @@ local fn = addon.functions
 local L = FGI:GetLocale()
 local settings = L.settings
 local size = settings.size
-local color = addon.color
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
 local fontSize = fn.fontSize
 
-local scrollBar, mainFrame, inviteTypeGRP, mainCheckBoxGRP, searchRangeGRP, mainButtonsGRP
+local mainFrame, inviteTypeGRP, mainCheckBoxGRP, searchRangeGRP, mainButtonsGRP
 
 
 
@@ -138,7 +136,7 @@ local function clearSearch()
 	interface.scanFrame.invite:SetText(format("+(%d)",0))
 	local resume = addon.search.state == "start"
 	if resume then
-		scanFrame.pausePlay.frame:Click()
+		interface.scanFrame.pausePlay.frame:Click()
 	end
 	addon.search.inviteList = {}
 	addon.search.state = "stop"
@@ -153,7 +151,7 @@ local function clearSearch()
 	
 	
 	if resume then
-		C_Timer.After(FGI_SCANINTERVALTIME+1, function() scanFrame.pausePlay.frame:Click() end)
+		C_Timer.After(FGI_SCANINTERVALTIME+1, function() interface.scanFrame.pausePlay.frame:Click() end)
 	else
 		addon.search.state = "stop"
 	end
@@ -238,9 +236,21 @@ btnText(frame)
 frame:SetWidth(size.settingsBtn)
 frame:SetHeight(mainButtonsGRP.startScan.frame:GetHeight())
 frame.frame:SetScript("OnClick", function()
-	InterfaceOptionsFrame_OpenToCategory(interface.settings)
-	InterfaceOptionsFrame_OpenToCategory(interface.settings.Blacklist)
-	InterfaceOptionsFrame_OpenToCategory(interface.settings)
+	interface.settings:Show()
+	interface.settings.ShowContent('Main')
+	interface.mainFrame:Hide()
+end)
+mainButtonsGRP:AddChild(frame)
+
+mainButtonsGRP.statisticBtn = GUI:Create("Button")
+local frame = mainButtonsGRP.statisticBtn
+frame:SetText(L["Статистика"])
+-- fontSize(frame.text)
+btnText(frame)
+frame:SetWidth(size.statisticBtn)
+frame:SetHeight(mainButtonsGRP.startScan.frame:GetHeight())
+frame.frame:SetScript("OnClick", function()
+	interface.graphFrame:Show()
 	interface.mainFrame:Hide()
 end)
 mainButtonsGRP:AddChild(frame)
@@ -290,14 +300,14 @@ searchRangeGRP:AddChild(frame)
 
 searchRangeGRP.lvlRangeMax = GUI:Create("TLabel")
 local frame = searchRangeGRP.lvlRangeMax
-frame:SetText(FGI_MAXLVL)
+frame:SetText(addon.maxLevel)
 frame.label:SetJustifyH("LEFT")
 frame:SetWidth(searchRangeGRP.lvlRangeMin.frame:GetWidth())
 fontSize(frame.label)
 frame.frame:SetScript("OnMouseWheel",function(self,delta)
 	local mod = IsShiftKeyDown() and 5 or 1
 	if delta > 0 then
-		DB.global.highLimit = math.min(FGI_MAXLVL, DB.global.highLimit + mod)
+		DB.global.highLimit = math.min(addon.maxLevel, DB.global.highLimit + mod)
 	else
 		DB.global.highLimit = math.max(DB.global.lowLimit, DB.global.highLimit - mod)
 	end
@@ -311,12 +321,7 @@ local frame = mainFrame.searchInfo
 frame:SetWidth(350)
 frame.label:SetJustifyH("LEFT")
 fontSize(frame.label, nil, 12)
-frame.placeholder = [[Statistics.
-Total unique players found: %d
-Invitations sent: %d
-Invitations accepted: %d
-Players Filtered by Custom Filters: %d
-]]
+frame.placeholder = L['Статистика поиска']
 frame.update = function(t)
 	local unique, sended , invited, filtered = unpack(t)
 	frame:SetText(format(frame.placeholder, unique, sended , invited, filtered))
@@ -409,6 +414,9 @@ frame:SetScript('OnEvent', function()
 	
 	mainButtonsGRP.settingsBtn:ClearAllPoints()
 	mainButtonsGRP.settingsBtn:SetPoint("LEFT", mainButtonsGRP.clear.frame, "RIGHT", 2, 0)
+	
+	mainButtonsGRP.statisticBtn:ClearAllPoints()
+	mainButtonsGRP.statisticBtn:SetPoint("LEFT", mainButtonsGRP.settingsBtn.frame, "RIGHT", 2, 0)
 	
 	
 	interface.confirmClearFrame:Hide()

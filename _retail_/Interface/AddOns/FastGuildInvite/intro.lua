@@ -11,24 +11,20 @@ local L = {
 		support = "Ниже вы можете найти ссылки если вы хотите материально поддержать автора.",
 		laterButton = "Напомнить при обновлении аддона",
 		neverButton = "Больше не показывать",
-		
-		
-		updates = {
-			"Добавлен фильтр по RIO score и фильтр по прогрессу рейда (необходим аддон RaiderIO)",
-		},
-		
-		
+
+
+		updates = {},
+
+
 	},
 	enUS = {
 		head = "Thanks for helping make the addon better.",
 		support = "Below you can find links if you want to financially support the author.",
 		laterButton = "Remind me when updating addon",
 		neverButton = "Do not show again",
-		
-		
-		updates = {
-			"Added filter by RIO score and filter by raid progress (RaiderIO addon required)",
-		},
+
+
+		updates = {},
 	}
 }
 L = GetLocale() == "ruRU" and L.ruRU or L.enUS
@@ -49,6 +45,7 @@ local function EditBoxChange(frame)
 	end)
 end
 
+local intro
 
 do		--	intro
 interface.intro = GUI:Create("ClearFrame")
@@ -137,12 +134,30 @@ frame:SetWidth(intro.frame:GetWidth() - 40)
 frame:SetPoint("BOTTOMLEFT", intro.discordE.frame, "TOPLEFT", 0, 0)
 intro:AddChild(frame)
 
+intro.streamelementsE = GUI:Create("EditBox")
+local frame = intro.streamelementsE
+frame:SetWidth(250)
+frame:DisableButton(true)
+EditBoxChange(frame)
+frame:SetPoint("BOTTOMLEFT", intro.discordE.frame, "TOPLEFT", 0, 20)
+frame:SetText(color.blue.."https://streamelements.com/knoot0279/tip")
+intro:AddChild(frame)
+
+intro.streamelementsL = GUI:Create("TLabel")
+local frame = intro.streamelementsL
+frame:SetText(color.blue.."More options for support")
+fontSize(frame.label)
+frame.label:SetJustifyH("LEFT")
+frame:SetWidth(intro.frame:GetWidth() - 40)
+frame:SetPoint("BOTTOMLEFT", intro.streamelementsE.frame, "TOPLEFT", 0, 0)
+intro:AddChild(frame)
+
 intro.patreonE = GUI:Create("EditBox")
 local frame = intro.patreonE
 frame:SetWidth(250)
 frame:DisableButton(true)
 EditBoxChange(frame)
-frame:SetPoint("BOTTOMLEFT", intro.discordL.frame, "TOPLEFT", 0, 20)
+frame:SetPoint("BOTTOMLEFT", intro.streamelementsE.frame, "TOPLEFT", 0, 20)
 frame:SetText(color.orange.."https://www.patreon.com/FastGuildInvite")
 intro:AddChild(frame)
 
@@ -160,7 +175,7 @@ local frame = intro.paypalE
 frame:SetWidth(250)
 frame:DisableButton(true)
 EditBoxChange(frame)
-frame:SetPoint("BOTTOMLEFT", intro.patreonL.frame, "TOPLEFT", 0, 20)
+frame:SetPoint("BOTTOMLEFT", intro.patreonE.frame, "TOPLEFT", 0, 20)
 frame:SetText(color.blue.."https://www.paypal.me/Knoot")
 intro:AddChild(frame)
 
@@ -183,9 +198,8 @@ local frame = CreateFrame('Frame')
 frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
-	
-	
-	if not DB.global.introShow or DB.global.introShow == addon.version or tonumber(FGI.version) == nil then
+
+	if not DB.global.introShow or DB.global.introShow == addon.version or tonumber(FGI.version) == nil or #L.updates == 0 then
 		intro:Hide()
 	else
 		local str = ""

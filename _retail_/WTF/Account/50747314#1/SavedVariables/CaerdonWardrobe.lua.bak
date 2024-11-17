@@ -12,8 +12,14 @@ CaerdonWardrobeConfig = {
 			["GuildBank"] = true,
 		},
 	},
+<<<<<<< Updated upstream
 	["Debug"] = {
 		["Enabled"] = false,
+=======
+	["Version"] = 11,
+	["Debug"] = {
+		["Enabled"] = true,
+>>>>>>> Stashed changes
 	},
 	["Icon"] = {
 		["ShowLearnableByOther"] = {
@@ -27,9 +33,21 @@ CaerdonWardrobeConfig = {
 		["ShowLearnable"] = {
 			["Auction"] = true,
 			["GuildBank"] = true,
+<<<<<<< Updated upstream
 			["SameLookDifferentItem"] = false,
 			["BankAndBags"] = true,
 			["Merchant"] = true,
+=======
+<<<<<<<< Updated upstream:_retail_/WTF/Account/384591484#1/SavedVariables/CaerdonWardrobe.lua.bak
+			["SameLookDifferentItem"] = false,
+			["BankAndBags"] = true,
+			["Merchant"] = true,
+========
+			["SameLookDifferentItem"] = true,
+			["Merchant"] = true,
+			["BankAndBags"] = true,
+>>>>>>>> Stashed changes:_retail_/WTF/Account/50747314#1/SavedVariables/CaerdonWardrobe.lua.bak
+>>>>>>> Stashed changes
 		},
 		["EnableAnimation"] = true,
 		["Position"] = "TOPLEFT",
@@ -46,5 +64,8 @@ CaerdonWardrobeConfig = {
 			["Reagents"] = true,
 		},
 	},
+<<<<<<< Updated upstream
 	["Version"] = 11,
+=======
+>>>>>>> Stashed changes
 }

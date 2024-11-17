@@ -18,16 +18,28 @@ LeaMapsDB = {
 	["MainPanelR"] = "CENTER",
 	["CoordsBackground"] = "On",
 	["RevealMap"] = "On",
+<<<<<<< Updated upstream
 	["minimapPos"] = 204,
 	["ShowIcons"] = "On",
 	["HideTownCity"] = "On",
 	["ShowMinimapIcon"] = "On",
 	["RememberZoom"] = "On",
+=======
+	["MainPanelA"] = "CENTER",
+	["ShowIcons"] = "On",
+	["minimapPos"] = 204,
+	["ShowMinimapIcon"] = "On",
+	["MapScale"] = 1,
+>>>>>>> Stashed changes
 	["hide"] = false,
 	["CoordsLargeFont"] = "Off",
 	["MainPanelY"] = 0,
 	["MaxMapPosY"] = 0,
+<<<<<<< Updated upstream
 	["NoMapBorder"] = "On",
+=======
+	["NoMapBorder"] = "Off",
+>>>>>>> Stashed changes
 	["FirstRunMessageSeen"] = true,
 	["MaxMapPosX"] = 0,
 	["tintBlue"] = 1,

@@ -5,6 +5,10 @@ local settings -- will become savedvar
 local profilingCPU = nil -- becomes true if cpu profiling is enabled
 local updateInfo = true -- also becomes true in ADDON_LOADED, to know whether to look for new addons in GatherUsage
 local addonInfo = {} -- unordered table of all addons and their usage, indexed by addonIndex
+<<<<<<< Updated upstream
+=======
+_addonInfo = addonInfo
+>>>>>>> Stashed changes
 -- [addonIndex] = {
 --		name = string, the folder name of the addon
 --		title = string, the display name of the addon (color codes stripped out)
@@ -35,6 +39,11 @@ local sortOrder -- will be the sort order (1=name, 2=mem, 3=cpu; negative for re
 local updateTimer = 0 -- elapsed timer for continuous update (play/pause)
 local updateFrequency = 1 -- seconds between updates during continuous updates
 
+<<<<<<< Updated upstream
+=======
+local TWW_CLIENT = select(4,GetBuildInfo())>=110000
+
+>>>>>>> Stashed changes
 -- Bindings.xml globals
 BINDING_HEADER_ADDONUSAGE = "Addon Usage"
 BINDING_NAME_ADDONUSAGE_TOGGLE = "Toggle Addon Usage"
@@ -42,6 +51,10 @@ BINDING_NAME_ADDONUSAGE_TOGGLE = "Toggle Addon Usage"
 function addon:Toggle()
 	addon:SetShown(not addon:IsVisible())
 end
+<<<<<<< Updated upstream
+=======
+AddonUsageToggleWindow = addon.Toggle
+>>>>>>> Stashed changes
 
 function addon:OnEvent(event,...)
 	if addon[event] then
@@ -110,7 +123,11 @@ function addon:PLAYER_LOGIN()
 	C_Timer.After(0.25,addon.ResetUsage)
 
 	addon.CPUCheckButton:SetChecked(profilingCPU)
+<<<<<<< Updated upstream
 	addon.CPUCheckButton.text:SetText("CPU Usage")
+=======
+	addon.CPUCheckButton.Text:SetText("CPU Usage")
+>>>>>>> Stashed changes
 
 	addon:RegisterEvent("ADDON_LOADED")
 
@@ -127,13 +144,46 @@ function addon:ResetUsage()
 	addon:Update()
 end
 
+<<<<<<< Updated upstream
+=======
+function addon:GetNumAddOns()
+	if TWW_CLIENT then
+		return C_AddOns.GetNumAddOns()
+	else
+		return GetNumAddOns()
+	end
+end
+
+function addon:IsAddOnLoaded(index)
+	if TWW_CLIENT then
+		return C_AddOns.IsAddOnLoaded(index)
+	else
+		return IsAddOnLoaded(index)
+	end
+end
+
+function addon:GetAddOnInfo(index)
+	if TWW_CLIENT then
+		return C_AddOns.GetAddOnInfo(index)
+	else
+		return GetAddOnInfo(index)
+	end
+end
+
+>>>>>>> Stashed changes
 -- fills addonInfo, addonIndexes and totals from the currently loaded addons and their usage
 function addon:GatherUsage()
 	-- look for any new addons loaded (first run or any load on demand after first run)
 	if updateInfo then
+<<<<<<< Updated upstream
 		for i=1,GetNumAddOns() do
 			if not addonInfo[i] and IsAddOnLoaded(i) then
 				local name,title = GetAddOnInfo(i)
+=======
+		for i=1,addon:GetNumAddOns() do
+			if not addonInfo[i] and addon:IsAddOnLoaded(i) then
+				local name,title = addon:GetAddOnInfo(i)
+>>>>>>> Stashed changes
 				title = title:gsub("\124c%x%x%x%x%x%x%x%x",""):gsub("\124r",""):gsub("[<>]","") -- strip color codes from titles
 				addonInfo[i] = {name=name,title=title}
 				addonIndexes[name] = i
@@ -303,7 +353,11 @@ function addon:PostUpdate()
 			widthCPU = addon:GetCellWidth(formatNumber(maxCPUValue,patternCPU):gsub("%d","0"))
 		end
 		-- update width of memory and cpu headers
+<<<<<<< Updated upstream
 		local widthMemColumn = widthMem+14+widthPercent
+=======
+		local widthMemColumn = widthMem+24+widthPercent
+>>>>>>> Stashed changes
 		local widthCPUColumn = 0
 		addon.MemHeader:SetWidth(widthMemColumn)
 		addon.Totals.Mem:SetWidth(widthMemColumn-4)
@@ -335,7 +389,11 @@ end
 function addon:UpdateMinResize()
 	-- 200 is the width of the window outside the cpu and memory columns
 	local minWidth = addon.Totals:GetWidth() + 200
+<<<<<<< Updated upstream
 	addon:SetMinResize(minWidth,200) -- this 200 is the height and no relationship to width
+=======
+	addon:SetResizeBounds(minWidth,200)
+>>>>>>> Stashed changes
 	if addon:GetWidth()<minWidth then
 		addon:SetWidth(minWidth)
 		addon:SetUserPlaced(true)

@@ -3,14 +3,14 @@ local CustomEventTrigger = "CAERDONITEM_TESTS_DATA_LOADED"
 local Tests
 local frame
 
-if IsAddOnLoaded("WoWUnit") then
+if C_AddOns.IsAddOnLoaded("WoWUnit") then
     frame = CreateFrame("frame")
     AreEqual, Exists, Replace, IsTrue, IsFalse = WoWUnit.AreEqual, WoWUnit.Exists, WoWUnit.Replace, WoWUnit.IsTrue, WoWUnit.IsFalse
     Tests = WoWUnit("CaerdonItem Tests", CustomEventTrigger)
 
-    frame:RegisterEvent "PLAYER_LOGIN"
+    frame:RegisterEvent "FIRST_FRAME_RENDERED"
     frame:SetScript("OnEvent", function(this, event, ...)
-        if event == "PLAYER_LOGIN" then
+        if event == "FIRST_FRAME_RENDERED" then
             local continuableContainer = ContinuableContainer:Create();
             continuableContainer:AddContinuable(CaerdonItem:CreateFromItemID(6125));
         
@@ -70,7 +70,6 @@ function Tests:DataChangeCanary()
 
     local debugUse = info.forDebugUseOnly
     IsTrue(type(debugUse) == "table")
-    IsTrue(debugUse.shouldSearchSources)
     IsFalse(debugUse.currentSourceFound)
     IsFalse(debugUse.otherSourceFound)
     IsTrue(debugUse.isInfoReady)
@@ -78,15 +77,16 @@ function Tests:DataChangeCanary()
     AreEqual(1, #debugUse.appearanceSources)
     
     local appearanceSource = debugUse.appearanceSources[1]
+    AreEqual(0, appearanceSource.itemSubTypeID)
     AreEqual(5, appearanceSource.invType)
     AreEqual(1979, appearanceSource.visualID)
     IsFalse(appearanceSource.isCollected)
     AreEqual(2260, appearanceSource.sourceID)
     IsFalse(appearanceSource.isHideVisual)
     AreEqual(6125, appearanceSource.itemID)
-    AreEqual("Brawler's Harness", appearanceSource.name)
-    AreEqual(0, appearanceSource.itemModID)
     AreEqual(5, appearanceSource.categoryID)
+    AreEqual(0, appearanceSource.itemModID)
+    AreEqual("Brawler's Harness", appearanceSource.name)
     AreEqual(2, appearanceSource.quality)
 
     -- See if there is any new, unexpected data coming from WoW

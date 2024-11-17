@@ -13,8 +13,8 @@ function ZygorMixin:Init()
     hooksecurefunc(self.WorldQuests, 'QueueDetailsLoad', function(...) self:RefreshButtons(...) end)
 end
 
-function ZygorMixin:SetTooltipItem(tooltip, item, locationInfo)
-	tooltip:SetHyperlink(item:GetItemLink())
+function ZygorMixin:GetTooltipData(item, locationInfo)
+	return C_TooltipInfo.GetHyperlink(item:GetItemLink())
 end
 
 function ZygorMixin:Refresh()
@@ -23,6 +23,15 @@ end
 
 function ZygorMixin:GetDisplayInfo(button, item, feature, locationInfo, options, mogStatus, bindingStatus)
 	return {
+		bindingStatus = {
+			shouldShow = true
+		},
+		ownIcon = {
+			shouldShow = true
+		},
+		otherIcon = {
+			shouldShow = true
+		},
 		questIcon = {
 			shouldShow = true
 		},
@@ -121,9 +130,14 @@ function ZygorMixin:RefreshButtons()
 end
 
 local Version = nil
-if select(4, GetAddOnInfo(addonName)) then
-	if IsAddOnLoaded(addonName) then
-	    Version = GetAddOnMetadata(addonName, "Version")
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+	if C_AddOns.IsAddOnLoaded(addonName) then
+	    Version = C_AddOns.GetAddOnMetadata(addonName, "Version")
 		CaerdonWardrobe:RegisterFeature(ZygorMixin)
+		isActive = true
 	end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

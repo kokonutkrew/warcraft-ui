@@ -1,6 +1,46 @@
+<<<<<<< Updated upstream
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+=======
+VER 3 0100000000000004 "Bear Form" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [form:1] survival instincts
+/use [noform:1] bear form
+END
+VER 3 0100000000000003 "Cat Form" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [form:2] travel form
+/use cat form
+END
+VER 3 010000000000000B "KillSwitch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castrandom 13, tiger's fury, berserk, 
+END
+VER 3 0100000000000009 "Spec Spell" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:1] solar beam; [spec:2] skull bash; [spec:3] skull bash; [spec:4] ursol's vortex
+END
+VER 3 0100000000000005 "Talent 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:2/1] Tiger Dash; [talent:2/2] Renewal; [talent:2/3] Wild Charge
+END
+VER 3 0100000000000006 "Talent 3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nospec:1,talent:3/1] Typhoon; [spec:1,talent:3/1][spec:3/4,talent:3/2] Maim; [spec:1/2,talent:3/2][spec:4,talent:3/3] Incapacitating Roar; [nospec:4,talent:3/3] Ursol's Vortex
+END
+VER 3 0100000000000007 "Talent 4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:4/1] Mighty Bash; [talent:4/2] Mass Entanglement; [talent:4/3] Heart of the Wild
+END
+VER 3 0100000000000008 "Talent 6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/1] scent of blood; [talent:6/2] brutal slash; [talent:6/3] primal wrath
+END
+VER 3 010000000000000A "Trinkets" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence 13, 14
+>>>>>>> Stashed changes
 END

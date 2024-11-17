@@ -1,26 +1,19 @@
 local addon = FGI
 local fn = addon.functions
 local L = FGI:GetLocale()
-local settings = L.settings
-local size = settings.size
-local color = addon.color
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
 local fontSize = fn.fontSize
 
 local CustomInterface
 
 local w,h = 623-20, 568-20
-interface.settings.CustomInterface.content = GUI:Create("SimpleGroup")
-CustomInterface = interface.settings.CustomInterface.content
-CustomInterface:SetWidth(w)
-CustomInterface:SetHeight(h)
-CustomInterface.frame:SetParent(interface.settings.CustomInterface)
+interface.settings.CustomInterface = GUI:Create("GroupFrame")
+CustomInterface = interface.settings.CustomInterface
 CustomInterface:SetLayout("NIL")
-CustomInterface:SetPoint("TOPLEFT", interface.settings.CustomInterface, "TOPLEFT", 10, -10)
-
+interface.settings:AddChild(CustomInterface)
+interface.settings.AddContent('CustomInterface', L["Настроить интерфейс"], CustomInterface, w-20, h-20)
 
 local scanFrame = GUI:Create("SimpleGroup")
 scanFrame:SetWidth(w)
@@ -32,7 +25,7 @@ scanFrame:SetPoint("TOPLEFT", CustomInterface.frame, "TOPLEFT", 0, 0)
 
 scanFrame.title = GUI:Create("Label")
 local frame = scanFrame.title
-frame:SetText("Scan Frame")
+frame:SetText(L["Окно поиска"])
 fontSize(frame.label)
 frame:SetWidth(w)
 frame:SetPoint("TOPLEFT", scanFrame.frame, "TOPLEFT", 0, 0)

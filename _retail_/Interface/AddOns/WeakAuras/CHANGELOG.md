@@ -1,34 +1,49 @@
-# [3.2.2](https://github.com/WeakAuras/WeakAuras2/tree/3.2.2) (2021-03-14)
+# [5.17.5](https://github.com/WeakAuras/WeakAuras2/tree/5.17.5) (2024-11-06)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/3.2.1...3.2.2)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/5.17.4...5.17.5)
 
 ## Highlights
 
- - DBM triggers rework
-- Bug fixes 
+- cataclysm classic: fixed spec load option dropdown ordering
+- custom code: aura_env.saved no longer wipes on update if user accepts "display" category
+  - 🚨 note - since most people don't fiddle with the defaults when updating auras, this effectively meant that aura_env.saved was always wiped on update.
+    It's possible that some authors of custom code have come to rely on this to not have to fixup old saved data with custom code updates, please fix your code if so!
+- other minor fixes
 
 ## Commits
 
-InfusOnWoW (2):
+InfusOnWoW (4):
 
-- Fix aura_env being unavailable in some condition checks
-- Fix Legendary ID mapping
+- BT2: Treat Auras with expirationTime == 0 as having an unknown time
+- Temporary Enchants: Use WEAPON_ENCHANGT_CHANGED on retail
+- Update Atlas File List from wago.tools
+- Update Discord List
 
-Stanzilla (5):
+Stanzilla (1):
 
-- Publish Classic to Wago Addons as well
-- Publish Retail to Wago Addons as well
-- Update WeakAurasModelPaths from wow.tools
-- Update WeakAurasModelPaths from wow.tools
-- Update WeakAurasModelPaths from wow.tools
+- Update WeakAurasModelPaths from wago.tools
 
-mrbuds (7):
+Zachary Smith (1):
 
-- fix nameFunc for "Cooldown Ready (Equipment Slot)" trigger fixes #2976
-- set tocversion as an internal field for import diff
-- add DBT (DBM options) to .luacheckrc
-- DBM bars options table was moved
-- handle BigWigs_PauseBar and BigWigs_ResumeBar events
-- handle DBM_TimerPause & DBM_TimerResume callbacks fixes #2951
-- add state.paused support for timed progress auras
+- New Mage Spell Alerts (#5523)
+
+dependabot[bot] (1):
+
+- Bump cbrgm/mastodon-github-action from 2.1.8 to 2.1.9
+
+emptyrivers (1):
+
+- fix recurseDiff ignore algorithm
+
+mrbuds (2):
+
+- bump minitalent minor
+- Rename WeakAurasMiniTalent widget file for retail from DF to TWW
+
+nullKomplex (4):
+
+- Sort Specializations on the user's end.
+- Allow Multiselect Load Options to use a sort order.
+- Remove Cataclysm Classic offset on specializations.
+- Allow the Select Talent button to close the MiniTalent pane.
 

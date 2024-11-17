@@ -34,7 +34,7 @@ addon.healthCheck = true
 
 -- Sound
 local media = LibStub("LibSharedMedia-3.0")
-media:Register("sound", "BugSack: Fatality", "Interface\\AddOns\\BugSack\\Media\\error.ogg")
+media:Register("sound", "BugSack: Fatality", "Interface\\AddOns\\"..addonName.."\\Media\\error.ogg")
 
 -----------------------------------------------------------------------
 -- Utility
@@ -47,7 +47,11 @@ do
 		if not lastError or GetTime() > (lastError + 2) then
 			if not addon.db.mute then
 				local sound = media:Fetch("sound", addon.db.soundMedia)
-				PlaySoundFile(sound)
+				if addon.db.useMaster then
+					PlaySoundFile(sound, "Master")
+				else
+					PlaySoundFile(sound)
+				end
 			end
 			if addon.db.chatframe then
 				print(L["There's a bug in your soup!"])
@@ -118,6 +122,8 @@ do
 		if type(sv.chatframe) ~= "boolean" then sv.chatframe = false end
 		if type(sv.soundMedia) ~= "string" then sv.soundMedia = "BugSack: Fatality" end
 		if type(sv.fontSize) ~= "string" then sv.fontSize = "GameFontHighlight" end
+		if type(sv.altwipe) ~= "boolean" then sv.altwipe = false end
+		if type(sv.useMaster) ~= "boolean" then sv.useMaster = false end
 		addon.db = sv
 
 		-- Make sure we grab any errors fired before bugsack loaded.
@@ -136,8 +142,12 @@ do
 			if msg == "show" then
 				addon:OpenSack()
 			else
-				InterfaceOptionsFrame_OpenToCategory(addonName)
-				InterfaceOptionsFrame_OpenToCategory(addonName)
+				if InterfaceOptionsFrame_OpenToCategory then
+					InterfaceOptionsFrame_OpenToCategory(addonName)
+					InterfaceOptionsFrame_OpenToCategory(addonName)
+				else
+					Settings.OpenToCategory(addon.settingsCategory.ID)
+				end
 			end
 		end
 		SLASH_BugSack1 = "/bugsack"
@@ -179,22 +189,22 @@ end
 do
 	local function colorStack(ret)
 		ret = tostring(ret) or "" -- Yes, it gets called with nonstring from somewhere /mikk
-		ret = ret:gsub("[%.I][%.n][%.t][%.e][%.r]face\\", "")
-		ret = ret:gsub("%.?%.?%.?\\?AddOns\\", "")
+		ret = ret:gsub("[%.I][%.n][%.t][%.e][%.r]face/", "")
+		ret = ret:gsub("%.?%.?%.?/?AddOns/", "")
 		ret = ret:gsub("|([^chHr])", "||%1"):gsub("|$", "||") -- Pipes
 		ret = ret:gsub("<(.-)>", "|cffffea00<%1>|r") -- Things wrapped in <>
 		ret = ret:gsub("%[(.-)%]", "|cffffea00[%1]|r") -- Things wrapped in []
 		ret = ret:gsub("([\"`'])(.-)([\"`'])", "|cff8888ff%1%2%3|r") -- Quotes
 		ret = ret:gsub(":(%d+)([%S\n])", ":|cff00ff00%1|r%2") -- Line numbers
-		ret = ret:gsub("([^\\]+%.lua)", "|cffffffff%1|r") -- Lua files
+		ret = ret:gsub("([^/]+%.lua)", "|cffffffff%1|r") -- Lua files
 		return ret
 	end
 	addon.ColorStack = colorStack
 
 	local function colorLocals(ret)
 		ret = tostring(ret) or "" -- Yes, it gets called with nonstring from somewhere /mikk
-		ret = ret:gsub("[%.I][%.n][%.t][%.e][%.r]face\\", "")
-		ret = ret:gsub("%.?%.?%.?\\?AddOns\\", "")
+		ret = ret:gsub("[%.I][%.n][%.t][%.e][%.r]face/", "")
+		ret = ret:gsub("%.?%.?%.?/?AddOns/", "")
 		ret = ret:gsub("|(%a)", "||%1"):gsub("|$", "||") -- Pipes
 		ret = ret:gsub("> %@(.-):(%d+)", "> @|cffeda55f%1|r:|cff00ff00%2|r") -- Files/Line Numbers of locals
 		ret = ret:gsub("(%s-)([%a_%(][%a_%d%*%)]+) = ", "%1|cffffff80%2|r = ") -- Table keys

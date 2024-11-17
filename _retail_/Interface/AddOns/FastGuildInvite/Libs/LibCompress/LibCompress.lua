@@ -6,7 +6,7 @@
 -- Email : sheets.jeff@gmail.com and galmok@gmail.com
 -- Licence: GPL version 2 (General Public License)
 -- Revision: $Revision: 83 $
--- Date: $Date: 2018-07-03 14:33:48 +0000 (Tue, 03 Jul 2018) $
+-- Date: $Date: 2018-07-03 17:33:48 +0300 (Вт, 03 июл 2018) $
 ----------------------------------------------------------------------------------
 
 

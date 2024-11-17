@@ -13,11 +13,11 @@ function LiteBagMixin:Init()
     LiteBag_AddUpdateEvent('TRANSMOG_COLLECTION_UPDATED')
 end
 
-function LiteBagMixin:SetTooltipItem(tooltip, item, locationInfo)
+function LiteBagMixin:GetTooltipData(item, locationInfo)
 	if locationInfo.bag == BANK_CONTAINER then
-		local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
+		return C_TooltipInfo.GetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
 	else
-		local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetBagItem(locationInfo.bag, locationInfo.slot)
+		return C_TooltipInfo.GetBagItem(locationInfo.bag, locationInfo.slot)
 	end
 end
 
@@ -30,10 +30,6 @@ function LiteBagMixin:UpdateButton(button)
 	local slot = button:GetID()
 
 	local options = {
-		showMogIcon=true, 
-		showBindStatus=true,
-		showSellables=true,
-		iconPosition="TOPRIGHT" 
 	}
 
 	local item = CaerdonItem:CreateFromBagAndSlot(bag, slot)
@@ -41,9 +37,14 @@ function LiteBagMixin:UpdateButton(button)
 end
 
 local Version = nil
-if select(4, GetAddOnInfo(addonName)) then
-	if IsAddOnLoaded(addonName) then
-		Version = GetAddOnMetadata(addonName, "Version")
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+	if C_AddOns.IsAddOnLoaded(addonName) then
+		Version = C_AddOns.GetAddOnMetadata(addonName, "Version")
 		CaerdonWardrobe:RegisterFeature(LiteBagMixin)
+		isActive = true
 	end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

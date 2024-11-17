@@ -1,5 +1,6 @@
 
 CoreProfileDB = {
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
@@ -7141,3 +7142,543 @@ ISBoxerProfileDB = {
 		},
 	},
 }
+=======
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+CommunicationsProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+},
+["Herbcraft - Area 52"] = {
+},
+},
+}
+TeamProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+["master"] = "Samoanskully-Area52",
+["newTeamList"] = {
+["Samoanskully-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Samoanskully-Area52",
+["online"] = true,
+},
+},
+},
+},
+["Herbcraft - Area 52"] = {
+["master"] = "Herbcraft-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Herbcraft-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Herbcraft-Area52",
+["online"] = true,
+},
+},
+},
+},
+},
+}
+TagProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["tagList"] = {
+["Samoanskully-Area52"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["tagList"] = {
+["Herbcraft-Area52"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+},
+}
+MessageProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+InformationProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+InformationClassicProfileDB = nil
+DisplayTeamProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+FollowProfileDB = nil
+GuildProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+InteractionProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+ItemUseProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+},
+}
+PurchaseProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+QuestProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+QuestWatcherProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+SellProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+TalkProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+ToonProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+TradeProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+MailProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+BankProfileDB = {
+["profileKeys"] = {
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+},
+["profiles"] = {
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+},
+}
+ISBoxerProfileDB = nil
+>>>>>>> Stashed changes

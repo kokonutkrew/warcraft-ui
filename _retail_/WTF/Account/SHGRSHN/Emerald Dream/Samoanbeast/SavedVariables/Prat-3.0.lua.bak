@@ -21,12 +21,516 @@ Prat3CharDB = {
 			["ChatFrame3EditBox"] = {
 			},
 			["ChatFrame1EditBox"] = {
+<<<<<<< Updated upstream
+=======
+				"/p sry we didnt complete", -- [1]
+				"/p lets call it", -- [2]
+				"/p well sry guys", -- [3]
+				"/p are you dodging tornadoes?", -- [4]
+				"/p im fairly impressed that we have 4 manned this trash", -- [5]
+				"/p it was the dks key", -- [6]
+				"/p ya me either", -- [7]
+				"/p welp", -- [8]
+				"/p hmm ok", -- [9]
+				"/p i think the dk is afk", -- [10]
+				"/p ok", -- [11]
+				"/p this wayu", -- [12]
+				"/p ok hex something", -- [13]
+				"/p /dbm ppull 5", -- [14]
+				"/p perfect", -- [15]
+				"/p any of us kyrian?", -- [16]
+				"/p hello everyone", -- [17]
+				"/p leonidas the only one interuptting", -- [18]
+				"/p watch your aggro", -- [19]
+				"/s interupt pls", -- [20]
+				"/s interupts", -- [21]
+				"/s worst time to dc", -- [22]
+				"/cw Bronzeknight-Kel'Thuzad inv pls", -- [23]
+				"/raid Doesnt reset unless each person tags it", -- [24]
+				"/raid ty", -- [25]
+				"/g lemme get on shammy first", -- [26]
+				"/g congrats", -- [27]
+				"/g then I can hop on a healer", -- [28]
+				"/g checking vault real quick", -- [29]
+				"/g cool", -- [30]
+				"/g Are there very many groups now?", -- [31]
+				"/g wasnt as many as I thought there would be", -- [32]
+				"/g I was looking for mythic raid earlier", -- [33]
+				"/g lol", -- [34]
+				"/g hello*", -- [35]
+				"/g hell samuel", -- [36]
+				"/s slow or stun", -- [37]
+				"/s cant taunt him", -- [38]
+				"/s misclick", -- [39]
+				"/cw Xaphanos-Kel'Thuzad you take boss first", -- [40]
+				"/cw Xaphanos-Kel'Thuzad you plan on main tanking adds or boss?", -- [41]
+				"/raid Yes", -- [42]
+				"/p ty", -- [43]
+				"/p same to you guys", -- [44]
+				"/p nice work", -- [45]
+				"/p the entire fight", -- [46]
+				"/p I never leave melee range", -- [47]
+				"/p two*", -- [48]
+				"/p well we had to circles", -- [49]
+				"/p please let me solo soak the circle", -- [50]
+				"/p yes", -- [51]
+				"/p but what does that have to do with melee", -- [52]
+				"/p dont stand in the middloe I get that", -- [53]
+				"/p im not sure I understand", -- [54]
+				"/p r?", -- [55]
+				"/p ok", -- [56]
+				"/p lust on start?", -- [57]
+				"/p we can do this", -- [58]
+				"/p I see others in the circle", -- [59]
+				"/p I think im supposed to solo soak it too", -- [60]
+				"/p she spawned so many adds", -- [61]
+				"/p ok", -- [62]
+				"/p did we get bad rng or what?", -- [63]
+				"/p r?", -- [64]
+				"/p so close", -- [65]
+				"/p the slimes hit very hard this week", -- [66]
+				"/p did those little guys get feared or something?", -- [67]
+				"/p i broke 2nd slime by getting to close I think", -- [68]
+				"/p kill evenly", -- [69]
+				"/p bolstering", -- [70]
+				"/p ok", -- [71]
+				"/p slimes?", -- [72]
+				"/p whos ccing which slimes", -- [73]
+				"/p hello", -- [74]
+				"/s /reload", -- [75]
+				"/cw Orliya-MoonGuard ty!", -- [76]
+				"/p I hit the barel", -- [77]
+				"/p but that one was on me", -- [78]
+				"/p Im not sure who pulled the first", -- [79]
+				"/p its not ideal", -- [80]
+				"/p mana break", -- [81]
+				"/p alright, knob first slime tonz second?", -- [82]
+				"/p is it only me and the healer that can cc slimes?", -- [83]
+				"/p im at stone", -- [84]
+				"/p who can cc the first slime?", -- [85]
+				"/p same", -- [86]
+				"/rw dont fall off", -- [87]
+				"/rw /dbm pull 8", -- [88]
+				"/rw and phase 3", -- [89]
+				"/rw on pull", -- [90]
+				"/rw hero twice in this fight", -- [91]
+				"/rw Tranmar", -- [92]
+				"/rw so interupts...", -- [93]
+				"/rw 2 heals down", -- [94]
+				"/rw dodge*", -- [95]
+				"/rw doge", -- [96]
+				"/rw pUMp", -- [97]
+				"/rw dont let seven do that", -- [98]
+				"/rw looking at you dragovade", -- [99]
+				"/rw lets see that dps!", -- [100]
+				"/rw do me proud fam", -- [101]
+				"/s /dbm pull 10", -- [102]
+				"/g ok sounds good", -- [103]
+				"/g I know what you mean about the player population being down", -- [104]
+				"/cw Wambo-EmeraldDream good luck on your quest though!", -- [105]
+				"/cw Wambo-EmeraldDream oh that guild msg is outdated", -- [106]
+				"/g I guess Wambo is out already lol", -- [107]
+				"/cw Wambo I finally got my addons situated", -- [108]
+				"/cw Wambo Sry about that mate", -- [109]
+				"/g guys*", -- [110]
+				"/g one sec guyts", -- [111]
+				"/g tradeskill master preventing me from updating guild perms lol", -- [112]
+				"/cw Wambo-EmeraldDream dont you love addons", -- [113]
+				"/cw Wambo-EmeraldDream gotta reload lol", -- [114]
+				"/cw Wambo-EmeraldDream going to fix that right now", -- [115]
+				"/cw Xelarick-EmeraldDream Guess nobody raids on thursdays lol", -- [116]
+				"/cw Xelarick-EmeraldDream We did a normal SOD last night", -- [117]
+				"/cw Xelarick-EmeraldDream btw how did you find us?", -- [118]
+				"/g welcome wambo", -- [119]
+				"/cw Xelarick-EmeraldDream trying to start heroics on my guardian druid", -- [120]
+				"/cw Xelarick-EmeraldDream 10/10H on my resto shammy this week", -- [121]
+				"/cw Xelarick-EmeraldDream but hardly anybody on lol", -- [122]
+				"/cw Xelarick-EmeraldDream We were trying to put a raid together tonigh", -- [123]
+				"/cw Xelarick-EmeraldDream thanks man I apreciate it", -- [124]
+				"/rw discord info when we fill", -- [125]
+				"/raid is it possible to go 2-2-6 on terragrue?", -- [126]
+				"/raid ya ill link disc info soon", -- [127]
+				"/p welcome", -- [128]
+				"/g glad to have you on board", -- [129]
+				"/g lets try to start our own fresh heroic then I guess", -- [130]
+				"/g just mercin some korthia real quick", -- [131]
+				"/raid thanks anyways", -- [132]
+				"/raid I think we're gonna bounce", -- [133]
+				"/raid agreed", -- [134]
+				"/g not a single one so far lol", -- [135]
+				"/g maybe its just not our night lol", -- [136]
+				"/g doesnt look like many people queing either", -- [137]
+				"/g not a whole lot of options tonigh", -- [138]
+				"/p hello", -- [139]
+				"/g ya im looking for a raid now", -- [140]
+				"/g I looked up droprates", -- [141]
+				"/g Looks like my best chances of getting that shard is Painsmith and Guardians of the first ones", -- [142]
+				"/g I still need 1 more red shard", -- [143]
+				"/g I was just gettin the mythic out of the way for the week lol", -- [144]
+				"/g very nice", -- [145]
+				"/g hey mate hows it going", -- [146]
+				"/p call out your portals", -- [147]
+				"/p I got front left", -- [148]
+				"/p stack the dark purple orbs at the back on green triangle", -- [149]
+				"/p I got front left with the healer", -- [150]
+				"/p ok can you guys rez", -- [151]
+				"/p you triggred boss", -- [152]
+				"/p lol", -- [153]
+				"/s guys", -- [154]
+				"/p slimes?", -- [155]
+				"/p how are we handling slimes?", -- [156]
+				"/s r", -- [157]
+				"/s dispel me", -- [158]
+				"/rw troll", -- [159]
+				"/rw dont fall off", -- [160]
+				"/rw lust", -- [161]
+				"/i do me proud fam!", -- [162]
+				"/cw Lunariabype-Quel'Thalas ty", -- [163]
+				"/cw Lunariabype-Quel'Thalas I can mark ball with skull", -- [164]
+				"/cw Lunariabype-Quel'Thalas can I get assist pls", -- [165]
+				"/raid mass dispel or ping pong?", -- [166]
+				"/cw Drezzix-Dalaran tyvm!", -- [167]
+				"/cw Drezzix-Dalaran yes pls", -- [168]
+				"/cw Drezzix-Dalaran I can get my 3 piece bonus", -- [169]
+				"/cw Drezzix-Dalaran Im the tank btw", -- [170]
+				"/y vamanos", -- [171]
+				"/s /sleep", -- [172]
+				"/s lock portal pls", -- [173]
+				"/s si", -- [174]
+				"/s Bondad can you soak?", -- [175]
+				"/s I didnt get everbeating heart", -- [176]
+				"/s lust", -- [177]
+				"/raid zone in pls and lets start trash", -- [178]
+				"/raid 1 for summons", -- [179]
+				"/raid he can if you want", -- [180]
+				"/raid gl", -- [181]
+				"/raid thanks for having me", -- [182]
+				"/raid had abomination on me when I was weak", -- [183]
+				"/raid ill text honust", -- [184]
+				"/cw Honustustere are you back?", -- [185]
+				"/raid one sec just checking mail real quick", -- [186]
+				"/cw Beeär-Dalaran it only goes on chest piece right", -- [187]
+				"/cw Beeär-Dalaran man thats worth it", -- [188]
+				"/cw Beeär-Dalaran do you have to re apply it on death?", -- [189]
+				"/cw Beeär-Dalaran I never use the plus armor- does it persist beyond death?", -- [190]
+				"/raid so you can experiment", -- [191]
+				"/raid the dom sockets are removable-reusable", -- [192]
+				"/raid ok", -- [193]
+				"/raid ij", -- [194]
+				"/raid 10/10H", -- [195]
+				"/raid and I can switch tomy resto shaman", -- [196]
+				"/raid honust can tank", -- [197]
+				"/cw Beeär-Dalaran and invite you", -- [198]
+				"/cw Beeär-Dalaran Ill switch to my resto shammy after", -- [199]
+				"/raid you got this!", -- [200]
+				"/raid who needs tanks?", -- [201]
+				"/s alot of stuff hit all at once", -- [202]
+				"/s help dps my souls pls", -- [203]
+				"/cw Beeär-Dalaran I dont have access to the group on this toon lol", -- [204]
+				"/cw Beeär-Dalaran Im just gonna add you to friends list for now", -- [205]
+				"/cw Honustustere-EmeraldDream KK Mercenaries", -- [206]
+				"/cw Honustustere can you invite her or promote my rank lol", -- [207]
+				"/cw Honustustere but Im not a lead on this toon lol", -- [208]
+				"/cw Honustustere Ive been talking to the other druid about joining our community", -- [209]
+				"/cw Beeär-Dalaran thats where we post raid events", -- [210]
+				"/cw Beeär-Dalaran Ill link you our community", -- [211]
+				"/cw Beeär-Dalaran That's be cool, we are pretty chill, just trying to gather up a bunch of active players", -- [212]
+				"/cw Beeär-Dalaran Would you be interested some time?", -- [213]
+				"/cw Beeär-Dalaran but we need a couple core tanks", -- [214]
+				"/cw Beeär-Dalaran honust and I are trying to start a little mythic group, im 10/10H on my resto shammy", -- [215]
+				"/cw Beeär-Dalaran hey do you tank heroics at all?", -- [216]
+				"/cw Honustustere-EmeraldDream ya ok", -- [217]
+				"/cw Honustustere-EmeraldDream soul", -- [218]
+				"/cw Honustustere-EmeraldDream my sould fragments?", -- [219]
+				"/cw Honustustere-EmeraldDream what do they mean when they say tank adds", -- [220]
+				"/cw Honustustere-EmeraldDream Its easy", -- [221]
+				"/cw Honustustere-EmeraldDream I went fully tanky to make up for any mechanics I botch lol", -- [222]
+				"/cw Honustustere-EmeraldDream I gues that helps with threat ya?", -- [223]
+				"/cw Honustustere-EmeraldDream You gave me one for dmg", -- [224]
+				"/cw Honustustere-EmeraldDream Ive got the oil on that heals myself", -- [225]
+				"/cw Honustustere sure", -- [226]
+				"/cw Chlamyida-Bloodhoof hop in discord with us", -- [227]
+				"/cw Honustustere-EmeraldDream then I was too far away to taunt off the other druid", -- [228]
+				"/cw Honustustere-EmeraldDream I thought he was on me at first", -- [229]
+				"/cw Honustustere-EmeraldDream I almost did", -- [230]
+				"/cw Honustustere-EmeraldDream but I have enough flasks for now", -- [231]
+				"/cw Honustustere-EmeraldDream I think I have some in the gchest", -- [232]
+				"/s I have it", -- [233]
+				"/raid ty", -- [234]
+				"/raid can I have assist", -- [235]
+				"/cw Honustustere-EmeraldDream thanks mate", -- [236]
+				"/cw Honustustere-EmeraldDream yes actually", -- [237]
+				"/raid try not to stand directly on the power pls", -- [238]
+				"/raid reset lust on boss", -- [239]
+				"/raid use lust here pls", -- [240]
+				"/cw Honustustere and create an account while we wait", -- [241]
+				"/cw Honustustere go to lastpass.com", -- [242]
+				"/p got a bunch up here", -- [243]
+				"/g hop in discord", -- [244]
+				"/g haha nice", -- [245]
+				"/g void", -- [246]
+				"/g ya I saw the new looks for elfs", -- [247]
+				"/g what did you find out", -- [248]
+				"/g hello", -- [249]
+				"/p CD", -- [250]
+				"/p NOPE", -- [251]
+				"/p this guy", -- [252]
+				"/p can you pull with your pet", -- [253]
+				"/p rdps stand next to the stumps in maze", -- [254]
+				"/p this first pack always hurts", -- [255]
+				"/p so am i", -- [256]
+				"/rw group 4 goes down", -- [257]
+				"/rw stack ice spikes in groups of 2 on blue or skull", -- [258]
+				"/rw green for green silence circles", -- [259]
+				"/rw eat up", -- [260]
+				"/raid sure", -- [261]
+				"/rw dont release", -- [262]
+				"/rw 1 more should do it", -- [263]
+				"/rw need more underneath", -- [264]
+				"/rw lets one shot this boss", -- [265]
+				"/rw personal food if you didnt grab the table earlier", -- [266]
+				"/rw fill up on on lock cookies", -- [267]
+				"/rw stack ice spikes in groups of 2 on blue square or skull", -- [268]
+				"/rw stack green circles on the green triangle at the back", -- [269]
+				"/rw pls check your group", -- [270]
+				"/rw group 4 goes down", -- [271]
+				"/rw hop in discord pls", -- [272]
+				"/cw Dender-AeriePeak its a bit rough tonight", -- [273]
+				"/cw Dender-AeriePeak gl on heals though", -- [274]
+				"/cw Dender-AeriePeak sure", -- [275]
+				"/rw LF1M Heals", -- [276]
+				"/rw ty for feast, pls eat up", -- [277]
+				"/cw Skarface-Kel'Thuzad go heals pls", -- [278]
+				"/cw Skarface-Kel'Thuzad are you in que?", -- [279]
+				"/cw Skarface-Kel'Thuzad cool", -- [280]
+				"/rw thank you for lock cookies", -- [281]
+				"/rw https://discord.gg/GQ7qR9by", -- [282]
+				"/rw just waiting on 2 more heals", -- [283]
+				"/raid ty", -- [284]
+				"/rw can we get summons out on the locks", -- [285]
+				"/cw Hadryan-Proudmoore may bring you in, just need a few more healers first", -- [286]
+				"/rw ty need 1 more at stone WM Off", -- [287]
+				"/rw time to fill", -- [288]
+				"/rw and girls", -- [289]
+				"/rw alright boys", -- [290]
+				"/raid ty", -- [291]
+				"/raid pls", -- [292]
+				"/raid can I get lead", -- [293]
+				"/raid if anyone wants to stay", -- [294]
+				"/raid Ill pick it up", -- [295]
+				"/raid stack spikes in 2s", -- [296]
+				"/raid and then its a kill", -- [297]
+				"/raid need to deal with spikes", -- [298]
+				"/raid /dbm pull 10", -- [299]
+				"/raid lets kill him", -- [300]
+				"/raid stack up 2 spikes and burn healing cooldown for when they explode", -- [301]
+				"/raid going kt", -- [302]
+				"/raid /rl", -- [303]
+				"/raid thank you", -- [304]
+				"/raid nice work", -- [305]
+				"/raid lemme flask", -- [306]
+				"/raid or we can give it an attempt", -- [307]
+				"/raid ya lets do it", -- [308]
+				"/raid no?", -- [309]
+				"/cw Chinpriest-Stormrage ty", -- [310]
+				"/cw Chinpriest-Stormrage can you watch my health when I do it", -- [311]
+				"/cw Chinpriest-Stormrage hey I plan on soaking a bunch of puddles and moving them to the corner in P3", -- [312]
+				"/raid 1 for both tanks", -- [313]
+				"/raid 1", -- [314]
+				"/cw Apôllo-Stormrage so should be easy", -- [315]
+				"/cw Apôllo-Stormrage plus its normal", -- [316]
+				"/cw Apôllo-Stormrage alright I agree", -- [317]
+				"/cw Apôllo-Stormrage lol got it, will you be calling out dispells for P3", -- [318]
+				"/cw Apôllo-Stormrage Oh I know the fight mechanics, just giving you a heads up", -- [319]
+				"/cw Apôllo-Stormrage first time tanking this fight, Ive downed her on Heroic, my buddy is walking me through the fight (the other tank)", -- [320]
+				"/g kinda cool for alts", -- [321]
+				"/g you can exchange artifact tokens for lost memories now", -- [322]
+				"/g nerz and painsmith is all I really need", -- [323]
+				"/g ya im about to try and get into a raid", -- [324]
+				"/g ya np", -- [325]
+				"/g mind coming as dps for my |cffa335ee|Hkeystone:180653:376:10:10:123:12:128|h[Keystone: The Necrotic Wake (10)]|h|r", -- [326]
+				"/g the +16 on my shammy was a grind", -- [327]
+				"/g mythic dungeons kinda suck this week", -- [328]
+				"/g well I got an ilvl upgrade of the same trinket- I guess that works: |cffa335ee|Hitem:178862::::::::60:104::35:5:7605:7359:6652:1556:6646::::::|h[Bladedancer's Armor Kit]|h|r", -- [329]
+				"/p srsly", -- [330]
+				"/p help soak his lazers", -- [331]
+				"/p need to difuse her bombs", -- [332]
+				"/p wipe", -- [333]
+				"/p bombs guys", -- [334]
+				"/p /train", -- [335]
+				"/p /dbm pull 5", -- [336]
+				"/p we have to wait", -- [337]
+				"/p aggro", -- [338]
+				"/p follow", -- [339]
+				"/p grabbing all powers first", -- [340]
+				"/p im inside now", -- [341]
+				"/p aparently im phased", -- [342]
+				"/p welcome", -- [343]
+				"/p hello", -- [344]
+				"/p nice work guys", -- [345]
+				"/p line it up pls", -- [346]
+				"/p again", -- [347]
+				"/p los", -- [348]
+				"/p mount up", -- [349]
+				"/p r", -- [350]
+				"/p demon hunter", -- [351]
+				"/p 500 each at the end", -- [352]
+				"/p good need to save anima powers", -- [353]
+				"/p better grade", -- [354]
+				"/p it adds bonus points", -- [355]
+				"/p 8 deaths", -- [356]
+				"/p dps evenly", -- [357]
+				"/p kill x2 elites within 10 secs", -- [358]
+				"/p gotta get sides", -- [359]
+				"/p this was upper reaches right?", -- [360]
+				"/p /dbm pull 8", -- [361]
+				"/p 542", -- [362]
+				"/s kill evenly", -- [363]
+				"/p kill evenly", -- [364]
+				"/p gonna kill her", -- [365]
+				"/p just have to have above 90%", -- [366]
+				"/s just kill evenly", -- [367]
+				"/s ?", -- [368]
+				"/s x2 elites within 10secs of each other", -- [369]
+				"/s kill evenly", -- [370]
+				"/p no", -- [371]
+				"/p np", -- [372]
+				"/p free soul remnants*", -- [373]
+				"/p no trap dmg", -- [374]
+				"/p ree the soul remnants", -- [375]
+				"/p kill the brokers", -- [376]
+				"/p youd be surprised", -- [377]
+				"/p end with at least 500 anima phantasma", -- [378]
+				"/p 2 elites within 10 secs of each other", -- [379]
+				"/p dont take any purples", -- [380]
+				"/p take obleron powers", -- [381]
+				"/p collect 30 anima powers", -- [382]
+				"/s hop in discord pls", -- [383]
+				"/p https://discord.gg/DFkApjW9", -- [384]
+				"/p you guys need both sides?", -- [385]
+				"/p hop in disc pls", -- [386]
+				"/p https://discord.gg/DFkApjW9", -- [387]
+				"/p will link disc in a min", -- [388]
+				"/p hello", -- [389]
+				"/g I can tank if youll dps", -- [390]
+				"/g Im putting together a Torghast group btw, want in?", -- [391]
+				"/g rope any steers?", -- [392]
+				"/s rope any steers?", -- [393]
+				"/p much apreciated", -- [394]
+				"/p tyvm!", -- [395]
+				"/cw Ðurandal-Frostmourne omw", -- [396]
+				"/cw Ðurandal-Frostmourne but I can come to you", -- [397]
+				"/cw Ðurandal-Frostmourne sry I was afk", -- [398]
+				"/p ty for group", -- [399]
+				"/p nice work", -- [400]
+				"/p do you have water?", -- [401]
+				"/p k", -- [402]
+				"/p not enough dps", -- [403]
+				"/p why blame the tank?", -- [404]
+				"/p skipping or no?", -- [405]
+				"/p lets get power", -- [406]
+				"/s r", -- [407]
+				"/p need to reload", -- [408]
+				"/p w8", -- [409]
+				"/p hello", -- [410]
+				"/s /reload", -- [411]
+				"/g hello", -- [412]
+				"/p inv Samoansage", -- [413]
+				"/p I can come on my shaman", -- [414]
+				"/p /dbm pull 5", -- [415]
+				"/p kill her", -- [416]
+				"/p reset", -- [417]
+				"/p ok", -- [418]
+				"/s lame", -- [419]
+				"/s /reload", -- [420]
+				"/p ty", -- [421]
+				"/p nice work all", -- [422]
+				"/p bomb?", -- [423]
+				"/p mana?", -- [424]
+				"/p careful with those stealthies", -- [425]
+				"/p buying a flask real quick", -- [426]
+				"/p yep sry lemme swap", -- [427]
+				"/s yep", -- [428]
+				"/g /bge", -- [429]
+				"/g we 5 capped em", -- [430]
+				"/g that was fast lol", -- [431]
+				"/g /dance", -- [432]
+				"/g im on discord by the way", -- [433]
+				"/p go to town", -- [434]
+				"/p reset", -- [435]
+				"/p 3 over here", -- [436]
+				"/p it is", -- [437]
+				"/s ty", -- [438]
+				"/g |cffffff00|Hworldmap:1961:6009:5333|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [439]
+				"/g just making sure I have weekly quests", -- [440]
+				"/g im still in the public channel", -- [441]
+				"/g ya I am", -- [442]
+				"/g must have been the achiement I got", -- [443]
+				"/g time", -- [444]
+				"/g you both whispered me at the same", -- [445]
+				"/g Im probably going to do 2 more if either of you would like join", -- [446]
+				"/g its kinda fun", -- [447]
+				"/g just trying out some bgs as feral", -- [448]
+				"/g hey guys", -- [449]
+				"/s ty lol", -- [450]
+				"/s share weekly pvp quest pls", -- [451]
+				"/i can anybody share the weekly pvp quests", -- [452]
+				"gettin off soon but hmu later", -- [453]
+				"/s got some elites over here", -- [454]
+				"/p way to stick with it", -- [455]
+				"/p the was rough", -- [456]
+				"/p good work guys", -- [457]
+				"/p /dbm pull 5", -- [458]
+				"/p drums on pull", -- [459]
+				"/p never skip again", -- [460]
+				"/p note to self", -- [461]
+				"/p and finish it right", -- [462]
+				"/p ya lets get the both", -- [463]
+				"/p keep coming", -- [464]
+				"/p come all the way back", -- [465]
+				"/p back here guys", -- [466]
+				"/p what is pulled", -- [467]
+				"/p and lets go get the anima add", -- [468]
+				"/p just die", -- [469]
+				"/p I think the rouge is right", -- [470]
+				"/p ya I see it", -- [471]
+				"/p cant move", -- [472]
+				"/p ya wipe", -- [473]
+				"/p /dbm pull 5", -- [474]
+				"/p but if we wipe dont fly back up here", -- [475]
+				"/p didnt think we need", -- [476]
+				"/p I know where they are", -- [477]
+				"/p ok", -- [478]
+				"/p may hvae to wipe to get back down there", -- [479]
+				"/p or we cant move", -- [480]
+				"/p we have to kill the anima add then?", -- [481]
+				"/p slowed", -- [482]
+				"/p I cant move", -- [483]
+				"/p /dbm pull 5", -- [484]
+				"/p nvm 2 min cooldown", -- [485]
+				"/p make sure you reset", -- [486]
+				"/p lust on pull again", -- [487]
+				"/p /dbm pull 5", -- [488]
+				"/p Do you have to reset for drums?", -- [489]
+				"/p ok will do", -- [490]
+				"/p was it a threat issue?", -- [491]
+				"/p but Im not sure why", -- [492]
+				"/p we lost healer", -- [493]
+				"/p wipe it", -- [494]
+				"/p /dbm pull 8", -- [495]
+				"/p on pull", -- [496]
+				"/p drum inc", -- [497]
+				"/p i can get some out of gbank", -- [498]
+				"/p do it all", -- [499]
+				"/p repair", -- [500]
+>>>>>>> Stashed changes
 			},
 		},
 	},
 }
 Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
+<<<<<<< Updated upstream
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
@@ -95,6 +599,11 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
+=======
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 6,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -106,6 +615,7 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+<<<<<<< Updated upstream
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -326,6 +836,2000 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 40,
+=======
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1632273812,
+					["timestamp"] = 27159.526,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 27159.526,
+					["serverTime"] = 1632281026,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1632350691,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 27159.526,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 27159.526,
+				}, -- [4]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 27159.526,
+				}, -- [5]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 27110.724,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame11"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 22",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716292,
+					["timestamp"] = 44062.789,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1146:317:276|h[Crush]|h|r dealt 289 damage to your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716294,
+					["timestamp"] = 44063.903,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T838812:14|t|cff4e96f7|HbattlePetAbil:937:871:362:244|h[Siphon Anima]|h|r dealt 259 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716295,
+					["timestamp"] = 44065.867,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T838812:14|t|cff4e96f7|HbattlePetAbil:937:1130:362:244|h[Siphon Anima]|h|r healed 259 damage from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716296,
+					["timestamp"] = 44066.129,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:986:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716297,
+					["timestamp"] = 44067.14,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 23",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716298,
+					["timestamp"] = 44068.798,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:986:317:276|h[Crush]|h|r dealt 454 damage to your |T3610989:14|tWill of Remornia (Critical).",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716300,
+					["timestamp"] = 44069.923,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:986:317:276|h[Crush]|h|r applied |T618978:14|t|cff4e96f7|HbattlePetAbil:243:986:317:276|h[Magic]|h|r to your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716300,
+					["timestamp"] = 44069.923,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2576086:14|t|cff4e96f7|HbattlePetAbil:2294:676:362:244|h[Soul Steal]|h|r dealt 316 damage to enemy |T1019377:14|tGromli (Strong).",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716301,
+					["timestamp"] = 44071.778,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2576086:14|t|cff4e96f7|HbattlePetAbil:2294:834:362:244|h[Soul Steal]|h|r healed 158 damage from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716302,
+					["timestamp"] = 44072.038,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:769:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716303,
+					["timestamp"] = 44073.051,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 24",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716304,
+					["timestamp"] = 44074.797,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:769:317:276|h[Crush]|h|r dealt 446 damage to your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716306,
+					["timestamp"] = 44076.089,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2576086:14|t|cff4e96f7|HbattlePetAbil:2294:388:362:244|h[Soul Steal]|h|r dealt 316 damage to enemy |T1019377:14|tGromli (Strong).",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716308,
+					["timestamp"] = 44077.952,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2576086:14|t|cff4e96f7|HbattlePetAbil:2294:546:362:244|h[Soul Steal]|h|r healed 158 damage from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716308,
+					["timestamp"] = 44078.205,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618978:14|t|cff4e96f7|HbattlePetAbil:243:453:317:276|h[Magic]|h|r fades from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716309,
+					["timestamp"] = 44079.229,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132772:14|t|cff4e96f7|HbattlePetAbil:435:453:317:276|h[Stoneskin]|h|r fades from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716309,
+					["timestamp"] = 44079.229,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:552:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716309,
+					["timestamp"] = 44079.229,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 25",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716310,
+					["timestamp"] = 44080.798,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132772:14|t|cff4e96f7|HbattlePetAbil:436:552:317:276|h[Stoneskin]|h|r applied |T132772:14|t|cff4e96f7|HbattlePetAbil:435:552:317:276|h[Stoneskin]|h|r to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716311,
+					["timestamp"] = 44081.559,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2576086:14|t|cff4e96f7|HbattlePetAbil:2294:546:362:244|h[Soul Steal]|h|r dealt 316 damage to enemy |T1019377:14|tGromli (Strong).",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716313,
+					["timestamp"] = 44083.374,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2576086:14|t|cff4e96f7|HbattlePetAbil:2294:704:362:244|h[Soul Steal]|h|r healed 158 damage from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716313,
+					["timestamp"] = 44083.637,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 26",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716316,
+					["timestamp"] = 44086.809,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:236:317:276|h[Haymaker]|h|r dealt 454 damage to your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716318,
+					["timestamp"] = 44087.912,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:236:317:276|h[Haymaker]|h|r applied |T618978:14|t|cff4e96f7|HbattlePetAbil:243:236:317:276|h[Magic]|h|r to your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716318,
+					["timestamp"] = 44087.912,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[04:32]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T838812:14|t|cff4e96f7|HbattlePetAbil:937:250:362:244|h[Siphon Anima]|h|r dealt 259 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716320,
+					["timestamp"] = 44089.884,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[04:32]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Enemy |T1019377:14|tGromli died.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716320,
+					["timestamp"] = 44089.884,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[04:32]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T838812:14|t|cff4e96f7|HbattlePetAbil:937:509:362:244|h[Siphon Anima]|h|r healed 259 damage from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716321,
+					["timestamp"] = 44091.663,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[04:32]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463526:14|t|cff4e96f7|HbattlePetAbil:681:904:362:244|h[Battle Recovery]|h|r healed 395 damage from your |T3610989:14|tWill of Remornia.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716323,
+					["timestamp"] = 44093.174,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T344804:14|t|cff4e96f7|HbattlePetAbil:668:1772:317:236|h[Dreadful Breath]|h|r dealt 86 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716177,
+					["timestamp"] = 43947.54,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1639:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716178,
+					["timestamp"] = 43948.803,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1880:317:236|h[Recovery]|h|r healed 108 damage from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716179,
+					["timestamp"] = 43949.067,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 5",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716180,
+					["timestamp"] = 43950.556,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136134:14|t|cff4e96f7|HbattlePetAbil:1418:0:91:88|h[Rot]|h|r applied |T133728:14|t|cff4e96f7|HbattlePetAbil:968:0:91:88|h[Undead Mark]|h|r to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716180,
+					["timestamp"] = 43950.556,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1639:276:244|h[Crush]|h|r dealt 326 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716182,
+					["timestamp"] = 43951.93300000001,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132298:14|t|cff4e96f7|HbattlePetAbil:111:1554:317:236|h[Punch]|h|r dealt 263 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716183,
+					["timestamp"] = 43953.633,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1445:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716184,
+					["timestamp"] = 43954.66,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1662:317:236|h[Recovery]|h|r healed 108 damage from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716185,
+					["timestamp"] = 43954.911,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 6",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716187,
+					["timestamp"] = 43956.878,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136134:14|t|cff4e96f7|HbattlePetAbil:1418:0:91:88|h[Rot]|h|r applied |T133728:14|t|cff4e96f7|HbattlePetAbil:968:0:91:88|h[Undead Mark]|h|r to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716187,
+					["timestamp"] = 43956.878,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1445:276:244|h[Crush]|h|r dealt 317 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716188,
+					["timestamp"] = 43958.258,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136026:14|t|cff4e96f7|HbattlePetAbil:814:1345:317:236|h[Rupture]|h|r dealt 431 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716190,
+					["timestamp"] = 43960.86,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136026:14|t|cff4e96f7|HbattlePetAbil:814:1345:317:236|h[Rupture]|h|r missed your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716191,
+					["timestamp"] = 43961.121,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136134:14|t|cff4e96f7|HbattlePetAbil:1418:0:91:88|h[Rot]|h|r fades from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716192,
+					["timestamp"] = 43962.13,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T133728:14|t|cff4e96f7|HbattlePetAbil:968:0:91:88|h[Undead Mark]|h|r fades from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716192,
+					["timestamp"] = 43962.13,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1083:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716192,
+					["timestamp"] = 43962.395,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1453:317:236|h[Recovery]|h|r healed 108 damage from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716192,
+					["timestamp"] = 43962.655,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 7",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716194,
+					["timestamp"] = 43963.878,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1083:276:244|h[Crush]|h|r dealt 193 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716195,
+					["timestamp"] = 43965.208,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132298:14|t|cff4e96f7|HbattlePetAbil:111:1260:317:236|h[Punch]|h|r missed your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716197,
+					["timestamp"] = 43967.007,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[04:29]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1152:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716198,
+					["timestamp"] = 43968.032,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 8",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716200,
+					["timestamp"] = 43969.904,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1152:276:244|h[Crush]|h|r dealt 316 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716201,
+					["timestamp"] = 43971.256,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132298:14|t|cff4e96f7|HbattlePetAbil:111:944:317:236|h[Punch]|h|r dealt 263 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716203,
+					["timestamp"] = 43972.944,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:454:889:276:244|h[Sandstorm]|h|r is no longer the weather.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716204,
+					["timestamp"] = 43973.954,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:958:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716204,
+					["timestamp"] = 43973.954,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1052:317:236|h[Recovery]|h|r healed 108 damage from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716204,
+					["timestamp"] = 43974.214,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 9",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716206,
+					["timestamp"] = 43975.898,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:453:958:276:244|h[Sandstorm]|h|r dealt 666 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716209,
+					["timestamp"] = 43978.925,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:453:958:276:244|h[Sandstorm]|h|r changed the weather to |T463521:14|t|cff4e96f7|HbattlePetAbil:454:958:276:244|h[Sandstorm]|h|r.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716209,
+					["timestamp"] = 43979.176,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132298:14|t|cff4e96f7|HbattlePetAbil:111:386:317:236|h[Punch]|h|r dealt 263 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716211,
+					["timestamp"] = 43981.729,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:764:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716212,
+					["timestamp"] = 43982.756,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:494:317:236|h[Recovery]|h|r healed 108 damage from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716213,
+					["timestamp"] = 43983.014,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 10",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716215,
+					["timestamp"] = 43985.843,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136026:14|t|cff4e96f7|HbattlePetAbil:814:764:276:244|h[Rupture]|h|r dealt 370 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716217,
+					["timestamp"] = 43987.496,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136026:14|t|cff4e96f7|HbattlePetAbil:814:764:276:244|h[Rupture]|h|r applied |T135860:14|t|cff4e96f7|HbattlePetAbil:927:764:276:244|h[Stunned]|h|r to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716217,
+					["timestamp"] = 43987.754,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:833:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716218,
+					["timestamp"] = 43988.764,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 11",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716219,
+					["timestamp"] = 43989.823,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T1019377:14|tGromli is now enemy active pet.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716219,
+					["timestamp"] = 43989.823,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:833:276:244|h[Crush]|h|r dealt 202 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716222,
+					["timestamp"] = 43992.663,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135860:14|t|cff4e96f7|HbattlePetAbil:927:833:276:244|h[Stunned]|h|r fades from enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716223,
+					["timestamp"] = 43993.674,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135860:14|t|cff4e96f7|HbattlePetAbil:927:833:276:244|h[Stunned]|h|r applied |T135878:14|t|cff4e96f7|HbattlePetAbil:924:833:276:244|h[Resilient]|h|r to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716223,
+					["timestamp"] = 43993.674,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:902:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716224,
+					["timestamp"] = 43993.94,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 12",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716225,
+					["timestamp"] = 43995.818,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132772:14|t|cff4e96f7|HbattlePetAbil:436:2295:317:276|h[Stoneskin]|h|r applied |T132772:14|t|cff4e96f7|HbattlePetAbil:435:2295:317:276|h[Stoneskin]|h|r to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716226,
+					["timestamp"] = 43996.594,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:902:276:244|h[Crush]|h|r dealt 118 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716229,
+					["timestamp"] = 43999.055,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:971:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716230,
+					["timestamp"] = 44000.062,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 13",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716231,
+					["timestamp"] = 44001.646,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:2177:317:276|h[Haymaker]|h|r missed your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716232,
+					["timestamp"] = 44002.803,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:2177:317:276|h[Haymaker]|h|r applied |T135860:14|t|cff4e96f7|HbattlePetAbil:174:2177:317:276|h[Stunned]|h|r to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716233,
+					["timestamp"] = 44003.062,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:971:276:244|h[Crush]|h|r dealt 118 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716234,
+					["timestamp"] = 44004.667,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1040:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716235,
+					["timestamp"] = 44005.679,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 14",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716237,
+					["timestamp"] = 44007.824,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T1019377:14|tKromli is now enemy active pet.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716237,
+					["timestamp"] = 44007.824,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1040:276:244|h[Crush]|h|r dealt 185 damage to enemy |T1019377:14|tKromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716240,
+					["timestamp"] = 44010.55800000001,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Enemy |T1019377:14|tKromli died.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716240,
+					["timestamp"] = 44010.55800000001,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135860:14|t|cff4e96f7|HbattlePetAbil:174:2059:317:276|h[Stunned]|h|r fades from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716243,
+					["timestamp"] = 44013.075,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:454:1040:276:244|h[Sandstorm]|h|r is no longer the weather.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716243,
+					["timestamp"] = 44013.075,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1109:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716243,
+					["timestamp"] = 44013.075,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 14",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716244,
+					["timestamp"] = 44014.213,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T1019377:14|tGromli is now enemy active pet.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716244,
+					["timestamp"] = 44014.213,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 15",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716248,
+					["timestamp"] = 44017.871,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:2059:317:276|h[Crush]|h|r dealt 451 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716249,
+					["timestamp"] = 44018.992,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:453:658:276:244|h[Sandstorm]|h|r dealt 581 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716253,
+					["timestamp"] = 44023.029,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:453:658:276:244|h[Sandstorm]|h|r changed the weather to |T463521:14|t|cff4e96f7|HbattlePetAbil:454:658:276:244|h[Sandstorm]|h|r.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716253,
+					["timestamp"] = 44023.292,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:727:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716254,
+					["timestamp"] = 44024.34,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1577:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716254,
+					["timestamp"] = 44024.594,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [97]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 16",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716256,
+					["timestamp"] = 44026.839,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [98]
+				{
+					["message"] = "|Hpratcopy|h[04:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1577:317:276|h[Crush]|h|r dealt 219 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716258,
+					["timestamp"] = 44028.127,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [99]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136026:14|t|cff4e96f7|HbattlePetAbil:814:508:276:244|h[Rupture]|h|r dealt 285 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716260,
+					["timestamp"] = 44030.721,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [100]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136026:14|t|cff4e96f7|HbattlePetAbil:814:508:276:244|h[Rupture]|h|r missed enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716261,
+					["timestamp"] = 44030.971,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [101]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:577:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716262,
+					["timestamp"] = 44031.981,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [102]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1391:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716262,
+					["timestamp"] = 44032.235,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [103]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 17",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716264,
+					["timestamp"] = 44034.856,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [104]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:1391:317:276|h[Haymaker]|h|r missed your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716266,
+					["timestamp"] = 44036.016,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [105]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:1391:317:276|h[Haymaker]|h|r applied |T135860:14|t|cff4e96f7|HbattlePetAbil:174:1391:317:276|h[Stunned]|h|r to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716266,
+					["timestamp"] = 44036.282,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [106]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:577:276:244|h[Crush]|h|r dealt 118 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716268,
+					["timestamp"] = 44037.919,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [107]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132772:14|t|cff4e96f7|HbattlePetAbil:435:1273:317:276|h[Stoneskin]|h|r fades from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716269,
+					["timestamp"] = 44038.945,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [108]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:646:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716269,
+					["timestamp"] = 44038.945,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [109]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 18",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716270,
+					["timestamp"] = 44039.878,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [110]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:646:276:244|h[Crush]|h|r missed enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716271,
+					["timestamp"] = 44040.969,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [111]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135860:14|t|cff4e96f7|HbattlePetAbil:174:1273:317:276|h[Stunned]|h|r fades from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716272,
+					["timestamp"] = 44041.978,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [112]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 19",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716273,
+					["timestamp"] = 44042.913,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [113]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132772:14|t|cff4e96f7|HbattlePetAbil:436:1273:317:276|h[Stoneskin]|h|r applied |T132772:14|t|cff4e96f7|HbattlePetAbil:435:1273:317:276|h[Stoneskin]|h|r to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716273,
+					["timestamp"] = 44043.685,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [114]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:646:276:244|h[Crush]|h|r dealt 120 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716275,
+					["timestamp"] = 44045.806,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [115]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:715:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716276,
+					["timestamp"] = 44046.836,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [116]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 20",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716278,
+					["timestamp"] = 44047.955,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [117]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:1153:317:276|h[Crush]|h|r dealt 210 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716279,
+					["timestamp"] = 44049.245,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [118]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236316:14|t|cff4e96f7|HbattlePetAbil:406:505:276:244|h[Crush]|h|r dealt 205 damage to enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716281,
+					["timestamp"] = 44050.958,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [119]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463521:14|t|cff4e96f7|HbattlePetAbil:454:505:276:244|h[Sandstorm]|h|r is no longer the weather.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716282,
+					["timestamp"] = 44051.972,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [120]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:574:276:244|h[Recovery]|h|r healed 69 damage from your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716282,
+					["timestamp"] = 44051.972,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [121]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1047:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716282,
+					["timestamp"] = 44052.232,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [122]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 21",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716283,
+					["timestamp"] = 44053.763,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [123]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236314:14|t|cff4e96f7|HbattlePetAbil:762:1047:317:276|h[Haymaker]|h|r dealt 842 damage to your |T134908:14|tAnubisath Idol.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716285,
+					["timestamp"] = 44054.878,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [124]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T134908:14|tAnubisath Idol died.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716285,
+					["timestamp"] = 44054.878,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [125]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:1146:317:276|h[Recovery]|h|r healed 99 damage from enemy |T1019377:14|tGromli.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716287,
+					["timestamp"] = 44057.407,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [126]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 21",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716288,
+					["timestamp"] = 44058.509,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [127]
+				{
+					["message"] = "|Hpratcopy|h[04:31]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T3610989:14|tWill of Remornia is now your active pet.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1622716288,
+					["timestamp"] = 44058.509,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [128]
+			},
+			["headIndex"] = 29,
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 67,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -338,6 +2842,7 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
 					["timestamp"] = 400538.346,
 				}, -- [1]
@@ -451,11 +2956,874 @@ Prat3HighCPUPerCharDB = {
 				{
 					["message"] = "|cff979797|Hpratcopy|h[02:37:19]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 7 |4minute:minutes;, 17 |4second:seconds;",
 					["serverTime"] = 1606729045,
+=======
+					["message"] = "|Hpratcopy|h[05:19]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:163:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r All done! Mana currently at 83.7%",
+					["serverTime"] = 1632352795,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29264.05,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[05:20]|h Kyrestia the Firstborne says: Listen to reason, Devos. The kyrian must stand united.",
+					["serverTime"] = 1632352812,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29280.978,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[05:20]|h Devos says: Not so long as you command them. The Forsworn will forge a new path for Bastion!",
+					["serverTime"] = 1632352819,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29288.76,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:166:PARTY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r i got back",
+					["serverTime"] = 1632352880,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29349.045,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:167:PARTY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r goliath",
+					["serverTime"] = 1632352881,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29350.833,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:168:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r k",
+					["serverTime"] = 1632352882,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29351.531,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3528287:12:12|t Rebellious Fist - interrupt Forsworn Goliath! |T3528287:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352898,
+					["timestamp"] = 29367.135,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |cffa5a5a5Ameteo|r has died.",
+					["serverTime"] = 1632352905,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29374.815,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:170:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r aggro got me",
+					["serverTime"] = 1632352909,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29378.835,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[05:21]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3528287:12:12|t Rebellious Fist - interrupt Forsworn Goliath! |T3528287:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352910,
+					["timestamp"] = 29379.299,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[05:22]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3528287:12:12|t Rebellious Fist - interrupt Forsworn Goliath! |T3528287:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352929,
+					["timestamp"] = 29398.721,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[05:22]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:171:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r my damage is usually nice",
+					["serverTime"] = 1632352931,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29399.97,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[05:22]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3528287:12:12|t Rebellious Fist - interrupt Forsworn Goliath! |T3528287:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352956,
+					["timestamp"] = 29425.466,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[05:22]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3528287:12:12|t Rebellious Fist - interrupt Forsworn Goliath! |T3528287:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352967,
+					["timestamp"] = 29436.392,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[05:23]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:172:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r spear",
+					["serverTime"] = 1632352993,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29462.335,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[05:23]|h Nörad-Proudmoore creates: |cffffffff|Hitem:177278::::::::60:104:::::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1632352993,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29462.505,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[05:23]|h Nörad-Proudmoore creates: |cffffffff|Hitem:177278::::::::60:104:::::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1632352993,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29462.685,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[05:23]|h Nörad-Proudmoore creates: |cffffffff|Hitem:177278::::::::60:104:::::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1632352994,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29463.129,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[05:23]|h |cffa5a5a5Nörad|r has died.",
+					["serverTime"] = 1632353020,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29489.277,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h Devos says: For eons, we have been told to \"purify\" ourselves. To let go of our memories, our identities, our loved ones. All in the name of service.",
+					["serverTime"] = 1632353054,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29523.546,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:179:PARTY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r let me know",
+					["serverTime"] = 1632353064,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29533.381,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:180:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r Nom Nom Nom Drinking. Mana currently at 51.6%",
+					["serverTime"] = 1632353065,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29534.62,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:181:PARTY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r when uw anbt spear",
+					["serverTime"] = 1632353067,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29536.187,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h Devos says: But what do we serve? An impotent Arbiter, an oppressive law! Our sacrifices were made for nothing!",
+					["serverTime"] = 1632353067,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29536.828,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:183:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r ok",
+					["serverTime"] = 1632353072,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29541.272,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:184:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r should be just before boss",
+					["serverTime"] = 1632353075,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29544.718,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:185:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r All done! Mana currently at 98.0%",
+					["serverTime"] = 1632353079,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29548.24,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[05:24]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:186:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r i think the dk is afk",
+					["serverTime"] = 1632353090,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29559.502,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[05:25]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:187:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r pull",
+					["serverTime"] = 1632353102,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29571.603,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[05:25]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:188:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r hmm ok",
+					["serverTime"] = 1632353108,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29576.916,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[05:25]|h Repaired for 60 Gold, 5 Silver, 79 Copper.",
+					["r"] = 1,
+					["serverTime"] = 1632353110,
+					["timestamp"] = 29579.036,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[05:25]|h |cffa5a5a5Nörad|r has died.",
+					["serverTime"] = 1632353128,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29597.156,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[05:25]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:190:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r LOS to the blue",
+					["serverTime"] = 1632353143,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29612.047,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[05:25]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:191:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r Forsworn Skirmisher will come back",
+					["serverTime"] = 1632353158,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29627.581,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[05:26]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:192:PARTY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r dk u there?",
+					["serverTime"] = 1632353190,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29658.972,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[05:26]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:193:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r welp",
+					["serverTime"] = 1632353215,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29684.258,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[05:27]|h |cffa5a5a5Ameteo|r has died.",
+					["serverTime"] = 1632353245,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29714.838,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[05:28]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:195:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r not sure we can do next boss with AFK",
+					["serverTime"] = 1632353283,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29752.069,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[05:28]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:196:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r he can portal to him and reset each time",
+					["serverTime"] = 1632353291,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29760.481,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[05:28]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:197:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r ya me either",
+					["serverTime"] = 1632353291,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29760.481,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[05:28]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:198:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r it was the dks key",
+					["serverTime"] = 1632353302,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29771.125,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[05:28]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:199:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r Nom Nom Nom Drinking. Mana currently at 40.2%",
+					["serverTime"] = 1632353319,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29788.081,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[05:28]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:200:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r All done! Mana currently at 100.0%",
+					["serverTime"] = 1632353334,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29803.678,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:201:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r im fairly impressed that we have 4 manned this trash",
+					["serverTime"] = 1632353339,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29808.34,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:202:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r i really wanted to see what a kyrian Enhancement does too",
+					["serverTime"] = 1632353357,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29826.192,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h |cffa5a5a5Ameteo|r has died.",
+					["serverTime"] = 1632353364,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29833.421,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:204:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r aggro...again",
+					["serverTime"] = 1632353370,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29839.739,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h |cff71d5ff|Hdeath:3|h[You died.]|h",
+					["serverTime"] = 1632353394,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29863.116,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:206:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|cffd8d8d8]|r are you dodging tornadoes?",
+					["serverTime"] = 1632353398,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29866.936,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:207:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r i got hit 3 times",
+					["serverTime"] = 1632353407,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29875.907,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffa5a5a5Nörad|r has died.",
+					["serverTime"] = 1632353411,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29879.978,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:209:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r wasnt tornadoes",
+					["serverTime"] = 1632353412,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29880.895,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:210:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|cffd8d8d8]|r well sry guys",
+					["serverTime"] = 1632353412,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29881.28,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffa5a5a5Totemystic|r has died.",
+					["serverTime"] = 1632353413,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29882.392,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:212:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|cffd8d8d8]|r lets call it",
+					["serverTime"] = 1632353417,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29886.585,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:213:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|cffd8d8d8]|r sry we didnt complete",
+					["serverTime"] = 1632353423,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29892.248,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:214:PARTY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r well its over",
+					["serverTime"] = 1632353423,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29892.549,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:215:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r sounds right",
+					["serverTime"] = 1632353424,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29892.9,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:216:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r this dungeon is cursed for me lol",
+					["serverTime"] = 1632353434,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29903.03,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h You leave the group.",
+					["serverTime"] = 1632353436,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29905.538,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[05:31]|h Loot Specialization set to: Guardian",
+					["serverTime"] = 1632353460,
+>>>>>>> Stashed changes
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 400590.285,
 					["g"] = 1,
 					["b"] = 0,
@@ -566,11 +3934,24 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["extraData"] = {
 						67, -- [1]
+=======
+					["timestamp"] = 29928.831,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[05:31]|h |Hchannel:channel:3|h[3. LocalDefense] |hChanged Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1632353460,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+>>>>>>> Stashed changes
 						false, -- [2]
 						3, -- [3]
 						4, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 400670.919,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
@@ -605,6 +3986,783 @@ Prat3HighCPUPerCharDB = {
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [40]
+=======
+					["timestamp"] = 29928.831,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[05:35]|h You are now Away: AFK",
+					["serverTime"] = 1632353741,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 30210.13,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[05:55]|h You are now Away: AFK",
+					["serverTime"] = 1632354954,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31423.148,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[05:55]|h |cffc31d39Honustustere|r has gone offline.",
+					["serverTime"] = 1632354958,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31427.225,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[05:59]|h Katy Stampwhistle says: You rang?",
+					["serverTime"] = 1632355169,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31638.333,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[06:00]|h You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1632355241,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 31710.134,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[05:12]|h |cff71d5ff|Hdeath:1|h[You died.]|h",
+					["serverTime"] = 1632352324,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28793.336,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[05:12]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:123:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|cffd8d8d8]|r ok hex something",
+					["serverTime"] = 1632352340,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28809.514,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[05:12]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:124:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r its dead",
+					["serverTime"] = 1632352347,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28816.566,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[05:12]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:125:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r Nom Nom Nom Drinking. Mana currently at 100.0%",
+					["serverTime"] = 1632352360,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28829.007,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[05:12]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:126:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r All done! Mana currently at 100.0%",
+					["serverTime"] = 1632352370,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28839.796,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[05:13]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1379175:12:12|t Burden of Knowledge - interrupt Forsworn Castigator! |T1379175:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352384,
+					["timestamp"] = 28853.329,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[05:13]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1379175:12:12|t Burden of Knowledge - interrupt Forsworn Castigator! |T1379175:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352387,
+					["timestamp"] = 28856.511,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[05:13]|h <EH> Ameteo-Uther got hit by |cff71d5ff|Hspell:317943:0|h[Sweeping Blow]|h|r for 17.6k (36%).",
+					["timestamp"] = 28858.356,
+					["serverTime"] = 1632352389,
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[05:13]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1379175:12:12|t Burden of Knowledge - interrupt Forsworn Castigator! |T1379175:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352401,
+					["timestamp"] = 28870.075,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[05:13]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1379175:12:12|t Burden of Knowledge - interrupt Forsworn Castigator! |T1379175:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352403,
+					["timestamp"] = 28872.535,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[05:13]|h |cffff7d0a<|r|cffffd200Spires of Ascension Trash|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1379175:12:12|t Burden of Knowledge - interrupt Forsworn Castigator! |T1379175:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352417,
+					["timestamp"] = 28885.881,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h You aren't in an instance group.",
+					["serverTime"] = 1632352453,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28922.648,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h You tell everyone to attack Azules.",
+					["serverTime"] = 1632352453,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28922.719,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Mythic+ (15) - Kin-Tara engaged. Good luck and have fun! :)",
+					["r"] = 0.41,
+					["serverTime"] = 1632352455,
+					["timestamp"] = 28924.649,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h Kin-Tara yells: None shall be spared!",
+					["serverTime"] = 1632352455,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28924.754,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: Word of Recall (OLD) from Azules |cFFFFBB00Boss First Target|r: Samoanbeast    ",
+					["timestamp"] = 28925.15,
+					["serverTime"] = 1632352456,
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3284464:12:12|t Overhead Slash - defensive |T3284464:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352463,
+					["timestamp"] = 28932.805,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3284464:12:12|t Overhead Slash - defensive |T3284464:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352473,
+					["timestamp"] = 28942.515,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3284464:12:12|t Overhead Slash - defensive |T3284464:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352482,
+					["timestamp"] = 28951.003,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h Kin-Tara yells: Your doom takes flight!",
+					["serverTime"] = 1632352487,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28956.055,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r  |T1508065:12:12|t |cffff1a1aCharged Spear on |r|cff006fdcTotemystic*|r|cffff1a1a|r |T1508065:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1632352493,
+					["timestamp"] = 28962.175,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h |TInterface\\Icons\\INV_Polearm_2H_OdynSpear_D_02.blp:20|tKin-Tara eyes Totemystic with their |cFFFF0000|Hspell:321009|h[Charged Spear]|h|r!",
+					["serverTime"] = 1632352493,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						37, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28962.175,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h [S] |cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:134:SAY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Charged Spear on |cffa5a5a5Totemystic|r",
+					["serverTime"] = 1632352493,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28962.434,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[05:14]|h Kin-Tara yells: Suffer my wrath!",
+					["serverTime"] = 1632352494,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28963.185,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r  |T1508065:12:12|t |cffff1a1aCharged Spear on |r|cff006fdcNörad*|r|cffff1a1a|r |T1508065:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1632352504,
+					["timestamp"] = 28973.031,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |TInterface\\Icons\\INV_Polearm_2H_OdynSpear_D_02.blp:20|tKin-Tara eyes Nörad with their |cFFFF0000|Hspell:321009|h[Charged Spear]|h|r!",
+					["serverTime"] = 1632352504,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						37, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28973.031,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h [S] |cffd8d8d8[|r|Hplayer:Nörad-Proudmoore:137:SAY|h|cffd8bc3f60|r:|cff006fdcNörad|r-Proudmoore|h|cffd8d8d8]|r Charged Spear on |cffa5a5a5Nörad|r",
+					["serverTime"] = 1632352504,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28973.326,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h Kin-Tara yells: Suffer my wrath!",
+					["serverTime"] = 1632352505,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 28974.19,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3284464:12:12|t Overhead Slash - defensive |T3284464:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352517,
+					["timestamp"] = 28986.174,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h <EH> Totemystic-Dath'Remar got hit by |cff71d5ff|Hspell:324370:0|h[Attenuated Barrage]|h|r for 35.2k (74%).",
+					["timestamp"] = 28989.935,
+					["serverTime"] = 1632352521,
+				}, -- [97]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3284464:12:12|t Overhead Slash - defensive |T3284464:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352527,
+					["timestamp"] = 28995.916,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [98]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T3284464:12:12|t Overhead Slash - defensive |T3284464:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352535,
+					["timestamp"] = 29004.404,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [99]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h Kin-Tara yells: Your doom takes flight!",
+					["serverTime"] = 1632352540,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29009.409,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [100]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h <EH> Nörad-Proudmoore got hit by |cff71d5ff|Hspell:331251:0|h[Deep Connection]|h|r for 16.6k (33%).",
+					["timestamp"] = 29012.811,
+					["serverTime"] = 1632352543,
+				}, -- [101]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1508065:12:12|t Charged Spear on |r|cff006fdcAmeteo*|r|cffffb200 near you |T1508065:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352547,
+					["timestamp"] = 29016.758,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [102]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |TInterface\\Icons\\INV_Polearm_2H_OdynSpear_D_02.blp:20|tKin-Tara eyes Ameteo with their |cFFFF0000|Hspell:321009|h[Charged Spear]|h|r!",
+					["serverTime"] = 1632352547,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						37, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29016.758,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h [S] |cffd8d8d8[|r|Hplayer:Ameteo-Uther:142:SAY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r Charged Spear on |cffa5a5a5Ameteo|r",
+					["serverTime"] = 1632352548,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29017.122,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h [S] |cffd8d8d8[|r|Hplayer:Ameteo-Uther:144:SAY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r 2",
+					["serverTime"] = 1632352548,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29017.441,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h Kin-Tara yells: Suffer my wrath!",
+					["serverTime"] = 1632352548,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29017.832,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [106]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h [S] |cffd8d8d8[|r|Hplayer:Ameteo-Uther:146:SAY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r 1",
+					["serverTime"] = 1632352549,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29018.435,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [107]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h <EH> Totemystic-Dath'Remar got hit by |cff71d5ff|Hspell:324370:0|h[Attenuated Barrage]|h|r for 29.1k (61%).",
+					["timestamp"] = 29023.172,
+					["serverTime"] = 1632352554,
+				}, -- [108]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h <EH> Honustustere got hit by |cff71d5ff|Hspell:324662:0|h[Ionized Plasma]|h|r for 18.7k (33%).",
+					["timestamp"] = 29023.292,
+					["serverTime"] = 1632352554,
+				}, -- [109]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |cffff7d0a<|r|cffffd200Kin-Tara|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1508065:12:12|t Charged Spear on |r|cff006fdcAmeteo*|r|cffffb200 near you |T1508065:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1632352558,
+					["timestamp"] = 29027.747,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [110]
+				{
+					["message"] = "|Hpratcopy|h[05:15]|h |TInterface\\Icons\\INV_Polearm_2H_OdynSpear_D_02.blp:20|tKin-Tara eyes Ameteo with their |cFFFF0000|Hspell:321009|h[Charged Spear]|h|r!",
+					["serverTime"] = 1632352558,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						37, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29027.747,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h [S] |cffd8d8d8[|r|Hplayer:Ameteo-Uther:149:SAY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Charged Spear on |cffa5a5a5Ameteo|r",
+					["serverTime"] = 1632352559,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29028.026,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h [S] |cffd8d8d8[|r|Hplayer:Ameteo-Uther:150:SAY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r 2",
+					["serverTime"] = 1632352559,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29028.361,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h Kin-Tara yells: Suffer my wrath!",
+					["serverTime"] = 1632352559,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29028.853,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [114]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h [S] |cffd8d8d8[|r|Hplayer:Ameteo-Uther:152:SAY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r 1",
+					["serverTime"] = 1632352560,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						39, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29029.248,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [115]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h <EH> Totemystic-Dath'Remar got hit by |cff71d5ff|Hspell:324370:0|h[Attenuated Barrage]|h|r for 32.9k (69%).",
+					["timestamp"] = 29037.418,
+					["serverTime"] = 1632352568,
+				}, -- [116]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h |cFFFFCC00AddOns CPU Usage|r: combat elapsed time was too short.",
+					["timestamp"] = 29038.594,
+					["serverTime"] = 1632352569,
+				}, -- [117]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h |cFFFFCC00AddOns CPU Usage|r: waiting the end of the combat to open the window.",
+					["timestamp"] = 29038.594,
+					["serverTime"] = 1632352569,
+				}, -- [118]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h Kin-Tara yells: You... will never... win...",
+					["serverTime"] = 1632352569,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29038.759,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [119]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Mythic+ (15) - Kin-Tara down after 1 |4minute:minutes; and 53.88 |4second:seconds;! Your last kill took 1 |4minute:minutes; and 50.39 |4second:seconds; and your fastest kill took 1 |4minute:minutes; and 50.39 |4second:seconds;. You have 3 total victories.",
+					["r"] = 0.41,
+					["serverTime"] = 1632352570,
+					["timestamp"] = 29039.552,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [120]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h <EH> Samoanbeast got hit by |cff71d5ff|Hspell:324370:0|h[Attenuated Barrage]|h|r for 28.6k (36%).",
+					["timestamp"] = 29040.62,
+					["serverTime"] = 1632352571,
+				}, -- [121]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:154:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r Nom Nom Nom Drinking. Mana currently at 50.5%",
+					["serverTime"] = 1632352574,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29042.873,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "|Hpratcopy|h[05:16]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:155:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r All done! Mana currently at 91.0%",
+					["serverTime"] = 1632352582,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29050.967,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [123]
+				{
+					["message"] = "|Hpratcopy|h[05:18]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Samoanbeast-EmeraldDream:157:PARTY|h|cffd8bc3f60|r:|cfffe7b09Samoanbeast|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|cffd8d8d8]|r this wayu",
+					["serverTime"] = 1632352680,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29149.036,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [124]
+				{
+					["message"] = "|Hpratcopy|h[05:19]|h |cff71d5ff|Hdeath:2|h[You died.]|h",
+					["serverTime"] = 1632352759,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29228.477,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|Hpratcopy|h[05:19]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:160:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r release is here",
+					["serverTime"] = 1632352772,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29241.24,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [126]
+				{
+					["message"] = "|Hpratcopy|h[05:19]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ameteo-Uther:161:PARTY|h|cffd8bc3f60|r:|cff006fdcAmeteo|r-Uther|h|cffd8d8d8]|r with full HP",
+					["serverTime"] = 1632352775,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29244.289,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [127]
+				{
+					["message"] = "|Hpratcopy|h[05:19]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Totemystic-Dath'Remar:162:PARTY|h|cffd8bc3f60|r:|cff006fdcTotemystic|r-Dath'Remar|h|cffd8d8d8]|r Nom Nom Nom Drinking. Mana currently at 49.6%",
+					["serverTime"] = 1632352787,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 29256.592,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [128]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

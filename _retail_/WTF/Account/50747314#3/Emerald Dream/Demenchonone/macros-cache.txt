@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "angelic feather" "642580"
+#showtooltip
+/use [@cursor] angelic feather
+END

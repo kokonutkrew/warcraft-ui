@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 110005
 
 ## Title: Leatrix Plus
 ## Title-zhCN: Leatrix Plus [|cffeda55f功能百宝箱|r]
@@ -8,10 +8,24 @@
 ## Notes-zhCN: 哆啦A梦的百宝袋
 ## Notes-zhTW: 哆啦A夢的百寶袋
 
+<<<<<<< Updated upstream
 ## Version: 9.0.20
+=======
+## Version: 11.0.16
+>>>>>>> Stashed changes
 ## Author: Leatrix
 ## SavedVariables: LeaPlusDB
+## AddonCompartmentFunc:LeaPlusGlobalMiniBtnClickFunc
+
+## IconTexture: Interface\HELPFRAME\ReportLagIcon-Movement
+
+## OptionalDeps: Leatrix_enUS, ElvUI, Glass, Titan, Leatrix_Maps, totalRP3
+
+## X-Curse-Project-ID: 94855
 
 Leatrix_Plus_Library.lua
 Leatrix_Plus_Locale.lua
+Leatrix_Plus_Media.lua
+Leatrix_Plus_Mute.lua
+Leatrix_Plus.xml
 Leatrix_Plus.lua

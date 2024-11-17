@@ -14,6 +14,7 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
+<<<<<<< Updated upstream
 			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
@@ -21,12 +22,4038 @@ Prat3CharDB = {
 			["ChatFrame2EditBox"] = {
 			},
 			["ChatFrame9EditBox"] = {
+=======
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+>>>>>>> Stashed changes
 			},
 		},
 	},
 }
 Prat3HighCPUPerCharDB = {
+<<<<<<< Updated upstream
 	["time"] = 1545022586,
 	["scrollback"] = {
+=======
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 8,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r Quagmirran dies, you gain 5376 experience. (+2688 exp Rested bonus, +768 group bonus)",
+					["serverTime"] = 1628159082,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.796,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r Reputation with Cenarion Expedition increased by 80.",
+					["serverTime"] = 1628159082,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.796,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r Reputation with Alliance increased by 82.",
+					["serverTime"] = 1628159082,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r You gain 36850 experience.",
+					["serverTime"] = 1628159082,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r You receive item: |cff0070dd|Hitem:156682::::::::46:256::1::1:28:1694:::::|h[Otherworldly Satchel of Helpful Goods]|h|r",
+					["serverTime"] = 1628159082,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227879.092,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:47]|h|r You receive item: |cff0070dd|Hitem:51970::::::::46:256::1:2:4244:1706:2:28:1694:9:46:::::|h[Enumerated Gloves of the Aurora]|h|r |cffffd200|Hshareitem:51970::::::::46:256::1:2:4244:1706:2:28:1694:9:46::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1628159085,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227881.744,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:29:05]|h|r Ghoze-MoonGuard receives loot: |cffffffff|Hitem:72119::::::::46:256:::::::::|h[The Slave Master's Eye]|h|r.",
+					["serverTime"] = 1628159343,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228139.94,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:29:05]|h|r Ghoze-MoonGuard receives loot: |cff0070dd|Hitem:24364::::::::46:256::1:1:6710:2:28:1888:9:22:::::|h[Azureplate Greaves]|h|r.",
+					["serverTime"] = 1628159343,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228140.24,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:18:21]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158699,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227496.47,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:18:21]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158699,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227496.47,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:18:25]|h|r Coilfang Technician dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158703,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227500,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:18:25]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158703,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227500,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:18:25]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158703,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227500,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:19:51]|h|r Questgød-Frostmourne receives loot: |cff9d9d9d|Hitem:17057::::::::45:256:::::::::|h[Shiny Fish Scales]|h|r.",
+					["serverTime"] = 1628158789,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227585.924,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:19:54]|h|r You receive loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r",
+					["serverTime"] = 1628158792,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227589.399,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:19:55]|h|r You loot 7 Gold, 21 Silver, 62 Copper",
+					["serverTime"] = 1628158793,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227590.234,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:19:57]|h|r Larrey-Dath'Remar receives loot: |cffffffff|Hitem:24476::::::::45:256:::::::::|h[Jaggal Clam]|h|r.",
+					["serverTime"] = 1628158795,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227591.672,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:11]|h|r Coilfang Soothsayer dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158809,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227606.074,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:11]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158809,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227606.097,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:11]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158809,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227606.097,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:15]|h|r Coilfang Enchantress dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158813,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227609.934,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:15]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158813,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227609.934,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:15]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158813,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227609.934,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:16]|h|r Coilfang Champion dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158814,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227611.07,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:16]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158814,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227611.07,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:16]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158814,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227611.094,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:18]|h|r Coilfang Champion dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158816,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227612.858,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:18]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158816,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227612.858,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:18]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158816,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227612.858,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:20]|h|r Ghoze-MoonGuard receives loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r.",
+					["serverTime"] = 1628158818,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227614.983,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:20]|h|r Questgød-Frostmourne receives loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r.",
+					["serverTime"] = 1628158818,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227615.368,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:21]|h|r Questgød-Frostmourne receives loot: |cffffffff|Hitem:24476::::::::45:256:::::::::|h[Jaggal Clam]|h|r.",
+					["serverTime"] = 1628158819,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227616.086,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:22]|h|r You receive loot: |cff9d9d9d|Hitem:25340::::::::45:256::1:1:6656:2:28:1888:9:45:::::|h[Loosely Threaded Vest]|h|r",
+					["serverTime"] = 1628158820,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227617.356,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:22]|h|r You receive loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r",
+					["serverTime"] = 1628158820,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227617.356,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:23]|h|r Larrey-Dath'Remar receives loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r.",
+					["serverTime"] = 1628158821,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227617.595,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:23]|h|r You loot 85 Silver, 53 Copper",
+					["serverTime"] = 1628158821,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227618.248,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:39]|h|r Coilfang Observer dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158837,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.929,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:39]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158837,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.929,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:39]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158837,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.929,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:39]|h|r Coilfang Tempest dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158837,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227634.479,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:39]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158837,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227634.479,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:39]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158837,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227634.479,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:48]|h|r Coilfang Ray dies, you gain 466 experience. (+233 exp Rested bonus, +67 group bonus)",
+					["serverTime"] = 1628158846,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227643.137,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:48]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158846,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227643.137,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:48]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158846,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227643.137,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:50]|h|r Coilfang Scale-Healer dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158848,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227644.621,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:50]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158848,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227644.621,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:50]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158848,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227644.621,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:53]|h|r You receive loot: |cff9d9d9d|Hitem:17057::::::::45:256:::::::::|h[Shiny Fish Scales]|h|r",
+					["serverTime"] = 1628158851,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227648.08,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:53]|h|r You receive loot: |cffffffff|Hitem:24476::::::::45:256:::::::::|h[Jaggal Clam]|h|r",
+					["serverTime"] = 1628158851,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227648.266,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:54]|h|r You loot 1 Gold, 32 Silver, 57 Copper",
+					["serverTime"] = 1628158852,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227648.915,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:02]|h|r Coilfang Champion dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158860,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227657.103,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:02]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158860,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227657.121,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:02]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158860,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227657.121,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:05]|h|r Coilfang Soothsayer dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158863,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227659.776,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:05]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158863,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227659.776,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:05]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158863,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227659.796,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:06]|h|r Coilfang Tempest dies, you gain 444 experience. (+222 exp Rested bonus, +64 group bonus)",
+					["serverTime"] = 1628158864,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227661.012,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:06]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158864,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227661.012,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:06]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158864,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227661.012,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:07]|h|r Coilfang Champion dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158865,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227662.098,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:07]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158865,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227662.098,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:07]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158865,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227662.121,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:07]|h|r Coilfang Enchantress dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158865,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227662.382,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:07]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158865,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227662.382,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:07]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158865,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227662.382,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:14]|h|r You receive loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r",
+					["serverTime"] = 1628158872,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227669.517,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:15]|h|r You loot 6 Gold, 50 Silver, 96 Copper",
+					["serverTime"] = 1628158873,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227670.369,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:17]|h|r Larrey-Dath'Remar receives loot: |cffffffff|Hitem:22785::::::::45:256:::::::::|h[Felweed]|h|r.",
+					["serverTime"] = 1628158875,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227671.572,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:37]|h|r Wastewalker Worker dies, you gain 120 experience. (+60 exp Rested bonus, +18 group bonus)",
+					["serverTime"] = 1628158895,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227691.903,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:37]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158895,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227691.919,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:37]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158895,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227691.919,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:37]|h|r Wastewalker Worker dies, you gain 120 experience. (+60 exp Rested bonus, +18 group bonus)",
+					["serverTime"] = 1628158895,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227692.101,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:37]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158895,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227692.101,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:37]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158895,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227692.101,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:38]|h|r Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158896,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227693.487,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:38]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158896,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227693.487,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:38]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158896,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227693.487,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:40]|h|r Greater Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158898,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227695.374,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:40]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158898,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227695.391,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:40]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158898,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227695.391,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:41]|h|r Greater Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158899,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227696.143,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:41]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158899,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227696.16,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:41]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158899,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227696.16,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:41]|h|r Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158899,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227696.495,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:41]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158899,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227696.495,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:41]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158899,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227696.495,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:44]|h|r Larrey-Dath'Remar receives loot: |cffffffff|Hitem:22785::::::::45:256:::::::::|h[Felweed]|h|r.",
+					["serverTime"] = 1628158902,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227698.783,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:48]|h|r Larrey-Dath'Remar receives loot: |cffffffff|Hitem:22829::::::::45:256:::::::::|h[Super Healing Potion]|h|r.",
+					["serverTime"] = 1628158906,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227702.926,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:01]|h|r Coilfang Observer dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158919,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227715.841,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:01]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158919,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227715.841,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:01]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158919,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227715.841,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:01]|h|r Coilfang Observer dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158919,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227716.445,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:01]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158919,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227716.445,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:01]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158919,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227716.445,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:02]|h|r Coilfang Defender dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158920,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227716.783,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:02]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158920,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227716.783,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:02]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158920,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227716.783,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:04]|h|r Coilfang Defender dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158922,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227718.651,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:04]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158922,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227718.651,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:04]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158922,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227718.651,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:10]|h|r Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158928,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227724.599,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:10]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158928,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227724.599,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:10]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158928,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227724.622,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:12]|h|r Greater Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158930,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227727.221,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:12]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158930,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227727.221,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:12]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158930,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227727.221,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:14]|h|r Greater Bogstrok dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158932,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227728.621,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:14]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158932,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227728.621,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:14]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158932,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227728.621,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:16]|h|r Ghoze-MoonGuard receives loot: |cff9d9d9d|Hitem:25429::::::::45:256:::::::::|h[Grime-Encrusted Scale]|h|rx4.",
+					["serverTime"] = 1628158934,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227731.091,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:16]|h|r Ghoze-MoonGuard receives loot: |cff9d9d9d|Hitem:25369::::::::45:256::1:1:6656:2:28:1888:9:21:::::|h[Eroded Mail Circlet]|h|r.",
+					["serverTime"] = 1628158934,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227731.375,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:17]|h|r Questgød-Frostmourne receives loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r.",
+					["serverTime"] = 1628158935,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227731.777,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:19]|h|r You loot 2 Gold, 33 Silver, 34 Copper",
+					["serverTime"] = 1628158937,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227734.416,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:21]|h|r Larrey-Dath'Remar receives loot: |cffffffff|Hitem:22829::::::::45:256:::::::::|h[Super Healing Potion]|h|r.",
+					["serverTime"] = 1628158939,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227735.552,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:47]|h|r Coilfang Soothsayer dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158965,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227761.761,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:47]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158965,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227761.761,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:47]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158965,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227761.761,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:48]|h|r Coilfang Champion dies, you gain 606 experience. (+303 exp Rested bonus, +87 group bonus)",
+					["serverTime"] = 1628158966,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227762.998,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:48]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158966,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227762.998,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:48]|h|r Reputation with Alliance increased by 1.",
+					["serverTime"] = 1628158966,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227762.998,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:50]|h|r Coilfang Enchantress dies, you gain 546 experience. (+273 exp Rested bonus, +78 group bonus)",
+					["serverTime"] = 1628158968,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227765.538,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:51]|h|r Reputation with Cenarion Expedition increased by 8.",
+					["serverTime"] = 1628158969,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227765.555,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:51]|h|r Reputation with Alliance increased by 2.",
+					["serverTime"] = 1628158969,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227765.555,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:54]|h|r You receive loot: |cff9d9d9d|Hitem:25340::::::::45:256::1:1:6656:2:28:1888:9:45:::::|h[Loosely Threaded Vest]|h|r",
+					["serverTime"] = 1628158972,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227768.812,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:54]|h|r You receive loot: |cffffffff|Hitem:24476::::::::45:256:::::::::|h[Jaggal Clam]|h|r",
+					["serverTime"] = 1628158972,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227768.88,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:55]|h|r You loot 1 Gold, 99 Silver, 86 Copper",
+					["serverTime"] = 1628158973,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227769.572,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:55]|h|r Larrey-Dath'Remar receives loot: |cff9d9d9d|Hitem:17058::::::::45:256:::::::::|h[Fish Oil]|h|r.",
+					["serverTime"] = 1628158973,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227769.822,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1628156079,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 224874.878,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 224874.878,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 224874.878,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 224837.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:54:10]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Darkmoon Island]|h",
+					["serverTime"] = 1628160848,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 229644.765,
+					["g"] = 0.8941177129745483,
+					["b"] = 0.4745098352432251,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:59:18]|h|r You have learned a new spell: |cff71d5ff|Hspell:186263:0|h[Shadow Mend]|h|r.",
+					["serverTime"] = 1628157556,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226352.473,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:59:18]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:285485:0|h[Focused Will]|h|r.",
+					["serverTime"] = 1628157556,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226352.473,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:59:18]|h|r You have learned a new spell: |cff71d5ff|Hspell:48045:0|h[Mind Sear]|h|r.",
+					["serverTime"] = 1628157556,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226352.473,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:59:18]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:343726:0|h[Shadowfiend]|h|r.",
+					["serverTime"] = 1628157556,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226352.473,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[03:59:18]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:262861:0|h[Smite]|h|r.",
+					["serverTime"] = 1628157556,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226352.473,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:00:39]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq18|k:32:663:BN_INLINE_TOAST_ALERT:0|h[|Kq18|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tucesupreme)|h has come online.",
+					["serverTime"] = 1628157637,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						45, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226434.132,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:00:57]|h|r Artificer Morphalius says: Look at me! You said I would be fine! Do I look fine?",
+					["serverTime"] = 1628157655,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226452.329,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:01:08]|h|r Mamdy the \"Ologist\" says: I can only show you the door, Morphalius. You're the one that has to walk through it.",
+					["serverTime"] = 1628157666,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226463.09,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:02:32]|h|r You leave the group.",
+					["serverTime"] = 1628157750,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226547.497,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:02:37]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Darkmoon Island]|h",
+					["serverTime"] = 1628157755,
+					["r"] = 0.7647059559822083,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226551.526,
+					["g"] = 0.9019608497619629,
+					["b"] = 0.9098039865493774,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:02:37]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Darkmoon Island]|h",
+					["serverTime"] = 1628157755,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226551.526,
+					["g"] = 0.8941177129745483,
+					["b"] = 0.4745098352432251,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:02:43]|h|r You are now queued in the Dungeon Finder.",
+					["serverTime"] = 1628157761,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226557.895,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:28]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1628157806,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226603.146,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:31]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - The Slave Pens]|h",
+					["serverTime"] = 1628157809,
+					["r"] = 0.7647059559822083,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226606.097,
+					["g"] = 0.9019608497619629,
+					["b"] = 0.9098039865493774,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:31]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Slave Pens]|h",
+					["serverTime"] = 1628157809,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226606.097,
+					["g"] = 0.8941177129745483,
+					["b"] = 0.4745098352432251,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:31]|h|r Samoanrelic is now the leader of your group!",
+					["serverTime"] = 1628157809,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 226606.097,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:38]|h|r You are now Neutral with Cenarion Expedition.",
+					["serverTime"] = 1628157816,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226613.011,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:39]|h|r Quest accepted: Lost in Action",
+					["serverTime"] = 1628157817,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226614.114,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:39]|h|r Quest accepted: The Heart of the Matter",
+					["serverTime"] = 1628157817,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226614.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:03:42]|h|r Quest accepted: A Brother Betrayed",
+					["serverTime"] = 1628157820,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226617.338,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:04:37]|h|r Coilfang Slavehandler yells: Hurry up with it already! The longer you take, the more of a hurtin' I'm putting on you!",
+					["serverTime"] = 1628157875,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226672.547,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:04:39]|h|r Coilfang Slavehandler yells: Assist me slaves!",
+					["serverTime"] = 1628157877,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226673.8,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:04:47]|h|r Wastewalker Worker yells: Free at last!",
+					["serverTime"] = 1628157885,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226682.376,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:04:47]|h|r Wastewalker Worker yells: Thank you!",
+					["serverTime"] = 1628157885,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226682.376,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:04:47]|h|r Wastewalker Worker yells: I spit on the corpse of these filthy naga.",
+					["serverTime"] = 1628157885,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226682.376,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:04:54]|h|r Coilfang Slavehandler yells: Assist me slaves!",
+					["serverTime"] = 1628157892,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226689.082,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:01]|h|r Wastewalker Worker attempts to run away in fear!",
+					["serverTime"] = 1628157899,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226696.425,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:01]|h|r Wastewalker Worker attempts to run away in fear!",
+					["serverTime"] = 1628157899,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226696.425,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:41]|h|r Wastewalker Captive says: Help me!  Please help me!",
+					["serverTime"] = 1628157939,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226736.527,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:42]|h|r Coilfang Slavehandler yells: Assist me slaves!",
+					["serverTime"] = 1628157940,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226737.137,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:50]|h|r Wastewalker Worker attempts to run away in fear!",
+					["serverTime"] = 1628157948,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226744.581,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:53]|h|r Wastewalker Slave yells: Thank you!",
+					["serverTime"] = 1628157951,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226747.817,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:59]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq32|k:27:949:BN_INLINE_TOAST_ALERT:0|h[|Kq32|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tm2ronjo)|h has come online.",
+					["serverTime"] = 1628157957,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						45, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226754.5,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:11]|h|r You have learned a new spell: |cff71d5ff|Hspell:121536:0|h[Angelic Feather]|h|r.",
+					["serverTime"] = 1628158029,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226825.881,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:28]|h|r [S] |cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:994:SAY|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: oof",
+					["serverTime"] = 1628158046,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						51, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226842.94,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:28]|h|r [S] |cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:998:SAY|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: mb",
+					["serverTime"] = 1628158046,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						51, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226843.491,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:48]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1024:INSTANCE_CHAT|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: apologies",
+					["serverTime"] = 1628158066,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226863.006,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:53]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1026:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: happens",
+					["serverTime"] = 1628158071,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226868.146,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:56]|h|r Coilfang Slavehandler yells: Get back to work you!",
+					["serverTime"] = 1628158074,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226870.686,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:07:59]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1028:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: its been forever since ive ran through slave",
+					["serverTime"] = 1628158077,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226874.011,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:08:03]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1029:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: i think this is the right way?",
+					["serverTime"] = 1628158081,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226877.704,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:08:06]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1030:INSTANCE_CHAT|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: it is",
+					["serverTime"] = 1628158084,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226881.38,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:08:31]|h|r |cffffff00ExRT|r Who Pulled: |cffc31d39Ghoze",
+					["timestamp"] = 226906.362,
+					["serverTime"] = 1628158109,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:08:31]|h|r Mennu the Betrayer yells: The work must continue!",
+					["serverTime"] = 1628158109,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226906.473,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:08:32]|h|r |cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?*    ",
+					["timestamp"] = 226906.862,
+					["serverTime"] = 1628158110,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:09:26]|h|r Mennu the Betrayer yells: I... deserve this....",
+					["serverTime"] = 1628158164,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226961.282,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:09:30]|h|r |cffff80ff|Htransmogappearance:11971|h[Starlight Dagger]|h|r has been added to your appearance collection.",
+					["serverTime"] = 1628158168,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226965.139,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:09:50]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1068:INSTANCE_CHAT|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: cant get that to drop on classic either rofl",
+					["serverTime"] = 1628158188,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 226984.602,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:12:51]|h|r |cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?*    ",
+					["timestamp"] = 227166.241,
+					["serverTime"] = 1628158369,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:12:53]|h|r Coilfang Slavehandler yells: This is terrible..... my arms grow tired from beating on you lazy peons!",
+					["serverTime"] = 1628158371,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227168.447,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:13:34]|h|r |cffa5a5a5Ghoze|r has died.",
+					["serverTime"] = 1628158412,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227208.903,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:14:27]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1172:INSTANCE_CHAT|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: i think",
+					["serverTime"] = 1628158465,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227261.793,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:14:30]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1173:INSTANCE_CHAT|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: we missed a quest dude",
+					["serverTime"] = 1628158468,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227265.302,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:14:36]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1174:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: ?",
+					["serverTime"] = 1628158474,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227270.632,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:14:42]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1175:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: where ats",
+					["serverTime"] = 1628158480,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227277.249,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:14:58]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1176:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: nah we good i think",
+					["serverTime"] = 1628158496,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227293.14,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:03]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1177:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: 2 quests at the end",
+					["serverTime"] = 1628158501,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227297.568,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:11]|h|r |cffa5a5a5Ghoze|r has died.",
+					["serverTime"] = 1628158509,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227306.345,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:17]|h|r |cffa5a5a5Questgød|r has died.",
+					["serverTime"] = 1628158515,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227311.608,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:18]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1180:INSTANCE_CHAT|h|cff8b8b8b13|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: i think the dude greenthumb is at the top of one of those upthings",
+					["serverTime"] = 1628158516,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227313.395,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:28]|h|r |cff71d5ff|Hdeath:1|h[You died.]|h",
+					["serverTime"] = 1628158526,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227323.379,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:30]|h|r |cffa5a5a5Larrey|r has died.",
+					["serverTime"] = 1628158528,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227325.292,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:33]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1192:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: oh",
+					["serverTime"] = 1628158531,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227327.765,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:35]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1195:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: well",
+					["serverTime"] = 1628158533,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227329.937,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:38]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1198:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: perfect opportunity to find him",
+					["serverTime"] = 1628158536,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227332.678,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:38]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1199:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: ah he is",
+					["serverTime"] = 1628158536,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227333.413,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:56]|h|r A Brother Betrayed completed.",
+					["serverTime"] = 1628158554,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227351.374,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:56]|h|r Experience gained: 12300.",
+					["serverTime"] = 1628158554,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227351.374,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:15:56]|h|r Received 40 Gold, 44 Silver.",
+					["serverTime"] = 1628158554,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227351.374,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:17:06]|h|r Coilfang Slavehandler yells: Get back to work you!",
+					["serverTime"] = 1628158624,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227421.053,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:17:58]|h|r You have learned a new spell: |cff71d5ff|Hspell:123040:0|h[Mindbender]|h|r.",
+					["serverTime"] = 1628158676,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227472.79,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:18:49]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1220:INSTANCE_CHAT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: ah i see him",
+					["serverTime"] = 1628158727,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227523.627,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:19:38]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:205367:0|h[Dominant Mind]|h|r.",
+					["serverTime"] = 1628158776,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227573.107,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:36]|h|r Coilfang Tempest says: Illidan reigns! ",
+					["serverTime"] = 1628158834,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227631.254,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:37]|h|r Coilfang Tempest says: For the Master!",
+					["serverTime"] = 1628158835,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227631.671,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:38]|h|r Coilfang Tempest says: For the Master!",
+					["serverTime"] = 1628158836,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227632.791,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:38]|h|r Coilfang Tempest says: For the Master!",
+					["serverTime"] = 1628158836,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.042,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:38]|h|r Coilfang Tempest says: Die, warmblood!",
+					["serverTime"] = 1628158836,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.242,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:38]|h|r Coilfang Tempest says: My blood is like venom!",
+					["serverTime"] = 1628158836,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.442,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:20:38]|h|r Coilfang Tempest says: Illidan reigns! ",
+					["serverTime"] = 1628158836,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227633.442,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:36]|h|r Wastewalker Worker attempts to run away in fear!",
+					["serverTime"] = 1628158894,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227691.298,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:21:45]|h|r Naturalist Bite yells: Hey!  Over here!  Yeah, over here... I'm in this cage!!!",
+					["serverTime"] = 1628158903,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227700.186,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:29]|h|r Coilfang Champion yells: Intrudersss with the prisssoner!  Kill them!!!",
+					["serverTime"] = 1628158947,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227744.041,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:22:32]|h|r Naturalist Bite says: Uh oh!  It would appear that all of the noise you've been making has attracted some unwanted attention!",
+					["serverTime"] = 1628158950,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227747.182,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:23:05]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1350:INSTANCE_CHAT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: he gives a stat increase",
+					["serverTime"] = 1628158983,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227779.881,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:23:07]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1351:INSTANCE_CHAT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: if you talk to him",
+					["serverTime"] = 1628158985,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227781.718,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:23:32]|h|r |cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?*    ",
+					["timestamp"] = 227807.233,
+					["serverTime"] = 1628159010,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:23:33]|h|r |cffffff00ExRT|r Who Pulled: |cffc31d39Ghoze",
+					["timestamp"] = 227807.735,
+					["serverTime"] = 1628159011,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:14]|h|r |cffa5a5a5Ghoze|r has died.",
+					["serverTime"] = 1628159052,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227849.067,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:32]|h|r |cffa5a5a5Warpsmith|r has died.",
+					["serverTime"] = 1628159070,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227867.534,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:40]|h|r |cffa5a5a5Questgød|r has died.",
+					["serverTime"] = 1628159078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227874.734,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r |cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1355:ACHIEVEMENT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:4956:Player-3675-0A3B2400:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r |cffffffff(|rCompleted 4/29/21|cffffffff)|r!",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						20, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.629,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r |cffd8d8d8[|r|Hplayer:Samoanrelic-EmeraldDream:1359:GUILD|h|cffd8bc3f45|r:|cfffefefeSamoanrelic|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:649:Player-162-0B2AB9ED:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r |cffffffff(|rCompleted 8/05/21|cffffffff)|r!",
+					["serverTime"] = 1628159082,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						48, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r |cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1360:ACHIEVEMENT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:649:Player-3675-0A3B2400:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r |cffffffff(|rCompleted 8/05/21|cffffffff)|r!",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						20, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r |cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1361:ACHIEVEMENT|h|cff8b8b8b14|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:649:Player-3683-0D236992:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r |cffffffff(|rCompleted 8/05/21|cffffffff)|r!",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						20, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r |cffd8d8d8[|r|Hplayer:Samoanrelic-EmeraldDream:1362:ACHIEVEMENT|h|cffd8bc3f45|r:|cfffefefeSamoanrelic|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:649:Player-162-0B2AB9ED:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r |cffffffff(|rCompleted 8/05/21|cffffffff)|r! |cffffd200|Hshareachieve:649:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r |cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1363:ACHIEVEMENT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:649:Player-3725-0BFC43A2:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r |cffffffff(|rCompleted 8/05/21|cffffffff)|r!",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						20, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:322107:0|h[Shadow Word: Death]|h|r.",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r Experience gained: 36850.",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r Received 72 Gold, 79 Silver, 20 Copper.",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227878.917,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:44]|h|r Congratulations, you have reached |cffFF4E00|Hlevelup:46:LEVEL_UP_TYPE_CHARACTER|h[Level 46]|h|r!",
+					["serverTime"] = 1628159082,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 227878.993,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:24:58]|h|r [W From] |cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1370:WHISPER:QUESTGØD-FROSTMOURNE|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: CAN U RES ME PLS MATE",
+					["serverTime"] = 1628159096,
+					["r"] = 1,
+					["extraData"] = {
+						8, -- [1]
+						false, -- [2]
+						60, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227892.663,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:25:00]|h|r [W From] |cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1371:WHISPER:QUESTGØD-FROSTMOURNE|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: OOPSCAPS",
+					["serverTime"] = 1628159098,
+					["r"] = 1,
+					["extraData"] = {
+						8, -- [1]
+						false, -- [2]
+						60, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227894.563,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:25:25]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1372:INSTANCE_CHAT|h|cff8b8b8b14|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: can i snag a rez?",
+					["serverTime"] = 1628159123,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227920.453,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:25:39]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1373:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: me too pls <3",
+					["serverTime"] = 1628159137,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227934.409,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:26:05]|h|r |cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1375:ACHIEVEMENT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:4956:Player-3725-0BFC43A2:1:8:5:21:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r |cffffffff(|rCompleted 4/29/21|cffffffff)|r!",
+					["serverTime"] = 1628159163,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						20, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 227959.776,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:28:09]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Larrey-Dath'Remar:1376:INSTANCE_CHAT|h|cff8b8b8b40|r:|cff8687edLarrey|r-|cffb4ea08Dat|r|h|cffd8d8d8]|r: bye!!!",
+					["serverTime"] = 1628159287,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						62, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228084.015,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:28:16]|h|r |cffa5a5a5Larrey|r-Dath'Remar has left the instance group.",
+					["serverTime"] = 1628159294,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228091.115,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:28:49]|h|r You are now Away: AFK",
+					["serverTime"] = 1628159327,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228123.775,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:29:48]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1381:INSTANCE_CHAT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: healer d/c'd I take it",
+					["serverTime"] = 1628159386,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228183.21,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:29:58]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1382:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: guess haha",
+					["serverTime"] = 1628159396,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228192.639,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:30:06]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1383:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: im down for more w u tho",
+					["serverTime"] = 1628159404,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228201.172,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:30:17]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1384:INSTANCE_CHAT|h|cff8b8b8b14|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: oncei turn in i am hjeh",
+					["serverTime"] = 1628159415,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228212.539,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:30:46]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Questgød-Frostmourne:1385:INSTANCE_CHAT|h|cff8b8b8b20|r:|cffc31d39Questgød|r-|cff219aa6Fro|r|h|cffd8d8d8]|r: ah damn bosses loot disappeared so i cant do the quest",
+					["serverTime"] = 1628159444,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228240.572,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:30:54]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1386:INSTANCE_CHAT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: lmao how lame",
+					["serverTime"] = 1628159452,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228248.805,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:30:59]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Warpsmith-Dalaran:1387:INSTANCE_CHAT|h|cff8b8b8b14|r:|cff3ec6eaWarpsmith|r-|cff00fc9cDal|r|h|cffd8d8d8]|r: that's super trash",
+					["serverTime"] = 1628159457,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228254.484,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:31:02]|h|r |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Ghoze-MoonGuard:1388:INSTANCE_CHAT|h|cff8b8b8b21|r:|cffc31d39Ghoze|r-|cffc4bee7Moo|r|h|cffd8d8d8]|r: it will mail to you LOL",
+					["serverTime"] = 1628159460,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						24, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228257.35,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:31:09]|h|r You have been removed from the group.",
+					["serverTime"] = 1628159467,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228264.384,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:31:13]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Darkmoon Island]|h",
+					["serverTime"] = 1628159471,
+					["r"] = 0.7647059559822083,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228268.401,
+					["g"] = 0.9019608497619629,
+					["b"] = 0.9098039865493774,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:31:13]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Darkmoon Island]|h",
+					["serverTime"] = 1628159471,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228268.401,
+					["g"] = 0.8941177129745483,
+					["b"] = 0.4745098352432251,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:31:13]|h|r Death Metal Knight yells: Fight though you might, your bodies will freeze and shatter!",
+					["serverTime"] = 1628159471,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228268.401,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:31:13]|h|r You are now Away: AFK",
+					["serverTime"] = 1628159471,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228268.401,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:32:06]|h|r Death Metal Knight yells: You have failed, Blight Boar.  Your fans now serve my armies of the dead!",
+					["serverTime"] = 1628159524,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228321.276,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:36:51]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq74|k:7:1395:BN_INLINE_TOAST_ALERT:0|h[|Kq74|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tAjax5678)|h has come online.",
+					["serverTime"] = 1628159809,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						45, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 228606.3,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:45:33]|h|r Michael Schweitzer yells: The Tauren Chieftains concert will begin in fifteen minutes!",
+					["serverTime"] = 1628160331,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 229127.57,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:53:49]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1628160827,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 229623.765,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:54:10]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Darkmoon Island]|h",
+					["serverTime"] = 1628160848,
+					["r"] = 0.7647059559822083,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 229644.765,
+					["g"] = 0.9019608497619629,
+					["b"] = 0.9098039865493774,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+>>>>>>> Stashed changes
 	},
 }

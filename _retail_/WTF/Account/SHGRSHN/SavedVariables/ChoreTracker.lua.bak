@@ -1,0 +1,352 @@
+
+ChoreTrackerDB = {
+["char"] = {
+["Herbcraft - Area 52"] = {
+["skillLines"] = {
+[333] = true,
+[197] = true,
+[185] = true,
+[2874] = 54,
+[2883] = 50,
+},
+},
+},
+["global"] = {
+["questWeeks"] = {
+[1731423599] = {
+[84086] = {
+["status"] = 2,
+["questId"] = 84086,
+["objectives"] = {
+},
+},
+[82452] = {
+["status"] = 1,
+["questId"] = 82452,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/6 World Quests completed in Khaz Algar",
+["have"] = 0,
+["need"] = 6,
+},
+},
+},
+[29443] = {
+["status"] = 2,
+["questId"] = 29443,
+["objectives"] = {
+},
+},
+[84291] = {
+["status"] = 2,
+["questId"] = 84291,
+["objectives"] = {
+},
+},
+[29445] = {
+["status"] = 2,
+["questId"] = 29445,
+["objectives"] = {
+},
+},
+[29509] = {
+["status"] = 2,
+["questId"] = 29509,
+["objectives"] = {
+},
+},
+[29510] = {
+["status"] = 2,
+["questId"] = 29510,
+["objectives"] = {
+},
+},
+[83240] = {
+["status"] = 1,
+["questId"] = 83240,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/50 Audience Approval earned",
+["have"] = 0,
+["need"] = 50,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Complete a Theater Troupe play",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[29451] = {
+["status"] = 2,
+["questId"] = 29451,
+["objectives"] = {
+},
+},
+[76586] = {
+["status"] = 1,
+["questId"] = 76586,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/4 Lesser Keyflames Activated",
+["have"] = 0,
+["need"] = 4,
+},
+},
+},
+[29456] = {
+["status"] = 2,
+["questId"] = 29456,
+["objectives"] = {
+},
+},
+[29520] = {
+["status"] = 2,
+["questId"] = 29520,
+["objectives"] = {
+},
+},
+[29458] = {
+["status"] = 2,
+["questId"] = 29458,
+["objectives"] = {
+},
+},
+[84292] = {
+["status"] = 2,
+["questId"] = 84292,
+["objectives"] = {
+},
+},
+[82158] = {
+["status"] = 1,
+["questId"] = 82158,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete World Quests in Hallowfall",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[29464] = {
+["status"] = 2,
+["questId"] = 29464,
+["objectives"] = {
+},
+},
+[82678] = {
+["status"] = 1,
+["questId"] = 82678,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Progress further in the campaign to unlock The Archives",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Meet Brinthe in the Vault of Memory",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Speak with Brinthe",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "item",
+["text"] = "0/100 Titan Disc Fragment",
+["have"] = 0,
+["need"] = 100,
+},
+},
+},
+[84293] = {
+["status"] = 2,
+["questId"] = 84293,
+["objectives"] = {
+},
+},
+[82653] = {
+["status"] = 1,
+["questId"] = 82653,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/3 Breakers Escorted",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[84254] = {
+["status"] = 2,
+["questId"] = 84254,
+["objectives"] = {
+},
+},
+[83363] = {
+["status"] = 1,
+["questId"] = 83363,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/5 Timewalking raid bosses or dungeons defeated",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[84735] = {
+["status"] = 1,
+["questId"] = 84735,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Defeat Emperor Dagran Thaurissan",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[82817] = {
+["status"] = 1,
+["questId"] = 82817,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/1 Dagran Thaurissan defeated",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "item",
+["text"] = "0/1 Timewarped Ironforge Blueprints",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84294] = {
+["status"] = 2,
+["questId"] = 84294,
+["objectives"] = {
+},
+},
+[82709] = {
+["status"] = 1,
+["questId"] = 82709,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/30 Khaz Algar Archaeological Fragments",
+["have"] = 0,
+["need"] = 30,
+},
+},
+},
+[83459] = {
+["status"] = 1,
+["questId"] = 83459,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Help General Steelstrike with securing the ceremony",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[83274] = {
+["status"] = 1,
+["questId"] = 83274,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/5 Timewalking dungeons completed",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[29446] = {
+["status"] = 2,
+["questId"] = 29446,
+["objectives"] = {
+},
+},
+[84290] = {
+["status"] = 2,
+["questId"] = 84290,
+["objectives"] = {
+},
+},
+[83727] = {
+["status"] = 2,
+["questId"] = 83727,
+["objectives"] = {
+},
+},
+[29444] = {
+["status"] = 2,
+["questId"] = 29444,
+["objectives"] = {
+},
+},
+[83735] = {
+["status"] = 2,
+["questId"] = 83735,
+["objectives"] = {
+},
+},
+[84295] = {
+["status"] = 2,
+["questId"] = 84295,
+["objectives"] = {
+},
+},
+[29433] = {
+["status"] = 2,
+["questId"] = 29433,
+["objectives"] = {
+},
+},
+[84489] = {
+["status"] = 2,
+["questId"] = 84489,
+["objectives"] = {
+},
+},
+[29457] = {
+["status"] = 2,
+["questId"] = 29457,
+["objectives"] = {
+},
+},
+},
+},
+["seenAutoAcceptMessage"] = true,
+},
+["profileKeys"] = {
+["Herbcraft - Area 52"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["window"] = {
+["height"] = 150,
+["top"] = 1079.999877929688,
+["left"] = 548,
+["width"] = 199.9999084472656,
+},
+},
+},
+}

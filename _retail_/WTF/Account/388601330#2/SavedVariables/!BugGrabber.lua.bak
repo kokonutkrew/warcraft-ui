@@ -1,6 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
+<<<<<<< Updated upstream
 	["session"] = 13,
 	["errors"] = {
 		{
@@ -328,5 +329,9 @@ BugGrabberDB = {
 			["session"] = 13,
 			["counter"] = 7377,
 		}, -- [44]
+=======
+	["session"] = 1,
+	["errors"] = {
+>>>>>>> Stashed changes
 	},
 }

@@ -17,28 +17,49 @@ Prat3DB = {
 					["maxchatwidthdefault"] = 608.0000610351562,
 					["initialized"] = true,
 				},
+<<<<<<< Updated upstream
 				["KokonutKrew"] = {
 					["minchatwidthdefault"] = 296,
 					["initialized"] = true,
 					["maxchatheightdefault"] = 399.9999694824219,
 					["maxchatwidthdefault"] = 608.0000610351562,
 				},
+=======
+>>>>>>> Stashed changes
 			},
 		},
 		["Prat_ChannelColorMemory"] = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
+<<<<<<< Updated upstream
 						["tomcats"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+=======
+						["localdefense"] = {
+							["r"] = 0.9098039865493774,
+							["g"] = 0.8941177129745483,
+							["b"] = 0.4745098352432251,
+						},
+						["general"] = {
+							["r"] = 0.7647059559822083,
+							["g"] = 0.9019608497619629,
+							["b"] = 0.9098039865493774,
+						},
+						["trade"] = {
+							["r"] = 0.9098039865493774,
+							["g"] = 0.6196078658103943,
+							["b"] = 0.4745098352432251,
+>>>>>>> Stashed changes
 						},
 					},
 				},
 			},
 		},
 		["Prat_Editbox"] = {
+<<<<<<< Updated upstream
 			["profiles"] = {
 				["Default"] = {
 					["editW"] = 609.999917268753,
@@ -75,6 +96,19 @@ Prat3DB = {
 		},
 		["Prat_Bubbles"] = {
 		},
+=======
+		},
+		["Prat_Fading"] = {
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_Bubbles"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_Sounds"] = {
+		},
+>>>>>>> Stashed changes
 		["Prat_ChannelNames"] = {
 		},
 		["Prat_KeyBindings"] = {
@@ -83,6 +117,7 @@ Prat3DB = {
 		},
 		["Prat_Scroll"] = {
 		},
+<<<<<<< Updated upstream
 		["Prat_Mentions"] = {
 		},
 		["Prat_Achievements"] = {
@@ -96,6 +131,13 @@ Prat3DB = {
 			},
 		},
 		["Prat_Sounds"] = {
+=======
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_Achievements"] = {
+		},
+		["Prat_Font"] = {
+>>>>>>> Stashed changes
 		},
 		["Prat_Alias"] = {
 		},
@@ -103,10 +145,17 @@ Prat3DB = {
 		},
 		["Prat_Highlight"] = {
 		},
+<<<<<<< Updated upstream
 		["Prat_PopupMessage"] = {
 		},
 		["Prat_Paragraph"] = {
 		},
+=======
+		["Prat_Paragraph"] = {
+		},
+		["Prat_Mentions"] = {
+		},
+>>>>>>> Stashed changes
 		["Prat_Invites"] = {
 		},
 		["Prat_History"] = {
@@ -118,6 +167,7 @@ Prat3DB = {
 		["Prat_Search"] = {
 		},
 		["Prat_Buttons"] = {
+<<<<<<< Updated upstream
 			["profiles"] = {
 				["Default"] = {
 					["showvoice"] = false,
@@ -138,6 +188,8 @@ Prat3DB = {
 					["showminimize"] = false,
 				},
 			},
+=======
+>>>>>>> Stashed changes
 		},
 		["Prat_ServerNames"] = {
 		},
@@ -145,6 +197,7 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Default",
 		["Samoanlock - Emerald Dream"] = "Default",
 		["Samoansensei - Emerald Dream"] = "Default",
@@ -184,6 +237,12 @@ Prat3DB = {
 		["Samoanmystic - Tichondrius"] = "Default",
 		["Samoanwar - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+=======
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -199,6 +258,7 @@ Prat3DB = {
 				["Alias"] = 2,
 			},
 		},
+<<<<<<< Updated upstream
 		["KokonutKrew"] = {
 			["modules"] = {
 				["Sounds"] = 2,
@@ -211,5 +271,7 @@ Prat3DB = {
 				["KeyBindings"] = 2,
 			},
 		},
+=======
+>>>>>>> Stashed changes
 	},
 }

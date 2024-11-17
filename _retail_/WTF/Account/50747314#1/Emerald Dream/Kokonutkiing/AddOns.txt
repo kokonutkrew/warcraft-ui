@@ -1,6 +1,26 @@
+<<<<<<< Updated upstream
 OPie_Classic: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: disabled
+=======
+!BugGrabber: disabled
+CameraOverShoulderFix: disabled
+MinimapButtonFrame: disabled
+MinimapButtonFrame_SkinPack: disabled
+ACU: disabled
+Bartender4: disabled
+BugSack: disabled
+DynamicCam: disabled
+Immersion: disabled
+Leatrix_Maps: disabled
+Leatrix_Plus: disabled
+MBB: disabled
+ElvUI: disabled
+ElvUI_OptionsUI: disabled
+WeakAurasCompanion: disabled
+WeakAurasArchive: disabled
+OPie_Classic: disabled
+>>>>>>> Stashed changes
 RaiderIO_DB_TW_H_R: disabled
 RaiderIO_DB_TW_H: disabled
 RaiderIO_DB_TW_A_R: disabled
@@ -13,6 +33,7 @@ RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_H: disabled
 RaiderIO_DB_EU_A_R: disabled
 RaiderIO_DB_EU_A: disabled
+<<<<<<< Updated upstream
 AAP-Core: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
@@ -121,6 +142,14 @@ OPie: disabled
 PersonalLootHelper: disabled
 PetJournalEnhanced: enabled
 Plater: disabled
+=======
+AutoOpen: disabled
+CaerdonWardrobe: enabled
+CovenantMissionHelper: disabled
+Gnobesy: disabled
+OPie: disabled
+PersonalLootHelper: disabled
+>>>>>>> Stashed changes
 PrettyReps: disabled
 RaiderIO: disabled
 RaiderIO_DB_US_A: disabled
@@ -128,15 +157,21 @@ RaiderIO_DB_US_H: disabled
 RaiderIO_DB_US_A_R: disabled
 RaiderIO_DB_US_H_R: disabled
 Rematch: disabled
+<<<<<<< Updated upstream
 sArena: disabled
 Simulationcraft: enabled
 Spy: disabled
 TheUndermineJournal: enabled
 TomTom: disabled
+=======
+Rematch_TSMPetValues: disabled
+Spy: disabled
+>>>>>>> Stashed changes
 WeakAuras: disabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
+<<<<<<< Updated upstream
 WorldQuestsList: disabled
 AutoShare: enabled
 DejaCharacterStats: disabled
@@ -144,6 +179,15 @@ TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
 DBM-Core: disabled
 DBM-DefaultSkin: disabled
+=======
+GSE: disabled
+GSE_GUI: disabled
+GSE_LDB: disabled
+TradeSkillMaster: disabled
+TradeSkillMaster_AppHelper: disabled
+RecklessAbandon: disabled
+DBM-Core: disabled
+>>>>>>> Stashed changes
 DBM-GUI: disabled
 DBM-StatusBarTimers: disabled
 DBM-Brawlers: disabled
@@ -153,6 +197,7 @@ DBM-Party-Shadowlands: disabled
 DBM-Shadowlands: disabled
 DBM-WorldEvents: disabled
 FastGuildInvite: disabled
+<<<<<<< Updated upstream
 CovenantMissionHelper: disabled
 Gnobesy: disabled
 MacroToolkit: disabled
@@ -165,3 +210,55 @@ GSE: disabled
 GSE_GUI: disabled
 GSE_LDB: disabled
 RecklessAbandon: disabled
+=======
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_AuraBarsMovers: disabled
+ElvUI_CustomTweaks: disabled
+ElvUI_DTBars2: disabled
+ElvUI_QuestXP: disabled
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AAP-Shadowlands: disabled
+Clique: disabled
+DeathNote: disabled
+Details: disabled
+Details_DeathGraphs: disabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_DataStorage: disabled
+Details_Streamer: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
+ExRT: disabled
+Guild_Roster_Manager: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+Myslot: disabled
+RCLootCouncil: disabled
+RCLootCouncil_EPGP: disabled
+RCLootCouncil_ExtraUtilities: disabled
+RCLootCouncil_GroupGear: disabled
+Simulationcraft: disabled
+WorldQuestsList: disabled
+AllTheThings: disabled
+GRA: disabled
+BtWQuests: disabled
+BtWQuestsBattleForAzerothPrologue: disabled
+BtWQuestsShadowlands: disabled
+BuyEmAll: disabled
+CanIMogIt: disabled
+Details_TargetCaller: disabled
+Details_TimeLine: disabled
+Details_ChartViewer: disabled
+GuildBankSnapshots: disabled
+GuildLotteryRaffle: disabled
+ItemTooltipProfessionIcons: disabled
+Prat-3.0: disabled
+Prat-3.0_Libraries: disabled
+TomTom: disabled
+Train-All: disabled
+WhereToGather: disabled
+>>>>>>> Stashed changes

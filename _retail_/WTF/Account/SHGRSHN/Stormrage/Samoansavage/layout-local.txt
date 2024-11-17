@@ -1,4 +1,5 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: AAP_PartyListFrame1
 FrameLevel: 1
 Anchor: TOP
@@ -14,10 +15,14 @@ Y: 86
 W: 640
 H: 512
 Frame: GRM_RosterChangeLogFrame
+=======
+Frame: ColorPickerFrame
+>>>>>>> Stashed changes
 FrameLevel: 1
 Anchor: CENTER
 X: 0
 Y: 0
+<<<<<<< Updated upstream
 W: 600
 H: 465
 Frame: PLH_LootedItemsFrame
@@ -27,3 +32,7 @@ X: 1
 Y: -233
 W: 400
 H: 140
+=======
+W: 365
+H: 200
+>>>>>>> Stashed changes

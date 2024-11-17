@@ -371,6 +371,14 @@ DBMPartyShadowlands_AllSavedVars = {
 				["SpecWarn334053moveawaySWNote"] = true,
 			},
 		},
+<<<<<<< Updated upstream
+=======
+		["2451"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+>>>>>>> Stashed changes
 		["2407"] = {
 			[2] = {
 				["SpecWarn322903movetoSWNote"] = true,
@@ -437,6 +445,67 @@ DBMPartyShadowlands_AllSavedVars = {
 				["SpecWarn318949dodgeSWSound"] = 1,
 			},
 		},
+<<<<<<< Updated upstream
+=======
+		["TazaveshTrash"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+		["2454"] = {
+			[2] = {
+				["Timer349934aiCVoice"] = 0,
+				["Timer320200aiCVoice"] = 0,
+				["SpecWarn350086runSWSound"] = 4,
+				["Yell350101"] = true,
+				["SpecWarn349627youSWNote"] = true,
+				["SpecWarn349663dodgeSWNote"] = true,
+				["SpecWarn350086runSWNote"] = true,
+				["SpecWarn350086run"] = true,
+				["Timer350101aiTColor"] = 1,
+				["Timer349663aiCVoice"] = 0,
+				["SpecWarn349954dispel"] = false,
+				["SpecWarn349663runSWSound"] = 4,
+				["Timer349797aiCVoice"] = 0,
+				["Timer350086aiTColor"] = 2,
+				["SpecWarn349627youSWSound"] = 1,
+				["SpecWarn349627you"] = true,
+				["SpecWarn349663dodgeSWSound"] = 2,
+				["InfoFrame"] = true,
+				["SetIconOnFeast"] = true,
+				["Timer350086ai"] = true,
+				["Yell349627shortfade"] = true,
+				["SpecWarn349663dodge"] = true,
+				["Timer350086aiCVoice"] = 0,
+				["Timer349797aiTColor"] = 3,
+				["Timer350101aiCVoice"] = 0,
+				["Timer320200aiTColor"] = 3,
+				["SpecWarn350101switchSWSound"] = 1,
+				["SpecWarn350101switchSWNote"] = true,
+				["Timer320200ai"] = true,
+				["Timer349987aiTColor"] = 3,
+				["Timer349934ai"] = true,
+				["Timer349987aiCVoice"] = 0,
+				["Timer349934aiTColor"] = 3,
+				["Enabled"] = true,
+				["SpecWarn349954dispelSWSound"] = 1,
+				["SpecWarn350101switch"] = true,
+				["announceother349627target"] = true,
+				["Timer349663ai"] = true,
+				["Timer349987ai"] = true,
+				["SpecWarn349987dodgeSWNote"] = true,
+				["Timer349797ai"] = true,
+				["Timer349663aiTColor"] = 2,
+				["SpecWarn349954dispelSWNote"] = true,
+				["SpecWarn349663run"] = true,
+				["SpecWarn349663runSWNote"] = true,
+				["Timer350101ai"] = true,
+				["SpecWarn349987dodgeSWSound"] = 2,
+				["Yell349627"] = true,
+				["SpecWarn349987dodge"] = true,
+			},
+		},
+>>>>>>> Stashed changes
 		["2392"] = {
 			[2] = {
 				["Timer334488cd"] = true,
@@ -501,6 +570,19 @@ DBMPartyShadowlands_AllSavedVars = {
 				["Timer325360nextcountTColor"] = 2,
 			},
 		},
+<<<<<<< Updated upstream
+=======
+		["2455"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+		["2437"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+>>>>>>> Stashed changes
 		["2423"] = {
 			[2] = {
 				["Timer325245cdCVoice"] = 0,
@@ -535,6 +617,60 @@ DBMPartyShadowlands_AllSavedVars = {
 				["SpecWarn325552defensiveSWNote"] = true,
 			},
 		},
+<<<<<<< Updated upstream
+=======
+		["2448"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+		["2410"] = {
+			[2] = {
+				["announce326171cast"] = true,
+				["Timer327646cdcountTColor"] = 5,
+				["Timer334970castCVoice"] = 0,
+				["Timer325725cdcount"] = true,
+				["SpecWarn325725moveawaySWNote"] = true,
+				["announceother325725target"] = true,
+				["SpecWarn327646defensiveSWNote"] = true,
+				["Timer325725cdcountCVoice"] = 0,
+				["Yell325725shortfade"] = true,
+				["Yell325725"] = true,
+				["Timer325258cdTColor"] = 3,
+				["Timer326171cd"] = true,
+				["Timer326171cdCVoice"] = 0,
+				["SpecWarn327646defensive"] = true,
+				["Timer325725cdcountTColor"] = 3,
+				["Timer327646cdcountCVoice"] = 0,
+				["Enabled"] = true,
+				["SpecWarn325258dodge"] = true,
+				["Timer334970cast"] = true,
+				["Timer326171cdTColor"] = 2,
+				["Timer334970castTColor"] = 6,
+				["SpecWarn327646defensiveSWSound"] = 2,
+				["Timer325258cd"] = true,
+				["SpecWarn324698moveto"] = true,
+				["Timer325258cdCVoice"] = 0,
+				["SpecWarn325258dodgeSWSound"] = 2,
+				["SpecWarn325725moveaway"] = true,
+				["SpecWarn325725moveawaySWSound"] = 1,
+				["SpecWarn324698movetoSWNote"] = true,
+				["SpecWarn325258dodgeSWNote"] = true,
+				["Timer327646cdcount"] = true,
+				["SpecWarn324698movetoSWSound"] = 3,
+			},
+		},
+		["2452"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+		["2436"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+>>>>>>> Stashed changes
 		["2413"] = {
 			[2] = {
 				["Timer328791next"] = true,
@@ -653,6 +789,10 @@ DBMPartyShadowlands_AllSavedVars = {
 				["SpecWarn332706interruptSWNote"] = true,
 				["announceother333227target"] = true,
 				["SpecWarn332156runSWSound"] = 2,
+<<<<<<< Updated upstream
+=======
+				["SpecWarn332666dispelSWNote"] = true,
+>>>>>>> Stashed changes
 				["SpecWarn333787spellSWNote"] = true,
 				["SpecWarn340026spellSWSound"] = 2,
 				["SpecWarn332612interrupt"] = true,
@@ -660,15 +800,25 @@ DBMPartyShadowlands_AllSavedVars = {
 				["announce342869spell"] = true,
 				["SpecWarn331927moveto"] = true,
 				["SpecWarn332612interruptSWSound"] = 1,
+<<<<<<< Updated upstream
 				["SpecWarn334493jump"] = true,
 				["SpecWarn334051dodge"] = true,
 				["SpecWarn332084interruptSWNote"] = true,
+=======
+				["SpecWarn332666dispel"] = true,
+				["SpecWarn334493jump"] = true,
+				["SpecWarn334051dodge"] = true,
+				["SpecWarn332666interruptSWNote"] = true,
+				["SpecWarn332084interruptSWNote"] = true,
+				["SpecWarn332666interrupt"] = true,
+>>>>>>> Stashed changes
 				["SpecWarn332671runSWNote"] = true,
 				["SpecWarn334493jumpSWSound"] = 1,
 				["SpecWarn333227dispelSWSound"] = 1,
 				["SpecWarn332706interruptSWSound"] = 1,
 				["SpecWarn334051dodgeSWNote"] = true,
 				["SpecWarn333787spellSWSound"] = 2,
+<<<<<<< Updated upstream
 				["SpecWarn333227dispel"] = true,
 				["SpecWarn257397interruptSWSound"] = 1,
 				["SpecWarn340026spell"] = true,
@@ -723,20 +873,55 @@ DBMPartyShadowlands_AllSavedVars = {
 				["SpecWarn325258dodgeSWNote"] = true,
 				["Timer327646cdcount"] = true,
 				["SpecWarn324698movetoSWSound"] = 3,
+=======
+				["SpecWarn331927movetoSWSound"] = 2,
+				["SpecWarn334051dodgeSWSound"] = 2,
+				["SpecWarn332666dispelSWSound"] = 1,
+				["SpecWarn332706interrupt"] = true,
+				["SpecWarn332612interruptSWNote"] = true,
+				["SpecWarn332671run"] = true,
+				["SpecWarn334493jumpSWNote"] = true,
+				["SpecWarn332084interruptSWSound"] = 1,
+				["SpecWarn340026spellSWNote"] = true,
+				["SpecWarn333227dispelSWNote"] = true,
+				["SpecWarn340026spell"] = true,
+				["SpecWarn332084interrupt"] = true,
+				["SpecWarn332156run"] = true,
+				["SpecWarn331927movetoSWNote"] = true,
+				["SpecWarn333227dispel"] = false,
+				["SpecWarn332666interruptSWSound"] = 1,
+				["Enabled"] = true,
+			},
+		},
+		["2449"] = {
+			[2] = {
+				["Enabled"] = true,
+>>>>>>> Stashed changes
 			},
 		},
 		["2415"] = {
 			[2] = {
+<<<<<<< Updated upstream
+=======
+				["SpecWarn328494dispelSWSound"] = 1,
+>>>>>>> Stashed changes
 				["Timer322574cd"] = true,
 				["SpecWarn322574switchSWSound"] = 1,
 				["SpecWarn322574switchSWNote"] = true,
 				["Timer322554next"] = true,
+<<<<<<< Updated upstream
 				["Yell322554"] = true,
 				["Timer322574cdTColor"] = 1,
+=======
+				["SpecWarn328494dispel"] = false,
+				["Yell322554"] = true,
+				["Enabled"] = true,
+>>>>>>> Stashed changes
 				["SpecWarn322554moveaway"] = true,
 				["SpecWarn322574switch"] = true,
 				["SpecWarn322554moveawaySWNote"] = true,
 				["NPAuraOnEnergy"] = true,
+<<<<<<< Updated upstream
 				["announceother322554target"] = true,
 				["Enabled"] = true,
 				["SpecWarn322554moveawaySWSound"] = 1,
@@ -744,6 +929,16 @@ DBMPartyShadowlands_AllSavedVars = {
 				["RangeFrame"] = true,
 				["Timer322574cdCVoice"] = 0,
 				["Timer322554nextTColor"] = 3,
+=======
+				["RangeFrame"] = true,
+				["announceother322554target"] = true,
+				["Timer322574cdCVoice"] = 0,
+				["Timer322574cdTColor"] = 1,
+				["Timer322554nextCVoice"] = 0,
+				["SpecWarn322554moveawaySWSound"] = 1,
+				["Timer322554nextTColor"] = 3,
+				["SpecWarn328494dispelSWNote"] = true,
+>>>>>>> Stashed changes
 			},
 		},
 		["2408"] = {

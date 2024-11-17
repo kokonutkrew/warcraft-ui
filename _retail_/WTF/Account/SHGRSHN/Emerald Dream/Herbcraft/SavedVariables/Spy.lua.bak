@@ -4,6 +4,7 @@ SpyPerCharDB = {
 	["IgnoreData"] = {
 	},
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
 		["Herpexio"] = 1608326277,
@@ -3235,11 +3236,25 @@ SpyPerCharDB = {
 			["guild"] = "Epic Naptime",
 			["zone"] = "Ardenweald",
 			["mapY"] = 0.45,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+	["PlayerData"] = {
+		["Crewz"] = {
+			["mapID"] = 1701,
+			["guild"] = "Idiots",
+			["zone"] = "Ardenweald",
+			["mapY"] = 0.41,
+>>>>>>> Stashed changes
 			["class"] = "DEMONHUNTER",
 			["isEnemy"] = true,
 			["race"] = "Blood Elf",
 			["isGuess"] = false,
 			["subZone"] = "Heart of the Forest",
+<<<<<<< Updated upstream
 			["mapX"] = 0.34,
 			["level"] = 60,
 			["time"] = 1615961910,
@@ -11359,6 +11374,12 @@ SpyPerCharDB = {
 			["level"] = 60,
 			["mapX"] = 0.46,
 			["subZone"] = "Ve'nari's Refuge",
+=======
+			["mapX"] = 0.37,
+			["level"] = 60,
+			["time"] = 1629941669,
+			["name"] = "Crewz",
+>>>>>>> Stashed changes
 		},
 	},
 }

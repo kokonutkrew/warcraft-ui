@@ -6,6 +6,7 @@ SpyPerCharDB = {
 	["KOSData"] = {
 	},
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Kilmeister-Stormreaver"] = {
 			["mapID"] = 13,
 			["zone"] = "Stormwind City",
@@ -60,6 +61,22 @@ SpyPerCharDB = {
 			["race"] = "Undead",
 			["time"] = 1608540633,
 			["subZone"] = "Alterac Valley",
+=======
+		["Mantee-Zul'jin"] = {
+			["mapID"] = 1355,
+			["guild"] = "Blood for Blood",
+			["zone"] = "Nazjatar",
+			["mapY"] = 0.32,
+			["class"] = "WARLOCK",
+			["isEnemy"] = true,
+			["race"] = "Undead",
+			["isGuess"] = false,
+			["subZone"] = "Bloodfin Village",
+			["mapX"] = 0.29,
+			["level"] = 50,
+			["time"] = 1624227037,
+			["name"] = "Mantee-Zul'jin",
+>>>>>>> Stashed changes
 		},
 	},
 }

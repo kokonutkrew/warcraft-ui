@@ -1,3 +1,18 @@
+VER 3 0100000000000006 "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END
+VER 3 0100000000000005 "Counterspell" "INV_MISC_QUESTIONMARK"
+#showtooltip counterspell
+/stopcasting
+/use counterspell
+END
+VER 3 0100000000000004 "Flamestrike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@cursor] flamestrike
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

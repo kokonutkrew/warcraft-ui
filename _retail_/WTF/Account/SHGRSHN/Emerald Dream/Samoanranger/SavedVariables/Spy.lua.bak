@@ -1,6 +1,7 @@
 
 SpyPerCharDB = {
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Krelandis"] = {
 			["mapID"] = 1670,
 			["zone"] = "Oribos",
@@ -319,10 +320,17 @@ SpyPerCharDB = {
 			["guild"] = "Progression Depression",
 			["zone"] = "Oribos",
 			["mapY"] = 0.34,
+=======
+		["Pyranis-Skywall"] = {
+			["guild"] = "Be Your True Mind",
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 1,
+>>>>>>> Stashed changes
 			["class"] = "PALADIN",
 			["isEnemy"] = true,
 			["race"] = "Blood Elf",
 			["isGuess"] = false,
+<<<<<<< Updated upstream
 			["subZone"] = "Hall of Holding",
 			["mapX"] = 0.64,
 			["level"] = 60,
@@ -3117,17 +3125,68 @@ SpyPerCharDB = {
 			["level"] = 60,
 			["mapX"] = 0.62,
 			["subZone"] = "Ring of Fates",
+=======
+			["time"] = 1618711197,
+			["level"] = 53,
+			["name"] = "Pyranis-Skywall",
+			["subZone"] = "",
+		},
+		["Phaqsham-Kil'jaeden"] = {
+			["guild"] = "Potential",
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 1,
+			["class"] = "SHAMAN",
+			["isEnemy"] = true,
+			["race"] = "Pandaren",
+			["isGuess"] = false,
+			["time"] = 1618711200,
+			["level"] = 51,
+			["name"] = "Phaqsham-Kil'jaeden",
+			["subZone"] = "",
+		},
+		["Darkiinha-Goldrinn"] = {
+			["guild"] = "Heavy Metal",
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 2,
+			["class"] = "MAGE",
+			["isEnemy"] = true,
+			["race"] = "Goblin",
+			["isGuess"] = false,
+			["time"] = 1618711198,
+			["level"] = 58,
+			["name"] = "Darkiinha-Goldrinn",
+			["subZone"] = "",
+		},
+		["Furryfemboi-Frostmourne"] = {
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 1,
+			["class"] = "WARLOCK",
+			["isEnemy"] = true,
+			["race"] = "Vulpera",
+			["isGuess"] = false,
+			["time"] = 1618711197,
+			["level"] = 56,
+			["name"] = "Furryfemboi-Frostmourne",
+			["subZone"] = "",
+>>>>>>> Stashed changes
 		},
 	},
 	["IgnoreData"] = {
 	},
 	["version"] = "1.1",
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
 		["Draazz"] = 1606942090,
 		["Herpexio"] = 1608326277,
 		["Kaijinn"] = 1611979218,
 		["Karthi"] = 1614298422,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+>>>>>>> Stashed changes
 	},
 }

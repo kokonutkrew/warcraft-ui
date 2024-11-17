@@ -2,11 +2,16 @@
 BtWQuests_Characters = {
 	{
 		["covenantID"] = 0,
+<<<<<<< Updated upstream
 		["class"] = 10,
+=======
+		["class"] = 8,
+>>>>>>> Stashed changes
 		["ignoredCategories"] = {
 		},
 		["achievements"] = {
 		},
+<<<<<<< Updated upstream
 		["race"] = "Gnome",
 		["level"] = 2,
 		["friendships"] = {
@@ -1744,6 +1749,10 @@ BtWQuests_Characters = {
 		},
 		["race"] = "Human",
 		["level"] = 48,
+=======
+		["race"] = "DarkIronDwarf",
+		["level"] = 38,
+>>>>>>> Stashed changes
 		["friendships"] = {
 		},
 		["realm"] = "Emerald Dream",
@@ -1752,6 +1761,7 @@ BtWQuests_Characters = {
 			[36592] = true,
 			[31879] = true,
 			[34823] = true,
+<<<<<<< Updated upstream
 			[34584] = true,
 			[34592] = true,
 			[34616] = true,
@@ -1794,10 +1804,36 @@ BtWQuests_Characters = {
 			[29553] = true,
 			[34434] = true,
 			[34442] = true,
+=======
+			[29596] = true,
+			[34592] = true,
+			[53470] = true,
+			[34616] = true,
+			[33612] = true,
+			[35166] = true,
+			[35174] = true,
+			[29640] = true,
+			[29644] = true,
+			[29401] = true,
+			[46729] = true,
+			[36792] = true,
+			[51351] = true,
+			[35055] = true,
+			[31493] = true,
+			[34824] = true,
+			[30995] = true,
+			[34585] = true,
+			[36633] = true,
+			[57559] = true,
+			[34378] = true,
+			[29764] = true,
+			[31553] = true,
+>>>>>>> Stashed changes
 			[31569] = true,
 			[31573] = true,
 			[31577] = true,
 			[31581] = true,
+<<<<<<< Updated upstream
 			[34737] = true,
 			[31589] = true,
 			[31593] = true,
@@ -2036,6 +2072,452 @@ BtWQuests_Characters = {
 			},
 		},
 		["faction"] = "Alliance",
+=======
+			[31585] = true,
+			[31589] = true,
+			[31593] = true,
+			[29573] = true,
+			[35064] = true,
+			[31880] = true,
+			[36610] = true,
+			[34076] = true,
+			[33359] = true,
+			[33112] = true,
+			[33120] = true,
+			[62708] = true,
+			[35176] = true,
+			[29641] = true,
+			[27605] = true,
+			[36707] = true,
+			[35556] = true,
+			[29657] = true,
+			[31825] = true,
+			[36252] = true,
+			[34775] = true,
+			[27633] = true,
+			[36251] = true,
+			[30969] = true,
+			[33062] = true,
+			[35280] = true,
+			[35033] = true,
+			[36571] = true,
+			[51369] = true,
+			[31490] = true,
+			[30984] = true,
+			[32008] = true,
+			[29803] = true,
+			[30996] = true,
+			[34587] = true,
+			[51170] = true,
+			[47098] = true,
+			[31584] = true,
+			[34364] = true,
+			[31785] = true,
+			[51465] = true,
+			[33113] = true,
+			[59641] = true,
+			[62709] = true,
+			[31550] = true,
+			[29540] = true,
+			[27733] = true,
+			[27737] = true,
+			[31821] = true,
+			[63012] = true,
+			[31574] = true,
+			[29538] = true,
+			[31582] = true,
+			[31586] = true,
+			[31590] = true,
+			[31831] = true,
+			[31827] = true,
+			[53131] = true,
+			[31823] = true,
+			[31309] = true,
+			[29574] = true,
+			[31826] = true,
+			[31556] = true,
+			[31881] = true,
+			[13807] = true,
+			[33815] = true,
+			[33533] = true,
+			[29763] = true,
+			[47099] = true,
+			[52462] = true,
+			[36660] = true,
+			[36706] = true,
+			[51486] = true,
+			[36626] = true,
+			[36437] = true,
+			[62710] = true,
+			[36708] = true,
+			[31578] = true,
+			[34174] = true,
+			[34692] = true,
+			[36624] = true,
+			[51283] = true,
+			[34461] = true,
+			[34724] = true,
+			[8237] = true,
+			[31551] = true,
+			[31570] = true,
+			[36595] = true,
+			[53124] = true,
+			[34660] = true,
+			[13094] = true,
+			[52128] = true,
+			[27917] = true,
+			[52654] = true,
+			[34583] = true,
+			[64655] = true,
+			[31832] = true,
+			[62745] = true,
+			[36629] = true,
+			[36563] = true,
+			[62655] = true,
+			[31824] = true,
+			[34584] = true,
+			[35649] = true,
+			[37187] = true,
+			[33115] = true,
+			[34586] = true,
+			[31990] = true,
+			[36709] = true,
+			[31555] = true,
+			[31549] = true,
+			[31308] = true,
+			[31822] = true,
+			[31571] = true,
+			[31830] = true,
+			[31579] = true,
+			[31583] = true,
+			[31587] = true,
+			[31591] = true,
+			[36797] = true,
+			[34765] = true,
+			[30983] = true,
+			[29567] = true,
+			[36203] = true,
+			[34462] = true,
+			[46727] = true,
+			[31878] = true,
+			[29597] = true,
+			[29591] = true,
+			[34582] = true,
+			[36630] = true,
+			[29412] = true,
+			[35881] = true,
+			[34375] = true,
+			[32675] = true,
+			[53500] = true,
+			[51229] = true,
+			[34646] = true,
+			[51994] = true,
+			[35065] = true,
+			[35063] = true,
+			[29643] = true,
+			[35050] = true,
+			[47189] = true,
+			[47962] = true,
+			[36495] = true,
+			[35530] = true,
+			[35236] = true,
+			[35828] = true,
+			[51572] = true,
+			[36480] = true,
+			[34503] = true,
+			[51341] = true,
+			[51349] = true,
+			[36567] = true,
+			[36509] = true,
+			[29539] = true,
+			[31575] = true,
+			[35834] = true,
+			[34822] = true,
+			[29645] = true,
+			[30998] = true,
+			[53206] = true,
+			[51242] = true,
+			[47186] = true,
+			[32674] = true,
+			[36605] = true,
+			[31588] = true,
+			[50096] = true,
+			[36432] = true,
+			[31828] = true,
+			[31548] = true,
+			[31552] = true,
+			[64514] = true,
+			[29590] = true,
+			[27739] = true,
+			[31568] = true,
+			[31572] = true,
+			[31576] = true,
+			[31580] = true,
+			[36520] = true,
+			[46728] = true,
+			[31592] = true,
+			[51569] = true,
+			[36436] = true,
+			[51350] = true,
+			[29568] = true,
+			[51366] = true,
+			[64262] = true,
+		},
+		["xpModifier"] = 0,
+		["renownLevel"] = 1,
+		["warMode"] = false,
+		["sex"] = 2,
+		["warModeBonus"] = 15,
+		["skills"] = {
+			[2553] = {
+				["maxLevel"] = 75,
+				["level"] = 1,
+			},
+			[186] = {
+				["maxLevel"] = 75,
+				["level"] = 4,
+			},
+			[2569] = {
+				["maxLevel"] = 75,
+				["level"] = 1,
+			},
+			[2556] = {
+				["maxLevel"] = 300,
+				["level"] = 4,
+			},
+			[2572] = {
+				["maxLevel"] = 300,
+				["level"] = 4,
+			},
+			[182] = {
+				["maxLevel"] = 75,
+				["level"] = 4,
+			},
+		},
+		["name"] = "Ashh",
+		["faction"] = "Alliance",
+		["professions"] = {
+			[186] = true,
+			[182] = true,
+			[356] = true,
+		},
+		["ignoredChains"] = {
+		},
+		["questsActive"] = {
+			[33066] = {
+				{
+					"0/1 Hagra's Shard", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Grogal's Shard", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"0/1 Kurgoth's Shard", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [3]
+			},
+			[51389] = {
+				{
+					"0/1 Private James rescued", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[27354] = {
+				{
+					"1/1 Silverlaine's Enchanted Crystal", -- [1]
+					"item", -- [2]
+					true, -- [3]
+				}, -- [1]
+				{
+					"1/5 Moontouched Wood", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"5/5 Ghostly Essence", -- [1]
+					"item", -- [2]
+					true, -- [3]
+				}, -- [3]
+			},
+			[51391] = {
+				{
+					"6/12 Faithless slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[47952] = {
+				{
+					"0/1 Ferry chartered to Stormsong Monastery", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[51394] = {
+				{
+					"0/4 Banners burned", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"1/4 Cannons crushed", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"0/2 Spires shattered", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [3]
+			},
+			[33075] = {
+				{
+					"0/1 Find Samaara at Embaari Village", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[52544] = {
+				{
+					"0/100 War Resources", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[37183] = {
+				{
+					"Speak to Dungar Longdrink to secure a flight to Talador.", -- [1]
+					"log", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[29575] = {
+				{
+					"0/1 Shaffar's Wrappings", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[11905] = {
+				{
+					"0/1 Interdimensional Rift Stalled", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[28398] = {
+				{
+					"0/6 Twilight Emissary slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Loregrain's Grimoire", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+			[35666] = {
+			},
+			[35686] = {
+				{
+					"0/1 Ask Rangari Rajess to fly you to Rangari Erdanii", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[33269] = {
+				{
+					"0/20 Gul'var orc slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[29691] = {
+				{
+					"0/5 Sanguine Hibiscus", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[27920] = {
+				{
+					"1/1 Baron Silverlaine slain", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [1]
+				{
+					"0/1 Commander Springvale slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+			[27604] = {
+				{
+					"0/1 Head of Jammal'an", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[11911] = {
+				{
+					"0/5 Arcane Splinter", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[11973] = {
+				{
+					"0/1 Keristrasza Laid to Rest", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[29658] = {
+				{
+					"0/1 Pathaleon the Calculator slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[36438] = {
+				{
+					"0/1 Saberon camp breached", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[29659] = {
+				{
+					"0/1 Blinding Fury", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[34704] = {
+			},
+			[36286] = {
+			},
+			[29570] = {
+				{
+					"0/1 Earthbinder Rayge Discovered", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Windcaller Claw Discovered", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+		},
+>>>>>>> Stashed changes
 		["reputations"] = {
 			[1169] = {
 				["barMin"] = 0,
@@ -2044,18 +2526,35 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+<<<<<<< Updated upstream
 			[1731] = {
 				["barMin"] = 3000,
 				["name"] = "Council of Exarchs",
 				["standing"] = 5,
 				["barMax"] = 9000,
 				["barValue"] = 3550,
+=======
+			[942] = {
+				["barMin"] = 0,
+				["name"] = "Cenarion Expedition",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 945,
+			},
+			[2104] = {
+				["barMin"] = 0,
+				["name"] = "Battle for Azeroth",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+>>>>>>> Stashed changes
 			},
 			[2160] = {
 				["barMin"] = 0,
 				["name"] = "Proudmoore Admiralty",
 				["standing"] = 4,
 				["barMax"] = 3000,
+<<<<<<< Updated upstream
 				["barValue"] = 1127,
 			},
 			[2164] = {
@@ -2096,10 +2595,25 @@ BtWQuests_Characters = {
 			[1245] = {
 				["barMin"] = 0,
 				["name"] = "Mists of Pandaria",
+=======
+				["barValue"] = 1025,
+			},
+			[1731] = {
+				["barMin"] = 3000,
+				["name"] = "Council of Exarchs",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 4250,
+			},
+			[1050] = {
+				["barMin"] = 0,
+				["name"] = "Valiance Expedition",
+>>>>>>> Stashed changes
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+<<<<<<< Updated upstream
 			[1090] = {
 				["barMin"] = 0,
 				["name"] = "Kirin Tor",
@@ -2113,6 +2627,14 @@ BtWQuests_Characters = {
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 500,
+=======
+			[2162] = {
+				["barMin"] = 0,
+				["name"] = "Storm's Wake",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 25,
+>>>>>>> Stashed changes
 			},
 			[1177] = {
 				["barMin"] = 0,
@@ -2121,6 +2643,44 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+<<<<<<< Updated upstream
+=======
+			[930] = {
+				["barMin"] = 3000,
+				["name"] = "Exodar",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3612,
+			},
+			[946] = {
+				["barMin"] = 0,
+				["name"] = "Honor Hold",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 1431,
+			},
+			[72] = {
+				["barMin"] = 3000,
+				["name"] = "Stormwind",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 4775,
+			},
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[1134] = {
+				["barMin"] = 0,
+				["name"] = "Gilneas",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 887,
+			},
+>>>>>>> Stashed changes
 			[1444] = {
 				["barMin"] = 0,
 				["name"] = "Warlords of Draenor",
@@ -2128,6 +2688,30 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+<<<<<<< Updated upstream
+=======
+			[1090] = {
+				["barMin"] = 3000,
+				["name"] = "Kirin Tor",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 3682,
+			},
+			[1011] = {
+				["barMin"] = 3000,
+				["name"] = "Lower City",
+				["standing"] = 5,
+				["barMax"] = 9000,
+				["barValue"] = 4527,
+			},
+			[980] = {
+				["barMin"] = 0,
+				["name"] = "The Burning Crusade",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+>>>>>>> Stashed changes
 			[2159] = {
 				["barMin"] = 3000,
 				["name"] = "7th Legion",
@@ -2135,12 +2719,21 @@ BtWQuests_Characters = {
 				["barMax"] = 9000,
 				["barValue"] = 3000,
 			},
+<<<<<<< Updated upstream
 			[1158] = {
 				["barMin"] = 0,
 				["name"] = "Guardians of Hyjal",
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 0,
+=======
+			[935] = {
+				["barMin"] = 0,
+				["name"] = "The Sha'tar",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 1010,
+>>>>>>> Stashed changes
 			},
 			[1162] = {
 				["barMin"] = 0,
@@ -2154,7 +2747,11 @@ BtWQuests_Characters = {
 				["name"] = "Ironforge",
 				["standing"] = 5,
 				["barMax"] = 9000,
+<<<<<<< Updated upstream
 				["barValue"] = 3100,
+=======
+				["barValue"] = 4512,
+>>>>>>> Stashed changes
 			},
 			[1097] = {
 				["barMin"] = 0,
@@ -2163,9 +2760,15 @@ BtWQuests_Characters = {
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+<<<<<<< Updated upstream
 			[1118] = {
 				["barMin"] = 0,
 				["name"] = "Classic",
+=======
+			[1037] = {
+				["barMin"] = 0,
+				["name"] = "Alliance Vanguard",
+>>>>>>> Stashed changes
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 0,
@@ -2175,13 +2778,18 @@ BtWQuests_Characters = {
 				["name"] = "Alliance",
 				["standing"] = 5,
 				["barMax"] = 9000,
+<<<<<<< Updated upstream
 				["barValue"] = 3300,
+=======
+				["barValue"] = 3812,
+>>>>>>> Stashed changes
 			},
 			[69] = {
 				["barMin"] = 3000,
 				["name"] = "Darnassus",
 				["standing"] = 5,
 				["barMax"] = 9000,
+<<<<<<< Updated upstream
 				["barValue"] = 3100,
 			},
 			[169] = {
@@ -2201,22 +2809,51 @@ BtWQuests_Characters = {
 			[1134] = {
 				["barMin"] = 0,
 				["name"] = "Gilneas",
+=======
+				["barValue"] = 3612,
+			},
+			[936] = {
+				["barMin"] = 0,
+				["name"] = "Shattrath City",
+>>>>>>> Stashed changes
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
+<<<<<<< Updated upstream
+=======
+			[970] = {
+				["barMin"] = 0,
+				["name"] = "Sporeggar",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 1385,
+			},
+>>>>>>> Stashed changes
 			[54] = {
 				["barMin"] = 3000,
 				["name"] = "Gnomeregan",
 				["standing"] = 5,
 				["barMax"] = 9000,
+<<<<<<< Updated upstream
 				["barValue"] = 3100,
+=======
+				["barValue"] = 3612,
+			},
+			[933] = {
+				["barMin"] = 0,
+				["name"] = "The Consortium",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 1159,
+>>>>>>> Stashed changes
 			},
 			[1353] = {
 				["barMin"] = 3000,
 				["name"] = "Tushui Pandaren",
 				["standing"] = 5,
 				["barMax"] = 9000,
+<<<<<<< Updated upstream
 				["barValue"] = 3100,
 			},
 			[1168] = {
@@ -2225,11 +2862,1752 @@ BtWQuests_Characters = {
 				["standing"] = 6,
 				["barMax"] = 21000,
 				["barValue"] = 9609,
+=======
+				["barValue"] = 3612,
+			},
+			[1168] = {
+				["barMin"] = 9000,
+				["name"] = "KokonutKrew",
+				["standing"] = 6,
+				["barMax"] = 21000,
+				["barValue"] = 13001,
+			},
+			[1515] = {
+				["barMin"] = 0,
+				["name"] = "Arakkoa Outcasts",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 1500,
+			},
+		},
+	}, -- [1]
+	{
+		["covenantID"] = 3,
+		["heartOfAzerothLevel"] = 53,
+		["class"] = 12,
+		["ignoredCategories"] = {
+		},
+		["achievements"] = {
+		},
+		["race"] = "NightElf",
+		["level"] = 60,
+		["friendships"] = {
+		},
+		["realm"] = "Emerald Dream",
+		["chromieTimeID"] = 0,
+		["questsCompleted"] = {
+			[34583] = true,
+			[57164] = true,
+			[34775] = true,
+			[49232] = true,
+			[33112] = true,
+			[59915] = true,
+			[49744] = true,
+			[47889] = true,
+			[60491] = true,
+			[31309] = true,
+			[52431] = true,
+			[52495] = true,
+			[34392] = true,
+			[36567] = true,
+			[34584] = true,
+			[51088] = true,
+			[61451] = true,
+			[47186] = true,
+			[31821] = true,
+			[63754] = true,
+			[33113] = true,
+			[49745] = true,
+			[47890] = true,
+			[60428] = true,
+			[60492] = true,
+			[52496] = true,
+			[34393] = true,
+			[59021] = true,
+			[34585] = true,
+			[51281] = true,
+			[33114] = true,
+			[59917] = true,
+			[49746] = true,
+			[37528] = true,
+			[47891] = true,
+			[52241] = true,
+			[40087] = true,
+			[60621] = true,
+			[38232] = true,
+			[62924] = true,
+			[54992] = true,
+			[34586] = true,
+			[51282] = true,
+			[31822] = true,
+			[51474] = true,
+			[33115] = true,
+			[47508] = true,
+			[49811] = true,
+			[59023] = true,
+			[52946] = true,
+			[34587] = true,
+			[51283] = true,
+			[33116] = true,
+			[37658] = true,
+			[34076] = true,
+			[36507] = true,
+			[40921] = true,
+			[57425] = true,
+			[31823] = true,
+			[59920] = true,
+			[54035] = true,
+			[52308] = true,
+			[44184] = true,
+			[60624] = true,
+			[64782] = true,
+			[34461] = true,
+			[57426] = true,
+			[51349] = true,
+			[39515] = true,
+			[35677] = true,
+			[50134] = true,
+			[35933] = true,
+			[64655] = true,
+			[60881] = true,
+			[34398] = true,
+			[31568] = true,
+			[40923] = true,
+			[57427] = true,
+			[31824] = true,
+			[49367] = true,
+			[57619] = true,
+			[35166] = true,
+			[39516] = true,
+			[47960] = true,
+			[50135] = true,
+			[46297] = true,
+			[38237] = true,
+			[58771] = true,
+			[38813] = true,
+			[53206] = true,
+			[34847] = true,
+			[57428] = true,
+			[51351] = true,
+			[49368] = true,
+			[39261] = true,
+			[57876] = true,
+			[58068] = true,
+			[33568] = true,
+			[47961] = true,
+			[50136] = true,
+			[52247] = true,
+			[60563] = true,
+			[58708] = true,
+			[31569] = true,
+			[34592] = true,
+			[46938] = true,
+			[31825] = true,
+			[37087] = true,
+			[61715] = true,
+			[51544] = true,
+			[57877] = true,
+			[53847] = true,
+			[60052] = true,
+			[64210] = true,
+			[60180] = true,
+			[47962] = true,
+			[60628] = true,
+			[40222] = true,
+			[48538] = true,
+			[57174] = true,
+			[49178] = true,
+			[61716] = true,
+			[35297] = true,
+			[57878] = true,
+			[37536] = true,
+			[47835] = true,
+			[56087] = true,
+			[48283] = true,
+			[60629] = true,
+			[48539] = true,
+			[62932] = true,
+			[31570] = true,
+			[57175] = true,
+			[31826] = true,
+			[57559] = true,
+			[63764] = true,
+			[59990] = true,
+			[60054] = true,
+			[51994] = true,
+			[60566] = true,
+			[60630] = true,
+			[60886] = true,
+			[38433] = true,
+			[38689] = true,
+			[57176] = true,
+			[42911] = true,
+			[51163] = true,
+			[61590] = true,
+			[51547] = true,
+			[57816] = true,
+			[37538] = true,
+			[35619] = true,
+			[35747] = true,
+			[60567] = true,
+			[52443] = true,
+			[31571] = true,
+			[50908] = true,
+			[38690] = true,
+			[57177] = true,
+			[49181] = true,
+			[31827] = true,
+			[57689] = true,
+			[59992] = true,
+			[45727] = true,
+			[35620] = true,
+			[58329] = true,
+			[60632] = true,
+			[48542] = true,
+			[48606] = true,
+			[38435] = true,
+			[50909] = true,
+			[57178] = true,
+			[38819] = true,
+			[51229] = true,
+			[63639] = true,
+			[33062] = true,
+			[57690] = true,
+			[55707] = true,
+			[60057] = true,
+			[47967] = true,
+			[60313] = true,
+			[58714] = true,
+			[38436] = true,
+			[31572] = true,
+			[7905] = true,
+			[57179] = true,
+			[13807] = true,
+			[63576] = true,
+			[51358] = true,
+			[57691] = true,
+			[55708] = true,
+			[57947] = true,
+			[51870] = true,
+			[49887] = true,
+			[33575] = true,
+			[47968] = true,
+			[60506] = true,
+			[60634] = true,
+			[62745] = true,
+			[48544] = true,
+			[58843] = true,
+			[57180] = true,
+			[57244] = true,
+			[51167] = true,
+			[53342] = true,
+			[51359] = true,
+			[53470] = true,
+			[51487] = true,
+			[55645] = true,
+			[57948] = true,
+			[37542] = true,
+			[62170] = true,
+			[33640] = true,
+			[58268] = true,
+			[39973] = true,
+			[60507] = true,
+			[58524] = true,
+			[60763] = true,
+			[62938] = true,
+			[31573] = true,
+			[48929] = true,
+			[34728] = true,
+			[51168] = true,
+			[63578] = true,
+			[51488] = true,
+			[57693] = true,
+			[35240] = true,
+			[51808] = true,
+			[52128] = true,
+			[33833] = true,
+			[60572] = true,
+			[54495] = true,
+			[56606] = true,
+			[60764] = true,
+			[40422] = true,
+			[63067] = true,
+			[38567] = true,
+			[61212] = true,
+			[38759] = true,
+			[51169] = true,
+			[33066] = true,
+			[57694] = true,
+			[35241] = true,
+			[57950] = true,
+			[33834] = true,
+			[58590] = true,
+			[58654] = true,
+			[48483] = true,
+			[31574] = true,
+			[51170] = true,
+			[31830] = true,
+			[49443] = true,
+			[41319] = true,
+			[35242] = true,
+			[31990] = true,
+			[47652] = true,
+			[57951] = true,
+			[58591] = true,
+			[62749] = true,
+			[58719] = true,
+			[54945] = true,
+			[59231] = true,
+			[49060] = true,
+			[61470] = true,
+			[34987] = true,
+			[53602] = true,
+			[63901] = true,
+			[47589] = true,
+			[47653] = true,
+			[57952] = true,
+			[58016] = true,
+			[53986] = true,
+			[52003] = true,
+			[52067] = true,
+			[58272] = true,
+			[52259] = true,
+			[60575] = true,
+			[58592] = true,
+			[48421] = true,
+			[58720] = true,
+			[60831] = true,
+			[63006] = true,
+			[58976] = true,
+			[31575] = true,
+			[59232] = true,
+			[27737] = true,
+			[59616] = true,
+			[49445] = true,
+			[47526] = true,
+			[56162] = true,
+			[52260] = true,
+			[58593] = true,
+			[58721] = true,
+			[58977] = true,
+			[54947] = true,
+			[53028] = true,
+			[57442] = true,
+			[51813] = true,
+			[60129] = true,
+			[52261] = true,
+			[44137] = true,
+			[60577] = true,
+			[29401] = true,
+			[50662] = true,
+			[38444] = true,
+			[58978] = true,
+			[34478] = true,
+			[59426] = true,
+			[51366] = true,
+			[33071] = true,
+			[33135] = true,
+			[63904] = true,
+			[59874] = true,
+			[49703] = true,
+			[37869] = true,
+			[60514] = true,
+			[60578] = true,
+			[38253] = true,
+			[56740] = true,
+			[38445] = true,
+			[58979] = true,
+			[59171] = true,
+			[38765] = true,
+			[57380] = true,
+			[57444] = true,
+			[61730] = true,
+			[61858] = true,
+			[49704] = true,
+			[55909] = true,
+			[64289] = true,
+			[60451] = true,
+			[36079] = true,
+			[40301] = true,
+			[62882] = true,
+			[58916] = true,
+			[58980] = true,
+			[31577] = true,
+			[59172] = true,
+			[38766] = true,
+			[57381] = true,
+			[53351] = true,
+			[27739] = true,
+			[49705] = true,
+			[52008] = true,
+			[47978] = true,
+			[48170] = true,
+			[60644] = true,
+			[40238] = true,
+			[62883] = true,
+			[60900] = true,
+			[36592] = true,
+			[40814] = true,
+			[34737] = true,
+			[51177] = true,
+			[53352] = true,
+			[51369] = true,
+			[57574] = true,
+			[39279] = true,
+			[49706] = true,
+			[60005] = true,
+			[39663] = true,
+			[47979] = true,
+			[48171] = true,
+			[60581] = true,
+			[60709] = true,
+			[58726] = true,
+			[62884] = true,
+			[60901] = true,
+			[63012] = true,
+			[31578] = true,
+			[51242] = true,
+			[49259] = true,
+			[57511] = true,
+			[63844] = true,
+			[57895] = true,
+			[60006] = true,
+			[60262] = true,
+			[48108] = true,
+			[53098] = true,
+			[34739] = true,
+			[49260] = true,
+			[57512] = true,
+			[59751] = true,
+			[60007] = true,
+			[58088] = true,
+			[47981] = true,
+			[48109] = true,
+			[60519] = true,
+			[60647] = true,
+			[44463] = true,
+			[34420] = true,
+			[31579] = true,
+			[48941] = true,
+			[34740] = true,
+			[61415] = true,
+			[61479] = true,
+			[51308] = true,
+			[59752] = true,
+			[33269] = true,
+			[60008] = true,
+			[60136] = true,
+			[47982] = true,
+			[48110] = true,
+			[39986] = true,
+			[60520] = true,
+			[60648] = true,
+			[48558] = true,
+			[48622] = true,
+			[36404] = true,
+			[34421] = true,
+			[61096] = true,
+			[48942] = true,
+			[40818] = true,
+			[34741] = true,
+			[57386] = true,
+			[51309] = true,
+			[57514] = true,
+			[59753] = true,
+			[35253] = true,
+			[55851] = true,
+			[60009] = true,
+			[56043] = true,
+			[52013] = true,
+			[50158] = true,
+			[39987] = true,
+			[40051] = true,
+			[48559] = true,
+			[60905] = true,
+			[31548] = true,
+			[31580] = true,
+			[48943] = true,
+			[61417] = true,
+			[57515] = true,
+			[59754] = true,
+			[63976] = true,
+			[58027] = true,
+			[43954] = true,
+			[60522] = true,
+			[52462] = true,
+			[42291] = true,
+			[60778] = true,
+			[52654] = true,
+			[34423] = true,
+			[57004] = true,
+			[40692] = true,
+			[48944] = true,
+			[34743] = true,
+			[61418] = true,
+			[57516] = true,
+			[55533] = true,
+			[47473] = true,
+			[63977] = true,
+			[60139] = true,
+			[60267] = true,
+			[48113] = true,
+			[60651] = true,
+			[40373] = true,
+			[31549] = true,
+			[31581] = true,
+			[34616] = true,
+			[57261] = true,
+			[57709] = true,
+			[59884] = true,
+			[51888] = true,
+			[58157] = true,
+			[60268] = true,
+			[52208] = true,
+			[13124] = true,
+			[62827] = true,
+			[40374] = true,
+			[60972] = true,
+			[34425] = true,
+			[42741] = true,
+			[48946] = true,
+			[61420] = true,
+			[57390] = true,
+			[55407] = true,
+			[51569] = true,
+			[63979] = true,
+			[37496] = true,
+			[58158] = true,
+			[60269] = true,
+			[60461] = true,
+			[62700] = true,
+			[40247] = true,
+			[62892] = true,
+			[31550] = true,
+			[31582] = true,
+			[53041] = true,
+			[59246] = true,
+			[57263] = true,
+			[61421] = true,
+			[63660] = true,
+			[59758] = true,
+			[63980] = true,
+			[58031] = true,
+			[11973] = true,
+			[58159] = true,
+			[60270] = true,
+			[52146] = true,
+			[58351] = true,
+			[64556] = true,
+			[48500] = true,
+			[58799] = true,
+			[57136] = true,
+			[57264] = true,
+			[47221] = true,
+			[63661] = true,
+			[57584] = true,
+			[33084] = true,
+			[59759] = true,
+			[47541] = true,
+			[55921] = true,
+			[58160] = true,
+			[60271] = true,
+			[52147] = true,
+			[58480] = true,
+			[56561] = true,
+			[44471] = true,
+			[34364] = true,
+			[31551] = true,
+			[31583] = true,
+			[63214] = true,
+			[63342] = true,
+			[57265] = true,
+			[29760] = true,
+			[63662] = true,
+			[55602] = true,
+			[57713] = true,
+			[55730] = true,
+			[59888] = true,
+			[57905] = true,
+			[64238] = true,
+			[60272] = true,
+			[37819] = true,
+			[40378] = true,
+			[52788] = true,
+			[34429] = true,
+			[57010] = true,
+			[46839] = true,
+			[59185] = true,
+			[49014] = true,
+			[57266] = true,
+			[61424] = true,
+			[47223] = true,
+			[35005] = true,
+			[49398] = true,
+			[59761] = true,
+			[43449] = true,
+			[59889] = true,
+			[64627] = true,
+			[64567] = true,
+			[64562] = true,
+			[63848] = true,
+			[64216] = true,
+			[64555] = true,
+			[40123] = true,
+			[64514] = true,
+			[60721] = true,
+			[34174] = true,
+			[44473] = true,
+			[52450] = true,
+			[38460] = true,
+			[31552] = true,
+			[31584] = true,
+			[46840] = true,
+			[64438] = true,
+			[63344] = true,
+			[57267] = true,
+			[49143] = true,
+			[64311] = true,
+			[47224] = true,
+			[64310] = true,
+			[49399] = true,
+			[57651] = true,
+			[57715] = true,
+			[64308] = true,
+			[63984] = true,
+			[64290] = true,
+			[35884] = true,
+			[37565] = true,
+			[60146] = true,
+			[49975] = true,
+			[60274] = true,
+			[52150] = true,
+			[64244] = true,
+			[64560] = true,
+			[58483] = true,
+			[60594] = true,
+			[64014] = true,
+			[48440] = true,
+			[59960] = true,
+			[62897] = true,
+			[62893] = true,
+			[58931] = true,
+			[52854] = true,
+			[63867] = true,
+			[46841] = true,
+			[63983] = true,
+			[63982] = true,
+			[59315] = true,
+			[51191] = true,
+			[63902] = true,
+			[57460] = true,
+			[63665] = true,
+			[63896] = true,
+			[63895] = true,
+			[57716] = true,
+			[61874] = true,
+			[63985] = true,
+			[57908] = true,
+			[63861] = true,
+			[58036] = true,
+			[63857] = true,
+			[63856] = true,
+			[33664] = true,
+			[63855] = true,
+			[63849] = true,
+			[64561] = true,
+			[58484] = true,
+			[63845] = true,
+			[62706] = true,
+			[40253] = true,
+			[48505] = true,
+			[25316] = true,
+			[63831] = true,
+			[58932] = true,
+			[34432] = true,
+			[34496] = true,
+			[46842] = true,
+			[59188] = true,
+			[63346] = true,
+			[53175] = true,
+			[47098] = true,
+			[63811] = true,
+			[57461] = true,
+			[41149] = true,
+			[49401] = true,
+			[59025] = true,
+			[57717] = true,
+			[55734] = true,
+			[63740] = true,
+			[57909] = true,
+			[60020] = true,
+			[60639] = true,
+			[60148] = true,
+			[39742] = true,
+			[50041] = true,
+			[37823] = true,
+			[63738] = true,
+			[50233] = true,
+			[13094] = true,
+			[63737] = true,
+			[13126] = true,
+			[60724] = true,
+			[48506] = true,
+			[62899] = true,
+			[58869] = true,
+			[47488] = true,
+			[63734] = true,
+			[63733] = true,
+			[46843] = true,
+			[55095] = true,
+			[62789] = true,
+			[57270] = true,
+			[47099] = true,
+			[63731] = true,
+			[49274] = true,
+			[63663] = true,
+			[49402] = true,
+			[63638] = true,
+			[59765] = true,
+			[63426] = true,
+			[63340] = true,
+			[62832] = true,
+			[51833] = true,
+			[63211] = true,
+			[51961] = true,
+			[56978] = true,
+			[63073] = true,
+			[60341] = true,
+			[36254] = true,
+			[52281] = true,
+			[58486] = true,
+			[57269] = true,
+			[42238] = true,
+			[40255] = true,
+			[48507] = true,
+			[62900] = true,
+			[62935] = true,
+			[62836] = true,
+			[34434] = true,
+			[31586] = true,
+			[63220] = true,
+			[55096] = true,
+			[62796] = true,
+			[60055] = true,
+			[50155] = true,
+			[44663] = true,
+			[47228] = true,
+			[55480] = true,
+			[63732] = true,
+			[55608] = true,
+			[57719] = true,
+			[55736] = true,
+			[62755] = true,
+			[62708] = true,
+			[62698] = true,
+			[62695] = true,
+			[60150] = true,
+			[52026] = true,
+			[50043] = true,
+			[52154] = true,
+			[37889] = true,
+			[52282] = true,
+			[62569] = true,
+			[62189] = true,
+			[62709] = true,
+			[40256] = true,
+			[42367] = true,
+			[31555] = true,
+			[52036] = true,
+			[63029] = true,
+			[34435] = true,
+			[54969] = true,
+			[59430] = true,
+			[61558] = true,
+			[60154] = true,
+			[60723] = true,
+			[60722] = true,
+			[55030] = true,
+			[49276] = true,
+			[53434] = true,
+			[49404] = true,
+			[59181] = true,
+			[59767] = true,
+			[59179] = true,
+			[58621] = true,
+			[57912] = true,
+			[57976] = true,
+			[58617] = true,
+			[47869] = true,
+			[52027] = true,
+			[50044] = true,
+			[57240] = true,
+			[52219] = true,
+			[52283] = true,
+			[58488] = true,
+			[52030] = true,
+			[58616] = true,
+			[42229] = true,
+			[42368] = true,
+			[29412] = true,
+			[62966] = true,
+			[58936] = true,
+			[34436] = true,
+			[31587] = true,
+			[61223] = true,
+			[61218] = true,
+			[59256] = true,
+			[60261] = true,
+			[60181] = true,
+			[60021] = true,
+			[61559] = true,
+			[57529] = true,
+			[49405] = true,
+			[37187] = true,
+			[47486] = true,
+			[59190] = true,
+			[38834] = true,
+			[49725] = true,
+			[57977] = true,
+			[47771] = true,
+			[39682] = true,
+			[52028] = true,
+			[37507] = true,
+			[52156] = true,
+			[57009] = true,
+			[52284] = true,
+			[62939] = true,
+			[60600] = true,
+			[13127] = true,
+			[37935] = true,
+			[42369] = true,
+			[40386] = true,
+			[62967] = true,
+			[59147] = true,
+			[44672] = true,
+			[56350] = true,
+			[56089] = true,
+			[38723] = true,
+			[61552] = true,
+			[59321] = true,
+			[55919] = true,
+			[55731] = true,
+			[55400] = true,
+			[51389] = true,
+			[59641] = true,
+			[55374] = true,
+			[47487] = true,
+			[59833] = true,
+			[59897] = true,
+			[61550] = true,
+			[47743] = true,
+			[55995] = true,
+			[39683] = true,
+			[52029] = true,
+			[60281] = true,
+			[53583] = true,
+			[54946] = true,
+			[52285] = true,
+			[49295] = true,
+			[48575] = true,
+			[58618] = true,
+			[61553] = true,
+			[57291] = true,
+			[60857] = true,
+			[49755] = true,
+			[63032] = true,
+			[56955] = true,
+			[54972] = true,
+			[59130] = true,
+			[59210] = true,
+			[61305] = true,
+			[60661] = true,
+			[34822] = true,
+			[59314] = true,
+			[63134] = true,
+			[63071] = true,
+			[63736] = true,
+			[57676] = true,
+			[51582] = true,
+			[57787] = true,
+			[63030] = true,
+			[59962] = true,
+			[49791] = true,
+			[63008] = true,
+			[39684] = true,
+			[43842] = true,
+			[60013] = true,
+			[52158] = true,
+			[56459] = true,
+			[50239] = true,
+			[62697] = true,
+			[62898] = true,
+			[58619] = true,
+			[60730] = true,
+			[62894] = true,
+			[63033] = true,
+			[62969] = true,
+			[34375] = true,
+			[34439] = true,
+			[47287] = true,
+			[36614] = true,
+			[55101] = true,
+			[51280] = true,
+			[59323] = true,
+			[34823] = true,
+			[57994] = true,
+			[47489] = true,
+			[51391] = true,
+			[35079] = true,
+			[53566] = true,
+			[57724] = true,
+			[48111] = true,
+			[50157] = true,
+			[37510] = true,
+			[49792] = true,
+			[51903] = true,
+			[51967] = true,
+			[52031] = true,
+			[40816] = true,
+			[50910] = true,
+			[52205] = true,
+			[52287] = true,
+			[55729] = true,
+			[34422] = true,
+			[58620] = true,
+			[51150] = true,
+			[42372] = true,
+			[60859] = true,
+			[56829] = true,
+			[61355] = true,
+			[34440] = true,
+			[34504] = true,
+			[36615] = true,
+			[59196] = true,
+			[61048] = true,
+			[49234] = true,
+			[34824] = true,
+			[57405] = true,
+			[61852] = true,
+			[53439] = true,
+			[59644] = true,
+			[57661] = true,
+			[37215] = true,
+			[49601] = true,
+			[63994] = true,
+			[58045] = true,
+			[49793] = true,
+			[51904] = true,
+			[51968] = true,
+			[52032] = true,
+			[34817] = true,
+			[58104] = true,
+			[64506] = true,
+			[52288] = true,
+			[56446] = true,
+			[34925] = true,
+			[13128] = true,
+			[52544] = true,
+			[31553] = true,
+			[62907] = true,
+			[38407] = true,
+			[58941] = true,
+			[60453] = true,
+			[63163] = true,
+			[50531] = true,
+			[38727] = true,
+			[27733] = true,
+			[63051] = true,
+			[51201] = true,
+			[49218] = true,
+			[47235] = true,
+			[34431] = true,
+			[63739] = true,
+			[49794] = true,
+			[59773] = true,
+			[49602] = true,
+			[51916] = true,
+			[39495] = true,
+			[53888] = true,
+			[60220] = true,
+			[51969] = true,
+			[58174] = true,
+			[60637] = true,
+			[48945] = true,
+			[48419] = true,
+			[52289] = true,
+			[56447] = true,
+			[60733] = true,
+			[58622] = true,
+			[48451] = true,
+			[57714] = true,
+			[62908] = true,
+			[36862] = true,
+			[34378] = true,
+			[34442] = true,
+			[31590] = true,
+			[55040] = true,
+			[48963] = true,
+			[31832] = true,
+			[51552] = true,
+			[51279] = true,
+			[52203] = true,
+			[57471] = true,
+			[51394] = true,
+			[31878] = true,
+			[33120] = true,
+			[59774] = true,
+			[39518] = true,
+			[51714] = true,
+			[59966] = true,
+			[33419] = true,
+			[35530] = true,
+			[39688] = true,
+			[52034] = true,
+			[57983] = true,
+			[40008] = true,
+			[56320] = true,
+			[52290] = true,
+			[46213] = true,
+			[58751] = true,
+			[58623] = true,
+			[56640] = true,
+			[42375] = true,
+			[60218] = true,
+			[33570] = true,
+			[57102] = true,
+			[44678] = true,
+			[40254] = true,
+			[58011] = true,
+			[38729] = true,
+			[40379] = true,
+			[59327] = true,
+			[51331] = true,
+			[55361] = true,
+			[55425] = true,
+			[53442] = true,
+			[58086] = true,
+			[35019] = true,
+			[61426] = true,
+			[43993] = true,
+			[51715] = true,
+			[39685] = true,
+			[57984] = true,
+			[52204] = true,
+			[39689] = true,
+			[52035] = true,
+			[60287] = true,
+			[52291] = true,
+			[39262] = true,
+			[40009] = true,
+			[62718] = true,
+			[62654] = true,
+			[60671] = true,
+			[60735] = true,
+			[59997] = true,
+			[57025] = true,
+			[60221] = true,
+			[60222] = true,
+			[48773] = true,
+			[31591] = true,
+			[59994] = true,
+			[59200] = true,
+			[39050] = true,
+			[53443] = true,
+			[58433] = true,
+			[55362] = true,
+			[55426] = true,
+			[51396] = true,
+			[33037] = true,
+			[55618] = true,
+			[59776] = true,
+			[31576] = true,
+			[61951] = true,
+			[57677] = true,
+			[57985] = true,
+			[63429] = true,
+			[39690] = true,
+			[60224] = true,
+			[33572] = true,
+			[60219] = true,
+			[48198] = true,
+			[60480] = true,
+			[60179] = true,
+			[62655] = true,
+			[59015] = true,
+			[56642] = true,
+			[48518] = true,
+			[34445] = true,
+			[63359] = true,
+			[57538] = true,
+			[46727] = true,
+			[57026] = true,
+			[57711] = true,
+			[49926] = true,
+			[53124] = true,
+			[34765] = true,
+			[60223] = true,
+			[55363] = true,
+			[57474] = true,
+			[53444] = true,
+			[41226] = true,
+			[47431] = true,
+			[35725] = true,
+			[53849] = true,
+			[61952] = true,
+			[53441] = true,
+			[57986] = true,
+			[39691] = true,
+			[33550] = true,
+			[60225] = true,
+			[60289] = true,
+			[60152] = true,
+			[59760] = true,
+			[48199] = true,
+			[60545] = true,
+			[49995] = true,
+			[37649] = true,
+			[60737] = true,
+			[48519] = true,
+			[59198] = true,
+			[62085] = true,
+			[46728] = true,
+			[34446] = true,
+			[31592] = true,
+			[59959] = true,
+			[59202] = true,
+			[61313] = true,
+			[31828] = true,
+			[48455] = true,
+			[47189] = true,
+			[34958] = true,
+			[53445] = true,
+			[31880] = true,
+			[34438] = true,
+			[31556] = true,
+			[59770] = true,
+			[32008] = true,
+			[33359] = true,
+			[57987] = true,
+			[56004] = true,
+			[39692] = true,
+			[60226] = true,
+			[47329] = true,
+			[52790] = true,
+			[53332] = true,
+			[48200] = true,
+			[40076] = true,
+			[59206] = true,
+			[60338] = true,
+			[56644] = true,
+			[48520] = true,
+			[53194] = true,
+			[46732] = true,
+			[46729] = true,
+			[48776] = true,
+			[31879] = true,
+			[34575] = true,
+			[42827] = true,
+			[34437] = true,
+			[48165] = true,
+			[60229] = true,
+			[59199] = true,
+			[51490] = true,
+			[53446] = true,
+			[38728] = true,
+			[49480] = true,
+			[33168] = true,
+			[35279] = true,
+			[59907] = true,
+			[56881] = true,
+			[59223] = true,
+			[47867] = true,
+			[59762] = true,
+			[52039] = true,
+			[52041] = true,
+			[40077] = true,
+			[59757] = true,
+			[57190] = true,
+			[35983] = true,
+			[61956] = true,
+			[31588] = true,
+			[34192] = true,
+			[48521] = true,
+			[51350] = true,
+			[31589] = true,
+			[46730] = true,
+			[31593] = true,
+			[59996] = true,
+			[51190] = true,
+			[31785] = true,
+			[51144] = true,
+			[49161] = true,
+			[49225] = true,
+			[57477] = true,
+			[59766] = true,
+			[31881] = true,
+			[63810] = true,
+			[55175] = true,
+			[45515] = true,
+			[61955] = true,
+			[62019] = true,
+			[47754] = true,
+			[54087] = true,
+			[39694] = true,
+			[52040] = true,
+			[60292] = true,
+			[39047] = true,
+			[50185] = true,
+			[48202] = true,
+			[57710] = true,
+			[44120] = true,
+			[58117] = true,
+			[48522] = true,
+			[34193] = true,
+			[58821] = true,
+			[49929] = true,
+			[51129] = true,
+			[40909] = true,
+			[51193] = true,
+			[59197] = true,
+			[51159] = true,
+			[63363] = true,
+			[48986] = true,
+			[29386] = true,
+			[49226] = true,
+			[53384] = true,
+			[51401] = true,
+			[51465] = true,
+			[43341] = true,
+			[57447] = true,
+			[40011] = true,
+			[47627] = true,
+			[59973] = true,
+			[53896] = true,
+			[57007] = true,
+			[56131] = true,
+			[54088] = true,
+			[51192] = true,
+			[51571] = true,
+			[34692] = true,
+			[48203] = true,
+			[41694] = true,
+			[59755] = true,
+			[52489] = true,
+			[60738] = true,
+			[48523] = true,
+			[62785] = true,
+			[59011] = true,
+			[31831] = true,
+			[59014] = true,
+			[35176] = true,
+			[38672] = true,
+			[57159] = true,
+			[40012] = true,
+			[59756] = true,
+			[36881] = true,
+			[52038] = true,
+			[52451] = true,
+			[51402] = true,
+			[41803] = true,
+			[35154] = true,
+			[60156] = true,
+			[35174] = true,
+			[51722] = true,
+			[59974] = true,
+			[49803] = true,
+			[49239] = true,
+			[47884] = true,
+			[52042] = true,
+			[56643] = true,
+			[52170] = true,
+			[56328] = true,
+			[37969] = true,
+			[39686] = true,
+			[37890] = true,
+			[52490] = true,
+			[48460] = true,
+			[48524] = true,
+			[59009] = true,
+			[47641] = true,
+			[33613] = true,
+			[46733] = true,
+			[51572] = true,
+			[61190] = true,
+			[42831] = true,
+			[33869] = true,
+			[57288] = true,
+			[51211] = true,
+			[47181] = true,
+			[8237] = true,
+			[55497] = true,
+			[47485] = true,
+			[44679] = true,
+			[48453] = true,
+			[58800] = true,
+			[59911] = true,
+			[39049] = true,
+			[49804] = true,
+			[56641] = true,
+			[57131] = true,
+			[49996] = true,
+			[51395] = true,
+			[52171] = true,
+			[60149] = true,
+			[60487] = true,
+			[56457] = true,
+			[60151] = true,
+			[52491] = true,
+			[62790] = true,
+			[60521] = true,
+			[58431] = true,
+			[60217] = true,
+			[57949] = true,
+			[46734] = true,
+			[60557] = true,
+			[57097] = true,
+			[57161] = true,
+			[53131] = true,
+			[57982] = true,
+			[34836] = true,
+			[46816] = true,
+			[57481] = true,
+			[51570] = true,
+			[36861] = true,
+			[51489] = true,
+			[31585] = true,
+			[47222] = true,
+			[60638] = true,
+			[62023] = true,
+			[57993] = true,
+			[49869] = true,
+			[64262] = true,
+			[52860] = true,
+			[61099] = true,
+			[52172] = true,
+			[60856] = true,
+			[34462] = true,
+			[50432] = true,
+			[52428] = true,
+			[52492] = true,
+			[62791] = true,
+			[50573] = true,
+			[55210] = true,
+			[61107] = true,
+			[58473] = true,
+			[61541] = true,
+			[60555] = true,
+			[57098] = true,
+			[59209] = true,
+			[63367] = true,
+			[53198] = true,
+			[52286] = true,
+			[49230] = true,
+			[51341] = true,
+			[62890] = true,
+			[38725] = true,
+			[51418] = true,
+			[62891] = true,
+			[60631] = true,
+			[64007] = true,
+			[60056] = true,
+			[49806] = true,
+			[57446] = true,
+			[57979] = true,
+			[37934] = true,
+			[63070] = true,
+			[52173] = true,
+			[57189] = true,
+			[57173] = true,
+			[31308] = true,
+			[56942] = true,
+			[52493] = true,
+			[55932] = true,
+			[62856] = true,
+			[60839] = true,
+			[63215] = true,
+			[61542] = true,
+			[61065] = true,
+			[60053] = true,
+			[34582] = true,
+			[34646] = true,
+			[55056] = true,
+			[53197] = true,
+			[61475] = true,
+			[36797] = true,
+			[27726] = true,
+			[62710] = true,
+			[62808] = true,
+			[45393] = true,
+			[53645] = true,
+			[56156] = true,
+			[59914] = true,
+			[52859] = true,
+			[49807] = true,
+			[51918] = true,
+			[47888] = true,
+			[47952] = true,
+			[58090] = true,
+			[57182] = true,
+			[33815] = true,
+			[58589] = true,
+			[52473] = true,
+			[52789] = true,
+			[52494] = true,
+			[62793] = true,
+			[62857] = true,
+			[62837] = true,
+			[57037] = true,
+			[58724] = true,
+			[58723] = true,
+			[61216] = true,
+			[49369] = true,
+		},
+		["xpModifier"] = 0,
+		["renownLevel"] = 10,
+		["warModeBonus"] = 15,
+		["reputations"] = {
+			[2413] = {
+				["barMin"] = 3000,
+				["name"] = "Court of Harvesters",
+				["standing"] = 5,
+				["barValue"] = 3980,
+				["barMax"] = 9000,
+			},
+			[1012] = {
+				["barMin"] = 3000,
+				["name"] = "Ashtongue Deathsworn",
+				["standing"] = 5,
+				["barValue"] = 4916,
+				["barMax"] = 9000,
+			},
+			[891] = {
+				["barMin"] = 0,
+				["name"] = "Alliance Forces",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1156] = {
+				["barMin"] = 0,
+				["name"] = "The Ashen Verdict",
+				["standing"] = 4,
+				["barValue"] = 1619,
+				["barMax"] = 3000,
+			},
+			[1900] = {
+				["barMin"] = 0,
+				["name"] = "Court of Farondis",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 1400,
+			},
+			[1444] = {
+				["barMin"] = 0,
+				["name"] = "Warlords of Draenor",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2407] = {
+				["barMin"] = 0,
+				["name"] = "The Ascended",
+				["standing"] = 4,
+				["barValue"] = 1625,
+				["barMax"] = 3000,
+			},
+			[1975] = {
+				["barMin"] = 0,
+				["name"] = "Conjurer Margoss",
+				["standing"] = 1,
+				["barValue"] = 250,
+				["barMax"] = 8400,
+			},
+			[2414] = {
+				["barMin"] = 0,
+				["name"] = "Shadowlands",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2170] = {
+				["barMin"] = 0,
+				["name"] = "Argussian Reach",
+				["standing"] = 4,
+				["barValue"] = 2450,
+				["barMax"] = 3000,
+			},
+			[1168] = {
+				["barMin"] = 42000,
+				["name"] = "KokonutKrew",
+				["standing"] = 8,
+				["barValue"] = 42000,
+				["barMax"] = 42000,
+			},
+			[909] = {
+				["barMin"] = 0,
+				["name"] = "Darkmoon Faire",
+				["standing"] = 4,
+				["barValue"] = 2275,
+				["barMax"] = 3000,
+			},
+			[1353] = {
+				["barMin"] = 3000,
+				["name"] = "Tushui Pandaren",
+				["standing"] = 5,
+				["barValue"] = 4082,
+				["barMax"] = 9000,
+			},
+			[2391] = {
+				["barMin"] = 3000,
+				["name"] = "Rustbolt Resistance",
+				["standing"] = 5,
+				["barValue"] = 3745,
+				["barMax"] = 9000,
+			},
+			[2163] = {
+				["barMin"] = 0,
+				["name"] = "Tortollan Seekers",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2470] = {
+				["barMin"] = 0,
+				["name"] = "Death's Advance",
+				["standing"] = 4,
+				["barValue"] = 1350,
+				["barMax"] = 3000,
+			},
+			[1948] = {
+				["barMin"] = 0,
+				["name"] = "Valarjar",
+				["standing"] = 4,
+				["barValue"] = 1750,
+				["barMax"] = 3000,
+			},
+			[2161] = {
+				["barMin"] = 3000,
+				["name"] = "Order of Embers",
+				["standing"] = 5,
+				["barValue"] = 7135,
+				["barMax"] = 9000,
+			},
+			[47] = {
+				["barMin"] = 3000,
+				["name"] = "Ironforge",
+				["standing"] = 5,
+				["barValue"] = 4082,
+				["barMax"] = 9000,
+			},
+			[1834] = {
+				["barMin"] = 0,
+				["name"] = "Legion",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1098] = {
+				["barMin"] = 0,
+				["name"] = "Knights of the Ebon Blade",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1169] = {
+				["barMin"] = 0,
+				["name"] = "Guild",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1090] = {
+				["barMin"] = 0,
+				["name"] = "Kirin Tor",
+				["standing"] = 4,
+				["barValue"] = 455,
+				["barMax"] = 3000,
+			},
+			[936] = {
+				["barMin"] = 0,
+				["name"] = "Shattrath City",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2164] = {
+				["barMin"] = 3000,
+				["name"] = "Champions of Azeroth",
+				["standing"] = 5,
+				["barValue"] = 3000,
+				["barMax"] = 9000,
+			},
+			[1037] = {
+				["barMin"] = 0,
+				["name"] = "Alliance Vanguard",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2432] = {
+				["barMin"] = 1000,
+				["name"] = "Ve'nari",
+				["standing"] = 2,
+				["barValue"] = 5025,
+				["barMax"] = 7000,
+			},
+			[509] = {
+				["barMin"] = 0,
+				["name"] = "The League of Arathor",
+				["standing"] = 4,
+				["barValue"] = 1500,
+				["barMax"] = 3000,
+			},
+			[2464] = {
+				["barMin"] = 0,
+				["name"] = "Court of Night",
+				["standing"] = 1,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[21] = {
+				["barMin"] = 0,
+				["name"] = "Booty Bay",
+				["standing"] = 4,
+				["barValue"] = 500,
+				["barMax"] = 3000,
+			},
+			[2472] = {
+				["barMin"] = 0,
+				["name"] = "The Archivists' Codex",
+				["standing"] = 1,
+				["barValue"] = 1133,
+				["barMax"] = 3000,
+			},
+			[2165] = {
+				["barMin"] = 3000,
+				["name"] = "Army of the Light",
+				["standing"] = 5,
+				["barValue"] = 6625,
+				["barMax"] = 9000,
+			},
+			[890] = {
+				["barMin"] = 0,
+				["name"] = "Silverwing Sentinels",
+				["standing"] = 4,
+				["barValue"] = 400,
+				["barMax"] = 3000,
+			},
+			[1894] = {
+				["barMin"] = 0,
+				["name"] = "The Wardens",
+				["standing"] = 4,
+				["barValue"] = 350,
+				["barMax"] = 3000,
+			},
+			[930] = {
+				["barMin"] = 3000,
+				["name"] = "Exodar",
+				["standing"] = 5,
+				["barValue"] = 4082,
+				["barMax"] = 9000,
+			},
+			[1158] = {
+				["barMin"] = 0,
+				["name"] = "Guardians of Hyjal",
+				["standing"] = 4,
+				["barValue"] = 150,
+				["barMax"] = 3000,
+			},
+			[1859] = {
+				["barMin"] = 0,
+				["name"] = "The Nightfallen",
+				["standing"] = 4,
+				["barValue"] = 2625,
+				["barMax"] = 3000,
+			},
+			[2465] = {
+				["barMin"] = 3000,
+				["name"] = "The Wild Hunt",
+				["standing"] = 5,
+				["barValue"] = 5612,
+				["barMax"] = 9000,
+			},
+			[2410] = {
+				["barMin"] = 0,
+				["name"] = "The Undying Army",
+				["standing"] = 4,
+				["barValue"] = 2310,
+				["barMax"] = 3000,
+			},
+			[1162] = {
+				["barMin"] = 0,
+				["name"] = "Cataclysm",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[69] = {
+				["barMin"] = 3000,
+				["name"] = "Darnassus",
+				["standing"] = 5,
+				["barValue"] = 4982,
+				["barMax"] = 9000,
+			},
+			[1091] = {
+				["barMin"] = 0,
+				["name"] = "The Wyrmrest Accord",
+				["standing"] = 4,
+				["barValue"] = 2145,
+				["barMax"] = 3000,
+			},
+			[72] = {
+				["barMin"] = 21000,
+				["name"] = "Stormwind",
+				["standing"] = 7,
+				["barValue"] = 27448,
+				["barMax"] = 42000,
+			},
+			[2135] = {
+				["barMin"] = 0,
+				["name"] = "Chromie",
+				["standing"] = 1,
+				["barValue"] = 0,
+				["barMax"] = 1000,
+			},
+			[1068] = {
+				["barMin"] = 0,
+				["name"] = "Explorers' League",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[980] = {
+				["barMin"] = 0,
+				["name"] = "The Burning Crusade",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2159] = {
+				["barMin"] = 9000,
+				["name"] = "7th Legion",
+				["standing"] = 6,
+				["barValue"] = 10035,
+				["barMax"] = 21000,
+>>>>>>> Stashed changes
 			},
 			[2104] = {
 				["barMin"] = 0,
 				["name"] = "Battle for Azeroth",
 				["standing"] = 4,
+<<<<<<< Updated upstream
 				["barMax"] = 3000,
 				["barValue"] = 0,
 			},
@@ -2250,17 +4628,855 @@ BtWQuests_Characters = {
 			[42234] = {
 				{
 					"0/4 Complete 4 world quests in Stormheim", -- [1]
+=======
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[169] = {
+				["barMin"] = 0,
+				["name"] = "Steamwheedle Cartel",
+				["standing"] = 4,
+				["barValue"] = 500,
+				["barMax"] = 3000,
+			},
+			[609] = {
+				["barMin"] = 0,
+				["name"] = "Cenarion Circle",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[989] = {
+				["barMin"] = 0,
+				["name"] = "Keepers of Time",
+				["standing"] = 4,
+				["barValue"] = 633,
+				["barMax"] = 3000,
+			},
+			[2400] = {
+				["barMin"] = 3000,
+				["name"] = "Waveblade Ankoan",
+				["standing"] = 5,
+				["barValue"] = 3200,
+				["barMax"] = 9000,
+			},
+			[469] = {
+				["barMin"] = 3000,
+				["name"] = "Alliance",
+				["standing"] = 5,
+				["barValue"] = 4282,
+				["barMax"] = 9000,
+			},
+			[1134] = {
+				["barMin"] = 0,
+				["name"] = "Gilneas",
+				["standing"] = 4,
+				["barValue"] = 982,
+				["barMax"] = 3000,
+			},
+			[2160] = {
+				["barMin"] = 3000,
+				["name"] = "Proudmoore Admiralty",
+				["standing"] = 5,
+				["barValue"] = 3559,
+				["barMax"] = 9000,
+			},
+			[2045] = {
+				["barMin"] = 3000,
+				["name"] = "Armies of Legionfall",
+				["standing"] = 5,
+				["barValue"] = 3260,
+				["barMax"] = 9000,
+			},
+			[935] = {
+				["barMin"] = 0,
+				["name"] = "The Sha'tar",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1731] = {
+				["barMin"] = 3000,
+				["name"] = "Council of Exarchs",
+				["standing"] = 5,
+				["barValue"] = 6000,
+				["barMax"] = 9000,
+			},
+			[2162] = {
+				["barMin"] = 3000,
+				["name"] = "Storm's Wake",
+				["standing"] = 5,
+				["barValue"] = 3415,
+				["barMax"] = 9000,
+			},
+			[1097] = {
+				["barMin"] = 0,
+				["name"] = "Wrath of the Lich King",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[946] = {
+				["barMin"] = 0,
+				["name"] = "Honor Hold",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1011] = {
+				["barMin"] = 0,
+				["name"] = "Lower City",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[54] = {
+				["barMin"] = 3000,
+				["name"] = "Gnomeregan",
+				["standing"] = 5,
+				["barValue"] = 4082,
+				["barMax"] = 9000,
+			},
+		},
+		["questsActive"] = {
+			[54519] = {
+				{
+					"1/1 Carter Riptide found", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [1]
+				{
+					"1/1 Emma Swiftwind found", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [2]
+				{
+					"1/1 Tamara Barrie found", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [3]
+				{
+					"1/1 Edward Nash found", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [4]
+			},
+			[53436] = {
+				{
+					"12124/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53073] = {
+			},
+			[62693] = {
+				{
+					"0/3 Complete 3 World Quests in Ardenweald", -- [1]
+>>>>>>> Stashed changes
 					"object", -- [2]
 					false, -- [3]
 				}, -- [1]
 			},
+<<<<<<< Updated upstream
 			[48641] = {
 				{
 					"0/4 Complete 4 world quests on the Broken Shore", -- [1]
+=======
+			[55609] = {
+				{
+					"0/1 King Mechagon slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60508] = {
+				{
+					"1/1 Location in Shandris's dream found", -- [1]
+					"monster", -- [2]
+					true, -- [3]
+				}, -- [1]
+				{
+					"0/1 Trail of corpses followed", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+			[54180] = {
+			},
+			[64106] = {
+				{
+					"0/1 Aid a Covenant Assault", -- [1]
+>>>>>>> Stashed changes
 					"object", -- [2]
 					false, -- [3]
 				}, -- [1]
 			},
+<<<<<<< Updated upstream
+=======
+			[54938] = {
+			},
+			[48639] = {
+				{
+					"0/4 Complete 4 Army of the Light World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50562] = {
+				{
+					"0/4 Complete 4 Azerite World Quest for Magni", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[63986] = {
+				{
+					"0/1 So'leah slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[48642] = {
+				{
+					"0/4 Complete 4 Argussian Reach World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53910] = {
+				{
+					"Defeat Axe Throwers and Berserkers", -- [1]
+					"progressbar", -- [2]
+					true, -- [3]
+				}, -- [1]
+			},
+			[53074] = {
+				{
+					"0/1 Troops ordered", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[62719] = {
+				{
+					"0/1 Rune Vessel Acquired", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/2 Different Missives Obtained", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"1/1 Runecarver Memory Restored", -- [1]
+					"object", -- [2]
+					true, -- [3]
+				}, -- [3]
+			},
+			[53909] = {
+			},
+			[57327] = {
+				{
+					"73/150 Prototype Implant", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[56119] = {
+				{
+					"0/4 Complete world quests in Nazjatar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[64304] = {
+				{
+					"0/20 Horde Players slain", -- [1]
+					"player", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[57454] = {
+			},
+			[63949] = {
+				{
+					"Jailer's efforts subdued", -- [1]
+					"progressbar", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50605] = {
+				{
+					"0/4 Complete 4 world quests on Zandalar, Assaults or Warfront Zones", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[38356] = {
+				{
+					"0/1 Bass Blaster", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Laz-Tron Disc Reader", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"0/1 Phonic Amplifier", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [3]
+				{
+					"0/1 S.P.R.K. Capacitor", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [4]
+				{
+					"0/1 Cord of Ancient Wood", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [5]
+			},
+			[61984] = {
+				{
+					"935/1000 Anima sources", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[64527] = {
+				{
+					"0/1 Horde Players slain", -- [1]
+					"player", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[43179] = {
+				{
+					"0/3 Complete 3 Kirin Tor World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["ignoredChains"] = {
+		},
+		["name"] = "Samoanbatman",
+		["faction"] = "Alliance",
+		["professions"] = {
+			[186] = true,
+			[182] = true,
+			[356] = true,
+		},
+		["skills"] = {
+			[2567] = {
+				["maxLevel"] = 100,
+				["level"] = 1,
+			},
+			[186] = {
+				["maxLevel"] = 75,
+				["level"] = 28,
+			},
+			[182] = {
+				["maxLevel"] = 75,
+				["level"] = 13,
+			},
+			[2556] = {
+				["maxLevel"] = 300,
+				["level"] = 1,
+			},
+			[2760] = {
+				["maxLevel"] = 150,
+				["level"] = 13,
+			},
+			[2761] = {
+				["maxLevel"] = 150,
+				["level"] = 28,
+			},
+			[2566] = {
+				["maxLevel"] = 100,
+				["level"] = 3,
+			},
+			[2572] = {
+				["maxLevel"] = 300,
+				["level"] = 1,
+			},
+		},
+		["sex"] = 2,
+		["warMode"] = false,
+	}, -- [2]
+	{
+		["covenantID"] = 0,
+		["heartOfAzerothLevel"] = 3,
+		["class"] = 9,
+		["ignoredCategories"] = {
+		},
+		["achievements"] = {
+		},
+		["race"] = "Human",
+		["level"] = 51,
+		["friendships"] = {
+		},
+		["realm"] = "Emerald Dream",
+		["chromieTimeID"] = 0,
+		["questsCompleted"] = {
+			[31745] = true,
+			[31785] = true,
+			[44120] = true,
+			[44663] = true,
+			[31825] = true,
+			[44184] = true,
+			[36567] = true,
+			[51402] = true,
+			[51418] = true,
+			[36615] = true,
+			[34587] = true,
+			[29885] = true,
+			[57678] = true,
+			[57710] = true,
+			[35242] = true,
+			[57263] = true,
+			[51211] = true,
+			[39985] = true,
+			[63012] = true,
+			[31570] = true,
+			[34987] = true,
+			[31586] = true,
+			[35530] = true,
+			[29558] = true,
+			[41694] = true,
+			[40688] = true,
+			[33071] = true,
+			[51994] = true,
+			[52026] = true,
+			[58174] = true,
+			[57711] = true,
+			[44473] = true,
+			[31738] = true,
+			[39986] = true,
+			[33359] = true,
+			[34429] = true,
+			[34445] = true,
+			[34461] = true,
+			[53384] = true,
+			[57584] = true,
+			[62710] = true,
+			[52027] = true,
+			[38757] = true,
+			[59756] = true,
+			[34765] = true,
+			[57265] = true,
+			[39987] = true,
+			[34398] = true,
+			[34925] = true,
+			[31555] = true,
+			[34446] = true,
+			[31571] = true,
+			[34478] = true,
+			[31587] = true,
+			[30070] = true,
+			[51916] = true,
+			[52443] = true,
+			[42782] = true,
+			[43341] = true,
+			[60220] = true,
+			[57713] = true,
+			[59773] = true,
+			[57266] = true,
+			[31739] = true,
+			[44555] = true,
+			[35884] = true,
+			[37433] = true,
+			[29759] = true,
+			[34431] = true,
+			[34958] = true,
+			[31827] = true,
+			[38567] = true,
+			[52428] = true,
+			[34575] = true,
+			[50432] = true,
+			[52013] = true,
+			[35166] = true,
+			[60221] = true,
+			[34192] = true,
+			[57714] = true,
+			[42911] = true,
+			[57267] = true,
+			[51167] = true,
+			[37434] = true,
+			[35933] = true,
+			[31548] = true,
+			[34432] = true,
+			[46728] = true,
+			[31580] = true,
+			[31588] = true,
+			[29552] = true,
+			[29560] = true,
+			[51918] = true,
+			[34592] = true,
+			[43806] = true,
+			[62745] = true,
+			[60222] = true,
+			[57715] = true,
+			[51088] = true,
+			[49060] = true,
+			[31732] = true,
+			[31740] = true,
+			[51168] = true,
+			[8237] = true,
+			[40517] = true,
+			[51280] = true,
+			[31309] = true,
+			[31828] = true,
+			[52462] = true,
+			[51967] = true,
+			[37212] = true,
+			[60223] = true,
+			[59760] = true,
+			[49556] = true,
+			[36797] = true,
+			[52654] = true,
+			[34817] = true,
+			[53370] = true,
+			[51201] = true,
+			[31556] = true,
+			[59920] = true,
+			[62808] = true,
+			[57908] = true,
+			[31549] = true,
+			[34434] = true,
+			[35983] = true,
+			[46730] = true,
+			[31581] = true,
+			[31589] = true,
+			[29553] = true,
+			[51229] = true,
+			[36079] = true,
+			[60507] = true,
+			[31579] = true,
+			[38682] = true,
+			[59753] = true,
+			[60219] = true,
+			[60217] = true,
+			[60224] = true,
+			[60735] = true,
+			[60156] = true,
+			[51569] = true,
+			[59761] = true,
+			[47235] = true,
+			[44463] = true,
+			[47098] = true,
+			[35297] = true,
+			[31741] = true,
+			[51170] = true,
+			[62939] = true,
+			[60152] = true,
+			[60125] = true,
+			[31578] = true,
+			[40519] = true,
+			[57909] = true,
+			[51282] = true,
+			[34435] = true,
+			[31821] = true,
+			[31829] = true,
+			[54483] = true,
+			[29559] = true,
+			[57574] = true,
+			[51394] = true,
+			[51369] = true,
+			[53470] = true,
+			[60129] = true,
+			[51969] = true,
+			[58117] = true,
+			[59774] = true,
+			[35154] = true,
+			[59770] = true,
+			[60225] = true,
+			[31733] = true,
+			[51570] = true,
+			[59762] = true,
+			[34739] = true,
+			[59758] = true,
+			[30069] = true,
+			[40593] = true,
+			[59759] = true,
+			[59757] = true,
+			[39434] = true,
+			[31308] = true,
+			[51279] = true,
+			[51283] = true,
+			[40009] = true,
+			[51177] = true,
+			[34420] = true,
+			[34436] = true,
+			[57709] = true,
+			[31574] = true,
+			[60545] = true,
+			[31590] = true,
+			[57559] = true,
+			[37087] = true,
+			[36592] = true,
+			[42740] = true,
+			[57261] = true,
+			[47189] = true,
+			[33079] = true,
+			[47099] = true,
+			[38253] = true,
+			[13807] = true,
+			[60226] = true,
+			[34692] = true,
+			[51571] = true,
+			[59752] = true,
+			[34740] = true,
+			[29698] = true,
+			[57676] = true,
+			[31734] = true,
+			[31742] = true,
+			[35176] = true,
+			[59915] = true,
+			[53372] = true,
+			[59907] = true,
+			[31550] = true,
+			[38731] = true,
+			[47228] = true,
+			[34421] = true,
+			[34437] = true,
+			[31822] = true,
+			[31830] = true,
+			[45727] = true,
+			[31573] = true,
+			[35019] = true,
+			[51396] = true,
+			[52450] = true,
+			[31878] = true,
+			[39691] = true,
+			[40729] = true,
+			[52128] = true,
+			[52003] = true,
+			[51169] = true,
+			[51968] = true,
+			[51395] = true,
+			[49276] = true,
+			[51572] = true,
+			[35747] = true,
+			[34741] = true,
+			[51722] = true,
+			[51403] = true,
+			[31990] = true,
+			[63421] = true,
+			[29562] = true,
+			[36881] = true,
+			[51391] = true,
+			[34422] = true,
+			[51796] = true,
+			[52946] = true,
+			[39692] = true,
+			[31551] = true,
+			[34438] = true,
+			[60148] = true,
+			[31575] = true,
+			[31583] = true,
+			[40123] = true,
+			[29555] = true,
+			[53441] = true,
+			[62655] = true,
+			[52451] = true,
+			[34582] = true,
+			[38686] = true,
+			[29700] = true,
+			[51341] = true,
+			[34646] = true,
+			[51349] = true,
+			[50239] = true,
+			[46729] = true,
+			[59767] = true,
+			[59765] = true,
+			[35253] = true,
+			[51331] = true,
+			[62801] = true,
+			[31735] = true,
+			[31743] = true,
+			[34822] = true,
+			[51190] = true,
+			[51309] = true,
+			[31572] = true,
+			[34375] = true,
+			[34439] = true,
+			[53028] = true,
+			[34423] = true,
+			[44659] = true,
+			[49274] = true,
+			[31831] = true,
+			[51350] = true,
+			[51366] = true,
+			[31823] = true,
+			[60644] = true,
+			[34584] = true,
+			[31879] = true,
+			[34583] = true,
+			[60149] = true,
+			[51242] = true,
+			[59754] = true,
+			[34737] = true,
+			[41306] = true,
+			[60229] = true,
+			[34775] = true,
+			[29548] = true,
+			[59766] = true,
+			[51351] = true,
+			[58329] = true,
+			[61858] = true,
+			[61874] = true,
+			[57291] = true,
+			[34823] = true,
+			[51191] = true,
+			[46734] = true,
+			[42229] = true,
+			[35174] = true,
+			[34392] = true,
+			[29547] = true,
+			[31552] = true,
+			[34440] = true,
+			[31568] = true,
+			[31576] = true,
+			[31584] = true,
+			[31592] = true,
+			[29556] = true,
+			[29883] = true,
+			[40684] = true,
+			[49929] = true,
+			[40716] = true,
+			[60150] = true,
+			[34616] = true,
+			[37187] = true,
+			[51281] = true,
+			[51308] = true,
+			[38894] = true,
+			[40317] = true,
+			[59751] = true,
+			[53124] = true,
+			[45475] = true,
+			[51150] = true,
+			[51359] = true,
+			[31736] = true,
+			[31744] = true,
+			[34824] = true,
+			[51192] = true,
+			[31591] = true,
+			[59911] = true,
+			[51389] = true,
+			[34393] = true,
+			[33815] = true,
+			[34425] = true,
+			[59641] = true,
+			[31824] = true,
+			[31832] = true,
+			[40008] = true,
+			[51795] = true,
+			[51961] = true,
+			[34364] = true,
+			[53131] = true,
+			[31880] = true,
+			[34585] = true,
+			[60151] = true,
+			[34462] = true,
+			[53136] = true,
+			[57288] = true,
+			[29884] = true,
+			[51544] = true,
+			[53206] = true,
+			[50043] = true,
+			[35240] = true,
+			[47186] = true,
+			[54484] = true,
+			[51129] = true,
+			[31881] = true,
+			[31582] = true,
+			[32008] = true,
+			[51193] = true,
+			[46727] = true,
+			[36236] = true,
+			[34378] = true,
+			[59755] = true,
+			[31826] = true,
+			[31553] = true,
+			[34442] = true,
+			[31569] = true,
+			[31577] = true,
+			[31585] = true,
+			[31593] = true,
+			[59776] = true,
+			[59914] = true,
+			[47329] = true,
+			[36614] = true,
+			[34586] = true,
+			[51465] = true,
+			[57102] = true,
+			[52008] = true,
+			[60154] = true,
+			[38754] = true,
+			[57677] = true,
+			[60218] = true,
+			[50044] = true,
+			[35241] = true,
+			[35005] = true,
+			[44471] = true,
+			[48575] = true,
+			[31737] = true,
+			[62709] = true,
+		},
+		["xpModifier"] = 0,
+		["renownLevel"] = 1,
+		["questsActive"] = {
+			[44720] = {
+			},
+			[60316] = {
+				{
+					"0/1 Altered Sentinel slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53436] = {
+				{
+					"0/36000 Collect 36000 Azerite on Island Expeditions", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[43179] = {
+				{
+					"0/3 Complete 3 Kirin Tor World Quests", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[52544] = {
+				{
+					"14/100 War Resources", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[50562] = {
+				{
+					"0/4 Complete 4 Azerite World Quest for Magni", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[29762] = {
+				{
+					"3/8 Glassfin Heirloom", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+>>>>>>> Stashed changes
 			[29887] = {
 				{
 					"0/1 Waterspeaker's Staff", -- [1]
@@ -2283,6 +5499,7 @@ BtWQuests_Characters = {
 					false, -- [3]
 				}, -- [4]
 			},
+<<<<<<< Updated upstream
 			[29762] = {
 				{
 					"3/8 Glassfin Heirloom", -- [1]
@@ -2293,21 +5510,445 @@ BtWQuests_Characters = {
 			[42233] = {
 				{
 					"0/4 Complete 4 world quests in Highmountain.", -- [1]
+=======
+			[54180] = {
+			},
+			[50600] = {
+				{
+					"0/4 Complete 4 world quests in Drustvar", -- [1]
+>>>>>>> Stashed changes
 					"object", -- [2]
 					false, -- [3]
 				}, -- [1]
 			},
+<<<<<<< Updated upstream
 		},
 	}, -- [6]
 	{
 		["covenantID"] = 0,
 		["class"] = 1,
+=======
+			[56119] = {
+				{
+					"0/4 Complete world quests in Nazjatar", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[36404] = {
+				{
+					"7/8 Lunarfall Raccoon slain", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[52028] = {
+				{
+					"0/1 Search for Horde activity", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[42234] = {
+				{
+					"0/4 Complete 4 world quests in Stormheim", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[57270] = {
+			},
+			[42170] = {
+				{
+					"0/4 Complete 4 world quests in Val'sharah", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[53583] = {
+				{
+					"0/1 Choose an upgrade to pursue", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+			[60466] = {
+				{
+					"1/1 Elysian Thread", -- [1]
+					"item", -- [2]
+					true, -- [3]
+				}, -- [1]
+				{
+					"0/4 Cloudstrider Pelt", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [2]
+				{
+					"0/12 Larion Plume", -- [1]
+					"item", -- [2]
+					false, -- [3]
+				}, -- [3]
+			},
+			[62718] = {
+				{
+					"0/1 Take the gateway to Hero's Rest", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+			},
+		},
+		["warModeBonus"] = 15,
+		["reputations"] = {
+			[1270] = {
+				["barMin"] = 0,
+				["name"] = "Shado-Pan",
+				["standing"] = 4,
+				["barValue"] = 5,
+				["barMax"] = 3000,
+			},
+			[1975] = {
+				["barMin"] = 0,
+				["name"] = "Conjurer Margoss",
+				["standing"] = 1,
+				["barValue"] = 275,
+				["barMax"] = 8400,
+			},
+			[1097] = {
+				["barMin"] = 0,
+				["name"] = "Wrath of the Lich King",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1731] = {
+				["barMin"] = 3000,
+				["name"] = "Council of Exarchs",
+				["standing"] = 5,
+				["barValue"] = 3550,
+				["barMax"] = 9000,
+			},
+			[1168] = {
+				["barMin"] = 21000,
+				["name"] = "KokonutKrew",
+				["standing"] = 7,
+				["barValue"] = 30818,
+				["barMax"] = 42000,
+			},
+			[47] = {
+				["barMin"] = 3000,
+				["name"] = "Ironforge",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+			[2407] = {
+				["barMin"] = 0,
+				["name"] = "The Ascended",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1444] = {
+				["barMin"] = 0,
+				["name"] = "Warlords of Draenor",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1515] = {
+				["barMin"] = 0,
+				["name"] = "Arakkoa Outcasts",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1834] = {
+				["barMin"] = 0,
+				["name"] = "Legion",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1090] = {
+				["barMin"] = 0,
+				["name"] = "Kirin Tor",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1094] = {
+				["barMin"] = 0,
+				["name"] = "The Silver Covenant",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1098] = {
+				["barMin"] = 0,
+				["name"] = "Knights of the Ebon Blade",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1169] = {
+				["barMin"] = 0,
+				["name"] = "Guild",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1177] = {
+				["barMin"] = 0,
+				["name"] = "Baradin's Wardens",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[21] = {
+				["barMin"] = 0,
+				["name"] = "Booty Bay",
+				["standing"] = 4,
+				["barValue"] = 500,
+				["barMax"] = 3000,
+			},
+			[1134] = {
+				["barMin"] = 0,
+				["name"] = "Gilneas",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1894] = {
+				["barMin"] = 0,
+				["name"] = "The Wardens",
+				["standing"] = 4,
+				["barValue"] = 385,
+				["barMax"] = 3000,
+			},
+			[1158] = {
+				["barMin"] = 0,
+				["name"] = "Guardians of Hyjal",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1162] = {
+				["barMin"] = 0,
+				["name"] = "Cataclysm",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1859] = {
+				["barMin"] = 0,
+				["name"] = "The Nightfallen",
+				["standing"] = 4,
+				["barValue"] = 385,
+				["barMax"] = 3000,
+			},
+			[169] = {
+				["barMin"] = 0,
+				["name"] = "Steamwheedle Cartel",
+				["standing"] = 4,
+				["barValue"] = 500,
+				["barMax"] = 3000,
+			},
+			[1245] = {
+				["barMin"] = 0,
+				["name"] = "Mists of Pandaria",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[2159] = {
+				["barMin"] = 3000,
+				["name"] = "7th Legion",
+				["standing"] = 5,
+				["barValue"] = 3357,
+				["barMax"] = 9000,
+			},
+			[2104] = {
+				["barMin"] = 0,
+				["name"] = "Battle for Azeroth",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[1353] = {
+				["barMin"] = 3000,
+				["name"] = "Tushui Pandaren",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+			[2414] = {
+				["barMin"] = 0,
+				["name"] = "Shadowlands",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[54] = {
+				["barMin"] = 3000,
+				["name"] = "Gnomeregan",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+			[72] = {
+				["barMin"] = 3000,
+				["name"] = "Stormwind",
+				["standing"] = 5,
+				["barValue"] = 4000,
+				["barMax"] = 9000,
+			},
+			[469] = {
+				["barMin"] = 3000,
+				["name"] = "Alliance",
+				["standing"] = 5,
+				["barValue"] = 3300,
+				["barMax"] = 9000,
+			},
+			[2045] = {
+				["barMin"] = 3000,
+				["name"] = "Armies of Legionfall",
+				["standing"] = 5,
+				["barValue"] = 3330,
+				["barMax"] = 9000,
+			},
+			[2160] = {
+				["barMin"] = 0,
+				["name"] = "Proudmoore Admiralty",
+				["standing"] = 4,
+				["barValue"] = 1127,
+				["barMax"] = 3000,
+			},
+			[1037] = {
+				["barMin"] = 0,
+				["name"] = "Alliance Vanguard",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[930] = {
+				["barMin"] = 3000,
+				["name"] = "Exodar",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+			[2164] = {
+				["barMin"] = 0,
+				["name"] = "Champions of Azeroth",
+				["standing"] = 4,
+				["barValue"] = 1100,
+				["barMax"] = 3000,
+			},
+			[936] = {
+				["barMin"] = 0,
+				["name"] = "Shattrath City",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[1242] = {
+				["barMin"] = 9000,
+				["name"] = "Pearlfin Jinyu",
+				["standing"] = 6,
+				["barValue"] = 14850,
+				["barMax"] = 21000,
+			},
+			[69] = {
+				["barMin"] = 3000,
+				["name"] = "Darnassus",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+			[1011] = {
+				["barMin"] = 0,
+				["name"] = "Lower City",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+			[980] = {
+				["barMin"] = 0,
+				["name"] = "The Burning Crusade",
+				["standing"] = 4,
+				["barMax"] = 3000,
+				["barValue"] = 0,
+			},
+		},
+		["ignoredChains"] = {
+		},
+		["name"] = "Samoanlock",
+		["sex"] = 2,
+		["professions"] = {
+			[755] = true,
+			[197] = true,
+			[356] = true,
+			[794] = true,
+		},
+		["warMode"] = false,
+		["faction"] = "Alliance",
+		["skills"] = {
+			[2517] = {
+				["maxLevel"] = 175,
+				["level"] = 1,
+			},
+			[2540] = {
+				["maxLevel"] = 300,
+				["level"] = 54,
+			},
+			[197] = {
+				["maxLevel"] = 75,
+				["level"] = 54,
+			},
+			[2535] = {
+				["maxLevel"] = 100,
+				["level"] = 1,
+			},
+			[755] = {
+				["maxLevel"] = 75,
+				["level"] = 1,
+			},
+			[2537] = {
+				["maxLevel"] = 75,
+				["level"] = 1,
+			},
+			[2524] = {
+				["maxLevel"] = 300,
+				["level"] = 1,
+			},
+			[2533] = {
+				["maxLevel"] = 175,
+				["level"] = 1,
+			},
+		},
+	}, -- [3]
+	{
+		["covenantID"] = 0,
+		["class"] = 10,
+>>>>>>> Stashed changes
 		["ignoredCategories"] = {
 		},
 		["achievements"] = {
 		},
+<<<<<<< Updated upstream
 		["race"] = "Human",
 		["level"] = 1,
+=======
+		["race"] = "DarkIronDwarf",
+		["level"] = 10,
+>>>>>>> Stashed changes
 		["friendships"] = {
 		},
 		["realm"] = "Emerald Dream",
@@ -2326,23 +5967,45 @@ BtWQuests_Characters = {
 			[31587] = true,
 			[31588] = true,
 			[31589] = true,
+<<<<<<< Updated upstream
 			[31590] = true,
+=======
+			[8237] = true,
+>>>>>>> Stashed changes
 			[31591] = true,
 			[31592] = true,
 			[31593] = true,
 			[31785] = true,
+<<<<<<< Updated upstream
 			[31830] = true,
 			[31576] = true,
 			[31575] = true,
 			[31574] = true,
 			[31573] = true,
 			[31572] = true,
+=======
+			[62745] = true,
+			[57559] = true,
+			[31828] = true,
+			[31827] = true,
+			[31826] = true,
+			[31825] = true,
+			[31824] = true,
+			[31823] = true,
+			[31822] = true,
+			[53124] = true,
+			[31821] = true,
+			[51994] = true,
+			[62710] = true,
+			[31990] = true,
+>>>>>>> Stashed changes
 			[31548] = true,
 			[31549] = true,
 			[31550] = true,
 			[31551] = true,
 			[31552] = true,
 			[31553] = true,
+<<<<<<< Updated upstream
 			[31571] = true,
 			[31555] = true,
 			[31556] = true,
@@ -2352,6 +6015,17 @@ BtWQuests_Characters = {
 			[31308] = true,
 			[31309] = true,
 			[31831] = true,
+=======
+			[31831] = true,
+			[31555] = true,
+			[31556] = true,
+			[31830] = true,
+			[53206] = true,
+			[53131] = true,
+			[31308] = true,
+			[31309] = true,
+			[31832] = true,
+>>>>>>> Stashed changes
 			[31878] = true,
 			[31879] = true,
 			[31880] = true,
@@ -2359,6 +6033,7 @@ BtWQuests_Characters = {
 			[32008] = true,
 			[31568] = true,
 			[31569] = true,
+<<<<<<< Updated upstream
 			[31822] = true,
 			[31823] = true,
 			[31824] = true,
@@ -2383,39 +6058,73 @@ BtWQuests_Characters = {
 		},
 		["questsActive"] = {
 		},
+=======
+			[31570] = true,
+			[31571] = true,
+			[31572] = true,
+			[31573] = true,
+			[31574] = true,
+			[31575] = true,
+			[31576] = true,
+			[31590] = true,
+		},
+		["xpModifier"] = 0,
+		["renownLevel"] = 1,
+>>>>>>> Stashed changes
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
 				["name"] = "Gilneas",
 				["standing"] = 4,
+<<<<<<< Updated upstream
 				["barMax"] = 3000,
 				["barValue"] = 0,
+=======
+				["barValue"] = 0,
+				["barMax"] = 3000,
+>>>>>>> Stashed changes
 			},
 			[54] = {
 				["barMin"] = 3000,
 				["name"] = "Gnomeregan",
 				["standing"] = 5,
+<<<<<<< Updated upstream
 				["barMax"] = 9000,
 				["barValue"] = 3100,
+=======
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+>>>>>>> Stashed changes
 			},
 			[47] = {
 				["barMin"] = 3000,
 				["name"] = "Ironforge",
 				["standing"] = 5,
+<<<<<<< Updated upstream
 				["barMax"] = 9000,
 				["barValue"] = 3100,
+=======
+				["barValue"] = 4000,
+				["barMax"] = 9000,
+>>>>>>> Stashed changes
 			},
 			[1353] = {
 				["barMin"] = 3000,
 				["name"] = "Tushui Pandaren",
 				["standing"] = 5,
+<<<<<<< Updated upstream
 				["barMax"] = 9000,
 				["barValue"] = 3100,
+=======
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+>>>>>>> Stashed changes
 			},
 			[930] = {
 				["barMin"] = 3000,
 				["name"] = "Exodar",
 				["standing"] = 5,
+<<<<<<< Updated upstream
 				["barMax"] = 9000,
 				["barValue"] = 3100,
 			},
@@ -2439,14 +6148,72 @@ BtWQuests_Characters = {
 				["standing"] = 4,
 				["barMax"] = 3000,
 				["barValue"] = 0,
+=======
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+>>>>>>> Stashed changes
 			},
 			[72] = {
 				["barMin"] = 3000,
 				["name"] = "Stormwind",
 				["standing"] = 5,
+<<<<<<< Updated upstream
 				["barMax"] = 9000,
 				["barValue"] = 4000,
 			},
 		},
 	}, -- [7]
+=======
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[469] = {
+				["barMin"] = 3000,
+				["name"] = "Alliance",
+				["standing"] = 5,
+				["barValue"] = 3300,
+				["barMax"] = 9000,
+			},
+			[69] = {
+				["barMin"] = 3000,
+				["name"] = "Darnassus",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+		},
+		["questsActive"] = {
+			[60120] = {
+				{
+					"0/1 Talk to the Honor Hold Mage", -- [1]
+					"monster", -- [2]
+					false, -- [3]
+				}, -- [1]
+				{
+					"0/1 Go through the Dark Portal", -- [1]
+					"object", -- [2]
+					false, -- [3]
+				}, -- [2]
+			},
+		},
+		["warModeBonus"] = 15,
+		["ignoredChains"] = {
+		},
+		["name"] = "Sonikk",
+		["sex"] = 2,
+		["professions"] = {
+		},
+		["warMode"] = false,
+		["faction"] = "Alliance",
+		["skills"] = {
+		},
+	}, -- [4]
+>>>>>>> Stashed changes
 }

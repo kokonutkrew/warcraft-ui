@@ -1,5 +1,8 @@
-if not WeakAuras.IsCorrectVersion() then return end
-local AddonName, Private = ...
+if not WeakAuras.IsLibsOK() then return end
+---@type string
+local AddonName = ...
+---@class Private
+local Private = select(2, ...)
 
 -- Legendaries based on https://wow.tools/dbc/?dbc=runeforgelegendaryability
 -- mapping legendary id to bonus id
@@ -204,6 +207,67 @@ local legendariesToBonusId = {
   [204] = 7105,
   [205] = 7106,
   [206] = 7159,
+  -- Added in Patch 9.1.0:
+  [210] = 7466,
+  [211] = 7467,
+  [212] = 7468,
+  [213] = 7458,
+  [214] = 7469,
+  [215] = 7470,
+  [216] = 7471,
+  [217] = 7472,
+  [218] = 7473,
+  [220] = 7474,
+  [221] = 7475,
+  [222] = 7476,
+  [223] = 7477,
+  [224] = 7478,
+  [226] = 7571,
+  [228] = 7570,
+  [229] = 7572,
+  [230] = 7573,
+  [231] = 7577,
+  [234] = 7679,
+  [235] = 7680,
+  [236] = 7681,
+  [237] = 7698,
+  [238] = 7699,
+  [239] = 7700,
+  [240] = 7701,
+  [241] = 7702,
+  [242] = 7703,
+  [243] = 7704,
+  [244] = 7707,
+  [246] = 7708,
+  [247] = 7709,
+  [248] = 7710,
+  [249] = 7711,
+  [250] = 7712,
+  [251] = 7713,
+  [252] = 7714,
+  [253] = 7715,
+  [254] = 7716,
+  [255] = 7717,
+  [256] = 7718,
+  [257] = 7721,
+  [258] = 7722,
+  [259] = 7726,
+  [260] = 7727,
+  [261] = 7728,
+  [262] = 7729,
+  [263] = 7730,
+  [264] = 8119,
+  [267] = 8120,
+  [268] = 8121,
+  [269] = 8122,
+  [270] = 8123,
+  [271] = 8124,
+  [272] = 8125,
+  [273] = 8126,
+  [274] = 8127,
+  [275] = 8128,
+  [276] = 8129,
+  [277] = 8130,
 }
 
 local bonusIdToLegendary = {}
@@ -211,36 +275,8 @@ for k, v in pairs(legendariesToBonusId) do
   bonusIdToLegendary[v] = k
 end
 
-WeakAuras.GetLegendariesBonusIds = function()
-  if WeakAuras.IsClassic() then
-    return ""
-  end
-
-  local classId = select(3, UnitClass('player'))
-  local specId = GetSpecializationInfo(GetSpecialization())
-
-  local powers = C_LegendaryCrafting.GetRuneforgePowersByClassAndSpec(classId, specId)
-  local abilities = {}
-  local names = {}
-  for _, power in ipairs(powers) do
-    local info = C_LegendaryCrafting.GetRuneforgePowerInfo(power)
-    if legendariesToBonusId[info.runeforgePowerID] then
-      abilities[info.name] = {legendariesToBonusId[info.runeforgePowerID], info.iconFileID }
-      tinsert(names, info.name)
-    end
-  end
-
-  table.sort(names)
-
-  local result = ""
-  for index, name in ipairs(names) do
-    result = result .. "|T".. abilities[name][2] .. ":16|t  " ..  name .. ": " .. abilities[name][1] .. "\n"
-  end
-  return result
-end
-
 WeakAuras.GetLegendaryData = function(id)
-  if WeakAuras.IsClassic() then
+  if not WeakAuras.IsRetail() then
     return ""
   end
   local legendaryID = bonusIdToLegendary[tonumber(id)]

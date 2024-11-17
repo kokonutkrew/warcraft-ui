@@ -1,7 +1,6 @@
 # <FGI> FastGuildInvite
-## 81 (2021-03-08)
- 
-- intro update  
-- added mention of translator  
-- add filter by rio score  
-    add filter by raid progress  
+
+## [129](https://github.com/Knoot/FastGuildInvite/tree/129) (2024-09-22)
+[Full Changelog](https://github.com/Knoot/FastGuildInvite/compare/128...129) [Previous Releases](https://github.com/Knoot/FastGuildInvite/releases)
+
+- chat menu fix  

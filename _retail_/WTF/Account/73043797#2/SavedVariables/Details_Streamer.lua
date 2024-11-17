@@ -1,8 +1,14 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+<<<<<<< Updated upstream
 		["Grapejellie - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+=======
+		["Grapejellie - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Samoantitan - Stormrage"] = {

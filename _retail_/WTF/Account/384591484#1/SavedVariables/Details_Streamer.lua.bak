@@ -1,11 +1,18 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+<<<<<<< Updated upstream
 		["Samoanhunter - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Stronguard - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Dethwish - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Samoanbatman - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Samoantitan - Stormrage"] = {
@@ -36,13 +43,37 @@ Details_StreamerDB = {
 			["arrow_anchor_x"] = 0,
 			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
+<<<<<<< Updated upstream
 			["point"] = "CENTER",
 			["arrow_anchor_y"] = 0,
+=======
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["point"] = "CENTER",
+>>>>>>> Stashed changes
 			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
+<<<<<<< Updated upstream
 			["y"] = 4.57763671875e-05,
+=======
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 6.103515625e-05,
+				["x"] = -6.103515625e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+>>>>>>> Stashed changes
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -52,6 +83,7 @@ Details_StreamerDB = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+<<<<<<< Updated upstream
 			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
@@ -68,14 +100,27 @@ Details_StreamerDB = {
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
 			["use_spark"] = true,
+=======
+			["y"] = -4.57763671875e-05,
+			["font_size"] = 10,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+>>>>>>> Stashed changes
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+<<<<<<< Updated upstream
 			["main_frame_locked"] = false,
 			["use_square_mode"] = false,
+=======
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+>>>>>>> Stashed changes
 		},
 	},
 }

@@ -3,15 +3,15 @@
 --     W o w h e a d   L o o t e r     --
 --                                     --
 --                                     --
---    Patch: 1.13.6                    --
---    Updated: December 2, 2020        --
+--    Patch: 2.5.2                     --
+--    Updated: August 31, 2021         --
 --    E-mail: feedback@wowhead.com     --
 --                                     --
 -----------------------------------------
 
 
 local WL_NAME = "|cffffff7fWowhead Looter|r";
-local WL_VERSION = 11306;
+local WL_VERSION = 20502;
 local WL_VERSION_PATCH = 0;
 local WL_ADDONNAME, WL_ADDONTABLE = ...
 
@@ -3765,7 +3765,26 @@ function wlCreateFrames()
         StaticPopup_Show("WL_RESET_CONFIRM");
     end);
 
-    InterfaceOptions_AddCategory(panel);
+    InterfaceOptions_AddCategory(panel, true);
+
+    local stuboptions = { Show = function() end, Hide = function() end };
+
+    -- Temporary workaround for TBC Classic Beta
+    if (not InterfaceOptionsFrameCategoriesTop) then
+        InterfaceOptionsFrameCategoriesTop = stuboptions;
+    end
+    if (not InterfaceOptionsFrameAddOnsTop) then
+        InterfaceOptionsFrameAddOnsTop = stuboptions;
+    end
+    if (not InterfaceOptionsFrameTab1TabSpacer) then
+        InterfaceOptionsFrameTab1TabSpacer = stuboptions;
+    end
+    if (not InterfaceOptionsFrameTab2TabSpacer1) then
+        InterfaceOptionsFrameTab2TabSpacer1 = stuboptions;
+    end
+    if (not InterfaceOptionsFrameTab2TabSpacer2) then
+        InterfaceOptionsFrameTab2TabSpacer2 = stuboptions;
+    end
 end
 
 function wl_OnLoad(self)
@@ -4454,9 +4473,12 @@ function wlGetDate()
     if (C_Calendar) then
         local date = C_Calendar.GetDate();
         return date.month, date.monthDay, date.year;
-    elseif (C_DateAndTime) then
+    elseif (C_DateAndTime and C_DateAndTime.GetTodaysDate) then
         local date = C_DateAndTime.GetTodaysDate();
         return date.month, date.day, date.year;
+    elseif (C_DateAndTime and C_DateAndTime.GetCurrentCalendarTime) then
+        local date = C_DateAndTime.GetCurrentCalendarTime();
+        return date.month, date.monthDay, date.year;
     end
     return nil;
 end

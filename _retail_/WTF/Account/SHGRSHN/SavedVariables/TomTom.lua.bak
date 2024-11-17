@@ -1,6 +1,7 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Default",
 		["Threadcraft - Emerald Dream"] = "Default",
 		["Adinbalo - Emerald Dream"] = "Default",
@@ -65,17 +66,67 @@ TomTomDB = {
 			["block"] = {
 				["enable"] = false,
 			},
+=======
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Fedieb - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Orecraft - Emerald Dream"] = "Default",
+		["Samoanmystic - Emerald Dream"] = "Default",
+		["Forgecraft - Emerald Dream"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanghost - Frostmourne"] = "Default",
+		["Dustcraft - Emerald Dream"] = "Default",
+		["Samoanrelic - Stormrage"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoansentry - Emerald Dream"] = "Default",
+		["Samoaninja - Tichondrius"] = "Default",
+		["Xb - Emerald Dream"] = "Default",
+		["Farmcraft - Emerald Dream"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Gl - Emerald Dream"] = "Default",
+		["Samoanghost - Emerald Dream"] = "Default",
+		["Kkdev - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+>>>>>>> Stashed changes
 			["arrow"] = {
 				["position"] = {
 					"TOP", -- [1]
 					nil, -- [2]
 					"TOP", -- [3]
+<<<<<<< Updated upstream
 					6.999855041503906, -- [4]
 					-153.0000152587891, -- [5]
+=======
+					-2.999956607818604, -- [4]
+					-13.00003051757813, -- [5]
+				},
+			},
+			["block"] = {
+				["enable"] = false,
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-7.110930442810059, -- [4]
+					-142.6667175292969, -- [5]
+>>>>>>> Stashed changes
 				},
 			},
 		},
 		["KokonutKrew"] = {
+<<<<<<< Updated upstream
 			["poi"] = {
 				["enable"] = false,
 			},
@@ -94,12 +145,42 @@ TomTomDB = {
 			["block"] = {
 				["enable"] = false,
 			},
+=======
+			["block"] = {
+				["enable"] = false,
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					-100, -- [5]
+				},
+			},
+			["persistence"] = {
+				["savewaypoints"] = false,
+			},
+			["general"] = {
+				["confirmremoveall"] = false,
+				["announce"] = true,
+				["corpse_arrow"] = false,
+			},
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+			},
+>>>>>>> Stashed changes
 		},
 	},
 }
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
@@ -190,11 +271,85 @@ TomTomWaypointsM = {
 							["onclick"] = nil --[[ skipped inline function ]],
 							["tooltip_update"] = nil --[[ skipped inline function ]],
 							["tooltip_show"] = nil --[[ skipped inline function ]],
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansentry - Emerald Dream"] = "Samoansentry - Emerald Dream",
+		["Samoaninja - Tichondrius"] = "Samoaninja - Tichondrius",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+		["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Fedieb - Emerald Dream"] = {
+		},
+		["KokonutKrew"] = {
+		},
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Orecraft - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
+		},
+		["Forgecraft - Emerald Dream"] = {
+		},
+		["Samoansavage - Stormrage"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			[204] = {
+				["204:380000000:770000000:Volatile Violetscale/Cavity-Free Tooth (100)"] = {
+					204, -- [1]
+					0.38, -- [2]
+					0.77, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Volatile Violetscale/Cavity-Free Tooth (100)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Volatile Violetscale/Cavity-Free Tooth (100)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+>>>>>>> Stashed changes
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
+<<<<<<< Updated upstream
 			}, -- [1]
 		},
 		["Adinbalo - Emerald Dream"] = {
@@ -309,5 +464,164 @@ TomTomWaypointsM = {
 		},
 		["Samoansurge - Emerald Dream"] = {
 		},
+=======
+				["204:650000000:420000000:Gloomy Bluefin/Freshly Molted Crab Skin (10)"] = {
+					204, -- [1]
+					0.65, -- [2]
+					0.42, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Gloomy Bluefin/Freshly Molted Crab Skin (10)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Gloomy Bluefin/Freshly Molted Crab Skin (10)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[205] = {
+				["205:440000000:200000000:Seashells/Sir Finley (500)"] = {
+					205, -- [1]
+					0.44, -- [2]
+					0.2, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Seashells/Sir Finley (500)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Seashells/Sir Finley (500)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["205:530000000:220000000:Manta Stargazer/Razoreel Larva (50)"] = {
+					205, -- [1]
+					0.53, -- [2]
+					0.22, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Manta Stargazer/Razoreel Larva (50)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Manta Stargazer/Razoreel Larva (50)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["205:690000000:470000000:Lil' Whaley/Well Fed Doctor Fish (250)"] = {
+					205, -- [1]
+					0.69, -- [2]
+					0.47, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Lil' Whaley/Well Fed Doctor Fish (250)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Lil' Whaley/Well Fed Doctor Fish (250)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[201] = {
+				["201:600000000:590000000:Ol' Fishbreath/Glitter Gill (50)"] = {
+					201, -- [1]
+					0.6, -- [2]
+					0.59, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Ol' Fishbreath/Glitter Gill (50)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Ol' Fishbreath/Glitter Gill (50)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoanghost - Frostmourne"] = {
+		},
+		["Dustcraft - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
+		},
+		["Farmcraft - Emerald Dream"] = {
+		},
+		["Samoansurge - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanruin - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Samoansentry - Emerald Dream"] = {
+		},
+		["Samoaninja - Tichondrius"] = {
+		},
+		["Xb - Emerald Dream"] = {
+		},
+		["Mf - Emerald Dream"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Gl - Emerald Dream"] = {
+		},
+		["Samoanghost - Emerald Dream"] = {
+		},
+		["Kkdev - Emerald Dream"] = {
+		},
+>>>>>>> Stashed changes
 	},
 }

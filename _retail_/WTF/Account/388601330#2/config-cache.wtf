@@ -1,8 +1,16 @@
 SET flaggedTutorials "v##$##5##E##(##.##Z##8##K##[##;##)##4##?##@##+##<##Y##=##F##3##S##T##6##,##A##B##G##>##C##%##:##D##I##9##J##V##H##^##0##]##-"
 SET actionedAdventureJournalEntries "v"
+<<<<<<< Updated upstream
 SET whisperMode "popout"
 SET cameraPitchMoveSpeed "45"
 SET cameraYawMoveSpeed "90"
+=======
+SET nameplateTargetRadialPosition "1"
+SET CameraKeepCharacterCentered "0"
+SET cameraPitchMoveSpeed "45"
+SET cameraYawMoveSpeed "90"
+SET cameraView "5"
+>>>>>>> Stashed changes
 SET cameraDistanceMaxZoomFactor "2.6"
 SET showNPETutorials "0"
 SET talentFrameShown "1"
@@ -10,6 +18,10 @@ SET timeMgrUseLocalTime "1"
 SET closedInfoFramesAccountWide "A"
 SET mountJournalGeneralFilters "-1"
 SET mountJournalShowPlayer "1"
+<<<<<<< Updated upstream
 SET petJournalTab "5"
+=======
+SET petJournalTab "2"
+>>>>>>> Stashed changes
 SET advJournalLastOpened "1578536080"
 SET hideAdventureJournalAlerts "1"

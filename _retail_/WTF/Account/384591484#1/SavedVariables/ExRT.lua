@@ -1,5 +1,6 @@
 
 VExRT = {
+<<<<<<< Updated upstream
 	["Note"] = {
 		["BlackNames"] = {
 		},
@@ -2012,4 +2013,6 @@ VExRT = {
 		},
 		["ReadyCheckFrameOnlyRL"] = true,
 	},
+=======
+>>>>>>> Stashed changes
 }

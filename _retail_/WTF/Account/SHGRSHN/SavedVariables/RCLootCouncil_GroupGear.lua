@@ -1,0 +1,37 @@
+
+RCGroupGearDB = {
+["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "Default",
+["Fedieb - Emerald Dream"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
+["Samoanrelic - Stormrage"] = "Default",
+["Orecraft - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoansavage - Stormrage"] = "Default",
+["Samoantitan - Stormrage"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Samoanghost - Frostmourne"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Xb - Emerald Dream"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Samoantank - Tichondrius"] = "Default",
+["Samoanruin - Emerald Dream"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoanrelic - Emerald Dream"] = "Default",
+["Samoansentry - Emerald Dream"] = "Default",
+["Samoaninja - Tichondrius"] = "Default",
+["Samoansurge - Emerald Dream"] = "Default",
+["Mf - Emerald Dream"] = "Default",
+["Samoanranger - Emerald Dream"] = "Default",
+["Gl - Emerald Dream"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Kkdev - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

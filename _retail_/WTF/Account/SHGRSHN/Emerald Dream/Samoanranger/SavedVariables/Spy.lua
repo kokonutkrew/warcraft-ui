@@ -1,16 +1,24 @@
 
 SpyPerCharDB = {
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
 		["Draazz"] = 1606942090,
 		["Karthi"] = 1614298422,
 		["Kaijinn"] = 1611979218,
 		["Herpexio"] = 1608326277,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+>>>>>>> Stashed changes
 	},
 	["IgnoreData"] = {
 	},
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Krelandis"] = {
 			["mapID"] = 1670,
 			["zone"] = "Oribos",
@@ -635,9 +643,17 @@ SpyPerCharDB = {
 			["zone"] = "Oribos",
 			["mapY"] = 0.51,
 			["class"] = "DRUID",
+=======
+		["Phaqsham-Kil'jaeden"] = {
+			["guild"] = "Potential",
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 1,
+			["class"] = "SHAMAN",
+>>>>>>> Stashed changes
 			["isEnemy"] = true,
-			["race"] = "Highmountain Tauren",
+			["race"] = "Pandaren",
 			["isGuess"] = false,
+<<<<<<< Updated upstream
 			["subZone"] = "Ring of Fates",
 			["mapX"] = 0.62,
 			["level"] = 60,
@@ -803,10 +819,23 @@ SpyPerCharDB = {
 			["zone"] = "Oribos",
 			["mapY"] = 0.5,
 			["class"] = "MONK",
+=======
+			["subZone"] = "",
+			["level"] = 51,
+			["name"] = "Phaqsham-Kil'jaeden",
+			["time"] = 1618711200,
+		},
+		["Pyranis-Skywall"] = {
+			["guild"] = "Be Your True Mind",
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 1,
+			["class"] = "PALADIN",
+>>>>>>> Stashed changes
 			["isEnemy"] = true,
-			["race"] = "Orc",
+			["race"] = "Blood Elf",
 			["isGuess"] = false,
 			["subZone"] = "",
+<<<<<<< Updated upstream
 			["mapX"] = 0.32,
 			["level"] = 60,
 			["time"] = 1614987461,
@@ -3917,6 +3946,36 @@ SpyPerCharDB = {
 			["level"] = 1,
 			["subZone"] = "Aspirant's Rest",
 			["time"] = 1612137405,
+=======
+			["level"] = 53,
+			["name"] = "Pyranis-Skywall",
+			["time"] = 1618711197,
+		},
+		["Darkiinha-Goldrinn"] = {
+			["guild"] = "Heavy Metal",
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 2,
+			["class"] = "MAGE",
+			["isEnemy"] = true,
+			["race"] = "Goblin",
+			["isGuess"] = false,
+			["subZone"] = "",
+			["level"] = 58,
+			["name"] = "Darkiinha-Goldrinn",
+			["time"] = 1618711198,
+		},
+		["Furryfemboi-Frostmourne"] = {
+			["zone"] = "The Battle for Gilneas",
+			["loses"] = 1,
+			["class"] = "WARLOCK",
+			["isEnemy"] = true,
+			["race"] = "Vulpera",
+			["isGuess"] = false,
+			["subZone"] = "",
+			["level"] = 56,
+			["name"] = "Furryfemboi-Frostmourne",
+			["time"] = 1618711197,
+>>>>>>> Stashed changes
 		},
 	},
 	["version"] = "1.1",

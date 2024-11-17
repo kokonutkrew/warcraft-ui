@@ -1,5 +1,6 @@
 
 VExRT = {
+<<<<<<< Updated upstream
 	["Note"] = {
 		["BlackNames"] = {
 		},
@@ -3057,4 +3058,6 @@ VExRT = {
 		["FlaskExp"] = 1,
 		["ReadyCheckTop"] = 786.5001220703125,
 	},
+=======
+>>>>>>> Stashed changes
 }

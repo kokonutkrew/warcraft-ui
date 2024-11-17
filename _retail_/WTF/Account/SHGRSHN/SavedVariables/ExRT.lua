@@ -1,5 +1,6 @@
 
 VExRT = {
+<<<<<<< Updated upstream
 	["Note"] = {
 		["BlackNames"] = {
 		},
@@ -3057,4 +3058,6 @@ VExRT = {
 	["BattleRes"] = {
 		["Strata"] = "HIGH",
 	},
+=======
+>>>>>>> Stashed changes
 }

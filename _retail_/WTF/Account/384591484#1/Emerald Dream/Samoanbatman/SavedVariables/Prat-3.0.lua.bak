@@ -14,6 +14,7 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
+<<<<<<< Updated upstream
 			["ChatFrame3EditBox"] = {
 			},
 			["ChatFrame1EditBox"] = {
@@ -21,6 +22,15 @@ Prat3CharDB = {
 			["ChatFrame2EditBox"] = {
 			},
 			["ChatFrame9EditBox"] = {
+=======
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+>>>>>>> Stashed changes
 			},
 		},
 	},
@@ -161,7 +171,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 22,
+=======
+			["headIndex"] = 0,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -173,6 +187,7 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+<<<<<<< Updated upstream
 				{
 					["message"] = "|cff979797|Hpratcopy|h[20:14:07]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:320382:0|h[Demonic Wards]|h|r.",
 					["b"] = 0,
@@ -472,6 +487,8 @@ Prat3HighCPUPerCharDB = {
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [22]
+=======
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -504,7 +521,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 126,
+=======
+			["headIndex"] = 52,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -517,6 +538,7 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[20:30:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ragemourne-EmeraldDream:173:CHANNEL:2|h|cffc31d39Ragemourne|r|h|cffd8d8d8]|r: My heresy senses are tingling.",
 					["serverTime"] = 1604719841,
 					["r"] = 1,
@@ -1644,14 +1666,413 @@ Prat3HighCPUPerCharDB = {
 				{
 					["message"] = "|cff979797|Hpratcopy|h[20:37:24]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
 					["serverTime"] = 1604720248,
+=======
+					["message"] = "|cff979797|Hpratcopy|h[21:01:48]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618227,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:01:48]|h|r Legacy loot rules are enabled.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618227,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:50:26]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1624621271,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1100576.387,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:51:07]|h|r You receive currency: |cffffffff|Hcurrency:824:0|h[Garrison Resources]|h|r x500.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618266,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:51:24]|h|r You have invited Samoanghost to join your group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618283,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:51:24]|h|r Dungeon Difficulty set to Normal.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618283,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:51:26]|h|r Samoanghost joins the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618285,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:51:36]|h|r You have invited |cffa22fc8Samoanghost|r to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618295,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:51:41]|h|r |cffa22fc8Samoanghost|r-EmeraldDream has joined the guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618300,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:52:09]|h|r You leave the group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618328,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:54:26]|h|r |CFFA330C9|cffa22fc8Samoanghost|r|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618465,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:55:00]|h|r |cffd8d8d8[|r|Hplayer:Threadcraft:14|h|cffd8bc3f60|r:|cff3ec6eaThreadcraft|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618499,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:57:10]|h|r You are now Away: AFK",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624618629,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:10:37]|h|r |CFF69CCF0|cff3ec6eaThreadcraft|r|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624619435,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:11:13]|h|r |cffd8d8d8[|r|Hplayer:Samoanghost:17|h|cff8b8b8b16|r:|cffa22fc8Samoanghost|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624619471,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:15:39]|h|r |cffd8d8d8[|r|Hplayer:Kikilala:18|h|cff8b8b8b47|r:|cffc59a6cKikilala|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624619737,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:22:10]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624620127,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:22:30]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624620147,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:22:30]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624620147,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:22:31]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624620148,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 18 |4minute:minutes;, 43 |4second:seconds;",
+					["timestamp"] = 1100576.387,
+				}, -- [21]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1100576.387,
+				}, -- [22]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 1100551.732,
+				}, -- [23]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 1100551.732,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:13]|h|r |cFFFFF000iGuard: |rLoaded.",
+					["timestamp"] = 1100575.922,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:13]|h|r |cFFFF0000iGuard: |riGuard is |cFFFF0000Disabled.",
+					["timestamp"] = 1100575.922,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:13]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1100575.922,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:15]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.21)|r:  hooked into Rematch",
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624621271,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:15]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624621271,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:19]|h|r |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624621275,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:19]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Twilight Drake' (250) not yet known. |cffff9900|Hitem:cosFix:mountId:250|h[Click here to define it!]|h|r",
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624621275,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:19]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 1100576.387,
+					["serverTime"] = 1624621275,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:26]|h|r AAP Loaded",
+					["timestamp"] = 1100588.557,
+					["serverTime"] = 1624621282,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:34]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 1100596.25,
+					["serverTime"] = 1624621290,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:37]|h|r You receive currency: |cffffffff|Hcurrency:824:0|h[Garrison Resources]|h|r x5.",
+					["serverTime"] = 1624621293,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100599.234,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:55]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Stormshield]|h",
+					["serverTime"] = 1624621311,
+>>>>>>> Stashed changes
 					["r"] = 1,
 					["extraData"] = {
 						67, -- [1]
 						false, -- [2]
+<<<<<<< Updated upstream
+=======
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100617.175,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:41:55]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormshield]|h",
+					["serverTime"] = 1624621311,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+>>>>>>> Stashed changes
 						6, -- [3]
 						7, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 640459.523,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
@@ -1677,11 +2098,24 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["extraData"] = {
 						69, -- [1]
+=======
+					["timestamp"] = 1100617.175,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:06]|h|r Private Tristan says: I'm almost done with my shift. You want to grab a steak over at Elton Black's place? I heard he kills the cow right in front of you so you know it's fresh.",
+					["serverTime"] = 1624621322,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+>>>>>>> Stashed changes
 						false, -- [2]
 						9, -- [3]
 						10, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 640459.523,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
@@ -1689,10 +2123,148 @@ Prat3HighCPUPerCharDB = {
 				{
 					["message"] = "|cff979797|Hpratcopy|h[20:30:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:171:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: where can i get some suck ball at?",
 					["serverTime"] = 1604719839,
+=======
+					["timestamp"] = 1100628.188,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:11]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Twilight Drake' (250) not yet known. |cffff9900|Hitem:cosFix:mountId:250|h[Click here to define it!]|h|r",
+					["timestamp"] = 1100633.343,
+					["serverTime"] = 1624621327,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:11]|h|r Daana Leafwhisper says: You know I'm a vegetarian right?",
+					["serverTime"] = 1624621327,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100633.565,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:43]|h|r GRM: No Addon Users Currently Compatible for FULL Sync.\nCheck the \"Sync Users\" tab to find out why!",
+					["r"] = 1,
+					["serverTime"] = 1624621359,
+					["timestamp"] = 1100665.838,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:43]|h|r      You will still share some outgoing data with the guild",
+					["r"] = 1,
+					["serverTime"] = 1624621359,
+					["timestamp"] = 1100665.838,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:58]|h|r GRM: Sync With Guildies Complete... (No Updates)",
+					["r"] = 1,
+					["serverTime"] = 1624621374,
+					["timestamp"] = 1100680.619,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:58]|h|r ",
+					["r"] = 1,
+					["serverTime"] = 1624621374,
+					["timestamp"] = 1100680.619,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:42:58]|h|r \n|CFFFF0000GRM Audit Report:|r 4% complete. 242 members with incomplete data.",
+					["r"] = 1,
+					["serverTime"] = 1624621374,
+					["timestamp"] = 1100680.619,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:43:03]|h|r |cffd8d8d8[|r|Hplayer:Samoanghost-EmeraldDream:30:GUILD|h|cff8b8b8b16|r:|cffa22fc8Samoanghost|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:545:Player-162-0B5D9797:1:6:25:21:4294967295:4294967295:4294967295:4294967295|h[Shave and a Haircut]|h|r |cffffffff(|rCompleted 11/06/20|cffffffff)|r!",
+					["serverTime"] = 1624621379,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100685.586,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:43:40]|h|r |CFFF58CBASandalphon|r has gone offline.",
+					["serverTime"] = 1624621416,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100722.519,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:45:08]|h|r 2021-6-25 06:43am : |CFFA330C9Samoanghost|r has Leveled to 17 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1624621504,
+					["timestamp"] = 1100810.664,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:46:08]|h|r |CFFA330C9|cffa22fc8Samoanghost|r|r has gone offline.",
+					["serverTime"] = 1624621564,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100870.854,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:46:17]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormshield]|h",
+					["serverTime"] = 1624621573,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100880.04,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:46:17]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1624621573,
+>>>>>>> Stashed changes
 					["r"] = 1,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
+<<<<<<< Updated upstream
 						1, -- [3]
 						26, -- [4]
 						["n"] = 4,
@@ -1716,6 +2288,31 @@ Prat3HighCPUPerCharDB = {
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [128]
+=======
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100880.04,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[05:46:17]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormshield]|h",
+					["serverTime"] = 1624621573,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1100880.04,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

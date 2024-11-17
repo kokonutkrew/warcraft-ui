@@ -12,15 +12,15 @@ function BaudBagMixin:Init()
     hooksecurefunc(BaudBag, "ItemSlot_Updated", function(...) self:ItemSlotUpdated(...) end)
 end
 
-function BaudBagMixin:SetTooltipItem(tooltip, item, locationInfo)
+function BaudBagMixin:GetTooltipData(item, locationInfo)
 	if locationInfo.isOffline then
 		if not item:IsItemEmpty() then
-			tooltip:SetHyperlink(item:GetItemLink())
+            return C_TooltipInfo.GetHyperlink(item:GetItemLink())
 		end
 	elseif locationInfo.bag == BANK_CONTAINER then
-		local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
+        return C_TooltipInfo.GetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
 	else
-		local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetBagItem(locationInfo.bag, locationInfo.slot)
+        return C_TooltipInfo.GetBagItem(locationInfo.bag, locationInfo.slot)
 	end
 end
 
@@ -44,9 +44,6 @@ function BaudBagMixin:ProcessItem(bag, slot, button)
             end
         else
             local options = {
-                showMogIcon=true,
-                showBindStatus=true,
-                showSellables=true
             }
 
             local item = CaerdonItem:CreateFromBagAndSlot(bag, slot)
@@ -60,9 +57,14 @@ function BaudBagMixin:ItemSlotUpdated(bb, bagSet, containerId, subContainerId, s
 end
 
 local Version = nil
-if select(4, GetAddOnInfo(addonName)) then
-    if IsAddOnLoaded(addonName) then
-        Version = GetAddOnMetadata(addonName, "Version")
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+    if C_AddOns.IsAddOnLoaded(addonName) then
+        Version = C_AddOns.GetAddOnMetadata(addonName, "Version")
 		CaerdonWardrobe:RegisterFeature(BaudBagMixin)
+        isActive = true
     end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

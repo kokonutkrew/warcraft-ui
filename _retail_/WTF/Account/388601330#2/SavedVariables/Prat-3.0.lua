@@ -13,13 +13,20 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
+<<<<<<< Updated upstream
 					["maxchatheightdefault"] = 400,
 					["maxchatwidthdefault"] = 608.0000610351562,
 					["initialized"] = true,
+=======
+					["initialized"] = true,
+					["maxchatwidthdefault"] = 608.0000610351562,
+					["maxchatheightdefault"] = 400,
+>>>>>>> Stashed changes
 				},
 			},
 		},
 		["Prat_ChannelColorMemory"] = {
+<<<<<<< Updated upstream
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
@@ -31,11 +38,14 @@ Prat3DB = {
 					},
 				},
 			},
+=======
+>>>>>>> Stashed changes
 		},
 		["Prat_Editbox"] = {
 		},
 		["Prat_Fading"] = {
 		},
+<<<<<<< Updated upstream
 		["Prat_UrlCopy"] = {
 		},
 		["Prat_KeyBindings"] = {
@@ -52,11 +62,33 @@ Prat3DB = {
 		},
 		["Prat_Sounds"] = {
 		},
+=======
+		["Prat_Bubbles"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_Timestamps"] = {
+		},
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_Sounds"] = {
+		},
+		["Prat_Scroll"] = {
+		},
+>>>>>>> Stashed changes
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
 		},
+<<<<<<< Updated upstream
 		["Prat_History"] = {
+=======
+		["Prat_Font"] = {
+>>>>>>> Stashed changes
 		},
 		["Prat_Alias"] = {
 		},
@@ -70,11 +102,19 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
+<<<<<<< Updated upstream
 		["Prat_Font"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
 		["Prat_PopupMessage"] = {
+=======
+		["Prat_History"] = {
+		},
+		["Prat_CopyChat"] = {
+		},
+		["Prat_ChatLog"] = {
+>>>>>>> Stashed changes
 		},
 		["Prat_Search"] = {
 		},
@@ -85,6 +125,7 @@ Prat3DB = {
 		["Prat_HoverTips"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Cupkek - Emerald Dream"] = "Default",
 		["Sprinkles - Emerald Dream"] = "Default",
@@ -95,6 +136,12 @@ Prat3DB = {
 		["Default"] = {
 			["modules"] = {
 				["Alias"] = 2,
+=======
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["ChatLog"] = 2,
+>>>>>>> Stashed changes
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -102,8 +149,18 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
+<<<<<<< Updated upstream
 				["ChatLog"] = 2,
 			},
 		},
 	},
+=======
+				["Alias"] = 2,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kkimport - Emerald Dream"] = "Default",
+	},
+>>>>>>> Stashed changes
 }

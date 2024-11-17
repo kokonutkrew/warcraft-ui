@@ -1,14 +1,22 @@
 
 SpyPerCharDB = {
 	["KOSData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = 1608587648,
 		["Draazz"] = 1606942090,
 		["Whackers"] = 1608326279,
 		["Herpexio"] = 1608326277,
+=======
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+>>>>>>> Stashed changes
 	},
 	["IgnoreData"] = {
 	},
 	["PlayerData"] = {
+<<<<<<< Updated upstream
 		["Meddling"] = {
 			["mapID"] = 1670,
 			["guild"] = "CrossFaded",
@@ -78,6 +86,8 @@ SpyPerCharDB = {
 			["mapY"] = 0.38,
 			["subZone"] = "Ring of Fates",
 		},
+=======
+>>>>>>> Stashed changes
 	},
 	["version"] = "1.1",
 }

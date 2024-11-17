@@ -1,5 +1,77 @@
 
 RematchSaved = {
+<<<<<<< Updated upstream
+=======
+	["1"] = {
+		{
+			"BattlePet-0-000006515DCE", -- [1]
+			459, -- [2]
+			566, -- [3]
+			208, -- [4]
+			1387, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-0000071B4ADE", -- [1]
+			299, -- [2]
+			611, -- [3]
+			593, -- [4]
+			1152, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-00000748CBAC", -- [1]
+			115, -- [2]
+			647, -- [3]
+			282, -- [4]
+			844, -- [5]
+		}, -- [3]
+	},
+	["Explosive"] = {
+		{
+			"BattlePet-0-0000071B4ADE", -- [1]
+			299, -- [2]
+			611, -- [3]
+			593, -- [4]
+			1152, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000006515DCE", -- [1]
+			390, -- [2]
+			640, -- [3]
+			282, -- [4]
+			1387, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-00000748CBAC", -- [1]
+			115, -- [2]
+			647, -- [3]
+			282, -- [4]
+			844, -- [5]
+		}, -- [3]
+	},
+	["2"] = {
+		{
+			"BattlePet-0-00000766C7A3", -- [1]
+			1483, -- [2]
+			649, -- [3]
+			350, -- [4]
+			1639, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000006F85525", -- [1]
+			777, -- [2]
+			634, -- [3]
+			209, -- [4]
+			338, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-000006C2C39F", -- [1]
+			429, -- [2]
+			312, -- [3]
+			521, -- [4]
+			1416, -- [5]
+		}, -- [3]
+	},
+>>>>>>> Stashed changes
 }
 RematchSettings = {
 	["ScriptFilters"] = {
@@ -25,6 +97,7 @@ RematchSettings = {
 		}, -- [5]
 	},
 	["QueueSortOrder"] = 1,
+<<<<<<< Updated upstream
 	["XPos"] = 675,
 	["FavoriteFilters"] = {
 	},
@@ -39,6 +112,45 @@ RematchSettings = {
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 	},
+=======
+	["XPos"] = 851.592529296875,
+	["SpecialSlots"] = {
+	},
+	["loadedTeam"] = "Explosive",
+	["CustomScaleValue"] = 100,
+	["HidePetToast"] = true,
+	["QueueSanctuary"] = {
+	},
+	["Sort"] = {
+		["Order"] = 2,
+		["FavoritesFirst"] = true,
+	},
+	["AllowHiddenPetsDefaulted"] = true,
+	["BackupCount"] = 0,
+	["TeamGroups"] = {
+		{
+			"Ranked", -- [1]
+			1322720, -- [2]
+		}, -- [1]
+		{
+			"Money", -- [1]
+			1686575, -- [2]
+		}, -- [2]
+		{
+			"Shadowlands", -- [1]
+			1686581, -- [2]
+		}, -- [3]
+		{
+			"Test", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [4]
+		{
+			"Starters", -- [1]
+			"Interface\\Icons\\PetJournalPortrait", -- [2]
+		}, -- [5]
+	},
+	["UseTypeBar"] = true,
+>>>>>>> Stashed changes
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -52,10 +164,17 @@ RematchSettings = {
 		},
 		["Collected"] = {
 		},
+<<<<<<< Updated upstream
 		["Similar"] = {
 		},
 		["Sources"] = {
 		},
+=======
+		["Sources"] = {
+		},
+		["Similar"] = {
+		},
+>>>>>>> Stashed changes
 		["Breed"] = {
 		},
 		["Rarity"] = {
@@ -65,10 +184,15 @@ RematchSettings = {
 		["Level"] = {
 		},
 		["Tough"] = {
+<<<<<<< Updated upstream
+=======
+			[4] = true,
+>>>>>>> Stashed changes
 		},
 		["Moveset"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["ExpandedOptHeaders"] = {
 	},
 	["JournalPanel"] = 1,
@@ -89,5 +213,90 @@ RematchSettings = {
 	["YPos"] = 237.9999389648438,
 	["SelectedTab"] = 1,
 	["PetNotes"] = {
+=======
+	["Minimized"] = true,
+	["FavoriteFilters"] = {
+	},
+	["ExpandedOptHeaders"] = {
+	},
+	["PreferredMode"] = 1,
+	["ExpandedTargetHeaders"] = {
+	},
+	["ElvUIToastDefaulted"] = true,
+	["ActivePanel"] = 2,
+	["Sanctuary"] = {
+		["BattlePet-0-00000748CBAC"] = {
+			4, -- [1]
+			true, -- [2]
+			844, -- [3]
+			25, -- [4]
+			1400, -- [5]
+			276, -- [6]
+			309, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-00000766C7A3"] = {
+			1, -- [1]
+			true, -- [2]
+			1639, -- [3]
+			1, -- [4]
+			159, -- [5]
+			12, -- [6]
+			10, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-000006C2C39F"] = {
+			1, -- [1]
+			true, -- [2]
+			1416, -- [3]
+			1, -- [4]
+			158, -- [5]
+			12, -- [6]
+			10, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-0000071B4ADE"] = {
+			4, -- [1]
+			true, -- [2]
+			1152, -- [3]
+			25, -- [4]
+			1644, -- [5]
+			276, -- [6]
+			260, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-000006515DCE"] = {
+			4, -- [1]
+			true, -- [2]
+			1387, -- [3]
+			25, -- [4]
+			1400, -- [5]
+			341, -- [6]
+			244, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-000006F85525"] = {
+			1, -- [1]
+			true, -- [2]
+			338, -- [3]
+			25, -- [4]
+			1627, -- [5]
+			273, -- [6]
+			260, -- [7]
+			4, -- [8]
+		},
+	},
+	["JournalPanel"] = 1,
+	["CornerPos"] = "BOTTOMLEFT",
+	["LevelingQueue"] = {
+	},
+	["JournalUsed"] = true,
+	["YPos"] = 338.0000610351563,
+	["SelectedTab"] = 1,
+	["PetNotes"] = {
+		[1155] = "Top 20 Battle Pet",
+		[844] = "Top 20 Battle Pet",
+		[1238] = "Top 20 Battle Pet",
+>>>>>>> Stashed changes
 	},
 }

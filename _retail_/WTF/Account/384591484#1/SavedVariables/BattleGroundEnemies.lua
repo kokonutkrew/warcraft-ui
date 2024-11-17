@@ -1,6 +1,7 @@
 
 BattleGroundEnemiesDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
 		["Royders - Emerald Dream"] = "Default",
@@ -29,6 +30,13 @@ BattleGroundEnemiesDB = {
 					["Position_Y"] = 483.555567264557,
 				},
 			},
+=======
+		["Samoanbatman - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastReadVersion"] = "9.0.5.6",
+>>>>>>> Stashed changes
 		},
 	},
 }

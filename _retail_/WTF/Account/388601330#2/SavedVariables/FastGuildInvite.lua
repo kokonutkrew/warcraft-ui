@@ -1,5 +1,6 @@
 
 FGI_DB = {
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Buhbels - Emerald Dream"] = "Default",
 	},
@@ -570,11 +571,24 @@ FGI_DB = {
 			},
 			["sendMSG"] = true,
 		},
+=======
+	["global"] = {
+		["introShow"] = false,
+	},
+	["profileKeys"] = {
+		["Kkimport - Emerald Dream"] = "Default",
+		["Cupkek - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 }
 FGI_DEBUG = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+=======
+		["Kkimport - Emerald Dream"] = "Kkimport - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["global"] = {
 		{

@@ -1,0 +1,923 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 61,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 1421.568,
+				}, -- [1]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 1421.568,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:16]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 1421.568,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:16]|h|r dev tools loaded",
+					["timestamp"] = 1421.568,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:16]|h|r slash-commands loaded",
+					["timestamp"] = 1421.568,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hplayer:Kikilala-EmeraldDream|h[|cffc59a6cKikilala|r]|h has earned the achievement |cffffff00|Hachievement:1177:Player-162-0B549F4C:1:5:8:21:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Beàtrice-EmeraldDream:16:2|h[|cff3ec6eaBeàtrice|r]|h: is there a way to tell if ive learned all the glyphs from a specific type of research so im not wasting time or mats?",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Åøåð-EmeraldDream:25:2|h[|cff3ec6eaÅøåð|r]|h: ***Malevolence*** Seeking new members to join us in Shadowlands raiding! Looking for all classes! We are a PvP PvE WPvP RBG. We are doing it all. Officer seats are open. ACTIVE PLAYERS ONLY! PST for more info.",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Titàn-EmeraldDream:57:2|h[|cffa22fc8Titàn|r]|h: wts |cff1eff00|Hbattlepet:2793:1:2:147:11:11:0000000000000000:87763|h[Sunsoaked Flitter]|h|r|cff1eff00|Hbattlepet:2404:1:2:150:10:11:0000000000000000:81966|h[Seabreeze Bumblebee]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Titàn-EmeraldDream:79:2|h[|cffa22fc8Titàn|r]|h: wts |cffa335ee|Hitem:184778::::::::60:577::5:4:7188:6652:1485:6646:1:28:752:::|h[Decadent Nathrian Shawl]|h|r|cff1eff00|Hbattlepet:2404:1:2:150:10:11:0000000000000000:81966|h[Seabreeze Bumblebee]|h|r|cff1eff00|Hbattlepet:2793:1:2:144:10:13:0000000000000000:87763|h[Sunsoaked Flitter]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:GUILD|h[G]|h |Hplayer:Saiancelia-EmeraldDream:114:GUILD:|h[|cff3ec6eaSaiancelia|r]|h: |cffa335ee|Hkeystone:180653:378:9:9:11:13:0|h[Keystone: Halls of Atonement (9)]|h|r ",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						5, -- [2]
+						6, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Zurreneas-EmeraldDream:123:2|h[|cfff38bb9Zurreneas|r]|h: thats not true and you know it. stop gatekeeping gender you bigot",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Sauveur-EmeraldDream:124:2|h[|cfff38bb9Sauveur|r]|h: O:",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						8, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Moonslightt-EmeraldDream:126:2|h[|cfffefefeMoonslightt|r]|h: I'ts funny how a liberals opinion can just straight up be used as a joke to normal people. ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						9, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Ravissa-EmeraldDream:127:2|h[|cfff38bb9Ravissa|r]|h: I thought I was on Alliance, but there are all these trolls in trade",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Kalterast-EmeraldDream:128:2|h[|cffc31d39Kalterast|r]|h: Any women can give birth, but not all of them are real mother ! and thats what important |Helvmoji:%Oik=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Media\\ChatEmojis\\Smile:16:16|t",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Moonslightt-EmeraldDream:129:2|h[|cfffefefeMoonslightt|r]|h: Calling mothers women is troll to deranged people? ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						9, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Åøåð-EmeraldDream:130:2|h[|cff3ec6eaÅøåð|r]|h: ***Malevolence*** Seeking new members to join us in Shadowlands raiding! Looking for all classes! We are a PvP PvE WPvP RBG. We are doing it all. Officer seats are open. ACTIVE PLAYERS ONLY! PST for more info.",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Moonslightt-EmeraldDream:132:2|h[|cfffefefeMoonslightt|r]|h: Was the fake pandemic not enough for stupid people to understand that Democrats are trying to destroy your lives and country? ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						9, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:23]|h|r |Hplayer:Herbcraft-EmeraldDream|h[|cff8687edHerbcraft|r]|h has earned the achievement |cffffff00|Hachievement:4610:Player-162-0B3AFCB9:1:5:8:21:4294967295:4294967295:4294967295:4294967295|h[Boned (25 player)]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:28]|h|r Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at |cFFFFFFFF[|Hurl:https://www.tukui.org|hhttps://www.tukui.org|h]|r or join our Discord: |cFFFFFFFF[|Hurl:https://discord.gg/xFWcfgE|hhttps://discord.gg/xFWcfgE|h]|r ",
+					["timestamp"] = 1449.876,
+					["extraData"] = {
+						["n"] = 3,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:28]|h|r Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 1449.876,
+					["extraData"] = {
+						["n"] = 3,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:29]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.21)|r:  hooked into Rematch",
+					["timestamp"] = 1449.876,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525710,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:29]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 1449.876,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525710,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:31]|h|r |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["serverTime"] = 1621525712,
+					["r"] = 1,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:34]|h|r Loot Specialization set to: Fire",
+					["serverTime"] = 1621525715,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1449.876,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:34]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 1449.876,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525715,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:34]|h|r |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 1449.876,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525715,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:39]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 1466.606,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525720,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:48]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1621525729,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1475.469,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:49]|h|r AAP Loaded",
+					["timestamp"] = 1475.469,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525730,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:56]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 1484.409,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525737,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:25]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Wandering Ancient' (1458) not yet known. |cffff9900|Hitem:cosFix:mountId:1458|h[Click here to define it!]|h|r",
+					["timestamp"] = 1513.698,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525766,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:50:41]|h|r |cff33ff99CameraOverShoulderFix|r: Mount 'Wandering Ancient' (1458) not yet known. |cffff9900|Hitem:cosFix:mountId:1458|h[Click here to define it!]|h|r",
+					["timestamp"] = 1589.506,
+					["extraData"] = {
+						["n"] = 3,
+					},
+					["serverTime"] = 1621525842,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:51:29]|h|r Dwarven District is now your home.",
+					["serverTime"] = 1621525890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1637.194,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:52:28]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Goldmyname-EmeraldDream:6:2|h[|cffc59a6cGoldmyname|r]|h: WTS |cff0070dd|Hbattlepet:168:5:3:376:49:65:0000000000000000:22903|h[Rocket Chicken]|h|r|cff0070dd|Hbattlepet:169:1:3:152:10:13:0000000000000000:0|h[Dragon Kite]|h|r|cff0070dd|Hbattlepet:183:25:3:1481:276:276:0000000000000000:25002|h[Ethereal Soul-Trader]|h|r pst",
+					["serverTime"] = 1621525949,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1695.975,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:29]|h|r |CFF69CCF0Eterius |CFFFF0000(M)|r|r has gone offline.",
+					["serverTime"] = 1621526130,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1877.027,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:56]|h|r |CFFFFFF00|CFF69CCF0|Hplayer:Eterius|h[Eterius]|h|r |CFFFF0000(M)|r|CFFFFFF00 has come online.",
+					["serverTime"] = 1621526157,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1903.961,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:38]|h|r You are now Away: AFK",
+					["serverTime"] = 1621526199,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 1946.702,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:06]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Goldmyname-EmeraldDream:10:2|h[|cffc59a6cGoldmyname|r]|h: WTS |cff0070dd|Hbattlepet:1544:1:3:155:12:11:0000000000000000:60441|h[Hatespark the Tiny]|h|r|cff0070dd|Hbattlepet:311:25:3:1562:276:260:0000000000000000:38359|h[Guardian Cub]|h|r|cff0070dd|Hbattlepet:348:25:3:1481:305:257:0000000000000000:40538|h[Eye of the Legion]|h|r pst",
+					["serverTime"] = 1621526227,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 1974.059,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:59:00]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Sainthook-EmeraldDream:12:2|h[|cfff38bb9Sainthook|r]|h: i think u guys started a medieval wisdom tooth extraction 500 years ago or longer, and yall got Shaved by accident with No Communication",
+					["serverTime"] = 1621526341,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2088.097,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:59:12]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Sainthook-EmeraldDream:13:2|h[|cfff38bb9Sainthook|r]|h: dont get Shaved",
+					["serverTime"] = 1621526353,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2100.13,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:59:21]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Avanle-EmeraldDream:14:2|h[|cff3ec6eaAvanle|r]|h: I ... what ... don't even",
+					["serverTime"] = 1621526362,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						14, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2109.77,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:59:34]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Fabion-EmeraldDream:15:2|h[|cffa22fc8Fabion|r]|h: I dont get that either",
+					["serverTime"] = 1621526375,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2122.47,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:59:52]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Lôrn-EmeraldDream:16:2|h[|cfffef367Lôrn|r]|h: shaved by the bell",
+					["serverTime"] = 1621526393,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						16, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2140.37,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:00:04]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Fabion-EmeraldDream:17:2|h[|cffa22fc8Fabion|r]|h: Stroke much?",
+					["serverTime"] = 1621526405,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2152.378,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:02:12]|h|r |CFF69CCF0Eterius |CFFFF0000(M)|r|r has gone offline.",
+					["serverTime"] = 1621526533,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 2280.698,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:03:34]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Sainthook-EmeraldDream:19:2|h[|cfff38bb9Sainthook|r]|h: u need more Time for farming, so what i have in my Hand here requires Age",
+					["serverTime"] = 1621526615,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						13, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2362.265,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:03:54]|h|r |Hchannel:channel:1|h[1]|h |Hplayer:Nymria-EmeraldDream:20:1|h[|cffc31d39Nymria|r]|h: Yo anyone got a casual leveling guild i could join?",
+					["serverTime"] = 1621526635,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						17, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 2382.365,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:17:21]|h|r |Hchannel:channel:3|h[3]|h : |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1621527442,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						19, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 3189.147,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:17:47]|h|r |CFFC79C6EMf|r has gone offline.",
+					["serverTime"] = 1621527468,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 3215.213,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:18:24]|h|r |Hchannel:channel:3|h[3]|h : |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1621527505,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						19, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 3251.941,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:19:02]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Dirtyjab-EmeraldDream:24:2|h[|cff00fe97Dirtyjab|r]|h: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1621527543,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 3290.101,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:20:35]|h|r |Hchannel:channel:3|h[3]|h : |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1621527636,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						19, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 3382.953,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:20:44]|h|r |Hchannel:channel:3|h[3]|h : |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1621527645,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						19, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 3392.186,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:24:30]|h|r |Hchannel:channel:2|h[2]|h |Hplayer:Brandoxic-EmeraldDream:27:2|h[|cfff38bb9Brandoxic|r]|h: WTB |cffa335ee|Hitem:184804::::::::60:70:::::::|h[Ulfius' Calming Claymore]|h|r 50k",
+					["serverTime"] = 1621527871,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 3618.562,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:32:04]|h|r |CFFF58CBASandalphon|r has gone offline.",
+					["serverTime"] = 1621528325,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 4072.026,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:42:09]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1621528930,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 3,
+					},
+					["timestamp"] = 4677.375,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:42:30]|h|r Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1621528951,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						17, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 4698.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:42:30]|h|r Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1621528951,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 4698.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:42:30]|h|r Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1621528951,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						19, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 4698.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+			},
+			["maxElements"] = 100,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

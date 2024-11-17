@@ -4,16 +4,20 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
-local _, TSM = ...
-local AuctionUI = TSM.UI:NewPackage("AuctionUI")
-local L = TSM.Include("Locale").GetTable()
-local Delay = TSM.Include("Util.Delay")
-local Event = TSM.Include("Util.Event")
-local Log = TSM.Include("Util.Log")
-local ScriptWrapper = TSM.Include("Util.ScriptWrapper")
-local Settings = TSM.Include("Service.Settings")
-local ItemLinked = TSM.Include("Service.ItemLinked")
-local UIElements = TSM.Include("UI.UIElements")
+local TSM = select(2, ...) ---@type TSM
+local AuctionUI = TSM.UI:NewPackage("AuctionUI") ---@type AddonPackage
+local ClientInfo = TSM.LibTSMWoW:Include("Util.ClientInfo")
+local L = TSM.Locale.GetTable()
+local DelayTimer = TSM.LibTSMWoW:IncludeClassType("DelayTimer")
+local ScriptWrapper = TSM.LibTSMWoW:Include("API.ScriptWrapper")
+local AuctionScan = TSM.LibTSMService:Include("AuctionScan")
+local Theme = TSM.LibTSMService:Include("UI.Theme")
+local ItemLinked = TSM.LibTSMUI:Include("Util.ItemLinked")
+local DefaultUI = TSM.LibTSMWoW:Include("UI.DefaultUI")
+local UIElements = TSM.LibTSMUI:Include("Util.UIElements")
+local UIUtils = TSM.LibTSMUI:Include("Util.UIUtils")
+local AppHelper = TSM.LibTSMApp:Include("Service.AppHelper")
+local LibAHTab = LibStub("LibAHTab-1-0")
 local private = {
 	settings = nil,
 	topLevelPages = {},
@@ -25,6 +29,7 @@ local private = {
 	defaultFrame = nil,
 }
 local MIN_FRAME_SIZE = { width = 750, height = 450 }
+local AH_TAB_ID = "TSM_AH_TAB"
 
 
 
@@ -32,19 +37,27 @@ local MIN_FRAME_SIZE = { width = 750, height = 450 }
 -- Module Functions
 -- ============================================================================
 
-function AuctionUI.OnInitialize()
-	private.settings = Settings.NewView()
+function AuctionUI.OnInitialize(settingsDB)
+	private.settings = settingsDB:NewView()
 		:AddKey("global", "auctionUIContext", "showDefault")
 		:AddKey("global", "auctionUIContext", "frame")
+		:AddKey("global", "coreOptions", "protectAuctionHouse")
+		:AddKey("global", "coreOptions", "regionWide")
+		:AddKey("global", "appearanceOptions", "showTotalMoney")
+		:AddKey("global", "internalData", "warbankMoney")
+		:AddKey("sync", "internalData", "money")
 	UIParent:UnregisterEvent("AUCTION_HOUSE_SHOW")
-	Event.Register("AUCTION_HOUSE_SHOW", private.AuctionFrameInit)
-	Event.Register("AUCTION_HOUSE_CLOSED", private.HideAuctionFrame)
-	if TSM.IsWowClassic() then
-		Delay.AfterTime(1, function() LoadAddOn("Blizzard_AuctionUI") end)
-	else
-		Delay.AfterTime(1, function() LoadAddOn("Blizzard_AuctionHouseUI") end)
+	if ClientInfo.IsRetail() then
+		UIParent:UnregisterEvent("AUCTION_HOUSE_SHOW_NOTIFICATION")
+		UIParent:UnregisterEvent("AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION")
+		UIParent:UnregisterEvent("AUCTION_HOUSE_SHOW_COMMODITY_WON_NOTIFICATION")
 	end
-	ItemLinked.RegisterCallback(private.ItemLinkedCallback)
+	DefaultUI.RegisterAuctionHouseVisibleCallback(private.AuctionFrameInit, true)
+	DefaultUI.RegisterAuctionHouseVisibleCallback(private.AuctionFrameHidden, false)
+	AuctionScan.ConfigureLock(L["A scan is already in progress. Please stop that scan before starting another one."], private.ScanLockCallback)
+	ItemLinked.RegisterCallback(private.ItemLinkedCallback, true)
+	local loadTimer = DelayTimer.New("AUCTION_UI_LOAD_BLIZZ", function() C_AddOns.LoadAddOn(ClientInfo.IsRetail() and "Blizzard_AuctionHouseUI" or "Blizzard_AuctionUI") end)
+	loadTimer:RunForTime(1)
 end
 
 function AuctionUI.OnDisable()
@@ -57,35 +70,6 @@ end
 
 function AuctionUI.RegisterTopLevelPage(name, callback, itemLinkedHandler)
 	tinsert(private.topLevelPages, { name = name, callback = callback, itemLinkedHandler = itemLinkedHandler })
-end
-
-function AuctionUI.StartingScan(pageName)
-	if private.scanningPage and private.scanningPage ~= pageName then
-		Log.PrintfUser(L["A scan is already in progress. Please stop that scan before starting another one."])
-		return false
-	end
-	private.scanningPage = pageName
-	Log.Info("Starting scan %s", pageName)
-	if private.frame then
-		private.frame:SetPulsingNavButton(private.scanningPage)
-	end
-	for _, callback in ipairs(private.updateCallbacks) do
-		callback()
-	end
-	return true
-end
-
-function AuctionUI.EndedScan(pageName)
-	if private.scanningPage == pageName then
-		Log.Info("Ended scan %s", pageName)
-		private.scanningPage = nil
-		if private.frame then
-			private.frame:SetPulsingNavButton()
-		end
-		for _, callback in ipairs(private.updateCallbacks) do
-			callback()
-		end
-	end
 end
 
 function AuctionUI.SetOpenPage(name)
@@ -117,40 +101,64 @@ end
 -- Main Frame
 -- ============================================================================
 
+local function NoOp()
+	-- do nothing - what did you expect?
+end
+
 function private.AuctionFrameInit()
+	if GameLimitedMode_IsActive() then
+		return
+	end
 	local tabTemplateName = nil
-	if TSM.IsWowClassic() then
-		private.defaultFrame = AuctionFrame
-		tabTemplateName = "AuctionTabTemplate"
-	else
+	if ClientInfo.IsRetail() then
 		private.defaultFrame = AuctionHouseFrame
 		tabTemplateName = "AuctionHouseFrameTabTemplate"
+	else
+		private.defaultFrame = AuctionFrame
+		tabTemplateName = "AuctionTabTemplate"
 	end
 	if not private.hasShown then
 		private.hasShown = true
-		local tabId = private.defaultFrame.numTabs + 1
-		local tab = CreateFrame("Button", "AuctionFrameTab"..tabId, private.defaultFrame, tabTemplateName)
-		tab:Hide()
-		tab:SetID(tabId)
-		tab:SetText(Log.ColorUserAccentText("TSM4"))
-		tab:SetNormalFontObject(GameFontHighlightSmall)
-		if TSM.IsWowClassic() then
-			tab:SetPoint("LEFT", _G["AuctionFrameTab"..tabId - 1], "RIGHT", -8, 0)
+		if ClientInfo.IsRetail() then
+			LibAHTab:CreateTab(AH_TAB_ID, CreateFrame("Frame"), Theme.GetColor("INDICATOR_ALT"):ColorText("TSM"))
+			ScriptWrapper.Set(LibAHTab:GetButton(AH_TAB_ID), "OnClick", private.TSMTabOnClick)
+			AuctionHouseFrame:HookScript("OnShow", private.UnregisterDefaultUIEvents)
+			if private.defaultFrame:IsVisible() then
+				private.UnregisterDefaultUIEvents()
+			end
 		else
-			tab:SetPoint("LEFT", AuctionHouseFrame.Tabs[tabId - 1], "RIGHT", -15, 0)
-			tinsert(AuctionHouseFrame.Tabs, tab)
+			local tabId = private.defaultFrame.numTabs + 1
+			local tab = CreateFrame("Button", "AuctionFrameTab"..tabId, private.defaultFrame, tabTemplateName)
+			tab:Hide()
+			tab:SetID(tabId)
+			tab:SetText(Theme.GetColor("INDICATOR_ALT"):ColorText("TSM"))
+			tab:SetNormalFontObject(GameFontHighlightSmall)
+			tab:SetPoint("LEFT", _G["AuctionFrameTab"..tabId - 1], "RIGHT", -8, 0)
+			tab:Show()
+			PanelTemplates_SetNumTabs(private.defaultFrame, tabId)
+			PanelTemplates_EnableTab(private.defaultFrame, tabId)
+			ScriptWrapper.Set(tab, "OnClick", private.TSMTabOnClick)
 		end
-		tab:Show()
-		PanelTemplates_SetNumTabs(private.defaultFrame, tabId)
-		PanelTemplates_EnableTab(private.defaultFrame, tabId)
-		ScriptWrapper.Set(tab, "OnClick", private.TSMTabOnClick)
 	end
 	if private.settings.showDefault then
-		UIParent_OnEvent(UIParent, "AUCTION_HOUSE_SHOW")
+		if not ClientInfo.IsRetail() then
+			UIParent_OnEvent(UIParent, "AUCTION_HOUSE_SHOW")
+		end
 	else
+		if ClientInfo.IsRetail() then
+			private.defaultFrame:SetScale(0.001)
+			LibAHTab:SetSelected(AH_TAB_ID)
+		end
 		PlaySound(SOUNDKIT.AUCTION_WINDOW_OPEN)
 		private.ShowAuctionFrame()
 	end
+end
+
+function private.UnregisterDefaultUIEvents()
+	private.defaultFrame:UnregisterEvent("AUCTION_HOUSE_AUCTION_CREATED")
+	private.defaultFrame:UnregisterEvent("AUCTION_HOUSE_SHOW_NOTIFICATION")
+	private.defaultFrame:UnregisterEvent("AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION")
+	private.defaultFrame:UnregisterEvent("AUCTION_HOUSE_SHOW_COMMODITY_WON_NOTIFICATION")
 end
 
 function private.ShowAuctionFrame()
@@ -165,27 +173,41 @@ function private.ShowAuctionFrame()
 	end
 end
 
+function private.AuctionFrameHidden()
+	if not private.frame then
+		return
+	end
+	if ClientInfo.IsRetail() then
+		private.defaultFrame:SetScale(1)
+		private.defaultFrame:SetDisplayMode(AuctionHouseFrameDisplayMode.Buy)
+	end
+	private.HideAuctionFrame()
+end
+
 function private.HideAuctionFrame()
 	if not private.frame then
 		return
 	end
 	private.frame:Hide()
-	assert(not private.frame)
+	-- For some reason, on retail the OnHide callback isn't called immediately
+	if not ClientInfo.IsRetail() then
+		assert(not private.frame)
+	end
 	for _, callback in ipairs(private.updateCallbacks) do
 		callback()
 	end
 end
 
 function private.CreateMainFrame()
-	TSM.UI.AnalyticsRecordPathChange("auction")
+	UIUtils.AnalyticsRecordPathChange("auction")
 	local frame = UIElements.New("LargeApplicationFrame", "base")
 		:SetParent(UIParent)
 		:SetSettingsContext(private.settings, "frame")
 		:SetMinResize(MIN_FRAME_SIZE.width, MIN_FRAME_SIZE.height)
 		:SetStrata("HIGH")
-		:SetProtected(TSM.db.global.coreOptions.protectAuctionHouse)
-		:AddPlayerGold()
-		:AddAppStatusIcon()
+		:SetProtected(not ClientInfo.IsRetail() and private.settings.protectAuctionHouse)
+		:AddPlayerGold(private.settings)
+		:AddAppStatusIcon(AppHelper.GetRegion(), AppHelper.GetLastSync(), TSM.AuctionDB.GetAppDataUpdateTimes())
 		:AddSwitchButton(private.SwitchBtnOnClick)
 		:SetScript("OnHide", private.BaseFrameOnHide)
 	for _, info in ipairs(private.topLevelPages) do
@@ -204,51 +226,60 @@ end
 -- Local Script Handlers
 -- ============================================================================
 
+function private.ScanLockCallback(name)
+	private.scanningPage = name
+	if private.frame then
+		private.frame:SetPulsingNavButton(name)
+	end
+	for _, callback in ipairs(private.updateCallbacks) do
+		callback()
+	end
+end
+
 function private.BaseFrameOnHide(frame)
 	assert(frame == private.frame)
 	frame:Release()
 	private.frame = nil
 	if not private.isSwitching then
 		PlaySound(SOUNDKIT.AUCTION_WINDOW_CLOSE)
-		if TSM.IsWowClassic() then
-			CloseAuctionHouse()
-		else
+		if ClientInfo.IsRetail() then
+			private.defaultFrame:SetScale(1)
 			C_AuctionHouse.CloseAuctionHouse()
+		else
+			CloseAuctionHouse()
 		end
 	end
-	TSM.UI.AnalyticsRecordClose("auction")
+	UIUtils.AnalyticsRecordClose("auction")
 end
 
 function private.SwitchBtnOnClick(button)
 	private.isSwitching = true
 	private.settings.showDefault = true
 	private.HideAuctionFrame()
+	if ClientInfo.IsRetail() then
+		private.defaultFrame:SetScale(1)
+		private.defaultFrame:SetDisplayMode(AuctionHouseFrameDisplayMode.Buy)
+	end
 	UIParent_OnEvent(UIParent, "AUCTION_HOUSE_SHOW")
 	private.isSwitching = false
 end
 
-local function NoOp()
-	-- do nothing - what did you expect?
-end
-
 function private.TSMTabOnClick()
 	private.settings.showDefault = false
-	if TSM.IsWowClassic() then
+	if not ClientInfo.IsRetail() then
 		ClearCursor()
 		ClickAuctionSellItemButton(AuctionsItemButton, "LeftButton")
 	end
 	ClearCursor()
-	-- Replace CloseAuctionHouse() with a no-op while hiding the AH frame so we don't stop interacting with the AH NPC
-	if TSM.IsWowClassic() then
+	if ClientInfo.IsRetail() then
+		private.defaultFrame:SetScale(0.001)
+		LibAHTab:SetSelected(AH_TAB_ID)
+	else
+		-- Replace CloseAuctionHouse() with a no-op while hiding the AH frame so we don't stop interacting with the AH NPC
 		local origCloseAuctionHouse = CloseAuctionHouse
 		CloseAuctionHouse = NoOp
 		AuctionFrame_Hide()
 		CloseAuctionHouse = origCloseAuctionHouse
-	else
-		local origCloseAuctionHouse = C_AuctionHouse.CloseAuctionHouse
-		C_AuctionHouse.CloseAuctionHouse = NoOp
-		HideUIPanel(private.defaultFrame)
-		C_AuctionHouse.CloseAuctionHouse = origCloseAuctionHouse
 	end
 	private.ShowAuctionFrame()
 end

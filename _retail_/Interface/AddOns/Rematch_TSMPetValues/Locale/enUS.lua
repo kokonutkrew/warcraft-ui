@@ -1,11 +1,11 @@
 --------------------------------------------------------------------------------------------
--- Rematch_TSMPetValues - Add TSM market values ​​to the Rematch pet list
+-- Rematch_TSMPetValues - Add TSM market values to the Rematch pet list
 --------------------------------------------------------------------------------------------
 -- Locale/enUS.lua - Strings for enUS
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / August 2024 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.2.6
 ------------------------------------------------------------------------------
 -- luacheck: max line length 350
 
@@ -14,12 +14,20 @@ local silent = true
 local L = LibStub("AceLocale-3.0"):NewLocale(addonName, "enUS", true, silent)
 if not L then return end
 
+L["/ no Rematch found "] = true
+L["Loaded modules: "] = true
+L["Not loaded modules: "] = true
+
 L["Price Sources"] = true
 L["First Price Source"] = true
 L["Second Price Source"] = true
 L["Choose a TSM price source"] = true
 L[" hooked into Rematch"] = true
 L[" NOT hooked into Rematch"] = true
+
+L["Found usable data from TradeSkillMaster."] = true
+L["No usable data from TradeSkillMaster found! Please check your TradeSkillMaster Desktop App."] = true
+L["TradeSkillMaster not found!"] = true
 
 L["ON"] = true
 L["OFF"] = true

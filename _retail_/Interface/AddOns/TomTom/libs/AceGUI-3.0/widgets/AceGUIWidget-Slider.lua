@@ -14,10 +14,13 @@ local tonumber, pairs = tonumber, pairs
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
+<<<<<<< Updated upstream
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
 -- GLOBALS: GameFontHighlightSmall
 
+=======
+>>>>>>> Stashed changes
 --[[-----------------------------------------------------------------------------
 Support functions
 -------------------------------------------------------------------------------]]
@@ -31,6 +34,7 @@ local function UpdateText(self)
 end
 
 local function UpdateLabels(self)
+<<<<<<< Updated upstream
 	local min, max = (self.min or 0), (self.max or 100)
 	if self.ispercent then
 		self.lowtext:SetFormattedText("%s%%", (min * 100))
@@ -38,6 +42,15 @@ local function UpdateLabels(self)
 	else
 		self.lowtext:SetText(min)
 		self.hightext:SetText(max)
+=======
+	local min_value, max_value = (self.min or 0), (self.max or 100)
+	if self.ispercent then
+		self.lowtext:SetFormattedText("%s%%", (min_value * 100))
+		self.hightext:SetFormattedText("%s%%", (max_value * 100))
+	else
+		self.lowtext:SetText(min_value)
+		self.hightext:SetText(max_value)
+>>>>>>> Stashed changes
 	end
 end
 
@@ -175,6 +188,7 @@ local methods = {
 		self.label:SetText(text)
 	end,
 
+<<<<<<< Updated upstream
 	["SetSliderValues"] = function(self, min, max, step)
 		local frame = self.slider
 		frame.setup = true
@@ -182,6 +196,15 @@ local methods = {
 		self.max = max
 		self.step = step
 		frame:SetMinMaxValues(min or 0,max or 100)
+=======
+	["SetSliderValues"] = function(self, min_value, max_value, step)
+		local frame = self.slider
+		frame.setup = true
+		self.min = min_value
+		self.max = max_value
+		self.step = step
+		frame:SetMinMaxValues(min_value or 0,max_value or 100)
+>>>>>>> Stashed changes
 		UpdateLabels(self)
 		frame:SetValueStep(step or 1)
 		if self.value then
@@ -225,7 +248,11 @@ local function Constructor()
 	label:SetJustifyH("CENTER")
 	label:SetHeight(15)
 
+<<<<<<< Updated upstream
 	local slider = CreateFrame("Slider", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
+=======
+	local slider = CreateFrame("Slider", nil, frame, "BackdropTemplate")
+>>>>>>> Stashed changes
 	slider:SetOrientation("HORIZONTAL")
 	slider:SetHeight(15)
 	slider:SetHitRectInsets(0, 0, -10, 0)
@@ -247,7 +274,11 @@ local function Constructor()
 	local hightext = slider:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 	hightext:SetPoint("TOPRIGHT", slider, "BOTTOMRIGHT", -2, 3)
 
+<<<<<<< Updated upstream
 	local editbox = CreateFrame("EditBox", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
+=======
+	local editbox = CreateFrame("EditBox", nil, frame, "BackdropTemplate")
+>>>>>>> Stashed changes
 	editbox:SetAutoFocus(false)
 	editbox:SetFontObject(GameFontHighlightSmall)
 	editbox:SetPoint("TOP", slider, "BOTTOM")

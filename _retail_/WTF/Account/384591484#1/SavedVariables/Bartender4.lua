@@ -3,7 +3,21 @@ Bartender4DB = {
 	["namespaces"] = {
 		["StatusTrackingBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoanwar - Emerald Dream"] = {
+=======
+				["Samoanlock - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 62,
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["scale"] = 1.264999985694885,
+					},
+				},
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -13,7 +27,11 @@ Bartender4DB = {
 						["y"] = 62,
 					},
 				},
+<<<<<<< Updated upstream
 				["Dethwish - Emerald Dream"] = {
+=======
+				["Samoanbatman - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["enabled"] = true,
 					["position"] = {
 						["y"] = 62,
@@ -23,6 +41,7 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+<<<<<<< Updated upstream
 				["KokonutKrew"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -49,6 +68,9 @@ Bartender4DB = {
 					},
 				},
 				["Samoanbatman - Emerald Dream"] = {
+=======
+				["Ashh - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -58,6 +80,7 @@ Bartender4DB = {
 						["scale"] = 1.264999985694885,
 					},
 				},
+<<<<<<< Updated upstream
 				["Royders - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -78,10 +101,13 @@ Bartender4DB = {
 						["y"] = 62,
 					},
 				},
+=======
+>>>>>>> Stashed changes
 			},
 		},
 		["ActionBars"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["actionbars"] = {
 						{
@@ -313,6 +339,8 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanlock - Emerald Dream"] = {
 					["actionbars"] = {
 						{
@@ -328,8 +356,13 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+<<<<<<< Updated upstream
 								["y"] = -204.9999618530273,
 								["x"] = -231.4999389648438,
+=======
+								["y"] = -227.4998474121094,
+								["x"] = -231.5001831054688,
+>>>>>>> Stashed changes
 								["point"] = "CENTER",
 							},
 						}, -- [2]
@@ -357,7 +390,11 @@ Bartender4DB = {
 							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
+<<<<<<< Updated upstream
 								["y"] = 94,
+=======
+								["y"] = 110,
+>>>>>>> Stashed changes
 								["x"] = 3,
 								["point"] = "BOTTOM",
 							},
@@ -366,7 +403,11 @@ Bartender4DB = {
 							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
+<<<<<<< Updated upstream
 								["y"] = 94,
+=======
+								["y"] = 110,
+>>>>>>> Stashed changes
 								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
@@ -380,6 +421,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoansensei - Emerald Dream"] = {
 					["actionbars"] = {
 						{
@@ -980,6 +1022,9 @@ Bartender4DB = {
 					},
 				},
 				["Samoanhunter - Emerald Dream"] = {
+=======
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1045,6 +1090,7 @@ Bartender4DB = {
 						},
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoantotems - Stormrage"] = {
 					["actionbars"] = {
 						{
@@ -2504,6 +2550,8 @@ Bartender4DB = {
 						},
 					},
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanbatman - Emerald Dream"] = {
 					["actionbars"] = {
 						{
@@ -2838,12 +2886,80 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Ashh - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4998474121094,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2945,6 +3061,8 @@ Bartender4DB = {
 					},
 				},
 				["Samoanhunter - Emerald Dream"] = {
+=======
+				["Samoanlock - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -252.4999389648438,
@@ -2952,6 +3070,16 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
+					["version"] = 3,
+					["position"] = {
+						["y"] = -252.4999389648438,
+						["x"] = -63.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+<<<<<<< Updated upstream
 				["Samoantotems - Stormrage"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3128,6 +3256,8 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanbatman - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3168,10 +3298,19 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Ashh - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -252.4999389648438,
+						["x"] = -63.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -3193,6 +3332,8 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanlock - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -3203,6 +3344,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoansensei - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -3514,6 +3656,9 @@ Bartender4DB = {
 					},
 				},
 				["Samoantank - Emerald Dream"] = {
+=======
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -3573,10 +3718,21 @@ Bartender4DB = {
 					["version"] = 3,
 					["padding"] = -2,
 				},
+				["Ashh - Emerald Dream"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
 			},
 		},
 		["BagBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3599,6 +3755,8 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanlock - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3607,6 +3765,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoansensei - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3856,6 +4015,9 @@ Bartender4DB = {
 					},
 				},
 				["Samoantank - Emerald Dream"] = {
+=======
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3871,6 +4033,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoansaint - Stormrage"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3896,6 +4059,9 @@ Bartender4DB = {
 					},
 				},
 				["Dethwish - Emerald Dream"] = {
+=======
+				["Ashh - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3907,6 +4073,7 @@ Bartender4DB = {
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -3932,6 +4099,8 @@ Bartender4DB = {
 					},
 					["artLayout"] = "ONEBAR",
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanlock - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -3941,6 +4110,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoansensei - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -4221,6 +4391,9 @@ Bartender4DB = {
 					},
 				},
 				["Samoantank - Emerald Dream"] = {
+=======
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4274,12 +4447,41 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Ashh - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["ZoneAbilityBar"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
+=======
+				["Samoanlock - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Sonikk - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanbatman - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["position"] = {
 						["y"] = 223.000045776367,
 						["x"] = -31.5000610351563,
@@ -4494,7 +4696,39 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+<<<<<<< Updated upstream
 				["Samoanrelic - Stormrage"] = {
+=======
+				["Ashh - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Samoanlock - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Sonikk - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanbatman - Emerald Dream"] = {
+>>>>>>> Stashed changes
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000045776367,
@@ -4550,10 +4784,19 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Ashh - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+<<<<<<< Updated upstream
 				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -4651,6 +4894,8 @@ Bartender4DB = {
 					},
 				},
 				["Samoanhunter - Emerald Dream"] = {
+=======
+				["Samoanlock - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 42.50006103515625,
@@ -4658,6 +4903,16 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+<<<<<<< Updated upstream
 				["Samoantotems - Stormrage"] = {
 					["version"] = 3,
 					["position"] = {
@@ -4834,6 +5089,8 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+=======
+>>>>>>> Stashed changes
 				["Samoanbatman - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -4873,6 +5130,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 					["version"] = 3,
+				},
+				["Ashh - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
 				},
 			},
 		},
@@ -5538,6 +5803,7 @@ Bartender4DB = {
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
@@ -5594,11 +5860,20 @@ Bartender4DB = {
 			},
 			["outofrange"] = "hotkey",
 		},
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+	},
+	["profiles"] = {
+>>>>>>> Stashed changes
 		["Samoanlock - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+<<<<<<< Updated upstream
 		["Samoansensei - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
@@ -5758,6 +6033,9 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Samoantank - Emerald Dream"] = {
+=======
+		["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -5767,6 +6045,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+<<<<<<< Updated upstream
 		["Samoansaint - Stormrage"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
@@ -5783,6 +6062,9 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Dethwish - Emerald Dream"] = {
+=======
+		["Ashh - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",

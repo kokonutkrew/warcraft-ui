@@ -26,7 +26,10 @@ Prat3CharDB = {
 	},
 }
 Prat3HighCPUPerCharDB = {
+<<<<<<< Updated upstream
 	["time"] = 1566342295,
+=======
+>>>>>>> Stashed changes
 	["scrollback"] = {
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
@@ -74,7 +77,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 0,
+=======
+			["headIndex"] = 4,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -86,6 +93,40 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+<<<<<<< Updated upstream
+=======
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1627898751,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 435883.841,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 435883.841,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 435883.841,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 435846.881,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -206,7 +247,11 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+<<<<<<< Updated upstream
 			["headIndex"] = 26,
+=======
+			["headIndex"] = 15,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -219,6 +264,7 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[05:04:04]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Kill Shot(53351)",
 					["timestamp"] = 298685.63,
 					["serverTime"] = 1607256255,
@@ -305,10 +351,63 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["timestamp"] = 298757.383,
+=======
+					["message"] = "|cff979797|Hpratcopy|h[05:40:58]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1627898751,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 435883.841,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 435883.841,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 435883.841,
+				}, -- [3]
+				{
+					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
+					["timestamp"] = 435846.881,
+				}, -- [4]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 435846.881,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:45]|h|r |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 435846.881,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:49]|h|r Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 435883.524,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:50]|h|r Unknown macro option: etc",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 435883.841,
+>>>>>>> Stashed changes
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [8]
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[05:05:16]|h|r Received 1 Gold, 24 Silver, 45 Copper.",
 					["serverTime"] = 1607256327,
 					["r"] = 1,
@@ -1484,6 +1583,42 @@ Prat3HighCPUPerCharDB = {
 					["timestamp"] = 298648.851,
 					["serverTime"] = 1607256218,
 				}, -- [128]
+=======
+					["message"] = "|cff979797|Hpratcopy|h[04:05:51]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.22)|r:  hooked into Rematch",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898751,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:51]|h|r [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898751,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:51]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898751,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:51]|h|r |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898751,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:51]|h|r |cffffaeaeDetails!:|r use '/details me' macro to open the player breakdown for you!    ",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898751,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:57]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898757,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[04:05:57]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.5.1|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 435883.841,
+					["serverTime"] = 1627898757,
+				}, -- [15]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],

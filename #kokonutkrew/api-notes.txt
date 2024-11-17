@@ -1,0 +1,74 @@
+Useful for getting clubid of Communities and Guilds
+/dump C_Club.GetSubscribedClubs()
+
+
+
+
+
+[01:23:53] [1]={
+[01:23:53]   [1]={
+[01:23:53]     broadcast="Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokon"...+10,
+[01:23:53]     description="Tues Raid 7:30pm Sever Time\
+Sat Raid 12pm (Noon) ST\
+\
+'A little bit of the island flav in yo mix'\
+\
+Visit kokonutkrew.com to learn more about the guild\
+\
+Discord: http://kokonutkrew.com/discord\
+\
+Global A"...+42,
+[01:23:53]     avatarId=0,
+[01:23:53]     clubType=2,
+[01:23:53]     joinTime=1.615546254e+15,
+[01:23:53]     clubId=352303931,
+[01:23:53]     memberCount=250,
+[01:23:53]     name="KokonutKrew",
+[01:23:53]     socialQueueingEnabled=false
+[01:23:53]   },
+
+
+
+[01:23:53]   [2]={
+[01:23:53]     broadcast="Signup for raid on game calendar. Pushing for AOTC. Bring full consumes and 1 flask of Power to contribute toward coulron. Guild info at http://kokonutkrew.com",
+[01:23:53]     description="3K+ DPS|| 6K+ Heals || Competent Tanks || +2K CR || ++15 Keys",
+[01:23:53]     avatarId=132293,
+[01:23:53]     clubType=1,
+[01:23:53]     joinTime=1.624197228e+15,
+[01:23:53]     clubId=382392881,
+[01:23:53]     memberCount=9,
+[01:23:53]     name="KK Mercenaries",
+[01:23:53]     shortName="KK",
+[01:23:53]     socialQueueingEnabled=true
+[01:23:53]   },
+
+
+[01:23:53]   [3]={
+[01:23:53]     broadcast="See kokonutkrew.com for more information",
+[01:23:53]     description="🌴🅺🅾️🅺🅾️🅽🆄🆃 🅺🆁🅴🆆 🌴\
+General [KK] community for players on the Blizzard platform.\
+",
+[01:23:53]     avatarId=64,
+[01:23:53]     clubType=0,
+[01:23:53]     joinTime=1.5088564e+15,
+[01:23:53]     clubId=454131,
+[01:23:53]     memberCount=6,
+[01:23:53]     name="[KK] Blizzard",
+[01:23:53]     shortName="[KK]",
+[01:23:53]     socialQueueingEnabled=false,
+[01:23:53]     favoriteTimeStamp=1534388533
+[01:23:53]   }
+[01:23:53] }
+
+
+/run SendChatMessage(""..GetCommunityLink(382392881).."LF heroic raiders to push for AOTC. Apply or PST. ","CHANNEL",nil,1)
+
+/run SendChatMessage("LF heroic raiders to push for AOTC. Apply or PST. ","CHANNEL",nil,1)
+/run GetClubFinderLink(382392881, "KK Mercenaries")
+
+/run local club = ClubFinderGetCurrentClubListingInfo(C_Club.GetGuildClubId()); SendChatMessage(""..GetClubFinderLink(club.clubFinderGUID, club.name).." LF heroic raiders to push for AOTC. Apply or PST. ","CHANNEL",nil,1)
+
+
+
+
+Ahoy there NAME, GUILDLINK is looking for heroic raiders to push for AOTC. Visit the website or join KK_LINK if you already have a guild ;)

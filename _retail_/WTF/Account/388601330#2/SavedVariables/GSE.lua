@@ -13,6 +13,11 @@ GSEOptions = {
 	["debug"] = false,
 	["CONCAT"] = "|cffcc7777",
 	["CommandColour"] = "|cFF00FF00",
+<<<<<<< Updated upstream
+=======
+	["showCurrentSpells"] = true,
+	["Update2638"] = true,
+>>>>>>> Stashed changes
 	["hideSoundErrors"] = false,
 	["Update2410"] = true,
 	["requireTarget"] = false,
@@ -58,6 +63,7 @@ GSEOptions = {
 	},
 	["sendDebugOutputToDebugOutput"] = false,
 	["KEYWORD"] = "|cff88bbdd",
+<<<<<<< Updated upstream
 	["CreateGlobalButtons"] = false,
 	["saveAllMacrosLocal"] = true,
 	["STRING"] = "|cff888888",
@@ -69,6 +75,19 @@ GSEOptions = {
 	["hideUIErrors"] = false,
 	["clearUIErrors"] = false,
 	["Update2415"] = true,
+=======
+	["overflowPersonalMacros"] = false,
+	["Update2305"] = true,
+	["STRING"] = "|cff888888",
+	["saveAllMacrosLocal"] = true,
+	["ActiveSequenceVersions"] = {
+	},
+	["NormalColour"] = "|cFFFFFFFF",
+	["TitleColour"] = "|cFFFF0000",
+	["hideUIErrors"] = false,
+	["autoCreateMacroStubsGlobal"] = false,
+	["COMMENT"] = "|cff55cc55",
+>>>>>>> Stashed changes
 	["DebugModules"] = {
 		["Translator"] = false,
 		["GUI"] = false,
@@ -79,6 +98,7 @@ GSEOptions = {
 		["Viewer"] = false,
 		["Transmission"] = false,
 	},
+<<<<<<< Updated upstream
 	["INDENT"] = "|cffccaa88",
 	["AddInPacks"] = {
 		["GS-MultiboxMacros"] = {
@@ -124,12 +144,20 @@ GSEOptions = {
 		},
 		["Samples"] = {
 			["Version"] = "2.6.31",
+=======
+	["Update2415"] = true,
+	["clearUIErrors"] = false,
+	["AddInPacks"] = {
+		["Samples"] = {
+			["Version"] = "2.6.55",
+>>>>>>> Stashed changes
 			["Name"] = "Samples",
 			["SequenceNames"] = {
 				"Assorted Sample Macros", -- [1]
 			},
 		},
 	},
+<<<<<<< Updated upstream
 	["Update2305"] = true,
 	["use6"] = false,
 	["UseVerboseExportFormat"] = false,
@@ -201,16 +229,36 @@ GSEOptions = {
 	["autoCreateMacroStubsClass"] = true,
 	["use12"] = false,
 	["COMMENT"] = "|cff55cc55",
+=======
+	["Updated801"] = true,
+	["UseVerboseExportFormat"] = false,
+	["RealtimeParse"] = false,
+	["Update2633"] = true,
+	["UNKNOWN"] = "|cffff6666",
+	["PromptSample"] = true,
+	["use6"] = false,
+	["AuthorColour"] = "|cFF00D1FF",
+	["autoCreateMacroStubsClass"] = true,
+	["editorWidth"] = 500,
+	["Update2601"] = true,
+	["use12"] = false,
+	["INDENT"] = "|cffccaa88",
+>>>>>>> Stashed changes
 	["useExternalMSTimings"] = true,
 	["STANDARDFUNCS"] = "|cff55ddcc",
 	["showGSEoocqueue"] = true,
 	["setDefaultIconQuestionMark"] = true,
+<<<<<<< Updated upstream
 	["Update2601"] = true,
+=======
+	["CreateGlobalButtons"] = false,
+>>>>>>> Stashed changes
 	["DefaultImportAction"] = "MERGE",
 }
 GSELibrary = nil
 GSEStorage = {
 	{
+<<<<<<< Updated upstream
 		["JMM_WR_PROT_ST"] = "d8JZdaqzO1lfPxQIYBbLxtQ0HP8BsUhvQzdYPPk3KQQFrfFJuOVIKKDQs7f1ULQ9l5NKIAyiumoKuAGij1qLsnyrdNuYbjf5OiP4yQW5urLfsk1sLclgrlxOhsQ4PkwMkYZv1ebvtvGjtQA6exeHQUkcLEgc56i1grs1wLIAZQOQTJeBdHkZsqttkIVJKWJv6ZsjJgi3fbNKQYTbCnKeDEGYkjfCCQK)cunFWb89Ghn43p4uvdWB3qZbGpb89ehWtGbHD555i8u4PqIcjk8i8epWXZB0qcFp4XVTrvZy89u9Nd47bhW3dECw7LkHJuSxmb57jECw7LkHTkastiu5aYdH0xP2qQvx(sepoR9sLdipesFLdKbW3MWJZAV8OlASVyLWwfaPjeQmIpkUxfaPjv2aPG9wyyL(A1vrSY2MxNVujpoR9sLdipesFLdKbWxIJhN1E5rx0yFXkHTkastiuzeFuCVkastQeosXEXemSYbKA1LkmkiF1ipoR9YJUOX(IvcBvaKMqOYi(O4EvaKMujCKI9IjyyLbGO76XyL6azAXxQLhN1EPYbKhcPVYbYa4754XzTxE0fn2xSsyRcG0ecvgXhf3RcG0KkBGuWElmSsFT6QiwzBZRZ3dIHhN1EPYM9wrfbRYg0pi(ECWJZAVu5aYdH0x5aza80w9IFBJkoGfEgb1I609v8uDEg0fn2fpdINZqWAGqO9ihW3dECw7LhDrJ9fRe2QainHqLr8rX9QainPs4if7ftWWkHJaQOb51uVERkhqkAHVN4XzTxE0fn2xSsyRcG0ecvgXhf3RcG0KkHJuSxmbdRuBteiSsDIGXxI4XzTxQe2QainHqLAdPu6RK60rW4Bt4XzTxQe2QainHqLAJXhJ661BXcpTJOFBJkoGfEodbRDe)Nd47bpoR9YJUOX(IvcBvaKMqOYi(O4EvaKMujCKI9IjyyLbGO76XyL6azAfwzNgcIfwyHhnrlGurE0GrsIrpKQHhnDnE8TQop(UndUFFJoGtnelXpb(081VMACgpJw46doF1irSWcZa",
 	}, -- [1]
 	{
@@ -268,6 +316,30 @@ GSEStorage = {
 	{
 		["JMM_DH_VENGEANCE_ST"] = "d8ZPcaqyIhJ4LOG3crBda8BuDBOCAKA2q1DrIBcP(fk9nastdGYoPQ9QA3GA)s9taOHbOyCardecnuKKbRy4OOdsLCuaHJbsNdqYcbkTuGIflklxPhIc9ukldsEoPMOizQKyYaPMUWfPsDvaLUSKRtfBuKARiP2meSDaIpcq1xbq(maQVdiAKas9mGQrdcVgeDsr1SiPRbO68IWkbchhi5VIOp0RCp0BGan6KPa6Ku72d4UD5z0Dst5Eux5MIGxWH(g4QOurPIsfLk4QGFlvHG4Gh3d9gAHSCQRvtZH1x5EOx5EO3yjIo6bjHJLjbLEYXW44sqZH7XLZk3J6glr0rpPPRnrpGDfyqFp43yjIo6X4o49WOSasT3dy3yjIo6bjImXLe1Q2dHJLjbLEmAaMgVhoc9KgxWQ7b(nwIOJEmikzVhaUXseD0dschltck94gJjhiRThaswqRVhqVXseDOlq5uWKQhKiYexsuRApeowMeu6jhgHAHf8ESyPHSu7XGOKvThdIsw1EYHrOwybVhlwAiR7b5nwIOJEqs4yzsqPNCmmoUe0C4EC5SY9a1nwIOJEsVcjC26EOaZnwIOJEsVcjC26gvCDGwil)kpUzrXmTdmjO5W3ScuofCql43yOsaMcVeDDL7HEJLi6OhKeowMeu6jvHXH7XysdzPVh1nwIOJEqs4yzsqPhJ7G3dyLDPR9XnQ2cTqw(vECJHkbvBP1x5XJh3C5eqW3BGqYYQLUqm1kqk3YjC4B5EQtIo3ymjqaSUnLCa0J2fyy4MXSi5PUh4Ge6Jh)a",
 		["JMM_DH_HAVOC_ST"] = "d0JHcaWsKWBLW2Ki8yehMY4qvQzt4ZI0nHIFrL(gs0PPQDkQ9c2nP9d5NsQ8xQOFJYaLOyOijdwLHJuCqKuhvIuhtjDCjkTqf0sLuSyuvlxPEOc8uPwMs8CIMivyQOYKvOMUQUisPRkrYLfUouAJkKTIQyZsI2UKqFevjZsrnnjQ8DjIgPKKNjrvJgQoKKGtIuDxrCnjvDEfPvkj1RLu62kIHvGdYRqxngmoDuLZQOMN6g4S5G8cWbnNjc9LqVmVmVmVmVmVoVcTJOsdR4H8k0ymYMXtSLEMkboiVcCqEfAxIjF0vOmcUPAi8AAc6gGBmj6gkSXHeYlq7sm5JUcLrWnvdHxttq3OqWxyJdixEODjM8rxHYi4MQHWRPZOJWMW3(e0nuyJd05Wusa5YbTlXKp6QaTtd0nmSjqUEODjM8rxHYi4MQHWRPZOJWMW3(e0nc7Ek6yvIUhpqhDHWp22EixcODjM8rxHYi4MQHWRPjOBaUXKOR)TV2aYucTlXKp6kugb3uneEnnbDC4BwjrhVeMVIbK5n0Uet(ORqzeCt1q410e0nkeOJ2nwAEptHMkM8XyKnd4Gh6(dAgHvjVNPq3rzXg67nb0uetRjeHjdGdEOPAhymYMbCWdnfXuQ2HucCqEfAxIjF0vOmcUPAi8AAc6gkWUH8c0Uet(ORqzeCt1q410e0LJjH0lHhE4HMASpoBdD1gF(X2hLXX2Q1GMoHPqtpZJtm07bolDPOT5Oxxgd11qb0nnbHUdixpLucp8aaa",
+=======
+	}, -- [1]
+	{
+	}, -- [2]
+	{
+	}, -- [3]
+	{
+	}, -- [4]
+	{
+	}, -- [5]
+	{
+	}, -- [6]
+	{
+	}, -- [7]
+	{
+	}, -- [8]
+	{
+	}, -- [9]
+	{
+	}, -- [10]
+	{
+	}, -- [11]
+	{
+>>>>>>> Stashed changes
 	}, -- [12]
 	[0] = {
 	},

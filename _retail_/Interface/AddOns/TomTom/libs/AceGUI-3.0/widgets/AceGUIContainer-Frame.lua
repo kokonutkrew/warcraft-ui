@@ -1,7 +1,11 @@
 --[[-----------------------------------------------------------------------------
 Frame Container
 -------------------------------------------------------------------------------]]
+<<<<<<< Updated upstream
 local Type, Version = "Frame", 27
+=======
+local Type, Version = "Frame", 30
+>>>>>>> Stashed changes
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -13,10 +17,13 @@ local wipe = table.wipe
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
+<<<<<<< Updated upstream
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
 -- GLOBALS: CLOSE
 
+=======
+>>>>>>> Stashed changes
 --[[-----------------------------------------------------------------------------
 Scripts
 -------------------------------------------------------------------------------]]
@@ -83,6 +90,10 @@ local methods = {
 	["OnAcquire"] = function(self)
 		self.frame:SetParent(UIParent)
 		self.frame:SetFrameStrata("FULLSCREEN_DIALOG")
+<<<<<<< Updated upstream
+=======
+		self.frame:SetFrameLevel(100) -- Lots of room to draw under it
+>>>>>>> Stashed changes
 		self:SetTitle()
 		self:SetStatusText()
 		self:ApplyStatus()
@@ -179,16 +190,31 @@ local PaneBackdrop  = {
 }
 
 local function Constructor()
+<<<<<<< Updated upstream
 	local frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+=======
+	local frame = CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
+>>>>>>> Stashed changes
 	frame:Hide()
 
 	frame:EnableMouse(true)
 	frame:SetMovable(true)
 	frame:SetResizable(true)
 	frame:SetFrameStrata("FULLSCREEN_DIALOG")
+<<<<<<< Updated upstream
 	frame:SetBackdrop(FrameBackdrop)
 	frame:SetBackdropColor(0, 0, 0, 1)
 	frame:SetMinResize(400, 200)
+=======
+	frame:SetFrameLevel(100) -- Lots of room to draw under it
+	frame:SetBackdrop(FrameBackdrop)
+	frame:SetBackdropColor(0, 0, 0, 1)
+	if frame.SetResizeBounds then -- WoW 10.0
+		frame:SetResizeBounds(400, 200)
+	else
+		frame:SetMinResize(400, 200)
+	end
+>>>>>>> Stashed changes
 	frame:SetToplevel(true)
 	frame:SetScript("OnShow", Frame_OnShow)
 	frame:SetScript("OnHide", Frame_OnClose)
@@ -201,7 +227,11 @@ local function Constructor()
 	closebutton:SetWidth(100)
 	closebutton:SetText(CLOSE)
 
+<<<<<<< Updated upstream
 	local statusbg = CreateFrame("Button", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
+=======
+	local statusbg = CreateFrame("Button", nil, frame, "BackdropTemplate")
+>>>>>>> Stashed changes
 	statusbg:SetPoint("BOTTOMLEFT", 15, 15)
 	statusbg:SetPoint("BOTTOMRIGHT", -132, 15)
 	statusbg:SetHeight(24)
@@ -269,7 +299,11 @@ local function Constructor()
 	line2:SetHeight(8)
 	line2:SetPoint("BOTTOMRIGHT", -8, 8)
 	line2:SetTexture(137057) -- Interface\\Tooltips\\UI-Tooltip-Border
+<<<<<<< Updated upstream
 	local x = 0.1 * 8/17
+=======
+	x = 0.1 * 8/17
+>>>>>>> Stashed changes
 	line2:SetTexCoord(0.05 - x, 0.5, 0.05, 0.5 + x, 0.05, 0.5 - x, 0.5 + x, 0.5)
 
 	local sizer_s = CreateFrame("Frame", nil, frame)

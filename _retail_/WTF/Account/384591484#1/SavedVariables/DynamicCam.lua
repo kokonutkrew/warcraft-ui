@@ -1,6 +1,7 @@
 
 DynamicCamDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoanslayer - Emerald Dream"] = "Default",
 		["YourCharName - YourServer"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
@@ -14,6 +15,12 @@ DynamicCamDB = {
 		["Dethwish - Emerald Dream"] = "Default",
 		["Stronguard - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+=======
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Default"] = {

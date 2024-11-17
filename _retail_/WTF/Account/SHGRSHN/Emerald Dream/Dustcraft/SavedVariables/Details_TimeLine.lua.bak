@@ -7,18 +7,30 @@ DetailsTimeLineDB = {
 	["IndividualSpells"] = {
 	},
 	["useicons"] = true,
+<<<<<<< Updated upstream
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
+=======
+	["cooldowns_timeline"] = {
+>>>>>>> Stashed changes
 	},
 	["window_scale"] = 1,
 	["deaths_data"] = {
 	},
 	["debuff_timeline"] = {
 	},
+<<<<<<< Updated upstream
 	["cooldowns_timeline"] = {
+=======
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+>>>>>>> Stashed changes
 	},
 	["BossSpellCast"] = {
 	},

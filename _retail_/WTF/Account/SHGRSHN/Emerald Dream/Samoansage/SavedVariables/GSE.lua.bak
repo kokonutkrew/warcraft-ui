@@ -1,3 +1,4 @@
 
-GSE_C = nil
+GSE_C = {
+}
 GSELegacyLibraryBackup = nil

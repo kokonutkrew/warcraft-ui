@@ -1,5 +1,6 @@
 
 EncounterDetailsDB = {
+<<<<<<< Updated upstream
 	["emotes"] = {
 		{
 			["boss"] = "Ravnyr",
@@ -94,5 +95,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ravnyr",
 		},
+=======
+	["encounter_spells"] = {
+	},
+	["emotes"] = {
+>>>>>>> Stashed changes
 	},
 }

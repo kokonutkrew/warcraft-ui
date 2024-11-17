@@ -1,6 +1,7 @@
 
 FGI_DB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Grapejellie - Emerald Dream"] = "Default",
 	},
@@ -46,6 +47,11 @@ FGI_DB = {
 				"Hi NAME, have you settled on a main for Shadowlands? We could use your help over at GUILDLINK. Let me know if you're interested :D", -- [2]
 			},
 		},
+=======
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 	["global"] = {
 		["scanFrame"] = {
@@ -148,9 +154,15 @@ FGI_DB = {
 }
 FGI_DEBUG = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
+=======
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["global"] = {
 		{

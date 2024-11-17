@@ -1,0 +1,1837 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/i again?", -- [1]
+				"/g Just spamming bc dungeons while theres an exp buff", -- [2]
+				"/g oh thank you!", -- [3]
+				"/cw Soldire-EmeraldDream youll get there!", -- [4]
+				"/i re que?", -- [5]
+				"/i mainly spamming dungeons for exp", -- [6]
+				"/i Ill just wait for loot in the mail lol", -- [7]
+				"/i ok\\", -- [8]
+				"/cw Twoinchsword-EmeraldDream I have a blood deathknight in the guild too", -- [9]
+				"/cw Twoinchsword-EmeraldDream I started leveling buncha alts", -- [10]
+				"/cw Twoinchsword-EmeraldDream My main is Gimilt, sry in the middle of a dungeon", -- [11]
+				"/g On this toon that is lol", -- [12]
+				"/cw Twoinchsword-EmeraldDream then feel free to form a group with whoever you like", -- [13]
+				"/cw Twoinchsword-EmeraldDream After you got the hang of it", -- [14]
+				"/cw Twoinchsword-EmeraldDream Honust and Krimmzon will be more than happy to teach", -- [15]
+				"/cw Twoinchsword-EmeraldDream Not a problem", -- [16]
+				"/cw Twoinchsword-EmeraldDream and look for Honustustere for a tank", -- [17]
+				"/cw Twoinchsword-EmeraldDream Krimzon is a good Holy Pally", -- [18]
+				"/cw Twoinchsword-EmeraldDream Well if you get a key post it in discord on Tues", -- [19]
+				"/cw Twoinchsword-EmeraldDream I gotcha no worries", -- [20]
+				"/cw Twoinchsword-EmeraldDream link it to me", -- [21]
+				"/cw Twoinchsword-EmeraldDream You have any keystone this week?", -- [22]
+				"/cw Twoinchsword-EmeraldDream Ya I know- PVP was great at the beggining of this expansion", -- [23]
+				"/cw Twoinchsword-EmeraldDream Damn son great gear for just a few LFRs lol", -- [24]
+				"/cw Twoinchsword-EmeraldDream Mind if I look up one of your toons on wow armory?", -- [25]
+				"/cw Twoinchsword-EmeraldDream Damn thats pretty good", -- [26]
+				"/cw Twoinchsword-EmeraldDream If you want to focus there Im all for it", -- [27]
+				"/cw Twoinchsword-EmeraldDream A good DPS is hard to come by", -- [28]
+				"/cw Twoinchsword-EmeraldDream Ok good to know", -- [29]
+				"/cw Twoinchsword-EmeraldDream Can you heal at all?", -- [30]
+				"/cw Twoinchsword-EmeraldDream Now you can just +15 a key and use valor to upgrade gear though", -- [31]
+				"/cw Twoinchsword-EmeraldDream for the season", -- [32]
+				"/cw Twoinchsword-EmeraldDream they dont mind helping peopl hit 1400", -- [33]
+				"/cw Twoinchsword-EmeraldDream Me either we have a few in the guild who do", -- [34]
+				"/cw Twoinchsword-EmeraldDream tru!", -- [35]
+				"/cw Twoinchsword-EmeraldDream Thats pretty intense", -- [36]
+				"/cw Twoinchsword-EmeraldDream You should try sub rouge", -- [37]
+				"/cw Twoinchsword-EmeraldDream haha I see", -- [38]
+				"/cw Twoinchsword-EmeraldDream What does sleep mean?", -- [39]
+				"/cw Twoinchsword-EmeraldDream Lately Enhance has been gettin some love", -- [40]
+				"/cw Twoinchsword-EmeraldDream Ele is alot of fun", -- [41]
+				"/cw Twoinchsword-EmeraldDream I play a resto shaman", -- [42]
+				"/cw Twoinchsword-EmeraldDream ya man ele shaman is epic right now", -- [43]
+				"/cw Twoinchsword-EmeraldDream What are you most comfortable with?", -- [44]
+				"/cw Twoinchsword-EmeraldDream Do you have raiding experience?", -- [45]
+				"/cw Twoinchsword-EmeraldDream Would love to have more tanks", -- [46]
+				"/g hey mate welcome aboard", -- [47]
+				"/cw Twoinchsword-EmeraldDream Let me send you an inv", -- [48]
+				"/cw Twoinchsword-EmeraldDream right on bruther", -- [49]
+				"/i Like on Amazon?", -- [50]
+				"/i mage you joining us?", -- [51]
+				"/p gl!", -- [52]
+				"/p right on guys- im just queing for dungeons", -- [53]
+				"/p SW defense?", -- [54]
+				"/p hello", -- [55]
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 9,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[07:52]|h |cffd8d8d8[|r|Hplayer:Samoanbatman:4187|h|cffd84e4e60|r:|cffa22fc8Samoanbatman|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["serverTime"] = 1618192323,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202621.407,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[07:53]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Sonts-EmeraldDream:4188:CHANNEL:2|h|cffa9d271Sonts|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Nerve|r|cffffffff>|r is selling Heroic Castle Nathria runs & timed +14/15s! Loot trading available. PST for more details.",
+					["serverTime"] = 1618192388,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202686.025,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[07:55]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Tulyare-EmeraldDream:4189:CHANNEL:2|h|cfffefefeTulyare|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-291121-162-84548429|h[Guild: The Midnight Sun]|h|r is a new guild, aiming to focus on Raids and M+. We are currently building our raid roster for 3 days per week  Need DPS and raid CDs, Pm if you are interested.",
+					["serverTime"] = 1618192548,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202846.337,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[07:57]|h Lunarfall Worker says: That's better!",
+					["serverTime"] = 1618192635,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202932.668,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[07:57]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Tulyare-EmeraldDream:4191:CHANNEL:2|h|cfffefefeTulyare|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-291121-162-84548429|h[Guild: The Midnight Sun]|h|r is a new guild, aiming to focus on Raids and M+. We are currently building our raid roster for 3 days per week  Need DPS and raid CDs, Pm if you are interested.",
+					["serverTime"] = 1618192656,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202953.972,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[07:57]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Dirtyjab-EmeraldDream:4192:CHANNEL:2|h|cff00fe97Dirtyjab|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-289999-162-84397427|h[Guild: War Council]|h|r New PVP-focused guild. Experienced leadership. High CR and entry-level RBG teams. Flavored WPVP events. Strictly non-toxic.",
+					["serverTime"] = 1618192656,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202953.972,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[08:01]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - Garrison]|h",
+					["serverTime"] = 1618192867,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 203165.472,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[08:01]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1618192867,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 203165.472,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[08:01]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Garrison]|h",
+					["serverTime"] = 1618192867,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 203165.472,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Scràtchy-Stormrage receives loot: |cffffffff|Hitem:23723::::::::43:266:::::::|h[Warchief Kargath's Fist]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h You receive loot: |cff9d9d9d|Hitem:25406::::::::43:266::1:1:6657:2:28:1896:9:43:::|h[Broken Longbow]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Scràtchy-Stormrage receives loot: |cffffffff|Hitem:21877::::::::43:266:::::::|h[Netherweave Cloth]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h You receive loot: |cff0070dd|Hitem:29255::::::::43:266::1:1:6710:2:28:1896:9:43:::|h[Bands of Rarefied Magic]|h|r. |cffffd200|Hshareitem:29255::::::::43:266::1:1:6710:2:28:1896:9:43::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h |cffff80ff|Htransmogappearance:13050|h[Bands of Rarefied Magic]|h|r has been added to your appearance collection.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h You loot 16 Gold, 81 Silver, 99 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Advance Scout Chadwick yells: Kargath Bladefist has been slain! Long live the Alliance!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Deantia-Frostmourne receives loot: |cff0070dd|Hitem:27538::::::::43:266::1:1:6710:2:28:1896:9:31:::|h[Lightsworn Hammer]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164518,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Evildeez-Stormrage:1148:INSTANCE_CHAT|h|cffd8bc3f42|r:|cff8687edEvildeez|r-Stormrage|h|cffd8d8d8]|r ty guys",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164519,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						28, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h |cffa5a5a5Evildeez|r-Stormrage has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164525,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h How to Save a Life completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164528,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Experience gained: 5850.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164528,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Received 18 Gold, 92 Silver, 40 Copper.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164528,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Reputation with Honor Hold increased by 375.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164528,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h You receive item: |cff0070dd|Hitem:25792::::::::43:266::11:1:6710:2:9:43:28:1896:::|h[Curate's Boots]|h|r. |cffffd200|Hshareitem:25792::::::::43:266::11:1:6710:2:9:43:28:1896::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164528,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Reputation with Guild increased by 125.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164528,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Reputation with Honor Hold increased by 525.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164529,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Reputation with Guild increased by 125.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164529,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h O'mrogg's Warcloth completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164529,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Experience gained: 5850.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164529,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Received 18 Gold, 92 Silver, 40 Copper.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164529,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Reputation with Honor Hold increased by 750.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164529,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h You receive item: |cff0070dd|Hitem:25806::::::::43:266::11:1:6710:2:9:43:28:1896:::|h[Nethekurse's Rod of Torment]|h|r. |cffffd200|Hshareitem:25806::::::::43:266::11:1:6710:2:9:43:28:1896::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164530,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Turning the Tide completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164530,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Experience gained: 11750.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164530,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Received 18 Gold, 92 Silver, 40 Copper.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164530,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h Reputation with Guild increased by 125.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164530,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h |cffd8d8d8[|r|Hplayer:Nitocoris-Ysera:1170:ACHIEVEMENT|h|cffd88b6546|r:|cff006fdcNitocoris|r-Ysera|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:4956:Player-63-0E717B7A:1:4:11:21:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r |cff2080a0|Hgratsl:Nitocoris:ACHIEVEMENT::4956|h[say grats]|h|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164532,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						55, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[12:08]|h |cffff80ff|Htransmogappearance:13050|h[Bands of Rarefied Magic]|h|r has been added to your appearance collection.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164539,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h |cffa5a5a5Nitocoris|r-Ysera has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164540,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h |Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Forgecraft-EmeraldDream:1173:INSTANCE_CHAT|h|cffd8bc3f43|r:|cff8687edForgecraft|r|h|cffd8d8d8]|r again?",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 0.4980392456054688,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164560,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						28, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h A role check has been initiated. Your group will be queued when all members have selected a role.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164563,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h Scràtchy-Stormrage has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:0:19:22:41|t Tank",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164563,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h Forgecraft has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164565,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h Deantia-Frostmourne has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:0:19:22:41|t Tank,  |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:1:20|t Healer,  |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164569,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h You are now queued in the Dungeon Finder.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164570,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h Dungeon Difficulty set to Normal.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164591,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h Scràtchy is now the leader of your group!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164594,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h |Hchannel:channel:1|h[1. General] |hChanged Channel: |Hchannel:CHANNEL:1|h[1. General - The Mechanar]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164595,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h |Hchannel:channel:3|h[3. LocalDefense] |hChanged Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Mechanar]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164595,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[12:09]|h Quest accepted: With Great Power, Comes Great Responsibility",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164599,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164617,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164617,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164623,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164623,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Tempest-Forge Patroller calls for help!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164625,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164630,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164630,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h |cffa5a5a5Donjonjuan|r-Kel'Thuzad has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164636,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Tempest-Forge Patroller calls for help!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164653,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h |cffa5a5a5Scràtchy|r has died.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164653,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164655,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[12:10]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164655,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h |cffa5a5a5Deantia|r has died.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164660,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164660,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164660,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164662,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164662,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164679,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164679,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You receive loot: |cffffffff|Hitem:21877::::::::43:266:::::::|h[Netherweave Cloth]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164682,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You receive loot: |cffffffff|Hitem:30810::::::::43:266:::::::|h[Sunfury Signet]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164682,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You receive loot: |cffffffff|Hitem:32902::::::::43:266:::::::|h[Bottled Nethergon Energy]|h|rx4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164682,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You receive loot: |cffffffff|Hitem:29449::::::::43:266:::::::|h[Bladespire Bagel]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164682,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You loot 1 Gold, 18 Silver, 1 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164682,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You receive item: |cffffffff|Hitem:5512::::::::43:266::1:::::|h[Healthstone]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164690,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164690,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164690,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with The Sha'tar increased by 18.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164699,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Reputation with Stormwind increased by 15.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164699,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						26, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Scràtchy-Stormrage receives loot: |cffffffff|Hitem:30810::::::::43:266:::::::|h[Sunfury Signet]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164703,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Scràtchy-Stormrage receives loot: |cff1eff00|Hitem:24760::::::::43:266::1:2:6654:1692:2:28:1894:9:28:::|h[Umbrafen Gloves of the Fireflash]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164703,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Scràtchy-Stormrage receives loot: |cff1eff00|Hitem:31952::::::::43:266::1::1:28:1894:::|h[Khorium Lockbox]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164703,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Deantia-Frostmourne receives loot: |cffffffff|Hitem:21877::::::::43:266:::::::|h[Netherweave Cloth]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164703,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You receive loot: |cff1eff00|Hitem:29739::::::::43:266:::::::|h[Arcane Tome]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164704,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Deantia-Frostmourne receives loot: |cffffffff|Hitem:27860::::::::43:266:::::::|h[Purified Draenic Water]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164704,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h You loot 59 Silver, 52 Copper",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164705,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Muahaha-Quel'Thalas receives loot: |cff1eff00|Hitem:29739::::::::43:266:::::::|h[Arcane Tome]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164705,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Muahaha-Quel'Thalas receives loot: |cffffffff|Hitem:30810::::::::43:266:::::::|h[Sunfury Signet]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164705,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[12:11]|h Deantia-Frostmourne receives loot: |cffffffff|Hitem:27855::::::::43:266:::::::|h[Mag'har Grainbread]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164705,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						37, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h |Hchannel:INSTANCE_CHAT|h[Instance Leader] |h|cffd8d8d8[|r|Hplayer:Scràtchy-Stormrage:1230:INSTANCE_CHAT|h|cff8b8b8b28|r:|cfffe7b09Scràtchy|r-Stormrage|h|cffd8d8d8]|r: sorry dont remember this place",
+					["b"] = 0.03529411926865578,
+					["r"] = 1,
+					["g"] = 0.2823529541492462,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164720,
+					["extraData"] = {
+						64, -- [1]
+						false, -- [2]
+						28, -- [3]
+						70, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h You leave the group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164729,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h |Hchannel:channel:1|h[1. General] |hChanged Channel: |Hchannel:CHANNEL:1|h[1. General - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164737,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h |Hchannel:channel:2|h[2. Trade] |hChanged Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164737,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h |Hchannel:channel:3|h[3. LocalDefense] |hChanged Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164737,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h You feel rested.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164738,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[12:12]|h You gained: |cffffffff6|TInterface\\MoneyFrame\\UI-GoldIcon:0:0:2:0|t 82|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 8|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164747,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[12:13]|h You gained: |cffffffff41|TInterface\\MoneyFrame\\UI-GoldIcon:0:0:2:0|t 55|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 33|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164791,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [97]
+				{
+					["message"] = "|Hpratcopy|h[12:13]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164794,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|Hpratcopy|h[12:13]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164794,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|Hpratcopy|h[12:13]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618164794,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "0 |4day:days;, 7 |4hour:hours;, 33 |4minute:minutes;, 21 |4second:seconds;",
+					["timestamp"] = 202287.21,
+				}, -- [101]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 202287.21,
+				}, -- [102]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 202257.502,
+				}, -- [103]
+				{
+					["message"] = "|cFF8040FFGuild Revenue Agent|r version 1.9. Type |cFF8040FF/gra help|r for help.",
+					["timestamp"] = 202257.502,
+				}, -- [104]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 202257.502,
+				}, -- [105]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 202257.502,
+				}, -- [106]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 202287.21,
+				}, -- [107]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 202287.21,
+				}, -- [108]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
+					["timestamp"] = 202287.21,
+				}, -- [109]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
+					["timestamp"] = 202287.21,
+				}, -- [110]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
+					["timestamp"] = 202287.21,
+				}, -- [111]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
+					["timestamp"] = 202287.21,
+				}, -- [112]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618191995,
+				}, -- [113]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618192001,
+				}, -- [114]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cff33ff99CameraOverShoulderFix|r: Mount 'Grand Expedition Yak' (460) not yet known. |cffff9900|Hitem:cosFix:mountId:460|h[Click here to define it!]|h|r",
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618192001,
+				}, -- [115]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 202287.21,
+					["serverTime"] = 1618192001,
+				}, -- [116]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1618192005,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 202302.188,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [117]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h AAP Loaded",
+					["timestamp"] = 202302.188,
+					["serverTime"] = 1618192005,
+				}, -- [118]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h Delvar Ironfist says: Ye've got the best dwarf this side a Draenor by yer side!",
+					["serverTime"] = 1618192016,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202314.233,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [119]
+				{
+					["message"] = "|Hpratcopy|h[07:46]|h You receive currency: |cffffffff|Hcurrency:824:0|h[Garrison Resources]|h|r x118.",
+					["serverTime"] = 1618192018,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202316.256,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|Hpratcopy|h[07:47]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
+					["timestamp"] = 202323.59,
+					["serverTime"] = 1618192026,
+				}, -- [121]
+				{
+					["message"] = "|Hpratcopy|h[07:47]|h You have invited Ashh to join your group.",
+					["serverTime"] = 1618192034,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202332.461,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|Hpratcopy|h[07:47]|h Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1618192035,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202332.629,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|Hpratcopy|h[07:47]|h Ashh joins the party.",
+					["serverTime"] = 1618192039,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202337.48,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|Hpratcopy|h[07:47]|h Pitfighter Vaandaam says: I look forward to our next challenge, Commander.",
+					["serverTime"] = 1618192044,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202342.161,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [125]
+				{
+					["message"] = "|Hpratcopy|h[07:48]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Arconmedon-EmeraldDream:4184:CHANNEL:2|h|cfff38bb9Arconmedon|r|h|cffd8d8d8]|r: - RUIN EPIC BATTLEGROUNDS - Listed: Custom PVP Group Finder. HONOR - CONQUEST - ANIMA - Discord premade countdowns! Discord: |cffffffff|Hurl:https://discord.gg/ruin|h[https://discord.gg/ruin]|h|r Streaming: |cffffffff|Hurl:https://twitch.tv/RuinTV|h[https://twitch.tv/RuinTV]|h|r",
+					["serverTime"] = 1618192106,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202404.035,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|Hpratcopy|h[07:50]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Tulyare-EmeraldDream:4185:CHANNEL:2|h|cfffefefeTulyare|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-291121-162-84548429|h[Guild: The Midnight Sun]|h|r is a new guild, aiming to focus on Raids and M+. We are currently building our raid roster for 3 days per week  Need DPS and raid CDs, Pm if you are interested.",
+					["serverTime"] = 1618192206,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						7, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202504.356,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|Hpratcopy|h[07:50]|h Delvar Ironfist says: Delvar Ironfist reportin' fer duty.",
+					["serverTime"] = 1618192231,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 202529.513,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

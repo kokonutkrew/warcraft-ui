@@ -1,4 +1,5 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: AAP_QuestFrame
 FrameLevel: 1
 Anchor: TOP
@@ -55,3 +56,19 @@ X: 84
 Y: 103
 W: 992
 H: 534
+=======
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: BOTTOM
+X: 60
+Y: 0
+W: 784
+H: 260
+Frame: ColorPickerFrame
+FrameLevel: 118
+Anchor: CENTER
+X: 0
+Y: 0
+W: 388
+H: 210
+>>>>>>> Stashed changes

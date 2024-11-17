@@ -1,28 +1,98 @@
 
 OneRing_Config = {
 	["CharProfiles"] = {
+<<<<<<< Updated upstream
 		["Emerald Dream-Samoansavage-2"] = "default",
+=======
+		["Emerald Dream-Herbcraft"] = "default",
+		["Emerald Dream-Samoansage-3"] = "KokonutKrew",
+>>>>>>> Stashed changes
 	},
-	["_GameVersion"] = "9.0.5",
-	["_OPieVersion"] = "Xe 2a (3.104)",
+	["_GameVersion"] = "9.2.0",
+	["_OPieVersion"] = "Xe 6 (3.106)",
 	["ProfileStorage"] = {
 		["default"] = {
+<<<<<<< Updated upstream
+=======
+		},
+		["KokonutKrew"] = {
+			["RingAtMouse"] = true,
+>>>>>>> Stashed changes
 			["Bindings"] = {
 				["CommonTrades"] = "ALT-T",
 				["TrinketSlots"] = "SHIFT-5",
 				["CapsLock"] = "CAPSLOCK",
 				["KKPeriod"] = ".",
 			},
+			["CenterAction"] = true,
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
+<<<<<<< Updated upstream
 			["KKPeriod"] = {
 				["name"] = "[KK] Period",
 				["save"] = true,
 				["hotkey"] = ".",
 			},
 			["CapsLock"] = {
+=======
+			["KKOPie"] = {
+				{
+					["sliceToken"] = "ABuelWvw4R1",
+					["id"] = 83958,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuelWvw4Rr",
+					["id"] = 125439,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuel7WdE2wr",
+					["id"] = 265225,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuel7WdE2we",
+					["id"] = 80451,
+				}, -- [4]
+				{
+					["sliceToken"] = "ABuel7WdE2ww",
+					["id"] = 818,
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuel7WdE2wq",
+					["id"] = 131474,
+				}, -- [6]
+				{
+					"ring", -- [1]
+					"OPieTracking", -- [2]
+					["sliceToken"] = "ABuel7WdE2M",
+				}, -- [7]
+				{
+					"ring", -- [1]
+					"OPieAutoQuest", -- [2]
+					["sliceToken"] = "ABuel7WdE2N",
+				}, -- [8]
+				{
+					"ring", -- [1]
+					"SpecMenu", -- [2]
+					["sliceToken"] = "ABuel7WdE2B",
+				}, -- [9]
+				{
+					"ring", -- [1]
+					"CommonHearth", -- [2]
+					["sliceToken"] = "ABuel7WdE2/",
+				}, -- [10]
+				{
+					"ring", -- [1]
+					"CommonTrades", -- [2]
+					["sliceToken"] = "ABuel7WdE2V",
+				}, -- [11]
+				{
+					"ring", -- [1]
+					"TrinketSlots", -- [2]
+					["sliceToken"] = "ABuel7WdE2C",
+				}, -- [12]
+>>>>>>> Stashed changes
 				{
 					"ring", -- [1]
 					"WorldMarkers", -- [2]

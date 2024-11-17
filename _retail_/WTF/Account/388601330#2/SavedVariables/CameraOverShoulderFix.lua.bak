@@ -1,0 +1,26 @@
+
+cosFixDB = {
+	["char"] = {
+		["Cupkek - Emerald Dream"] = {
+			["lastModelId"] = 921844,
+			["isOnTaxi"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+customOffsetFactors = {
+	["mountId"] = {
+	},
+	["modelId"] = {
+	},
+	["vehicleId"] = {
+	},
+}
+newFactorTriggers = {
+}

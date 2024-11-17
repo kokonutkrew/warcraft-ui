@@ -1,11 +1,11 @@
 --------------------------------------------------------------------------------------------
--- Rematch_TSMPetValues - Add TSM market values ​​to the Rematch pet list
+-- Rematch_TSMPetValues - Add TSM market values to the Rematch pet list
 --------------------------------------------------------------------------------------------
--- Locale/enUS.lua - Strings for enUS
+-- Locale/deDE.lua - Strings for deDE
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / August 2024 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.2.6
 ------------------------------------------------------------------------------
 -- luacheck: max line length 350
 
@@ -14,12 +14,20 @@ local L = LibStub("AceLocale-3.0"):NewLocale(addonName, "deDE")
 
 if not L then return end
 
+L["/ no Rematch found "] = "/ Rematch nicht gefunden "
+L["Loaded modules: "] = "Geladene Module: "
+L["Not loaded modules: "] = "Nicht geladene Module: "
+
 L["Price Sources"] = "Preisquellen"
 L["First Price Source"] = "Erste Preisquelle"
 L["Second Price Source"] = "Zweite Preisquelle"
 L["Choose a TSM price source"] = "Gib eine TSM-Preisquelle ein (eine von '/tsm sources')"
 L[" hooked into Rematch"] = " Rematch wurde erweitert"
 L[" NOT hooked into Rematch"] = "Rematch wurde nicht erweitert"
+
+L["Found usable data from TradeSkillMaster."] = "Brauchbare Daten von TradeSkillMaster gefunden."
+L["No usable data from TradeSkillMaster found! Please check your TradeSkillMaster Desktop App."] = "Keine gültigen Daten von TradeSkillMaster gefunden. Bitte prüfe die Desktop App."
+L["TradeSkillMaster not found!"] = "TradeSkillMaster wurde nicht gefunden!"
 
 L["ON"] = "EIN"
 L["OFF"] = "AUS"

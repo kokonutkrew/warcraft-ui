@@ -1,6 +1,7 @@
 AAP-Core: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
+<<<<<<< Updated upstream
 AceGUI-3.0-Selectable-Panel: disabled
 ACP: disabled
 AddonUsage: disabled
@@ -107,6 +108,40 @@ Prat-3.0: disabled
 Prat-3.0_Libraries: disabled
 PrettyReps: disabled
 PVPSound: disabled
+=======
+ACU: disabled
+AutoOpen: disabled
+Bartender4: disabled
+!BugGrabber: disabled
+BugSack: disabled
+CaerdonWardrobe: disabled
+CameraOverShoulderFix: disabled
+Clique: disabled
+CovenantMissionHelper: disabled
+DeathNote: disabled
+Details: disabled
+Details_DeathGraphs: disabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_DataStorage: disabled
+Details_Streamer: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
+DynamicCam: disabled
+ExRT: disabled
+Gnobesy: disabled
+Guild_Roster_Manager: disabled
+Immersion: disabled
+Leatrix_Maps: disabled
+Leatrix_Plus: disabled
+MacroToolkit: disabled
+MacroToolkitIcons: disabled
+MBB: disabled
+Myslot: disabled
+OPie: disabled
+PersonalLootHelper: disabled
+PrettyReps: disabled
+>>>>>>> Stashed changes
 RaiderIO: disabled
 RaiderIO_DB_US_A: disabled
 RaiderIO_DB_US_H: disabled
@@ -124,6 +159,7 @@ RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_TW_A_R: disabled
 RaiderIO_DB_TW_H_R: disabled
+<<<<<<< Updated upstream
 Routes: disabled
 sArena: disabled
 Skada: disabled
@@ -141,11 +177,28 @@ WeakAurasTemplates: disabled
 WorldQuestTracker: disabled
 WoWDBProfiler: disabled
 zbGuildManager: disabled
+=======
+RCLootCouncil: disabled
+RCLootCouncil_EPGP: disabled
+RCLootCouncil_ExtraUtilities: disabled
+RCLootCouncil_GroupGear: disabled
+Rematch: disabled
+Rematch_TSMPetValues: disabled
+Spy: disabled
+WeakAuras: disabled
+WeakAurasArchive: disabled
+WeakAurasCompanion: disabled
+WeakAurasModelPaths: disabled
+WeakAurasOptions: disabled
+WeakAurasTemplates: disabled
+WorldQuestsList: disabled
+>>>>>>> Stashed changes
 GSE: disabled
 GSE_GUI: disabled
 GSE_LDB: disabled
 TradeSkillMaster: disabled
 TradeSkillMaster_AppHelper: disabled
+<<<<<<< Updated upstream
 GS-MultiboxMacros: disabled
 WoWPro: disabled
 WoWPro_Achievements: disabled
@@ -171,3 +224,18 @@ DBM-Shadowlands: disabled
 DBM-EternalPalace: disabled
 DBM-Uldir: disabled
 DBM-WorldEvents: disabled
+=======
+ElvUI: disabled
+ElvUI_OptionsUI: disabled
+RecklessAbandon: disabled
+DBM-Core: disabled
+DBM-GUI: disabled
+DBM-StatusBarTimers: disabled
+DBM-Brawlers: disabled
+DBM-CastleNathria: disabled
+DBM-DMF: disabled
+DBM-Party-Shadowlands: disabled
+DBM-Shadowlands: disabled
+DBM-WorldEvents: disabled
+FastGuildInvite: disabled
+>>>>>>> Stashed changes

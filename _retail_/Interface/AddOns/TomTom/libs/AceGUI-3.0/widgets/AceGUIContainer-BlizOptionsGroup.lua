@@ -2,7 +2,11 @@
 BlizOptionsGroup Container
 Simple container widget for the integration of AceGUI into the Blizzard Interface Options
 -------------------------------------------------------------------------------]]
+<<<<<<< Updated upstream
 local Type, Version = "BlizOptionsGroup", 21
+=======
+local Type, Version = "BlizOptionsGroup", 26
+>>>>>>> Stashed changes
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -99,7 +103,11 @@ local methods = {
 Constructor
 -------------------------------------------------------------------------------]]
 local function Constructor()
+<<<<<<< Updated upstream
 	local frame = CreateFrame("Frame")
+=======
+	local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
+>>>>>>> Stashed changes
 	frame:Hide()
 
 	-- support functions for the Blizzard Interface Options
@@ -108,6 +116,14 @@ local function Constructor()
 	frame.default = default
 	frame.refresh = refresh
 
+<<<<<<< Updated upstream
+=======
+	-- 10.0 support function aliases (cancel has been removed)
+	frame.OnCommit = okay
+	frame.OnDefault = default
+	frame.OnRefresh = refresh
+
+>>>>>>> Stashed changes
 	frame:SetScript("OnHide", OnHide)
 	frame:SetScript("OnShow", OnShow)
 

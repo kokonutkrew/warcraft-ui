@@ -115,7 +115,11 @@ DBMWorldEvents_SavedStats = {
 		["challengePulls"] = 0,
 	},
 	["d288"] = {
+<<<<<<< Updated upstream
 		["normalPulls"] = 4,
+=======
+		["normalPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -123,9 +127,13 @@ DBMWorldEvents_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalBestTime"] = 41.93899999998394,
 		["normalKills"] = 4,
 		["normalLastTime"] = 43.37299999999232,
+=======
+		["normalKills"] = 0,
+>>>>>>> Stashed changes
 		["heroic25Kills"] = 0,
 		["timewalkerPulls"] = 0,
 		["heroicKills"] = 0,
@@ -193,7 +201,11 @@ DBMWorldEvents_SavedStats = {
 		["challengePulls"] = 0,
 	},
 	["DoomwalkerEvent"] = {
+<<<<<<< Updated upstream
 		["normalPulls"] = 0,
+=======
+		["normalPulls"] = 2,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -201,7 +213,13 @@ DBMWorldEvents_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalKills"] = 0,
+=======
+		["normalBestTime"] = 333.1350000000093,
+		["normalKills"] = 2,
+		["normalLastTime"] = 333.1350000000093,
+>>>>>>> Stashed changes
 		["heroic25Kills"] = 0,
 		["timewalkerPulls"] = 0,
 		["heroicKills"] = 0,

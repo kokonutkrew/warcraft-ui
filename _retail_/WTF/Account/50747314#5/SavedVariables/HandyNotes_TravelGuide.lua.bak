@@ -1,0 +1,12 @@
+
+HandyNotes_TravelGuideDB = {
+["profileKeys"] = {
+["Saig - Emerald Dream"] = "Default",
+["Dethflare - Emerald Dream"] = "Default",
+["Winbin - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

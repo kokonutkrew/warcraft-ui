@@ -1,6 +1,7 @@
 
 FGI_DB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Buhbels - Emerald Dream"] = "Default",
 	},
 	["factionrealm"] = {
@@ -269,11 +270,21 @@ FGI_DB = {
 			},
 			["sendMSG"] = true,
 		},
+=======
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["introShow"] = false,
+>>>>>>> Stashed changes
 	},
 }
 FGI_DEBUG = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+=======
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["global"] = {
 		{

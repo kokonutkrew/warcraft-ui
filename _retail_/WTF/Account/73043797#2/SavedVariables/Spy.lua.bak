@@ -3,9 +3,15 @@ SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
+<<<<<<< Updated upstream
 				["Tygrrlilly"] = {
 				},
 				["Grapejellie"] = {
+=======
+				["Cherriebomb"] = {
+				},
+				["Cukie"] = {
+>>>>>>> Stashed changes
 				},
 			},
 		},
@@ -17,11 +23,19 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 	},
 	["profiles"] = {
 		["Tygrrlilly - Emerald Dream"] = {
+=======
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+	},
+	["profiles"] = {
+		["Cherriebomb - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -33,7 +47,11 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
+<<<<<<< Updated upstream
 		["Grapejellie - Emerald Dream"] = {
+=======
+		["Cukie - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {

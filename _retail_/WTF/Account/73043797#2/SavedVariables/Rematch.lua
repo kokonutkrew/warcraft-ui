@@ -52,9 +52,14 @@ RematchSettings = {
 		},
 		["Level"] = {
 		},
+<<<<<<< Updated upstream
 		["Strong"] = {
 		},
+=======
+>>>>>>> Stashed changes
 		["Similar"] = {
+		},
+		["Sources"] = {
 		},
 		["Breed"] = {
 		},
@@ -72,7 +77,13 @@ RematchSettings = {
 	["ExpandedOptHeaders"] = {
 	},
 	["JournalPanel"] = 1,
+<<<<<<< Updated upstream
 	["SelectedTab"] = 1,
+=======
+	["CustomScaleValue"] = 100,
+	["SpecialSlots"] = {
+	},
+>>>>>>> Stashed changes
 	["ExpandedTargetHeaders"] = {
 	},
 	["PreferredMode"] = 1,
@@ -82,6 +93,10 @@ RematchSettings = {
 	["SpecialSlots"] = {
 	},
 	["CornerPos"] = "BOTTOMLEFT",
+<<<<<<< Updated upstream
+=======
+	["JournalUsed"] = true,
+>>>>>>> Stashed changes
 	["QueueSanctuary"] = {
 	},
 	["LevelingQueue"] = {

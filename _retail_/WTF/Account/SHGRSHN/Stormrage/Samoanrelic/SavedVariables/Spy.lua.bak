@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["version"] = "1.1",
 	["IgnoreData"] = {
 	},
@@ -21,4 +22,13 @@ SpyPerCharDB = {
 			["time"] = 1615536157,
 		},
 	},
+=======
+	["PlayerData"] = {
+	},
+	["IgnoreData"] = {
+	},
+	["version"] = "1.1",
+	["KOSData"] = {
+	},
+>>>>>>> Stashed changes
 }

@@ -10,12 +10,12 @@ end
 
 function GuildBankMixin:ADDON_LOADED(name)
 	if name == "Blizzard_GuildBankUI" then
-		hooksecurefunc("GuildBankFrame_Update", function(...) self:OnGuildBankFrameUpdate(...) end)
+		hooksecurefunc(GuildBankFrame, "Update", function(...) self:OnGuildBankFrameUpdate(...) end)
 	end
 end
 
-function GuildBankMixin:SetTooltipItem(tooltip, item, locationInfo)
-	local speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetGuildBankItem(locationInfo.tab, locationInfo.index)
+function GuildBankMixin:GetTooltipData(item, locationInfo)
+	return C_TooltipInfo.GetGuildBankItem(locationInfo.tab, locationInfo.index)
 end
 
 function GuildBankMixin:Refresh()
@@ -39,10 +39,18 @@ function GuildBankMixin:GetDisplayInfo()
 end
 
 function GuildBankMixin:OnGuildBankFrameUpdate()
+	-- TODO: They moved these local to Blizzard_GuildBankUI so hard-coding here for now.
+	local MAX_GUILDBANK_SLOTS_PER_TAB = 98;
+	local NUM_SLOTS_PER_GUILDBANK_GROUP = 14;
+
 	if( GuildBankFrame.mode == "bank" ) then
 		local tab = GetCurrentGuildBankTab();
 		local button, index, column;
 		local texture, itemCount, locked, isFiltered, quality;
+
+		if ( GuildBankFrame.noViewableTabs ) then
+			return;
+		end
 
 		for i=1, MAX_GUILDBANK_SLOTS_PER_TAB do
 			index = mod(i, NUM_SLOTS_PER_GUILDBANK_GROUP);
@@ -50,17 +58,15 @@ function GuildBankMixin:OnGuildBankFrameUpdate()
 				index = NUM_SLOTS_PER_GUILDBANK_GROUP;
 			end
 
-			if self.isGuildBankFrameUpdateRequested then
-				return
-			end
+			-- if self.isGuildBankFrameUpdateRequested then
+			-- 	return
+			-- end
 
 			column = ceil((i-0.5)/NUM_SLOTS_PER_GUILDBANK_GROUP);
-			button = _G["GuildBankColumn"..column.."Button"..index];
+
+			button = GuildBankFrame.Columns[column].Buttons[index];
 
 			local options = {
-				showMogIcon = true,
-				showBindStatus = true,
-				showSellables = true
 			}
 
 			local itemLink = GetGuildBankItemLink(tab, i)

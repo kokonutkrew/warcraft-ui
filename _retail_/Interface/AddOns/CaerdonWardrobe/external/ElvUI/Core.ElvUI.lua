@@ -1,6 +1,5 @@
 local ADDON_NAME, namespace = ...
 local L = namespace.L
-local Version = nil
 
 local addonName = "ElvUI"
 local ElvUIMixin = {}
@@ -14,15 +13,15 @@ function ElvUIMixin:Init()
 	hooksecurefunc(self.ElvUIBags, "UpdateSlot", function(...) self:OnUpdateSlot(...) end)
 end
 
-function ElvUIMixin:SetTooltipItem(tooltip, item, locationInfo)
+function ElvUIMixin:GetTooltipData(item, locationInfo)
 	if locationInfo.isOffline then
 		if not item:IsItemEmpty() then
-			tooltip:SetHyperlink(item:GetItemLink())
+			return C_TooltipInfo.GetHyperlink(item:GetItemLink())
 		end
 	elseif locationInfo.bag == BANK_CONTAINER then
-		local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
+		return C_TooltipInfo.GetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
 	else
-		local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetBagItem(locationInfo.bag, locationInfo.slot)
+		return C_TooltipInfo.GetBagItem(locationInfo.bag, locationInfo.slot)
 	end
 end
 
@@ -31,8 +30,14 @@ function ElvUIMixin:Refresh()
 end
 
 function ElvUIMixin:OnUpdateSlot(ee, frame, bagID, slotID)
-	if (frame.Bags[bagID] and frame.Bags[bagID].numSlots ~= GetContainerNumSlots(bagID)) or not frame.Bags[bagID] or not frame.Bags[bagID][slotID] then
-		return
+	if C_Container and C_Container.GetContainerNumSlots then
+		if (frame.Bags[bagID] and frame.Bags[bagID].numSlots ~= C_Container.GetContainerNumSlots(bagID)) or not frame.Bags[bagID] or not frame.Bags[bagID][slotID] then
+			return
+		end
+	else
+		if (frame.Bags[bagID] and frame.Bags[bagID].numSlots ~= GetContainerNumSlots(bagID)) or not frame.Bags[bagID] or not frame.Bags[bagID][slotID] then
+			return
+		end
 	end
 
 	local button = frame.Bags[bagID][slotID]
@@ -61,20 +66,23 @@ function ElvUIMixin:OnUpdateSlot(ee, frame, bagID, slotID)
 		}, {
 			hasCount = hasCount,
 			relativeFrame = button.icon,
-			showMogIcon = true,
-			showBindStatus = true,
-			showSellables = true,
 			statusProminentSize = iconSize,
 			bindingScale = bindingScale, 
 			itemCountOffset = (12 * (numberFontSize / 14))  / bindingScale
 	})
 end
 
-if select(4, GetAddOnInfo(addonName)) then
-	if IsAddOnLoaded(addonName) then
+local Version = nil
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+	if C_AddOns.IsAddOnLoaded(addonName) then
 		if ElvUI[1].private.bags.enable then
-			Version = GetAddOnMetadata(addonName, 'Version')
+			Version = C_AddOns.GetAddOnMetadata(addonName, 'Version')
 			CaerdonWardrobe:RegisterFeature(ElvUIMixin)
+			isActive = true
 		end
 	end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

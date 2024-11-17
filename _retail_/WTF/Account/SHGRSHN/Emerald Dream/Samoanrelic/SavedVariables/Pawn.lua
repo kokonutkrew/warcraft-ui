@@ -1,5 +1,6 @@
 
 PawnOptions = {
+<<<<<<< Updated upstream
 	["LastVersion"] = 2.0311,
 	["ItemLevels"] = {
 		{
@@ -93,9 +94,100 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastPlayerFullName"] = "Samoanrelic-Emerald Dream",
+=======
+	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Samoanrelic-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122250,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::49:257:::1:5805::::::|h[Tattered Dreadmist Mask]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122664,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122664::::::::49:257:::1:5805::::::|h[Eternal Horizon Choker]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122378,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122378::::::::49:257:::1:5805::::::|h[Exquisite Sunderseer Mantle]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122384,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::49:257:::1:5805::::::|h[Tattered Dreadmist Robe]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 24395,
+			["Level"] = 51,
+			["Link"] = "|cff0070dd|Hitem:24395::::::::46:258::1:1:6710:2:28:1887:9:46:::::|h[Mindfire Waistband]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122256,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::49:257:::1:5805::::::|h[Tattered Dreadmist Leggings]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 51967,
+			["Level"] = 57,
+			["Link"] = "|cff0070dd|Hitem:51967::::::::49:257::1:2:4244:1677:2:28:1694:9:49:::::|h[Enumerated Sandals of the Quickblade]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 109864,
+			["Level"] = 48,
+			["Link"] = "|cff0070dd|Hitem:109864::::::::42:257::1:3:6710:42:6652:2:28:1847:9:42:::::|h[Bracers of Arcane Mystery]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 109847,
+			["Level"] = 49,
+			["Link"] = "|cff0070dd|Hitem:109847::::::::43:257::1:2:6710:6652:2:28:1850:9:43:::::|h[Lightbinder Gloves]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 122529,
+			["Level"] = 58,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122529::::::::49:257:::1:5805::::::|h[Dread Pirate Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 128169,
+			["Level"] = 58,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:128169::::::::49:257:::1:5805::::::|h[Signet of the Third Fleet]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122362,
+			["Level"] = 58,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122362::::::::49:257:::1:5805::::::|h[Discerning Eye of the Beast]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 128318,
+			["Level"] = 58,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:128318::::::::49:257:::1:3592::::::|h[Touch of the Void]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122262,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::49:257:::1:5805::::::|h[Ancient Bloodmoon Cloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122368,
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122368::::::::49:257:::1:5805::::::|h[Grand Staff of Jordan]|h|r",
+		}, -- [16]
+	},
+>>>>>>> Stashed changes
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",
 	["LastAdded"] = 1,
 }
+<<<<<<< Updated upstream
+=======
+PawnClassicScaleProviderOptions = nil
+>>>>>>> Stashed changes

@@ -5,6 +5,7 @@ _detalhes_database = {
 	["mythic_dungeon_id"] = 0,
 	["tabela_historico"] = {
 		["tabelas"] = {
+<<<<<<< Updated upstream
 			{
 				{
 					["tipo"] = 2,
@@ -20284,6 +20285,8 @@ _detalhes_database = {
 				["spells_cast_timeline"] = {
 				},
 			}, -- [18]
+=======
+>>>>>>> Stashed changes
 		},
 	},
 	["ocd_tracker"] = {
@@ -20300,7 +20303,11 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["last_version"] = "v9.0.2.8246",
+=======
+	["last_version"] = "9.1.08722",
+>>>>>>> Stashed changes
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -20314,10 +20321,17 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
+<<<<<<< Updated upstream
 		["nextreset"] = 1616131966,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 2286,
+=======
+		["nextreset"] = 1629194719,
+		["last_version"] = 14,
+	},
+	["last_instance_id"] = 2287,
+>>>>>>> Stashed changes
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -20325,6 +20339,7 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
+<<<<<<< Updated upstream
 	["last_instance_time"] = 1612146912,
 	["active_profile"] = "Samoanranger-Emerald Dream",
 	["last_day"] = "04",
@@ -20339,6 +20354,12 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+=======
+	["last_instance_time"] = 1618711236,
+	["active_profile"] = "KokonutKrew",
+	["last_realversion"] = 145,
+	["ignore_nicktag"] = false,
+>>>>>>> Stashed changes
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -20383,12 +20404,16 @@ _detalhes_database = {
 			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+<<<<<<< Updated upstream
 			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+=======
+			["use_square_mode"] = false,
+>>>>>>> Stashed changes
 			["is_first_run"] = false,
 			["grow_direction"] = "right",
 			["arrow_color"] = {
@@ -20398,14 +20423,20 @@ _detalhes_database = {
 				0.5, -- [4]
 			},
 			["main_frame_size"] = {
+<<<<<<< Updated upstream
 				300, -- [1]
 				500.000030517578, -- [2]
+=======
+				299.9998779296875, -- [1]
+				499.9999389648438, -- [2]
+>>>>>>> Stashed changes
 			},
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
 				["hide"] = true,
 			},
+<<<<<<< Updated upstream
 			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
@@ -20424,18 +20455,28 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
+=======
+			["arrow_anchor_y"] = 0,
+			["arrow_anchor_x"] = 0,
+			["main_frame_locked"] = false,
+			["row_texture"] = "Details Serenity",
+>>>>>>> Stashed changes
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+<<<<<<< Updated upstream
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+=======
+>>>>>>> Stashed changes
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
+<<<<<<< Updated upstream
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
 				["attribute_type"] = 1,
@@ -20544,25 +20585,171 @@ _detalhes_database = {
 			["modo"] = 2,
 			["sub_attribute"] = 1,
 			["sub_atributo_last"] = {
+=======
+				["y"] = -3.0517578125e-05,
+				["x"] = -6.103515625e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.57763671875e-05,
+			["use_spark"] = true,
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+>>>>>>> Stashed changes
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 				1, -- [5]
 			},
+<<<<<<< Updated upstream
 			["is_open"] = true,
 			["isLocked"] = false,
 			["snap"] = {
+=======
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = true,
+			["author"] = "Tercio",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+		},
+		["DETAILS_PLUGIN_TARGET_CALLER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				{
+					["name"] = "Class Damage",
+					["iType"] = "raid-DAMAGER",
+					["segment_type"] = 1,
+					["version"] = "v2.0",
+					["data"] = "PRESET_DAMAGE_SAME_CLASS",
+					["texture"] = "line",
+				}, -- [2]
+				{
+					["name"] = "Raid Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Raid Damage Done",
+					["texture"] = "line",
+				}, -- [3]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["show_method"] = 4,
+				["auto_create"] = true,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+	},
+	["character_data"] = {
+		["logons"] = 24,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+>>>>>>> Stashed changes
 			},
 			["segment"] = 0,
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -359.9996337890625,
 					["x"] = 683.9998779296875,
 					["w"] = 309.9999389648438,
 					["h"] = 157.9999694824219,
+=======
+					["y"] = -418.0979754487832,
+					["x"] = -812.5644924538132,
+					["w"] = 244,
+					["h"] = 193.0000305175781,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -20572,12 +20759,130 @@ _detalhes_database = {
 				},
 			},
 		}, -- [1]
+<<<<<<< Updated upstream
+=======
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -418.0979754487832,
+					["x"] = -578.3244859861135,
+					["w"] = 244,
+					["h"] = 193.0000305175781,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+				[3] = 4,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -212.3147888183594,
+					["x"] = -816.9266510009766,
+					["w"] = 197.4075469970703,
+					["h"] = 74.55563354492188,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [3]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				3, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -212.3147277832031,
+					["x"] = -621.2969970703125,
+					["w"] = 193.8517761230469,
+					["h"] = 74.55551147460938,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [4]
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["cached_roles"] = {
+	},
+	["combat_counter"] = 319,
+	["last_day"] = "02",
+	["combat_id"] = 262,
+	["savedStyles"] = {
+>>>>>>> Stashed changes
 	},
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+<<<<<<< Updated upstream
 	["last_realversion"] = 144,
 	["character_data"] = {
 		["logons"] = 18,
@@ -20587,6 +20892,8 @@ _detalhes_database = {
 	["savedStyles"] = {
 	},
 	["force_font_outline"] = "",
+=======
+>>>>>>> Stashed changes
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -20604,6 +20911,7 @@ _detalhes_database = {
 		["only_first"] = 5,
 		["where"] = 1,
 	},
+<<<<<<< Updated upstream
 	["tabela_overall"] = {
 		{
 			["tipo"] = 2,
@@ -57920,6 +58228,15 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
+=======
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["force_font_outline"] = "",
+	["cached_talents"] = {
+	},
+>>>>>>> Stashed changes
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},

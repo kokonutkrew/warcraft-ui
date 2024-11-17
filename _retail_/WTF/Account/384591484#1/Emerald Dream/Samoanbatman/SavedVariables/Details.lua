@@ -7989,7 +7989,11 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["last_version"] = "v9.0.2.8316",
+=======
+	["last_version"] = "9.1.08721",
+>>>>>>> Stashed changes
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -8002,6 +8006,7 @@ _detalhes_database = {
 		["last_coach_name"] = false,
 	},
 	["on_death_menu"] = true,
+<<<<<<< Updated upstream
 	["cached_talents"] = {
 		["Player-162-0A49E245"] = {
 			22503, -- [1]
@@ -8014,6 +8019,13 @@ _detalhes_database = {
 		},
 	},
 	["last_instance_id"] = 2290,
+=======
+	["nick_tag_cache"] = {
+		["nextreset"] = 1627637171,
+		["last_version"] = 14,
+	},
+	["last_instance_id"] = 1209,
+>>>>>>> Stashed changes
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -8021,9 +8033,13 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
+<<<<<<< Updated upstream
 	["last_instance_time"] = 1615550483,
+=======
+	["last_instance_time"] = 1624244524,
+>>>>>>> Stashed changes
 	["active_profile"] = "Samoanbatman-Emerald Dream",
-	["last_realversion"] = 144,
+	["last_realversion"] = 145,
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
@@ -8162,6 +8178,7 @@ _detalhes_database = {
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
 		},
+<<<<<<< Updated upstream
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
 			["tank_block_color"] = {
@@ -8219,6 +8236,169 @@ _detalhes_database = {
 				["auto_create"] = true,
 				["window_scale"] = 1,
 			},
+=======
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				299.9999389648438, -- [1]
+				499.9999084472656, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["scale"] = 1,
+			["arrow_anchor_x"] = 0,
+			["row_height"] = 20,
+			["row_texture"] = "Details Serenity",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = -4.57763671875e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 6.103515625e-05,
+				["x"] = -6.103515625e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+>>>>>>> Stashed changes
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["playSound"] = false,
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Tercio",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["show_inc_bars"] = true,
+		},
+		["DETAILS_PLUGIN_TARGET_CALLER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				{
+					["name"] = "Class Damage",
+					["iType"] = "raid-DAMAGER",
+					["segment_type"] = 1,
+					["version"] = "v2.0",
+					["data"] = "PRESET_DAMAGE_SAME_CLASS",
+					["texture"] = "line",
+				}, -- [2]
+				{
+					["name"] = "Raid Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Raid Damage Done",
+					["texture"] = "line",
+				}, -- [3]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["show_method"] = 4,
+				["auto_create"] = true,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 	},
 	["announce_prepots"] = {
@@ -8226,7 +8406,13 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+<<<<<<< Updated upstream
 	["last_day"] = "17",
+=======
+	["last_day"] = "15",
+	["cached_roles"] = {
+	},
+>>>>>>> Stashed changes
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -8245,6 +8431,7 @@ _detalhes_database = {
 	["character_data"] = {
 		["logons"] = 12,
 	},
+<<<<<<< Updated upstream
 	["combat_id"] = 31,
 	["savedStyles"] = {
 	},
@@ -8281,6 +8468,13 @@ _detalhes_database = {
 				},
 			},
 		}, -- [1]
+=======
+	["combat_id"] = 50,
+	["savedStyles"] = {
+	},
+	["combat_counter"] = 117,
+	["cached_talents"] = {
+>>>>>>> Stashed changes
 	},
 	["force_font_outline"] = "",
 	["announce_deaths"] = {
@@ -9468,14 +9662,22 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+<<<<<<< Updated upstream
 		["tempo_start"] = 1615547750,
+=======
+		["tempo_start"] = 1097502.776,
+>>>>>>> Stashed changes
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
+<<<<<<< Updated upstream
 		["combat_counter"] = 44,
+=======
+>>>>>>> Stashed changes
 		["spells_cast_timeline"] = {
 		},
+		["combat_counter"] = 111,
 		["totals"] = {
 			-0.012953, -- [1]
 			0, -- [2]
@@ -9507,6 +9709,7 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
+		["end_time"] = 1097502.776,
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -9540,11 +9743,14 @@ _detalhes_database = {
 		["cleu_events"] = {
 			["n"] = 1,
 		},
-		["start_time"] = 0,
+		["start_time"] = 1097502.776,
 		["TimeData"] = {
 			["Player Damage Done"] = {
+<<<<<<< Updated upstream
 			},
 			["Raid Damage Done"] = {
+=======
+>>>>>>> Stashed changes
 			},
 		},
 		["PhaseData"] = {
@@ -9562,6 +9768,7 @@ _detalhes_database = {
 			},
 		},
 	},
+<<<<<<< Updated upstream
 	["combat_counter"] = 46,
 	["announce_firsthit"] = {
 		["enabled"] = true,
@@ -9570,6 +9777,45 @@ _detalhes_database = {
 	["benchmark_db"] = {
 		["frame"] = {
 		},
+=======
+	["force_font_outline"] = "",
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -434.4445724487305,
+					["x"] = 700.999267578125,
+					["w"] = 310.0002136230469,
+					["h"] = 157.9999694824219,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["character_data"] = {
+		["logons"] = 15,
+>>>>>>> Stashed changes
 	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {

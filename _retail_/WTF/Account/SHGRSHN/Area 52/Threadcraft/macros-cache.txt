@@ -1,0 +1,12 @@
+VER 3 0100000000000001 ".a.yAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2782]remove corruption
+END
+VER 3 0100000000000002 ".a.yQ Interrupt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:1766]kick;[known:78675]solar beam;[known:147362]counter shot;[known:2139] counterspell;[known:106839]skull bash
+END
+VER 3 0100000000000003 ".a.yScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:186257]aspect of the cheetah;[known:2983]sprint;[known:77764]stampeding roar;[known:dash]dash;[known:68992]darkflight
+END

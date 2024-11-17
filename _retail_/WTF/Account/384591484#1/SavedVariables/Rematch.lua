@@ -40,6 +40,7 @@ RematchSettings = {
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 	},
+	["JournalUsed"] = true,
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -47,12 +48,17 @@ RematchSettings = {
 		},
 		["Script"] = {
 		},
-		["Types"] = {
+		["Moveset"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
+<<<<<<< Updated upstream
+=======
+		["Strong"] = {
+		},
+>>>>>>> Stashed changes
 		["Sources"] = {
 		},
 		["Similar"] = {
@@ -61,26 +67,35 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Strong"] = {
+		["Similar"] = {
 		},
-		["Level"] = {
+		["Collected"] = {
 		},
-		["Tough"] = {
+		["Favorite"] = {
 		},
-		["Moveset"] = {
+		["Types"] = {
 		},
 	},
 	["ExpandedOptHeaders"] = {
 	},
+<<<<<<< Updated upstream
 	["CustomScaleValue"] = 100,
 	["JournalPanel"] = 1,
 	["JournalUsed"] = true,
+=======
+	["LevelingQueue"] = {
+	},
+	["SelectedTab"] = 1,
+	["SpecialSlots"] = {
+	},
+>>>>>>> Stashed changes
 	["ExpandedTargetHeaders"] = {
 	},
-	["PreferredMode"] = 1,
+	["ElvUIToastDefaulted"] = true,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
 	},
+<<<<<<< Updated upstream
 	["SpecialSlots"] = {
 	},
 	["CornerPos"] = "BOTTOMLEFT",
@@ -90,6 +105,15 @@ RematchSettings = {
 	},
 	["YPos"] = 237.9999389648438,
 	["SelectedTab"] = 1,
+=======
+	["QueueSanctuary"] = {
+	},
+	["CornerPos"] = "BOTTOMLEFT",
+	["JournalPanel"] = 1,
+	["PreferredMode"] = 1,
+	["YPos"] = 297.9999694824219,
+	["CustomScaleValue"] = 100,
+>>>>>>> Stashed changes
 	["PetNotes"] = {
 	},
 }

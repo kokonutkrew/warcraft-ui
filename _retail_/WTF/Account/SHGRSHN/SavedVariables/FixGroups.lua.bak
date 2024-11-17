@@ -1,0 +1,32 @@
+
+FixGroupsDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Forgecraft - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
+		["Gl - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+	},
+	["faction"] = {
+		["Alliance"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+				},
+				["ranged"] = {
+				},
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+				},
+				["ranged"] = {
+					["Thunderr-EmeraldDream"] = 1630201206,
+				},
+			},
+		},
+	},
+}

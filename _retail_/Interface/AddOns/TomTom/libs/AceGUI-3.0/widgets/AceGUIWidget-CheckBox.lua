@@ -12,10 +12,13 @@ local select, pairs = select, pairs
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
+<<<<<<< Updated upstream
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
 -- GLOBALS: SetDesaturation, GameFontHighlight
 
+=======
+>>>>>>> Stashed changes
 --[[-----------------------------------------------------------------------------
 Support functions
 -------------------------------------------------------------------------------]]
@@ -199,6 +202,7 @@ local methods = {
 	["SetDescription"] = function(self, desc)
 		if desc then
 			if not self.desc then
+<<<<<<< Updated upstream
 				local desc = self.frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
 				desc:ClearAllPoints()
 				desc:SetPoint("TOPLEFT", self.checkbg, "TOPRIGHT", 5, -21)
@@ -207,6 +211,16 @@ local methods = {
 				desc:SetJustifyH("LEFT")
 				desc:SetJustifyV("TOP")
 				self.desc = desc
+=======
+				local f = self.frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+				f:ClearAllPoints()
+				f:SetPoint("TOPLEFT", self.checkbg, "TOPRIGHT", 5, -21)
+				f:SetWidth(self.frame.width - 30)
+				f:SetPoint("RIGHT", self.frame, "RIGHT", -30, 0)
+				f:SetJustifyH("LEFT")
+				f:SetJustifyV("TOP")
+				self.desc = f
+>>>>>>> Stashed changes
 			end
 			self.desc:Show()
 			--self.text:SetFontObject(GameFontNormal)

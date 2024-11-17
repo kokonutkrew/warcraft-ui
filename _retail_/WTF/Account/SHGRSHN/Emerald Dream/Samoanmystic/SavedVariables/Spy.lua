@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["PlayerData"] = {
 		["Meddling"] = {
 			["mapID"] = 1670,
@@ -97,4 +98,49 @@ SpyPerCharDB = {
 		["Kaijinn"] = 1611979218,
 		["Draazz"] = 1606942090,
 	},
+=======
+	["KOSData"] = {
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+		["shamzakel"] = {
+			["name"] = "shamzakel",
+			["zone"] = "Draenor",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618290221,
+			["isEnemy"] = true,
+		},
+		["shinscraper"] = {
+			["name"] = "shinscraper",
+			["zone"] = "Draenor",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618290259,
+			["isEnemy"] = true,
+		},
+		["xuper"] = {
+			["name"] = "xuper",
+			["zone"] = "Draenor",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618290234,
+			["isEnemy"] = true,
+		},
+		["boomsquanch"] = {
+			["name"] = "boomsquanch",
+			["zone"] = "Draenor",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618293668,
+			["isEnemy"] = true,
+		},
+	},
+	["version"] = "1.1",
+>>>>>>> Stashed changes
 }

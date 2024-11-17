@@ -1,5 +1,6 @@
 
 FGI_DB = {
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Grapejellie - Emerald Dream"] = "Default",
@@ -1551,13 +1552,26 @@ FGI_DB = {
 				},
 			},
 		},
+=======
+	["global"] = {
+		["introShow"] = false,
+	},
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 }
 FGI_DEBUG = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
+=======
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["global"] = {
 		{

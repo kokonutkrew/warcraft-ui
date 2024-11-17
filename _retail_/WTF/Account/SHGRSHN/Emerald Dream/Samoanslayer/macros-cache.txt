@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 VER 3 0100000000000001 "Invite" "132351"
 /run InviteUnit("Cherriebomb");
 /run InviteUnit("Samoanrouge"); 
@@ -11,4 +12,21 @@ P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][
 END
 VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+=======
+VER 3 0100000000000003 "Charge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mousover, help] intervene
+/use [@mousover, harm] charge
+/targetenemy [noharm]
+/use charge
+END
+VER 3 0100000000000002 "Heroic Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mousover, help] intervene
+/use [@cursor] heroic leap
+END
+VER 3 0100000000000001 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
+>>>>>>> Stashed changes
 END

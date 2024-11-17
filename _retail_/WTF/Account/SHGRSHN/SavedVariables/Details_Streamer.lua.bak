@@ -1,6 +1,7 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+<<<<<<< Updated upstream
 		["Scootervin - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Threadcraft - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Samoanbeast - Emerald Dream"] = "Samoantitan - Stormrage",
@@ -31,6 +32,36 @@ Details_StreamerDB = {
 		["Dustcraft - Emerald Dream"] = "Samoantitan - Stormrage",
 		["Samoanrelic - Stormrage"] = "Samoantitan - Stormrage",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Fedieb - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoansage - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansage - Emerald Dream",
+		["Kkdev - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanghost - Frostmourne"] = "Samoansage - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Xb - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Mf - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansentry - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoaninja - Tichondrius"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoansage - Emerald Dream",
+		["Gl - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoansage - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Samoantitan - Stormrage"] = {
@@ -61,6 +92,7 @@ Details_StreamerDB = {
 			["arrow_anchor_x"] = 0,
 			["point"] = "CENTER",
 			["row_texture"] = "Details Serenity",
+<<<<<<< Updated upstream
 			["use_square_mode"] = false,
 			["scale"] = 1,
 			["row_height"] = 20,
@@ -68,6 +100,20 @@ Details_StreamerDB = {
 			["enabled"] = false,
 			["arrow_size"] = 10,
 			["author"] = "Details! Team",
+=======
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["use_spark"] = true,
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = -4.57763671875e-05,
+>>>>>>> Stashed changes
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -82,6 +128,7 @@ Details_StreamerDB = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -93,8 +140,12 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+<<<<<<< Updated upstream
 			["font_size"] = 10,
 			["x"] = 0,
+=======
+			["x"] = -6.103515625e-05,
+>>>>>>> Stashed changes
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
 			["use_spark"] = true,

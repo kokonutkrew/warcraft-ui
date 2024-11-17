@@ -1,0 +1,2 @@
+
+BugGrabberDB = nil

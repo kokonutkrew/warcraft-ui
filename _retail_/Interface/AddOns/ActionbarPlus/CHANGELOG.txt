@@ -1,0 +1,10 @@
+## ActionbarPlus 2024.11.1
+
+[Release Notes](https://github.com/kapresoft/wow-addon-actionbar-plus/releases/tag/2024.11.1) | [Curse Forge](https://www.curseforge.com/wow/addons/ActionbarPlus/files) | [Curse Forge Legacy](https://legacy.curseforge.com/wow/addons/ActionbarPlus/files)
+
+#### Release Changes
+##### Miscellaneous
+
+- Ac3 as optional lib :: [PR: #428](https://github.com/kapresoft/wow-addon-actionbar-plus/pull/428)
+
+

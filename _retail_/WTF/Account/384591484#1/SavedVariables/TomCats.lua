@@ -1,5 +1,6 @@
 
 TomCats_Account = {
+<<<<<<< Updated upstream
 	["notifications"] = {
 	},
 	["tutorials"] = {
@@ -20,6 +21,28 @@ TomCats_Account = {
 		},
 		["TomCatsWorldmapRaresButton62"] = {
 			["position"] = -2.657094711587241,
+=======
+	["discoveriesVersion"] = "2.3.13",
+	["lastVersionSeen"] = "2.3.11",
+	["preferences"] = {
+		["TomCats-MinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.888,
+		},
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
+		["betaEnabled"] = false,
+		["defaultVignetteIcon"] = "default",
+	},
+	["lastExpirationWarning"] = 0,
+	["discoveriesResetCount"] = 0,
+	["discoveries"] = {
+		["vignetteAtlases"] = {
+		},
+		["vignettes"] = {
+>>>>>>> Stashed changes
 		},
 	},
 }

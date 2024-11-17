@@ -1,7 +1,11 @@
 --- AceConfigCmd-3.0 handles access to an options table through the "command line" interface via the ChatFrames.
 -- @class file
 -- @name AceConfigCmd-3.0
+<<<<<<< Updated upstream
 -- @release $Id: AceConfigCmd-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
+=======
+-- @release $Id: AceConfigCmd-3.0.lua 1284 2022-09-25 09:15:30Z nevcairiel $
+>>>>>>> Stashed changes
 
 --[[
 AceConfigCmd-3.0
@@ -37,17 +41,23 @@ local error, assert = error, assert
 -- WoW APIs
 local _G = _G
 
+<<<<<<< Updated upstream
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
 -- GLOBALS: LibStub, SELECTED_CHAT_FRAME, DEFAULT_CHAT_FRAME
 
 
+=======
+>>>>>>> Stashed changes
 local L = setmetatable({}, {	-- TODO: replace with proper locale
 	__index = function(self,k) return k end
 })
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 local function print(msg)
 	(SELECTED_CHAT_FRAME or DEFAULT_CHAT_FRAME):AddMessage(msg)
 end
@@ -401,7 +411,11 @@ local function handle(info, inputpos, tab, depth, retfalse)
 		return
 	end
 
+<<<<<<< Updated upstream
 	local str = strsub(info.input,inputpos);
+=======
+	local strInput = strsub(info.input,inputpos);
+>>>>>>> Stashed changes
 
 	if tab.type=="execute" then
 		------------ execute --------------------------------------------
@@ -414,21 +428,35 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 		local res = true
 		if tab.pattern then
+<<<<<<< Updated upstream
 			if not(type(tab.pattern)=="string") then err(info, inputpos, "'pattern' - expected a string") end
 			if not strmatch(str, tab.pattern) then
 				usererr(info, inputpos, "'"..str.."' - " .. L["invalid input"])
+=======
+			if type(tab.pattern)~="string" then err(info, inputpos, "'pattern' - expected a string") end
+			if not strmatch(strInput, tab.pattern) then
+				usererr(info, inputpos, "'"..strInput.."' - " .. L["invalid input"])
+>>>>>>> Stashed changes
 				return
 			end
 		end
 
+<<<<<<< Updated upstream
 		do_final(info, inputpos, tab, "set", str)
+=======
+		do_final(info, inputpos, tab, "set", strInput)
+>>>>>>> Stashed changes
 
 
 
 	elseif tab.type=="toggle" then
 		------------ toggle --------------------------------------------
 		local b
+<<<<<<< Updated upstream
 		local str = strtrim(strlower(str))
+=======
+		local str = strtrim(strlower(strInput))
+>>>>>>> Stashed changes
 		if str=="" then
 			b = callmethod(info, inputpos, tab, "get")
 
@@ -465,9 +493,15 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 	elseif tab.type=="range" then
 		------------ range --------------------------------------------
+<<<<<<< Updated upstream
 		local val = tonumber(str)
 		if not val then
 			usererr(info, inputpos, "'"..str.."' - "..L["expected number"])
+=======
+		local val = tonumber(strInput)
+		if not val then
+			usererr(info, inputpos, "'"..strInput.."' - "..L["expected number"])
+>>>>>>> Stashed changes
 			return
 		end
 		if type(info.step)=="number" then
@@ -487,7 +521,11 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 	elseif tab.type=="select" then
 		------------ select ------------------------------------
+<<<<<<< Updated upstream
 		local str = strtrim(strlower(str))
+=======
+		local str = strtrim(strlower(strInput))
+>>>>>>> Stashed changes
 
 		local values = tab.values
 		if type(values) == "function" or type(values) == "string" then
@@ -528,7 +566,11 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 	elseif tab.type=="multiselect" then
 		------------ multiselect -------------------------------------------
+<<<<<<< Updated upstream
 		local str = strtrim(strlower(str))
+=======
+		local str = strtrim(strlower(strInput))
+>>>>>>> Stashed changes
 
 		local values = tab.values
 		if type(values) == "function" or type(values) == "string" then
@@ -565,7 +607,11 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 			--check that the opt is valid
 			local ok
+<<<<<<< Updated upstream
 			for k,v in pairs(values) do
+=======
+			for k in pairs(values) do
+>>>>>>> Stashed changes
 				if strlower(k)==opt then
 					opt = k	-- overwrite with key (in case of case mismatches)
 					ok = true
@@ -634,7 +680,11 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 	elseif tab.type=="color" then
 		------------ color --------------------------------------------
+<<<<<<< Updated upstream
 		local str = strtrim(strlower(str))
+=======
+		local str = strtrim(strlower(strInput))
+>>>>>>> Stashed changes
 		if str == "" then
 			--TODO: Show current value
 			return
@@ -706,7 +756,11 @@ local function handle(info, inputpos, tab, depth, retfalse)
 
 	elseif tab.type=="keybinding" then
 		------------ keybinding --------------------------------------------
+<<<<<<< Updated upstream
 		local str = strtrim(strlower(str))
+=======
+		local str = strtrim(strlower(strInput))
+>>>>>>> Stashed changes
 		if str == "" then
 			--TODO: Show current value
 			return

@@ -1,13 +1,77 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
 		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
 	},
 	["profiles"] = {
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Urorincar - Emerald Dream"] = "Urorincar - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Niniconys - Emerald Dream"] = "Niniconys - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Mp - Emerald Dream"] = "Mp - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Orecraft - Emerald Dream"] = {
+		},
+		["Forgecraft - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Urorincar - Emerald Dream"] = {
+		},
+		["Herbcraft - Emerald Dream"] = {
+		},
+>>>>>>> Stashed changes
 		["Kokonutkiing - Emerald Dream"] = {
 		},
 		["Kokonutkween - Emerald Dream"] = {
 		},
+<<<<<<< Updated upstream
+=======
+		["Samoansurge - Emerald Dream"] = {
+		},
+		["Niniconys - Emerald Dream"] = {
+		},
+		["Farmcraft - Emerald Dream"] = {
+		},
+		["Mf - Emerald Dream"] = {
+		},
+		["Mp - Emerald Dream"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+		},
+>>>>>>> Stashed changes
 	},
 }

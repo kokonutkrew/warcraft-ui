@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 VERSION 7
 
 ADDEDVERSION 21
@@ -6,6 +7,16 @@ CHANNELS
 General 0 1 0
 Trade 0 2 0
 LocalDefense 0 3 0
+=======
+VERSION 9
+
+ADDEDVERSION 23
+
+CHANNELS
+1 0 1 1
+2 0 2 1
+22 0 3 1
+>>>>>>> Stashed changes
 END
 
 ZONECHANNELS 0
@@ -78,6 +89,10 @@ INSTANCE_CHAT 255 127 0 Y
 INSTANCE_CHAT_LEADER 255 72 9 Y
 GUILD_ITEM_LOOTED 64 255 64 Y
 COMMUNITIES_CHANNEL 255 192 192 N
+<<<<<<< Updated upstream
+=======
+VOICE_TEXT 255 255 255 N
+>>>>>>> Stashed changes
 CHANNEL1 255 192 192 Y
 CHANNEL2 255 192 192 Y
 CHANNEL3 255 192 192 Y
@@ -102,12 +117,22 @@ END
 
 WINDOW 1
 NAME General
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
 DOCKED 1
 SHOWN 1
+<<<<<<< Updated upstream
+=======
+POSITION BOTTOMLEFT 0.004394 0.026331
+DIMENSIONS 462.000000 204.000015
+
+>>>>>>> Stashed changes
 MESSAGES
 SYSTEM
 SYSTEM_NOMENU
@@ -165,7 +190,11 @@ END
 
 WINDOW 2
 NAME Combat Log
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -191,8 +220,32 @@ ZONECHANNELS 0
 END
 
 WINDOW 3
+<<<<<<< Updated upstream
 NAME Meters
 SIZE 0
+=======
+NAME Voice
+SIZE 12
+COLOR 0 0 0 40
+LOCKED 1
+UNINTERACTABLE 0
+DOCKED 0
+SHOWN 0
+MESSAGES
+VOICE_TEXT
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 4
+NAME Meters
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 63
 LOCKED 1
 UNINTERACTABLE 0
@@ -208,6 +261,7 @@ ZONECHANNELS 0
 
 END
 
+<<<<<<< Updated upstream
 WINDOW 4
 SIZE 0
 COLOR 0 0 0 40
@@ -227,6 +281,10 @@ END
 
 WINDOW 5
 SIZE 0
+=======
+WINDOW 5
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -243,7 +301,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 6
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -260,7 +322,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 7
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -277,7 +343,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 8
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -294,7 +364,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 9
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -311,7 +385,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 10
+<<<<<<< Updated upstream
 SIZE 0
+=======
+SIZE 12
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0

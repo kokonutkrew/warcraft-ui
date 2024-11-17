@@ -3,7 +3,15 @@ SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
+<<<<<<< Updated upstream
 				["Tygrrlilly"] = {
+				},
+				["Grapejellie"] = {
+=======
+				["Cukie"] = {
+				},
+				["Cherriebomb"] = {
+>>>>>>> Stashed changes
 				},
 				["Grapejellie"] = {
 				},
@@ -17,6 +25,7 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 	},
@@ -33,6 +42,13 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
+=======
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+	},
+	["profiles"] = {
+>>>>>>> Stashed changes
 		["Grapejellie - Emerald Dream"] = {
 			["Colors"] = {
 				["Bar"] = {
@@ -43,6 +59,30 @@ SpyDB = {
 			},
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Cukie - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
 			["AppendUnitKoSCheck"] = true,
 		},
 	},

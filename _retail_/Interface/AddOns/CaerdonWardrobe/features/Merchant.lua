@@ -8,11 +8,33 @@ function MerchantMixin:Init()
     hooksecurefunc("MerchantFrame_UpdateMerchantInfo", function(...) self:OnMerchantUpdate(...) end)
     hooksecurefunc("MerchantFrame_UpdateBuybackInfo", function(...) self:OnBuybackUpdate(...) end)
 
-    return { "MERCHANT_UPDATE" }
+    return { "MERCHANT_UPDATE", "TOOLTIP_DATA_UPDATE" }
 end
 
 function MerchantMixin:MERCHANT_UPDATE()
 	self:Refresh()
+end
+
+function MerchantMixin:TOOLTIP_DATA_UPDATE()
+	if self.refreshTimer then
+		self.refreshTimer:Cancel()
+	end
+
+	self.refreshTimer = C_Timer.NewTimer(0.1, function ()
+		self:Refresh()
+	end, 1)
+end
+
+function MerchantMixin:GetTooltipData(item, locationInfo)
+    if MerchantFrame.selectedTab == 1 then
+        if locationInfo.slot == "buybackbutton" then
+            return C_TooltipInfo.GetBuybackItem(GetNumBuybackItems())
+        else
+            return C_TooltipInfo.GetMerchantItem(locationInfo.slot)
+        end
+    else
+        return C_TooltipInfo.GetBuybackItem(locationInfo.slot)
+    end
 end
 
 function MerchantMixin:SetTooltipItem(tooltip, item, locationInfo)
@@ -59,7 +81,6 @@ end
 
 function MerchantMixin:OnMerchantUpdate()
     local options = { 
-        showMogIcon=true, showBindStatus=true, showSellables=false
     }
 
 	for i=1, MERCHANT_ITEMS_PER_PAGE, 1 do
@@ -115,7 +136,7 @@ function MerchantMixin:OnBuybackUpdate()
                 CaerdonWardrobe:UpdateButton(button, item, self, {
                     locationKey = format("buybackitem-%d", slot),
                     slot = slot
-                }, { showMogIcon=true, showBindStatus=true, showSellables=false})
+                }, { })
             else
                 CaerdonWardrobe:ClearButton(button)
             end

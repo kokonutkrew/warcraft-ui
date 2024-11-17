@@ -25,7 +25,12 @@ RematchSettings = {
 		}, -- [5]
 	},
 	["QueueSortOrder"] = 1,
+<<<<<<< Updated upstream
 	["XPos"] = 675,
+=======
+	["XPos"] = 781.6666870117188,
+	["HidePetToast"] = true,
+>>>>>>> Stashed changes
 	["FavoriteFilters"] = {
 	},
 	["Sort"] = {
@@ -71,14 +76,23 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
+<<<<<<< Updated upstream
 	["JournalPanel"] = 1,
 	["SelectedTab"] = 1,
+=======
+	["SelectedTab"] = 1,
+	["LevelingQueue"] = {
+	},
+	["SpecialSlots"] = {
+	},
+>>>>>>> Stashed changes
 	["ExpandedTargetHeaders"] = {
 	},
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
 	},
+<<<<<<< Updated upstream
 	["SpecialSlots"] = {
 	},
 	["CornerPos"] = "BOTTOMLEFT",
@@ -87,6 +101,14 @@ RematchSettings = {
 	["LevelingQueue"] = {
 	},
 	["YPos"] = 237.9999389648438,
+=======
+	["QueueSanctuary"] = {
+	},
+	["CornerPos"] = "BOTTOMLEFT",
+	["JournalPanel"] = 1,
+	["ElvUIToastDefaulted"] = true,
+	["YPos"] = 297.9999694824219,
+>>>>>>> Stashed changes
 	["CustomScaleValue"] = 100,
 	["PetNotes"] = {
 	},

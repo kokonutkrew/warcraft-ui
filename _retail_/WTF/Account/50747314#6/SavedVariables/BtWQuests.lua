@@ -1,0 +1,2 @@
+
+BtWQuests_Characters = nil

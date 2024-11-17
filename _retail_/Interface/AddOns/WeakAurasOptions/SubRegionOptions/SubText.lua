@@ -1,7 +1,9 @@
-if not WeakAuras.IsCorrectVersion() then return end
-local AddonName, OptionsPrivate = ...
+if not WeakAuras.IsLibsOK() then return end
+---@type string
+local AddonName = ...
+---@class OptionsPrivate
+local OptionsPrivate = select(2, ...)
 
-local SharedMedia = LibStub("LibSharedMedia-3.0")
 local L = WeakAuras.L
 
 local screenWidth, screenHeight = math.ceil(GetScreenWidth() / 20) * 20, math.ceil(GetScreenHeight() / 20) * 20
@@ -19,6 +21,8 @@ local self_point_types = {
   AUTO = L["Automatic"]
 }
 
+local dynamicTextInputs = {}
+
 local function createOptions(parentData, data, index, subIndex)
   -- The toggles for font flags is intentionally not keyed on the id
   -- So that all auras share the state of that toggle
@@ -31,26 +35,6 @@ local function createOptions(parentData, data, index, subIndex)
   local options = {
     __title = L["Text %s"]:format(subIndex),
     __order = 1,
-    __up = function()
-      if (OptionsPrivate.Private.ApplyToDataOrChildData(parentData, OptionsPrivate.MoveSubRegionUp, index, "subtext")) then
-        WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
-    end,
-    __down = function()
-      if (OptionsPrivate.Private.ApplyToDataOrChildData(parentData, OptionsPrivate.MoveSubRegionDown, index, "subtext")) then
-        WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
-    end,
-    __duplicate = function()
-      if (OptionsPrivate.Private.ApplyToDataOrChildData(parentData, OptionsPrivate.DuplicateSubRegion, index, "subtext")) then
-        WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
-    end,
-    __delete = function()
-      if (OptionsPrivate.Private.ApplyToDataOrChildData(parentData, WeakAuras.DeleteSubRegion, index, "subtext")) then
-        WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
-    end,
     text_visible = {
       type = "toggle",
       width = WeakAuras.halfWidth,
@@ -66,17 +50,45 @@ local function createOptions(parentData, data, index, subIndex)
     },
     text_text = {
       type = "input",
-      width = WeakAuras.normalWidth,
-      desc = function()
-        return L["Dynamic text tooltip"] .. OptionsPrivate.Private.GetAdditionalProperties(parentData)
-      end,
+      width = WeakAuras.normalWidth - 0.15,
       name = L["Display Text"],
       order = 11,
       set = function(info, v)
         data.text_text = OptionsPrivate.Private.ReplaceLocalizedRaidMarkers(v)
         WeakAuras.Add(parentData)
         WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
+      end,
+      control = "WeakAurasInput",
+      callbacks = {
+        OnEditFocusGained = function(self)
+          local widget = dynamicTextInputs[subIndex]
+          OptionsPrivate.ToggleTextReplacements(parentData, widget, "OnEditFocusGained")
+        end,
+        OnEditFocusLost = function(self)
+          OptionsPrivate.ToggleTextReplacements(nil, nil, "OnEditFocusLost")
+        end,
+        OnEnterPressed = function(self)
+          OptionsPrivate.ToggleTextReplacements(nil, nil, "OnEnterPressed")
+        end,
+        OnShow = function(self)
+          dynamicTextInputs[subIndex] = self
+        end,
+      }
+    },
+    text_replacements_button = {
+      type = "execute",
+      width = 0.15,
+      name = L["Dynamic Text Replacements"],
+      desc = L["There are several special codes available to make this text dynamic. Click to view a list with all dynamic text codes."],
+      order = 11.1,
+      func = function()
+        local widget = dynamicTextInputs[subIndex]
+        OptionsPrivate.ToggleTextReplacements(parentData, widget, "ToggleButton")
+      end,
+      imageWidth = 24,
+      imageHeight = 24,
+      control = "WeakAurasIcon",
+      image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\sidebar",
     },
     text_font = {
       type = "select",
@@ -88,6 +100,7 @@ local function createOptions(parentData, data, index, subIndex)
     },
     text_fontSize = {
       type = "range",
+      control = "WeakAurasSpinBox",
       width = WeakAuras.normalWidth,
       name = L["Size"],
       order = 14,
@@ -131,7 +144,10 @@ local function createOptions(parentData, data, index, subIndex)
           textWidth = " "..L["and with width |cFFFF0000%s|r and %s"]:format(data.text_fixedWidth, wordWarp)
         end
 
-        local secondline = L["|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s%s"]:format(textFlags, color, data.text_shadowXOffset, data.text_shadowYOffset, textRotate, textJustify, textWidth)
+        local secondline
+          = L["|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s%s"]
+            :format(textFlags, color, data.text_shadowXOffset, data.text_shadowYOffset,
+                    textRotate, textJustify, textWidth)
 
         return secondline
       end,
@@ -186,6 +202,7 @@ local function createOptions(parentData, data, index, subIndex)
     },
     text_shadowXOffset = {
       type = "range",
+      control = "WeakAurasSpinBox",
       width = WeakAuras.normalWidth - indentWidth,
       name = L["Shadow X Offset"],
       softMin = -15,
@@ -196,6 +213,7 @@ local function createOptions(parentData, data, index, subIndex)
     },
     text_shadowYOffset = {
       type = "range",
+      control = "WeakAurasSpinBox",
       width = WeakAuras.normalWidth,
       name = L["Shadow Y Offset"],
       softMin = -15,
@@ -262,6 +280,7 @@ local function createOptions(parentData, data, index, subIndex)
       width = WeakAuras.normalWidth - indentWidth,
       order = 53,
       type = "range",
+      control = "WeakAurasSpinBox",
       min = 1,
       softMax = 200,
       bigStep = 1,
@@ -293,16 +312,11 @@ local function createOptions(parentData, data, index, subIndex)
   -- design I had for anchor options proved to be not general enough for
   -- what SubText needed. So, I removed it, and postponed making it work for unknown future
   -- sub regions
-  local anchors
-  if parentData.controlledChildren then
-    anchors = {}
-    for index, childId in ipairs(parentData.controlledChildren) do
-      local childData = WeakAuras.GetData(childId)
-      Mixin(anchors, OptionsPrivate.Private.GetAnchorsForData(childData, "point"))
-    end
-  else
-     anchors = OptionsPrivate.Private.GetAnchorsForData(parentData, "point")
+  local anchors = {}
+  for child in OptionsPrivate.Private.TraverseLeafsOrAura(parentData) do
+    Mixin(anchors, OptionsPrivate.Private.GetAnchorsForData(child, "point"))
   end
+
   -- Anchor Options
   options.text_anchorsDescription = {
     type = "execute",
@@ -320,15 +334,18 @@ local function createOptions(parentData, data, index, subIndex)
 
       if selfPoint then
         if xOffset == 0 and yOffset == 0 then
-          return L["|cFFffcc00Anchors:|r Anchored |cFFFF0000%s|r to frame's |cFFFF0000%s|r"]:format(selfPoint, anchorPoint)
+          return L["|cFFffcc00Anchors:|r Anchored |cFFFF0000%s|r to frame's |cFFFF0000%s|r"]
+                 :format(selfPoint, anchorPoint)
         else
-          return L["|cFFffcc00Anchors:|r Anchored |cFFFF0000%s|r to frame's |cFFFF0000%s|r with offset |cFFFF0000%s/%s|r"]:format(selfPoint, anchorPoint, xOffset, yOffset)
+          return L["|cFFffcc00Anchors:|r Anchored |cFFFF0000%s|r to frame's |cFFFF0000%s|r with offset |cFFFF0000%s/%s|r"]
+                 :format(selfPoint, anchorPoint, xOffset, yOffset)
         end
       else
         if xOffset == 0 and yOffset == 0 then
           return L["|cFFffcc00Anchors:|r Anchored to frame's |cFFFF0000%s|r"]:format(anchorPoint)
         else
-          return L["|cFFffcc00Anchors:|r Anchored to frame's |cFFFF0000%s|r with offset |cFFFF0000%s/%s|r"]:format(anchorPoint, xOffset, yOffset)
+          return L["|cFFffcc00Anchors:|r Anchored to frame's |cFFFF0000%s|r with offset |cFFFF0000%s/%s|r"]
+                 :format(anchorPoint, xOffset, yOffset)
         end
       end
     end,
@@ -393,6 +410,7 @@ local function createOptions(parentData, data, index, subIndex)
 
   options.text_anchorXOffset = {
     type = "range",
+    control = "WeakAurasSpinBox",
     width = WeakAuras.normalWidth - indentWidth,
     name = L["X Offset"],
     order = 60.4,
@@ -404,6 +422,7 @@ local function createOptions(parentData, data, index, subIndex)
 
   options.text_anchorYOffset = {
     type = "range",
+    control = "WeakAurasSpinBox",
     width = WeakAuras.normalWidth,
     name = L["Y Offset"],
     order = 60.5,
@@ -429,11 +448,28 @@ local function createOptions(parentData, data, index, subIndex)
       return true
     end
 
-    for index, subRegion in ipairs(parentData.subRegions) do
+    for _, subRegion in ipairs(parentData.subRegions) do
       if subRegion.type == "subtext" and OptionsPrivate.Private.ContainsCustomPlaceHolder(subRegion.text_text) then
         return false
       end
     end
+
+    if type(parentData.conditions) == "table" then
+      for _, condition in ipairs(parentData.conditions) do
+        if type(condition.changes) == "table" then
+          for _, change in ipairs(condition.changes) do
+            if type(change.property) == "string"
+            and change.property:match("sub%.%d+%.text_text")
+            and type(change.value) == "string"
+            and OptionsPrivate.Private.ContainsCustomPlaceHolder(change.value)
+            then
+              return false
+            end
+          end
+        end
+      end
+    end
+
     return true
   end
 
@@ -456,7 +492,8 @@ local function createOptions(parentData, data, index, subIndex)
     },
   }
 
-  OptionsPrivate.commonOptions.AddCodeOption(commonTextOptions, parentData, L["Custom Function"], "customText", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#custom-text",
+  OptionsPrivate.commonOptions.AddCodeOption(commonTextOptions, parentData, L["Custom Function"], "customText",
+                          "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#custom-text",
                           4,  hideCustomTextOption, {"customText"}, false)
 
   -- Add Text Format Options
@@ -483,26 +520,42 @@ local function createOptions(parentData, data, index, subIndex)
     options["text_text_format_" .. key] = option
   end
 
-  if parentData.controlledChildren then
-    for childIndex, childId in pairs(parentData.controlledChildren) do
-      local parentChildData = WeakAuras.GetData(childId)
-      if parentChildData.subRegions then
-        local childData = parentChildData.subRegions[index]
-        if childData then
-          local get = function(key)
-            return childData["text_text_format_" .. key]
+  local list = {}
+  for child in OptionsPrivate.Private.TraverseLeafsOrAura(parentData) do
+    if child.subRegions then
+      local childSubRegion = child.subRegions[index]
+      if childSubRegion then
+        tinsert(list, child)
+      end
+    end
+  end
+
+  for listIndex, child in ipairs(list) do
+    local childSubRegion = child.subRegions[index]
+    local get = function(key)
+      return childSubRegion["text_text_format_" .. key]
+    end
+    local texts = {}
+    if type(childSubRegion.text_text) == "string" and childSubRegion.text_text ~= "" then
+      -- found text of subregion
+      tinsert(texts, childSubRegion.text_text)
+    end
+
+    for _, condition in ipairs(child.conditions) do
+      if type(condition.changes) == "table" then
+        for _, change in ipairs(condition.changes) do
+          if change.property == "sub."..index..".text_text"
+            and type(change.value) == "string"
+            and change.value ~= ""
+          then
+            -- found a condition editing text of that subregion
+            tinsert(texts, change.value)
           end
-          local input = childData["text_text"]
-          OptionsPrivate.AddTextFormatOption(input, true, get, addOption, hidden, setHidden, childIndex, #parentData.controlledChildren)
         end
       end
     end
-  else
-    local get = function(key)
-      return data["text_text_format_" .. key]
-    end
-    local input = data["text_text"]
-    OptionsPrivate.AddTextFormatOption(input, true, get, addOption, hidden, setHidden)
+
+    OptionsPrivate.AddTextFormatOption(texts, true, get, addOption, hidden, setHidden, false, listIndex, #list)
   end
 
   addOption("footer", {
@@ -512,7 +565,10 @@ local function createOptions(parentData, data, index, subIndex)
     hidden = hidden
   })
 
+  OptionsPrivate.AddUpDownDeleteDuplicate(options, parentData, index, "subtext")
+
   return options, commonTextOptions
 end
 
-WeakAuras.RegisterSubRegionOptions("subtext", createOptions, L["Shows one or more lines of text, which can include dynamic information such as progress or stacks"])
+WeakAuras.RegisterSubRegionOptions("subtext", createOptions,
+ L["Shows one or more lines of text, which can include dynamic information such as progress or stacks"])

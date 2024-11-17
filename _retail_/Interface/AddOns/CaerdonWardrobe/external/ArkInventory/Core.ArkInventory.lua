@@ -12,17 +12,17 @@ function ArkInventoryMixin:Init()
 	hooksecurefunc(ArkInventory.API, "ItemFrameUpdated", function(...) self:OnFrameItemUpdate(...) end)
 end
 
-function ArkInventoryMixin:SetTooltipItem(tooltip, item, locationInfo)
+function ArkInventoryMixin:GetTooltipData(item, locationInfo)
 	if locationInfo.isOffline then
 		if not item:IsItemEmpty() then
-			tooltip:SetHyperlink(item:GetItemLink())
+			return C_TooltipInfo.GetHyperlink(item:GetItemLink())
 		end
 	elseif not item:HasItemLocationBankOrBags() then
-		local speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetGuildBankItem(locationInfo.tab, locationInfo.index)
+		return C_TooltipInfo.GetGuildBankItem(locationInfo.tab, locationInfo.index)
 	elseif locationInfo.bag == BANK_CONTAINER then
-		local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
+		return C_TooltipInfo.GetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
 	else
-		local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetBagItem(locationInfo.bag, locationInfo.slot)
+		return C_TooltipInfo.GetBagItem(locationInfo.bag, locationInfo.slot)
 	end
 end
 
@@ -78,9 +78,6 @@ function ArkInventoryMixin:OnFrameItemUpdate(frame, loc_id, bag_id, slot_id)
 		local slot = slot_id
 
 		local options = {
-			showMogIcon=true, 
-			showBindStatus=true,
-			showSellables=true
 		}
 		
 		if not ArkInventory.API.LocationIsOffline(loc_id) then
@@ -137,9 +134,14 @@ end
 
 
 local Version = nil
-if select(4, GetAddOnInfo(addonName)) then
-	if IsAddOnLoaded(addonName) then
-		Version = GetAddOnMetadata(addonName, 'Version')
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+	if C_AddOns.IsAddOnLoaded(addonName) then
+		Version = C_AddOns.GetAddOnMetadata(addonName, 'Version')
 		CaerdonWardrobe:RegisterFeature(ArkInventoryMixin)
+		isActive = true
 	end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

@@ -1,5 +1,6 @@
 
 AAP1 = {
+<<<<<<< Updated upstream
 	["Stormrage"] = {
 		["Samoantitan"] = {
 			["SavedVer"] = 8.1046,
@@ -75,6 +76,14 @@ AAP1 = {
 			["SkippedBonusObj"] = {
 			},
 			["LoaPick"] = 0,
+=======
+	["EmeraldDream"] = {
+		["Cukie"] = {
+			["FirstLoadz"] = 1,
+			["QlineSkip"] = {
+			},
+			["QuestCounter2"] = 61,
+>>>>>>> Stashed changes
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -90,16 +99,24 @@ AAP1 = {
 				["AutoVendor"] = 0,
 				["topLiz"] = -150,
 				["arrowtop"] = -719.9999186197916,
+<<<<<<< Updated upstream
 				["DisableHeirloomWarning"] = 0,
+=======
+>>>>>>> Stashed changes
 				["AutoAccept"] = 1,
 				["CutScene"] = 1,
 				["left"] = 1200,
 				["ShowBlobs"] = 1,
+<<<<<<< Updated upstream
 				["AutoShareQ"] = 0,
+=======
+				["DisableHeirloomWarning"] = 0,
+>>>>>>> Stashed changes
 				["AutoHandIn"] = 1,
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 1200,
+<<<<<<< Updated upstream
 				["QuestButtons"] = 1,
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
@@ -108,12 +125,23 @@ AAP1 = {
 				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
 				["alpha"] = 1,
+=======
+				["Hcamptop"] = -215.9999755859375,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["AutoShareQ"] = 0,
+				["QuestButtons"] = 1,
+				["ShowMapBlobs"] = 1,
+				["Scale"] = 0.71,
+>>>>>>> Stashed changes
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
+<<<<<<< Updated upstream
 				["Beta1"] = 1,
 				["ShowQList"] = 1,
 				["Partytop"] = -269.9999694824219,
@@ -195,9 +223,97 @@ AAP1 = {
 			["LoaPick"] = 0,
 			["QuestCounter2"] = 75,
 			["ANoZone"] = 1,
+=======
+				["alpha"] = 1,
+				["ShowArrow"] = 1,
+				["ShowQList"] = 1,
+				["Partytop"] = -269.9999694824219,
+				["Greetings2"] = 1,
+			},
+			["LoaPick"] = 0,
+			["SkippedBonusObj"] = {
+			},
+>>>>>>> Stashed changes
 			["A1409"] = 1,
 			["WantedQuestList"] = {
 			},
+			["BonusSkips"] = {
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["A1726"] = 1,
+			["QuestCounter"] = 61,
+		},
+		["Cherriebomb"] = {
+			["FirstLoadz"] = 1,
+			["QuestCounter"] = 204,
+			["A84"] = 1,
+			["A627"] = 1,
+			["QuestCounter2"] = 204,
+			["A13"] = 1,
+			["WantedQuestList"] = {
+			},
+			["A539-DesMephisto-Shadowmoon2"] = 1,
+			["SkippedBonusObj"] = {
+			},
+			["BonusSkips"] = {
+			},
+			["Settings"] = {
+				["LockArrow"] = 0,
+				["ShowQuestListOrder"] = 0,
+				["AutoRepair"] = 0,
+				["Greetings3"] = 0,
+				["AutoFlight"] = 1,
+				["AutoGossip"] = 1,
+				["Hide"] = 0,
+				["ShowMap10s"] = 0,
+				["ShowGroup"] = 1,
+				["OrderListScale"] = 1,
+				["leftLiz"] = 150,
+				["AutoVendor"] = 0,
+				["topLiz"] = -150,
+				["arrowtop"] = -719.9999186197916,
+				["AutoAccept"] = 1,
+				["CutScene"] = 1,
+				["left"] = 1200,
+				["ShowBlobs"] = 1,
+				["Greetings2"] = 1,
+				["AutoHandIn"] = 1,
+				["ArrowFPS"] = 2,
+				["Lock"] = 0,
+				["Hcampleft"] = 1200,
+				["Partytop"] = -269.9999694824219,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["ShowQList"] = 1,
+				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
+				["alpha"] = 1,
+				["MiniMapBlobAlpha"] = 1,
+				["Partyleft"] = 768,
+				["AutoHandInChoice"] = 0,
+				["top"] = -215.9999755859375,
+				["ChooseQuests"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["Scale"] = 0.71,
+				["ShowMapBlobs"] = 1,
+				["QuestButtons"] = 1,
+				["AutoShareQ"] = 0,
+				["DisableHeirloomWarning"] = 0,
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["LoaPick"] = 0,
+			["QlineSkip"] = {
+			},
+		},
+		["Grapejellie"] = {
+			["FirstLoadz"] = 1,
+			["A84"] = 1,
+			["QuestCounter2"] = 208,
+			["QuestCounter"] = 208,
+			["WantedQuestList"] = {
+			},
+			["A895"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -945,6 +1061,7 @@ AAP1 = {
 AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
+<<<<<<< Updated upstream
 	[49134] = "Antorus, the Burning Throne: The Heart of Argus",
 	[48639] = "Army of the Light",
 	[40990] = "A Good Recipe List",
@@ -1271,6 +1388,35 @@ AAPQuestNames = {
 	[13878] = "Through Fire and Flames",
 	[111] = "Speak with Gramma",
 	[27198] = "Supporting the Troops",
+=======
+	[27739] = "The Gnoll King",
+	[34398] = "Warlords of Draenor: The Dark Portal",
+	[58208] = "Brace for Impact",
+	[58209] = "Stand Your Ground",
+	[29540] = "The Breaker",
+	[50544] = "The Hunters of Kennings Lodge",
+	[30069] = "No Plan Survives Contact with the Enemy",
+	[26365] = "Hero's Call: Redridge Mountains!",
+	[48421] = "Blood in the Tides",
+	[49226] = "Silencing the Sisters",
+	[29591] = "Raging Spirits",
+	[40519] = "Legion: The Legion Returns",
+	[48419] = "Lured and Allured",
+	[49230] = "Local Flavor",
+	[50349] = "An Overrun Mine",
+	[27733] = "The Good Ol' Switcheroo",
+	[51149] = "Left at the Port",
+	[29564] = "A Brother Betrayed",
+	[44184] = "In the Blink of an Eye",
+	[31734] = "Welcome Wagons",
+	[32618] = "Learn To Ride",
+	[49178] = "My Favorite Things",
+	[29539] = "Heart of Rage",
+	[27737] = "By Fire Be Saved!",
+	[42782] = "To Be Prepared",
+	[29598] = "Taretha's Diversion",
+	[56775] = "Warming Up",
+>>>>>>> Stashed changes
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {
@@ -1528,10 +1674,17 @@ AAP_Transport = {
 					[101] = "Temple of Telhamat, Hellfire Peninsula",
 				},
 			},
+			[876] = {
+				["Grapejellie-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+			},
 		},
 	},
 }
 AAP_Custom = {
+<<<<<<< Updated upstream
 	["Marshmello-Tichondrius"] = {
 		[3] = "(3/6) 10-50 Frostfire Ridge",
 		[6] = "(6/6) 10-50 Spires of Arak",
@@ -1548,6 +1701,9 @@ AAP_Custom = {
 		"(6/8) 10-50 Shadowmoon", -- [7]
 		"(7/8) 10-50 Talador", -- [8]
 		"(8/8) 10-50 Spires of Arak", -- [9]
+=======
+	["Cukie-EmeraldDream"] = {
+>>>>>>> Stashed changes
 	},
 	["Cherriebomb-EmeraldDream"] = {
 		"(1/8) 10-50 Stormwind", -- [1]
@@ -1583,24 +1739,33 @@ AAP_Custom = {
 		"(7/8) 10-50 Talador", -- [7]
 		"(8/8) 10-50 Spires of Arak", -- [8]
 	},
+	["Grapejellie-EmeraldDream"] = {
+	},
 }
 AAP_ZoneComplete = {
+<<<<<<< Updated upstream
 	["Marshmello-Tichondrius"] = {
 		["(2/6) 10-50 Tanaan Jungle"] = 1,
 		["(1/6) 10-50 Orgrimmar"] = 1,
 	},
 	["Grapejelley-EmeraldDream"] = {
+=======
+	["Cukie-EmeraldDream"] = {
+>>>>>>> Stashed changes
 	},
 	["Cherriebomb-EmeraldDream"] = {
 	},
 	["Grapejellie-EmeraldDream"] = {
 	},
+<<<<<<< Updated upstream
 	["Tygrrlilly-EmeraldDream"] = {
 	},
 	["Tygrrlilly-Stormrage"] = {
 	},
 	["Bunni-EmeraldDream"] = {
 	},
+=======
+>>>>>>> Stashed changes
 }
 AAP_TaxiTimers = {
 }

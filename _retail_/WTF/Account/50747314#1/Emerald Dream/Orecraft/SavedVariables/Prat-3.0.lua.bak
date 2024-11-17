@@ -1,0 +1,1828 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/s /tsm tasklist", -- [1]
+				"/s /spy show", -- [2]
+				"/s /spy config", -- [3]
+				"/s /spy kos shinscraper", -- [4]
+				"/s /spy kos xuper", -- [5]
+				"/s /spy kos shamzakel", -- [6]
+				"/s /spy kos boomsquanch", -- [7]
+				"/s /spy", -- [8]
+				"/s /spy config", -- [9]
+				"/s /spy", -- [10]
+				"/cw Sarelor-EmeraldDream /spy config", -- [11]
+				"/cw Hitsville-EmeraldDream Np! Lemme know if you change your mind", -- [12]
+				"/cw Docantel-EmeraldDream Do you have any level 60 toons?", -- [13]
+				"/cw Docantel-EmeraldDream Glad to have you aboard mate", -- [14]
+				"/cw Docantel-EmeraldDream sounds good mate", -- [15]
+				"/s ty", -- [16]
+				"/s /aap skip", -- [17]
+				"/s /AAP", -- [18]
+				"/i over here", -- [19]
+				"/p back this way", -- [20]
+				"/i shrine 3", -- [21]
+				"/i going to lose middle", -- [22]
+				"/s /dance", -- [23]
+				"/i but with a healer this time", -- [24]
+				"/i lets do it again", -- [25]
+				"/i shall we pull small packs?", -- [26]
+				"/i I had an error that wouldnt go away", -- [27]
+				"/i sry bout that probably cuz of my relog", -- [28]
+				"/s getting an error", -- [29]
+				"/s sec I gotta relog", -- [30]
+				"/s /reckless config", -- [31]
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 28,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618521651,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618521651,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["r"] = 1,
+					["serverTime"] = 1618521655,
+					["timestamp"] = 105291.771,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618521658,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618521658,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[03:21]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1618521663,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 105307.599,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[03:21]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
+					["timestamp"] = 105331.808,
+					["serverTime"] = 1618521685,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[03:21]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Ownre-EmeraldDream:654:GUILD|h|cffd84e4e60|r:|cfffef367Ownre|r|h|cffd8d8d8]|r hey... i hafta tag-out for an hour or so... apologies. drop me from the group whe u get another i'll try to catch up later -- thx again for teh run",
+					["serverTime"] = 1618521695,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105341.041,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[03:21]|h |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 105348.934,
+					["serverTime"] = 1618521703,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[03:22]|h |CFFFF7D0AFydre|r has gone offline.",
+					["serverTime"] = 1618521726,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105372.406,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[03:23]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq25|k:20:656:BN_INLINE_TOAST_ALERT:0|h[|Kq25|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tZwyx)|h has come online.",
+					["serverTime"] = 1618521803,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105448.99,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[03:23]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq101|k:21:657:BN_INLINE_TOAST_ALERT:0|h[|Kq101|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tKrimzon)|h has come online.",
+					["serverTime"] = 1618521836,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105482.49,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[03:24]|h >>>[From] |cffd8d8d8[|r|HBNplayer:|Kq3|k:36:658:BN_WHISPER:|Kq3|k:Koroner#1861|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cffd84e4e60|r:|cffc59a6cKoroner|r|h|cffd8d8d8]|r hey man",
+					["serverTime"] = 1618521849,
+					["r"] = 0,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105495.072,
+					["g"] = 1,
+					["b"] = 0.9647059440612793,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[03:25]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:659:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:183008::::::::16:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Supple Supplicant's Gloves]|h|r|cff1eff00|Hitem:3022::::::::16:102:::::::|h[Bluegill Breeches]|h|r |cff1eff00|Hitem:4448::::::::16:102:::::::|h[Husk of Naraxis]|h|r PST",
+					["serverTime"] = 1618521916,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105562.293,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[03:26]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Zibbi-EmeraldDream:660:CHANNEL:2|h|cfff38bb9Zibbi|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-8578-162-67912423|h[Guild: Adeptus Astartes]|h|r Recruiting for Raiding, Keystones and Rated PvP.",
+					["serverTime"] = 1618521981,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105627.06,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[03:26]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:ßlake-EmeraldDream:661:CHANNEL:2|h|cfff38bb9ßlake|r|h|cffd8d8d8]|r: Who wants to go to AA",
+					["serverTime"] = 1618522001,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105647.188,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[03:26]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:ßlake-EmeraldDream:662:CHANNEL:2|h|cfff38bb9ßlake|r|h|cffd8d8d8]|r: buzz kill",
+					["serverTime"] = 1618522007,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105653.368,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[03:26]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Zibbi-EmeraldDream:663:CHANNEL:2|h|cfff38bb9Zibbi|r|h|cffd8d8d8]|r: Ah...so you've chosen War Blake",
+					["serverTime"] = 1618522018,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105664.933,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[03:27]|h You are now Away: AFK",
+					["serverTime"] = 1618522024,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105670.809,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[03:27]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:ßlake-EmeraldDream:665:CHANNEL:2|h|cfff38bb9ßlake|r|h|cffd8d8d8]|r: cash me outside... how bou dat",
+					["serverTime"] = 1618522044,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105690.719,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[03:27]|h |Hchannel:channel:2|h[2. Trade] |h<Away>|cffd8d8d8[|r|Hplayer:Velyre-EmeraldDream:666:CHANNEL:2|h|cfffe7b09Velyre|r|h|cffd8d8d8]|r: <3 Vel <3 Phoenix Community || Selling M+0 - M+20s!  Also WTS Heroic 10/10 Castle Nathria (AoTC only available as well) Ask about achievement runs too! - GOLD ONLY",
+					["serverTime"] = 1618522055,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105701.544,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[03:28]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Tulyare-EmeraldDream:667:CHANNEL:2|h|cfffefefeTulyare|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-291121-162-84548429|h[Guild: The Midnight Sun]|h|r is a new guild, aiming to focus on Raids and M+. We are currently building our raid roster for 3 days per week  Need DPS and raid CDs, Pm if you are interested.",
+					["serverTime"] = 1618522080,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105726.138,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[03:31]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:668:CHANNEL:2|h|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r: BIG FISH SALE!!!! |cffffffff|Hitem:173036::::::::60:270:::::::|h[Spinefin Piranha]|h|r 55g per! Have 306!!!! Get them NOW! Ice wont last forever",
+					["serverTime"] = 1618522267,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 105913.001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[03:34]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq101|k:21:669:BN_INLINE_TOAST_ALERT:0|h[|Kq101|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tKrimzon)|h has come online.",
+					["serverTime"] = 1618522475,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106121.399,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[03:36]|h |CFF69CCF0|cff3ec6eaOttsca|r|r has gone offline.",
+					["serverTime"] = 1618522567,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106213.662,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[03:36]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - Garrison]|h",
+					["serverTime"] = 1618522590,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106236.941,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[03:36]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1618522590,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						12, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106236.941,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[03:36]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Garrison]|h",
+					["serverTime"] = 1618522590,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106236.941,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[12:17]|h You receive loot: |cffffffff|Hitem:118417::::::::35:267:::::::|h[Crate of Surplus Materials]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510678,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:118417::::::::35:267:::::::|h[Crate of Surplus Materials]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510684,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:118417::::::::35:267:::::::|h[Crate of Surplus Materials]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510691,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:116053::::::::35:267:::::::|h[Draenic Seeds]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510703,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:109129::::::::35:267:::::::|h[Talador Orchid]|h|rx4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510703,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:109129::::::::35:267:::::::|h[Talador Orchid]|h|rx4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510708,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:116053::::::::35:267:::::::|h[Draenic Seeds]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510708,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:116053::::::::35:267:::::::|h[Draenic Seeds]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510713,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:109128::::::::35:267:::::::|h[Nagrand Arrowbloom]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510713,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:109129::::::::35:267:::::::|h[Talador Orchid]|h|rx4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510718,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:116053::::::::35:267:::::::|h[Draenic Seeds]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510718,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:116053::::::::35:267:::::::|h[Draenic Seeds]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510723,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:109127::::::::35:267:::::::|h[Starflower]|h|rx4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510723,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:109128::::::::35:267:::::::|h[Nagrand Arrowbloom]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510728,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[12:18]|h You receive loot: |cffffffff|Hitem:116053::::::::35:267:::::::|h[Draenic Seeds]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510728,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h Tradesman Portanuus says: Sorry, Orecraft.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510756,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h You receive loot: |cffffffff|Hitem:118417::::::::35:267:::::::|h[Crate of Surplus Materials]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510776,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h You receive loot: |cffffffff|Hitem:118417::::::::35:267:::::::|h[Crate of Surplus Materials]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510782,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h Lost in Transition completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510787,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h Experience gained: 5520.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510787,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h Received 13 Gold, 74 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510787,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[12:19]|h Reputation with Guild increased by 125.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510787,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[12:20]|h You create: |cffffffff|Hitem:118723::::::::35:267:::::::|h[Secret of Draenor Jewelcrafting]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510859,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[12:20]|h Your skill in Draenor Jewelcrafting has increased to 2.",
+					["b"] = 1,
+					["r"] = 0.3333333432674408,
+					["g"] = 0.3333333432674408,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510859,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[12:21]|h Your skill in Draenor Jewelcrafting has increased to 3.",
+					["b"] = 1,
+					["r"] = 0.3333333432674408,
+					["g"] = 0.3333333432674408,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510868,
+					["extraData"] = {
+						27, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[12:21]|h You create: |cff1eff00|Hitem:115524::::::::35:267:::::::|h[Taladite Crystal]|h|rx8.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510868,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[12:21]|h You create: |cff1eff00|Hitem:113264::::::::35:267:::::::|h[Sorcerous Air]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510868,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[12:21]|h You create: |cff1eff00|Hitem:113263::::::::35:267:::::::|h[Sorcerous Earth]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618510868,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[12:24]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Kroca-EmeraldDream:1039:CHANNEL:2|h|cfffe7b09Kroca|r|h|cffd8d8d8]|r: people interested in participating in pvp duel tournaments, each player will have two lives the winner of the entire tournament gets 60% of all gold, 8k entry, minimum of 4,6,8 or 10 players per tournament",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511080,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[12:26]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Dreyko-EmeraldDream:1040:CHANNEL:2|h|cffa22fc8Dreyko|r|h|cffd8d8d8]|r: ret pallys need a nerf",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511193,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[12:27]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Dreyko-EmeraldDream:1041:CHANNEL:2|h|cffa22fc8Dreyko|r|h|cffd8d8d8]|r: ppl with small pps be playing them cause they need little ilvl to do so much dmg, imagine a geared one, with a MW monk",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511226,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[12:27]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Digee-EmeraldDream:1042:CHANNEL:2|h|cff006fdcDigee|r|h|cffd8d8d8]|r: im gonna give ur mom a nerf",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511235,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[12:27]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Digee-EmeraldDream:1043:CHANNEL:2|h|cff006fdcDigee|r|h|cffd8d8d8]|r: with my dick",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511237,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[12:27]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Dreyko-EmeraldDream:1044:CHANNEL:2|h|cffa22fc8Dreyko|r|h|cffd8d8d8]|r: bet",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511239,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[12:28]|h Reputation with Guild increased by 125.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511297,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[12:28]|h Tricks of the Trade completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511297,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[12:28]|h Experience gained: 5520.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511297,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[12:28]|h Received 13 Gold, 74 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511297,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:1:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tKurthos)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511350,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h |cffd8d8d8[|r|Hplayer:Orecraft-EmeraldDream:1051:GUILD|h|cffd8bc3f35|r:|cff8687edOrecraft|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:9099:Player-162-0B3AFCC7:1:4:15:21:4294967295:4294967295:4294967295:4294967295|h[Time for an Upgrade]|h|r |cff2080a0|Hgratsl:Orecraft:GUILD::9099|h[say grats]|h|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511378,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h |cffd8d8d8[|r|Hplayer:Orecraft-EmeraldDream:1052:ACHIEVEMENT|h|cffd8bc3f35|r:|cff8687edOrecraft|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:9099:Player-162-0B3AFCC7:1:4:15:21:4294967295:4294967295:4294967295:4294967295|h[Time for an Upgrade]|h|r |cff2080a0|Hgratsl:Orecraft:ACHIEVEMENT::9099|h[say grats]|h|r! |cffffd200|Hshareachieve:9099:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511378,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						32, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx15.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511384,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h You receive currency: |cff1eff00|Hcurrency:823:0|h[Apexis Crystal]|h|r x8.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511384,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511394,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[12:29]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511395,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511406,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511406,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cff1eff00|Hitem:120945::::::::35:267:::::::|h[Primal Spirit]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511415,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511415,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cff1eff00|Hitem:118903::::::::35:267:::::::|h[Preserved Mining Pick]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511416,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cff9d9d9d|Hitem:56046::::::::35:267:::::::|h[Shattered Rock Fragments]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511416,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109119::::::::35:267:::::::|h[True Iron Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511423,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511423,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511430,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511430,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109119::::::::35:267:::::::|h[True Iron Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511434,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511434,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Viromi-EmeraldDream:1076:CHANNEL:2|h|cffa9d271Viromi|r|h|cffd8d8d8]|r: Is trade just quiet or my game bugged?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511442,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511443,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511443,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cff1eff00|Hitem:120945::::::::35:267:::::::|h[Primal Spirit]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511448,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109119::::::::35:267:::::::|h[True Iron Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511448,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cff9d9d9d|Hitem:56046::::::::35:267:::::::|h[Shattered Rock Fragments]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511448,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cff1eff00|Hitem:118903::::::::35:267:::::::|h[Preserved Mining Pick]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511448,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Fastolor-EmeraldDream:1083:CHANNEL:2|h|cff00fe97Fastolor|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Nerve|r|cffffffff>|r is selling Heroic Castle Nathria runs & timed +14/15s! Loot trading available. PST for more details.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511454,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:1085:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: Just quiet :P I can fix that though",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511456,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511456,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[12:30]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511456,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511465,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511465,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Viromi-EmeraldDream:1091:CHANNEL:2|h|cffa9d271Viromi|r|h|cffd8d8d8]|r: Lol just making sure, it was dead last night too haha",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511471,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:1092:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:183008::::::::16:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Supple Supplicant's Gloves]|h|r|cff0070dd|Hitem:1454::::::::16:102:::1:3998:1:9:13:::|h[Axe of the Enforcer]|h|r |cffa335ee|Hitem:2801::::::::16:102:::1:4259:1:9:50:::|h[Blade of Hanna]|h|r PST",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511478,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						21, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511480,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511480,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109119::::::::35:267:::::::|h[True Iron Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511486,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511486,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511491,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511491,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109118::::::::35:267:::::::|h[Blackrock Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511498,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [107]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511499,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [108]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109119::::::::35:267:::::::|h[True Iron Ore]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511506,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [109]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:115508::::::::35:267:::::::|h[Draenic Stone]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511506,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [110]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cff1eff00|Hitem:120945::::::::35:267:::::::|h[Primal Spirit]|h|rx2.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511514,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [111]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cffffffff|Hitem:109119::::::::35:267:::::::|h[True Iron Ore]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511514,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [112]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cff9d9d9d|Hitem:56046::::::::35:267:::::::|h[Shattered Rock Fragments]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511514,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [113]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive loot: |cff1eff00|Hitem:118897::::::::35:267:::::::|h[Miner's Coffee]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511514,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [114]
+				{
+					["message"] = "|Hpratcopy|h[12:31]|h You receive currency: |cffffffff|Hcurrency:821:0|h[Draenor Clans Archaeology Fragment]|h|r x4.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511515,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [115]
+				{
+					["message"] = "|Hpratcopy|h[12:32]|h You gained: |cffffffff30|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 105291.771,
+					["serverTime"] = 1618511567,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [116]
+				{
+					["message"] = "0 |4day:days;, 2 |4hour:hours;, 48 |4minute:minutes;, 4 |4second:seconds;",
+					["timestamp"] = 105291.771,
+				}, -- [117]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 105291.771,
+				}, -- [118]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 105259.053,
+				}, -- [119]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 105259.053,
+				}, -- [120]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 105259.053,
+				}, -- [121]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tYou have 1 friend |4request:requests;.",
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 105291.771,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 105291.771,
+				}, -- [123]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 105291.771,
+				}, -- [124]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
+					["timestamp"] = 105291.771,
+				}, -- [125]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
+					["timestamp"] = 105291.771,
+				}, -- [126]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
+					["timestamp"] = 105291.771,
+				}, -- [127]
+				{
+					["message"] = "|Hpratcopy|h[03:20]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
+					["timestamp"] = 105291.771,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

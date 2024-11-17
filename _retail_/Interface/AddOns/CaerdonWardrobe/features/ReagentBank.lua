@@ -8,8 +8,8 @@ function ReagentBankMixin:Init()
     hooksecurefunc("BankFrameItemButton_Update", function(...) self:OnBankItemUpdate(...) end)
 end
 
-function ReagentBankMixin:SetTooltipItem(tooltip, item, locationInfo)
-    local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", ReagentBankButtonIDToInvSlotID(locationInfo.slot))
+function ReagentBankMixin:GetTooltipData(item, locationInfo)
+	return C_TooltipInfo.GetInventoryItem("player", ReagentBankButtonIDToInvSlotID(locationInfo.slot))
 end
 
 function ReagentBankMixin:Refresh()
@@ -24,7 +24,7 @@ function ReagentBankMixin:OnBankItemUpdate(button)
     end
 
     local item = CaerdonItem:CreateFromBagAndSlot(bag, slot)
-    CaerdonWardrobe:UpdateButton(button, item, self, { bag = bag, slot = slot }, { showMogIcon=true, showBindStatus=true, showSellables=true })
+    CaerdonWardrobe:UpdateButton(button, item, self, { bag = bag, slot = slot }, { })
 end
 
 CaerdonWardrobe:RegisterFeature(ReagentBankMixin)

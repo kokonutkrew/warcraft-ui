@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["version"] = "1.1",
 	["IgnoreData"] = {
 	},
@@ -258,4 +259,48 @@ SpyPerCharDB = {
 			},
 		},
 	},
+=======
+	["KOSData"] = {
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+		["Boomsquanch"] = {
+			["mapID"] = 84,
+			["guild"] = "Blademasters of Durotar",
+			["zone"] = "Stormwind City",
+			["mapY"] = 0.31,
+			["class"] = "DRUID",
+			["isEnemy"] = true,
+			["isGuess"] = false,
+			["race"] = "Highmountain Tauren",
+			["name"] = "Boomsquanch",
+			["time"] = 1618124684,
+			["mapX"] = 0.58,
+			["level"] = 60,
+			["subZone"] = "",
+			["loses"] = 1,
+		},
+		["Tommypal"] = {
+			["mapID"] = 84,
+			["zone"] = "Stormwind City",
+			["mapY"] = 0.66,
+			["class"] = "PALADIN",
+			["isEnemy"] = true,
+			["isGuess"] = true,
+			["mapX"] = 0.6,
+			["name"] = "Tommypal",
+			["race"] = "Blood Elf",
+			["subZone"] = "Trade District",
+			["level"] = 46,
+			["time"] = 1618124506,
+			["loses"] = 1,
+		},
+	},
+	["version"] = "1.1",
+>>>>>>> Stashed changes
 }

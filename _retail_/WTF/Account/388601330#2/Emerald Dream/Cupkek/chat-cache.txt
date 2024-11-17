@@ -102,12 +102,22 @@ END
 
 WINDOW 1
 NAME General
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
 DOCKED 1
 SHOWN 1
+<<<<<<< Updated upstream
+=======
+POSITION BOTTOMLEFT 0.004427 0.027315
+DIMENSIONS 402.000031 147.999985
+
+>>>>>>> Stashed changes
 MESSAGES
 SYSTEM
 SYSTEM_NOMENU
@@ -164,7 +174,11 @@ END
 
 WINDOW 2
 NAME Combat Log
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -187,7 +201,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 3
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -204,7 +222,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 4
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -221,7 +243,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 5
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -238,7 +264,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 6
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -255,7 +285,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 7
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -272,7 +306,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 8
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -289,7 +327,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 9
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0
@@ -306,7 +348,11 @@ ZONECHANNELS 0
 END
 
 WINDOW 10
+<<<<<<< Updated upstream
 SIZE 12
+=======
+SIZE 0
+>>>>>>> Stashed changes
 COLOR 0 0 0 40
 LOCKED 1
 UNINTERACTABLE 0

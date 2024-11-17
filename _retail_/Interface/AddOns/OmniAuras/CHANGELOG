@@ -1,0 +1,141 @@
+v11.0.2.0037
+	Merged passive-AMS by Horseman's Aid (DK, RotA hero talent) to AMS
+	Added Lesser AMS by Vestigial Shell (DK, talent) to ext def.
+	Added Chill streak (Frost DK, talent) to Snare
+	Added Ice Prison (DK, talent) to Root
+	Added Thrill of the Fight (DH, Aldrachi Reaver hero talent) to minor off.
+	Added Dream Burst (Balance Druid, KotG hero talent) to minor off.
+	Added Drink for TWW
+	Added option to hide Blizzard's Cc frame on Arena frames
+
+v11.0.2.0036
+	Bump TOC
+	Party frame auras (non-portrait mode) will correctly be removed when raid-style party frame is enabled
+	Fixed an issue preventing glow when it replaces another aura with the same texture
+	Binding Shot moved to Stun
+	A few hero talent auras added (disabled by default, except disarm/root)
+
+v10.2.7.0035
+	11.0 TWW compatibility updates
+	minor bug fixes
+
+v10.2.7.0034
+	Pixel borders with debuff color added to nameplates.
+	Raidframe aura size will correctly update when group type changes (LFG/R).
+	Added BG Blitz faction flags.
+
+    Arena NamePlates:
+	Friendly unit number will correctly update whenever group order changes.
+	Nameplate auras will once again auto-attach to Arena NamePlates when using Health Bar L/R presets.
+	Added additional totems to list.
+
+    Arena Castbars:
+	Castbar Position option now use presets instead of having to set the point and relative point manually.
+	Added Center preset that auto adjusts castbar width to raidframe width.
+
+v10.2.6.0033-alpha
+	Fixed interrupt icon persisting. (broke when fixing duplicated icons)
+	Temporarily disabling reanchoring of auras on Arena NamePlates.
+
+v10.2.6.0032-alpha
+	Imprison /w Detainment and Ultimate Sac. will have a red border when using texture border on nameplates.
+	Added option to show CC only on unitframes and nameplates.
+	Default profile changed to a more usable setting out of the box.
+	Temporary profiles removed.
+	Fixed manually positioned target/focus auras persisting.
+	Fixed sort related option not updating immediately w/o reloading ui.
+	Fixed duplicate icon showing when interrupting channeled spells.
+
+	Bonus features:
+	* Arena nameplates to lessen visual clutter.
+	* Party raidframe castbars in lieu of friendly nameplate castbars.
+
+v10.2.6.0031-alpha
+	Reverted v0030 fix, as it was intentional and not a bug. Instead, the fix has been added as a separate option.
+	#brainfart
+
+v10.2.6.0030-alpha
+	Fixed a bug where the number of debuffs displayed were less than your option value when big debuff icons
+	were being shown inside the raid frame. These will correctly attach to the outer left of the raidframe if there
+	isn't enough space inside the raid frame.
+
+	Added option to set the max number of detached debuffs.
+
+v10.2.6.0029-alpha
+	Nameplate Merged-Sorting changed. If the Max Number of Auras is under 3 then the addon will ignore scaling and sort by
+	higher priority and then newly added auras. This is to prevent lower priority auras with larger icon set in the aura list
+	showing over higher priorities.
+	Fixed an issue that could cause auras to anchor to the wrong unit outside of Arenas.
+	DF Dance of Chi-Ji merged to old.
+
+v10.2.5.0028-alpha
+	Blizzard aura visibility will correctly udpate on zone change.
+	Added draw swipe edge option.
+
+v10.2.5.0027-alpha
+    Feature updates:
+	You can now detach big debuffs and show them in a separate display attached to the left or right of the raid frame.
+	RaidFrame buffs with increased size will follow Blizzard's rule and show on debuff frames (e.g Spirit of Redemption).
+	RaidFrame global scale is fixed at 15 in raid instances (temporary).
+	Added option to hide default nameplate debuffs (temporary).
+	Added nameplate strata to draw over elite mob icons.
+	X offset will switch direction when the attachment point changes from left to right
+	Added a couple starter profiles you can import with minimal settings (temporary).
+	Updated aura list.
+	Spell ID added to aura list tooltips.
+    Bug fixes:
+	Fixed default nameplate debuffs showing on first seen units when Redirect Blizzard Debuffs is enabled.
+	Fixed Uncheck All option not saving.
+	Fixed an issue that caused icon size to reset during test mode.
+	RaidFrame inner debuffs will no longer overlap with buffs when multiple large icons are displayed.
+	RaidFrame debuff filter will correctly udpate when entering or leaving combat.
+	ArenaFrame AUTO preset option fixed.
+
+v10.2.5.0026-alpha
+	Player's nameplate buffs (Blizzard default) will correctly show when 'Show Player' or 'Redirect Blizzard' option is disabled
+
+v10.2.5.0025-alpha
+	Fixed option panel color picker for 10.2.5
+
+v10.2.5.0024-alpha
+	bump toc
+	minor spell updates
+
+v10.1.7.0023-alpha
+	Added option to toggle auras on minion nameplates.
+	Added option to only show CC on minion nameplates.
+	Friendly Smoke Bomb will correctly show when Hide Friendly Source is toggled off.
+	Fixed an issue where friendly-nameplate aura settings would incorrectly be applied to hostile units that are Mind Controlled, and vice versa.
+
+v10.1.7.0022-alpha
+	nil err fix
+
+v10.1.7.0021-alpha
+	Nameplate auras will always sort by size first. Sort options have been updated to reflect this change.
+	Seismic Slam, Tip the Scales default aura settings updated
+	nil err fix
+
+v10.1.7.0020-alpha
+	Arena section revamped for the new raid-style arena frames
+	Auras for nameplates can now be selected for enemy and friendly units separately
+	Added option to add or edit auras
+	Rebuke buff on the caster will no longer be displayed
+
+v10.1.7.0014-alpha
+	Added Freezing Cold, Sticky Tar Bomb, Defy Fate, Ice Cold, Blistering Scales, Call of the Wild, Demon Soul, Fel Obelistk, Tip the Scales, Precognition.
+	taint err fix - UnitFrame icons will no longer inherit the anchored frame's scale on Auto preset.
+
+v10.1.5.0013-alpha
+	nil err fix
+
+v10.1.5.0012-alpha
+	temp fix for 10.1.5
+
+v10.1.0.0011-alpha
+	Fixed interrupts showing on disabled frames
+	Added Divine Shield (Ret version)
+	10.1.5 compatibility udpates
+
+v10.1.0.0010-alpha
+
+	<')+++<

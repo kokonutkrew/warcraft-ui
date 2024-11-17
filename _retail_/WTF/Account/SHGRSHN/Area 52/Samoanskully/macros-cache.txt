@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Grappling Hook" "134400"
+#showtooltip
+/use [@cursor] grappling hook
+END

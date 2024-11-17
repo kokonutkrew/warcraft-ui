@@ -7,6 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
+<<<<<<< Updated upstream
 					["combatId"] = 64,
 					["tipo"] = 2,
 					["_ActorTable"] = {
@@ -694,12 +695,170 @@ _detalhes_database = {
 							["nome"] = "All-Seeing Eye",
 							["spells"] = {
 								["tipo"] = 2,
+=======
+					["tipo"] = 2,
+					["combatId"] = 955,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007491,
+							["damage_from"] = {
+								["Rockhide Calf"] = true,
+								["Rockhide Bull"] = true,
+							},
+							["targets"] = {
+								["Rockhide Calf"] = 12631,
+								["Rockhide Bull"] = 11843,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["last_dps"] = 8503.824701451787,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24474.007491,
+							["last_event"] = 1626343941,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 24474.007491,
+							["aID"] = "162-0B4FCB3C",
+							["damage_taken"] = 3.007491,
+							["nome"] = "Farmcraft",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1626343942,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1626343939,
+							["serial"] = "Player-162-0B4FCB3C",
+							["spells"] = {
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+										["n_max"] = 9788,
+										["targets"] = {
+											["Rockhide Calf"] = 9788,
+										},
+										["n_dmg"] = 9788,
+										["n_min"] = 9788,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9788,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[33917] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11843,
+										["targets"] = {
+											["Rockhide Bull"] = 11843,
+										},
+										["n_dmg"] = 11843,
+										["n_min"] = 11843,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 11843,
+										["c_max"] = 0,
+										["id"] = 33917,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[77758] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2843,
+										["targets"] = {
+											["Rockhide Calf"] = 2843,
+										},
+										["n_dmg"] = 2843,
+										["n_min"] = 2843,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2843,
+										["c_max"] = 0,
+										["id"] = 77758,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008283,
+							["damage_from"] = {
+								["Farmcraft"] = true,
+							},
+							["targets"] = {
+								["Farmcraft"] = 2,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["aID"] = "87698",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2.008283,
+							["dps_started"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1626343942,
+							["damage_taken"] = 11843.008283,
+							["total"] = 2.008283,
+							["nome"] = "Rockhide Bull",
+							["spells"] = {
+>>>>>>> Stashed changes
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 17,
 										["targets"] = {
 											["Farmcraft"] = 17,
@@ -760,6 +919,11 @@ _detalhes_database = {
 										["n_max"] = 2,
 										["targets"] = {
 											["Archer <Farmcraft>"] = 2,
+=======
+										["n_max"] = 2,
+										["targets"] = {
+											["Farmcraft"] = 2,
+>>>>>>> Stashed changes
 										},
 										["n_dmg"] = 2,
 										["n_min"] = 2,
@@ -767,16 +931,24 @@ _detalhes_database = {
 										["counter"] = 1,
 										["total"] = 2,
 										["c_max"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 36415,
 										["r_dmg"] = 0,
 										["spellschool"] = 64,
 										["extra"] = {
 										},
+=======
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+>>>>>>> Stashed changes
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
+<<<<<<< Updated upstream
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -4747,10 +4919,34 @@ _detalhes_database = {
 						{
 							["flag_original"] = 2600,
 							["totalabsorbed"] = 0.008771,
+=======
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1626343939,
+							["on_hold"] = false,
+							["start_time"] = 1626343939,
+							["serial"] = "Creature-0-4231-1116-2526-87698-00006F6D5B",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008517,
+>>>>>>> Stashed changes
 							["damage_from"] = {
 								["Farmcraft"] = true,
 							},
 							["targets"] = {
+<<<<<<< Updated upstream
 								["Farmcraft"] = 133,
 							},
 							["pets"] = {
@@ -4770,12 +4966,32 @@ _detalhes_database = {
 							["nome"] = "Moonshell Crawler",
 							["spells"] = {
 								["tipo"] = 2,
+=======
+								["Farmcraft"] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["aID"] = "87699",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1.008517,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 1.008517,
+							["end_time"] = 1626343942,
+							["damage_taken"] = 12631.008517,
+							["nome"] = "Rockhide Calf",
+							["spells"] = {
+>>>>>>> Stashed changes
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 13,
 										["targets"] = {
 											["Farmcraft"] = 121,
@@ -7386,6 +7602,8 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+=======
+>>>>>>> Stashed changes
 										["n_max"] = 1,
 										["targets"] = {
 											["Farmcraft"] = 1,
@@ -7393,6 +7611,7 @@ _detalhes_database = {
 										["n_dmg"] = 1,
 										["n_min"] = 1,
 										["g_dmg"] = 0,
+<<<<<<< Updated upstream
 										["counter"] = 1,
 										["total"] = 1,
 										["c_max"] = 0,
@@ -9229,10 +9448,43 @@ _detalhes_database = {
 							["start_time"] = 1615968767,
 							["delay"] = 1615968773,
 							["tipo"] = 1,
+=======
+										["counter"] = 2,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 1626343939,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1626343939,
+							["serial"] = "Creature-0-4231-1116-2526-87699-00006F6D5B",
+							["classe"] = "UNKNOW",
+>>>>>>> Stashed changes
 						}, -- [3]
 					},
 				}, -- [1]
 				{
+<<<<<<< Updated upstream
 					["combatId"] = 50,
 					["tipo"] = 3,
 					["_ActorTable"] = {
@@ -9830,10 +10082,15 @@ _detalhes_database = {
 				{
 					["combatId"] = 49,
 					["tipo"] = 3,
+=======
+					["tipo"] = 3,
+					["combatId"] = 955,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
+<<<<<<< Updated upstream
 					["combatId"] = 49,
 					["tipo"] = 7,
 					["_ActorTable"] = {
@@ -11035,26 +11292,34 @@ _detalhes_database = {
 							["resource"] = 0.007778,
 							["targets"] = {
 								["Farmcraft"] = 13,
+=======
+					["tipo"] = 7,
+					["combatId"] = 955,
+					["_ActorTable"] = {
+						{
+							["received"] = 18.001193,
+							["resource"] = 0.001193,
+							["targets"] = {
+								["Farmcraft"] = 18,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "DRUID",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.007778,
 							["total"] = 13.007778,
 							["nome"] = "Farmcraft",
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
-									[195707] = {
-										["total"] = 3,
-										["id"] = 195707,
-										["totalover"] = 0,
-										["targets"] = {
-											["Farmcraft"] = 3,
-										},
-										["counter"] = 1,
-									},
+=======
+							["passiveover"] = 26.001193,
+							["total"] = 18.001193,
+							["nome"] = "Farmcraft",
+							["spells"] = {
+								["_ActorTable"] = {
 									[33917] = {
 										["total"] = 10,
 										["id"] = 33917,
@@ -11064,10 +11329,42 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
+									[77758] = {
+										["total"] = 5,
+										["id"] = 77758,
+										["totalover"] = 0,
+										["targets"] = {
+											["Farmcraft"] = 5,
+										},
+										["counter"] = 1,
+									},
+>>>>>>> Stashed changes
+									[195707] = {
+										["total"] = 3,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Farmcraft"] = 3,
+										},
+										["counter"] = 1,
+									},
+<<<<<<< Updated upstream
+									[33917] = {
+										["total"] = 10,
+										["id"] = 33917,
+										["totalover"] = 0,
+										["targets"] = {
+											["Farmcraft"] = 10,
+										},
+										["counter"] = 1,
+									},
+=======
+>>>>>>> Stashed changes
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["spec"] = 1447,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007778,
@@ -11076,17 +11373,32 @@ _detalhes_database = {
 							["aID"] = "162-0B4FCB3C",
 							["serial"] = "Player-162-0B4FCB3C",
 							["totalover"] = 0.007778,
+=======
+							["totalover"] = 0.001193,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["last_event"] = 1626343941,
+							["aID"] = "162-0B4FCB3C",
+							["alternatepower"] = 0.001193,
+							["serial"] = "Player-162-0B4FCB3C",
+							["spec"] = 103,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 47,
+=======
+					["combatId"] = 955,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+<<<<<<< Updated upstream
 									[164812] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -11097,10 +11409,23 @@ _detalhes_database = {
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
+=======
+									[192090] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 192090,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["buff_uptime"] = 3,
 							["aID"] = "162-0B4FCB3C",
 							["buff_uptime_spells"] = {
@@ -11115,10 +11440,83 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
+=======
+							["buff_uptime"] = 13,
+							["aID"] = "162-0B4FCB3C",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[5487] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 5487,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[2479] = {
+										["activedamt"] = 1,
+										["id"] = 2479,
+										["targets"] = {
+										},
+										["actived_at"] = 1626343939,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[335152] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 335152,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[192081] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 192081,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["debuff_uptime"] = 22,
 							["nome"] = "Farmcraft",
 							["boss_fight_component"] = true,
@@ -11136,10 +11534,29 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["last_event"] = 1615967266,
+=======
+							["debuff_uptime"] = 0,
+							["nome"] = "Farmcraft",
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[33917] = 1,
+								[192081] = 1,
+								[77758] = 1,
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1626343942,
+							["classe"] = "DRUID",
+							["pets"] = {
+							},
+>>>>>>> Stashed changes
 							["serial"] = "Player-162-0B4FCB3C",
 							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
+<<<<<<< Updated upstream
 						{
 							["flag_original"] = 1298,
 							["debuff_uptime_spells"] = {
@@ -11259,15 +11676,22 @@ _detalhes_database = {
 							["serial"] = "Creature-0-4221-2236-3980-156814-000051B303",
 							["aID"] = "156814",
 						}, -- [6]
+=======
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 47,
+=======
+					["combatId"] = 955,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
+<<<<<<< Updated upstream
 					["Drowell-MoonGuard"] = true,
 					["Farmcraft"] = true,
 				},
@@ -11277,6 +11701,14 @@ _detalhes_database = {
 				},
 				["CombatStartedAt"] = 392537.575,
 				["tempo_start"] = 1615967241,
+=======
+					["Farmcraft"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Farmcraft", -- [1]
+				},
+				["overall_added"] = true,
+>>>>>>> Stashed changes
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
@@ -11284,6 +11716,7 @@ _detalhes_database = {
 				["cleu_events"] = {
 					["n"] = 1,
 				},
+<<<<<<< Updated upstream
 				["totals"] = {
 					1518.983548, -- [1]
 					520, -- [2]
@@ -11316,10 +11749,23 @@ _detalhes_database = {
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
+=======
+				["playing_solo"] = true,
+				["totals"] = {
+					24477, -- [1]
+					0, -- [2]
+					{
+						18, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+>>>>>>> Stashed changes
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
+<<<<<<< Updated upstream
 						["cooldowns_defensive"] = 0,
 						["dispell"] = 0,
 						["interrupt"] = 0,
@@ -11337,6 +11783,49 @@ _detalhes_database = {
 				["enemy"] = "Ravnyr",
 				["TotalElapsedCombatTime"] = 391080.665,
 				["CombatEndedAt"] = 391080.665,
+=======
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					24474, -- [1]
+					0, -- [2]
+					{
+						18, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "04:12:22",
+				["is_temporary"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Rockhide Bull",
+				["TotalElapsedCombatTime"] = 923097.88,
+				["CombatEndedAt"] = 923097.88,
+>>>>>>> Stashed changes
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -11346,12 +11835,20 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+<<<<<<< Updated upstream
 					["damage_section"] = {
+=======
+					["damage"] = {
+						{
+							["Farmcraft"] = 24474.007491,
+						}, -- [1]
+>>>>>>> Stashed changes
 					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+<<<<<<< Updated upstream
 							["Farmcraft"] = 0.003539,
 							["Drowell-MoonGuard"] = 0.007386,
 						}, -- [1]
@@ -11506,6 +12003,64 @@ _detalhes_database = {
 							["grupo"] = true,
 							["friendlyfire_total"] = 0,
 							["last_event"] = 1615967192,
+=======
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 923097.88,
+				["combat_id"] = 955,
+				["TimeData"] = {
+				},
+				["tempo_start"] = 1626343939,
+				["frags"] = {
+					["Rockhide Calf"] = 2,
+					["Rockhide Bull"] = 1,
+				},
+				["combat_counter"] = 1035,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "04:12:19",
+				["start_time"] = 923095.002,
+				["contra"] = "Rockhide Bull",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 954,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00602,
+							["damage_from"] = {
+								["Rockhide Bull"] = true,
+							},
+							["targets"] = {
+								["Rockhide Calf"] = 26094,
+								["Rockhide Bull"] = 5563,
+							},
+							["pets"] = {
+							},
+							["end_time"] = 1626303498,
+							["spec"] = 103,
+							["aID"] = "162-0B4FCB3C",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 31657.00602,
+							["friendlyfire"] = {
+							},
+							["serial"] = "Player-162-0B4FCB3C",
+							["dps_started"] = false,
+							["total"] = 31657.00602,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Farmcraft",
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -11513,6 +12068,7 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 14,
 										["targets"] = {
 											["Tunk"] = 146,
@@ -11835,6 +12391,20 @@ _detalhes_database = {
 										["total"] = 200,
 										["c_max"] = 0,
 										["id"] = 308463,
+=======
+										["n_max"] = 5593,
+										["targets"] = {
+											["Rockhide Calf"] = 5593,
+											["Rockhide Bull"] = 5563,
+										},
+										["n_dmg"] = 11156,
+										["n_min"] = 5563,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 11156,
+										["c_max"] = 0,
+										["id"] = 1,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["extra"] = {
@@ -11846,6 +12416,7 @@ _detalhes_database = {
 										["n_amt"] = 2,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
+<<<<<<< Updated upstream
 									},
 									[321240] = {
 										["c_amt"] = 0,
@@ -11875,12 +12446,41 @@ _detalhes_database = {
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 9,
+=======
+									}, -- [1]
+									[106785] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 20501,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Rockhide Calf"] = 20501,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20501,
+										["c_max"] = 20501,
+										["id"] = 106785,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 20501,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+>>>>>>> Stashed changes
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["end_time"] = 1615967176,
@@ -12267,10 +12867,131 @@ _detalhes_database = {
 							["delay"] = 0,
 							["classe"] = "PET",
 						}, -- [6]
+=======
+							["grupo"] = true,
+							["last_event"] = 1626303498,
+							["colocacao"] = 1,
+							["classe"] = "DRUID",
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 28265.18394360814,
+							["start_time"] = 1626303497,
+							["delay"] = 0,
+							["damage_taken"] = 2.00602,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007426,
+							["damage_from"] = {
+								["Farmcraft"] = true,
+							},
+							["targets"] = {
+								["Farmcraft"] = 2,
+							},
+							["serial"] = "Creature-0-4231-1116-2526-87698-00026DECF5",
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["aID"] = "87698",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2.007426,
+							["end_time"] = 1626303498,
+							["monster"] = true,
+							["total"] = 2.007426,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1626343936,
+							["nome"] = "Rockhide Bull",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Farmcraft"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["MISS"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["fight_component"] = true,
+							["on_hold"] = false,
+							["damage_taken"] = 5563.007426,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["start_time"] = 1626303497,
+							["delay"] = 0,
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.005126,
+							["damage_from"] = {
+								["Farmcraft"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "UNKNOW",
+							["aID"] = "87699",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005126,
+							["serial"] = "Creature-0-4231-1116-2526-87699-0006EDECF5",
+							["fight_component"] = true,
+							["total"] = 0.005126,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Rockhide Calf",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["end_time"] = 1626303498,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 26094.005126,
+							["start_time"] = 1626303498,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+						}, -- [3]
+>>>>>>> Stashed changes
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
+<<<<<<< Updated upstream
 					["combatId"] = 45,
 					["_ActorTable"] = {
 						{
@@ -12430,10 +13151,15 @@ _detalhes_database = {
 							["serial"] = "Creature-0-4221-2236-3980-161350-000051B303",
 							["tipo"] = 2,
 						}, -- [3]
+=======
+					["combatId"] = 954,
+					["_ActorTable"] = {
+>>>>>>> Stashed changes
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
+<<<<<<< Updated upstream
 					["combatId"] = 45,
 					["_ActorTable"] = {
 						{
@@ -12441,11 +13167,21 @@ _detalhes_database = {
 							["resource"] = 0.001021,
 							["targets"] = {
 								["Farmcraft"] = 32,
+=======
+					["combatId"] = 954,
+					["_ActorTable"] = {
+						{
+							["received"] = 50.004795,
+							["resource"] = 0.004795,
+							["targets"] = {
+								["Farmcraft"] = 50,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "DRUID",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.001021,
 							["total"] = 32.001021,
 							["nome"] = "Farmcraft",
@@ -12469,11 +13205,37 @@ _detalhes_database = {
 											["Farmcraft"] = 20,
 										},
 										["counter"] = 4,
+=======
+							["passiveover"] = 0.004795,
+							["total"] = 50.004795,
+							["resource_type"] = 4,
+							["nome"] = "Farmcraft",
+							["spells"] = {
+								["_ActorTable"] = {
+									[114113] = {
+										["total"] = 25,
+										["id"] = 114113,
+										["totalover"] = 0,
+										["targets"] = {
+											["Farmcraft"] = 25,
+										},
+										["counter"] = 1,
+									},
+									[17057] = {
+										["total"] = 25,
+										["id"] = 17057,
+										["totalover"] = 0,
+										["targets"] = {
+											["Farmcraft"] = 25,
+										},
+										["counter"] = 1,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["spec"] = 1447,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001021,
@@ -12482,11 +13244,22 @@ _detalhes_database = {
 							["aID"] = "162-0B4FCB3C",
 							["serial"] = "Player-162-0B4FCB3C",
 							["totalover"] = 20.001021,
+=======
+							["spec"] = 103,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.004795,
+							["tipo"] = 3,
+							["last_event"] = 1626343938,
+							["aID"] = "162-0B4FCB3C",
+							["serial"] = "Player-162-0B4FCB3C",
+							["totalover"] = 0.004795,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 45,
 					["_ActorTable"] = {
 						{
@@ -12591,12 +13364,84 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[104773] = {
+=======
+					["combatId"] = 954,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Farmcraft",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[106785] = 1,
+							},
+							["buff_uptime"] = 4,
+							["tipo"] = 4,
+							["classe"] = "DRUID",
+							["last_event"] = 1626303498,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+>>>>>>> Stashed changes
 										["appliedamt"] = 1,
 										["targets"] = {
 										},
 										["activedamt"] = 1,
+<<<<<<< Updated upstream
 										["uptime"] = 8,
 										["id"] = 104773,
+=======
+										["uptime"] = 1,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[768] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 768,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[335152] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 335152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5215] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 5215,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 93795,
+>>>>>>> Stashed changes
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -12604,6 +13449,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["debuff_uptime"] = 34,
 							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
@@ -12734,15 +13580,25 @@ _detalhes_database = {
 							["serial"] = "Pet-0-4221-2236-3980-1860-01039B8A57",
 							["last_event"] = 0,
 						}, -- [6]
+=======
+							["serial"] = "Player-162-0B4FCB3C",
+							["aID"] = "162-0B4FCB3C",
+						}, -- [1]
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 45,
+=======
+					["combatId"] = 954,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
+<<<<<<< Updated upstream
 					["Drowell-MoonGuard"] = true,
 					["Farmcraft"] = true,
 				},
@@ -12752,10 +13608,20 @@ _detalhes_database = {
 				},
 				["CombatStartedAt"] = 390995.643,
 				["overall_added"] = true,
+=======
+					["Farmcraft"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Farmcraft", -- [1]
+				},
+				["CombatStartedAt"] = 923093.01,
+				["tempo_start"] = 1626303497,
+>>>>>>> Stashed changes
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
+<<<<<<< Updated upstream
 				["cleu_events"] = {
 					["n"] = 1,
 				},
@@ -12767,14 +13633,32 @@ _detalhes_database = {
 						[0] = 0,
 						["alternatepower"] = 0,
 						[3] = 0,
+=======
+				["combat_counter"] = 1032,
+				["playing_solo"] = true,
+				["totals"] = {
+					31659, -- [1]
+					0, -- [2]
+					{
+						25, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 25,
+>>>>>>> Stashed changes
 						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
+<<<<<<< Updated upstream
 						["cooldowns_defensive"] = 1,
 						["dispell"] = 0,
 						["interrupt"] = 3,
+=======
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+>>>>>>> Stashed changes
 						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
@@ -12782,6 +13666,7 @@ _detalhes_database = {
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
+<<<<<<< Updated upstream
 				["totals_grupo"] = {
 					681, -- [1]
 					0, -- [2]
@@ -12790,12 +13675,51 @@ _detalhes_database = {
 						[0] = 0,
 						["alternatepower"] = 0,
 						[3] = 0,
+=======
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "16:58:19",
+				["is_temporary"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Rockhide Bull",
+				["TotalElapsedCombatTime"] = 1.120000000111759,
+				["CombatEndedAt"] = 882655.0310000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:58:18",
+				["end_time"] = 882655.0310000001,
+				["combat_id"] = 954,
+				["overall_added"] = true,
+				["contra"] = "Rockhide Bull",
+				["frags"] = {
+					["Rockhide Calf"] = 2,
+					["Rockhide Bull"] = 1,
+				},
+				["totals_grupo"] = {
+					31657, -- [1]
+					0, -- [2]
+					{
+						25, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 25,
+>>>>>>> Stashed changes
 						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
+<<<<<<< Updated upstream
 						["cooldowns_defensive"] = 1,
+=======
+						["cooldowns_defensive"] = 0,
+>>>>>>> Stashed changes
 						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
@@ -12803,6 +13727,7 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
+<<<<<<< Updated upstream
 				["frags_need_refresh"] = true,
 				["instance_type"] = "party",
 				["hasSaved"] = true,
@@ -12816,6 +13741,8 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+=======
+>>>>>>> Stashed changes
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -12827,11 +13754,15 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
+<<<<<<< Updated upstream
 							["Farmcraft"] = 0.008217,
+=======
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["damage"] = {
 						{
+<<<<<<< Updated upstream
 							["Farmcraft"] = 424.003752,
 							["Drowell-MoonGuard"] = 327.00642,
 						}, -- [1]
@@ -12869,6 +13800,23 @@ _detalhes_database = {
 				},
 				["tempo_start"] = 1615967131,
 			}, -- [18]
+=======
+							["Farmcraft"] = 31657.00602,
+						}, -- [1]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 882653.911,
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+			}, -- [2]
+>>>>>>> Stashed changes
 		},
 	},
 	["ocd_tracker"] = {
@@ -12885,10 +13833,19 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["last_version"] = "v9.0.2.8316",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
+=======
+	["last_version"] = "9.1.08721",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_pets"] = {
+	},
+>>>>>>> Stashed changes
 	["tabela_instancias"] = {
 	},
 	["coach"] = {
@@ -12899,10 +13856,17 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
+<<<<<<< Updated upstream
 		["nextreset"] = 1617260880,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 2236,
+=======
+		["nextreset"] = 1626443147,
+		["last_version"] = 14,
+	},
+	["last_instance_id"] = 0,
+>>>>>>> Stashed changes
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -12910,9 +13874,15 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
+<<<<<<< Updated upstream
 	["last_instance_time"] = 1615967002,
 	["active_profile"] = "KokonutKrew",
 	["last_realversion"] = 144,
+=======
+	["last_instance_time"] = 0,
+	["active_profile"] = "KokonutKrew",
+	["last_realversion"] = 145,
+>>>>>>> Stashed changes
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
@@ -12933,15 +13903,26 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 20,
 			["last_player"] = false,
+<<<<<<< Updated upstream
 			["InstalledAt"] = 1615964932,
 			["last_encounter_hash"] = false,
 			["showing_type"] = 4,
+=======
+			["author"] = "Details! Team",
+			["last_encounter_hash"] = false,
+			["enabled"] = true,
+>>>>>>> Stashed changes
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 0,
 			["timeline_cutoff_delete_time"] = 3,
+<<<<<<< Updated upstream
 			["enabled"] = true,
 			["author"] = "Details! Team",
+=======
+			["showing_type"] = 4,
+			["InstalledAt"] = 1616991895,
+>>>>>>> Stashed changes
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -12951,11 +13932,133 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
+<<<<<<< Updated upstream
 			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+=======
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				299.9998779296875, -- [1]
+				499.9999389648438, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["arrow_anchor_y"] = 0,
+			["arrow_anchor_x"] = 0,
+			["main_frame_locked"] = false,
+			["row_texture"] = "Details Serenity",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = -3.0517578125e-05,
+				["x"] = -6.103515625e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.57763671875e-05,
+			["use_spark"] = true,
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = true,
+			["author"] = "Tercio",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+		},
+		["DETAILS_PLUGIN_TARGET_CALLER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+>>>>>>> Stashed changes
 		},
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
 			["enabled"] = true,
@@ -12986,6 +14089,7 @@ _detalhes_database = {
 				["last_selected"] = 1,
 			},
 			["options"] = {
+<<<<<<< Updated upstream
 				["auto_create"] = true,
 				["show_method"] = 4,
 				["window_scale"] = 1,
@@ -13005,10 +14109,18 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
+=======
+				["show_method"] = 4,
+				["auto_create"] = true,
+				["window_scale"] = 1,
+			},
+		},
+>>>>>>> Stashed changes
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 		},
+<<<<<<< Updated upstream
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
 			["tank_block_color"] = {
@@ -13116,6 +14228,31 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["last_day"] = "17",
+=======
+	},
+	["force_font_outline"] = "",
+	["last_day"] = "15",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["character_data"] = {
+		["logons"] = 40,
+	},
+	["combat_id"] = 955,
+	["savedStyles"] = {
+	},
+	["cached_talents"] = {
+	},
+>>>>>>> Stashed changes
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -13127,6 +14264,7 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+<<<<<<< Updated upstream
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -13150,12 +14288,15 @@ _detalhes_database = {
 			22543, -- [7]
 		},
 	},
+=======
+>>>>>>> Stashed changes
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
 		["only_first"] = 5,
 		["where"] = 1,
 	},
+<<<<<<< Updated upstream
 	["tabela_overall"] = {
 		{
 			["tipo"] = 2,
@@ -21589,6 +22730,8 @@ _detalhes_database = {
 		},
 	},
 	["force_font_outline"] = "",
+=======
+>>>>>>> Stashed changes
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -21612,10 +22755,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -304.5000457763672,
 					["x"] = -815.9994201660156,
 					["w"] = 227.9999847412109,
 					["h"] = 108.9999694824219,
+=======
+					["y"] = -420.6209123723894,
+					["x"] = -840.6617839529954,
+					["w"] = 243.9999847412109,
+					["h"] = 193.0000305175781,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -21647,10 +22797,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -304.5000915527344,
 					["x"] = -587.9993896484375,
 					["w"] = 228.0000152587891,
 					["h"] = 109.0000076293945,
+=======
+					["y"] = -420.6209123723894,
+					["x"] = -606.4217701610771,
+					["w"] = 243.9999694824219,
+					["h"] = 193.0000305175781,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -21681,10 +22838,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -252.5017389601529,
 					["x"] = 402.7499114729541,
 					["w"] = 150.0002136230469,
 					["h"] = 450,
+=======
+					["y"] = -212.3147277832031,
+					["x"] = -816.9266510009766,
+					["w"] = 197.4075469970703,
+					["h"] = 74.55557250976562,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -21706,7 +22870,11 @@ _detalhes_database = {
 				1, -- [5]
 			},
 			["is_open"] = true,
+<<<<<<< Updated upstream
 			["isLocked"] = false,
+=======
+			["isLocked"] = true,
+>>>>>>> Stashed changes
 			["snap"] = {
 				3, -- [1]
 			},
@@ -21715,10 +22883,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -252.5017389601529,
 					["x"] = 539.7499447166331,
 					["w"] = 172.3529968261719,
 					["h"] = 450,
+=======
+					["y"] = -212.3147277832031,
+					["x"] = -621.2969970703125,
+					["w"] = 193.8517761230469,
+					["h"] = 74.55557250976562,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -21729,6 +22904,7 @@ _detalhes_database = {
 			},
 		}, -- [4]
 	},
+<<<<<<< Updated upstream
 	["character_data"] = {
 		["logons"] = 3,
 	},
@@ -21736,6 +22912,18 @@ _detalhes_database = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+=======
+	["combat_counter"] = 1037,
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+>>>>>>> Stashed changes
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -21743,10 +22931,17 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
+<<<<<<< Updated upstream
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+=======
+	["cached_roles"] = {
+	},
+	["cached_specs"] = {
+		["Player-162-0B4FCB3C"] = 103,
+>>>>>>> Stashed changes
 	},
 }

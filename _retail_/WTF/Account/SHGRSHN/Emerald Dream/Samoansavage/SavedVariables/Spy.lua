@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["version"] = "1.1",
 	["IgnoreData"] = {
 	},
@@ -72461,6 +72462,24 @@ SpyPerCharDB = {
 			["level"] = 60,
 			["mapX"] = 0.6,
 			["subZone"] = "Ring of Fates",
+=======
+	["KOSData"] = {
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+		["boomsquanch"] = {
+			["name"] = "boomsquanch",
+			["kos"] = 1,
+			["time"] = 1618290193,
+			["added"] = 1618293668,
+			["isEnemy"] = true,
+>>>>>>> Stashed changes
 		},
 	},
+	["version"] = "1.1",
 }

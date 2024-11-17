@@ -1,12 +1,44 @@
 local addonName, addon = ...
 local hbd = LibStub("HereBeDragons-2.0")
 
+<<<<<<< Updated upstream
 if addon.CLASSIC then
     return
 end
 
 local enableClicks = true       -- True if waypoint-clicking is enabled to set points
 local enableClosest = true      -- True if 'Automatic' quest waypoints are enabled
+=======
+if (not addon.WOW_MAINLINE) then
+    return
+end
+
+-- This function was removed in 11.0.2, so bringing back an implementation
+-- thanks to Kaliel in his tracker
+local QuestPOIGetIconInfo = QuestPOIGetIconInfo
+if not QuestPOIGetIconInfo then
+	QuestPOIGetIconInfo = function(questID)
+		local x, y
+		local completed = C_QuestLog.IsComplete(questID)
+		local mapID = GetQuestUiMapID(questID)
+		if mapID and mapID > 0 then
+			local quests = C_QuestLog.GetQuestsOnMap(mapID)
+			if quests then
+				for _, info in pairs(quests) do
+					if info.questID == questID then
+						x = info.x
+						y = info.y
+						break
+					end
+				end
+			end
+		end
+		return completed, x, y
+	end
+end
+
+local enableClicks = false       -- True if waypoint-clicking is enabled to set points
+>>>>>>> Stashed changes
 local modifier                  -- A string representing click-modifiers "CAS", etc.
 
 local modTbl = {
@@ -17,10 +49,30 @@ local modTbl = {
 
 local L = TomTomLocals
 
+<<<<<<< Updated upstream
 -- This function and the related events/hooks are used to automatically
 -- update the crazy arrow to the closest quest waypoint.
 local lastWaypoint
 local scanning          -- This function is not re-entrant, stop that
+=======
+
+-- Hello, I am the POI waypoint arbiter, I handle the setting and clearing of
+-- temporary waypoints for the POI integration
+local lastWaypoint
+
+local function SetPOIWaypoint(map, x, y, title)
+    -- Set the new waypoint
+    lastWaypoint = TomTom:AddWaypoint(map, x, y, {
+        title = title,
+        persistent = false,
+        arrivaldistance = TomTom.profile.poi.arrival,
+    })
+end
+
+local function ClearPOIWaypoint()
+    TomTom:RemoveWaypoint(lastWaypoint)
+end
+>>>>>>> Stashed changes
 
 
 local function GetQuestIndexForWatch(questWatchIndex)
@@ -29,7 +81,16 @@ local function GetQuestIndexForWatch(questWatchIndex)
     return questIndex
 end
 
+<<<<<<< Updated upstream
 local function ObjectivesChanged()
+=======
+-- This function and the related events/hooks are used to automatically
+-- update the crazy arrow to the closest quest waypoint.
+local scanning          -- This function is not re-entrant, stop that
+local function ObjectivesChanged()
+    local enableClosest = TomTom.profile.poi.setClosest
+
+>>>>>>> Stashed changes
     -- This function should only run if enableClosest is set
     if not enableClosest then
         return
@@ -86,6 +147,10 @@ local function ObjectivesChanged()
         local qid = C_QuestLog.GetQuestIDForQuestWatchIndex(watchIndex)
         C_QuestLog.SetSelectedQuest(qid)
         C_QuestLog.GetNextWaypoint(qid)
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         local completed, x, y, objective = QuestPOIGetIconInfo(qid)
         local qmap = GetQuestUiMapID(qid)
 
@@ -114,23 +179,35 @@ local function ObjectivesChanged()
         if lastWaypoint then
             -- This is a hack that relies on the UID format, do not use this
             -- in your addons, please.
+<<<<<<< Updated upstream
             local pm, px, py = unpack(lastWaypoint)
             if map == pm and x == px and y == py and lastWaypoint.title == title then
+=======
+            if TomTom:WaypointHasSameMapXYTitle(lastWaypoint, map, x, y, title) then
+>>>>>>> Stashed changes
                 -- This is the same waypoint, do nothing
                 setWaypoint = false
             else
                 -- This is a new waypoint, clear the previous one
+<<<<<<< Updated upstream
                 TomTom:RemoveWaypoint(lastWaypoint)
+=======
+                ClearPOIWaypoint()
+>>>>>>> Stashed changes
             end
         end
 
         if setWaypoint then
+<<<<<<< Updated upstream
             -- Set the new waypoint
             lastWaypoint = TomTom:AddWaypoint(map, x, y, {
                 title = title,
                 persistent = false,
                 arrivaldistance = TomTom.profile.poi.arrival,
             })
+=======
+            SetPOIWaypoint(map, x, y, title)
+>>>>>>> Stashed changes
 
             -- Check and see if the Crazy arrow is empty, and use it if so
             if TomTom:IsCrazyArrowEmpty() then
@@ -140,7 +217,11 @@ local function ObjectivesChanged()
     else
         -- No closest waypoint was found, so remove one if its already set
         if lastWaypoint then
+<<<<<<< Updated upstream
             TomTom:RemoveWaypoint(lastWaypoint)
+=======
+            ClearPOIWaypoint()
+>>>>>>> Stashed changes
             lastWaypoint = nil
         end
     end
@@ -153,7 +234,10 @@ local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("QUEST_POI_UPDATE")
 eventFrame:RegisterEvent("QUEST_LOG_UPDATE")
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 eventFrame:SetScript("OnEvent", function(self, event, ...)
     if event == "QUEST_POI_UPDATE" then
         ObjectivesChanged()
@@ -162,6 +246,7 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
     end
 end)
 
+<<<<<<< Updated upstream
 local poiclickwaypoints = {}
 local function poi_OnClick(self, button)
     if not enableClicks then
@@ -259,6 +344,11 @@ function TomTom:EnableDisablePOIIntegration()
     enableClicks= TomTom.profile.poi.enable
     modifier = TomTom.profile.poi.modifier
     enableClosest = TomTom.profile.poi.setClosest
+=======
+
+function TomTom:EnableDisablePOIIntegration()
+    local enableClosest = TomTom.profile.poi.setClosest
+>>>>>>> Stashed changes
 
     if not enableClosest and lastWaypoint then
         TomTom:RemoveWaypoint(lastWaypoint)

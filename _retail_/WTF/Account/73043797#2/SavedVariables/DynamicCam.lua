@@ -1,6 +1,7 @@
 
 DynamicCamDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoanslayer - Emerald Dream"] = "Default",
 		["YourCharName - YourServer"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
@@ -36,6 +37,14 @@ DynamicCamDB = {
 			},
 			["defaultVersion"] = 1,
 			["version"] = 2,
+=======
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+>>>>>>> Stashed changes
 			["situations"] = {
 				["033"] = {
 					["cameraActions"] = {
@@ -369,6 +378,7 @@ DynamicCamDB = {
 					},
 				},
 			},
+<<<<<<< Updated upstream
 			["actionCam"] = false,
 			["enabled"] = false,
 			["firstRun"] = false,
@@ -730,6 +740,9 @@ DynamicCamDB = {
 					},
 				},
 			},
+=======
+			["version"] = 2,
+>>>>>>> Stashed changes
 			["firstRun"] = false,
 		},
 	},

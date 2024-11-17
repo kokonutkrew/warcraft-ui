@@ -8,7 +8,11 @@ LeaMapsDB = {
 	["MapPosY"] = -94,
 	["EnableMovement"] = "On",
 	["ShowCoords"] = "On",
+<<<<<<< Updated upstream
 	["UnlockMap"] = "On",
+=======
+	["UnlockMap"] = "Off",
+>>>>>>> Stashed changes
 	["EnhanceBattleMap"] = "Off",
 	["tintAlpha"] = 1,
 	["StickyMapFrame"] = "Off",
@@ -18,6 +22,7 @@ LeaMapsDB = {
 	["MainPanelR"] = "CENTER",
 	["CoordsBackground"] = "On",
 	["RevealMap"] = "On",
+<<<<<<< Updated upstream
 	["MapScale"] = 1,
 	["ShowIcons"] = "On",
 	["HideTownCity"] = "On",
@@ -28,6 +33,18 @@ LeaMapsDB = {
 	["MaxMapPosY"] = 0,
 	["MainPanelY"] = 0,
 	["NoMapBorder"] = "On",
+=======
+	["HideTownCity"] = "On",
+	["ShowIcons"] = "On",
+	["minimapPos"] = 204,
+	["RememberZoom"] = "On",
+	["MaxMapPosY"] = 0,
+	["hide"] = false,
+	["CoordsLargeFont"] = "Off",
+	["MapScale"] = 1,
+	["MainPanelY"] = 0,
+	["NoMapBorder"] = "Off",
+>>>>>>> Stashed changes
 	["MaxMapPosA"] = "CENTER",
 	["MaxMapPosR"] = "CENTER",
 	["tintBlue"] = 1,
@@ -39,5 +56,9 @@ LeaMapsDB = {
 	["MaxMapScale"] = 0.9,
 	["ShowMinimapIcon"] = "On",
 	["tintGreen"] = 0.6,
+<<<<<<< Updated upstream
 	["minimapPos"] = 204,
+=======
+	["MainPanelA"] = "CENTER",
+>>>>>>> Stashed changes
 }

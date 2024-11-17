@@ -1,5 +1,6 @@
 
 VExRT = {
+<<<<<<< Updated upstream
 	["Note"] = {
 		["BlackNames"] = {
 		},
@@ -288,17 +289,82 @@ VExRT = {
 			[1939] = "Mennu the Betrayer",
 			[1922] = "The Maker",
 			[1892] = "Vazruden the Herald",
+=======
+	["Timers"] = {
+		["specTimes"] = {
+			[62] = 10,
+			[63] = 10,
+			[250] = 10,
+			[251] = 10,
+			[64] = 10,
+			[253] = 10,
+			[65] = 10,
+			[255] = 10,
+			[66] = 10,
+			[257] = 10,
+			[258] = 10,
+			[259] = 10,
+			[260] = 10,
+			[261] = 25,
+			[262] = 16,
+			[263] = 10,
+			[264] = 10,
+			[265] = 22,
+			[266] = 10,
+			[267] = 10,
+			[268] = 10,
+			[269] = 10,
+			[270] = 10,
+			[70] = 10,
+			[102] = 10,
+			[71] = 10,
+			[103] = 10,
+			[72] = 10,
+			[104] = 10,
+			[73] = 10,
+			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
+		},
+		["Type"] = 2,
+		["Strata"] = "HIGH",
+		["timeToKillAnalyze"] = 15,
+	},
+	["ProfileKeys"] = {
+		["Cherriebomb-EmeraldDream"] = "default",
+		["Cukie-EmeraldDream"] = "default",
+	},
+	["Encounter"] = {
+		["list"] = {
+			["Cherriebomb"] = {
+			},
+			["Cukie"] = {
+			},
+		},
+		["names"] = {
+>>>>>>> Stashed changes
 		},
 	},
 	["InviteTool"] = {
 		["Words"] = "инв inv byd штм 123",
 		["InvByChat"] = true,
 		["RaidDiff"] = 16,
+<<<<<<< Updated upstream
 		["PromoteRank"] = 3,
 		["LootThreshold"] = 2,
 		["Ranks"] = {
 			true, -- [1]
 		},
+=======
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
+		},
+		["LootThreshold"] = 2,
+>>>>>>> Stashed changes
 		["MasterLooters"] = "",
 		["LootMethod"] = "group",
 		["PromoteNames"] = "",
@@ -307,6 +373,7 @@ VExRT = {
 	},
 	["ExCD2"] = {
 		["gnGUIDs"] = {
+<<<<<<< Updated upstream
 			["Aeredyl"] = 259,
 			["Noctalune-Dath'Remar"] = 256,
 			["Candypupu-Bladefist"] = 267,
@@ -441,6 +508,9 @@ VExRT = {
 			["Peny-Lightbringer"] = 258,
 			["Tyrànnus"] = 71,
 			["Katilne-Frostmourne"] = 65,
+=======
+			["Cherriebomb"] = 259,
+>>>>>>> Stashed changes
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -617,7 +687,10 @@ VExRT = {
 		},
 	},
 	["Attendance"] = {
+<<<<<<< Updated upstream
 		["enabled"] = 2,
+=======
+>>>>>>> Stashed changes
 		["data"] = {
 		},
 		["alts"] = {
@@ -625,7 +698,10 @@ VExRT = {
 	},
 	["Inspect"] = {
 		["Soulbinds"] = {
+<<<<<<< Updated upstream
 			["Ñeytiri-EmeraldDream"] = "1606618853:3:1:322721:256-1-2",
+=======
+>>>>>>> Stashed changes
 		},
 	},
 	["InspectViewer"] = {
@@ -636,6 +712,7 @@ VExRT = {
 		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeNoValorUpgrade"] = false,
 	},
+<<<<<<< Updated upstream
 	["Timers"] = {
 		["specTimes"] = {
 			[62] = 10,
@@ -677,6 +754,40 @@ VExRT = {
 		},
 		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
+=======
+	["Marks"] = {
+		["list"] = {
+		},
+	},
+	["BattleRes"] = {
+		["Strata"] = "HIGH",
+	},
+	["Note"] = {
+		["BlackNames"] = {
+		},
+		["FontSize"] = 12,
+		["AutoLoad"] = {
+		},
+		["BlackLastUpdateName"] = {
+		},
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["Strata"] = "HIGH",
+		["BlackLastUpdateTime"] = {
+		},
+		["OnlyPromoted"] = true,
+		["OptionsFormatting"] = true,
+	},
+	["Addon"] = {
+		["Timer"] = 0.1,
+		["Version"] = 4500,
+		["PreVersion"] = 4500,
+	},
+	["WhoPulled"] = {
+>>>>>>> Stashed changes
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
@@ -684,6 +795,7 @@ VExRT = {
 		["ReadyCheckFrame"] = true,
 		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckFrameOnlyRL"] = true,
+<<<<<<< Updated upstream
 	},
 	["WhoPulled"] = {
 	},
@@ -698,6 +810,25 @@ VExRT = {
 	["Marks"] = {
 		["list"] = {
 		},
+=======
+		["WeaponEnch"] = {
+		},
+	},
+	["LootHistory"] = {
+		["list"] = {
+		},
+		["bossNames"] = {
+		},
+		["instanceNames"] = {
+		},
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["profiles"] = {
+		},
+>>>>>>> Stashed changes
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
@@ -707,6 +838,7 @@ VExRT = {
 		["trackingDamageSpells"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["LootHistory"] = {
 		["instanceNames"] = {
 			[0] = "Eastern Kingdoms",
@@ -2051,17 +2183,23 @@ VExRT = {
 			},
 		},
 	},
+=======
+>>>>>>> Stashed changes
 	["Logging"] = {
 	},
 	["MarksBar"] = {
 		["pulltimer"] = 10,
+<<<<<<< Updated upstream
 		["Strata"] = "HIGH",
+=======
+>>>>>>> Stashed changes
 		["pulltimer_right"] = 10,
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
 			true, -- [3]
 			true, -- [4]
+<<<<<<< Updated upstream
 		},
 	},
 	["VisNote"] = {
@@ -2069,11 +2207,23 @@ VExRT = {
 			{
 				"600A6DF3951539196315", -- [1]
 			}, -- [1]
+=======
+			true, -- [5]
+		},
+		["Strata"] = "HIGH",
+	},
+	["VisNote"] = {
+		["data"] = {
+>>>>>>> Stashed changes
 		},
 		["sync_data"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["BattleRes"] = {
 		["Strata"] = "HIGH",
+=======
+	["Profiles"] = {
+>>>>>>> Stashed changes
 	},
 }

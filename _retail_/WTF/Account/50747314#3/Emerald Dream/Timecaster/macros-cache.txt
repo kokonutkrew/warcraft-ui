@@ -1,0 +1,27 @@
+VER 3 010000000000000A "counter" "135776"
+#showtooltip
+/use spell steal
+/use counterspell
+END
+VER 3 0100000000000005 "frosts blasts" "1392551"
+#showtooltip
+/use frostbolt
+/use flurry
+/use ice lance
+END
+VER 3 0100000000000003 "frosty shield" "1387352"
+#showtooltip
+/use ice cold
+/use ice barrier
+/use ice veins
+/use cold snap
+END
+VER 3 0100000000000006 "rain stars" "429385"
+#showtooltip
+/use [@cursor]  blizzard
+END
+VER 3 0100000000000002 "tp freez" "134400"
+#showtooltip
+/use frost nova
+/use shimmer
+END

@@ -1,5 +1,6 @@
 
 RaiderIO_Config = {
+<<<<<<< Updated upstream
 	["useEnglishAbbreviations"] = false,
 	["enableKeystoneTooltips"] = true,
 	["disableScoreColors"] = false,
@@ -40,5 +41,55 @@ RaiderIO_MissingCharacters = {
 	["us-Leafygreensz-stormrage"] = true,
 	["us-Aitheaa-stormrage"] = true,
 	["us-Demonicway-stormrage"] = true,
+=======
+["useEnglishAbbreviations"] = false,
+["disableScoreColors"] = false,
+["enableKeystoneTooltips"] = true,
+["inverseProfileModifier"] = false,
+["previouslyEnabledLogging"] = false,
+["showMainBestScore"] = true,
+["allowClientToControlCombatLog"] = true,
+["showScoreInCombat"] = true,
+["lockProfile"] = false,
+["enableCombatLogTracking"] = false,
+["displayWeeklyGuildBest"] = false,
+["enableClientEnhancements"] = true,
+["enableProfileModifier"] = true,
+["enableWhoTooltips"] = true,
+["enableLFGDropdown"] = true,
+["enableGuildTooltips"] = true,
+["enableUnitTooltips"] = true,
+["mplusHeadlineMode"] = 2,
+["showRoleIcons"] = true,
+["positionProfileAuto"] = true,
+["showMainsScore"] = true,
+["enableFriendsTooltips"] = true,
+["showRaidEncountersInProfile"] = true,
+["showDropDownCopyURL"] = true,
+["showAverageScore"] = true,
+["enableLFGTooltips"] = true,
+["hidePersonalRaiderIOProfile"] = false,
+["showRaiderIOProfile"] = true,
+["enableWhoMessages"] = true,
+["showSimpleScoreColors"] = false,
+["showScoreModifier"] = false,
+["showClientGuildBest"] = true,
+}
+RaiderIO_LastCharacter = "us-Samoansage-emerald-dream"
+RaiderIO_MissingCharacters = {
+["us-Valstar-maelstrom"] = true,
+["us-Margana-emerald-dream"] = true,
+["us-Laenari-frostmourne"] = true,
+["us-Tokaev-emerald-dream"] = true,
+["us-Rrett-emerald-dream"] = true,
+["us-Vályria-emerald-dream"] = true,
+["us-Talucielody-thunderlord"] = true,
+["us-Kíngdárk-twisting-nether"] = true,
+["us-Icetastic-emerald-dream"] = true,
+}
+RaiderIO_MissingServers = {
+>>>>>>> Stashed changes
 }
 RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

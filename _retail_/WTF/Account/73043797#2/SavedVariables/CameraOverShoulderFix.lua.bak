@@ -1,0 +1,30 @@
+
+cosFixDB = {
+	["char"] = {
+		["Cherriebomb - Emerald Dream"] = {
+			["lastModelId"] = 1000764,
+			["lastActiveMount"] = 679,
+		},
+		["Cukie - Emerald Dream"] = {
+			["lastModelId"] = 1000764,
+		},
+	},
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+customOffsetFactors = {
+	["mountId"] = {
+	},
+	["modelId"] = {
+	},
+	["vehicleId"] = {
+	},
+}
+newFactorTriggers = {
+}

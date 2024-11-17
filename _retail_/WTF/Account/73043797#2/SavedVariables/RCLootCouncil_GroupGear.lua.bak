@@ -1,0 +1,11 @@
+
+RCGroupGearDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["PlayerData"] = {
 		["Meddling"] = {
 			["mapID"] = 1670,
@@ -116,5 +117,53 @@ SpyPerCharDB = {
 		["Karthi"] = 1614298422,
 		["Kaijinn"] = 1611979218,
 		["Draazz"] = 1606942090,
+=======
+	["version"] = "1.1",
+	["IgnoreData"] = {
+	},
+	["KOSData"] = {
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+	["PlayerData"] = {
+		["shamzakel"] = {
+			["time"] = 1618290221,
+			["name"] = "shamzakel",
+			["zone"] = "SMV Alliance Garrison Level 3",
+			["kos"] = 1,
+			["subZone"] = "",
+			["added"] = 1618290221,
+			["isEnemy"] = true,
+		},
+		["shinscraper"] = {
+			["time"] = 1618290259,
+			["name"] = "shinscraper",
+			["zone"] = "SMV Alliance Garrison Level 3",
+			["kos"] = 1,
+			["subZone"] = "",
+			["added"] = 1618290259,
+			["isEnemy"] = true,
+		},
+		["xuper"] = {
+			["time"] = 1618290234,
+			["name"] = "xuper",
+			["zone"] = "SMV Alliance Garrison Level 3",
+			["kos"] = 1,
+			["subZone"] = "",
+			["added"] = 1618290234,
+			["isEnemy"] = true,
+		},
+		["boomsquanch"] = {
+			["time"] = 1618293668,
+			["name"] = "boomsquanch",
+			["zone"] = "SMV Alliance Garrison Level 3",
+			["kos"] = 1,
+			["subZone"] = "",
+			["added"] = 1618293668,
+			["isEnemy"] = true,
+		},
+>>>>>>> Stashed changes
 	},
 }

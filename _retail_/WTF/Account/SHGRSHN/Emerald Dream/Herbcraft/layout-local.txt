@@ -1,9 +1,14 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: GRM_RosterChangeLogFrame
+=======
+Frame: AMPVP_SettingsUI_Instanced
+>>>>>>> Stashed changes
 FrameLevel: 1
 Anchor: CENTER
 X: 0
 Y: 0
+<<<<<<< Updated upstream
 W: 600
 H: 465
 Frame: PLH_LootedItemsFrame
@@ -20,3 +25,56 @@ X: 388
 Y: 245
 W: 104
 H: 51
+=======
+W: 420
+H: 550
+Frame: AMPVP_CopyCharNameFrame2
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 450
+H: 100
+Frame: MOTSHframe
+FrameLevel: 1
+Anchor: TOP
+X: 300
+Y: 0
+W: 352
+H: 201
+Frame: MOTSHSettings
+FrameLevel: 1
+Anchor: TOP
+X: 300
+Y: 0
+W: 250
+H: 580
+Frame: MOTSHPreview
+FrameLevel: 1
+Anchor: TOP
+X: 300
+Y: 0
+W: 90
+H: 110
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 30
+Y: -62
+W: 400
+H: 140
+Frame: AMPVP_SettingsUI
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 420
+H: 580
+Frame: RT
+FrameLevel: 1
+Anchor: BOTTOM
+X: -348
+Y: 166
+W: 298
+H: 24
+>>>>>>> Stashed changes

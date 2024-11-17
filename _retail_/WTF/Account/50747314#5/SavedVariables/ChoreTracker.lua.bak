@@ -1,0 +1,621 @@
+
+ChoreTrackerDB = {
+["char"] = {
+["Saig - Emerald Dream"] = {
+["skillLines"] = {
+[164] = true,
+[202] = true,
+},
+},
+["Dethflare - Emerald Dream"] = {
+["skillLines"] = {
+[182] = true,
+[333] = true,
+},
+},
+["Winbin - Emerald Dream"] = {
+["skillLines"] = {
+[2882] = 13,
+[165] = true,
+[356] = true,
+[393] = true,
+[185] = true,
+},
+},
+},
+["profileKeys"] = {
+["Bigponches - Emerald Dream"] = "Default",
+["Saig - Emerald Dream"] = "Default",
+["Dethflare - Emerald Dream"] = "Default",
+["Winbin - Emerald Dream"] = "Default",
+},
+["global"] = {
+["questWeeks"] = {
+[1732028399] = {
+[29436] = {
+["status"] = 1,
+["questId"] = 29436,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/5 Cannon Target Points Accrued",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[77723] = {
+["status"] = 2,
+["questId"] = 77723,
+["objectives"] = {
+},
+},
+[77727] = {
+["status"] = 2,
+["questId"] = 77727,
+["objectives"] = {
+},
+},
+[77731] = {
+["status"] = 2,
+["questId"] = 77731,
+["objectives"] = {
+},
+},
+[84098] = {
+["status"] = 2,
+["questId"] = 84098,
+["objectives"] = {
+},
+},
+[84102] = {
+["status"] = 2,
+["questId"] = 84102,
+["objectives"] = {
+},
+},
+[82783] = {
+["status"] = 1,
+["questId"] = 82783,
+["objectives"] = {
+{
+["text"] = "0/1 Complete the scenario \"The Codex of Chromie\"",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[43323] = {
+["status"] = 1,
+["questId"] = 43323,
+["objectives"] = {
+{
+["text"] = "0/1 Answered Llore's question",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[67012] = {
+["status"] = 1,
+["questId"] = 67012,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/15 Animals Rescued",
+["have"] = 0,
+["need"] = 15,
+},
+{
+["type"] = "monster",
+["text"] = "0/10 Elementals slain",
+["have"] = 0,
+["need"] = 10,
+},
+},
+},
+[66960] = {
+["status"] = 1,
+["questId"] = 66960,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Klozicc the Ascended slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84090] = {
+["status"] = 2,
+["questId"] = 84090,
+["objectives"] = {
+},
+},
+[77729] = {
+["status"] = 2,
+["questId"] = 77729,
+["objectives"] = {
+},
+},
+[66241] = {
+["status"] = 1,
+["questId"] = 66241,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[72802] = {
+["status"] = 1,
+["questId"] = 72802,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[76586] = {
+["status"] = 1,
+["questId"] = 76586,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/4 Lesser Keyflames Activated",
+["have"] = 0,
+["need"] = 4,
+},
+},
+},
+[75795] = {
+["status"] = 1,
+["questId"] = 75795,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[77728] = {
+["status"] = 2,
+["questId"] = 77728,
+["objectives"] = {
+},
+},
+[77732] = {
+["status"] = 2,
+["questId"] = 77732,
+["objectives"] = {
+},
+},
+[77736] = {
+["status"] = 2,
+["questId"] = 77736,
+["objectives"] = {
+},
+},
+[84103] = {
+["status"] = 2,
+["questId"] = 84103,
+["objectives"] = {
+},
+},
+[75665] = {
+["status"] = 1,
+["questId"] = 75665,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/1500 Loamm Niffen reputation earned",
+["have"] = 0,
+["need"] = 1500,
+},
+},
+},
+[84489] = {
+["status"] = 2,
+["questId"] = 84489,
+["objectives"] = {
+},
+},
+[29463] = {
+["status"] = 1,
+["questId"] = 29463,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/30 Gnolls Whacked",
+["have"] = 0,
+["need"] = 30,
+},
+},
+},
+[66878] = {
+["status"] = 1,
+["questId"] = 66878,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[66877] = {
+["status"] = 1,
+["questId"] = 66877,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84097] = {
+["status"] = 2,
+["questId"] = 84097,
+["objectives"] = {
+},
+},
+[47523] = {
+["status"] = 1,
+["questId"] = 47523,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Illidan Stormrage defeated",
+["need"] = 1,
+["type"] = "object",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Timewarped Illidari Battleplans",
+["need"] = 1,
+["type"] = "item",
+},
+},
+},
+[81930] = {
+["status"] = 1,
+["questId"] = 81930,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Meet Jaina in Silithus",
+},
+},
+},
+[79351] = {
+["status"] = 2,
+["questId"] = 79351,
+["objectives"] = {
+},
+},
+[74378] = {
+["status"] = 1,
+["questId"] = 74378,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
+},
+},
+},
+[72116] = {
+["status"] = 1,
+["questId"] = 72116,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Liskron the Dazzling slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[74449] = {
+["status"] = 1,
+["questId"] = 74449,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Overloading Defense Matrix slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[57300] = {
+["status"] = 1,
+["questId"] = 57300,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/500 Earn Honor in Korrak's Revenge",
+["have"] = 0,
+["need"] = 500,
+},
+},
+},
+[84096] = {
+["status"] = 2,
+["questId"] = 84096,
+["objectives"] = {
+},
+},
+[84100] = {
+["status"] = 2,
+["questId"] = 84100,
+["objectives"] = {
+},
+},
+[83285] = {
+["status"] = 1,
+["questId"] = 83285,
+["objectives"] = {
+},
+},
+[82155] = {
+["status"] = 1,
+["questId"] = 82155,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete 3 World Quests in the Ringing Deeps",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[69873] = {
+["status"] = 1,
+["questId"] = 69873,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Henlare slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84106] = {
+["status"] = 2,
+["questId"] = 84106,
+["objectives"] = {
+},
+},
+[85947] = {
+["status"] = 1,
+["questId"] = 85947,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/5 Timewalking dungeons completed",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[84104] = {
+["status"] = 2,
+["questId"] = 84104,
+["objectives"] = {
+},
+},
+[84254] = {
+["status"] = 2,
+["questId"] = 84254,
+["objectives"] = {
+},
+},
+[84094] = {
+["status"] = 2,
+["questId"] = 84094,
+["objectives"] = {
+},
+},
+[72292] = {
+["status"] = 1,
+["questId"] = 72292,
+["objectives"] = {
+{
+["type"] = "log",
+["text"] = "Tell the story of your victory to Elder Poa in Iskaara.",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[82817] = {
+["status"] = 1,
+["questId"] = 82817,
+["objectives"] = {
+{
+["text"] = "0/1 Dagran Thaurissan defeated",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Timewarped Ironforge Blueprints",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84099] = {
+["status"] = 2,
+["questId"] = 84099,
+["objectives"] = {
+},
+},
+[77785] = {
+["status"] = 1,
+["questId"] = 77785,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[72560] = {
+["status"] = 1,
+["questId"] = 72560,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Kill Credit: NEVER [DNT] slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[77730] = {
+["status"] = 2,
+["questId"] = 77730,
+["objectives"] = {
+},
+},
+[47254] = {
+["status"] = 1,
+["questId"] = 47254,
+["objectives"] = {
+{
+["text"] = "0/1 Lord Kazzak slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Azuregos slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Dragon of Nightmare slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84101] = {
+["status"] = 2,
+["questId"] = 84101,
+["objectives"] = {
+},
+},
+[69930] = {
+["status"] = 1,
+["questId"] = 69930,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Basrikron slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84089] = {
+["status"] = 2,
+["questId"] = 84089,
+["objectives"] = {
+},
+},
+[54402] = {
+["status"] = 1,
+["questId"] = 54402,
+["objectives"] = {
+},
+},
+[81507] = {
+["status"] = 2,
+["questId"] = 81507,
+["objectives"] = {
+},
+},
+[70072] = {
+["status"] = 1,
+["questId"] = 70072,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/8 Time-Lost Relics collected",
+["have"] = 0,
+["need"] = 8,
+},
+{
+["type"] = "item",
+["text"] = "0/8 Time-Lost Possessions collected",
+["have"] = 0,
+["need"] = 8,
+},
+},
+},
+[83069] = {
+["status"] = 1,
+["questId"] = 83069,
+["objectives"] = {
+{
+["need"] = 3,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/3 Complete 3 World Quests in Isle of Dorn",
+},
+},
+},
+[81653] = {
+["status"] = 1,
+["questId"] = 81653,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Shurrai slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+},
+},
+["seenAutoAcceptMessage"] = true,
+},
+["profiles"] = {
+["Default"] = {
+["window"] = {
+["minimized"] = true,
+["height"] = 150,
+["locked"] = true,
+["top"] = 1079.999877929688,
+["left"] = 482.0001831054688,
+["width"] = 199.9999084472656,
+},
+},
+},
+}

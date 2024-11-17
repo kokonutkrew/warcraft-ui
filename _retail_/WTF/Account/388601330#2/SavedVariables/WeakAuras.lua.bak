@@ -2,6 +2,7 @@
 WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
+<<<<<<< Updated upstream
 	["login_squelch_time"] = 10,
 	["lastArchiveClear"] = 1604723937,
 	["minimap"] = {
@@ -13,4 +14,17 @@ WeakAurasSaved = {
 	},
 	["displays"] = {
 	},
+=======
+	["dbVersion"] = 44,
+	["login_squelch_time"] = 10,
+	["registered"] = {
+	},
+	["lastUpgrade"] = 1617611019,
+	["displays"] = {
+	},
+	["lastArchiveClear"] = 1617610974,
+	["minimap"] = {
+		["hide"] = false,
+	},
+>>>>>>> Stashed changes
 }

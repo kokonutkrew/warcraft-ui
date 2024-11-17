@@ -5,6 +5,7 @@ _detalhes_database = {
 	["mythic_dungeon_id"] = 0,
 	["tabela_historico"] = {
 		["tabelas"] = {
+<<<<<<< Updated upstream
 			{
 				{
 					["tipo"] = 2,
@@ -10371,6 +10372,8 @@ _detalhes_database = {
 					["Lunarfall Raven"] = 1,
 				},
 			}, -- [18]
+=======
+>>>>>>> Stashed changes
 		},
 	},
 	["ocd_tracker"] = {
@@ -10387,7 +10390,11 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["last_version"] = "v9.0.2.8192",
+=======
+	["last_version"] = "9.1.59108",
+>>>>>>> Stashed changes
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -10400,11 +10407,17 @@ _detalhes_database = {
 		["last_coach_name"] = false,
 	},
 	["on_death_menu"] = true,
+<<<<<<< Updated upstream
 	["nick_tag_cache"] = {
 		["nextreset"] = 1613450770,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 2236,
+=======
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 0,
+>>>>>>> Stashed changes
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -10412,6 +10425,7 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
+<<<<<<< Updated upstream
 	["last_instance_time"] = 1612172342,
 	["active_profile"] = "KokonutKrew",
 	["last_realversion"] = 144,
@@ -10612,11 +10626,14 @@ _detalhes_database = {
 			["arrow_anchor_y"] = 0,
 		},
 	},
+=======
+>>>>>>> Stashed changes
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+<<<<<<< Updated upstream
 	["last_day"] = "01",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
@@ -10633,10 +10650,15 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
+=======
+	["active_profile"] = "KokonutKrew",
+	["last_realversion"] = 145,
+>>>>>>> Stashed changes
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["combat_id"] = 76,
 	["savedStyles"] = {
 	},
@@ -15395,6 +15417,11 @@ _detalhes_database = {
 		},
 	},
 	["force_font_outline"] = "",
+=======
+	["plugin_database"] = {
+	},
+	["last_day"] = "16",
+>>>>>>> Stashed changes
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -15418,10 +15445,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -304.4999694824219,
 					["x"] = -815.9999694824219,
 					["w"] = 228,
 					["h"] = 108.9999923706055,
+=======
+					["y"] = -336.5198777119279,
+					["x"] = -820.5599462761377,
+					["w"] = 228,
+					["h"] = 109,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -15453,10 +15487,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -304.4999694824219,
 					["x"] = -588,
 					["w"] = 228,
 					["h"] = 108.9999923706055,
+=======
+					["y"] = -336.5198777119279,
+					["x"] = -601.6799539204331,
+					["w"] = 227.9999542236328,
+					["h"] = 109,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -15487,10 +15528,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -270.9968872070313,
 					["x"] = 356.00146484375,
 					["w"] = 309.9999389648438,
 					["h"] = 157.9999694824219,
+=======
+					["y"] = -212.3147583007813,
+					["x"] = -816.9266662597656,
+					["w"] = 197.4075927734375,
+					["h"] = 74.55563354492188,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -15512,7 +15560,11 @@ _detalhes_database = {
 				1, -- [5]
 			},
 			["is_open"] = true,
+<<<<<<< Updated upstream
 			["isLocked"] = false,
+=======
+			["isLocked"] = true,
+>>>>>>> Stashed changes
 			["snap"] = {
 				3, -- [1]
 			},
@@ -15521,10 +15573,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -270.9968566894531,
 					["x"] = 666.0013427734375,
 					["w"] = 309.9999389648438,
 					["h"] = 157.9999542236328,
+=======
+					["y"] = -212.3147277832031,
+					["x"] = -621.2969970703125,
+					["w"] = 193.8517761230469,
+					["h"] = 74.55557250976562,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -15535,8 +15594,47 @@ _detalhes_database = {
 			},
 		}, -- [4]
 	},
+<<<<<<< Updated upstream
 	["character_data"] = {
 		["logons"] = 3,
+=======
+	["last_instance_time"] = 0,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["cached_roles"] = {
+	},
+	["ignore_nicktag"] = false,
+	["combat_id"] = 0,
+	["savedStyles"] = {
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1641015814,
+		["last_version"] = 14,
+	},
+	["combat_counter"] = 3,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["force_font_outline"] = "",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+>>>>>>> Stashed changes
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

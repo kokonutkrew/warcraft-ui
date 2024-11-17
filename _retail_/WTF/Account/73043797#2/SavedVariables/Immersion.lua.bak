@@ -4,7 +4,11 @@ ImmersionSetup = {
 	["scale"] = 1,
 	["elementscale"] = 1,
 	["disableprogression"] = false,
+<<<<<<< Updated upstream
 	["titleoffsetY"] = 449.217529296875,
+=======
+	["titleoffsetY"] = 0,
+>>>>>>> Stashed changes
 	["hideui"] = false,
 	["boxoffsetX"] = 0,
 	["accept"] = "SPACE",
@@ -17,6 +21,10 @@ ImmersionSetup = {
 	["boxpoint"] = "Bottom",
 	["boxlock"] = true,
 	["titlescale"] = 1,
+<<<<<<< Updated upstream
 	["titleoffset"] = 417.000732421875,
+=======
+	["titleoffset"] = 500,
+>>>>>>> Stashed changes
 	["boxoffsetY"] = 150,
 }

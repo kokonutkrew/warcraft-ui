@@ -1,6 +1,9 @@
 
 RecklessAbandonDB = {
 	["profileKeys"] = {
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
 		["Samoanbatman - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
@@ -10,9 +13,18 @@ RecklessAbandonDB = {
 }
 RecklessAbandonPrivateDB = {
 	["profileKeys"] = {
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
 		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
 	},
 	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+		},
+		["Sonikk - Emerald Dream"] = {
+		},
+		["Ashh - Emerald Dream"] = {
+		},
 		["Samoanbatman - Emerald Dream"] = {
 		},
 	},

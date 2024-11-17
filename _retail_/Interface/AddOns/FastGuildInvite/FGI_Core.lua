@@ -2,11 +2,8 @@ local addon = FGI
 local fn = addon.functions
 local L = FGI:GetLocale()
 local interface = addon.interface
-local settings = L.settings
 local Console = LibStub("AceConsole-3.0")
 local GUI = LibStub("AceGUI-3.0")
-local AceSerializer = LibStub("AceSerializer-3.0")
-local libc = LibStub:GetLibrary("LibCompress")
 local FastGuildInvite = addon.lib
 local DB = addon.DB
 local debugDB = addon.debugDB
@@ -14,10 +11,7 @@ addon.icon = LibStub("LibDBIcon-1.0")
 local icon = addon.icon
 local color = addon.color
 local debug = fn.debug
-
-local function istable(t)
-	return type(t) == "table"
-end
+local Analytic = addon.lib.WagoAnalytics
 
 addon.dataBroker = LibStub("LibDataBroker-1.1"):NewDataObject("FGI",
 	{type = "launcher", label = "FGI", icon = "Interface\\AddOns\\FastGuildInvite\\img\\minimap\\MiniMapButton"}
@@ -56,7 +50,7 @@ local function CanInteraction(name, server, unit)
 				end
 			end
 		end
-		
+
 		return canInvited
 	end
 	return false
@@ -80,113 +74,71 @@ local supportedTypes = {
 	COMMUNITIES_WOW_MEMBER = 1,
 	COMMUNITIES_GUILD_MEMBER = 1,
 }
-local function HandlesGlobalMouseEvent(self, button, event)
-	if event == "GLOBAL_MOUSE_DOWN" and (button == "LeftButton" or button == "RightButton")then
-		return true
-	end
-	return false
-end
 
-addon.MENU = GUI:Create("SimpleGroup")
-local f = addon.MENU
-f:SetWidth(135)
-f:SetHeight(63)
-f:SetLayout("NIL")
+addon.MENU = CreateFrame("Frame", "CustomChatDropdown", UIParent, "UIDropDownMenuTemplate")
 
-local invite = GUI:Create('Button')
-invite:SetText('FGI - Guild Invite')
-invite:SetWidth(135)
-invite:SetHeight(20)
-invite.frame.HandlesGlobalMouseEvent = HandlesGlobalMouseEvent
-invite:SetCallback('OnClick', function()
-	local name = f.name
-	GuildInvite(name)
-	fn:rememberPlayer(name)
-	CloseDropDownMenus()
-end)
-invite:SetPoint("TOPLEFT", f.frame, "TOPLEFT", 0, 0)
-f:AddChild(invite)
-
-local blacklist = GUI:Create('Button')
-blacklist:SetText('FGI - Black List')
-blacklist:SetWidth(135)
-blacklist:SetHeight(20)
-blacklist.frame.HandlesGlobalMouseEvent = HandlesGlobalMouseEvent
-blacklist:SetCallback('OnClick', function()
-	local name = fn:parseName(f.name)
-	fn:blackList(name)
-	interface.settings.Blacklist.content:update()
-	if not DB.global.fastBlacklist then
-		StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = name})
-	end
-	CloseDropDownMenus()
-end)
-blacklist:SetPoint("TOPLEFT", invite.frame, "BOTTOMLEFT", 0, 0)
-f:AddChild(blacklist)
-
-local unblacklist = GUI:Create('Button')
-unblacklist:SetText('FGI - Unblacklist')
-unblacklist:SetWidth(135)
-unblacklist:SetHeight(20)
-unblacklist.frame.HandlesGlobalMouseEvent = HandlesGlobalMouseEvent
-unblacklist:SetCallback('OnClick', function()
-	local name = fn:parseName(f.name)
-	fn:unblacklist(name)
-	CloseDropDownMenus()
-end)
-unblacklist:SetPoint("TOPLEFT", blacklist.frame, "BOTTOMLEFT", 0, 0)
-f:AddChild(unblacklist)
-
-local function DropDownOnShow(self)
-	local dropdown = self.dropdown
-	if not dropdown then
+function InitMenu(self, level)
+	if not self.playerName or level ~= 1 then
 		return
 	end
-	
-	f.frame:SetParent(self)
-	f.frame:SetFrameStrata(self:GetFrameStrata())
-	f.frame:SetFrameLevel(self:GetFrameLevel() + 2)
-	f:ClearAllPoints()
-	
-	if dropdown.Button == _G.LFGListFrameDropDownButton then -- LFD
-		-- ShowCustomDropDown(self, dropdown, dropdown.menuList[2].arg1)
-	elseif dropdown.which and supportedTypes[dropdown.which] then -- UnitPopup
-		local dropdownFullName
-		if dropdown.name then
-			if dropdown.server and not dropdown.name:find("-") then
-				dropdownFullName = dropdown.name .. "-" .. dropdown.server
-			else
-				dropdownFullName = dropdown.name
+
+	local info = UIDropDownMenu_CreateInfo()
+        info.text = 'FGI - Guild Invite'
+        info.notCheckable = true
+        info.fontObject = GameFontNormalOutline
+        info.func = function()
+			GuildInvite(self.playerName)
+			fn:rememberPlayer(self.playerName)
+        end
+        UIDropDownMenu_AddButton(info, level)
+
+        info = UIDropDownMenu_CreateInfo()
+        info.disabled = true
+        info.notCheckable = true
+        UIDropDownMenu_AddButton(info, level)
+
+        info = UIDropDownMenu_CreateInfo()
+        info.text = 'FGI - Black List'
+        info.notCheckable = true
+        info.fontObject = GameFontNormalOutline
+        info.func = function()
+			fn:blackList(self.playerName)
+			interface.settings.Blacklist:update()
+			if not DB.global.fastBlacklist then
+				StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = self.playerName})
 			end
-		end
-		if not CanInteraction(dropdownFullName, dropdown.server, dropdown.unit) then return end
-		f.name = dropdownFullName
-	else
-		return
-	end
-	
-	if self:GetLeft() >= self:GetWidth() then
-		f:SetPoint("TOPRIGHT", self, "TOPLEFT",0,0)
-	else
-		f:SetPoint("TOPLEFT", self, "TOPRIGHT",0,0)
-	end
-	f.frame:Show()
-end
-local function DropDownOnHide()
-	f.frame:Hide()
+        end
+        UIDropDownMenu_AddButton(info, level)
+
+        info = UIDropDownMenu_CreateInfo()
+        info.disabled = true
+        info.notCheckable = true
+        UIDropDownMenu_AddButton(info, level)
+
+        info = UIDropDownMenu_CreateInfo()
+        info.text = 'FGI - Unblacklist'
+        info.notCheckable = true
+        info.fontObject = GameFontNormalOutline
+        info.func = function()
+			fn:unblacklist(self.playerName)
+			interface.settings.Blacklist:update()
+        end
+        UIDropDownMenu_AddButton(info, level)
 end
 
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("CHAT_MSG_SYSTEM")
 frame:SetScript("OnEvent", function(...)
 	local _,_, msg = ...
-	place = strfind(ERR_GUILD_LEAVE_S ,"%s",1,true)
+	local place = strfind(ERR_GUILD_LEAVE_S ,"%s",1,true)
 	if (place) then
-		n = strsub(msg,place)
-		name = strsub(n,1,(strfind(n,"%s") or 2)-1)
+		local n = strsub(msg,place)
+		local name = strsub(n,1,(strfind(n,"%s") or 2)-1)
 		if format(ERR_GUILD_LEAVE_S ,name) == msg then
 			DB.realm.leave[name] = true
 			debug(format("Player %s left the guild or was expelled.", name), color.yellow)
+			fn.updateTableForSync('leave', {name = name, time = true})
+			fn.history:onLeave();
 		end
 	end
 end)
@@ -196,31 +148,34 @@ frame:RegisterEvent("CHAT_MSG_OFFICER")
 frame:SetScript("OnEvent", function(_,_, msg,_,_,_,name,...)
 	local function isCorrect(str)
 		local n,r = str:match("([^-%s]+)[%s]*-[%s]*([^-]+)")
-		if n==nil then 
+		if n==nil then
 			n = msg
 		end
 		-- if n==nil then return false end
 		return true, n, r
 	end
-	
-	if name == UnitName("Player") then print("player -> exit")end
+
 	if not msg:find("^!") then return end
 	if msg:find("^!fgi") then
-		SendChatMessage(" "..L.blacklistAdd , "OFFICER",  GetDefaultLanguage("player"))
-		SendChatMessage(" "..L.blacklistDelete , "OFFICER",  GetDefaultLanguage("player"))
-		SendChatMessage(" "..L.blacklistGetList , "OFFICER",  GetDefaultLanguage("player"))
+		SendChatMessage(" "..L.blacklistAdd , "OFFICER",  GetDefaultLanguage())
+		SendChatMessage(" "..L.blacklistDelete , "OFFICER",  GetDefaultLanguage())
+		SendChatMessage(" "..L.blacklistGetList , "OFFICER",  GetDefaultLanguage())
 	elseif msg:find("^!blacklistAdd") then
 		msg = msg:gsub("!blacklistAdd ", '')
 		local b,n,r = isCorrect(msg)
 		if r==nil then return end
-		print("add",b,n,r)
+		-- fn:blackList(name)
+		-- interface.settings.Blacklist:update()
+		print("test add",b,n,r)
 	elseif msg:find("^!blacklistDelete") then
 		msg = msg:gsub("!blacklistDelete ", '')
 		local b,n,r = isCorrect(msg)
-		print("delete",b,n,r)
+		-- fn:unblacklist(name)
+		-- interface.settings.Blacklist:update()
+		print("test delete",b,n,r)
 	elseif msg:find("^!blacklistGetList") then
 		for k,v in pairs(DB.realm.blackList) do
-			SendChatMessage(format("%s - %s", k, v) , "OFFICER",  GetDefaultLanguage("player"))
+			SendChatMessage(format("%s - %s", k, v) , "OFFICER",  GetDefaultLanguage())
 		end
 	end
 end)
@@ -236,13 +191,20 @@ end
 
 function FastGuildInvite:OnEnable()
 	if DB.global.createMenuButtons then
-		DropDownList1:HookScript("OnShow", DropDownOnShow)
-		DropDownList1:HookScript("OnHide", DropDownOnHide)
+		hooksecurefunc("SetItemRef", function(link, text, button, chatFrame)
+			local type, name = strsplit(":", link)
+			if button == "RightButton" and type == "player" then
+				addon.MENU.playerName = name
+
+				UIDropDownMenu_Initialize(addon.MENU, InitMenu, "MENU")
+				ToggleDropDownMenu(1, nil, addon.MENU, "cursor", 200, 0)
+			end
+		end)
 	end
-	
+
 	addon.debug = DB.global.debug
 	fn:blackListAutoKick()
-	local parent = interface.settings.filters.content.filtersFrame
+	local parent = interface.settings.filters.filtersFrame
 	local list = parent.filterList
 	fn:FiltersInit()
 	C_Timer.After(0.1, function()
@@ -261,75 +223,60 @@ function FastGuildInvite:OnEnable()
 	end
 	end)
 	fn:FiltersUpdate()
-		
-	interface.debugFrame = GUI:Create("ClearFrame")
-	local debugFrame = interface.debugFrame
-	debugFrame:SetTitle("FGI Debug")
-	debugFrame:SetWidth(400)
-	debugFrame:SetHeight(720)
-	debugFrame:SetLayout("Fill")
-	
-	debugFrame.title:SetScript('OnMouseUp', function(mover)
-		local frame = mover:GetParent()
-		frame:StopMovingOrSizing()
-		local self = frame.obj
-		local status = self.status or self.localstatus
-		status.width = frame:GetWidth()
-		status.height = frame:GetHeight()
-		status.top = frame:GetTop()
-		status.left = frame:GetLeft()
-	end)
-	
-	debugFrame.debugList = GUI:Create("MultiLineEditBox")
-	local frame = debugFrame.debugList
-	-- frame:SetNumLines(50)
-	frame:SetLabel("")
-	frame:SetWidth(interface.debugFrame.frame:GetWidth()-40)
-	frame.txt = ''
-	frame:DisableButton(true)
-	frame:SetHeight(interface.debugFrame.frame:GetHeight()-40)
-	debugFrame:AddChild(frame)
-	
-	debugFrame.closeButton = GUI:Create('Button')
-	local frame = debugFrame.closeButton
-	frame:SetText('X')
-	frame:SetWidth(frame.frame:GetHeight())
-	fn:closeBtn(frame)
-	frame:SetCallback('OnClick', function()
-		interface.debugFrame:Hide()
-	end)
-	debugFrame:AddChild(frame)
-	-- debugFrame.closeButton:ClearAllPoints()
-	debugFrame.closeButton:SetPoint("CENTER", debugFrame.frame, "TOPRIGHT", -8, -8)
-	debugFrame:Hide()
-	-- if not addon.debug then debugFrame:Hide() else debugFrame:Show() end
-	
+
 	fn:SetKeybind(DB.global.keyBind.invite, "invite")
 	fn:SetKeybind(DB.global.keyBind.nextSearch, "nextSearch")
-	
-	
-	
-	
-	
-	
+
 	interface.debugFrame:ClearAllPoints()
 	interface.debugFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", 0, 0)
-	
-	
-	
+
 	Console:RegisterChatCommand('fgi', 'FGIInput')
 	Console:RegisterChatCommand('FastGuildInvite', 'FGIInput')
 	Console:RegisterChatCommand('fgibl', 'FGIAddBlackList')
 	Console:RegisterChatCommand('fgidebug', 'FGIdebug')
+
+	Analytic:Switch('enable filters', DB.realm.enableFilters or false)
+	Analytic:Switch('custom who', DB.realm.customWho or false)
+	Analytic:SetCounter('invite type', DB.global.inviteType or 1)
+	Analytic:Switch('use keybinds', DB.global.keyBind.invite or DB.global.keyBind.nextSearch or false)
+	Analytic:SetCounter('clear DB period', DB.global.clearDBtimes)
+	Analytic:Switch('minimap', not DB.global.minimap.hide)
+	Analytic:Switch('debug mode', DB.global.debug or false)
+	Analytic:Switch('blacklist in officer chat', DB.global.blacklistOfficer)
+	Analytic:Switch('remember all', DB.global.rememberAll or false)
+	Analytic:Switch('queue notify', DB.global.queueNotify)
+	Analytic:Switch('search alert notify', DB.global.searchAlertNotify)
+	Analytic:Switch('show addon submenu', DB.global.createMenuButtons)
+	Analytic:Switch('set note', DB.global.setNote or false)
+	Analytic:Switch('set officer note', DB.global.setOfficerNote or false)
+	Analytic:Switch('confirm search clear', DB.global.confirmSearchClear)
+	Analytic:Switch('fast blacklist', DB.global.fastBlacklist or false)
+	Analytic:Switch('intro show', DB.global.introShow)
+	Analytic:Switch('save search', DB.global.saveSearch)
+	Analytic:Switch('quiet zones', DB.global.quietZones)
+
+	DB.factionrealm.guild = GetGuildInfo('player') or DB.factionrealm.guild
 end
 
+-- local guildUpdate = CreateFrame('Frame')
+-- guildUpdate:RegisterEvent('PLAYER_GUILD_UPDATE')
+-- guildUpdate:SetScript('onEvent', function(...)
+-- 	if GetGuildInfo('player') ~= nil and DB.factionrealm.guild ~= GetGuildInfo('player') then
+-- 		DB.factionrealm.guild = GetGuildInfo('player')
+-- 		-- clear data
+-- 		DB.realm.alreadySended = {}
+-- 		DB.realm.leave = {}
+-- 	end
+-- end)
 
-local defaultSettings =  { 
+
+local defaultSettings =  {
 	profile = {
 	},
 	realm = {
 		enableFilters = false,
 		customWho = false,
+		strictCustom = false,
 		addonMSG = false,
 		systemMSG = false,
 		sendMSG = false,
@@ -344,16 +291,28 @@ local defaultSettings =  {
 	factionrealm  = {
 		curMessage = 1,
 		messageList = {},
+		history = {
+			search = {},
+			found = {},
+			send = {},
+			accept = {},
+			decline = {},
+			autodecline = {},
+			leave = {},
+			joined = {},
+		},
+		guild = nil,
+		locations = {},
 	},
 	global = {
 		inviteType = 1,
 		lowLimit = FGI_MINLVL,
-		highLimit = FGI_MAXLVL,
+		highLimit = addon.maxLevel,
 		keyBind = {invite = false, nextSearch = false},
 		clearDBtimes = 3,
 		minimap = {hide = false},
 		debug = false,
-		security = {blacklist = true, sended = true},
+		security = {blacklist = true, sended = true}, --TODO remove? new sync
 		addonMSG = false,
 		blacklistOfficer = true,
 		rememberAll = false,
@@ -370,23 +329,33 @@ local defaultSettings =  {
 		saveSearch = true,
 		logs = {
 			on = false,
-			
 		},
 		scanFrameChilds = {
 			title = true,
 			player = true,
 			progress = true,
 			buttons = true,
-		}
+		},
+		statistic = {
+			send = true,
+			decline = true,
+			autodecline = false,
+			accept = true,
+			search = false,
+			found = false,
+			leave = true
+		},
+		quietZones = true,
+		customQuietList = {},
 	},
-} 
+}
 
 
 function FastGuildInvite:OnInitialize()
 	self.db = LibStub("AceDB-3.0"):New("FGI_DB", defaultSettings, true)
 	self.debugdb = LibStub("AceDB-3.0"):New("FGI_DEBUG")
 	self.db.RegisterCallback(self, "OnDatabaseReset", function() C_UI.Reload() end)
-	
+
 	DB = self.db
 	addon.DB = DB
 	debugDB = self.debugdb.global
@@ -410,7 +379,7 @@ function FastGuildInvite:OnInitialize()
 		end
 	end
 
-	
+
 	icon:Register("FGI", addon.dataBroker, DB.global.minimap)
 	fn:initDB()
 end
@@ -430,14 +399,14 @@ function Console:FGIdebug(str)
 		for k,v in pairs(addon.debugDB)do
 			text = format("%s%s\n",text,v)
 		end
-		
+
 		interface.debugFrame.debugList:SetText(text)
 		return
-	
+
 	end
 end
 
-function isCorrect(str)
+local function isCorrect(str)
   local n,r = str:match("([^-%s]+)[%s]*-[%s]*([^-]+)")
   if n==nil or r==nil then return false end
   r = (r:len()>2) and r or false
@@ -451,7 +420,7 @@ function Console:FGIAddBlackList(str)
 		if not b then return end
 		fn:blackList(n,r)
 		interface.blackList:add({name=n,reason=r})
-		SendChatMessage(format("%s %s - %s", format(L["Игрок %s добавлен в черный список."], n), L["Причина"], r) , "OFFICER",  GetDefaultLanguage("player"))
+		SendChatMessage(format("%s %s - %s", format(L["Игрок %s добавлен в черный список."], n), L["Причина"], r) , "OFFICER",  GetDefaultLanguage())
 	end
 end
 
@@ -465,42 +434,45 @@ function Console:FGIInput(str)
 	if str == '' or str == 'help' then return Console:FGIHelp()
 	elseif str == 'help2' then return Console:FGIHelp2()
 	elseif str == 'show' then return interface.mainFrame:Show()
+	elseif str == 'dump' then return interface.dumpWindow:Show()
 	elseif str == "invite" then
 		fn:invitePlayer()
 	elseif str == "nextSearch" then
 		interface.scanFrame.pausePlay.frame:Click()
-	elseif str:find("^blacklist") then 
+	elseif str:find("^blacklist") then
 		local name,reason = fn:parseBL("blacklist", str)
 		if not name then return print('Blacklist: nil name') end
 		fn:blackList(name, reason)
+		interface.settings.Blacklist:update()
 		if not reason and not DB.global.fastBlacklist then
 			StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = name})
 		end
-	elseif str:find("^unblacklist") then 
+	elseif str:find("^unblacklist") then
 		local name = fn:parseBL("unblacklist", str)
 		if not name then return print('Unblacklist: nil name') end
 		fn:unblacklist(name)
-	elseif str == 'debug' then 
+	elseif str == 'debug' then
 		toggleDebug()
 	elseif str == 'resetDB' then DB.realm.alreadySended = {}
+	elseif str == 'clearLeave' then DB.realm.leave = {}
 	elseif str == 'resetWindowsPos' then
 		interface.mainFrame:ClearAllPoints()
 		interface.scanFrame:ClearAllPoints()
-		interface.chooseInvites:ClearAllPoints()
-		
+		interface.dumpWindow:ClearAllPoints()
+
 		interface.mainFrame:SetPoint("CENTER", UIParent)
 		interface.scanFrame:SetPoint("CENTER", UIParent)
-		interface.chooseInvites:SetPoint("CENTER", UIParent)
-		
+		interface.dumpWindow:SetPoint("CENTER", UIParent)
+
 		local point, relativeTo,relativePoint, xOfs, yOfs = interface.mainFrame.frame:GetPoint(1)
 		DB.global.mainFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
+
 		point, relativeTo,relativePoint, xOfs, yOfs = interface.scanFrame.frame:GetPoint(1)
 		DB.global.scanFrame = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
-		point, relativeTo,relativePoint, xOfs, yOfs = interface.chooseInvites.frame:GetPoint(1)
-		DB.global.chooseInvites = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
-		
+
+		point, relativeTo,relativePoint, xOfs, yOfs = interface.dumpWindow.frame:GetPoint(1)
+		DB.global.dumpWindow = {point=point, relativeTo=relativeTo, relativePoint=relativePoint, xOfs=xOfs, yOfs=yOfs,}
+
 		C_UI.Reload()
 	elseif str == "factorySettings" then
 		FastGuildInvite.db:ResetDB()
@@ -513,12 +485,14 @@ function Console:FGIHelp()
 	print("|cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r Help")
 	print(L.show)
 	print(L.resetDB)
+	print(L.clearLeave)
 	print(L.factorySettings)
 	print(L.resetWindowsPos)
 	print(L.invite)
 	print(L.nextSearch)
 	print(L.blacklist)
 	print(L.unblacklist)
+	print(L.dump)
 	print(L.help2)
 end
 
@@ -530,5 +504,5 @@ function Console:FGIHelp2()
 	print(L.blacklistAdd)
 	print(L.blacklistDelete)
 	print(L.blacklistGetList)
-	
+
 end

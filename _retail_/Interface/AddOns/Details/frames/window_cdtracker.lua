@@ -2,526 +2,910 @@
 
 local Details = _G.Details
 local DF = _G.DetailsFramework
-local raidStatusLib = LibStub:GetLibrary("LibRaidStatus-1.0")
+local openRaidLib = LibStub:GetLibrary("LibOpenRaid-1.0", true)
+local addonName, Details222 = ...
 
-local width = 170
-local height = 300
-local bar_height = 20
+--a cooldownFrame is the frame which holds cooldownLines
+--cooldownFrame has a key where the value is a table with all cooldownLines created for the frame. The key is called "bars"
 
 --namespace
-Details.CooldownTracking = {}
+Details222.CooldownTracking = {
+    --a cooldown panel is a frame that shows the cooldowns of a specific filter type
+    --this table store all frames created to show cooldowns
+    --frames are created for filter types (example: all cooldowns, only player cooldowns, only raid cooldowns, etc)
+    --the key on the table is the filter name and the value is the frame object
+    cooldownPanels = {},
+}
 
-function Details:InitializeCDTrackerWindow()
-    local DetailsCDTrackerWindow = CreateFrame("frame", "DetailsCDTrackerWindow", UIParent, "BackdropTemplate")
-    DetailsCDTrackerWindow:SetSize(700, 480)
-    DetailsCDTrackerWindow.Frame = DetailsCDTrackerWindow
-    DetailsCDTrackerWindow.__name = "OCD Tracker"
-    DetailsCDTrackerWindow.real_name = "DETAILS_CDTRACKERWINDOW"
-    DetailsCDTrackerWindow.__icon = [[Interface\TUTORIALFRAME\UI-TUTORIALFRAME-SPIRITREZ]]
-    DetailsCDTrackerWindow.__iconcoords = {130/512, 256/512, 0, 1}
-    DetailsCDTrackerWindow.__iconcolor = "white"
-    _G.DetailsPluginContainerWindow.EmbedPlugin(DetailsCDTrackerWindow, DetailsCDTrackerWindow, true)
+local GetSpellTexture = C_Spell and C_Spell.GetSpellTexture or GetSpellTexture
 
-    function DetailsCDTrackerWindow.RefreshWindow()
-        Details.OpenCDTrackerWindow()
-    end
-
-    --check if is enabled at startup
-    if (Details.CooldownTracking.IsEnabled()) then
-        Details.CooldownTracking.EnableTracker()
-    end
-
-    DetailsCDTrackerWindow:Hide()
+function Details222.CooldownTracking.IsCooldownIgnored(spellId)
+    return Details.ocd_tracker.ignored_cooldowns[spellId]
 end
 
-function Details.CooldownTracking.IsEnabled()
+--return a hash table with all cooldown panels created
+function Details222.CooldownTracking.GetAllCooldownFrames()
+    return Details222.CooldownTracking.cooldownPanels
+end
+
+--return a hash table with all cooldown panels created
+function Details222.CooldownTracking.GetCooldownFrame(filterName)
+    return Details222.CooldownTracking.cooldownPanels[filterName]
+end
+
+--hide all bars created
+function Details222.CooldownTracking.HideAllBars(filterName)
+    local allCooldownFrames = Details222.CooldownTracking.GetAllCooldownFrames()
+    local cooldownFrame = allCooldownFrames[filterName]
+
+    for _, cooldownLine in ipairs(cooldownFrame.bars) do
+        cooldownLine:ClearAllPoints()
+        cooldownLine:Hide()
+
+        cooldownLine.cooldownInfo = nil
+        cooldownLine.spellId = nil
+        cooldownLine.class = nil
+        cooldownLine.unitName = nil
+    end
+end
+
+function Details222.CooldownTracking.HideAllLines(cooldownFrame)
+    for _, cooldownLine in ipairs(cooldownFrame.bars) do
+        cooldownLine:ClearAllPoints()
+        cooldownLine:Hide()
+        cooldownLine.cooldownInfo = nil
+        cooldownLine.spellId = nil
+        cooldownLine.class = nil
+        cooldownLine.unitName = nil
+    end
+end
+
+--get or create a cooldownLine
+function Details222.CooldownTracking.GetOrCreateNewCooldownLine(cooldownFrame, lineId)
+    local cooldownLine = cooldownFrame.bars[lineId]
+
+    if (cooldownLine) then
+        return cooldownLine
+    else
+        cooldownLine = DF:CreateTimeBar(cooldownFrame, [[Interface\AddOns\Details\images\bar_serenity]], Details.ocd_tracker.width-2, Details.ocd_tracker.height-2, 100, nil, cooldownFrame:GetName() .. "CDFrame" .. lineId)
+        table.insert(cooldownFrame.bars, cooldownLine)
+        cooldownLine:EnableMouse(false)
+        return cooldownLine
+    end
+end
+
+--return truen if the cooldown tracker is enabled
+function Details222.CooldownTracking.IsEnabled()
     return Details.ocd_tracker.enabled
 end
 
-function Details.CooldownTracking.EnableTracker()
+--enable the cooldown tracker
+function Details222.CooldownTracking.EnableTracker()
+    if (not Details.ocd_tracker.show_options) then
+        return
+    end
+
     Details.ocd_tracker.enabled = true
 
-    --register callbacks
-    raidStatusLib.RegisterCallback(Details.CooldownTracking, "CooldownListUpdate", "CooldownListUpdateFunc")
-    raidStatusLib.RegisterCallback(Details.CooldownTracking, "CooldownListWiped", "CooldownListWipedFunc")
-    raidStatusLib.RegisterCallback(Details.CooldownTracking, "CooldownUpdate", "CooldownUpdateFunc")
+    --register callbacks with the openRaidLib
+    openRaidLib.RegisterCallback(Details222.CooldownTracking, "CooldownListUpdate", "OnReceiveUnitFullCooldownList")
+    openRaidLib.RegisterCallback(Details222.CooldownTracking, "CooldownUpdate", "OnReceiveSingleCooldownUpdate")
+    openRaidLib.RegisterCallback(Details222.CooldownTracking, "CooldownListWipe", "OnCooldownListWipe")
+    openRaidLib.RegisterCallback(Details222.CooldownTracking, "CooldownAdded", "OnCooldownAdded")
+    openRaidLib.RegisterCallback(Details222.CooldownTracking, "CooldownRemoved", "OnCooldownRemoved")
 
-    Details.CooldownTracking.RefreshCooldownFrames()
+    Details222.CooldownTracking.RefreshAllCooldownFrames()
 end
 
-function Details.CooldownTracking.DisableTracker()
+--disable the cooldown tracker
+function Details222.CooldownTracking.DisableTracker()
     Details.ocd_tracker.enabled = false
 
     --hide the panel
-    if (DetailsOnlineCDTrackerScreenPanel) then
-        DetailsOnlineCDTrackerScreenPanel:Hide()
+    local allCooldownFrames = Details222.CooldownTracking.GetAllCooldownFrames()
+
+    for filterName, cooldownFrame in pairs(allCooldownFrames) do
+        cooldownFrame:Hide()
     end
 
     --unregister callbacks
-    raidStatusLib.UnregisterCallback(Details.CooldownTracking, "CooldownListUpdate", "CooldownListUpdateFunc")
-    raidStatusLib.UnregisterCallback(Details.CooldownTracking, "CooldownListWiped", "CooldownListWipedFunc")
-    raidStatusLib.UnregisterCallback(Details.CooldownTracking, "CooldownUpdate", "CooldownUpdateFunc")
+    openRaidLib.UnregisterCallback(Details222.CooldownTracking, "CooldownListUpdate", "OnReceiveUnitFullCooldownList")
+    openRaidLib.UnregisterCallback(Details222.CooldownTracking, "CooldownUpdate", "OnReceiveSingleCooldownUpdate")
+    openRaidLib.UnregisterCallback(Details222.CooldownTracking, "CooldownListWipe", "OnCooldownListWipe")
 end
 
-function Details.CooldownTracking.CooldownListUpdateFunc()
-    --print("CooldownListUpdate")
-    Details.CooldownTracking.RefreshCooldowns()
-end
 
-function Details.CooldownTracking.CooldownListWipedFunc()
-    --print("CooldownListWiped")
-    Details.CooldownTracking.RefreshCooldowns()
-end
-
-function Details.CooldownTracking.CooldownUpdateFunc()
-    print("CooldownUpdate")
-    Details.CooldownTracking.RefreshCooldowns()
-end
-
-function Details.CooldownTracking.HideAllBars()
-    for _, bar in ipairs (DetailsOnlineCDTrackerScreenPanel.bars) do
-        bar:ClearAllPoints()
-        bar:Hide()
-    end
-end
-
-function Details.CooldownTracking.GetOrCreateNewCooldownFrame(screenPanel, frameId)
-    local cooldownFrame = screenPanel.bars[frameId]
-    if (cooldownFrame) then
-        return cooldownFrame
+--Library Open Raid Callbacks
+    --callback on the event 'CooldownListUpdate', this is triggered when a player in the group sent the list of cooldowns
+    --@unitId: which unit got updated
+    --@unitCooldows: a table with [spellId] = cooldownInfo
+    --@allUnitsCooldowns: a table containing all units [unitName] = {[spellId] = cooldownInfo}
+    function Details222.CooldownTracking.OnReceiveUnitFullCooldownList(unitId, unitCooldows, allUnitsCooldowns)
+        --print("|cFFFFFF00received full cooldown list|r from:", unitId)
+        Details222.CooldownTracking.RefreshAllCooldownFrames()
     end
 
-    local cooldownFrame = DF:CreateTimeBar(screenPanel, [[Interface\AddOns\Details\images\bar_serenity]], width-2, bar_height-2, 100, nil, screenPanel:GetName() .. "CDFrame" .. frameId)
-    tinsert(screenPanel.bars, cooldownFrame)
-    return cooldownFrame
-end
+    --callback on the event 'CooldownUpdate', this is triggered when a player uses a cooldown or a cooldown got updated (time left reduced, etc)
+    --@unitId: which unit got updated
+    --@spellId: which cooldown spell got updated
+    --@cooldownInfo: cooldown information table to be passed with other functions
+    --@unitCooldows: a table with [spellId] = cooldownInfo
+    --@allUnitsCooldowns: a table containing all units [unitName] = {[spellId] = cooldownInfo}
+    function Details222.CooldownTracking.OnReceiveSingleCooldownUpdate(unitId, spellId, cooldownInfo, unitCooldows, allUnitsCooldowns)
+        --TODO: make a function inside lib open raid to get the filters the cooldown is in
+        --I dont known which panel will be used
+        --need to get the filter name which that spell belong
+        --and then check if that filter is enabled
 
-function Details.CooldownTracking.SetupCooldownFrame(cooldownFrame, unitName, class, spellId)
-    local spellIcon = GetSpellTexture(spellId)
-    if (spellIcon) then
-        cooldownFrame:SetIcon(spellIcon, .1, .9, .1, .9)
+        if (Details222.CooldownTracking.IsCooldownIgnored(spellId)) then
+            return
+        end
 
-        local classColor = C_ClassColor.GetClassColor(class)
-        cooldownFrame:SetStatusBarColor(classColor.r, classColor.g, classColor.b)
+        local gotUpdate = false
 
-        cooldownFrame:SetLeftText(DF:RemoveRealmName(unitName))
+        --get a map with the filters the spell is in, the key is the filter name and the value is boolean true
+        local spellFilters = openRaidLib.CooldownManager.GetSpellFilters(spellId)
 
-        cooldownFrame.spellId = spellId
-        cooldownFrame.class = class
-        cooldownFrame.unitName = unitName
-    end
-end
+        --get all cooldownFrames created
+        local allCooldownFrames = Details222.CooldownTracking.GetAllCooldownFrames()
 
+        for filterName in pairs(spellFilters) do
+            local cooldownFrame = allCooldownFrames[filterName]
+            if (cooldownFrame) then
+                local unitName = GetUnitName(unitId, true)
+                local cooldownLine = cooldownFrame.playerCache[unitName] and cooldownFrame.playerCache[unitName][spellId]
 
-function Details.CooldownTracking.SetupCooldownFrameTimer(cooldownFrame, startTime, endTime, currentTime)
-    if (currentTime == 0) then
-        cooldownFrame:StopTimer()
+                if (cooldownLine) then
+                    --get the cooldown time from the lib, it return data ready to use on statusbar
 
-    else
-        cooldownFrame:SetTimer(currentTime, startTime, endTime)
-    end
-end
+                    local isReady, normalizedPercent, timeLeft, charges, minValue, maxValue, currentValue
+                    local bRunOkay, errorText = pcall(function()
+                        isReady, normalizedPercent, timeLeft, charges, minValue, maxValue, currentValue = openRaidLib.GetCooldownStatusFromCooldownInfo(cooldownInfo)
+                    end)
+                    if (not bRunOkay) then
+                        local spellName = Details222.GetSpellInfo(spellId)
+                        --print("error on cooldown update:", unitName, spellName, errorText)
+                        return
+                    end
 
-function Details.CooldownTracking.ProcessUnitCooldowns(unitId, statusBarFrameId, cooldownsOrganized)
-    local screenPanel = DetailsOnlineCDTrackerScreenPanel
-    if (not screenPanel) then
-        return
-    end
+                    if (not isReady) then
+                        cooldownLine:SetTimer(currentValue, minValue, maxValue)
+                    else
+                        cooldownLine:SetTimer()
+                    end
 
-    local playerInfo = raidStatusLib.playerInfoManager.GetPlayerInfo()
-    local allCooldownsFromLib = LIB_RAID_STATUS_COOLDOWNS_BY_SPEC
-    local cooldownsEnabled = Details.ocd_tracker.cooldowns
-
-    local unitName = UnitName(unitId)
-    local thisPlayerInfo = playerInfo[unitName]
-    local GUID = UnitGUID(unitId)
-    local _, unitClassEng, classId = UnitClass(unitId)
-    local unitSpec = (thisPlayerInfo and thisPlayerInfo.specId) or (Details:GetSpecFromSerial(GUID)) or 0
-
-    if (unitSpec and unitSpec ~= 0) then
-        local unitCooldowns = allCooldownsFromLib[unitSpec]
-        for spellId, cooldownType in pairs(unitCooldowns) do
-            if (cooldownsEnabled[spellId]) then
-
-                local spellName = GetSpellInfo(spellId)
-                --print("CD:", spellName, unitName) --problema com shadowfiend do shadowpriest the mostra 2 vezes
-
-                local cooldownFrame = Details.CooldownTracking.GetOrCreateNewCooldownFrame(screenPanel, statusBarFrameId)
-                Details.CooldownTracking.SetupCooldownFrame(cooldownFrame, unitName, unitClassEng, spellId)
-                tinsert(cooldownsOrganized[classId], cooldownFrame)
-                statusBarFrameId =  statusBarFrameId + 1
-
-                screenPanel.playerCache[unitName] = screenPanel.playerCache[unitName] or {}
-                screenPanel.playerCache[unitName][spellId] = cooldownFrame
+                    gotUpdate = true
+                end
             end
         end
+
+        if (not gotUpdate) then
+            Details222.CooldownTracking.RefreshAllCooldownFrames()
+        end
     end
-end
 
-function Details.CooldownTracking.RefreshCooldownFrames()
-    local screenPanel = DetailsOnlineCDTrackerScreenPanel
+    --when the list of cooldowns got wiped, usually happens when the player left a group
+    --@allUnitsCooldowns: a table containing all units [unitName] = {[spellId] = cooldownInfo}
+    function Details222.CooldownTracking.OnCooldownListWipe(allUnitsCooldowns)
+        Details222.CooldownTracking.RefreshAllCooldownFrames()
+    end
 
-    if (not screenPanel) then
-        --screen panel (goes into the UIParent and show cooldowns there)
-        DetailsOnlineCDTrackerScreenPanel = CreateFrame("frame", "DetailsOnlineCDTrackerScreenPanel", UIParent, "BackdropTemplate")
-        screenPanel = DetailsOnlineCDTrackerScreenPanel
-        screenPanel:Hide()
-        screenPanel:SetSize(width, height)
-        screenPanel:SetPoint("center", 0, 0)
-        screenPanel:SetBackdrop({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true})
-        screenPanel:SetBackdropColor(0, 0, 0, .55)
-        screenPanel:SetBackdropBorderColor(0, 0, 0, .3)
-        screenPanel:EnableMouse(true)
+    --when a cooldown has been added to an unit
+    function Details222.CooldownTracking.OnCooldownAdded(unitId, spellId, cooldownInfo, unitCooldows, allUnitsCooldowns)
+        --here could update the cooldown of the unit, but I'm too lazy so it update all units
+        Details222.CooldownTracking.RefreshAllCooldownFrames()
+    end
+
+    --when a cooldown has been removed from an unit
+    function Details222.CooldownTracking.OnCooldownRemoved(unitId, spellId, unitCooldows, allUnitsCooldowns)
+        Details222.CooldownTracking.RefreshAllCooldownFrames()
+    end
+
+    local eventFrame = CreateFrame("frame")
+    eventFrame:RegisterEvent("GROUP_ROSTER_UPDATE")
+    eventFrame:SetScript("OnShow", function()
+        eventFrame:RegisterEvent("GROUP_ROSTER_UPDATE")
+    end)
+
+    eventFrame:SetScript("OnHide", function()
+        eventFrame:UnregisterEvent("GROUP_ROSTER_UPDATE")
+    end)
+
+    eventFrame:SetScript("OnEvent", function(self, event)
+        if (event == "GROUP_ROSTER_UPDATE") then
+            if (eventFrame.scheduleRosterUpdate) then
+                return
+            end
+            --eventFrame.scheduleRosterUpdate = C_Timer.NewTimer(1, Details222.CooldownTracking.RefreshCooldownFrames)
+        end
+    end)
+
+    --create the screen panel, goes into the UIParent and show cooldowns
+    function Details222.CooldownTracking.CreateCooldownFrame(filterName)
+        if (not Details222.CooldownTracking.AnchorFrame) then
+            local anchorFrame = CreateFrame("frame", "DetailsOnlineCDTrackerAnchorFrame", UIParent, "BackdropTemplate")
+            Details222.CooldownTracking.AnchorFrame = anchorFrame
+            anchorFrame:SetPoint("center", 0, 0)
+            anchorFrame:SetSize(20, 20)
+            anchorFrame:EnableMouse(true)
+
+            DetailsFramework:ApplyStandardBackdrop(anchorFrame)
+
+            Details.ocd_tracker.frames["anchor_frame"] = Details.ocd_tracker.frames["anchor_frame"] or {}
+
+            --register on libwindow
+            local libWindow = LibStub("LibWindow-1.1")
+            libWindow.RegisterConfig(anchorFrame, Details.ocd_tracker.frames["anchor_frame"])
+            libWindow.MakeDraggable(anchorFrame)
+            libWindow.RestorePosition(anchorFrame)
+        end
+
+        filterName = filterName or "main"
+        local frameName = "DetailsOnlineCDTrackerScreenPanel" .. filterName
+        local cooldownFrame = CreateFrame("frame", frameName, UIParent, "BackdropTemplate")
+        cooldownFrame:Hide()
+        cooldownFrame.filterName = filterName
+        cooldownFrame:SetSize(Details.ocd_tracker.width, Details.ocd_tracker.height)
+        cooldownFrame:SetPoint("center", 0, 0)
+        DetailsFramework:ApplyStandardBackdrop(cooldownFrame)
+        cooldownFrame:EnableMouse(true)
+
+        local titleString = cooldownFrame:CreateFontString(nil, "overlay", "GameFontNormal")
+        titleString:SetPoint("bottomleft", cooldownFrame, "topleft", 0, 1)
+        cooldownFrame.TitleString = titleString
 
         --register on libwindow
         local libWindow = LibStub("LibWindow-1.1")
-        libWindow.RegisterConfig(screenPanel, _detalhes.ocd_tracker.pos)
-        libWindow.MakeDraggable(screenPanel)
-        libWindow.RestorePosition(screenPanel)
+        Details.ocd_tracker.frames[filterName] = Details.ocd_tracker.frames[filterName] or {}
+        libWindow.RegisterConfig(cooldownFrame, Details.ocd_tracker.frames[filterName])
+        libWindow.MakeDraggable(cooldownFrame)
+        libWindow.RestorePosition(cooldownFrame)
 
-        screenPanel:RegisterEvent("GROUP_ROSTER_UPDATE")
-        screenPanel:SetScript("OnShow", function()
-            screenPanel:RegisterEvent("GROUP_ROSTER_UPDATE")
-        end)
-        screenPanel:SetScript("OnHide", function()
-            screenPanel:UnregisterEvent("GROUP_ROSTER_UPDATE")
-        end)
+        cooldownFrame.bars = {}
+        cooldownFrame.cooldownCache = Details.ocd_tracker.current_cooldowns
+        cooldownFrame.playerCache = {}
+        cooldownFrame.nextLineId = 1
 
-        screenPanel:SetScript("OnEvent", function(self, event)
-            if (event == "GROUP_ROSTER_UPDATE") then
-                if (screenPanel.scheduleRosterUpdate) then
+        local allCooldownFrames = Details222.CooldownTracking.GetAllCooldownFrames()
+        allCooldownFrames[filterName] = cooldownFrame
+
+        return cooldownFrame
+    end
+
+    function Details222.CooldownTracking.SetupCooldownLine(cooldownLine)
+        local spellIcon = GetSpellTexture(cooldownLine.spellId)
+        if (spellIcon) then
+            cooldownLine:SetIcon(spellIcon, .1, .9, .1, .9)
+
+            local classColor = C_ClassColor.GetClassColor(cooldownLine.class or "PRIEST")
+            if (classColor) then
+                cooldownLine:SetStatusBarColor(classColor.r, classColor.g, classColor.b)
+            else
+                cooldownLine:SetStatusBarColor(1, 1, 1)
+            end
+            cooldownLine:SetLeftText(DF:RemoveRealmName(cooldownLine.unitName))
+            cooldownLine:SetSize(Details.ocd_tracker.width, Details.ocd_tracker.height)
+        end
+    end
+
+    function Details222.CooldownTracking.ProcessUnitCooldowns(cooldownFrame, unitId, unitCooldowns, cooldownsOrganized)
+        if (unitCooldowns) then
+            local unitInfo = openRaidLib.GetUnitInfo(unitId)
+            local filterName = false
+
+            local classId = unitInfo and unitInfo.classId
+            if (unitInfo and not classId) then
+                classId = select(3, UnitClass(unitInfo.nameFull))
+            end
+
+            if (unitInfo and classId and cooldownsOrganized[classId]) then
+                local allCooldownFrames = Details222.CooldownTracking.GetAllCooldownFrames()
+
+                for spellId, cooldownInfo in pairs(unitCooldowns) do
+                    if (not Details222.CooldownTracking.IsCooldownIgnored(spellId)) then
+                        --get a cooldownLine
+                        local cooldownLine = Details222.CooldownTracking.GetOrCreateNewCooldownLine(cooldownFrame, cooldownFrame.nextLineId)
+                        cooldownLine.cooldownInfo = cooldownInfo
+                        --local isReady, normalizedPercent, timeLeft, charges, minValue, maxValue, currentValue = openRaidLib.GetCooldownStatusFromCooldownInfo(cooldownInfo)
+
+                        cooldownLine.spellId = spellId
+                        cooldownLine.class = unitInfo.class
+                        cooldownLine.unitName = unitInfo.nameFull
+
+                        --setup the cooldown in the line
+                        Details222.CooldownTracking.SetupCooldownLine(cooldownLine)
+
+                        --add the cooldown into the organized by class table
+                        table.insert(cooldownsOrganized[classId], cooldownLine)
+
+                        --iterate to the next cooldown line
+                        cooldownFrame.nextLineId = cooldownFrame.nextLineId + 1
+
+                        --store the cooldown line into a cache to get the cooldown line quicker when a cooldown receives updates
+                        cooldownFrame.playerCache[unitInfo.nameFull] = cooldownFrame.playerCache[unitInfo.nameFull] or {}
+                        cooldownFrame.playerCache[unitInfo.nameFull][spellId] = cooldownLine
+                    end
+                end
+            end
+        end
+    end
+
+    function Details222.CooldownTracking.RefreshSingleCooldownFrame(cooldownFrame)
+        local filterName = cooldownFrame.filterName
+
+        if (Details.ocd_tracker.framme_locked) then
+            cooldownFrame:EnableMouse(false)
+        else
+            cooldownFrame:EnableMouse(true)
+        end
+
+        Details222.CooldownTracking.HideAllLines(cooldownFrame)
+
+        --check if can show the title string where the text is the filter name
+        if (Details.ocd_tracker.show_title) then
+            cooldownFrame.TitleString:SetText(filterName)
+            cooldownFrame.TitleString:Show()
+        else
+            cooldownFrame.TitleString:Hide()
+        end
+
+        cooldownFrame.scheduleRosterUpdate = nil
+        Details:Destroy(cooldownFrame.playerCache)
+        cooldownFrame.nextLineId = 1
+
+        if (Details.ocd_tracker.show_conditions.only_in_group) then
+            if (not IsInGroup()) then
+                cooldownFrame:Hide()
+                return
+            end
+        end
+
+        if (Details.ocd_tracker.show_conditions.only_inside_instance) then
+            local isInInstanceType = select(2, GetInstanceInfo())
+            if (isInInstanceType ~= "party" and isInInstanceType ~= "raid" and isInInstanceType ~= "scenario" and isInInstanceType ~= "arena") then
+                cooldownFrame:Hide()
+                return
+            end
+        end
+
+        local cooldownsOrganized = {}
+        for classId = 1, 13 do --13 classes
+            cooldownsOrganized[classId] = {}
+        end
+
+        local numGroupMembers = GetNumGroupMembers()
+
+        if (IsInRaid()) then
+            for i = 1, numGroupMembers do
+                local unitId = "raid"..i
+                local unitCooldowns = openRaidLib.GetUnitCooldowns(unitId, filterName)
+                Details222.CooldownTracking.ProcessUnitCooldowns(cooldownFrame, unitId, unitCooldowns, cooldownsOrganized)
+            end
+
+        elseif (IsInGroup()) then
+            for i = 1, numGroupMembers - 1 do
+                local unitId = "party"..i
+                local unitCooldowns = openRaidLib.GetUnitCooldowns(unitId, filterName)
+                Details222.CooldownTracking.ProcessUnitCooldowns(cooldownFrame, unitId, unitCooldowns, cooldownsOrganized)
+            end
+
+            --player
+            local unitCooldowns = openRaidLib.GetUnitCooldowns("player", filterName)
+            Details222.CooldownTracking.ProcessUnitCooldowns(cooldownFrame, "player", unitCooldowns, cooldownsOrganized)
+
+        else
+            --player
+            local unitCooldowns = openRaidLib.GetUnitCooldowns("player", filterName)
+            Details222.CooldownTracking.ProcessUnitCooldowns(cooldownFrame, "player", unitCooldowns, cooldownsOrganized)
+        end
+
+        for classId = 1, 13 do --13 classes
+            table.sort(cooldownsOrganized[classId], function(t1, t2) return t1.spellId < t2.spellId end)
+        end
+
+        local xPos = 1
+        local cooldownFrameIndex = 1
+        local lineIndex = 1
+        local totalLinesUsed = 0
+
+        for classId = 1, 13 do
+            local cooldownFrameList = cooldownsOrganized[classId]
+            for index, cooldownLine in ipairs(cooldownFrameList) do
+                local cooldownInfo = cooldownLine.cooldownInfo
+                local isReady, normalizedPercent, timeLeft, charges, minValue, maxValue, currentValue = openRaidLib.GetCooldownStatusFromCooldownInfo(cooldownInfo)
+
+                if (not isReady) then
+                    cooldownLine:SetTimer(currentValue, minValue, maxValue)
+                else
+                    cooldownLine:SetTimer()
+                end
+
+                cooldownLine:ClearAllPoints()
+                local yLocation = (lineIndex - 1) * Details.ocd_tracker.height * -1
+                cooldownLine:SetPoint("topleft", cooldownFrame, "topleft", xPos, yLocation - 1)
+
+                lineIndex = lineIndex + 1
+
+                if (lineIndex > Details.ocd_tracker.lines_per_column) then
+                    xPos = xPos + Details.ocd_tracker.width + 2
+                    lineIndex = 1
+                end
+
+                cooldownFrameIndex = cooldownFrameIndex + 1
+                totalLinesUsed = totalLinesUsed + 1
+            end
+        end
+
+        if (totalLinesUsed == 0) then
+            cooldownFrame:Hide()
+            return
+        end
+
+        local totalColumns = ceil(totalLinesUsed / Details.ocd_tracker.lines_per_column)
+        local maxRows = math.min(Details.ocd_tracker.lines_per_column, totalLinesUsed)
+
+        local width = 1 + totalColumns * Details.ocd_tracker.width + (totalColumns * 2)
+        local height =  2 + maxRows * Details.ocd_tracker.height
+
+        cooldownFrame:SetSize(width, height)
+        cooldownFrame:Show()
+    end
+
+--update cooldown frames based on the amount of players in the group or raid
+    function Details222.CooldownTracking.RefreshAllCooldownFrames()
+        if (not Details.ocd_tracker.enabled) then
+            Details222.CooldownTracking.DisableTracker()
+            return
+        end
+
+        local allCooldownFrames = Details222.CooldownTracking.GetAllCooldownFrames()
+        local allFilters = Details.ocd_tracker.filters
+
+        for filterName, bIsEnabled in pairs(allFilters) do
+            if (bIsEnabled) then
+                local cooldownFrame = allCooldownFrames[filterName]
+                if (not cooldownFrame) then
+                    cooldownFrame = Details222.CooldownTracking.CreateCooldownFrame(filterName)
+                end
+                cooldownFrame:Show()
+            else
+                local cooldownFrame = Details222.CooldownTracking.GetCooldownFrame(filterName)
+                if (cooldownFrame) then
+                    cooldownFrame:Hide()
+                end
+            end
+        end
+
+        local previousFrame
+        for filterName, cooldownFrame in pairs(allCooldownFrames) do
+            if (cooldownFrame:IsShown()) then
+                Details222.CooldownTracking.RefreshSingleCooldownFrame(cooldownFrame)
+                --
+                if (Details.ocd_tracker.group_frames) then
+                    if (not previousFrame) then
+                        previousFrame = cooldownFrame
+                        cooldownFrame:ClearAllPoints()
+                        cooldownFrame:SetPoint("topleft", Details222.CooldownTracking.AnchorFrame, "topleft", 5, 0)
+                    else
+                        cooldownFrame:ClearAllPoints()
+                        cooldownFrame:SetPoint("topleft", previousFrame, "topright", 2, 0)
+                        previousFrame = cooldownFrame
+                    end
+                end
+            end
+        end
+    end
+
+
+--Options panel
+
+    --initialize the cooldown options window and embed it to Details! options panel
+    function Details:InitializeCDTrackerWindow()
+        if (not Details.ocd_tracker.show_options) then
+            return
+        end
+
+        local DetailsCDTrackerWindow = CreateFrame("frame", "DetailsCDTrackerWindow", UIParent, "BackdropTemplate")
+        DetailsCDTrackerWindow:SetSize(700, 480)
+        DetailsCDTrackerWindow.Frame = DetailsCDTrackerWindow
+        DetailsCDTrackerWindow.__name = "Cooldown Tracker"
+        DetailsCDTrackerWindow.real_name = "DETAILS_CDTRACKERWINDOW"
+        DetailsCDTrackerWindow.__icon = [[Interface\TUTORIALFRAME\UI-TUTORIALFRAME-SPIRITREZ]]
+        DetailsCDTrackerWindow.__iconcoords = {130/512, 256/512, 0, 1}
+        DetailsCDTrackerWindow.__iconcolor = "white"
+        _G.DetailsPluginContainerWindow.EmbedPlugin(DetailsCDTrackerWindow, DetailsCDTrackerWindow, true)
+
+        function DetailsCDTrackerWindow.RefreshWindow()
+            Details222.CooldownTracking.OpenCDTrackerWindow()
+        end
+
+        --check if is enabled at startup
+        if (Details222.CooldownTracking.IsEnabled()) then
+            Details222.CooldownTracking.EnableTracker()
+        end
+
+        DetailsCDTrackerWindow:Hide()
+    end
+
+    function Details222.CooldownTracking.OpenCDTrackerWindow()
+        if (not Details.ocd_tracker.show_options) then
+            return
+        end
+
+        --check if the window exists, if not create it
+        if (not _G.DetailsCDTrackerWindow or not _G.DetailsCDTrackerWindow.Initialized) then
+            local f = _G.DetailsCDTrackerWindow or DF:CreateSimplePanel(UIParent, 700, 480, "Details! Online CD Tracker", "DetailsCDTrackerWindow")
+            _G.DetailsCDTrackerWindow.Initialized = true
+            DF:ApplyStandardBackdrop(f)
+            --enabled with a toggle button
+            --execute to reset position
+            --misc configs
+            local options_text_template = DF:GetTemplate("font", "OPTIONS_FONT_TEMPLATE")
+            local options_dropdown_template = DF:GetTemplate("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
+            local options_switch_template = DF:GetTemplate("switch", "OPTIONS_CHECKBOX_TEMPLATE")
+            local options_slider_template = DF:GetTemplate("slider", "OPTIONS_SLIDER_TEMPLATE")
+            local options_button_template = DF:GetTemplate("button", "OPTIONS_BUTTON_TEMPLATE")
+
+            local generalOptions = {
+                {--enable ocd
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.enabled end,
+                    set = function(self, fixedparam, value)
+                        if (value) then
+                            if (not Details.ocd_tracker.show_options) then
+                                return
+                            end
+                            Details222.CooldownTracking.EnableTracker()
+                        else
+                            Details222.CooldownTracking.DisableTracker()
+                        end
+                    end,
+                    name = "Enable Experimental Cooldown Tracker",
+                    desc = "Enable Experimental Cooldown Tracker",
+                },
+
+                {--show only in group
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.show_conditions.only_in_group end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.show_conditions.only_in_group = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Only in Group",
+                    desc = "Only in Group",
+                },
+
+                {--show only inside instances
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.show_conditions.only_inside_instance end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.show_conditions.only_inside_instance = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Only Inside Instances",
+                    desc = "Only Inside Instances",
+                },
+                {--lock frame
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.framme_locked end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.framme_locked = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Lock Frame",
+                    desc = "Lock Frame",
+                },
+
+                {type = "breakline"},
+
+                {--filter: show raid wide defensive cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["defensive-raid"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["defensive-raid"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Defensive: Raid",
+                    desc = "Example: druid tranquility.",
+                },
+
+                {--filter: show target defensive cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["defensive-target"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["defensive-target"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Defensive: Target",
+                    desc = "Example: priest pain suppression.",
+                },
+
+                {--filter: show personal defensive cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["defensive-personal"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["defensive-personal"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Defensive: Personal",
+                    desc = "Example: mage ice block.",
+                },
+
+                {--filter: show ofensive cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["ofensive"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["ofensive"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Offensive Cooldowns",
+                    desc = "Example: priest power infusion.",
+                },
+
+                {--filter: show utility cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["utility"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["utility"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Utility Cooldowns",
+                    desc = "Example: druid roar.",
+                },
+
+                {--filter: show interrupt cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["interrupt"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["interrupt"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Interrupt Cooldowns",
+                    desc = "Example: rogue kick.",
+                },
+
+                {--filter: item cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["itemheal"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["itemheal"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Item: Healing",
+                    desc = "Example: Healthstone.",
+                },
+
+                {--filter: item cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["itempower"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["itempower"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Item: Power Increase",
+                    desc = "Example: Elemental Potion of Power.",
+                },
+
+                {--filter: item cooldowns
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["itemutil"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["itemutil"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Item: Utility",
+                    desc = "Example: Invisibility Potion.",
+                },
+
+                {--filter: crowd control
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.filters["crowdcontrol"] end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.filters["crowdcontrol"] = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Crowd Control",
+                    desc = "Example: Incapacitaion Roar.",
+                },
+
+                {type = "breakline"},
+
+                {--bar width
+                    type = "range",
+                    get = function() return Details.ocd_tracker.width end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.width = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    min = 10,
+                    max = 200,
+                    step = 1,
+                    name = "Width",
+                    desc = "Width",
+                },
+
+                {--bar height
+                    type = "range",
+                    get = function() return Details.ocd_tracker.height end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.height = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    min = 10,
+                    max = 200,
+                    step = 1,
+                    name = "Height",
+                    desc = "Height",
+                },
+                
+                {--bar height
+                    type = "range",
+                    get = function() return Details.ocd_tracker.lines_per_column end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.lines_per_column = floor(value)
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    min = 1,
+                    max = 30,
+                    step = 1,
+                    name = "Lines Per Column",
+                    desc = "Lines Per Column",
+                },
+
+                {--show anchor
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.show_title end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.show_title = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Show Title",
+                    desc = "Show Title",
+                },
+
+                {--show anchor
+                    type = "toggle",
+                    get = function() return Details.ocd_tracker.group_frames end,
+                    set = function(self, fixedparam, value)
+                        Details.ocd_tracker.group_frames = value
+                        Details222.CooldownTracking.RefreshAllCooldownFrames()
+                    end,
+                    name = "Group Frames",
+                    desc = "Group Frames",
+                },
+
+            }
+
+            generalOptions.always_boxfirst = true
+            DF:BuildMenu(f, generalOptions, 5, -30, 150, false, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
+
+            --cooldown selection
+            local cooldownProfile = Details.ocd_tracker.cooldowns
+
+            local cooldownSelectionFrame = CreateFrame("frame", "$parentCooldownSelectionFrame", f, "BackdropTemplate")
+            cooldownSelectionFrame:SetPoint("topleft", f, "topleft", 0, -150)
+            cooldownSelectionFrame:SetPoint("bottomright", f, "bottomright", 0, 10)
+            DF:ApplyStandardBackdrop(cooldownSelectionFrame)
+
+            local warning2 = cooldownSelectionFrame:CreateFontString(nil, "overlay", "GameFontNormal", 5)
+            warning2:SetJustifyH("left")
+            warning2:SetPoint("topleft", f, "topleft", 5, -160)
+            DF:SetFontColor(warning2, "lime")
+            --warning2:SetText("This is a concept of a cooldown tracker using the new library 'Open Raid' which uses comms to update cooldown timers.\nThe code to implement is so small that can fit inside a weakaura\nIf you're a coder, the implementation is on Details/frames/window_cdtracker.lua")
+
+            cooldownSelectionFrame:RegisterEvent("GROUP_ROSTER_UPDATE")
+            --cooldownSelectionFrame:RegisterEvent("PLAYER_STARTED_MOVING") --debug
+
+            local maxClasses = 13
+
+            cooldownSelectionFrame.ClassCDsAnchorFrames = {}
+
+            for i = 1, maxClasses do
+                local anchorFrame = CreateFrame("frame", "$parentAnchorFrame"..i, cooldownSelectionFrame, "BackdropTemplate")
+                anchorFrame:SetSize(1, 1)
+                if (i == 1) then
+                    anchorFrame:SetPoint("topleft", cooldownSelectionFrame, "topleft", 5, -5)
+                else
+                    anchorFrame:SetPoint("topleft", cooldownSelectionFrame.ClassCDsAnchorFrames[i-1], "topright", 310, 0)
+                end
+
+                cooldownSelectionFrame.ClassCDsAnchorFrames[i] = anchorFrame
+            end
+
+            function cooldownSelectionFrame.ClearAllCDsAnchorFrames()
+                for i = 1, maxClasses do
+                    cooldownSelectionFrame.ClassCDsAnchorFrames[i]:Hide()
+                end
+            end
+
+            cooldownSelectionFrame:SetScript("OnEvent", function(self, event)
+                --show a list of players in the group, 1 player per column
+                --below the player name, show a list in vertical with checkboxes to enable/disable cooldowns for that class
+                --use DetailsFramework:BuildMenuVolatile() to build the each list
+
+                if (not cooldownSelectionFrame:IsShown()) then
                     return
                 end
-                screenPanel.scheduleRosterUpdate = C_Timer.NewTimer(1, Details.CooldownTracking.RefreshCooldownFrames)
-            end
-        end)
 
-        screenPanel.bars = {}
-        screenPanel.cooldownCache = Details.ocd_tracker.current_cooldowns
-        screenPanel.playerCache = {}
-    end
+                local amountOfUnits = GetNumGroupMembers()
 
-    screenPanel.scheduleRosterUpdate = nil
-
-    if (Details.ocd_tracker.show_conditions.only_in_group) then
-        if (not IsInGroup()) then
-            screenPanel:Hide()
-            return
-        end
-    end
-
-    if (Details.ocd_tracker.show_conditions.only_inside_instance) then
-        local isInInstanceType = select(2, GetInstanceInfo())
-        if (isInInstanceType ~= "party" and isInInstanceType ~= "raid" and isInInstanceType ~= "scenario" and isInInstanceType ~= "arena") then
-            screenPanel:Hide()
-            return
-        end
-    end
-
-    local cooldownsOrganized = {}
-    for classId = 1, 12 do --12 classes
-        cooldownsOrganized[classId] = {}
-    end
-    local numGroupMembers = GetNumGroupMembers()
-    local statusBarFrameId = 1
-
-    wipe(screenPanel.playerCache)
-
-    if (IsInRaid()) then
-        for i = 1, numGroupMembers do
-            local unitId = "raid"..i
-            Details.CooldownTracking.ProcessUnitCooldowns(unitId, statusBarFrameId, cooldownsOrganized)
-        end
-
-    elseif (IsInGroup()) then
-        for i = 1, numGroupMembers - 1 do
-            local unitId = "party"..i
-            Details.CooldownTracking.ProcessUnitCooldowns(unitId, statusBarFrameId, cooldownsOrganized)
-        end
-
-        --player
-        Details.CooldownTracking.ProcessUnitCooldowns("player", statusBarFrameId, cooldownsOrganized)
-    end
-
-    for classId = 1, 12 do --12 classes
-        table.sort(cooldownsOrganized[classId], function(t1, t2) return t1.spellId < t2.spellId end)
-    end
-
-    Details.CooldownTracking.RefreshCooldowns()
-end
-
---esta passando NIL no startTime para o SetTimer
---o numero de frames criados é menor que o numero de frames mostrados, esta dando erro em local bar = screenPanel.bars[barIndex] 381
-
-function Details.CooldownTracking.RefreshCooldowns()
-    local screenPanel = DetailsOnlineCDTrackerScreenPanel
-    if (not screenPanel) then
-        return
-    end
-
-    --local cache saved with the character savedVariables
-    local cooldownCache = screenPanel.cooldownCache
-    local cooldownStatus = raidStatusLib.cooldownManager.GetCooldownTable()
-    local cooldownIndex = 1
-
-    for unitName, allPlayerCooldowns in pairs(cooldownStatus) do
-        for spellId, cooldownInfo in pairs(allPlayerCooldowns) do
-            local cooldownFrame = screenPanel.playerCache[unitName] and screenPanel.playerCache[unitName][spellId]
-            if (cooldownFrame) then
-
-                local cooldownCache = cooldownCache[unitName] and cooldownCache[unitName][spellId]
-                if (not cooldownCache) then
-                    --a cache with cooldown timers is saved within the host addon
-                    screenPanel.cooldownCache[unitName] = screenPanel.cooldownCache[unitName] or {}
-                    screenPanel.cooldownCache[unitName][spellId] = screenPanel.cooldownCache[unitName][spellId] or {}
-                    cooldownCache = screenPanel.cooldownCache[unitName][spellId]
+                if (amountOfUnits == 0) then
+                    return
                 end
 
-                local timeLeft = cooldownInfo[1]
-                local charges = cooldownInfo[2]
-                local startTime = GetTime() - cooldownInfo[3]
-                local duration = cooldownInfo[4]
-                local endTime = startTime + duration
-
-                --save the cooldown data in the host addon
-                cooldownCache[1] = timeLeft
-                cooldownCache[2] = charges
-                cooldownCache[3] = startTime
-                cooldownCache[4] = endTime
-
-                cooldownFrame:Show()
-
-                if (cooldownFrame.spellId ~= spellId or unitName ~= cooldownFrame.unitName) then
-                    --there's a different spell showing or player using this frame
-                    if (timeLeft ~= 0) then
-                        local spellName = GetSpellInfo(spellId)
-                        --print("set timer 3", spellName, startTime + timeLeft, startTime, endTime)
-                        --cooldownFrame:SetTimer(startTime + timeLeft, startTime, endTime)
-                    end
-                else
-                    --spell and player are the same
-                    if (timeLeft ~= 0) then
-                        if (cooldownFrame:HasTimer()) then
-                            if (cooldownFrame.timeLeft ~= timeLeft) then
-                                local spellName = GetSpellInfo(spellId)
-                                --print("set timer 1", spellName, startTime + timeLeft, startTime, endTime)
-                                --cooldownFrame:SetTimer(startTime + timeLeft, startTime, endTime)
-                            end
-                        else
-                            if (timeLeft ~= 0) then
-                                local spellName = GetSpellInfo(spellId)
-                                --print("set timer 2", spellName, startTime + timeLeft, startTime, endTime)
-                                --cooldownFrame:SetTimer(startTime + timeLeft, startTime, endTime)
-                            end
+                local allClasses = {}
+                if (IsInGroup() and not IsInRaid()) then
+                    for i = 1, amountOfUnits - 1 do
+                        local unitId = "party"..i
+                        local _, class = UnitClass(unitId)
+                        if (class) then
+                            allClasses[class] = {}
                         end
-                    else
-                        if (cooldownFrame:GetValue() ~= 100) then
-                            cooldownFrame:StopTimer()
+                    end
+
+                    local unitId = "player"
+                    local _, class = UnitClass(unitId)
+                    allClasses[class] = {}
+
+                elseif (IsInRaid()) then
+                    for i = 1, amountOfUnits do
+                        local unitId = "raid"..i
+                        local _, class = UnitClass(unitId)
+                        if (class) then
+                            allClasses[class] = {}
                         end
                     end
                 end
 
-                cooldownIndex = cooldownIndex + 1
-            end
-        end
-    end
+                local index = 1
+                cooldownSelectionFrame.ClearAllCDsAnchorFrames()
 
-    --[=[]]
+                for className, allClassCDs in pairs(allClasses) do
+                    --menu to build with DetailsFramework:BuildMenuVolatile()
+                    local menuOptions = {}
 
-    local cooldownIndex = 1
+                    for spellId, spellInfo in pairs(LIB_OPEN_RAID_COOLDOWNS_INFO) do
+                        if (spellInfo.class == className) then
+                            local spellName, _, spellIcon = Details222.GetSpellInfo(spellId)
 
-    for classId = 1, 12 do --12 classes
-        local t = cooldownsOrganized[classId]
-        for i = 1, #t do
-            local bar = screenPanel.bars[cooldownIndex]
-            cooldownIndex = cooldownIndex + 1
-            bar:Show()
-            local cooldownTable = t[i]
-
-            local classColor = C_ClassColor.GetClassColor(cooldownTable[6])
-            bar:SetStatusBarColor(classColor.r, classColor.g, classColor.b)
-
-            local spellNameDebug, _, spellIcon = GetSpellInfo(cooldownTable[5])
-            bar:SetIcon(spellIcon, .1, .9, .1, .9)
-            bar:SetLeftText(DF:RemoveRealmName(cooldownTable[1]))
-
-            local timeLeft = cooldownTable[2]
-            if (timeLeft > 0) then
-                bar.spellId = cooldownTable[5]
-                bar:SetTimer(timeLeft)
-                --print("timeLeft:", timeLeft, spellNameDebug)
-            else
-                bar:SetMinMaxValues(0, 100)
-                bar:SetTimer(0)
-                --print(spellNameDebug)
-                C_Timer.After(1, function()
-                   -- bar:SetMinMaxValues(0, 100)
-                   -- bar:SetTimer(0)
-                end)
-            end
-        end
-    end
-    --]=]
-
-    cooldownIndex = cooldownIndex - 1
-    print("total frames:", cooldownIndex)
-
-    local xAnchor = 1
-    local defaultY = 0
-    local xPos = 1
-    local yPos = 0
-    local maxHeight = 0
-
-    for barIndex = 1, cooldownIndex do
-        if (barIndex % 11 == 0) then
-            xPos = xPos + width + 2
-            yPos = 0
-        end
-
-        local bar = screenPanel.bars[barIndex]
-        bar:SetPoint("topleft", screenPanel, "topleft", xPos, yPos)
-        yPos = yPos - bar_height
-        if (yPos < maxHeight)  then
-            maxHeight = yPos
-        end
-    end
-
-    maxHeight = abs(maxHeight)
-
-    if (maxHeight == 0) then
-        screenPanel:Hide()
-        return
-    end
-
-    screenPanel:SetSize(width + xAnchor, abs(maxHeight))
-    screenPanel:Show()
-end
-
-function Details.OpenCDTrackerWindow()
-
-    --check if the window exists, if not create it
-    if (not _G.DetailsCDTrackerWindow or not _G.DetailsCDTrackerWindow.Initialized) then
-        _G.DetailsCDTrackerWindow.Initialized = true
-        local f = _G.DetailsCDTrackerWindow or DF:CreateSimplePanel(UIParent, 700, 480, "Details! Online CD Tracker", "DetailsCDTrackerWindow")
-        DF:ApplyStandardBackdrop(f)
-        --enabled with a toggle button
-        --execute to reset position
-        --misc configs
-        local options_text_template = DF:GetTemplate ("font", "OPTIONS_FONT_TEMPLATE")
-        local options_dropdown_template = DF:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
-        local options_switch_template = DF:GetTemplate ("switch", "OPTIONS_CHECKBOX_TEMPLATE")
-        local options_slider_template = DF:GetTemplate ("slider", "OPTIONS_SLIDER_TEMPLATE")
-        local options_button_template = DF:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
-
-        local generalOptions = {
-            {--enable ocd
-                type = "toggle",
-                get = function() return Details.ocd_tracker.enabled end,
-                set = function (self, fixedparam, value)
-                    if (value) then
-                        Details.CooldownTracking.EnableTracker()
-                    else
-                        Details.CooldownTracking.DisableTracker()
-                    end
-                end,
-                name = "Enable Online Cooldown Tracker",
-                desc = "Enable Online Cooldown Tracker",
-            },
-
-            {--show only in group
-                type = "toggle",
-                get = function() return Details.ocd_tracker.show_conditions.only_in_group end,
-                set = function (self, fixedparam, value)
-                    Details.ocd_tracker.show_conditions.only_in_group = value
-                    Details.CooldownTracking.RefreshCooldownFrames()
-                end,
-                name = "Only in Group",
-                desc = "Only in Group",
-            },
-
-            {--show only inside instances
-                type = "toggle",
-                get = function() return Details.ocd_tracker.show_conditions.only_inside_instance end,
-                set = function (self, fixedparam, value)
-                    Details.ocd_tracker.show_conditions.only_inside_instance = value
-                    Details.CooldownTracking.RefreshCooldownFrames()
-                end,
-                name = "Only Inside Instances",
-                desc = "Only Inside Instances",
-            },
-        }
-
-        DF:BuildMenu(f, generalOptions, 5, -35, 150, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
-
-        --cooldown selection
-        local cooldownProfile = Details.ocd_tracker.cooldowns
-
-        local cooldownSelectionFrame = CreateFrame("frame", "$parentCooldownSelectionFrame", f, "BackdropTemplate")
-        cooldownSelectionFrame:SetPoint("topleft", f, "topleft", 0, -150)
-        cooldownSelectionFrame:SetPoint("bottomright", f, "bottomright", 0, 10)
-        DF:ApplyStandardBackdrop(cooldownSelectionFrame)
-
-        --list of cooldowns to show, each one with a toggle button
-        local cooldownList = {}
-        local alreadyAdded = {}
-        if (LIB_RAID_STATUS_COOLDOWNS_BY_SPEC) then
-            for specId, cooldownTable in pairs(LIB_RAID_STATUS_COOLDOWNS_BY_SPEC) do
-
-                local currentIndex = #cooldownList+1
-                local cooldownAdded = false
-
-                for spellId, cooldownType in pairs(cooldownTable) do
-                    if (not alreadyAdded[spellId]) then
-                        if (cooldownType == 3 or cooldownType == 4 or cooldownType == 1 or cooldownType == 2) then
-                            local spellName, _, spellIcon = GetSpellInfo(spellId)
                             if (spellName) then
-                                cooldownList[#cooldownList+1] = {
-                                    type = "toggle",
-                                    get = function()
-                                            if (cooldownProfile[spellId] == nil) then
-                                                if (cooldownType == 3 or cooldownType == 4 or cooldownType == 1 or cooldownType == 2) then
-                                                    cooldownProfile[spellId] = true
-                                                end
-                                            end
-                                            return cooldownProfile[spellId]
-                                    end,
-                                    set = function (self, fixedparam, value)
-                                        if (value) then
-                                            cooldownProfile[spellId] = value
-                                        else
-                                            cooldownProfile[spellId] = nil
-                                        end
-                                    end,
-                                    name = "|T" .. spellIcon .. ":" .. (16) .. ":" .. (16) .. ":0:0:64:64:" .. 0.1*64 .. ":" .. 0.9*64 .. ":" .. 0.1*64 .. ":" .. 0.9*64 .. "|t" .. spellName,
-                                    desc = spellName,
-                                    boxfirst = true,
-                                }
+                                local smallSpellName = string.sub(spellName, 1, 12)
+                                spellName = "|T" .. spellIcon .. ":" .. 20 .. ":" .. 20 .. ":0:0:" .. 64 .. ":" .. 64 .. "|t " .. smallSpellName
 
-                                alreadyAdded[spellId] = true
-                                cooldownAdded = true
+                                if (spellName) then
+                                    menuOptions[#menuOptions+1] = {
+                                        type = "toggle",
+                                        get = function() return Details.ocd_tracker.ignored_cooldowns[spellId] end,
+                                        set = function(self, fixedparam, value)
+                                            Details.ocd_tracker.ignored_cooldowns[spellId] = value
+                                            Details222.CooldownTracking.RefreshAllCooldownFrames()
+                                        end,
+                                        name = spellName,
+                                        desc = spellName,
+                                    }
+                                end
                             end
                         end
                     end
-                end
 
-                if (cooldownAdded) then
-                    local _, spenName, _, specIcon = GetSpecializationInfoByID(specId)
-                    local iconString = "|T" .. specIcon .. ":" .. (16) .. ":" .. (16) .. ":0:0:64:64:" .. 0.1*64 .. ":" .. 0.9*64 .. ":" .. 0.1*64 .. ":" .. 0.9*64 .. "|t"
-                    
-                    tinsert(cooldownList, currentIndex, {type = "label", get = function() return iconString .. " " .. spenName end})
-                    if (currentIndex > 1) then
-                        tinsert(cooldownList, currentIndex, {type = "blank"})
-                    end
+                    local anchorFrame = cooldownSelectionFrame.ClassCDsAnchorFrames[index]
+                    anchorFrame:Show()
+
+                    menuOptions.always_boxfirst = true
+
+                    DF:BuildMenuVolatile(anchorFrame, menuOptions, 5, -5, 400, false, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
+
+                    index = index + 1
                 end
-            end
+            end)
+
+            cooldownSelectionFrame:GetScript("OnEvent")(cooldownSelectionFrame, "GROUP_ROSTER_UPDATE")
+
+            cooldownSelectionFrame:SetScript("OnShow", function()
+                cooldownSelectionFrame:GetScript("OnEvent")(cooldownSelectionFrame, "GROUP_ROSTER_UPDATE")
+            end)
         end
 
-        DF:BuildMenu(cooldownSelectionFrame, cooldownList, 5, -5, cooldownSelectionFrame:GetHeight() - 40, false, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
-
-
-
+        _G.DetailsPluginContainerWindow.OpenPlugin(_G.DetailsCDTrackerWindow)
+        _G.DetailsCDTrackerWindow:Show()
     end
-
-    _G.DetailsPluginContainerWindow.OpenPlugin(_G.DetailsCDTrackerWindow)
-    _G.DetailsCDTrackerWindow:Show()
-end

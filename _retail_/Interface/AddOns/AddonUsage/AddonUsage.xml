@@ -456,6 +456,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
+<<<<<<< Updated upstream
       <!-- small tooltip to describe use of the above three buttons -->
 			<Frame parentKey="MiniTooltip" frameStrata="TOOLTIP" hidden="true">
 				<Size x="0" y="26"/>
@@ -468,6 +469,11 @@
 					<Color r="0.05" g="0.05" b="0.05"/>
 					<BorderColor r="0.5" g="0.5" b="0.5"/>
 				</Backdrop>
+=======
+            <!-- small tooltip to describe use of the above three buttons -->
+			<Frame parentKey="MiniTooltip" frameStrata="TOOLTIP" inherits="TooltipBackdropTemplate" hidden="true">
+				<Size x="0" y="26"/>
+>>>>>>> Stashed changes
 				<Layers>
 					<Layer level="ARTWORK">
 						<FontString parentKey="Text" inherits="GameFontNormalSmall"/>
@@ -478,6 +484,10 @@
 		<Scripts>
 			<OnLoad>
 				self:RegisterEvent("PLAYER_LOGIN")
+<<<<<<< Updated upstream
+=======
+                self.MiniTooltip:SetBackdropBorderColor(0.5,0.5,0.5)
+>>>>>>> Stashed changes
 			</OnLoad>
 			<OnEvent>
 				self:OnEvent(event,...)

@@ -133,7 +133,7 @@ Constructor
 -------------------------------------------------------------------------------]]
 local function Constructor()
 	local name = "AceGUI30Button" .. AceGUI:GetNextWidgetNum(Type)
-	local frame = CreateFrame("Button", name, FGI.interface.settings.filters.content.filtersFrame.frame)
+	local frame = CreateFrame("Button", name, FGI.interface.settings.filters.filtersFrame.frame)
 	frame:Hide()
 	
 	frame.tooltip = ''
@@ -152,7 +152,7 @@ local function Constructor()
 	text:ClearAllPoints()
 	text:SetPoint("TOPLEFT", 5, -1)
 	text:SetPoint("BOTTOMRIGHT", -5, 1)
-	text:SetJustifyV("LEFT")
+	text:SetJustifyV("MIDDLE")
 	
 	local highlight = frame:CreateTexture()
 	highlight:SetColorTexture(1,0,0,0.2)
@@ -330,7 +330,11 @@ local function Constructor()
 	frame:SetFrameStrata("FULLSCREEN_DIALOG")
 	frame:SetBackdrop(FrameBackdrop)
 	frame:SetBackdropColor(0, 0, 0, 1)
-	frame:SetMinResize(400, 200)
+	if frame.SetResizeBounds then -- WoW 10.0
+		frame:SetResizeBounds(400, 200)
+	else
+		frame:SetMinResize(400, 200)
+	end
 	frame:SetToplevel(true)
 	frame:SetScript("OnShow", Frame_OnShow)
 	frame:SetScript("OnHide", Frame_OnClose)
@@ -486,7 +490,11 @@ local function Constructor()
 	frame:SetResizable(true)
 	frame:SetFrameStrata("FULLSCREEN_DIALOG")
 	frame:SetBackdropColor(0, 0, 0, 1)
-	frame:SetMinResize(400, 200)
+	if frame.SetResizeBounds then -- WoW 10.0
+		frame:SetResizeBounds(400, 200)
+	else
+		frame:SetMinResize(400, 200)
+	end
 	frame:SetToplevel(true)
 	frame:SetScript("OnShow", Frame_OnShow)
 	frame:SetScript("OnHide", Frame_OnClose)
@@ -617,6 +625,15 @@ local methods = {
 			end
 		end
 	end,
+	
+	["SetColor"] = function(self, color)
+		if not color then
+			self.text.color = nil
+			return
+		end
+		self.text.color = color
+		self.text:SetTextColor(color[1] or 1, color[2] or 1, color[3] or 1)
+	end,
 
 	["SetDisabled"] = function(self, disabled)
 		self.disabled = disabled
@@ -629,7 +646,8 @@ local methods = {
 			end
 		else
 			self.frame:Enable()
-			self.text:SetTextColor(1, 1, 1)
+			local c = self.text.color or {}
+			self.text:SetTextColor(c[1] or 1, c[2] or 1, c[3] or 1)
 			if self.tristate and self.checked == nil then
 				SetDesaturation(self.check, true)
 			else
@@ -1489,7 +1507,8 @@ end
 Button Widget
 Graphical Button.
 -------------------------------------------------------------------------------]]
-local Type, Version = "TButton", 1
+do
+local Type, Version = "TButton", 2
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -1503,100 +1522,35 @@ local PlaySound, CreateFrame, UIParent = PlaySound, CreateFrame, UIParent
 --[[-----------------------------------------------------------------------------
 Scripts
 -------------------------------------------------------------------------------]]
-local function Button_OnClick(frame, ...)
-	AceGUI:ClearFocus()
-	PlaySound(852) -- SOUNDKIT.IG_MAINMENU_OPTION
-	frame.obj:Fire("OnClick", ...)
-end
-
 local function Control_OnEnter(frame)
-	frame.obj:Fire("OnEnter")
-	if frame.obj.tooltip ~= nil and frame.obj.tooltip ~= '' then
+	if frame.tooltip ~= nil and frame.tooltip ~= '' then
 		GameTooltip:SetOwner(frame, "ANCHOR_TOP")
-		GameTooltip:AddLine(frame.obj.tooltip)
+		GameTooltip:AddLine(frame.tooltip)
 		GameTooltip:Show()
 	end
 end
 
 local function Control_OnLeave(frame)
-	frame.obj:Fire("OnLeave")
 	GameTooltip:Hide()
 end
-
---[[-----------------------------------------------------------------------------
-Methods
--------------------------------------------------------------------------------]]
-local methods = {
-	["OnAcquire"] = function(self)
-		-- restore default values
-		self:SetHeight(24)
-		self:SetWidth(200)
-		self:SetDisabled(false)
-		self:SetAutoWidth(false)
-		self:SetText()
-	end,
-
-	-- ["OnRelease"] = nil,
-
-	["SetText"] = function(self, text)
-		self.text:SetText(text)
-		if self.autoWidth then
-			self:SetWidth(self.text:GetStringWidth() + 30)
-		end
-	end,
-
-	["SetAutoWidth"] = function(self, autoWidth)
-		self.autoWidth = autoWidth
-		if self.autoWidth then
-			self:SetWidth(self.text:GetStringWidth() + 30)
-		end
-	end,
-
-	["SetDisabled"] = function(self, disabled)
-		self.disabled = disabled
-		if disabled then
-			self.frame:Disable()
-		else
-			self.frame:Enable()
-		end
-	end,
-	
-	["SetTooltip"] = function(self, tooltip)
-		self.tooltip = tooltip
-	end
-}
 
 --[[-----------------------------------------------------------------------------
 Constructor
 -------------------------------------------------------------------------------]]
 local function Constructor()
-	local name = "AceGUI30Button" .. AceGUI:GetNextWidgetNum(Type)
-	local frame = CreateFrame("Button", name, UIParent, "UIPanelButtonTemplate")
-	frame:Hide()
-
-	frame:EnableMouse(true)
-	frame:SetScript("OnClick", Button_OnClick)
-	frame:SetScript("OnEnter", Control_OnEnter)
-	frame:SetScript("OnLeave", Control_OnLeave)
+	local button = AceGUI:RegisterAsWidget(AceGUI:Create("Button"))
 	
-	frame.tooltip = ''
-
-	local text = frame:GetFontString()
-	text:ClearAllPoints()
-	text:SetPoint("TOPLEFT", 15, -1)
-	text:SetPoint("BOTTOMRIGHT", -15, 1)
-	text:SetJustifyV("MIDDLE")
-
-	local widget = {
-		text  = text,
-		frame = frame,
-		type  = Type
-	}
-	for method, func in pairs(methods) do
-		widget[method] = func
+	button.frame:HookScript("OnEnter", Control_OnEnter)
+	button.frame:HookScript("OnLeave", Control_OnLeave)
+	
+	button.frame.tooltip = ''
+	
+	button["SetTooltip"] = function(self, tooltip)
+		self.frame.tooltip = tooltip
 	end
-
-	return AceGUI:RegisterAsWidget(widget)
+	
+	return button
 end
 
 AceGUI:RegisterWidgetType(Type, Constructor, Version)
+end

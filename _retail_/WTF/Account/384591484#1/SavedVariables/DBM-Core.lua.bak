@@ -11,9 +11,15 @@ DBM_AllSavedOptions = {
 		["StatusEnabled"] = true,
 		["DontRestoreIcons"] = false,
 		["DontShowNameplateIcons"] = false,
+<<<<<<< Updated upstream
 		["CoreSavedRevision"] = 20210309192103,
 		["RangeFrameX"] = 399.000427246094,
 		["RangeFrameY"] = 45.0000419616699,
+=======
+		["CoreSavedRevision"] = 20210701004539,
+		["RangeFrameX"] = 50,
+		["RangeFrameY"] = -50,
+>>>>>>> Stashed changes
 		["FilterInterruptNoteName"] = false,
 		["EnableModels"] = true,
 		["SpecialWarningFlashAlph3"] = 0.4,
@@ -120,6 +126,7 @@ DBM_AllSavedOptions = {
 		["AITimer"] = true,
 		["SpecialWarningFlashDura3"] = 1,
 		["WarningShortText"] = true,
+<<<<<<< Updated upstream
 		["SpecialWarningFlashRepeat1"] = false,
 		["AdvancedAutologBosses"] = false,
 		["SpecialWarningFlash4"] = true,
@@ -151,11 +158,23 @@ DBM_AllSavedOptions = {
 				["b"] = 0.101960784313725,
 			}, -- [4]
 		},
+=======
+		["SpecialWarningFlashDura1"] = 0.4,
+		["SpecialWarningSound4"] = 9278,
+		["DebugLevel"] = 1,
+		["DisableGuildStatus"] = false,
+		["DisableSFX"] = false,
+		["AutologBosses"] = false,
+		["SpecialWarningFlashDura4"] = 0.7,
+		["FilterInterrupt2"] = "TandFandBossCooldown",
+		["FilterTrashWarnings2"] = true,
+>>>>>>> Stashed changes
 		["SpecialWarningFlashCol3"] = {
 			1, -- [1]
 			0, -- [2]
 			0, -- [3]
 		},
+<<<<<<< Updated upstream
 		["InfoFrameFontSize"] = 12,
 		["ShowGuildMessages"] = true,
 		["SWarningAlphabetical"] = true,
@@ -179,22 +198,77 @@ DBM_AllSavedOptions = {
 		["DontRestoreRange"] = false,
 		["SilentMode"] = false,
 		["SpecialWarningFlashRepeat3"] = true,
+=======
+		["WarningColors"] = {
+			{
+				["b"] = 0.94,
+				["g"] = 0.8,
+				["r"] = 0.41,
+			}, -- [1]
+			{
+				["b"] = 0,
+				["g"] = 0.95,
+				["r"] = 0.95,
+			}, -- [2]
+			{
+				["b"] = 0,
+				["g"] = 0.5,
+				["r"] = 1,
+			}, -- [3]
+			{
+				["b"] = 0.1,
+				["g"] = 0.1,
+				["r"] = 1,
+			}, -- [4]
+		},
+		["RLReadyCheckSound"] = true,
+		["SWarningAlphabetical"] = true,
+		["AutoReplySound"] = true,
+		["BlockNoteShare"] = false,
+		["EventSoundMusic"] = "None",
+		["SpecialWarningSound2"] = 15391,
+		["DontPlaySpecialWarningSound"] = false,
+		["ModelSoundValue"] = "Short",
+		["SpecialWarningFlash5"] = true,
+		["DontRestoreIcons"] = false,
+		["DontPlayTrivialSpecialWarningSound"] = true,
+		["RangeFrameRadarPoint"] = "CENTER",
+		["SpecialWarningY"] = 75,
+		["SpecialWarningFlashDura5"] = 1,
+		["WarningY"] = 260,
+		["RangeFrameUpdates"] = "Average",
+		["MovieFilter2"] = "OnlyFight",
+>>>>>>> Stashed changes
 		["ShortTimerText"] = true,
-		["WhisperStats"] = false,
+		["RaidWarningSound"] = 11742,
+		["DontRestoreRange"] = false,
 		["VoiceOverSpecW2"] = "DefaultOnly",
+		["SpecialWarningFlashCount3"] = 3,
+		["RoleSpecAlert"] = true,
+		["WhisperStats"] = false,
+		["SilentMode"] = false,
 		["LogOnlyNonTrivial"] = true,
 		["DontPlayPTCountdown"] = false,
 		["SpecialWarningFlashAlph5"] = 0.5,
 		["SpecialWarningDuration2"] = 1.5,
+<<<<<<< Updated upstream
 		["InfoFrameX"] = 382.000305175781,
 		["RangeFrameLocked"] = false,
 		["ShowEngageMessage"] = true,
 		["RangeFrameSound1"] = "none",
 		["RangeFrameSound2"] = "none",
+=======
+		["WarningIconLeft"] = true,
+		["SpecialWarningFlash2"] = true,
+		["ShowEngageMessage"] = true,
+		["RangeFrameLocked"] = false,
+		["GUIHeight"] = 600,
+>>>>>>> Stashed changes
 		["WarningFontSize"] = 20,
 		["EventSoundVictory2"] = "None",
 		["SpecialWarningFlashDura2"] = 0.4,
 		["LastRevision"] = 0,
+<<<<<<< Updated upstream
 		["WarningFontShadow"] = true,
 		["SettingsMessageShown"] = true,
 		["RoleSpecAlert"] = true,
@@ -210,19 +284,48 @@ DBM_AllSavedOptions = {
 		["CountdownVoice3"] = "Smooth",
 		["AutoRespond"] = true,
 		["SpecialWarningFlashRepeat5"] = true,
+=======
+		["RangeFrameSound2"] = "none",
+		["SettingsMessageShown"] = true,
+		["ArrowPosY"] = -150,
+		["SWarnClassColor"] = true,
+		["SpecialWarningFlashCount5"] = 3,
+		["SpecialWarningPoint"] = "CENTER",
+		["DontSetIcons"] = false,
+		["SpecialWarningFlash4"] = true,
+		["SpecialWarningFlashCount4"] = 2,
+		["CountdownVoice"] = "Corsica",
+		["RecordOnlyBosses"] = false,
+		["DontShowBossAnnounces"] = false,
+		["CountdownVoice3"] = "Smooth",
+>>>>>>> Stashed changes
 		["DisableStatusWhisper"] = false,
+		["InfoFrameLines"] = 0,
+		["AutoRespond"] = true,
 		["EventDungMusicMythicFilter"] = true,
 		["SWarnClassColor"] = true,
 		["RangeFrameFrames"] = "radar",
 		["DontPlayCountdowns"] = false,
+<<<<<<< Updated upstream
 		["ShowBigBrotherOnCombatStart"] = false,
+=======
+		["WarningDuration2"] = 1.5,
+>>>>>>> Stashed changes
 		["SpecialWarningIcon"] = true,
 		["InfoFrameFont"] = "standardFont",
 		["SpecialWarningFlashAlph1"] = 0.3,
 		["ShowDefeatMessage"] = true,
 		["FilterTankSpec"] = true,
 		["DontShowRangeFrame"] = false,
+<<<<<<< Updated upstream
 		["SpecialWarningFlashRepeat2"] = false,
+=======
+		["SpecialWarningFlashCol4"] = {
+			1, -- [1]
+			0, -- [2]
+			1, -- [3]
+		},
+>>>>>>> Stashed changes
 		["InfoFrameShowSelf"] = false,
 		["SpecialWarningFont"] = "standardFont",
 		["DontShowSpecialWarningText"] = false,
@@ -230,12 +333,21 @@ DBM_AllSavedOptions = {
 		["DontShowBossTimers"] = false,
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,
+<<<<<<< Updated upstream
 		["WarningY"] = 260,
 		["CountdownVoice3v2"] = "Pewsey",
 		["WorldBossNearAlert"] = false,
 		["InfoFrameLines"] = 0,
 		["BadIDAlert"] = false,
 		["SpecialWarningFlashRepeatAmount"] = 2,
+=======
+		["WarningFontShadow"] = true,
+		["InfoFrameFontSize"] = 12,
+		["WorldBossNearAlert"] = false,
+		["WarningX"] = 0,
+		["BadIDAlert"] = false,
+		["DontShowUserTimers"] = false,
+>>>>>>> Stashed changes
 		["AutoAcceptFriendInvite"] = false,
 		["WarningIconChat"] = true,
 		["SpecialWarningFlashCount1"] = 1,
@@ -243,6 +355,7 @@ DBM_AllSavedOptions = {
 		["SpecialWarningSound5"] = 128466,
 		["DontSendYells"] = false,
 		["ShowPizzaMessage"] = true,
+<<<<<<< Updated upstream
 		["SpecialWarningFlash2"] = true,
 		["GUIHeight"] = 600,
 		["SpecialWarningFlash3"] = true,
@@ -263,6 +376,28 @@ DBM_AllSavedOptions = {
 		["AFKHealthWarning"] = false,
 		["SpecialWarningPoint"] = "CENTER",
 		["ShowFlashFrame"] = true,
+=======
+		["AdvancedAutologBosses"] = false,
+		["HideTooltips"] = false,
+		["SpecialWarningFlash3"] = true,
+		["RangeFrameSound1"] = "none",
+		["Enabled"] = true,
+		["CustomSounds"] = 0,
+		["GUIWidth"] = 800,
+		["FilterVoidFormSay"] = true,
+		["DontShowInfoFrame"] = false,
+		["DontShowSpecialWarningText"] = false,
+		["DontShowPTCountdownText"] = false,
+		["WarningPoint"] = "CENTER",
+		["StripServerName"] = true,
+		["ShowGuildMessages"] = true,
+		["SpecialWarningSound3"] = "Interface\\AddOns\\DBM-Core\\sounds\\AirHorn.ogg",
+		["SpecialWarningSound"] = 8174,
+		["ForumsMessageShown"] = false,
+		["AFKHealthWarning"] = false,
+		["FilterDispel"] = true,
+		["HelpMessageVersion"] = 3,
+>>>>>>> Stashed changes
 	},
 }
 DBM_MinimapIcon = {

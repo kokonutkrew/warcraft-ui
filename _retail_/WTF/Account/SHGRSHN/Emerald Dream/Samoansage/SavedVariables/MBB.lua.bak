@@ -5,11 +5,20 @@ MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
+<<<<<<< Updated upstream
 	["ExpandDirection"] = 1,
+=======
+>>>>>>> Stashed changes
 	["MaxButtonsPerLine"] = 0,
+	["DetachedButtonPos"] = "TOPLEFT",
 	["ButtonPos"] = {
+<<<<<<< Updated upstream
 		-26.38811683654785, -- [1]
 		-71.07876586914062, -- [2]
+=======
+		-26.67971038818359, -- [1]
+		-69.56515502929688, -- [2]
+>>>>>>> Stashed changes
 	},
 	["DetachedButtonPos"] = "TOPLEFT",
 }

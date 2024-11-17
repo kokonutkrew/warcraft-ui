@@ -8,8 +8,15 @@ MBB_Options = {
 	["ExpandDirection"] = 1,
 	["MaxButtonsPerLine"] = 0,
 	["ButtonPos"] = {
+<<<<<<< Updated upstream
 		-18, -- [1]
 		-100, -- [2]
 	},
 	["DetachedButtonPos"] = "CENTER",
+=======
+		-26.06643486022949, -- [1]
+		-72.59257507324219, -- [2]
+	},
+	["DetachedButtonPos"] = "TOPLEFT",
+>>>>>>> Stashed changes
 }

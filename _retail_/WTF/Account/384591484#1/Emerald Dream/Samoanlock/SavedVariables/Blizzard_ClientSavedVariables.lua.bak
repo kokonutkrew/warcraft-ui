@@ -1,6 +1,10 @@
 
 TARGET_FRAME_UNLOCKED = false
+<<<<<<< Updated upstream
 PLAYER_FRAME_UNLOCKED = false
+=======
+PLAYER_FRAME_UNLOCKED = nil
+>>>>>>> Stashed changes
 TARGET_FRAME_BUFFS_ON_TOP = nil
 FOCUS_FRAME_BUFFS_ON_TOP = nil
 PLAYER_FRAME_CASTBARS_SHOWN = nil

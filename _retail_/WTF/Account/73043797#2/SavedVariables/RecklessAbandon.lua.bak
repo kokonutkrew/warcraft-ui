@@ -1,0 +1,23 @@
+
+RecklessAbandonDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+RecklessAbandonPrivateDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+	},
+	["profiles"] = {
+		["Cherriebomb - Emerald Dream"] = {
+		},
+		["Cukie - Emerald Dream"] = {
+		},
+	},
+}

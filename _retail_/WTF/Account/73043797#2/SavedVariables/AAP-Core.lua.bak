@@ -1,5 +1,6 @@
 
 AAP1 = {
+<<<<<<< Updated upstream
 	["GliderName"] = "Goblin Glider Kit",
 	["Stormrage"] = {
 		["Samoantitan"] = {
@@ -68,6 +69,21 @@ AAP1 = {
 			["QuestCounter"] = 58,
 			["A87"] = 1,
 			["LoaPick"] = 0,
+=======
+	["EmeraldDream"] = {
+		["Cherriebomb"] = {
+			["FirstLoadz"] = 1,
+			["QlineSkip"] = {
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["LoaPick"] = 0,
+			["QuestCounter2"] = 204,
+			["A13"] = 1,
+			["SkippedBonusObj"] = {
+			},
+			["BonusSkips"] = {
+			},
+>>>>>>> Stashed changes
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -83,16 +99,24 @@ AAP1 = {
 				["AutoVendor"] = 0,
 				["topLiz"] = -150,
 				["arrowtop"] = -719.9999186197916,
+<<<<<<< Updated upstream
 				["Greetings2"] = 1,
+=======
+>>>>>>> Stashed changes
 				["AutoAccept"] = 1,
 				["CutScene"] = 1,
 				["left"] = 1200,
 				["ShowBlobs"] = 1,
+<<<<<<< Updated upstream
 				["Scale"] = 0.71,
+=======
+				["DisableHeirloomWarning"] = 0,
+>>>>>>> Stashed changes
 				["AutoHandIn"] = 1,
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 1200,
+<<<<<<< Updated upstream
 				["Partytop"] = -269.9999694824219,
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
@@ -103,10 +127,23 @@ AAP1 = {
 				["Partyleft"] = 768,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
+=======
+				["Hcamptop"] = -215.9999755859375,
+				["Greetings"] = 0,
+				["arrowleft"] = 936.5853658536586,
+				["ArrowScale"] = 0.71,
+				["AutoShareQ"] = 0,
+				["QuestButtons"] = 1,
+				["ShowMapBlobs"] = 1,
+				["Scale"] = 0.71,
+				["MiniMapBlobAlpha"] = 1,
+				["Partyleft"] = 768,
+>>>>>>> Stashed changes
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
+<<<<<<< Updated upstream
 				["Beta1"] = 1,
 				["Hcamptop"] = -215.9999755859375,
 				["QuestButtons"] = 1,
@@ -195,12 +232,39 @@ AAP1 = {
 			["AAP_DoWarCampaign"] = 0,
 			["QuestCounter2"] = 75,
 			["ANoZone"] = 1,
+=======
+				["alpha"] = 1,
+				["ShowArrow"] = 1,
+				["ShowQList"] = 1,
+				["Partytop"] = -269.9999694824219,
+				["Greetings2"] = 1,
+			},
+			["A539-DesMephisto-Shadowmoon2"] = 1,
+			["WantedQuestList"] = {
+			},
+			["A627"] = 1,
+			["A84"] = 1,
+			["QuestCounter"] = 204,
+		},
+		["Cukie"] = {
+			["FirstLoadz"] = 1,
+			["AAP_DoWarCampaign"] = 0,
+			["QuestCounter2"] = 61,
+			["A1409"] = 1,
+			["QuestCounter"] = 61,
+			["WantedQuestList"] = {
+			},
+>>>>>>> Stashed changes
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
 				["AutoRepair"] = 0,
 				["Greetings3"] = 0,
+<<<<<<< Updated upstream
 				["ChooseQuests"] = 0,
+=======
+				["AutoFlight"] = 1,
+>>>>>>> Stashed changes
 				["AutoGossip"] = 1,
 				["Hide"] = 0,
 				["ShowMap10s"] = 0,
@@ -223,14 +287,22 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
+<<<<<<< Updated upstream
 				["ShowQList"] = 1,
 				["ShowMapBlobs"] = 1,
 				["Hcamptop"] = -215.9999755859375,
 				["Partyleft"] = 768,
+=======
+				["Partyleft"] = 768,
+				["ShowQList"] = 1,
+				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
+>>>>>>> Stashed changes
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
+<<<<<<< Updated upstream
 				["ShowArrow"] = 1,
 				["QuestButtonDetatch"] = 0,
 				["Beta1"] = 1,
@@ -245,11 +317,26 @@ AAP1 = {
 			["WantedQuestList"] = {
 			},
 			["A1409"] = 1,
+=======
+				["ChooseQuests"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["Scale"] = 0.71,
+				["QuestButtons"] = 1,
+				["AutoShareQ"] = 0,
+				["Hcamptop"] = -215.9999755859375,
+				["DisableHeirloomWarning"] = 0,
+			},
+			["BonusSkips"] = {
+			},
+			["SkippedBonusObj"] = {
+			},
+>>>>>>> Stashed changes
 			["LoaPick"] = 0,
 			["A1726"] = 1,
 			["QlineSkip"] = {
 			},
 		},
+<<<<<<< Updated upstream
 		["Cherriebomb"] = {
 			["A84"] = 1,
 			["A21"] = 1,
@@ -940,11 +1027,14 @@ AAP1 = {
 			["QlineSkip"] = {
 			},
 		},
+=======
+>>>>>>> Stashed changes
 	},
 }
 AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
+<<<<<<< Updated upstream
 	[49134] = "Antorus, the Burning Throne: The Heart of Argus",
 	[48639] = "Army of the Light",
 	[40990] = "A Good Recipe List",
@@ -1271,10 +1361,24 @@ AAPQuestNames = {
 	[36706] = "Ashran Appearance",
 	[111] = "Speak with Gramma",
 	[57249] = "A Timely Invitation",
+=======
+	[27739] = "The Gnoll King",
+	[32618] = "Learn To Ride",
+	[44184] = "In the Blink of an Eye",
+	[42782] = "To Be Prepared",
+	[27733] = "The Good Ol' Switcheroo",
+	[27737] = "By Fire Be Saved!",
+	[40519] = "Legion: The Legion Returns",
+	[58208] = "Brace for Impact",
+	[58209] = "Stand Your Ground",
+	[56775] = "Warming Up",
+	[34398] = "Warlords of Draenor: The Dark Portal",
+>>>>>>> Stashed changes
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {
 	["FPs"] = {
+<<<<<<< Updated upstream
 		["Horde"] = {
 			[12] = {
 				["Marshmello-Tichondrius"] = {
@@ -1343,11 +1447,15 @@ AAP_Transport = {
 					[1539] = "Skysea Ridge, Gorgrond",
 				},
 			},
+=======
+		["Alliance"] = {
+>>>>>>> Stashed changes
 			[13] = {
 				["Cherriebomb-EmeraldDream"] = {
 					["Conts"] = {
 					},
 				},
+<<<<<<< Updated upstream
 				["Bunni-EmeraldDream"] = {
 					nil, -- [1]
 					1, -- [2]
@@ -1527,11 +1635,14 @@ AAP_Transport = {
 					[160] = "Evergrove, Blade's Edge Mountains",
 					[124] = "Wildhammer Stronghold, Shadowmoon Valley",
 				},
+=======
+>>>>>>> Stashed changes
 			},
 		},
 	},
 }
 AAP_Custom = {
+<<<<<<< Updated upstream
 	["Marshmello-Tichondrius"] = {
 		[3] = "(3/6) 10-50 Frostfire Ridge",
 		[6] = "(6/6) 10-50 Spires of Arak",
@@ -1600,6 +1711,18 @@ AAP_ZoneComplete = {
 	["Tygrrlilly-Stormrage"] = {
 	},
 	["Bunni-EmeraldDream"] = {
+=======
+	["Cherriebomb-EmeraldDream"] = {
+		"(6/8) 10-50 Shadowmoon", -- [1]
+	},
+	["Cukie-EmeraldDream"] = {
+	},
+}
+AAP_ZoneComplete = {
+	["Cherriebomb-EmeraldDream"] = {
+	},
+	["Cukie-EmeraldDream"] = {
+>>>>>>> Stashed changes
 	},
 }
 AAP_TaxiTimers = {

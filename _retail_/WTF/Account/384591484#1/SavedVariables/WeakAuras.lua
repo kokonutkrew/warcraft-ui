@@ -3,6 +3,7 @@ WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
 	["displays"] = {
+<<<<<<< Updated upstream
 		["KK-Wake of Ashes"] = {
 			["iconSource"] = -1,
 			["authorOptions"] = {
@@ -192,10 +193,15 @@ WeakAurasSaved = {
 		},
 	},
 	["lastArchiveClear"] = 1604718654,
+=======
+	},
+	["lastArchiveClear"] = 1616350278,
+>>>>>>> Stashed changes
 	["minimap"] = {
 		["minimapPos"] = 126.869819244542,
 		["hide"] = false,
 	},
+<<<<<<< Updated upstream
 	["lastUpgrade"] = 1615545641,
 	["dbVersion"] = 44,
 	["login_squelch_time"] = 10,
@@ -208,4 +214,11 @@ WeakAurasSaved = {
 		["width"] = 875.000061035156,
 	},
 	["editor_theme"] = "Monokai",
+=======
+	["lastUpgrade"] = 1618586628,
+	["dbVersion"] = 45,
+	["registered"] = {
+	},
+	["login_squelch_time"] = 10,
+>>>>>>> Stashed changes
 }

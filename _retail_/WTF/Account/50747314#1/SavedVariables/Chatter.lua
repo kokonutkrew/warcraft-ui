@@ -1,9 +1,18 @@
 
 ChatterDB = {
 	["namespaces"] = {
+<<<<<<< Updated upstream
 		["PlayerNames"] = {
 		},
 		["AltLinks"] = {
+=======
+		["AltLinks"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["guildsuffix"] = "[KK]",
+				},
+			},
+>>>>>>> Stashed changes
 		},
 		["Scrollback"] = {
 		},
@@ -15,12 +24,23 @@ ChatterDB = {
 						["invite"] = "invite",
 					},
 				},
+<<<<<<< Updated upstream
+=======
+				["KokonutKrew"] = {
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+					["altClickToinvite"] = true,
+				},
+>>>>>>> Stashed changes
 			},
 		},
 		["ChannelColors"] = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
+<<<<<<< Updated upstream
 						["CHANNEL12"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
@@ -32,25 +52,51 @@ ChatterDB = {
 							["r"] = 0,
 						},
 						["CHANNEL6"] = {
+=======
+						["Guild"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 1,
+							["b"] = 0.250980406999588,
+						},
+						["Instance Leader"] = {
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0.03529411926865578,
+						},
+						["Community:382392881:1"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
 						["Raid Leader"] = {
+<<<<<<< Updated upstream
 							["b"] = 0.03529411926865578,
 							["g"] = 0.2823529541492462,
 							["r"] = 1,
 						},
 						["CHANNEL"] = {
+=======
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0.03529411926865578,
+						},
+						["Community:382392831:1"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
+<<<<<<< Updated upstream
 						["PARTY"] = {
+=======
+						["Party"] = {
+>>>>>>> Stashed changes
 							["r"] = 0.6666666865348816,
 							["g"] = 0.6666666865348816,
 							["b"] = 1,
 						},
+<<<<<<< Updated upstream
 						["CHANNEL_LIST"] = {
 							["r"] = 0.7529412508010864,
 							["g"] = 0.501960813999176,
@@ -132,10 +178,39 @@ ChatterDB = {
 							["b"] = 0.250980406999588,
 						},
 						["YELL"] = {
+=======
+						["Whisper"] = {
+							["r"] = 1,
+							["g"] = 0.501960813999176,
+							["b"] = 1,
+						},
+						["Raid"] = {
+							["r"] = 1,
+							["g"] = 0.4980392456054688,
+							["b"] = 0,
+						},
+						["Raid Warning"] = {
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0,
+						},
+						["Party Leader"] = {
+							["r"] = 0.4627451300621033,
+							["g"] = 0.7843137979507446,
+							["b"] = 1,
+						},
+						["Instance"] = {
+							["r"] = 1,
+							["g"] = 0.4980392456054688,
+							["b"] = 0,
+						},
+						["Yell"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.250980406999588,
 							["b"] = 0.250980406999588,
 						},
+<<<<<<< Updated upstream
 						["BN_INLINE_TOAST_BROADCAST_INFORM"] = {
 							["r"] = 0.5098039507865906,
 							["g"] = 0.7725490927696228,
@@ -188,10 +263,15 @@ ChatterDB = {
 						},
 						["CHANNEL_NOTICE_USER"] = {
 							["r"] = 0.7529412508010864,
+=======
+						["LocalDefense"] = {
+							["r"] = 1,
+>>>>>>> Stashed changes
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
 						["Say"] = {
+<<<<<<< Updated upstream
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
@@ -367,11 +447,24 @@ ChatterDB = {
 							["b"] = 1,
 						},
 						["CHANNEL10"] = {
+=======
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["Real ID Whisper"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.9647059440612793,
+						},
+						["Trade"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
 						["General"] = {
+<<<<<<< Updated upstream
 							["b"] = 0.7529412508010864,
 							["g"] = 0.7529412508010864,
 							["r"] = 1,
@@ -402,10 +495,62 @@ ChatterDB = {
 							["b"] = 1,
 						},
 						["INSTANCE_CHAT"] = {
+=======
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["Officer"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.250980406999588,
+						},
+					},
+				},
+				["KokonutKrew"] = {
+					["colors"] = {
+						["Guild"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 1,
+							["b"] = 0.250980406999588,
+						},
+						["Instance Leader"] = {
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0.03529411926865578,
+						},
+						["Community:382392881:1"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["Raid Leader"] = {
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0.03529411926865578,
+						},
+						["Community:382392831:1"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["Party"] = {
+							["r"] = 0.6666666865348816,
+							["g"] = 0.6666666865348816,
+							["b"] = 1,
+						},
+						["Whisper"] = {
+							["r"] = 1,
+							["g"] = 0.501960813999176,
+							["b"] = 1,
+						},
+						["Raid"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.4980392456054688,
 							["b"] = 0,
 						},
+<<<<<<< Updated upstream
 						["CHANNEL2"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
@@ -517,20 +662,70 @@ ChatterDB = {
 							["b"] = 0.6705882549285889,
 						},
 						["MONSTER_YELL"] = {
+=======
+						["Raid Warning"] = {
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0,
+						},
+						["Party Leader"] = {
+							["r"] = 0.4627451300621033,
+							["g"] = 0.7843137979507446,
+							["b"] = 1,
+						},
+						["Instance"] = {
+							["r"] = 1,
+							["g"] = 0.4980392456054688,
+							["b"] = 0,
+						},
+						["Yell"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.250980406999588,
 							["b"] = 0.250980406999588,
 						},
+<<<<<<< Updated upstream
 						["CURRENCY"] = {
 							["r"] = 0,
 							["g"] = 0.6666666865348816,
 							["b"] = 0,
 						},
 						["CHANNEL20"] = {
+=======
+						["LocalDefense"] = {
+>>>>>>> Stashed changes
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
+<<<<<<< Updated upstream
+=======
+						["Say"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["Real ID Whisper"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.9647059440612793,
+						},
+						["Trade"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["General"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["Officer"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.250980406999588,
+						},
+>>>>>>> Stashed changes
 					},
 				},
 			},
@@ -540,6 +735,7 @@ ChatterDB = {
 		["ChatFrameBorders"] = {
 		},
 		["Buttons"] = {
+<<<<<<< Updated upstream
 		},
 		["Server Positioning"] = {
 		},
@@ -558,11 +754,43 @@ ChatterDB = {
 		["CopyChat"] = {
 		},
 		["UrlCopy"] = {
+=======
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["scrollReminder"] = true,
+				},
+			},
+		},
+		["Server Positioning"] = {
+		},
+		["Timestamps"] = {
+		},
+		["EditBox"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["background"] = "None",
+					["colorByChannel"] = false,
+					["border"] = "None",
+					["borderColor"] = {
+						["a"] = 0,
+					},
+				},
+			},
+		},
+		["ChatTabs"] = {
+		},
+		["Mousewheel Scroll"] = {
+		},
+		["CopyChat"] = {
+		},
+		["ChatFont"] = {
+>>>>>>> Stashed changes
 		},
 		["Editbox History"] = {
 			["realm"] = {
 				["Emerald Dream"] = {
 					["history"] = {
+<<<<<<< Updated upstream
 						"/invite herbcraft", -- [1]
 						"/ema config", -- [2]
 						"/invite samoanrelic", -- [3]
@@ -578,10 +806,16 @@ ChatterDB = {
 						"/p hes cloaked eh?", -- [13]
 						"/invite herbcraft", -- [14]
 						"/invite stronguard", -- [15]
+=======
+						"/chatter", -- [1]
+						"/chatter", -- [2]
+						"/s test", -- [3]
+>>>>>>> Stashed changes
 					},
 				},
 			},
 		},
+<<<<<<< Updated upstream
 		["ChatFont"] = {
 		},
 		["Mousewheel Scroll"] = {
@@ -591,10 +825,35 @@ ChatterDB = {
 		["Kokonutkiing - Emerald Dream"] = "Default",
 		["Gl - Emerald Dream"] = "Default",
 		["Kokonutkween - Emerald Dream"] = "Default",
+=======
+		["ChannelNames"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["channels"] = {
+						["BN Whisper From"] = "[BN:From>>>>>]",
+					},
+				},
+			},
+		},
+		["JustifyText"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Samoansavage - Emerald Dream"] = "KokonutKrew",
+>>>>>>> Stashed changes
 	},
 	["profiles"] = {
 		["Default"] = {
 			["welcomeMessaged"] = true,
 		},
+<<<<<<< Updated upstream
+=======
+		["KokonutKrew"] = {
+			["modules"] = {
+				["Disable Buttons"] = false,
+			},
+			["welcomeMessaged"] = true,
+		},
+>>>>>>> Stashed changes
 	},
 }

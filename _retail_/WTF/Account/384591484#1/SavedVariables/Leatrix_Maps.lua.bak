@@ -18,6 +18,7 @@ LeaMapsDB = {
 	["MainPanelR"] = "CENTER",
 	["CoordsBackground"] = "On",
 	["RevealMap"] = "On",
+<<<<<<< Updated upstream
 	["MapScale"] = 1,
 	["ShowIcons"] = "On",
 	["HideTownCity"] = "On",
@@ -26,18 +27,32 @@ LeaMapsDB = {
 	["hide"] = false,
 	["CoordsLargeFont"] = "Off",
 	["MaxMapPosY"] = 0,
+=======
+	["MainPanelA"] = "CENTER",
+	["ShowIcons"] = "On",
+	["minimapPos"] = 204,
+	["ShowMinimapIcon"] = "On",
+	["MapScale"] = 1,
+	["hide"] = false,
+	["CoordsLargeFont"] = "Off",
+>>>>>>> Stashed changes
 	["MainPanelY"] = 0,
+	["MaxMapPosY"] = 0,
 	["NoMapBorder"] = "Off",
-	["MaxMapPosA"] = "CENTER",
-	["MaxMapPosR"] = "CENTER",
-	["tintBlue"] = 1,
-	["BattleGroupIconSize"] = 8,
-	["BattlePlayerArrowSize"] = 12,
-	["MaxMapPosX"] = 0,
 	["FirstRunMessageSeen"] = true,
+	["MaxMapPosX"] = 0,
+	["tintBlue"] = 1,
+	["BattlePlayerArrowSize"] = 12,
+	["BattleGroupIconSize"] = 8,
+	["MaxMapPosR"] = "CENTER",
+	["MaxMapPosA"] = "CENTER",
 	["RevTint"] = "On",
 	["MaxMapScale"] = 0.9,
-	["ShowMinimapIcon"] = "On",
+	["RememberZoom"] = "On",
 	["tintGreen"] = 0.6,
+<<<<<<< Updated upstream
 	["minimapPos"] = 204,
+=======
+	["HideTownCity"] = "On",
+>>>>>>> Stashed changes
 }

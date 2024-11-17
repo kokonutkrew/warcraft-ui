@@ -12,7 +12,11 @@ g_auctionHouseSortsBySearchContext = {
 	}, -- [1]
 	{
 		{
+<<<<<<< Updated upstream
 			["reverseSort"] = true,
+=======
+			["reverseSort"] = false,
+>>>>>>> Stashed changes
 			["sortOrder"] = 0,
 		}, -- [1]
 		{
@@ -22,7 +26,11 @@ g_auctionHouseSortsBySearchContext = {
 	}, -- [2]
 	{
 		{
+<<<<<<< Updated upstream
 			["reverseSort"] = true,
+=======
+			["reverseSort"] = false,
+>>>>>>> Stashed changes
 			["sortOrder"] = 0,
 		}, -- [1]
 		{

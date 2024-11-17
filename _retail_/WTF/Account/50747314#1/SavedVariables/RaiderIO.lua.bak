@@ -1,7 +1,42 @@
 
 RaiderIO_Config = {
+<<<<<<< Updated upstream
 }
 RaiderIO_LastCharacter = "us-Gl-emerald-dream"
+=======
+	["useEnglishAbbreviations"] = false,
+	["enableKeystoneTooltips"] = true,
+	["disableScoreColors"] = false,
+	["showMainBestScore"] = true,
+	["allowClientToControlCombatLog"] = true,
+	["inverseProfileModifier"] = false,
+	["enableWhoTooltips"] = true,
+	["enableCombatLogTracking"] = false,
+	["showScoreInCombat"] = true,
+	["lockProfile"] = false,
+	["showRoleIcons"] = true,
+	["showRaiderIOProfile"] = true,
+	["enableLFGDropdown"] = true,
+	["enableGuildTooltips"] = true,
+	["enableClientEnhancements"] = true,
+	["mplusHeadlineMode"] = 2,
+	["enableProfileModifier"] = true,
+	["positionProfileAuto"] = true,
+	["enableUnitTooltips"] = true,
+	["enableFriendsTooltips"] = true,
+	["showRaidEncountersInProfile"] = true,
+	["showDropDownCopyURL"] = true,
+	["showAverageScore"] = true,
+	["enableLFGTooltips"] = true,
+	["hidePersonalRaiderIOProfile"] = false,
+	["showMainsScore"] = true,
+	["enableWhoMessages"] = true,
+	["showSimpleScoreColors"] = false,
+	["showScoreModifier"] = false,
+	["showClientGuildBest"] = true,
+}
+RaiderIO_LastCharacter = "us-Urorincar-emerald-dream"
+>>>>>>> Stashed changes
 RaiderIO_MissingCharacters = {
 }
 RaiderIO_CachedRuns = nil

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 AceGUI-3.0-Selectable-Panel: disabled
 ACP: disabled
 AddonUsage: disabled
@@ -12,6 +13,22 @@ Altoholic_Summary: disabled
 Auctionator: disabled
 AutoFlood: disabled
 AzeriteTooltip: disabled
+=======
+!BugGrabber: enabled
+CameraOverShoulderFix: disabled
+MinimapButtonFrame: disabled
+MinimapButtonFrame_SkinPack: disabled
+ACU: disabled
+Bartender4: enabled
+BugSack: enabled
+DynamicCam: disabled
+Immersion: enabled
+Leatrix_Maps: enabled
+Leatrix_Plus: enabled
+MBB: enabled
+ElvUI: disabled
+ElvUI_OptionsUI: disabled
+>>>>>>> Stashed changes
 AAP-Core: disabled
 AAP-Vanilla: enabled
 AAP-TBC-WotLK: enabled
@@ -180,6 +197,7 @@ TomCats-Mechagon: disabled
 TomCats-Nazjatar: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
+<<<<<<< Updated upstream
 BtWQuests: disabled
 BtWQuestsBattleForAzeroth: disabled
 DataStore_Keystones: disabled
@@ -207,11 +225,20 @@ Chatter: disabled
 DataStore_Covenants: disabled
 Details_TargetCaller: disabled
 Details: disabled
+=======
+AutoOpen: enabled
+CaerdonWardrobe: enabled
+Clique: enabled
+CovenantMissionHelper: disabled
+DeathNote: disabled
+Details: enabled
+>>>>>>> Stashed changes
 Details_DeathGraphs: disabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled
 Details_DataStorage: disabled
 Details_Streamer: disabled
+<<<<<<< Updated upstream
 Details_TimeLine: disabled
 Details_TinyThreat: disabled
 Details_Vanguard: disabled
@@ -238,3 +265,110 @@ Spy: disabled
 WorldQuestsList: disabled
 DejaCharacterStats: disabled
 FastGuildInvite: disabled
+=======
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
+ExRT: disabled
+Gnobesy: enabled
+Guild_Roster_Manager: disabled
+MacroToolkit: enabled
+MacroToolkitIcons: enabled
+Myslot: disabled
+OPie: enabled
+PersonalLootHelper: enabled
+PrettyReps: disabled
+RaiderIO: enabled
+RaiderIO_DB_US_A: enabled
+RaiderIO_DB_US_H: disabled
+RaiderIO_DB_EU_A: disabled
+RaiderIO_DB_EU_H: disabled
+RaiderIO_DB_KR_A: disabled
+RaiderIO_DB_KR_H: disabled
+RaiderIO_DB_TW_A: disabled
+RaiderIO_DB_TW_H: disabled
+RaiderIO_DB_US_A_R: enabled
+RaiderIO_DB_US_H_R: disabled
+RaiderIO_DB_EU_A_R: disabled
+RaiderIO_DB_EU_H_R: disabled
+RaiderIO_DB_KR_A_R: disabled
+RaiderIO_DB_KR_H_R: disabled
+RaiderIO_DB_TW_A_R: disabled
+RaiderIO_DB_TW_H_R: disabled
+RCLootCouncil: disabled
+RCLootCouncil_EPGP: disabled
+RCLootCouncil_ExtraUtilities: disabled
+RCLootCouncil_GroupGear: disabled
+Rematch: enabled
+Rematch_TSMPetValues: enabled
+Simulationcraft: disabled
+Spy: enabled
+WeakAuras: enabled
+WeakAurasArchive: disabled
+WeakAurasCompanion: disabled
+WeakAurasModelPaths: disabled
+WeakAurasOptions: disabled
+WeakAurasTemplates: disabled
+WorldQuestsList: disabled
+GSE: enabled
+GSE_GUI: disabled
+GSE_LDB: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
+RecklessAbandon: enabled
+DBM-Core: enabled
+DBM-GUI: disabled
+DBM-StatusBarTimers: disabled
+DBM-Brawlers: disabled
+DBM-CastleNathria: disabled
+DBM-DMF: disabled
+DBM-Party-Shadowlands: disabled
+DBM-Shadowlands: disabled
+DBM-WorldEvents: disabled
+FastGuildInvite: enabled
+AllTheThings: disabled
+GRA: disabled
+[KK] Guild: disabled
+[KK] FGI: disabled
+[KK] GRA: disabled
+[KK] Guild Test: disabled
+WhereToGather: disabled
+Train-All: enabled
+TomTom: enabled
+ItemTooltipProfessionIcons: enabled
+ElitismHelper: enabled
+Details_TargetCaller: disabled
+CanIMogIt: disabled
+BuyEmAll: enabled
+BattlePetBreedID: disabled
+BtWQuests: disabled
+BtWQuestsBattleForAzerothPrologue: disabled
+BtWQuestsShadowlands: disabled
+cancel-pet-fight: disabled
+CollectionShop: disabled
+Details_TimeLine: disabled
+Details_ChartViewer: disabled
+GuildBankSnapshots: disabled
+GuildLotteryRaffle: disabled
+HandyNotes: disabled
+HandyNotes_MoleMachine: disabled
+HHPH: disabled
+HivemindMount: disabled
+iGuard: disabled
+MonkeySpeed: disabled
+PetTracker: disabled
+PetTracker_Battle: disabled
+PetTracker_Config: disabled
+PetTracker_Journal: disabled
+Prat-3.0: enabled
+Prat-3.0_Libraries: enabled
+ProfessionsComplete: enabled
+TomCats-Hivemind: disabled
+DBM-SanctumOfDomination: disabled
+AdiBags: enabled
+AdiBags_BoE_BoA: enabled
+AdiBags_Hearthstones: enabled
+AdiBags_Config: enabled
+AdiBags_Fishing_Items: enabled
+Tukui: disabled
+MegaMacro: disabled
+>>>>>>> Stashed changes

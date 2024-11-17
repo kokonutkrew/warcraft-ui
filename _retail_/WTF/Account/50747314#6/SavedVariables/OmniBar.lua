@@ -1,0 +1,63 @@
+
+OmniBarDB = {
+["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Maliawq - Area 52"] = "Default",
+["Snuglebug - Area 52"] = "Default",
+["Maliaqz - Area 52"] = "Default",
+["Maliajj - Area 52"] = "Default",
+["Maliakk - Emerald Dream"] = "Default",
+["Maliatt - Area 52"] = "Default",
+["Maliavv - Area 52"] = "Default",
+["Maliabb - Area 52"] = "Default",
+["Faithwyn - Area 52"] = "Default",
+["Maliak - Emerald Dream"] = "Default",
+["Maliagg - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["bars"] = {
+["OmniBar1"] = {
+["glow"] = true,
+["scenario"] = true,
+["tooltips"] = true,
+["names"] = false,
+["multiple"] = true,
+["border"] = true,
+["center"] = false,
+["swipeAlpha"] = 0.65,
+["trackUnit"] = "ENEMY",
+["arena"] = true,
+["growUpward"] = true,
+["size"] = 40,
+["cooldownCount"] = true,
+["highlightTarget"] = true,
+["columns"] = 8,
+["unusedAlpha"] = 0.45,
+["align"] = "CENTER",
+["highlightFocus"] = false,
+["padding"] = 2,
+["adaptive"] = false,
+["maxIcons"] = 32,
+["ratedBattleground"] = true,
+["name"] = "OmniBar",
+["position"] = {
+["relativeTo"] = "UIParent",
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+["yOfs"] = 133.9999847412109,
+["xOfs"] = 247.5001983642578,
+["frameStrata"] = "MEDIUM",
+},
+["world"] = true,
+["showUnused"] = false,
+["locked"] = false,
+["battleground"] = true,
+},
+},
+},
+},
+}

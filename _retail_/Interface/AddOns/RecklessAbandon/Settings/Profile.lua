@@ -2,13 +2,18 @@ local E, L, V, P, G = unpack(select(2, ...)) --Import: Engine, Locales, PrivateD
 
 P.general = {
     loginMessage = true,
+    logLevel = 4,
     confirmIndividual = false,
     confirmGroup = true,
     individualQuests = {
-        showAbandonButton = true
+        showAbandonButton = true,
+        completeProtection = true,
+        abandonBinding = "ALT-BUTTON1",
+        excludeBinding = "ALT-BUTTON2"
     },
     zoneQuests = {
-        showAbandonButton = true
+        showAbandonButton = true,
+        abandonBinding = "ALT-BUTTON1"
     },
     campaignQuests = {
         showAbandonButton = true
@@ -19,10 +24,9 @@ P.general = {
 }
 
 P.commands = {
-    abandonAll = false,
-    abandonByQuestId = false,
-    excludeByQuestId = false,
-    includeByQuestId = false
+    generic = {
+        ["*"] = false
+    }
 }
 
 P.debugging = {

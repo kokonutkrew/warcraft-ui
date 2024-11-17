@@ -3,6 +3,10 @@ LeaPlusDB = {
 	["HideMiniZoomBtns"] = "Off",
 	["MuteBattleShouts"] = "Off",
 	["BuffFrameX"] = -205,
+<<<<<<< Updated upstream
+=======
+	["ManageFocus"] = "Off",
+>>>>>>> Stashed changes
 	["ManageWidget"] = "Off",
 	["SetWeatherDensity"] = "Off",
 	["ClassColPlayer"] = "On",
@@ -13,6 +17,10 @@ LeaPlusDB = {
 	["NoGryphons"] = "Off",
 	["FrmEnabled"] = "Off",
 	["TipCursorX"] = 0,
+<<<<<<< Updated upstream
+=======
+	["MuteSoulseekers"] = "Off",
+>>>>>>> Stashed changes
 	["PowerBarScale"] = 1,
 	["LeaStartPage"] = 0,
 	["WidgetA"] = "TOP",
@@ -24,7 +32,10 @@ LeaPlusDB = {
 	["HideBossBanner"] = "Off",
 	["BuffFrameScale"] = 1,
 	["UseArrowKeysInChat"] = "Off",
+<<<<<<< Updated upstream
 	["MuteATV"] = "Off",
+=======
+>>>>>>> Stashed changes
 	["AcceptPartyFriends"] = "Off",
 	["ClassIconPortraits"] = "Off",
 	["WidgetX"] = 0,
@@ -34,6 +45,10 @@ LeaPlusDB = {
 	["NoRestedEmotes"] = "Off",
 	["NoPartyInvites"] = "Off",
 	["CombatPlates"] = "Off",
+<<<<<<< Updated upstream
+=======
+	["FocusX"] = 0,
+>>>>>>> Stashed changes
 	["PowerBarX"] = 0,
 	["TipBackSimple"] = "Off",
 	["HideZoneText"] = "Off",
@@ -44,15 +59,25 @@ LeaPlusDB = {
 	["LeaPlusQuestFontSize"] = 12,
 	["TipShowTarget"] = "On",
 	["BuffFrameA"] = "TOPRIGHT",
+<<<<<<< Updated upstream
 	["NoPetDuels"] = "Off",
 	["NoDuelRequests"] = "Off",
+=======
+	["FocusR"] = "CENTER",
+	["NoPetDuels"] = "Off",
+	["NoDuelRequests"] = "Off",
+	["CooldownsOnPlayer"] = "Off",
+>>>>>>> Stashed changes
 	["QuestFontChange"] = "Off",
 	["NoRaidRestrictions"] = "Off",
 	["TipOffsetX"] = -13,
 	["ManagePowerBar"] = "Off",
 	["HideCleanupBtns"] = "Off",
 	["AutoQuestNoDaily"] = "Off",
+<<<<<<< Updated upstream
 	["MuteR21X"] = "Off",
+=======
+>>>>>>> Stashed changes
 	["AutoRepairGuildFunds"] = "On",
 	["NoClassBar"] = "Off",
 	["NoStickyEditbox"] = "Off",
@@ -62,20 +87,38 @@ LeaPlusDB = {
 	["HideBodyguard"] = "Off",
 	["WidgetY"] = -15,
 	["MuteVaults"] = "Off",
+<<<<<<< Updated upstream
+=======
+	["MuteMechsuits"] = "Off",
+>>>>>>> Stashed changes
 	["ShowWowheadLinks"] = "Off",
 	["UnclampChat"] = "Off",
 	["PowerBarY"] = 115,
 	["AutoQuestCompleted"] = "On",
 	["NoConfirmLoot"] = "Off",
 	["ClassColFrames"] = "Off",
+<<<<<<< Updated upstream
 	["NoStickyChat"] = "Off",
 	["LeaPlusMailFontSize"] = 15,
 	["WidgetR"] = "TOP",
 	["NoFriendRequests"] = "Off",
+=======
+	["TipHideInCombat"] = "Off",
+	["NoStickyChat"] = "Off",
+	["MusicContinent"] = "Zones",
+	["LeaPlusMailFontSize"] = 15,
+	["AutoQuestAvailable"] = "On",
+	["WidgetR"] = "TOP",
+	["MuteBalls"] = "Off",
+	["NoFriendRequests"] = "Off",
+	["NoPetAutomation"] = "Off",
+	["MuteInterface"] = "Off",
+>>>>>>> Stashed changes
 	["ShowVolumeInFrame"] = "Off",
 	["HideLevelUpDisplay"] = "Off",
 	["DurabilityStatus"] = "Off",
 	["NoChatButtons"] = "Off",
+<<<<<<< Updated upstream
 	["LockoutSharing"] = "Off",
 	["MuteHorned"] = "Off",
 	["MuteGyrocopters"] = "Off",
@@ -103,10 +146,40 @@ LeaPlusDB = {
 	["ShowRaidToggle"] = "Off",
 	["ClassColTarget"] = "On",
 	["ShowBorders"] = "Off",
+=======
+	["MuteUnicorns"] = "Off",
+	["MuteFizzle"] = "Off",
+	["MuteSniffing"] = "Off",
+	["NoCombatLogTab"] = "Off",
+	["BuffFrameY"] = -13,
+	["PlusPanelAlpha"] = 0,
+	["AutoConfirmRole"] = "Off",
+	["MoveChatEditBoxToTop"] = "Off",
+	["PlayerChainMenu"] = 2,
+	["MuteGyrocopters"] = "Off",
+	["MuteHovercraft"] = "Off",
+	["MuteReady"] = "Off",
+	["ShowVolume"] = "Off",
+	["MuteBanLu"] = "Off",
+	["MuteRockets"] = "Off",
+	["MuteTrains"] = "Off",
+	["NoScreenGlow"] = "Off",
+	["HideZoneTextBar"] = "Off",
+	["UnivGroupColor"] = "Off",
+	["MainPanelX"] = 0,
+	["AutoAcceptSummon"] = "Off",
+	["MainPanelR"] = "CENTER",
+	["WeatherLevel"] = 3,
+	["ShowPetSaveBtn"] = "Off",
+	["LockoutSharing"] = "Off",
+	["PlusPanelScale"] = 1,
+	["CharAddonList"] = "Off",
+>>>>>>> Stashed changes
 	["ShowCooldowns"] = "Off",
 	["MaxChatHstory"] = "Off",
 	["MailFontChange"] = "Off",
 	["FasterMovieSkip"] = "Off",
+<<<<<<< Updated upstream
 	["MinimapMod"] = "Off",
 	["MainPanelA"] = "CENTER",
 	["BordersLeft"] = 0,
@@ -119,6 +192,20 @@ LeaPlusDB = {
 	["ShowPlayerChain"] = "Off",
 	["EnableHotkey"] = "Off",
 	["MaxCameraZoom"] = "Off",
+=======
+	["ShowBorders"] = "Off",
+	["MainPanelA"] = "CENTER",
+	["EasyItemDestroy"] = "Off",
+	["BordersLeft"] = 0,
+	["FasterLooting"] = "Off",
+	["ShowRaidToggle"] = "Off",
+	["TipModEnable"] = "Off",
+	["NoCommandBar"] = "Off",
+	["MuteEvents"] = "Off",
+	["ShowPlayerChain"] = "Off",
+	["EnableHotkey"] = "Off",
+	["MuteSunflower"] = "Off",
+>>>>>>> Stashed changes
 	["NoBagAutomation"] = "Off",
 	["AutoSellJunk"] = "Off",
 	["AutoRepairGear"] = "Off",
@@ -129,6 +216,7 @@ LeaPlusDB = {
 	["HideTalkingFrame"] = "Off",
 	["TipOffsetY"] = 94,
 	["AutomateGossip"] = "Off",
+<<<<<<< Updated upstream
 	["CharAddonList"] = "Off",
 	["NoPetAutomation"] = "Off",
 	["UnivGroupColor"] = "Off",
@@ -156,4 +244,33 @@ LeaPlusDB = {
 	["NoCombatLogTab"] = "Off",
 	["EasyItemDestroy"] = "Off",
 	["BordersTop"] = 0,
+=======
+	["MaxCameraZoom"] = "Off",
+	["HideMiniClock"] = "Off",
+	["NoScreenEffects"] = "Off",
+	["ClassColTarget"] = "On",
+	["PowerBarA"] = "BOTTOM",
+	["LeaPlusTipSize"] = 1,
+	["HideErrorMessages"] = "Off",
+	["FocusY"] = 0,
+	["AutoQuestNoWeekly"] = "Off",
+	["RecentChatWindow"] = "Off",
+	["hide"] = false,
+	["FocusA"] = "CENTER",
+	["NoSocialButton"] = "Off",
+	["MainPanelY"] = 0,
+	["MinimapMod"] = "Off",
+	["ShowCooldownID"] = "On",
+	["NoHitIndicators"] = "Off",
+	["MuteAerials"] = "Off",
+	["BuffFrameR"] = "TOPRIGHT",
+	["ManageBuffs"] = "Off",
+	["InviteFriendsOnly"] = "Off",
+	["FocusScale"] = 1,
+	["BordersBottom"] = 0,
+	["MuteBikes"] = "Off",
+	["AutomateQuests"] = "Off",
+	["BordersTop"] = 0,
+	["TipShowRank"] = "On",
+>>>>>>> Stashed changes
 }

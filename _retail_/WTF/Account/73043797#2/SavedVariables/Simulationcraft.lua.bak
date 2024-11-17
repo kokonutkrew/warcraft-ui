@@ -1,0 +1,16 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Snukkle - Emerald Dream"] = "Snukkle - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+	},
+	["profiles"] = {
+		["Snukkle - Emerald Dream"] = {
+			["minimap"] = {
+				["minimapPos"] = 151.6449833790702,
+			},
+		},
+		["Cukie - Emerald Dream"] = {
+		},
+	},
+}

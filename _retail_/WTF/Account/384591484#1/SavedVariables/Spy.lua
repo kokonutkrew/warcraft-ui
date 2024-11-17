@@ -3,6 +3,7 @@ SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
+<<<<<<< Updated upstream
 				["Samoanwar"] = {
 				},
 				["Samoanlock"] = {
@@ -16,6 +17,15 @@ SpyDB = {
 				["Dethwish"] = {
 				},
 				["Stronguard"] = {
+=======
+				["Samoanlock"] = {
+				},
+				["Samoanbatman"] = {
+				},
+				["Ashh"] = {
+				},
+				["Sonikk"] = {
+>>>>>>> Stashed changes
 				},
 			},
 		},
@@ -27,6 +37,7 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
 		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
 		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
@@ -37,6 +48,15 @@ SpyDB = {
 	},
 	["profiles"] = {
 		["Samoanwar - Emerald Dream"] = {
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -48,6 +68,7 @@ SpyDB = {
 			},
 			["AppendUnitKoSCheck"] = true,
 		},
+<<<<<<< Updated upstream
 		["Stronguard - Emerald Dream"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
@@ -61,6 +82,9 @@ SpyDB = {
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Dethwish - Emerald Dream"] = {
+=======
+		["Sonikk - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {
@@ -74,6 +98,14 @@ SpyDB = {
 		},
 		["Samoanbatman - Emerald Dream"] = {
 			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
@@ -84,6 +116,7 @@ SpyDB = {
 			["MainWindowVis"] = false,
 			["AppendUnitKoSCheck"] = true,
 		},
+<<<<<<< Updated upstream
 		["Samoanlock - Emerald Dream"] = {
 			["AppendUnitNameCheck"] = true,
 			["Colors"] = {
@@ -108,6 +141,9 @@ SpyDB = {
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Buhbles - Emerald Dream"] = {
+=======
+		["Ashh - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["Colors"] = {

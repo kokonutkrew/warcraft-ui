@@ -2,11 +2,16 @@
 BtWQuests_Characters = {
 	{
 		["covenantID"] = 0,
+<<<<<<< Updated upstream
 		["class"] = 5,
+=======
+		["class"] = 9,
+>>>>>>> Stashed changes
 		["ignoredCategories"] = {
 		},
 		["achievements"] = {
 		},
+<<<<<<< Updated upstream
 		["race"] = "NightElf",
 		["level"] = 11,
 		["friendships"] = {
@@ -19,10 +24,16 @@ BtWQuests_Characters = {
 				["text"] = "Direhorn has grown into a Hatchling.",
 				["rep"] = 0,
 			},
+=======
+		["race"] = "Gnome",
+		["level"] = 1,
+		["friendships"] = {
+>>>>>>> Stashed changes
 		},
 		["realm"] = "Emerald Dream",
 		["chromieTimeID"] = 0,
 		["questsCompleted"] = {
+<<<<<<< Updated upstream
 			[56344] = true,
 			[59254] = true,
 			[59699] = true,
@@ -80,6 +91,13 @@ BtWQuests_Characters = {
 		["xpModifier"] = 0,
 		["renownLevel"] = 1,
 		["warModeBonus"] = 30,
+=======
+		},
+		["xpModifier"] = 0,
+		["renownLevel"] = 1,
+		["ignoredChains"] = {
+		},
+>>>>>>> Stashed changes
 		["reputations"] = {
 			[1134] = {
 				["barMin"] = 0,
@@ -88,6 +106,7 @@ BtWQuests_Characters = {
 				["barValue"] = 0,
 				["barMax"] = 3000,
 			},
+<<<<<<< Updated upstream
 			[1168] = {
 				["barMin"] = 3000,
 				["name"] = "Guild",
@@ -102,6 +121,15 @@ BtWQuests_Characters = {
 				["barValue"] = 0,
 				["barMax"] = 3000,
 			},
+=======
+			[54] = {
+				["barMin"] = 3000,
+				["name"] = "Gnomeregan",
+				["standing"] = 5,
+				["barValue"] = 4000,
+				["barMax"] = 9000,
+			},
+>>>>>>> Stashed changes
 			[47] = {
 				["barMin"] = 3000,
 				["name"] = "Ironforge",
@@ -109,6 +137,7 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 				["barMax"] = 9000,
 			},
+<<<<<<< Updated upstream
 			[1118] = {
 				["barMin"] = 0,
 				["name"] = "Classic",
@@ -123,6 +152,8 @@ BtWQuests_Characters = {
 				["barValue"] = 0,
 				["barMax"] = 3000,
 			},
+=======
+>>>>>>> Stashed changes
 			[1353] = {
 				["barMin"] = 3000,
 				["name"] = "Tushui Pandaren",
@@ -130,6 +161,7 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 				["barMax"] = 9000,
 			},
+<<<<<<< Updated upstream
 			[1106] = {
 				["barMin"] = 0,
 				["name"] = "Argent Crusade",
@@ -137,6 +169,8 @@ BtWQuests_Characters = {
 				["barValue"] = 0,
 				["barMax"] = 3000,
 			},
+=======
+>>>>>>> Stashed changes
 			[930] = {
 				["barMin"] = 3000,
 				["name"] = "Exodar",
@@ -144,6 +178,7 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 				["barMax"] = 9000,
 			},
+<<<<<<< Updated upstream
 			[54] = {
 				["barMin"] = 3000,
 				["name"] = "Gnomeregan",
@@ -151,6 +186,8 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 				["barMax"] = 9000,
 			},
+=======
+>>>>>>> Stashed changes
 			[72] = {
 				["barMin"] = 3000,
 				["name"] = "Stormwind",
@@ -158,6 +195,23 @@ BtWQuests_Characters = {
 				["barValue"] = 3100,
 				["barMax"] = 9000,
 			},
+<<<<<<< Updated upstream
+=======
+			[1118] = {
+				["barMin"] = 0,
+				["name"] = "Classic",
+				["standing"] = 4,
+				["barValue"] = 0,
+				["barMax"] = 3000,
+			},
+			[69] = {
+				["barMin"] = 3000,
+				["name"] = "Darnassus",
+				["standing"] = 5,
+				["barValue"] = 3100,
+				["barMax"] = 9000,
+			},
+>>>>>>> Stashed changes
 			[469] = {
 				["barMin"] = 3000,
 				["name"] = "Alliance",
@@ -165,6 +219,7 @@ BtWQuests_Characters = {
 				["barValue"] = 3300,
 				["barMax"] = 9000,
 			},
+<<<<<<< Updated upstream
 			[69] = {
 				["barMin"] = 3000,
 				["name"] = "Darnassus",
@@ -1040,4 +1095,19 @@ BtWQuests_Characters = {
 			},
 		},
 	}, -- [4]
+=======
+		},
+		["questsActive"] = {
+		},
+		["warModeBonus"] = 15,
+		["name"] = "Kkimport",
+		["faction"] = "Alliance",
+		["professions"] = {
+		},
+		["warMode"] = false,
+		["sex"] = 3,
+		["skills"] = {
+		},
+	}, -- [1]
+>>>>>>> Stashed changes
 }

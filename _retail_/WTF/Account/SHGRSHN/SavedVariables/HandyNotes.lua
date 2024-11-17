@@ -1,5 +1,6 @@
 
 HandyNotesDB = {
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
@@ -328,4 +329,91 @@ HandyNotes_HandyNotesDB = {
 		["Samoantitan - Stormrage"] = {
 		},
 	},
+=======
+["profileKeys"] = {
+["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+},
+["profiles"] = {
+["Fedieb - Emerald Dream"] = {
+},
+["Threadcraft - Emerald Dream"] = {
+},
+["Samoanghost - Frostmourne"] = {
+},
+["Herbcraft - Emerald Dream"] = {
+},
+["Samoansage - Emerald Dream"] = {
+},
+["Samoanrelic - Stormrage"] = {
+},
+["Orecraft - Emerald Dream"] = {
+},
+["Threadcraft - Area 52"] = {
+},
+["Forgecraft - Emerald Dream"] = {
+},
+["Samoansavage - Stormrage"] = {
+},
+["Dustcraft - Emerald Dream"] = {
+},
+["Samoanghost - Emerald Dream"] = {
+},
+["Samoantitan - Stormrage"] = {
+},
+},
+}
+HandyNotes_HandyNotesDB = {
+["profileKeys"] = {
+["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+},
+["profiles"] = {
+["Fedieb - Emerald Dream"] = {
+},
+["Threadcraft - Emerald Dream"] = {
+},
+["Samoanghost - Frostmourne"] = {
+},
+["Herbcraft - Emerald Dream"] = {
+},
+["Samoansage - Emerald Dream"] = {
+},
+["Samoanrelic - Stormrage"] = {
+},
+["Orecraft - Emerald Dream"] = {
+},
+["Forgecraft - Emerald Dream"] = {
+},
+["Samoansavage - Stormrage"] = {
+},
+["Dustcraft - Emerald Dream"] = {
+},
+["Samoanghost - Emerald Dream"] = {
+},
+["Samoantitan - Stormrage"] = {
+},
+},
+>>>>>>> Stashed changes
 }

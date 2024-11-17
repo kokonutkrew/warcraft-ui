@@ -1,0 +1,163 @@
+VER 3 0100000000000001 ".f02 FollowParty1" "135914"
+/follow party1
+/assist party1
+/target party1
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000002 ".f06 Follow Mast" "135914"
+/sg follow
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000003 ".f08 Set Master" "135914"
+/sg master
+/sg follow
+/run InviteUnit("Goldsquid-Moonguard");
+/ffa
+/changeactionbar 2
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000004 ".f11 Bait" "INV_Misc_QuestionMark"
+#showtooltip
+/use shiny bauble
+/use strong fishing pole
+END
+VER 3 0100000000000005 ".f13 ExtraAction" "INV_Misc_QuestionMark"
+#showtooltip
+/click ExtraActionButton1
+/click ExtraActionButton2
+/click ExtraActionButton3
+/click ExtraActionButton4
+/click ExtraActionButton5
+/click ExtraActionButton6
+/click ExtraActionButton7
+/click ExtraActionButton8
+END
+VER 3 0100000000000006 ".f13 Fish Bait" "1379246"
+/use survey
+/castsequence [nomod] Fishing
+/equipset [mod:alt] Max Fishing
+/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
+/use [mod:shift] Worm Supreme
+END
+VER 3 0100000000000007 ".f13 Mount Auto" "INV_Misc_QuestionMark"
+#showtooltip
+/use bubble wand
+/use [known:783] Travel Form
+/use [nostance:2] Cat Form
+/randompet
+/use [swimming]the hivemind
+/use [group,noflyable]grand black war mammoth
+/use [group,flyable]obsidian nightwing
+/run C_MountJournal.SummonByID(0)
+END
+VER 3 0100000000000008 ".f13 Mount Xmog" "INV_Misc_QuestionMark"
+#showtooltip
+/use Grand Expedition Yak
+/use Summon Chauffeur
+END
+VER 3 0100000000000009 ".FormCancel" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount
+/cancelform [stance:1/2/3/4/5/6/7/8/9/10]
+END
+VER 3 010000000000000A ".g A52 Guild" "134331"
+/s PVE |cffffd200|HclubFinder:ClubFinder-1-538815-3676-116717275|h[Guild: kk]|h|r or PVP |cffffd200|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KK]|h|r
+END
+VER 3 010000000000000B ".g Community" "135026"
+<[o.O]><[KK]> |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KK]|h|r or PVP |cffffd200|HclubFinder:ClubFinder-1-538815-3676-116717275|h[Guild: kk]|h|r
+END
+VER 3 010000000000000C ".trade Guilds" "133278"
+/4 {Star} {Moon} Buy/Sell your guild! Message me! {Moon} {Star}
+END
+VER 3 010000000000000D "Bank" "INV_Misc_QuestionMark"
+#showtooltip
+/use mobile banking
+END
+VER 3 010000000000000E "Mailbox" "INV_Misc_QuestionMark"
+#showtooltip
+/use ohuna perch
+END
+VER 3 010000000000000F "ProfessionA" "134400"
+/use  [known:tailoring]tailoring;[known:194174] Skinning Journal;[known:blacksmithing]blacksmithing;[known:inscription]inscription;
+END
+VER 3 0100000000000010 "ProfessionB" "134400"
+/use  [known:inscription]inscription;[known:alchemy]alchemy;[known:enchanting]enchanting;[known:engineering]engineering;[known:jewelcrafting]jewelcrafting;[known:2108]leatherworking;
+END
+VER 3 0100000000000011 "pvpBanner" "INV_Misc_QuestionMark"
+#showtooltip Banner of Cooperation
+/cast Banner of Cooperation
+/cast Standard of Unity
+/cast Alliance Battle Standard
+/cast Battle Standard of Coordination
+/cast Battle Flag: Phalanx Defense
+END
+VER 3 0100000000000012 "pvpSlowGun" "INV_Misc_QuestionMark"
+#showtooltip Gravimetric Scrambler Cannon
+/cast [@cursor] Gravimetric Scrambler Cannon
+END
+VER 3 0100000000000013 "TSMMacro" "Achievement_Faction_GoldenLotus"
+/click TSMCancelAuctionBtn
+/click TSMVendoringSellAllButton
+/click TSMShoppingBuyoutBtn
+/click TSMSniperBtn
+/click TSMCraftingBtn
+/click TSMAuctioningBtn
+/click TSMBidBuyConfirmBtn
+END
+VER 3 0100000000000014 "xPoint" "133980"
+/use the golden banana
+/use totem of harmony
+/use turnip punching bag
+END
+VER 3 0100000000000015 "zDH01" "INV_Misc_QuestionMark"
+#showtooltip
+/cancelaura Spectral Sight
+/cast [mod:alt] Spectral Sight; [@mouseover,harm,nodead] [] Consume Magic
+END
+VER 3 0100000000000016 "zDK01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Lichborne; [@mouseover,help,dead] [help,dead] Raise Ally; [spec:3,nopet] Raise Dead; [spec:3,@mouseover,harm,nodead] [spec:3] Gnaw
+END
+VER 3 0100000000000017 "zDruid01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,dead] [help,dead] Rebirth; [@mouseover,help,nodead] Remove Corruption; [@mouseover,harm,nodead] [harm] Soothe; Remove Corruption
+END
+VER 3 0100000000000018 "zEvoker01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,known:370665,@mouseover,help,nodead] [mod:shift,known:370665] Rescue; [mod:alt,known:374251,@mouseover,help,nodead] [mod:alt,known:374251] Cauterizing Flame; [@mouseover,help,nodead] [] Expunge
+END
+VER 3 0100000000000019 "zHunter01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nopet] Call Pet 1
+/cast [@pet,dead] Revive Pet
+/petattack
+/cast [pet,nomod,button:1] Mend Pet
+/cast [pet,nomod,button:2] Dismiss Pet
+/cast [pet,mod:alt] Feed Pet
+/use [pet,mod:alt] bloody percha
+END
+VER 3 010000000000001A "zHunter01" "134400"
+/cast [mod:shift,@pet] Revive Pet; [nomod,@mouseover,harm,nodead] [nomod] Tranquilizing Shot; [@focus,help,nodead] [@mouseover,help,nodead] [help] [@pet,exists] [] Misdirection
+END
+VER 3 010000000000001B "zHunter02" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt,@pet] Revive Pet; [@focus,help,group] [@mouseover,help,nodead,group] [help,group] [@pet,exists] [] Misdirection
+END
+VER 3 010000000000001C "zMage01" "INV_Misc_QuestionMark"
+#showtooltip
+[mod:alt] Alter Time; [@mouseover,help,nodead] Remove Curse; [@mouseover,harm,nodead] [harm] Spellsteal; Remove Curse
+END
+VER 3 010000000000001D "zMonk01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Diffuse Magic; [mod:shift] Dampen Harm; [spec:3,@mouseover,harm,nodead] Touch of Karma; [@mouseover,help,nodead] [help] Detox; [spec:3,harm] Touch of Karma
+END
+VER 3 010000000000001E "zPaladin01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,dead] [help,dead] Intercession; [@mouseover,help,nodead] [] Cleanse Toxins
+END

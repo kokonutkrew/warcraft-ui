@@ -1,0 +1,8 @@
+Version: 1
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: BOTTOM
+X: -3
+Y: 0
+W: 784
+H: 260

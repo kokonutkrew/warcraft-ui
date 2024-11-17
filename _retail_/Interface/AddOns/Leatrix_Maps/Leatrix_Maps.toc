@@ -1,14 +1,27 @@
-## Interface: 90005
+## Interface: 110005
 
 ## Title: Leatrix Maps
 ## Notes: Enhancements for your maps.
 
+<<<<<<< Updated upstream
 ## Version: 9.0.20
+=======
+## Version: 11.0.16
+>>>>>>> Stashed changes
 ## Author: Leatrix
 ## SavedVariables: LeaMapsDB
+
+## IconTexture: Interface\HELPFRAME\HelpIcon-Bug
+
+## OptionalDeps: Leatrix_enUS, ElvUI, WorldQuestTracker
+
+## AddonCompartmentFunc:LeaMapsGlobalMiniBtnClickFunc
+
+## X-Curse-Project-ID: 298842
 
 Leatrix_Maps_Library.lua
 Leatrix_Maps_Locale.lua
 Leatrix_Maps.xml
+Leatrix_Maps_Icons.lua
 Leatrix_Maps_Reveal.lua
 Leatrix_Maps.lua

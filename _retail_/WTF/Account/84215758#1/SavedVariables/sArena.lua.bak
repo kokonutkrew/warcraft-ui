@@ -1,7 +1,13 @@
 
 sArena3DB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream:_retail_/WTF/Account/84215758#1/SavedVariables/sArena.lua.bak
 		["Wealthkk - Emerald Dream"] = "Default",
+=======
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes:_retail_/WTF/Account/73043797#2/SavedVariables/ACU.lua
 	},
 	["profiles"] = {
 		["Default"] = {

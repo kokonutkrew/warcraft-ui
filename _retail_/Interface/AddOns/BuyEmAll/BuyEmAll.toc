@@ -1,12 +1,21 @@
+<<<<<<< Updated upstream
 ## Interface: 90001
 ## Author: Jordy141
 ## Notes: Enhances shift-click interface at vendors, making it easier to buy large amounts of items at once.
 ## Title: BuyEmAll
 ## Version: 3.5.9
+=======
+## Interface: 110002
+## Author: Jordy141
+## Notes: Replaces shift-click interface at vendors, making it easier to buy large amounts of items at once.
+## Title: BuyEmAll
+## Version: 4.1.0
+>>>>>>> Stashed changes
 ## SavedVariablesPerCharacter: BEAConfirmToggle
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Merchant: true
 ## X-LoadOn-Slash: /buyemall
+<<<<<<< Updated upstream
 
 Localization.deDE.lua
 Localization.enUS.lua
@@ -17,5 +26,16 @@ Localization.ptBR.lua
 Localization.ruRU.lua
 Localization.zhCN.lua
 Localization.zhTW.lua
+=======
+## X-Build-Type: Release
+## X-Curse-Project-ID: 2590
+## X-WoWI-ID: 5217
+## X-Wago-ID: kRNLnQKo
+
+init.lua
+
+localisation/index.xml
+
+>>>>>>> Stashed changes
 BuyEmAll.lua
 BuyEmAll.xml

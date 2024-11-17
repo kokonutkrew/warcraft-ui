@@ -1,6 +1,10 @@
 
 DBMShadowlands_SavedStats = {
+<<<<<<< Updated upstream
 	["2431"] = {
+=======
+	["2433"] = {
+>>>>>>> Stashed changes
 		["normalPulls"] = 0,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
@@ -11,12 +15,21 @@ DBMShadowlands_SavedStats = {
 		["normal25Pulls"] = 0,
 		["normalKills"] = 0,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["heroicKills"] = 0,
 		["timewalkerPulls"] = 0,
 		["mythicPulls"] = 0,
 		["normal25Kills"] = 0,
 		["timewalkerKills"] = 0,
 		["heroicPulls"] = 0,
+=======
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2432"] = {
@@ -28,6 +41,7 @@ DBMShadowlands_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalLastTime"] = 109.3709999999846,
 		["normalKills"] = 1,
 		["mythicPulls"] = 0,
@@ -42,6 +56,20 @@ DBMShadowlands_SavedStats = {
 	},
 	["2433"] = {
 		["normalPulls"] = 1,
+=======
+		["normalKills"] = 1,
+		["heroic25Kills"] = 0,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+		["challengePulls"] = 0,
+	},
+	["2431"] = {
+		["normalPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -49,6 +77,7 @@ DBMShadowlands_SavedStats = {
 		["heroic25Pulls"] = 0,
 		["lfr25Pulls"] = 0,
 		["normal25Pulls"] = 0,
+<<<<<<< Updated upstream
 		["normalKills"] = 1,
 		["heroic25Kills"] = 0,
 		["heroicKills"] = 0,
@@ -57,6 +86,16 @@ DBMShadowlands_SavedStats = {
 		["normal25Kills"] = 0,
 		["timewalkerKills"] = 0,
 		["heroicPulls"] = 0,
+=======
+		["normalKills"] = 0,
+		["heroic25Kills"] = 0,
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 	["2430"] = {
@@ -70,12 +109,21 @@ DBMShadowlands_SavedStats = {
 		["normal25Pulls"] = 0,
 		["normalKills"] = 0,
 		["heroic25Kills"] = 0,
+<<<<<<< Updated upstream
 		["heroicKills"] = 0,
 		["timewalkerPulls"] = 0,
 		["mythicPulls"] = 0,
 		["normal25Kills"] = 0,
 		["timewalkerKills"] = 0,
 		["heroicPulls"] = 0,
+=======
+		["timewalkerPulls"] = 0,
+		["heroicKills"] = 0,
+		["heroicPulls"] = 0,
+		["normal25Kills"] = 0,
+		["timewalkerKills"] = 0,
+		["mythicPulls"] = 0,
+>>>>>>> Stashed changes
 		["challengePulls"] = 0,
 	},
 }

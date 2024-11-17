@@ -108,8 +108,12 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
+<<<<<<< Updated upstream
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
+=======
+				["eventColoring"] = {
+>>>>>>> Stashed changes
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -125,7 +129,12 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
+<<<<<<< Updated upstream
 				["eventColoring"] = {
+=======
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
+>>>>>>> Stashed changes
 				},
 			},
 			["hasQuickButton"] = true,
@@ -153,11 +162,19 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
+<<<<<<< Updated upstream
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
 				["unitIcons"] = true,
 				["hideBuffs"] = true,
+=======
+				["hideBuffs"] = true,
+				["schoolNameHighlighting"] = true,
+				["unitBraces"] = true,
+				["braces"] = false,
+				["unitIcons"] = true,
+>>>>>>> Stashed changes
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -351,8 +368,12 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
+<<<<<<< Updated upstream
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
+=======
+				["eventColoring"] = {
+>>>>>>> Stashed changes
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -368,7 +389,12 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
+<<<<<<< Updated upstream
 				["eventColoring"] = {
+=======
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
+>>>>>>> Stashed changes
 				},
 			},
 			["hasQuickButton"] = true,
@@ -396,11 +422,19 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
+<<<<<<< Updated upstream
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
 				["unitIcons"] = true,
 				["hideBuffs"] = true,
+=======
+				["hideBuffs"] = true,
+				["schoolNameHighlighting"] = true,
+				["unitBraces"] = true,
+				["braces"] = false,
+				["unitIcons"] = true,
+>>>>>>> Stashed changes
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,

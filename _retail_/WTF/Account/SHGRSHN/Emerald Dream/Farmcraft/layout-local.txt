@@ -1,4 +1,5 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: GRM_RosterChangeLogFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,3 +14,19 @@ X: 1
 Y: -233
 W: 400
 H: 140
+=======
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 200
+Frame: AdiBagsAnchor1
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: 0
+Y: -43
+W: 80
+H: 80
+>>>>>>> Stashed changes

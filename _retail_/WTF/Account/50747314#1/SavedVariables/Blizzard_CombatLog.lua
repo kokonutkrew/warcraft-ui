@@ -1,5 +1,9 @@
 
 Blizzard_CombatLog_Filters = {
+<<<<<<< Updated upstream
+=======
+	["currentFilter"] = 3,
+>>>>>>> Stashed changes
 	["filters"] = {
 		{
 			["quickButtonName"] = "My actions",
@@ -15,6 +19,7 @@ Blizzard_CombatLog_Filters = {
 				["schoolColoring"] = {
 					{
 						["a"] = 1,
+<<<<<<< Updated upstream
 						["b"] = 0,
 						["g"] = 1,
 						["r"] = 1,
@@ -24,10 +29,22 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.5,
 						["g"] = 0.9,
 						["r"] = 1,
+=======
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 0,
+					}, -- [1]
+					{
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.9,
+						["b"] = 0.5,
+>>>>>>> Stashed changes
 					}, -- [2]
 					nil, -- [3]
 					{
 						["a"] = 1,
+<<<<<<< Updated upstream
 						["b"] = 0,
 						["g"] = 0.5,
 						["r"] = 1,
@@ -80,11 +97,47 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 1,
 						["g"] = 1,
 						["r"] = 1,
+=======
+						["r"] = 1,
+						["g"] = 0.5,
+						["b"] = 0,
+					}, -- [4]
+					[0] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					[8] = {
+						["a"] = 1,
+						["r"] = 0.3,
+						["g"] = 1,
+						["b"] = 0.3,
+					},
+					[32] = {
+						["a"] = 1,
+						["r"] = 0.5,
+						["g"] = 0.5,
+						["b"] = 1,
+					},
+					[16] = {
+						["a"] = 1,
+						["r"] = 0.5,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					[64] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.5,
+						["b"] = 1,
+>>>>>>> Stashed changes
 					},
 				},
 				["unitColoring"] = {
 					[32334] = {
 						["a"] = 1,
+<<<<<<< Updated upstream
 						["b"] = 0.05,
 						["g"] = 0.05,
 						["r"] = 0.75,
@@ -127,20 +180,94 @@ Blizzard_CombatLog_Filters = {
 					},
 				},
 			},
+=======
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[2147483648] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.75,
+						["b"] = 0.75,
+					},
+					[32558] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[32078] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[32542] = {
+						["a"] = 1,
+						["r"] = 0.34,
+						["g"] = 0.64,
+						["b"] = 1,
+					},
+					[17681] = {
+						["a"] = 1,
+						["r"] = 0.7,
+						["g"] = 0.7,
+						["b"] = 0.7,
+					},
+					[12561] = {
+						["a"] = 1,
+						["r"] = 0.7,
+						["g"] = 0.7,
+						["b"] = 0.7,
+					},
+				},
+				["eventColoring"] = {
+				},
+				["defaults"] = {
+					["spell"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["damage"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 0,
+					},
+				},
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
+				},
+			},
+			["hasQuickButton"] = true,
+>>>>>>> Stashed changes
 			["settings"] = {
 				["abilityHighlighting"] = true,
 				["lineColoring"] = true,
 				["spellBraces"] = false,
+<<<<<<< Updated upstream
 				["sourceColoring"] = true,
 				["showHistory"] = true,
 				["destColoring"] = true,
+=======
+				["sourceColoring"] = false,
+				["showHistory"] = true,
+				["destColoring"] = false,
+>>>>>>> Stashed changes
 				["amountHighlighting"] = true,
 				["schoolNameColoring"] = false,
 				["abilitySchoolColoring"] = false,
 				["sourceBraces"] = true,
 				["missColoring"] = true,
 				["itemBraces"] = true,
+<<<<<<< Updated upstream
 				["abilityColoring"] = false,
+=======
+				["abilityColoring"] = true,
+>>>>>>> Stashed changes
 				["amountActorColoring"] = false,
 				["textMode"] = "A",
 				["destBraces"] = true,
@@ -151,6 +278,7 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
+<<<<<<< Updated upstream
 				["schoolNameActorColoring"] = false,
 				["schoolNameHighlighting"] = true,
 				["unitBraces"] = true,
@@ -168,6 +296,27 @@ Blizzard_CombatLog_Filters = {
 			["hasQuickButton"] = true,
 			["filters"] = {
 				{
+=======
+				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = true,
+				["unitIcons"] = true,
+				["unitColoring"] = false,
+				["amountSchoolColoring"] = false,
+				["amountColoring"] = false,
+				["hideDebuffs"] = true,
+				["noMeleeSwingColoring"] = false,
+				["timestampFormat"] = "%H:%M:%S",
+				["schoolNameActorColoring"] = false,
+				["actionActorColoring"] = false,
+			},
+			["filters"] = {
+				{
+					["sourceFlags"] = {
+						[17681] = true,
+					},
+>>>>>>> Stashed changes
 					["eventList"] = {
 						["SPELL_PERIODIC_MISSED"] = false,
 						["SPELL_INTERRUPT"] = false,
@@ -196,6 +345,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DISPEL_FAILED"] = false,
 						["SPELL_AURA_APPLIED"] = false,
 						["ENCHANT_REMOVED"] = false,
+<<<<<<< Updated upstream
 						["SPELL_AURA_APPLIED_DOSE"] = false,
 						["SWING_DAMAGE"] = true,
 						["SPELL_AURA_BROKEN_SPELL"] = false,
@@ -210,6 +360,19 @@ Blizzard_CombatLog_Filters = {
 					["sourceFlags"] = {
 						[17681] = true,
 					},
+=======
+						["ENCHANT_APPLIED"] = false,
+						["SWING_DAMAGE"] = true,
+						["SPELL_AURA_BROKEN_SPELL"] = false,
+						["SPELL_PERIODIC_LEECH"] = false,
+						["RANGE_MISSED"] = false,
+						["SPELL_HEAL"] = true,
+						["SPELL_AURA_REMOVED"] = false,
+						["SPELL_AURA_APPLIED_DOSE"] = false,
+						["SPELL_PERIODIC_DRAIN"] = false,
+						["SPELL_DRAIN"] = false,
+					},
+>>>>>>> Stashed changes
 				}, -- [1]
 				{
 					["destFlags"] = {
@@ -236,8 +399,13 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DAMAGE"] = true,
 						["RANGE_MISSED"] = true,
 						["RANGE_DAMAGE"] = true,
+<<<<<<< Updated upstream
 						["SPELL_HEAL"] = true,
 						["ENCHANT_REMOVED"] = true,
+=======
+						["ENCHANT_REMOVED"] = true,
+						["SPELL_HEAL"] = true,
+>>>>>>> Stashed changes
 						["SPELL_DISPEL"] = true,
 						["SPELL_DRAIN"] = true,
 					},
@@ -258,6 +426,7 @@ Blizzard_CombatLog_Filters = {
 				["schoolColoring"] = {
 					{
 						["a"] = 1,
+<<<<<<< Updated upstream
 						["b"] = 0,
 						["g"] = 1,
 						["r"] = 1,
@@ -267,10 +436,22 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.5,
 						["g"] = 0.9,
 						["r"] = 1,
+=======
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 0,
+					}, -- [1]
+					{
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.9,
+						["b"] = 0.5,
+>>>>>>> Stashed changes
 					}, -- [2]
 					nil, -- [3]
 					{
 						["a"] = 1,
+<<<<<<< Updated upstream
 						["b"] = 0,
 						["g"] = 0.5,
 						["r"] = 1,
@@ -323,11 +504,47 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 1,
 						["g"] = 1,
 						["r"] = 1,
+=======
+						["r"] = 1,
+						["g"] = 0.5,
+						["b"] = 0,
+					}, -- [4]
+					[0] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					[8] = {
+						["a"] = 1,
+						["r"] = 0.3,
+						["g"] = 1,
+						["b"] = 0.3,
+					},
+					[32] = {
+						["a"] = 1,
+						["r"] = 0.5,
+						["g"] = 0.5,
+						["b"] = 1,
+					},
+					[16] = {
+						["a"] = 1,
+						["r"] = 0.5,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					[64] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.5,
+						["b"] = 1,
+>>>>>>> Stashed changes
 					},
 				},
 				["unitColoring"] = {
 					[32334] = {
 						["a"] = 1,
+<<<<<<< Updated upstream
 						["b"] = 0.05,
 						["g"] = 0.05,
 						["r"] = 0.75,
@@ -370,6 +587,70 @@ Blizzard_CombatLog_Filters = {
 					},
 				},
 			},
+=======
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[2147483648] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.75,
+						["b"] = 0.75,
+					},
+					[32558] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[32078] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[32542] = {
+						["a"] = 1,
+						["r"] = 0.34,
+						["g"] = 0.64,
+						["b"] = 1,
+					},
+					[17681] = {
+						["a"] = 1,
+						["r"] = 0.7,
+						["g"] = 0.7,
+						["b"] = 0.7,
+					},
+					[12561] = {
+						["a"] = 1,
+						["r"] = 0.7,
+						["g"] = 0.7,
+						["b"] = 0.7,
+					},
+				},
+				["eventColoring"] = {
+				},
+				["defaults"] = {
+					["spell"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["damage"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 0,
+					},
+				},
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
+				},
+			},
+			["hasQuickButton"] = true,
+>>>>>>> Stashed changes
 			["settings"] = {
 				["abilityHighlighting"] = true,
 				["lineColoring"] = true,
@@ -394,6 +675,7 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
+<<<<<<< Updated upstream
 				["schoolNameActorColoring"] = false,
 				["schoolNameHighlighting"] = true,
 				["unitBraces"] = true,
@@ -411,6 +693,33 @@ Blizzard_CombatLog_Filters = {
 			["hasQuickButton"] = true,
 			["filters"] = {
 				{
+=======
+				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = true,
+				["unitIcons"] = true,
+				["unitColoring"] = false,
+				["amountSchoolColoring"] = false,
+				["amountColoring"] = false,
+				["hideDebuffs"] = true,
+				["noMeleeSwingColoring"] = false,
+				["timestampFormat"] = "%H:%M:%S",
+				["schoolNameActorColoring"] = false,
+				["actionActorColoring"] = false,
+			},
+			["filters"] = {
+				{
+					["sourceFlags"] = {
+						[32334] = false,
+						[2147483648] = false,
+						[32558] = false,
+						[32078] = false,
+						[32542] = false,
+						[17681] = false,
+						[12561] = false,
+					},
+>>>>>>> Stashed changes
 					["eventList"] = {
 						["DAMAGE_SPLIT"] = true,
 						["UNIT_DISSIPATES"] = true,
@@ -420,6 +729,7 @@ Blizzard_CombatLog_Filters = {
 						["UNIT_DESTROYED"] = true,
 						["RANGE_DAMAGE"] = true,
 						["ENVIRONMENTAL_DAMAGE"] = true,
+<<<<<<< Updated upstream
 						["SPELL_PERIODIC_HEAL"] = true,
 						["SPELL_HEAL"] = true,
 						["UNIT_DIED"] = true,
@@ -433,6 +743,12 @@ Blizzard_CombatLog_Filters = {
 						[32542] = false,
 						[32558] = false,
 					},
+=======
+						["SPELL_HEAL"] = true,
+						["SPELL_PERIODIC_HEAL"] = true,
+						["UNIT_DIED"] = true,
+					},
+>>>>>>> Stashed changes
 				}, -- [1]
 				{
 					["destFlags"] = {
@@ -467,6 +783,7 @@ Blizzard_CombatLog_Filters = {
 						["UNIT_DIED"] = true,
 						["SPELL_AURA_APPLIED"] = true,
 						["SWING_MISSED"] = true,
+<<<<<<< Updated upstream
 						["SPELL_MISSED"] = true,
 						["SPELL_CAST_START"] = true,
 						["SPELL_DURABILITY_DAMAGE_ALL"] = true,
@@ -477,23 +794,330 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_CAST_FAILED"] = true,
 						["SPELL_AURA_REMOVED_DOSE"] = true,
 						["SPELL_PERIODIC_LEECH"] = true,
+=======
+						["ENCHANT_REMOVED"] = true,
+						["SPELL_BUILDING_HEAL"] = true,
+						["SPELL_DURABILITY_DAMAGE_ALL"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["SPELL_CAST_SUCCESS"] = true,
+						["SPELL_PERIODIC_LEECH"] = true,
+						["SPELL_DURABILITY_DAMAGE"] = true,
+						["SPELL_CAST_FAILED"] = true,
+						["ENCHANT_APPLIED"] = true,
+						["SPELL_DISPEL_FAILED"] = true,
+>>>>>>> Stashed changes
 						["SPELL_AURA_REFRESH"] = true,
 						["SPELL_AURA_APPLIED_DOSE"] = true,
 						["SPELL_AURA_REMOVED"] = true,
 						["SWING_DAMAGE"] = true,
 						["SPELL_AURA_BROKEN_SPELL"] = true,
 						["SPELL_CREATE"] = true,
+<<<<<<< Updated upstream
 						["SPELL_CAST_SUCCESS"] = true,
 						["SPELL_HEAL"] = true,
 						["SPELL_BUILDING_HEAL"] = true,
 						["ENCHANT_REMOVED"] = true,
+=======
+						["RANGE_MISSED"] = true,
+						["SPELL_HEAL"] = true,
+						["SPELL_CAST_START"] = true,
+						["SPELL_MISSED"] = true,
+>>>>>>> Stashed changes
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = true,
 					},
 				}, -- [2]
 			},
 		}, -- [2]
+<<<<<<< Updated upstream
 	},
 	["currentFilter"] = 1,
+=======
+		{
+			["hasQuickButton"] = true,
+			["onQuickBar"] = true,
+			["settings"] = {
+				["abilityHighlighting"] = true,
+				["lineColoring"] = true,
+				["spellBraces"] = false,
+				["sourceColoring"] = true,
+				["showHistory"] = true,
+				["destColoring"] = true,
+				["amountHighlighting"] = true,
+				["schoolNameColoring"] = false,
+				["abilitySchoolColoring"] = false,
+				["sourceBraces"] = true,
+				["missColoring"] = true,
+				["itemBraces"] = true,
+				["abilityColoring"] = false,
+				["amountActorColoring"] = false,
+				["textMode"] = "A",
+				["destBraces"] = true,
+				["timestamp"] = true,
+				["actionColoring"] = false,
+				["fullText"] = false,
+				["lineColorPriority"] = 1,
+				["lineHighlighting"] = true,
+				["abilityActorColoring"] = false,
+				["actionHighlighting"] = false,
+				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["unitIcons"] = true,
+				["hideBuffs"] = true,
+				["unitColoring"] = false,
+				["amountSchoolColoring"] = false,
+				["amountColoring"] = false,
+				["hideDebuffs"] = true,
+				["noMeleeSwingColoring"] = false,
+				["timestampFormat"] = "%H:%M:%S",
+				["schoolNameActorColoring"] = false,
+				["actionActorColoring"] = false,
+			},
+			["quickButtonDisplay"] = {
+				["party"] = true,
+				["solo"] = true,
+				["raid"] = true,
+			},
+			["colors"] = {
+				["schoolColoring"] = {
+					{
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 0,
+					}, -- [1]
+					{
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.9,
+						["b"] = 0.5,
+					}, -- [2]
+					nil, -- [3]
+					{
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.5,
+						["b"] = 0,
+					}, -- [4]
+					[0] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					[8] = {
+						["a"] = 1,
+						["r"] = 0.3,
+						["g"] = 1,
+						["b"] = 0.3,
+					},
+					[32] = {
+						["a"] = 1,
+						["r"] = 0.5,
+						["g"] = 0.5,
+						["b"] = 1,
+					},
+					[16] = {
+						["a"] = 1,
+						["r"] = 0.5,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					[64] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.5,
+						["b"] = 1,
+					},
+				},
+				["unitColoring"] = {
+					[32334] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[2147483648] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.75,
+						["b"] = 0.75,
+					},
+					[32558] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[32078] = {
+						["a"] = 1,
+						["r"] = 0.75,
+						["g"] = 0.05,
+						["b"] = 0.05,
+					},
+					[32542] = {
+						["a"] = 1,
+						["r"] = 0.34,
+						["g"] = 0.64,
+						["b"] = 1,
+					},
+					[17681] = {
+						["a"] = 1,
+						["r"] = 0.7,
+						["g"] = 0.7,
+						["b"] = 0.7,
+					},
+					[12561] = {
+						["a"] = 1,
+						["r"] = 0.7,
+						["g"] = 0.7,
+						["b"] = 0.7,
+					},
+				},
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
+				},
+				["defaults"] = {
+					["spell"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["damage"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 0,
+					},
+				},
+				["eventColoring"] = {
+				},
+			},
+			["tooltip"] = "",
+			["name"] = "Deaths",
+			["filters"] = {
+				{
+					["sourceFlags"] = {
+						[12561] = false,
+						[2147483648] = true,
+						[32542] = true,
+						[17681] = false,
+					},
+					["eventList"] = {
+						["SPELL_PERIODIC_MISSED"] = 1,
+						["SPELL_SUMMON"] = 1,
+						["SPELL_INTERRUPT"] = true,
+						["SPELL_AURA_APPLIED_REMOVED_DOSE"] = 1,
+						["UNIT_DESTROYED"] = true,
+						["SPELL_RESURRECT"] = 1,
+						["DAMAGE_SHIELD_MISSED"] = false,
+						["SPELL_LEECH"] = true,
+						["SPELL_AURA_BROKEN"] = true,
+						["SPELL_BUILDING_DAMAGE"] = 1,
+						["SPELL_PERIODIC_ENERGIZE"] = true,
+						["DAMAGE_SPLIT"] = true,
+						["UNIT_DISSIPATES"] = true,
+						["SPELL_INSTAKILL"] = 1,
+						["SPELL_PERIODIC_DAMAGE"] = 1,
+						["SPELL_PERIODIC_HEAL"] = 1,
+						["PARTY_KILL"] = true,
+						["SPELL_DAMAGE"] = 1,
+						["RANGE_DAMAGE"] = 1,
+						["ENVIRONMENTAL_DAMAGE"] = false,
+						["SPELL_DISPEL"] = 1,
+						["SPELL_EXTRA_ATTACKS"] = 1,
+						["DAMAGE_SHIELD"] = false,
+						["SPELL_STOLEN"] = 1,
+						["SPELL_ENERGIZE"] = 1,
+						["UNIT_DIED"] = true,
+						["SPELL_AURA_APPLIED"] = 1,
+						["SWING_MISSED"] = 1,
+						["ENCHANT_REMOVED"] = 1,
+						["SPELL_BUILDING_HEAL"] = 1,
+						["SPELL_DURABILITY_DAMAGE_ALL"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["SPELL_CAST_SUCCESS"] = 1,
+						["SPELL_PERIODIC_LEECH"] = 1,
+						["SPELL_DURABILITY_DAMAGE"] = true,
+						["SPELL_CAST_FAILED"] = 1,
+						["ENCHANT_APPLIED"] = 1,
+						["SPELL_DISPEL_FAILED"] = 1,
+						["SPELL_AURA_REFRESH"] = 1,
+						["SPELL_AURA_APPLIED_DOSE"] = 1,
+						["SPELL_AURA_REMOVED"] = 1,
+						["SWING_DAMAGE"] = 1,
+						["SPELL_AURA_BROKEN_SPELL"] = true,
+						["SPELL_CREATE"] = true,
+						["RANGE_MISSED"] = 1,
+						["SPELL_HEAL"] = 1,
+						["SPELL_CAST_START"] = 1,
+						["SPELL_MISSED"] = 1,
+						["SPELL_PERIODIC_DRAIN"] = 1,
+						["SPELL_DRAIN"] = true,
+					},
+				}, -- [1]
+				{
+					["destFlags"] = {
+						[17681] = true,
+						[12561] = true,
+					},
+					["eventList"] = {
+						["SPELL_PERIODIC_MISSED"] = true,
+						["SPELL_SUMMON"] = true,
+						["SPELL_INTERRUPT"] = true,
+						["UNIT_DESTROYED"] = true,
+						["SPELL_RESURRECT"] = true,
+						["DAMAGE_SHIELD_MISSED"] = true,
+						["SPELL_LEECH"] = true,
+						["SPELL_AURA_BROKEN"] = true,
+						["SPELL_BUILDING_DAMAGE"] = true,
+						["SPELL_PERIODIC_ENERGIZE"] = true,
+						["DAMAGE_SPLIT"] = true,
+						["UNIT_DISSIPATES"] = true,
+						["SPELL_INSTAKILL"] = true,
+						["SPELL_PERIODIC_DAMAGE"] = true,
+						["SPELL_PERIODIC_HEAL"] = true,
+						["PARTY_KILL"] = true,
+						["SPELL_DAMAGE"] = true,
+						["RANGE_DAMAGE"] = true,
+						["ENVIRONMENTAL_DAMAGE"] = true,
+						["SPELL_DISPEL"] = true,
+						["SPELL_EXTRA_ATTACKS"] = true,
+						["DAMAGE_SHIELD"] = true,
+						["SPELL_STOLEN"] = true,
+						["SPELL_ENERGIZE"] = true,
+						["UNIT_DIED"] = true,
+						["SPELL_AURA_APPLIED"] = true,
+						["SWING_MISSED"] = true,
+						["ENCHANT_REMOVED"] = true,
+						["SPELL_BUILDING_HEAL"] = true,
+						["SPELL_DURABILITY_DAMAGE_ALL"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["SPELL_CAST_SUCCESS"] = true,
+						["SPELL_PERIODIC_LEECH"] = true,
+						["SPELL_DURABILITY_DAMAGE"] = true,
+						["SPELL_CAST_FAILED"] = true,
+						["ENCHANT_APPLIED"] = true,
+						["SPELL_DISPEL_FAILED"] = true,
+						["SPELL_AURA_REFRESH"] = true,
+						["SPELL_AURA_APPLIED_DOSE"] = true,
+						["SPELL_AURA_REMOVED"] = true,
+						["SWING_DAMAGE"] = true,
+						["SPELL_AURA_BROKEN_SPELL"] = true,
+						["SPELL_CREATE"] = true,
+						["RANGE_MISSED"] = true,
+						["SPELL_HEAL"] = true,
+						["SPELL_CAST_START"] = true,
+						["SPELL_MISSED"] = true,
+						["SPELL_PERIODIC_DRAIN"] = true,
+						["SPELL_DRAIN"] = true,
+					},
+				}, -- [2]
+			},
+		}, -- [3]
+	},
+>>>>>>> Stashed changes
 }
 Blizzard_CombatLog_Filter_Version = 4.3

@@ -1,5 +1,6 @@
 
 PawnOptions = {
+<<<<<<< Updated upstream
 	["LastVersion"] = 2.0406,
 	["ItemLevels"] = {
 		{
@@ -92,6 +93,99 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastPlayerFullName"] = "Samoanslayer-Emerald Dream",
+=======
+	["LastVersion"] = 2.0525,
+	["LastPlayerFullName"] = "Samoanslayer-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 185876,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:185876::::::::60:71::14:5:7692:6652:7575:1472:6646::::::|h[Vault Guardian's Helm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 178707,
+			["Level"] = 140,
+			["Link"] = "|cff0070dd|Hitem:178707::::::::60:72::17:4:7217:6771:6652:7194:2:9:58:28:747:::::|h[Trailspinner Pendant]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 187395,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:187395::::::::60:71:::1:6652:1:28:2043:::::|h[Reinforced Stygian Spaulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 171442,
+			["Level"] = 151,
+			["Link"] = "|cff0070dd|Hitem:171442::::::::60:72::13:1:6893:4:9:50:28:391:29:36:30:40:::::|h[Shadowsteel Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 185882,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:185882::::::::60:71::27:5:7692:6652:7574:1472:6646:1:28:2043:::::|h[Vault Guardian's Girdle]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 187394,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:187394::::::::60:71::28:4:6652:7694:1485:6646:1:28:2043:::::|h[Tormented Giant's Legplates]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 186750,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:186750::::::::60:71::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Vault Guardian's Stompers]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 177795,
+			["Level"] = 129,
+			["Link"] = "|cff1eff00|Hitem:177795::::::::60:72::5:4:6907:6652:7194:1701:2:9:60:28:752:::::|h[Night Guardian Armplates of the Feverflare]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 187393,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:187393::::::::60:71::28:4:6652:7694:1485:6646:1:28:2043:::::|h[Sterling Hound-Handler's Gauntlets]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 178933,
+			["Level"] = 146,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:178933::::::::60:72::17:4:7217:6771:6652:7194:2:9:59:28:747:::::|h[Arachnid Cipher Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 178736,
+			["Level"] = 146,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff0070dd|Hitem:178736::::::::60:72::17:4:7217:6771:6652:7193:2:9:59:28:747:::::|h[Stitchflesh's Misplaced Signet]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 178751,
+			["Level"] = 158,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:178751::::::::60:72::1:4:6805:6652:1472:4785:1:28:747:::::|h[Spare Meat Hook]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 178751,
+			["Level"] = 158,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff0070dd|Hitem:178751::::::::60:71::1:4:6805:6652:1472:4785:1:28:747:::::|h[Spare Meat Hook]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 186239,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:186239::::::::60:71::28:4:7693:6652:1479:6646:1:28:2043:::::|h[Drape of the Phantasm]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 186154,
+			["Level"] = 163,
+			["Link"] = "|cff1eff00|Hitem:186154::::::::60:72:::2:7453:1689:2:9:60:28:2043:::::|h[Mawsworn Guard's Cleaver of the Peerless]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 179485,
+			["Level"] = 148,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:179485::::::::60:72::28:3:6652:1495:6616:1:28:1707:::::|h[Fang of Nemaeus]|h|r",
+		}, -- [17]
+	},
+>>>>>>> Stashed changes
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

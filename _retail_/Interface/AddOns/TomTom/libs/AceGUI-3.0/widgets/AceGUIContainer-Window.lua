@@ -7,10 +7,13 @@ local pairs, assert, type = pairs, assert, type
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
+<<<<<<< Updated upstream
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
 -- GLOBALS: GameFontNormal
 
+=======
+>>>>>>> Stashed changes
 ----------------
 -- Main Frame --
 ----------------
@@ -21,7 +24,11 @@ local CreateFrame, UIParent = CreateFrame, UIParent
 ]]
 do
 	local Type = "Window"
+<<<<<<< Updated upstream
 	local Version = 6
+=======
+	local Version = 8
+>>>>>>> Stashed changes
 
 	local function frameOnShow(this)
 		this.obj:Fire("OnShow")
@@ -186,7 +193,15 @@ do
 
 		frame:SetScript("OnShow",frameOnShow)
 		frame:SetScript("OnHide",frameOnClose)
+<<<<<<< Updated upstream
 		frame:SetMinResize(240,240)
+=======
+		if frame.SetResizeBounds then -- WoW 10.0
+			frame:SetResizeBounds(240,240)
+		else
+			frame:SetMinResize(240,240)
+		end
+>>>>>>> Stashed changes
 		frame:SetToplevel(true)
 
 		local titlebg = frame:CreateTexture(nil, "BACKGROUND")
@@ -300,7 +315,11 @@ do
 		line2:SetHeight(8)
 		line2:SetPoint("BOTTOMRIGHT", -8, 8)
 		line2:SetTexture(137057) -- Interface\\Tooltips\\UI-Tooltip-Border
+<<<<<<< Updated upstream
 		local x = 0.1 * 8/17
+=======
+		x = 0.1 * 8/17
+>>>>>>> Stashed changes
 		line2:SetTexCoord(0.05 - x, 0.5, 0.05, 0.5 + x, 0.05, 0.5 - x, 0.5 + x, 0.5)
 
 		local sizer_s = CreateFrame("Frame",nil,frame)

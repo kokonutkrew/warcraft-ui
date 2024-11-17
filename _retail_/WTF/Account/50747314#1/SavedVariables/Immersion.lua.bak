@@ -3,10 +3,15 @@ ImmersionSetup = {
 	["strata"] = "MEDIUM",
 	["scale"] = 1,
 	["elementscale"] = 1,
+<<<<<<< Updated upstream
+=======
+	["enablenumbers"] = false,
+>>>>>>> Stashed changes
 	["disableprogression"] = false,
 	["titleoffsetY"] = 0,
 	["hideui"] = false,
 	["boxoffsetX"] = 0,
+<<<<<<< Updated upstream
 	["accept"] = "SPACE",
 	["boxscale"] = 1,
 	["boxoffsetY"] = 150,
@@ -19,4 +24,20 @@ ImmersionSetup = {
 	["anidivisor"] = 5,
 	["inspect"] = "SHIFT",
 	["reset"] = "BACKSPACE",
+=======
+	["reset"] = "BACKSPACE",
+	["accept"] = "ENTER",
+	["boxscale"] = 1,
+	["inspect"] = "SHIFT",
+	["anidivisor"] = 5,
+	["boxpoint"] = "Bottom",
+	["flipshortcuts"] = false,
+	["boxlock"] = true,
+	["delaydivisor"] = 15,
+	["titlelock"] = true,
+	["titlescale"] = 1,
+	["titleoffset"] = 500,
+	["immersivemode"] = true,
+	["boxoffsetY"] = 150,
+>>>>>>> Stashed changes
 }

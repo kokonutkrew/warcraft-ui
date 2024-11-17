@@ -8,6 +8,7 @@ _detalhes_database = {
 			{
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
@@ -151,10 +152,43 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									},
 									[34428] = {
+=======
+					["combatId"] = 1354,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005312,
+							["damage_from"] = {
+								["Nightbane"] = true,
+							},
+							["targets"] = {
+								["Nightbane"] = 175868,
+							},
+							["last_dps"] = 14119.13979703927,
+							["pets"] = {
+							},
+							["damage_taken"] = 65.005312,
+							["total"] = 175868.005312,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 175868.005312,
+							["tipo"] = 1,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["end_time"] = 1630288508,
+							["delay"] = 0,
+							["aID"] = "162-0A2F1F9A",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 70,
 										["targets"] = {
 											["Arcane Anomaly"] = 70,
@@ -166,6 +200,103 @@ _detalhes_database = {
 										["total"] = 70,
 										["c_max"] = 0,
 										["id"] = 34428,
+=======
+										["n_max"] = 5650,
+										["targets"] = {
+											["Nightbane"] = 16652,
+										},
+										["n_dmg"] = 16652,
+										["n_min"] = 5359,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 16652,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 40761,
+										["g_amt"] = 0,
+										["n_max"] = 10414,
+										["targets"] = {
+											["Nightbane"] = 71479,
+										},
+										["n_dmg"] = 30718,
+										["n_min"] = 10079,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 71479,
+										["c_max"] = 20562,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 20199,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[7384] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 20272,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Nightbane"] = 20272,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20272,
+										["c_max"] = 20272,
+										["id"] = 7384,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 20272,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[315961] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4759,
+										["targets"] = {
+											["Nightbane"] = 4759,
+										},
+										["n_dmg"] = 4759,
+										["n_min"] = 4759,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4759,
+										["c_max"] = 0,
+										["id"] = 315961,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -178,6 +309,7 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+<<<<<<< Updated upstream
 									[218617] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -194,11 +326,303 @@ _detalhes_database = {
 										["total"] = 355,
 										["c_max"] = 128,
 										["id"] = 218617,
+=======
+									[260643] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10082,
+										["targets"] = {
+											["Nightbane"] = 10082,
+										},
+										["n_dmg"] = 10082,
+										["n_min"] = 10082,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 10082,
+										["c_max"] = 0,
+										["id"] = 260643,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 98,
+=======
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[325886] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 50784,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Nightbane"] = 50784,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 50784,
+										["c_max"] = 50784,
+										["id"] = 325886,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 50784,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+									},
+									[199658] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1840,
+										["targets"] = {
+											["Nightbane"] = 1840,
+										},
+										["n_dmg"] = 1840,
+										["n_min"] = 1840,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1840,
+										["c_max"] = 0,
+										["id"] = 199658,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["nome"] = "Samoanslayer",
+							["spec"] = 71,
+							["colocacao"] = 1,
+							["last_event"] = 1630288508,
+							["on_hold"] = false,
+							["start_time"] = 1630288497,
+							["serial"] = "Player-162-0A2F1F9A",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.001669,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 65194.00166900001,
+							["dps_started"] = false,
+							["total"] = 65194.00166900001,
+							["spec"] = 66,
+							["colocacao"] = 2,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["damage_from"] = {
+								["Nightbane"] = true,
+							},
+							["targets"] = {
+								["Nightbane"] = 65194,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["nome"] = "Stronguard",
+							["end_time"] = 1630288508,
+							["last_event"] = 1630288508,
+							["last_dps"] = 5233.943615042611,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4555,
+										["g_amt"] = 0,
+										["n_max"] = 2288,
+										["targets"] = {
+											["Nightbane"] = 12906,
+										},
+										["n_dmg"] = 8351,
+										["n_min"] = 1887,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 12906,
+										["c_max"] = 4555,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 4555,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Nightbane"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 204242,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 2,
+									},
+									[275779] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 16445,
+										["g_amt"] = 0,
+										["n_max"] = 6950,
+										["targets"] = {
+											["Nightbane"] = 23395,
+										},
+										["n_dmg"] = 6950,
+										["n_min"] = 6950,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 23395,
+										["c_max"] = 16445,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 16445,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[31935] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 6030,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Nightbane"] = 6030,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6030,
+										["c_max"] = 6030,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 6030,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[81297] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2087,
+										["g_amt"] = 0,
+										["n_max"] = 348,
+										["targets"] = {
+											["Nightbane"] = 4032,
+										},
+										["n_dmg"] = 1945,
+										["n_min"] = 281,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 4032,
+										["c_max"] = 704,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 682,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53595] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1470,
+										["targets"] = {
+											["Nightbane"] = 2900,
+										},
+										["n_dmg"] = 2900,
+										["n_min"] = 1430,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2900,
+										["c_max"] = 0,
+										["id"] = 53595,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+>>>>>>> Stashed changes
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -206,6 +630,7 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+<<<<<<< Updated upstream
 								},
 								["tipo"] = 2,
 							},
@@ -248,10 +673,14 @@ _detalhes_database = {
 							["spells"] = {
 								["_ActorTable"] = {
 									[165474] = {
+=======
+									[24275] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 59,
 										["targets"] = {
 											["Samoanslayer"] = 235,
@@ -263,13 +692,453 @@ _detalhes_database = {
 										["total"] = 235,
 										["c_max"] = 0,
 										["id"] = 165474,
+=======
+										["n_max"] = 8417,
+										["targets"] = {
+											["Nightbane"] = 8417,
+										},
+										["n_dmg"] = 8417,
+										["n_min"] = 8417,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8417,
+										["c_max"] = 0,
+										["id"] = 24275,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53600] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7514,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Nightbane"] = 7514,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7514,
+										["c_max"] = 7514,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 7514,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["damage_taken"] = 528.001669,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 230,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 4,
+									["ALL"] = 9,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 4,
+									["ABSORB_AMT"] = 230,
+									["FULL_HIT"] = 5,
+									["HITS"] = 4,
+									["FULL_HIT_AMT"] = 528,
+								},
+								["Nightbane"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 230,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 4,
+									["ALL"] = 9,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 4,
+									["ABSORB_AMT"] = 230,
+									["FULL_HIT"] = 5,
+									["HITS"] = 4,
+									["FULL_HIT_AMT"] = 528,
+								},
+							},
+							["start_time"] = 1630288497,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.006846,
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006846,
+							["aID"] = "1071-02ABF11F",
+							["dps_started"] = false,
+							["total"] = 0.006846,
+							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-1071-02ABF11F",
+							["nome"] = "Tanathalas-KirinTor",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 5172.006846,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 1304,
+							["totalabsorbed"] = 0.004064,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["on_hold"] = false,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004064,
+							["aID"] = "75-0158F2D7",
+							["dps_started"] = false,
+							["total"] = 0.004064,
+							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-75-0158F2D7",
+							["nome"] = "Dracoargent-ArgentDawn",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1708.004064,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 1304,
+							["totalabsorbed"] = 0.003583,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["on_hold"] = false,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003583,
+							["aID"] = "163-07F4A1CE",
+							["dps_started"] = false,
+							["total"] = 0.003583,
+							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-163-07F4A1CE",
+							["nome"] = "Nyynaeve-Lightninghoof",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3433.003583,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.003355,
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003355,
+							["aID"] = "163-0AA03A2E",
+							["dps_started"] = false,
+							["total"] = 0.003355,
+							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-163-0AA03A2E",
+							["nome"] = "Crowley-TwistingNether",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 930.003355,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 1304,
+							["totalabsorbed"] = 0.002853,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["on_hold"] = false,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002853,
+							["aID"] = "1071-073258F8",
+							["dps_started"] = false,
+							["total"] = 0.002853,
+							["classe"] = "UNGROUPPLAYER",
+							["serial"] = "Player-1071-073258F8",
+							["nome"] = "Alisamage-SteamwheedleCartel",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 135.002853,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.005844,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Dracoargent-ArgentDawn"] = 1708,
+								["Crowley-TwistingNether"] = 930,
+								["Tanathalas-KirinTor"] = 5172,
+								["Nyynaeve-Lightninghoof"] = 3433,
+								["Alisamage-SteamwheedleCartel"] = 135,
+							},
+							["on_hold"] = true,
+							["pets"] = {
+							},
+							["timeMachine"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11378.005844,
+							["aID"] = "",
+							["dps_started"] = true,
+							["total"] = 11378.005844,
+							["classe"] = "UNKNOW",
+							["serial"] = "",
+							["nome"] = "Environment (Falling)",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5172,
+										["targets"] = {
+											["Dracoargent-ArgentDawn"] = 1708,
+											["Crowley-TwistingNether"] = 930,
+											["Tanathalas-KirinTor"] = 5172,
+											["Nyynaeve-Lightninghoof"] = 3433,
+											["Alisamage-SteamwheedleCartel"] = 135,
+										},
+										["n_dmg"] = 11378,
+										["n_min"] = 135,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 11378,
+										["c_max"] = 0,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["spellschool"] = 3,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005844,
+							["start_time"] = 1639227340,
+							["delay"] = 1639227340,
+							["last_event"] = 1639227340,
+						}, -- [8]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 230.0016,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 65,
+								["Stronguard"] = 528,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 65,
+							},
+							["total_without_pet"] = 593.0016,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 593.0016,
+							["damage_taken"] = 241062.0016,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 69,
+										["targets"] = {
+											["Samoanslayer"] = 65,
+											["Stronguard"] = 230,
+										},
+										["n_dmg"] = 295,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 295,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[228785] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 298,
+										["targets"] = {
+											["Stronguard"] = 298,
+										},
+										["n_dmg"] = 298,
+										["n_min"] = 298,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 298,
+										["c_max"] = 0,
+										["id"] = 228785,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["c_min"] = 0,
+<<<<<<< Updated upstream
 										["successful_casted"] = 4,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
+=======
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+>>>>>>> Stashed changes
 										["a_dmg"] = 0,
 										["extra"] = {
 										},
@@ -277,6 +1146,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["dps_started"] = false,
@@ -288,20 +1158,42 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-79658-000011D9B7",
 							["classe"] = "UNKNOW",
 						}, -- [2]
+=======
+							["nome"] = "Nightbane",
+							["end_time"] = 1630288508,
+							["aID"] = "114895",
+							["custom"] = 0,
+							["last_event"] = 1630288506,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630288497,
+							["serial"] = "Creature-0-3782-1651-16137-114895-00002C3A6F",
+							["dps_started"] = false,
+						}, -- [9]
+>>>>>>> Stashed changes
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
+<<<<<<< Updated upstream
 					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["healing_from"] = {
 								["Samoanslayer"] = true,
+=======
+					["combatId"] = 1354,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["targets_overheal"] = {
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
+<<<<<<< Updated upstream
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 286.00789,
 							["total_without_pet"] = 235.00789,
@@ -374,12 +1266,66 @@ _detalhes_database = {
 										["n_curado"] = 68,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+=======
+							["classe"] = "PALADIN",
+							["totalover"] = 0.002961,
+							["total_without_pet"] = 230.002961,
+							["total"] = 230.002961,
+							["targets_absorbs"] = {
+								["Stronguard"] = 230,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["totalabsorb"] = 230.002961,
+							["last_hps"] = 18.46523450545093,
+							["targets"] = {
+								["Stronguard"] = 230,
+							},
+							["totalover_without_pet"] = 0.002961,
+							["healing_taken"] = 230.002961,
+							["totaldenied"] = 0.002961,
+							["end_time"] = 1630288508,
+							["last_event"] = 1630288503,
+							["heal_enemy_amt"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 230,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 69,
+										["targets"] = {
+											["Stronguard"] = 230,
+										},
+										["n_min"] = 33,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 230,
+										["c_max"] = 0,
+										["id"] = 327225,
+										["targets_absorbs"] = {
+											["Stronguard"] = 230,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 230,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["is_shield"] = true,
+>>>>>>> Stashed changes
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["classe"] = "WARRIOR",
 							["totaldenied"] = 0.00789,
 							["custom"] = 0,
@@ -390,10 +1336,110 @@ _detalhes_database = {
 							["targets_absorbs"] = {
 							},
 						}, -- [1]
+=======
+							["aID"] = "162-0B337F26",
+							["spec"] = 66,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["nome"] = "Stronguard",
+							["start_time"] = 1630288498,
+							["delay"] = 0,
+							["healing_from"] = {
+								["Stronguard"] = true,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1352,
+							["totalabsorb"] = 0.006603,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.006603,
+							["totalover"] = 0.006603,
+							["total_without_pet"] = 0.006603,
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["totalover_without_pet"] = 0.006603,
+							["aID"] = "163-0AA03A2E",
+							["total"] = 0.006603,
+							["heal_enemy_amt"] = 930,
+							["classe"] = "UNGROUPPLAYER",
+							["nome"] = "Crowley-TwistingNether",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["start_time"] = 0,
+							["heal_enemy"] = {
+								[342309] = 930,
+							},
+							["serial"] = "Player-163-0AA03A2E",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006603,
+							["delay"] = 0,
+							["last_event"] = 1639227341,
+						}, -- [2]
+						{
+							["flag_original"] = 1352,
+							["totalabsorb"] = 0.006384,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.006384,
+							["totalover"] = 0.006384,
+							["total_without_pet"] = 0.006384,
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["totalover_without_pet"] = 0.006384,
+							["aID"] = "1071-02ABF11F",
+							["total"] = 0.006384,
+							["heal_enemy_amt"] = 4232,
+							["classe"] = "UNGROUPPLAYER",
+							["nome"] = "Tanathalas-KirinTor",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["start_time"] = 0,
+							["heal_enemy"] = {
+								[342309] = 4232,
+							},
+							["serial"] = "Player-1071-02ABF11F",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006384,
+							["delay"] = 0,
+							["last_event"] = 1639226923,
+						}, -- [3]
+>>>>>>> Stashed changes
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
+<<<<<<< Updated upstream
 					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
@@ -401,11 +1447,51 @@ _detalhes_database = {
 							["resource"] = 0.003492,
 							["targets"] = {
 								["Samoanslayer"] = 46,
+=======
+					["combatId"] = 1354,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.007111,
+							["resource"] = 6.007111,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["passiveover"] = 0.007111,
+							["spec"] = 66,
+							["total"] = 0.007111,
+							["totalover"] = 0.007111,
+							["nome"] = "Stronguard",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["last_event"] = 1630288508,
+							["alternatepower"] = 0.007111,
+							["tipo"] = 3,
+							["flag_original"] = 1298,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["resource_type"] = 9,
+						}, -- [1]
+						{
+							["received"] = 23.002554,
+							["resource"] = 0.002554,
+							["targets"] = {
+								["Samoanslayer"] = 23,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "WARRIOR",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.003492,
 							["fight_component"] = true,
 							["total"] = 46.003492,
@@ -415,12 +1501,33 @@ _detalhes_database = {
 									[5308] = {
 										["total"] = 20,
 										["id"] = 5308,
+=======
+							["passiveover"] = 0.002554,
+							["total"] = 23.002554,
+							["totalover"] = 0.002554,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 3,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 3,
+										},
+										["counter"] = 1,
+									},
+									[260643] = {
+										["total"] = 20,
+										["id"] = 260643,
+>>>>>>> Stashed changes
 										["totalover"] = 0,
 										["targets"] = {
 											["Samoanslayer"] = 20,
 										},
 										["counter"] = 1,
 									},
+<<<<<<< Updated upstream
 									[280715] = {
 										["total"] = 8,
 										["id"] = 280715,
@@ -448,10 +1555,13 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
+=======
+>>>>>>> Stashed changes
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["totalover"] = 0.003492,
 							["flag_original"] = 1297,
 							["last_event"] = 1611792477,
@@ -461,10 +1571,58 @@ _detalhes_database = {
 							["serial"] = "Player-162-0A2F1F9A",
 							["spec"] = 72,
 						}, -- [1]
+=======
+							["spec"] = 71,
+							["tipo"] = 3,
+							["aID"] = "162-0A2F1F9A",
+							["last_event"] = 1630288498,
+							["alternatepower"] = 0.002554,
+							["flag_original"] = 1297,
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [2]
+						{
+							["received"] = 25.005522,
+							["resource"] = 0.005522,
+							["targets"] = {
+								["Ashgrove-EarthenRing"] = 25,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "DRUID",
+							["passiveover"] = 0.005522,
+							["total"] = 25.005522,
+							["nome"] = "Ashgrove-EarthenRing",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[17057] = {
+										["total"] = 25,
+										["id"] = 17057,
+										["totalover"] = 0,
+										["targets"] = {
+											["Ashgrove-EarthenRing"] = 25,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["grupo"] = true,
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.005522,
+							["last_event"] = 1639227090,
+							["aID"] = "100-03167801",
+							["tipo"] = 3,
+							["serial"] = "Player-100-03167801",
+							["totalover"] = 0.005522,
+						}, -- [3]
+>>>>>>> Stashed changes
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 84,
 					["_ActorTable"] = {
 						{
@@ -480,10 +1638,26 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["id"] = 269083,
 										["uptime"] = 9,
+=======
+					["combatId"] = 1354,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[197277] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 197277,
+										["uptime"] = 8,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[262232] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -505,6 +1679,33 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 2,
+=======
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.005841,
+							["buff_uptime"] = 66,
+							["last_cooldown"] = {
+								1630288502.331, -- [1]
+								86659, -- [2]
+							},
+							["aID"] = "162-0B337F26",
+							["cooldowns_defensive_targets"] = {
+								["Stronguard"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[317920] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 317920,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+>>>>>>> Stashed changes
 									},
 									[93795] = {
 										["counter"] = 0,
@@ -512,22 +1713,47 @@ _detalhes_database = {
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
 										["id"] = 93795,
+<<<<<<< Updated upstream
 										["uptime"] = 9,
+=======
+										["uptime"] = 11,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[201405] = {
+=======
+									[188370] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 188370,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[327225] = {
+>>>>>>> Stashed changes
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 201405,
 										["uptime"] = 9,
+=======
+										["id"] = 327225,
+										["uptime"] = 8,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[118779] = {
 										["activedamt"] = 1,
 										["id"] = 118779,
@@ -538,11 +1764,89 @@ _detalhes_database = {
 										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
+=======
+									[182104] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 182104,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[86659] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 86659,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[229077] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 229077,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[132403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 132403,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[31884] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 31884,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[280375] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 280375,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[223819] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 223819,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+>>>>>>> Stashed changes
 										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["fight_component"] = true,
 							["nome"] = "Samoanslayer",
 							["spec"] = 72,
@@ -579,18 +1883,197 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-79658-000011D9B7",
 							["flag_original"] = 68168,
 						}, -- [2]
+=======
+							["nome"] = "Stronguard",
+							["debuff_uptime"] = 8,
+							["tipo"] = 4,
+							["serial"] = "Player-162-0B337F26",
+							["boss_fight_component"] = true,
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[31935] = 1,
+								[26573] = 2,
+								[275779] = 2,
+								[31884] = 1,
+								[86659] = 1,
+								[53595] = 2,
+								[24275] = 1,
+								[53600] = 1,
+							},
+							["classe"] = "PALADIN",
+							["pets"] = {
+							},
+							["last_event"] = 1630288508,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[86659] = {
+										["id"] = 86659,
+										["targets"] = {
+											["Stronguard"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["aID"] = "162-0A2F1F9A",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[229077] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 229077,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[199854] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 199854,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[260708] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 260708,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[7384] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 7384,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 3,
+										["id"] = 342814,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 71,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 3,
+								[7384] = 1,
+								[260643] = 1,
+								[199658] = 1,
+								[1680] = 1,
+								[325886] = 1,
+								[260708] = 1,
+							},
+							["classe"] = "WARRIOR",
+							["tipo"] = 4,
+							["last_event"] = 1630288508,
+							["boss_fight_component"] = true,
+							["nome"] = "Samoanslayer",
+							["serial"] = "Player-162-0A2F1F9A",
+							["buff_uptime"] = 53,
+						}, -- [2]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114895",
+							["spell_cast"] = {
+								[228785] = 1,
+							},
+							["nome"] = "Nightbane",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114895-00002C3A6F",
+							["flag_original"] = 68168,
+						}, -- [3]
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 84,
+=======
+					["combatId"] = 1354,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Samoanslayer"] = true,
+<<<<<<< Updated upstream
 				},
 				["tempo_start"] = 1611792468,
+=======
+					["Stronguard"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Stronguard", -- [2]
+				},
+				["tempo_start"] = 1630288497,
+>>>>>>> Stashed changes
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
@@ -598,6 +2081,7 @@ _detalhes_database = {
 				["cleu_events"] = {
 					["n"] = 1,
 				},
+<<<<<<< Updated upstream
 				["playing_solo"] = true,
 				["totals"] = {
 					1960.972773000001, -- [1]
@@ -627,6 +2111,13 @@ _detalhes_database = {
 					235, -- [2]
 					{
 						46, -- [1]
+=======
+				["totals"] = {
+					253033, -- [1]
+					230, -- [2]
+					{
+						48, -- [1]
+>>>>>>> Stashed changes
 						[0] = 0,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -640,6 +2131,7 @@ _detalhes_database = {
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
 						["dispell"] = 0,
+<<<<<<< Updated upstream
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
@@ -652,10 +2144,49 @@ _detalhes_database = {
 				["enemy"] = "Arcane Anomaly",
 				["TotalElapsedCombatTime"] = 449309.897,
 				["CombatEndedAt"] = 449309.897,
+=======
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+					["by_spell"] = 11971,
+				},
+				["totals_grupo"] = {
+					241062, -- [1]
+					230, -- [2]
+					{
+						48, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "party",
+				["hasSaved"] = true,
+				["data_fim"] = "19:55:08",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Nightbane",
+				["TotalElapsedCombatTime"] = 1077563.229,
+				["CombatEndedAt"] = 1077563.229,
+>>>>>>> Stashed changes
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
+<<<<<<< Updated upstream
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -696,6 +2227,337 @@ _detalhes_database = {
 							428, -- [3]
 							1615437766.57, -- [4]
 							1882, -- [5]
+=======
+				["data_inicio"] = "19:54:57",
+				["end_time"] = 1077562.322,
+				["combat_id"] = 1354,
+				["player_last_events"] = {
+					["Dracoargent-ArgentDawn"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							1045, -- [3]
+							1639227050.618, -- [4]
+							0, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							3, -- [2]
+							663, -- [3]
+							1639227104.318, -- [4]
+							0, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+					["Crowley-TwistingNether"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							930, -- [3]
+							1639227341.277, -- [4]
+							0, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+					["Tanathalas-KirinTor"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							5172, -- [3]
+							1639226919.753, -- [4]
+							0, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+					["Nyynaeve-Lightninghoof"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							3433, -- [3]
+							1639226982.014, -- [4]
+							0, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+					["Alisamage-SteamwheedleCartel"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							135, -- [3]
+							1639227119.157, -- [4]
+							0, -- [5]
+>>>>>>> Stashed changes
 							"Environment (Falling)", -- [6]
 							nil, -- [7]
 							3, -- [8]
@@ -767,14 +2629,64 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
+<<<<<<< Updated upstream
 				["start_time"] = 449301.124,
 				["contra"] = "Arcane Anomaly",
 				["spells_cast_timeline"] = {
 				},
+=======
+				["overall_added"] = true,
+				["contra"] = "Nightbane",
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Return to Karazhan",
+					["encounter"] = "Nightbane",
+					["mapid"] = 1651,
+					["try_number"] = 1,
+					["name"] = "Nightbane",
+					["diff"] = 23,
+					["ej_instance_id"] = 0,
+					["id"] = 2031,
+					["killed"] = true,
+				},
+				["combat_counter"] = 1553,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Samoanslayer"] = 175868.005312,
+							["Stronguard"] = 65194.00166900001,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Stronguard"] = 230.002961,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 1077549.866,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+>>>>>>> Stashed changes
 			}, -- [1]
 			{
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 83,
 					["_ActorTable"] = {
 						{
@@ -974,10 +2886,53 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									},
 									[126664] = {
+=======
+					["combatId"] = 1352,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 38752.001183,
+							["damage_from"] = {
+								["Abstract Nullifier"] = true,
+								["The Curator"] = true,
+								["Mana Confluence"] = true,
+								["Shrieking Terror"] = true,
+								["Environment (Falling)"] = true,
+								["Mana-Gorged Wyrm"] = true,
+							},
+							["targets"] = {
+								["Volatile Energy <The Curator>"] = 28738,
+								["The Curator"] = 110424,
+								["Mana Confluence"] = 80752,
+								["Shrieking Terror"] = 15575,
+								["Abstract Nullifier"] = 43152,
+								["Mana-Gorged Wyrm"] = 36437,
+							},
+							["last_dps"] = 9393.536496981626,
+							["pets"] = {
+							},
+							["damage_taken"] = 11566.001183,
+							["total"] = 315078.001183,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 315078.001183,
+							["tipo"] = 1,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["end_time"] = 1630288276,
+							["delay"] = 0,
+							["aID"] = "162-0A2F1F9A",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 20,
 										["targets"] = {
 											["Arcane Anomaly"] = 53,
@@ -989,6 +2944,77 @@ _detalhes_database = {
 										["total"] = 53,
 										["c_max"] = 0,
 										["id"] = 126664,
+=======
+										["n_max"] = 6992,
+										["targets"] = {
+											["Mana Confluence"] = 13889,
+											["The Curator"] = 6740,
+										},
+										["n_dmg"] = 20629,
+										["n_min"] = 6740,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 20629,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12090,
+										["targets"] = {
+											["The Curator"] = 23946,
+										},
+										["n_dmg"] = 23946,
+										["n_min"] = 11856,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 23946,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[262115] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2457,
+										["targets"] = {
+											["Abstract Nullifier"] = 2456,
+											["The Curator"] = 4913,
+										},
+										["n_dmg"] = 7369,
+										["n_min"] = 2456,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 7369,
+										["c_max"] = 0,
+										["id"] = 262115,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -1001,6 +3027,7 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+<<<<<<< Updated upstream
 									[34428] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -1874,6 +3901,37 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 10,
+=======
+									[50622] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 94588,
+										["g_amt"] = 0,
+										["n_max"] = 8863,
+										["targets"] = {
+											["Volatile Energy <The Curator>"] = 28738,
+											["The Curator"] = 74825,
+											["Mana Confluence"] = 66863,
+											["Shrieking Terror"] = 15575,
+											["Abstract Nullifier"] = 40696,
+											["Mana-Gorged Wyrm"] = 36437,
+										},
+										["n_dmg"] = 168546,
+										["n_min"] = 6965,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["total"] = 263134,
+										["c_max"] = 17377,
+										["id"] = 50622,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 26240,
+										["c_min"] = 14372,
+										["successful_casted"] = 0,
+										["a_amt"] = 2,
+										["n_amt"] = 21,
+>>>>>>> Stashed changes
 										["extra"] = {
 										},
 										["spellschool"] = 1,
@@ -1882,6 +3940,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["total"] = 4442.001708,
 							["last_event"] = 1611792372,
 							["custom"] = 0,
@@ -1889,11 +3948,21 @@ _detalhes_database = {
 							["tipo"] = 1,
 							["on_hold"] = false,
 							["start_time"] = 1611792334,
+=======
+							["custom"] = 0,
+							["nome"] = "Samoanslayer",
+							["spec"] = 71,
+							["colocacao"] = 1,
+							["last_event"] = 1630288275,
+							["on_hold"] = false,
+							["start_time"] = 1630288268,
+>>>>>>> Stashed changes
 							["serial"] = "Player-162-0A2F1F9A",
 							["friendlyfire"] = {
 							},
 						}, -- [1]
 						{
+<<<<<<< Updated upstream
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007204,
 							["damage_from"] = {
@@ -2572,10 +4641,100 @@ _detalhes_database = {
 										["total"] = 275,
 										["c_max"] = 184,
 										["id"] = 96103,
+=======
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 18547.003643,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 141553.003643,
+							["dps_started"] = false,
+							["total"] = 141553.003643,
+							["spec"] = 66,
+							["colocacao"] = 2,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["damage_from"] = {
+								["Abstract Nullifier"] = true,
+								["The Curator"] = true,
+								["Volatile Energy <The Curator> <The Curator>"] = true,
+								["Forlorn Spirit"] = true,
+								["Mana Confluence"] = true,
+							},
+							["targets"] = {
+								["Abstract Nullifier"] = 14330,
+								["The Curator"] = 76148,
+								["Mana Confluence"] = 20460,
+								["Volatile Energy <The Curator>"] = 4205,
+								["Shrieking Terror"] = 3248,
+								["Forlorn Spirit"] = 708,
+								["Mana-Gorged Wyrm"] = 22454,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["nome"] = "Stronguard",
+							["end_time"] = 1630288276,
+							["last_event"] = 1630288276,
+							["last_dps"] = 4220.171833594953,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4619,
+										["g_amt"] = 0,
+										["n_max"] = 2274,
+										["targets"] = {
+											["The Curator"] = 14464,
+										},
+										["n_dmg"] = 9845,
+										["n_min"] = 1866,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 14464,
+										["c_max"] = 4619,
+										["id"] = 1,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+										["c_min"] = 4619,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 12153,
+										["g_amt"] = 0,
+										["n_max"] = 3068,
+										["targets"] = {
+											["Abstract Nullifier"] = 5983,
+											["The Curator"] = 2996,
+											["Mana Confluence"] = 6076,
+											["Shrieking Terror"] = 2952,
+											["Mana-Gorged Wyrm"] = 18231,
+										},
+										["n_dmg"] = 24085,
+										["n_min"] = 2948,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 36238,
+										["c_max"] = 6170,
+										["id"] = 31935,
+>>>>>>> Stashed changes
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 91,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
@@ -2613,21 +4772,44 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									},
 									[105771] = {
+=======
+										["c_min"] = 5983,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[204242] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
+<<<<<<< Updated upstream
 											["Silverleaf Ancient"] = 0,
+=======
+											["Abstract Nullifier"] = 0,
+											["The Curator"] = 0,
+>>>>>>> Stashed changes
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
+<<<<<<< Updated upstream
 										["counter"] = 1,
 										["total"] = 0,
 										["c_max"] = 0,
 										["id"] = 105771,
+=======
+										["counter"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 204242,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -2638,6 +4820,7 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_dmg"] = 0,
 										["n_amt"] = 0,
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 										["IMMUNE"] = 1,
 									},
@@ -2657,10 +4840,32 @@ _detalhes_database = {
 										["total"] = 209,
 										["c_max"] = 0,
 										["id"] = 23881,
+=======
+										["spellschool"] = 2,
+										["IMMUNE"] = 5,
+									},
+									[275779] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 17149,
+										["g_amt"] = 0,
+										["n_max"] = 6746,
+										["targets"] = {
+											["The Curator"] = 23895,
+										},
+										["n_dmg"] = 6746,
+										["n_min"] = 6746,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 23895,
+										["c_max"] = 17149,
+										["id"] = 275779,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
@@ -2690,11 +4895,15 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
+=======
+										["c_min"] = 17149,
+>>>>>>> Stashed changes
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 									},
 									[126664] = {
@@ -2713,10 +4922,37 @@ _detalhes_database = {
 										["total"] = 40,
 										["c_max"] = 40,
 										["id"] = 126664,
+=======
+										["spellschool"] = 2,
+									},
+									[81297] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 6058,
+										["g_amt"] = 0,
+										["n_max"] = 580,
+										["targets"] = {
+											["Abstract Nullifier"] = 3045,
+											["The Curator"] = 6532,
+											["Mana Confluence"] = 6078,
+											["Volatile Energy <The Curator>"] = 1730,
+											["Shrieking Terror"] = 296,
+											["Forlorn Spirit"] = 708,
+											["Mana-Gorged Wyrm"] = 1727,
+										},
+										["n_dmg"] = 14058,
+										["n_min"] = 282,
+										["g_dmg"] = 0,
+										["counter"] = 55,
+										["total"] = 20116,
+										["c_max"] = 708,
+										["id"] = 81297,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 40,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
@@ -2741,22 +4977,147 @@ _detalhes_database = {
 										["total"] = 538,
 										["c_max"] = 126,
 										["id"] = 218617,
+=======
+										["c_min"] = 563,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 45,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53600] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4782,
+										["g_amt"] = 0,
+										["n_max"] = 4800,
+										["targets"] = {
+											["Abstract Nullifier"] = 4782,
+											["The Curator"] = 6751,
+											["Mana Confluence"] = 7273,
+											["Volatile Energy <The Curator>"] = 2475,
+											["Mana-Gorged Wyrm"] = 2496,
+										},
+										["n_dmg"] = 18995,
+										["n_min"] = 2473,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 23777,
+										["c_max"] = 4782,
+										["id"] = 53600,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 101,
+=======
+										["c_min"] = 4782,
+>>>>>>> Stashed changes
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 									},
+=======
+										["spellschool"] = 2,
+									},
+									[53595] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2529,
+										["g_amt"] = 0,
+										["n_max"] = 1526,
+										["targets"] = {
+											["The Curator"] = 4055,
+										},
+										["n_dmg"] = 1526,
+										["n_min"] = 1526,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4055,
+										["c_max"] = 2529,
+										["id"] = 53595,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2529,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[24275] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 17455,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["The Curator"] = 17455,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 17455,
+										["c_max"] = 17455,
+										["id"] = 24275,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 17455,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[88263] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 521,
+										["targets"] = {
+											["Abstract Nullifier"] = 520,
+											["Mana Confluence"] = 1033,
+										},
+										["n_dmg"] = 1553,
+										["n_min"] = 512,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1553,
+										["c_max"] = 0,
+										["id"] = 88263,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+>>>>>>> Stashed changes
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["total"] = 3368.003032,
 							["last_event"] = 1611792334,
 							["custom"] = 0,
@@ -2781,10 +5142,144 @@ _detalhes_database = {
 								["Footman <Samoanslayer>"] = 110,
 							},
 							["delay"] = 0,
+=======
+							["aID"] = "162-0B337F26",
+							["damage_taken"] = 1055.003643,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["Volatile Energy <The Curator>"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 33,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 2,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 2,
+									["ABSORB_AMT"] = 33,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["The Curator"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 333,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 4,
+									["ALL"] = 8,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 2,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 4,
+									["ABSORB_AMT"] = 333,
+									["FULL_HIT"] = 4,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 333,
+								},
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 960,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 16,
+									["ALL"] = 38,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 3,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 16,
+									["ABSORB_AMT"] = 960,
+									["FULL_HIT"] = 22,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 1055,
+								},
+								["Mana Confluence"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 585,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 3,
+									["ALL"] = 6,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 3,
+									["ABSORB_AMT"] = 585,
+									["FULL_HIT"] = 3,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 585,
+								},
+								["Volatile Energy <The Curator> <The Curator>"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 2,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 33,
+								},
+								["Forlorn Spirit"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 1,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 28,
+								},
+								["Abstract Nullifier"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 9,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 7,
+									["ALL"] = 19,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 1,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 7,
+									["ABSORB_AMT"] = 9,
+									["FULL_HIT"] = 12,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 76,
+								},
+							},
+							["start_time"] = 1630288253,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.003712,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Samoanslayer"] = 10446,
+							},
+>>>>>>> Stashed changes
 							["pets"] = {
 							},
 							["friendlyfire"] = {
 							},
+<<<<<<< Updated upstream
 							["total"] = 599.00649,
 							["aID"] = "79692",
 							["raid_targets"] = {
@@ -2829,6 +5324,152 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 									}, -- [1]
 									[165851] = {
+=======
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[2] = 10446,
+							},
+							["total_without_pet"] = 10446.003712,
+							["last_event"] = 1630288331,
+							["dps_started"] = false,
+							["total"] = 10446.003712,
+							["delay"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Environment (Falling)",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9360,
+										["targets"] = {
+											["Samoanslayer"] = 10446,
+										},
+										["n_dmg"] = 10446,
+										["n_min"] = 1086,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 10446,
+										["c_max"] = 0,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.003712,
+							["end_time"] = 1630288333,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1630288324,
+							["serial"] = "",
+							["aID"] = "",
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 333.003316,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 805,
+								["Stronguard"] = 366,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Volatile Energy <The Curator>", -- [1]
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 805,
+							},
+							["total_without_pet"] = 1138.003316,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 1171.003316,
+							["damage_taken"] = 186572.003316,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 306,
+										["g_amt"] = 0,
+										["n_max"] = 94,
+										["targets"] = {
+											["Samoanslayer"] = 707,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 401,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["r_amt"] = 0,
+										["total"] = 707,
+										["c_max"] = 154,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 7,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 6,
+										["c_min"] = 152,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["DODGE"] = 2,
+									}, -- [1]
+									[227267] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227267,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[227465] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -2836,6 +5477,7 @@ _detalhes_database = {
 										["n_max"] = 98,
 										["targets"] = {
 											["Samoanslayer"] = 98,
+<<<<<<< Updated upstream
 										},
 										["n_dmg"] = 98,
 										["n_min"] = 98,
@@ -2988,10 +5630,36 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									}, -- [1]
 									[15284] = {
+=======
+											["Stronguard"] = 333,
+										},
+										["n_dmg"] = 431,
+										["n_min"] = 79,
+										["g_dmg"] = 0,
+										["counter"] = 31,
+										["total"] = 431,
+										["c_max"] = 0,
+										["id"] = 227465,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 5,
+										["spellschool"] = 64,
+										["MISS"] = 26,
+									},
+									[227285] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 17,
 										["targets"] = {
 											["Silverleaf Ancient"] = 17,
@@ -3631,14 +6299,27 @@ _detalhes_database = {
 										["n_max"] = 0,
 										["targets"] = {
 											["Silverleaf Ancient"] = 0,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 0,
+>>>>>>> Stashed changes
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
+<<<<<<< Updated upstream
 										["counter"] = 1,
 										["total"] = 0,
 										["c_max"] = 0,
 										["id"] = 105771,
+=======
+										["counter"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227285,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -3649,6 +6330,7 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_dmg"] = 0,
 										["n_amt"] = 0,
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 										["IMMUNE"] = 1,
 									},
@@ -3707,10 +6389,15 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+=======
+										["spellschool"] = 64,
+										["MISS"] = 5,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["grupo"] = true,
 							["total"] = 3427.001435,
 							["last_event"] = 1611792302,
@@ -4728,10 +7415,33 @@ _detalhes_database = {
 							},
 							["targets"] = {
 								["Samoanslayer"] = 1648,
+=======
+							["nome"] = "The Curator",
+							["end_time"] = 1630288276,
+							["aID"] = "114247",
+							["custom"] = 0,
+							["last_event"] = 1630288275,
+							["on_hold"] = false,
+							["start_time"] = 1630288244,
+							["serial"] = "Creature-0-3782-1651-16137-114247-00002C36DE",
+							["dps_started"] = false,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 585.008321,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 127,
+								["Stronguard"] = 585,
+>>>>>>> Stashed changes
 							},
 							["delay"] = 0,
 							["pets"] = {
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["total"] = 1648.001516,
@@ -5475,10 +8185,82 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["c_min"] = 126,
 										["successful_casted"] = 0,
+=======
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 127,
+							},
+							["total_without_pet"] = 712.008321,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 712.008321,
+							["damage_taken"] = 101212.008321,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 49,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Samoanslayer"] = 127,
+										},
+										["n_dmg"] = 78,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 127,
+										["c_max"] = 49,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 5,
+										["c_min"] = 49,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["MISS"] = 7,
+									}, -- [1]
+									[228700] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 208,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 585,
+										},
+										["n_dmg"] = 585,
+										["n_min"] = 188,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 585,
+										["c_max"] = 0,
+										["id"] = 228700,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 8,
+>>>>>>> Stashed changes
 										["a_amt"] = 0,
 										["n_amt"] = 3,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 									},
 									[126664] = {
@@ -5536,10 +8318,14 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+=======
+										["MISS"] = 11,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["grupo"] = true,
 							["total"] = 1699.007363,
 							["last_event"] = 1611792154,
@@ -5560,10 +8346,32 @@ _detalhes_database = {
 							},
 							["targets"] = {
 								["Samoanslayer"] = 235,
+=======
+							["nome"] = "Mana Confluence",
+							["end_time"] = 1630288276,
+							["aID"] = "114338",
+							["custom"] = 0,
+							["last_event"] = 1630288269,
+							["on_hold"] = false,
+							["start_time"] = 1630288250,
+							["serial"] = "Creature-0-3782-1651-16137-114338-0000AC36DE",
+							["dps_started"] = false,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.00705,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 131,
+>>>>>>> Stashed changes
 							},
 							["delay"] = 0,
 							["pets"] = {
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["total"] = 235.00629,
@@ -6115,10 +8923,61 @@ _detalhes_database = {
 										["MISS"] = 2,
 									}, -- [1]
 									[5308] = {
+=======
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 131,
+							},
+							["total_without_pet"] = 131.00705,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 131.00705,
+							["damage_taken"] = 58891.00705,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 90,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Samoanslayer"] = 131,
+										},
+										["n_dmg"] = 41,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 48,
+										["r_amt"] = 0,
+										["total"] = 131,
+										["c_max"] = 15,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 8,
+										["c_min"] = 11,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 6,
+										["MISS"] = 21,
+										["DODGE"] = 6,
+									}, -- [1]
+									[228362] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 198,
 										["targets"] = {
 											["Arcane Anomaly"] = 198,
@@ -6199,10 +9058,35 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									},
 									[34428] = {
+=======
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228362,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[232271] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 68,
 										["targets"] = {
 											["Arcane Anomaly"] = 68,
@@ -6253,10 +9137,33 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 232271,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 6,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["grupo"] = true,
 							["total"] = 1464.008882,
 							["last_event"] = 1611792140,
@@ -6277,10 +9184,33 @@ _detalhes_database = {
 							},
 							["targets"] = {
 								["Samoanslayer"] = 58,
+=======
+							["nome"] = "Mana-Gorged Wyrm",
+							["end_time"] = 1630288276,
+							["aID"] = "114364",
+							["custom"] = 0,
+							["last_event"] = 1630288267,
+							["on_hold"] = false,
+							["start_time"] = 1630288245,
+							["serial"] = "Creature-0-3782-1651-16137-114364-0002AC36DE",
+							["dps_started"] = false,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 9.00698,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 23,
+								["Stronguard"] = 76,
+>>>>>>> Stashed changes
 							},
 							["delay"] = 0,
 							["pets"] = {
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["total"] = 58.005538,
@@ -6294,6 +9224,22 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["tipo"] = 1,
 							["nome"] = "Arcane Anomaly",
+=======
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 23,
+							},
+							["total_without_pet"] = 99.00698,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 99.00698,
+							["damage_taken"] = 57482.00698,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6304,10 +9250,15 @@ _detalhes_database = {
 										["n_max"] = 0,
 										["targets"] = {
 											["Samoanslayer"] = 0,
+<<<<<<< Updated upstream
+=======
+											["Stronguard"] = 0,
+>>>>>>> Stashed changes
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
+<<<<<<< Updated upstream
 										["counter"] = 1,
 										["total"] = 0,
 										["c_max"] = 0,
@@ -6326,10 +9277,33 @@ _detalhes_database = {
 										["DODGE"] = 1,
 									}, -- [1]
 									[165474] = {
+=======
+										["counter"] = 7,
+										["r_amt"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 3,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 0,
+										["MISS"] = 3,
+										["DODGE"] = 1,
+									}, -- [1]
+									[230050] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 58,
 										["targets"] = {
 											["Samoanslayer"] = 58,
@@ -7236,16 +10210,47 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									}, -- [1]
 									[165412] = {
+=======
+										["n_max"] = 8,
+										["targets"] = {
+											["Samoanslayer"] = 23,
+											["Stronguard"] = 19,
+										},
+										["n_dmg"] = 42,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 42,
+										["c_max"] = 0,
+										["id"] = 230050,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 22,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[230094] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
+<<<<<<< Updated upstream
+=======
+											["Stronguard"] = 0,
+>>>>>>> Stashed changes
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
+<<<<<<< Updated upstream
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
@@ -7253,19 +10258,38 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
+=======
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 230094,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+>>>>>>> Stashed changes
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
+<<<<<<< Updated upstream
 										["a_dmg"] = 0,
 										["extra"] = {
 										},
 									},
 									[15124] = {
+=======
+										["extra"] = {
+										},
+										["IMMUNE"] = 1,
+									},
+									[230161] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 55,
 										["targets"] = {
 											["Samoanslayer"] = 1298,
@@ -8038,16 +11062,35 @@ _detalhes_database = {
 										["total"] = 201,
 										["c_max"] = 0,
 										["id"] = 5308,
+=======
+										["n_max"] = 57,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 57,
+										},
+										["n_dmg"] = 57,
+										["n_min"] = 57,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 57,
+										["c_max"] = 0,
+										["id"] = 230161,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
+<<<<<<< Updated upstream
 										["successful_casted"] = 0,
+=======
+										["successful_casted"] = 3,
+>>>>>>> Stashed changes
 										["a_amt"] = 0,
 										["n_amt"] = 1,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 									},
 									[199658] = {
@@ -8161,10 +11204,14 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+=======
+										["MISS"] = 2,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["grupo"] = true,
 							["total"] = 2369.001048,
 							["last_event"] = 1611792028,
@@ -8185,10 +11232,32 @@ _detalhes_database = {
 							},
 							["targets"] = {
 								["Samoanslayer"] = 501,
+=======
+							["nome"] = "Abstract Nullifier",
+							["end_time"] = 1630288276,
+							["aID"] = "115765",
+							["custom"] = 0,
+							["last_event"] = 1630288273,
+							["on_hold"] = false,
+							["start_time"] = 1630288249,
+							["serial"] = "Creature-0-3782-1651-16137-115765-00002C36DE",
+							["dps_started"] = false,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006302,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 34,
+>>>>>>> Stashed changes
 							},
 							["delay"] = 0,
 							["pets"] = {
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["total"] = 501.005642,
@@ -8219,6 +11288,39 @@ _detalhes_database = {
 										["counter"] = 17,
 										["total"] = 501,
 										["c_max"] = 69,
+=======
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 34,
+							},
+							["total_without_pet"] = 34.006302,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 34.006302,
+							["damage_taken"] = 18823.006302,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 34,
+										["targets"] = {
+											["Samoanslayer"] = 34,
+										},
+										["n_dmg"] = 34,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 34,
+										["c_max"] = 0,
+>>>>>>> Stashed changes
 										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
@@ -8226,6 +11328,7 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_amt"] = 0,
 										["PARRY"] = 3,
+<<<<<<< Updated upstream
 										["c_min"] = 69,
 										["successful_casted"] = 0,
 										["extra"] = {
@@ -8235,6 +11338,243 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 									}, -- [1]
 									[177604] = {
+=======
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["MISS"] = 2,
+									}, -- [1]
+									[228241] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228241,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 4,
+									},
+									[228239] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228239,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Shrieking Terror",
+							["end_time"] = 1630288276,
+							["aID"] = "114627",
+							["custom"] = 0,
+							["last_event"] = 1630288267,
+							["on_hold"] = false,
+							["start_time"] = 1630288267,
+							["serial"] = "Creature-0-3782-1651-16137-114627-00002C36DE",
+							["dps_started"] = false,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 33.004715,
+							["monster"] = true,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 33,
+							},
+							["pets"] = {
+							},
+							["total"] = 33.004715,
+							["last_dps"] = 0,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 33.004715,
+							["tipo"] = 1,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1630288276,
+							["friendlyfire_total"] = 0,
+							["ownerName"] = "The Curator",
+							["nome"] = "Volatile Energy <The Curator>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[227270] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 33,
+										},
+										["n_dmg"] = 33,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = 227270,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 16,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["MISS"] = 14,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 32943.004715,
+							["aID"] = "114249",
+							["boss_fight_component"] = true,
+							["custom"] = 0,
+							["last_event"] = 1630288270,
+							["on_hold"] = false,
+							["start_time"] = 1630288268,
+							["serial"] = "Creature-0-3782-1651-16137-114249-00002C3978",
+							["friendlyfire"] = {
+							},
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001744,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 28,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 28.001744,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 28.001744,
+							["damage_taken"] = 708.001744,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Stronguard"] = 28,
+										},
+										["n_dmg"] = 28,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 28,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
+									}, -- [1]
+									[228252] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228252,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+									[228254] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -8248,7 +11588,11 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 177604,
+=======
+										["id"] = 228254,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -8263,6 +11607,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["on_hold"] = false,
 							["dps_started"] = false,
 							["friendlyfire_total"] = 0,
@@ -8273,20 +11618,41 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-79779-000011D91C",
 							["classe"] = "UNKNOW",
 						}, -- [2]
+=======
+							["nome"] = "Forlorn Spirit",
+							["end_time"] = 1630288276,
+							["aID"] = "114626",
+							["custom"] = 0,
+							["last_event"] = 1630288331,
+							["on_hold"] = false,
+							["start_time"] = 1630288275,
+							["serial"] = "Creature-0-3782-1651-16137-114626-0000AC36DE",
+							["dps_started"] = false,
+						}, -- [10]
+>>>>>>> Stashed changes
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
+<<<<<<< Updated upstream
 					["combatId"] = 75,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["healing_from"] = {
 								["Samoanslayer"] = true,
+=======
+					["combatId"] = 1352,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["targets_overheal"] = {
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
+<<<<<<< Updated upstream
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.006448,
 							["total_without_pet"] = 589.006448,
@@ -8357,12 +11723,66 @@ _detalhes_database = {
 										["n_curado"] = 453,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+=======
+							["classe"] = "PALADIN",
+							["totalover"] = 0.007355,
+							["total_without_pet"] = 960.007355,
+							["total"] = 960.007355,
+							["targets_absorbs"] = {
+								["Stronguard"] = 960,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["totalabsorb"] = 960.007355,
+							["last_hps"] = 30.75172512665066,
+							["targets"] = {
+								["Stronguard"] = 960,
+							},
+							["totalover_without_pet"] = 0.007355,
+							["healing_taken"] = 960.007355,
+							["totaldenied"] = 0.007355,
+							["end_time"] = 1630288276,
+							["last_event"] = 1630288275,
+							["heal_enemy_amt"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 960,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 208,
+										["targets"] = {
+											["Stronguard"] = 960,
+										},
+										["n_min"] = 1,
+										["counter"] = 16,
+										["overheal"] = 0,
+										["total"] = 960,
+										["c_max"] = 0,
+										["id"] = 327225,
+										["targets_absorbs"] = {
+											["Stronguard"] = 960,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 960,
+										["totaldenied"] = 0,
+										["n_amt"] = 16,
+										["is_shield"] = true,
+>>>>>>> Stashed changes
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["classe"] = "WARRIOR",
 							["totaldenied"] = 0.006448,
 							["custom"] = 0,
@@ -8373,10 +11793,68 @@ _detalhes_database = {
 							["targets_absorbs"] = {
 							},
 						}, -- [1]
+=======
+							["aID"] = "162-0B337F26",
+							["spec"] = 66,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["nome"] = "Stronguard",
+							["start_time"] = 1630288256,
+							["delay"] = 0,
+							["healing_from"] = {
+								["Stronguard"] = true,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.00133,
+							["total_without_pet"] = 0.00133,
+							["monster"] = true,
+							["total"] = 0.00133,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[227548] = 67484,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3782-1651-16137-114338-00012C36DE",
+							["totalabsorb"] = 0.00133,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00133,
+							["healing_taken"] = 0.00133,
+							["end_time"] = 1630288276,
+							["targets_overheal"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 67484,
+							["totaldenied"] = 0.00133,
+							["custom"] = 0,
+							["last_event"] = 1630288269,
+							["aID"] = "114338",
+							["start_time"] = 1630288276,
+							["delay"] = 0,
+							["nome"] = "Mana Confluence",
+						}, -- [2]
+>>>>>>> Stashed changes
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
+<<<<<<< Updated upstream
 					["combatId"] = 75,
 					["_ActorTable"] = {
 						{
@@ -8384,11 +11862,21 @@ _detalhes_database = {
 							["resource"] = 0.001332,
 							["targets"] = {
 								["Samoanslayer"] = 99,
+=======
+					["combatId"] = 1352,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.006488,
+							["resource"] = 0.006488,
+							["targets"] = {
+								["Samoanslayer"] = 0,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "WARRIOR",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.001332,
 							["fight_component"] = true,
 							["total"] = 99.00133199999999,
@@ -8439,11 +11927,28 @@ _detalhes_database = {
 											["Samoanslayer"] = 13,
 										},
 										["counter"] = 4,
+=======
+							["passiveover"] = 0.006488,
+							["total"] = 0.006488,
+							["totalover"] = 48.006488,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 0,
+										["id"] = 195707,
+										["totalover"] = 48,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["counter"] = 16,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["totalover"] = 8.001332,
 							["flag_original"] = 1297,
 							["last_event"] = 1611792028,
@@ -8453,10 +11958,126 @@ _detalhes_database = {
 							["serial"] = "Player-162-0A2F1F9A",
 							["spec"] = 72,
 						}, -- [1]
+=======
+							["spec"] = 71,
+							["tipo"] = 3,
+							["aID"] = "162-0A2F1F9A",
+							["last_event"] = 1630288271,
+							["alternatepower"] = 0.006488,
+							["flag_original"] = 1297,
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [1]
+						{
+							["received"] = 15.005219,
+							["resource"] = 0.005219,
+							["targets"] = {
+								["Abstract Nullifier"] = 15,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "UNKNOW",
+							["passiveover"] = 0.005219,
+							["monster"] = true,
+							["total"] = 15.005219,
+							["nome"] = "Abstract Nullifier",
+							["spells"] = {
+								["_ActorTable"] = {
+									[230161] = {
+										["total"] = 15,
+										["id"] = 230161,
+										["totalover"] = 0,
+										["targets"] = {
+											["Abstract Nullifier"] = 15,
+										},
+										["counter"] = 3,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["totalover"] = 0.005219,
+							["flag_original"] = 2632,
+							["tipo"] = 3,
+							["last_event"] = 1630288261,
+							["aID"] = "115765",
+							["alternatepower"] = 0.005219,
+							["serial"] = "Creature-0-3782-1651-16137-115765-00002C36DE",
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["received"] = 133.007282,
+							["resource"] = 7.007282,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["passiveover"] = 0.007282,
+							["spec"] = 66,
+							["total"] = 0.007282,
+							["totalover"] = 0.007282,
+							["nome"] = "Stronguard",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["last_event"] = 1630288275,
+							["alternatepower"] = 0.007282,
+							["tipo"] = 3,
+							["flag_original"] = 1298,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["resource_type"] = 9,
+						}, -- [3]
+						{
+							["received"] = 0.002088,
+							["resource"] = 0.002088,
+							["targets"] = {
+								["Stronguard"] = 133,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["passiveover"] = 0.002088,
+							["total"] = 133.002088,
+							["nome"] = "[*] Loose Mana",
+							["spells"] = {
+								["_ActorTable"] = {
+									[232273] = {
+										["total"] = 133,
+										["id"] = 232273,
+										["totalover"] = 0,
+										["targets"] = {
+											["Stronguard"] = 133,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["totalover"] = 0.002088,
+							["flag_original"] = 1298,
+							["tipo"] = 3,
+							["last_event"] = 1630288271,
+							["aID"] = "",
+							["alternatepower"] = 0.002088,
+							["serial"] = "",
+							["boss_fight_component"] = true,
+						}, -- [4]
+>>>>>>> Stashed changes
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 75,
 					["_ActorTable"] = {
 						{
@@ -8467,10 +12088,79 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[341260] = {
+=======
+					["combatId"] = 1352,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[204242] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
+										["id"] = 204242,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
+									},
+									[197277] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 197277,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[25771] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 25771,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[31935] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 31935,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.004557,
+							["buff_uptime"] = 167,
+							["last_cooldown"] = {
+								1630288261.88, -- [1]
+								1022, -- [2]
+							},
+							["aID"] = "162-0B337F26",
+							["cooldowns_defensive_targets"] = {
+								["Stronguard"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[317920] = {
+>>>>>>> Stashed changes
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 341260,
 										["uptime"] = 22,
 										["targets"] = {
@@ -8517,6 +12207,10 @@ _detalhes_database = {
 										["refreshamt"] = 1,
 										["id"] = 262232,
 										["uptime"] = 8,
+=======
+										["id"] = 317920,
+										["uptime"] = 32,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -8527,11 +12221,16 @@ _detalhes_database = {
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
 										["id"] = 93795,
+<<<<<<< Updated upstream
 										["uptime"] = 22,
+=======
+										["uptime"] = 32,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[134359] = {
 										["activedamt"] = 1,
 										["id"] = 134359,
@@ -8553,12 +12252,272 @@ _detalhes_database = {
 										["uptime"] = 0,
 										["counter"] = 0,
 										["refreshamt"] = 0,
+=======
+									[188370] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 188370,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[327225] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 327225,
+										["uptime"] = 17,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[182104] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 182104,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[31884] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 31884,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[328906] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 328906,
+										["uptime"] = 32,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[132403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 132403,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[1022] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 1022,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[221883] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 221883,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[280375] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 280375,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232273] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 232273,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Stronguard",
+							["debuff_uptime"] = 34,
+							["tipo"] = 4,
+							["serial"] = "Player-162-0B337F26",
+							["boss_fight_component"] = true,
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[31935] = 2,
+								[26573] = 3,
+								[275779] = 2,
+								[31884] = 1,
+								[53600] = 2,
+								[53595] = 2,
+								[24275] = 1,
+								[1022] = 1,
+							},
+							["classe"] = "PALADIN",
+							["pets"] = {
+							},
+							["last_event"] = 1630288276,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[1022] = {
+										["id"] = 1022,
+										["targets"] = {
+											["Stronguard"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[262115] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 13,
+										["id"] = 262115,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.003949,
+							["buff_uptime"] = 94,
+							["last_cooldown"] = {
+								1630288268.837, -- [1]
+								118038, -- [2]
+							},
+							["aID"] = "162-0A2F1F9A",
+							["cooldowns_defensive_targets"] = {
+								["Samoanslayer"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 342814,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 32,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227847] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227847,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[232273] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 232273,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 32,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[118038] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 118038,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[199854] = {
+										["activedamt"] = 1,
+										["id"] = 199854,
+										["targets"] = {
+										},
+										["actived_at"] = 1630288275,
+										["uptime"] = 1,
+										["counter"] = 0,
+										["refreshamt"] = 1,
+>>>>>>> Stashed changes
 										["actived"] = true,
 										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["fight_component"] = true,
 							["nome"] = "Samoanslayer",
 							["spec"] = 72,
@@ -8594,19 +12553,306 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-79779-000011D91C",
 							["flag_original"] = 68168,
 						}, -- [2]
+=======
+							["debuff_uptime"] = 8,
+							["serial"] = "Player-162-0A2F1F9A",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 71,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[118038] = 1,
+								[227847] = 1,
+								[1464] = 2,
+							},
+							["classe"] = "WARRIOR",
+							["pets"] = {
+							},
+							["last_event"] = 1630288276,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[118038] = {
+										["id"] = 118038,
+										["targets"] = {
+											["Samoanslayer"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Samoanslayer",
+						}, -- [2]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114364",
+							["spell_cast"] = {
+								[228362] = 3,
+								[232271] = 6,
+							},
+							["nome"] = "Mana-Gorged Wyrm",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114364-0001AC36DE",
+							["flag_original"] = 2632,
+						}, -- [3]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114247",
+							["spell_cast"] = {
+								[227267] = 3,
+							},
+							["nome"] = "The Curator",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+								"Volatile Energy <The Curator>", -- [1]
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114247-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [4]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114338",
+							["spell_cast"] = {
+								[228700] = 8,
+							},
+							["nome"] = "Mana Confluence",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114338-0000AC36DE",
+							["flag_original"] = 2632,
+						}, -- [5]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114627",
+							["spell_cast"] = {
+								[228241] = 2,
+								[228239] = 1,
+							},
+							["nome"] = "Shrieking Terror",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114627-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [6]
+						{
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["ownerName"] = "The Curator",
+							["nome"] = "Volatile Energy <The Curator>",
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[227270] = 16,
+							},
+							["boss_fight_component"] = true,
+							["aID"] = "114249",
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3782-1651-16137-114249-00002C3978",
+							["last_event"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 20,
+							["spellschool"] = 64,
+							["nome"] = "Force Blade",
+							["last_event"] = 1630288273,
+							["serial"] = "Creature-0-3782-1651-16137-115765-00002C36DE",
+							["aID"] = "115765",
+							["tipo"] = 4,
+							["damage_twin"] = "Abstract Nullifier",
+							["debuff_uptime_targets"] = {
+								["Samoanslayer"] = {
+									["uptime"] = 10,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["Stronguard"] = {
+									["uptime"] = 10,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 230050,
+							["boss_fight_component"] = true,
+						}, -- [8]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "115765",
+							["spell_cast"] = {
+								[230050] = 2,
+								[230094] = 2,
+								[230161] = 3,
+							},
+							["nome"] = "Abstract Nullifier",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-115765-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 8,
+							["spellschool"] = 1,
+							["nome"] = "Nullification",
+							["last_event"] = 1630288267,
+							["serial"] = "Creature-0-3782-1651-16137-115765-00002C36DE",
+							["aID"] = "115765",
+							["tipo"] = 4,
+							["damage_twin"] = "Abstract Nullifier",
+							["debuff_uptime_targets"] = {
+								["Samoanslayer"] = {
+									["uptime"] = 0,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = -1,
+									["actived"] = false,
+									["actived_at"] = 1630288267,
+								},
+								["Stronguard"] = {
+									["uptime"] = 8,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 230083,
+							["boss_fight_component"] = true,
+						}, -- [10]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114626",
+							["spell_cast"] = {
+								[228254] = 2,
+								[228252] = 1,
+							},
+							["nome"] = "Forlorn Spirit",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114626-0000AC36DE",
+							["flag_original"] = 2632,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 0,
+							["spellschool"] = 64,
+							["nome"] = "Power Discharge",
+							["last_event"] = 1630288272,
+							["serial"] = "Creature-0-3782-1651-16137-114247-00002C36DE",
+							["aID"] = "114247",
+							["tipo"] = 4,
+							["damage_twin"] = "The Curator",
+							["debuff_uptime_targets"] = {
+								["Samoanslayer"] = {
+									["uptime"] = 0,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["Stronguard"] = {
+									["uptime"] = 0,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["actived_at"] = 1630288272,
+								},
+							},
+							["damage_spellid"] = 227465,
+							["boss_fight_component"] = true,
+						}, -- [12]
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 75,
+=======
+					["combatId"] = 1352,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Samoanslayer"] = true,
+<<<<<<< Updated upstream
 				},
 				["CombatStartedAt"] = 448866.806,
 				["overall_added"] = true,
+=======
+					["Stronguard"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Stronguard", -- [2]
+				},
+				["tempo_start"] = 1630288244,
+>>>>>>> Stashed changes
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
@@ -8614,6 +12860,7 @@ _detalhes_database = {
 				["cleu_events"] = {
 					["n"] = 1,
 				},
+<<<<<<< Updated upstream
 				["playing_solo"] = true,
 				["totals"] = {
 					2870, -- [1]
@@ -8624,6 +12871,17 @@ _detalhes_database = {
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = 0,
+=======
+				["totals"] = {
+					469252, -- [1]
+					960, -- [2]
+					{
+						0, -- [1]
+						[0] = 133,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 15,
+>>>>>>> Stashed changes
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
@@ -8633,6 +12891,7 @@ _detalhes_database = {
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
 						["dispell"] = 0,
+<<<<<<< Updated upstream
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 					["voidzone_damage"] = 0,
@@ -8644,6 +12903,20 @@ _detalhes_database = {
 					{
 						99, -- [1]
 						[0] = 0,
+=======
+						["cooldowns_defensive"] = 2,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+					["by_spell"] = 12588,
+				},
+				["totals_grupo"] = {
+					456631, -- [1]
+					960, -- [2]
+					{
+						0, -- [1]
+						[0] = 133,
+>>>>>>> Stashed changes
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = 0,
@@ -8656,6 +12929,7 @@ _detalhes_database = {
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
 						["dispell"] = 0,
+<<<<<<< Updated upstream
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
@@ -8668,10 +12942,139 @@ _detalhes_database = {
 				["enemy"] = "Underbrush Stalker",
 				["TotalElapsedCombatTime"] = 448861.564,
 				["CombatEndedAt"] = 448861.564,
+=======
+						["cooldowns_defensive"] = 2,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "party",
+				["hasSaved"] = true,
+				["data_fim"] = "19:51:16",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "The Curator",
+				["TotalElapsedCombatTime"] = 1077331.25,
+				["CombatEndedAt"] = 1077331.25,
+>>>>>>> Stashed changes
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
+<<<<<<< Updated upstream
+=======
+				["data_inicio"] = "19:50:44",
+				["end_time"] = 1077329.962,
+				["combat_id"] = 1352,
+				["player_last_events"] = {
+					["Samoanslayer"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							9360, -- [3]
+							1630288324.199, -- [4]
+							17980, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							3, -- [2]
+							1086, -- [3]
+							1630288330.981, -- [4]
+							17727, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["overall_added"] = true,
+				["contra"] = "The Curator",
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Return to Karazhan",
+					["encounter"] = "The Curator",
+					["mapid"] = 1651,
+					["try_number"] = 1,
+					["name"] = "The Curator",
+					["diff"] = 23,
+					["ej_instance_id"] = 860,
+					["id"] = 1964,
+					["killed"] = true,
+				},
+				["combat_counter"] = 1551,
+				["CombatSkillCache"] = {
+				},
+>>>>>>> Stashed changes
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -8679,19 +13082,29 @@ _detalhes_database = {
 					}, -- [1]
 					["damage"] = {
 						{
+<<<<<<< Updated upstream
 							["Samoanslayer"] = 2369.001048,
+=======
+							["Samoanslayer"] = 315078.001183,
+							["Stronguard"] = 141553.003643,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+<<<<<<< Updated upstream
 							["Samoanslayer"] = 589.006448,
+=======
+							["Stronguard"] = 960.007355,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 				},
+<<<<<<< Updated upstream
 				["end_time"] = 448861.564,
 				["combat_id"] = 75,
 				["data_inicio"] = "17:00:07",
@@ -8742,6 +13155,59 @@ _detalhes_database = {
 							["aID"] = "162-0A2F1F9A",
 							["last_dps"] = 173.6083165953088,
 							["nome"] = "Samoanslayer",
+=======
+				["start_time"] = 1077296.42,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Abstract Nullifier"] = 1,
+					["The Curator"] = 1,
+					["Volatile Energy"] = 3,
+					["Shrieking Terror"] = 1,
+					["Mana Confluence"] = 2,
+					["Mana-Gorged Wyrm"] = 6,
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1349,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 211.003464,
+							["damage_from"] = {
+								["Spectral Stable Hand"] = true,
+								["Spectral Journeyman"] = true,
+								["Spectral Apprentice"] = true,
+								["Spectral Charger"] = true,
+								["[*] Burning Brand"] = true,
+							},
+							["targets"] = {
+								["Spectral Charger"] = 212527,
+								["Spectral Journeyman"] = 59716,
+								["Spectral Apprentice"] = 139521,
+								["Midnight"] = 43587,
+								["Spectral Stable Hand"] = 72760,
+								["Attumen the Huntsman"] = 57470,
+							},
+							["last_dps"] = 36031.31943569816,
+							["pets"] = {
+							},
+							["damage_taken"] = 964.003464,
+							["total"] = 585581.0034640001,
+							["friendlyfire_total"] = 211,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 585581.0034640001,
+							["tipo"] = 1,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["end_time"] = 1630288037,
+							["delay"] = 0,
+							["aID"] = "162-0A2F1F9A",
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8749,6 +13215,7 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 49,
 										["targets"] = {
 											["Underbrush Stalker"] = 210,
@@ -8758,8 +13225,54 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 6,
 										["total"] = 210,
+=======
+										["n_max"] = 11055,
+										["targets"] = {
+											["Midnight"] = 22064,
+											["Attumen the Huntsman"] = 9095,
+										},
+										["n_dmg"] = 31159,
+										["n_min"] = 5360,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 31159,
+>>>>>>> Stashed changes
 										["c_max"] = 0,
 										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+<<<<<<< Updated upstream
+=======
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 4,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17149,
+										["targets"] = {
+											["Midnight"] = 20358,
+											["Spectral Apprentice"] = 17149,
+											["Spectral Charger"] = 7688,
+											["Attumen the Huntsman"] = 16907,
+										},
+										["n_dmg"] = 62102,
+										["n_min"] = 7688,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 62102,
+										["c_max"] = 0,
+										["id"] = 1464,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -8767,9 +13280,804 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[199658] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 17378,
+										["g_amt"] = 0,
+										["n_max"] = 3206,
+										["targets"] = {
+											["Spectral Charger"] = 16178,
+											["Spectral Journeyman"] = 13101,
+											["Spectral Apprentice"] = 28950,
+											["Midnight"] = 0,
+											["Spectral Stable Hand"] = 11157,
+											["Attumen the Huntsman"] = 6077,
+										},
+										["n_dmg"] = 58085,
+										["n_min"] = 1836,
+										["g_dmg"] = 0,
+										["counter"] = 29,
+										["total"] = 75463,
+										["c_max"] = 6188,
+										["id"] = 199658,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 3689,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 23,
+										["spellschool"] = 1,
+										["IMMUNE"] = 2,
+									},
+									[262161] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 61294,
+										["g_amt"] = 0,
+										["n_max"] = 15847,
+										["targets"] = {
+											["Spectral Stable Hand"] = 61603,
+											["Spectral Journeyman"] = 46615,
+											["Spectral Apprentice"] = 93422,
+											["Midnight"] = 0,
+											["Spectral Charger"] = 185187,
+											["Attumen the Huntsman"] = 14972,
+										},
+										["n_dmg"] = 340505,
+										["n_min"] = 14972,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 401799,
+										["c_max"] = 30866,
+										["id"] = 262161,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 30428,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 22,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
+									},
+									[262115] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3474,
+										["targets"] = {
+											["Spectral Charger"] = 3474,
+											["Attumen the Huntsman"] = 10419,
+										},
+										["n_dmg"] = 13893,
+										["n_min"] = 3473,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 13893,
+										["c_max"] = 0,
+										["id"] = 262115,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1165,
+										["targets"] = {
+											["Midnight"] = 1165,
+										},
+										["n_dmg"] = 1165,
+										["n_min"] = 1165,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1165,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["custom"] = 0,
+							["nome"] = "Samoanslayer",
+							["spec"] = 71,
+							["colocacao"] = 1,
+							["last_event"] = 1630288037,
+							["on_hold"] = false,
+							["start_time"] = 1630288021,
+							["serial"] = "Player-162-0A2F1F9A",
+							["friendlyfire"] = {
+								["Stronguard"] = {
+									["total"] = 211,
+									["spells"] = {
+										[228612] = 211,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.006031,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 130312.006031,
+							["dps_started"] = false,
+							["total"] = 130312.006031,
+							["spec"] = 66,
+							["colocacao"] = 2,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["damage_from"] = {
+								["Spectral Stable Hand"] = true,
+								["Spectral Journeyman"] = true,
+								["Spectral Apprentice"] = true,
+								["Samoanslayer"] = true,
+								["Coldmist Stalker"] = true,
+								["Spectral Charger"] = true,
+								["Attumen the Huntsman"] = true,
+							},
+							["targets"] = {
+								["Spectral Charger"] = 44328,
+								["Spectral Journeyman"] = 16309,
+								["Spectral Apprentice"] = 19650,
+								["Midnight"] = 18675,
+								["Spectral Stable Hand"] = 11290,
+								["Attumen the Huntsman"] = 20060,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["nome"] = "Stronguard",
+							["end_time"] = 1630288037,
+							["last_event"] = 1630288037,
+							["last_dps"] = 8018.213514158577,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3886,
+										["g_amt"] = 0,
+										["n_max"] = 3967,
+										["targets"] = {
+											["Spectral Charger"] = 3911,
+											["Midnight"] = 3967,
+											["Spectral Journeyman"] = 3812,
+											["Attumen the Huntsman"] = 5871,
+										},
+										["n_dmg"] = 13675,
+										["n_min"] = 1884,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 17561,
+										["c_max"] = 3886,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3886,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 6,
 										["extra"] = {
 										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Attumen the Huntsman"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 204242,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 2,
+									},
+									[275779] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7284,
+										["targets"] = {
+											["Spectral Charger"] = 6780,
+											["Attumen the Huntsman"] = 7284,
+										},
+										["n_dmg"] = 14064,
+										["n_min"] = 6780,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 14064,
+										["c_max"] = 0,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53595] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5011,
+										["g_amt"] = 0,
+										["n_max"] = 1265,
+										["targets"] = {
+											["Spectral Journeyman"] = 2508,
+											["Attumen the Huntsman"] = 3768,
+										},
+										["n_dmg"] = 1265,
+										["n_min"] = 1265,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 6276,
+										["c_max"] = 2508,
+										["id"] = 53595,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2503,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[31935] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3126,
+										["targets"] = {
+											["Spectral Charger"] = 6192,
+											["Spectral Stable Hand"] = 3047,
+											["Spectral Journeyman"] = 3084,
+											["Spectral Apprentice"] = 3047,
+										},
+										["n_dmg"] = 15370,
+										["n_min"] = 3047,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 15370,
+										["c_max"] = 0,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[88263] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 3065,
+										["g_amt"] = 0,
+										["n_max"] = 1014,
+										["targets"] = {
+											["Spectral Stable Hand"] = 2042,
+											["Spectral Journeyman"] = 1013,
+											["Spectral Apprentice"] = 3073,
+											["Midnight"] = 1014,
+											["Spectral Charger"] = 6151,
+											["Attumen the Huntsman"] = 500,
+										},
+										["n_dmg"] = 10728,
+										["n_min"] = 499,
+										["g_dmg"] = 0,
+										["counter"] = 23,
+										["total"] = 13793,
+										["c_max"] = 1042,
+										["id"] = 88263,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1003,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 20,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[81297] = {
+										["c_amt"] = 22,
+										["b_amt"] = 0,
+										["c_dmg"] = 12359,
+										["g_amt"] = 0,
+										["n_max"] = 616,
+										["targets"] = {
+											["Spectral Stable Hand"] = 6201,
+											["Spectral Journeyman"] = 5892,
+											["Spectral Apprentice"] = 13530,
+											["Midnight"] = 3530,
+											["Spectral Charger"] = 16193,
+											["Attumen the Huntsman"] = 2637,
+										},
+										["n_dmg"] = 35624,
+										["n_min"] = 249,
+										["g_dmg"] = 0,
+										["counter"] = 150,
+										["total"] = 47983,
+										["c_max"] = 609,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 499,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 122,
+										["spellschool"] = 2,
+										["IMMUNE"] = 6,
+									},
+									[53600] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 15265,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Midnight"] = 10164,
+											["Spectral Charger"] = 5101,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 15265,
+										["c_max"] = 10164,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 5101,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["damage_taken"] = 544.006031,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["Spectral Stable Hand"] = {
+									["DODGE"] = 1,
+									["FULL_ABSORB_AMT"] = 53,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 4,
+									["ALL"] = 8,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 4,
+									["ABSORB_AMT"] = 53,
+									["FULL_HIT"] = 4,
+									["HITS"] = 4,
+									["FULL_HIT_AMT"] = 53,
+								},
+								["Spectral Charger"] = {
+									["DODGE"] = 2,
+									["FULL_ABSORB_AMT"] = 129,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 4,
+									["ALL"] = 8,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 1,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 4,
+									["ABSORB_AMT"] = 129,
+									["FULL_HIT"] = 4,
+									["HITS"] = 4,
+									["FULL_HIT_AMT"] = 129,
+								},
+								["overall"] = {
+									["DODGE"] = 8,
+									["FULL_ABSORB_AMT"] = 513,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 13,
+									["ALL"] = 26,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 4,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 13,
+									["ABSORB_AMT"] = 513,
+									["FULL_HIT"] = 13,
+									["HITS"] = 13,
+									["FULL_HIT_AMT"] = 333,
+								},
+								["Spectral Apprentice"] = {
+									["DODGE"] = 4,
+									["FULL_ABSORB_AMT"] = 83,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 2,
+									["ALL"] = 4,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 1,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 2,
+									["ABSORB_AMT"] = 83,
+									["FULL_HIT"] = 2,
+									["HITS"] = 2,
+									["FULL_HIT_AMT"] = 83,
+								},
+								["Spectral Journeyman"] = {
+									["DODGE"] = 1,
+									["FULL_ABSORB_AMT"] = 14,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 1,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 1,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 14,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 14,
+								},
+								["Coldmist Stalker"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 1,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 31,
+								},
+								["Samoanslayer"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 211,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 1,
+									["ALL"] = 1,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 211,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["Attumen the Huntsman"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 23,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 1,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 1,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 23,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 23,
+								},
+							},
+							["start_time"] = 1630288022,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 129.004281,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 378,
+								["Stronguard"] = 129,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 378,
+							},
+							["total_without_pet"] = 507.004281,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 507.004281,
+							["damage_taken"] = 256855.004281,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 98,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Samoanslayer"] = 98,
+											["Stronguard"] = 129,
+										},
+										["n_dmg"] = 129,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["r_amt"] = 0,
+										["total"] = 227,
+										["c_max"] = 98,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 3,
+										["c_min"] = 98,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 4,
+										["MISS"] = 10,
+										["DODGE"] = 2,
+									}, -- [1]
+									[241828] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 102,
+										["targets"] = {
+											["Samoanslayer"] = 102,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 102,
+										["n_min"] = 102,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 102,
+										["c_max"] = 0,
+										["id"] = 241828,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 5,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["MISS"] = 9,
+									},
+									[228669] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228669,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 4,
+										["MISS"] = 12,
+									},
+									[228603] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 178,
+										["targets"] = {
+											["Samoanslayer"] = 178,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 178,
+										["n_min"] = 178,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 178,
+										["c_max"] = 0,
+										["id"] = 228603,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Spectral Charger",
+							["end_time"] = 1630288037,
+							["aID"] = "114804",
+							["custom"] = 0,
+							["last_event"] = 1630288037,
+							["on_hold"] = false,
+							["start_time"] = 1630288024,
+							["serial"] = "Creature-0-3782-1651-16137-114804-00052C36DE",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002261,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Samoanslayer"] = 284,
+							},
+							["spellicon"] = 135807,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 284,
+							},
+							["total_without_pet"] = 284.002261,
+							["pets"] = {
+							},
+							["last_event"] = 1630288035,
+							["monster"] = true,
+							["end_time"] = 1630288037,
+							["delay"] = 0,
+							["aID"] = "",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[228610] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Samoanslayer"] = 284,
+										},
+										["n_dmg"] = 284,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 284,
+										["c_max"] = 0,
+										["id"] = 228610,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+>>>>>>> Stashed changes
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["extra"] = {
+										},
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 									}, -- [1]
 									[218617] = {
@@ -8856,10 +14164,14 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+=======
+										["spellschool"] = 4,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["grupo"] = true,
 							["total"] = 1905.004058,
 							["last_event"] = 1611791997,
@@ -8880,10 +14192,34 @@ _detalhes_database = {
 							},
 							["targets"] = {
 								["Samoanslayer"] = 309,
+=======
+							["damage_taken"] = 0.002261,
+							["total"] = 284.002261,
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Burning Brand",
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1630288030,
+							["serial"] = "",
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 14.004966,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 239,
+								["Stronguard"] = 14,
+>>>>>>> Stashed changes
 							},
 							["delay"] = 0,
 							["pets"] = {
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["total"] = 309.00648,
@@ -8897,6 +14233,128 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["tipo"] = 1,
 							["nome"] = "Underbrush Stalker",
+=======
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 239,
+							},
+							["total_without_pet"] = 253.004966,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 253.004966,
+							["damage_taken"] = 76025.00496600001,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 144,
+										["g_amt"] = 0,
+										["n_max"] = 49,
+										["targets"] = {
+											["Samoanslayer"] = 239,
+											["Stronguard"] = 14,
+										},
+										["n_dmg"] = 109,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["r_amt"] = 0,
+										["total"] = 253,
+										["c_max"] = 144,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 144,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 3,
+										["DODGE"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[228637] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DEFLECT"] = 1,
+										["id"] = 228637,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["MISS"] = 1,
+										["DODGE"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Spectral Journeyman",
+							["end_time"] = 1630288037,
+							["aID"] = "114802",
+							["custom"] = 0,
+							["last_event"] = 1630288030,
+							["on_hold"] = false,
+							["start_time"] = 1630288023,
+							["serial"] = "Creature-0-3782-1651-16137-114802-00002C36DE",
+							["dps_started"] = false,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 83.003361,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 38,
+								["Stronguard"] = 83,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 38,
+							},
+							["total_without_pet"] = 121.003361,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 121.003361,
+							["damage_taken"] = 159171.003361,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8904,6 +14362,7 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 46,
 										["targets"] = {
 											["Samoanslayer"] = 309,
@@ -8991,6 +14450,76 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["on_hold"] = false,
 							["nome"] = "Glittering Mothling",
+=======
+										["n_max"] = 58,
+										["targets"] = {
+											["Samoanslayer"] = 38,
+											["Stronguard"] = 83,
+										},
+										["n_dmg"] = 121,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["r_amt"] = 0,
+										["total"] = 121,
+										["c_max"] = 0,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 12,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["DODGE"] = 5,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Spectral Apprentice",
+							["end_time"] = 1630288037,
+							["aID"] = "114801",
+							["custom"] = 0,
+							["last_event"] = 1630288030,
+							["on_hold"] = false,
+							["start_time"] = 1630288023,
+							["serial"] = "Creature-0-3782-1651-16137-114801-00012C36DE",
+							["dps_started"] = false,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 53.006202,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 25,
+								["Stronguard"] = 53,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 25,
+							},
+							["total_without_pet"] = 78.006202,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 78.006202,
+							["damage_taken"] = 84050.006202,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -9000,6 +14529,7 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 25,
 										["targets"] = {
+<<<<<<< Updated upstream
 											["Samoanslayer"] = 68,
 										},
 										["n_dmg"] = 68,
@@ -10712,6 +16242,16 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 23,
 										["total"] = 815,
+=======
+											["Samoanslayer"] = 25,
+											["Stronguard"] = 53,
+										},
+										["n_dmg"] = 78,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 78,
+>>>>>>> Stashed changes
 										["c_max"] = 0,
 										["r_amt"] = 0,
 										["id"] = 1,
@@ -10724,11 +16264,19 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["n_amt"] = 21,
 										["DODGE"] = 1,
 										["MISS"] = 1,
 									}, -- [1]
 									[177604] = {
+=======
+										["n_amt"] = 5,
+										["DODGE"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[233210] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -10742,21 +16290,63 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 177604,
+=======
+										["id"] = 233210,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["c_min"] = 0,
+<<<<<<< Updated upstream
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
 										["a_dmg"] = 0,
 										["extra"] = {
 										},
+=======
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[6016] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 6016,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["on_hold"] = false,
 							["dps_started"] = false,
 							["friendlyfire_total"] = 0,
@@ -10809,19 +16399,78 @@ _detalhes_database = {
 										["counter"] = 12,
 										["total"] = 196,
 										["c_max"] = 33,
+=======
+							["nome"] = "Spectral Stable Hand",
+							["end_time"] = 1630288037,
+							["aID"] = "114803",
+							["custom"] = 0,
+							["last_event"] = 1630288029,
+							["on_hold"] = false,
+							["start_time"] = 1630288026,
+							["serial"] = "Creature-0-3782-1651-16137-114803-0001AC36DE",
+							["dps_started"] = false,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.0012,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Stronguard"] = 31,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "115115",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 31.0012,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 31.0012,
+							["on_hold"] = false,
+							["damage_taken"] = 0.0012,
+							["nome"] = "Coldmist Stalker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Stronguard"] = 31,
+										},
+										["n_dmg"] = 31,
+										["n_min"] = 31,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31,
+										["c_max"] = 0,
+>>>>>>> Stashed changes
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 33,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 11,
+=======
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+>>>>>>> Stashed changes
 										["extra"] = {
 										},
 										["spellschool"] = 1,
 									}, -- [1]
+<<<<<<< Updated upstream
 									[78622] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -10948,6 +16597,48 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["on_hold"] = false,
 							["nome"] = "Glittering Mothling",
+=======
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["end_time"] = 1630288071,
+							["custom"] = 0,
+							["last_event"] = 1630288071,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630288071,
+							["serial"] = "Creature-0-3782-1651-16137-115115-0004AC36DE",
+							["dps_started"] = false,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 23.001072,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 23,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 23.001072,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 23.001072,
+							["damage_taken"] = 77530.001072,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -10955,6 +16646,7 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 22,
 										["targets"] = {
 											["Samoanslayer"] = 43,
@@ -10980,10 +16672,40 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 									}, -- [1]
 									[163710] = {
+=======
+										["n_max"] = 23,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+											["Stronguard"] = 23,
+										},
+										["n_dmg"] = 23,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 23,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 1,
+										["MISS"] = 5,
+										["a_dmg"] = 0,
+									}, -- [1]
+									[227636] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 117,
 										["targets"] = {
 											["Samoanslayer"] = 117,
@@ -10995,21 +16717,44 @@ _detalhes_database = {
 										["total"] = 117,
 										["c_max"] = 0,
 										["id"] = 163710,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227636,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
+<<<<<<< Updated upstream
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
 										["extra"] = {
 										},
 										["spellschool"] = 64,
+=======
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 2,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1611791946,
@@ -11578,6 +17323,42 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["tipo"] = 1,
 							["nome"] = "Midnight Kaliri",
+=======
+							["nome"] = "Attumen the Huntsman",
+							["end_time"] = 1630288037,
+							["aID"] = "114262",
+							["custom"] = 0,
+							["last_event"] = 1630288034,
+							["on_hold"] = false,
+							["start_time"] = 1630288034,
+							["serial"] = "Creature-0-3782-1651-16137-114262-00002C36DE",
+							["dps_started"] = false,
+						}, -- [9]
+						{
+							["flag_original"] = 74312,
+							["totalabsorbed"] = 0.008319,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1630288036,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008319,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.008319,
+							["classe"] = "PET",
+							["damage_taken"] = 62262.008319,
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -11585,6 +17366,7 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 48,
 										["targets"] = {
 											["Samoanslayer"] = 282,
@@ -11594,6 +17376,17 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 8,
 										["total"] = 282,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+>>>>>>> Stashed changes
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
@@ -11605,15 +17398,24 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["n_amt"] = 7,
 										["spellschool"] = 1,
 										["MISS"] = 1,
 									}, -- [1]
 									[163716] = {
+=======
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[228895] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 61,
 										["targets"] = {
 											["Samoanslayer"] = 61,
@@ -11625,17 +17427,34 @@ _detalhes_database = {
 										["total"] = 61,
 										["c_max"] = 0,
 										["id"] = 163716,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228895,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_amt"] = 1,
+=======
+										["n_amt"] = 0,
+>>>>>>> Stashed changes
 										["a_dmg"] = 0,
 										["extra"] = {
 										},
 									},
+<<<<<<< Updated upstream
 								},
 								["tipo"] = 2,
 							},
@@ -11911,10 +17730,14 @@ _detalhes_database = {
 							["spells"] = {
 								["_ActorTable"] = {
 									{
+=======
+									[227339] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 41,
 										["targets"] = {
 											["Samoanslayer"] = 41,
@@ -12328,24 +18151,42 @@ _detalhes_database = {
 										["n_max"] = 0,
 										["targets"] = {
 											["Rockhide Calf"] = 256,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+>>>>>>> Stashed changes
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
+<<<<<<< Updated upstream
 										["counter"] = 2,
 										["total"] = 256,
 										["c_max"] = 171,
 										["id"] = 96103,
+=======
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227339,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
+<<<<<<< Updated upstream
 										["c_min"] = 85,
 										["successful_casted"] = 0,
+=======
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+>>>>>>> Stashed changes
 										["a_amt"] = 0,
 										["n_amt"] = 0,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["spellschool"] = 1,
 									},
 									[199658] = {
@@ -12771,20 +18612,46 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-87699-0002103979",
 							["aID"] = "87699",
 						}, -- [4]
+=======
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Midnight",
+							["last_dps"] = 0,
+							["end_time"] = 1630288037,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1630288037,
+							["serial"] = "Vehicle-0-3782-1651-16137-114264-00002C36DE",
+							["aID"] = "",
+						}, -- [10]
+>>>>>>> Stashed changes
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
+<<<<<<< Updated upstream
 					["combatId"] = 69,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["healing_from"] = {
 								["Samoanslayer"] = true,
+=======
+					["combatId"] = 1349,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["targets_overheal"] = {
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
+<<<<<<< Updated upstream
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.008722,
 							["total_without_pet"] = 1076.008722,
@@ -12855,12 +18722,66 @@ _detalhes_database = {
 										["n_curado"] = 878,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+=======
+							["classe"] = "PALADIN",
+							["totalover"] = 0.007751,
+							["total_without_pet"] = 470.007751,
+							["total"] = 470.007751,
+							["targets_absorbs"] = {
+								["Stronguard"] = 470,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["totalabsorb"] = 470.007751,
+							["last_hps"] = 28.9199945239962,
+							["targets"] = {
+								["Stronguard"] = 470,
+							},
+							["totalover_without_pet"] = 0.007751,
+							["healing_taken"] = 470.007751,
+							["totaldenied"] = 0.007751,
+							["end_time"] = 1630288037,
+							["last_event"] = 1630288035,
+							["heal_enemy_amt"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 470,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 168,
+										["targets"] = {
+											["Stronguard"] = 470,
+										},
+										["n_min"] = 11,
+										["counter"] = 13,
+										["overheal"] = 0,
+										["total"] = 470,
+										["c_max"] = 0,
+										["id"] = 327225,
+										["targets_absorbs"] = {
+											["Stronguard"] = 470,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 470,
+										["totaldenied"] = 0,
+										["n_amt"] = 13,
+										["is_shield"] = true,
+>>>>>>> Stashed changes
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["classe"] = "WARRIOR",
 							["totaldenied"] = 0.008722,
 							["custom"] = 0,
@@ -12871,10 +18792,67 @@ _detalhes_database = {
 							["targets_absorbs"] = {
 							},
 						}, -- [1]
+=======
+							["aID"] = "162-0B337F26",
+							["spec"] = 66,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["nome"] = "Stronguard",
+							["start_time"] = 1630288025,
+							["delay"] = 0,
+							["healing_from"] = {
+								["Stronguard"] = true,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 74312,
+							["totalabsorb"] = 0.008177,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["aID"] = "",
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008177,
+							["targets_overheal"] = {
+							},
+							["classe"] = "PET",
+							["totalover"] = 0.008177,
+							["total_without_pet"] = 0.008177,
+							["iniciar_hps"] = false,
+							["totaldenied"] = 0.008177,
+							["heal_enemy_amt"] = 7212,
+							["end_time"] = 1630288037,
+							["healing_taken"] = 0.008177,
+							["total"] = 0.008177,
+							["boss_fight_component"] = true,
+							["targets_absorbs"] = {
+							},
+							["last_event"] = 1630288034,
+							["nome"] = "Midnight",
+							["heal_enemy"] = {
+								[227338] = 7212,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1630288037,
+							["serial"] = "Vehicle-0-3782-1651-16137-114264-00002C36DE",
+							["delay"] = 0,
+						}, -- [2]
+>>>>>>> Stashed changes
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
+<<<<<<< Updated upstream
 					["combatId"] = 69,
 					["_ActorTable"] = {
 						{
@@ -12882,11 +18860,51 @@ _detalhes_database = {
 							["resource"] = 0.003274,
 							["targets"] = {
 								["Samoanslayer"] = 184,
+=======
+					["combatId"] = 1349,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.002287,
+							["resource"] = 5.002287,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["passiveover"] = 0.002287,
+							["spec"] = 66,
+							["total"] = 0.002287,
+							["totalover"] = 0.002287,
+							["nome"] = "Stronguard",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["last_event"] = 1630288034,
+							["alternatepower"] = 0.002287,
+							["tipo"] = 3,
+							["flag_original"] = 1298,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["resource_type"] = 9,
+						}, -- [1]
+						{
+							["received"] = 29.001248,
+							["resource"] = 0.001248,
+							["targets"] = {
+								["Samoanslayer"] = 29,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "WARRIOR",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.003274,
 							["fight_component"] = true,
 							["total"] = 184.003274,
@@ -12896,12 +18914,33 @@ _detalhes_database = {
 									[5308] = {
 										["total"] = 20,
 										["id"] = 5308,
+=======
+							["passiveover"] = 0.001248,
+							["total"] = 29.001248,
+							["totalover"] = 0.001248,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 9,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 9,
+										},
+										["counter"] = 3,
+									},
+									[100] = {
+										["total"] = 20,
+										["id"] = 100,
+>>>>>>> Stashed changes
 										["totalover"] = 0,
 										["targets"] = {
 											["Samoanslayer"] = 20,
 										},
 										["counter"] = 1,
 									},
+<<<<<<< Updated upstream
 									[85288] = {
 										["total"] = 12,
 										["id"] = 85288,
@@ -12947,10 +18986,13 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
+=======
+>>>>>>> Stashed changes
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["totalover"] = 0.003274,
 							["flag_original"] = 1297,
 							["last_event"] = 1611791713,
@@ -12960,16 +19002,32 @@ _detalhes_database = {
 							["serial"] = "Player-162-0A2F1F9A",
 							["spec"] = 72,
 						}, -- [1]
+=======
+							["spec"] = 71,
+							["tipo"] = 3,
+							["aID"] = "162-0A2F1F9A",
+							["last_event"] = 1630288070,
+							["alternatepower"] = 0.001248,
+							["flag_original"] = 1297,
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [2]
+>>>>>>> Stashed changes
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 69,
+=======
+					["combatId"] = 1349,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+<<<<<<< Updated upstream
 									[105771] = {
 										["activedamt"] = -1,
 										["id"] = 105771,
@@ -12996,21 +19054,80 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["id"] = 269083,
 										["uptime"] = 29,
+=======
+									[197277] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 197277,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[204242] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 204242,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 38,
+									},
+									[31935] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 31935,
+										["uptime"] = 15,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[262232] = {
+=======
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 107,
+							["aID"] = "162-0B337F26",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 327225,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[188370] = {
+>>>>>>> Stashed changes
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 3,
 										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 262232,
 										["uptime"] = 16,
+=======
+										["id"] = 188370,
+										["uptime"] = 12,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 3,
 									},
+<<<<<<< Updated upstream
 									[32216] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -13021,6 +19138,40 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 3,
+=======
+									[328906] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 328906,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[132403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 132403,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[280375] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 3,
+										["id"] = 280375,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+>>>>>>> Stashed changes
 									},
 									[93795] = {
 										["counter"] = 0,
@@ -13028,11 +19179,16 @@ _detalhes_database = {
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
 										["id"] = 93795,
+<<<<<<< Updated upstream
 										["uptime"] = 29,
+=======
+										["uptime"] = 16,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[118779] = {
 										["activedamt"] = 2,
 										["id"] = 118779,
@@ -13046,12 +19202,31 @@ _detalhes_database = {
 										["appliedamt"] = 2,
 									},
 									[184362] = {
+=======
+									[317920] = {
+>>>>>>> Stashed changes
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 184362,
 										["uptime"] = 3,
+=======
+										["id"] = 317920,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[182104] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 182104,
+										["uptime"] = 11,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -13059,6 +19234,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["fight_component"] = true,
 							["debuff_uptime"] = 0,
 							["nome"] = "Samoanslayer",
@@ -13081,10 +19257,34 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-162-0A2F1F9A",
+=======
+							["debuff_uptime"] = 34,
+							["nome"] = "Stronguard",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[53600] = 3,
+								[275779] = 2,
+								[53595] = 3,
+								[26573] = 3,
+								[31935] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["last_event"] = 1630288037,
+							["pets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+>>>>>>> Stashed changes
 							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
+<<<<<<< Updated upstream
 							["flag_original"] = 2600,
 							["tipo"] = 4,
 							["nome"] = "Rockhide Grazer",
@@ -13115,19 +19315,297 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-87698-0000113731",
 							["flag_original"] = 2632,
 						}, -- [3]
+=======
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[262115] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 262115,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 16,
+									},
+									[208086] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 208086,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 14,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 56,
+							["aID"] = "162-0A2F1F9A",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 342814,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[199854] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 199854,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[260708] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 260708,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 16,
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 71,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 3,
+								[199658] = 2,
+								[262161] = 1,
+								[1680] = 2,
+								[126664] = 1,
+								[260708] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["last_event"] = 1630288037,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 6,
+							["spellschool"] = 4,
+							["nome"] = "Burning Brand",
+							["tipo"] = 4,
+							["serial"] = "",
+							["aID"] = "",
+							["last_event"] = 1630288035,
+							["damage_twin"] = "[*] Burning Brand",
+							["debuff_uptime_targets"] = {
+								["Samoanslayer"] = {
+									["uptime"] = 6,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 228610,
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 0,
+							["spellschool"] = 1,
+							["nome"] = "Pierce Armor",
+							["last_event"] = 1630288029,
+							["serial"] = "Creature-0-3782-1651-16137-114803-00012C36DE",
+							["aID"] = "114803",
+							["tipo"] = 4,
+							["damage_twin"] = "Spectral Stable Hand",
+							["debuff_uptime_targets"] = {
+								["Samoanslayer"] = {
+									["uptime"] = 0,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["actived_at"] = 1630288029,
+								},
+							},
+							["damage_spellid"] = 6016,
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114262",
+							["spell_cast"] = {
+								[227636] = 2,
+							},
+							["nome"] = "Attumen the Huntsman",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114262-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [5]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114804",
+							["spell_cast"] = {
+								[241828] = 5,
+								[228603] = 2,
+							},
+							["nome"] = "Spectral Charger",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114804-00052C36DE",
+							["flag_original"] = 2632,
+						}, -- [6]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114803",
+							["spell_cast"] = {
+								[233210] = 3,
+								[6016] = 2,
+							},
+							["nome"] = "Spectral Stable Hand",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114803-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [7]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114802",
+							["spell_cast"] = {
+								[228637] = 3,
+							},
+							["nome"] = "Spectral Journeyman",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114802-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [8]
+						{
+							["flag_original"] = 74312,
+							["tipo"] = 4,
+							["nome"] = "Midnight",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["spell_cast"] = {
+								[227339] = 1,
+								[228895] = 1,
+							},
+							["classe"] = "PET",
+							["aID"] = "",
+							["serial"] = "Vehicle-0-3782-1651-16137-114264-00002C36DE",
+							["boss_fight_component"] = true,
+						}, -- [9]
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 69,
+=======
+					["combatId"] = 1349,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Samoanslayer"] = true,
+<<<<<<< Updated upstream
 				},
 				["CombatStartedAt"] = 448553.678,
 				["tempo_start"] = 1611791684,
+=======
+					["Stronguard"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Stronguard", -- [2]
+				},
+				["CombatStartedAt"] = 1077124.794,
+				["tempo_start"] = 1630288021,
+>>>>>>> Stashed changes
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
@@ -13135,12 +19613,20 @@ _detalhes_database = {
 				["cleu_events"] = {
 					["n"] = 1,
 				},
+<<<<<<< Updated upstream
 				["playing_solo"] = true,
 				["totals"] = {
 					5422, -- [1]
 					1076, -- [2]
 					{
 						184, -- [1]
+=======
+				["totals"] = {
+					717190, -- [1]
+					470, -- [2]
+					{
+						29, -- [1]
+>>>>>>> Stashed changes
 						[0] = 0,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -13156,6 +19642,7 @@ _detalhes_database = {
 						["dispell"] = 0,
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
+<<<<<<< Updated upstream
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
 				},
@@ -13171,6 +19658,98 @@ _detalhes_database = {
 				["enemy"] = "Rockhide Calf",
 				["TotalElapsedCombatTime"] = 448546.291,
 				["CombatEndedAt"] = 448546.291,
+=======
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+					["by_spell"] = 1508,
+				},
+				["player_last_events"] = {
+					["Stronguard"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							31, -- [3]
+							1630288071.414, -- [4]
+							22520, -- [5]
+							"Coldmist Stalker", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "party",
+				["hasSaved"] = true,
+				["data_fim"] = "19:47:18",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Attumen the Huntsman",
+>>>>>>> Stashed changes
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -13182,19 +19761,29 @@ _detalhes_database = {
 					}, -- [1]
 					["damage"] = {
 						{
+<<<<<<< Updated upstream
 							["Samoanslayer"] = 3672.004934,
+=======
+							["Samoanslayer"] = 595877.011685,
+							["Stronguard"] = 130312.006031,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+<<<<<<< Updated upstream
 							["Samoanslayer"] = 1076.008722,
+=======
+							["Stronguard"] = 470.007751,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 				},
+<<<<<<< Updated upstream
 				["end_time"] = 448546.291,
 				["combat_id"] = 69,
 				["frags"] = {
@@ -13213,6 +19802,37 @@ _detalhes_database = {
 					1076, -- [2]
 					{
 						184, -- [1]
+=======
+				["end_time"] = 1077091.592,
+				["combat_id"] = 1349,
+				["overall_added"] = true,
+				["resincked"] = true,
+				["data_inicio"] = "19:47:02",
+				["combat_counter"] = 1545,
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Return to Karazhan",
+					["encounter"] = "Attumen the Huntsman",
+					["mapid"] = 1651,
+					["try_number"] = 1,
+					["name"] = "Attumen the Huntsman",
+					["diff"] = 23,
+					["ej_instance_id"] = 860,
+					["id"] = 1960,
+					["killed"] = true,
+				},
+				["contra"] = "Midnight",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					716104, -- [1]
+					470, -- [2]
+					{
+						29, -- [1]
+>>>>>>> Stashed changes
 						[0] = 0,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -13229,6 +19849,7 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+<<<<<<< Updated upstream
 				["start_time"] = 448516.824,
 				["TimeData"] = {
 				},
@@ -13285,10 +19906,77 @@ _detalhes_database = {
 										["counter"] = 23,
 										["total"] = 940,
 										["c_max"] = 79,
+=======
+				["start_time"] = 1077075.34,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Spectral Stable Hand"] = 4,
+					["Spectral Journeyman"] = 3,
+					["Spectral Apprentice"] = 6,
+					["Spectral Charger"] = 11,
+					["Attumen the Huntsman"] = 1,
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1347,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002311,
+							["damage_from"] = {
+								["Phantom Guest"] = true,
+								["Lord Robin Daris"] = true,
+							},
+							["targets"] = {
+								["Lady Catriona Von'Indi"] = 37214,
+								["Lord Robin Daris"] = 39693,
+								["Baroness Dorothea Millstipe"] = 39014,
+								["Moroes"] = 110539,
+								["Lady Keira Berrybuck"] = 39272,
+								["Phantom Guest"] = 100387,
+							},
+							["last_dps"] = 59960.53100495401,
+							["pets"] = {
+							},
+							["damage_taken"] = 214.002311,
+							["total"] = 366119.002311,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 366119.002311,
+							["tipo"] = 1,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["end_time"] = 1630287996,
+							["delay"] = 0,
+							["aID"] = "162-0A2F1F9A",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10741,
+										["targets"] = {
+											["Moroes"] = 28108,
+										},
+										["n_dmg"] = 28108,
+										["n_min"] = 6727,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 28108,
+										["c_max"] = 0,
+>>>>>>> Stashed changes
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
+<<<<<<< Updated upstream
 										["extra"] = {
 										},
 										["a_amt"] = 0,
@@ -13404,10 +20092,13 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
+=======
+>>>>>>> Stashed changes
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_amt"] = 1,
 										["extra"] = {
 										},
@@ -13522,15 +20213,174 @@ _detalhes_database = {
 										["c_min"] = 92,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
+=======
+>>>>>>> Stashed changes
 										["n_amt"] = 3,
 										["extra"] = {
 										},
 										["spellschool"] = 1,
+<<<<<<< Updated upstream
+=======
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19137,
+										["targets"] = {
+											["Lady Catriona Von'Indi"] = 14618,
+											["Moroes"] = 29407,
+											["Phantom Guest"] = 7579,
+										},
+										["n_dmg"] = 51604,
+										["n_min"] = 7579,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 51604,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[52174] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2064,
+										["g_amt"] = 0,
+										["n_max"] = 1057,
+										["targets"] = {
+											["Phantom Guest"] = 3121,
+										},
+										["n_dmg"] = 1057,
+										["n_min"] = 1057,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3121,
+										["c_max"] = 2064,
+										["id"] = 52174,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2064,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[50622] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13511,
+										["targets"] = {
+											["Baroness Dorothea Millstipe"] = 13111,
+											["Moroes"] = 26781,
+											["Lord Robin Daris"] = 13184,
+											["Lady Keira Berrybuck"] = 13021,
+										},
+										["n_dmg"] = 66097,
+										["n_min"] = 13021,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 66097,
+										["c_max"] = 0,
+										["id"] = 50622,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[262161] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22730,
+										["targets"] = {
+											["Lady Catriona Von'Indi"] = 22596,
+											["Lord Robin Daris"] = 22651,
+											["Baroness Dorothea Millstipe"] = 22045,
+											["Moroes"] = 22385,
+											["Lady Keira Berrybuck"] = 22393,
+											["Phantom Guest"] = 89687,
+										},
+										["n_dmg"] = 201757,
+										["n_min"] = 22045,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 201757,
+										["c_max"] = 0,
+										["id"] = 262161,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[262115] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3858,
+										["targets"] = {
+											["Baroness Dorothea Millstipe"] = 3858,
+											["Lady Keira Berrybuck"] = 3858,
+											["Lord Robin Daris"] = 3858,
+											["Moroes"] = 3858,
+										},
+										["n_dmg"] = 15432,
+										["n_min"] = 3858,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 15432,
+										["c_max"] = 0,
+										["id"] = 262115,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["total"] = 5809.005342,
 							["last_event"] = 1611791647,
 							["custom"] = 0,
@@ -13538,11 +20388,21 @@ _detalhes_database = {
 							["tipo"] = 1,
 							["on_hold"] = false,
 							["start_time"] = 1611791611,
+=======
+							["custom"] = 0,
+							["nome"] = "Samoanslayer",
+							["spec"] = 71,
+							["colocacao"] = 1,
+							["last_event"] = 1630287993,
+							["on_hold"] = false,
+							["start_time"] = 1630287957,
+>>>>>>> Stashed changes
 							["serial"] = "Player-162-0A2F1F9A",
 							["friendlyfire"] = {
 							},
 						}, -- [1]
 						{
+<<<<<<< Updated upstream
 							["flag_original"] = 2600,
 							["totalabsorbed"] = 0.001548,
 							["damage_from"] = {
@@ -13556,10 +20416,43 @@ _detalhes_database = {
 							},
 							["classe"] = "UNKNOW",
 							["friendlyfire"] = {
+=======
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.004518,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 11211.004518,
+							["dps_started"] = false,
+							["total"] = 11211.004518,
+							["spec"] = 66,
+							["colocacao"] = 2,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Spectral Sentry"] = true,
+								["Spectral Retainer"] = true,
+								["Skeletal Waiter"] = true,
+								["Spectral Valet"] = true,
+								["Arcane Warden"] = true,
+								["Phantom Guest"] = true,
+							},
+							["targets"] = {
+								["Spectral Valet"] = 2978,
+								["Spectral Attendant"] = 2632,
+								["Spectral Sentry"] = 861,
+								["Skeletal Waiter"] = 576,
+								["Spectral Retainer"] = 1193,
+								["Reformed Maiden"] = 594,
+								["Phantom Guest"] = 2377,
+>>>>>>> Stashed changes
 							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+<<<<<<< Updated upstream
 							["total_without_pet"] = 1777.001548,
 							["delay"] = 0,
 							["dps_started"] = false,
@@ -13598,11 +20491,319 @@ _detalhes_database = {
 										},
 										["n_amt"] = 34,
 										["a_dmg"] = 959,
+=======
+							["nome"] = "Stronguard",
+							["end_time"] = 1630287969,
+							["last_event"] = 1630287968,
+							["last_dps"] = 1836.063628915941,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[81297] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 3532,
+										["g_amt"] = 0,
+										["n_max"] = 305,
+										["targets"] = {
+											["Spectral Valet"] = 2978,
+											["Spectral Attendant"] = 2632,
+											["Spectral Sentry"] = 861,
+											["Skeletal Waiter"] = 576,
+											["Spectral Retainer"] = 1193,
+											["Reformed Maiden"] = 594,
+											["Phantom Guest"] = 2377,
+										},
+										["n_dmg"] = 7679,
+										["n_min"] = 282,
+										["g_dmg"] = 0,
+										["counter"] = 45,
+										["total"] = 11211,
+										["c_max"] = 607,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 564,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 26,
+										["spellschool"] = 2,
+										["EVADE"] = 13,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["damage_taken"] = 1839.004518,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["Environment (Falling)"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 1,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 1,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 1420,
+								},
+								["Spectral Retainer"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 1,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 86,
+								},
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 272,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 6,
+									["ALL"] = 16,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 6,
+									["ABSORB_AMT"] = 272,
+									["FULL_HIT"] = 10,
+									["HITS"] = 6,
+									["FULL_HIT_AMT"] = 1839,
+								},
+								["Spectral Valet"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 197,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 3,
+									["ALL"] = 6,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 3,
+									["ABSORB_AMT"] = 197,
+									["FULL_HIT"] = 3,
+									["HITS"] = 3,
+									["FULL_HIT_AMT"] = 197,
+								},
+								["Skeletal Waiter"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 1,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 36,
+								},
+								["Spectral Sentry"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 5,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 1,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 5,
+									["FULL_HIT"] = 1,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 5,
+								},
+								["Arcane Warden"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 45,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 1,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 45,
+									["FULL_HIT"] = 1,
+									["HITS"] = 1,
+									["FULL_HIT_AMT"] = 45,
+								},
+								["Phantom Guest"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 25,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 1,
+									["ALL"] = 3,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 25,
+									["FULL_HIT"] = 2,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 50,
+								},
+							},
+							["start_time"] = 1630287957,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.004808,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Stronguard"] = 1420,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1420.004808,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1630287962,
+							["nome"] = "Environment (Falling)",
+							["damage_taken"] = 0.004808,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1420,
+										["targets"] = {
+											["Stronguard"] = 1420,
+										},
+										["n_dmg"] = 1420,
+										["n_min"] = 1420,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1420,
+										["c_max"] = 0,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 1420.004808,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1630287959,
+							["on_hold"] = false,
+							["start_time"] = 1630287959,
+							["serial"] = "",
+							["friendlyfire_total"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 197.008296,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 197,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 197.008296,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 197.008296,
+							["damage_taken"] = 2978.008296,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 93,
+										["targets"] = {
+											["Stronguard"] = 197,
+										},
+										["n_dmg"] = 197,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 197,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 3,
+										["spellschool"] = 1,
+>>>>>>> Stashed changes
 										["MISS"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1611791648,
@@ -13621,10 +20822,33 @@ _detalhes_database = {
 							},
 							["targets"] = {
 								["Samoanslayer"] = 1455,
+=======
+							["nome"] = "Spectral Valet",
+							["end_time"] = 1630287962,
+							["aID"] = "114633",
+							["custom"] = 0,
+							["last_event"] = 1630287957,
+							["on_hold"] = false,
+							["start_time"] = 1630287957,
+							["serial"] = "Creature-0-3782-1651-16137-114633-0000AC36DE",
+							["dps_started"] = false,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 25.006934,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 91,
+								["Stronguard"] = 50,
+>>>>>>> Stashed changes
 							},
 							["delay"] = 0,
 							["pets"] = {
 							},
+<<<<<<< Updated upstream
 							["friendlyfire"] = {
 							},
 							["total"] = 1455.007809,
@@ -13655,6 +20879,139 @@ _detalhes_database = {
 										["counter"] = 14,
 										["total"] = 1282,
 										["c_max"] = 203,
+=======
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 91,
+							},
+							["total_without_pet"] = 141.006934,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 141.006934,
+							["damage_taken"] = 102764.006934,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Samoanslayer"] = 91,
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 91,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 91,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 4,
+										["MISS"] = 3,
+										["a_dmg"] = 0,
+									}, -- [1]
+									[29583] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Stronguard"] = 50,
+										},
+										["n_dmg"] = 50,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 50,
+										["c_max"] = 0,
+										["id"] = 29583,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Phantom Guest",
+							["end_time"] = 1630287963,
+							["aID"] = "114625",
+							["custom"] = 0,
+							["last_event"] = 1630287994,
+							["on_hold"] = false,
+							["start_time"] = 1630287957,
+							["serial"] = "Creature-0-3782-1651-16137-114625-0004AC36DE",
+							["dps_started"] = false,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002245,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+								["Samoanslayer"] = 123,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+								[2] = 123,
+							},
+							["total_without_pet"] = 123.002245,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 123.002245,
+							["damage_taken"] = 39693.002245,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 65,
+										["targets"] = {
+											["Samoanslayer"] = 123,
+										},
+										["n_dmg"] = 123,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 123,
+										["c_max"] = 0,
+>>>>>>> Stashed changes
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
@@ -13662,6 +21019,7 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["PARRY"] = 1,
+<<<<<<< Updated upstream
 										["c_min"] = 167,
 										["successful_casted"] = 0,
 										["a_amt"] = 7,
@@ -13670,10 +21028,21 @@ _detalhes_database = {
 										["a_dmg"] = 738,
 									}, -- [1]
 									[158207] = {
+=======
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+									}, -- [1]
+									[227463] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 173,
 										["targets"] = {
 											["Samoanslayer"] = 173,
@@ -13696,10 +21065,33 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["a_dmg"] = 173,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227463,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["on_hold"] = false,
 							["dps_started"] = false,
 							["friendlyfire_total"] = 0,
@@ -13734,6 +21126,43 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["on_hold"] = false,
 							["nome"] = "Rockhide Grazer",
+=======
+							["nome"] = "Lord Robin Daris",
+							["end_time"] = 1630287962,
+							["aID"] = "114320",
+							["custom"] = 0,
+							["last_event"] = 1630287961,
+							["on_hold"] = false,
+							["start_time"] = 1630287960,
+							["serial"] = "Creature-0-3782-1651-16137-114320-00002C36DE",
+							["dps_started"] = false,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005628,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 86,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 86.005628,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 86.005628,
+							["damage_taken"] = 1193.005628,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -13743,6 +21172,7 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 86,
 										["targets"] = {
+<<<<<<< Updated upstream
 											["Samoanslayer"] = 676,
 										},
 										["n_dmg"] = 676,
@@ -13750,27 +21180,482 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 13,
 										["total"] = 676,
+=======
+											["Stronguard"] = 86,
+										},
+										["n_dmg"] = 86,
+										["n_min"] = 86,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 86,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Spectral Retainer",
+							["end_time"] = 1630287962,
+							["aID"] = "114629",
+							["custom"] = 0,
+							["last_event"] = 1630287957,
+							["on_hold"] = false,
+							["start_time"] = 1630287957,
+							["serial"] = "Creature-0-3782-1651-16137-114629-00012C36DE",
+							["dps_started"] = false,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 45.006372,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Stronguard"] = 45,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 45.006372,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 45.006372,
+							["damage_taken"] = 0.006372,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 45,
+										["targets"] = {
+											["Stronguard"] = 45,
+										},
+										["n_dmg"] = 45,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 45,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[238606] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 238606,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 64,
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Arcane Warden",
+							["end_time"] = 1630287962,
+							["aID"] = "114624",
+							["custom"] = 0,
+							["last_event"] = 1630287968,
+							["on_hold"] = false,
+							["start_time"] = 1630287959,
+							["serial"] = "Creature-0-3782-1651-16137-114624-00002C36DE",
+							["dps_started"] = false,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005785,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 36,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "114628",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 36.005785,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 36.005785,
+							["on_hold"] = false,
+							["damage_taken"] = 576.005785,
+							["nome"] = "Skeletal Waiter",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 36,
+										["targets"] = {
+											["Stronguard"] = 36,
+										},
+										["n_dmg"] = 36,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 36,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["end_time"] = 1630287969,
+							["custom"] = 0,
+							["last_event"] = 1630287968,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287968,
+							["serial"] = "Creature-0-3782-1651-16137-114628-00002C36DE",
+							["dps_started"] = false,
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 5.002685,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+								["Stronguard"] = 5,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5.002685,
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["total"] = 5.002685,
+							["damage_taken"] = 861.0026849999999,
+							["friendlyfire"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[6660] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Stronguard"] = 5,
+										},
+										["n_dmg"] = 5,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 6660,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["MISS"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Spectral Sentry",
+							["end_time"] = 1630287962,
+							["aID"] = "114637",
+							["custom"] = 0,
+							["last_event"] = 1630287959,
+							["on_hold"] = false,
+							["start_time"] = 1630287959,
+							["serial"] = "Creature-0-3782-1651-16137-114637-00082C36DE",
+							["dps_started"] = false,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007213,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.007213,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.007213,
+							["damage_taken"] = 39014.007213,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[227575] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227575,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Baroness Dorothea Millstipe",
+							["end_time"] = 1630287962,
+							["aID"] = "114316",
+							["custom"] = 0,
+							["last_event"] = 1630287960,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287962,
+							["serial"] = "Creature-0-3782-1651-16137-114316-00002C36DE",
+							["dps_started"] = false,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007068,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.007068,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.007068,
+							["damage_taken"] = 37214.007068,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[227542] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227542,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Lady Catriona Von'Indi",
+							["end_time"] = 1630287962,
+							["aID"] = "114317",
+							["custom"] = 0,
+							["last_event"] = 1630287959,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287962,
+							["serial"] = "Creature-0-3782-1651-16137-114317-00002C36DE",
+							["dps_started"] = false,
+						}, -- [12]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005077,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005077,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.005077,
+							["damage_taken"] = 110539.005077,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 0,
+>>>>>>> Stashed changes
 										["c_max"] = 0,
 										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["spellschool"] = 1,
+<<<<<<< Updated upstream
 										["a_amt"] = 7,
 										["PARRY"] = 1,
+=======
+										["a_amt"] = 0,
+										["PARRY"] = 5,
+>>>>>>> Stashed changes
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["n_amt"] = 10,
 										["MISS"] = 2,
 										["a_dmg"] = 492,
 									}, -- [1]
 									[158252] = {
+=======
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["MISS"] = 2,
+									}, -- [1]
+									[227872] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 91,
 										["targets"] = {
 											["Samoanslayer"] = 279,
@@ -13782,11 +21667,199 @@ _detalhes_database = {
 										["total"] = 279,
 										["c_max"] = 0,
 										["id"] = 158252,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227872,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Moroes",
+							["end_time"] = 1630287962,
+							["aID"] = "114312",
+							["custom"] = 0,
+							["last_event"] = 1630287962,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287962,
+							["serial"] = "Creature-0-3782-1651-16137-114312-00002C36DE",
+							["dps_started"] = false,
+						}, -- [13]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004666,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004666,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.004666,
+							["damage_taken"] = 594.004666,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Reformed Maiden",
+							["end_time"] = 1630287962,
+							["aID"] = "114783",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287962,
+							["serial"] = "Creature-0-3782-1651-16137-114783-00042C36DE",
+							["dps_started"] = false,
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.003253,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003253,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.003253,
+							["damage_taken"] = 39272.003253,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["r_amt"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 1,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 0,
+										["MISS"] = 2,
+										["a_dmg"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Lady Keira Berrybuck",
+							["end_time"] = 1630287962,
+							["aID"] = "114319",
+							["custom"] = 0,
+							["last_event"] = 1630287961,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287962,
+							["serial"] = "Creature-0-3782-1651-16137-114319-00002C36DE",
+							["dps_started"] = false,
+						}, -- [15]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001869,
+							["damage_from"] = {
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001869,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.001869,
+							["damage_taken"] = 2632.001869,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[241788] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Stronguard"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 241788,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["PARRY"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
@@ -13794,10 +21867,46 @@ _detalhes_database = {
 										["n_amt"] = 4,
 										["spellschool"] = 1,
 										["a_dmg"] = 126,
+=======
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 32,
+										["MISS"] = 1,
+									},
+									[228279] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 228279,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1611791648,
@@ -13808,20 +21917,42 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-87700-000390397F",
 							["aID"] = "87700",
 						}, -- [4]
+=======
+							["nome"] = "Spectral Attendant",
+							["end_time"] = 1630287962,
+							["aID"] = "114632",
+							["custom"] = 0,
+							["last_event"] = 1630287957,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287962,
+							["serial"] = "Creature-0-3782-1651-16137-114632-00022C36DE",
+							["dps_started"] = false,
+						}, -- [16]
+>>>>>>> Stashed changes
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
+<<<<<<< Updated upstream
 					["combatId"] = 68,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["healing_from"] = {
 								["Samoanslayer"] = true,
+=======
+					["combatId"] = 1347,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1298,
+							["targets_overheal"] = {
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
+<<<<<<< Updated upstream
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001703,
 							["total_without_pet"] = 2236.001703,
@@ -13920,10 +22051,66 @@ _detalhes_database = {
 										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
+=======
+							["classe"] = "PALADIN",
+							["totalover"] = 0.008578,
+							["total_without_pet"] = 358.008578,
+							["total"] = 358.008578,
+							["targets_absorbs"] = {
+								["Stronguard"] = 358,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["totalabsorb"] = 358.008578,
+							["last_hps"] = 58.63225974535423,
+							["targets"] = {
+								["Stronguard"] = 358,
+							},
+							["totalover_without_pet"] = 0.008578,
+							["healing_taken"] = 358.008578,
+							["totaldenied"] = 0.008578,
+							["end_time"] = 1630287962,
+							["last_event"] = 1630287960,
+							["heal_enemy_amt"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 358,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 93,
+										["targets"] = {
+											["Stronguard"] = 358,
+										},
+										["n_min"] = 5,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 358,
+										["c_max"] = 0,
+										["id"] = 327225,
+										["targets_absorbs"] = {
+											["Stronguard"] = 358,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 358,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+>>>>>>> Stashed changes
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["classe"] = "WARRIOR",
 							["totaldenied"] = 0.001703,
 							["custom"] = 0,
@@ -13935,10 +22122,111 @@ _detalhes_database = {
 								["Samoanslayer"] = 1158,
 							},
 						}, -- [1]
+=======
+							["aID"] = "162-0B337F26",
+							["spec"] = 66,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["nome"] = "Stronguard",
+							["start_time"] = 1630287957,
+							["delay"] = 0,
+							["healing_from"] = {
+								["Stronguard"] = true,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002844,
+							["total_without_pet"] = 0.002844,
+							["monster"] = true,
+							["total"] = 0.002844,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3782-1651-16137-114637-0008AC36DE",
+							["totalabsorb"] = 0.002844,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002844,
+							["healing_taken"] = 0.002844,
+							["end_time"] = 1630287962,
+							["targets_overheal"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totaldenied"] = 0.002844,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["aID"] = "114637",
+							["start_time"] = 1630287962,
+							["delay"] = 0,
+							["nome"] = "Spectral Sentry",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002584,
+							["total_without_pet"] = 0.002584,
+							["monster"] = true,
+							["total"] = 0.002584,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[228554] = 0,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3782-1651-16137-114632-00022C36DE",
+							["totalabsorb"] = 0.002584,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002584,
+							["healing_taken"] = 0.002584,
+							["end_time"] = 1630287962,
+							["targets_overheal"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totaldenied"] = 0.002584,
+							["custom"] = 0,
+							["last_event"] = 1630287961,
+							["aID"] = "114632",
+							["start_time"] = 1630287962,
+							["delay"] = 0,
+							["nome"] = "Spectral Attendant",
+						}, -- [3]
+>>>>>>> Stashed changes
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
+<<<<<<< Updated upstream
 					["combatId"] = 68,
 					["_ActorTable"] = {
 						{
@@ -13946,11 +22234,21 @@ _detalhes_database = {
 							["resource"] = 0.007744,
 							["targets"] = {
 								["Samoanslayer"] = 190.6000003814697,
+=======
+					["combatId"] = 1347,
+					["_ActorTable"] = {
+						{
+							["received"] = 20.0039,
+							["resource"] = 0.0039,
+							["targets"] = {
+								["Samoanslayer"] = 20,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "WARRIOR",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.007744,
 							["fight_component"] = true,
 							["total"] = 190.6077443814697,
@@ -14020,10 +22318,37 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
+=======
+							["passiveover"] = 0.0039,
+							["total"] = 20.0039,
+							["totalover"] = 9.0039,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 3,
+										["id"] = 195707,
+										["totalover"] = 6,
+										["targets"] = {
+											["Samoanslayer"] = 3,
+										},
+										["counter"] = 3,
+									},
+									[107574] = {
+										["total"] = 17,
+										["id"] = 107574,
+										["totalover"] = 3,
+										["targets"] = {
+											["Samoanslayer"] = 17,
+										},
+										["counter"] = 1,
+									},
+>>>>>>> Stashed changes
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["totalover"] = 90.40774457220459,
 							["flag_original"] = 1297,
 							["last_event"] = 1611791683,
@@ -14033,22 +22358,296 @@ _detalhes_database = {
 							["serial"] = "Player-162-0A2F1F9A",
 							["spec"] = 72,
 						}, -- [1]
+=======
+							["spec"] = 71,
+							["tipo"] = 3,
+							["aID"] = "162-0A2F1F9A",
+							["last_event"] = 1630287961,
+							["alternatepower"] = 0.0039,
+							["flag_original"] = 1297,
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [1]
+						{
+							["received"] = 0.00421,
+							["resource"] = 0.00421,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["passiveover"] = 0.00421,
+							["total"] = 0.00421,
+							["spec"] = 66,
+							["totalover"] = 0.00421,
+							["nome"] = "Stronguard",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 1298,
+							["aID"] = "162-0B337F26",
+							["last_event"] = 1630287969,
+							["tipo"] = 3,
+							["alternatepower"] = 0.00421,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["resource_type"] = 9,
+						}, -- [2]
+>>>>>>> Stashed changes
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 68,
+=======
+					["combatId"] = 1347,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+<<<<<<< Updated upstream
 									[105771] = {
+=======
+									[204242] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -3,
+										["refreshamt"] = 0,
+										["id"] = 204242,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 23,
+							["aID"] = "162-0B337F26",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 327225,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[340020] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 340020,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[328906] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 328906,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[317920] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 317920,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[188370] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 188370,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 3,
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 66,
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["last_event"] = 1630287962,
+							["pets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["nome"] = "Stronguard",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[262115] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 262115,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[208086] = {
+>>>>>>> Stashed changes
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 0,
 										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 105771,
+=======
+										["id"] = 208086,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.006737,
+							["buff_uptime"] = 31,
+							["last_cooldown"] = {
+								1630287958.683, -- [1]
+								118038, -- [2]
+							},
+							["aID"] = "162-0A2F1F9A",
+							["cooldowns_defensive_targets"] = {
+								["Samoanslayer"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 342814,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[118038] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 118038,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[260708] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 260708,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[107574] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 107574,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[199854] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 199854,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227847] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227847,
+>>>>>>> Stashed changes
 										["uptime"] = 1,
 										["targets"] = {
 										},
@@ -14057,6 +22656,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["cooldowns_defensive"] = 1.00211,
 							["buff_uptime"] = 173,
 							["last_cooldown"] = {
@@ -14201,6 +22801,32 @@ _detalhes_database = {
 								["_ActorTable"] = {
 									[184364] = {
 										["id"] = 184364,
+=======
+							["debuff_uptime"] = 6,
+							["serial"] = "Player-162-0A2F1F9A",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 71,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 2,
+								[118038] = 1,
+								[262161] = 1,
+								[107574] = 1,
+								[227847] = 1,
+							},
+							["classe"] = "WARRIOR",
+							["pets"] = {
+							},
+							["last_event"] = 1630287962,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Samoanslayer",
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[118038] = {
+										["id"] = 118038,
+>>>>>>> Stashed changes
 										["targets"] = {
 											["Samoanslayer"] = 1,
 										},
@@ -14209,6 +22835,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["nome"] = "Samoanslayer",
 						}, -- [1]
 						{
@@ -14258,16 +22885,138 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-87698-000290397F",
 							["flag_original"] = 2632,
 						}, -- [4]
+=======
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114312",
+							["spell_cast"] = {
+								[227872] = 1,
+							},
+							["nome"] = "Moroes",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114312-00002C36DE",
+							["flag_original"] = 68168,
+						}, -- [3]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114637",
+							["spell_cast"] = {
+								[6660] = 3,
+							},
+							["nome"] = "Spectral Sentry",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114637-00082C36DE",
+							["flag_original"] = 2632,
+						}, -- [4]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114316",
+							["spell_cast"] = {
+								[227575] = 1,
+							},
+							["nome"] = "Baroness Dorothea Millstipe",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114316-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [5]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114317",
+							["spell_cast"] = {
+								[227542] = 1,
+							},
+							["nome"] = "Lady Catriona Von'Indi",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114317-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [6]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114320",
+							["spell_cast"] = {
+								[227463] = 1,
+							},
+							["nome"] = "Lord Robin Daris",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114320-00002C36DE",
+							["flag_original"] = 2632,
+						}, -- [7]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114625",
+							["spell_cast"] = {
+								[29583] = 1,
+							},
+							["nome"] = "Phantom Guest",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114625-0004AC36DE",
+							["flag_original"] = 2632,
+						}, -- [8]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114632",
+							["spell_cast"] = {
+								[228279] = 1,
+							},
+							["nome"] = "Spectral Attendant",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114632-00022C36DE",
+							["flag_original"] = 2632,
+						}, -- [9]
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 68,
+=======
+					["combatId"] = 1347,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Samoanslayer"] = true,
+<<<<<<< Updated upstream
 				},
 				["CombatStartedAt"] = 448515.917,
 				["overall_added"] = true,
@@ -14687,6 +23436,26 @@ _detalhes_database = {
 					2236, -- [2]
 					{
 						190.6000003814697, -- [1]
+=======
+					["Stronguard"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Stronguard", -- [2]
+				},
+				["CombatStartedAt"] = 1077047.821,
+				["tempo_start"] = 1630287957,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1540,
+				["totals"] = {
+					379383, -- [1]
+					358, -- [2]
+					{
+						20, -- [1]
+>>>>>>> Stashed changes
 						[0] = 0,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -14695,13 +23464,18 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
+<<<<<<< Updated upstream
 						["dead"] = 1,
+=======
+						["dead"] = 0,
+>>>>>>> Stashed changes
 						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
 						["dispell"] = 0,
 						["cooldowns_defensive"] = 1,
 					}, -- [4]
+<<<<<<< Updated upstream
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
 				},
@@ -14735,10 +23509,167 @@ _detalhes_database = {
 				["enemy"] = "Rockhide Bull",
 				["TotalElapsedCombatTime"] = 448480.889,
 				["CombatEndedAt"] = 448480.889,
+=======
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+					["by_spell"] = 2053,
+				},
+				["player_last_events"] = {
+					["Stronguard"] = {
+						{
+							true, -- [1]
+							29583, -- [2]
+							25, -- [3]
+							1630287963.267, -- [4]
+							19568, -- [5]
+							"Phantom Guest", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							36, -- [3]
+							1630287968.252, -- [4]
+							19526, -- [5]
+							"Skeletal Waiter", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "party",
+				["hasSaved"] = true,
+				["data_fim"] = "19:46:03",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Moroes",
+>>>>>>> Stashed changes
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
+<<<<<<< Updated upstream
+=======
+				["data_inicio"] = "19:45:57",
+				["end_time"] = 1077016.794,
+				["combat_id"] = 1347,
+				["resincked"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					377330, -- [1]
+					358, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+				},
+				["frags"] = {
+					["Baroness Dorothea Millstipe"] = 1,
+					["Lady Keira Berrybuck"] = 1,
+					["Lord Robin Daris"] = 1,
+					["Lady Catriona Von'Indi"] = 1,
+					["Reformed Maiden"] = 1,
+					["Phantom Guest"] = 8,
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Return to Karazhan",
+					["encounter"] = "Moroes",
+					["mapid"] = 1651,
+					["try_number"] = 1,
+					["name"] = "Moroes",
+					["diff"] = 23,
+					["ej_instance_id"] = 860,
+					["id"] = 1961,
+					["killed"] = true,
+				},
+				["contra"] = "Spectral Retainer",
+				["CombatSkillCache"] = {
+				},
+>>>>>>> Stashed changes
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -14746,19 +23677,29 @@ _detalhes_database = {
 					}, -- [1]
 					["damage"] = {
 						{
+<<<<<<< Updated upstream
 							["Samoanslayer"] = 5809.005342,
+=======
+							["Samoanslayer"] = 424968.009032,
+							["Stronguard"] = 17254.016242,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+<<<<<<< Updated upstream
 							["Samoanslayer"] = 2236.001703,
+=======
+							["Stronguard"] = 358.008578,
+>>>>>>> Stashed changes
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 				},
+<<<<<<< Updated upstream
 				["end_time"] = 448480.889,
 				["combat_id"] = 68,
 				["data_inicio"] = "16:53:32",
@@ -14812,10 +23753,52 @@ _detalhes_database = {
 							["end_time"] = 1611791599,
 							["aID"] = "162-0A2F1F9A",
 							["last_dps"] = 131.5668531139496,
+=======
+				["start_time"] = 1077010.688,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1343,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007735,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Elfyra"] = 83550,
+								["Phantom Crew"] = 1031,
+								["Galindre"] = 90160,
+							},
+							["custom"] = 0,
+							["pets"] = {
+							},
+							["damage_taken"] = 0.007735,
+							["friendlyfire_total"] = 0,
+							["aID"] = "162-0A2F1F9A",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 174741.007735,
+							["last_event"] = 1630287768,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["total"] = 174741.007735,
+							["delay"] = 0,
+							["end_time"] = 1630287774,
+							["boss_fight_component"] = true,
+							["spec"] = 71,
+							["grupo"] = true,
+>>>>>>> Stashed changes
 							["nome"] = "Samoanslayer",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
+<<<<<<< Updated upstream
 										["c_amt"] = 9,
 										["b_amt"] = 0,
 										["c_dmg"] = 500,
@@ -14847,10 +23830,13 @@ _detalhes_database = {
 										["MISS"] = 7,
 									}, -- [1]
 									[5308] = {
+=======
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 160,
 										["targets"] = {
 											["Rockhide Grazer"] = 160,
@@ -14862,6 +23848,76 @@ _detalhes_database = {
 										["total"] = 160,
 										["c_max"] = 0,
 										["id"] = 5308,
+=======
+										["n_max"] = 5670,
+										["targets"] = {
+											["Elfyra"] = 11081,
+										},
+										["n_dmg"] = 11081,
+										["n_min"] = 5411,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 11081,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10363,
+										["targets"] = {
+											["Galindre"] = 7627,
+											["Elfyra"] = 10363,
+										},
+										["n_dmg"] = 17990,
+										["n_min"] = 7627,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 17990,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[52174] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1031,
+										["targets"] = {
+											["Phantom Crew"] = 1031,
+										},
+										["n_dmg"] = 1031,
+										["n_min"] = 1031,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1031,
+										["c_max"] = 0,
+										["id"] = 52174,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -14874,6 +23930,7 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+<<<<<<< Updated upstream
 									[199658] = {
 										["c_amt"] = 42,
 										["b_amt"] = 0,
@@ -14935,10 +23992,14 @@ _detalhes_database = {
 										["spellschool"] = 1,
 									},
 									[34428] = {
+=======
+									[50622] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 66,
 										["targets"] = {
 											["Rockhide Calf"] = 120,
@@ -14952,6 +24013,20 @@ _detalhes_database = {
 										["total"] = 243,
 										["c_max"] = 0,
 										["id"] = 34428,
+=======
+										["n_max"] = 9361,
+										["targets"] = {
+											["Elfyra"] = 25361,
+											["Galindre"] = 25632,
+										},
+										["n_dmg"] = 50993,
+										["n_min"] = 7051,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 50993,
+										["c_max"] = 0,
+										["id"] = 50622,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -14959,6 +24034,7 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_amt"] = 4,
 										["extra"] = {
 										},
@@ -15016,11 +24092,14 @@ _detalhes_database = {
 										["c_min"] = 80,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
+=======
+>>>>>>> Stashed changes
 										["n_amt"] = 6,
 										["extra"] = {
 										},
 										["spellschool"] = 1,
 									},
+<<<<<<< Updated upstream
 								},
 								["tipo"] = 2,
 							},
@@ -15093,10 +24172,14 @@ _detalhes_database = {
 										["MISS"] = 1,
 									}, -- [1]
 									[158252] = {
+=======
+									[126664] = {
+>>>>>>> Stashed changes
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 71,
 										["targets"] = {
 											["Samoanslayer"] = 275,
@@ -15108,6 +24191,19 @@ _detalhes_database = {
 										["total"] = 275,
 										["c_max"] = 0,
 										["id"] = 158252,
+=======
+										["n_max"] = 1140,
+										["targets"] = {
+											["Elfyra"] = 1140,
+										},
+										["n_dmg"] = 1140,
+										["n_min"] = 1140,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1140,
+										["c_max"] = 0,
+										["id"] = 126664,
+>>>>>>> Stashed changes
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -15115,6 +24211,7 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_amt"] = 4,
 										["extra"] = {
 										},
@@ -15217,10 +24314,75 @@ _detalhes_database = {
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
+=======
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[325886] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 51706,
+										["g_amt"] = 0,
+										["n_max"] = 25215,
+										["targets"] = {
+											["Elfyra"] = 25215,
+											["Galindre"] = 51706,
+										},
+										["n_dmg"] = 25215,
+										["n_min"] = 25215,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 76921,
+										["c_max"] = 51706,
+										["id"] = 325886,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 51706,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+									},
+									[326062] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 10390,
+										["g_amt"] = 0,
+										["n_max"] = 5195,
+										["targets"] = {
+											["Elfyra"] = 10390,
+											["Galindre"] = 5195,
+										},
+										["n_dmg"] = 5195,
+										["n_min"] = 5195,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 15585,
+										["c_max"] = 10390,
+										["id"] = 326062,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 10390,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["on_hold"] = false,
 							["dps_started"] = false,
 							["friendlyfire_total"] = 0,
@@ -15244,10 +24406,41 @@ _detalhes_database = {
 							},
 							["classe"] = "UNKNOW",
 							["friendlyfire"] = {
+=======
+							["last_dps"] = 27397.46123146528,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1630287748,
+							["serial"] = "Player-162-0A2F1F9A",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.001711,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 26890.001711,
+							["dps_started"] = false,
+							["total"] = 26890.001711,
+							["spec"] = 66,
+							["colocacao"] = 2,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Elfyra"] = 16807,
+								["Galindre"] = 10083,
+>>>>>>> Stashed changes
 							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+<<<<<<< Updated upstream
 							["total_without_pet"] = 497.008412,
 							["delay"] = 1611791582,
 							["dps_started"] = false,
@@ -15255,6 +24448,310 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["on_hold"] = false,
 							["nome"] = "Rockhide Calf",
+=======
+							["nome"] = "Stronguard",
+							["end_time"] = 1630287754,
+							["last_event"] = 1630287754,
+							["last_dps"] = 4216.055457963321,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3709,
+										["g_amt"] = 0,
+										["n_max"] = 1870,
+										["targets"] = {
+											["Elfyra"] = 5579,
+										},
+										["n_dmg"] = 1870,
+										["n_min"] = 1870,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5579,
+										["c_max"] = 3709,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3709,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Galindre"] = 0,
+											["Elfyra"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 204242,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 2,
+									},
+									[275779] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6999,
+										["targets"] = {
+											["Elfyra"] = 6999,
+										},
+										["n_dmg"] = 6999,
+										["n_min"] = 6999,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6999,
+										["c_max"] = 0,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[31935] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5897,
+										["g_amt"] = 0,
+										["n_max"] = 3086,
+										["targets"] = {
+											["Elfyra"] = 3086,
+											["Galindre"] = 5897,
+										},
+										["n_dmg"] = 3086,
+										["n_min"] = 3086,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8983,
+										["c_max"] = 5897,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 5897,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[81297] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1156,
+										["g_amt"] = 0,
+										["n_max"] = 289,
+										["targets"] = {
+											["Elfyra"] = 1143,
+											["Galindre"] = 1729,
+										},
+										["n_dmg"] = 1716,
+										["n_min"] = 284,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 2872,
+										["c_max"] = 581,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 575,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53595] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2457,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Galindre"] = 2457,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2457,
+										["c_max"] = 2457,
+										["id"] = 53595,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2457,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["damage_taken"] = 0.001711,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["start_time"] = 1630287750,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007024,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.007024,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.007024,
+							["damage_taken"] = 100243.007024,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[227341] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227341,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Galindre",
+							["end_time"] = 1630287754,
+							["aID"] = "114251",
+							["custom"] = 0,
+							["last_event"] = 1630287752,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287754,
+							["serial"] = "Creature-0-3782-1651-16137-114251-00002C375B",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.00272,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+								["Stronguard"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00272,
+							["on_hold"] = false,
+							["monster"] = true,
+							["total"] = 0.00272,
+							["damage_taken"] = 100357.00272,
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+>>>>>>> Stashed changes
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -15262,6 +24759,7 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
+<<<<<<< Updated upstream
 										["n_max"] = 46,
 										["targets"] = {
 											["Samoanslayer"] = 497,
@@ -15271,6 +24769,17 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 13,
 										["total"] = 497,
+=======
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+>>>>>>> Stashed changes
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
@@ -15278,6 +24787,7 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["extra"] = {
 										},
+<<<<<<< Updated upstream
 										["PARRY"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
@@ -15285,10 +24795,116 @@ _detalhes_database = {
 										["n_amt"] = 12,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
+=======
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[227543] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 227543,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Elfyra",
+							["end_time"] = 1630287754,
+							["aID"] = "114284",
+							["custom"] = 0,
+							["last_event"] = 1630287753,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287754,
+							["serial"] = "Creature-0-3782-1651-16137-114284-00002C375C",
+							["dps_started"] = false,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001053,
+							["damage_from"] = {
+								["Samoanslayer"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["total"] = 0.001053,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001053,
+							["delay"] = 0,
+							["monster"] = true,
+							["end_time"] = 1630287774,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 1031.001053,
+							["nome"] = "Phantom Crew",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 0,
+										["DODGE"] = 1,
+										["MISS"] = 2,
+>>>>>>> Stashed changes
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
+<<<<<<< Updated upstream
 							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1611791599,
@@ -15299,10 +24915,24 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-87699-0000103979",
 							["aID"] = "87699",
 						}, -- [4]
+=======
+							["aID"] = "114584",
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 1630287772,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1630287774,
+							["serial"] = "Creature-0-3782-1651-16137-114584-00002C378B",
+							["dps_started"] = false,
+						}, -- [5]
+>>>>>>> Stashed changes
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
+<<<<<<< Updated upstream
 					["combatId"] = 67,
 					["_ActorTable"] = {
 						{
@@ -15402,10 +25032,15 @@ _detalhes_database = {
 							["targets_absorbs"] = {
 							},
 						}, -- [1]
+=======
+					["combatId"] = 1343,
+					["_ActorTable"] = {
+>>>>>>> Stashed changes
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
+<<<<<<< Updated upstream
 					["combatId"] = 67,
 					["_ActorTable"] = {
 						{
@@ -15413,11 +25048,51 @@ _detalhes_database = {
 							["resource"] = 0.008915,
 							["targets"] = {
 								["Samoanslayer"] = 209.2000007629395,
+=======
+					["combatId"] = 1343,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.002647,
+							["resource"] = 3.002647,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["passiveover"] = 0.002647,
+							["spec"] = 66,
+							["total"] = 0.002647,
+							["totalover"] = 0.002647,
+							["nome"] = "Stronguard",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["aID"] = "162-0B337F26",
+							["last_event"] = 1630287754,
+							["alternatepower"] = 0.002647,
+							["tipo"] = 3,
+							["flag_original"] = 1298,
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+							["resource_type"] = 9,
+						}, -- [1]
+						{
+							["received"] = 8.003824,
+							["resource"] = 0.003824,
+							["targets"] = {
+								["Samoanslayer"] = 8,
+>>>>>>> Stashed changes
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "WARRIOR",
+<<<<<<< Updated upstream
 							["passiveover"] = 0.008915,
 							["fight_component"] = true,
 							["total"] = 209.2089157629395,
@@ -15468,11 +25143,28 @@ _detalhes_database = {
 											["Samoanslayer"] = 60,
 										},
 										["counter"] = 11,
+=======
+							["passiveover"] = 0.003824,
+							["total"] = 8.003824,
+							["totalover"] = 0.003824,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[326076] = {
+										["total"] = 8,
+										["id"] = 326076,
+										["totalover"] = 0,
+										["targets"] = {
+											["Samoanslayer"] = 8,
+										},
+										["counter"] = 2,
+>>>>>>> Stashed changes
 									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
+<<<<<<< Updated upstream
 							["totalover"] = 11.80891507152557,
 							["flag_original"] = 1297,
 							["last_event"] = 1611791599,
@@ -15482,16 +25174,32 @@ _detalhes_database = {
 							["serial"] = "Player-162-0A2F1F9A",
 							["spec"] = 72,
 						}, -- [1]
+=======
+							["spec"] = 71,
+							["tipo"] = 3,
+							["aID"] = "162-0A2F1F9A",
+							["last_event"] = 1630287754,
+							["alternatepower"] = 0.003824,
+							["flag_original"] = 1297,
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [2]
+>>>>>>> Stashed changes
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
+<<<<<<< Updated upstream
 					["combatId"] = 67,
+=======
+					["combatId"] = 1343,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
+<<<<<<< Updated upstream
 									[105771] = {
 										["activedamt"] = -1,
 										["id"] = 105771,
@@ -15518,10 +25226,20 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["id"] = 269083,
 										["uptime"] = 34,
+=======
+									[197277] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 197277,
+										["uptime"] = 2,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[262232] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -15555,6 +25273,36 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["actived"] = true,
 										["appliedamt"] = 4,
+=======
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 25,
+							["aID"] = "162-0B337F26",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[327225] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 327225,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[328906] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 328906,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+>>>>>>> Stashed changes
 									},
 									[93795] = {
 										["counter"] = 0,
@@ -15562,29 +25310,51 @@ _detalhes_database = {
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
 										["id"] = 93795,
+<<<<<<< Updated upstream
 										["uptime"] = 34,
+=======
+										["uptime"] = 6,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[201405] = {
+=======
+									[317920] = {
+>>>>>>> Stashed changes
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 201405,
 										["uptime"] = 4,
+=======
+										["id"] = 317920,
+										["uptime"] = 6,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
+<<<<<<< Updated upstream
 									[184362] = {
+=======
+									[188370] = {
+>>>>>>> Stashed changes
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
+<<<<<<< Updated upstream
 										["id"] = 184362,
 										["uptime"] = 4,
+=======
+										["id"] = 188370,
+										["uptime"] = 3,
+>>>>>>> Stashed changes
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -15592,6 +25362,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+<<<<<<< Updated upstream
 							["fight_component"] = true,
 							["debuff_uptime"] = 0,
 							["nome"] = "Samoanslayer",
@@ -15613,10 +25384,33 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["serial"] = "Player-162-0A2F1F9A",
+=======
+							["debuff_uptime"] = 2,
+							["nome"] = "Stronguard",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[26573] = 1,
+								[31935] = 1,
+								[53595] = 1,
+								[275779] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["classe"] = "PALADIN",
+							["last_event"] = 1630287754,
+							["pets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-162-0B337F26",
+>>>>>>> Stashed changes
 							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
+<<<<<<< Updated upstream
 							["flag_original"] = 2600,
 							["tipo"] = 4,
 							["nome"] = "Rockhide Grazer",
@@ -15647,23 +25441,186 @@ _detalhes_database = {
 							["serial"] = "Creature-0-3019-1116-67-87698-0001903978",
 							["flag_original"] = 2632,
 						}, -- [3]
+=======
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[262115] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 262115,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 27,
+							["aID"] = "162-0A2F1F9A",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 342814,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[199854] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 199854,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[260708] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 260708,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[227847] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 227847,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 2,
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 71,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 1,
+								[227847] = 1,
+								[260708] = 1,
+								[325886] = 1,
+								[126664] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["last_event"] = 1630287754,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-162-0A2F1F9A",
+							["nome"] = "Samoanslayer",
+						}, -- [2]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114251",
+							["spell_cast"] = {
+								[227341] = 1,
+							},
+							["nome"] = "Galindre",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114251-00002C375B",
+							["flag_original"] = 2632,
+						}, -- [3]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
+							["aID"] = "114284",
+							["spell_cast"] = {
+								[227543] = 1,
+							},
+							["nome"] = "Elfyra",
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3782-1651-16137-114284-00002C375C",
+							["flag_original"] = 68168,
+						}, -- [4]
+>>>>>>> Stashed changes
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
+<<<<<<< Updated upstream
 					["combatId"] = 67,
+=======
+					["combatId"] = 1343,
+>>>>>>> Stashed changes
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Samoanslayer"] = true,
+<<<<<<< Updated upstream
 				},
 				["CombatStartedAt"] = 448443.664,
 				["overall_added"] = true,
+=======
+					["Stronguard"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Samoanslayer", -- [1]
+					"Stronguard", -- [2]
+				},
+				["CombatStartedAt"] = 1076822.313,
+				["tempo_start"] = 1630287748,
+>>>>>>> Stashed changes
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
+<<<<<<< Updated upstream
 				["cleu_events"] = {
 					["n"] = 1,
 				},
@@ -15673,6 +25630,14 @@ _detalhes_database = {
 					1669, -- [2]
 					{
 						209.2000007629395, -- [1]
+=======
+				["combat_counter"] = 1536,
+				["totals"] = {
+					201631, -- [1]
+					0, -- [2]
+					{
+						8, -- [1]
+>>>>>>> Stashed changes
 						[0] = 0,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -15691,11 +25656,78 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
 				},
+<<<<<<< Updated upstream
 				["totals_grupo"] = {
 					4483, -- [1]
 					1669, -- [2]
 					{
 						209.2000007629395, -- [1]
+=======
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "party",
+				["hasSaved"] = true,
+				["data_fim"] = "19:42:35",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Opera Hall",
+				["TotalElapsedCombatTime"] = 1076809.46,
+				["CombatEndedAt"] = 1076809.46,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Samoanslayer"] = 173710.007735,
+							["Stronguard"] = 26890.001711,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 1076808.63,
+				["combat_id"] = 1343,
+				["data_inicio"] = "19:42:29",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Return to Karazhan",
+					["encounter"] = "Opera Hall",
+					["mapid"] = 1651,
+					["try_number"] = 1,
+					["name"] = "Opera Hall",
+					["diff"] = 23,
+					["ej_instance_id"] = 860,
+					["id"] = 1957,
+					["killed"] = true,
+				},
+				["contra"] = "Elfyra",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					201631, -- [1]
+					0, -- [2]
+					{
+						8, -- [1]
+>>>>>>> Stashed changes
 						[0] = 0,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -15712,6 +25744,7 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+<<<<<<< Updated upstream
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
 				["hasSaved"] = true,
@@ -15766,6 +25799,16 @@ _detalhes_database = {
 				},
 				["data_inicio"] = "16:52:46",
 			}, -- [18]
+=======
+				["start_time"] = 1076802.252,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Galindre"] = 1,
+					["Elfyra"] = 1,
+				},
+			}, -- [5]
+>>>>>>> Stashed changes
 		},
 	},
 	["ocd_tracker"] = {
@@ -15778,13 +25821,19 @@ _detalhes_database = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
 		},
-		["show_options"] = false,
 		["pos"] = {
 		},
+		["show_options"] = false,
 	},
+<<<<<<< Updated upstream
 	["combat_counter"] = 113,
 	["character_data"] = {
 		["logons"] = 10,
+=======
+	["last_version"] = "9.1.59108",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+>>>>>>> Stashed changes
 	},
 	["tabela_instancias"] = {
 	},
@@ -15794,6 +25843,7 @@ _detalhes_database = {
 		},
 		["last_coach_name"] = false,
 	},
+<<<<<<< Updated upstream
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -15831,10 +25881,19 @@ _detalhes_database = {
 	["cached_talents"] = {
 	},
 	["last_instance_id"] = 0,
+=======
+	["on_death_menu"] = true,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1640522767,
+		["last_version"] = 14,
+	},
+	["last_instance_id"] = 1651,
+>>>>>>> Stashed changes
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
 		["channel"] = "SAY",
+<<<<<<< Updated upstream
 		["custom"] = "",
 		["next"] = "",
 	},
@@ -15849,6 +25908,15 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
+=======
+		["next"] = "",
+		["custom"] = "",
+	},
+	["last_instance_time"] = 1630287585,
+	["active_profile"] = "KokonutKrew",
+	["last_realversion"] = 145,
+	["ignore_nicktag"] = false,
+>>>>>>> Stashed changes
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -15868,15 +25936,26 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 20,
 			["last_player"] = false,
+<<<<<<< Updated upstream
 			["author"] = "Details! Team",
 			["last_encounter_hash"] = false,
 			["enabled"] = true,
+=======
+			["InstalledAt"] = 1616204387,
+			["last_encounter_hash"] = false,
+			["showing_type"] = 4,
+>>>>>>> Stashed changes
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 0,
 			["timeline_cutoff_delete_time"] = 3,
+<<<<<<< Updated upstream
 			["showing_type"] = 4,
 			["InstalledAt"] = 1611743253,
+=======
+			["enabled"] = true,
+			["author"] = "Details! Team",
+>>>>>>> Stashed changes
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -15886,6 +25965,7 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
+<<<<<<< Updated upstream
 			["encounter_timers_dbm"] = {
 			},
 			["show_icon"] = 5,
@@ -15899,6 +25979,16 @@ _detalhes_database = {
 				1, -- [3]
 				1, -- [4]
 			},
+=======
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+>>>>>>> Stashed changes
 			["is_first_run"] = false,
 			["grow_direction"] = "right",
 			["arrow_color"] = {
@@ -15908,14 +25998,20 @@ _detalhes_database = {
 				0.5, -- [4]
 			},
 			["main_frame_size"] = {
+<<<<<<< Updated upstream
 				300, -- [1]
 				500.000030517578, -- [2]
+=======
+				299.9998779296875, -- [1]
+				499.9999389648438, -- [2]
+>>>>>>> Stashed changes
 			},
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
 				["hide"] = true,
 			},
+<<<<<<< Updated upstream
 			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
@@ -15932,6 +26028,24 @@ _detalhes_database = {
 			["enabled"] = false,
 			["arrow_size"] = 10,
 			["use_spark"] = true,
+=======
+			["scale"] = 1,
+			["arrow_anchor_x"] = 0,
+			["row_height"] = 20,
+			["row_texture"] = "Details Serenity",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+>>>>>>> Stashed changes
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -15939,14 +26053,25 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
+<<<<<<< Updated upstream
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = 4.57763671875e-05,
+=======
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+>>>>>>> Stashed changes
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
+<<<<<<< Updated upstream
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
 				["attribute_type"] = 1,
@@ -15968,12 +26093,40 @@ _detalhes_database = {
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
+=======
+				["y"] = -3.0517578125e-05,
+				["x"] = -6.103515625e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["use_spark"] = true,
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["y"] = -4.57763671875e-05,
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["animate"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["author"] = "Details! Team",
+>>>>>>> Stashed changes
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
+<<<<<<< Updated upstream
 			["showamount"] = false,
+=======
+			["enabled"] = true,
+>>>>>>> Stashed changes
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -15994,8 +26147,13 @@ _detalhes_database = {
 				0, -- [3]
 				0.8, -- [4]
 			},
+<<<<<<< Updated upstream
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
+=======
+			["show_inc_bars"] = true,
+			["author"] = "Tercio",
+>>>>>>> Stashed changes
 			["first_run"] = false,
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
@@ -16006,6 +26164,13 @@ _detalhes_database = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 		},
+<<<<<<< Updated upstream
+=======
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+>>>>>>> Stashed changes
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
@@ -16035,6 +26200,7 @@ _detalhes_database = {
 				["last_selected"] = 1,
 			},
 			["options"] = {
+<<<<<<< Updated upstream
 				["show_method"] = 4,
 				["auto_create"] = true,
 				["window_scale"] = 1,
@@ -16068,6 +26234,184 @@ _detalhes_database = {
 	["savedStyles"] = {
 	},
 	["last_instance_time"] = 0,
+=======
+				["auto_create"] = true,
+				["show_method"] = 4,
+				["window_scale"] = 1,
+			},
+		},
+	},
+	["combat_counter"] = 1555,
+	["last_day"] = "11",
+	["force_font_outline"] = "",
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["reverse"] = false,
+		["channel"] = "SELF",
+	},
+	["character_data"] = {
+		["logons"] = 60,
+	},
+	["combat_id"] = 1354,
+	["savedStyles"] = {
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 8,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				8, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -420.6209123723894,
+					["x"] = -840.6617546561214,
+					["w"] = 244,
+					["h"] = 193.0000305175781,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 3,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 4,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -420.6209123723894,
+					["x"] = -606.4217701610771,
+					["w"] = 244,
+					["h"] = 193.0000305175781,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+				[3] = 4,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -212.3147583007813,
+					["x"] = -816.9266662597656,
+					["w"] = 197.4075927734375,
+					["h"] = 74.55563354492188,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [3]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				3, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -212.3147277832031,
+					["x"] = -621.2969970703125,
+					["w"] = 193.8517761230469,
+					["h"] = 74.55557250976562,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [4]
+	},
+	["cached_talents"] = {
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+>>>>>>> Stashed changes
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -16079,6 +26423,7 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+<<<<<<< Updated upstream
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -24097,6 +34442,8 @@ _detalhes_database = {
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
+=======
+>>>>>>> Stashed changes
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -24112,11 +34459,9 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-162-0A2F1F9A"] = 72,
+		["Player-162-0A2F1F9A"] = 71,
 	},
 }

@@ -1,38 +1,12 @@
 local addon = FGI
 local fn = addon.functions
 local L = FGI:GetLocale()
-local settings = L.settings
-local size = settings.size
-local color = addon.color
+local size = L.settings.size
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
-local fontSize = fn.fontSize
 
 local settings
-
-local noteHelp = "\n\n"..
-'%c - date and time (' .. date('%c') .. ")\n"..
-'%Y - year (' .. date('%Y') .. ")\n"..
-'%y - year (' .. date('%y') .. ")\n"..
-'%m - month (' .. date('%m') .. ")\n"..
-'%d - day (' .. date('%d') .. ")\n"..
-'%H - hour, using a 24-hour clock (' .. date('%H') .. ")\n"..
-'%M - minute (' .. date('%M') .. ")\n"..
-'%S - second (' .. date('%S') .. ")\n"..
-'%B - month (' .. date('%B') .. ")\n"..
-'%b - month (' .. date('%b') .. ")\n"..
-'%A - weekday (' .. date('%A') .. ")\n"..
-'%a - weekday ' .. date('%a') .. ")\n"..
-'%w - weekday (' .. date('%w') .. ")\n"..
-'%I - hour, using a 12-hour clock (' .. date('%I') .. ")\n"..
-'%p - "AM" or "PM" (' .. date('%p') .. ")\n"..
-'%x - date (' .. date('%x') .. ")\n"..
-'%X - time (' .. date('%X') .. ")\n"..
-'%% - the character (' .. date('%%') .. ")\n"..
-'NAME - the character name (' .. UnitName('player') .. ")\n"..
-"\n\n Joined: %m/%d/%Y = "..date('Joined: %m/%d/%Y')
 
 local function updateMsgFilters()
 	if DB.realm.systemMSG then
@@ -47,110 +21,64 @@ local function updateMsgFilters()
 	end
 end
 
-local function EditBoxChange(frame)
-	frame.editbox:SetScript("OnEnterPressed", function(self)
-		self:ClearFocus()
-		self.lasttext = self:GetText()
+
+local w,h = 650, 588
+interface.settings = GUI:Create("ClearFrame");
+settings = interface.settings
+settings:SetTitle("FGI Settings")
+settings:SetWidth(w + 200)
+settings:SetHeight(h)
+settings:SetLayout("NIL")
+settings.categories = {}
+
+settings.closeButton = GUI:Create('Button')
+local frame = settings.closeButton
+frame:SetText('X')
+frame:SetWidth(frame.frame:GetHeight())
+fn:closeBtn(frame)
+frame:SetCallback('OnClick', function()
+	interface.settings:Hide()
+end)
+settings:AddChild(frame)
+
+settings.menu = GUI:Create("GroupFrame")
+local menu = settings.menu
+menu:SetLayout("Flow")
+menu:SetWidth(220)
+menu:SetHeight(205)
+
+function settings.AddContent(categoryName, categoryLayout, content, width, height, xOffset, yOffset)
+	width = width or w
+	height = height or h
+	settings.categories[categoryName] = content
+	content:SetWidth(width)
+	content:SetHeight(height)
+	content:SetPoint("TOPLEFT", menu.frame, "TOPRIGHT", xOffset or 0, yOffset or -26)
+	content:Hide()
+	local button = GUI:Create("Button")
+	button:SetText(categoryLayout)
+	button:SetCallback("OnClick", function()
+		settings.ShowContent(categoryName)
 	end)
-	frame.editbox:SetScript("OnEnter", function(self)
-		self.lasttext = self:GetText()
-	end)
-	frame.editbox:SetScript("OnEscapePressed", function(self)
-		self:SetText(self.lasttext or "")
-		self:ClearFocus()
-	end)
+	menu:AddChild(button)
+end
+function settings.ShowContent(categoryName)
+	for category,content in pairs(settings.categories) do
+		if (category == categoryName) then
+			content:Show()
+		else
+			content:Hide()
+		end
+	end
 end
 
-interface.settings = CreateFrame("Frame", UIParent)
-local settings = interface.settings
-settings.name = "Fast Guild Invite"
-InterfaceOptions_AddCategory(settings)
-
---[[settings.profile = CreateFrame("Frame", settings)
-settings.profile.name = "Profile"
--- settings.profile.refresh  = function(self)print(self:GetHeight())end
-settings.profile.parent = settings.name
-InterfaceOptions_AddCategory(settings.profile)]]
-
-settings.Security = CreateFrame("Frame", settings)
-settings.Security.name = L["Безопасность"]
-settings.Security.parent = settings.name
-InterfaceOptions_AddCategory(settings.Security)
-
-settings.filters = CreateFrame("Frame", settings)
-settings.filters.name = L["Фильтры"]
-settings.filters.parent = settings.name
-InterfaceOptions_AddCategory(settings.filters)
-
-settings.KeyBind = CreateFrame("Frame", settings)
-settings.KeyBind.name = "KeyBind"
--- settings.KeyBind.refresh  = function(self)print(self,InterfaceOptionsFramePanelContainer.displayedPanel:GetHeight())end
-settings.KeyBind.parent = settings.name
-InterfaceOptions_AddCategory(settings.KeyBind)
-
-settings.CustomizePost = CreateFrame("Frame", settings)
-settings.CustomizePost.name = L["Настроить сообщения"]
-settings.CustomizePost.parent = settings.name
-InterfaceOptions_AddCategory(settings.CustomizePost)
-
-settings.Blacklist = CreateFrame("Frame", settings)
-settings.Blacklist.name = L["Черный список"]
-settings.Blacklist.parent = settings.name
-InterfaceOptions_AddCategory(settings.Blacklist)
-
-settings.Synchronization = CreateFrame("Frame", settings)
-settings.Synchronization.name = L["Синхронизация"]
-settings.Synchronization.parent = settings.name
-InterfaceOptions_AddCategory(settings.Synchronization)
-
-settings.CustomInterface = CreateFrame("Frame", settings)
-settings.CustomInterface.name = L["Настроить интерфейс"]
-settings.CustomInterface.parent = settings.name
-InterfaceOptions_AddCategory(settings.CustomInterface)
-
-settings.CustomList = CreateFrame("Frame", settings)
-settings.CustomList.name = L["Пользовательский список"]
-settings.CustomList.parent = settings.name
-InterfaceOptions_AddCategory(settings.CustomList)
-
-settings.credits = CreateFrame("Frame", settings)
-settings.credits.name = L["Благодарности"]
-settings.credits.parent = settings.name
-InterfaceOptions_AddCategory(settings.credits)
-
-settings.Logs = CreateFrame("Frame", settings)
-settings.Logs.name = L["Логи"]
-settings.Logs.parent = settings.name
-InterfaceOptions_AddCategory(settings.Logs)
-
---[[settings.db = CreateFrame("Frame", settings)
-settings.db.name = "DB"
-settings.db.parent = settings.name
-InterfaceOptions_AddCategory(settings.db)]]
-
--- InterfaceOptionsFrame_OpenToCategory(settings)
--- InterfaceOptionsFrame_OpenToCategory(settings)
--- InterfaceOptionsFrame_OpenToCategory(settings.CustomInterface)
--- InterfaceOptionsFrame_OpenToCategory(settings.CustomInterface)
-
-
-local w,h = 623, 568
-interface.settings.content = GUI:Create("SimpleGroup")
-settings = interface.settings.content
-settings:SetWidth(w-20)
-settings:SetHeight(h-20)
-settings.frame:SetParent(interface.settings)
-settings:SetLayout("NIL")
-settings:SetPoint("TOPLEFT", interface.settings, "TOPLEFT", 10, -10)
-
+settings:AddChild(menu)
 
 settings.settingsCheckBoxGRP = GUI:Create("GroupFrame")
 local settingsCheckBoxGRP = settings.settingsCheckBoxGRP
 settingsCheckBoxGRP:SetLayout("NIL")
-settingsCheckBoxGRP:SetHeight(205)
-settingsCheckBoxGRP:SetWidth(size.settingsCheckBoxGRP)
-settingsCheckBoxGRP:SetPoint("TOPLEFT", settings.frame, "TOPLEFT", 0, 0)
 settings:AddChild(settingsCheckBoxGRP)
+settings.AddContent('Main', 'Main', settingsCheckBoxGRP, size.settingsCheckBoxGRP, 205)
 
 settingsCheckBoxGRP.addonMSG = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.addonMSG
@@ -171,7 +99,7 @@ frame:SetTooltip(L["Не отображать в чате системные с�
 frame.frame:HookScript("OnClick", function()
 	DB.realm.systemMSG = settingsCheckBoxGRP.systemMSG:GetValue()
 	updateMsgFilters()
-	
+
 end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.addonMSG.frame, "BOTTOMLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
@@ -183,7 +111,7 @@ frame:SetLabel(L["Выключить отправляемые сообщения
 frame:SetTooltip(L["Не отображать в чате отправляемые сообщения"])
 frame.frame:HookScript("OnClick", function()
 	DB.realm.sendMSG = settingsCheckBoxGRP.sendMSG:GetValue()
-	
+
 end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.systemMSG.frame, "BOTTOMLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
@@ -268,7 +196,7 @@ frame:SetCallback("OnValueChanged", function(key)
 	DB.global.clearDBtimes = settings.clearDBtimes:GetValue()
 end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.rememberAll.frame, "BOTTOMLEFT", 0, 0)
-settings:AddChild(frame)
+settingsCheckBoxGRP:AddChild(frame)
 
 settingsCheckBoxGRP.confirmSearchClear = GUI:Create("TCheckBox")
 local frame = settingsCheckBoxGRP.confirmSearchClear
@@ -278,107 +206,6 @@ frame.frame:HookScript("OnClick", function()
 	DB.global.confirmSearchClear = settingsCheckBoxGRP.confirmSearchClear:GetValue()
 end)
 frame:SetPoint("TOPLEFT", settings.clearDBtimes.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.blacklistReason = GUI:Create("TLabel")
-local frame = settingsCheckBoxGRP.blacklistReason
-frame:SetText(L["Причина по умолчанию для черного списка"])
-fontSize(frame.label)
-frame.label:SetJustifyH("LEFT")
-frame:SetWidth(size.blacklistReason)
-frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.confirmSearchClear.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.blacklistReasonText = GUI:Create("EditBox")
-local frame = settingsCheckBoxGRP.blacklistReasonText
-frame:SetWidth(settings.frame:GetWidth()-30)
-frame:DisableButton(true)
-EditBoxChange(frame)
-frame:SetCallback("OnTextChanged", function(self,_,msg)
-	DB.global.blacklistReasonText = msg
-	self.temptext = msg
-end)
-frame.editbox:SetScript("OnEscapePressed", function(self)
-	DB.global.blacklistReasonText = self.lasttext
-	self:SetText(self.lasttext or "")
-	self:ClearFocus()
-end)
-frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.blacklistReason.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.fastBlacklist = GUI:Create("TCheckBox")
-local frame = settingsCheckBoxGRP.fastBlacklist
-frame:SetWidth(size.fastBlacklist)
-frame:SetLabel(L["Быстрое добавление в черный список"])
-frame:SetTooltip(L["Не отображать окно ввода причины для черного списка"])
-frame.frame:HookScript("OnClick", function()
-	DB.global.fastBlacklist = settingsCheckBoxGRP.fastBlacklist:GetValue()
-end)
-frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.blacklistReasonText.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.setNote = GUI:Create("TCheckBox")
-local frame = settingsCheckBoxGRP.setNote
-frame:SetWidth(size.setNote)
-frame:SetLabel(L["Заметка для новых игроков"])
-frame:SetTooltip(L["Установить заметку для новых членов гильдии"]..noteHelp)
-frame.frame:HookScript("OnClick", function()
-	DB.global.setNote = settingsCheckBoxGRP.setNote:GetValue()
-end)
-frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.fastBlacklist.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.noteText = GUI:Create("EditBox")
-local frame = settingsCheckBoxGRP.noteText
-frame:SetWidth(settings.frame:GetWidth()-30)
-frame:DisableButton(true)
-EditBoxChange(frame)
-frame:SetCallback("OnTextChanged", function(self,_,msg)
-	DB.global.noteText = msg
-	if fn:getCharLen(msg) > FGI_NOTEMAXLENGTH then
-		self:SetText(self.temptext or "")
-		return
-	end
-	self.temptext = msg
-end)
-frame.editbox:SetScript("OnEscapePressed", function(self)
-	DB.global.noteText = self.lasttext
-	self:SetText(self.lasttext or "")
-	self:ClearFocus()
-end)
-frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.setNote.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.setOfficerNote = GUI:Create("TCheckBox")
-local frame = settingsCheckBoxGRP.setOfficerNote
-frame:SetWidth(size.setOfficerNote)
-frame:SetLabel(L["Заметка для офицеров для новых игроков"])
-frame:SetTooltip(L["Установить заметку для офицеров для новых членов гильдии"]..noteHelp)
-frame.frame:HookScript("OnClick", function()
-	DB.global.setOfficerNote = settingsCheckBoxGRP.setOfficerNote:GetValue()
-end)
-frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.noteText.frame, "BOTTOMLEFT", 0, 0)
-settingsCheckBoxGRP:AddChild(frame)
-
-settingsCheckBoxGRP.officerNoteText = GUI:Create("EditBox")
-local frame = settingsCheckBoxGRP.officerNoteText
-frame:SetWidth(settings.frame:GetWidth()-30)
-frame:DisableButton(true)
-EditBoxChange(frame)
-frame:SetCallback("OnTextChanged", function(self,_,msg)
-	if fn:getCharLen(msg) > FGI_NOTEMAXLENGTH then
-		self:SetText(self.temptext or "")
-		return
-	end
-	self.temptext = msg
-	DB.global.officerNoteText = msg
-end)
-frame.editbox:SetScript("OnEscapePressed", function(self)
-	DB.global.officerNoteText = self.lasttext
-	self:SetText(self.lasttext or "")
-	self:ClearFocus()
-end)
-frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.setOfficerNote.frame, "BOTTOMLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
 
 settingsCheckBoxGRP.saveSearch = GUI:Create("TCheckBox")
@@ -392,8 +219,31 @@ frame.frame:HookScript("OnClick", function()
 		DB.factionrealm.search = nil
 	end
 end)
-frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.officerNoteText.frame, "BOTTOMLEFT", 0, 0)
+frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.confirmSearchClear.frame, "BOTTOMLEFT", 0, 0)
 settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.showUpdateInfo = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.showUpdateInfo
+frame:SetWidth(size.showUpdateInfo)
+frame:SetLabel(L["Обновления"])
+frame:SetTooltip(L["Показывать список обновлений"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.introShow = settingsCheckBoxGRP.showUpdateInfo:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.saveSearch.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.quietZones = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.quietZones
+frame:SetWidth(size.quietZones)
+frame:SetLabel(L["Игнорировать тихие зоны"])
+frame:SetTooltip(L["Игнорировать игроков в рейдах, подземельях, аренах, полях боя. (только текущее дополнение)"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.quietZones = settingsCheckBoxGRP.quietZones:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.showUpdateInfo.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
 
 
 
@@ -407,7 +257,14 @@ local frame = CreateFrame('Frame')
 frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
-	
+
+	interface.settings:SetPoint("CENTER", UIParent)
+	interface.settings:Hide()
+	menu:SetPoint("TOPLEFT", settings.frame, "TOPLEFT", 0, 0)
+
+	settings.closeButton:ClearAllPoints()
+	settings.closeButton:SetPoint("CENTER", settings.frame, "TOPRIGHT", -8, -8)
+
 	settingsCheckBoxGRP.addonMSG:SetValue(DB.global.addonMSG or false)
 	settingsCheckBoxGRP.systemMSG:SetValue(DB.realm.systemMSG or false)
 	settingsCheckBoxGRP.sendMSG:SetValue(DB.realm.sendMSG or false)
@@ -419,14 +276,10 @@ frame:SetScript('OnEvent', function()
 	settingsCheckBoxGRP.blacklistOfficer:SetValue(DB.global.blacklistOfficer or false)
 	settings.clearDBtimes:SetValue(DB.global.clearDBtimes)
 	settingsCheckBoxGRP.confirmSearchClear:SetValue(DB.global.confirmSearchClear or false)
-	settingsCheckBoxGRP.blacklistReasonText:SetText(DB.global.blacklistReasonText == nil and L["defaultReason"] or DB.global.blacklistReasonText)
-	settingsCheckBoxGRP.fastBlacklist:SetValue(DB.global.fastBlacklist or false)
-	settingsCheckBoxGRP.setNote:SetValue(DB.global.setNote or false)
-	settingsCheckBoxGRP.noteText:SetText(DB.global.noteText or ""); settingsCheckBoxGRP.noteText.temptext = settingsCheckBoxGRP.noteText:GetText()
-	settingsCheckBoxGRP.setOfficerNote:SetValue(DB.global.setOfficerNote or false)
-	settingsCheckBoxGRP.officerNoteText:SetText(DB.global.officerNoteText or ""); settingsCheckBoxGRP.officerNoteText.temptext = settingsCheckBoxGRP.officerNoteText:GetText()
 	settingsCheckBoxGRP.saveSearch:SetValue(DB.global.saveSearch or false)
-	
-	
+	settingsCheckBoxGRP.showUpdateInfo:SetValue(DB.global.introShow or false)
+	settingsCheckBoxGRP.quietZones:SetValue(DB.global.quietZones or false)
+
+
 	updateMsgFilters()
 end)

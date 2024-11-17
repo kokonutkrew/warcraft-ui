@@ -9,17 +9,17 @@ function CombuctorMixin:Init()
 	hooksecurefunc(Combuctor.Item, "Update", function(...) self:OnUpdateSlot(...) end)
 end
 
-function CombuctorMixin:SetTooltipItem(tooltip, item, locationInfo)
+function CombuctorMixin:GetTooltipData(item, locationInfo)
 	if locationInfo.isOffline then
 		if not item:IsItemEmpty() then
-			tooltip:SetHyperlink(item:GetItemLink())
+			return C_TooltipInfo.GetHyperlink(item:GetItemLink())
 		end
 	elseif not item:HasItemLocationBankOrBags() then
-		local speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetGuildBankItem(locationInfo.tab, locationInfo.index)
+		return C_TooltipInfo.GetGuildBankItem(locationInfo.tab, locationInfo.index)
 	elseif locationInfo.bag == BANK_CONTAINER then
-		local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
+		return C_TooltipInfo.GetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
 	else
-		local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetBagItem(locationInfo.bag, locationInfo.slot)
+		return C_TooltipInfo.GetBagItem(locationInfo.bag, locationInfo.slot)
 	end
 end
 
@@ -76,7 +76,7 @@ function CombuctorMixin:OnUpdateSlot(button)
 			CaerdonWardrobe:UpdateButton(button, item, self, {
 				locationKey = format("bag%d-slot%d", bag, slot),
 				isOffline = true
-			}, { showMogIcon = true, showBindStatus = true, showSellables = true } )
+			}, { } )
 		else
 			CaerdonWardrobe:ClearButton(button)
 		end
@@ -91,22 +91,27 @@ function CombuctorMixin:OnUpdateSlot(button)
 						locationKey = format("tab%d-index%d", tab, slot),
 						tab = tab,
 						index = slot
-					}, { showMogIcon = true, showBindStatus = true, showSellables = true } )
+					}, { } )
 				else
 					CaerdonWardrobe:ClearButton(button)
 				end
 			else
 				local item = CaerdonItem:CreateFromBagAndSlot(bag, slot)
-				CaerdonWardrobe:UpdateButton(button, item, self, { bag = bag, slot = slot }, { showMogIcon = true, showBindStatus = true, showSellables = true } )
+				CaerdonWardrobe:UpdateButton(button, item, self, { bag = bag, slot = slot }, { } )
 			end
 		end
 	end
 end
 
 local Version = nil
-if select(4, GetAddOnInfo(addonName)) then
-	if IsAddOnLoaded(addonName) then
-		Version = GetAddOnMetadata(addonName, "Version")
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+	if C_AddOns.IsAddOnLoaded(addonName) then
+		Version = C_AddOns.GetAddOnMetadata(addonName, "Version")
 		CaerdonWardrobe:RegisterFeature(CombuctorMixin)
+		isActive = true
 	end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

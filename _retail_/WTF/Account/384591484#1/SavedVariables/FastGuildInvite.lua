@@ -1,9 +1,14 @@
 
 FGI_DB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoanwar - Emerald Dream"] = "Default",
 		["Stronguard - Emerald Dream"] = "Default",
 		["Dethwish - Emerald Dream"] = "Default",
+=======
+		["Sonikk - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 		["Samoanbatman - Emerald Dream"] = "Default",
 		["Samoanlock - Emerald Dream"] = "Default",
 		["Samoanhunter - Emerald Dream"] = "Default",
@@ -258,6 +263,7 @@ FGI_DB = {
 		["inviteType"] = 2,
 		["introShow"] = false,
 	},
+<<<<<<< Updated upstream
 	["realm"] = {
 		["Emerald Dream"] = {
 			["leave"] = {
@@ -277,6 +283,13 @@ FGI_DEBUG = {
 		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
 		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
 		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+=======
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+>>>>>>> Stashed changes
 		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
 		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",

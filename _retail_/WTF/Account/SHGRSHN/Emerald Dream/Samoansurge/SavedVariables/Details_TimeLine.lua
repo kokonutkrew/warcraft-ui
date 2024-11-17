@@ -3,6 +3,7 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
+<<<<<<< Updated upstream
 			["date_end"] = "15:11:15",
 			["date_start"] = "15:09:40",
 			["name"] = "Gug'rokk",
@@ -25,11 +26,36 @@ DetailsTimeLineDB = {
 			["date_start"] = "14:54:11",
 			["name"] = "Slave Watcher Crushto",
 			["total_time"] = 134.5910000000149,
+=======
+			["date_start"] = "12:16:47",
+			["date_end"] = "12:17:57",
+			["name"] = "Quagmirran",
+			["total_time"] = 73.93399999999383,
+		}, -- [1]
+		{
+			["date_start"] = "12:11:00",
+			["date_end"] = "12:11:56",
+			["name"] = "Rokmar the Crackler",
+			["total_time"] = 56.32700000000477,
+		}, -- [2]
+		{
+			["date_start"] = "12:05:26",
+			["date_end"] = "12:06:24",
+			["name"] = "Mennu the Betrayer",
+			["total_time"] = 58.94200000001001,
+		}, -- [3]
+		{
+			["date_start"] = "11:58:43",
+			["date_end"] = "11:59:13",
+			["name"] = "Vazruden the Herald",
+			["total_time"] = 30.00800000000163,
+>>>>>>> Stashed changes
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["IndividualSpells"] = {
 		{
+<<<<<<< Updated upstream
 			[150755] = {
 				{
 					21.70699999999488, -- [1]
@@ -68,17 +94,68 @@ DetailsTimeLineDB = {
 					74.90299999999115, -- [1]
 					"Gug'rokk", -- [2]
 					150677, -- [3]
+=======
+			[38153] = {
+				{
+					21.11299999999756, -- [1]
+					"Quagmirran", -- [2]
+					38153, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [1]
+				{
+					65.99199999999837, -- [1]
+					"Quagmirran", -- [2]
+					38153, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [2]
+			},
+			[34780] = {
+				{
+					18.67900000000373, -- [1]
+					"Quagmirran", -- [2]
+					34780, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					45.36500000000524, -- [1]
+					"Quagmirran", -- [2]
+					34780, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[40504] = {
+				{
+					9.521999999997206, -- [1]
+					"Quagmirran", -- [2]
+					40504, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [1]
+				{
+					30.16599999999744, -- [1]
+					"Quagmirran", -- [2]
+					40504, -- [3]
+>>>>>>> Stashed changes
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Samoansurge", -- [5]
 				}, -- [2]
 				{
+<<<<<<< Updated upstream
 					90.68299999998999, -- [1]
 					"Gug'rokk", -- [2]
 					150677, -- [3]
+=======
+					48.3640000000014, -- [1]
+					"Quagmirran", -- [2]
+					40504, -- [3]
+>>>>>>> Stashed changes
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Samoansurge", -- [5]
 				}, -- [3]
 			},
+<<<<<<< Updated upstream
 			[150776] = {
 				{
 					9.886999999987893, -- [1]
@@ -390,10 +467,105 @@ DetailsTimeLineDB = {
 					74.59799999999814, -- [1]
 					"Roltall", -- [2]
 					152941, -- [3]
+=======
+			[32055] = {
+				{
+					42.94000000000233, -- [1]
+					"Quagmirran", -- [2]
+					32055, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			[34970] = {
+				{
+					48.51200000000245, -- [1]
+					"Rokmar the Crackler", -- [2]
+					34970, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[35008] = {
+				{
+					9.927999999999884, -- [1]
+					"Rokmar the Crackler", -- [2]
+					35008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					33, -- [1]
+					"Rokmar the Crackler", -- [2]
+					35008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					47.58299999999872, -- [1]
+					"Rokmar the Crackler", -- [2]
+					35008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[31948] = {
+				{
+					17.95799999999872, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31948, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Samoansurge", -- [5]
 				}, -- [1]
 				{
+					45.87699999999313, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31948, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Zuine-Dalaran", -- [5]
+				}, -- [2]
+			},
+			[31956] = {
+				{
+					6.00800000000163, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31956, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+					33.9429999999993, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31956, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			[34980] = {
+				{
+					23.89100000000326, -- [1]
+					"Mennu the Betrayer", -- [2]
+					34980, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					46.14199999999255, -- [1]
+					"Mennu the Betrayer", -- [2]
+					34980, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[35010] = {
+				{
+					17.58199999999488, -- [1]
+					"Mennu the Betrayer", -- [2]
+					35010, -- [3]
+>>>>>>> Stashed changes
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+<<<<<<< Updated upstream
 					75.64600000000792, -- [1]
 					"Roltall", -- [2]
 					152941, -- [3]
@@ -1967,11 +2139,340 @@ DetailsTimeLineDB = {
 					10.08699999999953, -- [1]
 					"Commander Vo'jak", -- [2]
 					120758, -- [3]
+=======
+					40.65499999999884, -- [1]
+					"Mennu the Betrayer", -- [2]
+					35010, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [2]
+			},
+			[31985] = {
+				{
+					32.80299999999988, -- [1]
+					"Mennu the Betrayer", -- [2]
+					31985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[31981] = {
+				{
+					36.43899999999849, -- [1]
+					"Mennu the Betrayer", -- [2]
+					31981, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[31991] = {
+				{
+					27.94199999999546, -- [1]
+					"Mennu the Betrayer", -- [2]
+					31991, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[33132] = {
+				{
+					34.0679999999993, -- [1]
+					"Corrupted Nova Totem", -- [2]
+					33132, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			[30926] = {
+				{
+					19.40699999999197, -- [1]
+					"Nazan", -- [2]
+					30926, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+			},
+			[33793] = {
+				{
+					9.377999999996973, -- [1]
+					"Nazan", -- [2]
+					33793, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+			},
+			[30691] = {
+				{
+					3.006999999997788, -- [1]
+					"Nazan", -- [2]
+					30691, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+			},
+			[34653] = {
+				{
+					26.67699999999604, -- [1]
+					"Nazan", -- [2]
+					34653, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			[35748] = {
+				{
+					23.46499999999651, -- [1]
+					"Fiendish Hound", -- [2]
+					35748, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Yeulinora-Sargeras", -- [5]
+				}, -- [1]
+			},
+			[31901] = {
+				{
+					33.16100000000733, -- [1]
+					"Omor the Unscarred", -- [2]
+					31901, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[30686] = {
+				{
+					3.006000000008498, -- [1]
+					"Omor the Unscarred", -- [2]
+					30686, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Aphnerta-Stormrage", -- [5]
+				}, -- [1]
+			},
+			[30707] = {
+				{
+					18.40200000000186, -- [1]
+					"Omor the Unscarred", -- [2]
+					30707, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					40.23700000000827, -- [1]
+					"Omor the Unscarred", -- [2]
+					30707, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[30695] = {
+				{
+					14.55599999999686, -- [1]
+					"Omor the Unscarred", -- [2]
+					30695, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [1]
+				{
+					43.64100000000326, -- [1]
+					"Omor the Unscarred", -- [2]
+					30695, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Yeulinora-Sargeras", -- [5]
+				}, -- [2]
+			},
+		}, -- [5]
+		{
+			[30639] = {
+				{
+					5.937999999994645, -- [1]
+					"Shattered Hand Warhound", -- [2]
+					30639, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+					10.77899999999499, -- [1]
+					"Shattered Hand Warhound", -- [2]
+					30639, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [2]
+			},
+			[30641] = {
+				{
+					3.879000000000815, -- [1]
+					"Watchkeeper Gargolmar", -- [2]
+					30641, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [1]
+				{
+					11.96899999999732, -- [1]
+					"Watchkeeper Gargolmar", -- [2]
+					30641, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [2]
+				{
+					19.27999999999884, -- [1]
+					"Watchkeeper Gargolmar", -- [2]
+					30641, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [3]
+			},
+			[14032] = {
+				{
+					14.44899999999325, -- [1]
+					"Hellfire Watcher", -- [2]
+					14032, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Naielie-Stormrage", -- [5]
+				}, -- [1]
+			},
+			[8362] = {
+				{
+					28.56399999999849, -- [1]
+					"Hellfire Watcher", -- [2]
+					8362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hellfire Watcher", -- [5]
+				}, -- [1]
+			},
+			[34645] = {
+				{
+					3.512999999991735, -- [1]
+					"Watchkeeper Gargolmar", -- [2]
+					34645, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+			},
+			[22857] = {
+				{
+					27.78599999999278, -- [1]
+					"Watchkeeper Gargolmar", -- [2]
+					22857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[30636] = {
+				{
+					7.150999999998021, -- [1]
+					"Shattered Hand Warhound", -- [2]
+					30636, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					20.49099999999453, -- [1]
+					"Shattered Hand Warhound", -- [2]
+					30636, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [6]
+		{
+			[31916] = {
+				{
+					7.706999999994878, -- [1]
+					"Epoch Hunter", -- [2]
+					31916, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+					23.49699999999575, -- [1]
+					"Epoch Hunter", -- [2]
+					31916, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dfranz-Drakkari", -- [5]
+				}, -- [2]
+				{
+					40.47200000000157, -- [1]
+					"Epoch Hunter", -- [2]
+					31916, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [3]
+				{
+					56.23999999999796, -- [1]
+					"Epoch Hunter", -- [2]
+					31916, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Badsmell", -- [5]
+				}, -- [4]
+			},
+			[31914] = {
+				{
+					12.12799999999697, -- [1]
+					"Epoch Hunter", -- [2]
+					31914, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					35.17699999999604, -- [1]
+					"Epoch Hunter", -- [2]
+					31914, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					55.81399999999849, -- [1]
+					"Epoch Hunter", -- [2]
+					31914, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					78.9059999999954, -- [1]
+					"Epoch Hunter", -- [2]
+					31914, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[33834] = {
+				{
+					6.515999999995984, -- [1]
+					"Epoch Hunter", -- [2]
+					33834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					27.11699999999837, -- [1]
+					"Epoch Hunter", -- [2]
+					33834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					45.31899999999587, -- [1]
+					"Epoch Hunter", -- [2]
+					33834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					62.31899999999587, -- [1]
+					"Epoch Hunter", -- [2]
+					33834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[31475] = {
+				{
+					14.98999999999796, -- [1]
+					"Epoch Hunter", -- [2]
+					31475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					41.69499999999971, -- [1]
+					"Epoch Hunter", -- [2]
+					31475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					62.31899999999587, -- [1]
+					"Epoch Hunter", -- [2]
+					31475, -- [3]
+>>>>>>> Stashed changes
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
 		}, -- [7]
 		{
+<<<<<<< Updated upstream
 			[120001] = {
 				{
 					29.02400000000489, -- [1]
@@ -4170,6 +4671,255 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+=======
+			[13005] = {
+				{
+					4.398000000001048, -- [1]
+					"Captain Skarloc", -- [2]
+					13005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [1]
+				{
+					17.75099999999657, -- [1]
+					"Captain Skarloc", -- [2]
+					13005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [2]
+				{
+					33.51299999999901, -- [1]
+					"Captain Skarloc", -- [2]
+					13005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [3]
+				{
+					45.66599999999744, -- [1]
+					"Captain Skarloc", -- [2]
+					13005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [4]
+				{
+					57.78899999999703, -- [1]
+					"Captain Skarloc", -- [2]
+					13005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [5]
+				{
+					69.89600000000064, -- [1]
+					"Captain Skarloc", -- [2]
+					13005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [6]
+			},
+			[8258] = {
+				{
+					1.966999999996915, -- [1]
+					"Captain Skarloc", -- [2]
+					8258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[22884] = {
+				{
+					28.66799999999785, -- [1]
+					"Durnholde Warden", -- [2]
+					22884, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[15586] = {
+				{
+					21.24300000000221, -- [1]
+					"Durnholde Warden", -- [2]
+					15586, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Durnholde Veteran", -- [5]
+				}, -- [1]
+			},
+			[29380] = {
+				{
+					5.60399999999936, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [1]
+				{
+					11.68299999999726, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [2]
+				{
+					16.54699999999866, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [3]
+				{
+					21.39099999999598, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [4]
+				{
+					31.10699999999633, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [5]
+				{
+					37.14400000000023, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [6]
+				{
+					43.2390000000014, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [7]
+				{
+					48.09100000000035, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [8]
+				{
+					54.15099999999802, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [9]
+				{
+					59.00499999999738, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [10]
+				{
+					67.47799999999552, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [11]
+				{
+					72.32499999999709, -- [1]
+					"Captain Skarloc", -- [2]
+					29380, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Captain Skarloc", -- [5]
+				}, -- [12]
+			},
+			[31904] = {
+				{
+					5.60399999999936, -- [1]
+					"Captain Skarloc", -- [2]
+					31904, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					21.39099999999598, -- [1]
+					"Captain Skarloc", -- [2]
+					31904, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					38.35899999999674, -- [1]
+					"Captain Skarloc", -- [2]
+					31904, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					56.57200000000012, -- [1]
+					"Captain Skarloc", -- [2]
+					31904, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[15581] = {
+				{
+					4.398000000001048, -- [1]
+					"Durnholde Veteran", -- [2]
+					15581, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [1]
+				{
+					10.46099999999569, -- [1]
+					"Durnholde Veteran", -- [2]
+					15581, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [2]
+				{
+					14.10299999999552, -- [1]
+					"Durnholde Veteran", -- [2]
+					15581, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [3]
+				{
+					37.17599999999948, -- [1]
+					"Durnholde Veteran", -- [2]
+					15581, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [4]
+			},
+			[15654] = {
+				{
+					11.68299999999726, -- [1]
+					"Durnholde Warden", -- [2]
+					15654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoanbatman", -- [5]
+				}, -- [1]
+				{
+					26.25600000000122, -- [1]
+					"Durnholde Warden", -- [2]
+					15654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xuen", -- [5]
+				}, -- [2]
+			},
+			[29427] = {
+				{
+					15.39299999999639, -- [1]
+					"Captain Skarloc", -- [2]
+					29427, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Durnholde Veteran", -- [5]
+				}, -- [1]
+				{
+					29.95500000000175, -- [1]
+					"Captain Skarloc", -- [2]
+					29427, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Durnholde Warden", -- [5]
+				}, -- [2]
+			},
+		}, -- [8]
+	},
+	["useicons"] = true,
+	["window_scale"] = 1,
+>>>>>>> Stashed changes
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
@@ -4178,10 +4928,100 @@ DetailsTimeLineDB = {
 	},
 	["deaths_data"] = {
 		{
+<<<<<<< Updated upstream
+=======
+			["Aphnerta-Stormrage"] = {
+				{
+					["time"] = 25.13999999999942,
+					["events"] = {
+						{
+							true, -- [1]
+							38163, -- [2]
+							2123, -- [3]
+							1618769830.209, -- [4]
+							1234, -- [5]
+							"Quagmirran", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							38163, -- [2]
+							2189, -- [3]
+							1618769831.005, -- [4]
+							102, -- [5]
+							"Quagmirran", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							34780, -- [2]
+							440, -- [3]
+							1618769831.662, -- [4]
+							1, -- [5]
+							"Quagmirran", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							243, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Mallards-Stormrage"] = {
+				{
+					["time"] = 27.16999999999825,
+					["events"] = {
+						{
+							true, -- [1]
+							38163, -- [2]
+							1992, -- [3]
+							1618769832.072, -- [4]
+							168, -- [5]
+							"Quagmirran", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							38163, -- [2]
+							1975, -- [3]
+							1618769832.868, -- [4]
+							49, -- [5]
+							"Quagmirran", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							38163, -- [2]
+							2058, -- [3]
+							1618769833.674, -- [4]
+							1, -- [5]
+							"Quagmirran", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							1245, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+>>>>>>> Stashed changes
 		}, -- [1]
 		{
 		}, -- [2]
 		{
+<<<<<<< Updated upstream
 			["Naerya"] = {
 				{
 					["time"] = 85.52700000000186,
@@ -4399,10 +5239,15 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+=======
+		}, -- [3]
+		{
+>>>>>>> Stashed changes
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
+<<<<<<< Updated upstream
 			["Squirt-Garona"] = {
 				[150784] = {
 					10.29999999998836, -- [1]
@@ -4456,12 +5301,86 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "[*] Magma Eruption",
+=======
+			["Samoansurge"] = {
+				[34780] = {
+					18.77899999999499, -- [1]
+					24.80400000000373, -- [2]
+					45.56699999999546, -- [3]
+					49.23200000000361, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+					["active"] = false,
+				},
+				[38153] = {
+					66.0170000000071, -- [1]
+					70.74599999999919, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+					["active"] = false,
+				},
+			},
+			["Alrir-Farstriders"] = {
+				[34780] = {
+					18.80199999999604, -- [1]
+					24.80400000000373, -- [2]
+					45.62799999999697, -- [3]
+					51.61900000000605, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+					["active"] = false,
+				},
+			},
+			["Zuine-Dalaran"] = {
+				[34780] = {
+					18.95799999999872, -- [1]
+					21.99400000000605, -- [2]
+					45.58999999999651, -- [3]
+					51.60000000000582, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+					["active"] = false,
+				},
+			},
+			["Mallards-Stormrage"] = {
+				[34780] = {
+					18.97999999999593, -- [1]
+					24.98300000000745, -- [2]
+					45.68099999999686, -- [3]
+					51.69100000000617, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+					["active"] = false,
+				},
+				[38153] = {
+					21.11299999999756, -- [1]
+					27.15200000000186, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+					["active"] = false,
+				},
+			},
+			["Aphnerta-Stormrage"] = {
+				[34780] = {
+					19.12099999999919, -- [1]
+					25.13999999999942, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Quagmirran",
+>>>>>>> Stashed changes
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
 			["Samoansurge"] = {
+<<<<<<< Updated upstream
 				[152897] = {
 					27.00700000001234, -- [1]
 					34.99100000000908, -- [2]
@@ -4564,11 +5483,40 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "Roltall",
+=======
+				[31956] = {
+					6.00800000000163, -- [1]
+					18.01600000000326, -- [2]
+					33.9429999999993, -- [3]
+					43.95200000000477, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Rokmar the Crackler",
+					["active"] = false,
+				},
+				[31948] = {
+					17.95799999999872, -- [1]
+					27.95600000000559, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Rokmar the Crackler",
+					["active"] = false,
+				},
+			},
+			["Zuine-Dalaran"] = {
+				[31948] = {
+					45.87699999999313, -- [1]
+					55.875, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Rokmar the Crackler",
+>>>>>>> Stashed changes
 					["active"] = false,
 				},
 			},
 		}, -- [2]
 		{
+<<<<<<< Updated upstream
 			["Naerya"] = {
 				[152941] = {
 					79.4550000000163, -- [1]
@@ -4826,11 +5774,23 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "Slave Watcher Crushto",
+=======
+		}, -- [3]
+		{
+			["Aphnerta-Stormrage"] = {
+				[38742] = {
+					30.00800000000163, -- [1]
+					30.00800000000163, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Doomguard Destroyer",
+>>>>>>> Stashed changes
 					["active"] = false,
 				},
 			},
 		}, -- [4]
 	},
+<<<<<<< Updated upstream
 	["window_scale"] = 1,
 	["BossSpellCast"] = {
 		{
@@ -5998,6 +6958,219 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Earth Crush Stalker", -- [5]
 				}, -- [31]
+=======
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["BossSpellCast"] = {
+		{
+			["Quagmirran"] = {
+				{
+					9.521999999997206, -- [1]
+					"Quagmirran", -- [2]
+					40504, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [1]
+				{
+					18.67900000000373, -- [1]
+					"Quagmirran", -- [2]
+					34780, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					21.11299999999756, -- [1]
+					"Quagmirran", -- [2]
+					38153, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [3]
+				{
+					30.16599999999744, -- [1]
+					"Quagmirran", -- [2]
+					40504, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [4]
+				{
+					42.94000000000233, -- [1]
+					"Quagmirran", -- [2]
+					32055, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [5]
+				{
+					45.36500000000524, -- [1]
+					"Quagmirran", -- [2]
+					34780, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					48.3640000000014, -- [1]
+					"Quagmirran", -- [2]
+					40504, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [7]
+				{
+					65.99199999999837, -- [1]
+					"Quagmirran", -- [2]
+					38153, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [8]
+			},
+		}, -- [1]
+		{
+			["Rokmar the Crackler"] = {
+				{
+					6.00800000000163, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31956, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+					9.927999999999884, -- [1]
+					"Rokmar the Crackler", -- [2]
+					35008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					17.95799999999872, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31948, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [3]
+				{
+					33, -- [1]
+					"Rokmar the Crackler", -- [2]
+					35008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					33.9429999999993, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31956, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [5]
+				{
+					45.87699999999313, -- [1]
+					"Rokmar the Crackler", -- [2]
+					31948, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Zuine-Dalaran", -- [5]
+				}, -- [6]
+				{
+					47.58299999999872, -- [1]
+					"Rokmar the Crackler", -- [2]
+					35008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					48.51200000000245, -- [1]
+					"Rokmar the Crackler", -- [2]
+					34970, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+		}, -- [2]
+		{
+			["Mennu the Betrayer"] = {
+				{
+					17.58199999999488, -- [1]
+					"Mennu the Betrayer", -- [2]
+					35010, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+					23.89100000000326, -- [1]
+					"Mennu the Betrayer", -- [2]
+					34980, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					27.94199999999546, -- [1]
+					"Mennu the Betrayer", -- [2]
+					31991, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					32.80299999999988, -- [1]
+					"Mennu the Betrayer", -- [2]
+					31985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					36.43899999999849, -- [1]
+					"Mennu the Betrayer", -- [2]
+					31981, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					40.65499999999884, -- [1]
+					"Mennu the Betrayer", -- [2]
+					35010, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [6]
+				{
+					46.14199999999255, -- [1]
+					"Mennu the Betrayer", -- [2]
+					34980, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+			},
+			["Corrupted Nova Totem"] = {
+				{
+					34.0679999999993, -- [1]
+					"Corrupted Nova Totem", -- [2]
+					33132, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Nazan"] = {
+				{
+					3.006999999997788, -- [1]
+					"Nazan", -- [2]
+					30691, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [1]
+				{
+					9.377999999996973, -- [1]
+					"Nazan", -- [2]
+					33793, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [2]
+				{
+					19.40699999999197, -- [1]
+					"Nazan", -- [2]
+					30926, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Samoansurge", -- [5]
+				}, -- [3]
+				{
+					26.67699999999604, -- [1]
+					"Nazan", -- [2]
+					34653, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mallards-Stormrage", -- [5]
+				}, -- [4]
+>>>>>>> Stashed changes
 			},
 		}, -- [4]
 	},

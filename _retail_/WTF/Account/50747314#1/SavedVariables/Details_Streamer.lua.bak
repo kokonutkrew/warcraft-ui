@@ -1,12 +1,38 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+<<<<<<< Updated upstream
 		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
 		["Gl - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
 		["Kokonutkween - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
 	},
 	["profiles"] = {
 		["Kokonutkiing - Emerald Dream"] = {
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Urorincar - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Kokonutkiing - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Niniconys - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Mf - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Mp - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoansage - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoansage - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoansage - Emerald Dream"] = {
+>>>>>>> Stashed changes
 			["use_square_mode"] = false,
 			["is_first_run"] = false,
 			["grow_direction"] = "right",
@@ -17,19 +43,32 @@ Details_StreamerDB = {
 				0.5, -- [4]
 			},
 			["main_frame_size"] = {
+<<<<<<< Updated upstream
 				300, -- [1]
 				500.0000305175781, -- [2]
+=======
+				299.9998779296875, -- [1]
+				499.9999389648438, -- [2]
+>>>>>>> Stashed changes
 			},
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
+<<<<<<< Updated upstream
 				["hide"] = false,
+=======
+				["hide"] = true,
+>>>>>>> Stashed changes
 			},
 			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
 			["point"] = "CENTER",
 			["row_texture"] = "Details Serenity",
+<<<<<<< Updated upstream
 			["y"] = 4.57763671875e-05,
+=======
+			["y"] = -4.57763671875e-05,
+>>>>>>> Stashed changes
 			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61,13 +100,22 @@ Details_StreamerDB = {
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
+<<<<<<< Updated upstream
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
+=======
+				["y"] = -3.0517578125e-05,
+				["x"] = -6.103515625e-05,
+>>>>>>> Stashed changes
 				["update_speed"] = 0.05,
 				["size"] = 32,
 				["attribute_type"] = 1,
 			},
+<<<<<<< Updated upstream
 			["x"] = 0,
+=======
+			["x"] = -6.103515625e-05,
+>>>>>>> Stashed changes
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
 			["arrow_anchor_y"] = 0,

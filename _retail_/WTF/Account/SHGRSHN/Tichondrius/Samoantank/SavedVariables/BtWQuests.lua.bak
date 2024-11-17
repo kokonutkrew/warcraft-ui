@@ -2,5 +2,10 @@
 BtWQuests_Settings = {
 }
 BtWQuests_AutoLoad = {
+<<<<<<< Updated upstream
 	["BtWQuestsBattleForAzeroth"] = true,
+=======
+	["BtWQuestsBattleForAzerothPrologue"] = false,
+	["BtWQuestsShadowlands"] = true,
+>>>>>>> Stashed changes
 }

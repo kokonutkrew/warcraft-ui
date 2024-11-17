@@ -173,6 +173,7 @@ PrettyRepsDB = {
 			["factionID"] = 1834,
 		}, -- [2]
 		{
+<<<<<<< Updated upstream
 			["hasBonusRepGain"] = false,
 			["description"] = "",
 			["exaltedCount"] = 0,
@@ -182,6 +183,8 @@ PrettyRepsDB = {
 			["isHeader"] = true,
 			["standingID"] = 4,
 			["isMaxed"] = false,
+=======
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["name"] = "Arakkoa Outcasts",
@@ -198,6 +201,7 @@ PrettyRepsDB = {
 					["isAlliance"] = true,
 				}, -- [3]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "The Frostwolf orcs of Frostfire Ridge are a tight-knit family of brutal warriors, well equipped to deal with the savage realities of Draenor.",
 					["isExpansion"] = false,
@@ -219,6 +223,10 @@ PrettyRepsDB = {
 					["topValue"] = 9000,
 					["hasRep"] = false,
 					["isChild"] = true,
+=======
+					["factionID"] = 1445,
+					["name"] = "Frostwolf Orcs",
+>>>>>>> Stashed changes
 					["isHorde"] = true,
 				}, -- [4]
 				{
@@ -305,6 +313,7 @@ PrettyRepsDB = {
 					["factionID"] = 1735,
 				}, -- [14]
 			},
+<<<<<<< Updated upstream
 			["parent"] = nil --[[ skipped recursive table ]],
 			["isWatched"] = false,
 			["exaltedTotal"] = 0,
@@ -330,6 +339,12 @@ PrettyRepsDB = {
 			["isHeader"] = true,
 			["standingID"] = 4,
 			["isMaxed"] = false,
+=======
+			["name"] = "Warlords of Draenor",
+			["factionID"] = 1444,
+		}, -- [3]
+		{
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["factionID"] = 1375,
@@ -369,6 +384,7 @@ PrettyRepsDB = {
 					["isAlliance"] = true,
 				}, -- [8]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "The shadowy protectors of Pandaria's temples, the Shado-Pan are wrought with mystery.",
 					["isExpansion"] = false,
@@ -390,6 +406,10 @@ PrettyRepsDB = {
 					["earnedValue"] = 1005,
 					["topValue"] = 3000,
 					["isChild"] = true,
+=======
+					["name"] = "Shado-Pan",
+					["factionID"] = 1270,
+>>>>>>> Stashed changes
 				}, -- [9]
 				{
 					["name"] = "Shado-Pan Assault",
@@ -478,6 +498,7 @@ PrettyRepsDB = {
 					["factionID"] = 1272,
 				}, -- [18]
 			},
+<<<<<<< Updated upstream
 			["parent"] = nil --[[ skipped recursive table ]],
 			["isWatched"] = false,
 			["exaltedTotal"] = 1,
@@ -503,6 +524,12 @@ PrettyRepsDB = {
 			["isHeader"] = true,
 			["standingID"] = 4,
 			["isMaxed"] = false,
+=======
+			["name"] = "Mists of Pandaria",
+			["factionID"] = 1245,
+		}, -- [4]
+		{
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["name"] = "Avengers of Hyjal",
@@ -528,6 +555,7 @@ PrettyRepsDB = {
 					["isHorde"] = true,
 				}, -- [5]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "The cat-like people of Ramkahen are the descendants of the Tol'vir, guardians of Uldum.  Though they've lost their stone bodies, protecting the secrets of the titans is still a part of their rigid tradition.",
 					["isExpansion"] = false,
@@ -549,6 +577,10 @@ PrettyRepsDB = {
 					["earnedValue"] = 500,
 					["topValue"] = 3000,
 					["isChild"] = true,
+=======
+					["name"] = "Ramkahen",
+					["factionID"] = 1173,
+>>>>>>> Stashed changes
 				}, -- [6]
 				{
 					["name"] = "The Earthen Ring",
@@ -564,6 +596,7 @@ PrettyRepsDB = {
 					["isAlliance"] = true,
 				}, -- [9]
 			},
+<<<<<<< Updated upstream
 			["parent"] = nil --[[ skipped recursive table ]],
 			["isWatched"] = false,
 			["exaltedTotal"] = 1,
@@ -585,10 +618,21 @@ PrettyRepsDB = {
 			["description"] = "",
 			["exaltedCount"] = 0,
 			["parent"] = nil --[[ skipped recursive table ]],
+=======
+			["name"] = "Cataclysm",
+			["factionID"] = 1162,
+		}, -- [5]
+		{
+			["hasBonusRepGain"] = false,
+			["description"] = "",
+			["exaltedCount"] = 0,
+			["isExpansion"] = true,
+>>>>>>> Stashed changes
 			["bottomValue"] = 0,
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 3,
 			["exaltedTotal"] = 4,
 			["children"] = {
@@ -617,6 +661,13 @@ PrettyRepsDB = {
 					["isMaxed"] = false,
 					["playerName"] = "Tygrrlilly",
 					["topValue"] = 9000,
+=======
+			["isMaxed"] = false,
+			["children"] = {
+				{
+					["name"] = "Argent Crusade",
+					["factionID"] = 1106,
+>>>>>>> Stashed changes
 				}, -- [1]
 				{
 					["hasBonusRepGain"] = false,
@@ -630,7 +681,11 @@ PrettyRepsDB = {
 					["atWarWith"] = false,
 					["isWatched"] = false,
 					["colorIndex"] = 4,
+<<<<<<< Updated upstream
 					["playerName"] = "Marshmello",
+=======
+					["playerName"] = "Cherriebomb",
+>>>>>>> Stashed changes
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 1090,
@@ -646,6 +701,7 @@ PrettyRepsDB = {
 					["factionID"] = 1098,
 				}, -- [3]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "Under a pact by Tirion Fordring and Darion Mograine, the Argent Crusade and the Knights of the Ebon Blade have set aside their differences during the attack on Icecrown Citadel until the Lich King is slain.",
 					["isExpansion"] = false,
@@ -667,6 +723,10 @@ PrettyRepsDB = {
 					["earnedValue"] = 14159,
 					["topValue"] = 21000,
 					["isChild"] = true,
+=======
+					["name"] = "The Ashen Verdict",
+					["factionID"] = 1156,
+>>>>>>> Stashed changes
 				}, -- [4]
 				{
 					["name"] = "The Kalu'ak",
@@ -677,6 +737,7 @@ PrettyRepsDB = {
 					["factionID"] = 1119,
 				}, -- [6]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "With the Blue Dragonflight's violent upheaval against all mortal users of magic, the remaining dragonflights have banded under the leadership of the Red Dragonflight to combat their wayward kin.",
 					["isExpansion"] = false,
@@ -698,6 +759,10 @@ PrettyRepsDB = {
 					["earnedValue"] = 325,
 					["topValue"] = 3000,
 					["isChild"] = true,
+=======
+					["name"] = "The Wyrmrest Accord",
+					["factionID"] = 1091,
+>>>>>>> Stashed changes
 				}, -- [7]
 				{
 					["name"] = "Alliance Vanguard",
@@ -760,6 +825,7 @@ PrettyRepsDB = {
 					["factionID"] = 1117,
 				}, -- [10]
 			},
+<<<<<<< Updated upstream
 			["isExpansion"] = true,
 			["isWatched"] = false,
 			["colorIndex"] = 4,
@@ -788,12 +854,31 @@ PrettyRepsDB = {
 			["standingID"] = 4,
 			["internalIndex"] = 5,
 			["exaltedTotal"] = 7,
+=======
+			["parent"] = nil --[[ skipped recursive table ]],
+			["isWatched"] = false,
+			["exaltedTotal"] = 1,
+			["playerName"] = "Cherriebomb",
+			["factionStandingtext"] = "Neutral",
+			["isActive"] = true,
+			["factionID"] = 1097,
+			["colorIndex"] = 4,
+			["topValue"] = 3000,
+			["name"] = "Wrath of the Lich King",
+			["earnedValue"] = 0,
+			["atWarWith"] = false,
+			["hasRep"] = false,
+			["isChild"] = false,
+		}, -- [6]
+		{
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["name"] = "Ashtongue Deathsworn",
 					["factionID"] = 1012,
 				}, -- [1]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
 					["description"] = "An exploratory force sent to Outland by the Cenarion Circle to study surviving life forms.  The Cenarion Expedition has quickly gained in size and autonomy since the opening of the Dark Portal.",
@@ -868,6 +953,19 @@ PrettyRepsDB = {
 					["isMaxed"] = false,
 					["playerName"] = "Tygrrlilly",
 					["topValue"] = 3000,
+=======
+					["name"] = "Cenarion Expedition",
+					["factionID"] = 942,
+				}, -- [2]
+				{
+					["factionID"] = 946,
+					["name"] = "Honor Hold",
+					["isAlliance"] = true,
+				}, -- [3]
+				{
+					["name"] = "Keepers of Time",
+					["factionID"] = 989,
+>>>>>>> Stashed changes
 				}, -- [4]
 				{
 					["factionID"] = 978,
@@ -883,6 +981,7 @@ PrettyRepsDB = {
 					["factionID"] = 1038,
 				}, -- [7]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "The sporelings are a mostly peaceful race of mushroom-men native to Outland. Their home is located in the southern bogs of Zangarmarsh. ",
 					["isExpansion"] = false,
@@ -927,6 +1026,14 @@ PrettyRepsDB = {
 					["earnedValue"] = 2472,
 					["topValue"] = 3000,
 					["isChild"] = true,
+=======
+					["name"] = "Sporeggar",
+					["factionID"] = 970,
+				}, -- [8]
+				{
+					["name"] = "The Consortium",
+					["factionID"] = 933,
+>>>>>>> Stashed changes
 				}, -- [9]
 				{
 					["factionID"] = 941,
@@ -952,6 +1059,7 @@ PrettyRepsDB = {
 					["isHorde"] = true,
 				}, -- [14]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "",
 					["exaltedCount"] = 0,
@@ -984,6 +1092,12 @@ PrettyRepsDB = {
 							["earnedValue"] = 6383,
 							["topValue"] = 9000,
 							["isChild"] = true,
+=======
+					["children"] = {
+						{
+							["name"] = "Lower City",
+							["factionID"] = 1011,
+>>>>>>> Stashed changes
 						}, -- [1]
 						{
 							["name"] = "Sha'tari Skyguard",
@@ -1002,6 +1116,7 @@ PrettyRepsDB = {
 							["factionID"] = 934,
 						}, -- [5]
 						{
+<<<<<<< Updated upstream
 							["hasBonusRepGain"] = false,
 							["description"] = "The Sha'tar are a group of powerful naaru who rule over a rebuilt Shattrath City.  With the help of the Aldor and the Scryers, they lead the battle against Illidan and the Burning Legion.",
 							["isExpansion"] = false,
@@ -1056,6 +1171,18 @@ PrettyRepsDB = {
 			["hasRep"] = false,
 			["playerName"] = "Tygrrlilly",
 			["topValue"] = 3000,
+=======
+							["name"] = "The Sha'tar",
+							["factionID"] = 935,
+						}, -- [6]
+					},
+					["name"] = "Shattrath City",
+					["factionID"] = 936,
+				}, -- [15]
+			},
+			["name"] = "The Burning Crusade",
+			["factionID"] = 980,
+>>>>>>> Stashed changes
 		}, -- [7]
 		{
 			["hasBonusRepGain"] = false,
@@ -1067,14 +1194,20 @@ PrettyRepsDB = {
 			["isLayoutChild"] = false,
 			["isHeader"] = true,
 			["standingID"] = 4,
+<<<<<<< Updated upstream
 			["internalIndex"] = 8,
 			["exaltedTotal"] = 18,
+=======
+			["internalIndex"] = 1,
+			["exaltedTotal"] = 9,
+>>>>>>> Stashed changes
 			["children"] = {
 				{
 					["name"] = "Argent Dawn",
 					["factionID"] = 529,
 				}, -- [1]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
 					["description"] = "These bloodthirsty corsairs are the bane of many a merchant in the high seas.  Sworn enemies of Booty Bay.",
@@ -1099,12 +1232,17 @@ PrettyRepsDB = {
 					["isMaxed"] = false,
 					["playerName"] = "Tygrrlilly",
 					["topValue"] = -6000,
+=======
+					["name"] = "Bloodsail Buccaneers",
+					["factionID"] = 87,
+>>>>>>> Stashed changes
 				}, -- [2]
 				{
 					["name"] = "Brood of Nozdormu",
 					["factionID"] = 910,
 				}, -- [3]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
 					["description"] = "The druids of Cenarion Circle are guardians of nature and make their home in tranquil Moonglade.",
@@ -1152,12 +1290,21 @@ PrettyRepsDB = {
 					["earnedValue"] = 82,
 					["topValue"] = 3000,
 					["isChild"] = true,
+=======
+					["name"] = "Cenarion Circle",
+					["factionID"] = 609,
+				}, -- [4]
+				{
+					["name"] = "Darkmoon Faire",
+					["factionID"] = 909,
+>>>>>>> Stashed changes
 				}, -- [5]
 				{
 					["name"] = "Gelkis Clan Centaur",
 					["factionID"] = 92,
 				}, -- [6]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["description"] = "These elementals have made their home on the islands east of Azshara.  Sworn enemies of the armies of Ragnaros.",
 					["isExpansion"] = false,
@@ -1179,12 +1326,17 @@ PrettyRepsDB = {
 					["earnedValue"] = 8320,
 					["topValue"] = 9000,
 					["isChild"] = true,
+=======
+					["name"] = "Hydraxian Waterlords",
+					["factionID"] = 749,
+>>>>>>> Stashed changes
 				}, -- [7]
 				{
 					["name"] = "Magram Clan Centaur",
 					["factionID"] = 93,
 				}, -- [8]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
 					["description"] = "This guild of thieves and assassins welcomes only those of extraordinary prowess into its fold.  Sworn rivals of the Syndicate.",
@@ -1209,6 +1361,10 @@ PrettyRepsDB = {
 					["isMaxed"] = false,
 					["playerName"] = "Tygrrlilly",
 					["topValue"] = 3000,
+=======
+					["name"] = "Ravenholdt",
+					["factionID"] = 349,
+>>>>>>> Stashed changes
 				}, -- [9]
 				{
 					["isUnobtainable"] = true,
@@ -1216,6 +1372,7 @@ PrettyRepsDB = {
 					["factionID"] = 809,
 				}, -- [10]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
 					["description"] = "A primarily human criminal organization that operates mostly out of the Alterac Mountains and Hillsbrad Foothills.",
@@ -1263,6 +1420,11 @@ PrettyRepsDB = {
 					["isMaxed"] = false,
 					["hasRep"] = false,
 					["topValue"] = -6000,
+=======
+					["isUnobtainable"] = true,
+					["name"] = "Syndicate",
+					["factionID"] = 70,
+>>>>>>> Stashed changes
 				}, -- [11]
 				{
 					["name"] = "Thorium Brotherhood",
@@ -1286,6 +1448,7 @@ PrettyRepsDB = {
 					["hasEncountered"] = true,
 					["description"] = "",
 					["exaltedCount"] = 1,
+<<<<<<< Updated upstream
 					["parent"] = nil --[[ skipped recursive table ]],
 					["bottomValue"] = 9000,
 					["isLayoutChild"] = true,
@@ -1294,37 +1457,69 @@ PrettyRepsDB = {
 					["standingID"] = 6,
 					["internalIndex"] = 12,
 					["isExpansion"] = false,
+=======
+					["isExpansion"] = false,
+					["bottomValue"] = 3000,
+					["isLayoutChild"] = true,
+					["parent"] = nil --[[ skipped recursive table ]],
+					["isHeader"] = true,
+					["standingID"] = 5,
+					["internalIndex"] = 2,
+					["exaltedTotal"] = 7,
+>>>>>>> Stashed changes
 					["children"] = {
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "This Alliance capital is populated by Night Elves and is located in the Island of Teldrassil.  Ruled by the Priestess of the Moon, Tyrande Whisperwind.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
+=======
+							["isExpansion"] = false,
+>>>>>>> Stashed changes
 							["bottomValue"] = 3000,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 13,
 							["atWarWith"] = false,
 							["isWatched"] = false,
 							["colorIndex"] = 5,
 							["isExpansion"] = false,
+=======
+							["internalIndex"] = 3,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+>>>>>>> Stashed changes
 							["canToggleAtWar"] = false,
 							["factionStandingtext"] = "Friendly",
 							["isActive"] = true,
 							["factionID"] = 69,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["hasRep"] = false,
 							["name"] = "Darnassus",
 							["earnedValue"] = 8999,
 							["isMaxed"] = false,
 							["playerName"] = "Tygrrlilly",
+=======
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Darnassus",
+							["earnedValue"] = 5708,
+							["isMaxed"] = false,
+							["playerName"] = "Cherriebomb",
+>>>>>>> Stashed changes
 							["topValue"] = 9000,
 						}, -- [1]
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "The naaru vessel that brought the draenei to Azeroth.  Though stranded in the Azuremyst Isles, it acts as a home city for this noble race.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
 							["bottomValue"] = 9000,
 							["isLayoutChild"] = true,
@@ -1346,37 +1541,82 @@ PrettyRepsDB = {
 							["isMaxed"] = false,
 							["playerName"] = "Tygrrlilly",
 							["topValue"] = 21000,
+=======
+							["isExpansion"] = false,
+							["bottomValue"] = 3000,
+							["isLayoutChild"] = true,
+							["isHeader"] = false,
+							["standingID"] = 5,
+							["internalIndex"] = 4,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+							["canToggleAtWar"] = false,
+							["factionStandingtext"] = "Friendly",
+							["isActive"] = true,
+							["factionID"] = 930,
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Exodar",
+							["earnedValue"] = 5708,
+							["isMaxed"] = false,
+							["playerName"] = "Cherriebomb",
+							["topValue"] = 9000,
+>>>>>>> Stashed changes
 						}, -- [2]
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "The people of Gilneas are a nation of survivors.  Having walled themselves off from the rest of humanity, they must now face new threats from within.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
+=======
+							["isExpansion"] = false,
+>>>>>>> Stashed changes
 							["bottomValue"] = 3000,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 15,
 							["atWarWith"] = false,
 							["isWatched"] = false,
 							["colorIndex"] = 5,
 							["isExpansion"] = false,
+=======
+							["internalIndex"] = 5,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+>>>>>>> Stashed changes
 							["canToggleAtWar"] = false,
 							["factionStandingtext"] = "Friendly",
 							["isActive"] = true,
 							["factionID"] = 1134,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["hasRep"] = false,
 							["name"] = "Gilneas",
 							["earnedValue"] = 8912,
 							["isMaxed"] = false,
 							["playerName"] = "Tygrrlilly",
+=======
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Gilneas",
+							["earnedValue"] = 4258,
+							["isMaxed"] = false,
+							["playerName"] = "Cherriebomb",
+>>>>>>> Stashed changes
 							["topValue"] = 9000,
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "The former denizens of Gnomeregan, now living in New Tinkertown and in league with the Alliance.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
 							["bottomValue"] = 9000,
 							["isLayoutChild"] = true,
@@ -1398,11 +1638,35 @@ PrettyRepsDB = {
 							["isMaxed"] = false,
 							["playerName"] = "Tygrrlilly",
 							["topValue"] = 21000,
+=======
+							["isExpansion"] = false,
+							["bottomValue"] = 3000,
+							["isLayoutChild"] = true,
+							["isHeader"] = false,
+							["standingID"] = 5,
+							["internalIndex"] = 6,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+							["canToggleAtWar"] = false,
+							["factionStandingtext"] = "Friendly",
+							["isActive"] = true,
+							["factionID"] = 54,
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Gnomeregan",
+							["earnedValue"] = 5708,
+							["isMaxed"] = false,
+							["playerName"] = "Cherriebomb",
+							["topValue"] = 9000,
+>>>>>>> Stashed changes
 						}, -- [4]
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "This Alliance capital is the pride of the Dun Morogh dwarves.  Home to King Magni.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
 							["bottomValue"] = 9000,
 							["isLayoutChild"] = true,
@@ -1424,51 +1688,108 @@ PrettyRepsDB = {
 							["isMaxed"] = false,
 							["playerName"] = "Tygrrlilly",
 							["topValue"] = 21000,
+=======
+							["isExpansion"] = false,
+							["bottomValue"] = 3000,
+							["isLayoutChild"] = true,
+							["isHeader"] = false,
+							["standingID"] = 5,
+							["internalIndex"] = 7,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+							["canToggleAtWar"] = false,
+							["factionStandingtext"] = "Friendly",
+							["isActive"] = true,
+							["factionID"] = 47,
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Ironforge",
+							["earnedValue"] = 5708,
+							["isMaxed"] = false,
+							["playerName"] = "Cherriebomb",
+							["topValue"] = 9000,
+>>>>>>> Stashed changes
 						}, -- [5]
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "One of the last bastions of human power, this Alliance capital is ruled by the young but wise king, Anduin Wrynn.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
+=======
+							["isExpansion"] = false,
+>>>>>>> Stashed changes
 							["bottomValue"] = 42000,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 8,
+<<<<<<< Updated upstream
 							["internalIndex"] = 18,
 							["atWarWith"] = false,
 							["isWatched"] = false,
 							["colorIndex"] = 8,
 							["isExpansion"] = false,
+=======
+							["internalIndex"] = 8,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 8,
+>>>>>>> Stashed changes
 							["canToggleAtWar"] = false,
 							["factionStandingtext"] = "Exalted",
 							["isActive"] = true,
 							["factionID"] = 72,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["hasRep"] = false,
 							["name"] = "Stormwind",
 							["earnedValue"] = 42000,
 							["isMaxed"] = true,
 							["playerName"] = "Tygrrlilly",
+=======
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Stormwind",
+							["earnedValue"] = 42000,
+							["isMaxed"] = true,
+							["playerName"] = "Cherriebomb",
+>>>>>>> Stashed changes
 							["topValue"] = 42000,
 						}, -- [6]
 						{
 							["hasBonusRepGain"] = false,
 							["hasEncountered"] = true,
 							["description"] = "Led by the stalwart Aysa Cloudsinger, the Tushui Pandaren believe in contemplation and reasoned action.",
+<<<<<<< Updated upstream
 							["parent"] = nil --[[ skipped recursive table ]],
+=======
+							["isExpansion"] = false,
+>>>>>>> Stashed changes
 							["bottomValue"] = 3000,
 							["isLayoutChild"] = true,
 							["isHeader"] = false,
 							["standingID"] = 5,
+<<<<<<< Updated upstream
 							["internalIndex"] = 19,
 							["atWarWith"] = false,
 							["isWatched"] = false,
 							["colorIndex"] = 5,
 							["isExpansion"] = false,
+=======
+							["internalIndex"] = 9,
+							["atWarWith"] = false,
+							["parent"] = nil --[[ skipped recursive table ]],
+							["isWatched"] = false,
+							["colorIndex"] = 5,
+>>>>>>> Stashed changes
 							["canToggleAtWar"] = false,
 							["factionStandingtext"] = "Friendly",
 							["isActive"] = true,
 							["factionID"] = 1353,
+<<<<<<< Updated upstream
 							["isChild"] = true,
 							["hasRep"] = false,
 							["name"] = "Tushui Pandaren",
@@ -1484,6 +1805,23 @@ PrettyRepsDB = {
 					["earnedValue"] = 11325,
 					["playerName"] = "Tygrrlilly",
 					["factionStandingtext"] = "Honored",
+=======
+							["hasRep"] = false,
+							["isChild"] = true,
+							["name"] = "Tushui Pandaren",
+							["earnedValue"] = 5708,
+							["isMaxed"] = false,
+							["playerName"] = "Cherriebomb",
+							["topValue"] = 9000,
+						}, -- [7]
+					},
+					["earnedValue"] = 5908,
+					["isWatched"] = false,
+					["colorIndex"] = 5,
+					["isChild"] = true,
+					["playerName"] = "Cherriebomb",
+					["factionStandingtext"] = "Friendly",
+>>>>>>> Stashed changes
 					["isActive"] = true,
 					["factionID"] = 469,
 					["isMaxed"] = false,
@@ -1492,6 +1830,7 @@ PrettyRepsDB = {
 					["isAlliance"] = true,
 					["canToggleAtWar"] = false,
 					["atWarWith"] = false,
+<<<<<<< Updated upstream
 					["topValue"] = 21000,
 				}, -- [16]
 				{
@@ -1674,6 +2013,43 @@ PrettyRepsDB = {
 					["atWarWith"] = false,
 					["hasRep"] = false,
 					["isChild"] = true,
+=======
+					["topValue"] = 9000,
+				}, -- [16]
+				{
+					["name"] = "Horde",
+					["factionID"] = 67,
+					["children"] = {
+						{
+							["name"] = "Bilgewater Cartel",
+							["factionID"] = 1133,
+						}, -- [1]
+						{
+							["name"] = "Darkspear Trolls",
+							["factionID"] = 530,
+						}, -- [2]
+						{
+							["name"] = "Orgrimmar",
+							["factionID"] = 76,
+						}, -- [3]
+						{
+							["name"] = "Silvermoon City",
+							["factionID"] = 911,
+						}, -- [4]
+						{
+							["name"] = "Thunder Bluff",
+							["factionID"] = 81,
+						}, -- [5]
+						{
+							["name"] = "Undercity",
+							["factionID"] = 68,
+						}, -- [6]
+						{
+							["name"] = "Huojin Pandaren",
+							["factionID"] = 1352,
+						}, -- [7]
+					},
+>>>>>>> Stashed changes
 					["isHorde"] = true,
 				}, -- [17]
 				{
@@ -1752,18 +2128,31 @@ PrettyRepsDB = {
 						}, -- [6]
 					},
 					["isWatched"] = false,
+<<<<<<< Updated upstream
 					["colorIndex"] = 4,
 					["hasRep"] = false,
+=======
+					["exaltedTotal"] = 2,
+					["atWarWith"] = false,
+>>>>>>> Stashed changes
 					["playerName"] = "Cherriebomb",
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 891,
 					["topValue"] = 3000,
+<<<<<<< Updated upstream
 					["exaltedTotal"] = 2,
 					["name"] = "Alliance Forces",
 					["isAlliance"] = true,
 					["atWarWith"] = false,
 					["earnedValue"] = 0,
+=======
+					["earnedValue"] = 0,
+					["name"] = "Alliance Forces",
+					["isAlliance"] = true,
+					["hasRep"] = false,
+					["colorIndex"] = 4,
+>>>>>>> Stashed changes
 					["isChild"] = true,
 				}, -- [18]
 				{
@@ -1798,6 +2187,7 @@ PrettyRepsDB = {
 					["isHorde"] = true,
 				}, -- [19]
 				{
+<<<<<<< Updated upstream
 					["hasBonusRepGain"] = false,
 					["hasEncountered"] = true,
 					["description"] = "",
@@ -1930,6 +2320,28 @@ PrettyRepsDB = {
 					["hasRep"] = false,
 					["playerName"] = "Tygrrlilly",
 					["topValue"] = 3000,
+=======
+					["children"] = {
+						{
+							["name"] = "Booty Bay",
+							["factionID"] = 21,
+						}, -- [1]
+						{
+							["name"] = "Everlook",
+							["factionID"] = 577,
+						}, -- [2]
+						{
+							["name"] = "Gadgetzan",
+							["factionID"] = 369,
+						}, -- [3]
+						{
+							["name"] = "Ratchet",
+							["factionID"] = 470,
+						}, -- [4]
+					},
+					["name"] = "Steamwheedle Cartel",
+					["factionID"] = 169,
+>>>>>>> Stashed changes
 				}, -- [20]
 			},
 			["isExpansion"] = true,
@@ -1945,12 +2357,19 @@ PrettyRepsDB = {
 			["name"] = "Classic",
 			["earnedValue"] = 0,
 			["hasRep"] = false,
+<<<<<<< Updated upstream
 			["playerName"] = "Tygrrlilly",
+=======
+			["playerName"] = "Cukie",
+>>>>>>> Stashed changes
 			["topValue"] = 3000,
 		}, -- [8]
 	},
 	["Headers"] = {
 		["Guild"] = false,
+<<<<<<< Updated upstream
 		["Unobtainable"] = false,
+=======
+>>>>>>> Stashed changes
 	},
 }

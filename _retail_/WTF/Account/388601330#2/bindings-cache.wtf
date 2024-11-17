@@ -4,6 +4,11 @@ bind D STRAFERIGHT
 bind Q NONE
 bind E NONE
 bind BUTTON4 NONE
+<<<<<<< Updated upstream
+=======
+bind PAGEUP CLICK AceGUI30Button19:LeftButton
+bind PAGEDOWN CLICK AceGUI30Button20:LeftButton
+>>>>>>> Stashed changes
 bind CTRL-= CAMERAZOOMIN
 bind CTRL-- CAMERAZOOMOUT
 bind MOUSEWHEELUP NONE

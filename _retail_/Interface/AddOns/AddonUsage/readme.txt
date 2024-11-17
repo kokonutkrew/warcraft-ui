@@ -37,6 +37,7 @@ That said, some things to consider when looking at the numbers:
 * CPU usage is measured in milliseconds per second. The milliseconds of CPU time that the addon has accumulated divided by how long since CPU usage was last reset, or just after login if there has been no reset.
 * CPU usage per addon is taken from the in-game API and does not represent the whole story. It's possible for an addon to get some of its work blamed on another if libraries are involved, or it may get a lot of work to go unnoticed. Use these numbers as a guide only.
 * Remember to turn off CPU monitoring when you're done testing!
+<<<<<<< Updated upstream
 
 03/13/2021 version 3.0.7
 - toc update for 9.0.5
@@ -116,3 +117,5 @@ That said, some things to consider when looking at the numbers:
 
 07/14/2008 version 1.0
 - Initial release.
+=======
+>>>>>>> Stashed changes

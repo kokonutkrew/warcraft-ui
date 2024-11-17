@@ -1,0 +1,31 @@
+
+HandyNotes_ShadowlandsTreasuresDB = {
+	["profileKeys"] = {
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+		["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanrelic - Stormrage"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+		},
+		["Fedieb - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoansavage - Stormrage"] = {
+		},
+		["Forgecraft - Emerald Dream"] = {
+		},
+		["Samoanghost - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+	},
+}

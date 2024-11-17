@@ -1,0 +1,26 @@
+VER 3 0100000000000001 "Angelic Feather" "INV_Misc_QuestionMark"
+#showtooltip Angelic Feather
+/cast [mod:shift, @cursor][@player][] Angelic Feather
+END
+VER 3 0100000000000002 "PW: Shield" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Shield
+/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
+END
+VER 3 0100000000000003 "Renew" "INV_Misc_QuestionMark"
+#showtooltip renew
+/cast [mod:alt,@player] [@mouseover,help,nodead] Renew; [@mouseover,harm,nodead] [harm] Shadow Word: Pain; Renew
+END
+VER 3 0100000000000004 "Santify" "INV_Misc_QuestionMark"
+#showtooltip Holy Word: Sanctify
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 0100000000000005 "Shadow Word Pain" "INV_Misc_QuestionMark"
+#showtooltip Shadow Word: Pain
+/cast [mod:alt,@player] [@mouseover,help,nodead] Renew; [@mouseover,harm,nodead] [harm] Shadow Word: Pain; Renew
+END
+VER 3 0100000000000006 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000007 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Win[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,6 +1,7 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
@@ -131,11 +132,24 @@ HandyNotesDB = {
 		["Samoanslayer - Emerald Dream"] = {
 		},
 		["Royders - Emerald Dream"] = {
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+		},
+		["Samoanbatman - Emerald Dream"] = {
+		},
+		["Ashh - Emerald Dream"] = {
+>>>>>>> Stashed changes
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
@@ -266,6 +280,18 @@ HandyNotes_HandyNotesDB = {
 		["Samoanwar - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
+=======
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+		},
+		["Samoanbatman - Emerald Dream"] = {
+		},
+		["Ashh - Emerald Dream"] = {
+>>>>>>> Stashed changes
 		},
 	},
 }

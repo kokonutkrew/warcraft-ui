@@ -5,6 +5,7 @@ VWQL = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
+<<<<<<< Updated upstream
 			[42442] = true,
 			[40277] = true,
 		},
@@ -17,6 +18,10 @@ VWQL = {
 		["Quests"] = {
 		},
 		["Filter"] = 63,
+=======
+		},
+		["VERSION"] = 100,
+>>>>>>> Stashed changes
 	},
 	["AzeriteFormat"] = 20,
 	["Scale"] = 0.8,
@@ -26,6 +31,7 @@ VWQL = {
 	["Ignore"] = {
 	},
 	["VERSION"] = 100,
+<<<<<<< Updated upstream
 	["Ckpanda-EmeraldDream"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -45,6 +51,10 @@ VWQL = {
 	},
 	["Buhbles-EmeraldDream"] = {
 		["VERSION"] = 98,
+=======
+	["Ashh-EmeraldDream"] = {
+		["VERSION"] = 100,
+>>>>>>> Stashed changes
 		["FilterType"] = {
 		},
 		["Quests"] = {
@@ -52,6 +62,14 @@ VWQL = {
 		["Filter"] = 63,
 	},
 	["Samoanbatman-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Sonikk-EmeraldDream"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
 		},

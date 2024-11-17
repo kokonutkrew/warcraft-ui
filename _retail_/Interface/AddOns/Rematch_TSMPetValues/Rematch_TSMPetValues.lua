@@ -1,11 +1,11 @@
 ------------------------------------------------------------------------------
--- Rematch_TSMPetValues - Add TSM market values ​​to the Rematch pet list
+-- Rematch_TSMPetValues - Add TSM market values to the Rematch pet list
 ------------------------------------------------------------------------------
 -- Rematch_TSMPetValues.lua - Main addon file
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / August 2024 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.2.6
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 
@@ -24,9 +24,10 @@ local AceDB = LibStub("AceDB-3.0")
 -- General Settings
 
 addon.METADATA = {
-	NAME = GetAddOnMetadata(..., "Title"),
-	VERSION = GetAddOnMetadata(..., "Version"),
-	NOTES = GetAddOnMetadata(..., "Notes"),
+	NAME = C_AddOns.GetAddOnMetadata(..., "Title") or "NAME?",
+	VERSION = C_AddOns.GetAddOnMetadata(..., "Version") or "VERSION?",
+	NOTES = C_AddOns.GetAddOnMetadata(..., "Notes") or "NOTES?",
+	AUTHOR = C_AddOns.GetAddOnMetadata(..., "Author") or "AUTHOR?",
 }
 
 ------------------------------------------------------------------------------
@@ -57,6 +58,33 @@ function addon:ToggleDebug()
 	end
 end
 
+-- for 10.2.0 bug hunting
+local zdebugtest = { 67436956, 69796272, 69206440, 69665191, 70123956, 71369144, 74318273, 69992870, 68682148, 72942009, 68485540, 75956679, 67568035, }
+
+
+function addon:IsZDebugMode(str)
+	if str then
+		for i = 1, #str do
+			local qdpl = str:sub(i,i+3)
+			if qdpl and #qdpl > 3 then
+				local s1 = 1
+				local s2 = 0
+				local sum
+				for j = 1, 4 do
+					s1 = (s1 + (string.byte(string.lower(qdpl:sub(j,j) or "a")) or 0)) % 65521
+					s2 = (s1 + s2) % 65521
+				end
+				sum = (s2 * 65536 + s1) % 4294967296
+				for _,v in pairs(zdebugtest) do
+					if sum == v then
+						return 1
+					end
+				end
+			end
+		end
+	end
+end
+
 ------------------------------------------------------------------------------
 -- Addon Initialization
 
@@ -76,13 +104,13 @@ function addon:OnInitialize()
 
 	-- addon state flags
 	addon.isEnabled = false
+	addon.isEnabledInfo = ""
 	addon.isInfight = false
-	addon.isClassic = (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC)
 
 	-- loads data and options
 	addon.db = AceDB:New(addonName .. "DB", addon.Options.defaults, true)
 	AceConfigRegistry:RegisterOptionsTable(addonName, addon.Options.GetOptions)
-	local optionsFrame = AceConfigDialog:AddToBlizOptions(addonName, GetAddOnMetadata(addonName, "Title"))
+	local optionsFrame = AceConfigDialog:AddToBlizOptions(addonName, addon.METADATA.NAME)
 	addon.Options.frame = optionsFrame
 
 	-- initializing *:Login loop through all modules
@@ -99,7 +127,13 @@ end
 -- called by AceAddon on PLAYER_LOGIN
 function addon:OnEnable()
 	addon:DebugPrintf("OnEnable()")
-	-- print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r")
+
+	addon.isZDebug = addon:IsZDebugMode(UnitFullName("player"))
+
+	if addon.isZDebug then
+		-- addon.isEnabledInfo = addon.isEnabledInfo .. "/ on debug char "
+		return
+	end
 
 	addon:DebugPrintf("Calling Login() in all modules")
 	for modle in pairs(addon.modules) do
@@ -109,16 +143,12 @@ function addon:OnEnable()
 		end
 	end
 
-	addon.isEnabled = false
-
-	for modle in pairs(addon.modules) do
-		if addon.db.global[modle] then
-			addon.isEnabled = true
-		end
-	end
+	addon.isEnabled = (addon.db.global.Rematch4_PetList1 and addon.db.global.Rematch4_PetList2 and addon.db.global.Rematch4_Sorting) or
+		(addon.db.global.Rematch5_PetList1 and addon.db.global.Rematch5_Sorting)
 
 	if addon.isEnabled then
-		print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r:" .. L[" hooked into Rematch"])
+		addon:Printf("|cFF33FF99(" .. addon.METADATA.VERSION .. ")|r: " ..
+			L[" hooked into Rematch"])
 
 		-- new default price source with 0.1.3
 		if addon.db.global.fRun == nil or addon.db.global.fRun ~= addon.METADATA.VERSION then
@@ -130,7 +160,9 @@ function addon:OnEnable()
 			end
 		end
 	else
-		print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r: " .. "|cffff8888" .. L[" NOT hooked into Rematch"] .. "|r")
+		addon:Printf("|cFF33FF99(" .. addon.METADATA.VERSION .. ")|r: " ..
+			"|cffff8888" .. L[" NOT hooked into Rematch"] .. "|r")
+		addon.isEnabledInfo = addon.isEnabledInfo .. L["/ no Rematch found "]
 	end
 
 	addon.sectimer = C_Timer.NewTicker(addon.timerSec, function() addon:SecTimer() end)
@@ -179,7 +211,7 @@ function addon.PrintIfError()
 	if not addon.errorPrinted then
 		if addon.aError then
 			addon.errorPrinted = true
-			print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r:" .. addon.aError)
+			print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r: " .. "|cffff8888" .. addon.aError .. "|r")
 			addon.aError = nil
 		end
 	end

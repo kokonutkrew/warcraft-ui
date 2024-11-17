@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 --[[ $Id: CallbackHandler-1.0.lua 1186 2018-07-21 14:19:18Z nevcairiel $ ]]
 local MAJOR, MINOR = "CallbackHandler-1.0", 7
+=======
+--[[ $Id: CallbackHandler-1.0.lua 1298 2022-12-12 15:10:10Z nevcairiel $ ]]
+local MAJOR, MINOR = "CallbackHandler-1.0", 8
+>>>>>>> Stashed changes
 local CallbackHandler = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not CallbackHandler then return end -- No upgrade needed
@@ -7,6 +12,7 @@ if not CallbackHandler then return end -- No upgrade needed
 local meta = {__index = function(tbl, key) tbl[key] = {} return tbl[key] end}
 
 -- Lua APIs
+<<<<<<< Updated upstream
 local tconcat = table.concat
 local assert, error, loadstring = assert, error, loadstring
 local setmetatable, rawset, rawget = setmetatable, rawset, rawget
@@ -21,12 +27,22 @@ local xpcall = xpcall
 local function errorhandler(err)
 	return geterrorhandler()(err)
 end
+=======
+local securecallfunction, error = securecallfunction, error
+local setmetatable, rawget = setmetatable, rawget
+local next, select, pairs, type, tostring = next, select, pairs, type, tostring
+
+>>>>>>> Stashed changes
 
 local function Dispatch(handlers, ...)
 	local index, method = next(handlers)
 	if not method then return end
 	repeat
+<<<<<<< Updated upstream
 		xpcall(method, errorhandler, ...)
+=======
+		securecallfunction(method, ...)
+>>>>>>> Stashed changes
 		index, method = next(handlers, index)
 	until not method
 end
@@ -39,7 +55,11 @@ end
 --   UnregisterName    - name of the callback unregistration API, default "UnregisterCallback"
 --   UnregisterAllName - name of the API to unregister all callbacks, default "UnregisterAllCallbacks". false == don't publish this API.
 
+<<<<<<< Updated upstream
 function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAllName)
+=======
+function CallbackHandler.New(_self, target, RegisterName, UnregisterName, UnregisterAllName)
+>>>>>>> Stashed changes
 
 	RegisterName = RegisterName or "RegisterCallback"
 	UnregisterName = UnregisterName or "UnregisterCallback"
@@ -67,6 +87,7 @@ function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAll
 
 		if registry.insertQueue and oldrecurse==0 then
 			-- Something in one of our callbacks wanted to register more callbacks; they got queued
+<<<<<<< Updated upstream
 			for eventname,callbacks in pairs(registry.insertQueue) do
 				local first = not rawget(events, eventname) or not next(events[eventname])	-- test for empty before. not test for one member after. that one member may have been overwritten.
 				for self,func in pairs(callbacks) do
@@ -74,6 +95,15 @@ function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAll
 					-- fire OnUsed callback?
 					if first and registry.OnUsed then
 						registry.OnUsed(registry, target, eventname)
+=======
+			for event,callbacks in pairs(registry.insertQueue) do
+				local first = not rawget(events, event) or not next(events[event])	-- test for empty before. not test for one member after. that one member may have been overwritten.
+				for object,func in pairs(callbacks) do
+					events[event][object] = func
+					-- fire OnUsed callback?
+					if first and registry.OnUsed then
+						registry.OnUsed(registry, target, event)
+>>>>>>> Stashed changes
 						first = nil
 					end
 				end

@@ -21,7 +21,11 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
+<<<<<<< Updated upstream
 	["last_version"] = "v9.0.2.8246",
+=======
+	["last_version"] = "v9.0.5.8357",
+>>>>>>> Stashed changes
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -35,7 +39,11 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
+<<<<<<< Updated upstream
 		["nextreset"] = 1616149654,
+=======
+		["nextreset"] = 1618865143,
+>>>>>>> Stashed changes
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 0,
@@ -51,6 +59,34 @@ _detalhes_database = {
 	["last_realversion"] = 144,
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
+<<<<<<< Updated upstream
+=======
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+>>>>>>> Stashed changes
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
 			["v1"] = true,
@@ -69,7 +105,11 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 20,
 			["last_player"] = false,
+<<<<<<< Updated upstream
 			["InstalledAt"] = 1614853685,
+=======
+			["InstalledAt"] = 1617569173,
+>>>>>>> Stashed changes
 			["last_encounter_hash"] = false,
 			["showing_type"] = 4,
 			["timeline_cutoff_time"] = 3,
@@ -93,6 +133,7 @@ _detalhes_database = {
 			["encounter_timers_dbm"] = {
 			},
 		},
+<<<<<<< Updated upstream
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
@@ -145,6 +186,8 @@ _detalhes_database = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 		},
+=======
+>>>>>>> Stashed changes
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
 			["tank_block_color"] = {
@@ -161,6 +204,7 @@ _detalhes_database = {
 			["tank_block_texture"] = "Details Serenity",
 			["tank_block_height"] = 40,
 		},
+<<<<<<< Updated upstream
 		["DETAILS_PLUGIN_TARGET_CALLER"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
@@ -176,6 +220,8 @@ _detalhes_database = {
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
 		},
+=======
+>>>>>>> Stashed changes
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["use_square_mode"] = false,
 			["is_first_run"] = false,
@@ -187,19 +233,32 @@ _detalhes_database = {
 				0.5, -- [4]
 			},
 			["main_frame_size"] = {
+<<<<<<< Updated upstream
 				300, -- [1]
 				500.000030517578, -- [2]
+=======
+				299.9999389648438, -- [1]
+				499.9999084472656, -- [2]
+>>>>>>> Stashed changes
 			},
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
+<<<<<<< Updated upstream
 				["hide"] = true,
+=======
+				["hide"] = false,
+>>>>>>> Stashed changes
 			},
 			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
 			["point"] = "CENTER",
 			["row_texture"] = "Details Serenity",
+<<<<<<< Updated upstream
 			["y"] = 4.57763671875e-05,
+=======
+			["y"] = -4.57763671875e-05,
+>>>>>>> Stashed changes
 			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -231,8 +290,13 @@ _detalhes_database = {
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
+<<<<<<< Updated upstream
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
+=======
+				["y"] = 6.103515625e-05,
+				["x"] = -6.103515625e-05,
+>>>>>>> Stashed changes
 				["update_speed"] = 0.05,
 				["size"] = 32,
 				["attribute_type"] = 1,
@@ -311,7 +375,13 @@ _detalhes_database = {
 		}, -- [5]
 		["raid_roster"] = {
 		},
+<<<<<<< Updated upstream
 		["tempo_start"] = 97212.81300000001,
+=======
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 11657.247,
+>>>>>>> Stashed changes
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
@@ -420,10 +490,17 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
+<<<<<<< Updated upstream
 					["y"] = -324.9998474121094,
 					["x"] = 442.999755859375,
 					["w"] = 309.9999389648438,
 					["h"] = 157.9999847412109,
+=======
+					["y"] = -497.7777481079102,
+					["x"] = 849.99951171875,
+					["w"] = 310,
+					["h"] = 157.9999694824219,
+>>>>>>> Stashed changes
 				},
 				["solo"] = {
 					["y"] = 2,

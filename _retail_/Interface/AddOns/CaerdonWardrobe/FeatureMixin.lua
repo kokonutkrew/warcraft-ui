@@ -9,16 +9,20 @@ end
 
 function CaerdonWardrobeFeatureMixin:Init()
 	-- init and return array of frame events you'd like to receive
-	error("Caerdon Wardrobe: Must provide Init implementation")
+	error(format("Caerdon Wardrobe: Must provide Init implementation for %s", self:GetName()))
 end
 
-function CaerdonWardrobeFeatureMixin:SetTooltipItem(tooltip, item, locationInfo)
-	error("Caerdon Wardrobe: Must provide SetTooltipItem implementation")
+function CaerdonWardrobeFeatureMixin:GetTooltipData(item, locationInfo)
+	error(format("Caerdon Wardrobe: Must provide GetTooltipData implementation for %s", self:GetName()))
 end
 
 function CaerdonWardrobeFeatureMixin:Refresh()
 	-- Primarily used for global transmog refresh when appearances learned right now
-	error("Caerdon Wardrobe: Must provide Refresh implementation")
+	error(format("Caerdon Wardrobe: Must provide Refresh implementation for %s", self:GetName()))
+end
+
+function CaerdonWardrobeFeatureMixin:IsSameItem(button, item, locationInfo)
+	return true
 end
 
 function CaerdonWardrobeFeatureMixin:GetDisplayInfo(button, item, feature, locationInfo, options, mogStatus, bindingStatus)
@@ -28,11 +32,15 @@ end
 function CaerdonWardrobeFeatureMixin:GetDisplayInfoInternal(button, item, feature, locationInfo, options, mogStatus, bindingStatus)
 	-- TODO: Temporary for merging - revisit after pushing everything into Mixins
 	local showBindingStatus = not item:HasItemLocationBankOrBags() or CaerdonWardrobeConfig.Binding.ShowStatus.BankAndBags
+	local showUpgradeIcon = not item:HasItemLocationBankOrBags() or CaerdonWardrobeConfig.Icon.ShowUpgrades.BankAndBags
 	local showOwnIcon = not item:HasItemLocationBankOrBags() or CaerdonWardrobeConfig.Icon.ShowLearnable.BankAndBags
 	local showOtherIcon = not item:HasItemLocationBankOrBags() or CaerdonWardrobeConfig.Icon.ShowLearnableByOther.BankAndBags
 	local showSellableIcon = not item:HasItemLocationBankOrBags() or CaerdonWardrobeConfig.Icon.ShowSellable.BankAndBags
 
 	local displayInfo = {
+		upgradeIcon = {
+			shouldShow = showUpgradeIcon
+		},
 		bindingStatus = {
 			shouldShow = showBindingStatus -- true
 		},

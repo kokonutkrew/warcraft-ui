@@ -1,6 +1,7 @@
 
 FGI_DB = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Scootervin - Emerald Dream"] = "Default",
 		["Threadcraft - Emerald Dream"] = "Default",
 		["Adinbalo - Emerald Dream"] = "Default",
@@ -34,12 +35,41 @@ FGI_DB = {
 		["Samoanmystic - Emerald Dream"] = "Default",
 		["Aheenan - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
+=======
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
+		["Samoanmystic - Emerald Dream"] = "Default",
+		["Forgecraft - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Gl - Emerald Dream"] = "Default",
+		["Samoanghost - Emerald Dream"] = "Default",
+		["Kkdev - Emerald Dream"] = "Default",
+>>>>>>> Stashed changes
 	},
 	["factionrealm"] = {
 		["Alliance - Emerald Dream"] = {
+			["history"] = {
+				["leave"] = {
+					1630638000, -- [1]
+				},
+			},
 			["search"] = {
 				["state"] = "stop",
 				["tempSendedInvites"] = {
+					["Âzmodeus"] = true,
+					["Shaaggy"] = true,
+					["Adarind"] = true,
+					["Sabben"] = true,
+					["Soundasleep"] = true,
+					["Jesterlavore"] = true,
 				},
 				["whoQueryList"] = {
 					"1-30", -- [1]
@@ -65,23 +95,87 @@ FGI_DB = {
 					"60-60 r-\"Worgen\"", -- [21]
 					"60-60 r-\"Void Elf\"", -- [22]
 					"60-60 r-\"Pandaren\"", -- [23]
+<<<<<<< Updated upstream
 					"60-60 r-\"Human\"", -- [24]
 					"60-60 r-\"Lightforged Draenei\"", -- [25]
 					"60-60 r-\"Dark Iron Dwarf\"", -- [26]
 				},
 				["progress"] = 19,
+=======
+					"60-60 r-\"Human\" c-\"Warrior\"", -- [24]
+					"60-60 r-\"Human\" c-\"Paladin\"", -- [25]
+					"60-60 r-\"Human\" c-\"Hunter\"", -- [26]
+					"60-60 r-\"Human\" c-\"Rogue\"", -- [27]
+					"60-60 r-\"Human\" c-\"Priest\"", -- [28]
+					"60-60 r-\"Human\" c-\"Mage\"", -- [29]
+					"60-60 r-\"Human\" c-\"Warlock\"", -- [30]
+					"60-60 r-\"Human\" c-\"Monk\"", -- [31]
+					"60-60 r-\"Human\" c-\"Death Knight\"", -- [32]
+					"60-60 r-\"Lightforged Draenei\"", -- [33]
+					"60-60 r-\"Dark Iron Dwarf\"", -- [34]
+				},
+				["progress"] = 4,
+>>>>>>> Stashed changes
 				["timeShift"] = 0,
 				["inviteList"] = {
+					{
+						["race"] = "Human",
+						["name"] = "Sabben",
+						["lvl"] = 47,
+						["class"] = "Warrior",
+						["NoLocaleClass"] = "WARRIOR",
+					}, -- [1]
+					{
+						["race"] = "Human",
+						["name"] = "Soundasleep",
+						["lvl"] = 46,
+						["class"] = "Rogue",
+						["NoLocaleClass"] = "ROGUE",
+					}, -- [2]
+					{
+						["race"] = "Draenei",
+						["name"] = "Jesterlavore",
+						["lvl"] = 50,
+						["class"] = "Paladin",
+						["NoLocaleClass"] = "PALADIN",
+					}, -- [3]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Adarind",
+						["lvl"] = 50,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [4]
+					{
+						["race"] = "Worgen",
+						["name"] = "Âzmodeus",
+						["lvl"] = 51,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [5]
+					{
+						["race"] = "Human",
+						["name"] = "Shaaggy",
+						["lvl"] = 51,
+						["class"] = "Warlock",
+						["NoLocaleClass"] = "WARLOCK",
+					}, -- [6]
 				},
 				["oldCount"] = 0,
 			},
+			["guild"] = "KokonutKrew",
 			["messageList"] = {
+<<<<<<< Updated upstream
 				"Hey NAME, do you have any Shadowland's professions maxxed? In addition to raid, our crafters work together to net their own profits. GUILDLINK Let me know if you're interested!", -- [1]
+=======
+				"Hey NAME are you looking for a guild? Join the GUILDLINK or check us out at kokonutkrew.com", -- [1]
+>>>>>>> Stashed changes
 			},
 		},
 	},
 	["global"] = {
 		["scanFrame"] = {
+<<<<<<< Updated upstream
 			["yOfs"] = -83.00003051757812,
 			["xOfs"] = 9.000052452087402,
 			["point"] = "LEFT",
@@ -89,17 +183,40 @@ FGI_DB = {
 		},
 		["minimap"] = {
 			["minimapPos"] = 341.3653658007452,
+=======
+			["yOfs"] = 58.0002326965332,
+			["xOfs"] = -387.9995422363281,
+			["point"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
+		},
+		["community"] = {
+		},
+		["keyBind"] = {
+			["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
+			["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
+>>>>>>> Stashed changes
+		},
+		["minimap"] = {
+			["minimapPos"] = 190.660438190305,
 		},
 		["guildLinks"] = {
 			["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
 		},
 		["mainFrame"] = {
+<<<<<<< Updated upstream
 			["yOfs"] = 173.999755859375,
 			["xOfs"] = -3.999898433685303,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
 		["blacklistReasonText"] = "Not Interested",
+=======
+			["yOfs"] = 135.9999542236328,
+			["xOfs"] = 52.9998664855957,
+			["point"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
+		},
+>>>>>>> Stashed changes
 		["inviteType"] = 3,
 		["introShow"] = false,
 		["keyBind"] = {
@@ -109,6 +226,7 @@ FGI_DB = {
 	},
 	["realm"] = {
 		["Emerald Dream"] = {
+<<<<<<< Updated upstream
 			["leave"] = {
 				["Leöthes"] = true,
 				["Forestori"] = true,
@@ -197,12 +315,29 @@ FGI_DB = {
 				["Taezari"] = "Not interested",
 				["Releiah"] = "Rude",
 				["Ziolas"] = "DNC",
+=======
+			["blackList"] = {
+				["Flyingsnow"] = "no reason",
+			},
+			["filtersList"] = {
+				["All"] = {
+					["lvlRange"] = false,
+					["classFilter"] = false,
+					["filterOn"] = true,
+					["filteredCount"] = 0,
+					["rioRaid"] = false,
+					["raceFilter"] = false,
+					["rioMPlus"] = false,
+					["filterByName"] = false,
+				},
+>>>>>>> Stashed changes
 			},
 		},
 	},
 }
 FGI_DEBUG = {
 	["profileKeys"] = {
+<<<<<<< Updated upstream
 		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
@@ -236,6 +371,24 @@ FGI_DEBUG = {
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+=======
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+		["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+>>>>>>> Stashed changes
 	},
 	["global"] = {
 		{

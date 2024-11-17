@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 --[[ $Id: AceGUIWidget-DropDown.lua 1239 2020-09-20 10:22:02Z nevcairiel $ ]]--
+=======
+--[[ $Id: AceGUIWidget-DropDown.lua 1284 2022-09-25 09:15:30Z nevcairiel $ ]]--
+>>>>>>> Stashed changes
 local AceGUI = LibStub("AceGUI-3.0")
 
 -- Lua APIs
@@ -11,10 +15,13 @@ local PlaySound = PlaySound
 local UIParent, CreateFrame = UIParent, CreateFrame
 local _G = _G
 
+<<<<<<< Updated upstream
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
 -- GLOBALS: CLOSE
 
+=======
+>>>>>>> Stashed changes
 local function fixlevels(parent,...)
 	local i = 1
 	local child = select(i, ...)
@@ -253,7 +260,11 @@ do
 
 	local function Constructor()
 		local count = AceGUI:GetNextWidgetNum(widgetType)
+<<<<<<< Updated upstream
 		local frame = CreateFrame("Frame", "AceGUI30Pullout"..count, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+=======
+		local frame = CreateFrame("Frame", "AceGUI30Pullout"..count, UIParent, "BackdropTemplate")
+>>>>>>> Stashed changes
 		local self = {}
 		self.count = count
 		self.type = widgetType
@@ -304,7 +315,11 @@ do
 		scrollFrame.obj = self
 		itemFrame.obj = self
 
+<<<<<<< Updated upstream
 		local slider = CreateFrame("Slider", "AceGUI30PulloutScrollbar"..count, scrollFrame, BackdropTemplateMixin and "BackdropTemplate" or nil)
+=======
+		local slider = CreateFrame("Slider", "AceGUI30PulloutScrollbar"..count, scrollFrame, "BackdropTemplate")
+>>>>>>> Stashed changes
 		slider:SetOrientation("VERTICAL")
 		slider:SetHitRectInsets(0, 0, -10, 0)
 		slider:SetBackdrop(sliderBackdrop)
@@ -351,7 +366,11 @@ end
 
 do
 	local widgetType = "Dropdown"
+<<<<<<< Updated upstream
 	local widgetVersion = 35
+=======
+	local widgetVersion = 36
+>>>>>>> Stashed changes
 
 	--[[ Static data ]]--
 
@@ -376,7 +395,10 @@ do
 
 	local function Dropdown_TogglePullout(this)
 		local self = this.obj
+<<<<<<< Updated upstream
 		PlaySound(856) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON
+=======
+>>>>>>> Stashed changes
 		if self.open then
 			self.open = nil
 			self.pullout:Close()

@@ -1,253 +1,304 @@
 FGI.L.zhCN = {}
 local L = FGI.L.zhCN
-L["1 день"] = "1 day"
-L["1 месяц"] = "1 month"
-L["1 неделя"] = "1 week"
-L["6 месяцев"] = "6 months"
-L["blacklist"] = "/fgi blacklist <Name> - <Reason> - Add a player to the blacklist"
-L["blacklistAdd"] = "!blacklistAdd <Name> - <Reason> - add a player to the blacklist"
-L["blacklistDelete"] = "!blacklistDelete <Name> - <Reason> - remove player from blacklist"
-L["blacklistGetList"] = "!blacklistGetList - get the list of players in the black list"
-L["BloodElf"] = "Blood Elf"
+L["\"AM\" or \"PM\""] = "“上午” 或者 “下午”"
+L["1 день"] = "一天"
+L["1 месяц"] = "一个月"
+L["1 неделя"] = "一周"
+L["24 часа"] = "24小时"
+L["6 месяцев"] = "六个月"
+L["blacklist"] = "/fgi blacklist <名字> - <原因> - 增加一名玩家到黑名单"
+L["blacklistAdd"] = "!blacklistAdd <名字> - <原因> - 增加一名玩家到黑名单"
+L["blacklistDelete"] = "!blacklistDelete <名字> - <原因>  - 从黑名单移除一名玩家"
+L["blacklistGetList"] = "!blacklistGetList - 获取黑名单列表"
+L["BloodElf"] = "血精灵"
 L["c-"] = "c-"
-L["commandList"] = "The following commands are available in the officer channel:"
-L["DarkIronDwarf"] = "Dark Iron Dwarf"
-L["defaultReason"] = "no reason"
-L["Draenei"] = "Draenei"
-L["Dwarf"] = "Dwarf"
-L["factorySettings"] = "/fgi factorySettings - Full reset of the addon database"
-L["fgi"] = "!fgi - list of available commands"
-L["filter"] = [=[LMB-enable/disable
-RMB-change
-Shift+LMB-delete
-
-]=]
-L["filterTooltip"] = [=[Filter Name:%s
-status:%s
-filter by Name:%s
-level range:%s
-repeat filter in name:%d:%d
-classes:%s
-race:%s
-number of filter triggers:%d]=]
-L["Gnome"] = "Gnome"
-L["help2"] = "/fgi help2 - Commands with prefix \"!\""
-L["HightmountainTauren"] = "Hightmountain Tauren"
-L["intro"] = "|cff00ff96Commands prefixed with \"|cffff0000!|r|cff00ff96\" created for officers who do not have an add-on installed, these commands can only be used in the officer channel.|r"
-L["invite"] = "/fgi invite - Invite the first player from the queue"
-L["KulTiran"] = "Kul Tiran"
-L["LightforgedDraenei"] = "Lightforged Draenei"
-L["MagharOrc"] = "Maghar Orc"
-L["minimap"] = [=[LMB-invite
-RMB-Open main window
-Shift+:LMB-Pause/continue
-
-Queue:%d
-progress:%s]=]
-L["nextSearch"] = "/fgi nextSearch - Run next scan"
-L["Nightborne"] = "Nightborne"
-L["NightElf"] = "Night Elf"
-L["Orc"] = "Orc"
-L["Pandaren"] = "Pandaren"
+L["clearLeave"] = "/fgi clearLeave - 清除退出公会的人员名单"
+L["commandList"] = "以下命令在官员频道可用"
+L["DarkIronDwarf"] = "黑铁矮人"
+L["date"] = "日期"
+L["date and time"] = "日期和时间"
+L["day"] = "日"
+L["defaultReason"] = "默认原因"
+L["Draenei"] = "德莱尼"
+L["dump"] = "/fgi dump - 打开一个窗口显示插件信息。"
+L["Dwarf"] = "矮人"
+L["Evoker"] = "唤魔师"
+L["factorySettings"] = "/fgi factorySettings - 完全重置插件数据库"
+L["fgi"] = "!fgi - 可用命令清单"
+L["filter"] = [=[左键-开/关
+右键-更改
+Shift+左键-删除]=]
+L["filterTooltip"] = [=[筛选器名称:%s
+按状态:%s
+按名字:%s
+按等级范围:%s
+按名字重复:%d:%d
+按职业:%s
+按种族:%s
+筛选条件数量:%d]=]
+L["Gnome"] = "侏儒"
+L["help2"] = "/fgi help2 - 有\"!\"前缀的命令"
+L["HightmountainTauren"] = "至高岭牛头人"
+L["hour, using a 12-hour clock"] = "小时，使用12小时制"
+L["hour, using a 24-hour clock"] = "小时，使用24小时制"
+L["intro"] = "|cff00ff96有\"|cffff0000!|r|cff00ff96\"前缀的命令，为没安装插件的官员创建，这些命令只可以用于官员频道。|r"
+L["invite"] = "/fgi invite - 邀请队列中的第一名玩家"
+L["KeyBind"] = "按键设置"
+L["KulTiran"] = "库尔提拉斯人"
+L["LightforgedDraenei"] = "光铸德莱尼"
+L["MagharOrc"] = "玛格汉兽人"
+L["Mechagnome"] = "机械侏儒"
+L["minimap"] = [=[左键-邀请
+右键-打开主窗口
+Shift+:左键-暂停/继续
+队列:%d
+进度:%s]=]
+L["minute"] = "分钟"
+L["month"] = "月"
+L["nextSearch"] = "下一搜索"
+L["Nightborne"] = "夜之子"
+L["NightElf"] = "暗夜精灵"
+L["none"] = "无"
+L["Orc"] = "兽人"
+L["Pandaren"] = "熊猫人"
 L["r-"] = "r-"
-L["RAID_DIFFICULTY_NAME_HEROIC"] = "Heroic"
-L["RAID_DIFFICULTY_NAME_MYTHIC"] = "Mythic"
-L["RAID_DIFFICULTY_NAME_NORMAL"] = "Normal"
+L["RAID_DIFFICULTY_NAME_HEROIC"] = "英雄"
+L["RAID_DIFFICULTY_NAME_MYTHIC"] = "史诗"
+L["RAID_DIFFICULTY_NAME_NORMAL"] = "普通"
 L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = "H"
 L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
 L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "N"
-L["resetDB"] = "/fgi resetDB - Clear the list of sent invitations."
-L["resetWindowsPos"] = "/fgi resetWindowsPos - Reset the position of the window(s)."
-L["show"] = "/fgi show - Open the main window of the addon"
-L["Tauren"] = "Tauren"
-L["unblacklist"] = "/fgi unblacklist <Name> - Remove player from blacklist"
-L["VoidElf"] = "Void Elf"
-L["ZandalariTroll"] = "Zandalari Troll"
-L["Автоматическое увеличение детализации поиска"] = "Automatically increase search details."
-L["Автор"] = "Author"
-L["Безопасность"] = "Security"
-L["Благодарности"] = "Credits"
-L["Быстрое добавление в черный список"] = "Quick add to blacklist"
+L["resetDB"] = "/fgi resetDB - 清空已邀请列表"
+L["resetWindowsPos"] = "/fgi resetWindowsPos - 重置窗口位置。"
+L["second"] = "秒"
+L["show"] = "/fgi show - 显示插件主窗口"
+L["Tauren"] = "牛头人"
+L["the character"] = "角色"
+L["the character name"] = "角色名字"
+L["time"] = "时间"
+L["unblacklist"] = "/fgi unblacklist <名字> - 将玩家移出黑名单"
+L["VoidElf"] = "虚空精灵"
+L["weekday"] = "星期几"
+L["year"] = "年"
+L["z-"] = "z-"
+L["ZandalariTroll"] = "赞达拉巨魔"
+L["Автоматическое увеличение детализации поиска"] = "自动增加搜索细节"
+L["Автор"] = "作者"
+L["Аддоны"] = "插件"
+L["Безопасность"] = "安全"
+L["Благодарности"] = "鸣谢"
+L["Быстрое добавление в черный список"] = "快速加入黑名单"
 L[ [=[Введите диапазон уровней для фильтра.
 Например: %s55%s:%s58%s
 будут подходить только те игроки, уровень
-которых варьируется от %s55%s до %s58%s (включительно)]=] ] = [=[Enter a range of levels for the filter.
-for Example:%s55%s:%s58%s
-will be approached only by those players, the level
-which varies from%s55%s to %s58%s (inclusive)]=]
+которых варьируется от %s55%s до %s58%s (включительно)]=] ] = [=[为筛选器输入一个等级范围.
+例如:%s55%s:%s58%s
+意味着只会筛选等级在%s55%s 到 %s58%s (包含)的玩家]=]
 L[ [=[Введите максимальное количество последовательных
 гласных и согласных, которое может содержать имя игрока.
 Например: %s3%s:%s5%s
 Будет означать, что игроки с более чем %s3%s гласными подряд
-или более %s5%s согласными подряд не будут добавлены в очередь.]=] ] = [=[Enter the maximum number of consecutive
-vowels and consonants that may contain the player's name.
-for Example:%s3%s:%s5%s
-will mean that players with more than%s3%s vowels in a row
-or more%s5%s consonants will not be added to Queue.]=]
-L["Вкл/Выкл"] = "On/Off"
-L["вкл/выкл"] = "On/Off"
-L["Включен"] = "Included"
-L["Включить фильтры"] = "Enable filters"
-L["Время запоминания игрока"] = "Player memorization time"
-L["Все"] = "All"
-L["Вы можете перемещать окно за его фон и закрыть его двойным кликом."] = "You can move the window behind its background and close it with a double click."
-L["Вы не состоите в гильдии или у вас нет прав для приглашения."] = "You are not a member of the guild or you do not have permission to invite."
-L["Вы уверены?"] = "Are you sure?"
-L["Выберите сообщение"] = "Select message"
-L["Выбрать приглашения"] = "Choose invitations"
-L["Выключен"] = "Switched off"
-L["Выключить отправляемые сообщения"] = "Disable sent messages"
-L["Выключить системные сообщения"] = "Turn off system messages"
-L["Выключить сообщения аддона"] = "Disable addon messages"
-L["Да"] = "Yes"
-L["Данные для синхронизации"] = "Data to sync"
-L["Данные для синхронизации не выбраны"] = "No sync data selected"
-L["Данные игрока"] = "Player info"
-L["Данные синхронизированы с игроком %s."] = "Data synchronized with player %s."
-L["Диапазон уровней"] = "Level range"
-L["Диапазон уровней (Мин:Макс)"] = "Level Range (Min: Max)"
-L["Для изменения значений используйте колесо мыши"] = "Use the mouse wheel to change the values."
-L["Добавить"] = "Add"
-L["Добавить фильтр"] = "Add filter"
-L["Добавлять кнопки аддона в выпадающее меню"] = "Add addon buttons to dropdown menu"
-L["Дополнительные настройки сканирования"] = "Advanced Scan Settings"
-L["Другая помощь"] = "Other Help"
+или более %s5%s согласными подряд не будут добавлены в очередь.]=] ] = [=[输入包含玩家名字关键字的最大数量
+例如:%s3%s:%s5%s
+意味着只会添加名字大于%s3%s或%s5%s 个字的玩家到队列]=]
+L["Вкл/Выкл"] = "开/关"
+L["вкл/выкл"] = "开/关"
+L["Включен"] = "已启用"
+L["Включить фильтры"] = "启用筛选器"
+L["Время запоминания игрока"] = "玩家记忆时间"
+L["Все"] = "全部"
+L["Вы можете перемещать окно за его фон и закрыть его двойным кликом."] = "(关闭后)你可以按住背景移动窗口也可以双击背景关闭窗口"
+L["Вы не состоите в гильдии или у вас нет прав для приглашения."] = "你不是公会成员或你没有权限邀请"
+L["Вы уверены?"] = "你确定吗?"
+L["Выберите сообщение"] = "选择消息"
+L["Выбрать приглашения"] = "选择邀请"
+L["Выключен"] = "已关闭"
+L["Выключить отправляемые сообщения"] = "禁用已发送的消息"
+L["Выключить системные сообщения"] = "禁用系统消息"
+L["Выключить сообщения аддона"] = "禁用插件消息"
+L["Гильдия"] = "公会"
+L["Да"] = "是"
+L["Данные для синхронизации"] = "要同步的数据"
+L["Данные для синхронизации не выбраны"] = "没选择要同步的消息"
+L["Данные игрока"] = "玩家信息"
+L["Данные синхронизированы с игроком %s."] = "与玩家 %s 同步"
+L["Диапазон уровней"] = "等级范围"
+L["Диапазон уровней (Мин:Макс)"] = "等级范围 (最小: 最大)"
+L["Для изменения значений используйте колесо мыши"] = "用滚轮更改等级数值"
+L["Добавить"] = "增加"
+L["Добавить фильтр"] = "增加筛选器"
+L["Добавлять кнопки аддона в выпадающее меню"] = "向下拉菜单添加按钮"
+L["Дополнительные настройки сканирования"] = "高级搜索设置"
+L["Другая помощь"] = "其他帮助"
 L[ [=[Если имя игрока содержит введенную
-фразу, он не будет добавлен в очередь]=] ] = [=[If the player name contains the entered
-phrase, it will not be added to the queue]=]
-L["Заголовок окна"] = "Window title"
-L["Заметка для новых игроков"] = "Note for new players"
-L["Заметка для офицеров для новых игроков"] = "Officer note for new players"
-L["Записывать игрока в базу данных даже если приглашение не было отправлено"] = "Write a player to the database even if the invitation has not been sent"
-L["Записывать игрока в базу данных сразу после нахождения"] = "Write the player to the database immediately after finding"
-L["Запоминать всех игроков"] = "Remember all players"
-L["Запрос синхронизации у: %s. %d"] = "Sync Request: %s. %d"
-L["Запрос: %s. Поиск вернул игроков: %d"] = "Query: %s. Returned players: %d"
-L["Запускать в фоновом режиме"] = "Run in the background"
-L["Запускать поиск в фоновом режиме"] = "Run a background search"
-L["Значение может быть только числом"] = "The value can only be a number"
-L["Игнорировать"] = "Ignore"
-L["Игрок %s добавлен в черный список."] = "Player %s has been blacklisted."
-L["Игрок %s найденный в черном списке, находится в вашей гильдии!"] = "Blacklisted %s player is in your guild!"
-L["Игрок %s не найден в черном списке"] = "Player %s not found on the blacklist"
-L["Игрок %s удален из черного списка"] = "Player %s removed from the blacklist"
+фразу, он не будет добавлен в очередь]=] ] = "如果玩家名字包含输入的关键字，那么不会添加到队列"
+L["Заголовок окна"] = "窗口标题"
+L["Заметка для новых игроков"] = "备注新玩家"
+L["Заметка для офицеров для новых игроков"] = "官员备注新玩家"
+L["Записывать игрока в базу данных даже если приглашение не было отправлено"] = "即使还没有发送邀请，也将一名玩家名字写入数据库"
+L["Записывать игрока в базу данных сразу после нахождения"] = "找到玩家后立即将其名字写入数据库"
+L["Запоминать всех игроков"] = "记住所有玩家"
+L["Запрос синхронизации у: %s. %d"] = "请求同步: %s. %d"
+L["Запрос: %s. Поиск вернул игроков: %d"] = "队列: %s. 返回的玩家数: %d"
+L["Запускать в фоновом режиме"] = "在后台运行"
+L["Запускать поиск в фоновом режиме"] = "在后台运行搜索"
+L["Значение может быть только числом"] = "该值只能是数字"
+L["Зоны"] = "区域"
+L["Игнорировать"] = "忽略"
+L["Игнорировать игроков в рейдах, подземельях, аренах, полях боя. (только текущее дополнение)"] = "忽略在团队中，在地下城中，在竞技场中，在战场中的玩家。（仅当前）"
+L["Игнорировать тихие зоны"] = "忽略安静区域中的玩家"
+L["Игрок %s добавлен в черный список."] = "玩家 %s 已在黑名单中"
+L["Игрок %s найденный в черном списке, находится в вашей гильдии!"] = "黑名单玩家 %s 在你的公会中!"
+L["Игрок %s не найден в черном списке"] = "玩家 %s 不在黑名单中"
+L["Игрок %s удален из черного списка"] = "玩家 %s 已从黑名单中移除"
 L[ [=[Игрок %s хочет синхронизировать %s.
-Разрешить?]=] ] = [=[Player %s wants to sync %s.
-Allow?]=]
-L["Игрок для синхронизации"] = "Player to sync"
-L["Игрок для синхронизации не выбран"] = "No sync player selected"
-L["Игрок не добавлен в список исключений."] = "The player is not added to the exceptions list."
-L["Игроков найдено: %d"] = "Players found: %d"
-L["Имя"] = "Name"
-L["Имя фильтра"] = "Filter name"
-L["Имя фильтра занято"] = "Filter name is busy"
-L["Имя фильтра не может быть пустым"] = "Filter name cannot be empty"
-L["Интервал"] = "Interval"
-L["Использовать пользовательский список запросов"] = "Use custom query list"
-L["Категория"] = "Category"
-L["Классы:"] = "Classes:"
-L["Количество ошибок: %d"] = "Number of errors: %d"
-L["Количество уровней сканируемых за один раз"] = "Number of levels scanned at one time"
-L["Контакт"] = "Contact"
-L["Короткое название рейда, как в подсказке Raider IO"] = "The short name of the raid, as in the Raider IO tooltip"
-L["Логи"] = "Logs"
-L["Максимальное количество фильтров %s. Пожалуйста измените или удалите имеющийся фильтр."] = "The maximum number of filters %s. Please change or remove existing filter."
-L["Нажмите на фильтр для изменения состояния"] = "Click on the filter to change the state"
-L["Назначить клавишу для приглашения"] = "Assign a key to the invitation"
-L["Назначить клавишу следующего поиска"] = "Assign a key to the next search"
-L["Назначить кнопку (%s)"] = "Assign button (%s)"
-L["Настроить интерфейс"] = "Customize interface"
-L["Настроить сообщения"] = "Customize posts"
-L["Настройка сообщений, подсказка"] = [=[Auto Replace.
-NAME is the name of the player to whom the message is sent.
-GUILD is the name of your guild
-GUILDLINK - guild link.]=]
-L["Настройки"] = "Settings"
-L["Начало синхронизации"] = "Start Sync"
-L["Начать сканирование"] = "Start Scan"
-L["Не отображать в чате отправляемые сообщения"] = "Do not show sent messages in chat"
-L["Не отображать в чате системные сообщения"] = "Do not display system messages in Chat"
-L["Не отображать в чате сообщения аддона"] = "Do not display addon messages in Chat"
-L["Не отображать значок у миникарты"] = "Do not display the minimap icon."
-L["Не отображать окно ввода причины для черного списка"] = "Do not display the input box for the reason for the blacklist"
-L["Невозможно выполнить действие."] = "Unable to complete the action."
-L["Невозможно создать ссылку гильдии. Откройте окно гильдии и попробуйте снова. Если проблема не устранена, вероятно вы не можете создавать ссылку гильдии."] = "Unable to create guild link. Open the guild window and try again. If the problem persists, you probably cannot create a guild link."
-L["Нельзя добавить пустое сообщение"] = "Cannot add empty message"
-L["Нельзя сохранить пустое сообщение"] = "Cannot save empty message"
-L["Неправильный шаблон"] = "Wrong template"
-L["Нет"] = "No"
-L["Обычный поиск"] = "Normal Search"
-L["Обязательное поле \"Имя фильтра\", пустые текстовые поля не используются при фильтрации."] = [=[Required field "Filter name",
-empty text boxes are not used in filtering. ]=]
-L["Откл."] = "Turn off"
-L["Отклонить"] = "Reject"
-L["Отключить"] = "Disable"
-L["Отправить запрос"] = "Send request"
-L["Отправить сообщение и пригласить"] = "Send a message and invite"
-L["Ошибка типа синхронизации"] = "Sync type error"
-L["Панель кнопок"] = "Button bar"
-L["Перевод"] = "Translate"
-L["Подтверждение отправки данных синхронизации"] = "Confirmation of sending synchronization data"
-L["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"] = "Search returned 50 or more results, it is recommended to change the search settings. Query: %s"
-L["Поиск разблокирован"] = "Search Unlocked"
-L["Показывать в чате текущий запрос"] = "Show current request in chat"
-L["Поле может содержать только буквы"] = "This field can only contain letters. "
-L["Полоса прогресса"] = "Progress bar"
-L["Пользовательский список"] = "Custom list"
-L["Превышен лимит ожидания ответа"] = "Response timeout limit exceeded"
-L["Превышен лимит символов. Максимальная длина сообщения 255 символов. Длина сообщения превышена на %d"] = "Character limit exceeded. The maximum message length is 255 characters. Message length exceeded by %d"
-L["Предпросмотр: %s"] = "Preview: %s"
-L["Пригласить"] = "Invite"
-L["Пригласить: %d"] = "Invite: %d"
-L["Причина"] = "Reason"
-L["Причина по умолчанию для черного списка"] = "Default reason for blacklist"
-L["Расширенное сканирование"] = "Advanced Scan"
-L["Расы:"] = "Race:"
-L["Режим приглашения"] = "Invitation mode"
-L["Сбросить"] = "Reset"
+Разрешить?]=] ] = [=[玩家 %s 想要同步 %s.
+是否允许?]=]
+L["Игрок для синхронизации"] = "要同步的玩家"
+L["Игрок для синхронизации не выбран"] = "没选择要同步的玩家"
+L["Игрок не добавлен в список исключений."] = "玩家没加入豁免清单"
+L["Игроки отклонившие приглашение"] = "拒绝邀请的玩家"
+L["Игроки отклонившие приглашение автоматически"] = "自动拒绝邀请的玩家"
+L["Игроков найдено: %d"] = "找到玩家: %d"
+L["Имя"] = "名字"
+L["Имя фильтра"] = "筛选器名称"
+L["Имя фильтра занято"] = "筛选器名称已占用"
+L["Имя фильтра не может быть пустым"] = "筛选器名称不能为空"
+L["Интервал"] = "间隔"
+L["Использовать пользовательский список запросов"] = "使用自定义队列清单"
+L["Категория"] = "类别"
+L["Классы:"] = "职业："
+L["Количество запущенных поисков"] = "开始的搜索数量"
+L["Количество ошибок: %d"] = "错误数量: %d"
+L["Количество уровней сканируемых за один раз"] = "同时搜索的等级数量"
+L["Контакт"] = "联系人"
+L["Короткое название рейда, как в подсказке Raider IO"] = "团本简称，与Raider IO提示中的相同"
+L["Логи"] = "日志"
+L["Максимальное количество фильтров %s. Пожалуйста измените или удалите имеющийся фильтр."] = "筛选器最大数量 %s. 请修改或移除已有筛选器."
+L["Нажмите на фильтр для изменения состояния"] = "点击筛选器改变状态"
+L["Назначить клавишу для приглашения"] = "设置“邀请”按键"
+L["Назначить клавишу следующего поиска"] = "设置“搜索”按键"
+L["Назначить кнопку (%s)"] = "设置按键 (%s)"
+L["Найдено"] = "已找到"
+L["Найдено в результате поиска"] = "已在搜索结果中找到"
+L["Настроить интерфейс"] = "自定义界面"
+L["Настроить сообщения"] = "自定义信息"
+L["Настройка сообщений, подсказка"] = [=[自动替换.
+NAME - 你发给消息的玩家名字。
+GUILD - 你公会的名字。
+GUILDLINK - 公会链接。]=]
+L["Настройки"] = "设置"
+L["Начало синхронизации"] = "开始同步"
+L["Начать сканирование"] = "开始搜索"
+L["Не отображать в чате отправляемые сообщения"] = "不在聊天栏中显示发送的消息"
+L["Не отображать в чате системные сообщения"] = "不在聊天栏中显示系统消息"
+L["Не отображать в чате сообщения аддона"] = "不在聊天栏中显示插件消息"
+L["Не отображать значок у миникарты"] = "不显示小地图图标"
+L["Не отображать окно ввода причины для черного списка"] = "不显示加入黑名单原因输入框"
+L["Не отправлять приглашение"] = "不发送邀请"
+L["Не углублять поиск если вернулось 50 игроков"] = "如果返回50个玩家结果就不深入搜索"
+L["Невозможно выполнить действие."] = "无法完成操作"
+L["Невозможно создать ссылку гильдии. Откройте окно гильдии и попробуйте снова. Если проблема не устранена, вероятно вы не можете создавать ссылку гильдии."] = "无法创建公会链接，打开公会窗口并重试。如果问题持续存在，你可能无法创建公会链接。"
+L["Нельзя добавить пустое сообщение"] = "无法添加空消息"
+L["Нельзя сохранить пустое сообщение"] = "无法保存空消息"
+L["Неправильный шаблон"] = "错误的模板"
+L["Нет"] = "否"
+L["Обновить"] = "刷新"
+L["Обновления"] = "更新"
+L["Общее"] = "总体"
+L["Обычный поиск"] = "普通搜索"
+L["Обязательное поле \"Имя фильтра\", пустые текстовые поля не используются при фильтрации."] = [=[必填字段 "筛选器名称",
+空文本无法用于筛选]=]
+L["Окно поиска"] = "搜索窗口"
+L["Откл."] = "关闭"
+L["Отклонено"] = "已拒绝"
+L["Отклонено авт."] = "已自动拒绝"
+L["Отклонить"] = "拒绝"
+L["Отключить"] = "关闭"
+L["Отправить запрос"] = "发送请求"
+L["Отправить сообщение и пригласить"] = "发送消息并邀请"
+L["Отправленные приглашения"] = "发送邀请"
+L["Отправлено"] = "已发送"
+L["Ошибка типа синхронизации"] = "同步类型错误"
+L["Панель кнопок"] = "动作条"
+L["Перевод"] = "翻译"
+L["Подтверждение отправки данных синхронизации"] = "发送同步数据的确认选项"
+L["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"] = "搜索返回50或更多结果，推荐更改搜索设置 队列: %s"
+L["Поиск по локациям"] = "按地区搜索"
+L["Поиск разблокирован"] = "搜索已就绪"
+L["Поиски"] = "搜索"
+L["Показывать в чате текущий запрос"] = "在聊天栏中显示当前请求"
+L["Показывать список обновлений"] = "显示更新清单"
+L["Покинули"] = "离开"
+L["Покинули гильдию"] = "离开了公会"
+L["Поле может содержать только буквы"] = "该字段只能包含字母"
+L["Полоса прогресса"] = "进度条"
+L["Пользовательский список"] = "自定义筛选清单"
+L["Превышен лимит ожидания ответа"] = "响应超时"
+L["Превышен лимит символов. Максимальная длина сообщения 255 символов. Длина сообщения превышена на %d"] = "超出字符限制。最大消息长度是255个字符，超过了 %d 个字符。"
+L["Предпросмотр: %s"] = "预览: %s"
+L["Пригласить"] = "邀请"
+L["Пригласить: %d"] = "邀请: %d"
+L["Принято"] = "已接受"
+L["Принято приглашений"] = "已接受邀请"
+L["Причина"] = "原因"
+L["Причина по умолчанию для черного списка"] = "加入黑名单的默认原因"
+L["Расширенное сканирование"] = "高级搜索"
+L["Расы:"] = "种族："
+L["Режим приглашения"] = "邀请模式"
+L["Сбросить"] = "重置"
+L["Сбросить поиск"] = "重置搜索"
 L[ [=[Сбросить текущие поисковые запросы и результаты поиска.
-Не забывайте сбрасывать поиск если вы изменили диапазон уровней или список поисковых запросов.]=] ] = [=[Reset current searches and search results.
-Remember to reset your search if you change the level range or search query list.]=]
-L["Синхронизация"] = "Synchronization"
+Не забывайте сбрасывать поиск если вы изменили диапазон уровней или список поисковых запросов.]=] ] = [=[重置当前搜索和搜索结果
+如果你更改了等级范围或搜索队列清单，记得重置搜索]=]
+L["Синхронизация"] = "同步"
 L[ [=[Синхронизация с %s.
-%d/%d]=] ] = [=[Sync with %s.
+%d/%d]=] ] = [=[与 %s 同步
 %d/%d]=]
-L["Слово NAME заглавными буквами будет заменено на название вашей гильдии."] = "The word NAME in capital letters will be replaced with the name of your guild."
-L["Сообщать о добавлении в черный список в офицерский канал."] = "Report adding a player to the blacklist in the officer channel"
-L["Сообщение, если приглашение отклонено"] = "Message if invitation is declined"
-L["Сохранить"] = "Save"
-L["Сохранить состояние поиска"] = "Save search state"
-L["Сохранить состояние поиска между сессиями"] = "Save search state between sessions"
-L["Сочетание клавиш уже занято"] = "Keyboard shortcut busy"
-L["Список отправленных приглашений"] = "List of sent invitations"
-L["Список приглашенных"] = "List of invited players"
-L["Список фильтров"] = "Filter list"
-L["Суффикс рейда"] = "Raid Suffix"
-L["Текущее сообщение: %s"] = "Current message: %s"
-L["Тестирование"] = "Testing"
-L["Только пригласить"] = "Only invite"
-L["Только сообщение"] = "Message only"
-L["Требовать подтверждение сброса поиска"] = "Require confirmation to reset search"
-L["Требуется перезагрузка интерфейса"] = "Interface restart required"
-L["Уведомление о готовности нового поиска"] = "New Search Ready Notification"
-L["Уведомление о найденных игроках"] = "Found Players Notification"
-L["Удалить"] = "Delete"
-L["Умный поиск"] = "Smart Search"
-L["Уровень, с которого начинается фильтр по классам"] = "The level at which the filter starts by class"
-L["Уровень, с которого начинается фильтр по расам"] = "The level at which the race filter starts"
-L["Установить заметку для новых членов гильдии"] = "Set a note for new guild members"
-L["Установить заметку для офицеров для новых членов гильдии"] = "Set officer note for new guild members"
-L["Фильтр классов начало:"] = "Class Filter Start:"
-L["Фильтр по RaidProgress"] = "Filter by RaidProgress"
-L["Фильтр по RIO M+"] = "Filter by RIO M+"
-L["Фильтр по имени"] = "Filter by name"
-L["Фильтр повторений в имени"] = "Repeat filter in Name"
-L["Фильтр рас начало:"] = "Filter start races:"
-L["Фильтры"] = "Filters"
-L["Черный список"] = "Blacklist"
-L["Числа должны быть больше 0"] = "Numbers must be greater than 0"
-L["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"] = "Numbers cannot be less than or equal to 0. The minimum level cannot be greater than the maximum"
-L["Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров"] = "To be filtered, the player must meet the criteria of all filters"
+L["Слово NAME заглавными буквами будет заменено на название вашей гильдии."] = "大写字母的 NAME 会被替换成你的公会名称"
+L["Сообщать о добавлении в черный список в офицерский канал."] = "在官员频道中报告正在添加玩家到黑名单"
+L["Сообщение, если приглашение отклонено"] = "如果被拒绝了则发送消息"
+L["Сохранить"] = "保存"
+L["Сохранить состояние поиска"] = "保存搜索状态"
+L["Сохранить состояние поиска между сессиями"] = "保存搜索状态以备下次使用"
+L["Сочетание клавиш уже занято"] = "键盘快捷键已占用"
+L["Список отправленных приглашений"] = "已发送邀请清单"
+L["Список приглашенных"] = "已邀请玩家清单"
+L["Список фильтров"] = "筛选器清单"
+L["Статистика"] = "统计数据"
+L["Статистика поиска"] = [=[统计数据.
+共找到符合条件的玩家: %d
+已发送邀请: %d
+已接受邀请: %d
+被自定义筛选器筛选掉: %d]=]
+L["Строго"] = "严格地"
+L["Суффикс рейда"] = "团本后缀"
+L["Текущее сообщение: %s"] = "当前消息: %s"
+L["Тестирование"] = "测试中"
+L["Тихие зоны"] = "安静区域"
+L["Только пригласить"] = "只邀请"
+L["Только сообщение"] = "只发送消息"
+L["Требовать подтверждение сброса поиска"] = "重置搜索要求确认"
+L["Требуется перезагрузка интерфейса"] = "需要重新启动界面"
+L["Уведомление о готовности нового поиска"] = "新搜索准备就绪提醒"
+L["Уведомление о найденных игроках"] = "找到玩家提醒"
+L["Удалить"] = "删除"
+L["Умный поиск"] = "智能搜索"
+L["Уровень, с которого начинается фильтр по классам"] = "按职业筛选的起始等级"
+L["Уровень, с которого начинается фильтр по расам"] = "按种族筛选的起始等级"
+L["Установить заметку для новых членов гильдии"] = "为公会新成员设置备注"
+L["Установить заметку для офицеров для новых членов гильдии"] = "为公会新成员设置官员备注"
+L["Фильтр классов начало:"] = "按职业筛选："
+L["Фильтр по RaidProgress"] = "按团队进度筛选"
+L["Фильтр по RIO M+"] = "按RaiderIO M+筛选"
+L["Фильтр по имени"] = "按名字筛选"
+L["Фильтр повторений в имени"] = "按名字包含关键字筛选"
+L["Фильтр рас начало:"] = "按种族筛选："
+L["Фильтры"] = "筛选器"
+L["Черный список"] = "黑名单"
+L["Числа должны быть больше 0"] = "数字必须大于0"
+L["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"] = "数字不能小于等于0。最小等级不能大于最大等级。"
+L["Чтобы быть отфильтрованным, игрок должен соответствовать критериям ВСЕХ фильтров"] = "满足所有筛选器条件的玩家才会被筛选"
 
 
 
@@ -261,7 +312,6 @@ L.settings = {
 		backgroundRun = 220,
 		enableFilters = 150,
 		startScan = 130,
-		chooseInvites = 130,
 		settingsBtn = 130,
 		gratitude = 130,
 		lvlRange = 150,
@@ -291,8 +341,6 @@ L.settings = {
 		save = 100,
 		delete = 100,
 		add = 100,
-		chooseInvitesW = 400,
-		chooseInvitesH = 100,
 		reject = 100,
 		invite = 100,
 		blackListW = 200,

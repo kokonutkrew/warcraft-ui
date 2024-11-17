@@ -1,0 +1,20 @@
+
+FGI_DB = {
+["factionrealm"] = {
+["Alliance - Emerald Dream"] = {
+["guild"] = "kk",
+},
+},
+["profileKeys"] = {
+["Timecaster - Emerald Dream"] = "Default",
+},
+}
+FGI_DEBUG = {
+["profileKeys"] = {
+["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
+},
+["global"] = {
+{
+},
+},
+}

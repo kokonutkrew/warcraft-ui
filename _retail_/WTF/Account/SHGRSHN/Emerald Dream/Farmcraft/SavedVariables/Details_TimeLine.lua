@@ -2,6 +2,7 @@
 DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
+<<<<<<< Updated upstream
 		{
 			["date_end"] = "01:47:58",
 			["date_start"] = "01:47:21",
@@ -123,6 +124,14 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 	},
+=======
+	},
+	["hide_on_combat"] = false,
+	["IndividualSpells"] = {
+	},
+	["useicons"] = true,
+	["window_scale"] = 1,
+>>>>>>> Stashed changes
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
@@ -130,6 +139,7 @@ DetailsTimeLineDB = {
 		0.4, -- [4]
 	},
 	["deaths_data"] = {
+<<<<<<< Updated upstream
 		{
 		}, -- [1]
 		{
@@ -267,5 +277,13 @@ DetailsTimeLineDB = {
 				}, -- [4]
 			},
 		}, -- [3]
+=======
+	},
+	["debuff_timeline"] = {
+	},
+	["cooldowns_timeline"] = {
+	},
+	["BossSpellCast"] = {
+>>>>>>> Stashed changes
 	},
 }

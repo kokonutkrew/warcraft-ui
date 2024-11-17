@@ -1,13 +1,18 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "us-Samoanbatman-emerald-dream"
+RaiderIO_LastCharacter = "us-Ashh-emerald-dream"
 RaiderIO_MissingCharacters = {
+<<<<<<< Updated upstream
 	["us-Heliodus-emerald-dream"] = true,
 	["us-Smokey-emerald-dream"] = true,
 	["us-Kentgaming-emerald-dream"] = true,
 	["us-Aálni-emerald-dream"] = true,
 	["us-Nirame-emerald-dream"] = true,
 	["us-Lichtstrahl-emerald-dream"] = true,
+=======
+}
+RaiderIO_MissingServers = {
+>>>>>>> Stashed changes
 }
 RaiderIO_CachedRuns = nil

@@ -1,4 +1,5 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: ExRTMarksBar
 FrameLevel: 1
 Anchor: BOTTOMLEFT
@@ -27,3 +28,12 @@ X: 1
 Y: -233
 W: 400
 H: 140
+=======
+Frame: ColorPickerFrame
+FrameLevel: 118
+Anchor: TOP
+X: 247
+Y: -85
+W: 365
+H: 200
+>>>>>>> Stashed changes

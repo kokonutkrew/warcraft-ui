@@ -8,19 +8,23 @@ if not ldb then return end
 local plugin = ldb:NewDataObject(addonName, {
 	type = "data source",
 	text = "0",
-	icon = "Interface\\AddOns\\BugSack\\Media\\icon",
+	icon = "Interface\\AddOns\\"..addonName.."\\Media\\icon",
 })
 
 local BugGrabber = BugGrabber
 
 function plugin.OnClick(self, button)
 	if button == "RightButton" then
-		InterfaceOptionsFrame_OpenToCategory(addonName)
-		InterfaceOptionsFrame_OpenToCategory(addonName)
+		if InterfaceOptionsFrame_OpenToCategory then
+			InterfaceOptionsFrame_OpenToCategory(addonName)
+			InterfaceOptionsFrame_OpenToCategory(addonName)
+		else
+			Settings.OpenToCategory(addon.settingsCategory.ID)
+		end
 	else
 		if IsShiftKeyDown() then
 			ReloadUI()
-		elseif IsAltKeyDown() then
+		elseif IsAltKeyDown() and (addon.db.altwipe == true) then
 			addon:Reset()
 		elseif BugSackFrame and BugSackFrame:IsShown() then
 			addon:CloseSack()
@@ -33,11 +37,10 @@ end
 hooksecurefunc(addon, "UpdateDisplay", function()
 	local count = #addon:GetErrors(BugGrabber:GetSessionId())
 	plugin.text = count
-	plugin.icon = count == 0 and "Interface\\AddOns\\BugSack\\Media\\icon" or "Interface\\AddOns\\BugSack\\Media\\icon_red"
+	plugin.icon = count == 0 and "Interface\\AddOns\\"..addonName.."\\Media\\icon" or "Interface\\AddOns\\"..addonName.."\\Media\\icon_red"
 end)
 
 do
-	local hint = L["|cffeda55fClick|r to open BugSack with the last bug. |cffeda55fShift-Click|r to reload the user interface. |cffeda55fAlt-Click|r to clear the sack."]
 	local line = "%d. %s (x%d)"
 	function plugin.OnTooltipShow(tt)
 		local errs = addon:GetErrors(BugGrabber:GetSessionId())
@@ -51,7 +54,7 @@ do
 			end
 		end
 		tt:AddLine(" ")
-		tt:AddLine(hint, 0.2, 1, 0.2, 1)
+		tt:AddLine(L.minimapHint, 0.2, 1, 0.2, 1)
 	end
 end
 

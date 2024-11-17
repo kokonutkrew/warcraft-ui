@@ -1,5 +1,6 @@
 
 FGI_DB = {
+<<<<<<< Updated upstream
 	["profileKeys"] = {
 		["Scootervin - Emerald Dream"] = "Default",
 		["Threadcraft - Emerald Dream"] = "Default",
@@ -241,4 +242,184 @@ FGI_DEBUG = {
 		{
 		}, -- [1]
 	},
+=======
+["realm"] = {
+["Emerald Dream"] = {
+["leave"] = {
+["Ðomo"] = true,
+["Delmirey"] = true,
+["Dignity"] = true,
+["Ðropshot"] = true,
+},
+["blackList"] = {
+["Flyingsnow"] = "no reason",
+},
+["filtersList"] = {
+["All"] = {
+["lvlRange"] = false,
+["classFilter"] = false,
+["filterOn"] = true,
+["filteredCount"] = 0,
+["filterByName"] = false,
+["raceFilter"] = false,
+["rioMPlus"] = false,
+["rioRaid"] = false,
+},
+},
+},
+},
+["profileKeys"] = {
+["Samoansage - Emerald Dream"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Kkdev - Emerald Dream"] = "Default",
+},
+["global"] = {
+["introShow"] = false,
+["inviteType"] = 3,
+["scanFrame"] = {
+["yOfs"] = 58.0002326965332,
+["xOfs"] = -387.9995422363281,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+["community"] = {
+},
+["guildLinks"] = {
+["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
+},
+["keyBind"] = {
+["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
+["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
+},
+["mainFrame"] = {
+["yOfs"] = 135.9999542236328,
+["xOfs"] = 52.9998664855957,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+["minimap"] = {
+["minimapPos"] = 190.660438190305,
+},
+},
+["factionrealm"] = {
+["Alliance - Emerald Dream"] = {
+["search"] = {
+["state"] = "stop",
+["tempSendedInvites"] = {
+["Âzmodeus"] = true,
+["Shaaggy"] = true,
+["Sabben"] = true,
+["Adarind"] = true,
+["Soundasleep"] = true,
+["Jesterlavore"] = true,
+},
+["whoQueryList"] = {
+"1-30",
+"31-45",
+"46-52",
+"53-56",
+"57-58",
+"59-59",
+"60-60 r-\"Draenei\"",
+"60-60 r-\"Night Elf\" c-\"Warrior\"",
+"60-60 r-\"Night Elf\" c-\"Hunter\"",
+"60-60 r-\"Night Elf\" c-\"Rogue\"",
+"60-60 r-\"Night Elf\" c-\"Priest\"",
+"60-60 r-\"Night Elf\" c-\"Mage\"",
+"60-60 r-\"Night Elf\" c-\"Monk\"",
+"60-60 r-\"Night Elf\" c-\"Druid\"",
+"60-60 r-\"Night Elf\" c-\"Demon Hunter\"",
+"60-60 r-\"Night Elf\" c-\"Death Knight\"",
+"60-60 r-\"Kul Tiran\"",
+"60-60 r-\"Gnome\"",
+"60-60 r-\"Dwarf\"",
+"60-60 r-\"Mechagnome\"",
+"60-60 r-\"Worgen\"",
+"60-60 r-\"Void Elf\"",
+"60-60 r-\"Pandaren\"",
+"60-60 r-\"Human\" c-\"Warrior\"",
+"60-60 r-\"Human\" c-\"Paladin\"",
+"60-60 r-\"Human\" c-\"Hunter\"",
+"60-60 r-\"Human\" c-\"Rogue\"",
+"60-60 r-\"Human\" c-\"Priest\"",
+"60-60 r-\"Human\" c-\"Mage\"",
+"60-60 r-\"Human\" c-\"Warlock\"",
+"60-60 r-\"Human\" c-\"Monk\"",
+"60-60 r-\"Human\" c-\"Death Knight\"",
+"60-60 r-\"Lightforged Draenei\"",
+"60-60 r-\"Dark Iron Dwarf\"",
+},
+["progress"] = 4,
+["timeShift"] = 0,
+["inviteList"] = {
+{
+["race"] = "Human",
+["name"] = "Sabben",
+["lvl"] = 47,
+["class"] = "Warrior",
+["NoLocaleClass"] = "WARRIOR",
+},
+{
+["race"] = "Human",
+["name"] = "Soundasleep",
+["lvl"] = 46,
+["class"] = "Rogue",
+["NoLocaleClass"] = "ROGUE",
+},
+{
+["race"] = "Draenei",
+["name"] = "Jesterlavore",
+["lvl"] = 50,
+["class"] = "Paladin",
+["NoLocaleClass"] = "PALADIN",
+},
+{
+["race"] = "Night Elf",
+["name"] = "Adarind",
+["lvl"] = 50,
+["class"] = "Druid",
+["NoLocaleClass"] = "DRUID",
+},
+{
+["race"] = "Worgen",
+["name"] = "Âzmodeus",
+["lvl"] = 51,
+["class"] = "Druid",
+["NoLocaleClass"] = "DRUID",
+},
+{
+["race"] = "Human",
+["name"] = "Shaaggy",
+["lvl"] = 51,
+["class"] = "Warlock",
+["NoLocaleClass"] = "WARLOCK",
+},
+},
+["oldCount"] = 0,
+},
+["messageList"] = {
+"Hey NAME are you looking for a guild? Join the GUILDLINK or check us out at kokonutkrew.com",
+},
+},
+},
+}
+FGI_DEBUG = {
+["profileKeys"] = {
+["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+},
+["global"] = {
+{
+},
+},
+>>>>>>> Stashed changes
 }

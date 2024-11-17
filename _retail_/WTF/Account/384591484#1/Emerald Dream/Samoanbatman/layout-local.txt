@@ -1,4 +1,5 @@
 Version: 1
+<<<<<<< Updated upstream
 Frame: PLH_LootedItemsFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -7,9 +8,17 @@ Y: -233
 W: 400
 H: 140
 Frame: GRM_RosterChangeLogFrame
+=======
+Frame: ColorPickerFrame
+>>>>>>> Stashed changes
 FrameLevel: 1
 Anchor: CENTER
 X: 0
 Y: 0
+<<<<<<< Updated upstream
 W: 600
 H: 465
+=======
+W: 365
+H: 200
+>>>>>>> Stashed changes

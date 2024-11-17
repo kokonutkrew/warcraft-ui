@@ -36,10 +36,15 @@ E.Options.args.about = {
                     type = "description",
                     name = format("|T626001:0|t |cFF3FC7EB%s|r", E.author)
                 },
-                cob = {
+                rawrhax = {
                     order = 1,
                     type = "description",
-                    name = "Cob"
+                    name = "|T626000:0|t |cFFABD473Rawrsnax-Thrall (US)|r"
+                },
+                cob = {
+                    order = 2,
+                    type = "description",
+                    name = "|T626000:0|t |cFFABD473Cob-Thrall (US)|r"
                 }
             }
         },
@@ -54,7 +59,7 @@ E.Options.args.about = {
             name = L["Please report any bugs or request features on our issue board:"],
             width = "double",
             get = function()
-                return "https://github.com/MotherGinger/RecklessAbandon/issues"
+                return E.github
             end,
             set = E.noop
         }

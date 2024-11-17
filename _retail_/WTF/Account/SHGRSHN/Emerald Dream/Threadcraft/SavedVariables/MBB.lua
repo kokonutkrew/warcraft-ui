@@ -1,15 +1,25 @@
 
 MBB_Exclude = {
+	"TomCats-HivemindMinimapButton", -- [1]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
+<<<<<<< Updated upstream
+=======
+	["ExpandDirection"] = 1,
+>>>>>>> Stashed changes
 	["MaxButtonsPerLine"] = 0,
 	["DetachedButtonPos"] = "TOPLEFT",
 	["ButtonPos"] = {
+<<<<<<< Updated upstream
 		-26.7259635925293, -- [1]
 		-69.30982208251953, -- [2]
+=======
+		-26.49279975891113, -- [1]
+		-70.55296325683594, -- [2]
+>>>>>>> Stashed changes
 	},
-	["ExpandDirection"] = 1,
+	["DetachedButtonPos"] = "TOPLEFT",
 }

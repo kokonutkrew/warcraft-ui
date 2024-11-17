@@ -22,6 +22,7 @@ VExRT = {
 		["OptionsFormatting"] = true,
 	},
 	["ProfileKeys"] = {
+<<<<<<< Updated upstream
 		["Samoansage-EmeraldDream"] = "default",
 		["Samoanspy-EmeraldDream"] = "default",
 		["Samoantitan-Stormrage"] = "KokonutKrew",
@@ -62,6 +63,10 @@ VExRT = {
 		["Samoansage-Tichondrius"] = "default",
 		["Wealthgaming-EmeraldDream"] = "default",
 		["Tygrrlilly-Stormrage"] = "default",
+=======
+		["Cukie-EmeraldDream"] = "default",
+		["Cherriebomb-EmeraldDream"] = "default",
+>>>>>>> Stashed changes
 		["Grapejellie-EmeraldDream"] = "default",
 	},
 	["Encounter"] = {
@@ -124,6 +129,7 @@ VExRT = {
 			[1889] = "Exarch Maladaar",
 		},
 		["list"] = {
+<<<<<<< Updated upstream
 			["Samoanslayer"] = {
 			},
 			["Samoanrelic"] = {
@@ -152,6 +158,9 @@ VExRT = {
 			["Marshmello"] = {
 			},
 			["Kalin"] = {
+=======
+			["Cukie"] = {
+>>>>>>> Stashed changes
 			},
 			["Cherriebomb"] = {
 				"^1064^1^1566256959^97^0^5^14.40^Samoanslayer", -- [1]
@@ -288,6 +297,8 @@ VExRT = {
 			},
 			["Samoanstrap"] = {
 			},
+			["Grapejellie"] = {
+			},
 		},
 	},
 	["InviteTool"] = {
@@ -356,6 +367,7 @@ VExRT = {
 			["Druidics-Anvilmar"] = 102,
 			["Lwsx-Frostmourne"] = 261,
 			["Cherriebomb"] = 259,
+<<<<<<< Updated upstream
 			["Alesaya-Stormrage"] = 257,
 			["Wealthgaming"] = 71,
 			["Whrex-Hyjal"] = 70,
@@ -441,6 +453,9 @@ VExRT = {
 			["Peny-Lightbringer"] = 258,
 			["Uaebrocerbmo-Bladefist"] = 261,
 			["Samoanbatman"] = 581,
+=======
+			["Grapejellie"] = 103,
+>>>>>>> Stashed changes
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -636,6 +651,7 @@ VExRT = {
 		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
+<<<<<<< Updated upstream
 	["BattleRes"] = {
 		["Strata"] = "HIGH",
 	},
@@ -664,6 +680,15 @@ VExRT = {
 	},
 	["Profiles"] = {
 		["default"] = {
+=======
+	["Profiles"] = {
+	},
+	["BattleRes"] = {
+		["Strata"] = "HIGH",
+	},
+	["Note"] = {
+		["BlackNames"] = {
+>>>>>>> Stashed changes
 		},
 		["KokonutKrew"] = {
 			["RaidCheck"] = {
@@ -1951,6 +1976,28 @@ VExRT = {
 				},
 			},
 		},
+<<<<<<< Updated upstream
+=======
+		["BlackLastUpdateName"] = {
+		},
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["Strata"] = "HIGH",
+		["OnlyPromoted"] = true,
+		["BlackLastUpdateTime"] = {
+		},
+		["OptionsFormatting"] = true,
+	},
+	["Addon"] = {
+		["Timer"] = 0.1,
+		["Version"] = 4500,
+		["PreVersion"] = 4500,
+	},
+	["WhoPulled"] = {
+>>>>>>> Stashed changes
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
@@ -1958,6 +2005,14 @@ VExRT = {
 		["optionsPositionsDist"] = true,
 		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
+		},
+	},
+	["LootHistory"] = {
+		["instanceNames"] = {
+		},
+		["bossNames"] = {
+		},
+		["list"] = {
 		},
 	},
 	["Profile"] = "default",

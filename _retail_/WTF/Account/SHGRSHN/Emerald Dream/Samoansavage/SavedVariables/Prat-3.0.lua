@@ -14,6 +14,7 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
+<<<<<<< Updated upstream
 			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
@@ -21,11 +22,114 @@ Prat3CharDB = {
 			["ChatFrame2EditBox"] = {
 			},
 			["ChatFrame9EditBox"] = {
+=======
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/s https://www.worldofwarcraft.com/invite/9b4EXDAuNJW?region=US&faction=Alliance", -- [1]
+				"/p gl with your soul ash", -- [2]
+				"/p haha forsure", -- [3]
+				"/p but not enough time for me", -- [4]
+				"/p I do need torgahst", -- [5]
+				"/p Thanks for the inv though", -- [6]
+				"/p then I gotta log", -- [7]
+				"/p Im just doing some crafting stuff", -- [8]
+				"/p Im good thanks", -- [9]
+				"/p hey mate hows it going", -- [10]
+				"/p Hey guys", -- [11]
+				"/cw Dcollinz-Undermine doing the other side if you want", -- [12]
+				"/p kite", -- [13]
+				"/p drag out of crap", -- [14]
+				"/p we're fine", -- [15]
+				"/p on the phone", -- [16]
+				"/p weve got plenty of dps", -- [17]
+				"/p Ill go tanky", -- [18]
+				"/p lets get that summon and get started", -- [19]
+				"/p well get start as soon as she gets back", -- [20]
+				"/p Krimmz is taking a bio", -- [21]
+				"/p welcome", -- [22]
+				"/p Krim is in the bathroom", -- [23]
+				"/p hello", -- [24]
+				"/s /dance", -- [25]
+				"/g Helpin kids with homework and such", -- [26]
+				"/g Alright man, I'll be back in a bit", -- [27]
+				"/g is there a mount for it?", -- [28]
+				"/g lemme check", -- [29]
+				"/g lol", -- [30]
+				"/g Right?", -- [31]
+				"/s /gra !graaudit", -- [32]
+				"/s /gra help", -- [33]
+				"/s /GRA", -- [34]
+				"/s /spy config", -- [35]
+				"/p thanks for the run", -- [36]
+				"/p ggs", -- [37]
+				"/p dog aggro", -- [38]
+				"/p coming in hot", -- [39]
+				"/p dog lol", -- [40]
+				"/p chest open", -- [41]
+				"/p lol", -- [42]
+				"/p only fair right?", -- [43]
+				"/p k", -- [44]
+				"/p gotcha", -- [45]
+				"/p huh?", -- [46]
+				"/p sry was typing", -- [47]
+				"/p dammit", -- [48]
+				"/p need my cloak?", -- [49]
+				"/p ok", -- [50]
+				"/p just waiting for vanish cooldown", -- [51]
+				"/p this could be bad", -- [52]
+				"/p combat?", -- [53]
+				"/p and not have him follow me", -- [54]
+				"/p that way I can stealth", -- [55]
+				"/p you should grab him", -- [56]
+				"/p nice work next", -- [57]
+				"/p sry about that", -- [58]
+				"/p same", -- [59]
+				"/p Alright lets do this", -- [60]
+				"/p A healer would be nice but we can probably just go duo", -- [61]
+				"/p Cool", -- [62]
+				"/p you need both sides?", -- [63]
+				"/p hello", -- [64]
+				"/s wanna duo?", -- [65]
+				"/s /spy reset", -- [66]
+				"/s /spy rest", -- [67]
+				"/s /spy stats", -- [68]
+				"/s /spy", -- [69]
+				"/s /spy test", -- [70]
+				"/s /spy show", -- [71]
+				"/s /spy stats", -- [72]
+				"/s /spy", -- [73]
+				"/s /spy kos", -- [74]
+				"/s /wa", -- [75]
+				"/s /details config", -- [76]
+				"/s /reload", -- [77]
+				"/s /details options", -- [78]
+				"/s /details show", -- [79]
+				"/s /details", -- [80]
+				"/s /spy config", -- [81]
+				"/cw Tesgouch-EmeraldDream The struggle is real mate", -- [82]
+				"/s /reckless config", -- [83]
+				"/s /ec", -- [84]
+				"/s /reload", -- [85]
+				"/s /prat", -- [86]
+				"/g but I wonder how long it will stay that way", -- [87]
+				"/g Not really game breaking", -- [88]
+				"/g Do you see Samoansurge logged on currently?", -- [89]
+				"/g If you look in the guild roster", -- [90]
+				"/g hey honust- I think Ive got a ui issue", -- [91]
+				"/s /prat", -- [92]
+				"/s /clear", -- [93]
+>>>>>>> Stashed changes
 			},
 		},
 	},
 }
 Prat3HighCPUPerCharDB = {
+<<<<<<< Updated upstream
 	["time"] = 1566349198,
 	["scrollback"] = {
 		["ChatFrame101"] = {
@@ -2906,6 +3010,9 @@ Prat3HighCPUPerCharDB = {
 			},
 			["headIndex"] = 1,
 		},
+=======
+	["scrollback"] = {
+>>>>>>> Stashed changes
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
@@ -2928,6 +3035,7 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
+<<<<<<< Updated upstream
 		["ChatFrame67"] = {
 			["maxElements"] = 128,
 			["elements"] = {
@@ -4448,6 +4556,11 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 117,
+=======
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 39,
+>>>>>>> Stashed changes
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -4460,6 +4573,7 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[23:02:19]|h|r Captain Marjanic says: There have been thousands of attempts to breach this gate... all have failed!",
 					["serverTime"] = 1607839339,
 					["r"] = 1,
@@ -4495,11 +4609,46 @@ Prat3HighCPUPerCharDB = {
 					["r"] = 1,
 					["extraData"] = {
 						13, -- [1]
+=======
+					["message"] = "|Hpratcopy|h[08:35]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tYou have 2 friend |4request:requests;.",
+					["g"] = 0.7725490927696228,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177335,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[02:23]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177355,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[02:29]|h [S] |cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:24:SAY|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r |cffffffff|Hurl:https://www.worldofwarcraft.com/invite/9b4EXDAuNJW?region=US&faction=Alliance|h[https://www.worldofwarcraft.com/invite/9b4EXDAuNJW?region=US&faction=Alliance]|h|r",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177703,
+					["extraData"] = {
+						2, -- [1]
+>>>>>>> Stashed changes
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 312112.248,
 					["g"] = 1,
 					["b"] = 0.6235294342041016,
@@ -4965,6 +5114,264 @@ Prat3HighCPUPerCharDB = {
 				{
 					["message"] = "|cff979797|Hpratcopy|h[23:15:32]|h|r Zo'sorg says: One of the Horde's soldiers has been butchering your allies. I suggest you remind them of your superiority.",
 					["serverTime"] = 1607840132,
+=======
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[02:29]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:38:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tPineapple)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177722,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[02:31]|h |Hchannel:channel:1|h[1. General] |hChanged Channel: |Hchannel:CHANNEL:1|h[1. General - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177815,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[02:31]|h |Hchannel:channel:3|h[3. LocalDefense] |hChanged Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Garrison]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177815,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[02:31]|h You receive currency: |cffffffff|Hcurrency:824:0|h[Garrison Resources]|h|r x500.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177831,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[02:31]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:51:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tPRIEST666)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177847,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						3, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[02:33]|h Qiana Moonshadow says: May the stars shine upon you.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177968,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[02:33]|h Rangari Erdanii says: Archenon poros.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624177990,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[02:40]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Velyre-EmeraldDream:32:CHANNEL:2|h|cfffe7b09Velyre|r|h|cffd8d8d8]|r: <3 Vel <3  || Selling M+0 - M+20s!  Heroic/Mythic 10/10 Castle Nathria (AoTC only as well) Achievements/Mounts/Torghast/PvP/Hunter pets! GOLD ONLY!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624178361,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[02:43]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:93:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tbingobango)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624178576,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						3, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[02:45]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Velyre-EmeraldDream:34:CHANNEL:2|h|cfffe7b09Velyre|r|h|cffd8d8d8]|r: <3 Vel <3  || Selling M+15 159k TIMED ANY KEY. Get your KSM today! Gold only",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624178663,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 11 |4minute:minutes;, 14 |4second:seconds;",
+					["timestamp"] = 658304.294,
+				}, -- [14]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 658304.294,
+				}, -- [15]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 658270.685,
+				}, -- [16]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 658270.685,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cff9900ffWeakAuras:|r  There are 2 updates to your auras ready to be installed!",
+					["timestamp"] = 658270.685,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cFFFFF000iGuard: |rLoaded.",
+					["timestamp"] = 658303.453,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cFFFF0000iGuard: |riGuard is |cFF00FF00Enabled.",
+					["timestamp"] = 658303.453,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 658304.294,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 658304.294,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
+					["timestamp"] = 658304.294,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
+					["timestamp"] = 658304.294,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
+					["timestamp"] = 658304.294,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
+					["timestamp"] = 658304.294,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.21)|r:  hooked into Rematch",
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624179337,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624179337,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624179342,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 658304.294,
+					["serverTime"] = 1624179342,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1624179354,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 658322.405,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[02:56]|h [0. KK - ] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1624179357,
+					["timestamp"] = 658329.22,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[02:57]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
+					["timestamp"] = 658351.18,
+					["serverTime"] = 1624179379,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[02:57]|h |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 658370.167,
+					["serverTime"] = 1624179397,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[02:58]|h Breuuer says: Taking a look...",
+					["serverTime"] = 1624179467,
+>>>>>>> Stashed changes
 					["r"] = 1,
 					["extraData"] = {
 						13, -- [1]
@@ -4973,28 +5380,50 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 312876.13,
+=======
+					["timestamp"] = 658441.213,
+>>>>>>> Stashed changes
 					["g"] = 1,
 					["b"] = 0.6235294342041016,
 				}, -- [35]
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[23:15:32]|h|r Tìesto (Horde) is marked on your map as an |c00FFFF00|Hspell:272296|h[Assassin]|h|r! Slay them for a bounty reward.",
 					["serverTime"] = 1607840132,
+=======
+					["message"] = "|Hpratcopy|h[02:58]|h Breuuer tosses a coin in the fountain.",
+					["serverTime"] = 1624179492,
+>>>>>>> Stashed changes
 					["r"] = 1,
 					["extraData"] = {
 						17, -- [1]
 						false, -- [2]
+<<<<<<< Updated upstream
 						227, -- [3]
 						341, -- [4]
 						["n"] = 4,
 					},
 					["timestamp"] = 312876.155,
+=======
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 658465.587,
+>>>>>>> Stashed changes
 					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
 				}, -- [36]
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[23:15:49]|h|r Captain Marjanic says: Don't think this gate is any less important!",
 					["serverTime"] = 1607840149,
+=======
+					["message"] = "|Hpratcopy|h[02:59]|h Breuuer says: I could always use a little luck.",
+					["serverTime"] = 1624179494,
+>>>>>>> Stashed changes
 					["r"] = 1,
 					["extraData"] = {
 						13, -- [1]
@@ -5003,11 +5432,16 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
+<<<<<<< Updated upstream
 					["timestamp"] = 312893.099,
+=======
+					["timestamp"] = 658468.032,
+>>>>>>> Stashed changes
 					["g"] = 1,
 					["b"] = 0.6235294342041016,
 				}, -- [37]
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[23:15:58]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Theater of Pain is under attack!|r",
 					["serverTime"] = 1607840158,
 					["r"] = 1,
@@ -5019,10 +5453,24 @@ Prat3HighCPUPerCharDB = {
 						["n"] = 4,
 					},
 					["timestamp"] = 312902.145,
+=======
+					["message"] = "|Hpratcopy|h[02:59]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Velyre-EmeraldDream:46:CHANNEL:2|h|cfffe7b09Velyre|r|h|cffd8d8d8]|r: <3 Vel <3  || Selling M+15 159k TIMED ANY KEY. Get your KSM today! Gold only",
+					["serverTime"] = 1624179539,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 658512.933,
+>>>>>>> Stashed changes
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [38]
 				{
+<<<<<<< Updated upstream
 					["message"] = "|cff979797|Hpratcopy|h[23:16:25]|h|r Captain Marjanic says: There have been thousands of attempts to breach this gate... all have failed!",
 					["serverTime"] = 1607840185,
 					["r"] = 1,
@@ -6102,6 +6550,22 @@ Prat3HighCPUPerCharDB = {
 					["g"] = 1,
 					["b"] = 0.6235294342041016,
 				}, -- [128]
+=======
+					["message"] = "|Hpratcopy|h[03:00]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Ogwillybrown-EmeraldDream:47:CHANNEL:2|h|cff00fe97Ogwillybrown|r|h|cffd8d8d8]|r: get it done ^",
+					["serverTime"] = 1624179567,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 658541.139,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+>>>>>>> Stashed changes
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -6110,6 +6574,7 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
+<<<<<<< Updated upstream
 		["ChatFrame136"] = {
 			["maxElements"] = 128,
 			["elements"] = {
@@ -7344,5 +7809,7 @@ Prat3HighCPUPerCharDB = {
 			},
 			["headIndex"] = 1,
 		},
+=======
+>>>>>>> Stashed changes
 	},
 }

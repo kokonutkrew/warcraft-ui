@@ -14,11 +14,11 @@ function CargBagsMixin:Init()
 	hooksecurefunc(cbNivaya, "UpdateSlot", function(...) self:UpdateSlot(...) end)
 end
 
-function CargBagsMixin:SetTooltipItem(tooltip, item, locationInfo)
+function CargBagsMixin:GetTooltipData(item, locationInfo)
 	if locationInfo.bag == BANK_CONTAINER then
-		local hasItem, hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
+		return C_TooltipInfo.GetInventoryItem("player", BankButtonIDToInvSlotID(locationInfo.slot))
 	else
-		local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = tooltip:SetBagItem(locationInfo.bag, locationInfo.slot)
+		return C_TooltipInfo.GetBagItem(locationInfo.bag, locationInfo.slot)
 	end
 end
 
@@ -29,10 +29,6 @@ end
 function CargBagsMixin:UpdateSlot(frame, bagID, slotID)
 	local button = frame:GetButton(bagID, slotID)
 	local options = {
-		showMogIcon=true, 
-		showBindStatus=true,
-		showSellables=true,
-		iconPosition="TOPRIGHT" 
 	}
 
 	if button then
@@ -42,19 +38,24 @@ function CargBagsMixin:UpdateSlot(frame, bagID, slotID)
 end
 
 local Version = nil
-if select(4, GetAddOnInfo(addonName)) then
-	if IsAddOnLoaded(addonName) then
-		local global = GetAddOnMetadata(addonName, "X-cargBags")
+local isActive = false
+
+if select(4, C_AddOns.GetAddOnInfo(addonName)) then
+	if C_AddOns.IsAddOnLoaded(addonName) then
+		local global = C_AddOns.GetAddOnMetadata(addonName, "X-cargBags")
 		if global then
 			cargBags = _G[global]
 		end
 
-		Version = GetAddOnMetadata(addonName, "Version")
+		Version = C_AddOns.GetAddOnMetadata(addonName, "Version")
 		if not Version then
 			Version = "Unknown"
 		end
 		if cargBags then
 			CaerdonWardrobe:RegisterFeature(CargBagsMixin)
+			isActive = true
 		end
 	end
 end
+
+-- WagoAnalytics:Switch(addonName, isActive)

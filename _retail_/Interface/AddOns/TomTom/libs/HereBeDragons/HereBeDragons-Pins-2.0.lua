@@ -1,6 +1,10 @@
 -- HereBeDragons-Pins is a library to show pins/icons on the world map and minimap
 
+<<<<<<< Updated upstream
 local MAJOR, MINOR = "HereBeDragons-Pins-2.0", 8
+=======
+local MAJOR, MINOR = "HereBeDragons-Pins-2.0", 14
+>>>>>>> Stashed changes
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local pins, _oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -8,7 +12,11 @@ if not pins then return end
 
 local HBD = LibStub("HereBeDragons-2.0")
 
+<<<<<<< Updated upstream
 local WoW90 = select(4, GetBuildInfo()) >= 90000
+=======
+local MinimapRadiusAPI = C_Minimap and C_Minimap.GetViewRadius
+>>>>>>> Stashed changes
 
 pins.updateFrame          = pins.updateFrame or CreateFrame("Frame")
 
@@ -20,10 +28,26 @@ pins.minimapPinRegistry   = pins.minimapPinRegistry or {}
 -- and worldmap pins
 pins.worldmapPins         = pins.worldmapPins or {}
 pins.worldmapPinRegistry  = pins.worldmapPinRegistry or {}
+<<<<<<< Updated upstream
 pins.worldmapPinsPool     = pins.worldmapPinsPool or CreateFramePool("FRAME")
 pins.worldmapProvider     = pins.worldmapProvider or CreateFromMixins(MapCanvasDataProviderMixin)
 pins.worldmapProviderPin  = pins.worldmapProviderPin or CreateFromMixins(MapCanvasPinMixin)
 
+=======
+
+pins.worldmapProvider     = pins.worldmapProvider or CreateFromMixins(MapCanvasDataProviderMixin)
+pins.worldmapProviderPin  = pins.worldmapProviderPin or CreateFromMixins(MapCanvasPinMixin)
+
+if not pins.worldmapPinsPool then
+    -- new frame pools in WoW 11.x
+    if CreateUnsecuredRegionPoolInstance then
+        pins.worldmapPinsPool = CreateUnsecuredRegionPoolInstance("HereBeDragonsPinsTemplate")
+    else
+        pins.worldmapPinsPool = CreateFramePool("FRAME")
+    end
+end
+
+>>>>>>> Stashed changes
 -- store a reference to the active minimap object
 pins.Minimap = pins.Minimap or Minimap
 
@@ -218,7 +242,11 @@ local function UpdateMinimapPins(force)
         minimapShape = GetMinimapShape and minimap_shapes[GetMinimapShape() or "ROUND"]
         minimapWidth = pins.Minimap:GetWidth() / 2
         minimapHeight = pins.Minimap:GetHeight() / 2
+<<<<<<< Updated upstream
         if WoW90 then
+=======
+        if MinimapRadiusAPI then
+>>>>>>> Stashed changes
             mapRadius = C_Minimap.GetViewRadius()
         else
             mapRadius = minimap_size[indoors][zoom] / 2
@@ -295,7 +323,11 @@ local function UpdateMinimapIconPosition()
 
     if x ~= lastXY or y ~= lastYY or facing ~= lastFacing or refresh then
         -- update radius of the map
+<<<<<<< Updated upstream
         if WoW90 then
+=======
+        if MinimapRadiusAPI then
+>>>>>>> Stashed changes
             mapRadius = C_Minimap.GetViewRadius()
         else
             mapRadius = minimap_size[indoors][zoom] / 2
@@ -318,7 +350,11 @@ local function UpdateMinimapIconPosition()
 end
 
 local function UpdateMinimapZoom()
+<<<<<<< Updated upstream
     if not WoW90 then
+=======
+    if not MinimapRadiusAPI then
+>>>>>>> Stashed changes
         local zoom = pins.Minimap:GetZoom()
         if GetCVar("minimapZoom") == GetCVar("minimapInsideZoom") then
             pins.Minimap:SetZoom(zoom < 2 and zoom + 1 or zoom - 1)
@@ -333,6 +369,7 @@ end
 
 -- setup pin pool
 worldmapPinsPool.parent = WorldMapFrame:GetCanvas()
+<<<<<<< Updated upstream
 worldmapPinsPool.creationFunc = function(framePool)
     local frame = CreateFrame(framePool.frameType, nil, framePool.parent)
     frame:SetSize(1, 1)
@@ -340,12 +377,29 @@ worldmapPinsPool.creationFunc = function(framePool)
 end
 worldmapPinsPool.resetterFunc = function(pinPool, pin)
     FramePool_HideAndClearAnchors(pinPool, pin)
+=======
+worldmapPinsPool.createFunc = function()
+    local frame = CreateFrame("Frame", nil, WorldMapFrame:GetCanvas())
+    frame:SetSize(1, 1)
+    return Mixin(frame, worldmapProviderPin)
+end
+worldmapPinsPool.resetFunc = function(pinPool, pin)
+    pin:Hide()
+    pin:ClearAllPoints()
+>>>>>>> Stashed changes
     pin:OnReleased()
 
     pin.pinTemplate = nil
     pin.owningMap = nil
 end
 
+<<<<<<< Updated upstream
+=======
+-- pre-11.x func names
+worldmapPinsPool.creationFunc = worldmapPinsPool.createFunc
+worldmapPinsPool.resetterFunc = worldmapPinsPool.resetFunc
+
+>>>>>>> Stashed changes
 -- register pin pool with the world map
 WorldMapFrame.pinPools["HereBeDragonsPinsTemplate"] = worldmapPinsPool
 
@@ -464,6 +518,12 @@ function worldmapProviderPin:OnReleased()
     end
 end
 
+<<<<<<< Updated upstream
+=======
+-- hack to avoid in-combat error on 10.1.5
+worldmapProviderPin.SetPassThroughButtons = function() end
+
+>>>>>>> Stashed changes
 -- register with the world map
 WorldMapFrame:AddDataProvider(worldmapProvider)
 
@@ -493,7 +553,11 @@ pins.updateFrame:SetScript("OnUpdate", OnUpdateHandler)
 local function OnEventHandler(frame, event, ...)
     if event == "CVAR_UPDATE" then
         local cvar, value = ...
+<<<<<<< Updated upstream
         if cvar == "ROTATE_MINIMAP" then
+=======
+        if cvar == "rotateMinimap" or cvar == "ROTATE_MINIMAP" then
+>>>>>>> Stashed changes
             rotateMinimap = (value == "1")
             queueFullUpdate = true
         end

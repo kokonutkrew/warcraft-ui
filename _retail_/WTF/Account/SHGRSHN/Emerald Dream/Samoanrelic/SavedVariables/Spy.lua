@@ -1,5 +1,6 @@
 
 SpyPerCharDB = {
+<<<<<<< Updated upstream
 	["KOSData"] = {
 		["Meddling"] = 1608587648,
 		["Draazz"] = 1606942090,
@@ -80,4 +81,28 @@ SpyPerCharDB = {
 		},
 	},
 	["version"] = "1.1",
+=======
+	["PlayerData"] = {
+		["Madruga"] = {
+			["zone"] = "Darkmoon Faire",
+			["class"] = "WARLOCK",
+			["isEnemy"] = true,
+			["race"] = "Undead",
+			["name"] = "Madruga",
+			["isGuess"] = true,
+			["level"] = 1,
+			["time"] = 1628159479,
+			["subZone"] = "",
+		},
+	},
+	["IgnoreData"] = {
+	},
+	["version"] = "1.1",
+	["KOSData"] = {
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+>>>>>>> Stashed changes
 }

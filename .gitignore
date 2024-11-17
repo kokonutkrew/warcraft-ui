@@ -11,10 +11,24 @@
 ################################################################################
 # ＫＯＫＯＮＵＴＫＲＥＷ
 ################################################################################
+!\#kokonutkrew/api-notes.txt
+!\#kokonutkrew/help.txt
+!\#kokonutkrew/tsm-notes.txt
+!\#kokonutkrew/api-notes.txt
+!\#kokonutkrew/warcraft-logs.png
 
-!\#kokonutkrew/**
-\#kokonutkrew/bgnotifier
-\#kokonutkrew/raider.io
+!\#kokonutkrew/bgnotifier/**
+!\#kokonutkrew/hotkeynet/**
+!\#kokonutkrew/raiderio/download.lnk
+!\#kokonutkrew/tsm/app/download.lnk
+!\#kokonutkrew/warcraft-logs/download.lnk
+!\#kokonutkrew/wowhead/**
+!\#kokonutkrew/wowuides/**
+!\#kokonutkrew/zygor/download.lnk
+!\#kokonutkrew/zygor/addon/**
+
+
+
 
 ################################################################################
 # Retail

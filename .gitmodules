@@ -2,7 +2,3 @@
 	path = _classic_/Interface/AddOns/[update]/DBM-Classic
 	url = https://github.com/DeadlyBossMods/DBM-Classic.git
 	branch = master
-[submodule "#kokonutkrew/macros"]
-	path = "#kokonutkrew/macros"
-	url = https://S4M04NSL4Y3R@bitbucket.org/kokonoutkrew/macros.git
-	branch = master

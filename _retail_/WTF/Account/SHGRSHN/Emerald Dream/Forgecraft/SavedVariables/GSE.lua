@@ -1,3 +1,13 @@
 
-GSE_C = nil
+GSE_C = {
+["KeyBindings"] = {
+["3"] = {
+},
+},
+["Updates"] = {
+["3202"] = true,
+["3201"] = true,
+},
+["Update3117"] = true,
+}
 GSELegacyLibraryBackup = nil

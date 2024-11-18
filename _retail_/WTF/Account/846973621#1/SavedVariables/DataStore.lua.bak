@@ -1,0 +1,60 @@
+
+DataStore_GuildIDs = {
+["List"] = {
+"Default.Moon Guard.KK",
+"Default.EmeraldDream.KK",
+},
+["Count"] = 2,
+["Set"] = {
+["Default.Moon Guard.KK"] = 1,
+["Default.EmeraldDream.KK"] = 2,
+},
+}
+DataStore_GuildFactions = {
+"Alliance",
+"Alliance",
+}
+DataStore_CharacterIDs = {
+["List"] = {
+"Default.世界之樹.Buycraft",
+"Default.Moon Guard.Goldsquid",
+"Default.Area 52.Beauuty",
+"Default.Moon Guard.Naber",
+"Default.Sentinels.Goldsquid",
+"Default.Emerald Dream.Summonsquid",
+},
+["Count"] = 6,
+["Set"] = {
+["Default.Emerald Dream.Summonsquid"] = 6,
+["Default.Area 52.Beauuty"] = 3,
+["Default.世界之樹.Buycraft"] = 1,
+["Default.Moon Guard.Goldsquid"] = 2,
+["Default.Sentinels.Goldsquid"] = 5,
+["Default.Moon Guard.Naber"] = 4,
+},
+}
+DataStore_CharacterGUIDs = {
+"Player-966-07D62D3E",
+"Player-3675-0AB13D14",
+"Player-3676-0E854529",
+"Player-3675-0AB2EE79",
+"Player-1071-0DD09B8F",
+"Player-162-0BE7D056",
+}
+DataStore_CharacterGuilds = {
+[2] = 2,
+[4] = 1,
+}
+DataStore_AltGroups = {
+}
+DataStore_ConnectedRealms = {
+["EmeraldDream"] = "Moon Guard",
+["Moon Guard"] = "EmeraldDream",
+}
+DataStore_RealmNames = {
+["Area52"] = "Area 52",
+["Sentinels"] = "Sentinels",
+["EmeraldDream"] = "Emerald Dream",
+["MoonGuard"] = "Moon Guard",
+["世界之樹"] = "世界之樹",
+}

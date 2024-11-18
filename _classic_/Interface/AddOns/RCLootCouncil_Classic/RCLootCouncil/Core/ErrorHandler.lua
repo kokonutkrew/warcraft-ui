@@ -15,13 +15,38 @@ function ErrorHandler:OnInitialize ()
    self:RegisterEvent("ADDON_ACTION_BLOCKED", "OnEvent")
    self:RegisterEvent("ADDON_ACTION_FORBIDDEN", "OnEvent")
    self:RegisterEvent("LUA_WARNING", "OnEvent")
+   self:RegisterEvent("PLAYER_LOGOUT", "OnLogout")
    private.log = addon.db.global.errors
    private:ClearOldErrors()
 end
 
--- Temporaryly just print it to log
+local eventsToSupress = {
+   ["ADDON_ACTION_BLOCKED"] = true,
+   ["ADDON_ACTION_FORBIDDEN"] = true,
+   ["LUA_WARNING"] = true,
+}
+
+local supressedEvents = {}
+
 function ErrorHandler:OnEvent (...)
+   local args = {...}
+   if eventsToSupress[args[1]] then
+      local msg = strjoin(", ", ...)
+      if not supressedEvents[msg] then
+         supressedEvents[msg] = 1
+      else
+         supressedEvents[msg] = supressedEvents[msg] + 1
+         return
+      end
+   end
    addon:DebugLog(...)
+end
+
+function ErrorHandler:OnLogout()
+   addon:DebugLog("Supressed events count:")
+   for k, v in pairs(supressedEvents) do
+      addon:DebugLog(k, v)
+   end
 end
 
 function ErrorHandler:LogError (msg)
@@ -81,7 +106,7 @@ function private:IncrementErrorCount (errObj)
 end
 
 function private:SanitizeLine (line)
-   return line:gsub("Interface\\AddOns\\", "")
+   return line and line:gsub("Interface\\AddOns\\", "") or ""
 end
 
 function private:DoesErrorExist (err)
@@ -92,6 +117,7 @@ function private:DoesErrorExist (err)
 end
 
 function private:IsRCLootCouncilError (line)
+   if not line then return false end
    -- Don't track lines related to the error handler
    if strfind(line, "ErrorHandler.lua") then
       return false
@@ -114,7 +140,7 @@ function private:IsRCLootCouncilError (line)
    end
 
    function private:ErrorHandler (msg)
-      local msg = strtrim(tostring(msg))
+      local msg = strtrim(tostring(msg or ""))
       -- Determine if it's an RCLootCouncil related error
       if not self:IsRCLootCouncilError(msg) then
          local found = false

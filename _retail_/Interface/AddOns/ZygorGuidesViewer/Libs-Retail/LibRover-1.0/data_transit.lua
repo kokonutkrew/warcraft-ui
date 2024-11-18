@@ -83,17 +83,14 @@ data.basenodes.transit = --[[LIBROVER]] {
 	-----     TEMPORARY EVENT PORTALS     -----
 	-------------------------------------------
 	
-		-- Caverns of Time -x- Val'sharah
-		"Tanaris/0 62.34,49.42 -x- Val'sharah/0 53.90,67.59 {fac:B} {mode:PORTAL} {title_btoa:Click the Portal to\nCaverns of Time}"..
-		"{cond:PlayerCompletedQuest(82672)}",
+		-- Caverns of Time -x- Ohn'ahran Plains
+		"Tanaris/0 62.34,49.42 -x- Ohn'ahran Plains/0 36.93,57.47 {fac:B} {mode:PORTAL} {title_btoa:Click the Portal to\nCaverns of Time}",
 	
-		-- Caverns of Time -x- Stormheim
-		"Tanaris/0 62.39,49.37 -x- Stormheim/0 37.40,47.46 {fac:B} {mode:PORTAL} {title_btoa:Click the Portal to\nCaverns of Time}"..
-		"{cond:PlayerCompletedQuest(82672)}",
+		-- Caverns of Time -x- Waking Shores
+		"Tanaris/0 62.40,49.37 -x- The Waking Shores/0 33.25,76.53 {fac:B} {mode:PORTAL} {title_btoa:Click the Portal to\nCaverns of Time}",
 	
-		-- Caverns of Time -x- Suramar
-		"Tanaris/0 62.45,49.32 -x- Suramar/0 38.41,42.95 {fac:B} {mode:PORTAL} {title_btoa:Click the Portal to\nCaverns of Time}"..
-		"{cond:PlayerCompletedQuest(82672)}",
+		-- Caverns of Time -x- Azure Span
+		"Tanaris/0 62.45,49.33 -x- The Azure Span/0 67.07,34.80 {fac:B} {mode:PORTAL} {title_atob:Click the Portal to Caverns of\nTime on Top of the Tower} {title_btoa:Click the Portal to\nCaverns of Time}",
 
 	----------------------------------
 	-----     THE WAR WITHIN     -----
@@ -127,8 +124,7 @@ data.basenodes.transit = --[[LIBROVER]] {
 	--## Neutral ##--
 
 		-- Dornogal -to- The Timeways
-		"Dornogal/0 53.98,38.72 -x- Millenia's Threshold/0 43.55,49.90 {fac:B} {mode:PORTAL} {title_atob:Click the Portal to The Timeways} {title_btoa:Click the Portal to Dornogal\nnear the big gate}"..
-		"{cond:PlayerLevel() >= 80}",
+		"Dornogal/0 53.98,38.72 -x- Millenia's Threshold/0 43.55,49.90 {fac:B} {mode:PORTAL} {title_atob:Click the Portal to The Timeways} {title_btoa:Click the Portal to Dornogal\nnear the big gate}",
 
 		-- The Timeways -to- Ardenweald
 		"Millenia's Threshold/0 64.51,43.60 -to- Ardenweald/0 43.93,52.06 {mode:PORTAL}",
@@ -354,22 +350,22 @@ data.basenodes.transit = --[[LIBROVER]] {
 
 		-- Oribos	-to-		Stormwind City
 		"Oribos/0 20.86,45.67 -to- @sw_tp_dst {fac:A} {mode:PORTAL} {title:Click the Portal to Stormwind} "..
-			"{cond:PlayerCompletedQuest(60151) or PlayerLevel() >= 50}",
+			"{cond:PlayerCompletedQuest(60151)}",
 
 		-- Stormwind City	-to-		Oribos
 		"Stormwind City/0 47.56,94.96 <region:magetower> -to- Oribos/0 20.34,50.31 {fac:A} {mode:PORTAL} {title:Click the Portal to Oribos\nInside the Portal Room} "..
-			"{cond:PlayerCompletedQuest(60151) or PlayerLevel() >= 50}",
+			"{cond:PlayerCompletedQuest(60151)}",
 
 
 	--## HORDE ##--
 
 		-- Oribos	-to-		Orgrimmar
 		"Oribos/0 20.85,54.77 -to- @org_tp_dst {fac:H} {mode:PORTAL} {title:Click the Portal to Orgrimmar} "..
-			"{cond:PlayerCompletedQuest(60151) or PlayerLevel() >= 50}",
+			"{cond:PlayerCompletedQuest(60151)}",
 
 		-- Orgrimmar	-to-		Oribos
 		"Orgrimmar/1 58.32,87.85 -to- Oribos/0 20.34,50.31 {fac:H} {mode:PORTAL} {title:Click the Portal to Oribos\nInside the Portal Room} "..
-			"{cond:PlayerCompletedQuest(60151) or PlayerLevel() >= 50}",
+			"{cond:PlayerCompletedQuest(60151)}",
 
 
 	--## Neutral ##--
@@ -386,28 +382,36 @@ data.basenodes.transit = --[[LIBROVER]] {
 			"{cond:PlayerCompletedQuest(64944) and not PlayerCompletedQuest(64957)}",
 
 		-- Oribos Transport Portal (Downstairs to Upstairs) #1
-		"Oribos/0 52.08,57.92 -to- Oribos/1 49.52,60.92 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs}",
+		"Oribos/0 52.08,57.92 -to- Oribos/1 49.52,60.92 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Downstairs to Upstairs) #2
-		"Oribos/0 52.10,42.74 -to- Oribos/1 49.38,42.00 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs}",
+		"Oribos/0 52.10,42.74 -to- Oribos/1 49.38,42.00 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Downstairs to Upstairs) #3
-		"Oribos/0 57.14,50.36 -to- Oribos/1 55.66,51.62 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs}",
+		"Oribos/0 57.14,50.36 -to- Oribos/1 55.66,51.62 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Downstairs to Upstairs) #3
-		"Oribos/0 47.02,50.34 -to- Oribos/1 43.38,51.56 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs}",
+		"Oribos/0 47.02,50.34 -to- Oribos/1 43.38,51.56 {mode:PORTAL} {cost:1} {title:Click the Ring of Transference\nto Teleport Upstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Upstairs to Downstairs) #1
-		"Oribos/1 49.55,60.85 -to- Oribos/0 52.07,57.86 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs}",
+		"Oribos/1 49.55,60.85 -to- Oribos/0 52.07,57.86 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Upstairs to Downstairs) #2
-		"Oribos/1 49.56,42.35 -to- Oribos/0 52.10,42.44 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs}",
+		"Oribos/1 49.56,42.35 -to- Oribos/0 52.10,42.44 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Upstairs to Downstairs) #3
-		"Oribos/1 55.68,51.59 -to- Oribos/0 57.14,50.36 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs}",
+		"Oribos/1 55.68,51.59 -to- Oribos/0 57.14,50.36 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos Transport Portal (Upstairs to Downstairs) #4
-		"Oribos/1 43.44,51.57 -to- Oribos/0 47.12,50.30 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs}",
+		"Oribos/1 43.44,51.57 -to- Oribos/0 47.12,50.30 {mode:PORTAL} {cost:1} {title:Click the Ring of Fates\nto Teleport Downstairs} "..
+			"{cond:PlayerCompletedQuest(60154)}",
 
 		-- Oribos	-to-		The Maw
 		"Oribos/1 49.27,50.88 -to- The Maw/0 44.95,40.99 {mode:PORTAL} {cost:15} {title:Jump into the Soul Pillar of Light\nin the Center of the Room\nto Travel to the Maw} ",--..
@@ -904,7 +908,7 @@ data.basenodes.transit = --[[LIBROVER]] {
 			"{cond:PlayerCompletedQuest(54871) and not ZGV.InPhase('Old Darnassus') and ZGV.InPhase('Warfront Darkshore Control')}",
 
 		-- Caverns of Time - Tanaris, Kalimdor -to- Stormwind City - Elwynn Forest, Eastern Kingdoms --CHECKED
-		"Tanaris/17 53.50,30.10 -to- @sw_tp_dst {fac:A} {mode:PORTAL} {title:Click the Portal to Stormwind}",
+		"Tanaris/17 58.98,26.75 -to- @sw_tp_dst {fac:A} {mode:PORTAL} {title:Click the Portal to Stormwind}",
 
 		-- The Exodar - Azuremyst Isle, Kalimdor -to- Rut'theran Village - Darnassus, Kalimdor --CHECKED
 		"Azuremyst Isle/0 20.40,54.17 -to- Teldrassil/0 52.38,89.47 {fac:A} {mode:PORTAL} {title:Click the Portal to Darnassus} "..
@@ -946,8 +950,8 @@ data.basenodes.transit = --[[LIBROVER]] {
 		"Darkshore/0 46.24,35.11 -to- Dazar'alor/0 51.66,93.82 {fac:H} {mode:PORTAL} {title:Click the Portal to Port of Zandalar} "..
 			"{cond:PlayerCompletedQuest(54416) and not ZGV.InPhase('Old Darnassus') and ZGV.InPhase('Warfront Darkshore Control')}",
 
-		-- Caverns of Time - Tanaris, Kalimdor -to- Orgrimmar - Durotar, Kalimdor --CHECKED
-		"Tanaris/17 53.29,28.02 -to- @org_tp_dst {fac:H} {mode:PORTAL} {title:Click the Portal to Orgrimmar}",
+			-- Caverns of Time - Tanaris, Kalimdor -to- Orgrimmar - Durotar, Kalimdor --CHECKED
+			"Tanaris/17 58.21,26.69 -to- @org_tp_dst {fac:H} {mode:PORTAL} {title:Click the Portal to Orgrimmar}",
 
 		-- Magni's Encampment - Silithus, Kalimdor -to- Hall of Ancient Paths - Zuldazar, Zandalar --CHECKED
 		"Silithus/0 41.61,45.20 -to- Dazar'alor/1 68.28,64.58 {fac:H} {mode:PORTAL} {title:Click the Portal to Zuldazar} "..
@@ -1136,11 +1140,11 @@ data.basenodes.transit = --[[LIBROVER]] {
 
 		-- The Dark Portal - Blasted Lands, Eastern Kingdoms (Portal Usable) -to- Stormshield - Ashran, Draenor --CHECKED
 		"Blasted Lands/0 55.01,54.27 -to- Stormshield/0 31.71,52.48 {fac:A} {mode:PORTAL} {cond:PlayerLevel() >= 10 and not ZGV.InPhase('Old Blasted Lands')} "..
-			"{template:darkportalred}",
+			"{template:darkportal}",
 
 		-- The Dark Portal - Blasted Lands, Eastern Kingdoms (Portal Not Usable) -to- Stormshield - Ashran, Draenor --CHECKED
 		"Blasted Lands/0 55.01,54.27 <override_text:You must be at least 10 to enter Draenor.> <override_icon:error> -to- Stormshield/0 31.71,52.48 {fac:A} "..
-			"{mode:PORTAL} {cond:PlayerLevel() < 10 and not ZGV.InPhase('Old Blasted Lands')} {template:darkportalred} {cost:999}",
+			"{mode:PORTAL} {cond:PlayerLevel() < 10 and not ZGV.InPhase('Old Blasted Lands')} {template:darkportal} {cost:999}",
 
 		-- Goldshire - Elynn Forest, Eastern Kingdoms -to- Darkmoon Island --CHECKED
 		"Elwynn Forest/0 41.79,69.48 -to- Darkmoon Island/0 51.29,23.86 {mode:PORTAL} {cond:ZGV:FindEvent('DARKMOON FAIRE')} "..
@@ -1263,11 +1267,11 @@ data.basenodes.transit = --[[LIBROVER]] {
 
 		-- The Dark Portal - Blasted Lands, Eastern Kingdoms (Portal Usable) -to- Warspear - Ashran, Draenor --CHECKED
 		"Blasted Lands/0 55.01,54.27 -to- Warspear/0 44.42,35.53 {fac:H} {mode:PORTAL}"..
-			"{template:darkportalred}",
+			"{template:darkportal}",
 
 		-- The Dark Portal - Blasted Lands, Eastern Kingdoms (Portal Usable) -to- Warspear - Ashran, Draenor --CHECKED
 		"Blasted Lands/0 55.01,54.27 <override_text:You must be at least 10 to enter Draenor.> <override_icon:error> -to- Warspear/0 44.42,35.53 {fac:H} "..
-			"{mode:PORTAL} {template:darkportalred} {cost:999}",
+			"{mode:PORTAL} {template:darkportal} {cost:999}",
 
 		-- Dragonmaw Port - Twilight Highlands, Eastern Kingdoms -to- Orgrimmar - Durotar, Kalimdor --CHECKED
 		"Twilight Highlands/0 73.56,53.54 -to- Orgrimmar/1 50.14,37.89 {fac:H} {mode:PORTAL} {cond:PlayerCompletedQuest(26784)} "..
@@ -1460,7 +1464,7 @@ data.basenodes.transit = --[[LIBROVER]] {
 		"Dalaran L/12 28.66,77.40 -to- Hillsbrad Foothills/0 30.91,36.34 {mode:PORTAL} {title:Click the Portal to Dalaran Crater\n\n|cfff0e081Use Slow Fall!|r}",
 
 		-- Dalaran L - Broken Isles, Azeroth -to-  Karazhan- Deadwind Pass, Eastern Kingdoms
-		"Dalaran L/12 31.95,71.43 -to- Deadwind Pass/0 47.24,75.40 {mode:PORTAL} {title:Click the Portal to Karazhan}",
+		"Dalaran L/12 31.95,71.43 -x- Deadwind Pass/0 47.24,75.40 {mode:PORTAL} {title:Click the Portal to Karazhan}",
 
 		-- Dalaran - Crystalsong Forest, Northrend -to- The Violet Stand - Crystalsong Forest, Northrend --CHECKED
 		"Dalaran/1 55.93,46.77 -to- Crystalsong Forest/0 15.81,42.85 {mode:PORTAL} {title:Click the Teleport to Violet Stand Crystal Inside the Building}",
@@ -1548,7 +1552,7 @@ data.basenodes.transit = --[[LIBROVER]] {
 			"{fac:H} {mode:PORTAL} {cond:PlayerLevel() < 10} {cost:999}",
 
 		-- Honeydew Village - The Jade Forest, Pandaria -to- Orgrimmar - Durotar, Kalimdor --
-		"The Jade Forest/0 28.52,14.02 -to- @org_tp_dst <title:Orgrimmar> {fac:H} "..
+		"The Jade Forest/0 28.52,14.02 -to- @org_tp_dst <title:Orgrimmar> {fac:H} {cond:PlayerCompletedQuest(31769)} "..
 			"{mode:PORTAL}",
 
 		-- Shado-Pan Garrison - Townlong Steppes, Pandaria -to- The Crimson Treader - Isle of Thunder, Pandaria --
@@ -1576,7 +1580,7 @@ data.basenodes.transit = --[[LIBROVER]] {
 				"{cond:PlayerCompletedQuest(32212) and not PlayerCompletedQuest(32212)}",
 
 		-- Shrine of Two Moons - Vale of Eternal Blossoms, Pandaria -to- Orgrimmar - Durotar, Kalimdor --
-		"Shrine of Two Moons/2 73.35,42.69 -to- @org_tp_dst {fac:H} {mode:PORTAL}",
+		"Shrine of Two Moons/2 73.35,42.69 <region:shrine2moon_east> -to- @org_tp_dst {fac:H} {mode:PORTAL}",
 
 		-- Shrine of Two Moons - Vale of Eternal Blossoms, Pandaria -to- Orgrimmar - Durotar, Kalimdor -- Patch 8.3
 		"Vale of Eternal Blossoms New/0 63.72,9.89 -to- @org_tp_dst {fac:H} {mode:PORTAL} {cond:not ZGV.InPhase('OldVale')}",
@@ -2300,7 +2304,7 @@ data.basenodes.transit = --[[LIBROVER]] {
 
 		"Stormwind City/0 50.68,8.45 -to- Telogrus Rift/0 27.69,28.10 {fac:A} {mode:PORTAL} {title_atob:Click the Rift to Telogrus}",
 
-		"Telogrus Rift/0 24.94,27.91 -to- Dalaran L/12 35.93,74.75 {mode:PORTAL} {title_atob:Click the Rift to Dalaran}",
+		"Telogrus Rift/0 24.94,27.91 -to- Dalaran L/12 35.93,74.75 {mode:PORTAL} {title_atob:Click the Rift to Stormwind}",
 
 		"Dalaran L/12 33.72,78.88 -to- Telogrus Rift/0 25.34,27.89 {mode:PORTAL} {title_atob:Click the Rift to Telogrus} {cond:PlayerCompletedQuest(79010)}",
 

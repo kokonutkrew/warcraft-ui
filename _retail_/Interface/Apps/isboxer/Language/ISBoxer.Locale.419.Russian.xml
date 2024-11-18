@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InnerSpaceSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Set Name="Terms">
+    <Setting Name="Action">Действие</Setting>
+    <Setting Name="Actions">Действия</Setting>
+    <Setting Name="Action Target Group">Группа Целей Действий</Setting>
+    <Setting Name="Action Target Groups">Группы Целей Действий</Setting>
+    <Setting Name="Character">Персонаж</Setting>
+    <Setting Name="Characters">Персонажи</Setting>
+    <Setting Name="Character Set">Группа Персонажей</Setting>
+    <Setting Name="Character Sets">Группы Персонажей</Setting>
+    <Setting Name="Click Bar">Полоса Кнопок</Setting>
+    <Setting Name="Click Bars">Полосы Кнопок</Setting>
+    <Setting Name="Computer">Компьютер</Setting>
+    <Setting Name="Computers">Компьютеры</Setting>
+    <Setting Name="Game">Игра</Setting>
+    <Setting Name="Games">Игры</Setting>
+    <Setting Name="Game Helper">Игровой Помощник</Setting>
+    <Setting Name="Game Helpers">Игровые Помощники</Setting>
+    <Setting Name="Game Profile">Профиль Игрока</Setting>
+    <Setting Name="Game Profiles">Профиль Игроков</Setting>
+    <Setting Name="Hotkey">Горячая Клавиша</Setting>
+    <Setting Name="Hotkeys">Горячие Клавиши</Setting>
+    <Setting Name="Image">Изображение</Setting>
+    <Setting Name="Images">Изобразчения</Setting>
+    <Setting Name="ISBoxer Toolkit Profile"> Профиль ISBoxer Инструментария</Setting>
+    <Setting Name="Key Map">Раскладка Клавиш</Setting>
+    <Setting Name="Key Maps">Раскладки Клавиш</Setting>
+    <Setting Name="Key Combination">Комбинация Клавиш</Setting>
+    <Setting Name="Key Combinations">Комбинации Клавиш</Setting>
+    <Setting Name="Mapped Key">Назначенная Клавиша</Setting>
+    <Setting Name="Mapped Keys">Назнацченные Клавиши</Setting>
+    <Setting Name="Multiple Computer Helper">Мульти-Компьютерный Помощник</Setting>
+    <Setting Name="Repeater Profile">Профиль Репитера</Setting>
+    <Setting Name="Repeater Profiles">Профили Репитера</Setting>
+    <Setting Name="Region">Регион</Setting>
+    <Setting Name="Regions">Регионы</Setting>
+    <Setting Name="Slot">Слот</Setting>
+    <Setting Name="Slots">Слоты</Setting>
+    <Setting Name="Step">Шаг</Setting>
+    <Setting Name="Steps">Шаги</Setting>
+    <Setting Name="Target">Цель</Setting>
+    <Setting Name="Targets">Цели</Setting>    
+    <Setting Name="Video FX">Графические Еффекты</Setting>
+    <Setting Name="Virtual File">Виртуальный Файл</Setting>
+    <Setting Name="Virtual Files">Виртуальные Файлы</Setting>
+    <Setting Name="Virtual Mapped Key">Виртуальная Назначеная Клавиша</Setting>
+    <Setting Name="Virtual Mapped Keys">Виртуальные Назначеные Клавиши</Setting>
+    <Setting Name="Window Layout">Раскладка Окон</Setting>
+    <Setting Name="Window Layouts">Раскладка Окон</Setting>
+    <Setting Name="WoW Macro Set">ВоВ Набор Макросов</Setting>
+    <Setting Name="WoW Macro Sets">ВоВ Набор Макросов</Setting>
+  </Set>
+  <Set Name="Actions">
+    <Setting Name="Keystroke Action">Действие: Нажатие Кнопки</Setting>
+    <Setting Name="Key String Action">Действие: Нажатие Набора Кнопок</Setting>
+    <Setting Name="Named World of Warcraft Macro Action">Действие: Названый ВоВ Макрос</Setting>
+    <Setting Name="World of Warcraft Macro Action">Действие: ВоВ Макрос</Setting>
+    <Setting Name="Click Bar Button Action">Действие: Нажатие Полосы Кнопок</Setting>
+    <Setting Name="Click Bar State Action">Действие: Состояние Полосы Кнопок</Setting>
+    <Setting Name="Input Device Key Set Action">Действие: Набор Клавиш Устройства Ввода</Setting>
+    <Setting Name="Light Action">Легкое Действие</Setting>
+    <Setting Name="Do Mapped Key Action">Действие: Использовать Назначеную Клавишу</Setting>
+    <Setting Name="Key Map State Action">Действие: Состояние Назначений Клавиш</Setting>
+    <Setting Name="Mapped Key State Action">Действие: Состояние Назначеной Клавиши</Setting>
+    <Setting Name="Mapped Key Step Action">Действие: Шаг Назначеной Клавиши</Setting>
+    <Setting Name="Mapped Key Virtualization Action">Действие: Виртуализация Назначеной Клавиши</Setting>
+    <Setting Name="Popup Text Action">Действие: Всплывающий Текст</Setting>
+    <Setting Name="Repeater List Action">Действие: Лист Репитера</Setting>
+    <Setting Name="Repeater Regions Action">Действие: Регионы Репитера</Setting>
+    <Setting Name="Repeater State Action">Действие: Состояние Репитера</Setting>
+    <Setting Name="Repeater Target Action">Действие: Цель Репитера</Setting>
+    <Setting Name="Send Next Click Action">Действие: Послать Следующее Нажатие</Setting>
+    <Setting Name="Sound Action">Звуковое Действие</Setting>
+    <Setting Name="Sync Cursor Action">Действие: Синхронизация Курсора</Setting>
+    <Setting Name="Target Group Action">Действие: Нацелить Группу</Setting>
+    <Setting Name="Timer Group Action">Действие: Таймер Группы</Setting>
+    <Setting Name="Window Focus Action">Действие: Фокус Окна</Setting>
+    <Setting Name="Window State Action">Действие: Состояние Окна</Setting>
+    <Setting Name="Window Style Action">Действие: Стиль Окна</Setting>
+    <Setting Name="Window Zoom Action">Действие: Увеличение Окна</Setting>
+    <Setting Name="Video FX Action">Действие: Графические Еффекты</Setting>
+  </Set>
+  <Set Name="Trees">
+    <Setting Name="Also Launch">Так-же Запустить</Setting>
+    <Setting Name="Advanced">Повышенный</Setting>
+    <Setting Name="Buttons">Кнопки</Setting>
+    <Setting Name="Images">Глобальные Изображения</Setting>
+    <Setting Name="Macro Sets">Набор Макросов</Setting>
+    <Setting Name="Screens">Экраны</Setting>
+    <Setting Name="New Term">Новый {0}</Setting>
+    <Setting Name="Copy of Item">Копия {0}</Setting>
+    <Setting Name="Keystroke Actions">Действия Нажатия Клавиш</Setting>
+    <Setting Name="Click Bar Actions">Действия Полосы Кнопок</Setting>
+    <Setting Name="Input Device Actions">Действия Устройства Ввода</Setting>
+    <Setting Name="Key Map Actions">Действия Назначеных Клавиш</Setting>
+    <Setting Name="Repeater Actions">Действия Репитера</Setting>
+    <Setting Name="Window Actions">Действия Окон</Setting>
+  </Set>
+  <Set Name="Menus">
+    <Setting Name="File">&amp;Файл</Setting>
+    <Setting Name="Wizards">&amp;Визард</Setting>
+    <Setting Name="Help">&amp;Помощь</Setting>
+         
+    <Setting Name="Open">&amp;Открыть</Setting>
+    <Setting Name="Save">&amp;Сохранить</Setting>
+    <Setting Name="Save As">Сохранить &amp;Как ..</Setting>
+    <Setting Name="Clear">&amp;Очистить</Setting>
+    <Setting Name="Exit">В&amp;ыйти</Setting>
+       
+    <Setting Name="Move Up">Вверх (Alt+Up)</Setting>
+    <Setting Name="Move Down">Вниз (Alt+Down)</Setting>
+    <Setting Name="Help F1">Помощь (F1)</Setting>
+       
+    <Setting Name="Launch">Запуск</Setting>
+    <Setting Name="Launch Shortcut">Создать Ярлык</Setting>
+         
+    <Setting Name="Make Copy">Сделать Копию</Setting>
+    <Setting Name="Delete">Удалить (Del)</Setting>
+    <Setting Name="Rename">Переименовать (F2)</Setting>
+         
+    <Setting Name="Sort">Сортировать</Setting>
+    <Setting Name="Export to IS">Экспортировать во Внутреннее Место</Setting>
+    <Setting Name="Recommended Item">{0} (Реккомендовано)</Setting>
+    <Setting Name="Create Term">Новый {0}</Setting>
+    <Setting Name="Start Term">Начать {0}</Setting>
+    <Setting Name="Stop Term">Остановить {0}</Setting>
+    <Setting Name="Copy Term">Копировать {0} в Буфер Обмена</Setting>
+    <Setting Name="Paste Term">Вставить {0} из Буфера Обмена</Setting>
+       
+    <Setting Name="Undo Page">Отменить Изменения</Setting>
+    <Setting Name="Apply Page">Применить Изменения</Setting>
+  </Set>
+  <Set Name="Messages">
+    <Setting Name="Wait!">Подождите!</Setting>
+    <Setting Name="Confirm Clear">Вы точно уверены что вы хотите отменить действия? Вы можете потерять нужные изменения!</Setting>
+         
+    <Setting Name="Import Conflict">Существующий {0} назван '{1}'. Вы хотите ...</Setting>
+      
+    <Setting Name="Finish first">Пожалуйста сперва закончите эту страницу.</Setting>
+    <Setting Name="Finish before importing">Пожалуйста сперва закончите эту страницу перед импортацией.</Setting>
+    <Setting Name="Finish before saving">Пожалуйста сперва закончите эту страницу перед сохранением.</Setting>
+    <Setting Name="Finish before sorting">Пожалуйста сперва закончите эту страницу перед сортировкой.</Setting>
+    <Setting Name="Finish before exporting">Пожалуйста сперва закончите эту страницу перед экспортировкой во Внутреннее Место.</Setting>
+  </Set>
+  <Set Name="Wizards">
+    <Setting Name="CPU Strategy Wizard">Визард Стратегии ЦПУ</Setting>
+    <Setting Name="Quick Setup Wizard">Визард Быстрой Настройки</Setting>
+    <Setting Name="Virtual File Wizard">Визард Виртуальных Файлов</Setting>
+    <Setting Name="Window Layout Wizard">Визард Раскладки Окон</Setting>
+  </Set>
+  <Setting Name="LCID">1049</Setting>
+</InnerSpaceSettings>

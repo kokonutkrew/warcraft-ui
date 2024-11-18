@@ -2,27 +2,14 @@
 MBB_Exclude = {
 }
 MBB_Options = {
-<<<<<<< Updated upstream
-	["CollapseTimeout"] = 5,
-	["AltExpandDirection"] = 1,
-	["AttachToMinimap"] = 1,
-	["MaxButtonsPerLine"] = 3,
-	["DetachedButtonPos"] = "TOPLEFT",
-	["ButtonPos"] = {
-		98.6302108764649, -- [1]
-		-121.924476623535, -- [2]
-	},
-	["ExpandDirection"] = 4,
-=======
-	["CollapseTimeout"] = 1,
-	["AltExpandDirection"] = 4,
-	["AttachToMinimap"] = 1,
-	["ExpandDirection"] = 1,
-	["DetachedButtonPos"] = "TOPLEFT",
-	["ButtonPos"] = {
-		-26.73453712463379, -- [1]
-		-69.26197052001953, -- [2]
-	},
-	["MaxButtonsPerLine"] = 0,
->>>>>>> Stashed changes
+["CollapseTimeout"] = 1,
+["AltExpandDirection"] = 4,
+["AttachToMinimap"] = 1,
+["ExpandDirection"] = 1,
+["DetachedButtonPos"] = "CENTER",
+["ButtonPos"] = {
+-18,
+-100,
+},
+["MaxButtonsPerLine"] = 0,
 }

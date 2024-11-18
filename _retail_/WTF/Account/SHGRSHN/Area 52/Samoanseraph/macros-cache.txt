@@ -1,0 +1,43 @@
+VER 3 010000000000000E ".a.yAltDownDebuf" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2908]soothe
+END
+VER 3 010000000000000F ".a.yAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2782]remove corruption;[known:213644]cleanse toxins;[known:130]slow fall;[known:18499]berserker rage;[known:360823]naturalize;[known:4987]cleanse
+END
+VER 3 0100000000000009 "Angelic Feather" "134400"
+#showtooltip Angelic Feather
+/cast [mod:shift, @cursor][@player][] Angelic Feather
+END
+VER 3 0100000000000010 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
+END
+VER 3 0100000000000011 "FishBackup" "134400"
+/use survey
+/castsequence [nomod] Fishing
+/equipset [mod:alt] Max Fishing
+/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
+/use [mod:shift] Worm Supreme
+END
+VER 3 0100000000000012 "profCookingFire" "INV_Misc_QuestionMark"
+#showtooltip
+/use little wickerman
+END
+VER 3 010000000000000D "PW: Shield" "134400"
+#showtooltip Power Word: Shield
+/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
+END
+VER 3 010000000000000A "Renew" "134400"
+#showtooltip renew
+/cast [mod:alt,@player] [@mouseover,help,nodead] Renew; [@mouseover,harm,nodead] [harm] Shadow Word: Pain; Renew
+END
+VER 3 010000000000000B "Santify" "134400"
+#showtooltip Holy Word: Sanctify
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 010000000000000C "Shadow Word Pain" "134400"
+#showtooltip Shadow Word: Pain
+/cast [mod:alt,@player] [@mouseover,help,nodead] Renew; [@mouseover,harm,nodead] [harm] Shadow Word: Pain; Renew
+END

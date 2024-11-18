@@ -1,6 +1,6 @@
 
 PremadeApplicantsFilterState = {
-	["enabled"] = true,
-	["version"] = 1,
-	["expression"] = "",
+["enabled"] = true,
+["version"] = 1,
+["expression"] = "",
 }

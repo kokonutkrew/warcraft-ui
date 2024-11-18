@@ -1,6 +1,12 @@
-# Deadly Boss Mods Core
+# DBM - Core
 
-## [1.13.62-1-g2964a18](https://github.com/DeadlyBossMods/DBM-Classic/tree/2964a189e0b41dd9c5d140b8e4e37488bf108d64) (2020-12-02)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Classic/compare/1.13.62...2964a189e0b41dd9c5d140b8e4e37488bf108d64) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Classic/releases)
+## [11.0.29](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/11.0.29) (2024-11-16)
+[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/11.0.28...11.0.29) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
 
-- Deleted twitch references  
+- Prep a new core release  
+- Fixed bug where initial nameplate timers could start off enemies not actually engaged in combat with player  
+    Fixed a bug where nameplate initial timers could start off friendly units such as Bill. Should only engage when unit actually becomes hostile to player  
+- Create some utility functions older classic modules might need to use to determine certain buffs or debuff auras for unique hard modes (such as sartherian in wrath and probably some classic sod stuff can use this too)  
+- also add rollincoming  
+- Add "movetotendrils"  
+- bump alpha  

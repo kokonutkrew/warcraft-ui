@@ -1,77 +1,15 @@
 
 FGI_DB = {
-["realm"] = {
-["Emerald Dream"] = {
-["leave"] = {
-["Ðomo"] = true,
-["Delmirey"] = true,
-["Dignity"] = true,
-["Ðropshot"] = true,
-},
-["blackList"] = {
-["Flyingsnow"] = "no reason",
-},
-["filtersList"] = {
-["All"] = {
-["lvlRange"] = false,
-["classFilter"] = false,
-["filterOn"] = true,
-["filteredCount"] = 0,
-["filterByName"] = false,
-["raceFilter"] = false,
-["rioMPlus"] = false,
-["rioRaid"] = false,
-},
-},
-},
-},
-["profileKeys"] = {
-["Samoansage - Emerald Dream"] = "Default",
-["Threadcraft - Emerald Dream"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
-["Samoanbeast - Emerald Dream"] = "Default",
-["Herbcraft - Emerald Dream"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
-["Kkdev - Emerald Dream"] = "Default",
-},
-["global"] = {
-["introShow"] = false,
-["inviteType"] = 3,
-["scanFrame"] = {
-["yOfs"] = 58.0002326965332,
-["xOfs"] = -387.9995422363281,
-["point"] = "BOTTOM",
-["relativePoint"] = "BOTTOM",
-},
-["community"] = {
-},
-["guildLinks"] = {
-["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
-},
-["keyBind"] = {
-["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
-["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
-},
-["mainFrame"] = {
-["yOfs"] = 135.9999542236328,
-["xOfs"] = 52.9998664855957,
-["point"] = "BOTTOM",
-["relativePoint"] = "BOTTOM",
-},
-["minimap"] = {
-["minimapPos"] = 190.660438190305,
-},
-},
 ["factionrealm"] = {
 ["Alliance - Emerald Dream"] = {
 ["search"] = {
 ["state"] = "stop",
 ["tempSendedInvites"] = {
-["Âzmodeus"] = true,
 ["Shaaggy"] = true,
+["Âzmodeus"] = true,
+["Soundasleep"] = true,
 ["Sabben"] = true,
 ["Adarind"] = true,
-["Soundasleep"] = true,
 ["Jesterlavore"] = true,
 },
 ["whoQueryList"] = {
@@ -163,16 +101,78 @@ FGI_DB = {
 },
 },
 },
+["global"] = {
+["minimap"] = {
+["minimapPos"] = 190.660438190305,
+},
+["guildLinks"] = {
+["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
+},
+["scanFrame"] = {
+["yOfs"] = 58.0002326965332,
+["xOfs"] = -387.9995422363281,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+["community"] = {
+},
+["inviteType"] = 3,
+["introShow"] = false,
+["keyBind"] = {
+["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
+["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
+},
+["mainFrame"] = {
+["yOfs"] = 135.9999542236328,
+["xOfs"] = 52.9998664855957,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+},
+["profileKeys"] = {
+["Kkdev - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
+},
+["realm"] = {
+["Emerald Dream"] = {
+["leave"] = {
+["Ðomo"] = true,
+["Delmirey"] = true,
+["Ðropshot"] = true,
+["Dignity"] = true,
+},
+["blackList"] = {
+["Flyingsnow"] = "no reason",
+},
+["filtersList"] = {
+["All"] = {
+["lvlRange"] = false,
+["rioRaid"] = false,
+["rioMPlus"] = false,
+["raceFilter"] = false,
+["filterByName"] = false,
+["filteredCount"] = 0,
+["filterOn"] = true,
+["classFilter"] = false,
+},
+},
+},
+},
 }
 FGI_DEBUG = {
 ["profileKeys"] = {
-["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 ["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 ["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 ["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 },
 ["global"] = {
 {

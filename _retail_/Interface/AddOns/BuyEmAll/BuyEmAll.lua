@@ -1,23 +1,9 @@
-<<<<<<< Updated upstream
--- BuyEmAll - Originally created and developed by Cogwheel up to version 2.8.4, Shinisuryu up to version 3.5.5, now developed by Jordy141.
-
-BuyEmAll = {}
-
-local L = BUYEMALL_LOCALS;
-=======
 local L = BuyEmAll.L;
->>>>>>> Stashed changes
 
 -- These are used for the text on the Max and Stack buttons. See BuyEmAll.xml.
 
 BUYEMALL_MAX = L.MAX;
 BUYEMALL_STACK = L.STACK;
-<<<<<<< Updated upstream
-
--- It's ALIVE!!! Muahahahahhahahaa!!!!!
-
-=======
->>>>>>> Stashed changes
 function BuyEmAll:OnLoad()
     -- Set up confirmation dialog.
 
@@ -77,27 +63,6 @@ function BuyEmAll:SlashHandler(message, editbox)
 end
 
 function BuyEmAll:ItemIsUnique(itemIDOrLink)
-<<<<<<< Updated upstream
-	if(string.sub(itemIDOrLink, 0, 5) ~= "item:") then
-		itemIDOrLink = "item:" .. itemIDOrLink .. ":0:0:0:0:0:0:0";
-	end
-    BuyEmAllTooltip:SetOwner(UIParent, "ANCHOR_NONE")
-    BuyEmAllTooltip:SetHyperlink(itemIDOrLink)
-    local isUnique = false;
-    for i = 1, select("#", BuyEmAllTooltip:GetRegions()) do
-        local region = select(i, BuyEmAllTooltip:GetRegions())
-        if region and region:GetObjectType() == "FontString" then
-            if(region:GetText() == "Unique") then
-                isUnique = true;
-                break;
-            end
-        end
-    end
-    
-    BuyEmAllTooltip:Hide()
-
-    return isUnique;
-=======
 	if(string.find(itemIDOrLink, "|Hitem:") ~= nil) then
         itemIDOrLink = tonumber(string.match(itemIDOrLink, "|Hitem:(%d+):"));
 	end
@@ -110,7 +75,6 @@ function BuyEmAll:ItemIsUnique(itemIDOrLink)
     end
    
     return false;
->>>>>>> Stashed changes
 end
 
 -- Variable setup/check.
@@ -134,42 +98,6 @@ function BuyEmAll:MerchantFrame_OnHide(...)
     return self.OrigMerchantFrame_OnHide(...);
 end
 
-<<<<<<< Updated upstream
-function BuyEmAll:CogsFreeBagSpace(itemID)
-    local freeSpace = 0;
-    local itemSubType = GetItemFamily(itemID);
-    local stackSize = select(8, GetItemInfo(itemID));
-
-    for theBag = 0, 4 do
-        local doBag = true;
-
-        if (theBag > 0) then -- 0 is always the backpack.
-        local bagLink = GetInventoryItemLink("player", 19 + theBag); -- Bag #1 is in inventory slot 20.
-        if (bagLink) then
-            local bagSubType = GetItemFamily(bagLink);
-            if (bagSubType == itemSubType) then
-                doBag = true;
-            elseif (bagSubType == 0) then
-                doBag = true;
-            elseif (bit.band(itemSubType, bagSubType) == bagSubType) then
-                doBag = true;
-            else doBag = false;
-            end
-        else
-            doBag = false;
-        end
-        end
-
-        if (doBag) then
-            local numSlot = GetContainerNumSlots(theBag);
-            for theSlot = 1, numSlot do
-                local itemLink = GetContainerItemLink(theBag, theSlot);
-                if not (itemLink) then
-                    freeSpace = freeSpace + stackSize;
-                elseif (strfind(itemLink, "item:" .. itemID .. ":")) then
-                    local _, itemCount = GetContainerItemInfo(theBag, theSlot);
-                    freeSpace = freeSpace + stackSize - itemCount;
-=======
 function BuyEmAll:HasBagEquippedInSlot(slotID)
     local inventorySlotId = GetInventorySlotInfo("Bag" .. (slotID - 1) .. "Slot");
     return GetInventoryItemID("player", inventorySlotId) ~= nil;
@@ -191,20 +119,13 @@ function BuyEmAll:GetFreeBagSpace(itemID)
                 if (itemInfo ~= nil and itemInfo.itemID == itemID) then
                     local itemCount = itemInfo.stackCount or 0;
                     canFit = canFit + (stackSize - itemCount);
->>>>>>> Stashed changes
                 end
             end
         end
     end
-<<<<<<< Updated upstream
-    return freeSpace, stackSize;
-end
-
-=======
 
     return canFit, stackSize;
 end
->>>>>>> Stashed changes
 
 -- Hooks left-clicks on merchant item buttons.
 
@@ -229,14 +150,9 @@ function BuyEmAll:MerchantItemButton_OnModifiedClick(frame, button)
         self.AltCurrencyMode = false;
         self.AtVendor = true; -- Currently at the vendor, for later purchase interruption.
 
-<<<<<<< Updated upstream
-        local name, texture, price, quantity, numAvailable =
-        GetMerchantItemInfo(self.itemIndex);
-=======
         local name, texture, price, quantity, numAvailable, _, _, hasExtendedCostInfo =
             GetMerchantItemInfo(self.itemIndex);
         
->>>>>>> Stashed changes
         self.itemName = name;
         self.price = price;
         self.preset = quantity;
@@ -253,11 +169,7 @@ function BuyEmAll:MerchantItemButton_OnModifiedClick(frame, button)
         end
 
         -- Buying a currency with a currency! Thanks to recent changes, this should cover all cases.
-<<<<<<< Updated upstream
-        if ((strmatch(self.itemLink, "currency")) and (self.price == 0)) then
-=======
         if ((strmatch(self.itemLink, "currency")) and (self.price <= 0 or self.price == nil)) then
->>>>>>> Stashed changes
             local totalMax = C_CurrencyInfo.GetCurrencyInfoFromLink(self.itemLink).maxQuantity;
 			self.fit = (totalMax <= 0 and 10000000 or totalMax);
             self.stack = self.preset;
@@ -268,11 +180,7 @@ function BuyEmAll:MerchantItemButton_OnModifiedClick(frame, button)
         
         if (strmatch(self.itemLink, "item")) then -- Check if purchase is an item and setup the needed variables.
             self.itemID = tonumber(strmatch(self.itemLink, "item:(%d+):"));
-<<<<<<< Updated upstream
-            local bagMax, stack = self:CogsFreeBagSpace(self.itemID);
-=======
             local bagMax, stack = self:GetFreeBagSpace(self.itemID);
->>>>>>> Stashed changes
             self.stack = stack;
             self.fit = bagMax;
             self.partialFit = self.fit % stack;
@@ -283,11 +191,7 @@ function BuyEmAll:MerchantItemButton_OnModifiedClick(frame, button)
             self.partialFit = 0; -- Currencies don't have stacks, so there can't be a partial stack.
         end
 
-<<<<<<< Updated upstream
-        if ((select(8, GetMerchantItemInfo(self.itemIndex)) == true) and (self.price == 0)) then -- Checks for alternate currency information then passes purchase to handler.
-=======
         if ((hasExtendedCostInfo == true) and (self.price <= 0 or self.price == nil)) then -- Checks for alternate currency information then passes purchase to handler.
->>>>>>> Stashed changes
             self:AltCurrencyHandling(self.itemIndex, frame);
             return
         end
@@ -302,11 +206,7 @@ function BuyEmAll:MerchantItemButton_OnModifiedClick(frame, button)
 
         if (self.itemID ~= nil and BuyEmAll:ItemIsUnique(self.itemLink)) then
             self.afford = 1
-<<<<<<< Updated upstream
-        elseif (self.price == 0) then
-=======
         elseif (self.price <= 0 or self.price == nil) then
->>>>>>> Stashed changes
             self.afford = self.fit;
         else
             self.afford = floor(GetMoney() / ceil(self.price / self.preset));
@@ -344,22 +244,6 @@ function BuyEmAll:AltCurrencyHandling(itemIndex, frame)
     self.AltCurrTex = {};
     self.AltCurrPrice = {};
     self.AltCurrAfford = {};
-<<<<<<< Updated upstream
-    
-    for i = 1, self.NumAltCurrency do
-        self.AltCurrPrice[i] = select(2, GetMerchantItemCostItem(itemIndex, i));
-        local Link = select(3, GetMerchantItemCostItem(itemIndex, i));
-        if (strmatch(Link, "currency")) then -- Item/Currency link check
-            self.AltCurrTex[i] = select(1, GetMerchantItemCostItem(itemIndex, i)); -- Get the currency texture for later display.
-            self.AltCurrAfford[i] = floor(C_CurrencyInfo.GetCurrencyInfoFromLink(Link).quantity / self.AltCurrPrice[i]) * self.preset; -- Calculate how many can be purchased.
-        else
-            self.AltCurrTex[i] = select(1, GetMerchantItemCostItem(itemIndex, i)); -- Get the currency texture for later display.
-            self.AltCurrAfford[i] = floor((GetItemCount(tonumber(strmatch(Link, "item:(%d+):")), true)) / self.AltCurrPrice[i]) * self.preset; -- Calculate how many can be purchased.
-        end
-    end
-    
-    self.afford = self.AltCurrAfford[1];
-=======
 
     if(self.NumAltCurrency <= 0) then
         self.afford = self.fit;
@@ -377,7 +261,6 @@ function BuyEmAll:AltCurrencyHandling(itemIndex, frame)
         end
     self.afford = self.AltCurrAfford[1];
     end
->>>>>>> Stashed changes
 
     if(self.itemID ~= nil and BuyEmAll:ItemIsUnique(self.itemLink)) then
         self.afford = 1;
@@ -571,13 +454,8 @@ function BuyEmAll:UpdateDisplay()
         BuyEmAllCurrencyAmt1:SetText(gold);
         BuyEmAllCurrencyAmt2:SetText(silver);
         BuyEmAllCurrencyAmt3:SetText(copper);
-<<<<<<< Updated upstream
-    else
-        
-=======
     
     elseif (#self.AltCurrPrice >= 1) then  
->>>>>>> Stashed changes
         local amount = self:AltCurrRounding(purchase);
         self.AltNumPurchases = amount / self.preset; -- Adjustment for not being able to buy less than the preset of items using alternate currency.
         

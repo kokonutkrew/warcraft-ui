@@ -40,13 +40,8 @@
 -- end
 -- @class file
 -- @name AceDB-3.0.lua
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/BigDebuffs/libs/AceDB-3.0/AceDB-3.0.lua
--- @release $Id: AceDB-3.0.lua 1217 2019-07-11 03:06:18Z funkydude $
-local ACEDB_MAJOR, ACEDB_MINOR = "AceDB-3.0", 27
-========
 -- @release $Id: AceDB-3.0.lua 1328 2024-03-20 22:36:27Z nevcairiel $
 local ACEDB_MAJOR, ACEDB_MINOR = "AceDB-3.0", 29
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ZygorGuidesViewer/Libs/AceDB-3.0/AceDB-3.0.lua
 local AceDB = LibStub:NewLibrary(ACEDB_MAJOR, ACEDB_MINOR)
 
 if not AceDB then return end -- No upgrade needed

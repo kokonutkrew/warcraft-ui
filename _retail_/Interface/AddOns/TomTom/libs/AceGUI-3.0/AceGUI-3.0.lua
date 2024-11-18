@@ -24,47 +24,22 @@
 -- f:AddChild(btn)
 -- @class file
 -- @name AceGUI-3.0
-<<<<<<< Updated upstream
--- @release $Id: AceGUI-3.0.lua 1231 2020-04-14 22:20:36Z nevcairiel $
-=======
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/BigDebuffs/libs/AceGUI-3.0/AceGUI-3.0.lua
--- @release $Id: AceGUI-3.0.lua 1247 2021-01-23 23:16:39Z funkehdude $
-========
 -- @release $Id: AceGUI-3.0.lua 1288 2022-09-25 14:19:00Z funkehdude $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/TomTom/libs/AceGUI-3.0/AceGUI-3.0.lua
->>>>>>> Stashed changes
 local ACEGUI_MAJOR, ACEGUI_MINOR = "AceGUI-3.0", 41
 local AceGUI, oldminor = LibStub:NewLibrary(ACEGUI_MAJOR, ACEGUI_MINOR)
 
 if not AceGUI then return end -- No upgrade needed
 
 -- Lua APIs
-<<<<<<< Updated upstream
-local tinsert = table.insert
-local select, pairs, next, type = select, pairs, next, type
-local error, assert = error, assert
-local setmetatable, rawget = setmetatable, rawget
-local math_max = math.max
-=======
 local tinsert, wipe = table.insert, table.wipe
 local select, pairs, next, type = select, pairs, next, type
 local error, assert = error, assert
 local setmetatable, rawget = setmetatable, rawget
 local math_max, math_min, math_ceil = math.max, math.min, math.ceil
->>>>>>> Stashed changes
 
 -- WoW APIs
 local UIParent = UIParent
 
-<<<<<<< Updated upstream
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: geterrorhandler, LibStub
-
---local con = LibStub("AceConsole-3.0",true)
-
-=======
->>>>>>> Stashed changes
 AceGUI.WidgetRegistry = AceGUI.WidgetRegistry or {}
 AceGUI.LayoutRegistry = AceGUI.LayoutRegistry or {}
 AceGUI.WidgetBase = AceGUI.WidgetBase or {}
@@ -113,27 +88,6 @@ do
 	AceGUI.objPools = AceGUI.objPools or {}
 	local objPools = AceGUI.objPools
 	--Returns a new instance, if none are available either returns a new table or calls the given contructor
-<<<<<<< Updated upstream
-	function newWidget(type)
-		if not WidgetRegistry[type] then
-			error("Attempt to instantiate unknown widget type", 2)
-		end
-
-		if not objPools[type] then
-			objPools[type] = {}
-		end
-
-		local newObj = next(objPools[type])
-		if not newObj then
-			newObj = WidgetRegistry[type]()
-			newObj.AceGUIWidgetVersion = WidgetVersions[type]
-		else
-			objPools[type][newObj] = nil
-			-- if the widget is older then the latest, don't even try to reuse it
-			-- just forget about it, and grab a new one.
-			if not newObj.AceGUIWidgetVersion or newObj.AceGUIWidgetVersion < WidgetVersions[type] then
-				return newWidget(type)
-=======
 	function newWidget(widgetType)
 		if not WidgetRegistry[widgetType] then
 			error("Attempt to instantiate unknown widget type", 2)
@@ -153,22 +107,11 @@ do
 			-- just forget about it, and grab a new one.
 			if not newObj.AceGUIWidgetVersion or newObj.AceGUIWidgetVersion < WidgetVersions[widgetType] then
 				return newWidget(widgetType)
->>>>>>> Stashed changes
 			end
 		end
 		return newObj
 	end
 	-- Releases an instance to the Pool
-<<<<<<< Updated upstream
-	function delWidget(obj,type)
-		if not objPools[type] then
-			objPools[type] = {}
-		end
-		if objPools[type][obj] then
-			error("Attempt to Release Widget that is already released", 2)
-		end
-		objPools[type][obj] = true
-=======
 	function delWidget(obj,widgetType)
 		if not objPools[widgetType] then
 			objPools[widgetType] = {}
@@ -177,7 +120,6 @@ do
 			error("Attempt to Release Widget that is already released", 2)
 		end
 		objPools[widgetType][obj] = true
->>>>>>> Stashed changes
 	end
 end
 
@@ -193,15 +135,9 @@ end
 -- OnAcquire function on it, before returning.
 -- @param type The type of the widget.
 -- @return The newly created widget.
-<<<<<<< Updated upstream
-function AceGUI:Create(type)
-	if WidgetRegistry[type] then
-		local widget = newWidget(type)
-=======
 function AceGUI:Create(widgetType)
 	if WidgetRegistry[widgetType] then
 		local widget = newWidget(widgetType)
->>>>>>> Stashed changes
 
 		if rawget(widget, "Acquire") then
 			widget.OnAcquire = widget.Acquire
@@ -219,11 +155,7 @@ function AceGUI:Create(widgetType)
 		if widget.OnAcquire then
 			widget:OnAcquire()
 		else
-<<<<<<< Updated upstream
-			error(("Widget type %s doesn't supply an OnAcquire Function"):format(type))
-=======
 			error(("Widget type %s doesn't supply an OnAcquire Function"):format(widgetType))
->>>>>>> Stashed changes
 		end
 		-- Set the default Layout ("List")
 		safecall(widget.SetLayout, widget, "List")
@@ -651,36 +583,16 @@ AceGUI.counts = AceGUI.counts or {}
 -- This is used by widgets that require a named frame, e.g. when a Blizzard
 -- Template requires it.
 -- @param type The widget type
-<<<<<<< Updated upstream
-function AceGUI:GetNextWidgetNum(type)
-	if not self.counts[type] then
-		self.counts[type] = 0
-	end
-	self.counts[type] = self.counts[type] + 1
-	return self.counts[type]
-=======
 function AceGUI:GetNextWidgetNum(widgetType)
 	if not self.counts[widgetType] then
 		self.counts[widgetType] = 0
 	end
 	self.counts[widgetType] = self.counts[widgetType] + 1
 	return self.counts[widgetType]
->>>>>>> Stashed changes
 end
 
 --- Return the number of created widgets for this type.
 -- In contrast to GetNextWidgetNum, the number is not incremented.
-<<<<<<< Updated upstream
--- @param type The widget type
-function AceGUI:GetWidgetCount(type)
-	return self.counts[type] or 0
-end
-
---- Return the version of the currently registered widget type.
--- @param type The widget type
-function AceGUI:GetWidgetVersion(type)
-	return WidgetVersions[type]
-=======
 -- @param widgetType The widget type
 function AceGUI:GetWidgetCount(widgetType)
 	return self.counts[widgetType] or 0
@@ -690,7 +602,6 @@ end
 -- @param widgetType The widget type
 function AceGUI:GetWidgetVersion(widgetType)
 	return WidgetVersions[widgetType]
->>>>>>> Stashed changes
 end
 
 -------------
@@ -853,10 +764,6 @@ AceGUI:RegisterLayout("Flow",
 
 				usedwidth = 0
 				rowstart = frame
-<<<<<<< Updated upstream
-				rowstartoffset = frameoffset
-=======
->>>>>>> Stashed changes
 
 				if child.DoLayout then
 					child:DoLayout()
@@ -899,12 +806,8 @@ local GetCellAlign = function (dir, tableObj, colObj, cellObj, cell, child)
 			or colObj and (colObj["align" .. dir] or colObj.align)
 			or tableObj["align" .. dir] or tableObj.align
 			or "CENTERLEFT"
-<<<<<<< Updated upstream
-	local child, cell, val = child or 0, cell or 0, nil
-=======
 	local val
 	child, cell = child or 0, cell or 0
->>>>>>> Stashed changes
 
 	if type(fn) == "string" then
 		fn = fn:lower()
@@ -918,11 +821,7 @@ local GetCellAlign = function (dir, tableObj, colObj, cellObj, cell, child)
 		val = fn
 	end
 
-<<<<<<< Updated upstream
-	return fn, max(0, min(val, cell))
-=======
 	return fn, math_max(0, math_min(val, cell))
->>>>>>> Stashed changes
 end
 
 -- Get width or height for multiple cells combined
@@ -931,11 +830,7 @@ local GetCellDimension = function (dir, laneDim, from, to, space)
 	for cell=from,to do
 		dim = dim + (laneDim[cell] or 0)
 	end
-<<<<<<< Updated upstream
-	return dim + max(0, to - from) * (space or 0)
-=======
 	return dim + math_max(0, to - from) * (space or 0)
->>>>>>> Stashed changes
 end
 
 --[[ Options
@@ -981,11 +876,7 @@ AceGUI:RegisterLayout("Table",
 				repeat
 					n = n + 1
 					local col = (n - 1) % #cols + 1
-<<<<<<< Updated upstream
-					local row = ceil(n / #cols)
-=======
 					local row = math_ceil(n / #cols)
->>>>>>> Stashed changes
 					local rowspan = rowspans[col]
 					local cell = rowspan and rowspan.child or child
 					local cellObj = cell:GetUserData("cell")
@@ -1001,11 +892,7 @@ AceGUI:RegisterLayout("Table",
 					end
 
 					-- Colspan
-<<<<<<< Updated upstream
-					local colspan = max(0, min((cellObj and cellObj.colspan or 1) - 1, #cols - col))
-=======
 					local colspan = math_max(0, math_min((cellObj and cellObj.colspan or 1) - 1, #cols - col))
->>>>>>> Stashed changes
 					n = n + colspan
 
 					-- Place the cell
@@ -1022,11 +909,7 @@ AceGUI:RegisterLayout("Table",
 			end
 		end
 
-<<<<<<< Updated upstream
-		local rows = ceil(n / #cols)
-=======
 		local rows = math_ceil(n / #cols)
->>>>>>> Stashed changes
 
 		-- Determine fixed size cols and collect weights
 		local extantH, totalWeight = totalH, 0
@@ -1051,28 +934,16 @@ AceGUI:RegisterLayout("Table",
 							f:ClearAllPoints()
 							local childH = f:GetWidth() or 0
 
-<<<<<<< Updated upstream
-							laneH[col] = max(laneH[col], childH - GetCellDimension("H", laneH, colStart[child], col - 1, spaceH))
-						end
-					end
-
-					laneH[col] = max(colObj.min or colObj[1] or 0, min(laneH[col], colObj.max or colObj[2] or laneH[col]))
-=======
 							laneH[col] = math_max(laneH[col], childH - GetCellDimension("H", laneH, colStart[child], col - 1, spaceH))
 						end
 					end
 
 					laneH[col] = math_max(colObj.min or colObj[1] or 0, math_min(laneH[col], colObj.max or colObj[2] or laneH[col]))
->>>>>>> Stashed changes
 				else
 					-- Rel./Abs. width
 					laneH[col] = colObj.width < 1 and colObj.width * totalH or colObj.width
 				end
-<<<<<<< Updated upstream
-				extantH = max(0, extantH - laneH[col])
-=======
 				extantH = math_max(0, extantH - laneH[col])
->>>>>>> Stashed changes
 			end
 		end
 
@@ -1111,11 +982,7 @@ AceGUI:RegisterLayout("Table",
 						child:DoLayout()
 					end
 
-<<<<<<< Updated upstream
-					rowV = max(rowV, (f:GetHeight() or 0) - GetCellDimension("V", laneV, rowStart[child], row - 1, spaceV))
-=======
 					rowV = math_max(rowV, (f:GetHeight() or 0) - GetCellDimension("V", laneV, rowStart[child], row - 1, spaceV))
->>>>>>> Stashed changes
 				end
 			end
 

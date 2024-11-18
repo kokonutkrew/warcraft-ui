@@ -1,3 +1,4 @@
+
 -- DruidFeral.lua
 -- July 2024
 
@@ -1272,8 +1273,8 @@ local SinfulHysteriaHandler = setfenv( function ()
 end, state )
 
 
-local IncarnationComboPointPeriodic = setfenv( function()
-    gain( 1, "combo_point" )
+local ComboPointPeriodic = setfenv( function()
+    gain( 1, "combo_points" )
 end, state )
 
 spec:RegisterHook( "reset_precast", function ()
@@ -1300,7 +1301,8 @@ spec:RegisterHook( "reset_precast", function ()
     end
 
     if prev_gcd[1].feral_frenzy and now - action.feral_frenzy.lastCast < gcd.execute and combo_points.current < 5 then
-        gain( 5, "combo_points" )
+        -- combo_points.current = 5
+        gain( 5, "combo_points", false )
     end
 
     -- opener_done = nil
@@ -1316,7 +1318,7 @@ spec:RegisterHook( "reset_precast", function ()
         for i = 1.5, expires - query_time, 1.5 do
             tick = query_time + i
             if tick < expires then
-                state:QueueAuraEvent( "incarnation_combo_point_perodic", IncarnationComboPointPeriodic, tick, "AURA_TICK" )
+                state:QueueAuraEvent( "incarnation_combo_point_perodic", ComboPointPeriodic, tick, "AURA_TICK" )
             end
         end
     end
@@ -1326,9 +1328,10 @@ spec:RegisterHook( "reset_precast", function ()
     end
 end )
 
-spec:RegisterHook( "gain", function( amt, resource )
+spec:RegisterHook( "gain", function( amt, resource, overflow )
+    if overflow == nil then overflow = true end -- nil is yes
     if amt > 0 and resource == "combo_points" then
-        if combo_points.deficit < amt then -- excess points
+        if combo_points.deficit < amt and overflow then -- excess points
         local combo_points_to_store = amt - combo_points.deficit
             if buff.overflowing_power.stack > ( 3 - combo_points_to_store ) or buff.bs_inc.down then -- unable to store them all
                 applyBuff( "coiled_to_spring" )
@@ -1610,7 +1613,7 @@ spec:RegisterAbilities( {
             if buff.cat_form.down then shift( "cat_form" ) end
             applyBuff( "berserk" )
             for i = 1.5, spec.auras.berserk.duration, 1.5 do
-                state:QueueAuraEvent( "incarnation_combo_point_periodic", IncarnationComboPointPeriodic, query_time + i, "AURA_TICK" )
+                state:QueueAuraEvent( "incarnation_combo_point_periodic", ComboPointPeriodic, query_time + i, "AURA_TICK" )
             end
         end,
 
@@ -1797,7 +1800,7 @@ spec:RegisterAbilities( {
         end,
 
         handler = function ()
-            gain( 5, "combo_points" )
+            gain( 5, "combo_points", false )
             applyDebuff( "target", "feral_frenzy" )
             if buff.bs_inc.up and talent.berserk_frenzy.enabled then applyDebuff( "target", "frenzied_assault" ) end
             if set_bonus.tier31_2pc > 0 then applyBuff( "smoldering_frenzy" ) end
@@ -1846,6 +1849,7 @@ spec:RegisterAbilities( {
             if talent.ravage.enabled then removeBuff( "ravage" ) end
             if talent.bloodtalons.enabled then removeStack( "bloodtalons" ) end
             if talent.sabertooth.enabled then applyDebuff( "target", "sabertooth" ) end
+            if state.spec.restoration and talent.master_shapeshifter.enabled and combo_points.current == 5 then gain( 175000, "mana" ) end
 
             if buff.apex_predator.up or buff.apex_predators_craving.up then
                 applyBuff( "predatory_swiftness" )
@@ -1873,9 +1877,9 @@ spec:RegisterAbilities( {
     frenzied_regeneration = {
         id = 22842,
         cast = 0,
-        charges = function () return talent.innate_resolve.enabled and 2 or nil end,
+        charges = function () if talent.innate_resolve.enabled then return 2 end end,
         cooldown = function () return 36 * ( buff.berserk.up and talent.berserk_persistence.enabled and 0 or 1 ) * ( 1 - 0.2 * talent.reinvigoration.rank ) end,
-        recharge = function () return talent.innate_resolve.enabled and ( 36 * ( buff.berserk.up and talent.berserk_persistence.enabled and 0 or 1 ) ) or nil end,
+        recharge = function () if talent.innate_resolve.enabled then return ( 36 * ( buff.berserk.up and talent.berserk_persistence.enabled and 0 or 1 ) ) end end,
         gcd = "spell",
         school = "physical",
 
@@ -1988,7 +1992,7 @@ spec:RegisterAbilities( {
             setCooldown( "prowl", 0 )
 
             for i = 1.5, spec.auras.incarnation.duration, 1.5 do
-                state:QueueAuraEvent( "incarnation_combo_point_periodic", IncarnationComboPointPeriodic, query_time + i, "AURA_TICK" )
+                state:QueueAuraEvent( "incarnation_combo_point_periodic", ComboPointPeriodic, query_time + i, "AURA_TICK" )
             end
 
         end,
@@ -2035,6 +2039,7 @@ spec:RegisterAbilities( {
 
         handler = function ()
             applyDebuff( "target", "maim", combo_points.current )
+            if state.spec.restoration and talent.master_shapeshifter.enabled and combo_points.current == 5 then gain( 175000, "mana" ) end
             spend( combo_points.current, "combo_points" )
 
             removeBuff( "iron_jaws" )
@@ -2489,6 +2494,7 @@ spec:RegisterAbilities( {
         handler = function ()
             applyDebuff( "target", "rip" )
             debuff.rip.pmultiplier = persistent_multiplier
+            if state.spec.restoration and talent.master_shapeshifter.enabled and combo_points.current == 5 then gain( 175000, "mana" ) end
             spend( combo_points.current, "combo_points" )
 
             if talent.bloodtalons.enabled then removeStack( "bloodtalons" ) end
@@ -2594,6 +2600,29 @@ spec:RegisterAbilities( {
         usable = function () return debuff.dispellable_enrage.up end,
         handler = function ()
             removeDebuff( "target", "dispellable_enrage" )
+        end,
+    },
+
+    starsurge = {
+        id = 197626,
+        cast = 0,
+        cooldown = function() return 10 - ( 4 * talent.starlight_conduit.rank ) end,
+        gcd = "spell",
+
+        spend = function () return ( talent.starlight_conduit.enabled and 0.003 or 0.006 ) end,
+        spendType = "mana",
+
+        startsCombat = true,
+        texture = 135730,
+        talent = "starsurge",
+
+        handler = function ()
+            gain( 0.3 * health.max, "health" )
+            if talent.master_shapeshifter.enabled then gain( 43750, "mana" ) end
+            if talent.call_of_the_elder_druid.enabled and debuff.oath_of_the_elder_druid.down then
+                applyBuff( "heart_of_the_wild", 15 )
+                applyDebuff( "player", "oath_of_the_elder_druid" )
+            end
         end,
     },
 

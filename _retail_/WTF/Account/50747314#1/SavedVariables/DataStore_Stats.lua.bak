@@ -1,65 +1,43 @@
 
-DataStore_StatsDB = {
-	["profileKeys"] = {
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-	},
-	["global"] = {
-		["Characters"] = {
-			["Default.Emerald Dream.Kokonutkiing"] = {
-				["lastUpdate"] = 1608541931,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|8.4331007003784",
-					["HealthMax"] = 869,
-					["Melee"] = "3-5|3.4360001087189|0|0|8.4331007003784|0",
-					["MaxPower"] = "0|825",
-					["Spell"] = "86|86|0|8.4331007003784|17|41",
-					["PVP"] = "0|0",
-					["Base"] = "19|44|79|86|0",
-					["Defense"] = "0|0|3|0|0|0",
-				},
-			},
-			["Default.Emerald Dream.Buhbles"] = {
-				["lastUpdate"] = 1606767386,
-				["Stats"] = {
-					["Ranged"] = "1-1|0|0|0|5",
-					["HealthMax"] = 133,
-					["Melee"] = "11-13|3.6000001430511|18|0|5|0",
-					["MaxPower"] = "3|100",
-					["Defense"] = "0|0|4.1221609115601|3|0|0",
-					["PVP"] = "0|0",
-					["Base"] = "7|18|19|20|0",
-					["Spell"] = "20|20|0|5|0|13",
-				},
-			},
-			["Default.Emerald Dream.Kokonutkween"] = {
-				["lastUpdate"] = 1608465662,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|9.8063411712646",
-					["HealthMax"] = 536,
-					["Melee"] = "3-5|3.3750002384186|0|0|9.8063411712646|0",
-					["MaxPower"] = "0|430",
-					["Spell"] = "70|70|0|9.8063411712646|17|21",
-					["PVP"] = "0|0",
-					["Base"] = "12|29|67|70|0",
-					["Defense"] = "0|0|3|0|0|0",
-				},
-			},
-			["Default.Emerald Dream.Gl"] = {
-				["lastUpdate"] = 1615450800,
-				["Stats"] = {
-					["Ranged"] = "1-1|0|0|0|5",
-					["HealthMax"] = 105,
-					["Melee"] = "9-10|2.6000001430511|20|0|5|0",
-					["MaxPower"] = "0|52",
-					["Defense"] = "0|0|4.2468452453613|0|10|0",
-					["PVP"] = "0|0",
-					["Base"] = "8|20|15|17|0",
-					["Spell"] = "17|17|0|5|0|8",
-				},
-			},
-		},
-	},
+DataStore_Stats_Characters = {
+{
+["Ranged"] = "1-2|0|0|0|5.56",
+["Spell"] = "499|860|0|5.56|6|28",
+["Melee"] = "5-9|3.54|0|0|5.56|0",
+["MaxPower"] = "0|700",
+["lastUpdate"] = 1719852024,
+["PVP"] = "0|0",
+["HealthMax"] = 6517,
+["Defense"] = "0|0|3|0.00|0.00|0",
+["Base"] = "32|41|931|499|0",
+["dungeonScore"] = 0,
+},
+{
+["Ranged"] = "1-1|0|0|0|5.00",
+["Spell"] = "20|20|0|5.00|0|13",
+["Melee"] = "13-14|3.56|20|0|5.00|0",
+["MaxPower"] = "0|260",
+["lastUpdate"] = 1720231063,
+["PVP"] = "0|0",
+["HealthMax"] = 148,
+["Defense"] = "0|0|6.2468452453613|0.00|0.00|0",
+["Base"] = "6|20|37|20|0",
+["dungeonScore"] = 0,
+},
+{
+["Ranged"] = "1-2|0|0|0|8.63",
+["Spell"] = "57|58|0|8.63|10|40",
+["Melee"] = "2-4|3.47|0|0|8.63|0",
+["MaxPower"] = "0|400",
+["lastUpdate"] = 1720241813,
+["PVP"] = "0|0",
+["HealthMax"] = 328,
+["Defense"] = "0|0|3|0.00|0.00|0",
+["Base"] = "16|22|82|57|0",
+["dungeonScore"] = 0,
+},
+}
+DataStore_Stats_Weekly = {
+}
+DataStore_Stats_Dungeons = {
 }

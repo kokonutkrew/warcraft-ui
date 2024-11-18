@@ -114,10 +114,7 @@ app.CreateTitle = app.CreateClass("Title", "titleID", {
 	collectible = function(t)
 		return app.Settings.Collectibles.Titles;
 	end,
-	collected = app.IsClassic and function(t)
-		local titleID = t[KEY];
-		return app.SetCollected(t, "Titles", titleID, IsTitleKnown(titleID));
-	end or function(t)
+	collected = function(t)
 		return app.TypicalCharacterCollected(CACHE, t[KEY])
 	end,
 	saved = function(t)
@@ -130,21 +127,18 @@ app.CreateTitle = app.CreateClass("Title", "titleID", {
 app.AddSimpleCollectibleSwap(CLASSNAME, CACHE)
 
 -- Title Refresh
-if app.IsRetail then
--- NOTE: Not sure if this is necessary for Classic.
-	app.AddEventHandler("OnRefreshCollections", function()
-		local saved, none = {}, {}
-		for i=1,GetNumTitles(),1 do
-			if IsTitleKnown(i) then
-				saved[i] = true
-			else
-				none[i] = true
-			end
+app.AddEventHandler("OnRefreshCollections", function()
+	local saved, none = {}, {}
+	for i=1,GetNumTitles(),1 do
+		if IsTitleKnown(i) then
+			saved[i] = true
+		else
+			none[i] = true
 		end
-		-- Character Cache
-		app.SetBatchCached(CACHE, saved, 1)
-		app.SetBatchCached(CACHE, none)
-		-- Account Cache (removals handled by Sync)
-		app.SetBatchAccountCached(CACHE, saved, 1)
-	end);
-end
+	end
+	-- Character Cache
+	app.SetBatchCached(CACHE, saved, 1)
+	app.SetBatchCached(CACHE, none)
+	-- Account Cache (removals handled by Sync)
+	app.SetBatchAccountCached(CACHE, saved, 1)
+end);

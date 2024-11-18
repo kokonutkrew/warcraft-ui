@@ -32,23 +32,15 @@ VER 3 0100000000000006 "Kick Focus" "INV_MISC_QUESTIONMARK"
 /cast [target=mouseover] Kick
 /use Kick
 END
-<<<<<<< Updated upstream
-VER 3 0100000000000014 "KK_SUB_AOE" "INV_MISC_QUESTIONMARK"
-=======
 VER 3 0100000000000012 "KK_SUB_AOE" "INV_MISC_QUESTIONMARK"
->>>>>>> Stashed changes
 #showtooltip
 /click [button:2] KK_SUB_AOE RightButton; [button:3] KK_SUB_AOE MiddleButton; [button:4] KK_SUB_AOE Button4; [button:5] KK_SUB_AOE Button5; KK_SUB_AOE
 END
-VER 3 0100000000000013 "KK_SUB_ST" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000011 "KK_SUB_ST" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click [button:2] KK_SUB_ST RightButton; [button:3] KK_SUB_ST MiddleButton; [button:4] KK_SUB_ST Button4; [button:5] KK_SUB_ST Button5; KK_SUB_ST
 END
-<<<<<<< Updated upstream
-VER 3 0100000000000009 "OUTLAW" "INV_MISC_QUESTIONMARK"
-=======
 VER 3 0100000000000015 "OUTLAW" "INV_MISC_QUESTIONMARK"
->>>>>>> Stashed changes
 #showtooltip
 /click [button:2] OUTLAW RightButton; [button:3] OUTLAW MiddleButton; [button:4] OUTLAW Button4; [button:5] OUTLAW Button5; OUTLAW
 END

@@ -706,15 +706,15 @@ _.Modules.Events.SetEventInformation(201, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=3,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=4,["year"]=2025})
 });
-_.Modules.Events.SetEventInformation(133889, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=6,["year"]=2023}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025})
-});
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=7,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026})
+});
+_.Modules.Events.SetEventInformation(133889, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=6,["year"]=2023}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025})
 });
 
 -- Filter Database Module
@@ -1807,6 +1807,7 @@ local ObjectNames = {
 	[181894] = "Fel Cone Fungus",
 	[181897] = "Ysera's Tear",
 	[181916] = "Tainted Wood",
+	[181963] = "Charred Bone Fragment",
 	[181964] = "Statue of Queen Azshara",
 	[181981] = "Dragon Bone",
 	[182011] = "Crate of Ingots",
@@ -1833,6 +1834,7 @@ local ObjectNames = {
 	[182196] = "Arcane Container",
 	[182197] = "Arcane Container",
 	[182198] = "Arcane Container",
+	[182199] = "Keanna's Log",
 	[182256] = "Discarded Nutriment",
 	[182265] = "Bleeding Hollow Supply Crate",
 	[182349] = "Corki's Prison",
@@ -3139,6 +3141,7 @@ local ObjectModels = {
 	[181894] = 202176,
 	[181897] = 202098,
 	[181916] = 198389,
+	[181963] = 199754,
 	[181964] = 201452,
 	[181981] = 203724,
 	[182011] = 198168,
@@ -3165,6 +3168,7 @@ local ObjectModels = {
 	[182196] = 199744,
 	[182197] = 199744,
 	[182198] = 199744,
+	[182199] = 198028,
 	[182256] = 193909,
 	[182265] = 199099,
 	[182349] = 200938,
@@ -3476,13 +3480,6 @@ local phases = {
 		lore = "|cFFFFAAAAIncluded Naxxramas, which was heralded by the Scourge Invasion.|r",
 		minimumBuildVersion = 11301,
 		buildVersion = 11306,
-		state = 2,
-	},
-	[1601] = {
-		name = "Scourge Invasion",
-		description = "|cFFAAFFAAThis was only available during the Scourge Invasion.|r",
-		lore = "|cFFFFAAAAIf the Scourge Invasion has ended on your server, simply turn this off.|r",
-		minimumBuildVersion = 11301,
 		state = 2,
 	},
 	[1602] = {
@@ -6054,6 +6051,7 @@ localize(ObjectNames, {
 	[181894] = "Teufelszapfenfungus",
 	[181897] = "Yseras Träne",
 	[181916] = "Verdorbenes Satyrnaarholz",
+	[181963] = "Verkohltes Knochenfragment",
 	[181964] = "Statue der Königin Azshara",
 	[181981] = "Drachenknochen",
 	[182011] = "Kiste mit Blöcken",
@@ -6079,6 +6077,7 @@ localize(ObjectNames, {
 	[182196] = "Arkaner Behälter",
 	[182197] = "Arkaner Behälter",
 	[182198] = "Arkaner Behälter",
+	[182199] = "Keannas Aufzeichnungen",
 	[182256] = "Liegengelassene Nahrung",
 	[182265] = "Vorratskiste des Blutenden Auges",
 	[182355] = "Waffen von Kil'sorge",
@@ -7574,6 +7573,7 @@ localize(ObjectNames, {
 	[181894] = "Collybie gangrenée",
 	[181897] = "Larme d'Ysera",
 	[181916] = "Bois gangrené de Satyrnaar",
+	[181963] = "Fragment d'os carbonisé",
 	[181964] = "Statue de la reine Azshara",
 	[181981] = "Os de dragon",
 	[182011] = "Caisse de lingots",
@@ -7600,6 +7600,7 @@ localize(ObjectNames, {
 	[182196] = "Récipient arcanique",
 	[182197] = "Récipient arcanique",
 	[182198] = "Récipient arcanique",
+	[182199] = "Journal de Keanna",
 	[182256] = "Aliments abandonnés",
 	[182265] = "Caisse de fournitures de l'Orbite-Sanglante",
 	[182355] = "Armes de Kil'sorrau",
@@ -8735,6 +8736,7 @@ localize(ObjectNames, {
 	[181894] = "Fungo di Vilpigna",
 	[181897] = "Lacrima di Ysera",
 	[181916] = "Catasta di Legno Profanato di Satirnaar",
+	[181963] = "Frammento d'Osso Carbonizzato",
 	[181964] = "Statua della Regina Azshara",
 	[181981] = "Osso di Drago",
 	[182011] = "Cassa di Lingotti",
@@ -8760,6 +8762,7 @@ localize(ObjectNames, {
 	[182196] = "Contenitore Arcano",
 	[182197] = "Contenitore Arcano",
 	[182198] = "Contenitore Arcano",
+	[182199] = "Diario di Keanna",
 	[182256] = "Alimento Scartato",
 	[182265] = "Provviste dei Guerci Insanguinati",
 	[182355] = "Armamenti dei Kil'sorin",
@@ -9650,6 +9653,7 @@ localize(ObjectNames, {
 	[181894] = "Fungo Conífero Vil",
 	[181897] = "Lágrima de Ysera",
 	[181916] = "Madeira Vil de Satyrnaar",
+	[181963] = "Fragmento de Osso Carbonizado",
 	[181964] = "Estátua da Rainha Azshara",
 	[181981] = "Osso de Dragão",
 	[182011] = "Caixote de Lingotes",
@@ -9676,6 +9680,7 @@ localize(ObjectNames, {
 	[182196] = "Recipiente Arcano",
 	[182197] = "Recipiente Arcano",
 	[182198] = "Recipiente Arcano",
+	[182199] = "Anotações de Keanna",
 	[182256] = "Nutrimento Descartado",
 	[182265] = "Caixa de Suprimentos Olhos Sangrentos",
 	[182355] = "Armamentos de Kil'pesar",
@@ -11183,6 +11188,7 @@ localize(ObjectNames, {
 	[181894] = "Поганка конусовидная",
 	[181897] = "Слеза Изеры",
 	[181916] = "Связка оскверненной древесины Сатирнаара",
+	[181963] = "Фрагмент обугленной кости",
 	[181964] = "Статуя королевы Азшары",
 	[181981] = "Кость дракона",
 	[182011] = "Ящик со слитками",
@@ -11209,6 +11215,7 @@ localize(ObjectNames, {
 	[182196] = "Волшебный контейнер",
 	[182197] = "Волшебный контейнер",
 	[182198] = "Волшебный контейнер",
+	[182199] = "Записи Кинны",
 	[182256] = "Выброшенный корм",
 	[182265] = "Ящик с припасами из Кровавой Глазницы",
 	[182355] = "Оружие Вечной Скорби",
@@ -12771,6 +12778,7 @@ localize(ObjectNames, {
 	[181894] = "지옥방울버섯",
 	[181897] = "이세라의 눈물",
 	[181916] = "사티르나르의 오염된 목재",
+	[181963] = "그을린 뼈 조각",
 	[181981] = "용의 뼈",
 	[182011] = "주괴 상자",
 	[182024] = "피가 담긴 구슬",
@@ -12796,6 +12804,7 @@ localize(ObjectNames, {
 	[182196] = "마법 단지",
 	[182197] = "마법 단지",
 	[182198] = "마법 단지",
+	[182199] = "킨나의 기록",
 	[182256] = "버려진 버섯",
 	[182265] = "피눈물 보급품 상자",
 	[182355] = "킬소로우 무기",
@@ -14272,6 +14281,7 @@ localize(ObjectNames, {
 	[181894] = "Hongo de bellota vil",
 	[181897] = "Lágrima de Ysera",
 	[181916] = "Madera vil de Satyrnaar",
+	[181963] = "Trozo de hueso carbonizado",
 	[181964] = "Estatua de la reina Azshara",
 	[181981] = "Hueso de dragón",
 	[182011] = "Cajón de lingotes",
@@ -14298,6 +14308,7 @@ localize(ObjectNames, {
 	[182196] = "Contenedor arcano",
 	[182197] = "Contenedor arcano",
 	[182198] = "Contenedor arcano",
+	[182199] = "Apuntes de Keanna",
 	[182256] = "Restos de alimentos",
 	[182265] = "Cajón de suministros de Foso Sangrante",
 	[182355] = "Armamento de Mata'penas",
@@ -15771,6 +15782,7 @@ localize(ObjectNames, {
 	[181893] = "致命孢子簇",
 	[181894] = "邪锥蘑菇",
 	[181916] = "被腐蚀的木材",
+	[181963] = "焦骨碎块",
 	[181981] = "龙骨",
 	[182011] = "铁锭箱",
 	[182031] = "丢弃的食物",
@@ -15793,6 +15805,7 @@ localize(ObjectNames, {
 	[182196] = "奥术容器",
 	[182197] = "奥术容器",
 	[182198] = "奥术容器",
+	[182199] = "金娜的日记",
 	[182256] = "丢弃的食物",
 	[182265] = "血环补给箱",
 	[182355] = "暗影议会军备",
@@ -17059,3 +17072,20 @@ for key,value in pairs({
 do achievementCategories[key].name = value; end
 end
 end
+
+
+-- Add a Header & Filter debugger
+setmetatable(_.FilterConstants, {
+	__index = function(t, key)
+		_.print("MISSING FilterConstant:", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});
+setmetatable(_.HeaderConstants, {
+	__index = function(t, key)
+		_.print("MISSING HeaderConstant:", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});

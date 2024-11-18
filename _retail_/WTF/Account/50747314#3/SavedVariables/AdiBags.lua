@@ -1,28 +1,48 @@
 
 AdiBagsDB = {
 ["namespaces"] = {
+["ItemLevel"] = {
+},
+["FilterOverride"] = {
+["profiles"] = {
+["Default"] = {
+["version"] = 3,
+},
+},
+},
+["ItemCategory"] = {
+},
+["NewItem"] = {
+},
 ["AdiBags_TooltipInfo"] = {
 },
-["TSMPrice"] = {
+["Equipment"] = {
 },
-["MoneyFrame"] = {
-},
-["Soulbound"] = {
+["ItemSets"] = {
 },
 ["CurrencyFrame"] = {
 },
 ["DataSource"] = {
 },
-["NewItem"] = {
+["Junk"] = {
 },
-["ItemLevel"] = {
+["MoneyFrame"] = {
 },
 },
 ["profileKeys"] = {
-["Timecaster - Emerald Dream"] = "Default",
+["Meki - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+["deprecationPhase"] = 2,
+["experiments"] = {
+["Bag Lag Fix"] = {
+["Enabled"] = false,
+["Percent"] = 1,
+["Name"] = "Bag Lag Fix",
+["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
+},
+},
 },
 },
 }

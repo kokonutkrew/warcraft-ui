@@ -1,0 +1,407 @@
+
+SGI_DATA = {
+["resetFix"] = true,
+["Xpblast - Moon Guard"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -71.11131286621094,
+["xOfs"] = -99.13353729248047,
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+},
+},
+["filters"] = {
+},
+},
+},
+["guildList"] = {
+["Moon Guard"] = {
+["KK"] = {
+"Winbin",
+"Naber",
+"Plumn",
+},
+["Chaos Remixed"] = {
+"Shibô",
+"Cathlysmom",
+},
+["Leonine Titans"] = {
+"Nalleeria",
+},
+["Wanted"] = {
+"Dorisbaby",
+},
+["Fifty Shades Of Slay"] = {
+"Álfhilde",
+},
+["H e r o"] = {
+"Ofs",
+},
+["Crazy Cat Peeps"] = {
+"Heç",
+},
+["Guardian of Northrend"] = {
+"Kizgorod",
+},
+["Royalty of Goldshire"] = {
+"Castathor",
+},
+["Goon Squâd"] = {
+"Judill",
+},
+["Directionally Challenged"] = {
+"Xolocomoco",
+},
+["Dead Rats"] = {
+"Soomi",
+},
+["Smidge Nation"] = {
+"Kiieu",
+},
+["Game of Thrones"] = {
+"Sanasatraz",
+},
+["Vault Busters"] = {
+"Thxne",
+},
+["Nerd Center"] = {
+"Caliana",
+},
+["Big Booty Baes"] = {
+"Feytal",
+},
+["Brass Key Investigations"] = {
+"Indolyn",
+},
+["Farmers Almanac"] = {
+"Eodran",
+},
+["The Inn Dwellers"] = {
+"Undersoul",
+"Warriormix",
+},
+["Størm"] = {
+"Adristyria",
+},
+["Above the Clouds"] = {
+"Humantractor",
+},
+["Tom Foolery"] = {
+"Maritzah",
+},
+["Jasmine Dragon"] = {
+"Santimagic",
+},
+["Summit"] = {
+"Ràn",
+},
+["Cataverse Gaming"] = {
+"Seklut",
+},
+["Cult of Rahkhuun"] = {
+"Ãrthussy",
+},
+["Four Winds Trading Co"] = {
+"Wickedlyn",
+},
+["Shadow of the Dragon"] = {
+"Blusteel",
+},
+["Steadfast"] = {
+"Nordreic",
+},
+["Marvelous Misadventures"] = {
+"Svelaka",
+},
+["The Masqueradè"] = {
+"Micarala",
+},
+["Little Gangsters"] = {
+"Jeremysmurfs",
+},
+["No Fun Allowed"] = {
+"Procaine",
+},
+["Pandaria Express"] = {
+"Malzeno",
+},
+["Abyss"] = {
+"Lanféâr",
+"Moðnlight",
+},
+["Wayward Wanderers"] = {
+"Tantharis",
+"Durnathra",
+},
+["Blade of the Dragon"] = {
+"Pulprouge",
+},
+["Valdrakken Accord"] = {
+"Oxyd",
+},
+["Hidden Eclipse"] = {
+"Waìfu",
+},
+["Gnomish Inquisition"] = {
+"Niaja",
+},
+["Victorious Secret"] = {
+"Celasondra",
+},
+["Heartsong Guardians"] = {
+"Haresh",
+},
+["Cyber Battle Buddies"] = {
+"Amadeatria",
+},
+["H E A R T H"] = {
+"Kheritha",
+},
+["Shenanigans"] = {
+"Morscerta",
+"Gracefeel",
+"Morgathra",
+},
+["Inspiration"] = {
+"Lightismoney",
+},
+["Wolves of Emberstorm"] = {
+"Skadooshpo",
+},
+["Iron Circle"] = {
+"Nethalya",
+},
+["Holy Rollers"] = {
+"Phrygian",
+"Doreign",
+},
+["Sons of Relic"] = {
+"Peth",
+},
+["Bonus Valor"] = {
+"Cya",
+"Grymoire",
+},
+["Casual Baddies"] = {
+"Iviestrasza",
+},
+["Deviant Bound"] = {
+"Supremum",
+},
+["Casual Gaymers"] = {
+"Hatsumomoo",
+},
+["Dalaran Shadow Council"] = {
+"Zatardormu",
+},
+["Latent Content"] = {
+"Elserys",
+},
+["The Gathering of Knights"] = {
+"Bountytowels",
+},
+["Eternally Haunted"] = {
+"Liahae",
+},
+["The Nyx"] = {
+"Tethering",
+},
+["REBIRTH OF RATSTALLION"] = {
+"Sumafi",
+"Shyft",
+},
+["P e n t h o u s e"] = {
+"Arraxe",
+"Kennough",
+},
+["Honor Chest"] = {
+"Sylmark",
+},
+["Valhalla"] = {
+"Monkeykick",
+},
+["Wrath of Vengeance"] = {
+"Ecorian",
+},
+["Eternal Hunt"] = {
+"Pyropex",
+},
+["Argussian Vanguard"] = {
+"Xaimari",
+},
+["Soul Eater"] = {
+"Babybrat",
+},
+["Heist"] = {
+"Dusksorrow",
+},
+["Infinite Ventures"] = {
+"Meracyne",
+},
+["Campfire Knights"] = {
+"Eruzal",
+},
+["Unitology"] = {
+"Iscariot",
+},
+["Waxing Moon Clan"] = {
+"Mööncat",
+},
+["The Mithril Bracers"] = {
+"Zharrik",
+},
+["The Old Gods"] = {
+"Yirasande",
+"Jennelis",
+},
+["Saints of Sin"] = {
+"Wattzsin",
+"Mopik",
+"Demonrat",
+"Gnallas",
+"Nightspeed",
+},
+["Astral Knights"] = {
+"Velira",
+"Kionas",
+},
+["Kinda Lame"] = {
+"Cathie",
+},
+["Sword and Sheath"] = {
+"Jêsiê",
+},
+["ValHall"] = {
+"Dazamari",
+},
+["eCollective"] = {
+"Ixantia",
+},
+["The Nightfall Inn"] = {
+"Kyounhi",
+},
+["GFY Enterprises"] = {
+"Puddingtoes",
+},
+["Seven Sinners"] = {
+"Korann",
+"Lolasandre",
+},
+["Balboa Technological Co"] = {
+"Techycookie",
+},
+["The Leaping Tiger"] = {
+"Jasinder",
+"Stellahvri",
+"Snowtuft",
+},
+["Pagans"] = {
+"Kalysi",
+},
+["Only Friends"] = {
+"Vonlenska",
+},
+["Collars of Supremacy"] = {
+"Zyguy",
+},
+["The Black Rose"] = {
+"Roevda",
+},
+["Bloodbound Legacy"] = {
+"Yeehawcowboy",
+},
+["The Gilnean Concord"] = {
+"Ayáka",
+},
+["Circle"] = {
+"Akmu",
+},
+["Thanks I Hate It"] = {
+"Krimit",
+"Siuan",
+},
+["BrotherhoodOfTheBracelet"] = {
+"Oritza",
+},
+["Rage Against the Meta"] = {
+"Kamishimo",
+},
+["Hellraiser"] = {
+"Tullee",
+"Xyranthiana",
+"Basanaught",
+},
+["Epoch"] = {
+"Bimblewimble",
+},
+["Filthy As Charged"] = {
+"Itherin",
+"Jhorndal",
+},
+["The Lesser Key"] = {
+"Wölfiefemboy",
+},
+["Murlocs"] = {
+"Forvin",
+},
+["Green Dragon Tavern"] = {
+"Saig",
+},
+["Sha of Goldshire"] = {
+"Linaristina",
+},
+["Tastes like CHICKEN"] = {
+"Zenseratren",
+},
+["Brethren of Blood"] = {
+"Lauralynn",
+"Gælenn",
+},
+["The Duchy of Summerfast"] = {
+"Remixfire",
+},
+["Push Back"] = {
+"Duowong",
+},
+["PVP Pizza Party"] = {
+"Maruce",
+},
+},
+},
+["lock"] = {
+["Samoansalty-Area52"] = 8,
+["Sneakysteaky"] = 8,
+["Shamanbro"] = 8,
+["Dethflare-EmeraldDream"] = 8,
+["Blackevil"] = 8,
+["Gabreaseus-WyrmrestAccord"] = 8,
+["Wearethecham-EmeraldDream"] = 8,
+["Nicesai-EmeraldDream"] = 8,
+["Deathscar-EmeraldDream"] = 8,
+["Xolocomoco-Mal'Ganis"] = 8,
+["Sinsion-WyrmrestAccord"] = 8,
+["Mintea-WyrmrestAccord"] = 8,
+["Puddingtoes-Illidan"] = 8,
+["Collei-SilverHand"] = 8,
+["Saig-EmeraldDream"] = 8,
+},
+}

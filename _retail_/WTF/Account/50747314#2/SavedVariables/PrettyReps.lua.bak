@@ -1,0 +1,1331 @@
+
+PrettyRepsDB = {
+["Options"] = {
+["Enabled"] = true,
+["ParagonIconsRewardOnly"] = false,
+["GroupTotals"] = true,
+["HideUnobtainableGroup"] = false,
+["HideInactiveGroup"] = false,
+["ShowParagonIcons"] = true,
+["UseUnobtainableGroup"] = true,
+["HideOppositeFaction"] = true,
+["ShowParagonBars"] = true,
+["ShowGuild"] = true,
+},
+["Structure"] = {
+{
+["name"] = "Dragonflight",
+["children"] = {
+{
+["name"] = "Dragonscale Expedition",
+["children"] = {
+{
+["name"] = "Azerothian Archives",
+["factionID"] = 2615,
+},
+},
+["factionID"] = 2507,
+},
+{
+["name"] = "Dream Wardens",
+["factionID"] = 2574,
+},
+{
+["name"] = "Glimmerogg Racer",
+["factionID"] = 2568,
+},
+{
+["name"] = "Iskaara Tuskarr",
+["factionID"] = 2511,
+},
+{
+["name"] = "Loamm Niffen",
+["factionID"] = 2564,
+},
+{
+["name"] = "Maruuk Centaur",
+["factionID"] = 2503,
+},
+{
+["name"] = "Winterpelt Furbolg",
+["factionID"] = 2526,
+},
+{
+["name"] = "Valdrakken Accord",
+["children"] = {
+{
+["name"] = "Artisan's Consortium - Dragon Isles Branch",
+["factionID"] = 2544,
+},
+{
+["name"] = "Cobalt Assembly",
+["factionID"] = 2550,
+},
+{
+["name"] = "Sabellian",
+["factionID"] = 2518,
+},
+{
+["name"] = "Soridormi",
+["factionID"] = 2553,
+},
+{
+["name"] = "Wrathion",
+["factionID"] = 2517,
+},
+},
+["factionID"] = 2510,
+},
+},
+["factionID"] = 2506,
+},
+{
+["name"] = "Shadowlands",
+["children"] = {
+{
+["name"] = "Automa",
+["factionID"] = 2480,
+},
+{
+["name"] = "Court of Harvesters",
+["factionID"] = 2413,
+},
+{
+["name"] = "Court of Night",
+["factionID"] = 2464,
+},
+{
+["name"] = "Death's Advance",
+["factionID"] = 2470,
+},
+{
+["name"] = "The Archivists' Codex",
+["factionID"] = 2472,
+},
+{
+["name"] = "The Ascended",
+["factionID"] = 2407,
+},
+{
+["name"] = "The Avowed",
+["factionID"] = 2439,
+},
+{
+["name"] = "The Ember Court",
+["children"] = {
+{
+["name"] = "Alexandros Mograine",
+["factionID"] = 2450,
+},
+{
+["name"] = "Baroness Vashj",
+["factionID"] = 2446,
+},
+{
+["name"] = "Choofa",
+["factionID"] = 2454,
+},
+{
+["name"] = "Cryptkeeper Kassir",
+["factionID"] = 2455,
+},
+{
+["name"] = "Droman Aliothe",
+["factionID"] = 2456,
+},
+{
+["name"] = "Grandmaster Vole",
+["factionID"] = 2457,
+},
+{
+["name"] = "Hunt-Captain Korayn",
+["factionID"] = 2451,
+},
+{
+["name"] = "Kleia and Pelagos",
+["factionID"] = 2458,
+},
+{
+["name"] = "Lady Moonberry",
+["factionID"] = 2447,
+},
+{
+["name"] = "Mikanikos",
+["factionID"] = 2448,
+},
+{
+["name"] = "Plague Deviser Marileth",
+["factionID"] = 2461,
+},
+{
+["name"] = "Polemarch Adrestes",
+["factionID"] = 2452,
+},
+{
+["name"] = "Rendle and Cudgelface",
+["factionID"] = 2453,
+},
+{
+["name"] = "Sika",
+["factionID"] = 2459,
+},
+{
+["name"] = "Stonehead",
+["factionID"] = 2460,
+},
+{
+["name"] = "The Countess",
+["factionID"] = 2449,
+},
+},
+["factionID"] = 2445,
+},
+{
+["name"] = "Marasmius",
+["factionID"] = 2463,
+},
+{
+["name"] = "Night Fae",
+["factionID"] = 2422,
+},
+{
+["name"] = "Stitchmasters",
+["factionID"] = 2462,
+},
+{
+["name"] = "The Enlightened",
+["factionID"] = 2478,
+},
+{
+["name"] = "The Undying Army",
+["factionID"] = 2410,
+},
+{
+["name"] = "The Wild Hunt",
+["factionID"] = 2465,
+},
+{
+["name"] = "Ve'nari",
+["factionID"] = 2432,
+},
+},
+["factionID"] = 2414,
+},
+{
+["name"] = "Battle for Azeroth",
+["children"] = {
+{
+["isAlliance"] = true,
+["name"] = "7th Legion",
+["factionID"] = 2159,
+},
+{
+["name"] = "Champions of Azeroth",
+["factionID"] = 2164,
+},
+{
+["name"] = "Honeyback Hive",
+["factionID"] = 2395,
+},
+{
+["isAlliance"] = true,
+["name"] = "Order of Embers",
+["factionID"] = 2161,
+},
+{
+["isAlliance"] = true,
+["name"] = "Proudmoore Admiralty",
+["factionID"] = 2160,
+},
+{
+["name"] = "Rajani",
+["factionID"] = 2415,
+},
+{
+["name"] = "Rustbolt Resistance",
+["factionID"] = 2391,
+},
+{
+["isAlliance"] = true,
+["name"] = "Storm's Wake",
+["factionID"] = 2162,
+},
+{
+["isHorde"] = true,
+["name"] = "Talanji's Expedition",
+["factionID"] = 2156,
+},
+{
+["isHorde"] = true,
+["name"] = "The Honorbound",
+["factionID"] = 2157,
+},
+{
+["isHorde"] = true,
+["name"] = "The Unshackled",
+["factionID"] = 2373,
+},
+{
+["name"] = "Tortollan Seekers",
+["factionID"] = 2163,
+},
+{
+["name"] = "Uldum Accord",
+["factionID"] = 2417,
+},
+{
+["isHorde"] = true,
+["name"] = "Voldunai",
+["factionID"] = 2158,
+},
+{
+["isAlliance"] = true,
+["name"] = "Waveblade Ankoan",
+["factionID"] = 2400,
+},
+{
+["isHorde"] = true,
+["name"] = "Zandalari Empire",
+["factionID"] = 2103,
+},
+},
+["factionID"] = 2104,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "",
+["exaltedCount"] = 1,
+["isExpansion"] = true,
+["bottomValue"] = 0,
+["isLayoutChild"] = false,
+["isHeader"] = true,
+["standingID"] = 4,
+["internalIndex"] = 1,
+["children"] = {
+{
+["name"] = "Akule Riverhorn",
+["factionID"] = 2099,
+},
+{
+["name"] = "Argussian Reach",
+["factionID"] = 2170,
+},
+{
+["name"] = "Armies of Legionfall",
+["factionID"] = 2045,
+},
+{
+["name"] = "Army of the Light",
+["factionID"] = 2165,
+},
+{
+["name"] = "Chromie",
+["factionID"] = 2135,
+},
+{
+["name"] = "Conjurer Margoss",
+["factionID"] = 1975,
+},
+{
+["name"] = "Corbyn",
+["factionID"] = 2100,
+},
+{
+["name"] = "Court of Farondis",
+["factionID"] = 1900,
+},
+{
+["name"] = "Dreamweavers",
+["factionID"] = 1883,
+},
+{
+["name"] = "Highmountain Tribe",
+["factionID"] = 1828,
+},
+{
+["name"] = "Illidari",
+["factionID"] = 1947,
+},
+{
+["name"] = "Ilyssia of the Waters",
+["factionID"] = 2097,
+},
+{
+["name"] = "Impus",
+["factionID"] = 2102,
+},
+{
+["name"] = "Keeper Raynae",
+["factionID"] = 2098,
+},
+{
+["name"] = "Sha'leth",
+["factionID"] = 2101,
+},
+{
+["name"] = "Talon's Vengeance",
+["factionID"] = 2018,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "These exiled Nightborne elves suffer withdrawals after being cut off from the Nightwell. They oppose their people's alliance with the Legion and fight for some kind of redemption.",
+["isExpansion"] = false,
+["bottomValue"] = 42000,
+["isLayoutChild"] = false,
+["isHeader"] = false,
+["standingID"] = 8,
+["internalIndex"] = 2,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 1859,
+["topValue"] = 42000,
+["playerRealm"] = "Area 52",
+["name"] = "The Nightfallen",
+["earnedValue"] = 42000,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = true,
+},
+{
+["name"] = "The Wardens",
+["factionID"] = 1894,
+},
+{
+["name"] = "Valarjar",
+["factionID"] = 1948,
+},
+},
+["isWatched"] = false,
+["exaltedTotal"] = 1,
+["atWarWith"] = false,
+["playerName"] = "Twinkk",
+["topValue"] = 3000,
+["isActive"] = true,
+["factionID"] = 1834,
+["canToggleAtWar"] = false,
+["name"] = "Legion",
+["playerRealm"] = "Area 52",
+["hasRep"] = false,
+["earnedValue"] = 0,
+["canSetInactive"] = false,
+["isChild"] = false,
+["isMaxed"] = false,
+},
+{
+["name"] = "Warlords of Draenor",
+["children"] = {
+{
+["name"] = "Arakkoa Outcasts",
+["factionID"] = 1515,
+},
+{
+["isAlliance"] = true,
+["name"] = "Council of Exarchs",
+["factionID"] = 1731,
+},
+{
+["isAlliance"] = true,
+["name"] = "Hand of the Prophet",
+["factionID"] = 1847,
+},
+{
+["isHorde"] = true,
+["name"] = "Frostwolf Orcs",
+["factionID"] = 1445,
+},
+{
+["isHorde"] = true,
+["name"] = "Laughing Skull Orcs",
+["factionID"] = 1708,
+},
+{
+["name"] = "Order of the Awakened",
+["factionID"] = 1849,
+},
+{
+["isAlliance"] = true,
+["name"] = "Sha'tari Defense",
+["factionID"] = 1710,
+},
+{
+["isHorde"] = true,
+["isUnobtainable"] = true,
+["name"] = "Shadowmoon Exiles",
+["factionID"] = 1520,
+},
+{
+["name"] = "Steamwheedle Preservation Society",
+["factionID"] = 1711,
+},
+{
+["name"] = "The Saberstalkers",
+["factionID"] = 1850,
+},
+{
+["isHorde"] = true,
+["name"] = "Vol'jin's Headhunters",
+["factionID"] = 1848,
+},
+{
+["isHorde"] = true,
+["isUnobtainable"] = true,
+["name"] = "Vol'jin's Spear",
+["factionID"] = 1681,
+},
+{
+["isAlliance"] = true,
+["isUnobtainable"] = true,
+["name"] = "Wrynn's Vanguard",
+["factionID"] = 1682,
+},
+{
+["name"] = "Barracks Bodyguards",
+["children"] = {
+{
+["isHorde"] = true,
+["name"] = "Aeda Brightdawn",
+["factionID"] = 1740,
+},
+{
+["isAlliance"] = true,
+["name"] = "Defender Illona",
+["factionID"] = 1738,
+},
+{
+["isAlliance"] = true,
+["name"] = "Delvar Ironfist",
+["factionID"] = 1733,
+},
+{
+["name"] = "Leorajh",
+["factionID"] = 1741,
+},
+{
+["name"] = "Talonpriest Ishaal",
+["factionID"] = 1737,
+},
+{
+["name"] = "Tormmok",
+["factionID"] = 1736,
+},
+{
+["isHorde"] = true,
+["name"] = "Vivianne",
+["factionID"] = 1739,
+},
+},
+["factionID"] = 1735,
+},
+},
+["factionID"] = 1444,
+},
+{
+["name"] = "Mists of Pandaria",
+["children"] = {
+{
+["isHorde"] = true,
+["name"] = "Dominance Offensive",
+["factionID"] = 1375,
+},
+{
+["name"] = "Emperor Shaohao",
+["factionID"] = 1492,
+},
+{
+["name"] = "Golden Lotus",
+["factionID"] = 1269,
+},
+{
+["isAlliance"] = true,
+["name"] = "Kirin Tor Offensive",
+["factionID"] = 1387,
+},
+{
+["isHorde"] = true,
+["name"] = "Forest Hozen",
+["factionID"] = 1228,
+},
+{
+["isAlliance"] = true,
+["name"] = "Operation: Shieldwall",
+["factionID"] = 1376,
+},
+{
+["name"] = "Order of the Cloud Serpent",
+["factionID"] = 1271,
+},
+{
+["isAlliance"] = true,
+["name"] = "Pearlfin Jinyu",
+["factionID"] = 1242,
+},
+{
+["name"] = "Shado-Pan",
+["factionID"] = 1270,
+},
+{
+["name"] = "Shado-Pan Assault",
+["factionID"] = 1435,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Shang Xi's Academy",
+["factionID"] = 1216,
+},
+{
+["isHorde"] = true,
+["name"] = "Sunreaver Onslaught",
+["factionID"] = 1388,
+},
+{
+["name"] = "The August Celestials",
+["factionID"] = 1341,
+},
+{
+["name"] = "The Black Prince",
+["factionID"] = 1359,
+},
+{
+["name"] = "The Klaxxi",
+["factionID"] = 1337,
+},
+{
+["name"] = "The Lorewalkers",
+["factionID"] = 1345,
+},
+{
+["name"] = "The Anglers",
+["children"] = {
+{
+["name"] = "Nat Pagle",
+["factionID"] = 1358,
+},
+},
+["factionID"] = 1302,
+},
+{
+["name"] = "The Tillers",
+["children"] = {
+{
+["name"] = "Chee Chee",
+["factionID"] = 1277,
+},
+{
+["name"] = "Ella",
+["factionID"] = 1275,
+},
+{
+["name"] = "Farmer Fung",
+["factionID"] = 1283,
+},
+{
+["name"] = "Fish Fellreed",
+["factionID"] = 1282,
+},
+{
+["name"] = "Gina Mudclaw",
+["factionID"] = 1281,
+},
+{
+["name"] = "Haohan Mudclaw",
+["factionID"] = 1279,
+},
+{
+["name"] = "Jogu the Drunk",
+["factionID"] = 1273,
+},
+{
+["name"] = "Old Hillpaw",
+["factionID"] = 1276,
+},
+{
+["name"] = "Sho",
+["factionID"] = 1278,
+},
+{
+["name"] = "Tina Mudclaw",
+["factionID"] = 1280,
+},
+},
+["factionID"] = 1272,
+},
+},
+["factionID"] = 1245,
+},
+{
+["name"] = "Cataclysm",
+["children"] = {
+{
+["name"] = "Avengers of Hyjal",
+["factionID"] = 1204,
+},
+{
+["isAlliance"] = true,
+["name"] = "Baradin's Wardens",
+["factionID"] = 1177,
+},
+{
+["isHorde"] = true,
+["name"] = "Dragonmaw Clan",
+["factionID"] = 1172,
+},
+{
+["name"] = "Guardians of Hyjal",
+["factionID"] = 1158,
+},
+{
+["isHorde"] = true,
+["name"] = "Hellscream's Reach",
+["factionID"] = 1178,
+},
+{
+["name"] = "Ramkahen",
+["factionID"] = 1173,
+},
+{
+["name"] = "The Earthen Ring",
+["factionID"] = 1135,
+},
+{
+["name"] = "Therazane",
+["factionID"] = 1171,
+},
+{
+["isAlliance"] = true,
+["name"] = "Wildhammer Clan",
+["factionID"] = 1174,
+},
+},
+["factionID"] = 1162,
+},
+{
+["name"] = "Wrath of the Lich King",
+["children"] = {
+{
+["name"] = "Argent Crusade",
+["factionID"] = 1106,
+},
+{
+["name"] = "Kirin Tor",
+["factionID"] = 1090,
+},
+{
+["name"] = "Knights of the Ebon Blade",
+["factionID"] = 1098,
+},
+{
+["name"] = "The Ashen Verdict",
+["factionID"] = 1156,
+},
+{
+["name"] = "The Kalu'ak",
+["factionID"] = 1073,
+},
+{
+["name"] = "The Sons of Hodir",
+["factionID"] = 1119,
+},
+{
+["name"] = "The Wyrmrest Accord",
+["factionID"] = 1091,
+},
+{
+["isAlliance"] = true,
+["children"] = {
+{
+["name"] = "Explorer's League",
+["factionID"] = 1068,
+},
+{
+["name"] = "The Frostborn",
+["factionID"] = 1126,
+},
+{
+["name"] = "The Silver Covenant",
+["factionID"] = 1094,
+},
+{
+["name"] = "Valiance Expedition",
+["factionID"] = 1050,
+},
+},
+["name"] = "Alliance Vanguard",
+["factionID"] = 1037,
+},
+{
+["isHorde"] = true,
+["children"] = {
+{
+["name"] = "The Hand of Vengeance",
+["factionID"] = 1067,
+},
+{
+["name"] = "The Sunreavers",
+["factionID"] = 1124,
+},
+{
+["name"] = "The Taunka",
+["factionID"] = 1064,
+},
+{
+["name"] = "Warsong Offensive",
+["factionID"] = 1085,
+},
+},
+["name"] = "Horde Expedition",
+["factionID"] = 1052,
+},
+{
+["name"] = "Sholazar Basin",
+["children"] = {
+{
+["name"] = "Frenzyheart Tribe",
+["factionID"] = 1104,
+},
+{
+["name"] = "The Oracles",
+["factionID"] = 1105,
+},
+},
+["factionID"] = 1117,
+},
+},
+["factionID"] = 1097,
+},
+{
+["name"] = "The Burning Crusade",
+["children"] = {
+{
+["name"] = "Ashtongue Deathsworn",
+["factionID"] = 1012,
+},
+{
+["name"] = "Cenarion Expedition",
+["factionID"] = 942,
+},
+{
+["isAlliance"] = true,
+["name"] = "Honor Hold",
+["factionID"] = 946,
+},
+{
+["name"] = "Keepers of Time",
+["factionID"] = 989,
+},
+{
+["isAlliance"] = true,
+["name"] = "Kurenai",
+["factionID"] = 978,
+},
+{
+["name"] = "Netherwing",
+["factionID"] = 1015,
+},
+{
+["name"] = "Ogri'la",
+["factionID"] = 1038,
+},
+{
+["name"] = "Sporeggar",
+["factionID"] = 970,
+},
+{
+["name"] = "The Consortium",
+["factionID"] = 933,
+},
+{
+["isHorde"] = true,
+["name"] = "The Mag'har",
+["factionID"] = 941,
+},
+{
+["name"] = "The Scale of the Sands",
+["factionID"] = 990,
+},
+{
+["name"] = "The Violet Eye",
+["factionID"] = 967,
+},
+{
+["isHorde"] = true,
+["name"] = "Thrallmar",
+["factionID"] = 947,
+},
+{
+["isHorde"] = true,
+["name"] = "Tranquillien",
+["factionID"] = 922,
+},
+{
+["name"] = "Shattrath City",
+["children"] = {
+{
+["name"] = "Lower City",
+["factionID"] = 1011,
+},
+{
+["name"] = "Sha'tari Skyguard",
+["factionID"] = 1031,
+},
+{
+["name"] = "Shattered Sun Offensive",
+["factionID"] = 1077,
+},
+{
+["name"] = "The Aldor",
+["factionID"] = 932,
+},
+{
+["name"] = "The Scryers",
+["factionID"] = 934,
+},
+{
+["name"] = "The Sha'tar",
+["factionID"] = 935,
+},
+},
+["factionID"] = 936,
+},
+},
+["factionID"] = 980,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "",
+["exaltedCount"] = 0,
+["isExpansion"] = true,
+["bottomValue"] = 0,
+["isLayoutChild"] = false,
+["isHeader"] = true,
+["standingID"] = 4,
+["internalIndex"] = 3,
+["children"] = {
+{
+["name"] = "Argent Dawn",
+["factionID"] = 529,
+},
+{
+["name"] = "Bloodsail Buccaneers",
+["factionID"] = 87,
+},
+{
+["name"] = "Brood of Nozdormu",
+["factionID"] = 910,
+},
+{
+["name"] = "Cenarion Circle",
+["factionID"] = 609,
+},
+{
+["name"] = "Darkmoon Faire",
+["factionID"] = 909,
+},
+{
+["name"] = "Gelkis Clan Centaur",
+["factionID"] = 92,
+},
+{
+["name"] = "Hydraxian Waterlords",
+["factionID"] = 749,
+},
+{
+["name"] = "Magram Clan Centaur",
+["factionID"] = 93,
+},
+{
+["name"] = "Ravenholdt",
+["factionID"] = 349,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Shen'dralar",
+["factionID"] = 809,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Syndicate",
+["factionID"] = 70,
+},
+{
+["name"] = "Thorium Brotherhood",
+["factionID"] = 59,
+},
+{
+["name"] = "Timbermaw Hold",
+["factionID"] = 576,
+},
+{
+["name"] = "Wintersaber Trainers",
+["factionID"] = 589,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Zandalar Tribe",
+["factionID"] = 270,
+},
+{
+["isAlliance"] = true,
+["children"] = {
+{
+["name"] = "Darnassus",
+["factionID"] = 69,
+},
+{
+["name"] = "Exodar",
+["factionID"] = 930,
+},
+{
+["name"] = "Gilneas",
+["factionID"] = 1134,
+},
+{
+["name"] = "Gnomeregan",
+["factionID"] = 54,
+},
+{
+["name"] = "Ironforge",
+["factionID"] = 47,
+},
+{
+["name"] = "Obsidian Warders",
+["factionID"] = 2524,
+},
+{
+["name"] = "Stormwind",
+["factionID"] = 72,
+},
+{
+["name"] = "Tushui Pandaren",
+["factionID"] = 1353,
+},
+},
+["name"] = "Alliance",
+["factionID"] = 469,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "",
+["exaltedCount"] = 0,
+["isExpansion"] = false,
+["bottomValue"] = 3000,
+["isLayoutChild"] = true,
+["isHeader"] = true,
+["standingID"] = 5,
+["internalIndex"] = 4,
+["children"] = {
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "Run by the ruthless Trade Prince Gallywix, the Bilgewater Cartel is the most powerful trading company on the Isle of Kezan. From their headquarters at Bilgewater Port, the cartel dominates trade all over the South Seas.",
+["isExpansion"] = false,
+["bottomValue"] = 3000,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 5,
+["internalIndex"] = 5,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 1133,
+["topValue"] = 9000,
+["playerRealm"] = "Area 52",
+["name"] = "Bilgewater Cartel",
+["earnedValue"] = 3100,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "This tribe of exiled trolls has joined forces with Thrall and the Horde.  They now call Durotar their home, which they share with their orc allies.",
+["isExpansion"] = false,
+["bottomValue"] = 3000,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 5,
+["internalIndex"] = 6,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 530,
+["topValue"] = 9000,
+["playerRealm"] = "Area 52",
+["name"] = "Darkspear Trolls",
+["earnedValue"] = 3100,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+{
+["name"] = "Dark Talons",
+["factionID"] = 2523,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "Led by the intrepid Ji Firepaw, the Huojin Pandaren are quick to act and quicker to fight for what they believe in.",
+["isExpansion"] = false,
+["bottomValue"] = 3000,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 5,
+["internalIndex"] = 7,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 1352,
+["topValue"] = 9000,
+["playerRealm"] = "Area 52",
+["name"] = "Huojin Pandaren",
+["earnedValue"] = 3100,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "Founded by Thrall, this Horde capital city is home to many of the proud orc clans of Durotar.",
+["isExpansion"] = false,
+["bottomValue"] = 3000,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 5,
+["internalIndex"] = 8,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 76,
+["topValue"] = 9000,
+["playerRealm"] = "Area 52",
+["name"] = "Orgrimmar",
+["earnedValue"] = 3100,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "The capital of Quel'Thalas, home of the blood elves.  Though nearly destroyed by Arthas' attack on the Sunwell, Silvermoon is once again a thriving city.",
+["isExpansion"] = false,
+["bottomValue"] = 0,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 4,
+["internalIndex"] = 9,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 911,
+["topValue"] = 3000,
+["playerRealm"] = "Area 52",
+["name"] = "Silvermoon City",
+["earnedValue"] = 400,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "Baine Bloodhoof leads his people, the proud Tauren, from this mighty Horde capital.",
+["isExpansion"] = false,
+["bottomValue"] = 3000,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 5,
+["internalIndex"] = 10,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 81,
+["topValue"] = 9000,
+["playerRealm"] = "Area 52",
+["name"] = "Thunder Bluff",
+["earnedValue"] = 3100,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+{
+["hasBonusRepGain"] = false,
+["hasEncountered"] = true,
+["description"] = "Led by Sylvanas Windrunner, the Forsaken have joined a tenuous alliance with the Horde and established this capital in the vast depths under the Ruins of Lordaeron.",
+["isExpansion"] = false,
+["bottomValue"] = 0,
+["isLayoutChild"] = true,
+["isHeader"] = false,
+["standingID"] = 4,
+["internalIndex"] = 11,
+["atWarWith"] = false,
+["isWatched"] = false,
+["canToggleAtWar"] = false,
+["playerName"] = "Twinkk",
+["isActive"] = true,
+["factionID"] = 68,
+["topValue"] = 3000,
+["playerRealm"] = "Area 52",
+["name"] = "Undercity",
+["earnedValue"] = 500,
+["hasRep"] = false,
+["canSetInactive"] = true,
+["isChild"] = true,
+["isMaxed"] = false,
+},
+},
+["isWatched"] = false,
+["exaltedTotal"] = 7,
+["isMaxed"] = false,
+["topValue"] = 9000,
+["playerName"] = "Twinkk",
+["atWarWith"] = false,
+["isActive"] = true,
+["factionID"] = 67,
+["name"] = "Horde",
+["earnedValue"] = 3500,
+["playerRealm"] = "Area 52",
+["hasRep"] = false,
+["canToggleAtWar"] = false,
+["canSetInactive"] = false,
+["isChild"] = true,
+["isHorde"] = true,
+},
+{
+["isAlliance"] = true,
+["children"] = {
+{
+["isUnobtainable"] = true,
+["name"] = "Bizmo's Brawlpub (Season 1)",
+["factionID"] = 1419,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Bizmo's Brawlpub (Season 2)",
+["factionID"] = 1691,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Bizmo's Brawlpub (Season 3)",
+["factionID"] = 2011,
+},
+{
+["name"] = "Silverwing Sentinels",
+["factionID"] = 890,
+},
+{
+["name"] = "Stormpike Guard",
+["factionID"] = 730,
+},
+{
+["name"] = "The League of Arathor",
+["factionID"] = 509,
+},
+},
+["name"] = "Alliance Forces",
+["factionID"] = 891,
+},
+{
+["isHorde"] = true,
+["children"] = {
+{
+["isUnobtainable"] = true,
+["name"] = "Brawl'gar Arena (Season 1)",
+["factionID"] = 1374,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Brawl'gar Arena (Season 2)",
+["factionID"] = 1690,
+},
+{
+["isUnobtainable"] = true,
+["name"] = "Brawl'gar Arena (Season 3)",
+["factionID"] = 2010,
+},
+{
+["name"] = "Frostwolf Clan",
+["factionID"] = 729,
+},
+{
+["name"] = "The Defilers",
+["factionID"] = 510,
+},
+{
+["name"] = "Warsong Outriders",
+["factionID"] = 889,
+},
+},
+["name"] = "Horde Forces",
+["factionID"] = 892,
+},
+{
+["name"] = "Steamwheedle Cartel",
+["children"] = {
+{
+["name"] = "Booty Bay",
+["factionID"] = 21,
+},
+{
+["name"] = "Everlook",
+["factionID"] = 577,
+},
+{
+["name"] = "Gadgetzan",
+["factionID"] = 369,
+},
+{
+["name"] = "Ratchet",
+["factionID"] = 470,
+},
+},
+["factionID"] = 169,
+},
+},
+["isWatched"] = false,
+["exaltedTotal"] = 7,
+["atWarWith"] = false,
+["playerName"] = "Twinkk",
+["topValue"] = 3000,
+["isActive"] = true,
+["factionID"] = 1118,
+["canToggleAtWar"] = true,
+["name"] = "Classic",
+["playerRealm"] = "Area 52",
+["hasRep"] = false,
+["earnedValue"] = 0,
+["canSetInactive"] = false,
+["isChild"] = false,
+["isMaxed"] = false,
+},
+},
+["Headers"] = {
+},
+}

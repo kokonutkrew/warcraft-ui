@@ -1,48 +1,62 @@
 
 TomCats_Account = {
-<<<<<<< Updated upstream
-	["notifications"] = {
-	},
-	["tutorials"] = {
-	},
-	["versionInfo"] = {
-		["encoded"] = "IfZ51l+yHLqEvtgGH5QEreu0VWgK61CWk1hSa9Jb3ojOYnhhhq7NnF+jMBoBAQYEAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEGCgwAAQYNAQASDgEAGg8BAAY=",
-		["messageID"] = 1604530202,
-	},
-	["preferences"] = {
-		["TomCatsWorldmapRaresButton1462"] = {
-			["position"] = -2.657094711587241,
-		},
-		["TomCatsWorldmapRaresButton1355"] = {
-			["position"] = -2.657094711587241,
-		},
-		["TomCatsMinimapButton"] = {
-			["position"] = 3,
-		},
-		["TomCatsWorldmapRaresButton62"] = {
-			["position"] = -2.657094711587241,
-=======
-	["discoveriesVersion"] = "2.3.13",
-	["lastVersionSeen"] = "2.3.11",
-	["preferences"] = {
-		["TomCats-MinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -2.888,
-		},
-		["MapOptions"] = {
-			["iconScale"] = 1,
-			["iconAnimationEnabled"] = true,
-		},
-		["betaEnabled"] = false,
-		["defaultVignetteIcon"] = "default",
-	},
-	["lastExpirationWarning"] = 0,
-	["discoveriesResetCount"] = 0,
-	["discoveries"] = {
-		["vignetteAtlases"] = {
-		},
-		["vignettes"] = {
->>>>>>> Stashed changes
-		},
-	},
+["errorLog"] = {
+["version"] = "2.4.46",
+},
+["hallowsend"] = {
+},
+["lastExpirationWarning"] = 1716348304,
+["discoveriesResetCount"] = 0,
+["lunarfestival"] = {
+},
+["loveisintheair"] = {
+},
+["discoveriesVersion"] = "0",
+["lastVersionSeen"] = "2.4.46",
+["preferences"] = {
+["dragonGlyphsTipShown"] = true,
+["TomCats-LunarFestivalMinimapButton"] = {
+["hidden"] = false,
+["position"] = -2.514,
+},
+["TomCats-MinimapButton"] = {
+["hidden"] = false,
+["position"] = -2.501822051793086,
+},
+["defaultVignetteIcon"] = "default",
+["MapOptions"] = {
+["iconScale"] = 1,
+["iconAnimationEnabled"] = true,
+},
+["dragonGlyphsEnabled"] = false,
+["TomCats-HallowsEndMinimapButton"] = {
+["hidden"] = false,
+["position"] = -2.514,
+},
+["betaEnabled"] = false,
+["TomCats-LoveIsInTheAirMinimapButton"] = {
+["hidden"] = false,
+["position"] = -3.262,
+},
+},
+["dragonflyingglyphs"] = {
+["autoEnabled"] = true,
+["preferences"] = {
+},
+["iconsEnabled"] = true,
+["discovered"] = false,
+["iconScale"] = 0.8,
+["arrowEnabled"] = true,
+},
+["primalstorms"] = {
+["preferences"] = {
+},
+},
+["discoveries"] = {
+["version"] = "0",
+["vignetteAtlases"] = {
+},
+["vignettes"] = {
+},
+},
 }

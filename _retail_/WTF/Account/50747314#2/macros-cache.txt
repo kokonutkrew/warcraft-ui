@@ -1,0 +1,568 @@
+VER 3 0000000000000008 ".a01 Skull" "132097"
+/run SetRaidTargetIcon("target", 8)
+/attacktarget
+/i Attack {skull} %t, ty kindly!
+END
+VER 3 0000000000000009 ".a02 Set Targets" "236188"
+/script if (charm == nil) or (charm < 0) then charm=8; end; charm=charm-1; SetRaidTarget("mouseover", charm)
+END
+VER 3 000000000000000A ".a03 CC Target" "538563"
+/run SetRaidTargetIcon("mouseover", 5)
+/incoming
+/s CC on {moon}
+END
+VER 3 000000000000000B ".a04 Triangle" "252271"
+/worldmarker 2
+END
+VER 3 000000000000000C ".a05 Diamond" "252272"
+/worldmarker 3
+END
+VER 3 000000000000000D ".a06 Star" "252269"
+/worldmarker 5
+END
+VER 3 000000000000000E ".a07 Drink" "132807"
+/oom
+/use [combat] spiritual mana potion
+/use conjured mana cake
+/use conjured mana strudel
+/use conjured mana lollipop
+/use conjured mana brownie
+/use conjured mana bun
+/use conjured mana pie
+END
+VER 3 000000000000000F ".a08 Food" "134036"
+/wait
+/use [combat] spiritual healing potion
+/use conjured mana bun
+/use stygian stew
+END
+VER 3 0000000000000010 ".a09 Revive/Heal" "136077"
+/healme
+/use [combat] rebirth; revitalize
+/use raise ally
+/use soul stone
+/use item:184308
+/use ancestral vision
+/use reawaken
+/use absolution
+/use mass resurrection
+/use revive
+/use resuscitate
+/use redemption
+/use resurrection
+/use ancestral spirit
+END
+VER 3 0000000000000011 ".a10 Racial" "INV_Misc_QuestionMark"
+#showtooltip
+/use fireblood
+/use shadowmeld
+/use gift of the naaru
+/use stoneform
+/use escape artist
+/use every man for himself
+/use darkflight
+/use spatial rift
+/use light's judgement
+/use haymaker
+/use hyper organic light originator
+/use quaking palm
+END
+VER 3 0000000000000012 ".a11 Lust" "INV_Misc_QuestionMark"
+#showtooltip
+/use heroism
+/use timewarp
+/use primal rage
+/use drums of fury
+END
+VER 3 0000000000000013 ".a12 Self Heal" "INV_Misc_QuestionMark"
+#showtooltip healthstone
+/use healthstone
+/use phial of serenity
+/use spiritual healing potion
+/use Major Healthstone
+/use Greater Healthstone
+/use Major Healing Potion
+/use Greater Healing Potion
+/use Healing Potion
+/use Furbolg Medicine Pouch
+END
+VER 3 0000000000000014 ".f01 TargetSelf" "135914"
+/focus
+/target player
+END
+VER 3 0000000000000015 ".f02 FollowParty1" "135914"
+/follow party1
+/assist party1
+/target party1
+END
+VER 3 0000000000000016 ".f03 FollowParty2" "135914"
+/follow party2
+/assist party2
+/target party2
+END
+VER 3 0000000000000017 ".f04 FollowParty3" "135914"
+/follow party3
+/assist party3
+/target party3
+END
+VER 3 0000000000000018 ".f05 FollowParty4" "135914"
+/follow party4
+/assist party4
+/target party4
+END
+VER 3 0000000000000019 ".f06 StartParty" "135914"
+/sg master
+/sg follow
+/ffa
+/changeactionbar 2
+END
+VER 3 000000000000001A ".f07 Spotlight" "135914"
+/use personal spotlight
+/use pretty dreanor pearl
+/use druid and priest statue set
+/use vindicator's armor polish kit
+/use yellow conservatory scroll
+/use accursed tome of the sargerei
+/use bubble wand
+END
+VER 3 000000000000001B ".f08 Point" "135914"
+/sg follow
+END
+VER 3 000000000000001C ".f09 GuildInvite" "135914"
+/targetenemy
+/fgi nextSearch
+/fgi invite
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END
+VER 3 000000000000001D ".f10 SuperJump" "135914"
+/use aviana's feather
+END
+VER 3 000000000000001E ".f11 ExtraAction" "INV_Misc_QuestionMark"
+#showtooltip
+/click ExtraActionButton1
+END
+VER 3 000000000000001F ".f12 Encounter" "135914"
+/script Details:OpenPlugin ('Encounter Breakdown')
+END
+VER 3 0000000000000020 ".f13 Fish Bait" "1379246"
+/castsequence [nomod] Fishing
+/equipset [mod:alt] Max Fishing
+/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
+/use [mod:shift] Worm Supreme
+END
+VER 3 0000000000000021 ".f13 LeaveParty" "638661"
+/leave party
+END
+VER 3 0000000000000022 ".f13 Mount Auto" "413588"
+/click [mounted] Forward auto 1
+/stopmacro [mounted]
+/use [swimming]the hivemind
+/use [group,noflyable]grand black war mammoth
+/click MountJournalSummonRandomFavoriteButton
+END
+VER 3 0000000000000023 ".f13 Mount Group" "INV_Misc_QuestionMark"
+#showtooltip obsidian nightwing
+/randompet
+/click [mounted] Forward auto 1
+/stopmacro [mounted]
+/use [swimming]the hivemind
+/use [group,noflyable]grand black war mammoth
+/use [group,flyable]obsidian nightwing
+/click MountJournalSummonRandomFavoriteButton
+END
+VER 3 0000000000000024 ".f13 Run" "132536"
+/click Forward auto 1
+END
+VER 3 0000000000000025 ".f13 Summon Pet" "INV_Misc_QuestionMark"
+#showtooltip
+/use [equipped:bow] [equipped:gun] [equipped:crossbow] hunter's call
+/castsequence [nomod] reset=480 Revive Battle Pets, Battle Pet Bandage
+/randompet
+END
+VER 3 0000000000000026 ".f13 Survey Fish" "INV_Misc_QuestionMark"
+#showtooltip survey
+/dismount
+/cancelaura burning rush
+/use [harm, @mouseover] conflagrate
+/use [harm] conflagurate
+/petattack
+/startattack
+/cleartarget
+/use survey
+/use fishing
+END
+VER 3 0000000000000027 ".f13 Trash Gray" "1542860"
+/run for bag = 0,4,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end
+END
+VER 3 0000000000000028 ".FormCancel" "INV_Misc_QuestionMark"
+#showtooltip
+/cancelform [stance:1/2/3/4/5/6/7/8/9/10]
+END
+VER 3 0000000000000029 ".FormTravel" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift]fishing; [form:3] cat form; travel form
+END
+VER 3 000000000000002A ".g A52 Guild" "134331"
+/s PVE |cffffd200|HclubFinder:ClubFinder-1-538815-3676-116717275|h[Guild: kk]|h|r or PVP |cffffd200|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KK]|h|r
+END
+VER 3 000000000000002B ".g Community" "135026"
+<[o.O]><[KK]> Active. Non-toxic. Crafting community. |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KK]|h|r "Unlocking every profession pattern at max quality"
+END
+VER 3 000000000000002C ".g Discord Link" "135026"
+/raid hop in 'public' discord channel pls https://discord.gg/jhDuFwG6wB
+END
+VER 3 000000000000002D ".g FGI" "134331"
+/fgi nextSearch
+/fgi invite
+END
+VER 3 000000000000002E ".g gRAF Spam" "135026"
+Power leveling in exchange for RAF link. Your account must be less than 30days old
+END
+VER 3 000000000000002F ".g GuildLink" "135026"
+/2 Ahoy! |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is looking for heroic raiders to push for AOTC. Visit the website or |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: KK Mercenaries]|h|r if you already have a guild ;)
+END
+VER 3 0000000000000030 ".g Old Community" "135026"
+Ahoy! |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is looking for heroic raiders to push for AOTC. Visit the website or |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: KK Mercenaries]|h|r if you already have a guild ;)
+END
+VER 3 0000000000000031 ".g RaidStart" "135026"
+/run ConvertToRaid()
+/master Samoantank
+/threshold epic
+/raid Pls be patient as we fill, grab pots, food, runes, and repair. Read group desc.
+END
+VER 3 0000000000000032 ".g Test" "135026"
+/run GetClubFinderLink(382392881, "KK Mercenaries")
+END
+VER 3 0000000000000033 ".g Welcome" "135026"
+We're happy to have you. We're recruiting heavily this week to fill raid slots. Feel free to inv friends. Let me know if you need anything and be sure to checkout the guild progression plan at kokonutkrew.com
+END
+VER 3 0000000000000034 ".Key3 Dots" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence rake, moonfire
+END
+VER 3 0000000000000035 ".KeyAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use target
+END
+VER 3 0000000000000036 ".KeyE Talent 3" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nospec:1,talent:3/1] Typhoon; [spec:1,talent:3/1][spec:3/4,talent:3/2] Maim; [spec:1/2,talent:3/2][spec:4,talent:3/3] Incapacitating Roar; [nospec:4,talent:3/3] Ursol's Vortex
+END
+VER 3 0000000000000037 ".KeyScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom dash, wild charge, stampeding roar, soul shape, darkflight, bull rush,
+END
+VER 3 0000000000000038 ".p AFK" "134942"
+/run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
+END
+VER 3 0000000000000039 ".p Enchant" "INV_Misc_QuestionMark"
+#showtooltip
+/script TradeSkillFrame.DetailsFrame:Create();
+/use Enchanting Vellum
+END
+VER 3 000000000000003A ".p Professions" "134942"
+/tsm tasklist
+END
+VER 3 000000000000003B ".profCraft" "134331"
+/run local inf=C_TradeSkillUI.GetRecipeInfo(256777);C_TradeSkillUI.CraftRecipe(256777,inf.numAvailable)
+END
+VER 3 000000000000003C ".q QuestDrop" "134269"
+/script SetAbandonQuest();
+/script AbandonQuest();
+END
+VER 3 000000000000003D ".q QuestDump" "132319"
+/run for i=1,C_QuestLog.GetNumQuestLogEntries() do C_QuestLog.SetSelectedQuest(C_QuestLog.GetInfo(i).questID); C_QuestLog.SetAbandonQuest(); C_QuestLog.AbandonQuest() end;
+END
+VER 3 000000000000003E ".q Skip Quest" "132319"
+/aap skip
+END
+VER 3 000000000000003F ".slot 02 Amulet" "INV_Misc_QuestionMark"
+#showtooltip
+/use 2
+END
+VER 3 0000000000000040 ".slot 11 Ring" "INV_Misc_QuestionMark"
+#showtooltip
+/use 11
+END
+VER 3 0000000000000041 ".slot 12 Ring" "INV_Misc_QuestionMark"
+#showtooltip
+/use 12
+END
+VER 3 0000000000000042 ".slot 13 Trinket" "INV_Misc_QuestionMark"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000043 ".slot 13-14" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence 13, 14
+END
+VER 3 0000000000000044 ".slot 14 Trinket" "INV_Misc_QuestionMark"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000045 ".trade Bases" "133785"
+/2 {circle} wts i262 |cffffffff|Hitem:171416::::::::10:73::68:2:7451:1559:1:28:2142::::Player-162-0B4FCB0C:|h[Shadowghast Greaves]|h|r /w me an offer {circle}
+END
+VER 3 0000000000000046 ".trade Guilds" "133278"
+/4 {Star} {Moon} Buy/Sell your guild! Message me! {Moon} {Star}
+END
+VER 3 0000000000000047 "/d ButtonName" "134331"
+/run ChatFrame1:AddMessage(GetMouseFocus():GetName())
+END
+VER 3 0000000000000048 "/d Delete" "134400"
+/click DeleteCursorItemButton
+END
+VER 3 0000000000000049 "/d DumpClubId" "134331"
+/dump C_Club.GetSubscribedClubs()
+END
+VER 3 000000000000004A "/d GrabSpellById" "134331"
+/run PickupSpell(286547)
+END
+VER 3 000000000000004B "/d itemid" "134331"
+--Adds /itemid function and takes <shift click item id>
+/run SLASH_ITEMID1="/itemid" SlashCmdList["ITEMID"]=function(msg) local _,link=GetItemInfo(msg) if link then ChatFrame1:AddMessage(msg .. " has item ID: " .. link:match("item:(%d+):")) end end
+END
+VER 3 000000000000004C "/d SendToMacro" "134331"
+/script MacroFrameText:Insert("")
+END
+VER 3 000000000000004D "AAP_MACRO" "INV_Misc_QuestionMark"
+#showtooltip
+/use Winterwasp Antidote
+END
+VER 3 000000000000004E "AOTC Legion HC" "237446"
+/run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:11195:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:17:17:4294967295:4294967295:4294967295:4294967295\124h[Ahead of the Curve: Gul'dan]\124h\124r")
+END
+VER 3 000000000000004F "Bubble Wand" "135467"
+/use bubble wand
+END
+VER 3 0000000000000050 "ChatHide" "132331"
+/run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
+END
+VER 3 0000000000000051 "Cluck" "132172"
+/chicken
+END
+VER 3 0000000000000006 "ControllerDisabl" "136139"
+/console GamePadEnable 0
+END
+VER 3 0000000000000005 "ControllerEnable" "136138"
+/console GamePadEnable 1
+END
+VER 3 0000000000000052 "Craft" "132691"
+/click TSMDestroyBtn LeftButton 1
+/click TSMCraftingBtn LeftButton 1
+/tsm destroy
+/run AutoLootMailItem(1)
+/targetenemy
+/petattack
+/castsequence shadow bolt, hand of gul'dan
+END
+VER 3 0000000000000003 "Craft" "136031"
+/click TSMDestroyBtn LeftButton 1
+/click TSMCraftingBtn LeftButton 1
+/tsm destroy
+/run AutoLootMailItem(1)
+END
+VER 3 0000000000000053 "Death" "135426"
+/run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print("Dungeons: "..x.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
+END
+VER 3 0000000000000054 "Distance Aggro" "878211"
+/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
+END
+VER 3 0000000000000002 "FGI" "135936"
+END
+VER 3 0000000000000004 "GRM" "237560"
+/grm
+/grm promote
+END
+VER 3 0000000000000001 "GRM_Roster" "inv_bannerpvp_02"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 0000000000000055 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+/run GRM.Report("Reserved for GRM Macro Tool Usage. Please do not delete.")
+END
+VER 3 0000000000000056 "Mailbox" "413580"
+/run AutoLootMailItem(1)
+END
+VER 3 0000000000000057 "MJMacro" "413588"
+/click MountsJournal_Mount
+END
+VER 3 0000000000000058 "MJSecondMacro" "631718"
+/click MountsJournal_SecondMount
+END
+VER 3 0000000000000059 "PVP Champion Ach" "1398085"
+/run SendChatMessage("\124cffffff00\124Hachievement:5353:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:26:17:4294967295:4294967295:4294967295:4294967295\124h[Champion]\124h\124r, 2k exp, have voice", WHISPER, nil, "Samoansavage-Emerald Dream")
+END
+VER 3 000000000000005A "pvpBanner" "INV_Misc_QuestionMark"
+#showtooltip Banner of Cooperation
+/cast Banner of Cooperation
+/cast Standard of Unity
+/cast Alliance Battle Standard
+/cast Battle Standard of Coordination
+/cast Battle Flag: Phalanx Defense
+END
+VER 3 000000000000005B "pvpSlowGun" "INV_Misc_QuestionMark"
+#showtooltip Gravimetric Scrambler Cannon
+/cast [@cursor] Gravimetric Scrambler Cannon
+END
+VER 3 000000000000005C "Quests DMF" "134400"
+/run for k,v in pairs({{0,0},{1,1},{2,2},{3,3},{80,8},{81,21},{316,13},{317,14},{318,15},{34256,3911}})do w=GetItemInfo(v[1]+71635)print(w,": ",(C_QuestLog.IsQuestFlaggedCompleted(v[2]+29443) and "Delivered" or "Not Delivered"))end
+END
+VER 3 000000000000005D "Red Monocle" "INV_Misc_QuestionMark"
+#showtooltip item:156725
+/click [btn:1]MTSB1 LeftButton 1;[btn:2]MTSB1 RightButton 1;[btn:3]MTSB1 MiddleButton 1;[btn:4]MTSB1 Button4 1;[btn:5]MTSB1 Button5 1
+END
+VER 3 0000000000000007 "Reload" "134331"
+/reload
+END
+VER 3 000000000000005E "s BlanchyProgres" "134400"
+/run local a={62038,62042,62047,62049,62048,62050} for i=1, #a do print("Day "..i.." is completed: "..tostring(C_QuestLog.IsQuestFlaggedCompleted(a[i]))) end
+END
+VER 3 000000000000005F "s Bloated Lootfly" "516338"
+/cleartarget
+/tar Bloated Lootfly
+/run SetRaidTarget("target", 4)
+/use frost shock
+END
+VER 3 0000000000000060 "s DinoMount" "643856"
+/way The Jade Forest  52 17 
+/way Townlong Steppes 36 88 
+/way Krasarang Wilds 39 66
+/way Kun-Lai Summit 75 62
+/way Dread Wastes 47 60
+/npcscan add 69769 Zandalari Warbringer
+/npcscan add 69841 Zandalari Warbringer
+/npcscan add 69842 Zandalari Warbringer
+END
+VER 3 0000000000000061 "Thunderfury" "135349"
+#show item:19019
+/script DEFAULT_CHAT_FRAME:AddMessage("\124cffff8000\124Hitem:19019:0:0:0:0:0:0:0:0\124h[Thunderfury, Blessed Blade of the Windseeker]\124h\124r");
+END
+VER 3 0000000000000062 "TSMMacro" "643910"
+/click TSMCancelAuctionBtn
+/click TSMVendoringSellAllButton
+/click TSMShoppingBuyoutBtn
+/click TSMSniperBtn
+/click TSMCraftingBtn
+/click TSMAuctioningBtn
+/click TSMDestroyBtn LeftButton 1
+/click TSMBidBuyConfirmBtn
+END
+VER 3 0000000000000063 "uiClique" "1059113"
+/clique
+END
+VER 3 0000000000000064 "x 01 Notes" "134328"
+/cast
+/castsequence
+/castrandom
+/use
+/userandom
+/equip
+/equipslot
+#showtooltip [nomod, mod:shift, etc] <spellname>, <itemname>, BagId <BagId 0-4> <InvSlot 0-74>
+GetInventorySlotInfo (InvSlotName)
+#show item:133784
+/itemid <shift click item>
+END
+VER 3 0000000000000065 "x 03 Link Item" "134328"
+--Enter this in chat box, shift click item in place of [Eternal Fire]
+/script MacroFrameText:Insert("[Eternal Fire]")
+END
+VER 3 0000000000000066 "x 04 Icons" "134328"
+/s {triangle}
+Star {Star} / {rt1}
+Circle {Circle} / {rt2}
+Diamond {Diamond} / {rt3}
+Triangle {Triangle} / {rt4}
+Moon {Moon} / {rt5}
+Square {Square} / {rt6}
+Cross {Cross} / {X} / {rt7}
+Skull {Skull} / {rt8}
+END
+VER 3 0000000000000067 "x Cov Signature" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Door of Shadows
+/cast Soulshape
+/cast Fleshcraft
+/cast Summon Steward
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
+END
+VER 3 0000000000000068 "x Interrupt Focus" "INV_Misc_QuestionMark"
+#showtooltip kick
+/cast [target=focus,exists,nodead] Kick
+/cast Kick
+END
+VER 3 0000000000000069 "x Interrupt Focus" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=focus,exists,nodead] Kick
+/cast Kick
+END
+VER 3 000000000000006A "x Mock" "132333"
+/run SetRaidTarget("mouseover", 8)
+/roar
+/spit
+/sigh
+/golfclap
+/laugh
+/guffaw
+/rofl
+/pity
+/violin
+END
+VER 3 000000000000006B "x Talent" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:7/2] Secret Technique; [talent:7/3] Shuriken Tornado
+END
+VER 3 000000000000006C "xLeftClick" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/2 [spec:1/2/3,talent:3/3][spec:4]rejuvenation, regrowth, regrowth, regrowth
+/target mouseover
+END
+VER 3 000000000000006D "xPatterns" "851298"
+Send orders: 382 Cloak || 382 Shield
+END
+VER 3 000000000000006E "zDH01" "INV_Misc_QuestionMark"
+#showtooltip
+/cancelaura Spectral Sight
+/cast [mod:alt] Spectral Sight; [@mouseover,harm,nodead] [] Consume Magic
+END
+VER 3 000000000000006F "zDK01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Lichborne; [@mouseover,help,dead] [help,dead] Raise Ally; [spec:3,nopet] Raise Dead; [spec:3,@mouseover,harm,nodead] [spec:3] Gnaw
+END
+VER 3 0000000000000070 "zDruid01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,dead] [help,dead] Rebirth; [@mouseover,help,nodead] Remove Corruption; [@mouseover,harm,nodead] [harm] Soothe; Remove Corruption
+END
+VER 3 0000000000000071 "zEvoker01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,known:370665,@mouseover,help,nodead] [mod:shift,known:370665] Rescue; [mod:alt,known:374251,@mouseover,help,nodead] [mod:alt,known:374251] Cauterizing Flame; [@mouseover,help,nodead] [] Expunge
+END
+VER 3 0000000000000072 "zHunter01" "136020"
+/cast [mod:shift,@pet] Revive Pet; [nomod,@mouseover,harm,nodead] [nomod] Tranquilizing Shot; [@focus,help,nodead] [@mouseover,help,nodead] [help] [@pet,exists] [] Misdirection
+END
+VER 3 0000000000000073 "zHunter02" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt,@pet] Revive Pet; [@focus,help,group] [@mouseover,help,nodead,group] [help,group] [@pet,exists] [] Misdirection
+END
+VER 3 0000000000000074 "zMage01" "INV_Misc_QuestionMark"
+#showtooltip
+[mod:alt] Alter Time; [@mouseover,help,nodead] Remove Curse; [@mouseover,harm,nodead] [harm] Spellsteal; Remove Curse
+END
+VER 3 0000000000000075 "zMonk01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Diffuse Magic; [mod:shift] Dampen Harm; [spec:3,@mouseover,harm,nodead] Touch of Karma; [@mouseover,help,nodead] [help] Detox; [spec:3,harm] Touch of Karma
+END
+VER 3 0000000000000076 "zPaladin01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,dead] [help,dead] Intercession; [@mouseover,help,nodead] [] Cleanse Toxins
+END
+VER 3 0000000000000077 "zPriest01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Mind Soothe; [mod:alt] !Mass Dispel; [@mouseover,help,nodead] Purify Disease; [@mouseover,harm,nodead] [harm] Dispel Magic; Purify Disease
+END
+VER 3 0000000000000078 "zRouge01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Crimson Vial; [mod:alt] Shiv; [known:36554,@mouseover,exists,nodead] Shadowstep; [known:195457,@cursor] Grappling Hook; [known:36554,exists] Shadowstep
+END

@@ -1,33 +1,40 @@
 
-DataStore_CraftsDB = {
-	["profileKeys"] = {
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-	},
-	["global"] = {
-		["Characters"] = {
-			["Default.Emerald Dream.Kokonutkiing"] = {
-				["lastUpdate"] = 1608541931,
-			},
-			["Default.Emerald Dream.Buhbles"] = {
-				["lastUpdate"] = 1606767355,
-			},
-			["Default.Emerald Dream.Kokonutkween"] = {
-				["lastUpdate"] = 1608465279,
-			},
-			["Default.Emerald Dream.Gl"] = {
-				["lastUpdate"] = 1615450792,
-			},
-		},
-	},
+DataStore_Crafts_Characters = {
+{
+["Professions"] = {
+},
+["lastUpdate"] = 1719852020,
+["Indices"] = {
+},
+["Ranks"] = {
+},
+},
+{
+["Professions"] = {
+},
+["lastUpdate"] = 1720231061,
+["Indices"] = {
+},
+["Ranks"] = {
+},
+},
+{
+["Professions"] = {
+},
+["lastUpdate"] = 1720241811,
+["Indices"] = {
+},
+["Ranks"] = {
+},
+},
 }
-DataStore_CraftsRefDB = {
-	["profileKeys"] = {
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-	},
+DataStore_Crafts_ArcheologyItems = {
+{
+},
+{
+},
+{
+},
+}
+DataStore_Crafts_RecipeCategories = {
 }

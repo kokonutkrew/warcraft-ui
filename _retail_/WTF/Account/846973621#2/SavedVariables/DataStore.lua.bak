@@ -1,0 +1,31 @@
+
+DataStore_GuildIDs = {
+["Set"] = {
+},
+["Count"] = 0,
+["List"] = {
+},
+}
+DataStore_GuildFactions = {
+}
+DataStore_CharacterIDs = {
+["Set"] = {
+["Default.Moon Guard.Xpblast"] = 1,
+},
+["Count"] = 1,
+["List"] = {
+"Default.Moon Guard.Xpblast",
+},
+}
+DataStore_CharacterGUIDs = {
+"Player-3675-0AB2D54B",
+}
+DataStore_CharacterGuilds = {
+}
+DataStore_AltGroups = {
+}
+DataStore_ConnectedRealms = {
+}
+DataStore_RealmNames = {
+["MoonGuard"] = "Moon Guard",
+}

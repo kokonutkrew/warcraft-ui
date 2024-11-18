@@ -319,6 +319,8 @@ app.LocalizeGlobalIfAllowed = function(globalName, init)
 	return app.LocalizeGlobal(globalName, init);
 end
 
+if not app.Presets.ALL then app.Presets.ALL = setmetatable({}, {__index = app.ReturnTrue}) end
+
 (function()
 -- Extend the Frame Class and give them ATT-Style Coroutines and Tooltips!
 local coroutineStack = {};

@@ -1,0 +1,15 @@
+Version: 1
+Frame: RARESCANNER_BUTTON
+FrameLevel: 200
+Anchor: LEFT
+X: 44
+Y: -38
+W: 200
+H: 50
+Frame: ZygorPetBattleFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -10
+Y: 96
+W: 450
+H: 600

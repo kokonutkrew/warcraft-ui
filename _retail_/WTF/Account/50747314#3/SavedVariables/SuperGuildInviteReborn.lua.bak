@@ -1,0 +1,3889 @@
+
+SGI_DATA = {
+["Migget - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -1.422139406204224,
+["xOfs"] = -13.9333438873291,
+["point"] = "RIGHT",
+["relativePoint"] = "RIGHT",
+},
+},
+["filters"] = {
+},
+},
+},
+["Flais - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 31.28891181945801,
+["xOfs"] = -198.4000396728516,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Diereyer - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_Options"] = {
+["yOfs"] = 60.53324890136719,
+["xOfs"] = 374.5110168457031,
+["point"] = "BOTTOMRIGHT",
+["relativePoint"] = "BOTTOMRIGHT",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 98.1331558227539,
+["xOfs"] = -248.1778106689453,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31.00000190734863,
+["xOfs"] = -31.00000190734863,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["lock"] = {
+["Jamirie-Dawnbringer"] = 8,
+["Samoandrake"] = 9,
+["Mystinå-ArgentDawn"] = 8,
+["Timmy-Scilla"] = 9,
+["Ryckgrimes"] = 8,
+["Gelmon-KirinTor"] = 8,
+["Blaskey-ArgentDawn"] = 8,
+["Samoanslayer-Area52"] = 8,
+["Zindrozath-SilverHand"] = 8,
+["Speyero-Area52"] = 8,
+["Samoanslayer-EmeraldDream"] = 8,
+["Oafbreaker-TheVentureCo"] = 8,
+["Jàede-EmeraldDream"] = 8,
+["Bachont"] = 8,
+["Sagitta-TheScryers"] = 8,
+["Garwa-KirinTor"] = 8,
+},
+["Unodoestrees - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Jadewarrior - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -6.400001049041748,
+["xOfs"] = -13.51107215881348,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Flameing - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 41.95556640625,
+["xOfs"] = 271.3555908203125,
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Deathscar - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -80.35555267333984,
+["xOfs"] = 100.2666244506836,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Fsdfdgsdfg - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Voidspeakerr - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 30.57779693603516,
+["xOfs"] = 2.555609703063965,
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+},
+},
+["filters"] = {
+},
+},
+},
+["Crashcorse - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -14.22218894958496,
+["xOfs"] = 126.288948059082,
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Kmekik - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 130.7777709960938,
+["xOfs"] = -284.8666687011719,
+["point"] = "BOTTOMRIGHT",
+["relativePoint"] = "BOTTOMRIGHT",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Soulspeaker - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 6.582870960235596,
+["xOfs"] = -102.3999938964844,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Adafgast - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Adlasdlsadl - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -3.555582284927368,
+["xOfs"] = 2.844419002532959,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Floide - Moon Guard"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 67.55557250976562,
+["xOfs"] = -11.80008792877197,
+["point"] = "RIGHT",
+["relativePoint"] = "RIGHT",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Demenchonone - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -137.24462890625,
+["xOfs"] = -257.4222717285156,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Shadowwatchr - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 44.80003356933594,
+["xOfs"] = 175.3555450439453,
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+},
+},
+["filters"] = {
+},
+},
+},
+["Timecaster - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -72.53327178955078,
+["xOfs"] = 119.1777648925781,
+["point"] = "LEFT",
+["relativePoint"] = "LEFT",
+},
+},
+["filters"] = {
+},
+},
+},
+["Bcb - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["guildList"] = {
+["Emerald Dream"] = {
+["The Peace Within"] = {
+"Lethul",
+"Jarðskjálfti",
+"Çóbrakï",
+"Reyanako",
+"Copernicuz",
+"Syraphela",
+},
+["We Play Drunk"] = {
+"Trîplesîx",
+},
+["Logical Psychopathy"] = {
+"Dangal",
+},
+["Warcraft Mafia"] = {
+"Elmersgun",
+},
+["Bloodthirsty"] = {
+"Bestevoker",
+},
+["Pride of the Alliance"] = {
+"Wickedbishop",
+},
+["Abacaxi"] = {
+"Smalloren",
+},
+["Bad Influence"] = {
+"Chipnmilk",
+},
+["Annihilation Syndicate"] = {
+"Spiritrusows",
+},
+["Gindaloons"] = {
+"Anoldere",
+},
+["Goon Squâd"] = {
+"Shaedwulf",
+"Beeright",
+"Hakanpää",
+"Stormi",
+"Darkcatch",
+"Runswithpets",
+},
+["Chromies Homies"] = {
+"Ânklebiter",
+},
+["Weturn of the Wob"] = {
+"Everit",
+},
+["Corpse Corps"] = {
+"Monstrosìty",
+},
+["Anlahshok"] = {
+"Deezeeze",
+"Gladiola",
+},
+["Thieves Order"] = {
+"Hellreaper",
+"Zaraylienia",
+"Courthorpse",
+},
+["Sons of Ilúvatar"] = {
+"Dewirnd",
+},
+["Tasty Meat Puppets"] = {
+"Greasyballs",
+},
+["The Inn Dwellers"] = {
+"Malatise",
+},
+["Karazhan Chess Champions"] = {
+"Kodethna",
+"Xenopainz",
+"Nitori",
+"Briarwind",
+},
+["War and Thunder"] = {
+"Bldlust",
+},
+["Roadhouse"] = {
+"Tenkei",
+},
+["SubGenius"] = {
+"Spyrow",
+"Mahomesgood",
+},
+["Food Inc"] = {
+"Moilight",
+},
+["Kòga Ryu"] = {
+"Jagó",
+},
+["The Phillidari"] = {
+"Kossy",
+"Darrelldime",
+},
+["Double G"] = {
+"Toughbreak",
+},
+["Nerdz du Nord"] = {
+"Aedius",
+},
+["The Mad Lads"] = {
+"Patronsaint",
+},
+["Ñemesis"] = {
+"Nedhyucie",
+},
+["Maker"] = {
+"Whyarewehere",
+},
+["TANTALUS"] = {
+"Caav",
+},
+["Potsticker"] = {
+"Hoeleeheck",
+},
+["Dark Insanity"] = {
+"Usteag",
+},
+["Alter Ego"] = {
+"Rylaiwolf",
+},
+["Hotel Transylvania"] = {
+"Toffeemaple",
+},
+["Ashes to Embers"] = {
+"Birsae",
+},
+["Shade"] = {
+"Dakz",
+},
+["Whorde House"] = {
+"Iwonulost",
+},
+["WARMODE"] = {
+"Chaosndn",
+},
+["Full Throttle Axolotl"] = {
+"Valhallâ",
+},
+["Poon Platoon"] = {
+"Shixxa",
+"Bigchuck",
+},
+["Spooky Scary"] = {
+"Portalbot",
+},
+["REBIRTH OF RATSTALLION"] = {
+"Bigolmelons",
+},
+["Adventure"] = {
+"Dragrussy",
+"Maturin",
+},
+["Heroic Leaf"] = {
+"Laohunter",
+},
+["RatedR"] = {
+"Lyceius",
+"Khorios",
+},
+["Zerg Rush"] = {
+"Tansa",
+},
+["Skill Capped"] = {
+"Strawhatdh",
+},
+["Sugar Honey Ice Tea"] = {
+"Balbatorex",
+},
+["Iron Wolves"] = {
+"Phillyfister",
+"Rhygius",
+},
+["Knights of Serenity"] = {
+"Krabman",
+},
+["Prætørian"] = {
+"Danycowwoww",
+},
+["I Just Want To Live"] = {
+"Dothurts",
+},
+["Harvester"] = {
+"Dumaluco",
+},
+["More Cowbell"] = {
+"Kelasse",
+},
+["Emerald Hope"] = {
+"Ezith",
+},
+["No Masters"] = {
+"Aloyious",
+},
+["VoA"] = {
+"Vodrick",
+},
+["Force of Natúre"] = {
+"Emara",
+},
+["The High Society"] = {
+"Obamaheal",
+},
+["Best Laid Plans"] = {
+"Michelangelo",
+},
+["Mythic Maybe"] = {
+"Saphirian",
+},
+["Blackshade Council"] = {
+"Jasmaatan",
+},
+["Hubris"] = {
+"Monsterr",
+},
+["Cincinatti Bad Girls"] = {
+"Bdbm",
+},
+["Deathbed"] = {
+"Luhman",
+},
+["For Da Perks"] = {
+"Esienhorn",
+},
+["Dark Eco"] = {
+"Mørgue",
+},
+["Dead Gnome Society"] = {
+"Gruggil",
+},
+["Magnum Opus"] = {
+"Bootae",
+},
+["Vicious PvP"] = {
+"Renebaebae",
+},
+["KnightsTemplar"] = {
+"Glorey",
+},
+["The Psych Ward"] = {
+"Khonsa",
+},
+["Por La Ñ"] = {
+"Nemixes",
+"Rëmy",
+},
+["Critical Raid Theory"] = {
+"Fighouli",
+},
+["Diversus"] = {
+"Saylon",
+"Panzara",
+"Gazuzu",
+"Empüsa",
+"Acara",
+"Lya",
+"Ädrianä",
+},
+["Junction"] = {
+"Sneako",
+},
+["Tokn"] = {
+"Holysmyte",
+},
+["Wonderland"] = {
+"Ucantank",
+},
+["Performance Anxiety"] = {
+"Missingnoxx",
+},
+["Solitude"] = {
+"Cyrom",
+},
+["The Old Gods"] = {
+"Boomzy",
+"Padrerotcawq",
+"Lycanrising",
+},
+["Asylum"] = {
+"Zhahadoom",
+},
+["Mystic Dragons"] = {
+"Alivero",
+},
+["Ministerio PvP"] = {
+"Frëeman",
+},
+["Prodigal Knights"] = {
+"Ivarros",
+},
+["Blanket Bros"] = {
+"Palagrlagrla",
+"Fisdantilus",
+"Furrawri",
+},
+["Demonic Chaos"] = {
+"Deathjerky",
+},
+["Grief"] = {
+"Crucifîx",
+},
+["Grizzly Hills Fan Club"] = {
+"Papaskari",
+},
+["Average Joes"] = {
+"Phobon",
+},
+["AboveAvrg Raiding People"] = {
+"Dithyrambus",
+},
+["Golgari"] = {
+"Felador",
+},
+["Divine Esports"] = {
+"Carly",
+"Nolandecay",
+},
+["RUINOUS"] = {
+"Alathrion",
+"Trynne",
+"Shebuhebrew",
+},
+["Asphyxia"] = {
+"Lanastaul",
+},
+["Da Bois LLC"] = {
+"Fallujah",
+},
+["Felweed Cartel"] = {
+"Raabjorn",
+},
+["Stormwind United"] = {
+"Mægor",
+},
+["Stringy Vulture Meat"] = {
+"Talyim",
+},
+["Dark Humor"] = {
+"Nkokwa",
+},
+["Over Mankus H"] = {
+"Sombradelmal",
+},
+["Runic Vanguard"] = {
+"Aedros",
+},
+["Burning Blades"] = {
+"Bustameatbal",
+},
+["Simpathy"] = {
+"Razzika",
+"Clûe",
+},
+["Great Value"] = {
+"Hannarz",
+},
+["Ancient Allies"] = {
+"Undeadwooki",
+},
+["Push Buttons Harder"] = {
+"Shaamoose",
+},
+["Fat Camp"] = {
+"Xerquarach",
+},
+["Spit On Dat Thang"] = {
+"Moocowthings",
+},
+["Quarantined"] = {
+"Necrobeard",
+"Charnir",
+},
+["Chained Together"] = {
+"Haylos",
+"Kryngl",
+},
+["Leoniel Consortium"] = {
+"Igrishunter",
+},
+["LoF"] = {
+"Rrace",
+},
+["Raise Your Eyes"] = {
+"Shabadk",
+},
+["Shadows of Azeroth"] = {
+"Ahnzulk",
+},
+["Monkey With A Stick"] = {
+"Kaminika",
+},
+["No Rest For The Wicked"] = {
+"Xzeus",
+},
+["Nation"] = {
+"Devil",
+"Im",
+},
+["Aeturnas Trinitas"] = {
+"Walksbehind",
+"Casuistic",
+"Tsuiling",
+},
+["Silvermoon Guardians"] = {
+"Mireille",
+},
+["Ruthless Renegades"] = {
+"Fïlth",
+},
+["Trap Home"] = {
+"Gurobae",
+},
+["Enthusia"] = {
+"Pawdawan",
+},
+["Soldiers of Stormrage"] = {
+"Nezzx",
+},
+["House Brighthammer"] = {
+"Jådedmoon",
+},
+["Bokononism for Beginners"] = {
+"Glorparina",
+},
+["Supra"] = {
+"Capricornas",
+},
+["Pestilence"] = {
+"Relenqueth",
+},
+["Starset Society"] = {
+"Skyshade",
+},
+["Order of Amaryllis"] = {
+"Chronobabe",
+},
+["Apex Gamers"] = {
+"Lenodruid",
+},
+["Strip Club Heroes"] = {
+"Rdubb",
+},
+["Psycho Chick"] = {
+"Salamanca",
+},
+["Primal Valor"] = {
+"Trenseralan",
+},
+["Infused"] = {
+"Moovements",
+},
+["Cleavage Pulls Threat"] = {
+"Doof",
+"Wurm",
+},
+["Echoes of the Forgotten"] = {
+"Ewoksugma",
+},
+["Ducky"] = {
+"Noxeous",
+},
+["The Event Horizon"] = {
+"Malxenys",
+},
+["Minion of Gaul"] = {
+"Bahiga",
+},
+["Bad Luck Inc"] = {
+"Meatyogre",
+},
+["Tempo"] = {
+"Zuldahn",
+},
+["Blood Thirsty Naga"] = {
+"Tehxadin",
+},
+["KK"] = {
+"Meki",
+"Samoanslayer",
+"Samoansalty",
+"Dazzledame",
+"Naber",
+"Maliakk",
+"Goldsquid",
+"Samoanstrafe",
+"Threadcraft",
+"Manaiakk",
+"Voidspeakerr",
+"Plumn",
+"Samoandrake",
+"Herbcraft",
+},
+["The Pews"] = {
+"Frostypew",
+},
+["Couple Guild"] = {
+"Alÿona",
+},
+["Second Best"] = {
+"Whhee",
+},
+["All That Remain"] = {
+"Noyuu",
+},
+["Daydreamers"] = {
+"Daddydormi",
+},
+["Southside Serpents"] = {
+"Pillows",
+},
+["Daughters of the Calm"] = {
+"Ivagont",
+},
+["Chill Beats"] = {
+"Lafleurry",
+"Wiivenge",
+},
+["Organized Chaos"] = {
+"Paladiae",
+},
+["LADS FOR LIFE"] = {
+"Mððse",
+},
+["Corsarios del Infierno"] = {
+"Ztelius",
+},
+["Rivendell"] = {
+"Micaia",
+},
+["Madlads"] = {
+"Grimnore",
+},
+["Iron Arm Champions"] = {
+"Daryuss",
+},
+["kk"] = {
+"Herbcraft",
+"Ottsca",
+"Voidspeakerr",
+},
+["Prainha Bulls"] = {
+"Muradinpica",
+"Vadraus",
+},
+["The Forbidden Truth"] = {
+"Fengosholy",
+},
+["HALO"] = {
+"Drspooky",
+},
+["Tempered Failures"] = {
+"Pinwheel",
+"Eriktherod",
+},
+["In Other News"] = {
+"Toriina",
+},
+["Only Raiding Ironically"] = {
+"Astridh",
+},
+["Sedso"] = {
+"Fàlric",
+},
+["Tanklinrans Bank"] = {
+"Thorloser",
+},
+["Abandonment Issues"] = {
+"Neali",
+},
+["Mistakes Were Made"] = {
+"Espeer",
+},
+["Of The Shadows"] = {
+"Smitespam",
+},
+["Escavadores de Neve"] = {
+"Zoiu",
+},
+["BeeHive"] = {
+"Moosebearpig",
+},
+["Southern Comfort"] = {
+"Ryken",
+},
+["Holy Rollers"] = {
+"Rosindabz",
+"Thrallal",
+"Lunarkamuy",
+"Ýeva",
+"Kyrbri",
+"Haodael",
+"Illustro",
+"Paleclaw",
+"Justbri",
+"Larathvia",
+"Trifista",
+"Remixxed",
+"Apollonio",
+"Misttree",
+"Thesuccubus",
+"Demenchonone",
+"Aldolivis",
+"Cyclonekk",
+"Lithelleda",
+"Lyhtr",
+"Fevrier",
+"Ncestoria",
+"Vhoon",
+"Pinchewey",
+"Bigging",
+"Slowmooving",
+},
+["Like A Bôss"] = {
+"Thoranak",
+},
+["Heralds of the Coalition"] = {
+"Nyianasind",
+},
+["Dark Defiance"] = {
+"Yadrin",
+},
+["Dont Release"] = {
+"Liubang",
+"Roubzarg",
+},
+["Who is Carrying Who"] = {
+"Fistmagic",
+},
+["The Warband"] = {
+"Hexblast",
+},
+["SurpriseBookakke"] = {
+"Retardfungus",
+},
+["Zero Effort"] = {
+"Nosfelatu",
+},
+["Vingança de Darnassus"] = {
+"Tableplease",
+},
+["Hakuna Matata"] = {
+"Udogie",
+},
+["Yes Chef"] = {
+"Facts",
+},
+["The Verdant Ruins"] = {
+"Bhrett",
+"Zarela",
+},
+["El Último Reino"] = {
+"Teodolfo",
+},
+["So Many Flavors"] = {
+"Healzko",
+},
+["Noble House"] = {
+"Draenishy",
+"Judgescalia",
+"Shamstatic",
+"Ligmastrasza",
+"Blueelephant",
+"Fizzwizzard",
+"Mick",
+},
+["FULCRUM COME IN"] = {
+"Martyswipe",
+},
+["Vingadores Brutais"] = {
+"Ris",
+},
+["We Survived the Snap"] = {
+"Pythågoreän",
+},
+["Midnight Wolves"] = {
+"Sunfeather",
+},
+["heyhowareya"] = {
+"Skwerlmaster",
+},
+["Geese Not Handled"] = {
+"Aisllin",
+},
+["The Undying"] = {
+"Skarsnick",
+"Liluzi",
+},
+["BloodBoùnd"] = {
+"Shakn",
+},
+["Twilight Insurgents"] = {
+"Radagust",
+},
+["Digital Circus"] = {
+"Lashi",
+},
+["Drums on Pull"] = {
+"Aaeciaana",
+"Samaragosa",
+"Valdreliice",
+"Honustustere",
+"Argorohkk",
+"Clareen",
+"Unnagi",
+"Jirunh",
+"Gizzmö",
+"Keladorn",
+"Druvett",
+"Charonea",
+"Carthu",
+"Nasatren",
+"Eclip",
+"Vonblade",
+},
+["Save Point"] = {
+"Leeroiy",
+},
+["The Eternal Vanguard"] = {
+"Belixxa",
+},
+["AMP"] = {
+"Loosie",
+},
+["Mælstrom"] = {
+"Envydia",
+},
+["Prototype"] = {
+"Banned",
+},
+["Goldshire Fire Brigade"] = {
+"Pugabin",
+"Mistylight",
+},
+["Tempura"] = {
+"Shieldfizz",
+"Maplefysi",
+},
+["Xingibus Crew"] = {
+"Puraatia",
+},
+["Intrepid"] = {
+"Altius",
+},
+["Deadly Society"] = {
+"Flayzz",
+},
+["Ad Meliora"] = {
+"Sugiroh",
+"Hibmage",
+"Talamuk",
+},
+["Shattered Oath"] = {
+"Poraicho",
+},
+["Shields Up"] = {
+"Jwitch",
+},
+["Baked"] = {
+"Chungeth",
+},
+["Inertia"] = {
+"Eladea",
+},
+["Hidden Fury"] = {
+"Topflight",
+},
+["Eclipsed"] = {
+"Bashlol",
+},
+["Soft Enrage"] = {
+"Xd",
+"Gapr",
+},
+["Synchronized Strokes"] = {
+"Lucenya",
+},
+["Dragonstrike"] = {
+"Kambpal",
+},
+["Friends Who Kill Bosses"] = {
+"Thuirren",
+},
+["Kinetic"] = {
+"Furrhunter",
+"Udderpunch",
+"Feonah",
+},
+["Chaos and Order"] = {
+"Varleth",
+},
+["KiNGKReW"] = {
+"Pould",
+},
+["CoTL"] = {
+"Sinyc",
+"Yalb",
+},
+["Casting Couch"] = {
+"Gonadd",
+},
+["Venomfang Cultists"] = {
+"Sarei",
+},
+["House of Xzan"] = {
+"Mercei",
+},
+["Lethal Scales"] = {
+"Feliniirn",
+},
+["The Grateful Dead"] = {
+"Girthyswole",
+},
+["Warpath"] = {
+"Ulandaz",
+},
+["Peak Performance"] = {
+"Warcanzer",
+},
+["BurnsWhenIPvP"] = {
+"Orkboychoppa",
+},
+["Classic BFFS"] = {
+"Elmerfuddx",
+},
+["Delirium Dragons"] = {
+"Jixxhammer",
+},
+["Get Pugged"] = {
+"Sacrier",
+},
+["Kissing the Homies GN"] = {
+"Verymelon",
+},
+["RoastedQuail"] = {
+"Samibaby",
+},
+["Aftermath"] = {
+"Jerichö",
+},
+["Astra"] = {
+"Çhiçken",
+},
+["BRAVOS GUERREIROS"] = {
+"Cømus",
+},
+["The BIack"] = {
+"Kiriadra",
+},
+["Best Buds"] = {
+"Kawaski",
+},
+["Revolving Door"] = {
+"Rizwa",
+},
+["Frost Wolf Pandaria"] = {
+"Katelli",
+},
+["The Better Guild"] = {
+"Moltw",
+"Cypis",
+"Aurona",
+"Kokbringer",
+},
+["Scuffed"] = {
+"Jakkeyy",
+"Jerkacirc",
+"Tummyheals",
+},
+["Bladed Rose"] = {
+"Fiandahl",
+},
+["Kotmogu Heroes"] = {
+"Gredwarr",
+},
+["Sending It"] = {
+"Jonnathan",
+},
+["World Last"] = {
+"Wiggitywack",
+},
+["Dream Render"] = {
+"Nootlad",
+"Tidrage",
+},
+["Revolution"] = {
+"Deathande",
+},
+["High Warlord"] = {
+"Liam",
+},
+["Under the Influence"] = {
+"Scrakel",
+},
+["Killing BlØw"] = {
+"Sistafist",
+},
+["Raven Warcries"] = {
+"Tandro",
+},
+["Intrepidity"] = {
+"Zodiark",
+},
+["Lets Get Mythical"] = {
+"Shadowret",
+},
+["Eternal Upheaval"] = {
+"Konfuzedone",
+},
+["La French Connection"] = {
+"Alêxanderthe",
+},
+["Port Authority"] = {
+"Kurellion",
+},
+["P A R A D I G M A"] = {
+"Kerup",
+"Rbek",
+"Yukhong",
+},
+["Immortal Hearts"] = {
+"Kieffrey",
+},
+["The Critical Failures"] = {
+"Garthemew",
+},
+["Hit it and Crit it"] = {
+"Rhainera",
+},
+["In The Clouds"] = {
+"Døtyå",
+},
+["We Ride At Dawn"] = {
+"Cacellinie",
+},
+["Scarlet Frenzy"] = {
+"Méàtball",
+},
+["The Greek Legion"] = {
+"Deadlyzyns",
+},
+["Order of Fury"] = {
+"Bladespell",
+},
+["Carpe Omnia"] = {
+"Miguell",
+},
+["Toxic Army"] = {
+"Rougemain",
+},
+["Lux"] = {
+"Neithe",
+},
+["The Crimson Collective"] = {
+"Kronnish",
+},
+["Commit"] = {
+"Ashrran",
+},
+["Le Clique"] = {
+"Ghoat",
+},
+["Shenanigans"] = {
+"Esaria",
+},
+["Eggsquad"] = {
+"Verysad",
+},
+["Add Violence"] = {
+"Bungledorph",
+"Schnozzdk",
+"Lhirael",
+"Turboflash",
+},
+["Overlapped"] = {
+"Bigdoinker",
+},
+["Unicorn Kittens"] = {
+"Sentitremix",
+"Valakya",
+},
+["Destined For Glory"] = {
+"Baebear",
+},
+["Cherry Pink"] = {
+"Lionstalker",
+},
+["Silvermoon"] = {
+"Sookmei",
+},
+["Absolute"] = {
+"Moth",
+"Baylan",
+"Lazersham",
+"Angusandre",
+"Alistüs",
+},
+["Consequence"] = {
+"Max",
+},
+["Mythic Breeze"] = {
+"Latrom",
+},
+["UnholyShadows"] = {
+"Tannissel",
+},
+["Reload Reloaded"] = {
+"Rngproclord",
+},
+["Goodnight Moon"] = {
+"Chanwarr",
+},
+["Moonlit Dark"] = {
+"Ryuzaki",
+},
+["Selkath"] = {
+"Chortle",
+"Digger",
+},
+["Wake of Apathy"] = {
+"Serein",
+},
+["Egg"] = {
+"Kallyah",
+},
+["Pandolandia"] = {
+"Calvsue",
+"Carolf",
+},
+["Landfill"] = {
+"Xpqt",
+"Hymendinger",
+},
+["wasdasd"] = {
+"Kaye",
+},
+["Rotten Grog Tavern"] = {
+"Kharroon",
+},
+["Champions of Casual"] = {
+"Makuuldan",
+},
+["Vibe Tribe"] = {
+"Kaosmìsuto",
+},
+["Thicker Than Water"] = {
+"Gerthibas",
+},
+["Relentless Assault"] = {
+"Vodkà",
+},
+["Burnt Coffee"] = {
+"Minverà",
+},
+["Horror"] = {
+"Dogfoodlid",
+"Shrekkd",
+},
+["Stormshield Soldiers"] = {
+"Ezie",
+},
+["Only Friends"] = {
+"Xaspeni",
+},
+["My Fifteen a Month"] = {
+"Vayela",
+},
+["No More Invites"] = {
+"Wum",
+},
+["Fate of the Fallen"] = {
+"Sacrilecious",
+},
+["Resolution"] = {
+"Krrin",
+"Tkoshotts",
+},
+["Est Solarus Oth Mithas"] = {
+"Ztigmata",
+},
+["Diesel"] = {
+"Jonlowery",
+},
+["Quixotic"] = {
+"Triknology",
+},
+["Reminisce"] = {
+"Saßrina",
+"Zarola",
+},
+["Emerald Paradise"] = {
+"Stunszu",
+},
+["Division VII"] = {
+"Zakala",
+"Baptista",
+"Maniacmilo",
+"Taproot",
+"Voidslinger",
+"Muppetbeast",
+"Brownhulk",
+},
+["Exegol"] = {
+"Tatertïts",
+"Luxadastra",
+"Dracaryspapi",
+"Molagßàl",
+},
+["Illenium"] = {
+"Zital",
+},
+["Six Seconds"] = {
+"Splitpea",
+},
+["Ishtar"] = {
+"Fezalir",
+"Iristal",
+},
+["Knife to meet you"] = {
+"Lucifurries",
+},
+["Phoenix Rising"] = {
+"Bouncyheal",
+},
+["Slurp Squad"] = {
+"Rookzen",
+},
+["GaslightGatekeepGirlboss"] = {
+"Cloutraxion",
+},
+["Nexus"] = {
+"Êvokêr",
+},
+["Forjados por la Guerra"] = {
+"Laveaux",
+},
+["Dynasty"] = {
+"Shoeaww",
+},
+["Knights of Asgard"] = {
+"Rahitfall",
+},
+["Cloudsong"] = {
+"Inmyprime",
+},
+["Haphazard"] = {
+"Mayllasia",
+},
+["Ghoul"] = {
+"Supersmasher",
+},
+["BEEF BUS"] = {
+"Slayerzqtcc",
+},
+["Hell Yeah Brother"] = {
+"Jzebra",
+},
+["Baleino Chabot Team"] = {
+"Jtousse",
+"Sfopghî",
+},
+["IAloneAmTheHonoredOne"] = {
+"Smashdru",
+},
+["Heritage"] = {
+"Serinety",
+},
+["Echoes Of The Titans"] = {
+"Bushrend",
+},
+["The Wall"] = {
+"Rickwilson",
+},
+["Twenty for seven"] = {
+"Üuü",
+},
+["The Wild"] = {
+"Lokani",
+},
+["alea iacta est libertas"] = {
+"Libert",
+},
+["Fabled Venture"] = {
+"Lilindia",
+},
+["Forsaken Order"] = {
+"Dece",
+},
+["BlackTuesday"] = {
+"Themcmxcv",
+},
+["Sons of Relic"] = {
+"Merhem",
+},
+["can i get that bro"] = {
+"Gosta",
+},
+["Capped On"] = {
+"Påk",
+},
+["The Nethervene Tavern"] = {
+"Heramor",
+},
+["Censored"] = {
+"Xydul",
+},
+["Forsakened"] = {
+"Glendi",
+},
+["Blissful Bloodlust"] = {
+"Etheriya",
+},
+["Our Insanity"] = {
+"Ferkin",
+},
+["Warsong Battalion"] = {
+"Grezlox",
+"Alstørm",
+},
+["Herd of Cats"] = {
+"Amarnath",
+},
+["Thirsty Dudes"] = {
+"Maggydaddy",
+"Spacetime",
+},
+["ScuttleCrab"] = {
+"Iludron",
+},
+["ODIN"] = {
+"Grymmie",
+},
+["Tight Boys"] = {
+"Lilelo",
+"Elosh",
+"Tushku",
+},
+["Equilibrium"] = {
+"Pollo",
+},
+["Treasury"] = {
+"Spacy",
+},
+["Souls of Year"] = {
+"Vamplant",
+},
+["Cultivating Mass"] = {
+"Batsheva",
+},
+["No Safe Words"] = {
+"Stormkettle",
+},
+["The Blue Phoenix"] = {
+"Nenenda",
+},
+["Argent Nephalems"] = {
+"Madarauchiha",
+},
+["Horde Casuals"] = {
+"Angrypeon",
+},
+["Referendum"] = {
+"Tidlidan",
+},
+["Casualz"] = {
+"Papercütz",
+},
+["All You Can Eat"] = {
+"Retservation",
+"Kemistry",
+"Cayssaelaise",
+"Pumperx",
+"Chickem",
+},
+["Parabellüm"] = {
+"Sámuró",
+},
+["The Stabby Bunch"] = {
+"Bélz",
+},
+["Clan of Mithril Hall"] = {
+"Mcdragess",
+},
+["Legion of the Blacksun"] = {
+"Emilda",
+},
+["Shattered Core"] = {
+"Dethstoirm",
+},
+["Pixel"] = {
+"Azavow",
+},
+["Charmed Ones"] = {
+"Samoanbeast",
+},
+["Kitties In Paris"] = {
+"Hanselson",
+},
+["Jasmine Dragon"] = {
+"Svinpally",
+"Santimagic",
+"Balvor",
+"Barrag",
+"Moargreed",
+},
+["Albert Einstein"] = {
+"Zane",
+},
+["Complexity"] = {
+"Oakshian",
+},
+["elektron"] = {
+"Slothy",
+},
+["Liege"] = {
+"Dialaor",
+},
+["Colorful Pills"] = {
+"Reinhar",
+"Murketh",
+},
+["Pumpers USA Inc"] = {
+"Greendalari",
+},
+["Inebriati"] = {
+"Siekus",
+},
+["Mutiny"] = {
+"Stillwind",
+},
+["Eternal Honor"] = {
+"Shissa",
+},
+["Almost Sane"] = {
+"Discpriest",
+},
+["Dïrty"] = {
+"Namenick",
+},
+["Strasza"] = {
+"Shãdy",
+},
+["The Numpty Heads"] = {
+"Hrumm",
+},
+["most dominant ever"] = {
+"Demonscreen",
+},
+["Genshin is CCP Spyware"] = {
+"Ðhagøn",
+"Dhagøn",
+},
+["Eidolon"] = {
+"Tokkie",
+},
+["Sparkle Pony"] = {
+"Fearofthefel",
+"Bubblemommy",
+},
+["Geese of the Round Table"] = {
+"Ðemonßlade",
+},
+["Axe Den"] = {
+"Shablino",
+},
+["Mushroom Mountain"] = {
+"Hulkhoegan",
+},
+["The Bums"] = {
+"Darkpilar",
+},
+["Resonate"] = {
+"Shadarek",
+},
+["Radioactive"] = {
+"Kalizhi",
+"Hellstrong",
+},
+["Wayward Company"] = {
+"Kenul",
+"Tundras",
+"Poundyapaws",
+},
+["Bike"] = {
+"Trustyo",
+},
+["Shayomi"] = {
+"Pistacho",
+},
+["Emerald Kings"] = {
+"Haviturwaydk",
+"Deathwaffles",
+"Haphaestoz",
+"Ribs",
+"Resher",
+"Lannistro",
+"Capwaffles",
+},
+["The Weave"] = {
+"Tydoras",
+},
+["Magnetic North"] = {
+"Shanks",
+},
+["Elohim"] = {
+"Vovôzão",
+},
+["Goat Squad"] = {
+"Muholii",
+},
+["Fat kids cant LOS"] = {
+"Badrogue",
+},
+["Quei Quei"] = {
+"Brbelmont",
+},
+["Gorilla Gang"] = {
+"Zauvx",
+},
+["New Embaari Collective"] = {
+"Ezraad",
+},
+["Gank Gang"] = {
+"Gank",
+},
+["Soul Eater"] = {
+"Elianira",
+},
+["Dark Order"] = {
+"Doomflounder",
+},
+["Misfit Isle"] = {
+"Gigachadqt",
+},
+["Bob Salami"] = {
+"Otsra",
+},
+["Rare Art Traders"] = {
+"Kamìll",
+},
+["Beyond The Night"] = {
+"Sämyaza",
+},
+["Empty Knights"] = {
+"Derpee",
+"Ämbrosius",
+},
+["Recluse"] = {
+"Slipstreamx",
+},
+["Inspiration"] = {
+"Evorman",
+"Gunderbok",
+"Binstrasza",
+"Gloisa",
+"Deïrdre",
+"Starrysoul",
+},
+["Hel Maor"] = {
+"Cptnanners",
+},
+["Just Wipe It"] = {
+"Darkecho",
+},
+["INVICTUS HORDE"] = {
+"Aeledry",
+},
+["Da Mojo"] = {
+"Kureru",
+},
+["Rain"] = {
+"Kabetogama",
+},
+["Sweaty Anime Thighs"] = {
+"Bodvine",
+},
+["Unhinged"] = {
+"Caledas",
+},
+["Lair of Larceny"] = {
+"Santhorel",
+},
+["Something Witty Is Taken"] = {
+"Ebrektharion",
+},
+["An Assembled Reality"] = {
+"Kindboy",
+},
+["BLOODTHIRSTY SPACE GOATS"] = {
+"Hynnlan",
+},
+["Lootbusters"] = {
+"Wheeled",
+"Shartbarrage",
+},
+["Adeptus Astartes"] = {
+"Ryukon",
+"Tyrnara",
+"Myrostril",
+},
+["La Horda"] = {
+"Gsamsa",
+"Dakara",
+},
+["Primordial Malice"] = {
+"Taboner",
+},
+["The Randy Dandies"] = {
+"Saraji",
+"Philswift",
+},
+["Blaze of Glory"] = {
+"Luccyah",
+},
+["Nostalgic"] = {
+"Incantor",
+},
+["Van der Ground"] = {
+"Desventura",
+},
+["Vae Victis"] = {
+"Myumi",
+},
+["Angels of Azeroth"] = {
+"Undertoddy",
+},
+["Gimmick"] = {
+"Rayzeus",
+},
+["What I ve Done"] = {
+"Kaamodora",
+},
+["Shadows of the Mast"] = {
+"Helanni",
+"Pandamail",
+},
+["Broken Eclipse"] = {
+"Soladrian",
+},
+["Anti Instrumental"] = {
+"Goated",
+},
+["Introspective"] = {
+"Oldgoatdruid",
+"Hornny",
+"Thundachud",
+},
+["Bunch of Misfits"] = {
+"Faedorah",
+},
+["Dirt League"] = {
+"Fearpaws",
+},
+["The Øld Gods"] = {
+"Holygodzilla",
+"Iaintlyin",
+"Ultratim",
+"Riddim",
+"Balzuno",
+"Jackburtn",
+},
+["Timeline"] = {
+"Keloritas",
+},
+["Nerdy Shapes"] = {
+"Valcore",
+},
+["Intensify"] = {
+"Sanira",
+},
+["Pensive"] = {
+"Oakenbow",
+},
+["ØRDER ØF LØTUS"] = {
+"Wårvål",
+},
+["Brethren of Blood"] = {
+"Caled",
+"Divineinfekt",
+"Windolick",
+"Grimmlocker",
+"Paruhxy",
+"Prettywoman",
+"Gimmeursoul",
+"Elwind",
+"Emiryia",
+"Phatpandä",
+"Talranir",
+"Gælenn",
+"Hectiç",
+"Kiria",
+},
+["Emerald Dream Swim Team"] = {
+"Belythara",
+},
+["Booyakasha"] = {
+"Toiletwatah",
+},
+["The Highlords"] = {
+"Dadawg",
+},
+["Ironsworn Regiment"] = {
+"Derkomai",
+"Shadowfixx",
+"Knabble",
+"Elaynuh",
+"Freyaexotic",
+"Trïbe",
+"Kylmeria",
+"Varyags",
+"Dawnscum",
+"Tkae",
+"Släytaniçk",
+"Smashinkeys",
+"Grumples",
+"Jalagnivayu",
+},
+["What was bro"] = {
+"Biofrostxz",
+},
+["Arcadia Gaming HF"] = {
+"Sinjynn",
+},
+["The Wild Wolf Lotus"] = {
+"Moonkirin",
+},
+["Drunken Dwarf Tossers"] = {
+"Pog",
+},
+["Amberforged Disciples"] = {
+"Krongore",
+},
+["OKStupid"] = {
+"Julainara",
+},
+["Order of Crows and Fey"] = {
+"Bádussy",
+},
+["La Gran Fogata"] = {
+"Galahadis",
+},
+["Stupid Fat Hobbits"] = {
+"Daywarrior",
+"Ddepda",
+},
+["Weatherlight"] = {
+"Jeanleon",
+},
+["Azeroths Kitchen"] = {
+"Pumadeadshot",
+},
+["Reluctant Badgers"] = {
+"Honn",
+},
+["hey im mvp"] = {
+"Sanzy",
+},
+["Happy Little Clouds"] = {
+"Rawlow",
+},
+["Guildslayer"] = {
+"Sacine",
+},
+["Boosted"] = {
+"Chetto",
+},
+["Confuse and Conquer"] = {
+"Dragonsniper",
+},
+["Hawt n Hordy"] = {
+"Rikkaz",
+},
+["Talent"] = {
+"Bountykiller",
+},
+["Bird Bath Submarine"] = {
+"Touchpp",
+"Stroner",
+},
+["Garahal"] = {
+"Kangpow",
+},
+["Kinkou Gaming"] = {
+"Copetito",
+},
+["Nap Time"] = {
+"Yorgen",
+},
+["The Violet Reach"] = {
+"Nekillikk",
+"Thecooler",
+},
+["Lethal Shroom"] = {
+"Crewlio",
+"Aquahektik",
+},
+["Inspire"] = {
+"Zephurry",
+},
+["Bricked"] = {
+"Goonstacks",
+},
+["The Defias Renegades"] = {
+"Cherrykisses",
+},
+["Iron Serpents"] = {
+"Shaudarine",
+"Fadehoof",
+},
+["Skyhold"] = {
+"Tengubi",
+},
+["The Massacre"] = {
+"Lucié",
+},
+["LUMINARIES"] = {
+"Ðragùn",
+},
+["Ez Bois"] = {
+"Chiropracteu",
+},
+["Bill Murray"] = {
+"Hardru",
+},
+["Demonìc"] = {
+"Daníel",
+"Ðäniel",
+},
+["Mythic"] = {
+"Summannuz",
+"Galena",
+},
+["Three Sheets to the Wind"] = {
+"Mcmannas",
+"Amygdoloid",
+"Sargonax",
+},
+["Os Filhos de Lothar"] = {
+"Moonwhisp",
+},
+["Infernum"] = {
+"Hornhollio",
+},
+["Pleasant Hands"] = {
+"Gindor",
+"Littlecasper",
+"Kénpachi",
+"Zeroholypwr",
+"Funkjunkee",
+},
+["Uninspired"] = {
+"Klaudiusz",
+},
+["currents"] = {
+"Shawts",
+"Saudiwarlord",
+"Largeoilrig",
+},
+["Destromath Dark Talons"] = {
+"Nalthenion",
+},
+["Hellions in a Halfshell"] = {
+"Athrael",
+"Yxira",
+"Cascadea",
+},
+["wowzers"] = {
+"Treësum",
+},
+["Rainbow Kitten Surprise"] = {
+"Daido",
+},
+["The Iron Hand"] = {
+"Dkay",
+},
+["Sardaukar"] = {
+"Feiji",
+},
+["Restless Regression"] = {
+"Earthguud",
+},
+["Body Pull"] = {
+"Paalm",
+},
+["Alliance Immortal"] = {
+"Emew",
+},
+["PuffMaster"] = {
+"Bellize",
+},
+["forever sixteen"] = {
+"Dwerty",
+"Clerns",
+},
+["Fight Or Die"] = {
+"Shimsacs",
+},
+["Assault"] = {
+"Elepheagle",
+},
+["mind your business"] = {
+"Akenò",
+},
+["This Is The One"] = {
+"Taurfee",
+"Sätorï",
+"Fungg",
+"Bread",
+},
+["Raw Dog Dungeon Delvers"] = {
+"Grimlaura",
+},
+["Socratic"] = {
+"Mednayakiska",
+},
+["Misfits"] = {
+"Voodrookin",
+"Speshl",
+"Thoore",
+"Flikip",
+"Tyrinesong",
+},
+["Nightshade"] = {
+"Jaraxlle",
+"Ramaya",
+"Yoshiko",
+},
+["Helldawn"] = {
+"Joýboy",
+},
+["Crimson Shrike Company"] = {
+"Lanlamai",
+},
+["Death Murlocs"] = {
+"Woeishe",
+},
+["Controller Player BTW"] = {
+"Controllerdh",
+},
+["Hands are for Hugging"] = {
+"Kalya",
+},
+["Bully Squad"] = {
+"Proveit",
+"Pwnestabetv",
+},
+["Hold My Bèer"] = {
+"Göktug",
+},
+["I Touch my Guildmates"] = {
+"Lakopriest",
+},
+["LAgamers"] = {
+"Kënpachiï",
+},
+["Tearaway"] = {
+"Onlytrollz",
+"Arieus",
+"Grimcrukash",
+},
+["Oathkeeper"] = {
+"Vaethen",
+},
+["Cry of the Phoenix"] = {
+"Jhaggri",
+},
+["Nokturnal"] = {
+"Kashkash",
+},
+["Horde Go Face"] = {
+"Cayleigh",
+},
+["chop city"] = {
+"Illwilliam",
+},
+["Rinse and Repeat"] = {
+"Kelinaria",
+},
+["Cryptids League"] = {
+"Drualeaf",
+},
+["Dusk"] = {
+"Nightlich",
+},
+["MidLife Crisis"] = {
+"Ikeelu",
+},
+["Dark Star"] = {
+"Solaraelle",
+},
+["THE ALLIED FORCES"] = {
+"Horuxw",
+},
+["Wrinkly Smooth Brain"] = {
+"Corbeep",
+},
+["The Saddest Boys"] = {
+"Mooligion",
+"Tennyan",
+"Chrostopher",
+},
+["School of the Viper"] = {
+"Medusa",
+},
+["Universal SpellCare"] = {
+"Cmdrwar",
+},
+["Testemunhas de Geodude"] = {
+"Mavisvmlion",
+},
+["Zi Ji Ren"] = {
+"Kooindahhm",
+},
+["Out of Mana"] = {
+"Mossback",
+},
+["Something Original"] = {
+"Doozyhead",
+},
+["Great Khans"] = {
+"Udhir",
+},
+["Asgard"] = {
+"Parshendu",
+"Tavradyss",
+"Quell",
+"Bucktampa",
+"Llillyth",
+},
+["Space Vandals"] = {
+"Nehri",
+"Magdayr",
+},
+["Ten Dollar Dirty Horde"] = {
+"Captinfeo",
+},
+["House Husbands"] = {
+"Veserath",
+},
+["ON SIGHT"] = {
+"Vaershamwow",
+},
+["Eagle Fang Karate"] = {
+"Exuperjun",
+},
+["The Zodiac Society"] = {
+"Drendre",
+},
+["Legion of Misfits"] = {
+"Yoleisi",
+},
+["Final Chapter"] = {
+"Molokozen",
+},
+["Tax Evaders Anonymous"] = {
+"Largeliver",
+},
+["The Forsaken Fate"] = {
+"Haides",
+},
+["The Depraved"] = {
+"Kretimyz",
+"Phylap",
+"Mulhwa",
+"Rokenloz",
+"Crookp",
+"Pantsoffnow",
+"Chase",
+},
+["For the Herd"] = {
+"Tyinidar",
+"Holymoldy",
+"Popso",
+"Fuegogordita",
+},
+["Handicap Hangtime"] = {
+"Dârkstar",
+},
+["Astral"] = {
+"Wakethelight",
+},
+["Justice"] = {
+"Valthenn",
+},
+["Ascended"] = {
+"Badplayér",
+"Kiarrahh",
+"Leuonidusz",
+},
+["WowAcademy"] = {
+"Mardúk",
+},
+["Lunaris"] = {
+"Badluckmurph",
+},
+["Go Big or Go Gnome"] = {
+"Spookymeow",
+"Jinuda",
+"Asrotarl",
+"Miagoma",
+"Vicvinegãr",
+"Huehoney",
+"Preachersbae",
+},
+["Conclave Of Cool"] = {
+"Luastrasza",
+"Platina",
+"Nirazar",
+"Amnond",
+"Ðeadpool",
+"Voror",
+},
+["Slightly Twisted"] = {
+"Aelyth",
+},
+["Team Phoenix"] = {
+"Starfall",
+},
+["Malice Aforethought"] = {
+"Corben",
+},
+["Pugaholic Annonymous"] = {
+"Bigmarsh",
+},
+["Sacred Grove"] = {
+"Gileath",
+"Og",
+"Halidan",
+},
+["The Last Pull"] = {
+"Mikehanchó",
+},
+["The Khals of Kalimdor"] = {
+"Longdruid",
+},
+["Boas Vindas"] = {
+"Platinhoyt",
+},
+["A Little Pud"] = {
+"Dip",
+},
+["Point of No Return"] = {
+"Garbanzò",
+},
+["Night Shift Airlines"] = {
+"Bacne",
+},
+["Vhallas Rage"] = {
+"Bamboozooka",
+},
+["Pylon"] = {
+"Daywoman",
+},
+["thor is hear"] = {
+"Lidrelithela",
+},
+["Echoes of Eternal Life"] = {
+"Hanöver",
+},
+["Pure of Heart"] = {
+"Goonda",
+},
+["Pluck"] = {
+"Dräxthed",
+"Tacostamp",
+},
+["Spiral Out"] = {
+"Targdaren",
+"Eyecandyandy",
+"Kasvoker",
+"Leathersmith",
+"Thianir",
+},
+["The DeathGuard"] = {
+"Ponderbunny",
+"Graéme",
+},
+["Angels of Vengeance"] = {
+"Letara",
+},
+["rainbow cat"] = {
+"Íllidan",
+},
+["Kinda Serious"] = {
+"Azilade",
+},
+["Chimera"] = {
+"Mordlin",
+},
+["Mad Hatter Society"] = {
+"Baldguy",
+},
+["Pretty Not Bad"] = {
+"Myrtas",
+},
+["Antiquated Adventurers"] = {
+"Ginaera",
+},
+["The Chuddly Butterfinger"] = {
+"Huntergumy",
+},
+["Shadow Word Depression"] = {
+"Januvia",
+},
+["Pwnography"] = {
+"Qva",
+},
+["Wayward Enforcers"] = {
+"Donniedead",
+},
+["Infamous"] = {
+"Rocklóck",
+},
+["CGRECAG"] = {
+"Mangangasø",
+},
+["Fates Loom"] = {
+"Stimchek",
+},
+["Move Lich Get Out Da Way"] = {
+"Artrite",
+},
+["The Bear Cave"] = {
+"Kalgalar",
+},
+["No Sweat"] = {
+"Liyf",
+"Chiio",
+"Vicinne",
+},
+["ALL SASS NO BRAKES"] = {
+"Khorlane",
+},
+["Blood Raider"] = {
+"Bublicious",
+},
+["Two and a Half Men"] = {
+"Indicahealz",
+},
+["Firmly Grasp It"] = {
+"Twelveincher",
+},
+["Warbringer"] = {
+"Banhundo",
+},
+["Nightcore"] = {
+"Maegeri",
+"Waffleninja",
+},
+["Lúxor"] = {
+"Llorisz",
+},
+["Dreadlords"] = {
+"Lilcreature",
+},
+["HORDE DECIMATORS"] = {
+"Kyedae",
+},
+["Darklords"] = {
+"Enginenonine",
+},
+["Sarcastic"] = {
+"Morocrost",
+"Jazzydk",
+"Tangtang",
+"Leversfolly",
+},
+["Mystical Mayhem"] = {
+"Blackheart",
+},
+["Feud"] = {
+"Igotmooves",
+"Lanithdrael",
+},
+["Green Dragon Tavern"] = {
+"Bounyballzz",
+},
+["Famiglia di Ythrl"] = {
+"Trollsister",
+},
+["ABAP"] = {
+"Fuup",
+},
+["grind dont stop"] = {
+"Doomdelay",
+"Kruschlulu",
+},
+["Era Melhor Ter Pugado"] = {
+"Druidzita",
+},
+["Momentum"] = {
+"Megabitxx",
+},
+["Orgrimmar Cigar Club"] = {
+"Kielee",
+},
+["purple drank"] = {
+"Keele",
+"Mazzarati",
+},
+["Salt Distributors"] = {
+"Luczid",
+},
+["Out of Focus"] = {
+"Jøhnathan",
+},
+["Assorted Doom"] = {
+"Ornitaan",
+"Fleevin",
+},
+["Cataverse Gaming"] = {
+"Seklut",
+},
+["Nice Style"] = {
+"Missingtrap",
+},
+["Nïghts Möön"] = {
+"Ryostriel",
+},
+["Is Probably AFK"] = {
+"Phayde",
+},
+["Temptation Awaits"] = {
+"Massacsham",
+},
+["Ek Balam"] = {
+"Liw",
+},
+["Less Serious Dudes"] = {
+"Flylo",
+},
+["Handle It"] = {
+"ßovice",
+},
+["Halls of Warcraft"] = {
+"Raylazeti",
+"Scrimpy",
+"Wafflecups",
+},
+["Angle of Repose"] = {
+"Alpenglow",
+},
+["Echoes of the Horde"] = {
+"Earfquak",
+"Namtär",
+"Nidhoggor",
+"Sectional",
+"Wychfire",
+"Moguul",
+"Deciuss",
+},
+["A History of Violence"] = {
+"Archiemillii",
+},
+["Al Grito de Guerra"] = {
+"Rainseeder",
+},
+["Bring Tha Ruckus"] = {
+"Bigmacmeals",
+},
+["Sanctuary"] = {
+"Kumo",
+},
+["Minions Of Mayhem"] = {
+"Jèsûs",
+},
+["serluz"] = {
+"Kardraky",
+},
+["dragons of the mist"] = {
+"Domoromo",
+},
+["Off Cooldown"] = {
+"Drunkenmaste",
+"Snuflapogus",
+},
+["Morning Mayhem"] = {
+"Daritai",
+},
+["Avengers of Evil"] = {
+"Allykat",
+},
+["High Ground"] = {
+"Bestiamanía",
+},
+["Máfia do Pão de Queijo"] = {
+"Allessiia",
+},
+["Sticker Book"] = {
+"Supernovas",
+},
+["Razor Hill Outriders"] = {
+"Orangorehoof",
+},
+["Guardian of GHanir"] = {
+"Mooncharm",
+"Vara",
+"Kynareith",
+},
+["Happy Hour"] = {
+"Falauane",
+},
+["Misery Loves Company"] = {
+"Autali",
+},
+["FOR BREAKFAST"] = {
+"Aiola",
+},
+["As Themselves"] = {
+"Rawcklee",
+"Faildraer",
+"Falgath",
+},
+["Troll Town"] = {
+"Masako",
+},
+["Titan Werks"] = {
+"Wyrmrune",
+"Diox",
+"Kirina",
+"Nerfbat",
+"Kedaras",
+"Yllisvyn",
+"Chodé",
+},
+["UwU Club"] = {
+"Lustro",
+},
+["Magic Community"] = {
+"Dimly",
+},
+["Akina Downhill"] = {
+"Cheeji",
+},
+["Unicorns and Rainbows"] = {
+"Looff",
+},
+["House Stalwart"] = {
+"Rytora",
+},
+["Quarantined in Azeroth"] = {
+"Ebonrock",
+},
+["Means to an End"] = {
+"Brigid",
+"Littylock",
+},
+["Solution"] = {
+"Alesanà",
+},
+["Next"] = {
+"Ichinawa",
+},
+["The Kaldorei"] = {
+"Elethen",
+},
+["The Guard"] = {
+"Sakèsama",
+"Kafritz",
+"Ðerivious",
+"Pawtyhard",
+},
+["MAGIC"] = {
+"Bloodandsand",
+},
+["Unholy Legion"] = {
+"Sass",
+},
+["Glory Hole"] = {
+"Mylfslayer",
+"Dilfblaster",
+},
+["Maerics Merry Men"] = {
+"Mongaku",
+"Kandenar",
+"Renká",
+"Maerivor",
+},
+["CGRECAA"] = {
+"Loraden",
+"Afulover",
+"Kohvoa",
+},
+["The Death Merchants"] = {
+"Frédouebest",
+},
+["Morganized Crime"] = {
+"Rlytank",
+},
+["The Meme Team"] = {
+"Grayfoxiest",
+},
+["Descent"] = {
+"Zxen",
+},
+["Brain Rot"] = {
+"Weshifu",
+},
+["Dopamine"] = {
+"Stendarr",
+},
+["Parliament"] = {
+"Budian",
+},
+["Total Regard"] = {
+"Gingrbread",
+},
+["Get Better"] = {
+"Oxf",
+},
+["Heightened Senses"] = {
+"Serachia",
+},
+["Menagerie"] = {
+"Tydridresh",
+},
+["Elite Guard"] = {
+"Voidbbq",
+},
+["Wyrmwood"] = {
+"Zhyn",
+},
+["The Training Arc"] = {
+"Tarykk",
+},
+["WoW Made Easy"] = {
+"Scynnful",
+},
+["Our Legacy"] = {
+"Redmont",
+},
+["Big Dogs"] = {
+"Theldren",
+},
+["Old Bloodz"] = {
+"Dukington",
+},
+["Spartans Creed"] = {
+"Wurdalocke",
+"Stonkus",
+},
+["Hit your buttons"] = {
+"Randomone",
+},
+["Twisted Shadows"] = {
+"Featheris",
+},
+["First Regiment"] = {
+"Bulk",
+"Elithiri",
+},
+["Extra Medium Sausages"] = {
+"Ibedotn",
+},
+["Dark Conviction"] = {
+"Faasnu",
+},
+["Internet Explorers"] = {
+"Apollonius",
+},
+["Nightstalkers"] = {
+"Jaeni",
+},
+["girls"] = {
+"Krucíal",
+},
+["IMPACT"] = {
+"Jessrabit",
+},
+["Bad Reputation"] = {
+"Chanoue",
+},
+["Tactical Death"] = {
+"Nylania",
+},
+["Carebear Warfare"] = {
+"Belenda",
+},
+["MORDOR"] = {
+"Swolé",
+},
+["Horde Disposal Inc"] = {
+"Cedricus",
+},
+["Perdition"] = {
+"Gigglestoo",
+},
+["infinitas immortalis"] = {
+"Perculas",
+},
+["PvP Ganksters"] = {
+"Darthflair",
+},
+["Baphomets Libertines"] = {
+"Eragan",
+},
+["Tribunal de Los Caídos"] = {
+"Lythara",
+},
+["My Thicc Raiders"] = {
+"Dezshadow",
+},
+["Short Bus Gaming"] = {
+"Steezus",
+},
+["Solrain Navy"] = {
+"Lishrath",
+},
+["House Dragonmoon"] = {
+"Painpanda",
+},
+["Elune Boys"] = {
+"Skunk",
+},
+["Resilience Pride"] = {
+"Ethiël",
+},
+["nOtMyKeYnOtMyPrObLeM"] = {
+"Terribletime",
+},
+["Winners Club"] = {
+"Garosh",
+},
+["Is Probably Drunk"] = {
+"Veltrix",
+},
+["Lich Kings Descendants"] = {
+"Usia",
+},
+["ndvr"] = {
+"Runeidk",
+},
+["Armagedon"] = {
+"Müzan",
+},
+["Shadow Order"] = {
+"Larz",
+},
+["Eternal Damnation"] = {
+"Saroo",
+},
+["Hol up Hol up WeDemBoyz"] = {
+"Simppa",
+},
+["The Undecided"] = {
+"Athenea",
+},
+["Bremerton Inc"] = {
+"Sapillion",
+},
+["Chaotic"] = {
+"Purevolume",
+"Lupapriest",
+},
+["Pure Girth"] = {
+"Prïncenuada",
+},
+["Matadores crew"] = {
+"Eltaurensito",
+},
+["Worldfire"] = {
+"Zonnas",
+},
+["Vitalis"] = {
+"Mamasitalove",
+"Thorodynson",
+},
+["La Pandilla Mantequilla"] = {
+"Aronubis",
+},
+["Our Parents Dont Love Us"] = {
+"Tyroe",
+},
+["The Elven Empire"] = {
+"Nuand",
+},
+["Purple Leaf"] = {
+"Bigdøg",
+},
+["Chicken Nuggie Enjoyers"] = {
+"Kríshna",
+},
+["Myth"] = {
+"Bronan",
+},
+["Eternity"] = {
+"Huntbegins",
+},
+["Forbidden"] = {
+"Lumasria",
+},
+["DISARMING MAGE"] = {
+"Tazw",
+},
+["Wings Of Justice"] = {
+"Xicot",
+},
+["Work and Income"] = {
+"Kytted",
+},
+["NOT FOR HARD CORE PLAYER"] = {
+"Hazaahh",
+},
+["Interrupt Rotation"] = {
+"Canimilkthat",
+},
+["Divine Descent"] = {
+"Coggi",
+},
+["Tolerance"] = {
+"Buqiangbuwan",
+},
+["Alliance Vanguard"] = {
+"Spiner",
+"Excodë",
+"Bløm",
+"Rickdiggins",
+"Saccharina",
+"Ornir",
+"Raylyth",
+"Kalibast",
+"Hêalingdêath",
+},
+["Firestorm Order"] = {
+"Kìra",
+},
+["Hammer of Justice"] = {
+"Cimiralith",
+},
+["Murderville"] = {
+"Pericardium",
+},
+["Primal Order"] = {
+"Enerchi",
+},
+["Nam Tenuis"] = {
+"Freddragon",
+},
+["Longhorns"] = {
+"Sakuraarc",
+},
+["Casual"] = {
+"Smashomon",
+},
+["War within us All"] = {
+"Linnissa",
+},
+["Midnight Release"] = {
+"Kullz",
+"Ezmagez",
+},
+["Bloodmoon"] = {
+"Bloodwolves",
+},
+["Anxiety"] = {
+"Wrraith",
+},
+["Unguided"] = {
+"Tonerro",
+},
+["Quinto Afixo"] = {
+"Azashoryo",
+},
+["Secret Formula"] = {
+"Sentai",
+"Biggax",
+"Zugpug",
+"Dekadenzz",
+},
+["Decent"] = {
+"Lyla",
+"Heyöka",
+},
+["Glitched"] = {
+"Psyclo",
+},
+["Salty Sea Doggos"] = {
+"Swampybob",
+"Symraeth",
+"Jayytrees",
+"Ferromaljin",
+"Awwsht",
+},
+["Seems Good"] = {
+"Saekmis",
+},
+["Acquired Tastes"] = {
+"Ahoto",
+},
+["lIIllIlIIllIIllIIllIIllI"] = {
+"Vibekitten",
+},
+["Elevate"] = {
+"Grilleddh",
+"Girthybilbo",
+"Professorcat",
+"Novokain",
+"Koalaman",
+"Wopperunit",
+"Dontworryz",
+"Zhanecks",
+"Ieatrocks",
+"Catastrøphe",
+},
+["TheThrobbinGoblin"] = {
+"Grammik",
+},
+["Honeywood"] = {
+"Snackos",
+},
+["Halal Snack Pack"] = {
+"Necrofeelio",
+},
+["The Bois"] = {
+"Yoinkyboi",
+},
+["BlackOrder"] = {
+"Burnee",
+},
+["The Crispy Boys"] = {
+"Brewthulhu",
+},
+["Eternal Pantheon"] = {
+"Guileos",
+},
+["HardMode EC"] = {
+"Skarlethx",
+},
+["Scandal"] = {
+"Jagwar",
+},
+["Arathi Gentlemens Club"] = {
+"Choob",
+},
+["Fail Raiders Anonymous"] = {
+"Takelma",
+"Tanrith",
+"Bellana",
+},
+["Jolwi"] = {
+"Khavattary",
+},
+["Expropriate"] = {
+"Fiskers",
+},
+["quacks"] = {
+"Arrowsman",
+"Scarebeast",
+"Expectnosoul",
+},
+["Lights Shadow"] = {
+"Rayngerie",
+},
+["Clown Town"] = {
+"Garbochev",
+"Garbaj",
+},
+["Squirrel Squad"] = {
+"Miguard",
+},
+["The Good ol Boys"] = {
+"Fizola",
+},
+["Build a Guild"] = {
+"Bustyourazz",
+},
+["Nothing Else Matters"] = {
+"Feixiu",
+"Nvenom",
+},
+["Last Seasons Pugs"] = {
+"Anassarel",
+},
+["Is Standing in Fire AFK"] = {
+"Khrantha",
+},
+["House Of Coldscale"] = {
+"Deadneighbor",
+},
+["Vigilants of Proudmoore"] = {
+"Handenprime",
+"Aerowyynne",
+"Gundwin",
+"Demunty",
+"Hellfrick",
+"Darsong",
+"Kaelstrasza",
+"Valthonis",
+"Ramsas",
+},
+["T R I B E"] = {
+"Altár",
+},
+["Love Is Your Boys"] = {
+"Zobakah",
+},
+["The fighting Irish"] = {
+"Bigblast",
+},
+["EZ"] = {
+"Galyne",
+},
+["Big Pumpers"] = {
+"Lezarius",
+},
+["Reborn From Ashes"] = {
+"Oblama",
+},
+["Downgraded to Casual"] = {
+"Windung",
+},
+["Uncanny"] = {
+"Kilthane",
+"Shiftedshape",
+},
+["Lucid"] = {
+"Tankypyro",
+},
+["The Raven Roost"] = {
+"Mirydia",
+},
+["Blatant Tyranny"] = {
+"Thephox",
+},
+["Nightmare"] = {
+"Veeveebot",
+"Sargeria",
+"Magnus",
+"Ardyr",
+},
+["Echoes of Eternity"] = {
+"Mintjello",
+},
+["Heist"] = {
+"Mistystorm",
+"Hotboysummer",
+},
+["Ruin"] = {
+"Momerda",
+},
+["Hollow Skull Clan"] = {
+"Bentry",
+},
+["Barnyardigans"] = {
+"Fizzspark",
+},
+["Nascent"] = {
+"Salshock",
+"Arthasnokov",
+"Sanriokitten",
+"Damio",
+"Illmage",
+"Braindamagex",
+"Ooges",
+"Andaray",
+"Herblye",
+},
+["is Kindred"] = {
+"Cornflakez",
+"Levanis",
+},
+["Savers"] = {
+"Lilygrace",
+},
+["Refuge"] = {
+"Kulbearus",
+},
+["Frostwolf"] = {
+"Zombyefula",
+},
+["Resilient Brotherhood"] = {
+"Sevroc",
+},
+["The Offspring"] = {
+"Vientofuria",
+},
+["StoneBreakers"] = {
+"Donvictorino",
+},
+["IttyBittyCrittyCommittee"] = {
+"Fluffaloo",
+},
+["Deathly Presence"] = {
+"Valdus",
+},
+["Humble"] = {
+"Porkihavoc",
+},
+["Healers Dead Again"] = {
+"Nøname",
+},
+["hate us cuz they aint us"] = {
+"Katatoníc",
+"Djh",
+},
+["Silver Wind Trading Co"] = {
+"Grumtharg",
+},
+["Nubby Nub Jrs"] = {
+"Makkonen",
+},
+["Militis Justica"] = {
+"Davyns",
+},
+["Betrayers Oath"] = {
+"Gildan",
+},
+["Millennium Library"] = {
+"Gearsmash",
+},
+["Sarambi Sorokue"] = {
+"Hatapyhu",
+},
+["Paramount"] = {
+"Intensearoma",
+},
+["Timeless Guardians"] = {
+"Fizzledoom",
+},
+["Perpetual Action"] = {
+"Apðcalypse",
+},
+["Lightning From Heaven"] = {
+"Nuzzle",
+},
+["Rock Hard"] = {
+"Dizeek",
+},
+["The Disciples of Zza"] = {
+"Vürden",
+},
+},
+["Moon Guard"] = {
+["Royal Apothecary Society"] = {
+"Autoheart",
+},
+["Rats with Party Hats"] = {
+"Jacqulyne",
+},
+["KK"] = {
+"Saibull",
+"Riverblume",
+"Floide",
+"Samoanslayer",
+},
+["Bored and Hungry"] = {
+"Psychomaiden",
+},
+},
+},
+["Powndcake - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Demolishes - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 26.31114387512207,
+["xOfs"] = -261.6889343261719,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Cyclonekk - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -137.9556121826172,
+["xOfs"] = -58.31107711791992,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["resetFix"] = true,
+["Klmekilk - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_Options"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -74.66661834716797,
+["xOfs"] = -78.93336486816406,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31.00000190734863,
+["xOfs"] = -31.00000190734863,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Kkmeki - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 88.50291442871094,
+["xOfs"] = 6.485747337341309,
+["point"] = "RIGHT",
+["relativePoint"] = "RIGHT",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Powndcake - Moon Guard"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -58.31112670898438,
+["xOfs"] = 46.9333610534668,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Smashest - Moon Guard"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 116.5554809570313,
+["xOfs"] = 19.9111213684082,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Meki - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_Options"] = {
+["yOfs"] = 10.24006462097168,
+["xOfs"] = 122.3713607788086,
+["point"] = "RIGHT",
+["relativePoint"] = "RIGHT",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -144.0915069580078,
+["xOfs"] = 151.4057769775391,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SGI_MiniMapButton"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "RIGHT",
+["relativePoint"] = "LEFT",
+},
+},
+["filters"] = {
+},
+},
+},
+["Furyfistss - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -137.2444915771484,
+["xOfs"] = 268.0888977050781,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+}

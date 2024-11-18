@@ -28,6 +28,145 @@ L.synchType = {
 	L["Список приглашенных"],
 }
 
+
+--[====[@version-classic@
+L.class = {
+	Druid = LOCALIZED_CLASS_NAMES_MALE.DRUID,
+	Hunter = LOCALIZED_CLASS_NAMES_MALE.HUNTER,
+	Mage = LOCALIZED_CLASS_NAMES_MALE.MAGE,
+	Paladin = LOCALIZED_CLASS_NAMES_MALE.PALADIN,
+	Priest = LOCALIZED_CLASS_NAMES_MALE.PRIEST,
+	Rogue = LOCALIZED_CLASS_NAMES_MALE.ROGUE,
+	Shaman = LOCALIZED_CLASS_NAMES_MALE.SHAMAN,
+	Warlock = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
+	Warrior = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
+}
+L.race = {
+	Horde = {
+		Orc = GetRaceName(2),	--	"Орк"
+		Tauren = GetRaceName(6),	--	"Таурен"
+		Troll = GetRaceName(8),	--	"Тролль"
+		Undead = GetRaceName(5),	--	"Нежить"
+	},
+	Alliance = {
+		Dwarf = GetRaceName(3),	--	"Дворф"
+		Gnome = GetRaceName(7),	--	"Гном"
+		Human = GetRaceName(1),	--	"Человек"
+		NightElf = GetRaceName(4),	--	"Ночной эльф"
+	},
+}
+--@end-version-classic@]====]
+--[====[@version-wrath@
+L.class = {
+	DeathKnight = LOCALIZED_CLASS_NAMES_MALE.DEATHKNIGHT,
+	Druid = LOCALIZED_CLASS_NAMES_MALE.DRUID,
+	Hunter = LOCALIZED_CLASS_NAMES_MALE.HUNTER,
+	Mage = LOCALIZED_CLASS_NAMES_MALE.MAGE,
+	Paladin = LOCALIZED_CLASS_NAMES_MALE.PALADIN,
+	Priest = LOCALIZED_CLASS_NAMES_MALE.PRIEST,
+	Rogue = LOCALIZED_CLASS_NAMES_MALE.ROGUE,
+	Shaman = LOCALIZED_CLASS_NAMES_MALE.SHAMAN,
+	Warlock = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
+	Warrior = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
+}
+L.race = {
+	Horde = {
+		Orc = GetRaceName(2),	--	"Орк"
+		Tauren = GetRaceName(6),	--	"Таурен"
+		Troll = GetRaceName(8),	--	"Тролль"
+		Undead = GetRaceName(5),	--	"Нежить"
+		BloodElf = GetRaceName(10),	--	"Эльф крови"
+	},
+	Alliance = {
+		Dwarf = GetRaceName(3),	--	"Дворф"
+		Gnome = GetRaceName(7),	--	"Гном"
+		Human = GetRaceName(1),	--	"Человек"
+		NightElf = GetRaceName(4),	--	"Ночной эльф"
+		Draenei = GetRaceName(11),	--	"Дреней"
+	},
+}
+--@end-version-wrath@]====]
+--@version-cata@
+L.class = {
+	DeathKnight = LOCALIZED_CLASS_NAMES_MALE.DEATHKNIGHT,
+	Druid = LOCALIZED_CLASS_NAMES_MALE.DRUID,
+	Hunter = LOCALIZED_CLASS_NAMES_MALE.HUNTER,
+	Mage = LOCALIZED_CLASS_NAMES_MALE.MAGE,
+	Paladin = LOCALIZED_CLASS_NAMES_MALE.PALADIN,
+	Priest = LOCALIZED_CLASS_NAMES_MALE.PRIEST,
+	Rogue = LOCALIZED_CLASS_NAMES_MALE.ROGUE,
+	Shaman = LOCALIZED_CLASS_NAMES_MALE.SHAMAN,
+	Warlock = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
+	Warrior = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
+}
+L.race = {
+	Horde = {
+		Orc = GetRaceName(2),	--	"Орк"
+		Tauren = GetRaceName(6),	--	"Таурен"
+		Troll = GetRaceName(8),	--	"Тролль"
+		Undead = GetRaceName(5),	--	"Нежить"
+		BloodElf = GetRaceName(10),	--	"Эльф крови"
+		Goblin = GetRaceName(9),	--	"Гоблин"
+	},
+	Alliance = {
+		Dwarf = GetRaceName(3),	--	"Дворф"
+		Gnome = GetRaceName(7),	--	"Гном"
+		Human = GetRaceName(1),	--	"Человек"
+		NightElf = GetRaceName(4),	--	"Ночной эльф"
+		Draenei = GetRaceName(11),	--	"Дреней"
+		Worgen = GetRaceName(22),	--	"Ворген"
+	},
+}
+--@end-version-cata@
+--[====[@retail@
+L.class = {
+	DeathKnight = LOCALIZED_CLASS_NAMES_MALE.DEATHKNIGHT,
+	DemonHunter = LOCALIZED_CLASS_NAMES_MALE.DEMONHUNTER,
+	Druid = LOCALIZED_CLASS_NAMES_MALE.DRUID,
+	Hunter = LOCALIZED_CLASS_NAMES_MALE.HUNTER,
+	Mage = LOCALIZED_CLASS_NAMES_MALE.MAGE,
+	Monk = LOCALIZED_CLASS_NAMES_MALE.MONK,
+	Paladin = LOCALIZED_CLASS_NAMES_MALE.PALADIN,
+	Priest = LOCALIZED_CLASS_NAMES_MALE.PRIEST,
+	Rogue = LOCALIZED_CLASS_NAMES_MALE.ROGUE,
+	Shaman = LOCALIZED_CLASS_NAMES_MALE.SHAMAN,
+	Warlock = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
+	Warrior = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
+	Evoker = LOCALIZED_CLASS_NAMES_MALE.EVOKER,
+}
+L.race = {
+	Horde = {
+		Orc = GetRaceName(2),	--	"Орк"
+		Tauren = GetRaceName(6),	--	"Таурен"
+		Troll = GetRaceName(8),	--	"Тролль"
+		Undead = GetRaceName(5),	--	"Нежить"
+		BloodElf = GetRaceName(10),	--	"Эльф крови"
+		Goblin = GetRaceName(9),	--	"Гоблин"
+		HightmountainTauren = GetRaceName(28),	--	"Таурен Крутогорья"
+		MagharOrc = GetRaceName(36),	--	"Маг'хар"
+		Nightborne = GetRaceName(27),	--	"Ночнорожденный"
+		Pandaren = GetRaceName(26),	--	"Пандарен"
+		ZandalariTroll = GetRaceName(31),	--	"Зандалар"
+		Vulpera = GetRaceName(35),	--	"Вульпера"
+		Dracthyr = GetRaceName(52),	--	"Драгтир"
+	},
+	Alliance = {
+		Dwarf = GetRaceName(3),	--	"Дворф"
+		Gnome = GetRaceName(7),	--	"Гном"
+		Human = GetRaceName(1),	--	"Человек"
+		NightElf = GetRaceName(4),	--	"Ночной эльф"
+		DarkIronDwarf = GetRaceName(34),	--	"Дворф из клана Черного Железа"
+		Draenei = GetRaceName(11),	--	"Дреней"
+		LightforgedDraenei = GetRaceName(30),	--	"Озаренный дреней"
+		Pandaren = GetRaceName(25),	--	"Пандарен"
+		VoidElf = GetRaceName(29),	--	"Эльф Бездны"
+		Worgen = GetRaceName(22),	--	"Ворген"
+		KulTiran = GetRaceName(32),	--	"Култирасец"
+		Mechagnome = GetRaceName(37),	--	"Механогном"
+		Dracthyr = GetRaceName(70),	--	"Драгтир"
+	},
+}
+--@end-retail@]====]
 L.femaleRace = {
 	Orc = L["Orc"],
 	Tauren = L["Tauren"],
@@ -46,79 +185,8 @@ L.femaleRace = {
 	VoidElf = L["VoidElf"],
 	KulTiran = L["KulTiran"],
 	Mechagnome = L["Mechagnome"],
+	Dracthyr = L["Dracthyr"],
 }
-
-L.class = {
-	DeathKnight = LOCALIZED_CLASS_NAMES_MALE.DEATHKNIGHT,
-	DemonHunter = LOCALIZED_CLASS_NAMES_MALE.DEMONHUNTER,
-	Druid = LOCALIZED_CLASS_NAMES_MALE.DRUID,
-	Hunter = LOCALIZED_CLASS_NAMES_MALE.HUNTER,
-	Mage = LOCALIZED_CLASS_NAMES_MALE.MAGE,
-	Monk = LOCALIZED_CLASS_NAMES_MALE.MONK,
-	Paladin = LOCALIZED_CLASS_NAMES_MALE.PALADIN,
-	Priest = LOCALIZED_CLASS_NAMES_MALE.PRIEST,
-	Rogue = LOCALIZED_CLASS_NAMES_MALE.ROGUE,
-	Shaman = LOCALIZED_CLASS_NAMES_MALE.SHAMAN,
-	Warlock = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
-	Warrior = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
-}
-L.race = {
-	Horde = {
-		Orc = GetRaceName(2),	--	"Орк"
-		Tauren = GetRaceName(6),	--	"Таурен"
-		Troll = GetRaceName(8),	--	"Тролль"
-		Undead = GetRaceName(5),	--	"Нежить"
-		BloodElf = GetRaceName(10),	--	"Эльф крови"
-		Goblin = GetRaceName(9),	--	"Гоблин"
-		HightmountainTauren = GetRaceName(28),	--	"Таурен Крутогорья"
-		MagharOrc = GetRaceName(36),	--	"Маг'хар"
-		Nightborne = GetRaceName(27),	--	"Ночнорожденный"
-		Pandaren = GetRaceName(26),	--	"Пандарен"
-		ZandalariTroll = GetRaceName(31),	--	"Зандалар"
-		Vulpera = GetRaceName(35),	--	"Вульпера"
-	},
-	Alliance = {
-		Dwarf = GetRaceName(3),	--	"Дворф"
-		Gnome = GetRaceName(7),	--	"Гном"
-		Human = GetRaceName(1),	--	"Человек"
-		NightElf = GetRaceName(4),	--	"Ночной эльф"
-		DarkIronDwarf = GetRaceName(34),	--	"Дворф из клана Черного Железа"
-		Draenei = GetRaceName(11),	--	"Дреней"
-		LightforgedDraenei = GetRaceName(30),	--	"Озаренный дреней"
-		Pandaren = GetRaceName(25),	--	"Пандарен"
-		VoidElf = GetRaceName(29),	--	"Эльф Бездны"
-		Worgen = GetRaceName(22),	--	"Ворген"
-		KulTiran = GetRaceName(32),	--	"Култирасец"
-		Mechagnome = GetRaceName(37),	--	"Механогном"
-	},
-}
---@non-retail@
-L.class = {
-	Druid = LOCALIZED_CLASS_NAMES_MALE.DRUID,
-	Hunter = LOCALIZED_CLASS_NAMES_MALE.HUNTER,
-	Mage = LOCALIZED_CLASS_NAMES_MALE.MAGE,
-	Paladin = LOCALIZED_CLASS_NAMES_MALE.PALADIN,
-	Priest = LOCALIZED_CLASS_NAMES_MALE.PRIEST,
-	Rogue = LOCALIZED_CLASS_NAMES_MALE.ROGUE,
-	Shaman = LOCALIZED_CLASS_NAMES_MALE.SHAMAN,
-	Warlock = LOCALIZED_CLASS_NAMES_MALE.WARLOCK,
-	Warrior = LOCALIZED_CLASS_NAMES_MALE.WARRIOR,
-}
-L.race = {
-	Horde = {
-		Orc = GetRaceName(2),	--	"Орк"
-		Tauren = GetRaceName(6),	--	"Таурен"
-		Troll = GetRaceName(8),	--	"Тролль"
-		Undead = GetRaceName(5),	--	"Нежить"
-	},
-	Alliance = {
-		Dwarf = GetRaceName(3),	--	"Дворф"
-		Gnome = GetRaceName(7),	--	"Гном"
-		Human = GetRaceName(1),	--	"Человек"
-		NightElf = GetRaceName(4),	--	"Ночной эльф"
-	},
-}
---@end-non-retail@
 
 L.femaleClass = {}
 for k,v in pairs(L.class) do
@@ -133,7 +201,7 @@ local size = L.settings.size
 L.race = L.race[UnitFactionGroup("player")]
 
 
-size.mainButtonsGRP = size.startScan + size.chooseInvites + size.settingsBtn
+size.mainButtonsGRP = size.startScan + size.settingsBtn
 size.mainCheckBoxGRP = math.max(size.backgroundRun, size.enableFilters, size.customListBtn)
 size.searchRangeGRP = math.max(size.lvlRange + size.raceFilterStart, size.searchInterval + size.classFilterStart)+30
 size.settingsCheckBoxGRP = math.max(size.addonMSG, size.systemMSG, size.sendMSG, size.minimapButton, size.rememberAll)
@@ -159,6 +227,8 @@ L.credits = {
 	{L["Перевод"].."-enUS", "brute95", "-", "-"},
 	{L["Перевод"].."-frFR", "Yazhura2017", "-", "-"},
 	{L["Перевод"].."-deDE", "iamcekay", "-", "-"},
+	{L["Перевод"].."-deDE", "Forge_User_70044994", "-", "-"},
+	{L["Перевод"].."-zhCN", "Sanmiao", "-", "-"},
 	{L["Тестирование"], "Shujin", "-", "-"},
 	{L["Тестирование"], "StreetX", "-", "-"},
 	{L["Тестирование"], "Мойгосподин", "-", "-"},

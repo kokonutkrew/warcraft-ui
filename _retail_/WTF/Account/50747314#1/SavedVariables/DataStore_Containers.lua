@@ -1,144 +1,342 @@
 
-DataStore_ContainersDB = {
-	["profileKeys"] = {
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-	},
-	["global"] = {
-		["Characters"] = {
-			["Default.Emerald Dream.Kokonutkiing"] = {
-				["lastUpdate"] = 1615451021,
-				["Containers"] = {
-					["Bag-3"] = {
-						["freeslots"] = 98,
-						["size"] = 98,
-					},
-					["Bag1"] = {
-						["rarity"] = 1,
-						["ids"] = {
-							6948, -- [1]
-							110560, -- [2]
-							113146, -- [3]
-							157022, -- [4]
-						},
-						["links"] = {
-							"|cffffffff|Hitem:6948::::::::19:265::75:::::|h[Hearthstone]|h|r", -- [1]
-							"|cffffffff|Hitem:110560::::::::19:265::11::1:28:2092:::|h[Garrison Hearthstone]|h|r", -- [2]
-							"|cff0070dd|Hitem:113146::::::::19:265::11:1:6691:2:9:13:28:1764:::|h[Karabor Sage Pendant]|h|r", -- [3]
-							"|cffffffff|Hitem:157022::::::::19:265::11::1:28:863:::|h[Letter from King Anduin Wrynn]|h|r", -- [4]
-						},
-						["freeslots"] = 6,
-						["icon"] = 133643,
-						["link"] = "|cffffffff|Hitem:157787::::::::19:265:::::::|h[Large Red Sack]|h|r",
-						["size"] = 10,
-					},
-					["Bag0"] = {
-						["freeslots"] = 19,
-						["size"] = 20,
-						["ids"] = {
-							[20] = 107461,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["links"] = {
-							[20] = "|cff9d9d9d|Hitem:107461::::::::19:265:::::::|h[Void Sands]|h|r",
-						},
-					},
-				},
-				["numFreeBagSlots"] = 25,
-				["numBagSlots"] = 30,
-			},
-			["Default.Emerald Dream.Buhbles"] = {
-				["lastUpdate"] = 1606767386,
-				["numFreeBagSlots"] = 19,
-				["Containers"] = {
-					["Bag-3"] = {
-						["size"] = 98,
-						["freeslots"] = 98,
-					},
-					["Bag0"] = {
-						["links"] = {
-							"|cffffffff|Hitem:6948::::::::1:1450::75:::::|h[Hearthstone]|h|r", -- [1]
-						},
-						["ids"] = {
-							6948, -- [1]
-						},
-						["size"] = 20,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 19,
-					},
-				},
-				["numBagSlots"] = 20,
-			},
-			["Default.Emerald Dream.Kokonutkween"] = {
-				["lastUpdate"] = 1608465662,
-				["Containers"] = {
-					["Bag-3"] = {
-						["size"] = 98,
-						["freeslots"] = 98,
-					},
-					["Bag0"] = {
-						["links"] = {
-							"|cffffffff|Hitem:6948::::::::11:1454::75:::::|h[Hearthstone]|h|r", -- [1]
-							"|cff0070dd|Hitem:174068::::::::11:1454::11::1:28:863:::|h[Mechagonian Tabard]|h|r", -- [2]
-							"|cffffffff|Hitem:157022::::::::11:1454::11::1:28:863:::|h[Letter from King Anduin Wrynn]|h|r", -- [3]
-							"|cff1eff00|Hitem:108918::::::::11:1454::11:1:3631:2:28:1764:9:10:::|h[Karabor Arcanist Rod]|h|r", -- [4]
-							"|cffffffff|Hitem:110560::::::::11:1454::11::1:28:2092:::|h[Garrison Hearthstone]|h|r", -- [5]
-						},
-						["ids"] = {
-							6948, -- [1]
-							174068, -- [2]
-							157022, -- [3]
-							108918, -- [4]
-							110560, -- [5]
-						},
-						["size"] = 20,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 15,
-					},
-					["Bag1"] = {
-						["rarity"] = 1,
-						["link"] = "|cffffffff|Hitem:157787::::::::10:1454:::::::|h[Large Red Sack]|h|r",
-						["size"] = 10,
-						["icon"] = 133643,
-						["freeslots"] = 10,
-					},
-				},
-				["numFreeBagSlots"] = 25,
-				["numBagSlots"] = 30,
-			},
-			["Default.Emerald Dream.Gl"] = {
-				["lastUpdate"] = 1615450800,
-				["numFreeBagSlots"] = 19,
-				["Containers"] = {
-					["Bag-3"] = {
-						["size"] = 98,
-						["freeslots"] = 98,
-					},
-					["Bag0"] = {
-						["links"] = {
-							"|cffffffff|Hitem:6948::::::::1:1444::75:::::|h[Hearthstone]|h|r", -- [1]
-						},
-						["ids"] = {
-							6948, -- [1]
-						},
-						["size"] = 20,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 19,
-					},
-				},
-				["numBagSlots"] = 20,
-			},
-		},
-		["Version"] = 1,
-	},
+DataStore_Containers_Characters = {
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+14261157891,
+14024114177,
+13807190017,
+[10] = 13809352705,
+},
+["link"] = "|cffffffff|Hitem:216653::::::::17:256:::::::::|h[]|h|r",
+["info"] = 4866763145504,
+["links"] = {
+"|cffffffff|Hitem:217608::::::::17:256:::::::::|h[Timeless Scroll of Battle Shout]|h|r",
+"|cff1eff00|Hitem:213991::::::::17:256::11:3:10598:10966:1502:2:9:17:28:2793:::::|h[Cloudscorcher's Hood]|h|r",
+"|cff1eff00|Hitem:210681::::::::17:256:::::::::|h[Chipped Quick Topaz]|h|r",
+[10] = "|cff1eff00|Hitem:210714::::::::17:256:::::::::|h[Chipped Deadly Sapphire]|h|r",
+},
+},
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:216653::::::::17:256:::::::::|h[]|h|r",
+["info"] = 4866763147552,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:216653::::::::17:256:::::::::|h[]|h|r",
+["info"] = 4866763147552,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:216653::::::::17:256:::::::::|h[]|h|r",
+["info"] = 4866763147552,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+13844742165,
+455344129,
+14261026818,
+14284488705,
+14197981185,
+13809549315,
+14280425480,
+nil,
+14442233858,
+14197653505,
+14197915650,
+14261092353,
+14280622081,
+14260961281,
+14197784577,
+13953662977,
+nil,
+13809418242,
+nil,
+14282129409,
+},
+["link"] = false,
+["info"] = 1696,
+["links"] = {
+"|cffffffff|Hitem:211254::::::::17:256:::::::::|h[Timerunner's Bandage]|h|r",
+"|cffffffff|Hitem:6948::::::::17:256:::::::::|h[Hearthstone]|h|r",
+"|cffffffff|Hitem:217606::::::::17:256:::::::::|h[Timeless Scroll of Fortitude]|h|r",
+"|cff1eff00|Hitem:217964::::::::17:256::14::1:28:2905:::::|h[Holy Martyr]|h|r",
+"|cff0070dd|Hitem:216644::::::::17:256:::::::::|h[Flawed Deadly Sapphire]|h|r",
+"|cff1eff00|Hitem:210717::::::::17:256:::::::::|h[Chipped Hungering Ruby]|h|r",
+"|cffffffff|Hitem:217902::::::::17:256:::::::::|h[Timerunner's Vial]|h|r",
+nil,
+"|cff1eff00|Hitem:220371::::::::17:256:::::::::|h[Chipped Versatile Diamond]|h|r",
+"|cff0070dd|Hitem:216639::::::::17:256:::::::::|h[Flawed Swift Opal]|h|r",
+"|cff0070dd|Hitem:216643::::::::17:256:::::::::|h[Flawed Quick Topaz]|h|r",
+"|cffffffff|Hitem:217607::::::::17:256:::::::::|h[Timeless Scroll of the Wild]|h|r",
+"|cffffffff|Hitem:217905::::::::17:256:::::::::|h[Timerunner's Draught of Health]|h|r",
+"|cffffffff|Hitem:217605::::::::17:256:::::::::|h[Timeless Scroll of Intellect]|h|r",
+"|cff0070dd|Hitem:216641::::::::17:256:::::::::|h[Flawed Hungering Ruby]|h|r",
+"|cff1eff00|Hitem:212916::::::::17:256::105::1:28:2905:::::|h[Frost Armor]|h|r",
+nil,
+"|cff1eff00|Hitem:210715::::::::17:256:::::::::|h[Chipped Masterful Amethyst]|h|r",
+nil,
+"|cffffffff|Hitem:217928::::::::17:256:::::::::|h[]|h|r",
+},
+},
+},
+["bagInfo"] = 146596,
+["lastUpdate"] = 1719852024,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+455344129,
+},
+["link"] = false,
+["info"] = 9888,
+["links"] = {
+"|cffffffff|Hitem:6948::::::::1:1447::75:::::::|h[Hearthstone]|h|r",
+},
+},
+},
+["bagInfo"] = 19476,
+["lastUpdate"] = 1720231063,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["links"] = {
+},
+["info"] = 140134847568,
+["link"] = "|cffffffff|Hitem:157787::::::::10:1449:::::::::|h[]|h|r",
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+455344129,
+},
+["links"] = {
+"|cffffffff|Hitem:6948::::::::10:1449::75:::::::|h[Hearthstone]|h|r",
+},
+["info"] = 9888,
+["link"] = false,
+},
+},
+["lastUpdate"] = 1720241813,
+["bagInfo"] = 29726,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+455344129,
+},
+["link"] = false,
+["info"] = 9888,
+["links"] = {
+"|cffffffff|Hitem:6948::::::::1:1446::75:::::::|h[Hearthstone]|h|r",
+},
+},
+},
+["bagInfo"] = 19476,
+["lastUpdate"] = 1722218000,
+},
 }
-DataStore_ContainersRefDB = {
-	["profileKeys"] = {
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-	},
+DataStore_Containers_Banks = {
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+}
+DataStore_Containers_Guilds = {
+}
+DataStore_Containers_Reagents = {
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+}
+DataStore_Containers_VoidStorage = {
+{
+},
+{
+},
+{
+},
+{
+},
+}
+DataStore_Containers_Keystones = {
+{
+},
+{
+},
+{
+},
+{
+},
+}
+DataStore_Containers_BankTypes = {
 }

@@ -1,8 +1,8 @@
-﻿## Interface: 11303
-## Title: Where To Gather Classic
+﻿## Interface: 40400
+## Title: Where To Gather Cataclysm Classic
 ## Notes: Adds a tooltip to crafting materials to let you know where you can gather them.
-## Author: Jack Thallon (Spiolex/Spiokra, Hellscream EU(retail)/Spiolex, Horde Mograine EU(classic))
-## Version: 1.0
+## Author: Jack Thallon (Spiolex/Spiokra, Hellscream EU(retail)/Dabbit, Alliance Nethergarde Keep EU)
+## Version: 4.0
 
 WhereToGatherHerbs.lua
 WhereToGatherMetals.lua
@@ -10,4 +10,6 @@ WhereToGatherLeather.lua
 WhereToGatherEnchanting.lua
 WhereToGatherCloth.lua
 WhereToGatherElemental.lua
+WhereToGatherGems.lua
+WhereToGatherInscription.lua
 WhereToGather.lua

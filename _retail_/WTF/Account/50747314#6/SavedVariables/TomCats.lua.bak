@@ -11,8 +11,14 @@ TomCats_Account = {
 ["iconScale"] = 0.8,
 },
 ["hallowsend"] = {
+["autoEnabled"] = true,
+["preferences"] = {
 },
-["lastExpirationWarning"] = 1731686368,
+["iconsEnabled"] = true,
+["iconScale"] = 0.8,
+["arrowEnabled"] = true,
+},
+["lastExpirationWarning"] = 1730276468,
 ["discoveriesResetCount"] = 0,
 ["noblegarden"] = {
 ["enabled"] = true,
@@ -22,7 +28,7 @@ TomCats_Account = {
 ["loveisintheair"] = {
 },
 ["discoveriesVersion"] = "0",
-["lastVersionSeen"] = "2.5.52",
+["lastVersionSeen"] = "NONE",
 ["preferences"] = {
 ["TomCats-HallowsEndMinimapButton"] = {
 ["hidden"] = false,
@@ -46,6 +52,7 @@ TomCats_Account = {
 ["hidden"] = false,
 ["position"] = -2.514,
 },
+["betaEnabled"] = false,
 ["AccessoryWindow"] = {
 ["primeGamingLoot"] = 3,
 ["blizzardOther"] = 3,
@@ -53,21 +60,15 @@ TomCats_Account = {
 ["snoozed"] = {
 },
 ["elementalStorms"] = 3,
-["timeRifts"] = 3,
-["treasureGoblin"] = 3,
-["WindowLocation"] = {
-"TOPLEFT",
-"UIParent",
-"TOPLEFT",
-1634.000854492188,
--800.0000305175781,
-},
-["twitchDrops"] = 3,
-["superbloom"] = 3,
 ["radiantEchoes"] = 3,
-["display"] = 100,
+["twitchDrops"] = 3,
+["WindowLocation"] = {
 },
-["betaEnabled"] = false,
+["display"] = 100,
+["superbloom"] = 3,
+["treasureGoblin"] = 3,
+["timeRifts"] = 3,
+},
 ["TomCats-LunarFestivalMinimapButton2023"] = {
 ["hidden"] = false,
 ["position"] = -2.514,
@@ -78,13 +79,13 @@ TomCats_Account = {
 ["filterOptions"] = {
 ["heirlooms"] = true,
 ["notCollected"] = true,
-["achievement"] = true,
-["appearances"] = true,
-["pets"] = true,
 ["mounts"] = true,
+["appearances"] = true,
+["achievement"] = true,
+["vendor"] = true,
 ["collected"] = true,
 ["toys"] = true,
-["vendor"] = true,
+["pets"] = true,
 },
 ["osd"] = {
 },

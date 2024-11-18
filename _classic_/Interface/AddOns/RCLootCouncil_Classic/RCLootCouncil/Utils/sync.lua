@@ -3,7 +3,7 @@
 -- 14/07/2017
 
 local _,addon = ...
-local LibDialog = LibStub("LibDialog-1.0")
+local LibDialog = LibStub("LibDialog-1.1")
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
 local AG = LibStub("AceGUI-3.0")
 local sync = {}
@@ -210,6 +210,7 @@ function sync:Spawn()
    if self.frame then return self.frame:Open() end
    self.syncType = "settings"
    local f = addon:CreateFrame("DefaultRCLootCouncilSyncFrame", "sync", L["RCLootCouncil - Synchronizer"], nil, 140)
+   addon.UI:RegisterForEscapeClose(f, function() end)
    f:SetWidth(350)
    local sel = AG:Create("Dropdown")
    sel:SetWidth(f.content:GetWidth()*0.4 - 20)

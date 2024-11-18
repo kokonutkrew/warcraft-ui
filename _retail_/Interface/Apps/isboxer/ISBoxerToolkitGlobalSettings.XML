@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ISBoxerToolkitGlobalSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="42">
+  <Image>
+    <Name>Line Formation pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Line Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>Flying V Formation pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Flying V Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>4 pt star Formation pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\4 pt star Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>#FF606060</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename />
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>96</Red>
+      <Green>96</Green>
+      <Blue>96</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>#FF404040</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename />
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>64</Red>
+      <Green>64</Green>
+      <Blue>64</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>#FF000000</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename />
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask />
+  </Image>
+  <Image>
+    <Name>ISBoxer logo</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\ISBoxer logo 48x48.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>key maps pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Key Maps On.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>repeater pressed</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Repeater On 2.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+    <ColorMask>
+      <Red>51</Red>
+      <Green>51</Green>
+      <Blue>51</Blue>
+    </ColorMask>
+  </Image>
+  <Image>
+    <Name>Line Formation</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Line Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>4 pt star Formation</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\4 pt star Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>Flying V Formation</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Flying V Formation.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>repeater off</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Repeater Off 2.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>repeater on</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Repeater On 2.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>key maps on</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Key Maps On.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <Image>
+    <Name>key maps off</Name>
+    <ImageSet>Default</ImageSet>
+    <Filename>C:\code\tools\other\blizzard\World of Warcraft\_retail_\Interface\Apps\isboxer\Scripts\ISBoxer Images\Key Maps Off.png</Filename>
+    <Crop>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Size>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Crop>
+  </Image>
+  <CompatibilityFlags>
+    <CompatibilityFlagInfo Flag="~" Behavior="Ignore" />
+    <CompatibilityFlagInfo Flag="RUNASADMIN" Behavior="Ignore" />
+    <CompatibilityFlagInfo Flag="DISABLEDXMAXIMIZEDWINDOWEDMODE" Behavior="Remove" />
+  </CompatibilityFlags>
+  <LastProfileFilename>ISBoxerToolkitProfile.XML</LastProfileFilename>
+  <LastMultiplePCHelperState>false</LastMultiplePCHelperState>
+  <UseInnerSpace64>false</UseInnerSpace64>
+  <LastWindowPlacement>
+    <flags>2</flags>
+    <showCmd>3</showCmd>
+    <ptMinPosition>
+      <X>-1</X>
+      <Y>-1</Y>
+    </ptMinPosition>
+    <ptMaxPosition>
+      <X>-1</X>
+      <Y>-1</Y>
+    </ptMaxPosition>
+    <rcNormalPosition>
+      <Location>
+        <X>2666</X>
+        <Y>408</Y>
+      </Location>
+      <Size>
+        <Width>3458</Width>
+        <Height>1018</Height>
+      </Size>
+      <X>2666</X>
+      <Y>408</Y>
+      <Width>3458</Width>
+      <Height>1018</Height>
+    </rcNormalPosition>
+  </LastWindowPlacement>
+  <LastMainSplitter>352</LastMainSplitter>
+  <LastBottomSplitter>294</LastBottomSplitter>
+  <LastLanguage>English (United States) (LCID:0409)</LastLanguage>
+  <NeverShowCPUThrottleForm>false</NeverShowCPUThrottleForm>
+  <NeverShowCompatibilityForm>false</NeverShowCompatibilityForm>
+  <NeverShowMultisamplingWarning>false</NeverShowMultisamplingWarning>
+  <NeverShowDxNothingVFXWarning>false</NeverShowDxNothingVFXWarning>
+</ISBoxerToolkitGlobalSettings>

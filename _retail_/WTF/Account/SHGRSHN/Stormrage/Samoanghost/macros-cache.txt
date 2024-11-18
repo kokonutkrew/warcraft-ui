@@ -1,0 +1,33 @@
+VER 3 0100000000000001 "/Rotation 1" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [@cursor] reset=20 eye beam, blade dance, metamorphosis, chaos nova, vengeful retreat, throw glaive, fel rush, the hunt, elysian decree, essence break, blade dance, immolation aura, fel rush, fel barrage
+END
+VER 3 0100000000000002 "Fel Rush" "INV_Misc_QuestionMark"
+#showtooltip fel rush
+/castsequence reset=10 fel rush, immolation aura
+END
+VER 3 0100000000000003 "Infernal Strike" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] infernal strike
+END
+VER 3 0100000000000004 "Metamorphosis" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] metamorphosis
+END
+VER 3 0100000000000005 "Nether Walk" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=180 the hunt, netherwalk
+END
+VER 3 0100000000000006 "Sigil of Flame" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] Sigil of Flame
+END
+VER 3 0100000000000007 "Sigil of Misery" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] sigil of misery
+END
+VER 3 0100000000000008 "Vengeful Retreat" "INV_Misc_QuestionMark"
+#showtooltip
+/use vengeful retreat
+/use throw glaive
+END

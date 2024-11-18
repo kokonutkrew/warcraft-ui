@@ -1,0 +1,2558 @@
+
+TRP3_AddonLocale = nil
+TRP3_Register = {
+["blockList"] = {
+},
+["character"] = {
+["Lynelledal-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0903083836d3ygT",
+["class"] = "MAGE",
+["msp"] = false,
+["gender"] = 3,
+["extendedVersion"] = "2.2.1",
+["race"] = "Human",
+["clientVersion"] = "3.0.2",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["classID"] = 8,
+},
+["Mistystorm-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "080121542455UV*",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["classID"] = 10,
+["isTrial"] = 0,
+},
+["Horordian-EmeraldDream"] = {
+["extended"] = 1045,
+["profileID"] = "0730152338xaf8*",
+["class"] = "HUNTER",
+["msp"] = false,
+["classID"] = 3,
+["race"] = "NightElf",
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["faction"] = "Alliance",
+["roleplayExperience"] = 1,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["gender"] = 2,
+},
+["Weixia-MoonGuard"] = {
+["extended"] = 0,
+["profileID"] = "0531183152HoAid",
+["class"] = "WARRIOR",
+["msp"] = false,
+["gender"] = 3,
+["race"] = "Pandaren",
+["client"] = "Total RP 3",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 1,
+},
+["Blawesum-EmeraldDream"] = {
+["extended"] = 1045,
+["profileID"] = "08162111221clV*",
+["class"] = "DEATHKNIGHT",
+["msp"] = false,
+["classID"] = 6,
+["extendedVersion"] = "2.2.1",
+["race"] = "NightElf",
+["clientVersion"] = "3.0.3",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["gender"] = 3,
+},
+["Jiahyu-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0522193037ZtmAc",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["classID"] = 9,
+["isTrial"] = 0,
+},
+["Kithrari-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "05230056076QmJ6",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 2,
+["clientVersion"] = "3.0.2",
+["isTrial"] = 0,
+["classID"] = 13,
+},
+["Nesilla-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0607144205AIAu*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 2,
+},
+["Birsae-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0517004221zp61N",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["classID"] = 10,
+["isTrial"] = 0,
+},
+["Lailys-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "11292044092Ukp*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 12,
+},
+["Chronobabe-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0203162749:Fvyf",
+["msp"] = false,
+["extendedVersion"] = "v-dev",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 2,
+["clientVersion"] = "-dev",
+["isTrial"] = 0,
+["classID"] = 13,
+},
+["Wokwizard-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0731212400a765*",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.2",
+["classID"] = 8,
+["isTrial"] = 0,
+},
+["Malgoryn-MoonGuard"] = {
+["extended"] = 0,
+["profileID"] = "0408193023cY4e*",
+["class"] = "MAGE",
+["msp"] = false,
+["gender"] = 2,
+["race"] = "DarkIronDwarf",
+["client"] = "Total RP 3",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 8,
+},
+["Oriori-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0817153716Zl4Id",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.2",
+["isTrial"] = 0,
+["classID"] = 2,
+},
+["Cedrith-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0406151439apvA*",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["classID"] = 3,
+["isTrial"] = 0,
+},
+["Marmelil-MoonGuard"] = {
+["clientVersion"] = "3.0.2",
+["isTrial"] = 0,
+["extended"] = 0,
+["profileID"] = "0216184152KUNa*",
+["roleplayExperience"] = 4,
+["client"] = "Total RP 3",
+["classID"] = 9,
+["msp"] = false,
+},
+["Babybrat-MoonGuard"] = {
+["clientVersion"] = "3.0.1",
+["isTrial"] = 0,
+["extended"] = 0,
+["profileID"] = "0807133910HLMm2",
+["roleplayExperience"] = 4,
+["client"] = "Total RP 3",
+["classID"] = 8,
+["msp"] = false,
+},
+["Miikaphim-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0929212716o26B*",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["classID"] = 12,
+["isTrial"] = 0,
+},
+["Ezraad-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "02102100560tJ2*",
+["classID"] = 2,
+["class"] = "PALADIN",
+["msp"] = false,
+["gender"] = 3,
+["clientVersion"] = "3.0.3",
+["extendedVersion"] = "2.2.1",
+["race"] = "LightforgedDraenei",
+["faction"] = "Alliance",
+["roleplayExperience"] = 2,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["guild"] = "New Embaari Collective",
+},
+["Ennerin-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0801154927KNoy*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 2,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 2,
+},
+["Dankovsky-MoonGuard"] = {
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["extended"] = 0,
+["profileID"] = "0817162609bq2PM",
+["roleplayExperience"] = 1,
+["client"] = "Total RP 3",
+["classID"] = 10,
+["msp"] = false,
+},
+["Riona-EmeraldDream"] = {
+["extended"] = 1045,
+["profileID"] = "0818195305YWt3b",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["classID"] = 2,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+["Ancoljo-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0612123100QyMI*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["classID"] = 10,
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["client"] = "TRP3: Extended",
+},
+["Nazanath-Aegwynn"] = {
+["isTrial"] = 0,
+["classID"] = 13,
+["extended"] = 0,
+["profileID"] = "1021133919SShq*",
+["roleplayExperience"] = 4,
+["client"] = "Total RP 3",
+["msp"] = false,
+["clientVersion"] = "3.0.2",
+},
+["Eeklipse-EmeraldDream"] = {
+["extended"] = 1045,
+["profileID"] = "08162111221clV*",
+["class"] = "MAGE",
+["msp"] = false,
+["gender"] = 3,
+["race"] = "VoidElf",
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 8,
+},
+["Cailanne-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0817124838TpMvN",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 5,
+},
+["Odalron-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0925131750u0PQ*",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.1",
+["classID"] = 11,
+["isTrial"] = 0,
+},
+["Leafstarz-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0817170248FExaD",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 3,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 4,
+},
+["Gnote-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0727131716Myrb*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 9,
+},
+["Saibull-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0727203726RyG3*",
+["guild"] = "KK",
+["class"] = "DRUID",
+["msp"] = false,
+["gender"] = 2,
+["client"] = "TRP3: Extended",
+["extendedVersion"] = "2.2.1",
+["race"] = "HighmountainTauren",
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 11,
+},
+["Chiso-MoonGuard"] = {
+["profileID"] = "[MSP]Chiso-MoonGuard",
+["class"] = "SHAMAN",
+["msp"] = true,
+["race"] = "Pandaren",
+["client"] = "MyRolePlay",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["clientVersion"] = "11.0.2.601",
+["isTrial"] = 0,
+["gender"] = 3,
+},
+["Norscha-MoonGuard"] = {
+["classID"] = 6,
+["isTrial"] = 0,
+["extended"] = 0,
+["profileID"] = "0725222747mbUL*",
+["roleplayExperience"] = 1,
+["clientVersion"] = "3.0.3",
+["msp"] = false,
+["client"] = "Total RP 3",
+},
+["Elrâs-MoonGuard"] = {
+["profileID"] = "[MSP]Elrâs-MoonGuard",
+["roleplayExperience"] = 4,
+["clientVersion"] = "2.0.22",
+["msp"] = true,
+["client"] = "XRP",
+},
+["Samoanslayer-Area52"] = {
+["extended"] = 1045,
+["profileID"] = "0816171753YRDE*",
+["msp"] = false,
+["class"] = "WARRIOR",
+["classID"] = 1,
+["gender"] = 2,
+["clientVersion"] = "3.0.3",
+["extendedVersion"] = "2.2.1",
+["race"] = "Orc",
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["guild"] = "KK",
+},
+["Loadblowski-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0411184802fqT5*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 6,
+},
+["Aeonsa-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "1014183720lVkW*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["client"] = "TRP3: Extended",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 5,
+},
+["Tanagniy-MoonGuard"] = {
+["extended"] = 0,
+["profileID"] = "1014175653RB3t*",
+["class"] = "PALADIN",
+["msp"] = false,
+["gender"] = 2,
+["race"] = "Dwarf",
+["client"] = "Total RP 3",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.2",
+["isTrial"] = 0,
+["classID"] = 2,
+},
+["Melonform-MoonGuard"] = {
+["extended"] = 0,
+["profileID"] = "10172226028lmR*",
+["class"] = "DRUID",
+["msp"] = false,
+["gender"] = 3,
+["race"] = "NightElf",
+["client"] = "Total RP 3",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["classID"] = 11,
+},
+["Hotboysummer-MoonGuard"] = {
+["client"] = "Total RP 3",
+["msp"] = false,
+["extended"] = 0,
+["profileID"] = "0717003320NDic*",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["classID"] = 4,
+["isTrial"] = 0,
+},
+["Riverblume-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "08121819104dxi*",
+["msp"] = false,
+["class"] = "DRUID",
+["classID"] = 11,
+["gender"] = 3,
+["clientVersion"] = "3.0.3",
+["extendedVersion"] = "2.2.1",
+["race"] = "HighmountainTauren",
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["guild"] = "KK",
+},
+["Autoheart-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0619092709z4l3z",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["clientVersion"] = "3.0.2",
+["roleplayExperience"] = 2,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["classID"] = 9,
+},
+["Samoansalty-Area52"] = {
+["extended"] = 1045,
+["profileID"] = "0816171753YRDE*",
+["guild"] = "KK",
+["class"] = "ROGUE",
+["msp"] = false,
+["clientVersion"] = "3.0.3",
+["gender"] = 2,
+["extendedVersion"] = "2.2.1",
+["race"] = "Human",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["classID"] = 4,
+},
+},
+["companion"] = {
+},
+["profiles"] = {
+["05230056076QmJ6"] = {
+["misc"] = {
+["ST"] = {
+["1"] = 2,
+["3"] = 3,
+["2"] = 1,
+["5"] = 3,
+["4"] = 1,
+["6"] = 0,
+},
+["PE"] = {
+},
+["v"] = 12,
+},
+["time"] = 1723940008,
+["link"] = {
+["Kithrari-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Dracthyr",
+["MI"] = {
+{
+["ID"] = 3,
+["NA"] = "Nickname",
+["VA"] = "Kit",
+["IC"] = "ability_hunter_beastcall",
+},
+{
+["ID"] = 7,
+["NA"] = "Pronouns",
+["VA"] = "She/Her",
+["IC"] = "vas_namechange",
+},
+},
+["BP"] = "An egg!",
+["FN"] = "Kithrari",
+["RE"] = "Stormwind",
+["v"] = 5,
+["CL"] = "Evoker",
+["IC"] = "inv_dracthyrhead01",
+["AG"] = "Young Adult",
+["EC"] = "Golden",
+["PS"] = {
+},
+["EH"] = "ffde54",
+["RS"] = 1,
+["WE"] = "Curvaceous",
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["character"] = {
+["RP"] = 1,
+["CO"] = "All RP\nNew to Dragon RP\nLooking for a guild!\nLGBTQIA+\n18+ ",
+["CU"] = "Learning her way through time!",
+["v"] = 89,
+},
+},
+["0727203726RyG3*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1724110946,
+["zone"] = "Shrine of Two Moons - Summer's Rest",
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["link"] = {
+["Saibull-MoonGuard"] = 1,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Highmountain Tauren",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Saibull",
+["IC"] = "ability_racial_bullrush",
+["v"] = 7,
+},
+},
+["0925131750u0PQ*"] = {
+["character"] = {
+["RP"] = 2,
+["LC"] = "enUS",
+["v"] = 4,
+},
+["time"] = 1723939967,
+["link"] = {
+["Odalron-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Night Elf",
+["FN"] = "Odalron",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_nightelf_male",
+["v"] = 674,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["0807133910HLMm2"] = {
+["character"] = {
+["WU"] = 1,
+["RP"] = 2,
+["CU"] = "FREDDIE DREDD- GEEK\n25 F\nLG(B)T\nMENTALLY INSANE. PLS DONT TOUCH ME.\nJk looking for friends :3 I can be normal",
+["CO"] = "IG: Dxathgrips",
+["v"] = 24,
+},
+["time"] = 1723940110,
+["link"] = {
+["Babybrat-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Arcanist",
+["RA"] = "Insane",
+["v"] = 5,
+["IC"] = "ability_ardenweald_paladin_winter",
+["MI"] = {
+},
+["PS"] = {
+},
+["FN"] = "Bianca",
+["RS"] = 0,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+["8"] = 0,
+["3"] = 0,
+["2"] = 0,
+["4"] = 0,
+["7"] = 0,
+["6"] = 0,
+},
+["v"] = 7,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0817124838TpMvN"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+["time"] = 1723939876,
+["link"] = {
+["Cailanne-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Void Elf",
+["LN"] = "Duskblossom",
+["MI"] = {
+},
+["PS"] = {
+},
+["v"] = 2,
+["IC"] = "ability_racial_preturnaturalcalm",
+["CL"] = "Priest",
+["RS"] = 0,
+["FN"] = "Cailanne",
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["02102100560tJ2*"] = {
+["character"] = {
+["RP"] = 2,
+["CO"] = "",
+["CU"] = "",
+["v"] = 4,
+},
+["time"] = 1723940154,
+["link"] = {
+["Ezraad-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Paladin",
+["RA"] = "Lightforged Draenei",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Ezraad",
+["IC"] = "achievement_alliedrace_lightforgeddraenei",
+["v"] = 874,
+},
+},
+["0607144205AIAu*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["time"] = 1723940131,
+["link"] = {
+["Nesilla-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Paladin",
+["RA"] = "Dwarf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Nesilla",
+["IC"] = "achievement_character_dwarf_female",
+["v"] = 3883,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["0406151439apvA*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939213,
+["link"] = {
+["Cedrith-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Hunter",
+["RA"] = "Human",
+["FN"] = "Cedrith",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_human_male",
+["v"] = 309,
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0817162609bq2PM"] = {
+["misc"] = {
+["ST"] = {
+["8"] = 0,
+["3"] = 0,
+["2"] = 0,
+["4"] = 0,
+["7"] = 0,
+["6"] = 2,
+},
+["PE"] = {
+},
+["v"] = 8,
+},
+["time"] = 1723939991,
+["link"] = {
+["Dankovsky-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Human",
+["LN"] = "Dankovsky",
+["MI"] = {
+{
+["ID"] = 3,
+["NA"] = "Nickname",
+["VA"] = "Danya",
+["IC"] = "ability_hunter_beastcall",
+},
+},
+["PS"] = {
+},
+["v"] = 6,
+["IC"] = "achievement_character_human_male",
+["CL"] = "Monk",
+["FT"] = "The Bachelor",
+["RS"] = 1,
+["FN"] = "Daniil",
+},
+["character"] = {
+["WU"] = 1,
+["RP"] = 2,
+["CU"] = "The prickly prick that'll bury us all.",
+["CO"] = "Please play Pathologic 2",
+["v"] = 11,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0203162749:Fvyf"] = {
+["character"] = {
+["CO"] = "- time dilation is craaaaaaaazy bro\n- do not ask what time it is\n- she absolutely IS a dragon\n- i only ERP in certain timelines",
+["RP"] = 1,
+["LC"] = "enUS",
+["v"] = 80,
+["CU"] = "- what time is it?\n- hug counter: 1374\n- last hugged: Chevrae\n",
+},
+["time"] = 1723940085,
+["link"] = {
+["Chronobabe-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["MI"] = {
+{
+["IC"] = "spell_holy_greaterblessingoflight",
+["NA"] = "Tattoos",
+["VA"] = "Sparkly golden-bronze arcs and runes along her upper arms and torso",
+["ID"] = 10,
+},
+{
+["IC"] = "spell_holy_greaterblessingoflight",
+["NA"] = "Piercings",
+["VA"] = "Gold and diamond adornments for her navel and ears.",
+["ID"] = 6,
+},
+{
+["IC"] = "spell_holy_greaterblessingoflight",
+["NA"] = "Motto",
+["VA"] = "\"Even a stopped clock is right twice a day.\"",
+["ID"] = 4,
+},
+{
+["IC"] = "spell_holy_greaterblessingoflight",
+["NA"] = "Birthday",
+["VA"] = "December 12th",
+["ID"] = 1,
+},
+{
+["IC"] = "spell_holy_greaterblessingoflight",
+["NA"] = "Pronouns",
+["VA"] = "She/Her",
+["ID"] = 7,
+},
+{
+["ID"] = 8,
+["NA"] = "Guild name",
+["IC"] = "spell_holy_greaterblessingoflight",
+["VA"] = "Time",
+},
+{
+["ID"] = 9,
+["NA"] = "Guild rank",
+["IC"] = "spell_holy_greaterblessingoflight",
+["VA"] = "Dilation",
+},
+{
+["ID"] = 11,
+["NA"] = "Voice reference",
+["IC"] = "spell_holy_greaterblessingoflight",
+["VA"] = "Lucy from Edgerunners",
+},
+},
+["FN"] = "Kyradormi",
+["AG"] = "Timeless",
+["CL"] = "a Pet Dragon",
+["EH"] = "faab3c",
+["HE"] = "5' 11\"",
+["CH"] = "ffcb4f",
+["RA"] = "Human-ish Visage of",
+["RE"] = "Halfhill, Valley of the Four Winds",
+["v"] = 21,
+["RS"] = 0,
+["EC"] = "Sparkly Gold",
+["PS"] = {
+{
+["RT"] = "Lawful",
+["V2"] = 7,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Chaotic",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+{
+["RT"] = "Forgiving",
+["V2"] = 5,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Vindictive",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+{
+["RT"] = "Altruistic",
+["V2"] = 6,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Selfish",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+{
+["RT"] = "Truthful",
+["V2"] = 2,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Deceitful",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+{
+["RT"] = "Gentle",
+["V2"] = 5,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Brutal",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+{
+["RT"] = "Rational",
+["V2"] = 5,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Superstitious",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+{
+["RT"] = "Valorous",
+["V2"] = 4,
+["RC"] = {
+["b"] = 1,
+["g"] = 0.64,
+["r"] = 0.18,
+},
+["LT"] = "Spineless",
+["LC"] = {
+["b"] = 0.24,
+["g"] = 0.67,
+["r"] = 0.98,
+},
+["LI"] = "70_inscription_vantus_rune_light",
+["RI"] = "70_inscription_vantus_rune_azure",
+},
+},
+["BP"] = "Where, or when?",
+["FT"] = "Chronologically Challenged || Broken Clock || Legitimate Time Vendor || Illegitimate Hug Vendor",
+["IC"] = "inv_mdi_awc_bannerreward_icons_blue",
+["WE"] = "Athletic and moderately toned",
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+["1"] = 2,
+["8"] = 1,
+["3"] = 0,
+["2"] = 1,
+["5"] = 4,
+["4"] = 0,
+["7"] = 1,
+["6"] = 0,
+},
+["v"] = 41,
+},
+["about"] = {
+["T1"] = {
+["TX"] = "{h1:c}{link*https://algalon.ghst.tools*raise your eyes to the skies}{/h1}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{p:c}{link*https://boobs.ghst.tools*secret}{/p}",
+},
+["BK"] = 4,
+["TE"] = 1,
+["v"] = 91,
+},
+},
+["1014175653RB3t*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723940132,
+["link"] = {
+["Tanagniy-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Paladin",
+["RA"] = "Dwarf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Tanagniy",
+["IC"] = "achievement_character_dwarf_male",
+["v"] = 1524,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+["character"] = {
+["RP"] = 2,
+["LC"] = "enUS",
+["v"] = 6,
+},
+},
+["11292044092Ukp*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939227,
+["link"] = {
+["Lailys-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Demon Hunter",
+["RA"] = "Night Elf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Lailys",
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 1235,
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 4,
+},
+},
+["1014183720lVkW*"] = {
+["character"] = {
+["RP"] = 2,
+["LC"] = "enUS",
+["v"] = 3,
+},
+["time"] = 1723939586,
+["link"] = {
+["Aeonsa-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Priest",
+["RA"] = "Void Elf",
+["FN"] = "Aeonsa",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "ability_racial_preturnaturalcalm",
+["v"] = 3948,
+},
+},
+["08162111221clV*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723946804,
+["zone"] = "Valley of the Four Winds",
+["characteristics"] = {
+["CL"] = "Mage",
+["RA"] = "Void Elf",
+["FN"] = "Eeklipse",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "ability_racial_preturnaturalcalm",
+["v"] = 3,
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["link"] = {
+["Blawesum-EmeraldDream"] = 1,
+["Eeklipse-EmeraldDream"] = 1,
+},
+},
+["10172226028lmR*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939804,
+["link"] = {
+["Melonform-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["zone"] = "Shrine of Seven Stars - The Summer Terrace",
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Night Elf",
+["FN"] = "Melonform",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 39,
+},
+},
+["0612123100QyMI*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 4,
+},
+["time"] = 1724111906,
+["link"] = {
+["Ancoljo-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Monk",
+["RA"] = "Zandalari Troll",
+["FN"] = "Ancoljo",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "inv_zandalarimalehead",
+["v"] = 417,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["0818195305YWt3b"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+["time"] = 1724115212,
+["link"] = {
+["Riona-EmeraldDream"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Human",
+["LN"] = "Stanton",
+["MI"] = {
+},
+["PS"] = {
+},
+["v"] = 2,
+["IC"] = "achievement_character_human_female",
+["CL"] = "Paladin",
+["RS"] = 0,
+["FN"] = "Riona",
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["0818004731KWlf*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1724101844,
+["link"] = {
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Highmountain Tauren",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Saibull",
+["IC"] = "ability_racial_bullrush",
+["v"] = 5,
+},
+["zone"] = "Shrine of Two Moons - Summer's Rest",
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["[MSP]Chiso-MoonGuard"] = {
+["characteristics"] = {
+["MI"] = {
+},
+["FN"] = "Chiso",
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+},
+["time"] = 1723939542,
+["link"] = {
+["Chiso-MoonGuard"] = 1,
+},
+["about"] = {
+},
+["msp"] = true,
+["mspver"] = {
+},
+["zone"] = "Shrine of Seven Stars - The Summer Terrace",
+},
+["0216184152KUNa*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["time"] = 1723940109,
+["link"] = {
+["Marmelil-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warlock",
+["RA"] = "Worgen",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Marmelil",
+["IC"] = "ability_racial_viciousness",
+["v"] = 1658,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0408193023cY4e*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 5,
+},
+["time"] = 1723940029,
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Mage",
+["RA"] = "Dark Iron Dwarf",
+["FN"] = "Malgoryn",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "ability_racial_fireblood",
+["v"] = 324,
+},
+["link"] = {
+["Malgoryn-MoonGuard"] = 1,
+},
+},
+["080121542455UV*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723940127,
+["link"] = {
+["Mistystorm-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Monk",
+["RA"] = "Night Elf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Mistystorm",
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 164,
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0725222747mbUL*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1724055665,
+["link"] = {
+["Norscha-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Death Knight",
+["RA"] = "Undead",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Norscha",
+["IC"] = "achievement_character_undead_female",
+["v"] = 231,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["0731212400a765*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939929,
+["link"] = {
+["Wokwizard-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Mage",
+["RA"] = "Pandaren",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Wokwizard",
+["IC"] = "achievement_character_pandaren_female",
+["v"] = 92,
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0730152338xaf8*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 2,
+["WU"] = 2,
+},
+["time"] = 1723942212,
+["link"] = {
+["Horordian-EmeraldDream"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Hunter",
+["RA"] = "Night Elf",
+["FN"] = "Horordian",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_nightelf_male",
+["v"] = 83,
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["1021133919SShq*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723935926,
+["link"] = {
+["Nazanath-Aegwynn"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Evoker",
+["RA"] = "Dracthyr",
+["FN"] = "Nazanath",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "inv_dracthyrhead02",
+["v"] = 178,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+},
+["[MSP]Elrâs-MoonGuard"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+},
+["time"] = 1723939832,
+["link"] = {
+["Elrâs-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Brawler",
+["RA"] = "Drakonid",
+["MI"] = {
+},
+["FN"] = "Elras",
+["EC"] = "Red",
+},
+["about"] = {
+},
+["msp"] = true,
+["mspver"] = {
+["AE"] = 3810841844,
+},
+},
+["0903083836d3ygT"] = {
+["misc"] = {
+["PE"] = {
+["1"] = {
+["AC"] = true,
+["TI"] = "Kirin Tor Emissary",
+["TX"] = "Following Lady Proudmoore declaring Dalaran as Alliance-only, Lynn was selected to be sent to Stormwind Keep in order to represent the interests of the Kirin Tor in the Alliance.",
+["IC"] = "inv_legioncircle_faction_kirintor",
+},
+["4"] = {
+["AC"] = true,
+["TI"] = "Abandoned Surname",
+["TX"] = "When Lynn showed magical abilities, she was given to the mages of Dalaran and thus abandoned her surname, only going by \"Lynn\" or \"Lynelle\".",
+["IC"] = "inv_misc_scrollrolled01d",
+},
+["3"] = {
+["AC"] = true,
+["TI"] = "Orphaned",
+["TX"] = "Lynn's parents were killed when South Shore was attacked by the Forsaken. Fortunately Lynn had already been given to the mages of Dalaran before this.",
+["IC"] = "inv_misc_bone_humanskull_02",
+},
+["2"] = {
+["AC"] = true,
+["TI"] = "Firebug",
+["TX"] = "Though skilled in all forms of magic, Lynn's favorite has always been fire magic.",
+["IC"] = "inv_elemental_mote_fire01",
+},
+},
+["ST"] = {
+["1"] = 2,
+["8"] = 0,
+["3"] = 3,
+["2"] = 3,
+["5"] = 3,
+["4"] = 3,
+["7"] = 0,
+["6"] = 0,
+},
+["v"] = 19,
+},
+["time"] = 1723939406,
+["link"] = {
+["Lynelledal-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["characteristics"] = {
+["EC"] = "Leafy green",
+["FN"] = "Lynelle",
+["AG"] = "Old enough",
+["CL"] = "Mage",
+["EH"] = "2c5816",
+["HE"] = "5'5\"",
+["CH"] = "b845ff",
+["RA"] = "Human",
+["RE"] = "Stormwind Keep - Stormwind City",
+["v"] = 5,
+["BP"] = "South Shore - Lordaeron",
+["IC"] = "inv_legioncircle_faction_kirintor",
+["RS"] = 1,
+["MI"] = {
+{
+["ID"] = 3,
+["NA"] = "Nickname",
+["IC"] = "ability_hunter_beastcall",
+["VA"] = "Lynn",
+},
+{
+["ID"] = 6,
+["NA"] = "Piercings",
+["IC"] = "inv_jewelry_ring_14",
+["VA"] = "One in each ear",
+},
+{
+["ID"] = 7,
+["NA"] = "Pronouns",
+["IC"] = "vas_namechange",
+["VA"] = "She/Her",
+},
+{
+["ID"] = 11,
+["NA"] = "Voice reference",
+["IC"] = "spell_holy_silence",
+["VA"] = "Mandy Moore",
+},
+{
+["ID"] = 8,
+["NA"] = "Guild name",
+["IC"] = "vas_guildnamechange",
+["VA"] = "The Kirin Tor",
+},
+{
+["ID"] = 9,
+["NA"] = "Guild rank",
+["IC"] = "achievement_guildperk_honorablemention_rank2",
+["VA"] = "Emissary",
+},
+},
+["FT"] = "Emissary of the Kirin Tor || Archmage || Firebug",
+["PS"] = {
+{
+["ID"] = 1,
+["V2"] = 13,
+},
+{
+["ID"] = 3,
+["V2"] = 15,
+},
+{
+["ID"] = 4,
+["V2"] = 17,
+},
+{
+["ID"] = 5,
+["V2"] = 18,
+},
+{
+["ID"] = 6,
+["V2"] = 12,
+},
+{
+["ID"] = 9,
+["V2"] = 7,
+},
+{
+["ID"] = 11,
+["V2"] = 14,
+},
+},
+["WE"] = "Curvy bordering on chubby",
+},
+["zone"] = "Shrine of Seven Stars - The Summer Terrace",
+["character"] = {
+["RP"] = 1,
+["v"] = 86,
+["CU"] = "- wandering the city, humming a tune",
+["CO"] = "- player is 30+\n- shy, walk-ups welcome!\n- ERP-friendly (but that's not the focus!)\n- If I don't see you emote, please whisper!",
+},
+},
+["0727131716Myrb*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939289,
+["link"] = {
+["Gnote-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warlock",
+["RA"] = "Gnome",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Gnote",
+["IC"] = "achievement_character_gnome_female",
+["v"] = 253,
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+},
+["0817153716Zl4Id"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939241,
+["link"] = {
+["Oriori-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Lightforged Draenei",
+["LN"] = "Orison",
+["RE"] = "The Road",
+["PS"] = {
+},
+["v"] = 3,
+["IC"] = "inv_misc_trinket_goldenharp",
+["MI"] = {
+},
+["FN"] = "Ori Ori",
+["EC"] = "Gold",
+["CL"] = "Bard",
+["RS"] = 0,
+["HE"] = "Tall",
+["WE"] = "Bulky",
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0517004221zp61N"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+["1"] = 0,
+["8"] = 0,
+["3"] = 0,
+["2"] = 0,
+["5"] = 0,
+["4"] = 0,
+["7"] = 0,
+["6"] = 0,
+},
+["v"] = 9,
+},
+["time"] = 1723940129,
+["link"] = {
+["Birsae-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["LN"] = "Starmantle",
+["MI"] = {
+},
+["FN"] = "Birsae",
+["RS"] = 0,
+["IC"] = "crest_monk",
+["HE"] = "7'",
+["RA"] = "Kaldorei",
+["RE"] = "Bel'ameth, Dragon Isles",
+["v"] = 4,
+["CL"] = "Monk",
+["BP"] = "Teldrassil, Kalimdor",
+["FT"] = "Time-Lost Monk",
+["PS"] = {
+},
+["EC"] = "Glowing Light Blue",
+["TI"] = "Wanderer",
+["AG"] = "350",
+["WE"] = "Fit, atheletic",
+},
+["character"] = {
+["RP"] = 2,
+["CO"] = "",
+["v"] = 50,
+["CU"] = "(Profile & Backstory is a rough concept. WIP.)\n\nWandering through time.",
+},
+["about"] = {
+["T3"] = {
+["PH"] = {
+["BK"] = 1,
+},
+["PS"] = {
+["BK"] = 1,
+},
+["HI"] = {
+["TX"] = "Honestly, how I got to where I am is somewhat even beyond me. I found myself flung through time, during the Alliance-Horde War in Pandaria. An event I was part of, but also wasn't part of - at least not as I am now. I remember being a Druid, exploring and adventuring here. Fighting alongside the Alliance, eventually joining forces with Vol'jin and those loyal to him to oppose Garrosh. But those events haven't happened, yet, or they have back then, but not yet as of now?\n\nThings have gotten a bit wibbly-wobbly, timey-wimey, and I'm here alongside the - uh, \"good\" Infinite Dragons to research these events and make sure the timeline isn't changed.\n\nSomething tells me that I might be experiencing these events as an variant of myself, from a different timeline.\nAnd I sense that things are only going to get weirder from here on out.",
+["BK"] = 1,
+},
+},
+["BK"] = 19,
+["TE"] = 3,
+["v"] = 2,
+},
+},
+["0411184802fqT5*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723940150,
+["link"] = {
+["Loadblowski-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Death Knight",
+["RA"] = "Human",
+["FN"] = "Loadblowski",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_human_male",
+["v"] = 247,
+},
+["character"] = {
+["RP"] = 1,
+["v"] = 4,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0817170248FExaD"] = {
+["character"] = {
+["CO"] = "LGBTQ+Supportive\nAll Walkups Welcomed\nMinors Will Be DNI\n",
+["RP"] = 2,
+["CU"] = "Mood: Okay\nLocation of the Ly'gos: With Him/Or Babysitter\nDoes not Interact with SCA/SCWG people. ",
+["WU"] = 2,
+["v"] = 12,
+},
+["time"] = 1723939687,
+["link"] = {
+["Leafstarz-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["LN"] = "Leafstar",
+["MI"] = {
+{
+["IC"] = "inv_misc_food_145_cake",
+["NA"] = "Birthday: ",
+["VA"] = "March 15th",
+["ID"] = 1,
+},
+{
+["IC"] = "achievement_character_nightelf_male",
+["NA"] = "Family Name:",
+["VA"] = "Leafstar",
+["ID"] = 1,
+},
+{
+["IC"] = "achievement_character_nightelf_male",
+["NA"] = "Son:",
+["VA"] = "Ly'gos Leafstar",
+["ID"] = 1,
+},
+{
+["IC"] = "achievement_character_nightelf_female",
+["NA"] = "Parents:",
+["VA"] = "Zanian and Elyais Leafstar",
+["ID"] = 1,
+},
+{
+["IC"] = "achievement_character_nightelf_male",
+["NA"] = "Brother:",
+["VA"] = "Sirian Leafstar (Unknown Whereabouts)",
+["ID"] = 1,
+},
+{
+["IC"] = "achievement_doublerainbow",
+["NA"] = "Sexuality:",
+["VA"] = "Bisexual",
+["ID"] = 1,
+},
+{
+["IC"] = "vas_namechange",
+["NA"] = "Pronouns",
+["VA"] = "He/Him/They",
+["ID"] = 7,
+},
+{
+["ID"] = 11,
+["NA"] = "Voice reference",
+["IC"] = "spell_holy_silence",
+["VA"] = "Rell Nightwind (WoW)",
+},
+},
+["PS"] = {
+{
+["ID"] = 1,
+["V2"] = 0,
+},
+{
+["ID"] = 3,
+["V2"] = 20,
+},
+{
+["ID"] = 4,
+["V2"] = 20,
+},
+{
+["ID"] = 5,
+["V2"] = 20,
+},
+{
+["ID"] = 6,
+["V2"] = 20,
+},
+{
+["ID"] = 8,
+["V2"] = 0,
+},
+{
+["ID"] = 9,
+["V2"] = 10,
+},
+{
+["ID"] = 11,
+["V2"] = 20,
+},
+},
+["AG"] = "1507 Years Old",
+["CL"] = "Shadowblade",
+["EH"] = "e3e6ec",
+["HE"] = "7'0 Feet Tall",
+["CH"] = "aa3828",
+["RA"] = "Kaldorei",
+["BP"] = "Starfall Village, Winterspring",
+["v"] = 53,
+["RE"] = "Nomadic",
+["RS"] = 4,
+["EC"] = "White-Blue",
+["FN"] = "Aleras",
+["FT"] = "Ex Military||Uncrowned||Known as The Shadow's Vegenance||Prankster||",
+["IC"] = "inv_helm_leather_raidrogueprimalist_d_01",
+["WE"] = "Very Fit and Muscled",
+},
+["about"] = {
+["T1"] = {
+["TX"] = "{img:Interface\\QuestionFrame\\answer-RogueCombat:256:128}\n{h1:c}Aleras\"The Shadow's Vegenance\" Leafstar:{/h1}\n\n{p:c}Joining the Military during Prince Arthas Menethil (The Lich King)'s Reign of terror while he travelled through Northrend. Aleras was sent on a special Mission with a Squad of Shadowblades to gather information in Icecrown Citadel, which ended in terrible Failure as his team had been given False information and a trap had been set. Aleras attempted to sacrifice himself to buy time for his team mates to escape but were surrounded by Ebon Blade Death Knights. \n\nAleras suffered torture after Torture by Arthas's Death Knights, including watching his friends be slaughtered right in front of his eyes. The Death Knight that tortured him had given him the famous Scar that all see before him now. \n\nThanks to the Help of a Quel'dorei woman (Lady Silanrea), after managing to use his Shadow Tricks to escape,Aleras managed to get back to the Alliance and recuperate and was sent back into service. Aleras  came to Stormwind City to find a new meaning to his life after 14 years of Military Service.\n\nAfter a brief relationship and marriage with a female ren'dorei, Aleras and her divorced after the birth of their son Ly'gos Leafstar. Aleras decided to leave Winterspring and come back to Stormwind after leaving for awhile,  where he now raises his son alone.. {/p}\n\n{h1:c}Personality of Aleras:{/h1}\n{p:c}Aleras is a quiet, caring, sensitive and fearless Kaldorei Male. He is very genuine Elf. Has issues of Self Esteem and Self Worth. He will do anything when he sees his friends are depressed or down to cheer them up no matter what. He will also sacrifice himself no matter the cost when those he cares about are in trouble. {/p}\n{img:Interface\\QuestionFrame\\answer-RogueSubtlety:256:128}\n{h2:c}Arsenal:{/h2}\n{p:c}2 Standard Dueling Swords\n2 Ethereal Blades (Given to him by his Ex Girlfriend Songerlinn)\nSeveral Smoke Grenades\nKul Tiran Revolver (Grip made with the Barkof Teldrassil)\nRevolver made with an Ivory Handle (Given to him by Xavion Dawnstar for his Birthday)\nA set of Throwing Knives (6 inch Blades)\nGrapplehook Gun{/p}\n{img:Interface\\ARCHEOLOGY\\ArchRare-HighborneSoulMirror:512:256}\n{h2:c}Abilities/Spells:{/h2}\n{p:c}School of Magic: Shadow/Void (Void School of Magic)\nMagic Weakness: Holy/Light Magic\n\nCan Do Most of all Rogue Abilities (Outlaw ones) and can Dispell/Break Curse Magic.\n\nShadow Shield: Wraps Shadow Magic around a Person to protect them from most damage from Spells, can not stop Physical weapons though. \n\nShadow Orbs: A Voltatile Shadow Magic spell that Aleras uses to Stun and break a Target's armor with. Usually will be used also as an Interrupt/Knock back. (Can do a Big Single Orb or 4 Small ones (Verticle halo).\n\nWeapon Spell: The Shadowblade: A One handed type Sword made of pure Shadow Magic, used to attack his enemies with if somehow he gets disarmed. \n\nShadow Chains: Aleras creates a group of up to 4 Shadow Like Chains (Tendrils)to bind his target from attacking. \n\nShadow Orb of Healing: Aleras's Special Shadow Mending Skill that helps heal a target of most of their wounds by creating an Orb of pure Shadow Magic in his hands or above him. \n\nShadow Lances: An offensive Spell that Aleras can Create up to 3 Shadow Lances (Shadow Bolts in Spear like shapes){/p}\n",
+},
+["BK"] = 9,
+["TE"] = 1,
+["v"] = 28,
+},
+["misc"] = {
+["PE"] = {
+["1"] = {
+["AC"] = true,
+["TI"] = "Scars",
+["IC"] = "ability_druid_infectedwound",
+["TX"] = "Aleras has several scars on his body from his past as well as one on his Left Eye, that was given to him by a Death Knight During his Time as a Military Shadowblade for the Alliance. ",
+},
+["3"] = {
+["AC"] = true,
+["TI"] = "Shadow User!!!!!",
+["IC"] = "ability_rogue_envelopingshadows",
+["TX"] = "When Healing Aleras when injured, he is a Shadow User therfore can not be healed by anything but the following Magic Schools. \n\nLife, Hemonancy, Chi or Shadow Magic. ",
+},
+["5"] = {
+["AC"] = true,
+["TI"] = "Food Requirements",
+["IC"] = "inv_misc_food_vendor_stripedmelon",
+["TX"] = "Fyreath is a Vegetarian and can not eat Meat at all.\n",
+},
+},
+["ST"] = {
+["1"] = 1,
+["8"] = 3,
+["3"] = 2,
+["2"] = 3,
+["5"] = 4,
+["4"] = 1,
+["7"] = 3,
+["6"] = 1,
+},
+["v"] = 29,
+},
+},
+["0531183152HoAid"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+["1"] = 0,
+["3"] = 0,
+["2"] = 0,
+["5"] = 0,
+["4"] = 0,
+["6"] = 0,
+},
+["v"] = 7,
+},
+["time"] = 1723940037,
+["link"] = {
+["Weixia-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warrior",
+["RA"] = "Pandaren",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Weixia",
+["IC"] = "achievement_character_pandaren_female",
+["v"] = 1,
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+["character"] = {
+["RP"] = 2,
+["CO"] = "",
+["v"] = 5,
+["CU"] = "",
+},
+},
+["0522193037ZtmAc"] = {
+["misc"] = {
+["ST"] = {
+["1"] = 0,
+["3"] = 0,
+["2"] = 0,
+["5"] = 0,
+["4"] = 0,
+["6"] = 0,
+},
+["PE"] = {
+},
+["v"] = 7,
+},
+["time"] = 1723940134,
+["link"] = {
+["Jiahyu-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warlock",
+["RA"] = "Pandaren",
+["FN"] = "Jiahyu",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_pandaren_female",
+["v"] = 1,
+},
+["character"] = {
+["RP"] = 1,
+["CO"] = "",
+["CU"] = "Single Cute Pandaren in your area",
+["v"] = 39,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0801154927KNoy*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1723939390,
+["link"] = {
+["Ennerin-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Paladin",
+["RA"] = "Human",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Ennerin",
+["IC"] = "achievement_character_human_male",
+["v"] = 125,
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 3,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+},
+["0929212716o26B*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["time"] = 1723939999,
+["link"] = {
+["Miikaphim-MoonGuard"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Demon Hunter",
+["RA"] = "Night Elf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Miikaphim",
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 438,
+},
+},
+["0717003320NDic*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["time"] = 1723940158,
+["link"] = {
+["Hotboysummer-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Rogue",
+["RA"] = "Worgen",
+["FN"] = "Hotboysummer",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_worganhead",
+["v"] = 392,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["0619092709z4l3z"] = {
+["character"] = {
+["RP"] = 1,
+["CO"] = "Commissions available, DM for examples!\n--\nMDNI, player is 30+. Walk up RP allowed, prefer asking ahead of time.\n--\nPlayer is LGBTQ+ and friendly!",
+["v"] = 65,
+["CU"] = "Art in About!",
+},
+["time"] = 1724096308,
+["link"] = {
+["Autoheart-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["BP"] = "Andorhal",
+["RA"] = "Undead",
+["MI"] = {
+{
+["ID"] = 7,
+["NA"] = "Pronouns",
+["VA"] = "He/They",
+["IC"] = "inv_misc_note_02",
+},
+{
+["ID"] = 5,
+["NA"] = "Facial features",
+["IC"] = "inv_misc_note_02",
+["VA"] = "Soft and feminine",
+},
+{
+["ID"] = 1,
+["NA"] = "Orientation",
+["VA"] = "Gay",
+["IC"] = "inv_misc_note_02",
+},
+{
+["ID"] = 2,
+["NA"] = "House name",
+["IC"] = "inv_misc_kingsring1",
+["VA"] = "Levanthorpe",
+},
+{
+["ID"] = 3,
+["NA"] = "Nickname",
+["IC"] = "ability_hunter_beastcall",
+["VA"] = "Hyl",
+},
+},
+["EH"] = "2f8e8d",
+["RE"] = "Eastern Kingdoms",
+["FN"] = "Hylden",
+["EC"] = "Seafoam",
+["AG"] = "30s",
+["CL"] = "Alchemist",
+["PS"] = {
+},
+["RS"] = 0,
+["IC"] = "inv_misc_herb_starflower",
+["v"] = 6,
+["FT"] = "|| Florist || Botanist || Pretty Boy || Potion Seller ||",
+["HE"] = "6'8\"",
+["WE"] = "Ectomorph",
+},
+["misc"] = {
+["ST"] = {
+["1"] = 4,
+["8"] = 2,
+["3"] = 2,
+["2"] = 2,
+["5"] = 0,
+["4"] = 3,
+["7"] = 2,
+["6"] = 2,
+},
+["PE"] = {
+["1"] = {
+["AC"] = true,
+["TI"] = "Flowers in their hair",
+["TX"] = "Flowers almost seem to bloom in Hylden's hair as if they are alive",
+["IC"] = "inv_helm_flowercrown_a_01_pink",
+},
+["2"] = {
+["AC"] = true,
+["TI"] = "Soft features, unmarred",
+["TX"] = "Hylden's face is soft and feminine, unmarred by the effects of death",
+["IC"] = "achievement_character_undead_female",
+},
+},
+["v"] = 18,
+},
+["about"] = {
+["T2"] = {
+{
+["IC"] = "inv_misc_notepicture1b",
+["BK"] = 47,
+["TX"] = "{h2:r}Physical Description{/h2}\n\n{col:ffffff}Hylden is a delicate slip of a man, tall and elegant, with little in the way of muscle or fat on his undead figure. His physique is unmarred by scars or rot, leaving him often seen as a beautiful thing - a visage of life painted across the hollow shell of death.\n\nHis hair hangs down close to his hips, violet in color. In life it was a deep, rich brown, but the use of shadow has stained it with the color of his magic. Past use of the void left the soft and unbroken strands with stars strewn through them, the touch of the void extending throughout it just as a poison such as cyanide may grow through locks of hair.{/col}\n\n{h2:c}{link*https://imgur.com/a/hylden-levanthorpe-8efVE0L*ART}{/h2}",
+},
+{
+["IC"] = "inv_misc_notefolded3f",
+["BK"] = 47,
+["TX"] = "{h2:r}History{/h2}\n\n{col:ffffff}{/col}",
+},
+{
+["TX"] = "{h2:r}Friends and Family{/h2}\n\n{col:ffffff}{/col}",
+["BK"] = 47,
+["IC"] = "achievement_guildperk_everybodysfriend",
+},
+},
+["MU"] = 4198445,
+["TE"] = 2,
+["v"] = 12,
+},
+},
+["0816171753YRDE*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1724115298,
+["link"] = {
+["Samoansalty-Area52"] = 1,
+["Samoanslayer-Area52"] = 1,
+},
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["zone"] = "Isle of Thunder",
+["characteristics"] = {
+["CL"] = "Rogue",
+["RA"] = "Human",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Samoansalty",
+["IC"] = "achievement_character_human_male",
+["v"] = 48,
+},
+},
+["08121819104dxi*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["time"] = 1724113718,
+["zone"] = "Brewmoon Festival - Binan Village",
+["about"] = {
+["T1"] = {
+},
+["read"] = true,
+["TE"] = 1,
+["v"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Highmountain Tauren",
+["FN"] = "Riverblume",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_alliedrace_highmountaintauren",
+["v"] = 9,
+},
+["link"] = {
+["Riverblume-MoonGuard"] = 1,
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+},
+},
+}

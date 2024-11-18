@@ -433,9 +433,6 @@ END
 VER 3 0000000000000057 "Death" "135426"
 /run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print("Dungeons: "..x.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
 END
-VER 3 0000000000000079 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('No spell available')
-END
 VER 3 0000000000000058 "Distance Aggro" "878211"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
 END
@@ -445,6 +442,10 @@ VER 3 0000000000000059 "Druid Multi" "1408835"
 /fgi invite
 /use [@mouseover,dead] Skinning
 /castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END
+VER 3 000000000000005A "GRM_Roster" "132486"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
 END
 VER 3 0000000000000072 "GRM_Tool" "INV_MISC_QUESTIONMARK"
 /run GRM.Report("Reserved for GRM Macro Tool Usage. Please do not delete.")

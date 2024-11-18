@@ -74,13 +74,7 @@ local math_max = math.max
 local next = next
 local strlen = string.len
 local GetFramerate = GetFramerate
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/DataStore/libs/AceComm-3.0/ChatThrottleLib.lua
-local strlower = string.lower
-local unpack,type,pairs,wipe = unpack,type,pairs,wipe
-local UnitInRaid,UnitInParty = UnitInRaid,UnitInParty
-========
 local unpack,type,pairs,wipe = unpack,type,pairs,table.wipe
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/Hekili/Libs/AceComm-3.0/ChatThrottleLib.lua
 
 
 -----------------------------------------------------------------------

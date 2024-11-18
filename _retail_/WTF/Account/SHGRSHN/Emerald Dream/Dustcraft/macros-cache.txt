@@ -1,35 +1,63 @@
-<<<<<<< Updated upstream
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
-END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dus[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Hel
-=======
-VER 3 0100000000000008 "Bookin Fire" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000015 ".Cyclone" "INV_Misc_QuestionMark"
 #showtooltip
-/castsequence reset=target/combat/3 moonfire, moonkin form, sunfire
+/focus [harm,noexists] [harm,mod:shift]
+/cast [@focus,exists,harm] entangling roots
 END
-VER 3 0100000000000003 "Moonfire" "INV_MISC_QUESTIONMARK"
-#showtooltip moonfire
-/use [noform:4] moonkin form
-/use moonfire
-END
-VER 3 0100000000000006 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000002A ".Form Treant" "236169"
 #showtooltip
-/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
+/use [noform:1]treant form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
 END
-VER 3 0100000000000005 "Prowl" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000016 ".FormBear" "INV_Misc_QuestionMark"
 #showtooltip
-/use [noform:2] cat form
-/use prowl
+/use [noform:1]bear form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
 END
-VER 3 0100000000000004 "Speed" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000017 ".FormCat" "INV_Misc_QuestionMark"
 #showtooltip
-/castsequence stampeding roar, dash, darkflight
+/use [stealth,spec:2]rake;[stealth,talent:3/2]rake;[stealth]shred;[nostealth,nocombat,stance:2]prowl;[nostance:2]cat form; [nostealth,combat]shadowmeld
 END
-VER 3 0100000000000007 "Sunfire" "INV_MISC_QUESTIONMARK"
-#showtooltip sunfire
-/use [noform:4] moonkin form
-/use sunfire
->>>>>>> Stashed changes
+VER 3 0100000000000018 ".FormMoonkin" "INV_Misc_QuestionMark"
+#showtooltip
+/use [form:4]barkskin;[spec:1] moonkin form; [noform]barkskin; aquatic form
+/cancelform [noform:4][spec:4,form:4]
+END
+VER 3 0100000000000019 ".FormTravel" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [mod:shift]fishing; [indoors]cat form; [form:3] cat form; travel form
+END
+VER 3 010000000000001B ".KeyAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [combat,help,dead,@mouseover]rebirth; [spec:4,help,dead]revitalize; [@mouseover,help,dead]revive; [harm,combat]soothe; [harm,nocombat]hibernate; [nospec:4]remove corruption; nature's cure
+END
+VER 3 010000000000001C ".KeyClickLeft" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/combat/1 rejuvenation, swiftmend, regrowth, regrowth, regrowth; regrowth
+/target mouseover
+END
+VER 3 010000000000001E ".KeyQ Spec Spell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:soloar beam] solar beam; [known:skull bash] skull bash; [known:ursol's vortex] ursol's vortex
+END
+VER 3 010000000000001F ".KeyScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom [harm]wild charge; dash, stampeding roar, bull rush
+END
+VER 3 010000000000002D "Combat Skinner" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END
+VER 3 010000000000002C "Rejuvenation" "134400"
+#showtooltip
+/use [@mouseover,nodead,harm] moonfire;
+/use [@mouseover,nodead,help] rejuvenation
+/use [@target,nodead,harm] moonfire;
+/use [@target,nodead,help][@player] rejuvenation
+END
+VER 3 0100000000000027 "Speed 2" "366937"
+#showtooltip
+/castsequence [known:68992] reset=3 darkflight, stampeding roar, dash; stampeding roar, dash
+END
+VER 3 010000000000002B "Swiftmend" "134400"
+#showtooltip swiftmend
+/castsequence reset=target/combat/1 rejuvenation, swiftmend
 END

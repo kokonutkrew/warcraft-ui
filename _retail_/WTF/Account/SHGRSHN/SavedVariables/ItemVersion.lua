@@ -1,8 +1,33 @@
 
 ItemVersionDB = {
 ["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "Default",
+["Samoanghost - Area 52"] = "Default",
+["Samoansavage - Area 52"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoanmystic - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
+["Forgecraft - Area 52"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoanbeast - Area 52"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Kk - Bloodhoof"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Samoandrake - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

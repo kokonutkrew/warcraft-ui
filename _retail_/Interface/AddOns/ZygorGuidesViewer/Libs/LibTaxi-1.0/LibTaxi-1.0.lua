@@ -1970,8 +1970,6 @@ function HooksForTaxiFrame:ClassicTaxiButtonOnEnter(mouseButton)
 	local mouseSlot = mouseButton:GetID()
 	local mouseNode = taxisbyslots[mouseSlot]
 
-	if not mouseNode then return end
-
 	local totaltime = Lib:GetTotalFlightTimeTo(mouseNode.nodeID)
 	if totaltime and totaltime>0 and GameTooltip:IsShown() then
 		GameTooltip:AddLine((Lib.ZGLOGO.." Est. flight time: |cffffffff%d:%02d"):format(totaltime/60,totaltime%60))
@@ -1980,14 +1978,12 @@ function HooksForTaxiFrame:ClassicTaxiButtonOnEnter(mouseButton)
 
 	if ZGV.DEV then
 		local route = Lib.lastRoutesFromCurrent[mouseNode.nodeID]
-		if route then
-			for hop=1,#route-1 do
-				local time,isPrecise = Lib:GetTaxiTripTime(route[hop],route[hop+1])
-				if not isPrecise then
-					local startNode = taxisbynodeid[route[hop]]
-					local endNode = taxisbynodeid[route[hop+1]]
-					if ZGV.db.profile.taxi_print_unknowntimes then print((hop==1 and "|cffffdd00" or "|cffff0000").."Unknown time ["..hop.."]: "..startNode.name.." to "..endNode.name) end
-				end
+		for hop=1,#route-1 do
+			local time,isPrecise = Lib:GetTaxiTripTime(route[hop],route[hop+1])
+			if not isPrecise then
+				local startNode = taxisbynodeid[route[hop]]
+				local endNode = taxisbynodeid[route[hop+1]]
+				if ZGV.db.profile.taxi_print_unknowntimes then print((hop==1 and "|cffffdd00" or "|cffff0000").."Unknown time ["..hop.."]: "..startNode.name.." to "..endNode.name) end
 			end
 		end
 

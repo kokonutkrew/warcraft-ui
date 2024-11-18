@@ -1,15 +1,18 @@
 
 MBB_Exclude = {
+"LibDBIcon10_RemixChecklist",
+"LibDBIcon10_SilverDragon",
+"SGI_MiniMapButton",
 }
 MBB_Options = {
-	["CollapseTimeout"] = 1,
-	["AltExpandDirection"] = 4,
-	["AttachToMinimap"] = 1,
-	["DetachedButtonPos"] = "TOPLEFT",
-	["MaxButtonsPerLine"] = 0,
-	["ButtonPos"] = {
-		-26.8021240234375, -- [1]
-		-68.8787841796875, -- [2]
-	},
-	["ExpandDirection"] = 1,
+["CollapseTimeout"] = 1,
+["AltExpandDirection"] = 4,
+["AttachToMinimap"] = 1,
+["ExpandDirection"] = 1,
+["MaxButtonsPerLine"] = 0,
+["ButtonPos"] = {
+-18,
+-100,
+},
+["DetachedButtonPos"] = "CENTER",
 }

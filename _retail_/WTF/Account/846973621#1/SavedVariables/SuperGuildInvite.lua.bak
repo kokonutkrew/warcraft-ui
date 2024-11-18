@@ -1,0 +1,42 @@
+
+SGI_DATA = {
+["guildList"] = {
+["世界之樹"] = {
+},
+},
+["resetFix"] = true,
+["Buycraft - 世界之樹"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["lock"] = {
+},
+}

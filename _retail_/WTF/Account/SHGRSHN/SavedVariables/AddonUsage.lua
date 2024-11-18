@@ -1,8 +1,4 @@
 
 AddonUsageSettings = {
-<<<<<<< Updated upstream
-	["Play"] = true,
-	["sortOrder"] = 3,
-=======
->>>>>>> Stashed changes
+["sortOrder"] = 2,
 }

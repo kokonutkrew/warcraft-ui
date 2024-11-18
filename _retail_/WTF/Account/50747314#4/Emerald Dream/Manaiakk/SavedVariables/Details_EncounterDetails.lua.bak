@@ -1,0 +1,104 @@
+
+EncounterDetailsDB = {
+["chartData"] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
+["Raid Damage Done"] = {
+["__time"] = 1721870663,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+["__time"] = 1721871024,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["__time"] = 1721871091,
+},
+},
+{
+["Raid Damage Done"] = {
+61,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+77,
+0,
+79,
+["max_value"] = 79,
+["__time"] = 1721871128,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+79,
+["max_value"] = 79,
+["__time"] = 1721871145,
+},
+},
+{
+["Raid Damage Done"] = {
+62,
+0,
+0,
+77,
+0,
+79,
+["max_value"] = 79,
+["__time"] = 1721871166,
+},
+},
+{
+["Raid Damage Done"] = {
+77,
+0,
+79,
+["max_value"] = 79,
+["__time"] = 1721871214,
+},
+},
+{
+["Raid Damage Done"] = {
+["__time"] = 1721871307,
+},
+},
+{
+["Raid Damage Done"] = {
+["__time"] = 1721871351,
+},
+},
+},
+["encounter_spells"] = {
+},
+["emotes"] = {
+},
+}

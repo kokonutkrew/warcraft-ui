@@ -1,0 +1,19 @@
+
+SimulationCraftDB = {
+["profileKeys"] = {
+["Kkalterac - Alterac Mountains"] = "Kkalterac - Alterac Mountains",
+["Moumoo - Moon Guard"] = "Moumoo - Moon Guard",
+["Twinkky - Emerald Dream"] = "Twinkky - Emerald Dream",
+["Marshmello - Area 52"] = "Marshmello - Area 52",
+},
+["profiles"] = {
+["Kkalterac - Alterac Mountains"] = {
+},
+["Moumoo - Moon Guard"] = {
+},
+["Twinkky - Emerald Dream"] = {
+},
+["Marshmello - Area 52"] = {
+},
+},
+}

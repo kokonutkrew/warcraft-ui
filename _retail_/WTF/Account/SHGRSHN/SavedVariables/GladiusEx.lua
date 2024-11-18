@@ -31,16 +31,16 @@ GladiusExDB = {
 ["profiles"] = {
 ["Default"] = {
 ["y"] = {
-["anchor_arena"] = 647.1109531693946,
-["arena3"] = 597.6887297504436,
-["arena2"] = 664.5331324107065,
-["arena1"] = 731.377621876527,
+["anchor_arena"] = 502.7555677294731,
+["arena3"] = 453.3333443105221,
+["arena2"] = 520.1777469707849,
+["arena1"] = 587.0221930338266,
 },
 ["x"] = {
-["anchor_arena"] = 1196.08883104589,
-["arena3"] = 1241.600030064583,
-["arena2"] = 1241.600030064583,
-["arena1"] = 1241.600030064583,
+["anchor_arena"] = 916.622331223225,
+["arena3"] = 962.1335302419175,
+["arena2"] = 962.1335302419175,
+["arena1"] = 962.1335302419175,
 },
 },
 },
@@ -53,16 +53,16 @@ GladiusExDB = {
 ["profiles"] = {
 ["Default"] = {
 ["y"] = {
-["anchor_party"] = 337.7777642554702,
-["player"] = 416.7111212015152,
-["party2"] = 290.1333186573447,
-["party1"] = 353.4222307801247,
+["anchor_party"] = 530.4889017343521,
+["player"] = 609.4222803817865,
+["party2"] = 482.8444127334478,
+["party1"] = 546.1333465576172,
 },
 ["x"] = {
-["anchor_party"] = 1200.355584621429,
-["player"] = 1260.088919401169,
-["party2"] = 1260.088919401169,
-["party1"] = 1260.088919401169,
+["anchor_party"] = 220.4444063795927,
+["player"] = 280.1777411593321,
+["party2"] = 280.1777411593321,
+["party1"] = 280.1777411593321,
 },
 },
 },
@@ -77,39 +77,65 @@ GladiusExDB = {
 },
 ["HealthBar"] = {
 },
-["Clicks"] = {
+["party_PetBar"] = {
 },
-["Tags"] = {
+["PetBar"] = {
 },
 ["party_Cooldowns"] = {
 },
 ["party_Clicks"] = {
 },
-["party_Auras"] = {
+["Announcements"] = {
 },
 ["party_Interrupts"] = {
 },
-["party_Tags"] = {
+["Alerts"] = {
 },
 ["TargetBar"] = {
 },
-["Alerts"] = {
+["party_Tags"] = {
 },
-["Announcements"] = {
+["party_Auras"] = {
 },
-["PetBar"] = {
+["Tags"] = {
 },
-["party_PetBar"] = {
+["Clicks"] = {
 },
 ["ClassIcon"] = {
 },
 },
 ["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "Default",
+["Samoanghost - Area 52"] = "Default",
+["Samoansavage - Area 52"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoanmystic - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
+["Forgecraft - Area 52"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoanbeast - Area 52"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Kk - Bloodhoof"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Samoandrake - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+["locked"] = true,
 },
 },
 }

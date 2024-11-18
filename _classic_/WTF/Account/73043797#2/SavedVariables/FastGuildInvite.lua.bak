@@ -1,0 +1,22 @@
+
+FGI_DB = {
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Default",
+		["Marshmellow - Grobbulus"] = "Default",
+	},
+	["global"] = {
+		["minimap"] = {
+			["minimapPos"] = 167.285410990271,
+		},
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Tigerlilly - Grobbulus",
+		["Marshmellow - Grobbulus"] = "Marshmellow - Grobbulus",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

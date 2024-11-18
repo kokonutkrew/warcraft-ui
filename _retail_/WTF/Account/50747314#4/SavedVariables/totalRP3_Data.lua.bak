@@ -1,0 +1,121 @@
+
+TRP3_AddonLocale = nil
+TRP3_Register = {
+["blockList"] = {
+},
+["companion"] = {
+},
+["character"] = {
+["Naelania-WyrmrestAccord"] = {
+["extended"] = 1045,
+["profileID"] = "0818223223SZcch",
+["class"] = "MAGE",
+["msp"] = false,
+["classID"] = 8,
+["gender"] = 3,
+["extendedVersion"] = "2.2.1",
+["race"] = "BloodElf",
+["faction"] = "Horde",
+["roleplayExperience"] = 1,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.2",
+},
+["Rikkara-ScarletCrusade"] = {
+["extended"] = 0,
+["profileID"] = "0808073335nq4F*",
+["class"] = "WARRIOR",
+["msp"] = false,
+["classID"] = 1,
+["race"] = "Orc",
+["gender"] = 3,
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.3",
+["isTrial"] = 0,
+["client"] = "Total RP 3",
+},
+},
+["profiles"] = {
+["0818223223SZcch"] = {
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1724046919,
+["link"] = {
+["Naelania-WyrmrestAccord"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Darkfallen",
+["LN"] = "Sombersong",
+["EC"] = "Red",
+["FN"] = "Naelania",
+["v"] = 5,
+["CL"] = "Mage",
+["PS"] = {
+},
+["BP"] = "Silvermoon City",
+["EH"] = "bc060a",
+["RS"] = 0,
+["TI"] = "Magistrix",
+["IC"] = "achievement_character_bloodelf_female",
+["MI"] = {
+},
+},
+["zone"] = "Timeless Isle - The Timeless Shore",
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["0808073335nq4F*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+["time"] = 1724046916,
+["link"] = {
+["Rikkara-ScarletCrusade"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warrior",
+["RA"] = "Orc",
+["FN"] = "Rikkara",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_orc_female",
+["v"] = 72,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["zone"] = "Timeless Isle - The Timeless Shore",
+},
+},
+}

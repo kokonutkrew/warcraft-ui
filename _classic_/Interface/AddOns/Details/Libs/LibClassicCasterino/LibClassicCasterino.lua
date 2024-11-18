@@ -4,7 +4,7 @@ Author: d87
 --]================]
 if WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then return end
 
-local MAJOR, MINOR = "LibClassicCasterino", 35
+local MAJOR, MINOR = "LibClassicCasterino", 32
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
 if not lib then return end
 
@@ -105,7 +105,7 @@ local function CastStart(srcGUID, castType, spellName, spellID, overrideCastTime
     end
     local decreased = talentDecreased[spellID]
     if decreased then
-        castTime = castTime - decreased*1000
+        castTime = castTime - decreased
     end
     if overrideCastTime then
         castTime = overrideCastTime
@@ -143,7 +143,7 @@ local function CastStart(srcGUID, castType, spellName, spellID, overrideCastTime
     end
 end
 
-local function CastStop(srcGUID, castType, suffix, suffix2 )
+local function CastStop(srcGUID, castType, suffix )
     local currentCast = casters[srcGUID]
     if currentCast then
         castType = castType or currentCast[1]
@@ -158,9 +158,6 @@ local function CastStop(srcGUID, castType, suffix, suffix2 )
                 callbacks:Fire(event, "player")
             end
             FireToUnits(event, srcGUID)
-            if suffix2 then
-                FireToUnits("UNIT_SPELLCAST_"..suffix2, srcGUID)
-            end
         else
             FireToUnits("UNIT_SPELLCAST_CHANNEL_STOP", srcGUID)
         end
@@ -202,7 +199,7 @@ function f:COMBAT_LOG_EVENT_UNFILTERED(event)
         end
     elseif eventType == "SPELL_CAST_FAILED" then
 
-            CastStop(srcGUID, "CAST", "INTERRUPTED", "STOP")
+            CastStop(srcGUID, "CAST", "INTERRUPTED")
 
     elseif eventType == "SPELL_CAST_SUCCESS" then
             if isSrcPlayer then
@@ -233,13 +230,13 @@ function f:COMBAT_LOG_EVENT_UNFILTERED(event)
                     end
                 end
             end
-            CastStop(srcGUID, nil, "SUCCEEDED", "STOP")
+            CastStop(srcGUID, nil, "STOP")
 
     elseif eventType == "SPELL_INTERRUPT" then
 
-            CastStop(dstGUID, nil, "INTERRUPTED", "STOP")
+            CastStop(dstGUID, nil, "INTERRUPTED")
     elseif eventType == "UNIT_DIED" then
-            CastStop(dstGUID, nil, "INTERRUPTED", "STOP")
+            CastStop(dstGUID, nil, "INTERRUPTED")
 
     elseif  eventType == "SPELL_AURA_APPLIED" or
             eventType == "SPELL_AURA_REFRESH" or
@@ -247,7 +244,7 @@ function f:COMBAT_LOG_EVENT_UNFILTERED(event)
     then
         if isSrcPlayer then
             if crowdControlAuras[spellName] then
-                CastStop(dstGUID, nil, "INTERRUPTED", "STOP")
+                CastStop(dstGUID, nil, "INTERRUPTED")
                 return
             end
 

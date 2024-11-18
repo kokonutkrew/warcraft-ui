@@ -1,0 +1,710 @@
+
+DataStore_Containers_Characters = {
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["links"] = {
+},
+["info"] = 1603556871217,
+["link"] = "|cffffffff|Hitem:174780::::::::3:1453:::::::::|h[Emptied First Aid Kit]|h|r",
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+11455168513,
+51052546,
+318832642,
+216203267,
+7667716,
+},
+["link"] = false,
+["info"] = 5760,
+["links"] = {
+"|cffffffff|Hitem:174792::::::::4:1453:::1:6499:2:28:741:9:2:::::|h[Stitched Leather Boots]|h|r",
+"|cff9d9d9d|Hitem:779::::::::4:1453:::::::::|h[Shiny Seashell]|h|r",
+"|cff9d9d9d|Hitem:4865::::::::4:1453:::::::::|h[Ruined Pelt]|h|r",
+"|cff9d9d9d|Hitem:3299::::::::4:1453:::::::::|h[Fractured Canine]|h|r",
+"|cffffffff|Hitem:117::::::::4:1453:::::::::|h[Tough Jerky]|h|r",
+},
+},
+},
+["bagInfo"] = 17430,
+["lastUpdate"] = 1720734017,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["links"] = {
+},
+["info"] = 1603556871217,
+["link"] = "|cffffffff|Hitem:174780::::::::43:102:::::::::|h[Emptied First Aid Kit]|h|r",
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+["info"] = 140117021777,
+["link"] = "|cffffffff|Hitem:175239::::::::43:102:::::::::|h[Standard Issue Knapsack]|h|r",
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+["info"] = 140119117889,
+["link"] = "|cffffffff|Hitem:175240::::::::43:102:::::::::|h[Tattered Leather Bag]|h|r",
+},
+{
+["items"] = {
+455344129,
+14656602113,
+14290583553,
+14290780161,
+8658616321,
+4123262986,
+11481251841,
+14305001473,
+11480530945,
+14307557377,
+},
+["links"] = {
+"|cffffffff|Hitem:6948::::::::43:102:::::::::|h[Hearthstone]|h|r",
+"|cff0070dd|Hitem:223642::::::::43:102:::::::::|h[Memory of Northrend]|h|r",
+"|cffa335ee|Hitem:218057::::::::43:102::5:6:10313:10532:8902:10872:1615:8767::::::|h[Dalaran Defender's Mask]|h|r",
+"|cffa335ee|Hitem:218060::::::::43:102::5:6:10313:10532:8902:1615:8767:10872::::::|h[Dalaran Defender's Wraps]|h|r",
+"|cffffffff|Hitem:132120::::::::43:102::11::1:28:356:::::|h[Stormwind Portal Stone]|h|r",
+"|cffffffff|Hitem:62916::::::::43:102:::::::::|h[Dark Iron Bullet]|h|r",
+"|cff1eff00|Hitem:175190::::::::43:102::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Helm]|h|r",
+"|cff0070dd|Hitem:218277::::::::43:102::25:3:11037:6652:10533:1:9:20:::::|h[Recruit's Sturdy Cincture]|h|r",
+"|cff1eff00|Hitem:175179::::::::43:102::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Leather Tunic]|h|r",
+"|cff0070dd|Hitem:218316::::::::43:102::25:2:11037:6652:1:9:30:::::|h[Recruit's Sturdy Maul]|h|r",
+},
+["info"] = 1592412603489,
+["link"] = "|cffffffff|Hitem:178176::::::::43:102:::::::::|h[Tunk's Trunk]|h|r",
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+14307688449,
+},
+["link"] = false,
+["info"] = 7808,
+["links"] = {
+"|cff0070dd|Hitem:218318::::::::43:102::25:2:11037:6652:1:9:43:::::|h[Recruit's Sturdy Rod]|h|r",
+},
+},
+},
+["bagInfo"] = 42036,
+["lastUpdate"] = 1723496453,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+455344129,
+},
+["link"] = false,
+["info"] = 7808,
+["links"] = {
+"|cffffffff|Hitem:6948::::::::1:1446::75:::::::|h[Hearthstone]|h|r",
+},
+},
+},
+["bagInfo"] = 15376,
+["lastUpdate"] = 1722623558,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:184479::::::::70:268:::::::::|h[]|h|r",
+["info"] = 3699852197104,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:184479::::::::70:268:::::::::|h[]|h|r",
+["info"] = 3699852197104,
+["links"] = {
+},
+},
+{
+["items"] = {
+14718664705,
+14718664705,
+10082713601,
+14720172033,
+14719254529,
+10082385921,
+14719975425,
+10082582529,
+14720958465,
+5557714945,
+10082779137,
+10082910209,
+10082844673,
+10082975745,
+10082648065,
+5661851649,
+5853478913,
+14442561537,
+14442561537,
+},
+["link"] = "|cff0070dd|Hitem:184479::::::::70:268:::::::::|h[Shrouded Cloth Bag]|h|r",
+["info"] = 3699852187379,
+["links"] = {
+"|cff1eff00|Hitem:224589::::::::70:268::17:4:10382:6652:1696:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Cincture of the Fireflash]|h|r",
+"|cff1eff00|Hitem:224589::::::::70:268::17:4:10382:6652:1699:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Cincture of the Feverflare]|h|r",
+"|cff1eff00|Hitem:153850::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Britches]|h|r",
+"|cff1eff00|Hitem:224612::::::::70:268::17:4:10382:6652:1676:10844:2:9:70:28:2832:::::|h[Expeditionary Shinguards of the Quickblade]|h|r",
+"|cff1eff00|Hitem:224598::::::::70:268::17:4:10382:6652:1676:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Leggings of the Quickblade]|h|r",
+"|cff1eff00|Hitem:153845::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Boots]|h|r",
+"|cff1eff00|Hitem:224609::::::::70:268::17:4:10382:6652:1694:10844:2:9:70:28:2832:::::|h[Expeditionary Boots of the Fireflash]|h|r",
+"|cff1eff00|Hitem:153848::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Cloak of Wisdom]|h|r",
+"|cff1eff00|Hitem:224624::::::::70:268::17:4:10382:6652:1703:10844:2:9:70:28:2832:::::|h[Spinner's Shawl of the Feverflare]|h|r",
+"|cffa335ee|Hitem:84804::::::::70:268:::1:9358:2:9:35:28:2664:::::|h[Malevolent Gladiator's Cape of Cruelty]|h|r",
+"|cff1eff00|Hitem:153851::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Necklace]|h|r",
+"|cff1eff00|Hitem:153853::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Band of Wisdom]|h|r",
+"|cff1eff00|Hitem:153852::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Ring of Wisdom]|h|r",
+"|cff1eff00|Hitem:153854::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Stone of Wisdom]|h|r",
+"|cff1eff00|Hitem:153849::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Idol of Wisdom]|h|r",
+"|cffffffff|Hitem:86393::::::::70:268::::1:28:60:::::|h[Tablet of Ren Yun]|h|r",
+"|cffa335ee|Hitem:89317::::::::70:268:::::::::|h[Claw of Anger]|h|r",
+"|cff1eff00|Hitem:220376::::::::70:268::25:1:11225:2:9:74:28:2762:::::|h[Bismuth Lockbox]|h|r",
+"|cff1eff00|Hitem:220376::::::::70:268::27:1:11225:2:9:74:28:2762:::::|h[Bismuth Lockbox]|h|r",
+},
+},
+{
+["items"] = {
+455344129,
+11184308225,
+11183783937,
+10083106817,
+14721220609,
+14721089537,
+11184373761,
+11184373761,
+14922088449,
+14721941505,
+14721482753,
+14721482753,
+14721482753,
+14721810433,
+10082516993,
+14720106497,
+14720106497,
+10083041281,
+14719844353,
+10083762177,
+14719909889,
+14719778817,
+14719778817,
+10083237889,
+14718795777,
+10082451457,
+14719451137,
+14719123457,
+14719123457,
+10083172353,
+},
+["link"] = "|cff0070dd|Hitem:184479::::::::70:268:::::::::|h[Shrouded Cloth Bag]|h|r",
+["info"] = 3699852181747,
+["links"] = {
+"|cffffffff|Hitem:6948::::::::70:268::105:::::::|h[Hearthstone]|h|r",
+"|cff1eff00|Hitem:170659::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Staff]|h|r",
+"|cff1eff00|Hitem:170651::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Spire]|h|r",
+"|cff1eff00|Hitem:153856::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Staff]|h|r",
+"|cff1eff00|Hitem:224628::::::::70:268::17:4:10382:6652:1690:10844:2:9:70:28:2832:::::|h[Arathi Claymore of the Fireflash]|h|r",
+"|cff1eff00|Hitem:224626::::::::70:268::17:4:10382:6652:1685:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Staff of the Peerless]|h|r",
+"|cff1eff00|Hitem:170660::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Sword]|h|r",
+"|cff1eff00|Hitem:170660::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Sword]|h|r",
+"|cff1eff00|Hitem:227693::::::::70:268::17:4:10382:6652:1681:10844:2:9:70:28:2832:::::|h[Expeditionary Blade of the Quickblade]|h|r",
+"|cff1eff00|Hitem:224639::::::::70:268::17:4:10382:6652:1716:10844:2:9:70:28:2832:::::|h[Expeditionary Chopper of the Harmonious]|h|r",
+"|cff1eff00|Hitem:224632::::::::70:268::17:4:10382:6652:1688:10844:2:9:70:28:2832:::::|h[Underscout's Kukri of the Peerless]|h|r",
+"|cff1eff00|Hitem:224632::::::::70:268::17:4:10382:6652:1686:10844:2:9:70:28:2832:::::|h[Underscout's Kukri of the Peerless]|h|r",
+"|cff1eff00|Hitem:224632::::::::70:268::17:4:10382:6652:1682:10844:2:9:70:28:2832:::::|h[Underscout's Kukri of the Quickblade]|h|r",
+"|cff1eff00|Hitem:224637::::::::70:268::17:4:10382:6652:1687:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Orb of the Peerless]|h|r",
+"|cff1eff00|Hitem:153847::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Hood]|h|r",
+"|cff1eff00|Hitem:224611::::::::70:268::17:5:10382:6652:1703:10844:11036:2:9:70:28:2832:::::|h[Expeditionary Helm of the Feverflare]|h|r",
+"|cff1eff00|Hitem:224611::::::::70:268::17:4:10382:6652:1700:10844:2:9:70:28:2832:::::|h[Expeditionary Helm of the Feverflare]|h|r",
+"|cff1eff00|Hitem:153855::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Shoulders]|h|r",
+"|cff1eff00|Hitem:224607::::::::70:268::17:4:10382:6652:1681:10844:2:9:70:28:2832:::::|h[Underscout's Shoulderguards of the Quickblade]|h|r",
+"|cff1eff00|Hitem:153866::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Jerkin]|h|r",
+"|cff1eff00|Hitem:224608::::::::70:268::17:4:10382:6652:1697:10844:2:9:70:28:2832:::::|h[Expeditionary Brigandine of the Feverflare]|h|r",
+"|cff1eff00|Hitem:224606::::::::70:268::17:4:10382:6652:1692:10844:2:9:70:28:2832:::::|h[Underscout's Jerkin of the Fireflash]|h|r",
+"|cff1eff00|Hitem:224606::::::::70:268::17:4:10382:6652:1700:10844:2:9:70:28:2832:::::|h[Underscout's Jerkin of the Feverflare]|h|r",
+"|cff1eff00|Hitem:153858::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Bindings]|h|r",
+"|cff1eff00|Hitem:224591::::::::70:268::17:4:10382:6652:1708:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Wraps of the Aurora]|h|r",
+"|cff1eff00|Hitem:153846::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Gloves]|h|r",
+"|cff1eff00|Hitem:224601::::::::70:268::17:4:10382:6652:1678:10844:2:9:70:28:2832:::::|h[Underscout's Gloves of the Quickblade]|h|r",
+"|cff1eff00|Hitem:224596::::::::70:268::17:4:10382:6652:1705:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Mitts of the Aurora]|h|r",
+"|cff1eff00|Hitem:224596::::::::70:268::17:4:10382:6652:1684:10844:2:9:70:28:2832:::::|h[Deep-Dweller's Mitts of the Peerless]|h|r",
+"|cff1eff00|Hitem:153857::::::::70:268::105:1:11073:2:9:70:28:2484:::::|h[Mistdancer Waistband]|h|r",
+},
+},
+{
+["items"] = {
+14782890022,
+14782693424,
+14648082534,
+14734328280,
+},
+["link"] = "|cffffffff|Hitem:194715::::::::70:268:::::::::|h[Gatherer's Reagent Pouch]|h|r",
+["info"] = 140115979473,
+["links"] = {
+"|cff1eff00|Hitem:225569::::::::70:268:::::::::|h[Clipped Bird Wing]|h|r",
+"|cff1eff00|Hitem:225566::::::::70:268:::::::::|h[Warped Wing]|h|r",
+"|cffffffff|Hitem:223512::::::::70:268:::::::::|h[Basically Beef]|h|r",
+"|cff1eff00|Hitem:224828::::::::70:268::::1:38:1:::::|h[Weavercloth |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
+},
+},
+[0] = {
+["items"] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+14434238467,
+14436073473,
+14975434755,
+14975565828,
+14438825985,
+14439022593,
+},
+["link"] = false,
+["info"] = 5248,
+["links"] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+"|cff9d9d9d|Hitem:220249::::::::70:268:::::::::|h[Chipped Mandible]|h|r",
+"|cff9d9d9d|Hitem:220277::::::::70:268:::::::::|h[Carapace Fragment]|h|r",
+"|cff9d9d9d|Hitem:228507::::::::70:268:::::::::|h[Swarmite Eggsac]|h|r",
+"|cff9d9d9d|Hitem:228509::::::::70:268:::::::::|h[Diaphanous Webbing]|h|r",
+"|cff9d9d9d|Hitem:220319::::::::70:268::25:1:10350:2:9:74:28:2762:::::|h[Distressed Breeches]|h|r",
+"|cff9d9d9d|Hitem:220322::::::::70:268::25:1:10350:2:9:74:28:2762:::::|h[Distressed Bracers]|h|r",
+},
+},
+},
+["bagInfo"] = 105634,
+["lastUpdate"] = 1725544077,
+},
+{
+["Cooldowns"] = {
+[4001] = {
+["startTime"] = 268913.488,
+["duration"] = 1800,
+},
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:184479::::::::70:104:::::::::|h[]|h|r",
+["info"] = 3699852197104,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:184479::::::::70:104:::::::::|h[]|h|r",
+["info"] = 3699852197104,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["link"] = "|cffffffff|Hitem:184479::::::::70:104:::::::::|h[]|h|r",
+["info"] = 3699852197104,
+["links"] = {
+},
+},
+{
+["items"] = {
+455344129,
+nil,
+nil,
+10047258625,
+161873921,
+161873921,
+161873921,
+159580161,
+159580161,
+159907841,
+235077633,
+9896591361,
+},
+["link"] = "|cff0070dd|Hitem:184479::::::::70:104:::::::::|h[Shrouded Cloth Bag]|h|r",
+["info"] = 3699852191987,
+["links"] = {
+"|cffffffff|Hitem:6948::::::::70:104::105:::::::|h[Hearthstone]|h|r",
+nil,
+nil,
+"|cff0070dd|Hitem:153309::::::::70:104::::1:28:337:::::|h[Unyielding Peacekeeper's Mace]|h|r",
+"|cffffffff|Hitem:2470::::::::70:104::14::1:28:884:::::|h[Reinforced Leather Vest]|h|r",
+"|cffffffff|Hitem:2470::::::::70:104::14::1:28:884:::::|h[Reinforced Leather Vest]|h|r",
+"|cffffffff|Hitem:2470::::::::70:104::14::1:28:884:::::|h[Reinforced Leather Vest]|h|r",
+"|cffffffff|Hitem:2435::::::::70:104::14::1:28:884:::::|h[Embroidered Armor]|h|r",
+"|cffffffff|Hitem:2435::::::::70:104::14::1:28:884:::::|h[Embroidered Armor]|h|r",
+"|cffffffff|Hitem:2440::::::::70:104::14::1:28:884:::::|h[Embroidered Gloves]|h|r",
+"|cffffffff|Hitem:3587::::::::70:104::14::1:28:884:::::|h[Embroidered Belt]|h|r",
+"|cffa335ee|Hitem:151010::::::::70:104::30:4:3397:1478:5855:3336:1:28:347:::::|h[Narouan Fin]|h|r",
+},
+},
+{
+["items"] = {
+8155234307,
+2330591234,
+14426701825,
+14426767361,
+},
+["link"] = "|cffffffff|Hitem:194715::::::::70:104:::::::::|h[Gatherer's Reagent Pouch]|h|r",
+["info"] = 140115979473,
+["links"] = {
+"|cffffffff|Hitem:124439::::::::70:104:::::::::|h[Unbroken Tooth]|h|r",
+"|cffffffff|Hitem:35562::::::::70:104:::::::::|h[Bear Flank]|h|r",
+"|cffffffff|Hitem:220134::::::::70:104:::::::::|h[Dilly-Dally Dace]|h|r",
+"|cffffffff|Hitem:220135::::::::70:104:::::::::|h[Bloody Perch]|h|r",
+},
+},
+[0] = {
+["items"] = {
+11181555713,
+11181162497,
+10011213825,
+14968094721,
+14856486915,
+8937603076,
+14436335619,
+427950081,
+428081153,
+428146689,
+14434369539,
+14434631684,
+14967504897,
+14435680259,
+14435811334,
+14434893829,
+},
+["link"] = false,
+["info"] = 128,
+["links"] = {
+"|cffffffff|Hitem:170617::::::::70:104::105:1:11073:2:9:70:28:2484:::::|h[]|h|r",
+"|cffffffff|Hitem:170611::::::::70:104::105:1:11073:2:9:70:28:2484:::::|h[]|h|r",
+"|cffffffff|Hitem:152759::::::::70:104:::5:1694:3629:1472:5855:3336:1:28:337:::::|h[]|h|r",
+"|cffffffff|Hitem:228395::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:226692::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:136377::::::::70:104:::::::::|h[]|h|r",
+"|cff9d9d9d|Hitem:220281::::::::70:104:::::::::|h[Charged Fragments]|h|r",
+"|cffffffff|Hitem:6530::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:6532::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:6533::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:220251::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:220255::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:228386::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:220271::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:220273::::::::70:104:::::::::|h[]|h|r",
+"|cffffffff|Hitem:220259::::::::70:104:::::::::|h[]|h|r",
+},
+},
+},
+["bagInfo"] = 135330,
+["lastUpdate"] = 1725024320,
+},
+{
+["Cooldowns"] = {
+},
+["Containers"] = {
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["info"] = 0,
+["links"] = {
+},
+},
+[0] = {
+["items"] = {
+455344129,
+14290321409,
+13646299137,
+1665794049,
+4123262983,
+13562150913,
+2234056705,
+2276458497,
+2884370433,
+13644988417,
+178388993,
+},
+["link"] = false,
+["info"] = 2688,
+["links"] = {
+"|cffffffff|Hitem:6948::::::::61:266::75:::::::|h[Hearthstone]|h|r",
+"|cffa335ee|Hitem:218053::::::::61:266::5:6:10313:10532:8902:10872:1615:8767::::::|h[Dalaran Defender's Clasps]|h|r",
+"|cffffffff|Hitem:208226::::::::61:266:::::::::|h[Mysterious Letter]|h|r",
+"|cff9d9d9d|Hitem:25418::::::::61:266:::::::::|h[Razor Sharp Fang]|h|r",
+"|cffffffff|Hitem:62916::::::::61:266:::::::::|h[Dark Iron Bullet]|h|r",
+"|cffffffff|Hitem:206942::::::::61:266:::::::::|h[Sealed Kaldorei Scroll]|h|r",
+"|cffffffff|Hitem:34089::::::::61:266:::::::::|h[Alicia's Poem]|h|r",
+"|cffffffff|Hitem:34736::::::::61:266:::::::::|h[Chunk o' Mammoth]|h|r",
+"|cffffffff|Hitem:44012::::::::61:266:::::::::|h[Underbelly Elixir]|h|r",
+"|cffffffff|Hitem:208206::::::::61:266::11::1:28:2715:::::|h[Teleportation Crystal]|h|r",
+"|cffffffff|Hitem:2722::::::::61:266:::::::::|h[Wine Ticket]|h|r",
+},
+},
+},
+["bagInfo"] = 5136,
+["lastUpdate"] = 1726029770,
+},
+}
+DataStore_Containers_Banks = {
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+}
+DataStore_Containers_Guilds = {
+{
+["Tabs"] = {
+},
+},
+{
+["Tabs"] = {
+},
+},
+}
+DataStore_Containers_Reagents = {
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+{
+["items"] = {
+},
+["links"] = {
+},
+},
+}
+DataStore_Containers_VoidStorage = {
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+}
+DataStore_Containers_Keystones = {
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+}
+DataStore_Containers_BankTypes = {
+}
+DataStore_Containers_Warbank = {
+[13] = {
+["items"] = {
+},
+["links"] = {
+},
+},
+}

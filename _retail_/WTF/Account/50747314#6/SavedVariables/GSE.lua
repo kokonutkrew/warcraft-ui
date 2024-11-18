@@ -1,49 +1,130 @@
 
 GSEOptions = {
-["use2"] = false,
+["HideLoginMessage"] = false,
 ["STANDARDFUNCS"] = "|cff55ddcc",
+["showGSEUsers"] = false,
+["msClickRate"] = 250,
 ["COMMENT"] = "|cff55cc55",
-["use14"] = false,
+["filterList"] = {
+["Class"] = true,
+["All"] = false,
+["Global"] = true,
+["Spec"] = true,
+},
 ["EQUALS"] = "|cffccddee",
-["use11"] = false,
+["NUMBER"] = "|cffffaa00",
 ["sendDebugOutputToChatWindow"] = false,
 ["debug"] = false,
-["use6"] = false,
+["CONCAT"] = "|cffcc7777",
 ["CommandColour"] = "|cFF00FF00",
 ["UNKNOWN"] = "|cffff6666",
-["sendDebugOutputToDebugOutput"] = false,
-["hideSoundErrors"] = false,
-["STRING"] = "|cff888888",
-["clearUIErrors"] = false,
-["TitleColour"] = "|cFFFF0000",
-["hideUIErrors"] = false,
-["initialised"] = true,
-["DebugModules"] = {
+["showCurrentSpells"] = true,
+["KEYWORD"] = "|cff88bbdd",
+["ActiveSequenceVersions"] = {
 },
-["INDENT"] = "|cffccaa88",
-["EmphasisColour"] = "|cFFFFFF00",
+["sendDebugOutputToDebugOutput"] = false,
+["DebugPrintModConditionsOnKeyPress"] = false,
+["saveAllMacrosLocal"] = true,
 ["DisabledSequences"] = {
 },
+["STRING"] = "|cff888888",
+["CreateGlobalButtons"] = false,
+["overflowPersonalMacros"] = false,
+["DefaultImportAction"] = "MERGE",
+["TitleColour"] = "|cFFFF0000",
+["editorWidth"] = 700,
+["initialised"] = true,
+["autoCreateMacroStubsGlobal"] = false,
+["DebugModules"] = {
+["Translator"] = false,
+["Startup"] = false,
+["API"] = false,
+["Viewer"] = false,
+["Transmission"] = false,
+["Editor"] = false,
+["GUI"] = false,
+["Storage"] = false,
+["Versions"] = false,
+},
+["resetOOC"] = true,
+["MacroResetModifiers"] = {
+["Alt"] = false,
+["LeftControl"] = false,
+["LeftButton"] = false,
+["LeftAlt"] = false,
+["RightAlt"] = false,
+["RightButton"] = false,
+["Button4"] = false,
+["Button5"] = false,
+["MiddleButton"] = false,
+["RightControl"] = false,
+["Control"] = false,
+["Shift"] = false,
+["LeftShift"] = false,
+["AnyMod"] = false,
+["RightShift"] = false,
+},
+["showGSEoocqueue"] = true,
+["EmphasisColour"] = "|cFFFFFF00",
+["UseVerboseExportFormat"] = false,
 ["WOWSHORTCUTS"] = "|cffddaaff",
 ["RealtimeParse"] = false,
 ["deleteOrphansOnLogout"] = false,
-["ActiveSequenceVersions"] = {
-},
-["overflowPersonalMacros"] = false,
+["OOCQueueDelay"] = 7,
+["shownew"] = true,
 ["AuthorColour"] = "|cFF00D1FF",
-["requireTarget"] = false,
-["useTranslator"] = false,
-["NUMBER"] = "|cffffaa00",
-["use12"] = false,
-["use13"] = false,
+["autoCreateMacroStubsClass"] = true,
+["showMiniMap"] = {
+["hide"] = true,
+},
+["INDENT"] = "|cffccaa88",
+["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+["PromptSample"] = true,
 ["NormalColour"] = "|cFFFFFFFF",
-["CONCAT"] = "|cffcc7777",
-["saveAllMacrosLocal"] = true,
+["editorHeight"] = 700,
+["UseWLMExportFormat"] = true,
 ["setDefaultIconQuestionMark"] = true,
-["KEYWORD"] = "|cff88bbdd",
-["use1"] = false,
+["Updates"] = {
+["3200"] = true,
+},
+["frameLocations"] = {
+},
 }
-GSELibrary = nil
-GSEStorage = nil
-GSE3Storage = nil
-GSESpellCache = nil
+GSESequences = {
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[0] = {
+},
+}
+GSESpellCache = {
+["enUS"] = {
+},
+}
+GSEVariables = {
+}
+GSEMacros = {
+}

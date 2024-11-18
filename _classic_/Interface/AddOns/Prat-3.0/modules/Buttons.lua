@@ -39,7 +39,7 @@ Prat:AddModuleToLoad(function()
   local module = Prat:NewModule(PRAT_MODULE, "AceHook-3.0")
   local PL = module.PL
 
-  --[===[@debug@
+  --[==[@debug@
   PL:AddLocale(PRAT_MODULE, "enUS", {
     ["Buttons"] = true,
     ["Chat window button options."] = true,
@@ -69,7 +69,7 @@ Prat:AddModuleToLoad(function()
     ["showchannel_name"] = "Show Channel Button",
     ["showchannel_desc"] = "Show Channel Button",
   })
-  --@end-debug@]===]
+  --@end-debug@]==]
 
   -- These Localizations are auto-generated. To help with localization
   -- please go to http://www.wowace.com/projects/prat-3-0/localization/
@@ -322,7 +322,7 @@ L = {
 	["Buttons"] = {
 		["alpha_desc"] = "모든 대화창의 대화 메뉴와 화살표의 투명도를 설정합니다.",
 		["alpha_name"] = "투명도 설정",
-		["Buttons"] = "버튼",
+		["Buttons"] = "버튼 [Buttons]",
 		["Chat window button options."] = "대화창 버튼 옵션",
 		["chatmenu_desc"] = "대화 메뉴를 끄고 켭니다.",
 		["chatmenu_name"] = "대화 메뉴 표시",
@@ -675,6 +675,16 @@ end
     self:AdjustButtonFrames(self.db.profile.showButtons)
 
     self:UpdateReminder()
+
+    self:MarkButtonFramesDirty()
+  end
+
+  function module:MarkButtonFramesDirty()
+    for name, frame in pairs(Prat.Frames) do
+      if frame.buttonFrame and frame.buttonFrame.IsLayoutFrame and frame.buttonFrame:IsLayoutFrame() then
+        frame.buttonFrame:MarkDirty()
+      end
+    end
   end
 
   function module:OnModuleDisable()
@@ -752,7 +762,7 @@ end
     local upButton, downButton, bottomButton, min
 
     for name, frame in pairs(Prat.Frames) do
-      if select(4, GetBuildInfo()) < 80000 then
+      if Prat.IsClassic then
         upButton = _G[name .. "ButtonFrameUpButton"]
         upButton:SetScript("OnShow", hide)
         upButton:Hide()
@@ -762,7 +772,7 @@ end
         bottomButton = _G[name .. "ButtonFrameBottomButton"]
         bottomButton:SetScript("OnShow", hide)
         bottomButton:Hide()
-        bottomButton:SetParent(frame)
+        --bottomButton:SetParent(frame)
 
         bottomButton:SetScript("OnClick", function() frame:ScrollToBottom() end)
       end
@@ -790,7 +800,7 @@ end
 
   function module:AdjustMinimizeButtons()
     for name, frame in pairs(Prat.Frames) do
-      local min = _G[name .. "ButtonFrameMinimizeButton"]
+      local min = _G[name .. "ButtonFrameMinimizeButton"] or _G[name .. "MinimizeButton"]
 
       if min then
 
@@ -829,7 +839,7 @@ end
     local upButton, downButton, bottomButton
 
     for name, frame in pairs(Prat.Frames) do
-      if select(4, GetBuildInfo()) < 80000 then
+      if Prat.IsClassic then
         upButton = _G[name .. "ButtonFrameUpButton"]
         upButton:SetScript("OnShow", nil)
         upButton:Show()
@@ -838,7 +848,7 @@ end
         downButton:Show()
         bottomButton = _G[name .. "ButtonFrameBottomButton"]
         bottomButton:SetScript("OnShow", nil)
-        bottomButton:Show()
+        bottomButton:SetShown(self.showButtons)
         bottomButton:SetParent(_G[name .. "ButtonFrame"])
       end
 
@@ -863,7 +873,7 @@ end
     local f = _G[chatFrame:GetName() .. "ButtonFrameBottomButton"]
     local bf = _G[chatFrame:GetName() .. "ButtonFrame"]
 
-    if select(4, GetBuildInfo()) < 80000 then
+    if Prat.IsClassic then
       if self.db.profile.showButtons then
         f:ClearAllPoints()
         f:SetPoint("BOTTOM", bf, "BOTTOM", 0, 0)
@@ -923,6 +933,7 @@ end
       button.override = true
       button:Show()
     end
+    self:MarkButtonFramesDirty()
   end
 
   function module:ScrollDown(frame)
@@ -932,6 +943,7 @@ end
         button:Hide()
       end
     end
+    self:MarkButtonFramesDirty()
   end
 
   function module:ScrollDownForce(frame)
@@ -939,6 +951,7 @@ end
     if button then
       button:Hide()
     end
+    self:MarkButtonFramesDirty()
   end
 
   --function module:AddMessage(frame, text, ...)
@@ -952,6 +965,7 @@ end
     else
       button:Hide()
     end
+    self:MarkButtonFramesDirty()
   end
 
 

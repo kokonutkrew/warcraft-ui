@@ -3,225 +3,65 @@ local fn = addon.functions
 local L = FGI:GetLocale()
 local settings = L.settings
 local size = settings.size
-local color = addon.color
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
 local fontSize = fn.fontSize
 
 local filters, filtersFrame, addfilterFrame
 
 
-local function defaultValues()
-	addfilterFrame.classesCheckBoxDruid:SetValue(false)
-	addfilterFrame.classesCheckBoxHunter:SetValue(false)
-	addfilterFrame.classesCheckBoxMage:SetValue(false)
-	addfilterFrame.classesCheckBoxPaladin:SetValue(false)
-	addfilterFrame.classesCheckBoxPriest:SetValue(false)
-	addfilterFrame.classesCheckBoxRogue:SetValue(false)
-	addfilterFrame.classesCheckBoxShaman:SetValue(false)
-	addfilterFrame.classesCheckBoxWarlock:SetValue(false)
-	addfilterFrame.classesCheckBoxWarrior:SetValue(false)
-	addfilterFrame.classesCheckBoxDeathKnight:SetValue(false)
-	addfilterFrame.classesCheckBoxDemonHunter:SetValue(false)
-	addfilterFrame.classesCheckBoxMonk:SetValue(false)
-	addfilterFrame.classesCheckBoxDeathKnight:Hide()
-	addfilterFrame.classesCheckBoxDemonHunter:Hide()
-	addfilterFrame.classesCheckBoxMonk:Hide()
-	addfilterFrame.classesCheckBoxDruid:Hide()
-	addfilterFrame.classesCheckBoxHunter:Hide()
-	addfilterFrame.classesCheckBoxMage:Hide()
-	addfilterFrame.classesCheckBoxPaladin:Hide()
-	addfilterFrame.classesCheckBoxPriest:Hide()
-	addfilterFrame.classesCheckBoxRogue:Hide()
-	addfilterFrame.classesCheckBoxShaman:Hide()
-	addfilterFrame.classesCheckBoxWarlock:Hide()
-	addfilterFrame.classesCheckBoxWarrior:Hide()
-	addfilterFrame.classesCheckBoxIgnore:SetValue(true)
-	
-	for i=1,#addfilterFrame.rasesCheckBoxRace do
-		addfilterFrame.rasesCheckBoxRace[i]:SetValue(false)
-		addfilterFrame.rasesCheckBoxRace[i]:Hide()
-	end
-	addfilterFrame.rasesCheckBoxIgnore:SetValue(true)
-	
-	addfilterFrame.filterNameEdit:SetText('')
-	addfilterFrame.filterNameEdit:SetDisabled(false)
-	addfilterFrame.excludeNameEditBox:SetText('')
-	addfilterFrame.lvlRangeEditBox:SetText('')
-	addfilterFrame.excludeRepeatEditBox:SetText('')
-	
-	addfilterFrame.change = false
-end
-
-function fn:classIgnoredToggle()
-	local value = addfilterFrame.classesCheckBoxIgnore:GetValue()
-	if not value then
-		addfilterFrame.classesCheckBoxDeathKnight:Show()
-		addfilterFrame.classesCheckBoxDemonHunter:Show()
-		addfilterFrame.classesCheckBoxMonk:Show()
-		addfilterFrame.classesCheckBoxDruid:Show()
-		addfilterFrame.classesCheckBoxHunter:Show()
-		addfilterFrame.classesCheckBoxMage:Show()
-		addfilterFrame.classesCheckBoxPaladin:Show()
-		addfilterFrame.classesCheckBoxPriest:Show()
-		addfilterFrame.classesCheckBoxRogue:Show()
-		addfilterFrame.classesCheckBoxShaman:Show()
-		addfilterFrame.classesCheckBoxWarlock:Show()
-		addfilterFrame.classesCheckBoxWarrior:Show()
-	else
-		addfilterFrame.classesCheckBoxDeathKnight:Hide()
-		addfilterFrame.classesCheckBoxDemonHunter:Hide()
-		addfilterFrame.classesCheckBoxMonk:Hide()
-		addfilterFrame.classesCheckBoxDruid:Hide()
-		addfilterFrame.classesCheckBoxHunter:Hide()
-		addfilterFrame.classesCheckBoxMage:Hide()
-		addfilterFrame.classesCheckBoxPaladin:Hide()
-		addfilterFrame.classesCheckBoxPriest:Hide()
-		addfilterFrame.classesCheckBoxRogue:Hide()
-		addfilterFrame.classesCheckBoxShaman:Hide()
-		addfilterFrame.classesCheckBoxWarlock:Hide()
-		addfilterFrame.classesCheckBoxWarrior:Hide()
-	end
-end
-
-local function getClassFilter()
-	arr = {
-		[L.class.DeathKnight] = addfilterFrame.classesCheckBoxDeathKnight:GetValue() or nil,
-		[L.class.DemonHunter] = addfilterFrame.classesCheckBoxDemonHunter:GetValue() or nil,
-		[L.class.Monk] = addfilterFrame.classesCheckBoxMonk:GetValue() or nil,
-		[L.class.Druid] = addfilterFrame.classesCheckBoxDruid:GetValue() or nil,
-		[L.class.Hunter] = addfilterFrame.classesCheckBoxHunter:GetValue() or nil,
-		[L.class.Mage] = addfilterFrame.classesCheckBoxMage:GetValue() or nil,
-		[L.class.Paladin] = addfilterFrame.classesCheckBoxPaladin:GetValue() or nil,
-		[L.class.Priest] = addfilterFrame.classesCheckBoxPriest:GetValue() or nil,
-		[L.class.Rogue] = addfilterFrame.classesCheckBoxRogue:GetValue() or nil,
-		[L.class.Shaman] = addfilterFrame.classesCheckBoxShaman:GetValue() or nil,
-		[L.class.Warlock] = addfilterFrame.classesCheckBoxWarlock:GetValue() or nil,
-		[L.class.Warrior] = addfilterFrame.classesCheckBoxWarrior:GetValue() or nil
+local RAID_DIFFICULTY = {
+	[1] = {
+		suffix = L.RAID_DIFFICULTY_SUFFIX_NORMAL,
+		name = L.RAID_DIFFICULTY_NAME_NORMAL,
+		color = { 0.12, 1.00, 0.00, hex = "1eff00" }
+	},
+	[2] = {
+		suffix = L.RAID_DIFFICULTY_SUFFIX_HEROIC,
+		name = L.RAID_DIFFICULTY_NAME_HEROIC,
+		color = { 0.00, 0.44, 0.87, hex = "0070dd" }
+	},
+	[3] = {
+		suffix = L.RAID_DIFFICULTY_SUFFIX_MYTHIC,
+		name = L.RAID_DIFFICULTY_NAME_MYTHIC,
+		color = { 0.64, 0.21, 0.93, hex = "a335ee" }
 	}
-	return arr
-end
+}
 
-local function createClassBoxes()
-addfilterFrame.classesCheckBoxDeathKnight = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxDeathKnight
-frame:SetWidth(size.DeathKnight)
-frame:SetLabel(L.class.DeathKnight)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxIgnore.frame, "BOTTOMLEFT", 0, -2)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxDemonHunter = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxDemonHunter
-frame:SetWidth(size.DemonHunter)
-frame:SetLabel(L.class.DemonHunter)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDeathKnight.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxMonk = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxMonk
-frame:SetWidth(size.Monk)
-frame:SetLabel(L.class.Monk)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDemonHunter.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxDruid = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxDruid
-frame:SetWidth(size.Druid)
-frame:SetLabel(L.class.Druid)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxMonk.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxHunter = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxHunter
-frame:SetWidth(size.Hunter)
-frame:SetLabel(L.class.Hunter)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDruid.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxMage = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxMage
-frame:SetWidth(size.Mage)
-frame:SetLabel(L.class.Mage)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxHunter.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxPaladin = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxPaladin
-frame:SetWidth(size.Paladin)
-frame:SetLabel(L.class.Paladin)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxMage.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxPriest = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxPriest
-frame:SetWidth(size.Priest)
-frame:SetLabel(L.class.Priest)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxPaladin.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxRogue = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxRogue
-frame:SetWidth(size.Rogue)
-frame:SetLabel(L.class.Rogue)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxPriest.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxShaman = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxShaman
-frame:SetWidth(size.Shaman)
-frame:SetLabel(L.class.Shaman)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxRogue.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxWarlock = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxWarlock
-frame:SetWidth(size.Warlock)
-frame:SetLabel(L.class.Warlock)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxShaman.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-
-addfilterFrame.classesCheckBoxWarrior = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxWarrior
-frame:SetWidth(size.Warrior)
-frame:SetLabel(L.class.Warrior)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxWarlock.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
-end
-
---@non-retail@
 local function defaultValues()
 	addfilterFrame.classesCheckBoxDruid:SetValue(false)
-	addfilterFrame.classesCheckBoxHunter:SetValue(false)
-	addfilterFrame.classesCheckBoxMage:SetValue(false)
-	addfilterFrame.classesCheckBoxPaladin:SetValue(false)
-	addfilterFrame.classesCheckBoxPriest:SetValue(false)
-	addfilterFrame.classesCheckBoxRogue:SetValue(false)
-	addfilterFrame.classesCheckBoxShaman:SetValue(false)
-	addfilterFrame.classesCheckBoxWarlock:SetValue(false)
-	addfilterFrame.classesCheckBoxWarrior:SetValue(false)
 	addfilterFrame.classesCheckBoxDruid:Hide()
+	addfilterFrame.classesCheckBoxHunter:SetValue(false)
 	addfilterFrame.classesCheckBoxHunter:Hide()
+	addfilterFrame.classesCheckBoxMage:SetValue(false)
 	addfilterFrame.classesCheckBoxMage:Hide()
+	addfilterFrame.classesCheckBoxPaladin:SetValue(false)
 	addfilterFrame.classesCheckBoxPaladin:Hide()
+	addfilterFrame.classesCheckBoxPriest:SetValue(false)
 	addfilterFrame.classesCheckBoxPriest:Hide()
+	addfilterFrame.classesCheckBoxRogue:SetValue(false)
 	addfilterFrame.classesCheckBoxRogue:Hide()
+	addfilterFrame.classesCheckBoxShaman:SetValue(false)
 	addfilterFrame.classesCheckBoxShaman:Hide()
+	addfilterFrame.classesCheckBoxWarlock:SetValue(false)
 	addfilterFrame.classesCheckBoxWarlock:Hide()
+	addfilterFrame.classesCheckBoxWarrior:SetValue(false)
 	addfilterFrame.classesCheckBoxWarrior:Hide()
+
+	--@non-version-classic@
+	addfilterFrame.classesCheckBoxDeathKnight:SetValue(false)
+	addfilterFrame.classesCheckBoxDeathKnight:Hide()
+	--@end-non-version-classic@
+
+	--[====[@version-retail@
+	addfilterFrame.classesCheckBoxMonk:SetValue(false)
+	addfilterFrame.classesCheckBoxMonk:Hide()
+	addfilterFrame.classesCheckBoxDemonHunter:SetValue(false)
+	addfilterFrame.classesCheckBoxDemonHunter:Hide()
+	addfilterFrame.classesCheckBoxEvoker:SetValue(false)
+	addfilterFrame.classesCheckBoxEvoker:Hide()
+	--@end-version-retail@]====]
 	addfilterFrame.classesCheckBoxIgnore:SetValue(true)
 	
 	for i=1,#addfilterFrame.rasesCheckBoxRace do
@@ -234,7 +74,11 @@ local function defaultValues()
 	addfilterFrame.filterNameEdit:SetDisabled(false)
 	addfilterFrame.excludeNameEditBox:SetText('')
 	addfilterFrame.lvlRangeEditBox:SetText('')
-	addfilterFrame.excludeRepeatEditBox:SetText('')
+	addfilterFrame.rioMPlusEditBox:SetText('')
+	addfilterFrame.rioRaidProgressName_EditBox:SetText('')
+	addfilterFrame.rioRaidProgressN_EditBox:SetText('')
+	addfilterFrame.rioRaidProgressH_EditBox:SetText('')
+	addfilterFrame.rioRaidProgressM_EditBox:SetText('')
 	
 	addfilterFrame.change = false
 end
@@ -251,6 +95,16 @@ function fn:classIgnoredToggle()
 		addfilterFrame.classesCheckBoxShaman:Show()
 		addfilterFrame.classesCheckBoxWarlock:Show()
 		addfilterFrame.classesCheckBoxWarrior:Show()
+
+		--@non-version-classic@
+		addfilterFrame.classesCheckBoxDeathKnight:Show()
+		--@end-non-version-classic@
+
+		--[====[@version-retail@
+		addfilterFrame.classesCheckBoxMonk:Show()
+		addfilterFrame.classesCheckBoxDemonHunter:Show()
+		addfilterFrame.classesCheckBoxEvoker:Show()
+		--@end-version-retail@]====]
 	else
 		addfilterFrame.classesCheckBoxDruid:Hide()
 		addfilterFrame.classesCheckBoxHunter:Hide()
@@ -261,6 +115,16 @@ function fn:classIgnoredToggle()
 		addfilterFrame.classesCheckBoxShaman:Hide()
 		addfilterFrame.classesCheckBoxWarlock:Hide()
 		addfilterFrame.classesCheckBoxWarrior:Hide()
+
+		--@non-version-classic@
+		addfilterFrame.classesCheckBoxDeathKnight:Hide()
+		--@end-non-version-classic@
+
+		--[====[@version-retail@
+		addfilterFrame.classesCheckBoxMonk:Hide()
+		addfilterFrame.classesCheckBoxDemonHunter:Hide()
+		addfilterFrame.classesCheckBoxEvoker:Hide()
+		--@end-version-retail@]====]
 	end
 end
 
@@ -274,95 +138,138 @@ local function getClassFilter()
 		[L.class.Rogue] = addfilterFrame.classesCheckBoxRogue:GetValue() or nil,
 		[L.class.Shaman] = addfilterFrame.classesCheckBoxShaman:GetValue() or nil,
 		[L.class.Warlock] = addfilterFrame.classesCheckBoxWarlock:GetValue() or nil,
-		[L.class.Warrior] = addfilterFrame.classesCheckBoxWarrior:GetValue() or nil
+		[L.class.Warrior] = addfilterFrame.classesCheckBoxWarrior:GetValue() or nil,
+
+		--@non-version-classic@
+		[L.class.DeathKnight] = addfilterFrame.classesCheckBoxDeathKnight:GetValue() or nil,
+		--@end-non-version-classic@
+
+		--[====[@version-retail@
+		[L.class.Monk] = addfilterFrame.classesCheckBoxMonk:GetValue() or nil,
+		[L.class.DemonHunter] = addfilterFrame.classesCheckBoxDemonHunter:GetValue() or nil,
+		[L.class.Evoker] = addfilterFrame.classesCheckBoxEvoker:GetValue() or nil,
+		--@end-version-retail@]====]
 	}
 	return arr
 end
 
 local function createClassBoxes()
-addfilterFrame.classesCheckBoxDruid = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxDruid
-frame:SetWidth(size.Druid)
-frame:SetLabel(L.class.Druid)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxIgnore.frame, "BOTTOMLEFT", 0, -2)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxDruid = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxDruid
+	frame:SetWidth(size.Druid)
+	frame:SetLabel(L.class.Druid)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxIgnore.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxHunter = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxHunter
-frame:SetWidth(size.Hunter)
-frame:SetLabel(L.class.Hunter)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDruid.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxHunter = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxHunter
+	frame:SetWidth(size.Hunter)
+	frame:SetLabel(L.class.Hunter)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDruid.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxMage = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxMage
-frame:SetWidth(size.Mage)
-frame:SetLabel(L.class.Mage)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxHunter.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxMage = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxMage
+	frame:SetWidth(size.Mage)
+	frame:SetLabel(L.class.Mage)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxHunter.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxPaladin = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxPaladin
-frame:SetWidth(size.Paladin)
-frame:SetLabel(L.class.Paladin)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxMage.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxPaladin = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxPaladin
+	frame:SetWidth(size.Paladin)
+	frame:SetLabel(L.class.Paladin)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxMage.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxPriest = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxPriest
-frame:SetWidth(size.Priest)
-frame:SetLabel(L.class.Priest)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxPaladin.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxPriest = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxPriest
+	frame:SetWidth(size.Priest)
+	frame:SetLabel(L.class.Priest)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxPaladin.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxRogue = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxRogue
-frame:SetWidth(size.Rogue)
-frame:SetLabel(L.class.Rogue)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxPriest.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxRogue = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxRogue
+	frame:SetWidth(size.Rogue)
+	frame:SetLabel(L.class.Rogue)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxPriest.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxShaman = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxShaman
-frame:SetWidth(size.Shaman)
-frame:SetLabel(L.class.Shaman)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxRogue.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxShaman = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxShaman
+	frame:SetWidth(size.Shaman)
+	frame:SetLabel(L.class.Shaman)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxRogue.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxWarlock = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxWarlock
-frame:SetWidth(size.Warlock)
-frame:SetLabel(L.class.Warlock)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxShaman.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxWarlock = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxWarlock
+	frame:SetWidth(size.Warlock)
+	frame:SetLabel(L.class.Warlock)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxShaman.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
 
-addfilterFrame.classesCheckBoxWarrior = GUI:Create("TCheckBox")
-local frame = addfilterFrame.classesCheckBoxWarrior
-frame:SetWidth(size.Warrior)
-frame:SetLabel(L.class.Warrior)
-fontSize(frame.text)
-frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxWarlock.frame, "BOTTOMLEFT", 0, 0)
-addfilterFrame:AddChild(frame)
+	addfilterFrame.classesCheckBoxWarrior = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxWarrior
+	frame:SetWidth(size.Warrior)
+	frame:SetLabel(L.class.Warrior)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxWarlock.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
+
+	--@non-version-classic@
+	addfilterFrame.classesCheckBoxDeathKnight = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxDeathKnight
+	frame:SetWidth(size.DeathKnight)
+	frame:SetLabel(L.class.DeathKnight)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxWarrior.frame, "BOTTOMLEFT", 0, -2)
+	addfilterFrame:AddChild(frame)
+	--@end-non-version-classic@
+
+	--[====[@version-retail@
+	addfilterFrame.classesCheckBoxMonk = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxMonk
+	frame:SetWidth(size.Monk)
+	frame:SetLabel(L.class.Monk)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDeathKnight.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
+
+	addfilterFrame.classesCheckBoxDemonHunter = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxDemonHunter
+	frame:SetWidth(size.DemonHunter)
+	frame:SetLabel(L.class.DemonHunter)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxMonk.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
+
+	addfilterFrame.classesCheckBoxEvoker = GUI:Create("TCheckBox")
+	local frame = addfilterFrame.classesCheckBoxEvoker
+	frame:SetWidth(size.Evoker)
+	frame:SetLabel(L.class.Evoker)
+	fontSize(frame.text)
+	frame:SetPoint("TOPLEFT", addfilterFrame.classesCheckBoxDemonHunter.frame, "BOTTOMLEFT", 0, 0)
+	addfilterFrame:AddChild(frame)
+	--@end-version-retail@]====]
 end
---@end-non-retail@
 
 local w,h = 623, 568
 
-interface.settings.filters.content = GUI:Create("SimpleGroup")
-filters = interface.settings.filters.content
-filters:SetWidth(w-20)
-filters:SetHeight(h-20-60)
-filters.frame:SetParent(interface.settings.filters)
+interface.settings.filters = GUI:Create("GroupFrame")
+filters = interface.settings.filters
 filters:SetLayout("NIL")
-filters:SetPoint("TOPLEFT", interface.settings.filters, "TOPLEFT", 10, -70)
+interface.settings:AddChild(filters)
+interface.settings.AddContent('filters', L["Фильтры"], filters, w-20, h-20-60, -10, -70)
 
 filters.setBtn = GUI:Create("Button")
 local frame = filters.setBtn
@@ -387,7 +294,7 @@ filters:AddChild(frame)
 
 filters.filtersFrame = GUI:Create("SimpleGroup")
 filtersFrame = filters.filtersFrame
-filtersFrame.frame:SetParent(interface.settings.filters)
+filtersFrame.frame:SetParent(interface.settings.filters.frame)
 filtersFrame:SetWidth(filters.frame:GetWidth())
 filtersFrame:SetHeight(h-20-60)
 filtersFrame:SetLayout("NIL")
@@ -407,7 +314,7 @@ filtersFrame:AddChild(frame)
 
 filters.addfilterFrame = GUI:Create("SimpleGroup")
 addfilterFrame = filters.addfilterFrame
-addfilterFrame.frame:SetParent(interface.settings.filters)
+addfilterFrame.frame:SetParent(interface.settings.filters.frame)
 addfilterFrame:SetWidth(filters.frame:GetWidth())
 addfilterFrame:SetHeight(h-20-60)
 addfilterFrame:SetLayout("NIL")
@@ -512,7 +419,7 @@ frame:SetText(L["Имя фильтра"])
 fontSize(frame.label)
 frame:SetWidth(size.filterNameLabel)
 frame.label:SetJustifyH("CENTER")
-frame:SetPoint("TOPRIGHT", addfilterFrame.topHint.frame, "BOTTOMRIGHT", 0, -30)
+frame:SetPoint("TOPRIGHT", addfilterFrame.topHint.frame, "BOTTOMRIGHT", 0, -15)
 addfilterFrame:AddChild(frame)
 
 addfilterFrame.filterNameEdit = GUI:Create("EditBox")
@@ -530,7 +437,7 @@ frame:SetTooltip(L[ [=[Если имя игрока содержит введе�
 fontSize(frame.label)
 frame:SetWidth(size.excludeNameLabel)
 frame.label:SetJustifyH("CENTER")
-frame:SetPoint("TOP", addfilterFrame.filterNameEdit.frame, "BOTTOM", 0, -30)
+frame:SetPoint("TOP", addfilterFrame.filterNameEdit.frame, "BOTTOM", 0, -15)
 addfilterFrame:AddChild(frame)
 
 addfilterFrame.excludeNameEditBox = GUI:Create("EditBox")
@@ -550,7 +457,7 @@ frame:SetTooltip(format(L[ [=[Введите диапазон уровней д�
 fontSize(frame.label)
 frame:SetWidth(size.lvlRangeLabel)
 frame.label:SetJustifyH("CENTER")
-frame:SetPoint("TOP", addfilterFrame.excludeNameEditBox.frame, "BOTTOM", 0, -30)
+frame:SetPoint("TOP", addfilterFrame.excludeNameEditBox.frame, "BOTTOM", 0, -15)
 addfilterFrame:AddChild(frame)
 
 addfilterFrame.lvlRangeEditBox = GUI:Create("EditBox")
@@ -560,50 +467,122 @@ EditBoxChange(frame)
 frame:SetPoint("TOP", addfilterFrame.lvlRangeLabel.frame, "BOTTOM", 0, 0)
 addfilterFrame:AddChild(frame)
 
-addfilterFrame.excludeRepeatLabel = GUI:Create("TLabel")
-local frame = addfilterFrame.excludeRepeatLabel
-frame:SetText(L["Фильтр повторений в имени"])
-frame:SetTooltip(format(L[ [=[Введите максимальное количество последовательных
-гласных и согласных, которое может содержать имя игрока.
-Например: %s3%s:%s5%s
-Будет означать, что игроки с более чем %s3%s гласными подряд
-или более %s5%s согласными подряд не будут добавлены в очередь.]=] ], "|cff00ff00", "|r", "|cff00A2FF", "|r", "|cff00ff00", "|r", "|cff00A2FF", "|r"))
+addfilterFrame.rioMPlus = GUI:Create("TLabel")
+local frame = addfilterFrame.rioMPlus
+frame:SetText(L["Фильтр по RIO M+"])
 fontSize(frame.label)
-frame:SetWidth(size.excludeRepeatLabel)
+frame:SetWidth(size.filtersEdit)
 frame.label:SetJustifyH("CENTER")
-frame:SetPoint("TOP", addfilterFrame.lvlRangeEditBox.frame, "BOTTOM", 0, -30)
+frame:SetPoint("TOP", addfilterFrame.lvlRangeEditBox.frame, "BOTTOM", 0, -15)
 addfilterFrame:AddChild(frame)
 
-addfilterFrame.excludeRepeatEditBox = GUI:Create("EditBox")
-local frame = addfilterFrame.excludeRepeatEditBox
+addfilterFrame.rioMPlusEditBox = GUI:Create("EditBox")
+local frame = addfilterFrame.rioMPlusEditBox
 frame:SetWidth(size.filtersEdit)
 EditBoxChange(frame)
-frame:SetPoint("TOP", addfilterFrame.excludeRepeatLabel.frame, "BOTTOM", 0, 0)
+frame:SetPoint("TOP", addfilterFrame.rioMPlus.frame, "BOTTOM", 0, 0)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgress = GUI:Create("TLabel")
+local frame = addfilterFrame.rioRaidProgress
+frame:SetText(L["Фильтр по RaidProgress"])
+fontSize(frame.label)
+frame:SetWidth(size.rioRaidProgress)
+frame.label:SetJustifyH("CENTER")
+frame:SetPoint("TOP", addfilterFrame.rioMPlusEditBox.frame, "BOTTOM", 0, -15)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressName = GUI:Create("TLabel")
+local frame = addfilterFrame.rioRaidProgressName
+frame:SetText(L["Суффикс рейда"])
+frame:SetTooltip(L["Короткое название рейда, как в подсказке Raider IO"])
+fontSize(frame.label)
+frame:SetWidth(size.rioRaidProgress)
+frame.label:SetJustifyH("CENTER")
+frame:SetPoint("TOP", addfilterFrame.rioRaidProgress.frame, "BOTTOM", 0, 0)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressName_EditBox = GUI:Create("EditBox")
+local frame = addfilterFrame.rioRaidProgressName_EditBox
+frame:SetWidth(size.filtersEdit)
+EditBoxChange(frame)
+frame:SetPoint("TOP", addfilterFrame.rioRaidProgressName.frame, "BOTTOM", 0, 0)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressN = GUI:Create("TLabel")
+local frame = addfilterFrame.rioRaidProgressN
+frame:SetText(RAID_DIFFICULTY[1].name)
+fontSize(frame.label)
+frame:SetWidth(size.filtersEdit/2)
+frame.label:SetJustifyH("CENTER")
+frame:SetPoint("TOPLEFT", addfilterFrame.rioRaidProgressName_EditBox.frame, "BOTTOMLEFT", 0, -5)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressN_EditBox = GUI:Create("EditBox")
+local frame = addfilterFrame.rioRaidProgressN_EditBox
+frame:SetWidth(size.filtersEdit/2)
+EditBoxChange(frame)
+frame:SetPoint("LEFT", addfilterFrame.rioRaidProgressN.frame, "RIGHT", 0, 0)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressH = GUI:Create("TLabel")
+local frame = addfilterFrame.rioRaidProgressH
+frame:SetText(RAID_DIFFICULTY[2].name)
+fontSize(frame.label)
+frame:SetWidth(size.filtersEdit/2)
+frame.label:SetJustifyH("CENTER")
+frame:SetPoint("TOPLEFT", addfilterFrame.rioRaidProgressN.frame, "BOTTOMLEFT", 0, -7)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressH_EditBox = GUI:Create("EditBox")
+local frame = addfilterFrame.rioRaidProgressH_EditBox
+frame:SetWidth(size.filtersEdit/2)
+EditBoxChange(frame)
+frame:SetPoint("LEFT", addfilterFrame.rioRaidProgressH.frame, "RIGHT", 0, 0)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressM = GUI:Create("TLabel")
+local frame = addfilterFrame.rioRaidProgressM
+frame:SetText(RAID_DIFFICULTY[3].name)
+fontSize(frame.label)
+frame:SetWidth(size.filtersEdit/2)
+frame.label:SetJustifyH("CENTER")
+frame:SetPoint("TOPLEFT", addfilterFrame.rioRaidProgressH.frame, "BOTTOMLEFT", 0, -7)
+addfilterFrame:AddChild(frame)
+
+addfilterFrame.rioRaidProgressM_EditBox = GUI:Create("EditBox")
+local frame = addfilterFrame.rioRaidProgressM_EditBox
+frame:SetWidth(size.filtersEdit/2)
+EditBoxChange(frame)
+frame:SetPoint("LEFT", addfilterFrame.rioRaidProgressM.frame, "RIGHT", 0, 0)
 addfilterFrame:AddChild(frame)
 
 local function saveFilter()
 	local errors = {}
 	local min, max
 	
-	local classIgnore, raceIgnore, filterName, filterByName, lvlRange, letterFilter =
+	local classIgnore, raceIgnore, filterName, filterByName, lvlRange, rioMPlus, rioRaidProgress =
 	not addfilterFrame.classesCheckBoxIgnore:GetValue() and {} or false,
 	not addfilterFrame.rasesCheckBoxIgnore:GetValue() and {} or false,
 	addfilterFrame.filterNameEdit:GetText() ~= "" and addfilterFrame.filterNameEdit:GetText() or false,
 	addfilterFrame.excludeNameEditBox:GetText() ~= "" and addfilterFrame.excludeNameEditBox:GetText() or false,
 	addfilterFrame.lvlRangeEditBox:GetText() ~= "" and addfilterFrame.lvlRangeEditBox:GetText() or false,
-	addfilterFrame.excludeRepeatEditBox:GetText() ~= "" and addfilterFrame.excludeRepeatEditBox:GetText() or false
+	addfilterFrame.rioMPlusEditBox:GetText() ~= "" and addfilterFrame.rioMPlusEditBox:GetText() or false,
+	{
+		name = addfilterFrame.rioRaidProgressName_EditBox:GetText() ~= "" and addfilterFrame.rioRaidProgressName_EditBox:GetText() or false,
+		[1] = addfilterFrame.rioRaidProgressN_EditBox:GetText() == "" and 0 or addfilterFrame.rioRaidProgressN_EditBox:GetText(),
+		[2] = addfilterFrame.rioRaidProgressH_EditBox:GetText() == "" and 0 or addfilterFrame.rioRaidProgressH_EditBox:GetText(),
+		[3] = addfilterFrame.rioRaidProgressM_EditBox:GetText() == "" and 0 or addfilterFrame.rioRaidProgressM_EditBox:GetText()
+	}
 	
 	if not filterName then
 		table.insert(errors, format("%s \n %s", L["Имя фильтра"], L["Имя фильтра не может быть пустым"]))
 	elseif DB.realm.filtersList[filterName] ~= nil and not addfilterFrame.change then
 		table.insert(errors, format("%s \n %s", L["Имя фильтра"], L["Имя фильтра занято"]))
 	end
-	
-	-- if filterByName and not filterByName:find("^"..addon.ruReg.."+$") then
-		-- table.insert(errors, format("%s \n %s", L["Фильтр по имени"], L["Поле может содержать только буквы"]))
-	-- end
+
 	if lvlRange then
-		if lvlRange:find(("[\-]?%d+:[\-]?%d+")) then
+		if lvlRange:find(("[%-]?%d+:[%-]?%d+")) then
 			min, max = fn:split(lvlRange, ":", -1)
 			if min <= 0 or max <= 0 or min > max then
 				table.insert(errors, format("%s \n %s", L["Диапазон уровней (Мин:Макс)"], L["Числа не могут быть меньше или равны 0. Минимальный уровень не может быть больше максимального"]))
@@ -612,15 +591,38 @@ local function saveFilter()
 			table.insert(errors, format("%s \n %s", L["Диапазон уровней (Мин:Макс)"], L["Неправильный шаблон"]))
 		end
 	end
-	if letterFilter then
-		if letterFilter:find("[\-]?%d+:[\-]?%d+") then
-			min, max = fn:split(letterFilter, ":")
-			if min < 0 or max < 0 then
-				table.insert(errors, format("%s \n %s", L["Фильтр повторений в имени"], L["Числа должны быть больше 0"]))
-			end
+	if rioMPlus then
+		if tonumber(rioMPlus) ~= nil then
+			rioMPlus = tonumber(rioMPlus)
 		else
-			table.insert(errors, format("%s \n %s", L["Фильтр повторений в имени"], L["Неправильный шаблон"]))
+			table.insert(errors, format("%s \n %s", "RIO M+", L["Значение может быть только числом"]))
 		end
+	end
+	--		rioRaidProgress
+	if rioRaidProgress.name then
+		if rioRaidProgress[1] == "" then
+			rioRaidProgress[1] = 0
+		elseif tonumber(rioRaidProgress[1]) ~= nil then
+			rioRaidProgress[1] = tonumber(rioRaidProgress[1])
+		else
+			table.insert(errors, format("%s \n %s", "RaidProgress", L["Значение может быть только числом"]))
+		end
+		if rioRaidProgress[2] == "" then
+			rioRaidProgress[2] = 0
+		elseif tonumber(rioRaidProgress[2]) ~= nil then
+			rioRaidProgress[2] = tonumber(rioRaidProgress[2])
+		else
+			table.insert(errors, format("%s \n %s", "RaidProgress", L["Значение может быть только числом"]))
+		end
+		if rioRaidProgress[3] == "" then
+			rioRaidProgress[3] = 0
+		elseif tonumber(rioRaidProgress[3]) ~= nil then
+			rioRaidProgress[3] = tonumber(rioRaidProgress[3])
+		else
+			table.insert(errors, format("%s \n %s", "RaidProgress", L["Значение может быть только числом"]))
+		end
+	else
+		rioRaidProgress = false
 	end
 	
 	local classFilter = classIgnore
@@ -628,7 +630,6 @@ local function saveFilter()
 		classFilter = getClassFilter()
 		classFilter = next(classFilter) ~= nil and classFilter or false
 	end
-	
 	
 	local raceFilter = raceIgnore
 	if raceFilter then
@@ -640,14 +641,14 @@ local function saveFilter()
 		raceFilter = next(raceFilter) ~= nil and raceFilter or false
 	end
 		
-	
 	if #errors == 0 then
 		filters.filtersFrame.frame:Show()
 		filters.addfilterFrame.frame:Hide()
 		DB.realm.filtersList[filterName] = {
 			filterByName = filterByName,
 			lvlRange = lvlRange,
-			letterFilter = letterFilter,
+			rioMPlus = rioMPlus,
+			rioRaid = rioRaidProgress,
 			classFilter = classFilter,
 			raceFilter = raceFilter,
 			filterOn = false,

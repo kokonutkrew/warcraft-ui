@@ -1,18 +1,12 @@
 
 BugSackDB = {
-	["fontSize"] = "GameFontHighlight",
-<<<<<<< Updated upstream
-	["auto"] = false,
-=======
-	["auto"] = true,
->>>>>>> Stashed changes
-	["soundMedia"] = "BugSack: Fatality",
-	["mute"] = false,
-	["chatframe"] = false,
+["auto"] = false,
+["fontSize"] = "GameFontHighlight",
+["useMaster"] = false,
+["altwipe"] = false,
+["mute"] = false,
+["soundMedia"] = "BugSack: Fatality",
+["chatframe"] = false,
 }
 BugSackLDBIconDB = {
-<<<<<<< Updated upstream
-=======
-	["minimapPos"] = 153.5768474893759,
->>>>>>> Stashed changes
 }

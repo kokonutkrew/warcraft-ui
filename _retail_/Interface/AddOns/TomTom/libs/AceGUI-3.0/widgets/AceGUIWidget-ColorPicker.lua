@@ -11,13 +11,6 @@ local pairs = pairs
 -- WoW APIs
 local CreateFrame, UIParent = CreateFrame, UIParent
 
-<<<<<<< Updated upstream
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: ColorPickerFrame, OpacitySliderFrame
-
-=======
->>>>>>> Stashed changes
 --[[-----------------------------------------------------------------------------
 Support functions
 -------------------------------------------------------------------------------]]

@@ -1,0 +1,28 @@
+
+SimulationCraftDB = {
+["profileKeys"] = {
+["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Saibull - Moon Guard"] = "Saibull - Moon Guard",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
+},
+["profiles"] = {
+["Winbin - Emerald Dream"] = {
+},
+["Chieef - Area 52"] = {
+},
+["Bigbrane - Emerald Dream"] = {
+},
+["Saibull - Moon Guard"] = {
+},
+["Killonsites - Area 52"] = {
+},
+["Saikk - Emerald Dream"] = {
+},
+["Worldboss - Area 52"] = {
+},
+},
+}

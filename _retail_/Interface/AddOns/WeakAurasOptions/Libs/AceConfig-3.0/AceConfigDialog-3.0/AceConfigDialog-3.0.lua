@@ -1,21 +1,13 @@
 --- AceConfigDialog-3.0 generates AceGUI-3.0 based windows based on option tables.
 -- @class file
 -- @name AceConfigDialog-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
--- @release $Id: AceConfigDialog-3.0.lua 1248 2021-02-05 14:27:49Z funkehdude $
-========
 -- @release $Id: AceConfigDialog-3.0.lua 1351 2024-07-24 18:23:24Z funkehdude $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
 local LibStub = LibStub
 local gui = LibStub("AceGUI-3.0")
 local reg = LibStub("AceConfigRegistry-3.0")
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-local MAJOR, MINOR = "AceConfigDialog-3.0", 81
-========
 local MAJOR, MINOR = "AceConfigDialog-3.0", 87
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 local AceConfigDialog, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceConfigDialog then return end
@@ -510,8 +502,6 @@ local function OptionOnMouseOver(widget, event)
 	local tooltip = AceConfigDialog.tooltip
 
 	tooltip:SetOwner(widget.frame, "ANCHOR_TOPRIGHT")
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-========
 
 	local tooltipHyperlink = GetOptionsMemberValue("tooltipHyperlink", opt, options, path, appName)
 	if tooltipHyperlink then
@@ -520,7 +510,6 @@ local function OptionOnMouseOver(widget, event)
 		return
 	end
 
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 	local name = GetOptionsMemberValue("name", opt, options, path, appName)
 	local desc = GetOptionsMemberValue("desc", opt, options, path, appName)
 	local usage = GetOptionsMemberValue("usage", opt, options, path, appName)
@@ -767,13 +756,8 @@ local function ActivateControl(widget, event, ...)
 		end
 
 		-- show validate message
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-		if rootframe.SetStatusText then
-			rootframe:SetStatusText(validated)
-========
 		if user.rootframe.SetStatusText then
 			user.rootframe:SetStatusText(validated)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 		else
 			validationErrorPopup(validated)
 		end
@@ -1343,13 +1327,8 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 							control:SetWidth(width_multiplier)
 						end
 						--check:SetTriState(v.tristate)
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-						for i = 1, #valuesort do
-							local key = valuesort[i]
-========
 						for s = 1, #valuesort do
 							local key = valuesort[s]
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 							local value = GetOptionsMemberValue("get",v, options, path, appName, key)
 							control:SetItemValue(key,value)
 						end
@@ -1361,13 +1340,8 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 
 						control:PauseLayout()
 						local width = GetOptionsMemberValue("width",v,options,path,appName)
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-						for i = 1, #valuesort do
-							local value = valuesort[i]
-========
 						for s = 1, #valuesort do
 							local value = valuesort[s]
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 							local text = values[value]
 							local check = gui:Create("CheckBox")
 							check:SetLabel(text)
@@ -1384,11 +1358,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 							elseif width == "half" then
 								check:SetWidth(width_multiplier / 2)
 							elseif (type(width) == "number") then
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-								control:SetWidth(width_multiplier * width)
-========
 								check:SetWidth(width_multiplier * width)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 							elseif width == "full" then
 								check.width = "fill"
 							else

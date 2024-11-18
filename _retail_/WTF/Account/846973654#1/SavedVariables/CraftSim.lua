@@ -26,41 +26,24 @@ CraftSimDB = {
 [210930] = 0,
 },
 },
+["Xxb-MoonGuard"] = {
+["inventory"] = {
+[21877] = 59,
+[23572] = 2,
+},
+["bank"] = {
+[21877] = 0,
+[23572] = 0,
+},
+},
 },
 ["accountBank"] = {
 [210930] = 0,
+[21877] = 0,
+[23572] = 0,
 },
 },
 ["version"] = 3,
-},
-["priceOverrideDB"] = {
-["version"] = 1,
-["data"] = {
-["recipeResultOverrides"] = {
-},
-["globalOverrides"] = {
-},
-},
-},
-["multicraftPreloadDB"] = {
-["version"] = 1,
-["data"] = {
-},
-},
-["crafterDB"] = {
-["version"] = 5,
-["data"] = {
-},
-},
-["craftQueueDB"] = {
-["version"] = 7,
-["data"] = {
-},
-},
-["recipeSubCrafterDB"] = {
-["version"] = 3,
-["data"] = {
-},
 },
 ["optionsDB"] = {
 ["data"] = {
@@ -83,30 +66,58 @@ CraftSimDB = {
 ["PROFIT_CALCULATION_RESOURCEFULNESS_CONSTANT"] = 0.3,
 ["TOP_GEAR_AUTO_UPDATE"] = true,
 ["CRAFTQUEUE_FLASH_TASKBAR_ON_CRAFT_FINISHED"] = true,
-["COOLDOWNS_FILTERED_EXPANSIONS"] = {
-[10] = true,
-},
+["CONCENTRATION_TRACKER_SORT_MODE"] = "CHARACTER",
 ["LIB_ICON_DB"] = {
 },
 ["COST_OPTIMIZATION_AUTOMATIC_SUB_RECIPE_OPTIMIZATION"] = false,
 ["OPEN_LAST_RECIPE"] = true,
-["PRICE_SOURCE"] = "Auctionator",
+["COST_OPTIMIZATION_SUB_RECIPE_MAX_DEPTH"] = 1,
+["TSM_PRICE_KEY_REAGENTS"] = "first(DBRecent, DBMinbuyout)",
+["PRICE_SOURCE"] = "TradeSkillMaster",
+["COST_OPTIMIZATION_SUB_RECIPE_INCLUDE_CONCENTRATION"] = false,
 ["GGUI_CONFIG"] = {
-["savedPos_INFO"] = {
-["offsetX"] = 729.000244140625,
-["offsetY"] = -165.0001525878906,
 },
-},
-["CONCENTRATION_TRACKER_SORT_MODE"] = "CHARACTER",
+["TSM_PRICE_KEY_ITEMS"] = "first(DBRecent, DBMinbuyout)",
 ["REAGENT_OPTIMIZATION_TOP_PROFIT_ENABLED"] = false,
-["CUSTOMER_HISTORY_AUTO_PURGE_LAST_PURGE"] = 0,
-["CRAFT_RESULTS_DISABLE"] = false,
 ["CRAFTING_GARBAGE_COLLECTION_ENABLED"] = true,
+["COOLDOWNS_FILTERED_EXPANSIONS"] = {
+[10] = true,
+},
 ["DEBUG_VISIBLE"] = false,
 ["QUALITY_BREAKPOINT_OFFSET"] = false,
-["COST_OPTIMIZATION_SUB_RECIPE_INCLUDE_CONCENTRATION"] = false,
-["COST_OPTIMIZATION_SUB_RECIPE_MAX_DEPTH"] = 1,
+["CUSTOMER_HISTORY_AUTO_PURGE_LAST_PURGE"] = 1731083100,
+["CRAFT_RESULTS_DISABLE"] = false,
+["TSM_RESTOCK_KEY_ITEMS"] = "1",
 },
 ["version"] = 13,
+},
+["multicraftPreloadDB"] = {
+["version"] = 1,
+["data"] = {
+},
+},
+["crafterDB"] = {
+["version"] = 5,
+["data"] = {
+},
+},
+["priceOverrideDB"] = {
+["version"] = 1,
+["data"] = {
+["recipeResultOverrides"] = {
+},
+["globalOverrides"] = {
+},
+},
+},
+["craftQueueDB"] = {
+["version"] = 7,
+["data"] = {
+},
+},
+["recipeSubCrafterDB"] = {
+["version"] = 3,
+["data"] = {
+},
 },
 }

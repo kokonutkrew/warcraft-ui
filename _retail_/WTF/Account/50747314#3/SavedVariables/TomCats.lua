@@ -11,8 +11,14 @@ TomCats_Account = {
 ["iconScale"] = 0.8,
 },
 ["hallowsend"] = {
+["autoEnabled"] = true,
+["preferences"] = {
 },
-["lastExpirationWarning"] = 0,
+["iconsEnabled"] = true,
+["iconScale"] = 0.8,
+["arrowEnabled"] = true,
+},
+["lastExpirationWarning"] = 1730753213,
 ["discoveriesResetCount"] = 0,
 ["noblegarden"] = {
 ["enabled"] = true,
@@ -22,7 +28,7 @@ TomCats_Account = {
 ["loveisintheair"] = {
 },
 ["discoveriesVersion"] = "0",
-["lastVersionSeen"] = "2.5.52",
+["lastVersionSeen"] = "2.5.50",
 ["preferences"] = {
 ["TomCats-HallowsEndMinimapButton"] = {
 ["hidden"] = false,
@@ -46,6 +52,7 @@ TomCats_Account = {
 ["hidden"] = false,
 ["position"] = -2.514,
 },
+["betaEnabled"] = false,
 ["AccessoryWindow"] = {
 ["primeGamingLoot"] = 3,
 ["blizzardOther"] = 3,
@@ -59,15 +66,14 @@ TomCats_Account = {
 "TOPLEFT",
 "UIParent",
 "TOPLEFT",
-1711.000122070313,
--602.9999694824219,
+1650,
+-748.9999084472656,
 },
 ["display"] = 100,
 ["superbloom"] = 3,
 ["treasureGoblin"] = 3,
 ["timeRifts"] = 3,
 },
-["betaEnabled"] = false,
 ["TomCats-LunarFestivalMinimapButton2023"] = {
 ["hidden"] = false,
 ["position"] = -2.514,

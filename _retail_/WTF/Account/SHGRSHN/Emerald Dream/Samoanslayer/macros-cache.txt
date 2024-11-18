@@ -1,22 +1,25 @@
-<<<<<<< Updated upstream
-VER 3 0100000000000001 "Invite" "132351"
-/run InviteUnit("Cherriebomb");
-/run InviteUnit("Samoanrouge"); 
-/run InviteUnit("Aeredyl"); 
-/run InviteUnit("Mercis"); 
-/ffa
-/changeactionbar 2
+VER 3 0100000000000013 ".KeyClickLeft" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/combat/1 rejuvenation, swiftmend, regrowth, regrowth, regrowth; regrowth
+/target mouseover
 END
-VER 3 0100000000000002 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 0100000000000014 ".KeyQ Spec Spell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:soloar beam] solar beam; [known:skull bash] skull bash; [known:ursol's vortex] ursol's vortex
 END
-VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-=======
+VER 3 0100000000000015 ".KeyScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom [harm]wild charge; dash, stampeding roar, bull rush
+END
+VER 3 010000000000001A "Champion's Spear" "134400"
+#showtooltip
+/use [@cursor] champion's spear
+END
 VER 3 0100000000000003 "Charge" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mousover, help] intervene
-/use [@mousover, harm] charge
+/use [@mouseover, noharm] intervene
+/use [@mouseover, harm, known:385952]shield charge
+/use [@mouseover, harm] charge
 /targetenemy [noharm]
 /use charge
 END
@@ -25,8 +28,7 @@ VER 3 0100000000000002 "Heroic Leap" "INV_MISC_QUESTIONMARK"
 /use [@mousover, help] intervene
 /use [@cursor] heroic leap
 END
-VER 3 0100000000000001 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000009 "Ravager" "134400"
 #showtooltip
-/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
->>>>>>> Stashed changes
+/use [@cursor] ravager
 END

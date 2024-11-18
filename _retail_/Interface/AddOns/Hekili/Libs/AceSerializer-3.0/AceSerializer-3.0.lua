@@ -10,11 +10,7 @@
 -- make into AceSerializer.
 -- @class file
 -- @name AceSerializer-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceSerializer-3.0/AceSerializer-3.0.lua
--- @release $Id: AceSerializer-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceSerializer-3.0.lua 1284 2022-09-25 09:15:30Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/Hekili/Libs/AceSerializer-3.0/AceSerializer-3.0.lua
 local MAJOR,MINOR = "AceSerializer-3.0", 5
 local AceSerializer, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 

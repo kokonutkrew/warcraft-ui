@@ -20,10 +20,11 @@
 		RCConfigTableChanged	-	fires when the user changes a settings. args: [val]; a few settings supplies their name.
 		RCUpdateDB				-	fires when the user receives sync data from another player.
 		RCLootStatusReceived - 	fires when new loot status is received, i.e. when it's safe to call :GetLootStatusData.
+		RCLootTableAdditionsReceived - fires when additional lootTable data has been received and processed.
 	ml_core:
 		RCMLAddItem				- 	fires when an item is added to the loot table. args: item, loottable entry
-		RCMLAwardSuccess		- 	fires when an item is successfully awarded. args: session, winner, status.
-		RCMLAwardFailed		-	fires when an item is unsuccessfully awarded. args: session, winner, status.
+		RCMLAwardSuccess		- 	fires when an item is successfully awarded. args: session, winner, status, link, responseText.
+		RCMLAwardFailed		-	fires when an item is unsuccessfully awarded. args: session, winner, status, link, responseText.
 		RCMLBuildMLdb       -   fires just before the MLdb is built. arg: MLdb, the master looter db table.
 		RCMLLootHistorySend	- 	fires just before loot history is sent out. args: loot_history table (the table sent to users), all arguments from ML:TrackAndLogLoot()
 	votingFrame:
@@ -42,8 +43,9 @@
 -- GLOBALS: GetLootMethod, GetAddOnMetadata, UnitClass
 
 local addonname, addontable = ...
+---@class RCLootCouncil : AceAddon, AceConsole-3.0, AceEvent-3.0, AceComm-3.0, AceSerializer-3.0, AceHook-3.0, AceTimer-3.0
 _G.RCLootCouncil = LibStub("AceAddon-3.0"):NewAddon(addontable,addonname, "AceConsole-3.0", "AceEvent-3.0", "AceComm-3.0", "AceSerializer-3.0", "AceHook-3.0", "AceTimer-3.0");
-local LibDialog = LibStub("LibDialog-1.0")
+local LibDialog = LibStub("LibDialog-1.1")
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
 local lwin = LibStub("LibWindow-1.1")
 local tooltipForParsing = CreateFrame("GameTooltip", "RCLootCouncil_Tooltip_Parse", nil, "GameTooltipTemplate")
@@ -77,7 +79,6 @@ local userModules = {
 
 local frames = {} -- Contains all frames created by RCLootCouncil:CreateFrame()
 local unregisterGuildEvent = false
-local player_relogged = true -- Determines if we potentially need data from the ML due to /rl
 local lootTable = {}
 
 -- Lua
@@ -165,6 +166,11 @@ function RCLootCouncil:OnInitialize()
 		}
 	}
 
+	-- List of itemIds that should not be blacklisted
+	self.blackListOverride = {
+		-- [itemId] = true
+	}
+
 	self.testMode = false;
 	-- create the other buttons/responses
 	for i = 1, self.defaults.profile.maxButtons do
@@ -185,11 +191,7 @@ function RCLootCouncil:OnInitialize()
 		tinsert(self.defaults.profile.awardReasons, {color = {1, 1, 1, 1}, disenchant = false, log = true, sort = 400+i, text = "Reason "..i,})
 	end
 
-	-- register chat and comms
-	self:RegisterChatCommand("rc", "ChatCommand")
-	self:RegisterChatCommand("rclc", "ChatCommand")
-	self.customChatCmd = {} -- Modules that wants their cmds used with "/rc"
-	self:RegisterComms()
+	-- init db
 	self.db = LibStub("AceDB-3.0"):New("RCLootCouncilDB", self.defaults, true)
 	self.lootDB = LibStub("AceDB-3.0"):New("RCLootCouncilLootDB")
 	--[[ Format:
@@ -210,6 +212,16 @@ function RCLootCouncil:OnInitialize()
 	db = self.db.profile
 	historyDB = self.lootDB.factionrealm
 	debugLog = self.db.global.log
+
+	-- Slash setup
+	if db.useSlashRC then -- Allow presevation of readycheck shortcut.
+		self:RegisterChatCommand("rc", "ChatCommand")
+	end
+	self:RegisterChatCommand("rclc", "ChatCommand")
+	self.customChatCmd = {} -- Modules that wants their cmds used with "/rc"
+
+	-- Comms
+	self:RegisterComms()
 
 	-- Add logged in message in the log
 	self:DebugLog("Logged In")
@@ -363,9 +375,7 @@ function RCLootCouncil:ChatCommand(msg)
 		self:Debug("- clearLog - clear the debug log")
 
 	elseif input == 'config' or input == L["config"] or input == "c" or input == "opt" or input == "options" then
-		-- Call it twice, because reasons..
-		InterfaceOptionsFrame_OpenToCategory(self.optionsFrame)
-		InterfaceOptionsFrame_OpenToCategory(self.optionsFrame)
+		Settings.OpenToCategory(self.optionsFrame.name)
 		--LibStub("AceConfigDialog-3.0"):Open("RCLootCouncil")
 
 	elseif input == 'debug' or input == 'd' then
@@ -382,8 +392,15 @@ function RCLootCouncil:ChatCommand(msg)
 		end
 
 	elseif input == 'council' or input == L["council"] then
-		InterfaceOptionsFrame_OpenToCategory(self.optionsFrame.ml)
-		InterfaceOptionsFrame_OpenToCategory(self.optionsFrame.ml)
+		local category = FindValueInTableIf(
+			SettingsPanel:GetCategory(self.optionsFrame.name):GetSubcategories(),
+			function(v)
+				return v and v:GetID() == self.optionsFrame.ml.name
+			end)
+
+		if not category then return self.Log:e("Couldn't find category in '/rc council'", category) end
+		Settings.OpenToCategory(self.optionsFrame.name)
+		SettingsPanel:SelectCategory(category)
 		LibStub("AceConfigDialog-3.0"):SelectGroup("RCLootCouncil", "mlSettings", "councilTab")
 
 
@@ -401,7 +418,7 @@ function RCLootCouncil:ChatCommand(msg)
 
 	elseif input == "history" or input == string.lower(_G.HISTORY) or input == "h" or input == "his" then
 		self:CallModule("history")
---[===[@debug@
+--[==[@debug@
 	elseif input == "nnp" then
 		self.nnp = not self.nnp
 		self:Print("nnp = "..tostring(self.nnp))
@@ -412,7 +429,7 @@ function RCLootCouncil:ChatCommand(msg)
 		self:Test(1, false, true)
 	elseif input == "exporttokendata" then
 		self:ExportTokenData()
---@end-debug@]===]
+--@end-debug@]==]
 	elseif input == "whisper" or input == string.lower(_G.WHISPER) then
 		self:Print(L["whisper_help"])
 
@@ -476,6 +493,10 @@ function RCLootCouncil:ChatCommand(msg)
 		db.chatFrameName = self.defaults.profile.chatFrameName
 		self:Print(L["Windows reset"])
 
+	elseif input == "start" or input == string.lower(_G.START) then
+		-- Simply emulate player entering raid.
+		self:OnRaidEnter()
+
 	elseif input == "debuglog" or input == "log" then
 		for k,v in ipairs(debugLog) do print(k,v); end
 
@@ -483,14 +504,16 @@ function RCLootCouncil:ChatCommand(msg)
 		wipe(debugLog)
 		self:Print("Debug Log cleared.")
 
-	elseif input == "updatehistory" or (input == "update" and args[1] == "history") then
-		self:UpdateLootHistory()
 	elseif input == "sync" then
 		self.Sync:Spawn()
 
 	elseif input == "trade" then
 		self.TradeUI:Show(true)
---[===[@debug@
+
+	elseif input == "export" then
+		self:ExportCurrentSession()
+
+--[==[@debug@
 	elseif input == 't' then -- Tester cmd
 		-- Test items with several modifiers. Should probably be added to the regular test func
 		local items = {
@@ -507,7 +530,7 @@ function RCLootCouncil:ChatCommand(msg)
 		self:CallModule("masterlooter")
 		self:GetActiveModule("masterlooter"):NewML(self.masterLooter)
 		self:GetActiveModule("masterlooter"):Test(items)
---@end-debug@]===]
+--@end-debug@]==]
 	else
 		-- Check if the input matches anything
 		for k, v in pairs(self.customChatCmd) do
@@ -611,7 +634,6 @@ function RCLootCouncil:SendCommandModified (prefix, serializedMsg, channel, targ
 	self:SendCommMessage(prefix, serializedMsg, channel, target, prio, ...)
 end
 
-local v3VersionWarningCount = 0
 --- Receives RCLootCouncil commands.
 -- Params are delivered by AceComm-3.0, but we need to extract our data created with the
 -- RCLootCouncil:SendCommand function.
@@ -641,21 +663,7 @@ function RCLootCouncil:OnCommReceived(prefix, serializedMsg, distri, sender)
 				end
 
 			elseif command == "lt_add" and self:UnitIsUnit(sender, self.masterLooter) then
-				-- We can skip most of the normal lootTable checks since a session should running
-				local oldLenght = #lootTable
-				for k,v in pairs(unpack(data)) do
-					lootTable[k] = v
-				end
-				-- REVIEW This runs over the entire lootTable again, but will probably need changing anyway in v3.0
-				self:PrepareLootTable(lootTable)
-				self:DoAutoPasses(lootTable, oldLenght)
-				self:SendLootAck(lootTable, oldLenght)
-				for k,v in ipairs(lootTable) do
-					if k > oldLenght then
-						self:GetActiveModule("lootframe"):AddSingleItem(v)
-					end
-				end
-				-- VotingFrame handles this by itself.
+				self:OnLootTableAdditionsReceived(unpack(data))
 
 			elseif command == "candidates" and self:UnitIsUnit(sender, self.masterLooter) then
 				self.candidates = unpack(data)
@@ -723,7 +731,8 @@ function RCLootCouncil:OnCommReceived(prefix, serializedMsg, distri, sender)
 			elseif command == "history" and db.enableHistory then
 				local name, history = unpack(data)
 				-- v2.15 Add itemClass and itemSubClass locally:
-				local _, _, _, _, _, itemClassID, itemSubClassID = GetItemInfoInstant(history.lootWon)
+				local itemID, _, _, _, _, itemClassID, itemSubClassID = GetItemInfoInstant(history.lootWon)
+				history.tierToken = RCTokenTable[itemID] and true
 				history.iClass = itemClassID
 				history.iSubClass = itemSubClassID
 				if historyDB[name] then
@@ -831,12 +840,6 @@ function RCLootCouncil:OnCommReceived(prefix, serializedMsg, distri, sender)
 			end
 			self:Debug("Error in deserializing comm:", command, data);
 		end
-
-	elseif prefix == "RCLCv" then
-		-- v3.0 has been released!
-		if v3VersionWarningCount <= 5 then
-			self:Print("RCLootCouncil v3.0 has been released. This version is no longer compatible, please upgrade!")
-		end
 	end
 end
 
@@ -884,18 +887,18 @@ function RCLootCouncil:OnLootTableReceived (lt)
 	if not self.mldb then -- Really shouldn't happen, but I'm tired of people somehow not receiving it...
 		self:Debug("Received loot table without having mldb :(", self.masterLooter)
 		self:SendCommand(self.masterLooter, "MLdb_request")
-		return self:ScheduleTimer("OnLootTableReceived", 0, lt)
+		return self:ScheduleTimer("OnLootTableReceived", 1, lt)
 	end
 
 	-- Check if council is received
 	if not FindInTableIf(self.council, function(v) return self:UnitIsUnit(self.masterLooter, v) end) then
 		self:Debug("Received loot table without ML in the council", self.masterLooter)
 		self:SendCommand(self.masterLooter, "council_request")
-		return self:ScheduleTimer("OnLootTableReceived", 0, lt)
 	end
 
 	-- Hand the lootTable to the votingFrame
 	if self.isCouncil or self.mldb.observe then
+		self:CallModule("votingframe") -- Might not be activated 
 		self:GetActiveModule("votingframe"):ReceiveLootTable(lootTable)
 	end
 
@@ -951,26 +954,36 @@ end
 function RCLootCouncil:OnMLDBReceived(mldb)
 	self:Debug("OnMLDBReceived")
 	-- mldb inheritance from db
+	local mldb_responses_meta = { __index = self.defaults.profile.responses.default }
+	local mldb_response_meta = { __index = self.defaults.profile.responses["*"]["*"] }
 	self.mldb = mldb
 	for type, responses in pairs(mldb.responses) do
-	   for _ in pairs(responses) do
-	      if not self.defaults.profile.responses[type] then
-				--if not self.mldb.responses[type] then self.mldb.responses[type] = {} end
-				--if not self.mldb.responses[type][response] then self.mldb.responses[type][response] = {} end
-	         setmetatable(self.mldb.responses[type], {__index = self.defaults.profile.responses.default})
-	      end
+	   for name in pairs(responses) do
+			if not self.defaults.profile.responses[type] then
+				setmetatable(self.mldb.responses[type], mldb_responses_meta)
+			elseif self.defaults.profile.responses.default[name] then
+				self.mldb.responses[type][name] = setmetatable(self.mldb.responses[type][name], mldb_response_meta)
+			end
 	   end
 	end
 	if not self.mldb.responses.default then self.mldb.responses.default = {} end
-	setmetatable(self.mldb.responses.default, {__index = self.defaults.profile.responses.default})
-	--setmetatable(self.mldb.buttons, {__index = function() return self.defaults.profile.buttons.default end})
+	setmetatable(self.mldb.responses.default, mldb_responses_meta)
 	if not self.mldb.buttons.default then self.mldb.buttons.default = {} end
 	setmetatable(self.mldb.buttons.default, { __index = self.defaults.profile.buttons.default,})
-	-- self.mldb = mldb
 end
 
 function RCLootCouncil:ChatCmdAdd(args)
 	if not args[1] or args[1] == "" then return end -- We need at least 1 arg
+
+	-- Add all items in bags with trade timers
+	if args[1] == "bags" or args[1] == "all" then
+		local items = self:GetAllItemsInBagsWithTradeTimer()
+		self:Print(format(L["chat_cmd_add_found_items"], #items))
+		for _, v in ipairs(items) do self:GetActiveModule("masterlooter"):AddUserItem(v, self.playerName) end
+		return
+	end
+
+	-- Add linked items
 	local owner
 	-- See if one of the args is a owner
 	if not args[1]:find("|") and type(tonumber(args[1])) ~= "number" then
@@ -1106,13 +1119,7 @@ function RCLootCouncil:Test(num, fullTest, trinketTest)
 	end, 5)
 end
 
-local interface_options_old_cancel = InterfaceOptionsFrameCancel:GetScript("OnClick")
 function RCLootCouncil:EnterCombat()
-	-- Hack to remove CompactRaidGroup taint
-	-- Make clicking cancel the same as clicking okay
-	InterfaceOptionsFrameCancel:SetScript("OnClick", function()
-	 InterfaceOptionsFrameOkay:Click()
-	end)
 	self.inCombat = true
 	if not db.minimizeInCombat then return end
 	for _,frame in ipairs(frames) do
@@ -1125,8 +1132,6 @@ function RCLootCouncil:EnterCombat()
 end
 
 function RCLootCouncil:LeaveCombat()
-	-- Revert
-	InterfaceOptionsFrameCancel:SetScript("OnClick", interface_options_old_cancel)
 	self.inCombat = false
 	if not db.minimizeInCombat then return end
 	for _,frame in ipairs(frames) do
@@ -1315,10 +1320,15 @@ end
 -- @param g2 Same as g1, but for multislot items.
 -- @return Integer - the difference between the comparison item and the equipped gear.
 function RCLootCouncil:GetIlvlDifference(item, g1, g2)
-	if not g1 and g2 then error("You can't provide g2 without g1 in :GetIlvlDifference()") end
+	if not (g1 or g2) then
+		self:Debug("GetIlvlDifference: no gear for item:", item)
+		return 0 -- Fallback value incase no gear is provided
+	end
+
 	local _, link, _, ilvl, _, _, _, _, equipLoc = GetItemInfo(item)
-	if not g1 then
-		g1, g2 = self:GetPlayersGear(link, equipLoc, playersData.gears)
+	if not ilvl then
+		self:Debug(format("GetIlvlDifference: item: %s had ilvl %s", tostring(item), tostring(ilvl)))
+		return -1
 	end
 
 	-- Check if it's a ring or trinket
@@ -1334,12 +1344,15 @@ function RCLootCouncil:GetIlvlDifference(item, g1, g2)
 		end
 		-- We haven't equipped this item, do it normally
 	end
+
 	local diff = 0
 	local g1diff, g2diff = g1 and select(4, GetItemInfo(g1)), g2 and select(4, GetItemInfo(g2))
 	if g1diff and g2diff then
 		diff = g1diff >= g2diff and ilvl - g2diff or ilvl - g1diff
 	elseif g1diff then
 		diff = ilvl - g1diff
+	elseif g2diff then
+		diff = ilvl - g2diff
 	end
 	return diff
 end
@@ -1459,10 +1472,11 @@ end
 -- Should only be called once when the loot table is received (RCLootCouncil:OnCommReceived).
 -- v2.15 The current implementation ensures this only gets called when all items are cached - this function relies on that!
 function RCLootCouncil:PrepareLootTable(lootTable)
-	for ses, v in ipairs(lootTable) do
+	for ses, v in pairs(lootTable) do
 		local _, _, rarity, ilvl, _, _, subType, _, equipLoc, texture,
 		_, typeID, subTypeID, bindType, _, _, _ = GetItemInfo(v.link)
 		local itemID = GetItemInfoInstant(v.link)
+		v.itemID	= itemID
 		v.quality 	= rarity
 		v.ilvl 		= self:GetTokenIlvl(v.link) or ilvl
 		v.equipLoc 	= RCTokenTable[itemID] and self:GetTokenEquipLoc(RCTokenTable[itemID]) or equipLoc
@@ -1472,6 +1486,7 @@ function RCLootCouncil:PrepareLootTable(lootTable)
 		v.typeID 	= typeID
 		v.subTypeID = subTypeID
 		v.session 	= v.session or ses
+		v.token = itemID and RCTokenTable[itemID]
 
 		if not v.classes then -- We didn't receive "classes", because ML is using an old version. Generate it from token data.
 			if RCTokenClasses and RCTokenClasses[itemID] then
@@ -1495,7 +1510,7 @@ end
 function RCLootCouncil:SendLootAck(table, skip)
 	local toSend = {gear1 = {}, gear2 = {}, diff = {}, response = {}}
 	local hasData = false
-	for k, v in ipairs(table) do
+	for k, v in pairs(table) do
 		local session = v.session or k
 		if session > (skip or 0) then
 			hasData = true
@@ -1515,7 +1530,7 @@ end
 -- Sets lootTable[session].autopass = true if an autopass occurs, and informs the user of the change
 -- @param skip Will only auto pass sessions > skip or 0
 function RCLootCouncil:DoAutoPasses(table, skip)
-	for k,v in ipairs(table) do
+	for k,v in pairs(table) do
 		local session = v.session or k
 		if session > (skip or 0) then
 			if db.autoPass and not v.noAutopass then
@@ -1720,6 +1735,21 @@ function RCLootCouncil:GetContainerItemTradeTimeRemaining(container, slot)
 	end
 end
 
+--- Finds all items in players bags that has a trade timer.
+---@return itemLink[] items
+function RCLootCouncil:GetAllItemsInBagsWithTradeTimer()
+	local items = {}
+	for container=0, _G.NUM_BAG_SLOTS do
+         for slot=1, self.C_Container.GetContainerNumSlots(container) or 0 do
+			local time =self:GetContainerItemTradeTimeRemaining(container, slot)
+			if  time > 0 and time < math.huge then
+				tinsert(items, self.C_Container.GetContainerItemLink(container, slot))
+			end
+		 end
+	end
+	return items
+end
+
 function RCLootCouncil:IsItemBoE(item)
 	if not item then return false end
 	-- Item binding type: 0 - none; 1 - on pickup; 2 - on equip; 3 - on use; 4 - quest.
@@ -1787,6 +1817,11 @@ function RCLootCouncil:GetGuildRanks()
 	return t;
 end
 
+--- Returns the number of group members, the player included (i.e. min 1).
+function RCLootCouncil:GetNumGroupMembers()
+	local num = GetNumGroupMembers()
+	return num > 0 and num or 1
+end
 
 function RCLootCouncil:GetNumberOfDaysFromNow(oldDate)
 	return self.Utils:GetNumberOfDaysFromNow(oldDate)
@@ -1858,21 +1893,60 @@ function RCLootCouncil:OnEvent(event, ...)
 
 	elseif event == "PLAYER_ENTERING_WORLD" then
 		self:Debug("Event:", event, ...)
+		self:UpdatePlayersData()
 		self:NewMLCheck()
 		self:ScheduleTimer(function() -- This needs some time to be ready
 			local instanceName, _, _, difficultyName = GetInstanceInfo()
 			self.currentInstanceName = instanceName..(difficultyName ~= "" and "-"..difficultyName or "")
 		end, 5)
-		if player_relogged then
-			-- Ask for data when we have done a /rl and have a ML
-			if not self.isMasterLooter and self.masterLooter and self.masterLooter ~= "" and player_relogged then
-				self:Debug("Player relog...")
-				self:ScheduleTimer("SendCommand", 2, self.masterLooter, "reconnect")
-				self:SendCommand(self.masterLooter, "playerInfo", self:GetPlayerInfo()) -- Also send out info, just in case
+
+		-- Check if we reloaded
+		if select(2, ...) then
+			self:Debug("Player relog...")
+
+			-- Restore masterlooter from cache, but only if not already set.
+			if not self.masterLooter and self.db.global.cache.masterLooter then
+				self.masterLooter = self.db.global.cache.masterLooter
 			end
-			self:UpdatePlayersData()
-			player_relogged = false
+			self:Debug("ML and cache:", self.masterLooter, self.db.global.cache.masterLooter)
+
+			-- Restore mldb and council
+			if self.masterLooter and self.db.global.cache.mldb then
+				-- Overwriting mldb now as the ML will remove the defaults set with ML:BuildMLdb(),
+				-- however non-MLs can safely set it, as they already have the mldb from the ML.
+				if not self.isMasterLooter then
+					self:OnMLDBReceived(self.db.global.cache.mldb)
+				end
+			end
+			if self.masterLooter and self.db.global.cache.council then
+				self.council = self.db.global.cache.council
+				self.isCouncil = self:CouncilContains(self.playerName)
+
+				-- prepare the voting frame for the right people
+				if self.isCouncil or self.mldb.observe then
+					self:CallModule("votingframe")
+				else
+					self:GetActiveModule("votingframe"):Disable()
+				end
+			end
+
+			-- If we still haven't set masterLooter, try delaying a bit.
+			-- but we don't have to wait if we got it from cache.
+			self:ScheduleTimer(function()
+				if not self.isMasterLooter and self.masterLooter and self.masterLooter ~= "" then
+					self:ScheduleTimer("SendCommand", 2, self.masterLooter, "reconnect")
+					self:SendCommand(self.masterLooter, "playerInfo", self:GetPlayerInfo()) -- Also send out info, just in case
+					self:Debug("Sent Reconnect Request")
+				end
+			end, self.masterLooter and 0 or 2.1)
 		end
+	elseif event == "PLAYER_LOGOUT" then
+		self:Debug("Event:", event, ...)
+		if not self.db.global.cache then self.db.global.cache = {} end
+		self.db.global.cache.mldb = next(self.mldb) and self.mldb or nil
+		self.db.global.cache.council = #self.council > 0 and self.council or nil
+		self.db.global.cache.masterLooter = self.masterLooter
+
 	elseif event == "ENCOUNTER_START" then
 			self:DebugLog("Event:", event, ...)
 			wipe(self.lootStatus)
@@ -2199,13 +2273,14 @@ function RCLootCouncil:GetLootDBStatistics()
 				id = entry.responseID
 				if type(id) == "number" then -- ID may be string, e.g. "PASS"
 					if entry.isAwardReason then id = id + 100 end -- Bump to distingush from normal awards
-					if entry.tokenRoll then id = id + 200 end
-					if entry.relicRoll then id = id + 300 end
+					if entry.tierToken then id = id + 200 end
 				end
-				-- We assume the mapID and difficultyID is available on any item if at all.
-				if not numTokens[entry.instance] then numTokens[entry.instance] = {num = 0, mapID = entry.mapID, difficultyID = entry.difficultyID} end
-				if entry.tierToken then -- If it's a tierToken, increase the count
-					numTokens[entry.instance].num = numTokens[entry.instance].num + 1
+
+				if not numTokens[entry.instance] then
+					numTokens[entry.instance] = 0
+				end
+				if entry.tierToken and not entry.isAwardReason then -- If it's a tierToken, increase the count
+					numTokens[entry.instance] = numTokens[entry.instance] + 1
 				end
 				count[id] = count[id] and count[id] + 1 or 1
 				responseText[id] = responseText[id] and responseText[id] or entry.response
@@ -2213,8 +2288,7 @@ function RCLootCouncil:GetLootDBStatistics()
 					color[id] = #entry.color ~= 0 and #entry.color == 4 and entry.color or {1,1,1}
 				end
 				if lastestAwardFound < 5 and type(id) == "number" and not entry.isAwardReason
-					and (id <= db.numMoreInfoButtons or (entry.tokenRoll and id - 200 <= db.numMoreInfoButtons)
-							or (entry.relicRoll and id - 300 <= db.numMoreInfoButtons)) then
+					and (id <= db.numMoreInfoButtons or (entry.tierToken and id - 200 <= db.numMoreInfoButtons)) then
 					tinsert(lootDBStatistics[name], {entry.lootWon, --[[entry.response .. ", "..]] format(L["'n days' ago"], self:ConvertDateToString(self:GetNumberOfDaysFromNow(entry.date))), color[id], i})
 					lastestAwardFound = lastestAwardFound + 1
 				end
@@ -2566,7 +2640,7 @@ end
 -- @param height Height of the frame, defaults to 325.
 -- @return The frame object.
 function RCLootCouncil:CreateFrame(name, cName, title, width, height)
-	local f = CreateFrame("Frame", name, UIParent) -- LibWindow seems to work better with nil parent
+	local f = CreateFrame("Frame", name, UIParent, BackdropTemplateMixin and "BackdropTemplate") -- LibWindow seems to work better with nil parent
 	f:Hide()
 	f:SetFrameStrata("DIALOG")
 	f:SetWidth(450)
@@ -2576,11 +2650,13 @@ function RCLootCouncil:CreateFrame(name, cName, title, width, height)
 	f:RegisterConfig(db.UI[cName])
 	f:RestorePosition() -- might need to move this to after whereever GetFrame() is called
 	f:MakeDraggable()
-	f:SetScript("OnMouseWheel", function(f,delta) if IsControlKeyDown() then lwin.OnMouseWheel(f,delta) end end)
+	local scrollScriptHandler = function(f,delta) if IsControlKeyDown() then lwin.OnMouseWheel(f,delta) end end
+	f:SetScript("OnMouseWheel",  scrollScriptHandler)
+	f:SetToplevel(true)
 
-	local tf = CreateFrame("Frame", "RC_UI_"..cName.."_Title", f)
+	local tf = CreateFrame("Frame", "RC_UI_"..cName.."_Title", f, BackdropTemplateMixin and "BackdropTemplate")
 	--tf:SetFrameStrata("DIALOG")
-	tf:SetToplevel(true)
+	tf:SetFrameLevel(2)
 	tf:SetBackdrop({
 	   --   bgFile = AceGUIWidgetLSMlists.background[db.UI.default.background],
 	   --   edgeFile = AceGUIWidgetLSMlists.border[db.UI.default.border],
@@ -2596,7 +2672,10 @@ function RCLootCouncil:CreateFrame(name, cName, title, width, height)
 	tf:SetMovable(true)
 	tf:SetWidth(width or 250)
 	tf:SetPoint("CENTER",f,"TOP",0,-1)
-	tf:SetScript("OnMouseDown", function(self) self:GetParent():StartMoving() end)
+	tf:SetScript("OnMouseDown", function(self)
+		self:GetParent():StartMoving()
+		self:GetParent():SetToplevel(true)
+	end)
 	tf:SetScript("OnMouseUp", function(self) -- Get double click by trapping time betweem mouse up
 		local frame = self:GetParent()
 		frame:StopMovingOrSizing()
@@ -2618,13 +2697,14 @@ function RCLootCouncil:CreateFrame(name, cName, title, width, height)
 	tf.text = text
 	f.title = tf
 
-	local c = CreateFrame("Frame", "RC_UI_"..cName.."_Content", f) -- frame that contains the actual content
+	local c = CreateFrame("Frame", "RC_UI_"..cName.."_Content", f, BackdropTemplateMixin and "BackdropTemplate") -- frame that contains the actual content
 	c:SetBackdrop({
 		bgFile = AceGUIWidgetLSMlists.background[db.skins[db.currentSkin].background],
 		edgeFile = AceGUIWidgetLSMlists.border[db.skins[db.currentSkin].border],
 	   tile = true, tileSize = 255, edgeSize = 16,
 	   insets = { left = 2, right = 2, top = 2, bottom = 2 }
 	})
+	c:SetFrameLevel(1)
 	c:EnableMouse(true)
 	c:SetWidth(450)
 	c:SetHeight(height or 325)
@@ -2639,6 +2719,10 @@ function RCLootCouncil:CreateFrame(name, cName, title, width, height)
 			frame:SavePosition() -- LibWindow SavePosition has nil error rarely and randomly and I cant really find the root cause. Let's just do a nil check.
 		end
 	end)
+	c:SetScript("OnLeave", function(this)
+		-- Used if minimized while dragging the panel
+		this:GetParent():StopMovingOrSizing()
+	end)
 	f.content = c
 	f.minimized = false
 	f.IsMinimized = function(frame) return frame.minimized end
@@ -2647,6 +2731,7 @@ function RCLootCouncil:CreateFrame(name, cName, title, width, height)
 		if not frame.minimized then
 			frame.content:Hide()
 			frame.minimized = true
+			f:SetScript("OnMouseWheel", nil)
 		end
 	end
 	f.Maximize = function(frame)
@@ -2654,6 +2739,7 @@ function RCLootCouncil:CreateFrame(name, cName, title, width, height)
 		if frame.minimized then
 			frame.content:Show()
 			frame.minimized = false
+			f:SetScript("OnMouseWheel",  scrollScriptHandler)
 		end
 	end
 	-- Support for auto hide in combat:
@@ -2824,12 +2910,14 @@ function RCLootCouncil:GetItemTypeText(link, subType, equipLoc, typeID, subTypeI
 
 	if tokenSlot then -- It's a token
 		local tokenText = L["Armor Token"]
-		if bit.band(classesFlag, 0x112) == 0x112 then
-			tokenText = L["Conqueror Token"]
-		elseif bit.band(classesFlag, 0x45) == 0x45 then
-			tokenText = L["Protector Token"]
-		elseif bit.band(classesFlag, 0x488) == 0x488 then
-			tokenText = L["Vanquisher Token"]
+		if classesFlag ~= 0xffffffff then
+			if bit.band(classesFlag, 0x112) == 0x112 then
+				tokenText = L["Conqueror Token"]
+			elseif bit.band(classesFlag, 0x45) == 0x45 then
+				tokenText = L["Protector Token"]
+			elseif bit.band(classesFlag, 0x488) == 0x488 then
+				tokenText = L["Vanquisher Token"]
+			end
 		end
 
 		if equipLoc == "" then
@@ -2884,40 +2972,44 @@ end
 function RCLootCouncil:GetResponse(type, name)
 	-- REVIEW With proper inheritance, most of this should be redundant
 	-- Check if the type should be translated to something else
-	type = type and type or "default"
-	if self.mldb.responses and not self.mldb.responses[type] and self.BTN_SLOTS[type] and self.mldb.responses[self.BTN_SLOTS[type]] then
-		type = self.BTN_SLOTS[type]
-	end
-	-- FIXME If we use non default button without mldb (i.e. changing responses in loot history), this will fail.
-   if type == "default" or (self.mldb and not self.mldb.responses[type]) then -- We have a value if mldb is blank
-      if db.responses.default[name] or self.mldb.responses.default[name] then
-         return (self.mldb.responses and self.mldb.responses.default and self.mldb.responses.default[name]) or db.responses.default[name]
-      else
-         self:Debug("No db.responses.default entry for response:", name)
-         return self.defaults.profile.responses.default.DEFAULT -- Use default
-      end
-   else -- This must be supplied by the ml
-      if next(self.mldb) then
-         if self.mldb.responses[type] then
-            if self.mldb.responses[type][name] then
-               return self.mldb.responses[type][name]
-            else
-               self:Debug("No mldb.responses["..tostring(type).."] entry for response:".. tostring(name))
-            end
-         else
+	type = type or "default"
+	if self.mldb.responses and not self.mldb.responses[type] and self.BTN_SLOTS[type]
+		and self.mldb.responses[self.BTN_SLOTS[type]] then type = self.BTN_SLOTS[type] end
+
+	if type == "default" or (self.mldb and self.mldb.responses and not self.mldb.responses[type]) then -- We have a value if mldb is blank
+		if db.responses.default[name] or self.mldb.responses.default[name] then
+			return (self.mldb.responses and self.mldb.responses.default and self.mldb.responses.default[name])
+				or db.responses.default[name]
+		else
+			self:Debug("No db.responses.default entry for response:", name)
+			return self.defaults.profile.responses.default.DEFAULT -- Use default
+		end
+	else
+		if next(self.mldb) then
+			if self.mldb.responses[type] then
+				if self.mldb.responses[type][name] then
+					return self.mldb.responses[type][name]
+				else
+					self:Debug("No mldb.responses[" .. tostring(type) .. "] entry for response:" .. tostring(name))
+				end
+			else
 				-- This type is not enabled, so use default:
-            if db.responses.default[name] or self.mldb.responses.default[name] then
-               return self.mldb.responses.default and self.mldb.responses.default[name] or db.responses.default[name]
-            else
-               self:Debug("Unknown response entry", type, name)
-               return db.responses.default.DEFAULT -- Use default
-            end
-         end
-      else
-         self:Debug("No mldb for GetReponse: ".. tostring(type).. ", ".. tostring(name))
-      end
-   end
-   return {} -- Fallback
+				if db.responses.default[name] or self.mldb.responses.default[name] then
+					return self.mldb.responses.default and self.mldb.responses.default[name] or db.responses.default[name]
+				else
+					self:Debug("Unknown response entry", type, name)
+					return db.responses.default.DEFAULT -- Use default
+				end
+			end
+			-- See if we have local settings
+		elseif db.responses[type] and db.responses[type][name] then
+			return db.responses[type][name]
+		else
+			self:Debug("No db or mldb for GetReponse", type, name)
+		end
+	end
+	self:Debug("Error: no response for", type, name)
+	return {color = {1,1,1,1}} -- Fallback
 end
 
 --- Returns the number of buttons of a specific type
@@ -2956,11 +3048,16 @@ end
 --- Shorthand for :GetResponse(type, name).color
 -- @return Returned in an unpacked format for use in SetTextColor functions.
 function RCLootCouncil:GetResponseColor(type, name)
-	return unpack(self:GetResponse(type, name).color)
+	local response = self:GetResponse(type, name)
+	if not response or not response.color then
+		self:Debug("GetResponseColor: No response for", type, name)
+		return 1,1,1,1
+	end
+	return unpack(response.color)
 end
 
 --#end UI Functions -----------------------------------------------------
---[===[@debug@
+--[==[@debug@
 -- debug func
 _G.printtable = function( data, level )
 	if not data then return end
@@ -2978,73 +3075,7 @@ _G.printtable = function( data, level )
         print( ident .. '}' );
 	until true end
 end
---@end-debug@]===]
-
--- v2.3.1 added some new stuff. This will update old history entries with most of that for english clients.
--- Should be kept for a while so people can update in case their ML is slow to get it done.
-function RCLootCouncil:UpdateLootHistory()
-	self:Print("Updating Loot History")
-	local nighthold, trialofvalor, emeraldnightmare = "The Nighthold", "Trial of Valor", "The Emerald Nightmare"
-	local normal, heroic, mythic = "Normal", "Heroic", "Mythic"
-	if GetLocale() ~= "enUS" then -- Let's see if we can get creative
-		self:Debug("Trying to extract non-english history update data")
-		-- If we find a 2.3.1+ entry, we can use that info to update older entries
-		for _, data in pairs(historyDB) do
-			for _, v in pairs(data) do
-				if v.mapID then
-					if v.mapID == 1530 then
-						nighthold = strsplit("-", v.instance,2)
-					elseif v.mapID == 1648 then
-						trialofvalor = strsplit("-", v.instance,2)
-					elseif v.mapID == 1520 then
-						emeraldnightmare = strsplit("-", v.instance,2)
-					end
-				end
-				-- double up just in case mapID or difficultyID are missing
-				if v.difficultyID then
-					if v.difficultyID == 14 then
-						_, normal = strsplit("-", v.instance,2)
-					elseif v.difficultyID == 15 then
-						_, heroic = strsplit("-", v.instance,2)
-					elseif v.difficultyID == 16 then
-						_, mythic = strsplit("-", v.instance,2)
-					end
-				end
-			end
-		end
-		self:Debug("Result:",nighthold, trialofvalor, emeraldnightmare, normal, heroic, mythic)
-	end
-	for name, data in pairs(historyDB) do
-		for i, v in pairs(data) do
-			local id = self.Utils:GetItemIDFromLink(v.lootWon)
-			v.tierToken = id and RCTokenTable[id]
-			if strmatch(v.instance, nighthold) then
-				v.mapID = 1530
-			elseif strmatch(v.instance, trialofvalor) then
-				v.mapID = 1648
-			elseif strmatch(v.instance, emeraldnightmare) then
-				v.mapID = 1520
-			end
-			if strmatch(v.instance, normal) then
-				v.difficultyID = 14
-			elseif strmatch(v.instance, heroic) then
-				v.difficultyID = 15
-			elseif strmatch(v.instance, mythic) then
-				v.difficultyID = 16
-			end
-			-- Fix corruption caused by v2.4-beta:
-			if v.color and type(v.color) ~= "table" then
-				if v.tokenRoll then
-					v.color = {unpack(db.responses.tier[v.responseID].color)}
-				else
-					v.color = {unpack(db.responses[v.responseID].color)}
-				end
-				self:DebugLog("Fixed 2.4beta corruption @", name, i)
-			end
-		end
-	end
-	self:Print("Done")
-end
+--@end-debug@]==]
 
 ----------------------------------
 -- The following functions have been moved to RCLootCouncil.Utils
@@ -3101,3 +3132,36 @@ end
 	-- Fix for response object in response color:
 	/run local c=0;for _,r in pairs(RCLootCouncil.db.profile.responses.default)do if r.color then r.color.color = nil;r.color.text = nil;c=c+1;end;end;print("Fixed",c,"buttons")
 ]]
+
+local function CheckCachedLootTable(lootTable)
+	local cached = true
+	for _, v in pairs(lootTable) do if not GetItemInfo(v.link) then cached = false end end
+	return cached
+end
+
+function RCLootCouncil:OnLootTableAdditionsReceived(lt)
+	-- Ensure items are cached
+	if not CheckCachedLootTable(lt) then return self:ScheduleTimer("OnLootTableAdditionsReceived", 0, lt) end
+	-- Setup the additions
+	self:PrepareLootTable(lt)
+	self:DoAutoPasses(lt)
+	self:SendLootAck(lt)
+	-- Inject into lootTable
+	local oldLenght = #lootTable
+	for k, v in pairs(lt) do lootTable[k] = v end
+
+	for i = oldLenght + 1, #lootTable do self:GetActiveModule("lootframe"):AddSingleItem(lootTable[i]) end
+	self:SendMessage("RCLootTableAdditionsReceived", lt)
+end
+
+function RCLootCouncil:ExportCurrentSession()
+	if not lootTable or #lootTable == 0 then return self:Print(L["No session running"]) end
+	local exportData = { "session,item,itemID,ilvl" }
+	for session, data in ipairs(lootTable) do
+		exportData[session + 1] = table.concat({ session, data.link:gsub("|", "||"), data.itemID, data.ilvl }, ",")
+	end
+	local csv = table.concat(exportData, "\n")
+	local frame = RCLootCouncil:GetActiveModule("history"):GetFrame()
+	frame.exportFrame.edit:SetText(csv)
+	frame.exportFrame:Show()
+end

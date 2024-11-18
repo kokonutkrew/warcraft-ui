@@ -1,0 +1,15 @@
+
+PrettyReputationDB = {
+["profileKeys"] = {
+["Ascholokk - Emerald Dream"] = "Default",
+["Twenk - Emerald Dream"] = "Default",
+["Blanchyy - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["minimapIcon"] = {
+["showInCompartment"] = true,
+},
+},
+},
+}

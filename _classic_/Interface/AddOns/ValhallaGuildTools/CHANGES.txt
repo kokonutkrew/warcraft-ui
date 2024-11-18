@@ -1,10 +1,22 @@
-lightweight tag f4c8a26b364fe1ef39c16ddaab93cc06319da9ff 11305.74
+lightweight tag 8f006b4a1f5bc0783f741c93867ad01428581f02 11304.67
 Author:	Patrick Schmidt <prs100791@gmail.com>
-Date:	Tue Dec 1 19:23:29 2020 -0600
+Date:	Tue Jul 7 22:47:53 2020 -0500
 
-commit f4c8a26b364fe1ef39c16ddaab93cc06319da9ff
+commit 8f006b4a1f5bc0783f741c93867ad01428581f02
 Author: Patrick Schmidt <prs100791@gmail.com>
-Date:   Tue Dec 1 19:23:29 2020 -0600
+Date:   Tue Jul 7 22:47:53 2020 -0500
 
-    curse being dumb
+    Fix combat events firing for non-creatures
+
+commit 54611dc321aed5b402f220258c0d7ffb8074b33b
+Author: Patrick Schmidt <prs100791@gmail.com>
+Date:   Tue Jul 7 18:08:54 2020 -0500
+
+    Fix ep reward functions
+
+commit 366d0f420180ef7cd7850ceadefc3351297ee652
+Author: Patrick Schmidt <prs100791@gmail.com>
+Date:   Tue Jul 7 14:51:45 2020 -0500
+
+    bump for phase 5
 

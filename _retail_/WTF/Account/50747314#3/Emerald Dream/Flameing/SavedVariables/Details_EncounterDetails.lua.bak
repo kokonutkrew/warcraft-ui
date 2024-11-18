@@ -1,0 +1,417 @@
+
+EncounterDetailsDB = {
+["chartData"] = {
+},
+["encounter_spells"] = {
+[138427] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Gurubashi Berserker",
+},
+[136797] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_HEAL"] = true,
+},
+["source"] = "Zandalari Dinomancer",
+},
+[136821] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Horridon",
+},
+[138349] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Jin'rokh the Breaker",
+},
+[136767] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Horridon",
+},
+[137374] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Jin'rokh the Breaker",
+},
+[137162] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Jin'rokh the Breaker",
+},
+[137422] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Focused Lightning",
+},
+[224126] = {
+["school"] = 16,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Spirit Wolf",
+},
+[139218] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Zandalari Storm-Caller",
+},
+[136769] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Horridon",
+},
+[224127] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Spirit Wolf",
+},
+[136817] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "War-God Jalak",
+},
+[136770] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Horridon",
+},
+[136723] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
+[139251] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Zandalari Storm-Caller",
+},
+[137180] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Jin'rokh the Breaker",
+},
+[136881] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Zandalari Water-Binder",
+},
+[136952] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Zandalari Water-Binder",
+},
+[136708] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Sul'lithuz Stonegazer",
+},
+[136740] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Horridon",
+},
+[139231] = {
+["school"] = 16,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Zandalari Storm-Caller",
+},
+[139364] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Spirit Flayer",
+},
+[136953] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Zandalari Water-Binder",
+},
+[137087] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Drawn Water",
+},
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Farraki Skirmisher",
+},
+[52042] = {
+["school"] = 8,
+["token"] = {
+["SPELL_PERIODIC_HEAL"] = true,
+},
+["source"] = "Healing Stream Totem",
+},
+[137237] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Zandalari Dinomancer",
+},
+[136741] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Horridon",
+},
+[139220] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Zandalari Storm-Caller",
+},
+[137399] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Jin'rokh the Breaker",
+},
+[137458] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Horridon",
+},
+[136725] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Farraki Wastewalker",
+},
+[434589] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Overfiend",
+},
+[136739] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Horridon",
+},
+},
+["emotes"] = {
+{
+{
+10.46700000000419,
+"Farraki tribe, flay their flesh wit the fury of the sands!",
+"War-God Jalak",
+7,
+},
+{
+16.5,
+"Farraki forces pour from the Farraki Tribal Door!",
+"War-God Jalak",
+1,
+},
+{
+52.19099999999162,
+"Horridon sets his eyes on Flameing and stamps his tail!",
+"Horridon",
+1,
+},
+{
+75.25200000000768,
+"Hahaha! Now it be my turn! Ye gonna see what it means to be a War-God!",
+"War-God Jalak",
+7,
+},
+{
+82.51900000000023,
+"The Zandalari Dinomancer drops an Orb of Control!",
+"Zandalari Dinomancer",
+1,
+},
+{
+82.51900000000023,
+"Ya skull gonna make a fine ornament for my tusks.",
+"War-God Jalak",
+7,
+},
+{
+93.78599999999278,
+"Da'kala koraste...Horridon...destroy them...",
+"War-God Jalak",
+7,
+},
+{
+93.78599999999278,
+"|TInterface\\Icons\\ability_warrior_focusedrage.blp:20|t Horridon goes on a |cFFFF0000|Hspell:136821|h[Rampage]|h|r after seeing War-God Jalak fall!",
+"Horridon",
+1,
+},
+["boss"] = "Horridon",
+},
+{
+{
+0.2000000000116415,
+"I must break you.",
+"Jin'rokh the Breaker",
+7,
+},
+{
+11.34500000000116,
+"Zap!",
+"Jin'rokh the Breaker",
+7,
+},
+{
+11.81200000000536,
+"So easy to break.",
+"Jin'rokh the Breaker",
+7,
+},
+{
+13.57899999999791,
+"Smash!",
+"Jin'rokh the Breaker",
+7,
+},
+{
+23.0460000000021,
+"Zap!",
+"Jin'rokh the Breaker",
+7,
+},
+{
+30.70300000000862,
+"|TInterface\\Icons\\ability_warrior_throwdown:20|t%s grabs Aaeciaana and readies his |cFFFF0000|Hspell:137175|h[Thundering Throw]|h|r!",
+"Jin'rokh the Breaker",
+1,
+},
+{
+30.70300000000862,
+"Crush your bones!",
+"Jin'rokh the Breaker",
+7,
+},
+{
+36.67300000000978,
+"|TInterface\\Icons\\ability_vehicle_electrocharge:20|t%s's |cFFFF0000|Hspell:137422|h[Focused Lightning]|h|r fixates on you. Run!",
+"Jin'rokh the Breaker",
+2,
+},
+{
+39.20600000000559,
+"Zap!",
+"Jin'rokh the Breaker",
+7,
+},
+{
+42.47299999999814,
+"Smash!",
+"Jin'rokh the Breaker",
+7,
+},
+["boss"] = "Jin'rokh the Breaker",
+},
+{
+{
+0.2329999999783468,
+"I must break you.",
+"Jin'rokh the Breaker",
+7,
+},
+["boss"] = "Jin'rokh the Breaker",
+},
+},
+}

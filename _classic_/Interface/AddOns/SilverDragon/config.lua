@@ -1,9 +1,7 @@
 local core = LibStub("AceAddon-3.0"):GetAddon("SilverDragon")
 local module = core:NewModule("Config", "AceConsole-3.0")
 
-local db
-
-local function toggle(name, desc, order, inline)
+local function toggle(name, desc, order, inline, disabled)
 	return {
 		type = "toggle",
 		name = name,
@@ -11,6 +9,7 @@ local function toggle(name, desc, order, inline)
 		order = order,
 		descStyle = (inline or (inline == nil)) and "inline" or nil,
 		width = (inline or (inline == nil)) and "full" or nil,
+		disabled = disabled,
 	}
 end
 module.toggle = toggle
@@ -27,8 +26,8 @@ module.desc = desc
 local options = {
 	type = "group",
 	name = "SilverDragon",
-	get = function(info) return db[info[#info]] end,
-	set = function(info, v) db[info[#info]] = v end,
+	get = function(info) return core.db.profile[info[#info]] end,
+	set = function(info, v) core.db.profile[info[#info]] = v end,
 	args = {
 		about = {
 			type = "group",
@@ -49,10 +48,30 @@ local options = {
 			},
 			order = 0,
 		},
+		general = {
+			type = "group",
+			name = "General",
+			order = 10,
+			args = {
+				about = desc("SilverDragon wants to tell you things. Check out the sub-sections here to adjust how it does that.", 0),
+				loot = {
+					type = "group",
+					name = "Loot",
+					inline = true,
+					order = 5,
+					args = {
+						about = desc("Some options for how SilverDragon will treat loot drops from mobs", 0),
+						charloot = toggle("Current character only", "Only show loot that should drop for your current character.", 10),
+						transmog_specific = toggle("Transmog exact items", "For transmog appearances, only count them as known if you know them from that exact item, rather than from another sharing the same appearance", 20),
+					}
+				},
+			},
+			plugins = {},
+		},
 		scanning = {
 			type = "group",
 			name = "Scanning",
-			order = 10,
+			order = 20,
 			args = {
 				about = desc("SilverDragon is all about scanning for rare mobs. The options you see in this tab apply generally to all the scanning methods used. For more specific controls, check out the sub-sections.", 0),
 				scan = {
@@ -70,16 +89,7 @@ local options = {
 					order = 20,
 				},
 				instances = toggle("Scan in instances", "There aren't that many actual rares in instances, and scanning might slow things down at a time when you'd like the most performance possible.", 50),
-				taxi = toggle("Scan on taxis", "Keep scanning for rares while flying on a taxi. Just hope that it'll still be there after you land and make your way back...", 55),
-			},
-			plugins = {},
-		},
-		outputs = {
-			type = "group",
-			name = "Outputs",
-			order = 20,
-			args = {
-				about = desc("SilverDragon wants to tell you things. Check out the sub-sections here to adjust how it does that.", 0),
+				taxi = toggle("Scan on taxis", "Keep scanning for rares while flying on a taxi or in a dragon race. Just hope that it'll still be there after you land and make your way back...", 55),
 			},
 			plugins = {},
 		},
@@ -90,30 +100,18 @@ local options = {
 module.options = options
 
 function module:OnInitialize()
-	db = core.db.profile
-
 	options.plugins["profiles"] = {
 		profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(core.db)
 	}
 	options.plugins.profiles.profiles.order = -1 -- last!
 
-	LibStub("AceConfigRegistry-3.0"):RegisterOptionsTable("SilverDragon", options)
+	LibStub("AceConfigRegistry-3.0"):RegisterOptionsTable("SilverDragon", function()
+		core.events:Fire("OptionsRequested", options)
+		return options
+	end)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("SilverDragon", "SilverDragon")
-	self:RegisterChatCommand("silverdragon", "OnChatCommand")
 end
 
-function module:OnChatCommand(input)
-	local command, args = self:GetArgs(input, 2)
-	if command then
-		command = command:lower()
-		if command == 'debug' then
-			core:ShowDebugWindow()
-		end
-	else
-		self:ShowConfig()
-	end
-end
-
-function module:ShowConfig()
-	LibStub("AceConfigDialog-3.0"):Open("SilverDragon")
+function module:ShowConfig(...)
+	LibStub("AceConfigDialog-3.0"):Open("SilverDragon", ...)
 end

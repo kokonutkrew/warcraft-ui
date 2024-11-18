@@ -24,13 +24,8 @@
 -- f:AddChild(btn)
 -- @class file
 -- @name AceGUI-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/Plater/libs/AceGUI-3.0/AceGUI-3.0.lua
--- @release $Id: AceGUI-3.0.lua 1231 2020-04-14 22:20:36Z nevcairiel $
-local ACEGUI_MAJOR, ACEGUI_MINOR = "AceGUI-3.0", 41
-========
 -- @release $Id: AceGUI-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
 local ACEGUI_MAJOR, ACEGUI_MINOR = "AceGUI-3.0", 36
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0-SharedMediaWidgets/Libs/AceGUI-3.0/AceGUI-3.0.lua
 local AceGUI, oldminor = LibStub:NewLibrary(ACEGUI_MAJOR, ACEGUI_MINOR)
 
 if not AceGUI then return end -- No upgrade needed
@@ -180,8 +175,6 @@ end
 -- If this widget is a Container-Widget, all of its Child-Widgets will be releases as well.
 -- @param widget The widget to release
 function AceGUI:Release(widget)
-	if widget.isQueuedForRelease then return end
-	widget.isQueuedForRelease = true
 	safecall(widget.PauseLayout, widget)
 	widget:Fire("OnRelease")
 	safecall(widget.ReleaseChildren, widget)
@@ -211,24 +204,7 @@ function AceGUI:Release(widget)
 		widget.content.width = nil
 		widget.content.height = nil
 	end
-	widget.isQueuedForRelease = nil
 	delWidget(widget, widget.type)
-end
-
---- Check if a widget is currently in the process of being released
--- This function check if this widget, or any of its parents (in which case it'll be released shortly as well)
--- are currently being released. This allows addon to handle any callbacks accordingly.
--- @param widget The widget to check
-function AceGUI:IsReleasing(widget)
-	if widget.isQueuedForRelease then
-		return true
-	end
-
-	if widget.parent and widget.parent.AceGUIWidgetVersion then
-		return AceGUI:IsReleasing(widget.parent)
-	end
-
-	return false
 end
 
 -----------
@@ -355,10 +331,6 @@ do
 
 	WidgetBase.Release = function(self)
 		AceGUI:Release(self)
-	end
-
-	WidgetBase.IsReleasing = function(self)
-		return AceGUI:IsReleasing(self)
 	end
 
 	WidgetBase.SetPoint = function(self, ...)

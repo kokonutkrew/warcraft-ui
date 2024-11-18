@@ -1,0 +1,12 @@
+VER 3 0100000000000001 "angelic feather" "134400"
+#showtooltip Angelic Feather
+/cast [mod:shift, @cursor][@player][] Angelic Feather
+END
+VER 3 0100000000000003 "renew" "134400"
+#showtooltip
+/cast [mod:alt,@player] [@mouseover,help,nodead] Renew; [@mouseover,harm,nodead] [harm] Shadow Word: Pain; Renew
+END
+VER 3 0100000000000002 "Sanctify" "134400"
+#showtooltip
+/cast [mod:shift, @cursor][@player][] Holy Word: Sanctify
+END

@@ -616,6 +616,9 @@ localize(L.HEADER_NAMES, {
 	[-1000904] = "Source IDs",
 	[-1001035] = "Seasonal Fish: Summer Bass",
 	[-1001036] = "Seasonal Fish: Winter Squid",
+	[-1001051] = "Defense Protocol Alpha",
+	[-1001052] = "Defense Protocol Beta",
+	[-1001053] = "Defense Protocol Gamma",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -805,6 +808,9 @@ localize(L.HEADER_ICONS, {
 	[-1000904] = 134400,
 	[-1001035] = 133889,
 	[-1001036] = 133899,
+	[-1001051] = 236514,
+	[-1001052] = 236516,
+	[-1001053] = 236521,
 });
 localize(L.HEADER_EVENTS, {
 	[-1000200] = 201,
@@ -847,15 +853,15 @@ _.Modules.Events.SetEventInformation(590, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=4,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=4,["year"]=2026})
 });
-_.Modules.Events.SetEventInformation(133889, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=6,["year"]=2023}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025})
-});
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=7,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026})
+});
+_.Modules.Events.SetEventInformation(133889, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=6,["year"]=2023}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025})
 });
 
 -- Filter Database Module
@@ -2166,6 +2172,7 @@ local ObjectNames = {
 	[181894] = "Fel Cone Fungus",
 	[181897] = "Ysera's Tear",
 	[181916] = "Tainted Wood",
+	[181963] = "Charred Bone Fragment",
 	[181964] = "Statue of Queen Azshara",
 	[181981] = "Dragon Bone",
 	[182011] = "Crate of Ingots",
@@ -2192,6 +2199,7 @@ local ObjectNames = {
 	[182196] = "Arcane Container",
 	[182197] = "Arcane Container",
 	[182198] = "Arcane Container",
+	[182199] = "Keanna's Log",
 	[182256] = "Discarded Nutriment",
 	[182265] = "Bleeding Hollow Supply Crate",
 	[182349] = "Corki's Prison",
@@ -2588,6 +2596,7 @@ local ObjectNames = {
 	[192823] = "Full Jug of Wine",
 	[192824] = "Half Full Glass of Wine",
 	[192825] = "Aged Dalaran Limburger",
+	[192826] = "Drakkari History Tablet",
 	[192827] = "Wild Mustard",
 	[192828] = "Crystalsong Carrot",
 	[192833] = "Bridenbrad's Possessions",
@@ -3929,6 +3938,7 @@ local ObjectModels = {
 	[181894] = 202176,
 	[181897] = 202098,
 	[181916] = 198389,
+	[181963] = 199754,
 	[181964] = 201452,
 	[181981] = 203724,
 	[182011] = 198168,
@@ -3955,6 +3965,7 @@ local ObjectModels = {
 	[182196] = 199744,
 	[182197] = 199744,
 	[182198] = 199744,
+	[182199] = 198028,
 	[182256] = 193909,
 	[182265] = 199099,
 	[182349] = 200938,
@@ -4343,6 +4354,7 @@ local ObjectModels = {
 	[192823] = 189821,
 	[192824] = 192003,
 	[192825] = 198221,
+	[192826] = 194086,
 	[192827] = 189763,
 	[192828] = 219486,
 	[192833] = 196979,
@@ -4800,6 +4812,9 @@ localize(L.HEADER_NAMES, {
 	[-1000380] = "Kopfgeld",
 	[-1001035] = "Saisonfisch: Sommerbarsch",
 	[-1001036] = "Saisonfisch: Winterkalmar",
+	[-1001051] = "Verteidigungsprotokoll Alpha",
+	[-1001052] = "Verteidigungsprotokoll Beta",
+	[-1001053] = "Verteidigungsprotokoll Gamma",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -5585,6 +5600,7 @@ localize(ObjectNames, {
 	[181894] = "Teufelszapfenfungus",
 	[181897] = "Yseras Träne",
 	[181916] = "Verdorbenes Satyrnaarholz",
+	[181963] = "Verkohltes Knochenfragment",
 	[181964] = "Statue der Königin Azshara",
 	[181981] = "Drachenknochen",
 	[182011] = "Kiste mit Blöcken",
@@ -5610,6 +5626,7 @@ localize(ObjectNames, {
 	[182196] = "Arkaner Behälter",
 	[182197] = "Arkaner Behälter",
 	[182198] = "Arkaner Behälter",
+	[182199] = "Keannas Aufzeichnungen",
 	[182256] = "Liegengelassene Nahrung",
 	[182265] = "Vorratskiste des Blutenden Auges",
 	[182355] = "Waffen von Kil'sorge",
@@ -5964,6 +5981,7 @@ localize(ObjectNames, {
 	[192823] = "Voller Weinkrug",
 	[192824] = "Halbvolles Weinglas",
 	[192825] = "Reifer Dalaranlimburger",
+	[192826] = "Geschichtstafel der Drakkari",
 	[192827] = "Wilder Senf",
 	[192828] = "Kristallsangkarotte",
 	[192833] = "Bridenbrads Hab und Gut",
@@ -6095,6 +6113,9 @@ localize(L.HEADER_NAMES, {
 	[-1000380] = "Prime",
 	[-1001035] = "Poisson de saison : bar d'été",
 	[-1001036] = "Poisson de saison : calmar d'hiver",
+	[-1001051] = "Protocole de défense Alpha",
+	[-1001052] = "Protocole de défense Bêta",
+	[-1001053] = "Protocole de défense Gamma",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -6879,6 +6900,7 @@ localize(ObjectNames, {
 	[181894] = "Collybie gangrenée",
 	[181897] = "Larme d'Ysera",
 	[181916] = "Bois gangrené de Satyrnaar",
+	[181963] = "Fragment d'os carbonisé",
 	[181964] = "Statue de la reine Azshara",
 	[181981] = "Os de dragon",
 	[182011] = "Caisse de lingots",
@@ -6905,6 +6927,7 @@ localize(ObjectNames, {
 	[182196] = "Récipient arcanique",
 	[182197] = "Récipient arcanique",
 	[182198] = "Récipient arcanique",
+	[182199] = "Journal de Keanna",
 	[182256] = "Aliments abandonnés",
 	[182265] = "Caisse de fournitures de l'Orbite-Sanglante",
 	[182355] = "Armes de Kil'sorrau",
@@ -7264,6 +7287,7 @@ localize(ObjectNames, {
 	[192823] = "Cruche de vin pleine",
 	[192824] = "Verre de vin à moitié plein",
 	[192825] = "Vieux limbourg de Dalaran",
+	[192826] = "Tablette de l'histoire drakkari",
 	[192827] = "Moutarde sauvage",
 	[192828] = "Carotte du Chant de cristal",
 	[192833] = "Possessions de Bridenbrad",
@@ -7806,6 +7830,7 @@ localize(ObjectNames, {
 	[181894] = "Fungo di Vilpigna",
 	[181897] = "Lacrima di Ysera",
 	[181916] = "Catasta di Legno Profanato di Satirnaar",
+	[181963] = "Frammento d'Osso Carbonizzato",
 	[181964] = "Statua della Regina Azshara",
 	[181981] = "Osso di Drago",
 	[182011] = "Cassa di Lingotti",
@@ -7831,6 +7856,7 @@ localize(ObjectNames, {
 	[182196] = "Contenitore Arcano",
 	[182197] = "Contenitore Arcano",
 	[182198] = "Contenitore Arcano",
+	[182199] = "Diario di Keanna",
 	[182256] = "Alimento Scartato",
 	[182265] = "Provviste dei Guerci Insanguinati",
 	[182355] = "Armamenti dei Kil'sorin",
@@ -8181,6 +8207,7 @@ localize(ObjectNames, {
 	[192823] = "Brocca Piena di Vino",
 	[192824] = "Bicchiere Mezzo Pieno di Vino",
 	[192825] = "Groviera Stagionato di Dalaran",
+	[192826] = "Tavoletta Storica Drakkari",
 	[192827] = "Senape Selvatica",
 	[192828] = "Carota della Foresta di Cristallo",
 	[192833] = "Spada di Bridenbrad",
@@ -8271,6 +8298,9 @@ localize(L.HEADER_NAMES, {
 	[-1000380] = "Recompensa",
 	[-1001035] = "Peixe sazonal: robalo de verão",
 	[-1001036] = "Peixe sazonal: Lula de Inverno",
+	[-1001051] = "Protocolo de Defesa Alfa",
+	[-1001052] = "Protocolo de Defesa Beta",
+	[-1001053] = "Protocolo de Defesa Gama",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "Um mestre de armas é um NPC que oferece aos personagens a oportunidade de aprender habilidades específicas com armas, cuja disponibilidade varia de um mestre de armas para outro. Todas as habilidades com armas podem ser treinadas no nível 1, exceto as armas de haste, que exigem nível 20.\n\nO treinamento com um mestre de armas tornou-se obsoleto no Patch 4.0.1, já que todas as proficiências de armas apropriadas à classe agora são aprendidas por cada classe após a criação. Os mestres de armas foram removidos do jogo logo depois.",
@@ -8985,6 +9015,7 @@ localize(ObjectNames, {
 	[181894] = "Fungo Conífero Vil",
 	[181897] = "Lágrima de Ysera",
 	[181916] = "Madeira Vil de Satyrnaar",
+	[181963] = "Fragmento de Osso Carbonizado",
 	[181964] = "Estátua da Rainha Azshara",
 	[181981] = "Osso de Dragão",
 	[182011] = "Caixote de Lingotes",
@@ -9011,6 +9042,7 @@ localize(ObjectNames, {
 	[182196] = "Recipiente Arcano",
 	[182197] = "Recipiente Arcano",
 	[182198] = "Recipiente Arcano",
+	[182199] = "Anotações de Keanna",
 	[182256] = "Nutrimento Descartado",
 	[182265] = "Caixa de Suprimentos Olhos Sangrentos",
 	[182355] = "Armamentos de Kil'pesar",
@@ -9363,6 +9395,7 @@ localize(ObjectNames, {
 	[192823] = "Jarra de Vinho Cheia",
 	[192824] = "Taça de Vinho Meio Cheia",
 	[192825] = "Roquefort de Dalaran Curado",
+	[192826] = "Tabuleta de História Drakkari",
 	[192827] = "Mostarda Selvagem",
 	[192828] = "Cenoura do Canto Cristalino",
 	[192833] = "Posses do Brindeiro",
@@ -9505,6 +9538,9 @@ localize(L.HEADER_NAMES, {
 	[-1000872] = "Пиратская буря",
 	[-1001035] = "Сезонная рыба: летний окунь",
 	[-1001036] = "Сезонная рыба: зимний кальмар",
+	[-1001051] = "Защитный протокол \"Альфа\"",
+	[-1001052] = "Защитный протокол \"Бета\"",
+	[-1001053] = "Защитный протокол \"Гамма\"",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Чтобы выполнить упомянутые в данной секции Штучки, может быть нужен какой-то праздник.",
@@ -10293,6 +10329,7 @@ localize(ObjectNames, {
 	[181894] = "Поганка конусовидная",
 	[181897] = "Слеза Изеры",
 	[181916] = "Связка оскверненной древесины Сатирнаара",
+	[181963] = "Фрагмент обугленной кости",
 	[181964] = "Статуя королевы Азшары",
 	[181981] = "Кость дракона",
 	[182011] = "Ящик со слитками",
@@ -10319,6 +10356,7 @@ localize(ObjectNames, {
 	[182196] = "Волшебный контейнер",
 	[182197] = "Волшебный контейнер",
 	[182198] = "Волшебный контейнер",
+	[182199] = "Записи Кинны",
 	[182256] = "Выброшенный корм",
 	[182265] = "Ящик с припасами из Кровавой Глазницы",
 	[182355] = "Оружие Вечной Скорби",
@@ -10680,6 +10718,7 @@ localize(ObjectNames, {
 	[192823] = "Полный кувшин с вином",
 	[192824] = "Недопитый стакан",
 	[192825] = "Зрелый даларанский камамбер",
+	[192826] = "Табличка с летописью Драккари",
 	[192827] = "Полевая горчица",
 	[192828] = "Морковь из леса Хрустальной Песни",
 	[192833] = "Имущество Бриденбрада",
@@ -10969,6 +11008,9 @@ localize(L.HEADER_NAMES, {
 	[-1000380] = "하사품",
 	[-1001035] = "제철 생선: 여름 농어",
 	[-1001036] = "제철 생선: 겨울 오징어",
+	[-1001051] = "방어 프로토콜 알파",
+	[-1001052] = "방어 프로토콜 베타",
+	[-1001053] = "방어 프로토콜 감마",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "웨폰 마스터는 캐릭터에게 특정 무기 기술을 배울 수 있는 기회를 제공하는 NPC로, 사용 가능 여부는 웨폰 마스터마다 다릅니다. 모든 무기 기술은 레벨 20이 필요한 폴암을 제외하고 레벨 1에서 훈련할 수 있습니다.\n\n4.0.1 패치에서는 각 병과가 생성 시 모든 병과에 적합한 무기 숙련도를 배우게 되므로 무기 전문가와의 훈련은 더 이상 필요하지 않게 되었습니다. 무기 마스터는 곧 게임에서 제거되었습니다.",
@@ -11693,6 +11735,7 @@ localize(ObjectNames, {
 	[181894] = "지옥방울버섯",
 	[181897] = "이세라의 눈물",
 	[181916] = "사티르나르의 오염된 목재",
+	[181963] = "그을린 뼈 조각",
 	[181981] = "용의 뼈",
 	[182011] = "주괴 상자",
 	[182024] = "피가 담긴 구슬",
@@ -11718,6 +11761,7 @@ localize(ObjectNames, {
 	[182196] = "마법 단지",
 	[182197] = "마법 단지",
 	[182198] = "마법 단지",
+	[182199] = "킨나의 기록",
 	[182256] = "버려진 버섯",
 	[182265] = "피눈물 보급품 상자",
 	[182355] = "킬소로우 무기",
@@ -12060,6 +12104,7 @@ localize(ObjectNames, {
 	[192823] = "가득 찬 포도주 단지",
 	[192824] = "반쯤 찬 포도주 잔",
 	[192825] = "숙성된 달라란 연치즈",
+	[192826] = "드라카리 역사 서판",
 	[192827] = "야생 겨자",
 	[192828] = "수정노래 당근",
 	[192833] = "브라이든브래드의 물건 상자",
@@ -12155,6 +12200,9 @@ localize(L.HEADER_NAMES, {
 	[-1000380] = "Prima",
 	[-1001035] = "Pescado de temporada: lubina de verano",
 	[-1001036] = "Pescado de temporada: calamares de invierno",
+	[-1001051] = "Protocolo de defensa Alfa",
+	[-1001052] = "Protocolo de defensa Beta",
+	[-1001053] = "Protocolo de defensa Gamma",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "Un maestro de armas es un PNJ que ofrece a los personajes la oportunidad de aprender habilidades específicas con armas, cuya disponibilidad varía de un maestro de armas a otro. Todas las habilidades con armas se pueden entrenar en el nivel 1, excepto las armas de asta que requieren el nivel 20.\n\nEl entrenamiento con un maestro de armas quedó obsoleto en el parche 4.0.1, ya que cada clase ahora aprende todas las competencias de armas apropiadas para la clase en el momento de la creación. Los maestros de armas se eliminaron del juego poco después.",
@@ -12933,6 +12981,7 @@ localize(ObjectNames, {
 	[181894] = "Hongo de bellota vil",
 	[181897] = "Lágrima de Ysera",
 	[181916] = "Madera vil de Satyrnaar",
+	[181963] = "Trozo de hueso carbonizado",
 	[181964] = "Estatua de la reina Azshara",
 	[181981] = "Hueso de dragón",
 	[182011] = "Cajón de lingotes",
@@ -12959,6 +13008,7 @@ localize(ObjectNames, {
 	[182196] = "Contenedor arcano",
 	[182197] = "Contenedor arcano",
 	[182198] = "Contenedor arcano",
+	[182199] = "Apuntes de Keanna",
 	[182256] = "Restos de alimentos",
 	[182265] = "Cajón de suministros de Foso Sangrante",
 	[182355] = "Armamento de Mata'penas",
@@ -13311,6 +13361,7 @@ localize(ObjectNames, {
 	[192823] = "Jarra llena de vino",
 	[192824] = "Vaso de vino medio lleno",
 	[192825] = "Queso Limburger de Dalaran viejo",
+	[192826] = "Tablilla de historia Drakkari",
 	[192827] = "Mostaza silvestre",
 	[192828] = "Zanahoria Canto de Cristal",
 	[192833] = "Posesiones de Bridenbrad",
@@ -13464,6 +13515,9 @@ localize(L.HEADER_NAMES, {
 	[-1000380] = "赏金任务",
 	[-1001035] = "时令鱼类：夏季鲈鱼",
 	[-1001036] = "时令鱼类：冬鱿鱼",
+	[-1001051] = "防御协议阿尔法",
+	[-1001052] = "防御协议贝塔",
+	[-1001053] = "防御协议伽马",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "你可能需要在特定的节日活动中才能完成本节中的事物。",
@@ -14142,6 +14196,7 @@ localize(ObjectNames, {
 	[181893] = "致命孢子簇",
 	[181894] = "邪锥蘑菇",
 	[181916] = "被腐蚀的木材",
+	[181963] = "焦骨碎块",
 	[181981] = "龙骨",
 	[182011] = "铁锭箱",
 	[182031] = "丢弃的食物",
@@ -14164,6 +14219,7 @@ localize(ObjectNames, {
 	[182196] = "奥术容器",
 	[182197] = "奥术容器",
 	[182198] = "奥术容器",
+	[182199] = "金娜的日记",
 	[182256] = "丢弃的食物",
 	[182265] = "血环补给箱",
 	[182355] = "暗影议会军备",
@@ -14469,6 +14525,7 @@ localize(ObjectNames, {
 	[192823] = "一壶葡萄酒",
 	[192824] = "半满的酒杯",
 	[192825] = "达拉然奶酪",
+	[192826] = "达卡莱历史石板",
 	[192827] = "野芥菜",
 	[192828] = "晶歌胡萝卜",
 	[192833] = "布雷登布莱德的物品",
@@ -14606,3 +14663,20 @@ for key,value in pairs({
 do achievements[key].description = value; end
 end
 end
+
+
+-- Add a Header & Filter debugger
+setmetatable(_.FilterConstants, {
+	__index = function(t, key)
+		_.print("MISSING FilterConstant:", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});
+setmetatable(_.HeaderConstants, {
+	__index = function(t, key)
+		_.print("MISSING HeaderConstant:", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});

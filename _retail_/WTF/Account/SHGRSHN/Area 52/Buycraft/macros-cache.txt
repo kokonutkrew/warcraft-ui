@@ -1,0 +1,14 @@
+VER 3 0100000000000001 ".f07 Spotlight" "135914"
+/use personal spotlight
+/use pretty dreanor pearl
+/use druid and priest statue set
+/use vindicator's armor polish kit
+/use yellow conservatory scroll
+/use accursed tome of the sargerei
+/use bubble wand
+END
+VER 3 0100000000000002 "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END

@@ -1,3 +1,2 @@
 
-AddonUsageSettings = {
-}
+AddonUsageSettings = nil

@@ -1,0 +1,25 @@
+
+DataStore_Characters_Info = {
+{
+["played"] = 76523,
+["playedThisLevel"] = 71109,
+["zone"] = "Shrine of Seven Stars",
+["money"] = 1374063,
+["lastUpdate"] = 1724023062,
+["restXP"] = 0,
+["XP"] = 40,
+["bindLocation"] = "The Golden Lantern",
+["CovenantInfo"] = 1,
+["name"] = "Xpblast",
+["subZone"] = "The Golden Lantern",
+["maxXP"] = 19770,
+["BaseInfo"] = 2929300,
+["lastLogoutTimestamp"] = 1724023062,
+},
+}
+DataStore_Characters_GuildRanks = {
+}
+DataStore_Characters_Options = {
+["RequestPlayTime"] = true,
+["HideRealPlayTime"] = false,
+}

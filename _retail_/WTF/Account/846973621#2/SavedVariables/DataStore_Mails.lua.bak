@@ -1,0 +1,19 @@
+
+DataStore_Mails_Characters = {
+{
+["lastUpdate"] = 1724018758,
+["Mails"] = {
+},
+["MailCache"] = {
+},
+["lastVisitDate"] = "2024/08/18 16:05",
+},
+}
+DataStore_Mails_Options = {
+["ReportExpiredMailsToChat"] = true,
+["ScanMailBody"] = true,
+["CheckMailExpiry"] = true,
+["CheckMailExpiryAllRealms"] = true,
+["MailWarningThreshold"] = 5,
+["CheckMailExpiryAllAccounts"] = true,
+}

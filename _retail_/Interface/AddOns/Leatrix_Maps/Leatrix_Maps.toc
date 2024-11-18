@@ -3,17 +3,13 @@
 ## Title: Leatrix Maps
 ## Notes: Enhancements for your maps.
 
-<<<<<<< Updated upstream
-## Version: 9.0.20
-=======
-## Version: 11.0.16
->>>>>>> Stashed changes
+## Version: 11.0.17
 ## Author: Leatrix
 ## SavedVariables: LeaMapsDB
 
 ## IconTexture: Interface\HELPFRAME\HelpIcon-Bug
 
-## OptionalDeps: Leatrix_enUS, ElvUI, WorldQuestTracker
+## OptionalDeps: Leatrix_enUS, ElvUI
 
 ## AddonCompartmentFunc:LeaMapsGlobalMiniBtnClickFunc
 

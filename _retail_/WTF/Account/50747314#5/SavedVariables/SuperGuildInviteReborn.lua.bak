@@ -1,0 +1,417 @@
+
+SGI_DATA = {
+["Chieef - Area 52"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -41.95535659790039,
+["xOfs"] = 42.24466705322266,
+["point"] = "RIGHT",
+["relativePoint"] = "RIGHT",
+},
+},
+["filters"] = {
+},
+},
+},
+["Winbin - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -40.53330993652344,
+["xOfs"] = -196.9777984619141,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["guildList"] = {
+["Moon Guard"] = {
+["KK"] = {
+"Saibull",
+"Samoanslayer",
+"Floide",
+},
+["grind dont stop"] = {
+"Cervezha",
+},
+},
+["Area 52"] = {
+["Bass Pro Shops"] = {
+"Dyry",
+},
+["Shoot Stuff Dont Die"] = {
+"Bullrok",
+},
+["Mostly Peaceful Looting"] = {
+"Demetree",
+"Pissedoffelf",
+},
+["From Ash"] = {
+"Deciple",
+},
+["Power Word Drunk"] = {
+"Dárling",
+},
+["Refugee"] = {
+"Rezerection",
+},
+["FIVE STAR GUILD"] = {
+"Plaguemuch",
+},
+["Guigan Empire Three"] = {
+"Shazu",
+},
+["Vorthos"] = {
+"Wrothlastar",
+},
+["Brutal Gaming"] = {
+"Zeroliquid",
+},
+["PuffMaster"] = {
+"Vacalao",
+},
+["Knights of the Grove"] = {
+"Renovia",
+},
+["MY"] = {
+"Giantpanda",
+},
+["Stormwind Parks and Rec"] = {
+"Burtius",
+},
+["The Pwny Express"] = {
+"Runari",
+},
+["POT HEADS I"] = {
+"Ownleefangs",
+},
+["Radiant"] = {
+"Ragemonger",
+},
+},
+["Emerald Dream"] = {
+["Squishies Revenge"] = {
+"Riptide",
+},
+["KK"] = {
+"Winbin",
+},
+["Holy Rollers"] = {
+"Ðaddy",
+"Slitts",
+},
+["Cute Depressed eGirls"] = {
+"Bearvari",
+"Gloomsong",
+"Rumblydunder",
+},
+["Second Best"] = {
+"Gigabyte",
+},
+["Extra Crispy"] = {
+"Ioud",
+},
+["Pandora"] = {
+"Maelyna",
+},
+["Highly Regarded"] = {
+"Nekochibi",
+},
+["We Love Turtles"] = {
+"Blightender",
+},
+["Do Not Disturb"] = {
+"Korillan",
+},
+["Goon Squâd"] = {
+"Pipendie",
+},
+["The Old Gods"] = {
+"Meirge",
+},
+["Inspiration"] = {
+"Bubbels",
+},
+["Stray Cats"] = {
+"Anthissael",
+},
+["Darkmoon Mafia"] = {
+"Oxkeur",
+},
+["alleycats"] = {
+"Jadelight",
+},
+["Potluck Pals"] = {
+"Holycat",
+},
+["Shrimp Gang OG"] = {
+"Magnusx",
+},
+["Slightly Average"] = {
+"Junktime",
+},
+["Flaming Dragon"] = {
+"Syvaria",
+},
+["Tummy Ticklers"] = {
+"Asmophel",
+"Nonara",
+},
+["Gnome Mercy Mafia"] = {
+"Klokateer",
+},
+["GATOR"] = {
+"Bluebush",
+},
+["Primal Valor"] = {
+"Bootiee",
+"Trenseralan",
+},
+["The Argent Crusade"] = {
+"Imyrse",
+},
+["Lumination"] = {
+"Anãovei",
+},
+["P A R A D I G M A"] = {
+"Leoann",
+},
+["Stormwinds Guardians"] = {
+"Sarath",
+},
+["Cult of the Deep"] = {
+"Madouin",
+"Rubelsey",
+},
+["Salty Sea Doggos"] = {
+"Yaragrog",
+},
+["House of Baldiir"] = {
+"Tannhauser",
+},
+["Vae Victis"] = {
+"Mymyu",
+"Sialladra",
+},
+["Battered Battalion"] = {
+"Daphryn",
+},
+["Old Shadows"] = {
+"Rougelife",
+},
+["Deviate Delight"] = {
+"Reeas",
+},
+["The Dungeon Runners"] = {
+"Maurix",
+},
+},
+},
+["resetFix"] = true,
+["Saikk - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = 0,
+["xOfs"] = 0,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["lock"] = {
+["Ghragg-TwistingNether"] = 8,
+["Jàede-EmeraldDream"] = 8,
+["Samoanslayer"] = 8,
+["Zanntos"] = 8,
+},
+["Saibull - Moon Guard"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -13.51102542877197,
+["xOfs"] = -11.37772274017334,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["filters"] = {
+},
+},
+},
+["Killonsites - Area 52"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -60.44442749023438,
+["xOfs"] = 24.17772483825684,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["classStart"] = 120,
+["lowLimit"] = 1,
+["raceStart"] = 120,
+["interval"] = 5,
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -7.111164569854736,
+["xOfs"] = -5.68888521194458,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["dropDown"] = {
+},
+["filters"] = {
+},
+},
+},
+["Worldboss - Area 52"] = {
+["settings"] = {
+["whispers"] = {
+},
+["inviteMode"] = 2,
+["highLimit"] = 120,
+["checkBox"] = {
+},
+["lowLimit"] = 1,
+["classStart"] = 120,
+["raceStart"] = 120,
+["interval"] = 5,
+["dropDown"] = {
+},
+["frames"] = {
+["SGI_MiniMapButton"] = {
+["yOfs"] = -31,
+["xOfs"] = -31,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+["SuperScanFrame"] = {
+["yOfs"] = -100.2000045776367,
+["xOfs"] = -198.3999938964844,
+["point"] = "TOP",
+["relativePoint"] = "TOP",
+},
+},
+["filters"] = {
+},
+},
+},
+}

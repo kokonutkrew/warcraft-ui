@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+  This is the default User Interface.  
+  This file is updated with Inner Space. If you want to make changes, you need to make a copy of this file and change the startup sequence to load your custom file 
+-->
+<ISUI>
+	<frame name='main hud' Template='hud'>
+		<Children>
+			<hudelement name='fps'>
+				<Visible>0</Visible>
+				<X>20</X>
+				<Y>5</Y>
+				<Text>FPS: ${Display.FPS.Centi}</Text>
+				<Group>FPS Indicator</Group>
+			</hudelement>
+			<hudelement name='system memory indicator'>
+				<Visible>0</Visible>
+				<X>20</X>
+				<Y>20</Y>
+				<Text>System RAM Available: ${System.MemFree}MB/${System.MemTotal}MB</Text>
+				<Group>Memory Indicator</Group>
+			</hudelement>
+      <hudelement name='process memory indicator'>
+        <Visible>0</Visible>
+        <X>20</X>
+        <Y>35</Y>
+        <Text>Process Memory Usage: ${Math.Calc[${System.MemoryUsage}/1048576].Precision[1]}MB</Text>
+        <Group>Memory Indicator</Group>
+      </hudelement>
+      <hudelement name='texture memory indicator'>
+				<Visible>0</Visible>
+				<X>20</X>
+				<Y>50</Y>
+				<Text>Texture Memory Available: ${Display.TextureMem}MB</Text>
+				<Group>Memory Indicator</Group>
+			</hudelement>
+    </Children>
+	</frame>
+
+
+  <template name='orbbutton.Texture' Filename='orb.png'>
+    <Right>128</Right>
+    <Bottom>128</Bottom>
+  </template>
+  <template name='orbbutton.TexturePressed' Filename='orb.png'>
+    <Left>128</Left>
+    <Right>256</Right>
+    <Bottom>128</Bottom>
+  </template>
+  <template name='orbbutton.Font' Template='button.Font' />
+  <template name='orbbutton' Template='button'>
+    <BackgroundColor></BackgroundColor>
+    <Border>0</Border>
+    <BorderColor>0</BorderColor>
+    <Texture Template='orbbutton.Texture' />
+    <TextureHover Template='orbbutton.TextureHover' />
+    <TexturePressed Template='orbbutton.TexturePressed' />
+  </template>  
+  <template name='windowselector.Button' template='orbbutton'>
+    <OnLoad>
+      This:SetWidth[${This.Height}]
+      This:SetX[${Math.Calc[${This.Previous.X}+${This.Previous.Width}]}]
+      This.Parent.Parent:SetWidth[${Math.Calc[${This.X}+${This.Width}+18]}]
+    </OnLoad>
+    <X>0</X>
+    <Y>2</Y>
+    <Height>r4</Height>
+  </template>
+  <window name='window selector' Template='horizontalwindow'>
+    <Height>64</Height>
+    <Width>360</Width>
+    <Visible>0</Visible>
+    <X>10%</X>
+    <Y>10%</Y>
+    <FadeAlpha>0.6</FadeAlpha>
+    <FadeDelay>250</FadeDelay>
+    <FadeDuration>500</FadeDuration>
+    <Children>
+      <button name='binds' Template='windowSelector.Button'>
+        <OnLeftClick>echo ${This.Name}</OnLeftClick>
+        <AutoTooltip>Binds</AutoTooltip>
+      </button>
+      <button name='scripts' Template='windowSelector.Button'>
+        <OnLeftClick>echo ${This.Name}</OnLeftClick>
+        <AutoTooltip>Scripts</AutoTooltip>
+      </button>
+      <button name='extensions' Template='windowSelector.Button'>
+        <OnLeftClick>echo ${This.Name}</OnLeftClick>
+        <AutoTooltip>Extensions</AutoTooltip>
+      </button>
+      <button name='visibility' Template='windowSelector.Button'>
+        <OnLeftClick>echo ${This.Name}</OnLeftClick>
+        <AutoTooltip>Visibility</AutoTooltip>
+      </button>
+
+      <textentry Name='test'>
+        <X>32</X>
+        <Y>8</Y>
+        <Height>16</Height>
+        <Width>200</Width>
+        <OnKeyboardEnter>Input:DisableBinds</OnKeyboardEnter>
+        <OnKeyboardExit>Input:EnableBinds</OnKeyboardExit>
+        <OnKeyDown>This:SetText["${Key.Escape}"]</OnKeyDown>
+      </textentry> 
+    </Children>
+  </window>
+	<window name='console'>
+		<Visible>0</Visible>
+		<X>0</X>
+		<Y>0</Y>
+		<Width>100%</Width>
+		<Height>211</Height>
+		<Resizable />
+		<Children>
+			<console name='output'>
+				<X>0</X>
+				<Y>0</Y>
+				<Height>r14</Height>
+				<Width>100%</Width>
+			</console>
+			<commandentry name='input'>
+				<X>0</X>
+				<Y>r14</Y>
+				<Height>14</Height>
+				<Width>100%</Width>
+			</commandentry>
+		</Children>
+	</window>
+	<tooltip name='Auto Tooltip'></tooltip>
+</ISUI>

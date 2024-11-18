@@ -1,64 +1,215 @@
 
 ChoreTrackerDB = {
 ["char"] = {
-["Herbcraft - Area 52"] = {
+["Samoanslayer - Emerald Dream"] = {
+["skillLines"] = {
+[2827] = 100,
+[794] = true,
+[356] = true,
+[2823] = 100,
+[202] = true,
+[185] = true,
+[171] = true,
+},
+},
+["Samoanghost - Area 52"] = {
 ["skillLines"] = {
 [333] = true,
 [197] = true,
+},
+},
+["Threadcraft - Emerald Dream"] = {
+["skillLines"] = {
+[794] = true,
+[2883] = 25,
+[2831] = 63,
+[356] = true,
+[165] = true,
+[2830] = 65,
+[2880] = 1,
+[197] = true,
 [185] = true,
-[2874] = 54,
-[2883] = 50,
+},
+},
+["Threadcraft - Area 52"] = {
+["skillLines"] = {
+[2874] = 6,
+[2877] = 1,
+[333] = true,
+[182] = true,
+},
+},
+["Samoantitan - Emerald Dream"] = {
+["skillLines"] = {
+[333] = true,
+[356] = true,
+[171] = true,
+[185] = true,
+[794] = true,
+[2874] = 8,
+},
+},
+["Forgecraft - Emerald Dream"] = {
+["skillLines"] = {
+[2829] = 100,
+[2822] = 93,
+[794] = true,
+[185] = true,
+[755] = true,
+[164] = true,
+[2879] = 1,
+[2872] = 1,
+[356] = true,
+},
+},
+["Samoanstrap - Area 52"] = {
+["skillLines"] = {
+[356] = true,
+[185] = true,
+},
+},
+["Samoanstrafe - Area 52"] = {
+["skillLines"] = {
+[773] = true,
+[2883] = 38,
+[197] = true,
+[2878] = 1,
+},
+},
+["Samoanbeast - Ravenholdt"] = {
+["skillLines"] = {
+[2882] = 105,
+[186] = true,
+[356] = true,
+[393] = true,
+[2881] = 15,
+},
+},
+["Forgecraft - Area 52"] = {
+["skillLines"] = {
+[186] = true,
+[2822] = 1,
+[2872] = 27,
+[164] = true,
+[2881] = 93,
+},
+},
+["Crankcraft - Area 52"] = {
+["skillLines"] = {
+[186] = true,
+[333] = true,
+[356] = true,
+[2874] = 12,
+[2881] = 46,
+[185] = true,
+[794] = true,
+},
+},
+["Herbcraft - Emerald Dream"] = {
+["skillLines"] = {
+[773] = true,
+[794] = true,
+[2823] = 100,
+[171] = true,
+[2878] = 85,
+[2871] = 8,
+[185] = true,
+[2828] = 68,
+[356] = true,
+},
+},
+["Buycraft - Area 52"] = {
+["skillLines"] = {
+[164] = true,
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["skillLines"] = {
+[182] = true,
+[186] = true,
+[2877] = 1,
+[2881] = 1,
+[185] = true,
+},
+},
+["Herbcraft - Area 52"] = {
+["skillLines"] = {
+[165] = true,
+[2874] = 55,
+[2880] = 59,
+[185] = true,
+[333] = true,
+},
+},
+["Farmcraft - Emerald Dream"] = {
+["skillLines"] = {
+[182] = true,
+[186] = true,
+[2877] = 100,
+[356] = true,
+[2881] = 105,
+[794] = true,
+[185] = true,
+},
+},
+["Ikkl - Emerald Dream"] = {
+["skillLines"] = {
+[171] = true,
+[185] = true,
+[202] = true,
+[356] = true,
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["skillLines"] = {
+[2882] = 105,
+[333] = true,
+[2825] = -1,
+[356] = true,
+[2874] = 9,
+[393] = true,
+[185] = true,
+[794] = true,
+},
+},
+["Samoanghost - Emerald Dream"] = {
+["skillLines"] = {
+[182] = true,
+[186] = true,
+[356] = true,
+[2833] = 4,
+[185] = true,
+[2832] = 1,
+},
+},
+["Shgrshn - Tichondrius"] = {
+["skillLines"] = {
+[186] = true,
+[356] = true,
+[185] = true,
+[171] = true,
+[794] = true,
 },
 },
 },
 ["global"] = {
 ["questWeeks"] = {
-[1731423599] = {
-[84086] = {
-["status"] = 2,
-["questId"] = 84086,
-["objectives"] = {
-},
-},
-[82452] = {
+[1732028399] = {
+[84435] = {
 ["status"] = 1,
-["questId"] = 82452,
+["questId"] = 84435,
 ["objectives"] = {
 {
-["type"] = "object",
-["text"] = "0/6 World Quests completed in Khaz Algar",
 ["have"] = 0,
-["need"] = 6,
+["text"] = "0/1 Speak with Lashk",
+["need"] = 1,
+["type"] = "monster",
 },
 },
 },
-[29443] = {
+[79351] = {
 ["status"] = 2,
-["questId"] = 29443,
-["objectives"] = {
-},
-},
-[84291] = {
-["status"] = 2,
-["questId"] = 84291,
-["objectives"] = {
-},
-},
-[29445] = {
-["status"] = 2,
-["questId"] = 29445,
-["objectives"] = {
-},
-},
-[29509] = {
-["status"] = 2,
-["questId"] = 29509,
-["objectives"] = {
-},
-},
-[29510] = {
-["status"] = 2,
-["questId"] = 29510,
+["questId"] = 79351,
 ["objectives"] = {
 },
 },
@@ -80,10 +231,478 @@ ChoreTrackerDB = {
 },
 },
 },
-[29451] = {
-["status"] = 2,
-["questId"] = 29451,
+[72291] = {
+["status"] = 1,
+["questId"] = 72291,
 ["objectives"] = {
+{
+["text"] = "Tell the story of your victory to Elder Poa in Iskaara.",
+["type"] = "log",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82507] = {
+["status"] = 2,
+["questId"] = 82507,
+["objectives"] = {
+},
+},
+[84085] = {
+["status"] = 1,
+["questId"] = 84085,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/10 Gleaming Shard |A:Professions-Icon-Quality-Tier1-Small:0:0:0:2|a",
+["need"] = 10,
+["type"] = "item",
+},
+},
+},
+[84101] = {
+["status"] = 2,
+["questId"] = 84101,
+["objectives"] = {
+},
+},
+[67096] = {
+["status"] = 1,
+["questId"] = 67096,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+},
+},
+},
+[82492] = {
+["status"] = 2,
+["questId"] = 82492,
+["objectives"] = {
+},
+},
+[82508] = {
+["status"] = 2,
+["questId"] = 82508,
+["objectives"] = {
+},
+},
+[29433] = {
+["status"] = 1,
+["questId"] = 29433,
+["objectives"] = {
+{
+["need"] = 250,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/250 Grisly Trophy",
+},
+},
+},
+[77727] = {
+["status"] = 2,
+["questId"] = 77727,
+["objectives"] = {
+},
+},
+[29445] = {
+["status"] = 2,
+["questId"] = 29445,
+["objectives"] = {
+},
+},
+[29457] = {
+["status"] = 2,
+["questId"] = 29457,
+["objectives"] = {
+},
+},
+[83465] = {
+["status"] = 1,
+["questId"] = 83465,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Ara-Kara operation disturbed",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[82493] = {
+["status"] = 2,
+["questId"] = 82493,
+["objectives"] = {
+},
+},
+[82509] = {
+["status"] = 2,
+["questId"] = 82509,
+["objectives"] = {
+},
+},
+[79226] = {
+["status"] = 1,
+["questId"] = 79226,
+["objectives"] = {
+{
+["text"] = "0/1 Complete The Big Dig: Traitor's Rest",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[83832] = {
+["status"] = 1,
+["questId"] = 83832,
+["objectives"] = {
+},
+},
+[77728] = {
+["status"] = 2,
+["questId"] = 77728,
+["objectives"] = {
+},
+},
+[29509] = {
+["status"] = 2,
+["questId"] = 29509,
+["objectives"] = {
+},
+},
+[84932] = {
+["status"] = 1,
+["questId"] = 84932,
+["objectives"] = {
+},
+},
+[81649] = {
+["status"] = 2,
+["questId"] = 81649,
+["objectives"] = {
+},
+},
+[82494] = {
+["status"] = 2,
+["questId"] = 82494,
+["objectives"] = {
+},
+},
+[82510] = {
+["status"] = 2,
+["questId"] = 82510,
+["objectives"] = {
+},
+},
+[77729] = {
+["status"] = 2,
+["questId"] = 77729,
+["objectives"] = {
+},
+},
+[78016] = {
+["status"] = 1,
+["questId"] = 78016,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+},
+},
+},
+[84933] = {
+["status"] = 1,
+["questId"] = 84933,
+["objectives"] = {
+{
+["text"] = "Lessons learned (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[78590] = {
+["status"] = 1,
+["questId"] = 78590,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/60 Fungal Enemies slain",
+["need"] = 60,
+["type"] = "monster",
+},
+},
+},
+[82495] = {
+["status"] = 2,
+["questId"] = 82495,
+["objectives"] = {
+},
+},
+[82511] = {
+["status"] = 2,
+["questId"] = 82511,
+["objectives"] = {
+},
+},
+[81507] = {
+["status"] = 2,
+["questId"] = 81507,
+["objectives"] = {
+},
+},
+[84583] = {
+["status"] = 1,
+["questId"] = 84583,
+["objectives"] = {
+},
+},
+[84089] = {
+["status"] = 2,
+["questId"] = 84089,
+["objectives"] = {
+},
+},
+[77730] = {
+["status"] = 2,
+["questId"] = 77730,
+["objectives"] = {
+},
+},
+[78017] = {
+["status"] = 1,
+["questId"] = 78017,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[77842] = {
+["status"] = 1,
+["questId"] = 77842,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+},
+},
+},
+[82496] = {
+["status"] = 2,
+["questId"] = 82496,
+["objectives"] = {
+},
+},
+[82512] = {
+["status"] = 2,
+["questId"] = 82512,
+["objectives"] = {
+},
+},
+[82783] = {
+["status"] = 1,
+["questId"] = 82783,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the scenario \"The Codex of Chromie\"",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84090] = {
+["status"] = 2,
+["questId"] = 84090,
+["objectives"] = {
+},
+},
+[77731] = {
+["status"] = 2,
+["questId"] = 77731,
+["objectives"] = {
+},
+},
+[29446] = {
+["status"] = 2,
+["questId"] = 29446,
+["objectives"] = {
+},
+},
+[29458] = {
+["status"] = 2,
+["questId"] = 29458,
+["objectives"] = {
+},
+},
+[82672] = {
+["status"] = 1,
+["questId"] = 82672,
+["objectives"] = {
+},
+},
+[77843] = {
+["status"] = 1,
+["questId"] = 77843,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+},
+},
+},
+[84489] = {
+["status"] = 1,
+["questId"] = 84489,
+["objectives"] = {
+{
+["text"] = "0/1 Talk to Traeya",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Talk to Historian Ma'di",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Talk to Bobadormu",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82497] = {
+["status"] = 2,
+["questId"] = 82497,
+["objectives"] = {
+},
+},
+[77732] = {
+["status"] = 2,
+["questId"] = 77732,
+["objectives"] = {
+},
+},
+[29510] = {
+["status"] = 2,
+["questId"] = 29510,
+["objectives"] = {
+},
+},
+[81653] = {
+["status"] = 1,
+["questId"] = 81653,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Shurrai slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[77844] = {
+["status"] = 1,
+["questId"] = 77844,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+},
+},
+},
+[82482] = {
+["status"] = 2,
+["questId"] = 82482,
+["objectives"] = {
+},
+},
+[82498] = {
+["status"] = 2,
+["questId"] = 82498,
+["objectives"] = {
+},
+},
+[78434] = {
+["status"] = 1,
+["questId"] = 78434,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the race",
+},
+},
+},
+[82817] = {
+["status"] = 1,
+["questId"] = 82817,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/1 Dagran Thaurissan defeated",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "item",
+["text"] = "0/1 Timewarped Ironforge Blueprints",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[76522] = {
+["status"] = 1,
+["questId"] = 76522,
+["objectives"] = {
+{
+["need"] = 12,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/12 Enemy forces slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Volgoth the Flamebringer slain",
+},
+},
+},
+[77845] = {
+["status"] = 1,
+["questId"] = 77845,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the Race",
+},
 },
 },
 [76586] = {
@@ -98,46 +717,238 @@ ChoreTrackerDB = {
 },
 },
 },
-[29456] = {
+[82483] = {
 ["status"] = 2,
-["questId"] = 29456,
+["questId"] = 82483,
 ["objectives"] = {
 },
 },
-[29520] = {
+[82499] = {
 ["status"] = 2,
-["questId"] = 29520,
+["questId"] = 82499,
 ["objectives"] = {
 },
 },
-[29458] = {
+[82659] = {
 ["status"] = 2,
-["questId"] = 29458,
+["questId"] = 82659,
 ["objectives"] = {
 },
 },
-[84292] = {
-["status"] = 2,
-["questId"] = 84292,
-["objectives"] = {
-},
-},
-[82158] = {
+[75280] = {
 ["status"] = 1,
-["questId"] = 82158,
+["questId"] = 75280,
 ["objectives"] = {
 {
+["need"] = 1,
 ["type"] = "object",
-["text"] = "0/3 Complete World Quests in Hallowfall",
 ["have"] = 0,
-["need"] = 3,
+["text"] = "Suffusion Crucible looted",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Crucible guardian slain",
+},
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "Suffusion Mold looted",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Forgemaster Slain",
 },
 },
 },
-[29464] = {
-["status"] = 2,
-["questId"] = 29464,
+[82452] = {
+["status"] = 1,
+["questId"] = 82452,
 ["objectives"] = {
+{
+["need"] = 6,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/6 World Quests completed in Khaz Algar",
+},
+},
+},
+[82500] = {
+["status"] = 2,
+["questId"] = 82500,
+["objectives"] = {
+},
+},
+[82516] = {
+["status"] = 2,
+["questId"] = 82516,
+["objectives"] = {
+},
+},
+[84094] = {
+["status"] = 2,
+["questId"] = 84094,
+["objectives"] = {
+},
+},
+[29443] = {
+["status"] = 2,
+["questId"] = 29443,
+["objectives"] = {
+},
+},
+[29451] = {
+["status"] = 2,
+["questId"] = 29451,
+["objectives"] = {
+},
+},
+[82453] = {
+["status"] = 2,
+["questId"] = 82453,
+["objectives"] = {
+},
+},
+[84254] = {
+["status"] = 1,
+["questId"] = 84254,
+["objectives"] = {
+{
+["text"] = "0/1 Talk to Grimkel",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Talk to Hansel Cyrilson",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Talk to Thrynviel",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Talk to Vanni Thorngage",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Talk to Petra",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82485] = {
+["status"] = 2,
+["questId"] = 82485,
+["objectives"] = {
+},
+},
+[82501] = {
+["status"] = 2,
+["questId"] = 82501,
+["objectives"] = {
+},
+},
+[43323] = {
+["status"] = 1,
+["questId"] = 43323,
+["objectives"] = {
+{
+["text"] = "0/1 Answered Llore's question",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29507] = {
+["status"] = 1,
+["questId"] = 29507,
+["objectives"] = {
+{
+["need"] = 15,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/15 Fossil Archaeology Fragment",
+},
+},
+},
+[84143] = {
+["status"] = 1,
+["questId"] = 84143,
+["objectives"] = {
+},
+},
+[82486] = {
+["status"] = 2,
+["questId"] = 82486,
+["objectives"] = {
+},
+},
+[82502] = {
+["status"] = 2,
+["questId"] = 82502,
+["objectives"] = {
+},
+},
+[47523] = {
+["status"] = 1,
+["questId"] = 47523,
+["objectives"] = {
+{
+["text"] = "0/1 Illidan Stormrage defeated",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Timewarped Illidari Battleplans",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84096] = {
+["status"] = 2,
+["questId"] = 84096,
+["objectives"] = {
+},
+},
+[83363] = {
+["status"] = 1,
+["questId"] = 83363,
+["objectives"] = {
+{
+["text"] = "0/5 Timewalking raid bosses or dungeons defeated",
+["type"] = "object",
+["need"] = 5,
+["have"] = 0,
+},
+},
+},
+[84144] = {
+["status"] = 1,
+["questId"] = 84144,
+["objectives"] = {
+{
+["text"] = "Mystery solved (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
 },
 },
 [82678] = {
@@ -170,9 +981,545 @@ ChoreTrackerDB = {
 },
 },
 },
-[84293] = {
+[82710] = {
+["status"] = 1,
+["questId"] = 82710,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/2 Complete Delves in Hallowfall",
+["have"] = 0,
+["need"] = 2,
+},
+},
+},
+[82487] = {
 ["status"] = 2,
-["questId"] = 84293,
+["questId"] = 82487,
+["objectives"] = {
+},
+},
+[82503] = {
+["status"] = 2,
+["questId"] = 82503,
+["objectives"] = {
+},
+},
+[84097] = {
+["status"] = 2,
+["questId"] = 84097,
+["objectives"] = {
+},
+},
+[66885] = {
+["status"] = 1,
+["questId"] = 66885,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the Race",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[76559] = {
+["status"] = 1,
+["questId"] = 76559,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Speak to Kiya Featherpaw",
+},
+},
+},
+[84735] = {
+["status"] = 1,
+["questId"] = 84735,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Defeat Emperor Dagran Thaurissan",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84616] = {
+["status"] = 1,
+["questId"] = 84616,
+["objectives"] = {
+{
+["type"] = "progressbar",
+["text"] = "Participate in Celebration Activities (24%)",
+["have"] = 0,
+["need"] = 100,
+},
+},
+},
+[84237] = {
+["status"] = 1,
+["questId"] = 84237,
+["objectives"] = {
+{
+["text"] = "Mystery solved (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[82488] = {
+["status"] = 2,
+["questId"] = 82488,
+["objectives"] = {
+},
+},
+[82504] = {
+["status"] = 2,
+["questId"] = 82504,
+["objectives"] = {
+},
+},
+[83285] = {
+["status"] = 1,
+["questId"] = 83285,
+["objectives"] = {
+},
+},
+[83274] = {
+["status"] = 1,
+["questId"] = 83274,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/5 Timewalking dungeons completed",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[84098] = {
+["status"] = 2,
+["questId"] = 84098,
+["objectives"] = {
+},
+},
+[77723] = {
+["status"] = 2,
+["questId"] = 77723,
+["objectives"] = {
+},
+},
+[29444] = {
+["status"] = 2,
+["questId"] = 29444,
+["objectives"] = {
+},
+},
+[77755] = {
+["status"] = 1,
+["questId"] = 77755,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Weaken Enemy Forces (0%)",
+},
+},
+},
+[84106] = {
+["status"] = 2,
+["questId"] = 84106,
+["objectives"] = {
+},
+},
+[29456] = {
+["status"] = 2,
+["questId"] = 29456,
+["objectives"] = {
+},
+},
+[76558] = {
+["status"] = 1,
+["questId"] = 76558,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Djaradin forces slain (0%)",
+},
+},
+},
+[29464] = {
+["status"] = 2,
+["questId"] = 29464,
+["objectives"] = {
+},
+},
+[85947] = {
+["status"] = 1,
+["questId"] = 85947,
+["objectives"] = {
+{
+["text"] = "0/5 Timewalking dungeons completed",
+["type"] = "object",
+["need"] = 5,
+["have"] = 0,
+},
+},
+},
+[70072] = {
+["status"] = 1,
+["questId"] = 70072,
+["objectives"] = {
+{
+["need"] = 8,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/8 Time-Lost Relics collected",
+},
+{
+["need"] = 8,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/8 Time-Lost Possessions collected",
+},
+},
+},
+[77736] = {
+["status"] = 2,
+["questId"] = 77736,
+["objectives"] = {
+},
+},
+[84104] = {
+["status"] = 2,
+["questId"] = 84104,
+["objectives"] = {
+},
+},
+[82489] = {
+["status"] = 2,
+["questId"] = 82489,
+["objectives"] = {
+},
+},
+[72560] = {
+["status"] = 1,
+["questId"] = 72560,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Kill Credit: NEVER [DNT] slain",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[82491] = {
+["status"] = 2,
+["questId"] = 82491,
+["objectives"] = {
+},
+},
+[83069] = {
+["status"] = 1,
+["questId"] = 83069,
+["objectives"] = {
+{
+["need"] = 3,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/3 Complete 3 World Quests in Isle of Dorn",
+},
+},
+},
+[57300] = {
+["status"] = 1,
+["questId"] = 57300,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/500 Earn Honor in Korrak's Revenge",
+["have"] = 0,
+["need"] = 500,
+},
+},
+},
+[84099] = {
+["status"] = 2,
+["questId"] = 84099,
+["objectives"] = {
+},
+},
+[82505] = {
+["status"] = 2,
+["questId"] = 82505,
+["objectives"] = {
+},
+},
+[84131] = {
+["status"] = 1,
+["questId"] = 84131,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/3 Leatherworking Orders Fulfilled",
+["need"] = 3,
+["type"] = "object",
+},
+},
+},
+[84236] = {
+["status"] = 1,
+["questId"] = 84236,
+["objectives"] = {
+},
+},
+[83366] = {
+["status"] = 1,
+["questId"] = 83366,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/10 World quests completed",
+["have"] = 0,
+["need"] = 10,
+},
+},
+},
+[83333] = {
+["status"] = 1,
+["questId"] = 83333,
+["objectives"] = {
+{
+["need"] = 20,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/20 Waves cleared",
+},
+},
+},
+[82155] = {
+["status"] = 1,
+["questId"] = 82155,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete 3 World Quests in the Ringing Deeps",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[84102] = {
+["status"] = 2,
+["questId"] = 84102,
+["objectives"] = {
+},
+},
+[84103] = {
+["status"] = 2,
+["questId"] = 84103,
+["objectives"] = {
+},
+},
+[82458] = {
+["status"] = 2,
+["questId"] = 82458,
+["objectives"] = {
+},
+},
+[84595] = {
+["status"] = 1,
+["questId"] = 84595,
+["objectives"] = {
+{
+["text"] = "Mystery solved (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[82490] = {
+["status"] = 2,
+["questId"] = 82490,
+["objectives"] = {
+},
+},
+[82506] = {
+["status"] = 2,
+["questId"] = 82506,
+["objectives"] = {
+},
+},
+[47254] = {
+["status"] = 1,
+["questId"] = 47254,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Lord Kazzak slain",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Azuregos slain",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Dragon of Nightmare slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[74378] = {
+["status"] = 1,
+["questId"] = 74378,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[351] = {
+["status"] = 1,
+["questId"] = 351,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "log",
+["have"] = 0,
+["text"] = "Bring the distress beacon to Oglethorpe's homing robot.",
+},
+},
+},
+[84100] = {
+["status"] = 2,
+["questId"] = 84100,
+["objectives"] = {
+},
+},
+[43461] = {
+["status"] = 1,
+["questId"] = 43461,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Answered Ju'Pa's question",
+},
+},
+},
+[83825] = {
+["status"] = 1,
+["questId"] = 83825,
+["objectives"] = {
+{
+["text"] = "0/1  ",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+},
+[1731423599] = {
+[29444] = {
+["status"] = 2,
+["questId"] = 29444,
+["objectives"] = {
+},
+},
+[29446] = {
+["status"] = 2,
+["questId"] = 29446,
+["objectives"] = {
+},
+},
+[83240] = {
+["status"] = 1,
+["questId"] = 83240,
+["objectives"] = {
+{
+["need"] = 50,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/50 Audience Approval earned",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete a Theater Troupe play",
+},
+},
+},
+[82486] = {
+["status"] = 2,
+["questId"] = 82486,
+["objectives"] = {
+},
+},
+[82494] = {
+["status"] = 2,
+["questId"] = 82494,
+["objectives"] = {
+},
+},
+[74501] = {
+["status"] = 1,
+["questId"] = 74501,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/1 Suffusion Crucible looted",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Crucible guardian slain",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "object",
+["text"] = "0/1 Suffusion Mold looted",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Forgemaster slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[29456] = {
+["status"] = 2,
+["questId"] = 29456,
+["objectives"] = {
+},
+},
+[29458] = {
+["status"] = 2,
+["questId"] = 29458,
 ["objectives"] = {
 },
 },
@@ -188,9 +1535,273 @@ ChoreTrackerDB = {
 },
 },
 },
-[84254] = {
+[29464] = {
 ["status"] = 2,
-["questId"] = 84254,
+["questId"] = 29464,
+["objectives"] = {
+},
+},
+[82709] = {
+["status"] = 1,
+["questId"] = 82709,
+["objectives"] = {
+{
+["need"] = 30,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/30 Khaz Algar Archaeological Fragments",
+},
+},
+},
+[36471] = {
+["status"] = 1,
+["questId"] = 36471,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "event",
+["have"] = 0,
+["text"] = "Defeat Christoph VonFeasel",
+},
+},
+},
+[82225] = {
+["status"] = 1,
+["questId"] = 82225,
+["objectives"] = {
+{
+["text"] = "Excavation Efforts Supported (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[82487] = {
+["status"] = 2,
+["questId"] = 82487,
+["objectives"] = {
+},
+},
+[82495] = {
+["status"] = 2,
+["questId"] = 82495,
+["objectives"] = {
+},
+},
+[82503] = {
+["status"] = 2,
+["questId"] = 82503,
+["objectives"] = {
+},
+},
+[82511] = {
+["status"] = 2,
+["questId"] = 82511,
+["objectives"] = {
+},
+},
+[82678] = {
+["status"] = 1,
+["questId"] = 82678,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "Progress further in the campaign to unlock The Archives",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Meet Brinthe in the Vault of Memory",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Speak with Brinthe",
+},
+{
+["need"] = 100,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/100 Titan Disc Fragment",
+},
+},
+},
+[84280] = {
+["status"] = 1,
+["questId"] = 84280,
+["objectives"] = {
+{
+["text"] = "0/1 Use the leatherworker's tool bench",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29520] = {
+["status"] = 1,
+["questId"] = 29520,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Plant Darkmoon Banner",
+},
+},
+},
+[84290] = {
+["status"] = 2,
+["questId"] = 84290,
+["objectives"] = {
+},
+},
+[81930] = {
+["status"] = 1,
+["questId"] = 81930,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Meet Jaina in Silithus",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[32175] = {
+["status"] = 1,
+["questId"] = 32175,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "event",
+["have"] = 0,
+["text"] = "Defeat Jeremy Feasel",
+},
+},
+},
+[29510] = {
+["status"] = 2,
+["questId"] = 29510,
+["objectives"] = {
+},
+},
+[84131] = {
+["status"] = 1,
+["questId"] = 84131,
+["objectives"] = {
+{
+["text"] = "0/3 Leatherworking Orders Fulfilled",
+["type"] = "object",
+["need"] = 3,
+["have"] = 0,
+},
+},
+},
+[82488] = {
+["status"] = 2,
+["questId"] = 82488,
+["objectives"] = {
+},
+},
+[82496] = {
+["status"] = 2,
+["questId"] = 82496,
+["objectives"] = {
+},
+},
+[82504] = {
+["status"] = 2,
+["questId"] = 82504,
+["objectives"] = {
+},
+},
+[83274] = {
+["status"] = 1,
+["questId"] = 83274,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/5 Timewalking dungeons completed",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[84489] = {
+["status"] = 1,
+["questId"] = 84489,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Traeya",
+["need"] = 1,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Historian Ma'di",
+["need"] = 1,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Bobadormu",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[57300] = {
+["status"] = 1,
+["questId"] = 57300,
+["objectives"] = {
+{
+["need"] = 500,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/500 Earn Honor in Korrak's Revenge",
+},
+},
+},
+[84616] = {
+["status"] = 1,
+["questId"] = 84616,
+["objectives"] = {
+{
+["type"] = "progressbar",
+["text"] = "Participate in Celebration Activities (100%)",
+["have"] = 0,
+["need"] = 100,
+},
+},
+},
+[83735] = {
+["status"] = 2,
+["questId"] = 83735,
+["objectives"] = {
+},
+},
+[29433] = {
+["status"] = 1,
+["questId"] = 29433,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/250 Grisly Trophy",
+["have"] = 0,
+["need"] = 250,
+},
+},
+},
+[82458] = {
+["status"] = 2,
+["questId"] = 82458,
 ["objectives"] = {
 },
 },
@@ -211,10 +1822,1326 @@ ChoreTrackerDB = {
 ["questId"] = 84735,
 ["objectives"] = {
 {
+["need"] = 1,
 ["type"] = "object",
+["have"] = 0,
 ["text"] = "Defeat Emperor Dagran Thaurissan",
+},
+},
+},
+[83727] = {
+["status"] = 2,
+["questId"] = 83727,
+["objectives"] = {
+},
+},
+[29667] = {
+["status"] = 1,
+["questId"] = 29667,
+["objectives"] = {
+{
+["text"] = "0/6 Mutate Fleshlasher slain",
+["type"] = "monster",
+["need"] = 6,
+["have"] = 0,
+},
+{
+["text"] = "0/6 Mutate Fear-Shrieker slain",
+["type"] = "monster",
+["need"] = 6,
+["have"] = 0,
+},
+{
+["text"] = "0/6 Mutate Horror slain",
+["type"] = "monster",
+["need"] = 6,
+["have"] = 0,
+},
+{
+["text"] = "0/1  ",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[80187] = {
+["status"] = 1,
+["questId"] = 80187,
+["objectives"] = {
+{
+["need"] = 1000,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1000 Honor Earned in Arena Skirmishes",
+},
+},
+},
+[47148] = {
+["status"] = 1,
+["questId"] = 47148,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 PvP Brawl won",
+["need"] = 1,
+["type"] = "object",
+},
+},
+},
+[82489] = {
+["status"] = 2,
+["questId"] = 82489,
+["objectives"] = {
+},
+},
+[82497] = {
+["status"] = 2,
+["questId"] = 82497,
+["objectives"] = {
+},
+},
+[82505] = {
+["status"] = 2,
+["questId"] = 82505,
+["objectives"] = {
+},
+},
+[84291] = {
+["status"] = 2,
+["questId"] = 84291,
+["objectives"] = {
+},
+},
+[82490] = {
+["status"] = 2,
+["questId"] = 82490,
+["objectives"] = {
+},
+},
+[82783] = {
+["status"] = 1,
+["questId"] = 82783,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Complete the scenario \"The Codex of Chromie\"",
+},
+},
+},
+[84144] = {
+["status"] = 1,
+["questId"] = 84144,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Mystery solved (0%)",
+["need"] = 100,
+["type"] = "progressbar",
+},
+},
+},
+[82672] = {
+["status"] = 1,
+["questId"] = 82672,
+["objectives"] = {
+},
+},
+[82506] = {
+["status"] = 2,
+["questId"] = 82506,
+["objectives"] = {
+},
+},
+[83069] = {
+["status"] = 1,
+["questId"] = 83069,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete 3 World Quests in Isle of Dorn",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[83832] = {
+["status"] = 1,
+["questId"] = 83832,
+["objectives"] = {
+},
+},
+[47523] = {
+["status"] = 1,
+["questId"] = 47523,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/1 Illidan Stormrage defeated",
 ["have"] = 0,
 ["need"] = 1,
+},
+{
+["type"] = "item",
+["text"] = "0/1 Timewarped Illidari Battleplans",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[29443] = {
+["status"] = 1,
+["questId"] = 29443,
+["objectives"] = {
+{
+["text"] = "Bring the Imbued Crystal to Professor Thaddeus Paleo at the Darkmoon Faire on Darkmoon Island.",
+["type"] = "log",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29445] = {
+["status"] = 2,
+["questId"] = 29445,
+["objectives"] = {
+},
+},
+[80188] = {
+["status"] = 1,
+["questId"] = 80188,
+["objectives"] = {
+{
+["need"] = 1500,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1500 Honor earned in Rated Arenas",
+},
+},
+},
+[82482] = {
+["status"] = 2,
+["questId"] = 82482,
+["objectives"] = {
+},
+},
+[29451] = {
+["status"] = 1,
+["questId"] = 29451,
+["objectives"] = {
+{
+["text"] = "Take A Treatise on Strategy to Professor Thaddeus Paleo at the Darkmoon Faire on Darkmoon Island.",
+["type"] = "log",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82498] = {
+["status"] = 2,
+["questId"] = 82498,
+["objectives"] = {
+},
+},
+[74378] = {
+["status"] = 1,
+["questId"] = 74378,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84292] = {
+["status"] = 2,
+["questId"] = 84292,
+["objectives"] = {
+},
+},
+[82491] = {
+["status"] = 2,
+["questId"] = 82491,
+["objectives"] = {
+},
+},
+[60215] = {
+["status"] = 1,
+["questId"] = 60215,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Doomwalker slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Sha of Anger slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Archavon the Stone Watcher slain",
+},
+},
+},
+[81649] = {
+["status"] = 1,
+["questId"] = 81649,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Eroded Titan Construct slain",
+},
+},
+},
+[82292] = {
+["status"] = 1,
+["questId"] = 82292,
+["objectives"] = {
+{
+["text"] = "Defeat Collector Dyna in a Pet Battle",
+["type"] = "event",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84293] = {
+["status"] = 2,
+["questId"] = 84293,
+["objectives"] = {
+},
+},
+[84086] = {
+["status"] = 2,
+["questId"] = 84086,
+["objectives"] = {
+},
+},
+[83459] = {
+["status"] = 1,
+["questId"] = 83459,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "Help General Steelstrike with securing the ceremony",
+},
+},
+},
+[82451] = {
+["status"] = 1,
+["questId"] = 82451,
+["objectives"] = {
+{
+["need"] = 8,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/8 Singed Plush",
+},
+},
+},
+[83825] = {
+["status"] = 1,
+["questId"] = 83825,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+},
+},
+[82817] = {
+["status"] = 1,
+["questId"] = 82817,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 Dagran Thaurissan defeated",
+},
+{
+["need"] = 1,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/1 Timewarped Ironforge Blueprints",
+},
+},
+},
+[83730] = {
+["status"] = 2,
+["questId"] = 83730,
+["objectives"] = {
+},
+},
+[82483] = {
+["status"] = 2,
+["questId"] = 82483,
+["objectives"] = {
+},
+},
+[40168] = {
+["status"] = 1,
+["questId"] = 40168,
+["objectives"] = {
+},
+},
+[82499] = {
+["status"] = 2,
+["questId"] = 82499,
+["objectives"] = {
+},
+},
+[82507] = {
+["status"] = 2,
+["questId"] = 82507,
+["objectives"] = {
+},
+},
+[31902] = {
+["status"] = 1,
+["questId"] = 31902,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Defeat David Kosse",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Deiza Plaguehorn",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Kortas Darkhammer",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Everessa",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Durin Darkhammer",
+["need"] = 1,
+["type"] = "event",
+},
+},
+},
+[75665] = {
+["status"] = 1,
+["questId"] = 75665,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/1500 Loamm Niffen reputation earned",
+["have"] = 0,
+["need"] = 1500,
+},
+},
+},
+[82658] = {
+["status"] = 1,
+["questId"] = 82658,
+["objectives"] = {
+{
+["need"] = 6,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/6 Opal-Mining Tools",
+},
+{
+["need"] = 10,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/10 Nerubians slain",
+},
+},
+},
+[82158] = {
+["status"] = 1,
+["questId"] = 82158,
+["objectives"] = {
+{
+["need"] = 3,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/3 Complete World Quests in Hallowfall",
+},
+},
+},
+[82492] = {
+["status"] = 2,
+["questId"] = 82492,
+["objectives"] = {
+},
+},
+[76586] = {
+["status"] = 1,
+["questId"] = 76586,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/4 Lesser Keyflames Activated",
+["have"] = 0,
+["need"] = 4,
+},
+},
+},
+[84595] = {
+["status"] = 1,
+["questId"] = 84595,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Mystery solved (0%)",
+["need"] = 100,
+["type"] = "progressbar",
+},
+},
+},
+[83333] = {
+["status"] = 1,
+["questId"] = 83333,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/20 Waves cleared",
+["have"] = 0,
+["need"] = 20,
+},
+},
+},
+[82452] = {
+["status"] = 1,
+["questId"] = 82452,
+["objectives"] = {
+{
+["need"] = 6,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/6 World Quests completed in Khaz Algar",
+},
+},
+},
+[29507] = {
+["status"] = 1,
+["questId"] = 29507,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/15 Fossil Archaeology Fragment",
+["have"] = 0,
+["need"] = 15,
+},
+},
+},
+[29509] = {
+["status"] = 1,
+["questId"] = 29509,
+["objectives"] = {
+{
+["text"] = "0/5 Crunchy Frog",
+["type"] = "item",
+["need"] = 5,
+["have"] = 0,
+},
+},
+},
+[84254] = {
+["status"] = 1,
+["questId"] = 84254,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Grimkel",
+["need"] = 1,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Hansel Cyrilson",
+["need"] = 1,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Thrynviel",
+["need"] = 1,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Vanni Thorngage",
+["need"] = 1,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Talk to Petra",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[82516] = {
+["status"] = 2,
+["questId"] = 82516,
+["objectives"] = {
+},
+},
+[84143] = {
+["status"] = 1,
+["questId"] = 84143,
+["objectives"] = {
+},
+},
+[82500] = {
+["status"] = 2,
+["questId"] = 82500,
+["objectives"] = {
+},
+},
+[82508] = {
+["status"] = 2,
+["questId"] = 82508,
+["objectives"] = {
+},
+},
+[84294] = {
+["status"] = 2,
+["questId"] = 84294,
+["objectives"] = {
+},
+},
+[82651] = {
+["status"] = 2,
+["questId"] = 82651,
+["objectives"] = {
+},
+},
+[82659] = {
+["status"] = 2,
+["questId"] = 82659,
+["objectives"] = {
+},
+},
+[82159] = {
+["status"] = 1,
+["questId"] = 82159,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete World Quests in Azj-Kahet",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[38934] = {
+["status"] = 2,
+["questId"] = 38934,
+["objectives"] = {
+},
+},
+[81793] = {
+["status"] = 1,
+["questId"] = 81793,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/100 Spark of War",
+},
+},
+},
+[29660] = {
+["status"] = 1,
+["questId"] = 29660,
+["objectives"] = {
+{
+["text"] = "0/1 Commander Sarannis slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 High Botanist Freywinn slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Thorngrin the Tender slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[43323] = {
+["status"] = 1,
+["questId"] = 43323,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Answered Llore's question",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[82453] = {
+["status"] = 2,
+["questId"] = 82453,
+["objectives"] = {
+},
+},
+[29463] = {
+["status"] = 1,
+["questId"] = 29463,
+["objectives"] = {
+{
+["need"] = 30,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/30 Gnolls Whacked",
+},
+},
+},
+[83358] = {
+["status"] = 1,
+["questId"] = 83358,
+["objectives"] = {
+{
+["text"] = "0/10 Arena Skirmishes won",
+["type"] = "object",
+["need"] = 10,
+["have"] = 0,
+},
+},
+},
+[29457] = {
+["status"] = 2,
+["questId"] = 29457,
+["objectives"] = {
+},
+},
+[82485] = {
+["status"] = 2,
+["questId"] = 82485,
+["objectives"] = {
+},
+},
+[82493] = {
+["status"] = 2,
+["questId"] = 82493,
+["objectives"] = {
+},
+},
+[82501] = {
+["status"] = 2,
+["questId"] = 82501,
+["objectives"] = {
+},
+},
+[82509] = {
+["status"] = 2,
+["questId"] = 82509,
+["objectives"] = {
+},
+},
+[84295] = {
+["status"] = 2,
+["questId"] = 84295,
+["objectives"] = {
+},
+},
+[43461] = {
+["status"] = 1,
+["questId"] = 43461,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Answered Ju'Pa's question",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[84236] = {
+["status"] = 1,
+["questId"] = 84236,
+["objectives"] = {
+},
+},
+[82510] = {
+["status"] = 2,
+["questId"] = 82510,
+["objectives"] = {
+},
+},
+[82512] = {
+["status"] = 2,
+["questId"] = 82512,
+["objectives"] = {
+},
+},
+[82502] = {
+["status"] = 2,
+["questId"] = 82502,
+["objectives"] = {
+},
+},
+[82946] = {
+["status"] = 1,
+["questId"] = 82946,
+["objectives"] = {
+{
+["need"] = 10,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/10 Odd Glob of Wax gathered",
+},
+},
+},
+[31889] = {
+["status"] = 1,
+["questId"] = 31889,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Defeat Traitor Gluk",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Grazzle the Great",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Kela Grimtotem",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Zoltan",
+["need"] = 1,
+["type"] = "event",
+},
+{
+["have"] = 0,
+["text"] = "Defeat Elena Flutterfly",
+["need"] = 1,
+["type"] = "event",
+},
+},
+},
+[84583] = {
+["status"] = 1,
+["questId"] = 84583,
+["objectives"] = {
+},
+},
+[82470] = {
+["status"] = 1,
+["questId"] = 82470,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Flow of Magic fixed",
+},
+},
+},
+},
+[1730818799] = {
+[82491] = {
+["status"] = 2,
+["questId"] = 82491,
+["objectives"] = {
+},
+},
+[84567] = {
+["status"] = 2,
+["questId"] = 84567,
+["objectives"] = {
+},
+},
+[76072] = {
+["status"] = 2,
+["questId"] = 76072,
+["objectives"] = {
+},
+},
+[82332] = {
+["status"] = 1,
+["questId"] = 82332,
+["objectives"] = {
+{
+["text"] = "Supplies Delivered (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[75721] = {
+["status"] = 2,
+["questId"] = 75721,
+["objectives"] = {
+},
+},
+[29350] = {
+["status"] = 1,
+["questId"] = 29350,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+},
+},
+[29374] = {
+["status"] = 1,
+["questId"] = 29374,
+["objectives"] = {
+{
+["need"] = 25,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/25 Bombs Dropped",
+},
+},
+},
+[80544] = {
+["status"] = 2,
+["questId"] = 80544,
+["objectives"] = {
+},
+},
+[81630] = {
+["status"] = 1,
+["questId"] = 81630,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Kordac slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[29430] = {
+["status"] = 2,
+["questId"] = 29430,
+["objectives"] = {
+},
+},
+[30460] = {
+["status"] = 1,
+["questId"] = 30460,
+["objectives"] = {
+{
+["text"] = "0/8 Injured Binan Warriors healed",
+["type"] = "monster",
+["need"] = 8,
+["have"] = 0,
+},
+},
+},
+[29446] = {
+["status"] = 2,
+["questId"] = 29446,
+["objectives"] = {
+},
+},
+[28951] = {
+["status"] = 2,
+["questId"] = 28951,
+["objectives"] = {
+},
+},
+[32033] = {
+["status"] = 2,
+["questId"] = 32033,
+["objectives"] = {
+},
+},
+[32041] = {
+["status"] = 2,
+["questId"] = 32041,
+["objectives"] = {
+},
+},
+[32049] = {
+["status"] = 2,
+["questId"] = 32049,
+["objectives"] = {
+},
+},
+[82493] = {
+["status"] = 2,
+["questId"] = 82493,
+["objectives"] = {
+},
+},
+[29518] = {
+["status"] = 1,
+["questId"] = 29518,
+["objectives"] = {
+{
+["text"] = "0/6 Tonk Scrap",
+["type"] = "item",
+["need"] = 6,
+["have"] = 0,
+},
+},
+},
+[76074] = {
+["status"] = 1,
+["questId"] = 76074,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Headless Horseman defeated",
+["need"] = 1,
+["type"] = "object",
+},
+},
+},
+[84282] = {
+["status"] = 2,
+["questId"] = 84282,
+["objectives"] = {
+},
+},
+[43323] = {
+["status"] = 1,
+["questId"] = 43323,
+["objectives"] = {
+{
+["text"] = "0/1 Answered Llore's question",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82494] = {
+["status"] = 2,
+["questId"] = 82494,
+["objectives"] = {
+},
+},
+[82526] = {
+["status"] = 1,
+["questId"] = 82526,
+["objectives"] = {
+{
+["text"] = "0/6 Bugs placed",
+["type"] = "monster",
+["need"] = 6,
+["have"] = 0,
+},
+},
+},
+[80546] = {
+["status"] = 2,
+["questId"] = 80546,
+["objectives"] = {
+},
+},
+[76586] = {
+["status"] = 1,
+["questId"] = 76586,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/4 Lesser Keyflames Activated",
+["have"] = 0,
+["need"] = 4,
+},
+},
+},
+[12336] = {
+["status"] = 2,
+["questId"] = 12336,
+["objectives"] = {
+},
+},
+[82495] = {
+["status"] = 2,
+["questId"] = 82495,
+["objectives"] = {
+},
+},
+[84571] = {
+["status"] = 2,
+["questId"] = 84571,
+["objectives"] = {
+},
+},
+[12352] = {
+["status"] = 2,
+["questId"] = 12352,
+["objectives"] = {
+},
+},
+[12356] = {
+["status"] = 2,
+["questId"] = 12356,
+["objectives"] = {
+},
+},
+[12360] = {
+["status"] = 2,
+["questId"] = 12360,
+["objectives"] = {
+},
+},
+[82783] = {
+["status"] = 1,
+["questId"] = 82783,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the scenario \"The Codex of Chromie\"",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[60123] = {
+["status"] = 1,
+["questId"] = 60123,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 Go through the Dark Portal",
+},
+},
+},
+[83358] = {
+["status"] = 1,
+["questId"] = 83358,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/10 Arena Skirmishes won",
+["have"] = 0,
+["need"] = 10,
+},
+},
+},
+[12396] = {
+["status"] = 2,
+["questId"] = 12396,
+["objectives"] = {
+},
+},
+[8312] = {
+["status"] = 1,
+["questId"] = 8312,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/1  ",
+},
+{
+["need"] = 1,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/1  ",
+},
+{
+["need"] = 1,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/1  ",
+},
+{
+["need"] = 1,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/1  ",
+},
+},
+},
+[29375] = {
+["status"] = 1,
+["questId"] = 29375,
+["objectives"] = {
+{
+["need"] = 10,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/10 Stink Bombs Removed",
+},
+},
+},
+[12408] = {
+["status"] = 2,
+["questId"] = 12408,
+["objectives"] = {
+},
+},
+[29399] = {
+["status"] = 1,
+["questId"] = 29399,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Investigate the Shady Lady",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[29431] = {
+["status"] = 1,
+["questId"] = 29431,
+["objectives"] = {
+},
+},
+[81794] = {
+["status"] = 1,
+["questId"] = 81794,
+["objectives"] = {
+{
+["text"] = "0/100 Spark of War",
+["type"] = "item",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[28952] = {
+["status"] = 2,
+["questId"] = 28952,
+["objectives"] = {
+},
+},
+[32026] = {
+["status"] = 2,
+["questId"] = 32026,
+["objectives"] = {
+},
+},
+[32034] = {
+["status"] = 2,
+["questId"] = 32034,
+["objectives"] = {
+},
+},
+[82433] = {
+["status"] = 2,
+["questId"] = 82433,
+["objectives"] = {
+},
+},
+[82497] = {
+["status"] = 2,
+["questId"] = 82497,
+["objectives"] = {
+},
+},
+[84573] = {
+["status"] = 2,
+["questId"] = 84573,
+["objectives"] = {
+},
+},
+[29008] = {
+["status"] = 2,
+["questId"] = 29008,
+["objectives"] = {
+},
+},
+[29016] = {
+["status"] = 2,
+["questId"] = 29016,
+["objectives"] = {
+},
+},
+[82146] = {
+["status"] = 1,
+["questId"] = 82146,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete 3 World Quests in Isle of Dorn",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[84254] = {
+["status"] = 1,
+["questId"] = 84254,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Grimkel",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Hansel Cyrilson",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Thrynviel",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Vanni Thorngage",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Petra",
 },
 },
 },
@@ -236,9 +3163,1323 @@ ChoreTrackerDB = {
 },
 },
 },
+[82338] = {
+["status"] = 1,
+["questId"] = 82338,
+["objectives"] = {
+{
+["need"] = 4,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/4 Talk to Selective Historian",
+},
+},
+},
+[85947] = {
+["status"] = 1,
+["questId"] = 85947,
+["objectives"] = {
+{
+["need"] = 5,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/5 Timewalking dungeons completed",
+},
+},
+},
+[75280] = {
+["status"] = 1,
+["questId"] = 75280,
+["objectives"] = {
+{
+["text"] = "Suffusion Crucible looted",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Crucible guardian slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "Suffusion Mold looted",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Forgemaster Slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[27068] = {
+["status"] = 1,
+["questId"] = 27068,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Chief Ukorz Sandscalp slain",
+},
+},
+},
+[27076] = {
+["status"] = 1,
+["questId"] = 27076,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Nekrum Gutchewer slain",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Shadowpriest Sezz'ziz slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[47461] = {
+["status"] = 2,
+["questId"] = 47461,
+["objectives"] = {
+},
+},
+[29144] = {
+["status"] = 1,
+["questId"] = 29144,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/10 Stink Bombs Removed",
+["need"] = 10,
+["type"] = "monster",
+},
+},
+},
+[82946] = {
+["status"] = 1,
+["questId"] = 82946,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/10 Odd Glob of Wax gathered",
+["need"] = 10,
+["type"] = "monster",
+},
+},
+},
+[82499] = {
+["status"] = 2,
+["questId"] = 82499,
+["objectives"] = {
+},
+},
+[84575] = {
+["status"] = 2,
+["questId"] = 84575,
+["objectives"] = {
+},
+},
+[47254] = {
+["status"] = 1,
+["questId"] = 47254,
+["objectives"] = {
+{
+["text"] = "0/1 Lord Kazzak slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Azuregos slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Dragon of Nightmare slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82659] = {
+["status"] = 2,
+["questId"] = 82659,
+["objectives"] = {
+},
+},
+[84735] = {
+["status"] = 1,
+["questId"] = 84735,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "Defeat Emperor Dagran Thaurissan",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84256] = {
+["status"] = 2,
+["questId"] = 84256,
+["objectives"] = {
+},
+},
+[83458] = {
+["status"] = 1,
+["questId"] = 83458,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Help Sister Etna Blayze fight the Priory",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[82468] = {
+["status"] = 1,
+["questId"] = 82468,
+["objectives"] = {
+{
+["text"] = "Battle turned against the nerubians. (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[29376] = {
+["status"] = 1,
+["questId"] = 29376,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Use the Bonfire",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Use the Wickerman Ashes",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[47462] = {
+["status"] = 2,
+["questId"] = 47462,
+["objectives"] = {
+},
+},
+[29392] = {
+["status"] = 1,
+["questId"] = 29392,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Search the courier's cabin.",
+["need"] = 1,
+["type"] = "event",
+},
+},
+},
+[29400] = {
+["status"] = 1,
+["questId"] = 29400,
+["objectives"] = {
+},
+},
+[84736] = {
+["status"] = 2,
+["questId"] = 84736,
+["objectives"] = {
+},
+},
+[32027] = {
+["status"] = 2,
+["questId"] = 32027,
+["objectives"] = {
+},
+},
+[32043] = {
+["status"] = 2,
+["questId"] = 32043,
+["objectives"] = {
+},
+},
+[28985] = {
+["status"] = 2,
+["questId"] = 28985,
+["objectives"] = {
+},
+},
+[82501] = {
+["status"] = 2,
+["questId"] = 82501,
+["objectives"] = {
+},
+},
+[82533] = {
+["status"] = 1,
+["questId"] = 82533,
+["objectives"] = {
+{
+["need"] = 15,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/15 Dyeworks laborers slain",
+},
+},
+},
+[29017] = {
+["status"] = 2,
+["questId"] = 29017,
+["objectives"] = {
+},
+},
+[84737] = {
+["status"] = 2,
+["questId"] = 84737,
+["objectives"] = {
+},
+},
+[84290] = {
+["status"] = 2,
+["questId"] = 84290,
+["objectives"] = {
+},
+},
+[75699] = {
+["status"] = 2,
+["questId"] = 75699,
+["objectives"] = {
+},
+},
+[81416] = {
+["status"] = 2,
+["questId"] = 81416,
+["objectives"] = {
+},
+},
+[82502] = {
+["status"] = 2,
+["questId"] = 82502,
+["objectives"] = {
+},
+},
+[47463] = {
+["status"] = 2,
+["questId"] = 47463,
+["objectives"] = {
+},
+},
+[84738] = {
+["status"] = 2,
+["questId"] = 84738,
+["objectives"] = {
+},
+},
+[84291] = {
+["status"] = 2,
+["questId"] = 84291,
+["objectives"] = {
+},
+},
+[57300] = {
+["status"] = 1,
+["questId"] = 57300,
+["objectives"] = {
+{
+["text"] = "0/500 Earn Honor in Korrak's Revenge",
+["type"] = "object",
+["need"] = 500,
+["have"] = 0,
+},
+},
+},
+[83333] = {
+["status"] = 1,
+["questId"] = 83333,
+["objectives"] = {
+{
+["text"] = "0/20 Waves cleared",
+["type"] = "monster",
+["need"] = 20,
+["have"] = 0,
+},
+},
+},
+[75700] = {
+["status"] = 2,
+["questId"] = 75700,
+["objectives"] = {
+},
+},
+[58881] = {
+["status"] = 1,
+["questId"] = 58881,
+["objectives"] = {
+},
+},
+[82503] = {
+["status"] = 2,
+["questId"] = 82503,
+["objectives"] = {
+},
+},
+[84579] = {
+["status"] = 2,
+["questId"] = 84579,
+["objectives"] = {
+},
+},
+[12349] = {
+["status"] = 2,
+["questId"] = 12349,
+["objectives"] = {
+},
+},
+[12353] = {
+["status"] = 2,
+["questId"] = 12353,
+["objectives"] = {
+},
+},
+[12357] = {
+["status"] = 2,
+["questId"] = 12357,
+["objectives"] = {
+},
+},
+[84292] = {
+["status"] = 2,
+["questId"] = 84292,
+["objectives"] = {
+},
+},
+[75701] = {
+["status"] = 2,
+["questId"] = 75701,
+["objectives"] = {
+},
+},
+[12401] = {
+["status"] = 2,
+["questId"] = 12401,
+["objectives"] = {
+},
+},
+[29377] = {
+["status"] = 1,
+["questId"] = 29377,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Douse the Alliance's Wickerman",
+},
+},
+},
+[12409] = {
+["status"] = 2,
+["questId"] = 12409,
+["objectives"] = {
+},
+},
+[29433] = {
+["status"] = 1,
+["questId"] = 29433,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/250 Grisly Trophy",
+["need"] = 250,
+["type"] = "item",
+},
+},
+},
+[84293] = {
+["status"] = 2,
+["questId"] = 84293,
+["objectives"] = {
+},
+},
+[8357] = {
+["status"] = 1,
+["questId"] = 8357,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Dance for Innkeeper Saelienne",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[32036] = {
+["status"] = 2,
+["questId"] = 32036,
+["objectives"] = {
+},
+},
+[32044] = {
+["status"] = 2,
+["questId"] = 32044,
+["objectives"] = {
+},
+},
+[32052] = {
+["status"] = 2,
+["questId"] = 32052,
+["objectives"] = {
+},
+},
+[82505] = {
+["status"] = 2,
+["questId"] = 82505,
+["objectives"] = {
+},
+},
+[84581] = {
+["status"] = 2,
+["questId"] = 84581,
+["objectives"] = {
+},
+},
+[29018] = {
+["status"] = 2,
+["questId"] = 29018,
+["objectives"] = {
+},
+},
+[83240] = {
+["status"] = 1,
+["questId"] = 83240,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/50 Audience Approval earned",
+["need"] = 50,
+["type"] = "monster",
+},
+{
+["have"] = 0,
+["text"] = "0/1 Complete a Theater Troupe play",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
 [84294] = {
 ["status"] = 2,
 ["questId"] = 84294,
+["objectives"] = {
+},
+},
+[29074] = {
+["status"] = 1,
+["questId"] = 29074,
+["objectives"] = {
+},
+},
+[77779] = {
+["status"] = 1,
+["questId"] = 77779,
+["objectives"] = {
+},
+},
+[27070] = {
+["status"] = 1,
+["questId"] = 27070,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/1  ",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "item",
+["text"] = "0/1  ",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[82506] = {
+["status"] = 2,
+["questId"] = 82506,
+["objectives"] = {
+},
+},
+[84582] = {
+["status"] = 2,
+["questId"] = 84582,
+["objectives"] = {
+},
+},
+[84295] = {
+["status"] = 2,
+["questId"] = 84295,
+["objectives"] = {
+},
+},
+[82507] = {
+["status"] = 2,
+["questId"] = 82507,
+["objectives"] = {
+},
+},
+[82156] = {
+["status"] = 1,
+["questId"] = 82156,
+["objectives"] = {
+{
+["text"] = "0/3 Complete 3 World Quests in the Ringing Deeps",
+["type"] = "object",
+["need"] = 3,
+["have"] = 0,
+},
+},
+},
+[83274] = {
+["status"] = 1,
+["questId"] = 83274,
+["objectives"] = {
+{
+["text"] = "0/5 Timewalking dungeons completed",
+["type"] = "object",
+["need"] = 5,
+["have"] = 0,
+},
+},
+},
+[74108] = {
+["status"] = 2,
+["questId"] = 74108,
+["objectives"] = {
+},
+},
+[10609] = {
+["status"] = 1,
+["questId"] = 10609,
+["objectives"] = {
+{
+["text"] = "0/3  ",
+["type"] = "item",
+["need"] = 3,
+["have"] = 0,
+},
+{
+["text"] = "0/3  ",
+["type"] = "item",
+["need"] = 3,
+["have"] = 0,
+},
+{
+["text"] = "0/3  ",
+["type"] = "item",
+["need"] = 3,
+["have"] = 0,
+},
+},
+},
+[85574] = {
+["status"] = 1,
+["questId"] = 85574,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "log",
+["have"] = 0,
+["text"] = "Return the Hazy Celebration Crate to Alyx outside the Caverns of Time.",
+},
+},
+},
+[84616] = {
+["status"] = 1,
+["questId"] = 84616,
+["objectives"] = {
+{
+["type"] = "progressbar",
+["text"] = "Participate in Celebration Activities (56%)",
+["have"] = 0,
+["need"] = 100,
+},
+},
+},
+[29402] = {
+["status"] = 1,
+["questId"] = 29402,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/2  ",
+["need"] = 2,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/5 Crystal Vial",
+["need"] = 5,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/5  ",
+["need"] = 5,
+["type"] = "item",
+},
+},
+},
+[80592] = {
+["status"] = 1,
+["questId"] = 80592,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Choose a Pact",
+},
+},
+},
+[32021] = {
+["status"] = 2,
+["questId"] = 32021,
+["objectives"] = {
+},
+},
+[32029] = {
+["status"] = 2,
+["questId"] = 32029,
+["objectives"] = {
+},
+},
+[32037] = {
+["status"] = 2,
+["questId"] = 32037,
+["objectives"] = {
+},
+},
+[84489] = {
+["status"] = 1,
+["questId"] = 84489,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Traeya",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Historian Ma'di",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Bobadormu",
+},
+},
+},
+[84521] = {
+["status"] = 1,
+["questId"] = 84521,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Escort Maru through Benetauk's puzzle (0%)",
+},
+},
+},
+[82509] = {
+["status"] = 2,
+["questId"] = 82509,
+["objectives"] = {
+},
+},
+[82158] = {
+["status"] = 1,
+["questId"] = 82158,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/3 Complete World Quests in Hallowfall",
+["have"] = 0,
+["need"] = 3,
+},
+},
+},
+[29075] = {
+["status"] = 1,
+["questId"] = 29075,
+["objectives"] = {
+{
+["text"] = "0/1 Use the Bonfire",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82957] = {
+["status"] = 1,
+["questId"] = 82957,
+["objectives"] = {
+},
+},
+[27071] = {
+["status"] = 1,
+["questId"] = 27071,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Theka the Martyr slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Witch Doctor Zum'rah slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Antu'sul slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Ruuzlu slain",
+},
+},
+},
+[82510] = {
+["status"] = 2,
+["questId"] = 82510,
+["objectives"] = {
+},
+},
+[12286] = {
+["status"] = 2,
+["questId"] = 12286,
+["objectives"] = {
+},
+},
+[27103] = {
+["status"] = 1,
+["questId"] = 27103,
+["objectives"] = {
+{
+["text"] = "0/1  ",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84363] = {
+["status"] = 1,
+["questId"] = 84363,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Treasure found (0%)",
+},
+},
+},
+[47148] = {
+["status"] = 1,
+["questId"] = 47148,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 PvP Brawl won",
+},
+},
+},
+[12334] = {
+["status"] = 2,
+["questId"] = 12334,
+["objectives"] = {
+},
+},
+[82511] = {
+["status"] = 2,
+["questId"] = 82511,
+["objectives"] = {
+},
+},
+[83054] = {
+["status"] = 2,
+["questId"] = 83054,
+["objectives"] = {
+},
+},
+[27223] = {
+["status"] = 1,
+["questId"] = 27223,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 The Unforgiven slain",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Timmy the Cruel slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[12354] = {
+["status"] = 2,
+["questId"] = 12354,
+["objectives"] = {
+},
+},
+[12358] = {
+["status"] = 2,
+["questId"] = 12358,
+["objectives"] = {
+},
+},
+[84236] = {
+["status"] = 1,
+["questId"] = 84236,
+["objectives"] = {
+},
+},
+[11356] = {
+["status"] = 1,
+["questId"] = 11356,
+["objectives"] = {
+},
+},
+[11360] = {
+["status"] = 1,
+["questId"] = 11360,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/5 Fight Fires",
+["need"] = 5,
+["type"] = "monster",
+},
+},
+},
+[12398] = {
+["status"] = 2,
+["questId"] = 12398,
+["objectives"] = {
+},
+},
+[29371] = {
+["status"] = 1,
+["questId"] = 29371,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Douse the Horde's Wickerman",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[82512] = {
+["status"] = 1,
+["questId"] = 82512,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 Any World Boss slain in Khaz Algar",
+},
+{
+["need"] = 5,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/5 Rare Creatures slain in Khaz Algar",
+},
+},
+},
+[29403] = {
+["status"] = 1,
+["questId"] = 29403,
+["objectives"] = {
+{
+["text"] = "0/1 Meeting Disrupted",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29411] = {
+["status"] = 1,
+["questId"] = 29411,
+["objectives"] = {
+{
+["text"] = "Return the crate to Anson Hastings at the Gilded Rose in Stormwind.\n\n-OR-\n\nReturn the crate to Hudson Barnes at the Golden Keg in Stormwind.",
+["type"] = "log",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[82672] = {
+["status"] = 1,
+["questId"] = 82672,
+["objectives"] = {
+},
+},
+[84237] = {
+["status"] = 1,
+["questId"] = 84237,
+["objectives"] = {
+{
+["text"] = "Mystery solved (0%)",
+["type"] = "progressbar",
+["need"] = 100,
+["have"] = 0,
+},
+},
+},
+[30457] = {
+["status"] = 1,
+["questId"] = 30457,
+["objectives"] = {
+{
+["text"] = "0/10 Bataari Tribe Members slain",
+["type"] = "monster",
+["need"] = 10,
+["have"] = 0,
+},
+{
+["text"] = "0/1   slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29443] = {
+["status"] = 1,
+["questId"] = 29443,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Bring the Imbued Crystal to Professor Thaddeus Paleo at the Darkmoon Faire on Darkmoon Island.",
+["need"] = 1,
+["type"] = "log",
+},
+},
+},
+[29451] = {
+["status"] = 1,
+["questId"] = 29451,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Take A Treatise on Strategy to Professor Thaddeus Paleo at the Darkmoon Faire on Darkmoon Island.",
+["need"] = 1,
+["type"] = "log",
+},
+},
+},
+[84365] = {
+["status"] = 1,
+["questId"] = 84365,
+["objectives"] = {
+},
+},
+[84429] = {
+["status"] = 1,
+["questId"] = 84429,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Slow and slay the Lava Laden Crystal Construct",
+},
+},
+},
+[32046] = {
+["status"] = 2,
+["questId"] = 32046,
+["objectives"] = {
+},
+},
+[29507] = {
+["status"] = 1,
+["questId"] = 29507,
+["objectives"] = {
+{
+["text"] = "0/15 Fossil Archaeology Fragment",
+["type"] = "object",
+["need"] = 15,
+["have"] = 0,
+},
+},
+},
+[82482] = {
+["status"] = 1,
+["questId"] = 82482,
+["objectives"] = {
+{
+["text"] = "0/5 Disturbed Earth dug",
+["type"] = "monster",
+["need"] = 5,
+["have"] = 0,
+},
+{
+["text"] = "0/45 Worldsoul Motes discovered during skyriding",
+["type"] = "monster",
+["need"] = 45,
+["have"] = 0,
+},
+},
+},
+[84143] = {
+["status"] = 1,
+["questId"] = 84143,
+["objectives"] = {
+},
+},
+[43461] = {
+["status"] = 1,
+["questId"] = 43461,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Answered Ju'Pa's question",
+},
+},
+},
+[82387] = {
+["status"] = 1,
+["questId"] = 82387,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "Have 50 or more stacks of Unseeming Shift",
+},
+},
+},
+[27192] = {
+["status"] = 1,
+["questId"] = 27192,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/1  ",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[82483] = {
+["status"] = 2,
+["questId"] = 82483,
+["objectives"] = {
+},
+},
+[27208] = {
+["status"] = 1,
+["questId"] = 27208,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Balnazzar slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84144] = {
+["status"] = 1,
+["questId"] = 84144,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Mystery solved (0%)",
+},
+},
+},
+[12135] = {
+["status"] = 1,
+["questId"] = 12135,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Put Out the Fires",
+["need"] = 1,
+["type"] = "event",
+},
+},
+},
+[82452] = {
+["status"] = 1,
+["questId"] = 82452,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/6 World Quests completed in Khaz Algar",
+["have"] = 0,
+["need"] = 6,
+},
+},
+},
+[82516] = {
+["status"] = 2,
+["questId"] = 82516,
+["objectives"] = {
+},
+},
+[83730] = {
+["status"] = 2,
+["questId"] = 83730,
+["objectives"] = {
+},
+},
+[83794] = {
+["status"] = 1,
+["questId"] = 83794,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "log",
+["have"] = 0,
+["text"] = "Return the Soggy Celebration Crate to Alyx outside the Caverns of Time.",
+},
+},
+},
+[83347] = {
+["status"] = 1,
+["questId"] = 83347,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/4 Heroic or Mythic dungeons completed",
+["need"] = 4,
+["type"] = "object",
+},
+},
+},
+[32023] = {
+["status"] = 2,
+["questId"] = 32023,
+["objectives"] = {
+},
+},
+[32031] = {
+["status"] = 2,
+["questId"] = 32031,
+["objectives"] = {
+},
+},
+[32039] = {
+["status"] = 2,
+["questId"] = 32039,
+["objectives"] = {
+},
+},
+[82453] = {
+["status"] = 2,
+["questId"] = 82453,
+["objectives"] = {
+},
+},
+[82485] = {
+["status"] = 2,
+["questId"] = 82485,
+["objectives"] = {
+},
+},
+[72560] = {
+["status"] = 1,
+["questId"] = 72560,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1   slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84570] = {
+["status"] = 2,
+["questId"] = 84570,
+["objectives"] = {
+},
+},
+[84572] = {
+["status"] = 2,
+["questId"] = 84572,
+["objectives"] = {
+},
+},
+[84576] = {
+["status"] = 2,
+["questId"] = 84576,
+["objectives"] = {
+},
+},
+[81862] = {
+["status"] = 1,
+["questId"] = 81862,
+["objectives"] = {
+{
+["text"] = "0/1 Ride the Imperial Lynx",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84574] = {
+["status"] = 2,
+["questId"] = 84574,
 ["objectives"] = {
 },
 },
@@ -254,82 +4495,766 @@ ChoreTrackerDB = {
 },
 },
 },
-[83459] = {
+[80186] = {
 ["status"] = 1,
-["questId"] = 83459,
+["questId"] = 80186,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1500 Honor Earned in Epic Battleground",
+["need"] = 1500,
+["type"] = "object",
+},
+},
+},
+[84578] = {
+["status"] = 2,
+["questId"] = 84578,
+["objectives"] = {
+},
+},
+[84577] = {
+["status"] = 2,
+["questId"] = 84577,
+["objectives"] = {
+},
+},
+[29463] = {
+["status"] = 1,
+["questId"] = 29463,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/30 Gnolls Whacked",
+["need"] = 30,
+["type"] = "monster",
+},
+},
+},
+[60964] = {
+["status"] = 1,
+["questId"] = 60964,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/1 Travel to Pandaria",
+},
+},
+},
+[82500] = {
+["status"] = 2,
+["questId"] = 82500,
+["objectives"] = {
+},
+},
+[27104] = {
+["status"] = 1,
+["questId"] = 27104,
+["objectives"] = {
+{
+["text"] = "0/1 Zevrim Thornhoof slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Alzzin the Wildshaper slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[32042] = {
+["status"] = 2,
+["questId"] = 32042,
+["objectives"] = {
+},
+},
+[82486] = {
+["status"] = 2,
+["questId"] = 82486,
+["objectives"] = {
+},
+},
+[60214] = {
+["status"] = 2,
+["questId"] = 60214,
+["objectives"] = {
+},
+},
+[82492] = {
+["status"] = 2,
+["questId"] = 82492,
+["objectives"] = {
+},
+},
+[82508] = {
+["status"] = 2,
+["questId"] = 82508,
+["objectives"] = {
+},
+},
+[27105] = {
+["status"] = 1,
+["questId"] = 27105,
+["objectives"] = {
+{
+["text"] = "0/1 Hydrospawn Essence",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[31392] = {
+["status"] = 1,
+["questId"] = 31392,
+["objectives"] = {
+},
+},
+[82678] = {
+["status"] = 1,
+["questId"] = 82678,
 ["objectives"] = {
 {
 ["type"] = "object",
-["text"] = "Help General Steelstrike with securing the ceremony",
+["text"] = "Progress further in the campaign to unlock The Archives",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Meet Brinthe in the Vault of Memory",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Speak with Brinthe",
 ["have"] = 0,
 ["need"] = 1,
 },
 },
 },
-[83274] = {
+[82234] = {
 ["status"] = 1,
-["questId"] = 83274,
+["questId"] = 82234,
 ["objectives"] = {
 {
+["text"] = "0/5 Crimson Charmer collected",
 ["type"] = "object",
-["text"] = "0/5 Timewalking dungeons completed",
-["have"] = 0,
 ["need"] = 5,
+["have"] = 0,
+},
+{
+["text"] = "0/3 Amber Blooms collected",
+["type"] = "object",
+["need"] = 3,
+["have"] = 0,
 },
 },
 },
-[29446] = {
-["status"] = 2,
-["questId"] = 29446,
+[84393] = {
+["status"] = 1,
+["questId"] = 84393,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Torch of Pyrreth used",
+},
+},
+},
+[83285] = {
+["status"] = 1,
+["questId"] = 83285,
 ["objectives"] = {
 },
 },
-[84290] = {
-["status"] = 2,
-["questId"] = 84290,
+[30512] = {
+["status"] = 1,
+["questId"] = 30512,
+["objectives"] = {
+{
+["text"] = "0/1 Speak with Farmhand Bo",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Speak with Elder Tsulan",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[30508] = {
+["status"] = 1,
+["questId"] = 30508,
 ["objectives"] = {
 },
 },
-[83727] = {
+[12350] = {
 ["status"] = 2,
-["questId"] = 83727,
+["questId"] = 12350,
 ["objectives"] = {
 },
 },
-[29444] = {
+[29014] = {
 ["status"] = 2,
-["questId"] = 29444,
+["questId"] = 29014,
 ["objectives"] = {
 },
 },
-[83735] = {
+[27185] = {
+["status"] = 1,
+["questId"] = 27185,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Risen Hammersmith slain",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84086] = {
+["status"] = 1,
+["questId"] = 84086,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "item",
+["have"] = 0,
+["text"] = "0/1 Refulgent Crystal |A:Professions-Icon-Quality-Tier1-Small:0:0:0:2|a",
+},
+},
+},
+[82487] = {
 ["status"] = 2,
-["questId"] = 83735,
+["questId"] = 82487,
 ["objectives"] = {
 },
 },
-[84295] = {
+[29509] = {
+["status"] = 1,
+["questId"] = 29509,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/5 Crunchy Frog",
+["need"] = 5,
+["type"] = "item",
+},
+},
+},
+[28983] = {
 ["status"] = 2,
-["questId"] = 84295,
+["questId"] = 28983,
 ["objectives"] = {
 },
 },
-[29433] = {
+[32048] = {
 ["status"] = 2,
-["questId"] = 29433,
+["questId"] = 32048,
 ["objectives"] = {
 },
 },
-[84489] = {
+[12355] = {
 ["status"] = 2,
-["questId"] = 84489,
+["questId"] = 12355,
 ["objectives"] = {
 },
 },
-[29457] = {
+[12359] = {
 ["status"] = 2,
-["questId"] = 29457,
+["questId"] = 12359,
 ["objectives"] = {
+},
+},
+[82679] = {
+["status"] = 2,
+["questId"] = 82679,
+["objectives"] = {
+},
+},
+[12406] = {
+["status"] = 2,
+["questId"] = 12406,
+["objectives"] = {
+},
+},
+[29007] = {
+["status"] = 2,
+["questId"] = 29007,
+["objectives"] = {
+},
+},
+[12399] = {
+["status"] = 2,
+["questId"] = 12399,
+["objectives"] = {
+},
+},
+[11357] = {
+["status"] = 1,
+["questId"] = 11357,
+["objectives"] = {
+},
+},
+[82488] = {
+["status"] = 2,
+["questId"] = 82488,
+["objectives"] = {
+},
+},
+[82297] = {
+["status"] = 1,
+["questId"] = 82297,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "event",
+["have"] = 0,
+["text"] = "Defeat Zaedu in a Pet Battle",
+},
+},
+},
+[27305] = {
+["status"] = 1,
+["questId"] = 27305,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/1  ",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84564] = {
+["status"] = 2,
+["questId"] = 84564,
+["objectives"] = {
+},
+},
+[8311] = {
+["status"] = 1,
+["questId"] = 8311,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+{
+["have"] = 0,
+["text"] = "0/1  ",
+["need"] = 1,
+["type"] = "item",
+},
+},
+},
+[12403] = {
+["status"] = 2,
+["questId"] = 12403,
+["objectives"] = {
+},
+},
+[12407] = {
+["status"] = 2,
+["questId"] = 12407,
+["objectives"] = {
+},
+},
+[30459] = {
+["status"] = 1,
+["questId"] = 30459,
+["objectives"] = {
+{
+["text"] = "0/12  ",
+["type"] = "item",
+["need"] = 12,
+["have"] = 0,
+},
+},
+},
+[83101] = {
+["status"] = 1,
+["questId"] = 83101,
+["objectives"] = {
+{
+["text"] = "0/1 Climbing Gear acquired",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29398] = {
+["status"] = 1,
+["questId"] = 29398,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Follow Thief's Trail",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[29413] = {
+["status"] = 2,
+["questId"] = 29413,
+["objectives"] = {
+},
+},
+[76073] = {
+["status"] = 1,
+["questId"] = 76073,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "Investigate the fountain",
+["need"] = 1,
+["type"] = "event",
+},
+},
+},
+[82496] = {
+["status"] = 2,
+["questId"] = 82496,
+["objectives"] = {
+},
+},
+[80189] = {
+["status"] = 1,
+["questId"] = 80189,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1500 Honor earned in Rated BG Blitz or in Rated Battlegrounds",
+["need"] = 1500,
+["type"] = "object",
+},
+},
+},
+[29445] = {
+["status"] = 2,
+["questId"] = 29445,
+["objectives"] = {
+},
+},
+[8355] = {
+["status"] = 1,
+["questId"] = 8355,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/1 Do the \"train\" for Talvash",
+["need"] = 1,
+["type"] = "monster",
+},
+},
+},
+[8359] = {
+["status"] = 1,
+["questId"] = 8359,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Flex for Innkeeper Gryshka",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[32024] = {
+["status"] = 2,
+["questId"] = 32024,
+["objectives"] = {
+},
+},
+[32032] = {
+["status"] = 2,
+["questId"] = 32032,
+["objectives"] = {
+},
+},
+[32051] = {
+["status"] = 2,
+["questId"] = 32051,
+["objectives"] = {
+},
+},
+[28982] = {
+["status"] = 2,
+["questId"] = 28982,
+["objectives"] = {
+},
+},
+[82489] = {
+["status"] = 2,
+["questId"] = 82489,
+["objectives"] = {
+},
+},
+[83543] = {
+["status"] = 1,
+["questId"] = 83543,
+["objectives"] = {
+{
+["text"] = "0/1 Zone chosen from Scouting Map",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[29006] = {
+["status"] = 2,
+["questId"] = 29006,
+["objectives"] = {
+},
+},
+[82585] = {
+["status"] = 1,
+["questId"] = 82585,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Wield the Gift of Pure Flame",
+},
+{
+["need"] = 6,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/6 Hollow Gigantobella slain",
+},
+},
+},
+[12331] = {
+["status"] = 2,
+["questId"] = 12331,
+["objectives"] = {
+},
+},
+[12404] = {
+["status"] = 2,
+["questId"] = 12404,
+["objectives"] = {
+},
+},
+[80672] = {
+["status"] = 1,
+["questId"] = 80672,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Complete activities in Azj-Kahet (0%)",
+},
+},
+},
+[12366] = {
+["status"] = 2,
+["questId"] = 12366,
+["objectives"] = {
+},
+},
+[83256] = {
+["status"] = 2,
+["questId"] = 83256,
+["objectives"] = {
+},
+},
+[29054] = {
+["status"] = 1,
+["questId"] = 29054,
+["objectives"] = {
+{
+["have"] = 0,
+["text"] = "0/25 Bombs Dropped",
+["need"] = 25,
+["type"] = "monster",
+},
+},
+},
+[84868] = {
+["status"] = 1,
+["questId"] = 84868,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Spiritual Incense purchased",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Spiritual Incense used",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Speak with Maru's spirit",
+},
+},
+},
+[82434] = {
+["status"] = 2,
+["questId"] = 82434,
+["objectives"] = {
+},
+},
+[76075] = {
+["status"] = 1,
+["questId"] = 76075,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "event",
+["have"] = 0,
+["text"] = "Find Thomas Thomson",
+},
+},
+},
+[82498] = {
+["status"] = 2,
+["questId"] = 82498,
+["objectives"] = {
+},
+},
+[65435] = {
+["status"] = 1,
+["questId"] = 65435,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Meet Ebyssian in Orgrimmar.",
+},
+},
+},
+[82458] = {
+["status"] = 2,
+["questId"] = 82458,
+["objectives"] = {
+},
+},
+[82490] = {
+["status"] = 2,
+["questId"] = 82490,
+["objectives"] = {
+},
+},
+[84566] = {
+["status"] = 2,
+["questId"] = 84566,
+["objectives"] = {
+},
+},
+[74378] = {
+["status"] = 1,
+["questId"] = 74378,
+["objectives"] = {
+{
+["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[83537] = {
+["status"] = 1,
+["questId"] = 83537,
+["objectives"] = {
+{
+["need"] = 12,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/12 Dull gems collected",
+},
+},
+},
+[30514] = {
+["status"] = 1,
+["questId"] = 30514,
+["objectives"] = {
+{
+["text"] = "0/1   slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[84419] = {
+["status"] = 1,
+["questId"] = 84419,
+["objectives"] = {
+},
+},
+[84580] = {
+["status"] = 2,
+["questId"] = 84580,
+["objectives"] = {
+},
+},
+[80670] = {
+["status"] = 1,
+["questId"] = 80670,
+["objectives"] = {
+{
+["need"] = 100,
+["type"] = "progressbar",
+["have"] = 0,
+["text"] = "Complete activities in Azj-Kahet (100%)",
+},
+},
+},
+[82504] = {
+["status"] = 2,
+["questId"] = 82504,
+["objectives"] = {
+},
+},
+[82288] = {
+["status"] = 1,
+["questId"] = 82288,
+["objectives"] = {
+{
+["text"] = "0/4 Play with orphan",
+["type"] = "monster",
+["need"] = 4,
+["have"] = 0,
+},
 },
 },
 },
@@ -337,15 +5262,213 @@ ChoreTrackerDB = {
 ["seenAutoAcceptMessage"] = true,
 },
 ["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "Default",
+["Samoanghost - Area 52"] = "Default",
+["Samoansavage - Area 52"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoanmystic - Emerald Dream"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
+["Samoanskully - Area 52"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Forgecraft - Area 52"] = "Default",
+["Crankcraft - Area 52"] = "[KK]",
+["Herbcraft - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoandrake - Emerald Dream"] = "Default",
+["Kk - Bloodhoof"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
 },
 ["profiles"] = {
-["Default"] = {
+["[KK]"] = {
+["delves"] = {
+["bountiful"] = {
+["showDelves"] = false,
+},
+},
 ["window"] = {
-["height"] = 150,
-["top"] = 1079.999877929688,
-["left"] = 548,
-["width"] = 199.9999084472656,
+["top"] = 1077.999877929688,
+["locked"] = true,
+["height"] = 289.9999084472656,
+["left"] = 472.0001525878906,
+["width"] = 321.0001525878906,
+},
+["general"] = {
+["appearance"] = {
+["backgroundColor"] = {
+["a"] = 0,
+},
+["borderColor"] = {
+["a"] = 0,
+["r"] = 0.2470588386058807,
+["g"] = 0.2470588386058807,
+["b"] = 0.2470588386058807,
+},
+},
+["automation"] = {
+["acceptQuests"] = true,
+},
+},
+["chores"] = {
+["choresWarWithin"] = {
+["patch_11_0_0"] = {
+["quests"] = {
+["awakeningTheMachine"] = false,
+["specialAssignment"] = false,
+["theaterTroupe"] = false,
+["emissaryArchives"] = false,
+["spiderWeekly"] = false,
+["emissaryDelves"] = false,
+["spreadingTheLight"] = false,
+["dungeon"] = false,
+["delveKeys"] = false,
+["worldBoss"] = false,
+["spiderPact"] = false,
+["rollinDown"] = false,
+["emissaryWorldsoul"] = false,
+},
+},
+},
+["choresEvents"] = {
+["holidays"] = {
+["quests"] = {
+["worldQuests"] = false,
+["timewalkingDungeons"] = false,
+["pvpPetBattles"] = false,
+["delves"] = false,
+["mythicDungeons"] = false,
+["timewalkingTurnIn"] = false,
+["timewalkingRaids"] = false,
+},
+},
+},
+["choresPvp"] = {
+["weekly"] = {
+["quests"] = {
+["battlegrounds"] = true,
+["preserving"] = true,
+["sparks"] = true,
+["arenaSkirmishes"] = true,
+},
+},
+},
+},
+},
+["Default"] = {
+["general"] = {
+["appearance"] = {
+["backgroundColor"] = {
+["a"] = 0,
+},
+["borderColor"] = {
+["a"] = 0,
+["b"] = 0.2470588386058807,
+["g"] = 0.2470588386058807,
+["r"] = 0.2470588386058807,
+},
+},
+["automation"] = {
+["acceptQuests"] = true,
+},
+},
+["delves"] = {
+["bountiful"] = {
+["showDelves"] = false,
+},
+},
+["window"] = {
+["top"] = 865.999755859375,
+["height"] = 742,
+["locked"] = true,
+["left"] = 276.0002746582031,
+["width"] = 488.0002746582031,
+},
+["chores"] = {
+["choresWarWithin"] = {
+["patch_11_0_0"] = {
+["quests"] = {
+["awakeningTheMachine"] = false,
+["specialAssignment"] = false,
+["theaterTroupe"] = false,
+["emissaryArchives"] = false,
+["spiderWeekly"] = false,
+["emissaryDelves"] = false,
+["spreadingTheLight"] = false,
+["dungeon"] = false,
+["delveKeys"] = false,
+["worldBoss"] = false,
+["spiderPact"] = false,
+["rollinDown"] = false,
+["emissaryWorldsoul"] = false,
+},
+},
+},
+["choresEvents"] = {
+["holidays2"] = {
+["quests"] = {
+["meanOne"] = false,
+},
+["dungeons"] = {
+["crownChemicalCo"] = false,
+["corenDirebrew"] = false,
+["frostLordAhune"] = false,
+["headlessHorseman"] = false,
+},
+},
+["holidays"] = {
+["quests"] = {
+["timewalkingRaids"] = false,
+["timewalkingDungeons"] = false,
+["pvpPetBattles"] = false,
+["delves"] = false,
+["mythicDungeons"] = false,
+["timewalkingTurnIn"] = false,
+["worldQuests"] = false,
+},
+},
+},
+["choresAnniversary"] = {
+["anniversary"] = {
+["quests"] = {
+["dragonsOfNightmareKill"] = false,
+["chromieCodex"] = false,
+["doomwalkerKill"] = false,
+["shaOfAngerKill"] = false,
+["meetGreet"] = false,
+["azuregosKill"] = false,
+["lordKazzakKill"] = false,
+["timely"] = false,
+["archavonKill"] = false,
+["soldier"] = false,
+["celebrate"] = false,
+["reflect"] = false,
+["shopping"] = false,
+},
+},
+},
+},
+},
+["Factory Default"] = {
+["general"] = {
+["automation"] = {
+["acceptQuests"] = true,
+},
+},
+["window"] = {
+["top"] = 1076.072631835938,
+["height"] = 487.9999084472656,
+["locked"] = true,
+["left"] = 345.0350646972656,
+["width"] = 465.9998474121094,
 },
 },
 },

@@ -1,0 +1,28 @@
+
+OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
+	},
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Default",
+		["Marshmellow - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["minutes"] = {
+						},
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = nil

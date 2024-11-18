@@ -1,2351 +1,1836 @@
 
 Prat3CharDB = {
-	["history"] = {
-		["cmdhistory"] = {
-			["ChatFrame10EditBox"] = {
-			},
-			["ChatFrame7EditBox"] = {
-			},
-			["ChatFrame5EditBox"] = {
-			},
-			["ChatFrame8EditBox"] = {
-			},
-			["ChatFrame4EditBox"] = {
-			},
-			["ChatFrame6EditBox"] = {
-			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
-			},
-			["ChatFrame1EditBox"] = {
-			},
-		},
-	},
+["history"] = {
+["cmdhistory"] = {
+["ChatFrame10EditBox"] = {
+},
+["ChatFrame7EditBox"] = {
+},
+["ChatFrame5EditBox"] = {
+},
+["ChatFrame8EditBox"] = {
+},
+["ChatFrame4EditBox"] = {
+},
+["ChatFrame6EditBox"] = {
+},
+["ChatFrame1EditBox"] = {
+"/s /inv blanchy-ravenholdt",
+"/s /inv blanchyy",
+},
+["ChatFrame3EditBox"] = {
+},
+["ChatFrame2EditBox"] = {
+},
+["ChatFrame9EditBox"] = {
+},
+},
+},
 }
 Prat3HighCPUPerCharDB = {
-	["scrollback"] = {
-		["ChatFrame5"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame4"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame3"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 9,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 501305.247,
-					["serverTime"] = 1626905217,
-					["b"] = 0,
-				}, -- [1]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["b"] = 0,
-					["serverTime"] = 1626945742,
-					["timestamp"] = 501305.247,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [2]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 501305.247,
-					["serverTime"] = 1626952949,
-					["r"] = 1,
-				}, -- [3]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
-					["r"] = 1,
-					["serverTime"] = 1626956309,
-					["timestamp"] = 501305.247,
-					["g"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [4]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 501305.247,
-					["serverTime"] = 1626959529,
-					["b"] = 0,
-				}, -- [5]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1626959879,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 501305.247,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [6]
-				{
-					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
-					["timestamp"] = 501305.247,
-				}, -- [7]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 501305.247,
-				}, -- [8]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 501305.247,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [9]
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame7"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame6"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame11"] = {
-			["maxElements"] = 128,
-			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:53:40]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236193:14|tYellow Moth is now your active pet.",
-					["serverTime"] = 1624758819,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112741.421,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:53:41]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T838694:14|tCoastal Sandpiper is now enemy active pet.",
-					["serverTime"] = 1624758820,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112742.173,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:53:59]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 1",
-					["serverTime"] = 1624758838,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112760.334,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:54:00]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T796634:14|t|cff4e96f7|HbattlePetAbil:912:958:168:334|h[Quicksand]|h|r dealt 282 damage to your |T236193:14|tYellow Moth.",
-					["serverTime"] = 1624758839,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112761.854,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:54:00]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T236193:14|tYellow Moth died.",
-					["serverTime"] = 1624758839,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112761.854,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:54:02]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618976:14|t|cff4e96f7|HbattlePetAbil:239:0:25:27|h[Flying]|h|r fades from your |T236193:14|tYellow Moth.",
-					["serverTime"] = 1624758841,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112763.358,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:54:02]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T796634:14|t|cff4e96f7|HbattlePetAbil:912:958:168:334|h[Quicksand]|h|r applied |T653221:14|t|cff4e96f7|HbattlePetAbil:911:958:168:334|h[Quicksand]|h|r to your team.",
-					["serverTime"] = 1624758841,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112763.609,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:54:03]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 1",
-					["serverTime"] = 1624758842,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112764.611,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[19:54:03]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132599:14|tWorg Pup is now your active pet.",
-					["serverTime"] = 1624758842,
-					["r"] = 0.9058824181556702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						36, -- [3]
-						37, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 112764.611,
-					["g"] = 0.8705883026123047,
-					["b"] = 0.6705882549285889,
-				}, -- [9]
-			},
-			["headIndex"] = 9,
-		},
-		["ChatFrame8"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame10"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame9"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame1"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 13,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:34]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960273,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501738.167,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [1]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:36]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960275,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501740.283,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [2]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:38]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960277,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501742.547,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:40]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960279,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501744.575,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:42]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960281,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501746.688,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:44]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960283,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501748.863,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:46]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960285,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501750.974,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [7]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:48]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960287,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501753.098,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [8]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:51]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960290,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501755.274,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:53]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960292,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501757.391,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:26:52]|h|r |cffffd839TSM|r: Sending |cff1eff00|Hitem:173201::::::::60:64::::2:29:36:30:40:::|h[Shrouded Cloth Bracers]|h|rx19, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:36:::|h[Shrouded Cloth Bracers]|h|rx25, |cff1eff00|Hitem:173201::::::::60:64::::2:29:36:30:49:::|h[Shrouded Cloth Bracers]|h|rx25, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:40:::|h[Shrouded Cloth Bracers]|h|rx26, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:49:::|h[Shrouded Cloth Bracers]|h|rx27, |cff1eff00|Hitem:173201::::::::60:64::::2:29:40:30:49:::|h[Shrouded Cloth Bracers]|h|rx26 to Farmcraft",
-					["timestamp"] = 501877.077,
-					["serverTime"] = 1626960411,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:27:07]|h|r |cffffd839TSM|r: Sending |cff1eff00|Hitem:173201::::::::60:64::::2:29:36:30:40:::|h[Shrouded Cloth Bracers]|h|rx8, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:36:::|h[Shrouded Cloth Bracers]|h|rx6, |cff1eff00|Hitem:173201::::::::60:64::::2:29:36:30:49:::|h[Shrouded Cloth Bracers]|h|rx8, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:40:::|h[Shrouded Cloth Bracers]|h|rx11, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:49:::|h[Shrouded Cloth Bracers]|h|rx9, |cff1eff00|Hitem:173201::::::::60:64::::2:29:40:30:49:::|h[Shrouded Cloth Bracers]|h|rx7 to Farmcraft",
-					["timestamp"] = 501891.897,
-					["serverTime"] = 1626960426,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:27:20]|h|r |cffffd839TSM|r: Sending |cff1eff00|Hitem:173201::::::::60:64::::2:29:36:30:40:::|h[Shrouded Cloth Bracers]|h|rx8, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:36:::|h[Shrouded Cloth Bracers]|h|rx6, |cff1eff00|Hitem:173201::::::::60:64::::2:29:36:30:49:::|h[Shrouded Cloth Bracers]|h|rx8, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:40:::|h[Shrouded Cloth Bracers]|h|rx11, |cff1eff00|Hitem:173201::::::::60:64::::2:29:32:30:49:::|h[Shrouded Cloth Bracers]|h|rx9, |cff1eff00|Hitem:173201::::::::60:64::::2:29:40:30:49:::|h[Shrouded Cloth Bracers]|h|rx7 to Farmcraft",
-					["timestamp"] = 501904.423,
-					["serverTime"] = 1626960439,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:26]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960025,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501490.706,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:28]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960027,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501492.884,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:30]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960029,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501494.996,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:33]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960032,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501497.221,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:35]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960034,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501499.327,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:37]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960036,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501501.507,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:39]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960038,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501503.612,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:41]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960040,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501505.738,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:44]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960043,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501508.287,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:46]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960045,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501510.356,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:48]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960047,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501512.467,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:50]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960049,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501514.574,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:52]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960051,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501516.766,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:54]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960053,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501519.065,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:57]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960056,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501521.16,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:20:59]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960058,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501523.282,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:01]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960060,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501525.41,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:03]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960062,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501527.615,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:05]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960064,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501529.732,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:07]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960066,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501531.845,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:09]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960068,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501533.983,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:11]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960070,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501536.101,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:14]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960073,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501538.309,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:16]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960075,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501540.47,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:18]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960077,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501542.573,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:20]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960079,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501544.716,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:22]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960081,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501546.993,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:25]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960084,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501549.175,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:27]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960086,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501551.355,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:29]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960088,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501553.607,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:31]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960090,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501555.653,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:33]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960092,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501557.838,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:35]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960094,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501559.959,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:37]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960096,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501562.122,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:40]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960099,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501564.295,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:42]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960101,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501566.471,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:44]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960103,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501568.588,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:46]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960105,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501570.689,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:48]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960107,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501572.861,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:50]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960109,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501575.02,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:53]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960112,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501577.185,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:55]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960114,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501579.344,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:57]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960116,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501581.495,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:21:59]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960118,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501583.606,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:01]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960120,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501585.746,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:03]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960122,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501587.863,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:05]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960124,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501589.997,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:07]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960126,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501592.156,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:10]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960129,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501594.257,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:12]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960131,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501596.477,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:14]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960133,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501598.65,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:16]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960135,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501600.809,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:18]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960137,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501602.92,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:20]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960139,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501605.044,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:23]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960142,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501607.196,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:25]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960144,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501609.457,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:27]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960146,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501611.625,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:29]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960148,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501613.738,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:31]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960150,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501615.916,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:33]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960152,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501618.014,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:35]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960154,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501620.146,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:38]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960157,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501622.344,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:40]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960159,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501624.49,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:42]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960161,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501626.603,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:44]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960163,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501628.78,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:46]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960165,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501630.894,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:48]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960167,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501633.066,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:51]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960170,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501635.223,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:53]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960172,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501637.429,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:55]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960174,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501639.587,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:57]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960176,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501641.699,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:22:59]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960178,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501643.808,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:01]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960180,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501645.979,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:03]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960182,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501648.091,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:06]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960185,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501650.204,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:08]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960187,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501652.366,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:10]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960189,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501654.52,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:12]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960191,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501656.625,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [91]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:14]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960193,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501658.739,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [92]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:16]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960195,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501660.905,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:19]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960198,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501663.211,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:21]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960200,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501665.314,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:23]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960202,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501667.471,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [96]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:25]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960204,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501669.626,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:27]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960206,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501671.738,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:29]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960208,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501673.907,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:31]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960210,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501676.013,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:33]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960212,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501678.128,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:36]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960215,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501680.327,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:38]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960217,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501682.491,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:40]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960219,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501684.606,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:42]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960221,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501686.728,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [105]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:44]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960223,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501688.849,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:46]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960225,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501691.018,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:48]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960227,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501693.143,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [108]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:51]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960230,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501695.249,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:53]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960232,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501697.428,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:55]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960234,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501699.538,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [111]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:57]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960236,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501701.739,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [112]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:23:59]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960238,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501703.85,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:01]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960240,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501706.008,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:03]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960242,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501708.127,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:06]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960245,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501710.289,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:08]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:40:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960247,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501712.446,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [117]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:10]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960249,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501714.57,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:12]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960251,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501716.728,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:14]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:32:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960253,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501718.835,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:16]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960255,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501720.982,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:18]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960257,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501723.155,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:21]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960260,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501725.259,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:23]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:40:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960262,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501727.374,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:25]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960264,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501729.659,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:27]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:36:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960266,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501731.779,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:29]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:49:30:32:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960268,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501733.908,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[07:24:31]|h|r You create: |cff1eff00|Hitem:173201::::::::60:64::::3:28:2142:29:36:30:49:::::|h[Shrouded Cloth Bracers]|h|r.",
-					["serverTime"] = 1626960270,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 501736.063,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [128]
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-	},
+["scrollback"] = {
+["ChatFrame5"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame4"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame3"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 6,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+["b"] = 0,
+["r"] = 1,
+["serverTime"] = 1723207197,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+},
+{
+["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+["g"] = 1,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 79886.975,
+["serverTime"] = 1723207989,
+["b"] = 0,
+},
+{
+["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+["serverTime"] = 1723209571,
+["r"] = 1,
+["b"] = 0,
+["timestamp"] = 79886.975,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["g"] = 1,
+},
+{
+["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+["timestamp"] = 79886.975,
+},
+{
+["message"] = "========== End of Scrollback ==========",
+["timestamp"] = 79886.975,
+},
+{
+["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 79878.639,
+["g"] = 1,
+["b"] = 0,
+},
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame7"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame6"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame8"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame10"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame9"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame1"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 133,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "|cff979797|Hpratcopy|h[21:24:04]|h|r Guild Message of the Day: \"Lets have fun! --The <[o.O]><[KK]> crafting guild.\"",
+["b"] = 0.250980406999588,
+["r"] = 0.250980406999588,
+["serverTime"] = 1723207197,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["extraData"] = {
+5,
+["n"] = 1,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[21:24:06]|h|r Unknown macro option: etc",
+["b"] = 0,
+["r"] = 1,
+["serverTime"] = 1723207197,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:56]|h|r Unknown macro option: etc",
+["g"] = 1,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 79886.975,
+["serverTime"] = 1723207989,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:57]|h|r Guild Message of the Day: \"Welcome! Please register at kk.shivtr.com\"",
+["extraData"] = {
+5,
+["n"] = 1,
+},
+["b"] = 0.250980406999588,
+["serverTime"] = 1723207198,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:57]|h|r Daily quests are now reset!",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207198,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:57]|h|r Quest accepted: The War Within",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207198,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:58]|h|r You receive item: |cffffffff|Hitem:227669::::::::70:62::11::1:28:2967:::::|h[Teleportation Scroll]|h|r",
+["extraData"] = {
+28,
+3,
+4,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207199,
+["timestamp"] = 79886.975,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:59]|h|r Lady Jaina Proudmoore says: People are experiencing visions of a \"Radiant Song\" all across Azeroth. We have reason to believe it's a warning of some kind.",
+["extraData"] = {
+13,
+5,
+6,
+["n"] = 3,
+},
+["b"] = 0.6235294342041016,
+["serverTime"] = 1723207200,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:39:59]|h|r Journeyman Envial says: Add some shine to your hoard! Gems from across the seas, faceted on demand!",
+["extraData"] = {
+13,
+5,
+6,
+["n"] = 3,
+},
+["b"] = 0.6235294342041016,
+["serverTime"] = 1723207200,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:07]|h|r Lady Jaina Proudmoore says: Meet me in Silithus. Perhaps Azeroth's Speaker can shed some light on what this warning might mean.",
+["extraData"] = {
+13,
+5,
+6,
+["n"] = 3,
+},
+["b"] = 0.6235294342041016,
+["serverTime"] = 1723207208,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:08]|h|r |cff40ff40|Hpratfilter:252:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:252:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ellicia-EmeraldDream:252:CHANNEL:2|h|cfffff468Ellicia|r|h|cffd8d8d8]|r: fuck, at least i could finally speak to amber....sigh",
+["extraData"] = {
+70,
+7,
+8,
+["n"] = 3,
+},
+["b"] = 0.4745098352432251,
+["serverTime"] = 1723207209,
+["timestamp"] = 79886.975,
+["g"] = 0.6196078658103943,
+["r"] = 0.9098039865493774,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:40]|h|r Lilpeep looks tipsy.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207241,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:41]|h|r Lilpeep looks drunk.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207242,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:50]|h|r Soyjack looks tipsy.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207251,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:50]|h|r Soyjack looks drunk.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207251,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:40:51]|h|r Soyjack looks completely smashed.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207252,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:42:29]|h|r Lilpeep looks completely smashed.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207350,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:42:44]|h|r You receive item: |cffa335ee|Hitem:185855::::::::70:62::14:4:7692:6652:1472:6646::::::|h[Korthian Caretaker's Robes]|h|r",
+["extraData"] = {
+28,
+3,
+4,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207365,
+["timestamp"] = 79886.975,
+["g"] = 0.6666666865348816,
+["r"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:42:51]|h|r Soyjack looks drunk.",
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["b"] = 0,
+["serverTime"] = 1723207372,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:43:34]|h|r Bimble Longberry says: Straight from the lush forests of Elwynn, get your fresh fruit right here.",
+["extraData"] = {
+13,
+5,
+6,
+["n"] = 3,
+},
+["b"] = 0.6235294342041016,
+["serverTime"] = 1723207415,
+["timestamp"] = 79886.975,
+["g"] = 1,
+["r"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:43:38]|h|r |cff40ff40|Hpratfilter:264:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:264:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:264:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: shouldnt blizz have more funding isnt diablo doing well 2.?",
+["extraData"] = {
+70,
+7,
+16,
+["n"] = 3,
+},
+["b"] = 0.4745098352432251,
+["serverTime"] = 1723207419,
+["timestamp"] = 79886.975,
+["g"] = 0.6196078658103943,
+["r"] = 0.9098039865493774,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:53:07]|h|r Guild Message of the Day: \"Welcome! Please register at kk.shivtr.com\"",
+["serverTime"] = 1723209571,
+["r"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+["timestamp"] = 79886.975,
+["extraData"] = {
+5,
+["n"] = 1,
+},
+["g"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:53:07]|h|r Unknown macro option: etc",
+["serverTime"] = 1723209571,
+["r"] = 1,
+["b"] = 0,
+["timestamp"] = 79886.975,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["g"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:55:20]|h|r |cff40ff40|Hpratfilter:303:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:303:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:303:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: SO I was going to bring this up last night, but how did Arachnophobia become a thing on a screen and make its way to wow.?",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208121,
+["extraData"] = {
+71,
+1,
+2,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:55:33]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208134,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:55:36]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208137,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:55:38]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208139,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:55:41]|h|r |cff40ff40|Hpratfilter:307:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:307:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|A:timerunning-glues-icon:12:12:0:0|a|Hplayer:Poshy-EmeraldDream:307:CHANNEL:2|h|cff0070ddPoshy|r|h|cffd8d8d8]|r: terror is for everyone.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208142,
+["extraData"] = {
+71,
+1,
+6,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:55:57]|h|r |cff40ff40|Hpratfilter:308:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:308:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:308:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: on a screen?",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208158,
+["extraData"] = {
+71,
+1,
+2,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:14]|h|r |cff40ff40|Hpratfilter:309:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:309:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:309:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: not trying to be a dick but I have legit questions about this.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208175,
+["extraData"] = {
+71,
+1,
+2,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:17]|h|r |cff40ff40|Hpratfilter:310:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:310:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|A:timerunning-glues-icon:12:12:0:0|a|Hplayer:Poshy-EmeraldDream:310:CHANNEL:2|h|cff0070ddPoshy|r|h|cffd8d8d8]|r: why not.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208178,
+["extraData"] = {
+71,
+1,
+6,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:40]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208201,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:43]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208204,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:53]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208214,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:55]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208216,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:57]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208218,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:58]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208219,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:56:59]|h|r |cff40ff40|Hpratfilter:317:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:317:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|A:timerunning-glues-icon:12:12:0:0|a|Hplayer:Poshy-EmeraldDream:317:CHANNEL:2|h|cff0070ddPoshy|r|h|cffd8d8d8]|r: in the twilight highlands we have or had an npc named mia the rose which possibly is a refference to a pornstar of the same name, so why not.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208220,
+["extraData"] = {
+71,
+1,
+6,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:01]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208222,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:09]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208230,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:11]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208232,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:12]|h|r |cff40ff40|Hpratfilter:322:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:322:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|A:timerunning-glues-icon:12:12:0:0|a|Hplayer:Poshy-EmeraldDream:322:CHANNEL:2|h|cff0070ddPoshy|r|h|cffd8d8d8]|r: anything is possible!",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208233,
+["extraData"] = {
+71,
+1,
+6,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:14]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208235,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:16]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208237,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:57:18]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208239,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:58:20]|h|r |cff40ff40|Hpratfilter:326:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:326:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nördicßdwårf-EmeraldDream:326:CHANNEL:2|h|cffc69b6dNördicßdwårf|r|h|cffd8d8d8]|r: gi-me-sum",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208301,
+["extraData"] = {
+71,
+1,
+8,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:58:38]|h|r |cff40ff40|Hpratfilter:327:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:327:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nördicßdwårf-EmeraldDream:327:CHANNEL:2|h|cffc69b6dNördicßdwårf|r|h|cffd8d8d8]|r: dim-sum-mi",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208319,
+["extraData"] = {
+71,
+1,
+8,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:01]|h|r |cff40ff40|Hpratfilter:329:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:329:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:329:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: that is completely different.  I am talking about the need to have proection from a screen if I put it as simply as possible.  VR I could understand but vr isnt there yet.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208342,
+["extraData"] = {
+71,
+1,
+2,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:05]|h|r You are refunded 5000 Gold.",
+["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208346,
+["extraData"] = {
+29,
+10,
+11,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:07]|h|r You are refunded 5000 Gold.",
+["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208348,
+["extraData"] = {
+29,
+10,
+11,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:08]|h|r You are refunded 5000 Gold.",
+["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208349,
+["extraData"] = {
+29,
+10,
+11,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:10]|h|r You are refunded 5000 Gold.",
+["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208351,
+["extraData"] = {
+29,
+10,
+11,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:11]|h|r You are refunded 5000 Gold.",
+["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208352,
+["extraData"] = {
+29,
+10,
+11,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:16]|h|r You receive item: |cff00ccff|Hitem:204337::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Scabbard]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208357,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:17]|h|r You gained: |cffffffff17,500|TInterface\\MoneyFrame\\UI-GoldIcon:0:0:2:0|t|r",
+["b"] = 0,
+["r"] = 1,
+["g"] = 1,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208358,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:19]|h|r |cff40ff40|Hpratfilter:336:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:336:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:336:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: like you can change spiders to some other critters i saw.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208360,
+["extraData"] = {
+71,
+1,
+2,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:27]|h|r You receive item: |cff00ccff|Hitem:204337::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Scabbard]|h|r",
+["b"] = 0,
+["r"] = 0,
+["g"] = 0.6666666865348816,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208368,
+["extraData"] = {
+28,
+4,
+5,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:37]|h|r |cff40ff40|Hpratfilter:339:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:339:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|A:timerunning-glues-icon:12:12:0:0|a|Hplayer:Poshy-EmeraldDream:339:CHANNEL:2|h|cff0070ddPoshy|r|h|cffd8d8d8]|r: kinda, fears are irrational.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208378,
+["extraData"] = {
+71,
+1,
+6,
+["n"] = 3,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[06:59:54]|h|r |cff40ff40|Hpratfilter:340:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:340:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|A:timerunning-glues-icon:12:12:0:0|a|Hplayer:Poshy-EmeraldDream:340:CHANNEL:2|h|cff0070ddPoshy|r|h|cffd8d8d8]|r: cannot use rational way of thinking on the irrational.",
+["b"] = 0.4745098352432251,
+["r"] = 0.9098039865493774,
+["g"] = 0.8941177129745483,
+["timestamp"] = 79886.975,
+["serverTime"] = 1723208395,
+["extraData"] = {
+71,
+1,
+6,
+["n"] = 3,
+},
+},
+{
+["message"] = "0 |4day:days;, 0 |4hour:hours;, 19 |4minute:minutes;, 36 |4second:seconds;",
+["timestamp"] = 79886.975,
+},
+{
+["message"] = "========== End of Scrollback ==========",
+["timestamp"] = 79886.975,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Azeroth-BfA is deprecated and will not be available. Please remove the folder DBM-Azeroth-BfA from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Azeroth-BfA that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 79879.844,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-ZuldazarRaid is deprecated and will not be available. Please remove the folder DBM-ZuldazarRaid from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-ZuldazarRaid that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 79879.844,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-CrucibleofStorms is deprecated and will not be available. Please remove the folder DBM-CrucibleofStorms from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-CrucibleofStorms that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 79879.844,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Nyalotha is deprecated and will not be available. Please remove the folder DBM-Nyalotha from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Nyalotha that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 79879.844,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-EternalPalace is deprecated and will not be available. Please remove the folder DBM-EternalPalace from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-EternalPalace that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 79879.844,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Uldir is deprecated and will not be available. Please remove the folder DBM-Uldir from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Uldir that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 79879.844,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+["r"] = 1,
+["timestamp"] = 79880.912,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:23]|h|r |cffd177ffN|cffc480fba|cffb787f6r|cffa98ef2c|cff9a94edi|cff8a9ae9s|cff789fe5s|cff63a4e0u|cff48a8dcs|r |cFFFFD100New Game Version:|r 110000 |cff808080(DB version 100207)|r",
+["timestamp"] = 79881.727,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:26]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+["timestamp"] = 79882.145,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:26]|h|r ISBoxer: Loading Key Bindings...",
+["r"] = 1,
+["timestamp"] = 79882.145,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:26]|h|r ISBoxer: No WoW Macros loaded.",
+["r"] = 1,
+["timestamp"] = 79882.145,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:28]|h|r Guild Message of the Day: \"Welcome! Please register at kk.shivtr.com\"",
+["r"] = 0.250980406999588,
+["extraData"] = {
+5,
+["n"] = 1,
+},
+["timestamp"] = 79886.889,
+["g"] = 1,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:29]|h|r Unknown macro option: etc",
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 79886.975,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:29]|h|r |cff33ff99TRP3|r: The profile |cff00ff00Default profile|r is loaded.",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209571,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:29]|h|r |cff33ff99TRP3|r: Thank you for using Total RP 3 (v 3.0.1)! Have fun!",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209571,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:29]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.2.5)|r:  hooked into Rematch",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209571,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:29]|h|r |cff33ff99DataStore_Garrisons|r: Samoanruin has 500 uncollected resources",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209571,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:29]|h|r |cff33ff99DataStore_Garrisons|r: Samoantank has 500 uncollected resources",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209571,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:30]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv2.0.2|r. Type |cff888888/rab|r to configure settings.",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209572,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:30]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209572,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:30]|h|r Loading Slash Commands",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209572,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cnBLUE_FONT_COLOR:[KK] |cff808080 OnEvent Player Entering World |r",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cnBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cnBRIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cnLIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cnBATTLENET_FONT_COLOR:[KK]",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cFF00FFF6[KK]",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r |cffA236EF[|r|cff9448F1K|r|cff865BF2o|r|cff786DF4k|r|cff6A80F6o|r|cff5D92F7n|r|cff4FA4F9u|r|cff41B7FAt|r|cff33C9FC]|r",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r Hello World!",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r The [KK] addon has previously loaded 38 times",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:31]|h|r Options Panel Worked",
+["timestamp"] = 79886.975,
+["serverTime"] = 1723209573,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:38]|h|r |cff33ff99Altoholic|r: Auctions have not been checked on |cffff7c0aSamoanbeast|r since 34 days, check the auction house and your mailbox !",
+["timestamp"] = 79894.965,
+["serverTime"] = 1723209580,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:38]|h|r |cff33ff99DataStore_Mails|r: Samoanslayer (Area 52) has expired (or about to expire) mails ",
+["timestamp"] = 79894.965,
+["serverTime"] = 1723209580,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:38]|h|r |cff33ff99DataStore_Mails|r: Samoanblast (Emerald Dream) has expired (or about to expire) mails ",
+["timestamp"] = 79894.965,
+["serverTime"] = 1723209580,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:19:41]|h|r |cff33ff99Rematch_TSMPetValues|r: |cff88ff88Found usable data from TradeSkillMaster.|r",
+["timestamp"] = 79897.565,
+["serverTime"] = 1723209583,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:20:38]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723209640,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 79956.124,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:20:40]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723209642,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 79958.239,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:22:18]|h|r |cff40ff40|Hpratfilter:529:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:529:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bearlytankn-EmeraldDream:529:CHANNEL:2|h|cffff7c0aBearlytankn|r|h|cffd8d8d8]|r: |cffffd200|HclubFinder:ClubFinder-1-7482-162-2001930|h[Guild: Warcraft Mafia]|h|r 18+ casual guild. Join our family. Raid sat/sun 7-9PM EST. AOTC RAID,M+,GLORY ACHV & PVP. Active discord. Join one of the oldest active guilds on ED! EST 2008! 800+",
+["serverTime"] = 1723209739,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+4,
+["n"] = 3,
+},
+["timestamp"] = 80056.962,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:25:15]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723209916,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80233.80500000001,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:25:17]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723209918,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80235.84700000001,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:29:17]|h|r You receive item: |cff00ccff|Hitem:122340::::::::70:62::14::1:28:868:::::|h[Timeworn Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210158,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80475.12,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:29:18]|h|r You receive item: |cff00ccff|Hitem:151614::::::::70:62::14::1:28:868:::::|h[Weathered Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210159,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80476.651,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:29:20]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210161,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80478.158,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:29:21]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210162,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80479.875,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:29:24]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210165,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80482.268,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:31:29]|h|r You receive item: |cff00ccff|Hitem:122341::::::::70:62::14::1:28:868:::::|h[Timeworn Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210290,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80607.982,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:31:31]|h|r You receive item: |cff00ccff|Hitem:151615::::::::70:62::14::1:28:868:::::|h[Weathered Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210292,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80609.351,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:31:32]|h|r You receive item: |cff00ccff|Hitem:167732::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210293,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80610.85,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:31:34]|h|r You receive item: |cff00ccff|Hitem:187998::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210295,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80612.841,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:31:37]|h|r You receive item: |cff00ccff|Hitem:204337::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210298,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80615.629,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:31:51]|h|r You receive item: |cff00ccff|Hitem:122339::::::::70:62::14::1:28:868:::::|h[Ancient Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210312,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80629.742,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:05]|h|r You receive item: |cff00ccff|Hitem:122340::::::::70:62::14::1:28:868:::::|h[Timeworn Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210326,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80643.657,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:14]|h|r |cff40ff40|Hpratfilter:544:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:544:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Manaari-EmeraldDream:544:CHANNEL:2|h|cffc69b6dManaari|r|h|cffd8d8d8]|r: |cffffd200|HclubFinder:ClubFinder-1-534883-162-90448463|h[Guild: Uninspired]|h|r is recruiting for season 4 and beyond. We are AOTC raiders looking to expand members for raiding, mythics, and pvp. We are recruiting dps and heals for our raid team that raids Weds and Sun 6:30 pm server. Pst for info",
+["serverTime"] = 1723210335,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+6,
+["n"] = 3,
+},
+["timestamp"] = 80652.262,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:26]|h|r |cff40ff40|Hpratfilter:545:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:545:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Donairs-EmeraldDream:545:CHANNEL:2|h|cffc41e3aDonairs|r|h|cffd8d8d8]|r: heard you guys are a branch of warsong battalion",
+["serverTime"] = 1723210347,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+8,
+["n"] = 3,
+},
+["timestamp"] = 80664.558,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:27]|h|r |cff40ff40|Hpratfilter:546:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:546:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Khonis-EmeraldDream:546:CHANNEL:2|h|cff3fc7ebKhonis|r|h|cffd8d8d8]|r: hey, shot in the dark, but anyone use starlink for gaming? I only have 150 gigs of internet now, and its starting to show with gam updates n stuff lol",
+["serverTime"] = 1723210348,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+10,
+["n"] = 3,
+},
+["timestamp"] = 80665.158,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:48]|h|r You receive item: |cff00ccff|Hitem:151614::::::::70:62::14::1:28:868:::::|h[Weathered Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210369,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80686.995,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:52]|h|r You receive item: |cff00ccff|Hitem:167731::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210373,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80690.532,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:53]|h|r You receive item: |cff00ccff|Hitem:187997::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210374,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80692.066,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:56]|h|r You receive item: |cff00ccff|Hitem:204336::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Armor Casing]|h|r",
+["serverTime"] = 1723210377,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80694.458,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:32:57]|h|r |cff40ff40|Hpratfilter:551:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:551:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Manaari-EmeraldDream:551:CHANNEL:2|h|cffc69b6dManaari|r|h|cffd8d8d8]|r: No we are not",
+["serverTime"] = 1723210378,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+6,
+["n"] = 3,
+},
+["timestamp"] = 80695.262,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:36:14]|h|r You are refunded 750 Gold.",
+["serverTime"] = 1723210575,
+["r"] = 1,
+["extraData"] = {
+29,
+12,
+13,
+["n"] = 3,
+},
+["timestamp"] = 80893.00200000001,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:36:20]|h|r You receive item: |cff00ccff|Hitem:204337::::::::70:62::14::1:28:868:::::|h[Awakened Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210581,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80898.171,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:36:22]|h|r You receive item: |cff00ccff|Hitem:187998::::::::70:62::14::1:28:868:::::|h[Eternal Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210583,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80900.923,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:36:25]|h|r You receive item: |cff00ccff|Hitem:167732::::::::70:62::14::1:28:868:::::|h[Battle-Hardened Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210586,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80903.61,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:36:27]|h|r You receive item: |cff00ccff|Hitem:151615::::::::70:62::14::1:28:868:::::|h[Weathered Heirloom Scabbard]|h|r",
+["serverTime"] = 1723210588,
+["r"] = 0,
+["extraData"] = {
+28,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 80905.451,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:44:23]|h|r [SERVER] Shutdown in 15:00",
+["serverTime"] = 1723211064,
+["r"] = 1,
+["extraData"] = {
+1,
+14,
+15,
+["n"] = 3,
+},
+["timestamp"] = 81381.909,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:44:25]|h|r [SERVER] Shutdown in 15:00",
+["serverTime"] = 1723211066,
+["r"] = 1,
+["extraData"] = {
+1,
+14,
+15,
+["n"] = 3,
+},
+["timestamp"] = 81383.909,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:45:16]|h|r You are now Away: AFK",
+["serverTime"] = 1723211115,
+["r"] = 1,
+["extraData"] = {
+1,
+14,
+15,
+["n"] = 3,
+},
+["timestamp"] = 81432.931,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:45:26]|h|r [SERVER] Shutdown in 14:00",
+["serverTime"] = 1723211125,
+["r"] = 1,
+["extraData"] = {
+1,
+14,
+15,
+["n"] = 3,
+},
+["timestamp"] = 81442.964,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:45:56]|h|r |cff40ff40|Hpratfilter:564:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:564:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rains-EmeraldDream:564:CHANNEL:2|h|cffaad372Rains|r|h|cffd8d8d8]|r: like thats your speed or 150gigs total",
+["serverTime"] = 1723211155,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+16,
+["n"] = 3,
+},
+["timestamp"] = 81473.24,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:46:26]|h|r [SERVER] Shutdown in 13:00",
+["serverTime"] = 1723211186,
+["r"] = 1,
+["extraData"] = {
+1,
+14,
+15,
+["n"] = 3,
+},
+["timestamp"] = 81502.941,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[07:46:46]|h|r You are no longer Away.",
+["serverTime"] = 1723211206,
+["r"] = 1,
+["extraData"] = {
+1,
+14,
+15,
+["n"] = 3,
+},
+["timestamp"] = 81522.614,
+["g"] = 1,
+["b"] = 0,
+},
+},
+["maxElements"] = 5000,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+},
 }

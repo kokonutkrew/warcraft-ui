@@ -1758,7 +1758,6 @@ ZygorGuidesViewer_L("Faction", "enUS", function() return {
 local plurals = {
 	Ballista="Ballistas",
 	Bark=1,
-	Beef=1,
 	Briarthorn=1,
 	Blood=1,
 	Bruiseweed=1,

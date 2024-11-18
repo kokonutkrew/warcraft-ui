@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+  This is the default User Interface.  
+  This file is updated with Inner Space. If you want to make changes, you need to make a copy of this file and change the startup sequence to load your custom file 
+-->
+<ISUI>
+	<frame name='main hud' Template='hud'>
+		<Children>
+			<hudelement name='fps'>
+				<Visible>1</Visible>
+				<X>20</X>
+				<Y>r65</Y>
+				<Text>FPS: ${Display.FPS.Centi}</Text>
+				<Group>FPS Indicator</Group>
+			</hudelement>
+			<hudelement name='system memory indicator'>
+				<Visible>1</Visible>
+				<X>20</X>
+				<Y>r50</Y>
+				<Text>System RAM Available: ${System.MemFree}MB/${System.MemTotal}MB</Text>
+				<Group>Memory Indicator</Group>
+			</hudelement>
+			<hudelement name='texture memory indicator'>
+				<Visible>1</Visible>
+				<X>20</X>
+				<Y>r35</Y>
+				<Text>Texture Memory Available: ${Display.TextureMem}MB</Text>
+				<Group>Memory Indicator</Group>
+			</hudelement>
+      <hudelement name='process memory indicator'>
+        <Visible>1</Visible>
+        <X>20</X>
+        <Y>r20</Y>
+        <Text>Process Memory Usage: ${Math.Calc[${System.MemoryUsage}/1048576].Precision[1]}MB</Text>
+        <Group>Memory Indicator</Group>
+      </hudelement>      
+			<hudelement name='innerspace version'>
+				<Visible>1</Visible>
+				<X>50%</X>
+				<Y>r95</Y>
+				<Text>Inner Space v${InnerSpace.Version} (Build ${InnerSpace.Build}) ${If[${LavishScript.Is64Bit},64-bit,32-bit]}</Text>
+				<Group>Version Indicators</Group>
+			</hudelement>
+			<hudelement name='isxdk version'>
+				<Visible>1</Visible>
+				<X>55%</X>
+				<Y>r80</Y>
+				<Text>ISXDK v${InnerSpace.ISXDK}</Text>
+				<Group>Version Indicators</Group>
+			</hudelement>
+			<hudelement name='lavishscript version'>
+				<Visible>1</Visible>
+				<X>50%</X>
+				<Y>r65</Y>
+				<Text>LavishScript v${LavishScript}</Text>
+				<Group>Version Indicators</Group>
+			</hudelement>
+			<hudelement name='lsmodule version'>
+				<Visible>1</Visible>
+				<X>55%</X>
+				<Y>r50</Y>
+				<Text>LSModule v${LavishScript.LSModule}</Text>
+				<Group>Version Indicators</Group>
+			</hudelement>
+			<hudelement name='lavishgui version'>
+				<Visible>1</Visible>
+				<X>50%</X>
+				<Y>r35</Y>
+				<Text>LavishGUI v${LavishGUI.Version}</Text>
+				<Group>Version Indicators</Group>
+			</hudelement>			
+			<hudelement name='lavishgui api version'>
+				<Visible>1</Visible>
+				<X>55%</X>
+				<Y>r20</Y>
+				<Text>LavishGUI API v${LavishGUI.APIVersion}</Text>
+				<Group>Version Indicators</Group>
+			</hudelement>						
+		</Children>
+	</frame>
+	<window name='console'>
+		<Visible>0</Visible>
+		<X>0</X>
+		<Y>0</Y>
+		<Width>100%</Width>
+		<Height>211</Height>
+		<Resizable />
+		<Title>Uplink Console</Title>
+		<Children>
+			<console name='output'>
+				<X>0</X>
+				<Y>0</Y>
+				<Height>r14</Height>
+				<Width>100%</Width>
+			</console>
+			<commandentry name='input'>
+				<X>0</X>
+				<Y>r14</Y>
+				<Height>14</Height>
+				<Width>100%</Width>
+			</commandentry>
+		</Children>
+	</window>
+  <template name='configuration.label'>
+    <Name>Bradley Hand ITC</Name>
+    <Size>24</Size>
+    <Color>FFFFFFFF</Color>
+    <Bold />
+  </template>
+  <template name='configuration.combobox' Template='combobox'>
+    <Texture Template='combobox.Texture' ColorMask='FF99ccff' />
+    <Font Template='combobox.font'>
+      <Name>Tahoma</Name>
+      <Size>14</Size>
+    </Font>
+    <ListBox Template='combobox.listbox' >
+      <Texture Template='combobox.ListBoxTexture' ColorMask='FF99ccff'/>
+    </ListBox>
+  </template>
+  
+	<window name='configuration'>
+		<Visible>0</Visible>
+		<X>10%</X>
+		<Y>10%</Y>
+		<Width>80%</Width>
+		<Height>80%</Height>
+		<Resizable MinWidth="500" MinHeight="420" />
+		<Title>Inner Space Configuration</Title>
+    <BackgroundColor>FF000000</BackgroundColor>
+		<Children>
+			<tabcontrol name='tabtabtabbies'>
+				<X>5</X>
+				<Y>5</Y>
+				<Width>r10</Width>
+				<Height>r40</Height>
+				<FrameTexture />
+        <FrameBackgroundColor>FF336699</FrameBackgroundColor>
+				<tabs>
+          <tab name='General'>
+            <!-- Patcher & Startup Settings -->
+            <frame name='patcher'>
+              <X>10</X>
+              <Y>10</Y>
+              <Height>100</Height>
+              <Width>50%</Width>
+              <Children>
+                <Text name='label'>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>100%</Width>
+                  <Height>16</Height>
+                  <Text>Patcher Settings</Text>
+                  <Font Template='configuration.label' />
+                  <AutoTooltip>The settings for the patcher, doofus</AutoTooltip>
+                </Text>
+                <commandcheckbox name='unstable'>
+                  <X>10</X>
+                  <Y>20</Y>
+                  <Height>16</Height>
+                  <Width>100</Width>
+                  <Text>Download development (test) patches</Text>
+                  <Command>SettingXML[InnerSpace.XML].Set[General]:Set[Download Unstable Patches,1]:Save</Command>
+                  <CommandChecked>SettingXML[InnerSpace.XML].Set[General]:Set[Download Unstable Patches,0]:Save</CommandChecked>
+                  <Data>${SettingXML[InnerSpace.XML].Set[General].GetInt[Download Unstable Patches]}</Data>
+                  <AutoTooltip>Check to use the newest but possibly unstable Inner Space build.  Uncheck to revert to the stable build.</AutoTooltip>
+                </commandcheckbox>
+                <commandcheckbox Name='alwayspatch'>
+                  <X>10</X>
+                  <Y>40</Y>
+                  <Height>20</Height>
+                  <Width>100</Width>
+                  <Text>Always patch at startup</Text>
+                  <Command>SettingXML[InnerSpace.XML].Set[General]:Set[Always Update,1]</Command>
+                  <CommandChecked>SettingXML[InnerSpace.XML].Set[General]:Set[Always Update,0]</CommandChecked>
+                  <Data>${SettingXML[InnerSpace.XML].Set[General].GetInt[Always Update]}</Data>
+                </commandcheckbox>
+              </Children>
+            </frame>
+
+            <!-- Uplink Networking Settings -->
+            <frame name='networking'>
+              <X>10</X>
+              <Y>120</Y>
+              <Height>80</Height>
+              <Width>r10</Width>
+              <children>
+                <Text name='label'>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>100%</Width>
+                  <Height>16</Height>
+                  <Text>Uplink Networking</Text>
+                  <Font Template='configuration.label' />
+                </Text>
+            <commandcheckbox Name='net.enable'>
+              <X>10</X>
+              <Y>40</Y>
+              <Height>20</Height>
+              <Width>200</Width>
+              <Text>Enable incoming connections on port</Text>
+              <Command>SettingXML[InnerSpace.XML].Set[Remote]:Set[Enable Incoming,1]</Command>
+              <CommandChecked>SettingXML[InnerSpace.XML].Set[Remote]:Set[Enable Incoming,0]</CommandChecked>
+              <Data>${SettingXML[InnerSpace.XML].Set[Remote].GetInt[Enable Incoming]}</Data>
+            </commandcheckbox>
+            <text name='namelabel'>
+              <x>10</x>
+              <Y>20</Y>
+              <Width>240</Width>
+              <Height>16</Height>
+              <text>Unique name for this uplink</text>
+              <Font Template='commandcheckbox.font' />
+            </text>
+            <textentry Name='net.name'>
+              <X>240</X>
+              <Y>20</Y>
+              <Height>16</Height>
+              <Width>200</Width>
+              <OnRender>
+                This:SetText["${SettingXML[InnerSpace.XML].Set[Remote].GetString[Name].Escape}"]
+              </OnRender>
+              <OnChange>
+                SettingXML[InnerSpace.XML].Set[Remote]:Set[Name,"${This.Text.Escape}"]
+              </OnChange>
+            </textentry>
+            <textentry Name='net.incomingport'>
+              <X>240</X>
+              <Y>40</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnRender>
+                This:SetText["${SettingXML[InnerSpace.XML].Set[Remote].GetInt[Incoming Port]}"]
+              </OnRender>
+              <OnChange>
+                SettingXML[InnerSpace.XML].Set[Remote]:Set[Incoming Port,"${This.Text}"]
+              </OnChange>
+            </textentry>
+            </children>
+            </frame>
+            
+            <!-- Localization Settings -->
+            <frame name='localization'>
+              <X>10</X>
+              <Y>200</Y>
+              <Height>80</Height>
+              <Width>r10</Width>
+              <children>
+                <Text name='label'>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>100%</Width>
+                  <Height>16</Height>
+                  <Text>Language</Text>
+                  <Font Template='configuration.label' />
+                </Text>
+                <textentry Name='language'>
+                  <X>10</X>
+                  <Y>20</Y>
+                  <Height>16</Height>
+                  <Width>200</Width>
+                  <OnRender>
+                    This:SetText["${SettingXML[InnerSpace.XML].Set[General].GetString[Language].Escape}"]
+                  </OnRender>
+                  <OnChange>
+                    SettingXML[InnerSpace.XML].Set[General]:Set[Language,"${This.Text.Escape}"]
+                  </OnChange>
+                </textentry>
+              </children>
+            </frame>
+            
+            <!-- Architecture Settings -->
+            <frame name='architecture'>
+              <X>10</X>
+              <Y>260</Y>
+              <Width>r10</Width>
+              <Height>80</Height>
+              <children>
+                <Text name='label'>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>100%</Width>
+                  <Height>16</Height>
+                  <Text>32/64-Bit</Text>
+                  <Font Template='configuration.label' />
+                </Text>                
+                <commandcheckbox Name='use64bit'>
+                  <X>10</X>
+                  <Y>20</Y>
+                  <Height>20</Height>
+                  <Width>100</Width>
+                  <Text>Use 64-bit Inner Space Uplink</Text>
+                  <Command>SettingXML[InnerSpace.XML].Set[General]:Set[Use 32-bit Inner Space,0]</Command>
+                  <CommandChecked>SettingXML[InnerSpace.XML].Set[General]:Set[Use 32-bit Inner Space,1]</CommandChecked>
+                  <Data>${Math.Calc[!${SettingXML[InnerSpace.XML].Set[General].GetInt[Use 32-bit Inner Space]}]}</Data>
+                  <AutoTooltip>Check to let Inner Space re-launch as the 64-bit version of Inner Space. Un-Check to use 32-bit Inner Space.</AutoTooltip>
+                  </commandcheckbox>
+              </children>
+            </frame>
+
+            <Text name='loaderlabel'>
+              <X>5</X>
+              <Y>345</Y>
+              <Height>16</Height>
+              <Width>285</Width>
+              <Text>Inner Space Loader aggressiveness</Text>
+            </Text>
+            <combobox name='loader' template='configuration.combobox'>
+              <X>290</X>
+              <Y>345</Y>
+              <Height>16</Height>
+              <FullHeight>120</FullHeight>
+              <Width>240</Width>
+              <Items>
+                <Item Value="-1">Default</Item>
+                <!--<Item Value="0">None</Item>-->
+                <Item Value="1">Minimum</Item>
+                <Item Value="3">Moderate</Item>
+                <Item Value="5">Standard</Item>
+                <Item Value="10">Maximum</Item>
+              </Items>
+              <OnRender>
+                if !${This.SelectedItem(exists)} || ${This.SelectedItem.Value}!=${SettingXML[InnerSpace.XML].Set[General].GetInt[Loader,-1]}
+                This.ItemByValue[${SettingXML[InnerSpace.XML].Set[General].GetInt[Loader,-1]}]:Select
+              </OnRender>
+              <OnSelect>
+                SettingXML[InnerSpace.XML].Set[General]:Set[Loader,"${This.SelectedItem.Value.Escape}"]
+              </OnSelect>
+            </combobox>
+
+
+            <!-- Startup Sequences -->
+            <frame name='startup'>
+              <X>50%</X>
+              <Y>10</Y>
+              <Height>80</Height>
+              <Width>200</Width>
+              <children>
+                <Text name='label'>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Width>100%</Width>
+                  <Height>16</Height>
+                  <Text>Startup Sequences</Text>
+                  <Alignment>Center</Alignment>
+                  <Font Template='configuration.label' />
+                </Text>
+
+                <frame name='uplink'>
+                  <X>0</X>
+                  <Y>20</Y>
+                  <Height>r20</Height>
+                  <Width>50%</Width>
+                  <BackgroundColor>FF003366</BackgroundColor>
+                  <children>
+                    <Text Name='uplinklabel'>
+                      <X>5</X>
+                      <Y>5</Y>
+                      <Height>16</Height>
+                      <Width>r10</Width>
+                      <Text>Uplink</Text>
+                      <Alignment>Center</Alignment>
+                    </Text>
+                    <button name='uplinkstartup' ColorMask='FF0000cc'>
+                      <X>5</X>
+                      <Y>20</Y>
+                      <Width>90</Width>
+                      <Height>16</Height>
+                      <Text>Startup</Text>
+                      <Font Template='button.Font'>
+                        <Color>FFFFFFFF</Color>
+                      </Font>
+                      <OnLeftClick>
+                        UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[InnerSpace.XML].Set[Uplink Startup].Set[Startup Sequence].GUID}]
+                      </OnLeftClick>
+                    </button>
+
+                  </children>
+                </frame>
+                <frame name='session'>
+                  <X>50%</X>
+                  <Y>20</Y>
+                  <Height>r20</Height>
+                  <Width>50%</Width>
+                  <BackgroundColor>FF003366</BackgroundColor>
+                  <children>
+                    <Text Name='sessionlabel'>
+                      <X>5</X>
+                      <Y>5</Y>
+                      <Height>16</Height>
+                      <Width>r10</Width>
+                      <Text>Session</Text>
+                      <Alignment>Center</Alignment>
+                    </Text>
+                    <button name='sessionprestartup' ColorMask='FF0000cc'>
+                      <X>5</X>
+                      <Y>20</Y>
+                      <Width>90</Width>
+                      <Height>16</Height>
+                      <Text>Pre-Startup</Text>
+                      <Font Template='button.Font'>
+                        <Color>FFFFFFFF</Color>
+                      </Font>
+                      <OnLeftClick>
+                        UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[InnerSpace.XML].Set[Session Startup].Set[Pre-Startup Sequence].GUID}]
+                      </OnLeftClick>
+                    </button>
+                    <button name='sessionstartup' ColorMask='FF0000cc'>
+                      <X>5</X>
+                      <Y>40</Y>
+                      <Width>90</Width>
+                      <Height>16</Height>
+                      <Text>Startup</Text>
+                      <Font Template='button.Font'>
+                        <Color>FFFFFFFF</Color>
+                      </Font>
+                      <OnLeftClick>
+                        UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[InnerSpace.XML].Set[Session Startup].Set[Startup Sequence].GUID}]
+                      </OnLeftClick>
+                    </button>
+                  </children>
+                </frame>
+              </children>
+            </frame>
+          </tab>
+					<tab name='FPS Limiter'>
+						<!-- FPS Limiter Settings -->
+						<frame name='foreground'>
+						<X>10</X>
+						<Y>10</Y>
+						<Width>200</Width>
+						<Height>200</Height>
+						<backgroundcolor>FF003366</backgroundcolor>
+						<Children>
+						<text name='foreground'>
+							<X>0</X>
+							<Y>5</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<Alignment>Center</Alignment>
+							<text>Foreground</text>
+						</text>
+						<commandcheckbox Name='fps.foreground.enable'>
+							<X>5</X>
+							<Y>20</Y>
+							<Height>16</Height>
+							<Width>100</Width>
+							<Text>Enable Limiter</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground]:Set[Enable,1]</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground]:Set[Enable,0]</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground].GetInt[Enable]}</Data>
+						</commandcheckbox>
+					
+						<combobox name='fps.foreground.calculate' Template='configuration.combobox'>
+							<X>10</X>
+							<Y>40</Y>
+							<Height>16</Height>
+							<FullHeight>60</FullHeight>
+							<Width>r20</Width>
+							<Items>
+								<Item Value="0">Constant CPU Time</Item>
+								<Item Value="1">Calculate CPU Time</Item>
+							</Items>
+							<OnRender>
+								if !${This.SelectedItem(exists)} || ${This.SelectedItem.Value}!=${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground].GetInt[Calculate]}
+									This.ItemByValue[${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground].GetInt[Calculate]}]:Select
+							</OnRender>
+							<OnSelect>
+								SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground]:Set[Calculate,${This.SelectedItem.Value}]
+							</OnSelect>
+						</combobox>										
+						
+						<text name='limit'>
+							<X>10</X>
+							<Y>60</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<text>FPS Limit</text>
+						</text>						
+						<textentry Name='fps.foreground.frames'>
+							<X>r50</X>
+							<Y>60</Y>
+							<Height>16</Height>
+							<Width>40</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground].GetInt[Frames per Second]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Foreground]:Set[Frames per Second,"${This.Text}"]
+							</OnChange>
+              <MaxLength>4</MaxLength>
+            </textentry>
+						</Children>
+						
+						</frame>
+						
+						<frame name='background'>
+						<X>220</X>
+						<Y>10</Y>
+						<Width>200</Width>
+						<Height>200</Height>
+						<backgroundcolor>FF003366</backgroundcolor>
+						<Children>
+							<text name='background'>
+								<X>0</X>
+								<Y>5</Y>
+								<Width>100%</Width>
+								<Height>16</Height>
+								<Alignment>Center</Alignment>
+								<text>Background</text>
+							</text>
+							<commandcheckbox Name='fps.background.enable'>
+							<X>5</X>
+							<Y>20</Y>
+							<Height>16</Height>
+							<Width>100</Width>
+							<Text>Enable Limiter</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background]:Set[Enable,1]</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background]:Set[Enable,0]</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background].GetInt[Enable]}</Data>
+						</commandcheckbox>
+						<combobox name='fps.Background.calculate' Template='configuration.combobox'>
+							<X>10</X>
+							<Y>40</Y>
+							<Height>16</Height>
+							<FullHeight>60</FullHeight>
+							<Width>r20</Width>
+							<Items>
+								<Item Value="0">Constant CPU Time</Item>
+								<Item Value="1">Calculate CPU Time</Item>
+							</Items>
+							<OnRender>
+								if !${This.SelectedItem(exists)} || ${This.SelectedItem.Value}!=${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background].GetInt[Calculate]}
+									This.ItemByValue[${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background].GetInt[Calculate]}]:Select
+							</OnRender>
+							<OnSelect>
+								SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background]:Set[Calculate,${This.SelectedItem.Value}]
+							</OnSelect>
+						</combobox>										
+						
+						<text name='limit'>
+							<X>10</X>
+							<Y>60</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<text>FPS Limit</text>
+						</text>						
+						
+						<textentry Name='fps.background.frames'>
+							<X>r50</X>
+							<Y>60</Y>
+							<Height>16</Height>
+							<Width>40</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background].GetInt[Frames per Second]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[FPS Limiter].Set[Background]:Set[Frames per Second,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						</Children>
+						</frame>					
+					</tab>
+					<tab name='User Interface'>
+						<!-- LavishGUI Settings -->
+
+						<text name='delaylabel'>
+							<X>10</X>
+							<Y>10</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<text>Initial Key Repeat Delay</text>
+						</text>		
+						<textentry Name='typematicdelay'>
+							<X>250</X>
+							<Y>10</Y>
+							<Height>16</Height>
+							<Width>60</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].GetInt[Typematic Delay]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[User Interface]:Set[Typematic Delay,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						<text name='ratelabel'>
+							<X>10</X>
+							<Y>30</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<text>Key Repeat Delay</text>
+						</text>		
+						<textentry Name='typematicrate'>
+							<X>250</X>
+							<Y>30</Y>
+							<Height>16</Height>
+							<Width>60</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].GetInt[Typematic Rate]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[User Interface]:Set[Typematic Rate,"${This.Text}"]
+							</OnChange>
+						</textentry>						
+						<text name='tooltiplabel'>
+							<X>10</X>
+							<Y>50</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<text>Tooltip Delay</text>
+						</text>		
+						<textentry Name='tooltipdelay'>
+							<X>250</X>
+							<Y>50</Y>
+							<Height>16</Height>
+							<Width>60</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].GetInt[Auto-Tooltip Delay]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[User Interface]:Set[Auto-Tooltip Delay,"${This.Text}"]
+							</OnChange>
+						</textentry>
+					
+						<text name='dblclklabel'>
+							<X>10</X>
+							<Y>70</Y>
+							<Width>100%</Width>
+							<Height>16</Height>
+							<text>Double-Click Time</text>
+						</text>								
+						<textentry Name='doubleclicktime'>
+							<X>250</X>
+							<Y>70</Y>
+							<Height>16</Height>
+							<Width>60</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].GetInt[Double Click Time]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[User Interface]:Set[Double Click Time,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						
+						<text name='skinlabel'>
+							<X>10</X>
+							<Y>140</Y>
+							<Width>250</Width>
+							<Height>16</Height>
+							<text>Skin XML file</text>
+						</text>								
+						<text name='mainuilabel'>
+							<X>10</X>
+							<Y>160</Y>
+							<Width>250</Width>
+							<Height>16</Height>
+							<text>Main interface XML file</text>
+						</text>					
+						<text name='patcherlabel'>
+							<X>10</X>
+							<Y>180</Y>
+							<Width>250</Width>
+							<Height>16</Height>
+							<text>Patch Window Name</text>
+						</text>													
+						<text name='configlabel'>
+							<X>10</X>
+							<Y>200</Y>
+							<Width>250</Width>
+							<Height>16</Height>
+							<text>Configuration Window Name</text>
+						</text>													
+						<frame name='separator'>
+						<X>250</X>
+						<Y>90</Y>
+						<Height>130</Height>
+						<Width>r260</Width>
+						<children>
+						<frame name='uplink'>
+							<X>0</X>
+							<Y>0</Y>
+							<Height>100%</Height>
+							<Width>50%</Width>
+							<BackgroundColor>FF003366</BackgroundColor>
+							<children>
+								<Text Name='uplinklabel'>
+									<X>5</X>
+									<Y>5</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<Text>Uplink</Text>
+									<Alignment>Center</Alignment>
+								</Text>
+								<textentry Name='defaultskin'>
+									<X>5</X>
+									<Y>45</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink].GetString[Skin].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink]:Set[Skin,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>							
+								<textentry Name='defaultui'>
+									<X>5</X>
+									<Y>65</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink].GetString[Interface].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink]:Set[Interface,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+								<textentry Name='patcherwindow'>
+									<X>5</X>
+									<Y>85</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink].GetString[Patcher].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink]:Set[Patcher,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>								
+								<textentry Name='configwindow'>
+									<X>5</X>
+									<Y>105</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink].GetString[Configuration].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Uplink]:Set[Configuration,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>								
+							</children>
+						</frame>
+						<frame name='session'>
+							<X>50%</X>
+							<Y>0</Y>
+							<Height>100%</Height>
+							<Width>50%</Width>
+							<BackgroundColor>FF003366</BackgroundColor>
+							<children>
+								<Text Name='uplinklabel'>
+									<X>5</X>
+									<Y>5</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<Text>Session</Text>
+									<Alignment>Center</Alignment>
+								</Text>
+								<textentry Name='defaultskin'>
+									<X>5</X>
+									<Y>45</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Session].GetString[Skin].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Session]:Set[Skin,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>							
+								<textentry Name='defaultui'>
+									<X>5</X>
+									<Y>65</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Session].GetString[Interface].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Session]:Set[Interface,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+								<textentry Name='configwindow'>
+									<X>5</X>
+									<Y>105</Y>
+									<Height>16</Height>
+									<Width>r10</Width>
+									<OnRender>
+										This:SetText["${SettingXML[InnerSpace.XML].Set[User Interface].Set[Session].GetString[Configuration].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[InnerSpace.XML].Set[User Interface].Set[Session]:Set[Configuration,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>																						
+							</children>
+						</frame>
+						</children>
+						</frame>
+					</tab>
+					<tab name='Video Capture'>
+						<!-- Video Capture Settings -->
+						<text name='qualitylabel'>
+							<X>10</X>
+							<Y>10</Y>
+							<Height>16</Height>
+							<Width>340</Width>
+							<Text>Image quality of encoded video</Text>
+						</text>
+						<textentry name='vc.quality'>
+							<X>350</X>
+							<Y>10</Y>
+							<Height>16</Height>
+							<Width>50</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Quality]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Quality,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						<text name='qualityunits'>
+							<X>405</X>
+							<Y>10</Y>
+							<Height>16</Height>
+							<Width>r410</Width>
+							<Text>%</Text>
+						</text>						
+						<text name='ratelabel'>
+							<X>10</X>
+							<Y>30</Y>
+							<Height>16</Height>
+							<Width>340</Width>
+							<Text>Rate of capture</Text>
+						</text>						
+						<textentry name='vc.rate'>
+							<X>350</X>
+							<Y>30</Y>
+							<Height>16</Height>
+							<Width>50</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Rate]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Rate,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						<text name='rateunits'>
+							<X>405</X>
+							<Y>30</Y>
+							<Height>16</Height>
+							<Width>r410</Width>
+							<Text>% of all frames displayed</Text>
+						</text>						
+						<text name='widthlabel'>
+							<X>10</X>
+							<Y>50</Y>
+							<Height>16</Height>
+							<Width>340</Width>
+							<Text>Width of encoded video (0=auto)</Text>
+						</text>						
+						<textentry name='vc.width'>
+							<X>350</X>
+							<Y>50</Y>
+							<Height>16</Height>
+							<Width>50</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Width]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Width,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						<text name='widthunits'>
+							<X>405</X>
+							<Y>50</Y>
+							<Height>16</Height>
+							<Width>r410</Width>
+							<Text>pixels</Text>
+						</text>			
+						<text name='heightlabel'>
+							<X>10</X>
+							<Y>70</Y>
+							<Height>16</Height>
+							<Width>340</Width>
+							<Text>Height of encoded video (0=auto)</Text>
+						</text>						
+						<textentry name='vc.height'>
+							<X>350</X>
+							<Y>70</Y>
+							<Height>16</Height>
+							<Width>50</Width>
+							<OnRender>
+								This:SetText["${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Height]}"]
+							</OnRender>
+							<OnChange>
+								SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Height,"${This.Text}"]
+							</OnChange>
+						</textentry>
+						<text name='heuightunits'>
+							<X>405</X>
+							<Y>70</Y>
+							<Height>16</Height>
+							<Width>r410</Width>
+							<Text>pixels</Text>
+						</text>			
+						<commandcheckbox name='vc.sound'>
+							<X>10</X>
+							<Y>90</Y>
+							<Height>16</Height>
+							<Width>100</Width>
+							<Text>Capture sound</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Sound,1]</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Sound,0]</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Sound]}</Data>
+						</commandcheckbox>
+						<commandcheckbox name='vc.encodenow'>
+							<X>10</X>
+							<Y>110</Y>
+							<Height>16</Height>
+							<Width>100</Width>
+							<Text>Encode immediately after capture (you can manually encode later instead)</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Encode Immediately,1]</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Encode Immediately,0]</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Encode Immediately]}</Data>
+						</commandcheckbox>
+						<commandcheckbox name='vc.preshrink'>
+							<X>10</X>
+							<Y>130</Y>
+							<Height>16</Height>
+							<Width>100</Width>
+							<Text>Shrink image during capture to final size instead of during encoding</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Pre-Shrink,1]</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Pre-Shrink,0]</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Pre-Shrink]}</Data>
+						</commandcheckbox>
+						<commandcheckbox name='vc.compress'>
+							<X>10</X>
+							<Y>150</Y>
+							<Height>16</Height>
+							<Width>100</Width>
+							<Text>Compress temporary files</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Compression,1]</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[Video Capture]:Set[Capture Compression,0]</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[Video Capture].GetInt[Capture Compression]}</Data>
+						</commandcheckbox>
+					
+					</tab>
+					<tab name='Game Configuration'>
+						<frame name='game'>
+							<Visible>0</Visible>
+							<X>10</X>
+							<Y>30</Y>
+							<Width>r20</Width>
+							<Height>325</Height>
+							<BackgroundColor>FF003366</BackgroundColor>
+              <Children>
+                <button name='prestartup' ColorMask='FF0000cc'>
+                  <X>r130</X>
+                  <Y>20</Y>
+                  <Width>120</Width>
+                  <Height>16</Height>
+                  <Text>Pre-Startup</Text>
+                  <Font Template='button.Font'>
+                    <Color>FFFFFFFF</Color>
+                  </Font>
+                  <OnLeftClick>
+                    UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Pre-Startup Sequence].GUID}]
+                  </OnLeftClick>
+                </button>
+                <button name='startup' ColorMask='FF0000cc'>
+                  <X>r130</X>
+                  <Y>40</Y>
+                  <Width>120</Width>
+                  <Height>16</Height>
+                  <Text>Startup</Text>
+                  <Font Template='button.Font'>
+                    <Color>FFFFFFFF</Color>
+                  </Font>
+                  <OnLeftClick>
+                    UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Startup Sequence].GUID}]
+                  </OnLeftClick>
+                </button>
+                <button name='removegame' ColorMask='FF990000'>
+                  <X>r130</X>
+                  <Y>85</Y>
+                  <Width>120</Width>
+                  <Height>16</Height>
+                  <Text>Remove Game</Text>
+                  <Font Template='button.Font'>
+                    <Color>FFFFFFFF</Color>
+                  </Font>
+                  <OnLeftClick>
+                    SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Unload
+
+                    declare FQN string ${This.Parent.Parent.FindChild[games].FullName}
+                    UIElement[${FQN}]:ClearItems
+                    declare Count int 0
+                    while ${Count:Inc}&lt;=${SettingXML[GameConfiguration.XML].Sets}
+                    {
+                    UIElement[${FQN}]:AddItem["${SettingXML[GameConfiguration.XML].Set[${Count}]}"]
+                    }
+
+                    ConfiguringGame:Set[""]
+                    This.Parent:Hide
+                  </OnLeftClick>
+                </button>
+                <commandcheckbox name='Hide'>
+                  <X>5</X>
+                  <Y>5</Y>
+                  <Height>16</Height>
+                  <Width>100</Width>
+                  <Text>Hide from Inner Space menu</Text>
+                  <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Hide,1]</Command>
+                  <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Hide,0]</CommandChecked>
+                  <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Hide]}</Data>
+                </commandcheckbox>
+                <!--
+                <Frame name='display'>
+                  <X>5</X>
+                  <Y>25</Y>
+                  <Width>180</Width>
+                  <Height>80</Height>
+                  <Children>
+                    <text name='label'>
+                      <Font Template='configuration.label' />
+                      <Width>100%</Width>
+                      <Height>20</Height>
+                      <Text>Display Systems</Text>
+                    </text>
+                  <commandcheckbox name='OpenGL'>
+                    <X>10</X>
+                    <Y>20</Y>
+                    <Height>16</Height>
+                    <Width>100</Width>
+                    <Text>OpenGL</Text>
+                    <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[OpenGL,1]</Command>
+                    <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[OpenGL,0]</CommandChecked>
+                    <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[OpenGL]}</Data>
+                  </commandcheckbox>
+                  <commandcheckbox name='Direct3D8'>
+                    <X>10</X>
+                    <Y>40</Y>
+                    <Height>16</Height>
+                    <Width>100</Width>
+                    <Text>Direct3D8</Text>
+                    <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Direct3D8,1]</Command>
+                    <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Direct3D8,0]</CommandChecked>
+                    <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Direct3D8]}</Data>
+                  </commandcheckbox>
+                  <commandcheckbox name='Direct3D9'>
+                    <X>10</X>
+                    <Y>60</Y>
+                    <Height>16</Height>
+                    <Width>100</Width>
+                    <Text>Direct3D9</Text>
+                    <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Direct3D9,1]</Command>
+                    <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Direct3D9,0]</CommandChecked>
+                    <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Direct3D9]}</Data>
+                  </commandcheckbox>
+                </Children>
+                </Frame>
+                -->
+                <Frame name='input'>
+                  <X>180</X>
+                  <Y>5</Y>
+                  <Visible>0</Visible>
+                  <Width>180</Width>
+                  <Height>140</Height>
+                  <Children>
+                    <text name='label'>
+                      <Font Template='configuration.label' />
+                      <Width>100%</Width>
+                      <Height>20</Height>
+                      <Text>Input Systems</Text>
+                    </text>
+                    <commandcheckbox name='VirtualInput'>
+                      <X>10</X>
+                      <Y>20</Y>
+                      <Height>16</Height>
+                      <Width>100</Width>
+                      <Text>Virtual Input (overrides all others)</Text>
+                      <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Virtual Input,1]</Command>
+                      <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Virtual Input,0]</CommandChecked>
+                      <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Virtual Input]}</Data>
+                    </commandcheckbox>                    
+                    <commandcheckbox name='Win32Keyboard'>
+                      <X>10</X>
+                      <Y>40</Y>
+                      <Height>16</Height>
+                      <Width>100</Width>
+                      <Text>Win32 Keyboard</Text>
+                      <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Win32I Keyboard,1]</Command>
+                      <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Win32I Keyboard,0]</CommandChecked>
+                      <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Win32I Keyboard]}</Data>
+                    </commandcheckbox>
+                    <commandcheckbox name='Win32Mouse'>
+                      <X>10</X>
+                      <Y>60</Y>
+                      <Height>16</Height>
+                      <Width>100</Width>
+                      <Text>Win32 Mouse</Text>
+                      <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Win32I Mouse,1]</Command>
+                      <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Win32I Mouse,0]</CommandChecked>
+                      <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Win32I Mouse]}</Data>
+                    </commandcheckbox>
+
+                    <commandcheckbox name='DirectInputKeyboard'>
+                      <X>10</X>
+                      <Y>80</Y>
+                      <Height>16</Height>
+                      <Width>100</Width>
+                      <Text>DirectInput Keyboard</Text>
+                      <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[DirectInput8 Keyboard,1]</Command>
+                      <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[DirectInput8 Keyboard,0]</CommandChecked>
+                      <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[DirectInput8 Keyboard]}</Data>
+                    </commandcheckbox>
+                    <commandcheckbox name='DirectInputMouse'>
+                      <X>10</X>
+                      <Y>100</Y>
+                      <Height>16</Height>
+                      <Width>100</Width>
+                      <Text>DirectInput Mouse</Text>
+                      <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[DirectInput8 Mouse,1]</Command>
+                      <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[DirectInput8 Mouse,0]</CommandChecked>
+                      <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[DirectInput8 Mouse]}</Data>
+                    </commandcheckbox>
+                    <commandcheckbox name='DirectInputMouseWin32Pos'>
+                      <X>10</X>
+                      <Y>120</Y>
+                      <Height>16</Height>
+                      <Width>100</Width>
+                      <Text>Hybrid Mouse</Text>
+                      <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Win32 Mouse Position,1]</Command>
+                      <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Win32 Mouse Position,0]</CommandChecked>
+                      <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Win32 Mouse Position]}</Data>
+                    </commandcheckbox>                    
+                  </Children>
+                </Frame>
+
+                <!-- <commandcheckbox name='keystrokedelay'>
+									<X>5</X>
+									<Y>105</Y>
+									<Height>16</Height>
+									<Width>100</Width>
+									<Text>Keystroke Delay</Text>
+									<Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Keystroke Delay,1]</Command>
+									<CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Keystroke Delay,0]</CommandChecked>
+									<Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Keystroke Delay]}</Data>
+								</commandcheckbox>			-->
+								<commandcheckbox name='lockforeground'>
+									<X>5</X>
+									<Y>125</Y>
+									<Height>16</Height>
+									<Width>100</Width>
+									<Text>Lock Foreground</Text>
+									<Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Lock Foreground,1]</Command>
+									<CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Lock Foreground,0]</CommandChecked>
+									<Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Lock Foreground]}</Data>
+								</commandcheckbox>							
+													
+			<!--
+								<commandcheckbox name='game.backgroundmouse'>
+									<X>5</X>
+									<Y>140</Y>
+									<Height>16</Height>
+									<Width>100</Width>
+									<Text>Background Mouse</Text>
+									<Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Background Mouse,1]</Command>
+									<CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Background Mouse,0]</CommandChecked>
+									<Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Background Mouse]}</Data>
+								</commandcheckbox>
+			-->
+                <!--
+								<Text name='backgroundmouselabel'>
+									<X>5</X>
+									<Y>145</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Backround window mouse position</Text>
+								</Text>
+								<combobox name='backgroundmouse' Template='configuration.combobox'>
+									<X>290</X>
+									<Y>145</Y>
+									<Height>16</Height>
+									<FullHeight>60</FullHeight>
+									<Width>100</Width>
+									<Items>
+										<Item Value="0">Emulated</Item>
+										<Item Value="1">Actual</Item>
+									</Items>
+									<OnRender>
+										if !${This.SelectedItem(exists)} || ${This.SelectedItem.Value}!=${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Background Mouse]}
+											This.ItemByValue[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Background Mouse]}]:Select
+									</OnRender>
+									<OnSelect>
+                    if ${This.SelectedItem(exists)}
+                      SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Background Mouse,${This.SelectedItem.Value}]
+                  </OnSelect>
+								</combobox>
+								-->
+								<Text name='wndclasslabel'>
+									<X>5</X>
+									<Y>165</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Display window WNDCLASS</Text>
+								</Text>
+								<textentry name='wndclass'>
+									<X>290</X>
+									<Y>165</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										if ${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetString[Window Class](exists)}
+											This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetString[Window Class].Escape}"]
+										else
+											This:SetText[""]
+									</OnRender>
+									<OnChange>
+										if ${This.Text.Length}
+											SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Window Class,"${This.Text.Escape}"]
+										else
+											SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:UnSet[Window Class]
+										
+									</OnChange>
+								</textentry>
+							
+								<Text name='moduleslabel'>
+									<X>5</X>
+									<Y>185</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Hook modules</Text>
+								</Text>
+								<textentry name='modules'>
+									<X>290</X>
+									<Y>185</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetString[modules].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[modules,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+<!--
+                <commandcheckbox name='stealth'>
+                  <X>5</X>
+                  <Y>205</Y>
+                  <Height>16</Height>
+                  <Width>100</Width>
+                  <Text>Enable Stealth</Text>
+                  <AutoTooltip>If you don't do anything questionable, you probably shouldn't enable stealth</AutoTooltip>
+                  <Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Stealth,1]</Command>
+                  <CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}]:Set[Stealth,0]</CommandChecked>
+                  <Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].GetInt[Stealth]}</Data>
+                </commandcheckbox>
+-->
+                <Text name='profileslabel'>
+									<X>5</X>
+									<Y>225</Y>
+									<Height>16</Height>
+									<Width>r140</Width>
+									<Text>Profiles for ${ConfiguringGame}</Text>
+								</Text>		
+								<button name='newprofile' ColorMask='FF990000'>
+									<X>r130</X>
+									<Y>225</Y>
+									<Width>120</Width>
+									<Height>16</Height>
+									<Text>New Profile</Text>
+									<Font Template='button.Font'>
+										<Color>FFFFFFFF</Color>
+									</Font>
+									<OnLeftClick>
+										ConfiguringProfile:Set["New ${ConfiguringGame.Escape} Profile"]
+										noop ${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]}
+										UIElement[configuration].FindUsableChild[profile,frame]:Show:SetZOrder[movetop]
+										UIElement[configuration].FindUsableChild[profile,frame].FindChild[name,textentry]:SetText["${ConfiguringProfile}"]
+									</OnLeftClick>
+								</button>					
+								<combobox name='profiles' Template='configuration.combobox'>
+									<X>10</X>
+									<Y>245</Y>
+									<Height>16</Height>
+									<FullHeight>200</FullHeight>
+									<Width>r20</Width>
+					<!--				<OnUnload>
+										DeleteVariable ConfiguringProfile string global
+									</OnUnload> -->
+									<OnSelect>
+										if ${This.SelectedItem(exists)}
+										{
+											ConfiguringProfile:Set["${This.SelectedItem.Text}"]
+											UIElement[configuration].FindUsableChild[profile,frame]:Show:SetZOrder[movetop]
+											UIElement[configuration].FindUsableChild[profile,frame].FindChild[name,textentry]:SetText["${This.SelectedItem.Text}"]
+										}
+										else
+										{
+											UIElement[configuration].FindUsableChild[profile,frame]:Hide				
+										}
+									</OnSelect>
+								</combobox>	
+							</Children>
+						</frame>
+						
+						<combobox name='games' Template='configuration.combobox'>
+							<X>10</X>
+							<Y>10</Y>
+							<Height>16</Height>
+							<FullHeight>200</FullHeight>
+							<Width>r20</Width>
+							<OnLoad>
+								This:ClearItems
+								declare Count int 0
+								while ${Count:Inc}&lt;=${SettingXML[GameConfiguration.XML].Sets}
+								{
+									This:AddItem["${SettingXML[GameConfiguration.XML].Set[${Count}]}"]
+								}	
+								if ${ConfiguringGame(exists)}
+								{
+									This.ItemByText[${ConfiguringGame}]:Select
+								}
+								else
+								{
+									DeclareVariable ConfiguringGame string global
+								}
+							</OnLoad>
+			<!--				<OnUnload>
+								DeleteVariable ConfiguringGame string global
+							</OnUnload> -->
+							<OnSelect>
+								UIElement[configuration].FindChild[Profile]:Hide				
+								if ${This.SelectedItem(exists)}
+								{
+									ConfiguringGame:Set["${This.SelectedItem.Text}"]
+									declare FQN string ${UIElement[configuration].FindUsableChild[Game,frame].FullName}
+									UIElement[${FQN}]:Show
+									
+									UIElement[profiles@${FQN}]:ClearItems
+									declare Count int 0
+									while ${Count:Inc}&lt;=${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Sets}
+									{
+										UIElement[profiles@${FQN}]:AddItem["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${Count}]}"]
+									}
+									
+									if ${ConfiguringProfile(exists)}
+									{
+										ConfiguringProfile:Set[""]
+									}
+									else
+									{
+										DeclareVariable ConfiguringProfile string global
+									}
+								}
+								else
+								{
+									UIElement[${FQN}]:Hide
+								}
+							</OnSelect>
+						</combobox>
+						
+						
+						<frame name='profile'>
+							<Visible>0</Visible>
+							<X>10</X>
+							<Y>10</Y>
+							<Width>r20</Width>
+							<Height>325</Height>
+							<BackgroundColor>FF003366</BackgroundColor>
+							<Children>
+                <textentry name='name'>
+                  <X>5</X>
+                  <Y>5</Y>
+                  <Width>r10</Width>
+                  <Height>16</Height>
+                  <!--<OnRender>${ConfiguringProfile}</OnRender>-->
+                </textentry>
+
+                <button name='prestartup' ColorMask='FF0000cc'>
+									<X>r260</X>
+									<Y>25</Y>
+									<Width>120</Width>
+									<Height>16</Height>
+									<Text>Pre-Startup</Text>
+									<Font Template='button.Font'>
+										<Color>FFFFFFFF</Color>
+									</Font>
+									<OnLeftClick>
+										UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].Set[Pre-Startup Sequence].GUID}]
+									</OnLeftClick>
+									
+								</button>								
+								<button name='startup' ColorMask='FF0000cc'>
+									<X>r130</X>
+									<Y>25</Y>
+									<Width>120</Width>
+									<Height>16</Height>
+									<Text>Startup</Text>
+									<Font Template='button.Font'>
+										<Color>FFFFFFFF</Color>
+									</Font>
+									<OnLeftClick>
+										UIElement[sequence@configuration]:Show:SetZOrder[movetop]:SetSequence[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].Set[Startup Sequence].GUID}]
+									</OnLeftClick>
+								</button>								
+								<button name='removeprofile' ColorMask='FF990000'>
+									<X>r145</X>
+									<Y>235</Y>
+									<Width>140</Width>
+									<Height>16</Height>
+									<Text>Remove Profile</Text>
+									<Font Template='button.Font'>
+										<Color>FFFFFFFF</Color>
+									</Font>
+									<OnLeftClick>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Unload
+										
+										declare FQN string ${UIElement[configuration].FindUsableChild[Game,frame].FullName}
+										UIElement[${FQN}]:Show
+										
+										UIElement[profiles@${FQN}]:ClearItems
+										declare Count int 0
+																		
+										while ${Count:Inc}&lt;=${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Sets}
+										{
+											UIElement[profiles@${FQN}]:AddItem["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${Count}]}"]
+										}
+										
+										
+										if ${ConfiguringProfile(exists)}
+										{
+											ConfiguringProfile:Set[""]
+										}
+										else
+										{
+											DeclareVariable ConfiguringProfile string global
+										}
+
+
+
+										ConfiguringProfile:Set[""]
+										This.Parent:Hide										
+									</OnLeftClick>
+								</button>					
+								<button name='shortcut' ColorMask='FF0000cc'>
+									<X>120</X>
+									<Y>235</Y>
+									<Width>140</Width>
+									<Height>16</Height>
+									<Text>Make Shortcut</Text>
+									<Font Template='button.Font'>
+										<Color>FFFFFFFF</Color>
+									</Font>
+									<OnLeftClick>
+										MakeShortcut "${ConfiguringGame.Escape}" "${ConfiguringProfile.Escape}"
+									</OnLeftClick>
+								</button>								
+								<Text name='executablelabel'>
+									<X>5</X>
+									<Y>45</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Main executable filename</Text>
+								</Text>								
+								<textentry name='executable'>
+									<X>290</X>
+									<Y>45</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Executable].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Executable,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+								<Text name='parameterslabel'>
+									<X>5</X>
+									<Y>65</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Main executable parameters</Text>
+								</Text>										
+								<textentry name='parameters'>
+									<X>290</X>
+									<Y>65</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+                  <MaxLength>4095</MaxLength>
+									<OnRender>
+										This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Parameters].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Parameters,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+								<Text name='pathlabel'>
+									<X>5</X>
+									<Y>85</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Main executable path</Text>
+								</Text>												
+								<textentry name='path'>
+									<X>290</X>
+									<Y>85</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Path].Escape}"]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Path,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+										
+								<Text name='preloadexecutablelabel'>
+									<X>5</X>
+									<Y>105</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Launch without hooking filename</Text>
+								</Text>												
+								<textentry name='preloadexecutable'>
+									<X>290</X>
+									<Y>105</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										if ${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Preload Executable](exists)}
+											This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Preload Executable].Escape}"]
+										else
+											This:SetText[""]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Preload Executable,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+								<Text name='preloadparameterslabel'>
+									<X>5</X>
+									<Y>125</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Launch without hooking parameters</Text>
+								</Text>												
+								<textentry name='preloadparameters'>
+									<X>290</X>
+									<Y>125</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										if ${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Preload Parameters](exists)}
+											This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Preload Parameters].Escape}"]
+										else
+											This:SetText[""]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Preload Parameters,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+								<Text name='preloadpathlabel'>
+									<X>5</X>
+									<Y>145</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Launch without hooking path</Text>
+								</Text>										
+								<textentry name='preloadpath'>
+									<X>290</X>
+									<Y>145</Y>
+									<Height>16</Height>
+									<Width>r300</Width>
+									<OnRender>
+										if ${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Preload Path](exists)}
+										This:SetText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Preload Path].Escape}"]
+										else
+										This:SetText[""]
+									</OnRender>
+									<OnChange>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Preload Path,"${This.Text.Escape}"]
+									</OnChange>
+								</textentry>
+													
+
+								<Text name='adapterlabel'>
+									<X>5</X>
+									<Y>165</Y>
+									<Height>16</Height>
+									<Width>285</Width>
+									<Text>Monitor selection</Text>
+								</Text>
+                <combobox name='monitor' Template='configuration.combobox'>
+                  <OnLoad>
+                    This:ClearItems
+                    declare Count int 0
+                    This:AddItem["Application Controlled"]
+                    while ${Count:Inc}&lt;=${Display.Monitors}
+                    {
+                      This:AddItem["${Display.Monitor[${Count}].Name.Escape}"]
+                    }
+                    This.ItemByText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Force Monitor].Escape}"]:Select
+                  </OnLoad>
+
+                  <X>290</X>
+                  <Y>165</Y>
+                  <Height>16</Height>
+                  <FullHeight>60</FullHeight>
+                  <Width>240</Width>
+                  <Items>
+                    <Item Value="0">Application Controlled</Item>
+                    <Item Value="1">\\.\DISPLAY1</Item>
+                  </Items>
+                  <OnRender>                    
+                    if !${This.SelectedItem(exists)} || ${This.SelectedItem.Text.NotEqual["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Force Monitor].Escape}"]}
+                    {
+                      if !${This.ItemByText["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetString[Force Monitor].Escape}"]:Select(exists)}
+                      {
+                        This.ItemByText["Application Controlled"]:Select
+                      }
+                    }
+                  </OnRender>
+                  <OnSelect>
+                    SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Force Monitor,"${This.SelectedItem.Text.Escape}"]
+                    SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:UnSet[Force Adapter]
+                  </OnSelect>
+                </combobox>
+                <!--
+                <combobox name='adapter' Template='configuration.combobox'>
+									<X>290</X>
+									<Y>165</Y>
+									<Height>16</Height>
+									<FullHeight>60</FullHeight>
+									<Width>240</Width>
+									<Items>
+										<Item Value="0">Application Controlled</Item>
+										<Item Value="1">Primary (1)</Item>
+										<Item Value="2">Secondary (2)</Item>
+										<Item Value="3">3</Item>
+										<Item Value="4">4</Item>
+                    <Item Value="5">5</Item>
+                    <Item Value="6">6</Item>
+                    <Item Value="7">7</Item>
+                    <Item Value="8">8</Item>
+                    <Item Value="9">9</Item>
+                    <Item Value="10">10</Item>
+                  </Items>
+									<OnRender>
+										if !${This.SelectedItem(exists)} || ${This.SelectedItem.Value}!=${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetInt[Force Adapter]}
+											This.ItemByValue[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetInt[Force Adapter]}]:Select
+									</OnRender>
+									<OnSelect>
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Force Adapter,${This.SelectedItem.Value}]
+									</OnSelect>
+								</combobox>					
+								-->
+								<commandcheckbox name='forcewindow'>
+									<X>5</X>
+									<Y>185</Y>
+									<Height>16</Height>
+									<Width>100</Width>
+									<Text>Force Windowed (not recommended)</Text>
+									<Command>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Force Window,1]</Command>
+									<CommandChecked>SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Force Window,0]</CommandChecked>
+									<Data>${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetInt[Force Window]}</Data>
+								</commandcheckbox>
+
+                <Text name='loaderlabel'>
+                  <X>5</X>
+                  <Y>205</Y>
+                  <Height>16</Height>
+                  <Width>285</Width>
+                  <Text>Inner Space Loader aggressiveness</Text>
+                </Text>
+                <combobox name='loader' template='configuration.combobox'>
+                    <X>290</X>
+                  <Y>205</Y>
+                  <Height>16</Height>
+                  <FullHeight>120</FullHeight>
+                  <Width>240</Width>
+                  <Items>
+                    <Item Value="-1">Default</Item>
+                    <!--<Item Value="0">None</Item>-->
+                    <Item Value="1">Minimum</Item>
+                    <Item Value="3">Moderate</Item>
+                    <Item Value="5">Standard</Item>
+                    <Item Value="10">Maximum</Item>
+                  </Items>
+                  <OnRender>
+                    if !${This.SelectedItem(exists)} || ${This.SelectedItem.Value}!=${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetInt[Loader,-1]}
+                      This.ItemByValue[${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}].GetInt[Loader,-1]}]:Select
+                  </OnRender>
+                  <OnSelect>
+                    SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:Set[Loader,"${This.SelectedItem.Value.Escape}"]
+                  </OnSelect>
+                </combobox>
+								<button name='done' ColorMask='FF990000'>
+									<X>40%</X>
+									<Y>260</Y>
+									<Width>20%</Width>
+									<Height>16</Height>
+									<Text>Close Profile</Text>
+									<Font Template='button.Font'>
+										<Color>FFFFFFFF</Color>
+									</Font>
+									<OnLeftClick>
+										declare FQN string ${UIElement[configuration].FindUsableChild[Game,frame].FullName}
+										UIElement[${FQN}]:Show
+										
+										UIElement[profiles@${FQN}]:ClearItems
+										declare Count int 0
+										SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${ConfiguringProfile}]:SetName["${This.Parent.FindChild[name].Text.Escape}"]
+																		
+										while ${Count:Inc}&lt;=${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Sets}
+										{
+											UIElement[profiles@${FQN}]:AddItem["${SettingXML[GameConfiguration.XML].Set[${ConfiguringGame}].Set[Profiles].Set[${Count}]}"]
+										}
+										
+										
+										if ${ConfiguringProfile(exists)}
+										{
+											ConfiguringProfile:Set[""]
+										}
+										else
+										{
+											DeclareVariable ConfiguringProfile string global
+										}
+
+
+
+										ConfiguringProfile:Set[""]
+										This.Parent:Hide
+									</OnLeftClick>
+								</button>
+													
+							</Children>
+						</frame>			
+					
+					</tab>
+				</tabs>
+			</tabcontrol>
+		
+			<sequenceedit name='sequence'>
+				<X>5</X>
+				<Y>5</Y>
+				<Width>r10</Width>
+				<Height>r40</Height>
+				<Visible>0</Visible>
+				<BackgroundColor>FF003366</BackgroundColor>
+				<Children>
+					<text name='SequenceName'>
+						<X>5</X>
+						<Y>5</Y>
+						<Width>r10</Width>
+						<height>16</height>
+					</text>
+					<ListBox name='sequence'>
+						<X>5</X>
+						<Y>25</Y>
+						<Width>200</Width>
+						<Height>r30</Height>
+						<Sort>User</Sort>
+					</ListBox>
+					<text name='namelabel'>
+						<X>210</X>
+						<Y>25</Y>
+						<Width>r220</Width>
+						<Height>12</Height>
+						<Text>Name to describe this sequence item</Text>
+					</text>
+					<textentry name='name'>
+						<X>210</X>
+						<Y>40</Y>
+						<Width>r220</Width>
+						<Height>16</Height>
+					</textentry>
+					<text name='valuelabel'>
+						<X>210</X>
+						<Y>65</Y>
+						<Width>r220</Width>
+						<Height>12</Height>
+						<Text>Command to execute at this step of the sequence</Text>
+					</text>
+					<textentry name='value'>
+						<X>210</X>
+						<Y>80</Y>
+						<Width>r220</Width>
+						<Height>16</Height>
+					</textentry>
+					<button name='done' ColorMask='FF990000'>
+						<X>210</X>
+						<Y>180</Y>
+						<Width>100</Width>
+						<Height>16</Height>
+						<Text>Finished</Text>
+						<Font Template='button.Font'>
+							<Color>FFFFFFFF</Color>
+						</Font>
+						<OnLeftClick>
+							UIElement[sequence@configuration]:Hide
+						</OnLeftClick>
+					</button>
+					<button name='insert' ColorMask='FF000099'>
+						<X>210</X>
+						<Y>120</Y>
+						<Width>100</Width>
+						<Height>16</Height>
+						<Text>Insert</Text>
+						<Font Template='button.Font'>
+							<Color>FFFFFFFF</Color>
+						</Font>
+						<OnLeftClick>
+							UIElement[sequence@configuration]:New
+						</OnLeftClick>
+					</button>
+					<button name='remove' ColorMask='FF000099'>
+						<X>210</X>
+						<Y>140</Y>
+						<Width>100</Width>
+						<Height>16</Height>
+						<Text>Remove</Text>
+						<Font Template='button.Font'>
+							<Color>FFFFFFFF</Color>
+						</Font>
+						<OnLeftClick>
+							UIElement[sequence@configuration]:Remove
+						</OnLeftClick>
+					</button>
+				</Children>
+			</sequenceedit>
+			
+			
+			<button name='ok' ColorMask='FF009900'>
+				<X>r90</X>
+				<Y>r26</Y>
+				<Width>80</Width>
+				<Height>16</Height>
+				<Text>Apply</Text>
+				<Font Template='button.Font'>
+					<Color>FFFFFFFF</Color>
+				</Font>
+				<OnLeftClick>
+					SettingXML[InnerSpace.XML]:Save
+					SettingXML[GameConfiguration.XML]:Save
+				</OnLeftClick>
+			</button>
+			<button name='cancel' ColorMask='FF990000'>
+				<X>10</X>
+				<Y>r26</Y>
+				<Width>80</Width>
+				<Height>16</Height>
+				<Text>Reload</Text>
+				<Font Template='button.Font'>
+					<Color>FFFFFFFF</Color>
+				</Font>
+				<OnLeftClick>
+					SettingXML[InnerSpace.XML]:Reload
+					SettingXML[GameConfiguration.XML]:Reload
+				</OnLeftClick>
+			</button>
+		</Children>
+	</window>
+	<window name='patcher'>
+		<Visible>0</Visible>
+		<X>0</X>
+		<Y>0</Y>
+		<Width>700</Width>
+		<Height>400</Height>
+		<Title>Inner Space Patch Information</Title>
+    <BackgroundColor>FF336699</BackgroundColor>
+		<Children>
+			<patchframe name='info'>
+			<X>0</X>
+			<Y>0</Y>
+			<Width>100%</Width>
+			<Height>100%</Height>
+				<children>
+					<frame name='onehalf'>
+					<X>0</X>
+					<Y>50%</Y>
+					<Width>100%</Width>
+					<Height>50%</Height>
+					<children>
+					<Text name='availablefiles'>
+						<X>10</X>
+						<Y>5</Y>
+						<Width>100%</Width>
+						<Height>16</Height>
+						<Text>Files changed on server:</Text>
+            <Font Template='text.Font'>
+              <Name>bradley hand itc</Name>
+              <Size>24</Size>
+              <Bold />
+            </Font>            
+					</Text>
+          <button name='viewnotes' ColorMask='FF990000'>
+            <X>r160</X>
+            <Y>0</Y>
+            <Height>16</Height>
+            <Width>150</Width>
+            <Text>View full release notes</Text>
+            <Font Template='button.Font'>
+              <Color>FFFFFFFF</Color>
+            </Font>
+            <OnLeftClick>
+              OSExecute https://www.lavishsoft.com/release/innerspace
+            </OnLeftClick>
+          </button>            
+					<listbox name='Files'>
+						<X>10</X>
+						<Y>25</Y>
+						<Height>r100</Height>
+						<Width>r20</Width>
+            <BackgroundColor>FF000033</BackgroundColor>
+            <Font Template='listbox.Font'>
+              <Name>Tahoma</Name>
+              <Size>16</Size>
+            </Font>
+					</listbox>
+					<gauge name='PatchingGauge' ColorMask='ff33ffff'>
+						<X>10</X>
+						<Y>r64</Y>
+						<Height>12</Height>
+						<Width>r20</Width>
+						<Filler ColorMask='FF0066cc' Template='gaugefiller'>
+							<Height>100%</Height>
+							<Width>100%</Width>
+							<Texture Template='gaugefiller.Texture' />
+						</Filler>						
+					</gauge>
+					<text name='PatchingFile'>
+						<X>10</X>
+						<Y>r64</Y>
+						<height>12</height>
+						<Width>r20</Width>
+						<Alignment>Center</Alignment>
+					</text>
+            <!-- 
+            <button name='patchrefresh' ColorMask='FF990000'>
+						<X>r220</X>
+						<Y>r26</Y>
+						<Height>16</Height>
+						<Width>100</Width>
+						<Text>Refresh</Text>
+						<Font Template='button.Font'>
+							<Color>FFFFFFFF</Color>
+						</Font>
+						<OnLeftClick>
+							LicenseServer:CheckPatch
+						</OnLeftClick>
+					</button>					-->
+					<button name='patchnow' ColorMask='FF990000'>
+						<X>r150</X>
+						<Y>r46</Y>
+						<Height>16</Height>
+						<Width>140</Width>
+						<Text>Patch these files</Text>
+						<Font Template='button.Font'>
+							<Color>FFFFFFFF</Color>
+						</Font>
+						<OnLeftClick>
+							LicenseServer:ApplyPatch
+						</OnLeftClick>
+					</button>
+					<!-- <commandcheckbox name='patchalways'>
+						<X>10</X>
+						<Y>r26</Y>
+						<Height>16</Height>
+						<Width>100</Width>
+						<Text>Always patch at startup</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[General]:Set[Always Update,1]:Save</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[General]:Set[Always Update,0]:Save</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[General].GetInt[Always Update]}</Data>
+					</commandcheckbox>-->
+					<commandcheckbox name='unstable'>
+						<X>10</X>
+						<Y>r46</Y>
+						<Height>16</Height>
+						<Width>100</Width>
+						<Text>Download development (test) patches</Text>
+							<Command>SettingXML[InnerSpace.XML].Set[General]:Set[Download Unstable Patches,1]:Save</Command>
+							<CommandChecked>SettingXML[InnerSpace.XML].Set[General]:Set[Download Unstable Patches,0]:Save</CommandChecked>
+							<Data>${SettingXML[InnerSpace.XML].Set[General].GetInt[Download Unstable Patches]}</Data>
+					</commandcheckbox>
+					</children>
+					</frame>
+					<frame name='twohalf'>
+					<X>0</X>
+					<Y>0</Y>
+					<Width>100%</Width>
+					<Height>50%</Height>
+					<children>
+					<text name='noteslabel'>
+						<X>5</X>
+						<Y>5</Y>
+						<Height>20</Height>
+						<Width>r5</Width>
+						<Text>Latest Patch Notes</Text>
+            <Font>
+              <Name>bradley hand itc</Name>
+              <Size>24</Size>
+              <Bold />
+            </Font>
+					</text>
+					<textedit name='patchnotes'>
+						<X>5</X>
+						<Y>25</Y>
+						<Height>r30</Height>
+						<Width>r10</Width>
+					</textedit>
+					</children>
+					</frame>
+				</children>
+			</patchframe>
+			
+		</Children>
+	</window>
+	<tooltip name='Auto Tooltip'></tooltip>
+</ISUI>

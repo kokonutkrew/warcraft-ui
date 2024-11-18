@@ -1,7 +1,8 @@
 
 DecursiveDB = {
-["global"] = {
-["LastVersionAnnounce"] = 1731256203,
+["profileKeys"] = {
+["Goldsquid - Area 52"] = "Default",
+["Xxb - Moon Guard"] = "Default",
 },
 ["class"] = {
 ["MONK"] = {
@@ -16,9 +17,21 @@ nil,
 [8] = 3,
 },
 },
+["DRUID"] = {
+["CureOrder-3"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
 },
-["profileKeys"] = {
-["Goldsquid - Area 52"] = "Default",
+},
+},
+["global"] = {
+["LastVersionAnnounce"] = 1731110572,
 },
 ["profiles"] = {
 ["Default"] = {

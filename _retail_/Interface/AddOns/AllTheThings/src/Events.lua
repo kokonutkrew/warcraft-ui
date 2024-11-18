@@ -73,6 +73,13 @@ app.AddEventHandler("OnReady", function()
 		pcall(Register, app, event, func);
 	end
 	OnReadyEventRegistrations = nil
+	-- in case future events are registered, they need to directly be registered
+	app.AddEventRegistration = function(event, func)
+		if not event or not func then
+			app.print("AddEventRegistration invalid call",event,func)
+		end
+		app:RegisterFuncEvent(event, func)
+	end
 end)
 
 -- Represents Events whose individual handlers should be processed over multiple frames to reduce potential stutter

@@ -1,10 +1,60 @@
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+VER 3 010000000000000A "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-<<<<<<< Updated upstream
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Her[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bar
-=======
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Her[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ble
->>>>>>> Stashed changes
+VER 3 010000000000000C "Cataclysm" "134400"
+#showtooltip
+/use [@cursor] cataclysm
+END
+VER 3 0100000000000007 "Cooking" "237560"
+Kiss the Chef! |cffffffff|Hitem:197792::::::::70:266:::::::::|h[Fated Fortune Cookie]|h|r and more! |cffffd000|Htrade:Player-162-0B3AFCB9:2550:185|h[Cooking]|h|r. Get your mail orders in!
+END
+VER 3 0100000000000004 "covAbility" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Impending Catastrophe
+/cast Decimating Bolt
+/cast Soul Rot
+/cast Scouring Tithe
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Impending Catastrophe" or G"Decimating Bolt" or G"Soul Rot"or G"Scouring Tithe")
+END
+VER 3 010000000000000B "Curse of Exaust" "134400"
+END
+VER 3 010000000000000E "Curse of Exhaust" "134400"
+#showtooltip
+/use [@cursor] curse of exhaustion
+END
+VER 3 010000000000000F "Dummy" "134400"
+/use the golden banana
+/use totem of harmony
+/use turnip punching bag
+END
+VER 3 0100000000000006 "s.Treaties" "538443"
+Treat yourself! |cff0070dd|Hitem:194698::::::::62:266::::1:40:652:::::|h[Draconic Treatise on Tailoring]|h|r and more |cffffd000|Htrade:Player-162-0B3AFCB9:45357:773|h[Inscription]|h|r |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r
+END
+VER 3 0100000000000008 "Staff" "3192687"
+Craft-a-Staff! All options unlocked. |cffffd000|Htrade:Player-162-0B3AFCB9:45357:773|h[Inscription]|h|r |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r
+END
+VER 3 0100000000000009 "Summon" "134400"
+/y CLICK
+/e CLICK
+/y BOOM
+/use ritual of summoning
+END
+VER 3 010000000000000D "Summon Infernal" "134400"
+#showtooltip
+/use [@cursor] summon infernal
+END
+VER 3 0100000000000005 "Survey" "INV_MISC_QUESTIONMARK"
+/cancel
+END
+VER 3 0100000000000003 "Talent 3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nomounted, talent:3/2] burning rush; [nomounted, talent:3/3] dark pact
+END
+VER 3 0100000000000010 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000011 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Her[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

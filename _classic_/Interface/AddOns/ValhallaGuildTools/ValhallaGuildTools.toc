@@ -1,12 +1,13 @@
-## Interface: 11305
+## Interface: 11304
+## X-Min-Interface: 11304
 ## Title: ValhallaGuildTools
 ## Notes: Valhalla Guild Tools
-## SavedVariables: VGT_OPTIONS, VGT_PRE_DECAY, VGT_POST_DECAY, VGT_LOTTERY_DB
+## SavedVariables: VGT_OPTIONS
 ## SavedVariablesPerCharacter: VGT_DUNGEON_DB, VGT_DB_TIMESTAMP
 ## LoadOnDemand: 0
 ## DefaultState: enabled
 ## Author: Bonkeybee
-## Version: 11305.74
+## Version: 11304.67
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
@@ -27,18 +28,13 @@ Libs\AceSerializer-3.0\AceSerializer-3.0.xml
 Libs\HereBeDragons\HereBeDragons-2.0.lua
 Libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
 
-EventHandler.lua
-
 dungeonsframe.xml
 VGT-Utility.lua
 VGT-Config.lua
 VGT-Core.lua
 VGT-Logging.lua
 VGT-EP.lua
-VGT-Lottery.lua
 VGT-Map.lua
-VGT-Fun.lua
 VGT-DungeonData.lua
-VGT-UserFinder.lua
-VGT-VersionChecker.lua
 VGT-SlashCommand.lua
+VGT-Reminder.lua

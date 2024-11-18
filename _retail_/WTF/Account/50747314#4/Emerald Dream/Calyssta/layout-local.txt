@@ -1,0 +1,8 @@
+Version: 1
+Frame: OneButton_RemixPandaria.UseItemsButton
+FrameLevel: 101
+Anchor: BOTTOMRIGHT
+X: -383
+Y: 10
+W: 45
+H: 45

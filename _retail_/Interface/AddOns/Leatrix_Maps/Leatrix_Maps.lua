@@ -1,10 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-<<<<<<< Updated upstream
-	-- 	Leatrix Maps 9.0.20 (17th March 2021)
-=======
-	-- 	Leatrix Maps 11.0.16 (6th November 2024)
->>>>>>> Stashed changes
+	-- 	Leatrix Maps 11.0.17 (13th November 2024)
 	----------------------------------------------------------------------
 
 	-- 10:Func, 20:Comm, 30:Evnt, 40:Panl
@@ -16,11 +12,7 @@
 	local LeaMapsLC, LeaMapsCB, LeaConfigList = {}, {}, {}
 
 	-- Version
-<<<<<<< Updated upstream
-	LeaMapsLC["AddonVer"] = "9.0.20"
-=======
-	LeaMapsLC["AddonVer"] = "11.0.16"
->>>>>>> Stashed changes
+	LeaMapsLC["AddonVer"] = "11.0.17"
 
 	-- Get locale table
 	local void, Leatrix_Maps = ...
@@ -43,7 +35,6 @@
 
 	-- Check for addons
 	if C_AddOns.IsAddOnLoaded("ElvUI") then LeaMapsLC.ElvUI = unpack(ElvUI) end
-	if C_AddOns.IsAddOnLoaded("WorldQuestTracker") then LeaMapsLC.WorldQuestTracker = true end
 
 	-- Set bindings translations
 	_G.BINDING_NAME_LEATRIX_MAPS_GLOBAL_TOGGLE = L["Toggle panel"]
@@ -771,11 +762,11 @@
 			end)
 
 			-- Fix for World Quest Tracker to set map window centralised to disabled
-			if LeaMapsLC.WorldQuestTracker then
+			EventUtil.ContinueOnAddOnLoaded("WorldQuestTracker", function()
 				if WQTrackerDB and WQTrackerDB.profiles and WQTrackerDB.profiles.Default and WQTrackerDB.profiles.Default.map_frame_anchor and WQTrackerDB.profiles.Default.map_frame_anchor == "center" then
 					WQTrackerDB.profiles.Default.map_frame_anchor = "left"
 				end
-			end
+			end)
 
 		end
 

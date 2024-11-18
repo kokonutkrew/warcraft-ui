@@ -11,8 +11,14 @@ TomCats_Account = {
 ["iconScale"] = 0.8,
 },
 ["hallowsend"] = {
+["autoEnabled"] = true,
+["preferences"] = {
 },
-["lastExpirationWarning"] = 1731778896,
+["iconsEnabled"] = true,
+["iconScale"] = 0.8,
+["arrowEnabled"] = true,
+},
+["lastExpirationWarning"] = 1731811353,
 ["discoveriesResetCount"] = 0,
 ["noblegarden"] = {
 ["enabled"] = true,
@@ -22,7 +28,7 @@ TomCats_Account = {
 ["loveisintheair"] = {
 },
 ["discoveriesVersion"] = "0",
-["lastVersionSeen"] = "2.5.52",
+["lastVersionSeen"] = "2.5.53",
 ["preferences"] = {
 ["TomCats-HallowsEndMinimapButton"] = {
 ["hidden"] = false,
@@ -59,8 +65,8 @@ TomCats_Account = {
 "TOPLEFT",
 "UIParent",
 "TOPLEFT",
-1634.000854492188,
--800.0000305175781,
+1287.000366210938,
+-839.0001068115234,
 },
 ["twitchDrops"] = 3,
 ["superbloom"] = 3,

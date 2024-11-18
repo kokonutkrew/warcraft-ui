@@ -1,11 +1,7 @@
 --- **AceLocale-3.0** manages localization in addons, allowing for multiple locale to be registered with fallback to the base locale for untranslated strings.
 -- @class file
 -- @name AceLocale-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/DataStore/libs/AceLocale-3.0/AceLocale-3.0.lua
--- @release $Id: AceLocale-3.0.lua 1035 2011-07-09 03:20:13Z kaelten $
-========
 -- @release $Id: AceLocale-3.0.lua 1284 2022-09-25 09:15:30Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ItemVersion/Libs/AceLocale-3.0/AceLocale-3.0.lua
 local MAJOR,MINOR = "AceLocale-3.0", 6
 
 local AceLocale, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
@@ -93,11 +89,7 @@ local writedefaultproxy = setmetatable({}, {
 function AceLocale:NewLocale(application, locale, isDefault, silent)
 
 	-- GAME_LOCALE allows translators to test translations of addons without having that wow client installed
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/DataStore/libs/AceLocale-3.0/AceLocale-3.0.lua
-	local gameLocale = GAME_LOCALE or gameLocale
-========
 	local activeGameLocale = GAME_LOCALE or gameLocale
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ItemVersion/Libs/AceLocale-3.0/AceLocale-3.0.lua
 
 	local app = AceLocale.apps[application]
 
@@ -115,11 +107,7 @@ function AceLocale:NewLocale(application, locale, isDefault, silent)
 		AceLocale.appnames[app] = application
 	end
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/DataStore/libs/AceLocale-3.0/AceLocale-3.0.lua
-	if locale ~= gameLocale and not isDefault then
-========
 	if locale ~= activeGameLocale and not isDefault then
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ItemVersion/Libs/AceLocale-3.0/AceLocale-3.0.lua
 		return -- nop, we don't need these translations
 	end
 

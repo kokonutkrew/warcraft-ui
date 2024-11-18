@@ -1,0 +1,31 @@
+
+NarciBarberShopDB = {
+["Hotkeys"] = {
+["RotateRight"] = "D",
+["RotateLeft"] = "A",
+["ZoomOut"] = "S",
+["ZoomIn"] = "W",
+},
+["SharedSavedLooks"] = {
+},
+["PlayerData"] = {
+["0BE2FF7D"] = {
+["classID"] = 6,
+["playerName"] = "Plumn",
+["realmID"] = "162",
+["SavedLooks"] = {
+["chrModel123"] = {
+},
+["chrModel124"] = {
+},
+[4] = {
+["male"] = {
+},
+["female"] = {
+},
+},
+},
+["realmName"] = "Emerald Dream",
+},
+},
+}

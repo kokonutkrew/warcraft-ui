@@ -1,7 +1,7 @@
 --[[-----------------------------------------------------------------------------
 Frame Container
 -------------------------------------------------------------------------------]]
-local Type, Version = "Frame", 27
+local Type, Version = "Frame", 26
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -179,11 +179,7 @@ local PaneBackdrop  = {
 }
 
 local function Constructor()
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/Plater/libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
-	local frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
-========
 	local frame = CreateFrame("Frame", nil, UIParent)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0-SharedMediaWidgets/Libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
 	frame:Hide()
 
 	frame:EnableMouse(true)
@@ -205,11 +201,7 @@ local function Constructor()
 	closebutton:SetWidth(100)
 	closebutton:SetText(CLOSE)
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/Plater/libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
-	local statusbg = CreateFrame("Button", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-========
 	local statusbg = CreateFrame("Button", nil, frame)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0-SharedMediaWidgets/Libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
 	statusbg:SetPoint("BOTTOMLEFT", 15, 15)
 	statusbg:SetPoint("BOTTOMRIGHT", -132, 15)
 	statusbg:SetHeight(24)

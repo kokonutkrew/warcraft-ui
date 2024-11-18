@@ -1,10 +1,14 @@
 
 RecklessAbandonDB = {
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Default",
-["Bigbrane - Emerald Dream"] = "Default",
-["Dethflare - Emerald Dream"] = "Default",
+["Dethflite - Area 52"] = "Default",
+["Worldboss - Area 52"] = "Default",
+["Chieef - Area 52"] = "Default",
 ["Winbin - Emerald Dream"] = "Default",
+["Saikk - Emerald Dream"] = "Default",
+["Killonsites - Area 52"] = "Default",
+["Bigbrane - Emerald Dream"] = "Default",
+["Saibull - Moon Guard"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -19,21 +23,30 @@ RecklessAbandonDB = {
 }
 RecklessAbandonPrivateDB = {
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Saig - Emerald Dream",
-["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
-["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
+["Chieef - Area 52"] = "Chieef - Area 52",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Saibull - Moon Guard"] = "Saibull - Moon Guard",
 },
 ["profiles"] = {
-["Saig - Emerald Dream"] = {
+["Dethflite - Area 52"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Worldboss - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[29684] = {
-["title"] = "Severed Communications",
-["source"] = 1,
-},
-[54402] = {
-["title"] = "Shifting Gears",
+[72292] = {
+["title"] = "Story of a Spectacular Victory",
 ["source"] = 1,
 },
 },
@@ -46,48 +59,15 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Bigbrane - Emerald Dream"] = {
+["Chieef - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[82672] = {
-["title"] = "Another Timely Invitation",
+[29660] = {
+["title"] = "Saving the Botanica",
 ["source"] = 1,
 },
-},
-},
-["automationOptions"] = {
-["autoAbandonQuests"] = {
-["questType"] = {
-["ids"] = "",
-},
-},
-},
-},
-["Dethflare - Emerald Dream"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[29575] = {
-["title"] = "Undercutting the Competition",
-["source"] = 1,
-},
-[85947] = {
-["title"] = "An Original Journey Through Time",
-["source"] = 1,
-},
-[27104] = {
-["title"] = "Alzzin the Wildshaper",
-["source"] = 1,
-},
-[29573] = {
-["title"] = "Safety is Job One",
-["source"] = 1,
-},
-[29574] = {
-["title"] = "Intriguing Specimens",
-["source"] = 1,
-},
-[27352] = {
-["title"] = "Liquid Gold",
+[72292] = {
+["title"] = "Story of a Spectacular Victory",
 ["source"] = 1,
 },
 },
@@ -101,6 +81,58 @@ RecklessAbandonPrivateDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[77813] = {
+["title"] = "Lightning Strikes",
+["source"] = 1,
+},
+},
+},
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Saikk - Emerald Dream"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Killonsites - Area 52"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Saibull - Moon Guard"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[78893] = {
+["title"] = "A Scrap of Bronze",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {

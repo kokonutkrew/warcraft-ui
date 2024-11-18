@@ -1,0 +1,74 @@
+VER 3 0100000000000001 ".Cyclone" "INV_Misc_QuestionMark"
+#showtooltip
+/focus [harm,noexists] [harm,mod:shift]
+/cast [@focus,exists,harm] entangling roots
+END
+VER 3 0100000000000002 ".FormBear" "INV_Misc_QuestionMark"
+#showtooltip
+/use [noform:1]bear form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
+END
+VER 3 0100000000000003 ".FormCat" "INV_Misc_QuestionMark"
+#showtooltip
+/use [stealth,spec:2]rake;[stealth,talent:3/2]rake;[stealth]shred;[nostealth,nocombat,stance:2]prowl;[nostance:2]cat form; [nostealth,combat]shadowmeld
+END
+VER 3 0100000000000004 ".FormMoonkin" "INV_Misc_QuestionMark"
+#showtooltip
+/use [form:4]barkskin; [nospec:1,talent:3/1][spec:1] moonkin form; [noform]barkskin; aquatic form
+/cancelform [noform:4][spec:4,form:4]
+END
+VER 3 0100000000000005 ".FormTravel" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [mod:shift]fishing; [indoors]cat form; [form:3] cat form; travel form
+END
+VER 3 0100000000000006 ".Key3 Dots" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [spec:1]sunfire, moonfire; [spec:2] rake, moonfire; [spec:3,talent:3/2] moonfire; [spec:4,talent:3/2]
+END
+VER 3 0100000000000007 ".KeyAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [combat,help,dead,@mouseover]rebirth; [spec:4,help,dead]revitalize; [@mouseover,help,dead]revive; [harm,combat]soothe; [harm,nocombat]hibernate; [nospec:4]remove corruption; nature's cure
+END
+VER 3 0100000000000008 ".KeyClickLeft" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/2 [spec:1/2/3,talent:3/3][spec:4]rejuvenation, regrowth, regrowth, regrowth; regrowth
+/target mouseover
+END
+VER 3 0100000000000009 ".KeyE Talent 3" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nospec:1,talent:3/1] Typhoon; [spec:1,talent:3/1][spec:3/4,talent:3/2] maim; [spec:1/2,talent:3/2][spec:4,talent:3/3] incapacitating roar; [nospec:4,talent:3/3] Ursol's Vortex
+END
+VER 3 010000000000000A ".KeyQ Spec Spell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:1] solar beam; [spec:2] skull bash; [spec:3] skull bash; [spec:4] ursol's vortex
+END
+VER 3 010000000000000B ".KeyScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom [harm]wild charge; dash, stampeding roar, bull rush
+END
+VER 3 010000000000000C ".KittyWeave" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [form:3]cat form; [form:2,nocombat]prowl,rake; [form:1,spec:3]moonfire, thrash, cat form; [form:2,spec:3]rake,shred,shred,rip,bear form;[noform,spec:4]sunfire,cat form; [form:2,spec:4]rake, shred,shred,rip,moonfire
+END
+VER 3 010000000000000D "KillSwitch" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom tiger's fury, berserk, 13
+END
+VER 3 010000000000000E "Talent 2" "INV_Misc_QuestionMark"
+#showtooltip
+/use [talent:2/1] Tiger Dash; [talent:2/2] Renewal; [talent:2/3] Wild Charge
+END
+VER 3 010000000000000F "Talent 4" "INV_Misc_QuestionMark"
+#showtooltip
+/use [talent:4/1] Mighty Bash; [talent:4/2] Mass Entanglement; [talent:4/3] Heart of the Wild
+END
+VER 3 0100000000000010 "Talent 6" "INV_Misc_QuestionMark"
+#showtooltip
+/use [talent:6/1] scent of blood; [talent:6/2] brutal slash; [talent:6/3] primal wrath
+END
+VER 3 0100000000000011 "Trinkets" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=combat 13, 14
+END
+VER 3 0100000000000012 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

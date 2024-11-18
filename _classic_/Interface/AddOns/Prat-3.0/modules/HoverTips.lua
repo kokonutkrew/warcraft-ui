@@ -36,12 +36,12 @@ Prat:AddModuleToLoad(function()
   -- define localized strings
   local PL = module.PL
 
-  --[===[@debug@
+  --[==[@debug@
   PL:AddLocale(PRAT_MODULE, "enUS", {
     ["module_name"] = "Hover Tips",
     ["module_desc"] = "Shows tooltip when hovering over link in chat",
   })
-  --@end-debug@]===]
+  --@end-debug@]==]
 
   -- These Localizations are auto-generated. To help with localization
   -- please go to http://www.wowace.com/projects/prat-3-0/localization/
@@ -104,7 +104,7 @@ PL:AddLocale(PRAT_MODULE, "frFR", L)
 
 L = {
 	["HoverTips"] = {
-		["module_desc"] = "Zeigt einen Tooltip an, wenn der Mauszeiger über den Link im Chat schwebt",
+		["module_desc"] = "Zeigt Tooltip an, wenn der Mauszeiger über einen Link im Chat schwebt",
 		["module_name"] = "Schwebetipps",
 	}
 }
@@ -116,7 +116,7 @@ PL:AddLocale(PRAT_MODULE, "deDE", L)
 L = {
 	["HoverTips"] = {
 		["module_desc"] = "채팅창에 마우스 오버시 링크 툴팁 보이기",
-		["module_name"] = "툴팁",
+		["module_name"] = "툴팁 [HoverTips]",
 	}
 }
 
@@ -186,9 +186,6 @@ end
     }
   })
 
-  -- basic code from Chatter
-
-  local strmatch = string.match
   local linkTypes = {
     item = true,
     enchant = true,
@@ -217,19 +214,19 @@ end
 
   local showingTooltip = false
   function module:OnHyperlinkEnter(f, link, text)
-    local t = strmatch(link, "^(.-):")
-    if linkTypes[t] then
-      if t == "battlepet" then
-        showingTooltip = BattlePetTooltip
-        GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
-        BattlePetToolTip_ShowLink(text)
-      else
-        showingTooltip = GameTooltip
-        ShowUIPanel(GameTooltip)
-        GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
-        GameTooltip:SetHyperlink(link)
-        GameTooltip:Show()
-      end
+    local linkType = link:match("^([^:]+):")
+    -- Prevent NPC tooltips leaving health bars behind or remaining behind
+    -- battle pet tooltips
+    GameTooltip:Hide()
+    if linkType == "battlepet" then
+      showingTooltip = BattlePetTooltip
+      GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
+      BattlePetToolTip_ShowLink(text)
+    elseif linkTypes[linkType] then
+      showingTooltip = GameTooltip
+      GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
+      GameTooltip:SetHyperlink(link)
+      GameTooltip:Show()
     end
   end
 

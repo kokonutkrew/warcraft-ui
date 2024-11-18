@@ -1,7 +1,19 @@
 
 Rematch_TSMPetValuesDB = {
 ["profileKeys"] = {
-["Demenchonone - Emerald Dream"] = "Default",
+["Floide - Moon Guard"] = "Default",
+["Powndcake - Moon Guard"] = "Default",
+["Flameing - Emerald Dream"] = "Default",
+["Powndcake - Emerald Dream"] = "Default",
+["Demolishes - Emerald Dream"] = "Default",
+["Deathscar - Emerald Dream"] = "Default",
+["Timecaster - Emerald Dream"] = "Default",
+["Voidspeakerr - Emerald Dream"] = "Default",
+["Furyfistss - Emerald Dream"] = "Default",
+["Migget - Emerald Dream"] = "Default",
+["Smashest - Moon Guard"] = "Default",
+["Cyclonekk - Emerald Dream"] = "Default",
+["Jadewarrior - Emerald Dream"] = "Default",
 },
 ["global"] = {
 ["Options"] = true,
@@ -9,9 +21,9 @@ Rematch_TSMPetValuesDB = {
 ["Rematch5_PetList1"] = true,
 ["Rematch5_Sorting"] = true,
 ["Rematch4_PetList1"] = false,
+["PetItem_TSM"] = true,
 ["LDB"] = true,
 ["Rematch4_PetList2"] = false,
 ["Rematch4_Sorting"] = false,
-["PetItem_TSM"] = true,
 },
 }

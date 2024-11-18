@@ -42,24 +42,22 @@ AUCTIONATOR_CONFIG = {
 ["small_tabs"] = false,
 ["selling_buy_shortcut"] = "alt right click",
 ["selling_confirm_low_price"] = true,
-["crafting_info_show_profit"] = true,
-["cancel_undercut_shortcut"] = "SPACE",
 ["shopping_last_container_view"] = 1,
-["columns_selling_search_3"] = {
-},
+["selling_should_reselect_item"] = false,
+["cancel_undercut_shortcut"] = "SPACE",
 ["historical_prices"] = {
 },
-["save_last_duration_as_default"] = false,
+["autoscan_interval"] = 15,
 ["columns_shopping"] = {
 },
-["auction_mean_tooltips"] = false,
+["save_last_duration_as_default"] = false,
 ["crafting_info_show_cost"] = true,
-["columns_shopping_buy_commodity"] = {
-},
+["auction_mean_tooltips"] = false,
 ["autoscan_2"] = false,
-["columns_shopping_historical_prices"] = {
-},
+["show_selling_bid_price"] = false,
 ["columns_cancelling"] = {
+},
+["columns_shopping_historical_prices"] = {
 },
 ["default_quantities"] = {
 0,
@@ -71,31 +69,30 @@ nil,
 0,
 0,
 0,
-nil,
-nil,
-0,
-nil,
-nil,
-0,
-0,
-1,
 [0] = 0,
+[17] = 1,
+[15] = 0,
+[12] = 0,
 [19] = 0,
+[16] = 0,
 },
-["auto_list_search"] = true,
 ["auction_mean_days_limit"] = 21,
+["auto_list_search"] = true,
+["crafting_info_show_profit"] = true,
 ["auction_chat_log"] = true,
 ["mailbox_tooltips"] = true,
 ["undercut_static_value"] = 0,
 ["selling_bag_collapsed"] = false,
 ["default_list_2"] = "",
-["selling_auto_select_next"] = false,
+["columns_shopping_buy_commodity"] = {
+},
 ["auction_sales_preference"] = "percentage",
-["autoscan_interval"] = 15,
+["selling_auto_select_next"] = false,
 ["splash_screen_version"] = "anything",
 ["crafting_info_show"] = true,
 ["selling_split_panels"] = false,
-["show_selling_bid_price"] = false,
+["columns_selling_search_3"] = {
+},
 }
 AUCTIONATOR_SAVEDVARS = {
 }
@@ -103,13 +100,46 @@ AUCTIONATOR_SHOPPING_LISTS = {
 }
 AUCTIONATOR_PRICE_DATABASE = {
 ["__dbversion"] = 8,
-["Area52"] = {
+["MoonGuard"] = {
 },
+["Area52"] = "€",
 }
 AUCTIONATOR_POSTING_HISTORY = {
 ["__dbversion"] = 1,
 }
 AUCTIONATOR_VENDOR_PRICE_CACHE = {
+["227302"] = 8550,
+["3371"] = 20,
+["58274"] = 2200,
+["159"] = 1,
+["227317"] = 6650,
+["39354"] = 4,
+["227325"] = 7125,
+["227326"] = 7125,
+["227318"] = 6650,
+["227272"] = 8550,
+["92794"] = 10000,
+["64670"] = 800,
+["44638"] = 616,
+["227309"] = 6650,
+["38682"] = 1000,
+["52188"] = 15000,
+["227327"] = 7125,
+["74636"] = 5200,
+["81414"] = 5200,
+["227273"] = 8550,
+["81409"] = 5200,
+["4470"] = 38,
+["227301"] = 8550,
+["81401"] = 4800,
+["81407"] = 22400,
+["227310"] = 6650,
+["81400"] = 4800,
+["40703"] = 1030900,
+["81415"] = 25600,
+["60335"] = 120000,
+["44639"] = 773,
+["81406"] = 4800,
 ["__dbversion"] = 1,
 }
 AUCTIONATOR_RECENT_SEARCHES = {

@@ -28,11 +28,7 @@
 -- end
 -- @class file
 -- @name AceAddon-3.0.lua
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceAddon-3.0/AceAddon-3.0.lua
--- @release $Id: AceAddon-3.0.lua 1238 2020-08-28 16:18:42Z nevcairiel $
-========
 -- @release $Id: AceAddon-3.0.lua 1284 2022-09-25 09:15:30Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ZygorGuidesViewer/Libs/AceAddon-3.0/AceAddon-3.0.lua
 
 local MAJOR, MINOR = "AceAddon-3.0", 13
 local AceAddon, oldminor = LibStub:NewLibrary(MAJOR, MINOR)

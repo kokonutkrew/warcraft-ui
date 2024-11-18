@@ -125,7 +125,7 @@ function ZGV:Options_DefineOptionTables()
 	local function Setter_Travel(i,v)
 		Setter_Simple(i,v)
 
-		LibRover:UpdateConfig()
+		LibRover:UpdateConfig(self.db.profile)
 		if ZGV.Pointer.DestinationWaypoint and ZGV.Pointer.DestinationWaypoint.type=="manual" then
 			LibRover:UpdateNow()
 		else
@@ -990,16 +990,16 @@ function ZGV:Options_DefineOptionTables()
 			AddOption('travelmode_'..index,{
 				type = 'toggle',
 				set = function(i,v) 
-					if self.db.global.travelmode==index then return end -- we are faking radio, so can't uncheck oneself
-					--for j=1,5 do
-					--	self.db.global['travelmode_'..j] = false
-					--end
-					self.db.global.travelmode = index
+					if self.db.profile['travelmode']==index then return end -- we are faking radio, so can't uncheck oneself
+					for j=1,5 do
+						self.db.profile['travelmode_'..j] = false
+					end
+					self.db.profile.travelmode = index
 					Setter_Travel(i,v)
 				end,
-				get = function() return self.db.global.travelmode==index end,
+				get = function() return self.db.profile.travelmode==index end,
 				width="double",
-				_default = j==3,
+				_default = j==2,
 			})
 		end
 
@@ -1007,13 +1007,13 @@ function ZGV:Options_DefineOptionTables()
 			name = "",
 			font=ZGV.font_dialog,
 			inline=true,
-			hidden = function() return ZGV.db.global.travelmode~=4 end,
+			hidden = function() return ZGV.db.profile.travelmode~=4 end,
 		})
 			AddOption('sep00pathf',{ type="header", name=L["opt_travelmode_4"] })
 			AddOption('pathfinding_comfort',     { 
 				type = 'toggle', 
 				width = "double", 
-				hidden = function() return ZGV.db.global.travelmode~=4 end, 
+				hidden = function() return ZGV.db.profile.travelmode~=4 end, 
 				_default=false,
 				set = function(i,v)
 					local val = v and 1 or 0
@@ -1024,10 +1024,10 @@ function ZGV:Options_DefineOptionTables()
 				end,
 				indent=20,
 			})
-			AddOption('travelavoidportals',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.global.travelmode~=4 end, _default=false,  set=Setter_Travel, indent=20,})
-			AddOption('travelusehs',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.global.travelmode~=4 end, _default=true,  set=Setter_Travel, indent=20,})
-			AddOption('traveluseitems',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.global.travelmode~=4 end, _default=true,  set=Setter_Travel, indent=20,})
-			AddOption('travelusespells',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.global.travelmode~=4 end, _default=true,  set=Setter_Travel, indent=20,})
+			AddOption('travelavoidportals',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.profile.travelmode~=4 end, _default=false,  set=Setter_Travel, indent=20,})
+			AddOption('travelusehs',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.profile.travelmode~=4 end, _default=true,  set=Setter_Travel, indent=20,})
+			AddOption('traveluseitems',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.profile.travelmode~=4 end, _default=true,  set=Setter_Travel, indent=20,})
+			AddOption('travelusespells',     { type = 'toggle', width = "double", hidden = function() return ZGV.db.profile.travelmode~=4 end, _default=true,  set=Setter_Travel, indent=20,})
 		EndSubgroup()
 	
 		AddOption('travelprefertaxi',     { type = 'toggle', width = "double", _default=true, set=Setter_Travel, })
@@ -4749,7 +4749,7 @@ function ZGV:Options_RegisterDefaults()
 	if not _G[self.db.profile.debug_frame] then self.db.profile.debug_frame=nil end
 
 
-	self.db.global.travelmode = self.db.global.travelmode or 3
+	self.db.profile.travelmode = self.db.profile.travelmode or 2
 
 	-- move statweight from profile to factionrealm/realm
 	if not self.db.char.statweightsmoved then

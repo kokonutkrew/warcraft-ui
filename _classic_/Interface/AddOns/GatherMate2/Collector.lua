@@ -7,13 +7,15 @@ local Display = nil
 -- gatherevents if a flag for wether we are listening to events
 local prevSpell, curSpell, foundTarget, gatherEvents, ga
 
+local WoWClassic = (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC)
+
 --[[
 Convert for 2.4 spell IDs
 ]]
 local miningSpell = (GetSpellInfo(2575))
 local miningSpell2 = (GetSpellInfo(195122))
 local herbSpell = (GetSpellInfo(2366))
-local herbSkill = ((GetSpellInfo(170691)) or (string.gsub((GetSpellInfo(9134)),"%A","")))
+local herbSkill = (string.gsub((GetSpellInfo(9134)),"%A",""))
 local fishSpell = (GetSpellInfo(7620)) or (GetSpellInfo(131476))
 local gasSpell = (GetSpellInfo(30427))
 --local gasSpell = (GetSpellInfo(48929))  --other gasspell
@@ -24,7 +26,15 @@ local archSpell = (GetSpellInfo(73979)) -- Searching for Artifacts spell
 local sandStormSpell = (GetSpellInfo(93473)) -- Sandstorm spell cast by the camel
 local loggingSpell = (GetSpellInfo(167895))
 
-local spells =
+local spells = WoWClassic and {
+	[miningSpell] = "Mining",
+	[herbSpell] = "Herb Gathering",
+	[fishSpell] = "Fishing",
+	[openSpell] = "Treasure",
+	[openNoTextSpell] = "Treasure",
+	[pickSpell] = "Treasure",
+}
+or
 { -- spellname to "database name"
 	[miningSpell] = "Mining",
 	[miningSpell2] = "Mining",

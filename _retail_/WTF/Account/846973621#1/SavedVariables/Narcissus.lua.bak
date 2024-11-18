@@ -1,0 +1,149 @@
+
+NarcissusDB = {
+["DragonridingTourWorldMapPin"] = true,
+["SearchSuggestDirection"] = 1,
+["LetterboxRatio"] = 2,
+["NamePlateLanguage"] = "enUS",
+["ItemNameWidth"] = 180,
+["NameTranslationPosition"] = 1,
+["QuestCardTheme"] = 1,
+["LoopAnimation"] = false,
+["TradingPostModifyDefaultPose"] = false,
+["SearchRelativesHotkey"] = "TAB",
+["AutoFilterMail"] = false,
+["TooltipLanguages"] = {
+},
+["IsSortedByCategory"] = true,
+["AutoFilterAuction"] = false,
+["CameraTransition"] = true,
+["PaperDollWidget"] = true,
+["ShowModulePanelOnMouseOver"] = true,
+["CameraSafeMode"] = true,
+["WeatherEffect"] = true,
+["OutfitSortMethod"] = "name",
+["SearchRelatives"] = false,
+["DressingRoomIncludeItemID"] = false,
+["PaperDollWidget_Remix"] = true,
+["FadeButton"] = false,
+["ShowMinimapButton"] = true,
+["ItemTooltipStyle"] = 1,
+["MinimapButton"] = {
+["Position"] = 2.617993877991494,
+},
+["DetailedIlvlInfo"] = true,
+["MissingEnchantAlert"] = false,
+["VignetteStrength"] = 0.5,
+["TruncateText"] = false,
+["ShrinkArea"] = 0,
+["LetterboxEffect"] = false,
+["ShowItemID"] = false,
+["Favorites"] = {
+["FavoriteSpellVisualKitIDs"] = {
+},
+["FavoriteAnimationIDs"] = {
+},
+},
+["BaseLineOffset"] = 0,
+["TalentTreeBiggerUI"] = false,
+["DressingRoomShowIconSelect"] = false,
+["DressingRoom"] = true,
+["UseBustShot"] = true,
+["PaperDollWidget_ClassSet"] = true,
+["TranslateName"] = false,
+["TalentTreeUseClassBackground"] = false,
+["installTime"] = 1720727560,
+["EnableDoubleTap"] = false,
+["AutoPlayAnimation"] = false,
+["AFKScreen"] = false,
+["Version"] = 10000,
+["AKFScreenDelay"] = false,
+["ConduitTooltip"] = false,
+["SoloQueueLFRDetails"] = true,
+["HideTextsWithUI"] = false,
+["GlobalScale"] = 0.8,
+["TalentTreeForEquipmentManager"] = true,
+["SpeedyScreenshotAlert"] = true,
+["UseEntranceVisual"] = true,
+["PerksProgramDB"] = {
+["MonthNames"] = {
+},
+["VendorItems"] = {
+},
+["CurrentMonthData"] = {
+},
+},
+["UseEscapeButton"] = true,
+["TalentTreeAnchor"] = 1,
+["GemManager"] = true,
+["ModelPanelScale"] = 1,
+["TooltipTheme"] = "Bright",
+["TalentTreeForPaperDoll"] = false,
+["AutoFilterGem"] = false,
+["TalentTreeForInspection"] = true,
+["CameraOrbit"] = true,
+["AutoDisplayQuestItem"] = false,
+["OnlyShowOwnedUpgradeItem"] = true,
+["NamePlateNameOffset"] = 0,
+["Tutorials"] = {
+["ExitConfirmation"] = true,
+["Movement"] = true,
+["SpellVisualBrowser"] = true,
+["NPCBrowserEntance"] = true,
+["NPCBrowser"] = true,
+["WeaponBrowser"] = true,
+},
+["AnchorToMinimap"] = true,
+["IndependentMinimapButton"] = false,
+["SearchSuggestEnable"] = false,
+["FontHeightItemName"] = 10,
+["DressingRoomUseTargetModel"] = true,
+}
+NarciAchievementOptions = {
+["UseAsDefault"] = false,
+["ShowRedMark"] = false,
+["Scale"] = 1,
+["ReplaceToast"] = true,
+["Theme"] = 1,
+["IncompleteFirst"] = true,
+}
+NarciStatisticsDB = {
+["InstalledDate"] = 1720727577,
+["QuestItems"] = {
+},
+}
+NarciTurntableOptions = nil
+NarciCharacterProfiles = {
+["0E854529"] = {
+["race"] = 2,
+["name"] = "Beauuty",
+["birth"] = 1722623551,
+["serverID"] = "3676",
+["lastVisit"] = 1722623551,
+["outfits"] = {
+},
+["class"] = 1,
+},
+["07D62D3E"] = {
+["race"] = 9,
+["name"] = "Buycraft",
+["birth"] = 1720727577,
+["serverID"] = "966",
+["lastVisit"] = 1720733487,
+["outfits"] = {
+},
+["class"] = 4,
+},
+["0AB13D14"] = {
+["race"] = 22,
+["name"] = "Goldsquid",
+["birth"] = 1722483999,
+["serverID"] = "3675",
+["lastVisit"] = 1723486811,
+["outfits"] = {
+},
+["class"] = 11,
+},
+}
+NarciPhotoModeDB = {
+}
+NarciDevToolOutput = nil

@@ -1,0 +1,211 @@
+
+TRP3_AddonLocale = nil
+TRP3_Register = {
+["blockList"] = {
+},
+["character"] = {
+["Maliakk-EmeraldDream"] = {
+["extended"] = 1045,
+["profileID"] = "0817235421aIDL*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["classID"] = 6,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+["Naber-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "0816180931jegF*",
+["guild"] = "KK",
+["class"] = "MONK",
+["msp"] = false,
+["classID"] = 10,
+["gender"] = 2,
+["extendedVersion"] = "2.2.1",
+["race"] = "Worgen",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+["Flameing-EmeraldDream"] = {
+["extended"] = 1045,
+["profileID"] = "0818224718WMu1*",
+["msp"] = false,
+["extendedVersion"] = "2.2.1",
+["classID"] = 7,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+["Samoanslayer-Area52"] = {
+["extended"] = 1045,
+["profileID"] = "0816171753YRDE*",
+["class"] = "WARRIOR",
+["msp"] = false,
+["classID"] = 1,
+["gender"] = 2,
+["extendedVersion"] = "2.2.1",
+["race"] = "Orc",
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+},
+["companion"] = {
+},
+["profiles"] = {
+["0816171753YRDE*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1724042473,
+["link"] = {
+["Samoanslayer-Area52"] = 1,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["zone"] = "Isle of Thunder",
+["characteristics"] = {
+["CL"] = "Warrior",
+["RA"] = "Orc",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Samoanslayer",
+["IC"] = "achievement_character_orc_male",
+["v"] = 37,
+},
+},
+["0816180931jegF*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1724042446,
+["link"] = {
+["Naber-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Monk",
+["RA"] = "Worgen",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Naber",
+["IC"] = "achievement_worganhead",
+["v"] = 19,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["zone"] = "Isle of Thunder",
+},
+["0817235421aIDL*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1724042434,
+["link"] = {
+["Maliakk-EmeraldDream"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Death Knight",
+["RA"] = "Night Elf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Maliakk",
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 7,
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+},
+["0818224718WMu1*"] = {
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+["time"] = 1724042433,
+["link"] = {
+["Flameing-EmeraldDream"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Shaman",
+["RA"] = "Dark Iron Dwarf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Flameing",
+["IC"] = "ability_racial_fireblood",
+["v"] = 1,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+},
+},
+}

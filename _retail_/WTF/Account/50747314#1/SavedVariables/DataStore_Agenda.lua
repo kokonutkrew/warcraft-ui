@@ -1,25 +1,30 @@
 
-DataStore_AgendaDB = {
-	["profileKeys"] = {
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-	},
-	["global"] = {
-		["Characters"] = {
-			["Default.Emerald Dream.Kokonutkiing"] = {
-				["lastUpdate"] = 1615451020,
-			},
-			["Default.Emerald Dream.Buhbles"] = {
-				["lastUpdate"] = 1606767424,
-			},
-			["Default.Emerald Dream.Kokonutkween"] = {
-				["lastUpdate"] = 1608465279,
-			},
-			["Default.Emerald Dream.Gl"] = {
-				["lastUpdate"] = 1615450798,
-			},
-		},
-	},
+DataStore_Agenda_Characters = {
+{
+["lastUpdate"] = 1719852020,
+},
+{
+["lastUpdate"] = 1720231061,
+},
+{
+["lastUpdate"] = 1720241811,
+},
+{
+["lastUpdate"] = 1722217998,
+},
+}
+DataStore_Agenda_SavedInstances = {
+}
+DataStore_Agenda_BossKills = {
+}
+DataStore_Agenda_LFGDungeons = {
+}
+DataStore_Agenda_ItemCooldowns = {
+}
+DataStore_Agenda_Contacts = {
+}
+DataStore_Agenda_Options = {
+["WeeklyResetHour"] = 6,
+["WeeklyResetDay"] = 2,
+["NextWeeklyReset"] = "2024-07-30",
 }

@@ -31,11 +31,20 @@ local function FindTooltipString(itemId)
 	if sZones ~= "" then
 		return sZones
 	end
+	sZones = namespace.gemName(itemId)
+	if sZones ~= "" then
+		return sZones
+	end
+	sZones = namespace.inscriptionName(itemId)
+	if sZones ~= "" then
+		return sZones
+	end
 	return sZones
 end
 
 local function OnTooltipSetItem(tooltip, ...)
 	if not lineAdded then
+		
 		local _, link = tooltip:GetItem()
 		
 		if not link then return; end
@@ -49,14 +58,13 @@ local function OnTooltipSetItem(tooltip, ...)
 				local selectedRecipe = TradeSkillFrame.RecipeList:GetSelectedRecipeID()
 				for i = 1, 8 do
 					if GetMouseFocus().reagentIndex == i then
-						link = C_TradeSkillUI.GetRecipeReagentItemLink(selectedRecipe, i)
 						itemId = C_TradeSkillUI.GetRecipeReagentItemLink(selectedRecipe, i):match("item:(%d*)") or nil
 					break
 					end
 				end
 			end
 		
-			local _, _, _, _, _, _, itemType = GetItemInfo(link)
+			--tooltip:AddLine('Item ID: ' .. itemId)
 		
 			local sZones = ""
 		
@@ -74,4 +82,5 @@ local function OnTooltipCleared(tooltip, ...)
 end
 
 GameTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
+ItemRefTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
 GameTooltip:HookScript("OnTooltipCleared", OnTooltipCleared)

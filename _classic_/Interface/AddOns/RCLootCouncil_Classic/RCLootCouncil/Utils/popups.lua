@@ -3,7 +3,7 @@
 -- 14/07/2017
 
 local _,addon = ...
-local LibDialog = LibStub("LibDialog-1.0")
+local LibDialog = LibStub("LibDialog-1.1")
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
 
 -- Confirm usage (core)
@@ -162,7 +162,7 @@ LibDialog:Register("RCLOOTCOUNCIL_KEEP_ITEM", {
       self.icon2 = icon
    end,
    on_cancel = function(self, link)
-      self.buttons[2]:Click(self, link)
+      self.delegate.buttons[2].on_click(self, self.data)
       self.icon2:Hide()
    end,
    buttons = {

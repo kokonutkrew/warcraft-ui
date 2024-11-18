@@ -1,0 +1,10 @@
+
+OneButton_RemixPandariaDB = {
+["ShowHint"] = false,
+["MainButtonPosition"] = {
+["XOffset"] = 163.0539855957031,
+["YOffset"] = 157.9205474853516,
+["Point"] = "BOTTOM",
+["RelativePoint"] = "BOTTOM",
+},
+}

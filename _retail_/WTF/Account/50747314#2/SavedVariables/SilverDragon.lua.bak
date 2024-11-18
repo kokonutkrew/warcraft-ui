@@ -1,0 +1,86 @@
+
+SilverDragon3DB = {
+["profileKeys"] = {
+["Blanchy - Ravenholdt"] = "Default",
+["Lowpop - Ravenholdt"] = "Default",
+["Acaladindvia - Area 52"] = "Default",
+["Moumoo - Moon Guard"] = "Default",
+["Marshmello - Area 52"] = "Default",
+["Twinkky - Emerald Dream"] = "Default",
+["Twinkk - Area 52"] = "Default",
+["Tygrrlilly - Area 52"] = "Default",
+["Kkalterac - Alterac Mountains"] = "Default",
+},
+["namespaces"] = {
+["Overlay"] = {
+},
+["VignetteStretch"] = {
+},
+["TomTom"] = {
+},
+["Macro"] = {
+},
+["Tooltip"] = {
+},
+["Scan_Chat"] = {
+},
+["DarkMagic"] = {
+},
+["ClickTarget"] = {
+["profiles"] = {
+["Default"] = {
+["anchor"] = {
+["y"] = -230.4994506835938,
+["x"] = -259.9996337890625,
+["point"] = "RIGHT",
+},
+},
+},
+},
+["History"] = {
+},
+["LDB"] = {
+},
+["Scan_Vignettes"] = {
+},
+["Scan_Targets"] = {
+},
+["Sync"] = {
+},
+["Announce"] = {
+},
+["Marker"] = {
+},
+},
+["global"] = {
+["mob_count"] = {
+[70096] = 2,
+[69664] = 2,
+[69099] = 1,
+[58771] = 1,
+[69997] = 2,
+[69998] = 1,
+[69999] = 1,
+[70000] = 1,
+[70001] = 1,
+[50780] = 1,
+},
+["mob_seen"] = {
+[70096] = 1720065299,
+[69664] = 1724042427,
+[69099] = 1724042366,
+[58771] = 1720206324,
+[69997] = 1724042427,
+[69998] = 1724042213,
+[69999] = 1724042256,
+[70000] = 1724042342,
+[70001] = 1724042460,
+[50780] = 1719432194,
+},
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}
+SilverDragon2DB = nil

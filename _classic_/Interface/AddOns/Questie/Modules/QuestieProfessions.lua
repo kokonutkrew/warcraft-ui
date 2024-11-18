@@ -1,24 +1,91 @@
 ---@class QuestieProfessions
 local QuestieProfessions = QuestieLoader:CreateModule("QuestieProfessions");
+---@type QuestieQuest
+local QuestieQuest = QuestieLoader:ImportModule("QuestieQuest");
+
+---@type l10n
+local l10n = QuestieLoader:ImportModule("l10n")
 
 local playerProfessions = {}
 local professionTable = {}
+local professionNames = {}
+local specializationNames
+local alternativeProfessionNames = {}
 
+-- Fast local references
+local ExpandSkillHeader, GetNumSkillLines, GetSkillLineInfo, IsSpellKnown = ExpandSkillHeader, GetNumSkillLines, GetSkillLineInfo, IsSpellKnown
+
+hooksecurefunc("AbandonSkill", function(skillIndex)
+    local skillName = GetSkillLineInfo(skillIndex)
+    if skillName and professionTable[skillName] then
+        if playerProfessions[professionTable[skillName]] then
+            Questie:Debug(Questie.DEBUG_DEVELOP, "Unlearned profession: " .. skillName .. "(" .. professionTable[skillName] .. ")")
+            playerProfessions[professionTable[skillName]] = nil
+            --? Reset all autoBlacklisted quests if a skill is abandoned
+            QuestieQuest.ResetAutoblacklistCategory("skill")
+        end
+    end
+end)
+
+function QuestieProfessions:Init()
+
+    -- Generate professionTable with translations for all available locals.
+    -- We need the translated values because the API returns localized profession names
+    for professionId, professionName in pairs(professionNames) do
+        for _, translation in pairs(l10n.translations[professionName]) do
+            if translation == true then
+                professionTable[professionName] = professionId
+            else
+                professionTable[translation] = professionId
+            end
+        end
+    end
+
+    for professionName, professionId in pairs(alternativeProfessionNames) do
+        professionTable[professionName] = professionId
+    end
+
+    QuestieProfessions.professionTable = professionTable
+end
+
+--- Returns if a skill increased and learning a new profession, does not however return if a skill is unlearned
+---@return boolean HasProfessionUpdate @Returns true if the players profession skill has increased
+---@return boolean HasNewProfession @Returns true if the player has learned a new profession
 function QuestieProfessions:Update()
-    Questie:Debug(DEBUG_DEVELOP, "QuestieProfession: Update")
-    ExpandSkillHeader(0) -- Expand all header
-    local isProfessionUpdate = false
+    Questie:Debug(Questie.DEBUG_DEVELOP, "QuestieProfession: Update")
+    ExpandSkillHeader(0)
+    local hasProfessionUpdate = false
+    local hasNewProfession = false
+
+    --- Used to compare to be able to detect if a profession has been learned
+    local temporaryPlayerProfessions = {}
 
     for i=1, GetNumSkillLines() do
         if i > 14 then break; end -- We don't have to go through all the weapon skills
 
         local skillName, isHeader, _, skillRank, _, _, _, _, _, _, _, _, _ = GetSkillLineInfo(i)
-        if isHeader == nil and professionTable[skillName] then
-            isProfessionUpdate = true -- A profession leveled up, not something like "Defense"
-            playerProfessions[professionTable[skillName]] = {skillName, skillRank}
+        if (not isHeader) and professionTable[skillName] then
+            temporaryPlayerProfessions[professionTable[skillName]] = {skillName, skillRank}
         end
     end
-    return isProfessionUpdate
+
+    for professionId, _ in pairs(temporaryPlayerProfessions) do
+        if not playerProfessions[professionId] then
+            Questie:Debug(Questie.DEBUG_DEVELOP, "New profession: " .. temporaryPlayerProfessions[professionId][1])
+            -- This is kept here for legacy support, even though it's not really true...
+            hasProfessionUpdate = true
+            -- A new profession was learned
+            hasNewProfession = true
+
+            --? Reset all autoBlacklisted quests if a new skill is learned
+            QuestieQuest.ResetAutoblacklistCategory("skill")
+        elseif temporaryPlayerProfessions[professionId][2] > playerProfessions[professionId][2] then
+            Questie:Debug(Questie.DEBUG_DEVELOP, "Profession update: " .. temporaryPlayerProfessions[professionId][1] .. " " .. playerProfessions[professionId][2] .. " -> " .. temporaryPlayerProfessions[professionId][2])
+            hasProfessionUpdate = true -- A profession leveled up, not something like "Defense"
+        end
+    end
+    playerProfessions = temporaryPlayerProfessions
+    return hasProfessionUpdate, hasNewProfession
 end
 
 -- This function is just for debugging purpose
@@ -27,33 +94,86 @@ function QuestieProfessions:GetPlayerProfessions()
     return playerProfessions
 end
 
-function QuestieProfessions:GetProfessionNames()
-    local professionNames = {}
+function QuestieProfessions:GetPlayerProfessionNames()
+    local playerProfessionNames = {}
     for _, data in pairs(playerProfessions) do
-        table.insert(professionNames, data[1])
+        table.insert(playerProfessionNames, data[1])
     end
 
-    return professionNames
+    return playerProfessionNames
 end
 
 local function _HasProfession(profession)
-    return profession == nil or playerProfessions[profession] ~= nil
+    return (not profession) or playerProfessions[profession] ~= nil
 end
 
 local function _HasSkillLevel(profession, skillLevel)
-    return skillLevel == nil or playerProfessions[profession][2] >= skillLevel
+    return (not skillLevel) or (playerProfessions[profession] and playerProfessions[profession][2] >= skillLevel)
 end
 
+---@param requiredSkill { [1]: number, [2]: number } [1] = professionId, [2] = skillLevel
+---@return boolean HasProfession
+---@return boolean HasSkillLevel
 function QuestieProfessions:HasProfessionAndSkillLevel(requiredSkill)
-    if requiredSkill == nil then
-        return true
+    if not requiredSkill then
+        --? We return true here because otherwise we would have to check for nil everywhere
+        return true, true
     end
 
     local profession = requiredSkill[1]
     local skillLevel = requiredSkill[2]
-    return _HasProfession(profession) and _HasSkillLevel(profession, skillLevel)
+    return _HasProfession(profession), _HasSkillLevel(profession, skillLevel)
 end
 
+---@param requiredSpecialization { [1]: number } [1] = professionId
+---@return boolean HasSpecialization
+function QuestieProfessions:HasSpecialization(requiredSpecialization)
+    if not requiredSpecialization then
+        --? We return true here because otherwise we would have to check for nil everywhere
+        return true
+    end
+    local professionKeys = QuestieProfessions.professionKeys
+    local specializationKeys = QuestieProfessions.specializationKeys
+    for _, value in pairs(QuestieProfessions.professionKeys) do
+        if value == requiredSpecialization then -- if we determine input is a profession
+            if requiredSpecialization == professionKeys.ALCHEMY then
+                return not (IsSpellKnown(specializationKeys.ALCHEMY_ELIXIR)
+                or IsSpellKnown(specializationKeys.ALCHEMY_POTION)
+                or IsSpellKnown(specializationKeys.ALCHEMY_TRANSMUTATION))
+                -- if the profession is alchemy, we only return true if the player does NOT know
+                -- the spells for elixir, potion, or transmutation master; otherwise return false
+            elseif requiredSpecialization == professionKeys.BLACKSMITHING then
+                return not (IsSpellKnown(specializationKeys.BLACKSMITHING_ARMOR)
+                or IsSpellKnown(specializationKeys.BLACKSMITHING_WEAPON))
+
+            elseif requiredSpecialization == professionKeys.ENGINEERING then
+                return not (IsSpellKnown(specializationKeys.ENGINEERING_GNOMISH)
+                or IsSpellKnown(specializationKeys.ENGINEERING_GOBLIN))
+
+            elseif requiredSpecialization == professionKeys.LEATHERWORKING then
+                return not (IsSpellKnown(specializationKeys.LEATHERWORKING_DRAGONSCALE)
+                or IsSpellKnown(specializationKeys.LEATHERWORKING_ELEMENTAL)
+                or IsSpellKnown(specializationKeys.LEATHERWORKING_TRIBAL))
+
+            elseif requiredSpecialization == professionKeys.TAILORING then
+                return not (IsSpellKnown(specializationKeys.TAILORING_MOONCLOTH)
+                or IsSpellKnown(specializationKeys.TAILORING_SHADOWEAVE)
+                or IsSpellKnown(specializationKeys.TAILORING_SPELLFIRE))
+
+            end
+            return _HasProfession(requiredSpecialization)
+            -- if the profession is not one with known specs, return true if the player has that profession
+        end
+    end
+    for _, value in pairs(specializationKeys) do
+        if value == requiredSpecialization then -- if we determine input is a specialization
+            return IsSpellKnown(requiredSpecialization) -- return true if the spell is known, false if not
+        end
+    end
+    return true
+end
+
+---@enum ProfessionEnum
 QuestieProfessions.professionKeys = {
     FIRST_AID = 129,
     BLACKSMITHING = 164,
@@ -66,127 +186,112 @@ QuestieProfessions.professionKeys = {
     ENGINEERING = 202,
     ENCHANTING = 333,
     FISHING = 356,
-    SKINNING = 393
+    SKINNING = 393,
+    JEWELCRAFTING = 755,
+    INSCRIPTION = 773,
+    RIDING = 762,
+    ARCHAEOLOGY = 794,
 }
 
--- There are no quests for Skinning and Mining so we don't need them
-professionTable = {
-    ["First Aid"] = 129,
-    ["Erste Hilfe"] = 129,
-    ["Primeros auxilios"] = 129,
-    ["Secourisme"] = 129,
-    ["Primeiros Socorros"] = 129,
-    ["Первая помощь"] = 129,
-    ["急救"] = 129,
-    ["응급치료"] = 129,
+professionNames = {
+    [QuestieProfessions.professionKeys.FIRST_AID] = "First Aid",
+    [QuestieProfessions.professionKeys.BLACKSMITHING] = "Blacksmithing",
+    [QuestieProfessions.professionKeys.LEATHERWORKING] = "Leatherworking",
+    [QuestieProfessions.professionKeys.ALCHEMY] = "Alchemy",
+    [QuestieProfessions.professionKeys.HERBALISM] = "Herbalism",
+    [QuestieProfessions.professionKeys.COOKING] = "Cooking",
+    [QuestieProfessions.professionKeys.MINING] = "Mining",
+    [QuestieProfessions.professionKeys.TAILORING] = "Tailoring",
+    [QuestieProfessions.professionKeys.ENGINEERING] = "Engineering",
+    [QuestieProfessions.professionKeys.ENCHANTING] = "Enchanting",
+    [QuestieProfessions.professionKeys.FISHING] = "Fishing",
+    [QuestieProfessions.professionKeys.SKINNING] = "Skinning",
+    [QuestieProfessions.professionKeys.JEWELCRAFTING] = "Jewelcrafting",
+    [QuestieProfessions.professionKeys.ARCHAEOLOGY] = "Archaeology",
+    [QuestieProfessions.professionKeys.INSCRIPTION] = "Inscription",
+    [QuestieProfessions.professionKeys.RIDING] = "Riding",
+}
 
-    ["Blacksmithing"] = 164,
-    ["Schmiedekunst"] = 164,
-    ["Herrería"] = 164,
-    ["Forge"] = 164,
-    ["Ferraria"] = 164,
-    ["Кузнечное дело"] = 164,
-    ["锻造"] = 164,
-    ["鍛造"] = 164,
-    ["대장기술"] = 164,
+local sortIds = {
+    [QuestieProfessions.professionKeys.FIRST_AID] = -324,
+    [QuestieProfessions.professionKeys.BLACKSMITHING] = -121,
+    [QuestieProfessions.professionKeys.LEATHERWORKING] = -182,
+    [QuestieProfessions.professionKeys.ALCHEMY] = -181,
+    [QuestieProfessions.professionKeys.HERBALISM] = -24,
+    [QuestieProfessions.professionKeys.COOKING] = -304,
+    [QuestieProfessions.professionKeys.MINING] = -667, -- Dummy Id
+    [QuestieProfessions.professionKeys.TAILORING] = -264,
+    [QuestieProfessions.professionKeys.ENGINEERING] = -201,
+    [QuestieProfessions.professionKeys.ENCHANTING] = -668, -- Dummy Id
+    [QuestieProfessions.professionKeys.FISHING] = -101,
+    [QuestieProfessions.professionKeys.SKINNING] = -666, -- Dummy Id
+    [QuestieProfessions.professionKeys.INSCRIPTION] = -371,
+    [QuestieProfessions.professionKeys.JEWELCRAFTING] = -373,
+    [QuestieProfessions.professionKeys.ARCHAEOLOGY] = -377,
+    --[QuestieProfessions.professionKeys.RIDING] = ,
+}
 
-    ["Leatherworking"] = 165,
-    ["Lederverarbeitung"] = 165,
-    ["Marroquinería"] = 165,
-    ["Travail du cuir"] = 165,
-    ["Couraria"] = 165,
-    ["Кожевничество"] = 165,
-    ["制皮"] = 165,
-    ["製皮"] = 165,
-    ["가죽세공"] = 165,
+QuestieProfessions.specializationKeys = { -- specializations use spellID, professions use skillID
+    ALCHEMY = QuestieProfessions.professionKeys.ALCHEMY,
+    ALCHEMY_ELIXIR = 28677,
+    ALCHEMY_POTION = 28675,
+    ALCHEMY_TRANSMUTATION = 28672,
+    BLACKSMITHING = QuestieProfessions.professionKeys.BLACKSMITHING,
+    BLACKSMITHING_ARMOR = 9788,
+    BLACKSMITHING_WEAPON = 9787,
+    BLACKSMITHING_WEAPON_AXE = 17041,
+    BLACKSMITHING_WEAPON_HAMMER = 17040,
+    BLACKSMITHING_WEAPON_SWORD = 17039,
+    ENGINEERING = QuestieProfessions.professionKeys.ENGINEERING,
+    ENGINEERING_GNOMISH = 20219,
+    ENGINEERING_GOBLIN = 20222,
+    LEATHERWORKING = QuestieProfessions.professionKeys.LEATHERWORKING,
+    LEATHERWORKING_DRAGONSCALE = 10656,
+    LEATHERWORKING_ELEMENTAL = 10658,
+    LEATHERWORKING_TRIBAL = 10660,
+    TAILORING = QuestieProfessions.professionKeys.TAILORING,
+    TAILORING_MOONCLOTH = 26798,
+    TAILORING_SHADOWEAVE = 26801,
+    TAILORING_SPELLFIRE = 26797,
+}
 
-    ["Alchemy"] = 171,
-    ["Alchimie"] = 171,
-    ["Alquimia"] = 171,
-    ["Алхимия"] = 171,
-    ["炼金术"] = 171,
-    ["鍊金術"] = 171,
-    ["연금술"] = 171,
+specializationNames = {
+    [QuestieProfessions.specializationKeys.ALCHEMY_ELIXIR] = "Elixir Master",
+    [QuestieProfessions.specializationKeys.ALCHEMY_POTION] = "Potion Master",
+    [QuestieProfessions.specializationKeys.ALCHEMY_TRANSMUTATION] = "Transmutation Master",
+    [QuestieProfessions.specializationKeys.BLACKSMITHING_ARMOR] = "Armorsmith",
+    [QuestieProfessions.specializationKeys.BLACKSMITHING_WEAPON] = "Weaponsmith",
+    [QuestieProfessions.specializationKeys.BLACKSMITHING_WEAPON_AXE] = "Master Axesmith",
+    [QuestieProfessions.specializationKeys.BLACKSMITHING_WEAPON_HAMMER] = "Master Hammersmith",
+    [QuestieProfessions.specializationKeys.BLACKSMITHING_WEAPON_SWORD] = "Master Swordsmith",
+    [QuestieProfessions.specializationKeys.ENGINEERING_GNOMISH] = "Gnomish Engineer",
+    [QuestieProfessions.specializationKeys.ENGINEERING_GOBLIN] = "Goblin Engineer",
+    [QuestieProfessions.specializationKeys.LEATHERWORKING_DRAGONSCALE] = "Dragonscale Leatherworking",
+    [QuestieProfessions.specializationKeys.LEATHERWORKING_ELEMENTAL] = "Elemental Leatherworking",
+    [QuestieProfessions.specializationKeys.LEATHERWORKING_TRIBAL] = "Tribal Leatherworking",
+    [QuestieProfessions.specializationKeys.TAILORING_MOONCLOTH] = "Mooncloth Tailoring",
+    [QuestieProfessions.specializationKeys.TAILORING_SHADOWEAVE] = "Shadoweave Tailoring",
+    [QuestieProfessions.specializationKeys.TAILORING_SPELLFIRE] = "Spellfire Tailoring",
+}
 
-    ["Herbalism"] = 182,
-    ["Kräuterkunde"] = 182,
-    ["Botánica"] = 182,
-    ["Herboristerie"] = 182,
-    ["Herborismo"] = 182,
-    ["Травничество"] = 182,
-    ["草药学"] = 182,
-    ["草藥學"] = 182,
-    ["약초채집"] = 182,
+---@return string
+function QuestieProfessions:GetProfessionName(professionKey)
+    return professionNames[professionKey]
+end
 
-    ["Cooking"] = 185,
-    ["Kochkunst"] = 185,
-    ["Cocina"] = 185,
-    ["Cuisine"] = 185,
-    ["Culinária"] = 185,
-    ["Кулинария"] = 185,
-    ["烹饪"] = 185,
-    ["烹飪"] = 185,
-    ["요리"] = 185,
+---@return string
+function QuestieProfessions:GetSpecializationName(specializationKey)
+    -- TODO: this function is as of yet unused, if you plan on using it add translations for the specializationNames table
+    return specializationNames[specializationKey]
+end
 
-    ["Mining"] = 186,
-    ["Bergbau"] = 186,
-    ["Minería"] = 186,
-    ["Minage"] = 186,
-    ["Mineração"] = 186,
-    ["Горное дело"] = 186,
-    ["采矿"] = 186,
-    ["採礦"] = 186,
-    ["채광"] = 186,
+---@return number
+function QuestieProfessions:GetSortIdByProfessionId(professionId)
+    return sortIds[professionId]
+end
 
-    ["Tailoring"] = 197,
-    ["Schneiderei"] = 197,
-    ["Costura"] = 197,
-    ["Couture"] = 197,
-    ["Alfaiataria"] = 197,
-    ["Портняжное дело"] = 197,
-    ["裁缝"] = 197,
-    ["裁縫"] = 197,
-    ["재봉술"] = 197,
-
-    ["Engineering"] = 202,
-    ["Ingenieurskunst"] = 202,
-    ["Ingeniería"] = 202,
-    ["Ingénierie"] = 202,
-    ["Engenharia"] = 202,
-    ["Инженерное дело"] = 202,
-    ["工程学"] = 202,
-    ["工程學"] = 202,
-    ["기계공학"] = 202,
-
-    ["Enchanting"] = 333,
-    ["Verzauberkunst"] = 333,
-    ["Encantamiento"] = 333,
-    ["Enchantement"] = 333,
-    ["Encantamento"] = 333,
-    ["Наложение чар"] = 333,
-    ["附魔"] = 333,
-    ["마법부여"] = 333,
-
-    ["Fishing"] = 356,
-    ["Angeln"] = 356,
-    ["Pesca"] = 356,
-    ["Pêche"] = 356,
-    ["Рыбная ловля"] = 356,
-    ["钓鱼"] = 356,
-    ["釣魚"] = 356,
-    ["낚시"] = 356,
-
-    ["Skinning"] = 393,
-    ["Kürschnerei"] = 393,
-    ["Desollar"] = 393,
-    ["Dépeçage"] = 393,
-    ["Esfolamento"] = 393,
-    ["Снятие шкур"] = 393,
-    ["剥皮"] = 393,
-    ["剝皮"] = 393,
-    ["무두질"] = 393,
-
-    -- alternate naming scheme (used by DB)
+-- alternate naming scheme (used by DB)
+alternativeProfessionNames = {
     ["Enchanter"] = 333,
     ["Tailor"] = 197,
     ["Leatherworker"] = 165,
@@ -206,7 +311,6 @@ professionTable = {
     ["Leathercrafter"] = 165,
     ["Armorsmith"] = 164,
     ["Weaponsmith"] = 164,
-    ["Surgeon"] = 129
+    ["Surgeon"] = 129,
+    ["Trauma Surgeon"] = 129,
 }
-
-QuestieProfessions.professionTable = professionTable

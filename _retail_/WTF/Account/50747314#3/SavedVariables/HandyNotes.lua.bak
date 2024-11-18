@@ -1,11 +1,19 @@
 
 HandyNotesDB = {
 ["profileKeys"] = {
-["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
+["Flameing - Emerald Dream"] = "Flameing - Emerald Dream",
 },
 ["profiles"] = {
-["Timecaster - Emerald Dream"] = {
+["Flameing - Emerald Dream"] = {
 },
 },
 }
-HandyNotes_HandyNotesDB = nil
+HandyNotes_HandyNotesDB = {
+["profileKeys"] = {
+["Flameing - Emerald Dream"] = "Flameing - Emerald Dream",
+},
+["profiles"] = {
+["Flameing - Emerald Dream"] = {
+},
+},
+}

@@ -1,0 +1,5 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Details: disabled
+EMA-Classic: disabled
+totalRP3: disabled

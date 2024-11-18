@@ -1,0 +1,266 @@
+
+AUCTIONATOR_CONFIG = {
+["show_selling_bag_2"] = true,
+["no_price_database"] = false,
+["crafting_info_show_cheapest_qualities_cost"] = false,
+["hide_splash_screen"] = false,
+["enchant_tooltips"] = false,
+["debug"] = false,
+["vendor_tooltips"] = true,
+["selling_favourites_sort_owned"] = false,
+["auctions_history_length"] = 10,
+["selling_icon_size_2"] = 42,
+["auction_duration"] = 24,
+["price_history_days"] = 21,
+["selling_prev_shortcut"] = "BACKSPACE",
+["selling_skip_shortcut"] = "SHIFT-SPACE",
+["shopping_list_missing_terms"] = false,
+["columns_shopping_buy_item"] = {
+["Item Level"] = false,
+["Bid Price"] = false,
+["Available"] = false,
+["Seller(s)"] = true,
+["Owned?"] = true,
+["Buyout Price"] = false,
+},
+["selling_cancel_shortcut"] = "right click",
+["selling_ignored_keys"] = {
+},
+["default_tab"] = 0,
+["shopping_always_confirm_commodity_quantity"] = false,
+["undercut_items_ahead"] = 0,
+["undercut_scan_not_lifo"] = true,
+["undercut_percentage"] = 0,
+["columns_posting_history"] = {
+["Date"] = false,
+["Unit Price"] = false,
+["Bid Price"] = false,
+["Quantity"] = false,
+},
+["pet_tooltips"] = true,
+["selling_missing_favourites"] = true,
+["selling_item_matching"] = "item name and level",
+["gear_vendor_price_multiplier"] = 0,
+["selling_post_shortcut"] = "SPACE",
+["shift_stack_tooltips"] = true,
+["selling_favourite_keys_2"] = {
+},
+["selling_bag_select_shortcut"] = "alt left click",
+["auction_tooltips"] = true,
+["auction_age_tooltips"] = false,
+["replicate_scan_3"] = false,
+["small_tabs"] = false,
+["selling_buy_shortcut"] = "alt right click",
+["selling_confirm_low_price"] = true,
+["selling_reselect_item_2"] = {
+["keyName"] = "k_Tradeskill",
+["sortKey"] = "210805_Blessing Blossom_0_2_true",
+},
+["selling_should_reselect_item"] = false,
+["shopping_last_container_view"] = 1,
+["cancel_undercut_shortcut"] = "SPACE",
+["historical_prices"] = {
+["Date"] = false,
+["Unit Price"] = false,
+["Available"] = false,
+["Upper Unit Price"] = true,
+},
+["columns_shopping"] = {
+["Item Level"] = true,
+["Name"] = false,
+["Available"] = false,
+["Price"] = false,
+["Owned?"] = true,
+},
+["autoscan_interval"] = 15,
+["save_last_duration_as_default"] = false,
+["auction_mean_tooltips"] = false,
+["crafting_info_show_cost"] = true,
+["columns_shopping_buy_commodity"] = {
+["Seller(s)"] = true,
+["Buyout Price"] = false,
+["Available"] = false,
+},
+["show_selling_bid_price"] = false,
+["columns_cancelling"] = {
+["Items Ahead"] = false,
+["Bidder"] = true,
+["Undercut Price"] = true,
+["Quantity"] = false,
+["Bid Price"] = true,
+["Undercut?"] = false,
+["Unit Price"] = false,
+["Time Left"] = false,
+["Name"] = false,
+},
+["columns_shopping_historical_prices"] = {
+["Date"] = false,
+["Unit Price"] = false,
+["Available"] = false,
+["Upper Unit Price"] = true,
+},
+["default_quantities"] = {
+0,
+1,
+0,
+1,
+nil,
+nil,
+0,
+0,
+0,
+[0] = 0,
+[17] = 1,
+[15] = 0,
+[12] = 0,
+[19] = 0,
+[16] = 0,
+},
+["auction_mean_days_limit"] = 21,
+["auto_list_search"] = true,
+["auction_chat_log"] = true,
+["crafting_info_show_profit"] = true,
+["mailbox_tooltips"] = true,
+["undercut_static_value"] = 0,
+["selling_bag_collapsed"] = false,
+["default_list_2"] = "",
+["selling_auto_select_next"] = false,
+["auction_sales_preference"] = "percentage",
+["autoscan_2"] = false,
+["splash_screen_version"] = "10.1.6",
+["crafting_info_show"] = true,
+["selling_split_panels"] = false,
+["columns_selling_search_3"] = {
+["Item Level"] = false,
+["Bid Price"] = false,
+["Available"] = false,
+["Seller(s)"] = true,
+["Owned?"] = false,
+["Time Left"] = true,
+["Buyout Price"] = false,
+},
+}
+AUCTIONATOR_SAVEDVARS = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+}
+AUCTIONATOR_PRICE_DATABASE = {
+["__dbversion"] = 8,
+["MoonGuard"] = "Ä",
+["EmeraldDream"] = {
+["219505"] = "§aa°d1731–alÄah°d1731\000Œxam\000Œx",
+["1625"] = "§aa°d1731alÄah°d1731\000É∞am\000É∞",
+["210796"] = "§aaÄalÄah°d1731\0004Pam\0004P",
+["219504"] = "§aa°d1731ÕalÄah°d1731\000©am\000©",
+["219506"] = "§aa°d1731\n4alÄah°d1731\000óåam\000óå",
+["219949"] = "§aa°d1731\000ZGalÄam\000Äah°d1731\000Ä",
+["225592"] = "§aa°d1731.alÄah°d1731\000g<am\000g<",
+["219951"] = "§aa°d1731“ÚalÄam\000;Ω¿ah°d1731\000;Ω¿",
+["224833"] = "§aa°d1731™Aal°d1731\000G–am\000G–ah°d1731\000Yd",
+["219950"] = "§aa°d1731\000≥◊alÄam\000ﬁÃah°d1731\000ﬁÃ",
+["179314"] = "§aaÄalÄah°d1731XamX",
+["210802"] = "§aaÄalÄah°d1731\000W8am\000W8",
+["224834"] = "§aa°d1731ímalÄam\000EìTah°d1731\000EìT",
+["210221"] = "§aaÄalÄah°d1731îamî",
+["224832"] = "§aa°d1731|malÄam\000?úah°d1731\000?ú",
+["210805"] = "§aaÄalÄam\000éLah°d1731\000éL",
+},
+["Area52"] = "π3f167954x!§aa°d1741alÄah°d1741\000⁄d4am\000⁄d4e43459x!§aa°d1741alÄah°d1741}C am}C d3835x\"§aa°d1741?alÄah°d1741\000∑»am\000∑»e93578x!§aa°d1741alÄah°d1741AÛàamAÛàlg:217157:554x!§aa°d1741alÄah°d1741bZ\000ambZ\000f154153x!§aa°d1741alÄah°d1741\000®am\000®e25106x!§aa°d1741alÄah°d1741\000%◊Äam\000%◊Äd9811x!§aa°d1741alÄah°d1741\000ÖÙam\000ÖÙe98819x!§aa°d1741alÄah°d1741A‚XamA‚Xlg:176991:271x!§aa°d1741alÄah°d17417^am7^f176799x!§aa°d1741alÄah°d1741\000jœ¿am\000jœ¿e15243x!§aa°d1741alÄah°d1741\000_êam\000_êlg:160924:207x!§aa°d1741alÄah°d1741\000r$am\000r$e25376x§aa°d1741alÄah°d1741thamthe25308x§aa°d1741alÄah°d1741FPamFPe56481x!§aa°d1741alÄah°d1741\000√‰am\000√‰lg:176991:170x!§aa°d1741alÄah°d17417^am7^lg:159522:320x!§aa°d1741alÄah°d1741\000N< am\000N< f172249x!§aa°d1741	alÄah°d1741\000Wºam\000Wºf224636x\"§aa°d1741ÂalÄah°d1741\000î‹am\000î‹lg:106647:186x!§aa°d1741alÄah°d17410∞dam0∞dlg:224615:434x!§aa°d1741alÄah°d17411-\000am1-\000e24893x!§aa°d1741alÄah°d1741\000é®am\000é®lg:217157:558x!§aa°d1741alÄah°d1741bZ\000ambZ\000kg:13199:325x!§aa°d1741alÄah°d1741bZ\000ambZ\000e55561x!§aa°d1741alÄah°d1741\000˜®\000am\000˜®\000f176802x!§aa°d1741alÄah°d1741\000z†am\000z†e93492x!§aa°d1741alÄah°d1741AÛÏamAÛÏe24861x!§aa°d1741\ralÄah°d1741\000	'\\am\000	'\\e14770x!§aa°d1741	alÄah°d1741\000-Ãúam\000-Ãúe93493x!§aa°d1741alÄah°d1741AÔ†amAÔ†e86184x!§aa°d1741alÄah°d174114am14d2765x!§aa°d1741alÄah°d1741\000Ë<am\000Ë<f106449x!§aa°d1741alÄah°d1741\000©†8am\000©†8e36266x!§aa°d1741alÄah°d1741\000ã‰am\000ã‰e44652x!§aa°d1741alÄah°d1741\000zúam\000zúe36282x!§aa°d1741alÄah°d1741\000ram\000rf164500x!§aa°d1741alÄah°d1741\000ﬁLam\000ﬁLf193393x!§aa°d1741alÄah°d1741\000†ºam\000†ºd8125x!§aa°d1741alÄah°d1741\000&%†am\000&%†f106581x!§aa°d1741alÄah°d1741}wxam}wxd6403x!§aa°d1741alÄah°d1741\000DLƒam\000DLƒe43452x!§aa°d1741alÄah°d1741«_\000am«_\000e15241x!§aa°d1741\nalÄah°d1741\0000am\0000f217157x!§aa°d1741alÄah°d1741bZ\000ambZ\000e15245x!§aa°d1741alÄah°d1741\000Ü†am\000Ü†d7166x!§aa°d1741	alÄah°d1741\000÷am\000÷e15247x!§aa°d1741alÄah°d1741\0007(am\0007(f106515x!§aa°d1741	alÄah°d1741?çam?çe82967x!§aa°d1741\ralÄah°d1741\000\"}∞am\000\"}∞e25296x!§aa°d1741\ralÄah°d1741\000=‘am\000=‘e36475x!§aa°d1741alÄah°d1741\000ãÑÃam\000ãÑÃe14759x!§aa°d1741alÄah°d1741\000LJ‹am\000LJ‹lg:219474:524x!§aa°d1741alÄah°d1741\000xÏ§am\000xÏ§f176791x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄf132534x!§aa°d1741alÄah°d1741\000Krÿam\000Krÿlg:121151:214x!§aa°d1741alÄah°d1741\000√Ò∏am\000√Ò∏lg:116632:225x!§aa°d1741alÄah°d1741\000„`am\000„`lg:159530:242x!§aa°d1741alÄah°d1741\000r»ƒam\000r»ƒe36672x!§aa°d1741alÄah°d1741\000£ÈTam\000£ÈTe82269x!§aa°d1741alÄah°d1741\000_êam\000_êlg:188728:179x!§aa°d1741alÄah°d1741\000B@am\000B@f116631x!§aa°d1741alÄah°d1741\000&.8am\000&.8e98892x!§aa°d1741alÄah°d1741AÓÿamAÓÿe36679x!§aa°d1741	alÄah°d1741\000¬»am\000¬»d6413x!§aa°d1741\ralÄah°d1741\000ß◊¯am\000ß◊¯f176991x!§aa°d1741alÄah°d17417^am7^f159527x!§aa°d1741\ralÄah°d1741\000WÕXam\000WÕXe18296x!§aa°d1741alÄah°d1741\000øR am\000øR f116478x!§aa°d1741alÄah°d1741\000LK§am\000LK§lg:116631:186x!§aa°d1741alÄah°d1741\000&.8am\000&.8lg:222465:551x!§aa°d1741alÄah°d1741\000&JXam\000&JXkg:55790:171x!§aa°d1741alÄah°d1741\000<ª®am\000<ª®d2868x§aa°d1741\"alÄah°d1741N amN f164302x!§aa°d1741alÄah°d1741\000aÉHam\000aÉHlg:224615:532x!§aa°d1741alÄah°d1741\000-Pam\000-Pf159529x!§aa°d1741alÄah°d1741\000ä⁄‡am\000ä⁄‡d3212x!§aa°d1741alÄah°d1741\000®B8am\000®B8f188026x!§aa°d1741alÄah°d1741\000-∆¿am\000-∆¿f106713x!§aa°d1741alÄah°d1741\000=!úam\000=!úf121151x!§aa°d1741alÄah°d1741\000√Ò∏am\000√Ò∏kg:36672:214x!§aa°d1741alÄah°d1741\000£ÈTam\000£ÈTkg:36194:170x!§aa°d1741alÄah°d1741\0008òHam\0008òHf116615x!§aa°d1741alÄah°d1741\000Loîam\000Loîjg:4002:322x!§aa°d1741alÄah°d1741\0005”Lam\0005”Le55441x!§aa°d1741alÄah°d1741\000ìúam\000ìúlg:222464:551x!§aa°d1741alÄah°d1741\000LJam\000LJd4088x!§aa°d1741\ralÄah°d1741\000 ã§am\000 ã§e36681x!§aa°d1741alÄah°d1741\000Iø∞am\000Iø∞e18711x!§aa°d1741alÄah°d1741}v∞am}v∞lg:219474:518x\"§aa°d1741alÄah°d1741\000  am\000  f222464x\"§aa°d1741GalÄah°d1741\000Ÿ‘am\000Ÿ‘lg:106515:186x!§aa°d1741	alÄah°d1741?çam?çkg:13135:325x!§aa°d1741alÄah°d1741bZ\000ambZ\000e82187x!§aa°d1741alÄah°d1741\000/L4am\000/L4e20476x!§aa°d1741alÄah°d1741\000W˜$am\000W˜$d3213x!§aa°d1741alÄah°d1741\000k7®am\000k7®lg:121261:214x!§aa°d1741	alÄah°d1741\000J\000Ïam\000J\000Ïe15246x!§aa°d1741alÄah°d1741\000≥ham\000≥he16840x!§aa°d1741alÄah°d1741\000Ü†am\000Ü†kg:36186:225x!§aa°d1741alÄah°d1741\0004Øam\0004Øf116563x!§aa°d1741alÄah°d1741\000%nam\000%ne41184x!§aa°d1741	alÄah°d1741\000âAÄam\000âAÄe25112x!§aa°d1741alÄah°d1741\000◊ÿam\000◊ÿlg:159531:320x!§aa°d1741alÄah°d1741\000ò}‰am\000ò}‰e15668x!§aa°d1741	alÄah°d1741\000Jq–am\000Jq–d2643x!§aa°d1741alÄah°d1741\000©ƒam\000©ƒe24829x!§aa°d1741alÄah°d1741\000º∏am\000º∏lg:116513:186x!§aa°d1741alÄah°d1741\000jvLam\000jvLe14807x!§aa°d1741alÄah°d1741\000ryam\000ryf164468x!§aa°d1741alÄah°d1741£âêam£âêf164540x!§aa°d1741alÄah°d1741\000îı¸am\000îı¸f224632x\"§aa°d1741›alÄah°d1741\000†îam\000†îf182725x!§aa°d1741alÄah°d1741\000@<Ïam\000@<Ïlg:222465:545x\"§aa°d1741alÄah°d1741\000ù$am\000ù$lg:172329:190x!§aa°d1741alÄah°d1741\000ßˇlam\000ßˇle24821x!§aa°d1741\ralÄah°d1741\000Úúam\000Úúe20852x!§aa°d1741alÄah°d1741\000¶≈\\am\000¶≈\\lg:106746:225x!§aa°d1741alÄah°d1741\000Kv¿am\000Kv¿e25305x!§aa°d1741alÄah°d1741\000\nñ(am\000\nñ(f159857x!§aa°d1741alÄah°d1741\000≥˛Ëam\000≥˛Ëkg:82022:186x!§aa°d1741alÄah°d1741\000z\000am\000z\000e82003x!§aa°d1741alÄah°d1741\0003uam\0003ue55567x!§aa°d1741alÄah°d1741\000,ó†am\000,ó†lg:159521:320x!§aa°d1741alÄah°d1741\000~ô`am\000~ô`lg:159533:242x!§aa°d1741alÄah°d1741\000 0†am\000 0†lg:160138:320x!§aa°d1741alÄah°d1741\000òopam\000òopkg:10229:170x!§aa°d1741alÄah°d1741\000Etxam\000Etxe82120x!§aa°d1741alÄah°d1741\0004Q¿am\0004Q¿e98818x!§aa°d1741alÄah°d1741A·,amA·,lg:224615:538x!§aa°d1741alÄah°d1741\000j\000am\000j\000f159525x!§aa°d1741alÄah°d1741\000c5Dam\000c5De55434x!§aa°d1741alÄah°d1741\000”íÄam\000”íÄe82022x!§aa°d1741alÄah°d1741\000z\000am\000z\000kg:71365:181x!§aa°d1741alÄah°d1741\000óÅåam\000óÅåf159530x!§aa°d1741	alÄah°d1741\000r»ƒam\000r»ƒlg:172265:262x!§aa°d1741alÄah°d1741\000âT@am\000âT@e14743x!§aa°d1741alÄah°d1741\0005hDam\0005hDf159893x!§aa°d1741alÄah°d1741\000ÿ◊Tam\000ÿ◊Tlg:170116:242x!§aa°d1741alÄah°d1741\000p%`am\000p%`lg:224615:561x\"§aa°d1741=alÄah°d1741\000 am\000 lg:224615:525x!§aa°d1741alÄah°d1741\000j\000am\000j\000e12783x!§aa°d1741alÄah°d1741\000‰ÍXam\000‰ÍXe25109x!§aa°d1741alÄah°d1741\000\n”|am\000\n”|e82230x!§aa°d1741alÄah°d1741\000¡úam\000¡úlg:121332:179x!§aa°d1741alÄah°d1741\000]*»am\000]*»lg:224636:561x\"§aa°d1741>alÄah°d1741\000î‹am\000î‹d9837x!§aa°d1741	alÄah°d1741\000HÑam\000HÑd7947x!§aa°d1741alÄah°d1741\000°‰Ïam\000°‰Ïe10265x!§aa°d1741alÄah°d1741\000]À∏am\000]À∏e36226x!§aa°d1741alÄah°d1741\000L\\pam\000L\\pkg:37776:325x!§aa°d1741alÄah°d1741@x,am@x,f121332x!§aa°d1741alÄah°d1741\000]*»am\000]*»d9927x!§aa°d1741alÄah°d1741\000giam\000gie55438x!§aa°d1741alÄah°d1741\000‘Pam\000‘Pe14750x!§aa°d1741alÄah°d1741\000òéLam\000òéLd5267x!§aa°d1741alÄah°d1741\000;P`am\000;P`lg:116495:186x!§aa°d1741alÄah°d1741\000‰·¿am\000‰·¿f116529x!§aa°d1741alÄah°d1741\000i]am\000i]f159533x!§aa°d1741alÄah°d1741\000 0†am\000 0†e15679x!§aa°d1741alÄah°d1741\000]ÊHam\000]ÊHlg:161073:264x!§aa°d1741alÄah°d1741\000yÍåam\000yÍåf222465x\"§aa°d1741TalÄah°d1741\000ù$am\000ù$e35615x!§aa°d1741alÄah°d1741\000Ã\\am\000Ã\\kg:68753:214x!§aa°d1741alÄah°d1741\000\000»am\000\000»kg:25102:170x!§aa°d1741alÄah°d1741\000\rÑåam\000\rÑåe37856x!§aa°d1741alÄah°d1741\000!ﬂ‡am\000!ﬂ‡lg:222465:558x!§aa°d1741alÄah°d1741\000∂Ápam\000∂Ápe55045x!§aa°d1741\nalÄah°d1741\000íoam\000íoe10333x!§aa°d1741alÄah°d1741\000a´ am\000a´ e36680x!§aa°d1741alÄah°d1741\0002∆pam\0002∆plg:159530:320x!§aa°d1741alÄah°d1741\000òy4am\000òy4e33428x§aa°d1741alÄah°d1741SòamSòe25304x!§aa°d1741alÄah°d1741\000W0am\000W0f116513x!§aa°d1741	alÄah°d1741\000jvLam\000jvLf177804x!§aa°d1741alÄah°d1741\000‰·¿am\000‰·¿e10126x!§aa°d1741alÄah°d1741\000-[∏am\000-[∏lg:224632:506x!§aa°d1741alÄah°d1741\000†îam\000†îe15629x!§aa°d1741alÄah°d1741\000•˚Ãam\000•˚Ãf106548x!§aa°d1741alÄah°d1741\000áî4am\000áî4lg:159525:320x!§aa°d1741alÄah°d1741\000cqam\000cqlg:160138:170x!§aa°d1741alÄah°d1741)ºPam)ºPlg:224632:564x\"§aa°d1741JalÄah°d1741\000˝‡am\000˝‡f220330x!§aa°d1741alÄah°d1741\000HËam\000HËe55332x!§aa°d1741alÄah°d1741\000‰·¿am\000‰·¿lg:161073:262x!§aa°d1741alÄah°d1741\000yÍam\000yÍf116546x!§aa°d1741alÄah°d1741\000òï∏am\000òï∏lg:159531:242x!§aa°d1741alÄah°d1741\000éZîam\000éZîlg:222464:548x\"§aa°d1741alÄah°d1741\000Ÿ‘am\000Ÿ‘jg:6660:175x!§aa°d1741alÄah°d1741\000òopam\000òopkg:69844:174x!§aa°d1741alÄah°d1741\000-ü∞am\000-ü∞lg:211553:451x!§aa°d1741alÄah°d1741-‡am-‡e38435x!§aa°d1741	alÄah°d1741\0001Ê8am\0001Ê8lg:116462:186x!§aa°d1741alÄah°d1741\000›§<am\000›§<e16850x!§aa°d1741\nalÄah°d1741\000Iåam\000Iålg:224615:483x!§aa°d1741alÄah°d1741\000>è†am\000>è†kg:15244:170x!§aa°d1741alÄah°d1741\000°Ñam\000°Ñe36682x!§aa°d1741alÄah°d1741\000Ïam\000Ïe20481x!§aa°d1741alÄah°d17411)am1)lg:116563:186x!§aa°d1741alÄah°d1741\000%nam\000%nlg:159524:242x!§aa°d1741alÄah°d1741\000ÑÄam\000ÑÄe14810x!§aa°d1741alÄah°d1741\000[tÄam\000[tÄe23504x!§aa°d1741alÄah°d1741\000Zè¸am\000Zè¸lg:159522:242x!§aa°d1741alÄah°d1741\000N;ºam\000N;ºe25297x!§aa°d1741	alÄah°d1741\000›lam\000›le25102x!§aa°d1741alÄah°d1741\000\rÑåam\000\rÑåe24877x!§aa°d1741alÄah°d1741\000B@am\000B@f164396x!§aa°d1741alÄah°d1741*cam*ckg:24837:225x!§aa°d1741alÄah°d1741\000B@am\000B@e55326x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄe24837x!§aa°d1741alÄah°d1741\000–êam\000–êd3214x!§aa°d1741alÄah°d1741\000òopam\000òope36483x!§aa°d1741alÄah°d1741\000	JËam\000	JËe69844x!§aa°d1741alÄah°d1741\000-ü∞am\000-ü∞e25403x§aa°d1741alÄah°d17417‹am7‹e55565x!§aa°d1741alÄah°d1741\000Pn<am\000Pn<lg:177806:320x!§aa°d1741alÄah°d1741\000Éc(am\000Éc(e15556x!§aa°d1741alÄah°d1741\000Ñÿam\000Ñÿe85791x!§aa°d1741alÄah°d1741b=amb=f132496x!§aa°d1741alÄah°d1741\000°‹am\000°‹e25301x!§aa°d1741alÄah°d1741\000ù\000am\000ù\000e55436x!§aa°d1741alÄah°d1741\000q∞am\000q∞d5516x!§aa°d1741\nalÄah°d1741\000òÅÃam\000òÅÃe13199x!§aa°d1741alÄah°d17411R‰am1R‰e25108x!§aa°d1741alÄah°d1741\000∞2§am\000∞2§e45301x!§aa°d1741alÄah°d1741\000\"πÿam\000\"πÿlg:176791:320x!§aa°d1741alÄah°d1741Ën¨amËn¨e37365x!§aa°d1741alÄah°d1741\000Ì`¿am\000Ì`¿e15610x!§aa°d1741alÄah°d1741eö‡ameö‡d2534x!§aa°d1741alÄah°d1741\000q]‡am\000q]‡lg:178943:296x!§aa°d1741alÄah°d1741\000â°¸am\000â°¸e14778x!§aa°d1741alÄah°d1741~ªLam~ªLd6507x!§aa°d1741alÄah°d1741}vLam}vLf159521x!§aa°d1741alÄah°d1741\000~ô`am\000~ô`e23494x!§aa°d1741alÄah°d1741\0005<Ëam\0005<Ëlg:161073:266x!§aa°d1741alÄah°d1741\000yÍam\000yÍlg:224632:561x\"§aa°d1741?alÄah°d1741\000†îam\000†îjg:6574:225x!§aa°d1741alÄah°d1741\0001am\0001lg:182725:170x!§aa°d1741alÄah°d1741\000@<Ïam\000@<Ïf128899x!§aa°d1741alÄah°d1741\000	»∞am\000	»∞d3184x!§aa°d1741alÄah°d1741\0008am\0008f175573x!§aa°d1741alÄah°d1741\000æº am\000æº e21802x!§aa°d1741alÄah°d1741\000Y‘|am\000Y‘|jg:7493:225x!§aa°d1741alÄah°d1741\000Â am\000Â lg:222464:558x!§aa°d1741alÄah°d1741\000òï∏am\000òï∏d4571x!§aa°d1741alÄah°d1741\000€‰am\000€‰d8264x!§aa°d1741alÄah°d1741\000;´dam\000;´dd1748x!§aa°d1741alÄah°d1741\000?am\000?e25302x!§aa°d1741alÄah°d1741\000›lam\000›le36186x!§aa°d1741alÄah°d1741\0004Øam\0004Ølg:159528:344x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄd2427x!§aa°d1741alÄah°d1741\000≤xam\000≤xd3848x!§aa°d1741	alÄah°d1741\000!îam\000!îf186143x!§aa°d1741alÄah°d1741\000'\000am\000'\000f164291x!§aa°d1741alÄah°d1741\000óDam\000óDf159532x!§aa°d1741alÄah°d1741\000¯Pam\000¯Pd3490x!§aa°d1741	alÄah°d1741\000I,lam\000I,ld2526x!§aa°d1741alÄah°d1741\000ê\000am\000ê\000d2819x!§aa°d1741alÄah°d1741\000Ωam\000Ωe36678x!§aa°d1741alÄah°d1741\000Dam\000De55563x!§aa°d1741alÄah°d1741\000˚òam\000˚òe36202x!§aa°d1741alÄah°d1741\000LK@am\000LK@e33400x!§aa°d1741alÄah°d1741\000Ítam\000Ítf106330x!§aa°d1741alÄah°d1741\000_Dam\000_Dd6331x!§aa°d1741alÄah°d1741\000Us\000am\000Us\000d1756x!§aa°d1741alÄah°d1741\000àham\000àhf170116x!§aa°d1741\nalÄah°d1741\000p%`am\000p%`lg:121206:214x!§aa°d1741alÄah°d1741\000€·am\000€·e15507x!§aa°d1741alÄah°d1741ÙbpamÙbplg:154825:242x!§aa°d1741alÄah°d1741\000z‘am\000z‘d2209x!§aa°d1741alÄah°d1741\0004≥am\0004≥d6426x!§aa°d1741alÄah°d1741\000èº‡am\000èº‡f159519x!§aa°d1741alÄah°d1741\000\\P–am\000\\P–e36210x!§aa°d1741alÄah°d1741\000=8am\000=8e55440x!§aa°d1741alÄah°d1741\000Iam\000Ie36290x!§aa°d1741\nalÄah°d1741\000Q¥am\000Q¥e43131x!§aa°d1741alÄah°d1741\000í´®am\000í´®d2421x!§aa°d1741alÄah°d1741\000U’‘am\000U’‘e15482x!§aa°d1741alÄah°d1741\000n˛am\000n˛f121096x!§aa°d1741alÄah°d1741\000<ı‹am\000<ı‹d5540x!§aa°d1741alÄah°d1741\000 ÿ¸am\000 ÿ¸e44669x!§aa°d1741alÄah°d1741\000Ï\r∞am\000Ï\r∞d7461x!§aa°d1741alÄah°d1741\000FHam\000FHe36194x!§aa°d1741alÄah°d1741\0008òHam\0008òHe15566x!§aa°d1741\nalÄah°d1741\000´©Pam\000´©Pe20916x!§aa°d1741alÄah°d1741\000†‰am\000†‰e55437x!§aa°d1741alÄah°d1741\000am\000lg:116461:186x!§aa°d1741alÄah°d1741\000-∆¿am\000-∆¿f172265x\"§aa°d1741alÄah°d1741\000/«@am\000/«@e15649x!§aa°d1741alÄah°d17416Î¥am6Î¥lg:106713:186x!§aa°d1741alÄah°d1741\000=!úam\000=!úlg:106449:214x!§aa°d1741alÄah°d1741¯|am¯|e14723x!§aa°d1741alÄah°d1741\000hÏam\000hÏe15517x!§aa°d1741alÄah°d1741\000.‘¨am\000.‘¨lg:177804:170x!§aa°d1741alÄah°d1741\000‰·¿am\000‰·¿f178943x!§aa°d1741alÄah°d1741\000â°¸am\000â°¸e82242x!§aa°d1741alÄah°d1741\000.am\000.f160138x!§aa°d1741\nalÄah°d1741\000Ôam\000Ôf116495x!§aa°d1741alÄah°d1741\000‰·¿am\000‰·¿e24813x!§aa°d1741alÄah°d1741E∑$amE∑$e55562x!§aa°d1741alÄah°d1741\0003’àam\0003’àlg:224615:506x!§aa°d1741alÄah°d1741\0009_Äam\0009_Äf128907x!§aa°d1741alÄah°d1741\000L7∏am\000L7∏e24869x!§aa°d1741alÄah°d1741\000lŸ†am\000lŸ†lg:178943:170x!§aa°d1741alÄah°d1741\000â°¸am\000â°¸lg:222464:545x\"§aa°d1741alÄah°d1741\000Çam\000Çlg:159533:320x!§aa°d1741alÄah°d1741\000òopam\000òopd8198x!§aa°d1741\nalÄah°d1741\000LTam\000LTlg:172265:233x!§aa°d1741alÄah°d1741\000âT@am\000âT@e68753x!§aa°d1741alÄah°d1741\000ı|am\000ı|e25105x!§aa°d1741alÄah°d1741\000° am\000° e71365x!§aa°d1741alÄah°d1741\000óÅåam\000óÅåjg:2643:236x!§aa°d1741alÄah°d1741\000©ƒam\000©ƒe71263x!§aa°d1741alÄah°d1741}ûàam}ûàlg:193393:309x!§aa°d1741alÄah°d1741\000†ºam\000†ºe25368x!§aa°d1741	alÄah°d1741\000Iam\000Ie90811x!§aa°d1741alÄah°d1741\000√‰am\000√‰lg:106581:186x!§aa°d1741alÄah°d1741}wxam}wxlg:106680:186x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄd6660x!§aa°d1741	alÄah°d1741\000LK@am\000LK@e62124x!§aa°d1741alÄah°d1741\000*UÄam\000*UÄf106680x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄlg:224615:460x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄlg:229085:564x!§aa°d1741alÄah°d1741\000êı`am\000êı`f171385x!§aa°d1741	alÄah°d1741\000&‹am\000&‹lg:183971:320x!§aa°d1741alÄah°d1741\000ÓN@am\000ÓN@d6040x\"§aa°d1741alÄah°d1741\000°Ñam\000°Ñe43444x!§aa°d1741alÄah°d1741GÒ amGÒ d6574x!§aa°d1741alÄah°d1741\0001am\0001d7493x!§aa°d1741alÄah°d1741\000Â am\000Â kg:86184:179x!§aa°d1741alÄah°d174114am14lg:176802:170x!§aa°d1741alÄah°d1741\000z†am\000z†d8205x!§aa°d1741alÄah°d17411_Tam1_Td2494x!§aa°d1741alÄah°d1741\000òïTam\000òïTe62262x!§aa°d1741alÄah°d1741\000P´,am\000P´,f106647x!§aa°d1741alÄah°d17410∞\000am0∞\000e55560x!§aa°d1741alÄah°d1741\000ååxam\000ååxlg:176799:170x!§aa°d1741alÄah°d1741\000um∏am\000um∏e37802x!§aa°d1741alÄah°d1741\000’õ¸am\000’õ¸lg:219474:515x\"§aa°d1741;alÄah°d1741\000Ñam\000Ñe55566x!§aa°d1741alÄah°d1741\000\"_8am\000\"_8e93577x!§aa°d1741alÄah°d1741\000sélam\000sélf160924x!§aa°d1741alÄah°d1741\000r$am\000r$e10156x!§aa°d1741alÄah°d1741\000Qÿam\000Qÿlg:175573:170x!§aa°d1741alÄah°d1741\000æº am\000æº e82065x!§aa°d1741alÄah°d1741\000xam\000xe25309x!§aa°d1741\ralÄah°d1741\0002§am\0002§f106482x!§aa°d1741alÄah°d1741äBhamäBhe55435x!§aa°d1741alÄah°d1741\000&%<am\000&%<d4565x!§aa°d1741alÄah°d1741\000Ÿam\000Ÿd1917x!§aa°d1741alÄah°d1741\000Ü<am\000Ü<e86847x!§aa°d1741alÄah°d1741im\000amim\000e82285x!§aa°d1741alÄah°d1741\0001am\0001d2138x!§aa°d1741alÄah°d1741\000‹am\000‹e36485x!§aa°d1741alÄah°d1741\0002Â∞am\0002Â∞e82175x!§aa°d1741alÄah°d1741\000'◊úam\000'◊úe36274x!§aa°d1741alÄah°d1741\000É\\ am\000É\\ d2384x!§aa°d1741alÄah°d1741\000«$am\000«$e24885x!§aa°d1741alÄah°d1741\000‘¿am\000‘¿d9760x!§aa°d1741alÄah°d1741\000∑\000am\000∑\000e40282x!§aa°d1741alÄah°d1741\000˚ºam\000˚ºd6550x!§aa°d1741alÄah°d1741\000ñam\000ñlg:116546:186x!§aa°d1741alÄah°d1741\000òï∏am\000òï∏f219474x\"§aa°d1741óalÄah°d1741\000iam\000ilg:159528:242x!§aa°d1741alÄah°d1741\000Ü<am\000Ü<e12531x!§aa°d1741alÄah°d1741\000ïï¿am\000ïï¿d9384x!§aa°d1741\nalÄah°d1741\000-∆¿am\000-∆¿lg:224615:558x\"§aa°d1741MalÄah°d1741\000 am\000 lg:224636:558x\"§aa°d1741NalÄah°d1741\000î‹am\000î‹e25103x!§aa°d1741alÄah°d1741\000zam\000zd2632x!§aa°d1741alÄah°d1741\000Âam\000Âlg:121096:214x!§aa°d1741alÄah°d1741\000<ı‹am\000<ı‹e31305x!§aa°d1741alÄah°d1741\000-Ìam\000-Ìf154794x!§aa°d1741alÄah°d1741\000Kmƒam\000Kmƒlg:188728:322x!§aa°d1741alÄah°d1741\000}‹am\000}‹lg:106548:186x!§aa°d1741alÄah°d1741\000áî4am\000áî4lg:159529:320x!§aa°d1741alÄah°d1741\000ä⁄‡am\000ä⁄‡kg:36210:186x!§aa°d1741alÄah°d1741\000Á{`am\000Á{`d8006x!§aa°d1741alÄah°d1741\000j‚am\000j‚e82077x!§aa°d1741alÄah°d1741\000S\000am\000S\000jg:6331:191x!§aa°d1741alÄah°d1741\000Wºåam\000Wºålg:224632:558x\"§aa°d1741IalÄah°d1741\000†îam\000†îlg:159527:320x!§aa°d1741alÄah°d1741\000WÕXam\000WÕXe20982x!§aa°d1741alÄah°d1741\000($,am\000($,d2396x!§aa°d1741alÄah°d1741\000 P®am\000 P®f152832x!§aa°d1741alÄah°d1741\000πÑam\000πÑlg:176802:320x!§aa°d1741alÄah°d1741\000z†am\000z†d1846x!§aa°d1741alÄah°d1741\000ÒÃam\000ÒÃlg:159532:242x!§aa°d1741alÄah°d1741\000¯Pam\000¯Pd3211x!§aa°d1741alÄah°d1741\0007À¸am\0007À¸c816x!§aa°d1741alÄah°d1741\000‰ﬂÃam\000‰ﬂÃlg:177806:296x!§aa°d1741alÄah°d1741\000Ã≈|am\000Ã≈|e25113x!§aa°d1741alÄah°d1741\000∆tam\000∆te36677x!§aa°d1741alÄah°d1741\000q am\000q f132541x!§aa°d1741alÄah°d1741\000am\000e31142x!§aa°d1741alÄah°d1741\000]ÕHam\000]ÕHf121041x!§aa°d1741alÄah°d1741\000uam\000ujg:7416:186x!§aa°d1741alÄah°d1741\000OU`am\000OU`lg:159519:320x!§aa°d1741\nalÄah°d1741\000\\S(am\000\\S(e10229x!§aa°d1741alÄah°d1741\000ôXam\000ôXf177806x!§aa°d1741alÄah°d1741\000Éc(am\000Éc(lg:178943:320x!§aa°d1741alÄah°d1741\000â°¸am\000â°¸jg:9837:197x!§aa°d1741alÄah°d1741\000HËam\000HËd4023x!§aa°d1741\nalÄah°d1741\000fÏam\000fÏjg:9896:186x!§aa°d1741alÄah°d1741\000‘xam\000‘xlg:159528:320x!§aa°d1741alÄah°d1741\000òopam\000òopkg:36669:242x!§aa°d1741alÄah°d1741\000l®ham\000l®he36479x!§aa°d1741alÄah°d1741\000Ó#¨am\000Ó#¨e62066x§aa°d1741alÄah°d1741¡¿am¡¿lg:116632:186x!§aa°d1741alÄah°d1741\000B@am\000B@lg:116529:186x!§aa°d1741\ralÄah°d1741\000i]am\000i]d2766x!§aa°d1741alÄah°d1741\000z¨am\000z¨d2390x!§aa°d1741alÄah°d1741\000OÆpam\000OÆplg:159527:242x!§aa°d1741alÄah°d1741\000ÎÎ¥am\000ÎÎ¥e25300x!§aa°d1741alÄah°d1741\000≥@am\000≥@lg:224636:564x\"§aa°d1741XalÄah°d1741\000 §am\000 §d2150x!§aa°d1741alÄah°d1741\000˘am\000˘e37776x!§aa°d1741alÄah°d1741@x,am@x,e36486x!§aa°d1741\nalÄah°d1741\0000\000am\0000\000e24909x§aa°d1741alÄah°d1741s<ams<lg:159528:214x!§aa°d1741alÄah°d1741\000ÑÄam\000ÑÄd2208x!§aa°d1741alÄah°d1741\000@am\000@lg:224632:545x!§aa°d1741alÄah°d1741\000†¯am\000†¯jg:9927:214x!§aa°d1741alÄah°d1741\000Ú(¯am\000Ú(¯lg:224636:545x!§aa°d1741alÄah°d1741\000ﬂam\000ﬂe15244x!§aa°d1741alÄah°d1741\000°Ñam\000°Ñlg:219474:521x!§aa°d1741alÄah°d1741\000iam\000if116632x!§aa°d1741alÄah°d1741\000B@am\000B@d9785x!§aa°d1741alÄah°d1741\000”îam\000”îf159520x!§aa°d1741alÄah°d1741\000M¨ƒam\000M¨ƒe15600x!§aa°d1741\nalÄah°d1741}`am}`f116461x!§aa°d1741alÄah°d1741\000-∆¿am\000-∆¿d3994x!§aa°d1741\nalÄah°d1741\0002\\am\0002\\d3187x!§aa°d1741alÄah°d1741\000~Ham\000~He36669x!§aa°d1741alÄah°d1741\000l®am\000l®d3786x!§aa°d1741alÄah°d1741\000yam\000ylg:188026:229x!§aa°d1741alÄah°d1741\000-∆¿am\000-∆¿lg:176991:320x!§aa°d1741alÄah°d17417^am7^e55439x!§aa°d1741alÄah°d1741\000Ã`am\000Ã`e35640x!§aa°d1741alÄah°d1741…ç4am…ç4lg:170116:320x!§aa°d1741alÄah°d1741\000p%`am\000p%`lg:177804:320x!§aa°d1741alÄah°d1741\000‰·¿am\000‰·¿d2912x!§aa°d1741alÄah°d1741\000ªàam\000ªàd9865x!§aa°d1741alÄah°d1741s¨ams¨e37697x!§aa°d1741alÄah°d1741\000D™ am\000D™ e33393x!§aa°d1741alÄah°d1741\000—ç¥am\000—ç¥lg:154794:207x!§aa°d1741alÄah°d1741\000Kmƒam\000Kmƒd6387x!§aa°d1741alÄah°d1741\000ÑÄam\000ÑÄlg:106482:186x!§aa°d1741alÄah°d1741äBhamäBhlg:106746:186x!§aa°d1741alÄah°d1741\0005)`am\0005)`kg:25296:170x!§aa°d1741alÄah°d1741\000=‘am\000=‘e34859x!§aa°d1741\ralÄah°d1741\000Y%‡am\000Y%‡e94055x!§aa°d1741\nalÄah°d1741…√Äam…√Äf211553x!§aa°d1741alÄah°d1741-‡am-‡c776x!§aa°d1741alÄah°d1741\000‰·\\am\000‰·\\e12247x!§aa°d1741alÄah°d1741\000ñbam\000ñbf171390x!§aa°d1741\nalÄah°d1741\000Q|am\000Q|e36258x!§aa°d1741alÄah°d1741≥[Ùam≥[Ùlg:219474:528x\"§aa°d17410alÄah°d1741\000O^¿am\000O^¿e15577x!§aa°d1741alÄah°d1741\000‹wÿam\000‹wÿlg:159520:320x!§aa°d1741alÄah°d1741\000M¨ƒam\000M¨ƒf116644x!§aa°d1741alÄah°d1741\000ònDam\000ònDjg:9865:320x!§aa°d1741alÄah°d1741s¨ams¨kg:37802:301x!§aa°d1741alÄah°d1741\000’ú`am\000’ú`d2207x!§aa°d1741alÄah°d1741\000Qdam\000Qdf116614x!§aa°d1741alÄah°d1741\000å0am\000å0e82104x!§aa°d1741alÄah°d1741\000¬û®am\000¬û®f180795x!§aa°d1741alÄah°d1741\000;–Äam\000;–Älg:116614:186x!§aa°d1741alÄah°d1741\000å0am\000å0f162653x!§aa°d1741alÄah°d1741\000ŸS(am\000ŸS(e15532x!§aa°d1741alÄah°d1741}x@am}x@lg:106315:261x!§aa°d1741alÄah°d1741\000<am\000<e29391x!§aa°d1741alÄah°d1741\000¬gîam\000¬gîe25111x!§aa°d1741alÄah°d1741\000ËHam\000ËHkg:44669:258x!§aa°d1741alÄah°d1741\000Ï\r∞am\000Ï\r∞lg:220330:362x!§aa°d1741alÄah°d1741\000HËam\000HËe15242x!§aa°d1741	alÄah°d1741\000\n≥ÿam\000\n≥ÿd1732x!§aa°d1741alÄah°d1741\000\rπHam\000\rπHe10076x!§aa°d1741alÄah°d1741\000Ham\000He36670x!§aa°d1741alÄah°d1741\000ﬂPam\000ﬂPkg:86847:177x!§aa°d1741alÄah°d1741m¬`amm¬`lg:193393:312x!§aa°d1741alÄah°d1741\000w@am\000w@f164492x!§aa°d1741alÄah°d1741T.TamT.Te13822x!§aa°d1741alÄah°d1741\000r@am\000r@d9896x!§aa°d1741alÄah°d1741\000‘xam\000‘xd4002x!§aa°d1741	alÄah°d1741\0005”Lam\0005”Lf159522x!§aa°d1741alÄah°d1741\000N;ºam\000N;ºlg:224615:545x!§aa°d1741alÄah°d1741\000j\000am\000j\000e55790x!§aa°d1741alÄah°d1741\000<ª®am\000<ª®e24845x!§aa°d1741alÄah°d1741\000»ham\000»hlg:159524:320x!§aa°d1741alÄah°d1741\000O$åam\000O$åe25298x!§aa°d1741alÄah°d1741\000`ºam\000`ºe85843x!§aa°d1741alÄah°d1741\0005P‘am\0005P‘kg:24861:271x!§aa°d1741alÄah°d1741n5úamn5úlg:193393:319x!§aa°d1741alÄah°d1741\000w@am\000w@d2140x§aa°d1741alÄah°d1741¬àam¬àf224615x\"§aa°d1741ŒalÄah°d1741\000 am\000 e98893x!§aa°d1741alÄah°d1741AÂamAÂkg:82003:170x!§aa°d1741alÄah°d1741\0004åXam\0004åXlg:116615:186x!§aa°d1741alÄah°d1741\000Loîam\000Loîe24917x!§aa°d1741	alÄah°d1741\000Äam\000Äjg:9896:320x!§aa°d1741alÄah°d1741\000òñÄam\000òñÄe25110x!§aa°d1741alÄah°d1741\000ÇÑam\000ÇÑkg:55790:169x!§aa°d1741alÄah°d1741\000<ºpam\000<ºpe45316x!§aa°d1741alÄah°d1741\000õ>¯am\000õ>¯jg:3786:207x!§aa°d1741alÄah°d1741\000Ü|am\000Ü|e55333x!§aa°d1741alÄah°d1741\000ïô®am\000ïô®f116462x!§aa°d1741alÄah°d1741\000›£ÿam\000›£ÿe37777x!§aa°d1741alÄah°d1741ÜHamÜHd3810x!§aa°d1741alÄah°d1741\000yam\000ye15659x!§aa°d1741alÄah°d1741’∏am’∏e15499x!§aa°d1741alÄah°d1741}nam}nf106315x!§aa°d1741alÄah°d1741\000<am\000<e13135x!§aa°d1741alÄah°d1741\000am\000f159524x!§aa°d1741alÄah°d1741\000ÑÄam\000ÑÄe36671x!§aa°d1741alÄah°d1741\000D am\000D f159531x!§aa°d1741	alÄah°d1741\000éZîam\000éZîf183971x!§aa°d1741alÄah°d1741\000Døúam\000Døúe25303x!§aa°d1741alÄah°d1741\000ì‡am\000ì‡d7924x!§aa°d1741alÄah°d1741\000®ı am\000®ı d9956x!§aa°d1741alÄah°d1741\000\nham\000\nhlg:160138:242x!§aa°d1741alÄah°d1741\000Ôam\000Ôf132491x!§aa°d1741alÄah°d1741\000ï<am\000ï<d1465x!§aa°d1741alÄah°d1741\000X»am\000X»d1852x!§aa°d1741alÄah°d1741\000WæÄam\000WæÄe25307x§aa°d1741alÄah°d1741à∏amà∏d2854x!§aa°d1741alÄah°d1741\000u\\am\000u\\e24901x§aa°d1741alÄah°d1741¬Ïam¬Ïf229085x!§aa°d1741alÄah°d1741\000êı`am\000êı`lg:176799:320x!§aa°d1741alÄah°d1741\000jœ¿am\000jœ¿lg:121041:214x!§aa°d1741alÄah°d1741\000uam\000ue38436x!§aa°d1741alÄah°d1741\000#\"Ïam\000#\"Ïf106746x!§aa°d1741alÄah°d1741\0005)`am\0005)`f188728x!§aa°d1741alÄah°d1741\000}‹am\000}‹kg:71359:181x!§aa°d1741alÄah°d1741\000ÚÙam\000ÚÙf154825x!§aa°d1741alÄah°d1741\000z‘am\000z‘d1740x!§aa°d1741alÄah°d1741\000•XËam\000•XËe71359x!§aa°d1741alÄah°d1741\000ÚÙam\000ÚÙf121206x!§aa°d1741alÄah°d1741\000€·am\000€·f161073x!§aa°d1741alÄah°d1741\000yÍåam\000yÍåd7416x!§aa°d1741alÄah°d1741\000O1‘am\000O1‘e24853x!§aa°d1741alÄah°d1741\000/Ïam\000/Ïe15545x!§aa°d1741alÄah°d1741\000‡8dam\000‡8de10191x!§aa°d1741alÄah°d1741\000ã§am\000ã§lg:224615:564x\"§aa°d17410alÄah°d1741\000zúam\000zúlg:222465:548x\"§aa°d1741alÄah°d1741\000àam\000àlg:224615:515x!§aa°d1741alÄah°d1741\000§∑0am\000§∑0f159528x!§aa°d1741alÄah°d1741\000ÑÄam\000ÑÄe25299x§aa°d1741alÄah°d1741ºamºjg:4088:186x!§aa°d1741alÄah°d1741\0003vúam\0003vúlg:106449:186x!§aa°d1741alÄah°d1741\000©†8am\000©†8f172329x!§aa°d1741alÄah°d1741\000ßˇlam\000ßˇld2402x!§aa°d1741alÄah°d1741\000	T¨am\000	T¨d8302x!§aa°d1741alÄah°d1741\000äLam\000äLe15639x!§aa°d1741alÄah°d1741\000/˙am\000/˙f121261x!§aa°d1741	alÄah°d1741\000J\000Ïam\000J\000Ïd6591x!§aa°d1741alÄah°d1741\000Eîam\000Eîd7545x!§aa°d1741	alÄah°d1741\000¶`am\000¶`e15620x!§aa°d1741alÄah°d1741\000L`Xam\000L`Xe25306x!§aa°d1741\nalÄah°d1741\000∞am\000∞kg:36475:186x!§aa°d1741alÄah°d1741\000ãÑÃam\000ãÑÃe12259x!§aa°d1741alÄah°d1741\000¶\\am\000¶\\e15590x!§aa°d1741alÄah°d1741\000=	\000am\000=	\000",
+}
+AUCTIONATOR_POSTING_HISTORY = {
+["__dbversion"] = 1,
+["210221"] = {
+{
+["price"] = 4500,
+["quantity"] = 4,
+["time"] = 1727498484,
+},
+},
+["210796"] = {
+{
+["price"] = 210000,
+["quantity"] = 7,
+["time"] = 1727498498,
+},
+},
+["179314"] = {
+{
+["price"] = 600,
+["quantity"] = 2,
+["time"] = 1727498480,
+},
+},
+["210802"] = {
+{
+["price"] = 153400,
+["quantity"] = 6,
+["time"] = 1727498501,
+},
+},
+}
+AUCTIONATOR_VENDOR_PRICE_CACHE = {
+["4341"] = 475,
+["3371"] = 20,
+["82451"] = 5120,
+["211806"] = 27500,
+["10290"] = 2375,
+["2604"] = 48,
+["5956"] = 1,
+["58274"] = 2200,
+["81404"] = 4800,
+["__dbversion"] = 1,
+["2605"] = 95,
+["2901"] = 117,
+["39354"] = 4,
+["6260"] = 48,
+["226202"] = 2850,
+["81403"] = 4800,
+["6261"] = 950,
+["2324"] = 24,
+["81411"] = 5200,
+["4470"] = 38,
+["2325"] = 950,
+["81414"] = 5200,
+["38682"] = 1000,
+["159"] = 1,
+["224764"] = 665,
+["64670"] = 800,
+["81413"] = 5200,
+["210828"] = 118750,
+["85663"] = 151,
+["4340"] = 333,
+["52188"] = 15000,
+["81405"] = 4800,
+["74636"] = 5200,
+["7005"] = 118,
+["81402"] = 4800,
+["81409"] = 5200,
+["212754"] = 570000000,
+["81408"] = 5200,
+["228930"] = 1758,
+["4342"] = 2375,
+["81415"] = 25600,
+["81400"] = 4800,
+["81407"] = 22400,
+["81401"] = 4800,
+["60335"] = 120000,
+["81410"] = 5200,
+["81406"] = 4800,
+["81412"] = 5200,
+}
+AUCTIONATOR_RECENT_SEARCHES = {
+}
+AUCTIONATOR_SELLING_GROUPS = {
+["CustomGroups"] = {
+{
+["hidden"] = false,
+["type"] = 1,
+["name"] = "FAVOURITES",
+["list"] = {
+},
+},
+},
+["Version"] = 1,
+["HiddenItems"] = {
+},
+}

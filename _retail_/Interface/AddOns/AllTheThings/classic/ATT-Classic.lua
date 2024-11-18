@@ -148,6 +148,38 @@ local function GetUnobtainableTexture(group)
 end
 app.GetUnobtainableTexture = GetUnobtainableTexture;
 
+-- Keys for groups which are in-game 'Things'
+-- Copied from Retail since it's used in UI/Waypoints.lua
+app.ThingKeys = {
+	-- filterID = true,
+	flightpathID = true,
+	-- professionID = true,
+	-- categoryID = true,
+	-- mapID = true,
+	npcID = true,
+	creatureID = true,
+	currencyID = true,
+	itemID = true,
+	toyID = true,
+	sourceID = true,
+	speciesID = true,
+	recipeID = true,
+	runeforgepowerID = true,
+	spellID = true,
+	mountID = true,
+	mountmodID = true,
+	illusionID = true,
+	questID = true,
+	objectID = true,
+	encounterID = true,
+	artifactID = true,
+	azeriteessenceID = true,
+	followerID = true,
+	factionID = true,
+	explorationID = true,
+	achievementID = true,	-- special handling
+	criteriaID = true,	-- special handling
+};
 
 local MergeObject;
 local CloneArray = app.CloneArray;
@@ -934,17 +966,14 @@ local function GetSearchResults(method, paramA, paramB, ...)
 		if a then paramA = a; end
 		if b then paramB = b; end
 		-- Move all post processing here?
-		if paramA == "creatureID" or paramA == "encounterID" then
-			local difficultyID = app.GetCurrentDifficultyID();
-			if difficultyID > 0 then
-				local subgroup = {};
-				for _,j in ipairs(group) do
-					if GetRelativeDifficulty(j, difficultyID) then
-						tinsert(subgroup, j);
-					end
+		if paramA == "creatureID" or paramA == "encounterID" or paramA == "objectID" then
+			local subgroup = {};
+			for _,j in ipairs(group) do
+				if not j.ShouldExcludeFromTooltip then
+					tinsert(subgroup, j);
 				end
-				group = subgroup;
 			end
+			group = subgroup;
 
 			local regroup = {};
 			if app.MODE_DEBUG then
@@ -3471,8 +3500,8 @@ recipeFields.collectible = function(t)
 end;
 recipeFields.collected = function(t)
 	if app.CurrentCharacter.Spells[t.spellID] then return 1; end
-	local isKnown = not t.nmc and app.IsSpellKnown(t.spellID, t.rank, GetRelativeValue(t, "requireSkill") == 261);
-	return app.SetCollected(t, "Spells", t.spellID, isKnown);
+	local state = app.SetCollected(t, "Spells", t.spellID, not t.nmc and app.IsSpellKnown(t.spellID, t.rank, GetRelativeValue(t, "requireSkill") == 261), "Recipes");
+	if state == 1 then return 1; elseif state == 2 and app.Settings.AccountWide.Recipes then return 2; end
 end;
 recipeFields.f = function(t)
 	return app.FilterConstants.RECIPES;
@@ -3523,7 +3552,7 @@ local SetBattlePetCollected = function(t, speciesID, collected)
 	return app.SetCollected(t, "BattlePets", speciesID, collected);
 end
 local SetMountCollected = function(t, spellID, collected)
-	return app.SetCollected(t, "Spells", spellID, collected);
+	return app.SetCollected(t, "Spells", spellID, collected, "Mounts");
 end
 local speciesFields = {
 	["f"] = function(t)

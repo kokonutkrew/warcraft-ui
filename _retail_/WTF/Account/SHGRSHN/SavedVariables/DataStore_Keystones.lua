@@ -1,702 +1,106 @@
 
 DataStore_KeystonesDB = {
-	["profileKeys"] = {
-		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
-		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
-		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
-		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
-		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
-		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
-		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
-		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
-		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-		["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
-		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
-		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
-		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
-		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
-		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
-		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
-		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
-		["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
-		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
-		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-	},
-	["global"] = {
-		["Characters"] = {
-			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1615983782,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Samoanruin"] = {
-				["lastUpdate"] = 1611778011,
-			},
-			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1616144292,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Samoansurge"] = {
-				["lastUpdate"] = 1615410918,
-			},
-			["Default.Emerald Dream.Samoanbeast"] = {
-				["lastUpdate"] = 1615365161,
-			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1616045200,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1616044529,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1608226347,
-			},
-			["Default.Emerald Dream.Forgecraft"] = {
-				["lastUpdate"] = 1615982309,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1616051775,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Farmcraft"] = {
-				["lastUpdate"] = 1615967808,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1616143338,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["progress"] = 3,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["progress"] = 3,
-						["level"] = 15,
-						["exampleRewards"] = {
-							"|cffa335ee|Hitem:182976::::::::60:264::5:5:7188:6652:7193:1485:6646::::|h[Double-Chained Utility Belt]|h|r", -- [1]
-							"|cffa335ee|Hitem:182976::::::::60:264::6:5:7187:6652:7193:1498:6646::::|h[Double-Chained Utility Belt]|h|r", -- [2]
-						},
-					},
-					[42] = {
-						["progress"] = 3,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614984260,
-			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["currentKeystone"] = {
-					["keystoneLevel"] = 6,
-					["name"] = "Halls of Atonement",
-					["texture"] = 3759928,
-				},
-				["lastUpdate"] = 1616105465,
-				["WeeklyActivities"] = {
-					[35] = {
-						["progress"] = 1,
-						["level"] = 5,
-						["exampleRewards"] = {
-							"|cffffffff|Hitem:179350::::::::60:261::35:4:7370:7359:1524:6646::::|h[]|h|r", -- [1]
-							"|cffffffff|Hitem:179350::::::::60:261::35:4:7371:7359:1527:6646::::|h[]|h|r", -- [2]
-						},
-					},
-					[37] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["progress"] = 1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["progress"] = 1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["lastUpdate"] = 1611777534,
-			},
-			["Default.Emerald Dream.Orecraft"] = {
-				["lastUpdate"] = 1615982151,
-				["WeeklyActivities"] = {
-					[35] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[37] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[39] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[41] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[34] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[36] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[38] = {
-						["level"] = -1,
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[40] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[42] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-				},
-			},
-			["Default.Emerald Dream.Samoanmystic"] = {
-				["lastUpdate"] = 1612174886,
-			},
-			["Default.Ravenholdt.Samoanbeast"] = {
-				["lastUpdate"] = 1608225467,
-			},
-		},
-		["Options"] = {
-			["WeeklyResetHour"] = 6,
-			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2020-12-15",
-			["NextResetTimestamp"] = 1616511599,
-		},
-	},
+["profileKeys"] = {
+["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
+["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
+["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
+["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
+["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+},
+["global"] = {
+["Characters"] = {
+["Default.Emerald Dream.Samoanslayer"] = {
+["lastUpdate"] = 1615983782,
+},
+["Default.Emerald Dream.Samoanruin"] = {
+["lastUpdate"] = 1611778011,
+},
+["Default.Stormrage.Samoantitan"] = {
+["lastUpdate"] = 1616144292,
+},
+["Default.Emerald Dream.Samoansurge"] = {
+["lastUpdate"] = 1615410918,
+},
+["Default.Emerald Dream.Samoanbeast"] = {
+["lastUpdate"] = 1615365161,
+},
+["Default.Emerald Dream.Herbcraft"] = {
+["lastUpdate"] = 1616045200,
+},
+["Default.Emerald Dream.Mf"] = {
+["lastUpdate"] = 1616044529,
+},
+["Default.Ravenholdt.Hfishsamoan"] = {
+["lastUpdate"] = 1608226347,
+},
+["Default.Emerald Dream.Forgecraft"] = {
+["lastUpdate"] = 1615982309,
+},
+["Default.Emerald Dream.Threadcraft"] = {
+["lastUpdate"] = 1616051775,
+},
+["Default.Emerald Dream.Farmcraft"] = {
+["lastUpdate"] = 1615967808,
+},
+["Default.Emerald Dream.Samoansage"] = {
+["lastUpdate"] = 1616143338,
+},
+["Default.Emerald Dream.Samoanranger"] = {
+["lastUpdate"] = 1614984260,
+},
+["Default.Emerald Dream.Samoansavage"] = {
+["lastUpdate"] = 1616105465,
+},
+["Default.Emerald Dream.Samoanrelic"] = {
+["lastUpdate"] = 1611777534,
+},
+["Default.Emerald Dream.Orecraft"] = {
+["lastUpdate"] = 1615982151,
+},
+["Default.Emerald Dream.Samoanmystic"] = {
+["lastUpdate"] = 1612174886,
+},
+["Default.Ravenholdt.Samoanbeast"] = {
+["lastUpdate"] = 1608225467,
+},
+},
+["Options"] = {
+["WeeklyResetHour"] = 6,
+["WeeklyResetDay"] = 2,
+["NextWeeklyReset"] = "2020-12-15",
+["NextResetTimestamp"] = 1732028399,
+},
+},
 }

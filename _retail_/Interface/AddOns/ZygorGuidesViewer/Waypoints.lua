@@ -219,7 +219,7 @@ function ZGV:ShowWaypoints(command)
 	if arrowpoint and WorldMapFrame:IsShown() then 
 		if ZGV.WorldQuests and (ZGV.WorldQuests.PreventMapSwitch or 0 > 0) then
 			ZGV.WorldQuests.PreventMapSwitch = ZGV.WorldQuests.PreventMapSwitch - 1
-		elseif not UnitOnTaxi("player") and ZGV.db.profile.autoswitchmap then
+		elseif not UnitOnTaxi("player") then
 			if WorldMapFrame.HandleUserActionOpenSelf then
 				OpenWorldMap(arrowpoint.m)
 			else

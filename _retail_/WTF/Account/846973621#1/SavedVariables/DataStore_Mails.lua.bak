@@ -1,0 +1,113 @@
+
+DataStore_Mails_Characters = {
+{
+["MailCache"] = {
+},
+["Mails"] = {
+},
+},
+{
+["lastUpdate"] = 1723493443,
+["Mails"] = {
+},
+["MailCache"] = {
+},
+["lastVisitDate"] = "2024/08/12 14:10",
+},
+{
+["MailCache"] = {
+},
+["Mails"] = {
+},
+},
+{
+["lastUpdate"] = 1724443300,
+["Mails"] = {
+{
+["lastCheck"] = 1724443300,
+["sender"] = "Naber",
+["subject"] = "Recovered Item",
+["returned"] = true,
+["money"] = 0,
+["text"] = "We have recovered something you obtained while serving as a Timerunner that may persist without disrupting the timeline. You will find your property enclosed.\r\n\r\nUntil next we meet.\r\n\r\n   - Moratari",
+["icon"] = 134327,
+["daysLeft"] = 178.1426544189453,
+},
+{
+["lastCheck"] = 1724443300,
+["sender"] = "Naber",
+["subject"] = "Recovered Item",
+["returned"] = true,
+["money"] = 0,
+["text"] = "We have recovered something you obtained while serving as a Timerunner that may persist without disrupting the timeline. You will find your property enclosed.\r\n\r\nUntil next we meet.\r\n\r\n   - Moratari",
+["icon"] = 134327,
+["daysLeft"] = 178.1426544189453,
+},
+},
+["lastVisitDate"] = "2024/08/23 14:01",
+["MailCache"] = {
+},
+},
+{
+["MailCache"] = {
+},
+["Mails"] = {
+},
+},
+{
+["lastUpdate"] = 1726026780,
+["Mails"] = {
+{
+["link"] = "|cff1eff00|Hitem:121044::::::::61:266:::2:6654:1677:2:28:331:9:45:::::|h[Faronaar Chain Helm of the Quickblade]|h|r",
+["sender"] = "The Postmaster",
+["itemID"] = 121044,
+["returned"] = false,
+["icon"] = 1116926,
+["count"] = 1,
+["lastCheck"] = 1726026780,
+["daysLeft"] = 16.93291664123535,
+},
+{
+["link"] = "|cff9d9d9d|Hitem:132233::::::::61:266:::::::::|h[Lingering Essence]|h|r",
+["sender"] = "The Postmaster",
+["itemID"] = 132233,
+["returned"] = false,
+["icon"] = 1003600,
+["count"] = 1,
+["lastCheck"] = 1726026780,
+["daysLeft"] = 16.93291664123535,
+},
+{
+["link"] = "|cff9d9d9d|Hitem:141877::::::::61:266:::::::::|h[Coura's Ancient Scepter]|h|r",
+["sender"] = "The Postmaster",
+["itemID"] = 141877,
+["returned"] = false,
+["icon"] = 135468,
+["count"] = 1,
+["lastCheck"] = 1726026780,
+["daysLeft"] = 16.93291664123535,
+},
+{
+["icon"] = 134327,
+["sender"] = "The Postmaster",
+["subject"] = "Recovered Item",
+["returned"] = false,
+["money"] = 0,
+["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
+["lastCheck"] = 1726026780,
+["daysLeft"] = 16.93291664123535,
+},
+},
+["MailCache"] = {
+},
+["lastVisitDate"] = "2024/09/10 21:53",
+},
+}
+DataStore_Mails_Options = {
+["ReportExpiredMailsToChat"] = true,
+["ScanMailBody"] = true,
+["CheckMailExpiry"] = true,
+["CheckMailExpiryAllAccounts"] = true,
+["MailWarningThreshold"] = 5,
+["CheckMailExpiryAllRealms"] = true,
+}

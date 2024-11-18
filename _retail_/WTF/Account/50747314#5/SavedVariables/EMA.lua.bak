@@ -1,12 +1,59 @@
 
 CoreProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -15,6 +62,54 @@ CoreProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -22,36 +117,217 @@ CoreProfileDB = {
 }
 CommunicationsProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+},
+["Dethsrikesr - Emerald Dream"] = {
+},
+["Sais - Emerald Dream"] = {
+},
 ["Saig - Emerald Dream"] = {
+},
+["Saiab - Emerald Dream"] = {
+},
+["Nicesai - Emerald Dream"] = {
+},
+["Bigponches - Emerald Dream"] = {
+},
+["Worldboss - Area 52"] = {
 },
 ["Dethflare - Emerald Dream"] = {
 },
 ["Winbin - Emerald Dream"] = {
 },
+["Pokemonman - Emerald Dream"] = {
+},
+["Saimg - Emerald Dream"] = {
+},
+["Chieeff - Emerald Dream"] = {
+},
+["Saiol - Emerald Dream"] = {
+},
+["Wouldboss - Emerald Dream"] = {
+},
+["Wearethecham - Emerald Dream"] = {
+},
+["Dethflite - Area 52"] = {
+},
+["Bigbrane - Emerald Dream"] = {
+},
+["Finelldeht - Emerald Dream"] = {
+},
+["Killonsites - Area 52"] = {
+},
+["Bigfistforyo - Emerald Dream"] = {
+},
+["Saikk - Emerald Dream"] = {
+},
 },
 }
 TeamProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
-["Saig - Emerald Dream"] = {
+["Chieef - Area 52"] = {
+["master"] = "Chieef-Area52",
 ["global"] = {
 },
+["newTeamList"] = {
+["Chieef-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Chieef-Area52",
+["online"] = true,
+},
+},
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["master"] = "Dethsrikesr-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Dethsrikesr-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Dethsrikesr-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Sais - Emerald Dream"] = {
+["master"] = "Sais-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Sais-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Sais-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Saig - Emerald Dream"] = {
 ["master"] = "Saig-EmeraldDream",
+["global"] = {
+},
 ["newTeamList"] = {
 ["Saig-EmeraldDream"] = {
 {
 ["order"] = 1,
-["class"] = "ROGUE",
+["class"] = "UNKNOWN",
 ["name"] = "Saig-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Saiab - Emerald Dream"] = {
+["master"] = "Saiab-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Saiab-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Saiab-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+["master"] = "Nicesai-EmeraldDream",
+["newTeamList"] = {
+["Nicesai-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Nicesai-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Bigponches - Emerald Dream"] = {
+["master"] = "Bigponches-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Bigponches-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Bigponches-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Worldboss - Area 52"] = {
+["master"] = "Worldboss-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Worldboss-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Worldboss-Area52",
 ["online"] = true,
 },
 },
@@ -87,18 +363,413 @@ TeamProfileDB = {
 },
 },
 },
+["Pokemonman - Emerald Dream"] = {
+["master"] = "Pokemonman-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Pokemonman-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Pokemonman-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Saimg - Emerald Dream"] = {
+["master"] = "Saimg-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Saimg-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Saimg-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Chieeff - Emerald Dream"] = {
+["master"] = "Chieeff-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Chieeff-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Chieeff-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Saiol - Emerald Dream"] = {
+["master"] = "Saiol-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Saiol-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Saiol-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["master"] = "Wouldboss-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Wouldboss-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Wouldboss-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["master"] = "Wearethecham-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Wearethecham-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Wearethecham-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Dethflite - Area 52"] = {
+["master"] = "Dethflite-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Dethflite-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Dethflite-Area52",
+["online"] = true,
+},
+},
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["master"] = "Bigbrane-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Bigbrane-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Bigbrane-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["master"] = "Finelldeht-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Finelldeht-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Finelldeht-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Killonsites - Area 52"] = {
+["master"] = "Killonsites-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Killonsites-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Killonsites-Area52",
+["online"] = true,
+},
+},
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["master"] = "Bigfistforyo-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Bigfistforyo-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Bigfistforyo-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Saikk - Emerald Dream"] = {
+["master"] = "Saikk-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Saikk-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Saikk-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
 },
 }
 TagProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["tagList"] = {
+["Chieef-Area52"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["tagList"] = {
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["tagList"] = {
+["Sais-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
 ["tagList"] = {
 ["Saig-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["tagList"] = {
+["Saiab-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["tagList"] = {
+["Nicesai-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["tagList"] = {
+["Bigponches-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
+["tagList"] = {
+["Worldboss-Area52"] = {
 "all",
 "master",
 },
@@ -180,16 +851,399 @@ TagProfileDB = {
 ["global"] = {
 },
 },
+["Pokemonman - Emerald Dream"] = {
+["tagList"] = {
+["Pokemonman-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["tagList"] = {
+["Saimg-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["tagList"] = {
+["Chieeff-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["tagList"] = {
+["Saiol-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["tagList"] = {
+["Wouldboss-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["tagList"] = {
+["Wearethecham-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["tagList"] = {
+["Dethflite-Area52"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["tagList"] = {
+["Bigbrane-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["tagList"] = {
+["Finelldeht-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["tagList"] = {
+["Killonsites-Area52"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["tagList"] = {
+["Bigfistforyo-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
+["tagList"] = {
+["Saikk-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
 },
 }
 MessageProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -198,6 +1252,54 @@ MessageProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -205,12 +1307,59 @@ MessageProfileDB = {
 }
 InformationProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -219,6 +1368,54 @@ InformationProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -227,12 +1424,59 @@ InformationProfileDB = {
 InformationClassicProfileDB = nil
 DisplayTeamProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -241,6 +1485,54 @@ DisplayTeamProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -249,12 +1541,59 @@ DisplayTeamProfileDB = {
 FollowProfileDB = nil
 GuildProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -263,6 +1602,54 @@ GuildProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -270,12 +1657,59 @@ GuildProfileDB = {
 }
 InteractionProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -287,16 +1721,431 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
+["global"] = {
+},
+},
 },
 }
 ItemUseProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
 ["Saig - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Saiab - Emerald Dream"] = {
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -383,7 +2232,357 @@ ItemUseProfileDB = {
 ["global"] = {
 },
 },
+["Nicesai - Emerald Dream"] = {
+["frameYOffset"] = 70.00000762939453,
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["frameYOffset"] = 70.00000762939453,
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
 ["Dethflare - Emerald Dream"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Winbin - Emerald Dream"] = {
 ["itemUseTitleHeight"] = 2,
 ["frameYOffset"] = 70.00000762939453,
 ["global"] = {
@@ -471,7 +2670,965 @@ ItemUseProfileDB = {
 },
 },
 },
-["Winbin - Emerald Dream"] = {
+["Pokemonman - Emerald Dream"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Saiol - Emerald Dream"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Dethflite - Area 52"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+["frameYOffset"] = 70.00000762939453,
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -562,12 +3719,59 @@ ItemUseProfileDB = {
 }
 PurchaseProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -576,6 +3780,54 @@ PurchaseProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -583,12 +3835,59 @@ PurchaseProfileDB = {
 }
 QuestProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -597,6 +3896,54 @@ QuestProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -604,12 +3951,59 @@ QuestProfileDB = {
 }
 QuestWatcherProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -618,6 +4012,54 @@ QuestWatcherProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -625,12 +4067,59 @@ QuestWatcherProfileDB = {
 }
 SellProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -639,6 +4128,54 @@ SellProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -646,12 +4183,59 @@ SellProfileDB = {
 }
 TalkProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -660,6 +4244,54 @@ TalkProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -667,12 +4299,59 @@ TalkProfileDB = {
 }
 ToonProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -681,6 +4360,54 @@ ToonProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -688,12 +4415,59 @@ ToonProfileDB = {
 }
 TradeProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -702,6 +4476,54 @@ TradeProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -709,12 +4531,59 @@ TradeProfileDB = {
 }
 MailProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -723,6 +4592,54 @@ MailProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -730,12 +4647,59 @@ MailProfileDB = {
 }
 BankProfileDB = {
 ["profileKeys"] = {
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Dethsrikesr - Emerald Dream"] = "Dethsrikesr - Emerald Dream",
+["Sais - Emerald Dream"] = "Sais - Emerald Dream",
 ["Saig - Emerald Dream"] = "Saig - Emerald Dream",
+["Saiab - Emerald Dream"] = "Saiab - Emerald Dream",
+["Nicesai - Emerald Dream"] = "Nicesai - Emerald Dream",
+["Bigponches - Emerald Dream"] = "Bigponches - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 ["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Pokemonman - Emerald Dream"] = "Pokemonman - Emerald Dream",
+["Saimg - Emerald Dream"] = "Saimg - Emerald Dream",
+["Chieeff - Emerald Dream"] = "Chieeff - Emerald Dream",
+["Saiol - Emerald Dream"] = "Saiol - Emerald Dream",
+["Wouldboss - Emerald Dream"] = "Wouldboss - Emerald Dream",
+["Wearethecham - Emerald Dream"] = "Wearethecham - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Finelldeht - Emerald Dream"] = "Finelldeht - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigfistforyo - Emerald Dream"] = "Bigfistforyo - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
+["Chieef - Area 52"] = {
+["global"] = {
+},
+},
+["Dethsrikesr - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Sais - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Saig - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiab - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Nicesai - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Bigponches - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Worldboss - Area 52"] = {
 ["global"] = {
 },
 },
@@ -744,6 +4708,54 @@ BankProfileDB = {
 },
 },
 ["Winbin - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pokemonman - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saimg - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Chieeff - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saiol - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wouldboss - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Wearethecham - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Dethflite - Area 52"] = {
+["global"] = {
+},
+},
+["Bigbrane - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Finelldeht - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Killonsites - Area 52"] = {
+["global"] = {
+},
+},
+["Bigfistforyo - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Saikk - Emerald Dream"] = {
 ["global"] = {
 },
 },

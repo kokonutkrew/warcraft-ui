@@ -1,10 +1,5 @@
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/BigDebuffs/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
---[[ $Id: CallbackHandler-1.0.lua 22 2018-07-21 14:17:22Z nevcairiel $ ]]
-local MAJOR, MINOR = "CallbackHandler-1.0", 7
-========
 --[[ $Id: CallbackHandler-1.0.lua 26 2022-12-12 15:09:39Z nevcairiel $ ]]
 local MAJOR, MINOR = "CallbackHandler-1.0", 8
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/GladiusEx/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
 local CallbackHandler = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not CallbackHandler then return end -- No upgrade needed

@@ -1,0 +1,32 @@
+
+Rematch_TSMPetValuesDB = {
+["profileKeys"] = {
+["Dewdrop - Emerald Dream"] = "Default",
+["Bubbels - Emerald Dream"] = "Default",
+["Sprinkless - Emerald Dream"] = "Default",
+["Whimsywing - Area 52"] = "Default",
+["Willowe - Emerald Dream"] = "Default",
+["Plumn - Emerald Dream"] = "Default",
+["Manaiakk - Emerald Dream"] = "Default",
+["Mariselle - Emerald Dream"] = "Default",
+["Calyssta - Emerald Dream"] = "Default",
+["Oreoz - Emerald Dream"] = "Default",
+["Whimsywing - Emerald Dream"] = "Default",
+["Cupkekk - Emerald Dream"] = "Default",
+["Bennlythecow - Moon Guard"] = "Default",
+["Aelira - Emerald Dream"] = "Default",
+["Strahberrie - Emerald Dream"] = "Default",
+["Riverblume - Moon Guard"] = "Default",
+},
+["global"] = {
+["Options"] = true,
+["Rematch5_PetList2"] = true,
+["Rematch5_PetList1"] = true,
+["Rematch5_Sorting"] = true,
+["Rematch4_PetList1"] = false,
+["PetItem_TSM"] = false,
+["LDB"] = true,
+["Rematch4_PetList2"] = false,
+["Rematch4_Sorting"] = false,
+},
+}

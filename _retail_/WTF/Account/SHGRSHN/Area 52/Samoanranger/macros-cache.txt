@@ -1,0 +1,30 @@
+VER 3 0100000000000001 "BMBFAST" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:2] BMBFAST RightButton; [button:3] BMBFAST MiddleButton; [button:4] BMBFAST Button4; [button:5] BMBFAST Button5; BMBFAST
+END
+VER 3 0100000000000002 "covAbility" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Resonating Arrow
+/cast Flayed Shot
+/cast Death Chakram
+/cast [@cursor] Wild Spirits
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Resonating Arrow" or G"Flayed Shot" or G"Death Chakram"or G"Wild Spirits")
+END
+VER 3 0100000000000003 "SAM_LUTECHI_BM_AIO" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] SAM_LUTECHI_BM_AIO LeftButton t; [button:2] SAM_LUTECHI_BM_AIO RightButton t; [button:3] SAM_LUTECHI_BM_AIO MiddleButton t; [button:4] SAM_LUTECHI_BM_AIO Button4 t; [button:5] SAM_LUTECHI_BM_AIO Button5 t; SAM_LUTECHI_BM_AIO
+END
+VER 3 0100000000000004 "SAM_LUTECHI_MM_AIO" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] SAM_LUTECHI_MM_AIO LeftButton t; [button:2] SAM_LUTECHI_MM_AIO RightButton t; [button:3] SAM_LUTECHI_MM_AIO MiddleButton t; [button:4] SAM_LUTECHI_MM_AIO Button4 t; [button:5] SAM_LUTECHI_MM_AIO Button5 t; SAM_LUTECHI_MM_AIO
+END
+VER 3 0100000000000005 "SAM_LUTECHI_SURV_AIO" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] SAM_LUTECHI_SURV_AIO LeftButton t; [button:2] SAM_LUTECHI_SURV_AIO RightButton t; [button:3] SAM_LUTECHI_SURV_AIO MiddleButton t; [button:4] SAM_LUTECHI_SURV_AIO Button4 t; [button:5] SAM_LUTECHI_SURV_AIO Button5 t; SAM_LUTE
+END
+VER 3 0100000000000006 "VuhDoDCShieldData" "132281"
+P1NT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000007 "VuhDoDCShieldNames" "132281"
+NSam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

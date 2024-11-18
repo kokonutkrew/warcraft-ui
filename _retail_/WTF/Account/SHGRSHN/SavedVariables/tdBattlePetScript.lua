@@ -1,21 +1,83 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
-["profileKeys"] = {
-["Samoanskully - Area 52"] = "Default",
-["Herbcraft - Area 52"] = "Default",
-},
 ["global"] = {
 ["version"] = "0.0.0.0",
 ["scripts"] = {
-["Rematch"] = {
-},
-["Base"] = {
+["AllInOne"] = {
 },
 ["FirstEnemy"] = {
 },
-["AllInOne"] = {
+["Base"] = {
+},
+["Rematch"] = {
+["team:3"] = {
+["name"] = "Jeremy Feasel",
+["code"] = "change(#3) [enemy(#3).active & enemy.round=1]\nchange(#2) [self(#3).active]\nability(Thunderbolt:779) [round=1]\nability(Decoy:334) [enemy(#2).active]\nability(Thunderbolt:779) [enemy(#2).active]\nability(Wind-Up:459) [enemy(#2).active & !self.aura(Wind-Up:458).exists]\nability(Powerball:566) [enemy(#2).active]\nability(Supercharge:208) [enemy(#3).active]\nability(#1)\nstandby\nchange(next)",
+},
+["team:2"] = {
+["name"] = "Lyver",
+["code"] = "use(919) [round=1] \nuse(581) [round=2] \nuse(1370) [round=5]",
+},
+["team:1"] = {
+["name"] = "Christoph VonFeasel",
+["code"] = "use(#1) [round=1]\nchange(Lil' Bling:1320) [self(#1).active]\nuse(Extra Plating:392) [round=3]\nuse(Make it Rain:985)\nuse(Inflation:1002)\nuse(Wind-Up:459)\nchange(#2)",
 },
 },
+},
+},
+["profileKeys"] = {
+["Samoanslayer - Emerald Dream"] = "Default",
+["Samoanghost - Area 52"] = "Default",
+["Samoansavage - Area 52"] = "Default",
+["Threadcraft - Emerald Dream"] = "Default",
+["Kkbank - Moon Guard"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
+["Blackbetteh - Wyrmrest Accord"] = "Default",
+["Samoansilver - Area 52"] = "Default",
+["Cotiasanna - Alterac Mountains"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
+["Samoandrake - Emerald Dream"] = "Default",
+["Samoanslayer - Area 52"] = "Default",
+["Forgecraft - Area 52"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Samoanrelic - Emerald Dream"] = "Default",
+["Samoansteel - Area 52"] = "Default",
+["Samoanruin - Stormrage"] = "Default",
+["Kk - Bloodhoof"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Samoanbreach - Area 52"] = "Default",
+["Samoanranger - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
+["Samoanranger - Emerald Dream"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoantank - Tichondrius"] = "Default",
+["Samoanranger - Moon Guard"] = "Default",
+["Samoanmystic - Emerald Dream"] = "Default",
+["Herbcraft - Area 52"] = "Default",
+["Tyrielle - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Samoanskully - Area 52"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoansizzle - Area 52"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Samoanwraith - Area 52"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Forgecraft - Illidan"] = "Default",
+["Samoanbeast - Area 52"] = "Default",
+["Kkelly - Moon Guard"] = "Default",
+["Samoanshield - Area 52"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoansage - Tichondrius"] = "Default",
+["Samoanscout - Moon Guard"] = "Default",
+["Kkelly - Wyrmrest Accord"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Gearcraft - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

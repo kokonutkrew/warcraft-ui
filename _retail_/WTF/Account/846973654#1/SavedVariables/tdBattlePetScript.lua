@@ -1,6 +1,7 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 ["global"] = {
+["version"] = "0.0.0.0",
 ["scripts"] = {
 ["AllInOne"] = {
 },
@@ -11,9 +12,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 ["Rematch"] = {
 },
 },
-["version"] = "0.0.0.0",
 },
 ["profileKeys"] = {
+["Xxb - Moon Guard"] = "Default",
 ["Goldsquid - Area 52"] = "Default",
 },
 ["profiles"] = {

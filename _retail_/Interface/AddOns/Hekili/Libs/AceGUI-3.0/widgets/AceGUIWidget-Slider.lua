@@ -171,21 +171,13 @@ local methods = {
 		self.label:SetText(text)
 	end,
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-	["SetSliderValues"] = function(self, min, max, step)
-========
 	["SetSliderValues"] = function(self, min_value, max_value, step)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/Hekili/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
 		local frame = self.slider
 		frame.setup = true
 		self.min = min_value
 		self.max = max_value
 		self.step = step
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-		frame:SetMinMaxValues(min or 0,max or 100)
-========
 		frame:SetMinMaxValues(min_value or 0,max_value or 100)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/Hekili/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
 		UpdateLabels(self)
 		frame:SetValueStep(step or 1)
 		if self.value then

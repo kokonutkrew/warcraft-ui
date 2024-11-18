@@ -1,7 +1,24 @@
+VER 3 0100000000000009 "Angelic Feather" "134400"
+#showtooltip
+/use [@player] angelic feather
+END
+VER 3 010000000000000B "Devouring Plague" "134400"
+#showtooltip
+/use [noform] shadowform; devouring plague
+END
 VER 3 0100000000000005 "Dispersion" "INV_MISC_QUESTIONMARK"
 #showtooltip Dispersion
 /cast Dispersion
 /cancelaura Dispersion
+END
+VER 3 010000000000000A "Flash Heal" "135907"
+#showtooltip
+/cancelaura  shadowform
+/use flash heal
+END
+VER 3 010000000000000C "Mind Sear" "134400"
+#showtooltip
+/use [noform] shadowform; mind sear
 END
 VER 3 0100000000000001 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
 #showtooltip

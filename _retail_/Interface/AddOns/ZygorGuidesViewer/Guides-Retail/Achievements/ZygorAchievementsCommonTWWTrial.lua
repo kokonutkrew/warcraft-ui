@@ -7,4 +7,3 @@ ZygorGuidesViewer:RegisterGuidePlaceholder("Achievement Guides\\The War Within A
 ZygorGuidesViewer:RegisterGuidePlaceholder("Achievement Guides\\The War Within Achievements\\Hallowfall\\Exploration\\The Missing Lynx")
 ZygorGuidesViewer:RegisterGuidePlaceholder("Achievement Guides\\The War Within Achievements\\Hallowfall\\Exploration\\Khaz Algar Safari")
 ZygorGuidesViewer:RegisterGuidePlaceholder("Achievement Guides\\Quests\\Lost and Found")
-ZygorGuidesViewer:RegisterGuidePlaceholder("Achievement Guides\\Dungeons & Raids\\TWW Raids\\Glory of the Nerub-ar Raider")

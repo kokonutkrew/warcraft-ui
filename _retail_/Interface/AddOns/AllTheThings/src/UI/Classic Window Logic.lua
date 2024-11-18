@@ -2525,7 +2525,7 @@ end
 function app:CreateMiniListForGroup(group)
 	-- Is this an achievement criteria or lacking some achievement information?
 	local achievementID = group.achievementID;
-	if achievementID and (group.criteriaID or not group.g) then
+	if achievementID and group.criteriaID then
 		local searchResults = SearchForField("achievementID", achievementID);
 		if #searchResults > 0 then
 			local bestResult;

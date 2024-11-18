@@ -1,0 +1,22 @@
+VER 3 0100000000000004 "1. Opener" "134400"
+#showtooltip
+/castsequence reset=target remorseless winter, obliterate, obliterate, horn of winter, pillar of frost, chill streak
+END
+VER 3 0100000000000006 "Anti-Magic Zone" "134400"
+#showtooltip
+/use [@cursor] anti-magic zone
+END
+VER 3 0100000000000005 "Death&Decay" "134400"
+#showtooltip
+/use [@cursor] death and decay
+END
+VER 3 0100000000000001 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] NEW_SEQUENCE LeftButton t; NEW_SEQUENCE
+END
+VER 3 0100000000000002 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

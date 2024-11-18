@@ -1,0 +1,1702 @@
+
+TRP3_Register = {
+	["profiles"] = {
+		["[MSP]Crull-Grobbulus"] = {
+			["about"] = {
+				["T3"] = {
+					["PH"] = {
+						["BK"] = 1,
+					},
+					["PS"] = {
+						["BK"] = 1,
+					},
+					["HI"] = {
+						["TX"] = "A Veteran of the Second and Third war, Crull served as a Grunt and was injured during the final battle of the Second war and was captured and placed into an Alliance interment camp. He was recued by the young Warchief Thrall and inspired by the young Orc's desire to reconnect with the Old Ways he has dedicated himself to building his bond with the elements.",
+						["BK"] = 1,
+					},
+				},
+				["BK"] = 13,
+				["TE"] = 3,
+				["v"] = 5,
+			},
+			["misc"] = {
+				["ST"] = {
+					["1"] = 2,
+					["3"] = 3,
+					["2"] = 3,
+					["5"] = 0,
+					["4"] = 3,
+					["6"] = 1,
+				},
+				["PE"] = {
+				},
+				["v"] = 12,
+			},
+			["time"] = 1600976490,
+			["link"] = {
+				["Crull-Grobbulus"] = 1,
+			},
+			["characteristics"] = {
+				["RA"] = "Orc",
+				["FN"] = "Crull",
+				["LN"] = "Stormfury",
+				["BP"] = "Draenor",
+				["PS"] = {
+				},
+				["RS"] = 0,
+				["v"] = 4,
+				["IC"] = "Ability_Warrior_WarCry",
+				["AG"] = "Adult",
+				["EC"] = "Yellow",
+				["MI"] = {
+				},
+				["RE"] = "Wanderer",
+				["CL"] = "Shaman",
+				["HE"] = "Tall",
+				["WE"] = "Athletic",
+			},
+			["msp"] = true,
+			["mspver"] = {
+			},
+			["character"] = {
+				["CU"] = "Building his connection to the Elements",
+				["CO"] = "",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 50,
+			},
+		},
+		["[MSP]Kíngpin-Grobbulus"] = {
+			["character"] = {
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 1,
+			},
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+				},
+				["v"] = 1,
+			},
+			["time"] = 1600208561,
+			["link"] = {
+				["Kíngpin-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["v"] = 1,
+				["TE"] = 1,
+				["T1"] = {
+				},
+			},
+			["mspver"] = {
+			},
+			["msp"] = true,
+			["characteristics"] = {
+				["CL"] = "Warrior",
+				["RA"] = "Undead",
+				["PS"] = {
+				},
+				["MI"] = {
+				},
+				["FN"] = "Kíngpin",
+				["IC"] = "INV_Misc_Head_Undead_01",
+				["v"] = 1,
+			},
+		},
+		["0627155820UjwxA"] = {
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+				},
+				["v"] = 1,
+			},
+			["time"] = 1600140456,
+			["link"] = {
+				["Beefstu-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["RA"] = "Tauren",
+				["MI"] = {
+					{
+						["IC"] = "Ability_Hunter_BeastCall",
+						["NA"] = "Nickname",
+						["VA"] = "Big Beef",
+					}, -- [1]
+					{
+						["IC"] = "INV_Scroll_01",
+						["NA"] = "Motto",
+						["VA"] = "Red is Dead",
+					}, -- [2]
+				},
+				["FN"] = "Beefstu",
+				["AG"] = "32",
+				["IC"] = "Spell_Holy_BlessingOfStamina",
+				["PS"] = {
+					{
+						["ID"] = 1,
+						["VA"] = 5,
+						["V2"] = 17,
+					}, -- [1]
+					{
+						["ID"] = 3,
+						["VA"] = 2,
+						["V2"] = 5,
+					}, -- [2]
+					{
+						["ID"] = 6,
+						["VA"] = 2,
+						["V2"] = 5,
+					}, -- [3]
+					{
+						["ID"] = 11,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [4]
+					{
+						["ID"] = 5,
+						["VA"] = 6,
+						["V2"] = 19,
+					}, -- [5]
+				},
+				["RS"] = 0,
+				["CL"] = "Shaman",
+				["v"] = 3,
+				["EH"] = "146cff",
+				["HE"] = "6'4\"",
+				["CH"] = "00c0ff",
+			},
+			["character"] = {
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 1,
+				["v"] = 3,
+			},
+		},
+		["0810133957quSUC"] = {
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 9,
+			},
+			["time"] = 1600143172,
+			["link"] = {
+				["Oremuus-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+					["TX"] = "Viscous fog suspends in stagnant humid air. Leaning against the spalted remains of a once lively stock of Warsong lumber, Oremuus contorts his tongue to lap up the remaining droplets of water in his mug, struggling to quench his neverending thirst.\n\nExtracting magic from his partner, Oremuus silently ponders why he again finds himself compulsed to battle. Even the strongest among them are ultimately mortal, and thereby fragile; liable to poison, disease, and other unfortunate circumstances. How can wars be waged with such unsuitable materials? \n\nEnemies approach in the distance once again. In the momentary stillness, he mutters a familiar anecdote under his breath, \"Those whom you love and those whom you despise will both be made equal in the same ashes.\"{col:ffffff}{/col}",
+				},
+				["BK"] = 4,
+				["TE"] = 1,
+				["v"] = 28,
+			},
+			["characteristics"] = {
+				["RA"] = "Rigor Mortis",
+				["MI"] = {
+					{
+						["IC"] = "INV_Scroll_01",
+						["NA"] = "Motto",
+						["VA"] = "Memento Mori",
+					}, -- [1]
+				},
+				["FN"] = "Oremuus",
+				["v"] = 24,
+				["CL"] = "Healslut",
+				["IC"] = "spell_holy_powerinfusion",
+				["FT"] = "Oremuus The Infuser",
+				["RS"] = 1,
+				["PS"] = {
+				},
+			},
+			["character"] = {
+				["v"] = 47,
+				["CO"] = "",
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 1,
+				["CU"] = "Stoic aspirant of light, consumed by darkness.",
+			},
+		},
+		["07311442551EjEf"] = {
+			["misc"] = {
+				["ST"] = {
+				},
+				["PE"] = {
+				},
+				["v"] = 1,
+			},
+			["time"] = 1600150757,
+			["link"] = {
+				["Zenjuu-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["RA"] = "Troll",
+				["RC"] = {
+					1454, -- [1]
+					0.4035872220993, -- [2]
+					0.71395754814148, -- [3]
+					"Orgrimmar - Valley of Strength", -- [4]
+				},
+				["MI"] = {
+				},
+				["PS"] = {
+				},
+				["v"] = 2,
+				["CL"] = "Mage",
+				["RS"] = 0,
+				["IC"] = "Achievement_Character_Troll_Male",
+				["FN"] = "Zenjuu",
+				["CH"] = "20ffee",
+			},
+			["character"] = {
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 2,
+			},
+		},
+		["[MSP]Blueqt-Grobbulus"] = {
+			["misc"] = {
+				["PE"] = {
+					["1"] = {
+						["AC"] = true,
+						["TI"] = "Necklace of Ears",
+						["IC"] = "inv_misc_bandage_14",
+						["TX"] = "A simple string with several ears belonging to members of The Alliance is worn around Blue's neck",
+					},
+				},
+			},
+			["link"] = {
+				["Blueqt-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["read"] = false,
+				["BK"] = 5,
+				["TE"] = 3,
+				["T3"] = {
+					["PH"] = {
+						["IC"] = "Ability_Warrior_StrengthOfArms",
+						["BK"] = 1,
+						["TX"] = "A tall Troll, with fair skin and a relatively pretty face. Around her neck is a thin cord with a simple pendant bearing the symbol of The Horde. Strung along this cord are several ears belonging to members of The Alliance.",
+					},
+					["HI"] = {
+						["IC"] = "INV_Misc_Book_17",
+						["BK"] = 1,
+						["TX"] = "Born in Sen'Jin Village while her father was away at war, Quelani Thor'krik (known to her friends as \"Blue\") has never met him. As a result, Blue has a deep hatred of The Alliance, and strives to one day join the ranks of the Kor'kron Elite.",
+					},
+				},
+			},
+			["msp"] = true,
+			["character"] = {
+				["RP"] = 2,
+				["XP"] = 1,
+				["CO"] = "twitch.tv/dillontanks",
+			},
+			["time"] = 1600141157,
+			["mspver"] = {
+				["HH"] = 85867461,
+				["HI"] = 2057906635,
+				["DE"] = 3360115978,
+				["AW"] = 4078146426,
+				["AE"] = 3474798317,
+				["PE"] = 1384204358,
+				["AG"] = 2096657357,
+				["HB"] = 3403056304,
+				["AH"] = 2371921549,
+			},
+			["characteristics"] = {
+				["MI"] = {
+					{
+						["IC"] = "Ability_Hunter_BeastCall",
+						["NA"] = "Nickname",
+						["VA"] = "Blue",
+					}, -- [1]
+				},
+				["FN"] = "Quelani Thor'krik",
+				["AG"] = "Young Adult",
+				["CL"] = " ",
+				["BP"] = "Sen'Jin Village",
+				["RS"] = 0,
+				["RE"] = "Orgrimmar",
+				["EC"] = "Yellow- Brown",
+				["HE"] = "Tall",
+				["WE"] = "Slender",
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+		},
+		["1115180335QIsJ9"] = {
+			["misc"] = {
+				["PE"] = {
+					["1"] = {
+						["AC"] = false,
+						["TI"] = "Stylin'",
+						["TX"] = "Wearing a neato red hat",
+						["IC"] = "inv_helmet_50",
+					},
+					["3"] = {
+						["AC"] = false,
+						["TI"] = "Head",
+						["IC"] = "spell_nature_invisibilty",
+						["TX"] = "Bald",
+					},
+					["2"] = {
+						["AC"] = false,
+						["TI"] = "Back",
+						["IC"] = "ability_warrior_warcry",
+						["TX"] = "Hunched",
+					},
+					["5"] = {
+						["AC"] = false,
+						["TI"] = "Fish",
+						["IC"] = "inv_misc_fish_06",
+						["TX"] = "Out",
+					},
+					["4"] = {
+						["IC"] = "inv_bracer_04",
+						["TI"] = "Shoes",
+						["AC"] = false,
+						["TX"] = "Off",
+					},
+				},
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 42,
+			},
+			["time"] = 1600973289,
+			["link"] = {
+				["Bready-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["EC"] = "Red",
+				["FN"] = "The Green Bastard",
+				["AG"] = "Middle-Aged",
+				["IC"] = "inv_misc_herb_09",
+				["EH"] = "d22027",
+				["HE"] = "Average",
+				["CH"] = "fff26f",
+				["RA"] = "Orc",
+				["BP"] = "Parts Unknown",
+				["v"] = 63,
+				["MI"] = {
+				},
+				["PS"] = {
+				},
+				["RE"] = "Zul'Gurub",
+				["RS"] = 0,
+				["FT"] = "Vine Picker",
+				["CL"] = "Thief",
+				["WE"] = "Beefy",
+			},
+			["character"] = {
+				["v"] = 49,
+				["CO"] = "",
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["CU"] = "Callously disregarding the sovereign might of the Gurubashi Empire.",
+			},
+		},
+		["0629073937JjHTI"] = {
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+					["1"] = 5,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 10,
+			},
+			["time"] = 1600151909,
+			["link"] = {
+				["Kathele-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["v"] = 1,
+				["TE"] = 1,
+				["T1"] = {
+				},
+			},
+			["character"] = {
+				["CU"] = "",
+				["CO"] = "",
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 4,
+			},
+			["characteristics"] = {
+				["RA"] = "Undead",
+				["MI"] = {
+				},
+				["PS"] = {
+				},
+				["v"] = 3,
+				["CL"] = "Rogue",
+				["IC"] = "INV_Misc_Head_Undead_02",
+				["EH"] = "f5ff46",
+				["FN"] = "Kathele",
+				["RS"] = 0,
+			},
+		},
+		["0701125254ZESr5"] = {
+			["misc"] = {
+				["PE"] = {
+					["1"] = {
+						["IC"] = "inv_potion_09",
+						["TI"] = "Goofy Charm",
+						["TX"] = "Rumbungo is very kind and often very excited.",
+						["AC"] = true,
+					},
+					["3"] = {
+						["AC"] = true,
+						["TI"] = "Heavy Scale Mail",
+						["TX"] = "Rumbungo's armor clanks as he moves.  A faint smell of iron hangs in the air when he approches. ",
+						["IC"] = "inv_chest_plate08",
+					},
+					["2"] = {
+						["AC"] = true,
+						["TI"] = "Lanky",
+						["TX"] = "Rumbungo has an exeptionally long wingspan.",
+						["IC"] = "vas_charactertransfer",
+					},
+					["5"] = {
+						["AC"] = true,
+						["TI"] = "...what was that?",
+						["TX"] = "For the breifest moment, you notice a red glint in Rumbungo's eye",
+						["IC"] = "ability_cheapshot",
+					},
+					["4"] = {
+						["AC"] = true,
+						["TI"] = "Patron of the Scale Lord",
+						["TX"] = "Praise be to him,the Loa of steel scales.",
+						["IC"] = "inv_bijou_silver",
+					},
+				},
+				["ST"] = {
+					["1"] = 2,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 37,
+			},
+			["time"] = 1600150631,
+			["link"] = {
+				["Rumbungo-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+					["TX"] = "",
+				},
+				["BK"] = 1,
+				["TE"] = 1,
+				["v"] = 5,
+			},
+			["characteristics"] = {
+				["RA"] = "Troll",
+				["LN"] = "Ironblood",
+				["MI"] = {
+				},
+				["FN"] = "Rumbungo",
+				["PS"] = {
+				},
+				["AG"] = "32",
+				["IC"] = "spell_shadow_improvedvampiricembrace",
+				["RS"] = 0,
+				["CL"] = "Juggernaut",
+				["EC"] = "Blood Orange",
+				["v"] = 43,
+				["FT"] = "A kind heart and a savage blade",
+				["HE"] = "6'4",
+				["WE"] = "Tall and lanky yet quite muscular",
+			},
+			["character"] = {
+				["v"] = 55,
+				["CO"] = "",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["CU"] = "Rumbungo seems in a good mood.  He's a little excited.  ",
+			},
+		},
+		["0103204255cmEUD"] = {
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 7,
+			},
+			["time"] = 1600151990,
+			["link"] = {
+				["Beefknuckle-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+					["TX"] = "Orphaned before he knew his own name and grew up in wilds Durtar.  His real name lost to time, and later renamed Beefknuckle by Orcs who found the Tauren.  ",
+				},
+				["BK"] = 1,
+				["TE"] = 1,
+				["v"] = 2,
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["character"] = {
+				["CU"] = "",
+				["CO"] = "",
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 1,
+				["v"] = 7,
+			},
+			["characteristics"] = {
+				["RA"] = "Tauren",
+				["RC"] = {
+					1434, -- [1]
+					0.32361876964569, -- [2]
+					0.28700268268585, -- [3]
+					"Stranglethorn Vale - Grom'gol Base Camp", -- [4]
+				},
+				["RE"] = "Nomadic",
+				["PS"] = {
+				},
+				["v"] = 3,
+				["CL"] = "Hunter",
+				["RS"] = 1,
+				["IC"] = "Spell_Holy_BlessingOfStamina",
+				["EH"] = "004b79",
+				["FN"] = "Beefknuckle",
+				["MI"] = {
+				},
+			},
+		},
+		["0822203817fRtg7"] = {
+			["misc"] = {
+				["PE"] = {
+					["1"] = {
+						["AC"] = false,
+						["TI"] = "d",
+						["TX"] = "SOMEONE CONTROL THIS MAD PRIEST",
+						["IC"] = "ability_druid_challangingroar",
+					},
+				},
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 10,
+			},
+			["time"] = 1600140712,
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["RA"] = "Undead",
+				["MI"] = {
+				},
+				["PS"] = {
+				},
+				["v"] = 2,
+				["IC"] = "INV_Misc_Head_Undead_01",
+				["FN"] = "Ascent",
+				["RS"] = 0,
+				["CL"] = "Priest",
+				["CH"] = "ffe3f8",
+			},
+			["character"] = {
+				["v"] = 3,
+				["CO"] = "",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["CU"] = "",
+			},
+			["link"] = {
+				["Ascent-Grobbulus"] = 1,
+			},
+		},
+		["0911101319b1tTZ"] = {
+			["misc"] = {
+				["ST"] = {
+					["1"] = 4,
+					["3"] = 3,
+					["2"] = 3,
+					["5"] = 1,
+					["4"] = 3,
+					["6"] = 0,
+				},
+				["PE"] = {
+					["1"] = {
+						["AC"] = true,
+						["TI"] = "Smells of Dank Peace Bloom",
+						["TX"] = "Allways be smokin dat peace bloom mon! From dusk till dawn!",
+						["IC"] = "inv_misc_flower_02",
+					},
+					["3"] = {
+						["AC"] = true,
+						["TI"] = "Self Exiled",
+						["TX"] = "Me wife \"Lil Pup\", our kids, and village were butchered and burned in their sleep by Ummies. I would have been there to protect them on our home island… but I was out raiding Ummie coastal villages ",
+						["IC"] = "spell_arcane_teleportorgrimmar",
+					},
+					["2"] = {
+						["AC"] = true,
+						["TI"] = "Wide-crazy \"eye\"d and yakked out",
+						["TX"] = "Always on dat dust Mon!",
+						["IC"] = "inv_misc_dust_02",
+					},
+					["5"] = {
+						["AC"] = true,
+						["TI"] = "I have Island accent of the Blue Trolls",
+						["TX"] = "I am a Sea Troll, the water is where me heart will always be, dats why I talk like this mon.",
+						["IC"] = "achievement_character_troll_male",
+					},
+					["4"] = {
+						["AC"] = true,
+						["TI"] = "I cant spell Mon",
+						["TX"] = "Iz like to read but I dont spell so good mon...",
+						["IC"] = "inv_misc_stonetablet_04",
+					},
+				},
+				["v"] = 31,
+			},
+			["time"] = 1600973730,
+			["zone"] = "Undercity - Trade Quarter",
+			["about"] = {
+				["T1"] = {
+					["TX"] = "You want da story of me Eye? {icon:ability_cheapshot:25}  Or me life mon? I lost me eye in a raid fighting Ummies{icon:inv_misc_head_human_01:25} and coastal Elves {icon:achievement_character_nightelf_female:25}when I was a young troll{icon:inv_misc_head_troll_02:25}… so stop asking.\n\nMe life? \nWhere to begin mon, {icon:inv_misc_pocketwatch_01:25} I be ol’dr den the water in de sea…{icon:spell_frost_summonwaterelemental:25} \n\nItz been a long one mon. Me wife \"Lil Pup\"{icon:ability_seal:25}, our kids, and village {icon:ability_townwatch:25} were butchered{icon:inv_misc_bone_orcskull_01:25} and burned{icon:spell_fire_fire:25} in their sleep by those filthy Ummies. Id’z \nhave been there to protect them on da home island… but me was out raiding\n\ncoastal villages {icon:ability_spy:25}and killing Ummie{icon:ability_rogue_eviscerate:25}  for my own pride, fame, treasure{icon:inv_ingot_05:25}, and booty{icon:spell_shadow_soothingkiss:25}. I canst stay there no more mon, it be too tough from all da guilt mon- So I moved to the Orc city{icon:spell_arcane_teleportorgrimmar:25} to take the fight to the Ummies and their pointy eared Elf frienz. I am a combat Medic {icon:spell_holy_sealofsacrifice:25}and I am normally very intoxicated to help with the pain... {icon:inv_misc_flower_02:25}{icon:inv_misc_dust_02:25}{icon:inv_drink_01:25}\nI does it all, but nothing helps... I can’t talk anymore mon, it hurts too much. Come by again later I might be able to tell you more.\n",
+				},
+				["BK"] = 4,
+				["TE"] = 1,
+				["v"] = 25,
+			},
+			["characteristics"] = {
+				["MI"] = {
+					{
+						["IC"] = "inv_misc_head_troll_01",
+						["NA"] = "Name- Waveraider",
+						["VA"] = "Family known for costal raiding",
+					}, -- [1]
+					{
+						["IC"] = "spell_frost_summonwaterelemental",
+						["NA"] = "Tribe: Sea Troll",
+						["VA"] = "Blue Sea Troll of the Eastern Kingdoms",
+					}, -- [2]
+					{
+						["IC"] = "INV_Scroll_01",
+						["NA"] = "Motto:",
+						["VA"] = "Not my chair, not my problem",
+					}, -- [3]
+					{
+						["IC"] = "inv_misc_fish_12",
+						["NA"] = "Tatto: Blue Snek",
+						["VA"] = "My old costal raiding unit ",
+					}, -- [4]
+					{
+						["IC"] = "ability_seal",
+						["NA"] = "Tatto: <3 R.I.P",
+						["VA"] = "Me Late wife \"Lil Pup\" and our kids",
+					}, -- [5]
+					{
+						["IC"] = "spell_nature_healingtouch",
+						["NA"] = "Tatto: Healers Leaf",
+						["VA"] = "I am a healer and combat multiplier",
+					}, -- [6]
+					{
+						["IC"] = "inv_misc_organ_01",
+						["NA"] = "Tatto: Med Corp",
+						["VA"] = "I am a combat DR. for the Hord",
+					}, -- [7]
+					{
+						["IC"] = "spell_arcane_teleportorgrimmar",
+						["NA"] = "New Home in Org",
+						["VA"] = "Self Exiled becuase of the pain",
+					}, -- [8]
+					{
+						["IC"] = "ability_cheapshot",
+						["NA"] = "Missing Eye: ",
+						["VA"] = "I lost it in a costal raid many moons ago",
+					}, -- [9]
+					{
+						["IC"] = "inv_misc_stonetablet_11",
+						["NA"] = "Pronunciation",
+						["VA"] = "OOOOOOO'l Brown Eye",
+					}, -- [10]
+					{
+						["IC"] = "inv_misc_gem_variety_02",
+						["NA"] = "Favorit Color",
+						["VA"] = "Orange, and Blue",
+					}, -- [11]
+					{
+						["IC"] = "ability_rogue_eviscerate",
+						["NA"] = "Kill All Ummies",
+						["VA"] = "I HATE UMMIES!",
+					}, -- [12]
+					{
+						["IC"] = "inv_misc_dust_01",
+						["NA"] = " Orange Dust",
+						["VA"] = "I am Yakked out on dust",
+					}, -- [13]
+					{
+						["IC"] = "inv_misc_flower_02",
+						["NA"] = "Leagalize it",
+						["VA"] = "I smoke mad Peace Bloom",
+					}, -- [14]
+				},
+				["RA"] = "Eastern Blue Sea Troll",
+				["RS"] = 5,
+				["LN"] = "Waveraider",
+				["RE"] = "Ogrimmar",
+				["PS"] = {
+					{
+						["ID"] = 5,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [1]
+					{
+						["ID"] = 1,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [2]
+					{
+						["ID"] = 4,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [3]
+					{
+						["ID"] = 6,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [4]
+					{
+						["ID"] = 7,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [5]
+					{
+						["ID"] = 8,
+						["VA"] = 3,
+						["V2"] = 10,
+					}, -- [6]
+					{
+						["ID"] = 9,
+						["VA"] = 5,
+						["V2"] = 17,
+					}, -- [7]
+					{
+						["ID"] = 10,
+						["VA"] = 4,
+						["V2"] = 14,
+					}, -- [8]
+					{
+						["ID"] = 11,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [9]
+					{
+						["RT"] = "Normie",
+						["V2"] = 20,
+						["LT"] = "Troll",
+						["LI"] = "spell_fire_lavaspawn",
+						["VA"] = 6,
+						["RI"] = "temp",
+					}, -- [10]
+					{
+						["RT"] = "Soy-Boy Cuck",
+						["V2"] = 20,
+						["LT"] = "Based",
+						["LI"] = "trade_blacksmithing",
+						["VA"] = 6,
+						["RI"] = "inv_misc_thegoldencheep",
+					}, -- [11]
+					{
+						["RT"] = "Sober",
+						["V2"] = 20,
+						["RI"] = "inv_misc_food_19",
+						["VA"] = 6,
+						["LI"] = "inv_drink_01",
+						["LT"] = "Shwaisted",
+					}, -- [12]
+				},
+				["FT"] = "Elder BrownEye of the Eastern Kingdom Blue Sea Trolls",
+				["AG"] = "Elder",
+				["IC"] = "spell_frost_summonwaterelemental",
+				["BP"] = "Raven Tusk Islands, Eastern Kingdoms",
+				["EC"] = "Brown",
+				["v"] = 48,
+				["FN"] = "Oldbrowneye",
+				["TI"] = "Elder",
+				["HE"] = "Real tall for a troll",
+				["WE"] = "Muscular",
+			},
+			["character"] = {
+				["CU"] = "I am trying to levle up me healing mon. Da ummies need to pay mon!",
+				["CO"] = " tryin to grind dungons all fucking day holl at yo boy! I also have a potty mouth and flare for the dramatics\n",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 13,
+			},
+			["link"] = {
+				["Oldbrowneye-Grobbulus"] = 1,
+			},
+		},
+		["0706083605LZOW1"] = {
+			["character"] = {
+				["CU"] = "",
+				["CO"] = "",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 29,
+			},
+			["time"] = 1600145581,
+			["link"] = {
+				["Pwner-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["RA"] = "Badass",
+				["MI"] = {
+				},
+				["FN"] = "Pwner",
+				["v"] = 6,
+				["CL"] = "Warrior",
+				["RS"] = 0,
+				["TI"] = "Epic",
+				["PS"] = {
+				},
+				["IC"] = "spell_nature_strength",
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 7,
+			},
+		},
+		["0830183926OFNWB"] = {
+			["character"] = {
+				["CU"] = "",
+				["CO"] = "",
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 6,
+			},
+			["time"] = 1600973730,
+			["link"] = {
+				["Avyana-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["LN"] = "Endress",
+				["MI"] = {
+					{
+						["IC"] = "INV_Scroll_01",
+						["NA"] = "Love those to whom you give, and take care of each other",
+						["VA"] = "Value",
+					}, -- [1]
+					{
+						["IC"] = "Ability_Hunter_BeastCall",
+						["NA"] = "Avy",
+						["VA"] = "Value",
+					}, -- [2]
+				},
+				["PS"] = {
+					{
+						["ID"] = 1,
+						["VA"] = 3,
+						["V2"] = 10,
+					}, -- [1]
+					{
+						["ID"] = 3,
+						["VA"] = 2,
+						["V2"] = 7,
+					}, -- [2]
+					{
+						["ID"] = 5,
+						["VA"] = 3,
+						["V2"] = 9,
+					}, -- [3]
+					{
+						["ID"] = 6,
+						["VA"] = 2,
+						["V2"] = 5,
+					}, -- [4]
+					{
+						["ID"] = 8,
+						["VA"] = 2,
+						["V2"] = 6,
+					}, -- [5]
+					{
+						["ID"] = 9,
+						["VA"] = 2,
+						["V2"] = 6,
+					}, -- [6]
+					{
+						["ID"] = 10,
+						["VA"] = 4,
+						["V2"] = 14,
+					}, -- [7]
+					{
+						["ID"] = 11,
+						["VA"] = 6,
+						["V2"] = 20,
+					}, -- [8]
+				},
+				["RS"] = 5,
+				["CL"] = "Priest",
+				["EH"] = "50808c",
+				["HE"] = "4'11",
+				["CH"] = "ffffff",
+				["RA"] = "Undead",
+				["RE"] = "Azshara",
+				["v"] = 19,
+				["EC"] = "Hazy Blue",
+				["FN"] = "Avyana",
+				["FT"] = "Fisherman's Widow, Allegiant to The Shattered Company, Wielder of the Light",
+				["AG"] = "32",
+				["IC"] = "INV_Misc_Head_Undead_02",
+				["TI"] = "Preistess",
+				["BP"] = "Hillsbrad",
+				["WE"] = "Frail, weak, small",
+			},
+			["zone"] = "Undercity - Trade Quarter",
+			["misc"] = {
+				["PE"] = {
+					["1"] = {
+						["AC"] = true,
+						["TI"] = "Odd combination",
+						["TX"] = "Usually seen with an ornate fishing rod attached to her scraggly belongings. This pairs strangly with her sacred regalia.",
+						["IC"] = "inv_fishingpole_01",
+					},
+				},
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 10,
+			},
+		},
+		["121609473527BjX"] = {
+			["character"] = {
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 1,
+				["v"] = 3,
+			},
+			["time"] = 1600148491,
+			["link"] = {
+				["Quath-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["CL"] = "Druid",
+				["RA"] = "Tauren",
+				["FN"] = "Quath",
+				["MI"] = {
+				},
+				["PS"] = {
+				},
+				["IC"] = "INV_Misc_Head_Tauren_02",
+				["v"] = 1,
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["misc"] = {
+				["ST"] = {
+				},
+				["PE"] = {
+				},
+				["v"] = 1,
+			},
+		},
+		["0821110305Ac285"] = {
+			["character"] = {
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["v"] = 2,
+			},
+			["time"] = 1600143230,
+			["link"] = {
+				["Zoora-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["CL"] = "Shaman",
+				["RA"] = "Troll",
+				["FN"] = "Zoora",
+				["MI"] = {
+				},
+				["PS"] = {
+				},
+				["IC"] = "INV_Misc_Head_Troll_02",
+				["v"] = 1,
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["misc"] = {
+				["ST"] = {
+				},
+				["PE"] = {
+				},
+				["v"] = 1,
+			},
+		},
+		["[MSP]Shadestalker-Grobbulus"] = {
+			["characteristics"] = {
+				["BP"] = "Strahnbrad",
+				["RA"] = "Undead Forsaken",
+				["RS"] = 5,
+				["LN"] = "the Dread-Pirate",
+				["EC"] = "Blood Red",
+				["FN"] = "Shade,",
+				["FT"] = "Spectre of Strahnbrad, the Sorcerous Sword, & the Bastard Wolf",
+				["AG"] = "24",
+				["IC"] = "inv_sword_61",
+				["PS"] = {
+				},
+				["MI"] = {
+				},
+				["CL"] = "Deathstalker of the Undercity",
+				["v"] = 44,
+				["TI"] = "<Blood Guard>",
+				["RE"] = "Undercity",
+				["CH"] = "9a30ff",
+			},
+			["character"] = {
+				["v"] = 63,
+				["CO"] = "I been hustling all day through canels and alleyways, just to say money trees is the perfect place for Shade and that's just how I feel.",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["CU"] = "Pick your poison, tell me what you're doin'. Everybody gon' respect the shooter. But the one in front of the gun lives forever.",
+			},
+			["time"] = 1600141190,
+			["link"] = {
+				["Shadestalker-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+					["TX"] = "I  was a family man once, married and with a son. All dead by the end of the Third War. Ill never forget the day a young Arthas Menethil, Crown Prince of the Great Alliance made his way through our city of Strahnbrad on his way to Stratholme... and how he utterly decimated all of Upper Lordaeron. My entire village was put to the blade, but I was the only one that fought back. Spoke up. So the fallen prince ripped out my jaw and raised me into the wretched Scourge. Forced to Consume my wife and child their names I dare not utter here, I was a shambling horror truly lost. {img:Interface\\TALENTFRAME\\bg-rogue-subtlety:512:512}",
+				},
+				["BK"] = 1,
+				["TE"] = 1,
+				["v"] = 9,
+			},
+			["msp"] = true,
+			["mspver"] = {
+			},
+			["misc"] = {
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 1,
+				},
+				["PE"] = {
+				},
+				["v"] = 12,
+			},
+		},
+		["0307104845vasIt"] = {
+			["character"] = {
+				["v"] = 78,
+				["CO"] = "Usually down for RP.",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["CU"] = "Working as \"the muscle\" for an organized crime group.",
+			},
+			["time"] = 1600151939,
+			["link"] = {
+				["Torage-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+					["TX"] = "{h2:c}Mysterious origins{/h2}\n\n{p:c}Abandond 20 years ago on the hunter rise in Thunderbluff by a mysterious hooded figure, Torage was raised by the Ragetotem tribe. Although no couple or indevidual adopted him, Torage was raised by the collective and eventually acepted as a Ragetotem and took the name, as well as thier warrior lifestyle.\n\nIt was clear from the start that Torage had natural physicallity, even as an infant. As an adolecent, he was often mistaken for a bull beyond his years. He took to the warrior culture of the Ragetotems like a fish to water, and excelled in all of his combat training.\n\nWhat Torage struggled with was his temper and staying out of trouble. Finding it dificult to respect those significantly weaker than himself. This lead to a falling out with the Ragetotems that take pride in defending others. \n\nTorage's \"by any means nessesary\" philosiphy is also at odds with that of most other Tauren. Torage has adopted full plate armor, guns, explosives, and other contraptions typically frowned upon by many Tauren.\n\n\nWIP{/p}",
+				},
+				["BK"] = 1,
+				["TE"] = 1,
+				["v"] = 9,
+			},
+			["characteristics"] = {
+				["RA"] = "Tauren",
+				["PS"] = {
+					{
+						["ID"] = 1,
+						["VA"] = 4,
+						["V2"] = 14,
+					}, -- [1]
+					{
+						["ID"] = 5,
+						["VA"] = 5,
+						["V2"] = 18,
+					}, -- [2]
+					{
+						["ID"] = 6,
+						["VA"] = 0,
+						["V2"] = 0,
+					}, -- [3]
+					{
+						["ID"] = 8,
+						["VA"] = 5,
+						["V2"] = 15,
+					}, -- [4]
+					{
+						["ID"] = 9,
+						["VA"] = 1,
+						["V2"] = 4,
+					}, -- [5]
+					{
+						["ID"] = 11,
+						["VA"] = 5,
+						["V2"] = 18,
+					}, -- [6]
+				},
+				["LN"] = "Ragetotem",
+				["BP"] = "Unknown",
+				["FN"] = "Torage",
+				["v"] = 12,
+				["RS"] = 0,
+				["IC"] = "Spell_Holy_BlessingOfStamina",
+				["CL"] = "Grenadier",
+				["RE"] = "Wanderer",
+				["MI"] = {
+					{
+						["IC"] = "Ability_Hunter_BeastCall",
+						["NA"] = "The Muscle",
+						["VA"] = "Value",
+					}, -- [1]
+				},
+				["EC"] = "blue-grey",
+				["AG"] = "Unknown (little over 30)",
+				["HE"] = "Taller than most bulls",
+				["WE"] = "Huge!",
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["misc"] = {
+				["PE"] = {
+					["1"] = {
+						["AC"] = true,
+						["TI"] = "Large",
+						["IC"] = "ability_golemthunderclap",
+						["TX"] = "Even for his race, he stands a head taller than most other bulls, and he has the bulk to match. ",
+					},
+					["3"] = {
+						["AC"] = true,
+						["TI"] = "Professional",
+						["TX"] = "Torage is a professional killer, and will do what is in his best intersts. If you get in his way you're dead. If you aren't, you're not worth his time. ",
+						["IC"] = "ability_dualwield",
+					},
+					["2"] = {
+						["AC"] = true,
+						["TI"] = "Scars",
+						["IC"] = "ability_gouge",
+						["TX"] = "Torage is coverd in many scars. Some of the scars are severe enough to leave bald patches.",
+					},
+					["5"] = {
+						["AC"] = true,
+						["TI"] = "Sword master",
+						["TX"] = "Torage seeks knowledge of all things related to mastering the art of the sword. ",
+						["IC"] = "ability_meleedamage",
+					},
+					["4"] = {
+						["AC"] = true,
+						["TI"] = "Well armed",
+						["TX"] = "In addition to the greatsword on his back, Torage carries a large boomstick on his hip, and various explosives and other dangerous looking devices clipped to his war harness and belt. His plate armor, although missmatched, is also clearly not the cheap stuff.",
+						["IC"] = "inv_sword_48",
+					},
+				},
+				["ST"] = {
+					["1"] = 2,
+					["3"] = 2,
+					["2"] = 1,
+					["5"] = 1,
+					["4"] = 2,
+					["6"] = 0,
+				},
+				["v"] = 29,
+			},
+		},
+		["06191019415ff0o"] = {
+			["character"] = {
+				["CU"] = "",
+				["CO"] = "Alchemist\n\nMageblood and Mongoose free with your mats.\nTitans/Greater Nature Resist Available",
+				["RP"] = 2,
+				["LC"] = "enUS",
+				["XP"] = 3,
+				["v"] = 98,
+			},
+			["time"] = 1600151974,
+			["link"] = {
+				["Karg-Grobbulus"] = 1,
+			},
+			["about"] = {
+				["T1"] = {
+					["TX"] = "{img:Interface\\PETBATTLES\\Weather-StaticField:560:110}\n{h2:c}{col:9bcdff}Stormblood{/col}{/h2}\n{p:c}{icon:spell_nature_chainlightning:45}{icon:inv_helmet_69:45}{icon:spell_nature_lightning:45}{/p}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{col:9bcdff}Do people actually RP on this realm?{/col}\n\n\n\n",
+				},
+				["BK"] = 3,
+				["TE"] = 1,
+				["v"] = 13,
+			},
+			["characteristics"] = {
+				["LN"] = "Stormblood",
+				["EC"] = "Amber",
+				["FN"] = "Karg",
+				["AG"] = "Middle-aged",
+				["IC"] = "inv_shoulder_33",
+				["HE"] = "Tall",
+				["CH"] = "9bcdff",
+				["RA"] = "Orc",
+				["RE"] = "Alterac Mountains",
+				["v"] = 22,
+				["RS"] = 0,
+				["CL"] = "Shaman",
+				["FT"] = "Frostwolf Champion",
+				["PS"] = {
+				},
+				["TI"] = "Emissary",
+				["MI"] = {
+					{
+						["IC"] = "inv_jewelry_frostwolftrinket_01",
+						["NA"] = "Clan Lineage",
+						["VA"] = "Frostwolf",
+					}, -- [1]
+					{
+						["IC"] = "inv_bannerpvp_01",
+						["NA"] = "Career",
+						["VA"] = "Champion",
+					}, -- [2]
+					{
+						["IC"] = "ability_warrior_warcry",
+						["NA"] = "Profile",
+						["VA"] = "Rugged and gritty || Intense",
+					}, -- [3]
+					{
+						["IC"] = "trade_herbalism",
+						["NA"] = "Trade",
+						["VA"] = "Herbalist, alchemist",
+					}, -- [4]
+					{
+						["IC"] = "spell_nature_stormreach",
+						["NA"] = "Mastery: Storms",
+						["VA"] = "+5",
+					}, -- [5]
+					{
+						["IC"] = "spell_fire_flameshock",
+						["NA"] = "Mastery: Fire",
+						["VA"] = "+3",
+					}, -- [6]
+					{
+						["IC"] = "spell_nature_earthshock",
+						["NA"] = "Mastery: Earth",
+						["VA"] = "+3",
+					}, -- [7]
+					{
+						["IC"] = "spell_frost_summonwaterelemental",
+						["NA"] = "Mastery: Water",
+						["VA"] = "+5",
+					}, -- [8]
+					{
+						["IC"] = "spell_nature_abolishmagic",
+						["NA"] = "Spirit",
+						["VA"] = "100/100",
+					}, -- [9]
+				},
+				["WE"] = "Brawny",
+			},
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["misc"] = {
+				["ST"] = {
+					["1"] = 3,
+					["3"] = 3,
+					["2"] = 1,
+					["5"] = 3,
+					["4"] = 3,
+					["6"] = 2,
+				},
+				["PE"] = {
+					["1"] = {
+						["AC"] = true,
+						["TI"] = "Thundering Presence",
+						["IC"] = "spell_nature_callstorm",
+						["TX"] = "His demeanor exhibits a calm typically present ahead a foreboding storm. Reserved, until seldom words are carried with the boom of a barritone voice.",
+					},
+					["3"] = {
+						["AC"] = false,
+						["IC"] = "spell_nature_agitatingtotem",
+					},
+					["2"] = {
+						["IC"] = "inv_misc_rune_09",
+						["TI"] = "\"The wind speaks.\"",
+						["AC"] = true,
+						["TX"] = "The shaman wears fur-lined cuffs emblazoned with the mark of the Frostwolf. Five runic stones are embedded in the face of either bracer he wears around his forearms, signifying the names of the Ten Storms he represents.\"",
+					},
+				},
+				["v"] = 23,
+			},
+		},
+		["0315203751B48LS"] = {
+			["misc"] = {
+				["ST"] = {
+					["1"] = 0,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["PE"] = {
+				},
+				["v"] = 7,
+			},
+			["time"] = 1600143105,
+			["zone"] = "Orgrimmar - Hall of the Brave",
+			["about"] = {
+				["T1"] = {
+				},
+				["TE"] = 1,
+				["v"] = 1,
+			},
+			["characteristics"] = {
+				["MI"] = {
+				},
+				["RA"] = "Undead",
+				["BP"] = "Stormwind",
+				["LN"] = "Tramski",
+				["RE"] = "The Deeprun Tram",
+				["PS"] = {
+				},
+				["FN"] = "Wallace",
+				["v"] = 6,
+				["IC"] = "INV_Misc_Head_Undead_01",
+				["RS"] = 0,
+				["EC"] = "Yellow",
+				["AG"] = "41",
+				["CL"] = "Rogue",
+				["FT"] = "The Terror of the Deeprun Tram",
+				["HE"] = "5'7\"",
+				["CH"] = "75680e",
+			},
+			["character"] = {
+				["v"] = 11,
+				["CO"] = "",
+				["RP"] = 1,
+				["LC"] = "enUS",
+				["XP"] = 2,
+				["CU"] = "Separated from his haunt, drifting on the wind...",
+			},
+			["link"] = {
+				["Tramghost-Grobbulus"] = 1,
+			},
+		},
+	},
+	["character"] = {
+		["Oremuus-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0810133957quSUC",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["msp"] = false,
+			["isTrial"] = 0,
+		},
+		["Zenjuu-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "07311442551EjEf",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["msp"] = false,
+			["isTrial"] = 0,
+		},
+		["Karg-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "06191019415ff0o",
+			["class"] = "SHAMAN",
+			["msp"] = false,
+			["race"] = "Orc",
+			["gender"] = 2,
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.14",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "Best Buds",
+		},
+		["Blueqt-Grobbulus"] = {
+			["guild"] = "Moo Crew",
+			["profileID"] = "[MSP]Blueqt-Grobbulus",
+			["class"] = "WARRIOR",
+			["msp"] = true,
+			["race"] = "Troll",
+			["faction"] = "Horde",
+			["client"] = "MyRolePlay",
+			["clientVersion"] = "1.13.4.449",
+			["isTrial"] = 0,
+			["gender"] = 3,
+		},
+		["Avyana-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0830183926OFNWB",
+			["class"] = "PRIEST",
+			["msp"] = false,
+			["race"] = "Scourge",
+			["clientVersion"] = "1.6.14",
+			["faction"] = "Horde",
+			["gender"] = 3,
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "The Shattered Company",
+		},
+		["Quath-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "121609473527BjX",
+			["class"] = "DRUID",
+			["msp"] = false,
+			["race"] = "Tauren",
+			["gender"] = 3,
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.8",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "Blacktooth Grin",
+		},
+		["Beefstu-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0627155820UjwxA",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["msp"] = false,
+			["isTrial"] = 0,
+		},
+		["Rumbungo-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0701125254ZESr5",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["msp"] = false,
+			["isTrial"] = 0,
+		},
+		["Oldbrowneye-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0911101319b1tTZ",
+			["class"] = "PRIEST",
+			["msp"] = false,
+			["race"] = "Troll",
+			["client"] = "Total RP 3",
+			["faction"] = "Horde",
+			["gender"] = 2,
+			["clientVersion"] = "1.6.14",
+			["isTrial"] = 0,
+			["guild"] = "BTMW",
+		},
+		["Kíngpin-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "[MSP]Kíngpin-Grobbulus",
+			["msp"] = true,
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["clientVersion"] = "1.6.14",
+		},
+		["Shadestalker-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "[MSP]Shadestalker-Grobbulus",
+			["clientVersion"] = "1.6.14",
+			["client"] = "Total RP 3",
+			["msp"] = true,
+			["isTrial"] = 0,
+		},
+		["Kathele-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0629073937JjHTI",
+			["isTrial"] = 0,
+			["clientVersion"] = "1.6.14",
+			["msp"] = false,
+			["client"] = "Total RP 3",
+		},
+		["Bready-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "1115180335QIsJ9",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["isTrial"] = 0,
+			["msp"] = false,
+		},
+		["Zoora-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0821110305Ac285",
+			["class"] = "SHAMAN",
+			["msp"] = false,
+			["race"] = "Troll",
+			["gender"] = 3,
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.14",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "Back in Business",
+		},
+		["Pwner-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0706083605LZOW1",
+			["class"] = "WARRIOR",
+			["msp"] = false,
+			["race"] = "Scourge",
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.11",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["gender"] = 2,
+		},
+		["Tramghost-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0315203751B48LS",
+			["class"] = "ROGUE",
+			["msp"] = false,
+			["race"] = "Scourge",
+			["gender"] = 2,
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.14",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "Vengeful Spirit",
+		},
+		["Torage-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0307104845vasIt",
+			["class"] = "WARRIOR",
+			["msp"] = false,
+			["race"] = "Tauren",
+			["gender"] = 2,
+			["faction"] = "Horde",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["isTrial"] = 0,
+			["guild"] = "Horde Mafia",
+		},
+		["Crull-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "[MSP]Crull-Grobbulus",
+			["client"] = "Total RP 3",
+			["clientVersion"] = "1.6.14",
+			["isTrial"] = 0,
+			["msp"] = true,
+		},
+		["Ascent-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0822203817fRtg7",
+			["class"] = "PRIEST",
+			["msp"] = false,
+			["race"] = "Scourge",
+			["gender"] = 2,
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.14",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "Grief",
+		},
+		["Beefknuckle-Grobbulus"] = {
+			["extended"] = 0,
+			["profileID"] = "0103204255cmEUD",
+			["class"] = "HUNTER",
+			["msp"] = false,
+			["race"] = "Tauren",
+			["gender"] = 2,
+			["faction"] = "Horde",
+			["clientVersion"] = "1.6.14",
+			["client"] = "Total RP 3",
+			["isTrial"] = 0,
+			["guild"] = "Frostwolf Clan",
+		},
+	},
+	["companion"] = {
+	},
+	["blockList"] = {
+	},
+}

@@ -3,11 +3,7 @@
 -- as well as associate it with a slash command.
 -- @class file
 -- @name AceConfig-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/BigDebuffs/libs/AceConfig-3.0/AceConfig-3.0.lua
--- @release $Id: AceConfig-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceConfig-3.0.lua 1335 2024-05-05 19:35:16Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfig-3.0.lua
 
 --[[
 AceConfig-3.0

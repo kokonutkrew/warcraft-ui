@@ -415,11 +415,10 @@ do
 		end,
 		collectible = function(t) return app.Settings.Collectibles.Achievements end,
 		collected = function(t)
-			-- character saved
+			-- character saved criteria
 			if t.saved then return 1 end
-			local id = t.achievementID
-			-- account-wide collected achievement
-			if app.IsAccountTracked("Achievements", id) then return 2 end
+			-- otherwise completion based on achievement
+			return app.TypicalCharacterCollected("Achievements", t.achievementID)
 		end,
 		trackable = app.ReturnTrue,
 		saved = function(t)

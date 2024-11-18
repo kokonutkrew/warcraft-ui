@@ -1,0 +1,118 @@
+
+TRP3_AddonLocale = nil
+TRP3_Register = {
+["profiles"] = {
+["0816171753YRDE*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+["time"] = 1724109663,
+["link"] = {
+["Samoanslayer-Area52"] = 1,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["zone"] = "Brewmoon Festival - Binan Village",
+["characteristics"] = {
+["CL"] = "Warrior",
+["RA"] = "Orc",
+["FN"] = "Samoanslayer",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_orc_male",
+["v"] = 46,
+},
+},
+["08171650450Zfm*"] = {
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["character"] = {
+["RP"] = 2,
+["v"] = 1,
+["WU"] = 1,
+},
+["time"] = 1724109400,
+["link"] = {
+["Floide-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Highmountain Tauren",
+["FN"] = "Floide",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "ability_racial_bullrush",
+["v"] = 14,
+},
+["zone"] = "Brewmoon Festival - Binan Village",
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+},
+["character"] = {
+["Floide-MoonGuard"] = {
+["extended"] = 1045,
+["profileID"] = "08171650450Zfm*",
+["guild"] = "KK",
+["class"] = "DRUID",
+["msp"] = false,
+["classID"] = 11,
+["gender"] = 2,
+["extendedVersion"] = "2.2.1",
+["race"] = "HighmountainTauren",
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+["Samoanslayer-Area52"] = {
+["extended"] = 1045,
+["profileID"] = "0816171753YRDE*",
+["guild"] = "KK",
+["class"] = "WARRIOR",
+["msp"] = false,
+["classID"] = 1,
+["gender"] = 2,
+["extendedVersion"] = "2.2.1",
+["race"] = "Orc",
+["faction"] = "Horde",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.3",
+},
+},
+["companion"] = {
+},
+["blockList"] = {
+},
+}

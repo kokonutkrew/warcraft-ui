@@ -1,12 +1,11 @@
 
 Details_StreamerDB = {
 ["characters"] = {
-["Maliatt - Area 52"] = "Snuglebug - Area 52",
-["Faithwyn - Area 52"] = "Snuglebug - Area 52",
-["Snuglebug - Area 52"] = "Snuglebug - Area 52",
+["Maliaelle - Moon Guard"] = "Maliaelle - Moon Guard",
+["Maliakk - Emerald Dream"] = "Maliaelle - Moon Guard",
 },
 ["profiles"] = {
-["Snuglebug - Area 52"] = {
+["Maliaelle - Moon Guard"] = {
 ["use_square_mode"] = false,
 ["is_first_run"] = false,
 ["arrow_color"] = {
@@ -51,8 +50,8 @@ Details_StreamerDB = {
 ["author"] = "Terciob",
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 ["font_size"] = 10,
-["y"] = 0.0009307861328125,
-["x"] = 0,
+["y"] = 0.0001373291015625,
+["x"] = 3.0517578125e-05,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
 ["per_second"] = {
@@ -60,7 +59,7 @@ Details_StreamerDB = {
 ["point"] = "CENTER",
 ["scale"] = 1,
 ["font_shadow"] = true,
-["y"] = 0.00115966796875,
+["y"] = 0.0042572021484375,
 ["x"] = 3.0517578125e-05,
 ["size"] = 32,
 ["update_speed"] = 0.05,

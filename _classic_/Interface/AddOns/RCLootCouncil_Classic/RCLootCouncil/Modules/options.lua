@@ -219,6 +219,12 @@ function addon:OptionsTable()
 										desc = L["Check to append the realmname of a player from another realm"],
 										type = "toggle",
 									},
+									useSlashRC = {
+										order = 6,
+										name = L.opt_useSlashRC_name,
+										desc = L.opt_useSlashRC_desc,
+										type = "toggle",
+									},
 									header = {
 										order = 7,
 										type = "header",
@@ -231,7 +237,7 @@ function addon:OptionsTable()
 										desc = L["test_desc"],
 										type = "execute",
 										func = function()
-											InterfaceOptionsFrame:Hide(); -- close all option frames before testing
+											HideUIPanel(SettingsPanel)
 											self:Test(3)
 										end,
 									},
@@ -241,7 +247,7 @@ function addon:OptionsTable()
 										type = "execute",
 										order = 9,
 										func = function()
-											InterfaceOptionsFrame:Hide()
+											HideUIPanel(SettingsPanel)
 											LibStub("AceConfigDialog-3.0"):CloseAll()
 											addon:CallModule("version")
 										end,
@@ -252,7 +258,7 @@ function addon:OptionsTable()
 										desc = L["Opens the synchronizer"],
 										type = "execute",
 										func = function()
-											InterfaceOptionsFrame:Hide()
+											HideUIPanel(SettingsPanel)
 											LibStub("AceConfigDialog-3.0"):CloseAll()
 											self.Sync:Spawn()
 										end,
@@ -375,7 +381,10 @@ function addon:OptionsTable()
 										name = L["Open the Loot History"],
 										desc = L["open_the_loot_history_desc"],
 										type = "execute",
-										func = function() self:CallModule("history");	_G.InterfaceOptionsFrame:Hide();end,
+										func = function() 
+											HideUIPanel(SettingsPanel)
+											self:CallModule("history")
+										end,
 									},
 									clearLootDB = {
 										order = 6,
@@ -443,14 +452,14 @@ function addon:OptionsTable()
 										type = "select",
 										width = "double",
 										values = {
-											[time() - 604800] = format(L["x days"], 7),
-											[time() - 1209600] = format(L["x days"], 14),
-											[time() -2592000] = format(L["x days"], 30),
-											[time() -5184000] = format(L["x days"], 60),
-											[time() -7776000] = format(L["x days"], 90),
-											[time() -10368000] = format(L["x days"], 120),
-											[time() -15552000] = format(L["x days"], 180),
-											[time() -31536000] = format(L["x days"], 365),
+											[7] = format(L["x days"], 7),
+											[14] = format(L["x days"], 14),
+											[30] = format(L["x days"], 30),
+											[60] = format(L["x days"], 60),
+											[90] = format(L["x days"], 90),
+											[120] = format(L["x days"], 120),
+											[180] = format(L["x days"], 180),
+											[365] = format(L["x days"], 365),
 										},
 										get = function(info)
 											return selections[info[#info]] or ""
@@ -469,7 +478,12 @@ function addon:OptionsTable()
 												addon:Print(L["Invalid selection"])
 												return
 											end
-											self:GetActiveModule("history"):DeleteEntriesOlderThanEpoch(selections.deleteDate)
+											local DaysToSeconds = function(days)
+												return tonumber(days or 0) * 86400
+											end
+
+											local deleteOlderThan = time() - DaysToSeconds(selections.deleteDate)
+											self:GetActiveModule("history"):DeleteEntriesOlderThanEpoch(deleteOlderThan)
 											selections.deleteDate = "" -- Barrow: Needs to be reset.
 										end,
 									},
@@ -1201,6 +1215,18 @@ function addon:OptionsTable()
 										min = 1,
 										max = self.db.profile.maxAwardReasons,
 										step = 1,
+										set = function(info, val)
+											addon.db.profile[info[#info]] = val
+											-- Update disenchant - especially if we just hid the only disenachant reason
+											addon.db.profile.disenchant = false
+											for i = 1, self.db.profile.numAwardReasons do
+												if self.db.profile.awardReasons[i].disenchant then
+													addon.db.profile.disenchant = true
+													break
+												end
+											end
+											addon:ConfigTableChanged(info[#info])
+										end
 									},
 									-- Award reasons made further down
 									reset = {
@@ -1578,7 +1604,7 @@ function addon:OptionsTable()
 													for i = 1, GetNumGuildMembers() do
 														local name, _, rankIndex = GetGuildRosterInfo(i) -- get info from all guild members
 														if rankIndex + 1 <= val then -- if the member is the required rank, or above
-															tinsert(self.db.profile.council, name) -- then insert them to the council
+															tinsert(self.db.profile.council, self:UnitName(name)) -- then insert them to the council
 														end
 													end
 													addon:CouncilChanged()
@@ -1715,6 +1741,9 @@ function addon:OptionsTable()
 				-- And move the temp up
 				self.db.profile.buttons.default[i - 1] = tempBtn
 				self.db.profile.responses.default[i - 1] = tempResponse
+
+				self.db.profile.responses.default[i].sort = i
+				self.db.profile.responses.default[i - 1].sort = i - 1
 			end,
 		}
 		options.args.mlSettings.args.buttonsTab.args.buttonOptions.args["move_down"..i] = {
@@ -1731,6 +1760,8 @@ function addon:OptionsTable()
 				self.db.profile.responses.default[i] = self.db.profile.responses.default[i + 1]
 				self.db.profile.buttons.default[i + 1] = tempBtn
 				self.db.profile.responses.default[i + 1] = tempResponse
+				self.db.profile.responses.default[i].sort = i
+				self.db.profile.responses.default[i + 1].sort = i + 1
 			end,
 		}
 
@@ -1895,7 +1926,7 @@ function addon:GetGuildOptions()
 						wipe(names)
 						for ci = 1, GetNumGuildMembers() do
 							local name, _, rankIndex = GetGuildRosterInfo(ci); -- NOTE I assume the realm part of name is without spaces.
-							if (rankIndex + 1) == i then names[name] = Ambiguate(name, "short") end -- Ambiguate to show realmname for players from another realm
+							if (rankIndex + 1) == i then names[self:UnitName(name)] = Ambiguate(name, "short") end -- Ambiguate to show realmname for players from another realm
 						end
 						table.sort(names, function(v1, v2)
 							return v1 and v1 < v2

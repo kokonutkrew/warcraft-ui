@@ -1,0 +1,335 @@
+
+EncounterDetailsDB = {
+["chartData"] = {
+nil,
+nil,
+nil,
+nil,
+{
+["Raid Damage Done"] = {
+7412,
+0,
+7593,
+0,
+831,
+1817,
+4799,
+0,
+35,
+0,
+0,
+0,
+0,
+["max_value"] = 7593,
+["__time"] = 1724056390,
+},
+},
+{
+["Raid Damage Done"] = {
+2242,
+7990,
+["max_value"] = 7990,
+["__time"] = 1724056393,
+},
+},
+{
+["Raid Damage Done"] = {
+71,
+0,
+["max_value"] = 71,
+["__time"] = 1724056397,
+},
+},
+{
+["Raid Damage Done"] = {
+92,
+["max_value"] = 92,
+["__time"] = 1724056407,
+},
+},
+{
+["Raid Damage Done"] = {
+38,
+0,
+71,
+0,
+0,
+0,
+["max_value"] = 71,
+["__time"] = 1724056415,
+},
+},
+{
+["Raid Damage Done"] = {
+92,
+0,
+["max_value"] = 92,
+["__time"] = 1724056420,
+},
+},
+{
+["Raid Damage Done"] = {
+["__time"] = 1724056421,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724056432,
+},
+},
+{
+["Raid Damage Done"] = {
+34,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+71,
+35,
+-1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+71,
+-1,
+-1,
+-1,
+0,
+0,
+0,
+0,
+["max_value"] = 71,
+["__time"] = 1724056461,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724056462,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["__time"] = 1724056482,
+},
+},
+[17] = {
+["Raid Damage Done"] = {
+5930,
+0,
+["max_value"] = 5930,
+["__time"] = 1724056697,
+},
+},
+[18] = {
+["Raid Damage Done"] = {
+1079,
+["max_value"] = 1079,
+["__time"] = 1724056701,
+},
+},
+[19] = {
+["Raid Damage Done"] = {
+5934,
+-3,
+-3,
+1951,
+100,
+2394,
+["max_value"] = 5934,
+["__time"] = 1724056707,
+},
+},
+[20] = {
+["Raid Damage Done"] = {
+1140,
+552,
+0,
+990,
+0,
+["max_value"] = 1140,
+["__time"] = 1724056721,
+},
+},
+[21] = {
+["Raid Damage Done"] = {
+644,
+["max_value"] = 644,
+["__time"] = 1724056723,
+},
+},
+[22] = {
+["Raid Damage Done"] = {
+0,
+737,
+0,
+0,
+1482,
+2036,
+0,
+["max_value"] = 2036,
+["__time"] = 1724056730,
+},
+},
+[23] = {
+["Raid Damage Done"] = {
+712,
+1211,
+541,
+426,
+8091,
+0,
+["max_value"] = 8091,
+["__time"] = 1724056737,
+},
+},
+[24] = {
+["Raid Damage Done"] = {
+5856,
+0,
+["max_value"] = 5856,
+["__time"] = 1724056739,
+},
+},
+[25] = {
+["Raid Damage Done"] = {
+10385,
+["max_value"] = 10385,
+["__time"] = 1724056764,
+},
+},
+[26] = {
+["Raid Damage Done"] = {
+17629,
+1227,
+7765,
+14847,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1480,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 17629,
+["__time"] = 1724056790,
+},
+},
+[27] = {
+["Raid Damage Done"] = {
+2770,
+3186,
+["max_value"] = 3186,
+["__time"] = 1724056798,
+},
+},
+[28] = {
+["Raid Damage Done"] = {
+3292,
+4114,
+3380,
+5705,
+1483,
+1483,
+0,
+155,
+0,
+0,
+0,
+["max_value"] = 5705,
+["__time"] = 1724056823,
+},
+},
+[29] = {
+["Raid Damage Done"] = {
+["__time"] = 1724056825,
+},
+},
+[30] = {
+["Raid Damage Done"] = {
+0,
+0,
+["__time"] = 1724056834,
+},
+},
+[31] = {
+["Raid Damage Done"] = {
+121,
+0,
+0,
+["max_value"] = 121,
+["__time"] = 1724056852,
+},
+},
+},
+["encounter_spells"] = {
+[443503] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "High Inquisitor Whitemane",
+},
+[111854] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Instructor Chillheart",
+},
+[9256] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "High Inquisitor Whitemane",
+},
+[115289] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Thalnos the Soulrender",
+},
+},
+["emotes"] = {
+{
+["boss"] = "Darkmaster Gandling",
+},
+{
+["boss"] = "Lilian Voss",
+},
+{
+["boss"] = "Rattlegore",
+},
+},
+}

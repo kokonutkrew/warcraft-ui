@@ -1,0 +1,61 @@
+
+SilverDragon3DB = {
+["profileKeys"] = {
+["Bennlythecow - Moon Guard"] = "Default",
+["Manaiakk - Emerald Dream"] = "Default",
+},
+["namespaces"] = {
+["Overlay"] = {
+},
+["VignetteStretch"] = {
+},
+["TomTom"] = {
+},
+["Macro"] = {
+},
+["Tooltip"] = {
+},
+["Scan_Chat"] = {
+},
+["DarkMagic"] = {
+},
+["ClickTarget"] = {
+["profiles"] = {
+["Default"] = {
+["anchor"] = {
+["y"] = -245.4109115600586,
+["x"] = -260.0001220703125,
+["point"] = "RIGHT",
+},
+},
+},
+},
+["History"] = {
+},
+["LDB"] = {
+},
+["Scan_Vignettes"] = {
+},
+["Scan_Targets"] = {
+},
+["Sync"] = {
+},
+["Announce"] = {
+},
+["Marker"] = {
+},
+},
+["global"] = {
+["mob_count"] = {
+[73161] = 1,
+},
+["mob_seen"] = {
+[73161] = 1721870739,
+},
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}
+SilverDragon2DB = nil

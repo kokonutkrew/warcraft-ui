@@ -75,15 +75,7 @@ local function Constructor()
 	titletext:SetJustifyH("LEFT")
 	titletext:SetHeight(18)
 
-<<<<<<< Updated upstream
-	local border = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-=======
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
-	local border = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-========
 	local border = CreateFrame("Frame", nil, frame, "BackdropTemplate")
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/TomTom/libs/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
->>>>>>> Stashed changes
 	border:SetPoint("TOPLEFT", 0, -17)
 	border:SetPoint("BOTTOMRIGHT", -1, 3)
 	border:SetBackdrop(PaneBackdrop)

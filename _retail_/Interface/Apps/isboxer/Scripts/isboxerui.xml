@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+  <window name='isboxerfirstrun'>
+    <StorePosition>0</StorePosition>
+    <Visible>0</Visible>
+    <Title>Welcome to ISBoxer 41!</Title>
+    <X>100</X>
+    <Y>r300</Y>
+    <Width>r200</Width>
+    <Height>200</Height>
+    <Resizable />
+    <Children>
+      <Console name='output'>
+        <Width>100%</Width>
+        <Height>100%</Height>          
+      </Console>
+      <!--
+      <Console name='output'>
+        <Width>100%</Width>
+        <Height>r24</Height>
+          
+      </Console>
+    <Button name='close'>
+            <Text>NO, I AM EXPERT!</Text>
+            <X>4</X>
+            <Y>r20</Y>
+            <Height>16</Height>
+            <Width>120</Width>
+            <OnLeftClick>
+              This:Hide
+            </OnLeftClick>
+          </Button>
+        <Button name='next'>
+            <Text>Next</Text>
+            <X>r54</X>
+            <Y>r20</Y>
+            <Height>16</Height>
+            <Width>50</Width>
+            <OnLeftClick>
+              This:Hide
+            </OnLeftClick>          
+        </Button>-->
+    </Children>
+  </window>
+  <frame name='isboxerpopup'>
+    <StorePosition>0</StorePosition>
+    <BackgroundColor>66111111</BackgroundColor>
+    <Height>40</Height>
+    <Width>60%</Width>
+    <OnLoad>
+      This:SetLeftClickThru[1]
+      This:SetRightClickThru[1]
+    </OnLoad>
+    <OnRender>
+      if ${This.FadeState.Equal[FADED]}
+      This:Hide
+    </OnRender>
+    <Visible>0</Visible>
+    <X>20%</X>
+    <Y>20%</Y>
+    <children>
+      <text name='text'>
+        <Height>100%</Height>
+        <Width>100%</Width>
+        <Font Template='text.Font'>
+          <Color>FFFFFFFF</Color>
+        </Font>
+        <Text>Popup Text</Text>
+        <Wrap>1</Wrap>
+        <Alignment>Center</Alignment>
+        <VerticalAlignment>Center</VerticalAlignment>
+      </text>
+    </children>
+  </frame>
+  <frame name='isboxerstopup'>
+    <StorePosition>0</StorePosition>
+    <BackgroundColor>66111111</BackgroundColor>
+    <Height>40</Height>
+    <Width>60%</Width>
+    <OnLoad>
+      This:SetLeftClickThru[1]
+      This:SetRightClickThru[1]
+    </OnLoad>
+    <OnRender>
+      if ${This.FadeState.Equal[FADED]}
+      This:Hide
+    </OnRender>
+    <Visible>0</Visible>
+    <X>20%</X>
+    <Y>30%</Y>
+    <children>
+      <text name='text'>
+        <Height>100%</Height>
+        <Width>100%</Width>
+        <Font Template='text.Font'>
+          <Color>FFFFFFFF</Color>
+        </Font>
+        <Text>Stop-up Text</Text>
+        <Wrap>1</Wrap>
+        <Alignment>Center</Alignment>
+        <VerticalAlignment>Center</VerticalAlignment>
+      </text>
+    </children>
+  </frame>
+  <frame name='isboxerbutton'>
+    <StorePosition>0</StorePosition>
+    <BackgroundColor>FF00FF00</BackgroundColor>
+    <Width>16</Width>
+    <Height>16</Height>
+    <Visible>0</Visible>
+    <X>50%</X>
+    <Y>0</Y>
+    <Border>0</Border>
+    <OnLeftDown>
+      This:SetMetadata[dragging,1]
+      This:SetMetadata[mousex,${Mouse.X:Dec[${This.X}]}]
+      This:SetMetadata[mousey,${Mouse.Y:Dec[${This.Y}]}]
+    </OnLeftDown>
+    <OnLeftClick>
+      This:SetMetadata[dragging,0]
+    </OnLeftClick>
+    <OnRightClick>
+      ISBoxerUI:ToggleUI
+    </OnRightClick>
+    <OnRender>
+      <![CDATA[
+			if ${This.GetMetadata[dragging]}
+			{
+				This:SetX[${Mouse.X:Dec[${This.GetMetadata[mousex]}]}]:SetY[${Mouse.Y:Dec[${This.GetMetadata[mousey]}]}]
+
+				if ${This.X}<0
+					This:SetX[0]
+				elseif ${This.X}+${This.Width}>${Display.Width}
+					This:SetX[${Display.Width:Dec[${This.Width}]}]
+
+				if ${This.Y}<0
+					This:SetY[0]
+				elseif ${This.Y}+${This.Height}>${Display.Height}
+					This:SetY[${Display.Height:Dec[${This.Height}]}]
+			}
+			]]>
+    </OnRender>
+  </frame>
+  <window name='isboxerrepeaterregioneditor'>
+    <Visible>0</Visible>
+    <StorePosition>0</StorePosition>
+    <Title>Repeater Region Editor</Title>
+    <Width>298</Width>
+    <Height>288</Height>
+    <X>400</X>
+    <Y>100</Y>
+    <WidthResizable MinWidth='194'>1</WidthResizable>
+    <Children>
+      <ComboBox name='regions'>
+        <X>4</X>
+        <Y>4</Y>
+        <Width>r8</Width>
+        <Height>16</Height>
+        <OnSelect>
+          if ${This.SelectedItem(exists)}
+          {
+          ISBoxerUI:SelectRepeaterWindow["${This.SelectedItem.Value}"]
+          }
+        </OnSelect>
+      </ComboBox>
+
+      <Frame name='dynamic'>
+        <Width>100%</Width>
+        <Height>20</Height>
+        <Y>24</Y>
+        <Children>
+          <Text name='location'>
+            <X>4</X>
+            <Y>4</Y>
+            <Width>100</Width>
+            <Text>...</Text>
+            <OnRender>
+              if ${ISBoxerUI.SelectedFrame}
+              {
+              This:SetText["${UIElement[${ISBoxerUI.SelectedFrame}].AbsoluteX},${UIElement[${ISBoxerUI.SelectedFrame}].AbsoluteY}"]
+              }
+              else
+              {
+              This:SetText["..."]
+              }
+            </OnRender>
+          </Text>
+          <Text name='size'>
+            <X>50%</X>
+            <Y>4</Y>
+            <Width>100</Width>
+            <Text>...</Text>
+            <OnRender>
+              if ${ISBoxerUI.SelectedFrame}
+              {
+              This:SetText["${UIElement[${ISBoxerUI.SelectedFrame}].Width}x${UIElement[${ISBoxerUI.SelectedFrame}].Height}"]
+              }
+              else
+              {
+              This:SetText["..."]
+              }
+            </OnRender>
+          </Text>
+        </Children>
+      </Frame>
+      <Frame name='editor'>
+        <X>4</X>
+        <Y>44</Y>
+        <Width>r8</Width>
+        <Height>r48</Height>
+        <BackgroundColor>FF333333</BackgroundColor>
+        <Children>
+
+        </Children>
+      </Frame>
+    </Children>
+  </window>
+  <window name='isboxerconsole'>
+    <Visible>0</Visible>
+    <Title>ISBoxer Debugging Console</Title>
+    <X>r610</X>
+    <Y>10</Y>
+    <Width>600</Width>
+    <Height>160</Height>
+    <Resizable />
+    <Children>
+      <Console name='output'>
+        <Width>100%</Width>
+        <Height>100%</Height>
+      </Console>
+    </Children>
+  </window>
+  <window name='isboxervideofeededitor'>
+    <Visible>0</Visible>
+    <AlwaysOnTop>1</AlwaysOnTop>
+    <StorePosition>0</StorePosition>
+    <Title>Video FX Editor</Title>
+    <Width>298</Width>
+    <Height>348</Height>
+    <X>440</X>
+    <Y>100</Y>
+    <WidthResizable MinWidth='194'>1</WidthResizable>
+    <Children>
+      <ComboBox name='videofeeds'>
+        <X>4</X>
+        <Y>4</Y>
+        <Width>r8</Width>
+        <Height>16</Height>
+        <OnSelect>
+          if ${This.SelectedItem(exists)}
+          {
+          ISBoxerUI:SelectWindow["${This.SelectedItem.Value}"]
+          }
+        </OnSelect>
+      </ComboBox>
+      <Frame name='dynamic'>
+        <Width>100%</Width>
+        <Height>20</Height>
+        <Y>24</Y>
+        <Children>
+          <Text name='location'>
+            <X>4</X>
+            <Y>4</Y>
+            <Width>100</Width>
+            <Text>...</Text>
+            <OnRender>
+              if ${ISBoxerUI.SelectedFrame}
+              {
+              This:SetText["${UIElement[${ISBoxerUI.SelectedFrame}].AbsoluteX},${UIElement[${ISBoxerUI.SelectedFrame}].AbsoluteY}"]
+              }
+              else
+              {
+              This:SetText["..."]
+              }
+            </OnRender>
+          </Text>
+          <Text name='size'>
+            <X>50%</X>
+            <Y>4</Y>
+            <Width>100</Width>
+            <Text>...</Text>
+            <OnRender>
+              if ${ISBoxerUI.SelectedFrame}
+              {
+              This:SetText["${UIElement[${ISBoxerUI.SelectedFrame}].Width}x${UIElement[${ISBoxerUI.SelectedFrame}].Height}"]
+              }
+              else
+              {
+              This:SetText["..."]
+              }
+            </OnRender>
+          </Text>
+        </Children>
+      </Frame>
+      <Frame name='editor'>
+        <X>4</X>
+        <Y>44</Y>
+        <Width>r8</Width>
+        <Height>r48</Height>
+        <BackgroundColor>FF333333</BackgroundColor>
+        <Children>
+          <ComboBox name='issource'>
+            <X>4</X>
+            <Y>4</Y>
+            <Height>16</Height>
+            <Width>r52</Width>
+            <Items>
+              <Item Value='0' Default='1'>Video FX Viewer</Item>
+              <Item Value='1'>Video FX Source</Item>
+            </Items>
+            <OnSelect>
+              if !${ID}
+              return
+
+              switch ${This.SelectedItem.Value}
+              {
+              case 0
+              UIElement[useborder@editor@isboxervideofeededitor]:Show
+              UIElement[labelOpacity@editor@isboxervideofeededitor]:Show
+              UIElement[opacity@editor@isboxervideofeededitor]:Show
+              UIElement[border@editor@isboxervideofeededitor]:Show
+              ;UIElement[targets label@editor@isboxervideofeededitor]:Show
+              ;UIElement[targets@editor@isboxervideofeededitor]:Show
+              UIElement[useRepeater@editor@isboxervideofeededitor]:Show
+              UIElement[useKeyboard@editor@isboxervideofeededitor]:Show
+              UIElement[useFocusHotkey@editor@isboxervideofeededitor]:Show              
+              UIElement[key maps label@editor@isboxervideofeededitor]:Show
+              UIElement[key maps@editor@isboxervideofeededitor]:Show
+              
+              UIElement[mapped keys@editor@isboxervideofeededitor]:Show
+              break
+              case 1
+              UIElement[useborder@editor@isboxervideofeededitor]:Hide
+              UIElement[labelOpacity@editor@isboxervideofeededitor]:Hide
+              UIElement[opacity@editor@isboxervideofeededitor]:Hide
+              UIElement[border@editor@isboxervideofeededitor]:Hide
+              ;UIElement[targets label@editor@isboxervideofeededitor]:Hide
+              ;UIElement[targets@editor@isboxervideofeededitor]:Hide
+              UIElement[useRepeater@editor@isboxervideofeededitor]:Hide
+              UIElement[useKeyboard@editor@isboxervideofeededitor]:Hide
+              UIElement[useFocusHotkey@editor@isboxervideofeededitor]:Hide              
+              UIElement[key maps label@editor@isboxervideofeededitor]:Hide
+              UIElement[key maps@editor@isboxervideofeededitor]:Hide
+              UIElement[mapped keys@editor@isboxervideofeededitor]:Hide
+              break
+              case 2
+              UIElement[useborder@editor@isboxervideofeededitor]:Hide
+              UIElement[labelOpacity@editor@isboxervideofeededitor]:Hide
+              UIElement[opacity@editor@isboxervideofeededitor]:Hide
+              UIElement[border@editor@isboxervideofeededitor]:Hide
+              ;UIElement[targets label@editor@isboxervideofeededitor]:Hide
+              ;UIElement[targets@editor@isboxervideofeededitor]:Hide
+              UIElement[useRepeater@editor@isboxervideofeededitor]:Hide
+              UIElement[useKeyboard@editor@isboxervideofeededitor]:Hide
+              UIElement[useFocusHotkey@editor@isboxervideofeededitor]:Hide              
+              UIElement[key maps label@editor@isboxervideofeededitor]:Hide
+              UIElement[key maps@editor@isboxervideofeededitor]:Hide
+              UIElement[mapped keys@editor@isboxervideofeededitor]:Hide
+              break
+              }
+
+            </OnSelect>
+          </ComboBox>
+          <Text name='labelName'>
+            <X>4</X>
+            <Y>24</Y>
+            <Width>r4</Width>
+            <Text>Video FX Name</Text>
+          </Text>
+          <TextEntry name='name'>
+            <X>4</X>
+            <Y>44</Y>
+            <Width>r8</Width>
+            <Height>16</Height>
+          </TextEntry>
+          <Text name='labelX'>
+            <X>4</X>
+            <Y>64</Y>
+            <Width>r4</Width>
+            <Text>Left</Text>
+          </Text>
+          <TextEntry name='feedX'>
+            <X>64</X>
+            <Y>64</Y>
+            <Width>64</Width>
+            <Height>16</Height>
+            <OnLoad>This:SetText[0]</OnLoad>
+          </TextEntry>
+          <Text name='labelY'>
+            <X>4</X>
+            <Y>84</Y>
+            <Width>r4</Width>
+            <Text>Top</Text>
+          </Text>
+          <TextEntry name='feedY'>
+            <X>64</X>
+            <Y>84</Y>
+            <Width>64</Width>
+            <Height>16</Height>
+            <OnLoad>This:SetText[0]</OnLoad>
+          </TextEntry>
+          <Text name='labelWidth'>
+            <X>r132</X>
+            <Y>64</Y>
+            <Width>r4</Width>
+            <Text>Width</Text>
+          </Text>
+          <TextEntry name='feedwidth'>
+            <X>r68</X>
+            <Y>64</Y>
+            <Width>64</Width>
+            <Height>16</Height>
+            <OnLoad>This:SetText[128]</OnLoad>
+          </TextEntry>
+          <Text name='labelHeight'>
+            <X>r132</X>
+            <Y>84</Y>
+            <Width>r4</Width>
+            <Text>Height</Text>
+          </Text>
+          <TextEntry name='feedheight'>
+            <X>r68</X>
+            <Y>84</Y>
+            <Width>64</Width>
+            <Height>16</Height>
+            <OnLoad>This:SetText[128]</OnLoad>
+          </TextEntry>
+          <CheckBox name='useBorder'>
+            <X>4</X>
+            <Y>104</Y>
+            <Width>96</Width>
+            <Height>16</Height>
+            <Text>Border color</Text>
+          </CheckBox>
+          <TextEntry name='border'>
+            <X>108</X>
+            <Y>104</Y>
+            <Width>64</Width>
+            <Height>16</Height>
+            <OnLoad>This:SetText[ffffff]</OnLoad>
+          </TextEntry>
+          <Text name='labelOpacity'>
+            <X>4</X>
+            <Y>124</Y>
+            <Width>100</Width>
+            <Text>Opacity</Text>
+          </Text>
+          <TextEntry Name='opacity'>
+            <X>108</X>
+            <Y>124</Y>
+            <Width>100</Width>
+            <Height>16</Height>
+            <OnLoad>This:SetText[255]</OnLoad>
+            <!--          <AutoTooltip>Opacity</AutoTooltip>
+          <Range>255</Range>
+          <OnLoad>This:SetValue[255]</OnLoad>-->
+          </TextEntry>
+
+          <CheckBox name='useRepeater'>
+            <X>4</X>
+            <Y>154</Y>
+            <Width>128</Width>
+            <Height>16</Height>
+            <Text>Repeater pass-thru</Text>
+          </CheckBox>
+          <CheckBox name='useKeyboard'>
+            <X>148</X>
+            <Y>154</Y>
+            <Width>96</Width>
+            <Height>16</Height>
+            <Text>+ Keyboard</Text>
+          </CheckBox>
+          <CheckBox name='useFocusHotkey'>
+            <X>4</X>
+            <Y>174</Y>
+            <Width>192</Width>
+            <Height>16</Height>
+            <Text>Enable Video FX Focus Hotkey</Text>
+          </CheckBox>
+          <!--
+          <Text name='targets label'>
+            <X>4</X>
+            <Y>174</Y>
+            <Width>60</Width>
+            <Text>Target</Text>
+          </Text>
+          <ComboBox name='targets'>
+            <X>68</X>
+            <Y>174</Y>
+            <Height>16</Height>
+            <Width>r116</Width>
+          </ComboBox>
+          -->
+          <Text name='key maps label'>
+            <X>4</X>
+            <Y>204</Y>
+            <Width>r4</Width>
+            <Text>Mapped Key on enter/exit</Text>
+          </Text>
+          <ComboBox name='key maps'>
+            <X>24</X>
+            <Y>224</Y>
+            <Height>16</Height>
+            <Width>r52</Width>
+            <OnSelect>
+              ISBoxerUI:ResetMappedKeysCombo[key maps@editor@isboxervideofeededitor,mapped keys@editor@isboxervideofeededitor]
+            </OnSelect>
+          </ComboBox>
+          <ComboBox name='mapped keys'>
+            <X>24</X>
+            <Y>244</Y>
+            <Height>16</Height>
+            <Width>r52</Width>
+          </ComboBox>
+          <Button name='close'>
+            <Text>Close</Text>
+            <X>r183</X>
+            <Y>r20</Y>
+            <Height>16</Height>
+            <Width>50</Width>
+            <OnLeftClick>
+              if !${ISBoxerUI(exists)}
+              {
+              This:SetText[":("]
+              return
+              }
+              ISBoxerUI:VideoFeedEditorClose
+            </OnLeftClick>
+          </Button>
+          <Button name='sync'>
+            <Text>Sync</Text>
+            <X>r108</X>
+            <Y>r20</Y>
+            <Height>16</Height>
+            <Width>50</Width>
+            <OnLeftClick>
+              if !${ISBoxerUI(exists)}
+              {
+              This:SetText[":("]
+              return
+              }
+              ISBoxerUI:VideoFeedEditorSync
+            </OnLeftClick>
+          </Button>
+          <Button name='apply'>
+            <Text>Apply</Text>
+            <X>r54</X>
+            <Y>r20</Y>
+            <Height>16</Height>
+            <Width>50</Width>
+            <OnLeftClick>
+              if !${ISBoxerUI(exists)}
+              {
+              This:SetText[":("]
+              return
+              }
+              ISBoxerUI:VideoFeedEditorApply
+            </OnLeftClick>
+          </Button>
+        </Children>
+      </Frame>
+    </Children>
+  </window>
+  <window name='isboxermain'>
+    <Visible>0</Visible>
+    <AlwaysOnTop>1</AlwaysOnTop>
+    <StorePosition>0</StorePosition>
+    <Title>ISBoxer Control Panel</Title>
+    <Width>558</Width>
+    <!-- was 338 -->
+    <Height>288</Height>
+    <X>80</X>
+    <Y>100</Y>
+    <CloseButton>0</CloseButton>
+    <WidthResizable MinWidth='194'>1</WidthResizable>
+    <Children>
+      <Frame name='images'>
+        <Visible>0</Visible>
+      </Frame>
+      <Button name='reload'>
+        <Text>Reload ISBoxer Settings</Text>
+        <X>4</X>
+        <Y>4</Y>
+        <Height>16</Height>
+        <Width>160</Width>
+        <OnLeftClick>
+          relay all run isboxer -reload
+        </OnLeftClick>
+      </Button>
+      <TabControl name='tabs'>
+        <X>4</X>
+        <Y>24</Y>
+        <Width>r8</Width>
+        <Height>r28</Height>
+        <BackgroundColor>FF333333</BackgroundColor>
+        <FrameTexture />
+        <Font template='tabcontrol.Font'>
+          <Color>FFDDDDDD</Color>
+        </Font>
+        <Tabs>
+          <Tab Name='menus'>
+            <Button name='sync'>
+              <Text>Sync Visible Menu Positions</Text>
+              <X>4</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                ISBoxerUI:SyncMenus
+              </OnLeftClick>
+            </Button>
+            <Button name='save'>
+              <Text>Save All Menu Positions</Text>
+              <X>4</X>
+              <Y>24</Y>
+              <Height>16</Height>
+              <Width>160</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                relay all ISBoxerUI:SaveMenus
+              </OnLeftClick>
+            </Button>
+          </Tab>
+          <Tab Name='click bars'>
+            <!--
+            <Button name='save'>
+              <Text>Save</Text>
+              <X>68</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                ISBoxerUI:SaveClickBarPositions
+              </OnLeftClick>
+            </Button> -->
+            <Button name='sync'>
+              <Text>Sync</Text>
+              <X>4</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                ISBoxerUI:SyncClickBars
+              </OnLeftClick>
+            </Button>
+            <Button name='reset'>
+              <Text>Reset</Text>
+              <X>68</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                ISBoxerUI:ResetClickBars
+              </OnLeftClick>
+            </Button>
+
+            <Button name='show'>
+              <Text>Show All</Text>
+              <X>4</X>
+              <Y>44</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                ISBoxerUI:ShowClickBars
+              </OnLeftClick>
+            </Button>
+            <Button name='hide'>
+              <Text>Hide All</Text>
+              <X>68</X>
+              <Y>44</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                ISBoxerUI:HideClickBars
+              </OnLeftClick>
+            </Button>
+
+            <Text name='label2'>
+              <X>4</X>
+              <Y>144</Y>
+              <Width>r4</Width>
+              <Text>Click Bar Set</Text>
+            </Text>
+            <ComboBox name='sets'>
+              <X>4</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>r72</Width>
+            </ComboBox>
+            <Button name='remove set'>
+              <Text>Remove</Text>
+              <X>r64</X>
+              <Y>184</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                if ${UIElement[sets@click bars@tabs@isboxermain].SelectedItem.Text.Length}
+                relay all "ISBoxerUI:RemoveClickBars[\"${UIElement[sets@click bars@tabs@isboxermain].SelectedItem.Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please select a Click Bar Set from the dropdown box before trying to remove!"]
+              </OnLeftClick>
+            </Button>
+            <Textentry name='save as'>
+              <X>68</X>
+              <Y>204</Y>
+              <Width>116</Width>
+              <Height>16</Height>
+              <OnLoad>This:SetText[Auto]</OnLoad>
+            </Textentry>
+            <Button name='save click bars'>
+              <Text>Save as</Text>
+              <X>4</X>
+              <Y>204</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                if ${UIElement[save as@click bars@tabs@isboxermain].Text.Length}
+                relay all "ISBoxerUI:StoreClickBars[\"\${ISBoxerCharacterSet.Escape}\",\"\${ISBoxerCharacter.Escape}\",\"${UIElement[save as@click bars@tabs@isboxermain].Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please enter a name to save the Click Bar Set as!"]
+              </OnLeftClick>
+            </Button>
+            <Button name='load click bars'>
+              <Text>Load</Text>
+              <X>r64</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                if ${UIElement[sets@click bars@tabs@isboxermain].SelectedItem.Text.Length}
+                relay all "ISBoxerUI:LoadClickBars[\"\${ISBoxerCharacterSet.Escape}.\${ISBoxerCharacter.Escape}\",\"${UIElement[sets@click bars@tabs@isboxermain].SelectedItem.Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please select a Click Bar Set from the dropdown box before trying to load!"]
+              </OnLeftClick>
+            </Button>
+
+          </Tab>
+          <Tab Name="repeater regions">
+            <Textentry name='name'>
+              <X>68</X>
+              <Y>4</Y>
+              <Width>r116</Width>
+              <Height>16</Height>
+            </Textentry>
+            <Text name='name label'>
+              <X>4</X>
+              <Y>4</Y>
+              <Width>60</Width>
+              <Text>Name</Text>
+            </Text>
+            <Text name='targets label'>
+              <X>4</X>
+              <Y>24</Y>
+              <Width>60</Width>
+              <Text>Target</Text>
+            </Text>
+            <ComboBox name='targets'>
+              <X>68</X>
+              <Y>24</Y>
+              <Height>16</Height>
+              <Width>r116</Width>
+            </ComboBox>
+            <Button name='new region'>
+              <Text>Add</Text>
+              <X>r44</X>
+              <Y>24</Y>
+              <Height>16</Height>
+              <Width>40</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                if ${UIElement[targets@repeater regions@tabs@isboxermain].SelectedItem.Text.Length}
+                ISBoxerUI:AddRepeaterRegion["${UIElement[targets@repeater regions@tabs@isboxermain].SelectedItem.Text.Escape}",${UIElement[block local@repeater regions@tabs@isboxermain].Checked},0,0,0,0,"${UIElement[key maps@repeater regions@tabs@isboxermain].SelectedItem.Text.Escape}","${UIElement[mapped keys@repeater regions@tabs@isboxermain].SelectedItem.Text.Escape}","${UIElement[name@repeater regions@tabs@isboxermain].Text.Escape}"]
+                else
+                ISBoxerUI:PopupText["Please select a target from the dropdown box before adding a region!"]
+              </OnLeftClick>
+            </Button>
+            <CheckBox name='block local'>
+              <Text>Block click from current window</Text>
+              <X>4</X>
+              <Y>44</Y>
+              <Height>16</Height>
+              <Width>r8</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                ISBoxerUI:ResetTargetCombo
+              </OnLeftClick>
+            </CheckBox>
+            <Button name='clear regions'>
+              <Text>Clear</Text>
+              <X>4</X>
+              <Y>124</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                relay all ISBoxerUI:ClearRepeaterRegions
+              </OnLeftClick>
+            </Button>
+            <Button name='sync regions'>
+              <Text>Sync</Text>
+              <X>68</X>
+              <Y>124</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                ISBoxerUI:SyncRepeaterRegions
+              </OnLeftClick>
+            </Button>
+            <Text name='key maps label'>
+              <X>4</X>
+              <Y>64</Y>
+              <Width>r4</Width>
+              <Text>Mapped Key on enter/exit</Text>
+            </Text>
+            <ComboBox name='key maps'>
+              <X>24</X>
+              <Y>84</Y>
+              <Height>16</Height>
+              <Width>r52</Width>
+              <OnSelect>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                ISBoxerUI:ResetMappedKeysCombo
+              </OnSelect>
+            </ComboBox>
+            <ComboBox name='mapped keys'>
+              <X>24</X>
+              <Y>104</Y>
+              <Height>16</Height>
+              <Width>r52</Width>
+            </ComboBox>
+            <Text name='label2'>
+              <X>4</X>
+              <Y>144</Y>
+              <Width>r4</Width>
+              <Text>Region Set</Text>
+            </Text>
+            <ComboBox name='sets'>
+              <X>4</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>r72</Width>
+            </ComboBox>
+            <Button name='remove set'>
+              <Text>Remove</Text>
+              <X>r64</X>
+              <Y>184</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                if ${UIElement[sets@repeater regions@tabs@isboxermain].SelectedItem.Text.Length}
+                relay all "ISBoxerUI:RemoveRepeaterRegions[\"${UIElement[sets@repeater regions@tabs@isboxermain].SelectedItem.Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please select a Region Set from the dropdown box before trying to remove!"]
+              </OnLeftClick>
+            </Button>
+            <Textentry name='save as'>
+              <X>68</X>
+              <Y>204</Y>
+              <Width>116</Width>
+              <Height>16</Height>
+              <OnLoad>This:SetText[Auto]</OnLoad>
+            </Textentry>
+            <Button name='save regions'>
+              <Text>Save as</Text>
+              <X>4</X>
+              <Y>204</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+                if ${UIElement[save as@repeater regions@tabs@isboxermain].Text.Length}
+                relay all "ISBoxerUI:StoreRepeaterRegions[\"\${ISBoxerCharacterSet.Escape}\",\"\${ISBoxerCharacter.Escape}\",\"${UIElement[save as@repeater regions@tabs@isboxermain].Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please enter a name to save the Region Set as!"]
+              </OnLeftClick>
+            </Button>
+            <Button name='load regions'>
+              <Text>Load</Text>
+              <X>r64</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if ${UIElement[sets@repeater regions@tabs@isboxermain].SelectedItem.Text.Length}
+                relay all "ISBoxerUI:LoadRepeaterRegions[\"\${ISBoxerCharacterSet.Escape}.\${ISBoxerCharacter.Escape}\",\"${UIElement[sets@repeater regions@tabs@isboxermain].SelectedItem.Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please select a Region Set from the dropdown box before trying to load!"]
+              </OnLeftClick>
+            </Button>
+
+          </Tab>
+          <Tab Name="video fx">
+            <ComboBox name='issource'>
+              <X>4</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>r52</Width>
+              <Items>
+                <Item Value='0' Default='1'>Video FX Viewer</Item>
+                <Item Value='1'>Video FX Source</Item>
+                <Item Value='2'>Other Window Source</Item>
+              </Items>
+              <OnSelect>
+                if !${ID}
+                return
+
+                switch ${This.SelectedItem.Value}
+                {
+                case 2
+                UIElement[useborder@video fx@tabs@isboxermain]:Hide
+                UIElement[labelOpacity@video fx@tabs@isboxermain]:Hide
+                UIElement[opacity@video fx@tabs@isboxermain]:Hide
+                UIElement[border@video fx@tabs@isboxermain]:Hide
+                UIElement[targets label@video fx@tabs@isboxermain]:Hide
+                UIElement[targets@video fx@tabs@isboxermain]:Hide
+                UIElement[useRepeater@video fx@tabs@isboxermain]:Hide
+                UIElement[useKeyboard@video fx@tabs@isboxermain]:Hide
+                UIElement[sources@video fx@tabs@isboxermain]:Hide
+                UIElement[labelName@video fx@tabs@isboxermain]:Show
+                UIElement[Name@video fx@tabs@isboxermain]:Show
+                UIElement[labelWidth@video fx@tabs@isboxermain]:Show
+                UIElement[feedwidth@video fx@tabs@isboxermain]:Show
+                UIElement[labelHeight@video fx@tabs@isboxermain]:Show
+                UIElement[feedheight@video fx@tabs@isboxermain]:Show
+                UIElement[labelX@video fx@tabs@isboxermain]:Show
+                UIElement[feedX@video fx@tabs@isboxermain]:Show
+                UIElement[labelY@video fx@tabs@isboxermain]:Show
+                UIElement[feedY@video fx@tabs@isboxermain]:Show
+
+                ISBoxerUI:VideoFXTabRefreshWindows
+                UIElement[labelWindows@video fx@tabs@isboxermain]:Show
+                UIElement[otherWindows@video fx@tabs@isboxermain]:Show
+                break
+                case 1
+                UIElement[useborder@video fx@tabs@isboxermain]:Hide
+                UIElement[labelOpacity@video fx@tabs@isboxermain]:Hide
+                UIElement[opacity@video fx@tabs@isboxermain]:Hide
+                UIElement[border@video fx@tabs@isboxermain]:Hide
+                UIElement[targets label@video fx@tabs@isboxermain]:Hide
+                UIElement[targets@video fx@tabs@isboxermain]:Hide
+                UIElement[useRepeater@video fx@tabs@isboxermain]:Hide
+                UIElement[useKeyboard@video fx@tabs@isboxermain]:Hide
+                UIElement[sources@video fx@tabs@isboxermain]:Hide
+                UIElement[labelWindows@video fx@tabs@isboxermain]:Hide
+                UIElement[otherWindows@video fx@tabs@isboxermain]:Hide
+                UIElement[labelX@video fx@tabs@isboxermain]:Hide
+                UIElement[feedX@video fx@tabs@isboxermain]:Hide
+                UIElement[labelY@video fx@tabs@isboxermain]:Hide
+                UIElement[feedY@video fx@tabs@isboxermain]:Hide
+
+                UIElement[labelName@video fx@tabs@isboxermain]:Show
+                UIElement[Name@video fx@tabs@isboxermain]:Show
+                UIElement[labelWidth@video fx@tabs@isboxermain]:Show
+                UIElement[feedwidth@video fx@tabs@isboxermain]:Show
+                UIElement[labelHeight@video fx@tabs@isboxermain]:Show
+                UIElement[feedheight@video fx@tabs@isboxermain]:Show
+
+                break
+                case 0
+                UIElement[labelWindows@video fx@tabs@isboxermain]:Hide
+                UIElement[otherWindows@video fx@tabs@isboxermain]:Hide
+                UIElement[labelX@video fx@tabs@isboxermain]:Hide
+                UIElement[feedX@video fx@tabs@isboxermain]:Hide
+                UIElement[labelY@video fx@tabs@isboxermain]:Hide
+                UIElement[feedY@video fx@tabs@isboxermain]:Hide
+
+                UIElement[useborder@video fx@tabs@isboxermain]:Show
+                UIElement[labelOpacity@video fx@tabs@isboxermain]:Show
+                UIElement[opacity@video fx@tabs@isboxermain]:Show
+                UIElement[border@video fx@tabs@isboxermain]:Show
+                UIElement[targets label@video fx@tabs@isboxermain]:Show
+                UIElement[targets@video fx@tabs@isboxermain]:Show
+                UIElement[useRepeater@video fx@tabs@isboxermain]:Show
+                UIElement[useKeyboard@video fx@tabs@isboxermain]:Show
+                UIElement[sources@video fx@tabs@isboxermain]:Show
+                UIElement[labelName@video fx@tabs@isboxermain]:Show
+                UIElement[Name@video fx@tabs@isboxermain]:Show
+                UIElement[labelWidth@video fx@tabs@isboxermain]:Show
+                UIElement[feedwidth@video fx@tabs@isboxermain]:Show
+                UIElement[labelHeight@video fx@tabs@isboxermain]:Show
+                UIElement[feedheight@video fx@tabs@isboxermain]:Show
+
+                break
+                }
+              </OnSelect>
+            </ComboBox>
+            <ComboBox name='sources'>
+              <X>124</X>
+              <Y>24</Y>
+              <Height>16</Height>
+              <Width>r128</Width>
+              <OnSelect>
+                ISBoxerUI:OnVideoSourceSelected["${This.SelectedItem.Text}"]
+              </OnSelect>
+            </ComboBox>
+            <Button name='new feed'>
+              <Text>Add</Text>
+              <X>r44</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>40</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                ISBoxerUI:VideoFXTabAdd
+              </OnLeftClick>
+            </Button>
+            <!--
+            <Text name='labelWindows'>
+              <X>4</X>
+              <Y>24</Y>
+              <Width>r4</Width>
+              <Text>Other windows</Text>
+              <Visible>0</Visible>
+            </Text>
+            -->
+            <ComboBox name='otherWindows'>
+              <X>4</X>
+              <Y>104</Y>
+              <Height>16</Height>
+              <Width>r4</Width>
+              <!--
+              <OnSelect>
+                UIElement[feedX@video fx@tabs@isboxermain]:SetText[0]
+                UIElement[feedY@video fx@tabs@isboxermain]:SetText[0]
+                UIElement[feedWidth@video fx@tabs@isboxermain]:SetText[0]
+                UIElement[feedHeight@video fx@tabs@isboxermain]:SetText[0]
+              </OnSelect>-->
+              <Visible>0</Visible>
+            </ComboBox>
+
+            <Text name='labelName'>
+              <X>4</X>
+              <Y>24</Y>
+              <Width>r4</Width>
+              <Text>Video FX Name</Text>
+            </Text>
+            <TextEntry name='name'>
+              <X>4</X>
+              <Y>44</Y>
+              <Width>r8</Width>
+              <Height>16</Height>
+            </TextEntry>
+            <Text name='labelWidth'>
+              <X>4</X>
+              <Y>64</Y>
+              <Width>r4</Width>
+              <Text>Width</Text>
+            </Text>
+            <TextEntry name='feedwidth'>
+              <X>64</X>
+              <Y>64</Y>
+              <Width>64</Width>
+              <Height>16</Height>
+              <OnLoad>This:SetText[128]</OnLoad>
+            </TextEntry>
+            <Text name='labelHeight'>
+              <X>4</X>
+              <Y>84</Y>
+              <Width>r4</Width>
+              <Text>Height</Text>
+            </Text>
+            <TextEntry name='feedheight'>
+              <X>64</X>
+              <Y>84</Y>
+              <Width>64</Width>
+              <Height>16</Height>
+              <OnLoad>This:SetText[128]</OnLoad>
+            </TextEntry>
+            <Text name='labelX'>
+              <X>134</X>
+              <Y>64</Y>
+              <Width>64</Width>
+              <Text>X (Left)</Text>
+              <Visible>0</Visible>
+            </Text>
+            <TextEntry name='feedX'>
+              <X>200</X>
+              <Y>64</Y>
+              <Width>64</Width>
+              <Height>16</Height>
+              <Visible>0</Visible>
+              <OnLoad>This:SetText[0]</OnLoad>
+            </TextEntry>
+            <Text name='labelY'>
+              <X>134</X>
+              <Y>84</Y>
+              <Width>64</Width>
+              <Text>Y (Top)</Text>
+              <Visible>0</Visible>
+            </Text>
+            <TextEntry name='feedY'>
+              <X>200</X>
+              <Y>84</Y>
+              <Width>64</Width>
+              <Height>16</Height>
+              <Visible>0</Visible>
+              <OnLoad>This:SetText[0]</OnLoad>
+            </TextEntry>
+            <Text name='labelOpacity'>
+              <X>220</X>
+              <Y>64</Y>
+              <Width>100</Width>
+              <Text>Opacity</Text>
+            </Text>
+            <slider Name='opacity'>
+              <X>200</X>
+              <Y>84</Y>
+              <Width>100</Width>
+              <Height>12</Height>
+              <AutoTooltip>Opacity</AutoTooltip>
+              <Range>255</Range>
+              <OnLoad>This:SetValue[255]</OnLoad>
+            </slider>
+            <CheckBox name='useBorder'>
+              <X>4</X>
+              <Y>104</Y>
+              <Width>96</Width>
+              <Height>16</Height>
+              <Text>Border color</Text>
+            </CheckBox>
+            <TextEntry name='border'>
+              <X>108</X>
+              <Y>104</Y>
+              <Width>64</Width>
+              <Height>16</Height>
+              <OnLoad>This:SetText[ffffff]</OnLoad>
+            </TextEntry>
+            <Button name='clear feeds'>
+              <Text>Clear</Text>
+              <X>4</X>
+              <Y>124</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                relay all ISBoxerUI:ClearVideoFeeds
+              </OnLeftClick>
+            </Button>
+            <Button name='sync feeds'>
+              <Text>Sync Viewers</Text>
+              <X>68</X>
+              <Y>124</Y>
+              <Height>16</Height>
+              <Width>120</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                ISBoxerUI:SyncVideoFeedOutputs
+              </OnLeftClick>
+            </Button>
+            <Text name='label2'>
+              <X>4</X>
+              <Y>144</Y>
+              <Width>r4</Width>
+              <Text>Video FX Set</Text>
+            </Text>
+            <ComboBox name='sets'>
+              <X>4</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>r72</Width>
+            </ComboBox>
+            <Button name='remove set'>
+              <Text>Remove</Text>
+              <X>r64</X>
+              <Y>184</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                if ${UIElement[sets@video fx@tabs@isboxermain].SelectedItem.Text.Length}
+                relay all "ISBoxerUI:RemoveVideoFeeds[\"${UIElement[sets@video fx@tabs@isboxermain].SelectedItem.Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please select a Video FX Set from the dropdown box before trying to remove!"]
+              </OnLeftClick>
+            </Button>
+            <Textentry name='save as'>
+              <X>68</X>
+              <Y>204</Y>
+              <Width>116</Width>
+              <Height>16</Height>
+              <OnLoad>This:SetText[Auto]</OnLoad>
+            </Textentry>
+            <Button name='save regions'>
+              <Text>Save as</Text>
+              <X>4</X>
+              <Y>204</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                if ${UIElement[save as@video fx@tabs@isboxermain].Text.Length}
+                relay all "ISBoxerUI:StoreVideoFeeds[\"\${ISBoxerCharacterSet.Escape}\",\"\${ISBoxerCharacter.Escape}\",\"${UIElement[save as@video fx@tabs@isboxermain].Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please enter a name to save the Video FX Set as!"]
+              </OnLeftClick>
+            </Button>
+            <Button name='load regions'>
+              <Text>Load</Text>
+              <X>r64</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>60</Width>
+              <OnLeftClick>
+                if !${ISBoxerUI(exists)}
+                {
+                This:SetText[":("]
+                return
+                }
+
+                if ${UIElement[sets@video fx@tabs@isboxermain].SelectedItem.Text.Length}
+                relay all "ISBoxerUI:LoadVideoFeeds[\"\${ISBoxerCharacterSet.Escape}.\${ISBoxerCharacter.Escape}\",\"${UIElement[sets@video fx@tabs@isboxermain].SelectedItem.Text.Escape}\"]"
+                else
+                ISBoxerUI:PopupText["Please select a Video FX Set from the dropdown box before trying to load!"]
+              </OnLeftClick>
+            </Button>
+          </Tab>
+          <Tab name='variable keystrokes'>
+            <Tree name='vktree'>
+              <Width>49%</Width>
+              <Height>r8</Height>
+              <X>4</X>
+              <Y>4</Y>
+              <OnSelect>
+                ISBoxerUI:OnVariableKeystrokeSelected[${This.Selection}]
+              </OnSelect>
+            </Tree>
+            <Text name='labelKeybox'>
+              <X>51%</X>
+              <Y>4</Y>
+              <Width>49%</Width>
+              <Text>Key Combination</Text>
+            </Text>
+            <textentry Name='keybox'>
+              <X>51%</X>
+              <Y>24</Y>
+              <Height>16</Height>
+              <Width>48%</Width>
+              <OnKeyboardEnter>ISBoxerUI:OnVariableKeystrokeFocus</OnKeyboardEnter>
+              <OnKeyboardExit>ISBoxerUI:OnVariableKeystrokeFocusLost</OnKeyboardExit>
+              <OnKeyDown>This:SetText["${This.GetMetadata[value].Escape}"]</OnKeyDown>
+            </textentry>
+            <text Name='description'>
+              <X>51%</X>
+              <Y>44</Y>
+              <Height>r48</Height>
+              <Width>48%</Width>
+              <Wrap/>
+            </text>
+          </Tab>
+          <Tab name='debug'>
+            <Button name='console'>
+              <Text>Show Debug Console</Text>
+              <X>4</X>
+              <Y>4</Y>
+              <Width>140</Width>
+              <Height>16</Height>
+              <OnLeftClick>
+                if ${UIElement[isboxerconsole].Visible}
+                relay all isboxerdebugging console 0
+                else
+                relay all isboxerdebugging console 1
+              </OnLeftClick>
+            </Button>
+            <Button name='capture'>
+              <Text>Capture State</Text>
+              <X>r144</X>
+              <Y>4</Y>
+              <Height>16</Height>
+              <Width>140</Width>
+              <OnLeftClick>
+                run isboxer.collectinfo
+              </OnLeftClick>
+            </Button>
+            <ComboBox name='allowed'>
+              <X>4</X>
+              <Y>24</Y>
+              <Height>16</Height>
+              <Width>200</Width>
+              <Items>
+                <Item Value='-1'>Block all debugging</Item>
+                <Item Value='0' Default='1'>Allow all debugging</Item>
+                <Item Value='1'>Force all debugging</Item>
+              </Items>
+              <OnSelect>
+                relay all isboxerdebugging all ${This.SelectedItem.Value}
+              </OnSelect>
+            </ComboBox>
+            <CommandCheckBox name='Button'>
+              <X>4</X>
+              <Y>44</Y>
+              <Height>16</Height>
+              <Width>100</Width>
+              <Text>Button</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Button]}</Data>
+              <Command>relay all isboxerdebugging "Button" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Button" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Cursor'>
+              <X>4</X>
+              <Y>64</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Cursor</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Cursor]}</Data>
+              <Command>relay all isboxerdebugging "Cursor" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Cursor" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Key Map'>
+              <X>4</X>
+              <Y>84</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Key Map</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Key Map]}</Data>
+              <Command>relay all isboxerdebugging "Key Map" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Key Map" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Mapped Key'>
+              <X>4</X>
+              <Y>104</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Mapped Key</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Mapped Key]}</Data>
+              <Command>relay all isboxerdebugging "Mapped Key" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Mapped Key" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Paste'>
+              <X>4</X>
+              <Y>124</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Paste</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Paste]}</Data>
+              <Command>relay all isboxerdebugging "Paste" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Paste" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Popup Text'>
+              <X>4</X>
+              <Y>144</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Popup Text</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Popup Text]}</Data>
+              <Command>relay all isboxerdebugging "Popup Text" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Popup Text" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Repeater Target'>
+              <X>4</X>
+              <Y>164</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Repeater Target</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Repeater Target]}</Data>
+              <Command>relay all isboxerdebugging "Repeater Target" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Repeater Target" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Timer Pool'>
+              <X>4</X>
+              <Y>184</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Timer Pool</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Timer Pool]}</Data>
+              <Command>relay all isboxerdebugging "Timer Pool" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Timer Pool" 0</CommandChecked>
+            </CommandCheckBox>
+            <CommandCheckBox name='Virtual Mapped Key'>
+              <X>4</X>
+              <Y>204</Y>
+              <Height>16</Height>
+              <Width>180</Width>
+              <Text>Virtual Mapped Key</Text>
+              <Data>${ISBoxerUI.DebugTypes.Element[Virtual Mapped Key]}</Data>
+              <Command>relay all isboxerdebugging "Virtual Mapped Key" 1</Command>
+              <CommandChecked>relay all isboxerdebugging "Virtual Mapped Key" 0</CommandChecked>
+            </CommandCheckBox>
+          </Tab>
+        <Tab name='import'>
+            <Text name='labelimporttype'>
+              <X>4</X>
+              <Y>4</Y>
+              <Width>r8</Width>
+              <Text>Select feature to import</Text>
+            </Text>
+	          <ComboBox name='importtype'>
+	            <X>4</X>
+	            <Y>20</Y>
+	            <Width>r8</Width>
+	            <Height>20</Height>
+	            <OnSelect>ISBoxerUI:OnImportTypeSelected["${This.Item[${ID}].Value}"]</OnSelect>
+                    <Items>
+                      <Item Value='1'>Repeater Regions</Item>
+                      <Item Value='2'>Video FX</Item>
+                      <Item Value='3'>Menu Positions</Item>
+                      <Item Value='4'>Click Bar Positions</Item>
+	            </Items>
+	          </ComboBox>
+                  <Text name='labelfile'>
+                    <X>4</X>
+                    <Y>44</Y>
+                    <Width>r8</Width>
+                    <Text>Character Set and Character to import from</Text>
+                  </Text>
+	          <ComboBox name='file'>
+	            <X>4</X>
+	            <Y>60</Y>
+	            <Width>r8</Width>
+	            <Height>20</Height>
+	          </ComboBox>
+	          <Button name='doimport'>
+	            <X>r100</X>
+	            <Y>84</Y>
+              <Width>96</Width>
+              <Height>16</Height>
+              <Text>Import</Text>
+              <OnLeftClick>
+                ISBoxerUI:OnImportClicked
+              </OnLeftClick>
+	          </Button>
+          </Tab>
+        </Tabs>
+      </TabControl>
+    </Children>
+  </window>
+  <window name='isboxerindicatorwindow'>
+    <TitleBar Template='window.TitleBar'>
+      <Children>
+        <text Name='Title' template='window.TitleBar.title' />
+        <button Name='Close' template='window.TitleBar.Close'>
+          <OnLeftClick>This.Parent.Parent:Destroy</OnLeftClick>
+        </button>
+      </Children>
+    </TitleBar>
+    <Title>Indicator Bar</Title>
+    <X>150</X>
+    <Y>50</Y>
+    <Visible>0</Visible>
+    <Alpha>0.75</Alpha>
+    <FadeAlpha>0.5</FadeAlpha>
+    <FadeDuration>250</FadeDuration>
+    <FadeDelay>100</FadeDelay>
+    <Width>200</Width>
+    <Height>60</Height>
+    <BorderColor>FF666666</BorderColor>
+    <Border>5</Border>
+    <Resizable />
+    <StorePosition>0</StorePosition>
+    <Children>
+      <Frame name='indicatorbox'>
+        <Width>100%</Width>
+        <Height>100%</Height>
+        <BackgroundColor>33FF0000</BackgroundColor>
+      </Frame>
+    </Children>
+  </window>
+  <template name='isboxerindicator'>
+    <Border>0</Border>
+    <OnUnload>noop ${ISBoxerUI:ExitRegion[${This.ID}]}</OnUnload>
+    <OnMouseEnter>noop ${ISBoxerUI:EnterRegion[${This.ID}]}</OnMouseEnter>
+    <OnMouseExit>noop ${ISBoxerUI:ExitRegion[${This.ID}]}</OnMouseExit>
+  </template>
+  <window name='isboxerrepeaterwindow'>
+    <TitleBar Template='window.TitleBar'>
+      <OnLeftClick>
+        ISBoxerUI:SelectWindow["${This.Parent.ID}"]
+      </OnLeftClick>
+      <Children>
+        <text Name='Title' template='window.TitleBar.title' />
+        <button Name='Close' template='window.TitleBar.Close'>
+          <OnLeftClick>This.Parent.Parent:Destroy</OnLeftClick>
+        </button>
+      </Children>
+    </TitleBar>
+    <Title>Repeater Region</Title>
+    <X>200</X>
+    <Y>200</Y>
+    <Visible>0</Visible>
+    <Alpha>0.75</Alpha>
+    <FadeAlpha>0.5</FadeAlpha>
+    <FadeDuration>250</FadeDuration>
+    <FadeDelay>100</FadeDelay>
+    <Width>200</Width>
+    <Height>60</Height>
+    <BorderColor>FF666666</BorderColor>
+    <Border>5</Border>
+    <Resizable />
+    <StorePosition>0</StorePosition>
+    <Children>
+      <Frame name='clickbox'>
+        <OnLeftClick>
+          ISBoxerUI:SelectWindow["${This.Parent.Parent.ID}"]
+        </OnLeftClick>
+        <Width>100%</Width>
+        <Height>100%</Height>
+        <BackgroundColor>33FF0000</BackgroundColor>
+      </Frame>
+    </Children>
+  </window>
+  <frame name='isboxerrepeaterregion'>
+    <Visible>0</Visible>
+    <Border>0</Border>
+    <OnUnload>noop ${MouseRepeater:ExitRegion[${This.ID}]}</OnUnload>
+    <BackgroundColor>33333333</BackgroundColor>
+    <OnMouseEnter>noop ${MouseRepeater:EnterRegion[${This.ID}]}</OnMouseEnter>
+    <OnMouseExit>noop ${MouseRepeater:ExitRegion[${This.ID}]}</OnMouseExit>
+    <X>200</X>
+    <Y>50</Y>
+    <Width>200</Width>
+    <Height>60</Height>
+  </frame>
+  <template name='clickbars.window.TitleBar.Sync'>
+    <X>r68</X>
+    <Y>2</Y>
+    <Width>32</Width>
+    <Height>12</Height>
+    <Text>Sync</Text>
+    <BackgroundColor>FF000000</BackgroundColor>
+    <Border>1</Border>
+    <BorderColor>FF999999</BorderColor>
+  </template>
+  <template name='menuman.button' template='button'>
+    <Font template='button.Font'>
+      <Color>FFFFFFFF</Color>
+    </Font>
+    <OnMouseEnter>noop ${MenuMan:OnMenuButtonState["${This.GetMetadata[menu].Escape}","${This.GetMetadata[menu_button].Escape}","Enter"]}</OnMouseEnter>
+    <OnMouseExit>noop ${MenuMan:OnMenuButtonState["${This.GetMetadata[menu].Escape}","${This.GetMetadata[menu_button].Escape}","Exit"]}</OnMouseExit>
+    <OnLeftDown>noop ${MenuMan:OnMenuButtonState["${This.GetMetadata[menu].Escape}","${This.GetMetadata[menu_button].Escape}","Press",Mouse1]}</OnLeftDown>
+    <OnLeftClick>noop ${MenuMan:OnMenuButtonState["${This.GetMetadata[menu].Escape}","${This.GetMetadata[menu_button].Escape}","Release",Mouse1]}</OnLeftClick>
+  </template>
+  <template name='isboxervideowindow.Client' template='window.Client'>
+    <Y>24</Y>
+    <Height>r24</Height>
+  </template>
+  <window name='isboxervideowindow'>
+    <Client template='isboxervideowindow.Client' />
+    <TitleBar Template='window.TitleBar'>
+      <OnLeftClick>
+        ISBoxerUI:SelectWindow["${This.Parent.ID}"]
+      </OnLeftClick>
+      <OnUnload>
+        timedcommand 0 ISBoxerUI:DeselectWindow["${This.Parent.ID}"]
+      </OnUnload>
+      <Height>24</Height>
+      <Children>
+        <text Name='Title' template='window.TitleBar.title' />
+        <button Name='Minimize' template='window.TitleBar.Minimize' />
+        <button Name='Maximize' template='window.TitleBar.Maximize' />
+        <button Name='Close' template='window.TitleBar.Close'>
+          <OnLeftClick>
+            noop ${ISBoxerUI:RemoveVideoFeedByID[${This.Parent.Parent.ID}]}
+            This.Parent.Parent:Destroy
+          </OnLeftClick>
+        </button>
+        <!--
+        <slider Name='opacity'>
+          <X>r100</X>
+          <Width>50</Width>
+          <Height>12</Height>
+          <AutoTooltip>Opacity</AutoTooltip>
+          <Range>255</Range>
+          <OnChange>
+            noop ${ISBoxerUI:UpdateVideoFeedAlphaByID[${This.Parent.Parent.ID},${This.Value}]}
+          </OnChange>
+        </slider>
+        -->
+      </Children>
+    </TitleBar>
+    <Title>Video FX Window</Title>
+    <X>200</X>
+    <Y>200</Y>
+    <Visible>0</Visible>
+    <Alpha>0.75</Alpha>
+    <FadeAlpha>0.5</FadeAlpha>
+    <FadeDuration>250</FadeDuration>
+    <FadeDelay>100</FadeDelay>
+    <Width>200</Width>
+    <Height>200</Height>
+    <BorderColor>FF666666</BorderColor>
+    <Border>5</Border>
+    <StorePosition>0</StorePosition>
+    <WidthResizable MinWidth='16'>1</WidthResizable>
+    <HeightResizable>1</HeightResizable>
+    <Children>
+      <Frame name='videobox'>
+        <OnLeftDown>
+          ISBoxerUI:SelectWindow["${This.Parent.Parent.ID}"]
+          ISBoxerUI:VideoFeedWindowLMouseDown["${This.Parent.Parent.ID}","${This.ID}"]
+          ;          echo OnLeftDown ${X},${Y}
+        </OnLeftDown>
+        <OnLeftClick>
+          ;          echo OnLeftClick ${X},${Y}
+          ISBoxerUI:VideoFeedWindowLMouseUp["${This.Parent.Parent.ID}","${This.ID}"]
+        </OnLeftClick>
+        <Width>100%</Width>
+        <Height>100%</Height>
+        <BackgroundColor>3300FF00</BackgroundColor>
+        <Children>
+           <Frame name='toomuchgreen'>
+                  <Width>r6</Width>
+                  <Height>r6</Height>
+                  <X>3</X>
+                  <Y>3</Y>
+	          <Children>
+	          <Text name='line1'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>0</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>Seeing green?</Text>
+	          </Text>
+	          <Text name='line2'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>16</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>1. Be on Windows Vista or later</Text>
+	          </Text>
+	          <Text name='line3'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>32</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>2. Have Aero enabled</Text>
+	          </Text>
+	          <Text name='line4'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>48</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>3. Hold CTRL if the Control Panel is open!</Text>
+	          </Text>
+	          </Children>
+	        </Frame>
+	        <Frame name='toomuchgreensource'>
+                  <Width>r6</Width>
+                  <Height>r6</Height>
+                  <X>3</X>
+                  <Y>3</Y>
+	          <Visible>0</Visible>
+	          <Children>
+	          <Text name='line1'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>0</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>This green frame</Text>
+	          </Text>
+	          <Text name='line2'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>16</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>obscures the Source</Text>
+	          </Text>
+	          <Text name='line3'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>32</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>unless you close</Text>
+	          </Text>
+	          <Text name='line4'>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Alignment>Left</Alignment>
+	            <X>0</X>
+	            <Y>48</Y>
+	            <Width>100%</Width>
+                    <Height>16</Height>
+	            <Text>the ISBoxer Control Panel</Text>
+	          </Text>
+	          </Children>
+	        </Frame>
+        </Children>
+      </Frame>
+    </Children>
+  </window>
+  <!--
+	<Window name='isboxerrepeater'>
+		<TitleBar Template='window.TitleBar'>
+			<Children>
+				<text Name='Title' template='window.TitleBar.title' />
+				<button Name='Close' template='window.TitleBar.Close'>
+					<OnLeftClick>This.Parent.Parent:Destroy</OnLeftClick>
+				</button>
+			</Children>
+		</TitleBar>
+		<Visible>0</Visible>
+		<Title>Click Through</Title>
+		<X>200</X>
+		<Y>200</Y>
+		<Width>200</Width>
+		<Height>60</Height>
+		<BorderColor>FF000000</BorderColor>
+		<Resizable />
+		<StorePosition>0</StorePosition>
+		<Children>
+			<Frame name='clickbox'>
+				<Width>100%</Width>
+				<Height>100%</Height>
+				<OnLeftDown>mouseclick -hold left</OnLeftDown>
+				<OnLeftClick>mouseclick -release left</OnLeftClick> 
+				<OnRightDown>mouseclick -hold right</OnRightDown>
+				<OnRightClick>mouseclick -release right</OnRightClick>
+				<OnMouseEnter>MouseRepeater:EnterRegion[${This.ID}]</OnMouseEnter>
+				<OnMouseExit>MouseRepeater:ExitRegion[${This.ID}]</OnMouseExit>
+			</Frame>
+		</Children>
+	</Window>
+-->
+</ISUI>

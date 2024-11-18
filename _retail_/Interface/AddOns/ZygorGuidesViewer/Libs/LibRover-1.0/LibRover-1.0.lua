@@ -428,11 +428,8 @@ function Lib.zone_same_eastern_part(map1,map2)
 	return bit_and(easterns[map1],easterns[map2])>0
 end
 
-function Lib:UpdateConfig()
-	local travelmode = ZGV.db.global.travelmode
-	local profile = ZGV.db.profile
-
-	if travelmode == 1 then
+function Lib:UpdateConfig(profile)
+	if profile.travelmode == 1 then
 		Lib.cfg.forcedirect = true
 		Lib.cfg.pathfinding_comfort = 0
 		Lib.cfg.avoid_portals = false
@@ -442,7 +439,7 @@ function Lib:UpdateConfig()
 		Lib.cfg.use_spells = false
 		Lib.cfg.use_astral_recall = false
 		Lib.cfg.use_mage_teleport = false
-	elseif travelmode == 2 then
+	elseif profile.travelmode == 2 then
 		Lib.cfg.forcedirect = false
 		Lib.cfg.pathfinding_comfort = 1
 		Lib.cfg.avoid_portals = true
@@ -452,7 +449,7 @@ function Lib:UpdateConfig()
 		Lib.cfg.use_spells = false
 		Lib.cfg.use_astral_recall = false
 		Lib.cfg.use_mage_teleport = false
-	elseif travelmode == 3 then
+	elseif profile.travelmode == 3 then
 		Lib.cfg.forcedirect = false
 		Lib.cfg.pathfinding_comfort = 0
 		Lib.cfg.avoid_portals = false
@@ -3527,7 +3524,7 @@ function Lib:StepPath()  -- THE WORKHORSE.
 			end
 
 			if mode=="portal" then
-				if Lib:GetCFG("avoid_portals") and not (neighlink and neighlink.simplevalid) then -- heavy penality on portals when in low travel mode, unless marked otherwise
+				if Lib:GetCFG("avoid_portals") then -- heavy penality on portals when in low travel mode
 					mycost = (neighlink.cost or COST_PORTAL) + 500 
 				end
 
@@ -5948,30 +5945,6 @@ do -- Mole Machine handler
 	end})
 
 end
-
-local bad_dhs_maps = { -- Dalaran Hearthstone: never use from Dala or class halls
-	[625]=1,
-	[626]=1,[627]=1,[628]=1,[629]=1, -- dalaran l
-	[695]=1, -- skyhold
-	[717]=1, -- dreadscar rift
-	[718]=1, -- dreadscar rift warlock intro
-	[715]=1, -- emerald dreamway
-	[734]=1, [735]=1, -- hall of the guardian
-	[672]=1, [673]=1, [674]=1, [675]=1, -- mardum, the shattered abyss c
-	[719]=1, [720]=1, [721]=1, -- mardum, the shattered abyss
-	[702]=1, -- netherlight temple
-	[747]=1, -- the dreamgrove
-	[739]=1, -- trueshot lodge
-	[725]=1, -- the maelstrom l a
-	[726]=1, -- the maelstrom l
-	[709]=1, -- the wandering isle l
-	[24]=1, -- deadwind pass
-}
-
-function Lib:ValidDHSMap()
-	return not bad_dhs_maps[ZGV.CurrentMapID]
-end
-
 
 --[[
 function Lib:Sha2Data()

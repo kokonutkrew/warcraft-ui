@@ -1,0 +1,15 @@
+Version: 1
+Frame: MovePadFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: 0
+Y: 23
+W: 126
+H: 124
+Frame: SuperScanFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 175
+Y: 45
+W: 130
+H: 30

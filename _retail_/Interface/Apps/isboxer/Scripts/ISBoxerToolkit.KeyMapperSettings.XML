@@ -1,0 +1,1785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InnerSpaceSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Set Name="Key Maps">
+    <Set Name="ISB42 - Always On">
+      <Set Name="Activate Maps">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Maps - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">160+164+M</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Repeat">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">160+164+R</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Mouse Repeat">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Mouse Repeat (current window)</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Toggle Formations Menu">
+        <Set Name="Step 1">
+          <Setting xsi:type="MenuStateActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MenuState" Action="Load" Target="self">ISB42 - Formations</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MenuStateActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MenuState" Action="Unload" Target="self">ISB42 - Formations</Setting>
+        </Set>
+        <Setting Name="Hotkey">162+160+164+F</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Next window">
+        <Set Name="Step 1">
+          <Setting xsi:type="WindowFocusActionSetting" Name="Action_1" ActionType="WindowFocus" FilterTarget="@isboxer&amp;~dxnothing">-next</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Previous window">
+        <Set Name="Step 1">
+          <Setting xsi:type="WindowFocusActionSetting" Name="Action_1" ActionType="WindowFocus" FilterTarget="@isboxer&amp;~dxnothing">-previous</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Toggle Chat Mode">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterListActionSetting" Name="Action_1" ActionType="RepeaterList" Target="all" Action="WhiteList">4835BEB72DB6E8F00F64BF5D068ADD92</Setting>
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - Always On" MappedKey="Toggle Chat Mode">2</Setting>
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Chat Mode ON</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="RepeaterListActionSetting" Name="Action_1" ActionType="RepeaterList" Target="all" Action="Ignore" />
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - Always On" MappedKey="Toggle Chat Mode">2</Setting>
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="FFFFFF">Chat Mode OFF</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Close All Windows">
+        <Set Name="Step 1">
+          <Setting xsi:type="WindowCloseActionSetting" Name="Action_1" ActionType="WindowClose" Target="all">Normal</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - Base Hotkeys">
+      <Set Name="Follow Me">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Follow Me - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">164+F</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Assist Me - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">164+A</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="All Jump">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all" RoundRobin="false" UseFTLModifiers="false">Jump</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Flying V Formation">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#1" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#1" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_3" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#2" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_4" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#2" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_5" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#3" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_6" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#3" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_7" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#4" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_8" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#4" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#3" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#3" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_3" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#4" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_4" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#4" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Line Formation">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#1" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#2" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_3" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#3" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_4" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#4" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_5" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#5" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_6" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#6" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#1" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#2" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_3" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#5" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_4" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#6" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Star Formation">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#1" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#2" RoundRobin="false" UseFTLModifiers="false">Move Forward</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_3" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#3" RoundRobin="false" UseFTLModifiers="false">Move Left</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_4" ActionType="VariableKeystroke" Target="(@other isboxer&amp;~dxnothing)#4" RoundRobin="false" UseFTLModifiers="false">Move Right</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Others turn Left">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Turn Left</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Others turn Right">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Turn Right</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Interact with Target">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Interact with Target - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">164+G</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Face Toward Target">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Interact with Target - Face Target</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Invite Team">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Invite Team - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">160+164+I</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Toggle Jamba Follow Strobing (WoW)">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Toggle Jamba Follow Strobing</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Hold to Control 1">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="true" Target="self">1</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Control {SLOT1}</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Hold to Control 2">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="true" Target="self">2</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Control {SLOT2}</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Hold to Control 3">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="true" Target="self">3</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Control {SLOT3}</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Hold to Control 4">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="true" Target="self">4</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Control {SLOT4}</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Hold to Control 5">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="true" Target="self">5</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Control {SLOT5}</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Hold to Control 6">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="true" Target="self">6</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Control {SLOT6}</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat - Active Method</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - Toggles">
+      <Set Name="Activate Maps - Active Method">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Maps (all windows)</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Maps (all windows)">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeyMapActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="KeyMap" Action="Off" Target="all">ISB42 - Base Hotkeys</Setting>
+          <Setting xsi:type="KeyMapActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="KeyMap" Action="Off" Target="all">ISB42 - Combat Broadcast Hotkeys</Setting>
+          <Setting xsi:type="KeyMapActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="KeyMap" Action="Off" Target="all">ISB42 - Custom Hotkeys</Setting>
+          <Setting xsi:type="MenuStateActionSetting" Name="Action_4" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MenuState" Action="Pause" Target="all" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_5" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="FFFFFF">Key Maps OFF</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_6" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="key maps off" ImagePressed="key maps pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="1" Target="all" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_7" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - Toggles" MappedKey="Activate Maps (all windows)">2</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="KeyMapActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="KeyMap" Action="On" Target="all">ISB42 - Base Hotkeys</Setting>
+          <Setting xsi:type="KeyMapActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="KeyMap" Action="On" Target="all">ISB42 - Combat Broadcast Hotkeys</Setting>
+          <Setting xsi:type="KeyMapActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="KeyMap" Action="On" Target="all">ISB42 - Custom Hotkeys</Setting>
+          <Setting xsi:type="MenuStateActionSetting" Name="Action_4" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MenuState" Action="UnPause" Target="all" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_5" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Key Maps ON</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_6" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="key maps on" ImagePressed="key maps pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="1" Target="all" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_7" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - Toggles" MappedKey="Activate Maps (all windows)">1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="-------------------------------------------------------">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Repeat - Active Method">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Toggles" RoundRobin="false" ConditionalKey="">Activate Repeat (current window)</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Repeat (current window)">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="false" Target="self">all other</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Broadcasting ON</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_1" ActionType="RepeaterState" Target="self" MouseState="Off" KeyboardState="Off" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="FFFFFF">Broadcasting OFF</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_3" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater off" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Repeat (all windows)">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="false" Target="all">all other</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="all" MouseState="On" KeyboardState="On" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Broadcasting ON</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="all" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_5" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - Toggles" MappedKey="Activate Repeat (all windows)">2</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_1" ActionType="RepeaterState" Target="all" MouseState="Off" KeyboardState="Off" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="FFFFFF">Broadcasting OFF</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_3" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater off" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="ISB42 - Toggles" NumButton="2" Target="all" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_4" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - Toggles" MappedKey="Activate Repeat (all windows)">1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="--------------------------------------------------------">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Activate Mouse Repeat (current window)">
+        <Set Name="Step 1">
+          <Setting xsi:type="RepeaterTargetActionSetting" Name="Action_1" ActionType="RepeaterTarget" BlockLocal="false" Target="self">all other</Setting>
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_2" ActionType="RepeaterState" Target="self" MouseState="On" KeyboardState="" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="00FF00">Broadcasting ON</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_4" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater on" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="RepeaterStateActionSetting" Name="Action_1" ActionType="RepeaterState" Target="self" MouseState="Off" KeyboardState="" VideoFeedState="-1" VideoSourceWidth="0" VideoSourceHeight="0" VideoOutputWidth="0" VideoOutputHeight="0" VideoOutputAlpha="-1" VideoOutputBorderColor="" />
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1000" FadeDurationMS="500" Color="FFFFFF">Broadcasting OFF</Setting>
+          <Setting xsi:type="MenuButtonActionSetting" Name="Action_3" PullMenu="" PullButtonSet="" PullNumButton="-1" Image="repeater off" ImagePressed="repeater pressed" Border="-1" FontBold="-1" FontSize="-1" Alpha="-1" ActionType="MenuButton" ButtonSet="Toggles" NumButton="2" Target="self" StoreOrRestore="Neither" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" />
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - Party">
+      <Set Name="Follow Me - Active Method">
+        <Set Name="Step 1">
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1500" FadeDurationMS="1500" Color="FF0000">Follow Me: No Follow Method Active!</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="--------------------------------------------------">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow Me (WoW Macro)">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Follow Me</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow Me (Target Slot)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="false">Target Slot {SLOT}</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="false">Follow Target</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">2000</Setting>
+        <Setting Name="Reset Type">FromFirstAdvance</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Follow Leader (Target Party Leader)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="false">Target Party Leader</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="false">Follow Target</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">2000</Setting>
+        <Setting Name="Reset Type">FromFirstAdvance</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Follow Main (Single Keybind)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="false">Follow Main</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow Me (Follow Slot Variable Keystrokes)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="false">Follow Slot {SLOT}</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow Me (Follow FTL + Slot ID Modifier)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="true">Follow FTL</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="====================================">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me - Active Method">
+        <Set Name="Step 1">
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1500" FadeDurationMS="1500" Color="FF0000">Assist Me: No Assist Method Active!</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Auto-Assist Me - Active Method">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="---------------------------------------------------">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me (WoW Macro)">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Assist Me</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me (Target Slot)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Target Slot {SLOT}</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Assist Target</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">2000</Setting>
+        <Setting Name="Reset Type">FromFirstAdvance</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Assist Leader (Target Party Leader)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Target Party Leader</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Assist Target</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">2000</Setting>
+        <Setting Name="Reset Type">FromFirstAdvance</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Assist Main (Single Keybind)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Assist Main</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me (Assist Slot Variable Keystrokes)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Assist Slot {SLOT}</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me (Assist FTL + Slot ID Modifier)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="true">Assist FTL</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="==================================">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Interact with Target - Active Method">
+        <Set Name="Step 1">
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="1500" FadeDurationMS="1500" Color="FF0000">Interact with Target: No Interact Method Active!</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Auto-Interact with Target - Active Method">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="------------------------------------------------------">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Interact with Target - Standard">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="all other" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Click to Move On</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_3" ActionType="VariableKeystroke" Target="all" RoundRobin="false" UseFTLModifiers="false">Interact with Target</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="all other" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Click to Move Off</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">FALSE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">1000</Setting>
+        <Setting Name="Reset Type">FromFirstPress</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Interact with Target - Face Target">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Interact with Target - Standard</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="all other" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Click to Move Off</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">Move Backward</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">FALSE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">1000</Setting>
+        <Setting Name="Reset Type">FromFirstPress</Setting>
+        <Setting Name="Mode">OnPressAndRelease</Setting>
+      </Set>
+      <Set Name="Auto-Interact with Target - Standard">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="all other" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Click to Move On</Setting>
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_2" ActionType="VariableKeystroke" Target="all" RoundRobin="false" UseFTLModifiers="false">Interact with Target</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">FALSE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Reset Timer">1000</Setting>
+        <Setting Name="Reset Type">FromFirstPress</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="======================================">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Invite Team - Active Method">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="--------------------------------------">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Invite Team (WoW Macro)">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Invite Team</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Invite Team (Variable Keystroke)">
+        <Set Name="Step 1">
+          <Setting xsi:type="VariableKeystrokeActionSetting" Name="Action_1" ActionType="VariableKeystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">Invite Team</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - Combat Broadcast">
+      <Set Name="1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="Combat" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">162+=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="Combat" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">164+=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="Combat" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Assist Me - Active Method</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Auto-Interact with Target - Active Method</Setting>
+          <Setting xsi:type="KeystrokeSetting" Name="Action_3" ActionType="Keystroke" Target="Combat" RoundRobin="false" UseFTLModifiers="false">160+=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - Combat Broadcast Hotkeys">
+      <Set Name="1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">1</Setting>
+        </Set>
+        <Setting Name="Hotkey">1</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">2</Setting>
+        </Set>
+        <Setting Name="Hotkey">2</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">3</Setting>
+        </Set>
+        <Setting Name="Hotkey">3</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">4</Setting>
+        </Set>
+        <Setting Name="Hotkey">4</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">5</Setting>
+        </Set>
+        <Setting Name="Hotkey">5</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">6</Setting>
+        </Set>
+        <Setting Name="Hotkey">6</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">7</Setting>
+        </Set>
+        <Setting Name="Hotkey">7</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">8</Setting>
+        </Set>
+        <Setting Name="Hotkey">8</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">9</Setting>
+        </Set>
+        <Setting Name="Hotkey">9</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">0</Setting>
+        </Set>
+        <Setting Name="Hotkey">0</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">-</Setting>
+        </Set>
+        <Setting Name="Hotkey">-</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">=</Setting>
+        </Set>
+        <Setting Name="Hotkey">=</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Shift+=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Shift+=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Alt+=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Alt+=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+1">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+2">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+2</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+3">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+3</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+4">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+4</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+5">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+5</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+6">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+6</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+7">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+7</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+8">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+8</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+9">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+9</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+0">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+0</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+-">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+-</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Ctrl+=">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Combat Broadcast" RoundRobin="false" ConditionalKey="">Ctrl+=</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - WoW">
+      <Set Name="Click to Move Off">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">162+164+N</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Click to Move On">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">160+164+N</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="JambaMaster">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">162+160+F12</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="JambaStrobe Off">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">162+160+164+F12</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="JambaStrobe On">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">160+164+F12</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow/JambaMaster">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Follow Me</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">JambaMaster</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow/JambaStrobe">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Follow Me</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">JambaStrobe On</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow/JambaStrobe/JambaMaster">
+        <Set Name="Step 1">
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Follow Me</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_2" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">JambaMaster</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_3" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">JambaStrobe On</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Invite Team">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="self" RoundRobin="false" UseFTLModifiers="false">162+160+164+I</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Toggle Jamba Follow Strobing">
+        <Set Name="Step 1">
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="500" FadeDurationMS="500" Color="00FF00">Jamba Auto-follow Strobing ON</Setting>
+          <Setting xsi:type="MappedKeyStateActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKey" Action="On" Target="self" KeyMap="ISB42 - WoW">JambaStrobe On</Setting>
+          <Setting xsi:type="MappedKeyStateActionSetting" Name="Action_3" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKey" Action="On" Target="all other" KeyMap="ISB42 - WoW">JambaStrobe On</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_4" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">Follow/JambaStrobe</Setting>
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_5" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - WoW" MappedKey="Toggle Jamba Follow Strobing">2</Setting>
+        </Set>
+        <Set Name="Step 2">
+          <Setting xsi:type="PopupTextActionSetting" Name="Action_1" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="PopupText" Target="self" DurationMS="500" FadeDurationMS="500" Color="FFFFFF">Jamba Auto-follow Strobing OFF</Setting>
+          <Setting xsi:type="MappedKeyStateActionSetting" Name="Action_2" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKey" Action="Off" Target="all" KeyMap="ISB42 - WoW">JambaStrobe On</Setting>
+          <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_3" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - WoW" RoundRobin="false" ConditionalKey="">JambaStrobe Off</Setting>
+          <Setting xsi:type="MappedKeyStepActionSetting" Name="Action_4" ActionTimer="false" ActionTimerSeconds="0" ActionTimerRecurring="false" ActionType="MappedKeyStep" Action="Set" Target="all other" KeyMap="ISB42 - WoW" MappedKey="Toggle Jamba Follow Strobing">1</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">FALSE</Setting>
+        <Setting Name="Use FTL Modifiers">FALSE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Target Me">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="all other" RoundRobin="false" UseFTLModifiers="false">221</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hold">FALSE</Setting>
+        <Setting Name="Use FTL Modifiers">TRUE</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Follow Me">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="other Follower" RoundRobin="false" UseFTLModifiers="true">F11</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+      <Set Name="Assist Me">
+        <Set Name="Step 1">
+          <Setting xsi:type="KeystrokeSetting" Name="Action_1" ActionType="Keystroke" Target="all other" RoundRobin="false" UseFTLModifiers="true">Backspace</Setting>
+        </Set>
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+    <Set Name="ISB42 - Custom Hotkeys">
+      <Set Name="Use this Key Map for custom Hotkeys!">
+        <Set Name="Step 1" />
+        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Manual Load">FALSE</Setting>
+        <Setting Name="Mode">OnRelease</Setting>
+      </Set>
+    </Set>
+  </Set>
+</InnerSpaceSettings>

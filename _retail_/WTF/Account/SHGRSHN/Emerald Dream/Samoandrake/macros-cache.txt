@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END

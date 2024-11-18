@@ -1,11 +1,8 @@
 
 ItemVersionDB = {
 ["profileKeys"] = {
-["Voidspeakerr - Emerald Dream"] = "Default",
-["Shadowdaggr - Area 52"] = "Default",
-["Kkmeki - Emerald Dream"] = "Default",
-["Demenchonone - Emerald Dream"] = "Default",
-["Flameing - Emerald Dream"] = "Default",
+["Floide - Moon Guard"] = "Default",
+["Timecaster - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

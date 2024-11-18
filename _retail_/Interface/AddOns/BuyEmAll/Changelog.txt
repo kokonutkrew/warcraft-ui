@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-﻿v3.5.8
-=======
 ﻿v4.1.0
 - Restore modification of the shift-click frame, hopefully restoring compatibility with most addons
 
@@ -61,7 +58,6 @@ v3.5.9
 -Fixed bug that caused an error when buying a currency with another currency.
 
 v3.5.8
->>>>>>> Stashed changes
 -BuyEmAll now supports Shadowlands
 -BuyEmAll now uses the new CurrencyInfo API introduced in Shadowlands
 -Fixed a small issue where the calculated amount of buyable items was wrong when buying a currency with another currency.

@@ -396,7 +396,8 @@ VER 3 00000000000000C5 "Craft" "132691"
 /castsequence shadow bolt, hand of gul'dan
 END
 VER 3 00000000000000C6 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('No spell available')
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
 END
 VER 3 00000000000000C7 "Distance Aggro" "878211"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
@@ -418,12 +419,12 @@ END
 VER 3 00000000000000CB "GRM_Tool" "INV_MISC_QUESTIONMARK"
 /run GRM.Report("Reserved for GRM Macro Tool Usage. Please do not delete.")
 END
+VER 3 00000000000000CC "Mailbox" "413580"
+/run AutoLootMailItem(1)
+END
 VER 3 00000000000000CD "Mailbox" "INV_Misc_QuestionMark"
 #showtooltip
 /use ohuna perch
-END
-VER 3 00000000000000CC "Mailbox" "413580"
-/run AutoLootMailItem(1)
 END
 VER 3 00000000000000CE "prof Overpower A" "INV_Misc_QuestionMark"
 #showtooltip

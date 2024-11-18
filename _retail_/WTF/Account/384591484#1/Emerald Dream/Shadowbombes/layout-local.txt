@@ -1,0 +1,15 @@
+Version: 1
+Frame: SuperScanFrame
+FrameLevel: 0
+Anchor: BOTTOM
+X: -28
+Y: 123
+W: 130
+H: 30
+Frame: DetailsWelcomeWindow
+FrameLevel: 1
+Anchor: RIGHT
+X: -315
+Y: 37
+W: 612
+H: 315

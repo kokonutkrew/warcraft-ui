@@ -1,22 +1,25 @@
 
 HandyNotesDB = {
 ["profileKeys"] = {
-["Demenchonone - Emerald Dream"] = "Demenchonone - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
+["Flameing - Emerald Dream"] = "Flameing - Emerald Dream",
 },
 ["profiles"] = {
-["Demenchonone - Emerald Dream"] = {
-},
 ["Timecaster - Emerald Dream"] = {
+},
+["Flameing - Emerald Dream"] = {
 },
 },
 }
 HandyNotes_HandyNotesDB = {
 ["profileKeys"] = {
-["Demenchonone - Emerald Dream"] = "Demenchonone - Emerald Dream",
+["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
+["Flameing - Emerald Dream"] = "Flameing - Emerald Dream",
 },
 ["profiles"] = {
-["Demenchonone - Emerald Dream"] = {
+["Timecaster - Emerald Dream"] = {
+},
+["Flameing - Emerald Dream"] = {
 },
 },
 }

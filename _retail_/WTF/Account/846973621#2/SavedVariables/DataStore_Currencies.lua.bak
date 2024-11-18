@@ -1,0 +1,46 @@
+
+DataStore_Currencies_Characters = {
+{
+["lastUpdate"] = 1724021227,
+["Totals"] = {
+[2778] = 27105,
+[2032] = 2000,
+},
+["Currencies"] = {
+7105413377,
+524288513,
+},
+},
+}
+DataStore_Currencies_Catalog = {
+["Set"] = {
+["Bronze"] = 1,
+["Trader's Tender"] = 2,
+},
+["Count"] = 2,
+["List"] = {
+"Bronze",
+"Trader's Tender",
+},
+}
+DataStore_Currencies_Info = {
+4638724,
+4696085,
+}
+DataStore_Currencies_Max = {
+[2778] = 2000000,
+[2032] = 0,
+}
+DataStore_Currencies_Headers = {
+["Set"] = {
+["Miscellaneous"] = 1,
+},
+["Count"] = 1,
+["List"] = {
+"Miscellaneous",
+},
+}
+DataStore_Currencies_Archeology = {
+{
+},
+}

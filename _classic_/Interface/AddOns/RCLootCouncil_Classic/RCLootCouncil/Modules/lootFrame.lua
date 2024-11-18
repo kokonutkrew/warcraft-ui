@@ -162,7 +162,7 @@ end
 function LootFrame:OnRoll(entry, button)
 	local item = entry.item
 	if not item.isRoll then
-		if addon.mldb and addon.mldb.requireNotes and button ~= "PASS" then
+		if addon.mldb and addon.mldb.requireNotes and button ~= "PASS" and button ~= "TIMEOUT" then
 			if not item.note or #item.note == 0 then
 				addon:Print(format(L["lootFrame_error_note_required"], addon.Ambiguate(addon.masterLooter)))
 				return
@@ -278,7 +278,7 @@ do
 		-- Expects caller to setup buttons and position.
 		Create = function(entry, parent)
 			entry.width = parent:GetWidth()
-			entry.frame = CreateFrame("Frame", "DefaultRCLootFrameEntry("..LootFrame.EntryManager.numEntries..")", parent)
+			entry.frame = CreateFrame("Frame", "DefaultRCLootFrameEntry("..LootFrame.EntryManager.numEntries..")", parent, BackdropTemplateMixin and "BackdropTemplate")
 			entry.frame:SetWidth(entry.width)
 			entry.frame:SetHeight(ENTRY_HEIGHT)
 			-- We expect entry constructors to place the frame correctly:
@@ -380,7 +380,7 @@ do
 				end
 			end)
 
-			entry.noteEditbox = CreateFrame("EditBox", nil, entry.frame, "AutoCompleteEditBoxTemplate")
+			entry.noteEditbox = CreateFrame("EditBox", nil, entry.frame, "AutoCompleteEditBoxTemplate" and BackdropTemplateMixin and "BackdropTemplate")
 			entry.noteEditbox:SetMaxLetters(64)
 			entry.noteEditbox:SetBackdrop(LootFrame.frame.title:GetBackdrop())
 			entry.noteEditbox:SetBackdropColor(LootFrame.frame.title:GetBackdropColor())

@@ -1,10 +1,8 @@
 
 TomTomDB = {
 ["profileKeys"] = {
-["Maliatt - Area 52"] = "Default",
-["Faithwyn - Area 52"] = "Default",
-["Maliajj - Area 52"] = "Default",
-["Snuglebug - Area 52"] = "Default",
+["Maliaelle - Moon Guard"] = "Default",
+["Maliakk - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -19,11 +17,11 @@ nil,
 },
 ["block"] = {
 ["position"] = {
-"RIGHT",
+"BOTTOMLEFT",
 nil,
-"RIGHT",
--102.9997177124023,
--106.9999160766602,
+"BOTTOMLEFT",
+0,
+0,
 },
 },
 },
@@ -32,19 +30,13 @@ nil,
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
-["Maliatt - Area 52"] = "Maliatt - Area 52",
-["Faithwyn - Area 52"] = "Faithwyn - Area 52",
-["Maliajj - Area 52"] = "Maliajj - Area 52",
-["Snuglebug - Area 52"] = "Snuglebug - Area 52",
+["Maliaelle - Moon Guard"] = "Maliaelle - Moon Guard",
+["Maliakk - Emerald Dream"] = "Maliakk - Emerald Dream",
 },
 ["profiles"] = {
-["Maliatt - Area 52"] = {
+["Maliaelle - Moon Guard"] = {
 },
-["Faithwyn - Area 52"] = {
-},
-["Maliajj - Area 52"] = {
-},
-["Snuglebug - Area 52"] = {
+["Maliakk - Emerald Dream"] = {
 },
 },
 }

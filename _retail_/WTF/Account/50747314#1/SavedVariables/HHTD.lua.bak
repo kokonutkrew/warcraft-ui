@@ -1,35 +1,31 @@
 
 HHTD_SavedVariables = {
-	["char"] = {
-		["Gl - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Kokonutkiing - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Buhbles - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Kokonutkween - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-	},
-	["namespaces"] = {
-		["Announcer"] = {
-		},
-		["CM"] = {
-		},
-		["NPH"] = {
-		},
-	},
-	["profileKeys"] = {
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
+["char"] = {
+["Ascholokk - Emerald Dream"] = {
+["settingsMigrated"] = false,
+},
+["Twenk - Emerald Dream"] = {
+["settingsMigrated"] = false,
+},
+["Blanchyy - Emerald Dream"] = {
+["settingsMigrated"] = false,
+},
+},
+["global"] = {
+["settingsMigrated"] = false,
+["oldNameEnableState"] = 0,
+},
+["profileKeys"] = {
+["Ascholokk - Emerald Dream"] = "Ascholokk - Emerald Dream",
+["Twenk - Emerald Dream"] = "Twenk - Emerald Dream",
+["Blanchyy - Emerald Dream"] = "Blanchyy - Emerald Dream",
+},
+["namespaces"] = {
+["Announcer"] = {
+},
+["CM"] = {
+},
+["NPH"] = {
+},
+},
 }

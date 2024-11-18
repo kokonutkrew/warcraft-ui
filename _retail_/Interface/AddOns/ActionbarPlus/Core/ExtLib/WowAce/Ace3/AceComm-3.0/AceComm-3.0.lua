@@ -9,11 +9,7 @@
 -- make into AceComm.
 -- @class file
 -- @name AceComm-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/VuhDo/Libs/AceComm-3.0/AceComm-3.0.lua
--- @release $Id: AceComm-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceComm-3.0.lua 1333 2024-05-05 16:24:39Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ActionbarPlus/Core/ExtLib/WowAce/Ace3/AceComm-3.0/AceComm-3.0.lua
 
 --[[ AceComm-3.0
 

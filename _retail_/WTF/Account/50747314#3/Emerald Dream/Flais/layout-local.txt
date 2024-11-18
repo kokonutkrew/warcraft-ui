@@ -1,0 +1,8 @@
+Version: 1
+Frame: SuperScanFrame
+FrameLevel: 0
+Anchor: CENTER
+X: -198
+Y: 31
+W: 130
+H: 30

@@ -1,0 +1,26 @@
+
+PasteDB = {
+["profileKeys"] = {
+["Dewdrop - Emerald Dream"] = "Dewdrop - Emerald Dream",
+["Whimsywing - Emerald Dream"] = "Whimsywing - Emerald Dream",
+["Manaiakk - Emerald Dream"] = "Manaiakk - Emerald Dream",
+["Plumn - Emerald Dream"] = "Plumn - Emerald Dream",
+["Bennlythecow - Moon Guard"] = "Bennlythecow - Moon Guard",
+["Riverblume - Moon Guard"] = "Riverblume - Moon Guard",
+},
+["profiles"] = {
+["Dewdrop - Emerald Dream"] = {
+},
+["Whimsywing - Emerald Dream"] = {
+},
+["Manaiakk - Emerald Dream"] = {
+["loaded"] = true,
+},
+["Plumn - Emerald Dream"] = {
+},
+["Bennlythecow - Moon Guard"] = {
+},
+["Riverblume - Moon Guard"] = {
+},
+},
+}

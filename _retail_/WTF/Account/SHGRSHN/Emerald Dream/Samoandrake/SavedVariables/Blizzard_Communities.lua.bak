@@ -1,0 +1,7 @@
+
+g_clubIdToSeenApplicants = {
+[352303931] = {
+["Player-60-0EC482AB"] = true,
+["Player-158-0B9A63D5"] = true,
+},
+}

@@ -14,9 +14,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 },
 },
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Default",
-["Dethflare - Emerald Dream"] = "Default",
 ["Winbin - Emerald Dream"] = "Default",
+["Chieef - Area 52"] = "Default",
+["Bigbrane - Emerald Dream"] = "Default",
+["Saibull - Moon Guard"] = "Default",
+["Killonsites - Area 52"] = "Default",
+["Saikk - Emerald Dream"] = "Default",
+["Worldboss - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

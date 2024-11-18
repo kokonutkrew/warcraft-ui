@@ -1,0 +1,29 @@
+VER 3 0100000000000001 ".a.yAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2782]remove corruption
+END
+VER 3 0100000000000002 ".a.yQ Interrupt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:1766]kick;[known:78675]solar beam;[known:147362]counter shot;[known:2139] counterspell;[known:106839]skull bash
+END
+VER 3 0100000000000003 ".a.yScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:186257]aspect of the cheetah;[known:2983]sprint;[known:77764]stampeding roar;[known:dash]dash;[known:68992]darkflight
+END
+VER 3 0100000000000004 ".f07 Spotlight" "135914"
+/use personal spotlight
+/use pretty dreanor pearl
+/use druid and priest statue set
+/use vindicator's armor polish kit
+/use yellow conservatory scroll
+/use accursed tome of the sargerei
+/use bubble wand
+END
+VER 3 0100000000000005 ".g gRAF Spam" "135026"
+Power leveling in exchange for RAF link. Your account must be less than 30days old
+END
+VER 3 0100000000000006 "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END

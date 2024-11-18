@@ -101,6 +101,14 @@ local function CreateHash(t)
 end
 app.CreateHash = CreateHash;
 
+-- Helper Functions
+local ShouldExcludeFromTooltipHelper = function(t)
+	-- Whether or not to exclude this data from the source list in the tooltip.
+	local parent = t.parent;
+	if parent then return parent.ShouldExcludeFromTooltip; end
+	return false;
+end
+
 -- Represents default field evaluation logic for all Classes unless defined within the Class
 local DefaultFields = {
 	-- Cloned groups will not directly have a parent, but they will instead have a sourceParent, so fill in with that instead
@@ -149,7 +157,16 @@ local DefaultFields = {
 		end
 		t.AccessibilityScore = score;
 		return score;
-	end
+	end,
+	["creatureID"] = function(t)	-- TODO: Do something about this, it's silly.
+		return t.npcID;
+	end,
+	["ShouldExcludeFromTooltipHelper"] = function(t)
+		return ShouldExcludeFromTooltipHelper;
+	end,
+	["ShouldExcludeFromTooltip"] = function(t)
+		return t.ShouldExcludeFromTooltipHelper(t);
+	end,
 };
 
 if app.IsRetail then
@@ -207,17 +224,6 @@ if app.IsRetail then
 		end,
 		["iconPath"] = function(t)
 			return rawget(t, "icon")
-		end,
-		["creatureID"] = function(t)	-- TODO: Do something about this, it's silly.
-			return t.npcID;
-		end,
-	}) do
-		DefaultFields[fieldName] = fieldMethod;
-	end
-else
-	for fieldName,fieldMethod in pairs({
-		["creatureID"] = function(t)	-- TODO: Do something about this, it's silly.
-			return t.npcID;
 		end,
 	}) do
 		DefaultFields[fieldName] = fieldMethod;

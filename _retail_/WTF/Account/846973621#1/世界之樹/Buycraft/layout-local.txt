@@ -1,0 +1,8 @@
+Version: 1
+Frame: SuperScanFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 248
+Y: 12
+W: 130
+H: 30

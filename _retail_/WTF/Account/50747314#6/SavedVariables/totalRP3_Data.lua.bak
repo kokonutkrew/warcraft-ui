@@ -1,0 +1,543 @@
+
+TRP3_AddonLocale = nil
+TRP3_Register = {
+["companion"] = {
+},
+["character"] = {
+["Solarskies-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "10151350152khD*",
+["msp"] = false,
+["extendedVersion"] = "2.2.0",
+["classID"] = 8,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.1",
+},
+["Face-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "0729110239eVtAO",
+["guild"] = "Shenanigans",
+["class"] = "PRIEST",
+["msp"] = false,
+["classID"] = 5,
+["gender"] = 3,
+["extendedVersion"] = "2.2.0",
+["race"] = "Human",
+["faction"] = "Alliance",
+["roleplayExperience"] = 2,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.1",
+},
+["Bahanya-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "052201210126AAN",
+["msp"] = false,
+["extendedVersion"] = "2.2.0",
+["classID"] = 3,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.0",
+},
+["Strokability-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "1209005844id0C*",
+["msp"] = false,
+["extendedVersion"] = "2.2.0",
+["classID"] = 11,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 1,
+["clientVersion"] = "3.0.0",
+},
+["Temptrix-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "1108174652DEvQ*",
+["msp"] = false,
+["extendedVersion"] = "2.2.0",
+["classID"] = 12,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.1",
+},
+["Hiroske-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "1013200319NtCb*",
+["msp"] = false,
+["extendedVersion"] = "2.2.0",
+["classID"] = 10,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.1",
+},
+["Sinaka-MoonGuard"] = {
+["extended"] = 0,
+["profileID"] = "0201163241jKIy*",
+["msp"] = false,
+["classID"] = 1,
+["roleplayExperience"] = 4,
+["clientVersion"] = "3.0.1",
+["isTrial"] = 0,
+["client"] = "Total RP 3",
+},
+["Vianarage-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "0724033117hhVM*",
+["msp"] = false,
+["extendedVersion"] = "2.2.0",
+["classID"] = 1,
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.1",
+},
+["Aquatonic-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "1030142308U7ai*",
+["class"] = "EVOKER",
+["msp"] = false,
+["classID"] = 13,
+["gender"] = 3,
+["extendedVersion"] = "2.2.0",
+["race"] = "Dracthyr",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.1",
+},
+["Xerachi-MoonGuard"] = {
+["extended"] = 1044,
+["profileID"] = "0709160748KTtM*",
+["class"] = "PALADIN",
+["msp"] = false,
+["classID"] = 2,
+["gender"] = 2,
+["extendedVersion"] = "2.2.0",
+["race"] = "LightforgedDraenei",
+["faction"] = "Alliance",
+["roleplayExperience"] = 4,
+["client"] = "TRP3: Extended",
+["isTrial"] = 0,
+["clientVersion"] = "3.0.0",
+},
+},
+["blockList"] = {
+},
+["profiles"] = {
+["0729110239eVtAO"] = {
+["character"] = {
+["WU"] = 2,
+["RP"] = 1,
+["CU"] = "...",
+["CO"] = "...",
+["v"] = 7,
+},
+["time"] = 1722377916,
+["link"] = {
+["Face-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["RA"] = "Human",
+["MI"] = {
+},
+["RE"] = "Trade District, Stormwind City",
+["BP"] = "Stormwind City, Elwynn Forest",
+["PS"] = {
+},
+["EH"] = "59c2ff",
+["AG"] = "28",
+["IC"] = "inv_helm_misc_rose_a_01_red",
+["v"] = 16,
+["EC"] = "Blue",
+["CL"] = "Trader",
+["FN"] = "Face",
+["FT"] = "Level 1 NPC",
+["RS"] = 1,
+["CH"] = "59c2ff",
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+["8"] = 3,
+["3"] = 3,
+["2"] = 3,
+["4"] = 1,
+["7"] = 1,
+["6"] = 1,
+},
+["PE"] = {
+},
+["v"] = 14,
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+},
+["1209005844id0C*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 4,
+},
+["time"] = 1722377907,
+["link"] = {
+["Strokability-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Druid",
+["RA"] = "Worgen",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Strokability",
+["IC"] = "ability_racial_viciousness",
+["v"] = 1615,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["1030142308U7ai*"] = {
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["character"] = {
+["RP"] = 2,
+["LC"] = "enUS",
+["v"] = 5,
+},
+["time"] = 1722377939,
+["link"] = {
+["Aquatonic-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Evoker",
+["RA"] = "Dracthyr",
+["FN"] = "Aquatonic",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "inv_dracthyrhead01",
+["v"] = 1737,
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["052201210126AAN"] = {
+["character"] = {
+["RP"] = 1,
+["v"] = 44,
+["CU"] = "Dawn's Blossom wants to take our guns. I don't think so.\n\nThey can take my rifle from my cold dead hands.",
+["CO"] = "LGBTQ+ rights\nThe Tillers Will Be Armed, \nWe Know What The Infinites Did To Them.\n#rememberthetillers #dragonsaresus",
+},
+["time"] = 1722377925,
+["link"] = {
+["Bahanya-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["LN"] = "Cherrykeg",
+["MI"] = {
+{
+["ID"] = 4,
+["NA"] = "Motto",
+["IC"] = "inv_inscription_scrollofwisdom_01",
+["VA"] = "We have the Right to Bear Arms...",
+},
+},
+["FN"] = "Bahanya",
+["AG"] = "48",
+["IC"] = "inv_legendary_gun",
+["HE"] = "Bear",
+["CH"] = "ff242a",
+["RA"] = "Pandaren",
+["BP"] = "Halfhill",
+["v"] = 2,
+["RS"] = 0,
+["CL"] = "Sharpshooter",
+["TI"] = "Spokeswoman",
+["PS"] = {
+{
+["RT"] = "No Guns",
+["V2"] = 20,
+["RI"] = "spell_magic_polymorphrabbit",
+["VA"] = 6,
+["LI"] = "inv_legendary_gun",
+["LT"] = "Guns",
+},
+},
+["FT"] = "Spokeswoman for the TRA",
+["RE"] = "Halfhill",
+["WE"] = "Bear",
+},
+["about"] = {
+["v"] = 2,
+["BK"] = 1,
+["TE"] = 1,
+["T1"] = {
+["TX"] = "{h2:c}Crossbows are for chumps, bears should bear arms in their bear arms.{/h2}\n\n\n{img:Interface\\QuestionFrame\\answer-TimeRiftGunRack_Railgun:256:128}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf the general jist of the profile made you giggle you're contractually obligated to let me know.",
+},
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+["1"] = 1,
+["3"] = 2,
+["2"] = 1,
+["5"] = 0,
+["4"] = 2,
+["6"] = 0,
+},
+["v"] = 11,
+},
+},
+["10151350152khD*"] = {
+["character"] = {
+["RP"] = 2,
+["LC"] = "enUS",
+["v"] = 7,
+},
+["time"] = 1722377904,
+["link"] = {
+["Solarskies-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Mage",
+["RA"] = "Night Elf",
+["FN"] = "Solarskies",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 4491,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["1108174652DEvQ*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 4,
+},
+["time"] = 1722377954,
+["link"] = {
+["Temptrix-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Demon Hunter",
+["RA"] = "Night Elf",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Temptrix",
+["IC"] = "achievement_character_nightelf_female",
+["v"] = 1045,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["1013200319NtCb*"] = {
+["character"] = {
+["RP"] = 2,
+["LC"] = "enUS",
+["v"] = 4,
+},
+["time"] = 1722377920,
+["link"] = {
+["Hiroske-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Monk",
+["RA"] = "Pandaren",
+["FN"] = "Hiroske",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "achievement_guild_classypanda",
+["v"] = 1948,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+},
+["0201163241jKIy*"] = {
+["character"] = {
+["RP"] = 2,
+["v"] = 3,
+},
+["time"] = 1722377961,
+["link"] = {
+["Sinaka-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warrior",
+["RA"] = "Lightforged Draenei",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Sinaka",
+["IC"] = "ability_racial_finalverdict",
+["v"] = 235,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["0724033117hhVM*"] = {
+["character"] = {
+["RP"] = 2,
+["WU"] = 1,
+["v"] = 1,
+},
+["time"] = 1722377910,
+["link"] = {
+["Vianarage-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Warrior",
+["RA"] = "Worgen",
+["PS"] = {
+},
+["MI"] = {
+},
+["FN"] = "Vianarage",
+["IC"] = "ability_racial_viciousness",
+["v"] = 96,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["misc"] = {
+["PE"] = {
+},
+["ST"] = {
+},
+["v"] = 1,
+},
+},
+["0709160748KTtM*"] = {
+["misc"] = {
+["ST"] = {
+},
+["PE"] = {
+},
+["v"] = 1,
+},
+["character"] = {
+["RP"] = 2,
+["CO"] = "",
+["CU"] = "",
+["v"] = 4,
+},
+["time"] = 1722377957,
+["link"] = {
+["Xerachi-MoonGuard"] = 1,
+},
+["characteristics"] = {
+["CL"] = "Paladin",
+["RA"] = "Lightforged Draenei",
+["FN"] = "Xerachi",
+["MI"] = {
+},
+["PS"] = {
+},
+["IC"] = "ability_racial_finalverdict",
+["v"] = 120,
+},
+["about"] = {
+["v"] = 1,
+["read"] = true,
+["TE"] = 1,
+["T1"] = {
+},
+},
+["zone"] = "Shrine of Seven Stars - The Star's Bazaar",
+},
+},
+}

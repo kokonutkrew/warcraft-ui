@@ -1,0 +1,54 @@
+
+OmniBarDB = {
+["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Goldsquid - Area 52"] = "Default",
+["Xxb - Moon Guard"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["bars"] = {
+["OmniBar1"] = {
+["glow"] = true,
+["scenario"] = true,
+["tooltips"] = true,
+["names"] = false,
+["multiple"] = true,
+["border"] = true,
+["center"] = false,
+["trackUnit"] = "ENEMY",
+["locked"] = false,
+["arena"] = true,
+["growUpward"] = true,
+["world"] = true,
+["cooldownCount"] = true,
+["highlightTarget"] = true,
+["columns"] = 8,
+["unusedAlpha"] = 0.45,
+["align"] = "CENTER",
+["highlightFocus"] = false,
+["padding"] = 2,
+["adaptive"] = false,
+["maxIcons"] = 32,
+["ratedBattleground"] = true,
+["name"] = "OmniBar",
+["position"] = {
+["relativeTo"] = "UIParent",
+["point"] = "RIGHT",
+["relativePoint"] = "RIGHT",
+["yOfs"] = 263.0000915527344,
+["xOfs"] = -438.4996032714844,
+["frameStrata"] = "MEDIUM",
+},
+["size"] = 40,
+["showUnused"] = false,
+["swipeAlpha"] = 0.65,
+["battleground"] = true,
+},
+},
+},
+},
+}

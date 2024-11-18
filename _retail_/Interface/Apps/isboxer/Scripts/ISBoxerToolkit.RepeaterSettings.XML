@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InnerSpaceSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Set Name="Default" />
+  <Set Name="4835BEB72DB6E8F00F64BF5D068ADD92">
+    <Setting Name="1" />
+    <Setting Name="2" />
+    <Setting Name="3" />
+    <Setting Name="4" />
+    <Setting Name="Alt" />
+    <Setting Name="Ctrl" />
+    <Setting Name="Num 1" />
+    <Setting Name="Num 2" />
+    <Setting Name="Num 3" />
+    <Setting Name="Num 4" />
+    <Setting Name="Right Alt" />
+    <Setting Name="Right Ctrl" />
+    <Setting Name="Right Shift" />
+    <Setting Name="Shift" />
+  </Set>
+</InnerSpaceSettings>

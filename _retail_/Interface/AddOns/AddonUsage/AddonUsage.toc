@@ -1,11 +1,3 @@
-<<<<<<< Updated upstream
-## Interface: 90005
-## Title: Addon Usage
-## Notes: Displays the memory and cpu usage of your addons
-## Author: Gello
-## Version 3.0.7
-## SavedVariables: AddonUsageSettings
-=======
 ## Interface: 110005
 ## Title: Addon Usage
 ## Notes: Displays the memory and cpu usage of your addons
@@ -17,5 +9,4 @@
 ## SavedVariables: AddonUsageSettings
 ## IconTexture: Interface\Icons\INV_Misc_EngGizmos_30
 ## AddonCompartmentFunc: AddonUsageToggleWindow
->>>>>>> Stashed changes
 AddonUsage.xml

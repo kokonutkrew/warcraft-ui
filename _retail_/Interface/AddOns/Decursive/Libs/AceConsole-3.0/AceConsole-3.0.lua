@@ -9,11 +9,7 @@
 -- make into AceConsole.
 -- @class file
 -- @name AceConsole-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/HHTD/Libs/AceConsole-3.0/AceConsole-3.0.lua
--- @release $Id: AceConsole-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceConsole-3.0.lua 1284 2022-09-25 09:15:30Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/Decursive/Libs/AceConsole-3.0/AceConsole-3.0.lua
 local MAJOR,MINOR = "AceConsole-3.0", 7
 
 local AceConsole, oldminor = LibStub:NewLibrary(MAJOR, MINOR)

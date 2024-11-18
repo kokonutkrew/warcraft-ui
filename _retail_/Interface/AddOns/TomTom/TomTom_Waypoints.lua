@@ -11,10 +11,7 @@
 local addon_name, addon = ...
 local hbd = addon.hbd
 local hbdp = LibStub("HereBeDragons-Pins-2.0")
-<<<<<<< Updated upstream
-=======
 local errorHandler = geterrorhandler()
->>>>>>> Stashed changes
 
 -- Create a tooltip to be used when mousing over waypoints
 local tooltip = CreateFrame("GameTooltip", "TomTomTooltip", UIParent, "GameTooltipTemplate")
@@ -50,13 +47,9 @@ local function rotateArrow(self)
     if self.disabled then return end
 
     local angle = hbdp:GetVectorToIcon(self)
-<<<<<<< Updated upstream
-    if not angle then return self:Hide() end
-=======
     if not angle then
         return self:Hide()
     end
->>>>>>> Stashed changes
     angle = angle + rad_135
 
     if GetCVar("rotateMinimap") == "1" then
@@ -77,10 +70,7 @@ function TomTom:ReparentMinimap(minimap)
 end
 
 local waypointMap = {}
-<<<<<<< Updated upstream
-=======
 local idx = 0
->>>>>>> Stashed changes
 
 function TomTom:SetWaypoint(waypoint, callbacks, show_minimap, show_world)
     local m, x, y = unpack(waypoint)
@@ -92,13 +82,9 @@ function TomTom:SetWaypoint(waypoint, callbacks, show_minimap, show_world)
     if not point then
         point = {}
 
-<<<<<<< Updated upstream
-        local minimap = CreateFrame("Button", nil, minimapParent)
-=======
         idx = idx + 1
         local minimapButtonName = string.format("TTMinimapButton%d", idx)
         local minimap = CreateFrame("Button", minimapButtonName, minimapParent)
->>>>>>> Stashed changes
         minimap:SetHeight(20)
         minimap:SetWidth(20)
         minimap:RegisterForClicks("RightButtonUp")
@@ -198,10 +184,7 @@ function TomTom:SetWaypoint(waypoint, callbacks, show_minimap, show_world)
     -- Place the waypoint
     -- AddMinimapIconMap(ref, icon, uiMapID, x, y, showInParentZone, floatOnEdge)
     hbdp:AddMinimapIconMap(self, point.minimap, m, x, y, true, true)
-<<<<<<< Updated upstream
-=======
     point.addedToMinimap = true
->>>>>>> Stashed changes
 
     if show_world then
         -- show worldmap pin on its parent zone map (if any)
@@ -263,10 +246,7 @@ function TomTom:ClearWaypoint(uid)
         hbdp:RemoveWorldMapIcon(self, point.worldmap)
         point.minimap:Hide()
         point.worldmap:Hide()
-<<<<<<< Updated upstream
-=======
         point.addedToMinimap = false
->>>>>>> Stashed changes
 
         -- Clear our handles to the callback tables
         point.callbacks = nil
@@ -311,11 +291,7 @@ do
         local data = self.callbacks
 
         if data and data.onclick then
-<<<<<<< Updated upstream
-            data.onclick("onclick", self.point.uid, self, button)
-=======
             xpcall(data.onclick, errorHandler, "onclick", self.point.uid, self, button)
->>>>>>> Stashed changes
         end
     end
 
@@ -338,11 +314,7 @@ do
 
             tooltip:SetOwner(self, "ANCHOR_BOTTOMLEFT")
 
-<<<<<<< Updated upstream
-            data.tooltip_show("tooltip_show", tooltip, uid, dist)
-=======
             xpcall(data.tooltip_show, errorHandler, "tooltip_show", tooltip, uid, dist)
->>>>>>> Stashed changes
             tooltip:Show()
 
             -- Set the update script if there is one
@@ -451,11 +423,7 @@ do
                 local distance = list[newstate]
                 local callback = callbacks.distance[distance]
                 if callback then
-<<<<<<< Updated upstream
-                    callback("distance", data.uid, distance, dist, data.lastdist)
-=======
                     xpcall(callback, errorHandler, "distance", data.uid, distance, dist, data.lastdist)
->>>>>>> Stashed changes
                 end
                 data.state = newstate
             end
@@ -469,14 +437,10 @@ do
         if event == "PLAYER_ENTERING_WORLD" then
             local data = self.point
             if data and data.uid and waypointMap[data.uid] then
-<<<<<<< Updated upstream
-                hbdp:AddMinimapIconMap(TomTom, self, data.m, data.x, data.y, true)
-=======
                 if not data.addedToMinimap then
                     -- Prevent duplicate registration
                     hbdp:AddMinimapIconMap(TomTom, self, data.m, data.x, data.y, true)
                 end
->>>>>>> Stashed changes
             end
         end
     end

@@ -1,0 +1,17 @@
+
+BetterAddonListDB = {
+["sets"] = {
+},
+["nested"] = {
+},
+["protected"] = {
+["CaerdonWardrobe"] = true,
+["Myslot"] = true,
+["AutomaticRoleCheck"] = true,
+["Leatrix_Plus"] = true,
+["ZygorGuidesViewer"] = true,
+["Auctionator"] = true,
+["Hekili"] = true,
+["Leatrix_Maps"] = true,
+},
+}

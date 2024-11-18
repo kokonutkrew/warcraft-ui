@@ -40,13 +40,8 @@
 -- end
 -- @class file
 -- @name AceDB-3.0.lua
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceDB-3.0/AceDB-3.0.lua
--- @release $Id: AceDB-3.0.lua 1217 2019-07-11 03:06:18Z funkydude $
-local ACEDB_MAJOR, ACEDB_MINOR = "AceDB-3.0", 27
-========
 -- @release $Id: AceDB-3.0.lua 1328 2024-03-20 22:36:27Z nevcairiel $
 local ACEDB_MAJOR, ACEDB_MINOR = "AceDB-3.0", 29
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ItemVersion/Libs/AceDB-3.0/AceDB-3.0.lua
 local AceDB = LibStub:NewLibrary(ACEDB_MAJOR, ACEDB_MINOR)
 
 if not AceDB then return end -- No upgrade needed
@@ -265,11 +260,7 @@ local factionrealmKey = factionKey .. " - " .. realmKey
 local localeKey = GetLocale():lower()
 
 local regionTable = { "US", "KR", "EU", "TW", "CN" }
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceDB-3.0/AceDB-3.0.lua
-local regionKey = regionTable[GetCurrentRegion()]
-========
 local regionKey = regionTable[GetCurrentRegion()] or GetCurrentRegionName() or "TR"
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ItemVersion/Libs/AceDB-3.0/AceDB-3.0.lua
 local factionrealmregionKey = factionrealmKey .. " - " .. regionKey
 
 -- Actual database initialization function
@@ -615,13 +606,8 @@ end
 -- profile.
 -- @param defaultProfile The profile name to use as the default
 function DBObjectLib:ResetDB(defaultProfile)
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceDB-3.0/AceDB-3.0.lua
-	if defaultProfile and type(defaultProfile) ~= "string" then
-		error(("Usage: AceDBObject:ResetDB(defaultProfile): 'defaultProfile' - string or nil expected, got %q."):format(type(defaultProfile)), 2)
-========
 	if defaultProfile and type(defaultProfile) ~= "string" and defaultProfile ~= true then
 		error(("Usage: AceDBObject:ResetDB(defaultProfile): 'defaultProfile' - string or true expected, got %q."):format(type(defaultProfile)), 2)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ItemVersion/Libs/AceDB-3.0/AceDB-3.0.lua
 	end
 
 	local sv = self.sv

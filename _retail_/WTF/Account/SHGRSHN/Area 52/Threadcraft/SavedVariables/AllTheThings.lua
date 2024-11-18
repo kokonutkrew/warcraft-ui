@@ -1,2 +1,5 @@
 
-AllTheThingsSettingsPerCharacter = nil
+AllTheThingsSettingsPerCharacter = {
+["Filters"] = {
+},
+}

@@ -18,15 +18,6 @@
 	<Binding name="TEAMMASTER" category="EMA">
 		--[[dummy]]
 	</Binding>
-	<Binding name="CLICKTOMOVE" category="EMA">
-		--[[dummy]]
-	</Binding>
-	<Binding name="MASTERTARGET" header="ASTERISK" category="EMA">
-		--[[dummy]]
-	</Binding>
-	<Binding name="MASTERASSIST" category="EMA">
-		--[[dummy]]
-	</Binding>
 	<!-- Follow Bindings-->
 	<Binding name="FOLLOWME" header="FOLLOW" category="EMA">
 		--[[dummy]]
@@ -40,9 +31,6 @@
 	<Binding name="FOLLOWTEAIN" category="EMA">
 		--[[dummy]]
 	</Binding>	
-	<Binding name="FOLLOWSTOP" category="EMA">
-		--[[dummy]]
-	</Binding>
 	<!-- ItemUse Bindings-->
 	<Binding name="ITEMUSE1" header="ITEMUSE" category="EMA">
 		--[[dummy]]

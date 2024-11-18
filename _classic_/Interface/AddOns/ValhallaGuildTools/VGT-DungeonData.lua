@@ -3,38 +3,17 @@ VGT.dungeons = {}
 VGT.bosses = {}
 VGT.trackedRaids = {}
 
-VGT.bosses["Azuregos"] = {6109, 0}
-VGT.bosses[6109] = {"Azuregos", 0}
-VGT.bosses["Lord Kazzak"] = {12397, 0}
-VGT.bosses[12397] = {"Lord Kazzak", 0}
-VGT.bosses["Ysondre"] = {14887, 0}
-VGT.bosses[14887] = {"Ysondre", 0}
-VGT.bosses["Emeriss"] = {14889, 0}
-VGT.bosses[14888] = {"Lethon", 0}
-VGT.bosses["Lethon"] = {14888, 0}
-VGT.bosses[14889] = {"Ermeriss", 0}
-VGT.bosses["Taerar"] = {14890, 0}
-VGT.bosses[14890] = {"Taerar", 0}
-
 VGT.raids["Molten Core"] = 409
-VGT.raids[409] = {"Molten Core", -1039.7, -7508.3, 0}
+VGT.raids[409] = {"Molten Core", - 1039.7, - 7508.3, 0}
 
-VGT.dungeons["Onyxia's Lair"] = 249
-VGT.dungeons[249] = {"Onyxia's Lair", -3754.4, -4750.4, 1}
-VGT.bosses["Onyxia"] = {10184, 249, 5}
-VGT.bosses[10184] = "Onyxia"
+VGT.raids["Onyxia's Lair"] = 249
+VGT.raids[249] = {"Onyxia's Lair", - 3754.4, - 4750.4, 1}
 
 VGT.raids["Blackwing Lair"] = 469
-VGT.raids[469] = {"Blackwing Lair", -1228.4, -7524.7, 0}
-
-VGT.raids["Temple of Ahn'Qiraj"] = 531
-VGT.raids[531] = {"Temple of Ahn'Qiraj", 1993.3, -8239, 1}
-
-VGT.raids["Naxxramas"] = 533
-VGT.raids[533] = {"Naxxramas", 123, 123, 0} --TODO UPDATE POSITION
+VGT.raids[469] = {"Blackwing Lair", - 1228.4, - 7524.7, 0}
 
 VGT.raids["Zul'Gurub"] = 309
-VGT.raids[309] = {"Zul'Gurub", -1206.9, -11916.2, 0}
+VGT.raids[309] = {"Zul'Gurub", - 1206.9, - 11916.2, 0}
 VGT.bosses["High Priest Venoxis"] = {14507, 309}
 VGT.bosses[14507] = "High Priest Venoxis"
 VGT.bosses["High Priestess Jeklik"] = {14517, 309}
@@ -55,28 +34,13 @@ VGT.bosses["Gahz'ranka"] = {15114, 309}
 VGT.bosses[15114] = "Gahz'ranka"
 VGT.bosses["Jin'do the Hexxer"] = {11380, 309}
 VGT.bosses[11380] = "Jin'do the Hexxer"
+
 VGT.trackedRaids["Zul'Gurub"] = true
 VGT.trackedRaids[309] = true
-
-VGT.raids["Ruins of Ahn'Qiraj"] = 509
-VGT.raids[509] = {"Ruins of Ahn'Qiraj", 1502.4, -8415.7, 1}
-VGT.bosses["Kurinnaxx"] = {15348, 509}
-VGT.bosses[15348] = "Kurinnaxx"
-VGT.bosses["General Rajaxx"] = {15341, 509}
-VGT.bosses[15341] = "General Rajaxx"
-VGT.bosses["Moam"] = {15340, 509}
-VGT.bosses[15340] = "Moam"
-VGT.bosses["Buru the Gorger"] = {15370, 509}
-VGT.bosses[15370] = "Buru the Gorger"
-VGT.bosses["Ayamiss the Hunter"] = {15369, 509}
-VGT.bosses[15369] = "Ayamiss the Hunter"
-VGT.bosses["Ossirian the Unscarred"] = {15339, 509}
-VGT.bosses[15339] = "Ossirian the Unscarred"
-VGT.trackedRaids["Ruins of Ahn'Qiraj"] = true
-VGT.trackedRaids[509] = true
+--TODO add ZG, AQ20, AQ40, Naxx
 
 VGT.dungeons["Ragefire Chasm"] = 389
-VGT.dungeons[389] = {"Ragefire Chasm", -4419.2, 1815, 1}
+VGT.dungeons[389] = {"Ragefire Chasm", - 4419.2, 1815, 1}
 VGT.bosses["Taragaman the Hungerer"] = {11520, 389}
 VGT.bosses[11520] = "Taragaman the Hungerer"
 VGT.bosses["Oggleflint"] = {11517, 389}
@@ -87,7 +51,7 @@ VGT.bosses["Bazzalan"] = {11519, 389}
 VGT.bosses[11519] = "Bazzalan"
 
 VGT.dungeons["Wailing Caverns"] = 43
-VGT.dungeons[43] = {"Wailing Caverns", -2217.8, -738.5, 1}
+VGT.dungeons[43] = {"Wailing Caverns", - 2217.8, - 738.5, 1}
 VGT.bosses["Kresh"] = {3653, 43}
 VGT.bosses[3653] = "Kresh"
 VGT.bosses["Lady Anacondra"] = {3671, 43}
@@ -108,7 +72,7 @@ VGT.bosses["Mutanus the Devourer"] = {3654, 43}
 VGT.bosses[3654] = "Mutanus the Devourer"
 
 VGT.dungeons["The Deadmines"] = 36
-VGT.dungeons[36] = {"The Deadmines", 1675.9, -11208.7, 0}
+VGT.dungeons[36] = {"The Deadmines", 1675.9, - 11208.7, 0}
 VGT.bosses["Rhahk'Zor"] = {644, 36}
 VGT.bosses[644] = "Rhahk'Zor"
 VGT.bosses["Miner Johnson"] = {3586, 36}
@@ -127,7 +91,7 @@ VGT.bosses["Cookie"] = {645, 36}
 VGT.bosses[645] = "Cookie"
 
 VGT.dungeons["Shadowfang Keep"] = 33
-VGT.dungeons[33] = {"Shadowfang Keep", 1567.5, -233, 0}
+VGT.dungeons[33] = {"Shadowfang Keep", 1567.5, - 233, 0}
 VGT.bosses["Rethilgore"] = {3914, 33}
 VGT.bosses[3914] = "Rethilgore"
 VGT.bosses["Fel Steed"] = {3864, 33}
@@ -152,7 +116,7 @@ VGT.bosses["Archmage Arugal"] = {4275, 33}
 VGT.bosses[4275] = "Archmage Arugal"
 
 VGT.dungeons["The Stockade"] = 34
-VGT.dungeons[34] = {"The Stockade", 845.5, -8766.1, 0}
+VGT.dungeons[34] = {"The Stockade", 845.5, - 8766.1, 0}
 VGT.bosses["Targorr the Dread"] = {1696, 34}
 VGT.bosses[1696] = "Targorr the Dread"
 VGT.bosses["Kam Deepfury"] = {1666, 34}
@@ -186,7 +150,7 @@ VGT.bosses["Aku'mai"] = {4829, 48}
 VGT.bosses[4829] = "Aku'mai"
 
 VGT.dungeons["Gnomeregan"] = 90
-VGT.dungeons[90] = {"Gnomeregan", 927.7, -5162.6, 0}
+VGT.dungeons[90] = {"Gnomeregan", 927.7, - 5162.6, 0}
 VGT.bosses["Grubbis"] = {7361, 90}
 VGT.bosses[7361] = "Grubbis"
 VGT.bosses["Viscous Fallout"] = {7079, 90}
@@ -201,7 +165,7 @@ VGT.bosses["Mekgineer Thermaplugg"] = {7800, 90}
 VGT.bosses[7800] = "Mekgineer Thermaplugg"
 
 VGT.dungeons["Razorfen Kraul"] = 47
-VGT.dungeons[47] = {"Razorfen Kraul", -1664.3, -4463.3, 1}
+VGT.dungeons[47] = {"Razorfen Kraul", - 1664.3, - 4463.3, 1}
 VGT.bosses["Roogug"] = {6168, 47}
 VGT.bosses[6168] = "Roogug"
 VGT.bosses["Aggem Thorncurse"] = {4424, 47}
@@ -216,7 +180,7 @@ VGT.bosses["Charlga Razorflank"] = {4421, 47}
 VGT.bosses[4421] = "Charlga Razorflank"
 
 VGT.dungeons["Scarlet Monastery"] = 189
-VGT.dungeons[189] = {"Scarlet Monastery", -823.6, 2915.1, 0}
+VGT.dungeons[189] = {"Scarlet Monastery", - 823.6, 2915.1, 0}
 VGT.bosses["Interrogator Vishas"] = {3983, 189}
 VGT.bosses[3983] = "Interrogator Vishas"
 VGT.bosses["Bloodmage Thalnos"] = {4543, 189}
@@ -241,7 +205,7 @@ VGT.bosses["High Inquisitor Fairbanks"] = {4542, 189}
 VGT.bosses[4542] = "High Inquisitor Fairbanks"
 
 VGT.dungeons["Razorfen Downs"] = 129
-VGT.dungeons[129] = {"Razorfen Downs", -2524.2, -4659.6, 1}
+VGT.dungeons[129] = {"Razorfen Downs", - 2524.2, - 4659.6, 1}
 VGT.bosses["Tuten'kash"] = {7355, 129}
 VGT.bosses[7355] = "Tuten'kash"
 VGT.bosses["Plaguemaw the Rotting"] = {7356, 129}
@@ -256,7 +220,7 @@ VGT.bosses["Amnennar the Coldbringer"] = {7358, 129}
 VGT.bosses[7358] = "Amnennar the Coldbringer"
 
 VGT.dungeons["Uldaman"] = 70
-VGT.dungeons[70] = {"Uldaman", -2954.6, -6066.3, 0}
+VGT.dungeons[70] = {"Uldaman", - 2954.6, - 6066.3, 0}
 VGT.bosses["Revelosh"] = {6910, 70}
 VGT.bosses[6910] = "Revelosh"
 VGT.bosses["Baelog"] = {6906, 70}
@@ -275,7 +239,7 @@ VGT.bosses["Archaedas"] = {2748, 70}
 VGT.bosses[2748] = "Archaedas"
 
 VGT.dungeons["Zul'Farrak"] = 209
-VGT.dungeons[209] = {"Zul'Farrak", -2890.6, -6795.6, 1}
+VGT.dungeons[209] = {"Zul'Farrak", - 2890.6, - 6795.6, 1}
 VGT.bosses["Antu'sul"] = {8127, 209}
 VGT.bosses[8127] = "Antu'sul"
 VGT.bosses["Theka the Martyr"] = {7272, 209}
@@ -302,7 +266,7 @@ VGT.bosses["Sandarr Dunereaver"] = {10080, 209}
 VGT.bosses[10080] = "Sandarr Dunereaver"
 
 VGT.dungeons["Maraudon"] = 349
-VGT.dungeons[349] = {"Maraudon", 2614.2, -1468.2, 1}
+VGT.dungeons[349] = {"Maraudon", 2614.2, - 1468.2, 1}
 VGT.bosses["Noxxion"] = {13282, 349}
 VGT.bosses[13282] = "Noxxion"
 VGT.bosses["Razorlash"] = {12258, 349}
@@ -321,7 +285,7 @@ VGT.bosses["Princess Theradas"] = {12201, 349}
 VGT.bosses[12201] = "Princess Theradas"
 
 VGT.dungeons["The Temple of Atal'Hakkar"] = 109
-VGT.dungeons[109] = {"The Temple of Atal'Hakkar", -3995.4, -10176.6, 0}
+VGT.dungeons[109] = {"The Temple of Atal'Hakkar", - 3995.4, - 10176.6, 0}
 VGT.bosses["Gasher"] = {5713, 109}
 VGT.bosses[5713] = "Gasher"
 VGT.bosses["Hukku"] = {5715, 109}
@@ -354,7 +318,7 @@ VGT.bosses["Shade of Eranikus"] = {5709, 109}
 VGT.bosses[5709] = "Shade of Eranikus"
 
 VGT.dungeons["Blackrock Depths"] = 230
-VGT.dungeons[230] = {"Blackrock Depths", -922.2, -7178.3, 0}
+VGT.dungeons[230] = {"Blackrock Depths", - 922.2, - 7178.3, 0}
 VGT.bosses["Lord Roccor"] = {9025, 230}
 VGT.bosses[9025] = "Lord Roccor"
 VGT.bosses["Bael'Gar"] = {9016, 230}
@@ -423,7 +387,7 @@ VGT.bosses["Emperor Dagran Thaurissan"] = {9019, 230}
 VGT.bosses[9019] = "Emperor Dagran Thaurissan"
 
 VGT.dungeons["Blackrock Spire"] = 229
-VGT.dungeons[229] = {"Blackrock Spire", -1228.4, -7524.7, 0}
+VGT.dungeons[229] = {"Blackrock Spire", - 1228.4, - 7524.7, 0}
 VGT.bosses["Highlord Omokk"] = {9196, 229}
 VGT.bosses[9196] = "Highlord Omokk"
 VGT.bosses["Shadow Hunter Vosh'gajin"] = {9236, 229}
@@ -458,7 +422,7 @@ VGT.bosses["General Drakkisath"] = {10363, 229}
 VGT.bosses[10363] = "General Drakkisath"
 
 VGT.dungeons["Scholomance"] = 289
-VGT.dungeons[289] = {"Scholomance", -2553.1, 1273.9, 0}
+VGT.dungeons[289] = {"Scholomance", - 2553.1, 1273.9, 0}
 VGT.bosses["Kirtonos the Herald"] = {10506, 289}
 VGT.bosses[10506] = "Kirtonos the Herald"
 VGT.bosses["Jandice Barov"] = {10503, 289}
@@ -487,7 +451,7 @@ VGT.bosses["Darkmaster Gandling"] = {1853, 289}
 VGT.bosses[1853] = "Darkmaster Gandling"
 
 VGT.dungeons["Stratholme"] = 329
-VGT.dungeons[329] = {"Stratholme", -4048.3, 3233.1, 0}
+VGT.dungeons[329] = {"Stratholme", - 4048.3, 3233.1, 0}
 VGT.bosses["Fras Siabi"] = {11058, 329}
 VGT.bosses[11058] = "Fras Siabi"
 VGT.bosses["Skul"] = {10393, 329}
@@ -528,7 +492,7 @@ VGT.bosses["Baron Rivendare"] = {10440, 329}
 VGT.bosses[10440] = "Baron Rivendare"
 
 VGT.dungeons["Dire Maul"] = 429
-VGT.dungeons[429] = {"Dire Maul", 1078.4, -3520.2, 1}
+VGT.dungeons[429] = {"Dire Maul", 1078.4, - 3520.2, 1}
 VGT.bosses["Pusillin"] = {14354, 429}
 VGT.bosses[14354] = "Pusillin"
 VGT.bosses["Lehtendris"] = {14327, 429}

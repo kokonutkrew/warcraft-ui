@@ -1,8 +1,4 @@
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
-local Type, Version = "MultiLineEditBox", 29
-========
 local Type, Version = "MultiLineEditBox", 32
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -13,13 +9,6 @@ local pairs = pairs
 local GetCursorInfo, GetSpellInfo, ClearCursor = GetCursorInfo, GetSpellInfo, ClearCursor
 local CreateFrame, UIParent = CreateFrame, UIParent
 local _G = _G
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
-
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: ACCEPT, ChatFontNormal
-========
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
 
 --[[-----------------------------------------------------------------------------
 Support functions
@@ -272,11 +261,6 @@ local methods = {
 	["SetCursorPosition"] = function(self, ...)
 		return self.editBox:SetCursorPosition(...)
 	end,
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
-
-
-========
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
 }
 
 --[[-----------------------------------------------------------------------------

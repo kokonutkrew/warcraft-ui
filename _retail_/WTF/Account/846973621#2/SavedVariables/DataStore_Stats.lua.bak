@@ -1,0 +1,19 @@
+
+DataStore_Stats_Characters = {
+{
+["Ranged"] = "1-2|0|0|0|124.42",
+["Spell"] = "399|633|0|124.42|496|35",
+["Melee"] = "15-23|1.96|0|0|124.42|0",
+["MaxPower"] = "0|890",
+["lastUpdate"] = 1724021290,
+["PVP"] = "0|0",
+["HealthMax"] = 10404,
+["Defense"] = "0|0|3|0.00|0.00|0",
+["Base"] = "36|49|1734|399|0",
+["dungeonScore"] = 0,
+},
+}
+DataStore_Stats_Weekly = {
+}
+DataStore_Stats_Dungeons = {
+}

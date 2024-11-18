@@ -1,11 +1,7 @@
 --- AceDBOptions-3.0 provides a universal AceConfig options screen for managing AceDB-3.0 profiles.
 -- @class file
 -- @name AceDBOptions-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceDBOptions-3.0/AceDBOptions-3.0.lua
--- @release $Id: AceDBOptions-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceDBOptions-3.0.lua 1304 2023-05-19 19:50:10Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/GladiusEx/libs/AceDBOptions-3.0/AceDBOptions-3.0.lua
 local ACEDBO_MAJOR, ACEDBO_MINOR = "AceDBOptions-3.0", 15
 local AceDBOptions = LibStub:NewLibrary(ACEDBO_MAJOR, ACEDBO_MINOR)
 

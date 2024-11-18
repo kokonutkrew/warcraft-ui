@@ -3,18 +3,152 @@ WeakAurasSaved = {
 ["dynamicIconCache"] = {
 },
 ["displays"] = {
+["WarucksTotalSilence"] = {
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
 },
-["login_squelch_time"] = 10,
-["lastArchiveClear"] = 1731453943,
+["controlledChildren"] = {
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["authorOptions"] = {
+},
+["information"] = {
+["groupOffset"] = true,
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["border"] = false,
+["borderEdge"] = "None",
+["regionType"] = "group",
+["borderSize"] = 16,
+["internalVersion"] = 75,
+["borderColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["xOffset"] = 0,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_alwaystrue"] = false,
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Conditions",
+["unit"] = "player",
+["spellIds"] = {
+},
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["activeTriggerMode"] = -10,
+},
+["yOffset"] = 0,
+["borderOffset"] = 5,
+["alpha"] = 1,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["easeType"] = "none",
+},
+},
+["id"] = "WarucksTotalSilence",
+["borderInset"] = 11,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["config"] = {
+},
+["uid"] = "lSq)adDueip",
+["anchorPoint"] = "CENTER",
+["selfPoint"] = "BOTTOMLEFT",
+["conditions"] = {
+},
+["load"] = {
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+["use_class"] = false,
+["role"] = {
+["multi"] = {
+},
+},
+["pvptalent"] = {
+["multi"] = {
+},
+},
+["faction"] = {
+["multi"] = {
+},
+},
+["race"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["difficulty"] = {
+["multi"] = {
+},
+},
+["zoneIds"] = "",
+},
+["scale"] = 1,
+},
+},
+["lastUpgrade"] = 1722134246,
+["lastArchiveClear"] = 1722134199,
 ["minimap"] = {
 ["hide"] = false,
 },
 ["historyCutoff"] = 730,
-["dbVersion"] = 78,
+["dbVersion"] = 75,
 ["migrationCutoff"] = 730,
 ["features"] = {
 },
-["lastUpgrade"] = 1731453977,
 ["registered"] = {
 },
+["login_squelch_time"] = 10,
 }

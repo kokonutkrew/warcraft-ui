@@ -1,0 +1,13 @@
+
+ADDON_SUITE_DB = {
+["profileKeys"] = {
+["Goldsquid - Moon Guard"] = "Goldsquid - Moon Guard",
+},
+["profiles"] = {
+["Goldsquid - Moon Guard"] = {
+},
+},
+}
+ADDON_SUITE_LOG_LEVEL = 0
+ADDON_SUITE_DEBUG_MODE = false
+ADDON_SUITE_DEBUG_ENABLED_CATEGORIES = nil

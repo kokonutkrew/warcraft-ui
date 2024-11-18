@@ -1,0 +1,15 @@
+Version: 1
+Frame: ConROCWindow
+FrameLevel: 4
+Anchor: CENTER
+X: -1
+Y: -65
+W: 50
+H: 50
+Frame: SilverDragonPopupButton
+FrameLevel: 1
+Anchor: RIGHT
+X: -260
+Y: -97
+W: 302
+H: 119

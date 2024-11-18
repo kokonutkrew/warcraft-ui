@@ -1,0 +1,598 @@
+
+ChoreTrackerDB = {
+["char"] = {
+["Goldsquid - Area 52"] = {
+["skillLines"] = {
+[182] = true,
+[393] = true,
+},
+},
+},
+["global"] = {
+["questWeeks"] = {
+[1731423599] = {
+[78715] = {
+["status"] = 1,
+["questId"] = 78715,
+["objectives"] = {
+{
+["text"] = "0/3 Activate Chamber of Heart consoles",
+["type"] = "object",
+["need"] = 3,
+["have"] = 0,
+},
+},
+},
+[78719] = {
+["status"] = 1,
+["questId"] = 78719,
+["objectives"] = {
+{
+["need"] = 3,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/3 Citizens of Dalaran helped",
+},
+},
+},
+[78534] = {
+["status"] = 1,
+["questId"] = 78534,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Meet Baelgrim in Dornogal",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[79105] = {
+["status"] = 1,
+["questId"] = 79105,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/10 Citizens saved",
+["have"] = 0,
+["need"] = 10,
+},
+{
+["type"] = "progressbar",
+["text"] = "Nerubians slain (0%)",
+["have"] = 0,
+["need"] = 100,
+},
+},
+},
+[82783] = {
+["status"] = 1,
+["questId"] = 82783,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Complete the scenario \"The Codex of Chromie\"",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[43323] = {
+["status"] = 1,
+["questId"] = 43323,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Answered Llore's question",
+},
+},
+},
+[83492] = {
+["status"] = 1,
+["questId"] = 83492,
+["objectives"] = {
+},
+},
+[60215] = {
+["status"] = 1,
+["questId"] = 60215,
+["objectives"] = {
+{
+["text"] = "0/1 Doomwalker slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Sha of Anger slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Archavon the Stone Watcher slain",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[78460] = {
+["status"] = 1,
+["questId"] = 78460,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/8 Earthen rescued and hazards cleared",
+["have"] = 0,
+["need"] = 8,
+},
+},
+},
+[78716] = {
+["status"] = 1,
+["questId"] = 78716,
+["objectives"] = {
+{
+["text"] = "0/1 Meet with Khadgar in Dalaran",
+["type"] = "monster",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[78468] = {
+["status"] = 1,
+["questId"] = 78468,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Prismatic Codex used to view memory gem",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[78535] = {
+["status"] = 1,
+["questId"] = 78535,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Lokren mounted",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[79106] = {
+["status"] = 1,
+["questId"] = 79106,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Return to the city",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[80500] = {
+["status"] = 1,
+["questId"] = 80500,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Brann",
+},
+},
+},
+[84489] = {
+["status"] = 1,
+["questId"] = 84489,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Traeya",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Historian Ma'di",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Bobadormu",
+},
+},
+},
+[78457] = {
+["status"] = 1,
+["questId"] = 78457,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Ask a guard about profession trainers",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Speak to Flight Master Breem",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Speak to Innkeeper Ronesh",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Speak to Brann Bronzebeard",
+["have"] = 0,
+["need"] = 1,
+},
+{
+["type"] = "monster",
+["text"] = "0/1 Speak to Auditor Balwurz",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[78717] = {
+["status"] = 1,
+["questId"] = 78717,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Khadgar",
+},
+},
+},
+[78721] = {
+["status"] = 1,
+["questId"] = 78721,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Check on the Algari Expedition",
+},
+},
+},
+[78536] = {
+["status"] = 1,
+["questId"] = 78536,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Speak to Thrall",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[29660] = {
+["status"] = 1,
+["questId"] = 29660,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Commander Sarannis slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1   slain",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1   slain",
+},
+},
+},
+[57300] = {
+["status"] = 1,
+["questId"] = 57300,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/500 Earn Honor in Korrak's Revenge",
+["have"] = 0,
+["need"] = 500,
+},
+},
+},
+[82651] = {
+["status"] = 1,
+["questId"] = 82651,
+["objectives"] = {
+{
+["type"] = "item",
+["text"] = "0/1 Fractured Spark of Omens",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84616] = {
+["status"] = 1,
+["questId"] = 84616,
+["objectives"] = {
+{
+["type"] = "progressbar",
+["text"] = "Participate in Celebration Activities (10%)",
+["have"] = 0,
+["need"] = 100,
+},
+},
+},
+[84254] = {
+["status"] = 1,
+["questId"] = 84254,
+["objectives"] = {
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Grimkel",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Hansel Cyrilson",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Thrynviel",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Vanni Thorngage",
+},
+{
+["need"] = 1,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/1 Talk to Petra",
+},
+},
+},
+[78714] = {
+["status"] = 2,
+["questId"] = 78714,
+["objectives"] = {
+},
+},
+[78529] = {
+["status"] = 1,
+["questId"] = 78529,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Escape the rubble",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[78533] = {
+["status"] = 1,
+["questId"] = 78533,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Regroup with Magni",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[29667] = {
+["status"] = 1,
+["questId"] = 29667,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/6 Mutate Fleshlasher slain",
+["have"] = 0,
+["need"] = 6,
+},
+{
+["type"] = "monster",
+["text"] = "0/6 Mutate Fear-Shrieker slain",
+["have"] = 0,
+["need"] = 6,
+},
+{
+["type"] = "monster",
+["text"] = "0/6 Mutate Horror slain",
+["have"] = 0,
+["need"] = 6,
+},
+{
+["type"] = "item",
+["text"] = "0/1 Rapidly Evolving Frond",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[78532] = {
+["status"] = 1,
+["questId"] = 78532,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/5 Damaged Arcane Relics destroyed",
+["have"] = 0,
+["need"] = 5,
+},
+},
+},
+[82817] = {
+["status"] = 1,
+["questId"] = 82817,
+["objectives"] = {
+{
+["text"] = "0/1 Dagran Thaurissan defeated",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+{
+["text"] = "0/1 Timewarped Ironforge Blueprints",
+["type"] = "item",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[78530] = {
+["status"] = 1,
+["questId"] = 78530,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/12 Nerubians slain",
+["have"] = 0,
+["need"] = 12,
+},
+},
+},
+[80321] = {
+["status"] = 1,
+["questId"] = 80321,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Seek a different exit",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[84735] = {
+["status"] = 1,
+["questId"] = 84735,
+["objectives"] = {
+{
+["text"] = "Defeat Emperor Dagran Thaurissan",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[7905] = {
+["status"] = 1,
+["questId"] = 7905,
+["objectives"] = {
+{
+["type"] = "log",
+["text"] = "Deliver the Free Ticket Voucher to Gelvas Grimegate, located inside the Darkmoon Faire.",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[74378] = {
+["status"] = 1,
+["questId"] = 74378,
+["objectives"] = {
+{
+["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
+["type"] = "object",
+["need"] = 1,
+["have"] = 0,
+},
+},
+},
+[78722] = {
+["status"] = 1,
+["questId"] = 78722,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/1 Talk to Khadgar",
+["have"] = 0,
+["need"] = 1,
+},
+},
+},
+[78718] = {
+["status"] = 1,
+["questId"] = 78718,
+["objectives"] = {
+{
+["need"] = 4,
+["type"] = "monster",
+["have"] = 0,
+["text"] = "0/4 Wards strengthened",
+},
+},
+},
+[78531] = {
+["status"] = 1,
+["questId"] = 78531,
+["objectives"] = {
+{
+["type"] = "monster",
+["text"] = "0/7 Crash survivors aided",
+["have"] = 0,
+["need"] = 7,
+},
+},
+},
+[40168] = {
+["status"] = 1,
+["questId"] = 40168,
+["objectives"] = {
+},
+},
+},
+},
+["seenAutoAcceptMessage"] = true,
+},
+["profileKeys"] = {
+["Goldsquid - Area 52"] = "Default",
+["Xxb - Moon Guard"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["window"] = {
+["top"] = 1042,
+["height"] = 187.2475891113281,
+["locked"] = true,
+["minimized"] = true,
+["left"] = 489.9999389648438,
+["width"] = 281.0134582519531,
+},
+},
+},
+}

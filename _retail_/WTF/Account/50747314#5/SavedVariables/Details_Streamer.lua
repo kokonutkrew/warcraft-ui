@@ -1,14 +1,17 @@
 
 Details_StreamerDB = {
 ["characters"] = {
-["Bigponches - Emerald Dream"] = "Winbin - Emerald Dream",
-["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
-["Saig - Emerald Dream"] = "Winbin - Emerald Dream",
-["Dethflare - Emerald Dream"] = "Winbin - Emerald Dream",
-["Bigbrane - Emerald Dream"] = "Winbin - Emerald Dream",
+["Dethflite - Area 52"] = "Saikk - Emerald Dream",
+["Worldboss - Area 52"] = "Saikk - Emerald Dream",
+["Chieef - Area 52"] = "Saikk - Emerald Dream",
+["Winbin - Emerald Dream"] = "Saikk - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
+["Killonsites - Area 52"] = "Saikk - Emerald Dream",
+["Bigbrane - Emerald Dream"] = "Saikk - Emerald Dream",
+["Saibull - Moon Guard"] = "Saikk - Emerald Dream",
 },
 ["profiles"] = {
-["Winbin - Emerald Dream"] = {
+["Saikk - Emerald Dream"] = {
 ["use_square_mode"] = false,
 ["is_first_run"] = false,
 ["arrow_color"] = {

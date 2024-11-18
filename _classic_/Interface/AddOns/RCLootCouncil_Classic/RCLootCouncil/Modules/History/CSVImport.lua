@@ -1,7 +1,7 @@
 local _, addon = ...
 local His = addon:GetModule("RCLootHistory")
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
-local LibDialog = LibStub("LibDialog-1.0")
+local LibDialog = LibStub("LibDialog-1.1")
 local private = {
    errorList = {
       -- [i] = {line, cause}
@@ -419,6 +419,12 @@ local mapIDsToText = {
    [2070] = "Battle of Dazar'alor",
    [2096] = "Crucible of Storms",
    [2164] = "The Eternal Palace",
+
+   -- SoD mapIDs
+   [90] = "Gnomeregan",
+   [109] = "Sunken Temple",
+   [2789] = "The Tainted Scar", -- Kazzak
+   [2791] = "Storm Cliffs",     -- Azuregos
 }
 
 local diffIDToText = {
@@ -454,6 +460,12 @@ local diffIDToText = {
    [45] = "PvP",
    [147] = "Normal",
    [149] = "Heroic",
+
+   -- SoD difficultyIDs
+   [186] = "40 Player", -- Onyxia/Kazzak/Azuregos 'Flex'
+   [198] = "Normal",    -- Gnomeregan 10player
+   [215] = "Normal",    -- Sunken Temple 20player
+   [226] = "20 Player", -- Molten Core
 }
 
 function private:RebuildInstance(data, t, line)

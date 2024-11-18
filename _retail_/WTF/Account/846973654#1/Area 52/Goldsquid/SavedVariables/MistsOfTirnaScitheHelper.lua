@@ -5,7 +5,14 @@ pickerScale = 1
 pickerTransparency = 1
 previewScale = 1
 previewTransparency = 1
-UICoords = nil
+UICoords = {
+["UISettingsCoords"] = {
+},
+["UIConfigCoords"] = {
+},
+["UIPreviewCoords"] = {
+},
+}
 isShowOnBoss = true
 isSync = true
 isShowOrder = false

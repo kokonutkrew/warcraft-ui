@@ -1,0 +1,94 @@
+VER 3 0100000000000006 "Aimed Shot" "134400"
+#showtooltip
+/petattack
+/use [nochanneling:rapid fire]aimed shot
+END
+VER 3 0100000000000011 "Binding Shot" "134400"
+#showtooltip
+/use [@cursor]binding shot
+END
+VER 3 0100000000000007 "Black Arrow" "134400"
+#showtooltip
+/petattack
+/use [nochanneling:rapid fire]black arrow
+END
+VER 3 0100000000000005 "Burst" "134400"
+#showtooltip
+/castsequence [nochanneling:rapid fire] reset=3/target/combat hunter's mark,13,trueshot,wailing arrow,rapid fire
+END
+VER 3 010000000000000A "Chimaera Shot" "134400"
+#showtooltip
+/petattack
+/use [nochanneling:rapid fire]chimaera shot
+END
+VER 3 0100000000000001 "Cobra Shot" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover] cobra shot; cobra shot
+END
+VER 3 010000000000000C "Concussive Stun" "134400"
+#showtooltip steady shot
+/castsequence reset=3/target/combat concussive shot,steady shot,steady shot,steady shot
+END
+VER 3 0100000000000013 "Counter Shot" "134400"
+#showtooltip
+/cast [@focus,harm,exists][] Counter Shot
+END
+VER 3 0100000000000003 "Disengage" "134400"
+#showtooltip
+/petfollow
+/use disengage
+END
+VER 3 0100000000000012 "Explosive Shot" "134400"
+#showtooltip explosive shot
+/castsequence [nochanneling:rapid fire] reset=3/target/combat 13,explosive shot,
+END
+VER 3 0100000000000010 "Flare" "134400"
+#showtooltip
+/use [@player]flare
+END
+VER 3 010000000000000D "Freezing Trap" "134400"
+#showtooltip
+/use [@cursor]freezing trap
+END
+VER 3 010000000000000F "High Explosive" "134400"
+#showtooltip
+/use [@cursor]high explosive trap
+END
+VER 3 0100000000000017 "Implosive Trap" "134400"
+#showtooltip
+/use [@cursor]implosive trap
+END
+VER 3 0100000000000014 "Intimidation" "134400"
+#showtooltip
+/cast [@focus,harm,exists][] intimidation
+END
+VER 3 0100000000000009 "Kill Shot" "134400"
+#showtooltip
+/petattack
+/use [@mouseover,exists,harm,nochanneling:rapid fire][]kill shot
+/use [@pettarget]claw
+/use [@pettarget]bite
+/use [@pettarget]smack
+END
+VER 3 0100000000000016 "mount" "134400"
+/run local a,b,c=258575,1000,{0,68821,45323,4740,6788,43066,25944,17293,18770,16166,9222,33660,32121,5799,18898,8889,14311,52915,40356,6758}for d=1,#c do a=a+c[d]TomTom:AddWaypoint(2215,floor(a/b)/b,a%b/b,{title="Beledar Spawn",from="Wowhead Script"})end
+END
+VER 3 0100000000000008 "Multi-shot" "134400"
+#showtooltip
+/petattack
+/use [nochanneling:rapid fire]multi-shot
+END
+VER 3 0100000000000015 "Scatter Shot" "134400"
+#showtooltip
+/castsequence [@focus,exists,harm,@cursor] reset=6 scatter shot, freezing trap
+/castsequence [@cursor] reset=6 scatter shot, freezing trap
+END
+VER 3 010000000000000E "Tar Trap" "134400"
+#showtooltip
+/use [@cursor]tar trap
+END
+VER 3 010000000000000B "Volley" "134400"
+#showtooltip volley
+/use salvo
+/use [@cursor]volley
+END

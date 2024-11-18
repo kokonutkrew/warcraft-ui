@@ -2,7 +2,7 @@
 DropdownGroup Container
 Container controlled by a dropdown on the top.
 -------------------------------------------------------------------------------]]
-local Type, Version = "DropdownGroup", 22
+local Type, Version = "DropdownGroup", 21
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -125,11 +125,7 @@ local function Constructor()
 	dropdown.frame:Show()
 	dropdown:SetLabel("")
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
-	local border = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-========
 	local border = CreateFrame("Frame", nil, frame)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0-SharedMediaWidgets/Libs/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
 	border:SetPoint("TOPLEFT", 0, -26)
 	border:SetPoint("BOTTOMRIGHT", 0, 3)
 	border:SetBackdrop(PaneBackdrop)

@@ -1,24 +1,11 @@
-## Interface: 11305
+## Interface: 11302
 
 ## Title: BiS Tracker
 ## Notes: Shows BiS items for every class, and where to get them.
-## Author: Zentarg
-## Version: 3.3
+## Author: Zentarg - Updated by Braatak_twitch
+## Version: 2.4
 ## SavedVariablesPerCharacter: BiS_Settings
-## SavedVariables: BiSTrackerDB
 
-embeds.xml
-
+Templates.xml
 data\BiSData.lua
-
-core\Init.lua
-core\DB.lua
-core\ChatCommands.lua
-core\AceGUILayouts.lua
-core\Error.lua
-core\Item.lua
-core\Event.lua
-core\GUI.lua
-core\Options.lua
-
-core\ImportExport.lua
+core.lua

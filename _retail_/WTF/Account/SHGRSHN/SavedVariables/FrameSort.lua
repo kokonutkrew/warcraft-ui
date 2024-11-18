@@ -7,16 +7,16 @@ FrameSortDB = {
 ["Version"] = 21,
 ["Spacing"] = {
 ["Party"] = {
-["Vertical"] = 0,
 ["Horizontal"] = 0,
+["Vertical"] = 0,
 },
 ["Raid"] = {
-["Vertical"] = 0,
 ["Horizontal"] = 0,
+["Vertical"] = 0,
 },
 ["EnemyArena"] = {
-["Vertical"] = 0,
 ["Horizontal"] = 0,
+["Vertical"] = 0,
 },
 },
 ["Logging"] = {
@@ -35,12 +35,6 @@ FrameSortDB = {
 ["Enabled"] = false,
 ["Reverse"] = false,
 },
-["Raid"] = {
-["PlayerSortMode"] = "Top",
-["Enabled"] = false,
-["GroupSortMode"] = "Role",
-["Reverse"] = false,
-},
 ["Arena"] = {
 ["Default"] = {
 ["PlayerSortMode"] = "Top",
@@ -54,6 +48,12 @@ FrameSortDB = {
 ["GroupSortMode"] = "Group",
 ["Reverse"] = false,
 },
+},
+["Raid"] = {
+["PlayerSortMode"] = "Top",
+["Enabled"] = false,
+["GroupSortMode"] = "Role",
+["Reverse"] = false,
 },
 ["Ordering"] = {
 ["Tanks"] = 1,

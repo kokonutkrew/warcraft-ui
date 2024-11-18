@@ -1,0 +1,4476 @@
+
+_detalhes_database = {
+["savedbuffs"] = {
+},
+["mythic_dungeon_id"] = 0,
+["tabela_historico"] = {
+["tabelas"] = {
+{
+{
+["combatId"] = 321,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.005216,
+["pets"] = {
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 1.005216,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1.005216,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Underbelly Rat"] = 1,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025061,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 1,
+["targets"] = {
+["Underbelly Rat"] = 1,
+},
+["n_total"] = 1,
+["n_min"] = 1,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0.8342041493776439,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.005216,
+["start_time"] = 1726025060,
+["delay"] = 0,
+["last_event"] = 1726025060,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.003304,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.003304,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.003304,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-32428-0000E0BC6B",
+["aID"] = "32428",
+["damage_from"] = {
+["Summonsquid"] = true,
+},
+["targets"] = {
+},
+["fight_component"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025061,
+["nome"] = "Underbelly Rat",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 1.003304,
+["start_time"] = 1726025061,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["combatId"] = 321,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 321,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 321,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["buff_uptime"] = 3,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726025061,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 321,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 13727.061,
+["tempo_start"] = 1726025060,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Summonsquid"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+1,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:24:22",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Underbelly Rat",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.204999999999927,
+["CombatEndedAt"] = 13728.266,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:24:20",
+["end_time"] = 13728.266,
+["mapId"] = 571,
+["combat_id"] = 321,
+["overall_added"] = true,
+["playing_solo"] = true,
+["is_challenge"] = false,
+["frags"] = {
+["Underbelly Rat"] = 1,
+},
+["boss_hp"] = 1,
+["combat_counter"] = 646,
+["totals_grupo"] = {
+1,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 1.005216,
+},
+},
+},
+["start_time"] = 13727.061,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+{
+{
+["combatId"] = 320,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.003232,
+["pets"] = {
+"Unknown <Summonsquid>",
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 1.003232,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1276.003232,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Sewer Frog"] = 1276,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025038,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 1,
+["targets"] = {
+["Sewer Frog"] = 1,
+},
+["n_total"] = 1,
+["n_min"] = 1,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 981.5409476928571,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.003232,
+["start_time"] = 1726025036,
+["delay"] = 0,
+["last_event"] = 1726025037,
+},
+{
+["flag_original"] = 4369,
+["totalabsorbed"] = 0.007109,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 1275.007109,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1275.007109,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["damage_from"] = {
+},
+["targets"] = {
+["Sewer Frog"] = 1275,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025038,
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+[54049] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Sewer Frog"] = 1275,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1275,
+["c_max"] = 1275,
+["id"] = 54049,
+["r_dmg"] = 0,
+["spellschool"] = 32,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 1275,
+["successful_casted"] = 0,
+["c_total"] = 1275,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.007109,
+["start_time"] = 1726025037,
+["delay"] = 0,
+["last_event"] = 1726025037,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.004951,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.004951,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.004951,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-32470-0000E0BC6A",
+["aID"] = "32470",
+["damage_from"] = {
+["Summonsquid"] = true,
+["Unknown <Summonsquid>"] = true,
+},
+["targets"] = {
+},
+["fight_component"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025038,
+["nome"] = "Sewer Frog",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 0,
+["c_max"] = 0,
+["MISS"] = 1,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 1276.004951,
+["start_time"] = 1726025038,
+["delay"] = 0,
+["last_event"] = 1726025036,
+},
+},
+},
+{
+["combatId"] = 320,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 320,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 320,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+"Unknown <Summonsquid>",
+},
+["buff_uptime"] = 3,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726025038,
+["tipo"] = 4,
+},
+{
+["flag_original"] = 4369,
+["pets"] = {
+},
+["classe"] = "PET",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["last_event"] = 0,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 320,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 13703.861,
+["tempo_start"] = 1726025036,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+1276,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Unknown <Summonsquid>"] = {
+["Shadow Bite"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:23:59",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Sewer Frog",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.299999999999272,
+["CombatEndedAt"] = 13705.161,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:23:57",
+["end_time"] = 13705.161,
+["mapId"] = 571,
+["combat_id"] = 320,
+["overall_added"] = true,
+["playing_solo"] = true,
+["is_challenge"] = false,
+["frags"] = {
+["Sewer Frog"] = 1,
+},
+["boss_hp"] = 1,
+["combat_counter"] = 645,
+["totals_grupo"] = {
+1,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 1276.003232,
+},
+},
+},
+["start_time"] = 13703.861,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+{
+{
+["combatId"] = 319,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.0015,
+["pets"] = {
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 1.0015,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1.0015,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Underbelly Rat"] = 1,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025025,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 1,
+["targets"] = {
+["Underbelly Rat"] = 1,
+},
+["n_total"] = 1,
+["n_min"] = 1,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 1.202280912364169,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.0015,
+["start_time"] = 1726025024,
+["delay"] = 0,
+["last_event"] = 1726025024,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.00511,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.00511,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.00511,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-32428-0001E0BC6B",
+["aID"] = "32428",
+["damage_from"] = {
+["Summonsquid"] = true,
+},
+["targets"] = {
+},
+["fight_component"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025025,
+["nome"] = "Underbelly Rat",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 1.00511,
+["start_time"] = 1726025025,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["combatId"] = 319,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 319,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 319,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["buff_uptime"] = 3,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726025025,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 319,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 13691.761,
+["tempo_start"] = 1726025024,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+1,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:23:46",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Underbelly Rat",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 0.8330000000005384,
+["CombatEndedAt"] = 13692.594,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:23:45",
+["end_time"] = 13692.594,
+["mapId"] = 571,
+["combat_id"] = 319,
+["overall_added"] = true,
+["playing_solo"] = true,
+["is_challenge"] = false,
+["frags"] = {
+["Underbelly Rat"] = 1,
+},
+["boss_hp"] = 1,
+["combat_counter"] = 644,
+["totals_grupo"] = {
+1,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 1.0015,
+},
+},
+},
+["start_time"] = 13691.761,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+{
+{
+["combatId"] = 318,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.003638,
+["pets"] = {
+"Unknown <Summonsquid>",
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 486.003638,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 173519.003638,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Sunreaver Agent"] = 173519,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024994,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 486,
+["targets"] = {
+["Sunreaver Agent"] = 486,
+},
+["n_total"] = 486,
+["n_min"] = 486,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 486,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 148688.0922348587,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.003638,
+["start_time"] = 1726024993,
+["delay"] = 0,
+["last_event"] = 1726024994,
+},
+{
+["flag_original"] = 4369,
+["totalabsorbed"] = 0.007322,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 173033.007322,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 173033.007322,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["damage_from"] = {
+},
+["targets"] = {
+["Sunreaver Agent"] = 173033,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024994,
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 173033,
+["targets"] = {
+["Sunreaver Agent"] = 173033,
+},
+["n_total"] = 173033,
+["n_min"] = 173033,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 173033,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.007322,
+["start_time"] = 1726024994,
+["delay"] = 0,
+["last_event"] = 1726024994,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.007063,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.007063,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.007063,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-36776-0000610CFE",
+["aID"] = "36776",
+["fight_component"] = true,
+["damage_from"] = {
+["Summonsquid"] = true,
+["Unknown <Summonsquid>"] = true,
+},
+["targets"] = {
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024994,
+["nome"] = "Sunreaver Agent",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 0,
+["c_max"] = 0,
+["MISS"] = 1,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 173519.007063,
+["start_time"] = 1726024994,
+["delay"] = 0,
+["last_event"] = 1726024993,
+},
+},
+},
+{
+["combatId"] = 318,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 318,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 318,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+"Unknown <Summonsquid>",
+},
+["buff_uptime"] = 3,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 1,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726024994,
+["tipo"] = 4,
+},
+{
+["flag_original"] = 4369,
+["pets"] = {
+},
+["classe"] = "PET",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["last_event"] = 0,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 318,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 13660.661,
+["tempo_start"] = 1726024993,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+173519,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Unknown <Summonsquid>"] = {
+["Shadow Bite"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:23:15",
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Sunreaver Agent",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.166999999999462,
+["CombatEndedAt"] = 13661.828,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:23:14",
+["end_time"] = 13661.828,
+["mapId"] = 571,
+["combat_id"] = 318,
+["overall_added"] = true,
+["playing_solo"] = true,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+["Sunreaver Agent"] = 1,
+},
+["combat_counter"] = 643,
+["totals_grupo"] = {
+486,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 173519.003638,
+},
+},
+},
+["spells_cast_timeline"] = {
+},
+["start_time"] = 13660.661,
+["TimeData"] = {
+},
+["contra"] = "Sunreaver Agent",
+},
+{
+{
+["combatId"] = 317,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.004517,
+["pets"] = {
+"Wild Imp <Summonsquid>",
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 486.004517,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 94134.004517,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Sunreaver Agent"] = 94134,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024928,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 486,
+["targets"] = {
+["Sunreaver Agent"] = 486,
+},
+["n_total"] = 486,
+["n_min"] = 486,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 486,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 25414.14808774488,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.004517,
+["start_time"] = 1726024925,
+["delay"] = 0,
+["last_event"] = 1726024928,
+},
+{
+["flag_original"] = 8465,
+["totalabsorbed"] = 0.00355,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 93648.00355,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 93648.00355,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-143622-0000610CD4",
+["aID"] = "143622",
+["damage_from"] = {
+},
+["targets"] = {
+["Sunreaver Agent"] = 93648,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024928,
+["ownerName"] = "Summonsquid",
+["nome"] = "Wild Imp <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+[104318] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 93648,
+["targets"] = {
+["Sunreaver Agent"] = 93648,
+},
+["n_total"] = 93648,
+["n_min"] = 93648,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 93648,
+["c_max"] = 0,
+["id"] = 104318,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.00355,
+["start_time"] = 1726024928,
+["delay"] = 0,
+["last_event"] = 1726024928,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.003383,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.003383,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.003383,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-36776-000060BC6A",
+["aID"] = "36776",
+["fight_component"] = true,
+["damage_from"] = {
+["Summonsquid"] = true,
+["Wild Imp <Summonsquid>"] = true,
+},
+["targets"] = {
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024928,
+["nome"] = "Sunreaver Agent",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 0,
+["c_max"] = 0,
+["MISS"] = 2,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 94134.003383,
+["start_time"] = 1726024928,
+["delay"] = 0,
+["last_event"] = 1726024927,
+},
+},
+},
+{
+["combatId"] = 317,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 317,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 317,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["cooldowns_defensive"] = 1.003872,
+["pets"] = {
+"Wild Imp <Summonsquid>",
+},
+["last_cooldown"] = {
+1726024924.768,
+104773,
+},
+["aID"] = "162-0BE7D056",
+["cooldowns_defensive_targets"] = {
+["Summonsquid"] = 1,
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[104773] = {
+["activedamt"] = 1,
+["id"] = 104773,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["grupo"] = true,
+["buff_uptime"] = 12,
+["cooldowns_defensive_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[104773] = {
+["id"] = 104773,
+["targets"] = {
+["Summonsquid"] = 1,
+},
+["counter"] = 1,
+},
+},
+},
+["tipo"] = 4,
+["buff_uptime_targets"] = {
+},
+["classe"] = "WARLOCK",
+["serial"] = "Player-162-0BE7D056",
+["last_event"] = 1726024928,
+},
+{
+["flag_original"] = 8465,
+["pets"] = {
+},
+["classe"] = "PET",
+["aID"] = "143622",
+["serial"] = "Creature-0-3137-571-26129-143622-0000610CD4",
+["ownerName"] = "Summonsquid",
+["nome"] = "Wild Imp <Summonsquid>",
+["last_event"] = 0,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 317,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 13592.257,
+["tempo_start"] = 1726024925,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+94134,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 1,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Summonsquid"] = {
+["Unending Resolve"] = 1,
+},
+["Wild Imp <Summonsquid>"] = {
+["Fel Firebolt"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:22:09",
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Sunreaver Agent",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 3.604000000001179,
+["CombatEndedAt"] = 13595.861,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:22:05",
+["end_time"] = 13595.861,
+["mapId"] = 571,
+["combat_id"] = 317,
+["overall_added"] = true,
+["playing_solo"] = true,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+["Sunreaver Agent"] = 1,
+},
+["combat_counter"] = 642,
+["totals_grupo"] = {
+486,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 1,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 94134.004517,
+},
+},
+},
+["spells_cast_timeline"] = {
+},
+["start_time"] = 13592.157,
+["TimeData"] = {
+},
+["contra"] = "Sunreaver Agent",
+},
+{
+{
+["combatId"] = 316,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.002728,
+["pets"] = {
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 113981.002728,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 113981.002728,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Segacedi"] = 113981,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024885,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+[234153] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 113981,
+["targets"] = {
+["Segacedi"] = 113981,
+},
+["n_total"] = 113981,
+["n_min"] = 113981,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 113981,
+["c_max"] = 0,
+["id"] = 234153,
+["r_dmg"] = 0,
+["spellschool"] = 32,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 71238.1267049838,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.002728,
+["start_time"] = 1726024883,
+["delay"] = 0,
+["last_event"] = 1726024883,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.005272,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.005272,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.005272,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-32664-000060F9FF",
+["aID"] = "32664",
+["fight_component"] = true,
+["damage_from"] = {
+["Summonsquid"] = true,
+},
+["targets"] = {
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024885,
+["nome"] = "Segacedi",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 113981.005272,
+["start_time"] = 1726024885,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["combatId"] = 316,
+["tipo"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 10475.008291,
+["total_without_pet"] = 0.008291,
+["total"] = 0.008291,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["totalabsorb"] = 0.008291,
+["last_hps"] = 0,
+["aID"] = "162-0BE7D056",
+["spec"] = 266,
+["targets"] = {
+},
+["serial"] = "Player-162-0BE7D056",
+["totalover_without_pet"] = 0.008291,
+["grupo"] = true,
+["healing_taken"] = 0.008291,
+["healing_from"] = {
+},
+["classe"] = "WARLOCK",
+["end_time"] = 1726024885,
+["targets_overheal"] = {
+["Summonsquid"] = 10475,
+},
+["start_time"] = 1726024883,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 3,
+["_ActorTable"] = {
+[234153] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Summonsquid"] = 10475,
+},
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 10475,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 234153,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 32,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+},
+["custom"] = 0,
+["last_event"] = 1726024883,
+["totaldenied"] = 0.008291,
+["delay"] = 0,
+["tipo"] = 2,
+},
+},
+},
+{
+["combatId"] = 316,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 316,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["buff_uptime"] = 6,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726024885,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 316,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["tempo_start"] = 1726024883,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+113981,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:21:26",
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Segacedi",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 13552.19,
+["CombatEndedAt"] = 13552.19,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:21:24",
+["end_time"] = 13552.19,
+["mapId"] = 571,
+["combat_id"] = 316,
+["overall_added"] = true,
+["playing_solo"] = true,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+["Segacedi"] = 1,
+},
+["combat_counter"] = 641,
+["totals_grupo"] = {
+113981,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Summonsquid"] = 0.008291,
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 113981.002728,
+},
+},
+},
+["spells_cast_timeline"] = {
+},
+["start_time"] = 13550.59,
+["TimeData"] = {
+},
+["contra"] = "Segacedi",
+},
+{
+{
+["combatId"] = 315,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.005405,
+["pets"] = {
+"Unknown <Summonsquid>",
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 2.005405,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 713.005405,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Sewer Frog"] = 713,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024404,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Sewer Frog"] = 2,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 2,
+["c_max"] = 2,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 2,
+["successful_casted"] = 0,
+["c_total"] = 2,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 623.256472901971,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.005405,
+["start_time"] = 1726024402,
+["delay"] = 0,
+["last_event"] = 1726024402,
+},
+{
+["flag_original"] = 4369,
+["totalabsorbed"] = 0.004732,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 711.004732,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 711.004732,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["damage_from"] = {
+},
+["targets"] = {
+["Sewer Frog"] = 711,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024404,
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Sewer Frog"] = 711,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 711,
+["c_max"] = 711,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 711,
+["successful_casted"] = 0,
+["c_total"] = 711,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.004732,
+["start_time"] = 1726024402,
+["delay"] = 0,
+["last_event"] = 1726024402,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.00813,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.00813,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.00813,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-32470-000060BC6B",
+["aID"] = "32470",
+["damage_from"] = {
+["Summonsquid"] = true,
+["Unknown <Summonsquid>"] = true,
+},
+["targets"] = {
+},
+["fight_component"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024404,
+["nome"] = "Sewer Frog",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 0,
+["c_max"] = 0,
+["MISS"] = 1,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 713.00813,
+["start_time"] = 1726024404,
+["delay"] = 0,
+["last_event"] = 1726024402,
+},
+},
+},
+{
+["combatId"] = 315,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 315,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 315,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1300,
+["pets"] = {
+"Unknown <Summonsquid>",
+},
+["buff_uptime"] = 6,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 2,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726024404,
+["tipo"] = 4,
+},
+{
+["flag_original"] = 4369,
+["pets"] = {
+},
+["classe"] = "PET",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["last_event"] = 0,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 315,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 13549.622,
+["tempo_start"] = 1726024402,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+713,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Unknown <Summonsquid>"] = {
+["Shadow Bite"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:13:24",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Sewer Frog",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 1.144000000000233,
+["CombatEndedAt"] = 13071.83,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:13:23",
+["end_time"] = 13071.83,
+["mapId"] = 571,
+["combat_id"] = 315,
+["overall_added"] = true,
+["playing_solo"] = true,
+["is_challenge"] = false,
+["frags"] = {
+["Sewer Frog"] = 1,
+},
+["boss_hp"] = 1,
+["combat_counter"] = 640,
+["totals_grupo"] = {
+2,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 713.005405,
+},
+},
+},
+["start_time"] = 13070.686,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+{
+{
+["combatId"] = 314,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.004188,
+["pets"] = {
+"Wild Imp <Summonsquid>",
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 485.004188,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 95698.004188,
+["spec"] = 266,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-162-0BE7D056",
+["damage_from"] = {
+},
+["targets"] = {
+["Emaciated Mammoth Calf"] = 95698,
+},
+["colocacao"] = 1,
+["aID"] = "162-0BE7D056",
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726023941,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 485,
+["targets"] = {
+["Emaciated Mammoth Calf"] = 485,
+},
+["n_total"] = 485,
+["n_min"] = 485,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 485,
+["c_max"] = 0,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 27851.57281373938,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.004188,
+["start_time"] = 1726023938,
+["delay"] = 0,
+["last_event"] = 1726023940,
+},
+{
+["flag_original"] = 8465,
+["totalabsorbed"] = 0.001798,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 95213.001798,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 95213.001798,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3783-571-22-143622-00006108FC",
+["aID"] = "143622",
+["damage_from"] = {
+},
+["targets"] = {
+["Emaciated Mammoth Calf"] = 95213,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726023941,
+["ownerName"] = "Summonsquid",
+["nome"] = "Wild Imp <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+[104318] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 95213,
+["targets"] = {
+["Emaciated Mammoth Calf"] = 95213,
+},
+["n_total"] = 95213,
+["n_min"] = 95213,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 95213,
+["c_max"] = 0,
+["id"] = 104318,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.001798,
+["start_time"] = 1726023940,
+["delay"] = 0,
+["last_event"] = 1726023940,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.006237,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 129.006237,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 129.006237,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3783-571-22-26273-000060E350",
+["aID"] = "26273",
+["damage_from"] = {
+["Wild Imp <Summonsquid>"] = true,
+["Tundra Scavenger"] = true,
+["Summonsquid"] = true,
+},
+["targets"] = {
+["Tundra Scavenger"] = 129,
+},
+["fight_component"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726023941,
+["nome"] = "Emaciated Mammoth Calf",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 129,
+["targets"] = {
+["Tundra Scavenger"] = 129,
+["Summonsquid"] = 0,
+},
+["n_total"] = 129,
+["n_min"] = 129,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 129,
+["c_max"] = 0,
+["MISS"] = 1,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 95928.006237,
+["start_time"] = 1726023939,
+["delay"] = 0,
+["last_event"] = 1726023940,
+},
+},
+},
+{
+["combatId"] = 314,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 314,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 314,
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+"Wild Imp <Summonsquid>",
+},
+["buff_uptime"] = 9,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["activedamt"] = 1,
+["id"] = 404464,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["activedamt"] = 1,
+["id"] = 225788,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[108366] = {
+["activedamt"] = 1,
+["id"] = 108366,
+["targets"] = {
+},
+["uptime"] = 3,
+["appliedamt"] = 1,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+},
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["aID"] = "162-0BE7D056",
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["last_event"] = 1726023941,
+["tipo"] = 4,
+},
+{
+["flag_original"] = 8465,
+["pets"] = {
+},
+["classe"] = "PET",
+["aID"] = "143622",
+["serial"] = "Creature-0-3783-571-22-143622-00006108FC",
+["ownerName"] = "Summonsquid",
+["nome"] = "Wild Imp <Summonsquid>",
+["last_event"] = 0,
+["tipo"] = 4,
+},
+},
+},
+{
+["combatId"] = 314,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+["Summonsquid"] = "Player-162-0BE7D056",
+},
+["CombatStartedAt"] = 12605.677,
+["tempo_start"] = 1726023938,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+["Summonsquid"] = {
+["total"] = 0,
+["last"] = 0,
+},
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+96057,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = true,
+["amountCasts"] = {
+["Wild Imp <Summonsquid>"] = {
+["Fel Firebolt"] = 1,
+},
+},
+["instance_type"] = "none",
+["zoneName"] = "Northrend",
+["data_fim"] = "21:05:41",
+["pvp"] = true,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Emaciated Mammoth Calf",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 3.435999999999694,
+["CombatEndedAt"] = 12609.113,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:05:38",
+["end_time"] = 12609.113,
+["mapId"] = 571,
+["combat_id"] = 314,
+["overall_added"] = true,
+["playing_solo"] = true,
+["is_challenge"] = false,
+["frags"] = {
+["Emaciated Mammoth Calf"] = 2,
+},
+["boss_hp"] = 1,
+["combat_counter"] = 639,
+["totals_grupo"] = {
+485,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Summonsquid"] = 95698.004188,
+},
+},
+},
+["start_time"] = 12605.677,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+},
+},
+["ocd_tracker"] = {
+["enabled"] = false,
+["current_cooldowns"] = {
+},
+["lines_per_column"] = 12,
+["group_frames"] = true,
+["width"] = 120,
+["frames"] = {
+["defensive-raid"] = {
+},
+["main"] = {
+},
+["ofensive"] = {
+},
+["defensive-target"] = {
+},
+["utility"] = {
+},
+["defensive-personal"] = {
+},
+},
+["show_options"] = false,
+["ignored_cooldowns"] = {
+},
+["height"] = 18,
+["framme_locked"] = false,
+["own_frame"] = {
+["defensive-raid"] = false,
+["ofensive"] = false,
+["defensive-target"] = false,
+["utility"] = false,
+["defensive-personal"] = false,
+},
+["cooldowns"] = {
+},
+["show_conditions"] = {
+["only_inside_instance"] = true,
+["only_in_group"] = true,
+},
+["show_title"] = true,
+["filters"] = {
+["itemutil"] = false,
+["itempower"] = false,
+["defensive-target"] = false,
+["itemheal"] = false,
+["defensive-personal"] = false,
+["defensive-raid"] = false,
+["ofensive"] = true,
+["crowdcontrol"] = false,
+["utility"] = false,
+},
+},
+["last_version"] = "11.0.2 12888",
+["player_stats"] = {
+},
+["force_font_outline"] = "",
+["tabela_instancias"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["local_instances_config"] = {
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["is_open"] = true,
+["isLocked"] = false,
+["snap"] = {
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -441.9999313354492,
+["x"] = 771.2222290039062,
+["w"] = 309.9998474121094,
+["h"] = 158.0000152587891,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+},
+["cached_talents"] = {
+},
+["last_instance_id"] = 2527,
+["data_harvest_for_charsts"] = {
+["players"] = {
+{
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
+},
+},
+["totals"] = {
+{
+["combatObjectSubTableKey"] = 1,
+["name"] = "Damage of All Player Combined",
+["combatObjectSubTableName"] = "totals",
+},
+},
+},
+["announce_interrupts"] = {
+["enabled"] = false,
+["whisper"] = "",
+["channel"] = "SAY",
+["custom"] = "",
+["next"] = "",
+},
+["announce_prepots"] = {
+["enabled"] = false,
+["channel"] = "SELF",
+["reverse"] = false,
+},
+["active_profile"] = "Goldsquid-Moon Guard",
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
+},
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
+},
+["on_death_menu"] = false,
+["mythic_plus_log"] = {
+},
+["nick_tag_cache"] = {
+["nextreset"] = 1727319413,
+["last_version"] = 16,
+},
+["cached_roles"] = {
+},
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["combat_counter"] = 646,
+["plugin_database"] = {
+["DETAILS_PLUGIN_TINY_THREAT"] = {
+["enabled"] = true,
+["animate"] = false,
+["hide_pull_bar"] = false,
+["author"] = "Terciob",
+["playercolor"] = {
+1,
+1,
+1,
+},
+["usefocus"] = false,
+["updatespeed"] = 1,
+["disable_gouge"] = false,
+["showamount"] = false,
+["useplayercolor"] = false,
+["absolute_mode"] = false,
+["playSound"] = false,
+["playSoundFile"] = "Details Threat Warning Volume 3",
+["useclasscolors"] = false,
+},
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
+["DETAILS_PLUGIN_VANGUARD"] = {
+["tank_block_size_height"] = 50,
+["show_power_bar"] = false,
+["first_run"] = false,
+["aura_timer_text_size"] = 14,
+["tank_block_castbar_size_height"] = 16,
+["show_health_bar"] = true,
+["aura_offset_y"] = 0,
+["enabled"] = true,
+["show_cast_bar"] = false,
+["author"] = "Terciob",
+["tank_block_size"] = 150,
+["bar_height"] = 24,
+["tank_block_texture"] = "Details Serenity",
+["tank_block_color"] = {
+0.074509,
+0.035294,
+0.035294,
+0.832845,
+},
+["tank_block_height"] = 40,
+["tank_block_powerbar_size_height"] = 10,
+["show_inc_bars"] = true,
+},
+["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+["enabled"] = true,
+["encounter_timers_bw"] = {
+},
+["max_emote_segments"] = 3,
+["last_section_selected"] = "main",
+["author"] = "Terciob",
+["window_scale"] = 1,
+["hide_on_combat"] = false,
+["show_icon"] = 5,
+["opened"] = 0,
+["encounter_timers_dbm"] = {
+},
+},
+["DETAILS_PLUGIN_RAIDCHECK"] = {
+["enabled"] = true,
+["food_tier1"] = true,
+["mythic_1_4"] = true,
+["food_tier2"] = true,
+["author"] = "Terciob",
+["use_report_panel"] = true,
+["pre_pot_healers"] = false,
+["pre_pot_tanks"] = false,
+["food_tier3"] = true,
+},
+["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+["use_square_mode"] = false,
+["is_first_run"] = false,
+["arrow_color"] = {
+1,
+1,
+1,
+0.5,
+},
+["scale"] = 1,
+["arrow_anchor_y"] = 0,
+["minimap"] = {
+["minimapPos"] = 160,
+["radius"] = 160,
+["hide"] = false,
+},
+["row_height"] = 20,
+["arrow_anchor_x"] = 0,
+["font_color"] = {
+1,
+1,
+1,
+1,
+},
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
+["point"] = "CENTER",
+["main_frame_strata"] = "LOW",
+["square_amount"] = 5,
+["enabled"] = false,
+["arrow_size"] = 10,
+["font_size"] = 10,
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = 0.0023040771484375,
+["x"] = 3.0517578125e-05,
+["size"] = 32,
+["update_speed"] = 0.05,
+["attribute_type"] = 1,
+},
+["use_spark"] = true,
+["x"] = 3.0517578125e-05,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
+["y"] = 0.0001373291015625,
+["author"] = "Terciob",
+["main_frame_locked"] = false,
+["main_frame_size"] = {
+300,
+500.0000305175781,
+},
+},
+},
+["last_instance_time"] = 1725458904,
+["combat_id"] = 321,
+["savedStyles"] = {
+},
+["last_day"] = "10",
+["character_data"] = {
+["logons"] = 21,
+},
+["announce_deaths"] = {
+["enabled"] = false,
+["last_hits"] = 1,
+["only_first"] = 5,
+["where"] = 1,
+},
+["tabela_overall"] = {
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["totalabsorbed"] = 0.034844,
+["pets"] = {
+"Wild Imp <Summonsquid>",
+"Unknown <Summonsquid>",
+},
+["classe"] = "WARLOCK",
+["total_without_pet"] = 115443.034844,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 479323.034844,
+["serial"] = "Player-162-0BE7D056",
+["spec"] = 266,
+["aID"] = "162-0BE7D056",
+["on_hold"] = false,
+["total_extra"] = 0,
+["damage_from"] = {
+},
+["targets"] = {
+["Segacedi"] = 113981,
+["Sewer Frog"] = 1989,
+["Underbelly Rat"] = 2,
+["Emaciated Mammoth Calf"] = 95698,
+["Sunreaver Agent"] = 267653,
+},
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726023941,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 486,
+["targets"] = {
+["Sewer Frog"] = 3,
+["Underbelly Rat"] = 2,
+["Emaciated Mammoth Calf"] = 485,
+["Sunreaver Agent"] = 972,
+},
+["n_total"] = 1460,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 7,
+["total"] = 1462,
+["c_max"] = 2,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 2,
+["n_amt"] = 6,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[234153] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 113981,
+["targets"] = {
+["Segacedi"] = 113981,
+},
+["n_total"] = 113981,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 113981,
+["c_max"] = 0,
+["id"] = 234153,
+["r_dmg"] = 0,
+["spellschool"] = 32,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.034844,
+["start_time"] = 1726023923,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.009707,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 129.009707,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 129.009707,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3783-571-22-26273-000060E350",
+["aID"] = "26273",
+["fight_component"] = true,
+["damage_from"] = {
+["Wild Imp <Summonsquid>"] = true,
+["Tundra Scavenger"] = true,
+["Summonsquid"] = true,
+},
+["targets"] = {
+["Tundra Scavenger"] = 129,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726023941,
+["nome"] = "Emaciated Mammoth Calf",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 129,
+["targets"] = {
+["Tundra Scavenger"] = 129,
+["Summonsquid"] = 0,
+},
+["n_total"] = 129,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 129,
+["c_max"] = 0,
+["MISS"] = 1,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 95928.00970699999,
+["start_time"] = 1726023936,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 8465,
+["totalabsorbed"] = 0.014322,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 188861.014322,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 188861.014322,
+["serial"] = "Creature-0-3783-571-22-143622-00006108FC",
+["aID"] = "143622",
+["on_hold"] = false,
+["total_extra"] = 0,
+["damage_from"] = {
+},
+["targets"] = {
+["Emaciated Mammoth Calf"] = 95213,
+["Sunreaver Agent"] = 93648,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726023941,
+["ownerName"] = "Summonsquid",
+["nome"] = "Wild Imp <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+[104318] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 95213,
+["targets"] = {
+["Emaciated Mammoth Calf"] = 95213,
+["Sunreaver Agent"] = 93648,
+},
+["n_total"] = 188861,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 188861,
+["c_max"] = 0,
+["id"] = 104318,
+["r_dmg"] = 0,
+["spellschool"] = 4,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 2,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.014322,
+["start_time"] = 1726023937,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.015761,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.015761,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.015761,
+["serial"] = "Creature-0-3137-571-26129-32470-000060BC6B",
+["on_hold"] = false,
+["total_extra"] = 0,
+["aID"] = "32470",
+["fight_component"] = true,
+["damage_from"] = {
+["Summonsquid"] = true,
+["Unknown <Summonsquid>"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024404,
+["nome"] = "Sewer Frog",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 0,
+["c_max"] = 0,
+["MISS"] = 2,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 1989.015761,
+["start_time"] = 1726024401,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 4369,
+["totalabsorbed"] = 0.027653,
+["pets"] = {
+},
+["classe"] = "PET",
+["total_without_pet"] = 175019.027653,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 175019.027653,
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["on_hold"] = false,
+["total_extra"] = 0,
+["damage_from"] = {
+},
+["targets"] = {
+["Sewer Frog"] = 1986,
+["Sunreaver Agent"] = 173033,
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024404,
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 173033,
+["targets"] = {
+["Sewer Frog"] = 711,
+["Sunreaver Agent"] = 173033,
+},
+["n_total"] = 173033,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 2,
+["total"] = 173744,
+["c_max"] = 711,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 711,
+["n_amt"] = 1,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[54049] = {
+["c_amt"] = 1,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Sewer Frog"] = 1275,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1275,
+["c_max"] = 1275,
+["id"] = 54049,
+["r_dmg"] = 0,
+["spellschool"] = 32,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 1275,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.027653,
+["start_time"] = 1726024398,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.012417,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.012417,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.012417,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-32664-000060F9FF",
+["aID"] = "32664",
+["fight_component"] = true,
+["damage_from"] = {
+["Summonsquid"] = true,
+},
+["targets"] = {
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024886,
+["nome"] = "Segacedi",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 113981.012417,
+["start_time"] = 1726024883,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68168,
+["totalabsorbed"] = 0.018045,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.018045,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.018045,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Creature-0-3137-571-26129-36776-000060BC6A",
+["aID"] = "36776",
+["fight_component"] = true,
+["damage_from"] = {
+["Wild Imp <Summonsquid>"] = true,
+["Summonsquid"] = true,
+["Unknown <Summonsquid>"] = true,
+},
+["targets"] = {
+},
+["monster"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726024929,
+["nome"] = "Sunreaver Agent",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 3,
+["total"] = 0,
+["c_max"] = 0,
+["MISS"] = 3,
+["id"] = 1,
+["r_dmg"] = 0,
+["spellschool"] = 1,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 267653.018045,
+["start_time"] = 1726024926,
+["delay"] = 0,
+["last_event"] = 0,
+},
+{
+["flag_original"] = 68136,
+["totalabsorbed"] = 0.011223,
+["pets"] = {
+},
+["classe"] = "UNKNOW",
+["total_without_pet"] = 0.011223,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 0.011223,
+["serial"] = "Creature-0-3137-571-26129-32428-0001E0BC6B",
+["on_hold"] = false,
+["total_extra"] = 0,
+["aID"] = "32428",
+["fight_component"] = true,
+["damage_from"] = {
+["Summonsquid"] = true,
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1726025026,
+["nome"] = "Underbelly Rat",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 0,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 2.011223,
+["start_time"] = 1726025023,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1297,
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 10475.010933,
+["total_without_pet"] = 0.010933,
+["total"] = 0.010933,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["aID"] = "162-0BE7D056",
+["totalabsorb"] = 0.010933,
+["last_hps"] = 0,
+["spec"] = 266,
+["targets"] = {
+},
+["serial"] = "Player-162-0BE7D056",
+["totalover_without_pet"] = 0.010933,
+["grupo"] = true,
+["healing_taken"] = 0.010933,
+["healing_from"] = {
+},
+["classe"] = "WARLOCK",
+["end_time"] = 1726024886,
+["targets_overheal"] = {
+["Summonsquid"] = 10475,
+},
+["start_time"] = 1726024881,
+["nome"] = "Summonsquid",
+["spells"] = {
+["tipo"] = 3,
+["_ActorTable"] = {
+[234153] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+["Summonsquid"] = 10475,
+},
+["n_max"] = 0,
+["targets"] = {
+["Summonsquid"] = 0,
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 1,
+["overheal"] = 10475,
+["total"] = 0,
+["c_max"] = 0,
+["id"] = 234153,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["spellschool"] = 32,
+["c_total"] = 0,
+["totaldenied"] = 0,
+["n_amt"] = 1,
+["absorbed"] = 0,
+},
+},
+},
+["custom"] = 0,
+["last_event"] = 0,
+["totaldenied"] = 0.010933,
+["delay"] = 0,
+["tipo"] = 2,
+},
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["cooldowns_defensive"] = 1.005058,
+["pets"] = {
+"Wild Imp <Summonsquid>",
+"Unknown <Summonsquid>",
+},
+["cooldowns_defensive_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[104773] = {
+["id"] = 104773,
+["targets"] = {
+["Summonsquid"] = 1,
+},
+["counter"] = 1,
+},
+},
+},
+["buff_uptime"] = 45,
+["aID"] = "162-0BE7D056",
+["cooldowns_defensive_targets"] = {
+["Summonsquid"] = 1,
+},
+["buff_uptime_spells"] = {
+["tipo"] = 9,
+["_ActorTable"] = {
+[404464] = {
+["refreshamt"] = 0,
+["activedamt"] = 8,
+["appliedamt"] = 8,
+["id"] = 404464,
+["uptime"] = 14,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[104773] = {
+["refreshamt"] = 0,
+["activedamt"] = 1,
+["appliedamt"] = 1,
+["id"] = 104773,
+["uptime"] = 3,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[225788] = {
+["refreshamt"] = 0,
+["activedamt"] = 8,
+["appliedamt"] = 8,
+["id"] = 225788,
+["uptime"] = 14,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[108366] = {
+["refreshamt"] = 0,
+["activedamt"] = 8,
+["appliedamt"] = 8,
+["id"] = 108366,
+["uptime"] = 14,
+["targets"] = {
+},
+["counter"] = 0,
+},
+},
+},
+["tipo"] = 4,
+["classe"] = "WARLOCK",
+["buff_uptime_targets"] = {
+},
+["nome"] = "Summonsquid",
+["spec"] = 266,
+["grupo"] = true,
+["serial"] = "Player-162-0BE7D056",
+["last_event"] = 0,
+},
+{
+["flag_original"] = 8465,
+["pets"] = {
+},
+["aID"] = "143622",
+["tipo"] = 4,
+["classe"] = "PET",
+["ownerName"] = "Summonsquid",
+["nome"] = "Wild Imp <Summonsquid>",
+["serial"] = "Creature-0-3783-571-22-143622-00006108FC",
+["last_event"] = 0,
+},
+{
+["flag_original"] = 4369,
+["pets"] = {
+},
+["aID"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["tipo"] = 4,
+["classe"] = "PET",
+["ownerName"] = "Summonsquid",
+["nome"] = "Unknown <Summonsquid>",
+["serial"] = "Pet-0-3137-571-26129-417-0203DF08A4",
+["last_event"] = 0,
+},
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+},
+["totals_grupo"] = {
+479323.0304240001,
+0.008291,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 1.003872,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["tempo_start"] = 1726023938,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["cleu_timeline"] = {
+},
+["bossTimers"] = {
+},
+["trinketProcs"] = {
+},
+["playerTalents"] = {
+},
+["totals"] = {
+843562.1015260001,
+0.008291,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 1.003872,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["segments_added"] = {
+{
+["elapsed"] = 1.204999999999927,
+["type"] = 0,
+["name"] = "Underbelly Rat",
+["clock"] = "21:24:20",
+},
+{
+["elapsed"] = 1.299999999999272,
+["type"] = 0,
+["name"] = "Sewer Frog",
+["clock"] = "21:23:57",
+},
+{
+["elapsed"] = 0.8330000000005384,
+["type"] = 0,
+["name"] = "Underbelly Rat",
+["clock"] = "21:23:45",
+},
+{
+["elapsed"] = 1.166999999999462,
+["type"] = 0,
+["name"] = "Sunreaver Agent",
+["clock"] = "21:23:14",
+},
+{
+["elapsed"] = 3.703999999999724,
+["type"] = 0,
+["name"] = "Sunreaver Agent",
+["clock"] = "21:22:05",
+},
+{
+["elapsed"] = 1.600000000000364,
+["type"] = 0,
+["name"] = "Segacedi",
+["clock"] = "21:21:24",
+},
+{
+["elapsed"] = 1.144000000000233,
+["type"] = 0,
+["name"] = "Sewer Frog",
+["clock"] = "21:13:23",
+},
+{
+["elapsed"] = 3.435999999999694,
+["type"] = 0,
+["name"] = "Emaciated Mammoth Calf",
+["clock"] = "21:05:38",
+},
+},
+["frags_need_refresh"] = false,
+["aura_timeline"] = {
+},
+["data_inicio"] = "21:05:38",
+["amountCasts"] = {
+["Wild Imp <Summonsquid>"] = {
+["Fel Firebolt"] = 2,
+},
+["Unknown <Summonsquid>"] = {
+["Shadow Bite"] = 3,
+},
+["Summonsquid"] = {
+["Unending Resolve"] = 1,
+},
+},
+["mapId"] = 571,
+["cleu_events"] = {
+["n"] = 1,
+},
+["zoneName"] = "Northrend",
+["end_time"] = 13728.266,
+["boss_hp"] = 1,
+["is_challenge"] = false,
+["frags"] = {
+},
+["data_fim"] = "21:24:22",
+["overall_enemy_name"] = "-- x -- x --",
+["spells_cast_timeline"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage_section"] = {
+},
+["damage"] = {
+},
+},
+["start_time"] = 13713.877,
+["TimeData"] = {
+["Raid Damage Done"] = {
+},
+},
+["combat_counter"] = 638,
+},
+["last_realversion"] = 160,
+["data_harvested_for_charts"] = {
+},
+["ignore_nicktag"] = false,
+["announce_cooldowns"] = {
+["enabled"] = false,
+["ignored_cooldowns"] = {
+},
+["custom"] = "",
+["channel"] = "RAID",
+},
+["rank_window"] = {
+["last_difficulty"] = 15,
+["last_raid"] = "",
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["cached_specs"] = {
+["Player-162-0BE7D056"] = 266,
+},
+}

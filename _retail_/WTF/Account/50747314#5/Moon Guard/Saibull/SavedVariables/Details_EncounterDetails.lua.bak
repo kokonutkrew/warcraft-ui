@@ -1,0 +1,3938 @@
+
+EncounterDetailsDB = {
+["chartData"] = {
+nil,
+nil,
+nil,
+{
+["Raid Damage Done"] = {
+28045,
+["max_value"] = 28045,
+["__time"] = 1724102490,
+},
+},
+{
+["Raid Damage Done"] = {
+2780549,
+0,
+["max_value"] = 2780549,
+["__time"] = 1724102496,
+},
+},
+{
+["Raid Damage Done"] = {
+72091,
+["max_value"] = 72091,
+["__time"] = 1724102502,
+},
+},
+{
+["Raid Damage Done"] = {
+32003,
+["max_value"] = 32003,
+["__time"] = 1724102511,
+},
+},
+{
+["Raid Damage Done"] = {
+69133,
+["max_value"] = 69133,
+["__time"] = 1724102516,
+},
+},
+{
+["Raid Damage Done"] = {
+66966,
+["max_value"] = 66966,
+["__time"] = 1724102518,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["__time"] = 1724102548,
+},
+},
+{
+["Raid Damage Done"] = {
+3519098,
+231403,
+0,
+1667913,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 3519098,
+["__time"] = 1724102732,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+93136,
+762761,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+93178,
+395881,
+921857,
+1544603,
+["max_value"] = 1544603,
+["__time"] = 1724102847,
+},
+},
+{
+["Raid Damage Done"] = {
+23089,
+["max_value"] = 23089,
+["__time"] = 1724103127,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["__time"] = 1724103150,
+},
+},
+{
+["Raid Damage Done"] = {
+24333,
+0,
+0,
+["max_value"] = 24333,
+["__time"] = 1724103183,
+},
+},
+{
+["Raid Damage Done"] = {
+2735,
+0,
+0,
+2487,
+2404,
+2445,
+0,
+2445,
+1367,
+0,
+870,
+0,
+0,
+["max_value"] = 2735,
+["__time"] = 1724103202,
+},
+},
+{
+["Raid Damage Done"] = {
+304189,
+["max_value"] = 304189,
+["__time"] = 1724103231,
+},
+},
+{
+["Raid Damage Done"] = {
+11441,
+["max_value"] = 11441,
+["__time"] = 1724103270,
+},
+},
+{
+["Raid Damage Done"] = {
+11524,
+["max_value"] = 11524,
+["__time"] = 1724103274,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103280,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103320,
+},
+},
+{
+["Raid Damage Done"] = {
+24333,
+["max_value"] = 24333,
+["__time"] = 1724103329,
+},
+},
+{
+["Raid Damage Done"] = {
+23753,
+["max_value"] = 23753,
+["__time"] = 1724103363,
+},
+},
+{
+["Raid Damage Done"] = {
+45764,
+0,
+["max_value"] = 45764,
+["__time"] = 1724103407,
+},
+},
+{
+["Raid Damage Done"] = {
+58463,
+0,
+["max_value"] = 58463,
+["__time"] = 1724103458,
+},
+},
+{
+["Raid Damage Done"] = {
+48086,
+0,
+["max_value"] = 48086,
+["__time"] = 1724103481,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+["__time"] = 1724103504,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103528,
+},
+},
+{
+["Raid Damage Done"] = {
+4103,
+["max_value"] = 4103,
+["__time"] = 1724103529,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103531,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103537,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103539,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724103540,
+},
+},
+{
+["Raid Damage Done"] = {
+35783,
+0,
+0,
+0,
+0,
+["max_value"] = 35783,
+["__time"] = 1724103585,
+},
+},
+{
+["Raid Damage Done"] = {
+46138,
+22882,
+71714,
+0,
+24457,
+48376,
+50864,
+0,
+0,
+0,
+0,
+45682,
+23338,
+0,
+0,
+35733,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 71714,
+["__time"] = 1724103616,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+["__time"] = 1724105115,
+},
+},
+{
+["Raid Damage Done"] = {
+12353,
+["max_value"] = 12353,
+["__time"] = 1724105123,
+},
+},
+{
+["Raid Damage Done"] = {
+74407,
+["max_value"] = 74407,
+["__time"] = 1724105125,
+},
+},
+{
+["Raid Damage Done"] = {
+10362,
+["max_value"] = 10362,
+["__time"] = 1724105127,
+},
+},
+{
+["Raid Damage Done"] = {
+4332626,
+["max_value"] = 4332626,
+["__time"] = 1724105153,
+},
+},
+{
+["Raid Damage Done"] = {
+534170,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 534170,
+["__time"] = 1724105159,
+},
+},
+{
+["Raid Damage Done"] = {
+27896,
+["max_value"] = 27896,
+["__time"] = 1724105166,
+},
+},
+{
+["Raid Damage Done"] = {
+64830,
+["max_value"] = 64830,
+["__time"] = 1724105167,
+},
+},
+{
+["Raid Damage Done"] = {
+23831,
+["max_value"] = 23831,
+["__time"] = 1724105169,
+},
+},
+{
+["Raid Damage Done"] = {
+16785,
+["max_value"] = 16785,
+["__time"] = 1724105170,
+},
+},
+{
+["Raid Damage Done"] = {
+19439,
+["max_value"] = 19439,
+["__time"] = 1724105171,
+},
+},
+{
+["Raid Damage Done"] = {
+9283,
+["max_value"] = 9283,
+["__time"] = 1724105172,
+},
+},
+{
+["Raid Damage Done"] = {
+5056,
+3026,
+["max_value"] = 5056,
+["__time"] = 1724105174,
+},
+},
+{
+["Raid Damage Done"] = {
+5927,
+["max_value"] = 5927,
+["__time"] = 1724105176,
+},
+},
+{
+["Raid Damage Done"] = {
+25824,
+["max_value"] = 25824,
+["__time"] = 1724105177,
+},
+},
+{
+["Raid Damage Done"] = {
+1332127,
+["max_value"] = 1332127,
+["__time"] = 1724105198,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105224,
+},
+},
+{
+["Raid Damage Done"] = {
+24209,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 24209,
+["__time"] = 1724105232,
+},
+},
+{
+["Raid Damage Done"] = {
+1466890,
+["max_value"] = 1466890,
+["__time"] = 1724105256,
+},
+},
+{
+["Raid Damage Done"] = {
+43774,
+["max_value"] = 43774,
+["__time"] = 1724105260,
+},
+},
+{
+["Raid Damage Done"] = {
+85972,
+["max_value"] = 85972,
+["__time"] = 1724105261,
+},
+},
+{
+["Raid Damage Done"] = {
+32662,
+["max_value"] = 32662,
+["__time"] = 1724105263,
+},
+},
+{
+["Raid Damage Done"] = {
+9657,
+["max_value"] = 9657,
+["__time"] = 1724105264,
+},
+},
+{
+["Raid Damage Done"] = {
+33492,
+["max_value"] = 33492,
+["__time"] = 1724105266,
+},
+},
+{
+["Raid Damage Done"] = {
+18859,
+["max_value"] = 18859,
+["__time"] = 1724105267,
+},
+},
+{
+["Raid Damage Done"] = {
+41990,
+["max_value"] = 41990,
+["__time"] = 1724105268,
+},
+},
+{
+["Raid Damage Done"] = {
+33824,
+["max_value"] = 33824,
+["__time"] = 1724105269,
+},
+},
+{
+["Raid Damage Done"] = {
+8042,
+["max_value"] = 8042,
+["__time"] = 1724105275,
+},
+},
+{
+["Raid Damage Done"] = {
+48252,
+["max_value"] = 48252,
+["__time"] = 1724105297,
+},
+},
+{
+["Raid Damage Done"] = {
+11648,
+0,
+["max_value"] = 11648,
+["__time"] = 1724105329,
+},
+},
+{
+["Raid Damage Done"] = {
+11648,
+["max_value"] = 11648,
+["__time"] = 1724105333,
+},
+},
+{
+["Raid Damage Done"] = {
+1997519,
+["max_value"] = 1997519,
+["__time"] = 1724105362,
+},
+},
+{
+["Raid Damage Done"] = {
+51233,
+["max_value"] = 51233,
+["__time"] = 1724105366,
+},
+},
+{
+["Raid Damage Done"] = {
+12062,
+["max_value"] = 12062,
+["__time"] = 1724105368,
+},
+},
+{
+["Raid Damage Done"] = {
+46923,
+["max_value"] = 46923,
+["__time"] = 1724105370,
+},
+},
+{
+["Raid Damage Done"] = {
+84604,
+["max_value"] = 84604,
+["__time"] = 1724105371,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105372,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105374,
+},
+},
+{
+["Raid Damage Done"] = {
+22257,
+["max_value"] = 22257,
+["__time"] = 1724105375,
+},
+},
+{
+["Raid Damage Done"] = {
+32250,
+["max_value"] = 32250,
+["__time"] = 1724105376,
+},
+},
+{
+["Raid Damage Done"] = {
+67067,
+106035,
+63336,
+76436,
+["max_value"] = 106035,
+["__time"] = 1724105380,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105383,
+},
+},
+{
+["Raid Damage Done"] = {
+215022,
+["max_value"] = 215022,
+["__time"] = 1724105416,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105418,
+},
+},
+{
+["Raid Damage Done"] = {
+442729,
+["max_value"] = 442729,
+["__time"] = 1724105435,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105438,
+},
+},
+{
+["Raid Damage Done"] = {
+47204,
+23201,
+0,
+["max_value"] = 47204,
+["__time"] = 1724105443,
+},
+},
+{
+["Raid Damage Done"] = {
+216970,
+["max_value"] = 216970,
+["__time"] = 1724105524,
+},
+},
+{
+["Raid Damage Done"] = {
+32167,
+["max_value"] = 32167,
+["__time"] = 1724105538,
+},
+},
+{
+["Raid Damage Done"] = {
+82699,
+["max_value"] = 82699,
+["__time"] = 1724105541,
+},
+},
+{
+["Raid Damage Done"] = {
+9657,
+["max_value"] = 9657,
+["__time"] = 1724105542,
+},
+},
+{
+["Raid Damage Done"] = {
+1387050,
+0,
+0,
+0,
+0,
+["max_value"] = 1387050,
+["__time"] = 1724105551,
+},
+},
+{
+["Raid Damage Done"] = {
+223727,
+["max_value"] = 223727,
+["__time"] = 1724105578,
+},
+},
+{
+["Raid Damage Done"] = {
+215602,
+["max_value"] = 215602,
+["__time"] = 1724105581,
+},
+},
+{
+["Raid Damage Done"] = {
+2591075,
+0,
+["max_value"] = 2591075,
+["__time"] = 1724105612,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105705,
+},
+},
+{
+["Raid Damage Done"] = {
+12063,
+["max_value"] = 12063,
+["__time"] = 1724105706,
+},
+},
+{
+["Raid Damage Done"] = {
+96580,
+["max_value"] = 96580,
+["__time"] = 1724105707,
+},
+},
+{
+["Raid Damage Done"] = {
+45969,
+["max_value"] = 45969,
+["__time"] = 1724105709,
+},
+},
+{
+["Raid Damage Done"] = {
+140437,
+["max_value"] = 140437,
+["__time"] = 1724105710,
+},
+},
+{
+["Raid Damage Done"] = {
+109189,
+["max_value"] = 109189,
+["__time"] = 1724105713,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105735,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105736,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105742,
+},
+},
+{
+["Raid Damage Done"] = {
+4725,
+["max_value"] = 4725,
+["__time"] = 1724105746,
+},
+},
+{
+["Raid Damage Done"] = {
+4724,
+["max_value"] = 4724,
+["__time"] = 1724105748,
+},
+},
+{
+["Raid Damage Done"] = {
+4558,
+["max_value"] = 4558,
+["__time"] = 1724105750,
+},
+},
+{
+["Raid Damage Done"] = {
+4601,
+["max_value"] = 4601,
+["__time"] = 1724105752,
+},
+},
+{
+["Raid Damage Done"] = {
+2279,
+["max_value"] = 2279,
+["__time"] = 1724105753,
+},
+},
+{
+["Raid Damage Done"] = {
+15709,
+["max_value"] = 15709,
+["__time"] = 1724105759,
+},
+},
+{
+["Raid Damage Done"] = {
+3936,
+["max_value"] = 3936,
+["__time"] = 1724105760,
+},
+},
+{
+["Raid Damage Done"] = {
+3977,
+["max_value"] = 3977,
+["__time"] = 1724105761,
+},
+},
+{
+["Raid Damage Done"] = {
+3936,
+["max_value"] = 3936,
+["__time"] = 1724105763,
+},
+},
+{
+["Raid Damage Done"] = {
+4931,
+["max_value"] = 4931,
+["__time"] = 1724105764,
+},
+},
+{
+["Raid Damage Done"] = {
+40123,
+["max_value"] = 40123,
+["__time"] = 1724105765,
+},
+},
+{
+["Raid Damage Done"] = {
+994,
+["max_value"] = 994,
+["__time"] = 1724105766,
+},
+},
+{
+["Raid Damage Done"] = {
+3979,
+["max_value"] = 3979,
+["__time"] = 1724105769,
+},
+},
+{
+["Raid Damage Done"] = {
+4021,
+["max_value"] = 4021,
+["__time"] = 1724105772,
+},
+},
+{
+["Raid Damage Done"] = {
+4062,
+["max_value"] = 4062,
+["__time"] = 1724105775,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105776,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105778,
+},
+},
+{
+["Raid Damage Done"] = {
+14218,
+["max_value"] = 14218,
+["__time"] = 1724105779,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105780,
+},
+},
+{
+["Raid Damage Done"] = {
+6673,
+["max_value"] = 6673,
+["__time"] = 1724105783,
+},
+},
+{
+["Raid Damage Done"] = {
+8000,
+["max_value"] = 8000,
+["__time"] = 1724105786,
+},
+},
+{
+["Raid Damage Done"] = {
+3938,
+["max_value"] = 3938,
+["__time"] = 1724105789,
+},
+},
+{
+["Raid Damage Done"] = {
+4062,
+["max_value"] = 4062,
+["__time"] = 1724105792,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105793,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+66115,
+20892,
+0,
+4062,
+0,
+0,
+4062,
+0,
+0,
+4186,
+0,
+0,
+0,
+45307,
+0,
+0,
+["max_value"] = 66115,
+["__time"] = 1724105811,
+},
+},
+{
+["Raid Damage Done"] = {
+21471,
+["max_value"] = 21471,
+["__time"] = 1724105812,
+},
+},
+{
+["Raid Damage Done"] = {
+24290,
+["max_value"] = 24290,
+["__time"] = 1724105813,
+},
+},
+{
+["Raid Damage Done"] = {
+28269,
+["max_value"] = 28269,
+["__time"] = 1724105815,
+},
+},
+{
+["Raid Damage Done"] = {
+13886,
+["max_value"] = 13886,
+["__time"] = 1724105817,
+},
+},
+{
+["Raid Damage Done"] = {
+4062,
+["max_value"] = 4062,
+["__time"] = 1724105819,
+},
+},
+{
+["Raid Damage Done"] = {
+3896,
+["max_value"] = 3896,
+["__time"] = 1724105822,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105823,
+},
+},
+{
+["Raid Damage Done"] = {
+3855,
+["max_value"] = 3855,
+["__time"] = 1724105825,
+},
+},
+{
+["Raid Damage Done"] = {
+41700,
+["max_value"] = 41700,
+["__time"] = 1724105826,
+},
+},
+{
+["Raid Damage Done"] = {
+3855,
+["max_value"] = 3855,
+["__time"] = 1724105828,
+},
+},
+{
+["Raid Damage Done"] = {
+4062,
+["max_value"] = 4062,
+["__time"] = 1724105832,
+},
+},
+{
+["Raid Damage Done"] = {
+4021,
+["max_value"] = 4021,
+["__time"] = 1724105835,
+},
+},
+{
+["Raid Damage Done"] = {
+4062,
+0,
+0,
+["max_value"] = 4062,
+["__time"] = 1724105840,
+},
+},
+{
+["Raid Damage Done"] = {
+4186,
+["max_value"] = 4186,
+["__time"] = 1724105841,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724105843,
+},
+},
+{
+["Raid Damage Done"] = {
+11067,
+["max_value"] = 11067,
+["__time"] = 1724105845,
+},
+},
+{
+["Raid Damage Done"] = {
+395012,
+1391737,
+["max_value"] = 1391737,
+["__time"] = 1724105849,
+},
+},
+{
+["Raid Damage Done"] = {
+6128891,
+["max_value"] = 6128891,
+["__time"] = 1724105853,
+},
+},
+{
+["Raid Damage Done"] = {
+1782144,
+0,
+["max_value"] = 1782144,
+["__time"] = 1724105858,
+},
+},
+{
+["Raid Damage Done"] = {
+2613343,
+140694,
+666581,
+0,
+["max_value"] = 2613343,
+["__time"] = 1724105868,
+},
+},
+{
+["Raid Damage Done"] = {
+422663,
+["max_value"] = 422663,
+["__time"] = 1724105878,
+},
+},
+{
+["Raid Damage Done"] = {
+1082114,
+["max_value"] = 1082114,
+["__time"] = 1724105905,
+},
+},
+{
+["Raid Damage Done"] = {
+922527,
+0,
+["max_value"] = 922527,
+["__time"] = 1724105968,
+},
+},
+{
+["Raid Damage Done"] = {
+43796,
+["max_value"] = 43796,
+["__time"] = 1724105976,
+},
+},
+{
+["Raid Damage Done"] = {
+76009,
+28130,
+39149,
+["max_value"] = 76009,
+["__time"] = 1724105981,
+},
+},
+{
+["Raid Damage Done"] = {
+20315,
+["max_value"] = 20315,
+["__time"] = 1724105983,
+},
+},
+{
+["Raid Damage Done"] = {
+15466,
+["max_value"] = 15466,
+["__time"] = 1724105985,
+},
+},
+{
+["Raid Damage Done"] = {
+22238,
+["max_value"] = 22238,
+["__time"] = 1724105987,
+},
+},
+{
+["Raid Damage Done"] = {
+86353,
+["max_value"] = 86353,
+["__time"] = 1724105988,
+},
+},
+{
+["Raid Damage Done"] = {
+11099,
+["max_value"] = 11099,
+["__time"] = 1724105991,
+},
+},
+{
+["Raid Damage Done"] = {
+52251,
+["max_value"] = 52251,
+["__time"] = 1724105993,
+},
+},
+{
+["Raid Damage Done"] = {
+21917,
+["max_value"] = 21917,
+["__time"] = 1724105994,
+},
+},
+{
+["Raid Damage Done"] = {
+37265,
+["max_value"] = 37265,
+["__time"] = 1724105996,
+},
+},
+{
+["Raid Damage Done"] = {
+127466,
+["max_value"] = 127466,
+["__time"] = 1724105997,
+},
+},
+{
+["Raid Damage Done"] = {
+60667,
+["max_value"] = 60667,
+["__time"] = 1724105998,
+},
+},
+{
+["Raid Damage Done"] = {
+9256,
+["max_value"] = 9256,
+["__time"] = 1724106000,
+},
+},
+{
+["Raid Damage Done"] = {
+21397,
+["max_value"] = 21397,
+["__time"] = 1724106001,
+},
+},
+{
+["Raid Damage Done"] = {
+355752,
+1417683,
+0,
+["max_value"] = 1417683,
+["__time"] = 1724106004,
+},
+},
+{
+["Raid Damage Done"] = {
+5195891,
+0,
+["max_value"] = 5195891,
+["__time"] = 1724106010,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+102060,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 102060,
+["__time"] = 1724106051,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106067,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106069,
+},
+},
+{
+["Raid Damage Done"] = {
+77886,
+["max_value"] = 77886,
+["__time"] = 1724106071,
+},
+},
+{
+["Raid Damage Done"] = {
+27521,
+8331,
+94468,
+42362,
+769221,
+0,
+0,
+283045,
+10858,
+797740,
+0,
+537201,
+["max_value"] = 797740,
+["__time"] = 1724106083,
+},
+},
+{
+["Raid Damage Done"] = {
+1268656,
+["max_value"] = 1268656,
+["__time"] = 1724106168,
+},
+},
+{
+["Raid Damage Done"] = {
+2058898,
+["max_value"] = 2058898,
+["__time"] = 1724106171,
+},
+},
+{
+["Raid Damage Done"] = {
+4062,
+["max_value"] = 4062,
+["__time"] = 1724106173,
+},
+},
+{
+["Raid Damage Done"] = {
+280559,
+["max_value"] = 280559,
+["__time"] = 1724106176,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106177,
+},
+},
+{
+["Raid Damage Done"] = {
+14253,
+1979170,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 1979170,
+["__time"] = 1724106228,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+663,
+0,
+580,
+0,
+621,
+0,
+3232,
+85104,
+629806,
+444964,
+580,
+2238,
+621,
+3895,
+704,
+580,
+0,
+2777,
+0,
+3772,
+0,
+2818,
+1775976,
+0,
+0,
+1498316,
+0,
+["max_value"] = 1775976,
+["__time"] = 1724106362,
+},
+},
+{
+["Raid Damage Done"] = {
+1366159,
+["max_value"] = 1366159,
+["__time"] = 1724106388,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["__time"] = 1724106421,
+},
+},
+{
+["Raid Damage Done"] = {
+36520,
+["max_value"] = 36520,
+["__time"] = 1724106441,
+},
+},
+{
+["Raid Damage Done"] = {
+52106,
+["max_value"] = 52106,
+["__time"] = 1724106444,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+5057,
+2404,
+13223,
+21017,
+2362,
+5968,
+53723,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+271240,
+1463695,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 1463695,
+["__time"] = 1724106478,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106529,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106530,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106539,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106540,
+},
+},
+{
+["Raid Damage Done"] = {
+5595,
+["max_value"] = 5595,
+["__time"] = 1724106542,
+},
+},
+{
+["Raid Damage Done"] = {
+16249,
+["max_value"] = 16249,
+["__time"] = 1724106544,
+},
+},
+{
+["Raid Damage Done"] = {
+20310,
+["max_value"] = 20310,
+["__time"] = 1724106545,
+},
+},
+{
+["Raid Damage Done"] = {
+97369,
+["max_value"] = 97369,
+["__time"] = 1724106546,
+},
+},
+{
+["Raid Damage Done"] = {
+20228,
+["max_value"] = 20228,
+["__time"] = 1724106547,
+},
+},
+{
+["Raid Damage Done"] = {
+60765,
+1205772,
+["max_value"] = 1205772,
+["__time"] = 1724106549,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+5388,
+15169,
+50859,
+15585,
+5554,
+11481,
+26693,
+17657,
+21885,
+30340,
+29924,
+35810,
+328473,
+1359731,
+9947,
+16785,
+5264,
+2611,
+2611,
+0,
+881559,
+0,
+["max_value"] = 1359731,
+["__time"] = 1724106576,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+22675,
+0,
+218380,
+0,
+0,
+0,
+["max_value"] = 218380,
+["__time"] = 1724106620,
+},
+},
+{
+["Raid Damage Done"] = {
+88958,
+["max_value"] = 88958,
+["__time"] = 1724106638,
+},
+},
+{
+["Raid Damage Done"] = {
+29731,
+["max_value"] = 29731,
+["__time"] = 1724106639,
+},
+},
+{
+["Raid Damage Done"] = {
+2805,
+["max_value"] = 2805,
+["__time"] = 1724106641,
+},
+},
+{
+["Raid Damage Done"] = {
+22679,
+["max_value"] = 22679,
+["__time"] = 1724106642,
+},
+},
+{
+["Raid Damage Done"] = {
+19835,
+["max_value"] = 19835,
+["__time"] = 1724106643,
+},
+},
+{
+["Raid Damage Done"] = {
+29571,
+["max_value"] = 29571,
+["__time"] = 1724106645,
+},
+},
+{
+["Raid Damage Done"] = {
+45481,
+["max_value"] = 45481,
+["__time"] = 1724106647,
+},
+},
+{
+["Raid Damage Done"] = {
+10337,
+["max_value"] = 10337,
+["__time"] = 1724106649,
+},
+},
+{
+["Raid Damage Done"] = {
+27527,
+["max_value"] = 27527,
+["__time"] = 1724106651,
+},
+},
+{
+["Raid Damage Done"] = {
+40229,
+["max_value"] = 40229,
+["__time"] = 1724106652,
+},
+},
+{
+["Raid Damage Done"] = {
+34421,
+9134,
+37584,
+452957,
+178915,
+0,
+493302,
+0,
+0,
+145337,
+0,
+0,
+0,
+0,
+["max_value"] = 493302,
+["__time"] = 1724106668,
+},
+},
+{
+["Raid Damage Done"] = {
+58325,
+["max_value"] = 58325,
+["__time"] = 1724106695,
+},
+},
+{
+["Raid Damage Done"] = {
+812869,
+0,
+0,
+["max_value"] = 812869,
+["__time"] = 1724106713,
+},
+},
+{
+["Raid Damage Done"] = {
+783768,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 783768,
+["__time"] = 1724106721,
+},
+},
+{
+["Raid Damage Done"] = {
+3092929,
+["max_value"] = 3092929,
+["__time"] = 1724106732,
+},
+},
+{
+["Raid Damage Done"] = {
+268539,
+["max_value"] = 268539,
+["__time"] = 1724106734,
+},
+},
+{
+["Raid Damage Done"] = {
+23214,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 23214,
+["__time"] = 1724106772,
+},
+},
+{
+["Raid Damage Done"] = {
+437423,
+["max_value"] = 437423,
+["__time"] = 1724106774,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724106778,
+},
+},
+{
+["Raid Damage Done"] = {
+7585,
+["max_value"] = 7585,
+["__time"] = 1724106780,
+},
+},
+{
+["Raid Damage Done"] = {
+15957,
+["max_value"] = 15957,
+["__time"] = 1724106782,
+},
+},
+{
+["Raid Damage Done"] = {
+8744,
+["max_value"] = 8744,
+["__time"] = 1724106783,
+},
+},
+{
+["Raid Damage Done"] = {
+12434,
+["max_value"] = 12434,
+["__time"] = 1724106785,
+},
+},
+{
+["Raid Damage Done"] = {
+19273,
+["max_value"] = 19273,
+["__time"] = 1724106786,
+},
+},
+{
+["Raid Damage Done"] = {
+26445,
+49202,
+6714,
+4145,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 49202,
+["__time"] = 1724106796,
+},
+},
+{
+["Raid Damage Done"] = {
+29296,
+0,
+["max_value"] = 29296,
+["__time"] = 1724106826,
+},
+},
+{
+["Raid Damage Done"] = {
+2613731,
+0,
+["max_value"] = 2613731,
+["__time"] = 1724106856,
+},
+},
+{
+["Raid Damage Done"] = {
+2242246,
+0,
+["max_value"] = 2242246,
+["__time"] = 1724106938,
+},
+},
+{
+["Raid Damage Done"] = {
+58360,
+0,
+0,
+["max_value"] = 58360,
+["__time"] = 1724106945,
+},
+},
+{
+["Raid Damage Done"] = {
+5440260,
+["max_value"] = 5440260,
+["__time"] = 1724106962,
+},
+},
+{
+["Raid Damage Done"] = {
+2099011,
+67209,
+["max_value"] = 2099011,
+["__time"] = 1724106966,
+},
+},
+{
+["Raid Damage Done"] = {
+1718871,
+["max_value"] = 1718871,
+["__time"] = 1724106968,
+},
+},
+{
+["Raid Damage Done"] = {
+21673,
+871470,
+0,
+0,
+2415467,
+0,
+["max_value"] = 2415467,
+["__time"] = 1724106994,
+},
+},
+{
+["Raid Damage Done"] = {
+986411,
+["max_value"] = 986411,
+["__time"] = 1724106995,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+23244,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1614556,
+0,
+["max_value"] = 1614556,
+["__time"] = 1724107040,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107042,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107044,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107046,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107047,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107048,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107049,
+},
+},
+{
+["Raid Damage Done"] = {
+656891,
+0,
+0,
+0,
+54885,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+15882,
+152331,
+0,
+0,
+0,
+["max_value"] = 656891,
+["__time"] = 1724107093,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107095,
+},
+},
+{
+["Raid Damage Done"] = {
+378980,
+417479,
+6876,
+["max_value"] = 417479,
+["__time"] = 1724107099,
+},
+},
+{
+["Raid Damage Done"] = {
+34223,
+["max_value"] = 34223,
+["__time"] = 1724107101,
+},
+},
+{
+["Raid Damage Done"] = {
+16191,
+["max_value"] = 16191,
+["__time"] = 1724107103,
+},
+},
+{
+["Raid Damage Done"] = {
+36941,
+["max_value"] = 36941,
+["__time"] = 1724107104,
+},
+},
+{
+["Raid Damage Done"] = {
+17870,
+["max_value"] = 17870,
+["__time"] = 1724107106,
+},
+},
+{
+["Raid Damage Done"] = {
+35339,
+["max_value"] = 35339,
+["__time"] = 1724107108,
+},
+},
+{
+["Raid Damage Done"] = {
+52970,
+["max_value"] = 52970,
+["__time"] = 1724107109,
+},
+},
+{
+["Raid Damage Done"] = {
+5596,
+["max_value"] = 5596,
+["__time"] = 1724107111,
+},
+},
+{
+["Raid Damage Done"] = {
+20668,
+["max_value"] = 20668,
+["__time"] = 1724107112,
+},
+},
+{
+["Raid Damage Done"] = {
+18070,
+["max_value"] = 18070,
+["__time"] = 1724107114,
+},
+},
+{
+["Raid Damage Done"] = {
+10072,
+["max_value"] = 10072,
+["__time"] = 1724107115,
+},
+},
+{
+["Raid Damage Done"] = {
+9074,
+5396,
+22547,
+["max_value"] = 22547,
+["__time"] = 1724107118,
+},
+},
+{
+["Raid Damage Done"] = {
+7954,
+["max_value"] = 7954,
+["__time"] = 1724107120,
+},
+},
+{
+["Raid Damage Done"] = {
+27704,
+["max_value"] = 27704,
+["__time"] = 1724107121,
+},
+},
+{
+["Raid Damage Done"] = {
+62645,
+["max_value"] = 62645,
+["__time"] = 1724107122,
+},
+},
+{
+["Raid Damage Done"] = {
+26862,
+["max_value"] = 26862,
+["__time"] = 1724107123,
+},
+},
+{
+["Raid Damage Done"] = {
+21786,
+["max_value"] = 21786,
+["__time"] = 1724107124,
+},
+},
+{
+["Raid Damage Done"] = {
+5117,
+["max_value"] = 5117,
+["__time"] = 1724107125,
+},
+},
+{
+["Raid Damage Done"] = {
+3832444,
+28663,
+1873144,
+0,
+0,
+1756178,
+0,
+["max_value"] = 3832444,
+["__time"] = 1724107140,
+},
+},
+{
+["Raid Damage Done"] = {
+1534012,
+2455505,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 2455505,
+["__time"] = 1724107169,
+},
+},
+{
+["Raid Damage Done"] = {
+1849488,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+415735,
+2060699,
+["max_value"] = 2060699,
+["__time"] = 1724107217,
+},
+},
+{
+["Raid Damage Done"] = {
+260406,
+["max_value"] = 260406,
+["__time"] = 1724107220,
+},
+},
+{
+["Raid Damage Done"] = {
+2065277,
+0,
+0,
+0,
+2663287,
+62059,
+717509,
+["max_value"] = 2663287,
+["__time"] = 1724107237,
+},
+},
+{
+["Raid Damage Done"] = {
+768603,
+0,
+["max_value"] = 768603,
+["__time"] = 1724107241,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+35586,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+29978,
+806787,
+["max_value"] = 806787,
+["__time"] = 1724107309,
+},
+},
+{
+["Raid Damage Done"] = {
+607917,
+49108,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 607917,
+["__time"] = 1724107354,
+},
+},
+{
+["Raid Damage Done"] = {
+855976,
+0,
+["max_value"] = 855976,
+["__time"] = 1724107358,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724107361,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+5460,
+7851,
+10521,
+["max_value"] = 10521,
+["__time"] = 1724107376,
+},
+},
+{
+["Raid Damage Done"] = {
+22878,
+["max_value"] = 22878,
+["__time"] = 1724107377,
+},
+},
+{
+["Raid Damage Done"] = {
+23077,
+["max_value"] = 23077,
+["__time"] = 1724107379,
+},
+},
+{
+["Raid Damage Done"] = {
+4981,
+["max_value"] = 4981,
+["__time"] = 1724107380,
+},
+},
+{
+["Raid Damage Done"] = {
+210372,
+["max_value"] = 210372,
+["__time"] = 1724107381,
+},
+},
+{
+["Raid Damage Done"] = {
+31608,
+32286,
+["max_value"] = 32286,
+["__time"] = 1724107384,
+},
+},
+{
+["Raid Damage Done"] = {
+10920,
+["max_value"] = 10920,
+["__time"] = 1724107385,
+},
+},
+{
+["Raid Damage Done"] = {
+43685,
+["max_value"] = 43685,
+["__time"] = 1724107386,
+},
+},
+{
+["Raid Damage Done"] = {
+30690,
+["max_value"] = 30690,
+["__time"] = 1724107388,
+},
+},
+{
+["Raid Damage Done"] = {
+9087,
+["max_value"] = 9087,
+["__time"] = 1724107389,
+},
+},
+{
+["Raid Damage Done"] = {
+32803,
+["max_value"] = 32803,
+["__time"] = 1724107391,
+},
+},
+{
+["Raid Damage Done"] = {
+55282,
+["max_value"] = 55282,
+["__time"] = 1724107392,
+},
+},
+{
+["Raid Damage Done"] = {
+58913,
+["max_value"] = 58913,
+["__time"] = 1724107394,
+},
+},
+{
+["Raid Damage Done"] = {
+8968,
+2628603,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+137811,
+0,
+268242,
+0,
+0,
+0,
+1891303,
+0,
+["max_value"] = 2628603,
+["__time"] = 1724107412,
+},
+},
+{
+["Raid Damage Done"] = {
+1973476,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 1973476,
+["__time"] = 1724107442,
+},
+},
+{
+["Raid Damage Done"] = {
+2625,
+["max_value"] = 2625,
+["__time"] = 1724107744,
+},
+},
+{
+["Raid Damage Done"] = {
+5701,
+345948,
+["max_value"] = 345948,
+["__time"] = 1724107746,
+},
+},
+{
+["Raid Damage Done"] = {
+110453,
+63987,
+2295069,
+314645,
+12305,
+2584,
+1816012,
+19975,
+281755,
+107424,
+["max_value"] = 2295069,
+["__time"] = 1724107757,
+},
+},
+{
+["Raid Damage Done"] = {
+96550,
+["max_value"] = 96550,
+["__time"] = 1724107758,
+},
+},
+{
+["Raid Damage Done"] = {
+47576,
+["max_value"] = 47576,
+["__time"] = 1724107759,
+},
+},
+{
+["Raid Damage Done"] = {
+14766,
+["max_value"] = 14766,
+["__time"] = 1724107760,
+},
+},
+{
+["Raid Damage Done"] = {
+41878,
+["max_value"] = 41878,
+["__time"] = 1724107761,
+},
+},
+{
+["Raid Damage Done"] = {
+4881,
+["max_value"] = 4881,
+["__time"] = 1724107762,
+},
+},
+{
+["Raid Damage Done"] = {
+2543,
+["max_value"] = 2543,
+["__time"] = 1724107764,
+},
+},
+{
+["Raid Damage Done"] = {
+4799,
+["max_value"] = 4799,
+["__time"] = 1724107765,
+},
+},
+{
+["Raid Damage Done"] = {
+8572,
+["max_value"] = 8572,
+["__time"] = 1724107766,
+},
+},
+{
+["Raid Damage Done"] = {
+6152,
+["max_value"] = 6152,
+["__time"] = 1724107768,
+},
+},
+{
+["Raid Damage Done"] = {
+717537,
+29041,
+["max_value"] = 717537,
+["__time"] = 1724107794,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+20220,
+0,
+12346,
+0,
+["max_value"] = 20220,
+["__time"] = 1724107801,
+},
+},
+{
+["Raid Damage Done"] = {
+99507,
+["max_value"] = 99507,
+["__time"] = 1724107802,
+},
+},
+{
+["Raid Damage Done"] = {
+13983,
+["max_value"] = 13983,
+["__time"] = 1724107803,
+},
+},
+{
+["Raid Damage Done"] = {
+14311,
+["max_value"] = 14311,
+["__time"] = 1724107804,
+},
+},
+{
+["Raid Damage Done"] = {
+18536,
+["max_value"] = 18536,
+["__time"] = 1724107806,
+},
+},
+{
+["Raid Damage Done"] = {
+26985,
+["max_value"] = 26985,
+["__time"] = 1724107807,
+},
+},
+{
+["Raid Damage Done"] = {
+22516,
+["max_value"] = 22516,
+["__time"] = 1724107808,
+},
+},
+{
+["Raid Damage Done"] = {
+122926,
+["max_value"] = 122926,
+["__time"] = 1724107809,
+},
+},
+{
+["Raid Damage Done"] = {
+3363,
+["max_value"] = 3363,
+["__time"] = 1724107811,
+},
+},
+{
+["Raid Damage Done"] = {
+26578,
+["max_value"] = 26578,
+["__time"] = 1724107812,
+},
+},
+{
+["Raid Damage Done"] = {
+32404,
+1573800,
+0,
+["max_value"] = 1573800,
+["__time"] = 1724107815,
+},
+},
+{
+["Raid Damage Done"] = {
+343941,
+0,
+["max_value"] = 343941,
+["__time"] = 1724107889,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+269409,
+["max_value"] = 269409,
+["__time"] = 1724107898,
+},
+},
+{
+["Raid Damage Done"] = {
+1524824,
+["max_value"] = 1524824,
+["__time"] = 1724107929,
+},
+},
+{
+["Raid Damage Done"] = {
+368305,
+0,
+["max_value"] = 368305,
+["__time"] = 1724107934,
+},
+},
+{
+["Raid Damage Done"] = {
+6357,
+["max_value"] = 6357,
+["__time"] = 1724107944,
+},
+},
+{
+["Raid Damage Done"] = {
+5127,
+["max_value"] = 5127,
+["__time"] = 1724107945,
+},
+},
+{
+["Raid Damage Done"] = {
+5660,
+["max_value"] = 5660,
+["__time"] = 1724107947,
+},
+},
+{
+["Raid Damage Done"] = {
+74693,
+0,
+5168,
+2584,
+6603,
+14151,
+13946,
+0,
+["max_value"] = 74693,
+["__time"] = 1724107957,
+},
+},
+{
+["Raid Damage Done"] = {
+2527236,
+["max_value"] = 2527236,
+["__time"] = 1724107971,
+},
+},
+{
+["Raid Damage Done"] = {
+2150232,
+["max_value"] = 2150232,
+["__time"] = 1724107979,
+},
+},
+{
+["Raid Damage Done"] = {
+140652,
+["max_value"] = 140652,
+["__time"] = 1724107994,
+},
+},
+{
+["Raid Damage Done"] = {
+28999,
+["max_value"] = 28999,
+["__time"] = 1724108009,
+},
+},
+{
+["Raid Damage Done"] = {
+4007968,
+["max_value"] = 4007968,
+["__time"] = 1724108014,
+},
+},
+{
+["Raid Damage Done"] = {
+2497373,
+["max_value"] = 2497373,
+["__time"] = 1724108020,
+},
+},
+{
+["Raid Damage Done"] = {
+5209,
+["max_value"] = 5209,
+["__time"] = 1724108030,
+},
+},
+{
+["Raid Damage Done"] = {
+3265234,
+0,
+["max_value"] = 3265234,
+["__time"] = 1724108032,
+},
+},
+{
+["Raid Damage Done"] = {
+57503,
+["max_value"] = 57503,
+["__time"] = 1724108046,
+},
+},
+{
+["Raid Damage Done"] = {
+36912,
+["max_value"] = 36912,
+["__time"] = 1724108047,
+},
+},
+{
+["Raid Damage Done"] = {
+33142,
+2625,
+29574,
+["max_value"] = 33142,
+["__time"] = 1724108053,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108055,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108059,
+},
+},
+{
+["Raid Damage Done"] = {
+12182,
+["max_value"] = 12182,
+["__time"] = 1724108060,
+},
+},
+{
+["Raid Damage Done"] = {
+15299,
+["max_value"] = 15299,
+["__time"] = 1724108062,
+},
+},
+{
+["Raid Damage Done"] = {
+2706,
+["max_value"] = 2706,
+["__time"] = 1724108064,
+},
+},
+{
+["Raid Damage Done"] = {
+53898,
+1003478,
+0,
+0,
+715813,
+0,
+0,
+0,
+0,
+0,
+0,
+520606,
+24570,
+63332,
+29779,
+51764,
+470559,
+0,
+0,
+0,
+139667,
+14331,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+990967,
+["max_value"] = 1003478,
+["__time"] = 1724108097,
+},
+},
+{
+["Raid Damage Done"] = {
+2453929,
+1217924,
+["max_value"] = 2453929,
+["__time"] = 1724108117,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108220,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108222,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108224,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108226,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108228,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108230,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108232,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108234,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108236,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108238,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108240,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108242,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+["__time"] = 1724108244,
+},
+},
+{
+["Raid Damage Done"] = {
+12182,
+["max_value"] = 12182,
+["__time"] = 1724108246,
+},
+},
+{
+["Raid Damage Done"] = {
+43438,
+["max_value"] = 43438,
+["__time"] = 1724108247,
+},
+},
+{
+["Raid Damage Done"] = {
+22395,
+["max_value"] = 22395,
+["__time"] = 1724108250,
+},
+},
+{
+["Raid Damage Done"] = {
+21820,
+["max_value"] = 21820,
+["__time"] = 1724108251,
+},
+},
+{
+["Raid Damage Done"] = {
+20385,
+["max_value"] = 20385,
+["__time"] = 1724108253,
+},
+},
+{
+["Raid Damage Done"] = {
+97785,
+["max_value"] = 97785,
+["__time"] = 1724108254,
+},
+},
+{
+["Raid Damage Done"] = {
+24076,
+["max_value"] = 24076,
+["__time"] = 1724108255,
+},
+},
+{
+["Raid Damage Done"] = {
+4758,
+["max_value"] = 4758,
+["__time"] = 1724108259,
+},
+},
+{
+["Raid Damage Done"] = {
+28097,
+["max_value"] = 28097,
+["__time"] = 1724108268,
+},
+},
+{
+["Raid Damage Done"] = {
+32732,
+["max_value"] = 32732,
+["__time"] = 1724108270,
+},
+},
+{
+["Raid Damage Done"] = {
+40196,
+["max_value"] = 40196,
+["__time"] = 1724108272,
+},
+},
+{
+["Raid Damage Done"] = {
+43885,
+["max_value"] = 43885,
+["__time"] = 1724108273,
+},
+},
+{
+["Raid Damage Done"] = {
+63941,
+["max_value"] = 63941,
+["__time"] = 1724108274,
+},
+},
+{
+["Raid Damage Done"] = {
+31170,
+["max_value"] = 31170,
+["__time"] = 1724108275,
+},
+},
+{
+["Raid Damage Done"] = {
+45770,
+["max_value"] = 45770,
+["__time"] = 1724108277,
+},
+},
+{
+["Raid Damage Done"] = {
+47452,
+["max_value"] = 47452,
+["__time"] = 1724108278,
+},
+},
+{
+["Raid Damage Done"] = {
+158860,
+1335400,
+["max_value"] = 1335400,
+["__time"] = 1724108280,
+},
+},
+{
+["Raid Damage Done"] = {
+680702,
+2543,
+["max_value"] = 680702,
+["__time"] = 1724108282,
+},
+},
+{
+["Raid Damage Done"] = {
+9761,
+["max_value"] = 9761,
+["__time"] = 1724108284,
+},
+},
+{
+["Raid Damage Done"] = {
+74734,
+["max_value"] = 74734,
+["__time"] = 1724108285,
+},
+},
+{
+["Raid Damage Done"] = {
+12017,
+["max_value"] = 12017,
+["__time"] = 1724108287,
+},
+},
+{
+["Raid Damage Done"] = {
+36012,
+["max_value"] = 36012,
+["__time"] = 1724108288,
+},
+},
+{
+["Raid Damage Done"] = {
+37898,
+["max_value"] = 37898,
+["__time"] = 1724108289,
+},
+},
+{
+["Raid Damage Done"] = {
+42901,
+["max_value"] = 42901,
+["__time"] = 1724108291,
+},
+},
+{
+["Raid Damage Done"] = {
+67839,
+["max_value"] = 67839,
+["__time"] = 1724108292,
+},
+},
+{
+["Raid Damage Done"] = {
+48934,
+["max_value"] = 48934,
+["__time"] = 1724108293,
+},
+},
+{
+["Raid Damage Done"] = {
+20590,
+["max_value"] = 20590,
+["__time"] = 1724108294,
+},
+},
+{
+["Raid Damage Done"] = {
+2789,
+["max_value"] = 2789,
+["__time"] = 1724108299,
+},
+},
+{
+["Raid Damage Done"] = {
+20506,
+["max_value"] = 20506,
+["__time"] = 1724108300,
+},
+},
+{
+["Raid Damage Done"] = {
+16652,
+["max_value"] = 16652,
+["__time"] = 1724108302,
+},
+},
+{
+["Raid Damage Done"] = {
+130314,
+["max_value"] = 130314,
+["__time"] = 1724108304,
+},
+},
+{
+["Raid Damage Done"] = {
+51395,
+430648,
+764339,
+153122,
+["max_value"] = 764339,
+["__time"] = 1724108309,
+},
+},
+{
+["Raid Damage Done"] = {
+156976,
+0,
+506128,
+0,
+["max_value"] = 506128,
+["__time"] = 1724108330,
+},
+},
+{
+["Raid Damage Done"] = {
+1839681,
+0,
+["max_value"] = 1839681,
+["__time"] = 1724108334,
+},
+},
+{
+["Raid Damage Done"] = {
+300419,
+["max_value"] = 300419,
+["__time"] = 1724108338,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1105287,
+0,
+["max_value"] = 1105287,
+["__time"] = 1724108446,
+},
+},
+{
+["Raid Damage Done"] = {
+14643,
+["max_value"] = 14643,
+["__time"] = 1724108571,
+},
+},
+{
+["Raid Damage Done"] = {
+423392,
+0,
+["max_value"] = 423392,
+["__time"] = 1724108574,
+},
+},
+{
+["Raid Damage Done"] = {
+46514,
+["max_value"] = 46514,
+["__time"] = 1724108606,
+},
+},
+{
+["Raid Damage Done"] = {
+8449,
+["max_value"] = 8449,
+["__time"] = 1724108607,
+},
+},
+{
+["Raid Damage Done"] = {
+86334,
+["max_value"] = 86334,
+["__time"] = 1724108609,
+},
+},
+{
+["Raid Damage Done"] = {
+12509,
+["max_value"] = 12509,
+["__time"] = 1724108611,
+},
+},
+{
+["Raid Damage Done"] = {
+5127,
+["max_value"] = 5127,
+["__time"] = 1724108612,
+},
+},
+{
+["Raid Damage Done"] = {
+45446,
+["max_value"] = 45446,
+["__time"] = 1724108615,
+},
+},
+{
+["Raid Damage Done"] = {
+48931,
+["max_value"] = 48931,
+["__time"] = 1724108616,
+},
+},
+{
+["Raid Damage Done"] = {
+68045,
+["max_value"] = 68045,
+["__time"] = 1724108618,
+},
+},
+{
+["Raid Damage Done"] = {
+31089,
+["max_value"] = 31089,
+["__time"] = 1724108619,
+},
+},
+{
+["Raid Damage Done"] = {
+14766,
+["max_value"] = 14766,
+["__time"] = 1724108620,
+},
+},
+{
+["Raid Damage Done"] = {
+8408,
+["max_value"] = 8408,
+["__time"] = 1724108621,
+},
+},
+{
+["Raid Damage Done"] = {
+56968,
+["max_value"] = 56968,
+["__time"] = 1724108622,
+},
+},
+{
+["Raid Damage Done"] = {
+17309,
+["max_value"] = 17309,
+["__time"] = 1724108624,
+},
+},
+{
+["Raid Damage Done"] = {
+17636,
+["max_value"] = 17636,
+["__time"] = 1724108625,
+},
+},
+{
+["Raid Damage Done"] = {
+1727950,
+0,
+["max_value"] = 1727950,
+["__time"] = 1724108634,
+},
+},
+{
+["Raid Damage Done"] = {
+531228,
+481763,
+["max_value"] = 531228,
+["__time"] = 1724108651,
+},
+},
+{
+["Raid Damage Done"] = {
+294224,
+["max_value"] = 294224,
+["__time"] = 1724108652,
+},
+},
+{
+["Raid Damage Done"] = {
+207758,
+["max_value"] = 207758,
+["__time"] = 1724108676,
+},
+},
+{
+["Raid Damage Done"] = {
+1152658,
+2621785,
+["max_value"] = 2621785,
+["__time"] = 1724108698,
+},
+},
+{
+["Raid Damage Done"] = {
+5742,
+["max_value"] = 5742,
+["__time"] = 1724108815,
+},
+},
+{
+["Raid Damage Done"] = {
+10418,
+["max_value"] = 10418,
+["__time"] = 1724108816,
+},
+},
+{
+["Raid Damage Done"] = {
+19482,
+["max_value"] = 19482,
+["__time"] = 1724108818,
+},
+},
+{
+["Raid Damage Done"] = {
+15094,
+["max_value"] = 15094,
+["__time"] = 1724108819,
+},
+},
+{
+["Raid Damage Done"] = {
+21123,
+["max_value"] = 21123,
+["__time"] = 1724108820,
+},
+},
+{
+["Raid Damage Done"] = {
+42945,
+["max_value"] = 42945,
+["__time"] = 1724108822,
+},
+},
+{
+["Raid Damage Done"] = {
+94338,
+["max_value"] = 94338,
+["__time"] = 1724108823,
+},
+},
+{
+["Raid Damage Done"] = {
+23296,
+["max_value"] = 23296,
+["__time"] = 1724108824,
+},
+},
+{
+["Raid Damage Done"] = {
+48357,
+["max_value"] = 48357,
+["__time"] = 1724108825,
+},
+},
+{
+["Raid Damage Done"] = {
+124482,
+["max_value"] = 124482,
+["__time"] = 1724108827,
+},
+},
+{
+["Raid Damage Done"] = {
+22435,
+["max_value"] = 22435,
+["__time"] = 1724108828,
+},
+},
+{
+["Raid Damage Done"] = {
+101473,
+["max_value"] = 101473,
+["__time"] = 1724108829,
+},
+},
+{
+["Raid Damage Done"] = {
+70098,
+1399182,
+132407,
+22806,
+0,
+["max_value"] = 1399182,
+["__time"] = 1724108834,
+},
+},
+{
+["Raid Damage Done"] = {
+47251,
+["max_value"] = 47251,
+["__time"] = 1724108846,
+},
+},
+{
+["Raid Damage Done"] = {
+83222,
+["max_value"] = 83222,
+["__time"] = 1724108847,
+},
+},
+{
+["Raid Damage Done"] = {
+32972,
+["max_value"] = 32972,
+["__time"] = 1724108848,
+},
+},
+{
+["Raid Damage Done"] = {
+54179,
+["max_value"] = 54179,
+["__time"] = 1724108849,
+},
+},
+{
+["Raid Damage Done"] = {
+57504,
+["max_value"] = 57504,
+["__time"] = 1724108851,
+},
+},
+{
+["Raid Damage Done"] = {
+16936,
+["max_value"] = 16936,
+["__time"] = 1724108852,
+},
+},
+{
+["Raid Damage Done"] = {
+16978,
+["max_value"] = 16978,
+["__time"] = 1724108853,
+},
+},
+{
+["Raid Damage Done"] = {
+46349,
+["max_value"] = 46349,
+["__time"] = 1724108855,
+},
+},
+{
+["Raid Damage Done"] = {
+9188,
+["max_value"] = 9188,
+["__time"] = 1724108857,
+},
+},
+{
+["Raid Damage Done"] = {
+87573,
+["max_value"] = 87573,
+["__time"] = 1724108861,
+},
+},
+{
+["Raid Damage Done"] = {
+273058,
+0,
+274002,
+["max_value"] = 274002,
+["__time"] = 1724108864,
+},
+},
+{
+["Raid Damage Done"] = {
+243072,
+["max_value"] = 243072,
+["__time"] = 1724108866,
+},
+},
+{
+["Raid Damage Done"] = {
+26577,
+["max_value"] = 26577,
+["__time"] = 1724108867,
+},
+},
+{
+["Raid Damage Done"] = {
+244097,
+43232,
+401360,
+3234722,
+37736,
+["max_value"] = 3234722,
+["__time"] = 1724108873,
+},
+},
+{
+["Raid Damage Done"] = {
+31418,
+["max_value"] = 31418,
+["__time"] = 1724108874,
+},
+},
+{
+["Raid Damage Done"] = {
+1763020,
+10623,
+["max_value"] = 1763020,
+["__time"] = 1724108876,
+},
+},
+{
+["Raid Damage Done"] = {
+60748,
+["max_value"] = 60748,
+["__time"] = 1724108878,
+},
+},
+{
+["Raid Damage Done"] = {
+47211,
+2625,
+10746,
+13576,
+18539,
+413490,
+16857,
+7547,
+5004,
+15627,
+0,
+5004,
+23215,
+32403,
+2871,
+25061,
+5496,
+2584,
+7342,
+7178,
+11731,
+2584,
+2625,
+7465,
+5455,
+46555,
+35685,
+16037,
+8080,
+2625,
+5373,
+6521,
+34045,
+31871,
+12222,
+5414,
+7301,
+7957,
+4922,
+4922,
+860485,
+110131,
+70263,
+114848,
+1094577,
+["max_value"] = 1094577,
+["__time"] = 1724108925,
+},
+},
+{
+["Raid Damage Done"] = {
+876772,
+152465,
+["max_value"] = 876772,
+["__time"] = 1724109017,
+},
+},
+{
+["Raid Damage Done"] = {
+47991,
+["max_value"] = 47991,
+["__time"] = 1724109067,
+},
+},
+{
+["Raid Damage Done"] = {
+26251,
+["max_value"] = 26251,
+["__time"] = 1724109103,
+},
+},
+{
+["Raid Damage Done"] = {
+73668,
+["max_value"] = 73668,
+["__time"] = 1724109104,
+},
+},
+{
+["Raid Damage Done"] = {
+45120,
+["max_value"] = 45120,
+["__time"] = 1724109108,
+},
+},
+{
+["Raid Damage Done"] = {
+2912,
+615,
+0,
+3199,
+0,
+574,
+3240,
+1189,
+0,
+3117,
+0,
+574,
+0,
+3158,
+0,
+574,
+2625,
+574,
+0,
+203982,
+0,
+["max_value"] = 203982,
+["__time"] = 1724109174,
+},
+},
+{
+["Raid Damage Done"] = {
+4512,
+["max_value"] = 4512,
+["__time"] = 1724109190,
+},
+},
+{
+["Raid Damage Done"] = {
+587462,
+["max_value"] = 587462,
+["__time"] = 1724109192,
+},
+},
+{
+["Raid Damage Done"] = {
+574,
+615,
+2870,
+615,
+0,
+3158,
+0,
+0,
+["max_value"] = 3158,
+["__time"] = 1724109219,
+},
+},
+{
+["Raid Damage Done"] = {
+24979,
+852531,
+["max_value"] = 852531,
+["__time"] = 1724109246,
+},
+},
+{
+["Raid Damage Done"] = {
+28220,
+["max_value"] = 28220,
+["__time"] = 1724109306,
+},
+},
+{
+["Raid Damage Done"] = {
+29244,
+553173,
+2235219,
+0,
+["max_value"] = 2235219,
+["__time"] = 1724109311,
+},
+},
+{
+["Raid Damage Done"] = {
+3718498,
+["max_value"] = 3718498,
+["__time"] = 1724109442,
+},
+},
+{
+["Raid Damage Done"] = {
+1746571,
+12879,
+6480,
+24568,
+57916,
+19893,
+70220,
+32730,
+["max_value"] = 1746571,
+["__time"] = 1724109450,
+},
+},
+{
+["Raid Damage Done"] = {
+35681,
+["max_value"] = 35681,
+["__time"] = 1724109451,
+},
+},
+{
+["Raid Damage Done"] = {
+123625,
+["max_value"] = 123625,
+["__time"] = 1724109453,
+},
+},
+{
+["Raid Damage Done"] = {
+313368,
+["max_value"] = 313368,
+["__time"] = 1724109454,
+},
+},
+{
+["Raid Damage Done"] = {
+127353,
+["max_value"] = 127353,
+["__time"] = 1724109455,
+},
+},
+{
+["Raid Damage Done"] = {
+243559,
+["max_value"] = 243559,
+["__time"] = 1724109456,
+},
+},
+{
+["Raid Damage Done"] = {
+18909,
+["max_value"] = 18909,
+["__time"] = 1724109462,
+},
+},
+{
+["Raid Damage Done"] = {
+1752231,
+["max_value"] = 1752231,
+["__time"] = 1724109464,
+},
+},
+{
+["Raid Damage Done"] = {
+293405,
+["max_value"] = 293405,
+["__time"] = 1724109482,
+},
+},
+{
+["Raid Damage Done"] = {
+226787,
+229458,
+["max_value"] = 229458,
+["__time"] = 1724109486,
+},
+},
+{
+["Raid Damage Done"] = {
+147543,
+0,
+334297,
+1963106,
+0,
+["max_value"] = 1963106,
+["__time"] = 1724109492,
+},
+},
+{
+["Raid Damage Done"] = {
+114729,
+0,
+["max_value"] = 114729,
+["__time"] = 1724109497,
+},
+},
+{
+["Raid Damage Done"] = {
+56687,
+["max_value"] = 56687,
+["__time"] = 1724109573,
+},
+},
+{
+["Raid Damage Done"] = {
+7875,
+["max_value"] = 7875,
+["__time"] = 1724109575,
+},
+},
+{
+["Raid Damage Done"] = {
+5168,
+["max_value"] = 5168,
+["__time"] = 1724109577,
+},
+},
+{
+["Raid Damage Done"] = {
+11894,
+["max_value"] = 11894,
+["__time"] = 1724109578,
+},
+},
+{
+["Raid Damage Done"] = {
+4963,
+["max_value"] = 4963,
+["__time"] = 1724109579,
+},
+},
+{
+["Raid Damage Done"] = {
+18129,
+["max_value"] = 18129,
+["__time"] = 1724109580,
+},
+},
+{
+["Raid Damage Done"] = {
+7342,
+["max_value"] = 7342,
+["__time"] = 1724109582,
+},
+},
+{
+["Raid Damage Done"] = {
+4963,
+["max_value"] = 4963,
+["__time"] = 1724109583,
+},
+},
+{
+["Raid Damage Done"] = {
+10828,
+["max_value"] = 10828,
+["__time"] = 1724109584,
+},
+},
+{
+["Raid Damage Done"] = {
+32813,
+["max_value"] = 32813,
+["__time"] = 1724109585,
+},
+},
+{
+["Raid Damage Done"] = {
+75759,
+2022708,
+["max_value"] = 2022708,
+["__time"] = 1724109588,
+},
+},
+{
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+885673,
+56522,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+40320,
+261329,
+0,
+278884,
+0,
+0,
+0,
+269901,
+0,
+["max_value"] = 885673,
+["__time"] = 1724109684,
+},
+},
+},
+["encounter_spells"] = {
+},
+["emotes"] = {
+},
+}

@@ -15,11 +15,7 @@
 -- make into AceTimer.
 -- @class file
 -- @name AceTimer-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/HHTD/Libs/AceTimer-3.0/AceTimer-3.0.lua
--- @release $Id: AceTimer-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceTimer-3.0.lua 1342 2024-05-26 11:49:35Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LargerMacroIconSelection/Libs/AceTimer-3.0/AceTimer-3.0.lua
 
 local MAJOR, MINOR = "AceTimer-3.0", 17 -- Bump minor on changes
 local AceTimer, oldminor = LibStub:NewLibrary(MAJOR, MINOR)

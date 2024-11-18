@@ -2,9 +2,13 @@
 local QuestieTooltips = QuestieLoader:ImportModule("QuestieTooltips");
 local _QuestieTooltips = QuestieTooltips.private
 
-local lastGuid = nil;
+---@type l10n
+local l10n = QuestieLoader:ImportModule("l10n")
+
+local lastGuid
+
 function _QuestieTooltips:AddUnitDataToTooltip()
-    if (self.IsForbidden and self:IsForbidden()) or (not Questie.db.global.enableTooltips) then
+    if (self.IsForbidden and self:IsForbidden()) or (not Questie.db.profile.enableTooltips) then
         return
     end
 
@@ -14,18 +18,22 @@ function _QuestieTooltips:AddUnitDataToTooltip()
     if (not guid) then
         guid = UnitGUID("mouseover");
     end
-    local type, zero, server_id, instance_id, zone_uid, npcId, spawn_uid = strsplit("-", guid or "");
-    if name and type == "Creature" and (
+
+    local type, _, _, _, _, npcId, _ = strsplit("-", guid or "");
+
+    if name and (type == "Creature" or type == "Vehicle") and (
         name ~= QuestieTooltips.lastGametooltipUnit or
         (not QuestieTooltips.lastGametooltipCount) or
         _QuestieTooltips:CountTooltip() < QuestieTooltips.lastGametooltipCount or
         QuestieTooltips.lastGametooltipType ~= "monster" or
         lastGuid ~= guid
     ) then
-        --Questie:Debug(DEBUG_DEVELOP, "[QuestieTooltip] Unit Id on hover : ", npc_id);
         QuestieTooltips.lastGametooltipUnit = name
-        local tooltipData = QuestieTooltips:GetTooltip("m_" .. npcId);
+        local tooltipData = QuestieTooltips.GetTooltip("m_" .. npcId);
         if tooltipData then
+            if Questie.db.profile.enableTooltipsNPCID == true then
+                GameTooltip:AddDoubleLine("NPC ID", "|cFFFFFFFF" .. npcId .. "|r")
+            end
             for _, v in pairs (tooltipData) do
                 GameTooltip:AddLine(v)
             end
@@ -38,15 +46,14 @@ end
 
 local lastItemId = 0;
 function _QuestieTooltips:AddItemDataToTooltip()
-    if (self.IsForbidden and self:IsForbidden()) or (not Questie.db.global.enableTooltips) then
+    if (self.IsForbidden and self:IsForbidden()) or (not Questie.db.profile.enableTooltips) then
         return
     end
 
     local name, link = self:GetItem()
-    local itemId = nil;
+    local itemId
     if link then
-        local _, _, _, _, id, _, _, _, _, _, _, _, _, itemName = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-        itemId = id;
+        itemId = select(3, string.match(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?"))
     end
     if name and itemId and (
         name ~= QuestieTooltips.lastGametooltipItem or
@@ -57,9 +64,11 @@ function _QuestieTooltips:AddItemDataToTooltip()
         QuestieTooltips.lastFrameName ~= self:GetName()
     ) then
         QuestieTooltips.lastGametooltipItem = name
-        --Questie:Debug(DEBUG_DEVELOP, "[QuestieTooltip] Item Id on hover : ", itemId);
-        local tooltipData = QuestieTooltips:GetTooltip("i_" .. (itemId or 0));
+        local tooltipData = QuestieTooltips.GetTooltip("i_" .. (itemId or 0));
         if tooltipData then
+            if Questie.db.profile.enableTooltipsItemID == true then
+                GameTooltip:AddDoubleLine("Item ID", "|cFFFFFFFF" .. itemId .. "|r")
+            end
             for _, v in pairs (tooltipData) do
                 self:AddLine(v)
             end
@@ -71,37 +80,50 @@ function _QuestieTooltips:AddItemDataToTooltip()
     QuestieTooltips.lastFrameName = self:GetName();
 end
 
-function _QuestieTooltips:AddObjectDataToTooltip(name)
-    if (not Questie.db.global.enableTooltips) then
+function _QuestieTooltips.AddObjectDataToTooltip(name)
+    if (not Questie.db.profile.enableTooltips) or (not name) then
         return
     end
-    if name then
-        for index, gameObjectId in pairs(LangObjectNameLookup[name] or {}) do
-            local tooltipData = QuestieTooltips:GetTooltip("o_" .. gameObjectId);
-            if type(gameObjectId) == "number" and tooltipData then
-                --Questie:Debug(DEBUG_DEVELOP, "[QuestieTooltip] Object Id on hover : ", gameObjectId);
-                if tooltipData then
-                    for _, v in pairs (tooltipData) do
-                        GameTooltip:AddLine(v)
-                    end
+
+    local lookup = l10n.objectNameLookup[name] or {}
+    local count = table.getn(lookup)
+
+    if Questie.db.profile.enableTooltipsObjectID == true and count > 0 then
+        if count == 1 then
+            GameTooltip:AddDoubleLine("Object ID", "|cFFFFFFFF" .. lookup[1] .. "|r")
+        else
+            GameTooltip:AddDoubleLine("Object ID", "|cFFFFFFFF" .. lookup[1] .. " (" .. count .. ")|r")
+        end
+    end
+
+    local alreadyAddedObjectiveLines = {}
+    for _, gameObjectId in pairs(lookup) do
+        local tooltipData = QuestieTooltips.GetTooltip("o_" .. gameObjectId);
+
+        if tooltipData then
+            for _, line in pairs (tooltipData) do
+                if (not alreadyAddedObjectiveLines[line]) then
+                    alreadyAddedObjectiveLines[line] = true
+                    GameTooltip:AddLine(line)
                 end
-                break
             end
         end
-        GameTooltip:Show()
     end
+    GameTooltip:Show()
     QuestieTooltips.lastGametooltipType = "object";
 end
 
 function _QuestieTooltips:CountTooltip()
-    local tooltipcount = 0
-    for i = 1, 25 do -- Should probably use GameTooltip:NumLines() instead.
+    local tooltipCount = 0
+    for i = 1, GameTooltip:NumLines() do
         local frame = _G["GameTooltipTextLeft"..i]
         if frame and frame:GetText() then
-            tooltipcount = tooltipcount + 1
+            tooltipCount = tooltipCount + 1
         else
-            return tooltipcount
+            return tooltipCount
         end
     end
-    return tooltipcount
+    return tooltipCount
 end
+
+return _QuestieTooltips

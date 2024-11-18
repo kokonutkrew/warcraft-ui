@@ -1,12 +1,17 @@
 VGT_ADDON_NAME, VGT = ...
 VGT.VERSION = GetAddOnMetadata(VGT_ADDON_NAME, "Version")
-VGT.LIBS = LibStub("AceAddon-3.0"):NewAddon(VGT_ADDON_NAME, "AceComm-3.0", "AceTimer-3.0", "AceEvent-3.0")
+VGT.LIBS = LibStub("AceAddon-3.0"):NewAddon(VGT_ADDON_NAME,
+"AceComm-3.0", "AceTimer-3.0", "AceEvent-3.0")
 VGT.LIBS.HBD = LibStub("HereBeDragons-2.0")
 VGT.LIBS.HBDP = LibStub("HereBeDragons-Pins-2.0")
 VGT.CORE_FRAME = CreateFrame("Frame")
-VGT.CoreMessageReceived = EventHandler:New()
-
 local MODULE_NAME = "VGT-Core"
+
+local REQUEST_VERSION_MESSAGE = "ReqV";
+local RESPOND_VERSION_MESSAGE = "ResV";
+local RESPOND_VERSION_MESSAGE_LENGTH = string.len(RESPOND_VERSION_MESSAGE);
+local EnumeratingUsers = false;
+local users = {};
 
 -- ############################################################
 -- ##### LOCAL FUNCTIONS ######################################
@@ -35,51 +40,41 @@ local handleInstanceChangeEvent = function()
   end
 end
 
-local handleTargetChangeEvent = function()
-  if (UnitClassification("target") == "worldboss") then
-    local unitType, _, _, _, _, unitID = strsplit("-", cUID)
-    local bossData = VGT.bosses[unitID]
-    if (unitType == "creature" and bossData and VGT.CheckGroupForGuildies()) then
-      if (not VGT_LOTTERY_DB) then
-        VGT_LOTTERY_DB = {}
+-- ############################################################
+-- ##### GLOBAL FUNCTIONS #####################################
+-- ############################################################
+
+local warned = false
+local warnedPlayers = {}
+local handleCoreMessageReceivedEvent = function(prefix, message, _, sender)
+  if (prefix ~= MODULE_NAME) then
+    return
+  end
+
+  if (message == REQUEST_VERSION_MESSAGE) then
+    VGT.LIBS:SendCommMessage(MODULE_NAME, RESPOND_VERSION_MESSAGE..VGT.VERSION, "WHISPER", sender);
+  elseif (string.sub(message, 1, RESPOND_VERSION_MESSAGE_LENGTH) == RESPOND_VERSION_MESSAGE) then
+    users[sender] = string.sub(message, RESPOND_VERSION_MESSAGE_LENGTH + 1);
+  else
+    local playerName = UnitName("player")
+    if (sender == playerName) then
+      return
+    end
+
+    local event, version = strsplit(":", message)
+    if (event == "SYNCHRONIZATION_REQUEST") then
+      if (not warnedPlayers[sender] and version ~= nil and tonumber(version) < tonumber(VGT.VERSION)) then
+        VGT.LIBS:SendCommMessage(MODULE_NAME, "VERSION:"..VGT.VERSION, "WHISPER", sender)
+        warnedPlayers[sender] = true
       end
-
-      if (guildName) then
-        if (VGT_LOTTERY_DB[guildName]) then
-          VGT_LOTTERY_DB[guildName] = {}
-        end
-
-        local player = UnitName("player")
-        if (not VGT_LOTTERY_DB[guildName][player]) then
-          VGT_LOTTERY_DB[guildName][player] = {}
-        end
-
-         if (not VGT_LOTTERY_DB[guildName][player].WORLDBOSS) then
-          VGT_LOTTERY_DB[guildName][player].WORLDBOSS = {}
-        end
-
-        local bossName = bossData[1]
-        if (bossName == "Azuregos") then
-          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Azuregos = GetServerTime()
-        elseif (bossName == "Lord Kazzak") then
-           VGT_LOTTERY_DB[guildName][player].WORLDBOSS.LordKazzak = GetServerTime()
-        elseif (bossName == "Ysondre") then
-          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Ysondre = GetServerTime()
-        elseif (bossName == "Lethon") then
-          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Lethon = GetServerTime()
-        elseif (bossName == "Ermeriss") then
-          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Ermeriss = GetServerTime()
-        elseif (bossName == "Taerar") then
-          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Taerar = GetServerTime()
-        end
+    elseif (event == "VERSION") then
+      local myVersion = tonumber(VGT.VERSION)
+      local theirVersion = tonumber(version)
+      if (not warned and myVersion < theirVersion) then
+        VGT.Log(VGT.LOG_LEVEL.WARN, "there is a newer version of this addon (%s < %s)", myVersion, theirVersion)
+        warned = true
       end
     end
-  end
-end
-
-local handleCoreMessageReceivedEvent = function(prefix, message, _, sender)
-  if prefix == MODULE_NAME then
-    VGT.CoreMessageReceived(message, sender)
   end
 end
 
@@ -99,26 +94,25 @@ local function onEvent(_, event)
     end
     if (loaded) then
       if (event == "PLAYER_ENTERING_WORLD") then
-        handleInstanceChangeEvent()
+        handleInstanceChangeEvent(event)
         if (not entered) then
           GuildRoster()
-          VGT.VersionChecker:Check()
+          if (IsInGuild()) then
+            VGT.LIBS:SendCommMessage(MODULE_NAME, "SYNCHRONIZATION_REQUEST:"..VGT.VERSION, "GUILD")
+          end
           VGT.Log(VGT.LOG_LEVEL.TRACE, "initialized with version %s", VGT.VERSION)
           entered = true
         end
       end
       if (not rostered and event == "GUILD_ROSTER_UPDATE") then
+
         if (IsInGuild()) then
           VGT.EP_Initialize()
-          VGT.Lottery_Initialize()
           rostered = true
         end
       end
       if (event == "COMBAT_LOG_EVENT_UNFILTERED") then
-        VGT.HandleCombatLogEvent()
-      end
-      if (event == "PLAYER_TARGET_CHANGED") then
-        handleTargetChangeEvent()
+        VGT.HandleCombatLogEvent(event)
       end
     end
   end
@@ -131,11 +125,3 @@ VGT.CORE_FRAME:RegisterEvent("PLAYER_ENTERING_WORLD")
 VGT.CORE_FRAME:RegisterEvent("GUILD_ROSTER_UPDATE")
 VGT.CORE_FRAME:RegisterEvent("PLAYER_LOGOUT")
 VGT.CORE_FRAME:SetScript("OnEvent", onEvent)
-
--- ############################################################
--- ##### GLOBAL FUNCTIONS #####################################
--- ############################################################
-
-function VGT:SendCoreMessage(message, channel, target)
-  self.LIBS:SendCommMessage(MODULE_NAME, message, channel, target)
-end

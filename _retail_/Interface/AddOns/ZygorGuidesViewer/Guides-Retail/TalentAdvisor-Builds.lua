@@ -85,9 +85,10 @@ ZGV.TalentAdvisor.Builds = {
 				Red Thirst##205723
 			]],
 			herolefttalents=[[
+				Reaper's Mark##439843
 				Wave of Souls##439851
 				Soul Rupture##437161
-				Swift and Painful##443560
+				Swift End##443560
 				Exterminate##441378
 				Blood Fever##440002
 				Grim Reaper##434905
@@ -182,16 +183,16 @@ ZGV.TalentAdvisor.Builds = {
 				Bloodshot##391398
 			]],
 			herolefttalents = [[
-			Wave of Souls##439851
-			Soul Rupture##437161
-			Swift and Painful##443560
-			Exterminate##441378
-			Wither Away##441894
-			Grim Reaper##434905
-			Dark Talons##436687
-			Bind in Darkness##440031
-			Rune Carved Plates##440282
-			Death's Messenger##437122
+				Wave of Souls##439851
+				Blood Fever##440002
+				Bind in Darkness##440031
+				Soul Rupture##437161
+				Grim Reaper##434905
+				Rune Carved Plates##440282
+				Painful Death##443564
+				Wither Away##441894
+				Death's Messenger##437122
+				Exterminate##441378
 			]],
 			herorighttalents = [[
 			]],
@@ -268,16 +269,16 @@ ZGV.TalentAdvisor.Builds = {
 				Bloodshot##391398
 			]],
 			herolefttalents = [[
-			Wave of Souls##439851
-			Soul Rupture##437161
-			Swift and Painful##443560
-			Exterminate##441378
-			Wither Away##441894
-			Grim Reaper##434905
-			Dark Talons##436687
-			Bind in Darkness##440031
-			Rune Carved Plates##440282
-			Death's Messenger##437122
+				Wave of Souls##439851
+				Blood Fever##440002
+				Bind in Darkness##440031
+				Soul Rupture##437161
+				Grim Reaper##434905
+				Rune Carved Plates##440282
+				Painful Death##443564
+				Wither Away##441894
+				Death's Messenger##437122
+				Exterminate##441378
 			]],
 			herorighttalents = [[
 			]],
@@ -530,16 +531,16 @@ ZGV.TalentAdvisor.Builds = {
 				The Long Winter##456240
 			]],
 			herolefttalents = [[
-			Wave of Souls##439851
-			Soul Rupture##437161
-			Swift and Painful##443560
-			Exterminate##441378
-			Wither Away##441894
-			Grim Reaper##434905
-			Dark Talons##436687
-			Bind in Darkness##440031
-			Rune Carved Plates##440282
-			Death's Messenger##437122
+				Wave of Souls##439851
+				Blood Fever##440002
+				Bind in Darkness##440031
+				Soul Rupture##437161
+				Grim Reaper##434905
+				Rune Carved Plates##440282
+				Painful Death##443564
+				Dark Talons##436687
+				Death's Messenger##437122
+				Exterminate##441378
 			]],
 			herorighttalents = [[
 			]],
@@ -1258,69 +1259,71 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = true, 
 			ident = "druid_bala_leveling",
 			classtalents=[[
+				Starsurge##78674
 				Sunfire##93402
 				Improved Sunfire##231050
-				Nurturing Instinct##33873
-				Nurturing Instinct##33873
-				Rejuvenation##774
-				Improved Barkskin##327993
 				Frenzied Regeneration##22842
+				Improved Barkskin##327993
 				Verdant Heart##301768
 				Ironfur##192081
+				Nurturing Instinct##33873
+				Nurturing Instinct##33873
 				Astral Influence##197524
-				Renewal##108238
 				Starlight Conduit##451211
-				Typhoon##132469
-				Rising Light, Falling Night##417712
+				Thick Hide##16931
+				Ursoc's Spirit
+				Wild Charge##102401
+				Matted Fur##385786
+				Instincts of the Claw##449184
+				Instincts of the Claw##449184
+				Oakskin##449191
+				Incapacitating Roar##99
+				Well-Honed Instincts##377847
 				Ursol's Vortex##102793
 				Soothe##2908
 				Stampeding Roar##106898
-				Thick Hide##16931
-				Wild Charge##102401
-				Ursine Vigor##377842
+				Lycara's Teachings##378988
+				Lycara's Teachings##378988
+				Renewal##108238
+				Rising Light, Falling Night##417712
 				Lore of the Grove##449185
 				Lore of the Grove##449185
 				Innervate##29166
 				Nature's Vigil##124974
-				Instincts of the Claw##449184
-				Instincts of the Claw##449184
-				Oakskin##449191
-				Well-Honed Instincts##377847
-				Lycara's Teachings##378988
-				Lycara's Teachings##378988
-				Wild Growth##48438
+				Typhoon##132469
+				Starfire##194153
 			]],
 			spectalents=[[
 				Eclipse##79577
 				Solar Beam##78675
-				Twin Moons##279620
-				Force of Nature##205636
+				Starfall##191034
 				Shooting Stars##202342
 				Solstice##343647
+				Force of Nature##205636
+				Nature's Balance##202430
 				Wild Surges##406890
-				Nature's Grace##450347
+				Twin Moons##279620
+				Aetherial Kindling##327541
 				Celestial Alignment##194223
-				Astral Smolder##394058
-				Umbral Intensity##383195
-				Starlord##202345
-				Starlord##202345
 				Orbital Strike##390378
-				Umbral Embrace##393760
-				Astronomical Impact##468960
+				Astral Smolder##394058
+				Waning Twilight##393956
 				Soul of the Forest##114107
+				Nature's Grace##450347
 				Cosmic Rapidity##400059
 				Cosmic Rapidity##400059
-				Sunseeker Mushroom##468936
-				Rattle the Stars##393954
-				Umbral Inspiration##450418
-				Convoke the Spirits##391528
-				Sundered Firmament##394094
+				Balance of All Things##394048
+				Balance of All Things##394048
+				Incarnation: Chosen of Elune##102560
+				Elune's Guidance##393991
+				Wild Mushroom##88747
 				Harmony of the Heavens##450558
 				Denizen of the Dream##394065
-				Balance of All Things##394048
-				Balance of All Things##394048
-				Waning Twilight##393956
-				Aetherial Kindling##327541
+				Starlord##202345
+				Starlord##202345
+				Rattle the Stars##393954
+				Fury of Elune##202770
+				Radiant Moonlight##394121
 			]],
 			herolefttalents=[[
 				Moon Guardian##429520
@@ -1342,75 +1345,77 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Balance (M+)",
 			spec = 1,
-			hero = "left",
+			hero = "right",
 			ident = "druid_bala_dungeon",
 			suggested = false, 
 			classtalents = [[
-				Frenzied Regeneration##22842
-				Rejuvenation##774
-				Improved Barkskin##327993
-				Remove Corruption##2782
-				Ironfur##192081
-				Verdant Heart##301768
-				Sunfire##93402
-				Nurturing Instinct##33873
-				Nurturing Instinct##33873
-				Improved Sunfire##231050
-				Thick Hide##16931
-				Ursol's Vortex##102793
-				Astral Influence##197524
-				Wild Charge##102401
-				Soothe##2908
-				Renewal##108238
-				Starlight Conduit##451211
-				Matted Fur##385786
-				Ursine Vigor##377842
-				Rising Light, Falling Night##417712
-				Typhoon##132469
-				Stampeding Roar##106898
-				Instincts of the Claw##449184
-				Instincts of the Claw##449184
-				Lycara's Teachings##378988
-				Lycara's Teachings##378988
-				Lore of the Grove##449185
-				Lore of the Grove##449185
-				Oakskin##449191
-				Incapacitating Roar##99
-				Well-Honed Instincts##377847
+			Frenzied Regeneration##22842
+			Rejuvenation##774
+			Improved Barkskin##327993
+			Remove Corruption##2782
+			Ironfur##192081
+			Sunfire##93402
+			Nurturing Instinct##33873
+			Nurturing Instinct##33873
+			Improved Sunfire##231050
+			Thick Hide##16931
+			Ursol's Vortex##102793
+			Astral Influence##197524
+			Wild Charge##102401
+			Soothe##2908
+			Renewal##108238
+			Starlight Conduit##451211
+			Ursine Vigor##377842
+			Ursoc's Spirit##449182
+			Rising Light, Falling Night##417712
+			Typhoon##132469
+			Stampeding Roar##106898
+			Instincts of the Claw##449184
+			Instincts of the Claw##449184
+			Lycara's Teachings##378988
+			Lycara's Teachings##378988
+			Lore of the Grove##449185
+			Lore of the Grove##449185
+			Oakskin##449191
+			Innervate##29166
+			Well-Honed Instincts##377847
+			Nature's Vigil##124974
 			]],
 			spectalents = [[
-				Eclipse##79577
-				Shooting Stars##202342
-				Solar Beam##78675
-				Solstice##343647
-				Warrior of Elune##202425
-				Twin Moons##279620
-				Wild Surges##406890
-				Nature's Grace##450347
-				Aetherial Kindling##327541
-				Astral Smolder##394058
-				Celestial Alignment##194223
-				Umbral Intensity##383195
-				Soul of the Forest##114107
-				Orbital Strike##390378
-				Stellar Amplification##450212
-				Astronomical Impact##468960
-				Cosmic Rapidity##400059
-				Cosmic Rapidity##400059
-				Umbral Embrace##393760
-				Starlord##202345
-				Starlord##202345
-				Waning Twilight##393956
-				Sundered Firmament##394094
-				Balance of All Things##394048
-				Balance of All Things##394048
-				Umbral Inspiration##450418
-				Rattle the Stars##393954
-				Fury of Elune##202770
-				Harmony of the Heavens##450558
-				Radiant Moonlight##394121
+			Eclipse##79577
+			Shooting Stars##202342
+			Solar Beam##78675
+			Solstice##343647
+			Warrior of Elune##202425
+			Starfall##191034
+			Wild Surges##406890
+			Twin Moons##279620
+			Aetherial Kindling##327541
+			Astral Smolder##394058
+			Celestial Alignment##194223
+			Umbral Intensity##383195
+			Umbral Intensity##383195
+			Soul of the Forest##114107
+			Orbital Strike##390378
+			Nature's Grace##450347
+			Waning Twilight##393956
+			Lunar Shrapnel##415169
+			Cosmic Rapidity##400059
+			Cosmic Rapidity##400059
+			Umbral Embrace##393760
+			Starlord##202345
+			Starlord##202345
+			Sundered Firmament##394094
+			Balance of All Things##394048
+			Balance of All Things##394048
+			Umbral Inspiration##450418
+			Rattle the Stars##393954
+			Fury of Elune##202770
+			Radiant Moonlight##394121
 			]],
 			herolefttalents = [[
+			]],
+			herorighttalents = [[
 			Moon Guardian##429520
 			Lunar Insight##429530
 			Glistening Fur##429533
@@ -1421,9 +1426,6 @@ ZGV.TalentAdvisor.Builds = {
 			The Light of Elune##428655
 			Lunation##429539
 			The Eternal Moon##424113
-			]],
-			herorighttalents = [[
-
 			]],
 		},
 		{
@@ -1688,89 +1690,89 @@ ZGV.TalentAdvisor.Builds = {
 			]],
 		},
 		{
-			name = "Balance (Raid)",
+			name = "Boomkin (Raid)",
 			spec = 1,
 			hero = "right",
 			ident = "druid_bala_raid",
 			suggested = false, 
 			classtalents = [[
-				Frenzied Regeneration##22842
-				Improved Barkskin##327993
-				Ironfur##192081
-				Verdant Heart##301768
-				Sunfire##93402
-				Nurturing Instinct##33873
-				Nurturing Instinct##33873
-				Improved Sunfire##231050
-				Thick Hide##16931
-				Ursol's Vortex##102793
-				Natural Recovery##377796
-				Astral Influence##197524
-				Wild Charge##102401
-				Soothe##2908
-				Renewal##108238
-				Starlight Conduit##451211
-				Matted Fur##385786
-				Ursoc's Spirit##449182
-				Rising Light, Falling Night##417712
-				Typhoon##132469
-				Stampeding Roar##106898
-				Instincts of the Claw##449184
-				Instincts of the Claw##449184
-				Lycara's Teachings##378988
-				Lycara's Teachings##378988
-				Lore of the Grove##449185
-				Lore of the Grove##449185
-				Oakskin##449191
-				Innervate##29166
-				Well-Honed Instincts##377847
-				Nature's Vigil##124974
+			Frenzied Regeneration##22842
+			Improved Barkskin##327993
+			Ironfur##192081
+			Verdant Heart##301768
+			Sunfire##93402
+			Nurturing Instinct##33873
+			Nurturing Instinct##33873
+			Improved Sunfire##231050
+			Thick Hide##16931
+			Ursol's Vortex##102793
+			Natural Recovery##377796
+			Astral Influence##197524
+			Wild Charge##102401
+			Soothe##2908
+			Renewal##108238
+			Starlight Conduit##451211
+			Matted Fur##385786
+			Ursine Vigor##377842
+			Rising Light, Falling Night##417712
+			Typhoon##132469
+			Stampeding Roar##106898
+			Instincts of the Claw##449184
+			Instincts of the Claw##449184
+			Lycara's Teachings##378988
+			Lycara's Teachings##378988
+			Lore of the Grove##449185
+			Lore of the Grove##449185
+			Oakskin##449191
+			Innervate##29166
+			Well-Honed Instincts##377847
+			Nature's Vigil##124974
 			]],
 			spectalents = [[
-				Eclipse##79577
-				Shooting Stars##202342
-				Solar Beam##78675
-				Solstice##343647
-				Force of Nature##205636
-				Stellar Flare##202347
-				Nature's Balance##202430
-				Nature's Grace##450347
-				Astral Smolder##394058
-				Celestial Alignment##194223
-				Umbral Intensity##383195
-				Whirling Stars##468743
-				Sunseeker Mushroom##468936
-				Stellar Amplification##450212
-				Astronomical Impact##468960
-				Cosmic Rapidity##400059
-				Cosmic Rapidity##400059
-				Umbral Embrace##393760
-				Starlord##202345
-				Starlord##202345
-				Waning Twilight##393956
-				Sundered Firmament##394094
-				Balance of All Things##394048
-				Balance of All Things##394048
-				Umbral Inspiration##450418
-				Rattle the Stars##393954
-				Convoke the Spirits##391528
-				New Moon##274281
-				Harmony of the Heavens##450558
-				Denizen of the Dream##394065
+			Eclipse##79577
+			Shooting Stars##202342
+			Solar Beam##78675
+			Solstice##343647
+			Force of Nature##205636
+			Starfall##191034
+			Wild Surges##406890
+			Twin Moons##279620
+			Aetherial Kindling##327541
+			Astral Smolder##394058
+			Celestial Alignment##194223
+			Umbral Intensity##383195
+			Umbral Intensity##383195
+			Soul of the Forest##114107
+			Orbital Strike##390378
+			Nature's Grace##450347
+			Waning Twilight##393956
+			Lunar Shrapnel##415169
+			Cosmic Rapidity##400059
+			Cosmic Rapidity##400059
+			Umbral Embrace##393760
+			Starlord##202345
+			Starlord##202345
+			Balance of All Things##394048
+			Balance of All Things##394048
+			Umbral Inspiration##450418
+			Rattle the Stars##393954
+			Incarnation: Chosen of Elune##102560
+			Harmony of the Heavens##450558
+			Elune's Guidance##393991
 			]],
 			herolefttalents = [[
 			]],
 			herorighttalents = [[
-				Treants of the Moon##428544
-				Power of Nature##428859
-				Early Spring##428937
-				Harmony of the Grove##428731
-				Expansiveness##429399
-				Cenarius' Might##455797
-				Control of the Dream##434249
-				Protective Growth##433748
-				Grove's Inspiration##429402
-				Blooming Infusion##429433
+			Moon Guardian##429520
+			Lunar Insight##429530
+			Glistening Fur##429533
+			Lunar Amplification##429529
+			Atmospheric Exposure##429532
+			Moondust##429538
+			Lunar Calling##429523
+			The Light of Elune##428655
+			Lunation##429539
+			The Eternal Moon##424113
 			]],
 		},
 		{
@@ -1811,7 +1813,7 @@ ZGV.TalentAdvisor.Builds = {
 				Lycara's Teachings##378988
 				Improved Stampeding Roar##288826
 				Heart of the Wild##319454
-				Lore of the Grove##449185
+				Frenzied Regeneration##22842
 			]],
 			spectalents=[[
 				Maul##6807
@@ -2037,73 +2039,73 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Restoration (Leveling)",
 			spec = 4,
-			hero = "right",
+			hero = "left",
 			suggested = true, 
 			ident = "druid_resto_leveling",
 			classtalents=[[
+				Wild Growth##48438
 				Starfire##197628
 				Sunfire##93402
 				Improved Sunfire##231050
 				Nurturing Instinct##33873
 				Nurturing Instinct##33873
 				Rake##1822
+				Feline Swiftness##131768
 				Rip##1079
-				Improved Nature's Cure##392378
+				Thrash##106832
+				Killer Instinct##108299
+				Killer Instinct##108299
+				Skull Bash##106839
 				Ursol's Vortex##102793
-				Astral Influence##197524
-				Renewal##108238
-				Natural Recovery##377796
-				Improved Rejuvenation##231040
 				Soothe##2908
 				Stampeding Roar##106898
-				Killer Instinct##108299
-				Killer Instinct##108299
 				Tiger Dash##252216
-				Skull Bash##106839
-				Primal Fury##159286
+				Natural Recovery##377796
+				Renewal##108238
 				Rising Light, Falling Night##417712
+				Matted Fur##385786
+				Primal Fury##159286
 				Lycara's Teachings##378988
 				Lycara's Teachings##378988
-				Improved Stampeding Roar##288826
+				Fluid Form##449193
 				Heart of the Wild##319454
 				Lore of the Grove##449185
 				Lore of the Grove##449185
-				Innervate##29166
-				Nature's Vigil##124974
-				Forestwalk##400129
-				Thick Hide##16931
+				Instincts of the Claw##449184
+				Instincts of the Claw##449184
+				Oakskin##449191
+				Rejuvenation##774
 			]],
 			spectalents=[[
 				Lifebloom##33763
+				Omen of Clarity##113043
+				Flash of Clarity##392220
+				Cenarion Ward##102351
 				Nature's Swiftness##132158
 				Ysera's Gift##145108
 				Grove Tending##383192
-				Flash of Clarity##392220
-				Cenarion Ward##102351
 				Improved Regrowth##231032
-				Wildwood Roots##470549
 				Ironbark##102342
-				Cultivation##200390
-				Harmonious Blooming##392256
 				Efflorescence##145205
 				Grove Guardians##102693
-				Renewing Surge##470562
-				Soul of the Forest##158478
+				Wild Synthesis##400533
+				Tranquility##740
+				Harmonious Blooming##392256
+				Harmonious Blooming##392256
+				Cultivation##200390
+				Improved Ironbark##382552
 				Verdancy##392325
 				Rampant Growth##404521
-				Wild Synthesis##400533
-				Improved Ironbark##382552
-				Regenerative Heartwood##392116
 				Convoke the Spirits##391528
 				Cenarius' Guidance##393371
 				Master Shapeshifter##289237
-				Photosynthesis##274902
-				Verdant Infusion##392410
 				Call of the Elder Druid##426784
 				Dream of Cenarius##158504
+				Photosynthesis##274902
 				Budding Leaves##392167
 				Budding Leaves##392167
-				Thriving Vegetation##447131
+				Regenerative Heartwood##392116
+				Verdant Infusion##392410
 			]],
 			herolefttalents=[[
 				Expansiveness##429399
@@ -2120,16 +2122,6 @@ ZGV.TalentAdvisor.Builds = {
 				Dream Surge##433831
 			]],
 			herorighttalents=[[
-			Hunt Beneath the Open Skies##439868
-			Lethal Preservation##455461
-			Resilient Flourishing##439880
-			Vigorous Creepers##440119
-			Strategic Infusion##439890
-			Flower Walk##439901
-			Bursting Growth##440120
-			Wildstalker's Power##439926
-			Harmonious Constitution##440116
-			Implant##440118
 			]],
 		},
 		{
@@ -2139,157 +2131,73 @@ ZGV.TalentAdvisor.Builds = {
 			ident = "druid_resto_dungeon",
 			suggested = false, 
 			classtalents = [[
-				Rake##1822
-				Starfire##197628
-				Improved Nature's Cure##392378
-				Rip##1079
-				Sunfire##93402
-				Killer Instinct##108299
-				Killer Instinct##108299
-				Nurturing Instinct##33873
-				Nurturing Instinct##33873
-				Improved Sunfire##231050
-				Skull Bash##106839
-				Thick Hide##16931
-				Ursol's Vortex##102793
-				Wild Charge##102401
-				Cyclone##33786
-				Renewal##108238
-				Matted Fur##385786
-				Rising Light, Falling Night##417712
-				Stampeding Roar##106898
-				Improved Rejuvenation##231040
-				Instincts of the Claw##449184
-				Instincts of the Claw##449184
-				Lycara's Teachings##378988
-				Lycara's Teachings##378988
-				Lore of the Grove##449185
-				Lore of the Grove##449185
-				Oakskin##449191
-				Incapacitating Roar##99
-				Improved Stampeding Roar##288826
-				Well-Honed Instincts##377847
-				Heart of the Wild##319454
+			Rake##1822
+			Starfire##197628
+			Improved Nature's Cure##392378
+			Rip##1079
+			Sunfire##93402
+			Killer Instinct##108299
+			Killer Instinct##108299
+			Nurturing Instinct##33873
+			Nurturing Instinct##33873
+			Improved Sunfire##231050
+			Skull Bash##106839
+			Thick Hide##16931
+			Ursol's Vortex##102793
+			Primal Fury##159286
+			Wild Charge##102401
+			Soothe##2908
+			Renewal##108238
+			Matted Fur##385786
+			Rising Light, Falling Night##417712
+			Stampeding Roar##106898
+			Instincts of the Claw##449184
+			Instincts of the Claw##449184
+			Lycara's Teachings##378988
+			Lycara's Teachings##378988
+			Lore of the Grove##449185
+			Lore of the Grove##449185
+			Oakskin##449191
+			Incapacitating Roar##99
+			Fluid Form##449193
+			Well-Honed Instincts##377847
+			Heart of the Wild##319454
 			]],
 			spectalents = [[
-				Lifebloom##33763
-				Ysera's Gift##145108
-				Nature's Swiftness##132158
-				Flash of Clarity##392220
-				Grove Tending##383192
-				Cenarion Ward##102351
-				Improved Regrowth##231032
-				Wildwood Roots##470549
-				Efflorescence##145205
-				Ironbark##102342
-				Grove Guardians##102693
-				Soul of the Forest##158478
-				Renewing Surge##470562
-				Cultivation##200390
-				Improved Ironbark##382552
-				Verdancy##392325
-				Rampant Growth##404521
-				Wild Synthesis##400533
-				Harmonious Blooming##392256
-				Regenerative Heartwood##392116
-				Spring Blossoms##207385
-				Verdant Infusion##392410
-				Convoke the Spirits##391528
-				Cenarius' Guidance##393371
-				Thriving Vegetation##447131
-				Liveliness##426702
-				Forest's Flow##470581
-				Photosynthesis##274902
-				Undergrowth##392301
-				Germination##155675
+			Lifebloom##33763
+			Ysera's Gift##145108
+			Nature's Swiftness##132158
+			Omen of Clarity##113043
+			Grove Tending##383192
+			Flash of Clarity##392220
+			Improved Regrowth##231032
+			Cenarion Ward##102351
+			Efflorescence##145205
+			Ironbark##102342
+			Grove Guardians##102693
+			Soul of the Forest##158478
+			Cultivation##200390
+			Improved Ironbark##382552
+			Verdancy##392325
+			Rampant Growth##404521
+			Wild Synthesis##400533
+			Harmonious Blooming##392256
+			Harmonious Blooming##392256
+			Regenerative Heartwood##392116
+			Spring Blossoms##207385
+			Verdant Infusion##392410
+			Convoke the Spirits##391528
+			Cenarius' Guidance##393371
+			Liveliness##426702
+			Budding Leaves##392167
+			Budding Leaves##392167
+			Photosynthesis##274902
+			Undergrowth##392301
+			Reforestation##392356
 			]],
 			herolefttalents = [[
 			]],
 			herorighttalents = [[
-			Hunt Beneath the Open Skies##439868
-			Lethal Preservation##455461
-			Resilient Flourishing##439880
-			Vigorous Creepers##440119
-			Strategic Infusion##439890
-			Flower Walk##439901
-			Bursting Growth##440120
-			Wildstalker's Power##439926
-			Harmonious Constitution##440116
-			Implant##440118
-			]],
-		},
-		{
-			name = "Restoration (Raid)",
-			spec = 4,
-			hero = "left",
-			ident = "druid_resto_raid",
-			suggested = false, 
-			classtalents = [[
-				Rake##1822
-				Frenzied Regeneration##22842
-				Starfire##197628
-				Feline Swiftness##131768
-				Improved Barkskin##327993
-				Starsurge##197626
-				Ironfur##192081
-				Verdant Heart##301768
-				Nurturing Instinct##33873
-				Nurturing Instinct##33873
-				Thick Hide##16931
-				Ursol's Vortex##102793
-				Natural Recovery##377796
-				Astral Influence##197524
-				Wild Charge##102401
-				Cyclone##33786
-				Renewal##108238
-				Matted Fur##385786
-				Ursine Vigor##377842
-				Rising Light, Falling Night##417712
-				Stampeding Roar##106898
-				Improved Rejuvenation##231040
-				Lycara's Teachings##378988
-				Lycara's Teachings##378988
-				Lore of the Grove##449185
-				Lore of the Grove##449185
-				Improved Stampeding Roar##288826
-				Forestwalk##400129
-				Innervate##29166
-				Heart of the Wild##319454
-				Nature's Vigil##124974
-			]],
-			spectalents = [[
-				Lifebloom##33763
-				Ysera's Gift##145108
-				Nature's Swiftness##132158
-				Flash of Clarity##392220
-				Grove Tending##383192
-				Twinleaf##470540
-				Abundance##207383
-				Wildwood Roots##470549
-				Efflorescence##145205
-				Tranquility##740
-				Ironbark##102342
-				Grove Guardians##102693
-				Improved Wild Growth##328025
-				Soul of the Forest##158478
-				Dreamstate##392162
-				Cultivation##200390
-				Improved Ironbark##382552
-				Rampant Growth##404521
-				Wild Synthesis##400533
-				Regenerative Heartwood##392116
-				Spring Blossoms##207385
-				Verdant Infusion##392410
-				Incarnation: Tree of Life##33891
-				Cenarius' Guidance##393371
-				Thriving Vegetation##447131
-				Thriving Vegetation##447131
-				Master Shapeshifter##289237
-				Flourish##197721
-				Reforestation##392356
-				Germination##155675
-			]],
-			herolefttalents = [[
 			Power of Nature##428859
 			Grove's Inspiration##429402
 			Power of the Dream##434220
@@ -2301,7 +2209,91 @@ ZGV.TalentAdvisor.Builds = {
 			Treants of the Moon##428544
 			Protective Growth##433748
 			]],
+		},
+		{
+			name = "Restoration (Raid)",
+			spec = 4,
+			hero = "right",
+			ident = "druid_resto_raid",
+			suggested = false, 
+			classtalents = [[
+			Rake##1822
+			Frenzied Regeneration##22842
+			Starfire##197628
+			Feline Swiftness##131768
+			Improved Barkskin##327993
+			Starsurge##197626
+			Ironfur##192081
+			Verdant Heart##301768
+			Nurturing Instinct##33873
+			Nurturing Instinct##33873
+			Thick Hide##16931
+			Ursol's Vortex##102793
+			Natural Recovery##377796
+			Astral Influence##197524
+			Wild Charge##102401
+			Cyclone##33786
+			Renewal##108238
+			Matted Fur##385786
+			Ursine Vigor##377842
+			Rising Light, Falling Night##417712
+			Stampeding Roar##106898
+			Improved Rejuvenation##231040
+			Lycara's Teachings##378988
+			Lycara's Teachings##378988
+			Lore of the Grove##449185
+			Lore of the Grove##449185
+			Improved Stampeding Roar##288826
+			Forestwalk##400129
+			Innervate##29166
+			Heart of the Wild##319454
+			Nature's Vigil##124974
+			]],
+			spectalents = [[
+			Lifebloom##33763
+			Ysera's Gift##145108
+			Nature's Swiftness##132158
+			Omen of Clarity##113043
+			Grove Tending##383192
+			Flash of Clarity##392220
+			Abundance##207383
+			Tranquil Mind##403521
+			Efflorescence##145205
+			Tranquility##740
+			Ironbark##102342
+			Grove Guardians##102693
+			Improved Wild Growth##328025
+			Soul of the Forest##158478
+			Dreamstate##392162
+			Cultivation##200390
+			Improved Ironbark##382552
+			Rampant Growth##404521
+			Wild Synthesis##400533
+			Regenerative Heartwood##392116
+			Spring Blossoms##207385
+			Prosperity##200383
+			Incarnation: Tree of Life##33891
+			Cenarius' Guidance##393371
+			Thriving Vegetation##447131
+			Thriving Vegetation##447131
+			Master Shapeshifter##289237
+			Flourish##197721
+			Reforestation##392356
+			Germination##155675
+			]],
+			herolefttalents = [[
+			]],
 			herorighttalents = [[
+			Power of Nature##428859
+			Grove's Inspiration##429402
+			Power of the Dream##434220
+			Bounteous Bloom##429215
+			Harmony of the Grove##428731
+			Cenarius' Might##455797
+			Expansiveness##429399
+			Blooming Infusion##429433
+			Treants of the Moon##428544
+			Protective Growth##433748
 			]],
 		},
 	},
@@ -3111,69 +3103,70 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = true, 
 			ident = "hunt_bm_leveling",
 			classtalents=[[
-				Natural Mending##270581
 				Posthaste##109215
-				Rejuvenating Wind##385539
 				Hunter's Avoidance##384799
-				Deathblow##343248
+				Natural Mending##270581
+				Rejuvenating Wind##385539
 				Wilderness Medicine##343242
-				Tar Trap##187698
-				Tranquilizing Shot##19801
 				Survival of the Fittest##264735
+				Tranquilizing Shot##19801
 				Counter Shot##147362
-				Kodo Tranquilizer##459983
-				Misdirection##34477
-				Padded Armor##459450
-				Lone Survivor##388039
 				Specialized Arsenal##459542
-				Disruptive Rounds##343244
-				No Hard Feelings##459546
+				Explosive Shot##212431
+				Lone Survivor##388039
 				Intimidation##19577
-				Binding Shot##109248
-				Trigger Finger##459534
-				Trigger Finger##459534
+				Padded Armor##459450
 				Keen Eyesight##378004
 				Keen Eyesight##378004
-				Pathfinding##378002
+				Trigger Finger##459534
+				Trigger Finger##459534
+				Blackrock Munitions##462036
+				Misdirection##34477
+				No Hard Feelings##459546
 				Binding Shackles##321468
-				Camouflage##199483
+				Pathfinding##378002
 				Trailblazer##199921
-				Serrated Tips##459502
+				Moment of Opportunity##459488
 				Born To Be Wild##266921
-				Emergency Salve##459517
 				Unnatural Causes##459527
+				Implosive Trap##462031
+				Binding Shot##109248
+				Scrappy##459533
+				Serrated Tips##459502
+				Camouflage##199483
+				Kill Shot##53351
 			]],
 			spectalents=[[
 				Kill Command##34026
-				Cobra Shot##193455
-				Animal Companion##267116
 				Barbed Shot##217200
+				Cobra Shot##193455
+				Aspect of the Beast##191384
 				Pack Tactics##321014
-				War Orders##393933
 				Thrill of the Hunt##257944
+				War Orders##393933
 				Go for the Throat##459550
-				Multi-Shot##2643
-				Laceration##459552
-				Beast Cleave##115939
+				Animal Companion##267116
 				Alpha Predator##269737
-				Hunter's Prey##378210
-				Venom's Bite##459565
+				Multi-Shot##2643
+				Beast Cleave##115939
 				Kill Cleave##378207
-				Dire Beast##120679
-				Stomp##199530
 				Bestial Wrath##19574
-				Huntmaster's Call##459730
-				Dire Frenzy##385810
+				Stomp##199530
+				Barrage##120360
+				Training Expert##378209
+				Training Expert##378209
 				Savagery##424557
-				Dire Command##378743
-				Killer Instinct##273887
-				Killer Instinct##273887
+				Improved Kill Command##378010
 				Barbed Wrath##231548
+				Killer Instinct##273887
+				Killer Instinct##273887
 				Call of the Wild##359844
-				Killer Cobra##199532
-				Brutal Companion##386870
 				Bloody Frenzy##407412
+				Scent of Blood##193532
 				Piercing Fangs##392053
+				Brutal Companion##386870
+				Master Handler##424558
+				Killer Cobra##199532
 			]],
 			herolefttalents=[[
 			]],
@@ -3202,20 +3195,21 @@ ZGV.TalentAdvisor.Builds = {
 				Posthaste##109215
 				Rejuvenating Wind##385539
 				Hunter's Avoidance##384799
-				Deathblow##343248
+				Improved Kill Shot##343248
 				Tar Trap##187698
 				Tranquilizing Shot##19801
 				Survival of the Fittest##264735
 				Counter Shot##147362
-				Kodo Tranquilizer##459983
 				Padded Armor##459450
 				Lone Survivor##388039
 				Specialized Arsenal##459542
 				Disruptive Rounds##343244
 				Intimidation##19577
+				Explosive Shot##212431
 				Binding Shot##109248
 				Trigger Finger##459534
 				Trigger Finger##459534
+				Blackrock Munitions##462036
 				Keen Eyesight##378004
 				Keen Eyesight##378004
 				Tar-Coated Bindings##459460
@@ -3226,7 +3220,6 @@ ZGV.TalentAdvisor.Builds = {
 				Serrated Tips##459502
 				Moment of Opportunity##459488
 				Born To Be Wild##266921
-				Emergency Salve##459517
 				Implosive Trap##462031
 				Unnatural Causes##459527
 			]],
@@ -3244,6 +3237,7 @@ ZGV.TalentAdvisor.Builds = {
 				Wild Call##185789
 				Venom's Bite##459565
 				Training Expert##378209
+				Training Expert##378209
 				Dire Beast##120679
 				Stomp##199530
 				A Murder of Crows##459760
@@ -3259,29 +3253,28 @@ ZGV.TalentAdvisor.Builds = {
 				Basilisk Collar##459571
 				Call of the Wild##359844
 				Killer Cobra##199532
-				Wild Instincts##378442
 				Piercing Fangs##392053
 			]],
 			herolefttalents = [[
 			]],
 			herorighttalents = [[
-				Pack Coordination##445505
-				Howl of the Pack##445707
-				Wild Attacks##445708
-				Den Recovery##445710
-				Tireless Hunt##445701
-				Frenzied Tear##445696
-				Covering Fire##445715
-				Cull the Herd##445717
-				Furious Assault##445699
-				Pack Assault##445721
+			Overshadow##430716
+			Dark Empowerment##430718
+			Shadow Lash##430717
+			Withering Fire##430715
+			Shadow Hounds##430707
+			Smoke Screen##430709
+			Shadow Surge##430714
+			Death Shade##430711
+			Dark Chains##430712
+			Darkness Calls##430722
 			]],
 		},
 			
 		{
 			name = "Beast Mastery (M+)",
 			spec = 1,
-			hero = "left",
+			hero = "right",
 			ident = "hunt_bm_dungeon",
 			suggested = false, 
 			classtalents = [[
@@ -3289,7 +3282,6 @@ ZGV.TalentAdvisor.Builds = {
 				Posthaste##109215
 				Rejuvenating Wind##385539
 				Hunter's Avoidance##384799
-				Deathblow##343248
 				Tar Trap##187698
 				Tranquilizing Shot##19801
 				Survival of the Fittest##264735
@@ -3300,10 +3292,12 @@ ZGV.TalentAdvisor.Builds = {
 				Specialized Arsenal##459542
 				Disruptive Rounds##343244
 				Intimidation##19577
+				Explosive Shot##212431
 				Binding Shot##109248
 				Bursting Shot##186387
 				Trigger Finger##459534
 				Trigger Finger##459534
+				Blackrock Munitions##462036
 				Keen Eyesight##378004
 				Keen Eyesight##378004
 				Tar-Coated Bindings##459460
@@ -3313,7 +3307,6 @@ ZGV.TalentAdvisor.Builds = {
 				Camouflage##199483
 				Serrated Tips##459502
 				Born To Be Wild##266921
-				Emergency Salve##459517
 				Implosive Trap##462031
 				Unnatural Causes##459527
 			]],
@@ -3324,17 +3317,16 @@ ZGV.TalentAdvisor.Builds = {
 				Barbed Shot##217200
 				Pack Tactics##321014
 				War Orders##393933
-				Thrill of the Hunt##257944
 				Go for the Throat##459550
 				Multi-Shot##2643
 				Laceration##459552
 				Beast Cleave##115939
 				Alpha Predator##269737
-				Wild Call##185789
-				Hunter's Prey##378210
+				Venom's Bite##459565
 				Kill Cleave##378207
 				Dire Beast##120679
 				Stomp##199530
+				A Murder of Crows##459760
 				Bestial Wrath##19574
 				Huntmaster's Call##459730
 				Dire Frenzy##385810
@@ -3342,26 +3334,27 @@ ZGV.TalentAdvisor.Builds = {
 				Dire Command##378743
 				Killer Instinct##273887
 				Killer Instinct##273887
-				Master Handler##424558
 				Barbed Wrath##231548
+				Basilisk Collar##459571
+				Basilisk Collar##459571
 				Call of the Wild##359844
 				Killer Cobra##199532
 				Bloody Frenzy##407412
 				Piercing Fangs##392053
 			]],
 			herolefttalents = [[
-				Bleak Arrows##467749
-				The Bell Tolls##467644
-				Shadow Hounds##430707
-				Ebon Bowstring##467897
-				Smoke Screen##430709
-				Shadow Dagger##467741
-				Banshee's Mark##467902
-				Shadow Surge##467936
-				Bleak Powder##467911
-				Withering Fire##466990
 			]],
 			herorighttalents = [[
+			Overshadow##430716
+			Dark Empowerment##430718
+			Shadow Lash##430717
+			Withering Fire##430715
+			Shadow Hounds##430707
+			Smoke Screen##430709
+			Shadow Surge##430714
+			Death Shade##430711
+			Dark Chains##430712
+			Darkness Calls##430722
 			]],
 		},
 		{
@@ -3371,69 +3364,70 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = true, 
 			ident = "hunt_mm_leveling",
 			classtalents=[[
-				Natural Mending##270581
+				Improved Kill Shot##343248
 				Posthaste##109215
-				Rejuvenating Wind##385539
 				Hunter's Avoidance##384799
-				Deathblow##343248
-				Wilderness Medicine##343242
-				Tranquilizing Shot##19801
+				Natural Mending##270581
+				Rejuvenating Wind##385539
+				Tar Trap##187698
 				Survival of the Fittest##264735
 				Counter Shot##147362
-				Misdirection##34477
-				Lone Survivor##388039
 				Specialized Arsenal##459542
-				Disruptive Rounds##343244
-				No Hard Feelings##459546
-				Intimidation##19577
 				Explosive Shot##212431
-				Binding Shot##109248
-				Bursting Shot##186387
-				Territorial Instincts##459507
-				Trigger Finger##459534
-				Trigger Finger##459534
+				Keen Eyesight##378004
+				Keen Eyesight##378004
 				Blackrock Munitions##462036
-				Keen Eyesight##378004
-				Keen Eyesight##378004
+				Trigger Finger##459534
+				Trigger Finger##459534
+				Padded Armor##459450
+				Intimidation##19577
+				Tranquilizing Shot##19801
+				Concussive Shot##5116
+				Lone Survivor##388039
+				Binding Shackles##321468
 				Pathfinding##378002
-				Camouflage##199483
 				Trailblazer##199921
 				Serrated Tips##459502
+				Implosive Trap##462031
+				Camouflage##199483
+				Improved Traps##343247
 				Born To Be Wild##266921
-				Emergency Salve##459517
 				Unnatural Causes##459527
+				Moment of Opportunity##459488
+				Territorial Instincts##459507
+				Kill Shot##53351
 			]],
 			spectalents=[[
 				Aimed Shot##19434
 				Rapid Fire##257044
 				Multi-Shot##257620
-				Precise Shot##260240
+				Precise Shots##260240
 				Surging Shots##391559
-				Streamline##260367
-				Pin Cushion##468392
-				Penetrating Shots##459783
+				Crack Shot##321293
 				Trick Shots##257621
-				Master Marksman##260309
-				Fan the Hammer##459794
+				Streamline##260367
+				Penetrating Shots##459783
 				Careful Aim##260228
-				Heavy Ammo##378910
+				Fan the Hammer##459794
+				Master Marksman##260309
 				Lock and Load##194595
-				Night Hunter##378766
 				Tactical Reload##400472
 				Serpentstalker's Trickery##378888
+				Night Hunter##378766
 				In the Rhythm##407404
 				Bullseye##204089
 				Volley##260243
-				Legacy of the Windrunners##406425
-				Legacy of the Windrunners##406425
+				Hydra's Bite##260241
 				Trueshot##288613
-				Focused Aim##378767
-				Focused Aim##378767
-				Wailing Arrow##459806
+				Calling the Shots##260404
 				Unerring Vision##386878
+				Eagletalon's True Focus##389449
+				Focused Aim##378767
+				Focused Aim##378767
 				Small Game Hunter##459802
-				Readiness##389865
 				Salvo##400456
+				Kill Zone##459921
+				Lone Wolf##155228
 			]],
 			herolefttalents=[[
 			]],
@@ -3462,30 +3456,30 @@ ZGV.TalentAdvisor.Builds = {
 				Posthaste##109215
 				Rejuvenating Wind##385539
 				Hunter's Avoidance##384799
-				Deathblow##343248
+				Improved Kill Shot##343248
 				Tar Trap##187698
 				Tranquilizing Shot##19801
 				Survival of the Fittest##264735
-				Entrapment##393344
 				Counter Shot##147362
 				Misdirection##34477
+				Scout's Instincts##459455
 				Padded Armor##459450
 				Lone Survivor##388039
 				Specialized Arsenal##459542
 				Disruptive Rounds##343244
-				Intimidation##19577
 				Explosive Shot##212431
 				Binding Shot##109248
-				Bursting Shot##186387
-				Territorial Instincts##459507
 				Trigger Finger##459534
 				Trigger Finger##459534
 				Blackrock Munitions##462036
 				Keen Eyesight##378004
 				Keen Eyesight##378004
+				Tar-Coated Bindings##459460
 				Pathfinding##378002
 				Binding Shackles##321468
+				Trailblazer##199921
 				Serrated Tips##459502
+				Moment of Opportunity##459488
 				Born To Be Wild##266921
 				Emergency Salve##459517
 				Unnatural Causes##459527
@@ -3493,10 +3487,10 @@ ZGV.TalentAdvisor.Builds = {
 			spectalents = [[
 				Aimed Shot##19434
 				Rapid Fire##257044
-				Precise Shot##260240
+				Precise Shots##260240
 				Surging Shots##391559
 				Streamline##260367
-				Pin Cushion##468392
+				Improved Steady Shot##321018
 				Crack Shot##321293
 				Penetrating Shots##459783
 				Master Marksman##260309
@@ -3504,9 +3498,8 @@ ZGV.TalentAdvisor.Builds = {
 				Careful Aim##260228
 				Lock and Load##194595
 				Steady Focus##193533
-				Improved Deathblow##378769
+				Deathblow##378769
 				Night Hunter##378766
-				Tactical Reload##400472
 				Serpentstalker's Trickery##378888
 				Killer Accuracy##378765
 				In the Rhythm##407404
@@ -3518,21 +3511,22 @@ ZGV.TalentAdvisor.Builds = {
 				Trueshot##288613
 				Razor Fragments##384790
 				Wailing Arrow##459806
-				Unerring Vision##386878
-				Readiness##389865
+				Eagletalon's True Focus##389449
 				Calling the Shots##260404
+				Readiness##389865
+				Unerring Vision##386878
 			]],
 			herolefttalents = [[
-				Bleak Arrows##467749
-				The Bell Tolls##467644
+				Overshadow##430716
+				Dark Empowerment##430718
+				Shadow Lash##430717
+				Withering Fire##430715
 				Shadow Hounds##430707
-				Ebon Bowstring##467897
 				Smoke Screen##430709
-				Shadow Dagger##467741
-				Banshee's Mark##467902
-				Shadow Surge##467936
-				Bleak Powder##467911
-				Withering Fire##466990
+				Shadow Surge##430714
+				Death Shade##430711
+				Dark Chains##430712
+				Darkness Calls##430722
 			]],
 			herorighttalents = [[
 			]],
@@ -3541,7 +3535,7 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Marksmanship (M+)",
 			spec = 2,
-			hero = "left",
+			hero = "right",
 			ident = "mm_hunt_dungeon",
 			suggested = false, 
 			classtalents = [[
@@ -3549,7 +3543,7 @@ ZGV.TalentAdvisor.Builds = {
 				Posthaste##109215
 				Rejuvenating Wind##385539
 				Hunter's Avoidance##384799
-				Deathblow##343248
+				Improved Kill Shot##343248
 				Tar Trap##187698
 				Tranquilizing Shot##19801
 				Survival of the Fittest##264735
@@ -3581,10 +3575,10 @@ ZGV.TalentAdvisor.Builds = {
 				Aimed Shot##19434
 				Rapid Fire##257044
 				Multi-Shot##257620
-				Precise Shot##260240
+				Precise Shots##260240
 				Surging Shots##391559
 				Streamline##260367
-				Pin Cushion##468392
+				Improved Steady Shot##321018
 				Penetrating Shots##459783
 				Trick Shots##257621
 				Master Marksman##260309
@@ -3592,34 +3586,24 @@ ZGV.TalentAdvisor.Builds = {
 				Careful Aim##260228
 				Bulletstorm##389019
 				Lock and Load##194595
-				Steady Focus##193533
-				Improved Deathblow##378769
 				Night Hunter##378766
+				Tactical Reload##400472
 				Serpentstalker's Trickery##378888
-				Killer Accuracy##378765
+				In the Rhythm##407404
 				Lone Wolf##155228
 				Bullseye##204089
+				Hydra's Bite##260241
 				Volley##260243
 				Trueshot##288613
 				Focused Aim##378767
 				Focused Aim##378767
-				Razor Fragments##384790
-				Unerring Vision##386878
-				Small Game Hunter##459802
+				Eagletalon's True Focus##389449
 				Calling the Shots##260404
+				Small Game Hunter##459802
+				Unerring Vision##386878
 				Salvo##400456
 			]],
 			herolefttalents = [[
-				Bleak Arrows##467749
-				The Bell Tolls##467644
-				Shadow Hounds##430707
-				Ebon Bowstring##467897
-				Smoke Screen##430709
-				Shadow Dagger##467741
-				Banshee's Mark##467902
-				Shadow Surge##467936
-				Bleak Powder##467911
-				Withering Fire##466990
 			]],
 			herorighttalents = [[
 				Extrapolated Shots##450374
@@ -3992,7 +3976,7 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Arcane (Raid)",
 			spec = 1,
-			hero = "left",
+			hero = "right",
 			ident = "mage_arcane_raid",
 			suggested = false, 
 			classtalents = [[
@@ -4009,10 +3993,10 @@ ZGV.TalentAdvisor.Builds = {
 				Shifting Power##382440
 				Alter Time##342245
 				Cryo-Freeze##382292
+				Cryo-Freeze##382292
 				Quick Witted##382297
 				Master of Time##342249
-				Diverted Energy##382270
-				Diverted Energy##382270
+				Reduplication##382569
 				Shimmer##212653
 				Tome of Antonidas##382490
 				Tome of Rhonin##382493
@@ -4034,14 +4018,14 @@ ZGV.TalentAdvisor.Builds = {
 				Nether Precision##383782
 				Arcane Tempo##383980
 				Concentrated Power##414379
-				Aethervision##467633
+				Consortium's Bauble##461260
 				Arcane Familiar##205022
 				Arcane Surge##365350
 				Improved Clearcasting##321420
 				Big Brained##461261
 				Energized Familiar##452997
 				Slipstream##236457
-				Consortium's Bauble##461260
+				Resonance##205028
 				Impetus##383676
 				Touch of the Magi##321507
 				Dematerialize##461456
@@ -4052,25 +4036,15 @@ ZGV.TalentAdvisor.Builds = {
 				Arcane Debilitation##453598
 				Arcane Debilitation##453598
 				Arcane Echo##342231
-				Time Loop##452924
+				Prodigious Savant##384612
+				Prodigious Savant##384612
 				Aether Attunement##453600
 				Enlightened##321387
 				Arcane Bombardment##384581
 				Arcane Harmony##384452
 				Magi's Spark##454016
-				Orb Barrage##384858
 			]],
 			herolefttalents = [[
-			Augury Abounds##443783
-			Slippery Slinging##444752
-			Signature Spell##470021
-			Splinterstorm##443742
-			Controlled Instincts##444483
-			Reactive Barrier##444827
-			Force of Will##444719
-			Splintering Orbs##444256
-			Volatile Magic##444968
-			Spellfrost Teachings##444986
 			]],
 			herorighttalents = [[
 				Mana Cascade##449293
@@ -4090,7 +4064,7 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Arcane (M+)",
 			spec = 1,
-			hero = "left",
+			hero = "right",
 			ident = "mage_arcane_dungeon",
 			suggested = false, 
 			classtalents = [[
@@ -4101,13 +4075,13 @@ ZGV.TalentAdvisor.Builds = {
 				Winter's Protection##382424
 				Spellsteal##30449
 				Remove Curse##475
-				Arcane Warding##383092
-				Arcane Warding##383092
 				Mirror Image##55342
 				Shifting Power##382440
 				Alter Time##342245
 				Quick Witted##382297
 				Master of Time##342249
+				Reduplication##382569
+				Ring of Frost##113724
 				Shimmer##212653
 				Blast Wave##157981
 				Tome of Antonidas##382490
@@ -4121,7 +4095,7 @@ ZGV.TalentAdvisor.Builds = {
 				Freezing Cold##386763
 				Greater Invisibility##110959
 				Barrier Diffusion##455428
-				Accumulative Shielding##382800
+				Time Manipulation##387807
 				Ice Cold##414659
 				Time Anomaly##383243
 				Mass Barrier##414660
@@ -4130,15 +4104,14 @@ ZGV.TalentAdvisor.Builds = {
 				Arcane Missiles##5143
 				Amplification##236628
 				Nether Precision##383782
-				Charged Orb##384651
 				Arcane Tempo##383980
 				Concentrated Power##414379
-				Aethervision##467633
 				Arcing Cleave##231564
 				Arcane Familiar##205022
 				Arcane Surge##365350
 				Improved Clearcasting##321420
 				Big Brained##461261
+				Energized Familiar##452997
 				Slipstream##236457
 				Resonance##205028
 				Impetus##383676
@@ -4154,21 +4127,12 @@ ZGV.TalentAdvisor.Builds = {
 				Aether Attunement##453600
 				Enlightened##321387
 				Arcane Bombardment##384581
+				High Voltage##461248
 				Arcane Harmony##384452
 				Magi's Spark##454016
 				Orb Barrage##384858
 			]],
 			herolefttalents = [[
-				Augury Abounds##443783
-				Slippery Slinging##444752
-				Signature Spell##470021
-				Splinterstorm##443742
-				Controlled Instincts##444483
-				Reactive Barrier##444827
-				Force of Will##444719
-				Splintering Orbs##444256
-				Volatile Magic##444968
-				Spellfrost Teachings##444986
 			]],
 			herorighttalents = [[
 				Mana Cascade##449293
@@ -5100,7 +5064,7 @@ ZGV.TalentAdvisor.Builds = {
 				Yu'lon's Grace##414131
 				Save Them All##389579
 				Strength of Spirit##387276
-				Ironshell Brew##388814
+				Expeditious Fortification##388813
 				Chi Proficiency##450426
 				Chi Proficiency##450426
 				Bounce Back##389577
@@ -5119,7 +5083,7 @@ ZGV.TalentAdvisor.Builds = {
 				Invigorating Mists##274586
 				Crane Style##446260
 				Revival##115310
-				Healing Elixir##122280
+				Uplifted Spirits##388551
 				Energizing Brew##422031
 				Zen Pulse##446326
 				Mists of Life##388548
@@ -5132,13 +5096,13 @@ ZGV.TalentAdvisor.Builds = {
 				Celestial Harmony##343655
 				Chi Harmony##448392
 				Jadefire Stomp##388193
-				Pool of Mists##173841
 				Gift of the Celestials##388212
-				Jade Empowerment##467316
 				Sheilun's Gift##399491
-				Awakened Jadefire##388779
-				Jadefire Teachings##467293
+				Ancient Concordance##388740
+				Ancient Teachings##388023
+				Secret Infusion##388491
 				Veil of Pride##400053
+				Awakened Jadefire##388779
 				Rising Mist##274909
 				Legacy of Wisdom##404408
 			]],
@@ -5186,7 +5150,7 @@ ZGV.TalentAdvisor.Builds = {
 				Yu'lon's Grace##414131
 				Save Them All##389579
 				Strength of Spirit##387276
-				Ironshell Brew##388814
+				Expeditious Fortification##388813
 				Chi Proficiency##450426
 				Chi Proficiency##450426
 				Bounce Back##389577
@@ -5205,8 +5169,7 @@ ZGV.TalentAdvisor.Builds = {
 				Invigorating Mists##274586
 				Crane Style##446260
 				Revival##115310
-				Uplifted Spirits##388551
-				Energizing Brew##422031
+				Lifecycles##197915
 				Zen Pulse##446326
 				Mists of Life##388548
 				Invoke Yu'lon, the Jade Serpent##322118
@@ -5216,6 +5179,7 @@ ZGV.TalentAdvisor.Builds = {
 				Chrysalis##202424
 				Mist Wrap##197900
 				Celestial Harmony##343655
+				Dancing Mists##388701
 				Chi Harmony##448392
 				Pool of Mists##173841
 				Jade Bond##388031
@@ -5522,34 +5486,37 @@ ZGV.TalentAdvisor.Builds = {
 				Hammer of Wrath##24275
 				Greater Judgment##231644
 				Rebuke##96231
+				Divine Steed##190784
 				Cavalier##230332
-				Blessing of Freedom##1044
+				Seasoned Warhorse##376996
+				Crusader Aura##32223
 				Improved Cleanse##393024
-				Afterimage##385414
-				Empyreal Ward##387791
-				Obduracy##385427
 				Blinding Light##115750
+				Avenging Wrath##31884
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Unbreakable Spirit##114154
+				Blessing of Sacrifice##6940
+				Sacrifice of the Just##384820
+				Blessing of Protection##1022
+				Touch of Light##385349
 				Echoing Blessings##387801
-				Sanctified Plates##402964
-				Sanctified Plates##402964
+				Afterimage##385414
+				Divine Purpose##223817
 				Divine Toll##375576
 				Quickened Invocation##379391
-				Blessing of Sacrifice##6940
-				Divine Purpose##223817
-				Blessing of Protection##1022
-				Unbreakable Spirit##114154
-				Holy Aegis##385515
-				Holy Ritual##199422
 				Seal of Might##385450
 				Seal of Might##385450
 				Of Dusk and Dawn##409439
-				Inspired Guard##469439
-				Selfless Healer##469434
-				Vengeful Wrath##406835
-				Vengeful Wrath##406835
-				Judgment of Light##183778
-				Lead the Charge##469780
-				Light's Revocation##146956
+				Seal of Order##385129
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Obduracy##385427
+				Lay on Hands##633
+				Auras of the Resolute##385633
+				Blessing of Freedom##1044
 			]],
 			spectalents=[[
 				Holy Shock##20473
@@ -5557,31 +5524,32 @@ ZGV.TalentAdvisor.Builds = {
 				Light's Conviction##414073
 				Light of Dawn##85222
 				Beacon of the Lightbringer##197446
-				Awestruck##417855
+				Holy Infusion##414214
+				Tirion's Devotion##414720
 				Aura Mastery##31821
-				Tower of Radiance##231642
-				Holy Prism##114165
+				Barrier of Faith##148039
 				Divine Favor##460422
 				Commanding Light##387781
-				Tirion's Devotion##414720
-				Righteous Judgment##414113
-				Saved by the Light##157047
-				Glistening Radiance##461245
 				Imbued Infusions##392961
-				Light's Protection##461243
 				Shining Righteousness##414443
 				Divine Glimpse##387805
-				Divine Revelations##387808
+				Light's Protection##461243
+				Tower of Radiance##231642
+				Glistening Radiance##461245
+				Overflowing Light##461244
+				Light of the Martyr##447985
+				Bestow Light##448040
+				Resplendent Light##392902
 				Beacon of Virtue##200025
 				Rising Sunlight##461250
 				Avenging Wrath##31884
 				Awakening##414195
 				Glorious Dawn##461246
+				Reclamation##415364
+				Blessing of Summer##388007
+				Inflorescence of the Sunwell##392907
 				Truth Prevails##461273
 				Crusader's Might##196926
-				Blessing of Summer##388007
-				Reclamation##415364
-				Inflorescence of the Sunwell##392907
 			]],
 			herolefttalents=[[
 				Eternal Flame##156322
@@ -5608,36 +5576,36 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = false, 
 			classtalents = [[
 				Hammer of Wrath##24275
-				Fist of Justice##234299
-				Blinding Light##115750
 				Improved Cleanse##393024
-				Afterimage##385414
+				Obduracy##385427
+				Divine Steed##190784
+				Fist of Justice##234299
 				Greater Judgment##231644
 				Cavalier##230332
-				Blessing of Freedom##1044
+				Seasoned Warhorse##376996
+				Blinding Light##115750
 				Rebuke##96231
-				Obduracy##385427
-				Divine Toll##375576
-				Echoing Blessings##387801
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Quickened Invocation##379391
-				Consecrated Ground##204054
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Avenging Wrath##31884
 				Blessing of Sacrifice##6940
 				Blessing of Protection##1022
-				Holy Aegis##385515
-				Divine Purpose##223817
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Echoing Blessings##387801
 				Unbreakable Spirit##114154
-				Lightforged Blessing##406468
-				Lead the Charge##469780
-				Holy Ritual##199422
-				Inspired Guard##469439
+				Afterimage##385414
+				Strength of Conviction##379008
+				Strength of Conviction##379008
 				Seal of Might##385450
 				Seal of Might##385450
-				Seal of the Crusader##416770
-				Vengeful Wrath##406835
-				Vengeful Wrath##406835
+				Divine Purpose##223817
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Divine Toll##375576
 				Of Dusk and Dawn##409439
+				Seal of Order##385129
+				Quickened Invocation##379391
 			]],
 			spectalents = [[
 				Holy Shock##20473
@@ -5649,6 +5617,7 @@ ZGV.TalentAdvisor.Builds = {
 				Awestruck##417855
 				Tower of Radiance##231642
 				Tirion's Devotion##414720
+				Moment of Compassion##387786
 				Holy Prism##114165
 				Imbued Infusions##392961
 				Light's Protection##461243
@@ -5658,97 +5627,10 @@ ZGV.TalentAdvisor.Builds = {
 				Shining Righteousness##414443
 				Commanding Light##387781
 				Glistening Radiance##461245
-				Divine Revelations##387808
 				Divine Glimpse##387805
 				Beacon of Virtue##200025
 				Veneration##392938
-				Avenging Wrath##31884
-				Crusader's Might##196926
-				Truth Prevails##461273
-				Awakening##414195
-				Reclamation##415364
-				Rising Sunlight##461250
-				Glorious Dawn##461246
-				Blessing of Summer##388007
-			]],
-			herolefttalents = [[
-				Morning Star##431482
-				Illumine##431423
-				Aurora##439760
-				Sun's Avatar##431425
-				Eternal Flame##156322
-				Blessing of An'she##445200
-				Solar Grace##431404
-				Luminosity##431402
-				Sun Sear##431413
-				Second Sunrise##431474
-			]],
-			herorighttalents = [[
-			]],
-		},
-		{
-			name = "Holy (Raid)",
-			spec = 1,
-			hero = "right",
-			ident = "pally_holy_raid",
-			suggested = false, 
-			classtalents = [[
-				Hammer of Wrath##24275
-				Empyreal Ward##387791
-				Blinding Light##115750
-				Improved Cleanse##393024
-				Afterimage##385414
-				Greater Judgment##231644
-				Cavalier##230332
-				Blessing of Freedom##1044
-				Obduracy##385427
-				Divine Toll##375576
-				Echoing Blessings##387801
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Divine Reach##469476
-				Quickened Invocation##379391
-				Blessing of Sacrifice##6940
-				Blessing of Protection##1022
-				Holy Aegis##385515
-				Divine Purpose##223817
-				Unbreakable Spirit##114154
-				Lead the Charge##469780
-				Holy Ritual##199422
-				Blessed Calling##469770
-				Inspired Guard##469439
-				Judgment of Light##183778
-				Seal of Might##385450
-				Seal of Might##385450
-				Seal of the Crusader##416770
-				Selfless Healer##469434
-				Of Dusk and Dawn##409439
-				Lightbearer##469416
-			]],
-			spectalents = [[
-				Holy Shock##20473
-				Extrication##461278
-				Light of Dawn##85222
-				Light's Conviction##414073
-				Aura Mastery##31821
-				Beacon of the Lightbringer##197446
-				Awestruck##417855
-				Unending Light##387998
-				Tower of Radiance##231642
-				Tirion's Devotion##414720
-				Holy Prism##114165
-				Imbued Infusions##392961
-				Light's Protection##461243
-				Divine Favor##460422
-				Saved by the Light##157047
-				Overflowing Light##461244
-				Commanding Light##387781
-				Glistening Radiance##461245
-				Divine Revelations##387808
-				Divine Glimpse##387805
-				Beacon of Virtue##200025
-				Empyrean Legacy##387170
-				Avenging Wrath##31884
+				Avenging Wrath: Might##31884
 				Crusader's Might##196926
 				Truth Prevails##461273
 				Awakening##414195
@@ -5771,16 +5653,93 @@ ZGV.TalentAdvisor.Builds = {
 				Dawnlight##431377
 			]],
 			herorighttalents = [[
-			Rite of Sanctification##433568
-			Laying Down Arms##432866
-			Shared Resolve##432821
-			Blessing of the Forge##433011
-			Solidarity##432802
-			Divine Inspiration##432964
-			Valiance##432919
-			Divine Guidance##433106
-			Tempered in Battle##469701
-			Hammer and Anvil##433718
+			]],
+		},
+		{
+			name = "Holy (Raid)",
+			spec = 1,
+			hero = "left",
+			ident = "pally_holy_raid",
+			suggested = false, 
+			classtalents = [[
+				Hammer of Wrath##24275
+				Improved Cleanse##393024
+				Obduracy##385427
+				Divine Steed##190784
+				Greater Judgment##231644
+				Cavalier##230332
+				Seasoned Warhorse##376996
+				Blinding Light##115750
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Avenging Wrath##31884
+				Blessing of Sacrifice##6940
+				Blessing of Protection##1022
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Echoing Blessings##387801
+				Sacrifice of the Just##384820
+				Unbreakable Spirit##114154
+				Afterimage##385414
+				Touch of Light##385349
+				Judgment of Light##183778
+				Seal of Might##385450
+				Seal of Might##385450
+				Divine Purpose##223817
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Divine Toll##375576
+				Of Dusk and Dawn##409439
+				Seal of the Crusader##416770
+				Seal of Order##385129
+				Quickened Invocation##379391
+			]],
+			spectalents = [[
+				Holy Shock##20473
+				Extrication##461278
+				Light of Dawn##85222
+				Light's Conviction##414073
+				Aura Mastery##31821
+				Beacon of the Lightbringer##197446
+				Awestruck##417855
+				Unending Light##387998
+				Tower of Radiance##231642
+				Tirion's Devotion##414720
+				Holy Prism##114165
+				Protection of Tyr##200430
+				Imbued Infusions##392961
+				Light's Protection##461243
+				Divine Favor##460422
+				Saved by the Light##157047
+				Overflowing Light##461244
+				Commanding Light##387781
+				Glistening Radiance##461245
+				Divine Glimpse##387805
+				Beacon of Virtue##200025
+				Empyrean Legacy##387170
+				Avenging Wrath: Might##31884
+				Crusader's Might##196926
+				Truth Prevails##461273
+				Awakening##414195
+				Reclamation##415364
+				Rising Sunlight##461250
+				Glorious Dawn##461246
+				Blessing of Summer##388007
+			]],
+			herolefttalents = [[
+				Eternal Flame##156322
+				Lingering Radiance##431407
+				Solar Grace##431404
+				Sun's Avatar##431425
+				Morning Star##431482
+				Will of the Dawn##431406
+				Aurora##439760
+				Luminosity##431402
+				Sun Sear##431413
+				Second Sunrise##431474
+				Dawnlight##431377
+			]],
+			herorighttalents = [[
 			]],
 		},
 	
@@ -5794,34 +5753,36 @@ ZGV.TalentAdvisor.Builds = {
 				Hammer of Wrath##24275
 				Greater Judgment##231663
 				Rebuke##96231
-				Fist of Justice##234299
+				Crusader Aura##32223
+				Divine Steed##190784
 				Cavalier##230332
-				Blessing of Freedom##1044
 				Cleanse Toxins##213644
-				Blinding Light##115750
-				Divine Toll##375576
-				Obduracy##385427
-				Divine Resonance##386738
-				Holy Aegis##385515
-				Blessing of Protection##1022
-				Divine Purpose##223817
+				Blessing of Freedom##1044
+				Avenging Wrath##31884
+				Sanctified Plates##402964
+				Sanctified Plates##402964
 				Unbreakable Spirit##114154
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Consecrated Ground##204054
-				Punishment##403530
+				Justification##377043
+				Blessing of Protection##1022
 				Unbound Freedom##305394
-				Lead the Charge##469780
+				Touch of Light##385349
+				Seasoned Warhorse##376996
+				Obduracy##385427
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Seal of the Crusader##385728
+				Seal of the Crusader##385728
+				Zealot's Paragon##391142
+				Divine Toll##375576
+				Divine Resonance##386738
 				Seal of Might##385450
 				Seal of Might##385450
-				Inspired Guard##469439
-				Eye for an Eye##469309
-				Zealot's Paragon##391142
-				Zealot's Paragon##391142
-				Faith's Armor##406101
 				Of Dusk and Dawn##409441
-				Lightbearer##469416
-				Light's Revocation##146956
+				Seal of Order##385129
+				Lay on Hands##633
+				Auras of the Resolute##385633
 			]],
 			spectalents=[[
 				Avenger's Shield##31935
@@ -5829,43 +5790,46 @@ ZGV.TalentAdvisor.Builds = {
 				Shining Light##321136
 				Sanctuary##379021
 				Holy Shield##152261
-				Grand Crusader##85043
 				Redoubt##280373
-				Inspiring Vanguard##393022
-				Bulwark of Order##209389
-				Relentless Inquisitor##383388
-				Seal of Reprisal##377053
-				Avenging Wrath##31884
-				Guardian of Ancient Kings##86659
-				Improved Holy Shield##393030
-				Refining Fire##469883
-				Soaring Shield##378457
+				Grand Crusader##85043
+				Ardent Defender##31850
 				Consecration in Flame##379022
 				Crusader's Judgment##204023
-				Ardent Defender##31850
-				Improved Ardent Defender##393114
+				Inspiring Vanguard##393022
+				Bulwark of Order##209389
+				Avenging Wrath##31884
+				Relentless Inquisitor##383388
+				Tyr's Enforcer##378285
+				Tyr's Enforcer##378285
+				Soaring Shield##378457
+				Seal of Reprisal##377053
+				Guardian of Ancient Kings##86659
+				Sentinel##389539
+				Barricade of Faith##385726
+				Avenging Wrath##31884
 				Bastion of Light##378974
 				Righteous Protector##204074
-				Sanctified Wrath##53376
 				Focused Enmity##378845
 				Strength in Adversity##393071
-				Ferren Marcus's Fervor##378762
 				Eye of Tyr##387174
-				Bulwark of Righteous Fury##386653
 				Inmost Light##405757
-				Moment of Glory##327193
+				Bulwark of Righteous Fury##386653
+				Ferren Marcus's Fervor##378762
+				Ferren Marcus's Fervor##378762
+				Final Stand##204077
 			]],
 			herolefttalents=[[
-			Rite of Adjuration##433583
-			Laying Down Arms##432866
-			Shared Resolve##432821
-			Blessing of the Forge##433011
-			Solidarity##432802
-			Divine Inspiration##432964
-			Valiance##432919
-			Divine Guidance##433106
-			Tempered in Battle##469701
-			Hammer and Anvil##433718
+				Rite of Adjuration##433583
+				Laying Down Arms##432866
+				Shared Resolve##432821
+				Blessing of the Forge##433011
+				Divine Guidance##433106
+				Fear No Evil##432834
+				Hammer and Anvil##433718
+				Solidarity##432802
+				Divine Inspiration##432964
+				Valiance##432919
+				Holy Armaments##432459
 			]],
 			herorighttalents=[[
 			]],
@@ -5878,36 +5842,36 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = false, 
 			classtalents = [[
 				Hammer of Wrath##24275
-				Empyreal Ward##387791
-				Afterimage##385414
-				Greater Judgment##231663
-				Holy Reprieve##469445
-				Cavalier##230332
 				Blessing of Freedom##1044
-				Rebuke##96231
 				Obduracy##385427
-				Divine Toll##375576
-				Unbound Freedom##305394
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Divine Reach##469476
-				Divine Resonance##386738
-				Consecrated Ground##204054
-				Blessing of Sacrifice##6940
-				Sacrifice of the Just##384820
+				Divine Steed##190784
+				Greater Judgment##231663
+				Cavalier##230332
+				Seasoned Warhorse##376996
+				Rebuke##96231
 				Holy Aegis##385515
-				Divine Purpose##223817
+				Holy Aegis##385515
+				Avenging Wrath##31884
+				Justification##377043
+				Blessing of Sacrifice##6940
+				Blessing of Protection##1022
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Unbound Freedom##305394
+				Sacrifice of the Just##384820
 				Unbreakable Spirit##114154
-				Lead the Charge##469780
-				Inspired Guard##469439
-				Faith's Armor##406101
+				Touch of Light##385349
 				Seal of Might##385450
 				Seal of Might##385450
-				Zealot's Paragon##391142
-				Zealot's Paragon##391142
-				Eye for an Eye##469309
+				Divine Purpose##223817
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Divine Toll##375576
 				Of Dusk and Dawn##409441
-				Lightbearer##469416
+				Seal of the Crusader##385728
+				Seal of the Crusader##385728
+				Seal of Order##385129
+				Zealot's Paragon##391142
 			]],
 			spectalents = [[
 				Avenger's Shield##31935
@@ -5920,38 +5884,39 @@ ZGV.TalentAdvisor.Builds = {
 				Sanctuary##379021
 				Ardent Defender##31850
 				Barricade of Faith##385726
+				Inspiring Vanguard##393022
 				Bulwark of Order##209389
-				Refining Fire##469883
+				Light of the Titans##378405
 				Blessing of Spellwarding##204018
 				Consecration in Flame##379022
 				Tyr's Enforcer##378285
 				Tyr's Enforcer##378285
 				Relentless Inquisitor##383388
-				Avenging Wrath##31884
+				Avenging Wrath: Might##31884
 				Guardian of Ancient Kings##86659
+				Seal of Reprisal##377053
 				Crusader's Judgment##204023
 				Focused Enmity##378845
 				Gift of the Golden Val'kyr##378279
-				Sanctified Wrath##53376
-				Uther's Counsel##378425
+				Sanctified Wrath##31884
 				Eye of Tyr##387174
 				Bastion of Light##378974
 				Bulwark of Righteous Fury##386653
 				Inmost Light##405757
-				Final Stand##204077
 				Righteous Protector##204074
 			]],
 			herolefttalents = [[
-			Rite of Sanctification##433568
-			Laying Down Arms##432866
-			Shared Resolve##432821
-			Blessing of the Forge##433011
-			Solidarity##432802
-			Divine Inspiration##432964
-			Valiance##432919
-			Blessed Assurance##433015
-			Tempered in Battle##469701
-			Hammer and Anvil##433718
+				Rite of Adjuration##433583
+				Laying Down Arms##432866
+				Shared Resolve##432821
+				Blessing of the Forge##433011
+				Divine Guidance##433106
+				Fear No Evil##432834
+				Hammer and Anvil##433718
+				Solidarity##432802
+				Divine Inspiration##432964
+				Valiance##432919
+				Holy Armaments##432459
 			]],
 			herorighttalents = [[
 			]],
@@ -5965,36 +5930,36 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = false, 
 			classtalents = [[
 				Hammer of Wrath##24275
-				Fist of Justice##234299
-				Blinding Light##115750
+				Blessing of Freedom##1044
 				Cleanse Toxins##213644
+				Divine Steed##190784
 				Greater Judgment##231663
 				Cavalier##230332
-				Blessing of Freedom##1044
+				Blinding Light##115750
 				Rebuke##96231
-				Divine Toll##375576
-				Unbound Freedom##305394
-				Sanctified Plates##402964
-				Sanctified Plates##402964
 				Punishment##403530
-				Divine Resonance##386738
-				Consecrated Ground##204054
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Avenging Wrath##31884
+				Justification##377043
 				Blessing of Sacrifice##6940
 				Blessing of Protection##1022
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Unbound Freedom##305394
 				Sacrifice of the Just##384820
-				Holy Aegis##385515
-				Divine Purpose##223817
 				Unbreakable Spirit##114154
-				Lead the Charge##469780
-				Inspired Guard##469439
-				Faith's Armor##406101
 				Seal of Might##385450
 				Seal of Might##385450
-				Zealot's Paragon##391142
-				Zealot's Paragon##391142
-				Eye for an Eye##469309
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Divine Toll##375576
 				Of Dusk and Dawn##409441
-				Lightbearer##469416
+				Seal of the Crusader##385728
+				Seal of the Crusader##385728
+				Seal of Order##385129
+				Divine Resonance##386738
+				Zealot's Paragon##391142
 			]],
 			spectalents = [[
 				Avenger's Shield##31935
@@ -6003,22 +5968,22 @@ ZGV.TalentAdvisor.Builds = {
 				Grand Crusader##85043
 				Shining Light##321136
 				Redoubt##280373
-				Improved Holy Shield##393030
 				Sanctuary##379021
 				Ardent Defender##31850
 				Barricade of Faith##385726
 				Bulwark of Order##209389
-				Refining Fire##469883
 				Blessing of Spellwarding##204018
 				Consecration in Flame##379022
 				Faith in the Light##379043
+				Tyr's Enforcer##378285
+				Tyr's Enforcer##378285
 				Relentless Inquisitor##383388
-				Avenging Wrath##31884
+				Sentinel##389539
 				Guardian of Ancient Kings##86659
 				Soaring Shield##378457
 				Crusader's Judgment##204023
 				Gift of the Golden Val'kyr##378279
-				Sanctified Wrath##53376
+				Sanctified Wrath##31884
 				Resolute Defender##385422
 				Resolute Defender##385422
 				Strength in Adversity##393071
@@ -6029,16 +5994,17 @@ ZGV.TalentAdvisor.Builds = {
 				Righteous Protector##204074
 			]],
 			herolefttalents = [[
-				Rite of Sanctification##433568
+				Rite of Adjuration##433583
 				Laying Down Arms##432866
 				Shared Resolve##432821
 				Blessing of the Forge##433011
+				Divine Guidance##433106
+				Fear No Evil##432834
+				Hammer and Anvil##433718
 				Solidarity##432802
 				Divine Inspiration##432964
 				Valiance##432919
-				Blessed Assurance##433015
-				Tempered in Battle##469701
-				Hammer and Anvil##433718
+				Holy Armaments##432459
 			]],
 			herorighttalents = [[
 			]],
@@ -6052,55 +6018,56 @@ ZGV.TalentAdvisor.Builds = {
 			classtalents=[[
 				Divine Steed##190784
 				Cavalier##230332
-				Lay on Hands##633
-				Fist of Justice##234299
-				Healing Hands##326734
-				Cleanse Toxins##213644
-				Blessing of Freedom##1044
-				Blinding Light##115750
+				Seasoned Warhorse##376996
+				Greater Judgment##231663
 				Rebuke##96231
-				Divine Toll##375576
-				Divine Resonance##384027
-				Blessing of Protection##1022
+				Lay on Hands##633
+				Crusader Aura##32223
+				Cleanse Toxins##213644
 				Obduracy##385427
-				Divine Purpose##408459
-				Holy Aegis##385515
-				Holy Aegis##385515
-				Punishment##403530
-				Consecrated Ground##204054
+				Avenging Wrath##31884
+				Sanctified Plates##402964
+				Sanctified Plates##402964
 				Unbreakable Spirit##114154
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Lead the Charge##469780
-				Seal of Might##385450
-				Seal of Might##385450
-				Of Dusk and Dawn##385125
-				Blessed Calling##469770
-				Vengeful Wrath##406835
-				Inspired Guard##469439
-				Eye for an Eye##469309
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Justification##377043
+				Golden Path##377128
+				Healing Hands##326734
 				Lightforged Blessing##403479
+				Touch of Light##385349
 				Unbound Freedom##305394
+				Seal of Might##385450
+				Seal of Might##385450
+				Divine Toll##375576
+				Of Dusk and Dawn##385125
+				Seal of Order##385129
+				Divine Resonance##384027
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
+				Seal of the Crusader##385728
+				Seal of the Crusader##385728
 				Vengeful Wrath##406835
+				Blessing of Freedom##1044
+				Hammer of Wrath##24275
 			]],
 			spectalents=[[
 				Blade of Justice##184575
 				Divine Storm##53385
-				Swift Justice##383228
-				Final Verdict##383328
 				Holy Blade##383342
 				Art of War##406064
+				Swift Justice##383228
+				Final Verdict##383328
 				Judgment of Justice##403495
 				Light's Celerity##403698
-				Avenging Wrath##31884
+				Avenging Wrath: Might##31884
 				Templar Strikes##406646
 				Wake of Ashes##255937
 				Tempest of the Lightbringer##383396
-				Jurisdiction##402971
 				Rush of Light##407067
 				Blade of Vengeance##403826
-				Empyrean Power##326732
 				Blessed Champion##403010
+				Jurisdiction##402971
 				Boundless Judgment##405278
 				Highlord's Wrath##404512
 				Heart of the Crusader##406154
@@ -6113,7 +6080,8 @@ ZGV.TalentAdvisor.Builds = {
 				Burning Crusade##405289
 				Searing Light##404540
 				Adjudication##406157
-				Expurgation##383344
+				Blades of Light##403664
+				Divine Arbiter##404306
 			]],
 			herolefttalents=[[
 			]],
@@ -6135,46 +6103,46 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Retribution (Raid)",
 			spec = 3,
-			hero = "right",
+			hero = "left",
 			ident = "pally_ret_raid",
 			suggested = false, 
 			classtalents = [[
 				Lay on Hands##633
-				Empyreal Ward##387791
-				Fist of Justice##234299
-				Healing Hands##326734
+				Auras of the Resolute##385633
+				Cleanse Toxins##213644
+				Obduracy##385427
 				Divine Steed##190784
 				Cavalier##230332
-				Blessing of Freedom##1044
+				Seasoned Warhorse##376996
 				Rebuke##96231
-				Obduracy##385427
-				Divine Toll##375576
-				Unbound Freedom##305394
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Punishment##403530
-				Divine Resonance##384027
-				Consecrated Ground##204054
-				Blessing of Sacrifice##6940
-				Blessing of Protection##1022
 				Holy Aegis##385515
-				Divine Purpose##408459
+				Holy Aegis##385515
+				Avenging Wrath##31884
+				Justification##377043
+				Blessing of Sacrifice##6940
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Unbound Freedom##305394
+				Recompense##384914
 				Unbreakable Spirit##114154
-				Lead the Charge##469780
-				Blessed Calling##469770
-				Inspired Guard##469439
+				Healing Hands##326734
+				Touch of Light##385349
 				Seal of Might##385450
 				Seal of Might##385450
-				Vengeful Wrath##406835
-				Vengeful Wrath##406835
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
 				Of Dusk and Dawn##385125
-				Lightbearer##469416
-				Light's Revocation##146956
+				Seal of the Crusader##385728
+				Seal of the Crusader##385728
+				Divine Toll##375576
+				Seal of Order##385129
+				Divine Resonance##384027
+				Vengeful Wrath##406835
 			]],
 			spectalents = [[
 				Blade of Justice##184575
 				Divine Storm##53385
-				Swift Justice##383228
+				Light of Justice##404436
 				Expurgation##383344
 				Improved Blade of Justice##403745
 				Final Verdict##383328
@@ -6182,7 +6150,7 @@ ZGV.TalentAdvisor.Builds = {
 				Art of War##406064
 				Vanguard's Momentum##383314
 				Jurisdiction##402971
-				Crusade##231895
+				Crusade##384392
 				Rush of Light##407067
 				Zealot's Fervor##403509
 				Zealot's Fervor##403509
@@ -6216,57 +6184,47 @@ ZGV.TalentAdvisor.Builds = {
 				Second Sunrise##431474
 			]],
 			herorighttalents = [[
-			Zealous Vindication##431463
-			Sacrosanct Crusade##431730
-			Sanctification##432977
-			Light's Deliverance##425518
-			Shake the Heavens##431533
-			Higher Calling##431687
-			Hammerfall##432463
-			Wrathful Descent##431551
-			Unrelenting Charger##432990
-			Undisputed Ruling##432626
 			]],
 		},
 		
 		{
 			name = "Retribution (M+)",
 			spec = 3,
-			hero = "right",
+			hero = "left",
 			ident = "pally_ret_dungeon",
 			suggested = false, 
 			classtalents = [[
 				Lay on Hands##633
-				Fist of Justice##234299
-				Blinding Light##115750
+				Auras of the Resolute##385633
 				Cleanse Toxins##213644
-				Healing Hands##326734
+				Obduracy##385427
 				Divine Steed##190784
 				Cavalier##230332
-				Blessing of Freedom##1044
+				Blinding Light##115750
 				Rebuke##96231
-				Obduracy##385427
-				Divine Toll##375576
-				Unbound Freedom##305394
-				Sanctified Plates##402964
-				Sanctified Plates##402964
-				Punishment##403530
-				Divine Resonance##384027
-				Consecrated Ground##204054
+				Holy Aegis##385515
+				Holy Aegis##385515
+				Avenging Wrath##31884
+				Justification##377043
 				Blessing of Sacrifice##6940
 				Blessing of Protection##1022
-				Holy Aegis##385515
-				Divine Purpose##408459
+				Sanctified Plates##402964
+				Sanctified Plates##402964
+				Unbound Freedom##305394
 				Unbreakable Spirit##114154
-				Lightforged Blessing##403479
-				Lead the Charge##469780
-				Inspired Guard##469439
+				Healing Hands##326734
+				Touch of Light##385349
 				Seal of Might##385450
 				Seal of Might##385450
-				Vengeful Wrath##406835
-				Vengeful Wrath##406835
+				Divine Purpose##408459
+				Seal of Alacrity##385425
+				Seal of Alacrity##385425
 				Of Dusk and Dawn##385125
-				Lightbearer##469416
+				Seal of the Crusader##385728
+				Seal of the Crusader##385728
+				Divine Toll##375576
+				Seal of Order##385129
+				Divine Resonance##384027
 			]],
 			spectalents = [[
 				Blade of Justice##184575
@@ -6279,7 +6237,7 @@ ZGV.TalentAdvisor.Builds = {
 				Art of War##406064
 				Jurisdiction##402971
 				Tempest of the Lightbringer##383396
-				Crusade##231895
+				Crusade##384392
 				Zealot's Fervor##403509
 				Zealot's Fervor##403509
 				Crusading Strikes##404542
@@ -6313,16 +6271,6 @@ ZGV.TalentAdvisor.Builds = {
 				Second Sunrise##431474
 			]],
 			herorighttalents = [[
-			Zealous Vindication##431463
-			Sacrosanct Crusade##431730
-			Sanctification##432977
-			Light's Deliverance##425518
-			Shake the Heavens##431533
-			Higher Calling##431687
-			Hammerfall##432463
-			Wrathful Descent##431551
-			Unrelenting Charger##432990
-			Undisputed Ruling##432626
 			]],
 		},
 	
@@ -7127,26 +7075,26 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = true,
 			ident = "rogue_assa_leveling",
 			classtalents=[[
-				Blind##2094
 				Evasion##5277
-				Airborne Irritant##200733
-				Thrill Seeking##394931
-				Cheat Death##31230
-				Blackjack##379005
 				Cloak of Shadows##31224
+				Shadowstep##36554
+				Blind##2094
+				Airborne Irritant##200733
+				Elusiveness##79008
+				Blackjack##379005
 				Improved Sprint##231691
-				Master Poisoner##378436
-				Nimble Fingers##378427
-				Fleet Footed##378813
-				Iron Stomach##193546
 				Shadowrunner##378807
+				Nimble Fingers##378427
+				Iron Stomach##193546
+				Fleet Footed##378813
 				Featherfoot##423683
-				Graceful Guile##423647
 				Numbing Poison##5761
-				Deadly Precision##381542
-				Deadened Nerves##231719
+				Virulent Poisons##381543
+				Graceful Guile##423647
+				Rushed Setup##378803
 				Acrobatic Strikes##455143
-				Tight Spender##381621
+				Improved Ambush##381620
+				Deadened Nerves##231719
 				Lethality##382238
 				Lethality##382238
 				Cold Blood##382245
@@ -7154,54 +7102,56 @@ ZGV.TalentAdvisor.Builds = {
 				Alacrity##193539
 				Deeper Stratagem##193531
 				Recuperator##378996
-				Supercharger##470347
-				Supercharger##470347
-				Echoing Reprimand##470669
+				Echoing Reprimand##385616
+				Reverberation##394332
 				Leeching Poison##280716
+				Vigor##14983
+				Vigor##14983
+				Shiv##5938
 			]],
 			spectalents=[[
 				Deadly Poison##2823
+				Venomous Wounds##79134
+				Improved Poisons##381624
+				Seal Fate##14190
 				Improved Shiv##319032
 				Path of Blood##423054
 				Bloody Mess##381626
 				Improved Garrote##381632
-				Venomous Wounds##79134
-				Rapid Injection##455072
-				Seal Fate##14190
 				Deathmark##360194
+				Fatal Concoction##392384
+				Amplifying Poison##381664
+				Master Assassin##255989
+				Iron Wire##196861
+				Rapid Injection##455072
 				Thrown Precision##381629
 				Crimson Tempest##121411
-				Sanguine Stratagem##457512
-				Caustic Spatter##421975
-				Sanguine Blades##200806
+				Flying Daggers##381631
 				Lethal Dose##381640
 				Lethal Dose##381640
-				Improved Poisons##381624
 				Lightweight Shiv##394983
-				Iron Wire##196861
-				Doomblade##381673
 				Shrouded Suffocation##385478
 				Poison Bomb##255544
 				Poison Bomb##255544
 				Kingsbane##385627
 				Dragon-Tempered Blades##381801
 				Indiscriminate Carnage##381802
-				Serrated Bone Spikes##455352
 				Scent of Blood##381799
 				Scent of Blood##381799
 				Sudden Demise##423136
 			]],
 			herolefttalents=[[
-				Clear the Witnesses##457053
-				Fatal Intent##461980
-				Bait and Switch##457034
-				Darkest Night##457058
 				Hunt Them Down##457054
 				Corrupt the Blood##457066
 				Momentum of Despair##457067
+				Darkest Night##457058
+				Clear the Witnesses##457053
+				Fatal Intent##461980
+				Ethereal Cloak##457022
 				Singular Focus##457055
-				Lingering Darkness##457056
+				Symbolic Victory##457062
 				Shadewalker##457057
+				Deathstalker's Mark##457052
 			]],
 			herorighttalents=[[
 			]],
@@ -7210,7 +7160,7 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Assassination (Raid)",
 			spec = 1,
-			hero = "left",
+			hero = "right",
 			ident = "rogue_assa_raid",
 			suggested = false, 
 			classtalents = [[
@@ -7218,7 +7168,7 @@ ZGV.TalentAdvisor.Builds = {
 				Cloak of Shadows##31224
 				Evasion##5277
 				Airborne Irritant##200733
-				Thrill Seeking##394931
+				Shadowstep##36554
 				Master Poisoner##378436
 				Cheat Death##31230
 				Blackjack##379005
@@ -7236,14 +7186,14 @@ ZGV.TalentAdvisor.Builds = {
 				Improved Ambush##381620
 				Leeching Poison##280716
 				Lethality##382238
-				Lethality##382238
 				Recuperator##378996
 				Alacrity##193539
 				Alacrity##193539
 				Vigor##14983
 				Vigor##14983
-				Supercharger##470347
+				Echoing Reprimand##385616
 				Thistle Tea##381623
+				Resounding Clarity##381622
 				Deeper Stratagem##193531
 			]],
 			spectalents = [[
@@ -7252,20 +7202,20 @@ ZGV.TalentAdvisor.Builds = {
 				Venomous Wounds##79134
 				Path of Blood##423054
 				Rapid Injection##455072
+				Improved Poisons##381624
 				Bloody Mess##381626
 				Seal Fate##14190
 				Internal Bleeding##381627
-				Improved Garrote##381632
 				Lightweight Shiv##394983
 				Deathmark##360194
-				Master Assassin##255989
 				Sanguine Stratagem##457512
+				Vicious Venoms##381634
+				Vicious Venoms##381634
 				Fatal Concoction##392384
 				Lethal Dose##381640
 				Lethal Dose##381640
 				Systemic Failure##381652
 				Amplifying Poison##381664
-				Twist the Knife##381669
 				Doomblade##381673
 				Blindside##328085
 				Dashing Scoundrel##381797
@@ -7279,16 +7229,17 @@ ZGV.TalentAdvisor.Builds = {
 				Dragon-Tempered Blades##381801
 			]],
 			herolefttalents = [[
-				Clear the Witnesses##457053
-				Fatal Intent##461980
-				Bait and Switch##457034
-				Darkest Night##457058
 				Hunt Them Down##457054
 				Corrupt the Blood##457066
 				Momentum of Despair##457067
+				Darkest Night##457058
+				Clear the Witnesses##457053
+				Fatal Intent##461980
+				Ethereal Cloak##457022
 				Singular Focus##457055
-				Lingering Darkness##457056
+				Symbolic Victory##457062
 				Shadewalker##457057
+				Deathstalker's Mark##457052
 			]],
 			herorighttalents = [[
 			]],
@@ -7297,7 +7248,7 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Assassination (M+)",
 			spec = 1,
-			hero = "left",
+			hero = "right",
 			ident = "rogue_assa_dungeon",
 			suggested = false, 
 			classtalents = [[
@@ -7305,10 +7256,10 @@ ZGV.TalentAdvisor.Builds = {
 				Cloak of Shadows##31224
 				Evasion##5277
 				Airborne Irritant##200733
-				Thrill Seeking##394931
+				Shadowstep##36554
 				Master Poisoner##378436
 				Cheat Death##31230
-				Tricks of the Trade##57934
+				Blackjack##379005
 				Nimble Fingers##378427
 				Improved Sprint##231691
 				Fleet Footed##378813
@@ -7323,14 +7274,14 @@ ZGV.TalentAdvisor.Builds = {
 				Tight Spender##381621
 				Leeching Poison##280716
 				Lethality##382238
-				Lethality##382238
 				Recuperator##378996
 				Alacrity##193539
 				Alacrity##193539
 				Vigor##14983
 				Vigor##14983
-				Supercharger##470347
+				Echoing Reprimand##385616
 				Thistle Tea##381623
+				Resounding Clarity##381622
 				Deeper Stratagem##193531
 			]],
 			spectalents = [[
@@ -7366,16 +7317,17 @@ ZGV.TalentAdvisor.Builds = {
 				Sudden Demise##423136
 			]],
 			herolefttalents = [[
-				Clear the Witnesses##457053
-				Fatal Intent##461980
-				Bait and Switch##457034
-				Darkest Night##457058
 				Hunt Them Down##457054
 				Corrupt the Blood##457066
 				Momentum of Despair##457067
+				Darkest Night##457058
+				Clear the Witnesses##457053
+				Fatal Intent##461980
+				Ethereal Cloak##457022
 				Singular Focus##457055
-				Lingering Darkness##457056
+				Symbolic Victory##457062
 				Shadewalker##457057
+				Deathstalker's Mark##457052
 			]],
 			herorighttalents = [[
 			]],
@@ -7388,37 +7340,38 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = true,
 			ident = "rogue_outlaw_leveling",
 			classtalents=[[
-					Evasion##5277
-					Thrill Seeking##394931
-					Blackjack##379005
-					Cloak of Shadows##31224
-					Shadowrunner##378807
-					Improved Sprint##231691
-					Cheat Death##31230
-					Nimble Fingers##378427
-					Fleet Footed##378813
-					Numbing Poison##5761
-					Deadly Precision##381542
-					Master Poisoner##378436
-					Iron Stomach##193546
-					Deadened Nerves##231719
-					Featherfoot##423683
-					Graceful Guile##423647
-					Acrobatic Strikes##455143
-					Improved Ambush##381620
-					Rushed Setup##378803
-					Shadowheart##455131
-					Soothing Darkness##393970
-					Subterfuge##108208
-					Subterfuge##108208
-					Alacrity##193539
-					Alacrity##193539
-					Deeper Stratagem##193531
-					Without a Trace##382513
-					Leeching Poison##280716
-					Vigor##14983
-					Vigor##14983
-					Thistle Tea##381623
+				Shadowstep##36554
+				Blackjack##379005
+				Shadowrunner##378807
+				Evasion##5277
+				Cloak of Shadows##31224
+				Cheat Death##31230
+				Nimble Fingers##378427
+				Improved Sprint##231691
+				Featherfoot##423683
+				Graceful Guile##423647
+				Acrobatic Strikes##455143
+				Improved Ambush##381620
+				Master Poisoner##378436
+				Iron Stomach##193546
+				Deadened Nerves##231719
+				Shadowheart##455131
+				Fleet Footed##378813
+				Numbing Poison##5761
+				Deadly Precision##381542
+				Rushed Setup##378803
+				Soothing Darkness##393970
+				Subterfuge##108208
+				Subterfuge##108208
+				Alacrity##193539
+				Alacrity##193539
+				Deeper Stratagem##193531
+				Leeching Poison##280716
+				Vigor##14983
+				Vigor##14983
+				Thistle Tea##381623
+				Without a Trace##382513
+				Blind##2094
 			]],
 			spectalents=[[
 				Opportunity##279876
@@ -7429,42 +7382,43 @@ ZGV.TalentAdvisor.Builds = {
 				Precision Shot##428377
 				Retractable Hook##256188
 				Combat Stamina##381877
+				Fatal Flourish##35551
 				Quick Draw##196938
 				Killing Spree##51690
-				Fatal Flourish##35551
 				Devious Stratagem##394321
 				Ruthlessness##14161
 				Audacity##381845
-				Swift Slasher##381988
 				Loaded Dice##256170
 				Improved Adrenaline Rush##395422
+				Swift Slasher##381988
 				Thief's Versatility##381619
 				Improved Between the Eyes##235484
 				Dancing Steel##272026
 				Underhanded Upper Hand##424044
 				Take 'em by Surprise##382742
 				Take 'em by Surprise##382742
+				Hidden Opportunity##383281
 				Crackshot##423703
 				Ace Up Your Sleeve##381828
 				Fan the Hammer##381846
 				Fan the Hammer##381846
 				Ghostly Strike##196937
 				Count the Odds##381982
-				Hidden Opportunity##383281
 			]],
 			herolefttalents=[[
 			]],
 			herorighttalents=[[
-				Surprising Strikes##441273
-				So Tricky##441403
-				Disorienting Strikes##441274
-				Coup de Grace##441423
-				Smoke##441247
-				Devious Distractions##441263
-				No Scruples##441398
-				Flawless Form##441321
-				Thousand Cuts##441346
-				Nimble Flurry##441367
+			Surprising Strikes##441273
+			So Tricky##441403
+			Disorienting Strikes##441274
+			Coup de Grace##441423
+			Flawless Form##441321
+			Thousand Cuts##441346
+			Nimble Flurry##441367
+			Smoke##441247
+			Devious Distractions##441263
+			No Scruples##441398
+			Unseen Blade##441146
 			]],
 		},
 			
@@ -7478,7 +7432,7 @@ ZGV.TalentAdvisor.Builds = {
 				Cloak of Shadows##31224
 				Evasion##5277
 				Airborne Irritant##200733
-				Thrill Seeking##394931
+				Shadowstep##36554
 				Master Poisoner##378436
 				Cheat Death##31230
 				Tricks of the Trade##57934
@@ -7527,7 +7481,7 @@ ZGV.TalentAdvisor.Builds = {
 				Improved Between the Eyes##235484
 				Audacity##381845
 				Improved Adrenaline Rush##395422
-				Improved Main Gauche##382746
+				Dancing Steel##272026
 				Underhanded Upper Hand##424044
 				Count the Odds##381982
 				Ace Up Your Sleeve##381828
@@ -7565,7 +7519,7 @@ ZGV.TalentAdvisor.Builds = {
 				Cloak of Shadows##31224
 				Evasion##5277
 				Airborne Irritant##200733
-				Thrill Seeking##394931
+				Shadowstep##36554
 				Master Poisoner##378436
 				Cheat Death##31230
 				Tricks of the Trade##57934
@@ -7649,69 +7603,68 @@ ZGV.TalentAdvisor.Builds = {
 			suggested = true,
 			ident = "rogue_sub_leveling",
 			classtalents=[[
+				Shadowstep##36554
 				Blind##2094
 				Evasion##5277
 				Cheat Death##31230
 				Nimble Fingers##378427
-				Airborne Irritant##200733
 				Improved Sprint##231691
-				Thrill Seeking##394931
 				Master Poisoner##378436
-				Featherfoot##423683
-				Graceful Guile##423647
-				Improved Ambush##381620
+				Airborne Irritant##200733
 				Fleet Footed##378813
 				Numbing Poison##5761
 				Deadly Precision##381542
-				Iron Stomach##193546
-				Deadened Nerves##231719
+				Featherfoot##423683
+				Graceful Guile##423647
+				Improved Ambush##381620
 				Acrobatic Strikes##455143
-				Blackjack##379005
+				Deadened Nerves##231719
+				Iron Stomach##193546
+				Tricks of the Trade##57934
 				Shadowrunner##378807
 				Rushed Setup##378803
-				Alacrity##193539
-				Alacrity##193539
-				Deeper Stratagem##193531
+				Stillshroud##423662
 				Leeching Poison##280716
 				Vigor##14983
 				Vigor##14983
+				Alacrity##193539
+				Alacrity##193539
+				Deeper Stratagem##193531
 				Lethality##382238
 				Lethality##382238
 				Cold Blood##382245
-				Thistle Tea##381623
-				Soothing Darkness##393970
+				Shiv##5938
+				Cloak of Shadows##31224
 			]],
 			spectalents=[[
 				Find Weakness##91023
-				Improved Backstab##319949
 				Shadow Blades##121471
+				Improved Backstab##319949
 				Improved Shuriken Storm##319951
 				Quick Decisions##382503
 				Shadow Focus##108209
-				Ephemeral Bond##426563
+				Exhilarating Execution##428486
 				Cloaked in Shadows##382515
 				Secret Technique##280719
 				Shadowed Finishers##382511
 				Deepening Shadows##185314
 				Relentless Strikes##58423
 				Secret Stratagem##394320
-				Improved Shadow Techniques##394023
 				Improved Shadow Dance##393972
+				Improved Shadow Techniques##394023
 				Double Dance##394930
 				Veiltouched##382017
 				Planned Execution##382508
+				Shuriken Tornado##277925
 				Replicating Shadows##382506
-				Weaponmaster##193537
+				Flagellation##384631
 				Deeper Daggers##382517
 				Dark Shadow##245687
 				Dark Shadow##245687
 				Danse Macabre##382528
-				Finality##382525
+				Shadowcraft##426594
 				Finality##382525
 				Dark Brew##382504
-				Shadowcraft##426594
-				Goremaw's Bite##426591
-				Perforated Veins##382518
 			]],
 			herolefttalents=[[
 				Hunt Them Down##457054
@@ -7733,15 +7686,13 @@ ZGV.TalentAdvisor.Builds = {
 		{
 			name = "Subtlety (Raid)",
 			spec = 3,
-			hero = "right",
+			hero = "left",
 			ident = "rogue_sub_raid",
 			suggested = false, 
 			classtalents = [[
-				Blind##2094
+				Shiv##5938
 				Evasion##5277
-				Airborne Irritant##200733
-				Thrill Seeking##394931
-				Master Poisoner##378436
+				Shadowstep##36554
 				Cheat Death##31230
 				Tricks of the Trade##57934
 				Nimble Fingers##378427
@@ -7749,25 +7700,27 @@ ZGV.TalentAdvisor.Builds = {
 				Shadowrunner##378807
 				Fleet Footed##378813
 				Iron Stomach##193546
+				Unbreakable Stride##400804
 				Featherfoot##423683
 				Rushed Setup##378803
 				Atrophic Poison##381637
 				Deadened Nerves##231719
 				Graceful Guile##423647
+				Stillshroud##423662
 				Deadly Precision##381542
 				Acrobatic Strikes##455143
 				Improved Ambush##381620
 				Leeching Poison##280716
 				Lethality##382238
 				Lethality##382238
-				Recuperator##378996
 				Alacrity##193539
 				Alacrity##193539
-				Supercharger##470347
-				Supercharger##470347
+				Soothing Darkness##393970
+				Subterfuge##108208
+				Subterfuge##108208
 				Cold Blood##382245
-				Forced Induction##470668
 				Deeper Stratagem##193531
+				Without a Trace##382513
 			]],
 			spectalents = [[
 				Find Weakness##91023
@@ -7779,22 +7732,22 @@ ZGV.TalentAdvisor.Builds = {
 				Shadow Focus##108209
 				Fade to Nothing##382514
 				Swift Death##394309
+				Improved Shadow Techniques##394023
 				Improved Shadow Dance##393972
 				Secret Technique##280719
 				Relentless Strikes##58423
-				Premeditation##343160
+				Planned Execution##382508
 				Double Dance##394930
 				Shadowed Finishers##382511
 				Secret Stratagem##394320
-				Replicating Shadows##382506
 				Weaponmaster##193537
 				Deepening Shadows##185314
 				Veiltouched##382017
 				Inevitability##382512
 				Deeper Daggers##382517
 				Flagellation##384631
-				Death Perception##469642
-				Death Perception##469642
+				Invigorating Shadowdust##382523
+				Invigorating Shadowdust##382523
 				Dark Shadow##245687
 				Dark Shadow##245687
 				The Rotten##382015
@@ -7815,16 +7768,6 @@ ZGV.TalentAdvisor.Builds = {
 				Deathstalker's Mark##457052
 			]],
 			herorighttalents = [[
-			Surprising Strikes##441273
-			So Tricky##441403
-			Disorienting Strikes##441274
-			Coup de Grace##441423
-			Smoke##441247
-			Devious Distractions##441263
-			No Scruples##441398
-			Flawless Form##441321
-			Thousand Cuts##441346
-			Nimble Flurry##441367
 			]],
 		},
 	
@@ -7839,7 +7782,7 @@ ZGV.TalentAdvisor.Builds = {
 				Blind##2094
 				Evasion##5277
 				Airborne Irritant##200733
-				Thrill Seeking##394931
+				Shadowstep##36554
 				Master Poisoner##378436
 				Cheat Death##31230
 				Tricks of the Trade##57934
@@ -7851,21 +7794,21 @@ ZGV.TalentAdvisor.Builds = {
 				Featherfoot##423683
 				Rushed Setup##378803
 				Numbing Poison##5761
-				Deadened Nerves##231719
 				Graceful Guile##423647
+				Stillshroud##423662
 				Deadly Precision##381542
 				Acrobatic Strikes##455143
 				Improved Ambush##381620
+				Leeching Poison##280716
 				Lethality##382238
 				Lethality##382238
-				Recuperator##378996
 				Alacrity##193539
 				Alacrity##193539
 				Soothing Darkness##393970
-				Supercharger##470347
-				Supercharger##470347
+				Vigor##14983
+				Vigor##14983
+				Thistle Tea##381623
 				Cold Blood##382245
-				Forced Induction##470668
 				Deeper Stratagem##193531
 			]],
 			spectalents = [[
@@ -7873,32 +7816,32 @@ ZGV.TalentAdvisor.Builds = {
 				Improved Backstab##319949
 				Shadow Blades##121471
 				Improved Shuriken Storm##319951
-				Shot in the Dark##257505
-				Ephemeral Bond##426563
-				Shrouded in Darkness##382507
+				Quick Decisions##382503
+				Exhilarating Execution##428486
+				Shadow Focus##108209
 				Fade to Nothing##382514
-				Swift Death##394309
+				Improved Shadow Techniques##394023
 				Improved Shadow Dance##393972
 				Secret Technique##280719
 				Relentless Strikes##58423
-				Premeditation##343160
+				Planned Execution##382508
 				Double Dance##394930
 				Shadowed Finishers##382511
 				Secret Stratagem##394320
 				Replicating Shadows##382506
 				Weaponmaster##193537
 				Deepening Shadows##185314
-				Shuriken Tornado##277925
+				Veiltouched##382017
 				Inevitability##382512
 				Deeper Daggers##382517
 				Flagellation##384631
-				Death Perception##469642
-				Death Perception##469642
 				Dark Shadow##245687
 				Dark Shadow##245687
-				The Rotten##382015
+				Finality##382525
+				Finality##382525
 				Shadowcraft##426594
 				Danse Macabre##382528
+				Dark Brew##382504
 			]],
 			herolefttalents = [[
 			]],
@@ -7906,7 +7849,7 @@ ZGV.TalentAdvisor.Builds = {
 			Surprising Strikes##441273
 			So Tricky##441403
 			Disorienting Strikes##441274
-			Coup de Grace##441423
+			Coup De Grace##441423
 			Smoke##441247
 			Devious Distractions##441263
 			No Scruples##441398
@@ -8227,35 +8170,37 @@ ZGV.TalentAdvisor.Builds = {
 			]],
 			spectalents=[[
 				Stormstrike##17364
-				Windfury Weapon##33757
 				Lava Lash##60103
+				Ice Strike##342240
+				Windfury Weapon##33757
 				Improved Maelstrom Weapon##383303
-				Ice Strike##470194
+				Improved Maelstrom Weapon##383303
 				Raging Maelstrom##384143
+				Molten Assault##334033
 				Molten Assault##334033
 				Hailstorm##334195
 				Swirling Maelstrom##384359
-				Tempest Strikes##428071
 				Sundering##197214
 				Crash Lightning##187874
 				Crashing Storms##334308
+				Tempest Strikes##428071
+				Flurry##382888
 				Forceful Winds##262647
 				Unruly Winds##390288
 				Doom Winds##384352
-				Storm's Wrath##392352
-				Stormblast##319930
+				Elemental Weapons##384355
 				Elemental Weapons##384355
 				Stormflurry##344357
 				Feral Spirit##51533
 				Elemental Assault##210853
 				Elemental Assault##210853
-				Flowing Spirits##469314
 				Primordial Wave##375982
+				Witch Doctor's Ancestry##384447
+				Primal Maelstrom##384405
+				Primal Maelstrom##384405
+				Splintered Elements##382042
+				Alpha Wolf##198434
 				Ascendance##114051
-				Static Accumulation##384411
-				Static Accumulation##384411
-				Thorim's Invocation##384444
-				Legacy of the Frost Witch##384450
 			]],
 			herolefttalents=[[
 				Unlimited Power##454391
@@ -8263,11 +8208,12 @@ ZGV.TalentAdvisor.Builds = {
 				Voltaic Surge##454919
 				Awakening Storms##455129
 				Stormcaller##454021
-				Arc Discharge##455096
+				Storm Swell##455088
 				Conductive Energy##455123
-				Electroshock##454022
+				Shocking Grasp##454022
 				Rolling Thunder##454026
 				Nature's Protection##454027
+				Tempest##454009
 			]],
 			herorighttalents=[[
 			]],
@@ -8287,14 +8233,14 @@ ZGV.TalentAdvisor.Builds = {
 				Spirit Wolf##260878
 				Frost Shock##196840
 				Winds of Al'Akir##382215
-				Elemental Orbit##383010
 				Fire and Ice##382886
 				Capacitor Totem##192058
 				Spirit Walk##58875
 				Brimming with Life##381689
+				Healing Stream Totem##5394
 				Purge##370
 				Earth Elemental##198103
-				Cleanse Spirit##51886
+				Elemental Resistance##462368
 				Nature's Guardian##30884
 				Nature's Fury##381655
 				Refreshing Waters##378211
@@ -8322,7 +8268,7 @@ ZGV.TalentAdvisor.Builds = {
 				Unruly Winds##390288
 				Elemental Blast##117014
 				Raging Maelstrom##384143
-				Ice Strike##470194
+				Ice Strike##342240
 				Hailstorm##334195
 				Doom Winds##384352
 				Flurry##382888
@@ -8331,7 +8277,7 @@ ZGV.TalentAdvisor.Builds = {
 				Storm's Wrath##392352
 				Stormflurry##344357
 				Stormblast##319930
-				Voltaic Blaze##470053
+				Elemental Weapons##384355
 				Elemental Weapons##384355
 				Primordial Wave##375982
 				Feral Spirit##51533
@@ -8345,16 +8291,17 @@ ZGV.TalentAdvisor.Builds = {
 				Thorim's Invocation##384444
 			]],
 			herolefttalents = [[
-			Unlimited Power##454391
-			Supercharge##455110
-			Voltaic Surge##454919
-			Awakening Storms##455129
-			Stormcaller##454021
-			Arc Discharge##455096
-			Conductive Energy##455123
-			Electroshock##454022
-			Rolling Thunder##454026
-			Nature's Protection##454027
+				Unlimited Power##454391
+				Supercharge##455110
+				Voltaic Surge##454919
+				Awakening Storms##455129
+				Stormcaller##454021
+				Storm Swell##455088
+				Conductive Energy##455123
+				Shocking Grasp##454022
+				Rolling Thunder##454026
+				Nature's Protection##454027
+				Tempest##454009
 			]],
 			herorighttalents = [[
 			]],
@@ -8374,15 +8321,15 @@ ZGV.TalentAdvisor.Builds = {
 				Spirit Wolf##260878
 				Frost Shock##196840
 				Winds of Al'Akir##382215
-				Elemental Orbit##383010
 				Fire and Ice##382886
 				Capacitor Totem##192058
 				Spirit Walk##58875
 				Brimming with Life##381689
+				Healing Stream Totem##5394
 				Static Charge##265046
 				Purge##370
 				Earth Elemental##198103
-				Cleanse Spirit##51886
+				Elemental Resistance##462368
 				Nature's Guardian##30884
 				Nature's Fury##381655
 				Refreshing Waters##378211
@@ -8407,17 +8354,17 @@ ZGV.TalentAdvisor.Builds = {
 				Improved Maelstrom Weapon##383303
 				Molten Assault##334033
 				Unruly Winds##390288
+				Tempest Strikes##428071
 				Raging Maelstrom##384143
-				Ice Strike##470194
-				Fire Nova##333974
+				Ice Strike##342240
+				Hailstorm##334195
 				Doom Winds##384352
 				Overflowing Maelstrom##384149
 				Swirling Maelstrom##384359
 				Storm's Wrath##392352
 				Crash Lightning##187874
 				Stormflurry##344357
-				Stormblast##319930
-				Voltaic Blaze##470053
+				Elemental Weapons##384355
 				Elemental Weapons##384355
 				Crashing Storms##334308
 				Primordial Wave##375982
@@ -8432,16 +8379,17 @@ ZGV.TalentAdvisor.Builds = {
 				Thorim's Invocation##384444
 			]],
 			herolefttalents = [[
-			Unlimited Power##454391
-			Supercharge##455110
-			Voltaic Surge##454919
-			Awakening Storms##455129
-			Stormcaller##454021
-			Arc Discharge##455096
-			Conductive Energy##455123
-			Electroshock##454022
-			Rolling Thunder##454026
-			Nature's Protection##454027
+				Unlimited Power##454391
+				Supercharge##455110
+				Voltaic Surge##454919
+				Awakening Storms##455129
+				Stormcaller##454021
+				Storm Swell##455088
+				Conductive Energy##455123
+				Shocking Grasp##454022
+				Rolling Thunder##454026
+				Nature's Protection##454027
+				Tempest##454009
 			]],
 			herorighttalents = [[
 			]],
@@ -8486,53 +8434,53 @@ ZGV.TalentAdvisor.Builds = {
 				Arctic Snowstorm##462764
 				Lava Burst##51505
 				Chain Lightning##188443
-				Totemic Focus##382201
 			]],
 			spectalents=[[
-				Earth Shock##8042
-				Earthquake##61882
+				Elemental Blast##117014
 				Elemental Fury##60188
-				Surge of Power##262303
-				Storm Elemental##192249
+				Aftershock##273221
+				Earthquake##61882
+				Fire Elemental##198067
 				Echo of the Elements##333919
-				Stormkeeper##191634
 				Flash of Lightning##381936
-				Fury of the Storms##191717
-				Primordial Fury##378193
+				Icefury##462816
+				Fusion of Elements##462840
+				Unrelenting Calamity##382685
 				Swelling Maelstrom##381707
 				Master of the Elements##16166
-				Power of the Maelstrom##191861
-				Lightning Capacitor##462862
-				Echo Chamber##382032
-				Thunderstrike Ward##462757
-				Earthshatter##468626
 				Elemental Unity##462866
+				Primordial Fury##378193
+				Flow of Power##385923
+				Improved Flametongue Weapon##382027
+				Searing Flames##381782
 				Flames of the Cauldron##378266
-				Icefury##462816
-				Ascendance##114050
-				First Ascendant##462440
-				Deeply Rooted Elements##378270
+				Lightning Conduit##462862
 				Eye of the Storm##381708
-				Lightning Rod##210689
-				Charged Conduit##468625
+				Ascendance##114050
+				Preeminence##462443
+				Deeply Rooted Elements##378270
 				Primordial Wave##375982
 				Splintered Elements##382042
 				Liquid Magma Totem##192222
+				Echo of the Elementals##462864
+				Skybreaker's Fiery Demise##378310
+				Mountains Will Fall##381726
 				Echoes of Great Sundering##384087
 			]],
 			herolefttalents=[[
 			]],
 			herorighttalents=[[
-			Unlimited Power##454391
-			Supercharge##455110
-			Voltaic Surge##454919
-			Awakening Storms##455129
-			Stormcaller##454021
-			Arc Discharge##455096
-			Conductive Energy##455123
-			Electroshock##454022
-			Rolling Thunder##454026
-			Nature's Protection##454027
+				Stormcaller##454021
+				Storm Swell##455088
+				Conductive Energy##455123
+				Awakening Storms##455129
+				Unlimited Power##454391
+				Supercharge##455110
+				Voltaic Surge##454919
+				Shocking Grasp##454022
+				Rolling Thunder##454026
+				Nature's Protection##454027
+				Surging Totem##444995
 			]],
 		},
 				
@@ -8547,14 +8495,13 @@ ZGV.TalentAdvisor.Builds = {
 				Earth Shield##974
 				Wind Shear##57994
 				Planes Traveler##381647
-				Thunderous Paws##378075
-				Frost Shock##196840
+				Spirit Wolf##260878
 				Elemental Orbit##383010
 				Fire and Ice##382886
 				Capacitor Totem##192058
 				Gust of Wind##192063
 				Brimming with Life##381689
-				Guardian's Cudgel##381819
+				Static Charge##265046
 				Purge##370
 				Earth Elemental##198103
 				Cleanse Spirit##51886
@@ -8566,12 +8513,13 @@ ZGV.TalentAdvisor.Builds = {
 				Spiritwalker's Grace##79206
 				Ancestral Guidance##108281
 				Thunderstorm##51490
+				Totemic Focus##382201
 				Enhanced Imbues##462796
 				Graceful Spirit##192088
+				Totemic Surge##381867
 				Seasoned Winds##355630
 				Thundershock##378779
 				Totemic Recall##108285
-				Nature's Swiftness##378081
 				Stone Bulwark Totem##108270
 				Call of the Elements##383011
 			]],
@@ -8583,57 +8531,58 @@ ZGV.TalentAdvisor.Builds = {
 				Flash of Lightning##381936
 				Surge of Power##262303
 				Echo of the Elements##333919
-				Icefury##462816
-				Stormkeeper##191634
+				Unrelenting Calamity##382685
 				Master of the Elements##16166
-				Fusion of Elements##462840
-				Storm Frenzy##462695
 				Swelling Maelstrom##381707
 				Primordial Fury##378193
-				Fury of the Storms##191717
+				Flow of Power##385923
 				Elemental Unity##462866
-				Lightning Capacitor##462862
+				Lightning Conduit##462862
 				Power of the Maelstrom##191861
-				Earthshatter##468626
+				Everlasting Elements##462867
+				Eye of the Storm##381708
 				Thunderstrike Ward##462757
 				Echo Chamber##382032
-				Elemental Equilibrium##378271
-				Eye of the Storm##381708
-				Ascendance##114050
+				Earthen Rage##170374
+				Stormkeeper##191634
+				Echo of the Elementals##462864
+				Primordial Wave##375982
+				Fury of the Storms##191717
+				Skybreaker's Fiery Demise##378310
+				Magma Chamber##381932
+				Splintered Elements##382042
 				Lightning Rod##210689
-				Mountains Will Fall##381726
-				Preeminence##462443
-				Charged Conduit##468625
-				Echoes of Great Sundering##384087
-				Deeply Rooted Elements##378270
+				Primal Elementalist##117013
+				Liquid Magma Totem##192222
 			]],
 			herolefttalents = [[
 			]],
 			herorighttalents = [[
-			Unlimited Power##454391
-			Supercharge##455110
-			Voltaic Surge##454919
-			Awakening Storms##455129
-			Stormcaller##454021
-			Arc Discharge##455096
-			Conductive Energy##455123
-			Electroshock##454022
-			Rolling Thunder##454026
-			Nature's Protection##454027
+				Stormcaller##454021
+				Storm Swell##455088
+				Conductive Energy##455123
+				Awakening Storms##455129
+				Unlimited Power##454391
+				Supercharge##455110
+				Voltaic Surge##454919
+				Shocking Grasp##454022
+				Rolling Thunder##454026
+				Nature's Protection##454027
+				Surging Totem##444995
 			]],
 		},
 	
 		{
 			name = "Elemental (Raid)",
 			spec = 1,
-			hero = "right",
+			hero = "left",
 			ident = "sha_ele_raid",
 			suggested = false, 
 			classtalents = [[
 				Astral Shift##108271
 				Earth Shield##974
 				Wind Shear##57994
-				Astral Bulwark##377933
+				Planes Traveler##381647
 				Thunderous Paws##378075
 				Frost Shock##196840
 				Winds of Al'Akir##382215
@@ -8646,53 +8595,53 @@ ZGV.TalentAdvisor.Builds = {
 				Cleanse Spirit##51886
 				Nature's Guardian##30884
 				Nature's Fury##381655
-				Refreshing Waters##378211
 				Elemental Warding##381650
 				Wind Rush Totem##192077
 				Primordial Bond##381764
 				Spiritwalker's Grace##79206
 				Ancestral Guidance##108281
 				Thunderstorm##51490
+				Totemic Focus##382201
+				Jet Stream##462817
 				Enhanced Imbues##462796
 				Graceful Spirit##192088
 				Totemic Surge##381867
+				Mana Spring##381930
 				Thundershock##378779
-				Totemic Recall##108285
 				Nature's Swiftness##378081
 				Stone Bulwark Totem##108270
-				Call of the Elements##383011
 			]],
 			spectalents = [[
-				Elemental Blast##117014
+				Earth Shock##8042
 				Earthquake##462620
 				Elemental Fury##60188
 				Storm Elemental##192249
 				Flash of Lightning##381936
-				Aftershock##273221
+				Surge of Power##262303
 				Echo of the Elements##333919
-				Icefury##462816
-				Stormkeeper##191634
+				Unrelenting Calamity##382685
 				Master of the Elements##16166
-				Fusion of Elements##462840
-				Storm Frenzy##462695
 				Swelling Maelstrom##381707
 				Primordial Fury##378193
-				Fury of the Storms##191717
-				Lightning Capacitor##462862
+				Flow of Power##385923
+				Elemental Unity##462866
+				Lightning Conduit##462862
 				Power of the Maelstrom##191861
-				Earthshatter##468626
+				Everlasting Elements##462867
+				Eye of the Storm##381708
 				Thunderstrike Ward##462757
 				Echo Chamber##382032
-				Searing Flames##381782
+				Earthen Rage##170374
 				Elemental Equilibrium##378271
-				Eye of the Storm##381708
-				Ascendance##114050
+				Stormkeeper##191634
+				Echo of the Elementals##462864
 				Primordial Wave##375982
-				Lightning Rod##210689
-				Mountains Will Fall##381726
-				Preeminence##462443
+				Fury of the Storms##191717
+				Skybreaker's Fiery Demise##378310
+				Magma Chamber##381932
 				Splintered Elements##382042
-				Deeply Rooted Elements##378270
+				Lightning Rod##210689
+				Primal Elementalist##117013
 			]],
 			herolefttalents = [[
 				Routine Communication##443445
@@ -8708,16 +8657,6 @@ ZGV.TalentAdvisor.Builds = {
 				Call of the Ancestors##443450
 			]],
 			herorighttalents = [[
-			Unlimited Power##454391
-			Supercharge##455110
-			Voltaic Surge##454919
-			Awakening Storms##455129
-			Stormcaller##454021
-			Arc Discharge##455096
-			Conductive Energy##455123
-			Electroshock##454022
-			Rolling Thunder##454026
-			Nature's Protection##454027
 			]],
 		},
 	

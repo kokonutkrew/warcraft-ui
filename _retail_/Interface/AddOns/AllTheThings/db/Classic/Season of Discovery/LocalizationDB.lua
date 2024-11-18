@@ -12436,3 +12436,20 @@ for key,value in pairs({
 do achievementCategories[key].name = value; end
 end
 end
+
+
+-- Add a Header & Filter debugger
+setmetatable(_.FilterConstants, {
+	__index = function(t, key)
+		_.print("MISSING FilterConstant:", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});
+setmetatable(_.HeaderConstants, {
+	__index = function(t, key)
+		_.print("MISSING HeaderConstant:", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});

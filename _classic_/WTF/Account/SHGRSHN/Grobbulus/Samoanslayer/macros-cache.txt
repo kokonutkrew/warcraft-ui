@@ -1,0 +1,97 @@
+VER 3 0000000001000002 "01.RangedPull" "INV_MISC_QUESTIONMARK"
+#showtool
+/startattack
+/castsequence [form:3] reset=25/combat berserker rage, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow, shoot bow
+/use berserker stance
+END
+VER 3 000000000100000C "02.LightDamage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/castsequence [form:1] heroic strike
+/castsequence [form:2] sunder armor
+/castsequence [form:3] heroic strike
+/use 14
+END
+VER 3 0000000001000003 "03.Dots" "INV_MISC_QUESTIONMARK"
+/use bloodrage
+/use rend
+/use 13
+END
+VER 3 0000000001000010 "04.AoeDamageNew" "INV_MISC_QUESTIONMARK"
+#show whirlwind
+/startattack
+/castsequence [form:3] reset=combat/target/30 whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind
+/use berserker stance
+END
+VER 3 000000000100000D "04.AoeRotation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/castsequence [form:1] reset=target demoralizing shout, thunder clap, cleave, cleave, cleave, cleave, cleave
+/castsequence [form:3] reset=target demoralizing shout, whirlwind, whirlwind, whirlwind
+END
+VER 3 0000000001000004 "05.BattleBuffs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=120 battle shout,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage
+END
+VER 3 0000000001000005 "07.HotsSetTarget" "INV_MISC_QUESTIONMARK"
+#show sweeping strikes
+/use [form:1] sweeping strikes
+/use battle stance
+END
+VER 3 0000000001000007 "10.BigDamage" "132094"
+/use [form:1] overpower
+/use [form:2] revenge
+/use [form:3] overpower
+/use execute
+END
+VER 3 0000000001000014 "11.CastAoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/stopcasting
+/use whirlwind
+END
+VER 3 0000000001000012 "11.ThrowDynamite" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] solid dynamite
+/stopcasting
+END
+VER 3 000000000100000E "12.Finisher" "INV_MISC_QUESTIONMARK"
+#show Execute
+/use [form:3] execute
+/use berserker stance
+END
+VER 3 0000000001000009 "xCharge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [form:3,combat] berserker stance, intercept
+/castsequence [form:1] reset=combat/target/30 charge, battle shout, thunder clap, demoralizing shout
+/use battle stance
+END
+VER 3 0000000001000011 "xInterupt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [form:1] reset=target shield bash
+/castsequence [form:2] shield bash
+/castsequence [form:3] pummel
+END
+VER 3 000000000100000A "xOverpower" "INV_MISC_QUESTIONMARK"
+#show Overpower
+/use [form:1] overpower
+/use battle stance
+END
+VER 3 000000000100000B "xRevenge" "INV_MISC_QUESTIONMARK"
+#show Revenge
+/use [form:2] revenge
+/use defensive stance
+END
+VER 3 0000000001000013 "xSlow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [form:1] hamstring
+/castsequence [form:2] disarm
+/castsequence [form:3] hamstring
+END
+VER 3 0000000001000008 "xTauntDefensive" "INV_MISC_QUESTIONMARK"
+#show taunt
+/use [mod:shift] mocking blow
+/use [form:2] taunt
+/use defensive stance
+END

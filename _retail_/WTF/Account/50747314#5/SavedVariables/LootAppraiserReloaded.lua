@@ -1,9 +1,6 @@
 
 LootAppraiserReloadedDB = {
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Default",
-["Bigbrane - Emerald Dream"] = "Default",
-["Dethflare - Emerald Dream"] = "Default",
 ["Winbin - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
@@ -13,9 +10,6 @@ LootAppraiserReloadedDB = {
 }
 LALootDB = {
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Default",
-["Bigbrane - Emerald Dream"] = "Default",
-["Dethflare - Emerald Dream"] = "Default",
 ["Winbin - Emerald Dream"] = "Default",
 },
 }

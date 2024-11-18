@@ -1,0 +1,155 @@
+VER 3 0100000000000002 ".a.y7 Pull" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount
+/use [known:319836]fire blast;[known:moonfire]moonfire;[known:193455]cobra shot
+/use !auto shot
+END
+VER 3 0100000000000003 ".a.yAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2782]remove corruption
+END
+VER 3 0100000000000004 ".a.yE Talent 3" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2094]blind;
+END
+VER 3 0100000000000005 ".a.yQ Interrupt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:1766]kick;[known:78675]solar beam;[known:147362]counter shot;[known:2139] counterspell;[known:106839]skull bash
+END
+VER 3 0100000000000006 ".a.yScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:186257]aspect of the cheetah;[known:2983]sprint;[known:77764]stampeding roar;[known:dash]dash;[known:68992]darkflight
+END
+VER 3 0100000000000007 ".f01 TargetSelf" "135914"
+/focus [mod:shift] arena1
+/focus
+/target player
+END
+VER 3 0100000000000008 ".f02 FollowParty1" "135914"
+/focus arena2
+/follow party1
+/assist party1
+/target party1
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000009 ".f03 FollowParty2" "135914"
+/follow party2
+/assist party2
+/target party2
+/focus arena3
+END
+VER 3 010000000000000A ".f06 Follow Mast" "135914"
+/sg follow
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 010000000000000B ".f08 Set Master" "135914"
+/sg master
+/sg follow
+/run InviteUnit("Goldsquid-Moonguard");
+/ffa
+/changeactionbar 2
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 010000000000000C ".f11 Bait" "INV_Misc_QuestionMark"
+#showtooltip
+/use shiny bauble
+/use strong fishing pole
+END
+VER 3 010000000000000D ".f13 ExtraAction" "INV_Misc_QuestionMark"
+#showtooltip
+/click ExtraActionButton1
+/click ExtraActionButton2
+/click ExtraActionButton3
+/click ExtraActionButton4
+/click ExtraActionButton5
+/click ExtraActionButton6
+/click ExtraActionButton7
+/click ExtraActionButton8
+END
+VER 3 010000000000000E ".f13 Fish Bait" "1379246"
+/use survey
+/castsequence [nomod] Fishing
+/equipset [mod:alt] Max Fishing
+/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
+/use [mod:shift] Worm Supreme
+END
+VER 3 010000000000000F ".f13 Mount Auto" "INV_Misc_QuestionMark"
+#showtooltip
+/use bubble wand
+/use [known:783] Travel Form
+/use [nostance:2] Cat Form
+/randompet
+/use [swimming]the hivemind
+/use [group,noflyable]grand black war mammoth
+/use [group,flyable]obsidian nightwing
+/run C_MountJournal.SummonByID(0)
+END
+VER 3 0100000000000010 ".f13 Mount Xmog" "INV_Misc_QuestionMark"
+#showtooltip
+/use Grand Expedition Yak
+/use Summon Chauffeur
+END
+VER 3 0100000000000011 ".FormCancel" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount
+/cancelform [stance:1/2/3/4/5/6/7/8/9/10]
+END
+VER 3 0100000000000012 ".g Community" "135026"
+<[o.O]><[KK]> |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KK]|h|r or PVP |cffffd200|HclubFinder:ClubFinder-1-538815-3676-116717275|h[Guild: kk]|h|r
+END
+VER 3 0100000000000013 "1. Opener" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=target remorseless winter, obliterate, obliterate, horn of winter, pillar of frost, chill streak
+END
+VER 3 0100000000000014 "Anti-Magic Zone" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] anti-magic zone
+END
+VER 3 0100000000000015 "Bank" "INV_Misc_QuestionMark"
+#showtooltip
+/use mobile banking
+END
+VER 3 0100000000000001 "Death and Decay" "134400"
+#showtooltip
+/use [@player] death and decay
+END
+VER 3 0100000000000016 "Death&Decay" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] death and decay
+END
+VER 3 0100000000000017 "Mailbox" "INV_Misc_QuestionMark"
+#showtooltip
+/use ohuna perch
+END
+VER 3 0100000000000018 "NEW_SEQUENCE" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] NEW_SEQUENCE LeftButton t; NEW_SEQUENCE
+END
+VER 3 0100000000000019 "ProfessionA" "134400"
+/use  [known:tailoring]tailoring;[known:194174] Skinning Journal;[known:blacksmithing]blacksmithing;[known:inscription]inscription;
+END
+VER 3 010000000000001A "ProfessionB" "134400"
+/use  [known:inscription]inscription;[known:alchemy]alchemy;[known:enchanting]enchanting;[known:engineering]engineering;[known:jewelcrafting]jewelcrafting;[known:2108]leatherworking;
+END
+VER 3 010000000000001B "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000001C "VuhDoDCShieldNames" "132281"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000001D "zHunter01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nopet] Call Pet 1
+/cast [@pet,dead] Revive Pet
+/petattack
+/cast [pet,nomod,button:1] Mend Pet
+/cast [pet,nomod,button:2] Dismiss Pet
+/cast [pet,mod:alt] Feed Pet
+/use [pet,mod:alt] bloody percha
+END

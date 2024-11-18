@@ -1,0 +1,15 @@
+Version: 1
+Frame: SuperScanFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 16
+Y: -48
+W: 130
+H: 30
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 8
+Y: -190
+W: 486
+H: 159

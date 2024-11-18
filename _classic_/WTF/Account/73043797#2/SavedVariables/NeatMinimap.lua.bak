@@ -1,0 +1,10 @@
+
+NeatMinimapSaved = {
+	["doTrack"] = false,
+	["doClock"] = false,
+	["addonVersion"] = "v1.06.02",
+	["doNight"] = true,
+	["addonHash"] = "7d411bd",
+	["delay"] = 0.5,
+	["doGarrison"] = false,
+}

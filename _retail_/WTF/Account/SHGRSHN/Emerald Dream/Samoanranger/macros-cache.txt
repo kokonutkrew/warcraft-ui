@@ -1,10 +1,12 @@
-VER 3 0100000000000001 "BMBFAST" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000009 "Cobra Shot" "134400"
 #showtooltip
-/click [button:2] BMBFAST RightButton; [button:3] BMBFAST MiddleButton; [button:4] BMBFAST Button4; [button:5] BMBFAST Button5; BMBFAST
+/use [@mouseover] cobra shot; cobra shot
 END
-VER 3 0100000000000002 "VuhDoDCShieldData" "Ability_Repair"
-P1NT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
-NSam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 0100000000000007 "covAbility" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Resonating Arrow
+/cast Flayed Shot
+/cast Death Chakram
+/cast [@cursor] Wild Spirits
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Resonating Arrow" or G"Flayed Shot" or G"Death Chakram"or G"Wild Spirits")
 END

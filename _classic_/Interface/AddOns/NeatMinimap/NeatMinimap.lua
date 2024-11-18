@@ -24,7 +24,7 @@ local L = NMM.L
 -- NMM.debug = 9 -- to debug before saved variables are loaded
 
 NMM.slashCmdName = "nmm"
-NMM.addonHash = "505c494"
+NMM.addonHash = "7d411bd"
 NMM.savedVarName = "NeatMinimapSaved"
 
 -- Defaults
@@ -158,7 +158,6 @@ NMM.exclude = {
   ["TopRightMiniPanel"] = true,
   ["BottomLeftMiniPanel"] = true,
   ["BottomRightMiniPanel"] = true,
-  ["MinimapPanel"] = true,
   -- Questie 4.1 onward
   ["QuestieFrameGroup"] = true
 }
@@ -181,11 +180,6 @@ function NMM:UpdateButtons()
   else
     self:Debug("ElvUI case, we'll start with fewer managed buttons")
     NMM.buttons = {}
-  end
-  if NMM.square then
-    NMM.exclude["MinimapBorder"] = false
-    NMM.exclude["MinimapBackdrop"] = false
-    Minimap:SetMaskTexture("")
   end
   NMM.exclude["TimeManagerClockButton"] = not NMM.doClock
   NMM.exclude["MiniMapTrackingFrame"] = not NMM.doTrack
@@ -300,11 +294,11 @@ function NMM.Slash(arg) -- can't be a : because used directly as slash command
     local subText = L["Please submit on discord or on curse or github or email"]
     NMM:PrintDefault(L["NeatMinimap bug report open: "] .. subText)
     -- base molib will add version and date/timne
-    NMM:BugReport(subText, "505c494\n\n" .. L["Bug report from slash command"])
+    NMM:BugReport(subText, "7d411bd\n\n" .. L["Bug report from slash command"])
   elseif cmd == "v" then
     -- version
     NMM:PrintDefault("NeatMinimap " .. NMM.manifestVersion ..
-                       " (505c494) by MooreaTv (moorea@ymail.com)")
+                       " (7d411bd) by MooreaTv (moorea@ymail.com)")
   elseif cmd == "c" then
     -- Show config panel
     -- InterfaceOptionsList_DisplayPanel(NMM.optionsPanel)
@@ -347,10 +341,7 @@ function NMM:CreateOptionsPanel()
   p:addText(L["NeatMinimap options"], "GameFontNormalLarge"):Place()
   p:addText(L["Neat Minimap auto hides/shows buttons and clutter as needed"]):Place()
   p:addText(L["These options let you control the behavior of NeatMinimap"] .. " " .. NMM.manifestVersion ..
-              " 505c494"):Place()
-
-  local makeSquare = p:addCheckBox(L["Make the minimap square"], L["Experimental minimalistic square version"])
-                    :Place(4, 20)
+              " 7d411bd"):Place()
 
   local doClock = p:addCheckBox(L["Also hide/show Clock"], L["Whether the Blizzard clock should also be hidden/shown"])
                     :Place(4, 20)
@@ -404,7 +395,6 @@ function NMM:CreateOptionsPanel()
     doGarrison:SetChecked(NMM.doGarrison)
     doTrack:SetChecked(NMM.doTrack)
     delaySlider:SetValue(NMM.delay)
-    makeSquare:SetValue(NMM.square)
     NMM:ShowButtons()
   end
 
@@ -432,7 +422,6 @@ function NMM:CreateOptionsPanel()
     NMM:SetSaved("doGarrison", doGarrison:GetChecked())
     NMM:SetSaved("doTrack", doTrack:GetChecked())
     NMM:SetSaved("delay", delaySlider:GetValue())
-    NMM:SetSaved("square", makeSquare:GetChecked())
     NMM:SetupMouseInOut()
     NMM:ScheduleNextCheck()
   end

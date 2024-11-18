@@ -1,0 +1,158 @@
+
+NarciBarberShopDB = {
+["Hotkeys"] = {
+["ZoomIn"] = "W",
+["RotateLeft"] = "A",
+["ZoomOut"] = "S",
+["RotateRight"] = "D",
+},
+["SharedSavedLooks"] = {
+},
+["PlayerData"] = {
+["0BDCA2E2"] = {
+["realmName"] = "Emerald Dream",
+["playerName"] = "Soulspeaker",
+["realmID"] = "162",
+["classID"] = 6,
+["SavedLooks"] = {
+["chrModel129"] = {
+},
+["chrModel123"] = {
+},
+["chrModel188"] = {
+},
+["chrModel124"] = {
+},
+[27] = {
+["male"] = {
+},
+["female"] = {
+},
+},
+},
+},
+["0BDC4488"] = {
+["realmID"] = "162",
+["playerName"] = "Mekikk",
+["realmName"] = "Emerald Dream",
+["SavedLooks"] = {
+["chrModel192"] = {
+},
+["chrModel123"] = {
+},
+["alternateForm"] = {
+["male"] = {
+},
+["female"] = {
+},
+},
+["chrModel194"] = {
+{
+["description"] = "Grand Low Horns, Raptor Beak, Long Straight Eyebrows, Thick Droop Whiskers, Standard Feathers, Gemstones Decorations, Moon Effects",
+["data"] = {
+{
+922,
+9987,
+},
+{
+8654,
+55571,
+},
+{
+8662,
+55618,
+},
+{
+8658,
+55595,
+},
+{
+8655,
+55576,
+},
+{
+8659,
+55603,
+},
+{
+8660,
+55607,
+},
+{
+8661,
+55610,
+},
+{
+8663,
+55621,
+},
+{
+8656,
+55582,
+},
+{
+8664,
+55626,
+},
+{
+8657,
+55591,
+},
+},
+["name"] = "luner moon",
+["timeCreated"] = 1718508123,
+},
+},
+[22] = {
+["male"] = {
+},
+["female"] = {
+},
+},
+["chrModel190"] = {
+},
+["chrModel124"] = {
+},
+["chrModel189"] = {
+},
+},
+["classID"] = 11,
+},
+["0BDCBC8B"] = {
+["classID"] = 1,
+["playerName"] = "Crashcorse",
+["realmID"] = "162",
+["SavedLooks"] = {
+["chrModel129"] = {
+},
+["chrModel123"] = {
+},
+["chrModel124"] = {
+},
+[32] = {
+["male"] = {
+},
+["female"] = {
+},
+},
+},
+["realmName"] = "Emerald Dream",
+},
+["0BDC7383"] = {
+["SavedLooks"] = {
+[35] = {
+["male"] = {
+},
+["female"] = {
+},
+},
+["chrModel124"] = {
+},
+},
+["playerName"] = "Kmekik",
+["realmName"] = "Emerald Dream",
+["classID"] = 4,
+["realmID"] = "162",
+},
+},
+}

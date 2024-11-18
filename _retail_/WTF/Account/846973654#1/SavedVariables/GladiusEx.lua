@@ -31,14 +31,16 @@ GladiusExDB = {
 ["profiles"] = {
 ["Default"] = {
 ["y"] = {
-["arena2"] = 415.644411106241,
-["arena3"] = 348.7999867445888,
-["arena1"] = 482.4888137665039,
+["anchor_arena"] = 504.8889445172426,
+["arena2"] = 522.3110803557756,
+["arena3"] = 455.4666776955128,
+["arena1"] = 589.1555264188173,
 },
 ["x"] = {
-["arena2"] = 849.0667740318531,
-["arena3"] = 849.0667740318531,
-["arena1"] = 849.0667740318531,
+["anchor_arena"] = 380.4444970594523,
+["arena2"] = 425.9556526753659,
+["arena3"] = 425.9556526753659,
+["arena1"] = 425.9556526753659,
 },
 },
 },
@@ -51,16 +53,16 @@ GladiusExDB = {
 ["profiles"] = {
 ["Default"] = {
 ["y"] = {
-["anchor_party"] = 543.2887718359598,
-["player"] = 622.222193886173,
-["party2"] = 495.6443262378343,
-["party1"] = 558.9332600620037,
+["anchor_party"] = 504.8890313228003,
+["player"] = 583.8223665674559,
+["party2"] = 457.2444989191172,
+["party1"] = 520.5334327432865,
 },
 ["x"] = {
-["anchor_party"] = 279.4666734337807,
-["player"] = 339.2000299149095,
-["party2"] = 339.2000299149095,
-["party1"] = 339.2000299149095,
+["anchor_party"] = 187.733185969455,
+["player"] = 247.4665207491944,
+["party2"] = 247.4665207491944,
+["party1"] = 247.4665207491944,
 },
 },
 },
@@ -69,41 +71,42 @@ GladiusExDB = {
 },
 ["PowerBar"] = {
 },
-["party_Interrupts"] = {
+["Interrupts"] = {
 },
 ["party_Announcements"] = {
 },
 ["HealthBar"] = {
 },
-["Interrupts"] = {
+["Clicks"] = {
 },
-["party_PetBar"] = {
+["Tags"] = {
 },
 ["party_Cooldowns"] = {
 },
 ["party_Clicks"] = {
 },
-["PetBar"] = {
+["party_Auras"] = {
 },
-["Announcements"] = {
-},
-["Alerts"] = {
-},
-["TargetBar"] = {
+["party_Interrupts"] = {
 },
 ["party_Tags"] = {
 },
-["party_Auras"] = {
+["TargetBar"] = {
 },
-["Tags"] = {
+["Alerts"] = {
 },
-["Clicks"] = {
+["Announcements"] = {
+},
+["PetBar"] = {
+},
+["party_PetBar"] = {
 },
 ["ClassIcon"] = {
 },
 },
 ["profileKeys"] = {
 ["Goldsquid - Area 52"] = "Default",
+["Xxb - Moon Guard"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

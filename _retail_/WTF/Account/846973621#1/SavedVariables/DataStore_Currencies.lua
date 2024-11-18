@@ -1,0 +1,167 @@
+
+DataStore_Currencies_Characters = {
+{
+["Currencies"] = {
+},
+["lastUpdate"] = 1720733662,
+},
+{
+["lastUpdate"] = 1723496453,
+["Totals"] = {
+[3089] = 51950,
+},
+["Currencies"] = {
+257,
+},
+},
+{
+["Currencies"] = {
+},
+["lastUpdate"] = 1722623749,
+},
+{
+["lastUpdate"] = 1726334196,
+["Totals"] = {
+[2806] = 0,
+[2657] = 5380,
+[2245] = 0,
+[2032] = 550,
+[2594] = 257,
+[3089] = 11240,
+[2807] = 0,
+[2003] = 35,
+[2815] = 128,
+},
+["Currencies"] = {
+2946498817,
+33557505,
+9176067,
+2563,
+1539,
+1410335491,
+67372291,
+2307,
+144179714,
+},
+},
+{
+["lastUpdate"] = 1725024045,
+["Totals"] = {
+[2245] = 0,
+[2032] = 950,
+[1508] = 66,
+[1533] = 37,
+},
+["Currencies"] = {
+1539,
+249037314,
+17303301,
+9701381,
+},
+},
+{
+["lastUpdate"] = 1726029770,
+["Totals"] = {
+[1149] = 71,
+[2032] = 550,
+[3089] = 0,
+[1533] = 5,
+},
+["Currencies"] = {
+257,
+144179714,
+18615045,
+1312773,
+},
+},
+}
+DataStore_Currencies_Catalog = {
+["Set"] = {
+["Trader's Tender"] = 2,
+["Whelpling's Awakened Crest"] = 9,
+["Resonance Crystals"] = 12,
+["Sightless Eye"] = 11,
+["Wakening Essence"] = 8,
+["Flightstones"] = 6,
+["Veiled Argunite"] = 7,
+["Dragon Isles Supplies"] = 4,
+["Mysterious Fragment"] = 3,
+["Paracausal Flakes"] = 5,
+["Residual Memories"] = 1,
+["Drake's Awakened Crest"] = 10,
+},
+["Count"] = 12,
+["List"] = {
+"Residual Memories",
+"Trader's Tender",
+"Mysterious Fragment",
+"Dragon Isles Supplies",
+"Paracausal Flakes",
+"Flightstones",
+"Veiled Argunite",
+"Wakening Essence",
+"Whelpling's Awakened Crest",
+"Drake's Awakened Crest",
+"Sightless Eye",
+"Resonance Crystals",
+},
+}
+DataStore_Currencies_Info = {
+3015740,
+4696085,
+1362650,
+2065578,
+3193844,
+5172976,
+1064188,
+236521,
+5646099,
+5646097,
+801132,
+2967113,
+}
+DataStore_Currencies_Max = {
+[2806] = 0,
+[2657] = 0,
+[2245] = 2000,
+[2594] = 0,
+[1508] = 2000,
+[1533] = 0,
+[2032] = 0,
+[3089] = 0,
+[2807] = 0,
+[1149] = 5000,
+[2003] = 0,
+[2815] = 0,
+}
+DataStore_Currencies_Headers = {
+["Set"] = {
+["Dragonflight"] = 3,
+["Legion"] = 5,
+["War Within"] = 1,
+["Legacy"] = 4,
+["Miscellaneous"] = 2,
+},
+["Count"] = 5,
+["List"] = {
+"War Within",
+"Miscellaneous",
+"Dragonflight",
+"Legacy",
+"Legion",
+},
+}
+DataStore_Currencies_Archeology = {
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+}

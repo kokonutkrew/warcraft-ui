@@ -3,7 +3,7 @@
 ## Name: AllTheThings
 ## Notes: Addon for Tracking Collections & Account Completion
 ## Author: Crieve-Sargeras
-## Version: 4.1.6
+## Version: 4.1.8
 ## Interface: 110005, 110007
 ## X-Interface: 110005, 110007
 ## X-Wago-ID: yQKyY5K7
@@ -75,9 +75,7 @@ src\Modules\Vignette.lua
 src\Modules\Contributor.lua
 
 # Expansion specific localization files
-db\Retail\ExplorationDB.lua
 db\Retail\LocalizationDB.lua
-db\Presets.lua
 
 # Load object class templates
 src\Classes\base.lua
@@ -101,7 +99,7 @@ src\Classes\Objects.lua
 src\Classes\Profession.lua
 src\Classes\Category.lua
 src\Classes\Deaths.lua
-# src\Classes\Dynamic Categories.lua
+src\Classes\Dynamic Categories.lua
 src\Classes\Filter Types.lua
 src\Classes\Gear Sets.lua
 # src\Classes\Glyphs.lua

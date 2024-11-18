@@ -1,19 +1,46 @@
-<<<<<<< Updated upstream
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+VER 3 0100000000000009 "Bane of  Havoc" "134400"
+#showtooltip
+/use [@cursor] Bane of Havoc
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]For[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Orm
-=======
+VER 3 0100000000000008 "BS Ad" "237560"
+/2 LFW |cffffd000|Htrade:Player-162-0B4FCB0C:2018:164|h[Blacksmithing]|h|r|cffffd000|Htrade:Player-162-0B4FCB0C:25229:755|h[Jewelcrafting]|h|r 418 Elemental Lariat, Plate Armor, PVP Boots, Frostfire Belt, and more.
+END
+VER 3 0100000000000004 "covAbility" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Impending Catastrophe
+/cast Decimating Bolt
+/cast Soul Rot
+/cast Scouring Tithe
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Impending Catastrophe" or G"Decimating Bolt" or G"Soul Rot"or G"Scouring Tithe")
+END
+VER 3 0100000000000005 "covSignature" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Door of Shadows
+/cast Soulshape
+/cast Fleshcraft
+/cast Summon Steward
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
+END
+VER 3 0100000000000006 "Demonbolt" "134400"
+#showtooltip
+/use [@cursor] demonbolt
+END
+VER 3 0100000000000007 "Hand of Gul'dan" "134400"
+#showtooltip
+/use [@cursor] hand of gul'dan
+END
 VER 3 0100000000000001 "Soulstone" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [mod:shift] ritual of summoning
 /castsequence [@player] reset=3 create soulwell,  soulstone, ritual of summoning
+END
+VER 3 010000000000000A "Summon Infernal" "134400"
+#showtooltip
+/use [@cursor] Summon Infernal
 END
 VER 3 0100000000000002 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
 END
 VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]For[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zer
->>>>>>> Stashed changes
 END

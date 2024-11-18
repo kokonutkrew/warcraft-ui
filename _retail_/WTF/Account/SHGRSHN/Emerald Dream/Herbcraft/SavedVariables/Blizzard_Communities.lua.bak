@@ -1,9 +1,6 @@
 
 g_clubIdToSeenApplicants = {
-<<<<<<< Updated upstream
-=======
-	[352303931] = {
-		["Player-162-0B5D4B3D"] = true,
-	},
->>>>>>> Stashed changes
+[486927781] = {
+["Player-162-0B8E1826"] = true,
+},
 }

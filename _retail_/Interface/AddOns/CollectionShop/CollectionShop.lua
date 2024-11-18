@@ -3,13 +3,8 @@
 --------------------------------------------------------------------------------------------------------------------------------------------
 local NS = select( 2, ... );
 local L = NS.localization;
-<<<<<<< Updated upstream
-NS.releasePatch = "9.0.1";
-NS.versionString = "4.04";
-=======
 NS.releasePatch = "11.0.2";
 NS.versionString = "4.08";
->>>>>>> Stashed changes
 NS.version = tonumber( NS.versionString );
 --
 NS.options = {};
@@ -17,11 +12,7 @@ NS.options = {};
 NS.initialized = false;
 NS.realmName = GetRealmName();
 NS.playerLoginMsg = {};
-<<<<<<< Updated upstream
-NS.AuctionHouseFrameTab = nil;
-=======
 NS.AuctionHouseFrameTabID = NS.title .. "Tab";
->>>>>>> Stashed changes
 NS.scan = {};
 NS.modes = { "MOUNTS", "PETS", "TOYS", "APPEARANCES", "RECIPES" };
 NS.modeNames = { "Mounts", "Pets", "Toys", "Appearances", "Recipes" };
@@ -94,15 +85,9 @@ NS.invTypeToSlotId = {
 };
 NS.craftingProfessions = { 2259,2018,7411,4036,45357,25229,2108,3908,2550 }; -- Spells: Alchemy, Blacksmithing, Enchanting, Engineering, Inscription, Jewelcrafting, Leatherworking, Tailoring, Cooking
 for i = 1, #NS.craftingProfessions do
-<<<<<<< Updated upstream
-	local spellName = GetSpellInfo( NS.craftingProfessions[i] );
-	if spellName then
-		NS.craftingProfessions[i] = spellName;
-=======
 	local spellInfo = C_Spell.GetSpellInfo( NS.craftingProfessions[i] );
 	if spellInfo then
 		NS.craftingProfessions[i] = spellInfo.name;
->>>>>>> Stashed changes
 	else
 		NS.Print( string.format( L["%d : Missing crafting profession spell."], NS.craftingProfessions[i] ) );
 	end
@@ -111,11 +96,7 @@ NS.skills = {
 	--
 	-- Recipes may be associated with any of these skill ids, but this list associates the specific skill id back to its base skill id.
 	-- http://www.wowhead.com/skills
-<<<<<<< Updated upstream
-	--
-=======
 	-- 09/08/2024
->>>>>>> Stashed changes
 	-- name[baseSkillID] = baseSkillName
 	--
 	name = {
@@ -144,12 +125,9 @@ NS.skills = {
 	[2480] = 171, -- Draenor Alchemy
 	[2479] = 171, -- Legion Alchemy
 	[2478] = 171, -- Kul Tiran Alchemy
-<<<<<<< Updated upstream
-=======
 	[2750] = 171, -- Shadowlands Alchemy
 	[2823] = 171, -- Dragon Isles Alchemy
 	[2871] = 171, -- Khaz Algar Alchemy
->>>>>>> Stashed changes
 	-- Blacksmithing
 	[NS.craftingProfessions[2]] = 164, -- Blacksmithing
 	[164] = 164, -- Blacksmithing
@@ -161,12 +139,9 @@ NS.skills = {
 	[2472] = 164, -- Draenor Blacksmithing
 	[2454] = 164, -- Legion Blacksmithing
 	[2437] = 164, -- Kul Tiran Blacksmithing
-<<<<<<< Updated upstream
-=======
 	[2751] = 164, -- Shadowlands Blacksmithing
 	[2822] = 164, -- Dragon Isles Blacksmithing
 	[2872] = 164, -- Khaz Algar Blacksmithing
->>>>>>> Stashed changes
 	-- Enchanting
 	[NS.craftingProfessions[3]] = 333, -- Enchanting
 	[333] = 333, -- Enchanting
@@ -178,12 +153,9 @@ NS.skills = {
 	[2489] = 333, -- Pandaria Enchanting
 	[2487] = 333, -- Legion Enchanting
 	[2486] = 333, -- Kul Tiran Enchanting
-<<<<<<< Updated upstream
-=======
 	[2753] = 333, -- Shadowlands Enchanting
 	[2825] = 333, -- Dragon Isles Enchanting
 	[2874] = 333, -- Khaz Algar Enchanting
->>>>>>> Stashed changes
 	-- Engineering
 	[NS.craftingProfessions[4]] = 202, -- Engineering
 	[202] = 202, -- Engineering
@@ -195,12 +167,9 @@ NS.skills = {
 	[2501] = 202, -- Draenor Engineering
 	[2500] = 202, -- Legion Engineering
 	[2499] = 202, -- Kul Tiran Engineering
-<<<<<<< Updated upstream
-=======
 	[2755] = 202, -- Shadowlands Engineering
 	[2827] = 202, -- Dragon Isles Engineering
 	[2875] = 202, -- Khaz Algar Engineering
->>>>>>> Stashed changes
 	-- Inscription
 	[NS.craftingProfessions[5]] = 773, -- Inscription
 	[773] = 773, -- Inscription
@@ -212,12 +181,9 @@ NS.skills = {
 	[2509] = 773, -- Draenor Inscription
 	[2508] = 773, -- Legion Inscription
 	[2507] = 773, -- Kul Tiran Inscription
-<<<<<<< Updated upstream
-=======
 	[2756] = 773, -- Shadowlands Inscription
 	[2828] = 773, -- Dragon Isles Inscription
 	[2878] = 773, -- Khaz Algar Inscription
->>>>>>> Stashed changes
 	-- Jewelcrafting
 	[NS.craftingProfessions[6]] = 755, -- Jewelcrafting
 	[755] = 755, -- Jewelcrafting
@@ -229,12 +195,9 @@ NS.skills = {
 	[2519] = 755, -- Draenor Jewelcrafting
 	[2518] = 755, -- Legion Jewelcrafting
 	[2517] = 755, -- Kul Tiran Jewelcrafting
-<<<<<<< Updated upstream
-=======
 	[2757] = 755, -- Shadowlands Jewelcrafting
 	[2829] = 755, -- Dragon Isles Jewelcrafting
 	[2879] = 755, -- Khaz Algar Jewelcrafting
->>>>>>> Stashed changes
 	-- Leatherworking
 	[NS.craftingProfessions[7]] = 165, -- Leatherworking
 	[165] = 165, -- Leatherworking
@@ -246,12 +209,9 @@ NS.skills = {
 	[2527] = 165, -- Draenor Leatherworking
 	[2526] = 165, -- Legion Leatherworking
 	[2525] = 165, -- Kul Tiran Leatherworking
-<<<<<<< Updated upstream
-=======
 	[2758] = 165, -- Shadowlands Leatherworking
 	[2830] = 165, -- Dragon Isles Leatherworking
 	[2880] = 165, -- Khaz Algar Leatherworking
->>>>>>> Stashed changes
 	-- Tailoring
 	[NS.craftingProfessions[8]] = 197, -- Tailoring
 	[197] = 197, -- Tailoring
@@ -263,12 +223,9 @@ NS.skills = {
 	[2535] = 197, -- Draenor Tailoring
 	[2534] = 197, -- Legion Tailoring
 	[2533] = 197, -- Kul Tiran Tailoring
-<<<<<<< Updated upstream
-=======
 	[2759] = 197, -- Shadowlands Tailoring
 	[2831] = 197, -- Dragon Isles Tailoring
 	[2883] = 197, -- Khaz Algar Tailoring
->>>>>>> Stashed changes
 	-- Cooking
 	[NS.craftingProfessions[9]] = 185, -- Cooking
 	[185] = 185, -- Cooking
@@ -282,12 +239,9 @@ NS.skills = {
 	[2542] = 185, -- Legion Cooking
 	[2543] = 185, -- Draenor Cooking
 	[2541] = 185, -- Kul Tiran Cooking
-<<<<<<< Updated upstream
-=======
 	[2752] = 185, -- Shadowlands Cooking
 	[2824] = 185, -- Dragon Isles Cooking
 	[2873] = 185, -- Khaz Algar Cooking
->>>>>>> Stashed changes
 	-- Archaeology
 	-- [794] = 794, -- Archaeology
 	-- Fishing
@@ -300,12 +254,9 @@ NS.skills = {
 	-- [2587] = 356, -- Draenor Fishing
 	-- [2586] = 356, -- Legion Fishing
 	-- [2585] = 356, -- Kul Tiran Fishing
-<<<<<<< Updated upstream
-=======
 	-- [2754] = 356, -- Shadowlands Fishing
 	-- [2826] = 356, -- Dragon Isles Fishing
 	-- [2876] = 356, -- Khaz Algar Fishing
->>>>>>> Stashed changes
 	-- Herbalism
 	-- [182] = 182, -- Herbalism
 	-- [2556] = 182, -- Herbalism
@@ -316,12 +267,9 @@ NS.skills = {
 	-- [2551] = 182, -- Draenor Herbalism
 	-- [2550] = 182, -- Legion Herbalism
 	-- [2549] = 182, -- Kul Tiran Herbalism
-<<<<<<< Updated upstream
-=======
 	-- [2760] = 182, -- Shadowlands Herbalism
 	-- [2832] = 182, -- Dragon Isles Herbalism
 	-- [2877] = 182, -- Khaz Algar Herbalism
->>>>>>> Stashed changes
 	-- Mining
 	-- [186] = 186, -- Mining
 	-- [2572] = 186, -- Mining
@@ -332,12 +280,9 @@ NS.skills = {
 	-- [2567] = 186, -- Draenor Mining
 	-- [2566] = 186, -- Legion Mining
 	-- [2565] = 186, -- Kul Tiran Mining
-<<<<<<< Updated upstream
-=======
 	-- [2761] = 186, -- Shadowlands Mining
 	-- [2833] = 186, -- Dragon Isles Mining
 	-- [2881] = 186, -- Khaz Algar Mining
->>>>>>> Stashed changes
 	-- Skinning
 	-- [393] = 393, -- Skinning
 	-- [2564] = 393, -- Skinning
@@ -348,12 +293,6 @@ NS.skills = {
 	-- [2559] = 393, -- Draenor Skinning
 	-- [2558] = 393, -- Legion Skinning
 	-- [2557] = 393, -- Kul Tiran Skinning
-<<<<<<< Updated upstream
-};
-NS.ridingSpells = { 90265,34091,34090,33391,33388 }; -- Spells: Master Riding, Artisan Riding, Expert Riding, Journeyman Riding, Apprentice Riding
-for i = 1, #NS.ridingSpells do
-	local spellName = GetSpellInfo( NS.ridingSpells[i] );
-=======
 	-- [2762] = 393, -- Shadowlands Skinning
 	-- [2834] = 393, -- Dragon Isles Skinning
 	-- [2882] = 393, -- Khaz Algar Skinning
@@ -361,7 +300,6 @@ for i = 1, #NS.ridingSpells do
 NS.ridingSpells = { 90265,34091,34090,33391,33388 }; -- Spells: Master Riding, Artisan Riding, Expert Riding, Journeyman Riding, Apprentice Riding
 for i = 1, #NS.ridingSpells do
 	local spellName = C_Spell.GetSpellInfo( NS.ridingSpells[i] );
->>>>>>> Stashed changes
 	if spellName then
 		NS.ridingSpells[i] = spellName;
 	else
@@ -369,11 +307,7 @@ for i = 1, #NS.ridingSpells do
 	end
 end
 NS.mountInfo = {
-<<<<<<< Updated upstream
-	-- As of 05/08/2020
-=======
 	-- As of 09/08/2024
->>>>>>> Stashed changes
 	--[mountItemId] = { displayID, spellID }, -- creatureName -- itemName
 	[90655] = { 45797, 132036 }, -- Thundering Ruby Cloud Serpent -- Reins of the Thundering Ruby Cloud Serpent
 	[153594] = { 80513, 256123 }, -- Xiwyllag ATV -- Xiwyllag ATV
@@ -421,21 +355,6 @@ NS.mountInfo = {
 	[49284] = { 21974, 42777 }, -- Swift Spectral Tiger -- Reins of the Swift Spectral Tiger
 	[67151] = { 34955, 98718 }, -- Subdued Seahorse -- Reins of Poseidus
 	[49290] = { 34655, 65917 }, -- Magic Rooster -- Magic Rooster Egg
-<<<<<<< Updated upstream
-};
-NS.petInfo = {
-	-- As of 05/08/2020
-	--[companionPetItemId] = { speciesID, creatureID }, -- itemName
-	--[[ not in game ]] [173296] = { 0000, 000000}, -- Rikki's Pith Helmet
-	[170072] = { 2766, 155829}, -- Armored Vaultbot
-	[167810] = { 2763, 151632}, -- Slimy Hermit Crab
-	[167806] = { 2760, 151673}, -- Slimy Octopode
-	[167809] = { 2762, 151651}, -- Slimy Darkhunter
-	[167808] = { 2758, 151697}, -- Slimy Eel
-	[167805] = { 2757, 151700}, -- Slimy Otter
-	[167804] = { 2765, 151631}, -- Slimy Sea Slug
-	[167807] = { 2761, 151696}, -- Slimy Fangtooth
-=======
 	[221967] = { 119383, 448186}, -- Crowd Pummeler 2-30 -- Crowd Pummeler 2-30
 };
 NS.petInfo = {
@@ -460,7 +379,6 @@ NS.petInfo = {
 	[167805] = { 2757, 151700 }, -- Slimy Otter
 	[167804] = { 2765, 151631 }, -- Slimy Sea Slug
 	[167807] = { 2761, 151696 }, -- Slimy Fangtooth
->>>>>>> Stashed changes
 	[166487] = { 2552, 148979 }, -- Leatherwing Screecher
 	[152878] = { 2201, 139743 }, -- Enchanted Tiki Mask
 	[151645] = { 2001, 117340 }, -- Model D1-BB-L3R
@@ -641,83 +559,6 @@ NS.petInfo = {
 	[143754] = { 1999, 117182 }, -- Cavern Moccasin
 	[143755] = { 2000, 117184 }, -- Young Venomfang
 	[146953] = { 2042, 120397 }, -- Scraps
-<<<<<<< Updated upstream
-};
-NS.toyInfo = {
-	-- As of 05/08/2020
-	--[toyItemId] = { catNum, subCatNum }, -- itemName
-	[168807] = { 6, 1 }, -- Wormhole Generator: Kul Tiras
-	[168808] = { 6, 1 }, -- Wormhole Generator: Zandalar
-	[166743] = { 12, 4 }, -- Blight Bomber
-	[166744] = { 12, 4 }, -- Glaive Tosser
-	[160740] = { 12, 4 }, -- Croak Crock
-	[160751] = { 12, 4 }, -- Dance of the Dead
-	[151652] = { 6, 1 }, -- Wormhole Generator: Argus
-	[144393] = { 12, 4 }, -- Portable Yak Wash
-	[142265] = { 12, 4 }, -- Big Red Raygun
-	[122681] = { 12, 4 }, -- Sternfathom's Pet Journal
-	[129956] = { 12, 4 }, -- Leather Love Seat
-	[130157] = { 12, 4 }, -- Syxsehnz Rod
-	[130169] = { 12, 4 }, -- Tournament Favor
-	[130171] = { 12, 4 }, -- Cursed Orb
-	[130191] = { 12, 4 }, -- Trapped Treasure Chest Kit
-	[130214] = { 12, 4 }, -- Worn Doll
-	[130232] = { 12, 4 }, -- Moonfeather Statue
-	[130251] = { 6, 8 }, -- JewelCraft
-	[130254] = { 12, 4 }, -- Chatterstone
-	[132518] = { 6, 1 }, -- Blingtron's Circuit Design Tutorial
-	[109167] = { 6, 1 }, -- Findle's Loot-A-Rang
-	[112059] = { 6, 1 }, -- Wormhole Centrifuge
-	[128536] = { 12, 4 }, -- Leylight Brazier
-	[128807] = { 12, 4 }, -- Coin of Many Faces
-	[87215] = { 6, 1 }, -- Wormhole Generator: Pandaria
-	[88531] = { 6, 5 }, -- Lao Chin's Last Mug
-	[108739] = { 12, 1 }, -- Pretty Draenor Pearl
-	[40727] = { 6, 1 }, -- Gnomish Gravity Well
-	[60854] = { 6, 1 }, -- Loot-A-Rang
-	[134007] = { 12, 4 }, -- Eternal Black Diamond Ring
-	[40768] = { 6, 1 }, -- MOLL-E
-	[45984] = { 12, 4 }, -- Unusual Compass
-	[48933] = { 6, 1 }, -- Wormhole Generator: Northrend
-	[52201] = { 12, 4 }, -- Muradin's Favor
-	[52253] = { 12, 4 }, -- Sylvanas' Music Box
-	[30542] = { 6, 1 }, -- Dimensional Ripper - Area 52
-	[30544] = { 6, 1 }, -- Ultrasafe Transporter: Toshley's Station
-	[18984] = { 6, 1 }, -- Dimensional Ripper - Everlook
-	[18986] = { 6, 1 }, -- Ultrasafe Transporter: Gadgetzan
-	[23767] = { 6, 1 }, -- Crashin' Thrashin' Robot
-	[108631] = { 12, 3 }, -- Crashin' Thrashin' Roller Controller
-	[108633] = { 12, 3 }, -- Crashin' Thrashin' Cannon Controller
-	[108634] = { 12, 3 }, -- Crashin' Thrashin' Mortar Controller
-	[108635] = { 12, 3 }, -- Crashin' Thrashin' Killdozer Controller
-	[17716] = { 6, 1 }, -- Snowmaster 9000
-	[140363] = { 12, 4 }, -- Pocket Fel Spreader
-	[1973] = { 12, 4 }, -- Orb of Deception
-	[18660] = { 6, 1 }, -- World Enlarger
-	[36862] = { 6, 8 }, -- Worn Troll Dice
-	[36863] = { 6, 8 }, -- Decahedral Dwarven Dice
-	[63269] = { 6, 8 }, -- Loaded Gnomish Dice
-	[71628] = { 6, 8 }, -- Sack of Starfish
-	[101571] = { 6, 8 }, -- Moonfang Shroud
-	[105898] = { 6, 8 }, -- Moonfang's Paw
-	[108745] = { 6, 1 }, -- Personal Hologram
-	[109183] = { 6, 1 }, -- World Shrinker
-	[116689] = { 12, 3 }, -- Pineapple Lounge Cushion
-	[116690] = { 12, 3 }, -- Safari Lounge Cushion
-	[116691] = { 12, 3 }, -- Zhevra Lounge Cushion
-	[116692] = { 12, 3 }, -- Fuzzy Green Lounge Cushion
-	[118427] = { 12, 4 }, -- Autographed Hearthstone Card
-	[119210] = { 6, 8 }, -- Hearthstone Board
-	[119212] = { 6, 8 }, -- Winning Hand
-	[127695] = { 12, 4 }, -- Spirit Wand
-	[127707] = { 12, 4 }, -- Indestructible Bone
-	[128310] = { 12, 1 }, -- Burning Blade
-	[128794] = { 12, 4 }, -- Sack of Spectral Spiders
-	[129211] = { 6, 8 }, -- Steamy Romance Novel Kit
-	[129958] = { 10, 11 }, -- Leather Pet Leash
-	[129960] = { 10, 11 }, -- Leather Pet Bed
-	[129961] = { 10, 11 }, -- Flaming Hoop
-=======
 	[223487] = { 4482, 222359 }, -- Writhing Transmutagen
 	[205052] = { 3530, 204293 }, -- Miloh
 };
@@ -841,7 +682,6 @@ NS.toyInfo = {
 	[205419] = { 13, 4 }, -- Dinn's Drum
 	[205045] = { 13, 4 }, -- B.B.F. Fist
 	[204818] = { 13, 4 }, -- Mallard Mortar
->>>>>>> Stashed changes
 };
 NS.mountItemIds = {};
 NS.petItemIds = { 82800 };
@@ -867,24 +707,15 @@ end
 NS.SELECT_AN_AUCTION = function()
 	return string.format( L["Select an auction to buy or click \"Buy All\""] .. ( NS.mode == "APPEARANCES" and "\n" .. L["%sEach result is the lowest buyout auction for an|r %s"] or "" ), HIGHLIGHT_FONT_COLOR_CODE, NS.modeColorCode .. ( NS.shopAppearancesBy == "appearance" and L["Appearance"] or L["Appearance Source"] ) .. FONT_COLOR_CODE_CLOSE );
 end
-<<<<<<< Updated upstream
-=======
 local LibAHTab = LibStub("LibAHTab-1-0");
->>>>>>> Stashed changes
 --------------------------------------------------------------------------------------------------------------------------------------------
 -- Record enabled addons (used for Auctioneer check)
 --------------------------------------------------------------------------------------------------------------------------------------------
 local addonEnabled = {};
 local character = UnitName( "player" );
-<<<<<<< Updated upstream
-for i = 1, GetNumAddOns() do
-	local name,_,_,loadable = GetAddOnInfo( i );
-	if loadable and GetAddOnEnableState( character, i ) > 0 then
-=======
 for i = 1, C_AddOns.GetNumAddOns() do
 	local name,_,_,loadable = C_AddOns.GetAddOnInfo( i );
 	if loadable and C_AddOns.GetAddOnEnableState( character, i ) > 0 then
->>>>>>> Stashed changes
 		addonEnabled[name] = true;
 	end
 end
@@ -938,8 +769,6 @@ NS.Upgrade = function()
 	if version < 4.0 then
 		wipe( NS.db["getAllScan"] ); -- Fixed bad recipe level table error in 3.02 and reset in 4.0 for massive AH changes in 8.3
 	end
-<<<<<<< Updated upstream
-=======
 	-- 4.05
 	if version < 4.05 then
 		-- Add Appearance level ranges for Shadowlands and Dragonflight
@@ -951,7 +780,6 @@ NS.Upgrade = function()
 		-- Add Appearance level ranges for The War Within
 		NS.db["modeFilters"][NS.modes[4]]["itemRequiresLevels11"] = true;
 	end
->>>>>>> Stashed changes
 	--
 	NS.db["version"] = NS.version;
 end
@@ -967,35 +795,10 @@ NS.UpgradePerCharacter = function()
 	NS.dbpc["version"] = NS.version;
 end
 --------------------------------------------------------------------------------------------------------------------------------------------
-<<<<<<< Updated upstream
--- AuctionHouseFrameCollectionShopTab / DressUpModel
---------------------------------------------------------------------------------------------------------------------------------------------
-NS.AuctionHouseFrame_SetDisplayMode = function( self, displayMode ) -- AuctionHouseFrame.SetDisplayMode
-	if displayMode == AuctionHouseFrameDisplayMode.CollectionShop then
-		NS.UpdateTitleText(); -- Clears the "Browse Auctions" Blizzard title text
-		NS.linkLevel = UnitLevel( "player" );
-		CollectionShopEventsFrame:RegisterEvent( "PLAYER_SPECIALIZATION_CHANGED" );
-		CollectionShopEventsFrame:RegisterEvent( "INSPECT_READY" );
-		CollectionShopEventsFrame:RegisterEvent( "UI_ERROR_MESSAGE" );
-		CollectionShopEventsFrame:RegisterEvent( "AUCTION_HOUSE_BROWSE_FAILURE" );
-		NotifyInspect( "player" );
-		-- Incompatible with Auctioneer
-		if addonEnabled["Auc-Advanced"] then
-			NS.Print( RED_FONT_COLOR_CODE .. L["Warning: This addon is incompatible with Auctioneer."] .. FONT_COLOR_CODE_CLOSE );
-		end
-	elseif AuctionFrameCollectionShop:IsShown() then
-		AuctionFrameCollectionShop:Hide();
-	end
-end
---
-NS.IsTabShown = function()
-	if AuctionFrameCollectionShop and AuctionHouseFrame:IsShown() and PanelTemplates_GetSelectedTab( AuctionHouseFrame ) == NS.AuctionHouseFrameTab:GetID() then
-=======
 -- CollectionShopTab / DressUpModel
 --------------------------------------------------------------------------------------------------------------------------------------------
 NS.IsTabShown = function()
 	if AuctionFrameCollectionShop and AuctionFrameCollectionShop:IsShown() and AuctionHouseFrame:IsShown() then
->>>>>>> Stashed changes
 		return true;
 	else
 		return false;
@@ -1011,11 +814,7 @@ end
 -- AuctionFrameCollectionShop
 --------------------------------------------------------------------------------------------------------------------------------------------
 NS.Reset = function( filterOnClick )
-<<<<<<< Updated upstream
-	CollectionShopEventsFrame:UnregisterEvent( "CHAT_MSG_SYSTEM" );
-=======
 	CollectionShopEventsFrame:UnregisterEvent( "AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION" );
->>>>>>> Stashed changes
 	NS.scan:Reset(); -- Also Unregisters auction house events
 	wipe( NS.auction.data.live.itemIds );
 	wipe( NS.auction.data.live.appearanceSources );
@@ -1025,11 +824,7 @@ NS.Reset = function( filterOnClick )
 	if AuctionHouseFrame and not NS.IsTabShown() then -- Stop monitoring spec and UI errors, unset mode, and reset buyout tracking when tab is changed or Auction House closed
 		CollectionShopEventsFrame:UnregisterEvent( "PLAYER_SPECIALIZATION_CHANGED" );
 		CollectionShopEventsFrame:UnregisterEvent( "INSPECT_READY" );
-<<<<<<< Updated upstream
-		CollectionShopEventsFrame:UnregisterEvent( "UI_ERROR_MESSAGE" );
-=======
 		CollectionShopEventsFrame:UnregisterEvent( "AUCTION_HOUSE_SHOW_ERROR" );
->>>>>>> Stashed changes
 		CollectionShopEventsFrame:UnregisterEvent( "AUCTION_HOUSE_BROWSE_FAILURE" );
 		NS.SetMode( nil, "noReset" );
 		if NS.numAuctionsWon > 0 and NS.db["auctionsWonReminder"] then
@@ -1047,18 +842,6 @@ NS.Reset = function( filterOnClick )
 		end
 	end
 	if NS.mode then -- Max Item Price
-<<<<<<< Updated upstream
-		AuctionFrameCollectionShop_MaxItemPriceFrameText:SetText( string.format( L["Max Item Price: %s"], ( NS.db["maxItemPriceCopper"][NS.mode] == 0 and L["None"] or NS.MoneyToString( NS.db["maxItemPriceCopper"][NS.mode] ) ) ) );
-		AuctionFrameCollectionShop_MaxItemPriceFrame:Show();
-	else
-		AuctionFrameCollectionShop_MaxItemPriceFrame:Hide();
-	end
-	if NS.mode == "APPEARANCES" or NS.mode == "RECIPES" then -- Undress Character
-		AuctionFrameCollectionShop_UndressCharacterCheckButton:SetChecked( NS.db["undressCharacter"] );
-		AuctionFrameCollectionShop_UndressCharacterCheckButton:Show();
-	else
-		AuctionFrameCollectionShop_UndressCharacterCheckButton:Hide();
-=======
 		AuctionFrameCollectionShop_Title_MaxItemPriceFrameText:SetText( string.format( L["Max Item Price: %s"], ( NS.db["maxItemPriceCopper"][NS.mode] == 0 and L["None"] or NS.MoneyToString( NS.db["maxItemPriceCopper"][NS.mode] ) ) ) );
 		AuctionFrameCollectionShop_Title_MaxItemPriceFrame:Show();
 	else
@@ -1069,7 +852,6 @@ NS.Reset = function( filterOnClick )
 		AuctionFrameCollectionShop_Title_UndressCharacterCheckButton:Show();
 	else
 		AuctionFrameCollectionShop_Title_UndressCharacterCheckButton:Hide();
->>>>>>> Stashed changes
 	end
 	if NS.adjustScrollFrame then
 		AuctionFrameCollectionShop_ScrollFrame:Adjust(); -- Must go before sort buttons to set NS.isPctItemValue
@@ -1177,13 +959,8 @@ NS.SetMode = function( mode, noReset )
 			{ common, uncommon, rare, epic },
 			( function()
 				local categories,categoryName = {};
-<<<<<<< Updated upstream
-				for i = 1, #AuctionCategories[10].subCategories do
-					categoryName = AuctionCategories[10].subCategories[i].name;
-=======
 				for i = 1, #AuctionCategories[11].subCategories do
 					categoryName = AuctionCategories[11].subCategories[i].name;
->>>>>>> Stashed changes
 					categories[#categories + 1] = { categoryName, ( i == 11 and ( L["Include"] .. " " ) or "" ) .. categoryName, true }; -- Pet Family (or Include Companion Pets)
 				end
 				return categories;
@@ -1212,19 +989,11 @@ NS.SetMode = function( mode, noReset )
 				local cnums = {
 					{ 6, 1 }, -- Consumables > Explosives and Devices
 					{ 6, 5 }, -- Consumables > Food & Drink
-<<<<<<< Updated upstream
-					{ 6, 8 }, -- Consumables > Other
-					{ 12, 1 }, -- Miscellaneous > Junk
-					{ 10, 11 }, -- Battle Pets > Companion Pets
-					{ 12, 3 }, -- Miscellaneous > Holiday
-					{ 12, 4 }, -- Miscellaneous > Other
-=======
 					{ 6, 10 }, -- Consumables > Other
 					{ 13, 1 }, -- Miscellaneous > Junk
 					{ 11, 11 }, -- Battle Pets > Companion Pets
 					{ 13, 3 }, -- Miscellaneous > Holiday
 					{ 13, 4 }, -- Miscellaneous > Other
->>>>>>> Stashed changes
 				};
 				local categories,categoryName = {};
 				for i = 1, #cnums do
@@ -1240,11 +1009,7 @@ NS.SetMode = function( mode, noReset )
 		};
 	elseif NS.mode == "APPEARANCES" then
 		NS.modeFilters = {
-<<<<<<< Updated upstream
-			{ uncommon, rare, epic },
-=======
 			{ poor, common, uncommon, rare, epic },
->>>>>>> Stashed changes
 			( function()
 				local auctionCategoryIndexes = {};
 				-- Weapons: One-Handed, Two-Handed, Ranged
@@ -1267,10 +1032,7 @@ NS.SetMode = function( mode, noReset )
 					["WARLOCK"] = 4,
 					["HUNTER"] = 2,
 					["DEMONHUNTER"] = 3,
-<<<<<<< Updated upstream
-=======
 					["EVOKER"] = 2,
->>>>>>> Stashed changes
 				};
 				local classArmorIndex = classArmorIndexes[select( 2, UnitClass( "player" ) )];
 				for i = 1, 4 do
@@ -1281,15 +1043,6 @@ NS.SetMode = function( mode, noReset )
 					end
 				end
 				-- Armor: Miscellaneous -> Cloak, Held In Off-hand, Shields, Shirt
-<<<<<<< Updated upstream
-				auctionCategoryIndexes[BACKSLOT] = { 2, 5, 2 }; -- Appearances calls this "Back" - AuctionCategories[2].subCategories[5].subCategories[2].name
-				auctionCategoryIndexes[AuctionCategories[2].subCategories[5].subCategories[5].name] = { 2, 5, 5 };
-				auctionCategoryIndexes[AuctionCategories[2].subCategories[5].subCategories[6].name] = { 2, 5, 6 };
-				auctionCategoryIndexes[AuctionCategories[2].subCategories[5].subCategories[7].name] = { 2, 5, 7 };
-				-- Categories
-				local categories,categoryName = {};
-				for i = 1, NS.NUM_TRANSMOG_COLLECTION_TYPES do
-=======
 				auctionCategoryIndexes[BACKSLOT] = { 2, 5, 3 }; -- Appearances calls this "Back" - AuctionCategories[2].subCategories[5].subCategories[3].name
 				auctionCategoryIndexes[AuctionCategories[2].subCategories[5].subCategories[6].name] = { 2, 5, 6 };
 				auctionCategoryIndexes[AuctionCategories[2].subCategories[5].subCategories[7].name] = { 2, 5, 7 };
@@ -1297,7 +1050,6 @@ NS.SetMode = function( mode, noReset )
 				-- Categories: 0=None, so start at 1 and minus 1 from total types
 				local categories,categoryName = {};
 				for i = 1, ( NS.NUM_TRANSMOG_COLLECTION_TYPES - 1 ) do
->>>>>>> Stashed changes
 					categoryName = C_TransmogCollection.GetCategoryInfo( i );
 					NS.appearanceCollection.categoryNames[i] = categoryName or false;
 					if categoryName and categoryName ~= TABARDSLOT and auctionCategoryIndexes[categoryName] then
@@ -1312,16 +1064,6 @@ NS.SetMode = function( mode, noReset )
 				{ "collectedKnownSources", RED_FONT_COLOR_CODE .. L["Collected - Known Sources"] .. FONT_COLOR_CODE_CLOSE, false },
 			},
 			{
-<<<<<<< Updated upstream
-				{ "itemRequiresLevels1", L["Level 1-60"], true },		-- Classic
-				{ "itemRequiresLevels2", L["Level 61-70"], true },		-- TBC
-				{ "itemRequiresLevels3", L["Level 71-80"], true },		-- WotLK
-				{ "itemRequiresLevels4", L["Level 81-85"], true },		-- Cata
-				{ "itemRequiresLevels5", L["Level 86-90"], true },		-- MoP
-				{ "itemRequiresLevels6", L["Level 91-100"], true },		-- WoD
-				{ "itemRequiresLevels7", L["Level 101-110"], true },	-- Legion
-				{ "itemRequiresLevels8", L["Level 111-120"], true },	-- Battle
-=======
 				{ "itemRequiresLevels1", L["Level 1-25"], true },	-- Classic
 				{ "itemRequiresLevels2", L["Level 25-27"], true },	-- The Burning Crusade
 				{ "itemRequiresLevels3", L["Level 27-30"], true },	-- Wrath of the Lich King
@@ -1333,7 +1075,6 @@ NS.SetMode = function( mode, noReset )
 				{ "itemRequiresLevels9", L["Level 50-60"], true },	-- Shadowlands
 				{ "itemRequiresLevels10", L["Level 60-70"], true },	-- Dragonflight
 				{ "itemRequiresLevels11", L["Level 70-80"], true },	-- The War Within
->>>>>>> Stashed changes
 			},
 			{
 				requiresLevel,
@@ -1350,11 +1091,7 @@ NS.SetMode = function( mode, noReset )
 		for i = 1, 3 do
 			if professions[i] then -- nil if player doesn't have cooking or both primary professions
 				local _,_,skillLevel,_,_,_,skillLine = GetProfessionInfo( professions[i] ); -- returns base skill id rather than expac specific
-<<<<<<< Updated upstream
-				NS.playerProfessions[skillLine] = skillLevel; -- skillLevel not used since professions were splintered into expacs in BfA
-=======
 				NS.playerProfessions[skillLine] = skillLevel; -- skillLevel not used since professions were splintered into expacs in Battle for Azeroth
->>>>>>> Stashed changes
 			end
 		end
 		--
@@ -1461,11 +1198,7 @@ NS.UpdateTitleText = function()
 	if NS.numAuctionsWon > 0 then
 		text[#text + 1] = NS.numAuctionsWon .. " " .. GREEN_FONT_COLOR_CODE .. ( NS.numAuctionsWon == 1 and L["Buyout"] or L["Buyouts"] ) .. FONT_COLOR_CODE_CLOSE .. " (" .. NS.MoneyToString( NS.copperAuctionsWon, HIGHLIGHT_FONT_COLOR_CODE ) .. ")";
 	end
-<<<<<<< Updated upstream
-	AuctionHouseFrameTitleText:SetText( "" ); -- This is the Blizzard AH title
-=======
 	AuctionHouseFrame.TitleContainer.TitleText:SetText( "" ); -- This is the Blizzard AH title
->>>>>>> Stashed changes
 	AuctionFrameCollectionShop_TitleText:SetText( table.concat( text, HIGHLIGHT_FONT_COLOR_CODE .. "   " .. FONT_COLOR_CODE_CLOSE ) );
 	AuctionFrameCollectionShop_BuyoutsMailButton:SetText( NS.numAuctionsWon );
 	if not NS.mode or NS.numAuctionsWon == 0 then
@@ -1691,52 +1424,17 @@ NS.NormalizeItemLink = function( itemLink )
 end
 --
 NS.FindInTooltip = function( itemLink, textColor, textPatterns, minLine, maxLine )
-<<<<<<< Updated upstream
-	NS.GameTooltip:ClearLines();
-	NS.GameTooltip:SetHyperlink( itemLink );
-	local gtn,totalLines = NS.GameTooltip:GetName(),NS.GameTooltip:NumLines();
-	local textLeft,textLeftText,textLeftColor = nil,nil,{};
-	if totalLines == 1 and _G[gtn ..'TextLeft' .. 1]:GetText() == RETRIEVING_ITEM_INFO then
-=======
 	local tooltipData = C_TooltipInfo.GetHyperlink( itemLink );
 	local totalLines = tooltipData and #tooltipData.lines or 0;
 	--
 	local textLeft,textLeftText,textLeftColor = nil,nil,{};
 	--
 	if totalLines == 1 and tooltipData.lines[1].leftText == RETRIEVING_ITEM_INFO then
->>>>>>> Stashed changes
 		return "retry"; -- Retrieving Item Information
 	else
 		for line = 1, totalLines do
 			if maxLine and line > maxLine then break end
 			if not minLine or line >= minLine then
-<<<<<<< Updated upstream
-				--
-				textLeft = _G[gtn ..'TextLeft' .. line];
-				textLeftText = textLeft:GetText();
-				if not textLeftText then return end
-				--
-				local textLeftColorMatch = false;
-				if textColor then
-					textLeftColor.r, textLeftColor.g, textLeftColor.b = textLeft:GetTextColor();
-					if textColor.r == math.floor( textLeftColor.r * 256 ) and textColor.g == math.floor( textLeftColor.g * 256 ) and textColor.b == math.floor( textLeftColor.b * 256 ) then
-						textLeftColorMatch = true;
-					end
-				end
-				--
-				local textLeftPatternMatch = false;
-				if textPatterns and ( ( textColor and textLeftColorMatch ) or not textColor ) then
-					for i = 1, #textPatterns do
-						if string.match( textLeftText, textPatterns[i] ) then
-							textLeftPatternMatch = true;
-							break; -- Gotcha sucka!
-						end
-					end
-				end
-				--
-				if ( ( textColor and textPatterns ) and ( textLeftColorMatch and textLeftPatternMatch ) ) or ( ( textColor and not textPatterns ) and textLeftColorMatch ) or ( ( textPatterns and not textColor ) and textLeftPatternMatch ) then
-					return textLeftText;
-=======
 				textLeftText = tooltipData.lines[line].leftText;
 				if textLeftText then
 					local textLeftColorMatch = false;
@@ -1757,7 +1455,6 @@ NS.FindInTooltip = function( itemLink, textColor, textPatterns, minLine, maxLine
 					if ( ( textColor and textPatterns ) and ( textLeftColorMatch and textLeftPatternMatch ) ) or ( ( textColor and not textPatterns ) and textLeftColorMatch ) or ( ( textPatterns and not textColor ) and textLeftPatternMatch ) then
 						return textLeftText;
 					end
->>>>>>> Stashed changes
 				end
 			end
 		end
@@ -1987,10 +1684,6 @@ function NS.scan:Reset()
 	self.status = "ready"; -- ready, scanning, selected, buying
 	self.triggerAuctionWon = nil;
 	self.selectedOwner = nil;
-<<<<<<< Updated upstream
-	self.ignoreInternalAuctionErrorAfterBrowseFailure = false;
-=======
->>>>>>> Stashed changes
 end
 --
 function NS.scan:Start( type )
@@ -2017,13 +1710,8 @@ function NS.scan:Start( type )
 		NS.JumbotronFrame_Message( L["Scanning Auction House"] );
 		NS.StatusFrame_Message( L["Request sent, waiting on auction data... This can take a minute, please wait..."] );
 		AuctionFrameCollectionShop_ShopButton:Disable();
-<<<<<<< Updated upstream
-		for i = 1, 4 do
-			self.query.qualities[i] = true;
-=======
 		for i = 0, 4 do
 			self.query.qualities[i] = true; -- Add 4 item qualities (poor, common, rare, epic)
->>>>>>> Stashed changes
 		end
 		self:QueryGetAllSend();
 	elseif type == "SELECT" then
@@ -2090,15 +1778,9 @@ function NS.scan:Start( type )
 		--------------------------------------------------------------------------------------------------------------------------------------------
 		if NS.mode == "MOUNTS" then
 			if NS.db["live"] then
-<<<<<<< Updated upstream
-				self.query.itemClassFilters = AuctionCategories[12].subCategories[5].filters; -- Miscellaneous => Mount
-				self.query.categoryName = AuctionCategories[12].name; -- Miscellaneous
-				self.query.subCategoryName = AuctionCategories[12].subCategories[5].name; -- Mount
-=======
 				self.query.itemClassFilters = AuctionCategories[13].subCategories[5].filters; -- Miscellaneous => Mount
 				self.query.categoryName = AuctionCategories[13].name; -- Miscellaneous
 				self.query.subCategoryName = AuctionCategories[13].subCategories[5].name; -- Mount
->>>>>>> Stashed changes
 				self:QueryBrowseSend();
 			else
 				self:ImportShopData();
@@ -2107,21 +1789,12 @@ function NS.scan:Start( type )
 		elseif NS.mode == "PETS" then
 			if NS.db["live"] then
 				-- Auction Categories
-<<<<<<< Updated upstream
-				for i = 1, #AuctionCategories[10].subCategories do
-					if NS.db["modeFilters"][NS.mode][AuctionCategories[10].subCategories[i].name] then
-						table.insert( self.query.queue, function()
-							self.query.itemClassFilters = AuctionCategories[10].subCategories[i].filters; -- Battle Pets => Pet Family (or Companion Pets)
-							self.query.categoryName = AuctionCategories[10].name; -- Battle Pets
-							self.query.subCategoryName = AuctionCategories[10].subCategories[i].name; -- Pet Family (or Companion Pets)
-=======
 				for i = 1, #AuctionCategories[11].subCategories do
 					if NS.db["modeFilters"][NS.mode][AuctionCategories[11].subCategories[i].name] then
 						table.insert( self.query.queue, function()
 							self.query.itemClassFilters = AuctionCategories[11].subCategories[i].filters; -- Battle Pets => Pet Family (or Companion Pets)
 							self.query.categoryName = AuctionCategories[11].name; -- Battle Pets
 							self.query.subCategoryName = AuctionCategories[11].subCategories[i].name; -- Pet Family (or Companion Pets)
->>>>>>> Stashed changes
 						end );
 					end
 				end
@@ -2219,9 +1892,6 @@ function NS.scan:QueryBrowseSend()
 		self.query.attempts = 1; -- Set to default on successful attempt
 		local query = {};
 		query.searchString = self.query.searchString;
-<<<<<<< Updated upstream
-		query.sorts = self.query.sorts;
-=======
 		-- Enum.AuctionHouseSortOrder
 		-- 0	Price
 		-- 1	Name
@@ -2231,23 +1901,10 @@ function NS.scan:QueryBrowseSend()
 		-- 5	TimeRemaining	Only works for Owned auctions.
 		query.sorts = self.query.sorts;
 		--
->>>>>>> Stashed changes
 		query.minLevel = self.query.minLevel;
 		query.maxLevel = self.query.maxLevel;
 		--
 		query.filters = {};
-<<<<<<< Updated upstream
-		if self.query.uncollectedOnly then query.filters[#query.filters + 1] = 0; end
-		if self.query.usableOnly then query.filters[#query.filters + 1] = 1; end
-		if self.query.upgradesOnly then query.filters[#query.filters + 1] = 2; end
-		if self.query.exactMatch then query.filters[#query.filters + 1] = 3; end
-		if self.query.qualities[0] then query.filters[#query.filters + 1] = 4; end
-		if self.query.qualities[1] then query.filters[#query.filters + 1] = 5; end
-		if self.query.qualities[2] then query.filters[#query.filters + 1] = 6; end
-		if self.query.qualities[3] then query.filters[#query.filters + 1] = 7; end
-		if self.query.qualities[4] then query.filters[#query.filters + 1] = 8; end
-		--
-=======
 		-- Enum.AuctionHouseFilter
 		-- 0	None
 		-- 1	UncollectedOnly
@@ -2277,7 +1934,6 @@ function NS.scan:QueryBrowseSend()
 		-- classID	number	ItemType
 		-- subClassID	number (nilable)
 		-- inventoryType	Enum.InventoryType (nilable)
->>>>>>> Stashed changes
 		query.itemClassFilters = self.query.itemClassFilters;
 		--
 		CollectionShopEventsFrame:RegisterEvent( "AUCTION_HOUSE_BROWSE_RESULTS_UPDATED" );
@@ -2334,14 +1990,6 @@ function NS.scan:OnBrowseResultsUpdated() -- AUCTION_HOUSE_BROWSE_RESULTS_UPDATE
 	-- Not really doing anything here right now.
 end
 --
-<<<<<<< Updated upstream
-function NS.scan:OnBrowseFailure() -- AUCTION_HOUSE_BROWSE_FAILURE
-	-- Beginning some time in early 2020, Blizzard AH is throwing an Internal Auction Error after buyouts along with a browse failure event. So, we're going to ignore one following browse failure
-	self.ignoreInternalAuctionErrorAfterBrowseFailure = true;
-end
---
-=======
->>>>>>> Stashed changes
 function NS.scan:OnThrottledSystemReady() -- AUCTION_HOUSE_THROTTLED_SYSTEM_READY
 	CollectionShopEventsFrame:UnregisterEvent( "AUCTION_HOUSE_THROTTLED_SYSTEM_READY" );
 	if self.status ~= "scanning" then return end
@@ -2406,10 +2054,7 @@ function NS.scan:GetSearchItemInfo( itemSearchResultIndex )
 	------------------------------------------------------------------------------
 	-- itemKey	structure ItemKey
 	-- owners	string[]
-<<<<<<< Updated upstream
-=======
 	-- totalNumberOfOwners number
->>>>>>> Stashed changes
 	-- timeLeft	Enum.AuctionHouseTimeLeftBand
 	-- auctionID	number
 	-- quantity	number
@@ -2423,10 +2068,6 @@ function NS.scan:GetSearchItemInfo( itemSearchResultIndex )
 	-- buyoutAmount	number (nilable)
 	-- timeLeftSeconds	number (nilable)
 	------------------------------------------------------------------------------
-<<<<<<< Updated upstream
-	-- itemKeyInfo ---------------------------------------------------------------
-	------------------------------------------------------------------------------
-=======
 	-- itemKey -------------------------------------------------------------------
 	------------------------------------------------------------------------------
 	-- itemID number
@@ -2438,7 +2079,6 @@ function NS.scan:GetSearchItemInfo( itemSearchResultIndex )
 	------------------------------------------------------------------------------
 	-- itemID number
 	-- battlePetSpeciesID number
->>>>>>> Stashed changes
 	-- itemName	string
 	-- battlePetLink	string (nilable)
 	-- appearanceLink	string (nilable)
@@ -2524,36 +2164,19 @@ function NS.scan:GetReplicateItemInfo( index )
 			itemLink = C_AuctionHouse.GetReplicateItemLink( index ); -- Ignore missing quality (-1) to force retry
 		end
 		--
-<<<<<<< Updated upstream
-		if not itemLink then
-=======
 		if not itemLink or not texture then
->>>>>>> Stashed changes
 			return "retry";
 		else
 			if self.type == "SHOP" or self.type == "GETALL" then
 				local appearanceID,sourceID;
 				--
 				if auctionItemType == "possible-appearance" then
-<<<<<<< Updated upstream
-					if quality > 1 then -- Transmoggable gear is uncommon or higher quality
-						appearanceID,sourceID = NS.GetAppearanceSourceInfo( itemLink );
-						if not appearanceID then
-							return "retry-possible-appearance"; -- Retry for appearanceID or if item has none then prevent inclusion after max retries
-						end
-						if not NS.FindKeyByValue( data["appearanceSources"], sourceID ) then
-							data["appearanceSources"][#data["appearanceSources"] + 1] = sourceID; -- List of unique sources to update appearanceCollection
-						end
-					else
-						return nil; -- No poor and common quality items
-=======
 					appearanceID,sourceID = NS.GetAppearanceSourceInfo( itemLink );
 					if not appearanceID then
 						return "retry-possible-appearance"; -- Retry for appearanceID or if item has none then prevent inclusion after max retries
 					end
 					if not NS.FindKeyByValue( data["appearanceSources"], sourceID ) then
 						data["appearanceSources"][#data["appearanceSources"] + 1] = sourceID; -- List of unique sources to update appearanceCollection
->>>>>>> Stashed changes
 					end
 				end
 				--
@@ -2914,11 +2537,7 @@ function NS.scan:ImportShopData()
 						speciesID,petLevel = NS.petInfo[itemId][1], 1;
 					end
 					-- Filter: category
-<<<<<<< Updated upstream
-					category = AuctionCategories[10].subCategories[select( 3, C_PetJournal.GetPetInfoBySpeciesID( speciesID ) )].name;
-=======
 					category = AuctionCategories[11].subCategories[select( 3, C_PetJournal.GetPetInfoBySpeciesID( speciesID ) )].name;
->>>>>>> Stashed changes
 					if not NS.db["modeFilters"][NS.mode][category] then
 						discard = true;
 					end
@@ -2964,23 +2583,6 @@ function NS.scan:ImportShopData()
 				if not discard then
 					local itemRequiresLevel = data[itemId][auctionNum][5]; -- requiresLevel(5)
 					--
-<<<<<<< Updated upstream
-					if itemRequiresLevel <= 60 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][1][1]] then -- itemRequiresLevels(4), Level 1-60(1), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 61 and itemRequiresLevel <= 70 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][2][1]] then -- itemRequiresLevels(4), Level 61-70(2), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 71 and itemRequiresLevel <= 80 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][3][1]] then -- itemRequiresLevels(4), Level 71-80(3), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 81 and itemRequiresLevel <= 85 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][4][1]] then -- itemRequiresLevels(4), Level 81-85(4), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 86 and itemRequiresLevel <= 90 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][5][1]] then -- itemRequiresLevels(4), Level 86-90(5), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 91 and itemRequiresLevel <= 100 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][6][1]] then -- itemRequiresLevels(4), Level 91-100(6), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 101 and itemRequiresLevel <= 110 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][7][1]] then -- itemRequiresLevels(4), Level 101-110(7), key(1)
-						discard = true;
-					elseif itemRequiresLevel >= 111 and itemRequiresLevel <= 120 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][8][1]] then -- itemRequiresLevels(4), Level 111-120(8), key(1)
-=======
 					if itemRequiresLevel <= 25 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][1][1]] then -- itemRequiresLevels(4), Level 1-25(1), key(1)
 						discard = true;
 					elseif itemRequiresLevel >= 25 and itemRequiresLevel <= 27 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][2][1]] then -- itemRequiresLevels(4), Level 25-27(2), key(1)
@@ -3002,7 +2604,6 @@ function NS.scan:ImportShopData()
 					elseif itemRequiresLevel >= 60 and itemRequiresLevel <= 70 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][10][1]] then -- itemRequiresLevels(4), Level 60-70(10), key(1)
 						discard = true;
 					elseif itemRequiresLevel >= 70 and itemRequiresLevel <= 80 and not NS.db["modeFilters"][NS.mode][NS.modeFilters[4][11][1]] then -- itemRequiresLevels(4), Level 70-80(11), key(1)
->>>>>>> Stashed changes
 						discard = true;
 					end
 				end
@@ -3079,11 +2680,7 @@ function NS.scan:ImportShopData()
 		if itemNum <= #itemIds then
 			itemId = NS.mode == "APPEARANCES" and itemIds[itemNum][1] or itemIds[itemNum];
 			category =
-<<<<<<< Updated upstream
-			--[[continued]]( NS.mode == "MOUNTS" and AuctionCategories[12].subCategories[5].name ) or
-=======
 			--[[continued]]( NS.mode == "MOUNTS" and AuctionCategories[13].subCategories[5].name ) or
->>>>>>> Stashed changes
 			--[[continued]]( NS.mode == "PETS" and "tbd" ) or
 			--[[continued]]( NS.mode == "TOYS" and AuctionCategories[NS.toyInfo[itemId][1]].subCategories[NS.toyInfo[itemId][2]].name .. " (" .. AuctionCategories[NS.toyInfo[itemId][1]].name .. ")" ) or
 			--[[continued]]( NS.mode == "APPEARANCES" and NS.appearanceCollection.categoryNames[itemIds[itemNum][2]] ) or
@@ -3209,11 +2806,7 @@ function NS.scan:Complete( cancelMessage )
 			-- FOUND
 			self.status = "selected";
 			if NS.mode ~= "TOYS" then
-<<<<<<< Updated upstream
-				local dressableRecipe = ( NS.mode == "RECIPES" and IsDressableItem( self.query.auction[2] ) );
-=======
 				local dressableRecipe = ( NS.mode == "RECIPES" and C_Item.IsDressableItemByID( self.query.auction[2] ) );
->>>>>>> Stashed changes
 				-- Hide Flyout Panel and Open or Close DressUpFrame
 				if NS.mode ~= "RECIPES" or dressableRecipe then
 					AuctionFrameCollectionShop_FlyoutPanel:Hide();
@@ -3227,11 +2820,7 @@ function NS.scan:Complete( cancelMessage )
 					AuctionFrameCollectionShop_FlyoutPanel:Reset();
 				end
 				-- DressUp -- Delay to allow frame to initialize
-<<<<<<< Updated upstream
-				C_Timer.After( 0.001, function()					
-=======
 				C_Timer.After( 0.001, function()
->>>>>>> Stashed changes
 					if NS.mode == "MOUNTS" then
 						DressUpMountLink( self.query.auction[2] ); -- itemLink(2)
 					elseif NS.mode == "PETS" then
@@ -3292,46 +2881,6 @@ function NS.scan:Complete( cancelMessage )
 	AuctionFrameCollectionShop_ShopButton:Reset();
 end
 --
-<<<<<<< Updated upstream
-function NS.scan:OnChatMsgSystem( ... ) -- CHAT_MSG_SYSTEM
-	local arg1 = ...;
-	if not arg1 then return end
-	if arg1 == string.format( ERR_AUCTION_WON_S, NS.auction.data.groups[self.query.auction.groupKey][2] ) then -- itemName(2)
-		-- You won an auction for %s
-		self.triggerAuctionWon = true; -- Used in handler for event below to trigger process for after "You won an auction for %s"
-		CollectionShopEventsFrame:RegisterEvent( "ITEM_SEARCH_RESULTS_UPDATED" );
-		CollectionShopEventsFrame:UnregisterEvent( "CHAT_MSG_SYSTEM" );
-	end
-end
---
-function NS.scan:OnUIErrorMessage( ... ) -- UI_ERROR_MESSAGE
-	local arg2 = select( 2, ... );
-	if not arg2 then return end
-	-- Beginning some time in early 2020, Blizzard AH is throwing an Internal Auction Error after buyouts along with a browse failure event. So, we're going to ignore one following browse failure
-	if arg2 == ERR_AUCTION_DATABASE_ERROR and self.ignoreInternalAuctionErrorAfterBrowseFailure then
-		self.ignoreInternalAuctionErrorAfterBrowseFailure = false;
-		return -- Ignore internal auction house error once after AUCTION_HOUSE_BROWSE_FAILURE
-	end
-	--
-	if self.status ~= "buying" then
-		-- Not Buying
-		if arg2 == ERR_AUCTION_DATABASE_ERROR then
-			NS.Print( RED_FONT_COLOR_CODE .. arg2 .. FONT_COLOR_CODE_CLOSE );
-			return NS.Reset(); -- Reset on Internal Auction Error
-		else
-			return -- Ignore errors unexpected when not buying an auction
-		end
-	elseif (
-		-- Buying
-		arg2 ~= ERR_AUCTION_DATABASE_ERROR and
-		arg2 ~= ERR_ITEM_NOT_FOUND and
-		arg2 ~= ERR_AUCTION_HIGHER_BID and
-		arg2 ~= ERR_AUCTION_BID_OWN and
-		arg2 ~= ERR_NOT_ENOUGH_MONEY and
-		arg2 ~= ERR_RESTRICTED_ACCOUNT and	-- Starter Edition account
-		arg2 ~= ERR_ITEM_MAX_COUNT ) then
-		return -- Ignore errors unexpected during buying an auction
-=======
 function NS.scan:OnShowFormattedNotification( ... ) -- AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION
 	-- AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION: notification, text, auctionID
 	-- Enum.AuctionHouseNotification
@@ -3401,26 +2950,16 @@ function NS.scan:OnShowError( ... ) -- AUCTION_HOUSE_SHOW_ERROR
 		arg1 ~= 10	  -- DatabaseError
 		) then
 		return -- Ignore errors unexpected when buying an auction
->>>>>>> Stashed changes
 	end
 	--
 	-- Handle error expected when buying an auction
 	--
-<<<<<<< Updated upstream
-	CollectionShopEventsFrame:UnregisterEvent( "CHAT_MSG_SYSTEM" );
-	--
-	if arg2 == ERR_ITEM_NOT_FOUND or arg2 == ERR_AUCTION_HIGHER_BID or arg2 == ERR_AUCTION_BID_OWN then
-		if arg2 == ERR_ITEM_NOT_FOUND or arg2 == ERR_AUCTION_HIGHER_BID then
-			NS.Print( RED_FONT_COLOR_CODE .. L["That auction is no longer available and has been removed"] .. FONT_COLOR_CODE_CLOSE );
-		elseif arg2 == ERR_AUCTION_BID_OWN then
-=======
 	CollectionShopEventsFrame:UnregisterEvent( "AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION" );
 	--
 	if arg1 == 1 or arg1 == 3 or arg1 == 4 then -- HigherBid(1), BidOwn(3), ItemNotFound(4)
 		if arg1 == 1 or arg2 == 4 then
 			NS.Print( RED_FONT_COLOR_CODE .. L["That auction is no longer available and has been removed"] .. FONT_COLOR_CODE_CLOSE );
 		elseif arg1 == 3 then
->>>>>>> Stashed changes
 			NS.Print( RED_FONT_COLOR_CODE .. L["That auction belonged to a character on your account and has been removed"] .. FONT_COLOR_CODE_CLOSE );
 		end
 		--
@@ -3432,9 +2971,6 @@ function NS.scan:OnShowError( ... ) -- AUCTION_HOUSE_SHOW_ERROR
 		end );
 	else
 		self.status = "ready";
-<<<<<<< Updated upstream
-		NS.StatusFrame_Message( arg2 );
-=======
 		if arg1 == 0 then -- NotEnoughMoney(0)
 			NS.StatusFrame_Message( ERR_NOT_ENOUGH_MONEY );
 		elseif arg1 == 5 then -- RestrictedAccountTrial(5)
@@ -3442,7 +2978,6 @@ function NS.scan:OnShowError( ... ) -- AUCTION_HOUSE_SHOW_ERROR
 		else -- Unavailable (8), DatabaseError(10)
 			NS.StatusFrame_Message( ERR_AUCTION_DATABASE_ERROR );
 		end
->>>>>>> Stashed changes
 		AuctionFrameCollectionShop_BuyAllButton:Enable();
 	end
 	--
@@ -3587,14 +3122,9 @@ NS.GetAppearanceSourceInfo = function( itemLink )
 	end
     NS.Model:Undress();
     NS.Model:TryOn( itemLink, slotId );
-<<<<<<< Updated upstream
-    local sourceID = NS.Model:GetSlotTransmogSources( slotId );
-    if sourceID then
-=======
     local itemTransmogInfo = NS.Model:GetItemTransmogInfo( slotId );
     if itemTransmogInfo and itemTransmogInfo.appearanceID then
 		local sourceID = itemTransmogInfo.appearanceID;
->>>>>>> Stashed changes
 		local _,appearanceID = C_TransmogCollection.GetAppearanceSourceInfo( sourceID );
         return appearanceID, sourceID;
     else
@@ -3630,11 +3160,7 @@ NS.SlashCmdHandler = function( cmd )
 				numWithSkill = numWithSkill + 1;
 			else
 				numWithoutSkill = numWithoutSkill + 1;
-<<<<<<< Updated upstream
-				NS.Print( numWithoutSkill .. '. ' .. info[1] .. ', ' .. info[2] .. ', ' .. info[3] .. ', ' .. info[4] .. ': ' .. GetSpellInfo( info[1] ) );
-=======
 				NS.Print( numWithoutSkill .. '. ' .. info[1] .. ', ' .. info[2] .. ', ' .. info[3] .. ', ' .. info[4] .. ': ' .. C_Spell.GetSpellInfo( info[1] ).name );
->>>>>>> Stashed changes
 			end
 		end
 		NS.Print( 'Recipes: ' .. numRecipes .. ' (' .. numWithSkill .. ' with skill, ' .. numWithoutSkill .. ' without skill)' );
@@ -3734,9 +3260,6 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 		topLevel = true,
 		hidden = true,
 		size = { 824 - 30, 447 + 98 - 34 }, --f:SetSize( 758, 447 ); 66 x removed from close button
-<<<<<<< Updated upstream
-		OnShow = NS.Reset,
-=======
 		OnShow = function( self )
 			NS.UpdateTitleText(); -- Clears the "Browse Auctions" Blizzard title text
 			NS.linkLevel = UnitLevel( "player" );
@@ -3751,7 +3274,6 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 			end
 			NS.Reset();
 		end,
->>>>>>> Stashed changes
 		OnHide = NS.Reset,
 		bg = { "3054898" }, -- Interface\\AuctionFrame\\AuctionHouseBackgrounds
 		OnLoad = function( self )
@@ -3766,36 +3288,6 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 			self:SetUnit( "player" );
 		end,
 	} );
-<<<<<<< Updated upstream
-	NS.GameTooltip = NS.Frame( NS.addon .. "_GameTooltip", UIParent, {
-		topLevel = true,
-		type = "GameTooltip",
-		OnLoad = function( self )
-			self:SetOwner( UIParent, "ANCHOR_NONE" );
-			self:AddFontStrings(
-				self:CreateFontString( "$parentTextLeft1", nil, "GameTooltipText" ),
-				self:CreateFontString( "$parentTextRight1", nil, "GameTooltipText" )
-			);
-		end,
-	} );
-	NS.TextFrame( "_Title", AuctionFrameCollectionShop, "", {
-		setPoint = {
-			{ "TOPLEFT", 74, -24 + 12 },
-			{ "RIGHT", -20, 0 },
-		},
-		justifyH = "CENTER",
-	} );
-	NS.CheckButton( "_UndressCharacterCheckButton", AuctionFrameCollectionShop, L["Undress Character"], {
-		template = "InterfaceOptionsSmallCheckButtonTemplate",
-		size = { 16, 16 },
-		setPoint = { "RIGHT", "#sibling", "RIGHT", -130, 0 },
-		tooltip = L["Show character with\nselected item only"],
-		db = "undressCharacter",
-	} );
-	NS.TextFrame( "_MaxItemPriceFrame", AuctionFrameCollectionShop, "", {
-		size = { 150, 16 },
-		setPoint = { "LEFT", "$parent_Title", "LEFT", 3, 0 },
-=======
 	NS.TextFrame( "_Title", AuctionFrameCollectionShop, "", {
 		setPoint = {
 			{ "TOPLEFT", 60, -24 + 13 },
@@ -3815,7 +3307,6 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 	NS.TextFrame( "_MaxItemPriceFrame", AuctionFrameCollectionShop_Title, "", {
 		size = { 150, 16 },
 		setPoint = { "LEFT", "$parent", "LEFT", 3, 0 },
->>>>>>> Stashed changes
 		fontObject = "GameFontHighlightSmall",
 	} );
 	NS.Button( "_NameSortButton", AuctionFrameCollectionShop, NAME, {
@@ -3921,11 +3412,7 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 						_G[bn .. "_IconTexture"]:SetScript( "OnLeave", function() GameTooltip_Hide(); if not IsHighlightLocked() then b:UnlockHighlight(); end end );
 						_G[bn .. "_IconTexture"]:SetScript( "OnClick", OnClick );
 						_G[bn .. "_NameText"]:SetText( items[k][2] ); -- group name(2)
-<<<<<<< Updated upstream
-						_G[bn .. "_NameText"]:SetTextColor( GetItemQualityColor( items[k][5][1][4] ) ); -- auctions(5), first auction(1), quality(4)
-=======
 						_G[bn .. "_NameText"]:SetTextColor( unpack( { GetItemQualityColor( items[k][5][1][4] ) }, 1, 3 ) ); -- auctions(5), first auction(1), quality(4)
->>>>>>> Stashed changes
 						_G[bn .. "_LvlText"]:SetText( ( ( NS.mode ~= "PETS" and NS.mode ~= "RECIPES" and items[k][6] > NS.linkLevel ) or ( NS.mode == "RECIPES" and items[k][8] ) ) and RED_FONT_COLOR_CODE .. items[k][6] .. FONT_COLOR_CODE_CLOSE or items[k][6] ); -- group lvl(6) requiresProfession(Level)(8)
 						--
 						local category = items[k][3];
@@ -4141,12 +3628,8 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 				AuctionFrameCollectionShop_ScanButton:Disable();
 				AuctionFrameCollectionShop_ShopButton:Disable();
 				AuctionFrameCollectionShop_BuyAllButton:Disable();
-<<<<<<< Updated upstream
-				CollectionShopEventsFrame:RegisterEvent( "CHAT_MSG_SYSTEM" );
-=======
 				CollectionShopEventsFrame:RegisterEvent( "AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION" );
 				--CollectionShopEventsFrame:RegisterEvent( "AUCTION_HOUSE_PURCHASE_COMPLETED" );
->>>>>>> Stashed changes
 				C_AuctionHouse.PlaceBid( NS.scan.query.auction.auctionID, NS.scan.query.auction[1] ); -- itemPrice(1)
 			end
 		end,
@@ -4246,10 +3729,6 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 		justifyH = "CENTER",
 	} );
 	NS.CheckButton( "_LiveCheckButton", AuctionFrameCollectionShop, L["Live"], {
-<<<<<<< Updated upstream
-		template = "InterfaceOptionsSmallCheckButtonTemplate",
-=======
->>>>>>> Stashed changes
 		size = { 16, 16 },
 		setPoint = { "RIGHT", "$parent_ScanButton", "LEFT", -30, 0 },
 		tooltip = L["Scan Auction House live when\npressing \"Shop\" instead of\nusing GetAll scan data.\n\nLive scans only search\nthe pages required for the\nfilters you checked and may\nbe faster in certain modes or\nwhen using a low max price."],
@@ -4462,11 +3941,7 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 	NS.Button( "_FlyoutPanelButton", AuctionFrameCollectionShop, nil, {
 		template = false,
 		size = { 28, 28 },
-<<<<<<< Updated upstream
-		setPoint = { "TOPRIGHT", "$parent", "TOPRIGHT", 5, -22 },
-=======
 		setPoint = { "TOPRIGHT", "$parent", "TOPRIGHT", 0, -36 },
->>>>>>> Stashed changes
 		normalTexture = "Interface\\Buttons\\UI-SpellbookIcon-PrevPage-Up",
 		pushedTexture = "Interface\\Buttons\\UI-SpellbookIcon-PrevPage-Down",
 		highlightTexture = "Interface\\Buttons\\UI-Common-MouseHilight",
@@ -4489,27 +3964,7 @@ NS.Blizzard_AuctionHouseUI_OnLoad = function()
 	AuctionFrameCollectionShop:SetParent( AuctionHouseFrame );
 	AuctionFrameCollectionShop:SetPoint( "TOPLEFT" );
 	-- Add "CollectionShop" tab to AuctionHouseFrame
-<<<<<<< Updated upstream
-	local numTab = #AuctionHouseFrame.Tabs + 1;
-	NS.AuctionHouseFrameTab = NS.Button( "CollectionShopTab", AuctionHouseFrame, NS.title, {
-		template = "AuctionHouseFrameDisplayModeTabTemplate",
-		OnLoad = function( self )
-			self:SetID( numTab ); -- Easy way to compare with selected tab
-			AuctionHouseFrame.Tabs[numTab] = self; -- parentArray Tabs
-			AuctionHouseFrame.AuctionFrameCollectionShop = AuctionFrameCollectionShop; -- parentKey
-			self:SetPoint( "LEFT", AuctionHouseFrame.Tabs[#AuctionHouseFrame.Tabs - 1], "RIGHT", -15, 0 ); -- Align with previous tab
-			AuctionHouseFrameDisplayMode.CollectionShop = { "AuctionFrameCollectionShop" }; -- Define new display mode
-			self.displayMode = AuctionHouseFrameDisplayMode.CollectionShop; -- Assign new display mode to tab
-			AuctionHouseFrame.tabsForDisplayMode[self.displayMode] = numTab; -- Add manually because Blizz does this on AH load
-		end,
-	} );
-	PanelTemplates_SetNumTabs( AuctionHouseFrame, numTab );
-	PanelTemplates_EnableTab( AuctionHouseFrame, numTab );
-	-- Hook tab click
-	hooksecurefunc( AuctionHouseFrame, "SetDisplayMode", NS.AuctionHouseFrame_SetDisplayMode );
-=======
 	LibAHTab:CreateTab( NS.AuctionHouseFrameTabID, AuctionFrameCollectionShop, NS.title );
->>>>>>> Stashed changes
 	-- Hook DressUpModelCancelButton
 	DressUpFrameCloseButton:HookScript( "OnClick", NS.DressUpFrameCancelButton_OnClick );
 	DressUpFrameCancelButton:HookScript( "OnClick", NS.DressUpFrameCancelButton_OnClick );
@@ -4524,11 +3979,7 @@ NS.Frame( "CollectionShopEventsFrame", UIParent, {
 	hidden = true,
 	OnEvent = function ( self, event, ... )
 		if		event == "ADDON_LOADED"						then
-<<<<<<< Updated upstream
-			if IsAddOnLoaded( NS.addon ) then
-=======
 			if C_AddOns.IsAddOnLoaded( NS.addon ) then
->>>>>>> Stashed changes
 				if not NS.initialized then
 					-- Set Default SavedVariables
 					if not COLLECTIONSHOP_SAVEDVARIABLES then
@@ -4551,26 +4002,16 @@ NS.Frame( "CollectionShopEventsFrame", UIParent, {
 					end
 					--
 					NS.initialized = true;
-<<<<<<< Updated upstream
-				elseif IsAddOnLoaded( "Blizzard_AuctionHouseUI" ) then
-					self:UnregisterEvent( "ADDON_LOADED" );
-					NS.Blizzard_AuctionHouseUI_OnLoad();
-=======
 				elseif C_AddOns.IsAddOnLoaded( "Blizzard_AuctionHouseUI" ) then
 					self:UnregisterEvent( "ADDON_LOADED" );
 					C_Timer.After( 0.1, NS.Blizzard_AuctionHouseUI_OnLoad ); -- Delay required as of 10.0.2
->>>>>>> Stashed changes
 				end
 			end
 		elseif	event == "PLAYER_LOGIN"						then
 			self:UnregisterEvent( "PLAYER_LOGIN" );
-<<<<<<< Updated upstream
-			InterfaceOptions_AddCategory( CollectionShopInterfaceOptionsPanel );
-=======
 			--InterfaceOptions_AddCategory( CollectionShopInterfaceOptionsPanel );
 			local category = Settings.RegisterCanvasLayoutCategory( CollectionShopInterfaceOptionsPanel, NS.title );
 			Settings.RegisterAddOnCategory( category );
->>>>>>> Stashed changes
 			if #NS.playerLoginMsg > 0 then
 				for _,msg in ipairs( NS.playerLoginMsg ) do
 					NS.Print( msg );
@@ -4581,13 +4022,8 @@ NS.Frame( "CollectionShopEventsFrame", UIParent, {
 		elseif	event == "AUCTION_HOUSE_BROWSE_FAILURE"						then	NS.scan:OnBrowseFailure();
 		elseif	event == "ITEM_SEARCH_RESULTS_UPDATED"						then	NS.scan:OnItemSearchResultsUpdated();
 		elseif	event == "REPLICATE_ITEM_LIST_UPDATE"						then	NS.scan:OnReplicateItemListUpdate();
-<<<<<<< Updated upstream
-		elseif	event == "CHAT_MSG_SYSTEM"									then	NS.scan:OnChatMsgSystem( ... );
-		elseif	event == "UI_ERROR_MESSAGE"									then	NS.scan:OnUIErrorMessage( ... );
-=======
 		elseif	event == "AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION"		then	NS.scan:OnShowFormattedNotification( ... );
 		elseif	event == "AUCTION_HOUSE_SHOW_ERROR"							then	NS.scan:OnShowError( ... );
->>>>>>> Stashed changes
 		elseif	event == "TRANSMOG_COLLECTION_SOURCE_ADDED"					then
 			local arg1 = ...;
 			if not arg1 then return end

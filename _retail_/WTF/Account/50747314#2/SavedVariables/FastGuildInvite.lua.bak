@@ -1,0 +1,21 @@
+
+FGI_DB = {
+["profileKeys"] = {
+["Kkalterac - Alterac Mountains"] = "Default",
+["Moumoo - Moon Guard"] = "Default",
+["Twinkky - Emerald Dream"] = "Default",
+["Marshmello - Area 52"] = "Default",
+},
+}
+FGI_DEBUG = {
+["profileKeys"] = {
+["Kkalterac - Alterac Mountains"] = "Kkalterac - Alterac Mountains",
+["Moumoo - Moon Guard"] = "Moumoo - Moon Guard",
+["Twinkky - Emerald Dream"] = "Twinkky - Emerald Dream",
+["Marshmello - Area 52"] = "Marshmello - Area 52",
+},
+["global"] = {
+{
+},
+},
+}

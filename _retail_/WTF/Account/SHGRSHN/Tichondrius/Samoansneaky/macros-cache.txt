@@ -1,27 +1,80 @@
-VER 3 0100000000000007 "Dance [FF]" "Ability_Creature_Cursed_04"
-/script SendChatMessage("!ff_dance", "WHISPER", nil, UnitName("target"))
+VER 3 010000000000000A "Backstab" "INV_Misc_QuestionMark"
+#showtooltip Backstab
+/startattack
+/cast Backstab
 END
-VER 3 0100000000000009 "Flying Mount [FF]" "Ability_Druid_FlightForm"
-/script SendChatMessage("!ff_fly", "WHISPER", nil, UnitName("target"))
+VER 3 010000000000000B "Blind Focus" "INV_Misc_QuestionMark"
+#showtooltip
+/use [target=focus] blind
+/use [target=exists] blind
 END
-VER 3 0100000000000003 "Follow [FF]" "Ability_Rogue_Sprint"
-/script SendChatMessage("!ff_follow", "WHISPER", nil, UnitName("target"))
+VER 3 010000000000000C "Cancel Slice&D" "INV_Misc_QuestionMark"
+#showtooltip Slice and Dice
+/cancelaura Slice and Dice
+/use flagellation
 END
-VER 3 0100000000000008 "Ground Mount [FF]" "Ability_Mount_Charger"
-/script SendChatMessage("!ff_mount", "WHISPER", nil, UnitName("target"))
+VER 3 010000000000000D "Door of Shadows" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] door of shadows
 END
-VER 3 0100000000000006 "Invite Me [FF]" "Spell_Holy_PrayerofSpirit"
-/script SendChatMessage("!ff_inviteme", "WHISPER", nil, UnitName("target"))
+VER 3 010000000000000E "Fast Cheapshot" "INV_Misc_QuestionMark"
+#showtooltip
+/use shadowstep
+/use cheapshot
 END
-VER 3 0100000000000004 "Sit [FF]" "Spell_ChargeNegative"
-/script SendChatMessage("!ff_sit", "WHISPER", nil, UnitName("target"))
+VER 3 010000000000000F "Grappling Hook" "INV_Misc_QuestionMark"
+#showtooltip grappling hook
+/use [@cursor] grappling hook
 END
-VER 3 0100000000000005 "Stand [FF]" "Spell_ChargePositive"
-/script SendChatMessage("!ff_stand", "WHISPER", nil, UnitName("target"))
+VER 3 0100000000000010 "Kick Focus" "INV_Misc_QuestionMark"
+#showtooltip Kick
+/cast [target=focus] kick
+/cast [target=mouseover] Kick
+/use Kick
 END
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+VER 3 0100000000000011 "KK_SUB_AOE" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:2] KK_SUB_AOE RightButton; [button:3] KK_SUB_AOE MiddleButton; [button:4] KK_SUB_AOE Button4; [button:5] KK_SUB_AOE Button5; KK_SUB_AOE
+END
+VER 3 0100000000000012 "KK_SUB_ST" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:2] KK_SUB_ST RightButton; [button:3] KK_SUB_ST MiddleButton; [button:4] KK_SUB_ST Button4; [button:5] KK_SUB_ST Button5; KK_SUB_ST
+END
+VER 3 0100000000000013 "OUTLAW" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:2] OUTLAW RightButton; [button:3] OUTLAW MiddleButton; [button:4] OUTLAW Button4; [button:5] OUTLAW Button5; OUTLAW
+END
+VER 3 0100000000000014 "Pickpocket" "INV_Misc_QuestionMark"
+#showtooltip Pick Pocket
+/targetenemy [no harm][dead]
+/cast Pick Pocket
+/cleartarget
+END
+VER 3 0100000000000015 "Sap/Pick" "INV_Misc_QuestionMark"
+#showtooltip sap
+/targetenemy
+/cast Pick Pocket
+/cast [combat] Kidney Shot
+/cast Sap
+END
+VER 3 0100000000000016 "Shadow Dance" "INV_Misc_QuestionMark"
+#showtooltip Shadow Dance
+/cast Shadow Dance
+/cast Shadowstrike
+/cast Symbols of Death
+/cast Shadow Blades
+END
+VER 3 0100000000000017 "Sub Kill Shot" "134400"
+/castsequence reset=10 Cold Blood(PvP Talent),Shadow Blades,Cheap Shot,Shadow Dance,Symbols of Death,Echoing Reprimand,Eviscerate,Marked for Death,Eviscerate,Cheap
+END
+VER 3 0100000000000018 "TricksOfTheTrade" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, help] [@focus, help] [@targettarget, help] Tricks of the Trade
+/use tricks of the trade
+END
+VER 3 0100000000000019 "VuhDoDCShieldData" "132281"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+VER 3 010000000000001A "VuhDoDCShieldNames" "132281"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

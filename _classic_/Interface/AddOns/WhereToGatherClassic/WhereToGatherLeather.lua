@@ -2,7 +2,57 @@ local addonName, namespace = ...
 
 local function getLeatherZone(itemId)
 	local sleatherZone = ""
-
+	
+	--Cataclysm
+	if itemId == "52980" then --Pristine Hide
+		sleatherZone = "Purchased from Leatherwork Suppliers: 10 Savage Leather\nRare chance to be gathered while skinning"
+	elseif itemId == "52979" then --Blackened Dragonscale
+		sleatherZone = "Gathered from dragonkin in: Twilight Highlands & Deepholm"
+	elseif itemId == "52982" then --Deepsea Scale
+		sleatherZone = "Gathered from sea creatures in: Vashj'ir"
+	elseif itemId == "56516" then --Heavy Savage Leather
+		sleatherZone = "Crafted by Leatherworkers (425) using\n5 Savage Leather"
+	elseif itemId == "52976" then --Savage Leather
+		sleatherZone = "Gathered from beasts of Cataclysm."
+	end
+	
+	--WotLK
+	if itemId == "38425" then --Heavy Borean
+		sleatherZone = "Crafted by Leatherworkers (390) using:\n6 Borean Leather"
+	elseif itemId == "44128" then --Arctic Fur
+		sleatherZone = "Gathered from beasts across Northrend.\nPurchased from Leatherwork Suppliers: 10 Heavy Borean Leather"
+	elseif itemId == "38557" then --Icy Dragonscale
+		sleatherZone = "Gathered from dragonkin across Northrend"
+	elseif itemId == "38561" then --Jormungar Scale
+		sleatherZone = "Gathered from Jormungar in:\nStorm Peaks"
+	elseif itemId == "33568" then --Borean Leather
+		sleatherZone = "Gathered from beasts across Northrend"
+	elseif itemId == "38558" then --Nerubian Chitin
+		sleatherZone = "Gathered from Nerubians across Northrend"
+	elseif itemId == "33567" then --Borean Leather Scraps
+		sleatherZone = "Gathered from low level creatures in:\nBorean Tundra\nHowling Fjord"
+	end
+	
+	--TBC
+	if itemId == "25707" then --Fel Hide
+		sleatherZone = "Gathered from low level creatures in:\nHellfire Peninsula\nTerokkar Forest"
+	elseif itemId == "23793" then --Heavy Knothide Leather
+		sleatherZone = "Crafted by Leatherworkers using:\n5 Knothide Leather"
+	elseif itemId == "21887" then --Knothide Leather
+		sleatherZone = "Gathered from high level creatures in:\nShadowmoon Valley\nNetherstorm\nBlade's Edge Mountains"
+	elseif itemId == "25699" then --Crystal Infused
+		sleatherZone = "Gathered from:\nFlayers in Shadowmoon Valley\nBasilisks in Blade's Edge Mountains"
+	elseif itemId == "25700" then --Fel Scales
+		sleatherZone = "Gathered from scaled creatures across Outland."
+	elseif itemId == "25708" then --Thick Clefthoof
+		sleatherZone = "Gathered from Clefthoof in Nagrand."
+	elseif itemId == "29539" then --Cobra Scales
+		sleatherZone = "Gathered from snakes in\nShadowmoon Valley"
+	elseif itemId == "29547" then --Wind Scales
+		sleatherZone = "Gathered from Wind Serpents in\nBlade's Edge Mountains"
+	elseif itemId == "29548" then --Nether Dragonscales
+		sleatherZone = "Gathered from Netherdrakes in:\nShadowmoon Valley\nBlade's Edge Mountains"
+	end
 	--Vanilla
 	if itemId == "15410" then --Scale of Onyxia
 		sleatherZone = "Gathered from Onyxia in Onyxia's Lair."

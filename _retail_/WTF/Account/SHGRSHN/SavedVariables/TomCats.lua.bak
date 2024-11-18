@@ -1,70 +1,115 @@
 
 TomCats_Account = {
-<<<<<<< Updated upstream
-	["notifications"] = {
-		["NZOTHLAUNCH"] = true,
-	},
-	["tutorials"] = {
-		["Rares Log Toggle"] = true,
-	},
-	["versionInfo"] = {
-		["encoded"] = "IfZ51l+yHLqEvtgGH5QEreu0VWgK61CWk1hSa9Jb3ojOYnhhhq7NnF+jMBoBAQYEAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEGCgwAAQYNAQASDgEAGg8BAAY=",
-		["messageID"] = 1604530202,
-	},
-	["preferences"] = {
-		["TomCatsWorldmapRaresButton1355"] = {
-			["position"] = -2.657094713232146,
-		},
-		["TomCatsWorldmapRaresButton118"] = {
-			["position"] = -2.657094711587241,
-		},
-		["TomCatsWorldmapRaresButton1462"] = {
-			["position"] = -2.657094713232146,
-		},
-		["TomCatsWorldmapRaresButton62"] = {
-			["position"] = -2.657094713232146,
-		},
-		["TomCatsMinimapButton"] = {
-			["position"] = 3,
-		},
-		["TomCatsBundledDeathsRisingMinimapButton"] = {
-			["position"] = -2.657094711587241,
-		},
-	},
-=======
-	["loveisintheair"] = {
-	},
-	["discoveriesVersion"] = "2.4.1",
-	["lastVersionSeen"] = "2.4.1",
-	["preferences"] = {
-		["MapOptions"] = {
-			["iconScale"] = 1,
-			["iconAnimationEnabled"] = true,
-		},
-		["TomCats-LunarFestivalMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -2.514,
-		},
-		["TomCats-LoveIsInTheAirMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -3.262,
-		},
-		["TomCats-MinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -2.888,
-		},
-		["betaEnabled"] = false,
-		["defaultVignetteIcon"] = "default",
-	},
-	["lastExpirationWarning"] = 1646192162,
-	["discoveriesResetCount"] = 0,
-	["discoveries"] = {
-		["vignetteAtlases"] = {
-		},
-		["vignettes"] = {
-		},
-	},
-	["lunarfestival"] = {
-	},
->>>>>>> Stashed changes
+["errorLog"] = {
+},
+["dragonflyingglyphs"] = {
+["autoEnabled"] = true,
+["preferences"] = {
+},
+["iconsEnabled"] = true,
+["discovered"] = false,
+["iconScale"] = 0.8,
+},
+["hallowsend"] = {
+["autoEnabled"] = true,
+["preferences"] = {
+},
+["iconsEnabled"] = true,
+["discovered"] = true,
+["iconScale"] = 0.8,
+["arrowEnabled"] = true,
+},
+["lastExpirationWarning"] = 1731802735,
+["discoveriesResetCount"] = 0,
+["noblegarden"] = {
+["enabled"] = true,
+},
+["lunarfestival"] = {
+},
+["loveisintheair"] = {
+},
+["discoveriesVersion"] = "0",
+["lastVersionSeen"] = "2.5.53",
+["preferences"] = {
+["TomCats-HallowsEndMinimapButton"] = {
+["hidden"] = false,
+["position"] = -2.514,
+},
+["queuewu"] = false,
+["TomCats-MinimapButton"] = {
+["hidden"] = false,
+["position"] = -3.083030894229318,
+},
+["defaultVignetteIcon"] = "default",
+["MapOptions"] = {
+["iconScale"] = 1,
+["iconAnimationEnabled"] = true,
+},
+["TomCats-LoveIsInTheAirMinimapButton2023"] = {
+["hidden"] = false,
+["position"] = -3.262,
+},
+["TomCats-MidsummerMinimapButton2023"] = {
+["hidden"] = false,
+["position"] = -2.514,
+},
+["AccessoryWindow"] = {
+["primeGamingLoot"] = 3,
+["blizzardOther"] = 3,
+["theaterTroupe"] = 3,
+["snoozed"] = {
+},
+["elementalStorms"] = 3,
+["timeRifts"] = 3,
+["treasureGoblin"] = 3,
+["WindowLocation"] = {
+"TOPLEFT",
+"UIParent",
+"TOPLEFT",
+1610.000244140625,
+-854.9994659423828,
+},
+["twitchDrops"] = 3,
+["superbloom"] = 3,
+["radiantEchoes"] = 3,
+["display"] = 100,
+},
+["betaEnabled"] = false,
+["TomCats-LunarFestivalMinimapButton2023"] = {
+["hidden"] = false,
+["position"] = -2.514,
+},
+},
+["mopremix"] = {
+["bonusXPTrackerDisplay"] = 6,
+["filterOptions"] = {
+["heirlooms"] = true,
+["notCollected"] = true,
+["achievement"] = true,
+["appearances"] = true,
+["pets"] = true,
+["mounts"] = true,
+["collected"] = true,
+["toys"] = true,
+["vendor"] = true,
+},
+["osd"] = {
+},
+["collectionTracker"] = {
+},
+["collectionTrackerDisplay"] = true,
+},
+["primalstorms"] = {
+["preferences"] = {
+},
+},
+["midsummer"] = {
+},
+["discoveries"] = {
+["version"] = "0",
+["vignetteAtlases"] = {
+},
+["vignettes"] = {
+},
+},
 }

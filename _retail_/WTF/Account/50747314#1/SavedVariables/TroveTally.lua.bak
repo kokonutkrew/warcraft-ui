@@ -1,0 +1,10 @@
+
+iconDegrees = 45
+settings = {
+["hideOwned"] = false,
+["hideIcon"] = false,
+["trade"] = true,
+["instant"] = false,
+["hideMerchant"] = true,
+["custom"] = false,
+}

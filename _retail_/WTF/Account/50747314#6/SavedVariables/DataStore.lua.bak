@@ -1,0 +1,47 @@
+
+DataStore_GuildIDs = {
+["Set"] = {
+["Default.Emerald Dream.kk"] = 2,
+["Default.Area52.kk"] = 3,
+["Default.Emerald Dream.KK"] = 1,
+},
+["Count"] = 3,
+["List"] = {
+"Default.Emerald Dream.KK",
+"Default.Emerald Dream.kk",
+"Default.Area52.kk",
+},
+}
+DataStore_GuildFactions = {
+"Alliance",
+"Alliance",
+"Alliance",
+}
+DataStore_CharacterIDs = {
+["Set"] = {
+["Default.Moon Guard.Maliaelle"] = 1,
+["Default.Emerald Dream.Maliakk"] = 2,
+},
+["Count"] = 2,
+["List"] = {
+"Default.Moon Guard.Maliaelle",
+"Default.Emerald Dream.Maliakk",
+},
+}
+DataStore_CharacterGUIDs = {
+"Player-3675-0AB10E37",
+"Player-162-0BE6B28F",
+}
+DataStore_CharacterGuilds = {
+[2] = 3,
+}
+DataStore_AltGroups = {
+}
+DataStore_ConnectedRealms = {
+["Area52"] = "Emerald Dream",
+["Emerald Dream"] = "Area52",
+}
+DataStore_RealmNames = {
+["EmeraldDream"] = "Emerald Dream",
+["MoonGuard"] = "Moon Guard",
+}

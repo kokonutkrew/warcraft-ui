@@ -1,48 +1,52 @@
 
-DataStore_TalentsDB = {
-	["profileKeys"] = {
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-	},
-	["global"] = {
-		["Characters"] = {
-			["Default.Emerald Dream.Kokonutkiing"] = {
-				["lastUpdate"] = 1615451016,
-				["Specializations"] = {
-					0, -- [1]
-					[5] = 0,
-				},
-				["Class"] = "WARLOCK",
-			},
-		},
-	},
+DataStore_Talents_Characters = {
 }
-DataStore_TalentsRefDB = {
-	["profileKeys"] = {
-		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
-		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
-		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
-	},
-	["global"] = {
-		["WARLOCK"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 265,
-					["talents"] = {
-						22039, -- [1]
-						23140, -- [2]
-						23141, -- [3]
-					},
-				}, -- [1]
-				[5] = {
-					["id"] = 1454,
-				},
-			},
-			["Version"] = 37893,
-		},
-	},
+DataStore_Talents_Specializations = {
+81,
+109,
+109,
+}
+DataStore_Talents_SpecializationInfos = {
+["Roles"] = {
+["List"] = {
+"DAMAGER",
+"HEALER",
+},
+["Count"] = 2,
+["Set"] = {
+["DAMAGER"] = 1,
+["HEALER"] = 2,
+},
+},
+["Names"] = {
+["List"] = {
+"Shadow",
+"Discipline",
+"",
+},
+["Count"] = 3,
+["Set"] = {
+[""] = 3,
+["Shadow"] = 1,
+["Discipline"] = 2,
+},
+},
+}
+DataStore_Talents_Covenant = {
+{
+},
+{
+},
+{
+},
+{
+},
+}
+DataStore_Talents_Conduits = {
+}
+DataStore_Talents_ConduitSpecs = {
+}
+DataStore_Talents_Soulbinds = {
+}
+DataStore_Talents_Reasons = {
 }

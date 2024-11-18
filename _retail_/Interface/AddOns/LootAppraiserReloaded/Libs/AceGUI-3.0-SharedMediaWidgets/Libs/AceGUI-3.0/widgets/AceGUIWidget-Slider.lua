@@ -2,7 +2,7 @@
 Slider Widget
 Graphical Slider, like, for Range values.
 -------------------------------------------------------------------------------]]
-local Type, Version = "Slider", 23
+local Type, Version = "Slider", 22
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -225,11 +225,7 @@ local function Constructor()
 	label:SetJustifyH("CENTER")
 	label:SetHeight(15)
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-	local slider = CreateFrame("Slider", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-========
 	local slider = CreateFrame("Slider", nil, frame)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0-SharedMediaWidgets/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
 	slider:SetOrientation("HORIZONTAL")
 	slider:SetHeight(15)
 	slider:SetHitRectInsets(0, 0, -10, 0)
@@ -251,11 +247,7 @@ local function Constructor()
 	local hightext = slider:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 	hightext:SetPoint("TOPRIGHT", slider, "BOTTOMRIGHT", -2, 3)
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-	local editbox = CreateFrame("EditBox", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-========
 	local editbox = CreateFrame("EditBox", nil, frame)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/LootAppraiserReloaded/Libs/AceGUI-3.0-SharedMediaWidgets/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
 	editbox:SetAutoFocus(false)
 	editbox:SetFontObject(GameFontHighlightSmall)
 	editbox:SetPoint("TOP", slider, "BOTTOM")

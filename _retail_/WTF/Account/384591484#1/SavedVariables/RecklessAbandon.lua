@@ -1,31 +1,54 @@
 
 RecklessAbandonDB = {
-	["profileKeys"] = {
-		["Samoanlock - Emerald Dream"] = "Default",
-		["Sonikk - Emerald Dream"] = "Default",
-		["Samoanbatman - Emerald Dream"] = "Default",
-		["Ashh - Emerald Dream"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-		},
-	},
+["profileKeys"] = {
+["Arcblastt - Emerald Dream"] = "Default",
+["Shadowbombes - Emerald Dream"] = "Default",
+["Flaires - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["commands"] = {
+["generic"] = {
+["generic"] = {
+},
+},
+},
+},
+},
 }
 RecklessAbandonPrivateDB = {
-	["profileKeys"] = {
-		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
-		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
-		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
-	},
-	["profiles"] = {
-		["Samoanlock - Emerald Dream"] = {
-		},
-		["Sonikk - Emerald Dream"] = {
-		},
-		["Samoanbatman - Emerald Dream"] = {
-		},
-		["Ashh - Emerald Dream"] = {
-		},
-	},
+["profileKeys"] = {
+["Arcblastt - Emerald Dream"] = "Arcblastt - Emerald Dream",
+["Shadowbombes - Emerald Dream"] = "Shadowbombes - Emerald Dream",
+["Flaires - Emerald Dream"] = "Flaires - Emerald Dream",
+},
+["profiles"] = {
+["Arcblastt - Emerald Dream"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Shadowbombes - Emerald Dream"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Flaires - Emerald Dream"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+},
 }

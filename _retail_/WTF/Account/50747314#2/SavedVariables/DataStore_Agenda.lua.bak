@@ -1,0 +1,48 @@
+
+DataStore_Agenda_Characters = {
+{
+["lastUpdate"] = 1720206912,
+},
+{
+["lastUpdate"] = 1722379326,
+},
+{
+["lastUpdate"] = 1720065299,
+},
+{
+["lastUpdate"] = 1720067430,
+},
+{
+["lastUpdate"] = 1720382276,
+},
+{
+},
+{
+["lastUpdate"] = 1720742782,
+},
+{
+["lastUpdate"] = 1722777150,
+},
+{
+["lastUpdate"] = 1724042237,
+},
+}
+DataStore_Agenda_SavedInstances = {
+{
+},
+{
+},
+}
+DataStore_Agenda_BossKills = {
+}
+DataStore_Agenda_LFGDungeons = {
+}
+DataStore_Agenda_ItemCooldowns = {
+}
+DataStore_Agenda_Contacts = {
+}
+DataStore_Agenda_Options = {
+["WeeklyResetHour"] = 6,
+["WeeklyResetDay"] = 2,
+["NextWeeklyReset"] = "2024-08-20",
+}

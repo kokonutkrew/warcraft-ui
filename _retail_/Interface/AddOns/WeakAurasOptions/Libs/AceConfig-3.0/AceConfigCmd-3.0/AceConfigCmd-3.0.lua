@@ -1,11 +1,7 @@
 --- AceConfigCmd-3.0 handles access to an options table through the "command line" interface via the ChatFrames.
 -- @class file
 -- @name AceConfigCmd-3.0
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/BigDebuffs/libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
--- @release $Id: AceConfigCmd-3.0.lua 1202 2019-05-15 23:11:22Z nevcairiel $
-========
 -- @release $Id: AceConfigCmd-3.0.lua 1284 2022-09-25 09:15:30Z nevcairiel $
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WeakAurasOptions/Libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
 
 --[[
 AceConfigCmd-3.0

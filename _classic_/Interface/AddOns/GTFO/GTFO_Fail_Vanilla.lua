@@ -226,4 +226,29 @@ GTFO.SpellID["151269"] = {
   sound = 3;
 };
 
+GTFO.SpellID["243411"] = {
+  --desc = "Tail Sweep (Emeriss)";
+  sound = 3;
+};
+
+GTFO.SpellID["248320"] = {
+  --desc = "Lethargy (Emeriss)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["243789"] = {
+  --desc = "Frost Breath (Azuregos)";
+  sound = 3;
+  tankSound = 0;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["243401"] = {
+  --desc = "Noxious Breath (Ysondre)";
+  sound = 3;
+  tankSound = 0;
+  applicationOnly = true;
+};
+
 end

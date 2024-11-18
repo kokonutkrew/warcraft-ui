@@ -476,8 +476,8 @@ data.taxipoints = {
 	['Shadowmoon Valley']={
 		{name="Wildhammer Stronghold",faction="A",npc="Brubeck Stormfoot",npcid=18939,x=37.61,y=55.45},
 		{name="Shadowmoon Village",faction="H",npc="Drek'Gol",npcid=19317,x=30.34,y=29.19},
-		{name="Altar of Sha'tar",faction="B",factionid=932,factionstanding=3,npc="Maddix",npcid=19581,x=63.33,y=30.40, quest=10551},
-		{name="Sanctum of the Stars",faction="B",factionid=934,factionstanding=3,npc="Alieshor",npcid=21766,x=56.32,y=57.80, quest=10552},
+		{name="Altar of Sha'tar",faction="B",factionid=932,factionstanding=3,npc="Maddix",npcid=19581,x=63.33,y=30.40},
+		{name="Sanctum of the Stars",faction="B",factionid=934,factionstanding=3,npc="Alieshor",npcid=21766,x=56.32,y=57.80},
 	},
 
 	['Shattrath City']={
@@ -1155,7 +1155,7 @@ data.taxipoints = {
 	['Oribos']={
 
 		-- NEUTRAL --
-		{name="Oribos",faction="B",npc="Pathscribe Roh-Avonavi",npcid=162666,x=60.83,y=68.60,f=1,quest=59773},
+		{name="Oribos",faction="B",npc="Pathscribe Roh-Avonavi",npcid=162666,x=60.83,y=68.60,f=1},
 	},
 
 
@@ -5702,258 +5702,7 @@ data.flightcost = {
 -------------------------------------------------
 [572]={
 	{
-		nodeID = 1569,
-		name = "Akeeta's Hovel, Shadowmoon Valley",
-		neighbors = {
-			[1384] = 46, -- Exile's Rise, Shadowmoon Valley
-			[1408] = 158, -- Warspear, Ashran
-			[1420] = 129, -- Stormshield, Ashran
-			[1443] = 70, -- Vol'jin's Pride, Talador
-			[1447] = 78, -- Fort Wrynn, Talador
-			[1450] = 67, -- Shattrath City, Talador
-			[1453] = 57, -- Exarch's Refuge, Talador
-			[1454] = 60, -- Exarch's Refuge, Talador
-			[1462] = 46, -- Terokkar Refuge, Talador
-			[1475] = 44, -- Socrethar's Rise, Shadowmoon Valley
-			[1476] = 45, -- Lunarfall, Shadowmoon Valley
-			[1487] = 44, -- Axefall, Spires of Arak
-			[1493] = 55, -- Southport, Spires of Arak
-			[1509] = 37, -- Talon Watch, Spires of Arak
-			[1510] = 71, -- Pinchwhistle Gearworks, Spires of Arak
-			[1515] = 41, -- Crow's Crook, Spires of Arak
-		},
-	},
-	{
-		nodeID = 1643,
-		name = "Aktar's Post, Tanaan Jungle",
-		neighbors = {
-			[1381] = 101, -- Embaari Village, Shadowmoon Valley
-			[1384] = 87, -- Exile's Rise, Shadowmoon Valley
-			[1440] = 39, -- Zangarra, Talador
-			[1511] = 25, -- Bastion Rise, Gorgrond
-			[1512] = 26, -- Bastion Rise, Gorgrond
-			[1518] = 54, -- Wildwood Wash, Gorgrond
-			[1620] = 53, -- Lion's Watch, Tanaan Jungle
-			[1621] = 56, -- Vol'mar, Tanaan Jungle
-			[1644] = 36, -- The Iron Front, Tanaan Jungle
-			[1645] = 35, -- The Iron Front, Tanaan Jungle
-			[1646] = 52, -- Vault of the Earth, Tanaan Jungle
-			[1647] = 32, -- Malo's Lookout, Tanaan Jungle
-			[1648] = 23, -- Sha'naari Refuge, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1451,
-		name = "Anchorite's Sojourn, Talador",
-		neighbors = {
-			[1384] = 57, -- Exile's Rise, Shadowmoon Valley
-			[1440] = 38, -- Zangarra, Talador
-			[1447] = 52, -- Fort Wrynn, Talador
-			[1453] = 46, -- Exarch's Refuge, Talador
-			[1462] = 32, -- Terokkar Refuge, Talador
-			[1476] = 44, -- Lunarfall, Shadowmoon Valley
-			[1509] = 83, -- Talon Watch, Spires of Arak
-		},
-	},
-	{
-		nodeID = 1513,
-		name = "Apexis Excavation, Spires of Arak",
-		neighbors = {
-			[1432] = 146, -- Frostwall, Frostfire Ridge
-			[1450] = 64, -- Shattrath City, Talador
-			[1452] = 42, -- Retribution Point, Talador
-			[1453] = 40, -- Exarch's Refuge, Talador
-			[1454] = 40, -- Exarch's Refuge, Talador
-			[1487] = 28, -- Axefall, Spires of Arak
-			[1493] = 43, -- Southport, Spires of Arak
-			[1508] = 27, -- Veil Terokk, Spires of Arak
-			[1515] = 25, -- Crow's Crook, Spires of Arak
-		},
-	},
-	{
-		nodeID = 1487,
-		name = "Axefall, Spires of Arak",
-		neighbors = {
-			[1432] = 147, -- Frostwall, Frostfire Ridge
-			[1443] = 90, -- Vol'jin's Pride, Talador
-			[1450] = 81, -- Shattrath City, Talador
-			[1475] = 76, -- Socrethar's Rise, Shadowmoon Valley
-			[1504] = 107, -- Wor'var, Nagrand
-			[1505] = 130, -- Riverside Post, Nagrand
-			[1508] = 25, -- Veil Terokk, Spires of Arak
-			[1513] = 28, -- Apexis Excavation, Spires of Arak
-			[1515] = 32, -- Crow's Crook, Spires of Arak
-			[1569] = 44, -- Akeeta's Hovel, Shadowmoon Valley
-			[1573] = 113, -- Nivek's Overlook, Nagrand
-		},
-	},
-	{
-		nodeID = 1512,
-		name = "Bastion Rise, Gorgrond",
-		faction = "H",
-		neighbors = {
-			[1384] = 108, -- Exile's Rise, Shadowmoon Valley
-			[1408] = 116, -- Warspear, Ashran
-			[1441] = 30, -- Frostwolf Overlook, Talador
-			[1442] = 33, -- Beastwatch, Gorgrond
-			[1443] = 45, -- Vol'jin's Pride, Talador
-			[1514] = 17, -- Evermorn Springs, Gorgrond
-			[1643] = 26, -- Aktar's Post, Tanaan Jungle
-			[1644] = 27, -- The Iron Front, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1511,
-		name = "Bastion Rise, Gorgrond",
-		faction = "A",
-		neighbors = {
-			[1381] = 116, -- Embaari Village, Shadowmoon Valley
-			[1447] = 33, -- Fort Wrynn, Talador
-			[1476] = 86, -- Lunarfall, Shadowmoon Valley
-			[1518] = 55, -- Wildwood Wash, Gorgrond
-			[1523] = 25, -- Deeproot, Gorgrond
-			[1528] = 37, -- Iron Siegeworks, Frostfire Ridge
-			[1643] = 25, -- Aktar's Post, Tanaan Jungle
-			[1645] = 22, -- The Iron Front, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1442,
-		name = "Beastwatch, Gorgrond",
-		neighbors = {
-			[1395] = 35, -- Thunder Pass, Frostfire Ridge
-			[1408] = 119, -- Warspear, Ashran
-			[1432] = 76, -- Frostwall, Frostfire Ridge
-			[1443] = 67, -- Vol'jin's Pride, Talador
-			[1504] = 105, -- Wor'var, Nagrand
-			[1512] = 33, -- Bastion Rise, Gorgrond
-			[1514] = 39, -- Evermorn Springs, Gorgrond
-			[1520] = 31, -- Breaker's Crown, Gorgrond
-			[1524] = 72, -- Iron Docks, Gorgrond
-			[1539] = 47, -- Skysea Ridge, Gorgrond
-			[1568] = 44, -- Everbloom Wilds, Gorgrond
-		},
-	},
-	{
-		nodeID = 1387,
-		name = "Bladespire Citadel, Frostfire Ridge",
-		neighbors = {
-			[1386] = 28, -- Wor'gol, Frostfire Ridge
-			[1388] = 40, -- Throm'Var, Frostfire Ridge
-			[1389] = 59, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1390] = 35, -- Stonefang Outpost, Frostfire Ridge
-			[1432] = 58, -- Frostwall, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1389,
-		name = "Bloodmaul Slag Mines, Frostfire Ridge",
-		neighbors = {
-			[1387] = 59, -- Bladespire Citadel, Frostfire Ridge
-			[1388] = 40, -- Throm'Var, Frostfire Ridge
-			[1395] = 62, -- Thunder Pass, Frostfire Ridge
-			[1396] = 29, -- Darkspear's Edge, Frostfire Ridge
-			[1432] = 47, -- Frostwall, Frostfire Ridge
-			[1450] = 114, -- Shattrath City, Talador
-			[1503] = 86, -- Throne of the Elements, Nagrand
-			[1528] = 69, -- Iron Siegeworks, Frostfire Ridge
-			[1539] = 61, -- Skysea Ridge, Gorgrond
-			[1572] = 104, -- Rilzit's Holdfast, Nagrand
-		},
-	},
-	{
-		nodeID = 1520,
-		name = "Breaker's Crown, Gorgrond",
-		neighbors = {
-			[1395] = 36, -- Thunder Pass, Frostfire Ridge
-			[1442] = 31, -- Beastwatch, Gorgrond
-			[1519] = 21, -- Highpass, Gorgrond
-			[1523] = 32, -- Deeproot, Gorgrond
-			[1524] = 49, -- Iron Docks, Gorgrond
-			[1528] = 33, -- Iron Siegeworks, Frostfire Ridge
-			[1539] = 33, -- Skysea Ridge, Gorgrond
-			[1568] = 28, -- Everbloom Wilds, Gorgrond
-		},
-	},
-	{
-		nodeID = 1515,
-		name = "Crow's Crook, Spires of Arak",
-		neighbors = {
-			[1443] = 78, -- Vol'jin's Pride, Talador
-			[1462] = 56, -- Terokkar Refuge, Talador
-			[1476] = 74, -- Lunarfall, Shadowmoon Valley
-			[1487] = 32, -- Axefall, Spires of Arak
-			[1508] = 19, -- Veil Terokk, Spires of Arak
-			[1509] = 27, -- Talon Watch, Spires of Arak
-			[1510] = 43, -- Pinchwhistle Gearworks, Spires of Arak
-			[1513] = 25, -- Apexis Excavation, Spires of Arak
-			[1569] = 41, -- Akeeta's Hovel, Shadowmoon Valley
-		},
-	},
-	{
-		nodeID = 1396,
-		name = "Darkspear's Edge, Frostfire Ridge",
-		neighbors = {
-			[1388] = 49, -- Throm'Var, Frostfire Ridge
-			[1389] = 29, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1390] = 36, -- Stonefang Outpost, Frostfire Ridge
-			[1432] = 33, -- Frostwall, Frostfire Ridge
-			[1559] = 37, -- Wolf's Stand, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1529,
-		name = "Darktide Roost, Shadowmoon Valley",
-		neighbors = {
-			[1381] = 49, -- Embaari Village, Shadowmoon Valley
-			[1384] = 61, -- Exile's Rise, Shadowmoon Valley
-			[1408] = 162, -- Warspear, Ashran
-			[1420] = 114, -- Stormshield, Ashran
-			[1443] = 119, -- Vol'jin's Pride, Talador
-			[1467] = 38, -- The Draakorium, Shadowmoon Valley
-			[1475] = 29, -- Socrethar's Rise, Shadowmoon Valley
-			[1476] = 79, -- Lunarfall, Shadowmoon Valley
-		},
-	},
-	{
-		nodeID = 1523,
-		name = "Deeproot, Gorgrond",
-		neighbors = {
-			[1447] = 51, -- Fort Wrynn, Talador
-			[1511] = 25, -- Bastion Rise, Gorgrond
-			[1518] = 53, -- Wildwood Wash, Gorgrond
-			[1519] = 31, -- Highpass, Gorgrond
-			[1520] = 31, -- Breaker's Crown, Gorgrond
-			[1528] = 36, -- Iron Siegeworks, Frostfire Ridge
-			[1568] = 49, -- Everbloom Wilds, Gorgrond
-		},
-	},
-	{
-		nodeID = 1445,
-		name = "Durotan's Grasp, Talador",
-		neighbors = {
-			[1441] = 42, -- Frostwolf Overlook, Talador
-			[1443] = 53, -- Vol'jin's Pride, Talador
-			[1450] = 20, -- Shattrath City, Talador
-			[1454] = 38, -- Exarch's Refuge, Talador
-			[1462] = 31, -- Terokkar Refuge, Talador
-			[1504] = 58, -- Wor'var, Nagrand
-		},
-	},
-	{
-		nodeID = 1468,
-		name = "Elodor, Shadowmoon Valley",
-		neighbors = {
-			[1381] = 24, -- Embaari Village, Shadowmoon Valley
-			[1383] = 25, -- Path of Light, Shadowmoon Valley
-			[1384] = 27, -- Exile's Rise, Shadowmoon Valley
-			[1420] = 93, -- Stormshield, Ashran
-			[1476] = 52, -- Lunarfall, Shadowmoon Valley
-			[1556] = 31, -- Tranquil Court, Shadowmoon Valley
-			[1646] = 61, -- Vault of the Earth, Tanaan Jungle
-		},
-	},
-	{
+		tag = "665:346",
 		nodeID = 1381,
 		name = "Embaari Village, Shadowmoon Valley",
 		neighbors = {
@@ -5961,100 +5710,57 @@ data.flightcost = {
 			[1383] = 24, -- Path of Light, Shadowmoon Valley
 			[1384] = 19, -- Exile's Rise, Shadowmoon Valley
 			[1440] = 85, -- Zangarra, Talador
-			[1447] = 92, -- Fort Wrynn, Talador
+			[1447] = 91, -- Fort Wrynn, Talador
 			[1467] = 29, -- The Draakorium, Shadowmoon Valley
 			[1468] = 24, -- Elodor, Shadowmoon Valley
 			[1476] = 37, -- Lunarfall, Shadowmoon Valley
 			[1511] = 102, -- Bastion Rise, Gorgrond
-			[1518] = 144, -- Wildwood Wash, Gorgrond
+			[1518] = 153, -- Wildwood Wash, Gorgrond
 			[1529] = 49, -- Darktide Roost, Shadowmoon Valley
 			[1568] = 150, -- Everbloom Wilds, Gorgrond
-			[1620] = 84, -- Lion's Watch, Tanaan Jungle
-			[1643] = 108, -- Aktar's Post, Tanaan Jungle
-			[1645] = 108, -- The Iron Front, Tanaan Jungle
+			[1620] = 0, -- Lion's Watch, Tanaan Jungle
+			[1643] = 0, -- Aktar's Post, Tanaan Jungle
+			[1645] = 0, -- The Iron Front, Tanaan Jungle
 			[1646] = 74, -- Vault of the Earth, Tanaan Jungle
-			[1647] = 92, -- Malo's Lookout, Tanaan Jungle
-			[1648] = 91, -- Sha'naari Refuge, Tanaan Jungle
+			[1647] = 0, -- Malo's Lookout, Tanaan Jungle
+			[1648] = 0, -- Sha'naari Refuge, Tanaan Jungle
 		},
 	},
 	{
-		nodeID = 1580,
-		name = "Everbloom Overlook, Gorgrond",
+		tag = "645:302",
+		nodeID = 1382,
+		name = "Twilight Glade, Shadowmoon Valley",
 		neighbors = {
-			[1568] = 41, -- Everbloom Wilds, Gorgrond
+			[1381] = 25, -- Embaari Village, Shadowmoon Valley
+			[1383] = 34, -- Path of Light, Shadowmoon Valley
+			[1467] = 32, -- The Draakorium, Shadowmoon Valley
+			[1475] = 30, -- Socrethar's Rise, Shadowmoon Valley
+			[1476] = 46, -- Lunarfall, Shadowmoon Valley
+			[1509] = 40, -- Talon Watch, Spires of Arak
 		},
 	},
 	{
-		nodeID = 1568,
-		name = "Everbloom Wilds, Gorgrond",
+		tag = "721:672",
+		nodeID = 1383,
+		name = "Path of Light, Shadowmoon Valley",
 		neighbors = {
-			[1381] = 143, -- Embaari Village, Shadowmoon Valley
-			[1384] = 190, -- Exile's Rise, Shadowmoon Valley
-			[1408] = 115, -- Warspear, Ashran
-			[1442] = 44, -- Beastwatch, Gorgrond
-			[1518] = 28, -- Wildwood Wash, Gorgrond
-			[1519] = 40, -- Highpass, Gorgrond
-			[1520] = 28, -- Breaker's Crown, Gorgrond
-			[1523] = 49, -- Deeproot, Gorgrond
-			[1524] = 44, -- Iron Docks, Gorgrond
-			[1539] = 37, -- Skysea Ridge, Gorgrond
-			[1580] = 34, -- Everbloom Overlook, Gorgrond
-			[1647] = 65, -- Malo's Lookout, Tanaan Jungle
+			[1381] = 24, -- Embaari Village, Shadowmoon Valley
+			[1382] = 34, -- Twilight Glade, Shadowmoon Valley
+			[1467] = 17, -- The Draakorium, Shadowmoon Valley
+			[1468] = 25, -- Elodor, Shadowmoon Valley
+			[1556] = 22, -- Tranquil Court, Shadowmoon Valley
 		},
 	},
 	{
-		nodeID = 1514,
-		name = "Evermorn Springs, Gorgrond",
-		neighbors = {
-			[1395] = 45, -- Thunder Pass, Frostfire Ridge
-			[1408] = 125, -- Warspear, Ashran
-			[1441] = 39, -- Frostwolf Overlook, Talador
-			[1442] = 39, -- Beastwatch, Gorgrond
-			[1443] = 47, -- Vol'jin's Pride, Talador
-			[1512] = 21, -- Bastion Rise, Gorgrond
-			[1539] = 64, -- Skysea Ridge, Gorgrond
-		},
-	},
-	{
-		nodeID = 1454,
-		name = "Exarch's Refuge, Talador",
-		faction = "H",
-		neighbors = {
-			[1384] = 85, -- Exile's Rise, Shadowmoon Valley
-			[1445] = 38, -- Durotan's Grasp, Talador
-			[1450] = 32, -- Shattrath City, Talador
-			[1452] = 29, -- Retribution Point, Talador
-			[1462] = 34, -- Terokkar Refuge, Talador
-			[1475] = 97, -- Socrethar's Rise, Shadowmoon Valley
-			[1513] = 40, -- Apexis Excavation, Spires of Arak
-			[1569] = 60, -- Akeeta's Hovel, Shadowmoon Valley
-		},
-	},
-	{
-		nodeID = 1453,
-		name = "Exarch's Refuge, Talador",
-		faction = "A",
-		neighbors = {
-			[1384] = 79, -- Exile's Rise, Shadowmoon Valley
-			[1448] = 53, -- Redemption Rise, Talador
-			[1450] = 34, -- Shattrath City, Talador
-			[1451] = 46, -- Anchorite's Sojourn, Talador
-			[1452] = 28, -- Retribution Point, Talador
-			[1462] = 36, -- Terokkar Refuge, Talador
-			[1475] = 90, -- Socrethar's Rise, Shadowmoon Valley
-			[1513] = 40, -- Apexis Excavation, Spires of Arak
-			[1569] = 57, -- Akeeta's Hovel, Shadowmoon Valley
-		},
-	},
-	{
+		tag = "665:384",
 		nodeID = 1384,
 		name = "Exile's Rise, Shadowmoon Valley",
 		neighbors = {
 			[1381] = 19, -- Embaari Village, Shadowmoon Valley
 			[1408] = 115, -- Warspear, Ashran
 			[1440] = 96, -- Zangarra, Talador
-			[1441] = 113, -- Frostwolf Overlook, Talador
-			[1443] = 92, -- Vol'jin's Pride, Talador
+			[1441] = 0, -- Frostwolf Overlook, Talador
+			[1443] = 0, -- Vol'jin's Pride, Talador
 			[1451] = 57, -- Anchorite's Sojourn, Talador
 			[1453] = 79, -- Exarch's Refuge, Talador
 			[1454] = 85, -- Exarch's Refuge, Talador
@@ -6063,39 +5769,145 @@ data.flightcost = {
 			[1475] = 57, -- Socrethar's Rise, Shadowmoon Valley
 			[1476] = 35, -- Lunarfall, Shadowmoon Valley
 			[1509] = 65, -- Talon Watch, Spires of Arak
-			[1512] = 116, -- Bastion Rise, Gorgrond
+			[1512] = 0, -- Bastion Rise, Gorgrond
 			[1529] = 61, -- Darktide Roost, Shadowmoon Valley
 			[1568] = 139, -- Everbloom Wilds, Gorgrond
 			[1569] = 46, -- Akeeta's Hovel, Shadowmoon Valley
-			[1621] = 81, -- Vol'mar, Tanaan Jungle
-			[1643] = 96, -- Aktar's Post, Tanaan Jungle
-			[1644] = 105, -- The Iron Front, Tanaan Jungle
+			[1621] = 0, -- Vol'mar, Tanaan Jungle
+			[1643] = 0, -- Aktar's Post, Tanaan Jungle
+			[1644] = 0, -- The Iron Front, Tanaan Jungle
 			[1646] = 58, -- Vault of the Earth, Tanaan Jungle
 			[1647] = 81, -- Malo's Lookout, Tanaan Jungle
 			[1648] = 80, -- Sha'naari Refuge, Tanaan Jungle
 		},
 	},
 	{
-		nodeID = 1447,
-		name = "Fort Wrynn, Talador",
+		tag = "240:656",
+		nodeID = 1386,
+		name = "Wor'gol, Frostfire Ridge",
 		neighbors = {
-			[1381] = 92, -- Embaari Village, Shadowmoon Valley
-			[1440] = 27, -- Zangarra, Talador
-			[1448] = 35, -- Redemption Rise, Talador
-			[1450] = 39, -- Shattrath City, Talador
-			[1451] = 52, -- Anchorite's Sojourn, Talador
-			[1476] = 74, -- Lunarfall, Shadowmoon Valley
-			[1493] = 107, -- Southport, Spires of Arak
-			[1506] = 114, -- Telaari Station, Nagrand
-			[1511] = 33, -- Bastion Rise, Gorgrond
-			[1519] = 70, -- Highpass, Gorgrond
-			[1523] = 51, -- Deeproot, Gorgrond
-			[1528] = 57, -- Iron Siegeworks, Frostfire Ridge
-			[1569] = 75, -- Akeeta's Hovel, Shadowmoon Valley
-			[1645] = 23, -- The Iron Front, Tanaan Jungle
+			[1387] = 28, -- Bladespire Citadel, Frostfire Ridge
+			[1390] = 38, -- Stonefang Outpost, Frostfire Ridge
+			[1432] = 50, -- Frostwall Garrison, Frostfire Ridge
 		},
 	},
 	{
+		tag = "250:702",
+		nodeID = 1387,
+		name = "Bladespire Citadel, Frostfire Ridge",
+		neighbors = {
+			[1386] = 28, -- Wor'gol, Frostfire Ridge
+			[1388] = 40, -- Throm'Var, Frostfire Ridge
+			[1389] = 59, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1390] = 35, -- Stonefang Outpost, Frostfire Ridge
+			[1432] = 58, -- Frostwall Garrison, Frostfire Ridge
+		},
+	},
+	{
+		tag = "278:771",
+		nodeID = 1388,
+		name = "Throm'Var, Frostfire Ridge",
+		neighbors = {
+			[1387] = 40, -- Bladespire Citadel, Frostfire Ridge
+			[1389] = 40, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1396] = 49, -- Darkspear's Edge, Frostfire Ridge
+		},
+	},
+	{
+		tag = "351:742",
+		nodeID = 1389,
+		name = "Bloodmaul Slag Mines, Frostfire Ridge",
+		neighbors = {
+			[1387] = 59, -- Bladespire Citadel, Frostfire Ridge
+			[1388] = 40, -- Throm'Var, Frostfire Ridge
+			[1395] = 62, -- Thunder Pass, Frostfire Ridge
+			[1396] = 29, -- Darkspear's Edge, Frostfire Ridge
+			[1432] = 47, -- Frostwall Garrison, Frostfire Ridge
+			[1450] = 114, -- Shattrath City, Talador
+			[1503] = 86, -- Throne of the Elements, Nagrand
+			[1528] = 69, -- Iron Siegeworks, Frostfire Ridge
+			[1539] = 61, -- Skysea Ridge, Gorgrond
+			[1572] = 104, -- Rilzit's Holdfast, Nagrand
+		},
+	},
+	{
+		tag = "308:666",
+		nodeID = 1390,
+		name = "Stonefang Outpost, Frostfire Ridge",
+		neighbors = {
+			[1386] = 38, -- Wor'gol, Frostfire Ridge
+			[1387] = 35, -- Bladespire Citadel, Frostfire Ridge
+			[1395] = 71, -- Thunder Pass, Frostfire Ridge
+			[1396] = 36, -- Darkspear's Edge, Frostfire Ridge
+			[1432] = 31, -- Frostwall Garrison, Frostfire Ridge
+		},
+	},
+	{
+		tag = "471:644",
+		nodeID = 1395,
+		name = "Thunder Pass, Frostfire Ridge",
+		neighbors = {
+			[1389] = 62, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1390] = 71, -- Stonefang Outpost, Frostfire Ridge
+			[1432] = 53, -- Frostwall Garrison, Frostfire Ridge
+			[1442] = 35, -- Beastwatch, Gorgrond
+			[1443] = 61, -- Vol'jin's Pride, Talador
+			[1450] = 68, -- Shattrath City, Talador
+			[1514] = 45, -- Evermorn Springs, Gorgrond
+			[1520] = 36, -- Breaker's Crown, Gorgrond
+			[1539] = 44, -- Skysea Ridge, Gorgrond
+			[1559] = 27, -- Wolf's Stand, Frostfire Ridge
+		},
+	},
+	{
+		tag = "352:693",
+		nodeID = 1396,
+		name = "Darkspear's Edge, Frostfire Ridge",
+		neighbors = {
+			[1388] = 49, -- Throm'Var, Frostfire Ridge
+			[1389] = 29, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1390] = 36, -- Stonefang Outpost, Frostfire Ridge
+			[1432] = 33, -- Frostwall Garrison, Frostfire Ridge
+			[1559] = 37, -- Wolf's Stand, Frostfire Ridge
+		},
+	},
+	{
+		tag = "857:617",
+		nodeID = 1408,
+		name = "Warspear, Ashran",
+		neighbors = {
+			[1384] = 124, -- Exile's Rise, Shadowmoon Valley
+			[1432] = 183, -- Frostwall Garrison, Frostfire Ridge
+			[1442] = 119, -- Beastwatch, Gorgrond
+			[1443] = 152, -- Vol'jin's Pride, Talador
+			[1450] = 171, -- Shattrath City, Talador
+			[1475] = 160, -- Socrethar's Rise, Shadowmoon Valley
+			[1512] = 116, -- Bastion Rise, Gorgrond
+			[1514] = 125, -- Evermorn Springs, Gorgrond
+			[1529] = 162, -- Darktide Roost, Shadowmoon Valley
+			[1539] = 136, -- Skysea Ridge, Gorgrond
+			[1568] = 115, -- Everbloom Wilds, Gorgrond
+			[1569] = 158, -- Akeeta's Hovel, Shadowmoon Valley
+			[1621] = 65, -- Vol'mar, Tanaan Jungle
+		},
+	},
+	{
+		tag = "851:515",
+		nodeID = 1420,
+		name = "Stormshield, Ashran",
+		neighbors = {
+			[1450] = 148, -- Shattrath City, Talador
+			[1468] = 93, -- Elodor, Shadowmoon Valley
+			[1475] = 124, -- Socrethar's Rise, Shadowmoon Valley
+			[1476] = 112, -- Lunarfall, Shadowmoon Valley
+			[1518] = 106, -- Wildwood Wash, Gorgrond
+			[1529] = 114, -- Darktide Roost, Shadowmoon Valley
+			[1569] = 129, -- Akeeta's Hovel, Shadowmoon Valley
+			[1620] = 62, -- Lion's Watch, Tanaan Jungle
+		},
+	},
+	{
+		tag = "338:631",
 		nodeID = 1432,
 		name = "Frostwall, Frostfire Ridge",
 		neighbors = {
@@ -6122,11 +5934,31 @@ data.flightcost = {
 		},
 	},
 	{
+		tag = "553:499",
+		nodeID = 1440,
+		name = "Zangarra, Talador",
+		neighbors = {
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1384] = 95, -- Exile's Rise, Shadowmoon Valley
+			[1443] = 27, -- Vol'jin's Pride, Talador
+			[1447] = 39, -- Fort Wrynn, Talador
+			[1451] = 38, -- Anchorite's Sojourn, Talador
+			[1462] = 36, -- Terokkar Refuge, Talador
+			[1476] = 11, -- Lunarfall, Shadowmoon Valley
+			[1643] = 39, -- Aktar's Post, Tanaan Jungle
+			[1644] = 33, -- The Iron Front, Tanaan Jungle
+			[1645] = 34, -- The Iron Front, Tanaan Jungle
+			[1646] = 51, -- Vault of the Earth, Tanaan Jungle
+			[1648] = 33, -- Sha'naari Refuge, Tanaan Jungle
+		},
+	},
+	{
+		tag = "484:535",
 		nodeID = 1441,
 		name = "Frostwolf Overlook, Talador",
 		neighbors = {
-			[1384] = 110, -- Exile's Rise, Shadowmoon Valley
-			[1432] = 66, -- Frostwall, Frostfire Ridge
+			[1384] = 0, -- Exile's Rise, Shadowmoon Valley
+			[1432] = 66, -- Frostwall Garrison, Frostfire Ridge
 			[1443] = 41, -- Vol'jin's Pride, Talador
 			[1445] = 32, -- Durotan's Grasp, Talador
 			[1504] = 64, -- Wor'var, Nagrand
@@ -6136,75 +5968,250 @@ data.flightcost = {
 		},
 	},
 	{
-		nodeID = 1519,
-		name = "Highpass, Gorgrond",
+		tag = "537:645",
+		nodeID = 1442,
+		name = "Beastwatch, Gorgrond",
 		neighbors = {
-			[1447] = 70, -- Fort Wrynn, Talador
-			[1476] = 129, -- Lunarfall, Shadowmoon Valley
-			[1506] = 155, -- Telaari Station, Nagrand
-			[1518] = 33, -- Wildwood Wash, Gorgrond
-			[1520] = 20, -- Breaker's Crown, Gorgrond
-			[1523] = 32, -- Deeproot, Gorgrond
-			[1524] = 55, -- Iron Docks, Gorgrond
-			[1528] = 42, -- Iron Siegeworks, Frostfire Ridge
-			[1539] = 42, -- Skysea Ridge, Gorgrond
-			[1568] = 29, -- Everbloom Wilds, Gorgrond
-		},
-	},
-	{
-		nodeID = 1524,
-		name = "Iron Docks, Gorgrond",
-		neighbors = {
-			[1442] = 72, -- Beastwatch, Gorgrond
-			[1518] = 61, -- Wildwood Wash, Gorgrond
-			[1519] = 55, -- Highpass, Gorgrond
-			[1520] = 49, -- Breaker's Crown, Gorgrond
-			[1539] = 29, -- Skysea Ridge, Gorgrond
+			[1395] = 35, -- Thunder Pass, Frostfire Ridge
+			[1408] = 119, -- Warspear, Ashran
+			[1432] = 76, -- Frostwall Garrison, Frostfire Ridge
+			[1443] = 67, -- Vol'jin's Pride, Talador
+			[1504] = 105, -- Wor'var, Nagrand
+			[1512] = 33, -- Bastion Rise, Gorgrond
+			[1514] = 39, -- Evermorn Springs, Gorgrond
+			[1520] = 31, -- Breaker's Crown, Gorgrond
+			[1524] = 72, -- Iron Docks, Gorgrond
+			[1539] = 47, -- Skysea Ridge, Gorgrond
 			[1568] = 44, -- Everbloom Wilds, Gorgrond
 		},
 	},
 	{
-		nodeID = 1528,
-		name = "Iron Siegeworks, Frostfire Ridge",
+		tag = "518:489",
+		nodeID = 1443,
+		name = "Vol'jin's Pride, Talador",
 		neighbors = {
-			[1389] = 69, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1447] = 57, -- Fort Wrynn, Talador
-			[1450] = 75, -- Shattrath City, Talador
-			[1503] = 89, -- Throne of the Elements, Nagrand
-			[1511] = 42, -- Bastion Rise, Gorgrond
-			[1519] = 42, -- Highpass, Gorgrond
-			[1520] = 37, -- Breaker's Crown, Gorgrond
-			[1523] = 36, -- Deeproot, Gorgrond
-			[1539] = 48, -- Skysea Ridge, Gorgrond
+			[1384] = 0, -- Exile's Rise, Shadowmoon Valley
+			[1395] = 61, -- Thunder Pass, Frostfire Ridge
+			[1408] = 152, -- Warspear, Ashran
+			[1432] = 92, -- Frostwall Garrison, Frostfire Ridge
+			[1440] = 27, -- Zangarra, Talador
+			[1441] = 41, -- Frostwolf Overlook, Talador
+			[1442] = 67, -- Beastwatch, Gorgrond
+			[1445] = 53, -- Durotan's Grasp, Talador
+			[1450] = 41, -- Shattrath City, Talador
+			[1462] = 33, -- Terokkar Refuge, Talador
+			[1475] = 111, -- Socrethar's Rise, Shadowmoon Valley
+			[1487] = 90, -- Axefall, Spires of Arak
+			[1504] = 78, -- Wor'var, Nagrand
+			[1512] = 45, -- Bastion Rise, Gorgrond
+			[1514] = 42, -- Evermorn Springs, Gorgrond
+			[1515] = 78, -- Crow's Crook, Spires of Arak
+			[1529] = 119, -- Darktide Roost, Shadowmoon Valley
+			[1569] = 70, -- Akeeta's Hovel, Shadowmoon Valley
+			[1644] = 33, -- The Iron Front, Tanaan Jungle
 		},
 	},
 	{
-		nodeID = 1574,
-		name = "Joz's Rylaks, Nagrand",
+		tag = "463:462",
+		nodeID = 1445,
+		name = "Durotan's Grasp, Talador",
 		neighbors = {
-			[1432] = 55, -- Frostwall, Frostfire Ridge
-			[1502] = 39, -- The Ring of Trials, Nagrand
-			[1503] = 22, -- Throne of the Elements, Nagrand
-			[1505] = 27, -- Riverside Post, Nagrand
-			[1507] = 15, -- Yrel's Watch, Nagrand
-			[1572] = 33, -- Rilzit's Holdfast, Nagrand
-			[1573] = 45, -- Nivek's Overlook, Nagrand
+			[1441] = 42, -- Frostwolf Overlook, Talador
+			[1443] = 53, -- Vol'jin's Pride, Talador
+			[1450] = 20, -- Shattrath City, Talador
+			[1454] = 38, -- Exarch's Refuge, Talador
+			[1462] = 31, -- Terokkar Refuge, Talador
+			[1504] = 58, -- Wor'var, Nagrand
 		},
 	},
 	{
-		nodeID = 1620,
-		name = "Lion's Watch, Tanaan Jungle",
+		tag = "515:509",
+		nodeID = 1447,
+		name = "Fort Wrynn, Talador",
 		neighbors = {
-			[1381] = 79, -- Embaari Village, Shadowmoon Valley
-			[1420] = 55, -- Stormshield, Ashran
-			[1518] = 65, -- Wildwood Wash, Gorgrond
-			[1643] = 45, -- Aktar's Post, Tanaan Jungle
-			[1645] = 64, -- The Iron Front, Tanaan Jungle
-			[1646] = 22, -- Vault of the Earth, Tanaan Jungle
-			[1647] = 25, -- Malo's Lookout, Tanaan Jungle
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1440] = 39, -- Zangarra, Talador
+			[1448] = 35, -- Redemption Rise, Talador
+			[1450] = 39, -- Shattrath City, Talador
+			[1451] = 52, -- Anchorite's Sojourn, Talador
+			[1476] = 74, -- Lunarfall, Shadowmoon Valley
+			[1493] = 107, -- Southport, Spires of Arak
+			[1506] = 114, -- Telaari Station, Nagrand
+			[1511] = 33, -- Bastion Rise, Gorgrond
+			[1519] = 70, -- Highpass, Gorgrond
+			[1523] = 51, -- Deeproot, Gorgrond
+			[1528] = 57, -- Iron Siegeworks, Frostfire Ridge
+			[1569] = 75, -- Akeeta's Hovel, Shadowmoon Valley
+			[1645] = 23, -- The Iron Front, Tanaan Jungle
 		},
 	},
 	{
+		tag = "491:498",
+		nodeID = 1448,
+		name = "Redemption Rise, Talador",
+		neighbors = {
+			[1447] = 35, -- Fort Wrynn, Talador
+			[1450] = 37, -- Shattrath City, Talador
+			[1453] = 53, -- Exarch's Refuge, Talador
+			[1462] = 35, -- Terokkar Refuge, Talador
+		},
+	},
+	{
+		tag = "447:457",
+		nodeID = 1450,
+		name = "Shattrath City, Talador",
+		neighbors = {
+			[1389] = 114, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1395] = 68, -- Thunder Pass, Frostfire Ridge
+			[1408] = 171, -- Warspear, Ashran
+			[1420] = 148, -- Stormshield, Ashran
+			[1432] = 78, -- Frostwall Garrison, Frostfire Ridge
+			[1443] = 41, -- Vol'jin's Pride, Talador
+			[1445] = 20, -- Durotan's Grasp, Talador
+			[1447] = 39, -- Fort Wrynn, Talador
+			[1448] = 37, -- Redemption Rise, Talador
+			[1452] = 44, -- Retribution Point, Talador
+			[1453] = 34, -- Exarch's Refuge, Talador
+			[1454] = 32, -- Exarch's Refuge, Talador
+			[1462] = 49, -- Terokkar Refuge, Talador
+			[1476] = 85, -- Lunarfall, Shadowmoon Valley
+			[1487] = 81, -- Axefall, Spires of Arak
+			[1493] = 94, -- Southport, Spires of Arak
+			[1502] = 58, -- The Ring of Trials, Nagrand
+			[1504] = 43, -- Wor'var, Nagrand
+			[1506] = 75, -- Telaari Station, Nagrand
+			[1513] = 64, -- Apexis Excavation, Spires of Arak
+			[1528] = 75, -- Iron Siegeworks, Frostfire Ridge
+			[1569] = 67, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "552:423",
+		nodeID = 1451,
+		name = "Anchorite's Sojourn, Talador",
+		neighbors = {
+			[1384] = 57, -- Exile's Rise, Shadowmoon Valley
+			[1440] = 38, -- Zangarra, Talador
+			[1447] = 52, -- Fort Wrynn, Talador
+			[1453] = 46, -- Exarch's Refuge, Talador
+			[1462] = 32, -- Terokkar Refuge, Talador
+			[1476] = 44, -- Lunarfall, Shadowmoon Valley
+			[1509] = 83, -- Talon Watch, Spires of Arak
+		},
+	},
+	{
+		tag = "414:375",
+		nodeID = 1452,
+		name = "Retribution Point, Talador",
+		neighbors = {
+			[1450] = 44, -- Shattrath City, Talador
+			[1453] = 28, -- Exarch's Refuge, Talador
+			[1454] = 29, -- Exarch's Refuge, Talador
+			[1502] = 70, -- The Ring of Trials, Nagrand
+			[1513] = 42, -- Apexis Excavation, Spires of Arak
+		},
+	},
+	{
+		tag = "460:394",
+		nodeID = 1453,
+		name = "Exarch's Refuge, Talador",
+		faction = "A",
+		neighbors = {
+			[1384] = 79, -- Exile's Rise, Shadowmoon Valley
+			[1448] = 53, -- Redemption Rise, Talador
+			[1450] = 34, -- Shattrath City, Talador
+			[1451] = 46, -- Anchorite's Sojourn, Talador
+			[1452] = 28, -- Retribution Point, Talador
+			[1462] = 36, -- Terokkar Refuge, Talador
+			[1475] = 90, -- Socrethar's Rise, Shadowmoon Valley
+			[1513] = 40, -- Apexis Excavation, Spires of Arak
+			[1569] = 57, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "459:396",
+		nodeID = 1454,
+		name = "Exarch's Refuge, Talador",
+		faction = "H",
+		neighbors = {
+			[1384] = 85, -- Exile's Rise, Shadowmoon Valley
+			[1445] = 38, -- Durotan's Grasp, Talador
+			[1450] = 32, -- Shattrath City, Talador
+			[1452] = 29, -- Retribution Point, Talador
+			[1462] = 34, -- Terokkar Refuge, Talador
+			[1475] = 97, -- Socrethar's Rise, Shadowmoon Valley
+			[1513] = 40, -- Apexis Excavation, Spires of Arak
+			[1569] = 60, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "517:422",
+		nodeID = 1462,
+		name = "Terokkar Refuge, Talador",
+		neighbors = {
+			[1384] = 61, -- Exile's Rise, Shadowmoon Valley
+			[1440] = 36, -- Zangarra, Talador
+			[1443] = 33, -- Vol'jin's Pride, Talador
+			[1445] = 31, -- Durotan's Grasp, Talador
+			[1448] = 35, -- Redemption Rise, Talador
+			[1450] = 49, -- Shattrath City, Talador
+			[1451] = 32, -- Anchorite's Sojourn, Talador
+			[1453] = 36, -- Exarch's Refuge, Talador
+			[1454] = 34, -- Exarch's Refuge, Talador
+			[1515] = 56, -- Crow's Crook, Spires of Arak
+			[1569] = 46, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "711:298",
+		nodeID = 1467,
+		name = "The Draakorium, Shadowmoon Valley",
+		neighbors = {
+			[1381] = 29, -- Embaari Village, Shadowmoon Valley
+			[1382] = 32, -- Twilight Glade, Shadowmoon Valley
+			[1383] = 17, -- Path of Light, Shadowmoon Valley
+			[1475] = 33, -- Socrethar's Rise, Shadowmoon Valley
+			[1529] = 38, -- Darktide Roost, Shadowmoon Valley
+			[1556] = 28, -- Tranquil Court, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "718:366",
+		nodeID = 1468,
+		name = "Elodor, Shadowmoon Valley",
+		neighbors = {
+			[1381] = 24, -- Embaari Village, Shadowmoon Valley
+			[1383] = 25, -- Path of Light, Shadowmoon Valley
+			[1384] = 27, -- Exile's Rise, Shadowmoon Valley
+			[1420] = 93, -- Stormshield, Ashran
+			[1476] = 52, -- Lunarfall, Shadowmoon Valley
+			[1556] = 31, -- Tranquil Court, Shadowmoon Valley
+			[1646] = 61, -- Vault of the Earth, Tanaan Jungle
+		},
+	},
+	{
+		tag = "657:242",
+		nodeID = 1475,
+		name = "Socrethar's Rise, Shadowmoon Valley",
+		neighbors = {
+			[1382] = 30, -- Twilight Glade, Shadowmoon Valley
+			[1384] = 57, -- Exile's Rise, Shadowmoon Valley
+			[1408] = 160, -- Warspear, Ashran
+			[1420] = 124, -- Stormshield, Ashran
+			[1443] = 111, -- Vol'jin's Pride, Talador
+			[1453] = 90, -- Exarch's Refuge, Talador
+			[1454] = 97, -- Exarch's Refuge, Talador
+			[1467] = 33, -- The Draakorium, Shadowmoon Valley
+			[1476] = 68, -- Lunarfall, Shadowmoon Valley
+			[1487] = 76, -- Axefall, Spires of Arak
+			[1493] = 80, -- Southport, Spires of Arak
+			[1509] = 51, -- Talon Watch, Spires of Arak
+			[1529] = 29, -- Darktide Roost, Shadowmoon Valley
+			[1569] = 44, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "603:404",
 		nodeID = 1476,
 		name = "Lunarfall, Shadowmoon Valley",
 		neighbors = {
@@ -6230,94 +6237,95 @@ data.flightcost = {
 		},
 	},
 	{
-		nodeID = 1647,
-		name = "Malo's Lookout, Tanaan Jungle",
+		tag = "477:268",
+		nodeID = 1487,
+		name = "Axefall, Spires of Arak",
 		neighbors = {
-			[1381] = 87, -- Embaari Village, Shadowmoon Valley
-			[1384] = 73, -- Exile's Rise, Shadowmoon Valley
-			[1568] = 65, -- Everbloom Wilds, Gorgrond
-			[1620] = 30, -- Lion's Watch, Tanaan Jungle
-			[1621] = 32, -- Vol'mar, Tanaan Jungle
-			[1643] = 32, -- Aktar's Post, Tanaan Jungle
-			[1646] = 31, -- Vault of the Earth, Tanaan Jungle
-			[1648] = 31, -- Sha'naari Refuge, Tanaan Jungle
+			[1432] = 147, -- Frostwall Garrison, Frostfire Ridge
+			[1443] = 90, -- Vol'jin's Pride, Talador
+			[1450] = 81, -- Shattrath City, Talador
+			[1475] = 76, -- Socrethar's Rise, Shadowmoon Valley
+			[1504] = 107, -- Wor'var, Nagrand
+			[1505] = 130, -- Riverside Post, Nagrand
+			[1508] = 25, -- Veil Terokk, Spires of Arak
+			[1513] = 28, -- Apexis Excavation, Spires of Arak
+			[1515] = 32, -- Crow's Crook, Spires of Arak
+			[1569] = 44, -- Akeeta's Hovel, Shadowmoon Valley
+			[1573] = 113, -- Nivek's Overlook, Nagrand
 		},
 	},
 	{
-		nodeID = 1573,
-		name = "Nivek's Overlook, Nagrand",
+		tag = "475:222",
+		nodeID = 1493,
+		name = "Southport, Spires of Arak",
 		neighbors = {
-			[1487] = 113, -- Axefall, Spires of Arak
-			[1493] = 120, -- Southport, Spires of Arak
-			[1502] = 53, -- The Ring of Trials, Nagrand
-			[1505] = 31, -- Riverside Post, Nagrand
-			[1506] = 32, -- Telaari Station, Nagrand
-			[1572] = 47, -- Rilzit's Holdfast, Nagrand
-			[1574] = 45, -- Joz's Rylaks, Nagrand
-		},
-	},
-	{
-		nodeID = 1383,
-		name = "Path of Light, Shadowmoon Valley",
-		neighbors = {
-			[1381] = 24, -- Embaari Village, Shadowmoon Valley
-			[1382] = 34, -- Twilight Glade, Shadowmoon Valley
-			[1467] = 17, -- The Draakorium, Shadowmoon Valley
-			[1468] = 25, -- Elodor, Shadowmoon Valley
-			[1556] = 22, -- Tranquil Court, Shadowmoon Valley
-		},
-	},
-	{
-		nodeID = 1510,
-		name = "Pinchwhistle Gearworks, Spires of Arak",
-		neighbors = {
-			[1432] = 188, -- Frostwall, Frostfire Ridge
-			[1493] = 41, -- Southport, Spires of Arak
+			[1447] = 107, -- Fort Wrynn, Talador
+			[1450] = 94, -- Shattrath City, Talador
+			[1475] = 80, -- Socrethar's Rise, Shadowmoon Valley
+			[1476] = 102, -- Lunarfall, Shadowmoon Valley
+			[1506] = 126, -- Telaari Station, Nagrand
 			[1508] = 41, -- Veil Terokk, Spires of Arak
-			[1509] = 37, -- Talon Watch, Spires of Arak
-			[1515] = 51, -- Crow's Crook, Spires of Arak
-			[1569] = 71, -- Akeeta's Hovel, Shadowmoon Valley
+			[1510] = 41, -- Pinchwhistle Gearworks, Spires of Arak
+			[1513] = 43, -- Apexis Excavation, Spires of Arak
+			[1569] = 62, -- Akeeta's Hovel, Shadowmoon Valley
+			[1573] = 120, -- Nivek's Overlook, Nagrand
 		},
 	},
 	{
-		nodeID = 1448,
-		name = "Redemption Rise, Talador",
+		tag = "325:476",
+		nodeID = 1502,
+		name = "The Ring of Trials, Nagrand",
 		neighbors = {
-			[1447] = 35, -- Fort Wrynn, Talador
-			[1450] = 37, -- Shattrath City, Talador
-			[1453] = 53, -- Exarch's Refuge, Talador
-			[1462] = 35, -- Terokkar Refuge, Talador
+			[1450] = 58, -- Shattrath City, Talador
+			[1452] = 70, -- Retribution Point, Talador
+			[1503] = 27, -- Throne of the Elements, Nagrand
+			[1504] = 21, -- Wor'var, Nagrand
+			[1505] = 58, -- Riverside Post, Nagrand
+			[1506] = 30, -- Telaari Station, Nagrand
+			[1507] = 33, -- Yrel's Watch, Nagrand
+			[1573] = 53, -- Nivek's Overlook, Nagrand
+			[1574] = 42, -- Joz's Rylaks, Nagrand
 		},
 	},
 	{
-		nodeID = 1452,
-		name = "Retribution Point, Talador",
+		tag = "304:529",
+		nodeID = 1503,
+		name = "Throne of the Elements, Nagrand",
 		neighbors = {
-			[1450] = 44, -- Shattrath City, Talador
-			[1453] = 28, -- Exarch's Refuge, Talador
-			[1454] = 29, -- Exarch's Refuge, Talador
-			[1502] = 70, -- The Ring of Trials, Nagrand
-			[1513] = 42, -- Apexis Excavation, Spires of Arak
-		},
-	},
-	{
-		nodeID = 1572,
-		name = "Rilzit's Holdfast, Nagrand",
-		neighbors = {
-			[1389] = 107, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1432] = 71, -- Frostwall, Frostfire Ridge
-			[1505] = 26, -- Riverside Post, Nagrand
+			[1389] = 86, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1432] = 48, -- Frostwall Garrison, Frostfire Ridge
+			[1502] = 27, -- The Ring of Trials, Nagrand
+			[1504] = 31, -- Wor'var, Nagrand
+			[1505] = 42, -- Riverside Post, Nagrand
 			[1506] = 38, -- Telaari Station, Nagrand
-			[1507] = 24, -- Yrel's Watch, Nagrand
-			[1573] = 44, -- Nivek's Overlook, Nagrand
-			[1574] = 33, -- Joz's Rylaks, Nagrand
+			[1507] = 25, -- Yrel's Watch, Nagrand
+			[1528] = 95, -- Iron Siegeworks, Frostfire Ridge
+			[1574] = 22, -- Joz's Rylaks, Nagrand
 		},
 	},
 	{
+		tag = "337:488",
+		nodeID = 1504,
+		name = "Wor'var, Nagrand",
+		neighbors = {
+			[1432] = 56, -- Frostwall Garrison, Frostfire Ridge
+			[1441] = 64, -- Frostwolf Overlook, Talador
+			[1442] = 105, -- Beastwatch, Gorgrond
+			[1443] = 78, -- Vol'jin's Pride, Talador
+			[1445] = 58, -- Durotan's Grasp, Talador
+			[1450] = 43, -- Shattrath City, Talador
+			[1487] = 107, -- Axefall, Spires of Arak
+			[1502] = 21, -- The Ring of Trials, Nagrand
+			[1503] = 31, -- Throne of the Elements, Nagrand
+			[1505] = 50, -- Riverside Post, Nagrand
+		},
+	},
+	{
+		tag = "220:480",
 		nodeID = 1505,
 		name = "Riverside Post, Nagrand",
 		neighbors = {
-			[1432] = 77, -- Frostwall, Frostfire Ridge
+			[1432] = 77, -- Frostwall Garrison, Frostfire Ridge
 			[1487] = 130, -- Axefall, Spires of Arak
 			[1502] = 58, -- The Ring of Trials, Nagrand
 			[1503] = 42, -- Throne of the Elements, Nagrand
@@ -6328,48 +6336,263 @@ data.flightcost = {
 		},
 	},
 	{
-		nodeID = 1648,
-		name = "Sha'naari Refuge, Tanaan Jungle",
+		tag = "269:449",
+		nodeID = 1506,
+		name = "Telaari Station, Nagrand",
 		neighbors = {
-			[1381] = 82, -- Embaari Village, Shadowmoon Valley
-			[1384] = 80, -- Exile's Rise, Shadowmoon Valley
-			[1440] = 33, -- Zangarra, Talador
-			[1643] = 23, -- Aktar's Post, Tanaan Jungle
-			[1644] = 31, -- The Iron Front, Tanaan Jungle
-			[1645] = 32, -- The Iron Front, Tanaan Jungle
-			[1646] = 28, -- Vault of the Earth, Tanaan Jungle
-			[1647] = 31, -- Malo's Lookout, Tanaan Jungle
+			[1447] = 114, -- Fort Wrynn, Talador
+			[1450] = 75, -- Shattrath City, Talador
+			[1476] = 134, -- Lunarfall, Shadowmoon Valley
+			[1493] = 121, -- Southport, Spires of Arak
+			[1502] = 30, -- The Ring of Trials, Nagrand
+			[1503] = 38, -- Throne of the Elements, Nagrand
+			[1507] = 26, -- Yrel's Watch, Nagrand
+			[1519] = 155, -- Highpass, Gorgrond
+			[1572] = 41, -- Rilzit's Holdfast, Nagrand
+			[1573] = 27, -- Nivek's Overlook, Nagrand
 		},
 	},
 	{
-		nodeID = 1450,
-		name = "Shattrath City, Talador",
+		tag = "266:497",
+		nodeID = 1507,
+		name = "Yrel's Watch, Nagrand",
 		neighbors = {
-			[1389] = 114, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1395] = 68, -- Thunder Pass, Frostfire Ridge
-			[1408] = 171, -- Warspear, Ashran
-			[1420] = 148, -- Stormshield, Ashran
-			[1432] = 78, -- Frostwall, Frostfire Ridge
-			[1443] = 41, -- Vol'jin's Pride, Talador
-			[1445] = 20, -- Durotan's Grasp, Talador
-			[1447] = 39, -- Fort Wrynn, Talador
-			[1448] = 37, -- Redemption Rise, Talador
-			[1452] = 44, -- Retribution Point, Talador
-			[1453] = 34, -- Exarch's Refuge, Talador
-			[1454] = 32, -- Exarch's Refuge, Talador
-			[1462] = 49, -- Terokkar Refuge, Talador
-			[1476] = 85, -- Lunarfall, Shadowmoon Valley
-			[1487] = 81, -- Axefall, Spires of Arak
-			[1493] = 94, -- Southport, Spires of Arak
-			[1502] = 58, -- The Ring of Trials, Nagrand
-			[1504] = 43, -- Wor'var, Nagrand
-			[1506] = 75, -- Telaari Station, Nagrand
-			[1513] = 64, -- Apexis Excavation, Spires of Arak
-			[1528] = 75, -- Iron Siegeworks, Frostfire Ridge
-			[1569] = 67, -- Akeeta's Hovel, Shadowmoon Valley
+			[1502] = 33, -- The Ring of Trials, Nagrand
+			[1503] = 25, -- Throne of the Elements, Nagrand
+			[1506] = 26, -- Telaari Station, Nagrand
+			[1572] = 37, -- Rilzit's Holdfast, Nagrand
+			[1574] = 15, -- Joz's Rylaks, Nagrand
 		},
 	},
 	{
+		tag = "502:266",
+		nodeID = 1508,
+		name = "Veil Terokk, Spires of Arak",
+		neighbors = {
+			[1487] = 21, -- Axefall, Spires of Arak
+			[1493] = 24, -- Southport, Spires of Arak
+			[1509] = 32, -- Talon Watch, Spires of Arak
+			[1510] = 41, -- Pinchwhistle Gearworks, Spires of Arak
+			[1513] = 37, -- Apexis Excavation, Spires of Arak
+			[1515] = 46, -- Crow's Crook, Spires of Arak
+		},
+	},
+	{
+		tag = "560:270",
+		nodeID = 1509,
+		name = "Talon Watch, Spires of Arak",
+		neighbors = {
+			[1382] = 40, -- Twilight Glade, Shadowmoon Valley
+			[1384] = 65, -- Exile's Rise, Shadowmoon Valley
+			[1451] = 66, -- Anchorite's Sojourn, Talador
+			[1475] = 51, -- Socrethar's Rise, Shadowmoon Valley
+			[1508] = 30, -- Veil Terokk, Spires of Arak
+			[1510] = 37, -- Pinchwhistle Gearworks, Spires of Arak
+			[1515] = 27, -- Crow's Crook, Spires of Arak
+			[1569] = 37, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "556:194",
+		nodeID = 1510,
+		name = "Pinchwhistle Gearworks, Spires of Arak",
+		neighbors = {
+			[1432] = 188, -- Frostwall Garrison, Frostfire Ridge
+			[1493] = 41, -- Southport, Spires of Arak
+			[1508] = 41, -- Veil Terokk, Spires of Arak
+			[1509] = 37, -- Talon Watch, Spires of Arak
+			[1515] = 51, -- Crow's Crook, Spires of Arak
+			[1569] = 71, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "539:568",
+		nodeID = 1511,
+		name = "Bastion Rise, Gorgrond",
+		faction = "A",
+		neighbors = {
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1447] = 33, -- Fort Wrynn, Talador
+			[1476] = 86, -- Lunarfall, Shadowmoon Valley
+			[1518] = 55, -- Wildwood Wash, Gorgrond
+			[1523] = 25, -- Deeproot, Gorgrond
+			[1528] = 37, -- Iron Siegeworks, Frostfire Ridge
+			[1643] = 25, -- Aktar's Post, Tanaan Jungle
+			[1645] = 22, -- The Iron Front, Tanaan Jungle
+		},
+	},
+	{
+		tag = "544:574",
+		nodeID = 1512,
+		name = "Bastion Rise, Gorgrond",
+		faction = "H",
+		neighbors = {
+			[1384] = 0, -- Exile's Rise, Shadowmoon Valley
+			[1408] = 116, -- Warspear, Ashran
+			[1441] = 30, -- Frostwolf Overlook, Talador
+			[1442] = 33, -- Beastwatch, Gorgrond
+			[1443] = 45, -- Vol'jin's Pride, Talador
+			[1514] = 17, -- Evermorn Springs, Gorgrond
+			[1643] = 26, -- Aktar's Post, Tanaan Jungle
+			[1644] = 34, -- The Iron Front, Tanaan Jungle
+		},
+	},
+	{
+		tag = "468:314",
+		nodeID = 1513,
+		name = "Apexis Excavation, Spires of Arak",
+		neighbors = {
+			[1432] = 146, -- Frostwall Garrison, Frostfire Ridge
+			[1450] = 64, -- Shattrath City, Talador
+			[1452] = 42, -- Retribution Point, Talador
+			[1453] = 40, -- Exarch's Refuge, Talador
+			[1454] = 40, -- Exarch's Refuge, Talador
+			[1487] = 28, -- Axefall, Spires of Arak
+			[1493] = 43, -- Southport, Spires of Arak
+			[1508] = 27, -- Veil Terokk, Spires of Arak
+			[1515] = 25, -- Crow's Crook, Spires of Arak
+		},
+	},
+	{
+		tag = "514:586",
+		nodeID = 1514,
+		name = "Evermorn Springs, Gorgrond",
+		neighbors = {
+			[1395] = 45, -- Thunder Pass, Frostfire Ridge
+			[1408] = 125, -- Warspear, Ashran
+			[1441] = 39, -- Frostwolf Overlook, Talador
+			[1442] = 39, -- Beastwatch, Gorgrond
+			[1443] = 47, -- Vol'jin's Pride, Talador
+			[1512] = 21, -- Bastion Rise, Gorgrond
+			[1539] = 64, -- Skysea Ridge, Gorgrond
+		},
+	},
+	{
+		tag = "522:298",
+		nodeID = 1515,
+		name = "Crow's Crook, Spires of Arak",
+		neighbors = {
+			[1443] = 78, -- Vol'jin's Pride, Talador
+			[1462] = 56, -- Terokkar Refuge, Talador
+			[1476] = 74, -- Lunarfall, Shadowmoon Valley
+			[1487] = 32, -- Axefall, Spires of Arak
+			[1508] = 19, -- Veil Terokk, Spires of Arak
+			[1509] = 27, -- Talon Watch, Spires of Arak
+			[1510] = 43, -- Pinchwhistle Gearworks, Spires of Arak
+			[1513] = 25, -- Apexis Excavation, Spires of Arak
+			[1569] = 41, -- Akeeta's Hovel, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "627:684",
+		nodeID = 1518,
+		name = "Wildwood Wash, Gorgrond",
+		neighbors = {
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1420] = 106, -- Stormshield, Ashran
+			[1476] = 139, -- Lunarfall, Shadowmoon Valley
+			[1511] = 55, -- Bastion Rise, Gorgrond
+			[1519] = 33, -- Highpass, Gorgrond
+			[1523] = 53, -- Deeproot, Gorgrond
+			[1524] = 61, -- Iron Docks, Gorgrond
+			[1539] = 57, -- Skysea Ridge, Gorgrond
+			[1568] = 28, -- Everbloom Wilds, Gorgrond
+			[1620] = 70, -- Lion's Watch, Tanaan Jungle
+			[1643] = 51, -- Aktar's Post, Tanaan Jungle
+		},
+	},
+	{
+		tag = "571:678",
+		nodeID = 1519,
+		name = "Highpass, Gorgrond",
+		neighbors = {
+			[1447] = 70, -- Fort Wrynn, Talador
+			[1476] = 129, -- Lunarfall, Shadowmoon Valley
+			[1506] = 155, -- Telaari Station, Nagrand
+			[1518] = 33, -- Wildwood Wash, Gorgrond
+			[1520] = 20, -- Breaker's Crown, Gorgrond
+			[1523] = 32, -- Deeproot, Gorgrond
+			[1524] = 55, -- Iron Docks, Gorgrond
+			[1528] = 42, -- Iron Siegeworks, Frostfire Ridge
+			[1539] = 42, -- Skysea Ridge, Gorgrond
+			[1568] = 29, -- Everbloom Wilds, Gorgrond
+		},
+	},
+	{
+		tag = "536:693",
+		nodeID = 1520,
+		name = "Breaker's Crown, Gorgrond",
+		neighbors = {
+			[1395] = 36, -- Thunder Pass, Frostfire Ridge
+			[1442] = 31, -- Beastwatch, Gorgrond
+			[1519] = 21, -- Highpass, Gorgrond
+			[1523] = 32, -- Deeproot, Gorgrond
+			[1524] = 49, -- Iron Docks, Gorgrond
+			[1528] = 33, -- Iron Siegeworks, Frostfire Ridge
+			[1539] = 33, -- Skysea Ridge, Gorgrond
+			[1568] = 28, -- Everbloom Wilds, Gorgrond
+		},
+	},
+	{
+		tag = "539:621",
+		nodeID = 1523,
+		name = "Deeproot, Gorgrond",
+		neighbors = {
+			[1447] = 51, -- Fort Wrynn, Talador
+			[1511] = 25, -- Bastion Rise, Gorgrond
+			[1518] = 53, -- Wildwood Wash, Gorgrond
+			[1519] = 31, -- Highpass, Gorgrond
+			[1520] = 31, -- Breaker's Crown, Gorgrond
+			[1528] = 36, -- Iron Siegeworks, Frostfire Ridge
+			[1568] = 49, -- Everbloom Wilds, Gorgrond
+		},
+	},
+	{
+		tag = "522:808",
+		nodeID = 1524,
+		name = "Iron Docks, Gorgrond",
+		neighbors = {
+			[1442] = 72, -- Beastwatch, Gorgrond
+			[1518] = 61, -- Wildwood Wash, Gorgrond
+			[1519] = 55, -- Highpass, Gorgrond
+			[1520] = 49, -- Breaker's Crown, Gorgrond
+			[1539] = 29, -- Skysea Ridge, Gorgrond
+			[1568] = 44, -- Everbloom Wilds, Gorgrond
+		},
+	},
+	{
+		tag = "485:640",
+		nodeID = 1528,
+		name = "Iron Siegeworks, Frostfire Ridge",
+		neighbors = {
+			[1389] = 69, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1447] = 57, -- Fort Wrynn, Talador
+			[1450] = 75, -- Shattrath City, Talador
+			[1503] = 89, -- Throne of the Elements, Nagrand
+			[1511] = 42, -- Bastion Rise, Gorgrond
+			[1519] = 42, -- Highpass, Gorgrond
+			[1520] = 37, -- Breaker's Crown, Gorgrond
+			[1523] = 36, -- Deeproot, Gorgrond
+			[1539] = 48, -- Skysea Ridge, Gorgrond
+		},
+	},
+	{
+		tag = "723:231",
+		nodeID = 1529,
+		name = "Darktide Roost, Shadowmoon Valley",
+		neighbors = {
+			[1381] = 49, -- Embaari Village, Shadowmoon Valley
+			[1384] = 61, -- Exile's Rise, Shadowmoon Valley
+			[1408] = 162, -- Warspear, Ashran
+			[1420] = 114, -- Stormshield, Ashran
+			[1443] = 119, -- Vol'jin's Pride, Talador
+			[1467] = 38, -- The Draakorium, Shadowmoon Valley
+			[1475] = 29, -- Socrethar's Rise, Shadowmoon Valley
+			[1476] = 79, -- Lunarfall, Shadowmoon Valley
+		},
+	},
+	{
+		tag = "505:754",
 		nodeID = 1539,
 		name = "Skysea Ridge, Gorgrond",
 		neighbors = {
@@ -6387,135 +6610,174 @@ data.flightcost = {
 		},
 	},
 	{
-		nodeID = 1475,
-		name = "Socrethar's Rise, Shadowmoon Valley",
+		tag = "766:315",
+		nodeID = 1556,
+		name = "Tranquil Court, Shadowmoon Valley",
 		neighbors = {
-			[1382] = 30, -- Twilight Glade, Shadowmoon Valley
-			[1384] = 57, -- Exile's Rise, Shadowmoon Valley
-			[1408] = 160, -- Warspear, Ashran
-			[1420] = 124, -- Stormshield, Ashran
-			[1443] = 111, -- Vol'jin's Pride, Talador
-			[1453] = 90, -- Exarch's Refuge, Talador
-			[1454] = 97, -- Exarch's Refuge, Talador
-			[1467] = 33, -- The Draakorium, Shadowmoon Valley
-			[1476] = 68, -- Lunarfall, Shadowmoon Valley
-			[1487] = 76, -- Axefall, Spires of Arak
-			[1493] = 80, -- Southport, Spires of Arak
-			[1509] = 51, -- Talon Watch, Spires of Arak
-			[1529] = 29, -- Darktide Roost, Shadowmoon Valley
-			[1569] = 44, -- Akeeta's Hovel, Shadowmoon Valley
+			[1383] = 23, -- Path of Light, Shadowmoon Valley
+			[1467] = 28, -- The Draakorium, Shadowmoon Valley
+			[1468] = 31, -- Elodor, Shadowmoon Valley
 		},
 	},
 	{
-		nodeID = 1493,
-		name = "Southport, Spires of Arak",
+		tag = "433:646",
+		nodeID = 1559,
+		name = "Wolf's Stand, Frostfire Ridge",
 		neighbors = {
-			[1447] = 107, -- Fort Wrynn, Talador
-			[1450] = 94, -- Shattrath City, Talador
-			[1475] = 80, -- Socrethar's Rise, Shadowmoon Valley
-			[1476] = 102, -- Lunarfall, Shadowmoon Valley
-			[1506] = 126, -- Telaari Station, Nagrand
-			[1508] = 41, -- Veil Terokk, Spires of Arak
-			[1510] = 41, -- Pinchwhistle Gearworks, Spires of Arak
-			[1513] = 43, -- Apexis Excavation, Spires of Arak
-			[1569] = 62, -- Akeeta's Hovel, Shadowmoon Valley
-			[1573] = 120, -- Nivek's Overlook, Nagrand
+			[1395] = 27, -- Thunder Pass, Frostfire Ridge
+			[1396] = 37, -- Darkspear's Edge, Frostfire Ridge
+			[1432] = 43, -- Frostwall Garrison, Frostfire Ridge
 		},
 	},
 	{
-		nodeID = 1390,
-		name = "Stonefang Outpost, Frostfire Ridge",
-		neighbors = {
-			[1386] = 38, -- Wor'gol, Frostfire Ridge
-			[1387] = 35, -- Bladespire Citadel, Frostfire Ridge
-			[1395] = 71, -- Thunder Pass, Frostfire Ridge
-			[1396] = 36, -- Darkspear's Edge, Frostfire Ridge
-			[1432] = 31, -- Frostwall, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1420,
-		name = "Stormshield, Ashran",
-		neighbors = {
-			[1450] = 148, -- Shattrath City, Talador
-			[1468] = 93, -- Elodor, Shadowmoon Valley
-			[1475] = 124, -- Socrethar's Rise, Shadowmoon Valley
-			[1476] = 112, -- Lunarfall, Shadowmoon Valley
-			[1518] = 106, -- Wildwood Wash, Gorgrond
-			[1529] = 114, -- Darktide Roost, Shadowmoon Valley
-			[1569] = 129, -- Akeeta's Hovel, Shadowmoon Valley
-			[1620] = 62, -- Lion's Watch, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1509,
-		name = "Talon Watch, Spires of Arak",
-		neighbors = {
-			[1382] = 40, -- Twilight Glade, Shadowmoon Valley
-			[1384] = 65, -- Exile's Rise, Shadowmoon Valley
-			[1451] = 66, -- Anchorite's Sojourn, Talador
-			[1475] = 51, -- Socrethar's Rise, Shadowmoon Valley
-			[1508] = 30, -- Veil Terokk, Spires of Arak
-			[1510] = 37, -- Pinchwhistle Gearworks, Spires of Arak
-			[1515] = 27, -- Crow's Crook, Spires of Arak
-			[1569] = 37, -- Akeeta's Hovel, Shadowmoon Valley
-		},
-	},
-	{
-		nodeID = 1506,
-		name = "Telaari Station, Nagrand",
-		neighbors = {
-			[1447] = 114, -- Fort Wrynn, Talador
-			[1450] = 75, -- Shattrath City, Talador
-			[1476] = 134, -- Lunarfall, Shadowmoon Valley
-			[1493] = 121, -- Southport, Spires of Arak
-			[1502] = 30, -- The Ring of Trials, Nagrand
-			[1503] = 38, -- Throne of the Elements, Nagrand
-			[1507] = 26, -- Yrel's Watch, Nagrand
-			[1519] = 155, -- Highpass, Gorgrond
-			[1572] = 41, -- Rilzit's Holdfast, Nagrand
-			[1573] = 27, -- Nivek's Overlook, Nagrand
-		},
-	},
-	{
+		tag = "646:711",
 		nodeID = 1567,
 		name = "Temple of Karabor",
 	},
 	{
-		nodeID = 1462,
-		name = "Terokkar Refuge, Talador",
+		tag = "592:723",
+		nodeID = 1568,
+		name = "Everbloom Wilds, Gorgrond",
 		neighbors = {
-			[1384] = 61, -- Exile's Rise, Shadowmoon Valley
-			[1440] = 36, -- Zangarra, Talador
-			[1443] = 33, -- Vol'jin's Pride, Talador
-			[1445] = 31, -- Durotan's Grasp, Talador
-			[1448] = 35, -- Redemption Rise, Talador
-			[1450] = 49, -- Shattrath City, Talador
-			[1451] = 32, -- Anchorite's Sojourn, Talador
-			[1453] = 36, -- Exarch's Refuge, Talador
-			[1454] = 34, -- Exarch's Refuge, Talador
-			[1515] = 56, -- Crow's Crook, Spires of Arak
-			[1569] = 46, -- Akeeta's Hovel, Shadowmoon Valley
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1384] = 190, -- Exile's Rise, Shadowmoon Valley
+			[1408] = 115, -- Warspear, Ashran
+			[1442] = 44, -- Beastwatch, Gorgrond
+			[1518] = 28, -- Wildwood Wash, Gorgrond
+			[1519] = 40, -- Highpass, Gorgrond
+			[1520] = 28, -- Breaker's Crown, Gorgrond
+			[1523] = 49, -- Deeproot, Gorgrond
+			[1524] = 44, -- Iron Docks, Gorgrond
+			[1539] = 37, -- Skysea Ridge, Gorgrond
+			[1580] = 34, -- Everbloom Overlook, Gorgrond
+			[1647] = 65, -- Malo's Lookout, Tanaan Jungle
 		},
 	},
 	{
-		nodeID = 1467,
-		name = "The Draakorium, Shadowmoon Valley",
+		tag = "574:332",
+		nodeID = 1569,
+		name = "Akeeta's Hovel, Shadowmoon Valley",
 		neighbors = {
-			[1381] = 29, -- Embaari Village, Shadowmoon Valley
-			[1382] = 32, -- Twilight Glade, Shadowmoon Valley
-			[1383] = 17, -- Path of Light, Shadowmoon Valley
-			[1475] = 33, -- Socrethar's Rise, Shadowmoon Valley
-			[1529] = 38, -- Darktide Roost, Shadowmoon Valley
-			[1556] = 28, -- Tranquil Court, Shadowmoon Valley
+			[1384] = 46, -- Exile's Rise, Shadowmoon Valley
+			[1408] = 158, -- Warspear, Ashran
+			[1420] = 129, -- Stormshield, Ashran
+			[1443] = 70, -- Vol'jin's Pride, Talador
+			[1447] = 78, -- Fort Wrynn, Talador
+			[1450] = 67, -- Shattrath City, Talador
+			[1453] = 57, -- Exarch's Refuge, Talador
+			[1454] = 60, -- Exarch's Refuge, Talador
+			[1462] = 46, -- Terokkar Refuge, Talador
+			[1475] = 44, -- Socrethar's Rise, Shadowmoon Valley
+			[1476] = 45, -- Lunarfall, Shadowmoon Valley
+			[1487] = 44, -- Axefall, Spires of Arak
+			[1493] = 55, -- Southport, Spires of Arak
+			[1509] = 37, -- Talon Watch, Spires of Arak
+			[1510] = 71, -- Pinchwhistle Gearworks, Spires of Arak
+			[1515] = 41, -- Crow's Crook, Spires of Arak
 		},
 	},
 	{
+		tag = "224:520",
+		nodeID = 1572,
+		name = "Rilzit's Holdfast, Nagrand",
+		neighbors = {
+			[1389] = 107, -- Bloodmaul Slag Mines, Frostfire Ridge
+			[1432] = 71, -- Frostwall Garrison, Frostfire Ridge
+			[1505] = 26, -- Riverside Post, Nagrand
+			[1506] = 38, -- Telaari Station, Nagrand
+			[1507] = 24, -- Yrel's Watch, Nagrand
+			[1573] = 44, -- Nivek's Overlook, Nagrand
+			[1574] = 33, -- Joz's Rylaks, Nagrand
+		},
+	},
+	{
+		tag = "220:416",
+		nodeID = 1573,
+		name = "Nivek's Overlook, Nagrand",
+		neighbors = {
+			[1487] = 113, -- Axefall, Spires of Arak
+			[1493] = 120, -- Southport, Spires of Arak
+			[1502] = 53, -- The Ring of Trials, Nagrand
+			[1505] = 31, -- Riverside Post, Nagrand
+			[1506] = 32, -- Telaari Station, Nagrand
+			[1572] = 47, -- Rilzit's Holdfast, Nagrand
+			[1574] = 45, -- Joz's Rylaks, Nagrand
+		},
+	},
+	{
+		tag = "264:515",
+		nodeID = 1574,
+		name = "Joz's Rylaks, Nagrand",
+		neighbors = {
+			[1432] = 55, -- Frostwall Garrison, Frostfire Ridge
+			[1502] = 39, -- The Ring of Trials, Nagrand
+			[1503] = 22, -- Throne of the Elements, Nagrand
+			[1505] = 27, -- Riverside Post, Nagrand
+			[1507] = 15, -- Yrel's Watch, Nagrand
+			[1572] = 33, -- Rilzit's Holdfast, Nagrand
+			[1573] = 45, -- Nivek's Overlook, Nagrand
+		},
+	},
+	{
+		tag = "651:780",
+		nodeID = 1580,
+		name = "Everbloom Overlook, Gorgrond",
+		neighbors = {
+			[1568] = 41, -- Everbloom Wilds, Gorgrond
+		},
+	},
+	{
+		nodeID = 1620,
+		name = "Lion's Watch, Tanaan Jungle",
+		neighbors = {
+			[1381] = 79, -- Embaari Village, Shadowmoon Valley
+			[1420] = 55, -- Stormshield, Ashran
+			[1518] = 65, -- Wildwood Wash, Gorgrond
+			[1643] = 45, -- Aktar's Post, Tanaan Jungle
+			[1645] = 64, -- The Iron Front, Tanaan Jungle
+			[1646] = 22, -- Vault of the Earth, Tanaan Jungle
+			[1647] = 25, -- Malo's Lookout, Tanaan Jungle
+		},
+	},
+	{
+		nodeID = 1621,
+		name = "Vol'mar, Tanaan Jungle",
+		neighbors = {
+			[1384] = 74, -- Exile's Rise, Shadowmoon Valley
+			[1408] = 60, -- Warspear, Ashran
+			[1643] = 44, -- Aktar's Post, Tanaan Jungle
+			[1644] = 63, -- The Iron Front, Tanaan Jungle
+			[1646] = 31, -- Vault of the Earth, Tanaan Jungle
+			[1647] = 26, -- Malo's Lookout, Tanaan Jungle
+		},
+	},
+	{
+		tag = "596:569",
+		nodeID = 1643,
+		name = "Aktar's Post, Tanaan Jungle",
+		neighbors = {
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1384] = 87, -- Exile's Rise, Shadowmoon Valley
+			[1440] = 39, -- Zangarra, Talador
+			[1511] = 25, -- Bastion Rise, Gorgrond
+			[1512] = 26, -- Bastion Rise, Gorgrond
+			[1518] = 54, -- Wildwood Wash, Gorgrond
+			[1620] = 53, -- Lion's Watch, Tanaan Jungle
+			[1621] = 56, -- Vol'mar, Tanaan Jungle
+			[1644] = 36, -- The Iron Front, Tanaan Jungle
+			[1645] = 35, -- The Iron Front, Tanaan Jungle
+			[1646] = 52, -- Vault of the Earth, Tanaan Jungle
+			[1647] = 32, -- Malo's Lookout, Tanaan Jungle
+			[1648] = 23, -- Sha'naari Refuge, Tanaan Jungle
+		},
+	},
+	{
+		tag = "542:533",
 		nodeID = 1644,
 		name = "The Iron Front, Tanaan Jungle",
 		faction = "H",
 		neighbors = {
-			[1384] = 91, -- Exile's Rise, Shadowmoon Valley
+			[1384] = 0, -- Exile's Rise, Shadowmoon Valley
 			[1440] = 33, -- Zangarra, Talador
 			[1441] = 28, -- Frostwolf Overlook, Talador
 			[1443] = 33, -- Vol'jin's Pride, Talador
@@ -6527,11 +6789,12 @@ data.flightcost = {
 		},
 	},
 	{
+		tag = "544:539",
 		nodeID = 1645,
 		name = "The Iron Front, Tanaan Jungle",
 		faction = "A",
 		neighbors = {
-			[1381] = 108, -- Embaari Village, Shadowmoon Valley
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
 			[1440] = 32, -- Zangarra, Talador
 			[1447] = 23, -- Fort Wrynn, Talador
 			[1511] = 22, -- Bastion Rise, Gorgrond
@@ -6542,82 +6805,7 @@ data.flightcost = {
 		},
 	},
 	{
-		nodeID = 1502,
-		name = "The Ring of Trials, Nagrand",
-		neighbors = {
-			[1450] = 58, -- Shattrath City, Talador
-			[1452] = 70, -- Retribution Point, Talador
-			[1503] = 27, -- Throne of the Elements, Nagrand
-			[1504] = 21, -- Wor'var, Nagrand
-			[1505] = 58, -- Riverside Post, Nagrand
-			[1506] = 30, -- Telaari Station, Nagrand
-			[1507] = 33, -- Yrel's Watch, Nagrand
-			[1573] = 53, -- Nivek's Overlook, Nagrand
-			[1574] = 42, -- Joz's Rylaks, Nagrand
-		},
-	},
-	{
-		nodeID = 1388,
-		name = "Throm'Var, Frostfire Ridge",
-		neighbors = {
-			[1387] = 40, -- Bladespire Citadel, Frostfire Ridge
-			[1389] = 40, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1396] = 49, -- Darkspear's Edge, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1503,
-		name = "Throne of the Elements, Nagrand",
-		neighbors = {
-			[1389] = 86, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1432] = 48, -- Frostwall, Frostfire Ridge
-			[1502] = 27, -- The Ring of Trials, Nagrand
-			[1504] = 31, -- Wor'var, Nagrand
-			[1505] = 42, -- Riverside Post, Nagrand
-			[1506] = 38, -- Telaari Station, Nagrand
-			[1507] = 25, -- Yrel's Watch, Nagrand
-			[1528] = 95, -- Iron Siegeworks, Frostfire Ridge
-			[1574] = 22, -- Joz's Rylaks, Nagrand
-		},
-	},
-	{
-		nodeID = 1395,
-		name = "Thunder Pass, Frostfire Ridge",
-		neighbors = {
-			[1389] = 62, -- Bloodmaul Slag Mines, Frostfire Ridge
-			[1390] = 71, -- Stonefang Outpost, Frostfire Ridge
-			[1432] = 53, -- Frostwall, Frostfire Ridge
-			[1442] = 35, -- Beastwatch, Gorgrond
-			[1443] = 61, -- Vol'jin's Pride, Talador
-			[1450] = 68, -- Shattrath City, Talador
-			[1514] = 45, -- Evermorn Springs, Gorgrond
-			[1520] = 36, -- Breaker's Crown, Gorgrond
-			[1539] = 44, -- Skysea Ridge, Gorgrond
-			[1559] = 27, -- Wolf's Stand, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1556,
-		name = "Tranquil Court, Shadowmoon Valley",
-		neighbors = {
-			[1383] = 23, -- Path of Light, Shadowmoon Valley
-			[1467] = 28, -- The Draakorium, Shadowmoon Valley
-			[1468] = 31, -- Elodor, Shadowmoon Valley
-		},
-	},
-	{
-		nodeID = 1382,
-		name = "Twilight Glade, Shadowmoon Valley",
-		neighbors = {
-			[1381] = 25, -- Embaari Village, Shadowmoon Valley
-			[1383] = 34, -- Path of Light, Shadowmoon Valley
-			[1467] = 32, -- The Draakorium, Shadowmoon Valley
-			[1475] = 30, -- Socrethar's Rise, Shadowmoon Valley
-			[1476] = 46, -- Lunarfall, Shadowmoon Valley
-			[1509] = 40, -- Talon Watch, Spires of Arak
-		},
-	},
-	{
+		tag = "663:502",
 		nodeID = 1646,
 		name = "Vault of the Earth, Tanaan Jungle",
 		neighbors = {
@@ -6636,159 +6824,36 @@ data.flightcost = {
 		},
 	},
 	{
-		nodeID = 1508,
-		name = "Veil Terokk, Spires of Arak",
+		tag = "652:562",
+		nodeID = 1647,
+		name = "Malo's Lookout, Tanaan Jungle",
 		neighbors = {
-			[1487] = 21, -- Axefall, Spires of Arak
-			[1493] = 24, -- Southport, Spires of Arak
-			[1509] = 32, -- Talon Watch, Spires of Arak
-			[1510] = 41, -- Pinchwhistle Gearworks, Spires of Arak
-			[1513] = 37, -- Apexis Excavation, Spires of Arak
-			[1515] = 46, -- Crow's Crook, Spires of Arak
-		},
-	},
-	{
-		nodeID = 1443,
-		name = "Vol'jin's Pride, Talador",
-		neighbors = {
-			[1384] = 90, -- Exile's Rise, Shadowmoon Valley
-			[1395] = 61, -- Thunder Pass, Frostfire Ridge
-			[1408] = 152, -- Warspear, Ashran
-			[1432] = 92, -- Frostwall, Frostfire Ridge
-			[1440] = 27, -- Zangarra, Talador
-			[1441] = 41, -- Frostwolf Overlook, Talador
-			[1442] = 67, -- Beastwatch, Gorgrond
-			[1445] = 53, -- Durotan's Grasp, Talador
-			[1450] = 41, -- Shattrath City, Talador
-			[1462] = 33, -- Terokkar Refuge, Talador
-			[1475] = 111, -- Socrethar's Rise, Shadowmoon Valley
-			[1487] = 90, -- Axefall, Spires of Arak
-			[1504] = 78, -- Wor'var, Nagrand
-			[1512] = 45, -- Bastion Rise, Gorgrond
-			[1514] = 42, -- Evermorn Springs, Gorgrond
-			[1515] = 78, -- Crow's Crook, Spires of Arak
-			[1529] = 119, -- Darktide Roost, Shadowmoon Valley
-			[1569] = 70, -- Akeeta's Hovel, Shadowmoon Valley
-			[1644] = 33, -- The Iron Front, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1621,
-		name = "Vol'mar, Tanaan Jungle",
-		neighbors = {
-			[1384] = 74, -- Exile's Rise, Shadowmoon Valley
-			[1408] = 60, -- Warspear, Ashran
-			[1643] = 44, -- Aktar's Post, Tanaan Jungle
-			[1644] = 63, -- The Iron Front, Tanaan Jungle
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1384] = 73, -- Exile's Rise, Shadowmoon Valley
+			[1568] = 65, -- Everbloom Wilds, Gorgrond
+			[1620] = 30, -- Lion's Watch, Tanaan Jungle
+			[1621] = 32, -- Vol'mar, Tanaan Jungle
+			[1643] = 32, -- Aktar's Post, Tanaan Jungle
 			[1646] = 31, -- Vault of the Earth, Tanaan Jungle
-			[1647] = 26, -- Malo's Lookout, Tanaan Jungle
+			[1648] = 31, -- Sha'naari Refuge, Tanaan Jungle
 		},
 	},
 	{
-		nodeID = 1408,
-		name = "Warspear, Ashran",
+		tag = "607:518",
+		nodeID = 1648,
+		name = "Sha'naari Refuge, Tanaan Jungle",
 		neighbors = {
-			[1384] = 124, -- Exile's Rise, Shadowmoon Valley
-			[1432] = 183, -- Frostwall, Frostfire Ridge
-			[1442] = 119, -- Beastwatch, Gorgrond
-			[1443] = 152, -- Vol'jin's Pride, Talador
-			[1450] = 171, -- Shattrath City, Talador
-			[1475] = 160, -- Socrethar's Rise, Shadowmoon Valley
-			[1512] = 116, -- Bastion Rise, Gorgrond
-			[1514] = 125, -- Evermorn Springs, Gorgrond
-			[1529] = 162, -- Darktide Roost, Shadowmoon Valley
-			[1539] = 136, -- Skysea Ridge, Gorgrond
-			[1568] = 115, -- Everbloom Wilds, Gorgrond
-			[1569] = 158, -- Akeeta's Hovel, Shadowmoon Valley
-			[1621] = 65, -- Vol'mar, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1518,
-		name = "Wildwood Wash, Gorgrond",
-		neighbors = {
-			[1381] = 146, -- Embaari Village, Shadowmoon Valley
-			[1420] = 106, -- Stormshield, Ashran
-			[1476] = 139, -- Lunarfall, Shadowmoon Valley
-			[1511] = 55, -- Bastion Rise, Gorgrond
-			[1519] = 33, -- Highpass, Gorgrond
-			[1523] = 53, -- Deeproot, Gorgrond
-			[1524] = 61, -- Iron Docks, Gorgrond
-			[1539] = 57, -- Skysea Ridge, Gorgrond
-			[1568] = 28, -- Everbloom Wilds, Gorgrond
-			[1620] = 70, -- Lion's Watch, Tanaan Jungle
-			[1643] = 51, -- Aktar's Post, Tanaan Jungle
-		},
-	},
-	{
-		nodeID = 1559,
-		name = "Wolf's Stand, Frostfire Ridge",
-		neighbors = {
-			[1395] = 27, -- Thunder Pass, Frostfire Ridge
-			[1396] = 37, -- Darkspear's Edge, Frostfire Ridge
-			[1432] = 43, -- Frostwall, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1386,
-		name = "Wor'gol, Frostfire Ridge",
-		neighbors = {
-			[1387] = 28, -- Bladespire Citadel, Frostfire Ridge
-			[1390] = 38, -- Stonefang Outpost, Frostfire Ridge
-			[1432] = 50, -- Frostwall, Frostfire Ridge
-		},
-	},
-	{
-		nodeID = 1504,
-		name = "Wor'var, Nagrand",
-		neighbors = {
-			[1432] = 56, -- Frostwall, Frostfire Ridge
-			[1441] = 64, -- Frostwolf Overlook, Talador
-			[1442] = 105, -- Beastwatch, Gorgrond
-			[1443] = 78, -- Vol'jin's Pride, Talador
-			[1445] = 58, -- Durotan's Grasp, Talador
-			[1450] = 43, -- Shattrath City, Talador
-			[1487] = 107, -- Axefall, Spires of Arak
-			[1502] = 21, -- The Ring of Trials, Nagrand
-			[1503] = 31, -- Throne of the Elements, Nagrand
-			[1505] = 50, -- Riverside Post, Nagrand
-		},
-	},
-	{
-		nodeID = 1507,
-		name = "Yrel's Watch, Nagrand",
-		neighbors = {
-			[1502] = 33, -- The Ring of Trials, Nagrand
-			[1503] = 25, -- Throne of the Elements, Nagrand
-			[1506] = 26, -- Telaari Station, Nagrand
-			[1572] = 37, -- Rilzit's Holdfast, Nagrand
-			[1574] = 15, -- Joz's Rylaks, Nagrand
-		},
-	},
-	{
-		nodeID = 1440,
-		name = "Zangarra, Talador",
-		neighbors = {
-			[1381] = 83, -- Embaari Village, Shadowmoon Valley
-			[1384] = 95, -- Exile's Rise, Shadowmoon Valley
-			[1443] = 27, -- Vol'jin's Pride, Talador
-			[1447] = 39, -- Fort Wrynn, Talador
-			[1451] = 38, -- Anchorite's Sojourn, Talador
-			[1462] = 36, -- Terokkar Refuge, Talador
-			[1476] = 11, -- Lunarfall, Shadowmoon Valley
-			[1643] = 39, -- Aktar's Post, Tanaan Jungle
-			[1644] = 33, -- The Iron Front, Tanaan Jungle
-			[1645] = 34, -- The Iron Front, Tanaan Jungle
-			[1646] = 51, -- Vault of the Earth, Tanaan Jungle
-			[1648] = 33, -- Sha'naari Refuge, Tanaan Jungle
+			[1381] = 0, -- Embaari Village, Shadowmoon Valley
+			[1384] = 80, -- Exile's Rise, Shadowmoon Valley
+			[1440] = 33, -- Zangarra, Talador
+			[1643] = 23, -- Aktar's Post, Tanaan Jungle
+			[1644] = 31, -- The Iron Front, Tanaan Jungle
+			[1645] = 32, -- The Iron Front, Tanaan Jungle
+			[1646] = 28, -- Vault of the Earth, Tanaan Jungle
+			[1647] = 31, -- Malo's Lookout, Tanaan Jungle
 		},
 	},
 },
-
-
-
-
-
 
 
 

@@ -1,7 +1,0 @@
-<!-- See license.txt for license and copyright information -->
-<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
-..\FrameXML\UI.xsd">
-	<Script file="BasicWindowTemplate.lua" />
-	<Script file="SelectionPopoutWithButtonsTemplate.lua" />
-	<Script file="TimerRowTemplate.lua" />
-</Ui>

@@ -1,1036 +1,4708 @@
 
 Prat3CharDB = {
-	["history"] = {
-		["cmdhistory"] = {
-			["ChatFrame10EditBox"] = {
-			},
-			["ChatFrame7EditBox"] = {
-			},
-			["ChatFrame5EditBox"] = {
-			},
-			["ChatFrame8EditBox"] = {
-			},
-			["ChatFrame4EditBox"] = {
-			},
-			["ChatFrame6EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
-			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
-			},
-			["ChatFrame9EditBox"] = {
-			},
-		},
-	},
+["history"] = {
+["cmdhistory"] = {
+["ChatFrame10EditBox"] = {
+},
+["ChatFrame7EditBox"] = {
+},
+["ChatFrame5EditBox"] = {
+},
+["ChatFrame8EditBox"] = {
+},
+["ChatFrame4EditBox"] = {
+},
+["ChatFrame6EditBox"] = {
+},
+["ChatFrame9EditBox"] = {
+},
+["ChatFrame1EditBox"] = {
+"/s /ginfo",
+},
+["ChatFrame2EditBox"] = {
+},
+["ChatFrame3EditBox"] = {
+},
+},
+},
 }
 Prat3HighCPUPerCharDB = {
-	["time"] = 1546815881,
-	["scrollback"] = {
-		["ChatFrame1"] = {
-			{
-				"|cff979797[15:19:50]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:127:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: You assume it is", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[15:19:50]|r|c00000000|r You have invited Hfishman-Ravenholdt to join your group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[15:19:50]|r|c00000000|r Dungeon Difficulty set to Normal.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[15:19:52]|r|c00000000|r Hfishman-Ravenholdt is already in a group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[15:19:55]|r|c00000000|r Hfishman-Ravenholdt joins the party.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[15:19:59]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:132:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[15:20:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Starshearing-Tichondrius:133:CHANNEL:2|h|cff0070ddStarshearing|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00DejaVu|r|cffffffff>|r is recruiting for next raid teir. We are looking to push Mythic content as soon as it drops. We also welcome M+ runners at a minimum of 1k io. Raid times Fri/Sat 10pm EST. PST for more info ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				32, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[15:20:04]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Robbo-Tichondrius:134:CHANNEL:2|h|cff00ff96Robbo|r|h|cffd8d8d8]|r: Paying 5 mil for flag of ownership", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				69, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[15:20:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smokingherb-Tichondrius:136:CHANNEL:2|h|cffff7c0aSmokingherb|r|h|cffd8d8d8]|r: WTS +10-15s 8/8M 6.5k score in legion chance at 370 gear at the end and guaranteed 380 piece on tuesday. (Gold Only)", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				26, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[15:20:15]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fleyva-Tichondrius:137:CHANNEL:2|h|cff0070ddFleyva|r|h|cffd8d8d8]|r: LF someone that can carry me to 1800", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				72, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[15:20:17]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Woxzert-Tichondrius:138:CHANNEL:2|h|cff0070ddWoxzert|r|h|cffd8d8d8]|r: 30% down! |cffffffff<|r|cff00ff00www.gold4pve.com|r|cffffffff>|r Selling Cheap WOW Gold! Millions in stock! Selling M+10= $19.Heroic Uldir Run $39 (7 Gears guarantee). Selling cheap 350/360/370 class set for ALT TOON, Selling Herbs/trade goods.Big Coupon code:Black05", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				16, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[15:20:18]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:139:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: i mean im looking at a dictionary made in 2005 that says its synonomous with one another", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[15:20:23]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fleyva-Tichondrius:141:CHANNEL:2|h|cff0070ddFleyva|r|h|cffd8d8d8]|r: LF someone that can carry me to 1800", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				72, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[15:20:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:145:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: Cool and 2005 is not 2019", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[15:20:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:146:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[15:20:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:147:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[15:20:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thellos-Tichondrius:148:CHANNEL:2|h|cfff48cbaThellos|r|h|cffd8d8d8]|r: |cffffffff|Hurl:https://www.twitch.tv/krovektv|h[https://www.twitch.tv/krovektv]|h|r Krovek - Down 130LBS ll The Great Debate (Choosing an Alt) ll Leveling And Maybe PvP After? ll Come chat and hang out! <3", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				75, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[15:20:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xixahotez-Tichondrius:150:CHANNEL:2|h|cffc69b6dXixahotez|r|h|cffd8d8d8]|r: [WTS] Uldir Heroic Boost Tonight! Get TONS of ilvl 370+ gear, weapons & curve achieve. Choose between up to 12 Guild runs every day. Over 4788 Trustpilot reviews. Visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				9, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[15:20:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Syosarche-Tichondrius:151:CHANNEL:2|h|cff8787edSyosarche|r|h|cffd8d8d8]|r: [WTS] |cffffffff<|r|cff00ff00< Uldir Heroic and Mythic Runs >> << G'huun Kill >> << Ahead of the Curve >> << Mythic+ Runs >|r|cffffffff>|r. Smooth and Easy Guild runs.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				44, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[15:20:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spindral-Tichondrius:152:CHANNEL:2|h|cffc41e3aSpindral|r|h|cffd8d8d8]|r: is truthiness in the 2005 edition?", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				77, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[15:20:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fleyva-Tichondrius:153:CHANNEL:2|h|cff0070ddFleyva|r|h|cffd8d8d8]|r: LF someone that can carry me to 1800", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				72, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[15:21:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:154:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: so youre telling me millinials assumed it was different and are trying to change the definitions?", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[15:21:07]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:156:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: The idea of gender has changed since then.  But there are still only two sexes, because its literally do you have Ovaries or not.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[15:21:24]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smokingherb-Tichondrius:157:CHANNEL:2|h|cffff7c0aSmokingherb|r|h|cffd8d8d8]|r: WTS +10-15s 8/8M 6.5k score in legion chance at 370 gear at the end and guaranteed 380 piece on tuesday. (Gold Only)", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				26, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[15:21:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:158:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[15:21:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:160:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[15:21:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Myrothon-Tichondrius:162:CHANNEL:2|h|cff3fc6eaMyrothon|r|h|cffd8d8d8]|r: LKF DH TANK FOR RATED BGS ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				79, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[15:21:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finderzbadez-Tichondrius:163:CHANNEL:2|h|cff00ff96Finderzbadez|r|h|cffd8d8d8]|r: we too busy with debt and endless wars with china having mfg base to care about genders.  that is next one i think ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				65, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[15:21:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:164:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: men have testicals that derived from ovaries... same thing i assume? so i guess theyre nott different afterall", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[15:21:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Woxzert-Tichondrius:165:CHANNEL:2|h|cff0070ddWoxzert|r|h|cffd8d8d8]|r: 30% down! |cffffffff<|r|cff00ff00www.gold4pve.com|r|cffffffff>|r Selling Cheap WOW Gold! Millions in stock! Selling M+10= $19.Heroic Uldir Run $39 (7 Gears guarantee). Selling cheap 350/360/370 class set for ALT TOON, Selling Herbs/trade goods.Big Coupon code:Black05", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				16, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[15:21:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xixahotez-Tichondrius:168:CHANNEL:2|h|cffc69b6dXixahotez|r|h|cffd8d8d8]|r: [WTS] Fast Mythic+ runs, +7/+8/+9/+10 key CARRY. You will get ilvl 360-385+ Gear, Titan Residuum & tons of Azerite. Start right now! Over 4788 Trustpilot reviews. Visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				9, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[15:21:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Folak-Tichondrius:169:CHANNEL:2|h|cffff7c0aFolak|r|h|cffd8d8d8]|r: [WTS] +10/+15 Mythic Key ULDIR Heroic/Mythic 8/8 Carry Run Come Get your 370-385+ BIS Gear!/w me for spot", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				46, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[15:21:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Myrothon-Tichondrius:171:CHANNEL:2|h|cff3fc6eaMyrothon|r|h|cffd8d8d8]|r: LKF DH TANK FOR RATED BGS MUST HAVE BIG DICK ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				79, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[15:28:13]|r|c00000000|r Hfishman-Ravenholdt is already in a group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[15:28:19]|r|c00000000|r You leave the group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[15:28:22]|r|c00000000|r You have invited Hfishman-Ravenholdt to join your group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[15:28:22]|r|c00000000|r Dungeon Difficulty set to Normal.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[15:28:24]|r|c00000000|r Hfishman-Ravenholdt joins the party.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[15:30:39]|r|c00000000|r You have invited |cffff7c0aSamoantiger|r to join your group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[15:30:44]|r|c00000000|r |cffff7c0aSamoantiger|r joins the party.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[15:31:01]|r|c00000000|r Hfishman has died.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[15:39:41]|r|c00000000|r You are now Away: AFK", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[15:41:00]|r|c00000000|r Hfishman has died.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[15:46:14]|r|c00000000|r |Hchannel:channel:3|h[3] |h |cffffff00Grom'gol Base Camp is under attack!|r", -- [1]
-				0.909803986549378, -- [2]
-				0.894117712974548, -- [3]
-				0.474509835243225, -- [4]
-				69, -- [5]
-				false, -- [6]
-				93, -- [7]
-				94, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[15:47:54]|r|c00000000|r |Hchannel:channel:3|h[3] |h |cffffff00Grom'gol Base Camp is under attack!|r", -- [1]
-				0.909803986549378, -- [2]
-				0.894117712974548, -- [3]
-				0.474509835243225, -- [4]
-				69, -- [5]
-				false, -- [6]
-				93, -- [7]
-				94, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[15:48:20]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Samoantiger-Tichondrius:247:GUILD|h|cffd8bc3f110|r:|cffff7c0aSamoantiger|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:1557:Player-11-09AE518F:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[50 Fish]|h|r |cffffffff(|rCompleted 10/30/09|cffffffff)|r |cff2080a0|Hgratsl:Samoantiger:GUILD::1557|h[say grats]|h|r!", -- [1]
-				0.250980406999588, -- [2]
-				1, -- [3]
-				0.250980406999588, -- [4]
-				65, -- [5]
-				false, -- [6]
-				98, -- [7]
-				99, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[15:49:44]|r|c00000000|r |Hchannel:channel:3|h[3] |h |cffffff00Grom'gol Base Camp is under attack!|r", -- [1]
-				0.909803986549378, -- [2]
-				0.894117712974548, -- [3]
-				0.474509835243225, -- [4]
-				69, -- [5]
-				false, -- [6]
-				93, -- [7]
-				94, -- [8]
-			}, -- [47]
-			{
-				"|cff979797[15:51:38]|r|c00000000|r |Hchannel:channel:3|h[3] |h |cffffff00Grom'gol Base Camp is under attack!|r", -- [1]
-				0.909803986549378, -- [2]
-				0.894117712974548, -- [3]
-				0.474509835243225, -- [4]
-				69, -- [5]
-				false, -- [6]
-				93, -- [7]
-				94, -- [8]
-			}, -- [48]
-			{
-				"|cff979797[15:53:52]|r|c00000000|r |Hchannel:channel:3|h[3] |h |cffffff00Grom'gol Base Camp is under attack!|r", -- [1]
-				0.909803986549378, -- [2]
-				0.894117712974548, -- [3]
-				0.474509835243225, -- [4]
-				69, -- [5]
-				false, -- [6]
-				93, -- [7]
-				94, -- [8]
-			}, -- [49]
-			{
-				"|cff979797[16:04:41]|r|c00000000|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				67, -- [7]
-				68, -- [8]
-			}, -- [50]
-		},
-		["ChatFrame3"] = {
-			{
-				"|cff979797[15:17:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Diabsoule-Tichondrius:99:CHANNEL:2|h|cff8787edDiabsoule|r|h|cffd8d8d8]|r: LF casual guild with active chat, offering nothing in return ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				52, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[15:17:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ezannaga-Tichondrius:100:CHANNEL:2|h|cff8b8b8b1|r:|cffaad372Ezannaga|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00<www.bank4dh.com>>.code :us 9.9 usd=100k ,7.8M in stock//<<Mecha-Mogul Mk2>> =59 usd. <<The Hivemind>>=25 usd//Full Boe Class Set>>// <<Boe Gears>><<Trade goods>><<BFA mounts>>!! T3 package//<<www.bank4dh.com>|r|cffffffff>|r.code :us", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				54, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[15:17:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Starshearing-Tichondrius:102:CHANNEL:2|h|cff0070ddStarshearing|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00DejaVu|r|cffffffff>|r is recruiting for next raid teir. We are looking to push Mythic content as soon as it drops. We also welcome M+ runners at a minimum of 1k io. Raid times Fri/Sat 10pm EST. PST for more info ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				32, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[15:17:59]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treesõndeck-Tichondrius:104:CHANNEL:2|h|cffff7c0aTreesõndeck|r|h|cffd8d8d8]|r: LF 2 GUILD SIGNS!! ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				22, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[15:18:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treesõndeck-Tichondrius:106:CHANNEL:2|h|cffff7c0aTreesõndeck|r|h|cffd8d8d8]|r: WTB 2 GUILD sigs!!!!!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				22, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[15:18:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:108:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[15:18:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Quact-Tichondrius:109:CHANNEL:2|h|cff65b265103|r:|cffffffffQuact|r|h|cffd8d8d8]|r: there are 2 genders - CHANGE MY MIND!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				56, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[15:18:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xixahotez-Tichondrius:110:CHANNEL:2|h|cffc69b6dXixahotez|r|h|cffd8d8d8]|r: [WTS] Fast Mythic+ runs, +7/+8/+9/+10 key CARRY. You will get ilvl 360-385+ Gear, Titan Residuum & tons of Azerite. Start right now! Over 4788 Trustpilot reviews. Visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				9, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[15:18:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Homeboÿ-Tichondrius:111:CHANNEL:2|h|cfff48cbaHomeboÿ|r|h|cffd8d8d8]|r: *****rs", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				58, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[15:18:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smokingherb-Tichondrius:112:CHANNEL:2|h|cffff7c0aSmokingherb|r|h|cffd8d8d8]|r: WTS +10-15s 8/8M 6.5k score in legion chance at 370 gear at the end and guaranteed 380 piece on tuesday. (Gold Only)", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				26, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[15:18:56]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Woxzert-Tichondrius:114:CHANNEL:2|h|cff0070ddWoxzert|r|h|cffd8d8d8]|r: 30% down! |cffffffff<|r|cff00ff00www.gold4pve.com|r|cffffffff>|r Selling Cheap WOW Gold! Millions in stock! Selling M+10= $19.Heroic Uldir Run $39 (7 Gears guarantee). Selling cheap 350/360/370 class set for ALT TOON, Selling Herbs/trade goods.Big Coupon code:Black05", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				16, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[15:19:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:117:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: frogs have the ability to change genders, does that make them a third type of gender? because they can be both?", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[15:19:11]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:118:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: There are two sexes, but gender is a social construct, so there could be as many as you want.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[15:19:19]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finderzbadez-Tichondrius:120:CHANNEL:2|h|cff00ff96Finderzbadez|r|h|cffd8d8d8]|r: Astrix & Deedrah - Gayatri", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				65, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[15:19:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:121:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[15:19:41]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:123:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: but gender is synonomous with sex??", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[15:19:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xixahotez-Tichondrius:124:CHANNEL:2|h|cffc69b6dXixahotez|r|h|cffd8d8d8]|r: [WTS] Fast leveling to 120, allied races unlock, mounts & reputations farm, world quests, Island Expeditions & many other services. Over 4788 Trustpilot reviews. Visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				9, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[15:19:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:125:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: No it isnt", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[15:19:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finderzbadez-Tichondrius:126:CHANNEL:2|h|cff00ff96Finderzbadez|r|h|cffd8d8d8]|r: why do words exist than", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				65, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[15:19:50]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:127:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: You assume it is", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[15:19:59]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:132:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[15:20:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Starshearing-Tichondrius:133:CHANNEL:2|h|cff0070ddStarshearing|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00DejaVu|r|cffffffff>|r is recruiting for next raid teir. We are looking to push Mythic content as soon as it drops. We also welcome M+ runners at a minimum of 1k io. Raid times Fri/Sat 10pm EST. PST for more info ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				32, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[15:20:04]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Robbo-Tichondrius:134:CHANNEL:2|h|cff00ff96Robbo|r|h|cffd8d8d8]|r: Paying 5 mil for flag of ownership", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				69, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[15:20:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smokingherb-Tichondrius:136:CHANNEL:2|h|cffff7c0aSmokingherb|r|h|cffd8d8d8]|r: WTS +10-15s 8/8M 6.5k score in legion chance at 370 gear at the end and guaranteed 380 piece on tuesday. (Gold Only)", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				26, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[15:20:15]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fleyva-Tichondrius:137:CHANNEL:2|h|cff0070ddFleyva|r|h|cffd8d8d8]|r: LF someone that can carry me to 1800", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				72, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[15:20:17]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Woxzert-Tichondrius:138:CHANNEL:2|h|cff0070ddWoxzert|r|h|cffd8d8d8]|r: 30% down! |cffffffff<|r|cff00ff00www.gold4pve.com|r|cffffffff>|r Selling Cheap WOW Gold! Millions in stock! Selling M+10= $19.Heroic Uldir Run $39 (7 Gears guarantee). Selling cheap 350/360/370 class set for ALT TOON, Selling Herbs/trade goods.Big Coupon code:Black05", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				16, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[15:20:18]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:139:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: i mean im looking at a dictionary made in 2005 that says its synonomous with one another", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[15:20:23]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fleyva-Tichondrius:141:CHANNEL:2|h|cff0070ddFleyva|r|h|cffd8d8d8]|r: LF someone that can carry me to 1800", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				72, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[15:20:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:145:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: Cool and 2005 is not 2019", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[15:20:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:146:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[15:20:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:147:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[15:20:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thellos-Tichondrius:148:CHANNEL:2|h|cfff48cbaThellos|r|h|cffd8d8d8]|r: |cffffffff|Hurl:https://www.twitch.tv/krovektv|h[https://www.twitch.tv/krovektv]|h|r Krovek - Down 130LBS ll The Great Debate (Choosing an Alt) ll Leveling And Maybe PvP After? ll Come chat and hang out! <3", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				75, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[15:20:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xixahotez-Tichondrius:150:CHANNEL:2|h|cffc69b6dXixahotez|r|h|cffd8d8d8]|r: [WTS] Uldir Heroic Boost Tonight! Get TONS of ilvl 370+ gear, weapons & curve achieve. Choose between up to 12 Guild runs every day. Over 4788 Trustpilot reviews. Visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				9, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[15:20:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Syosarche-Tichondrius:151:CHANNEL:2|h|cff8787edSyosarche|r|h|cffd8d8d8]|r: [WTS] |cffffffff<|r|cff00ff00< Uldir Heroic and Mythic Runs >> << G'huun Kill >> << Ahead of the Curve >> << Mythic+ Runs >|r|cffffffff>|r. Smooth and Easy Guild runs.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				44, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[15:20:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spindral-Tichondrius:152:CHANNEL:2|h|cffc41e3aSpindral|r|h|cffd8d8d8]|r: is truthiness in the 2005 edition?", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				77, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[15:20:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fleyva-Tichondrius:153:CHANNEL:2|h|cff0070ddFleyva|r|h|cffd8d8d8]|r: LF someone that can carry me to 1800", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				72, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[15:21:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:154:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: so youre telling me millinials assumed it was different and are trying to change the definitions?", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[15:21:07]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brokenfang-Tichondrius:156:CHANNEL:2|h|cff0070ddBrokenfang|r|h|cffd8d8d8]|r: The idea of gender has changed since then.  But there are still only two sexes, because its literally do you have Ovaries or not.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				62, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[15:21:24]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smokingherb-Tichondrius:157:CHANNEL:2|h|cffff7c0aSmokingherb|r|h|cffd8d8d8]|r: WTS +10-15s 8/8M 6.5k score in legion chance at 370 gear at the end and guaranteed 380 piece on tuesday. (Gold Only)", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				26, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[15:21:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:158:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[15:21:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stormyxv-Tichondrius:160:CHANNEL:2|h|cffc69b6dStormyxv|r|h|cffd8d8d8]|r: WILL TRADE |cffa335ee|Hitem:52253::::::::120:71::11::::|h[Sylvanas' Music Box]|h|r|cffa335ee|Hitem:52251::::::::120:71::11::::|h[Jaina's Locket]|h|r|cffa335ee|Hitem:52252::::::::120:71::11::::|h[Tabard of the Lightbringer]|h|r|cffa335ee|Hitem:52201::::::::120:71::11::::|h[Muradin's Favor]|h|r FOR SPECTRAL TIGER CUB ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				41, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[15:21:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Myrothon-Tichondrius:162:CHANNEL:2|h|cff3fc6eaMyrothon|r|h|cffd8d8d8]|r: LKF DH TANK FOR RATED BGS ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				79, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[15:21:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Finderzbadez-Tichondrius:163:CHANNEL:2|h|cff00ff96Finderzbadez|r|h|cffd8d8d8]|r: we too busy with debt and endless wars with china having mfg base to care about genders.  that is next one i think ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				65, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[15:21:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sadrith-Tichondrius:164:CHANNEL:2|h|cff3fc6eaSadrith|r|h|cffd8d8d8]|r: men have testicals that derived from ovaries... same thing i assume? so i guess theyre nott different afterall", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				28, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[15:21:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Woxzert-Tichondrius:165:CHANNEL:2|h|cff0070ddWoxzert|r|h|cffd8d8d8]|r: 30% down! |cffffffff<|r|cff00ff00www.gold4pve.com|r|cffffffff>|r Selling Cheap WOW Gold! Millions in stock! Selling M+10= $19.Heroic Uldir Run $39 (7 Gears guarantee). Selling cheap 350/360/370 class set for ALT TOON, Selling Herbs/trade goods.Big Coupon code:Black05", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				16, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[15:21:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xixahotez-Tichondrius:168:CHANNEL:2|h|cffc69b6dXixahotez|r|h|cffd8d8d8]|r: [WTS] Fast Mythic+ runs, +7/+8/+9/+10 key CARRY. You will get ilvl 360-385+ Gear, Titan Residuum & tons of Azerite. Start right now! Over 4788 Trustpilot reviews. Visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				9, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[15:21:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Folak-Tichondrius:169:CHANNEL:2|h|cffff7c0aFolak|r|h|cffd8d8d8]|r: [WTS] +10/+15 Mythic Key ULDIR Heroic/Mythic 8/8 Carry Run Come Get your 370-385+ BIS Gear!/w me for spot", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				46, -- [8]
-			}, -- [47]
-			{
-				"|cff979797[15:21:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Myrothon-Tichondrius:171:CHANNEL:2|h|cff3fc6eaMyrothon|r|h|cffd8d8d8]|r: LKF DH TANK FOR RATED BGS MUST HAVE BIG DICK ", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				8, -- [7]
-				79, -- [8]
-			}, -- [48]
-			{
-				"|cff979797[15:48:03]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Samoantiger-Tichondrius:245:LOOT|h|cffd8bc3f110|r:|cffff7c0aSamoantiger|r|h|cffd8d8d8]|r|cffff7c0aSamoantiger|r receives loot: |cffffffff|Hitem:21071::::::::110:64::::::|h[Raw Sagefish]|h|r.", -- [1]
-				0, -- [2]
-				0.666666686534882, -- [3]
-				0, -- [4]
-				28, -- [5]
-				false, -- [6]
-				96, -- [7]
-				97, -- [8]
-			}, -- [49]
-			{
-				"|cff979797[15:48:20]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Samoantiger-Tichondrius:246:LOOT|h|cffd8bc3f110|r:|cffff7c0aSamoantiger|r|h|cffd8d8d8]|r|cffff7c0aSamoantiger|r receives loot: |cffffffff|Hitem:21071::::::::110:64::::::|h[Raw Sagefish]|h|r.", -- [1]
-				0, -- [2]
-				0.666666686534882, -- [3]
-				0, -- [4]
-				28, -- [5]
-				false, -- [6]
-				96, -- [7]
-				97, -- [8]
-			}, -- [50]
-		},
-	},
+["scrollback"] = {
+["ChatFrame5"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame4"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 2,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:01]|h|r You gain 775 experience.",
+["serverTime"] = 1720736460,
+["r"] = 0.4352941513061523,
+["extraData"] = {
+34,
+50,
+51,
+["n"] = 3,
+},
+["timestamp"] = 412019.136,
+["g"] = 0.4352941513061523,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:41]|h|r |cff40ff40|Hpratfilter:605:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:605:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Imarogueduh-Tichondrius:605:CHANNEL:2|h|cfffff468Imarogueduh|r|h|cffd8d8d8]|r: LF |cffa335ee|Hitem:193000:6562:192964::::::70:259::13:8:8836:8840:8902:8780:9405:8794:9500:9498:8:28:2164:29:40:30:49:38:8:40:259:49:194575:50:206961:51:206959::::Player-11-0E28D598:|h[Ring-Bound Hourglass |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r|cffa335ee|Hitem:201759::192964:192964:192964::::70:259::13:11:8836:8840:8902:9477:8782:9405:8794:9500:8932:8960:9498:9:28:2164:29:49:30:36:38:8:40:834:47:194575:48:206961:50:193945:51:206959::::Player-11-0E5CD22E:|h[Torc of Passed Time |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r RECRAFT",
+["serverTime"] = 1720736740,
+["r"] = 0.9098039865493774,
+["extraData"] = {
+70,
+92,
+93,
+["n"] = 3,
+},
+["timestamp"] = 412298.489,
+["g"] = 0.6196078658103943,
+["b"] = 0.4745098352432251,
+},
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame3"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 1,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 411948.086,
+["g"] = 1,
+["b"] = 0,
+},
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame6"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame1"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 335,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Azeroth-BfA is deprecated and will not be available. Please remove the folder DBM-Azeroth-BfA from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Azeroth-BfA that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 411948.086,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-ZuldazarRaid is deprecated and will not be available. Please remove the folder DBM-ZuldazarRaid from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-ZuldazarRaid that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 411948.086,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-CrucibleofStorms is deprecated and will not be available. Please remove the folder DBM-CrucibleofStorms from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-CrucibleofStorms that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 411948.086,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Nyalotha is deprecated and will not be available. Please remove the folder DBM-Nyalotha from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Nyalotha that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 411948.086,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-EternalPalace is deprecated and will not be available. Please remove the folder DBM-EternalPalace from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-EternalPalace that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 411948.086,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Uldir is deprecated and will not be available. Please remove the folder DBM-Uldir from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Uldir that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 411948.086,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+["r"] = 1,
+["timestamp"] = 411948.086,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:17]|h|r ISBoxer: Loading Key Bindings...",
+["r"] = 1,
+["timestamp"] = 411948.086,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:17]|h|r ISBoxer: No WoW Macros loaded.",
+["r"] = 1,
+["timestamp"] = 411948.086,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r search frame made",
+["timestamp"] = 411994.037,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+["timestamp"] = 411994.037,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.2.4)|r:  hooked into Rematch",
+["timestamp"] = 411994.037,
+["serverTime"] = 1720736437,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r |cff33ff99DataStore_Garrisons|r: Samoantank has 500 uncollected resources",
+["timestamp"] = 411994.037,
+["serverTime"] = 1720736437,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.7.2|r. Type |cff888888/rab|r to configure settings.",
+["timestamp"] = 411994.037,
+["serverTime"] = 1720736437,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+["timestamp"] = 411994.037,
+["serverTime"] = 1720736437,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:38]|h|r |cFF00FF00GSE Configuration|r Dragonflight has changed how the /click command operates.  As a result all your macro stubs (found in /macro) have been updated to match the value of the CVar ActionButtonUseKeyDown.  This is a one off configuration change that needs to be done for each character.  You can change this configuration in GSE's Options.",
+["timestamp"] = 411994.037,
+["serverTime"] = 1720736437,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:44]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+["timestamp"] = 412001.816,
+["serverTime"] = 1720736443,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:45]|h|r |cff00FF00RemixEnsembleTracker|r: Initialized",
+["timestamp"] = 412001.816,
+["serverTime"] = 1720736444,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:46]|h|r Total time played: 45 |4day:days;, 10 |4hour:hours;, 1 |4minute:minutes;, 12 |4second:seconds;",
+["serverTime"] = 1720736445,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 412003.293,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:46]|h|r Time played this level: 0 |4day:days;, 4 |4hour:hours;, 13 |4minute:minutes;, 38 |4second:seconds;",
+["serverTime"] = 1720736445,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 412003.293,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:47]|h|r |cff33ff99Rematch_TSMPetValues|r: |cffff8888TradeSkillMaster not found!|r",
+["timestamp"] = 412004.285,
+["serverTime"] = 1720736446,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:47]|h|r |cffffaeaeDetails!:|r A new version has been installed: /details news    ",
+["timestamp"] = 412004.285,
+["serverTime"] = 1720736446,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:47]|h|r |cff40ff40|Hpratfilter:2:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:2:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:2:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736446,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412005.115,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:48]|h|r |cff40ff40|Hpratfilter:3:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:3:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:3:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736447,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412005.405,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:48]|h|r |cff40ff40|Hpratfilter:4:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:4:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:4:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736447,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412006.007,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:50]|h|r |cff40ff40|Hpratfilter:6:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:6:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:6:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736449,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412007.644,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:50]|h|r |cff40ff40|Hpratfilter:7:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:7:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:7:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736449,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412007.895,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:50]|h|r |cff40ff40|Hpratfilter:8:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:8:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:8:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736449,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412007.895,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:50]|h|r |cff40ff40|Hpratfilter:9:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:9:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:9:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736449,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412007.895,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:50]|h|r |cff40ff40|Hpratfilter:10:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:10:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hatsúne-Tichondrius:10:CHANNEL:5|h|cffa330c9Hatsúne|r|h|cffd8d8d8]|r: -WTS >> M+5 / M+10 / M+15 || ARMOR STACK || KEY SPECIFIC || DISCOUNT FOR MULTIPLE RUNS || TRADE ALL LOOT || AFK RUN || ONLY GOLD || DM ME || For more info",
+["serverTime"] = 1720736449,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+16,
+["n"] = 3,
+},
+["timestamp"] = 412007.895,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:52]|h|r |cff40ff40|Hpratfilter:12:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:12:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:12:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720736451,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412009.482,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:52]|h|r |cff40ff40|Hpratfilter:13:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:13:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Blakemedivhx-Tichondrius:13:CHANNEL:5|h|cffa330c9Blakemedivhx|r|h|cffd8d8d8]|r: WTS Mythic +2-17 Keys Timed / Specific Keys / ARMOR STACK / MULTIPLE RUNS DISCOUNTs [ 2 or more runs have Multiple Runs Discounts ] DOTI Normal / HARDMODE ... Pst for more info",
+["serverTime"] = 1720736451,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+20,
+["n"] = 3,
+},
+["timestamp"] = 412009.849,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:53]|h|r |cff40ff40|Hpratfilter:14:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:14:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Prmly-Tichondrius:14:CHANNEL:5|h|cff0070ddPrmly|r|h|cffd8d8d8]|r: ●● WTS POWER LEVELING [1-70] [60-70] -● 100% AFK - (Get your ALT's 70 ● Fast and Easy - Gold only)  ● - ● Both faction ● - 60-70 1h / 1-70 3h - 24/7 ●(team |cffffffff<|r|cff00ff00520|r|cffffffff>|r ilevel) ● 11M+ 1-10 / Specific Key / Armor stack/ Awakened Raids Hc/",
+["serverTime"] = 1720736452,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+22,
+["n"] = 3,
+},
+["timestamp"] = 412010.75,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:54]|h|r |cff40ff40|Hpratfilter:15:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:15:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:15:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736453,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412011.652,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:56]|h|r |cff40ff40|Hpratfilter:16:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:16:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:16:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736455,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412013.355,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:56]|h|r |cff40ff40|Hpratfilter:17:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:17:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:17:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736455,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412013.355,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:56]|h|r |cff40ff40|Hpratfilter:18:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:18:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:18:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736455,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412013.355,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:57]|h|r |cff40ff40|Hpratfilter:19:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:19:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:19:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736456,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412014.458,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:57]|h|r |cff40ff40|Hpratfilter:20:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:20:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:20:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736456,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412014.759,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:57]|h|r |cff40ff40|Hpratfilter:21:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:21:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:21:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736456,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412014.759,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:57]|h|r |cff40ff40|Hpratfilter:22:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:22:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:22:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736456,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412015.143,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:58]|h|r |cff40ff40|Hpratfilter:23:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:23:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:23:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736457,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412015.456,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:20:58]|h|r |cff40ff40|Hpratfilter:24:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:24:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:24:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736457,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412016.058,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:00]|h|r |cff40ff40|Hpratfilter:25:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:25:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:25:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736459,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412017.296,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:00]|h|r |cff40ff40|Hpratfilter:26:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:26:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:26:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736459,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412018.199,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:01]|h|r |cff40ff40|Hpratfilter:27:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:27:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:27:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736460,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412018.568,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:01]|h|r |cff40ff40|Hpratfilter:29:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:29:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:29:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736460,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412019.149,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:01]|h|r Adventurers Wanted: Chromie's Call completed.",
+["serverTime"] = 1720736460,
+["r"] = 1,
+["extraData"] = {
+1,
+54,
+55,
+["n"] = 3,
+},
+["timestamp"] = 412019.149,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:01]|h|r Experience gained: 775.",
+["serverTime"] = 1720736460,
+["r"] = 1,
+["extraData"] = {
+1,
+54,
+55,
+["n"] = 3,
+},
+["timestamp"] = 412019.149,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:01]|h|r Received 2 Gold, 2 Silver, 20 Copper.",
+["serverTime"] = 1720736460,
+["r"] = 1,
+["extraData"] = {
+1,
+54,
+55,
+["n"] = 3,
+},
+["timestamp"] = 412019.149,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:03]|h|r |cff40ff40|Hpratfilter:33:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:33:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Draenory-Tichondrius:33:CHANNEL:5|h|cffc41e3aDraenory|r|h|cffd8d8d8]|r: >> CHEAPEST |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r 9/9 full heroic 140k // Fyrakk only 50k //  2 last boss 65k // 9/9 full normal  50k //vip runs with prio /w for info paymenmt inside raid {PRICE MATCH] discounts",
+["serverTime"] = 1720736462,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+56,
+["n"] = 3,
+},
+["timestamp"] = 412020.567,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:03]|h|r |cff40ff40|Hpratfilter:34:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:34:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:34:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736462,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412020.567,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:04]|h|r |cff40ff40|Hpratfilter:35:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:35:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:35:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736463,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412021.569,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:04]|h|r |cff40ff40|Hpratfilter:36:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:36:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:36:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736463,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412021.569,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:04]|h|r |cff40ff40|Hpratfilter:38:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:38:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:38:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736463,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412022.154,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:06]|h|r |cff40ff40|Hpratfilter:40:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:40:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Holyraid-Tichondrius:40:CHANNEL:5|h|cffc41e3aHolyraid|r|h|cffd8d8d8]|r: WTS Mythic +2 to 16 |cffffffff<|r|cff00ff00> Specific Key , Free Armor Stack, Timed Runs <|r|cffffffff>|r BULK DISCOUNT x2,x4,x8  |cffffffff<|r|cff00ff00> DoTi Unsaved Hard Mode <|r|cffffffff>|rTrade LooT |cffffffff<|r|cff00ff00> PLvl 1-70 <|r|cffffffff>|r Also AWAKENED raids Heroic&Normal&Vip <> Mop Remix Heroic/Mythic raids available Only Gold. /w",
+["serverTime"] = 1720736465,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+66,
+["n"] = 3,
+},
+["timestamp"] = 412023.474,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:08]|h|r |cff40ff40|Hpratfilter:45:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:45:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:45:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736467,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412025.345,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:08]|h|r |cff40ff40|Hpratfilter:47:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:47:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:47:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720736467,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412025.878,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:09]|h|r |cff40ff40|Hpratfilter:48:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:48:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hmc-Tichondrius:48:CHANNEL:5|h|cff00ff98Hmc|r|h|cffd8d8d8]|r: =WTS= Mythic +15 to +10 || +8 || +6 || +5 || +2 || +0 Timed / Armor Stack / Special Keys / Can AFK / Discount on Multiple run / Power Leveling 1-70 / |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r / DM For price or any question <3",
+["serverTime"] = 1720736468,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+72,
+["n"] = 3,
+},
+["timestamp"] = 412026.263,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:09]|h|r |cff40ff40|Hpratfilter:49:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:49:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:49:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736468,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412026.579,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:11]|h|r |cff40ff40|Hpratfilter:50:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:50:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:50:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736470,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412028.551,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:13]|h|r |cff40ff40|Hpratfilter:53:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:53:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rangmal-Tichondrius:53:CHANNEL:5|h|cffc41e3aRangmal|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -   (You Can AFK +0 to +10 )Armor Stacking ( as u want )  Any Specific Key Pump  Groups Ready to start Discounts on  Multi runs  x4 x6  x8 We offer Cheapest prices DM For { usd only",
+["serverTime"] = 1720736472,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+76,
+["n"] = 3,
+},
+["timestamp"] = 412030.421,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:15]|h|r |cff40ff40|Hpratfilter:58:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:58:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Khadee-Tichondrius:58:CHANNEL:5|h|cffc41e3aKhadee|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r Heroic Unsaved 230k, Heroic saved 160k, Normal 80k. Heroic Fyrakk 80k, Mythic Fyrakk || Pandaria REMIX (H) raids & Mythic SoO || M+6 to +15 || Powerleveling 1-70 ||",
+["serverTime"] = 1720736474,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+78,
+["n"] = 3,
+},
+["timestamp"] = 412032.392,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:16]|h|r |cff40ff40|Hpratfilter:62:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:62:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:62:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736475,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412033.764,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:20]|h|r |cff40ff40|Hpratfilter:70:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:70:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tiraldora-Tichondrius:70:CHANNEL:5|h|cff3fc7ebTiraldora|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -(You Can AFK +0 to +10)Armor Stacking( as u want )Any Specific KeyGroups Ready to start Discounts on Multi runs x4x6x8 >>DAWN OF INFINITE«< hardmode // easy mode Dm for price ( Gold Only )",
+["serverTime"] = 1720736479,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+80,
+["n"] = 3,
+},
+["timestamp"] = 412037.639,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:20]|h|r |cff40ff40|Hpratfilter:72:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:72:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Bianiam-Tichondrius:72:CHANNEL:5|h|cffaad372Bianiam|r|h|cffd8d8d8]|r: »WTS<< (BEST PRICES)  +Mythic +0/+1/+2/+3/+4/+5/+6/+7/+8/+9/+10/+11/+12/+13/+14/+15RUNS TIMED /ARMOR STACK/Big Discount ON Bundles x4-x6-X8, Mega dung saved / Un saved TEAM READY GOLD ONLYI",
+["serverTime"] = 1720736479,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+82,
+["n"] = 3,
+},
+["timestamp"] = 412038.19,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:22]|h|r |cff40ff40|Hpratfilter:77:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:77:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:77:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736481,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412040.16,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:25]|h|r |cff40ff40|Hpratfilter:84:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:84:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kelshya-Tichondrius:84:CHANNEL:5|h|cff3fc7ebKelshya|r|h|cffd8d8d8]|r: WTS  //Mythic Dungeon//M+2 M+3;M+4m+5 m+10//  World Tour  //only Gold // special offer for multiple run",
+["serverTime"] = 1720736484,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+84,
+["n"] = 3,
+},
+["timestamp"] = 412043.234,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:28]|h|r |cff40ff40|Hpratfilter:85:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:85:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Starkgirl-Tichondrius:85:CHANNEL:5|h|cff3fc7ebStarkgirl|r|h|cffd8d8d8]|r: WTS >>WE SELL MYTHIC PLUS RUNS & MEGA DUNGEON |cffffffff<|r|cff00ff00< M+(1 - 16) for New Season) <<< Timed - You Can AFK -Pumper Groups Ready Start Free Armor Stack -Any  Specific keys - KSM&KSH - Discounts For Multiply Runs ( x2 or more )- Gold Only <DM|r|cffffffff>|r to Check Prices",
+["serverTime"] = 1720736487,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+86,
+["n"] = 3,
+},
+["timestamp"] = 412045.588,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:29]|h|r |cff40ff40|Hpratfilter:88:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:88:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:88:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736488,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412046.875,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:37]|h|r |cff40ff40|Hpratfilter:104:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:104:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:104:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736496,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412054.785,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:21:38]|h|r |cff40ff40|Hpratfilter:105:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:105:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:105:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736497,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412055.471,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:22:11]|h|r |cff40ff40|Hpratfilter:172:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:172:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Seahawkk-Tichondrius:172:CHANNEL:5|h|cffa330c9Seahawkk|r|h|cffd8d8d8]|r: WTS M+2 - M+4 - M+6 - M+8 - M+10 || DISCOUNT FOR 2 KEYS OR MORE|| Only Gold || FULL AFK ||TIMED/UNTIMED || Power Level Service 1 - 70 || Cheapest Price || GOLD ONLY uwu",
+["serverTime"] = 1720736530,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+88,
+["n"] = 3,
+},
+["timestamp"] = 412088.619,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:22:56]|h|r |cff40ff40|Hpratfilter:257:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:257:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:257:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736575,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412134.113,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:22:59]|h|r |cff40ff40|Hpratfilter:260:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:260:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:260:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736578,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412136.415,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:22:59]|h|r |cff40ff40|Hpratfilter:261:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:261:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:261:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736578,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412136.415,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:00]|h|r |cff40ff40|Hpratfilter:262:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:262:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:262:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736579,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412137.918,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:00]|h|r |cff40ff40|Hpratfilter:263:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:263:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:263:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736579,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412137.918,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:01]|h|r |cff40ff40|Hpratfilter:264:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:264:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:264:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736580,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412138.587,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:01]|h|r |cff40ff40|Hpratfilter:265:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:265:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:265:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736580,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412138.587,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:06]|h|r |cff40ff40|Hpratfilter:268:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:268:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:268:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736585,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412143.245,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:06]|h|r |cff40ff40|Hpratfilter:269:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:269:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:269:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736585,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412143.63,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:07]|h|r |cff40ff40|Hpratfilter:270:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:270:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:270:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736586,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412144.515,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:07]|h|r |cff40ff40|Hpratfilter:271:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:271:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:271:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736586,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412144.515,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:07]|h|r |cff40ff40|Hpratfilter:273:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:273:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:273:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736586,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412145.036,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:08]|h|r |cff40ff40|Hpratfilter:274:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:274:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:274:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736587,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412145.984,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:10]|h|r |cff40ff40|Hpratfilter:279:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:279:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:279:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736589,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412147.371,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:12]|h|r |cff40ff40|Hpratfilter:282:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:282:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:282:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736591,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412149.424,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:12]|h|r |cff40ff40|Hpratfilter:283:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:283:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:283:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736591,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412149.424,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:12]|h|r |cff40ff40|Hpratfilter:284:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:284:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:284:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736591,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412150.226,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:12]|h|r |cff40ff40|Hpratfilter:285:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:285:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:285:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736591,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412150.226,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:13]|h|r |cff40ff40|Hpratfilter:286:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:286:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Holyraid-Tichondrius:286:CHANNEL:5|h|cffc41e3aHolyraid|r|h|cffd8d8d8]|r: WTS Mythic +2 to 16 |cffffffff<|r|cff00ff00> Specific Key , Free Armor Stack, Timed Runs <|r|cffffffff>|r BULK DISCOUNT x2,x4,x8  |cffffffff<|r|cff00ff00> DoTi Unsaved Hard Mode <|r|cffffffff>|rTrade LooT |cffffffff<|r|cff00ff00> PLvl 1-70 <|r|cffffffff>|r Also AWAKENED raids Heroic&Normal&Vip <> Mop Remix Heroic/Mythic raids available Only Gold. /w",
+["serverTime"] = 1720736592,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+66,
+["n"] = 3,
+},
+["timestamp"] = 412150.677,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:13]|h|r |cff40ff40|Hpratfilter:287:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:287:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:287:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736592,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412150.677,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:13]|h|r |cff40ff40|Hpratfilter:288:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:288:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:288:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736592,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412150.961,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:14]|h|r |cff40ff40|Hpratfilter:290:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:290:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:290:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736593,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412151.93,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:15]|h|r |cff40ff40|Hpratfilter:291:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:291:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:291:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736594,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412153.098,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:16]|h|r |cff40ff40|Hpratfilter:292:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:292:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Khadee-Tichondrius:292:CHANNEL:5|h|cffc41e3aKhadee|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r Heroic Unsaved 230k, Heroic saved 160k, Normal 80k. Heroic Fyrakk 80k, Mythic Fyrakk || Pandaria REMIX (H) raids & Mythic SoO || M+6 to +15 || Powerleveling 1-70 ||",
+["serverTime"] = 1720736595,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+78,
+["n"] = 3,
+},
+["timestamp"] = 412153.316,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:16]|h|r |cff40ff40|Hpratfilter:293:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:293:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:293:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736595,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412153.316,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:16]|h|r |cff40ff40|Hpratfilter:294:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:294:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:294:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736595,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412153.533,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:17]|h|r |cff40ff40|Hpratfilter:295:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:295:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:295:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736596,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412154.435,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:17]|h|r |cff40ff40|Hpratfilter:296:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:296:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Blakemedivhx-Tichondrius:296:CHANNEL:5|h|cffa330c9Blakemedivhx|r|h|cffd8d8d8]|r: WTS Mythic +2-17 Keys Timed / Specific Keys / ARMOR STACK / MULTIPLE RUNS DISCOUNTs [ 2 or more runs have Multiple Runs Discounts ] DOTI Normal / HARDMODE ... Pst for more info",
+["serverTime"] = 1720736596,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+20,
+["n"] = 3,
+},
+["timestamp"] = 412154.936,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:17]|h|r |cff40ff40|Hpratfilter:297:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:297:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:297:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720736596,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412154.936,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:17]|h|r |cff40ff40|Hpratfilter:298:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:298:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:298:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736596,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412154.936,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:18]|h|r |cff40ff40|Hpratfilter:299:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:299:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:299:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736597,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412155.487,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:19]|h|r |cff40ff40|Hpratfilter:300:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:300:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:300:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736598,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412157.224,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:20]|h|r |cff40ff40|Hpratfilter:301:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:301:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:301:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736599,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412157.625,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:21]|h|r |cff40ff40|Hpratfilter:302:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:302:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:302:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736600,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412158.894,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:22]|h|r |cff40ff40|Hpratfilter:303:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:303:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:303:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736601,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412159.746,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:22]|h|r |cff40ff40|Hpratfilter:304:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:304:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:304:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736601,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412159.863,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:24]|h|r |cff40ff40|Hpratfilter:305:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:305:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:305:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736603,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412161.433,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:24]|h|r |cff40ff40|Hpratfilter:306:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:306:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:306:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736603,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412161.433,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:24]|h|r |cff40ff40|Hpratfilter:307:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:307:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:307:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736603,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412161.767,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:25]|h|r |cff40ff40|Hpratfilter:309:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:309:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:309:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736604,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412163.186,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:26]|h|r |cff40ff40|Hpratfilter:310:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:310:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hmc-Tichondrius:310:CHANNEL:5|h|cff00ff98Hmc|r|h|cffd8d8d8]|r: =WTS= Mythic +15 to +10 || +8 || +6 || +5 || +2 || +0 Timed / Armor Stack / Special Keys / Can AFK / Discount on Multiple run / Power Leveling 1-70 / |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r / DM For price or any question <3",
+["serverTime"] = 1720736605,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+72,
+["n"] = 3,
+},
+["timestamp"] = 412163.62,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:27]|h|r |cff40ff40|Hpratfilter:312:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:312:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:312:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736606,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412164.404,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:28]|h|r |cff40ff40|Hpratfilter:313:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:313:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:313:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736607,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412165.891,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:28]|h|r |cff40ff40|Hpratfilter:314:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:314:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:314:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736607,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412165.891,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:29]|h|r |cff40ff40|Hpratfilter:315:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:315:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:315:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736608,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412166.976,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:30]|h|r |cff40ff40|Hpratfilter:317:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:317:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:317:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736609,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412167.377,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:31]|h|r |cff40ff40|Hpratfilter:318:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:318:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:318:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736610,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412168.262,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:31]|h|r |cff40ff40|Hpratfilter:319:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:319:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:319:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736610,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412168.262,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:31]|h|r |cff40ff40|Hpratfilter:320:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:320:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:320:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736610,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412168.58,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:33]|h|r |cff40ff40|Hpratfilter:322:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:322:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:322:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720736612,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412168.913,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:36]|h|r |cff40ff40|Hpratfilter:327:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:327:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:327:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736615,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412173.573,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:36]|h|r |cff40ff40|Hpratfilter:330:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:330:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Holyraid-Tichondrius:330:CHANNEL:5|h|cffc41e3aHolyraid|r|h|cffd8d8d8]|r: WTS Mythic +2 to 16 |cffffffff<|r|cff00ff00> Specific Key , Free Armor Stack, Timed Runs <|r|cffffffff>|r BULK DISCOUNT x2,x4,x8  |cffffffff<|r|cff00ff00> DoTi Unsaved Hard Mode <|r|cffffffff>|rTrade LooT |cffffffff<|r|cff00ff00> PLvl 1-70 <|r|cffffffff>|r Also AWAKENED raids Heroic&Normal&Vip <> Mop Remix Heroic/Mythic raids available Only Gold. /w",
+["serverTime"] = 1720736615,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+66,
+["n"] = 3,
+},
+["timestamp"] = 412174.224,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:38]|h|r |cff40ff40|Hpratfilter:333:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:333:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:333:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736617,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412175.376,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:38]|h|r |cff40ff40|Hpratfilter:335:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:335:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:335:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736617,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412175.793,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:44]|h|r |cff40ff40|Hpratfilter:339:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:339:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:339:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736623,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412181.722,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:45]|h|r |cff40ff40|Hpratfilter:342:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:342:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Starkgirl-Tichondrius:342:CHANNEL:5|h|cff3fc7ebStarkgirl|r|h|cffd8d8d8]|r: WTS >>WE SELL MYTHIC PLUS RUNS & MEGA DUNGEON |cffffffff<|r|cff00ff00< M+(1 - 16) for New Season) <<< Timed - You Can AFK -Pumper Groups Ready Start Free Armor Stack -Any  Specific keys - KSM&KSH - Discounts For Multiply Runs ( x2 or more )- Gold Only <DM|r|cffffffff>|r to Check Prices",
+["serverTime"] = 1720736624,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+86,
+["n"] = 3,
+},
+["timestamp"] = 412183.142,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:45]|h|r |cff40ff40|Hpratfilter:343:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:343:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Starkgirl-Tichondrius:343:CHANNEL:5|h|cff3fc7ebStarkgirl|r|h|cffd8d8d8]|r: WTS >>WE SELL MYTHIC PLUS RUNS & MEGA DUNGEON |cffffffff<|r|cff00ff00< M+(1 - 16) for New Season) <<< Timed - You Can AFK -Pumper Groups Ready Start Free Armor Stack -Any  Specific keys - KSM&KSH - Discounts For Multiply Runs ( x2 or more )- Gold Only <DM|r|cffffffff>|r to Check Prices",
+["serverTime"] = 1720736624,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+86,
+["n"] = 3,
+},
+["timestamp"] = 412183.142,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:45]|h|r |cff40ff40|Hpratfilter:344:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:344:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rangmal-Tichondrius:344:CHANNEL:5|h|cffc41e3aRangmal|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -   (You Can AFK +0 to +10 )Armor Stacking ( as u want )  Any Specific Key Pump  Groups Ready to start Discounts on  Multi runs  x4 x6  x8 We offer Cheapest prices DM For { usd only",
+["serverTime"] = 1720736624,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+76,
+["n"] = 3,
+},
+["timestamp"] = 412183.142,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:46]|h|r |cff40ff40|Hpratfilter:345:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:345:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kelshya-Tichondrius:345:CHANNEL:5|h|cff3fc7ebKelshya|r|h|cffd8d8d8]|r: WTS  //Mythic Dungeon//M+2 M+3;M+4m+5 m+10//  World Tour  //only Gold // special offer for multiple run",
+["serverTime"] = 1720736625,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+84,
+["n"] = 3,
+},
+["timestamp"] = 412183.359,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:46]|h|r |cff40ff40|Hpratfilter:346:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:346:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rangmal-Tichondrius:346:CHANNEL:5|h|cffc41e3aRangmal|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -   (You Can AFK +0 to +10 )Armor Stacking ( as u want )  Any Specific Key Pump  Groups Ready to start Discounts on  Multi runs  x4 x6  x8 We offer Cheapest prices DM For { usd only",
+["serverTime"] = 1720736625,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+76,
+["n"] = 3,
+},
+["timestamp"] = 412183.359,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:47]|h|r |cff40ff40|Hpratfilter:349:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:349:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kelshya-Tichondrius:349:CHANNEL:5|h|cff3fc7ebKelshya|r|h|cffd8d8d8]|r: WTS  //Mythic Dungeon//M+2 M+3;M+4m+5 m+10//  World Tour  //only Gold // special offer for multiple run",
+["serverTime"] = 1720736626,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+84,
+["n"] = 3,
+},
+["timestamp"] = 412184.645,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:47]|h|r |cff40ff40|Hpratfilter:351:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:351:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:351:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736626,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412184.912,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:48]|h|r |cff40ff40|Hpratfilter:353:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:353:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:353:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736627,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412185.413,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:51]|h|r |cff40ff40|Hpratfilter:359:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:359:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hmc-Tichondrius:359:CHANNEL:5|h|cff00ff98Hmc|r|h|cffd8d8d8]|r: =WTS= Mythic +15 to +10 || +8 || +6 || +5 || +2 || +0 Timed / Armor Stack / Special Keys / Can AFK / Discount on Multiple run / Power Leveling 1-70 / |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r / DM For price or any question <3",
+["serverTime"] = 1720736630,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+72,
+["n"] = 3,
+},
+["timestamp"] = 412188.503,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:54]|h|r |cff40ff40|Hpratfilter:363:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:363:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:363:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736633,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412191.33,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:54]|h|r |cff40ff40|Hpratfilter:364:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:364:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:364:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720736633,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412191.33,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:23:54]|h|r |cff40ff40|Hpratfilter:369:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:369:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Khadee-Tichondrius:369:CHANNEL:5|h|cffc41e3aKhadee|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r Heroic Unsaved 230k, Heroic saved 160k, Normal 80k. Heroic Fyrakk 80k, Mythic Fyrakk || Pandaria REMIX (H) raids & Mythic SoO || M+6 to +15 || Powerleveling 1-70 ||",
+["serverTime"] = 1720736633,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+78,
+["n"] = 3,
+},
+["timestamp"] = 412191.93,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:00]|h|r |cff40ff40|Hpratfilter:379:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:379:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tiraldora-Tichondrius:379:CHANNEL:5|h|cff3fc7ebTiraldora|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -(You Can AFK +0 to +10)Armor Stacking( as u want )Any Specific KeyGroups Ready to start Discounts on Multi runs x4x6x8 >>DAWN OF INFINITE«< hardmode // easy mode Dm for price ( Gold Only )",
+["serverTime"] = 1720736639,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+80,
+["n"] = 3,
+},
+["timestamp"] = 412197.988,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:00]|h|r |cff40ff40|Hpratfilter:380:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:380:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tiraldora-Tichondrius:380:CHANNEL:5|h|cff3fc7ebTiraldora|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -(You Can AFK +0 to +10)Armor Stacking( as u want )Any Specific KeyGroups Ready to start Discounts on Multi runs x4x6x8 >>DAWN OF INFINITE«< hardmode // easy mode Dm for price ( Gold Only )",
+["serverTime"] = 1720736639,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+80,
+["n"] = 3,
+},
+["timestamp"] = 412197.988,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:01]|h|r |cff40ff40|Hpratfilter:381:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:381:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Bianiam-Tichondrius:381:CHANNEL:5|h|cffaad372Bianiam|r|h|cffd8d8d8]|r: »WTS<< (BEST PRICES)  +Mythic +0/+1/+2/+3/+4/+5/+6/+7/+8/+9/+10/+11/+12/+13/+14/+15RUNS TIMED /ARMOR STACK/Big Discount ON Bundles x4-x6-X8, Mega dung saved / Un saved TEAM READY GOLD ONLYI",
+["serverTime"] = 1720736640,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+82,
+["n"] = 3,
+},
+["timestamp"] = 412198.756,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:01]|h|r |cff40ff40|Hpratfilter:382:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:382:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Bianiam-Tichondrius:382:CHANNEL:5|h|cffaad372Bianiam|r|h|cffd8d8d8]|r: »WTS<< (BEST PRICES)  +Mythic +0/+1/+2/+3/+4/+5/+6/+7/+8/+9/+10/+11/+12/+13/+14/+15RUNS TIMED /ARMOR STACK/Big Discount ON Bundles x4-x6-X8, Mega dung saved / Un saved TEAM READY GOLD ONLYI",
+["serverTime"] = 1720736640,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+82,
+["n"] = 3,
+},
+["timestamp"] = 412198.756,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:03]|h|r |cff40ff40|Hpratfilter:386:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:386:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hatsúne-Tichondrius:386:CHANNEL:5|h|cffa330c9Hatsúne|r|h|cffd8d8d8]|r: -WTS >> M+5 / M+10 / M+15 || ARMOR STACK || KEY SPECIFIC || DISCOUNT FOR MULTIPLE RUNS || TRADE ALL LOOT || AFK RUN || ONLY GOLD || DM ME || For more info",
+["serverTime"] = 1720736642,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+16,
+["n"] = 3,
+},
+["timestamp"] = 412200.56,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:03]|h|r |cff40ff40|Hpratfilter:387:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:387:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hatsúne-Tichondrius:387:CHANNEL:5|h|cffa330c9Hatsúne|r|h|cffd8d8d8]|r: -WTS >> M+5 / M+10 / M+15 || ARMOR STACK || KEY SPECIFIC || DISCOUNT FOR MULTIPLE RUNS || TRADE ALL LOOT || AFK RUN || ONLY GOLD || DM ME || For more info",
+["serverTime"] = 1720736642,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+16,
+["n"] = 3,
+},
+["timestamp"] = 412200.782,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:05]|h|r |cff40ff40|Hpratfilter:394:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:394:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:394:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736644,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412202.53,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:06]|h|r |cff40ff40|Hpratfilter:397:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:397:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:397:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736645,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412203.549,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:10]|h|r |cff40ff40|Hpratfilter:404:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:404:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:404:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720736649,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412207.507,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:14]|h|r |cff40ff40|Hpratfilter:415:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:415:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:415:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736653,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412211.248,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:24]|h|r |cff40ff40|Hpratfilter:433:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:433:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:433:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736663,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412221.318,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:24]|h|r |cff40ff40|Hpratfilter:436:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:436:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:436:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736663,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412222.153,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:35]|h|r |cff40ff40|Hpratfilter:460:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:460:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:460:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736674,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412232.608,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:39]|h|r |cff40ff40|Hpratfilter:470:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:470:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Seahawkk-Tichondrius:470:CHANNEL:5|h|cffa330c9Seahawkk|r|h|cffd8d8d8]|r: WTS M+2 - M+4 - M+6 - M+8 - M+10 || DISCOUNT FOR 2 KEYS OR MORE|| Only Gold || FULL AFK ||TIMED/UNTIMED || Power Level Service 1 - 70 || Cheapest Price || GOLD ONLY uwu",
+["serverTime"] = 1720736678,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+88,
+["n"] = 3,
+},
+["timestamp"] = 412236.966,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:39]|h|r |cff40ff40|Hpratfilter:471:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:471:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Seahawkk-Tichondrius:471:CHANNEL:5|h|cffa330c9Seahawkk|r|h|cffd8d8d8]|r: WTS M+2 - M+4 - M+6 - M+8 - M+10 || DISCOUNT FOR 2 KEYS OR MORE|| Only Gold || FULL AFK ||TIMED/UNTIMED || Power Level Service 1 - 70 || Cheapest Price || GOLD ONLY uwu",
+["serverTime"] = 1720736678,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+88,
+["n"] = 3,
+},
+["timestamp"] = 412236.966,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:44]|h|r |cff40ff40|Hpratfilter:484:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:484:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:484:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736683,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412241.809,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:46]|h|r |cff40ff40|Hpratfilter:490:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:490:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Blakemedivhx-Tichondrius:490:CHANNEL:5|h|cffa330c9Blakemedivhx|r|h|cffd8d8d8]|r: WTS Mythic +2-17 Keys Timed / Specific Keys / ARMOR STACK / MULTIPLE RUNS DISCOUNTs [ 2 or more runs have Multiple Runs Discounts ] DOTI Normal / HARDMODE ... Pst for more info",
+["serverTime"] = 1720736685,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+20,
+["n"] = 3,
+},
+["timestamp"] = 412244.231,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:47]|h|r |cff40ff40|Hpratfilter:493:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:493:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:493:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736686,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412245.032,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:24:53]|h|r |cff40ff40|Hpratfilter:500:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:500:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:500:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736692,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412250.327,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:02]|h|r |cff40ff40|Hpratfilter:526:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:526:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:526:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736701,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412259.963,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:05]|h|r |cff40ff40|Hpratfilter:530:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:530:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:530:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736704,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412262.701,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:11]|h|r |cff40ff40|Hpratfilter:545:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:545:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:545:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736710,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412269.232,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:18]|h|r |cff40ff40|Hpratfilter:567:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:567:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:567:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736717,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412275.777,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:18]|h|r |cff40ff40|Hpratfilter:568:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:568:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:568:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736717,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412276.011,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:22]|h|r |cff40ff40|Hpratfilter:573:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:573:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:573:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736721,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412279.919,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:23]|h|r |cff40ff40|Hpratfilter:574:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:574:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:574:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736722,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412281.071,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:25]|h|r |cff40ff40|Hpratfilter:577:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:577:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:577:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736724,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412282.841,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:26]|h|r |cff40ff40|Hpratfilter:578:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:578:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:578:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736725,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412283.56,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:27]|h|r |cff40ff40|Hpratfilter:579:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:579:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:579:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736726,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412285.046,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:28]|h|r |cff40ff40|Hpratfilter:580:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:580:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:580:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736727,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412285.713,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:29]|h|r |cff40ff40|Hpratfilter:581:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:581:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:581:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736728,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412286.382,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:29]|h|r |cff40ff40|Hpratfilter:582:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:582:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:582:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736728,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412286.632,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:29]|h|r Patch says: Hey Zen'kala, did you get in the parts I asked for?",
+["serverTime"] = 1720736728,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412287.2,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:32]|h|r |cff40ff40|Hpratfilter:588:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:588:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:588:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736731,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412289.805,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:32]|h|r |cff40ff40|Hpratfilter:589:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:589:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:589:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736731,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412289.805,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:33]|h|r |cff40ff40|Hpratfilter:590:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:590:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:590:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736732,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412290.657,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:33]|h|r |cff40ff40|Hpratfilter:591:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:591:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:591:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736732,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412290.657,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:33]|h|r Zen'kala says: Hey Patch, these parts ya asked for are real hard to find. I could get something cheaper if ya like.",
+["serverTime"] = 1720736732,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412290.657,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:33]|h|r |cff40ff40|Hpratfilter:593:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:593:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:593:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736732,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412291.041,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:33]|h|r |cff40ff40|Hpratfilter:594:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:594:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:594:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736732,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412291.041,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:33]|h|r |cff40ff40|Hpratfilter:595:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:595:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:595:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736732,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412291.041,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:34]|h|r |cff40ff40|Hpratfilter:596:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:596:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:596:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736733,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412292.06,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:37]|h|r |cff40ff40|Hpratfilter:599:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:599:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:599:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736736,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412294.982,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:38]|h|r |cff40ff40|Hpratfilter:600:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:600:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:600:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736737,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412295.583,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:38]|h|r |cff40ff40|Hpratfilter:601:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:601:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:601:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736737,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412296.117,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:39]|h|r Patch says: Nah, we need these for A.F.M.O.D. Only the best parts for it.",
+["serverTime"] = 1720736738,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412296.685,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:41]|h|r |cff40ff40|Hpratfilter:605:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:605:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Imarogueduh-Tichondrius:605:CHANNEL:2|h|cfffff468Imarogueduh|r|h|cffd8d8d8]|r: LF |cffa335ee|Hitem:193000:6562:192964::::::70:259::13:8:8836:8840:8902:8780:9405:8794:9500:9498:8:28:2164:29:40:30:49:38:8:40:259:49:194575:50:206961:51:206959::::Player-11-0E28D598:|h[Ring-Bound Hourglass |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r|cffa335ee|Hitem:201759::192964:192964:192964::::70:259::13:11:8836:8840:8902:9477:8782:9405:8794:9500:8932:8960:9498:9:28:2164:29:49:30:36:38:8:40:834:47:194575:48:206961:50:193945:51:206959::::Player-11-0E5CD22E:|h[Torc of Passed Time |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r RECRAFT",
+["serverTime"] = 1720736740,
+["r"] = 0.9098039865493774,
+["extraData"] = {
+70,
+92,
+93,
+["n"] = 3,
+},
+["timestamp"] = 412298.489,
+["g"] = 0.6196078658103943,
+["b"] = 0.4745098352432251,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:41]|h|r |cff40ff40|Hpratfilter:606:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:606:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:606:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736740,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412298.99,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:42]|h|r |cff40ff40|Hpratfilter:607:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:607:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:607:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736741,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412299.508,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:42]|h|r |cff40ff40|Hpratfilter:608:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:608:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:608:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736741,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412300.176,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:43]|h|r Zen'kala says: Sorry mon, maybe come back after the next shipment?",
+["serverTime"] = 1720736742,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412300.727,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:43]|h|r |cff40ff40|Hpratfilter:611:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:611:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:611:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736742,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412301.045,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:44]|h|r |cff40ff40|Hpratfilter:613:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:613:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:613:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736743,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412301.746,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:44]|h|r |cff40ff40|Hpratfilter:614:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:614:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:614:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736743,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412301.962,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:44]|h|r |cff40ff40|Hpratfilter:615:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:615:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:615:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736743,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412301.962,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:44]|h|r |cff40ff40|Hpratfilter:616:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:616:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:616:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736743,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412302.213,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:46]|h|r |cff40ff40|Hpratfilter:617:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:617:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:617:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736745,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412303.483,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:47]|h|r Patch says: Next shipment you say? Need me to send Newt to the supplier to make sure they are giving you a good deal?",
+["serverTime"] = 1720736746,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412304.317,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:47]|h|r |cff40ff40|Hpratfilter:620:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:620:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:620:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736746,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412304.968,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:48]|h|r |cff40ff40|Hpratfilter:621:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:621:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Holyraid-Tichondrius:621:CHANNEL:5|h|cffc41e3aHolyraid|r|h|cffd8d8d8]|r: WTS Mythic +2 to 16 |cffffffff<|r|cff00ff00> Specific Key , Free Armor Stack, Timed Runs <|r|cffffffff>|r BULK DISCOUNT x2,x4,x8  |cffffffff<|r|cff00ff00> DoTi Unsaved Hard Mode <|r|cffffffff>|rTrade LooT |cffffffff<|r|cff00ff00> PLvl 1-70 <|r|cffffffff>|r Also AWAKENED raids Heroic&Normal&Vip <> Mop Remix Heroic/Mythic raids available Only Gold. /w",
+["serverTime"] = 1720736747,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+66,
+["n"] = 3,
+},
+["timestamp"] = 412305.347,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:48]|h|r |cff40ff40|Hpratfilter:622:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:622:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:622:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736747,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412305.738,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:48]|h|r |cff40ff40|Hpratfilter:623:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:623:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:623:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736747,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412305.738,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:48]|h|r |cff40ff40|Hpratfilter:624:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:624:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:624:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736747,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412306.238,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:48]|h|r |cff40ff40|Hpratfilter:625:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:625:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:625:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736747,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412306.238,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:50]|h|r |cff40ff40|Hpratfilter:627:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:627:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:627:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736749,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412307.323,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:50]|h|r |cff40ff40|Hpratfilter:628:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:628:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:628:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736749,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412307.323,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:50]|h|r |cff40ff40|Hpratfilter:629:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:629:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:629:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736749,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412307.557,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:51]|h|r |cff40ff40|Hpratfilter:632:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:632:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:632:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736750,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412309.06,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:52]|h|r |cff40ff40|Hpratfilter:634:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:634:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:634:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736751,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412309.712,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:52]|h|r |cff40ff40|Hpratfilter:636:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:636:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:636:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736751,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412310.045,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:53]|h|r Zen'kala says: Hah! No thanks, I need my suppliers on my good side. I'll make sure ya get those parts.",
+["serverTime"] = 1720736752,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412310.58,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:55]|h|r |cff40ff40|Hpratfilter:643:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:643:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:643:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736754,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412312.759,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:56]|h|r |cff40ff40|Hpratfilter:644:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:644:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:644:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736755,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412314.154,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:57]|h|r |cff40ff40|Hpratfilter:646:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:646:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:646:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736756,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412315.005,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:25:58]|h|r Newt says: Spoilsport!",
+["serverTime"] = 1720736757,
+["r"] = 1,
+["extraData"] = {
+13,
+90,
+91,
+["n"] = 3,
+},
+["timestamp"] = 412315.923,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:01]|h|r |cff40ff40|Hpratfilter:654:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:654:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:654:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736760,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412318.862,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:03]|h|r |cff40ff40|Hpratfilter:655:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:655:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:655:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736762,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412321.068,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:04]|h|r |cff40ff40|Hpratfilter:657:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:657:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:657:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736763,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412321.719,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:04]|h|r |cff40ff40|Hpratfilter:658:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:658:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:658:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736763,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412321.719,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:05]|h|r |cff40ff40|Hpratfilter:659:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:659:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hmc-Tichondrius:659:CHANNEL:5|h|cff00ff98Hmc|r|h|cffd8d8d8]|r: =WTS= Mythic +15 to +10 || +8 || +6 || +5 || +2 || +0 Timed / Armor Stack / Special Keys / Can AFK / Discount on Multiple run / Power Leveling 1-70 / |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r / DM For price or any question <3",
+["serverTime"] = 1720736764,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+72,
+["n"] = 3,
+},
+["timestamp"] = 412322.288,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:05]|h|r |cff40ff40|Hpratfilter:660:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:660:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Starkgirl-Tichondrius:660:CHANNEL:5|h|cff3fc7ebStarkgirl|r|h|cffd8d8d8]|r: WTS >>WE SELL MYTHIC PLUS RUNS & MEGA DUNGEON |cffffffff<|r|cff00ff00< M+(1 - 16) for New Season) <<< Timed - You Can AFK -Pumper Groups Ready Start Free Armor Stack -Any  Specific keys - KSM&KSH - Discounts For Multiply Runs ( x2 or more )- Gold Only <DM|r|cffffffff>|r to Check Prices",
+["serverTime"] = 1720736764,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+86,
+["n"] = 3,
+},
+["timestamp"] = 412323.222,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:05]|h|r |cff40ff40|Hpratfilter:661:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:661:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Starkgirl-Tichondrius:661:CHANNEL:5|h|cff3fc7ebStarkgirl|r|h|cffd8d8d8]|r: WTS >>WE SELL MYTHIC PLUS RUNS & MEGA DUNGEON |cffffffff<|r|cff00ff00< M+(1 - 16) for New Season) <<< Timed - You Can AFK -Pumper Groups Ready Start Free Armor Stack -Any  Specific keys - KSM&KSH - Discounts For Multiply Runs ( x2 or more )- Gold Only <DM|r|cffffffff>|r to Check Prices",
+["serverTime"] = 1720736764,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+86,
+["n"] = 3,
+},
+["timestamp"] = 412323.222,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:06]|h|r |cff40ff40|Hpratfilter:662:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:662:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:662:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736765,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412323.489,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:07]|h|r |cff40ff40|Hpratfilter:667:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:667:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Khadee-Tichondrius:667:CHANNEL:5|h|cffc41e3aKhadee|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r Heroic Unsaved 230k, Heroic saved 160k, Normal 80k. Heroic Fyrakk 80k, Mythic Fyrakk || Pandaria REMIX (H) raids & Mythic SoO || M+6 to +15 || Powerleveling 1-70 ||",
+["serverTime"] = 1720736766,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+78,
+["n"] = 3,
+},
+["timestamp"] = 412325.043,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:10]|h|r |cff40ff40|Hpratfilter:672:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:672:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Holyraid-Tichondrius:672:CHANNEL:5|h|cffc41e3aHolyraid|r|h|cffd8d8d8]|r: WTS Mythic +2 to 16 |cffffffff<|r|cff00ff00> Specific Key , Free Armor Stack, Timed Runs <|r|cffffffff>|r BULK DISCOUNT x2,x4,x8  |cffffffff<|r|cff00ff00> DoTi Unsaved Hard Mode <|r|cffffffff>|rTrade LooT |cffffffff<|r|cff00ff00> PLvl 1-70 <|r|cffffffff>|r Also AWAKENED raids Heroic&Normal&Vip <> Mop Remix Heroic/Mythic raids available Only Gold. /w",
+["serverTime"] = 1720736769,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+66,
+["n"] = 3,
+},
+["timestamp"] = 412328.064,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:10]|h|r |cff40ff40|Hpratfilter:673:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:673:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:673:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736769,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412328.064,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:14]|h|r |cff40ff40|Hpratfilter:678:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:678:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rangmal-Tichondrius:678:CHANNEL:5|h|cffc41e3aRangmal|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -   (You Can AFK +0 to +10 )Armor Stacking ( as u want )  Any Specific Key Pump  Groups Ready to start Discounts on  Multi runs  x4 x6  x8 We offer Cheapest prices DM For { usd only",
+["serverTime"] = 1720736773,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+76,
+["n"] = 3,
+},
+["timestamp"] = 412331.377,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:14]|h|r |cff40ff40|Hpratfilter:679:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:679:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rangmal-Tichondrius:679:CHANNEL:5|h|cffc41e3aRangmal|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -   (You Can AFK +0 to +10 )Armor Stacking ( as u want )  Any Specific Key Pump  Groups Ready to start Discounts on  Multi runs  x4 x6  x8 We offer Cheapest prices DM For { usd only",
+["serverTime"] = 1720736773,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+76,
+["n"] = 3,
+},
+["timestamp"] = 412331.622,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:20]|h|r |cff40ff40|Hpratfilter:689:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:689:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:689:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720736779,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412337.273,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:24]|h|r |cff40ff40|Hpratfilter:695:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:695:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:695:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736783,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412341.743,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:27]|h|r |cff40ff40|Hpratfilter:700:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:700:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hmc-Tichondrius:700:CHANNEL:5|h|cff00ff98Hmc|r|h|cffd8d8d8]|r: =WTS= Mythic +15 to +10 || +8 || +6 || +5 || +2 || +0 Timed / Armor Stack / Special Keys / Can AFK / Discount on Multiple run / Power Leveling 1-70 / |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r / DM For price or any question <3",
+["serverTime"] = 1720736786,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+72,
+["n"] = 3,
+},
+["timestamp"] = 412344.48,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:33]|h|r |cff40ff40|Hpratfilter:710:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:710:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:710:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720736792,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412350.882,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:35]|h|r |cff40ff40|Hpratfilter:714:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:714:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tiraldora-Tichondrius:714:CHANNEL:5|h|cff3fc7ebTiraldora|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -(You Can AFK +0 to +10)Armor Stacking( as u want )Any Specific KeyGroups Ready to start Discounts on Multi runs x4x6x8 >>DAWN OF INFINITE«< hardmode // easy mode Dm for price ( Gold Only )",
+["serverTime"] = 1720736794,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+80,
+["n"] = 3,
+},
+["timestamp"] = 412353.015,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:35]|h|r |cff40ff40|Hpratfilter:715:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:715:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tiraldora-Tichondrius:715:CHANNEL:5|h|cff3fc7ebTiraldora|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -(You Can AFK +0 to +10)Armor Stacking( as u want )Any Specific KeyGroups Ready to start Discounts on Multi runs x4x6x8 >>DAWN OF INFINITE«< hardmode // easy mode Dm for price ( Gold Only )",
+["serverTime"] = 1720736794,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+80,
+["n"] = 3,
+},
+["timestamp"] = 412353.015,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:36]|h|r |cff40ff40|Hpratfilter:717:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:717:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Bianiam-Tichondrius:717:CHANNEL:5|h|cffaad372Bianiam|r|h|cffd8d8d8]|r: »WTS<< (BEST PRICES)  +Mythic +0/+1/+2/+3/+4/+5/+6/+7/+8/+9/+10/+11/+12/+13/+14/+15RUNS TIMED /ARMOR STACK/Big Discount ON Bundles x4-x6-X8, Mega dung saved / Un saved TEAM READY GOLD ONLYI",
+["serverTime"] = 1720736795,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+82,
+["n"] = 3,
+},
+["timestamp"] = 412353.915,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:36]|h|r |cff40ff40|Hpratfilter:718:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:718:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Bianiam-Tichondrius:718:CHANNEL:5|h|cffaad372Bianiam|r|h|cffd8d8d8]|r: »WTS<< (BEST PRICES)  +Mythic +0/+1/+2/+3/+4/+5/+6/+7/+8/+9/+10/+11/+12/+13/+14/+15RUNS TIMED /ARMOR STACK/Big Discount ON Bundles x4-x6-X8, Mega dung saved / Un saved TEAM READY GOLD ONLYI",
+["serverTime"] = 1720736795,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+82,
+["n"] = 3,
+},
+["timestamp"] = 412353.915,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:42]|h|r |cff40ff40|Hpratfilter:727:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:727:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Khadee-Tichondrius:727:CHANNEL:5|h|cffc41e3aKhadee|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r Heroic Unsaved 230k, Heroic saved 160k, Normal 80k. Heroic Fyrakk 80k, Mythic Fyrakk || Pandaria REMIX (H) raids & Mythic SoO || M+6 to +15 || Powerleveling 1-70 ||",
+["serverTime"] = 1720736801,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+78,
+["n"] = 3,
+},
+["timestamp"] = 412359.257,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:48]|h|r |cff40ff40|Hpratfilter:740:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:740:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Blakemedivhx-Tichondrius:740:CHANNEL:5|h|cffa330c9Blakemedivhx|r|h|cffd8d8d8]|r: WTS Mythic +2-17 Keys Timed / Specific Keys / ARMOR STACK / MULTIPLE RUNS DISCOUNTs [ 2 or more runs have Multiple Runs Discounts ] DOTI Normal / HARDMODE ... Pst for more info",
+["serverTime"] = 1720736807,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+20,
+["n"] = 3,
+},
+["timestamp"] = 412365.529,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:26:56]|h|r |cff40ff40|Hpratfilter:752:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:752:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:752:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720736815,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412373.67,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:11]|h|r |cff40ff40|Hpratfilter:787:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:787:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Seahawkk-Tichondrius:787:CHANNEL:5|h|cffa330c9Seahawkk|r|h|cffd8d8d8]|r: WTS M+2 - M+4 - M+6 - M+8 - M+10 || DISCOUNT FOR 2 KEYS OR MORE|| Only Gold || FULL AFK ||TIMED/UNTIMED || Power Level Service 1 - 70 || Cheapest Price || GOLD ONLY uwu",
+["serverTime"] = 1720736830,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+88,
+["n"] = 3,
+},
+["timestamp"] = 412388.342,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:14]|h|r |cff40ff40|Hpratfilter:791:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:791:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:791:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720736833,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412391.376,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:20]|h|r Guild: Wealth",
+["serverTime"] = 1720736839,
+["r"] = 1,
+["extraData"] = {
+1,
+54,
+55,
+["n"] = 3,
+},
+["timestamp"] = 412397.354,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:20]|h|r Guild created 10-1-2014, 279 players, 249 accounts",
+["serverTime"] = 1720736839,
+["r"] = 1,
+["extraData"] = {
+1,
+54,
+55,
+["n"] = 3,
+},
+["timestamp"] = 412397.354,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:26]|h|r |cff40ff40|Hpratfilter:822:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:822:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:822:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736845,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412404.1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:44]|h|r |cff40ff40|Hpratfilter:850:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:850:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:850:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736863,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412421.452,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:44]|h|r |cff40ff40|Hpratfilter:851:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:851:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:851:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736863,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412421.718,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:45]|h|r |cff40ff40|Hpratfilter:853:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:853:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:853:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736864,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412423.104,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:48]|h|r |cff40ff40|Hpratfilter:858:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:858:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:858:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736867,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412425.926,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:50]|h|r |cff40ff40|Hpratfilter:862:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:862:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:862:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736869,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412427.496,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:51]|h|r |cff40ff40|Hpratfilter:864:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:864:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:864:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736870,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412428.515,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:51]|h|r |cff40ff40|Hpratfilter:865:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:865:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:865:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736870,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412428.515,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:52]|h|r |cff40ff40|Hpratfilter:867:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:867:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:867:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736871,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412429.283,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:52]|h|r |cff40ff40|Hpratfilter:868:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:868:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:868:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736871,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412429.283,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:52]|h|r |cff40ff40|Hpratfilter:869:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:869:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:869:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736871,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412429.283,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:52]|h|r |cff40ff40|Hpratfilter:871:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:871:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Jesicajonss-Tichondrius:871:CHANNEL:5|h|cffc41e3aJesicajonss|r|h|cffd8d8d8]|r: Best Prices <WTS +M6 +M8 +M10 +M12 +M14 +M15 +M16 +M18 ||DOTI hardmode|| U can afk! || Discount on Multiple runs 2x4x8x|| ARMOR STACK|| any keys|| Fyrakk mount || MYTHIC RAID ||< ONLY GOLD",
+["serverTime"] = 1720736871,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+6,
+["n"] = 3,
+},
+["timestamp"] = 412429.5,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:53]|h|r |cff40ff40|Hpratfilter:873:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:873:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:873:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736872,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412430.319,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:54]|h|r |cff40ff40|Hpratfilter:874:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:874:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:874:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736873,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412432.058,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:55]|h|r |cff40ff40|Hpratfilter:875:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:875:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:875:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736874,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412432.69,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:27:57]|h|r |cff40ff40|Hpratfilter:878:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:878:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:878:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736876,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412434.494,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:00]|h|r |cff40ff40|Hpratfilter:879:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:879:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:879:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736879,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412437.95,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:01]|h|r |cff40ff40|Hpratfilter:880:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:880:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:880:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736880,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412438.401,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:01]|h|r |cff40ff40|Hpratfilter:881:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:881:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:881:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736880,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412438.802,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:01]|h|r |cff40ff40|Hpratfilter:882:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:882:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:882:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736880,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412439.153,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:02]|h|r |cff40ff40|Hpratfilter:883:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:883:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:883:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736881,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412439.72,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:03]|h|r |cff40ff40|Hpratfilter:884:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:884:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:884:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736882,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412441.156,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:04]|h|r |cff40ff40|Hpratfilter:885:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:885:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:885:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736883,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412441.641,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:04]|h|r |cff40ff40|Hpratfilter:888:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:888:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:888:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720736883,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412442.059,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:05]|h|r |cff40ff40|Hpratfilter:890:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:890:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:890:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720736884,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412443.094,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:05]|h|r |cff40ff40|Hpratfilter:891:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:891:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:891:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736884,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412443.094,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:06]|h|r |cff40ff40|Hpratfilter:892:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:892:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:892:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736885,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412443.361,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:06]|h|r |cff40ff40|Hpratfilter:893:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:893:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:893:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736885,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412443.361,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:06]|h|r |cff40ff40|Hpratfilter:894:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:894:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:894:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736885,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412444.216,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:07]|h|r |cff40ff40|Hpratfilter:895:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:895:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:895:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736886,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412444.898,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:07]|h|r |cff40ff40|Hpratfilter:896:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:896:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:896:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720736886,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412444.898,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:09]|h|r |cff40ff40|Hpratfilter:897:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:897:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:897:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736888,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412446.25,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:09]|h|r |cff40ff40|Hpratfilter:900:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:900:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:900:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736888,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412446.852,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:10]|h|r |cff40ff40|Hpratfilter:901:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:901:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:901:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720736889,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412447.403,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:10]|h|r |cff40ff40|Hpratfilter:902:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:902:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:902:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720736889,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412448.155,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:11]|h|r |cff40ff40|Hpratfilter:904:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:904:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:904:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720736890,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412448.404,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:12]|h|r |cff40ff40|Hpratfilter:908:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:908:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Draenory-Tichondrius:908:CHANNEL:5|h|cffc41e3aDraenory|r|h|cffd8d8d8]|r: >> CHEAPEST |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r 9/9 full heroic 140k // Fyrakk only 50k //  2 last boss 65k // 9/9 full normal  50k //vip runs with prio /w for info paymenmt inside raid {PRICE MATCH] discounts",
+["serverTime"] = 1720736891,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+56,
+["n"] = 3,
+},
+["timestamp"] = 412449.457,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:13]|h|r |cff40ff40|Hpratfilter:909:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:909:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tangoyau-Tichondrius:909:CHANNEL:5|h|cffc41e3aTangoyau|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00GOING SOON|r|cffffffff>|r CHEAPEST AWAKENED CARRY 9/9 |cffffff00|Hachievement:19333:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r < 3 ITEMS DROP PER BOSS> GET |cffffff00|Hachievement:19570:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakened Flames]|h|r and WAY TO |cffffff00|Hachievement:19574:Player-11-0E79365E:0:0:0:-1:0:0:0:0|h[Awakening the Dragonflight Raids]|h|r REWARD |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r FREE ROLL & PAYMENT IN RAID! /w",
+["serverTime"] = 1720736892,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+8,
+["n"] = 3,
+},
+["timestamp"] = 412450.976,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:17]|h|r |cff40ff40|Hpratfilter:912:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:912:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:912:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736896,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412454.35,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:19]|h|r |cff40ff40|Hpratfilter:913:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:913:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Muradaark-Tichondrius:913:CHANNEL:5|h|cffc41e3aMuradaark|r|h|cffd8d8d8]|r: >>WTS<< (GOOD PRICES) +Mythic +2 /+3 /+4 /+5 /+6 /+7 /+8 /+9 /+10 /+11 /+12 /+13 /!YOU CHOOSE THE KEY!/All LOOT ITS YOURS/ARMOR STACK/DISCOUNT ON BUNDLE x4-x6-x8,TEAM READY GOLD ONLY!",
+["serverTime"] = 1720736898,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+10,
+["n"] = 3,
+},
+["timestamp"] = 412456.704,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:19]|h|r |cff40ff40|Hpratfilter:914:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:914:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:914:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720736898,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412456.704,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:20]|h|r |cff40ff40|Hpratfilter:915:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:915:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:915:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736899,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412457.441,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:20]|h|r |cff40ff40|Hpratfilter:916:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:916:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nezhana-Tichondrius:916:CHANNEL:5|h|cffc41e3aNezhana|r|h|cffd8d8d8]|r: → FLASH SALE ← WTS HEROIC FULL |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r GOING NOW || 3 ITEMS DROPS PER BOSS & FREE ROLL || ROAD TO → |cffffff00|Hachievement:19575:Player-11-0E70A744:0:0:0:-1:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r & GET |cffa335ee|Hitem:217340::::::::10:1455:::::::::|h[Voyaging Wilderling's Harness]|h|r «PAY IN RAID» WHISPER ME ♫",
+["serverTime"] = 1720736899,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+68,
+["n"] = 3,
+},
+["timestamp"] = 412457.441,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:20]|h|r |cff40ff40|Hpratfilter:918:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:918:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Annycâtpaw-Tichondrius:918:CHANNEL:5|h|cff00ff98Annycâtpaw|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r °°FULL HEROIC°° |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r BIG RUN —— 3-4 Items drop per Boss —— TRADE IN RAID // °°|cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r°° FOR |cffff8000|Hitem:206448::::::::70:62:::::::::|h[Fyr'alath the Dreamrender]|h|r —CHANCE —",
+["serverTime"] = 1720736899,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 412457.839,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:20]|h|r |cff40ff40|Hpratfilter:919:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:919:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:919:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736899,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412457.839,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:21]|h|r |cff40ff40|Hpratfilter:921:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:921:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:921:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736900,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412458.358,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:21]|h|r |cff40ff40|Hpratfilter:923:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:923:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aryaraids-Tichondrius:923:CHANNEL:5|h|cffc41e3aAryaraids|r|h|cffd8d8d8]|r: WTS|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids",
+["serverTime"] = 1720736900,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+46,
+["n"] = 3,
+},
+["timestamp"] = 412458.742,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:22]|h|r |cff40ff40|Hpratfilter:924:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:924:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:924:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736901,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412459.26,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:23]|h|r |cff40ff40|Hpratfilter:927:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:927:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lövenpixie-Tichondrius:927:CHANNEL:5|h|cff00ff98Lövenpixie|r|h|cffd8d8d8]|r: @! WTS ——> HEROIC FULL <——|cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r—[SAVED or UNSAVED]—[3-6 ITEMS DROP!] or HEROIC |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::10:270:::::::::|h[Fyr'alath the Dreamrender]|h|r // |cffffff00|Hachievement:19571:Player-3676-0E44EB31:0:0:0:0:0:0:0:0|h[Heroic: Awakened Flames]|h|r —EVERY 30 MIN // —MoP REMIX |cffffff00|Hachievement:20007:Player-57-0DB6F3FE:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r",
+["serverTime"] = 1720736902,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+34,
+["n"] = 3,
+},
+["timestamp"] = 412460.529,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:23]|h|r |cff40ff40|Hpratfilter:928:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:928:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Putruxin-Tichondrius:928:CHANNEL:5|h|cffc41e3aPutruxin|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736902,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+60,
+["n"] = 3,
+},
+["timestamp"] = 412461.163,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:24]|h|r |cff40ff40|Hpratfilter:930:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:930:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sunfiredad-Tichondrius:930:CHANNEL:5|h|cff00ff98Sunfiredad|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16  Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736903,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+32,
+["n"] = 3,
+},
+["timestamp"] = 412462.032,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:25]|h|r |cff40ff40|Hpratfilter:934:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:934:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:934:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736904,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412462.867,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:26]|h|r |cff40ff40|Hpratfilter:936:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:936:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Blakemedivhx-Tichondrius:936:CHANNEL:5|h|cffa330c9Blakemedivhx|r|h|cffd8d8d8]|r: WTS Mythic +2-17 Keys Timed / Specific Keys / ARMOR STACK / MULTIPLE RUNS DISCOUNTs [ 2 or more runs have Multiple Runs Discounts ] DOTI Normal / HARDMODE ... Pst for more info",
+["serverTime"] = 1720736905,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+20,
+["n"] = 3,
+},
+["timestamp"] = 412463.868,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:28]|h|r |cff40ff40|Hpratfilter:938:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:938:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Sweétykitty-Tichondrius:938:CHANNEL:5|h|cff3fc7ebSweétykitty|r|h|cffd8d8d8]|r: —  HURRY UP, DO IT BEFORE PREPATCH! WTS —  |cffffff00|Hachievement:19571:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Flames]|h|r  OR  |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  3-4 ITEMS DROP  —  FYRAKK |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r — — — MYTHIC+ KEYS/KSM , MYTHIC RAID! —",
+["serverTime"] = 1720736907,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+40,
+["n"] = 3,
+},
+["timestamp"] = 412465.889,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:29]|h|r |cff40ff40|Hpratfilter:939:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:939:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:939:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736908,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412466.273,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:31]|h|r |cff40ff40|Hpratfilter:941:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:941:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Aniewa-Tichondrius:941:CHANNEL:5|h|cffc41e3aAniewa|r|h|cffd8d8d8]|r: OFFERING AWAKENED |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00HEROIC 9/9 150K|r|cffffffff>|r |cffffffff<|r|cff00ff00NORMAL 9/9 50K|r|cffffffff>|r  |cffffffff<|r|cff00ff00HC+NORM 190K|r|cffffffff>|r & HEROIC  |cffffffff<|r|cff00ff00FYRAKK ONLY 50K|r|cffffffff>|r. ALSO |cffffffff<|r|cff00ff00PANDARIA REMIX RAIDS|r|cffffffff>|r Payment Inside in the raid group for safety! /w to book!",
+["serverTime"] = 1720736910,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+36,
+["n"] = 3,
+},
+["timestamp"] = 412468.745,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:37]|h|r |cff40ff40|Hpratfilter:949:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:949:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Azgermatonic-Tichondrius:949:CHANNEL:5|h|cff00ff98Azgermatonic|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14 /+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720736916,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+30,
+["n"] = 3,
+},
+["timestamp"] = 412475.141,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:40]|h|r |cff40ff40|Hpratfilter:951:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:951:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:951:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736919,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412477.829,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:42]|h|r |cff40ff40|Hpratfilter:959:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:959:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:959:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736921,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412480.201,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:44]|h|r |cff40ff40|Hpratfilter:963:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:963:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:963:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736923,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412481.654,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:45]|h|r |cff40ff40|Hpratfilter:965:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:965:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hmc-Tichondrius:965:CHANNEL:5|h|cff00ff98Hmc|r|h|cffd8d8d8]|r: =WTS= Mythic +15 to +10 || +8 || +6 || +5 || +2 || +0 Timed / Armor Stack / Special Keys / Can AFK / Discount on Multiple run / Power Leveling 1-70 / |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r / DM For price or any question <3",
+["serverTime"] = 1720736924,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+72,
+["n"] = 3,
+},
+["timestamp"] = 412482.973,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:45]|h|r |cff40ff40|Hpratfilter:966:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:966:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Dianamc-Tichondrius:966:CHANNEL:5|h|cffc41e3aDianamc|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r Awakened Normal |cffffffff<|r|cff00ff0080k|r|cffffffff>|r Heroic |cffffffff<|r|cff00ff00160k|r|cffffffff>|r  Unsaved HC |cffffffff<|r|cff00ff00230k|r|cffffffff>|r / HC Fyrakk |cffffffff<|r|cff00ff0080k|r|cffffffff>|r /Mythic Fyrakk |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r  VIP RUNS-Mythic raids- +2 to +15. Dungeon funnels! |cffffffff<|r|cff00ff00Leveling 1-70|r|cffffffff>|r.MoP Remix raids1",
+["serverTime"] = 1720736924,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+52,
+["n"] = 3,
+},
+["timestamp"] = 412483.207,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:47]|h|r |cff40ff40|Hpratfilter:968:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:968:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Rangmal-Tichondrius:968:CHANNEL:5|h|cffc41e3aRangmal|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -   (You Can AFK +0 to +10 )Armor Stacking ( as u want )  Any Specific Key Pump  Groups Ready to start Discounts on  Multi runs  x4 x6  x8 We offer Cheapest prices DM For { usd only",
+["serverTime"] = 1720736926,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+76,
+["n"] = 3,
+},
+["timestamp"] = 412484.861,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:53]|h|r |cff40ff40|Hpratfilter:977:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:977:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Khadee-Tichondrius:977:CHANNEL:5|h|cffc41e3aKhadee|r|h|cffd8d8d8]|r: WTS |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r Heroic Unsaved 230k, Heroic saved 160k, Normal 80k. Heroic Fyrakk 80k, Mythic Fyrakk || Pandaria REMIX (H) raids & Mythic SoO || M+6 to +15 || Powerleveling 1-70 ||",
+["serverTime"] = 1720736932,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+78,
+["n"] = 3,
+},
+["timestamp"] = 412490.675,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:54]|h|r |cff40ff40|Hpratfilter:978:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:978:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:978:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736933,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412491.356,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:28:56]|h|r |cff40ff40|Hpratfilter:982:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:982:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gazibarn-Tichondrius:982:CHANNEL:5|h|cffaad372Gazibarn|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736935,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+64,
+["n"] = 3,
+},
+["timestamp"] = 412493.445,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:01]|h|r |cff40ff40|Hpratfilter:992:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:992:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:992:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Remix Raid Carries! Any raid on Normal, Heroic, or Mythic. Express Selfplayed Leveling 10–70. Get Bronze to unlock all rewards. Save up to 80% on Remix Bundle. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736940,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412498.254,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:03]|h|r |cff40ff40|Hpratfilter:997:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:997:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Tiraldora-Tichondrius:997:CHANNEL:5|h|cff3fc7ebTiraldora|r|h|cffd8d8d8]|r: WTS Mythic +0 to +15 Timed Keys -(You Can AFK +0 to +10)Armor Stacking( as u want )Any Specific KeyGroups Ready to start Discounts on Multi runs x4x6x8 >>DAWN OF INFINITE«< hardmode // easy mode Dm for price ( Gold Only )",
+["serverTime"] = 1720736942,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+80,
+["n"] = 3,
+},
+["timestamp"] = 412500.575,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:03]|h|r |cff40ff40|Hpratfilter:999:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:999:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Bianiam-Tichondrius:999:CHANNEL:5|h|cffaad372Bianiam|r|h|cffd8d8d8]|r: »WTS<< (BEST PRICES)  +Mythic +0/+1/+2/+3/+4/+5/+6/+7/+8/+9/+10/+11/+12/+13/+14/+15RUNS TIMED /ARMOR STACK/Big Discount ON Bundles x4-x6-X8, Mega dung saved / Un saved TEAM READY GOLD ONLYI",
+["serverTime"] = 1720736942,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+82,
+["n"] = 3,
+},
+["timestamp"] = 412501.16,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:04]|h|r |cff40ff40|Hpratfilter:1001:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1001:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Pinkania-Tichondrius:1001:CHANNEL:5|h|cff8788eePinkania|r|h|cffd8d8d8]|r: WTS Mythic ||+0||+2||+6 ||+7 || +8 || +10 >> +15 || Free Armor Stack || Free SPECIFIC Key || DISCOUNT FOR 2x 4x 8x |cff66bbff|Hjournal:0:1208:15|h[Aberrus, the Shadowed Crucible]|h|r|| Power Leveling 1-70 Full AFK|| PVP Boosting || Mount /w for price",
+["serverTime"] = 1720736943,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+62,
+["n"] = 3,
+},
+["timestamp"] = 412501.744,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:11]|h|r |cff40ff40|Hpratfilter:1011:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1011:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:1011:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736950,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412508.29,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:19]|h|r |cff40ff40|Hpratfilter:1026:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1026:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Druztrakzul-Tichondrius:1026:CHANNEL:5|h|cffaad372Druztrakzul|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Awakened Raid Carry! Get up to 10 items in a single run. Save 30% on all 3 raids. Earn limited-time rewards before Season 4 ends. EXPRESS raids every hour. More than 29,151 reviews & 5-star rating on Trustpilot. DM me to learn more]|h|r",
+["serverTime"] = 1720736958,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+24,
+["n"] = 3,
+},
+["timestamp"] = 412516.69,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:32]|h|r |cff40ff40|Hpratfilter:1047:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1047:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Vozrorroz-Tichondrius:1047:CHANNEL:5|h|cffaad372Vozrorroz|r|h|cffd8d8d8]|r: |cff82c5ff|HclubTicket:N402wBkSWOM|h[WТS Mythic +2–15 Сarry tonight! Up to 20% OFF for multiple runs. KSM & KSH Achieves. Players with 3k M+ rating exp & loot traders. EXPRESS Start in 15 mins. Over 29,151 Trustpilot 5-star reviews. Whisper for more info]|h|r",
+["serverTime"] = 1720736971,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+38,
+["n"] = 3,
+},
+["timestamp"] = 412529.683,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:33]|h|r |cff40ff40|Hpratfilter:1049:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1049:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:1049:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720736972,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412530.268,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:39]|h|r |cff40ff40|Hpratfilter:1058:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1058:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Starkgirl-Tichondrius:1058:CHANNEL:5|h|cff3fc7ebStarkgirl|r|h|cffd8d8d8]|r: WTS >>WE SELL MYTHIC PLUS RUNS & MEGA DUNGEON |cffffffff<|r|cff00ff00< M+(1 - 16) for New Season) <<< Timed - You Can AFK -Pumper Groups Ready Start Free Armor Stack -Any  Specific keys - KSM&KSH - Discounts For Multiply Runs ( x2 or more )- Gold Only <DM|r|cffffffff>|r to Check Prices",
+["serverTime"] = 1720736978,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+86,
+["n"] = 3,
+},
+["timestamp"] = 412536.363,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:39]|h|r |cff40ff40|Hpratfilter:1062:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1062:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:1062:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720736978,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412536.897,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:42]|h|r |cff40ff40|Hpratfilter:1066:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1066:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Seahawkk-Tichondrius:1066:CHANNEL:5|h|cffa330c9Seahawkk|r|h|cffd8d8d8]|r: WTS M+2 - M+4 - M+6 - M+8 - M+10 || DISCOUNT FOR 2 KEYS OR MORE|| Only Gold || FULL AFK ||TIMED/UNTIMED || Power Level Service 1 - 70 || Cheapest Price || GOLD ONLY uwu",
+["serverTime"] = 1720736981,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+88,
+["n"] = 3,
+},
+["timestamp"] = 412539.453,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:42]|h|r |cff40ff40|Hpratfilter:1067:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1067:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Seahawkk-Tichondrius:1067:CHANNEL:5|h|cffa330c9Seahawkk|r|h|cffd8d8d8]|r: WTS M+2 - M+4 - M+6 - M+8 - M+10 || DISCOUNT FOR 2 KEYS OR MORE|| Only Gold || FULL AFK ||TIMED/UNTIMED || Power Level Service 1 - 70 || Cheapest Price || GOLD ONLY uwu",
+["serverTime"] = 1720736981,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+88,
+["n"] = 3,
+},
+["timestamp"] = 412539.453,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:29:54]|h|r |cff40ff40|Hpratfilter:1089:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1089:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:1089:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720736993,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412551.526,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:11]|h|r |cff40ff40|Hpratfilter:1120:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1120:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Halvang-Tichondrius:1120:CHANNEL:5|h|cffc41e3aHalvang|r|h|cffd8d8d8]|r: STARTING SOON HEROIC FULL CLEAR UNSAVED 230k - SAVED 160k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r > ALSO SELLING |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r |cffffffff<|r|cff00ff0060k|r|cffffffff>|r - /w for book",
+["serverTime"] = 1720737010,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+48,
+["n"] = 3,
+},
+["timestamp"] = 412568.727,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:11]|h|r |cff40ff40|Hpratfilter:1121:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1121:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Balaudoo-Tichondrius:1121:CHANNEL:5|h|cffc41e3aBalaudoo|r|h|cffd8d8d8]|r: ♥ CHEAPER FULL CLEAR HC  |cff66bbff|Hjournal:0:1207:14|h[Amirdrassil, the Dream's Hope]|h|r - || SAVED - 2-3 Loots for 160k || UNSAVED - 4-5 Loots for 230k || Chance to GET  |cffff8000|Hitem:206448::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r || Trade inside || Only buyers ROLL! |||| JUST Fyrakk HC for 60K - /w for info!!",
+["serverTime"] = 1720737010,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+58,
+["n"] = 3,
+},
+["timestamp"] = 412569.095,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:13]|h|r |cff40ff40|Hpratfilter:1123:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1123:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Kuramashi-Tichondrius:1123:CHANNEL:5|h|cffc41e3aKuramashi|r|h|cffd8d8d8]|r: GOING SOON - HEROIC FULL CLEAR AWAKENED SAVED 160k - UNSAVED 230k - |cffffff00|Hachievement:19565:Player-57-0DB1CEDC:1:4:23:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakened Storms]|h|r CONTINUE PROGRESS |cffa335ee|Hitem:217340::::::::10:1444:::::::::|h[Voyaging Wilderling's Harness]|h|r ►JUST |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r CHANCE TO GET |cffff8000|Hitem:207729::::::::10:1455:::::::::|h[Fyr'alath the Dreamrender]|h|r ●60k● - /w",
+["serverTime"] = 1720737012,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+44,
+["n"] = 3,
+},
+["timestamp"] = 412571.15,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:14]|h|r |cff40ff40|Hpratfilter:1125:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1125:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Wiskyloves-Tichondrius:1125:CHANNEL:5|h|cffffffffWiskyloves|r|h|cffd8d8d8]|r: === —→ WTS SAVED/UNSAVED |cffffff00|Hachievement:19331:Player-60-0F5F4DCB:0:0:0:-1:323:0:0:0|h[Amirdrassil, the Dream's Hope]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 12/18/23|cffffffff)|r — 3-6 ITEMS DROP PER BOSS — |cffa335ee|Hitem:217340::::::::10:250:::::::::|h[Voyaging Wilderling's Harness]|h|r GET HEROIC FYRRAK KILL  |cffff8000|Hitem:206448::::::::70:105:::::::::|h[Fyr'alath the Dreamrender]|h|r — Mythic+ KEYS WITH FUNNELS — MYTHIC FYRAKK",
+["serverTime"] = 1720737013,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+28,
+["n"] = 3,
+},
+["timestamp"] = 412572.034,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:16]|h|r |cff40ff40|Hpratfilter:1127:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1127:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Hayloss-Tichondrius:1127:CHANNEL:5|h|cff3fc7ebHayloss|r|h|cffd8d8d8]|r: WTS (POWER.LEVELING) hit max 3-4h (1-70/1-60/60-70) or custom level TEAM GEARED  and ready to run(can pay half and half) >> DISCOUNT for multiple char you can also afk pst for more info << ♥CHEAP♥",
+["serverTime"] = 1720737015,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+18,
+["n"] = 3,
+},
+["timestamp"] = 412573.303,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:17]|h|r |cff40ff40|Hpratfilter:1129:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1129:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mercgray-Tichondrius:1129:CHANNEL:5|h|cff3fc7ebMercgray|r|h|cffd8d8d8]|r: |cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r NEW BEST PRICE DISCOUNTS! Heroic Raid for only |cffffffff<|r|cff00ff00160k|r|cffffffff>|r or Unsaved Heroic Raid (2x Loot) for |cffffffff<|r|cff00ff00230k|r|cffffffff>|r // Fyrakk Heroic |cffffffff<|r|cff00ff0080k|r|cffffffff>|r // Fyrakk MYTHIC & MOUNT for |cffffffff<|r|cff00ff005.5M|r|cffffffff>|r // Lvl 1-70",
+["serverTime"] = 1720737016,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+70,
+["n"] = 3,
+},
+["timestamp"] = 412574.606,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:18]|h|r |cff40ff40|Hpratfilter:1131:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1131:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Nilord-Tichondrius:1131:CHANNEL:5|h|cffc41e3aNilord|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00< WTS Mythic+ |r|cffffffff>|r> *** +0 To +15 *** {discount if buy multiple run 2x-x4-x6-x8} ! {Timed Trade All Loot} ! {Armor Stack + u can afk} ! {Cheap price} ! {Specific keys} ! { free armor stack if u buy x4 runs } ! \"\" Dm for More Info \"\"",
+["serverTime"] = 1720737017,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+74,
+["n"] = 3,
+},
+["timestamp"] = 412575.241,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:21]|h|r |cff40ff40|Hpratfilter:1135:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1135:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lornexia-Tichondrius:1135:CHANNEL:5|h|cffffffffLornexia|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E795935:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720737020,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+4,
+["n"] = 3,
+},
+["timestamp"] = 412578.248,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:21]|h|r |cff40ff40|Hpratfilter:1136:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1136:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Mirele-Tichondrius:1136:CHANNEL:5|h|cff8788eeMirele|r|h|cffd8d8d8]|r: WTS HEROIC FULL|cffffff00|Hachievement:19333:Player-3676-0E6B0931:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r|cffffff00|Hachievement:20481:Player-57-0DB1CEDC:1:4:23:24:1:0:0:0|h[Dragonflight Season 4 Master]|h|r4-6ITEMS DROP PER BOSS OR LAST BOOS |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r |cffff8000|Hitem:206448::::::::1:1454:::::::::|h[Fyr'alath the Dreamrender]|h|r|cffff8000|Hitem:206448::::::::11:105:::::::::|h[Fyr'alath the Dreamrender]|h|rTRADE IN RAID START SOON/|cffffff00|Hachievement:20007:Player-3676-0E770236:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r/ W ME",
+["serverTime"] = 1720737020,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+14,
+["n"] = 3,
+},
+["timestamp"] = 412579.033,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:21]|h|r |cff40ff40|Hpratfilter:1138:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1138:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Fourthecab-Tichondrius:1138:CHANNEL:5|h|cff00ff98Fourthecab|r|h|cffd8d8d8]|r: WTS Mythic +0/+2/+4/+5/+6/+7/+8/+10/+11/+12/+13/+14/+15/+16 Timed--Armor stack--Specefic keys-[Dawn of the Infinite]-Key Stone Master-- All loots for you--Group Ready to Start--Discount for Multiple runs-x4/x6/x8 - Only Gold",
+["serverTime"] = 1720737020,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+42,
+["n"] = 3,
+},
+["timestamp"] = 412579.033,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:22]|h|r |cff40ff40|Hpratfilter:1141:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1141:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Eladinboy-Tichondrius:1141:CHANNEL:5|h|cffa330c9Eladinboy|r|h|cffd8d8d8]|r: ==WTS== Mythic +0 +1 +2+3 +4 +5 +6 +7+8 +9 +10 +11 +12 +13 + 14 + 15 +16 (You Can AFK ) Armor Stacking / Key of Your choice / Discount on Multiply runs / Group Ready To Start // we offer good prices instant respond PST for price (GOLD ONLY)",
+["serverTime"] = 1720737021,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+95,
+["n"] = 3,
+},
+["timestamp"] = 412580.025,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:23]|h|r |cff40ff40|Hpratfilter:1143:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1143:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Lisòny-Tichondrius:1143:CHANNEL:5|h|cff00ff98Lisòny|r|h|cffd8d8d8]|r: ——> WTS HERØIC<——|cff66bbff|Hjournal:0:1207:15|h[Amirdrassil, the Dream's Hope]|h|r—SAVED or UNSAVED—3 or 4-6 ITEMS DROP—|cff71d5ff|Hspell:434417:0|h[Awakened Raid]|h|r— EVERY 30 MINS— OR HC FYRAKK—|cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r—|cffff8000|Hitem:206448::::::::10:1450:::::::::|h[Fyr'alath the Dreamrender]|h|r—Or MoP REMIX—|cffffff00|Hachievement:20007:Player-60-0F5EBD72:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r |cffffffff(|rCompleted 6/13/24|cffffffff)|r",
+["serverTime"] = 1720737022,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+26,
+["n"] = 3,
+},
+["timestamp"] = 412580.252,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:30:23]|h|r |cff40ff40|Hpratfilter:1144:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:1144:1|h[++]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Melodienymph-Tichondrius:1144:CHANNEL:5|h|cff00ff98Melodienymph|r|h|cffd8d8d8]|r: ◄ ♥ STARTING SOON ♥ ► WTS HEROIC FULL RUN |cff66bbff|Hjournal:0:1207:16|h[Amirdrassil, the Dream's Hope]|h|r |cffffffff<|r|cff00ff00150K|r|cffffffff>|r |cffffffff<|r|cff00ff003-4 LOOT DROP PER BOSS|r|cffffffff>|r |cffffffff<|r|cff00ff00FREE ROLL|r|cffffffff>|r |cffffffff<|r|cff00ff00AFK OR PLAY IN RUN|r|cffffffff>|r |cffffffff<|r|cff00ff00PAY IN RAID FOR SAFETY|r|cffffffff>|r || GET  |cffffff00|Hachievement:19333:Player-11-0E7958C4:0:0:0:-1:0:0:0:0|h[Heroic: Amirdrassil, the Dream's Hope]|h|r PST ME AND BOOK YOUR SPOT NOW",
+["serverTime"] = 1720737022,
+["r"] = 1,
+["extraData"] = {
+73,
+1,
+12,
+["n"] = 3,
+},
+["timestamp"] = 412580.252,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+},
+["maxElements"] = 5000,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+},
 }

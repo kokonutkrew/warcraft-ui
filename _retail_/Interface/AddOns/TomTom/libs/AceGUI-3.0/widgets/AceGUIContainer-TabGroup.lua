@@ -2,33 +2,18 @@
 TabGroup Container
 Container that uses tabs on top to switch between groups.
 -------------------------------------------------------------------------------]]
-<<<<<<< Updated upstream
-local Type, Version = "TabGroup", 37
-=======
 local Type, Version = "TabGroup", 38
->>>>>>> Stashed changes
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
 -- Lua APIs
-<<<<<<< Updated upstream
-local pairs, ipairs, assert, type, wipe = pairs, ipairs, assert, type, wipe
-=======
 local pairs, ipairs, assert, type, wipe = pairs, ipairs, assert, type, table.wipe
->>>>>>> Stashed changes
 
 -- WoW APIs
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 local _G = _G
 
-<<<<<<< Updated upstream
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: PanelTemplates_TabResize, PanelTemplates_SetDisabledTabState, PanelTemplates_SelectTab, PanelTemplates_DeselectTab
-
-=======
->>>>>>> Stashed changes
 -- local upvalue storage used by BuildTabs
 local widths = {}
 local rowwidths = {}
@@ -37,8 +22,6 @@ local rowends = {}
 --[[-----------------------------------------------------------------------------
 Support functions
 -------------------------------------------------------------------------------]]
-<<<<<<< Updated upstream
-=======
 
 local function PanelTemplates_TabResize(tab, padding, absoluteSize, minWidth, maxWidth, absoluteTextSize)
 	local tabName = tab:GetName();
@@ -176,7 +159,6 @@ local function PanelTemplates_SetDisabledTabState(tab)
 	rightDisabled:Hide();
 end
 
->>>>>>> Stashed changes
 local function UpdateTabLook(frame)
 	if frame.disabled then
 		PanelTemplates_SetDisabledTabState(frame)
@@ -254,13 +236,6 @@ local methods = {
 
 	["CreateTab"] = function(self, id)
 		local tabname = ("AceGUITabGroup%dTab%d"):format(self.num, id)
-<<<<<<< Updated upstream
-		local tab = CreateFrame("Button", tabname, self.border, "OptionsFrameTabButtonTemplate")
-		tab.obj = self
-		tab.id = id
-
-		tab.text = _G[tabname .. "Text"]
-=======
 		local tab = CreateFrame("Button", tabname, self.border)
 		tab:SetSize(115, 24)
 		tab.deselectedTextY = -3
@@ -319,7 +294,6 @@ local methods = {
 		tab.id = id
 
 		tab.text = tab.Text -- compat
->>>>>>> Stashed changes
 		tab.text:ClearAllPoints()
 		tab.text:SetPoint("LEFT", 14, -3)
 		tab.text:SetPoint("RIGHT", -12, -3)
@@ -528,11 +502,7 @@ local function Constructor()
 	titletext:SetHeight(18)
 	titletext:SetText("")
 
-<<<<<<< Updated upstream
-	local border = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-=======
 	local border = CreateFrame("Frame", nil, frame, "BackdropTemplate")
->>>>>>> Stashed changes
 	border:SetPoint("TOPLEFT", 1, -27)
 	border:SetPoint("BOTTOMRIGHT", -1, 3)
 	border:SetBackdrop(PaneBackdrop)

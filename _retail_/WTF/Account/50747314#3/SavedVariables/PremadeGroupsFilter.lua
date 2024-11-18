@@ -2,7 +2,7 @@
 PremadeGroupsFilterSettings = {
 ["signupOnEnter"] = false,
 ["rioRatingColors"] = true,
-["classNamesInTooltip"] = true,
+["specIcon"] = false,
 ["oneClickSignUp"] = true,
 ["coloredGroupTexts"] = true,
 ["missingRoles"] = false,
@@ -10,11 +10,11 @@ PremadeGroupsFilterSettings = {
 ["ratingInfo"] = true,
 ["dialogMovable"] = true,
 ["leaderCrown"] = false,
-["specIcon"] = false,
+["cancelOldestApp"] = false,
 ["classCircle"] = false,
 ["classBar"] = false,
-["cancelOldestApp"] = false,
+["version"] = 3,
 ["persistSignUpNote"] = true,
 ["skipSignUpDialog"] = false,
-["version"] = 3,
+["classNamesInTooltip"] = true,
 }

@@ -1,0 +1,42 @@
+
+HekiliDB = {
+["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Arcblastt - Emerald Dream"] = "Default",
+["Shadowbombes - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["runOnce"] = {
+["forceReloadAllDefaultPriorities_20220228"] = true,
+["forceEnableAllClassesOnceDueToBug_20220225"] = true,
+["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+["forceSpellFlashBrightness_20221030"] = true,
+["forceReloadClassDefaultOptions_20220306_64"] = true,
+["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
+["forceReloadClassDefaultOptions_20220306_62"] = true,
+["forceReloadClassDefaultOptions_20220306_63"] = true,
+["resetAberrantPackageDates_20190728_1"] = true,
+},
+["specs"] = {
+[64] = {
+["settings"] = {
+["manual_water_jet"] = false,
+},
+},
+[63] = {
+["settings"] = {
+["pyroblast_pull"] = false,
+["prevent_hardcasts"] = false,
+},
+},
+},
+["iconStore"] = {
+["minimapPos"] = 204.5277789349307,
+},
+},
+},
+}

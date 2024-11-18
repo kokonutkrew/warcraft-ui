@@ -1,2464 +1,3676 @@
 
 Prat3CharDB = {
-	["history"] = {
-		["cmdhistory"] = {
-			["ChatFrame10EditBox"] = {
-			},
-			["ChatFrame7EditBox"] = {
-			},
-			["ChatFrame5EditBox"] = {
-			},
-			["ChatFrame8EditBox"] = {
-			},
-			["ChatFrame4EditBox"] = {
-			},
-			["ChatFrame6EditBox"] = {
-			},
-			["ChatFrame1EditBox"] = {
-				"/g gets harder to climb", -- [1]
-				"/g not by much", -- [2]
-				"/g my shammy is only 243", -- [3]
-				"/g ya forsure", -- [4]
-				"/g youll get into good groups", -- [5]
-				"/g especially since its your tank spec", -- [6]
-				"/g but I would say 240 is good", -- [7]
-				"/g to see how you parse", -- [8]
-				"/g the best groups will check your logs", -- [9]
-				"/g its not an automatic in anymore", -- [10]
-				"/g Unless you have like iLvl250", -- [11]
-				"/g people want to see AOTC or KSM now", -- [12]
-				"/g the gear curve moves along thoughw", -- [13]
-				"/g well it def helps", -- [14]
-				"/g hey congrats!", -- [15]
-				"/g been weeks Ive been chasing my helmet", -- [16]
-				"/g ya I feel ya", -- [17]
-				"/g its not the tmog you want", -- [18]
-				"/g lol grats", -- [19]
-				"/g I need to kill any elite", -- [20]
-				"/g hmm 93%", -- [21]
-				"/g well I can join on my other alts", -- [22]
-				"/g big for this toon lol", -- [23]
-				"/g wow 233 pants", -- [24]
-				"/g glad I missed out on the hours in between", -- [25]
-				"/g one shot her as soon as I joined", -- [26]
-				"/g I got on and the group we got her to 55% was still going lol", -- [27]
-				"/g we kill heroic sylvanus last night", -- [28]
-				"/g then we need to get our mythic raid team together lol", -- [29]
-				"/g Ya I wouldnt worry about dom sockets unless you have the 3 set bonus for chaos", -- [30]
-				"/g gonna go kill morgeth", -- [31]
-				"/g Ima go check my tanks vault after this weekly", -- [32]
-				"/g welp I guess its settled lol", -- [33]
-				"/g is mythic+ an upgrade?", -- [34]
-				"/g Not the helmet I was hoping for lol", -- [35]
-				"/g so it was decent I guess", -- [36]
-				"/g I got 252 pants which was an upgrade from 230", -- [37]
-				"/g hope you get something good!", -- [38]
-				"/g time to check your vault!", -- [39]
-				"/g right on", -- [40]
-				"/g hey buddy hows it going", -- [41]
-				"/g lol", -- [42]
-				"/g now I can help craft shadestone", -- [43]
-				"/g I finally got my avowed rep on this alchemy toon", -- [44]
-				"/g just collect treasures and do the weekly quest then done with x2 WQ", -- [45]
-				"/g Ya Im finishing up Revendreth as we speak", -- [46]
-				"/g hello", -- [47]
-				"/cw Pythagorean-KulTiras ty!", -- [48]
-				"/i can we kick the offline", -- [49]
-				"/i but the healer is alive already", -- [50]
-				"/i ya i dont mind", -- [51]
-				"/s bring ads to tank", -- [52]
-				"/s /train", -- [53]
-				"/s /dance", -- [54]
-				"/s /point", -- [55]
-				"/s do", -- [56]
-				"/s you guys farming rep?", -- [57]
-				"/s /way 87.48, 42.90", -- [58]
-				"/s /tsm tasklist", -- [59]
-				"/s /adibags", -- [60]
-				"/g good mate and yourself?", -- [61]
-				"/s /tsm destroy", -- [62]
-				"/p see ya!", -- [63]
-				"/p Ill hop on", -- [64]
-				"/p text me when its up", -- [65]
-				"/p homework time!", -- [66]
-				"/p we'll see how long the download is", -- [67]
-				"/p is it a long patch?", -- [68]
-				"/p same to you!", -- [69]
-				"/p thatll have to do lol", -- [70]
-				"/p i need 1 more elite or somehting", -- [71]
-				"/p dont think ima make it lolw", -- [72]
-				"/p /wave", -- [73]
-				"/p 11 mins to live!", -- [74]
-				"/cw Teaenne we host all of our chat there", -- [75]
-				"/cw Teaenne the link is at the website", -- [76]
-				"/cw Teaenne Be sure to checkout our community", -- [77]
-				"/cw Teaenne welcome aboard", -- [78]
-				"/cw Teaenne-EmeraldDream see I knew we'd be a good match! :)", -- [79]
-				"/s /who r-pandaren", -- [80]
-				"/g /tsm tasklist", -- [81]
-				"/g should be the tailor leather girl if she spawns", -- [82]
-				"/g ok thanks for checking", -- [83]
-				"/g yep", -- [84]
-				"/g hey congrats!", -- [85]
-				"/cw Amordrillis hey do you have the craft vendor in any of your garrisons today?", -- [86]
-				"/g /cheer", -- [87]
-				"/g its kinda a cool one tbh", -- [88]
-				"/g lol I guess thats not where the name comes from eh XD", -- [89]
-				"/g seemed like an appropriate hunter name", -- [90]
-				"/g Do you drill holes in armor?", -- [91]
-				"/g welcome!", -- [92]
-				"/g /ginvite Amordrillis", -- [93]
-				"/cw Amordrillis you there", -- [94]
-				"/g /ginvite Amordrillis", -- [95]
-				"/g no worries", -- [96]
-				"/g Also, your Dad can do it too", -- [97]
-				"/g sure np", -- [98]
-				"/g almost there", -- [99]
-				"/g wow congrats man!", -- [100]
-				"/g haha congrats!", -- [101]
-				"/tsm tasklist", -- [102]
-				"I may a friend that will join us too", -- [103]
-				"/s /tsm destroy", -- [104]
-				"/p cya", -- [105]
-				"/p ok np", -- [106]
-				"/p probably", -- [107]
-				"/p finish up |cffffff00|Hquest:61539:2060|h[Liches Get Stitches]|h|r", -- [108]
-				"/p 10% more lol", -- [109]
-				"/p ty", -- [110]
-				"/p and get a coin for you as well as maldraxus credit", -- [111]
-				"/p we can unlock the chest", -- [112]
-				"/p theres a rune here", -- [113]
-				"/p /cheer", -- [114]
-				"/p haha itss your lucky day", -- [115]
-				"/p bust it out", -- [116]
-				"/p congrats", -- [117]
-				"/p whoa", -- [118]
-				"/p I cant attk him", -- [119]
-				"/p Looks like 2 more wq here", -- [120]
-				"/p cool", -- [121]
-				"/p do we not both get credit?", -- [122]
-				"/p im not getting slimes?", -- [123]
-				"/p 30 slime gathered", -- [124]
-				"/p im still with you", -- [125]
-				"/p for the win", -- [126]
-				"/p lol ya similar looking icons", -- [127]
-				"/p thats not a 2 person mount lol", -- [128]
-				"/p is that useful?", -- [129]
-				"/p I need to fix macro while we walk", -- [130]
-				"/p lets do 2 person mount", -- [131]
-				"/p any wq that give armor", -- [132]
-				"/p how much are you missing?", -- [133]
-				"/p you have lead", -- [134]
-				"/p lets do it", -- [135]
-				"/p ok", -- [136]
-				"/p np", -- [137]
-				"/p im flying", -- [138]
-				"/g ok lets do maldraxxus first then Ill switch", -- [139]
-				"/g which zones do you have to do", -- [140]
-				"/g ok ill switch", -- [141]
-				"/g what are you working on now?", -- [142]
-				"/g If so I can do it on this toon with you", -- [143]
-				"/g Do you have this quest on your druid yet |cffffff00|Hquest:61099:837|h[The Search for Baine]|h|r", -- [144]
-				"/p /tsm tasklist", -- [145]
-				"/p turning stuff in now", -- [146]
-				"/p sweet!", -- [147]
-				"/p 2 more for me", -- [148]
-				"/p ok", -- [149]
-				"/p 10", -- [150]
-				"/p ya omw", -- [151]
-				"/p maw first", -- [152]
-				"/p how about you?", -- [153]
-				"/p I need maldraxxus on this toon", -- [154]
-				"/p done lol", -- [155]
-				"/p such a good cheese lol", -- [156]
-				"/p left", -- [157]
-				"/p 2 coins", -- [158]
-				"/p ok done", -- [159]
-				"/p 86%", -- [160]
-				"/p I have a side obejective im also getting credit for", -- [161]
-				"/p kill a little more", -- [162]
-				"/p ty", -- [163]
-				"/p one more portal close", -- [164]
-				"/p I also have a side quest here", -- [165]
-				"/p I wish I could grab the node too", -- [166]
-				"/p np", -- [167]
-				"/p probably closer", -- [168]
-				"/p |cffffff00|Hworldmap:1533:4733:6609|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [169]
-				"/p nice", -- [170]
-				"/p Can I hop in a 2 person mount", -- [171]
-				"/p why are you running faster than I am?", -- [172]
-				"/p south", -- [173]
-				"/p |cffffff00|Hquest:59804:837|h[Gateways of Horror]|h|r", -- [174]
-				"/p |cffffff00|Hquest:59680:837|h[Vesiphone's Vicious Vesper]|h|r", -- [175]
-				"/p 2 more wq in bastion foor me", -- [176]
-				"/p all done", -- [177]
-				"/p kill 5 more little guys", -- [178]
-				"/p lol", -- [179]
-				"/p ok", -- [180]
-				"/p awesome", -- [181]
-				"/p I also need 3 coins of brokerage", -- [182]
-				"/p me either", -- [183]
-				"/p have you saved your souls in the maw already?", -- [184]
-				"/p k", -- [185]
-				"/p wm on or off?", -- [186]
-				"/p ok Ill start flyingt here I guess", -- [187]
-				"/p have you finished there already?", -- [188]
-				"/p I need to do 3 world quests in bastion", -- [189]
-				"/p lol its all good", -- [190]
-				"/cw Honustustere-EmeraldDream Would you mind helping me get a +10 myhic in for the week", -- [191]
-				"/cw Honustustere still sicck huh? sry about that", -- [192]
-				"/cw Honustustere wer you out working hard again?", -- [193]
-				"/cw Honustustere hey mate hows it going?", -- [194]
-				"/cw Noldertrick-EmeraldDream lets do some torgahst when I get back", -- [195]
-				"/cw Noldertrick-EmeraldDream ima go for my run", -- [196]
-				"/i gues its a duo to the finish lol", -- [197]
-				"/i back roght", -- [198]
-				"/p back right", -- [199]
-				"/cw Noldertrick-EmeraldDream better to have couldrons than flasks imo", -- [200]
-				"/cw Noldertrick-EmeraldDream so you can make couldrons", -- [201]
-				"/cw Noldertrick-EmeraldDream Normally I would say yes but hold on to the flasks for now", -- [202]
-				"/cw Noldertrick-EmeraldDream is there a cooldown for creating couldrons?", -- [203]
-				"/p ya I can", -- [204]
-				"/g ya lets do it", -- [205]
-				"/g trying to get DOS on this toon", -- [206]
-				"/g Im getting all my weekly dungeons done", -- [207]
-				"/g You've been on a crafting spree", -- [208]
-				"/g epic!", -- [209]
-				"/s ty", -- [210]
-				"/s /tsm destroy", -- [211]
-				"/s /tsm tasklist", -- [212]
-				"/cw Badsmell can you hear me on discord?", -- [213]
-				"/s Sorin", -- [214]
-				"/p Ill hop in discord", -- [215]
-				"/p ya and ppl dont typically herb there", -- [216]
-				"/p can we do that and farm some avowed rep at the same time?", -- [217]
-				"/p lol indeed!", -- [218]
-				"/p which to work on", -- [219]
-				"/p I need rep for days lol", -- [220]
-				"/p hmmm", -- [221]
-				"/p oh well lol", -- [222]
-				"/p lol they kicked me", -- [223]
-				"/cw Krimmzon-EmeraldDream Lets hop in discord", -- [224]
-				"/s /tsm destroy", -- [225]
-				"/s /tsm destory", -- [226]
-				"/p we gotta gettem leveled somehow!", -- [227]
-				"/p Haha its all good", -- [228]
-				"/p Rouge has more gear", -- [229]
-				"/p I could go on my lock or on my rouge", -- [230]
-				"/p thats the worst- my 5 key is the same on my mouse and I hate it", -- [231]
-				"/p Lets do it", -- [232]
-				"/p what you up to?", -- [233]
-				"/p Not sure yet lol still waking up", -- [234]
-				"/p good morning!", -- [235]
-				"/s /rematch", -- [236]
-				"/s /rematch help", -- [237]
-				"/s /rematch config", -- [238]
-				"/s /rematch option", -- [239]
-				"/s /rematch options", -- [240]
-				"/s /rematch", -- [241]
-				"/p /tsm tasklist", -- [242]
-				"/p np!", -- [243]
-				"/p Your the tank you get to decide", -- [244]
-				"/p dont worry if they ever try to kick Ill just vote against it", -- [245]
-				"/i yummy trash", -- [246]
-				"/p yummy trash", -- [247]
-				"/p Yes I think your right", -- [248]
-				"/p I passed you lead", -- [249]
-				"/p was looking up rep requirements for feasts", -- [250]
-				"/p oh sry about that", -- [251]
-				"/p aha!", -- [252]
-				"/p that also give rep", -- [253]
-				"/p we can summon some elites outside the instance", -- [254]
-				"/p If we get enough sinstones", -- [255]
-				"/p want to do another?", -- [256]
-				"/p hello", -- [257]
-				"/p oh your back lol", -- [258]
-				"/cw Honustustere-EmeraldDream good stuff!", -- [259]
-				"/cw Honustustere-EmeraldDream well if I see you on Ill join back up", -- [260]
-				"/cw Honustustere-EmeraldDream All good, thanks for letting me join you btw", -- [261]
-				"/cw Honustustere-EmeraldDream so try to pull as much trash mobs as we go along", -- [262]
-				"/cw Honustustere-EmeraldDream I believe it stops from this point on", -- [263]
-				"/cw Honustustere-EmeraldDream btw you only get rep from this first half of this dungeon", -- [264]
-				"/cw Honustustere-EmeraldDream I do alot more aoe dmg as demonology", -- [265]
-				"/cw Honustustere-EmeraldDream Your doing great Im still trying to setup my bars", -- [266]
-				"/p sweet!", -- [267]
-				"/cw Honustustere-EmeraldDream cool!", -- [268]
-				"/cw Honustustere-EmeraldDream Ok Ill go do some dailies but can I join you?", -- [269]
-				"/cw Honustustere Hey are you going to do another HOA run? I'm looking to farm avowed rep as well", -- [270]
-				"/s /tsm destroy", -- [271]
-				"/s /tsm tasklist", -- [272]
-				"/s /att", -- [273]
-				"/s /tomtom", -- [274]
-				"/s /att", -- [275]
-				"/s /tsm destroy", -- [276]
-				"/s /reload", -- [277]
-			},
-			["ChatFrame3EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
-			},
-			["ChatFrame9EditBox"] = {
-			},
-		},
-	},
+["history"] = {
+["cmdhistory"] = {
+["ChatFrame10EditBox"] = {
+},
+["ChatFrame7EditBox"] = {
+},
+["ChatFrame5EditBox"] = {
+},
+["ChatFrame8EditBox"] = {
+},
+["ChatFrame4EditBox"] = {
+},
+["ChatFrame6EditBox"] = {
+},
+["ChatFrame9EditBox"] = {
+},
+["ChatFrame1EditBox"] = {
+"/y hop on!",
+"/p /inv saiguy-emerald dream",
+"/p /inv saigui",
+"/p set your hearthstone",
+"/s /inv Sunnybunni",
+"/s /inv Voidsshadow-emerald dream",
+},
+["ChatFrame2EditBox"] = {
+},
+["ChatFrame3EditBox"] = {
+},
+},
+},
 }
 Prat3HighCPUPerCharDB = {
-	["scrollback"] = {
-		["ChatFrame3"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 4,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1629941627,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 730678.648,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
-				}, -- [1]
-				{
-					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
-					["timestamp"] = 730678.648,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 730678.648,
-				}, -- [3]
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 730635.034,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [4]
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-		["ChatFrame11"] = {
-			["maxElements"] = 128,
-			["elements"] = {
-				{
-					["message"] = "|Hpratcopy|h[07:58]|h You have been disconnected from the Chat Server and may be unable to send or receive messages.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 329029.311,
-					["serverTime"] = 1624975106,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [1]
-				{
-					["message"] = "|Hpratcopy|h[07:58]|h You have been disconnected from Blizzard services.",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 329029.311,
-					["serverTime"] = 1624975106,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-				}, -- [2]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:84:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327599.229,
-					["serverTime"] = 1624973676,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [3]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 3",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327601.167,
-					["serverTime"] = 1624973677,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [4]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:84:10:13|h[Flamethrower]|h|r dealt 22 damage to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327602.671,
-					["serverTime"] = 1624973679,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [5]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:84:10:13|h[Flamethrower]|h|r applied |T236216:14|t|cff4e96f7|HbattlePetAbil:502:84:10:13|h[Flamethrower]|h|r to enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327602.922,
-					["serverTime"] = 1624973679,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [6]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T451161:14|t|cff4e96f7|HbattlePetAbil:202:91:15:13|h[Thrash]|h|r dealt 17 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327605.161,
-					["serverTime"] = 1624973681,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [7]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T451161:14|t|cff4e96f7|HbattlePetAbil:202:91:15:13|h[Thrash]|h|r dealt 17 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327605.662,
-					["serverTime"] = 1624973682,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [8]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:50:10:13|h[Flamethrower]|h|r dealt 10 damage to enemy |T1623379:14|tBoneclaw (Critical).",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327606.447,
-					["serverTime"] = 1624973683,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [9]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:50:10:13|h[Flamethrower]|h|r applied |T618972:14|t|cff4e96f7|HbattlePetAbil:237:50:10:13|h[Beast]|h|r to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327606.447,
-					["serverTime"] = 1624973683,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [10]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 4",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327608.168,
-					["serverTime"] = 1624973684,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [11]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T451161:14|t|cff4e96f7|HbattlePetAbil:202:81:15:13|h[Thrash]|h|r dealt 21 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327609.321,
-					["serverTime"] = 1624973686,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [12]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:29:10:13|h[Flamethrower]|h|r dealt 33 damage to enemy |T1623379:14|tBoneclaw (Critical).",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327611.577,
-					["serverTime"] = 1624973688,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [13]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:29:10:13|h[Flamethrower]|h|r applied |T236216:14|t|cff4e96f7|HbattlePetAbil:502:29:10:13|h[Flamethrower]|h|r to enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327612.045,
-					["serverTime"] = 1624973688,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [14]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:29:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327613.081,
-					["serverTime"] = 1624973689,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [15]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 5",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327615.186,
-					["serverTime"] = 1624973691,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [16]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T451161:14|t|cff4e96f7|HbattlePetAbil:202:41:15:13|h[Thrash]|h|r dealt 21 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327616.305,
-					["serverTime"] = 1624973693,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [17]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:8:10:13|h[Flamethrower]|h|r dealt 22 damage to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327618.561,
-					["serverTime"] = 1624973695,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [18]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:8:10:13|h[Flamethrower]|h|r applied |T236216:14|t|cff4e96f7|HbattlePetAbil:502:8:10:13|h[Flamethrower]|h|r to enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327618.962,
-					["serverTime"] = 1624973695,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [19]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:8:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327619.997,
-					["serverTime"] = 1624973696,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [20]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 6",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327622.203,
-					["serverTime"] = 1624973698,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [21]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:8:10:13|h[Flamethrower]|h|r dealt 22 damage to enemy |T1623379:14|tBoneclaw.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327623.707,
-					["serverTime"] = 1624973700,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [22]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Enemy |T1623379:14|tBoneclaw died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327623.707,
-					["serverTime"] = 1624973700,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [23]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:8:10:13|h[Flamethrower]|h|r applied |T236216:14|t|cff4e96f7|HbattlePetAbil:502:8:10:13|h[Flamethrower]|h|r to enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327625.461,
-					["serverTime"] = 1624973702,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [24]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 6",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327626.464,
-					["serverTime"] = 1624973703,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [25]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2027855:14|tSpindler is now enemy active pet.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327626.464,
-					["serverTime"] = 1624973703,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [26]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 7",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327629.204,
-					["serverTime"] = 1624973705,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [27]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:190:11:13|h[Brittle Webbing]|h|r dealt 15 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327630.206,
-					["serverTime"] = 1624973706,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [28]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T894222:14|tSky-Bo died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327630.206,
-					["serverTime"] = 1624973706,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [29]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r healed 30 damage from your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327632.729,
-					["serverTime"] = 1624973709,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [30]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r applied |T618979:14|t|cff4e96f7|HbattlePetAbil:244:30:10:13|h[Mechanical]|h|r to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327632.98,
-					["serverTime"] = 1624973709,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [31]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:190:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:190:11:13|h[Brittle Webbing]|h|r to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327634.233,
-					["serverTime"] = 1624973711,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [32]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:30:10:13|h[Flamethrower]|h|r dealt 22 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327636.906,
-					["serverTime"] = 1624973713,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [33]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:168:11:13|h[Brittle Webbing]|h|r dealt 7 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327636.906,
-					["serverTime"] = 1624973713,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [34]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:23:10:13|h[Flamethrower]|h|r applied |T236216:14|t|cff4e96f7|HbattlePetAbil:502:23:10:13|h[Flamethrower]|h|r to enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327637.574,
-					["serverTime"] = 1624973714,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [35]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:23:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327638.61,
-					["serverTime"] = 1624973715,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [36]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:161:11:13|h[Brittle Webbing]|h|r dealt 7 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327638.61,
-					["serverTime"] = 1624973715,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [37]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 8",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327640.248,
-					["serverTime"] = 1624973717,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [38]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:161:11:13|h[Brittle Webbing]|h|r dealt 15 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327641.718,
-					["serverTime"] = 1624973718,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [39]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:161:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:161:11:13|h[Brittle Webbing]|h|r to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327641.968,
-					["serverTime"] = 1624973718,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [40]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:1:10:13|h[Flamethrower]|h|r dealt 22 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327644.641,
-					["serverTime"] = 1624973721,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [41]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:139:11:13|h[Brittle Webbing]|h|r dealt 7 damage to your |T894222:14|tSky-Bo.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327644.641,
-					["serverTime"] = 1624973721,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [42]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T894222:14|tSky-Bo died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327644.641,
-					["serverTime"] = 1624973721,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [43]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:503:0:10:13|h[Flamethrower]|h|r applied |T236216:14|t|cff4e96f7|HbattlePetAbil:502:0:10:13|h[Flamethrower]|h|r to enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327646.931,
-					["serverTime"] = 1624973723,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [44]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:0:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327647.966,
-					["serverTime"] = 1624973724,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [45]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 8",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327652.227,
-					["serverTime"] = 1624973729,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [46]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T986492:14|tMechanical Scorpid is now your active pet.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327652.227,
-					["serverTime"] = 1624973729,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [47]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 9",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327656.237,
-					["serverTime"] = 1624973733,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [48]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:132:11:13|h[Brittle Webbing]|h|r dealt 15 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327657.373,
-					["serverTime"] = 1624973734,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [49]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:132:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:132:11:13|h[Brittle Webbing]|h|r to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327657.623,
-					["serverTime"] = 1624973734,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [50]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:137:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327659.879,
-					["serverTime"] = 1624973736,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [51]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:104:11:13|h[Brittle Webbing]|h|r dealt 7 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327659.879,
-					["serverTime"] = 1624973736,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [52]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:130:10:13|h[Barbed Stinger]|h|r missed enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327660.38,
-					["serverTime"] = 1624973737,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [53]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:0:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327661.416,
-					["serverTime"] = 1624973738,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [54]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 10",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327663.237,
-					["serverTime"] = 1624973740,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [55]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:130:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327664.49,
-					["serverTime"] = 1624973741,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [56]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:69:11:13|h[Brittle Webbing]|h|r dealt 7 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327664.49,
-					["serverTime"] = 1624973741,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [57]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:123:10:13|h[Barbed Stinger]|h|r applied |T618972:14|t|cff4e96f7|HbattlePetAbil:237:123:10:13|h[Beast]|h|r to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327664.741,
-					["serverTime"] = 1624973741,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [58]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:123:10:13|h[Barbed Stinger]|h|r missed enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327664.992,
-					["serverTime"] = 1624973741,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [59]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:69:11:13|h[Brittle Webbing]|h|r dealt 19 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327666.996,
-					["serverTime"] = 1624973743,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [60]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:69:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:69:11:13|h[Brittle Webbing]|h|r to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327667.247,
-					["serverTime"] = 1624973744,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [61]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:0:10:13|h[Flamethrower]|h|r dealt 7 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327668.283,
-					["serverTime"] = 1624973745,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [62]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T236216:14|t|cff4e96f7|HbattlePetAbil:502:0:10:13|h[Flamethrower]|h|r fades from enemy team.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327669.285,
-					["serverTime"] = 1624973746,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [63]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 11",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327670.237,
-					["serverTime"] = 1624973747,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [64]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:62:11:13|h[Brittle Webbing]|h|r dealt 19 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327671.54,
-					["serverTime"] = 1624973748,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [65]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:62:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:62:11:13|h[Brittle Webbing]|h|r to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327671.791,
-					["serverTime"] = 1624973748,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [66]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:85:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327674.063,
-					["serverTime"] = 1624973750,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [67]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:34:11:13|h[Brittle Webbing]|h|r dealt 9 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327674.063,
-					["serverTime"] = 1624973750,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [68]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:76:10:13|h[Barbed Stinger]|h|r missed enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327674.565,
-					["serverTime"] = 1624973751,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [69]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 12",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327676.252,
-					["serverTime"] = 1624973753,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [70]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:76:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327677.521,
-					["serverTime"] = 1624973754,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [71]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:6:11:13|h[Brittle Webbing]|h|r dealt 9 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327677.521,
-					["serverTime"] = 1624973754,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [72]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:67:10:13|h[Barbed Stinger]|h|r missed enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327678.023,
-					["serverTime"] = 1624973754,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [73]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:6:11:13|h[Brittle Webbing]|h|r dealt 19 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327680.027,
-					["serverTime"] = 1624973756,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [74]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:6:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:6:11:13|h[Brittle Webbing]|h|r to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327680.278,
-					["serverTime"] = 1624973757,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [75]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 13",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327682.266,
-					["serverTime"] = 1624973759,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [76]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:6:11:13|h[Brittle Webbing]|h|r dealt 19 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327683.269,
-					["serverTime"] = 1624973760,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [77]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:382:6:11:13|h[Brittle Webbing]|h|r applied |T135822:14|t|cff4e96f7|HbattlePetAbil:381:6:11:13|h[Brittle Webbing]|h|r to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327683.519,
-					["serverTime"] = 1624973760,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [78]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:29:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T2027855:14|tSpindler.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327685.791,
-					["serverTime"] = 1624973762,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [79]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Enemy |T2027855:14|tSpindler died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327685.791,
-					["serverTime"] = 1624973762,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [80]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:0:11:13|h[Brittle Webbing]|h|r dealt 9 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327687.294,
-					["serverTime"] = 1624973764,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [81]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 13",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327689.299,
-					["serverTime"] = 1624973766,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [82]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T458967:14|tRocko is now enemy active pet.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327689.299,
-					["serverTime"] = 1624973766,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [83]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 14",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327692.272,
-					["serverTime"] = 1624973769,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [84]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:20:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327693.392,
-					["serverTime"] = 1624973770,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [85]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:0:11:13|h[Brittle Webbing]|h|r dealt 9 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327693.392,
-					["serverTime"] = 1624973770,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [86]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:11:10:13|h[Barbed Stinger]|h|r missed enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327693.893,
-					["serverTime"] = 1624973770,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [87]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T237477:14|t|cff4e96f7|HbattlePetAbil:801:178:13:9|h[Stone Shot]|h|r dealt 49 damage to your |T986492:14|tMechanical Scorpid (Strong).",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327695.898,
-					["serverTime"] = 1624973772,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [88]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T986492:14|tMechanical Scorpid died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327695.898,
-					["serverTime"] = 1624973772,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [89]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r healed 30 damage from your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327698.421,
-					["serverTime"] = 1624973775,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [90]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r applied |T618979:14|t|cff4e96f7|HbattlePetAbil:244:30:10:13|h[Mechanical]|h|r to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327698.671,
-					["serverTime"] = 1624973775,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [91]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:186:13:9|h[Recovery]|h|r healed 8 damage from enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327700.676,
-					["serverTime"] = 1624973777,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [92]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 15",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327701.495,
-					["serverTime"] = 1624973778,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [93]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:30:10:13|h[Barbed Stinger]|h|r dealt 28 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327702.798,
-					["serverTime"] = 1624973779,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [94]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135822:14|t|cff4e96f7|HbattlePetAbil:381:0:11:13|h[Brittle Webbing]|h|r dealt 9 damage to your |T986492:14|tMechanical Scorpid.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327702.798,
-					["serverTime"] = 1624973779,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [95]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T136068:14|t|cff4e96f7|HbattlePetAbil:1369:21:10:13|h[Barbed Stinger]|h|r missed enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327703.299,
-					["serverTime"] = 1624973780,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [96]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T237477:14|t|cff4e96f7|HbattlePetAbil:801:158:13:9|h[Stone Shot]|h|r dealt 49 damage to your |T986492:14|tMechanical Scorpid (Strong).",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327705.303,
-					["serverTime"] = 1624973782,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [97]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T986492:14|tMechanical Scorpid died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327705.303,
-					["serverTime"] = 1624973782,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [98]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:166:13:9|h[Recovery]|h|r healed 8 damage from enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327707.81,
-					["serverTime"] = 1624973784,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [99]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 15",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327708.612,
-					["serverTime"] = 1624973785,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [100]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132598:14|tMechanical Axebeak is now your active pet.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327708.612,
-					["serverTime"] = 1624973785,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [101]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 16",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327712.287,
-					["serverTime"] = 1624973789,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [102]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:152:13:16|h[Alpha Strike]|h|r dealt 24 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327713.791,
-					["serverTime"] = 1624973790,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [103]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:152:13:16|h[Alpha Strike]|h|r dealt 16 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327715.044,
-					["serverTime"] = 1624973791,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [104]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T237477:14|t|cff4e96f7|HbattlePetAbil:801:126:13:9|h[Stone Shot]|h|r dealt 33 damage to your |T132598:14|tMechanical Axebeak.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327716.798,
-					["serverTime"] = 1624973793,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [105]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:134:13:9|h[Recovery]|h|r healed 8 damage from enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327717.801,
-					["serverTime"] = 1624973794,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [106]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 17",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327719.555,
-					["serverTime"] = 1624973796,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [107]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:119:13:16|h[Alpha Strike]|h|r dealt 24 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327721.058,
-					["serverTime"] = 1624973797,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [108]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:119:13:16|h[Alpha Strike]|h|r dealt 16 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327722.311,
-					["serverTime"] = 1624973799,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [109]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T237477:14|t|cff4e96f7|HbattlePetAbil:801:94:13:9|h[Stone Shot]|h|r dealt 33 damage to your |T132598:14|tMechanical Axebeak.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327724.082,
-					["serverTime"] = 1624973800,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [110]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:102:13:9|h[Recovery]|h|r healed 8 damage from enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327725.084,
-					["serverTime"] = 1624973801,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [111]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 18",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327726.488,
-					["serverTime"] = 1624973803,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [112]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:86:13:16|h[Alpha Strike]|h|r dealt 24 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327727.992,
-					["serverTime"] = 1624973804,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [113]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:86:13:16|h[Alpha Strike]|h|r dealt 16 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327729.245,
-					["serverTime"] = 1624973806,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [114]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T237477:14|t|cff4e96f7|HbattlePetAbil:801:62:13:9|h[Stone Shot]|h|r dealt 33 damage to your |T132598:14|tMechanical Axebeak.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327730.999,
-					["serverTime"] = 1624973807,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [115]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618976:14|t|cff4e96f7|HbattlePetAbil:239:53:13:16|h[Flying]|h|r fades from your |T132598:14|tMechanical Axebeak.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327730.999,
-					["serverTime"] = 1624973807,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [116]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:70:13:9|h[Recovery]|h|r healed 8 damage from enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327732.001,
-					["serverTime"] = 1624973808,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [117]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 19",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327733.722,
-					["serverTime"] = 1624973810,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [118]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:53:13:10|h[Alpha Strike]|h|r dealt 24 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327735.225,
-					["serverTime"] = 1624973812,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [119]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:53:13:10|h[Alpha Strike]|h|r dealt 16 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327736.479,
-					["serverTime"] = 1624973813,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [120]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T237477:14|t|cff4e96f7|HbattlePetAbil:801:30:13:9|h[Stone Shot]|h|r dealt 33 damage to your |T132598:14|tMechanical Axebeak.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327738.233,
-					["serverTime"] = 1624973815,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [121]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618977:14|t|cff4e96f7|HbattlePetAbil:726:38:13:9|h[Recovery]|h|r healed 8 damage from enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327739.235,
-					["serverTime"] = 1624973816,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [122]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 20",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327741.039,
-					["serverTime"] = 1624973817,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [123]
-				{
-					["message"] = "|Hpratcopy|h[07:36]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:20:13:10|h[Alpha Strike]|h|r dealt 24 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327742.543,
-					["serverTime"] = 1624973819,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [124]
-				{
-					["message"] = "|Hpratcopy|h[07:37]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T132172:14|t|cff4e96f7|HbattlePetAbil:504:20:13:10|h[Alpha Strike]|h|r dealt 16 damage to enemy |T458967:14|tRocko.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327743.796,
-					["serverTime"] = 1624973820,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [125]
-				{
-					["message"] = "|Hpratcopy|h[07:37]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Enemy |T458967:14|tRocko died.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327743.796,
-					["serverTime"] = 1624973820,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [126]
-				{
-					["message"] = "|Hpratcopy|h[07:37]|h |Hchannel:PET_BATTLE_INFO|h[Pet Battle]|h: Your |T132598:14|tMechanical Axebeak gains 25 XP.",
-					["b"] = 0.364705890417099,
-					["r"] = 0.8823530077934265,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327749.409,
-					["serverTime"] = 1624973826,
-					["extraData"] = {
-						62, -- [1]
-						false, -- [2]
-						47, -- [3]
-						48, -- [4]
-						["n"] = 4,
-					},
-				}, -- [127]
-				{
-					["message"] = "|Hpratcopy|h[07:37]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463526:14|t|cff4e96f7|HbattlePetAbil:681:86:13:10|h[Battle Recovery]|h|r healed 66 damage from your |T132598:14|tMechanical Axebeak.",
-					["b"] = 0.6705882549285889,
-					["r"] = 0.9058824181556702,
-					["g"] = 0.8705883026123047,
-					["timestamp"] = 327749.409,
-					["serverTime"] = 1624973826,
-					["extraData"] = {
-						61, -- [1]
-						false, -- [2]
-						45, -- [3]
-						46, -- [4]
-						["n"] = 4,
-					},
-				}, -- [128]
-			},
-			["headIndex"] = 2,
-		},
-		["ChatFrame1"] = {
-			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 22,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
-			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
-			["PushBack"] = nil --[[ skipped inline function ]],
-			["RemoveIf"] = nil --[[ skipped inline function ]],
-			["Clear"] = nil --[[ skipped inline function ]],
-			["PushFront"] = nil --[[ skipped inline function ]],
-			["OnLoad"] = nil --[[ skipped inline function ]],
-			["IsEmpty"] = nil --[[ skipped inline function ]],
-			["IsFull"] = nil --[[ skipped inline function ]],
-			["elements"] = {
-				{
-					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
-					["timestamp"] = 730635.034,
-				}, -- [1]
-				{
-					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
-					["timestamp"] = 730635.034,
-				}, -- [2]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
-					["timestamp"] = 730635.034,
-				}, -- [3]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 730678.204,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [4]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h Unknown macro option: etc",
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 730678.648,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [5]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
-					["timestamp"] = 730678.648,
-				}, -- [6]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
-					["timestamp"] = 730678.648,
-				}, -- [7]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
-					["timestamp"] = 730678.648,
-				}, -- [8]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
-					["timestamp"] = 730678.648,
-				}, -- [9]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.22)|r:  hooked into Rematch",
-					["timestamp"] = 730678.648,
-					["serverTime"] = 1629941627,
-				}, -- [10]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
-					["timestamp"] = 730678.648,
-					["serverTime"] = 1629941627,
-				}, -- [11]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
-					["timestamp"] = 730678.648,
-					["serverTime"] = 1629941627,
-				}, -- [12]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h Loot Specialization set to: Destruction",
-					["serverTime"] = 1629941633,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 730678.648,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [13]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.5.1|r. Type |cff888888/reckless config|r to configure settings.",
-					["timestamp"] = 730678.648,
-					["serverTime"] = 1629941634,
-				}, -- [14]
-				{
-					["message"] = "|Hpratcopy|h[07:33]|h |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
-					["timestamp"] = 730678.648,
-					["serverTime"] = 1629941634,
-				}, -- [15]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h [0. KK - ] has been added to this chat window.",
-					["r"] = 1,
-					["serverTime"] = 1629941643,
-					["timestamp"] = 730695.606,
-					["g"] = 0.753,
-					["b"] = 0.753,
-				}, -- [16]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h [1. KK] has been added to this chat window.",
-					["r"] = 1,
-					["serverTime"] = 1629941647,
-					["timestamp"] = 730700.154,
-					["g"] = 0.753,
-					["b"] = 0.753,
-				}, -- [17]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:channel:2|h[2. Trade] |hInvalid channel name",
-					["serverTime"] = 1629941647,
-					["r"] = 1,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 730700.414,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [18]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h [1. KK] has been added to this chat window.",
-					["r"] = 1,
-					["serverTime"] = 1629941655,
-					["timestamp"] = 730707.692,
-					["g"] = 0.753,
-					["b"] = 0.753,
-				}, -- [19]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |Hchannel:channel:2|h[2. Trade] |hInvalid channel name",
-					["serverTime"] = 1629941655,
-					["r"] = 1,
-					["extraData"] = {
-						69, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 730708.006,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [20]
-				{
-					["message"] = "|Hpratcopy|h[07:34]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
-					["timestamp"] = 730714.715,
-					["serverTime"] = 1629941662,
-				}, -- [21]
-				{
-					["message"] = "|Hpratcopy|h[07:35]|h You create: |cff1eff00|Hitem:180457::::::::60:267:::::::::|h[Shadestone]|h|r.",
-					["serverTime"] = 1629941717,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						6, -- [3]
-						7, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 730770.277,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [22]
-			},
-			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
-			["TransformIf"] = nil --[[ skipped inline function ]],
-			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
-			["GetNumElements"] = nil --[[ skipped inline function ]],
-			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
-		},
-	},
+["scrollback"] = {
+["ChatFrame5"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame4"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 39,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:37]|h|r Guild Message of the Day: \"Welcome! Please register at kk.shivtr.com\"",
+["r"] = 0.250980406999588,
+["extraData"] = {
+5,
+["n"] = 1,
+},
+["timestamp"] = 180994.612,
+["g"] = 1,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:25]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:314:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723310844,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181161.888,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:25]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:316:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723310844,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181161.888,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:32]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:323:PARTY|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: set your hearthstone",
+["serverTime"] = 1723310911,
+["r"] = 0.4627451300621033,
+["extraData"] = {
+50,
+12,
+13,
+["n"] = 3,
+},
+["timestamp"] = 181229.037,
+["g"] = 0.7843137979507446,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:325:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723310929,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181246.749,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:327:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723310929,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181246.749,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:54]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:328:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723310933,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181251.513,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:54]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:330:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723310933,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181251.513,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:44]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:333:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723311163,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181481.145,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:44]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:335:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723311163,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181481.145,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:33:32]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Goldsquid-MoonGuard:336:PARTY|h|cff8b8b8b29|r:|cffff7c0aGoldsquid|r-MoonGuard|h|cffd8d8d8]|r: lets summon sai",
+["serverTime"] = 1723311211,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+14,
+["n"] = 3,
+},
+["timestamp"] = 181529.567,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:39:06]|h|r Venoss-TwistingNether creates Reforged Truesilver Champion.",
+["serverTime"] = 1723311545,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 181863.139,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:14]|h|r Leetskeels creates Runed Copper Rod.",
+["serverTime"] = 1723311613,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 181931.34,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:45:40]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:365:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723311939,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182256.802,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:45:40]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:367:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723311939,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182256.802,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:49]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:387:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723312368,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182686.2,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:49]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:389:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723312368,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182686.2,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:55:05]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:394:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: Hey lets meet up",
+["serverTime"] = 1723312504,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182822.201,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:12]|h|r Saiguy creates Tarnished Raging Berserker's Helm.",
+["serverTime"] = 1723312571,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182889.277,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:14]|h|r Saiguy creates Prized Beastmaster's Mantle.",
+["serverTime"] = 1723312573,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182891.111,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:15]|h|r Saiguy creates Champion's Deathdealer Breastplate.",
+["serverTime"] = 1723312574,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182892.344,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:16]|h|r Saiguy creates Tarnished Leggings of Destruction.",
+["serverTime"] = 1723312575,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182893.444,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:17]|h|r Saiguy creates Charmed Ancient Bone Bow.",
+["serverTime"] = 1723312576,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182894.517,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:21]|h|r Saiguy creates Band of Radiant Echoes.",
+["serverTime"] = 1723312580,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182897.784,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:22]|h|r Saiguy creates Dread Pirate Ring.",
+["serverTime"] = 1723312581,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182898.951,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:31]|h|r Saiguy creates Eternal Will of the Martyr.",
+["serverTime"] = 1723312590,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182907.984,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:33]|h|r Saiguy creates Swift Hand of Justice.",
+["serverTime"] = 1723312592,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182910.517,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:34]|h|r Saiguy creates Swift Hand of Justice.",
+["serverTime"] = 1723312593,
+["r"] = 1,
+["extraData"] = {
+31,
+21,
+22,
+["n"] = 3,
+},
+["timestamp"] = 182911.484,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:57:12]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:421:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: follow me",
+["serverTime"] = 1723312631,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182949.571,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:57:16]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:422:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: com",
+["serverTime"] = 1723312635,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182953.438,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:57:56]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:423:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: it wont let us hop on",
+["serverTime"] = 1723312675,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182993.279,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:01]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:424:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: maybe only a dragonflight thing",
+["serverTime"] = 1723312680,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182998.17,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:05]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:425:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: could hav echanged",
+["serverTime"] = 1723312684,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183001.87,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:12]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:426:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: i still cant click",
+["serverTime"] = 1723312691,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183009.532,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:18]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:427:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: oh works",
+["serverTime"] = 1723312697,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183015.016,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:36]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:429:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: sai cant fly till lvl 10",
+["serverTime"] = 1723312715,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183033.639,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:44]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:430:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: and probably same with manaia",
+["serverTime"] = 1723312723,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183041.169,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:11:03]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:451:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: hop on!",
+["serverTime"] = 1723313462,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 183779.972,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:37]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:476:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: hey you left me",
+["serverTime"] = 1723313795,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 184102.308,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame3"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 1,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 180939.533,
+["g"] = 1,
+["b"] = 0,
+},
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame7"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame6"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame8"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame10"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame9"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 0,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+},
+["maxElements"] = 128,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+["ChatFrame1"] = {
+["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["headIndex"] = 291,
+["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+["PushBack"] = nil --[[ skipped inline function ]],
+["RemoveIf"] = nil --[[ skipped inline function ]],
+["Clear"] = nil --[[ skipped inline function ]],
+["PushFront"] = nil --[[ skipped inline function ]],
+["OnLoad"] = nil --[[ skipped inline function ]],
+["IsEmpty"] = nil --[[ skipped inline function ]],
+["IsFull"] = nil --[[ skipped inline function ]],
+["elements"] = {
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Azeroth-BfA is deprecated and will not be available. Please remove the folder DBM-Azeroth-BfA from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Azeroth-BfA that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 180952.926,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-ZuldazarRaid is deprecated and will not be available. Please remove the folder DBM-ZuldazarRaid from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-ZuldazarRaid that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 180952.926,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-CrucibleofStorms is deprecated and will not be available. Please remove the folder DBM-CrucibleofStorms from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-CrucibleofStorms that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 180952.926,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Nyalotha is deprecated and will not be available. Please remove the folder DBM-Nyalotha from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Nyalotha that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 180952.926,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-EternalPalace is deprecated and will not be available. Please remove the folder DBM-EternalPalace from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-EternalPalace that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 180952.926,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "|cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r The mod DBM-Uldir is deprecated and will not be available. Please remove the folder DBM-Uldir from your Interface\\AddOns folder to get rid of this message. Check for an updated version of DBM-Uldir that is compatible with your game version.",
+["r"] = 0.41,
+["timestamp"] = 180952.926,
+["g"] = 0.8,
+["b"] = 0.94,
+},
+{
+["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+["r"] = 1,
+["timestamp"] = 180962.983,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:13]|h|r |cffd177ffN|cffc480fba|cffb787f6r|cffa98ef2c|cff9a94edi|cff8a9ae9s|cff789fe5s|cff63a4e0u|cff48a8dcs|r |cFFFFD100New Game Version:|r 110000 |cff808080(DB version 100207)|r",
+["timestamp"] = 180969.905,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:30]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+["timestamp"] = 180974.72,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:32]|h|r ISBoxer: Loading Key Bindings...",
+["r"] = 1,
+["timestamp"] = 180974.72,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:32]|h|r ISBoxer: No WoW Macros loaded.",
+["r"] = 1,
+["timestamp"] = 180974.72,
+["g"] = 1,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:37]|h|r Guild Message of the Day: \"Welcome! Please register at kk.shivtr.com\"",
+["r"] = 0.250980406999588,
+["extraData"] = {
+5,
+["n"] = 1,
+},
+["timestamp"] = 180994.612,
+["g"] = 1,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:38]|h|r Unknown macro option: etc",
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 180995.156,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:39]|h|r |cff33ff99TRP3|r: The profile |cff00ff00Default profile|r is loaded.",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310679,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:39]|h|r |cff33ff99TRP3|r: Thank you for using Total RP 3 (v 3.0.1)! Have fun!",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310679,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:39]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.2.5)|r:  hooked into Rematch",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310679,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:39]|h|r |cff33ff99DataStore_Garrisons|r: Samoanruin has 500 uncollected resources",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310679,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:39]|h|r |cff33ff99DataStore_Garrisons|r: Samoantank has 500 uncollected resources",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310679,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:41]|h|r Loot Specialization set to: Destruction",
+["serverTime"] = 1723310681,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 180995.156,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:41]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310681,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv2.0.2|r. Type |cff888888/rab|r to configure settings.",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r Loading Slash Commands",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cnBLUE_FONT_COLOR:[KK] |cff808080 OnEvent Player Entering World |r",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cnBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cnBRIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cnLIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cnBATTLENET_FONT_COLOR:[KK]",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cFF00FFF6[KK]",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r |cffA236EF[|r|cff9448F1K|r|cff865BF2o|r|cff786DF4k|r|cff6A80F6o|r|cff5D92F7n|r|cff4FA4F9u|r|cff41B7FAt|r|cff33C9FC]|r",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r Hello World!",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r The [KK] addon has previously loaded 164 times",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:42]|h|r Options Panel Worked",
+["timestamp"] = 180995.156,
+["serverTime"] = 1723310682,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:50]|h|r |cff33ff99Altoholic|r: Auctions have not been checked on |cffff7c0aSamoanbeast|r since 35 days, check the auction house and your mailbox !",
+["timestamp"] = 181005.546,
+["serverTime"] = 1723310690,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:50]|h|r |cff33ff99DataStore_Mails|r: Samoanslayer (Area 52) has expired (or about to expire) mails ",
+["timestamp"] = 181005.546,
+["serverTime"] = 1723310690,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:50]|h|r |cff33ff99DataStore_Mails|r: Samoanblast (Emerald Dream) has expired (or about to expire) mails ",
+["timestamp"] = 181005.546,
+["serverTime"] = 1723310690,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:24:50]|h|r |cff33ff99Rematch_TSMPetValues|r: |cff88ff88Found usable data from TradeSkillMaster.|r",
+["timestamp"] = 181005.546,
+["serverTime"] = 1723310690,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r Quest accepted: Champion of the Waterlords",
+["serverTime"] = 1723310721,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181038.144,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:78172:2699|h[Mysterious Seeds]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:76566:2699|h[The Dryad Garden]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:40519:356|h[Legion: The Legion Returns]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66230:2382|h[A Sketchy Request]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:70837:2378|h[Follow the Clues]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:71239:2545|h[Lost to the Skies]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66472:2367|h[Primal List]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66100:2382|h[Supplying in Weight]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:70650:2401|h[In Tyr's Footsteps: The Waking Shores]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:36239:1218|h[A Mysterious Satchel]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:21]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:39422:360|h[Shipyard Report]|h|r from group abandons",
+["timestamp"] = 181038.664,
+["serverTime"] = 1723310721,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r Loot Specialization set to: Destruction",
+["serverTime"] = 1723310739,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 181055.265,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r Loading Slash Commands",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r Options Panel Worked",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r The [KK] addon has previously loaded 165 times",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cnBLUE_FONT_COLOR:[KK] |cff808080 OnEvent Player Entering World |r",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cnBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cnBRIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cnLIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cnBATTLENET_FONT_COLOR:[KK]",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cFF00FFF6[KK]",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r |cffA236EF[|r|cff9448F1K|r|cff865BF2o|r|cff786DF4k|r|cff6A80F6o|r|cff5D92F7n|r|cff4FA4F9u|r|cff41B7FAt|r|cff33C9FC]|r",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:25:39]|h|r Hello World!",
+["timestamp"] = 181055.265,
+["serverTime"] = 1723310739,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:26:26]|h|r You have invited Goldsquid-MoonGuard to join your group.",
+["serverTime"] = 1723310785,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181102.96,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:26:26]|h|r Dungeon Difficulty set to Heroic.",
+["serverTime"] = 1723310785,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181102.96,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:26:28]|h|r Goldsquid-MoonGuard joins the party.",
+["serverTime"] = 1723310787,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181105.001,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:25]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:314:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723310844,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181161.888,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:25]|h|r |Hplayer:Herbcraft-EmeraldDream:315:EMOTE:|h|cff8788eeHerbcraft|r|h CLICK",
+["serverTime"] = 1723310844,
+["r"] = 1,
+["extraData"] = {
+11,
+8,
+9,
+["n"] = 3,
+},
+["timestamp"] = 181161.888,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:25]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:316:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723310844,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181161.888,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:49]|h|r You have invited Voidsshadow to join your group.",
+["serverTime"] = 1723310868,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181186.198,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:27:52]|h|r Voidsshadow joins the party.",
+["serverTime"] = 1723310871,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181188.798,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:02]|h|r You have invited Sunnybunni to join your group.",
+["serverTime"] = 1723310881,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181198.772,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:05]|h|r Sunnybunni joins the party.",
+["serverTime"] = 1723310884,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181202.404,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:14]|h|r |cff40ff40|Hpratfilter:322:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:322:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Swéétykitty-EmeraldDream:322:CHANNEL:2|h|cffff7c0aSwéétykitty|r|h|cffd8d8d8]|r: — WTS ALL |cffffff00|Hachievement:19575:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakening the Dragonflight Raids]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  4-6 ITEMS DROP || |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r for |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r || EVERY 30MIN || MYTHIC+ KEYS/KSM || |cffa335ee|Hitem:217340::::::::70:267:::::::::|h[Voyaging Wilderling's Harness]|h|r —",
+["serverTime"] = 1723310893,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+10,
+["n"] = 3,
+},
+["timestamp"] = 181211.16,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:32]|h|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:323:PARTY|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: set your hearthstone",
+["serverTime"] = 1723310911,
+["r"] = 0.4627451300621033,
+["extraData"] = {
+50,
+12,
+13,
+["n"] = 3,
+},
+["timestamp"] = 181229.037,
+["g"] = 0.7843137979507446,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:41]|h|r 10 Aug '24 12:27pm : |cff8788eeVallarria|r has Come ONLINE after being INACTIVE for 15 days, 15 hrs",
+["r"] = 0,
+["serverTime"] = 1723310920,
+["timestamp"] = 181237.876,
+["g"] = 1,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:325:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723310929,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181246.749,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:50]|h|r |Hplayer:Herbcraft-EmeraldDream:326:EMOTE:|h|cff8788eeHerbcraft|r|h CLICK",
+["serverTime"] = 1723310929,
+["r"] = 1,
+["extraData"] = {
+11,
+8,
+9,
+["n"] = 3,
+},
+["timestamp"] = 181246.749,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:327:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723310929,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181246.749,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:54]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:328:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723310933,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181251.513,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:54]|h|r |Hplayer:Herbcraft-EmeraldDream:329:EMOTE:|h|cff8788eeHerbcraft|r|h CLICK",
+["serverTime"] = 1723310933,
+["r"] = 1,
+["extraData"] = {
+11,
+8,
+9,
+["n"] = 3,
+},
+["timestamp"] = 181251.513,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:28:54]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:330:YELL|h|cffd8bc3f70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723310933,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181251.513,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:29:54]|h|r 10 Aug '24 12:28pm : |cff0070ddKurbz|r has Leveled to 53 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723310993,
+["timestamp"] = 181310.743,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r Party Sync activated.",
+["serverTime"] = 1723311140,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 181457.964,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'A Mysterious Satchel' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'In Tyr's Footsteps: The Waking Shores' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Shipyard Report' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Lost to the Skies' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'A Sketchy Request' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'The Dryad Garden' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Mysterious Seeds' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Legion: The Legion Returns' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Supplying in Weight' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Follow the Clues' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:21]|h|r |cFF80528CReckless Abandon|r: Pruning 'Primal List' from the exclusion list",
+["timestamp"] = 181458.275,
+["serverTime"] = 1723311140,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:44]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:333:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723311163,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181481.145,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:44]|h|r |Hplayer:Herbcraft-EmeraldDream:334:EMOTE:|h|cff8788eeHerbcraft|r|h CLICK",
+["serverTime"] = 1723311163,
+["r"] = 1,
+["extraData"] = {
+11,
+8,
+9,
+["n"] = 3,
+},
+["timestamp"] = 181481.145,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:32:44]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:335:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723311163,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 181481.145,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:33:32]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Goldsquid-MoonGuard:336:PARTY|h|cff8b8b8b29|r:|cffff7c0aGoldsquid|r-MoonGuard|h|cffd8d8d8]|r: lets summon sai",
+["serverTime"] = 1723311211,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+14,
+["n"] = 3,
+},
+["timestamp"] = 181529.567,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:36:14]|h|r |cff40ff40|Hpratfilter:339:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:339:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hatelove-EmeraldDream:339:CHANNEL:2|h|cffffffffHatelove|r|h|cffd8d8d8]|r: /WTS/ —— ALL HEROIC RAIDS—— |cffffff00|Hachievement:19575:Player-3676-0E692F85:0:0:0:0:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r 4-6 ITEMS DROP per boss—— START in 15 MIN—— OR ONLY — |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r — PLUS |cffff8000|Hitem:206448::::::::10:1452:::::::::|h[Fyr'alath the Dreamrender]|h|r — MoP REMIX |cffffff00|Hachievement:20007:Player-3676-0E692F85:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r —",
+["serverTime"] = 1723311373,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+15,
+["n"] = 3,
+},
+["timestamp"] = 181691.595,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:36:34]|h|r |cff40ff40|Hpratfilter:340:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:340:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shockfuey-EmeraldDream:340:CHANNEL:2|h|cff0070ddShockfuey|r|h|cffd8d8d8]|r: i ignore thee, satan",
+["serverTime"] = 1723311393,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+17,
+["n"] = 3,
+},
+["timestamp"] = 181711.106,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:36:43]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kp115|k:105:341:BN_INLINE_TOAST_ALERT:0|h[|Kp115|k] (|T-8:10:10:0:0:32:32:0:32:0:32|t lbkorn81)|h has come online.",
+["serverTime"] = 1723311402,
+["r"] = 0.5098039507865906,
+["extraData"] = {
+54,
+19,
+20,
+["n"] = 3,
+},
+["timestamp"] = 181720.039,
+["g"] = 0.7725490927696228,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:37:14]|h|r |cff40ff40|Hpratfilter:342:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:342:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Swéétykitty-EmeraldDream:342:CHANNEL:2|h|cffff7c0aSwéétykitty|r|h|cffd8d8d8]|r: — WTS ALL |cffffff00|Hachievement:19575:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakening the Dragonflight Raids]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  4-6 ITEMS DROP || |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r for |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r || EVERY 30MIN || MYTHIC+ KEYS/KSM || |cffa335ee|Hitem:217340::::::::70:267:::::::::|h[Voyaging Wilderling's Harness]|h|r —",
+["serverTime"] = 1723311433,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+10,
+["n"] = 3,
+},
+["timestamp"] = 181751.112,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:37:45]|h|r You are now Away: AFK",
+["serverTime"] = 1723311464,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 181782.341,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffff2020|Hquest:78172:2699|h[Mysterious Seeds]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffff2020|Hquest:76566:2699|h[The Dryad Garden]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:40519:356|h[Legion: The Legion Returns]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66230:2382|h[A Sketchy Request]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:70837:2378|h[Follow the Clues]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:71239:2545|h[Lost to the Skies]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66472:2367|h[Primal List]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66100:2382|h[Supplying in Weight]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:70650:2401|h[In Tyr's Footsteps: The Waking Shores]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:36239:1218|h[A Mysterious Satchel]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:40:09]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:39422:360|h[Shipyard Report]|h|r from group abandons",
+["timestamp"] = 181926.007,
+["serverTime"] = 1723311608,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:42:26]|h|r 10 Aug '24 12:40pm : |cff0070ddKurbz|r has Leveled to 54 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723311745,
+["timestamp"] = 182063.176,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:43:31]|h|r You are no longer Away.",
+["serverTime"] = 1723311810,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182128.075,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:43:33]|h|r |cffd8d8d8[|r|Hplayer:Phrenapates-EmeraldDream:357:GUILD|h|cffd8bc3f63|r:|cff3fc7ebPhrenapates|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  has earned the achievement |cffffff00|Hachievement:11846:Player-162-0BE4CFB9:1:8:10:24:4294967295:4294967295:4294967295:4294967295|h[Champions of Legionfall]|h|r |cffffffff(|rCompleted 4/11/17|cffffffff)|r!",
+["serverTime"] = 1723311812,
+["r"] = 0.250980406999588,
+["extraData"] = {
+48,
+24,
+25,
+["n"] = 3,
+},
+["timestamp"] = 182129.739,
+["g"] = 1,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:43:41]|h|r Quest accepted: A Mutual Friend",
+["serverTime"] = 1723311820,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182137.593,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:43:41]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:44099:340|h[A Mutual Friend]|h|r from group abandons",
+["timestamp"] = 182138.432,
+["serverTime"] = 1723311820,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:44:59]|h|r |cff40ff40|Hpratfilter:359:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:359:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Swéétykitty-EmeraldDream:359:CHANNEL:2|h|cffff7c0aSwéétykitty|r|h|cffd8d8d8]|r: — WTS ALL |cffffff00|Hachievement:19575:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakening the Dragonflight Raids]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  4-6 ITEMS DROP || |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r for |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r || EVERY 30MIN || MYTHIC+ KEYS/KSM || |cffa335ee|Hitem:217340::::::::70:267:::::::::|h[Voyaging Wilderling's Harness]|h|r —",
+["serverTime"] = 1723311898,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+10,
+["n"] = 3,
+},
+["timestamp"] = 182216.161,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:45:40]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:365:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723311939,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182256.802,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:45:40]|h|r |Hplayer:Herbcraft-EmeraldDream:366:EMOTE:|h|cff8788eeHerbcraft|r|h CLICK",
+["serverTime"] = 1723311939,
+["r"] = 1,
+["extraData"] = {
+11,
+8,
+9,
+["n"] = 3,
+},
+["timestamp"] = 182256.802,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:45:40]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:367:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723311939,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182256.802,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:50:18]|h|r |cff40ff40|Hpratfilter:371:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:371:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hatelove-EmeraldDream:371:CHANNEL:2|h|cffffffffHatelove|r|h|cffd8d8d8]|r: /WTS/ —— ALL HEROIC RAIDS—— |cffffff00|Hachievement:19575:Player-3676-0E692F85:0:0:0:0:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r 4-6 ITEMS DROP per boss—— START in 15 MIN—— OR ONLY — |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r — PLUS |cffff8000|Hitem:206448::::::::10:1452:::::::::|h[Fyr'alath the Dreamrender]|h|r — MoP REMIX |cffffff00|Hachievement:20007:Player-3676-0E692F85:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r —",
+["serverTime"] = 1723312217,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+15,
+["n"] = 3,
+},
+["timestamp"] = 182535.363,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:50:41]|h|r You are now Away: AFK",
+["serverTime"] = 1723312240,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182558.044,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:25]|h|r |cffff80ff|Hitem:187693|h[Hunter's Belt]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312284,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:25]|h|r |cffff80ff|Hitem:2508|h[Old Blunderbuss]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312284,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:26]|h|r |cffff80ff|Hitem:187695|h[Hunter's Gloves]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312285,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:26]|h|r |cffff80ff|Hitem:187692|h[Hunter's Vest]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312285,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:26]|h|r |cffff80ff|Hitem:187694|h[Hunter's Bracers]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312285,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:26]|h|r |cffff80ff|Hitem:187690|h[Hunter's Pants]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312285,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:26]|h|r |cffff80ff|Hitem:187691|h[Hunter's Boots]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723312285,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182602.715,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:51:43]|h|r 10 Aug '24 12:50pm : |cff0070ddKurbz|r has Leveled to 55 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723312302,
+["timestamp"] = 182620.629,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:05]|h|r You are no longer Away.",
+["serverTime"] = 1723312324,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182641.734,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:13]|h|r Cannot find player 'saigui'.",
+["serverTime"] = 1723312332,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182650.242,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:35]|h|r You have invited Saiguy to join your group.",
+["serverTime"] = 1723312354,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182672.547,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:38]|h|r |A:QuestSharing-QuestLog-Replay:0:0:0:0|aQuests have been re-synced.",
+["serverTime"] = 1723312357,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 182675.63,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:38]|h|r Saiguy joins the party.",
+["serverTime"] = 1723312357,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 182675.63,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:49]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:387:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: CLICK",
+["serverTime"] = 1723312368,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182686.2,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:49]|h|r |Hplayer:Herbcraft-EmeraldDream:388:EMOTE:|h|cff8788eeHerbcraft|r|h CLICK",
+["serverTime"] = 1723312368,
+["r"] = 1,
+["extraData"] = {
+11,
+8,
+9,
+["n"] = 3,
+},
+["timestamp"] = 182686.2,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:49]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:389:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: BOOM",
+["serverTime"] = 1723312368,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 182686.2,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:52:58]|h|r |cff40ff40|Hpratfilter:391:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:391:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Swéétykitty-EmeraldDream:391:CHANNEL:2|h|cffff7c0aSwéétykitty|r|h|cffd8d8d8]|r: — WTS ALL |cffffff00|Hachievement:19575:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakening the Dragonflight Raids]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  4-6 ITEMS DROP || |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r for |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r || EVERY 30MIN || MYTHIC+ KEYS/KSM || |cffa335ee|Hitem:217340::::::::70:267:::::::::|h[Voyaging Wilderling's Harness]|h|r —",
+["serverTime"] = 1723312377,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+10,
+["n"] = 3,
+},
+["timestamp"] = 182695.13,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:53:58]|h|r |cff40ff40|Hpratfilter:392:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:392:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Meynar-EmeraldDream:392:CHANNEL:2|h|cff3fc7ebMeynar|r|h|cffd8d8d8]|r: ●● [WTS POWER LEVELING] [1-70] [60-70] -● 100% AFK - (Get your ALT's 70 ● Fast and Easy - Gold only)  ● - ● Both faction ● - 60-70 30m / 1-70 2h - 24/7 ●(team 520 ilevel) ●",
+["serverTime"] = 1723312437,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+26,
+["n"] = 3,
+},
+["timestamp"] = 182755.312,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:55:04]|h|r |cff40ff40|Hpratfilter:393:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:393:1|h[++]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Elgalas-EmeraldDream:393:CHANNEL:1|h|cffc41e3aElgalas|r|h|cffd8d8d8]|r: LF Crafter |cffa335ee|Hitem:193511::::::::70:250::13:1:3524:5:40:446:38:8:46:192552:47:204710:50:211516:::::|h[Vibrant Wildercloth Shawl |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r my mats",
+["serverTime"] = 1723312503,
+["r"] = 1,
+["extraData"] = {
+70,
+28,
+29,
+["n"] = 3,
+},
+["timestamp"] = 182821.401,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:55:05]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:394:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: Hey lets meet up",
+["serverTime"] = 1723312504,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182822.201,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:55:25]|h|r |cff40ff40|Hpratfilter:396:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:396:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jingfu-EmeraldDream:396:CHANNEL:2|h|cff00ff98Jingfu|r|h|cffd8d8d8]|r: LF recraft |cffa335ee|Hitem:193001::192935:192952:192945::::70:270::13:9:8836:8840:8902:8960:9477:8782:9405:8795:10249:7:28:2164:29:36:30:40:38:8:40:260:48:194572:50:211516::::Player-162-0B419647:|h[Elemental Lariat |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r",
+["serverTime"] = 1723312524,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+32,
+["n"] = 3,
+},
+["timestamp"] = 182841.804,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:55:29]|h|r |Hplayer:Saiguy:397:TEXT_EMOTE:|h|cffaad372Saiguy|r|h motions for you to follow.",
+["serverTime"] = 1723312528,
+["r"] = 1,
+["extraData"] = {
+12,
+34,
+35,
+["n"] = 3,
+},
+["timestamp"] = 182846.355,
+["g"] = 0.501960813999176,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:12]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122246::::::::70:266:::1:9354::::::|h[Tarnished Raging Berserker's Helm]|h|r.",
+["serverTime"] = 1723312571,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182889.277,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:14]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122374::::::::70:266:::1:9354::::::|h[Prized Beastmaster's Mantle]|h|r.",
+["serverTime"] = 1723312573,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182891.111,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:15]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122379::::::::70:266:::1:9354::::::|h[Champion's Deathdealer Breastplate]|h|r.",
+["serverTime"] = 1723312574,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182892.344,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:16]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122252::::::::70:266:::1:9354::::::|h[Tarnished Leggings of Destruction]|h|r.",
+["serverTime"] = 1723312575,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182893.444,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:17]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122352::::::::70:266:::1:9354::::::|h[Charmed Ancient Bone Bow]|h|r.",
+["serverTime"] = 1723312576,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182894.517,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:21]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:219325::::::::70:266:::1:9354::::::|h[Band of Radiant Echoes]|h|r.",
+["serverTime"] = 1723312580,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182897.784,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:22]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122529::::::::70:266:::1:9354::::::|h[Dread Pirate Ring]|h|r.",
+["serverTime"] = 1723312581,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182898.951,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:31]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122668::::::::70:266:::1:9354::::::|h[Eternal Will of the Martyr]|h|r.",
+["serverTime"] = 1723312590,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182907.984,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:33]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122361::::::::70:266:::1:9354::::::|h[Swift Hand of Justice]|h|r.",
+["serverTime"] = 1723312592,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182910.517,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:56:34]|h|r |cffaad372Saiguy|r creates: |cff00ccff|Hitem:122361::::::::70:266:::1:9354::::::|h[Swift Hand of Justice]|h|r.",
+["serverTime"] = 1723312593,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 182911.484,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:57:12]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:421:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: follow me",
+["serverTime"] = 1723312631,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182949.571,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:57:16]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:422:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: com",
+["serverTime"] = 1723312635,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182953.438,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:57:56]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:423:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: it wont let us hop on",
+["serverTime"] = 1723312675,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182993.279,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:01]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:424:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: maybe only a dragonflight thing",
+["serverTime"] = 1723312680,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 182998.17,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:05]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:425:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: could hav echanged",
+["serverTime"] = 1723312684,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183001.87,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:12]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:426:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: i still cant click",
+["serverTime"] = 1723312691,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183009.532,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:18]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:427:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: oh works",
+["serverTime"] = 1723312697,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183015.016,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:25]|h|r You are now Away: AFK",
+["serverTime"] = 1723312704,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 183022.632,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:27]|h|r 10 Aug '24 12:56pm : |cff3fc7ebNativelyvibn|r |CFFFF0000(M)|r has Leveled to 58 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723312706,
+["timestamp"] = 183024.639,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:36]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:429:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: sai cant fly till lvl 10",
+["serverTime"] = 1723312715,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183033.639,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[11:58:44]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:430:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: and probably same with manaia",
+["serverTime"] = 1723312723,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 183041.169,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:00:21]|h|r 10 Aug '24 12:58pm : |cff0070ddKurbz|r has Leveled to 56 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723312820,
+["timestamp"] = 183137.892,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:00:32]|h|r |cff40ff40|Hpratfilter:432:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:432:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fearmebro-EmeraldDream:432:CHANNEL:2|h|cff8788eeFearmebro|r|h|cffd8d8d8]|r: LF enchant|cffa335ee|Hitem:211519::::::::70:267::13:1:3524::::::|h[Enchanted Aspect's Awakened Crest]|h|r 3k tip my mats",
+["serverTime"] = 1723312831,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+38,
+["n"] = 3,
+},
+["timestamp"] = 183148.896,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:00:33]|h|r |cff40ff40|Hpratfilter:433:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:433:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Swéétykitty-EmeraldDream:433:CHANNEL:2|h|cffff7c0aSwéétykitty|r|h|cffd8d8d8]|r: — WTS ALL |cffffff00|Hachievement:19575:Player-60-0F49BD35:1:5:13:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: Awakening the Dragonflight Raids]|h|r OR |cffffff00|Hachievement:20007:Player-60-0F49BD35:0:0:0:0:0:0:0:0|h[Heroic: Pandaria Raids]|h|r  4-6 ITEMS DROP || |cff66bbff|Hjournal:1:2519:15|h[Fyrakk the Blazing]|h|r for |cffff8000|Hitem:206448::::::::70:64:::::::::|h[Fyr'alath the Dreamrender]|h|r || EVERY 30MIN || MYTHIC+ KEYS/KSM || |cffa335ee|Hitem:217340::::::::70:267:::::::::|h[Voyaging Wilderling's Harness]|h|r —",
+["serverTime"] = 1723312832,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+10,
+["n"] = 3,
+},
+["timestamp"] = 183150.196,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:02:00]|h|r Quest accepted: Only Darkness",
+["serverTime"] = 1723312919,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 183236.844,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:02:31]|h|r You are no longer Away.",
+["serverTime"] = 1723312950,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 183267.932,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:02:38]|h|r |cff40ff40|Hpratfilter:437:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:437:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Meynar-EmeraldDream:437:CHANNEL:2|h|cff3fc7ebMeynar|r|h|cffd8d8d8]|r: ●● [WTS POWER LEVELING] [1-70] [60-70] -● 100% AFK - (Get your ALT's 70 ● Fast and Easy - Gold only)  ● - ● Both faction ● - 60-70 30m / 1-70 2h - 24/7 ●(team 520 ilevel) ●",
+["serverTime"] = 1723312957,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+26,
+["n"] = 3,
+},
+["timestamp"] = 183275.492,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:03:01]|h|r |cffd8d8d8[|r|Hplayer:Phrenapates-EmeraldDream:438:GUILD|h|cffd8bc3f63|r:|cff3fc7ebPhrenapates|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  has earned the achievement |cffffff00|Hachievement:10665:Player-162-0BE4CFB9:1:8:10:24:4294967295:4294967295:4294967295:4294967295|h[Explore Azsuna]|h|r |cffffffff(|rCompleted 2/10/17|cffffffff)|r!",
+["serverTime"] = 1723312980,
+["r"] = 0.250980406999588,
+["extraData"] = {
+48,
+24,
+25,
+["n"] = 3,
+},
+["timestamp"] = 183298.536,
+["g"] = 1,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:03:49]|h|r |cff40ff40|Hpratfilter:440:0|h[--]|h|r|cffd8d8d8[|r|cffa0a0a050%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:440:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hatelove-EmeraldDream:440:CHANNEL:2|h|cffffffffHatelove|r|h|cffd8d8d8]|r: /WTS/ —— ALL HEROIC RAIDS—— |cffffff00|Hachievement:19575:Player-3676-0E692F85:0:0:0:0:0:0:0:0|h[Heroic: Awakening the Dragonflight Raids]|h|r 4-6 ITEMS DROP per boss—— START in 15 MIN—— OR ONLY — |cff66bbff|Hjournal:1:2519:14|h[Fyrakk the Blazing]|h|r — PLUS |cffff8000|Hitem:206448::::::::10:1452:::::::::|h[Fyr'alath the Dreamrender]|h|r — MoP REMIX |cffffff00|Hachievement:20007:Player-3676-0E692F85:0:0:0:-1:0:0:0:0|h[Heroic: Pandaria Raids]|h|r —",
+["serverTime"] = 1723313028,
+["r"] = 1,
+["extraData"] = {
+71,
+3,
+15,
+["n"] = 3,
+},
+["timestamp"] = 183346.512,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:09:59]|h|r Loot Specialization set to: Destruction",
+["serverTime"] = 1723313390,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 183704.07,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r Loading Slash Commands",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r Options Panel Worked",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r The [KK] addon has previously loaded 166 times",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cnBLUE_FONT_COLOR:[KK] |cff808080 OnEvent Player Entering World |r",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cnBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cnBRIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cnLIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cnBATTLENET_FONT_COLOR:[KK]",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cFF00FFF6[KK]",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r |cffA236EF[|r|cff9448F1K|r|cff865BF2o|r|cff786DF4k|r|cff6A80F6o|r|cff5D92F7n|r|cff4FA4F9u|r|cff41B7FAt|r|cff33C9FC]|r",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:10:02]|h|r Hello World!",
+["timestamp"] = 183704.07,
+["serverTime"] = 1723313393,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:11:03]|h|r [Y] |cffd8d8d8[|r|Hplayer:Herbcraft-EmeraldDream:451:YELL|h|cffd84e4e70|r:|cff8788eeHerbcraft|r|h|cffd8d8d8]|r: hop on!",
+["serverTime"] = 1723313462,
+["r"] = 1,
+["extraData"] = {
+7,
+6,
+7,
+["n"] = 3,
+},
+["timestamp"] = 183779.972,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:12:27]|h|r 10 Aug '24 01:09pm : |cff3fc7ebNativelyvibn|r |CFFFF0000(M)|r has Leveled to 59 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723313546,
+["timestamp"] = 183864.321,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:14:50]|h|r Archmage Khadgar says: Are these Azeroth's memories? Or ours?",
+["serverTime"] = 1723313689,
+["r"] = 1,
+["extraData"] = {
+13,
+42,
+43,
+["n"] = 3,
+},
+["timestamp"] = 184007.051,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:14:52]|h|r Tinkmaster Overspark yells: The fallout from Thermaplugg's betrayal must be contained!",
+["serverTime"] = 1723313691,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184008.153,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:14:54]|h|r Scooty yells: And if someone happens to turn a tidy little profit during all that heroism, what's the harm?",
+["serverTime"] = 1723313693,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184010.957,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:01]|h|r |cffff80ff|Hitem:218323|h[Recruit's Sturdy Crescent]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723313700,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184017.86,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:01]|h|r |cfffff468Voidsshadow|r receives item: |cff0070dd|Hitem:218323::::::::70:266::25:2:11037:6652:1:9:12:::::|h[Recruit's Sturdy Crescent]|h|r.",
+["serverTime"] = 1723313700,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+46,
+["n"] = 3,
+},
+["timestamp"] = 184017.86,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:01]|h|r |A:communities-icon-faction-horde:14:12:0:0|a|cffff80ff|Hitem:218335|h[Recruit's Sturdy Crescent]|h|r has been added to your appearance collection.",
+["serverTime"] = 1723313700,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184018.521,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:10]|h|r |cffa5a5a5Goldsquid|r-MoonGuard leaves the party.",
+["serverTime"] = 1723313709,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184027.102,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:10]|h|r |A:QuestSharing-QuestLog-Replay:0:0:0:0|aQuests have been re-synced.",
+["serverTime"] = 1723313709,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 184027.214,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:15]|h|r Party Sync ended.",
+["serverTime"] = 1723313714,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 184031.943,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'A Mysterious Satchel' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'In Tyr's Footsteps: The Waking Shores' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Shipyard Report' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Lost to the Skies' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'A Sketchy Request' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'The Dryad Garden' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Mysterious Seeds' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'A Mutual Friend' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Legion: The Legion Returns' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Supplying in Weight' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Follow the Clues' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:18]|h|r |cFF80528CReckless Abandon|r: Pruning 'Primal List' from the exclusion list",
+["timestamp"] = 184035.007,
+["serverTime"] = 1723313716,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:40]|h|r Tinkmaster Overspark yells: The fallout from Thermaplugg's betrayal must be contained!",
+["serverTime"] = 1723313738,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184036.685,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:56]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313754,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:58]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313756,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:15:59]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313757,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:00]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313758,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:03]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313761,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:06]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313764,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:08]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313766,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:09]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313767,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:11]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723313769,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184068.13,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:16:37]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Saiguy-EmeraldDream:476:PARTY|h|cffaad372Saiguy|r|h|cffd8d8d8]|r: hey you left me",
+["serverTime"] = 1723313795,
+["r"] = 0.6666666865348816,
+["extraData"] = {
+3,
+12,
+31,
+["n"] = 3,
+},
+["timestamp"] = 184102.308,
+["g"] = 0.6666666865348816,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:19:46]|h|r 10 Aug '24 01:16pm : |cff0070ddKurbz|r has Leveled to 57 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723313985,
+["timestamp"] = 184303.165,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:20:58]|h|r Archmage Khadgar says: It's fascinating how strongly Azeroth remembers these events.",
+["serverTime"] = 1723314057,
+["r"] = 1,
+["extraData"] = {
+13,
+42,
+43,
+["n"] = 3,
+},
+["timestamp"] = 184374.893,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:20:59]|h|r Tinkmaster Overspark yells: The fallout from Thermaplugg's betrayal must be contained!",
+["serverTime"] = 1723314058,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184376.373,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:02]|h|r Scooty yells: And if someone happens to turn a tidy little profit during all that heroism, what's the harm?",
+["serverTime"] = 1723314061,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184378.74,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:21]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314080,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184398.484,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:24]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314083,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184400.928,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:26]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314085,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184403.29,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:34]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314093,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184411.537,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:37]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314096,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184413.904,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:39]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314098,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184416.171,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:49]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314108,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184426.195,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:54]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314113,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184430.785,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:54]|h|r You are now Away: AFK",
+["serverTime"] = 1723314113,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184431.185,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:57]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314116,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184433.838,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:21:59]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314118,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184436.271,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:22:43]|h|r You are no longer Away.",
+["serverTime"] = 1723314162,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184479.959,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:23:14]|h|r Archmage Khadgar says: I wonder what Azeroth is trying to tell us with these echoes.",
+["serverTime"] = 1723314193,
+["r"] = 1,
+["extraData"] = {
+13,
+42,
+43,
+["n"] = 3,
+},
+["timestamp"] = 184511.524,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:23:16]|h|r Tinkmaster Overspark yells: The fallout from Thermaplugg's betrayal must be contained!",
+["serverTime"] = 1723314195,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184513.024,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:23:18]|h|r Scooty yells: And if someone happens to turn a tidy little profit during all that heroism, what's the harm?",
+["serverTime"] = 1723314197,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184515.358,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:24:00]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314239,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184557.066,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:24:02]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314241,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184559.469,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:24:05]|h|r Remembered Alarm-o-Bot yells: Warning! Warning! Intruder alert! Intruder alert!",
+["serverTime"] = 1723314244,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184561.893,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:24:54]|h|r Dig-Boss Dinwhisker yells: What in hell's name is going on out here?",
+["serverTime"] = 1723314293,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184610.909,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:02]|h|r Dig-Boss Dinwhisker yells: So you're the ones causing all that ruckus!",
+["serverTime"] = 1723314301,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184618.79,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:09]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kp58|k:57:506:BN_INLINE_TOAST_ALERT:0|h[|Kp58|k] (|T-8:10:10:0:0:32:32:0:32:0:32|t Itankforbeer)|h has come online.",
+["serverTime"] = 1723314308,
+["r"] = 0.5098039507865906,
+["extraData"] = {
+54,
+19,
+47,
+["n"] = 3,
+},
+["timestamp"] = 184626.339,
+["g"] = 0.7725490927696228,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:13]|h|r Archmage Khadgar says: Here we go again! Quite literally...",
+["serverTime"] = 1723314312,
+["r"] = 1,
+["extraData"] = {
+13,
+42,
+43,
+["n"] = 3,
+},
+["timestamp"] = 184630.105,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:14]|h|r Apothecary Johaan yells: With just a drop of my newest plague formula, these pumpkins will become quite the treat for the local scarlet infestation!",
+["serverTime"] = 1723314313,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184631.24,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r Party Sync activated.",
+["serverTime"] = 1723314324,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 184642.21,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffff2020|Hquest:78172:2699|h[Mysterious Seeds]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffff2020|Hquest:76566:2699|h[The Dryad Garden]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:40519:356|h[Legion: The Legion Returns]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66230:2382|h[A Sketchy Request]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:70837:2378|h[Follow the Clues]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:71239:2545|h[Lost to the Skies]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66472:2367|h[Primal List]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:66100:2382|h[Supplying in Weight]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:70650:2401|h[In Tyr's Footsteps: The Waking Shores]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:36239:1218|h[A Mysterious Satchel]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:39422:360|h[Shipyard Report]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:25:25]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cff808080|Hquest:44099:340|h[A Mutual Friend]|h|r from group abandons",
+["timestamp"] = 184642.512,
+["serverTime"] = 1723314324,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:26:05]|h|r Archmage Khadgar says: Firelord Ragnaros returns! Brace for battle.",
+["serverTime"] = 1723314364,
+["r"] = 1,
+["extraData"] = {
+13,
+42,
+43,
+["n"] = 3,
+},
+["timestamp"] = 184681.916,
+["g"] = 1,
+["b"] = 0.6235294342041016,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:26:39]|h|r Remembered Firelord yells: You will be crushed!",
+["serverTime"] = 1723314398,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184715.586,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:26:43]|h|r Remembered Firelord yells: By fire be purged!",
+["serverTime"] = 1723314402,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184720.186,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:26:52]|h|r Remembered Firelord yells: Sulfuras will be your end.",
+["serverTime"] = 1723314411,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184728.886,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:03]|h|r Remembered Firelord yells: Arise, servants of fire, consume their flesh!",
+["serverTime"] = 1723314422,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184739.868,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:11]|h|r Remembered Firelord yells: Die!",
+["serverTime"] = 1723314430,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184748.365,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:32]|h|r Remembered Firelord yells: By fire be purged!",
+["serverTime"] = 1723314451,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184769.137,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:40]|h|r Remembered Firelord yells: Your judgment has come!",
+["serverTime"] = 1723314459,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184777.546,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:51]|h|r Remembered Firelord yells: Come forth, my servants! Defend your master!",
+["serverTime"] = 1723314470,
+["r"] = 1,
+["extraData"] = {
+15,
+44,
+45,
+["n"] = 3,
+},
+["timestamp"] = 184788.556,
+["g"] = 0.250980406999588,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:55]|h|r |cFF80528CReckless Abandon|r: Excluding quest |cffffff00|Hquest:78938:2826|h[Champion of the Waterlords]|h|r from group abandons",
+["timestamp"] = 184792.164,
+["serverTime"] = 1723314474,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:27:55]|h|r |cffaad372Saiguy|r receives item: |cffa335ee|Hitem:226256::::::::70:266:::::::::|h[Token of the Remembrancers]|h|r.",
+["serverTime"] = 1723314474,
+["r"] = 0,
+["extraData"] = {
+28,
+36,
+37,
+["n"] = 3,
+},
+["timestamp"] = 184792.552,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:29:37]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kp202|k:21:536:BN_INLINE_TOAST_ALERT:0|h[|Kp202|k] (|T-8:10:10:0:0:32:32:0:32:0:32|t Kageromero)|h has come online.",
+["serverTime"] = 1723314576,
+["r"] = 0.5098039507865906,
+["extraData"] = {
+54,
+19,
+48,
+["n"] = 3,
+},
+["timestamp"] = 184893.919,
+["g"] = 0.7725490927696228,
+["b"] = 1,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:30:24]|h|r Champion of the Waterlords completed.",
+["serverTime"] = 1723314623,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184941.302,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:30:24]|h|r Received 56 Gold, 18 Silver.",
+["serverTime"] = 1723314623,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184941.302,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:30:24]|h|r |cFF80528CReckless Abandon|r: Pruning 'Champion of the Waterlords' from the exclusion list",
+["timestamp"] = 184941.633,
+["serverTime"] = 1723314623,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:30:25]|h|r You receive currency: |cff0070dd|Hcurrency:3089:0|h[Residual Memories]|h|rx3000",
+["serverTime"] = 1723314624,
+["r"] = 0,
+["extraData"] = {
+59,
+49,
+50,
+["n"] = 3,
+},
+["timestamp"] = 184942.089,
+["g"] = 0.6666666865348816,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:30:30]|h|r |cffd8d8d8[|r|Hplayer:Nativelyvibn-EmeraldDream:548:GUILD|h|cffd8bc3f59|r:|cff3fc7ebNativelyvibn|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  has earned the achievement |cffffff00|Hachievement:14783:Player-162-0BAF8C0D:1:8:10:24:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r |cffffffff(|rCompleted 3/08/21|cffffffff)|r!",
+["serverTime"] = 1723314629,
+["r"] = 0.250980406999588,
+["extraData"] = {
+48,
+24,
+51,
+["n"] = 3,
+},
+["timestamp"] = 184946.759,
+["g"] = 1,
+["b"] = 0.250980406999588,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r Loot Specialization set to: Destruction",
+["serverTime"] = 1723314670,
+["r"] = 1,
+["extraData"] = {
+1,
+["n"] = 1,
+},
+["timestamp"] = 184988.071,
+["g"] = 1,
+["b"] = 0,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r Loading Slash Commands",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r Options Panel Worked",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r The [KK] addon has previously loaded 167 times",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cnBLUE_FONT_COLOR:[KK] |cff808080 OnEvent Player Entering World |r",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cnBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cnBRIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cnLIGHTBLUE_FONT_COLOR:[KK]",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cnBATTLENET_FONT_COLOR:[KK]",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cFF00FFF6[KK]",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r |cffA236EF[|r|cff9448F1K|r|cff865BF2o|r|cff786DF4k|r|cff6A80F6o|r|cff5D92F7n|r|cff4FA4F9u|r|cff41B7FAt|r|cff33C9FC]|r",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:11]|h|r Hello World!",
+["timestamp"] = 184988.071,
+["serverTime"] = 1723314670,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:18]|h|r 10 Aug '24 01:27pm : |cff3fc7ebNativelyvibn|r |CFFFF0000(M)|r has Leveled to 60 (+1 level)",
+["r"] = 0,
+["serverTime"] = 1723314677,
+["timestamp"] = 184995.197,
+["g"] = 0.44,
+["b"] = 0.87,
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[12:31:21]|h|r You aren't in a party.",
+["serverTime"] = 1723314680,
+["r"] = 1,
+["extraData"] = {
+1,
+1,
+2,
+["n"] = 3,
+},
+["timestamp"] = 184998.476,
+["g"] = 1,
+["b"] = 0,
+},
+},
+["maxElements"] = 5000,
+["TransformIf"] = nil --[[ skipped inline function ]],
+["ReplaceElements"] = nil --[[ skipped inline function ]],
+["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+["GetNumElements"] = nil --[[ skipped inline function ]],
+["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+},
+},
 }

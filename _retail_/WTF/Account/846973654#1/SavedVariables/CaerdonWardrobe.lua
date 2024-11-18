@@ -14,8 +14,8 @@ CaerdonWardrobeConfig = {
 },
 },
 ["Version"] = 24,
-["Debug"] = {
-["Enabled"] = false,
+["LoadBehavior"] = {
+["ShowProfessionLoad"] = true,
 },
 ["Icon"] = {
 ["ShowLearnableByOther"] = {
@@ -29,20 +29,12 @@ CaerdonWardrobeConfig = {
 ["Merchant"] = true,
 ["SameLookDifferentLevel"] = true,
 ["BankAndBags"] = true,
-["Auction"] = true,
-["SameLookDifferentItem"] = false,
 ["GuildBank"] = true,
+["SameLookDifferentItem"] = false,
+["Auction"] = true,
 },
 ["EnableAnimation"] = true,
 ["Position"] = "TOPLEFT",
-["ShowUpgrades"] = {
-["BankAndBags"] = true,
-},
-["ShowSellable"] = {
-["BankAndBags"] = true,
-["GuildBank"] = false,
-},
-["ShowQuestItems"] = true,
 ["ShowOldExpansion"] = {
 ["Other"] = false,
 ["Auction"] = true,
@@ -50,18 +42,36 @@ CaerdonWardrobeConfig = {
 ["Usable"] = false,
 ["Reagents"] = true,
 },
+["ShowQuestItems"] = true,
+["ShowSellable"] = {
+["BankAndBags"] = true,
+["GuildBank"] = false,
 },
-["LoadBehavior"] = {
-["ShowProfessionLoad"] = true,
+["ShowUpgrades"] = {
+["BankAndBags"] = true,
+},
+},
+["Debug"] = {
+["Enabled"] = false,
 },
 }
 CaerdonProfessionData = {
+["Moon Guard"] = {
+["Xxb"] = {
+},
+},
 ["Area 52"] = {
 ["Goldsquid"] = {
 },
 },
 }
 CaerdonRecipeData = {
+["Moon Guard"] = {
+["Xxb"] = {
+["knownRecipes"] = {
+},
+},
+},
 ["Area 52"] = {
 ["Goldsquid"] = {
 ["knownRecipes"] = {

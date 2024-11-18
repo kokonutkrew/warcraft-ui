@@ -1,0 +1,15 @@
+Version: 1
+Frame: SuperScanFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 173
+Y: 67
+W: 130
+H: 30
+Frame: RemixOpenerContainerFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -50
+Y: 0
+W: 120
+H: 60

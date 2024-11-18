@@ -1,14 +1,9 @@
 
 EncounterDetailsDB = {
-<<<<<<< Updated upstream
-	["emotes"] = {
-	},
-	["encounter_spells"] = {
-	},
-=======
-	["encounter_spells"] = {
-	},
-	["emotes"] = {
-	},
->>>>>>> Stashed changes
+["chartData"] = {
+},
+["encounter_spells"] = {
+},
+["emotes"] = {
+},
 }

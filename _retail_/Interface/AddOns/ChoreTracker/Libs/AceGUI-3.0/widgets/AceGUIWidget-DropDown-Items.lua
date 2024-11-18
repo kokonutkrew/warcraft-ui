@@ -1,8 +1,4 @@
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/FarmHud/libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
---[[ $Id: AceGUIWidget-DropDown-Items.lua 1202 2019-05-15 23:11:22Z nevcairiel $ ]]--
-========
 --[[ $Id: AceGUIWidget-DropDown-Items.lua 1272 2022-08-29 15:56:35Z nevcairiel $ ]]--
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ChoreTracker/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
 
 local AceGUI = LibStub("AceGUI-3.0")
 

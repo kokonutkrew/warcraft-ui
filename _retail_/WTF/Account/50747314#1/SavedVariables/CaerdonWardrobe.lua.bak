@@ -1,71 +1,73 @@
 
 CaerdonWardrobeConfig = {
-	["Binding"] = {
-		["ShowGearSetsAsIcon"] = false,
-		["ShowBoE"] = true,
-		["Position"] = "BOTTOM",
-		["ShowBoA"] = true,
-		["ShowGearSets"] = true,
-		["ShowStatus"] = {
-			["BankAndBags"] = true,
-			["Merchant"] = true,
-			["GuildBank"] = true,
-		},
-	},
-<<<<<<< Updated upstream
-	["Debug"] = {
-		["Enabled"] = false,
-=======
-	["Version"] = 11,
-	["Debug"] = {
-		["Enabled"] = true,
->>>>>>> Stashed changes
-	},
-	["Icon"] = {
-		["ShowLearnableByOther"] = {
-			["Merchant"] = true,
-			["GuildBank"] = true,
-			["BankAndBags"] = true,
-			["EncounterJournal"] = true,
-			["SameLookDifferentItem"] = false,
-			["Auction"] = true,
-		},
-		["ShowLearnable"] = {
-			["Auction"] = true,
-			["GuildBank"] = true,
-<<<<<<< Updated upstream
-			["SameLookDifferentItem"] = false,
-			["BankAndBags"] = true,
-			["Merchant"] = true,
-=======
-<<<<<<<< Updated upstream:_retail_/WTF/Account/384591484#1/SavedVariables/CaerdonWardrobe.lua.bak
-			["SameLookDifferentItem"] = false,
-			["BankAndBags"] = true,
-			["Merchant"] = true,
-========
-			["SameLookDifferentItem"] = true,
-			["Merchant"] = true,
-			["BankAndBags"] = true,
->>>>>>>> Stashed changes:_retail_/WTF/Account/50747314#1/SavedVariables/CaerdonWardrobe.lua.bak
->>>>>>> Stashed changes
-		},
-		["EnableAnimation"] = true,
-		["Position"] = "TOPLEFT",
-		["ShowQuestItems"] = true,
-		["ShowSellable"] = {
-			["BankAndBags"] = true,
-			["GuildBank"] = false,
-		},
-		["ShowOldExpansion"] = {
-			["Other"] = false,
-			["Auction"] = true,
-			["Unknown"] = false,
-			["Usable"] = false,
-			["Reagents"] = true,
-		},
-	},
-<<<<<<< Updated upstream
-	["Version"] = 11,
-=======
->>>>>>> Stashed changes
+["Binding"] = {
+["ShowBoARepItems"] = false,
+["ShowGearSetsAsIcon"] = false,
+["ShowBoE"] = true,
+["Position"] = "BOTTOM",
+["ShowBoA"] = true,
+["ShowGearSets"] = true,
+["ShowStatus"] = {
+["BankAndBags"] = true,
+["Merchant"] = true,
+["GuildBank"] = true,
+},
+},
+["Version"] = 24,
+["Debug"] = {
+["Enabled"] = false,
+},
+["Icon"] = {
+["ShowLearnableByOther"] = {
+["Merchant"] = true,
+["GuildBank"] = true,
+["BankAndBags"] = true,
+["EncounterJournal"] = true,
+["Auction"] = true,
+},
+["ShowLearnable"] = {
+["Merchant"] = true,
+["SameLookDifferentLevel"] = true,
+["BankAndBags"] = true,
+["Auction"] = true,
+["SameLookDifferentItem"] = false,
+["GuildBank"] = true,
+},
+["EnableAnimation"] = true,
+["Position"] = "TOPLEFT",
+["ShowUpgrades"] = {
+["BankAndBags"] = true,
+},
+["ShowSellable"] = {
+["BankAndBags"] = true,
+["GuildBank"] = false,
+},
+["ShowQuestItems"] = true,
+["ShowOldExpansion"] = {
+["Other"] = false,
+["Auction"] = true,
+["Unknown"] = false,
+["Usable"] = false,
+["Reagents"] = true,
+},
+},
+["LoadBehavior"] = {
+["ShowProfessionLoad"] = true,
+},
+}
+CaerdonProfessionData = {
+["Area 52"] = {
+["Kkbankk"] = {
+},
+},
+}
+CaerdonRecipeData = {
+["Area 52"] = {
+["Kkbankk"] = {
+["knownRecipes"] = {
+},
+},
+},
+["globalRecipeNameToID"] = {
+},
 }

@@ -1,0 +1,397 @@
+
+EncounterDetailsDB = {
+["chartData"] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[18] = {
+},
+[21] = {
+},
+[23] = {
+},
+[28] = {
+},
+[35] = {
+},
+[38] = {
+},
+},
+["encounter_spells"] = {
+[118049] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Subetai the Swift",
+},
+[118299] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Energy Charge",
+},
+[117960] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Elegon",
+},
+[118303] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Undying Shadows",
+},
+[122151] = {
+["school"] = 0,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Gara'jal the Spiritbinder",
+},
+[115829] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Amethyst Guardian",
+},
+[118094] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Subetai the Swift",
+},
+[117910] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Qiang the Merciless",
+},
+[117918] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Flanking Mogu",
+},
+[116060] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Amethyst Guardian",
+},
+[117921] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Qiang the Merciless",
+},
+[118048] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Subetai the Swift",
+},
+[118047] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Subetai the Swift",
+},
+[117219] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Gara'jal the Spiritbinder",
+},
+[119387] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Elegon",
+},
+[119358] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Elegon",
+},
+[115771] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Cobalt Guardian",
+},
+[115828] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Jasper Guardian",
+},
+[124967] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Elegon",
+},
+[443503] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Jasper Guardian",
+},
+[117539] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Undying Shadows",
+},
+[117506] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Zian of the Endless Shadow",
+},
+[115982] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Shadowy Minion",
+},
+[117514] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Undying Shadows",
+},
+[124947] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Elegon",
+},
+[125206] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Amethyst Guardian",
+},
+[117737] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Meng the Demented",
+},
+[116525] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Emperor's Rage",
+},
+},
+["emotes"] = {
+{
+{
+0.9860000000044238,
+"The Emperor's Strength grips this land with fists of iron.",
+"Ancient Mogu Machine",
+7,
+},
+{
+7.048000000009779,
+"The Emperor's Strength appears in the alcoves!",
+"Ancient Mogu Machine",
+1,
+},
+{
+33.80200000001059,
+"The Emperor's Courage burns everlasting.",
+"Ancient Mogu Machine",
+7,
+},
+{
+39.88000000000466,
+"The Emperor's Courage appears in the alcoves!",
+"Ancient Mogu Machine",
+1,
+},
+{
+56.8810000000085,
+"The Emperor's Strength appears in the alcoves!",
+"Ancient Mogu Machine",
+1,
+},
+{
+64.16200000001118,
+"The Endless Army will crush the Emperor's foes.",
+"Ancient Mogu Machine",
+7,
+},
+{
+70.24100000000908,
+"Two titanic constructs appear in the large alcoves!",
+"Ancient Mogu Machine",
+1,
+},
+["boss"] = "Will of the Emperor",
+},
+{
+{
+0.135999999998603,
+"Entering defensive mode.  Disabling output failsafes.",
+"Elegon",
+7,
+},
+{
+5.019999999989523,
+"Oh dear...this could get messy. I will observe from a safer distance!",
+"Lorewalker Cho",
+4,
+},
+{
+6.214999999996508,
+"Drawing from reserve power.",
+"Elegon",
+7,
+},
+{
+11.0619999999908,
+"Drawing from reserve power.",
+"Elegon",
+7,
+},
+{
+14.98199999998906,
+"Existence ends... I become nothing...",
+"Elegon",
+7,
+},
+["boss"] = "Elegon",
+},
+{
+{
+0.1659999999974389,
+"I will crush you, in body AND spirit.",
+"Qiang the Merciless",
+7,
+},
+{
+7.164000000004307,
+"You'll see your mistake soon enough!",
+"Subetai the Swift",
+7,
+},
+{
+14.8640000000014,
+"|TInterface\\Icons\\ability_rogue_dismantle.blp:20|t%s casts |cFFFF0000|Hspell:118047|h[Pillage]|h|r!",
+"Subetai the Swift",
+1,
+},
+{
+14.8640000000014,
+"There is nothing I cannot take!",
+"Subetai the Swift",
+7,
+},
+{
+17.28399999999965,
+"Soon you will understand why my subjects fear the shadows!",
+"Zian of the Endless Shadow",
+7,
+},
+{
+22.12799999999697,
+"|TInterface\\Icons\\ability_rogue_envelopingshadows.blp:20|t%s casts |cFFFF0000|Hspell:117506|h[Undying Shadows]|h|r!",
+"Zian of the Endless Shadow",
+1,
+},
+{
+22.12799999999697,
+"The darkness comes for you, and with it, death.",
+"Zian of the Endless Shadow",
+7,
+},
+{
+24.58299999999872,
+"You have angered the emperor! THE SENTENCE IS DEATH!",
+"Meng the Demented",
+7,
+},
+["boss"] = "The Spirit Kings",
+},
+},
+}

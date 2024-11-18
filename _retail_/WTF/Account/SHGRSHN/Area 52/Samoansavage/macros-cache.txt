@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Heroic Leap" "134400"
+#showtooltip
+/use [@cursor] heroic leap
+END

@@ -1,0 +1,371 @@
+VER 3 0000000000000052 "/tar" "132212"
+#showtooltip
+/target ursa
+/target legacki
+END
+VER 3 0000000000000009 "01.RangedPull" "132094"
+#showtooltip
+/follow party1
+/assist party1
+/castsequence reset=2 !shoot, null
+END
+VER 3 0000000000000002 "02.SingleTarget" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 0000000000000003 "03.Dots" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 000000000000000F "04.AoeRotation" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 000000000000000B "05.BattleBuffs" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 0000000000000010 "06.Stealth" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 000000000000000C "07.Hots" "132094"
+#showtooltip
+/target mouseover
+/focus target
+END
+VER 3 000000000000000D "08.Heal" "132094"
+#showtooltip
+END
+VER 3 000000000000000E "09.Mitigation" "132094"
+#showtooltip
+END
+VER 3 000000000000000A "10.BigDamage" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 0000000000000011 "11.AoeTarget" "132094"
+#showtooltip
+/follow party1
+/assist party1
+/use [@cursor] blizzard
+/stopcasting
+END
+VER 3 0000000000000012 "12.Finisher" "132094"
+#showtooltip
+/follow party1
+/assist party1
+END
+VER 3 0000000000000028 "A01.Skull" "132293"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button1
+END
+VER 3 0000000000000029 "A02." "132293"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button6
+END
+VER 3 000000000000002A "A03." "132293"
+END
+VER 3 000000000000002B "A04." "132293"
+END
+VER 3 000000000000002C "A05." "132293"
+END
+VER 3 000000000000002D "A06." "132293"
+END
+VER 3 000000000000002E "A07.Drink" "132293"
+/oom
+END
+VER 3 000000000000002F "A08.AnyHeal" "132293"
+/use Major Healthstone
+/use Greater Healthstone
+/use Healthstone
+/use Major Healing Potion
+/use Greater Healing Potion
+/use Healing Potion
+/use Furbolg Medicine Pouch
+END
+VER 3 0000000000000030 "A09." "132293"
+END
+VER 3 0000000000000031 "A10." "132293"
+END
+VER 3 0000000000000032 "A11." "132293"
+END
+VER 3 0000000000000033 "A12." "132293"
+END
+VER 3 0000000000000036 "AltD.Cure" "132094"
+/target mouseover
+END
+VER 3 0000000000000037 "AltU.Speed" "132094"
+END
+VER 3 0000000000000053 "debugIdentify" "136232"
+/run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end
+END
+VER 3 0000000000000034 "eIronGrenades" "INV_MISC_QUESTIONMARK"
+#show dense dynamite
+/use [@cursor] dense dynamite
+/stopcasting
+END
+VER 3 0000000000000040 "eRocketBoots" "INV_MISC_QUESTIONMARK"
+#show gnomish rocket boots
+/use 15
+/use 8
+/use 6
+END
+VER 3 0000000000000005 "F1.TargetSelf" "135914"
+/focus
+/target player
+END
+VER 3 0000000000000001 "F2.Follow" "135914"
+/follow party1
+/assist party1
+/target party1
+/follow tigerlilly
+END
+VER 3 0000000000000006 "F3.Follow" "135914"
+/follow party2
+/assist party2
+/target party2
+END
+VER 3 0000000000000007 "F4.Follow" "135914"
+/follow party3
+/assist party3
+/target party3
+END
+VER 3 0000000000000008 "F5.Follow" "135914"
+/follow party4
+/assist party4
+/target party4
+END
+VER 3 0000000000000004 "F6.PartyStart" "135914"
+/run ConvertToParty()
+/run InviteUnit("Kecil");
+/run InviteUnit("Marshmellow"); 
+/run InviteUnit("Samoanlock"); 
+/run InviteUnit("Cupcake");
+/ffa
+/changeactionbar 2
+END
+VER 3 0000000000000017 "F7.RaidStart" "135914"
+/run ConvertToRaid()
+/script SetLootMethod("master", "Samoanslayer", 4);
+/run InviteUnit("Kecil");
+/run InviteUnit("Marshmellow"); 
+/run InviteUnit("Samoanlock"); 
+/run InviteUnit("Cupcake");
+/run InviteUnit("Foxxer"); 
+END
+VER 3 000000000000001A "F8.Disband" "135914"
+/run for i=1,GetNumGroupMembers() do if UnitName("raid"..i) ~= UnitName("player") then UninviteUnit("raid"..i, "afk") end end
+/run for i=1,GetNumGroupMembers() do if UnitName("party"..i) ~= UnitName("player") then UninviteUnit("party"..i, "afk") end end
+END
+VER 3 000000000000001B "F9.??" "135914"
+/run for i=1,GetNumGroupMembers() do if UnitName("raid"..i) ~= UnitName("player") then UninviteUnit("raid"..i, "afk") end end
+/run for i=1,GetNumGroupMembers() do if UnitName("party"..i) ~= UnitName("player") then UninviteUnit("party"..i, "afk") end end
+END
+VER 3 000000000000001C "FF10.??" "135914"
+END
+VER 3 000000000000001D "FF11.??" "135914"
+END
+VER 3 000000000000001E "FF12.??" "135914"
+/run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Hexweave Cloth" then DoTradeSkill(i,(select(3,GetTradeSkillInfo(i)))) end end
+END
+VER 3 0000000000000055 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000054 "mSkull" "INV_MISC_QUESTIONMARK"
+/script SetRaidTarget("target", 8);
+/s Kill %T
+END
+VER 3 0000000000000038 "P.Fishing" "INV_MISC_QUESTIONMARK"
+#show fishing
+/run local l="Aquadynamic Fish Attract" if not GetWeaponEnchantInfo() and IsEquippedItemType("Fishing Poles") and GetItemCount(l)>0 then UseItemByName(l) end
+/equip [noworn:Fishing Poles] Fishing Pole
+/cast [worn:Fishing Poles] Fishing
+END
+VER 3 0000000000000050 "rougeAmbush" "INV_MISC_QUESTIONMARK"
+#showtooltip Ambush
+/cast Pick Pocket
+/cast Ambush
+END
+VER 3 000000000000004E "rougePickPocket" "INV_MISC_QUESTIONMARK"
+#showtooltip Pick Pocket
+/targetenemy [no harm][dead]
+/cast Pick Pocket
+/cleartarget
+END
+VER 3 000000000000004F "rougeSap" "INV_MISC_QUESTIONMARK"
+#showtooltip Sap
+/cast Sap
+/cast Pick Pocket
+END
+VER 3 0000000000000056 "test" "INV_MISC_QUESTIONMARK"
+/tway 22 66
+/tway 19 60
+/tway 14 64
+/tway 8 54
+/tway 7 50
+END
+VER 3 0000000000000048 "warBloodrage" "INV_MISC_QUESTIONMARK"
+#show bloodrage
+/castsequence reset=60 bloodrage, berserker rage, berserker rage
+END
+VER 3 000000000000003E "warBloodThirst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/castsequence reset=combat/target/30 sunder armor, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst bloodthirst
+/use 14
+END
+VER 3 0000000000000046 "warCooldown" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [form:1] retaliation
+/castsequence [form:2] shield wall
+/castsequence [form:3] recklessness
+END
+VER 3 0000000000000049 "warDeathWish" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=180 death wish,blood fury,blood fury,blood fury,blood fury,blood fury,blood fury
+END
+VER 3 000000000000004D "warFuryRotation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/castsequence [form:3] reset=combat/target/6 bloodthirst, whirlwind, whirlwind, whirlwind
+/use berserker stance
+/use 14
+END
+VER 3 0000000000000044 "warIntercept" "INV_MISC_QUESTIONMARK"
+#show intercept
+/use [form:3] intercept
+/use berserker stance
+END
+VER 3 0000000000000047 "warMitigate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=45 demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout
+END
+VER 3 000000000000004A "warMockingBlow" "INV_MISC_QUESTIONMARK"
+#show mocking blow
+/castsequence [form:1] reset=600 mocking blow, challenging shout, piercing howl, mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow
+/use battle stance
+END
+VER 3 000000000000003A "warRend" "INV_MISC_QUESTIONMARK"
+#show rend
+/startattack
+/castsequence [form:1] rend
+/castsequence [form:2] rend
+/castsequence [form:3] battle stance
+END
+VER 3 0000000000000051 "warSlam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Slam
+/stopcasting
+END
+VER 3 0000000000000045 "warSunder" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use sunder armor
+/use 14
+END
+VER 3 000000000000004B "warThunderClap" "INV_MISC_QUESTIONMARK"
+#show thunder clap
+/use [form:1] thunder clap
+/use battle stance
+END
+VER 3 0000000000000024 "xAggroDistance" "136222"
+/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
+END
+VER 3 0000000000000025 "xChicken" "136222"
+/chicken
+END
+VER 3 0000000000000023 "xClickExtra1" "136222"
+#showtooltip
+/click ExtraActionButton1
+END
+VER 3 0000000000000039 "xEMA" "136222"
+/ema config
+END
+VER 3 000000000000003C "xEquip2Hander" "135792"
+/equipslot 16 blackhand doomsaw
+END
+VER 3 000000000000003D "xEquipDual" "132147"
+/equipslot 16 dal'rend's sacred charge
+/equipslot 17 bonescraper
+END
+VER 3 000000000000003B "xEquipShield" "132341"
+/equipslot 17 draconian deflector
+/equipslot 16 dal'rend's sacred charge
+END
+VER 3 0000000000000022 "xFishing" "136222"
+/castsequence [nomod] Fishing
+/equipset [mod:alt] Max Fishing
+/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
+/use [mod:shift] Worm Supreme
+END
+VER 3 0000000000000013 "xGuildInvite" "135946"
+/run SendChatMessage("Ahoy! Say, ye need'n a guild?","WHISPER",nil,UnitName("target"))
+/ginvite
+END
+VER 3 0000000000000014 "xGuildWhisper" "135946"
+/run SendChatMessage("Ahoy! Say, ye need'n a guild?","WHISPER",nil,UnitName("target"))
+END
+VER 3 0000000000000027 "xHideChat" "136222"
+/run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
+END
+VER 3 0000000000000020 "xLinkAchieve" "136222"
+/run SendChatMessage("\124cffffff00\124Hachievement:5353:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:26:17:4294967295:4294967295:4294967295:4294967295\124h[Champion]\124h\124r, 2k exp, have voice", WHISPER, nil, "Kurropt-Dragonmaw")
+END
+VER 3 0000000000000021 "xLinkItem" "136222"
+/script DEFAULT_CHAT_FRAME:AddMessage("\124cffff8000\124Hitem:19019:0:0:0:0:0:0:0:0\124h[Thunderfury, Blessed Blade of the Windseeker]\124h\124r");
+END
+VER 3 0000000000000015 "xMountUtility" "136222"
+/use [mod:ctrl] Grand Expedition Yak
+/use [mod:shift] Crimson Water Strider
+/use Sky Golem
+/use [noflyable][mod:alt] Grand Black War Mammoth
+/use [mod:alt] Obsidian Nightwing
+END
+VER 3 000000000000001F "xQuestDump" "136222"
+/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end
+END
+VER 3 0000000000000035 "xSkinnyDipping" "136222"
+/script local t={1,3,5,6,7,8,9,10,16,17,18}; for k,v in pairs(t) do PickupInventoryItem(v); PutItemInBackpack(); end
+END
+VER 3 000000000000004C "xStopImpDoomDmg" "INV_MISC_QUESTIONMARK"
+/cancelaura Flee
+END
+VER 3 0000000000000016 "xTrashGreyItems" "136222"
+/run for bag = 0,4,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end
+END
+VER 3 0000000000000057 "xUseGearSet" "132097"
+/use 1
+/use 2
+/use 3
+/use 4
+/use 5
+/use 6
+/use 7
+/use 8
+/use 9
+/use 10
+/use 11
+/use 12
+END
+VER 3 0000000000000019 "xUseRing 11" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 12
+END
+VER 3 0000000000000018 "xUseRing 12" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 11
+END
+VER 3 0000000000000041 "xUseTrinket 13" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000042 "xUseTrinket 14" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END

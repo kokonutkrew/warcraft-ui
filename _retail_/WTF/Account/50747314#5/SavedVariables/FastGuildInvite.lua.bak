@@ -2,11 +2,28 @@
 FGI_DB = {
 ["profileKeys"] = {
 ["Winbin - Emerald Dream"] = "Default",
+["Chieef - Area 52"] = "Default",
+["Bigbrane - Emerald Dream"] = "Default",
+["Saibull - Moon Guard"] = "Default",
+["Killonsites - Area 52"] = "Default",
+["Saikk - Emerald Dream"] = "Default",
+["Worldboss - Area 52"] = "Default",
+},
+["factionrealm"] = {
+["Horde - Moon Guard"] = {
+["guild"] = "KK",
+},
 },
 }
 FGI_DEBUG = {
 ["profileKeys"] = {
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Chieef - Area 52"] = "Chieef - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Saibull - Moon Guard"] = "Saibull - Moon Guard",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
 },
 ["global"] = {
 {

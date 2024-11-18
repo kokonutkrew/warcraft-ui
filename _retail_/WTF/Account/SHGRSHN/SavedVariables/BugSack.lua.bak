@@ -1,24 +1,13 @@
 
 BugSackDB = {
-<<<<<<< Updated upstream
-	["fontSize"] = "GameFontHighlight",
-	["auto"] = false,
-	["soundMedia"] = "BugSack: Fatality",
-	["mute"] = true,
-	["chatframe"] = false,
+["auto"] = false,
+["fontSize"] = "GameFontHighlight",
+["useMaster"] = false,
+["altwipe"] = true,
+["mute"] = false,
+["soundMedia"] = "BugSack: Fatality",
+["chatframe"] = false,
 }
 BugSackLDBIconDB = {
-	["minimapPos"] = 55.68491765366115,
-=======
-	["auto"] = true,
-	["altwipe"] = false,
-	["useMaster"] = false,
-	["fontSize"] = "GameFontHighlight",
-	["mute"] = false,
-	["soundMedia"] = "BugSack: Fatality",
-	["chatframe"] = false,
-}
-BugSackLDBIconDB = {
-	["minimapPos"] = 151.7502144655442,
->>>>>>> Stashed changes
+["minimapPos"] = 138.0874614452742,
 }

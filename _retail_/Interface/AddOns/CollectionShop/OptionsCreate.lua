@@ -68,23 +68,13 @@ SubFrameHeader = NS.Frame( "SubFrameHeader", MainFrame, {
 		{ "TOPLEFT", 20, -20 },
 		{ "TOPRIGHT", -10, -20 },
 	},
-<<<<<<< Updated upstream
-	OnLoad = function( self )
-		PanelTemplates_SetNumTabs( self, #cfg.subFrameTabs );
-	end,
-=======
->>>>>>> Stashed changes
 } );
 --------------------------------------------------------------------------------------------------------------------------------------------
 -- SUBFRAMETABS/SUBFRAMES
 --------------------------------------------------------------------------------------------------------------------------------------------
 local CreateSubFrameTab = function( index )
 	return NS.Button( "Tab" .. index, SubFrameHeader, cfg.subFrameTabs[index].tabText, {
-<<<<<<< Updated upstream
-		template = "TabButtonTemplate",
-=======
 		template = "PanelTopTabButtonTemplate",
->>>>>>> Stashed changes
 		id = index,
 		setPoint = ( function( self )
 			if index == 1 then
@@ -130,11 +120,8 @@ for i = 1, #cfg.subFrameTabs do
 	tinsert( SubFrames, CreateSubFrame( i ) );
 end
 --------------------------------------------------------------------------------------------------------------------------------------------
-<<<<<<< Updated upstream
-=======
 PanelTemplates_SetNumTabs( SubFrameHeader, #cfg.subFrameTabs );
 --------------------------------------------------------------------------------------------------------------------------------------------
->>>>>>> Stashed changes
 -- ADD TO NAMESPACE
 --------------------------------------------------------------------------------------------------------------------------------------------
 NS.options.MainFrame = MainFrame;

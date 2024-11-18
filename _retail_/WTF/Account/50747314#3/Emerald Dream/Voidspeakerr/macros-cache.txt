@@ -101,7 +101,7 @@ VER 3 0100000000000012 "pvpSlowGun" "INV_Misc_QuestionMark"
 #showtooltip Gravimetric Scrambler Cannon
 /cast [@cursor] Gravimetric Scrambler Cannon
 END
-VER 3 0100000000000013 "TSMMacro" "Achievement_Faction_GoldenLotus"
+VER 3 0100000000000013 "TSMMacro" "643910"
 /click TSMCancelAuctionBtn
 /click TSMVendoringSellAllButton
 /click TSMShoppingBuyoutBtn
@@ -132,6 +132,9 @@ VER 3 0100000000000018 "zEvoker01" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,known:370665,@mouseover,help,nodead] [mod:shift,known:370665] Rescue; [mod:alt,known:374251,@mouseover,help,nodead] [mod:alt,known:374251] Cauterizing Flame; [@mouseover,help,nodead] [] Expunge
 END
+VER 3 010000000000001A "zHunter01" "134400"
+/cast [mod:shift,@pet] Revive Pet; [nomod,@mouseover,harm,nodead] [nomod] Tranquilizing Shot; [@focus,help,nodead] [@mouseover,help,nodead] [help] [@pet,exists] [] Misdirection
+END
 VER 3 0100000000000019 "zHunter01" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nopet] Call Pet 1
@@ -141,9 +144,6 @@ VER 3 0100000000000019 "zHunter01" "INV_Misc_QuestionMark"
 /cast [pet,nomod,button:2] Dismiss Pet
 /cast [pet,mod:alt] Feed Pet
 /use [pet,mod:alt] bloody percha
-END
-VER 3 010000000000001A "zHunter01" "134400"
-/cast [mod:shift,@pet] Revive Pet; [nomod,@mouseover,harm,nodead] [nomod] Tranquilizing Shot; [@focus,help,nodead] [@mouseover,help,nodead] [help] [@pet,exists] [] Misdirection
 END
 VER 3 010000000000001B "zHunter02" "INV_Misc_QuestionMark"
 #showtooltip

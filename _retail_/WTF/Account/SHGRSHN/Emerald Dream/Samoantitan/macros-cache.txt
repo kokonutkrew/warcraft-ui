@@ -1,14 +1,27 @@
-VER 3 0100000000000001 "BFA_RET" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000007 ".f07 Spotlight" "135914"
+/use personal spotlight
+/use pretty dreanor pearl
+/use druid and priest statue set
+/use vindicator's armor polish kit
+/use yellow conservatory scroll
+/use accursed tome of the sargerei
+/use bubble wand
+END
+VER 3 0100000000000008 "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END
+VER 3 0100000000000009 "Avenger's Shield" "134400"
+#showtooltip avenger's shield
+/use kindness of chi-ji
+/use avenger's shield
+END
+VER 3 0100000000000006 "BlessingOFreedom" "134400"
+#showtooltip Blessing of Freedom
+/cast [@mouseover,help,nodead][@focus,exists][] Blessing of Freedom
+END
+VER 3 0100000000000005 "Final Reckoning" "134400"
 #showtooltip
-/click [button:2] BFA_RET RightButton; [button:3] BFA_RET MiddleButton; [button:4] BFA_RET Button4; [button:5] BFA_RET Button5; BFA_RET
-END
-VER 3 0100000000000002 "BFA_RET_AOE" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click [button:2] BFA_RET_AOE RightButton; [button:3] BFA_RET_AOE MiddleButton; [button:4] BFA_RET_AOE Button4; [button:5] BFA_RET_AOE Button5; BFA_RET_AOE
-END
-VER 3 0100000000000003 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 0100000000000004 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+/use [@cursor] final reckoning
 END

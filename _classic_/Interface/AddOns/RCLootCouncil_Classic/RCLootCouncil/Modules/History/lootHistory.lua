@@ -4,6 +4,7 @@
 -- Create Date : 8/6/2015
 
 local _,addon = ...
+---@class RCLootHistory : AceModule
 local LootHistory = addon:NewModule("RCLootHistory")
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
 local AG = LibStub("AceGUI-3.0")
@@ -57,19 +58,8 @@ function LootHistory:OnInitialize()
 	_G.MSA_DropDownMenu_Initialize(rightClickMenu, self.RightClickMenu, "MENU")
 	--MoreInfo
 	self.moreInfo = CreateFrame( "GameTooltip", "RCLootHistoryMoreInfo", nil, "GameTooltipTemplate" )
+	self.moreInfo:SetClampedToScreen(false)
 end
-
-local tierLookUpTable = { -- instanceMapID to Tier text
-	[1530] = L["Tier 19"],
-	[1676] = L["Tier 20"],
-	[1712] = L["Tier 21"],
-}
-
-local difficultyLookupTable = {
-	[14] = L["tier_token_normal"],
-	[15] = L["tier_token_heroic"],
-	[16] = L["tier_token_mythic"],
-}
 
 function LootHistory:OnEnable()
 	addon:Debug("LootHistory:OnEnable()")
@@ -89,8 +79,6 @@ end
 
 function LootHistory:OnDisable()
 	self:Hide()
-	self.frame:SetParent(nil)
-	self.frame = nil
 	data = {}
 end
 
@@ -171,7 +159,7 @@ function LootHistory:BuildData()
 							{value = self:GetLocalizedDate(date).. "-".. i.time or "", args = {time = i.time, date = date},},
 							{DoCellUpdate = self.SetCellGear, args={i.lootWon}},
 							{value = i.lootWon},
-							{DoCellUpdate = self.SetCellResponse, args = {color = i.color, response = i.response, responseID = i.responseID or 0, isAwardReason = i.isAwardReason}},
+							{DoCellUpdate = self.SetCellResponse, args = {color = i.color or {1,1,1,1}, response = i.response, responseID = i.responseID or 0, isAwardReason = i.isAwardReason}},
 							{DoCellUpdate = self.SetCellDelete},
 						}
 					}
@@ -426,7 +414,13 @@ function LootHistory.SetCellResponse(rowFrame, frame, data, cols, row, realrow, 
 	local args = data[realrow].cols[column].args
 	frame.text:SetText(args.response)
 
-	if args.color and type(args.color) == "table" then -- Never version saves the color with the entry
+	if args.color and type(args.color) == "table" and type(args.color[1]) == "number" then -- Never version saves the color with the entry
+		-- There's a miniscule chance color doesn't have at least 3 elements, required for SetTextColor.
+		if #args.color < 3 then
+			for i = #args.color + 1, 3 do
+				args.color[i] = 1
+			end
+		end
 		frame.text:SetTextColor(unpack(args.color))
 	elseif args.responseID and args.responseID > 0 then -- try to recreate color from ID
 		frame.text:SetTextColor(unpack(addon:GetResponse("default", args.responseID).color))
@@ -775,6 +769,7 @@ end
 function LootHistory:GetFrame()
 	if self.frame then return self.frame end
 	local f = addon:CreateFrame("DefaultRCLootHistoryFrame", "history", L["RCLootCouncil Loot History"], 250, 480)
+	addon.UI:RegisterForEscapeClose(f, function() if self:IsEnabled() then self:Disable() end end)
 	local st = LibStub("ScrollingTable"):CreateST(self.scrollCols, NUM_ROWS, ROW_HEIGHT, { ["r"] = 1.0, ["g"] = 0.9, ["b"] = 0.0, ["a"] = 0.5 }, f.content)
 	st.frame:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", 10, 10)
 	st:SetFilter(self.FilterFunc)
@@ -1058,10 +1053,14 @@ function LootHistory:UpdateMoreInfo(rowFrame, cellFrame, dat, cols, row, realrow
 	end
 	tip:AddLine(" ")
 	tip:AddLine(L["Tokens received"])
+	local tokensSorted = {}
+	for n in pairs(moreInfoData[row.name].totals.tokens) do tinsert(tokensSorted, n) end
+	table.sort(tokensSorted)
 	-- Add tier tokens
-	for _, v in pairs(moreInfoData[row.name].totals.tokens) do
-		if v.mapID and v.difficultyID and tierLookUpTable[v.mapID] then
-			tip:AddDoubleLine(tierLookUpTable[v.mapID].." "..difficultyLookupTable[v.difficultyID]..":", v.num, 1,1,1, 1,1,1)
+	for _, instance in pairs(tokensSorted) do
+		local num = moreInfoData[row.name].totals.tokens[instance]
+		if num > 0 then
+			tip:AddDoubleLine(instance .. ":", num, 1, 1, 1, 1, 1, 1)
 		end
 	end
 	tip:AddLine(" ")
@@ -1101,7 +1100,7 @@ function LootHistory:UpdateMoreInfo(rowFrame, cellFrame, dat, cols, row, realrow
 		tip:AddDoubleLine("difficultyID:", data.difficultyID, 1,1,1, 1,1,1)
 		tip:AddDoubleLine("mapID", data.mapID, 1,1,1, 1,1,1)
 		tip:AddDoubleLine("groupSize", data.groupSize, 1,1,1, 1,1,1)
-		tip:AddDoubleLine("tierToken", data.tierToken, 1,1,1, 1,1,1)
+		tip:AddDoubleLine("tierToken", tostring(data.tierToken), 1,1,1, 1,1,1)
 		tip:AddDoubleLine("tokenRoll", tostring(data.tokenRoll), 1,1,1, 1,1,1)
 		tip:AddDoubleLine("relicRoll", tostring(data.relicRoll), 1,1,1, 1,1,1)
 		tip:AddLine(" ")
@@ -1605,6 +1604,7 @@ do
 				tinsert(export, string.format("\"%s\":\"%s\"", "player", tostring(player)))
 				tinsert(export, string.format("\"%s\":\"%s\"", "date", tostring(self:GetLocalizedDate(d.date))))
 				tinsert(export, string.format("\"%s\":\"%s\"", "time", tostring(d.time)))
+				tinsert(export, string.format("\"%s\":\"%s\"", "id", tostring(d.id)))
 				tinsert(export, string.format("\"%s\":%s", "itemID", addon:GetItemIDFromLink(d.lootWon)))
 				tinsert(export, string.format("\"%s\":\"%s\"", "itemString", addon:GetItemStringFromLink(d.lootWon)))
 				tinsert(export, string.format("\"%s\":\"%s\"", "response", QuotesEscape(d.response)))
@@ -1621,6 +1621,7 @@ do
 				tinsert(export, string.format("\"%s\":\"%s\"", "equipLoc", tostring(getglobal(equipLoc) or "")))
 				tinsert(export, string.format("\"%s\":\"%s\"", "note", QuotesEscape(d.note)))
 				tinsert(export, string.format("\"%s\":\"%s\"", "owner", tostring(d.owner or "Unknown")))
+				tinsert(export, string.format("\"%s\":\"%s\"", "itemName", addon.Utils:GetItemNameFromLink(d.lootWon)))
 
 				processedEntries = processedEntries + 1;
 

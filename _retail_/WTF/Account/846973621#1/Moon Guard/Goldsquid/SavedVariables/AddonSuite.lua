@@ -1,0 +1,2 @@
+
+ADDON_SUITE_CHARACTER_DB = nil

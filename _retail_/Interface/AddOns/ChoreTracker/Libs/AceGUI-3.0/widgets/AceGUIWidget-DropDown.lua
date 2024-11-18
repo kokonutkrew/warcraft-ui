@@ -1,8 +1,4 @@
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
---[[ $Id: AceGUIWidget-DropDown.lua 1239 2020-09-20 10:22:02Z nevcairiel $ ]]--
-========
 --[[ $Id: AceGUIWidget-DropDown.lua 1284 2022-09-25 09:15:30Z nevcairiel $ ]]--
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/ChoreTracker/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
 local AceGUI = LibStub("AceGUI-3.0")
 
 -- Lua APIs

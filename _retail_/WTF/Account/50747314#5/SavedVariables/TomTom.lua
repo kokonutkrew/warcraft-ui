@@ -1,10 +1,14 @@
 
 TomTomDB = {
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Default",
-["Bigbrane - Emerald Dream"] = "Default",
-["Dethflare - Emerald Dream"] = "Default",
+["Dethflite - Area 52"] = "Default",
+["Worldboss - Area 52"] = "Default",
+["Chieef - Area 52"] = "Default",
 ["Winbin - Emerald Dream"] = "Default",
+["Saikk - Emerald Dream"] = "Default",
+["Killonsites - Area 52"] = "Default",
+["Bigbrane - Emerald Dream"] = "Default",
+["Saibull - Moon Guard"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -19,10 +23,10 @@ nil,
 },
 ["block"] = {
 ["position"] = {
-"BOTTOM",
+"BOTTOMLEFT",
 nil,
-"BOTTOM",
-375.0001220703125,
+"BOTTOMLEFT",
+0,
 0,
 },
 },
@@ -32,19 +36,31 @@ nil,
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
-["Saig - Emerald Dream"] = "Saig - Emerald Dream",
-["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
-["Dethflare - Emerald Dream"] = "Dethflare - Emerald Dream",
+["Dethflite - Area 52"] = "Dethflite - Area 52",
+["Worldboss - Area 52"] = "Worldboss - Area 52",
+["Chieef - Area 52"] = "Chieef - Area 52",
 ["Winbin - Emerald Dream"] = "Winbin - Emerald Dream",
+["Saikk - Emerald Dream"] = "Saikk - Emerald Dream",
+["Killonsites - Area 52"] = "Killonsites - Area 52",
+["Bigbrane - Emerald Dream"] = "Bigbrane - Emerald Dream",
+["Saibull - Moon Guard"] = "Saibull - Moon Guard",
 },
 ["profiles"] = {
-["Saig - Emerald Dream"] = {
+["Dethflite - Area 52"] = {
+},
+["Worldboss - Area 52"] = {
+},
+["Chieef - Area 52"] = {
+},
+["Winbin - Emerald Dream"] = {
+},
+["Saikk - Emerald Dream"] = {
+},
+["Killonsites - Area 52"] = {
 },
 ["Bigbrane - Emerald Dream"] = {
 },
-["Dethflare - Emerald Dream"] = {
-},
-["Winbin - Emerald Dream"] = {
+["Saibull - Moon Guard"] = {
 },
 },
 }

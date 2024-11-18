@@ -1,10 +1,5 @@
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
---[[ $Id: CallbackHandler-1.0.lua 1186 2018-07-21 14:19:18Z nevcairiel $ ]]
-local MAJOR, MINOR = "CallbackHandler-1.0", 7
-========
 --[[ $Id: CallbackHandler-1.0.lua 1298 2022-12-12 15:10:10Z nevcairiel $ ]]
 local MAJOR, MINOR = "CallbackHandler-1.0", 8
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WoWthing_Collector/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
 local CallbackHandler = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not CallbackHandler then return end -- No upgrade needed
@@ -26,18 +21,6 @@ local function Dispatch(handlers, ...)
 	until not method
 end
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
-local function Dispatch(handlers, ...)
-	local index, method = next(handlers)
-	if not method then return end
-	repeat
-		xpcall(method, errorhandler, ...)
-		index, method = next(handlers, index)
-	until not method
-end
-
-========
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WoWthing_Collector/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
 --------------------------------------------------------------------------
 -- CallbackHandler:New
 --
@@ -46,11 +29,7 @@ end
 --   UnregisterName    - name of the callback unregistration API, default "UnregisterCallback"
 --   UnregisterAllName - name of the API to unregister all callbacks, default "UnregisterAllCallbacks". false == don't publish this API.
 
-<<<<<<<< Updated upstream:_retail_/Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
-function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAllName)
-========
 function CallbackHandler.New(_self, target, RegisterName, UnregisterName, UnregisterAllName)
->>>>>>>> Stashed changes:_retail_/Interface/AddOns/WoWthing_Collector/libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
 
 	RegisterName = RegisterName or "RegisterCallback"
 	UnregisterName = UnregisterName or "UnregisterCallback"

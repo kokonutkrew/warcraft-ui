@@ -1,27 +1,14 @@
-<<<<<<< Updated upstream
-## Interface: 90005
-## classic ## Interface: 11306
-## Title: TomTom
-## Author: jnwhiteh, lortiz
-## Version: v90005-1.2.1
-## License: All Rights Reserved
-=======
 ## Interface: 110005
 ## Title: TomTom
 ## Author: Cladhaire, Ludovicus
 ## Version: v4.0.5-release
 ## License: All Rights Reserved
 ## IconTexture: Interface\AddOns\TomTom\Images\StaticArrow.tga
->>>>>>> Stashed changes
 ## Notes: Acts as your portable navigation assistant
 ## Notes-frFR: Agit comme un assistant de navigation portable
 ## Notes-zhCN:一个简单的导航助手。
 ## Notes-ruRU: Удобный портативный навигатор по игровой карте
 ## Notes-deDE: Dient dir als portabler Navigationsassistent.
-<<<<<<< Updated upstream
-## Author: Cladhaire, Ludovicus
-=======
->>>>>>> Stashed changes
 ## SavedVariables: TomTomDB, TomTomWaypoints, TomTomWaypointsM
 ## OptionalDeps: HereBeDragons-2.0
 
@@ -29,10 +16,7 @@
 ## X-CompatibleLocales: enUS, enGB, deDE, frFR, esES, esMX, zhCN, zhTW, koKR, ruRU
 ## X-Curse-Project-ID: 18808
 ## X-WoWI-ID: 7032
-<<<<<<< Updated upstream
-=======
 ## X-Wago-ID: Rn6VaONd
->>>>>>> Stashed changes
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
@@ -44,10 +28,7 @@ libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
 libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
 libs\HereBeDragons\HereBeDragons-2.0.lua
 libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
-<<<<<<< Updated upstream
-=======
 libs\LibDropDown\embed.xml
->>>>>>> Stashed changes
 
 AddonCore.lua
 
@@ -64,14 +45,8 @@ TomTom.lua
 TomTom_Waypoints.lua
 TomTom_CrazyArrow.lua
 TomTom_Corpse.lua
-<<<<<<< Updated upstream
-TomTom_POIIntegration.lua
-
-TomTom_Config.lua
-=======
 TomTom_Config.lua
 TomTom_Paste.lua
 
 TomTom_POIIntegration.lua
 
->>>>>>> Stashed changes

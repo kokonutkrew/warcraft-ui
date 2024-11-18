@@ -1,0 +1,45 @@
+VER 3 0100000000000001 "Bracers" "237377"
+LFW |cffffd000|Htrade:Player-162-0A2F1F9A:4036:202|h[Engineering]|h|r i418 Brez Bracers, Tools, submit personal work orders
+END
+VER 3 0100000000000002 "BrezBracers" "136103"
+WTS Brez Bracers!|cffa335ee|Hitem:198333:6574:201409::::::70:73::13:8:8836:8840:8902:7936:8800:8845:8948:8863:7:28:2164:29:32:38:6:40:561:47:197921:48:198233:50:198255:::::|h[Difficult Wrist Protectors |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r
+END
+VER 3 0100000000000003 "Charge" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mousover, help] intervene
+/use [@mousover, harm] charge
+/targetenemy [noharm]
+/use charge
+END
+VER 3 0100000000000004 "Execute" "135358"
+/fgi invite
+/fgi nextSearch
+/use execute
+END
+VER 3 0100000000000005 "Heroic Leap" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mousover, help] intervene
+/use [@cursor] heroic leap
+END
+VER 3 0100000000000006 "NEW_SEQUENCE" "INV_Misc_QuestionMark"
+#showtooltip
+/click [button:1] NEW_SEQUENCE LeftButton t; NEW_SEQUENCE
+END
+VER 3 0100000000000007 "Ravager" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] ravager
+END
+VER 3 0100000000000008 "Shield Slam" "134951"
+/fgi nextSearch
+/fgi invite
+/use shield slam
+END
+VER 3 0100000000000009 "taunt" "132341"
+/s taunt
+END
+VER 3 010000000000000A "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000B "VuhDoDCShieldNames" "132281"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

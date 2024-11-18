@@ -1,10 +1,7 @@
 
 Rematch_TSMPetValuesDB = {
 ["profileKeys"] = {
-["Maliatt - Area 52"] = "Default",
-["Faithwyn - Area 52"] = "Default",
-["Maliajj - Area 52"] = "Default",
-["Snuglebug - Area 52"] = "Default",
+["Maliakk - Emerald Dream"] = "Default",
 },
 ["global"] = {
 ["Options"] = true,

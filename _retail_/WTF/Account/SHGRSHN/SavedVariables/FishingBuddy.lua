@@ -24,12 +24,27 @@ FishingBuddy_Info = {
 [582001] = {
 [110289] = 2,
 [111589] = 11,
-[110290] = 2,
 [111651] = 10,
+[110290] = 2,
+},
+},
+["FishSchools"] = {
+[539] = {
+{
+["y"] = 0.06937759281517669,
+["x"] = 0.2719785292315803,
+["sidx"] = 539000,
+["kind"] = 0,
+["fish"] = {
+[111672] = 3,
+[111589] = 4,
+[114876] = 2,
+},
+["count"] = 9,
+},
 },
 },
 ["Version"] = 19500,
-["FishInfo2"] = 0,
 ["KnownZones"] = {
 [539] = "Eventide Landing",
 [582] = "Herbcraft's Garrison",
@@ -42,63 +57,48 @@ FishingBuddy_Info = {
 },
 ["ImppDBLoaded"] = 0,
 ["Fishies"] = {
-[111651] = {
-["enUS"] = "Small Fat Sleeper",
-["texture"] = 970821,
+[111658] = {
+["enUS"] = "Small Sea Scorpion",
 ["quality"] = 1,
+["texture"] = 970815,
 },
 [110292] = {
 ["enUS"] = "Sea Scorpion Bait",
-["texture"] = 970851,
 ["quality"] = 1,
+["texture"] = 970851,
 },
 [110289] = {
 ["enUS"] = "Fat Sleeper Bait",
+["quality"] = 1,
 ["texture"] = 970846,
-["quality"] = 1,
 },
-[111672] = {
-["enUS"] = "Enormous Sea Scorpion",
-["texture"] = 970817,
+[111651] = {
+["enUS"] = "Small Fat Sleeper",
 ["quality"] = 1,
+["texture"] = 970821,
 },
 [110290] = {
 ["enUS"] = "Blind Lake Sturgeon Bait",
-["texture"] = 970850,
 ["quality"] = 1,
+["texture"] = 970850,
 },
 [111589] = {
 ["enUS"] = "Small Crescent Saberfish",
-["texture"] = 970812,
 ["quality"] = 1,
+["texture"] = 970812,
 },
 [114876] = {
 ["enUS"] = "Shadow Sturgeon",
 ["canopen"] = false,
-["quality"] = 1,
-["quest"] = true,
 ["texture"] = 133912,
-},
-[111658] = {
-["enUS"] = "Small Sea Scorpion",
-["texture"] = 970815,
+["quest"] = true,
 ["quality"] = 1,
 },
-},
-["FishSchools"] = {
-[539] = {
-{
-["y"] = 0.06937759281517669,
-["x"] = 0.2719785292315803,
-["sidx"] = 539000,
-["kind"] = 0,
-["count"] = 9,
-["fish"] = {
-[111672] = 3,
-[111589] = 4,
-[114876] = 2,
+[111672] = {
+["enUS"] = "Enormous Sea Scorpion",
+["quality"] = 1,
+["texture"] = 970817,
 },
 },
-},
-},
+["FishInfo2"] = 0,
 }

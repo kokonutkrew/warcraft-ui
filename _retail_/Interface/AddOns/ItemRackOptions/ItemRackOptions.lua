@@ -355,11 +355,12 @@ function ItemRackOpt.PopulateInitialIcons()
 	ItemRackOpt.PopulateInvIcons()
 	table.insert(ItemRackOpt.Icons,"Interface\\Icons\\INV_Banner_02")
 	table.insert(ItemRackOpt.Icons,"Interface\\Icons\\INV_Banner_03")
-	RefreshPlayerSpellIconInfo()
+
+	IconDataProviderMixin:Init(IconDataProviderExtraType.Spell, false)
 	local numMacros = #GetMacroIcons(MACRO_ICON_FILENAMES)
 	local texture
 	for i=1,numMacros do
-		texture = GetSpellorMacroIconInfo(i)
+		texture = IconDataProviderMixin:GetIconForSaving(i)
 		if(type(texture) == "number") then
 			table.insert(ItemRackOpt.Icons,texture)
 		else
@@ -1134,7 +1135,8 @@ function ItemRackOpt.SortListScrollFrameUpdate()
 			end
 			_G["ItemRackOptSortList"..i.."Name"]:SetText(name)
 			_G["ItemRackOptSortList"..i.."Icon"]:SetTexture(texture)
-			_G["ItemRackOptSortList"..i.."Name"]:SetTextColor(GetItemQualityColor(quality or 1))
+			local red, green, blue = C_Item.GetItemQualityColor(quality or 1)
+			_G["ItemRackOptSortList"..i.."Name"]:SetTextColor(red, green, blue)
 			item:Show()
 			if idx==ItemRackOpt.SortSelected then
 				ItemRackOpt.LockHighlight(item)

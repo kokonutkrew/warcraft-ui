@@ -1,3 +1,98 @@
+__ New in 3.37 - By Kharthus __
+
+* Fixed setTextColor errors in Queue menu
+
+__ New in 3.36 - By Kharthus __
+
+* TOC update for 11.0.2 patch
+
+__ New in 3.35 - By Kharthus __
+
+* Cleanup API overrides for 11.0.0
+
+__ New in 3.34 - By Kharthus __
+
+* Fixed IsEquippableItem and IsEquippedItem calls
+
+__ New in 3.33 - By Kharthus __
+
+* Fixed C_AddOns calls
+* Fixed UnitBuff call
+
+__ New in 3.32 - By Kharthus __
+
+* Fixed all GetItem API calls
+* Fixed UseItemByName
+* Changed GetMouseFocus to GetMouseFoci for 11.0.0
+
+__ New in 3.31 - By Kharthus __
+
+* TOC update for 11.0.0 patch
+
+__ New in 3.30 - By Kharthus __
+
+* TOC update for 10.2.7 patch
+
+__ New in 3.29 - By Kharthus __
+
+* TOC update for 10.2.6 patch
+
+__ New in 3.28 - By Kharthus __
+
+* TOC update for 10.1.5 patch
+
+__ New in 3.27 - By Kharthus __
+
+* TOC update for 10.1.0 patch
+* Addon compartment support
+* Clickthrough buttons once again work on mouseUp
+* Fix for addons collecting buttons (thanks sfmict)
+
+__ New in 3.26 - By Kharthus __
+
+* Fixed set icon list (thanks SlavKnightGeto)
+* Fixed inventory icon sizing in Options window
+
+__ New in 3.25 - By Kharthus __
+
+* Fixed clickthrough on floating buttons that use inventory items.
+
+__ New in 3.24 - By Kharthus __
+
+* TOC update for 10.0.7 patch
+
+__ New in 3.23 - By Kharthus __
+
+* TOC update for 10.0.5 patch
+
+__ New in 3.22 - By Kharthus __
+
+* Fix for errors when mousing over item slots
+
+__ New in 3.21 - By Kharthus __
+
+* Updates for 10.0.2 patch
+
+__ New in 3.20 - By Kharthus __
+
+* Updates for 10.0 patch
+
+__ New in 3.17 - By Kharthus __
+
+* TOC update for 9.2.5 patch
+
+__ New in 3.16 - By Kharthus __
+
+* TOC update for 9.2 patch
+
+__ New in 3.15 - By Kharthus __
+
+* TOC update for 9.1.5 patch
+
+__ New in 3.14 - By Kharthus __
+
+* TOC update for 9.1 patch
+
 __ New in 3.13 - By Kharthus __
 
 * TOC update for 9.0.5 patch

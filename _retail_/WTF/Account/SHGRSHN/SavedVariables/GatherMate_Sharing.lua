@@ -27,18 +27,18 @@ GatherMate_SharingDB = {
 ["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 ["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 ["Herbcraft - Area 52"] = "Herbcraft - Area 52",
-["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
-["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 ["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 ["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
-["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 ["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
 ["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 ["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 },
 ["profiles"] = {
@@ -95,29 +95,29 @@ GatherMate_SharingDB = {
 },
 ["Herbcraft - Area 52"] = {
 },
-["Samoansneaky - Tichondrius"] = {
+["Samoanmystic - Emerald Dream"] = {
 },
-["Aheenan - Emerald Dream"] = {
+["Samoanslayer - Emerald Dream"] = {
 },
 ["Samoanruin - Emerald Dream"] = {
 },
-["Craudy - Emerald Dream"] = {
+["Samoanranger - Emerald Dream"] = {
 },
 ["Brunderan - Emerald Dream"] = {
 },
-["Samoansage - Tichondrius"] = {
+["Mf - Emerald Dream"] = {
 },
 ["Samoansteel - Emerald Dream"] = {
 },
 ["Samoantank - Tichondrius"] = {
 },
-["Mf - Emerald Dream"] = {
+["Samoansage - Tichondrius"] = {
 },
-["Samoanranger - Emerald Dream"] = {
+["Craudy - Emerald Dream"] = {
 },
-["Samoanslayer - Emerald Dream"] = {
+["Aheenan - Emerald Dream"] = {
 },
-["Samoanmystic - Emerald Dream"] = {
+["Samoansneaky - Tichondrius"] = {
 },
 ["Samoantitan - Stormrage"] = {
 ["syncDeletes"] = true,

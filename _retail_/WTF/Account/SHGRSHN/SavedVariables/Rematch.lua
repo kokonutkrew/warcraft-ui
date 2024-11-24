@@ -9,13 +9,13 @@ Rematch5Settings = {
 ["LastOpenLayout"] = "3-teams",
 ["CurrentLayout"] = "3-teams",
 ["ColorPetNames"] = true,
-["ExpandedOptionsHeaders"] = {
-},
-["HideMenuHelp"] = false,
-["ReverseToolbar"] = false,
 ["ToolbarDismiss"] = false,
-["UseTypeBar"] = true,
+["PetNotes"] = {
+},
+["ReverseToolbar"] = false,
 ["HideNotesBadges"] = false,
+["UseTypeBar"] = true,
+["LastSelectedGroup"] = "group:none",
 ["DefaultPreferences"] = {
 },
 ["AutoWinRecord"] = false,
@@ -35,16 +35,7 @@ Rematch5Settings = {
 ["ShowAfterBattle"] = false,
 ["PreferencesPaused"] = false,
 ["HideTruncatedTooltips"] = false,
-["LockWindow"] = false,
-["FavoriteFilters"] = {
-},
 ["LevelingQueue"] = {
-{
-["petID"] = "BattlePet-0-00001178558F",
-["preferred"] = true,
-["added"] = 20241109230230,
-["petTag"] = "Q1306A",
-},
 {
 ["preferred"] = true,
 ["petID"] = "BattlePet-0-00001178A225",
@@ -52,13 +43,16 @@ Rematch5Settings = {
 ["petTag"] = "Q1404I6",
 },
 },
+["LockWindow"] = false,
+["FavoriteFilters"] = {
+},
 ["CompactTeamList"] = false,
 ["PetCardForLinks"] = false,
 ["Anchor"] = "BOTTOMRIGHT",
 ["PetCardCompactCollected"] = false,
 ["LoadHealthiest"] = false,
-["currentTeamID"] = "team:3",
-["LastToastedPetID"] = "BattlePet-0-00001178558F",
+["currentTeamID"] = "team:7",
+["LastToastedPetID"] = "BattlePet-0-00001178A225",
 ["KeepNotesOnScreen"] = false,
 ["CompactQueueList"] = false,
 ["DontConfirmDeleteTeams"] = true,
@@ -70,7 +64,7 @@ Rematch5Settings = {
 ["CollapseOnEsc"] = false,
 ["StrongVsLevel"] = false,
 ["AlwaysTeamTabs"] = false,
-["TypeBarTab"] = 1,
+["TypeBarTab"] = 2,
 ["CompactTargetList"] = false,
 ["ExpandedGroups"] = {
 ["group:favorites"] = true,
@@ -157,6 +151,7 @@ Rematch5Settings = {
 ["Sort"] = {
 },
 ["Level"] = {
+[4] = true,
 },
 ["Tough"] = {
 },
@@ -166,10 +161,12 @@ Rematch5Settings = {
 },
 ["Rarity"] = {
 },
-["RawSearchText"] = "\"Lil'Doomy\"",
+["RawSearchText"] = "blizzard",
 ["Similar"] = {
 },
 ["Search"] = {
+["Pattern"] = "[bB][lL][iI][zZ][zZ][aA][rR][dD]",
+["Length"] = 8,
 },
 ["Breed"] = {
 },
@@ -200,10 +197,10 @@ Rematch5Settings = {
 "group:none",
 },
 ["NoBackupReminder"] = false,
-["LastSelectedGroup"] = "group:none",
+["HideMenuHelp"] = false,
 ["ShowAbilityNumbers"] = false,
 ["PetCardBackground"] = "Expansion",
-["PetNotes"] = {
+["ExpandedOptionsHeaders"] = {
 },
 }
 Rematch5SavedTeams = {
@@ -223,6 +220,24 @@ Rematch5SavedTeams = {
 ["groupID"] = "group:none",
 ["targets"] = {
 201858,
+},
+},
+["team:6"] = {
+["pets"] = {
+"BattlePet-0-000007413929",
+"BattlePet-0-000010D9AF8A",
+0,
+},
+["name"] = "Awakened Custodian",
+["tags"] = {
+"11101BK",
+"1220R4",
+"ZL",
+},
+["teamID"] = "team:6",
+["groupID"] = "group:none",
+["targets"] = {
+223407,
 },
 },
 ["team:1"] = {
@@ -261,24 +276,6 @@ Rematch5SavedTeams = {
 67370,
 },
 },
-["team:4"] = {
-["pets"] = {
-"BattlePet-0-000006C39BBB",
-"BattlePet-0-000007AFD5B8",
-0,
-},
-["name"] = "Haywire Servobot",
-["tags"] = {
-"11101FS",
-"12109V",
-"ZL",
-},
-["teamID"] = "team:4",
-["groupID"] = "group:none",
-["targets"] = {
-222535,
-},
-},
 ["team:5"] = {
 ["pets"] = {
 "BattlePet-0-000007AFD5B8",
@@ -297,6 +294,42 @@ Rematch5SavedTeams = {
 223406,
 },
 },
+["team:4"] = {
+["pets"] = {
+"BattlePet-0-000006C39BBB",
+"BattlePet-0-000007AFD5B8",
+0,
+},
+["name"] = "Haywire Servobot",
+["tags"] = {
+"11101FS",
+"12109V",
+"ZL",
+},
+["teamID"] = "team:4",
+["groupID"] = "group:none",
+["targets"] = {
+222535,
+},
+},
+["team:7"] = {
+["pets"] = {
+"BattlePet-0-000007413929",
+"BattlePet-0-000010D9AF8A",
+0,
+},
+["name"] = "Collector Dyna",
+["tags"] = {
+"11101BK",
+"1220R4",
+"ZL",
+},
+["teamID"] = "team:7",
+["groupID"] = "group:none",
+["targets"] = {
+223446,
+},
+},
 }
 Rematch5SavedGroups = {
 ["group:favorites"] = {
@@ -313,7 +346,9 @@ Rematch5SavedGroups = {
 ["sortMode"] = 1,
 ["name"] = "Ungrouped Teams",
 ["teams"] = {
+"team:6",
 "team:1",
+"team:7",
 "team:4",
 "team:3",
 "team:2",
@@ -326,6 +361,9 @@ Rematch5SavedGroups = {
 },
 }
 Rematch5SavedTargets = {
+[223407] = {
+"team:6",
+},
 [85519] = {
 "team:1",
 },
@@ -340,6 +378,9 @@ Rematch5SavedTargets = {
 },
 [223406] = {
 "team:5",
+},
+[223446] = {
+"team:7",
 },
 }
 Rematch4Saved = nil

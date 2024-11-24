@@ -1,8 +1,0 @@
-<Bindings>
- <Binding name="COPYMOUSEOVERLINK" category="Caerdon Wardrobe" default="F11">
-    CaerdonAPI:CopyMouseoverLink()
- </Binding>
- <Binding name="PRINTMOUSEOVERLINKDETAILS" category="Caerdon Wardrobe" default="F12">
-    CaerdonAPI:DumpMouseoverLinkDetails()
- </Binding>
-</Bindings>

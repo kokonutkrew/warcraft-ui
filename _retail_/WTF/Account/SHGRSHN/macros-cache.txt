@@ -6,11 +6,11 @@ VER 3 0000000000000364 ".a.y7 Pull" "134400"
 END
 VER 3 00000000000003C4 ".a.yAltDownDebuf" "134400"
 #showtooltip
-/use [known:2908]soothe;[known:1725,@cursor]distract
+/use [known:2908]soothe;[known:1725,@cursor]distract;[known:528]dispel magic
 END
 VER 3 0000000000000365 ".a.yAltUp Cure" "134400"
 #showtooltip
-/use [known:2782]remove corruption;[known:213644]cleanse toxins;[known:130]slow fall;[known:18499]berserker rage;[known:360823]naturalize;[known:4987]cleanse;[known:31224]cloak of shadows
+/use [known:2782]remove corruption;[known:213644]cleanse toxins;[known:130]slow fall;[known:18499]berserker rage;[known:360823]naturalize;[known:4987]cleanse;[known:31224]cloak of shadows;[known:527]purify
 END
 VER 3 0000000000000366 ".a.yE Talent 3" "134400"
 #showtooltip
@@ -22,7 +22,7 @@ VER 3 0000000000000399 ".a.yQ Interrupt" "134400"
 END
 VER 3 0000000000000367 ".a.yScroll Speed" "134400"
 #showtooltip
-/use [known:186257]aspect of the cheetah;[known:2983]sprint;[known:77764]stampeding roar;[known:dash]dash;[known:68992]darkflight;[known:190784]divine steed;[known:1953]blink;[known:111400]burning rush;[known:100]charge;[known:358267]hover
+/use [known:186257]aspect of the cheetah;[known:2983]sprint;[known:dash]dash;[known:190784]divine steed;[known:1953]blink;[known:111400]burning rush;[known:100]charge;[known:358267]hover;[known:121536,@player]angelic feather
 END
 VER 3 0000000000000338 ".a01 Skull" "132097"
 /run SetRaidTargetIcon("target", 8)
@@ -395,11 +395,11 @@ VER 3 0000000000000384 "Craft" "132691"
 /petattack
 /castsequence shadow bolt, hand of gul'dan
 END
-VER 3 00000000000003E0 "Decursive" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000003D8 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Fear;  [@mouseover,exists,mod:ctrl] Fear; [@mouseover,exists,mod:shift] Fear
 END
-VER 3 00000000000003D8 "Decursive" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000003E0 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Fear;  [@mouseover,exists,mod:ctrl] Fear; [@mouseover,exists,mod:shift] Fear
 END
@@ -427,12 +427,12 @@ VER 3 00000000000003E1 "HSTable" "134400"
 #showtooltip
 /use hearthstone game table
 END
+VER 3 0000000000000389 "Mailbox" "413580"
+/run AutoLootMailItem(1)
+END
 VER 3 00000000000003B7 "Mailbox" "134400"
 #showtooltip
 /use ohuna perch
-END
-VER 3 0000000000000389 "Mailbox" "413580"
-/run AutoLootMailItem(1)
 END
 VER 3 00000000000003CA "prof Overpower A" "134400"
 #showtooltip

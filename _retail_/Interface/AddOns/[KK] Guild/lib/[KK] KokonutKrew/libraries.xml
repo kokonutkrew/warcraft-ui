@@ -1,5 +1,0 @@
-<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
-    <Script file="dev\dev_tools.lua"/>
-    <Script file="api\slash_commands\slash_commands.lua"/>
-    <Script file="ui\interface_options.lua"/>
-</Ui>

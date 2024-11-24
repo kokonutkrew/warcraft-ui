@@ -1,7 +1,8 @@
-## Interface: 90005
+## Interface: 110002
 ## Title: ItemRackOptions
 ## Notes: Load-On-Demand modules for ItemRack
 ## Dependencies: ItemRack, Blizzard_MacroUI
+## IconTexture: 132722
 ## LoadOnDemand: 1
 ItemRackOptions.lua
 ItemRackOptions.xml

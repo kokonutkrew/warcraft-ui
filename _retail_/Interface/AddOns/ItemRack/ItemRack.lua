@@ -3,7 +3,7 @@ ItemRack = {}
 local disable_delayed_swaps = nil -- temporary. change nil to 1 to stop attempting to delay set swaps while casting
 local _
 
-ItemRack.Version = "3.13"
+ItemRack.Version = "3.37"
 
 ItemRackUser = {
 	Sets = {}, -- user's sets
@@ -377,6 +377,8 @@ function ItemRack.InitCore()
 		ItemRack.LockList[i] = {}
 	end
 
+	UseItemByName = C_Item.UseItemByName
+
 	hooksecurefunc("UseInventoryItem",ItemRack.newUseInventoryItem)
 	hooksecurefunc("UseAction",ItemRack.newUseAction)
 	hooksecurefunc("UseItemByName",ItemRack.newUseItemByName)
@@ -493,8 +495,8 @@ end
 -- bag,nil = inventory slot; bag,slot = container slot
 function ItemRack.GetID(bag,slot)
 	local itemLink
-	if slot then
-		itemLink = GetContainerItemLink(bag,slot)
+	if slot and slot >= 0 then
+		itemLink = C_Container.GetContainerItemLink(bag,slot)
 	else
 		itemLink = GetInventoryItemLink("player",bag)
 	end
@@ -510,7 +512,7 @@ end
 function ItemRack.GetInfoByID(id)
 	local name,texture,equip,quality
 	if id and id~=0 then
-		name,_,quality,_,_,_,_,_,equip,texture = GetItemInfo(ItemRack.IRStringToItemString(ItemRack.UpdateIRString(id))) --ensure the stored ID is brought up to date, then generate a regular ItemString from it and get the item info
+		name,_,quality,_,_,_,_,_,equip,texture = C_Item.GetItemInfo(ItemRack.IRStringToItemString(ItemRack.UpdateIRString(id))) --ensure the stored ID is brought up to date, then generate a regular ItemString from it and get the item info
 	else
 		name,texture,quality = "(empty)","Interface\\Icons\\INV_Misc_QuestionMark",0 --default response on invalid ID
 	end
@@ -519,7 +521,7 @@ end
 
 -- takes an ItemRack-style ID and returns how many items you own with that particular baseID (will not differentiate between enchanted/unenchanted versions, etc)
 function ItemRack.GetCountByID(id)
-	return tonumber(GetItemCount(ItemRack.GetIRString(id,true)))
+	return tonumber(C_Item.GetItemCount(ItemRack.GetIRString(id,true)))
 end
 
 -- searches player's inventory&equipment and returns inv,bag,slot of a specific ItemRack-style ID (62384:0:4041:4041:0:0:0:0:85:146) or the first matching item with the same base id (62384) if specific id not found
@@ -552,7 +554,7 @@ function ItemRack.FindItem(id,lock)
 
 	-- search bags
 	for i=4,0,-1 do
-		for j=1,GetContainerNumSlots(i) do
+		for j=1,C_Container.GetContainerNumSlots(i) do
 			if id==getid(i,j) and (not lock or not locklist[i][j]) then
 				if lock then locklist[i][j]=1 end
 				return nil,i,j
@@ -568,7 +570,7 @@ function ItemRack.FindItem(id,lock)
 	end
 	-- search bags for base id matches
 	for i=4,0,-1 do
-		for j=1,GetContainerNumSlots(i) do
+		for j=1,C_Container.GetContainerNumSlots(i) do
 			if sameid(id,getid(i,j)) and (not lock or not locklist[i][j]) then
 				if lock then locklist[i][j]=1 end
 				return nil,i,j
@@ -595,7 +597,7 @@ function ItemRack.FindInBank(id,lock)
 	if ItemRack.BankOpen then -- only proceed if bank is open
 		for _,i in pairs(ItemRack.BankSlots) do -- try to find an exact match at first
 			if ItemRack.ValidBag(i) then
-				for j=1,GetContainerNumSlots(i) do
+				for j=1,C_Container.GetContainerNumSlots(i) do
 					if id==getid(i,j) and (not lock or locklist[i][j]) then
 						if lock then locklist[i][j]=1 end
 						return i,j
@@ -605,7 +607,7 @@ function ItemRack.FindInBank(id,lock)
 		end
 		for _,i in pairs(ItemRack.BankSlots) do -- otherwise resort to a loose baseID match
 			if ItemRack.ValidBag(i) then
-				for j=1,GetContainerNumSlots(i) do
+				for j=1,C_Container.GetContainerNumSlots(i) do
 					if sameid(id,getid(i,j)) and (not lock or not locklist[i][j]) then
 						if lock then locklist[i][j]=1 end
 						return i,j
@@ -622,13 +624,13 @@ function ItemRack.ValidBag(bagid)
 	if bagid==0 or bagid==-1 then
 		return 1
 	else
-		local invID = ContainerIDToInventoryID(bagid)
+		local invID = C_Container.ContainerIDToInventoryID(bagid)
 		baseID = ItemRack.GetIRString(GetInventoryItemLink("player",invID),true,true) --get the baseID for the container
-		if GetItemFamily(baseID)==0 then
+		if C_Item.GetItemFamily(baseID)==0 then
 			return 1
 		end
 --		if baseID then
---			_,_,_,_,_,_,bagtype = GetItemInfo(baseID)
+--			_,_,_,_,_,_,bagtype = C_Item.GetItemInfo(baseID)
 --			if bagtype=="Bag" or bagtype=="Conteneur" or bagtype=="Beh\195\164lter" then
 --				return 1
 --			end
@@ -651,8 +653,8 @@ end
 function ItemRack.FindSpace()
 	for i=4,0,-1 do
 		if ItemRack.ValidBag(i) then
-			for j=1,GetContainerNumSlots(i) do
-				if not GetContainerItemLink(i,j) and not ItemRack.LockList[i][j] then
+			for j=1,C_Container.GetContainerNumSlots(i) do
+				if not C_Container.GetContainerItemLink(i,j) and not ItemRack.LockList[i][j] then
 					ItemRack.LockList[i][j] = 1
 					return i,j
 				end
@@ -665,8 +667,8 @@ function ItemRack.FindBankSpace()
 	if not ItemRack.BankOpen then return end
 	for _,i in pairs(ItemRack.BankSlots) do
 		if ItemRack.ValidBag(i) then
-			for j=1,GetContainerNumSlots(i) do
-				if not GetContainerItemLink(i,j) and not ItemRack.LockList[i][j] then
+			for j=1,C_Container.GetContainerNumSlots(i) do
+				if not C_Container.GetContainerItemLink(i,j) and not ItemRack.LockList[i][j] then
 					ItemRack.LockList[i][j] = 1
 					return i,j
 				end
@@ -749,10 +751,10 @@ function ItemRack.PopulateKnownItems()
 		end
 	end
 	for i=0,4 do
-		for j=1,GetContainerNumSlots(i) do
+		for j=1,C_Container.GetContainerNumSlots(i) do
 			id = getid(i,j) --grab ItemRack-style ID for every bag item
 			if id~=0 then
-				if IsEquippableItem(ItemRack.GetIRString(id,true)) then --only proceed if this is an equippable item (test against the baseID of the item)
+				if C_Item.IsEquippableItem(ItemRack.GetIRString(id,true)) then --only proceed if this is an equippable item (test against the baseID of the item)
 					known[id] = i*100+j --we were able to generate a valid ID for this item, so store its location (as a bag container offset)
 				end
 			end
@@ -841,8 +843,8 @@ function ItemRack.DockWindows(menuDock,relativeTo,mainDock,menuOrient,movable)
 	ItemRackMenuFrame:ClearAllPoints()
 	ItemRack.currentDock = mainDock..menuDock
 	ItemRackMenuFrame:SetPoint(menuDock,relativeTo,mainDock,ItemRack.DockInfo[ItemRack.currentDock].xoff,ItemRack.DockInfo[ItemRack.currentDock].yoff)
-	ItemRackMenuFrame:SetParent(relativeTo)
-	ItemRackMenuFrame:SetFrameStrata("HIGH")
+--	ItemRackMenuFrame:SetParent(relativeTo)
+--	ItemRackMenuFrame:SetFrameStrata("HIGH")
 	ItemRack.mainDock = mainDock
 	ItemRack.menuDock = menuDock
 	ItemRack.menuOrient = menuOrient
@@ -902,7 +904,7 @@ function ItemRack.BuildMenu(id,menuInclude)
 			end
 		end
 		for i=0,4 do
-			for j=1,GetContainerNumSlots(i) do
+			for j=1,C_Container.GetContainerNumSlots(i) do
 				itemID = ItemRack.GetID(i,j)
 				itemName,itemTexture,equipSlot = ItemRack.GetInfoByID(itemID)
 				if ItemRack.SlotInfo[id][equipSlot] and ItemRack.PlayerCanWear(id,i,j) and (ItemRackSettings.HideTradables=="OFF" or ItemRack.IsSoulbound(i,j)) then
@@ -914,7 +916,7 @@ function ItemRack.BuildMenu(id,menuInclude)
 		end
 		if ItemRack.BankOpen then
 			for _,i in pairs(ItemRack.BankSlots) do
-				for j=1,GetContainerNumSlots(i) do
+				for j=1,C_Container.GetContainerNumSlots(i) do
 					itemID = ItemRack.GetID(i,j)
 					itemName,itemTexture,equipSlot = ItemRack.GetInfoByID(itemID)
 					if ItemRack.SlotInfo[id][equipSlot] and ItemRack.PlayerCanWear(id,i,j) and (ItemRackSettings.HideTradables=="OFF" or ItemRack.IsSoulbound(i,j)) then
@@ -1055,7 +1057,7 @@ function ItemRack.UpdateMenuCooldowns()
 	for i=1,#(ItemRack.Menu) do
 		baseID = tonumber(ItemRack.GetIRString(ItemRack.Menu[i],true)) --get baseID and convert it to number to be able to use it in numerical comparisons below
 		if baseID and baseID>0 and ItemRack.menuOpen<20 then
-			CooldownFrame_Set(_G["ItemRackMenu"..i.."Cooldown"],GetItemCooldown(baseID))
+			CooldownFrame_Set(_G["ItemRackMenu"..i.."Cooldown"],C_Item.GetItemCooldown(baseID))
 		else
 			_G["ItemRackMenu"..i.."Cooldown"]:Hide()
 		end
@@ -1069,7 +1071,7 @@ function ItemRack.WriteMenuCooldowns()
 		for i=1,#(ItemRack.Menu) do
 			baseID = ItemRack.GetIRString(ItemRack.Menu[i],true)
 			if baseID then
-				ItemRack.WriteCooldown(_G["ItemRackMenu"..i.."Time"],GetItemCooldown(baseID))
+				ItemRack.WriteCooldown(_G["ItemRackMenu"..i.."Time"],C_Item.GetItemCooldown(baseID))
 			else
 				_G["ItemRackMenu"..i.."Time"]:SetText("")
 			end
@@ -1078,7 +1080,8 @@ function ItemRack.WriteMenuCooldowns()
 end
 
 function ItemRack.MenuMouseover()
-	local frame = GetMouseFocus()
+	local region = GetMouseFoci()
+	local frame = region[1]
 	if MouseIsOver(ItemRackMenuFrame) or IsShiftKeyDown() or (frame and frame:GetName() and frame:IsVisible() and ItemRack.MenuMouseoverFrames[frame:GetName()]) then
 		return -- keep menu open if mouse over menu, shift is down or mouse is immediately over a mouseover frame
 	end
@@ -1102,7 +1105,7 @@ function ItemRack.CreateMenuButton(idx,itemID)
 	if not _G["ItemRackMenu"..idx] then
 		button = CreateFrame("CheckButton","ItemRackMenu"..idx,ItemRackMenuFrame,"ActionButtonTemplate")
 		button:SetID(idx)
-		button:SetFrameStrata("HIGH")
+--		button:SetFrameStrata("HIGH")
 --		button:SetFrameLevel(ItemRackMenuFrame:GetFrameLevel()+1)
 		button:RegisterForClicks("LeftButtonUp","RightButtonUp")
 		button:SetScript("OnClick",ItemRack.MenuOnClick)
@@ -1134,11 +1137,11 @@ end
 function ItemRack.ChatLinkID(itemID)
 	local inv,bag,slot = ItemRack.FindItem(itemID)
 	if bag then
-		ChatFrame1EditBox:Insert(GetContainerItemLink(bag,slot))
+		ChatFrame1EditBox:Insert(C_Container.GetContainerItemLink(bag,slot))
 	elseif inv then
 		ChatFrame1EditBox:Insert(GetInventoryItemLink("player",inv))
 	else
-		local _,itemLink = GetItemInfo(ItemRack.IRStringToItemString(ItemRack.UpdateIRString(itemID))) --ensure the stored ID is brought up to date, then generate a regular ItemString from it and get the item info
+		local _,itemLink = C_Item.GetItemInfo(ItemRack.IRStringToItemString(ItemRack.UpdateIRString(itemID))) --ensure the stored ID is brought up to date, then generate a regular ItemString from it and get the item info
 		if itemLink then
 			ChatFrame1EditBox:Insert(itemLink)
 		end
@@ -1168,8 +1171,8 @@ function ItemRack.MenuOnClick(self,button)
 				if bankBag then
 					local freeBag,freeSlot = ItemRack.FindSpace()
 					if freeBag and not SpellIsTargeting() and not GetCursorInfo() then
-						PickupContainerItem(bankBag,bankSlot)
-						PickupContainerItem(freeBag,freeSlot)
+						C_Container.PickupContainerItem(bankBag,bankSlot)
+						C_Container.PickupContainerItem(freeBag,freeSlot)
 					else
 						ItemRack.Print("Not enough room in bags to pull this item from bank.")
 					end
@@ -1179,8 +1182,8 @@ function ItemRack.MenuOnClick(self,button)
 				if bankBag then
 					local _,bag,slot = ItemRack.FindItem(item)
 					if bag and not SpellIsTargeting() and not GetCursorInfo() then
-						PickupContainerItem(bag,slot)
-						PickupContainerItem(bankBag,bankSlot)
+						C_Container.PickupContainerItem(bag,slot)
+						C_Container.PickupContainerItem(bankBag,bankSlot)
 					end
 				else
 					ItemRack.Print("Not enough room in bank to put this item.")
@@ -1225,20 +1228,20 @@ function ItemRack.EquipItemByID(id,slot)
 		if id~=0 then -- not an empty slot
 			local _,b,s = ItemRack.FindItem(id)
 			if b then
-				local _,_,isLocked = GetContainerItemInfo(b,s)
+				local _,_,isLocked = C_Container.GetContainerItemInfo(b,s)
 				if not isLocked and not IsInventoryItemLocked(slot) then
 					-- neither container item nor inventory item locked, perform swap
 					local _,_,equipSlot = ItemRack.GetInfoByID(id)
-					if equipSlot~="INVTYPE_2HWEAPON" or (ItemRack.HasTitansGrip and not ItemRack.NoTitansGrip[select(7,GetItemInfo(GetContainerItemLink(b,s))) or ""]) or not GetInventoryItemLink("player",17) then
-						PickupContainerItem(b,s)
+					if equipSlot~="INVTYPE_2HWEAPON" or (ItemRack.HasTitansGrip and not ItemRack.NoTitansGrip[select(7,C_Item.GetItemInfo(C_Container.GetContainerItemLink(b,s))) or ""]) or not GetInventoryItemLink("player",17) then
+						C_Container.PickupContainerItem(b,s)
 						PickupInventoryItem(slot)
 					else
 						local bfree,sfree = ItemRack.FindSpace()
 						if bfree then
 							PickupInventoryItem(17)
-							PickupContainerItem(bfree,sfree)
+							C_Container.PickupContainerItem(bfree,sfree)
 							PickupInventoryItem(slot)
-							PickupContainerItem(b,s)
+							C_Container.PickupContainerItem(b,s)
 						else
 							ItemRack.Print("Not enough room to perform swap.")
 						end
@@ -1249,7 +1252,7 @@ function ItemRack.EquipItemByID(id,slot)
 			local b,s = ItemRack.FindSpace()
 			if b and not IsInventoryItemLocked(slot) then
 				PickupInventoryItem(slot)
-				PickupContainerItem(b,s)
+				C_Container.PickupContainerItem(b,s)
 			else
 				ItemRack.Print("Not enough room to perform swap.")
 			end
@@ -1295,7 +1298,7 @@ end
 
 function ItemRack.newUseItemByName(name)
 	for i=0,19 do
-		if name==GetItemInfo(GetInventoryItemLink("player",i) or 0) then
+		if name==C_Item.GetItemInfo(GetInventoryItemLink("player",i) or 0) then
 			ItemRack.ReflectItemUse(i)
 			break
 		end
@@ -1311,7 +1314,8 @@ function ItemRack.IsPlayerReallyDead()
 			return nil
 		else
 			for i=1,40 do
-				if select(2,UnitBuff("player",i))==GetFileIDFromPath("Interface\\Icons\\Ability_Rogue_FeignDeath") then
+				local aura = C_UnitAuras.GetBuffDataByIndex("player", i)
+				if aura and aura.icon == GetFileIDFromPath("Interface\\Icons\\Ability_Rogue_FeignDeath") then
 					return nil
 				end
 			end
@@ -1403,7 +1407,7 @@ function ItemRack.IDTooltip(self,itemID) --itemID is an ItemRack-style ID
 	else --cannot find the item in player's inventory or worn equipment!
 		bag,slot = ItemRack.FindInBank(itemID) --try to find the item in the player's bank IF they currently have the bank frame open
 		if bag then -- item found in player's bank
-			itemID = GetContainerItemLink(bag,slot) -- grab the itemLink from the found item in the player's bank
+			itemID = C_Container.GetContainerItemLink(bag,slot) -- grab the itemLink from the found item in the player's bank
 		else -- item is completely missing (no such strict OR baseID found anywhere): it's not in inventory, bank or worn items
 			itemID = ItemRack.IRStringToItemString(ItemRack.UpdateIRString(itemID)) -- ensure the stored ID is brought up to date, then generate a regular ItemString from it which can be used to display the required tooltip
 		end
@@ -1440,7 +1444,7 @@ function ItemRack.TooltipUpdate()
 		ItemRack.AnchorTooltip(ItemRack.TooltipOwner)
 		if ItemRack.TooltipType=="BAG" then
 			GameTooltip:SetBagItem(ItemRack.TooltipBag,ItemRack.TooltipSlot)
-			cooldown = GetContainerItemCooldown(ItemRack.TooltipBag,ItemRack.TooltipSlot)
+			cooldown = C_Container.GetContainerItemCooldown(ItemRack.TooltipBag,ItemRack.TooltipSlot)
 		else
 			GameTooltip:SetInventoryItem("player",ItemRack.TooltipSlot)
 			cooldown = GetInventoryItemCooldown("player",ItemRack.TooltipSlot)
@@ -1562,7 +1566,7 @@ end
 function ItemRack.CooldownUpdate()
 	local inv,bag,slot,start,duration,name,remain
 	for i in pairs(ItemRackUser.ItemsUsed) do
-		start,duration = GetItemCooldown(i)
+		start,duration = C_Item.GetItemCooldown(i)
 		if start and ItemRackUser.ItemsUsed[i]<3 then
 			ItemRackUser.ItemsUsed[i] = ItemRackUser.ItemsUsed[i] + 1 -- count for 3 seconds before seeing if this is a real cooldown
 		elseif start then
@@ -1578,7 +1582,7 @@ function ItemRack.CooldownUpdate()
 			end
 			if ItemRackUser.ItemsUsed[i]==30 and start>0 and remain<30 then
 				if ItemRackSettings.NotifyThirty=="ON" then
-					name = GetItemInfo(i)
+					name = C_Item.GetItemInfo(i)
 					if name then
 						ItemRack.Notify(name.." ready soon!")
 					end
@@ -1586,7 +1590,7 @@ function ItemRack.CooldownUpdate()
 				ItemRackUser.ItemsUsed[i]=5 -- tag for just 0 notify now
 			elseif ItemRackUser.ItemsUsed[i]==5 and start==0 then
 				if ItemRackSettings.Notify=="ON" then
-					name = GetItemInfo(i)
+					name = C_Item.GetItemInfo(i)
 					if name then
 						ItemRack.Notify(name.." ready!")
 					end
@@ -1663,10 +1667,10 @@ function ItemRack.MoveMinimap()
 			xpos = math.max(-82,math.min(xpos,84))
 			ypos = math.max(-86,math.min(ypos,82))
 		else
-			xpos = 80*cos(angle)
-			ypos = 80*sin(angle)
+			xpos = 102*cos(angle)
+			ypos = 102*sin(angle)
 		end
-		ItemRackMinimapFrame:SetPoint("TOPLEFT","Minimap","TOPLEFT",52-xpos,ypos-52)
+		ItemRackMinimapFrame:SetPoint("TOPLEFT","Minimap","TOPLEFT",79-xpos,ypos-83)
 		ItemRackMinimapFrame:Show()
 	else
 		ItemRackMinimapFrame:Hide()
@@ -1727,8 +1731,8 @@ end
 
 function ItemRack.ToggleOptions(self,tab)
 	if not ItemRackOptFrame then
-		EnableAddOn("ItemRackOptions") -- it's LoD, and required. Enable if disabled
-		LoadAddOn("ItemRackOptions")
+		C_AddOns.EnableAddOn("ItemRackOptions") -- it's LoD, and required. Enable if disabled
+		C_AddOns.LoadAddOn("ItemRackOptions")
 	end
 	if ItemRackOptFrame:IsVisible() then
 		ItemRackOptFrame:Hide()
@@ -1919,6 +1923,10 @@ function ItemRack.SlashHandler(arg1)
 
 end
 
+function ItemRack_OnAddonCompartmentClick(addonName, buttonName)
+	ItemRack.ToggleOptions()
+end
+
 --[[ Bank Support ]]
 
 -- returns 1 if the set has a banked item, 0 if there is an item missing entirely, nil if item is on person
@@ -1946,8 +1954,8 @@ function ItemRack.GetBankedSet(setname)
 		if bag then
 			freeBag,freeSlot = ItemRack.FindSpace()
 			if freeBag then
-				PickupContainerItem(bag,slot)
-				PickupContainerItem(freeBag,freeSlot)
+				C_Container.PickupContainerItem(bag,slot)
+				C_Container.PickupContainerItem(freeBag,freeSlot)
 			else
 				ItemRack.Print("Not enough room in bags to pull all items from '"..setname.."'.")
 				return
@@ -1969,10 +1977,10 @@ function ItemRack.PutBankedSet(setname)
 				if inv then
 					PickupInventoryItem(inv)
 				elseif bag then
-					PickupContainerItem(bag,slot)
+					C_Container.PickupContainerItem(bag,slot)
 				end
 				if CursorHasItem() then
-					PickupContainerItem(freeBag,freeSlot)
+					C_Container.PickupContainerItem(freeBag,freeSlot)
 				end
 			else
 				ItemRack.Print("Not enough room in bank to store all items from '"..setname.."'.")

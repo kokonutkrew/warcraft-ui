@@ -1,8 +1,5 @@
 
 MogItDB = {
-["global"] = {
-["version"] = "3.9.4",
-},
 ["profileKeys"] = {
 ["Samoansmash - Emerald Dream"] = "Default",
 ["Threadcraft - Emerald Dream"] = "Default",
@@ -16,53 +13,56 @@ MogItDB = {
 ["Hfishsamoan - Ravenholdt"] = "Default",
 ["Samoanspy - Emerald Dream"] = "Default",
 ["Samoansurge - Emerald Dream"] = "Default",
-["Aheenan - Emerald Dream"] = "Default",
+["Samoansneaky - Tichondrius"] = "Default",
 ["Samoanbeast - Ravenholdt"] = "Default",
 ["Vithun - Emerald Dream"] = "Default",
-["Scootervin - Emerald Dream"] = "Default",
-["Herbcraft - Emerald Dream"] = "Default",
-["Samoansneaky - Tichondrius"] = "Default",
 ["Samoanrelic - Emerald Dream"] = "Default",
-["Samoantitan - Emerald Dream"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Feerless - Emerald Dream"] = "Default",
+["Aheenan - Emerald Dream"] = "Default",
+["Samoanslayer - Emerald Dream"] = "Default",
 ["Haedshot - Emerald Dream"] = "Default",
-["Samoansage - Tichondrius"] = "Default",
+["Mf - Emerald Dream"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
 ["Samoantotems - Stormrage"] = "Default",
 ["Dustcraft - Emerald Dream"] = "Default",
-["Samoanmystic - Tichondrius"] = "Default",
-["Samoanzero - Emerald Dream"] = "Default",
-["Samoanreaper - Emerald Dream"] = "Default",
-["Samoanmystic - Emerald Dream"] = "Default",
+["Samoanbeast - Emerald Dream"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
+["Samoantank - Tichondrius"] = "Default",
+["Herbcraft - Area 52"] = "Default",
 ["Samoansaint - Stormrage"] = "Default",
 ["Wealthgaming - Emerald Dream"] = "Default",
 ["Serepa - Tichondrius"] = "Default",
 ["Tingerce - Emerald Dream"] = "Default",
-["Samoansavage - Stormrage"] = "Default",
-["Samoansage - Emerald Dream"] = "Default",
-["Samoantank - Tichondrius"] = "Default",
-["Samoanstrap - Tichondrius"] = "Default",
-["Craudy - Emerald Dream"] = "Default",
-["Herbcraft - Area 52"] = "Default",
 ["Kakattack - Stormrage"] = "Default",
+["Samoanmystic - Tichondrius"] = "Default",
+["Samoanzero - Emerald Dream"] = "Default",
+["Samoanstrap - Tichondrius"] = "Default",
+["Samoanmystic - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoansavage - Stormrage"] = "Default",
 ["Gfsdfgsd - Tichondrius"] = "Default",
 ["Samoansavage - Emerald Dream"] = "Default",
 ["Samoanrelic - Stormrage"] = "Default",
-["Samoanlegend - Emerald Dream"] = "Default",
-["Samoanranger - Emerald Dream"] = "Default",
-["Samoantank - Emerald Dream"] = "Default",
 ["Samoanrelic - Tichondrius"] = "Default",
+["Samoantank - Emerald Dream"] = "Default",
+["Samoanranger - Emerald Dream"] = "Default",
+["Samoanlegend - Emerald Dream"] = "Default",
 ["Shgrshn - Tichondrius"] = "Default",
 ["Samoanruin - Emerald Dream"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
+["Samoanreaper - Emerald Dream"] = "Default",
 ["Brunderan - Emerald Dream"] = "Default",
 ["Kalin - Ravenholdt"] = "Default",
 ["Samoansteel - Emerald Dream"] = "Default",
-["Samoanbeast - Emerald Dream"] = "Default",
-["Mf - Emerald Dream"] = "Default",
-["Samoanslayer - Emerald Dream"] = "Default",
+["Craudy - Emerald Dream"] = "Default",
+["Samoansage - Tichondrius"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
 ["Autumnx - Emerald Dream"] = "Default",
-["Feerless - Emerald Dream"] = "Default",
+["Scootervin - Emerald Dream"] = "Default",
 ["Samoantitan - Stormrage"] = "KokonutKrew",
+},
+["global"] = {
+["version"] = "3.9.4",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -83,28 +83,28 @@ MogItDB = {
 ["Tabard"] = "Wrist",
 ["Legs"] = "Feet",
 ["Back"] = "Chest",
-["1H-sword"] = "One-Handed Swords",
-["Warglaives"] = "Legion Artifacts",
+["Polearm"] = "Polearms",
+["2H-axe"] = "Two-Handed Axes",
 ["Shirt"] = "Tabard",
 ["Dagger"] = "Daggers",
 ["Hands"] = "Waist",
 ["Wrist"] = "Hands",
-["Polearm"] = "Polearms",
+["1H-sword"] = "One-Handed Swords",
 ["2H-sword"] = "Two-Handed Swords",
-["2H-axe"] = "Two-Handed Axes",
+["Warglaives"] = "Legion Artifacts",
 ["2H-mace"] = "Staves",
 ["1H-mace"] = "One-Handed Maces",
 ["Head"] = "Shoulder",
 ["Holdable"] = "Held In Off-hand",
-["Shield"] = "Held In Off-hand",
-["Feet"] = "Wands",
+["ArtifactLegion"] = "Legion Artifacts",
+["Bow"] = "Bows",
 ["Staff"] = "Staves",
 ["Chest"] = "Shirt",
-["Crossbow"] = "Crossbows",
-["Gun"] = "Guns",
 ["1H-axe"] = "One-Handed Swords",
-["Bow"] = "Bows",
-["ArtifactLegion"] = "Legion Artifacts",
+["Gun"] = "Guns",
+["Crossbow"] = "Crossbows",
+["Feet"] = "Wands",
+["Shield"] = "Held In Off-hand",
 ["Shoulder"] = "Back",
 ["Wand"] = "Wands",
 },
@@ -134,11 +134,11 @@ MogItDB = {
 ["Holdable"] = "Held In Off-hand",
 ["Feet"] = "Feet",
 ["Chest"] = "Chest",
-["Shield"] = "Shields",
+["ArtifactLegion"] = "Legion Artifacts",
 ["1H-sword"] = "One-Handed Swords",
 ["1H-axe"] = "One-Handed Axes",
 ["Shoulder"] = "Shoulder",
-["ArtifactLegion"] = "Legion Artifacts",
+["Shield"] = "Shields",
 },
 ["minimap"] = {
 ["minimapPos"] = 326.188785177687,
@@ -147,9 +147,6 @@ MogItDB = {
 },
 }
 MogItWishlist = {
-["global"] = {
-["version"] = 90005,
-},
 ["profileKeys"] = {
 ["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 ["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
@@ -165,50 +162,53 @@ MogItWishlist = {
 ["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
 ["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
-["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
-["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
 ["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 ["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 ["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
 ["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
-["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
-["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 ["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
-["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
-["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
-["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 ["Serepa - Tichondrius"] = "Serepa - Tichondrius",
-["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
-["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
 ["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 ["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
-["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
 ["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 ["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 ["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 ["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 ["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
-["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 ["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 ["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
 ["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 ["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
-["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
-["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
-["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
 ["Samoantitan - Stormrage"] = "KokonutKrew",
+},
+["global"] = {
+["version"] = 90005,
 },
 ["profiles"] = {
 ["Samoansmash - Emerald Dream"] = {
@@ -233,91 +233,23 @@ MogItWishlist = {
 },
 ["Samoanspy - Emerald Dream"] = {
 },
-["Samoansurge - Emerald Dream"] = {
+["Threadcraft - Emerald Dream"] = {
 },
 ["Samoanbeast - Ravenholdt"] = {
 },
 ["Vithun - Emerald Dream"] = {
 },
-["Scootervin - Emerald Dream"] = {
+["Feerless - Emerald Dream"] = {
 },
 ["Herbcraft - Emerald Dream"] = {
 },
-["Feerless - Emerald Dream"] = {
+["Samoansneaky - Tichondrius"] = {
 },
 ["Samoanrelic - Emerald Dream"] = {
 },
 ["Aheenan - Emerald Dream"] = {
 },
 ["Haedshot - Emerald Dream"] = {
-},
-["Samoantitan - Emerald Dream"] = {
-},
-["Farmcraft - Emerald Dream"] = {
-},
-["Samoansage - Tichondrius"] = {
-},
-["Dustcraft - Emerald Dream"] = {
-},
-["Samoanbeast - Emerald Dream"] = {
-},
-["Samoanmystic - Tichondrius"] = {
-},
-["Samoanzero - Emerald Dream"] = {
-},
-["Craudy - Emerald Dream"] = {
-},
-["Samoantotems - Stormrage"] = {
-},
-["Wealthgaming - Emerald Dream"] = {
-},
-["Serepa - Tichondrius"] = {
-},
-["Tingerce - Emerald Dream"] = {
-},
-["Samoanreaper - Emerald Dream"] = {
-},
-["Samoansage - Emerald Dream"] = {
-},
-["Samoanrelic - Stormrage"] = {
-},
-["Samoanstrap - Tichondrius"] = {
-},
-["Samoanmystic - Emerald Dream"] = {
-},
-["Forgecraft - Emerald Dream"] = {
-},
-["Kakattack - Stormrage"] = {
-},
-["Gfsdfgsd - Tichondrius"] = {
-},
-["Samoanrelic - Tichondrius"] = {
-},
-["Samoansaint - Stormrage"] = {
-},
-["Samoantank - Tichondrius"] = {
-},
-["Samoansavage - Stormrage"] = {
-},
-["Samoantank - Emerald Dream"] = {
-},
-["Samoanlegend - Emerald Dream"] = {
-},
-["Shgrshn - Tichondrius"] = {
-},
-["Samoanruin - Emerald Dream"] = {
-},
-["Samoansavage - Emerald Dream"] = {
-},
-["Brunderan - Emerald Dream"] = {
-},
-["Kalin - Ravenholdt"] = {
-},
-["Samoansteel - Emerald Dream"] = {
-},
-["Samoanranger - Emerald Dream"] = {
-},
-["Mf - Emerald Dream"] = {
 },
 ["Samoanslayer - Emerald Dream"] = {
 ["items"] = {
@@ -344,11 +276,79 @@ MogItWishlist = {
 },
 },
 },
+["Farmcraft - Emerald Dream"] = {
+},
+["Mf - Emerald Dream"] = {
+},
+["Dustcraft - Emerald Dream"] = {
+},
+["Samoanrelic - Stormrage"] = {
+},
+["Samoanmystic - Emerald Dream"] = {
+},
+["Samoansage - Emerald Dream"] = {
+},
+["Samoanranger - Emerald Dream"] = {
+},
+["Samoantotems - Stormrage"] = {
+},
+["Wealthgaming - Emerald Dream"] = {
+},
+["Serepa - Tichondrius"] = {
+},
+["Tingerce - Emerald Dream"] = {
+},
+["Samoanrelic - Tichondrius"] = {
+},
+["Samoanmystic - Tichondrius"] = {
+},
+["Samoanzero - Emerald Dream"] = {
+},
+["Samoanstrap - Tichondrius"] = {
+},
+["Craudy - Emerald Dream"] = {
+},
+["Forgecraft - Emerald Dream"] = {
+},
+["Kakattack - Stormrage"] = {
+},
+["Gfsdfgsd - Tichondrius"] = {
+},
+["Samoansavage - Emerald Dream"] = {
+},
+["Samoansaint - Stormrage"] = {
+},
+["Samoantank - Tichondrius"] = {
+},
+["Samoanlegend - Emerald Dream"] = {
+},
+["Samoantank - Emerald Dream"] = {
+},
+["Samoansavage - Stormrage"] = {
+},
+["Shgrshn - Tichondrius"] = {
+},
+["Samoanruin - Emerald Dream"] = {
+},
+["Samoanreaper - Emerald Dream"] = {
+},
+["Brunderan - Emerald Dream"] = {
+},
+["Kalin - Ravenholdt"] = {
+},
+["Samoansteel - Emerald Dream"] = {
+},
+["Samoanbeast - Emerald Dream"] = {
+},
+["Samoansage - Tichondrius"] = {
+},
+["Samoantitan - Emerald Dream"] = {
+},
 ["Autumnx - Emerald Dream"] = {
 },
-["Samoansneaky - Tichondrius"] = {
+["Scootervin - Emerald Dream"] = {
 },
-["Threadcraft - Emerald Dream"] = {
+["Samoansurge - Emerald Dream"] = {
 },
 },
 }

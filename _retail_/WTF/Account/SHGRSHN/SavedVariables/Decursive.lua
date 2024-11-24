@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 ["global"] = {
-["LastVersionAnnounce"] = 1731887366,
+["LastVersionAnnounce"] = 1732349510,
 ["delayedDebuffOccurences"] = 42,
 ["delayedUnDebuffOccurences"] = 46,
 },
@@ -87,7 +87,7 @@ nil,
 [32] = 6,
 [8] = 3,
 },
-["CureOrder-3"] = {
+["CureOrder-1"] = {
 1,
 5,
 nil,
@@ -97,7 +97,7 @@ nil,
 [32] = 6,
 [8] = 3,
 },
-["CureOrder-1"] = {
+["CureOrder-3"] = {
 1,
 5,
 nil,
@@ -131,7 +131,7 @@ nil,
 },
 },
 ["DRUID"] = {
-["CureOrder-1"] = {
+["CureOrder-3"] = {
 1,
 5,
 nil,
@@ -151,7 +151,7 @@ nil,
 [32] = 6,
 [8] = 3,
 },
-["CureOrder-3"] = {
+["CureOrder-1"] = {
 1,
 5,
 nil,
@@ -184,9 +184,10 @@ nil,
 ["Samoanseraph - Area 52"] = "Default",
 ["Samoantitan - Emerald Dream"] = "Default",
 ["Forgecraft - Emerald Dream"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
 ["Samoanmystic - Emerald Dream"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
-["Farmcraft - Emerald Dream"] = "Default",
+["Samoanlegend - Tichondrius"] = "Default",
 ["Dustcraft - Emerald Dream"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",

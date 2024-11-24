@@ -26,17 +26,17 @@ DataStore_RaresDB = {
 ["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 ["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 ["Herbcraft - Area 52"] = "Herbcraft - Area 52",
-["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
 ["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 ["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 ["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
-["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
+["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 ["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
 ["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 ["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
 ["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
-["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 },
 ["global"] = {
@@ -80,87 +80,87 @@ DataStore_RaresDB = {
 [133155] = 4,
 [136346] = 4,
 [126621] = 4,
-[130079] = 4,
-[132007] = 4,
+[127844] = 4,
+[133531] = 4,
 [127939] = 4,
 [127820] = 4,
-[139298] = 4,
-[134760] = 4,
-[127844] = 4,
 [130138] = 4,
-[132182] = 4,
+[134760] = 4,
+[137824] = 4,
+[136189] = 4,
+[127651] = 4,
 [124185] = 4,
 [139285] = 4,
-[132086] = 4,
+[133356] = 4,
 [134745] = 4,
 [139968] = 4,
 [136428] = 4,
-[141029] = 4,
+[138675] = 4,
 [134298] = 4,
 [134571] = 4,
 [133190] = 4,
-[130508] = 4,
+[127129] = 4,
 [127333] = 4,
-[124548] = 4,
+[134295] = 4,
 [131476] = 4,
 [132127] = 4,
 [130401] = 4,
-[140938] = 4,
 [127877] = 4,
-[134706] = 4,
+[140938] = 4,
+[135852] = 4,
 [138938] = 4,
-[139287] = 4,
-[137183] = 4,
-[125250] = 4,
 [136335] = 4,
-[139145] = 4,
-[134884] = 4,
 [128965] = 4,
+[125250] = 4,
+[127290] = 4,
+[139145] = 4,
+[121242] = 4,
+[132319] = 4,
 [128973] = 4,
-[139205] = 4,
 [135796] = 4,
-[122004] = 4,
+[136304] = 4,
+[141226] = 4,
 [136336] = 4,
 [133812] = 4,
 [139289] = 4,
-[139280] = 4,
-[141226] = 4,
+[128426] = 4,
+[139321] = 4,
 [134638] = 4,
 [139988] = 4,
-[128426] = 4,
+[129950] = 4,
 [139385] = 4,
 [138866] = 4,
 [139290] = 4,
-[128974] = 4,
+[128553] = 4,
 [139322] = 4,
-[132068] = 4,
+[129411] = 4,
 [134782] = 4,
-[131687] = 4,
+[137529] = 4,
 [136338] = 4,
 [131984] = 4,
 [132179] = 4,
-[129411] = 4,
-[137529] = 4,
-[128553] = 4,
+[131687] = 4,
+[132068] = 4,
+[128974] = 4,
 [129181] = 4,
-[129950] = 4,
-[139321] = 4,
-[121242] = 4,
-[136304] = 4,
-[132319] = 4,
-[127290] = 4,
-[135852] = 4,
+[139280] = 4,
+[122004] = 4,
+[139205] = 4,
+[134884] = 4,
+[137183] = 4,
+[139287] = 4,
+[134706] = 4,
 [132244] = 4,
-[134295] = 4,
+[124548] = 4,
 [141039] = 4,
-[127129] = 4,
+[130508] = 4,
 [134213] = 4,
-[138675] = 4,
-[133356] = 4,
-[127651] = 4,
-[136189] = 4,
-[133531] = 4,
-[137824] = 4,
+[141029] = 4,
+[132086] = 4,
+[132182] = 4,
+[139298] = 4,
+[132007] = 4,
+[130079] = 4,
 },
 ["Rares"] = {
 [139135] = {
@@ -271,13 +271,13 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Bonesquall",
 },
-[127844] = {
+[132007] = {
 ["resetTime"] = 20517,
-["name"] = "Gluttonous Yeti",
+["name"] = "Galestorm",
 },
-[133531] = {
+[130079] = {
 ["resetTime"] = 20517,
-["name"] = "Xu'ba",
+["name"] = "Wagga Snarltusk",
 },
 [127939] = {
 ["resetTime"] = 20517,
@@ -287,9 +287,9 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Scout Skrasniss",
 },
-[130138] = {
+[139298] = {
 ["resetTime"] = 20517,
-["name"] = "Nevermore",
+["name"] = "Pinku'shon",
 },
 [134760] = {
 ["resetTime"] = 20517,
@@ -303,9 +303,9 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "The Lichen King",
 },
-[127651] = {
+[132182] = {
 ["resetTime"] = 20517,
-["name"] = "Vicemaul",
+["name"] = "Auditor Dolp",
 },
 [124185] = {
 ["resetTime"] = 20517,
@@ -315,9 +315,9 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Shiverscale the Toxic",
 },
-[133356] = {
+[132086] = {
 ["resetTime"] = 20517,
-["name"] = "Tempestria",
+["name"] = "Black-Eyed Bart",
 },
 [134745] = {
 ["resetTime"] = 20517,
@@ -331,9 +331,9 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Dark Chronicler",
 },
-[138675] = {
+[141029] = {
 ["resetTime"] = 20517,
-["name"] = "Gorged Boar",
+["name"] = "Kickers",
 },
 [134298] = {
 ["resetTime"] = 20517,
@@ -347,17 +347,17 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Daggerjaw",
 },
-[127129] = {
+[130508] = {
 ["resetTime"] = 20517,
-["name"] = "Grozgore",
+["name"] = "Broodmother Razora",
 },
 [127333] = {
 ["resetTime"] = 20517,
 ["name"] = "Barbthorn Queen",
 },
-[128965] = {
+[124548] = {
 ["resetTime"] = 20517,
-["name"] = "Uroku the Bound",
+["name"] = "Betsy",
 },
 [131476] = {
 ["resetTime"] = 20517,
@@ -371,29 +371,29 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Vathikur",
 },
-[134295] = {
+[140938] = {
 ["resetTime"] = 20517,
-["name"] = "Lost Scroll",
+["name"] = "Croaker",
 },
 [127877] = {
 ["resetTime"] = 20517,
 ["name"] = "Longfang & Henry Breakwater",
 },
-[121242] = {
+[134706] = {
 ["resetTime"] = 20517,
-["name"] = "Glompmaw",
+["name"] = "Deathcap",
 },
 [138938] = {
 ["resetTime"] = 20517,
 ["name"] = "Seabreaker Skoloth",
 },
-[124548] = {
+[139287] = {
 ["resetTime"] = 20517,
-["name"] = "Betsy",
+["name"] = "Sawtooth",
 },
-[129411] = {
+[137183] = {
 ["resetTime"] = 20517,
-["name"] = "Zunashi the Exile",
+["name"] = "Imperiled Merchants",
 },
 [125250] = {
 ["resetTime"] = 20517,
@@ -407,9 +407,9 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Blackthorne",
 },
-[141226] = {
+[134884] = {
 ["resetTime"] = 20517,
-["name"] = "Haegol the Hammer",
+["name"] = "Ragna",
 },
 [132319] = {
 ["resetTime"] = 20517,
@@ -419,17 +419,17 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Whargarble the Ill-Tempered",
 },
-[128426] = {
+[139205] = {
 ["resetTime"] = 20517,
-["name"] = "Gutrip",
+["name"] = "P4-N73R4",
 },
 [135796] = {
 ["resetTime"] = 20517,
 ["name"] = "Captain Leadfist",
 },
-[136304] = {
+[122004] = {
 ["resetTime"] = 20517,
-["name"] = "Songstress Nahjeen",
+["name"] = "Umbra'jin",
 },
 [136336] = {
 ["resetTime"] = 20517,
@@ -443,9 +443,9 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Tentulos the Drifter",
 },
-[135852] = {
+[139280] = {
 ["resetTime"] = 20517,
-["name"] = "Ak'tar",
+["name"] = "Sythian the Swift",
 },
 [139321] = {
 ["resetTime"] = 20517,
@@ -467,33 +467,33 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Deepfang",
 },
-[139322] = {
+[138866] = {
 ["resetTime"] = 20517,
-["name"] = "Whitney 'Steelclaw' Ramsay",
+["name"] = "Fungi Trio",
 },
 [139290] = {
 ["resetTime"] = 20517,
 ["name"] = "Maison the Portable",
 },
-[136335] = {
+[139322] = {
 ["resetTime"] = 20517,
-["name"] = "Enraged Krolusk",
+["name"] = "Whitney 'Steelclaw' Ramsay",
 },
 [128974] = {
 ["resetTime"] = 20517,
 ["name"] = "Queen Tzxi'kik",
 },
-[128553] = {
+[131687] = {
 ["resetTime"] = 20517,
-["name"] = "Azer'tor",
+["name"] = "Tambano",
 },
 [134782] = {
 ["resetTime"] = 20517,
 ["name"] = "Murderbeak",
 },
-[137529] = {
+[132068] = {
 ["resetTime"] = 20517,
-["name"] = "Arvon the Betrayed",
+["name"] = "Bashmu",
 },
 [136338] = {
 ["resetTime"] = 20517,
@@ -507,93 +507,93 @@ DataStore_RaresDB = {
 ["resetTime"] = 20517,
 ["name"] = "Raging Swell",
 },
-[131687] = {
+[137529] = {
 ["resetTime"] = 20517,
-["name"] = "Tambano",
+["name"] = "Arvon the Betrayed",
 },
-[132068] = {
+[129411] = {
 ["resetTime"] = 20517,
-["name"] = "Bashmu",
+["name"] = "Zunashi the Exile",
 },
-[138866] = {
+[128553] = {
 ["resetTime"] = 20517,
-["name"] = "Fungi Trio",
+["name"] = "Azer'tor",
 },
 [129181] = {
 ["resetTime"] = 20517,
 ["name"] = "Barman Bill",
 },
-[139280] = {
+[128426] = {
 ["resetTime"] = 20517,
-["name"] = "Sythian the Swift",
+["name"] = "Gutrip",
 },
-[122004] = {
+[141226] = {
 ["resetTime"] = 20517,
-["name"] = "Umbra'jin",
+["name"] = "Haegol the Hammer",
 },
-[139205] = {
+[136335] = {
 ["resetTime"] = 20517,
-["name"] = "P4-N73R4",
+["name"] = "Enraged Krolusk",
 },
-[134884] = {
+[121242] = {
 ["resetTime"] = 20517,
-["name"] = "Ragna",
+["name"] = "Glompmaw",
 },
-[137183] = {
+[128965] = {
 ["resetTime"] = 20517,
-["name"] = "Imperiled Merchants",
+["name"] = "Uroku the Bound",
 },
-[139287] = {
+[135852] = {
 ["resetTime"] = 20517,
-["name"] = "Sawtooth",
+["name"] = "Ak'tar",
 },
-[134706] = {
+[136304] = {
 ["resetTime"] = 20517,
-["name"] = "Deathcap",
+["name"] = "Songstress Nahjeen",
 },
 [132244] = {
 ["resetTime"] = 20517,
 ["name"] = "Kiboku",
 },
-[140938] = {
+[134295] = {
 ["resetTime"] = 20517,
-["name"] = "Croaker",
+["name"] = "Lost Scroll",
 },
 [141039] = {
 ["resetTime"] = 20517,
 ["name"] = "Ice Sickle",
 },
-[130508] = {
+[127129] = {
 ["resetTime"] = 20517,
-["name"] = "Broodmother Razora",
+["name"] = "Grozgore",
 },
 [134213] = {
 ["resetTime"] = 20517,
 ["name"] = "Executioner Blackwell",
 },
-[141029] = {
+[138675] = {
 ["resetTime"] = 20517,
-["name"] = "Kickers",
+["name"] = "Gorged Boar",
 },
-[132086] = {
+[133356] = {
 ["resetTime"] = 20517,
-["name"] = "Black-Eyed Bart",
+["name"] = "Tempestria",
 },
-[132182] = {
+[127651] = {
 ["resetTime"] = 20517,
-["name"] = "Auditor Dolp",
+["name"] = "Vicemaul",
 },
-[139298] = {
+[130138] = {
 ["resetTime"] = 20517,
-["name"] = "Pinku'shon",
+["name"] = "Nevermore",
 },
-[132007] = {
+[133531] = {
 ["resetTime"] = 20517,
-["name"] = "Galestorm",
+["name"] = "Xu'ba",
 },
-[130079] = {
+[127844] = {
 ["resetTime"] = 20517,
-["name"] = "Wagga Snarltusk",
+["name"] = "Gluttonous Yeti",
 },
 },
 },
@@ -615,19 +615,14 @@ DataStore_RaresDB = {
 ["Default.Ravenholdt.Hfishsamoan"] = {
 ["lastUpdate"] = 1608226350,
 },
-["Default.Emerald Dream.Samoansavage"] = {
-["lastUpdate"] = 1616105490,
-["RareKillsCounter"] = {
-[171189] = 1,
-[160721] = 1,
-[163460] = 1,
-},
+["Default.Stormrage.Samoansavage"] = {
+["lastUpdate"] = 1603396805,
 },
 ["Default.Emerald Dream.Forgecraft"] = {
 ["lastUpdate"] = 1615983480,
 },
-["Default.Emerald Dream.Threadcraft"] = {
-["lastUpdate"] = 1616067929,
+["Default.Ravenholdt.Samoanbeast"] = {
+["lastUpdate"] = 1608225703,
 },
 ["Default.Emerald Dream.Samoanranger"] = {
 ["lastUpdate"] = 1614989529,
@@ -656,11 +651,16 @@ DataStore_RaresDB = {
 ["Default.Emerald Dream.Orecraft"] = {
 ["lastUpdate"] = 1615982158,
 },
-["Default.Ravenholdt.Samoanbeast"] = {
-["lastUpdate"] = 1608225703,
+["Default.Emerald Dream.Threadcraft"] = {
+["lastUpdate"] = 1616067929,
 },
-["Default.Stormrage.Samoansavage"] = {
-["lastUpdate"] = 1603396805,
+["Default.Emerald Dream.Samoansavage"] = {
+["lastUpdate"] = 1616105490,
+["RareKillsCounter"] = {
+[171189] = 1,
+[160721] = 1,
+[163460] = 1,
+},
 },
 },
 },

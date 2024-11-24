@@ -61,7 +61,7 @@ HHTD_SavedVariables = {
 ["Samoansavage - Emerald Dream"] = {
 ["settingsMigrated"] = false,
 },
-["Samoanruin - Stormrage"] = {
+["Kk - Bloodhoof"] = {
 ["settingsMigrated"] = false,
 },
 ["Shgrshn - Tichondrius"] = {
@@ -76,19 +76,19 @@ HHTD_SavedVariables = {
 ["Samoanmystic - Emerald Dream"] = {
 ["settingsMigrated"] = false,
 },
-["Samoanranger - Emerald Dream"] = {
+["Samoansage - Stormrage"] = {
 ["settingsMigrated"] = false,
 },
 ["Samoanshield - Area 52"] = {
 ["settingsMigrated"] = false,
 },
-["Samoansage - Tichondrius"] = {
-["settingsMigrated"] = false,
-},
 ["Mf - Emerald Dream"] = {
 ["settingsMigrated"] = false,
 },
-["Samoansage - Stormrage"] = {
+["Samoansage - Tichondrius"] = {
+["settingsMigrated"] = false,
+},
+["Samoanranger - Emerald Dream"] = {
 ["settingsMigrated"] = false,
 },
 ["Kkelly - Wyrmrest Accord"] = {
@@ -97,9 +97,21 @@ HHTD_SavedVariables = {
 ["Samoanghost - Emerald Dream"] = {
 ["settingsMigrated"] = false,
 },
-["Kk - Bloodhoof"] = {
+["Samoanruin - Stormrage"] = {
 ["settingsMigrated"] = false,
 },
+},
+["namespaces"] = {
+["Announcer"] = {
+},
+["CM"] = {
+},
+["NPH"] = {
+},
+},
+["global"] = {
+["settingsMigrated"] = false,
+["oldNameEnableState"] = 0,
 },
 ["profileKeys"] = {
 ["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
@@ -122,31 +134,19 @@ HHTD_SavedVariables = {
 ["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
+["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 ["Samoanbreach - Area 52"] = "Samoanbreach - Area 52",
 ["Forgecraft - Illidan"] = "Forgecraft - Illidan",
-["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 ["Samoanshield - Area 52"] = "Samoanshield - Area 52",
 ["Samoansage - Stormrage"] = "Samoansage - Stormrage",
-["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 ["Kkelly - Wyrmrest Accord"] = "Kkelly - Wyrmrest Accord",
 ["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
-["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
-},
-["global"] = {
-["settingsMigrated"] = false,
-["oldNameEnableState"] = 0,
-},
-["namespaces"] = {
-["Announcer"] = {
-},
-["CM"] = {
-},
-["NPH"] = {
-},
+["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
 },
 }

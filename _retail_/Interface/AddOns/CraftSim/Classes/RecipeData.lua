@@ -8,7 +8,7 @@ local GUTIL = CraftSim.GUTIL
 CraftSim.RecipeData = CraftSim.CraftSimObject:extend()
 
 local systemPrint = print
-local print = CraftSim.DEBUG:SetDebugPrint(CraftSim.CONST.DEBUG_IDS.DATAEXPORT)
+local print = CraftSim.DEBUG:RegisterDebugID("Classes.RecipeData")
 
 
 ---@class CraftSim.RecipeData.ConstructorOptions
@@ -479,6 +479,8 @@ end
 
 --- also sets a requiredSelectionReagent if not yet set
 function CraftSim.RecipeData:SetNonQualityReagentsMax()
+    local print = CraftSim.DEBUG:RegisterDebugID("Classes.RecipeData.SetNonQualityReagentsMax")
+    print("SetNonQualityReagentsMax", false, true)
     for _, reagent in pairs(self.reagentData.requiredReagents) do
         if not reagent.hasQuality then
             reagent.items[1].quantity = reagent.requiredQuantity
@@ -486,14 +488,48 @@ function CraftSim.RecipeData:SetNonQualityReagentsMax()
     end
 
     if self.reagentData:HasRequiredSelectableReagent() then
+        print("- HasRequiredSelectableReagent", false, false)
         if not self.reagentData.requiredSelectableReagentSlot.activeReagent then
-			for _, possibleRequiredSelectableReagent in pairs(self.reagentData.requiredSelectableReagentSlot.possibleReagents or {}) do
-				if possibleRequiredSelectableReagent:IsOrderReagentIn(self) then
-					self.reagentData.requiredSelectableReagentSlot:SetReagent(possibleRequiredSelectableReagent.item
-					:GetItemID())
-					break
-				end
-			end
+            print("- No active reagent", false, false)
+            local orderReagent = GUTIL:Find(self.reagentData.requiredSelectableReagentSlot.possibleReagents or {},
+                function(possibleOrderReagent)
+                    if possibleOrderReagent:IsOrderReagentIn(self) then
+                        return true
+                    end
+                    return false
+                end)
+            if orderReagent then
+                self.reagentData.requiredSelectableReagentSlot:SetReagent(orderReagent.item:GetItemID())
+            else
+                local cheapestReagent
+                local cheapestPrice
+                local possibleReagents = GUTIL:Filter(
+                    self.reagentData.requiredSelectableReagentSlot.possibleReagents or {}, function(optionalReagent)
+                        return not GUTIL:isItemSoulbound(optionalReagent.item:GetItemID())
+                    end)
+                -- if every possible reagent is soulbound, enforce first one
+                if #possibleReagents == 0 then
+                    cheapestReagent = self.reagentData.requiredSelectableReagentSlot.possibleReagents[1]
+                else -- else search for cheapest
+                    for _, optionalReagent in ipairs(possibleReagents) do
+                        local reagentPrice = CraftSim.PRICE_SOURCE:GetMinBuyoutByItemID(optionalReagent.item:GetItemID(),
+                            true, false, true)
+                        if not cheapestReagent then
+                            cheapestReagent = optionalReagent
+                            cheapestPrice = reagentPrice
+                        else
+                            if reagentPrice < cheapestPrice then
+                                cheapestPrice = reagentPrice
+                                cheapestReagent = optionalReagent
+                            end
+                        end
+                    end
+                end
+
+                if cheapestReagent then
+                    self.reagentData.requiredSelectableReagentSlot:SetReagent(cheapestReagent.item:GetItemID())
+                end
+            end
         end
     end
 end
@@ -806,7 +842,7 @@ function CraftSim.RecipeData:OptimizeConcentration(options)
 
     local skillContributionMap = self:GetSkillContributionMap()
 
-    local print = CraftSim.DEBUG:SetDebugPrint(CraftSim.CONST.DEBUG_IDS.CONCENTRATION_OPTIMIZATION)
+    local print = CraftSim.DEBUG:RegisterDebugID("Classes.RecipeData.OptimizeConcentration")
     -- for each reagent, find its lowest "quality upgrade" costs per skill point
 
     if not self.supportsQualities then return end
@@ -1710,7 +1746,7 @@ end
 --- returns recipe crafting info for all required and all active optional reagents
 ---@return CraftSim.ItemRecipeData[]
 function CraftSim.RecipeData:GetSubRecipeCraftingInfos()
-    local print = CraftSim.DEBUG:SetDebugPrint("SUB_RECIPE_DATA")
+    local print = CraftSim.DEBUG:RegisterDebugID("SUB_RECIPE_DATA")
     local craftingInfos = {}
     for _, reagent in ipairs(self.reagentData.requiredReagents) do
         for _, reagentItem in ipairs(reagent.items) do
@@ -1739,7 +1775,7 @@ end
 ---@param subRecipeDepth? number
 ---@return boolean success
 function CraftSim.RecipeData:OptimizeSubRecipes(optimizeOptions, visitedRecipeIDs, subRecipeDepth)
-    local printD = CraftSim.DEBUG:SetDebugPrint("SUB_RECIPE_DATA")
+    local printD = CraftSim.DEBUG:RegisterDebugID("SUB_RECIPE_DATA")
     optimizeOptions = optimizeOptions or {}
     subRecipeDepth = subRecipeDepth or 0
     visitedRecipeIDs = visitedRecipeIDs or {}

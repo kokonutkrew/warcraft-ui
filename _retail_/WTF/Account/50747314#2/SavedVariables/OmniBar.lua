@@ -1,0 +1,54 @@
+
+OmniBarDB = {
+["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Sphinx - Emerald Dream"] = "Default",
+["Blawesum - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["bars"] = {
+["OmniBar1"] = {
+["glow"] = true,
+["scenario"] = true,
+["tooltips"] = true,
+["names"] = false,
+["multiple"] = true,
+["border"] = true,
+["center"] = false,
+["trackUnit"] = "ENEMY",
+["locked"] = false,
+["showUnused"] = false,
+["size"] = 40,
+["world"] = true,
+["cooldownCount"] = true,
+["highlightTarget"] = true,
+["columns"] = 8,
+["unusedAlpha"] = 0.45,
+["align"] = "CENTER",
+["highlightFocus"] = false,
+["padding"] = 2,
+["adaptive"] = false,
+["maxIcons"] = 32,
+["ratedBattleground"] = true,
+["name"] = "OmniBar",
+["position"] = {
+["relativeTo"] = "UIParent",
+["point"] = "TOPRIGHT",
+["relativePoint"] = "TOPRIGHT",
+["yOfs"] = -206.1663818359375,
+["xOfs"] = -402.8330688476563,
+["frameStrata"] = "MEDIUM",
+},
+["growUpward"] = true,
+["arena"] = true,
+["swipeAlpha"] = 0.65,
+["battleground"] = true,
+},
+},
+},
+},
+}

@@ -8795,12 +8795,12 @@ end
 -- What it Does:    Resets the rank history of the data was corrupted
 -- Purpose:         There was a bug that seemed to affect some players due to a previous error that crashed in middle of update.
 GRM_Patch.FixRanKHistError = function ( player )
-    if type ( player.rankHist[1][5] ) == "number" then
+    if player.rankHist and player.rankHist[1] and player.rankHist[1][5] and type ( player.rankHist[1][5] ) == "number" then
         if #(tostring(player.rankHist[1][5])) == 8 then
             player.rankHist[1][5] = tostring ( player.rankHist[1][5] );
         end
     end
-    if player.rankHist[1][3] == nil or player.rankHist[1][4] == nil or type(player.rankHist[1][4]) == "string" or type(player.rankHist[1][5]) == "number" then
+    if player.rankHist == nil or player.rankHist[1] == nil or player.rankHist[1][5] == nil or player.rankHist[1][3] == nil or player.rankHist[1][4] == nil or type(player.rankHist[1][4]) == "string" or type(player.rankHist[1][5]) == "number" then
         player.rankHist = { { player.rankName , 0 , 0 , 0 , "0" , 0 , false , 1 } };
     end
     return player
@@ -8991,11 +8991,15 @@ end
 -- What it Does:    Removes the 4th rank restriction index from the custom Note.
 -- Purpose:         This is deprecated and only left in to not have to deal with rewriting a lot. The overall custom note sync rank restriction handles this now.
 GRM_Patch.ModifyCustomNote = function ( player )
-    if #player.customNote == 6 then
-        table.remove ( player.customNote , 4 ); -- Remove the depreceated index
-    end
-    if #player.customNote == 5 then
-        table.remove ( player.customNote , 4 ); -- Remove the rank action deprecated index next, which is now in same position
+    if player.customNote then
+        if #player.customNote == 6 then
+            table.remove ( player.customNote , 4 ); -- Remove the depreceated index
+        end
+        if #player.customNote == 5 then
+            table.remove ( player.customNote , 4 ); -- Remove the rank action deprecated index next, which is now in same position
+        end
+    else
+        player.customNote = {true, 0, "", ""};
     end
     return player;
 end
@@ -9161,20 +9165,28 @@ end
 -- Purpose:         There was a bug that seemed to affect some players due to a previous error that crashed in middle of update.
 GRM_Patch.FixLegacyFormattingErrorOnRankAndJoinHist = function ( player )
 
-    if type (player.rankHist[1][6]) == "string" then
-        if player.rankHist[1][7] == true and player.rankHist[1][2] and type ( player.rankHist[1][2] ) == "number" and player.rankHist[1][2] > 0 and player.rankHist[1][3] and type ( player.rankHist[1][3] ) == "number" and player.rankHist[1][3] > 0 and player.rankHist[1][4] and type ( player.rankHist[1][4] ) == "number" and player.rankHist[1][4] > 0 and type ( player.rankHist[1][5] ) == "string" and #player.rankHist[1][5] == 8 then
-            player.rankHist[1][6] = 1;  -- Placeholder time as verified.
-        else
-            player.rankHist = { { player.rankName , 0 , 0 , 0 , "0" , 0 , false , 1 } };
+    if player.rankHist then
+        if type (player.rankHist[1][6]) == "string" then
+            if player.rankHist[1][7] == true and player.rankHist[1][2] and type ( player.rankHist[1][2] ) == "number" and player.rankHist[1][2] > 0 and player.rankHist[1][3] and type ( player.rankHist[1][3] ) == "number" and player.rankHist[1][3] > 0 and player.rankHist[1][4] and type ( player.rankHist[1][4] ) == "number" and player.rankHist[1][4] > 0 and type ( player.rankHist[1][5] ) == "string" and #player.rankHist[1][5] == 8 then
+                player.rankHist[1][6] = 1;  -- Placeholder time as verified.
+            else
+                player.rankHist = { { player.rankName , 0 , 0 , 0 , "0" , 0 , false , 1 } };
+            end
         end
+    else
+        player.rankHist = { { player.rankName , 0 , 0 , 0 , "0" , 0 , false , 1 } };
     end
 
-    if type (player.joinDateHist[1][5]) == "string" then
-        if player.joinDateHist[1][5] == true and player.joinDateHist[1][1] and type ( player.joinDateHist[1][1] ) == "number" and player.joinDateHist[1][1] > 0 and player.joinDateHist[1][2] and type ( player.joinDateHist[1][2] ) == "number" and player.joinDateHist[1][2] > 0 and player.joinDateHist[1][3] and type ( player.joinDateHist[1][3] ) == "number" and player.joinDateHist[1][3] > 0 and type ( player.joinDateHist[1][4] ) == "string" and #player.joinDateHist[1][4] == 8 then
-            player.joinDateHist[1][5] = 1;  -- Placeholder time as verified.
-        else
-            player.joinDateHist = { { 0 , 0 , 0 , "0" , 0 , false , 1 } };
+    if player.joinDateHist then
+        if type (player.joinDateHist[1][5]) == "string" then
+            if player.joinDateHist[1][5] == true and player.joinDateHist[1][1] and type ( player.joinDateHist[1][1] ) == "number" and player.joinDateHist[1][1] > 0 and player.joinDateHist[1][2] and type ( player.joinDateHist[1][2] ) == "number" and player.joinDateHist[1][2] > 0 and player.joinDateHist[1][3] and type ( player.joinDateHist[1][3] ) == "number" and player.joinDateHist[1][3] > 0 and type ( player.joinDateHist[1][4] ) == "string" and #player.joinDateHist[1][4] == 8 then
+                player.joinDateHist[1][5] = 1;  -- Placeholder time as verified.
+            else
+                player.joinDateHist = { { 0 , 0 , 0 , "0" , 0 , false , 1 } };
+            end
         end
+    else
+        player.joinDateHist = { { 0 , 0 , 0 , "0" , 0 , false , 1 } };
     end
 
     return player
@@ -9187,15 +9199,21 @@ end
 GRM_Patch.ConvertHours = function( player )
     local totalHrs = player.lastOnline;
 
-    local years = math.floor( totalHrs / 8760)  -- 8760 hours in a year (365 days * 24 hours)
-    totalHrs = totalHrs % 8760                    -- Remaining hours after extracting years
+    if totalHrs then
+        local years = math.floor( totalHrs / 8760)  -- 8760 hours in a year (365 days * 24 hours)
+        totalHrs = totalHrs % 8760                    -- Remaining hours after extracting years
 
-    local months = math.floor( totalHrs / 720)  -- 720 hours in a month (30 days * 24 hours)
-    totalHrs = totalHrs % 720                     -- Remaining hours after extracting months
+        local months = math.floor( totalHrs / 720)  -- 720 hours in a month (30 days * 24 hours)
+        totalHrs = totalHrs % 720                     -- Remaining hours after extracting months
 
-    local days = math.floor( totalHrs / 24 )     -- 24 hours in a day
-    local remaining_hours = totalHrs % 24      -- Remaining hours after extracting days
-    player.lastOnlineTime = { years , months , days , remaining_hours };
+        local days = math.floor( totalHrs / 24 )     -- 24 hours in a day
+        local remaining_hours = totalHrs % 24      -- Remaining hours after extracting days
+        player.lastOnlineTime = { years , months , days , remaining_hours };
+    else
+        -- Fix the issue
+        player.lastOnline = 0;
+        player.lastOnlineTime = { 0 , 0 , 0 , 0 };
+    end
 
     return player
 end

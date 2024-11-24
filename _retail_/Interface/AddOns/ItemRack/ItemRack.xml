@@ -13,7 +13,7 @@
 		</Scripts>
 	</Frame>
 
-	<Frame name="ItemRackMenuFrame" frameStrata="HIGH" enableMouse="false" movable="true" parent="UIParent" hidden="true" clampedToScreen="true" topLevel="true" inherits="BackdropTemplate">
+	<Frame name="ItemRackMenuFrame" frameStrata="FULLSCREEN_DIALOG" enableMouse="false" movable="true" parent="UIParent" hidden="true" clampedToScreen="true" topLevel="true" inherits="BackdropTemplate">
 		<Size>
 			<AbsDimension x="64" y="64" />
 		</Size>
@@ -36,7 +36,7 @@
 		</Scripts>
 	</GameTooltip>
 
-	<Button name="ItemRackMinimapFrame" toplevel="true" frameStrata="HIGH" parent="Minimap" enableMouse="true" movable="true">
+	<Button name="ItemRackMinimapFrame" toplevel="true" frameStrata="FULLSCREEN_DIALOG" parent="Minimap" enableMouse="true" movable="true">
 		<Size>
 			<AbsDimension x="33" y="33"/>
 		</Size>

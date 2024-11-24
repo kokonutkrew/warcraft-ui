@@ -19,7 +19,7 @@ TomCats_Account = {
 ["iconScale"] = 0.8,
 ["arrowEnabled"] = true,
 },
-["lastExpirationWarning"] = 1731802735,
+["lastExpirationWarning"] = 0,
 ["discoveriesResetCount"] = 0,
 ["noblegarden"] = {
 ["enabled"] = true,
@@ -29,7 +29,7 @@ TomCats_Account = {
 ["loveisintheair"] = {
 },
 ["discoveriesVersion"] = "0",
-["lastVersionSeen"] = "2.5.53",
+["lastVersionSeen"] = "2.5.54",
 ["preferences"] = {
 ["TomCats-HallowsEndMinimapButton"] = {
 ["hidden"] = false,

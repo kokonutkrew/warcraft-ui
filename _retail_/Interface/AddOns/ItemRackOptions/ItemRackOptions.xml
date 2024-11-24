@@ -27,7 +27,6 @@
 			<AbsDimension x="150" y="18"/>
 		</Size>
 		<NormalFont style="GameFontHighlight"/>
-		<PushedFont style="GameFontHighlight"/>
 		<HighlightFont style="GameFontHighlight"/>
 		<Layers>
 			<Layer level="BACKGROUND">
@@ -451,7 +450,6 @@
 			<AbsDimension x="128" y="22"/>
 		</Size>
 		<NormalFont style="GameFontNormalSmall"/>
-		<PushedFont style="GameFontHighlightSmall"/>
 		<DisabledFont style="GameFontHighlightSmall"/>
 		<HighlightFont style="GameFontHighlightSmall"/>
 		<Scripts>
@@ -726,9 +724,7 @@
 	</Button>
 
 	<CheckButton name="ItemRackOptInvTemplate" inherits="ActionButtonTemplate" virtual="true">
-		<Size>
-			<AbsDimension x="36" y="36"/>
-		</Size>
+		<Size x="36" y="36"/>
 		<Scripts>
 			<OnLoad>
 				self:RegisterForClicks("LeftButtonUp","RightButtonUp")
@@ -743,7 +739,25 @@
 			<OnLeave>
 				ItemRackOpt.InvOnLeave(self)
 			</OnLeave>
-		</Scripts>
+		</Scripts>		
+		<NormalTexture name="$parentNormalTexture" parentKey="NormalTexture" atlas="UI-HUD-ActionBar-IconFrame">
+			<Size x="36" y="36"/>
+			<Anchors>
+				<Anchor point="TOPLEFT"/>
+			</Anchors>
+		</NormalTexture>
+		<PushedTexture atlas="UI-HUD-ActionBar-IconFrame-Down" parentKey="PushedTexture">
+			<Size x="36" y="36"/>
+			<Anchors>
+				<Anchor point="TOPLEFT"/>
+			</Anchors>
+		</PushedTexture>
+		<HighlightTexture atlas="UI-HUD-ActionBar-IconFrame-Mouseover" parentKey="HighlightTexture">
+			<Size x="36" y="36"/>
+			<Anchors>
+				<Anchor point="TOPLEFT"/>
+			</Anchors>
+		</HighlightTexture>
 	</CheckButton>
 
 	<Button name="ItemRackOptIconTemplate" virtual="true">
@@ -2773,7 +2787,7 @@
 									</Anchor>
 								</Anchors>
 								<ScrollChild>
-									<EditBox name="ItemRackOptEventEditZoneEditBox" multiLine="true" maxLines="9" letters="4096" nonspacewrap="true" spacing="1" autoFocus="false">
+									<EditBox name="ItemRackOptEventEditZoneEditBox" multiLine="true" letters="4096" nonspacewrap="true" spacing="1" autoFocus="false">
 										<Size>
 											<AbsDimension x="120" y="116"/>
 										</Size>
@@ -2914,7 +2928,7 @@
 									</Anchor>
 								</Anchors>
 								<ScrollChild>
-									<EditBox name="ItemRackOptEventEditScriptEditBox" multiLine="true" maxLines="9" letters="4096" nonspacewrap="true" spacing="1" autoFocus="false">
+									<EditBox name="ItemRackOptEventEditScriptEditBox" multiLine="true" letters="4096" nonspacewrap="true" spacing="1" autoFocus="false">
 										<Size>
 											<AbsDimension x="120" y="96"/>
 										</Size>
@@ -3074,7 +3088,7 @@
 						</Layers>
 						<!-- Basically copy/pasted from MacroFrame -->
 						<ScrollChild>
-							<EditBox name="ItemRackFloatingEditorEditBox" multiLine="true" maxLines="9" letters="4096" nonspacewrap="true" spacing="1" autoFocus="false">
+							<EditBox name="ItemRackFloatingEditorEditBox" multiLine="true" letters="4096" nonspacewrap="true" spacing="1" autoFocus="false">
 								<Size>
 									<AbsDimension x="100" y="100"/>
 								</Size>
@@ -3203,7 +3217,7 @@
 		</Frames>
 		<Scripts>
 			<OnLoad inherit="prepend">
-				self:SetMinResize(250,110)
+				self:SetResizeBounds(250,110)
 			</OnLoad>
 			<OnMouseDown>
 				self:StartMoving()

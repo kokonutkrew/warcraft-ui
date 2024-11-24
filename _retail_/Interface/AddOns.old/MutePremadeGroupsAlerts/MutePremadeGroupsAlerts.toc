@@ -1,7 +1,0 @@
-## Interface: 80000
-## Title: Mute Premade Groups Alerts
-## Notes: Mutes the sound that plays for new applicants.
-## Author: Felforit
-## Version: 1.0
-
-Main.lua

@@ -1,4 +1,0 @@
-<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
-    <!-- Embedded External Libraries -->
-    <Script file="inspect.lua"/>
-</Ui>

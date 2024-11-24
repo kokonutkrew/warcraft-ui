@@ -1,6 +1,37 @@
 
 FGI_DB = {
+["global"] = {
+["scanFrame"] = {
+["yOfs"] = 58.0002326965332,
+["xOfs"] = -387.9995422363281,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+["community"] = {
+},
+["keyBind"] = {
+["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
+["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
+},
+["minimap"] = {
+["minimapPos"] = 190.660438190305,
+},
+["guildLinks"] = {
+["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
+},
+["mainFrame"] = {
+["yOfs"] = 135.9999542236328,
+["xOfs"] = 52.9998664855957,
+["point"] = "BOTTOM",
+["relativePoint"] = "BOTTOM",
+},
+["inviteType"] = 3,
+["introShow"] = false,
+},
 ["factionrealm"] = {
+["Horde - Area 52"] = {
+["guild"] = "kk",
+},
 ["Alliance - Emerald Dream"] = {
 ["search"] = {
 ["state"] = "stop",
@@ -100,43 +131,33 @@ FGI_DB = {
 "Hey NAME are you looking for a guild? Join the GUILDLINK or check us out at kokonutkrew.com",
 },
 },
+["Alliance - Area 52"] = {
+["history"] = {
+["leave"] = {
+1732060800,
+1732327200,
 },
-["global"] = {
-["minimap"] = {
-["minimapPos"] = 190.660438190305,
 },
-["guildLinks"] = {
-["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
 },
-["scanFrame"] = {
-["yOfs"] = 58.0002326965332,
-["xOfs"] = -387.9995422363281,
-["point"] = "BOTTOM",
-["relativePoint"] = "BOTTOM",
-},
-["community"] = {
-},
-["inviteType"] = 3,
-["introShow"] = false,
-["keyBind"] = {
-["nextSearch"] = "ALT-CTRL-SHIFT-PAGEDOWN",
-["invite"] = "ALT-CTRL-SHIFT-PAGEUP",
-},
-["mainFrame"] = {
-["yOfs"] = 135.9999542236328,
-["xOfs"] = 52.9998664855957,
-["point"] = "BOTTOM",
-["relativePoint"] = "BOTTOM",
+["Horde - Tichondrius"] = {
+["guild"] = "Wealth",
 },
 },
 ["profileKeys"] = {
-["Kkdev - Emerald Dream"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
+["Samoansizzle - Area 52"] = "Default",
 ["Threadcraft - Emerald Dream"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Herbcraft - Emerald Dream"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
 ["Samoansage - Emerald Dream"] = "Default",
+["Kkdev - Emerald Dream"] = "Default",
+["Herbcraft - Area 52"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoanlegend - Tichondrius"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Samoanskully - Area 52"] = "Default",
 },
 ["realm"] = {
 ["Emerald Dream"] = {
@@ -162,17 +183,30 @@ FGI_DB = {
 },
 },
 },
+["Area 52"] = {
+["leave"] = {
+["Samoansizzle"] = true,
+["Zarakis"] = true,
+},
+},
 },
 }
 FGI_DEBUG = {
 ["profileKeys"] = {
-["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
-["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 ["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 ["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
 ["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Samoanlegend - Tichondrius"] = "Samoanlegend - Tichondrius",
+["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Samoanskully - Area 52"] = "Samoanskully - Area 52",
 },
 ["global"] = {
 {

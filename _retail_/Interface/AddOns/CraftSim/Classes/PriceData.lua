@@ -7,7 +7,7 @@ local GUTIL = CraftSim.GUTIL
 ---@class CraftSim.PriceData : CraftSim.CraftSimObject
 CraftSim.PriceData = CraftSim.CraftSimObject:extend()
 
-local print = CraftSim.DEBUG:SetDebugPrint(CraftSim.CONST.DEBUG_IDS.PRICEDATA)
+local print = CraftSim.DEBUG:RegisterDebugID("Classes.RecipeData.PriceData")
 local f = GUTIL:GetFormatter()
 
 ---@param recipeData CraftSim.RecipeData
@@ -93,6 +93,7 @@ function CraftSim.PriceData:Update()
         self.craftingCosts = self.craftingCosts +
             reagentPriceInfo.itemPrice * reagentData.salvageReagentSlot.requiredQuantity
         self.craftingCostsRequired = self.craftingCosts
+        self.craftingCostsNoOrderReagents = self.craftingCosts
 
         if reagentPriceInfo.priceInfo.isExpectedCost then
             tinsert(self.selfCraftedReagents, itemID)

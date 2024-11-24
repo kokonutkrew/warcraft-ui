@@ -27,7 +27,7 @@ CraftSim.INIT.currentRecipeID = nil
 CraftSim.INIT.initialLogin = false
 CraftSim.INIT.isReloadingUI = false
 
-local print = CraftSim.DEBUG:SetDebugPrint(CraftSim.CONST.DEBUG_IDS.INIT)
+local print = CraftSim.DEBUG:RegisterDebugID("Init")
 
 function CraftSim.INIT:TRADE_SKILL_FAVORITES_CHANGED(isFavoriteNow, recipeID)
 	-- adapt cached values
@@ -195,10 +195,10 @@ function CraftSim.INIT:InitStaticPopups()
 end
 
 function CraftSim.INIT:InitCraftRecipeHooks()
+	local print = CraftSim.DEBUG:RegisterDebugID("Init.InitCraftRecipeHooks")
+
 	---@param onCraftData CraftSim.OnCraftData
 	local function OnCraft(onCraftData)
-		local print = CraftSim.DEBUG:SetDebugPrint(CraftSim.CONST.DEBUG_IDS.CRAFTQ)
-
 		if C_TradeSkillUI.IsNPCCrafting() or C_TradeSkillUI.IsRuneforging() then
 			return
 		end
@@ -483,6 +483,8 @@ function CraftSim.INIT:PLAYER_LOGIN()
 		elseif command == "resetdb" then
 			CraftSimDB = nil
 			C_UI.Reload()
+		elseif command == "quickbuy" then
+			CraftSim.CRAFTQ:AuctionatorQuickBuy()
 		else
 			-- open options if any other command or no command is given
 			Settings.OpenToCategory(CraftSim.OPTIONS.category.ID)

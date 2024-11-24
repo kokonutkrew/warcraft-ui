@@ -1,6 +1,8 @@
-## Interface: 90005
+## Interface: 110002
 ## Title: ItemRack
 ## Author: Gello - Updated for WoW 4.0 by Kiki + Kharthus + Yewbacca
+## AddonCompartmentFunc: ItemRack_OnAddonCompartmentClick
+## IconTexture: 132722
 ## SavedVariables: ItemRackSettings, ItemRackItems, ItemRackEvents
 ## SavedVariablesPerCharacter: ItemRackUser
 ItemRack.lua

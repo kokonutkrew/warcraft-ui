@@ -15,29 +15,30 @@ RecklessAbandonDB = {
 ["Samoanslayer - Area 52"] = "Default",
 ["Forgecraft - Area 52"] = "Default",
 ["Herbcraft - Emerald Dream"] = "Default",
-["Samoanrelic - Emerald Dream"] = "Default",
 ["Buycraft - Area 52"] = "Default",
-["Samoansteel - Area 52"] = "Default",
+["Samoanrelic - Emerald Dream"] = "Default",
 ["Samoansage - Stormrage"] = "Default",
-["Samoanbeast - Area 52"] = "Default",
+["Samoansteel - Area 52"] = "Default",
 ["Samoanbeast - Ravenholdt"] = "Default",
-["Dustcraft - Emerald Dream"] = "Default",
+["Samoanbeast - Area 52"] = "Default",
 ["Samoanbreach - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Mf - Emerald Dream"] = "Default",
 ["Samoanblast - Emerald Dream"] = "Default",
 ["Tyrielle - Area 52"] = "Default",
 ["Samoanranger - Area 52"] = "Default",
-["Mf - Emerald Dream"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Threadcraft - Area 52"] = "Default",
 ["Samoantitan - Emerald Dream"] = "Default",
 ["Samoanscout - Moon Guard"] = "Default",
 ["Samoantank - Tichondrius"] = "Default",
-["Herbcraft - Area 52"] = "Default",
-["Samoanranger - Moon Guard"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
 ["Samoanranger - Emerald Dream"] = "Default",
+["Samoanranger - Moon Guard"] = "Default",
+["Herbcraft - Area 52"] = "Default",
 ["Samoansavage - Emerald Dream"] = "Default",
+["Samoanlegend - Tichondrius"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
 ["Samoanmystic - Emerald Dream"] = "Default",
@@ -47,10 +48,10 @@ RecklessAbandonDB = {
 ["Shgrshn - Tichondrius"] = "Default",
 ["Samoanruin - Stormrage"] = "Default",
 ["Forgecraft - Illidan"] = "Default",
-["Kk - Bloodhoof"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
 ["Kkelly - Moon Guard"] = "Default",
 ["Samoanshield - Area 52"] = "Default",
-["Shadowcraft - Emerald Dream"] = "Default",
+["Kk - Bloodhoof"] = "Default",
 ["Samoansage - Tichondrius"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
 ["Kkelly - Wyrmrest Accord"] = "Default",
@@ -84,29 +85,30 @@ RecklessAbandonPrivateDB = {
 ["Samoanslayer - Area 52"] = "Samoanslayer - Area 52",
 ["Forgecraft - Area 52"] = "Forgecraft - Area 52",
 ["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
-["Samoansteel - Area 52"] = "Samoansteel - Area 52",
+["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 ["Samoansage - Stormrage"] = "Samoansage - Stormrage",
-["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
+["Samoansteel - Area 52"] = "Samoansteel - Area 52",
 ["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
 ["Samoanbreach - Area 52"] = "Samoanbreach - Area 52",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 ["Samoanblast - Emerald Dream"] = "Samoanblast - Emerald Dream",
 ["Tyrielle - Area 52"] = "Tyrielle - Area 52",
 ["Samoanranger - Area 52"] = "Samoanranger - Area 52",
-["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
 ["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 ["Threadcraft - Area 52"] = "Threadcraft - Area 52",
 ["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Samoanscout - Moon Guard"] = "Samoanscout - Moon Guard",
 ["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-["Herbcraft - Area 52"] = "Herbcraft - Area 52",
-["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
-["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
 ["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Samoanlegend - Tichondrius"] = "Samoanlegend - Tichondrius",
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
@@ -116,10 +118,10 @@ RecklessAbandonPrivateDB = {
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 ["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
 ["Forgecraft - Illidan"] = "Forgecraft - Illidan",
-["Kk - Bloodhoof"] = "Kk - Bloodhoof",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Kkelly - Moon Guard"] = "Kkelly - Moon Guard",
 ["Samoanshield - Area 52"] = "Samoanshield - Area 52",
-["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
+["Kk - Bloodhoof"] = "Kk - Bloodhoof",
 ["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 ["Kkelly - Wyrmrest Accord"] = "Kkelly - Wyrmrest Accord",
@@ -259,8 +261,12 @@ RecklessAbandonPrivateDB = {
 ["Samoanseraph - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[83285] = {
-["title"] = "The Ancient Scroll",
+[72192] = {
+["title"] = "Halls of Infusion: Entropy to Order",
+["source"] = 1,
+},
+[72292] = {
+["title"] = "Story of a Spectacular Victory",
 ["source"] = 1,
 },
 },
@@ -437,6 +443,15 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
+["Buycraft - Area 52"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
 ["Samoanrelic - Emerald Dream"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
@@ -472,12 +487,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Tyr's Footsteps: The Ohn'ahran Plains",
 ["source"] = 1,
 },
-[40519] = {
-["title"] = "Legion: The Legion Returns",
+[72067] = {
+["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
-[66997] = {
-["title"] = "Nursery Direction",
+[40519] = {
+["title"] = "Legion: The Legion Returns",
 ["source"] = 1,
 },
 [29829] = {
@@ -492,42 +507,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Critical Path",
 ["source"] = 1,
 },
-[72067] = {
-["title"] = "Relaxation Time!",
+[66997] = {
+["title"] = "Nursery Direction",
 ["source"] = 1,
 },
 [71219] = {
 ["title"] = "The Wayward Waywatcher",
-["source"] = 1,
-},
-},
-},
-["automationOptions"] = {
-["autoAbandonQuests"] = {
-["questType"] = {
-["ids"] = "",
-},
-},
-},
-},
-["Buycraft - Area 52"] = {
-["automationOptions"] = {
-["autoAbandonQuests"] = {
-["questType"] = {
-["ids"] = "",
-},
-},
-},
-},
-["Samoansteel - Area 52"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[65443] = {
-["title"] = "Expeditionary Coordination",
-["source"] = 1,
-},
-[72256] = {
-["title"] = "The Dark Talons",
 ["source"] = 1,
 },
 },
@@ -549,7 +534,19 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanbeast - Area 52"] = {
+["Samoansteel - Area 52"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[65443] = {
+["title"] = "Expeditionary Coordination",
+["source"] = 1,
+},
+[72256] = {
+["title"] = "The Dark Talons",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -611,6 +608,32 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
+["Samoanbeast - Area 52"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Samoanbreach - Area 52"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[80446] = {
+["title"] = "Looking for Group",
+["source"] = 1,
+},
+},
+},
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
 ["Dustcraft - Emerald Dream"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
@@ -640,15 +663,7 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanbreach - Area 52"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[80446] = {
-["title"] = "Looking for Group",
-["source"] = 1,
-},
-},
-},
+["Mf - Emerald Dream"] = {
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -716,7 +731,7 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Mf - Emerald Dream"] = {
+["Ikkl - Emerald Dream"] = {
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -725,7 +740,39 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Ikkl - Emerald Dream"] = {
+["Shadowcraft - Emerald Dream"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[75890] = {
+["title"] = "The Clarion Call",
+["source"] = 1,
+},
+[71239] = {
+["title"] = "Lost to the Skies",
+["source"] = 1,
+},
+[40519] = {
+["title"] = "Legion: The Legion Returns",
+["source"] = 1,
+},
+[71219] = {
+["title"] = "The Wayward Waywatcher",
+["source"] = 1,
+},
+[65686] = {
+["title"] = "To the Azure Span",
+["source"] = 1,
+},
+[72267] = {
+["title"] = "Ohn'ahran Plains",
+["source"] = 1,
+},
+[40643] = {
+["title"] = "A Summons From Moonglade",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -764,10 +811,6 @@ RecklessAbandonPrivateDB = {
 ["excludedQuests"] = {
 [57043] = {
 ["title"] = "Old Friends, New Opportunities",
-["source"] = 1,
-},
-[62265] = {
-["title"] = "A New Adventure Awaits",
 ["source"] = 1,
 },
 },
@@ -812,20 +855,20 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Wayward Waywatcher",
 ["source"] = 1,
 },
-[72291] = {
-["title"] = "Story of a Memorable Victory",
+[65837] = {
+["title"] = "Trouble In The Pines",
 ["source"] = 1,
 },
-[72067] = {
-["title"] = "Relaxation Time!",
+[72291] = {
+["title"] = "Story of a Memorable Victory",
 ["source"] = 1,
 },
 [70125] = {
 ["title"] = "Where is Wrathion?",
 ["source"] = 1,
 },
-[65837] = {
-["title"] = "Trouble In The Pines",
+[72067] = {
+["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
 },
@@ -871,6 +914,40 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
+["Samoanranger - Emerald Dream"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[40519] = {
+["title"] = "Legion: The Legion Returns",
+["source"] = 1,
+},
+[26137] = {
+["title"] = "Checking on the Boys",
+["source"] = 1,
+},
+[72067] = {
+["title"] = "Relaxation Time!",
+["source"] = 1,
+},
+},
+},
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Samoanranger - Moon Guard"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
 ["Herbcraft - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
@@ -896,97 +973,6 @@ RecklessAbandonPrivateDB = {
 },
 [31363] = {
 ["title"] = "Lighting the Way",
-["source"] = 1,
-},
-},
-},
-["automationOptions"] = {
-["autoAbandonQuests"] = {
-["questType"] = {
-["ids"] = "",
-},
-},
-},
-},
-["Samoanranger - Moon Guard"] = {
-["automationOptions"] = {
-["autoAbandonQuests"] = {
-["questType"] = {
-["ids"] = "",
-},
-},
-},
-},
-["Forgecraft - Emerald Dream"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[73707] = {
-["title"] = "TICKET: Glimmerogg Games",
-["source"] = 1,
-},
-[79321] = {
-["title"] = "The Catalyst's Gift",
-["source"] = 1,
-},
-[75887] = {
-["title"] = "Fyrakk's Forces",
-["source"] = 1,
-},
-[75918] = {
-["title"] = "Fire Season",
-["source"] = 1,
-},
-[75725] = {
-["title"] = "Off to the Track",
-["source"] = 1,
-},
-[66156] = {
-["title"] = "Renowned with the Dragonscale Expedition",
-["source"] = 1,
-},
-[78172] = {
-["title"] = "Mysterious Seeds",
-["source"] = 1,
-},
-[72591] = {
-["title"] = "A Debt That Must Be Paid",
-["source"] = 1,
-},
-[40519] = {
-["title"] = "Legion: The Legion Returns",
-["source"] = 1,
-},
-[79511] = {
-["title"] = "Identity Crisis",
-["source"] = 1,
-},
-[75877] = {
-["title"] = "Time to Fly",
-["source"] = 1,
-},
-},
-},
-["automationOptions"] = {
-["autoAbandonQuests"] = {
-["questType"] = {
-["ids"] = "",
-},
-},
-},
-},
-["Samoanranger - Emerald Dream"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[40519] = {
-["title"] = "Legion: The Legion Returns",
-["source"] = 1,
-},
-[26137] = {
-["title"] = "Checking on the Boys",
-["source"] = 1,
-},
-[72067] = {
-["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
 },
@@ -1028,6 +1014,23 @@ RecklessAbandonPrivateDB = {
 },
 [72644] = {
 ["title"] = "An Urgent Matter",
+["source"] = 1,
+},
+},
+},
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Samoanlegend - Tichondrius"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[82672] = {
+["title"] = "Another Timely Invitation",
 ["source"] = 1,
 },
 },
@@ -1094,16 +1097,8 @@ RecklessAbandonPrivateDB = {
 ["Samoansizzle - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[31448] = {
-["title"] = "An End to the Suffering",
-["source"] = 1,
-},
-[30757] = {
-["title"] = "Lord of the Shado-Pan",
-["source"] = 1,
-},
-[31495] = {
-["title"] = "Rank and File",
+[82672] = {
+["title"] = "Another Timely Invitation",
 ["source"] = 1,
 },
 },
@@ -1249,7 +1244,55 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Kk - Bloodhoof"] = {
+["Forgecraft - Emerald Dream"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[73707] = {
+["title"] = "TICKET: Glimmerogg Games",
+["source"] = 1,
+},
+[79321] = {
+["title"] = "The Catalyst's Gift",
+["source"] = 1,
+},
+[75887] = {
+["title"] = "Fyrakk's Forces",
+["source"] = 1,
+},
+[75918] = {
+["title"] = "Fire Season",
+["source"] = 1,
+},
+[75725] = {
+["title"] = "Off to the Track",
+["source"] = 1,
+},
+[66156] = {
+["title"] = "Renowned with the Dragonscale Expedition",
+["source"] = 1,
+},
+[78172] = {
+["title"] = "Mysterious Seeds",
+["source"] = 1,
+},
+[72591] = {
+["title"] = "A Debt That Must Be Paid",
+["source"] = 1,
+},
+[40519] = {
+["title"] = "Legion: The Legion Returns",
+["source"] = 1,
+},
+[79511] = {
+["title"] = "Identity Crisis",
+["source"] = 1,
+},
+[75877] = {
+["title"] = "Time to Fly",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -1312,39 +1355,7 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Shadowcraft - Emerald Dream"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[75890] = {
-["title"] = "The Clarion Call",
-["source"] = 1,
-},
-[71239] = {
-["title"] = "Lost to the Skies",
-["source"] = 1,
-},
-[40519] = {
-["title"] = "Legion: The Legion Returns",
-["source"] = 1,
-},
-[71219] = {
-["title"] = "The Wayward Waywatcher",
-["source"] = 1,
-},
-[65686] = {
-["title"] = "To the Azure Span",
-["source"] = 1,
-},
-[72267] = {
-["title"] = "Ohn'ahran Plains",
-["source"] = 1,
-},
-[40643] = {
-["title"] = "A Summons From Moonglade",
-["source"] = 1,
-},
-},
-},
+["Kk - Bloodhoof"] = {
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -1381,12 +1392,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Darkness, I Dream",
 ["source"] = 1,
 },
-[51432] = {
-["title"] = "An Unusual Mentor",
+[54938] = {
+["title"] = "A Brother's Help",
 ["source"] = 1,
 },
-[56374] = {
-["title"] = "A Titanic Problem",
+[51432] = {
+["title"] = "An Unusual Mentor",
 ["source"] = 1,
 },
 [31363] = {
@@ -1405,8 +1416,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "A Way Out",
 ["source"] = 1,
 },
-[54938] = {
-["title"] = "A Brother's Help",
+[56374] = {
+["title"] = "A Titanic Problem",
 ["source"] = 1,
 },
 },

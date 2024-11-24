@@ -24,8 +24,8 @@ function ItemRack.InitButtons()
 	--ItemRack.oldCharacterAmmoSlot_OnClick = CharacterAmmoSlot:GetScript("OnClick")
 	--CharacterAmmoSlot:SetScript("OnClick",ItemRack.newCharacterAmmoSlot_OnClick)
 
-	ItemRack.oldCharacterModelFrame_OnMouseUp = CharacterModelFrame:GetScript("OnMouseUp")
-	CharacterModelFrame:SetScript("OnMouseUp",ItemRack.newCharacterModelFrame_OnMouseUp)
+	ItemRack.oldCharacterModelFrame_OnMouseUp = CharacterModelScene:GetScript("OnMouseUp")
+	CharacterModelScene:SetScript("OnMouseUp",ItemRack.newCharacterModelFrame_OnMouseUp)
 
 	local button
 	for i=0,20 do
@@ -33,12 +33,14 @@ function ItemRack.InitButtons()
 		if i<20 then
 			button:SetAttribute("type","item")
 			button:SetAttribute("slot",i)
+			button:SetAttribute("pressAndHoldAction", true);
+			button:SetAttribute("typerelease", "item");
 		else
 			button:SetAttribute("shift-slot*",ATTRIBUTE_NOOP)
 			button:SetAttribute("alt-slot*",ATTRIBUTE_NOOP)
 		end
 		button:RegisterForDrag("LeftButton","RightButton")
-		button:RegisterForClicks("LeftButtonUp","RightButtonUp")
+		button:RegisterForClicks("AnyUp")
 --		button:SetAttribute("alt-slot*",ATTRIBUTE_NOOP)
 --		button:SetAttribute("shift-slot*",ATTRIBUTE_NOOP)
 		ItemRack.MenuMouseoverFrames["ItemRackButton"..i]=1

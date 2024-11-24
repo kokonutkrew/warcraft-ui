@@ -7,22 +7,24 @@ CoreProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -62,11 +64,19 @@ CoreProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+["Samoanstrafe - Area 52"] = {
 ["global"] = {
 },
 },
@@ -82,11 +92,11 @@ CoreProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -98,7 +108,7 @@ CoreProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -106,15 +116,15 @@ CoreProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Samoanbeast - Area 52"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -156,22 +166,24 @@ CommunicationsProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -195,9 +207,14 @@ CommunicationsProfileDB = {
 },
 ["Ikkl - Emerald Dream"] = {
 },
+["Samoanlegend - Tichondrius"] = {
+},
 ["Samoanmystic - Emerald Dream"] = {
 },
 ["Herbcraft - Area 52"] = {
+},
+["Samoanstrafe - Area 52"] = {
+["useGuildComms"] = true,
 },
 ["Samoanstrap - Area 52"] = {
 },
@@ -205,24 +222,23 @@ CommunicationsProfileDB = {
 },
 ["Samoanskully - Area 52"] = {
 },
-["Samoanstrafe - Area 52"] = {
-["useGuildComms"] = true,
+["Dustcraft - Emerald Dream"] = {
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 },
 ["Samoanbeast - Ravenholdt"] = {
 },
 ["Forgecraft - Area 52"] = {
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 },
 ["Herbcraft - Emerald Dream"] = {
 },
-["Dustcraft - Emerald Dream"] = {
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 },
 ["Farmcraft - Emerald Dream"] = {
+},
+["Samoantitan - Emerald Dream"] = {
 },
 ["Buycraft - Area 52"] = {
 },
@@ -249,22 +265,24 @@ TeamProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -392,6 +410,21 @@ TeamProfileDB = {
 },
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["master"] = "Samoanlegend-Tichondrius",
+["global"] = {
+},
+["newTeamList"] = {
+["Samoanlegend-Tichondrius"] = {
+{
+["order"] = 1,
+["class"] = "WARLOCK",
+["name"] = "Samoanlegend-Tichondrius",
+["online"] = true,
+},
+},
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["master"] = "Samoanmystic-EmeraldDream",
 ["global"] = {
@@ -417,51 +450,6 @@ TeamProfileDB = {
 ["order"] = 1,
 ["class"] = "UNKNOWN",
 ["name"] = "Herbcraft-Area52",
-["online"] = true,
-},
-},
-},
-},
-["Samoanstrap - Area 52"] = {
-["master"] = "Samoanstrap-Area52",
-["global"] = {
-},
-["newTeamList"] = {
-["Samoanstrap-Area52"] = {
-{
-["order"] = 1,
-["class"] = "HUNTER",
-["name"] = "Samoanstrap-Area52",
-["online"] = true,
-},
-},
-},
-},
-["Samoandrake - Emerald Dream"] = {
-["master"] = "Samoandrake-EmeraldDream",
-["global"] = {
-},
-["newTeamList"] = {
-["Samoandrake-EmeraldDream"] = {
-{
-["order"] = 1,
-["class"] = "EVOKER",
-["name"] = "Samoandrake-EmeraldDream",
-["online"] = true,
-},
-},
-},
-},
-["Samoanskully - Area 52"] = {
-["master"] = "Samoanskully-Area52",
-["global"] = {
-},
-["newTeamList"] = {
-["Samoanskully-Area52"] = {
-{
-["order"] = 1,
-["class"] = "UNKNOWN",
-["name"] = "Samoanskully-Area52",
 ["online"] = true,
 },
 },
@@ -1077,16 +1065,76 @@ TeamProfileDB = {
 },
 },
 },
-["Shgrshn - Tichondrius"] = {
-["master"] = "Shgrshn-Tichondrius",
+["Samoanstrap - Area 52"] = {
+["master"] = "Samoanstrap-Area52",
 ["global"] = {
 },
 ["newTeamList"] = {
-["Shgrshn-Tichondrius"] = {
+["Samoanstrap-Area52"] = {
+{
+["order"] = 1,
+["class"] = "HUNTER",
+["name"] = "Samoanstrap-Area52",
+["online"] = true,
+},
+},
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["master"] = "Samoandrake-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Samoandrake-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "EVOKER",
+["name"] = "Samoandrake-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Samoanskully - Area 52"] = {
+["master"] = "Samoanskully-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Samoanskully-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Samoanskully-Area52",
+["online"] = true,
+},
+},
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["master"] = "Dustcraft-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Dustcraft-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "DRUID",
+["name"] = "Dustcraft-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Samoansizzle - Area 52"] = {
+["master"] = "Samoansizzle-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Samoansizzle-Area52"] = {
 {
 ["order"] = 1,
 ["class"] = "MAGE",
-["name"] = "Shgrshn-Tichondrius",
+["name"] = "Samoansizzle-Area52",
 ["online"] = true,
 },
 },
@@ -1122,16 +1170,16 @@ TeamProfileDB = {
 },
 },
 },
-["Crankcraft - Area 52"] = {
-["master"] = "Crankcraft-Area52",
+["Shgrshn - Tichondrius"] = {
+["master"] = "Shgrshn-Tichondrius",
 ["global"] = {
 },
 ["newTeamList"] = {
-["Crankcraft-Area52"] = {
+["Shgrshn-Tichondrius"] = {
 {
 ["order"] = 1,
-["class"] = "UNKNOWN",
-["name"] = "Crankcraft-Area52",
+["class"] = "MAGE",
+["name"] = "Shgrshn-Tichondrius",
 ["online"] = true,
 },
 },
@@ -1152,31 +1200,16 @@ TeamProfileDB = {
 },
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["master"] = "Dustcraft-EmeraldDream",
+["Crankcraft - Area 52"] = {
+["master"] = "Crankcraft-Area52",
 ["global"] = {
 },
 ["newTeamList"] = {
-["Dustcraft-EmeraldDream"] = {
+["Crankcraft-Area52"] = {
 {
 ["order"] = 1,
-["class"] = "DRUID",
-["name"] = "Dustcraft-EmeraldDream",
-["online"] = true,
-},
-},
-},
-},
-["Samoantitan - Emerald Dream"] = {
-["master"] = "Samoantitan-EmeraldDream",
-["global"] = {
-},
-["newTeamList"] = {
-["Samoantitan-EmeraldDream"] = {
-{
-["order"] = 1,
-["class"] = "PALADIN",
-["name"] = "Samoantitan-EmeraldDream",
+["class"] = "UNKNOWN",
+["name"] = "Crankcraft-Area52",
 ["online"] = true,
 },
 },
@@ -1192,6 +1225,21 @@ TeamProfileDB = {
 ["order"] = 1,
 ["class"] = "DRUID",
 ["name"] = "Farmcraft-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Samoantitan - Emerald Dream"] = {
+["master"] = "Samoantitan-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Samoantitan-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "PALADIN",
+["name"] = "Samoantitan-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -1340,6 +1388,14 @@ TeamProfileDB = {
 ["order"] = 9,
 ["class"] = "WARLOCK",
 ["name"] = "Demolishes-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoanseraph-Area52"] = {
+{
+["order"] = 81,
+["class"] = "PRIEST",
+["name"] = "Samoanseraph-Area52",
 ["online"] = false,
 },
 },
@@ -1663,6 +1719,14 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
+["Samoanlegend-Tichondrius"] = {
+{
+["order"] = 82,
+["class"] = "WARLOCK",
+["name"] = "Samoanlegend-Tichondrius",
+["online"] = true,
+},
+},
 ["Samoanstrap-Area52"] = {
 {
 ["order"] = 21,
@@ -1692,7 +1756,7 @@ TeamProfileDB = {
 ["order"] = 17,
 ["class"] = "UNKNOWN",
 ["name"] = "Blawesum-EmeraldDream",
-["online"] = true,
+["online"] = false,
 },
 },
 ["Maliakk-EmeraldDream"] = {
@@ -1767,14 +1831,6 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Aerielle-EmeraldDream"] = {
-{
-["order"] = 8,
-["class"] = "WARLOCK",
-["name"] = "Aerielle-EmeraldDream",
-["online"] = false,
-},
-},
 ["Saiol-EmeraldDream"] = {
 {
 ["order"] = 73,
@@ -1783,11 +1839,11 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Saikk-EmeraldDream"] = {
+["Aerielle-EmeraldDream"] = {
 {
-["order"] = 69,
-["class"] = "UNKNOWN",
-["name"] = "Saikk-EmeraldDream",
+["order"] = 8,
+["class"] = "WARLOCK",
+["name"] = "Aerielle-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1799,19 +1855,11 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Demenchonone-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 {
-["order"] = 10,
-["class"] = "PRIEST",
-["name"] = "Demenchonone-EmeraldDream",
-["online"] = false,
-},
-},
-["Calyssta-EmeraldDream"] = {
-{
-["order"] = 63,
+["order"] = 69,
 ["class"] = "UNKNOWN",
-["name"] = "Calyssta-EmeraldDream",
+["name"] = "Saikk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1823,11 +1871,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
+["Calyssta-EmeraldDream"] = {
+{
+["order"] = 63,
+["class"] = "UNKNOWN",
+["name"] = "Calyssta-EmeraldDream",
+["online"] = false,
+},
+},
 ["Samoanmystic-EmeraldDream"] = {
 {
 ["order"] = 34,
 ["class"] = "UNKNOWN",
 ["name"] = "Samoanmystic-EmeraldDream",
+["online"] = false,
+},
+},
+["Cyclonekk-EmeraldDream"] = {
+{
+["order"] = 45,
+["class"] = "UNKNOWN",
+["name"] = "Cyclonekk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1847,11 +1911,11 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Cyclonekk-EmeraldDream"] = {
+["Demenchonone-EmeraldDream"] = {
 {
-["order"] = 45,
-["class"] = "UNKNOWN",
-["name"] = "Cyclonekk-EmeraldDream",
+["order"] = 10,
+["class"] = "PRIEST",
+["name"] = "Demenchonone-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1916,7 +1980,7 @@ TeamProfileDB = {
 ["order"] = 77,
 ["class"] = "WARLOCK",
 ["name"] = "Herbcraft-Area52",
-["online"] = true,
+["online"] = false,
 },
 },
 ["Furyfistss-EmeraldDream"] = {
@@ -1955,22 +2019,24 @@ TagProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -3372,9 +3438,329 @@ TagProfileDB = {
 },
 ["Samoanseraph - Area 52"] = {
 ["tagList"] = {
+["Samoansalty-Area52"] = {
+"all",
+"minion",
+},
+["Plumn-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanskully-Area52"] = {
+"all",
+"minion",
+},
+["Riverblume-MoonGuard"] = {
+"all",
+"minion",
+},
+["Demolishes-EmeraldDream"] = {
+"all",
+"minion",
+},
 ["Samoanseraph-Area52"] = {
 "all",
+"minion",
+},
+["Threadcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Floide-MoonGuard"] = {
+"all",
+"minion",
+},
+["Mekikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-Stormrage"] = {
+"all",
+"minion",
+},
+["Nicesai-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saibull-MoonGuard"] = {
+"all",
+"minion",
+},
+["Kmekik-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Mariselle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Wearethecham-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Deathscar-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Hertstabr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Farmcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-Area52"] = {
+"all",
+"minion",
+},
+["Kkmeki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dustcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kahed-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethflare-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Sprinkless-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Ravenholdt"] = {
+"all",
+"minion",
+},
+["Bubbels-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanseraph-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbreach-Area52"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Area52"] = {
+"all",
+"minion",
+},
+["Dazzledame-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Winbin-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Crankcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanstrafe-Area52"] = {
+"all",
+"minion",
+},
+["Shadowcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Flameing-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Meki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Gearcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Emeralddream"] = {
+"all",
+"minion",
+},
+["Voidspeakerr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-EmeraldDream"] = {
+"all",
 "master",
+},
+["Blawesum-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Migget-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Manaiakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Maliakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Oreoz-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cupkekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Aerielle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanstrap-Area52"] = {
+"all",
+"minion",
+},
+["Samoanranger-Area52"] = {
+"all",
+"minion",
+},
+["Strahberrie-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansavage-Area52"] = {
+"all",
+"minion",
+},
+["Saikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Willowe-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Calyssta-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Eeklipse-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cyclonekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanrelic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanmystic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoandrake-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
+"all",
+"minion",
+},
+["Samoanslayer-Area52"] = {
+"all",
+"minion",
+},
+["Aelira-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanshield-Area52"] = {
+"all",
+"minion",
+},
+["Samoansizzle-Area52"] = {
+"all",
+"minion",
+},
+["Timecaster-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Area52"] = {
+"all",
+"minion",
+},
+["Furyfistss-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Naber-MoonGuard"] = {
+"all",
+"minion",
+},
+["Samoanghost-Area52"] = {
+"all",
+"minion",
 },
 },
 ["groupList"] = {
@@ -3403,6 +3789,358 @@ TagProfileDB = {
 ["Ikkl-EmeraldDream"] = {
 "all",
 "master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Samoanlegend - Tichondrius"] = {
+["tagList"] = {
+["Samoansalty-Area52"] = {
+"all",
+"minion",
+},
+["Plumn-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanskully-Area52"] = {
+"all",
+"minion",
+},
+["Riverblume-MoonGuard"] = {
+"all",
+"minion",
+},
+["Demolishes-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanseraph-Area52"] = {
+"all",
+"minion",
+},
+["Threadcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanstrap-Area52"] = {
+"all",
+"minion",
+},
+["Mekikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-Stormrage"] = {
+"all",
+"minion",
+},
+["Nicesai-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saibull-MoonGuard"] = {
+"all",
+"minion",
+},
+["Kmekik-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Mariselle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Wearethecham-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Deathscar-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Hertstabr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Farmcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-Area52"] = {
+"all",
+"minion",
+},
+["Kkmeki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dustcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kahed-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethflare-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Sprinkless-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Ravenholdt"] = {
+"all",
+"minion",
+},
+["Bubbels-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanseraph-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbreach-Area52"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Area52"] = {
+"all",
+"minion",
+},
+["Dazzledame-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Winbin-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Crankcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanstrafe-Area52"] = {
+"all",
+"minion",
+},
+["Shadowcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Flameing-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Meki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Gearcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Emeralddream"] = {
+"all",
+"minion",
+},
+["Voidspeakerr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-EmeraldDream"] = {
+"all",
+"master",
+},
+["Samoanlegend-Tichondrius"] = {
+"all",
+"minion",
+},
+["Blawesum-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Migget-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Manaiakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Maliakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Oreoz-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cupkekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Floide-MoonGuard"] = {
+"all",
+"minion",
+},
+["Aelira-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Aerielle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-Area52"] = {
+"all",
+"minion",
+},
+["Strahberrie-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansavage-Area52"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Willowe-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Calyssta-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanmystic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cyclonekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanrelic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Eeklipse-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoandrake-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
+"all",
+"minion",
+},
+["Samoanslayer-Area52"] = {
+"all",
+"minion",
+},
+["Naber-MoonGuard"] = {
+"all",
+"minion",
+},
+["Samoanshield-Area52"] = {
+"all",
+"minion",
+},
+["Samoansizzle-Area52"] = {
+"all",
+"minion",
+},
+["Timecaster-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Area52"] = {
+"all",
+"minion",
+},
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Furyfistss-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-Area52"] = {
+"all",
+"minion",
 },
 },
 ["groupList"] = {
@@ -3757,6 +4495,350 @@ TagProfileDB = {
 "minion",
 },
 ["Cupkekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-Area52"] = {
+"all",
+"minion",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Samoanstrafe - Area 52"] = {
+["tagList"] = {
+["Willowe-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Plumn-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanskully-Area52"] = {
+"all",
+"minion",
+},
+["Riverblume-MoonGuard"] = {
+"all",
+"minion",
+},
+["Demolishes-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Floide-MoonGuard"] = {
+"all",
+"minion",
+},
+["Mekikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-Stormrage"] = {
+"all",
+"minion",
+},
+["Nicesai-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-EmeraldDream"] = {
+"all",
+"master",
+},
+["Saibull-MoonGuard"] = {
+"all",
+"minion",
+},
+["Kmekik-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Mariselle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Wearethecham-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Deathscar-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Hertstabr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-EmeraldDream"] = {
+"all",
+"master",
+},
+["Farmcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-Area52"] = {
+"all",
+"minion",
+},
+["Kkmeki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dustcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kahed-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethflare-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Sprinkless-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Ravenholdt"] = {
+"all",
+"minion",
+},
+["Bubbels-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanseraph-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbreach-Area52"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Area52"] = {
+"all",
+"minion",
+},
+["Dazzledame-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Winbin-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Crankcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanstrafe-Area52"] = {
+"all",
+"minion",
+},
+["Shadowcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Flameing-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Meki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Gearcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Emeralddream"] = {
+"all",
+"minion",
+},
+["Voidspeakerr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Oreoz-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Migget-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Naber-MoonGuard"] = {
+"all",
+"minion",
+},
+["Maliakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Blawesum-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Manaiakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cupkekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-Area52"] = {
+"all",
+"minion",
+},
+["Strahberrie-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanstrap-Area52"] = {
+"all",
+"minion",
+},
+["Aerielle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Calyssta-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Eeklipse-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanmystic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanrelic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cyclonekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoandrake-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
+"all",
+"minion",
+},
+["Samoanslayer-Area52"] = {
+"all",
+"minion",
+},
+["Aelira-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanshield-Area52"] = {
+"all",
+"minion",
+},
+["Samoansizzle-Area52"] = {
+"all",
+"minion",
+},
+["Timecaster-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoansalty-Area52"] = {
+"all",
+"minion",
+},
+["Furyfistss-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4498,9 +5580,9 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
+["Dustcraft - Emerald Dream"] = {
 ["tagList"] = {
-["Willowe-EmeraldDream"] = {
+["Samoansalty-Area52"] = {
 "all",
 "minion",
 },
@@ -4544,10 +5626,6 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Herbcraft-EmeraldDream"] = {
-"all",
-"master",
-},
 ["Saibull-MoonGuard"] = {
 "all",
 "minion",
@@ -4556,7 +5634,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Mariselle-EmeraldDream"] = {
+["Furyfistss-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4692,7 +5770,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Naber-MoonGuard"] = {
+["Mariselle-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4700,15 +5778,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Blawesum-EmeraldDream"] = {
-"all",
-"minion",
-},
 ["Manaiakk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dethsrikesr-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4716,7 +5786,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Cupkekk-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
+"all",
+"minion",
+},
+["Blawesum-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanstrap-Area52"] = {
 "all",
 "minion",
 },
@@ -4728,7 +5806,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanstrap-Area52"] = {
+["Aelira-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4760,7 +5838,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanmystic-EmeraldDream"] = {
+["Cyclonekk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4772,7 +5850,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Cyclonekk-EmeraldDream"] = {
+["Samoanmystic-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4780,7 +5858,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanruin-Stormrage"] = {
+["Willowe-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4788,7 +5866,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Aelira-EmeraldDream"] = {
+["Samoanruin-Stormrage"] = {
 "all",
 "minion",
 },
@@ -4808,11 +5886,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoansalty-Area52"] = {
+["Dethsrikesr-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Furyfistss-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -4842,9 +5920,9 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["tagList"] = {
-["Shgrshn-Tichondrius"] = {
+["Samoansizzle-Area52"] = {
 "all",
 "master",
 },
@@ -5550,319 +6628,11 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["tagList"] = {
-["Willowe-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Plumn-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanskully-Area52"] = {
-"all",
-"minion",
-},
-["Riverblume-MoonGuard"] = {
-"all",
-"minion",
-},
-["Demolishes-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Threadcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Floide-MoonGuard"] = {
-"all",
-"minion",
-},
-["Mekikk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Forgecraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoansage-Stormrage"] = {
-"all",
-"minion",
-},
-["Nicesai-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Saibull-MoonGuard"] = {
-"all",
-"minion",
-},
-["Kmekik-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Mariselle-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Wearethecham-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Deathscar-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Hertstabr-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanbeast-EmeraldDream"] = {
+["Shgrshn-Tichondrius"] = {
 "all",
 "master",
-},
-["Farmcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Kkmeki-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dustcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Kahed-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dethflare-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Sprinkless-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanbeast-Ravenholdt"] = {
-"all",
-"minion",
-},
-["Bubbels-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Threadcraft-Area52"] = {
-"all",
-"minion",
-},
-["Samoanseraph-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanbreach-Area52"] = {
-"all",
-"minion",
-},
-["Samoanbeast-Area52"] = {
-"all",
-"minion",
-},
-["Dazzledame-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanruin-Stormrage"] = {
-"all",
-"minion",
-},
-["Winbin-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanghost-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Crankcraft-Area52"] = {
-"all",
-"minion",
-},
-["Samoanstrafe-Area52"] = {
-"all",
-"minion",
-},
-["Shadowcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Flameing-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanranger-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Meki-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Gearcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Herbcraft-Emeralddream"] = {
-"all",
-"minion",
-},
-["Voidspeakerr-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanslayer-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Oreoz-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Migget-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Naber-MoonGuard"] = {
-"all",
-"minion",
-},
-["Maliakk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Manaiakk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Cupkekk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Furyfistss-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dethsrikesr-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Blawesum-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanranger-Area52"] = {
-"all",
-"minion",
-},
-["Strahberrie-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanstrap-Area52"] = {
-"all",
-"minion",
-},
-["Aerielle-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Saiol-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Saikk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Finelldeht-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Demenchonone-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Calyssta-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Eeklipse-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Cyclonekk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanrelic-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoantitan-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanmystic-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoandrake-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoansage-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanslayer-Area52"] = {
-"all",
-"minion",
-},
-["Aelira-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanshield-Area52"] = {
-"all",
-"minion",
-},
-["Samoansizzle-Area52"] = {
-"all",
-"minion",
-},
-["Timecaster-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Herbcraft-Area52"] = {
-"all",
-"minion",
-},
-["Choral-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoansalty-Area52"] = {
-"all",
-"minion",
-},
-["Samoanghost-Area52"] = {
-"all",
-"minion",
 },
 },
 ["groupList"] = {
@@ -6214,7 +6984,343 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
+["tagList"] = {
+["Willowe-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Plumn-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanskully-Area52"] = {
+"all",
+"minion",
+},
+["Riverblume-MoonGuard"] = {
+"all",
+"minion",
+},
+["Demolishes-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Floide-MoonGuard"] = {
+"all",
+"minion",
+},
+["Mekikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-Stormrage"] = {
+"all",
+"minion",
+},
+["Nicesai-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saibull-MoonGuard"] = {
+"all",
+"minion",
+},
+["Kmekik-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Mariselle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Wearethecham-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Deathscar-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Hertstabr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-EmeraldDream"] = {
+"all",
+"master",
+},
+["Farmcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kkmeki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dustcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kahed-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethflare-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Sprinkless-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Ravenholdt"] = {
+"all",
+"minion",
+},
+["Bubbels-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanseraph-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbreach-Area52"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Area52"] = {
+"all",
+"minion",
+},
+["Dazzledame-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
+"all",
+"minion",
+},
+["Winbin-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Crankcraft-Area52"] = {
+"all",
+"minion",
+},
+["Samoanstrafe-Area52"] = {
+"all",
+"minion",
+},
+["Shadowcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Flameing-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Meki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Gearcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Emeralddream"] = {
+"all",
+"minion",
+},
+["Voidspeakerr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Oreoz-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Migget-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Naber-MoonGuard"] = {
+"all",
+"minion",
+},
+["Maliakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Manaiakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cupkekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Furyfistss-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Blawesum-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-Area52"] = {
+"all",
+"minion",
+},
+["Strahberrie-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanstrap-Area52"] = {
+"all",
+"minion",
+},
+["Aerielle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Calyssta-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Eeklipse-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cyclonekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanrelic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanmystic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoandrake-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-Area52"] = {
+"all",
+"minion",
+},
+["Aelira-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanshield-Area52"] = {
+"all",
+"minion",
+},
+["Samoansizzle-Area52"] = {
+"all",
+"minion",
+},
+["Timecaster-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Area52"] = {
+"all",
+"minion",
+},
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansalty-Area52"] = {
+"all",
+"minion",
+},
+["Samoanghost-Area52"] = {
+"all",
+"minion",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Farmcraft - Emerald Dream"] = {
 ["tagList"] = {
 ["Samoansalty-Area52"] = {
 "all",
@@ -6240,7 +7346,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Floide-MoonGuard"] = {
+["Samoanstrap-Area52"] = {
 "all",
 "minion",
 },
@@ -6396,7 +7502,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Oreoz-EmeraldDream"] = {
+["Dethsrikesr-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -6404,7 +7510,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Mariselle-EmeraldDream"] = {
+["Blawesum-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -6416,7 +7522,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Choral-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -6424,11 +7530,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Blawesum-EmeraldDream"] = {
+["Floide-MoonGuard"] = {
 "all",
 "minion",
 },
-["Samoanstrap-Area52"] = {
+["Mariselle-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -6520,11 +7626,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Dethsrikesr-EmeraldDream"] = {
+["Oreoz-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Cupkekk-EmeraldDream"] = {
+["Choral-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -6869,346 +7975,6 @@ TagProfileDB = {
 "minion",
 },
 ["Furyfistss-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanghost-Area52"] = {
-"all",
-"minion",
-},
-},
-["groupList"] = {
-"all",
-"deathknight",
-"demonhunter",
-"druid",
-"evoker",
-"hunter",
-"mage",
-"master",
-"minion",
-"monk",
-"paladin",
-"priest",
-"rogue",
-"shaman",
-"warlock",
-"warrior",
-},
-["global"] = {
-},
-},
-["Farmcraft - Emerald Dream"] = {
-["tagList"] = {
-["Samoansalty-Area52"] = {
-"all",
-"minion",
-},
-["Plumn-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanskully-Area52"] = {
-"all",
-"minion",
-},
-["Riverblume-MoonGuard"] = {
-"all",
-"minion",
-},
-["Demolishes-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Threadcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanstrap-Area52"] = {
-"all",
-"minion",
-},
-["Mekikk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Forgecraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoansage-Stormrage"] = {
-"all",
-"minion",
-},
-["Nicesai-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Saibull-MoonGuard"] = {
-"all",
-"minion",
-},
-["Kmekik-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Furyfistss-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Wearethecham-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Deathscar-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Hertstabr-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanbeast-EmeraldDream"] = {
-"all",
-"master",
-},
-["Farmcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Forgecraft-Area52"] = {
-"all",
-"minion",
-},
-["Kkmeki-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dustcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Kahed-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dethflare-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Sprinkless-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanbeast-Ravenholdt"] = {
-"all",
-"minion",
-},
-["Bubbels-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Threadcraft-Area52"] = {
-"all",
-"minion",
-},
-["Samoanseraph-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanbreach-Area52"] = {
-"all",
-"minion",
-},
-["Samoanbeast-Area52"] = {
-"all",
-"minion",
-},
-["Dazzledame-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoansage-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Winbin-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanghost-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Crankcraft-Area52"] = {
-"all",
-"minion",
-},
-["Samoanstrafe-Area52"] = {
-"all",
-"minion",
-},
-["Shadowcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Flameing-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanranger-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Meki-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Gearcraft-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Herbcraft-Emeralddream"] = {
-"all",
-"minion",
-},
-["Voidspeakerr-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanslayer-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Dethsrikesr-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Migget-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Blawesum-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Maliakk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Manaiakk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Cupkekk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Naber-MoonGuard"] = {
-"all",
-"minion",
-},
-["Floide-MoonGuard"] = {
-"all",
-"minion",
-},
-["Mariselle-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanranger-Area52"] = {
-"all",
-"minion",
-},
-["Strahberrie-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Aelira-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Aerielle-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Saiol-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Saikk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Finelldeht-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Demenchonone-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Calyssta-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Eeklipse-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Cyclonekk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanrelic-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoantitan-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanmystic-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoandrake-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Willowe-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanslayer-Area52"] = {
-"all",
-"minion",
-},
-["Samoanruin-Stormrage"] = {
-"all",
-"minion",
-},
-["Samoanshield-Area52"] = {
-"all",
-"minion",
-},
-["Samoansizzle-Area52"] = {
-"all",
-"minion",
-},
-["Timecaster-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Herbcraft-Area52"] = {
-"all",
-"minion",
-},
-["Oreoz-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Choral-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -8336,6 +9102,10 @@ TagProfileDB = {
 "all",
 "minion",
 },
+["Samoanseraph-Area52"] = {
+"all",
+"minion",
+},
 ["Threadcraft-EmeraldDream"] = {
 "all",
 "minion",
@@ -8496,7 +9266,7 @@ TagProfileDB = {
 "all",
 "master",
 },
-["Samoanstrap-Area52"] = {
+["Samoanlegend-Tichondrius"] = {
 "all",
 "minion",
 },
@@ -8508,11 +9278,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
 ["Migget-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Choral-EmeraldDream"] = {
+["Furyfistss-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -8532,11 +9306,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Naber-MoonGuard"] = {
+["Cupkekk-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Cupkekk-EmeraldDream"] = {
+["Saiol-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -8552,10 +9326,6 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Saiol-EmeraldDream"] = {
-"all",
-"minion",
-},
 ["Saikk-EmeraldDream"] = {
 "all",
 "minion",
@@ -8564,7 +9334,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Eeklipse-EmeraldDream"] = {
+["Samoanrelic-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -8572,7 +9342,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
+["Eeklipse-EmeraldDream"] = {
+"all",
+"minion",
+},
 ["Calyssta-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
 "all",
 "minion",
 },
@@ -8584,19 +9362,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanruin-Stormrage"] = {
-"all",
-"minion",
-},
 ["Samoantitan-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanrelic-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoandrake-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -8604,11 +9370,19 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanslayer-Area52"] = {
+["Samoandrake-EmeraldDream"] = {
 "all",
 "minion",
 },
 ["Aerielle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-Area52"] = {
+"all",
+"minion",
+},
+["Naber-MoonGuard"] = {
 "all",
 "minion",
 },
@@ -8628,11 +9402,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Furyfistss-EmeraldDream"] = {
+["Blawesum-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Blawesum-EmeraldDream"] = {
+["Samoanstrap-Area52"] = {
 "all",
 "minion",
 },
@@ -8672,22 +9446,24 @@ MessageProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -8727,11 +9503,19 @@ MessageProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+["Samoanstrafe - Area 52"] = {
 ["global"] = {
 },
 },
@@ -8747,11 +9531,11 @@ MessageProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -8763,7 +9547,7 @@ MessageProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -8771,15 +9555,15 @@ MessageProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -8821,22 +9605,24 @@ InformationProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -8876,11 +9662,20 @@ InformationProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+["Samoanstrafe - Area 52"] = {
+["currChatTrigger"] = true,
 ["global"] = {
 },
 },
@@ -8896,12 +9691,11 @@ InformationProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
-["currChatTrigger"] = true,
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -8913,7 +9707,7 @@ InformationProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -8921,15 +9715,15 @@ InformationProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -8973,22 +9767,24 @@ DisplayTeamProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -9028,23 +9824,15 @@ DisplayTeamProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
-["global"] = {
-},
-},
-["Samoanstrap - Area 52"] = {
-["global"] = {
-},
-},
-["Samoandrake - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoanskully - Area 52"] = {
 ["global"] = {
 },
 },
@@ -9074,7 +9862,23 @@ DisplayTeamProfileDB = {
 ["showExperienceStatus"] = false,
 ["healthStatusHeight"] = 15,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoanstrap - Area 52"] = {
+["global"] = {
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -9086,7 +9890,7 @@ DisplayTeamProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -9094,15 +9898,15 @@ DisplayTeamProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -9167,22 +9971,24 @@ GuildProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -9222,23 +10028,15 @@ GuildProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
-["global"] = {
-},
-},
-["Samoanstrap - Area 52"] = {
-["global"] = {
-},
-},
-["Samoandrake - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoanskully - Area 52"] = {
 ["global"] = {
 },
 },
@@ -9253,7 +10051,23 @@ GuildProfileDB = {
 ["autoGuildBankTabCR"] = 2,
 ["guildBoEItems"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoanstrap - Area 52"] = {
+["global"] = {
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -9265,7 +10079,7 @@ GuildProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -9273,15 +10087,15 @@ GuildProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -9328,22 +10142,24 @@ InteractionProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -9383,6 +10199,10 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
@@ -9390,6 +10210,15 @@ InteractionProfileDB = {
 ["Herbcraft - Area 52"] = {
 ["global"] = {
 },
+},
+["Samoanstrafe - Area 52"] = {
+["changeTexiTime"] = 5,
+["global"] = {
+},
+["dismountWithTeam"] = true,
+["mountWithTeam"] = true,
+["autoLoot"] = true,
+["dismountWithMaster"] = true,
 },
 ["Samoanstrap - Area 52"] = {
 ["global"] = {
@@ -9403,16 +10232,11 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
-["changeTexiTime"] = 5,
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
-["mountWithTeam"] = true,
-["dismountWithMaster"] = true,
-["autoLoot"] = true,
-["dismountWithTeam"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -9424,7 +10248,7 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -9432,15 +10256,15 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -9471,8 +10295,8 @@ InteractionProfileDB = {
 ["[KK]"] = {
 ["global"] = {
 },
-["dismountWithMaster"] = true,
 ["dismountWithTeam"] = true,
+["dismountWithMaster"] = true,
 ["changeTexiTime"] = 5,
 ["autoLoot"] = true,
 ["mountWithTeam"] = true,
@@ -9487,22 +10311,24 @@ ItemUseProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -9511,9 +10337,6 @@ ItemUseProfileDB = {
 },
 ["profiles"] = {
 ["Samoanslayer - Emerald Dream"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -9595,9 +10418,13 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["Samoanghost - Area 52"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -9682,9 +10509,9 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Samoansavage - Area 52"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -9769,12 +10596,8 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Threadcraft - Emerald Dream"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -9856,9 +10679,13 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["Samoanbeast - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -9943,9 +10770,9 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Threadcraft - Area 52"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -10030,11 +10857,11 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Samoanseraph - Area 52"] = {
 ["global"] = {
 },
+["frameYOffset"] = 70.00000762939453,
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -10120,6 +10947,93 @@ ItemUseProfileDB = {
 ["itemUseTitleHeight"] = 2,
 },
 ["Ikkl - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Samoanlegend - Tichondrius"] = {
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -10207,9 +11121,6 @@ ItemUseProfileDB = {
 ["itemUseTitleHeight"] = 2,
 },
 ["Samoanmystic - Emerald Dream"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -10291,96 +11202,12 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-},
-["Samoanstrap - Area 52"] = {
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -10466,180 +11293,6 @@ ItemUseProfileDB = {
 ["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
-},
-["Samoandrake - Emerald Dream"] = {
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-["itemUseTitleHeight"] = 2,
-},
-["Samoanskully - Area 52"] = {
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-["itemUseTitleHeight"] = 2,
 },
 ["Samoanstrafe - Area 52"] = {
 ["frameYOffset"] = 0,
@@ -10734,7 +11387,7 @@ ItemUseProfileDB = {
 ["autoAddQuestItemsToBar"] = true,
 ["numberOfRows"] = 1,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoanstrap - Area 52"] = {
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -10821,94 +11474,7 @@ ItemUseProfileDB = {
 },
 ["itemUseTitleHeight"] = 2,
 },
-["Samoanbeast - Ravenholdt"] = {
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-["itemUseTitleHeight"] = 2,
-},
-["Forgecraft - Area 52"] = {
+["Samoandrake - Emerald Dream"] = {
 ["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
@@ -10995,7 +11561,10 @@ ItemUseProfileDB = {
 },
 },
 },
-["Crankcraft - Area 52"] = {
+["Samoanskully - Area 52"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -11077,99 +11646,96 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
-},
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
-},
-["Herbcraft - Emerald Dream"] = {
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-["itemUseTitleHeight"] = 2,
-["global"] = {
 },
 },
 ["Dustcraft - Emerald Dream"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Samoansizzle - Area 52"] = {
 ["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
@@ -11256,7 +11822,355 @@ ItemUseProfileDB = {
 },
 },
 },
-["Samoantitan - Emerald Dream"] = {
+["Samoanbeast - Ravenholdt"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Forgecraft - Area 52"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Shgrshn - Tichondrius"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Herbcraft - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -11344,6 +12258,7 @@ ItemUseProfileDB = {
 ["itemUseTitleHeight"] = 2,
 },
 ["Farmcraft - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -11428,12 +12343,95 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
+},
+["Samoantitan - Emerald Dream"] = {
 ["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
 },
 ["Buycraft - Area 52"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -11515,9 +12513,13 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["Default"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -11602,12 +12604,8 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Samoanbeast - Area 52"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -11689,9 +12687,14 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["Forgecraft - Emerald Dream"] = {
+["global"] = {
+},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -11775,10 +12778,9 @@ ItemUseProfileDB = {
 },
 },
 ["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 },
 ["Kk - Bloodhoof"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -11863,12 +12865,8 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Samoanghost - Emerald Dream"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -11950,12 +12948,15 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["[KK]"] = {
 ["itemsAdvanced"] = {
 {
-["action"] = "item:132120",
+["action"] = "item:205458",
 ["kind"] = "item",
 },
 {
@@ -11963,8 +12964,7 @@ ItemUseProfileDB = {
 ["kind"] = "item",
 },
 {
-["action"] = "item:202247",
-["kind"] = "item",
+["kind"] = "empty",
 },
 {
 ["action"] = "item:226241",
@@ -12034,13 +13034,13 @@ ItemUseProfileDB = {
 },
 ["hideClearButton"] = true,
 ["itemUseTitleHeight"] = 2,
+["framePoint"] = "TOPLEFT",
 ["frameYOffset"] = 0,
 ["itemUseScale"] = 0.62,
-["numberOfItems"] = 13,
 ["global"] = {
 },
+["numberOfItems"] = 13,
 ["autoAddQuestItemsToBar"] = true,
-["framePoint"] = "TOPLEFT",
 ["frameAlpha"] = 0.46,
 ["frameRelativePoint"] = "TOPLEFT",
 ["numberOfRows"] = 1,
@@ -12055,22 +13055,24 @@ PurchaseProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -12110,11 +13112,19 @@ PurchaseProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+["Samoanstrafe - Area 52"] = {
 ["global"] = {
 },
 },
@@ -12130,11 +13140,11 @@ PurchaseProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -12146,7 +13156,7 @@ PurchaseProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -12154,15 +13164,15 @@ PurchaseProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -12204,22 +13214,24 @@ QuestProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -12259,6 +13271,10 @@ QuestProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
@@ -12266,6 +13282,14 @@ QuestProfileDB = {
 ["Herbcraft - Area 52"] = {
 ["global"] = {
 },
+},
+["Samoanstrafe - Area 52"] = {
+["acceptFromTeam"] = true,
+["global"] = {
+},
+["overrideQuestAutoSelectAndComplete"] = true,
+["showEMAQuestLogWithWoWQuestLog"] = false,
+["masterAutoShareQuestOnAccept"] = true,
 },
 ["Samoanstrap - Area 52"] = {
 ["global"] = {
@@ -12279,15 +13303,11 @@ QuestProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
-["acceptFromTeam"] = true,
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
-["overrideQuestAutoSelectAndComplete"] = true,
-["showEMAQuestLogWithWoWQuestLog"] = false,
-["masterAutoShareQuestOnAccept"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -12299,7 +13319,7 @@ QuestProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -12307,15 +13327,15 @@ QuestProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -12361,22 +13381,24 @@ QuestWatcherProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -12416,6 +13438,10 @@ QuestWatcherProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
@@ -12423,6 +13449,15 @@ QuestWatcherProfileDB = {
 ["Herbcraft - Area 52"] = {
 ["global"] = {
 },
+},
+["Samoanstrafe - Area 52"] = {
+["watcherFrameRelativePoint"] = "TOPLEFT",
+["global"] = {
+},
+["watcherFrameXOffset"] = 7.000034809112549,
+["watcherFrameYOffset"] = -34.0001220703125,
+["watcherFramePoint"] = "TOPLEFT",
+["enableQuestWatcher"] = true,
 },
 ["Samoanstrap - Area 52"] = {
 ["global"] = {
@@ -12436,16 +13471,11 @@ QuestWatcherProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
-["watcherFrameRelativePoint"] = "TOPLEFT",
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
-["watcherFrameXOffset"] = 7.000034809112549,
-["watcherFrameYOffset"] = -34.0001220703125,
-["watcherFramePoint"] = "TOPLEFT",
-["enableQuestWatcher"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -12457,7 +13487,7 @@ QuestWatcherProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -12465,15 +13495,15 @@ QuestWatcherProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -12519,22 +13549,24 @@ SellProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -12574,6 +13606,10 @@ SellProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
@@ -12581,6 +13617,14 @@ SellProfileDB = {
 ["Herbcraft - Area 52"] = {
 ["global"] = {
 },
+},
+["Samoanstrafe - Area 52"] = {
+["autoSellPoor"] = true,
+["global"] = {
+},
+["sellItemOnAllWithAltKey"] = true,
+["autoSellBoEPoor"] = true,
+["autoSellItem"] = true,
 },
 ["Samoanstrap - Area 52"] = {
 ["global"] = {
@@ -12594,15 +13638,11 @@ SellProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
-["autoSellPoor"] = true,
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
-["sellItemOnAllWithAltKey"] = true,
-["autoSellBoEPoor"] = true,
-["autoSellItem"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -12614,7 +13654,7 @@ SellProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -12622,15 +13662,15 @@ SellProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -13687,22 +14727,24 @@ TalkProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -13742,11 +14784,19 @@ TalkProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
+["global"] = {
+},
+},
+["Samoanstrafe - Area 52"] = {
 ["global"] = {
 },
 },
@@ -13762,11 +14812,11 @@ TalkProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -13778,7 +14828,7 @@ TalkProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -13786,15 +14836,15 @@ TalkProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -13836,22 +14886,24 @@ ToonProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -13891,23 +14943,15 @@ ToonProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
-["global"] = {
-},
-},
-["Samoanstrap - Area 52"] = {
-["global"] = {
-},
-},
-["Samoandrake - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoanskully - Area 52"] = {
 ["global"] = {
 },
 },
@@ -13926,7 +14970,23 @@ ToonProfileDB = {
 ["rollWithTeam"] = true,
 ["autoAcceptRoleCheckWithTeam"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoanstrap - Area 52"] = {
+["global"] = {
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -13938,7 +14998,7 @@ ToonProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -13946,15 +15006,15 @@ ToonProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -14007,22 +15067,24 @@ TradeProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -14062,23 +15124,15 @@ TradeProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
-["global"] = {
-},
-},
-["Samoanstrap - Area 52"] = {
-["global"] = {
-},
-},
-["Samoandrake - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoanskully - Area 52"] = {
 ["global"] = {
 },
 },
@@ -14092,7 +15146,23 @@ TradeProfileDB = {
 ["adjustMoneyWithMasterOnTrade"] = true,
 ["tradeBoEItems"] = true,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoanstrap - Area 52"] = {
+["global"] = {
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -14104,7 +15174,7 @@ TradeProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -14112,15 +15182,15 @@ TradeProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -14154,8 +15224,8 @@ TradeProfileDB = {
 ["tradeBoEItems"] = true,
 ["global"] = {
 },
-["tradeCRItems"] = true,
 ["tradeRecipeFItems"] = true,
+["tradeCRItems"] = true,
 ["adjustMoneyWithMasterOnTrade"] = true,
 },
 },
@@ -14168,22 +15238,24 @@ MailProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -14223,23 +15295,15 @@ MailProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Herbcraft - Area 52"] = {
-["global"] = {
-},
-},
-["Samoanstrap - Area 52"] = {
-["global"] = {
-},
-},
-["Samoandrake - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoanskully - Area 52"] = {
 ["global"] = {
 },
 },
@@ -14253,7 +15317,23 @@ MailProfileDB = {
 ["autoMailToonNameGold"] = "Samoanslayer-EmeraldDream",
 ["goldAmountToKeepOnToon"] = 10000,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoanstrap - Area 52"] = {
+["global"] = {
+},
+},
+["Samoandrake - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoanskully - Area 52"] = {
+["global"] = {
+},
+},
+["Dustcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -14265,7 +15345,7 @@ MailProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -14273,15 +15353,15 @@ MailProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -14324,9 +15404,9 @@ MailProfileDB = {
 ["global"] = {
 },
 ["autoMailToonNameGold"] = "Herbcraft-Area52",
-["MailBoEItems"] = true,
-["autoMailToonNameBoE"] = "Herbcraft-Area52",
 ["goldAmountToKeepOnToon"] = 10000,
+["autoMailToonNameBoE"] = "Herbcraft-Area52",
+["MailBoEItems"] = true,
 },
 },
 }
@@ -14338,22 +15418,24 @@ BankProfileDB = {
 ["Threadcraft - Emerald Dream"] = "[KK]",
 ["Samoanbeast - Emerald Dream"] = "[KK]",
 ["Threadcraft - Area 52"] = "[KK]",
-["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
+["Samoanseraph - Area 52"] = "[KK]",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 ["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanstrafe - Area 52"] = "[KK]",
 ["Samoanskully - Area 52"] = "[KK]",
+["Samoanlegend - Tichondrius"] = "[KK]",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "[KK]",
 ["Forgecraft - Area 52"] = "[KK]",
 ["Crankcraft - Area 52"] = "[KK]",
 ["Herbcraft - Emerald Dream"] = "[KK]",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Herbcraft - Area 52"] = "[KK]",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Samoantitan - Emerald Dream"] = "[KK]",
+["Herbcraft - Area 52"] = "[KK]",
 ["Samoanbeast - Area 52"] = "[KK]",
+["Samoantitan - Emerald Dream"] = "[KK]",
 ["Farmcraft - Emerald Dream"] = "[KK]",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Dustcraft - Emerald Dream"] = "[KK]",
@@ -14393,6 +15475,10 @@ BankProfileDB = {
 ["global"] = {
 },
 },
+["Samoanlegend - Tichondrius"] = {
+["global"] = {
+},
+},
 ["Samoanmystic - Emerald Dream"] = {
 ["global"] = {
 },
@@ -14400,6 +15486,11 @@ BankProfileDB = {
 ["Herbcraft - Area 52"] = {
 ["global"] = {
 },
+},
+["Samoanstrafe - Area 52"] = {
+["global"] = {
+},
+["globalBankdList"] = false,
 },
 ["Samoanstrap - Area 52"] = {
 ["global"] = {
@@ -14413,12 +15504,11 @@ BankProfileDB = {
 ["global"] = {
 },
 },
-["Samoanstrafe - Area 52"] = {
+["Dustcraft - Emerald Dream"] = {
 ["global"] = {
 },
-["globalBankdList"] = false,
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 ["global"] = {
 },
 },
@@ -14430,7 +15520,7 @@ BankProfileDB = {
 ["global"] = {
 },
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 ["global"] = {
 },
 },
@@ -14438,15 +15528,15 @@ BankProfileDB = {
 ["global"] = {
 },
 },
-["Dustcraft - Emerald Dream"] = {
-["global"] = {
-},
-},
-["Samoantitan - Emerald Dream"] = {
+["Crankcraft - Area 52"] = {
 ["global"] = {
 },
 },
 ["Farmcraft - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Samoantitan - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -14475,9 +15565,9 @@ BankProfileDB = {
 },
 },
 ["[KK]"] = {
+["globalBankdList"] = false,
 ["global"] = {
 },
-["globalBankdList"] = false,
 },
 },
 }

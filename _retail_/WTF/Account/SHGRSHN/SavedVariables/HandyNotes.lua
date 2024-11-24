@@ -9,20 +9,22 @@ HandyNotesDB = {
 ["Threadcraft - Area 52"] = "Threadcraft - Area 52",
 ["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+["Samoanlegend - Tichondrius"] = "Samoanlegend - Tichondrius",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Samoansage - Stormrage"] = "Samoansage - Stormrage",
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
-["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Forgecraft - Area 52"] = "Forgecraft - Area 52",
-["Crankcraft - Area 52"] = "Crankcraft - Area 52",
+["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 ["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
+["Crankcraft - Area 52"] = "Crankcraft - Area 52",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
 ["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
@@ -48,9 +50,13 @@ HandyNotesDB = {
 },
 ["Ikkl - Emerald Dream"] = {
 },
+["Samoanlegend - Tichondrius"] = {
+},
 ["Samoanmystic - Emerald Dream"] = {
 },
 ["Forgecraft - Emerald Dream"] = {
+},
+["Samoanbeast - Ravenholdt"] = {
 },
 ["Samoansage - Stormrage"] = {
 },
@@ -58,23 +64,23 @@ HandyNotesDB = {
 },
 ["Samoanskully - Area 52"] = {
 },
-["Samoanbeast - Ravenholdt"] = {
+["Dustcraft - Emerald Dream"] = {
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 },
 ["Buycraft - Area 52"] = {
 },
 ["Forgecraft - Area 52"] = {
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 },
 ["Herbcraft - Emerald Dream"] = {
 },
-["Dustcraft - Emerald Dream"] = {
-},
-["Samoanstrap - Area 52"] = {
+["Crankcraft - Area 52"] = {
 },
 ["Farmcraft - Emerald Dream"] = {
+},
+["Samoanstrap - Area 52"] = {
 },
 ["Samoantitan - Emerald Dream"] = {
 },
@@ -102,20 +108,22 @@ HandyNotes_HandyNotesDB = {
 ["Threadcraft - Area 52"] = "Threadcraft - Area 52",
 ["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+["Samoanlegend - Tichondrius"] = "Samoanlegend - Tichondrius",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Samoansage - Stormrage"] = "Samoansage - Stormrage",
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
-["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Buycraft - Area 52"] = "Buycraft - Area 52",
 ["Forgecraft - Area 52"] = "Forgecraft - Area 52",
-["Crankcraft - Area 52"] = "Crankcraft - Area 52",
+["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 ["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
+["Crankcraft - Area 52"] = "Crankcraft - Area 52",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
 ["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
@@ -141,9 +149,13 @@ HandyNotes_HandyNotesDB = {
 },
 ["Ikkl - Emerald Dream"] = {
 },
+["Samoanlegend - Tichondrius"] = {
+},
 ["Samoanmystic - Emerald Dream"] = {
 },
 ["Forgecraft - Emerald Dream"] = {
+},
+["Samoanbeast - Ravenholdt"] = {
 },
 ["Samoansage - Stormrage"] = {
 },
@@ -151,23 +163,23 @@ HandyNotes_HandyNotesDB = {
 },
 ["Samoanskully - Area 52"] = {
 },
-["Samoanbeast - Ravenholdt"] = {
+["Dustcraft - Emerald Dream"] = {
 },
-["Shgrshn - Tichondrius"] = {
+["Samoansizzle - Area 52"] = {
 },
 ["Buycraft - Area 52"] = {
 },
 ["Forgecraft - Area 52"] = {
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 },
 ["Herbcraft - Emerald Dream"] = {
 },
-["Dustcraft - Emerald Dream"] = {
-},
-["Samoanstrap - Area 52"] = {
+["Crankcraft - Area 52"] = {
 },
 ["Farmcraft - Emerald Dream"] = {
+},
+["Samoanstrap - Area 52"] = {
 },
 ["Samoantitan - Emerald Dream"] = {
 },

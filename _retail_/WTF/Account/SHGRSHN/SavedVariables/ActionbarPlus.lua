@@ -36,16 +36,16 @@ ABP_PLUS_DB = {
 },
 ["ActionbarPlusF1"] = {
 ["anchor"] = {
-["y"] = -2.000015020370483,
-["x"] = 350.9998168945313,
+["y"] = -102.6666793823242,
+["x"] = 234.3330841064453,
 ["point"] = "TOPLEFT",
 ["relativePoint"] = "TOPLEFT",
 },
 },
 ["ActionbarPlusF2"] = {
 ["anchor"] = {
-["y"] = -3.000022411346436,
-["x"] = -285.9997863769531,
+["y"] = -105.6667022705078,
+["x"] = -294.6664733886719,
 ["point"] = "TOP",
 ["relativePoint"] = "TOP",
 },
@@ -94,8 +94,10 @@ ABP_PLUS_DB = {
 ["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+["Samoanlegend - Tichondrius"] = "[KK]",
 ["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
 ["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Forgecraft - Area 52"] = "Forgecraft - Area 52",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
@@ -141,10 +143,115 @@ ABP_PLUS_DB = {
 ["Samoanmystic - Emerald Dream"] = {
 },
 ["Herbcraft - Area 52"] = {
+["bars"] = {
+["ActionbarPlusF2"] = {
+["anchor"] = {
+["y"] = -34.66669464111328,
+["x"] = 30.00003051757813,
+},
+},
+},
+},
+["Samoanlegend - Tichondrius"] = {
+["character_specific_anchors"] = false,
+["bars"] = {
+["ActionbarPlusF2"] = {
+["anchor"] = {
+["y"] = -103.0000152587891,
+["x"] = -294.6664733886719,
+["point"] = "TOP",
+["relativePoint"] = "TOP",
+},
+["buttons"] = {
+["ActionbarPlusF2Button5"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button2"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button7"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button12"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button8"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button4"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button1"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button10"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button11"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button6"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button9"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button3"] = {
+["type"] = "",
+},
+},
+},
+["ActionbarPlusF1"] = {
+["anchor"] = {
+["y"] = -102.6666793823242,
+["x"] = 234.3330841064453,
+},
+["buttons"] = {
+["ActionbarPlusF1Button12"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button6"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button5"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button7"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button2"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button3"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button9"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button10"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button4"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button1"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button8"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button11"] = {
+["type"] = "",
+},
+},
+},
+},
 },
 ["Samoanstrafe - Area 52"] = {
 },
 ["Samoanskully - Area 52"] = {
+},
+["Samoansizzle - Area 52"] = {
 },
 ["Samoanbeast - Ravenholdt"] = {
 },
@@ -184,7 +291,20 @@ ABP_PLUS_DB = {
 ["Shgrshn - Tichondrius"] = {
 },
 ["[KK]"] = {
+["character_specific_anchors"] = false,
 ["bars"] = {
+["ActionbarPlusF2"] = {
+["anchor"] = {
+["y"] = -105.6667022705078,
+["x"] = -294.6664733886719,
+["point"] = "TOP",
+["relativePoint"] = "TOP",
+},
+["widget"] = {
+["show_empty_buttons"] = false,
+},
+["show_keybind_text"] = true,
+},
 ["ActionbarPlusF1"] = {
 ["anchor"] = {
 ["y"] = -2.000015020370483,
@@ -195,33 +315,7 @@ ABP_PLUS_DB = {
 },
 ["show_keybind_text"] = true,
 },
-["ActionbarPlusF2"] = {
-["anchor"] = {
-["y"] = -3.000022411346436,
-["x"] = -285.9997863769531,
-["point"] = "TOP",
-["relativePoint"] = "TOP",
 },
-["show_keybind_text"] = true,
-["widget"] = {
-["show_empty_buttons"] = false,
-},
-["buttons"] = {
-["ActionbarPlusF2Button6"] = {
-["item"] = {
-["name"] = "Tricky Treat",
-["link"] = "|cffffffff|Hitem:33226::::::::80:64:::::::::|h[Tricky Treat]|h|r",
-["id"] = 33226,
-["stackCount"] = 500,
-["icon"] = 236546,
-["count"] = 111,
-},
-["type"] = "item",
-},
-},
-},
-},
-["character_specific_anchors"] = false,
 },
 },
 }

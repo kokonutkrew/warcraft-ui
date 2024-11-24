@@ -24,7 +24,7 @@ function ItemRack.ProcessAutoQueue(slot)
 
 	if not baseID then return end
 
-	local buff = GetItemSpell(baseID)
+	local buff = C_Item.GetItemSpell(baseID)
 	if buff then
 		if AuraUtil.FindAuraByName(buff,"player") or (start>0 and (duration-timeLeft)>30 and timeLeft<1) then
 			icon:SetDesaturated(1)
@@ -66,7 +66,7 @@ function ItemRack.ProcessAutoQueue(slot)
 		else
 			if not ready or enable==0 or (ItemRackItems[candidate] and ItemRackItems[candidate].priority) then
 				if ItemRack.ItemNearReady(candidate) then
-					if GetItemCount(candidate)>0 and not IsEquippedItem(candidate) then
+					if C_Item.GetItemCount(candidate)>0 and not C_Item.IsEquippedItem(candidate) then
 						_,bag,s = ItemRack.FindItem(list[i])
 						if bag then
 							if ItemRack.CombatQueue[slot]~=list[i] then
@@ -82,7 +82,7 @@ function ItemRack.ProcessAutoQueue(slot)
 end
 
 function ItemRack.ItemNearReady(id)
-	local start,duration = GetItemCooldown(id)
+	local start,duration = C_Item.GetItemCooldown(id)
 	if start==0 or duration-(GetTime()-start)<30 then
 		return 1
 	end

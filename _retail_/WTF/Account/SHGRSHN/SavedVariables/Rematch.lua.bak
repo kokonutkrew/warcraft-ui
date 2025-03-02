@@ -449,22 +449,22 @@ Rematch5SavedTeams = {
 222535,
 },
 },
-["team:24"] = {
+["team:1"] = {
 ["pets"] = {
 0,
-"BattlePet-0-00000DD61ACB",
-"BattlePet-0-00000DD89BBA",
+"BattlePet-0-000006515DCE",
+"BattlePet-0-000007F6BB00",
 },
-["name"] = "Prezly Wavecutter",
+["name"] = "Christoph VonFeasel",
 ["tags"] = {
 "ZL",
-"1120143",
-"11102OQ",
+"11201BB",
+"2210198",
 },
-["teamID"] = "team:24",
+["teamID"] = "team:1",
 ["groupID"] = "group:none",
 ["targets"] = {
-237712,
+85519,
 },
 },
 ["team:3"] = {
@@ -499,10 +499,10 @@ Rematch5SavedTeams = {
 "12192R4",
 },
 ["teamID"] = "team:8",
-["groupID"] = "group:none",
 ["targets"] = {
 223443,
 },
+["groupID"] = "group:none",
 ["preferences"] = {
 ["minXP"] = 25,
 },
@@ -669,22 +669,22 @@ Rematch5SavedTeams = {
 223442,
 },
 },
-["team:1"] = {
+["team:24"] = {
 ["pets"] = {
 0,
-"BattlePet-0-000006515DCE",
-"BattlePet-0-000007F6BB00",
+"BattlePet-0-00000DD61ACB",
+"BattlePet-0-00000DD89BBA",
 },
-["name"] = "Christoph VonFeasel",
+["name"] = "Prezly Wavecutter",
 ["tags"] = {
 "ZL",
-"11201BB",
-"2210198",
+"1120143",
+"11102OQ",
 },
-["teamID"] = "team:1",
+["teamID"] = "team:24",
 ["groupID"] = "group:none",
 ["targets"] = {
-85519,
+237712,
 },
 },
 }
@@ -738,14 +738,18 @@ Rematch5SavedTargets = {
 [237712] = {
 "team:24",
 },
-[85519] = {
-"team:1",
+[223446] = {
+"team:7",
+"team:10",
+"team:11",
+"team:15",
+"team:17",
 },
-[223406] = {
-"team:5",
+[231086] = {
+"team:18",
 },
-[223443] = {
-"team:8",
+[201858] = {
+"team:2",
 },
 [217395] = {
 "team:23",
@@ -755,15 +759,11 @@ Rematch5SavedTargets = {
 "team:21",
 "team:22",
 },
-[62822] = {
-"team:16",
+[223444] = {
+"team:14",
 },
-[223446] = {
-"team:7",
-"team:10",
-"team:11",
-"team:15",
-"team:17",
+[85519] = {
+"team:1",
 },
 [67370] = {
 "team:3",
@@ -782,14 +782,14 @@ Rematch5SavedTargets = {
 "team:12",
 "team:13",
 },
-[201858] = {
-"team:2",
+[223443] = {
+"team:8",
 },
-[223444] = {
-"team:14",
+[62822] = {
+"team:16",
 },
-[231086] = {
-"team:18",
+[223406] = {
+"team:5",
 },
 }
 Rematch4Saved = nil

@@ -2,9 +2,9 @@
 DecursiveDB = {
 ["global"] = {
 ["NoStartMessages"] = true,
-["LastVersionAnnounce"] = 1740890985,
-["delayedDebuffOccurences"] = 565,
-["delayedUnDebuffOccurences"] = 520,
+["LastVersionAnnounce"] = 1740908860,
+["delayedDebuffOccurences"] = 575,
+["delayedUnDebuffOccurences"] = 524,
 ["TocExpiredDetection"] = 1740525184,
 ["t_BleedEffectsIDCheck"] = {
 [36965] = true,

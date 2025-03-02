@@ -7,6 +7,7 @@ ChatMonitorDB = {
 ["Samoansifu - Area 52"] = "profile",
 ["Threadcraft - Area 52"] = "profile",
 ["Herbcraft - Area 52"] = "profile",
+["Dustcraft - Emerald Dream"] = "profile",
 ["Farmcraft - Area 52"] = "profile",
 ["Samoanstrafe - Area 52"] = "profile",
 ["Crankcraft - Area 52"] = "profile",

@@ -431,24 +431,6 @@ Rematch5SavedTeams = {
 223446,
 },
 },
-["team:1"] = {
-["pets"] = {
-0,
-"BattlePet-0-000006515DCE",
-"BattlePet-0-000007F6BB00",
-},
-["name"] = "Christoph VonFeasel",
-["tags"] = {
-"ZL",
-"11201BB",
-"2210198",
-},
-["teamID"] = "team:1",
-["groupID"] = "group:none",
-["targets"] = {
-85519,
-},
-},
 ["team:24"] = {
 ["pets"] = {
 0,
@@ -465,6 +447,24 @@ Rematch5SavedTeams = {
 ["groupID"] = "group:none",
 ["targets"] = {
 237712,
+},
+},
+["team:1"] = {
+["pets"] = {
+0,
+"BattlePet-0-000006515DCE",
+"BattlePet-0-000007F6BB00",
+},
+["name"] = "Christoph VonFeasel",
+["tags"] = {
+"ZL",
+"11201BB",
+"2210198",
+},
+["teamID"] = "team:1",
+["groupID"] = "group:none",
+["targets"] = {
+85519,
 },
 },
 ["team:3"] = {
@@ -664,10 +664,10 @@ Rematch5SavedTeams = {
 ["preferences"] = {
 ["minXP"] = 25,
 },
-["groupID"] = "group:none",
 ["targets"] = {
 223443,
 },
+["groupID"] = "group:none",
 },
 ["team:19"] = {
 ["pets"] = {
@@ -738,14 +738,14 @@ Rematch5SavedTargets = {
 [237712] = {
 "team:24",
 },
-[231086] = {
-"team:18",
-},
 [223406] = {
 "team:5",
 },
-[223444] = {
-"team:14",
+[231086] = {
+"team:18",
+},
+[62822] = {
+"team:16",
 },
 [217395] = {
 "team:23",
@@ -755,11 +755,15 @@ Rematch5SavedTargets = {
 "team:21",
 "team:22",
 },
-[62822] = {
-"team:16",
+[223444] = {
+"team:14",
 },
-[85519] = {
-"team:1",
+[223446] = {
+"team:7",
+"team:10",
+"team:11",
+"team:15",
+"team:17",
 },
 [67370] = {
 "team:3",
@@ -778,18 +782,14 @@ Rematch5SavedTargets = {
 "team:12",
 "team:13",
 },
-[223443] = {
-"team:8",
-},
 [201858] = {
 "team:2",
 },
-[223446] = {
-"team:7",
-"team:10",
-"team:11",
-"team:15",
-"team:17",
+[223443] = {
+"team:8",
+},
+[85519] = {
+"team:1",
 },
 }
 Rematch4Saved = nil

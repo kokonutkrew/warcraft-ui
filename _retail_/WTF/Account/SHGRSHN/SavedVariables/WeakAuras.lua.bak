@@ -3,6 +3,7 @@ WeakAurasSaved = {
 ["dynamicIconCache"] = {
 },
 ["editor_tab_spaces"] = 4,
+["login_squelch_time"] = 10,
 ["editor_font_size"] = 12,
 ["lastArchiveClear"] = 1739794915,
 ["minimap"] = {
@@ -12,11 +13,10 @@ WeakAurasSaved = {
 ["lastUpgrade"] = 1740801332,
 ["dbVersion"] = 83,
 ["migrationCutoff"] = 730,
-["registered"] = {
-},
-["login_squelch_time"] = 10,
-["historyCutoff"] = 730,
 ["features"] = {
+},
+["historyCutoff"] = 730,
+["registered"] = {
 },
 ["displays"] = {
 ["Ky'veza Queensbane position"] = {
@@ -97,13 +97,13 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["names"] = {
 },
+["custom"] = "function(s, e, ...)\n    if e == \"OPTIONS\" then\n        s[\"\"] = {\n            show = true,\n            changed = true,\n            duration = 10,\n            expirationTime = GetTime()+10,\n            progressType = \"timed\",\n            autoHide = true,\n            num = 1,\n        }\n        return true    \n        \n    elseif e == \"NSAPI_ENCOUNTER_START\" and ... then\n        aura_env.enabled = true\n        aura_env.count = 0\n        \n    elseif e == \"COMBAT_LOG_EVENT_UNFILTERED\" then\n        local timestamp, subevent, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellID = ... -- full CLEU\n        if spellID == aura_env.debuff then\n            if subevent == \"SPELL_AURA_APPLIED\" and aura_env.enabled then\n                local now = GetTime()\n                if not aura_env.last or aura_env.last < now - 5 then\n                    aura_env.last = now\n                    aura_env.count = 0\n                end\n                aura_env.count = aura_env.count+1\n                if UnitIsUnit(\"player\", destName) then\n                    local expires = select(6, WA_GetUnitAura(\"player\", aura_env.debuff, aura_env.filter))\n                    s[\"\"] = {\n                        show = true,\n                        changed = true,\n                        progressType = \"timed\",\n                        duration = expires-GetTime(),\n                        expirationTime = expires,\n                        num = aura_env.count,\n                        autoHide = true,\n                    }\n                    local num = aura_env.count\n                    SendChatMessage(num..\" in \"..\"9\", \"SAY\")\n                    C_Timer.After(2, function() \n                            SendChatMessage(num..\" in \"..\"7\", \"SAY\")\n                    end)\n                    C_Timer.After(4, function()\n                            SendChatMessage(num..\" in \"..\"5\", \"SAY\")\n                    end)\n                    C_Timer.After(6, function()\n                            SendChatMessage(num..\" in \"..\"3\", \"SAY\")\n                    end)     \n                    C_Timer.After(7, function()\n                            SendChatMessage(num..\" in \"..\"2\", \"SAY\")\n                    end)           \n                    C_Timer.After(8, function()\n                            SendChatMessage(num..\" in \"..\"1\", \"SAY\")\n                    end)                 \n                    return true\n                end\n            elseif subevent == \"SPELL_AURA_REMOVED\" and destGUID == WeakAuras.myGUID and s[\"\"] then\n                s[\"\"].show = false\n                s[\"\"].changed = true\n                return true\n            end\n        end\n    elseif e == \"UNIT_SPELLCAST_SUCCEEDED\" then\n        local u, cast, spellID = ... -- Unit event\n        if spellID == aura_env.night then\n            aura_env.enabled = true\n        elseif spellID == aura_env.rifts then\n            aura_env.enabled = false\n        end\n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "CLEU:SPELL_AURA_APPLIED NSAPI_ENCOUNTER_START UNIT_SPELLCAST_SUCCEEDED:boss1",
 ["custom_type"] = "stateupdate",
 ["check"] = "event",
 ["subeventPrefix"] = "SPELL",
-["custom"] = "function(s, e, ...)\n    if e == \"OPTIONS\" then\n        s[\"\"] = {\n            show = true,\n            changed = true,\n            duration = 10,\n            expirationTime = GetTime()+10,\n            progressType = \"timed\",\n            autoHide = true,\n            num = 1,\n        }\n        return true    \n        \n    elseif e == \"NSAPI_ENCOUNTER_START\" and ... then\n        aura_env.enabled = true\n        aura_env.count = 0\n        \n    elseif e == \"COMBAT_LOG_EVENT_UNFILTERED\" then\n        local timestamp, subevent, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellID = ... -- full CLEU\n        if spellID == aura_env.debuff then\n            if subevent == \"SPELL_AURA_APPLIED\" and aura_env.enabled then\n                local now = GetTime()\n                if not aura_env.last or aura_env.last < now - 5 then\n                    aura_env.last = now\n                    aura_env.count = 0\n                end\n                aura_env.count = aura_env.count+1\n                if UnitIsUnit(\"player\", destName) then\n                    local expires = select(6, WA_GetUnitAura(\"player\", aura_env.debuff, aura_env.filter))\n                    s[\"\"] = {\n                        show = true,\n                        changed = true,\n                        progressType = \"timed\",\n                        duration = expires-GetTime(),\n                        expirationTime = expires,\n                        num = aura_env.count,\n                        autoHide = true,\n                    }\n                    local num = aura_env.count\n                    SendChatMessage(num..\" in \"..\"9\", \"SAY\")\n                    C_Timer.After(2, function() \n                            SendChatMessage(num..\" in \"..\"7\", \"SAY\")\n                    end)\n                    C_Timer.After(4, function()\n                            SendChatMessage(num..\" in \"..\"5\", \"SAY\")\n                    end)\n                    C_Timer.After(6, function()\n                            SendChatMessage(num..\" in \"..\"3\", \"SAY\")\n                    end)     \n                    C_Timer.After(7, function()\n                            SendChatMessage(num..\" in \"..\"2\", \"SAY\")\n                    end)           \n                    C_Timer.After(8, function()\n                            SendChatMessage(num..\" in \"..\"1\", \"SAY\")\n                    end)                 \n                    return true\n                end\n            elseif subevent == \"SPELL_AURA_REMOVED\" and destGUID == WeakAuras.myGUID and s[\"\"] then\n                s[\"\"].show = false\n                s[\"\"].changed = true\n                return true\n            end\n        end\n    elseif e == \"UNIT_SPELLCAST_SUCCEEDED\" then\n        local u, cast, spellID = ... -- Unit event\n        if spellID == aura_env.night then\n            aura_env.enabled = true\n        elseif spellID == aura_env.rifts then\n            aura_env.enabled = false\n        end\n    end\nend",
+["events"] = "CLEU:SPELL_AURA_APPLIED NSAPI_ENCOUNTER_START UNIT_SPELLCAST_SUCCEEDED:boss1",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -160,7 +160,7 @@ WeakAurasSaved = {
 ["displayText_format_p_big_number_format"] = "AbbreviateNumbers",
 ["width"] = 70,
 ["useCooldownModRate"] = true,
-["anchorFrameParent"] = false,
+["displayText_format_p_time_precision"] = 1,
 ["actions"] = {
 ["start"] = {
 ["glow_frame_type"] = "UNITFRAME",
@@ -177,9 +177,9 @@ WeakAurasSaved = {
 ["custom"] = "",
 ["do_sound"] = false,
 ["sound"] = "Interface\\Addons\\Details\\sounds\\sound_whip1.ogg",
-["use_glow_color"] = true,
-["do_custom"] = false,
 ["glow_type"] = "Pixel",
+["do_custom"] = false,
+["use_glow_color"] = true,
 },
 ["finish"] = {
 ["hide_all_glows"] = false,
@@ -194,14 +194,14 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["displayText"] = "%num in %p",
-["semver"] = "1.0.60",
 ["justify"] = "LEFT",
+["semver"] = "1.0.60",
 ["id"] = "Ky'veza Queensbane position",
 ["customText"] = "",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["displayText_format_p_time_precision"] = 1,
 ["displayText_format_p_decimal_precision"] = 0,
+["anchorFrameType"] = "SCREEN",
+["anchorFrameParent"] = false,
+["frameStrata"] = 1,
 ["inverse"] = false,
 ["wordWrap"] = "WordWrap",
 ["shadowColor"] = {
@@ -347,29 +347,29 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
 ["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
-["multi"] = {
-},
-},
-["encounterid"] = "2920",
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["encounterid"] = "2920",
 ["use_encounterid"] = true,
 },
 ["useAdjustededMax"] = false,
-["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["config"] = {
 },
-["cooldownEdge"] = false,
 ["selfPoint"] = "CENTER",
+["cooldownEdge"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["cooldown"] = true,
@@ -378,6 +378,16 @@ WeakAurasSaved = {
 -1,
 "",
 },
+["xOffset"] = 0.0001220703125,
+["width"] = 64,
+["alpha"] = 1,
+["zoom"] = 0,
+["semver"] = "1.0.0",
+["tocversion"] = 110007,
+["id"] = "Nexus-Princess Ky'veza Assassination",
+["useCooldownModRate"] = true,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["actions"] = {
 ["start"] = {
 },
@@ -386,29 +396,19 @@ WeakAurasSaved = {
 ["finish"] = {
 },
 },
-["width"] = 64,
-["alpha"] = 1,
-["cooldownTextDisabled"] = false,
-["semver"] = "1.0.0",
-["tocversion"] = 110007,
-["id"] = "Nexus-Princess Ky'veza Assassination",
-["useCooldownModRate"] = true,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["preferToUpdate"] = false,
 ["uid"] = "mFcGBojLrqa",
 ["inverse"] = false,
-["xOffset"] = 0.0001220703125,
-["conditions"] = {
-},
-["information"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["conditions"] = {
+},
+["information"] = {
+},
+["preferToUpdate"] = false,
 },
 ["Mouse Cursor"] = {
 ["wagoID"] = "ZbjlsgMkp",
@@ -470,17 +470,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = false,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if aura_env.config[\"MainRingClassColor\"] then\n        local c = RAID_CLASS_COLORS[select(2,UnitClass(\"player\"))]\n        return c.r, c.g, c.b\n    end\n    \nend",
 ["rotate"] = 0,
-["use_color"] = false,
+["scaley"] = 1,
 ["duration"] = "1000",
 },
 ["main"] = {
@@ -509,19 +509,19 @@ WeakAurasSaved = {
 ["rotate"] = true,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -900,6 +900,7 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
+["uid"] = "Q1VqDPsBIJz",
 ["config"] = {
 ["MergeRing"] = 1,
 ["MainRingColor"] = {
@@ -943,22 +944,21 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
 ["ShowTrail"] = false,
 ["Crosshair"] = 6,
 },
-["uid"] = "Q1VqDPsBIJz",
 ["rotation"] = 0,
 ["alpha"] = 1,
 ["conditions"] = {
@@ -1344,19 +1344,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -1398,8 +1398,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -1449,17 +1449,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -1572,15 +1572,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -1980,19 +1980,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -2082,17 +2082,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -2205,15 +2205,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -2618,19 +2618,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -2759,17 +2759,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if aura_env.config.CastRingClassColor then\n        local c = RAID_CLASS_COLORS[select(2,UnitClass(\"player\"))]\n        return c.r, c.g, c.b\n    end\n    \nend",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -2803,12 +2803,12 @@ WeakAurasSaved = {
 ["alpha"] = 0,
 ["preset"] = "shrink",
 ["y"] = 0,
-["colorType"] = "pulseColor",
+["x"] = 0,
 ["easeStrength"] = 3,
 ["use_color"] = true,
 ["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    local angle = (progress * 2 * math.pi) - (math.pi / 2)\n    local newProgress = ((math.sin(angle) + 1)/2);\n    return r1 + (newProgress * (r2 - r1)),\n         g1 + (newProgress * (g2 - g1)),\n         b1 + (newProgress * (b2 - b1)),\n         a1 + (newProgress * (a2 - a1))\nend\n",
 ["rotate"] = 0,
-["x"] = 0,
+["colorType"] = "pulseColor",
 ["duration_type"] = "seconds",
 },
 },
@@ -2915,15 +2915,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -3103,10 +3103,10 @@ WeakAurasSaved = {
 ["event"] = "Chat Message",
 ["custom_type"] = "event",
 ["message"] = "",
-["custom"] = "-- Spy Found - Trigger - CHAT_MSG_MONSTER_SAY\n\nfunction(event, text, _, _, _, target)\n    if event ~= \"CHAT_MSG_MONSTER_SAY\" then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    local locale = GetLocale()\n    local language = string.sub(locale, 1, 2)\n    local foundTextLoc = aura_env.foundText[language]\n    if not foundTextLoc then\n        return false\n    end\n    if not string.find(text, foundTextLoc) then\n        return false\n    end\n    \n    WeakAuras.ScanEvents(\"COS_HELPER_SPY_FOUND\")\n    \n    if aura_env.config.announce_spy_found then\n        local messageEn = aura_env.displayText[\"en\"]\n        local messageLoc = aura_env.displayText[language] or messageEn\n        local message = messageLoc\n        if language ~= \"en\" then\n            message = message .. \" / \" .. messageEn\n        end\n        local chatType = \"SAY\"\n        if IsInLFGDungeon() then\n            chatType = \"INSTANCE_CHAT\"\n        elseif IsInGroup() then\n            chatType = \"PARTY\"\n        end\n        SendChatMessage(message, chatType)\n    end\n    \n    local soundID = aura_env.config.spy_found_sound_id\n    if soundID ~= \"0\" then\n        PlaySound(soundID, \"Master\")\n    end\n    \n    if aura_env.config.mark_spy_found then\n        local player = UnitName(\"player\")\n        if target == player then\n            SetRaidTarget(\"target\", 8)\n        end\n    end\n\n    return true\nend",
-["events"] = "CHAT_MSG_MONSTER_SAY",
 ["spellIds"] = {
 },
+["custom"] = "-- Spy Found - Trigger - CHAT_MSG_MONSTER_SAY\n\nfunction(event, text, _, _, _, target)\n    if event ~= \"CHAT_MSG_MONSTER_SAY\" then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    local locale = GetLocale()\n    local language = string.sub(locale, 1, 2)\n    local foundTextLoc = aura_env.foundText[language]\n    if not foundTextLoc then\n        return false\n    end\n    if not string.find(text, foundTextLoc) then\n        return false\n    end\n    \n    WeakAuras.ScanEvents(\"COS_HELPER_SPY_FOUND\")\n    \n    if aura_env.config.announce_spy_found then\n        local messageEn = aura_env.displayText[\"en\"]\n        local messageLoc = aura_env.displayText[language] or messageEn\n        local message = messageLoc\n        if language ~= \"en\" then\n            message = message .. \" / \" .. messageEn\n        end\n        local chatType = \"SAY\"\n        if IsInLFGDungeon() then\n            chatType = \"INSTANCE_CHAT\"\n        elseif IsInGroup() then\n            chatType = \"PARTY\"\n        end\n        SendChatMessage(message, chatType)\n    end\n    \n    local soundID = aura_env.config.spy_found_sound_id\n    if soundID ~= \"0\" then\n        PlaySound(soundID, \"Master\")\n    end\n    \n    if aura_env.config.mark_spy_found then\n        local player = UnitName(\"player\")\n        if target == player then\n            SetRaidTarget(\"target\", 8)\n        end\n    end\n\n    return true\nend",
+["events"] = "CHAT_MSG_MONSTER_SAY",
 ["use_message"] = false,
 ["names"] = {
 },
@@ -3136,11 +3136,11 @@ WeakAurasSaved = {
 },
 },
 ["use_never"] = false,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
@@ -3197,10 +3197,10 @@ WeakAurasSaved = {
 ["anchorFrameType"] = "SCREEN",
 ["yOffset"] = 200,
 ["config"] = {
-["spy_found_sound_id"] = "9379",
 ["announce_spy_found"] = true,
-["spy_found_enable"] = true,
+["spy_found_sound_id"] = "9379",
 ["mark_spy_found"] = true,
+["spy_found_enable"] = true,
 },
 ["displayText_format_p_time_dynamic_threshold"] = 60,
 ["automaticWidth"] = "Auto",
@@ -3245,17 +3245,17 @@ WeakAurasSaved = {
 ["type"] = "custom",
 ["custom_type"] = "event",
 ["custom_hide"] = "timed",
+["unit"] = "player",
+["event"] = "Health",
 ["names"] = {
 },
-["event"] = "Health",
-["unit"] = "player",
 ["subeventPrefix"] = "SPELL",
 ["customName"] = "function()   \n    return aura_env.description or \"Click on an item to track\\n{rt6}Weekly - {rt4}Catch-Up - {rt3}Unique\"\nend",
-["spellIds"] = {
-},
+["custom"] = "function(event, ...)\n    if event == \"MKPT_UPDATE_DESCRIPTION\" then\n        local description, show, _ = ...\n        aura_env.description = description\n        return show\n    end\n    \n    return true\nend\n\n\n",
 ["events"] = "MKPT_UPDATE_DESCRIPTION",
 ["dynamicDuration"] = false,
-["custom"] = "function(event, ...)\n    if event == \"MKPT_UPDATE_DESCRIPTION\" then\n        local description, show, _ = ...\n        aura_env.description = description\n        return show\n    end\n    \n    return true\nend\n\n\n",
+["spellIds"] = {
+},
 ["subeventSuffix"] = "_CAST_START",
 ["debuffType"] = "HELPFUL",
 },
@@ -3314,27 +3314,27 @@ WeakAurasSaved = {
 ["use_combat"] = false,
 ["difficulty"] = {
 },
-["use_not_spellknown"] = false,
+["use_spellknown"] = false,
 ["use_level"] = true,
 ["zoneIds"] = "c2274,2214,2215,2255,2256,2339,2248,2022,2023,2024,2025,407,85,37,7,88",
 ["level_operator"] = {
 ">=",
 },
 ["use_exact_spellknown"] = false,
-["use_spellknown"] = false,
+["use_not_spellknown"] = false,
 ["use_size"] = true,
 },
 ["fontSize"] = 12,
 ["source"] = "import",
 ["displayText_format_n_format"] = "none",
 ["shadowXOffset"] = 1,
-["selfPoint"] = "BOTTOM",
-["preferToUpdate"] = false,
-["regionType"] = "text",
-["url"] = "https://wago.io/L7lpDrqUO/14",
-["fixedWidth"] = 300,
-["internalVersion"] = 83,
 ["displayText"] = "%n",
+["selfPoint"] = "BOTTOM",
+["regionType"] = "text",
+["displayText_format_p_format"] = "timed",
+["fixedWidth"] = 300,
+["preferToUpdate"] = false,
+["internalVersion"] = 83,
 ["displayText_format_p_time_precision"] = 1,
 ["uid"] = "fC7aPnUEPPg",
 ["animation"] = {
@@ -3373,18 +3373,8 @@ WeakAurasSaved = {
 ["config"] = {
 ["minimized"] = true,
 },
-["authorOptions"] = {
-{
-["type"] = "toggle",
-["default"] = true,
-["desc"] = "Minimized(Checked) Expanded(Unchecked)",
-["key"] = "minimized",
-["useDesc"] = true,
-["name"] = "Minimize on login",
-["width"] = 1,
-},
-},
 ["yOffset"] = 0,
+["url"] = "https://wago.io/L7lpDrqUO/14",
 ["shadowColor"] = {
 0,
 0,
@@ -3398,7 +3388,17 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["debugLog"] = false,
 },
-["displayText_format_p_format"] = "timed",
+["authorOptions"] = {
+{
+["type"] = "toggle",
+["default"] = true,
+["desc"] = "Minimized(Checked) Expanded(Unchecked)",
+["key"] = "minimized",
+["useDesc"] = true,
+["name"] = "Minimize on login",
+["width"] = 1,
+},
+},
 },
 ["Power-Corner"] = {
 ["user_y"] = 0,
@@ -3775,19 +3775,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -3877,17 +3877,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -4000,15 +4000,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -4408,19 +4408,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -4462,8 +4462,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -4513,17 +4513,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -4636,15 +4636,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -5044,19 +5044,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -5098,8 +5098,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -5149,17 +5149,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -5272,15 +5272,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -5318,7 +5318,7 @@ WeakAurasSaved = {
 ["preferToUpdate"] = false,
 ["yOffset"] = 482.266357421875,
 ["gridType"] = "RD",
-["regionType"] = "dynamicgroup",
+["gridWidth"] = 5,
 ["sharedFrameLevel"] = false,
 ["borderColor"] = {
 1,
@@ -5400,12 +5400,12 @@ WeakAurasSaved = {
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = true,
-["anchorFrameFrame"] = "ProfessionsBookFrame",
-["stepAngle"] = 15,
+["borderEdge"] = "None",
+["regionType"] = "dynamicgroup",
 ["borderSize"] = 1,
 ["limit"] = 5,
-["gridWidth"] = 5,
-["borderEdge"] = "None",
+["stepAngle"] = 15,
+["sort"] = "none",
 ["anchorFrameParent"] = false,
 ["constantFactor"] = "RADIUS",
 ["config"] = {
@@ -5414,7 +5414,7 @@ WeakAurasSaved = {
 ["semver"] = "1.3.1",
 ["tocversion"] = 110002,
 ["id"] = "Myu's Knowledge Points Tracker",
-["sort"] = "none",
+["anchorFrameFrame"] = "ProfessionsBookFrame",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "UIPARENT",
 ["animation"] = {
@@ -5479,29 +5479,7 @@ WeakAurasSaved = {
 ["selfPoint"] = "CENTER",
 ["rotation"] = 0,
 ["font"] = "Friz Quadrata TT",
-["load"] = {
-["zoneIds"] = "",
-["talent"] = {
-["multi"] = {
-},
-},
-["use_never"] = false,
-["instance_type"] = {
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
+["crop_y"] = 0.41,
 ["textureWrapMode"] = "CLAMP",
 ["foregroundTexture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White",
 ["smoothProgress"] = false,
@@ -5554,15 +5532,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -5701,7 +5679,7 @@ WeakAurasSaved = {
 0.57692271471024,
 },
 },
-["tocversion"] = 110005,
+["auraRotation"] = 0,
 ["authorOptions"] = {
 {
 ["useName"] = true,
@@ -6062,7 +6040,7 @@ WeakAurasSaved = {
 0.5,
 0.5,
 },
-["auraRotation"] = 0,
+["tocversion"] = 110005,
 ["semver"] = "1.4.1",
 ["fontSize"] = 12,
 ["id"] = "Cast-Bar",
@@ -6070,9 +6048,32 @@ WeakAurasSaved = {
 ["frameStrata"] = 1,
 ["width"] = 50,
 ["anchorFrameType"] = "SELECTFRAME",
-["crop_y"] = 0.41,
+["load"] = {
+["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
 ["inverse"] = false,
-["uid"] = "z0yeJcSX1S3",
+["color"] = {
+},
 ["orientation"] = "HORIZONTAL",
 ["conditions"] = {
 {
@@ -6094,8 +6095,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["color"] = {
-},
+["uid"] = "z0yeJcSX1S3",
 },
 ["Ultimate Mouse Cursor"] = {
 ["controlledChildren"] = {
@@ -6200,18 +6200,18 @@ WeakAurasSaved = {
 ["borderEdge"] = "Square Full White",
 ["regionType"] = "group",
 ["borderSize"] = 2,
-["groupIcon"] = 878211,
+["frameStrata"] = 5,
 ["borderOffset"] = 4,
 ["semver"] = "1.4.1",
 ["tocversion"] = 110005,
 ["id"] = "Ultimate Mouse Cursor",
-["xOffset"] = 4.1671142578125,
+["groupIcon"] = 878211,
 ["alpha"] = 0.3,
 ["anchorFrameType"] = "MOUSE",
-["frameStrata"] = 5,
+["xOffset"] = 4.1671142578125,
+["uid"] = "Jy16uE7Jjvk",
 ["config"] = {
 },
-["uid"] = "Jy16uE7Jjvk",
 ["borderInset"] = 1,
 ["conditions"] = {
 },
@@ -6317,14 +6317,14 @@ WeakAurasSaved = {
 ["event"] = "Chat Message",
 ["unit"] = "player",
 ["custom_hide"] = "timed",
+["events"] = "CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED",
 ["spellIds"] = {
 },
-["custom"] = "-- Interactables - Trigger - CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED\n\nfunction(event)\n    if event ~= \"CHALLENGE_MODE_START\" and event ~= \"CHALLENGE_MODE_COMPLETED\" then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    if not aura_env.CourtOfStarsHelper_ResetInteractables then\n        print(\"WeakAura \\\"Court of Stars Helper\\\" interactable object data failed to reset\")\n        return false\n    end\n    aura_env.CourtOfStarsHelper_ResetInteractables()\n    return false\nend",
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["events"] = "CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED",
+["custom"] = "-- Interactables - Trigger - CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED\n\nfunction(event)\n    if event ~= \"CHALLENGE_MODE_START\" and event ~= \"CHALLENGE_MODE_COMPLETED\" then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    if not aura_env.CourtOfStarsHelper_ResetInteractables then\n        print(\"WeakAura \\\"Court of Stars Helper\\\" interactable object data failed to reset\")\n        return false\n    end\n    aura_env.CourtOfStarsHelper_ResetInteractables()\n    return false\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -6351,11 +6351,11 @@ WeakAurasSaved = {
 },
 },
 ["use_never"] = false,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
@@ -6367,19 +6367,19 @@ WeakAurasSaved = {
 ["fontSize"] = 12,
 ["source"] = "import",
 ["shadowXOffset"] = 1,
+["internalVersion"] = 83,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["displayText"] = "",
 ["regionType"] = "text",
-["wordWrap"] = "WordWrap",
+["displayText_format_p_format"] = "timed",
 ["conditions"] = {
 },
+["displayText"] = "",
 ["preferToUpdate"] = false,
-["internalVersion"] = 83,
 ["displayText_format_p_time_precision"] = 1,
 ["uid"] = "apetwj1jbia",
 ["animation"] = {
@@ -6415,8 +6415,8 @@ WeakAurasSaved = {
 ["mark_interactables"] = true,
 ["announce_interactables"] = true,
 },
-["parent"] = "Court of Stars Helper",
 ["automaticWidth"] = "Auto",
+["wordWrap"] = "WordWrap",
 ["shadowColor"] = {
 0,
 0,
@@ -6426,7 +6426,7 @@ WeakAurasSaved = {
 ["fixedWidth"] = 200,
 ["information"] = {
 },
-["displayText_format_p_format"] = "timed",
+["parent"] = "Court of Stars Helper",
 },
 ["MC Distance 4 Reverse"] = {
 ["user_y"] = 0,
@@ -6803,19 +6803,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -6857,8 +6857,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -6908,17 +6908,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -7031,15 +7031,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -7156,14 +7156,14 @@ WeakAurasSaved = {
 ["event"] = "Chat Message",
 ["unit"] = "player",
 ["custom_hide"] = "timed",
+["events"] = "CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED",
 ["spellIds"] = {
 },
-["custom"] = "-- Chatty Rumormonger - Trigger - CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED\n\nfunction(event)\n    if event ~= \"CHALLENGE_MODE_START\" and event ~= \"CHALLENGE_MODE_COMPLETED\" then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    if not aura_env.CourtOfStarsHelper_ResetClues then\n        print(\"WeakAura \\\"Court of Stars Helper\\\" clues failed to reset\")\n        return false\n    end\n    aura_env.CourtOfStarsHelper_ResetClues()\n    return false\nend",
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["events"] = "CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED",
+["custom"] = "-- Chatty Rumormonger - Trigger - CHALLENGE_MODE_START, CHALLENGE_MODE_COMPLETED\n\nfunction(event)\n    if event ~= \"CHALLENGE_MODE_START\" and event ~= \"CHALLENGE_MODE_COMPLETED\" then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    if not aura_env.CourtOfStarsHelper_ResetClues then\n        print(\"WeakAura \\\"Court of Stars Helper\\\" clues failed to reset\")\n        return false\n    end\n    aura_env.CourtOfStarsHelper_ResetClues()\n    return false\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -7219,11 +7219,11 @@ WeakAurasSaved = {
 },
 },
 ["use_never"] = false,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
@@ -7308,7 +7308,7 @@ WeakAurasSaved = {
 ["preferToUpdate"] = false,
 ["groupIcon"] = 879826,
 ["gridType"] = "RD",
-["stepAngle"] = 15,
+["source"] = "import",
 ["borderColor"] = {
 0,
 0,
@@ -7345,7 +7345,13 @@ WeakAurasSaved = {
 },
 ["columnSpace"] = 1,
 ["radius"] = 200,
-["frameStrata"] = 1,
+["gridWidth"] = 5,
+["selfPoint"] = "TOP",
+["align"] = "CENTER",
+["arcLength"] = 360,
+["useLimit"] = true,
+["yOffset"] = 530,
+["stagger"] = 0,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -7366,19 +7372,12 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["align"] = "CENTER",
-["internalVersion"] = 83,
-["arcLength"] = 360,
-["sortHybridTable"] = {
-["List"] = false,
-},
-["stagger"] = 0,
-["useLimit"] = true,
 ["version"] = 4,
 ["subRegions"] = {
 },
 ["anchorPoint"] = "CENTER",
-["borderInset"] = 1,
+["config"] = {
+},
 ["load"] = {
 ["size"] = {
 ["multi"] = {
@@ -7397,8 +7396,7 @@ WeakAurasSaved = {
 },
 },
 },
-["config"] = {
-},
+["borderInset"] = 1,
 ["backdropColor"] = {
 1,
 1,
@@ -7407,35 +7405,37 @@ WeakAurasSaved = {
 },
 ["authorOptions"] = {
 },
-["source"] = "import",
 ["animate"] = false,
+["xOffset"] = 0,
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
 ["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
+["sort"] = "none",
+["alpha"] = 1,
 ["limit"] = 5,
-["gridWidth"] = 5,
-["selfPoint"] = "TOP",
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.3",
 ["tocversion"] = 100107,
 ["id"] = "Trade Chat Scanner - Sender List",
-["sort"] = "none",
-["alpha"] = 1,
+["stepAngle"] = 15,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["yOffset"] = 530,
-["uid"] = "AhHxfp)Te7P",
-["xOffset"] = 0,
 ["fullCircle"] = true,
+["uid"] = "AhHxfp)Te7P",
+["sortHybridTable"] = {
+["List"] = false,
+},
+["rowSpace"] = 1,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["rowSpace"] = 1,
+["internalVersion"] = 83,
 },
 ["Trade Chat Scanner - Message List"] = {
 ["grow"] = "DOWN",
@@ -7448,7 +7448,7 @@ WeakAurasSaved = {
 ["preferToUpdate"] = false,
 ["groupIcon"] = 879826,
 ["gridType"] = "RD",
-["stepAngle"] = 15,
+["source"] = "import",
 ["borderColor"] = {
 0,
 0,
@@ -7485,7 +7485,13 @@ WeakAurasSaved = {
 },
 ["columnSpace"] = 1,
 ["radius"] = 200,
-["frameStrata"] = 1,
+["gridWidth"] = 5,
+["selfPoint"] = "TOP",
+["align"] = "CENTER",
+["arcLength"] = 360,
+["useLimit"] = true,
+["yOffset"] = 0,
+["stagger"] = 0,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -7506,19 +7512,12 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["align"] = "CENTER",
-["internalVersion"] = 83,
-["arcLength"] = 360,
-["sortHybridTable"] = {
-["Message"] = false,
-},
-["stagger"] = 0,
-["useLimit"] = true,
 ["version"] = 4,
 ["subRegions"] = {
 },
 ["anchorPoint"] = "CENTER",
-["borderInset"] = 1,
+["config"] = {
+},
 ["load"] = {
 ["size"] = {
 ["multi"] = {
@@ -7537,8 +7536,7 @@ WeakAurasSaved = {
 },
 },
 },
-["config"] = {
-},
+["borderInset"] = 1,
 ["backdropColor"] = {
 1,
 1,
@@ -7547,35 +7545,37 @@ WeakAurasSaved = {
 },
 ["authorOptions"] = {
 },
-["source"] = "import",
 ["animate"] = false,
+["xOffset"] = 0,
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
 ["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
+["sort"] = "none",
+["alpha"] = 1,
 ["limit"] = 5,
-["gridWidth"] = 5,
-["selfPoint"] = "TOP",
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.3",
 ["tocversion"] = 100107,
 ["id"] = "Trade Chat Scanner - Message List",
-["sort"] = "none",
-["alpha"] = 1,
+["stepAngle"] = 15,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["yOffset"] = 0,
-["uid"] = "oWpBrjjniEe",
-["xOffset"] = 0,
 ["fullCircle"] = true,
+["uid"] = "oWpBrjjniEe",
+["sortHybridTable"] = {
+["Message"] = false,
+},
+["rowSpace"] = 1,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["rowSpace"] = 1,
+["internalVersion"] = 83,
 },
 ["Outline"] = {
 ["wagoID"] = "ZbjlsgMkp",
@@ -7637,17 +7637,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = false,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if aura_env.config[\"MainRingClassColor\"] then\n        local c = RAID_CLASS_COLORS[select(2,UnitClass(\"player\"))]\n        return c.r, c.g, c.b\n    end\n    \nend",
 ["rotate"] = 0,
-["use_color"] = false,
+["scaley"] = 1,
 ["duration"] = "1000",
 },
 ["main"] = {
@@ -7676,19 +7676,19 @@ WeakAurasSaved = {
 ["rotate"] = true,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -8067,6 +8067,7 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
+["uid"] = "Qwv9UMrJCnp",
 ["config"] = {
 ["MergeRing"] = 1,
 ["MainRingColor"] = {
@@ -8110,22 +8111,21 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
 ["ShowTrail"] = false,
 ["Crosshair"] = 6,
 },
-["uid"] = "Qwv9UMrJCnp",
 ["rotation"] = 0,
 ["alpha"] = 1,
 ["conditions"] = {
@@ -8212,17 +8212,17 @@ WeakAurasSaved = {
 ["type"] = "preset",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = false,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if aura_env.config[\"MainRingClassColor\"] then\n        local c = RAID_CLASS_COLORS[select(2,UnitClass(\"player\"))]\n        return c.r, c.g, c.b\n    end\n    \nend",
 ["rotate"] = 0,
-["use_color"] = false,
+["scaley"] = 1,
 ["duration"] = "1000",
 },
 ["main"] = {
@@ -8251,19 +8251,19 @@ WeakAurasSaved = {
 ["rotate"] = true,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -8642,6 +8642,7 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
+["uid"] = "cXzk(hUBmuN",
 ["config"] = {
 ["MergeRing"] = 1,
 ["MainRingColor"] = {
@@ -8685,22 +8686,21 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
 ["ShowTrail"] = false,
 ["Crosshair"] = 6,
 },
-["uid"] = "cXzk(hUBmuN",
 ["rotation"] = 0,
 ["alpha"] = 1,
 ["conditions"] = {
@@ -9092,19 +9092,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -9188,17 +9188,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if aura_env.config.GCDRingClassColor then\n        local c = RAID_CLASS_COLORS[select(2,UnitClass(\"player\"))]\n        return c.r, c.g, c.b\n    end\n    \nend",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -9283,15 +9283,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -9347,14 +9347,14 @@ WeakAurasSaved = {
 ["event"] = "Health",
 ["unit"] = "player",
 ["custom_hide"] = "custom",
+["events"] = "GLOBAL_MOUSE_DOWN,GLOBAL_MOUSE_UP, MODIFIER_STATE_CHANGED,PLAYER_LOGIN,PLAYER_ENTERING_WORLD,UPDATE_MOUSEOVER_UNIT",
 ["spellIds"] = {
 },
-["custom"] = "function(event,button)\n    \n    local ShowIt = false\n    \n    if aura_env.config.HideOnRightClick then\n        if event == \"GLOBAL_MOUSE_UP\" then\n            if button == \"RightButton\" then\n                ShowIt = true\n                --return true\n            end\n        end\n        \n    elseif aura_env.config.KeyOption > 1 then\n        \n        if aura_env.config.KeyOption == 2 and IsLeftAltKeyDown() then\n            ShowIt = true\n            --return true\n        elseif aura_env.config.KeyOption == 4 and IsLeftControlKeyDown() then\n            ShowIt = true\n            --return true\n        elseif aura_env.config.KeyOption == 3 and IsLeftShiftKeyDown() then\n            ShowIt = true\n            --return true\n        end\n        \n    else\n        ShowIt = true\n        --return true\n    end \n    \n    --if ShowIt == true and not aura_env.config.ShowMouseOverTarget then\n    --    ShowIt = false\n    --end\n    \n    return ShowIt\n    \nend\n\n\n\n",
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["events"] = "GLOBAL_MOUSE_DOWN,GLOBAL_MOUSE_UP, MODIFIER_STATE_CHANGED,PLAYER_LOGIN,PLAYER_ENTERING_WORLD,UPDATE_MOUSEOVER_UNIT",
+["custom"] = "function(event,button)\n    \n    local ShowIt = false\n    \n    if aura_env.config.HideOnRightClick then\n        if event == \"GLOBAL_MOUSE_UP\" then\n            if button == \"RightButton\" then\n                ShowIt = true\n                --return true\n            end\n        end\n        \n    elseif aura_env.config.KeyOption > 1 then\n        \n        if aura_env.config.KeyOption == 2 and IsLeftAltKeyDown() then\n            ShowIt = true\n            --return true\n        elseif aura_env.config.KeyOption == 4 and IsLeftControlKeyDown() then\n            ShowIt = true\n            --return true\n        elseif aura_env.config.KeyOption == 3 and IsLeftShiftKeyDown() then\n            ShowIt = true\n            --return true\n        end\n        \n    else\n        ShowIt = true\n        --return true\n    end \n    \n    --if ShowIt == true and not aura_env.config.ShowMouseOverTarget then\n    --    ShowIt = false\n    --end\n    \n    return ShowIt\n    \nend\n\n\n\n",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -9367,41 +9367,72 @@ WeakAurasSaved = {
 },
 ["displayText_format_p_format"] = "timed",
 ["internalVersion"] = 83,
-["automaticWidth"] = "Auto",
-["selfPoint"] = "LEFT",
-["displayText_format_p_time_dynamic_threshold"] = 60,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["animation"] = {
+["start"] = {
+["colorR"] = 1,
+["duration"] = "1000",
+["alphaType"] = "custom",
+["colorA"] = 1,
+["colorG"] = 1,
+["alphaFunc"] = "function(progress, start, delta)\n    \n    --[[if aura_env.config[\"HideOnRightClick\"] then\n        if IsMouseButtonDown(\"RightButton\") then\n            aura_env.region:Color(255,255,255,0)\n            return 0\n        else\n            aura_env.region:Color(255,255,255,255)\n            return 1\n        end\n    end\n]]--\n    \n    if aura_env.config[\"ShowOnKeyPress\"] then\n        \n        if aura_env.config[\"KeyOption\"] == 1 then\n            if IsLeftAltKeyDown() then\n                aura_env.region:Color(255,255,255,1)\n                return 1\n            else\n                aura_env.region:Color(255,255,255,0)\n                return 0\n            end\n        elseif  aura_env.config[\"KeyOption\"] == 2 then\n            if IsLeftShiftKeyDown() then\n                aura_env.region:Color(255,255,255,1)\n                return 1\n            else\n                aura_env.region:Color(255,255,255,0)\n                return 0\n            end\n        else\n            if IsLeftControlKeyDown() then\n                aura_env.region:Color(255,255,255,1)\n                return 1\n            else\n                aura_env.region:Color(255,255,255,0)\n                return 0\n            end\n        end\n        \n    end\n    \n    \nend\n\n\n",
+["use_alpha"] = true,
+["type"] = "none",
+["easeType"] = "none",
+["scaley"] = 1,
+["alpha"] = 0,
+["y"] = 0,
+["x"] = 0,
+["scalex"] = 1,
+["preset"] = "fade",
+["easeStrength"] = 3,
+["rotate"] = 0,
+["colorB"] = 1,
+["duration_type"] = "seconds",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeType"] = "none",
+["easeStrength"] = 3,
+["preset"] = "fade",
+["duration_type"] = "seconds",
+},
+},
+["selfPoint"] = "LEFT",
+["displayText_format_p_time_legacy_floor"] = false,
 ["desaturate"] = false,
-["discrete_rotation"] = 0,
+["rotation"] = 0,
 ["font"] = "Arial Narrow",
 ["version"] = 55,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
+["displayText_format_c_format"] = "none",
 ["height"] = 10,
 ["rotate"] = true,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -9412,86 +9443,6 @@ WeakAurasSaved = {
 },
 ["conditions"] = {
 },
-["parent"] = "Ultimate Mouse Cursor",
-["textureWrapMode"] = "CLAMP",
-["displayText_format_p_time_legacy_floor"] = false,
-["rotation"] = 0,
-["shadowXOffset"] = 1,
-["config"] = {
-["MergeRing"] = 1,
-["MainRingColor"] = {
-1,
-0.6627451181411743,
-0.3529411852359772,
-1,
-},
-["ReplaceGCDwCast"] = false,
-["TrailColor"] = {
-0.9764706492424,
-0.98823535442352,
-1,
-1,
-},
-["TrailSE"] = 1,
-["PowerRingClassColor"] = true,
-["GCDRingColor"] = {
-1,
-1,
-0.97254908084869,
-1,
-},
-["TrackHealthPet"] = false,
-["ShowCombatIndicator"] = false,
-["ShowRange"] = 1,
-["CastBar"] = 1,
-["CombatRingColor"] = {
-1,
-0.97254908084869,
-0.97254908084869,
-1,
-},
-["MainRingClassColor"] = false,
-["CombatRingClassColor"] = false,
-["CastRingColor"] = {
-0.98823535442352,
-1,
-0.9764706492424,
-1,
-},
-["TrailClassColor"] = false,
-["CastRingClassColor"] = false,
-["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
-["PowerRingColor"] = {
-1,
-1,
-1,
-1,
-},
-["HideDefaultCastBar"] = false,
-["SwingBar"] = false,
-["ShowMouseOverTarget"] = false,
-["GCDRingClassColor"] = false,
-["ShowTrail"] = false,
-["Crosshair"] = 6,
-},
-["mirror"] = false,
-["displayText_format_p_time_mod_rate"] = true,
-["regionType"] = "text",
-["anchorFrameType"] = "MOUSE",
-["blendMode"] = "BLEND",
-["frameStrata"] = 3,
-["displayText"] = "%c",
-["displayText_format_p_time_precision"] = 1,
-["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura45",
-["wordWrap"] = "WordWrap",
-["justify"] = "RIGHT",
-["semver"] = "1.4.1",
-["tocversion"] = 110005,
-["id"] = "MC Mouseover Target Name",
-["fontSize"] = 12,
-["alpha"] = 1,
-["width"] = 10,
 ["authorOptions"] = {
 {
 ["useName"] = true,
@@ -9842,44 +9793,93 @@ WeakAurasSaved = {
 ["width"] = 1,
 },
 },
+["fontSize"] = 12,
+["automaticWidth"] = "Auto",
+["discrete_rotation"] = 0,
+["shadowXOffset"] = 1,
+["config"] = {
+["MergeRing"] = 1,
+["MainRingColor"] = {
+1,
+0.6627451181411743,
+0.3529411852359772,
+1,
+},
+["ReplaceGCDwCast"] = false,
+["TrailColor"] = {
+0.9764706492424,
+0.98823535442352,
+1,
+1,
+},
+["TrailSE"] = 1,
+["PowerRingClassColor"] = true,
+["GCDRingColor"] = {
+1,
+1,
+0.97254908084869,
+1,
+},
+["TrackHealthPet"] = false,
+["ShowCombatIndicator"] = false,
+["ShowRange"] = 1,
+["CastBar"] = 1,
+["CombatRingColor"] = {
+1,
+0.97254908084869,
+0.97254908084869,
+1,
+},
+["MainRingClassColor"] = false,
+["CombatRingClassColor"] = false,
+["CastRingColor"] = {
+0.98823535442352,
+1,
+0.9764706492424,
+1,
+},
+["TrailClassColor"] = false,
+["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
+["KeyOption"] = 1,
+["PowerRingColor"] = {
+1,
+1,
+1,
+1,
+},
+["TrackinMainRing"] = 1,
+["SwingBar"] = false,
+["ShowMouseOverTarget"] = false,
+["GCDRingClassColor"] = false,
+["ShowTrail"] = false,
+["Crosshair"] = 6,
+},
+["mirror"] = false,
+["shadowYOffset"] = -1,
+["regionType"] = "text",
+["anchorFrameType"] = "MOUSE",
+["blendMode"] = "BLEND",
+["frameStrata"] = 3,
+["textureWrapMode"] = "CLAMP",
+["displayText_format_p_time_precision"] = 1,
+["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura45",
+["wordWrap"] = "WordWrap",
+["justify"] = "RIGHT",
+["semver"] = "1.4.1",
+["tocversion"] = 110005,
+["id"] = "MC Mouseover Target Name",
+["displayText_format_p_time_dynamic_threshold"] = 60,
+["alpha"] = 1,
+["width"] = 10,
+["displayText"] = "%c",
 ["uid"] = "aL7Dyu4Wnvw",
-["displayText_format_c_format"] = "none",
-["animation"] = {
-["start"] = {
-["colorR"] = 1,
-["duration"] = "1000",
-["alphaType"] = "custom",
-["colorA"] = 1,
-["colorG"] = 1,
-["alphaFunc"] = "function(progress, start, delta)\n    \n    --[[if aura_env.config[\"HideOnRightClick\"] then\n        if IsMouseButtonDown(\"RightButton\") then\n            aura_env.region:Color(255,255,255,0)\n            return 0\n        else\n            aura_env.region:Color(255,255,255,255)\n            return 1\n        end\n    end\n]]--\n    \n    if aura_env.config[\"ShowOnKeyPress\"] then\n        \n        if aura_env.config[\"KeyOption\"] == 1 then\n            if IsLeftAltKeyDown() then\n                aura_env.region:Color(255,255,255,1)\n                return 1\n            else\n                aura_env.region:Color(255,255,255,0)\n                return 0\n            end\n        elseif  aura_env.config[\"KeyOption\"] == 2 then\n            if IsLeftShiftKeyDown() then\n                aura_env.region:Color(255,255,255,1)\n                return 1\n            else\n                aura_env.region:Color(255,255,255,0)\n                return 0\n            end\n        else\n            if IsLeftControlKeyDown() then\n                aura_env.region:Color(255,255,255,1)\n                return 1\n            else\n                aura_env.region:Color(255,255,255,0)\n                return 0\n            end\n        end\n        \n    end\n    \n    \nend\n\n\n",
-["use_alpha"] = true,
-["type"] = "none",
-["easeType"] = "none",
-["scaley"] = 1,
-["alpha"] = 0,
-["y"] = 0,
-["x"] = 0,
-["scalex"] = 1,
-["preset"] = "fade",
-["easeStrength"] = 3,
-["rotate"] = 0,
-["colorB"] = 1,
-["duration_type"] = "seconds",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeType"] = "none",
-["easeStrength"] = 3,
-["preset"] = "fade",
-["duration_type"] = "seconds",
+["subRegions"] = {
+{
+["type"] = "subbackground",
 },
 },
+["displayText_format_p_time_mod_rate"] = true,
 ["shadowColor"] = {
 0,
 0,
@@ -9891,7 +9891,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["shadowYOffset"] = -1,
+["parent"] = "Ultimate Mouse Cursor",
 },
 ["HealthPet-Circle"] = {
 ["user_y"] = 0,
@@ -10268,19 +10268,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -10372,17 +10372,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -10569,15 +10569,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -10632,7 +10632,7 @@ WeakAurasSaved = {
 ["names"] = {
 },
 ["use_absorbMode"] = true,
-["custom_hide"] = "timed",
+["debuffType"] = "HELPFUL",
 ["use_message"] = true,
 ["type"] = "custom",
 ["use_absorbHealMode"] = true,
@@ -10644,10 +10644,10 @@ WeakAurasSaved = {
 ["subeventSuffix"] = "_CAST_START",
 ["message"] = "LF Crafter",
 ["unit"] = "player",
-["events"] = "CHAT_MSG_CHANNEL, CHAT_MSG_BN_WHISPER",
 ["custom"] = "function(SenderList, event, ...)\n    local SenderColor = \"FF8080FF\"\n    if event == \"CHAT_MSG_CHANNEL\" then\n        local Sender = AlertSender:match(\"[^-]+\")\n        SenderList[Sender] = \n        {\n            show = true,\n            changed = true,\n            Sender = \"|c\"..SenderColor..Sender..\"|r\",\n            progressType = \"static\",\n        }\n    end\n    \n    if WeakAuras.IsOptionsOpen() then\n        local Sender = \"Unhalted\"\n        SenderList[Sender] = \n        {\n            show = true,\n            changed = true,\n            Sender = \"|c\"..SenderColor..Sender..\"|r\",\n            progressType = \"static\",\n            \n        }\n    end\n    return true\nend",
+["events"] = "CHAT_MSG_CHANNEL, CHAT_MSG_BN_WHISPER",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
+["custom_hide"] = "timed",
 ["use_messageType"] = true,
 ["customVariables"] = "{\n    Sender = \"string\",\n}",
 },
@@ -10660,49 +10660,8 @@ WeakAurasSaved = {
 ["displayText_format_p_time_legacy_floor"] = false,
 ["displayText_format_Text_format"] = "none",
 ["displayText_format_Sender_format"] = "none",
-["wordWrap"] = "WordWrap",
-["preferToUpdate"] = false,
-["font"] = "Friz Quadrata TT",
-["version"] = 4,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
 ["authorOptions"] = {
 },
-["fixedWidth"] = 200,
-["load"] = {
-["use_never"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["faction"] = {
-["single"] = "Alliance",
-["multi"] = {
-["Horde"] = true,
-["Alliance"] = true,
-["Neutral"] = true,
-},
-},
-["use_faction"] = false,
-["size"] = {
-["multi"] = {
-},
-},
-["use_zoneIds"] = true,
-["zoneIds"] = "2112, g142",
-},
-["selfPoint"] = "BOTTOM",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -10723,37 +10682,78 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["fontSize"] = 24,
-["source"] = "import",
-["displayText_format_n_format"] = "none",
-["shadowXOffset"] = 0,
-["displayText_format_Sender_abbreviate_max"] = 8,
+["font"] = "Friz Quadrata TT",
+["version"] = 4,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["yOffset"] = 0,
+["fixedWidth"] = 200,
+["load"] = {
+["use_never"] = true,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+["faction"] = {
+["single"] = "Alliance",
+["multi"] = {
+["Horde"] = true,
+["Alliance"] = true,
+["Neutral"] = true,
+},
+},
+["use_faction"] = false,
+["class"] = {
+["multi"] = {
+},
+},
+["use_zoneIds"] = true,
+["zoneIds"] = "2112, g142",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["displayText"] = "Sender: %Sender",
+["fontSize"] = 24,
+["source"] = "import",
+["displayText_format_n_format"] = "none",
+["shadowXOffset"] = 0,
+["displayText_format_Sender_abbreviate_max"] = 8,
+["parent"] = "Trade Chat Scanner - Sender List",
 ["config"] = {
 },
 ["regionType"] = "text",
-["internalVersion"] = 83,
-["parent"] = "Trade Chat Scanner - Sender List",
-["url"] = "https://wago.io/eXNr2F2Sx/4",
 ["displayText_format_1.sourceName_format"] = "none",
+["wordWrap"] = "WordWrap",
+["displayText_format_p_time_mod_rate"] = true,
+["preferToUpdate"] = false,
 ["displayText_format_p_time_precision"] = 1,
 ["displayText_format_Sender_realm_name"] = "never",
-["semver"] = "1.0.3",
 ["displayText_format_Sender_abbreviate"] = false,
 ["justify"] = "CENTER",
+["semver"] = "1.0.3",
 ["tocversion"] = 100107,
 ["id"] = "List",
 ["displayText_format_Sender_color"] = "class",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["displayText"] = "Sender: %Sender",
+["url"] = "https://wago.io/eXNr2F2Sx/4",
 ["uid"] = "Fvd5SWpf3Om",
-["yOffset"] = 0,
+["internalVersion"] = 83,
 ["displayText_format_1.message_format"] = "none",
 ["shadowColor"] = {
 0,
@@ -10783,7 +10783,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["displayText_format_p_time_mod_rate"] = true,
+["selfPoint"] = "BOTTOM",
 },
 ["Health-Corner"] = {
 ["user_y"] = 0,
@@ -11160,19 +11160,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -11262,17 +11262,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -11459,15 +11459,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -11993,19 +11993,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -12102,17 +12102,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if aura_env.config.GCDRingClassColor then\n        local c = RAID_CLASS_COLORS[select(2,UnitClass(\"player\"))]\n        return c.r, c.g, c.b\n    end\n    \nend",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -12197,15 +12197,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -12633,19 +12633,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -12687,8 +12687,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -12738,17 +12738,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -12861,15 +12861,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -12986,11 +12986,10 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_zoneIds"] = true,
+["use_size"] = true,
 ["class_and_spec"] = {
 },
-["spec_position"] = {
-},
-["use_zoneIds"] = true,
 ["instance_type"] = {
 ["single"] = 205,
 ["multi"] = {
@@ -13009,15 +13008,16 @@ WeakAurasSaved = {
 ["use_level"] = true,
 ["difficulty"] = {
 },
-["use_not_spellknown"] = false,
+["use_spellknown"] = false,
 ["zoneIds"] = "c2274,2214,2215,2255,2256,2339,2248,2022,2023,2024,2025,407,85,37,7,88",
 ["use_zone"] = false,
-["use_spellknown"] = false,
+["use_not_spellknown"] = false,
 ["use_exact_spellknown"] = false,
 ["level_operator"] = {
 ">=",
 },
-["use_size"] = true,
+["spec_position"] = {
+},
 },
 ["useAdjustededMin"] = false,
 ["regionType"] = "aurabar",
@@ -13192,7 +13192,7 @@ WeakAurasSaved = {
 ["text_justify"] = "CENTER",
 ["rotateText"] = "NONE",
 ["type"] = "subtext",
-["text_fontType"] = "OUTLINE",
+["text_visible"] = true,
 ["text_color"] = {
 1,
 0.73725491762161,
@@ -13204,7 +13204,7 @@ WeakAurasSaved = {
 ["text_shadowYOffset"] = 0,
 ["text_text_format_formattedCatchUp_format"] = "none",
 ["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
+["text_fontType"] = "OUTLINE",
 ["text_text_format_remainingUniqueKp_format"] = "none",
 ["text_shadowXOffset"] = 0,
 ["anchor_point"] = "INNER_RIGHT",
@@ -13268,7 +13268,7 @@ WeakAurasSaved = {
 ["width"] = 320,
 ["semver"] = "1.3.1",
 ["frameStrata"] = 1,
-["sparkHidden"] = "NEVER",
+["id"] = "MKPT_Cells",
 ["config"] = {
 ["minimized"] = true,
 ["hideCatchUp"] = false,
@@ -13278,7 +13278,7 @@ WeakAurasSaved = {
 },
 ["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
-["id"] = "MKPT_Cells",
+["sparkHidden"] = "NEVER",
 ["enableGradient"] = false,
 ["inverse"] = false,
 ["actions"] = {
@@ -13503,12 +13503,12 @@ WeakAurasSaved = {
 ["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
-["custom"] = "-- Auto Gossip - Trigger - GOSSIP_SHOW\n\nfunction(event)\n    if event ~= \"GOSSIP_SHOW\" then\n        return false\n    end\n    local options = C_GossipInfo.GetOptions()\n    if #options < 1 then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    local enabled = aura_env.config.auto_gossip_enable\n    if not enabled then\n        return false\n    end\n    local guid = UnitGUID(\"target\") or nil\n    if not guid then\n        guid = UnitGUID(\"mouseover\") or nil\n        if not guid then\n            return false\n        end\n    end\n    local _, _, _, _, _, npcID = strsplit(\"-\", guid)\n    local gossipOptionID = options[1].gossipOptionID or 0\n    local npcs = aura_env.npcs\n    if not npcs then\n        return false\n    end\n    local shouldGossip = npcs[npcID] or false\n    if not shouldGossip then\n        return false\n    end\n    C_Timer.After(0.1, function() C_GossipInfo.SelectOption(gossipOptionID) end)\n    return false\nend",
+["spellIds"] = {
+},
 ["events"] = "GOSSIP_SHOW",
 ["names"] = {
 },
-["spellIds"] = {
-},
+["custom"] = "-- Auto Gossip - Trigger - GOSSIP_SHOW\n\nfunction(event)\n    if event ~= \"GOSSIP_SHOW\" then\n        return false\n    end\n    local options = C_GossipInfo.GetOptions()\n    if #options < 1 then\n        return false\n    end\n    if not aura_env then\n        return false\n    end\n    local enabled = aura_env.config.auto_gossip_enable\n    if not enabled then\n        return false\n    end\n    local guid = UnitGUID(\"target\") or nil\n    if not guid then\n        guid = UnitGUID(\"mouseover\") or nil\n        if not guid then\n            return false\n        end\n    end\n    local _, _, _, _, _, npcID = strsplit(\"-\", guid)\n    local gossipOptionID = options[1].gossipOptionID or 0\n    local npcs = aura_env.npcs\n    if not npcs then\n        return false\n    end\n    local shouldGossip = npcs[npcID] or false\n    if not shouldGossip then\n        return false\n    end\n    C_Timer.After(0.1, function() C_GossipInfo.SelectOption(gossipOptionID) end)\n    return false\nend",
 ["custom_type"] = "event",
 ["debuffType"] = "HELPFUL",
 },
@@ -13535,11 +13535,11 @@ WeakAurasSaved = {
 },
 },
 ["use_never"] = false,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
@@ -13551,19 +13551,19 @@ WeakAurasSaved = {
 ["fontSize"] = 12,
 ["source"] = "import",
 ["shadowXOffset"] = 1,
+["internalVersion"] = 83,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["displayText"] = "",
 ["regionType"] = "text",
-["wordWrap"] = "WordWrap",
+["displayText_format_p_format"] = "timed",
 ["conditions"] = {
 },
+["displayText"] = "",
 ["preferToUpdate"] = false,
-["internalVersion"] = 83,
 ["displayText_format_p_time_precision"] = 1,
 ["uid"] = "hdyllkOU1U2",
 ["animation"] = {
@@ -13597,8 +13597,8 @@ WeakAurasSaved = {
 ["config"] = {
 ["auto_gossip_enable"] = true,
 },
-["parent"] = "Court of Stars Helper",
 ["automaticWidth"] = "Auto",
+["wordWrap"] = "WordWrap",
 ["shadowColor"] = {
 0,
 0,
@@ -13608,7 +13608,7 @@ WeakAurasSaved = {
 ["fixedWidth"] = 200,
 ["information"] = {
 },
-["displayText_format_p_format"] = "timed",
+["parent"] = "Court of Stars Helper",
 },
 ["Mouse Cursor Trail"] = {
 ["wagoID"] = "ZbjlsgMkp",
@@ -13635,14 +13635,14 @@ WeakAurasSaved = {
 ["event"] = "Health",
 ["unit"] = "player",
 ["custom_hide"] = "custom",
+["events"] = "GLOBAL_MOUSE_DOWN,GLOBAL_MOUSE_UP, MODIFIER_STATE_CHANGED,PLAYER_LOGIN,PLAYER_ENTERING_WORLD",
 ["spellIds"] = {
 },
-["custom"] = "function(event,button)\n    \n    if aura_env.config.HideOnRightClick then\n        if event == \"GLOBAL_MOUSE_UP\" then\n            if button == \"RightButton\" then\n                return true\n            end\n        end\n        \n    elseif aura_env.config.KeyOption > 1 then\n        \n        if aura_env.config.KeyOption == 2 and IsLeftAltKeyDown() then\n            return true \n        elseif aura_env.config.KeyOption == 4 and IsLeftControlKeyDown() then\n            return true\n        elseif aura_env.config.KeyOption == 3 and IsLeftShiftKeyDown() then\n            return true\n        end\n        \n    else\n        return true\n    end \n    \nend\n\n\n\n",
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["events"] = "GLOBAL_MOUSE_DOWN,GLOBAL_MOUSE_UP, MODIFIER_STATE_CHANGED,PLAYER_LOGIN,PLAYER_ENTERING_WORLD",
+["custom"] = "function(event,button)\n    \n    if aura_env.config.HideOnRightClick then\n        if event == \"GLOBAL_MOUSE_UP\" then\n            if button == \"RightButton\" then\n                return true\n            end\n        end\n        \n    elseif aura_env.config.KeyOption > 1 then\n        \n        if aura_env.config.KeyOption == 2 and IsLeftAltKeyDown() then\n            return true \n        elseif aura_env.config.KeyOption == 4 and IsLeftControlKeyDown() then\n            return true\n        elseif aura_env.config.KeyOption == 3 and IsLeftShiftKeyDown() then\n            return true\n        end\n        \n    else\n        return true\n    end \n    \nend\n\n\n\n",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -13715,19 +13715,19 @@ WeakAurasSaved = {
 ["rotate"] = false,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -14106,8 +14106,6 @@ WeakAurasSaved = {
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
-["uid"] = "TsSM72A6dK9",
-["width"] = 50,
 ["config"] = {
 ["MergeRing"] = 1,
 ["MainRingColor"] = {
@@ -14151,21 +14149,23 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
 ["ShowTrail"] = false,
 ["Crosshair"] = 6,
 },
+["width"] = 50,
+["uid"] = "TsSM72A6dK9",
 ["conditions"] = {
 },
 ["information"] = {
@@ -14549,19 +14549,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -14603,8 +14603,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -14654,17 +14654,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -14777,15 +14777,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -14840,7 +14840,7 @@ WeakAurasSaved = {
 ["names"] = {
 },
 ["use_absorbMode"] = true,
-["custom_hide"] = "timed",
+["debuffType"] = "HELPFUL",
 ["use_message"] = true,
 ["type"] = "custom",
 ["use_absorbHealMode"] = true,
@@ -14852,10 +14852,10 @@ WeakAurasSaved = {
 ["subeventSuffix"] = "_CAST_START",
 ["message"] = "LF Crafter",
 ["unit"] = "player",
-["events"] = "CHAT_MSG_CHANNEL, CHAT_MSG_BN_WHISPER",
 ["custom"] = "function(MsgFound, event, ...)\n    local SenderColor = \"FF8080FF\"\n    if event == \"CHAT_MSG_CHANNEL\" then\n        local Sender = select(2, ...)\n        local Text = select(1, ...)\n        for i = 1, #aura_env.config.CustomKeyWords do\n            local FindKeyWord = aura_env.config.CustomKeyWords[i].CustomKeyWord\n            if string.find(Text, FindKeyWord) then\n                MsgFound[Sender] = \n                {\n                    show = true,\n                    changed = true,\n                    Sender = \"|c\"..SenderColor..Sender..\"|r\",\n                    Text = Text,\n                    progressType = \"timed\",\n                    duration = aura_env.config.PopupDuration,\n                    autoHide = true,\n                }\n                AlertSender = Sender\n                --if aura_env.config[\"PrintFoundSenderInChat\"] then\n                    --DEFAULT_CHAT_FRAME:AddMessage(\"|cFF8080FFTrade Chat Scanner|r: \"..Sender)\n                --end\n            end\n        end\n    end\n    \n    if WeakAuras.IsOptionsOpen() then\n        local Sender = \"Unhalted\"\n        local Text = \"LF Crafter\"\n        MsgFound[Sender] = \n        {\n            show = true,\n            changed = true,\n            Sender = \"|c\"..SenderColor..Sender..\"|r\",\n            Text = Text,\n            progressType = \"timed\",\n            duration = 5,\n            autoHide = true,\n        }\n    end\n    return true\nend",
+["events"] = "CHAT_MSG_CHANNEL, CHAT_MSG_BN_WHISPER",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
+["custom_hide"] = "timed",
 ["use_messageType"] = true,
 ["customVariables"] = "{\n    Sender = \"string\",\n    Text = \"string\",\n}",
 },
@@ -14868,15 +14868,6 @@ WeakAurasSaved = {
 ["displayText_format_p_time_legacy_floor"] = false,
 ["displayText_format_Text_format"] = "none",
 ["displayText_format_Sender_format"] = "none",
-["wordWrap"] = "WordWrap",
-["preferToUpdate"] = false,
-["font"] = "Friz Quadrata TT",
-["version"] = 4,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
 ["authorOptions"] = {
 {
 ["type"] = "header",
@@ -14944,37 +14935,6 @@ WeakAurasSaved = {
 ["size"] = 10,
 },
 },
-["fixedWidth"] = 200,
-["load"] = {
-["faction"] = {
-["single"] = "Alliance",
-["multi"] = {
-["Horde"] = true,
-["Alliance"] = true,
-["Neutral"] = true,
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-["use_zoneIds"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["use_faction"] = false,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["zoneIds"] = "2112, g142",
-},
-["selfPoint"] = "BOTTOM",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -14995,17 +14955,57 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["fontSize"] = 24,
-["source"] = "import",
-["displayText_format_n_format"] = "none",
-["shadowXOffset"] = 0,
-["displayText_format_Sender_abbreviate_max"] = 8,
+["font"] = "Friz Quadrata TT",
+["version"] = 4,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["yOffset"] = 0,
+["fixedWidth"] = 200,
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_zoneIds"] = true,
+["faction"] = {
+["single"] = "Alliance",
+["multi"] = {
+["Horde"] = true,
+["Alliance"] = true,
+["Neutral"] = true,
+},
+},
+["use_faction"] = false,
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["zoneIds"] = "2112, g142",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["displayText"] = "%Sender: %Text",
+["fontSize"] = 24,
+["source"] = "import",
+["displayText_format_n_format"] = "none",
+["shadowXOffset"] = 0,
+["displayText_format_Sender_abbreviate_max"] = 8,
+["parent"] = "Trade Chat Scanner - Message List",
 ["config"] = {
 ["CustomKeyWords"] = {
 {
@@ -15046,23 +15046,23 @@ WeakAurasSaved = {
 ["PrintFoundSenderInChat"] = true,
 },
 ["regionType"] = "text",
-["internalVersion"] = 83,
-["parent"] = "Trade Chat Scanner - Message List",
-["url"] = "https://wago.io/eXNr2F2Sx/4",
 ["displayText_format_1.sourceName_format"] = "none",
+["wordWrap"] = "WordWrap",
+["displayText_format_p_time_mod_rate"] = true,
+["preferToUpdate"] = false,
 ["displayText_format_p_time_precision"] = 1,
 ["displayText_format_Sender_realm_name"] = "never",
-["semver"] = "1.0.3",
 ["displayText_format_Sender_abbreviate"] = false,
 ["justify"] = "CENTER",
+["semver"] = "1.0.3",
 ["tocversion"] = 100107,
 ["id"] = "Message",
 ["displayText_format_Sender_color"] = "class",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["displayText"] = "%Sender: %Text",
+["url"] = "https://wago.io/eXNr2F2Sx/4",
 ["uid"] = "LtKSMGenTZg",
-["yOffset"] = 0,
+["internalVersion"] = 83,
 ["displayText_format_1.message_format"] = "none",
 ["shadowColor"] = {
 0,
@@ -15092,7 +15092,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["displayText_format_p_time_mod_rate"] = true,
+["selfPoint"] = "BOTTOM",
 },
 ["Mouse Cursor Dot"] = {
 ["wagoID"] = "ZbjlsgMkp",
@@ -15119,14 +15119,14 @@ WeakAurasSaved = {
 ["event"] = "Health",
 ["unit"] = "player",
 ["custom_hide"] = "custom",
+["events"] = "GLOBAL_MOUSE_DOWN,GLOBAL_MOUSE_UP, MODIFIER_STATE_CHANGED,PLAYER_LOGIN,PLAYER_ENTERING_WORLD",
 ["spellIds"] = {
 },
-["custom"] = "function(event,button)\n    \n    if aura_env.config.HideOnRightClick then\n        if event == \"GLOBAL_MOUSE_UP\" then\n            if button == \"RightButton\" then\n                return true\n            end\n        end\n        \n    elseif aura_env.config.KeyOption > 1 then\n        \n        if aura_env.config.KeyOption == 2 and IsLeftAltKeyDown() then\n            return true \n        elseif aura_env.config.KeyOption == 4 and IsLeftControlKeyDown() then\n            return true\n        elseif aura_env.config.KeyOption == 3 and IsLeftShiftKeyDown() then\n            return true\n        end\n        \n    else\n        return true\n    end \n    \nend\n\n\n\n",
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["events"] = "GLOBAL_MOUSE_DOWN,GLOBAL_MOUSE_UP, MODIFIER_STATE_CHANGED,PLAYER_LOGIN,PLAYER_ENTERING_WORLD",
+["custom"] = "function(event,button)\n    \n    if aura_env.config.HideOnRightClick then\n        if event == \"GLOBAL_MOUSE_UP\" then\n            if button == \"RightButton\" then\n                return true\n            end\n        end\n        \n    elseif aura_env.config.KeyOption > 1 then\n        \n        if aura_env.config.KeyOption == 2 and IsLeftAltKeyDown() then\n            return true \n        elseif aura_env.config.KeyOption == 4 and IsLeftControlKeyDown() then\n            return true\n        elseif aura_env.config.KeyOption == 3 and IsLeftShiftKeyDown() then\n            return true\n        end\n        \n    else\n        return true\n    end \n    \nend\n\n\n\n",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -15186,19 +15186,19 @@ WeakAurasSaved = {
 ["rotate"] = true,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -15227,7 +15227,64 @@ WeakAurasSaved = {
 ["alpha"] = 0.3,
 ["anchorFrameType"] = "MOUSE",
 ["xOffset"] = 0,
-["uid"] = "Rmtk(1Xv0OT",
+["config"] = {
+["MergeRing"] = 1,
+["MainRingColor"] = {
+1,
+0.5215686559677124,
+0.062745101749897,
+0.6718748807907104,
+},
+["ReplaceGCDwCast"] = false,
+["TrailColor"] = {
+0.9764706492424,
+0.98823535442352,
+1,
+1,
+},
+["TrailSE"] = 1,
+["PowerRingClassColor"] = true,
+["GCDRingColor"] = {
+1,
+1,
+0.97254908084869,
+1,
+},
+["TrackHealthPet"] = false,
+["ShowCombatIndicator"] = false,
+["ShowRange"] = 2,
+["CastBar"] = 1,
+["CombatRingColor"] = {
+1,
+0.97254908084869,
+0.97254908084869,
+1,
+},
+["MainRingClassColor"] = false,
+["CombatRingClassColor"] = false,
+["CastRingColor"] = {
+0.98823535442352,
+1,
+0.9764706492424,
+1,
+},
+["TrailClassColor"] = false,
+["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
+["KeyOption"] = 1,
+["PowerRingColor"] = {
+1,
+1,
+1,
+1,
+},
+["TrackinMainRing"] = 4,
+["SwingBar"] = true,
+["ShowMouseOverTarget"] = false,
+["GCDRingClassColor"] = false,
+["ShowTrail"] = false,
+["Crosshair"] = 6,
+},
 ["authorOptions"] = {
 {
 ["useName"] = true,
@@ -15578,64 +15635,7 @@ WeakAurasSaved = {
 ["width"] = 1,
 },
 },
-["config"] = {
-["MergeRing"] = 1,
-["MainRingColor"] = {
-1,
-0.5215686559677124,
-0.062745101749897,
-0.6718748807907104,
-},
-["ReplaceGCDwCast"] = false,
-["TrailColor"] = {
-0.9764706492424,
-0.98823535442352,
-1,
-1,
-},
-["TrailSE"] = 1,
-["PowerRingClassColor"] = true,
-["GCDRingColor"] = {
-1,
-1,
-0.97254908084869,
-1,
-},
-["TrackHealthPet"] = false,
-["ShowCombatIndicator"] = false,
-["ShowRange"] = 2,
-["CastBar"] = 1,
-["CombatRingColor"] = {
-1,
-0.97254908084869,
-0.97254908084869,
-1,
-},
-["MainRingClassColor"] = false,
-["CombatRingClassColor"] = false,
-["CastRingColor"] = {
-0.98823535442352,
-1,
-0.9764706492424,
-1,
-},
-["TrailClassColor"] = false,
-["CastRingClassColor"] = false,
-["KeyOption"] = 1,
-["TrackinMainRing"] = 4,
-["PowerRingColor"] = {
-1,
-1,
-1,
-1,
-},
-["HideDefaultCastBar"] = false,
-["SwingBar"] = true,
-["ShowMouseOverTarget"] = false,
-["GCDRingClassColor"] = false,
-["ShowTrail"] = false,
-["Crosshair"] = 6,
-},
+["uid"] = "Rmtk(1Xv0OT",
 ["conditions"] = {
 },
 ["information"] = {
@@ -16019,19 +16019,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -16073,8 +16073,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -16124,17 +16124,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -16247,15 +16247,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -16655,19 +16655,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -16757,17 +16757,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -16954,15 +16954,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -17088,18 +17088,18 @@ WeakAurasSaved = {
 ["borderEdge"] = "Square Full White",
 ["regionType"] = "group",
 ["borderSize"] = 2,
-["config"] = {
-},
+["uid"] = "Qfc9o8810Yf",
 ["borderOffset"] = 4,
 ["semver"] = "1.0.25",
 ["tocversion"] = 100007,
 ["id"] = "Court of Stars Helper",
 ["xOffset"] = 0,
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["groupIcon"] = 237551,
+["config"] = {
+},
 ["borderInset"] = 1,
-["uid"] = "Qfc9o8810Yf",
 ["selfPoint"] = "CENTER",
 ["conditions"] = {
 },
@@ -17107,7 +17107,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["groupOffset"] = false,
 },
-["alpha"] = 1,
+["frameStrata"] = 1,
 },
 ["MC Distance 3"] = {
 ["user_y"] = 0,
@@ -17484,19 +17484,19 @@ WeakAurasSaved = {
 ["font"] = "Friz Quadrata TT",
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -17538,8 +17538,8 @@ WeakAurasSaved = {
 ["spellName"] = 0,
 ["use_absorbMode"] = true,
 ["event"] = "Range Check",
-["use_showIncomingHeal"] = false,
 ["realSpellName"] = 0,
+["use_showIncomingHeal"] = false,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -17589,17 +17589,17 @@ WeakAurasSaved = {
 ["type"] = "none",
 ["scalex"] = 1,
 ["easeType"] = "none",
-["x"] = 0,
-["scaley"] = 1,
+["colorType"] = "custom",
+["use_color"] = true,
 ["alpha"] = 0,
 ["easeStrength"] = 3,
 ["y"] = 0,
-["colorType"] = "custom",
+["x"] = 0,
 ["preset"] = "fade",
 ["colorA"] = 1,
 ["colorFunc"] = "function()\n    if not aura_env.config.TrackHealth then\n        return 255,255,255,0\n    end\n    \nend\n\n\n",
 ["rotate"] = 0,
-["use_color"] = true,
+["scaley"] = 1,
 ["duration"] = "10",
 },
 ["main"] = {
@@ -17712,15 +17712,15 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
@@ -17844,18 +17844,18 @@ WeakAurasSaved = {
 ["borderEdge"] = "Square Full White",
 ["regionType"] = "group",
 ["borderSize"] = 2,
-["uid"] = "fNmjeXMHU97",
+["config"] = {
+},
 ["borderOffset"] = 4,
 ["semver"] = "1.0.3",
 ["tocversion"] = 100107,
 ["id"] = "Trade Chat Scanner",
-["alpha"] = 1,
 ["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["groupIcon"] = "879826",
+["uid"] = "fNmjeXMHU97",
 ["borderInset"] = 1,
-["config"] = {
-},
 ["xOffset"] = 0,
 ["conditions"] = {
 },
@@ -17867,7 +17867,8 @@ WeakAurasSaved = {
 ["user_y"] = 0,
 ["preferToUpdate"] = false,
 ["user_x"] = 0,
-["parent"] = "Ultimate Mouse Cursor",
+["color"] = {
+},
 ["adjustedMax"] = "",
 ["adjustedMin"] = "",
 ["yOffset"] = 0,
@@ -17879,22 +17880,10 @@ WeakAurasSaved = {
 },
 ["desaturateBackground"] = false,
 ["wagoID"] = "ZbjlsgMkp",
-["color"] = {
-},
+["xOffset"] = 0,
 ["sameTexture"] = true,
 ["url"] = "https://wago.io/ZbjlsgMkp/55",
-["actions"] = {
-["start"] = {
-["custom"] = "--[[\nif not aura_env.config[\"SwingBar\"] then\n    aura_env.region:Color(255,255,255,0)\n    aura_env.region:SetBackgroundColor (128,128,128,0)\n    \n    \nend\n--]]",
-["do_custom"] = true,
-},
-["init"] = {
-["custom"] = "\n--[[\nif not aura_env.config.SwingBar then\n    aura_env.region:Color(255,255,255,0)\n    aura_env.region:SetBackgroundColor (128,128,128,0)\n    \nend\n\n\n--]]",
-["do_custom"] = true,
-},
-["finish"] = {
-},
-},
+["desaturateForeground"] = false,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -17961,8 +17950,13 @@ WeakAurasSaved = {
 },
 ["selfPoint"] = "CENTER",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 0,
-["desaturateForeground"] = false,
+["parent"] = "Ultimate Mouse Cursor",
+["backgroundColor"] = {
+0.50196078431373,
+0.50196078431373,
+0.50196078431373,
+0,
+},
 ["animation"] = {
 ["start"] = {
 ["colorR"] = 1,
@@ -18011,19 +18005,19 @@ WeakAurasSaved = {
 ["crop_x"] = 0.41,
 ["load"] = {
 ["zoneIds"] = "",
+["instance_type"] = {
+},
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["instance_type"] = {
-},
 ["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -18032,21 +18026,20 @@ WeakAurasSaved = {
 },
 },
 },
-["backgroundColor"] = {
-0.50196078431373,
-0.50196078431373,
-0.50196078431373,
-0,
+["actions"] = {
+["start"] = {
+["custom"] = "--[[\nif not aura_env.config[\"SwingBar\"] then\n    aura_env.region:Color(255,255,255,0)\n    aura_env.region:SetBackgroundColor (128,128,128,0)\n    \n    \nend\n--]]",
+["do_custom"] = true,
+},
+["init"] = {
+["custom"] = "\n--[[\nif not aura_env.config.SwingBar then\n    aura_env.region:Color(255,255,255,0)\n    aura_env.region:SetBackgroundColor (128,128,128,0)\n    \nend\n\n\n--]]",
+["do_custom"] = true,
+},
+["finish"] = {
+},
 },
 ["useAdjustededMax"] = false,
 ["textureWrapMode"] = "CLAMP",
-["uid"] = "Wb6LrTEHFfj",
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura73",
-["crop_y"] = 0.41,
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura69",
-["smoothProgress"] = false,
-["anchorFrameFrame"] = "WeakAuras:Mouse Cursor Dot",
-["regionType"] = "progresstexture",
 ["config"] = {
 ["MergeRing"] = 1,
 ["MainRingColor"] = {
@@ -18090,21 +18083,28 @@ WeakAurasSaved = {
 },
 ["TrailClassColor"] = false,
 ["CastRingClassColor"] = false,
+["HideDefaultCastBar"] = false,
 ["KeyOption"] = 1,
-["TrackinMainRing"] = 1,
 ["PowerRingColor"] = {
 1,
 1,
 1,
 1,
 },
-["HideDefaultCastBar"] = false,
+["TrackinMainRing"] = 1,
 ["SwingBar"] = false,
 ["ShowMouseOverTarget"] = false,
 ["GCDRingClassColor"] = false,
 ["ShowTrail"] = false,
 ["Crosshair"] = 6,
 },
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura73",
+["crop_y"] = 0.41,
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura69",
+["smoothProgress"] = false,
+["anchorFrameFrame"] = "WeakAuras:Mouse Cursor Dot",
+["regionType"] = "progresstexture",
+["uid"] = "Wb6LrTEHFfj",
 ["blendMode"] = "BLEND",
 ["startAngle"] = 0,
 ["compress"] = false,
@@ -18117,9 +18117,9 @@ WeakAurasSaved = {
 ["tocversion"] = 110005,
 ["id"] = "Swing-Circle",
 ["fontSize"] = 12,
-["frameStrata"] = 1,
-["width"] = 40,
 ["alpha"] = 1,
+["width"] = 40,
+["frameStrata"] = 1,
 ["auraRotation"] = 0,
 ["inverse"] = false,
 ["authorOptions"] = {

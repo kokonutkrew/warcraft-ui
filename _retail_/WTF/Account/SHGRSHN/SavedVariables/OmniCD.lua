@@ -31,7 +31,7 @@ OmniCDDB = {
 ["Samoansizzle - Area 52"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
 ["Samoantitan - Area 52"] = "Default",
-["Crankcraft - Area 52"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
 ["Samoanlegend - Area 52"] = "Default",
 ["Samoansage - Emerald Dream"] = "Default",
 ["Buycraft - Area 52"] = "Default",
@@ -41,7 +41,7 @@ OmniCDDB = {
 ["Threadcraft - Area 52"] = "Default",
 ["Samoansage - Area 52"] = "Default",
 ["Farmcraft - Area 52"] = "Default",
-["Shgrshn - Tichondrius"] = "Default",
+["Crankcraft - Area 52"] = "Default",
 ["Samoansavage - Emerald Dream"] = "Default",
 },
 ["namespaces"] = {

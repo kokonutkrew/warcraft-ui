@@ -744,12 +744,7 @@ nil,
 },
 ["Prat_Font"] = {
 },
-["Prat_KeyBindings"] = {
-["profiles"] = {
-["Default"] = {
-["on"] = false,
-},
-},
+["Prat_Bubbles"] = {
 },
 ["Prat_DebugModules"] = {
 },
@@ -759,9 +754,14 @@ nil,
 },
 ["Prat_Achievements"] = {
 },
-["Prat_Alias"] = {
+["Prat_Clear"] = {
+["profiles"] = {
+["Default"] = {
+["on"] = true,
 },
-["Prat_NewcomersChat"] = {
+},
+},
+["Prat_Alias"] = {
 },
 ["Prat_OriginalButtons"] = {
 },
@@ -780,12 +780,7 @@ nil,
 },
 },
 },
-["Prat_Clear"] = {
-["profiles"] = {
-["Default"] = {
-["on"] = true,
-},
-},
+["Prat_NewcomersChat"] = {
 },
 ["Prat_ChatLog"] = {
 ["profiles"] = {
@@ -798,7 +793,12 @@ nil,
 },
 ["Prat_Buttons"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_KeyBindings"] = {
+["profiles"] = {
+["Default"] = {
+["on"] = false,
+},
+},
 },
 ["Prat_HoverTips"] = {
 },
@@ -835,15 +835,15 @@ nil,
 ["Samoansage - Tichondrius"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Threadcraft - Area 52"] = "Default",
-["Samoansage - Emerald Dream"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
 ["Samoantank - Tichondrius"] = "Default",
 ["Samoantitan - Emerald Dream"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
 ["Forgecraft - Emerald Dream"] = "Default",
 ["Samoantitan - Area 52"] = "Default",
 ["Samoanranger - Emerald Dream"] = "Default",
-["Samoanstrafe - Area 52"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
 ["Samoanbeast - Ravenholdt"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
@@ -851,7 +851,7 @@ nil,
 ["Farmcraft - Emerald Dream"] = "Default",
 ["Shgrshn - Tichondrius"] = "Default",
 ["Buycraft - Area 52"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
 ["Samoanbreach - Area 52"] = "Default",
 ["Kkelly - Moon Guard"] = "Default",
 ["Samoanshield - Area 52"] = "Default",

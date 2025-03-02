@@ -15,6 +15,8 @@ VER 3 0100000000000002 ".f13 Battle Pet" "INV_Misc_QuestionMark"
 END
 VER 3 010000000000000D ".Form Treant" "INV_Misc_QuestionMark"
 #showtooltip
+/cqs
+/stopcasting
 /use [noform:1]treant form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
 END
 VER 3 010000000000001A ".Form3Travel" "INV_Misc_QuestionMark"
@@ -23,6 +25,8 @@ VER 3 010000000000001A ".Form3Travel" "INV_Misc_QuestionMark"
 END
 VER 3 010000000000000E ".FormBear" "INV_Misc_QuestionMark"
 #showtooltip
+/cqs
+/stopcasting
 /use [noform:1]bear form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
 END
 VER 3 010000000000001B ".FormBear1" "INV_Misc_QuestionMark"
@@ -33,6 +37,8 @@ VER 3 010000000000001B ".FormBear1" "INV_Misc_QuestionMark"
 END
 VER 3 010000000000000F ".FormCat" "INV_Misc_QuestionMark"
 #showtooltip
+/cqs
+/stopcasting
 /use [stealth,spec:2]rake;[stealth,talent:3/2]rake;[stealth]shred;[nostealth,nocombat,stance:2]prowl;[nostance:2]cat form; [nostealth,combat]shadowmeld
 END
 VER 3 010000000000001C ".FormFour4" "INV_Misc_QuestionMark"

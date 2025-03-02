@@ -8,6 +8,7 @@ Module.db.auras = {
     418563, -- WoW's 19th Anniversary
 
     -- Dragonflight
+    392960, -- Waygate Travel
     384317, -- Contract: Artisan's Consortium 1
     384320, -- Contract: Artisan's Consortium 2
     384321, -- Contract: Artisan's Consortium 3
@@ -68,4 +69,6 @@ Module.db.gameTimeAuras = {
     423861, -- Mastery of Timeways
     455050, -- Blessings of the Bronze Dragonflight
     465631, -- Blessings of the Bronze Dragonflight
+    471543, -- Knowledge of Timeways
+    471544, -- Mastery of Timeways
 }

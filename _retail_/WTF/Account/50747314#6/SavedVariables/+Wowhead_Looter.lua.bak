@@ -1,0 +1,176 @@
+
+wlTime = 1737669604
+wlRegionBuildings = {
+{
+["state"] = 1,
+["contribed"] = 0.4921440184116364,
+["buffs"] = {
+239645,
+237139,
+},
+["id"] = 1,
+["useTime"] = false,
+["timeStart"] = 1736755176,
+["realm"] = 162,
+},
+nil,
+{
+["state"] = 1,
+["contribed"] = 0.01263521984219551,
+["buffs"] = {
+239648,
+240986,
+},
+["id"] = 3,
+["useTime"] = false,
+["timeStart"] = 1737646274,
+["realm"] = 162,
+},
+{
+["state"] = 1,
+["contribed"] = 0.6503970623016357,
+["buffs"] = {
+239647,
+240985,
+},
+["id"] = 4,
+["useTime"] = false,
+["timeStart"] = 1736459101,
+["realm"] = 162,
+},
+[11] = {
+["state"] = 4,
+["contribed"] = 0,
+["buffs"] = {
+},
+["id"] = 11,
+["useTime"] = false,
+["timeStart"] = 1737669603,
+["realm"] = 162,
+},
+[116] = {
+["state"] = 2,
+["timeNext"] = 1737884664,
+["contribed"] = 1,
+["buffs"] = {
+},
+["id"] = 116,
+["useTime"] = false,
+["timeStart"] = 1737279864,
+["realm"] = 162,
+},
+[117] = {
+["state"] = 4,
+["contribed"] = 0,
+["buffs"] = {
+},
+["id"] = 117,
+["useTime"] = false,
+["timeStart"] = 1737669603,
+["realm"] = 162,
+},
+[118] = {
+["state"] = 2,
+["timeNext"] = 1738020019,
+["contribed"] = 1,
+["buffs"] = {
+},
+["id"] = 118,
+["useTime"] = false,
+["timeStart"] = 1737415219,
+["realm"] = 162,
+},
+}
+wlVersion = 110007
+wlUploaded = 1
+wlStats = "1^0^0^0^0^0^enUS^58680"
+wlExportData = ""
+wlRealmList = {
+["US"] = 1,
+}
+wlAuction = {
+}
+wlEvent = {
+["Malias^Emerald Dream"] = {
+{
+{
+["date"] = "1^23^2025",
+["what"] = "login",
+},
+},
+},
+["Nbmgfigjreit^Emerald Dream"] = {
+{
+{
+["date"] = "1^23^2025",
+["what"] = "login",
+},
+},
+},
+}
+wlItemSuffix = {
+}
+wlObject = {
+}
+wlProfile = {
+["Malias^Emerald Dream"] = {
+["race"] = "Human",
+["faction"] = "Alliance",
+["class"] = "PRIEST",
+["sex"] = 3,
+["n"] = 1,
+},
+["Nbmgfigjreit^Emerald Dream"] = {
+["race"] = "Dracthyr",
+["faction"] = "Alliance",
+["class"] = "HUNTER",
+["sex"] = 3,
+["n"] = 1,
+},
+}
+wlUnit = {
+["49874"] = {
+["spec"] = {
+[0] = {
+["spell"] = {
+[349927] = 15,
+[80676] = 3,
+},
+},
+},
+},
+}
+wlItemDurability = {
+[187765] = 25,
+[232347] = 0,
+[232351] = 0,
+[187766] = 18,
+[232348] = 0,
+[6948] = 0,
+[205456] = 0,
+[232279] = 30,
+[187767] = 55,
+[232349] = 0,
+[35] = 25,
+[187768] = 18,
+[187763] = 18,
+[187764] = 40,
+[232346] = 0,
+[232350] = 0,
+[232284] = 70,
+[232286] = 45,
+[232285] = 30,
+[62328] = 0,
+[232277] = 65,
+[232287] = 90,
+}
+wlGarrisonMissions = {
+}
+wlBattlePetStats = nil
+wlItemBonuses = {
+}
+wlDailies = "r162=1737730800,p7899.2248.1737669457.1737672929.3472,p7899.2248.1737669552.1737672929.3377,;"
+wlWorldQuests = ""
+wlContributionQuests = {
+}
+wlTradingPostItems = ""

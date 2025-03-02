@@ -1,6 +1,6 @@
 local L = LibStub("AceLocale-3.0"):NewLocale("OmniAuras", "enUS", true)
+if not L then return end
 
-L = L or {}
 L["%s added to blacklist"] = true
 L["|cffff2020Only applies to auras that have Glow enabled in the Auras tab"] = true
 L["|cffff2020Only applies to auras that have Larger Icon enabled in the Auras tab"] = true
@@ -86,6 +86,7 @@ L["disorient"] = "Disorient"
 L["dispel"] = "Other: Dispel Protection/Priority"
 L["dispelProtection"] = "Dispel Protection"
 L["Display a glow animation around an icon when a new aura is shown"] = true
+L["Display NPC debuffs that are dispellable by the player as larger boss debuffs"] = true
 L["Draw Swipe Edge"] = true
 L["Enable"] = true
 L["Enable enemy player nameplates from the interface option to activate this menu."] = true
@@ -96,6 +97,7 @@ L["Enabling this option will show selected minion nameplates only. Selected unit
 L["Enemy Minion NamePlates"] = true
 L["Enemy Nameplate"] = true
 L["Enemy Player NamePlates"] = true
+L["Enlarge Dispellable NPC Debuffs"] = true
 L["Enter aura ID to add"] = true
 L["Enter aura ID to add/edit"] = true
 L["Export"] = true
@@ -207,6 +209,7 @@ L["onCd"] = "On CD"
 L["Only show CC auras that are enabled on minion nameplates"] = true
 L["Only show CC auras that are enabled."] = true
 L["Only Show CC on Minions"] = true
+L["Only show player applied debuff on enemy nameplates"] = true
 L["otherImmunity"] = "Immunity: Others"
 L["Padding X"] = true
 L["party"] = "Party"
@@ -337,3 +340,5 @@ L["When using Blizzard Default Location, use the Global Scale option to resize i
 L["When you are in a raid group outside of arena and using the Blizzard Default Location, the number of buffs/debuffs are limited to 6/3 to prevent them from covering adjacent frames."] = true
 L["Width"] = true
 L["Zone"] = true
+
+

@@ -3,9 +3,9 @@
 --------------------------------------------------------------------------------------------
 -- Locale/deDE.lua - Strings for deDE
 --
--- Author: Expelliarm5s / August 2024 / All Rights Reserved
+-- Author: Expelliarm5s / November 2024 / All Rights Reserved
 --
--- Version 1.2.6
+-- Version 1.2.7
 ------------------------------------------------------------------------------
 -- luacheck: max line length 350
 

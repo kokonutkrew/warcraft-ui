@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- PetItem_TSM.lua - Pet Item Functions
 --
--- Author: Expelliarm5s / August 2024 / All Rights Reserved
+-- Author: Expelliarm5s / November 2024 / All Rights Reserved
 --
--- Version 1.2.6
+-- Version 1.2.7
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 

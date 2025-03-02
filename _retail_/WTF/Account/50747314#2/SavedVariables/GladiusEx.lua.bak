@@ -85,9 +85,9 @@ GladiusExDB = {
 },
 ["party_Clicks"] = {
 },
-["party_Interrupts"] = {
-},
 ["Announcements"] = {
+},
+["party_Interrupts"] = {
 },
 ["Alerts"] = {
 },
@@ -105,8 +105,9 @@ GladiusExDB = {
 },
 },
 ["profileKeys"] = {
-["Sphinx - Emerald Dream"] = "Default",
+["Dazzledame - Emerald Dream"] = "Default",
 ["Blawesum - Emerald Dream"] = "Default",
+["Sphinx - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

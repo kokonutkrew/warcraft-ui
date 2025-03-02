@@ -1,1 +1,0 @@
-local HPH = LibStub("AceAddon-3.0"):NewAddon("HPH", "AceEvent-3.0")

@@ -1,9 +1,4 @@
-local E, L, C = select(2, ...):unpack()
-
-local GetSpellInfo = C_Spell and C_Spell.GetSpellName or GetSpellInfo
-local GetSpellTexture = C_Spell and C_Spell.GetSpellTexture or GetSpellTexture
-local GetSpellLink = C_Spell and C_Spell.GetSpellLink or GetSpellLink
-local GetSpellDescription = C_Spell and C_Spell.GetSpellDescription or GetSpellDescription
+local E, L, C = unpack(select(2, ...))
 
 local tooltipFix = {
 	[362486] = 353114,
@@ -45,29 +40,29 @@ local auras = {
 			end,
 			confirm = E.ConfirmAction,
 		},
-		list_INTERRUPT = { -- NOTE: "list_" triggers Flow-Nopadding-OmniCD layout
+		list_INTERRUPT = { -- list_ triggers Flow-Nopadding-OmniCDC layout
 			name = L["Interrupts"],
 			order = 10,
 			type = "group",
-			args = {}--E.spells.INTERRUPT,
+			args = {}
 		},
 		list_HARMFUL = {
 			name = L["Debuffs"],
 			order = 20,
 			type = "group",
-			args = {}--E.spells.HARMFUL,
+			args = {}
 		},
 		list_HELPFUL = {
 			name = L["Buffs"],
 			order = 30,
 			type = "group",
-			args = {}--E.spells.HELPFUL,
+			args = {}
 		},
 		list_PVE = {
 			name = L["NPC Auras"],
 			order = 40,
 			type = "group",
-			args = {}--E.spells.PVE,
+			args = {}
 		},
 		auraFiltered = {
 			name = L["Filters"],
@@ -82,10 +77,9 @@ local auras = {
 					set = function(info, state) E.profile.auraFiltered.noFriend[ info[#info] ] = state E:Refresh() end,
 					args = {
 						["212183"] = {
-							image = GetSpellTexture(212183), imageCoords = E.BORDERLESS_TCOORDS,
-							name = GetSpellInfo(212183),
-							desc = E.isClassic and GetSpellDescription(212183) or nil,
-							tooltipHyperlink = not E.isClassic and GetSpellLink(212183) or nil,
+							image = C_Spell.GetSpellTexture(212183), imageCoords = E.BORDERLESS_TCOORDS,
+							name = C_Spell.GetSpellName(212183),
+							tooltipHyperlink = C_Spell.GetSpellLink(212183),
 							type = "toggle",
 						},
 					},
@@ -107,42 +101,45 @@ local auraItemsOrdered = {
 	[6] = "P",
 	[7] = "l",
 	[8] = "g",
-	[9] = "a",
+	--[9] = "a",
+	[9] = "Np"
 }
 
 local itemIndexToKey = { -- treat as hash table
 	[1] = "raidFrame",
 	[2] = "nameplate",
 	[3] = "friendlyNameplate",
-	[4] = "unitFrame",	-- target/focus/pet/party unitFrame
-	[5] = "arenaFrame",	-- arena unitFrame
-	[6] = "playerFrame",	-- player unitFrame and nameplate
+	[4] = "unitFrame",
+	[5] = "arenaFrame",
+	[6] = "playerFrame",	-- player unitFrame and player nameplate
 	[7] = "largerIcon",
 	[8] = "glow",
-	[9] = "alert",
+	--[9] = "alert",
+	[9] = "byPlayer"
 }
 
 local header = {
 	name = "header",
 	order = 0,
-	type = "group", dialogControl = "InlineGroupList2-OmniCD", inline = true,
+	type = "group", dialogControl = "InlineGroupList2-OmniCDC", inline = true,
 	args = {
-		li0 = { name = "", order = 0, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 1, },
-		li1 = { name = "R", desc = L["Raid Frame"], order = 1, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li2 = { name = "|cffff2020N|r", desc = L["Enemy Nameplate"], order = 2, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li3 = { name = "|cff20ff20N|r", desc = L["Friendly Nameplate"], order = 3, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li4 = { name = "U", desc = L["Unit Frame"], order = 4, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li5 = { name = "A", desc = L["Arena Unit Frame"], order = 5, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li6 = { name = "P", desc = L["Player Unit Frame & Nameplate"], order = 6, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li7 = { name = "l", desc = L["Larger Icon"], order = 7, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li8 = { name = "g", desc = L["Glow icon"], order = 8, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
-		li9 = { name = "a", desc = L["Aura Alert"], order = 9, type = "description", dialogControl = "InlineGroupList2Label-OmniCD", width = 0.25, justifyH = "LEFT", },
+		li0 = { name = "", order = 0, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 1, },
+		li1 = { name = "R", desc = L["Raid Frame"], order = 1, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li2 = { name = "|cffff2020N|r", desc = L["Enemy Nameplate"], order = 2, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li3 = { name = "|cff20ff20N|r", desc = L["Friendly Nameplate"], order = 3, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li4 = { name = "U", desc = L["Unit Frame"], order = 4, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li5 = { name = "A", desc = L["Arena Unit Frame"], order = 5, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li6 = { name = "P", desc = L["Player Unit Frame & Nameplate"], order = 6, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li7 = { name = "l", desc = L["Larger Icon"], order = 7, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li8 = { name = "g", desc = L["Glow icon"], order = 8, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		--li9 = { name = "a", desc = L["Aura Alert"], order = 9, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
+		li9 = { name = "|cffff2020Np|r", desc = L["Only show player applied debuff on enemy nameplates"], order = 9, type = "description", dialogControl = "InlineGroupList2Label-OmniCDC", width = 0.25, justifyH = "LEFT", },
 	}
 }
 
 function E:AddAuraTypeSpell(spellID, sId, tab, auraClassPriority, auraType, classID)
-	local _, icon = GetSpellTexture(spellID)
-	local name = GetSpellInfo(spellID)
+	local _, icon = C_Spell.GetSpellTexture(spellID)
+	local name = C_Spell.GetSpellName(spellID)
 	local classFileName = CLASS_SORT_ORDER[classID]
 	local order = self.auraTypeOrder[auraType]
 	local tooltipID = tooltipFix[spellID] or spellID
@@ -158,14 +155,13 @@ function E:AddAuraTypeSpell(spellID, sId, tab, auraClassPriority, auraType, clas
 	}
 
 	auras.args[tab].args[auraType].args[sId] = {
-		disabled = function(info) return E.global.auraBlacklist[spellID] and not E.aura_db.INTERRUPT[spellID] end,
+		disabled = function() return E.global.auraBlacklist[spellID] and not E.aura_db.INTERRUPT[spellID] end,
 		image = icon, imageCoords = E.BORDERLESS_TCOORDS,
 		name = name,
-		desc = self.isClassic and GetSpellDescription(tooltipID) or nil,
-		tooltipHyperlink = not self.isClassic and GetSpellLink(tooltipID) or nil,
-		descStyle = "", -- NOTE: Empty string will effective disables the default tooltip. We're adding tooltips from the widjet title fx for InlineGroupList.
+		tooltipHyperlink = C_Spell.GetSpellLink(tooltipID),
+		descStyle = "", -- empty string will effective disables the default tooltip. We're adding tooltips from the widget title fx for InlineGroupList.
 		order = classID,
-		type = "multiselect", dialogControl = "InlineGroupList-OmniCD",
+		type = "multiselect", dialogControl = "InlineGroupList-OmniCDC",
 		values = auraItemsOrdered,
 		width = 0.25,
 		get = function(_, k)
@@ -179,17 +175,14 @@ function E:AddAuraTypeSpell(spellID, sId, tab, auraClassPriority, auraType, clas
 			self:Refresh()
 		end,
 		arg = classFileName,
-		-- TODO:
-		disabledItem = C.raidFrame.HARMFUL.typeScale[auraClassPriority] and { [7]=true, [9]=true } or 9,
+		-- TODO: alert
+		--disabledItem = C.raidFrame.HARMFUL.typeScale[auraClassPriority] and { [7]=true, [9]=true } or 9,
+		disabledItem = C.raidFrame.HARMFUL.typeScale[auraClassPriority] and { [7]=true, [9]=true } or (auraClassPriority ~= "debuff" and 9),
 	}
 
 	local spell = Spell:CreateFromSpellID(tooltipID)
 	spell:ContinueOnSpellLoad(function()
-		if self.isClassic then
-			auras.args[tab].args[auraType].args[sId].desc = spell:GetSpellDescription()
-		else
-			auras.args[tab].args[auraType].args[sId].tooltipHyperlink = GetSpellLink(tooltipID)
-		end
+		auras.args[tab].args[auraType].args[sId].tooltipHyperlink = C_Spell.GetSpellLink(tooltipID)
 	end)
 end
 

@@ -2,11 +2,12 @@
 TomTomDB = {
 ["profileKeys"] = {
 ["Blanchyy - Emerald Dream"] = "Default",
-["Redrict - Bloodhoof"] = "Default",
 ["Kkfiftytwo - Area 52"] = "Default",
+["Redrict - Bloodhoof"] = "Default",
+["Twenk - Emerald Dream"] = "Default",
 ["Ascholokk - Emerald Dream"] = "Default",
 ["Kkbankk - Area 52"] = "Default",
-["Twenk - Emerald Dream"] = "Default",
+["Okkoa - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -35,24 +36,27 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
 ["Blanchyy - Emerald Dream"] = "Blanchyy - Emerald Dream",
-["Redrict - Bloodhoof"] = "Redrict - Bloodhoof",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Redrict - Bloodhoof"] = "Redrict - Bloodhoof",
+["Twenk - Emerald Dream"] = "Twenk - Emerald Dream",
 ["Ascholokk - Emerald Dream"] = "Ascholokk - Emerald Dream",
 ["Kkbankk - Area 52"] = "Kkbankk - Area 52",
-["Twenk - Emerald Dream"] = "Twenk - Emerald Dream",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
 ["Blanchyy - Emerald Dream"] = {
 },
+["Kkfiftytwo - Area 52"] = {
+},
 ["Redrict - Bloodhoof"] = {
 },
-["Kkfiftytwo - Area 52"] = {
+["Twenk - Emerald Dream"] = {
 },
 ["Ascholokk - Emerald Dream"] = {
 },
 ["Kkbankk - Area 52"] = {
 },
-["Twenk - Emerald Dream"] = {
+["Okkoa - Area 52"] = {
 },
 },
 }

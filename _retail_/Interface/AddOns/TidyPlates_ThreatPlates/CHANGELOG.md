@@ -1,3 +1,3 @@
-# 12.0.12 (2024-11-01)
+# 12.0.16 (2025-02-26)
 
-* Updated TOC version for Patch 4.4.1 for Cataclysm Classic.
+* Updated TOC version for Patch 11.1.0 for WoW Mainline.

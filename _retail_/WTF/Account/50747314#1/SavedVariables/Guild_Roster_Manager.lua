@@ -8,7 +8,7 @@ GRM_CalendarAddQue_Save = {
 GRM_LogReport_Save = {
 }
 GRM_AddonSettings_Save = {
-["VERSION"] = "R1.99154",
+["VERSION"] = "R1.99164",
 }
 GRM_PlayerListOfAlts_Save = {
 }
@@ -19,5 +19,5 @@ GRM_Misc = {
 GRM_Alts = {
 }
 GRM_DailyAnnounce = {
-["date"] = "20241030",
+["date"] = "20250209",
 }

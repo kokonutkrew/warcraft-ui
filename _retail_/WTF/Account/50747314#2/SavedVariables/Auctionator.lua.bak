@@ -54,8 +54,7 @@ AUCTIONATOR_CONFIG = {
 ["crafting_info_show_cost"] = true,
 ["auction_mean_tooltips"] = false,
 ["autoscan_2"] = false,
-["columns_shopping_buy_commodity"] = {
-},
+["show_selling_bid_price"] = false,
 ["columns_cancelling"] = {
 },
 ["columns_shopping_historical_prices"] = {
@@ -85,7 +84,8 @@ nil,
 ["undercut_static_value"] = 0,
 ["selling_bag_collapsed"] = false,
 ["default_list_2"] = "",
-["show_selling_bid_price"] = false,
+["columns_shopping_buy_commodity"] = {
+},
 ["auction_sales_preference"] = "percentage",
 ["selling_auto_select_next"] = false,
 ["splash_screen_version"] = "anything",

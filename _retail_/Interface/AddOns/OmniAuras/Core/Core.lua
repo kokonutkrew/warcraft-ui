@@ -1,4 +1,4 @@
-local E = select(2, ...):unpack()
+local E = unpack(select(2, ...))
 
 local unpack = unpack
 local tinsert = table.insert
@@ -29,15 +29,6 @@ function E:RemoveEmptyDuplicateTables(dest, src)
 		end
 	end
 	return next(copy) and copy
-end
-
-E.IsTableExact = function(a, b)
-	local n = #a
-	if n ~= #b then return false end
-	for i = 1, n do
-		if (a[i] ~= b[i]) then return false end
-	end
-	return true
 end
 
 local function SavePosition(f)
@@ -145,14 +136,14 @@ end
 
 E.BLANK = {}
 
-function E:CopyAdjustedColors(source, brightness)
+function E:CopyAdjustedColors(source, alpha)
 	local copy = {}
 	if type(source) == "table" then
 		for k, v in pairs(source) do
-			copy[k] = self:CopyAdjustedColors(v, brightness)
+			copy[k] = self:CopyAdjustedColors(v, alpha)
 		end
-	elseif brightness then
-		copy = source * brightness
+	elseif alpha then
+		copy = source * alpha
 	else
 		copy = source
 	end

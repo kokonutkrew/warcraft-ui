@@ -1,4 +1,4 @@
-local E, L = select(2, ...):unpack()
+local E, L = unpack(select(2, ...))
 
 function E:AddAuraAlert()
 	self.options.args["auraAlert"] = {
@@ -16,7 +16,6 @@ function E:AddAuraAlert()
 				type = "toggle",
 				width = "double",
 			},
-			-- TODO: embed Alerts plugin to OmniAuras or ...
 		}
 	}
 end

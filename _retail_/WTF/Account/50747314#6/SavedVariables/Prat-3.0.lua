@@ -29,8 +29,8 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["minchatwidthdefault"] = 250.0000152587891,
-["initialized"] = true,
 ["maxchatheightdefault"] = 800,
+["initialized"] = true,
 },
 },
 },
@@ -38,21 +38,21 @@ Prat3DB = {
 },
 ["Prat_History"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_KeyBindings"] = {
 },
 ["Prat_Font"] = {
 },
-["Prat_KeyBindings"] = {
-},
-["Prat_Sounds"] = {
+["Prat_Bubbles"] = {
 },
 ["Prat_UrlCopy"] = {
 },
 ["Prat_DebugModules"] = {
 },
+["Prat_Timestamps"] = {
+},
 ["Prat_Achievements"] = {
 },
-["Prat_Timestamps"] = {
+["Prat_NewcomersChat"] = {
 },
 ["Prat_Alias"] = {
 },
@@ -60,7 +60,7 @@ Prat3DB = {
 },
 ["Prat_Highlight"] = {
 },
-["Prat_ChannelNames"] = {
+["Prat_Paragraph"] = {
 },
 ["Prat_ChannelSticky"] = {
 },
@@ -68,7 +68,7 @@ Prat3DB = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_Paragraph"] = {
+["Prat_ChannelNames"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -76,29 +76,32 @@ Prat3DB = {
 },
 ["Prat_Buttons"] = {
 },
-["Prat_NewcomersChat"] = {
+["Prat_Sounds"] = {
 },
 ["Prat_HoverTips"] = {
 },
 },
+["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Default",
+["Maliakk - Emerald Dream"] = "Default",
+["Pvpscout - Area 52"] = "Default",
+["Malias - Emerald Dream"] = "Default",
+},
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["ChatLog"] = 2,
+["Alias"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
 ["Sounds"] = 2,
-["DebugModules"] = 2,
 ["Paragraph"] = 2,
-["OriginalButtons"] = 2,
 ["KeyBindings"] = 2,
 ["LinkInfoIcons"] = 2,
-["Alias"] = 2,
+["DebugModules"] = 2,
+["OriginalButtons"] = 2,
+["ChatLog"] = 2,
 },
 },
-},
-["profileKeys"] = {
-["Maliakk - Emerald Dream"] = "Default",
 },
 }

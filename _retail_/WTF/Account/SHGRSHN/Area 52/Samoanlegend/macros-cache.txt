@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "Shadow Bolt" "134400"
+#showtooltip
+/petattack
+/use [@cursor] shadow bolt;[@mouseover] shadow bolt;[] shadow bolt
+END

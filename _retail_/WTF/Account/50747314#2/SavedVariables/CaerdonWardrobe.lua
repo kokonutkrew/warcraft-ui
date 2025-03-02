@@ -13,8 +13,9 @@ CaerdonWardrobeConfig = {
 ["GuildBank"] = true,
 },
 },
-["Debug"] = {
-["Enabled"] = false,
+["Version"] = 24,
+["LoadBehavior"] = {
+["ShowProfessionLoad"] = true,
 },
 ["Icon"] = {
 ["ShowLearnableByOther"] = {
@@ -28,20 +29,12 @@ CaerdonWardrobeConfig = {
 ["Merchant"] = true,
 ["SameLookDifferentLevel"] = true,
 ["BankAndBags"] = true,
-["Auction"] = true,
-["SameLookDifferentItem"] = false,
 ["GuildBank"] = true,
+["SameLookDifferentItem"] = false,
+["Auction"] = true,
 },
 ["EnableAnimation"] = true,
 ["Position"] = "TOPLEFT",
-["ShowUpgrades"] = {
-["BankAndBags"] = true,
-},
-["ShowSellable"] = {
-["BankAndBags"] = true,
-["GuildBank"] = false,
-},
-["ShowQuestItems"] = true,
 ["ShowOldExpansion"] = {
 ["Other"] = false,
 ["Auction"] = true,
@@ -49,6 +42,38 @@ CaerdonWardrobeConfig = {
 ["Usable"] = false,
 ["Reagents"] = true,
 },
+["ShowQuestItems"] = true,
+["ShowSellable"] = {
+["BankAndBags"] = true,
+["GuildBank"] = false,
 },
-["Version"] = 22,
+["ShowUpgrades"] = {
+["BankAndBags"] = true,
+},
+},
+["Debug"] = {
+["Enabled"] = false,
+},
+}
+CaerdonProfessionData = {
+["Emerald Dream"] = {
+["Blawesum"] = {
+},
+["Dazzledame"] = {
+},
+},
+}
+CaerdonRecipeData = {
+["Emerald Dream"] = {
+["Blawesum"] = {
+["knownRecipes"] = {
+},
+},
+["Dazzledame"] = {
+["knownRecipes"] = {
+},
+},
+},
+["globalRecipeNameToID"] = {
+},
 }

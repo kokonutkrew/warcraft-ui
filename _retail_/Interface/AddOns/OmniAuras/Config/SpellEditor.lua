@@ -1,7 +1,4 @@
-local E, L, C = select(2, ...):unpack()
-
-local GetSpellInfo = C_Spell and C_Spell.GetSpellName or GetSpellInfo
-local GetSpellTexture = C_Spell and C_Spell.GetSpellTexture or GetSpellTexture
+local E, L = unpack(select(2, ...))
 
 local defaultBackup = {}
 local classValues = {}
@@ -65,8 +62,8 @@ local function GetAuraFilterByType(auraType)
 	end
 end
 
-function E:UpdateSpell(id, isInit, oldFilter, oldType, oldClass)
-	local auraFilter, auraClassPriority, auraType, classID = GetAuraInfo(id)
+function E:UpdateSpell(id, isInit, oldFilter, oldType)
+	local auraFilter = GetAuraInfo(id)
 	local v = OmniAurasDB.cooldowns[id]
 	local vauraFilter, vauraClassPriority, vauraType, vclassID, isNewCustom
 	if v then
@@ -129,12 +126,12 @@ local customSpellInfo = {
 		type = "execute",
 		func = function(info)
 			local id, sId = GetSpellID(info)
-			local oldType, oldClass = OmniAurasDB.cooldowns[id][2], OmniAurasDB.cooldowns[id][3]
+			local oldType = OmniAurasDB.cooldowns[id][2]
 			local oldFilter = GetAuraFilterByType(oldType)
 			OmniAurasDB.cooldowns[id] = nil
 			E.options.args.SpellEditor.args.editor.args[sId] = nil
 
-			E:UpdateSpell(id, nil, oldFilter, oldType, oldClass)
+			E:UpdateSpell(id, nil, oldFilter, oldType)
 		end,
 	},
 	hd1 = {
@@ -157,7 +154,7 @@ local customSpellInfo = {
 		end,
 		set = function(info, value)
 			local id = GetSpellID(info)
-			local oldType, oldClass = OmniAurasDB.cooldowns[id][2], OmniAurasDB.cooldowns[id][3]
+			local oldType = OmniAurasDB.cooldowns[id][2]
 			local oldFilter = GetAuraFilterByType(oldType)
 			local v = OmniAurasDB.cooldowns[id]
 			local auraFilter = GetAuraFilterByType(v[2])
@@ -177,7 +174,7 @@ local customSpellInfo = {
 				end
 			end
 
-			E:UpdateSpell(id, nil, oldFilter, oldType, oldClass)
+			E:UpdateSpell(id, nil, oldFilter, oldType)
 		end,
 	},
 	type = {
@@ -199,13 +196,13 @@ local customSpellInfo = {
 		end,
 		set = function(info, value)
 			local id = GetSpellID(info)
-			local oldType, oldClass = OmniAurasDB.cooldowns[id][2], OmniAurasDB.cooldowns[id][3]
+			local oldType = OmniAurasDB.cooldowns[id][2]
 			local oldFilter = GetAuraFilterByType(oldType)
 			local classPriority = auraTypeToClassPriority[value]
 			OmniAurasDB.cooldowns[id][1] = classPriority
 			OmniAurasDB.cooldowns[id][2] = value
 
-			E:UpdateSpell(id, nil, oldFilter, oldType, oldClass)
+			E:UpdateSpell(id, nil, oldFilter, oldType)
 		end,
 	},
 	class = {
@@ -223,11 +220,11 @@ local customSpellInfo = {
 		end,
 		set = function(info, value)
 			local id = GetSpellID(info)
-			local oldType, oldClass = OmniAurasDB.cooldowns[id][2], OmniAurasDB.cooldowns[id][3]
+			local oldType = OmniAurasDB.cooldowns[id][2]
 			local oldFilter = GetAuraFilterByType(oldType)
 			OmniAurasDB.cooldowns[id][3] = classIndex[value]
 
-			E:UpdateSpell(id, nil, oldFilter, oldType, oldClass)
+			E:UpdateSpell(id, nil, oldFilter, oldType)
 		end,
 	},
 }
@@ -235,12 +232,12 @@ local customSpellInfo = {
 local customSpellGroup = {
 	icon = function(info)
 		local id = GetSpellID(info,0)
-		return select(2,GetSpellTexture(id))
+		return select(2,C_Spell.GetSpellTexture(id))
 	end,
 	iconCoords = E.BORDERLESS_TCOORDS,
 	name = function(info)
 		local id = GetSpellID(info,0)
-		return GetSpellInfo(id)
+		return C_Spell.GetSpellName(id)
 	end,
 	type = "group",
 	args = customSpellInfo,
@@ -251,7 +248,7 @@ E.EditSpell = function(_, value)
 		return E.write(L["Invalid ID"], value)
 	end
 	local id = tonumber(value)
-	local name = id and GetSpellInfo(id)
+	local name = id and C_Spell.GetSpellName(id)
 	if not name then
 		return E.write(L["Invalid ID"], value)
 	end
@@ -300,7 +297,7 @@ function E:AddSpellEditor()
 	for id in pairs(OmniAurasDB.cooldowns) do
 		if not C_Spell.DoesSpellExist(id) then
 			OmniAurasDB.cooldowns[id] = nil
---			print("Removing invalid custom ID:" , id)
+			E.write("Removing invalid custom ID:" , id)
 		else
 			id = tostring(id)
 			SpellEditor.args.editor.args[id] = customSpellGroup
@@ -317,4 +314,4 @@ function E:UpdateSpellList(isInit)
 	end
 end
 
-OmniAuras.EditSpell = E.EditSpell
+--OmniAuras.EditSpell = E.EditSpell -- multiselect checkbox doesn't support click-to-edit

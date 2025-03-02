@@ -3,6 +3,7 @@ RecklessAbandonDB = {
 ["profileKeys"] = {
 ["Maliaelle - Moon Guard"] = "Default",
 ["Maliakk - Emerald Dream"] = "Default",
+["Pvpscout - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -19,6 +20,7 @@ RecklessAbandonPrivateDB = {
 ["profileKeys"] = {
 ["Maliaelle - Moon Guard"] = "Maliaelle - Moon Guard",
 ["Maliakk - Emerald Dream"] = "Maliakk - Emerald Dream",
+["Pvpscout - Area 52"] = "Pvpscout - Area 52",
 },
 ["profiles"] = {
 ["Maliaelle - Moon Guard"] = {
@@ -45,32 +47,49 @@ RecklessAbandonPrivateDB = {
 ["Maliakk - Emerald Dream"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[75890] = {
-["title"] = "The Clarion Call",
+[79222] = {
+["title"] = "Shadow-Hardened Mainspring",
 ["source"] = 1,
 },
-[83325] = {
-["title"] = "Bountiful Beetles",
+[78754] = {
+["title"] = "Lost Delivery",
 ["source"] = 1,
 },
 [11490] = {
 ["title"] = "The Scryer's Scryer",
 ["source"] = 1,
 },
+[75890] = {
+["title"] = "The Clarion Call",
+["source"] = 1,
+},
+[80456] = {
+["title"] = "A Sassy Arathi",
+["source"] = 1,
+},
 [82042] = {
 ["title"] = "The Better Part of Valorstones",
 ["source"] = 1,
 },
-[79222] = {
-["title"] = "Shadow-Hardened Mainspring",
+[81661] = {
+["title"] = "To Mourning Rise",
 ["source"] = 1,
 },
-[11441] = {
-["title"] = "Brewfest!",
+[83325] = {
+["title"] = "Bountiful Beetles",
 ["source"] = 1,
 },
 },
 },
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
+["Pvpscout - Area 52"] = {
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {

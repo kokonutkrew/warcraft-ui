@@ -141,6 +141,14 @@ L["Portal to Azj-Kahet"] = "Портал в Аз-Кахет"
 -- L["Portal to Bastion"] = ""
 -- L["Portal to Tiragarde Sound"] = ""
 -- L["Portal to Twilight Highlands"] = ""
+-- L["Zeppelin to Siren Isle"] = ""
+-- L["Zeppelin to Dornogal"] = ""
+-- L["Mole Machine to Siren Isle"] = ""
+-- L["Mole Machine to Gundargaz"] = ""
+-- L["Rocket Drill to Undermine"] = ""
+-- L["Rocket Drill to Ringing Deeps"] = ""
+L["Teleporter to Undermine"] = "Телепорт в Нижнюю Шахту"
+L["Teleporter to Dornogal"] = "Телепорт в Дорногал"
 
 --==========================================DRAGONFLIGHT==========================================--
 

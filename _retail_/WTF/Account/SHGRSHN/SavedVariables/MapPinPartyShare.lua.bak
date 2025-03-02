@@ -1,0 +1,4 @@
+
+MPPSSettings = {
+["useBlizzardPinStyle"] = false,
+}

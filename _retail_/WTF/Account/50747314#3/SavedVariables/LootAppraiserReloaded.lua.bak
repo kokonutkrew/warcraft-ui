@@ -1,11 +1,7 @@
 
 LootAppraiserReloadedDB = {
 ["profileKeys"] = {
-["Voidspeakerr - Emerald Dream"] = "Default",
-["Shadowdaggr - Area 52"] = "Default",
-["Flameing - Emerald Dream"] = "Default",
-["Demenchonone - Emerald Dream"] = "Default",
-["Kkmeki - Emerald Dream"] = "Default",
+["Timecaster - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -14,10 +10,6 @@ LootAppraiserReloadedDB = {
 }
 LALootDB = {
 ["profileKeys"] = {
-["Voidspeakerr - Emerald Dream"] = "Default",
-["Shadowdaggr - Area 52"] = "Default",
-["Flameing - Emerald Dream"] = "Default",
-["Demenchonone - Emerald Dream"] = "Default",
-["Kkmeki - Emerald Dream"] = "Default",
+["Timecaster - Emerald Dream"] = "Default",
 },
 }

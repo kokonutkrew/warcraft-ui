@@ -1,0 +1,18 @@
+
+BattlePetCompletionistDB = {
+["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Default",
+["Maliakk - Emerald Dream"] = "Default",
+["Malias - Emerald Dream"] = "Default",
+["Pvpscout - Area 52"] = "Default",
+},
+["global"] = {
+["minimap"] = {
+},
+},
+["profiles"] = {
+["Default"] = {
+["dataVersion"] = 7,
+},
+},
+}

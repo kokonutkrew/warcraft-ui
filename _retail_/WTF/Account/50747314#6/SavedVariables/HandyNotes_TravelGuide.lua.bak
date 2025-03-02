@@ -1,7 +1,10 @@
 
 HandyNotes_TravelGuideDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Default",
 ["Maliakk - Emerald Dream"] = "Default",
+["Malias - Emerald Dream"] = "Default",
+["Pvpscout - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

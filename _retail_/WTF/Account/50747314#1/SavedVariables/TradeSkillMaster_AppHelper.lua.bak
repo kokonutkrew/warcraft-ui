@@ -22,8 +22,10 @@ TradeSkillMaster_AppHelperDB = {
 "[\"AC\",\"v4.14.19\",1730311627716,0,13,\"UI_NAVIGATION\",\"\",\"mailing\"]",
 "[\"AC\",\"v4.14.19\",1730311627729,0,14,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]",
 "[\"AC\",\"v4.14.19\",1730311628954,0,15,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]",
+"[\"AC\",\"v4.14.19\",1730312402595,0,1,\"ADDON_INITIALIZE\",1]",
+"[\"AC\",\"v4.14.19\",1730312449972,0,2,\"ADDON_ENABLE\",0]",
 },
-["updateTime"] = 1730311628.954196,
+["updateTime"] = 1730312449.972682,
 },
 ["blackMarket"] = {
 },

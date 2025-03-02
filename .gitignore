@@ -36,7 +36,7 @@
 ################################################################################
 
 # Recursively track the interface directory
-!_retail_/Interface/**
+##!_retail_/Interface/**
 _retail_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 
 # Track Config files
@@ -62,7 +62,7 @@ _retail_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 ################################################################################
 
 # Recursively track the interface directory
-!_classic_/Interface/**
+##!_classic_/Interface/**
 _classic_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 
 # Track Config files

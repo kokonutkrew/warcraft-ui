@@ -1,27 +1,69 @@
-VER 3 0100000000000007 ".f07 Spotlight" "135914"
-/use personal spotlight
-/use pretty dreanor pearl
-/use druid and priest statue set
-/use vindicator's armor polish kit
-/use yellow conservatory scroll
-/use accursed tome of the sargerei
-/use bubble wand
-END
-VER 3 0100000000000008 "asdf" "236216"
-/targetenemy
-/use [@mouseover,dead] Skinning
-/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+VER 3 0100000000000010 "2sBeacon" "134400"
+#showtooltip
+/use [@Ottsca] beacon of faith
+/use [@Samoantitan] beacon of light
 END
 VER 3 0100000000000009 "Avenger's Shield" "134400"
 #showtooltip avenger's shield
 /use kindness of chi-ji
 /use avenger's shield
 END
-VER 3 0100000000000006 "BlessingOFreedom" "134400"
+VER 3 0100000000000006 "BoFreedom" "134400"
 #showtooltip Blessing of Freedom
 /cast [@mouseover,help,nodead][@focus,exists][] Blessing of Freedom
+END
+VER 3 0100000000000018 "BoProtection" "134400"
+#showtooltip
+/cqs
+/stopcasting
+/use blessing of protection
+END
+VER 3 0100000000000019 "BoSacrifice" "134400"
+#showtooltip
+/use [@mouseover,exists,help,nodead] blessing of sacrifice
+/use blessing of sacrifice
+END
+VER 3 0100000000000013 "Cancel" "6033345"
+/cancelaura Blessing of Freedom
+/cancelaura Blessing of Protection
+END
+VER 3 010000000000000D "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse Toxins;  [@mouseover,exists,mod:ctrl] Cleanse Toxins; [@mouseover,exists,mod:shift] Cleanse Toxins
+END
+VER 3 0100000000000017 "Divine Shield" "134400"
+#showtooltip
+/cqs
+/stopcasting
+/use divine shield
 END
 VER 3 0100000000000005 "Final Reckoning" "134400"
 #showtooltip
 /use [@cursor] final reckoning
+END
+VER 3 0100000000000015 "Hand of Justice" "134400"
+#showtooltip
+/use [@focus,exists] hammer of justice
+/use hammer of justice
+END
+VER 3 0100000000000011 "Holy Shock" "134400"
+#showtooltip
+/use [@focus,exists] holy shock;[@player] holy shock
+END
+VER 3 0100000000000012 "pvpTaunt" "134400"
+#showtooltip
+/use [@arenapet1] Hand of Reckoning 
+/use [@arenapet2] Hand of Reckoning 
+/use [@arenapet3] Hand of Reckoning
+/use Hand of Reckoning
+END
+VER 3 010000000000001A "Rebuke" "134400"
+#showtooltip
+/use [@focus,exists,harm] rebuke
+/use rebuke
+END
+VER 3 0100000000000014 "Repentance" "134400"
+#showtooltip
+/use [@focus,exists] repentance
+/use repentance
 END

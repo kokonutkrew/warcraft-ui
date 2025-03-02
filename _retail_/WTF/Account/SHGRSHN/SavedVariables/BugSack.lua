@@ -4,7 +4,7 @@ BugSackDB = {
 ["altwipe"] = true,
 ["useMaster"] = false,
 ["fontSize"] = "GameFontHighlight",
-["mute"] = false,
+["mute"] = true,
 ["auto"] = false,
 ["chatframe"] = false,
 }

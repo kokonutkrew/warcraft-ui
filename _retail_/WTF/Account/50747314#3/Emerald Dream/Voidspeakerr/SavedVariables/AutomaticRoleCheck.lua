@@ -1,7 +1,8 @@
 
 AutomaticRoleCheck_Options = {
 ["Enabled"] = true,
-["DisableWhilstAFK"] = false,
+["LastRole"] = "DAMAGER",
 ["DisableOnceOnLogin"] = false,
 ["DisableOnce"] = false,
+["DisableWhilstAFK"] = false,
 }

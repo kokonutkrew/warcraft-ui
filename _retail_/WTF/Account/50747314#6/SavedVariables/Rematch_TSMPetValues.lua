@@ -2,6 +2,7 @@
 Rematch_TSMPetValuesDB = {
 ["profileKeys"] = {
 ["Maliakk - Emerald Dream"] = "Default",
+["Pvpscout - Area 52"] = "Default",
 },
 ["global"] = {
 ["Options"] = true,

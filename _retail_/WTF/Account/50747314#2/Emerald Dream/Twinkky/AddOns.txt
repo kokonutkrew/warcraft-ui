@@ -87,7 +87,7 @@ TomTom: disabled
 TroveTally: disabled
 TrueStatValues: enabled
 WeakAuras: disabled
-WeakAurasArchive: disabled
+WeakAurasArchive: enabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
@@ -127,3 +127,6 @@ totalRP3_Extended_Tools: disabled
 totalRP3_UnitFrames: disabled
 TotalSilence: disabled
 WoWthing_Collector: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

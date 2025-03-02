@@ -108,7 +108,7 @@ totalRP3_UnitFrames: disabled
 TotalSilence: disabled
 TroveTally: disabled
 WeakAuras: disabled
-WeakAurasArchive: disabled
+WeakAurasArchive: enabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
@@ -119,3 +119,6 @@ WeakAurasCompanion: enabled
 Blizzard_CombatText: enabled
 DBM-Test: disabled
 DBM-Test-Dragonflight: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

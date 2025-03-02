@@ -175,12 +175,18 @@ function CraftSim.CRAFTQ:CRAFTINGORDERS_CLAIMED_ORDER_REMOVED()
 end
 
 function CraftSim.CRAFTQ:QueueWorkOrders()
+    local print = CraftSim.DEBUG:RegisterDebugID("Modules.CraftQueue.QueueWorkOrders")
+    print("QueueWorkOrders", false, true)
     local profession = C_TradeSkillUI.GetChildProfessionInfo().profession
     local normalizedRealmName = GetNormalizedRealmName()
     local realmName = GetRealmName()
     local cleanedCrafterUIDs = GUTIL:Map(CraftSim.DB.CRAFTER:GetCrafterUIDs(), function(crafterUID)
         return select(1, gsub(crafterUID, "-" .. normalizedRealmName, ""))
     end)
+
+    local maxPatronOrderCost = CraftSim.DB.OPTIONS:Get("CRAFTQUEUE_QUEUE_PATRON_ORDERS_MAX_COST")
+    local maxKPCost = CraftSim.DB.OPTIONS:Get("CRAFTQUEUE_QUEUE_PATRON_ORDERS_KP_MAX_COST")
+
     --TODO: Public Orders
     local workOrderTypes = {
         CraftSim.DB.OPTIONS:Get("CRAFTQUEUE_WORK_ORDERS_INCLUDE_PATRON_ORDERS") and Enum.CraftingOrderType.Npc,
@@ -325,16 +331,33 @@ function CraftSim.CRAFTQ:QueueWorkOrders()
                                         recipeData:SetCheapestQualityReagentsMax() -- considers patron reagents
                                         recipeData:Update()
 
-                                        if isPatronOrder and knowledgePointsRewarded > 0 and recipeData.averageProfitCached < 0 then
-                                            local maxKPCost = CraftSim.DB.OPTIONS:Get(
-                                                "CRAFTQUEUE_QUEUE_PATRON_ORDERS_KP_MAX_COST")
-                                            local kpCost = math.abs(recipeData.averageProfitCached /
-                                                knowledgePointsRewarded)
+                                        print("- Knowledge Points Rewarded: " .. tostring(knowledgePointsRewarded))
 
-                                            if kpCost >= maxKPCost then
-                                                distributor:Continue()
-                                                return
+
+                                        local function withinKPCost(averageProfit)
+                                            if isPatronOrder and knowledgePointsRewarded > 0 and averageProfit < 0 then
+                                                
+                                                local kpCost = math.abs(averageProfit / knowledgePointsRewarded)
+    
+                                                    print("- kpCost: " .. GUTIL:FormatMoney(kpCost, true, nil, true))
+    
+                                                if kpCost >= maxKPCost then
+                                                    return false
+                                                end
+                                                return true
                                             end
+                                            return true
+                                        end
+
+                                        local function withinMaxPatronOrderCost(craftingCost)
+                                            if isPatronOrder and craftingCost > 0 and maxPatronOrderCost > 0 then
+                                                print("- Crafting cost: "  .. GUTIL:FormatMoney(craftingCost, true, nil, true))
+                                                if craftingCost >= maxPatronOrderCost then
+                                                    return false
+                                                end
+                                                return true
+                                            end
+                                            return true
                                         end
 
                                         local function queueRecipe()
@@ -343,8 +366,9 @@ function CraftSim.CRAFTQ:QueueWorkOrders()
                                             local forceConcentration = CraftSim.DB.OPTIONS:Get(
                                                 "CRAFTQUEUE_WORK_ORDERS_FORCE_CONCENTRATION")
                                             -- check if the min quality is reached, if not do not queue
+                                            local queueAble = false
                                             if recipeData.resultData.expectedQuality >= order.minQuality then
-                                                CraftSim.CRAFTQ:AddRecipe { recipeData = recipeData }
+                                                queueAble = true
                                             end
 
                                             if (forceConcentration or allowConcentration) and
@@ -352,7 +376,13 @@ function CraftSim.CRAFTQ:QueueWorkOrders()
                                                 -- use concentration to reach and then queue
                                                 recipeData.concentrating = true
                                                 recipeData:Update()
-                                                CraftSim.CRAFTQ:AddRecipe { recipeData = recipeData }
+                                                queueAble = true
+                                            end
+
+                                            if queueAble then
+                                                if withinKPCost(recipeData.averageProfitCached) and withinMaxPatronOrderCost(recipeData.priceData.craftingCosts) then
+                                                    CraftSim.CRAFTQ:AddRecipe { recipeData = recipeData }
+                                                end
                                             end
 
                                             distributor:Continue()
@@ -1082,9 +1112,13 @@ function CraftSim.CRAFTQ:AuctionatorQuickBuy()
     local function mapSearchResultRows(itemSearchStrings)
         wipe(qbCache.resultRows)
         -- map rows to shopping list items
+        local rows = {}
+        for i = 1, resultsList.dataProvider:GetCount() do
+            table.insert(rows, resultsList.dataProvider:GetEntryAt(i))
+        end
         for _, searchString in ipairs(itemSearchStrings) do
-            local row = GUTIL:Find(resultsList.tableBuilder.rows, function(row)
-                local itemID = row.rowData.itemKey.itemID
+            local row = GUTIL:Find(rows, function(row)
+                local itemID = row.itemKey.itemID
                 return GUTIL:StringStartsWith(searchString, getResultSearchString(itemID))
             end)
 
@@ -1138,12 +1172,10 @@ function CraftSim.CRAFTQ:AuctionatorQuickBuy()
     end
 
     if status(QB_STATUS.SEARCH_READY) then
-        mapSearchResultRows(allItemSearchStrings)
-        if not matchSearchResultRows(allItemSearchStrings) then
-            print("- No Match with Results: DoSearch")
-            AuctionatorShoppingFrame:DoSearch(allItemSearchStrings)
-        end
+        wipe(qbCache.resultRows)
+        AuctionatorShoppingFrame:DoSearch(allItemSearchStrings)
         set(QB_STATUS.SEARCH_STARTED)
+        return
     end
 
     if status(QB_STATUS.SEARCH_STARTED) then
@@ -1163,8 +1195,8 @@ function CraftSim.CRAFTQ:AuctionatorQuickBuy()
             return
         end
 
-        qbCache.pendingItemID = resultRow.rowData.itemKey.itemID
-        qbCache.pendingItemCount = resultRow.rowData.purchaseQuantity
+        qbCache.pendingItemID = resultRow.itemKey.itemID
+        qbCache.pendingItemCount = resultRow.purchaseQuantity
 
         qbCache.currentSearchString = buyShoppingListSearchString
         qbCache.purchasePending = true

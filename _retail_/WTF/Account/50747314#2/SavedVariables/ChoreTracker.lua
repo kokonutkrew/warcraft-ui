@@ -7,10 +7,6 @@ ChoreTrackerDB = {
 },
 },
 },
-["profileKeys"] = {
-["Sphinx - Emerald Dream"] = "Default",
-["Blawesum - Emerald Dream"] = "Default",
-},
 ["global"] = {
 ["questWeeks"] = {
 [1732028399] = {
@@ -19,10 +15,10 @@ ChoreTrackerDB = {
 ["questId"] = 85947,
 ["objectives"] = {
 {
-["type"] = "object",
-["text"] = "0/5 Timewalking dungeons completed",
-["have"] = 0,
 ["need"] = 5,
+["type"] = "object",
+["have"] = 0,
+["text"] = "0/5 Timewalking dungeons completed",
 },
 },
 },
@@ -37,10 +33,10 @@ ChoreTrackerDB = {
 ["questId"] = 74378,
 ["objectives"] = {
 {
-["type"] = "object",
-["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
-["have"] = 0,
 ["need"] = 1,
+["type"] = "object",
+["have"] = 0,
+["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
 },
 },
 },
@@ -51,8 +47,14 @@ ChoreTrackerDB = {
 },
 },
 },
+[1732633199] = {
+},
 },
 ["seenAutoAcceptMessage"] = true,
+},
+["profileKeys"] = {
+["Sphinx - Emerald Dream"] = "Default",
+["Blawesum - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

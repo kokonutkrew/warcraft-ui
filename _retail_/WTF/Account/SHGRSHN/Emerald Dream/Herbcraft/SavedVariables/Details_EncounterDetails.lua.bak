@@ -69,6 +69,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Living Magma",
 },
+[459753] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Fenryr",
+},
 [428737] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -77,21 +86,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Treant",
 },
-[422382] = {
-["school"] = 8,
-["type"] = "BUFF",
+[462469] = {
+["school"] = 12,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_HEAL"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Treant",
-},
-[196813] = {
-["school"] = 2,
-["token"] = {
-["SPELL_HEAL"] = true,
-},
-["source"] = "Divine Image",
+["source"] = "Lord Roccor",
 },
 [462357] = {
 ["school"] = 12,
@@ -128,21 +128,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Roccor",
 },
-[108446] = {
-["school"] = 32,
-["type"] = "BUFF",
+[463674] = {
+["school"] = 12,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Kallissa",
-},
-[224127] = {
-["school"] = 8,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Spirit Wolf",
+["source"] = "Lord Roccor",
 },
 [462351] = {
 ["school"] = 12,
@@ -152,16 +144,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Roccor",
 },
-[462320] = {
-["school"] = 12,
+[196816] = {
+["school"] = 2,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_PERIODIC_HEAL"] = true,
 },
-["source"] = "Lord Roccor",
+["source"] = "Divine Image",
 },
-[392375] = {
-["school"] = 4,
+[224127] = {
+["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
@@ -178,12 +169,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Roccor",
 },
-[196816] = {
-["school"] = 2,
+[392375] = {
+["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_PERIODIC_HEAL"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Divine Image",
+["source"] = "Spirit Wolf",
+},
+[462320] = {
+["school"] = 12,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Lord Roccor",
 },
 [462352] = {
 ["school"] = 12,
@@ -194,13 +194,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Roccor",
 },
-[463674] = {
-["school"] = 12,
+[108446] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Lord Roccor",
+["source"] = "Kallissa",
 },
 [196809] = {
 ["school"] = 2,
@@ -209,21 +209,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Divine Image",
 },
-[462469] = {
-["school"] = 12,
+[196813] = {
+["school"] = 2,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Lord Roccor",
+["source"] = "Divine Image",
 },
-[459753] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[422382] = {
+["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_PERIODIC_HEAL"] = true,
 },
-["source"] = "Fenryr",
+["source"] = "Treant",
 },
 },
 ["emotes"] = {

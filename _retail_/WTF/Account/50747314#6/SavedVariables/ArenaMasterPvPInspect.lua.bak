@@ -1,0 +1,2 @@
+
+AMPVP_SettingsVar = nil

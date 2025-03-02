@@ -77,7 +77,7 @@ SilverDragon_RangeExtender: disabled
 SuperGuildInviteReborn: disabled
 TomTom: disabled
 WeakAuras: disabled
-WeakAurasArchive: disabled
+WeakAurasArchive: enabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
@@ -122,3 +122,6 @@ totalRP3_UnitFrames: disabled
 TotalSilence: disabled
 TroveTally: disabled
 WoWthing_Collector: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

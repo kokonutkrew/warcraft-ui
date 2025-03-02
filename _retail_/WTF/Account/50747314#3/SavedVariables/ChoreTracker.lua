@@ -1,81 +1,71 @@
 
 ChoreTrackerDB = {
 ["char"] = {
+["Voidspeakerr - Emerald Dream"] = {
+["skillLines"] = {
+[186] = true,
+[356] = true,
+[2879] = 57,
+[185] = true,
+[2881] = 100,
+[755] = true,
+},
+},
 ["Timecaster - Emerald Dream"] = {
 ["skillLines"] = {
-[393] = true,
-[2874] = 4,
-[2882] = 8,
 [333] = true,
+[393] = true,
+[2882] = 8,
+[2874] = 4,
 },
 },
+},
+["profileKeys"] = {
+["Voidspeakerr - Emerald Dream"] = "Default",
+["Timecaster - Emerald Dream"] = "Default",
 },
 ["global"] = {
 ["questWeeks"] = {
-[1730818799] = {
-[84254] = {
+[1735657199] = {
+[81630] = {
 ["status"] = 1,
-["questId"] = 84254,
+["questId"] = 81630,
 ["objectives"] = {
 {
 ["type"] = "monster",
-["text"] = "0/1 Talk to Grimkel",
-["have"] = 0,
-["need"] = 1,
-},
-{
-["type"] = "monster",
-["text"] = "0/1 Talk to Hansel Cyrilson",
-["have"] = 0,
-["need"] = 1,
-},
-{
-["type"] = "monster",
-["text"] = "0/1 Talk to Thrynviel",
-["have"] = 0,
-["need"] = 1,
-},
-{
-["type"] = "monster",
-["text"] = "0/1 Talk to Vanni Thorngage",
-["have"] = 0,
-["need"] = 1,
-},
-{
-["type"] = "monster",
-["text"] = "0/1 Talk to Petra",
+["text"] = "0/1 Kordac slain",
 ["have"] = 0,
 ["need"] = 1,
 },
 },
 },
-[84616] = {
-["status"] = 1,
-["questId"] = 84616,
+[84736] = {
+["status"] = 2,
+["questId"] = 84736,
 ["objectives"] = {
-{
-["type"] = "progressbar",
-["text"] = "Participate in Celebration Activities (100%)",
-["have"] = 0,
-["need"] = 100,
 },
 },
+[80187] = {
+["status"] = 2,
+["questId"] = 80187,
+["objectives"] = {
 },
-[82158] = {
+},
+[47148] = {
 ["status"] = 1,
-["questId"] = 82158,
+["questId"] = 47148,
 ["objectives"] = {
 {
 ["type"] = "object",
-["text"] = "0/3 Complete World Quests in Hallowfall",
+["text"] = "0/1 PvP Brawl won",
 ["have"] = 0,
-["need"] = 3,
+["need"] = 1,
 },
 },
 },
-[83285] = {
+[83229] = {
 ["status"] = 2,
-["questId"] = 83285,
+["questId"] = 83229,
 ["objectives"] = {
 },
 },
@@ -91,21 +81,15 @@ ChoreTrackerDB = {
 },
 },
 },
-[83333] = {
-["status"] = 1,
-["questId"] = 83333,
-["objectives"] = {
-{
-["type"] = "monster",
-["text"] = "0/20 Waves cleared",
-["have"] = 0,
-["need"] = 20,
-},
-},
-},
-[80544] = {
+[83266] = {
 ["status"] = 2,
-["questId"] = 80544,
+["questId"] = 83266,
+["objectives"] = {
+},
+},
+[82156] = {
+["status"] = 2,
+["questId"] = 82156,
 ["objectives"] = {
 },
 },
@@ -121,30 +105,99 @@ ChoreTrackerDB = {
 },
 },
 },
-[74378] = {
+[84735] = {
+["status"] = 2,
+["questId"] = 84735,
+["objectives"] = {
+},
+},
+[84489] = {
+["status"] = 2,
+["questId"] = 84489,
+["objectives"] = {
+},
+},
+[81794] = {
+["status"] = 2,
+["questId"] = 81794,
+["objectives"] = {
+},
+},
+[85113] = {
+["status"] = 2,
+["questId"] = 85113,
+["objectives"] = {
+},
+},
+[80188] = {
 ["status"] = 1,
-["questId"] = 74378,
+["questId"] = 80188,
 ["objectives"] = {
 {
 ["type"] = "object",
-["text"] = "Complete \"The Storm's Fury\" event within the Primalist Future.",
+["text"] = "0/1500 Honor earned in Rated Arenas",
 ["have"] = 0,
-["need"] = 1,
+["need"] = 1500,
 },
+},
+},
+[57300] = {
+["status"] = 1,
+["questId"] = 57300,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/500 Earn Honor in Korrak's Revenge",
+["have"] = 0,
+["need"] = 500,
+},
+},
+},
+[84254] = {
+["status"] = 2,
+["questId"] = 84254,
+["objectives"] = {
+},
+},
+[83265] = {
+["status"] = 2,
+["questId"] = 83265,
+["objectives"] = {
+},
+},
+[84241] = {
+["status"] = 2,
+["questId"] = 84241,
+["objectives"] = {
+},
+},
+[83358] = {
+["status"] = 1,
+["questId"] = 83358,
+["objectives"] = {
+{
+["type"] = "object",
+["text"] = "0/10 Arena Skirmishes won",
+["have"] = 0,
+["need"] = 10,
+},
+},
+},
+[85070] = {
+["status"] = 2,
+["questId"] = 85070,
+["objectives"] = {
 },
 },
 },
 },
 ["seenAutoAcceptMessage"] = true,
 },
-["profileKeys"] = {
-["Timecaster - Emerald Dream"] = "Default",
-},
 ["profiles"] = {
 ["Default"] = {
 ["window"] = {
-["height"] = 149.9999237060547,
 ["top"] = 831.9999389648438,
+["height"] = 149.9999237060547,
 ["left"] = 315.9999694824219,
 ["width"] = 199.9999084472656,
 },

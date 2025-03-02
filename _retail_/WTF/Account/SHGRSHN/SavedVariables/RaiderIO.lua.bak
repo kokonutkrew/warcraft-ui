@@ -1,5 +1,68 @@
 
-RaiderIO_Config = nil
-RaiderIO_LastCharacter = nil
-RaiderIO_MissingCharacters = nil
+RaiderIO_Config = {
+["profilePoint"] = {
+["y"] = 0,
+["x"] = -16,
+["point"] = "TOPLEFT",
+},
+["dockReplay"] = false,
+["replayPoint"] = {
+["y"] = 0,
+["x"] = 360.0545349121094,
+["point"] = "BOTTOM",
+},
+["previouslyEnabledLogging"] = false,
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
+}
+RaiderIO_LastCharacter = "us-Samoansifu-area-52"
+RaiderIO_MissingCharacters = {
+["us-Alris-malygos"] = true,
+["us-Forkendork-area-52"] = true,
+["us-Sincarnige-emerald-dream"] = true,
+["us-Ghöst-area-52"] = true,
+["us-Purplejezus-area-52"] = true,
+["us-Blattin-emerald-dream"] = true,
+["us-Ringwxrm-emerald-dream"] = true,
+["us-Zugtony-frostmane"] = true,
+["us-Slashley-emerald-dream"] = true,
+["us-Samoansifu-area-52"] = true,
+["us-Herbcraft-area-52"] = true,
+["us-Zealotone-stormrage"] = true,
+["us-Katazahn-area-52"] = true,
+["us-Rayedorada-area-52"] = true,
+["us-Headsmusha-emerald-dream"] = true,
+["us-Crankcraft-area-52"] = true,
+["us-Ctyxia-icecrown"] = true,
+["us-Gigacowpower-area-52"] = true,
+["us-Slakhar-malganis"] = true,
+["us-Gangkerhkan-area-52"] = true,
+["us-Drscoob-thrall"] = true,
+["us-Ahewa-area-52"] = true,
+["us-Fjara-emerald-dream"] = true,
+["us-Samoansifu-Area 52"] = true,
+["us-Devpoppin-emerald-dream"] = true,
+["us-Dustcraft-emerald-dream"] = true,
+["us-Kàinê-area-52"] = true,
+["us-Edogyy-dentarg"] = true,
+["us-Unknown-area-52"] = true,
+["us-Focalbanger-thrall"] = true,
+["us-Skills-mannoroth"] = true,
+["us-nahelsing-khaz-modan"] = true,
+["us-Chibang-area-52"] = true,
+["us-Vänahelsing-khaz-modan"] = true,
+["us-Cheapped-emerald-dream"] = true,
+["us-Albinogator-moon-guard"] = true,
+["us-Nockem-dentarg"] = true,
+}
+RaiderIO_MissingServers = {
+}
 RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}
+RaiderIO_CompletedReplays = {
+}

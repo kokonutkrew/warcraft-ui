@@ -2,6 +2,10 @@ VER 3 0100000000000002 "FGI" "134400"
 /fgi nextSearch
 /fgi invite
 END
+VER 3 0100000000000003 "profA" "134400"
+/run local c=C_CurrencyInfo.GetCurrencyInfo(3057) print(c.maxQuantity-c.quantity,"for",(c.name:match("ly.(.*).Kn")))
+/run local c=C_CurrencyInfo.GetCurrencyInfo(3058) print(c.maxQuantity-c.quantity,"for",(c.name:match("ly.(.*).Kn")))
+END
 VER 3 0100000000000001 "Pull/Skin" "236216"
 /targetenemy
 /fgi nextSearch

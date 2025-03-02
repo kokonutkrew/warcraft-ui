@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- 	Leatrix Maps 11.0.18 (20th November 2024)
+	-- 	Leatrix Maps 11.1.00 (26th February 2025)
 	----------------------------------------------------------------------
 
 	-- 10:Func, 20:Comm, 30:Evnt, 40:Panl
@@ -12,7 +12,7 @@
 	local LeaMapsLC, LeaMapsCB, LeaConfigList = {}, {}, {}
 
 	-- Version
-	LeaMapsLC["AddonVer"] = "11.0.18"
+	LeaMapsLC["AddonVer"] = "11.1.00"
 
 	-- Get locale table
 	local void, Leatrix_Maps = ...
@@ -28,7 +28,7 @@
 			end)
 			return
 		end
-		if gametocversion and gametocversion >= 110000 then -- 11.0.0
+		if gametocversion and gametocversion >= 110100 then -- 11.1.0
 			LeaMapsLC.NewPatch = true
 		end
 	end
@@ -104,6 +104,10 @@
 			for i, v in pairs({WorldMapFrame:GetChildren()}) do
 				if v.ResetButton then
 					v.ResetButton:SetParent(hiddenFrame)
+				end
+				if v.FilterCounter then
+					v.FilterCounter:HookScript("OnShow", function() v.FilterCounter:Hide() end)
+					v.FilterCounterBanner:HookScript("OnShow", function() v.FilterCounterBanner:Hide() end)
 				end
 			end
 		end
@@ -647,9 +651,11 @@
 			----------------------------------------------------------------------
 
 			-- Remove frame management
-			WorldMapFrame:SetAttribute("UIPanelLayout-area", nil)
-			WorldMapFrame:SetAttribute("UIPanelLayout-enabled", false)
-			WorldMapFrame:SetAttribute("UIPanelLayout-allowOtherPanels", true)
+			C_Timer.After(0.1, function() -- Needed to apply settings properly (else game menu wont open with escape and opening map alongside character frame resets map position)
+				WorldMapFrame:SetAttribute("UIPanelLayout-area", nil)
+				WorldMapFrame:SetAttribute("UIPanelLayout-enabled", false)
+				WorldMapFrame:SetAttribute("UIPanelLayout-allowOtherPanels", true)
+			end)
 
 			-- Enable movement
 			WorldMapFrame:SetMovable(true)
@@ -2151,6 +2157,7 @@
 			LeaMapsLC:LoadVarChk("NoMapFade", "On")						-- Disable map fade
 			LeaMapsLC:LoadVarChk("NoMapEmote", "On")					-- Disable map emote
 			LeaMapsLC:LoadVarChk("NoFilterResetBtn", "On")				-- Hide filter reset button
+
 			LeaMapsLC:LoadVarAnc("MapPosA", "TOPLEFT")					-- Windowed map anchor
 			LeaMapsLC:LoadVarAnc("MapPosR", "TOPLEFT")					-- Windowed map relative
 			LeaMapsLC:LoadVarNum("MapPosX", 16, -5000, 5000)			-- Windowed map X
@@ -2212,7 +2219,7 @@
 
 			if LeaMapsLC.NewPatch then
 			else
-				-- LockDF("NoFilterResetBtn", "This is for The War Within.")
+				-- LockDF("NoMapTabs", "This is for game patch 11.1.0.")
 			end
 
 		elseif event == "PLAYER_LOGIN" then
@@ -2231,6 +2238,7 @@
 			LeaMapsDB["NoMapFade"] = LeaMapsLC["NoMapFade"]
 			LeaMapsDB["NoMapEmote"] = LeaMapsLC["NoMapEmote"]
 			LeaMapsDB["NoFilterResetBtn"] = LeaMapsLC["NoFilterResetBtn"]
+
 			LeaMapsDB["MapPosA"] = LeaMapsLC["MapPosA"]
 			LeaMapsDB["MapPosR"] = LeaMapsLC["MapPosR"]
 			LeaMapsDB["MapPosX"] = LeaMapsLC["MapPosX"]
@@ -2382,15 +2390,3 @@
 	LeaMapsLC:CfgBtn("UnlockMapBtn", LeaMapsCB["UnlockMap"])
 	LeaMapsLC:CfgBtn("ShowCoordsBtn", LeaMapsCB["ShowCoords"])
 	LeaMapsLC:CfgBtn("EnhanceBattleMapBtn", LeaMapsCB["EnhanceBattleMap"])
-
-	-- Show help button for Zoom heading
-	LeaMapsLC:CfgBtn("ZoomInfoBtn", LeaMapsLC["PageF"])
-	LeaMapsCB["ZoomInfoBtn"]:ClearAllPoints()
-	LeaMapsCB["ZoomInfoBtn"]:SetPoint("LEFT", ZoomHeading, "RIGHT", 0, 0)
-	LeaMapsCB["ZoomInfoBtn"]:SetSize(25, 25)
-	LeaMapsCB["ZoomInfoBtn"].t:SetTexture("Interface\\COMMON\\help-i.blp")
-	LeaMapsCB["ZoomInfoBtn"].t:SetTexCoord(0, 1, 0, 1)
-	LeaMapsCB["ZoomInfoBtn"].t:SetVertexColor(0.9, 0.8, 0.0)
-	LeaMapsCB["ZoomInfoBtn"]:SetHighlightTexture("Interface\\COMMON\\help-i.blp")
-	LeaMapsCB["ZoomInfoBtn"]:GetHighlightTexture():SetTexCoord(0, 1, 0, 1)
-	LeaMapsCB["ZoomInfoBtn"].tiptext = L["Enabling any of the zoom settings below will taint the map until you reload or logout."]

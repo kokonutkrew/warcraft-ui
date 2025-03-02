@@ -31,16 +31,16 @@ GladiusExDB = {
 ["profiles"] = {
 ["Default"] = {
 ["y"] = {
-["anchor_arena"] = 502.7555677294731,
-["arena2"] = 520.1777469707849,
-["arena3"] = 453.3333443105221,
-["arena1"] = 587.0221930338266,
+["anchor_arena"] = 480.0000367535758,
+["arena3"] = 425.4233509077239,
+["arena2"] = 462.3313255085159,
+["arena1"] = 536.1472747100997,
 },
 ["x"] = {
-["anchor_arena"] = 916.622331223225,
-["arena2"] = 962.1335302419175,
-["arena3"] = 962.1335302419175,
-["arena1"] = 962.1335302419175,
+["anchor_arena"] = 752.3554272681358,
+["arena3"] = 802.6130948096397,
+["arena2"] = 802.6130948096397,
+["arena1"] = 802.6130948096397,
 },
 },
 },
@@ -54,15 +54,15 @@ GladiusExDB = {
 ["Default"] = {
 ["y"] = {
 ["anchor_party"] = 530.4889017343521,
-["player"] = 609.4222803817865,
-["party1"] = 546.1333465576172,
-["party2"] = 482.8444127334478,
+["player"] = 582.709773625982,
+["party2"] = 477.8753723091795,
+["party1"] = 512.8202047010782,
 },
 ["x"] = {
 ["anchor_party"] = 220.4444063795927,
-["player"] = 280.1777411593321,
-["party1"] = 280.1777411593321,
-["party2"] = 280.1777411593321,
+["player"] = 286.4076093208169,
+["party2"] = 286.4076093208169,
+["party1"] = 286.4076093208169,
 },
 },
 },
@@ -77,29 +77,29 @@ GladiusExDB = {
 },
 ["HealthBar"] = {
 },
-["Clicks"] = {
+["party_PetBar"] = {
 },
-["Tags"] = {
+["PetBar"] = {
 },
 ["party_Cooldowns"] = {
 },
 ["party_Clicks"] = {
 },
-["party_Auras"] = {
+["Announcements"] = {
 },
 ["party_Interrupts"] = {
 },
-["party_Tags"] = {
+["Alerts"] = {
 },
 ["TargetBar"] = {
 },
-["Alerts"] = {
+["party_Tags"] = {
 },
-["Announcements"] = {
+["party_Auras"] = {
 },
-["PetBar"] = {
+["Tags"] = {
 },
-["party_PetBar"] = {
+["Clicks"] = {
 },
 ["ClassIcon"] = {
 },
@@ -109,35 +109,45 @@ GladiusExDB = {
 ["Samoanghost - Area 52"] = "Default",
 ["Samoansavage - Area 52"] = "Default",
 ["Threadcraft - Emerald Dream"] = "Default",
+["Samoansifu - Area 52"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
+["Samoanshadow - Area 52"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
+["Samoandrake - Emerald Dream"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Forgecraft - Area 52"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Samoansurge - Area 52"] = "Default",
+["Samoanbeast - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Threadcraft - Area 52"] = "Default",
-["Samoanseraph - Area 52"] = "Default",
-["Ikkl - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
 ["Samoanmystic - Emerald Dream"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
-["Samoanstrap - Area 52"] = "Default",
+["Herbcraft - Area 52"] = "Default",
+["Samoanlegend - Tichondrius"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
-["Samoandrake - Emerald Dream"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
-["Samoanbeast - Ravenholdt"] = "Default",
-["Forgecraft - Area 52"] = "Default",
-["Crankcraft - Area 52"] = "Default",
-["Herbcraft - Emerald Dream"] = "Default",
-["Shgrshn - Tichondrius"] = "Default",
-["Kk - Bloodhoof"] = "Default",
-["Buycraft - Area 52"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
-["Samoantitan - Emerald Dream"] = "Default",
-["Samoanbeast - Area 52"] = "Default",
-["Herbcraft - Area 52"] = "Default",
-["Dustcraft - Emerald Dream"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
+["Kk - Bloodhoof"] = "Default",
+["Samoanrocket - Area 52"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoansage - Area 52"] = "Default",
+["Samoantitan - Area 52"] = "Default",
 ["Samoanghost - Emerald Dream"] = "Default",
-["Samoanlegend - Tichondrius"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+["showParty"] = false,
 ["locked"] = true,
+["advancedOptions"] = true,
 },
 },
 }

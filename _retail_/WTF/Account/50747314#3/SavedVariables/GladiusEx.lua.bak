@@ -39,41 +39,42 @@ GladiusExDB = {
 },
 ["PowerBar"] = {
 },
-["party_Interrupts"] = {
+["Interrupts"] = {
 },
 ["party_Announcements"] = {
 },
 ["HealthBar"] = {
 },
-["Interrupts"] = {
+["Clicks"] = {
 },
-["party_PetBar"] = {
+["Tags"] = {
 },
 ["party_Cooldowns"] = {
 },
 ["party_Clicks"] = {
 },
-["PetBar"] = {
+["party_Auras"] = {
 },
-["Announcements"] = {
-},
-["Alerts"] = {
-},
-["TargetBar"] = {
+["party_Interrupts"] = {
 },
 ["party_Tags"] = {
 },
-["party_Auras"] = {
+["TargetBar"] = {
 },
-["Tags"] = {
+["Alerts"] = {
 },
-["Clicks"] = {
+["Announcements"] = {
+},
+["PetBar"] = {
+},
+["party_PetBar"] = {
 },
 ["ClassIcon"] = {
 },
 },
 ["profileKeys"] = {
 ["Floide - Moon Guard"] = "Default",
+["Timecaster - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

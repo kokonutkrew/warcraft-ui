@@ -145,29 +145,8 @@ AUCTIONATOR_SHOPPING_LISTS = {
 }
 AUCTIONATOR_PRICE_DATABASE = {
 ["__dbversion"] = 8,
-["EmeraldDream"] = {
-["210805"] = "¤aa€al¡d1739\000õÐam\000õÐah¡d1739\000t",
-["210221"] = "¤aa€al€ah¡d1739ˆamˆ",
-["210796"] = "¤aa€al¡d1739\000àah¡d1739\000W8am\000à",
-["210801"] = "¤aa€al€ah¡d1739\000)«øam\000)«ø",
-["211806"] = "¤aa€al€ah¡d1739^ìam^ì",
-["210809"] = "¤aa€al€ah¡d1739\000 ¼am\000 ¼",
-["210797"] = "¤aa€al€ah¡d1739\000k¬am\000k¬",
-["220136"] = "¤aa€al€ah¡d1739\000ûÐam\000ûÐ",
-["210931"] = "¤aa€al¡d1739\000£€am\000£€ah¡d1739\000¤H",
-["210806"] = "¤aa€al€ah¡d1739\000uŒam\000uŒ",
-["31916"] = "¤aa€al€ah¡d1739’|am’|",
-["223512"] = "¤aa€al€ah¡d1739ˆ¸amˆ¸",
-["192615"] = "¤aa€al€am$¸ah¡d1739$¸",
-["210930"] = "¤aa€al€ah¡d1739\000Ðam\000Ð",
-["210808"] = "¤aa€al€ah¡d1739\000ÈTam\000ÈT",
-["213610"] = "¤aa€al¡d1739=¸ah¡d1739>äam=¸",
-["213613"] = "¤aa€al€ah¡d1739\000Íäam\000Íä",
-["210936"] = "¤aa€al¡d1739\000_ôah¡d1739\000$Ôam\000_ô",
-["213611"] = "¤aa€al€ah¡d1739\000¡ am\000¡ ",
-["212664"] = "¤aa€al¡d1739\000pam\000pah¡d1739\000ô",
-["224828"] = "¤aa€al€am\000š(ah¡d1739\000š(",
-["210799"] = "¤aa€al€ah¡d1739\000Hàam\000Hà",
+["EmeraldDream"] = "¶f210805x%¤aa€al¡d1739\000õÐam\000õÐah¡d1739\000tf210221w¤aa€al€ah¡d1739ˆamˆf210796x%¤aa€al¡d1739\000àah¡d1739\000W8am\000àf210801x¤aa€al€ah¡d1739\000)«øam\000)«øf211806w¤aa€al€ah¡d1739^ìam^ìf210809x¤aa€al€ah¡d1739\000 ¼am\000 ¼f210797x¤aa€al€ah¡d1739\000k¬am\000k¬f220136x¤aa€al€ah¡d1739\000ûÐam\000ûÐf210931x%¤aa€al¡d1739\000£€am\000£€ah¡d1739\000¤Hf210806x¤aa€al€ah¡d1739\000uŒam\000uŒe31916w¤aa€al€ah¡d1739’|am’|f210799x¤aa€al€ah¡d1739\000Hàam\000Hàf192615w¤aa€al€am$¸ah¡d1739$¸f212664x%¤aa€al¡d1739\000pam\000pah¡d1739\000ôf213611x¤aa€al€ah¡d1739\000¡ am\000¡ f213610x¤aa€al¡d1739=¸ah¡d1739>äam=¸f210936x%¤aa€al¡d1739\000_ôah¡d1739\000$Ôam\000_ôf210930x¤aa€al€ah¡d1739\000Ðam\000Ðf213613x¤aa€al€ah¡d1739\000Íäam\000Íäf210808x¤aa€al€ah¡d1739\000ÈTam\000ÈTf224828x¤aa€al€am\000š(ah¡d1739\000š(f223512w¤aa€al€ah¡d1739ˆ¸amˆ¸",
+["Area52"] = {
 },
 }
 AUCTIONATOR_POSTING_HISTORY = {

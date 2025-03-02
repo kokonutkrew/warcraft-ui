@@ -12,15 +12,15 @@ true,
 true,
 },
 ["DataCode"] = "4",
+["SoundChannel"] = "Master",
+["Volume"] = 3,
+["IgnoreOptions"] = {
+["EyeOfCorruption2"] = true,
+},
 ["SoundOverrides"] = {
 "",
 "",
 "",
 "",
 },
-["Volume"] = 3,
-["IgnoreOptions"] = {
-["EyeOfCorruption2"] = true,
-},
-["SoundChannel"] = "Master",
 }

@@ -16,6 +16,7 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 ["profileKeys"] = {
 ["Maliaelle - Moon Guard"] = "Default",
 ["Maliakk - Emerald Dream"] = "Default",
+["Pvpscout - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

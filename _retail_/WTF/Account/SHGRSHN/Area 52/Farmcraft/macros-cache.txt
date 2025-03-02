@@ -1,0 +1,137 @@
+VER 3 0100000000000001 ".a.yQ Interrupt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:1766]kick;[known:78675]solar beam;[known:147362]counter shot;[known:2139] counterspell;[known:106839]skull bash;[known:96231]rebuke;[known:6552]pummel;[known:quell]quell
+END
+VER 3 010000000000000C ".Cyclone" "INV_Misc_QuestionMark"
+#showtooltip
+/focus [harm,noexists] [harm,mod:shift]
+/cast [@focus,exists,harm] entangling roots
+END
+VER 3 0100000000000002 ".f13 Battle Pet" "INV_Misc_QuestionMark"
+#showtooltip
+/use [equipped:bow] [equipped:gun] [equipped:crossbow] hunter's call
+/castsequence [nomod] reset=480 Revive Battle Pets, Battle Pet Bandage
+/randompet
+END
+VER 3 010000000000000D ".Form Treant" "INV_Misc_QuestionMark"
+#showtooltip
+/use [noform:1]treant form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
+END
+VER 3 010000000000001A ".Form3Travel" "INV_Misc_QuestionMark"
+#showtooltip travel form
+/use [noform,indoors]cat form;[noform,outdoors]travel form;[form:3]cat form; travel form
+END
+VER 3 010000000000000E ".FormBear" "INV_Misc_QuestionMark"
+#showtooltip
+/use [noform:1]bear form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
+END
+VER 3 010000000000001B ".FormBear1" "INV_Misc_QuestionMark"
+#showtooltip
+/use [noform:1]bear form
+/use [known:61336]survival instincts
+/use barkskin
+END
+VER 3 010000000000000F ".FormCat" "INV_Misc_QuestionMark"
+#showtooltip
+/use [stealth,spec:2]rake;[stealth,talent:3/2]rake;[stealth]shred;[nostealth,nocombat,stance:2]prowl;[nostance:2]cat form; [nostealth,combat]shadowmeld
+END
+VER 3 010000000000001C ".FormFour4" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:33891,noform:4]incarnation: tree of life;[known:24858]moonkin form;
+/use [known:164862] flap
+/use [form:4]barkskin
+/use aquatic form
+/cancelform
+END
+VER 3 0100000000000010 ".FormMoonkin" "INV_Misc_QuestionMark"
+#showtooltip
+/use [form:4]barkskin;[spec:1] moonkin form; [noform]barkskin; aquatic form
+/cancelform [noform:4][spec:4,form:4]
+END
+VER 3 0100000000000011 ".FormTravel" "INV_Misc_QuestionMark"
+#showtooltip Travel Form
+/castsequence [mod:shift]fishing; [indoors]cat form; [form:3] cat form; travel form
+END
+VER 3 0100000000000012 ".KeyAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [combat,help,dead,@mouseover]rebirth; [spec:4,help,dead]revitalize; [@mouseover,help,dead]revive; [harm,combat]soothe; [harm,nocombat]hibernate; [nospec:4]remove corruption; nature's cure
+END
+VER 3 0100000000000013 ".KeyClickLeft" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/combat/1 rejuvenation, swiftmend, regrowth, regrowth, regrowth; regrowth
+/target mouseover
+END
+VER 3 0100000000000014 ".KeyQ Spec Spell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:soloar beam] solar beam; [known:skull bash] skull bash; [known:ursol's vortex] ursol's vortex
+END
+VER 3 0100000000000015 ".KeyScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom [harm]wild charge; dash, stampeding roar, bull rush
+END
+VER 3 0100000000000003 ".slot 14 Trinket" "338784"
+/use 14
+END
+VER 3 0100000000000016 "asdf" "236216"
+/targetenemy
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END
+VER 3 0100000000000004 "AutoPotion" "INV_Misc_QuestionMark"
+#showtooltip 
+/castsequence [@player] reset=combat Renewal, item:212242
+END
+VER 3 0100000000000005 "Craft" "132691"
+/click TSMDestroyBtn LeftButton 1
+/click TSMCraftingBtn LeftButton 1
+/tsm destroy
+/run AutoLootMailItem(1)
+/targetenemy
+/petattack
+/castsequence shadow bolt, hand of gul'dan
+END
+VER 3 0100000000000006 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
+END
+VER 3 0100000000000007 "Mailbox" "413580"
+/run AutoLootMailItem(1)
+END
+VER 3 010000000000001D "Prowl" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nocombat, nostealth] prowl; shadowmeld
+END
+VER 3 0100000000000008 "pvpSetFocus" "1033497"
+/focus [target=mouseover,exists]; target
+END
+VER 3 0100000000000009 "Racial Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:68992]darkflight;[known:69070]rocket jump
+END
+VER 3 010000000000001E "Rake" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nocombat, nostealth] prowl; rake
+END
+VER 3 0100000000000017 "Rejuvenation" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,nodead,harm] moonfire;
+/use [@mouseover,nodead,help] rejuvenation
+/use [@target,nodead,harm] moonfire;
+/use [@target,nodead,help][@player] rejuvenation
+END
+VER 3 010000000000000A "RXPTargeting" "132150"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 0100000000000018 "Speed 2" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [known:68992] reset=3 darkflight, stampeding roar, dash; stampeding roar, dash
+END
+VER 3 0100000000000019 "Swiftmend" "INV_Misc_QuestionMark"
+#showtooltip swiftmend
+/castsequence reset=target/combat/1 rejuvenation, swiftmend
+END
+VER 3 010000000000000B "xLeftClick" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/2 [spec:1/2/3,talent:3/3][spec:4]rejuvenation, regrowth, regrowth, regrowth
+/target mouseover
+END

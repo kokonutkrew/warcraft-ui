@@ -14,8 +14,8 @@ CaerdonWardrobeConfig = {
 },
 },
 ["Version"] = 24,
-["LoadBehavior"] = {
-["ShowProfessionLoad"] = true,
+["Debug"] = {
+["Enabled"] = false,
 },
 ["Icon"] = {
 ["ShowLearnableByOther"] = {
@@ -29,12 +29,20 @@ CaerdonWardrobeConfig = {
 ["Merchant"] = true,
 ["SameLookDifferentLevel"] = true,
 ["BankAndBags"] = true,
-["GuildBank"] = true,
-["SameLookDifferentItem"] = false,
 ["Auction"] = true,
+["SameLookDifferentItem"] = false,
+["GuildBank"] = true,
 },
 ["EnableAnimation"] = true,
 ["Position"] = "TOPLEFT",
+["ShowUpgrades"] = {
+["BankAndBags"] = true,
+},
+["ShowSellable"] = {
+["BankAndBags"] = true,
+["GuildBank"] = false,
+},
+["ShowQuestItems"] = true,
 ["ShowOldExpansion"] = {
 ["Other"] = false,
 ["Auction"] = true,
@@ -42,32 +50,28 @@ CaerdonWardrobeConfig = {
 ["Usable"] = false,
 ["Reagents"] = true,
 },
-["ShowQuestItems"] = true,
-["ShowSellable"] = {
-["BankAndBags"] = true,
-["GuildBank"] = false,
 },
-["ShowUpgrades"] = {
-["BankAndBags"] = true,
-},
-},
-["Debug"] = {
-["Enabled"] = false,
+["LoadBehavior"] = {
+["ShowProfessionLoad"] = true,
 },
 }
 CaerdonProfessionData = {
 ["Area 52"] = {
 ["Kkfiftytwo"] = {
 },
+["Okkoa"] = {
+},
 ["Kkbankk"] = {
 },
 },
 }
 CaerdonRecipeData = {
-["globalRecipeNameToID"] = {
-},
 ["Area 52"] = {
 ["Kkfiftytwo"] = {
+["knownRecipes"] = {
+},
+},
+["Okkoa"] = {
 ["knownRecipes"] = {
 },
 },
@@ -75,5 +79,7 @@ CaerdonRecipeData = {
 ["knownRecipes"] = {
 },
 },
+},
+["globalRecipeNameToID"] = {
 },
 }

@@ -1,4 +1,4 @@
-local Addon = LibStub("AceAddon-3.0"):NewAddon("WoWthing_Collector", "AceEvent-3.0")
+local Addon = LibStub("AceAddon-3.0"):NewAddon("WoWthing_Collector", "AceConsole-3.0", "AceEvent-3.0")
 Addon:SetDefaultModuleLibraries("AceBucket-3.0", "AceEvent-3.0", "AceTimer-3.0")
 
 local ModulePrototype = {
@@ -14,8 +14,6 @@ local ModulePrototype = {
     end
 }
 Addon:SetDefaultModulePrototype(ModulePrototype)
-
-local LibRealmInfo = LibStub('LibRealmInfo17janekjl')
 
 local CI_GetDetailedItemLevelInfo = C_Item.GetDetailedItemLevelInfo
 local CT_After = C_Timer.After
@@ -51,25 +49,26 @@ function Addon:OnInitialize()
     WWTCSaved.honorLevel = WWTCSaved.honorLevel or 0
     WWTCSaved.honorMax = WWTCSaved.honorMax or 0
 
+    self.hasAccountLock = false
     self.parseItemLinkCache = {}
     self.working = false
     self.workloads = {}
 
-    -- Build a unique ID for this character
-    -- id, name, nameForAPI, rules, locale, nil, region, timezone, connections, englishName, englishNameForAPI
-    local _, realm, _, _, _, _, region, _, _, realmEnglish = LibRealmInfo:GetRealmInfoByUnit("player")
-    self.regionName = region or GetCurrentRegion()
+    self.regionName = GetCurrentRegion()
     self.charName = UnitGUID('player')
     self.charClassID = select(3, UnitClass("player"))
 
     -- Set up character data table
     self.charData = WWTCSaved.chars[self.charName] or {}
-    self.charData.name = self.regionName .. "/" .. (realmEnglish or realm)  .. "/" .. UnitName("player")
     self.charData.scanTimes = self.charData.scanTimes or {}
+
+    local now = time()
+    self.charData.dailyReset = now + C_DateAndTime.GetSecondsUntilDailyReset()
+    self.charData.weeklyReset = now + C_DateAndTime.GetSecondsUntilWeeklyReset()
 
     WWTCSaved.chars[self.charName] = self.charData
 
-    WWTCSaved.chars[self.charData.name] = nil
+    self:RegisterChatCommand('wwtc', 'SlashCommand')
 
     self:RegisterEvent('PLAYER_ENTERING_WORLD')
     self:RegisterEvent('PLAYER_LOGOUT')
@@ -100,14 +99,17 @@ function Addon:Cleanup()
             charData.hiddenDungeons = nil
             charData.hiddenKills = nil
             charData.hiddenWorldQuests = nil
+            charData.illusions = nil
             charData.mythicPlus = nil
+            charData.name = nil
             charData.transmog = nil
+            charData.transmogSquish = nil
             charData.weeklyQuests = nil
             charData.weeklyUghQuests = nil
-
-            if type(charData.illusions) == 'table' then
-                charData.illusions = nil
-            end
+            
+            charData.activeQuests = nil
+            charData.dailyQuests = nil
+            charData.otherQuests = nil
 
             if charData.vault ~= nil and
                 (charData.vault[1] ~= nil or
@@ -120,15 +122,28 @@ function Addon:Cleanup()
     end
 end
 
+function Addon:SlashCommand(command)
+    if command == 'transmog' then
+        print('Running full transmog scan')
+        self.charData.scanTimes.transmog = 0
+        
+        local transmogModule = self:GetModule('Transmog')
+        transmogModule:UpdateTransmog(true)
+    end
+end
+
 function Addon:UpdateLastSeen()
     self.charData.lastSeen = time()
 end
 
 function Addon:PLAYER_ENTERING_WORLD()
+    self.hasAccountLock = C_PlayerInfo.HasAccountInventoryLock()
     self:UpdateLastSeen()
 
-    self:ACCOUNT_MONEY()
-    self:PLAYER_MONEY()
+    C_Timer.After(2, function()
+        self:ACCOUNT_MONEY()
+        self:PLAYER_MONEY()
+    end)
 
     for _, module in Addon:IterateModules() do
         if module.OnEnteringWorld ~= nil then
@@ -148,7 +163,7 @@ function Addon:PLAYER_LOGOUT()
 end
 
 function Addon:ACCOUNT_MONEY()
-    if C_PlayerInfo.HasAccountInventoryLock() then
+    if self.hasAccountLock then
         WWTCSaved.scanTimes.warbankGold = time()
         WWTCSaved.warbank.copper = C_Bank.FetchDepositedMoney(Enum.BankType.Account)
     end

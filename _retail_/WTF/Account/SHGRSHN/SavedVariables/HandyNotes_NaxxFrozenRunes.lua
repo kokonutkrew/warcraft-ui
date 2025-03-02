@@ -12,13 +12,14 @@ HandyNotes_NaxxFrozenRunesDB = {
 ["Forgecraft - Area 52"] = "Forgecraft - Area 52",
 ["Crankcraft - Area 52"] = "Crankcraft - Area 52",
 ["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
 ["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+["Kk - Bloodhoof"] = "Kk - Bloodhoof",
 ["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 ["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-["Kk - Bloodhoof"] = "Kk - Bloodhoof",
 ["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
-["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+["Samoantitan - Area 52"] = "Samoantitan - Area 52",
 },
 ["profiles"] = {
 ["Samoanslayer - Emerald Dream"] = {
@@ -43,7 +44,11 @@ HandyNotes_NaxxFrozenRunesDB = {
 },
 ["Herbcraft - Emerald Dream"] = {
 },
+["Herbcraft - Area 52"] = {
+},
 ["Samoantitan - Emerald Dream"] = {
+},
+["Kk - Bloodhoof"] = {
 },
 ["Samoanbeast - Area 52"] = {
 },
@@ -51,11 +56,9 @@ HandyNotes_NaxxFrozenRunesDB = {
 },
 ["Dustcraft - Emerald Dream"] = {
 },
-["Kk - Bloodhoof"] = {
-},
 ["Samoanghost - Emerald Dream"] = {
 },
-["Herbcraft - Area 52"] = {
+["Samoantitan - Area 52"] = {
 },
 },
 }

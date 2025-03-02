@@ -32,7 +32,6 @@ ClientInfo.FEATURES = EnumType.New("FEATURES", {
 	CRAFTING_ORDERS = EnumType.NewValue(),
 	CHARACTER_SPECIALIZATION = EnumType.NewValue(),
 	C_ITEM = EnumType.NewValue(),
-	C_SPELL = EnumType.NewValue(),
 	WARBAND_BANK = EnumType.NewValue(),
 })
 local private = {
@@ -52,16 +51,16 @@ ClientInfo:OnModuleLoad(function()
 		[ClientInfo.FEATURES.HONOR_POINTS] = LibTSMWoW.IsCataClassic(),
 		[ClientInfo.FEATURES.SUB_PROFESSION_NAMES] = not LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.AH_COPPER] = not LibTSMWoW.IsRetail(),
-		[ClientInfo.FEATURES.AH_STACKS] = not LibTSMWoW.IsRetail(),
-		[ClientInfo.FEATURES.AH_UNCOLLECTED_FILTER] = LibTSMWoW.IsRetail(),
+		[ClientInfo.FEATURES.AH_STACKS] = not LibTSMWoW.IsRetail() and not LibTSMWoW.IsCataClassicPatch442(),
+		[ClientInfo.FEATURES.AH_UNCOLLECTED_FILTER] = LibTSMWoW.IsRetail() or LibTSMWoW.IsCataClassicPatch442(),
 		[ClientInfo.FEATURES.AH_UPGRADES_FILTER] = LibTSMWoW.IsRetail(),
-		[ClientInfo.FEATURES.AH_LIFO] = LibTSMWoW.IsRetail(),
-		[ClientInfo.FEATURES.AH_SELLERS] = not LibTSMWoW.IsRetail(),
+		[ClientInfo.FEATURES.AH_LIFO] = LibTSMWoW.IsRetail() or LibTSMWoW.IsCataClassicPatch442(),
+		[ClientInfo.FEATURES.AH_SELLERS] = not LibTSMWoW.IsRetail() and not LibTSMWoW.IsCataClassicPatch442(),
 		[ClientInfo.FEATURES.BATTLE_PETS] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.GARRISON] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.GUILD_BANK] = not LibTSMWoW.IsVanillaClassic(),
-		[ClientInfo.FEATURES.C_AUCTION_HOUSE] = LibTSMWoW.IsRetail(),
-		[ClientInfo.FEATURES.COMMODITY_ITEMS] = LibTSMWoW.IsRetail(),
+		[ClientInfo.FEATURES.C_AUCTION_HOUSE] = LibTSMWoW.IsRetail() or LibTSMWoW.IsCataClassicPatch442(),
+		[ClientInfo.FEATURES.COMMODITY_ITEMS] = LibTSMWoW.IsRetail() or LibTSMWoW.IsCataClassicPatch442(),
 		[ClientInfo.FEATURES.CRAFTING_QUALITY] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.C_TRADE_SKILL_UI] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.C_TOOLTIP_INFO] = LibTSMWoW.IsRetail(),
@@ -71,7 +70,6 @@ ClientInfo:OnModuleLoad(function()
 		[ClientInfo.FEATURES.CRAFTING_ORDERS] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.CHARACTER_SPECIALIZATION] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.C_ITEM] = LibTSMWoW.IsRetail(),
-		[ClientInfo.FEATURES.C_SPELL] = LibTSMWoW.IsRetail(),
 		[ClientInfo.FEATURES.WARBAND_BANK] = LibTSMWoW.IsRetail(),
 	}
 end)
@@ -98,6 +96,12 @@ end
 ---@return boolean
 function ClientInfo.IsCataClassic()
 	return LibTSMWoW.IsCataClassic()
+end
+
+---Returns whether or not we're running within the Cata Classic version of the game (patch 4.4.2).
+---@return boolean
+function ClientInfo.IsCataClassicPatch442()
+	return LibTSMWoW.IsCataClassicPatch442()
 end
 
 ---Checks whether or not a features is available in the current game version.

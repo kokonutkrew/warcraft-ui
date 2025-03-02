@@ -44,6 +44,10 @@ function Module:LOADING_SCREEN_DISABLED()
         end
     }
 
+    if WWTCSaved.transmogIdsSquish ~= nil then
+        self.transmog = Addon:DeltaDecode(WWTCSaved.transmogIdsSquish)
+    end
+
     if WWTCSaved.transmogSourcesSquishV2 ~= nil and WWTCSaved.fix_11_0_2_11_v2 then
         if type(WWTCSaved.transmogSourcesSquishV2) ~= 'string' then
             WWTCSaved.transmogSourcesSquishV2 = ''
@@ -58,7 +62,6 @@ function Module:LOADING_SCREEN_DISABLED()
     else
         WWTCSaved.transmogSourcesSquishV2 = ''
         WWTCSaved.fix_11_0_2_11_v2 = true
-        WWTCSaved.transmogScanBuild = nil
     end
 
     Addon:QueueWorkload(workload)
@@ -91,7 +94,7 @@ function Module:TRANSMOG_COLLECTION_SOURCE_REMOVED(_, sourceId)
     self:UniqueTimer('SaveTransmog', 2, 'SaveTransmog')
 end
 
-function Module:UpdateTransmog()
+function Module:UpdateTransmog(beMouthy)
     if self.isScanning then return end
 
     local lastScan = Addon.charData.scanTimes.transmog or 0
@@ -123,20 +126,18 @@ function Module:UpdateTransmog()
     end
 
     Addon:QueueWorkload(workload, function()
-        Module:ScanSources()
-        WWTCSaved.transmogScanBuild = currentBuild
+        Module:ScanSources(beMouthy)
         -- print(debugprofilestop() - startTime)
     end)
 end
 
-function Module:ScanSources()
+function Module:ScanSources(beMouthy)
     -- local startTime = debugprofilestop()
     local workload = {}
 
     local modifiedAppearances = self.modifiedAppearances
     local sourceToAppearance = self.sourceToAppearance
     local transmog = self.transmog
-    wipe(transmog)
 
     local sourceToAppearanceSize = #sourceToAppearance
     for chunkIndex = 1, sourceToAppearanceSize, CHUNK_SIZE do
@@ -165,26 +166,25 @@ function Module:ScanSources()
     end
   
     Addon:QueueWorkload(workload, function()
-        Module:ScanEnd()
+        Module:ScanEnd(beMouthy)
         -- print(debugprofilestop() - startTime)
     end)
 end
 
-function Module:ScanEnd()
+function Module:ScanEnd(beMouthy)
     self.isScanning = false
 
-    self:SaveTransmog()
+    self:SaveTransmog(beMouthy)
 end
 
-function Module:SaveTransmog()
+function Module:SaveTransmog(beMouthy)
     if self.isScanning then return end
 
     local appearanceIds = Addon:TableKeys(self.transmog)
-    wipe(self.transmog)
     table.sort(appearanceIds)
 
     Addon:DeltaEncode(appearanceIds, function(output)
-        Addon.charData.transmogSquish = output
+        WWTCSaved.transmogIdsSquish = output
     end)
 
     local modifiedAppearanceIds = Addon:TableKeys(self.modifiedAppearances)
@@ -195,4 +195,8 @@ function Module:SaveTransmog()
     end)
 
     Addon.charData.scanTimes.transmog = time()
+
+    if beMouthy == true then
+        print('Found '..#appearanceIds..' appearance IDs and '..#modifiedAppearanceIds..' sources')
+    end
 end

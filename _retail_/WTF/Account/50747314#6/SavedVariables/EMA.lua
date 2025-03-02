@@ -1,14 +1,29 @@
 
 CoreProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Default"] = {
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
 ["global"] = {
 },
 },
@@ -20,13 +35,22 @@ CoreProfileDB = {
 }
 CommunicationsProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+},
 ["Maliakk - Emerald Dream"] = {
 },
 ["Default"] = {
 ["useGuildComms"] = true,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+},
+["Pvpscout - Area 52"] = {
 },
 ["[KK]"] = {
 ["useGuildComms"] = true,
@@ -35,9 +59,27 @@ CommunicationsProfileDB = {
 }
 TeamProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+["master"] = "Malias-EmeraldDream",
+["newTeamList"] = {
+["Malias-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Malias-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["master"] = "Samoanstrafe-Area52",
 ["global"] = {
@@ -437,27 +479,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Choral-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 {
-["order"] = 60,
+["order"] = 69,
 ["class"] = "UNKNOWN",
-["name"] = "Choral-EmeraldDream",
+["name"] = "Saikk-EmeraldDream",
 ["online"] = false,
 },
 },
-["Dethsrikesr-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
 {
-["order"] = 67,
-["class"] = "UNKNOWN",
-["name"] = "Dethsrikesr-EmeraldDream",
+["order"] = 2,
+["class"] = "MONK",
+["name"] = "Naber-MoonGuard",
 ["online"] = false,
 },
 },
-["Aelira-EmeraldDream"] = {
+["Mariselle-EmeraldDream"] = {
 {
-["order"] = 56,
+["order"] = 59,
 ["class"] = "UNKNOWN",
-["name"] = "Aelira-EmeraldDream",
+["name"] = "Mariselle-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -501,27 +543,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Manaiakk-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 {
-["order"] = 12,
-["class"] = "MAGE",
-["name"] = "Manaiakk-EmeraldDream",
-["online"] = false,
-},
-},
-["Saiol-EmeraldDream"] = {
-{
-["order"] = 73,
+["order"] = 62,
 ["class"] = "UNKNOWN",
-["name"] = "Saiol-EmeraldDream",
+["name"] = "Cupkekk-EmeraldDream",
 ["online"] = false,
 },
 },
-["Demenchonone-EmeraldDream"] = {
+["Samoanslayer-Area52"] = {
 {
-["order"] = 9,
-["class"] = "PRIEST",
-["name"] = "Demenchonone-EmeraldDream",
+["order"] = 14,
+["class"] = "UNKNOWN",
+["name"] = "Samoanslayer-Area52",
+["online"] = false,
+},
+},
+["Cyclonekk-EmeraldDream"] = {
+{
+["order"] = 45,
+["class"] = "UNKNOWN",
+["name"] = "Cyclonekk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -541,46 +583,6 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Finelldeht-EmeraldDream"] = {
-{
-["order"] = 72,
-["class"] = "UNKNOWN",
-["name"] = "Finelldeht-EmeraldDream",
-["online"] = false,
-},
-},
-["Cyclonekk-EmeraldDream"] = {
-{
-["order"] = 45,
-["class"] = "UNKNOWN",
-["name"] = "Cyclonekk-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoansage-EmeraldDream"] = {
-{
-["order"] = 39,
-["class"] = "UNKNOWN",
-["name"] = "Samoansage-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoantitan-EmeraldDream"] = {
-{
-["order"] = 29,
-["class"] = "UNKNOWN",
-["name"] = "Samoantitan-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoanrelic-EmeraldDream"] = {
-{
-["order"] = 30,
-["class"] = "UNKNOWN",
-["name"] = "Samoanrelic-EmeraldDream",
-["online"] = false,
-},
-},
 ["Samoandrake-EmeraldDream"] = {
 {
 ["order"] = 24,
@@ -597,19 +599,59 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Samoanslayer-Area52"] = {
+["Samoanrelic-EmeraldDream"] = {
 {
-["order"] = 14,
+["order"] = 30,
 ["class"] = "UNKNOWN",
-["name"] = "Samoanslayer-Area52",
+["name"] = "Samoanrelic-EmeraldDream",
 ["online"] = false,
 },
 },
-["Cupkekk-EmeraldDream"] = {
+["Samoantitan-EmeraldDream"] = {
 {
-["order"] = 62,
+["order"] = 29,
 ["class"] = "UNKNOWN",
-["name"] = "Cupkekk-EmeraldDream",
+["name"] = "Samoantitan-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoansage-EmeraldDream"] = {
+{
+["order"] = 39,
+["class"] = "UNKNOWN",
+["name"] = "Samoansage-EmeraldDream",
+["online"] = false,
+},
+},
+["Finelldeht-EmeraldDream"] = {
+{
+["order"] = 72,
+["class"] = "UNKNOWN",
+["name"] = "Finelldeht-EmeraldDream",
+["online"] = false,
+},
+},
+["Demenchonone-EmeraldDream"] = {
+{
+["order"] = 9,
+["class"] = "PRIEST",
+["name"] = "Demenchonone-EmeraldDream",
+["online"] = false,
+},
+},
+["Saiol-EmeraldDream"] = {
+{
+["order"] = 73,
+["class"] = "UNKNOWN",
+["name"] = "Saiol-EmeraldDream",
+["online"] = false,
+},
+},
+["Manaiakk-EmeraldDream"] = {
+{
+["order"] = 12,
+["class"] = "MAGE",
+["name"] = "Manaiakk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -637,27 +679,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Mariselle-EmeraldDream"] = {
+["Aelira-EmeraldDream"] = {
 {
-["order"] = 59,
+["order"] = 56,
 ["class"] = "UNKNOWN",
-["name"] = "Mariselle-EmeraldDream",
+["name"] = "Aelira-EmeraldDream",
 ["online"] = false,
 },
 },
-["Naber-MoonGuard"] = {
+["Dethsrikesr-EmeraldDream"] = {
 {
-["order"] = 2,
-["class"] = "MONK",
-["name"] = "Naber-MoonGuard",
+["order"] = 67,
+["class"] = "UNKNOWN",
+["name"] = "Dethsrikesr-EmeraldDream",
 ["online"] = false,
 },
 },
-["Saikk-EmeraldDream"] = {
+["Choral-EmeraldDream"] = {
 {
-["order"] = 69,
+["order"] = 60,
 ["class"] = "UNKNOWN",
-["name"] = "Saikk-EmeraldDream",
+["name"] = "Choral-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -671,12 +713,42 @@ TeamProfileDB = {
 },
 },
 },
+["Nbmgfigjreit - Emerald Dream"] = {
+["master"] = "Nbmgfigjreit-EmeraldDream",
+["global"] = {
+},
+["newTeamList"] = {
+["Nbmgfigjreit-EmeraldDream"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Nbmgfigjreit-EmeraldDream",
+["online"] = true,
+},
+},
+},
+},
+["Pvpscout - Area 52"] = {
+["master"] = "Pvpscout-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Pvpscout-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Pvpscout-Area52",
+["online"] = true,
+},
+},
+},
+},
 ["[KK]"] = {
+["masterChangePromoteLeader"] = true,
+["master"] = "Samoantitan-Area52",
 ["global"] = {
 },
 ["inviteAcceptGuild"] = true,
-["masterChangePromoteLeader"] = true,
-["master"] = "Maliakk-EmeraldDream",
 ["inviteAcceptFriends"] = true,
 ["newTeamList"] = {
 ["Willowe-EmeraldDream"] = {
@@ -692,7 +764,7 @@ TeamProfileDB = {
 ["order"] = 5,
 ["class"] = "UNKNOWN",
 ["name"] = "Plumn-EmeraldDream",
-["online"] = true,
+["online"] = false,
 },
 },
 ["Samoanskully-Area52"] = {
@@ -943,6 +1015,14 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
+["Pvpscout-Area52"] = {
+{
+["order"] = 76,
+["class"] = "HUNTER",
+["name"] = "Pvpscout-Area52",
+["online"] = true,
+},
+},
 ["Samoanstrafe-Area52"] = {
 {
 ["order"] = 3,
@@ -1031,12 +1111,20 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
+["Samoantitan-Area52"] = {
+{
+["order"] = 77,
+["class"] = "PALADIN",
+["name"] = "Samoantitan-Area52",
+["online"] = false,
+},
+},
 ["Maliakk-EmeraldDream"] = {
 {
 ["order"] = 11,
 ["class"] = "DEATHKNIGHT",
 ["name"] = "Maliakk-EmeraldDream",
-["online"] = true,
+["online"] = false,
 },
 },
 ["Aelira-EmeraldDream"] = {
@@ -1047,27 +1135,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Saikk-EmeraldDream"] = {
+["Blawesum-EmeraldDream"] = {
 {
-["order"] = 69,
+["order"] = 16,
 ["class"] = "UNKNOWN",
-["name"] = "Saikk-EmeraldDream",
+["name"] = "Blawesum-EmeraldDream",
 ["online"] = false,
 },
 },
-["Naber-MoonGuard"] = {
+["Dethsrikesr-EmeraldDream"] = {
 {
-["order"] = 2,
-["class"] = "MONK",
-["name"] = "Naber-MoonGuard",
+["order"] = 67,
+["class"] = "UNKNOWN",
+["name"] = "Dethsrikesr-EmeraldDream",
 ["online"] = false,
 },
 },
-["Mariselle-EmeraldDream"] = {
+["Oreoz-EmeraldDream"] = {
 {
-["order"] = 59,
+["order"] = 64,
 ["class"] = "UNKNOWN",
-["name"] = "Mariselle-EmeraldDream",
+["name"] = "Oreoz-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1111,27 +1199,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Cupkekk-EmeraldDream"] = {
+["Saiol-EmeraldDream"] = {
 {
-["order"] = 62,
+["order"] = 73,
 ["class"] = "UNKNOWN",
-["name"] = "Cupkekk-EmeraldDream",
+["name"] = "Saiol-EmeraldDream",
 ["online"] = false,
 },
 },
-["Samoanslayer-Area52"] = {
+["Aerielle-EmeraldDream"] = {
 {
-["order"] = 14,
-["class"] = "UNKNOWN",
-["name"] = "Samoanslayer-Area52",
+["order"] = 7,
+["class"] = "WARLOCK",
+["name"] = "Aerielle-EmeraldDream",
 ["online"] = false,
 },
 },
-["Samoanmystic-EmeraldDream"] = {
+["Finelldeht-EmeraldDream"] = {
 {
-["order"] = 34,
+["order"] = 72,
 ["class"] = "UNKNOWN",
-["name"] = "Samoanmystic-EmeraldDream",
+["name"] = "Finelldeht-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1151,11 +1239,11 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Samoandrake-EmeraldDream"] = {
+["Eeklipse-EmeraldDream"] = {
 {
-["order"] = 24,
+["order"] = 17,
 ["class"] = "UNKNOWN",
-["name"] = "Samoandrake-EmeraldDream",
+["name"] = "Eeklipse-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1167,11 +1255,11 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Samoanruin-Stormrage"] = {
+["Samoanrelic-EmeraldDream"] = {
 {
-["order"] = 6,
+["order"] = 30,
 ["class"] = "UNKNOWN",
-["name"] = "Samoanruin-Stormrage",
+["name"] = "Samoanrelic-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1183,43 +1271,43 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Samoanrelic-EmeraldDream"] = {
+["Samoanmystic-EmeraldDream"] = {
 {
-["order"] = 30,
+["order"] = 34,
 ["class"] = "UNKNOWN",
-["name"] = "Samoanrelic-EmeraldDream",
+["name"] = "Samoanmystic-EmeraldDream",
 ["online"] = false,
 },
 },
-["Finelldeht-EmeraldDream"] = {
+["Samoandrake-EmeraldDream"] = {
 {
-["order"] = 72,
+["order"] = 24,
 ["class"] = "UNKNOWN",
-["name"] = "Finelldeht-EmeraldDream",
+["name"] = "Samoandrake-EmeraldDream",
 ["online"] = false,
 },
 },
-["Eeklipse-EmeraldDream"] = {
+["Samoanruin-Stormrage"] = {
 {
-["order"] = 17,
+["order"] = 6,
 ["class"] = "UNKNOWN",
-["name"] = "Eeklipse-EmeraldDream",
+["name"] = "Samoanruin-Stormrage",
 ["online"] = false,
 },
 },
-["Saiol-EmeraldDream"] = {
+["Samoanslayer-Area52"] = {
 {
-["order"] = 73,
+["order"] = 14,
 ["class"] = "UNKNOWN",
-["name"] = "Saiol-EmeraldDream",
+["name"] = "Samoanslayer-Area52",
 ["online"] = false,
 },
 },
-["Aerielle-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 {
-["order"] = 7,
-["class"] = "WARLOCK",
-["name"] = "Aerielle-EmeraldDream",
+["order"] = 62,
+["class"] = "UNKNOWN",
+["name"] = "Cupkekk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1247,27 +1335,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Oreoz-EmeraldDream"] = {
+["Mariselle-EmeraldDream"] = {
 {
-["order"] = 64,
+["order"] = 59,
 ["class"] = "UNKNOWN",
-["name"] = "Oreoz-EmeraldDream",
+["name"] = "Mariselle-EmeraldDream",
 ["online"] = false,
 },
 },
-["Dethsrikesr-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
 {
-["order"] = 67,
-["class"] = "UNKNOWN",
-["name"] = "Dethsrikesr-EmeraldDream",
+["order"] = 2,
+["class"] = "MONK",
+["name"] = "Naber-MoonGuard",
 ["online"] = false,
 },
 },
-["Blawesum-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 {
-["order"] = 16,
+["order"] = 69,
 ["class"] = "UNKNOWN",
-["name"] = "Blawesum-EmeraldDream",
+["name"] = "Saikk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1285,9 +1373,40 @@ TeamProfileDB = {
 }
 TagProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["tagList"] = {
+["Malias-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["tagList"] = {
 ["Samoanstrafe-Area52"] = {
@@ -1506,15 +1625,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Choral-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Dethsrikesr-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
 "all",
 "minion",
 },
-["Aelira-EmeraldDream"] = {
+["Mariselle-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1538,15 +1657,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Manaiakk-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Saiol-EmeraldDream"] = {
+["Samoanslayer-Area52"] = {
 "all",
 "minion",
 },
-["Demenchonone-EmeraldDream"] = {
+["Cyclonekk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1558,26 +1677,6 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Finelldeht-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Cyclonekk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoansage-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoantitan-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanrelic-EmeraldDream"] = {
-"all",
-"minion",
-},
 ["Samoandrake-EmeraldDream"] = {
 "all",
 "minion",
@@ -1586,11 +1685,31 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanslayer-Area52"] = {
+["Samoanrelic-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Cupkekk-EmeraldDream"] = {
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Manaiakk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1606,7 +1725,359 @@ TagProfileDB = {
 "all",
 "minion",
 },
+["Aelira-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-Area52"] = {
+"all",
+"minion",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["tagList"] = {
+["Nbmgfigjreit-EmeraldDream"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["tagList"] = {
+["Willowe-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Plumn-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanskully-Area52"] = {
+"all",
+"minion",
+},
+["Riverblume-MoonGuard"] = {
+"all",
+"minion",
+},
+["Demolishes-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Threadcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Floide-MoonGuard"] = {
+"all",
+"minion",
+},
+["Mekikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Forgecraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-Stormrage"] = {
+"all",
+"minion",
+},
+["Nicesai-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saibull-MoonGuard"] = {
+"all",
+"minion",
+},
+["Kmekik-EmeraldDream"] = {
+"all",
+"minion",
+},
 ["Mariselle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Wearethecham-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Deathscar-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Hertstabr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Farmcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kkmeki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dustcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Kahed-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Dethflare-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Sprinkless-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Ravenholdt"] = {
+"all",
+"minion",
+},
+["Bubbels-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanseraph-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanbreach-Area52"] = {
+"all",
+"minion",
+},
+["Samoanbeast-Area52"] = {
+"all",
+"minion",
+},
+["Dazzledame-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
+"all",
+"minion",
+},
+["Winbin-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanghost-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Pvpscout-Area52"] = {
+"all",
+"minion",
+},
+["Samoanstrafe-Area52"] = {
+"all",
+"minion",
+},
+["Shadowcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Flameing-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Meki-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Gearcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Herbcraft-Emeralddream"] = {
+"all",
+"minion",
+},
+["Voidspeakerr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Oreoz-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Migget-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Maliakk-EmeraldDream"] = {
+"all",
+"master",
+},
+["Saikk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansalty-Area52"] = {
+"all",
+"minion",
+},
+["Dethsrikesr-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Choral-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Aerielle-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanranger-Area52"] = {
+"all",
+"minion",
+},
+["Strahberrie-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanstrap-Area52"] = {
+"all",
+"minion",
+},
+["Cupkekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Aelira-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Eeklipse-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Calyssta-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanmystic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanrelic-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoandrake-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Cyclonekk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanslayer-Area52"] = {
+"all",
+"minion",
+},
+["Blawesum-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanshield-Area52"] = {
+"all",
+"minion",
+},
+["Samoansizzle-Area52"] = {
+"all",
+"minion",
+},
+["Timecaster-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1614,7 +2085,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Saikk-EmeraldDream"] = {
+["Manaiakk-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Furyfistss-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1778,6 +2253,10 @@ TagProfileDB = {
 "all",
 "minion",
 },
+["Pvpscout-Area52"] = {
+"all",
+"minion",
+},
 ["Samoanstrafe-Area52"] = {
 "all",
 "minion",
@@ -1822,23 +2301,27 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Maliakk-EmeraldDream"] = {
+["Samoantitan-Area52"] = {
 "all",
 "master",
+},
+["Maliakk-EmeraldDream"] = {
+"all",
+"minion",
 },
 ["Aelira-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Saikk-EmeraldDream"] = {
+["Blawesum-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Naber-MoonGuard"] = {
+["Dethsrikesr-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Mariselle-EmeraldDream"] = {
+["Oreoz-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1862,15 +2345,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Cupkekk-EmeraldDream"] = {
+["Saiol-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Samoanslayer-Area52"] = {
+["Aerielle-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Samoanmystic-EmeraldDream"] = {
+["Finelldeht-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1882,7 +2365,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoandrake-EmeraldDream"] = {
+["Eeklipse-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1890,7 +2373,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanruin-Stormrage"] = {
+["Samoanrelic-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1898,23 +2381,23 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanrelic-EmeraldDream"] = {
+["Samoanmystic-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Finelldeht-EmeraldDream"] = {
+["Samoandrake-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Eeklipse-EmeraldDream"] = {
+["Samoanruin-Stormrage"] = {
 "all",
 "minion",
 },
-["Saiol-EmeraldDream"] = {
+["Samoanslayer-Area52"] = {
 "all",
 "minion",
 },
-["Aerielle-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1930,15 +2413,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Oreoz-EmeraldDream"] = {
+["Mariselle-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Dethsrikesr-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
 "all",
 "minion",
 },
-["Blawesum-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1972,14 +2455,29 @@ TagProfileDB = {
 }
 MessageProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Default"] = {
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
 ["global"] = {
 },
 },
@@ -1991,15 +2489,30 @@ MessageProfileDB = {
 }
 InformationProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Default"] = {
 ["currChatTrigger"] = true,
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
 ["global"] = {
 },
 },
@@ -2013,9 +2526,16 @@ InformationProfileDB = {
 InformationClassicProfileDB = nil
 DisplayTeamProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["frameRelativePoint"] = "TOPLEFT",
 ["frameYOffset"] = 0,
@@ -2039,83 +2559,113 @@ DisplayTeamProfileDB = {
 ["gCDFrameWidth"] = 8,
 ["teamListHorizontal"] = false,
 ["teamListTitleHeight"] = 0,
-["frameXOffset"] = 353.0000305175781,
+["healthStatusHeight"] = 15,
+["showExperienceStatus"] = false,
+["framePoint"] = "TOPLEFT",
+["healthStatusShowPercentage"] = false,
+["frameAlpha"] = 0.63,
+["frameRelativePoint"] = "TOPLEFT",
 ["characterPortraitWidth"] = 15,
 ["showCharacterPortrait"] = true,
-["frameAlpha"] = 0.63,
-["healthStatusShowPercentage"] = false,
-["frameRelativePoint"] = "TOPLEFT",
-["framePoint"] = "TOPLEFT",
-["showExperienceStatus"] = false,
-["healthStatusHeight"] = 15,
+["frameXOffset"] = 353.0000305175781,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
 ["enableClique"] = true,
-["showHealthStatus"] = true,
-["showListTitle"] = false,
-["teamListHorizontal"] = false,
 ["frameYOffset"] = 0,
+["followStatusWidth"] = 104,
 ["gCDFrameHeight"] = 60,
 ["characterPortraitFreeze"] = true,
 ["olnyShowInParty"] = true,
-["showTeamListOnMasterOnly"] = true,
-["frameAlpha"] = 0.63,
+["showHealthStatus"] = true,
+["showClassColors"] = true,
+["showListTitle"] = false,
 ["global"] = {
 },
-["frameXOffset"] = 353.0000305175781,
-["characterPortraitWidth"] = 15,
-["showCharacterPortrait"] = true,
-["followStatusWidth"] = 104,
-["showExperienceStatus"] = false,
-["showClassColors"] = true,
-["framePoint"] = "TOPLEFT",
+["showTeamListOnMasterOnly"] = true,
 ["gCDFrameWidth"] = 8,
+["teamListHorizontal"] = false,
 ["teamListTitleHeight"] = 0,
-["healthStatusShowPercentage"] = false,
-["frameRelativePoint"] = "TOPLEFT",
 ["healthStatusHeight"] = 15,
+["showExperienceStatus"] = false,
+["framePoint"] = "TOPLEFT",
+["healthStatusShowPercentage"] = false,
+["characterPortraitWidth"] = 15,
+["frameRelativePoint"] = "TOPLEFT",
+["frameAlpha"] = 0.63,
+["showCharacterPortrait"] = true,
+["frameXOffset"] = 353.0000305175781,
 },
 },
 }
 FollowProfileDB = nil
 GuildProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Default"] = {
 ["adjustMoneyWithGuildBank"] = true,
-["showEMAGuildWindow"] = true,
+["guildBoEItems"] = true,
 ["global"] = {
 },
-["autoGuildBankTabBoE"] = 1,
 ["guildCRItems"] = true,
+["autoGuildBankTabBoE"] = 1,
 ["goldAmountToKeepOnToon"] = 10000,
 ["autoGuildBankTabCR"] = 2,
-["guildBoEItems"] = true,
+["showEMAGuildWindow"] = true,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
 ["adjustMoneyWithGuildBank"] = true,
+["guildBoEItems"] = true,
+["showEMAGuildWindow"] = true,
+["guildCRItems"] = true,
+["autoGuildBankTabBoE"] = 1,
+["goldAmountToKeepOnToon"] = 10000,
+["autoGuildBankTabCR"] = 2,
 ["global"] = {
 },
-["showEMAGuildWindow"] = true,
-["autoGuildBankTabBoE"] = 1,
-["guildBoEItems"] = true,
-["goldAmountToKeepOnToon"] = 10000,
-["guildCRItems"] = true,
-["autoGuildBankTabCR"] = 2,
 },
 },
 }
 InteractionProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2124,17 +2674,25 @@ InteractionProfileDB = {
 ["changeTexiTime"] = 5,
 ["global"] = {
 },
-["dismountWithMaster"] = true,
 ["mountWithTeam"] = true,
-["autoLoot"] = true,
 ["dismountWithTeam"] = true,
+["autoLoot"] = true,
+["dismountWithMaster"] = true,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
+["changeTexiTime"] = 5,
 ["global"] = {
 },
 ["dismountWithTeam"] = true,
 ["dismountWithMaster"] = true,
-["changeTexiTime"] = 5,
 ["autoLoot"] = true,
 ["mountWithTeam"] = true,
 },
@@ -2142,11 +2700,100 @@ InteractionProfileDB = {
 }
 ItemUseProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
-["Maliakk - Emerald Dream"] = {
+["Malias - Emerald Dream"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
 ["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -2231,6 +2878,7 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
+["itemUseTitleHeight"] = 2,
 },
 ["Default"] = {
 ["frameYOffset"] = 0,
@@ -2315,22 +2963,198 @@ ItemUseProfileDB = {
 ["hideClearButton"] = true,
 ["itemUseTitleHeight"] = 2,
 ["framePoint"] = "TOPLEFT",
-["itemUseScale"] = 0.62,
-["numberOfItems"] = 13,
-["frameAlpha"] = 0.46,
-["frameRelativePoint"] = "TOPLEFT",
-["autoAddQuestItemsToBar"] = true,
 ["global"] = {
 },
+["autoAddQuestItemsToBar"] = true,
+["frameAlpha"] = 0.46,
+["frameRelativePoint"] = "TOPLEFT",
+["numberOfItems"] = 13,
+["itemUseScale"] = 0.62,
 ["numberOfRows"] = 1,
 },
+["Nbmgfigjreit - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Pvpscout - Area 52"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
 ["[KK]"] = {
+["frameYOffset"] = 0,
 ["itemsAdvanced"] = {
 {
 ["kind"] = "empty",
 },
 {
-["kind"] = "empty",
+["action"] = "item:205456",
+["kind"] = "item",
 },
 {
 ["kind"] = "empty",
@@ -2406,28 +3230,42 @@ ItemUseProfileDB = {
 ["hideClearButton"] = true,
 ["itemUseTitleHeight"] = 2,
 ["framePoint"] = "TOPLEFT",
-["frameYOffset"] = 0,
-["itemUseScale"] = 0.62,
-["numberOfItems"] = 13,
 ["global"] = {
 },
 ["autoAddQuestItemsToBar"] = true,
 ["frameAlpha"] = 0.46,
 ["frameRelativePoint"] = "TOPLEFT",
+["numberOfItems"] = 13,
+["itemUseScale"] = 0.62,
 ["numberOfRows"] = 1,
 },
 },
 }
 PurchaseProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Default"] = {
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
 ["global"] = {
 },
 },
@@ -2439,9 +3277,16 @@ PurchaseProfileDB = {
 }
 QuestProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2451,24 +3296,39 @@ QuestProfileDB = {
 ["global"] = {
 },
 ["overrideQuestAutoSelectAndComplete"] = true,
-["showEMAQuestLogWithWoWQuestLog"] = false,
 ["masterAutoShareQuestOnAccept"] = true,
+["showEMAQuestLogWithWoWQuestLog"] = false,
 },
-["[KK]"] = {
-["overrideQuestAutoSelectAndComplete"] = true,
+["Nbmgfigjreit - Emerald Dream"] = {
 ["global"] = {
 },
-["showEMAQuestLogWithWoWQuestLog"] = false,
-["masterAutoShareQuestOnAccept"] = true,
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
+},
+["[KK]"] = {
 ["acceptFromTeam"] = true,
+["global"] = {
+},
+["overrideQuestAutoSelectAndComplete"] = true,
+["masterAutoShareQuestOnAccept"] = true,
+["showEMAQuestLogWithWoWQuestLog"] = false,
 },
 },
 }
 QuestWatcherProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2477,27 +3337,42 @@ QuestWatcherProfileDB = {
 ["watcherFrameRelativePoint"] = "TOPLEFT",
 ["global"] = {
 },
-["watcherFrameXOffset"] = 7.000034809112549,
+["enableQuestWatcher"] = true,
 ["watcherFrameYOffset"] = -34.0001220703125,
 ["watcherFramePoint"] = "TOPLEFT",
-["enableQuestWatcher"] = true,
+["watcherFrameXOffset"] = 7.000034809112549,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
-["watcherFrameYOffset"] = -34.0001220703125,
-["watcherFrameXOffset"] = 7.000034809112549,
 ["watcherFrameRelativePoint"] = "TOPLEFT",
 ["global"] = {
 },
 ["enableQuestWatcher"] = true,
+["watcherFrameYOffset"] = -34.0001220703125,
 ["watcherFramePoint"] = "TOPLEFT",
+["watcherFrameXOffset"] = 7.000034809112549,
 },
 },
 }
 SellProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2507,29 +3382,52 @@ SellProfileDB = {
 ["global"] = {
 },
 ["sellItemOnAllWithAltKey"] = true,
-["autoSellBoEPoor"] = true,
 ["autoSellItem"] = true,
+["autoSellBoEPoor"] = true,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
 ["autoSellPoor"] = true,
-["autoSellBoEPoor"] = true,
 ["global"] = {
 },
 ["sellItemOnAllWithAltKey"] = true,
 ["autoSellItem"] = true,
+["autoSellBoEPoor"] = true,
 },
 },
 }
 TalkProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
 },
 ["Default"] = {
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
 ["global"] = {
 },
 },
@@ -2541,9 +3439,16 @@ TalkProfileDB = {
 }
 ToonProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2554,37 +3459,52 @@ ToonProfileDB = {
 ["acceptDeathRequests"] = false,
 ["autoAcceptSummonRequest"] = true,
 ["teleportLFGWithTeam"] = true,
-["autoAcceptPartySyncRequestFromTeam"] = true,
-["acceptReadyCheck"] = true,
+["autoAcceptRoleCheckWithTeam"] = true,
 ["autoAcceptPartySyncRequest"] = true,
+["acceptReadyCheck"] = true,
 ["autoAcceptRoleCheck"] = true,
 ["toggleWarMode"] = true,
 ["autoDenyDuels"] = false,
 ["rollWithTeam"] = true,
-["autoAcceptRoleCheckWithTeam"] = true,
+["autoAcceptPartySyncRequestFromTeam"] = true,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
 ["global"] = {
 },
-["teleportLFGWithTeam"] = true,
-["rollWithTeam"] = true,
-["autoAcceptSummonRequest"] = true,
-["autoAcceptPartySyncRequestFromTeam"] = true,
-["acceptReadyCheck"] = true,
-["autoAcceptRoleCheckWithTeam"] = true,
 ["acceptDeathRequests"] = false,
-["toggleWarMode"] = true,
-["autoAcceptRoleCheck"] = true,
+["autoAcceptSummonRequest"] = true,
+["teleportLFGWithTeam"] = true,
+["autoAcceptRoleCheckWithTeam"] = true,
 ["autoAcceptPartySyncRequest"] = true,
+["acceptReadyCheck"] = true,
+["autoAcceptRoleCheck"] = true,
+["toggleWarMode"] = true,
 ["autoDenyDuels"] = false,
+["rollWithTeam"] = true,
+["autoAcceptPartySyncRequestFromTeam"] = true,
 },
 },
 }
 TradeProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2599,23 +3519,38 @@ TradeProfileDB = {
 ["adjustMoneyWithMasterOnTrade"] = true,
 ["tradeBoEItems"] = true,
 },
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
+},
 ["[KK]"] = {
 ["showEMATradeWindow"] = true,
 ["goldAmountToKeepOnToonTrade"] = 10000,
-["tradeBoEItems"] = true,
 ["global"] = {
 },
-["tradeRecipeFItems"] = true,
 ["tradeCRItems"] = true,
+["tradeRecipeFItems"] = true,
 ["adjustMoneyWithMasterOnTrade"] = true,
+["tradeBoEItems"] = true,
 },
 },
 }
 MailProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2623,30 +3558,45 @@ MailProfileDB = {
 ["Default"] = {
 ["adjustMoneyWithMail"] = true,
 ["showEMAMailWindow"] = true,
-["global"] = {
-},
-["goldAmountToKeepOnToon"] = 10000,
+["MailBoEItems"] = true,
 ["autoMailToonNameBoE"] = "Dustcraft-EmeraldDream",
 ["autoMailToonNameGold"] = "Samoanslayer-EmeraldDream",
-["MailBoEItems"] = true,
+["goldAmountToKeepOnToon"] = 10000,
+["global"] = {
+},
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
-["showEMAMailWindow"] = true,
 ["adjustMoneyWithMail"] = true,
+["showEMAMailWindow"] = true,
+["MailBoEItems"] = true,
+["autoMailToonNameGold"] = "Samoanslayer-EmeraldDream",
+["autoMailToonNameBoE"] = "Dustcraft-EmeraldDream",
+["goldAmountToKeepOnToon"] = 10000,
 ["global"] = {
 },
-["autoMailToonNameGold"] = "Samoanslayer-EmeraldDream",
-["goldAmountToKeepOnToon"] = 10000,
-["autoMailToonNameBoE"] = "Dustcraft-EmeraldDream",
-["MailBoEItems"] = true,
 },
 },
 }
 BankProfileDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "[KK]",
+["Pvpscout - Area 52"] = "[KK]",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
 },
 ["profiles"] = {
+["Malias - Emerald Dream"] = {
+["global"] = {
+},
+},
 ["Maliakk - Emerald Dream"] = {
 ["global"] = {
 },
@@ -2655,6 +3605,14 @@ BankProfileDB = {
 ["global"] = {
 },
 ["globalBankdList"] = false,
+},
+["Nbmgfigjreit - Emerald Dream"] = {
+["global"] = {
+},
+},
+["Pvpscout - Area 52"] = {
+["global"] = {
+},
 },
 ["[KK]"] = {
 ["globalBankdList"] = false,

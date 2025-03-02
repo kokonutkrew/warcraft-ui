@@ -1,2 +1,35 @@
 
-BPBID_Options = nil
+BPBID_Options = {
+["Breedtip"] = {
+["Current"] = true,
+["Possible"] = true,
+["SpeciesBase"] = false,
+["CurrentStats25"] = true,
+["CurrentStats25Rare"] = true,
+["CurrentStats"] = false,
+["AllStats25Rare"] = true,
+["Collected"] = true,
+["AllStats"] = false,
+["AllStats25"] = true,
+},
+["BattleFontFix"] = false,
+["format"] = 3,
+["ManualChange"] = "v1.32.2",
+["Tooltips"] = {
+["Enabled"] = true,
+["FBPT"] = true,
+["PJT"] = true,
+["BPT"] = true,
+["BattleTooltip"] = true,
+},
+["Names"] = {
+["HSFUpdateRarity"] = true,
+["PJT"] = true,
+["FBPT"] = true,
+["PJTRarity"] = false,
+["PrimaryBattle"] = true,
+["HSFUpdate"] = true,
+["BPT"] = true,
+["BattleTooltip"] = true,
+},
+}

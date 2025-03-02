@@ -2,11 +2,12 @@
 Details_StreamerDB = {
 ["characters"] = {
 ["Blanchyy - Emerald Dream"] = "Twenk - Emerald Dream",
-["Redrict - Bloodhoof"] = "Twenk - Emerald Dream",
 ["Kkfiftytwo - Area 52"] = "Twenk - Emerald Dream",
+["Redrict - Bloodhoof"] = "Twenk - Emerald Dream",
+["Twenk - Emerald Dream"] = "Twenk - Emerald Dream",
 ["Ascholokk - Emerald Dream"] = "Twenk - Emerald Dream",
 ["Kkbankk - Area 52"] = "Twenk - Emerald Dream",
-["Twenk - Emerald Dream"] = "Twenk - Emerald Dream",
+["Okkoa - Area 52"] = "Twenk - Emerald Dream",
 },
 ["profiles"] = {
 ["Twenk - Emerald Dream"] = {
@@ -30,7 +31,7 @@ Details_StreamerDB = {
 },
 ["point"] = "CENTER",
 ["arrow_anchor_x"] = 0,
-["y"] = 0.0009307861328125,
+["y"] = -2.288818359375e-05,
 ["row_texture"] = "Details Serenity",
 ["square_grow_direction"] = "right",
 ["font_color"] = {
@@ -64,8 +65,8 @@ Details_StreamerDB = {
 ["point"] = "CENTER",
 ["scale"] = 1,
 ["font_shadow"] = true,
-["y"] = 0.00115966796875,
-["x"] = 3.0517578125e-05,
+["y"] = 0,
+["x"] = 0,
 ["update_speed"] = 0.05,
 ["size"] = 32,
 ["attribute_type"] = 1,

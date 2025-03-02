@@ -1,7 +1,7 @@
-local E, L, C = select(2, ...):unpack()
+local E, L, C = unpack(select(2, ...))
 
 local LSM = E.Libs.LSM
-LSM:Register("font", "PT Sans Narrow", "Interface\\Addons\\OmniAuras\\Libs\\Fonts\\PTSansNarrow-Bold.ttf", bit.bor(LSM.LOCALE_BIT_western, LSM.LOCALE_BIT_ruRU, LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_zhCN, LSM.LOCALE_BIT_zhTW))
+LSM:Register("font", "PT Sans Narrow", "Interface\\Addons\\OmniAuras\\Media\\Fonts\\PTSansNarrow-Bold.ttf", bit.bor(LSM.LOCALE_BIT_western, LSM.LOCALE_BIT_ruRU, LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_zhCN, LSM.LOCALE_BIT_zhTW))
 
 local LSM_Font = {}
 
@@ -51,9 +51,6 @@ end
 
 local flagFixForDF = {
 	["NONE"] = "",
-	-- TODO: seems these were reverted
---	["THICKOUTLINE"] = "OUTLINE, THICK",
---	["MONOCHROMEOUTLINE"] = "OUTLINE, MONOCHROME",
 }
 
 function E:SetFontProperties(fontString, db)
@@ -64,7 +61,7 @@ function E:SetFontProperties(fontString, db)
 	fontString:SetShadowOffset(ofsX, -ofsX) -- not using ofsY
 	fontString:SetShadowColor(db.r, db.g, db.b, ofsX == 0 and 0 or 1)
 
-	flag = (E.isDF or E.isWOTLKC341) and flagFixForDF[flag] or flag
+	flag = flagFixForDF[flag] or flag
 	fontString:SetFont(LSM:Fetch("font", db.font), db.size, flag)
 end
 
@@ -76,19 +73,6 @@ function E:ConfigTextures()
 			func(module)
 		end
 	end
-end
-
-local getTextColor = function(info)
-	local db = E.DB.profile.General.cooldownText[ info[3] ][ info[#info] ]
-	return db.r, db.g, db.b
-end
-
-local setTextColor = function(info, r, g, b)
-	local db = E.DB.profile.General.cooldownText[ info[3] ][ info[#info] ]
-	db.r = r
-	db.g = g
-	db.b = b
-	E:Refresh()
 end
 
 local fontInfo = {

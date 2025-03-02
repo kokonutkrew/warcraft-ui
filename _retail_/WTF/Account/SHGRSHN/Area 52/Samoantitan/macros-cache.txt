@@ -1,0 +1,87 @@
+VER 3 0100000000000010 "2sBeacon" "134400"
+#showtooltip
+/use [@Ottsca] beacon of faith
+/use [@Samoantitan] beacon of light
+END
+VER 3 010000000000001B "add" "134400"
+/target Disheartened Worm
+/love
+/targetlasttarget
+END
+VER 3 0100000000000009 "Avenger's Shield" "134400"
+#showtooltip avenger's shield
+/use kindness of chi-ji
+/use avenger's shield
+END
+VER 3 0100000000000006 "BoFreedom" "134400"
+#showtooltip Blessing of Freedom
+/cast [@mouseover,help,nodead][@focus,exists][] Blessing of Freedom
+END
+VER 3 0100000000000018 "BoProtection" "134400"
+#showtooltip blessing of protection
+/cqs
+/stopcasting
+/use [@mouseover, help, nodead] blessing of protection
+END
+VER 3 0100000000000019 "BoSacrifice" "134400"
+#showtooltip blessing of sacrifice
+/use [@mouseover,exists,help,nodead] blessing of sacrifice
+END
+VER 3 0100000000000013 "Cancel" "6033345"
+/cancelaura Blessing of Freedom
+/cancelaura Blessing of Protection
+END
+VER 3 010000000000000D "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse Toxins;  [@mouseover,exists,mod:ctrl] Cleanse Toxins; [@mouseover,exists,mod:shift] Cleanse Toxins
+END
+VER 3 0100000000000017 "Divine Shield" "134400"
+#showtooltip
+/cqs
+/stopcasting
+/use divine shield
+/cancelaura [noknown:Final Stand] divine shield
+END
+VER 3 0100000000000005 "Final Reckoning" "134400"
+#showtooltip
+/use [@cursor] final reckoning
+END
+VER 3 0100000000000015 "Hand of Justice" "134400"
+#showtooltip
+/use [@focus,exists,harm] hammer of justice
+/use hammer of justice
+END
+VER 3 0100000000000011 "Holy Shock" "134400"
+#showtooltip
+/use [@focus,exists] holy shock;[@player] holy shock
+END
+VER 3 010000000000001C "LoHands" "134400"
+#showtooltip Lay on Hands
+/stopcasting
+/cast [@mouseover, help, nodead] Lay on Hands
+END
+VER 3 010000000000001D "Paste" "134400"
+/paste show
+END
+VER 3 0100000000000012 "pvpTaunt" "134400"
+#showtooltip
+/use [@arenapet1] Hand of Reckoning 
+/use [@arenapet2] Hand of Reckoning 
+/use [@arenapet3] Hand of Reckoning
+/use Hand of Reckoning
+END
+VER 3 010000000000001A "Rebuke" "134400"
+#showtooltip
+/use rebuke
+END
+VER 3 0100000000000014 "Repentance" "134400"
+#showtooltip
+/use [@focus,exists] repentance
+/use repentance
+END
+VER 3 010000000000001E "test" "134400"
+/run local club=ClubFinderGetCurrentClubListingInfo(C_Club.GetGuildClubId()) SendChatMessage(""..GetClubFinderLink(club.clubFinderGUID, club.name).." Is","CHANNEL",nil, GetChannelName(2)>0 and 2 or 1)
+END
+VER 3 010000000000001F "test2" "134400"
+/run local club=ClubFinderGetCurrentClubListingInfo(C_Club.GetGuildClubId()) SendChatMessage(""..GetClubFinderLink(club.clubFinderGUID, club.name).." Is","CHANNEL",nil, GetChannelName(2)>0 and 2 or 1)
+END

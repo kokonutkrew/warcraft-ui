@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 ["global"] = {
-["LastVersionAnnounce"] = 1731810244,
+["LastVersionAnnounce"] = 1732671168,
 },
 ["class"] = {
 ["DEATHKNIGHT"] = {
@@ -48,10 +48,23 @@ nil,
 [8] = 3,
 },
 },
+["HUNTER"] = {
+["CureOrder-1"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
+},
+},
 },
 ["profileKeys"] = {
-["Sphinx - Emerald Dream"] = "Default",
+["Dazzledame - Emerald Dream"] = "Default",
 ["Blawesum - Emerald Dream"] = "Default",
+["Sphinx - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

@@ -1,9 +1,9 @@
-## Interface: 110000, 110002
+## Interface: 110005, 110007
 ## Title: Rematch - TSM Pet Values
 ## Notes: Add TSM market values to the Rematch pet list
 ## Notes-deDE: Ergänzt die Haustierliste von Rematch um TSM-Marktwerte
 ## Author: Expelliarm5s
-## Version: 1.2.6
+## Version: 1.2.7
 ## Dependencies:
 ## IconTexture: Interface\Icons\Spell_Magic_PolymorphChicken.blp
 ## SavedVariables: Rematch_TSMPetValuesDB

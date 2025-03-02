@@ -1,15 +1,20 @@
 
 CoreProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -17,22 +22,41 @@ CoreProfileDB = {
 }
 CommunicationsProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+},
 ["Kkbankk - Area 52"] = {
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 },
 },
 }
 TeamProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["master"] = "Kkfiftytwo-Area52",
+["global"] = {
+},
+["newTeamList"] = {
+["Kkfiftytwo-Area52"] = {
+{
+["order"] = 1,
+["class"] = "UNKNOWN",
+["name"] = "Kkfiftytwo-Area52",
+["online"] = true,
+},
+},
+},
+},
 ["Kkbankk - Area 52"] = {
 ["master"] = "Kkbankk-Area52",
 ["global"] = {
@@ -48,16 +72,16 @@ TeamProfileDB = {
 },
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
-["master"] = "Kkfiftytwo-Area52",
+["master"] = "Okkoa-Area52",
 ["newTeamList"] = {
-["Kkfiftytwo-Area52"] = {
+["Okkoa-Area52"] = {
 {
 ["order"] = 1,
 ["class"] = "UNKNOWN",
-["name"] = "Kkfiftytwo-Area52",
+["name"] = "Okkoa-Area52",
 ["online"] = true,
 },
 },
@@ -67,10 +91,39 @@ TeamProfileDB = {
 }
 TagProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["tagList"] = {
+["Kkfiftytwo-Area52"] = {
+"all",
+"master",
+},
+},
+["groupList"] = {
+"all",
+"deathknight",
+"demonhunter",
+"druid",
+"evoker",
+"hunter",
+"mage",
+"master",
+"minion",
+"monk",
+"paladin",
+"priest",
+"rogue",
+"shaman",
+"warlock",
+"warrior",
+},
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["tagList"] = {
 ["Kkbankk-Area52"] = {
@@ -99,9 +152,9 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["tagList"] = {
-["Kkfiftytwo-Area52"] = {
+["Okkoa-Area52"] = {
 "all",
 "master",
 },
@@ -131,15 +184,20 @@ TagProfileDB = {
 }
 MessageProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -147,15 +205,20 @@ MessageProfileDB = {
 }
 InformationProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -164,15 +227,20 @@ InformationProfileDB = {
 InformationClassicProfileDB = nil
 DisplayTeamProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -181,15 +249,20 @@ DisplayTeamProfileDB = {
 FollowProfileDB = nil
 GuildProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -197,15 +270,20 @@ GuildProfileDB = {
 }
 InteractionProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -213,11 +291,12 @@ InteractionProfileDB = {
 }
 ItemUseProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
-["Kkbankk - Area 52"] = {
+["Kkfiftytwo - Area 52"] = {
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -304,7 +383,94 @@ ItemUseProfileDB = {
 },
 ["itemUseTitleHeight"] = 2,
 },
-["Kkfiftytwo - Area 52"] = {
+["Kkbankk - Area 52"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Okkoa - Area 52"] = {
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -395,15 +561,20 @@ ItemUseProfileDB = {
 }
 PurchaseProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -411,15 +582,20 @@ PurchaseProfileDB = {
 }
 QuestProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -427,15 +603,20 @@ QuestProfileDB = {
 }
 QuestWatcherProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -443,15 +624,20 @@ QuestWatcherProfileDB = {
 }
 SellProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -459,15 +645,20 @@ SellProfileDB = {
 }
 TalkProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -475,15 +666,20 @@ TalkProfileDB = {
 }
 ToonProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -491,15 +687,20 @@ ToonProfileDB = {
 }
 TradeProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -507,15 +708,20 @@ TradeProfileDB = {
 }
 MailProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },
@@ -523,15 +729,20 @@ MailProfileDB = {
 }
 BankProfileDB = {
 ["profileKeys"] = {
-["Kkbankk - Area 52"] = "Kkbankk - Area 52",
 ["Kkfiftytwo - Area 52"] = "Kkfiftytwo - Area 52",
+["Kkbankk - Area 52"] = "Kkbankk - Area 52",
+["Okkoa - Area 52"] = "Okkoa - Area 52",
 },
 ["profiles"] = {
+["Kkfiftytwo - Area 52"] = {
+["global"] = {
+},
+},
 ["Kkbankk - Area 52"] = {
 ["global"] = {
 },
 },
-["Kkfiftytwo - Area 52"] = {
+["Okkoa - Area 52"] = {
 ["global"] = {
 },
 },

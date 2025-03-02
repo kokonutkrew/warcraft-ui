@@ -1,4 +1,4 @@
-local E, L, C = select(2, ...):unpack()
+local E, L = unpack(select(2, ...))
 local module = E.Aura
 
 E.moduleOptions = {}
@@ -176,7 +176,7 @@ end
 local function GetOptions()
 	if not E.options then
 		E.options = {
-			name = "OmniAuras",
+			name = E.AddOn,
 			type = "group",
 			plugins = { profiles = { profiles = E.optionsFrames.profiles } },
 			args = {
@@ -294,14 +294,14 @@ local function GetOptions()
 									name = SUGGESTFRAME_TITLE or L["Suggestions and Bugs"],
 									desc = L["Press Ctrl+C to copy URL"],
 									order = 1,
-									type = "input", dialogControl = "Link-OmniCD",
+									type = "input", dialogControl = "Link-OmniCDC",
 									get = function() return "https://www.curseforge.com/wow/addons/omniauras/issues" end,
 								},
 								translate = {
 									name = L["Help Translate"],
 									desc = L["Press Ctrl+C to copy URL"],
 									order = 2,
-									type = "input", dialogControl = "Link-OmniCD",
+									type = "input", dialogControl = "Link-OmniCDC",
 									get = function() return "https://www.curseforge.com/wow/addons/omniauras/localization" end,
 								},
 							}
@@ -316,7 +316,7 @@ local function GetOptions()
 									desc = "Party cooldown tracker",
 									order = 1,
 									type = "input",
-									dialogControl = "Link-OmniCD",
+									dialogControl = "Link-OmniCDC",
 									get = function() return "https://www.curseforge.com/wow/addons/omnicd" end,
 								},
 								--[[
@@ -325,7 +325,7 @@ local function GetOptions()
 									desc = "Party group sorter with auto-adjusting keybinds and macros",
 									order = 2,
 									type = "input",
-									dialogControl = "Link-OmniCD",
+									dialogControl = "Link-OmniCDC",
 									get = function() return "https://www.curseforge.com/wow/addons/omnisort" end,
 								},
 								]]
@@ -428,13 +428,13 @@ local function GetOptions()
 											disabled = isRaidFrameOverDebuffs,
 											name = L["Offset X"],
 											order = 1,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										offsetY = {
 											disabled = isRaidFrameOverDebuffs,
 											name = L["Offset Y"],
 											order = 2,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										frameLevel = {
 											name = L["Frame Level"],
@@ -453,7 +453,7 @@ local function GetOptions()
 													desc = L["Detach big debuffs and show them in a separate display attached to the left or right of the raid frame"],
 													order = 1,
 													type =	"multiselect",
-													dialogControl = "Dropdown-OmniCD",
+													dialogControl = "Dropdown-OmniCDC",
 													values = {
 														["arena"] = ARENA,
 														["pvp"] = BATTLEGROUNDS,
@@ -490,7 +490,7 @@ local function GetOptions()
 													desc = L["Debuffs with greater scaling than the selected value will detach"],
 													order = 3,
 													type = "range", min = 1, softMin = 1.1, max = 3, step = 0.05, isPercent = true, -- XXX softMin req if we're comparing equality with other opt values
-													set = function(info, value)
+													set = function(_, value)
 														E.profile.raidFrame.HARMFUL.detachScale = value == 1 and 1.05 or value
 														E:Refresh()
 													end,
@@ -503,7 +503,7 @@ local function GetOptions()
 												detachOffsetX = {
 													name = L["Offset X"],
 													order = 5,
-													type = "range", min = -100, max = 100, step = 1,
+													type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 												},
 											}
 										},
@@ -607,7 +607,7 @@ local function GetOptions()
 											disabled = notPixelOrIsPortrait,
 											name = L["Default"],
 											order = 1,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getColor,
 											set = setColor,
 										},
@@ -615,7 +615,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Physical"], --STRING_SCHOOL_PHYSICAL,
 											order = 3,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -623,7 +623,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Magic"], --STRING_SCHOOL_MAGIC,
 											order = 4,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -631,7 +631,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Curse"],
 											order = 5,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -639,7 +639,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Disease"],
 											order = 6,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -647,7 +647,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Poison"],
 											order = 7,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -690,6 +690,13 @@ local function GetOptions()
 											desc = format("%s.\n\n%s", L["Values are relative to Icon Size"], L["|cffff2020Only applies to auras that have Larger Icon enabled in the Auras tab"]),
 											order = 4,
 											type = "range", min = 1, max = 1.5, step = 0.05, isPercent = true,
+										},
+										increaseDispellable = {
+											name = L["Enlarge Dispellable NPC Debuffs"],
+											desc = L["Display NPC debuffs that are dispellable by the player as larger boss debuffs"],
+											order = 5,
+											type = "toggle",
+											width = "double",
 										},
 									}
 								},
@@ -797,12 +804,12 @@ local function GetOptions()
 										offsetX = {
 											name = L["Offset X"],
 											order = 4,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										offsetY = {
 											name = L["Offset Y"],
 											order = 5,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										frameLevel = {
 											name = L["Frame Level"],
@@ -946,13 +953,13 @@ local function GetOptions()
 											disabled = isRaidFrameOverBuffs,
 											name = L["Offset X"],
 											order = 1,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										offsetY = {
 											disabled = isRaidFrameOverBuffs,
 											name = L["Offset Y"],
 											order = 2,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										frameLevel = {
 											name = L["Frame Level"],
@@ -1244,12 +1251,12 @@ local function GetOptions()
 										offsetX = {
 											name = L["Offset X"],
 											order = 1,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										offsetY = {
 											name = L["Offset Y"],
 											order = 2,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										paddingX = {
 											name = L["Padding X"],
@@ -1279,7 +1286,7 @@ local function GetOptions()
 									type = "group", inline = true,
 									args = {
 										sortby = {
-											disabled = function(info) return not E.profile.nameplate.enabled or not E.profile.nameplate.HARMFUL.enabled
+											disabled = function() return not E.profile.nameplate.enabled or not E.profile.nameplate.HARMFUL.enabled
 											or E.profile.nameplate.mergeAuraFrame end,
 											name = L["Sort By"],
 											desc = L["Use New if your Max Number of Aura is less than 3"],
@@ -1291,7 +1298,7 @@ local function GetOptions()
 											},
 										},
 										mergedSortby = {
-											disabled = function(info) return not E.profile.nameplate.enabled or not E.profile.nameplate.HARMFUL.enabled
+											disabled = function() return not E.profile.nameplate.enabled or not E.profile.nameplate.HARMFUL.enabled
 											or not E.profile.nameplate.mergeAuraFrame end,
 											name = L["Merged Sorting"],
 											desc = L["If the Max Number of Auras is under 3 then the addon will ignore scaling and sort by higher priority and then newly added auras. This is to prevent lower priority auras with larger icon set in the aura list showing over higher priorities."],
@@ -1377,7 +1384,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Physical"],
 											order = 3,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -1385,7 +1392,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Magic"],
 											order = 4,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -1393,7 +1400,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Curse"],
 											order = 5,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -1401,7 +1408,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Disease"],
 											order = 6,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -1409,7 +1416,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Poison"],
 											order = 7,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -1417,7 +1424,7 @@ local function GetOptions()
 											disabled = notPixelDebuff,
 											name = L["Merged Buff"],
 											order = 8,
-											type = "color", dialogControl = "ColorPicker-OmniCD",
+											type = "color", dialogControl = "ColorPicker-OmniCDC",
 											get = getTypeColor,
 											set = setTypeColor,
 										},
@@ -1545,12 +1552,12 @@ local function GetOptions()
 										offsetX = {
 											name = L["Offset X"],
 											order = 1,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										offsetY = {
 											name = L["Offset Y"],
 											order = 2,
-											type = "range", min = -100, max = 100, step = 1,
+											type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 										},
 										paddingX = {
 											name = L["Padding X"],
@@ -1795,14 +1802,12 @@ local function GetOptions()
 									offsetX = {
 										disabled = isNotAuto,
 										name = L["Offset X"],
-										desc = L["Max: 999"],
 										order = 4,
 										type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 									},
 									offsetY = {
 										disabled = isNotAuto,
 										name = L["Offset Y"],
-										desc = L["Max: 999"],
 										order = 5,
 										type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 									},
@@ -1882,7 +1887,7 @@ local function GetOptions()
 										disabled = notPixelOrIsPortrait,
 										name = L["Default"],
 										order = 1,
-										type = "color", dialogControl = "ColorPicker-OmniCD",
+										type = "color", dialogControl = "ColorPicker-OmniCDC",
 										get = getColor,
 										set = setColor,
 									},
@@ -1901,7 +1906,7 @@ local function GetOptions()
 										type = "toggle",
 									},
 									alwaysGlowCC = {
-										disabled = function() local unitType return not E.profile.unitFrame[v].HARMFUL.enabled or not E.profile.unitFrame[v].HARMFUL.glow end,
+										disabled = function() return not E.profile.unitFrame[v].HARMFUL.enabled or not E.profile.unitFrame[v].HARMFUL.glow end,
 										name = L["Always Glow CC"],
 										desc = L["Always glow crowd control, silence, and interrupt effects regardless of the individual aura's glow setting"],
 										order = 2,
@@ -1983,13 +1988,13 @@ local function GetOptions()
 										disabled = isNotAuto,
 										name = L["Offset X"],
 										order = 4,
-										type = "range", min = -100, max = 100, step = 1,
+										type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 									},
 									offsetY = {
 										disabled = isNotAuto,
 										name = L["Offset Y"],
 										order = 5,
-										type = "range", min = -100, max = 100, step = 1,
+										type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 									},
 								}
 							},
@@ -2067,7 +2072,7 @@ local function GetOptions()
 										disabled = notPixelOrIsPortrait,
 										name = L["Default"],
 										order = 1,
-										type = "color", dialogControl = "ColorPicker-OmniCD",
+										type = "color", dialogControl = "ColorPicker-OmniCDC",
 										get = getColor,
 										set = setColor,
 									},
@@ -2244,14 +2249,12 @@ local function GetOptions()
 								offsetX = {
 									disabled = isNotAuto,
 									name = L["Offset X"],
-									desc = L["Max: 999"],
 									order = 4,
 									type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 								},
 								offsetY = {
 									disabled = isNotAuto,
 									name = L["Offset Y"],
-									desc = L["Max: 999"],
 									order = 5,
 									type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 								},
@@ -2345,7 +2348,7 @@ local function GetOptions()
 									disabled = notPixelOrIsPortrait,
 									name = L["Default"],
 									order = 1,
-									type = "color", dialogControl = "ColorPicker-OmniCD",
+									type = "color", dialogControl = "ColorPicker-OmniCDC",
 									get = getColor,
 									set = setColor,
 								},
@@ -2353,7 +2356,7 @@ local function GetOptions()
 									disabled = notPixelDebuff,
 									name = L["Physical"],
 									order = 3,
-									type = "color", dialogControl = "ColorPicker-OmniCD",
+									type = "color", dialogControl = "ColorPicker-OmniCDC",
 									get = getTypeColor,
 									set = setTypeColor,
 								},
@@ -2361,7 +2364,7 @@ local function GetOptions()
 									disabled = notPixelDebuff,
 									name = L["Magic"],
 									order = 4,
-									type = "color", dialogControl = "ColorPicker-OmniCD",
+									type = "color", dialogControl = "ColorPicker-OmniCDC",
 									get = getTypeColor,
 									set = setTypeColor,
 								},
@@ -2369,7 +2372,7 @@ local function GetOptions()
 									disabled = notPixelDebuff,
 									name = L["Curse"],
 									order = 5,
-									type = "color", dialogControl = "ColorPicker-OmniCD",
+									type = "color", dialogControl = "ColorPicker-OmniCDC",
 									get = getTypeColor,
 									set = setTypeColor,
 								},
@@ -2377,7 +2380,7 @@ local function GetOptions()
 									disabled = notPixelDebuff,
 									name = L["Disease"],
 									order = 6,
-									type = "color", dialogControl = "ColorPicker-OmniCD",
+									type = "color", dialogControl = "ColorPicker-OmniCDC",
 									get = getTypeColor,
 									set = setTypeColor,
 								},
@@ -2385,7 +2388,7 @@ local function GetOptions()
 									disabled = notPixelDebuff,
 									name = L["Poison"],
 									order = 7,
-									type = "color", dialogControl = "ColorPicker-OmniCD",
+									type = "color", dialogControl = "ColorPicker-OmniCDC",
 									get = getTypeColor,
 									set = setTypeColor,
 								},
@@ -2543,12 +2546,12 @@ local function GetOptions()
 								offsetX = {
 									name = L["Offset X"],
 									order = 4,
-									type = "range", min = -100, max = 100, step = 1,
+									type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 								},
 								offsetY = {
 									name = L["Offset Y"],
 									order = 5,
-									type = "range", min = -100, max = 100, step = 1,
+									type = "range", softMin = -100, softMax = 100, min = -999, max = 999, step = 1,
 								},
 								frameLevel = {
 									name = L["Frame Level"],
@@ -2688,13 +2691,13 @@ local function GetOptions()
 				E.options.args.Home.args.slashCommands.args[label] = {
 					name = label,
 					order = i,
-					type = "input", dialogControl = "Info-OmniCD",
+					type = "input", dialogControl = "Info-OmniCDC",
 				}
 			else
 				E.options.args.Home.args[label] = {
 					name = L[label] or label,
 					order = i,
-					type = "input", dialogControl = "Info-OmniCD",
+					type = "input", dialogControl = "Info-OmniCDC",
 					get = getField,
 				}
 			end
@@ -2716,13 +2719,13 @@ end
 
 function E:SetupOptions()
 	self.Libs.OmniCDC.texture = self.Libs.OmniCDC.texture or {
-		logo	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-logo64]],
-		recent	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-recent]],
-		resizer	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-bullet-resizer]],
-		plus	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-bg-gnav2-plus]],
-		minus	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-bg-gnav2-minus]],
-		arrow	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-bg-gnav2-dn]],
-		arrowb	= [[Interface\AddOns\OmniAuras\Config\Libs\Media\omnicd-bg-gnav2-dn-b]],
+		logo	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-logo64]],
+		recent	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-recent]],
+		resizer	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-bullet-resizer]],
+		plus	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-bg-gnav2-plus]],
+		minus	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-bg-gnav2-minus]],
+		arrow	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-bg-gnav2-dn]],
+		arrowb	= [[Interface\AddOns\OmniAuras\Libs\LibOmniCDC\Media\omnicd-bg-gnav2-dn-b]],
 	}
 	self.Libs.OmniCDC.SetOptionFontDefaults(nil, nil)
 	self.Libs.ACR:RegisterOptionsTable(self.AddOn, GetOptions, true)
@@ -2746,6 +2749,6 @@ end
 
 function E:ACR_NotifyChange()
 	if self.Libs.ACD.OpenFrames.OmniAuras then
-		self.Libs.ACR:NotifyChange("OmniAuras")
+		self.Libs.ACR:NotifyChange(E.AddOn)
 	end
 end

@@ -1,5 +1,5 @@
-## Interface: 11504
-## Version: 2024.11.1
+## Interface: 11506
+## Version: 2025.2.1
 ## Title: |TInterface/Addons/ActionbarPlus/Core/Assets/Textures/logo-v2-64x:18:18|t Actionbar|cff1784d1Plus|r Classic Era
 ## Notes: Actionbars Everywhere, Make you click happy
 ## Author: Antonio W. Lagnada (kapresoft@gmail.com)
@@ -18,9 +18,9 @@
 ## X-CurseForge: https://www.curseforge.com/wow/addons/actionbarplus
 ## X-Curse-Project-ID: 566626
 ## X-Github-Project-Author: Tony Lagnada
-## X-Github-Project-Hash: cac45443a298571f9cafe727da61162f6697dc6a
-## X-Github-Project-Last-Changed-Date: 2024-11-05T19:55:58Z
-## X-Github-Project-Version: 2024.11.1
+## X-Github-Project-Hash: 1fe91e8c93e7f138b442e4280b6dd7963d5271d0
+## X-Github-Project-Last-Changed-Date: 2025-02-07T19:24:04Z
+## X-Github-Project-Version: 2025.2.1
 
 # Set the compatible date here with ActionbarPlus-M6. The date represents compatible version update date
 # between ActionbarPlus-M6 and ActionbarPlus. Any dates lower than this will prompt the user of

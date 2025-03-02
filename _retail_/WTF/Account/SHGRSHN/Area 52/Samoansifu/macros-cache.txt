@@ -1,0 +1,62 @@
+VER 3 0100000000000015 "Clash" "134400"
+#showtooltip
+/use [exists, @focus]clash;[] clash
+END
+VER 3 010000000000000E "Detox" "134400"
+#showtooltip
+/cast [@mouseover,nodead,help] [] detox
+END
+VER 3 0100000000000013 "Expel Harm" "134400"
+#showtooltip
+/use [@mouseover] [] expel harm
+END
+VER 3 0100000000000014 "Leg Sweep" "134400"
+#showtooltip
+/use [@focus,exists]leg sweep;[]leg sweep
+END
+VER 3 010000000000000D "Life Cocoon" "134400"
+#showtooltip
+/use [@mouseover,nodead,help]life cocoon;[@target]life cocoon
+END
+VER 3 0100000000000016 "Paralysis" "134400"
+#showtooltip
+/use [exists, @focus]paralysis;[] paralysis
+END
+VER 3 0100000000000010 "Renewing Mist" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] renewing mist
+END
+VER 3 010000000000000C "Ring of Peace" "134400"
+#showtooltip
+/use [@cursor]ring of peace;ring of peace
+END
+VER 3 0100000000000009 "Soothing Mist" "134400"
+#showtooltip soothing mist
+/cast [@mouseover,help,nodead,nochanneling][@target,help,nodead,nochanneling][@player,nochanneling] Soothing Mist; [@mouseover,help,nodead][@target,help,nodead][@player] Enveloping Mist
+END
+VER 3 0100000000000007 "Summon Statue" "134400"
+#showtooltip
+/use [@cursor] summon jade serpent statue
+END
+VER 3 010000000000000F "Thunderous Tea" "134400"
+#showtooltip thunder focus tea
+/castsequence reset=5 thunder focus tea, crackling jade lightning
+END
+VER 3 0100000000000008 "Vivify" "134400"
+#showtooltip
+/use [@mouseover,nodead,help] [] vivify
+END
+VER 3 0100000000000011 "xLeftClick" "134400"
+#showtooltip soothing mist
+/target
+/cast [@mouseover,help,nodead,nochanneling][@target,help,nodead,nochanneling][@player,nochanneling] Soothing Mist; [@mouseover,help,nodead][@target,help,nodead][@player] Enveloping Mist
+END
+VER 3 0100000000000012 "xRightClick" "134400"
+#showtooltip
+/target
+/use [@mouseover,nodead,help] [] renewing mist
+END
+VER 3 010000000000000B "Zen Spheres PVP" "134400"
+#showtooltip zen spheres
+/use [@mouseover,nodead,help] [] zen spheres
+END

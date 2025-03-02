@@ -1,14 +1,15 @@
 
 Rematch_TSMPetValuesDB = {
 ["profileKeys"] = {
-["Aerielle - Emerald Dream"] = "Default",
-["Acaladindvia - Area 52"] = "Default",
+["Wafful - Emerald Dream"] = "Default",
 ["Dazzledame - Emerald Dream"] = "Default",
+["Eeklipse - Emerald Dream"] = "Default",
+["Acaladindvia - Area 52"] = "Default",
 ["Moumoo - Moon Guard"] = "Default",
 ["Blanchy - Ravenholdt"] = "Default",
-["Wafful - Emerald Dream"] = "Default",
-["Blawesum - Emerald Dream"] = "Default",
 ["Marshmello - Area 52"] = "Default",
+["Blawesum - Emerald Dream"] = "Default",
+["Aerielle - Emerald Dream"] = "Default",
 },
 ["global"] = {
 ["Options"] = true,

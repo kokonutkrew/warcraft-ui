@@ -137,3 +137,8 @@ Rematch: enabled
 Rematch_TSMPetValues: enabled
 SavedInstances: enabled
 SilverDragon_History: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

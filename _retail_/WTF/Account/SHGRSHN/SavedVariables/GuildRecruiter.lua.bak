@@ -1,0 +1,2 @@
+
+GuildRecruiterDB = nil

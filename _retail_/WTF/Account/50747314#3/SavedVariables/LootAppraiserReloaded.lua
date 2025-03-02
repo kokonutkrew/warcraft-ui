@@ -1,6 +1,7 @@
 
 LootAppraiserReloadedDB = {
 ["profileKeys"] = {
+["Voidspeakerr - Emerald Dream"] = "Default",
 ["Timecaster - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
@@ -10,6 +11,7 @@ LootAppraiserReloadedDB = {
 }
 LALootDB = {
 ["profileKeys"] = {
+["Voidspeakerr - Emerald Dream"] = "Default",
 ["Timecaster - Emerald Dream"] = "Default",
 },
 }

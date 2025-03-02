@@ -3,19 +3,23 @@ EncounterDetailsDB = {
 ["chartData"] = {
 [747] = {
 },
-[756] = {
+[768] = {
+},
+[920] = {
 },
 [742] = {
 },
+[791] = {
+},
 [753] = {
-},
-[768] = {
-},
-[785] = {
 },
 [782] = {
 },
-[791] = {
+[921] = {
+},
+[756] = {
+},
+[785] = {
 },
 },
 ["encounter_spells"] = {
@@ -3035,13 +3039,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crystalline Frayer",
 },
-[397881] = {
-["school"] = 16,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Corrupt Living Water",
-},
 [59166] = {
 ["school"] = 8,
 ["type"] = "DEBUFF",
@@ -3052,14 +3049,19 @@ EncounterDetailsDB = {
 },
 ["source"] = "Stormforged Tactician",
 },
-[55106] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[397881] = {
+["school"] = 16,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Moorabi",
+["source"] = "Corrupt Living Water",
+},
+[201754] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Deth'tilac",
 },
 [443405] = {
 ["school"] = 32,
@@ -3215,14 +3217,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ki'katal the Harvester",
 },
-[22857] = {
-["school"] = 1,
+[58981] = {
+["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Watchkeeper Gargolmar",
+["source"] = "Drakkari Medicine Man",
 },
 [114893] = {
 ["school"] = 8,
@@ -3252,22 +3254,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'ikkaj",
 },
-[58975] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[445457] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Drakkari Golem",
-},
-[56935] = {
-["school"] = 16,
-["token"] = {
 ["SPELL_CAST_START"] = true,
 },
-["source"] = "Grand Magus Telestra",
+["source"] = "Voidstone Monstrosity",
+},
+[22857] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Watchkeeper Gargolmar",
 },
 [429487] = {
 ["school"] = 32,
@@ -3425,12 +3427,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Izo, the Grand Splicer",
 },
-[426793] = {
-["school"] = 32,
+[445207] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Anub'ikkaj",
+["source"] = "Void Bound Howler",
 },
 [68921] = {
 ["school"] = 32,
@@ -3441,13 +3444,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bronjahm",
 },
-[445207] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[426793] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Void Bound Howler",
+["source"] = "Anub'ikkaj",
 },
 [56936] = {
 ["school"] = 16,
@@ -3560,13 +3562,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "The Coaglamation",
 },
-[420659] = {
-["school"] = 8,
+[30639] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "The Candle King",
+["source"] = "Shattered Hand Warhound",
 },
 [396874] = {
 ["school"] = 16,
@@ -3578,12 +3579,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Wise Mari",
 },
-[30639] = {
-["school"] = 1,
+[420659] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Shattered Hand Warhound",
+["source"] = "The Candle King",
 },
 [451605] = {
 ["school"] = 2,
@@ -3980,14 +3982,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Vx",
 },
-[429110] = {
-["school"] = 8,
+[59617] = {
+["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Cursedforge Mender",
+["source"] = "Dragonflayer Runecaster",
 },
 [59183] = {
 ["school"] = 4,
@@ -4078,14 +4081,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Prioress Murrpray",
 },
-[65116] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "General Bjarngrim",
-},
 [58978] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
@@ -4096,6 +4091,14 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Drakkari Lancer",
+},
+[65116] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "General Bjarngrim",
 },
 [42702] = {
 ["school"] = 32,
@@ -4134,13 +4137,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Swamplord Musel'ek",
 },
-[264667] = {
+[22424] = {
 ["school"] = 4,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Deth'tilac",
+["source"] = "Slag",
 },
 [55078] = {
 ["school"] = 32,
@@ -4190,24 +4195,19 @@ EncounterDetailsDB = {
 },
 ["source"] = "Alliance Ranger",
 },
-[445996] = {
-["school"] = 32,
+[34874] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Speaker Shadowcrown",
+["source"] = "Hungarfen",
 },
-[59362] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[50155] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Anub'ar Webspinner",
+["source"] = "Keristrasza",
 },
 [443694] = {
 ["school"] = 1,
@@ -4217,12 +4217,13 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 },
-[34874] = {
-["school"] = 1,
+[445996] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Hungarfen",
+["source"] = "Speaker Shadowcrown",
 },
 [439481] = {
 ["school"] = 32,
@@ -4322,6 +4323,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elaena Emberlanz",
 },
+[34267] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ghaz'an",
+},
 [59842] = {
 ["school"] = 8,
 ["type"] = "DEBUFF",
@@ -4333,13 +4341,6 @@ EncounterDetailsDB = {
 ["SPELL_CAST_START"] = true,
 },
 ["source"] = "Slad'ran",
-},
-[34267] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ghaz'an",
 },
 [56837] = {
 ["school"] = 16,
@@ -4408,12 +4409,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Devourer of Souls",
 },
-[50155] = {
-["school"] = 1,
+[59362] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Keristrasza",
+["source"] = "Anub'ar Webspinner",
 },
 [42771] = {
 ["school"] = 1,
@@ -4439,15 +4444,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Healing Stream Totem",
 },
-[22424] = {
+[264667] = {
 ["school"] = 4,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Slag",
+["source"] = "Deth'tilac",
 },
 [438966] = {
 ["school"] = 8,
@@ -4520,15 +4523,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crystalline Tender",
 },
-[59617] = {
-["school"] = 4,
-["type"] = "BUFF",
+[429110] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Dragonflayer Runecaster",
+["source"] = "Cursedforge Mender",
 },
 [462373] = {
 ["school"] = 1,
@@ -4706,6 +4708,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'ar Warrior",
 },
+[60227] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Dragonflayer Strategist",
+},
 [30641] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
@@ -4715,14 +4725,6 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Watchkeeper Gargolmar",
-},
-[60227] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Dragonflayer Strategist",
 },
 [32065] = {
 ["school"] = 8,
@@ -4925,14 +4927,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "General Bjarngrim",
 },
-[58981] = {
-["school"] = 8,
-["type"] = "BUFF",
+[56935] = {
+["school"] = 16,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Drakkari Medicine Man",
+["source"] = "Grand Magus Telestra",
 },
 [68858] = {
 ["school"] = 32,
@@ -4948,13 +4948,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Stormfury Revenant",
 },
-[445457] = {
-["school"] = 32,
+[58975] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Voidstone Monstrosity",
+["source"] = "Drakkari Golem",
 },
 [57063] = {
 ["school"] = 64,
@@ -5038,12 +5040,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Vrykul Skeleton",
 },
-[201754] = {
+[55106] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Deth'tilac",
+["source"] = "Moorabi",
 },
 [61507] = {
 ["school"] = 1,

@@ -10,9 +10,9 @@ VER 3 0100000000000009 "Angelic Feather" "134400"
 #showtooltip Angelic Feather
 /cast [mod:shift, @cursor][@player][] Angelic Feather
 END
-VER 3 0100000000000010 "Decursive" "134400"
+VER 3 0100000000000010 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
+/cast [@mouseover,nomod,exists] Purify;  [@mouseover,exists,mod:ctrl] Dispel Magic; [@mouseover,exists,mod:shift] Purify
 END
 VER 3 0100000000000011 "FishBackup" "134400"
 /use survey

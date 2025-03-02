@@ -1,0 +1,11 @@
+
+InteractiveWormholesDB = {
+["mapScale"] = 1,
+["taxi_seen"] = true,
+["changeMap"] = false,
+["taxi"] = false,
+["changeMap_seen"] = true,
+["zoomFactor"] = 0.2,
+["zoomFactor_seen"] = true,
+["mapScale_seen"] = true,
+}

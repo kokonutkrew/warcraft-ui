@@ -1,8 +1,3 @@
-VER 3 010000000000000A "asdf" "236216"
-/targetenemy
-/use [@mouseover,dead] Skinning
-/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
-END
 VER 3 010000000000000C "Cataclysm" "134400"
 #showtooltip
 /use [@cursor] cataclysm
@@ -31,6 +26,15 @@ VER 3 010000000000000F "Dummy" "134400"
 END
 VER 3 0100000000000006 "s.Treaties" "538443"
 Treat yourself! |cff0070dd|Hitem:194698::::::::62:266::::1:40:652:::::|h[Draconic Treatise on Tailoring]|h|r and more |cffffd000|Htrade:Player-162-0B3AFCB9:45357:773|h[Inscription]|h|r |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r
+END
+VER 3 0100000000000012 "Shadow Bolt" "134400"
+#showtooltip
+/use s
+END
+VER 3 0100000000000013 "Shadow Bolt" "134400"
+#showtooltips
+/petattack
+/use shadow bolt
 END
 VER 3 0100000000000008 "Staff" "3192687"
 Craft-a-Staff! All options unlocked. |cffffd000|Htrade:Player-162-0B3AFCB9:45357:773|h[Inscription]|h|r |cffffd100|HclubTicket:nlZrke7Fbeq|h[Join: Crafters]|h|r

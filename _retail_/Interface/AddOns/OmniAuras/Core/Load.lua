@@ -1,11 +1,6 @@
-local E = select(2, ...):unpack()
-if not E.isDF then
-	print("OmniAuras currently does not support Classic WoW")
-	return
-end
+local E = unpack(select(2,...))
 
 local module = E.Aura
-
 local DB_VERSION = 1
 
 local function OmniAuras_OnEvent(self, event, ...)
@@ -77,14 +72,16 @@ function E:OnInitialize()
 end
 
 function E:OnEnable()
+	self.enabled = true
 	self:SetPixelMult()
 
 	module:RegisterEvent('UI_SCALE_CHANGED')
 	module:RegisterEvent('PLAYER_ENTERING_WORLD')
+	module:RegisterEvent('ZONE_CHANGED_NEW_AREA')
 	module:RegisterEvent('PLAYER_REGEN_ENABLED')
 	module:RegisterEvent('PLAYER_REGEN_DISABLED')
-	module:SetScript("OnEvent", function(self, event, ...)
-		self[event](self, ...)
+	module:SetScript("OnEvent", function(module, event, ...)
+		module[event](module, ...)
 	end)
 
 	--[[ if using ACD tooltip for the addon icons
@@ -94,27 +91,30 @@ function E:OnEnable()
 	ACD_Tooltip:SetBackdropBorderColor(0.3, 0.3, 0.3) ]]--
 
 	module:SetHooks()
-	module:CreateUnitFrameOverlays_OnLoad()
+	module.CreateUnitFrameOverlays_OnLoad()
 	self:Refresh()
 
 	if self.global.loginMessage then
 		print(self.LoginMessage)
 	end
-
-	module.enabled = true
 end
 
 --[[
 function E:OnDisable()
-	if (module.enabled) then
+	if (self.enabled) then
 		module:UnregisterAllEvents()
 		--module:UnhookAll()
 		module.hooked = false
 		module.enabled = false
 	end
-end ]]--
+end
+]]--
 
 function E:Refresh(arg)
+	if not self.enabled then -- dualspec fix
+		return
+	end
+
 	self.profile = self.DB.profile
 	self.global = self.DB.global
 
@@ -157,7 +157,7 @@ function E:SetModuleEnabled(modname, isEnabled)
 	end
 end
 
-function E:ResetAllCVars()
+function E.ResetAllCVars()
 	local editbox = ChatEdit_ChooseBoxForSend(DEFAULT_CHAT_FRAME)
 	ChatEdit_ActivateChat(editbox)
 	editbox:SetText("/console cvar_default")
@@ -178,7 +178,7 @@ E.SlashHandler = function(msg)
 			E.write("Profile reset.")
 			E:ACR_NotifyChange()
 		elseif value == "cvar" then
-			E:ResetAllCVars()
+			E.ResetAllCVars()
 			C_UI.Reload()
 		end
 	elseif command == "rl" or command == "reload" then

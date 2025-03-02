@@ -1,25 +1,31 @@
 
 HandyNotesDB = {
 ["profileKeys"] = {
-["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+["Dazzledame - Emerald Dream"] = "Dazzledame - Emerald Dream",
 ["Blawesum - Emerald Dream"] = "Blawesum - Emerald Dream",
+["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
 },
 ["profiles"] = {
-["Sphinx - Emerald Dream"] = {
+["Dazzledame - Emerald Dream"] = {
 },
 ["Blawesum - Emerald Dream"] = {
+},
+["Sphinx - Emerald Dream"] = {
 },
 },
 }
 HandyNotes_HandyNotesDB = {
 ["profileKeys"] = {
-["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+["Dazzledame - Emerald Dream"] = "Dazzledame - Emerald Dream",
 ["Blawesum - Emerald Dream"] = "Blawesum - Emerald Dream",
+["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
 },
 ["profiles"] = {
-["Sphinx - Emerald Dream"] = {
+["Dazzledame - Emerald Dream"] = {
 },
 ["Blawesum - Emerald Dream"] = {
+},
+["Sphinx - Emerald Dream"] = {
 },
 },
 }

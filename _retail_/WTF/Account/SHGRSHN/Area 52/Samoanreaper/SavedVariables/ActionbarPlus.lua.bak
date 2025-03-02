@@ -1,0 +1,2 @@
+
+ABP_CHARACTER_DB = nil

@@ -18,8 +18,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 ["Acaladindvia - Area 52"] = "Default",
 ["Marshmello - Area 52"] = "Default",
 ["Kkalterac - Alterac Mountains"] = "Default",
-["Twinkky - Emerald Dream"] = "Default",
 ["Moumoo - Moon Guard"] = "Default",
+["Twinkky - Emerald Dream"] = "Default",
+["Blawesum - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

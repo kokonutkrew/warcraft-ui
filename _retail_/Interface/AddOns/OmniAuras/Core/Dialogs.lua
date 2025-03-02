@@ -1,4 +1,4 @@
-local E, L = select(2, ...):unpack()
+local E, L = unpack(select(2, ...))
 local OmniCDC = E.Libs.OmniCDC
 
 OmniCDC.StaticPopupDialogs["OMNIAURAS_IMPORT_BLACKLIST"] = {

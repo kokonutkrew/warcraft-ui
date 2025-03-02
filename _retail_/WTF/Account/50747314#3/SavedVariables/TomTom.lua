@@ -18,9 +18,9 @@ TomTomDB = {
 ["Floide - Moon Guard"] = "Default",
 ["Shadowwatchr - Emerald Dream"] = "Default",
 ["Bcb - Emerald Dream"] = "Default",
-["Demenchonone - Emerald Dream"] = "Default",
+["Demolishes - Emerald Dream"] = "Default",
 ["Powndcake - Emerald Dream"] = "Default",
-["Kkmeki - Emerald Dream"] = "Default",
+["Demenchonone - Emerald Dream"] = "Default",
 ["Cyclonekk - Emerald Dream"] = "Default",
 ["Timecaster - Emerald Dream"] = "Default",
 ["Furyfistss - Emerald Dream"] = "Default",
@@ -28,7 +28,7 @@ TomTomDB = {
 ["Klmekilk - Emerald Dream"] = "Default",
 ["Smashest - Moon Guard"] = "Default",
 ["Meki - Emerald Dream"] = "Default",
-["Demolishes - Emerald Dream"] = "Default",
+["Kkmeki - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -73,9 +73,9 @@ TomTomWaypointsM = {
 ["Floide - Moon Guard"] = "Floide - Moon Guard",
 ["Shadowwatchr - Emerald Dream"] = "Shadowwatchr - Emerald Dream",
 ["Bcb - Emerald Dream"] = "Bcb - Emerald Dream",
-["Demenchonone - Emerald Dream"] = "Demenchonone - Emerald Dream",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Powndcake - Emerald Dream"] = "Powndcake - Emerald Dream",
-["Kkmeki - Emerald Dream"] = "Kkmeki - Emerald Dream",
+["Demenchonone - Emerald Dream"] = "Demenchonone - Emerald Dream",
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
@@ -83,7 +83,7 @@ TomTomWaypointsM = {
 ["Klmekilk - Emerald Dream"] = "Klmekilk - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Kkmeki - Emerald Dream"] = "Kkmeki - Emerald Dream",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -120,11 +120,11 @@ TomTomWaypointsM = {
 },
 ["Bcb - Emerald Dream"] = {
 },
-["Demenchonone - Emerald Dream"] = {
+["Demolishes - Emerald Dream"] = {
 },
 ["Powndcake - Emerald Dream"] = {
 },
-["Kkmeki - Emerald Dream"] = {
+["Demenchonone - Emerald Dream"] = {
 },
 ["Cyclonekk - Emerald Dream"] = {
 },
@@ -140,7 +140,7 @@ TomTomWaypointsM = {
 },
 ["Meki - Emerald Dream"] = {
 },
-["Demolishes - Emerald Dream"] = {
+["Kkmeki - Emerald Dream"] = {
 },
 },
 }

@@ -171,11 +171,11 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Shadowcraft-EmeraldDream"] = {
+["Gearcraft-EmeraldDream"] = {
 {
-["order"] = 39,
+["order"] = 40,
 ["class"] = "UNKNOWN",
-["name"] = "Shadowcraft-EmeraldDream",
+["name"] = "Gearcraft-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -203,27 +203,27 @@ TeamProfileDB = {
 ["online"] = true,
 },
 },
-["Naber-MoonGuard"] = {
+["Farmcraft-EmeraldDream"] = {
 {
-["order"] = 5,
-["class"] = "MONK",
-["name"] = "Naber-MoonGuard",
-["online"] = true,
-},
-},
-["Samoanseraph-EmeraldDream"] = {
-{
-["order"] = 15,
+["order"] = 38,
 ["class"] = "UNKNOWN",
-["name"] = "Samoanseraph-EmeraldDream",
+["name"] = "Farmcraft-EmeraldDream",
 ["online"] = true,
 },
 },
-["Demenchonone-EmeraldDream"] = {
+["Samoansizzle-Area52"] = {
 {
-["order"] = 4,
-["class"] = "PRIEST",
-["name"] = "Demenchonone-EmeraldDream",
+["order"] = 19,
+["class"] = "UNKNOWN",
+["name"] = "Samoansizzle-Area52",
+["online"] = false,
+},
+},
+["Eeklipse-EmeraldDream"] = {
+{
+["order"] = 13,
+["class"] = "UNKNOWN",
+["name"] = "Eeklipse-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -235,27 +235,35 @@ TeamProfileDB = {
 ["online"] = true,
 },
 },
-["Farmcraft-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
 {
-["order"] = 38,
-["class"] = "UNKNOWN",
-["name"] = "Farmcraft-EmeraldDream",
+["order"] = 5,
+["class"] = "MONK",
+["name"] = "Naber-MoonGuard",
 ["online"] = true,
 },
 },
-["Eeklipse-EmeraldDream"] = {
+["Demenchonone-EmeraldDream"] = {
 {
-["order"] = 13,
-["class"] = "UNKNOWN",
-["name"] = "Eeklipse-EmeraldDream",
+["order"] = 4,
+["class"] = "PRIEST",
+["name"] = "Demenchonone-EmeraldDream",
 ["online"] = true,
 },
 },
-["Samoansage-EmeraldDream"] = {
+["Samoanruin-Stormrage"] = {
 {
-["order"] = 37,
+["order"] = 17,
 ["class"] = "UNKNOWN",
-["name"] = "Samoansage-EmeraldDream",
+["name"] = "Samoanruin-Stormrage",
+["online"] = false,
+},
+},
+["Dustcraft-EmeraldDream"] = {
+{
+["order"] = 35,
+["class"] = "UNKNOWN",
+["name"] = "Dustcraft-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -264,14 +272,6 @@ TeamProfileDB = {
 ["order"] = 31,
 ["class"] = "UNKNOWN",
 ["name"] = "Samoanmystic-EmeraldDream",
-["online"] = true,
-},
-},
-["Dustcraft-EmeraldDream"] = {
-{
-["order"] = 35,
-["class"] = "UNKNOWN",
-["name"] = "Dustcraft-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -323,12 +323,12 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Samoanruin-Stormrage"] = {
+["Samoansage-EmeraldDream"] = {
 {
-["order"] = 17,
+["order"] = 37,
 ["class"] = "UNKNOWN",
-["name"] = "Samoanruin-Stormrage",
-["online"] = false,
+["name"] = "Samoansage-EmeraldDream",
+["online"] = true,
 },
 },
 ["Samoanshield-Area52"] = {
@@ -339,12 +339,12 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Samoansizzle-Area52"] = {
+["Samoanseraph-EmeraldDream"] = {
 {
-["order"] = 19,
+["order"] = 15,
 ["class"] = "UNKNOWN",
-["name"] = "Samoansizzle-Area52",
-["online"] = false,
+["name"] = "Samoanseraph-EmeraldDream",
+["online"] = true,
 },
 },
 ["Samoanbreach-Area52"] = {
@@ -371,11 +371,11 @@ TeamProfileDB = {
 ["online"] = true,
 },
 },
-["Gearcraft-EmeraldDream"] = {
+["Shadowcraft-EmeraldDream"] = {
 {
-["order"] = 40,
+["order"] = 39,
 ["class"] = "UNKNOWN",
-["name"] = "Gearcraft-EmeraldDream",
+["name"] = "Shadowcraft-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -390,9 +390,9 @@ TeamProfileDB = {
 },
 },
 ["Dazzledame - Emerald Dream"] = {
-["master"] = "Dazzledame-EmeraldDream",
 ["global"] = {
 },
+["master"] = "Dazzledame-EmeraldDream",
 ["newTeamList"] = {
 ["Dazzledame-EmeraldDream"] = {
 {
@@ -420,11 +420,11 @@ TeamProfileDB = {
 },
 },
 ["Eeklipse - Emerald Dream"] = {
+["masterChangePromoteLeader"] = true,
+["master"] = "Naber-MoonGuard",
 ["global"] = {
 },
 ["inviteAcceptGuild"] = true,
-["masterChangePromoteLeader"] = true,
-["master"] = "Naber-MoonGuard",
 ["inviteAcceptFriends"] = true,
 ["newTeamList"] = {
 ["Willowe-EmeraldDream"] = {
@@ -787,27 +787,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Oreoz-EmeraldDream"] = {
+["Aerielle-EmeraldDream"] = {
 {
-["order"] = 63,
-["class"] = "UNKNOWN",
-["name"] = "Oreoz-EmeraldDream",
+["order"] = 2,
+["class"] = "WARLOCK",
+["name"] = "Aerielle-EmeraldDream",
 ["online"] = false,
 },
 },
-["Choral-EmeraldDream"] = {
+["Mariselle-EmeraldDream"] = {
 {
-["order"] = 58,
+["order"] = 57,
 ["class"] = "UNKNOWN",
-["name"] = "Choral-EmeraldDream",
+["name"] = "Mariselle-EmeraldDream",
 ["online"] = false,
 },
 },
-["Cupkekk-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 {
-["order"] = 61,
+["order"] = 68,
 ["class"] = "UNKNOWN",
-["name"] = "Cupkekk-EmeraldDream",
+["name"] = "Saikk-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -851,6 +851,94 @@ TeamProfileDB = {
 ["online"] = true,
 },
 },
+["Samoansalty-Area52"] = {
+{
+["order"] = 18,
+["class"] = "UNKNOWN",
+["name"] = "Samoansalty-Area52",
+["online"] = true,
+},
+},
+["Samoanslayer-Area52"] = {
+{
+["order"] = 10,
+["class"] = "UNKNOWN",
+["name"] = "Samoanslayer-Area52",
+["online"] = false,
+},
+},
+["Cyclonekk-EmeraldDream"] = {
+{
+["order"] = 43,
+["class"] = "UNKNOWN",
+["name"] = "Cyclonekk-EmeraldDream",
+["online"] = false,
+},
+},
+["Eeklipse-EmeraldDream"] = {
+{
+["order"] = 13,
+["class"] = "UNKNOWN",
+["name"] = "Eeklipse-EmeraldDream",
+["online"] = true,
+},
+},
+["Calyssta-EmeraldDream"] = {
+{
+["order"] = 62,
+["class"] = "UNKNOWN",
+["name"] = "Calyssta-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoandrake-EmeraldDream"] = {
+{
+["order"] = 21,
+["class"] = "UNKNOWN",
+["name"] = "Samoandrake-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoanmystic-EmeraldDream"] = {
+{
+["order"] = 31,
+["class"] = "UNKNOWN",
+["name"] = "Samoanmystic-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoanrelic-EmeraldDream"] = {
+{
+["order"] = 27,
+["class"] = "UNKNOWN",
+["name"] = "Samoanrelic-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoantitan-EmeraldDream"] = {
+{
+["order"] = 26,
+["class"] = "UNKNOWN",
+["name"] = "Samoantitan-EmeraldDream",
+["online"] = false,
+},
+},
+["Samoansage-EmeraldDream"] = {
+{
+["order"] = 37,
+["class"] = "UNKNOWN",
+["name"] = "Samoansage-EmeraldDream",
+["online"] = false,
+},
+},
+["Finelldeht-EmeraldDream"] = {
+{
+["order"] = 71,
+["class"] = "UNKNOWN",
+["name"] = "Finelldeht-EmeraldDream",
+["online"] = false,
+},
+},
 ["Demenchonone-EmeraldDream"] = {
 {
 ["order"] = 4,
@@ -873,94 +961,6 @@ TeamProfileDB = {
 ["class"] = "UNKNOWN",
 ["name"] = "Blawesum-EmeraldDream",
 ["online"] = false,
-},
-},
-["Eeklipse-EmeraldDream"] = {
-{
-["order"] = 13,
-["class"] = "UNKNOWN",
-["name"] = "Eeklipse-EmeraldDream",
-["online"] = true,
-},
-},
-["Calyssta-EmeraldDream"] = {
-{
-["order"] = 62,
-["class"] = "UNKNOWN",
-["name"] = "Calyssta-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoansage-EmeraldDream"] = {
-{
-["order"] = 37,
-["class"] = "UNKNOWN",
-["name"] = "Samoansage-EmeraldDream",
-["online"] = false,
-},
-},
-["Cyclonekk-EmeraldDream"] = {
-{
-["order"] = 43,
-["class"] = "UNKNOWN",
-["name"] = "Cyclonekk-EmeraldDream",
-["online"] = false,
-},
-},
-["Finelldeht-EmeraldDream"] = {
-{
-["order"] = 71,
-["class"] = "UNKNOWN",
-["name"] = "Finelldeht-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoantitan-EmeraldDream"] = {
-{
-["order"] = 26,
-["class"] = "UNKNOWN",
-["name"] = "Samoantitan-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoanrelic-EmeraldDream"] = {
-{
-["order"] = 27,
-["class"] = "UNKNOWN",
-["name"] = "Samoanrelic-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoandrake-EmeraldDream"] = {
-{
-["order"] = 21,
-["class"] = "UNKNOWN",
-["name"] = "Samoandrake-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoanmystic-EmeraldDream"] = {
-{
-["order"] = 31,
-["class"] = "UNKNOWN",
-["name"] = "Samoanmystic-EmeraldDream",
-["online"] = false,
-},
-},
-["Samoanslayer-Area52"] = {
-{
-["order"] = 10,
-["class"] = "UNKNOWN",
-["name"] = "Samoanslayer-Area52",
-["online"] = false,
-},
-},
-["Samoansalty-Area52"] = {
-{
-["order"] = 18,
-["class"] = "UNKNOWN",
-["name"] = "Samoansalty-Area52",
-["online"] = true,
 },
 },
 ["Samoanshield-Area52"] = {
@@ -987,27 +987,27 @@ TeamProfileDB = {
 ["online"] = false,
 },
 },
-["Saikk-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 {
-["order"] = 68,
+["order"] = 61,
 ["class"] = "UNKNOWN",
-["name"] = "Saikk-EmeraldDream",
+["name"] = "Cupkekk-EmeraldDream",
 ["online"] = false,
 },
 },
-["Mariselle-EmeraldDream"] = {
+["Choral-EmeraldDream"] = {
 {
-["order"] = 57,
+["order"] = 58,
 ["class"] = "UNKNOWN",
-["name"] = "Mariselle-EmeraldDream",
+["name"] = "Choral-EmeraldDream",
 ["online"] = false,
 },
 },
-["Aerielle-EmeraldDream"] = {
+["Oreoz-EmeraldDream"] = {
 {
-["order"] = 2,
-["class"] = "WARLOCK",
-["name"] = "Aerielle-EmeraldDream",
+["order"] = 63,
+["class"] = "UNKNOWN",
+["name"] = "Oreoz-EmeraldDream",
 ["online"] = false,
 },
 },
@@ -1089,7 +1089,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Shadowcraft-EmeraldDream"] = {
+["Gearcraft-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1105,23 +1105,11 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Naber-MoonGuard"] = {
-"all",
-"master",
-},
-["Samoanseraph-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Demenchonone-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanrelic-EmeraldDream"] = {
-"all",
-"minion",
-},
 ["Farmcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansizzle-Area52"] = {
 "all",
 "minion",
 },
@@ -1129,15 +1117,27 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoansage-EmeraldDream"] = {
+["Samoanrelic-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Samoanmystic-EmeraldDream"] = {
+["Naber-MoonGuard"] = {
+"all",
+"master",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanruin-Stormrage"] = {
 "all",
 "minion",
 },
 ["Dustcraft-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoanmystic-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1165,7 +1165,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanruin-Stormrage"] = {
+["Samoansage-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1173,7 +1173,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoansizzle-Area52"] = {
+["Samoanseraph-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1189,7 +1189,7 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Gearcraft-EmeraldDream"] = {
+["Shadowcraft-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1457,15 +1457,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Oreoz-EmeraldDream"] = {
+["Aerielle-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Choral-EmeraldDream"] = {
+["Mariselle-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Cupkekk-EmeraldDream"] = {
+["Saikk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1489,15 +1489,15 @@ TagProfileDB = {
 "all",
 "master",
 },
-["Demenchonone-EmeraldDream"] = {
+["Samoansalty-Area52"] = {
 "all",
 "minion",
 },
-["Saiol-EmeraldDream"] = {
+["Samoanslayer-Area52"] = {
 "all",
 "minion",
 },
-["Blawesum-EmeraldDream"] = {
+["Cyclonekk-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1509,26 +1509,6 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoansage-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Cyclonekk-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Finelldeht-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoantitan-EmeraldDream"] = {
-"all",
-"minion",
-},
-["Samoanrelic-EmeraldDream"] = {
-"all",
-"minion",
-},
 ["Samoandrake-EmeraldDream"] = {
 "all",
 "minion",
@@ -1537,11 +1517,31 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Samoanslayer-Area52"] = {
+["Samoanrelic-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Samoansalty-Area52"] = {
+["Samoantitan-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Samoansage-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Finelldeht-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Demenchonone-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Saiol-EmeraldDream"] = {
+"all",
+"minion",
+},
+["Blawesum-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1557,15 +1557,15 @@ TagProfileDB = {
 "all",
 "minion",
 },
-["Saikk-EmeraldDream"] = {
+["Cupkekk-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Mariselle-EmeraldDream"] = {
+["Choral-EmeraldDream"] = {
 "all",
 "minion",
 },
-["Aerielle-EmeraldDream"] = {
+["Oreoz-EmeraldDream"] = {
 "all",
 "minion",
 },
@@ -1675,14 +1675,14 @@ DisplayTeamProfileDB = {
 ["healthStatusHeight"] = 15,
 ["teamListHorizontal"] = false,
 ["teamListTitleHeight"] = 0,
-["frameXOffset"] = 348.0001831054688,
-["showCharacterPortrait"] = true,
+["gCDFrameWidth"] = 8,
+["framePoint"] = "TOPLEFT",
 ["healthStatusShowPercentage"] = false,
 ["frameAlpha"] = 0.63,
 ["frameRelativePoint"] = "TOPLEFT",
 ["characterPortraitWidth"] = 15,
-["framePoint"] = "TOPLEFT",
-["gCDFrameWidth"] = 8,
+["showCharacterPortrait"] = true,
+["frameXOffset"] = 348.0001831054688,
 },
 ["Dazzledame - Emerald Dream"] = {
 ["global"] = {
@@ -1851,18 +1851,15 @@ ItemUseProfileDB = {
 ["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
-["framePoint"] = "TOP",
-["frameXOffset"] = -419.2952270507813,
+["autoAddQuestItemsToBar"] = true,
+["frameYOffset"] = -1.639464020729065,
 ["frameAlpha"] = 0.46,
 ["frameRelativePoint"] = "TOP",
-["frameYOffset"] = -1.639464020729065,
-["autoAddQuestItemsToBar"] = true,
+["frameXOffset"] = -419.2952270507813,
+["framePoint"] = "TOP",
 ["numberOfRows"] = 1,
 },
 ["Dazzledame - Emerald Dream"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -1944,9 +1941,13 @@ ItemUseProfileDB = {
 ["action"] = "empty",
 ["kind"] = "empty",
 },
+},
+["itemUseTitleHeight"] = 2,
+["global"] = {
 },
 },
 ["Blawesum - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -2031,7 +2032,6 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Eeklipse - Emerald Dream"] = {
 ["itemsAdvanced"] = {
@@ -2270,15 +2270,15 @@ ToonProfileDB = {
 },
 ["autoAcceptSummonRequest"] = true,
 ["teleportLFGWithTeam"] = true,
-["autoAcceptPartySyncRequestFromTeam"] = true,
-["rollWithTeam"] = true,
-["acceptReadyCheck"] = true,
 ["toggleWarMode"] = true,
+["autoRepairUseGuildFunds"] = false,
+["autoAcceptPartySyncRequest"] = true,
+["acceptReadyCheck"] = true,
 ["autoAcceptRoleCheck"] = true,
 ["autoAcceptRoleCheckWithTeam"] = true,
 ["autoDenyDuels"] = false,
-["autoRepairUseGuildFunds"] = false,
-["autoAcceptPartySyncRequest"] = true,
+["rollWithTeam"] = true,
+["autoAcceptPartySyncRequestFromTeam"] = true,
 },
 ["Dazzledame - Emerald Dream"] = {
 ["global"] = {

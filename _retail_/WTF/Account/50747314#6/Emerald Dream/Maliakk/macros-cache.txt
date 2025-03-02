@@ -126,19 +126,9 @@ VER 3 0100000000000010 " " "134400"
 /click [btn:4] MegaMacroClicky138 Button4
 /click [btn:5] MegaMacroClicky138 Button5
 END
-VER 3 0100000000000001 "VuhDoDCShieldData" "134400"
-#121
-/click [btn:1] MegaMacroClicky121
-/click [btn:2] MegaMacroClicky121 RightButton
-/click [btn:3] MegaMacroClicky121 MiddleButton
-/click [btn:4] MegaMacroClicky121 Button4
-/click [btn:5] MegaMacroClicky121 Button5
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1ET[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "134400"
-#122
-/click [btn:1] MegaMacroClicky122
-/click [btn:2] MegaMacroClicky122 RightButton
-/click [btn:3] MegaMacroClicky122 MiddleButton
-/click [btn:4] MegaMacroClicky122 Button4
-/click [btn:5] MegaMacroClicky122 Button5
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

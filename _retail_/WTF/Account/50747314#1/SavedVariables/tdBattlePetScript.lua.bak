@@ -1,21 +1,22 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
-["profileKeys"] = {
-["Kkbankk - Area 52"] = "Default",
-["Redrict - Bloodhoof"] = "Default",
-},
 ["global"] = {
 ["version"] = "0.0.0.0",
 ["scripts"] = {
-["Rematch"] = {
-},
-["Base"] = {
+["AllInOne"] = {
 },
 ["FirstEnemy"] = {
 },
-["AllInOne"] = {
+["Base"] = {
+},
+["Rematch"] = {
 },
 },
+},
+["profileKeys"] = {
+["Kkfiftytwo - Area 52"] = "Default",
+["Kkbankk - Area 52"] = "Default",
+["Redrict - Bloodhoof"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

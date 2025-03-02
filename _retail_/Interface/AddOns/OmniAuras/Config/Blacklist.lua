@@ -1,9 +1,4 @@
-local E, L = select(2, ...):unpack()
-
-local GetSpellInfo = C_Spell and C_Spell.GetSpellName or GetSpellInfo
-local GetSpellLink = C_Spell and C_Spell.GetSpellLink or GetSpellLink
-local GetSpellTexture = C_Spell and C_Spell.GetSpellTexture or GetSpellTexture
-local GetSpellDescription = C_Spell and C_Spell.GetSpellDescription or GetSpellDescription
+local E, L = unpack(select(2, ...))
 
 function OmniAuras.delButton_OnClick(id)
 	local sId = tostring(id)
@@ -16,27 +11,26 @@ function OmniAuras.delButton_OnClick(id)
 end
 
 function E:AddAuraToBlacklist(id)
-	local _, icon = GetSpellTexture(id)
-	local name = GetSpellInfo(id)
+	local _, icon = C_Spell.GetSpellTexture(id)
+	local name = C_Spell.GetSpellName(id)
 	local sId = tostring(id)
 	self.blacklist[sId] = self.blacklist[sId] or {
 		image = icon, imageCoords = E.BORDERLESS_TCOORDS,
 		name = name,
-		desc = self.isClassic and GetSpellDescription(id) or nil,
-		tooltipHyperlink = not self.isClassic and GetSpellLink(id) or nil,
+		tooltipHyperlink = C_Spell.GetSpellLink(id),
 
 		type = "toggle",
-		get = function(info) return self.global.auraBlacklist[id] end,
-		set = function(info, state)
+		get = function() return self.global.auraBlacklist[id] end,
+		set = function(_, state)
 			self.global.auraBlacklist[id] = state
 			self.Aura:Refresh()
 		end,
-		arg = -id, -- negative number will trigger removeButton on mouseover
+		arg = -id, -- negative number will trigger removeButton on mouseover (checkbox widget)
 	}
 end
 
 function E:AddAuraBlacklist()
-	self.blacklist = self.blacklist or { -- XXX accessed directly from lib
+	self.blacklist = self.blacklist or {
 		desc = {
 			name = format("|TInterface\\FriendsFrame\\InformationIcon:14:14:0:0|t %s\n\n",
 			L["Use this to filter out auras that aren't in the addon's auralist when using `Redirect Blizzard Debuffs` or `Blizzard Buffs`"]),
@@ -48,12 +42,12 @@ function E:AddAuraBlacklist()
 			desc = L["Enter aura ID to add"],
 			order = 1,
 			type = "input",
-			set = function(info, value)
+			set = function(_, value)
 				if strlen(value) > 9 then
 					return self.write(L["Invalid ID"], value)
 				end
 				local id = tonumber(value)
-				local name = id and GetSpellInfo(id)
+				local name = id and C_Spell.GetSpellName(id)
 				if not name then
 					return self.write(L["Invalid ID"], value)
 				end
@@ -77,7 +71,7 @@ function E:AddAuraBlacklist()
 		}
 	}
 
-	for id, state in pairs(self.global.auraBlacklist) do
+	for id in pairs(self.global.auraBlacklist) do
 		if not E.aura_db.INTERRUPT[id] then -- omit interrupts here
 			self:AddAuraToBlacklist(id)
 		end

@@ -6,6 +6,19 @@ PremadeGroupsFilterState = {
 ["c4f8"] = {
 ["enabled"] = true,
 },
+["c1f4"] = {
+["role"] = {
+["heals"] = {
+},
+["tanks"] = {
+},
+["dps"] = {
+},
+["members"] = {
+},
+["expression"] = "",
+},
+},
 ["c2f4"] = {
 ["enabled"] = true,
 },

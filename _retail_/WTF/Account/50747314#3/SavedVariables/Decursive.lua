@@ -1,7 +1,8 @@
 
 DecursiveDB = {
 ["global"] = {
-["LastVersionAnnounce"] = 1731373014,
+["LastVersionAnnounce"] = 1735151635,
+["TocExpiredDetection"] = 1735151625,
 },
 ["class"] = {
 ["DEATHKNIGHT"] = {
@@ -88,9 +89,9 @@ nil,
 ["profileKeys"] = {
 ["Voidspeakerr - Emerald Dream"] = "Default",
 ["Shadowdaggr - Area 52"] = "Default",
-["Kkmeki - Emerald Dream"] = "Default",
-["Demenchonone - Emerald Dream"] = "Default",
 ["Flameing - Emerald Dream"] = "Default",
+["Demenchonone - Emerald Dream"] = "Default",
+["Kkmeki - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

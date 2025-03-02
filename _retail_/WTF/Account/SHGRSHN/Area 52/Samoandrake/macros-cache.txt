@@ -1,0 +1,20 @@
+VER 3 0100000000000001 ".a.yQ Interrupt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:1766]kick;[known:78675]solar beam;[known:147362]counter shot;[known:2139] counterspell;[known:106839]skull bash;[known:96231]rebuke;[known:6552]pummel;[known:quell]quell
+END
+VER 3 0100000000000002 "AutoPotion" "INV_Misc_QuestionMark"
+#showtooltip 
+/castsequence [@player] reset=combat Renewal, item:212242
+END
+VER 3 0100000000000003 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
+END
+VER 3 0100000000000004 "RXPTargeting" "132150"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 0100000000000005 "xLeftClick" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/2 [spec:1/2/3,talent:3/3][spec:4]rejuvenation, regrowth, regrowth, regrowth
+/target mouseover
+END

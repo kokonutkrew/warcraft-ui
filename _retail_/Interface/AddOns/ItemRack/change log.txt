@@ -1,3 +1,7 @@
+__ New in 3.38 - By Kharthus __
+
+* TOC update for 11.0.7 patch
+
 __ New in 3.37 - By Kharthus __
 
 * Fixed setTextColor errors in Queue menu

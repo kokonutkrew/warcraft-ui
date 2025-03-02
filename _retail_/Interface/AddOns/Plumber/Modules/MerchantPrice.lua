@@ -194,6 +194,7 @@ function Controller:SetupTokenDisplay()
         TokenDisplay.numberFont = "NumberFontNormal";
         TokenDisplay:SetIncludeBank(true);
         TokenDisplay:ShowMoneyFrame(true);
+        TokenDisplay:SetButtonClickable(true);
     end
 end
 
@@ -284,7 +285,7 @@ function Controller:UpdateMerchantInfo()
                             altCurreny[id] = currencyType;
                         end
 
-                        requiredCurrency[n] = {currencyType, id, itemValue, itemTexture};
+                        requiredCurrency[n] = {currencyType, id, itemValue, itemTexture, itemLink, i, n};
                     end
                 else
                     self:RequestUpdate(0.2);

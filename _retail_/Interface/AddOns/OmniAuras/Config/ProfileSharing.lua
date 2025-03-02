@@ -1,4 +1,4 @@
-local E, L, C = select(2, ...):unpack()
+local E, L = unpack(select(2, ...))
 
 local PS = E.ProfileSharing
 local title = L["Profile Sharing"]
@@ -44,7 +44,7 @@ local ProfileSharing = {
 					order = 2,
 					type = "execute",
 					func = function()
-						local profileKey, encodedData = PS:ExportProfile(selectedProfileType)
+						local _, encodedData = PS:ExportProfile(selectedProfileType)
 						PS:ShowProfileDialog(encodedData or PS.errorMsg)
 					end,
 				},

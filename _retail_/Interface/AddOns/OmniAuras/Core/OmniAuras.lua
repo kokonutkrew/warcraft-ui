@@ -1,48 +1,37 @@
 --
 -- OmniAuras
 --	Track auras on any Blizzard frame.
---	Copyright 2018-2023 Treebonker. All rights reserved.
+--	Copyright 2018-2024 Treebonker. All rights reserved.
 --
 --	https://www.curseforge.com/wow/addons/omniauras
 --
+local E, L = unpack(select(2, ...))
 
--- PrivateAura woes (PTR)
---	When someone leaves a raid group, unitId are decremented to fill the gap. If there was a member with
---	privateauras then it will incorrectly show up on following unitId member which now has the matching unitId
---	and then stick to the raidframe when it times out.
-
-local E, L = select(2, ...):unpack()
-if not E.isDF then
-	return
-end
-
-local module = E.Aura
-local AuraTooltip = CreateFrame("GameTooltip", "OmniAurasAuraTooltip", UIParent, "GameTooltipTemplate")
-local TOOLTIP_UPDATE_TIME = 0.2
-AuraTooltip.updateTooltipTimer = TOOLTIP_UPDATE_TIME
-
-local pairs, ipairs, type, find, min, floor = pairs, ipairs, type, string.find, math.min, math.floor
+local pairs, ipairs, type, strfind, min, floor = pairs, ipairs, type, strfind, min, floor
 local GetTime, GetNumGroupMembers = GetTime, GetNumGroupMembers
 local UnitExists, UnitGUID, UnitIsUnit, UnitCanAttack, UnitIsPlayer, UnitPlayerControlled, UnitIsPossessed = UnitExists, UnitGUID, UnitIsUnit, UnitCanAttack, UnitIsPlayer, UnitPlayerControlled, UnitIsPossessed
 local AuraUtil_ForEachAura = AuraUtil.ForEachAura
 local AuraUtil_IsPriorityDebuff = AuraUtil.IsPriorityDebuff
 local AuraUtil_ShouldDisplayBuff = AuraUtil.ShouldDisplayBuff
+local AuraUtil_ShouldDisplayDebuff = AuraUtil.ShouldDisplayDebuff
 local C_NamePlate_GetNamePlateForUnit = C_NamePlate.GetNamePlateForUnit
 local C_UnitAuras_GetAuraDataByAuraInstanceID = C_UnitAuras.GetAuraDataByAuraInstanceID
 local band = bit.band
 local CombatLogGetCurrentEventInfo = CombatLogGetCurrentEventInfo
 local UnitChannelInfo = UnitChannelInfo
-local GetSpellInfo = C_Spell and C_Spell.GetSpellName or GetSpellInfo
-local GetSpellTexture = C_Spell and C_Spell.GetSpellTexture or GetSpellTexture
-local GetSchoolString = C_Spell and C_Spell.GetSchoolString or GetSchoolString
-local IsAddOnLoaded = C_AddOns and C_AddOns.IsAddOnLoaded or IsAddOnLoaded
 
+local module = E.Aura
 local db
 local userGUID = E.userGUID
 local blacklist
 
-local Aura_Enabled = { raidFrame = {}, nameplate = {}, friendlyNameplate = {}, unitFrame = {}, arenaFrame = {}, playerFrame = {}, largerIcon = {}, glow = {}, alert = {} }
+local AuraTooltip = CreateFrame("GameTooltip", "OmniAurasAuraTooltip", UIParent, "GameTooltipTemplate")
+local TOOLTIP_UPDATE_TIME = 0.2
+AuraTooltip.updateTooltipTimer = TOOLTIP_UPDATE_TIME
+
+local Aura_Enabled = { raidFrame = {}, nameplate = {}, friendlyNameplate = {}, unitFrame = {}, arenaFrame = {}, playerFrame = {}, largerIcon = {}, glow = {}, alert = {}, byPlayer = {} }
 local Aura_NoFriend = {}
+local DispellableDebuffType = {}
 
 local CompactUnitFrameContainer = {}
 local NameplateContainer = {}
@@ -57,7 +46,7 @@ local NUM_RF_OVERLAYS = { HARMFUL = 15, HELPFUL = 3, MYHELPFUL = 9 }
 local NUM_AF_OVERLAYS = { HARMFUL = 6, HELPFUL = 3 }
 local NUM_UF_OVERLAYS = 1
 local NUM_NP_OVERLAYS = 12
-local BASE_ICON_SIZE = 39
+local BASE_ICON_HEIGHT = 39
 local UNDETACHEDFRAME_LASTINDEX = NUM_RF_OVERLAYS.HARMFUL - 6 -- opt max value
 
 local AuraComparator = {}
@@ -231,7 +220,7 @@ local function AuraTooltip_OnUpdate(self, elapsed)
 		if E.global.quickBlacklist then
 			local spellId = owner.spellId
 			if spellId and blacklist[spellId] == nil and IsControlKeyDown() and IsAltKeyDown() then
-				local spellName = GetSpellInfo(spellId)
+				local spellName = C_Spell.GetSpellName(spellId)
 				blacklist[spellId] = true
 				E:AddAuraToBlacklist(spellId)
 				E:ACR_NotifyChange()
@@ -393,7 +382,7 @@ local function UnitFrame_OnEvent(self, event, ...)
 			auraChanged = true
 		else
 			if unitAuraUpdateInfo.addedAuras ~= nil then
-				for i, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
+				for _, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
 					local type = UnitFrame_ProcessAura(self, aura)
 					if type then
 						self.auraInfo[aura.auraInstanceID] = aura
@@ -523,7 +512,7 @@ local function CompactArenaFrame_ProcessAura(self, aura)
 			elseif aura.isHarmful then
 				if AuraUtil_IsPriorityDebuff(spellId) then
 					priority = UnitFrameDebuffType_PriorityDebuff
-				elseif AuraUtil.ShouldDisplayDebuff(aura.sourceUnit, spellId) then
+				elseif AuraUtil_ShouldDisplayDebuff(aura.sourceUnit, spellId) then
 					priority = UnitFrameDebuffType_NonBossDebuff
 				end
 			end
@@ -583,7 +572,7 @@ local function CompactArenaFrame_OnEvent(self, event, ...)
 			auraChanged = true
 		else
 			if unitAuraUpdateInfo.addedAuras ~= nil then
-				for i, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
+				for _, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
 					local type = CompactArenaFrame_ProcessAura(self, aura)
 					if type then
 						self.auraInfo[aura.auraInstanceID] = aura
@@ -684,7 +673,7 @@ local function CompactArenaFrame_OnEvent(self, event, ...)
 							overlay:SetSize(debuffSize, debuffSize)
 							overlay.cooldown.counter:SetScale(module.arenaCurrCounterScale * db.counterScale * scale)
 							overlay.cooldown:SetHideCountdownNumbers(db.hideCounter or (scale == 1 and db.hideNonCCCounter))
-							overlay.HighlightFlash:SetScale(debuffSize / BASE_ICON_SIZE)
+							overlay.HighlightFlash:SetScale(debuffSize / BASE_ICON_HEIGHT)
 							overlay.debuffScale = scale
 						end
 						if db.borderType == "blizzard" then
@@ -787,8 +776,8 @@ end
 local UF_FRAMENAME = {
 	["player"]="PlayerFrame",["target"]="TargetFrame",["focus"]="FocusFrame",["pet"]="PetFrame",
 	["arena1"]="CompactArenaFrameMember1",["arena2"]="CompactArenaFrameMember2",["arena3"]="CompactArenaFrameMember3",["arena4"]="CompactArenaFrameMember4",["arena5"]="CompactArenaFrameMember5", -- 10.1.5
---	["arena1"]="ArenaEnemyMatchFrame1",["arena2"]="ArenaEnemyMatchFrame2",["arena3"]="ArenaEnemyMatchFrame3",["arena4"]="ArenaEnemyMatchFrame4",["arena5"]="ArenaEnemyMatchFrame5", -- now loads in BG only
---	["targettarget"]="TargetFrameToT",["focustarget"]="FocusFrameToT",
+	--["arena1"]="ArenaEnemyMatchFrame1",["arena2"]="ArenaEnemyMatchFrame2",["arena3"]="ArenaEnemyMatchFrame3",["arena4"]="ArenaEnemyMatchFrame4",["arena5"]="ArenaEnemyMatchFrame5", -- now loads in BG only
+	--["targettarget"]="TargetFrameToT",["focustarget"]="FocusFrameToT",
 }
 for memberFrame in PartyFrame.PartyMemberFramePool:EnumerateActive() do
 	UF_FRAMENAME[memberFrame.unit] = memberFrame -- memberFrame can now be directly accessed via _G.PartyFrame.MemberFrame1-4 (no frame name)
@@ -798,12 +787,12 @@ local UF_UNITTYPE = {
 	["player"]="player",["target"]="target",["focus"]="focus",["pet"]="pet",
 	["party1"]="party",["party2"]="party",["party3"]="party",["party4"]="party",
 	["arena1"]="arena",["arena2"]="arena",["arena3"]="arena",["arena4"]="arena",["arena5"]="arena",
---	["targettarget"]="targettarget",["focustarget"]="focustarget",
+	--["targettarget"]="targettarget",["focustarget"]="focustarget",
 }
 
 local AURA_FILTER = { "HARMFUL", "HELPFUL" }
 
-function module:CreateUnitFrameOverlays_OnLoad()
+function module.CreateUnitFrameOverlays_OnLoad()
 	for unit, frameName in pairs(UF_FRAMENAME) do
 		local unitType = UF_UNITTYPE[unit]
 		local isArenaUnit = unitType == "arena"
@@ -812,7 +801,7 @@ function module:CreateUnitFrameOverlays_OnLoad()
 			UnitFrameContainer[unit] = {}
 
 			-- All db settings are done in Refresh for UF
-			-- NOTE: UnitFrame_Initialize will save each portrait frame reference to frame.portrait (arena saved in .classPortrait .specPortrait)
+			-- UnitFrame_Initialize will save each portrait frame reference to frame.portrait (arena saved in .classPortrait .specPortrait)
 			local portrait = (unitType == "party" and frameName.portrait) or _G[frameName].portrait
 			for _, filter in pairs(AURA_FILTER) do
 				local isHARMFUL = filter == "HARMFUL"
@@ -833,7 +822,7 @@ function module:CreateUnitFrameOverlays_OnLoad()
 				container.guid = unit == "player" and E.userGUID
 				container.enabledAura = unit == "player" and Aura_Enabled.playerFrame or (isArenaUnit and Aura_Enabled.arenaFrame) or Aura_Enabled.unitFrame
 				container.isArenaDebuff = isHARMFUL and isArenaUnit
-				container.key = format("%s%s%s", "OmniAuras", unitType == "party" and "PartyMemberFrame" .. frameName.layoutIndex or frameName, filter)
+				container.key = format("%s%s%s", E.AddOn, unitType == "party" and "PartyMemberFrame" .. frameName.layoutIndex or frameName, filter)
 				container:SetMovable(true)
 				container.portrait = portrait
 
@@ -865,6 +854,10 @@ end
 --
 -- Compact Unit Frame
 --
+
+-- PrivateAura woes (PTR)
+--	If a member with a privateaura leaves the group then the aura will incorrectly show up on the next
+--	unitId member which now has the matching unitId and then stick to the raidframe when it times out.
 
 OmniAurasCompactUnitPrivateAuraAnchorMixin = {}
 
@@ -907,41 +900,41 @@ function OmniAurasCompactUnitPrivateAuraAnchorMixin:SetUnit(unit)
 	end
 end
 
-local function CompactUnitFrame_UpdatePrivateAuras(self)
-	if not self.PrivateAuraAnchors then
+local function CompactUnitFrame_UpdatePrivateAuras(frame)
+	if not frame.PrivateAuraAnchors then
 		return
 	end
 
-	if self.PrivateAuraAnchors then
-		for _, auraAnchor in ipairs(self.PrivateAuraAnchors) do
-			auraAnchor:SetUnit(self.unit)
+	if frame.PrivateAuraAnchors then
+		for _, auraAnchor in ipairs(frame.PrivateAuraAnchors) do
+			auraAnchor:SetUnit(frame.unit)
 		end
 	end
 
 	local lastShownDebuff
 	if module.numInnerDebuffs then
 		for i = module.numInnerDebuffs, 1, -1 do
-			local debuff = self[i]
+			local debuff = frame[i]
 			if debuff:IsShown() then
 				lastShownDebuff = debuff
 				break
 			end
 		end
 	else
-		lastShownDebuff = self[self.frameNum]
+		lastShownDebuff = frame[frame.frameNum]
 	end
-	self.PrivateAuraAnchor1:ClearAllPoints()
+	frame.PrivateAuraAnchor1:ClearAllPoints()
 	if lastShownDebuff then
-		if self.db.preset == "raidFrameLeft" then
-			self.PrivateAuraAnchor1:SetPoint("BOTTOMRIGHT", lastShownDebuff, "BOTTOMLEFT", 0, 0)
+		if frame.db.preset == "raidFrameLeft" then
+			frame.PrivateAuraAnchor1:SetPoint("BOTTOMRIGHT", lastShownDebuff, "BOTTOMLEFT", 0, 0)
 		else
-			self.PrivateAuraAnchor1:SetPoint("BOTTOMLEFT", lastShownDebuff, "BOTTOMRIGHT", 0, 0)
+			frame.PrivateAuraAnchor1:SetPoint("BOTTOMLEFT", lastShownDebuff, "BOTTOMRIGHT", 0, 0)
 		end
 	else
-		if self.db.preset == "raidFrameLeft" then
-			self.PrivateAuraAnchor1:SetPoint("BOTTOMRIGHT", self[1], "BOTTOMRIGHT", 0, 0)
+		if frame.db.preset == "raidFrameLeft" then
+			frame.PrivateAuraAnchor1:SetPoint("BOTTOMRIGHT", frame[1], "BOTTOMRIGHT", 0, 0)
 		else
-			self.PrivateAuraAnchor1:SetPoint("BOTTOMLEFT", self[1], "BOTTOMLEFT", 0, 0)
+			frame.PrivateAuraAnchor1:SetPoint("BOTTOMLEFT", frame[1], "BOTTOMLEFT", 0, 0)
 		end
 	end
 end
@@ -984,12 +977,12 @@ local function CompactUnitFrame_ProcessAura(self, aura)
 					priority = UnitFrameDebuffType_NonBossRaidDebuff
 				elseif AuraUtil_IsPriorityDebuff(spellId) then
 					priority = UnitFrameDebuffType_PriorityDebuff
-				elseif AuraUtil.ShouldDisplayDebuff(aura.sourceUnit, spellId) then
+				elseif AuraUtil_ShouldDisplayDebuff(aura.sourceUnit, spellId) then
 					priority = UnitFrameDebuffType_NonBossDebuff
 				end
 			end
 			if priority then
-				aura.scale = aura.isBossAura and module.currBossScale or 1
+				aura.scale = (aura.isBossAura or not aura.isFromPlayerOrPlayerPet and self.db.increaseDispellable and DispellableDebuffType[aura.dispelName]) and module.currBossScale or 1
 				aura.priority = priority
 				return true
 			end
@@ -1041,7 +1034,7 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 			auraChanged = true
 		else
 			if unitAuraUpdateInfo.addedAuras ~= nil then
-				for i, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
+				for _, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
 					local type = CompactUnitFrame_ProcessAura(self, aura)
 					if type then
 						self.auraInfo[aura.auraInstanceID] = aura
@@ -1075,6 +1068,7 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 		end
 
 		if auraChanged then
+			local isDebuff = self.filter == "HARMFUL"
 			local frameNum = self.auraInfo:Size()
 			local oldNum = self.frameNum
 			if frameNum == 0 then
@@ -1093,11 +1087,13 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 					end
 				end
 				self.detachedFrameNum = frameNum
-				--CompactUnitFrame_UpdatePrivateAuras(self)
+				--update anchors since we have no way of knowing when it gets added
+				if isDebuff and not module.isInPvEInstance then
+					CompactUnitFrame_UpdatePrivateAuras(self)
+				end
 				return
 			end
 
-			local isDebuff = self.filter == "HARMFUL"
 			local now = GetTime()
 			local db = self.db
 			local maxIcons = module.maxOverlays[self.rawFilter] or db.maxIcons
@@ -1169,7 +1165,7 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 					if expirationTime and expirationTime ~= 0 then
 						local startTime = expirationTime - duration
 						overlay.cooldown:SetCooldown(startTime, duration)
-					--	if db.glow and Aura_Enabled.glow[spellId] and icon ~= overlay.iconTexture and now - startTime < 0.1 then
+						--if db.glow and Aura_Enabled.glow[spellId] and icon ~= overlay.iconTexture and now - startTime < 0.1 then
 						if db.glow and Aura_Enabled.glow[spellId] and spellId ~= overlay.spellId and now - startTime < 0.1 then -- fix aura's with trigger+effect that uses the same texture (e.g. Binding Shot)
 							overlay.HighlightFlash:Show()
 							overlay.HighlightFlash.Anim:Play()
@@ -1196,7 +1192,7 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 							overlay:SetSize(debuffSize, debuffSize) -- set size instead of scale for pixel borders
 							overlay.cooldown.counter:SetScale(module.currCounterScale * db.counterScale * debuffScale)
 							overlay.cooldown:SetHideCountdownNumbers(db.hideCounter or (debuffScale == 1 and db.hideNonCCCounter))
-							overlay.HighlightFlash:SetScale(debuffSize / BASE_ICON_SIZE)
+							overlay.HighlightFlash:SetScale(debuffSize / BASE_ICON_HEIGHT)
 							overlay.debuffScale = debuffScale
 						end
 						if db.borderType == "blizzard" then
@@ -1258,7 +1254,9 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 				end
 			end
 			self.detachedFrameNum = detachedFrameNum
-			--CompactUnitFrame_UpdatePrivateAuras(self)
+			if isDebuff and not module.isInPvEInstance then
+				CompactUnitFrame_UpdatePrivateAuras(self)
+			end
 		end
 	elseif event == 'PLAYER_REGEN_ENABLED' or event == 'PLAYER_REGEN_DISABLED' then
 		CompactUnitFrame_OnEvent(self, 'UNIT_AURA', self.unit, nil)
@@ -1266,8 +1264,8 @@ local function CompactUnitFrame_OnEvent(self, event, ...)
 end
 
 local function CompactUnitFrame_RegisterUnitAura(self, unit, filter, guid, isRefresh)
-	if ActiveUnitContainer[filter][unit] ~= self -- compare CRF-to-unitId (raid)
-		or self.guid ~= guid -- compare CPF-to-unit (party)
+	if ActiveUnitContainer[filter][unit] ~= self -- compare frame-to-unitId
+		or self.guid ~= guid -- compare frame-to-actualUnit
 		or isRefresh then -- Refresh hides all overlays so force update
 		self:UnregisterEvent('UNIT_AURA')
 		self:RegisterUnitEvent('UNIT_AURA', unit)
@@ -1326,76 +1324,67 @@ local function CompactUnitFrame_UnregisterUnitAura(self, unit, filter)
 	end
 end
 
-local Refresh_OnTimerEnd = function()
-	E:Refresh() -- propagate
-	CallbackTimers.hookDelay = nil
-end
-
-function module:HookFunc()
-	if self.enabled and not CallbackTimers.hookDelay then
-		CallbackTimers.hookDelay = C_Timer.NewTicker(0.5, Refresh_OnTimerEnd, 1)
-	end
-end
-
-function module:UI_SCALE_CHANGED()
-	E:SetPixelMult()
-	self:HookFunc()
-end
-
-local pauseTimer
-local function ResetPause() pauseTimer = nil end
-local function UpdatePosition_OnRefreshMembers()
-	module:PLAYER_ROLES_ASSIGNED()
-	pauseTimer = C_Timer.NewTimer(6, ResetPause)
-end
-
-function module:SetHooks()
-	if self.hooked then
-		return
+do
+	local Refresh_OnTimerEnd = function()
+		E:Refresh() -- propagate
+		CallbackTimers.hookDelay = nil
 	end
 
-	if not IsAddOnLoaded("Blizzard_CompactRaidFrames") or not IsAddOnLoaded("Blizzard_CUFProfiles") then
-		return
-	end
-
-	self.useRaidStylePartyFrames = EditModeManagerFrame:UseRaidStylePartyFrames()
-	self.keepGroupsTogether = EditModeManagerFrame:ShouldRaidFrameShowSeparateGroups()
-	self.isCompactFrameSetShown = CompactRaidFrameManager_GetSetting("IsShown")
-
-	-- HUD Raid Frame
-	hooksecurefunc(EditModeManagerFrame, "UpdateRaidContainerFlow", function()
-		if self.isInEditMode then
-			self.keepGroupsTogether = EditModeManagerFrame:ShouldRaidFrameShowSeparateGroups()
-			self:HookFunc()
+	function module:HookFunc()
+		if self.enabled and not CallbackTimers.hookDelay then
+			CallbackTimers.hookDelay = C_Timer.NewTimer(0.5, Refresh_OnTimerEnd)
 		end
-	end)
+	end
 
-	-- HUD Party Frame (Raid Frame UpdateRaidContainerFlow equiv. called by every option)
-	hooksecurefunc(PartyFrame, "UpdatePaddingAndLayout", function()
-		if self.isInEditMode then -- Do not remove. This is super spammy
-			self.useRaidStylePartyFrames = EditModeManagerFrame:UseRaidStylePartyFrames()
-			self:HookFunc()
+	function module:UI_SCALE_CHANGED()
+		E:SetPixelMult()
+		self:HookFunc()
+	end
+
+	local pauseTimer
+
+	local function ResetPause()
+		pauseTimer = nil
+	end
+
+	local function UpdatePosition_OnRefreshMembers()
+		module:PLAYER_ROLES_ASSIGNED()
+		pauseTimer = C_Timer.NewTimer(6, ResetPause)
+	end
+
+	function module.OnRefreshMemebers()
+		if not pauseTimer and not module.disabledCUF and
+			EditModeManagerFrame:GetSettingValue(Enum.EditModeSystem.UnitFrame, Enum.EditModeUnitFrameSystemIndices.Party, Enum.EditModeUnitFrameSetting.SortPlayersBy) ~= 1 then
+			UpdatePosition_OnRefreshMembers()
 		end
-	end)
+	end
 
-	-- see OmniCD
-	if CompactPartyFrame_RefreshMembers then
-		hooksecurefunc("CompactPartyFrame_RefreshMembers", function()
-			if not pauseTimer and not self.disabledCUF and self.isInArena
-				and EditModeManagerFrame:GetSettingValue(Enum.EditModeSystem.UnitFrame, Enum.EditModeUnitFrameSystemIndices.Party, Enum.EditModeUnitFrameSetting.SortPlayersBy) ~= 1 then
-				UpdatePosition_OnRefreshMembers()
+	function module:SetHooks()
+		if self.hooked then return end
+		if not C_AddOns.IsAddOnLoaded("Blizzard_CompactRaidFrames") or not C_AddOns.IsAddOnLoaded("Blizzard_CUFProfiles") then return end
+
+		self.useRaidStylePartyFrames = EditModeManagerFrame:UseRaidStylePartyFrames()
+		self.keepGroupsTogether = EditModeManagerFrame:ShouldRaidFrameShowSeparateGroups()
+		self.isCompactFrameSetShown = CompactRaidFrameManager_GetSetting("IsShown")
+
+		-- HUD Raid Frame
+		self:SecureHook(EditModeManagerFrame, "UpdateRaidContainerFlow", function()
+			if self.isInEditMode then
+				self.keepGroupsTogether = EditModeManagerFrame:ShouldRaidFrameShowSeparateGroups()
+				self:HookFunc()
 			end
 		end)
-	else
-		hooksecurefunc(CompactPartyFrame, "RefreshMembers", function() -- prob not needed for CompactArenaFrame
-			if not pauseTimer and not self.disabledCUF and self.isInArena
-				and EditModeManagerFrame:GetSettingValue(Enum.EditModeSystem.UnitFrame, Enum.EditModeUnitFrameSystemIndices.Party, Enum.EditModeUnitFrameSetting.SortPlayersBy) ~= 1 then
-				UpdatePosition_OnRefreshMembers()
+
+		-- HUD Party Frame (Raid Frame UpdateRaidContainerFlow equiv. called by every option)
+		self:SecureHook(PartyFrame, "UpdatePaddingAndLayout", function()
+			if self.isInEditMode then -- Do not remove. This is super spammy
+				self.useRaidStylePartyFrames = EditModeManagerFrame:UseRaidStylePartyFrames()
+				self:HookFunc()
 			end
 		end)
-	end
 
-	self.hooked = true
+		self.hooked = true
+	end
 end
 
 local COMPACT_RAID = {
@@ -1465,7 +1454,7 @@ function module:GetBuffFrameBaseSize()
 	local raidDB = db.raidFrame
 	local isParty = self.isInArena
 		or (IsInGroup() and not IsInRaid()) -- ignore EditMode while in a group
-		or (not IsInGroup() and (EditModeManagerFrame:ArePartyFramesForcedShown() or not EditModeManagerFrame:AreRaidFramesForcedShown())) -- set true if nothing is shown. fix returning CRF values for CPF
+		or (not IsInGroup() and (EditModeManagerFrame:ArePartyFramesForcedShown() or not EditModeManagerFrame:AreRaidFramesForcedShown())) -- set true if nothing is shown
 	local systemIndex = CompactRaidGroupTypeEnum and (isParty and CompactRaidGroupTypeEnum.Party or CompactRaidGroupTypeEnum.Raid) or isParty
 	local frameWidth = EditModeManagerFrame:GetRaidFrameWidth(systemIndex)
 	local frameHeight = EditModeManagerFrame:GetRaidFrameHeight(systemIndex)
@@ -1477,11 +1466,13 @@ function module:GetBuffFrameBaseSize()
 	local powerBarUsedHeight = options.displayPowerBar and powerBarHeight or 0
 	local maxDebuffSize = frameHeight - powerBarUsedHeight - CUF_AURA_BOTTOM_OFFSET - CUF_NAME_SECTION_SIZE
 
-	-- TEMP use blizzard values in raid so it aligns with privateaura
+	--[[
+	-- use blizzard values in raid so it aligns with ui's privateaura. This made it's way into M+
 	if self.zone == "raid" then
 		buffSize = min(15, buffSize)
 		maxDebuffSize = min(20, maxDebuffSize)
 	end
+	]]
 	self.currBaseSize = buffSize
 	self.currMaxScale = maxDebuffSize / buffSize
 	self.currBossScale = (buffSize + BOSS_DEBUFF_SIZE_INCREASE) / buffSize
@@ -1600,7 +1591,7 @@ local partyFrameUnitIdentifier = {
 }
 
 local partyFrameUnitId = {
-	["uparty1"]="party1",["uparty2"]="party2",["uparty3"]="party3",["uparty4"]="uparty4",
+	["uparty1"]="party1",["uparty2"]="party2",["uparty3"]="party3",["uparty4"]="party4",
 }
 
 local function PartyUnitFrame_RegisterUnitAura(self, unit, filter, guid, isRefresh)
@@ -1638,7 +1629,7 @@ end
 
 -- NOTE: Everything relys on the unitId being correctly updated on GRU to the newly assigned unit.
 -- Using EditMode even once will delay updating the frame.unit to the correct unitId when GRU fires, so
--- we're listening to PLAYER_ROLES_ASSIGNED which fires a frame after GRU (same Timestamp)
+-- we're listening to PLAYER_ROLES_ASSIGNED which fires after GRU
 function module:PLAYER_ROLES_ASSIGNED(isRefresh)
 	local isCompactFrameActive = self:CompactFrameIsActive()
 	local areRaidFramesForcedShown = EditModeManagerFrame:AreRaidFramesForcedShown()
@@ -1673,66 +1664,64 @@ function module:PLAYER_ROLES_ASSIGNED(isRefresh)
 		end
 	end
 
-	if size > 0 then
-		if not self.disabledCUF and (isCompactFrameActive or areRaidFramesForcedShown) then
-			local raidDB = db.raidFrame
-			local buffSize = self:GetBuffFrameBaseSize()
-			for i = 1, size do
-				local unit = isInRaid and RAID_UNIT[i] or PARTY_UNIT[i == size and 5 or i]
-				local guid = UnitGUID(unit)
-				local frame = self:FindRelativeFrame(guid)
-				if frame then
-					if not CompactUnitFrameContainer[frame] then
-						CompactUnitFrameContainer[frame] = {}
-						for _, filter in pairs(RF_AURA_FILTER) do
-							local db = raidDB[filter]
-							local container = CreateCompactUnitFrameContainer(frame, filter)
-							self:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB, buffSize)
-							CompactUnitFrameContainer[frame][filter] = container
-							if db.enabled and (guid ~= userGUID or db.showPlayer) then
-								CompactUnitFrame_RegisterUnitAura(container, unit, filter, guid, true)
-							end
-						end
-					else
-						for filter, container in pairs(CompactUnitFrameContainer[frame]) do
-							local db = raidDB[filter]
-							-- Resize overlays for current CRF/CPF - if group type changed
-							if container.buffSize ~= buffSize then -- fix size not updating. comparing ea container to avoid LFR problems
-								local n = NUM_RF_OVERLAYS[filter]
-								for j = 1, n do
-									local overlay = container[j]
-									overlay:SetSize(buffSize, buffSize)
-									overlay.HighlightFlash:SetScale(buffSize / BASE_ICON_SIZE)
-								end
-								container.buffSize = buffSize
-							end
-							-- Set individual filter visibility (Refresh toggles entire CUF on and off)
-							if db.enabled and (guid ~= userGUID or db.showPlayer) then
-								CompactUnitFrame_RegisterUnitAura(container, unit, filter, guid, isRefresh)
-							else
-								CompactUnitFrame_UnregisterUnitAura(container, unit, filter)
-							end
+	if not self.disabledCUF and (isCompactFrameActive or areRaidFramesForcedShown) then
+		local raidDB = db.raidFrame
+		local buffSize = self:GetBuffFrameBaseSize()
+		for i = 1, size do
+			local unit = isInRaid and RAID_UNIT[i] or PARTY_UNIT[i == size and 5 or i]
+			local guid = UnitGUID(unit)
+			local frame = self:FindRelativeFrame(guid)
+			if frame then
+				if not CompactUnitFrameContainer[frame] then
+					CompactUnitFrameContainer[frame] = {}
+					for _, filter in pairs(RF_AURA_FILTER) do
+						local db = raidDB[filter]
+						local container = CreateCompactUnitFrameContainer(frame, filter)
+						self:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB, buffSize)
+						CompactUnitFrameContainer[frame][filter] = container
+						if db.enabled and (guid ~= userGUID or db.showPlayer) then
+							CompactUnitFrame_RegisterUnitAura(container, unit, filter, guid, true)
 						end
 					end
-					--> if we're planning on disabling MYHELPFUL by group Type then toggle alpha and TT here as UpdateSettings only gets called on Refresh
-
-					if ActiveUnitCompactUnitFrame[unit] ~= frame then
-						ActiveUnitCompactUnitFrame[unit] = frame
+				else
+					for filter, container in pairs(CompactUnitFrameContainer[frame]) do
+						local db = raidDB[filter]
+						-- Resize overlays for current CRF/CPF - if group type changed
+						if container.buffSize ~= buffSize then -- fix size not updating. comparing ea container to avoid LFR problems
+							local n = NUM_RF_OVERLAYS[filter]
+							for j = 1, n do
+								local overlay = container[j]
+								overlay:SetSize(buffSize, buffSize)
+								overlay.HighlightFlash:SetScale(buffSize / BASE_ICON_HEIGHT)
+							end
+							container.buffSize = buffSize
+						end
+						-- Set individual filter visibility (Refresh toggles entire CUF on and off)
+						if db.enabled and (guid ~= userGUID or db.showPlayer) then
+							CompactUnitFrame_RegisterUnitAura(container, unit, filter, guid, isRefresh)
+						else
+							CompactUnitFrame_UnregisterUnitAura(container, unit, filter)
+						end
 					end
 				end
+				--> if we're planning on disabling MYHELPFUL by group Type then toggle alpha and TT here as UpdateSettings only gets called on Refresh
+
+				if ActiveUnitCompactUnitFrame[unit] ~= frame then
+					ActiveUnitCompactUnitFrame[unit] = frame
+				end
 			end
-		-- This is for the party UF. Confused yet?
-		elseif not self.disabledPartyUF and (not isCompactFrameActive or arePartyFramesForcedShown) then
-			local isMerged = db.unitFrame.party.mergeAuraFrame
-			for i = 1, 4 do
-				local unit = PARTY_UNIT[i]
-				local guid = UnitGUID(unit)
-				for filter, container in pairs(UnitFrameContainer[unit]) do
-					if i <= size and container.db.enabled and (not isMerged or filter == "HARMFUL") then
-						PartyUnitFrame_RegisterUnitAura(container, unit, filter, guid, isRefresh)
-					else
-						PartyUnitFrame_UnregisterUnitAura(container, unit, filter)
-					end
+		end
+	-- This is for the party UF. Confused yet?
+	elseif not self.disabledPartyUF and (not isCompactFrameActive or arePartyFramesForcedShown) then
+		local isMerged = db.unitFrame.party.mergeAuraFrame
+		for i = 1, 4 do
+			local unit = PARTY_UNIT[i]
+			local guid = UnitGUID(unit)
+			for filter, container in pairs(UnitFrameContainer[unit]) do
+				if i <= size and container.db.enabled and (not isMerged or filter == "HARMFUL") then
+					PartyUnitFrame_RegisterUnitAura(container, unit, filter, guid, isRefresh)
+				else
+					PartyUnitFrame_UnregisterUnitAura(container, unit, filter)
 				end
 			end
 		end
@@ -1770,14 +1759,14 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 			end
 			container.isBlizzardAuraHidden = shouldHide
 		end
-		--[[ privateaura
 		if frame.PrivateAuraAnchors then
 			for _, auraAnchor in ipairs(frame.PrivateAuraAnchors) do
 				auraAnchor:SetAlpha(shouldHide and 0 or 1)
-				auraAnchor:EnableMouse(not shouldHide)
+				-- Toggles tooltip by checking IsMouseMotionFocus in OnUpdate
+				-- and isn't click-through so just make it tiny.
+				auraAnchor:SetScale(shouldHide and 0.01 or 1)
 			end
 		end
-		]]
 	elseif isMYHELPFUL then
 		if frame.buffFrames then
 			local n = #frame.buffFrames -- preloaded with 8 buff frames. <cf: NP returns 0
@@ -1817,6 +1806,7 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 	-- Overlay settings
 	local point = db.point == "CENTER" and "LEFT" or db.point
 	local relPoint = db.point == "CENTER" and "RIGHT" or reversePoint[db.point]
+	local iconScale
 	local edgeSize
 	local r, g, b = db.borderColor.r, db.borderColor.g, db.borderColor.b
 	local n = NUM_RF_OVERLAYS[filter]
@@ -1836,19 +1826,27 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 			ClearHideOverlayFrame(overlay)
 		end
 
-		overlay:SetScale(scale) -- do before GetEffectiveScale is called
+		if j == 1 then
+			local pixelMult = E.uiUnitFactor / container.parent:GetEffectiveScale()
+			local size = BASE_ICON_HEIGHT * scale
+			iconScale = (size - size % pixelMult) / BASE_ICON_HEIGHT
+			edgeSize = pixelMult / iconScale
+		end
+		overlay:SetScale(iconScale)
 		overlay:ClearAllPoints()
 		if j == 1 then
 			overlay:SetPoint(db.point, container, db.point)
-			edgeSize = E.uiUnitFactor / overlay:GetEffectiveScale()
 		elseif shouldDetachBigDebuffs then
 			if j < 4 then
 				overlay:SetPoint("BOTTOMLEFT", container[j-1], "BOTTOMRIGHT", 0, 0)
 			elseif j < detachedFrameStart then
 				overlay:SetPoint("BOTTOMLEFT", container[j-3], "TOPLEFT", 0, 0)
 			else
-				overlay:SetPoint(db.detachPoint, j == detachedFrameStart and (db.detachRelativeFrame == "debuffFrame" and frame.debuffFrames[1] or frame.buffFrames[1]) or container[j-1],
-				db.detachRelativePoint, db.detachPreset == "raidFrameLeft" and (j > detachedFrameStart and -1 or -db.detachOffsetX) or (j > detachedFrameStart and 1 or db.detachOffsetX), 0)
+				overlay:SetPoint(
+				db.detachPoint,
+				j == detachedFrameStart and (db.detachRelativeFrame == "debuffFrame" and frame.debuffFrames[1] or frame.buffFrames[1]) or container[j-1],
+				db.detachRelativePoint,
+				db.detachPreset == "raidFrameLeft" and (j > detachedFrameStart and -1 or -db.detachOffsetX) or (j > detachedFrameStart and 1 or db.detachOffsetX), 0)
 			end
 		elseif numInnerDebuffs then -- HARMFUL only
 			if db.stackOuter and j > numInnerDebuffs + 3 then
@@ -1858,7 +1856,8 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 			else
 				overlay:SetPoint(point, container[j-1], relPoint)
 			end
-		elseif isMYHELPFUL and db.preset == "overBuffs" and db.numInnerIcons < 9 and raidDB.HARMFUL.preset ~= "raidFrameRight" and (not self.shouldDetachBigDebuffs or raidDB.HARMFUL.detachPreset ~= "raidFrameRight") then
+		elseif isMYHELPFUL and db.preset == "overBuffs" and db.numInnerIcons < 9 and raidDB.HARMFUL.preset ~= "raidFrameRight"
+			and (not self.shouldDetachBigDebuffs or raidDB.HARMFUL.detachPreset ~= "raidFrameRight") then
 			if j > db.numInnerIcons then
 				overlay:SetPoint(reversePoint[point], container[j == db.numInnerIcons+1 and 1 or j-1], reversePoint[relPoint])
 			elseif j > 3 then
@@ -1875,7 +1874,7 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 		end
 
 		overlay:SetSize(buffSize, buffSize)
-		overlay.HighlightFlash:SetScale(buffSize / BASE_ICON_SIZE)
+		overlay.HighlightFlash:SetScale(buffSize / BASE_ICON_HEIGHT)
 		overlay:SetAlpha(db.opacity)
 		overlay:EnableMouse(overlay.isPassThrough and db.showTooltip)
 		overlay.cooldown:SetSwipeColor(0, 0, 0, db.swipeAlpha)
@@ -1922,14 +1921,12 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 		end
 	end
 
-	--[[ privateaura
 	if isHARMFUL then
 		if not container.PrivateAuraAnchors then
 			container.PrivateAuraAnchor1 = CreateFrame("Frame", nil, container, "OmniAurasCompactUnitPrivateAuraAnchorTemplate")
 			container.PrivateAuraAnchor1.auraIndex = 1
 			container.PrivateAuraAnchor2 = CreateFrame("Frame", nil, container, "OmniAurasCompactUnitPrivateAuraAnchorTemplate")
 			container.PrivateAuraAnchor2.auraIndex = 2
-			container.PrivateAuraAnchors = { container.PrivateAuraAnchor1, container.PrivateAuraAnchor2 }
 		end
 		for _, privateAuraAnchor in ipairs(container.PrivateAuraAnchors) do
 			local size = buffSize * self.currBossScale
@@ -1941,7 +1938,6 @@ function module:CompactUnitFrame_UpdateSettings(container, filter, frame, raidDB
 			container.PrivateAuraAnchor2:SetPoint("BOTTOMLEFT", container.PrivateAuraAnchor1, "BOTTOMRIGHT", 0, 0)
 		end
 	end
-	]]
 end
 
 --
@@ -1957,6 +1953,9 @@ local function Nameplate_ProcessAura(self, aura)
 		and (not Aura_NoFriend[spellId] or (self.auraType == "isHarmful" and sourceUnit and UnitCanAttack("player", sourceUnit))) then
 		local enabledAuraData = self.enabledAura[spellId]
 		if enabledAuraData then
+			if self.auraType == "isHarmful" and aura.sourceUnit ~= "player" and Aura_Enabled.byPlayer[spellId] then
+				return false
+			end
 			local type = enabledAuraData[1]
 			local scale = self.db.typeScale and self.db.typeScale[type] or 1
 			if Aura_Enabled.largerIcon[spellId] then
@@ -1966,7 +1965,7 @@ local function Nameplate_ProcessAura(self, aura)
 			aura.priority = self.priority[type]
 			return true
 		elseif self.db.redirectBlizzardDebuffs and not self.shouldShowCCOnly
-			and (aura.nameplateShowAll or (aura.nameplateShowPersonal and (aura.sourceUnit == "player" or aura.sourceUnit == "pet" or aura.sourceUnit == "vehicle"))) then
+			and (aura.nameplateShowAll or (aura.nameplateShowPersonal and (sourceUnit == "player" or sourceUnit == "pet" or sourceUnit == "vehicle"))) then
 			aura.scale = self.db.blizzardDebuffs
 			aura.priority = 0
 			return true
@@ -2026,15 +2025,13 @@ local function NameplateFrame_OnEvent(self, event, ...)
 			auraChanged = true
 		else
 			if unitAuraUpdateInfo.addedAuras ~= nil then
-				for i, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
+				for _, aura in ipairs(unitAuraUpdateInfo.addedAuras) do
 					local type = Nameplate_ProcessAura(self, aura)
 					if type then
 						self.auraInfo[aura.auraInstanceID] = aura
 						auraChanged = true
 					end
 				end
-				self.auraInfo:Iterate(function(auraInstanceID, aura)
-				end)
 			end
 
 			if unitAuraUpdateInfo.updatedAuraInstanceIDs ~= nil then
@@ -2091,8 +2088,6 @@ local function NameplateFrame_OnEvent(self, event, ...)
 					overlay:SetScale(buffScale)
 					--overlay.buffSizeScale = buffScale -- cOffsetX
 
-					--[[ NOTE: Nameplates have dynamic scaling based on range and the games jagged transition
-					makes pixel shifting worse. Keep the pixel borders black or use textures instead.]]--
 					if ( db.borderType == "texture" ) then
 						if ( sameIconHT[spellId] ) then
 							overlay.Border:SetVertexColor(1, 0, 0)
@@ -2102,16 +2097,18 @@ local function NameplateFrame_OnEvent(self, event, ...)
 							overlay.Border:SetVertexColor(1, 1, 0)
 						end
 					elseif db.borderType == "pixelDebuff" then -- experimenting. debuff colors on everything is too distractive
-						local color = aura.isHelpful and AdjustedDebuffTypeColorNamePlate["buff"] or (AdjustedDebuffTypeColorNamePlate[aura.dispelName] or AdjustedDebuffTypeColorNamePlate["none"])
+						local color = aura.isHelpful and AdjustedDebuffTypeColorNamePlate["buff"]
+						or AdjustedDebuffTypeColorNamePlate[aura.dispelName] or AdjustedDebuffTypeColorNamePlate["none"]
 						overlay.border:SetVertexColor(color.r, color.g, color.b)
 					end
 
 					if count and count > 1 then
+						--[[
 						-- static stack size for scaled CC's
---						if buffScale then
---							overlay.count:SetScale(1 / buffScale)
---						end
-
+						if buffScale then
+							overlay.count:SetScale(1 / buffScale)
+						end
+						]]
 						overlay.count:SetText(count)
 						overlay.count:Show()
 					else
@@ -2152,7 +2149,7 @@ local function NameplateFrame_OnEvent(self, event, ...)
 						leadOverlay = overlay
 						leadScale = buffScale
 					elseif isDebuff then
-						cOffsetX = cOffsetX + (BASE_ICON_SIZE + db.paddingX) * buffScale
+						cOffsetX = cOffsetX + (BASE_ICON_HEIGHT + db.paddingX) * buffScale
 					end
 				end
 				]]
@@ -2164,7 +2161,7 @@ local function NameplateFrame_OnEvent(self, event, ...)
 			--[[
 			if cOffsetX and (unitAuraUpdateInfo == nil or (not isDebuff or cOffsetX ~= self.cOffsetX)) then
 				leadOverlay:ClearAllPoints()
-				leadOverlay:SetPoint(db.point, self, db.point, isDebuff and -cOffsetX / 2 / leadScale or -(BASE_ICON_SIZE + db.paddingX) / 2 * (frameNum - 2), 0)
+				leadOverlay:SetPoint(db.point, self, db.point, isDebuff and -cOffsetX / 2 / leadScale or -(BASE_ICON_HEIGHT + db.paddingX) / 2 * (frameNum - 2), 0)
 				self.cOffsetX = cOffsetX
 			end
 			]]
@@ -2192,9 +2189,9 @@ local function Nameplate_UnregisterUnitAura(self, unit, filter)
 	if ActiveUnitContainer[filter][unit] then
 		self:UnregisterEvent('UNIT_AURA')
 		ActiveUnitContainer[filter][unit] = nil
-		--[[ Do not remove. NP can selectively disable friendly nameplates.
-		If the frame was previously on a hostile unit then the last icon texture will
-		show up stuck on the friendly overlay (timers are cleared on Hide, textures are not)]]--
+		-- NOTE: NP can selectively disable friendly nameplates.
+		-- If the frame was previously on a hostile unit then the last icon texture will
+		-- show up stuck on the friendly overlay (timers are cleared on Hide, textures are not).
 		self:Hide()
 	end
 end
@@ -2261,9 +2258,9 @@ function module:NAME_PLATE_UNIT_ADDED(unit)
 			container.isHostile = isHostile
 			container.shouldShowCCOnly = shouldShowCCOnly
 			container.enabledAura = enabledAura
-			--[[ NOTE: .UnitFrame is niled when nameplates are hidden before _REMOVED fires (points to the same frame when reacquired).
-			Cache BuffFrame so we can update settings on Refresh for hidden nameplates, else we would have to run
-			Nameplate_UpdateSettings everytime this event fires]]--
+			-- NOTE: .UnitFrame is niled when nameplates are hidden before _REMOVED fires (points to the same frame when reacquired).
+			-- Cache BuffFrame so we can update settings on Refresh for hidden nameplates, else we would have to run
+			-- Nameplate_UpdateSettings everytime this event fires.
 			container.BuffFrame = namePlateFrameBase.UnitFrame.BuffFrame -- width depends on active number of debuffs (full width at 0 debuffs)
 			container.healthBar = namePlateFrameBase.UnitFrame.healthBar
 			self:Nameplate_UpdateSettings(container, filter, namePlateFrameBase, nameDB, isMerged)
@@ -2312,7 +2309,6 @@ function module:NAME_PLATE_UNIT_REMOVED(unit)
 		end
 		ActiveUnitNameplate[unit] = nil
 	end
-
 --	E.Libs.CBH:Fire("OnNamePlateRemoved", unit)
 end
 
@@ -2321,14 +2317,26 @@ end
 function module:Nameplate_UpdateSettings(container, filter, namePlateFrameBase, nameDB, isMerged)
 	local db = nameDB[filter]
 
-	-- Toggle Blizzard frame visibility. Set alpha (visibility resets on target change etc) on parent (unlike RF, debuff buttons are added on demand)
-	-- TODO: disable tooltips for debuff icons
+	-- Toggle Blizzard frame visibility:
+	-- Update alpha since visibility resets on target change etc on parent
 	if filter == "HARMFUL" then
 		local shouldHide = nameDB.visibility[self.zone] and nameDB.enabled and db.enabled
 			and (db.redirectBlizzardDebuffs or db.hideBlizzardDebuffs)
 			and (container.isUser and db.showPlayer or (not container.isUser and (container.isHostile or db.showFriendly)))
 		container.BuffFrame:SetAlpha(shouldHide and 0 or 1)
 		container.isBlizzardAuraHidden = shouldHide
+		-- Toggle tooltip:
+		-- Unlike RF, buffs are acquired on demand from the buffPool. To avoid calling BuffFrame.buffPool:EnumerateActive on UNIT_AURA
+		-- we're hiding the tooltip handler instead. This toggles tooltip on all nameplates which may be undesired.
+		if NamePlateTooltip then
+			if shouldHide and not self.isNamePlateTooltipHidden then
+				self:SecureHookScript(NamePlateTooltip, "OnShow", function() NamePlateTooltip:Hide() end)
+				self.isNamePlateTooltipHidden = true
+			elseif not shouldHide and self.isNamePlateTooltipHidden then
+				self:Unhook(NamePlateTooltip, "OnShow")
+				self.isNamePlateTooltipHidden = nil
+			end
+		end
 	end
 
 	-- Container settings
@@ -2336,7 +2344,7 @@ function module:Nameplate_UpdateSettings(container, filter, namePlateFrameBase, 
 	container:SetFrameLevel(namePlateFrameBase:GetFrameLevel() + db.frameLevel) -- set above nameplate healthbar
 	container:ClearAllPoints()
 	local relTo = db.relativeFrame == "healthBar" and container.healthBar or container.BuffFrame
-	local relPoint = (nameDB.HARMFUL.redirectBlizzardDebuffs or nameDB.HARMFUL.hideBlizzardDebuffs) and db.relativeFrame == "debuffFrame" and db.point or db.relativePoint -- XXX if redirecting then also change rel point for HELPFUL
+	local relPoint = (nameDB.HARMFUL.redirectBlizzardDebuffs or nameDB.HARMFUL.hideBlizzardDebuffs) and db.relativeFrame == "debuffFrame" and db.point or db.relativePoint
 	container:SetPoint(db.point, relTo, relPoint, db.point == "RIGHT" and -db.offsetX or db.offsetX, db.offsetY)
 	container.isMerged = isMerged
 	container.priority = nameDB.priority
@@ -2344,7 +2352,7 @@ function module:Nameplate_UpdateSettings(container, filter, namePlateFrameBase, 
 	container.db = db
 
 	-- Overlay settings
-	local paddingX = find(db.point, "RIGHT") and -db.paddingX or db.paddingX
+	local paddingX = strfind(db.point, "RIGHT") and -db.paddingX or db.paddingX
 	local scale = db.scale
 	local edgeSize
 	local r, g, b = 0, 0, 0
@@ -2368,7 +2376,7 @@ function module:Nameplate_UpdateSettings(container, filter, namePlateFrameBase, 
 			overlay:SetPoint(db.point == "BOTTOM" and "BOTTOMLEFT" or db.point, container[j-1], rel, paddingX, 0)
 		end
 
-		overlay:SetSize(BASE_ICON_SIZE, BASE_ICON_SIZE)
+		overlay:SetSize(BASE_ICON_HEIGHT, BASE_ICON_HEIGHT)
 		overlay:SetScale(scale)
 		overlay.count:SetScale(1 / scale)
 		overlay:SetAlpha(db.opacity)
@@ -2444,7 +2452,7 @@ function module:Nameplate_UpdateSettings(container, filter, namePlateFrameBase, 
 			if scale < 1 then -- using two separate texture as atlas texture distorts if scaled down
 				--overlay.Border:SetTexture("Interface\\BUTTONS\\UI-Quickslot-Depress")
 				--overlay.Border:SetDrawLayer("BORDER") -- draw under icon to mask the depress texture
-				overlay.Border:SetTexture("Interface/AddOns/OmniAuras/Config/Libs/Media/omniauras-ui-quickslot-depress2-nodepress")
+				overlay.Border:SetTexture("Interface/AddOns/OmniAuras/Media/omnicd-ui-quickslot-no-depress-white")
 				overlay.Border:SetDrawLayer("OVERLAY")
 				overlay.Border:ClearAllPoints()
 				overlay.Border:SetPoint("TOPLEFT", -2.5, 2.5)
@@ -2514,7 +2522,19 @@ function module:UnitFrame_RegisterEvents()
 	self.disabledUF = disabled
 end
 
-function module:CompactUnitFrame_RegisterEvents(isRefresh) -- XXX no self
+function module:UpdateZoneHooks()
+	if not C_AddOns.IsAddOnLoaded("Blizzard_CompactRaidFrames") or not C_AddOns.IsAddOnLoaded("Blizzard_CUFProfiles") then
+		return
+	end
+	local isHooked = self:IsHooked(CompactPartyFrame, "RefreshMembers")
+	if isHooked and not self.isInArena then
+		self:Unhook(CompactPartyFrame, "RefreshMembers")
+	elseif not isHooked and self.isInArena then
+		self:SecureHook(CompactPartyFrame, "RefreshMembers", self.OnRefreshMemebers)
+	end
+end
+
+function module:CompactUnitFrame_RegisterEvents(isRefresh)
 	local raidDB, unitDB = db.raidFrame, db.unitFrame
 	local disabledCUF = not (raidDB.visibility[self.zone] and raidDB.enabled and (raidDB.HARMFUL.enabled or raidDB.HELPFUL.enabled or raidDB.MYHELPFUL.enabled))
 	local disabledPartyUF = not (unitDB.party.visibility[self.zone] and unitDB.enabled and unitDB.party.enabled and (unitDB.party.HARMFUL.enabled or unitDB.party.HELPFUL.enabled))
@@ -2536,17 +2556,9 @@ function module:CompactUnitFrame_RegisterEvents(isRefresh) -- XXX no self
 		self:RegisterEvent('GROUP_ROSTER_UPDATE')
 		self:RegisterEvent('PLAYER_ROLES_ASSIGNED')
 	end
-end
 
--- This table is only used to update auras on PEW and Refresh (opt change)
-local NAMEPLATE_UNIT = {
-	"nameplate1", "nameplate2", "nameplate3", "nameplate4", "nameplate5", "nameplate6", "nameplate7", "nameplate8", "nameplate9", "nameplate10",
-	"nameplate11", "nameplate12", "nameplate13", "nameplate14", "nameplate15", "nameplate16", "nameplate17", "nameplate18", "nameplate19", "nameplate20",
-	"nameplate21", "nameplate22", "nameplate23", "nameplate24", "nameplate25", "nameplate26", "nameplate27", "nameplate28", "nameplate29", "nameplate30",
-	"nameplate31", "nameplate32", "nameplate33", "nameplate34", "nameplate35", "nameplate36", "nameplate37", "nameplate38", "nameplate39", "nameplate40",
---	"nameplate41", "nameplate42", "nameplate43", "nameplate44", "nameplate45", "nameplate46", "nameplate47", "nameplate48", "nameplate49", "nameplate50",
---	"nameplate51", "nameplate52", "nameplate53", "nameplate54", "nameplate55", "nameplate56", "nameplate57", "nameplate58", "nameplate59", "nameplate60",
-}
+	self:UpdateZoneHooks()
+end
 
 function module:Nameplate_RegisterEvents()
 	local nameDB = db.nameplate
@@ -2555,18 +2567,16 @@ function module:Nameplate_RegisterEvents()
 	if enabled then
 		self:RegisterEvent('NAME_PLATE_UNIT_ADDED')
 		self:RegisterEvent('NAME_PLATE_UNIT_REMOVED')
-		--[[ NOTE: Iterate units from our id table instead of overlays. Overlays only exist for seen units
-		so auras won't update immediately when we enable the nameplate option]]--
-		for _, unit in ipairs(NAMEPLATE_UNIT) do
-			if UnitExists(unit) then -- ActiveUnitNameplate[unit] exists already if show nameplate is enabled in the interface option -> forcing update
-				self:NAME_PLATE_UNIT_REMOVED(unit) -- this will unregister HELPFUL container if merge option is toggle on
-				self:NAME_PLATE_UNIT_ADDED(unit) -- update auras on existing units. Overlays aren't precreated like UF so call helper event instead of RegisterUnitAura directly
-			end
+		-- Update all existing nameplates
+		for _, namePlateFrameBase in ipairs(C_NamePlate.GetNamePlates(false)) do
+			local unit = namePlateFrameBase.namePlateUnitToken
+			self:NAME_PLATE_UNIT_REMOVED(unit) -- this will unregister HELPFUL container if merge option is toggle on
+			self:NAME_PLATE_UNIT_ADDED(unit) -- update auras on existing units. Overlays aren't precreated like UF so call helper event instead of RegisterUnitAura directly
 		end
 	else
 		self:UnregisterEvent('NAME_PLATE_UNIT_ADDED')
 		self:UnregisterEvent('NAME_PLATE_UNIT_REMOVED')
-		for namePlateFrameBase, t in pairs(NameplateContainer) do
+		for _, t in pairs(NameplateContainer) do
 			local unit = t.HARMFUL.unit
 			self:NAME_PLATE_UNIT_REMOVED(unit)
 		end
@@ -2610,7 +2620,7 @@ local UpdateOmniCDWarning = function(destGUID, auraInstanceID)
 	local info = module.OmniCDParty.groupInfo[destGUID]
 	if info and not info.isDeadOrOffline then
 		local icon = info.spellIcons[45438] -- Ice Block. Ignore Cold Snap availability
-		if icon and not icon.active then
+		if icon and not icon.active and icon:IsVisible() then
 			if not icon.warningFrame then
 				icon.warningFrame = AcquireWarningFrame(icon)
 				icon.warningFrame.pulseAnim:Play()
@@ -2632,9 +2642,9 @@ local function UpdateAllActiveFrameDebuffs(guid)
 end
 
 local Lockout_OnTimerEnd = function(destGUID, auraInstanceID)
-	local callbacktimer = SpellLockedGUIDS[destGUID] and SpellLockedGUIDS[destGUID][auraInstanceID]
-	if callbacktimer then
-		if callbacktimer.args.warningFrame then
+	local callbackTimer = SpellLockedGUIDS[destGUID] and SpellLockedGUIDS[destGUID][auraInstanceID]
+	if callbackTimer then
+		if callbackTimer.args.warningFrame then
 			-- check if there's another frost lockout
 			local found
 			for id, timer in pairs(SpellLockedGUIDS[destGUID]) do
@@ -2643,7 +2653,7 @@ local Lockout_OnTimerEnd = function(destGUID, auraInstanceID)
 				end
 			end
 			if not found then
-				callbacktimer.args.warningFrame:Hide()
+				callbackTimer.args.warningFrame:Hide()
 			end
 		end
 		SpellLockedGUIDS[destGUID][auraInstanceID] = nil
@@ -2663,7 +2673,7 @@ for spellId, spell in pairs(E.aura_db.INTERRUPT) do
 		spellId = spellId,
 		auraInstanceID = 0,
 		isHarmful = true,
-		name = GetSpellInfo(spellId),
+		name = C_Spell.GetSpellName(spellId),
 		priority = 1,
 		scale = 1,
 	}
@@ -2680,7 +2690,7 @@ RegisteredEvents.SPELL_INTERRUPT = {}
 RegisteredEvents.SPELL_CAST_SUCCESS = {}
 
 for spellId, spell in pairs(InterruptData) do
-	RegisteredEvents.SPELL_INTERRUPT[spellId] = function(destGUID, extraSchool, _, extraSpellId)
+	RegisteredEvents.SPELL_INTERRUPT[spellId] = function(destGUID, extraSchool)
 		local aura
 		for unit, container in pairs(ActiveUnitContainer.HARMFUL) do
 			unit = unit == "uplayer" and "player" or partyFrameUnitId[unit] or unit
@@ -2709,10 +2719,10 @@ for spellId, spell in pairs(InterruptData) do
 					if isLockedInFrost ~= 0 then
 						aura.mageLockedFrostSchool = select(2, UnitClass(unit)) == "MAGE" and isLockedInFrost
 					end
-					aura.lockedSchoolName = GetSchoolString(extraSchool) -- localized string (e.g 48: Shadowfrost)
+					aura.lockedSchoolName = C_Spell.GetSchoolString(extraSchool) -- localized string (e.g 48: Shadowfrost)
 
 					SpellLockedGUIDS[destGUID] = SpellLockedGUIDS[destGUID] or {}
-					SpellLockedGUIDS[destGUID][aura.auraInstanceID] = E.TimerAfter(duration, Lockout_OnTimerEnd, destGUID, aura.auraInstanceID, aura)
+					SpellLockedGUIDS[destGUID][aura.auraInstanceID] = E.TimerAfter(duration, Lockout_OnTimerEnd, destGUID, aura.auraInstanceID, aura) -- append aura timer.args
 
 					if aura.mageLockedFrostSchool and module.OmniCDParty then
 						UpdateOmniCDWarning(destGUID, aura.auraInstanceID)
@@ -2729,10 +2739,9 @@ for spellId, spell in pairs(InterruptData) do
 		end
 	end
 
-	--[[ NOTE: Interrupting a channel usually doesn't fire SPELL_INTERRUPT (e.g. Penance).
-	Some channels fire SPELL_INTERRUPT (e.g. Ray of Frost), but as long as we're using the same auraInstanceID
-	we won't have duplicate icons showing]]--
-	-- FIXME: getting double icon occasionally. replace auraInstanceID with spellId?
+	-- NOTE: Interrupting a channel usually doesn't fire SPELL_INTERRUPT (e.g. Penance).
+	-- However, some channels do (e.g. Ray of Frost), but as long as we're using the same auraInstanceID
+	-- we won't have duplicate icons showing.
 	RegisteredEvents.SPELL_CAST_SUCCESS[spellId] = function(destGUID)
 		local aura
 		for unit, container in pairs(ActiveUnitContainer.HARMFUL) do
@@ -2801,7 +2810,7 @@ RegisteredEvents.SPELL_CAST_SUCCESS[235219] = function(_,_, srcGUID)
 				elseif aura.mageLockedFrostSchool > 16 then
 					local newSchool = aura.mageLockedFrostSchool - 16
 					aura.lockedSchool = newSchool
-					aura.lockedSchoolName = GetSchoolString(newSchool)
+					aura.lockedSchoolName = C_Spell.GetSchoolString(newSchool)
 					aura.mageLockedFrostSchool = nil
 				end
 				frostLockoutRemoved = true
@@ -2908,6 +2917,7 @@ function module:UnitFrame_UpdateAll(updateComparator)
 			container.db = db
 			container.enabledAura = enabledAura
 
+			local iconScale
 			local edgeSize
 			local r, g, b = db.borderColor.r, db.borderColor.g, db.borderColor.b
 
@@ -2944,6 +2954,10 @@ function module:UnitFrame_UpdateAll(updateComparator)
 					end
 					container:SetPoint(db.point, relTo, db.relativePoint, xOfs, yOfs)
 				end
+				local pixelMult = E.uiUnitFactor / container.parent:GetEffectiveScale()
+				local size = BASE_ICON_HEIGHT * scale
+				iconScale = (size - size % pixelMult) / BASE_ICON_HEIGHT
+				edgeSize = pixelMult / iconScale
 
 				-- Overlay settings
 				local point = db.point == "CENTER" and "LEFT" or db.point
@@ -2957,7 +2971,7 @@ function module:UnitFrame_UpdateAll(updateComparator)
 					local overlay = container[j]
 					ClearHideOverlayFrame(overlay)
 
-					overlay:SetScale(scale)
+					overlay:SetScale(iconScale)
 					overlay:ClearAllPoints()
 					if isManual then
 						overlay:SetPoint("CENTER")
@@ -2968,14 +2982,11 @@ function module:UnitFrame_UpdateAll(updateComparator)
 							end
 							overlay.name:SetFormattedText("%s|%s%s", unit, isHARMFUL and "debuffs" or "buffs", unitTypeDB.mergeAuraFrame and " + buffs" or "")
 						end
-						if j == 1 then
-							edgeSize = E.PixelMult / db.scale
-						else
+						if j > 1 then
 							overlay:SetPoint("BOTTOMLEFT", container[j-1], "BOTTOMRIGHT")
 						end
 					elseif j == 1 then
 						overlay:SetPoint(db.point, container, db.point)
-						edgeSize = E.uiUnitFactor / overlay:GetEffectiveScale()
 					elseif numInnerDebuffs and j > numInnerDebuffs then
 						overlay:SetPoint(reversePoint[point], container[j == numInnerDebuffs + 1 and 1 or j-1], reversePoint[relPoint])
 					else
@@ -2986,7 +2997,7 @@ function module:UnitFrame_UpdateAll(updateComparator)
 						overlay.name:SetShown(isManual and self.isInTestMode)
 					end
 					overlay:SetSize(buffSize, buffSize)
-					overlay.HighlightFlash:SetScale(buffSize / BASE_ICON_SIZE)
+					overlay.HighlightFlash:SetScale(buffSize / BASE_ICON_HEIGHT)
 					overlay:SetAlpha(db.opacity)
 					overlay:EnableMouse(self.isInTestMode and isManual or (overlay.isPassThrough and db.showTooltip))
 					overlay.cooldown:SetSwipeColor(0, 0, 0, db.swipeAlpha)
@@ -3071,7 +3082,13 @@ function module:UnitFrame_UpdateAll(updateComparator)
 					else
 						overlay:SetParent(overlay.container)
 						overlay:SetFrameLevel(600) -- target, focus frame texture is 500
-						overlay:SetScale(db.scale) -- do before GetEffectiveScale is called
+
+						if j == 1 then
+							local size = BASE_ICON_HEIGHT * db.scale
+							iconScale = (size - size % E.PixelMult) / BASE_ICON_HEIGHT
+							edgeSize = E.PixelMult / iconScale
+						end
+						overlay:SetScale(iconScale)
 						overlay:SetAlpha(db.opacity)
 						overlay:EnableMouse(self.isInTestMode and isManual)
 						if overlay.mask then
@@ -3088,17 +3105,11 @@ function module:UnitFrame_UpdateAll(updateComparator)
 								end
 								overlay.name:SetFormattedText("%s|%s%s", unit, filter == "HARMFUL" and "debuffs" or "buffs", unitTypeDB.mergeAuraFrame and " + buffs" or "")
 							end
-							if j == 1 then
-								edgeSize = E.PixelMult / db.scale
-							end
 						else
 							if j == 1 then
 								overlay:SetPoint(db.point, uf, db.relativePoint, db.offsetX, db.offsetY)
 							else
 								overlay:SetPoint(db.point, container[j-1], db.relativePoint)
-							end
-							if j == 1 then
-								edgeSize = E.uiUnitFactor / overlay:GetEffectiveScale()
 							end
 						end
 						if db.borderType == "texture" then
@@ -3179,7 +3190,7 @@ local function UpdateEnabledAuras()
 			Aura_Enabled[k].CC = {}
 		end
 	end
-	for filter, t in pairs(E.aura_db) do
+	for _, t in pairs(E.aura_db) do
 		for id, v in pairs(t) do
 			local classPriority, mergedAuraIDs = v[1], v[4]
 			local sId = tostring(id)
@@ -3200,7 +3211,7 @@ local function UpdateEnabledAuras()
 end
 
 local function FindMergedIDs(spellId)
-	for filter, t in pairs(E.aura_db) do
+	for _, t in pairs(E.aura_db) do
 		if t[spellId] then
 			return t[spellId][4]
 		end
@@ -3234,16 +3245,62 @@ local function UpdateFilteredAuras()
 	end
 end
 
+-- TWW: this require maintenance as it's tied to talents
+local dispelsBySpecialization = {
+	[62] = { 475, "Curse" }, -- Remove Curse
+	[63] = { 475, "Curse" },
+	[64] = { 475, "Curse" },
+	[65] = { 4987, "Magic", 393024, "Poison:Disease" }, -- Cleanse, Improved Cleanse
+	[66] = { 213644, "Poison:Disease" }, -- Cleans Toxins
+	[70] = { 213644, "Poison:Disease" },
+	[102] = { 2782, "Curse:Poison" }, -- Remove Corruption
+	[103] = { 2782, "Curse:Poison" },
+	[104] = { 2782, "Curse:Poison" },
+	[105] = { 88423, "Magic", 392378, "Curse:Poison" }, -- Nature's cure, Improved Nature's cure
+	[256] = { 527, "Magic", 390632, "Disease" }, -- Purify, Improved Purify
+	[257] = { 527, "Magic", 390632, "Disease" },
+	[258] = { 213634, "Disease" }, -- Purify Disease
+	[262] = { 51886, "Curse" }, -- Cleanse Spirit
+	[263] = { 51886, "Curse" },
+	[264] = { 77130, "Magic", 383016, "Curse" }, -- Purify Spirit, Improved Purify Spirit
+	[268] = { 218164, "Poison:Disease" }, -- Detox
+	[269] = { 218164, "Poison:Disease" },
+	[270] = { 115450, "Magic", 388874, "Poison:Disease" }, -- Detox, Improved Detox
+	[1467] = { 365585, "Poison" }, -- Expunge
+	[1468] = { 360823, "Magic", 365585, "Poison" }, -- Expunge(default), Naturalize
+	[1473] = { 365585, "Poison" },
+}
+
+local function UpdateDispellableDebuffType()
+	wipe(DispellableDebuffType)
+
+	local specIndex = GetSpecialization()
+	local specID = GetSpecializationInfo(specIndex)
+
+	local dispelInfo = dispelsBySpecialization[specID]
+	if dispelInfo then
+		for i = 1, #dispelInfo, 2 do
+			local talentId, debuffStr = dispelInfo[i], dispelInfo[i+1]
+			if IsPlayerSpell(talentId) then
+				debuffStr = strsplittable(":", debuffStr)
+				for _, debuffType in pairs(debuffStr) do
+					DispellableDebuffType[debuffType] = true
+				end
+			end
+		end
+	end
+end
+
 function module:Refresh(updateComparator) -- wipe auraInfo and create new metatable to update comparator. Clear() only empties table
 	-- Update db
 	db = E.profile
 	blacklist = E.global.auraBlacklist
 	self.OmniCDParty = db.warnFrostLockout and OmniCD and OmniCD[1] and OmniCD[1].Party
 
-	-- clear timers
+	-- Clear timers
 	for guid, timers in pairs(SpellLockedGUIDS) do
-		for auraInstanceID, callbacktimer in pairs(timers) do
-			callbacktimer:Cancel()
+		for _, callbackTimer in pairs(timers) do
+			callbackTimer:Cancel()
 		end
 		SpellLockedGUIDS[guid] = nil
 	end
@@ -3255,6 +3312,7 @@ function module:Refresh(updateComparator) -- wipe auraInfo and create new metata
 	-- Update auras
 	UpdateEnabledAuras()
 	UpdateFilteredAuras()
+	UpdateDispellableDebuffType()
 
 	-- Update display settings
 	AdjustedDebuffTypeColor = E:CopyAdjustedColors(db.raidFrame.HARMFUL.debuffTypeColor, 0.7)
@@ -3276,36 +3334,18 @@ function module:Refresh(updateComparator) -- wipe auraInfo and create new metata
 	end
 end
 
-local profileNames = {} -- reuse tbl
-function module:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi)
+function module:PLAYER_ENTERING_WORLD()
 	local _, instanceType = IsInInstance()
 	self.zone = instanceType
 	self.isInArena = instanceType == "arena"
 	self.isInPvPInstance = self.isInArena or instanceType == "pvp"
-
-	-- load zone profile (NOT USED)
-	if ( db.useZoneProfile ) then
-		local profile = db.zoneProfile[instanceType]
-		if ( profile and profile ~= "current" ) then
-			local found
-			E.DB:GetProfiles(profileNames)
-			for _, name in ipairs(profileNames) do
-				if ( name == profile ) then
-					found = profile
-					break
-				end
-			end
-			profile = found or E.DB:GetCurrentProfile()
-			E.DB:SetProfile(profile)
-			return
-		end
-	end
+	self.isInPvEInstance = instanceType == "party" or instanceType == "raid"
 
 	self:Refresh()
 	-- Fix LFR/SS
-	-- overlay size n
-	CallbackTimers.refreshDelay = E.TimerAfter(5, self.CompactUnitFrame_RegisterEvents, self, nil)
+	C_Timer.After(5, function() self:CompactUnitFrame_RegisterEvents(true) end)
 end
+module.ZONE_CHANGED_NEW_AREA = module.PLAYER_ENTERING_WORLD
 
 --
 -- Test Mode
@@ -3313,6 +3353,7 @@ end
 
 module.testAuras = {}
 
+local GetSpellTexture = C_Spell.GetSpellTexture
 module.testAuras.HARMFUL = {
 	[31] = { ["applications"]=0,["expirationTime"]=0,["isHarmful"]=true,["spellId"]=118699,["icon"]=GetSpellTexture(118699),["dispelName"]="Magic",["duration"]=15,["classType"]="hardCC" }, -- Fear
 	[32] = { ["applications"]=0,["expirationTime"]=0,["isHarmful"]=true,["spellId"]=236077,["icon"]=GetSpellTexture(236077),["dispelName"]="none",["duration"]=15,["classType"]="disarmRoot" }, -- Disarm
@@ -3458,4 +3499,5 @@ E.NUM_NP_OVERLAYS = NUM_NP_OVERLAYS
 E.NameplateContainer = NameplateContainer -- ANP
 E.ActiveUnitContainer = ActiveUnitContainer -- ANP
 E.ActiveUnitCompactUnitFrame = ActiveUnitCompactUnitFrame -- APC
-E.RAID_UNIT = RAID_UNIT
+E.RAID_UNIT = RAID_UNIT -- ANP, TNP
+E.PARTY_UNIT = PARTY_UNIT -- TNP

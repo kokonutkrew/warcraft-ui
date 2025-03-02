@@ -4,7 +4,7 @@ BugSackDB = {
 ["fontSize"] = "GameFontHighlight",
 ["useMaster"] = false,
 ["altwipe"] = true,
-["mute"] = false,
+["mute"] = true,
 ["soundMedia"] = "BugSack: Fatality",
 ["chatframe"] = false,
 }

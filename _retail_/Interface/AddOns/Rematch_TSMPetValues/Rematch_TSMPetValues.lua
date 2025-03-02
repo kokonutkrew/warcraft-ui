@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- Rematch_TSMPetValues.lua - Main addon file
 --
--- Author: Expelliarm5s / August 2024 / All Rights Reserved
+-- Author: Expelliarm5s / November 2024 / All Rights Reserved
 --
--- Version 1.2.6
+-- Version 1.2.7
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 
@@ -58,8 +58,8 @@ function addon:ToggleDebug()
 	end
 end
 
--- for 10.2.0 bug hunting
-local zdebugtest = { 67436956, 69796272, 69206440, 69665191, 70123956, 71369144, 74318273, 69992870, 68682148, 72942009, 68485540, 75956679, 67568035, }
+-- for 11.0.7 bug hunting
+local zdebugtest = { 67436956, 69009831, 70123956, 69992870, 68682148, 72942009, }
 
 
 function addon:IsZDebugMode(str)

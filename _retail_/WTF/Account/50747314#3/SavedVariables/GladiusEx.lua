@@ -45,29 +45,29 @@ GladiusExDB = {
 },
 ["HealthBar"] = {
 },
-["Clicks"] = {
+["party_PetBar"] = {
 },
-["Tags"] = {
+["PetBar"] = {
 },
 ["party_Cooldowns"] = {
 },
 ["party_Clicks"] = {
 },
-["party_Auras"] = {
+["Announcements"] = {
 },
 ["party_Interrupts"] = {
 },
-["party_Tags"] = {
+["Alerts"] = {
 },
 ["TargetBar"] = {
 },
-["Alerts"] = {
+["party_Tags"] = {
 },
-["Announcements"] = {
+["party_Auras"] = {
 },
-["PetBar"] = {
+["Tags"] = {
 },
-["party_PetBar"] = {
+["Clicks"] = {
 },
 ["ClassIcon"] = {
 },
@@ -75,6 +75,7 @@ GladiusExDB = {
 ["profileKeys"] = {
 ["Floide - Moon Guard"] = "Default",
 ["Timecaster - Emerald Dream"] = "Default",
+["Voidspeakerr - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

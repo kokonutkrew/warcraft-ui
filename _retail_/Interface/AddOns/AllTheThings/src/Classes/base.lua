@@ -123,6 +123,30 @@ local DefaultFields = {
 	["text"] = function(t)
 		return t.link or t.name;
 	end,
+	-- modItemID doesn't exist for Items which NEVER use a modID or bonusID (illusions, music rolls, mounts, etc.)
+	["modItemID"] = function(t)
+		return t.itemID;
+	end,
+	-- whether something is considered 'missing' by seeing if it can search for itself
+	["_missing"] = function(t)
+		local key = t.key;
+		-- only process this logic for real 'Things' in the game
+		if not app.ThingKeys[key] then return; end
+		-- quest 76250
+		-- item with modID, so key is itemID, t[key] is 13544
+		-- SFO uses 'modItemID' to verify 'itemID' search result object accuracy, thus '13544' never matches the expected '13544.01'
+		-- so we need to know to search by 'itemID' but using the 'modItemID' here for base itemID lookups of missing
+		-- i.e. if searching 13544, we allow 13544.01 to count as a non-missing representation of the search... makes sense?
+		local val = key == "itemID" and t.modItemID or t[key];
+		local o = app.SearchForObject(key, val, "field") or (val == t.itemID and app.SearchForObject("itemID", val));
+		local missing = true;
+		while o do
+			missing = rawget(o, "_missing");
+			o = not missing and (o.sourceParent or o.parent);
+		end
+		t._missing = missing or false;
+		return missing;
+	end,
 	-- Whether or not something is repeatable.
 	["repeatable"] = function(t)
 		return t.isDaily or t.isWeekly or t.isMonthly or t.isYearly;
@@ -178,30 +202,6 @@ if app.IsRetail then
 		-- trying to individually maintain variable coloring in every object class is quite absurd
 		["text"] = function(t)
 			return t.link or app.TryColorizeName(t);
-		end,
-		-- modItemID doesn't exist for Items which NEVER use a modID or bonusID (illusions, music rolls, mounts, etc.)
-		["modItemID"] = function(t)
-			return t.itemID;
-		end,
-		-- whether something is considered 'missing' by seeing if it can search for itself
-		["_missing"] = function(t)
-			local key = t.key;
-			-- only process this logic for real 'Things' in the game
-			if not app.ThingKeys[key] then return; end
-			-- quest 76250
-			-- item with modID, so key is itemID, t[key] is 13544
-			-- SFO uses 'modItemID' to verify 'itemID' search result object accuracy, thus '13544' never matches the expected '13544.01'
-			-- so we need to know to search by 'itemID' but using the 'modItemID' here for base itemID lookups of missing
-			-- i.e. if searching 13544, we allow 13544.01 to count as a non-missing representation of the search... makes sense?
-			local val = key == "itemID" and t.modItemID or t[key];
-			local o = app.SearchForObject(key, val, "field") or (val == t.itemID and app.SearchForObject("itemID", val));
-			local missing = true;
-			while o do
-				missing = rawget(o, "_missing");
-				o = not missing and (o.sourceParent or o.parent);
-			end
-			t._missing = missing or false;
-			return missing;
 		end,
 		["nmc"] = function(t)
 			local c = t.c;
@@ -461,10 +461,10 @@ end
 local function GenerateVariantClasses(class)
 	local fields = class.__class
 	local variants = fields.variants
-	if not variants then return end
+	if not variants or #variants == 0 then return end
 	local subbase = function(t, key) return class.__index; end
 	local classname = fields.__type()
-	local variantClone
+	local variantClone, variantName
 	for i,variant in ipairs(variants) do
 		if not variant.__name then
 			ClassError("Missing Class Variant __name!",i,classname)
@@ -474,7 +474,9 @@ local function GenerateVariantClasses(class)
 		end
 		-- raw variant table may be used by other classes, so need to copy it for this specific subclass
 		variantClone = CloneDictionary(fields, CloneDictionary(variant, {base=subbase}))
-		variants[i] = CreateClassMeta(variantClone, classname..variant.__name);
+		variantName = classname..variant.__name
+		variants[i] = CreateClassMeta(variantClone, variantName);
+		if variant.__onclassgenerated then variant.__onclassgenerated(variantName) end
 	end
 end
 local function AppendVariantConditionals(conditionals, class)
@@ -551,6 +553,14 @@ app.CreateClass = function(className, classKey, fields, ...)
 	-- Ensure that a key field exists!
 	if not fields.key then
 		fields.key = function() return classKey; end;
+	end
+
+	-- If a Type is collectible via in-game Event, also enforce that it defines for itself its CacheKey
+	-- for the common immediate collection handling logic
+	if fields.collectible and fields.collected and not fields.RefreshCollectionOnly then
+		if not fields.CACHE then
+			ClassError("Class",className,"is missing CACHE by which the collected Keys are stored in the Cache");
+		end
 	end
 
 	-- If this object supports collectibleAsCost, that means it needs a way to fallback to a version of itself without any cost evaluations should it detect that it doesn't use it anywhere.
@@ -663,6 +673,7 @@ app.CreateUnimplementedClass = function(className, classKey)
 			return app.L.DATA_TYPE_NOT_SUPPORTED;
 		end,
 		IsClassIsolated = true,
+		RefreshCollectionOnly = true,
 		isInvalid = app.ReturnTrue,
 		collected = app.ReturnFalse,
 		collectible = app.ReturnTrue,
@@ -671,11 +682,15 @@ end
 app.ExtendClass = function(baseClassName, className, classKey, fields, ...)
 	local baseClass = classDefinitions[baseClassName];
 	if baseClass then
-		fields = CloneDictionary(baseClass, fields)
-		fields.__type = nil;
-		fields.key = nil;
-		fields.conditionals = nil;
-		fields.simplemeta = nil;
+		-- clone the base fields and make sure to remove fields we don't want to inherit in the extended classes
+		local basefields = CloneDictionary(baseClass)
+		basefields.__type = nil;
+		basefields.variants = nil
+		basefields.key = nil;
+		basefields.conditionals = nil;
+		basefields.simplemeta = nil;
+		-- then clone those into the extended class
+		fields = CloneDictionary(basefields, fields)
 	else
 		ClassError("Could not find specified base class:", baseClassName);
 	end
@@ -712,13 +727,16 @@ app.SwapClassDefinitionMethod = function(className, classField, newFunc)
 end
 -- Setup a simple true/false swap for the 'collectible' field of the given class based on the tracked setting name
 app.AddSimpleCollectibleSwap = function(classname, setting)
-	app.AddEventHandler("OnSettingsNeedsRefresh", function()
+	local function AssignCollectibleFunction()
+		-- app.PrintDebug("Swapping",classname,".collectible","via",setting,app.Settings.Collectibles[setting])
 		if app.Settings.Collectibles[setting] then
 			app.SwapClassDefinitionMethod(classname,"collectible",app.ReturnTrue)
 		else
 			app.SwapClassDefinitionMethod(classname,"collectible",app.ReturnFalse)
 		end
-	end);
+	end
+	app.AddEventHandler("OnSettingsNeedsRefresh", AssignCollectibleFunction);
+	app.AddEventHandler("OnStartup", AssignCollectibleFunction);
 end
 
 -- Allows wrapping one Type Object with another Type Object. This allows for fall-through field logic

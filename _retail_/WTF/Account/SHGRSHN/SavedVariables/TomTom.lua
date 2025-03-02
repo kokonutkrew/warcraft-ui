@@ -5,69 +5,81 @@ TomTomDB = {
 ["Samoanghost - Area 52"] = "Default",
 ["Samoansavage - Area 52"] = "Default",
 ["Threadcraft - Emerald Dream"] = "Default",
+["Samoansifu - Area 52"] = "Default",
 ["Samoanseraph - Area 52"] = "Default",
 ["Blackbetteh - Wyrmrest Accord"] = "Default",
 ["Samoansilver - Area 52"] = "Default",
 ["Cotiasanna - Alterac Mountains"] = "Default",
-["Samoanstrap - Area 52"] = "Default",
-["Samoandrake - Emerald Dream"] = "Default",
-["Xb - Emerald Dream"] = "Default",
-["Samoanslayer - Area 52"] = "Default",
-["Forgecraft - Area 52"] = "Default",
-["Buycraft - Area 52"] = "Default",
-["Herbcraft - Emerald Dream"] = "Default",
-["Samoanbeast - Ravenholdt"] = "Default",
-["Samoanrelic - Emerald Dream"] = "Default",
 ["Samoansage - Stormrage"] = "Default",
-["Samoansteel - Area 52"] = "Default",
-["Mf - Emerald Dream"] = "Default",
-["Samoanbeast - Area 52"] = "Default",
+["Samoandrake - Emerald Dream"] = "Default",
+["Samoanslayer - Area 52"] = "Default",
+["Samoanrelic - Emerald Dream"] = "Default",
+["Samoansurge - Area 52"] = "Default",
 ["Kk - Bloodhoof"] = "Default",
-["Dustcraft - Emerald Dream"] = "Default",
-["Ikkl - Emerald Dream"] = "Default",
+["Samoanbreach - Area 52"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoanranger - Emerald Dream"] = "Default",
+["Samoanranger - Moon Guard"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Shgrshn - Tichondrius"] = "Default",
+["Forgecraft - Illidan"] = "Default",
+["Mf - Emerald Dream"] = "Default",
+["Samoansage - Area 52"] = "Default",
+["Farmcraft - Area 52"] = "Default",
+["Samoanghost - Emerald Dream"] = "Default",
+["Xb - Emerald Dream"] = "Default",
+["Samoanshadow - Area 52"] = "Default",
+["Samoandrake - Area 52"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Forgecraft - Area 52"] = "Default",
+["Herbcraft - Emerald Dream"] = "Default",
+["Okko - Area 52"] = "Default",
+["Samoanruin - Stormrage"] = "Default",
+["Samoanreaper - Area 52"] = "Default",
+["Gl - Emerald Dream"] = "Default",
 ["Samoanblast - Emerald Dream"] = "Default",
 ["Tyrielle - Area 52"] = "Default",
 ["Samoanranger - Area 52"] = "Default",
-["Samoanbreach - Area 52"] = "Default",
-["Samoantitan - Emerald Dream"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
-["Shadowcraft - Emerald Dream"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Fishcraft - Area 52"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoantank - Tichondrius"] = "Default",
 ["Samoanmystic - Emerald Dream"] = "Default",
 ["Samoansage - Emerald Dream"] = "Default",
-["Samoantank - Tichondrius"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
-["Samoanranger - Moon Guard"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
-["Crankcraft - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
 ["Samoanlegend - Tichondrius"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
-["Samoanruin - Stormrage"] = "Default",
-["Samoansizzle - Area 52"] = "Default",
-["Samoanranger - Emerald Dream"] = "Default",
-["Samoanwraith - Area 52"] = "Default",
-["Shgrshn - Tichondrius"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
-["Forgecraft - Illidan"] = "Default",
 ["Samoanscout - Moon Guard"] = "Default",
-["Threadcraft - Area 52"] = "Default",
-["Samoanshield - Area 52"] = "Default",
-["Gl - Emerald Dream"] = "Default",
-["Samoansage - Tichondrius"] = "Default",
+["Samoansizzle - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
+["Samoanwraith - Area 52"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Samoanbeast - Area 52"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
+["Samoanrocket - Area 52"] = "Default",
+["Samoansteel - Area 52"] = "Default",
+["Samoanshield - Area 52"] = "Default",
+["Samoantitan - Area 52"] = "Default",
+["Samoansage - Tichondrius"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
 ["Kkelly - Wyrmrest Accord"] = "Default",
-["Samoanghost - Emerald Dream"] = "Default",
+["Samoanlegend - Area 52"] = "Default",
 ["Gearcraft - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["arrow"] = {
 ["position"] = {
-"TOP",
+"TOPRIGHT",
 nil,
-"TOP",
-187.0002746582031,
--21.00009155273438,
+"TOPRIGHT",
+-286.6766967773438,
+-76.23899841308594,
 },
 },
 ["block"] = {
@@ -90,58 +102,70 @@ TomTomWaypointsM = {
 ["Samoanghost - Area 52"] = "Samoanghost - Area 52",
 ["Samoansavage - Area 52"] = "Samoansavage - Area 52",
 ["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+["Samoansifu - Area 52"] = "Samoansifu - Area 52",
 ["Samoanseraph - Area 52"] = "Samoanseraph - Area 52",
 ["Blackbetteh - Wyrmrest Accord"] = "Blackbetteh - Wyrmrest Accord",
 ["Samoansilver - Area 52"] = "Samoansilver - Area 52",
 ["Cotiasanna - Alterac Mountains"] = "Cotiasanna - Alterac Mountains",
-["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
-["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
-["Xb - Emerald Dream"] = "Xb - Emerald Dream",
-["Samoanslayer - Area 52"] = "Samoanslayer - Area 52",
-["Forgecraft - Area 52"] = "Forgecraft - Area 52",
-["Buycraft - Area 52"] = "Buycraft - Area 52",
-["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 ["Samoansage - Stormrage"] = "Samoansage - Stormrage",
-["Samoansteel - Area 52"] = "Samoansteel - Area 52",
-["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
+["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
+["Samoanslayer - Area 52"] = "Samoanslayer - Area 52",
+["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+["Samoansurge - Area 52"] = "Samoansurge - Area 52",
 ["Kk - Bloodhoof"] = "Kk - Bloodhoof",
-["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+["Samoanbreach - Area 52"] = "Samoanbreach - Area 52",
+["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
+["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
+["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
+["Forgecraft - Illidan"] = "Forgecraft - Illidan",
+["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+["Samoansage - Area 52"] = "Samoansage - Area 52",
+["Farmcraft - Area 52"] = "Farmcraft - Area 52",
+["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+["Samoanshadow - Area 52"] = "Samoanshadow - Area 52",
+["Samoandrake - Area 52"] = "Samoandrake - Area 52",
+["Buycraft - Area 52"] = "Buycraft - Area 52",
+["Forgecraft - Area 52"] = "Forgecraft - Area 52",
+["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+["Okko - Area 52"] = "Okko - Area 52",
+["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
+["Samoanreaper - Area 52"] = "Samoanreaper - Area 52",
+["Gl - Emerald Dream"] = "Gl - Emerald Dream",
 ["Samoanblast - Emerald Dream"] = "Samoanblast - Emerald Dream",
 ["Tyrielle - Area 52"] = "Tyrielle - Area 52",
 ["Samoanranger - Area 52"] = "Samoanranger - Area 52",
-["Samoanbreach - Area 52"] = "Samoanbreach - Area 52",
-["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
-["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
+["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Fishcraft - Area 52"] = "Fishcraft - Area 52",
+["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
 ["Herbcraft - Area 52"] = "Herbcraft - Area 52",
-["Crankcraft - Area 52"] = "Crankcraft - Area 52",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Samoanlegend - Tichondrius"] = "Samoanlegend - Tichondrius",
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
-["Samoanruin - Stormrage"] = "Samoanruin - Stormrage",
-["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
-["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-["Samoanwraith - Area 52"] = "Samoanwraith - Area 52",
-["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 ["Samoanscout - Moon Guard"] = "Samoanscout - Moon Guard",
-["Threadcraft - Area 52"] = "Threadcraft - Area 52",
-["Samoanshield - Area 52"] = "Samoanshield - Area 52",
-["Gl - Emerald Dream"] = "Gl - Emerald Dream",
-["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
+["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+["Samoanwraith - Area 52"] = "Samoanwraith - Area 52",
+["Crankcraft - Area 52"] = "Crankcraft - Area 52",
+["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+["Samoanrocket - Area 52"] = "Samoanrocket - Area 52",
+["Samoansteel - Area 52"] = "Samoansteel - Area 52",
+["Samoanshield - Area 52"] = "Samoanshield - Area 52",
+["Samoantitan - Area 52"] = "Samoantitan - Area 52",
+["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Kkelly - Wyrmrest Accord"] = "Kkelly - Wyrmrest Accord",
-["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+["Samoanlegend - Area 52"] = "Samoanlegend - Area 52",
 ["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
 },
 ["profiles"] = {
@@ -161,9 +185,9 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["world"] = {
-},
 ["minimap"] = {
+},
+["world"] = {
 },
 },
 ["persistent"] = true,
@@ -191,15 +215,17 @@ TomTomWaypointsM = {
 ["callbacks"] = {
 ["distance"] = {
 },
-["world"] = {
-},
 ["minimap"] = {
+},
+["world"] = {
 },
 },
 ["minimap"] = true,
 ["world"] = true,
 },
 },
+},
+["Samoansifu - Area 52"] = {
 },
 ["Samoanseraph - Area 52"] = {
 },
@@ -209,70 +235,66 @@ TomTomWaypointsM = {
 },
 ["Cotiasanna - Alterac Mountains"] = {
 },
-["Samoanstrap - Area 52"] = {
+["Samoansage - Stormrage"] = {
 },
 ["Samoandrake - Emerald Dream"] = {
 },
-["Xb - Emerald Dream"] = {
-},
 ["Samoanslayer - Area 52"] = {
-},
-["Forgecraft - Area 52"] = {
-},
-["Buycraft - Area 52"] = {
-},
-["Herbcraft - Emerald Dream"] = {
-},
-["Samoanbeast - Ravenholdt"] = {
 },
 ["Samoanrelic - Emerald Dream"] = {
 },
-["Samoansage - Stormrage"] = {
-},
-["Samoansteel - Area 52"] = {
-},
-["Mf - Emerald Dream"] = {
-},
-["Samoanbeast - Area 52"] = {
+["Samoansurge - Area 52"] = {
 },
 ["Kk - Bloodhoof"] = {
 },
-["Dustcraft - Emerald Dream"] = {
-},
-["Ikkl - Emerald Dream"] = {
-},
-["Samoanblast - Emerald Dream"] = {
-},
-["Tyrielle - Area 52"] = {
-},
-["Samoanranger - Area 52"] = {
-},
 ["Samoanbreach - Area 52"] = {
-},
-["Samoantitan - Emerald Dream"] = {
-},
-["Samoanbeast - Emerald Dream"] = {
 },
 ["Shadowcraft - Emerald Dream"] = {
 },
-["Samoanmystic - Emerald Dream"] = {
+["Samoantitan - Emerald Dream"] = {
 },
-["Samoansage - Emerald Dream"] = {
-},
-["Samoantank - Tichondrius"] = {
-},
-["Samoansavage - Emerald Dream"] = {
+["Samoanranger - Emerald Dream"] = {
 },
 ["Samoanranger - Moon Guard"] = {
 },
-["Herbcraft - Area 52"] = {
+["Forgecraft - Emerald Dream"] = {
 },
-["Crankcraft - Area 52"] = {
-[174] = {
-["174:630000000:600000000:TomTom waypoint"] = {
-174,
-0.63,
-0.6,
+["Samoansavage - Emerald Dream"] = {
+},
+["Shgrshn - Tichondrius"] = {
+},
+["Forgecraft - Illidan"] = {
+},
+["Mf - Emerald Dream"] = {
+},
+["Samoansage - Area 52"] = {
+},
+["Farmcraft - Area 52"] = {
+},
+["Samoanghost - Emerald Dream"] = {
+},
+["Xb - Emerald Dream"] = {
+},
+["Samoanshadow - Area 52"] = {
+},
+["Samoandrake - Area 52"] = {
+},
+["Buycraft - Area 52"] = {
+},
+["Forgecraft - Area 52"] = {
+},
+["Herbcraft - Emerald Dream"] = {
+},
+["Okko - Area 52"] = {
+},
+["Samoanruin - Stormrage"] = {
+},
+["Samoanreaper - Area 52"] = {
+[116] = {
+["116:260000000:-0:TomTom waypoint"] = {
+116,
+0.26,
+-0,
 ["arrivaldistance"] = 15,
 ["crazy"] = true,
 ["persistent"] = true,
@@ -292,7 +314,54 @@ TomTomWaypointsM = {
 ["minimap"] = true,
 ["world"] = true,
 },
+["116:260000000:0:TomTom waypoint"] = {
+116,
+0.26,
+-0,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["minimap"] = true,
+["cleardistance"] = 10,
+["title"] = "TomTom waypoint",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
 },
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["world"] = true,
+},
+},
+},
+["Gl - Emerald Dream"] = {
+},
+["Samoanblast - Emerald Dream"] = {
+},
+["Tyrielle - Area 52"] = {
+},
+["Samoanranger - Area 52"] = {
+},
+["Samoanbeast - Emerald Dream"] = {
+},
+["Threadcraft - Area 52"] = {
+},
+["Fishcraft - Area 52"] = {
+},
+["Ikkl - Emerald Dream"] = {
+},
+["Samoantank - Tichondrius"] = {
+},
+["Samoanmystic - Emerald Dream"] = {
+},
+["Samoansage - Emerald Dream"] = {
+},
+["Herbcraft - Area 52"] = {
+},
+["Samoanbeast - Ravenholdt"] = {
 },
 ["Samoanlegend - Tichondrius"] = {
 },
@@ -325,35 +394,348 @@ TomTomWaypointsM = {
 },
 ["Samoanskully - Area 52"] = {
 },
-["Samoanruin - Stormrage"] = {
+["Samoanscout - Moon Guard"] = {
 },
 ["Samoansizzle - Area 52"] = {
+[78] = {
+["78:445500000:79800000:Inert Particular Key - inside the tree trunk"] = {
+78,
+0.4455,
+0.07980000000000001,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Inert Particular Key - inside the tree trunk",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Inert Particular Key - inside the tree trunk",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
 },
-["Samoanranger - Emerald Dream"] = {
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+[630] = {
+["630:405400000:731500000:Owl of the Watchers B"] = {
+630,
+0.4054,
+0.7315,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers B",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers B",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+["630:504500000:916700000:Owl of the Watchers G"] = {
+630,
+0.5045000000000001,
+0.9167000000000001,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers G",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers G",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+["630:405200000:751900000:Owl of the Watchers C"] = {
+630,
+0.4052,
+0.7519,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers C",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers C",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+["630:436600000:875100000:Owl of the Watchers F"] = {
+630,
+0.4366,
+0.8751000000000001,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers F",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers F",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+["630:432400000:853000000:Owl of the Watchers E"] = {
+630,
+0.4324,
+0.853,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers E",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers E",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+["630:371000000:821600000:Owl of the Watchers D"] = {
+630,
+0.371,
+0.8216,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers D",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers D",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+["630:441800000:724100000:Owl of the Watchers A"] = {
+630,
+0.4418,
+0.7241,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Owl of the Watchers A",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Owl of the Watchers A",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+[46] = {
+["46:478400000:789300000:Pressure Plate 7"] = {
+46,
+0.4784000000000001,
+0.7893000000000001,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Pressure Plate 7",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Pressure Plate 7",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+[1536] = {
+["1536:273000000:613000000:Decimator Olgra, Maldraxxus"] = {
+1536,
+0.273,
+0.613,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Decimator Olgra, Maldraxxus",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Decimator Olgra, Maldraxxus",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+[1530] = {
+["1530:838000000:276000000:Ny'alotha Obelisk"] = {
+1530,
+0.838,
+0.276,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "Ny'alotha Obelisk",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "Ny'alotha Obelisk",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
+},
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+},
+["Dustcraft - Emerald Dream"] = {
 },
 ["Samoanwraith - Area 52"] = {
 },
-["Shgrshn - Tichondrius"] = {
+["Crankcraft - Area 52"] = {
+[174] = {
+["174:630000000:600000000:TomTom waypoint"] = {
+174,
+0.63,
+0.6,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "TomTom waypoint",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "TomTom waypoint",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
 },
-["Forgecraft - Emerald Dream"] = {
+["minimap"] = {
 },
-["Forgecraft - Illidan"] = {
+["world"] = {
 },
-["Samoanscout - Moon Guard"] = {
 },
-["Threadcraft - Area 52"] = {
+["minimap"] = true,
+["world"] = true,
 },
-["Samoanshield - Area 52"] = {
 },
-["Gl - Emerald Dream"] = {
+[2214] = {
+["2214:630000000:780000000:TomTom waypoint"] = {
+2214,
+0.63,
+0.78,
+["arrivaldistance"] = 15,
+["crazy"] = true,
+["persistent"] = true,
+["desc"] = "TomTom waypoint",
+["silent"] = true,
+["cleardistance"] = 10,
+["title"] = "TomTom waypoint",
+["from"] = "TomTom/way",
+["callbacks"] = {
+["distance"] = {
 },
-["Samoansage - Tichondrius"] = {
+["minimap"] = {
+},
+["world"] = {
+},
+},
+["minimap"] = true,
+["world"] = true,
+},
+},
+},
+["Samoanbeast - Area 52"] = {
 },
 ["Farmcraft - Emerald Dream"] = {
 },
+["Samoanrocket - Area 52"] = {
+},
+["Samoansteel - Area 52"] = {
+},
+["Samoanshield - Area 52"] = {
+},
+["Samoantitan - Area 52"] = {
+},
+["Samoansage - Tichondrius"] = {
+},
+["Samoanstrap - Area 52"] = {
+},
 ["Kkelly - Wyrmrest Accord"] = {
 },
-["Samoanghost - Emerald Dream"] = {
+["Samoanlegend - Area 52"] = {
 },
 ["Gearcraft - Emerald Dream"] = {
 },

@@ -22,11 +22,6 @@ VER 3 0100000000000003 ".f08 Set Master" "135914"
 /click EMATargetMaster
 /click EMAFocusMaster
 END
-VER 3 0100000000000004 ".f11 Bait" "INV_Misc_QuestionMark"
-#showtooltip
-/use shiny bauble
-/use strong fishing pole
-END
 VER 3 0100000000000005 ".f13 ExtraAction" "INV_Misc_QuestionMark"
 #showtooltip
 /click ExtraActionButton1
@@ -61,11 +56,6 @@ VER 3 0100000000000008 ".f13 Mount Xmog" "INV_Misc_QuestionMark"
 /use Grand Expedition Yak
 /use Summon Chauffeur
 END
-VER 3 0100000000000009 ".FormCancel" "INV_Misc_QuestionMark"
-#showtooltip
-/dismount
-/cancelform [stance:1/2/3/4/5/6/7/8/9/10]
-END
 VER 3 010000000000000A ".g A52 Guild" "134331"
 /s PVE |cffffd200|HclubFinder:ClubFinder-1-538815-3676-116717275|h[Guild: kk]|h|r or PVP |cffffd200|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KK]|h|r
 END
@@ -78,6 +68,9 @@ END
 VER 3 010000000000000D "Bank" "INV_Misc_QuestionMark"
 #showtooltip
 /use mobile banking
+END
+VER 3 0100000000000020 "focus" "136181"
+/focus [target=mouseover,exists]; target
 END
 VER 3 010000000000000E "Mailbox" "INV_Misc_QuestionMark"
 #showtooltip
@@ -101,7 +94,12 @@ VER 3 0100000000000012 "pvpSlowGun" "INV_Misc_QuestionMark"
 #showtooltip Gravimetric Scrambler Cannon
 /cast [@cursor] Gravimetric Scrambler Cannon
 END
-VER 3 0100000000000013 "TSMMacro" "643910"
+VER 3 010000000000001F "targeted stun" "1723993"
+#showtooltip
+/use [@focus] strangulate
+/use strangulate
+END
+VER 3 0100000000000013 "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMCancelAuctionBtn
 /click TSMVendoringSellAllButton
 /click TSMShoppingBuyoutBtn
@@ -156,8 +154,4 @@ END
 VER 3 010000000000001D "zMonk01" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:alt] Diffuse Magic; [mod:shift] Dampen Harm; [spec:3,@mouseover,harm,nodead] Touch of Karma; [@mouseover,help,nodead] [help] Detox; [spec:3,harm] Touch of Karma
-END
-VER 3 010000000000001E "zPaladin01" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@mouseover,help,dead] [help,dead] Intercession; [@mouseover,help,nodead] [] Cleanse Toxins
 END

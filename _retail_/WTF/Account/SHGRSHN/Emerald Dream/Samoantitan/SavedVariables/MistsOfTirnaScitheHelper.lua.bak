@@ -9,6 +9,8 @@ UICoords = {
 ["UISettingsCoords"] = {
 },
 ["UIConfigCoords"] = {
+["y"] = -212.8055114746094,
+["x"] = 25.29441833496094,
 },
 ["UIPreviewCoords"] = {
 },

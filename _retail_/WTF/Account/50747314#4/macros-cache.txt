@@ -480,13 +480,13 @@ VER 3 0000000000000062 "x Cov Signature" "INV_Misc_QuestionMark"
 /cast Summon Steward
 /run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
 END
-VER 3 0000000000000064 "x Interrupt Focus" "INV_Misc_QuestionMark"
-#showtooltip kick
+VER 3 0000000000000063 "x Interrupt Focus" "INV_Misc_QuestionMark"
+#showtooltip
 /cast [target=focus,exists,nodead] Kick
 /cast Kick
 END
-VER 3 0000000000000063 "x Interrupt Focus" "INV_Misc_QuestionMark"
-#showtooltip
+VER 3 0000000000000064 "x Interrupt Focus" "INV_Misc_QuestionMark"
+#showtooltip kick
 /cast [target=focus,exists,nodead] Kick
 /cast Kick
 END

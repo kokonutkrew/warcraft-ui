@@ -9,6 +9,4 @@
 	<Script file="Spells.lua"/>
 	<Script file="Blacklist.lua"/>
 	<Script file="Alerts.lua"/>
-	<!-- modules -->
-	<Include file="..\Core\Modules.xml" />
 </Ui>

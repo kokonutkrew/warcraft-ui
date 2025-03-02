@@ -20,9 +20,13 @@ CraftSimDB = {
 ["characters"] = {
 ["Blawesum-EmeraldDream"] = {
 ["inventory"] = {
+[197748] = 4,
+[197741] = 10,
 [12184] = 1,
 },
 ["bank"] = {
+[197748] = 0,
+[197741] = 0,
 [12184] = 0,
 },
 },
@@ -41,6 +45,8 @@ CraftSimDB = {
 [124117] = 0,
 [124118] = 0,
 [12184] = 0,
+[197741] = 0,
+[197748] = 0,
 },
 },
 ["version"] = 3,
@@ -55,6 +61,11 @@ CraftSimDB = {
 ["data"] = {
 },
 },
+["craftQueueDB"] = {
+["version"] = 7,
+["data"] = {
+},
+},
 ["priceOverrideDB"] = {
 ["version"] = 1,
 ["data"] = {
@@ -62,11 +73,6 @@ CraftSimDB = {
 },
 ["globalOverrides"] = {
 },
-},
-},
-["craftQueueDB"] = {
-["version"] = 7,
-["data"] = {
 },
 },
 ["crafterDB"] = {
@@ -90,7 +96,7 @@ CraftSimDB = {
 ["CRAFTING_GARBAGE_COLLECTION_CRAFTS"] = 500,
 ["CRAFT_LOG_DISABLE"] = false,
 ["MONEY_FORMAT_USE_TEXTURES"] = false,
-["NEWS_CHECKSUM"] = 161,
+["NEWS_CHECKSUM"] = 114,
 ["CONCENTRATION_TRACKER_PINNED"] = false,
 ["CUSTOMER_HISTORY_REMOVAL_TIP_THRESHOLD"] = 0,
 ["RECIPESCAN_SORT_MODE"] = "PROFIT",
@@ -107,20 +113,20 @@ CraftSimDB = {
 ["CRAFT_LOG_SELECTED_RECIPE_REAGENT_COMBINATION_ID"] = {
 },
 ["TSM_PRICE_KEY_REAGENTS"] = "first(DBRecent, DBMinbuyout)",
-["COST_OPTIMIZATION_SUB_RECIPE_INCLUDE_CONCENTRATION"] = false,
+["PRICE_SOURCE"] = "TradeSkillMaster",
 ["COST_OPTIMIZATION_SUB_RECIPE_MAX_DEPTH"] = 1,
 ["GGUI_CONFIG"] = {
 },
-["CRAFTING_GARBAGE_COLLECTION_ENABLED"] = true,
-["REAGENT_OPTIMIZATION_TOP_PROFIT_ENABLED"] = false,
 ["CUSTOMER_HISTORY_AUTO_PURGE_LAST_PURGE"] = 0,
+["REAGENT_OPTIMIZATION_TOP_PROFIT_ENABLED"] = false,
+["CRAFTING_GARBAGE_COLLECTION_ENABLED"] = true,
 ["QUALITY_BREAKPOINT_OFFSET"] = false,
 ["DEBUG_VISIBLE"] = false,
 ["COOLDOWNS_FILTERED_EXPANSIONS"] = {
 [10] = true,
 },
 ["TSM_PRICE_KEY_ITEMS"] = "first(DBRecent, DBMinbuyout)",
-["PRICE_SOURCE"] = "TradeSkillMaster",
+["COST_OPTIMIZATION_SUB_RECIPE_INCLUDE_CONCENTRATION"] = false,
 ["CRAFT_LOG_AUTO_SHOW"] = true,
 },
 ["version"] = 14,

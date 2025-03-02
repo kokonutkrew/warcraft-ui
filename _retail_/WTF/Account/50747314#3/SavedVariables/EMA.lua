@@ -6,11 +6,11 @@ CoreProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -33,7 +33,7 @@ CoreProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -49,7 +49,7 @@ CoreProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -62,11 +62,11 @@ CommunicationsProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -79,7 +79,7 @@ CommunicationsProfileDB = {
 },
 ["Voidspeakerr - Emerald Dream"] = {
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 },
 ["Furyfistss - Emerald Dream"] = {
 },
@@ -87,7 +87,7 @@ CommunicationsProfileDB = {
 },
 ["Meki - Emerald Dream"] = {
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 },
 },
 }
@@ -98,11 +98,11 @@ TeamProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -151,9 +151,9 @@ TeamProfileDB = {
 },
 },
 ["Timecaster - Emerald Dream"] = {
+["master"] = "Timecaster-EmeraldDream",
 ["global"] = {
 },
-["master"] = "Timecaster-EmeraldDream",
 ["newTeamList"] = {
 ["Timecaster-EmeraldDream"] = {
 {
@@ -166,9 +166,9 @@ TeamProfileDB = {
 },
 },
 ["Voidspeakerr - Emerald Dream"] = {
-["master"] = "Voidspeakerr-EmeraldDream",
 ["global"] = {
 },
+["master"] = "Voidspeakerr-EmeraldDream",
 ["newTeamList"] = {
 ["Voidspeakerr-EmeraldDream"] = {
 {
@@ -180,16 +180,16 @@ TeamProfileDB = {
 },
 },
 },
-["Floide - Moon Guard"] = {
-["master"] = "Floide-MoonGuard",
+["Demolishes - Emerald Dream"] = {
+["master"] = "Demolishes-EmeraldDream",
 ["global"] = {
 },
 ["newTeamList"] = {
-["Floide-MoonGuard"] = {
+["Demolishes-EmeraldDream"] = {
 {
 ["order"] = 1,
-["class"] = "UNKNOWN",
-["name"] = "Floide-MoonGuard",
+["class"] = "WARLOCK",
+["name"] = "Demolishes-EmeraldDream",
 ["online"] = true,
 },
 },
@@ -240,16 +240,16 @@ TeamProfileDB = {
 },
 },
 },
-["Demolishes - Emerald Dream"] = {
-["master"] = "Demolishes-EmeraldDream",
+["Floide - Moon Guard"] = {
+["master"] = "Floide-MoonGuard",
 ["global"] = {
 },
 ["newTeamList"] = {
-["Demolishes-EmeraldDream"] = {
+["Floide-MoonGuard"] = {
 {
 ["order"] = 1,
-["class"] = "WARLOCK",
-["name"] = "Demolishes-EmeraldDream",
+["class"] = "UNKNOWN",
+["name"] = "Floide-MoonGuard",
 ["online"] = true,
 },
 },
@@ -264,11 +264,11 @@ TagProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -411,9 +411,9 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["tagList"] = {
-["Floide-MoonGuard"] = {
+["Demolishes-EmeraldDream"] = {
 "all",
 "master",
 },
@@ -523,9 +523,9 @@ TagProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["tagList"] = {
-["Demolishes-EmeraldDream"] = {
+["Floide-MoonGuard"] = {
 "all",
 "master",
 },
@@ -560,11 +560,11 @@ MessageProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -587,7 +587,7 @@ MessageProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -603,7 +603,7 @@ MessageProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -616,11 +616,11 @@ InformationProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -643,7 +643,7 @@ InformationProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -659,7 +659,7 @@ InformationProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -673,11 +673,11 @@ DisplayTeamProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -700,7 +700,7 @@ DisplayTeamProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -716,7 +716,7 @@ DisplayTeamProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -730,11 +730,11 @@ GuildProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -757,7 +757,7 @@ GuildProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -773,7 +773,7 @@ GuildProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -786,11 +786,11 @@ InteractionProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -813,7 +813,7 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -829,7 +829,7 @@ InteractionProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -842,14 +842,15 @@ ItemUseProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -934,9 +935,9 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Flameing - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 ["itemsAdvanced"] = {
@@ -1021,12 +1022,12 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Cyclonekk - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
+["frameYOffset"] = 70.00000762939453,
 ["global"] = {
 },
-["frameYOffset"] = 70.00000762939453,
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -1109,9 +1110,10 @@ ItemUseProfileDB = {
 ["kind"] = "empty",
 },
 },
-["itemUseTitleHeight"] = 2,
 },
 ["Timecaster - Emerald Dream"] = {
+["global"] = {
+},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -1195,185 +1197,9 @@ ItemUseProfileDB = {
 },
 },
 ["itemUseTitleHeight"] = 2,
-["global"] = {
-},
 },
 ["Voidspeakerr - Emerald Dream"] = {
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
 ["frameYOffset"] = 70.00000762939453,
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
-},
-["Floide - Moon Guard"] = {
-["itemUseTitleHeight"] = 2,
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-},
-["Furyfistss - Emerald Dream"] = {
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -1459,183 +1285,10 @@ ItemUseProfileDB = {
 ["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
-},
-["Smashest - Moon Guard"] = {
-["itemUseTitleHeight"] = 2,
-["frameYOffset"] = 70.00000762939453,
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-},
-["Meki - Emerald Dream"] = {
-["global"] = {
-},
-["itemsAdvanced"] = {
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-{
-["action"] = "empty",
-["kind"] = "empty",
-},
-},
-["itemUseTitleHeight"] = 2,
 },
 ["Demolishes - Emerald Dream"] = {
+["global"] = {
+},
 ["itemsAdvanced"] = {
 {
 ["action"] = "empty",
@@ -1719,6 +1372,353 @@ ItemUseProfileDB = {
 },
 },
 ["itemUseTitleHeight"] = 2,
+},
+["Furyfistss - Emerald Dream"] = {
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
+},
+["Smashest - Moon Guard"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["frameYOffset"] = 70.00000762939453,
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+},
+["Meki - Emerald Dream"] = {
+["itemUseTitleHeight"] = 2,
+["global"] = {
+},
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+},
+["Floide - Moon Guard"] = {
+["itemsAdvanced"] = {
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+{
+["action"] = "empty",
+["kind"] = "empty",
+},
+},
+["itemUseTitleHeight"] = 2,
 ["global"] = {
 },
 },
@@ -1731,11 +1731,11 @@ PurchaseProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -1758,7 +1758,7 @@ PurchaseProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -1774,7 +1774,7 @@ PurchaseProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -1787,11 +1787,11 @@ QuestProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -1814,7 +1814,7 @@ QuestProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -1830,7 +1830,7 @@ QuestProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -1843,11 +1843,11 @@ QuestWatcherProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -1870,7 +1870,7 @@ QuestWatcherProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -1886,7 +1886,7 @@ QuestWatcherProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -1899,11 +1899,11 @@ SellProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -1926,7 +1926,7 @@ SellProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -1942,7 +1942,7 @@ SellProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -1955,11 +1955,11 @@ TalkProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -1982,7 +1982,7 @@ TalkProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -1998,7 +1998,7 @@ TalkProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -2011,11 +2011,11 @@ ToonProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -2038,7 +2038,7 @@ ToonProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -2054,7 +2054,7 @@ ToonProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -2067,11 +2067,11 @@ TradeProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -2094,7 +2094,7 @@ TradeProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -2110,7 +2110,7 @@ TradeProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -2123,11 +2123,11 @@ MailProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -2150,7 +2150,7 @@ MailProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -2166,7 +2166,7 @@ MailProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },
@@ -2179,11 +2179,11 @@ BankProfileDB = {
 ["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
-["Floide - Moon Guard"] = "Floide - Moon Guard",
+["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
 ["Smashest - Moon Guard"] = "Smashest - Moon Guard",
 ["Meki - Emerald Dream"] = "Meki - Emerald Dream",
-["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
+["Floide - Moon Guard"] = "Floide - Moon Guard",
 },
 ["profiles"] = {
 ["Migget - Emerald Dream"] = {
@@ -2206,7 +2206,7 @@ BankProfileDB = {
 ["global"] = {
 },
 },
-["Floide - Moon Guard"] = {
+["Demolishes - Emerald Dream"] = {
 ["global"] = {
 },
 },
@@ -2222,7 +2222,7 @@ BankProfileDB = {
 ["global"] = {
 },
 },
-["Demolishes - Emerald Dream"] = {
+["Floide - Moon Guard"] = {
 ["global"] = {
 },
 },

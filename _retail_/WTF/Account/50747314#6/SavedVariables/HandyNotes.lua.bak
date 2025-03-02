@@ -1,19 +1,37 @@
 
 HandyNotesDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "Maliakk - Emerald Dream",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
+["Pvpscout - Area 52"] = "Pvpscout - Area 52",
 },
 ["profiles"] = {
+["Nbmgfigjreit - Emerald Dream"] = {
+},
 ["Maliakk - Emerald Dream"] = {
+},
+["Malias - Emerald Dream"] = {
+},
+["Pvpscout - Area 52"] = {
 },
 },
 }
 HandyNotes_HandyNotesDB = {
 ["profileKeys"] = {
+["Nbmgfigjreit - Emerald Dream"] = "Nbmgfigjreit - Emerald Dream",
 ["Maliakk - Emerald Dream"] = "Maliakk - Emerald Dream",
+["Malias - Emerald Dream"] = "Malias - Emerald Dream",
+["Pvpscout - Area 52"] = "Pvpscout - Area 52",
 },
 ["profiles"] = {
+["Nbmgfigjreit - Emerald Dream"] = {
+},
 ["Maliakk - Emerald Dream"] = {
+},
+["Malias - Emerald Dream"] = {
+},
+["Pvpscout - Area 52"] = {
 },
 },
 }

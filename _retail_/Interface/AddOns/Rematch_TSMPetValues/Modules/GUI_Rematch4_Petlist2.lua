@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- GUI_Rematch4_Petlist2.lua - Item value in pet list (for Rematch v4)
 --
--- Author: Expelliarm5s / August 2024 / All Rights Reserved
+-- Author: Expelliarm5s / November 2024 / All Rights Reserved
 --
--- Version 1.2.6
+-- Version 1.2.7
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 -- luacheck: globals Rematch RematchPetPanel

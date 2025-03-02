@@ -1,4 +1,4 @@
-local E, L, C = select(2, ...):unpack()
+local E, L, C = unpack(select(2, ...))
 
 local PS = CreateFrame("Frame")
 LibStub("AceSerializer-3.0"):Embed(PS)
@@ -77,7 +77,7 @@ function PS:ShowProfileDialog(text) -- XXX don't share dialog w/ OmniCD
 		end)
 
 		-- Label
-		local Label = Dialog:CreateFontString(nil, "ARTWORK", "GameFontNormal-OmniCD")
+		local Label = Dialog:CreateFontString(nil, "ARTWORK", "GameFontNormal-OmniCDC")
 		Label:SetPoint("TOP", 0, -1)
 
 		-- Button
@@ -180,7 +180,7 @@ function PS:ShowProfileDialog(text) -- XXX don't share dialog w/ OmniCD
 		EditBox:SetSize(ScrollFrame:GetSize())
 		EditBox:SetMultiLine(true)
 		EditBox:SetAutoFocus(false)
-		EditBox:SetFontObject("GameFontHighlight-OmniCD") -- ChatFontNormal
+		EditBox:SetFontObject("GameFontHighlight-OmniCDC") -- ChatFontNormal
 		EditBox:SetScript("OnEscapePressed", function(self)
 			self:ClearFocus()
 		end)
@@ -267,7 +267,7 @@ function PS:Decode(encodedData)
 	end
 
 	local profileSrc, profileType, profileKey = strsplit("|", appendage, 3)
-	if profileSrc ~= "OmniAuras" then
+	if profileSrc ~= E.AddOn then
 		ErrorMessage(L["Not an OmniAuras profile!"])
 		return
 	end
@@ -294,7 +294,7 @@ function PS:CopyCustomSpells(profileData)
 	end
 end
 
-function PS:CopyProfile(profileType, profileKey, profileData)
+function PS:CopyProfile(_, profileKey, profileData)
 	OmniAurasDB.profiles[profileKey] = profileData
 
 	E.DB:SetProfile(profileKey)

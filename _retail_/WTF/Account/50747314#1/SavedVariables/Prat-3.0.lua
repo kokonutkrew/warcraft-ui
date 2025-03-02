@@ -26,10 +26,9 @@ Prat3DB = {
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
-["minchatwidthdefault"] = 249.9999847412109,
-["maxchatheightdefault"] = 799.9999389648438,
+["minchatwidthdefault"] = 250.0000152587891,
+["maxchatheightdefault"] = 800,
 ["initialized"] = true,
-["maxchatwidthdefault"] = 799.9999389648438,
 },
 },
 },
@@ -37,29 +36,29 @@ Prat3DB = {
 },
 ["Prat_History"] = {
 },
-["Prat_KeyBindings"] = {
+["Prat_Bubbles"] = {
 },
 ["Prat_Font"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_KeyBindings"] = {
 },
-["Prat_NewcomersChat"] = {
-},
-["Prat_UrlCopy"] = {
+["Prat_Sounds"] = {
 },
 ["Prat_DebugModules"] = {
 },
-["Prat_Achievements"] = {
-},
 ["Prat_Timestamps"] = {
 },
+["Prat_Achievements"] = {
+},
 ["Prat_Alias"] = {
+},
+["Prat_NewcomersChat"] = {
 },
 ["Prat_OriginalButtons"] = {
 },
 ["Prat_Highlight"] = {
 },
-["Prat_Paragraph"] = {
+["Prat_ChannelNames"] = {
 },
 ["Prat_ChannelSticky"] = {
 },
@@ -67,7 +66,7 @@ Prat3DB = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_ChannelNames"] = {
+["Prat_Paragraph"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -75,7 +74,7 @@ Prat3DB = {
 },
 ["Prat_Buttons"] = {
 },
-["Prat_Sounds"] = {
+["Prat_UrlCopy"] = {
 },
 ["Prat_HoverTips"] = {
 },
@@ -83,11 +82,12 @@ Prat3DB = {
 ["profileKeys"] = {
 ["Blanchyy - Emerald Dream"] = "Default",
 ["Ascholokk - Emerald Dream"] = "Default",
+["Okkoa - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["Alias"] = 2,
+["ChatLog"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -97,7 +97,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["ChatLog"] = 2,
+["Alias"] = 2,
 },
 },
 },

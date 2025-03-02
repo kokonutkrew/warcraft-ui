@@ -15,29 +15,64 @@ WeakAurasSaved = {
 ["borderBackdrop"] = "Blizzard Tooltip",
 ["authorOptions"] = {
 },
-["information"] = {
-["groupOffset"] = true,
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
+["load"] = {
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["zoneIds"] = "",
+["use_class"] = false,
+["role"] = {
+["multi"] = {
+},
+},
+["difficulty"] = {
+["multi"] = {
+},
+},
+["faction"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["race"] = {
+["multi"] = {
+},
+},
+["pvptalent"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["border"] = false,
 ["borderEdge"] = "None",
 ["regionType"] = "group",
 ["borderSize"] = 16,
-["internalVersion"] = 78,
+["borderOffset"] = 5,
 ["borderColor"] = {
 1,
 1,
 1,
 0.5,
 },
-["xOffset"] = 0,
+["scale"] = 1,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -62,93 +97,58 @@ WeakAurasSaved = {
 ["activeTriggerMode"] = -10,
 },
 ["yOffset"] = 0,
-["borderOffset"] = 5,
-["selfPoint"] = "BOTTOMLEFT",
+["internalVersion"] = 82,
+["anchorPoint"] = "CENTER",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["duration_type"] = "seconds",
+["type"] = "none",
 ["easeStrength"] = 3,
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["duration_type"] = "seconds",
+["type"] = "none",
 ["easeStrength"] = 3,
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["duration_type"] = "seconds",
+["type"] = "none",
 ["easeStrength"] = 3,
 ["easeType"] = "none",
 },
 },
 ["id"] = "WarucksTotalSilence",
-["alpha"] = 1,
+["borderInset"] = 11,
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["uid"] = "(uFUFXW1YXY",
 ["config"] = {
 },
-["borderInset"] = 11,
-["uid"] = "(uFUFXW1YXY",
-["anchorPoint"] = "CENTER",
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
 ["conditions"] = {
 },
-["load"] = {
-["talent"] = {
-["multi"] = {
+["information"] = {
+["ignoreOptionsEventErrors"] = true,
+["forceEvents"] = true,
+["groupOffset"] = true,
+},
+["xOffset"] = 0,
 },
 },
-["class"] = {
-["multi"] = {
+["registered"] = {
 },
-},
-["size"] = {
-["multi"] = {
-},
-},
-["use_class"] = false,
-["role"] = {
-["multi"] = {
-},
-},
-["pvptalent"] = {
-["multi"] = {
-},
-},
-["faction"] = {
-["multi"] = {
-},
-},
-["race"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["difficulty"] = {
-["multi"] = {
-},
-},
-["zoneIds"] = "",
-},
-["scale"] = 1,
-},
-},
-["login_squelch_time"] = 10,
-["lastArchiveClear"] = 1730276471,
+["lastArchiveClear"] = 1739051399,
 ["minimap"] = {
 ["hide"] = false,
 },
-["lastUpgrade"] = 1730276530,
-["dbVersion"] = 78,
+["lastUpgrade"] = 1739051405,
+["dbVersion"] = 82,
 ["migrationCutoff"] = 730,
-["registered"] = {
-},
-["historyCutoff"] = 730,
 ["features"] = {
 },
+["login_squelch_time"] = 10,
+["historyCutoff"] = 730,
 }

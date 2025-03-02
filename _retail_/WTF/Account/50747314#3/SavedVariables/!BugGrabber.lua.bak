@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 62,
 ["lastSanitation"] = 3,
-["session"] = 61,
 ["errors"] = {
 {
 ["message"] = "...lizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua:235: script ran too long",
@@ -172,12 +172,20 @@ BugGrabberDB = {
 ["counter"] = 1099,
 },
 {
+["message"] = "...ace/AddOns/ActionbarPlus/Core/Lib/Common/Profile.lua:402: bad argument #1 to 'pairs' (table expected, got nil)",
+["time"] = "2024/11/04 15:47:49",
+["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
+["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionbarPlus/Core/Lib/Common/Profile.lua\"]:402: in function `FindButtonsByType'\n[string \"@Interface/AddOns/ActionbarPlus/Core/Lib/Widget/MacroEventsHandler.lua\"]:123: in function <...ActionbarPlus/Core/Lib/Widget/MacroEventsHandler.lua:122>\n[string \"@Interface/AddOns/ActionbarPlus/Core/Lib/Widget/MacroEventsHandler.lua\"]:138: in function <...ActionbarPlus/Core/Lib/Widget/MacroEventsHandler.lua:133>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `EditMacro'\n[string \"@Interface/AddOns/Guild_Roster_Manager/GRM_Core.lua\"]:8557: in function `CreateMacro'\n[string \"@Interface/AddOns/Guild_Roster_Manager/GRM_Core.lua\"]:28664: in function <Interface/AddOns/Guild_Roster_Manager/GRM_Core.lua:28652>",
+["session"] = 62,
+["counter"] = 1,
+},
+{
 ["message"] = "Interface/AddOns/RecklessAbandon/Core/Core.lua:501: attempt to index field 'debugging' (a nil value)",
 ["time"] = "2024/08/17 17:09:02",
 ["locals"] = "self = <table> {\n IsRetail = true\n mylevel = 35\n resolution = \"1920x1061\"\n modules = <table> {\n }\n screenwidth = 1920\n github = \"https://github.com/MotherGinger/RecklessAbandon/issues\"\n callbacks = <table> {\n }\n data = <table> {\n }\n db = <table> {\n }\n Options = <table> {\n }\n validVersion = 1\n name = \"RecklessAbandon\"\n classIcons = <table> {\n }\n DF = <table> {\n }\n locale = \"enUS\"\n wowVersionMatrix = <table> {\n }\n mynameRealm = \"Deathscar - Emerald Dream\"\n wowbuild = 56162\n baseName = \"RecklessAbandon\"\n title = \"|cFF80528CReckless Abandon|r\"\n screenheight = 1061\n logLevels = <table> {\n }\n charSettings = <table> {\n }\n myname = \"Deathscar\"\n author = \"Arrila-Thrall (US)\"\n classColors = <table> {\n }\n wowpatch = \"11.0.2\"\n initialized = true\n myguid = \"Player-162-0BE6987F\"\n loadedtime = 286172.928000\n enabledState = true\n global = <table> {\n }\n myrealm = \"Emerald Dream\"\n privateVars = <table> {\n }\n defaultModuleLibraries = <table> {\n }\n defaultModuleState = true\n orderedModules = <table> {\n }\n version = \"2.0.3\"\n private = <table> {\n }\n LibsMinor = <table> {\n }\n Libs = <table> {\n }\n isMacClient = false\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'debugging' (a nil value)\"\nL = <table> {\n About = \"About\"\n Left Click: Abandon all quests = \"Left Click: Abandon all quests\"\n Enable |cff888888/reckless exclude <questID>|r = \"Enable |cff888888/reckless exclude <questID>|r\"\n Adjust the amount of messages you will receive from actions taken against your quest log. = \"Adjust the amount of messages you will receive from actions taken against your quest log.\"\n Debug Settings = \"Debug Settings\"\n Quest Type = \"Quest Type\"\n Slash Commands = \"Slash Commands\"\n Enable |cff888888/reckless abandon <questID>|r = \"Enable |cff888888/reckless abandon <questID>|r\"\n Automatically abandon quests of the given type if they are included in group abandons. = \"Automatically abandon quests of the given type if they are included in group abandons.\"\n Abandoning quests from the command line is currently |cFFFF6B6Bdisabled|r. You can enable it in the configuration settings |cff888888/reckless config|r = \"Abandoning quests from the command line is currently |cFFFF6B6Bdisabled|r. You can enable it in the configuration settings |cff888888/reckless config|r\"\n covenant callings = \"covenant callings\"\n %s is already excluded from group abandons! = \"%s is already excluded from group abandons!\"\n Configuration = \"Configuration\"\n Excluding quests from the command line is currently |cFFFF6B6Bdisabled|r. You can enable it in the configuration settings |cff888888/reckless config|r = \"Excluding quests from the command line is currently |cFFFF6B6Bdisabled|r. You can enable it in the configuration settings |cff888888/reckless config|r\"\n Campaign Quests = \"Campaign Quests\"\n Matches all red quests. = \"Matches all red quests.\"\n Enable |cff888888/reckless list all|r = \"Enable |cff888888/reckless list all|r\"\n |cFFFF6B6BCaution: This can cause you to accidently toggle exclusion of a quest from group abandons when trying to track a quest in your quest log.|r = \"|cFFFF6B6BCaution: This can cause you to accidently toggle exclusion of a quest from group abandons when trying to track a quest in your quest log.|r\"\n Are you sure you want to abandon all quests in |cFFF2E699%s|r? = \"Are you sure you want to abandon all quests in |cFFF2E699%s|r?\"\n |cFFFF6B6BCaution: This can cause you to accidently abandon all quests in a zone when trying to expand a zone header in your quest log.|r = \"|cFFFF6B6BCaution: This can cause you to accidently abandon all quests in a zone when trying to expand a zone header in your quest log.|r\"\n Abandon Quest = \"Abandon Quest\"\n |cFFFFF569Warning:|r This command abandons all quests in your quest log that are not excluded from group abandons, use it wisely. = \"|cFFFFF569Warning:|r This command abandons all quests in your quest log that are not excluded from group abandons, use it wisely.\"\n Version = \"Version\"\n Are you sure you want to bind %s? = \"Are you sure you ",
 ["stack"] = "[string \"@Interface/AddOns/RecklessAbandon/Core/Core.lua\"]:501: in function `Debug'\n[string \"@Interface/AddOns/RecklessAbandon/Core/Core.lua\"]:580: in function `GenerateQuestTable'\n[string \"@Interface/AddOns/RecklessAbandon/Core/Core.lua\"]:896: in function <Interface/AddOns/RecklessAbandon/Core/Core.lua:895>\n[string \"=[C]\"]: ?",
-["session"] = 61,
-["counter"] = 126,
+["session"] = 62,
+["counter"] = 127,
 },
 },
 }

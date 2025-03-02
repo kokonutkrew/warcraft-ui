@@ -1,6 +1,4 @@
-local E = select(2,...):unpack()
-
-local GetSpellInfo = C_Spell and C_Spell.GetSpellName or GetSpellInfo
+local E = unpack(select(2, ...))
 
 -- [spellId]={[1]=auraClass,[2]=auraType,[3]=CLASS_SORT_ORDER,[4]=mergedAuraIDs,[5]=duration,[6]=iconTexture}
 E.aura_db={
@@ -118,7 +116,7 @@ E.aura_db={
 		[99]={"hardCC","incapacitate",7}, -- Incapacitating Roar
 		[3355]={"hardCC","incapacitate",11,203337}, -- Freezing Trap (nl, SV HT - Diamond Ice)
 		[213691]={"hardCC","incapacitate",11}, -- Scatter Shot
-		[118]={"hardCC","incapacitate",9,{61305,28272,61721,61780,126819,161353,161354,161355,161372,28271,61025,277787,277792,391622,383121}}, -- Polymorph (sheep,black cat,pig,rabbit,turkey,porcupine,bear cub,monkey,penguin,peacock,turtle,serpent,direhorn,bumblebee,duck,mass polymorph)
+		[118]={"hardCC","incapacitate",9,{61305,28272,61721,61780,126819,161353,161354,161355,161372,28271,61025,277787,277792,321395,391622,383121,460392}}, -- Polymorph (sheep,black cat,pig,rabbit,turkey,porcupine,polar bear cub,monkey,penguin,peacock,turtle,serpent,direhorn,bumblebee,mawrat,duck,mass polymorph,mosswool)
 		[82691]={"hardCC","incapacitate",9}, -- Ring of Frost
 		[115078]={"hardCC","incapacitate",4}, -- Paralysis
 		[20066]={"hardCC","incapacitate",3}, -- Repentance
@@ -192,7 +190,7 @@ E.aura_db={
 		[356356]={"disarmRoot","root",1}, -- Warbringer
 		[376080]={"disarmRoot","root",1,307871}, -- Spear of Bastion (DF Talent, SL Kyrian)
 		[199042]={"disarmRoot","root",1}, -- Thunderstruck
-		[424752]={"disarmRoot","root",1}, -- Piercing Howl (w/ Battlefield Commander pvp talent)
+--		[424752]={"disarmRoot","root",1}, -- Piercing Howl (w/ Battlefield Commander pvp talent) -- 11.0 root effect removed
 --		[354051]={"disarmRoot","root",}, -- Nimble Steps (SL soulbind)
 
 		-- Dispel prio / protection
@@ -365,7 +363,7 @@ E.aura_db={
 		[408558]={"immunity","immunity",5}, -- Phase Shift -- Patch 10.1 new
 
 		-- Spell Immunities (includes CC)
-		[48707]={"spellImmunity","spellImmunity",2,410358,444741}, -- Anti-Magic Shell, w/ Spellwarden (HT) -- Patch 10.1 new -- Horseman's Aid (RIDER OF THE APOCALYPSE hero talent)
+		[48707]={"spellImmunity","spellImmunity",2,{410358,444741}}, -- Anti-Magic Shell, w/ Spellwarden (HT) -- Patch 10.1 new -- Horsemen's Aid (RIDER OF THE APOCALYPSE hero talent)
 		[248519]={"spellImmunity","spellImmunity",11}, -- Interlope (aura is applied on both player and pet,same id) trigger id == dmamge transfering id
 		[202248]={"spellImmunity","spellImmunity",4}, -- Guided Meditation
 		[353319]={"spellImmunity","spellImmunity",4}, -- Peaceweaver (HT) -- doesn't provide immu w/ mindgames (revival healing will dmg you)
@@ -379,12 +377,12 @@ E.aura_db={
 		-- CC Immunities
 		[354610]={"otherImmunity","ccImmunity",12}, -- Glimpse (HT)
 		[378464]={"otherImmunity","ccImmunity",13}, -- Nullifying Shroud (HT)
-		[357210]={"otherImmunity","ccImmunity",13, 433874}, -- Deep Breath (w/ Maneuverability (Scalecommander hero talent)
+		[357210]={"otherImmunity","ccImmunity",13,433874}, -- Deep Breath (w/ Maneuverability (Scalecommander hero talent)
 		[359816]={"otherImmunity","ccImmunity",13}, -- Dream Flight
 		[213664]={"otherImmunity","ccImmunity",4,354540}, -- Nimble Brew (HT - BM) (DF version,old version)
 		[213610]={"otherImmunity","ccImmunity",5}, -- Holy Ward (immune cc,purgable)
 		[269513]={"otherImmunity","ccImmunity",8}, -- Death from Above
-		[227847]={"otherImmunity","ccImmunity",1,46924}, -- Bladestorm (A,F -- removed)
+		[227847]={"otherImmunity","ccImmunity",1,{46924,446035}}, -- Bladestorm (A,F)
 --		[362699]={"otherImmunity","ccImmunity",}, -- Gladiator's Resolve (both Echoing Resolve & Fastidious Resolve)
 --		[323524]={"otherImmunity","ccImmunity",}, -- Ultimate Form (SL Necrolord soulbind)
 		[377362]={"otherImmunity","ccImmunity"}, -- Precognition (DF HT)
@@ -550,6 +548,7 @@ E.aura_db={
 		[63560]={"offensive","minorOffensive",2}, -- Dark Transformation (buff on Ghoul)
 		[47568]={"offensive","minorOffensive",2}, -- Empower Rune Weapon
 		[42650]={"offensive","minorOffensive",2}, -- Army of the Dead (summoning)
+		[440861]={"offensive","minorOffensive",2}, -- A Feast of Souls (Rider of the Apocalypse hero talent)
 --		[152279]={"offensive","minorOffensive",2}, -- Breath of Sindragosa (no duration)
 --		[311648]={"offensive","minorOffensive",2}, -- Swarming Mist (SL Venthyr)
 --		[321995]={"offensive","minorOffensive",2}, -- Hypothermic Presence -- removed
@@ -681,7 +680,7 @@ E.aura_db={
 		[452684]={"offensive","minorOffensive",4}, -- Wisdom of the Wall (Shadow-pan hero talent) [Critical strikes deal an additional 30% damage]
 		[247483]={"offensive","minorOffensive",4}, -- Tigereye Brew (no cd)
 		--[248646]={"offensive","minorOffensive",4}, -- Tigereye Brew (stacks)
-		[325202]={"offensive","minorOffensive",4, 438443}, -- Dance of chi-Ji (talent, 10.2.6 talent)
+		[325202]={"offensive","minorOffensive",4,438443}, -- Dance of chi-Ji (talent, 10.2.6 talent)
 		[457280]={"offensive","minorOffensive",8}, -- Darkest Night (Deathstalker hero talent)
 --		[256735]={"offensive","minorOffensive",8}, -- Master Assassin
 --		[193359]={"offensive","minorOffensive",8}, -- x0.5 True Bearing (CD reduction +1s/combo)
@@ -801,7 +800,7 @@ E.aura_db={
 		-- Hot/Stack
 		[392360]={"buff","hotStack",7,363813}, -- Reforestation (Ephemeral Blossom - DF Talent, SL 4 set bonus) - 3stack=tree
 		[203554]={"buff","hotStack",7}, -- Focused Growth (stacks)
-		[33763]={"buff","hotStack",7}, -- Lifebloom
+		[33763]={"buff","hotStack",7,188550}, -- Lifebloom (TWW-no stack)
 		[363534]={"buff","hotStack",13}, -- Rewind
 		[360827]={"buff","hotStack",13}, -- Blistering Scales
 		[414196]={"buff","hotStack",3}, -- Awakening
@@ -836,14 +835,17 @@ E.aura_db={
 	["PVE"]={
 		[277242]={"base","npc",}, -- Symbiote of G'huun -- it's been so long...
 		[61573]={"base","npc",}, -- Banner of the Alliance (Training Dummy in Org)
+		[61574]={"base","npc",}, -- Banner of the Horde (Training Dummy in Stormwind)
 	}
 }
 
+--[==[@debug@
 for k,v in pairs(E.aura_db) do
 	for id in pairs(v) do
-		if (not GetSpellInfo(id)) then
+		if (not C_Spell.GetSpellName(id)) then
 			E.aura_db[k][id]=nil
---			E.write("Removing Invalid ID |cffffd200" .. id)
+			E.write("Removing invalid auraID |cffffd200" .. id)
 		end
 	end
 end
+--@end-debug@]==]

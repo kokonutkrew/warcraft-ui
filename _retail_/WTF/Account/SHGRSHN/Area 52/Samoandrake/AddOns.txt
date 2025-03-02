@@ -171,3 +171,9 @@ OmniCD: enabled
 RareScanner: enabled
 Train-All: enabled
 ZygorGuidesViewer: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+BigWigs_KhazAlgar: enabled
+CraftScan: disabled
+ItemRackOptions: enabled

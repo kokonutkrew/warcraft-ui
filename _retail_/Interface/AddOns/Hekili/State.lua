@@ -1,5 +1,5 @@
 -- State.lua
--- July 2024
+-- January 2025
 
 local addon, ns = ...
 local Hekili = _G[ addon ]
@@ -1175,18 +1175,21 @@ state.removeDebuff = removeDebuff
 
 local function removeDebuffStack( unit, aura, stacks )
     stacks = stacks or 1
-
     local d = state.debuff[ aura ]
+    if not d then return 0 end
 
-    if not d then return end
+    local removed = min( stacks, d.count )
 
     if d.count > stacks then
         d.lastCount = d.count
-        d.count = max( 1, d.count - stacks )
+        d.count = max( 0, d.count - stacks )
     else
         removeDebuff( unit, aura )
     end
+
+    return removed
 end
+
 state.removeDebuffStack = removeDebuffStack
 
 
@@ -1210,7 +1213,7 @@ local function timeToInterrupt()
     local casting = state.debuff.casting
     if casting.down or casting.v2 == 1 then return 3600 end
     if casting.v3 == 1 then return 0 end
-    return max( 0, casting.remains - 0.25 )
+    return max( 0, casting.remains - ( Hekili.DB.profile.toggles.interrupts.castRemainingThreshold or 0.25 ) )
 end
 state.timeToInterrupt = timeToInterrupt
 
@@ -1395,7 +1398,7 @@ do
     -- Increase max forecast duration because Assassination is pooling hard this tier.
     local FORECAST_DURATION = 10.01
 
-    forecastResources = function ( resource )
+    forecastResources = function( resource )
         if not resource then return end
 
         -- Initialize or wipe tables
@@ -1418,9 +1421,9 @@ do
         -- Initialize forecast tables
         remains[ resource ] = timeout
 
-
         wipe( r.times )
         wipe( r.values )
+
         r.forecast[ 1 ] = r.forecast[ 1 ] or {}
         r.forecast[ 1 ].t = now
         r.forecast[ 1 ].v = r.actual
@@ -1443,8 +1446,8 @@ do
                    ( not v.channel or state.buff.casting.up and state.buff.casting.v3 == 1 and state.buff.casting.v1 == class.abilities[ v.channel ].id ) then
 
                     local l = v.last()
-                    local i = type( v.interval ) == "number" and v.interval or 
-                              ( type( v.interval ) == "function" and v.interval( now, r.actual ) or 
+                    local i = type( v.interval ) == "number" and v.interval or
+                              ( type( v.interval ) == "function" and v.interval( now, r.actual ) or
                               ( type( v.interval ) == "string" and state[ v.interval ] or 0 ) )
 
                     v.next = l + i
@@ -1628,8 +1631,8 @@ do
             if type( x ) == "number" then
                 if x > 0 and x >= state.delayMin and x <= state.delayMax then
                     t[ x ] = true
-                -- elseif x < 60 then
-                --     if Hekili.ActiveDebug then Hekili:Debug( "Excluded %.2f recheck time as it is outside our constraints ( %.2f - %.2f ).", x, state.delayMin or -1, state.delayMax or -1 ) end
+                elseif Hekili.ActiveDebug and x < 60 then
+                    Hekili:Debug( "Excluded %.2f recheck time as it is outside our constraints ( %.2f - %.2f ).", x, state.delayMin or -1, state.delayMax or -1 )
                 end
             end
         end
@@ -2939,6 +2942,8 @@ do
             elseif k == "moving" then t[k] = GetUnitSpeed( "target" ) > 0
             elseif k == "real_ttd" then t[k] = Hekili:GetTTD( "target" )
             elseif k == "time_to_die" then
+                if state.IsCycling() then return state.raid_event.adds.remains end
+
                 local ttd = t.real_ttd
                 if ttd == 3600 then t[k] = ttd
                 else return max( 1, t.real_ttd - ( state.offset + state.delay ) ) end
@@ -3499,7 +3504,7 @@ function state:TimeToResource( t, amount )
     local queryTime = state.query_time
     local deficit = amount - t.current
 
-    -- Handle rune-specific logic.
+    --[[ Handle rune-specific logic.
     if t.resource == "runes" then
         local totalTime = 0
 
@@ -3512,7 +3517,7 @@ function state:TimeToResource( t, amount )
             end
         end
         return totalTime
-    end
+    end ]]
 
     -- Handle tick-based resources (e.g., energy, focus).
     if t.resource == "energy" or t.resource == "focus" then
@@ -3977,6 +3982,9 @@ do
             elseif k == "stack_pct" then
                 if t.remains == 0 then return 0 end
                 return ( 100 * t.stack / t.max_stack )
+
+            elseif k == "at_max_stacks" then
+                return t.stack_pct >= 100
 
             elseif k == "ticks" then
                 if t.remains == 0 then return 0 end
@@ -7142,6 +7150,8 @@ function state:IsKnown( sID )
 
     if IsAbilityDisabled( ability ) then return false, "not usable here" end
 
+    local z -- scratch variable
+
     if sID < 0 then
         if ability.known ~= nil then
             if type( ability.known ) == "number" then
@@ -7167,20 +7177,48 @@ function state:IsKnown( sID )
         return false, "spec [ " .. ability.nospec .. " ] disallowed"
     end
 
-    if ability.talent and not state.talent[ ability.talent ].enabled then
-        return false, "talent [ " .. ability.talent .. " ] missing"
+    z = ability.talent
+    if type( z ) == "table" then
+        for _, v in ipairs( z ) do
+            if not state.talent[ v ].enabled then
+                return false, "talent [ " .. v .. " ] missing"
+            end
+        end
+    elseif z and not state.talent[ z ].enabled then
+        return false, "talent [ " .. z .. " ] missing"
     end
 
-    if ability.notalent and state.talent[ ability.notalent ].enabled then
-        return false, "talent [ " .. ability.notalent .. " ] disallowed"
+    z = ability.notalent
+    if type( z ) == "table" then
+        for _, v in ipairs( z ) do
+            if state.talent[ v ].enabled then
+                return false, "talent [ " .. v .. " ] disallowed"
+            end
+        end
+    elseif z and state.talent[ z ].enabled then
+        return false, "talent [ " .. z .. " ] disallowed"
     end
 
-    if ability.pvptalent and not state.pvptalent[ ability.pvptalent ].enabled then
-        return false, "PvP talent [ " .. ability.pvptalent .. " ] missing"
+    z = ability.pvptalent
+    if type( z ) == "table" then
+        for _, v in ipairs( z ) do
+            if not state.pvptalent[ v ].enabled then
+                return false, "PvP talent [ " .. v .. " ] missing"
+            end
+        end
+    elseif z and not state.pvptalent[ z ].enabled then
+        return false, "PvP talent [ " .. z .. " ] missing"
     end
 
-    if ability.nopvptalent and state.pvptalent[ ability.nopvptalent ].enabled then
-        return false, "PvP talent [ " ..ability.nopvptalent .. " ] disallowed"
+    z = ability.nopvptalent
+    if type( z ) == "table" then
+        for _, v in ipairs( z ) do
+            if state.pvptalent[ v ].enabled then
+                return false, "PvP talent [ " .. v .. " ] disallowed"
+            end
+        end
+    elseif z and state.pvptalent[ z ].enabled then
+        return false, "PvP talent [ " .. z .. " ] disallowed"
     end
 
     if ability.trait and not state.artifact[ ability.trait ].enabled then
@@ -7327,6 +7365,7 @@ do
         end
 
         local profile = Hekili.DB.profile
+        local z -- scratch variable
 
         if self.rangefilter and UnitExists( "target" ) then
             if LSR.IsSpellInRange( ability.rangeSpell or ability.id, "target" ) == 0 then
@@ -7376,12 +7415,26 @@ do
             return false, "not usable in current form (" .. ability.noform .. ")"
         end
 
-        if ability.buff and not state.buff[ ability.buff ].up then
-            return false, "required buff (" .. ability.buff .. ") not active"
+        z = ability.buff
+        if type( z ) == "table" then
+            for _, v in ipairs( z ) do
+                if not state.buff[ v ].up then
+                    return false, "required buff (" .. v .. ") not active"
+                end
+            end
+        elseif z and not state.buff[ z ].up then
+            return false, "required buff (" .. z .. ") not active"
         end
 
-        if ability.debuff and not state.debuff[ ability.debuff ].up then
-            return false, "required debuff (" ..ability.debuff .. ") not active"
+        z = ability.debuff
+        if type( z ) == "table" then
+            for _, v in ipairs( z ) do
+                if not state.debuff[ v ].up then
+                    return false, "required debuff (" .. v .. ") not active"
+                end
+            end
+        elseif z and not state.debuff[ z ].up then
+            return false, "required debuff (" .. z .. ") not active"
         end
 
         if ability.channeling then
@@ -7491,6 +7544,21 @@ function state:TimeToReady( action, pool )
     local wait = self.cooldown[ action ].remains
     local ability = class.abilities[ action ]
 
+    -- Early exit for timeToReadyOverride. This is to fix the fact that some spells show as unavailable in game even though
+    -- the addon knows that it will become available on the next GCD due to a guaranteed buff/proc
+    --[[ Commenting out for now. After 11.1 review is finished we can revisit
+    if ability.timeToReadyOverride then
+        local override = ability.timeToReadyOverride
+        if override ~= nil then
+            override = max( override, self.cooldown.global_cooldown.remains )
+            if Hekili.ActiveDebug then
+                Hekili:Debug( "%s has a timeToReadyOverride. Returning %.2f.", action, override )
+            end
+            return max( override, self.delayMin )
+        end
+    end
+    --]]
+
     -- Working variable.
     local z = ability.id
 
@@ -7547,15 +7615,33 @@ function state:TimeToReady( action, pool )
     end
 
     z = ability.nobuff
-    z = z and self.buff[ z ].remains
-    if z and z > wait then
-        wait = z
+    if type( z ) == "table" then
+        for _, v in ipairs( z ) do
+            z = self.buff[ v ].remains
+            if z and z > wait then
+                wait = z
+            end
+        end
+    else
+        z = z and self.buff[ z ].remains
+        if z and z > wait then
+            wait = z
+        end
     end
 
     z = ability.nodebuff
-    z = z and self.debuff[ z ].remains
-    if z and z > wait then
-        wait = z
+    if type( z ) == "table" then
+        for _, v in ipairs( z ) do
+            z = self.debuff[ v ].remains
+            if z and z > wait then
+                wait = z
+            end
+        end
+    else
+        z = z and self.debuff[ z ].remains
+        if z and z > wait then
+            wait = z
+        end
     end
 
     --[[ Need to house this in an encounter module, really.

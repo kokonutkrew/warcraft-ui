@@ -30,6 +30,14 @@ CraftSimDB = {
 [12184] = 0,
 },
 },
+["Dazzledame-EmeraldDream"] = {
+["inventory"] = {
+[194730] = 1,
+},
+["bank"] = {
+[194730] = 0,
+},
+},
 ["Sphinx-EmeraldDream"] = {
 ["inventory"] = {
 [124117] = 3,
@@ -43,6 +51,7 @@ CraftSimDB = {
 },
 ["accountBank"] = {
 [124117] = 0,
+[194730] = 0,
 [124118] = 0,
 [12184] = 0,
 [197748] = 0,
@@ -67,7 +76,7 @@ CraftSimDB = {
 ["CRAFTING_GARBAGE_COLLECTION_CRAFTS"] = 500,
 ["CRAFT_LOG_DISABLE"] = false,
 ["MONEY_FORMAT_USE_TEXTURES"] = false,
-["NEWS_CHECKSUM"] = 161,
+["NEWS_CHECKSUM"] = 114,
 ["CONCENTRATION_TRACKER_PINNED"] = false,
 ["CUSTOMER_HISTORY_REMOVAL_TIP_THRESHOLD"] = 0,
 ["RECIPESCAN_SORT_MODE"] = "PROFIT",
@@ -81,9 +90,9 @@ CraftSimDB = {
 ["COST_OPTIMIZATION_AUTOMATIC_SUB_RECIPE_OPTIMIZATION"] = false,
 ["OPEN_LAST_RECIPE"] = true,
 ["CRAFT_LOG_AUTO_SHOW"] = true,
-["PRICE_SOURCE"] = "TradeSkillMaster",
-["TSM_PRICE_KEY_REAGENTS"] = "first(DBRecent, DBMinbuyout)",
 ["COST_OPTIMIZATION_SUB_RECIPE_INCLUDE_CONCENTRATION"] = false,
+["TSM_PRICE_KEY_REAGENTS"] = "first(DBRecent, DBMinbuyout)",
+["PRICE_SOURCE"] = "TradeSkillMaster",
 ["TSM_PRICE_KEY_ITEMS"] = "first(DBRecent, DBMinbuyout)",
 ["GGUI_CONFIG"] = {
 },
@@ -91,10 +100,10 @@ CraftSimDB = {
 [10] = true,
 },
 ["REAGENT_OPTIMIZATION_TOP_PROFIT_ENABLED"] = false,
-["CRAFTING_GARBAGE_COLLECTION_ENABLED"] = true,
+["CUSTOMER_HISTORY_AUTO_PURGE_LAST_PURGE"] = 0,
 ["DEBUG_VISIBLE"] = false,
 ["QUALITY_BREAKPOINT_OFFSET"] = false,
-["CUSTOMER_HISTORY_AUTO_PURGE_LAST_PURGE"] = 1731788580,
+["CRAFTING_GARBAGE_COLLECTION_ENABLED"] = true,
 ["COST_OPTIMIZATION_SUB_RECIPE_MAX_DEPTH"] = 1,
 ["CRAFT_LOG_SELECTED_RECIPE_REAGENT_COMBINATION_ID"] = {
 },
@@ -112,6 +121,11 @@ CraftSimDB = {
 ["data"] = {
 },
 },
+["craftQueueDB"] = {
+["version"] = 7,
+["data"] = {
+},
+},
 ["priceOverrideDB"] = {
 ["version"] = 1,
 ["data"] = {
@@ -119,11 +133,6 @@ CraftSimDB = {
 },
 ["globalOverrides"] = {
 },
-},
-},
-["craftQueueDB"] = {
-["version"] = 7,
-["data"] = {
 },
 },
 ["recipeSubCrafterDB"] = {

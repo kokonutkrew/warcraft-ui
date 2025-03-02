@@ -132,3 +132,10 @@ TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
 TroveTally: enabled
 WoWthing_Collector: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

@@ -196,6 +196,18 @@ GTFO.SpellID["1222515"] = {
   ignoreApplication = true;
 };
 
+GTFO.SpellID["1214845"] = {
+  --desc = "Filthy Pool (Dockmaster Skeez)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["1218158"] = {
+  --desc = "Molten Gold (Gallagio Garbage)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
 --- ****************************
 --- * Ara-Kara, City of Echoes *
 --- ****************************
@@ -281,6 +293,12 @@ GTFO.SpellID["436640"] = {
   sound = 4;
   negatingDebuffSpellID = 436644;
   test = true; -- Need verification of negating debuff working
+};
+
+GTFO.SpellID["440087"] = {
+  --desc = "Oozing Honey (Brew Drop)";
+  ignoreApplication = true;
+  sound = 1;
 };
 
 
@@ -684,6 +702,36 @@ GTFO.SpellID["453152"] = {
   sound = 1;
 };
 
+GTFO.SpellID["1213374"] = {
+  --desc = "Massive Shock";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["1215912"] = {
+  --desc = "Black Blood (Geargrave)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["473700"] = {
+  --desc = "Molotov Cocktail (Flinging Flicker)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["474230"] = {
+  --desc = "Shadow Blast (Silent Slitherer - Residue)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["474155"] = {
+  --desc = "Slime Trail (Coagulated Mass)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
 
 --- *******************
 --- * Nerub-ar Palace *
@@ -945,6 +993,97 @@ GTFO.SpellID["473051"] = {
   --desc = "Rushing Tide (Swampface)";
   sound = 1;
 };
+
+GTFO.SpellID["473287"] = {
+  --desc = "Excessive Electrification (Big M.O.M.M.A.)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+--- ***************************
+--- * Liberation of Undermine *
+--- ***************************
+
+GTFO.SpellID["459683"] = {
+  --desc = "Oil Slick (Vexie)";
+  ignoreApplication = true;
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["467048"] = {
+  --desc = "Faulty Zap (Rik Reverb)";
+  ignoreSelfInflicted = true;
+  sound = 4;
+};
+
+GTFO.SpellID["1219448"] = {
+  --desc = "Fire Starters (Darkfuse Shredder)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["465826"] = {
+  --desc = "Crossfire (Darkfuse Crossfire)";
+  sound = 1;
+  tankSound = 0;
+  test = true;
+};
+
+GTFO.SpellID["467177"] = {
+  --desc = "Blistering Roar (King Flamespite)";
+  sound = 1;
+  tankSound = 0;
+};
+
+GTFO.SpellID["464248"] = {
+  --desc = "Hot Garbage (Stix Bunkjunker)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["474554"] = {
+  --desc = "Shaken Earth (Mug'Zee)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["466509"] = {
+  --desc = "Stormfury Finger Gun (Mug'Zee)";
+  applicationOnly = true;
+  soundFunction = function() 
+	GTFO_AddEvent("StormfuryFingerGun", 6);
+	return 0;
+  end;
+};
+
+GTFO.SpellID["470245"] = {
+  --desc = "Stormfury Finger Gun (Mug'Zee)";
+  sound = 1;
+  tankSound = 0;
+  ignoreEvent = "StormfuryFingerGun";
+  negatingDebuffSpellID = 466509; -- Stormfury Finger Gun 
+  test = true;
+};
+
+GTFO.SpellID["470089"] = {
+  --desc = "Molten Gold Pool (Mug'Zee)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["472057"] = {
+  --desc = "Hot Mess (Mug'Zee)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
+GTFO.SpellID["1215209"] = {
+  --desc = "Sabotage Zone (Chrome King Gallywix)";
+  ignoreApplication = true;
+  sound = 1;
+};
+
 
 end
 

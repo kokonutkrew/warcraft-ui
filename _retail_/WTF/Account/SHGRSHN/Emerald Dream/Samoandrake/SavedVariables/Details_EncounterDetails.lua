@@ -1,124 +1,113 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[162] = {
+[168] = {
 ["Raid Damage Done"] = {
-250418,
-0,
-["max_value"] = 250418,
-["__time"] = 1739149671,
-},
-},
-[155] = {
-},
-[159] = {
-["Raid Damage Done"] = {
-4524553,
-748608,
-1353404,
-3193394,
-4256775,
-2012044,
-9252275,
-3405821,
-1342576,
-6671417,
-2272312,
-156460,
-865469,
-4101377,
-1445196,
-5955655,
-1364569,
-1774562,
-2449808,
-4709312,
-931847,
-2705471,
-883464,
-5389025,
-1031641,
-1312880,
-3624590,
-1284959,
-2863030,
-3492107,
-3323419,
-2340220,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 9252275,
-["__time"] = 1739149532,
-},
-},
-[163] = {
-["Raid Damage Done"] = {
-62775,
-62775,
-0,
-["max_value"] = 62775,
-["__time"] = 1739149775,
-},
-},
-[167] = {
-["Raid Damage Done"] = {
-117703,
-["max_value"] = 117703,
-["__time"] = 1739150158,
-},
-},
-[156] = {
-},
-[164] = {
-["Raid Damage Done"] = {
-75878,
-0,
-0,
-0,
-0,
-235219,
-0,
+98642,
 0,
 0,
 75878,
-0,
-0,
-0,
-0,
-0,
-159345,
-75874,
-0,
-["max_value"] = 235219,
-["__time"] = 1739149805,
-},
-},
-[161] = {
-["Raid Damage Done"] = {
 100714,
-75878,
-75878,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+98642,
 0,
 75878,
 0,
+98642,
+0,
+75878,
 0,
 0,
 0,
 0,
 0,
-311113,
+98642,
 0,
-["max_value"] = 311113,
-["__time"] = 1739149647,
+60703,
+37939,
+0,
+0,
+0,
+0,
+["max_value"] = 100714,
+["__time"] = 1742126774,
 },
 },
-[165] = {
+[169] = {
 ["Raid Damage Done"] = {
+117705,
+["max_value"] = 117705,
+["__time"] = 1742126807,
+},
+},
+[170] = {
+["Raid Damage Done"] = {
+62775,
+62775,
+["max_value"] = 62775,
+["__time"] = 1742126811,
+},
+},
+[171] = {
+["Raid Damage Done"] = {
+37939,
+0,
+0,
+0,
+0,
+0,
+373876,
+0,
+75878,
+0,
+0,
+0,
+["max_value"] = 373876,
+["__time"] = 1742126835,
+},
+},
+[172] = {
+["Raid Damage Done"] = {
+974399,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
 58463,
 0,
 0,
@@ -131,18 +120,15 @@ EncounterDetailsDB = {
 0,
 0,
 0,
-0,
-16881,
-41583,
-0,
+16274,
+42189,
 0,
 0,
 0,
 0,
 0,
 0,
-0,
-46769,
+46771,
 0,
 0,
 0,
@@ -154,21 +140,21 @@ EncounterDetailsDB = {
 0,
 58463,
 0,
+-1,
 0,
 0,
 0,
 0,
 0,
-0,
-105586,
-32995,
+98988,
 0,
 98986,
-46195,
 0,
+52791,
 0,
-39593,
+32995,
 0,
+39595,
 0,
 0,
 0,
@@ -262,25 +248,37 @@ EncounterDetailsDB = {
 0,
 0,
 0,
-33292,
 0,
 0,
-49521,
+33815,
 0,
-50085,
 0,
-66683,
+17206,
 0,
+47716,
 0,
-43358,
-35420,
-49036,
+32556,
+0,
+32851,
+0,
+0,
+0,
+32305,
+54586,
+0,
+76359,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
 0,
 0,
 116927,
-0,
-0,
-0,
 0,
 0,
 0,
@@ -290,15 +288,6 @@ EncounterDetailsDB = {
 0,
 0,
 0,
-31159,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-14664,
 0,
 0,
 0,
@@ -331,47 +320,24 @@ EncounterDetailsDB = {
 0,
 0,
 0,
-["max_value"] = 116927,
-["__time"] = 1739150077,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 974399,
+["__time"] = 1742127103,
 },
+},
+[165] = {
 },
 [158] = {
-["Raid Damage Done"] = {
-1060429,
-3087724,
-3890961,
-4018945,
-1853701,
-2601628,
-6027168,
-2432843,
-2284302,
-2532101,
-1227059,
-1550388,
-3603848,
-7490493,
-824362,
-1002664,
-1762608,
-4298492,
-3037745,
-5632374,
-3549816,
-1703704,
-1807619,
-1309246,
-3647384,
-3068869,
-3866305,
-4116744,
-1171741,
-4980473,
-1995777,
-0,
-["max_value"] = 7490493,
-["__time"] = 1739149363,
 },
+[159] = {
 },
 },
 ["encounter_spells"] = {
@@ -588,6 +554,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Moira Bronzebeard",
 },
+[470620] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Moira Bronzebeard",
+},
 [470164] = {
 ["school"] = 4,
 ["type"] = "BUFF",
@@ -598,13 +572,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ambassador Flamelash",
 },
-[36980] = {
-["school"] = 1,
+[470244] = {
+["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Netherstrand Longbow",
+["source"] = "Ambassador Flamelash",
 },
 [470609] = {
 ["school"] = 32,
@@ -650,12 +626,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ambassador Flamelash",
 },
-[35369] = {
+[470652] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Phoenix",
+["source"] = "Avatar of Ragnaros",
 },
 [465086] = {
 ["school"] = 32,
@@ -681,12 +657,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Burning Spirit",
 },
-[39077] = {
-["school"] = 2,
+[464372] = {
+["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Crimson Hand Blood Knight",
+["source"] = "Ambassador Flamelash",
 },
 [55078] = {
 ["school"] = 32,
@@ -695,14 +672,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Rune Weapon",
 },
-[68641] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[37036] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Apothecary Hummel",
+["source"] = "Master Engineer Telonicus",
 },
 [408509] = {
 ["school"] = 4,
@@ -722,15 +699,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bloodwarder Legionnaire",
 },
-[36965] = {
-["school"] = 1,
+[465070] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Thaladred the Darkener",
+["source"] = "Emperor Dagran Thaurissan",
 },
 [37318] = {
 ["school"] = 4,
@@ -741,24 +717,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Tempest Falconer",
 },
-[34946] = {
+[464382] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Tempest-Smith",
+["source"] = "Firestarter",
 },
-[37018] = {
-["school"] = 4,
+[3600] = {
+["school"] = 8,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Grand Astromancer Capernian",
+["source"] = "Earthbind Totem",
 },
 [465089] = {
 ["school"] = 1,
@@ -780,13 +752,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Thaladred the Darkener",
 },
-[36966] = {
+[35949] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Thaladred the Darkener",
+["source"] = "Bloodwarder Legionnaire",
 },
 [36834] = {
 ["school"] = 64,
@@ -798,12 +769,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kael'thas Sunstrider",
 },
-[35949] = {
+[36965] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Bloodwarder Legionnaire",
+["source"] = "Thaladred the Darkener",
 },
 [34937] = {
 ["school"] = 1,
@@ -814,14 +788,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crystalcore Devastator",
 },
-[37036] = {
+[470493] = {
 ["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Master Engineer Telonicus",
+["source"] = "Ambassador Flamelash",
 },
 [36723] = {
 ["school"] = 1,
@@ -861,12 +834,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Sanguinar",
 },
-[37110] = {
+[68821] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Astromancer",
+["source"] = "Apothecary Baxter",
 },
 [37124] = {
 ["school"] = 64,
@@ -878,12 +851,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Star Scryer",
 },
-[465276] = {
-["school"] = 4,
+[123996] = {
+["school"] = 8,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Fireguard Destroyer",
+["source"] = "Xuen",
 },
 [68799] = {
 ["school"] = 1,
@@ -918,42 +891,6 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 },
-[414842] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Headless Horseman",
-},
-[445504] = {
-["school"] = 1,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Highlord Darion Mograine",
-},
-[470493] = {
-["school"] = 4,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Ambassador Flamelash",
-},
-[68821] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Apothecary Baxter",
-},
-[123996] = {
-["school"] = 8,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Xuen",
-},
 [464379] = {
 ["school"] = 4,
 ["token"] = {
@@ -963,12 +900,47 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ambassador Flamelash",
 },
+[445504] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Highlord Darion Mograine",
+},
 [466492] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Emperor Dagran Thaurissan",
+},
+[464381] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ambassador Flamelash",
+},
+[52212] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Highlord Darion Mograine",
+},
+[37110] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Astromancer",
+},
+[39077] = {
+["school"] = 2,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Crimson Hand Blood Knight",
 },
 [470207] = {
 ["school"] = 4,
@@ -978,13 +950,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ambassador Flamelash",
 },
-[470620] = {
-["school"] = 32,
+[68641] = {
+["school"] = 8,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Moira Bronzebeard",
+["source"] = "Apothecary Hummel",
 },
 [465064] = {
 ["school"] = 4,
@@ -993,22 +966,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Emperor Dagran Thaurissan",
 },
-[68934] = {
-["school"] = 8,
+[465321] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Emperor Dagran Thaurissan",
+},
+[470203] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "[DND] Valentine Boss - Vial Bunny",
-},
-[68841] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Apothecary Frye",
+["source"] = "Ambassador Flamelash",
 },
 [68927] = {
 ["school"] = 8,
@@ -1018,12 +991,15 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 },
-[470610] = {
-["school"] = 32,
+[68607] = {
+["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Moira Bronzebeard",
+["source"] = "Apothecary Hummel",
 },
 [465097] = {
 ["school"] = 4,
@@ -1039,15 +1015,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ambassador Flamelash",
 },
-[68607] = {
-["school"] = 8,
-["type"] = "BUFF",
+[465225] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Apothecary Hummel",
+["source"] = "Avatar of Ragnaros",
 },
 [31707] = {
 ["school"] = 16,
@@ -1056,13 +1030,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Water Elemental",
 },
-[465225] = {
-["school"] = 4,
+[36966] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Avatar of Ragnaros",
+["source"] = "Thaladred the Darkener",
 },
 [36970] = {
 ["school"] = 64,
@@ -1075,22 +1049,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Grand Astromancer Capernian",
 },
-[470203] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ambassador Flamelash",
-},
-[465321] = {
-["school"] = 4,
+[470610] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Emperor Dagran Thaurissan",
+["source"] = "Moira Bronzebeard",
+},
+[34946] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Tempest-Smith",
 },
 [37109] = {
 ["school"] = 4,
@@ -1099,19 +1072,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Astromancer",
 },
-[52212] = {
-["school"] = 32,
+[68934] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Highlord Darion Mograine",
+["source"] = "[DND] Valentine Boss - Vial Bunny",
 },
-[464381] = {
-["school"] = 4,
+[36990] = {
+["school"] = 16,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Ambassador Flamelash",
+["source"] = "Staff of Disintegration",
 },
 [465068] = {
 ["school"] = 4,
@@ -1161,29 +1137,30 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twilight's Hammer Ambassador",
 },
-[3600] = {
-["school"] = 8,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Earthbind Totem",
-},
-[464382] = {
-["school"] = 1,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Firestarter",
-},
-[465070] = {
+[37018] = {
 ["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Emperor Dagran Thaurissan",
+["source"] = "Grand Astromancer Capernian",
+},
+[465276] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Fireguard Destroyer",
+},
+[68841] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Apothecary Frye",
 },
 [13005] = {
 ["school"] = 2,
@@ -1193,33 +1170,142 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bloodwarder Vindicator",
 },
-[464372] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Ambassador Flamelash",
-},
-[470652] = {
+[414842] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Avatar of Ragnaros",
+["source"] = "Headless Horseman",
 },
-[470244] = {
+[35369] = {
 ["school"] = 4,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Phoenix",
+},
+[36980] = {
+["school"] = 1,
+["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Ambassador Flamelash",
+["source"] = "Netherstrand Longbow",
 },
 },
 ["emotes"] = {
+{
+{
+0.1,
+"Energy. Power. My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. Welcome to the future. A pity you are too late to stop it. No one can stop me now! Selama ashal'anore!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+25.07899999999791,
+"Let us see how your nerves hold up against the Darkener, Thaladred!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+31.23700000000099,
+"Prepare yourselves!",
+"Thaladred the Darkener",
+7,
+},
+{
+32.52199999999721,
+"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+45.08299999999872,
+"Blood for blood!",
+"Lord Sanguinar",
+7,
+},
+{
+46.13300000000163,
+"Capernian will see to it that your stay here is a short one.",
+"Kael'thas Sunstrider",
+7,
+},
+{
+52.33000000000175,
+"The sin'dorei reign supreme!",
+"Grand Astromancer Capernian",
+7,
+},
+{
+53.43899999999849,
+"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.",
+"Kael'thas Sunstrider",
+7,
+},
+{
+62.04000000000087,
+"Anar'alah belore!",
+"Master Engineer Telonicus",
+7,
+},
+{
+67.54000000000087,
+"As you see, I have many weapons in my arsenal....",
+"Kael'thas Sunstrider",
+7,
+},
+{
+162.0109999999986,
+"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.",
+"Kael'thas Sunstrider",
+7,
+},
+{
+175.4270000000033,
+"%s sets eyes on Samoandrake!",
+"Thaladred the Darkener",
+3,
+},
+{
+188.726999999999,
+"NO! I... will... not...",
+"Lord Sanguinar",
+7,
+},
+{
+189.3070000000007,
+"Forgive me, my prince! I have... failed.",
+"Thaladred the Darkener",
+7,
+},
+{
+190.6070000000036,
+"This is not over!",
+"Grand Astromancer Capernian",
+7,
+},
+{
+202.8320000000022,
+"More perils... await...",
+"Master Engineer Telonicus",
+7,
+},
+{
+205.7320000000036,
+"Alas, sometimes one must take matters into one's own hands. Balamore shanal!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+208.1089999999967,
+"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!",
+"Kael'thas Sunstrider",
+7,
+},
+["boss"] = "Kael'thas Sunstrider",
+},
 {
 {
 0.8479999999981374,
@@ -1318,9 +1404,6 @@ EncounterDetailsDB = {
 7,
 },
 ["boss"] = "Kael'thas Sunstrider",
-},
-{
-["boss"] = "The Crown Chemical Co.",
 },
 {
 ["boss"] = "The Crown Chemical Co.",

@@ -96,7 +96,7 @@ VER 3 0100000000000005 "Craft" "132691"
 /petattack
 /castsequence shadow bolt, hand of gul'dan
 END
-VER 3 0100000000000006 "Decursive" "134400"
+VER 3 0100000000000006 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
 END

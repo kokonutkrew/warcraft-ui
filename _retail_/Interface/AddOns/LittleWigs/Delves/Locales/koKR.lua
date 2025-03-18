@@ -3,24 +3,26 @@
 local L = BigWigs:NewBossLocale("The Underpin", "koKR")
 if not L then return end
 if L then
-	--L.the_underpin = "The Underpin (Tier 1)"
+	L.the_underpin = "대지주 (8단계)"
+	L.crony = "친구"
 end
 
 L = BigWigs:NewBossLocale("The Underpin 2", "koKR")
 if L then
-	--L.the_underpin = "The Underpin (Tier 2)"
+	L.the_underpin = "대지주 (11단계)"
+	L.crony = "친구"
 end
 
 -- Earthcrawl Mines
 
 L = BigWigs:NewBossLocale("Maklin Drillstab", "koKR")
 if L then
-	--L.maklin_drillstab = "Maklin Drillstab"
+	L.maklin_drillstab = "마클린 드릴스탭"
 end
 
 L = BigWigs:NewBossLocale("The Biggest Bug", "koKR")
 if L then
-	--L.the_biggest_bug = "The Biggest Bug"
+	L.the_biggest_bug = "세상에서 제일 큰 벌레"
 end
 
 L = BigWigs:NewBossLocale("Web General Ab'enar", "koKR")
@@ -32,25 +34,25 @@ end
 
 L = BigWigs:NewBossLocale("Craggle Fritzbrains", "koKR")
 if L then
-	--L.craggle_fritzbrains = "Craggle Fritzbrains"
+	L.craggle_fritzbrains = "크래글 프리츠브레인즈"
 end
 
 L = BigWigs:NewBossLocale("Harbinger Ul'thul", "koKR")
 if L then
-	--L.harbinger_ulthul = "Harbinger Ul'thul"
+	L.harbinger_ulthul = "전령 울술"
 end
 
 L = BigWigs:NewBossLocale("Xel'anegh The Many", "koKR")
 if L then
-	--L.xelanegh_the_many = "Xel'anegh The Many"
+	L.xelanegh_the_many = "무수한 젤라네그"
 end
 
 -- Fungal Folly
 
 L = BigWigs:NewBossLocale("Maulspike", "koKR")
 if L then
-	--L.maulspike = "Maulspike"
-	--L.darkfuse_cackler = "Darkfuse Cackler"
+	L.maulspike = "상해가시"
+	L.darkfuse_cackler = "포자의 호정"
 end
 
 L = BigWigs:NewBossLocale("Spinshroom", "koKR")
@@ -96,18 +98,18 @@ end
 
 L = BigWigs:NewBossLocale("Geargrave", "koKR")
 if L then
-	--L.geargrave = "Geargrave"
+	L.geargrave = "기어그레이브"
 end
 
 L = BigWigs:NewBossLocale("Gold Elemental", "koKR")
 if L then
-	--L.gold_elemental = "Gold Elemental"
-	--L.gold_shaman = "Gold Shaman"
+	L.gold_elemental = "황금 정령"
+	L.gold_shaman = "황금 주술사"
 end
 
 L = BigWigs:NewBossLocale("Vindle Snapcrank", "koKR")
 if L then
-	--L.vindle_snapcrank = "Vindle Snapcrank"
+	L.vindle_snapcrank = "빈들 스냅크랭크"
 end
 
 -- Skittering Breach
@@ -186,12 +188,17 @@ end
 
 L = BigWigs:NewBossLocale("Torque Clankfire and Sprok", "koKR")
 if L then
-	--L.bossName = "Torque Clankfire and Sprok"
-	--L.torque_clankfire = "Torque Clankfire"
-	--L.sprok = "Sprok"
+	L.bossName = "토크 클랭크파이어와 스프록"
+	L.torque_clankfire = "토크 클랭크파이어"
+	L.sprok = "스프록"
 end
 
 -- The Waterworks
+
+L = BigWigs:NewBossLocale("Shroomsprew", "koKR")
+if L then
+	L.shroomsprew = "쉬룸스프루"
+end
 
 L = BigWigs:NewBossLocale("Waxface", "koKR")
 if L then
@@ -202,12 +209,12 @@ end
 
 L = BigWigs:NewBossLocale("Zekvir", "koKR")
 if L then
-	L.zekvir = "제크비르 (1단계)"
+	L.zekvir = "제크비르 (8단계)"
 	L.web_terror = "거미줄 괴물"
 end
 
 L = BigWigs:NewBossLocale("Zekvir 2", "koKR")
 if L then
-	L.zekvir = "제크비르 (2단계)"
+	L.zekvir = "제크비르 (11단계)"
 	L.web_terror = "거미줄 괴물"
 end

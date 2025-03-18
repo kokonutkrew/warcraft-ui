@@ -2,10 +2,10 @@
 ThreatPlatesDB = {
 ["char"] = {
 ["Samoanslayer - Emerald Dream"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = true,
 },
-["welcome"] = true,
 },
 ["Samoanghost - Area 52"] = {
 ["spec"] = {
@@ -15,38 +15,38 @@ true,
 ["welcome"] = true,
 },
 ["Samoansifu - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 true,
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoanseraph - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoanshadow - Area 52"] = {
-["welcome"] = true,
 ["spec"] = {
 nil,
 nil,
 true,
 false,
 },
+["welcome"] = true,
 },
 ["Samoandrake - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Fishcraft - Area 52"] = {
-["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
+["welcome"] = true,
 },
 ["Samoandrake - Emerald Dream"] = {
 ["spec"] = {
@@ -55,50 +55,50 @@ false,
 ["welcome"] = true,
 },
 ["Buycraft - Area 52"] = {
-["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
+["welcome"] = true,
 },
 ["Forgecraft - Area 52"] = {
-["welcome"] = true,
 ["spec"] = {
 [3] = true,
 },
+["welcome"] = true,
 },
 ["Herbcraft - Emerald Dream"] = {
-["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
+["welcome"] = true,
 },
 ["Okko - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoanlegend - Area 52"] = {
-["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
+["welcome"] = true,
 },
 ["Farmcraft - Emerald Dream"] = {
-["welcome"] = true,
 ["spec"] = {
 nil,
 nil,
 true,
 false,
 },
+["welcome"] = true,
 },
 ["Samoanreaper - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 true,
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Dustcraft - Emerald Dream"] = {
 ["spec"] = {
@@ -110,13 +110,13 @@ false,
 ["welcome"] = true,
 },
 ["Samoanbeast - Emerald Dream"] = {
-["welcome"] = true,
 ["spec"] = {
 nil,
 nil,
 true,
 false,
 },
+["welcome"] = true,
 },
 ["Threadcraft - Area 52"] = {
 ["spec"] = {
@@ -125,37 +125,37 @@ false,
 ["welcome"] = true,
 },
 ["Ikkl - Emerald Dream"] = {
-["welcome"] = true,
 ["spec"] = {
 nil,
 nil,
 true,
 false,
 },
+["welcome"] = true,
 },
 ["Herbcraft - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoanlegend - Tichondrius"] = {
-["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
+["welcome"] = true,
 },
 ["Samoanstrafe - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoanskully - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoansizzle - Area 52"] = {
 ["welcome"] = true,
@@ -169,9 +169,14 @@ false,
 },
 ["welcome"] = true,
 },
-["Shadowcraft - Emerald Dream"] = {
+["Samoansavage - Emerald Dream"] = {
+["welcome"] = true,
 ["spec"] = {
-nil,
+[3] = false,
+},
+},
+["Samoantitan - Emerald Dream"] = {
+["spec"] = {
 nil,
 true,
 false,
@@ -179,12 +184,20 @@ false,
 ["welcome"] = true,
 },
 ["Samoansurge - Area 52"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
 },
 ["Samoantitan - Area 52"] = {
+["spec"] = {
+nil,
+true,
+false,
+},
+["welcome"] = true,
+},
+["Samoanshield - Area 52"] = {
 ["welcome"] = true,
 ["spec"] = {
 nil,
@@ -192,33 +205,24 @@ true,
 false,
 },
 },
-["Samoanbeast - Ravenholdt"] = {
+["Samoanrocket - Area 52"] = {
 ["spec"] = {
-nil,
-nil,
-true,
-false,
+[3] = true,
 },
 ["welcome"] = true,
 },
 ["Samoansage - Emerald Dream"] = {
+["welcome"] = true,
 ["spec"] = {
 [3] = false,
 },
-["welcome"] = true,
-},
-["Samoanrocket - Area 52"] = {
-["welcome"] = true,
-["spec"] = {
-[3] = true,
-},
 },
 ["Samoansage - Area 52"] = {
-["welcome"] = true,
 ["spec"] = {
 true,
 [3] = false,
 },
+["welcome"] = true,
 },
 ["Farmcraft - Area 52"] = {
 ["welcome"] = true,
@@ -229,23 +233,27 @@ true,
 false,
 },
 },
-["Samoantitan - Emerald Dream"] = {
+["Shadowcraft - Emerald Dream"] = {
 ["welcome"] = true,
 ["spec"] = {
+nil,
 nil,
 true,
 false,
 },
 },
-["Samoansavage - Emerald Dream"] = {
-["spec"] = {
-[3] = false,
-},
+["Samoanbeast - Ravenholdt"] = {
 ["welcome"] = true,
+["spec"] = {
+nil,
+nil,
+true,
+false,
+},
 },
 },
 ["global"] = {
-["version"] = "12.0.16",
+["version"] = "12.1.0",
 },
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {
@@ -254,41 +262,44 @@ false,
 ["profileKeys"] = {
 ["Samoanslayer - Emerald Dream"] = "Default",
 ["Samoanghost - Area 52"] = "Default",
-["Shadowcraft - Emerald Dream"] = "Default",
 ["Samoansifu - Area 52"] = "Default",
-["Threadcraft - Area 52"] = "Default",
-["Samoansage - Emerald Dream"] = "Default",
-["Ikkl - Emerald Dream"] = "Default",
+["Samoanseraph - Area 52"] = "Default",
 ["Samoanshadow - Area 52"] = "Default",
-["Farmcraft - Area 52"] = "Default",
 ["Samoandrake - Area 52"] = "Default",
-["Herbcraft - Area 52"] = "Default",
-["Samoansage - Area 52"] = "Default",
+["Fishcraft - Area 52"] = "Default",
 ["Samoandrake - Emerald Dream"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
-["Samoanskully - Area 52"] = "Default",
-["Dustcraft - Emerald Dream"] = "Default",
-["Samoansizzle - Area 52"] = "Default",
-["Samoantitan - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
 ["Forgecraft - Area 52"] = "Default",
-["Crankcraft - Area 52"] = "Default",
 ["Herbcraft - Emerald Dream"] = "Default",
 ["Okko - Area 52"] = "Default",
 ["Samoansurge - Area 52"] = "Default",
-["Samoanstrafe - Area 52"] = "Default",
-["Samoanlegend - Area 52"] = "Default",
-["Samoanbeast - Ravenholdt"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
 ["Samoanreaper - Area 52"] = "Default",
-["Samoanrocket - Area 52"] = "Default",
-["Fishcraft - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
+["Herbcraft - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
+["Samoanskully - Area 52"] = "Default",
+["Samoansizzle - Area 52"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoanrocket - Area 52"] = "Default",
+["Samoanshield - Area 52"] = "Default",
+["Ikkl - Emerald Dream"] = "Default",
+["Samoantitan - Area 52"] = "Default",
+["Samoansage - Area 52"] = "Default",
+["Farmcraft - Area 52"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
+["Samoanlegend - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["nameplate"] = {
 ["toggle"] = {
 ["CastingEnemyUnitAlpha"] = true,
+["OccludedUnits"] = true,
 ["CastingUnitAlpha"] = true,
 ["TargetS"] = true,
 ["MarkedS"] = true,
@@ -296,7 +307,6 @@ false,
 ["MarkedA"] = true,
 ["CastingUnitScale"] = true,
 ["CastingEnemyUnitScale"] = true,
-["OccludedUnits"] = true,
 ["TargetA"] = true,
 },
 ["alpha"] = {
@@ -305,22 +315,22 @@ false,
 },
 },
 ["castbarColorShield"] = {
-["b"] = 0.529411792755127,
-["g"] = 0.5607843399047852,
 ["r"] = 0.5333333611488342,
+["g"] = 0.5607843399047852,
+["b"] = 0.529411792755127,
 },
 ["CVarsBackup"] = {
 ["nameplateMinAlpha"] = "0.6",
-["nameplateMaxAlpha"] = "1.0",
 ["nameplateOccludedAlphaMult"] = "1",
+["nameplateMaxAlpha"] = "1.0",
 },
 ["Colors"] = {
 ["Classes"] = {
 ["WARRIOR"] = {
-["r"] = 0.8509804606437683,
+["b"] = 0.4666666984558106,
 ["colorStr"] = "ffd9aa77",
 ["g"] = 0.6666666865348816,
-["b"] = 0.4666666984558106,
+["r"] = 0.8509804606437683,
 },
 },
 },
@@ -367,9 +377,9 @@ false,
 ["settings"] = {
 ["frame"] = {
 ["height"] = 61.6817726964263,
-["width"] = 144.5,
-["heightFriend"] = 61.6817726964263,
 ["widthFriend"] = 144.5,
+["heightFriend"] = 61.6817726964263,
+["width"] = 144.5,
 },
 },
 },

@@ -1,29 +1,513 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[422] = {
+[539] = {
+["Raid Damage Done"] = {
+["__time"] = 1742082313,
 },
-[486] = {
+},
+[540] = {
+["Raid Damage Done"] = {
+62775,
+0,
+0,
+62775,
+["max_value"] = 62775,
+["__time"] = 1742082331,
+},
+},
+[418] = {
 },
 [488] = {
+},
+[450] = {
+},
+[544] = {
+["Raid Damage Done"] = {
+37939,
+0,
+0,
+0,
+37939,
+0,
+14664,
+0,
+14664,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+14664,
+14664,
+0,
+14664,
+0,
+14664,
+["max_value"] = 37939,
+["__time"] = 1742082792,
+},
+},
+[443] = {
+},
+[482] = {
+},
+[547] = {
+["Raid Damage Done"] = {
+0,
+0,
+0,
+0,
+0,
+694998,
+530075,
+0,
+0,
+374142,
+414738,
+0,
+59326,
+0,
+0,
+1699564,
+490502,
+57196,
+8738,
+8726,
+55675,
+13272,
+8264,
+220207,
+473074,
+343277,
+320957,
+0,
+90903,
+0,
+0,
+86081,
+0,
+0,
+120135,
+86542,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 1699564,
+["__time"] = 1742083485,
+},
+},
+[414] = {
+},
+[422] = {
+},
+[545] = {
+["Raid Damage Done"] = {
+37939,
+37939,
+37939,
+0,
+37939,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+["max_value"] = 37939,
+["__time"] = 1742082808,
+},
 },
 [446] = {
 },
 [454] = {
 },
-[482] = {
+[543] = {
+["Raid Damage Done"] = {
+62775,
+0,
+0,
+0,
+37939,
+37939,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+60703,
+0,
+37939,
+60703,
+37939,
+0,
+37939,
+0,
+["max_value"] = 62775,
+["__time"] = 1742082718,
 },
-[450] = {
 },
-[474] = {
+[541] = {
+["Raid Damage Done"] = {
+974399,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+58463,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+58463,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+46771,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+58463,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+32995,
+0,
+0,
+52791,
+39594,
+52793,
+0,
+46194,
+0,
+59392,
+39594,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+93541,
+0,
+0,
+0,
+0,
+116927,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+116927,
+0,
+116927,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+32994,
+0,
+14664,
+0,
+0,
+0,
+0,
+["max_value"] = 974399,
+["__time"] = 1742082663,
 },
-[418] = {
-},
-[443] = {
-},
-[414] = {
 },
 [478] = {
+},
+[486] = {
+},
+[538] = {
+["Raid Damage Done"] = {
+75878,
+75878,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+37939,
+60703,
+37939,
+0,
+60703,
+37939,
+60703,
+0,
+37939,
+0,
+0,
+0,
+0,
+37939,
+37939,
+0,
+["max_value"] = 75878,
+["__time"] = 1742082237,
+},
+},
+[474] = {
 },
 },
 ["encounter_spells"] = {
@@ -71,6 +555,15 @@ EncounterDetailsDB = {
 ["SPELL_CAST_START"] = true,
 },
 ["source"] = "Dark Animus",
+},
+[16496] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Master Engineer Telonicus",
 },
 [5159] = {
 ["school"] = 4,
@@ -828,6 +1321,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Malkorok",
 },
+[34341] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Phoenix",
+},
 [144397] = {
 ["school"] = 1,
 ["token"] = {
@@ -907,6 +1409,15 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Kor'kron Shadowmage",
+},
+[37027] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Master Engineer Telonicus",
 },
 [106854] = {
 ["school"] = 4,
@@ -1161,6 +1672,16 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Lu'lin",
+},
+[36965] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Thaladred the Darkener",
 },
 [139548] = {
 ["school"] = 4,
@@ -2001,6 +2522,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Putrid Waste",
 },
+[36971] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Grand Astromancer Capernian",
+},
 [125092] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
@@ -2682,6 +3212,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Defias Watchman",
 },
+[35369] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Phoenix",
+},
 [145218] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
@@ -2718,6 +3255,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Xaril the Poisoned Mind",
 },
+[36805] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Kael'thas Sunstrider",
+},
 [118005] = {
 ["school"] = 8,
 ["token"] = {
@@ -2725,11 +3269,27 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elder Regail",
 },
+[40505] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Goblin Woodcarver",
+},
 [386088] = {
 ["school"] = 64,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
+},
+[118049] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Subetai the Swift",
 },
 [143301] = {
 ["school"] = 1,
@@ -2738,6 +3298,17 @@ EncounterDetailsDB = {
 ["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "He Softfoot",
+},
+[375591] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Bubbling Sapling",
 },
 [142534] = {
 ["school"] = 1,
@@ -2773,6 +3344,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Commander Na'kaz",
 },
+[20477] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Thaladred the Darkener",
+},
+[36966] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Thaladred the Darkener",
+},
 [385579] = {
 ["school"] = 64,
 ["token"] = {
@@ -2788,6 +3374,23 @@ EncounterDetailsDB = {
 },
 ["source"] = "Leymor",
 },
+[44863] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Lord Sanguinar",
+},
+[36991] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Warp Slicer",
+},
 [123121] = {
 ["school"] = 16,
 ["type"] = "DEBUFF",
@@ -2799,6 +3402,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lei Shi",
 },
+[36985] = {
+["school"] = 2,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
+},
+["source"] = "Cosmic Infuser",
+},
 [144070] = {
 ["school"] = 1,
 ["token"] = {
@@ -2806,6 +3417,30 @@ EncounterDetailsDB = {
 ["SPELL_CAST_START"] = true,
 },
 ["source"] = "Earthbreaker Haromm",
+},
+[36990] = {
+["school"] = 16,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Staff of Disintegration",
+},
+[138330] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ra-den",
+},
+[37036] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Master Engineer Telonicus",
 },
 [145605] = {
 ["school"] = 32,
@@ -3125,13 +3760,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lei Shen",
 },
-[125873] = {
-["school"] = 1,
-["type"] = "BUFF",
+[136019] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "The Kor'thik",
+["source"] = "Diffused Lightning",
 },
 [142655] = {
 ["school"] = 1,
@@ -3354,13 +3988,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Defias Overseer",
 },
-[40505] = {
+[36723] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Goblin Woodcarver",
+["source"] = "Kael'thas Sunstrider",
 },
 [146764] = {
 ["school"] = 4,
@@ -3398,12 +4031,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kokia Blazehoof",
 },
-[146253] = {
-["school"] = 1,
+[145230] = {
+["school"] = 64,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Claw of Burning Anger",
+["source"] = "Mogu Shadow Ritualist",
 },
 [450515] = {
 ["school"] = 1,
@@ -3495,12 +4129,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Embodied Despair",
 },
-[390462] = {
-["school"] = 64,
+[148301] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Azureblade",
+["source"] = "Kor'kron Demolisher",
 },
 [373326] = {
 ["school"] = 64,
@@ -3509,13 +4144,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Echo of Doragosa",
 },
-[386881] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[142930] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Telash Greywing",
+["source"] = "Kil'ruk the Wind-Reaver",
 },
 [138966] = {
 ["school"] = 32,
@@ -3526,13 +4160,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Shadowed Voodoo Spirit",
 },
-[148301] = {
-["school"] = 4,
+[390462] = {
+["school"] = 64,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Kor'kron Demolisher",
+["source"] = "Azureblade",
 },
 [374350] = {
 ["school"] = 64,
@@ -3582,14 +4215,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kil'ruk the Wind-Reaver",
 },
-[138328] = {
+[145489] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Essence of Vita",
+["source"] = "Zu Yin",
 },
 [148302] = {
 ["school"] = 1,
@@ -3598,20 +4230,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kor'kron Demolisher",
 },
-[374352] = {
-["school"] = 64,
+[381513] = {
+["school"] = 8,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Echo of Doragosa",
+["source"] = "Erkhart Stormvein",
 },
-[145489] = {
+[117309] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
 },
-["source"] = "Zu Yin",
+["source"] = "Elder Asani",
 },
 [145226] = {
 ["school"] = 32,
@@ -3676,14 +4308,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Iron Juggernaut",
 },
-[5174] = {
-["school"] = 2,
+[36980] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_HEAL"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Cookie",
+["source"] = "Netherstrand Longbow",
 },
 [145746] = {
 ["school"] = 1,
@@ -3693,13 +4325,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Staff of Resonating Water",
 },
-[138330] = {
-["school"] = 8,
+[5174] = {
+["school"] = 2,
 ["token"] = {
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Ra-den",
+["source"] = "Cookie",
 },
 [118077] = {
 ["school"] = 1,
@@ -3740,6 +4373,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Dragonmaw Proto-Drake",
 },
+[145747] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+},
 [389446] = {
 ["school"] = 64,
 ["type"] = "DEBUFF",
@@ -3750,13 +4390,6 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Nullification Device",
-},
-[145747] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
 },
 [139074] = {
 ["school"] = 40,
@@ -3944,13 +4577,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Telash Greywing",
 },
-[136543] = {
-["school"] = 8,
+[146773] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Lei Shen",
+["source"] = "Master Cannoneer Dagryn",
 },
 [118297] = {
 ["school"] = 4,
@@ -3978,6 +4611,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Telash Greywing",
 },
+[374364] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Leymor",
+},
 [381525] = {
 ["school"] = 4,
 ["type"] = "BUFF",
@@ -3987,14 +4628,6 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Kyrakka",
-},
-[374364] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Leymor",
 },
 [374570] = {
 ["school"] = 64,
@@ -4017,13 +4650,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Living Amber",
 },
-[134626] = {
-["school"] = 1,
+[381526] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Durumu the Forgotten",
+["source"] = "Kyrakka",
 },
 [143961] = {
 ["school"] = 1,
@@ -4067,16 +4701,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Suen",
 },
-[106827] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Sha of Violence",
-},
 [106853] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -4087,13 +4711,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Master Snowdrift",
 },
-[144218] = {
-["school"] = 8,
+[143962] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Embodied Sorrow",
+},
+[148310] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
+["source"] = "Kor'kron Demolisher",
 },
 [81252] = {
 ["school"] = 1,
@@ -4114,14 +4746,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Earthbreaker Haromm",
 },
-[148310] = {
-["school"] = 4,
+[144218] = {
+["school"] = 8,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Kor'kron Demolisher",
 },
 [137410] = {
 ["school"] = 4,
@@ -4311,14 +4942,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "High Priestess Mar'li",
 },
-[143198] = {
+[136037] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "He Softfoot",
+["source"] = "Primordius",
 },
 [372858] = {
 ["school"] = 1,
@@ -4433,13 +5063,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Watcher Irideus",
 },
-[386910] = {
-["school"] = 16,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Telash Greywing",
-},
 [137399] = {
 ["school"] = 1,
 ["token"] = {
@@ -4447,6 +5070,13 @@ EncounterDetailsDB = {
 ["SPELL_CAST_START"] = true,
 },
 ["source"] = "Jin'rokh the Breaker",
+},
+[386910] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Telash Greywing",
 },
 [144351] = {
 ["school"] = 32,
@@ -4467,13 +5097,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lei Shen",
 },
-[143840] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+[22120] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Embodied Anguish",
+["source"] = "Overseer Mojka",
 },
 [143712] = {
 ["school"] = 4,
@@ -4482,12 +5111,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "General Nazgrim",
 },
-[22120] = {
-["school"] = 1,
+[143840] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Overseer Mojka",
+["source"] = "Embodied Anguish",
 },
 [117558] = {
 ["school"] = 32,
@@ -4923,13 +5553,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lieutenant Krugruk",
 },
-[136037] = {
+[143198] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Primordius",
+["source"] = "He Softfoot",
 },
 [133767] = {
 ["school"] = 1,
@@ -4955,13 +5586,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kokia Blazehoof",
 },
-[118049] = {
-["school"] = 1,
+[30225] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Subetai the Swift",
+["source"] = "Thaladred the Darkener",
 },
 [116060] = {
 ["school"] = 1,
@@ -5064,12 +5696,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Malkorok",
 },
-[143962] = {
-["school"] = 4,
+[106827] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_START"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Embodied Sorrow",
+["source"] = "Sha of Violence",
 },
 [372863] = {
 ["school"] = 4,
@@ -5108,14 +5743,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Staff of Resonating Water",
 },
-[381526] = {
-["school"] = 4,
+[134626] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Kyrakka",
+["source"] = "Durumu the Forgotten",
 },
 [143608] = {
 ["school"] = 1,
@@ -5139,13 +5773,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Tsavo'ka",
 },
-[146773] = {
-["school"] = 1,
+[136543] = {
+["school"] = 8,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Master Cannoneer Dagryn",
+["source"] = "Lei Shen",
 },
 [136050] = {
 ["school"] = 8,
@@ -5243,16 +5877,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lieutenant Krugruk",
 },
-[375591] = {
-["school"] = 64,
+[37018] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Bubbling Sapling",
+["source"] = "Grand Astromancer Capernian",
 },
 [148522] = {
 ["school"] = 8,
@@ -5277,20 +5910,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Iyyokuk the Lucid",
 },
-[117309] = {
+[138328] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Elder Asani",
+["source"] = "Essence of Vita",
 },
-[381513] = {
-["school"] = 8,
+[374352] = {
+["school"] = 64,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Erkhart Stormvein",
+["source"] = "Echo of Doragosa",
 },
 [138327] = {
 ["school"] = 1,
@@ -5301,12 +5935,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Essence of Anima",
 },
-[142930] = {
-["school"] = 1,
+[386881] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Kil'ruk the Wind-Reaver",
+["source"] = "Telash Greywing",
 },
 [144748] = {
 ["school"] = 32,
@@ -5360,13 +5995,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Animated Protector",
 },
-[145230] = {
-["school"] = 64,
-["type"] = "DEBUFF",
+[146253] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Mogu Shadow Ritualist",
+["source"] = "Claw of Burning Anger",
 },
 [144749] = {
 ["school"] = 32,
@@ -5518,12 +6152,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Iyyokuk the Lucid",
 },
-[136019] = {
-["school"] = 8,
+[125873] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Diffused Lightning",
+["source"] = "The Kor'thik",
 },
 [118091] = {
 ["school"] = 1,
@@ -5614,13 +6249,151 @@ EncounterDetailsDB = {
 },
 ["emotes"] = {
 {
+{
+0.1,
+"Energy. Power. My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. Welcome to the future. A pity you are too late to stop it. No one can stop me now! Selama ashal'anore!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+25.39800000000105,
+"Let us see how your nerves hold up against the Darkener, Thaladred!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+31.64400000000023,
+"Prepare yourselves!",
+"Thaladred the Darkener",
+7,
+},
+{
+34.04800000000068,
+"You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+47.01400000000103,
+"Blood for blood!",
+"Lord Sanguinar",
+7,
+},
+{
+49.66200000000026,
+"Capernian will see to it that your stay here is a short one.",
+"Kael'thas Sunstrider",
+7,
+},
+{
+56.69599999999991,
+"The sin'dorei reign supreme!",
+"Grand Astromancer Capernian",
+7,
+},
+{
+59.06100000000151,
+"Well done, you have proven worthy to test your skills against my master engineer, Telonicus.",
+"Kael'thas Sunstrider",
+7,
+},
+{
+67.44200000000092,
+"Anar'alah belore!",
+"Master Engineer Telonicus",
+7,
+},
+{
+74.02900000000045,
+"As you see, I have many weapons in my arsenal....",
+"Kael'thas Sunstrider",
+7,
+},
+{
+168.4549999999999,
+"Perhaps I underestimated you. It would be unfair to make you fight all four advisors at once, but... fair treatment was never shown to my people. I'm just returning the favor.",
+"Kael'thas Sunstrider",
+7,
+},
+{
+187.7540000000008,
+"%s sets eyes on Samoanseraph!",
+"Thaladred the Darkener",
+3,
+},
+{
+197.514000000001,
+"%s sets eyes on Samoanseraph!",
+"Thaladred the Darkener",
+3,
+},
+{
+207.1310000000012,
+"%s sets eyes on Samoanseraph!",
+"Thaladred the Darkener",
+3,
+},
+{
+219.402,
+"%s sets eyes on Samoanseraph!",
+"Thaladred the Darkener",
+3,
+},
+{
+224.9630000000016,
+"This is not over!",
+"Grand Astromancer Capernian",
+7,
+},
+{
+229.7030000000013,
+"NO! I... will... not...",
+"Lord Sanguinar",
+7,
+},
+{
+230.237000000001,
+"%s sets eyes on Samoanseraph!",
+"Thaladred the Darkener",
+3,
+},
+{
+239.2660000000014,
+"Forgive me, my prince! I have... failed.",
+"Thaladred the Darkener",
+7,
+},
+{
+240.5870000000014,
+"More perils... await...",
+"Master Engineer Telonicus",
+7,
+},
+{
+243.487000000001,
+"Alas, sometimes one must take matters into one's own hands. Balamore shanal!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+246.0310000000009,
+"I have not come this far to be stopped! The future I have planned will not be jeopardized! Now you will taste true power!!",
+"Kael'thas Sunstrider",
+7,
+},
+{
+279.8590000000004,
+"Anar'anel belore!",
+"Kael'thas Sunstrider",
+7,
+},
+["boss"] = "Kael'thas Sunstrider",
+},
+{
 ["boss"] = "Captain Greenskin",
 },
 {
 ["boss"] = "Mr. Smite",
-},
-{
-["boss"] = "Gilnid",
 },
 },
 }

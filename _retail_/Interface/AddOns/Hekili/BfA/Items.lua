@@ -542,6 +542,7 @@ do
     all:RegisterGear( "pocketsized_computation_device", 167555 )
     all:RegisterGear( "cyclotronic_blast", 167672 )
     all:RegisterGear( "harmonic_dematerializer", 167677 )
+    all:RegisterGear( "hyperthread_wristwraps", 168989 )
 
     all:RegisterAura( "cyclotronic_blast", {
         id = 293491,
@@ -636,6 +637,9 @@ do
         cooldown = 120,
         gcd = "off",
 
+        item = 168989,
+        toggle = "cooldowns",
+
         handler = function ()
             -- Gain 5 seconds of CD for the last 3 spells.
             for i = 1, 3 do
@@ -702,7 +706,7 @@ do
                 local count = 0
                 local counted = 0
                 for i = 1, 10 do
-                    if not hyperthread_blocks[ state.sprev[ i ].spell ] then
+                    if not hyperthread_blocks[ state.prev[ i ].spell ] then
                         counted = counted + 1
                     end
 

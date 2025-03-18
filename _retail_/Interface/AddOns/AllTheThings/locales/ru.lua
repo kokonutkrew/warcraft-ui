@@ -422,7 +422,7 @@ for key,value in pairs({
 	["Expansion Pre"] = "Препатч";
 	["Особый контент"] = "ОК";
 	[GROUP_FINDER] = "П и Р";	-- ["Dungeons & Raids"] = "D&R"
-	["Cataclysm"] = "Ката";
+	["Cataclysm "] = "Ката ";
 	["Темные Земли"] = "ТЗ",
 	["Player vs Player"] = "ПвП";
 	["Поиск рейда"] = "ЛФР";

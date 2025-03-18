@@ -1,9 +1,5 @@
 
 BattlePetCompletionistDB = {
-["global"] = {
-["minimap"] = {
-},
-},
 ["profileKeys"] = {
 ["Samoanslayer - Emerald Dream"] = "Default",
 ["Samoanghost - Area 52"] = "Default",
@@ -29,16 +25,20 @@ BattlePetCompletionistDB = {
 ["Samoanskully - Area 52"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
 ["Crankcraft - Area 52"] = "Default",
-["Buycraft - Area 52"] = "Default",
-["Shadowcraft - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoanlegend - Area 52"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
 ["Samoanrocket - Area 52"] = "Default",
-["Samoanstrafe - Area 52"] = "Default",
 ["Samoantitan - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
 ["Samoansage - Area 52"] = "Default",
 ["Farmcraft - Area 52"] = "Default",
-["Samoanlegend - Area 52"] = "Default",
-["Samoantitan - Emerald Dream"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
+["Buycraft - Area 52"] = "Default",
+},
+["global"] = {
+["minimap"] = {
+},
 },
 ["profiles"] = {
 ["Default"] = {

@@ -417,7 +417,7 @@ for key,value in pairs({
 		["Burning Crusade"] = "TBC",
 		["The BC"] = "TBC",
 		["Wrath of the Lich King"] = "WotLK",
-		["Cataclysm"] = "Cata",
+		["Cataclysm "] = "Cata ",
 		["Mists of Pandaria"] = "MoP",
 		["Warlords of Draenor"] = "WoD",
 		["Battle for Azeroth"] = "BFA",

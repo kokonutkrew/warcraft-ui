@@ -14,7 +14,7 @@ BattleGroundEnemies: enabled
 BigWigs: disabled
 BigWigs_Core: enabled
 BigWigs_KhazAlgar: disabled
-BigWigs_LiberationOfUndermine: disabled
+BigWigs_LiberationOfUndermine: enabled
 BigWigs_NerubarPalace: disabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled

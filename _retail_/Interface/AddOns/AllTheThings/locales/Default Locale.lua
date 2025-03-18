@@ -421,7 +421,7 @@ local L = setmetatable({
 		["The BC"] = "BC",
 		["Wrath of the Lich King"] = "WotLK",
 		["Cataclysm %>"] = "Cata >",
-		["Cataclysm"] = "Cata",
+		["Cataclysm "] = "Cata ",
 		["Mists of Pandaria"] = "MoP",
 		["Warlords of Draenor"] = "WoD",
 		["Battle for Azeroth"] = "BFA",
@@ -429,7 +429,6 @@ local L = setmetatable({
 		["Shadowlands"] = "SL",
 		["Dragonflight"] = "DF",
 		["The War Within"] = "TWW",
-		["Enterprising Hero: The War Within Season Two"] = "Enterprising Hero: TWW S2",
 		-- Dungeon & Raid
 		["Normal"] = "N",
 		["Heroic"] = "H",
@@ -467,7 +466,10 @@ local L = setmetatable({
 		["Tazavesh, the Veiled Market"] = "Tazavesh",
 		-- TWW
 		["Ara-Kara, City of Echoes"] = "Ara-Kara",
+		["Enterprising Hero: The War Within Season Two"] = "Enterprising Hero: TWW S2",
+		["Mug'Zee, Heads of Security"] = "Mug'Zee",
 		["Sikran, Captain of the Sureki"] = "Sikran",
+		["Vexie and the Geargrinders"] = "Vexie & the Geargrinders",
 		-- Outdoor Zones
 		["Quartermaster Miranda Breechlock"] = "Quartermaster Miranda",
 		["Season "] = "S",

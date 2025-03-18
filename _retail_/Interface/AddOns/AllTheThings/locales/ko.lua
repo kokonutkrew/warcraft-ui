@@ -427,7 +427,7 @@ for key,value in pairs({
 		--TODO: ["Burning Crusade"] = "BC",
 		--TODO: ["The BC"] = "BC",
 		--TODO: ["Wrath of the Lich King"] = "WotLK",
-		--TODO: ["Cataclysm"] = "Cata",
+		--TODO: ["Cataclysm "] = "Cata ",
 		--TODO: ["Mists of Pandaria"] = "MoP",
 		--TODO: ["Warlords of Draenor"] = "WoD",
 		--TODO: ["Battle for Azeroth"] = "BFA",

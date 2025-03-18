@@ -26,16 +26,10 @@ PremadeGroupsFilterState = {
 ["enabled"] = true,
 },
 ["version"] = 6,
-["c9f8"] = {
-["enabled"] = true,
-},
-["c114f6"] = {
-["enabled"] = true,
-},
 ["c114f5"] = {
 ["enabled"] = true,
 },
-["c3f5"] = {
+["c114f6"] = {
 ["enabled"] = true,
 },
 ["c6f4"] = {
@@ -50,5 +44,11 @@ PremadeGroupsFilterState = {
 },
 ["expression"] = "",
 },
+},
+["c3f5"] = {
+["enabled"] = true,
+},
+["c9f8"] = {
+["enabled"] = true,
 },
 }

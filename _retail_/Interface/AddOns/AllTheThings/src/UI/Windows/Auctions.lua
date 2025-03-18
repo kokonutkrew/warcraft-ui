@@ -7,7 +7,16 @@ local debugprofilestop, next, pcall, select, tinsert, tonumber
 	= debugprofilestop, next, pcall, select, tinsert, tonumber;
 	
 -- Module locals
-local auctionData = {};
+local auctionData, priceA, priceB = {};
+local function SortByPrice(a,b)
+	priceA = a.price or 0;
+	priceB = b.price or 0;
+	if priceA == priceB then
+		return a.itemID < b.itemID;
+	else
+		return priceA < priceB;
+	end
+end
 
 -- API Differences
 local CanFullScan, ReceiveAuctions, RunFullScan;
@@ -64,7 +73,7 @@ if C_AuctionHouse then
 			local auction;
 			for i=0,numItems-1 do
 				auction = {C_AuctionHouse_GetReplicateItemInfo(i)};
-				auctionData[auction[17]] = 1;
+				auctionData[auction[17]] = auction[10] or auction[11] or auction[8] or 0;	-- buyoutPrice or bidAmount or minBid
 			end
 			callback(numItems);
 		end
@@ -85,11 +94,15 @@ else
 		local numItems = GetNumAuctionItems("list");
 		if numItems > 0 then
 			local index = 1;
+			local auction;
 			repeat
 				-- Process the Auction
-				local saleStatus, itemID = select(16, GetAuctionItemInfo("list", index));
-				if itemID and itemID > 0 and saleStatus == 0 then
-					auctionData[itemID] = 1;
+				auction = {GetAuctionItemInfo("list", index)};
+				if auction[16] == 0 then	-- saleStatus
+					local itemID = auction[17];	-- itemId
+					if itemID and itemID > 0 then
+						auctionData[itemID] = auction[10] or auction[11] or auction[8] or 0;	-- buyoutPrice or bidAmount or minBid
+					end
 				end
 				index = index + 1;
 			until index > numItems;
@@ -107,6 +120,7 @@ end
 -- Implementation
 app:CreateWindow("Auctions", {
 	Commands = { "attauctions" },
+	TooltipAnchor = "ANCHOR_RIGHT",
 	IgnoreSettings = true,
 	IgnoreQuestUpdates = true,
 	OnInit = function(self, handlers)
@@ -305,7 +319,7 @@ app:CreateWindow("Auctions", {
 						OnUpdate = function(data)
 							-- Determine if anything is cached in the Auction Data.
 							local any = false;
-							for itemID,unused in pairs(auctionData) do
+							for itemID,price in pairs(auctionData) do
 								any = true;
 								break;
 							end
@@ -389,14 +403,14 @@ app:CreateWindow("Auctions", {
 						
 						-- Determine if anything is cached in the Auction Data.
 						local any = false;
-						for itemID,unused in pairs(auctionData) do
+						for itemID,price in pairs(auctionData) do
 							any = true;
 							break;
 						end
 						if any then
 							-- Search the ATT Database for information related to the auction links (items, species, etc)
 							local searchResultsByKey, searchResult, searchResults, key, keys, value, data = {}, nil, nil, nil, nil, nil, nil;
-							for itemID,unused in pairs(auctionData) do
+							for itemID,price in pairs(auctionData) do
 								searchResults = app.SearchForField("itemID", itemID);
 								if searchResults and #searchResults > 0 then
 									searchResult = searchResults[1];
@@ -421,6 +435,10 @@ app:CreateWindow("Auctions", {
 										data = CloneReference(searchResult);
 										if data.key == "npcID" then app.CreateItem(itemID, data); end
 										data.indent = 1;
+										if price and price > 0 then
+											data.price = price;
+											data.cost = price;
+										end
 										keys[value] = data;
 									end
 								end
@@ -490,6 +508,7 @@ app:CreateWindow("Auctions", {
 								for i,j in pairs(searchResults) do
 									tinsert(subdata.g, j);
 								end
+								table.sort(subdata.g, SortByPrice);
 								tinsert(g, subdata);
 							end
 						else

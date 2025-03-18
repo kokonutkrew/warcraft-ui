@@ -19,7 +19,7 @@ BigWigs:AddColors("Azerokk", {
 
 BigWigs:AddColors("Rixxa Fluxflame", {
 	[259856] = {"blue","orange"},
-	[259940] = "yellow",
+	[259940] = {"blue","yellow"},
 	[270042] = {"blue","red"},
 	[275992] = "cyan",
 })
@@ -37,6 +37,7 @@ BigWigs:AddColors("The MOTHERLODE!! Trash", {
 	[262377] = {"blue","yellow"},
 	[262383] = "cyan",
 	[263202] = "red",
+	[263215] = "orange",
 	[263628] = "purple",
 	[267354] = "yellow",
 	[267433] = "yellow",
@@ -48,7 +49,7 @@ BigWigs:AddColors("The MOTHERLODE!! Trash", {
 	[269090] = "orange",
 	[269302] = "red",
 	[269313] = "yellow",
-	[269429] = "purple",
+	[269429] = "red",
 	[280604] = {"blue","red","yellow"},
 	[472041] = {"blue","orange"},
 	[473168] = "yellow",
@@ -56,5 +57,5 @@ BigWigs:AddColors("The MOTHERLODE!! Trash", {
 	[1213139] = "yellow",
 	[1214754] = "orange",
 	[1215411] = "purple",
-	[1217279] = "purple",
+	[1217279] = "yellow",
 })

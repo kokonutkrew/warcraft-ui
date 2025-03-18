@@ -162,8 +162,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Darkness, I Dream",
 ["source"] = 1,
 },
-[55519] = {
-["title"] = "A Fresh Trauma",
+[72977] = {
+["title"] = "Where the Flames Fell",
 ["source"] = 1,
 },
 [40519] = {
@@ -178,16 +178,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Expedition Awaits",
 ["source"] = 1,
 },
-[72977] = {
-["title"] = "Where the Flames Fell",
+[72291] = {
+["title"] = "Story of a Memorable Victory",
 ["source"] = 1,
 },
 [77433] = {
 ["title"] = "Excavation: Riverbed",
 ["source"] = 1,
 },
-[72291] = {
-["title"] = "Story of a Memorable Victory",
+[55519] = {
+["title"] = "A Fresh Trauma",
 ["source"] = 1,
 },
 },
@@ -302,6 +302,26 @@ RecklessAbandonPrivateDB = {
 },
 },
 ["Samoanseraph - Area 52"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[11007] = {
+["title"] = "Kael'thas and the Verdant Sphere",
+["source"] = 1,
+},
+[72292] = {
+["title"] = "Story of a Spectacular Victory",
+["source"] = 1,
+},
+[83137] = {
+["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
+[72192] = {
+["title"] = "Halls of Infusion: Entropy to Order",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -365,12 +385,12 @@ RecklessAbandonPrivateDB = {
 ["Samoandrake - Emerald Dream"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[82651] = {
-["title"] = "Omens Unified",
-["source"] = 1,
-},
 [11007] = {
 ["title"] = "Kael'thas and the Verdant Sphere",
+["source"] = 1,
+},
+[83137] = {
+["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 },
@@ -406,8 +426,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "A Brother's Help",
 ["source"] = 1,
 },
-[82959] = {
-["title"] = "Hillhelm Family: Lost Diary",
+[84370] = {
+["title"] = "The Key to Success",
 ["source"] = 1,
 },
 [55519] = {
@@ -459,12 +479,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Tyr's Footsteps: The Ohn'ahran Plains",
 ["source"] = 1,
 },
-[72067] = {
-["title"] = "Relaxation Time!",
-["source"] = 1,
-},
 [40519] = {
 ["title"] = "Legion: The Legion Returns",
+["source"] = 1,
+},
+[66997] = {
+["title"] = "Nursery Direction",
 ["source"] = 1,
 },
 [29829] = {
@@ -479,8 +499,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Critical Path",
 ["source"] = 1,
 },
-[66997] = {
-["title"] = "Nursery Direction",
+[72067] = {
+["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
 [71219] = {
@@ -712,20 +732,20 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Box of Many Things",
 ["source"] = 1,
 },
-[65749] = {
-["title"] = "The Necessity Of Equipment",
-["source"] = 1,
-},
-[82539] = {
-["title"] = "Radiant Echoes",
+[72644] = {
+["title"] = "An Urgent Matter",
 ["source"] = 1,
 },
 [65431] = {
 ["title"] = "Further Research: Aealic",
 ["source"] = 1,
 },
-[72644] = {
-["title"] = "An Urgent Matter",
+[82539] = {
+["title"] = "Radiant Echoes",
+["source"] = 1,
+},
+[65749] = {
+["title"] = "The Necessity Of Equipment",
 ["source"] = 1,
 },
 },
@@ -787,6 +807,14 @@ RecklessAbandonPrivateDB = {
 },
 },
 ["Farmcraft - Area 52"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[83137] = {
+["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -902,16 +930,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Advance to Faerin",
 ["source"] = 1,
 },
-[82960] = {
-["title"] = "Hillhelm Family: Lily's Locket",
+[83137] = {
+["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 [57043] = {
 ["title"] = "Old Friends, New Opportunities",
-["source"] = 1,
-},
-[82959] = {
-["title"] = "Hillhelm Family: Lost Diary",
 ["source"] = 1,
 },
 },
@@ -1046,8 +1070,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Stealing Their Thunder",
 ["source"] = 1,
 },
-[78379] = {
-["title"] = "The Stench of Revenge",
+[30757] = {
+["title"] = "Lord of the Shado-Pan",
 ["source"] = 1,
 },
 },
@@ -1164,16 +1188,16 @@ RecklessAbandonPrivateDB = {
 ["Threadcraft - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
+[83137] = {
+["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
 [57043] = {
 ["title"] = "Old Friends, New Opportunities",
 ["source"] = 1,
 },
 [83497] = {
 ["title"] = "A Concerned Friend",
-["source"] = 1,
-},
-[83587] = {
-["title"] = "Our Chance to Strike",
 ["source"] = 1,
 },
 },
@@ -1250,14 +1274,6 @@ RecklessAbandonPrivateDB = {
 },
 },
 ["Samoanlegend - Area 52"] = {
-["exclusions"] = {
-["excludedQuests"] = {
-[8883] = {
-["title"] = "Valadar Starsong",
-["source"] = 1,
-},
-},
-},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -1357,6 +1373,14 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Legion: The Legion Returns",
 ["source"] = 1,
 },
+[86273] = {
+["title"] = "Visit to the Shop",
+["source"] = 1,
+},
+[86461] = {
+["title"] = "Ancient Curiosity: Combat",
+["source"] = 1,
+},
 },
 },
 ["automationOptions"] = {
@@ -1419,8 +1443,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Tyr's Footsteps: The Waking Shores",
 ["source"] = 1,
 },
-[65795] = {
-["title"] = "Next Steppes",
+[75665] = {
+["title"] = "A Worthy Ally: Loamm Niffen",
 ["source"] = 1,
 },
 [76566] = {
@@ -1435,6 +1459,10 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Blacksmithing Services Requested",
 ["source"] = 1,
 },
+[65795] = {
+["title"] = "Next Steppes",
+["source"] = 1,
+},
 [70930] = {
 ["title"] = "All Tea, No Shadeleaf",
 ["source"] = 1,
@@ -1443,8 +1471,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
-[75665] = {
-["title"] = "A Worthy Ally: Loamm Niffen",
+[83137] = {
+["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 },
@@ -1464,12 +1492,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Fel-Ravaged Tome",
 ["source"] = 1,
 },
-[84365] = {
-["title"] = "Something on the Horizon",
-["source"] = 1,
-},
 [7905] = {
 ["title"] = "The Darkmoon Faire",
+["source"] = 1,
+},
+[84365] = {
+["title"] = "Something on the Horizon",
 ["source"] = 1,
 },
 [11007] = {
@@ -1493,20 +1521,20 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Wayward Waywatcher",
 ["source"] = 1,
 },
-[65837] = {
-["title"] = "Trouble In The Pines",
-["source"] = 1,
-},
 [72291] = {
 ["title"] = "Story of a Memorable Victory",
+["source"] = 1,
+},
+[72067] = {
+["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
 [70125] = {
 ["title"] = "Where is Wrathion?",
 ["source"] = 1,
 },
-[72067] = {
-["title"] = "Relaxation Time!",
+[65837] = {
+["title"] = "Trouble In The Pines",
 ["source"] = 1,
 },
 },
@@ -1539,28 +1567,20 @@ RecklessAbandonPrivateDB = {
 ["Crankcraft - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[12791] = {
-["title"] = "The Magical Kingdom of Dalaran",
+[86934] = {
+["title"] = "Trash to Profit",
 ["source"] = 1,
 },
-[81890] = {
-["title"] = "Unfulfilled Requests",
+[12791] = {
+["title"] = "The Magical Kingdom of Dalaran",
 ["source"] = 1,
 },
 [57043] = {
 ["title"] = "Old Friends, New Opportunities",
 ["source"] = 1,
 },
-[29433] = {
-["title"] = "Test Your Strength",
-["source"] = 1,
-},
 [81990] = {
 ["title"] = "The Light's Call",
-["source"] = 1,
-},
-[83137] = {
-["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 },
@@ -1580,12 +1600,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Darkness, I Dream",
 ["source"] = 1,
 },
-[54938] = {
-["title"] = "A Brother's Help",
+[55519] = {
+["title"] = "A Fresh Trauma",
 ["source"] = 1,
 },
-[51432] = {
-["title"] = "An Unusual Mentor",
+[56374] = {
+["title"] = "A Titanic Problem",
 ["source"] = 1,
 },
 [31363] = {
@@ -1596,16 +1616,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "That's a Big Bug!",
 ["source"] = 1,
 },
-[55519] = {
-["title"] = "A Fresh Trauma",
+[54938] = {
+["title"] = "A Brother's Help",
 ["source"] = 1,
 },
 [54100] = {
 ["title"] = "A Way Out",
 ["source"] = 1,
 },
-[56374] = {
-["title"] = "A Titanic Problem",
+[51432] = {
+["title"] = "An Unusual Mentor",
 ["source"] = 1,
 },
 },
@@ -1672,16 +1692,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Nesingwary's Trek",
 ["source"] = 1,
 },
-[53155] = {
-["title"] = "Notched Coin",
+[49662] = {
+["title"] = "The Missing Key",
 ["source"] = 1,
 },
 [50794] = {
 ["title"] = "Seeking Shelter",
 ["source"] = 1,
 },
-[49662] = {
-["title"] = "The Missing Key",
+[53155] = {
+["title"] = "Notched Coin",
 ["source"] = 1,
 },
 [49122] = {

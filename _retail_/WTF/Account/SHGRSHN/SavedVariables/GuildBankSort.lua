@@ -1,27 +1,8 @@
 
 gbsDB = {
-["currentProfile"] = {
-["Samoanshadow-Area52"] = "Default",
-["Crankcraft-Area52"] = "Default",
-["Samoanghost-Area52"] = "Default",
-["Threadcraft-Area52"] = "Default",
-["Samoanstrafe-Area52"] = "Default",
-["Samoantitan-Area52"] = "Default",
-["Herbcraft-Area52"] = "Default",
-["Samoanskully-Area52"] = "Default",
-["Samoansifu-Area52"] = "Default",
-["Forgecraft-Area52"] = "Default",
-},
-["theme"] = {
-["hex"] = "00ccff",
-["r"] = 0,
-["g"] = 0.8,
-["b"] = 1,
-},
-["version"] = "2.0.0",
 ["profiles"] = {
 ["Default"] = {
-["flag"] = {
+["forcedFlag"] = {
 },
 ["options"] = {
 ["ignoreTab"] = {
@@ -36,21 +17,47 @@ gbsDB = {
 },
 ["showPreview"] = true,
 ["keepBlacklisted"] = true,
-["updateItems"] = true,
+["stackItems"] = true,
 ["sortBy"] = true,
 ["printStepsLeft"] = true,
-["stackItems"] = true,
-},
-["stack"] = {
-},
-["forcedFlag"] = {
+["updateItems"] = true,
 },
 ["priority"] = {
+},
+["flag"] = {
+},
+["stack"] = {
 },
 ["whitelist"] = {
 },
 ["blacklist"] = {
 },
 },
+},
+["version"] = "2.0.0",
+["theme"] = {
+["hex"] = "00ccff",
+["b"] = 1,
+["g"] = 0.8,
+["r"] = 0,
+},
+["currentProfile"] = {
+["Samoansage-EmeraldDream"] = "Default",
+["Samoanshadow-Area52"] = "Default",
+["Samoanlegend-Area52"] = "Default",
+["Crankcraft-Area52"] = "Default",
+["Samoanskully-Area52"] = "Default",
+["Forgecraft-Area52"] = "Default",
+["Samoanrocket-Area52"] = "Default",
+["Samoansifu-Area52"] = "Default",
+["Samoandrake-EmeraldDream"] = "Default",
+["Farmcraft-Area52"] = "Default",
+["Threadcraft-Area52"] = "Default",
+["Samoantitan-Area52"] = "Default",
+["Samoanseraph-Area52"] = "Default",
+["Herbcraft-Area52"] = "Default",
+["Samoanreaper-Area52"] = "Default",
+["Samoanstrafe-Area52"] = "Default",
+["Samoanghost-Area52"] = "Default",
 },
 }

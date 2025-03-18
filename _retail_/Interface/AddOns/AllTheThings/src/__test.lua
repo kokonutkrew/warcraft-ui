@@ -539,3 +539,42 @@ function ATTclones(count)
 	local new = CloneArray_index(test)
 	app.PrintDebugPrior("---")
 end
+
+function ATTscripttimeout(source, immediatesec)
+	app.print("Script Timeout test via",source,"@",immediatesec)
+	local Success
+	local function LongRun(sec)
+		Success = nil
+		app.print("waiting",sec,"s ... via",source)
+		local done = GetTimePreciseSec() + (sec or 0)
+		while GetTimePreciseSec() < done do
+		end
+		app.print("waited",sec,"s via",source)
+		Success = true
+	end
+
+	if immediatesec then
+		LongRun(tonumber(immediatesec))
+		return
+	end
+
+	local Runner = app.CreateRunner("TestScriptTimeout")
+	Runner.SetPerFrameDefault(1)
+	local function VerifyPriorSuccess()
+		if Success then
+			app.print("Success!")
+		else
+			app.print("Script Timeout!")
+		end
+	end
+
+	for i=0,5 do
+		-- Runner.Run(LongRun, math.pow(2,i))
+		Runner.Run(LongRun, 5)
+		Runner.Run(VerifyPriorSuccess)
+	end
+end
+
+-- ATTscripttimeout("immediate", 21)
+-- app.AddEventHandler("OnLoad", ATTscripttimeout)
+-- app.AddEventHandler("OnReady", ATTscripttimeout)

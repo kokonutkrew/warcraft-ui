@@ -58,18 +58,8 @@ PremadeGroupsFilterState = {
 ["c9f8"] = {
 ["enabled"] = true,
 },
-["c121f4"] = {
-["role"] = {
-["heals"] = {
-},
-["tanks"] = {
-},
-["dps"] = {
-},
-["members"] = {
-},
-["expression"] = "",
-},
+["c3f6"] = {
+["enabled"] = true,
 },
 ["version"] = 6,
 ["c114f5"] = {
@@ -91,8 +81,18 @@ PremadeGroupsFilterState = {
 ["expression"] = "",
 },
 },
-["c3f6"] = {
-["enabled"] = true,
+["c121f4"] = {
+["role"] = {
+["heals"] = {
+},
+["tanks"] = {
+},
+["dps"] = {
+},
+["members"] = {
+},
+["expression"] = "",
+},
 },
 ["c6f133"] = {
 ["role"] = {

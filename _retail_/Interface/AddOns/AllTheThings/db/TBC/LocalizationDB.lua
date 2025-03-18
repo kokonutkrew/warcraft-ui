@@ -694,7 +694,6 @@ _.Modules.Events.SetEventInformation(141, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=4,["year"]=2026},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=7,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(479, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=5,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=12,["weekday"]=1,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=2,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=9,["weekday"]=1,["year"]=2025},{["remappedID"]=376}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=2,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=9,["weekday"]=1,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=6,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=13,["weekday"]=1,["year"]=2025},{["remappedID"]=375}),
@@ -704,7 +703,8 @@ _.Modules.Events.SetEventInformation(479, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=10,["weekday"]=1,["year"]=2025},{["remappedID"]=376}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=7,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=14,["weekday"]=1,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=5,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=12,["weekday"]=1,["year"]=2025},{["remappedID"]=375}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=2,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=9,["weekday"]=1,["year"]=2025},{["remappedID"]=376})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=2,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=9,["weekday"]=1,["year"]=2025},{["remappedID"]=376}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=14,["weekday"]=1,["year"]=2025},{["remappedID"]=374})
 });
 _.Modules.Events.SetEventInformation(201, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=3,["year"]=2024}),
@@ -15372,7 +15372,7 @@ localize(L.HEADER_NAMES, {
 	[-1000129] = "复仇角斗士：第3赛季",
 	[-1000130] = "野蛮角斗士：第4赛季",
 	[-1000141] = "角斗士装备",
-	[-1000142] = "荣誉头衔",
+	[-1000142] = HONOR .. PAPERDOLL_SIDEBAR_TITLES,
 	[-1000162] = "共享外观",
 	[-1000163] = "独特外观",
 	[-1000165] = "T0.5套装",
@@ -16836,7 +16836,6 @@ localize(L.HEADER_NAMES, {
 	[-1000129] = "仇恨鬥士：第3賽季",
 	[-1000130] = "野蠻鬥士：第4賽季",
 	[-1000141] = "鬥士裝備",
-	[-1000142] = "榮譽頭銜",
 	[-1000162] = "共享外觀",
 	[-1000163] = "獨特外觀",
 	[-1000165] = "T0.5套裝",

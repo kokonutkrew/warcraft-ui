@@ -81,6 +81,7 @@ function mod:GetOptions()
 		268712, -- Bag of Bombs
 		-- Stonefury
 		{268702, "NAMEPLATE"}, -- Furious Quake
+		{263215, "NAMEPLATE"}, -- Tectonic Barrier
 		-- Taskmaster Askari
 		{1214754, "NAMEPLATE"}, -- Massive Slam
 		{1213139, "DISPEL", "NAMEPLATE"}, -- Overtime!
@@ -91,10 +92,10 @@ function mod:GetOptions()
 		-- Venture Co. Alchemist
 		{268797, "DISPEL", "NAMEPLATE"}, -- Transmute: Enemy to Goo
 		-- Venture Co. War Machine
-		{269429, "TANK", "NAMEPLATE"}, -- Charged Shot
+		{269429, "NAMEPLATE"}, -- Charged Shot
 		{262383, "NAMEPLATE"}, -- Deploy Crawler Mine
 		-- Crawler Mine
-		{262377, "ME_ONLY"}, -- Seek and Destroy
+		{262377, "ME_ONLY", "NAMEPLATE"}, -- Seek and Destroy
 		-- Ordnance Specialist
 		{269090, "NAMEPLATE"}, -- Artillery Barrage
 	}, {
@@ -114,10 +115,15 @@ function mod:GetOptions()
 		[269429] = L.venture_co_war_machine,
 		[262377] = L.crawler_mine,
 		[269090] = L.ordnance_specialist,
+	}, {
+		[262377] = CL.fixate, -- Seek and Destroy (Fixate)
 	}
 end
 
 function mod:OnBossEnable()
+	-- Warmup
+	self:Log("SPELL_CAST_START", "PonyUp", 267546)
+
 	-- Refreshment Vendor
 	self:RegisterEngageMob("RefreshmentVendorEngaged", 136470)
 	self:Log("SPELL_CAST_START", "IcedSpritzer", 280604)
@@ -127,17 +133,14 @@ function mod:OnBossEnable()
 	self:Death("RefreshmentVendorDeath", 136470)
 
 	-- Mech Jockey
-	--self:RegisterEngageMob("MechJockeyEngaged", 130488)
-	self:Log("SPELL_CAST_START", "ActivateMech", 267433)
-	self:Log("SPELL_CAST_SUCCESS", "ActivateMechSuccess", 267433)
-	--self:Death("MechJockeyDeath", 130488)
+	self:Log("SPELL_CAST_START", "ActivateMech", 267433) --  Heroic and Mythic only
 
 	-- Mechanized Peacekeeper
 	self:RegisterEngageMob("MechanizedPeacekeeperEngaged", 130485, 136139) -- Mech Jockey summon, regular
 	self:Log("SPELL_CAST_START", "ChargedShield", 263628)
-	self:Log("SPELL_CAST_START", "TearGas", 472041)
-	self:Log("SPELL_PERIODIC_DAMAGE", "TearGasDamage", 1217283)
-	self:Log("SPELL_PERIODIC_MISSED", "TearGasDamage", 1217283)
+	self:Log("SPELL_CAST_START", "TearGas", 472041) -- Heroic and Mythic only
+	self:Log("SPELL_PERIODIC_DAMAGE", "TearGasDamage", 1217283) -- Heroic and Mythic only
+	self:Log("SPELL_PERIODIC_MISSED", "TearGasDamage", 1217283) -- Heroic and Mythic only
 	self:Death("MechanizedPeacekeeperDeath", 130485, 136139) -- Mech Jockey summon, regular
 
 	-- Addled Thug
@@ -164,8 +167,8 @@ function mod:OnBossEnable()
 	-- Venture Co. Earthshaper
 	self:RegisterEngageMob("VentureCoEarthshaperEngaged", 130661)
 	self:Log("SPELL_CAST_START", "RockLance", 263202)
-	--self:Log("SPELL_INTERRUPT", "RockLanceInterrupt", 263202) XXX changed back to CD on cast start in late PTR
-	--self:Log("SPELL_CAST_SUCCESS", "RockLanceSuccess", 263202) XXX changed back to CD on cast start in late PTR
+	self:Log("SPELL_INTERRUPT", "RockLanceInterrupt", 263202)
+	self:Log("SPELL_CAST_SUCCESS", "RockLanceSuccess", 263202)
 	self:Death("VentureCoEarthshaperDeath", 130661)
 
 	-- Wanton Sapper
@@ -180,6 +183,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "FuriousQuake", 268702)
 	self:Log("SPELL_INTERRUPT", "FuriousQuakeInterrupt", 268702)
 	self:Log("SPELL_CAST_SUCCESS", "FuriousQuakeSuccess", 268702)
+	self:Log("SPELL_CAST_START", "TectonicBarrier", 263215) -- Heroic and Mythic only
+	self:Log("SPELL_INTERRUPT", "TectonicBarrierInterrupt", 263215) -- Heroic and Mythic only
+	self:Log("SPELL_CAST_SUCCESS", "TectonicBarrierSuccess", 263215) -- Heroic and Mythic only
 	self:Death("StonefuryDeath", 130635)
 
 	-- Taskmaster Askari
@@ -204,6 +210,8 @@ function mod:OnBossEnable()
 	-- Venture Co. Alchemist
 	self:RegisterEngageMob("VentureCoAlchemistEngaged", 133432)
 	self:Log("SPELL_CAST_START", "TransmuteEnemyToGoo", 268797)
+	self:Log("SPELL_INTERRUPT", "TransmuteEnemyToGooInterrupt", 268797)
+	self:Log("SPELL_CAST_SUCCESS", "TransmuteEnemyToGooSuccess", 268797)
 	self:Log("SPELL_AURA_APPLIED", "TransmuteEnemyToGooApplied", 268797)
 	self:Death("VentureCoAlchemistDeath", 133432)
 
@@ -215,6 +223,7 @@ function mod:OnBossEnable()
 
 	-- Crawler Mine
 	self:Log("SPELL_AURA_APPLIED", "SeekAndDestroyApplied", 262377)
+	self:Log("SPELL_AURA_REMOVED", "SeekAndDestroyRemoved", 262377)
 
 	-- Ordnance Specialist
 	self:RegisterEngageMob("OrdnanceSpecialistEngaged", 137029)
@@ -225,6 +234,23 @@ end
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
+
+-- Warmup
+
+do
+	local prev = 0
+	function mod:PonyUp(args)
+		-- cast twice as part of Coin-Operated Crowd Pummeler's warmup RP
+		if args.time - prev > 30 then
+			prev = args.time
+			local crowdPummelerModule = BigWigs:GetBossModule("Coin-Operated Crowd Pummeler", true)
+			if crowdPummelerModule then
+				crowdPummelerModule:Enable()
+				crowdPummelerModule:Warmup()
+			end
+		end
+	end
+end
 
 -- Refreshment Vendor
 
@@ -265,15 +291,10 @@ end
 
 -- Mech Jockey
 
---function mod:MechJockeyEngaged(guid)
-	-- if there is no Mech to activate nearby, this NPC does nothing
-	--self:Nameplate(267433, 10.7, guid) -- Activate Mech
---end
-
 do
 	local prev = 0
-	function mod:ActivateMech(args)
-		--self:Nameplate(args.spellId, 0, args.sourceGUID)
+	function mod:ActivateMech(args) -- Heroic and Mythic only
+		-- if there is no Mech to activate nearby, this will not be cast
 		if args.time - prev > 1.5 then
 			prev = args.time
 			self:Message(args.spellId, "yellow")
@@ -282,39 +303,28 @@ do
 	end
 end
 
-function mod:ActivateMechSuccess(args)
-	-- becomes untargetable while piloting the Mechanized Peacekeeper
-	self:ClearNameplate(args.sourceGUID)
-end
-
---function mod:MechJockeyDeath(args)
-	--self:ClearNameplate(args.destGUID)
---end
-
 -- Mechanized Peacekeeper
 
 function mod:MechanizedPeacekeeperEngaged(guid)
-	-- TODO Heroic in 11.1 follows which set of timers?
-	if self:Mythic() then
+	if self:Normal() then
+		self:Nameplate(263628, 2.2, guid) -- Charged Shield
+	else -- Heroic, Mythic
 		self:Nameplate(472041, 9.2, guid) -- Tear Gas
 		self:Nameplate(263628, 16.5, guid) -- Charged Shield
-	else -- Normal
-		self:Nameplate(263628, 2.2, guid) -- Charged Shield
 	end
 end
 
 function mod:ChargedShield(args)
 	self:Message(args.spellId, "purple")
-	-- TODO Heroic in 11.1 follows which set of timers?
-	if self:Mythic() then
-		self:Nameplate(args.spellId, 26.3, args.sourceGUID)
-	else -- Normal
+	if self:Normal() then
 		self:Nameplate(args.spellId, 18.2, args.sourceGUID)
+	else -- Heroic, Mythic
+		self:Nameplate(args.spellId, 26.3, args.sourceGUID)
 	end
 	self:PlaySound(args.spellId, "alert")
 end
 
-function mod:TearGas(args)
+function mod:TearGas(args) -- Heroic and Mythic only
 	self:Message(args.spellId, "orange")
 	self:Nameplate(args.spellId, 19.4, args.sourceGUID)
 	self:PlaySound(args.spellId, "alarm")
@@ -322,7 +332,7 @@ end
 
 do
 	local prev = 0
-	function mod:TearGasDamage(args)
+	function mod:TearGasDamage(args) -- Heroic and Mythic only
 		if self:Me(args.destGUID) and args.time - prev > 1.5 then
 			prev = args.time
 			self:PersonalMessage(472041, "underyou")
@@ -369,7 +379,7 @@ do
 		self:Nameplate(args.spellId, 21.9, args.sourceGUID)
 		if args.time - prev > 2 then
 			prev = args.time
-			self:Message(args.spellId, "purple")
+			self:Message(args.spellId, "yellow")
 			self:PlaySound(args.spellId, "alarm")
 		end
 	end
@@ -426,7 +436,7 @@ end
 
 function mod:AzeriteExtractorEngaged(guid)
 	self:Nameplate(1215411, 9.1, guid) -- Puncture
-	self:Nameplate(473168, 15.2, guid) -- Rapid Extraction
+	self:Nameplate(473168, 14.8, guid) -- Rapid Extraction
 end
 
 function mod:RapidExtraction(args)
@@ -454,8 +464,13 @@ end
 do
 	local prev = 0
 	function mod:RockLance(args)
-		self:Nameplate(args.spellId, 24.3, args.sourceGUID) -- cooldown on cast start
-		if args.time - prev > 1.5 then
+		if self:Normal() then
+			-- cooldown on cast start in Normal only
+			self:Nameplate(args.spellId, 24.2, args.sourceGUID)
+		else -- Heroic, Mythic
+			self:Nameplate(args.spellId, 0, args.sourceGUID)
+		end
+		if args.time - prev > 2.5 then
 			prev = args.time
 			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
 			self:PlaySound(args.spellId, "alert")
@@ -463,13 +478,17 @@ do
 	end
 end
 
---function mod:RockLanceInterrupt(args)
-	--self:Nameplate(263202, 24.3, args.destGUID)
---end
+function mod:RockLanceInterrupt(args)
+	if not self:Normal() then
+		self:Nameplate(263202, 4.3, args.destGUID)
+	end
+end
 
---function mod:RockLanceSuccess(args)
-	--self:Nameplate(args.spellId, 24.3, args.sourceGUID)
---end
+function mod:RockLanceSuccess(args)
+	if not self:Normal() then
+		self:Nameplate(args.spellId, 4.3, args.sourceGUID)
+	end
+end
 
 function mod:VentureCoEarthshaperDeath(args)
 	self:ClearNameplate(args.destGUID)
@@ -487,7 +506,7 @@ do
 		local unit = self:UnitTokenFromGUID(args.sourceGUID)
 		if unit and UnitAffectingCombat(unit) then
 			self:Nameplate(args.spellId, 15.4, args.sourceGUID)
-			if args.time - prev > 1.5 then
+			if args.time - prev > 2 then
 				prev = args.time
 				self:Message(args.spellId, "orange")
 				self:PlaySound(args.spellId, "alarm")
@@ -500,7 +519,7 @@ do
 	local prev = 0
 	function mod:FinalBlast(args)
 		-- cast once at low health
-		if args.time - prev > 1.5 then
+		if args.time - prev > 2 then
 			prev = args.time
 			self:Message(args.spellId, "yellow")
 			self:PlaySound(args.spellId, "info")
@@ -511,7 +530,7 @@ end
 do
 	local prev = 0
 	function mod:BagOfBombsRemoved(args)
-		if args.time - prev > 1.5 then
+		if args.time - prev > 2 then
 			prev = args.time
 			self:Message(args.spellId, "red")
 			self:PlaySound(args.spellId, "alarm")
@@ -526,29 +545,60 @@ end
 -- Stonefury
 
 function mod:StonefuryEngaged(guid)
-	self:Nameplate(268702, 5.9, guid) -- Furious Quake
+	if self:Normal() then
+		self:Nameplate(268702, 5.2, guid) -- Furious Quake
+	else -- Heroic, Mythic
+		self:Nameplate(263215, 4.7, guid) -- Tectonic Barrier
+		self:Nameplate(268702, 9.5, guid) -- Furious Quake
+	end
 end
 
 do
 	local prev = 0
 	function mod:FuriousQuake(args)
-		-- TODO might not RP fight anymore in 11.1, but still does in 11.0.7
-		local unit = self:UnitTokenFromGUID(args.sourceGUID)
-		if unit and UnitAffectingCombat(unit) and args.time - prev > 1.5 then
+		self:Nameplate(args.spellId, 0, args.sourceGUID)
+		if args.time - prev > 1.5 then
 			prev = args.time
 			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
-			self:Nameplate(args.spellId, 0, args.sourceGUID)
 			self:PlaySound(args.spellId, "warning")
 		end
 	end
 end
 
 function mod:FuriousQuakeInterrupt(args)
-	self:Nameplate(268702, 17.7, args.destGUID)
+	if self:Normal() then
+		self:Nameplate(268702, 17.7, args.destGUID)
+	else -- Heroic, Mythic
+		self:Nameplate(268702, 24.8, args.destGUID)
+	end
 end
 
 function mod:FuriousQuakeSuccess(args)
-	self:Nameplate(args.spellId, 17.7, args.sourceGUID)
+	if self:Normal() then
+		self:Nameplate(args.spellId, 17.7, args.sourceGUID)
+	else -- Heroic, Mythic
+		self:Nameplate(args.spellId, 24.8, args.sourceGUID)
+	end
+end
+
+do
+	local prev = 0
+	function mod:TectonicBarrier(args) -- Heroic and Mythic only
+		self:Nameplate(args.spellId, 0, args.sourceGUID)
+		if args.time - prev > 1.5 then
+			prev = args.time
+			self:Message(args.spellId, "orange", CL.casting:format(args.spellName))
+			self:PlaySound(args.spellId, "alert")
+		end
+	end
+end
+
+function mod:TectonicBarrierInterrupt(args) -- Heroic and Mythic only
+	self:Nameplate(263215, 20.5, args.destGUID)
+end
+
+function mod:TectonicBarrierSuccess(args) -- Heroic and Mythic only
+	self:Nameplate(args.spellId, 20.5, args.sourceGUID)
 end
 
 function mod:StonefuryDeath(args)
@@ -596,10 +646,16 @@ function mod:WeaponsTesterEngaged(guid)
 	self:Nameplate(268846, 4.6, guid) -- Echo Blade
 end
 
-function mod:EchoBlade(args)
-	self:Message(args.spellId, "yellow")
-	self:Nameplate(args.spellId, 0, args.sourceGUID)
-	self:PlaySound(args.spellId, "alarm")
+do
+	local prev = 0
+	function mod:EchoBlade(args)
+		self:Nameplate(args.spellId, 0, args.sourceGUID)
+		if args.time - prev > 2 then
+			prev = args.time
+			self:Message(args.spellId, "yellow")
+			self:PlaySound(args.spellId, "alarm")
+		end
+	end
 end
 
 function mod:EchoBladeSuccess(args)
@@ -638,13 +694,21 @@ do
 	local prev = 0
 	function mod:TransmuteEnemyToGoo(args)
 		-- not cast if solo, and not cast if only tanks and healers are in range
-		self:Nameplate(args.spellId, 20.6, args.sourceGUID) -- cooldown on cast start
+		self:Nameplate(args.spellId, 0, args.sourceGUID)
 		if args.time - prev > 1.5 then
 			prev = args.time
 			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
 			self:PlaySound(args.spellId, "warning")
 		end
 	end
+end
+
+function mod:TransmuteEnemyToGooInterrupt(args)
+	self:Nameplate(268797, 24.2, args.destGUID)
+end
+
+function mod:TransmuteEnemyToGooSuccess(args)
+	self:Nameplate(args.spellId, 24.2, args.sourceGUID)
 end
 
 function mod:TransmuteEnemyToGooApplied(args)
@@ -661,20 +725,32 @@ end
 -- Venture Co. War Machine
 
 function mod:VentureCoWarMachineEngaged(guid)
-	self:Nameplate(269429, 8.3, guid) -- Charged Shot
-	self:Nameplate(262383, 18.1, guid) -- Deploy Crawler Mine
+	self:Nameplate(269429, 6.8, guid) -- Charged Shot
+	self:Nameplate(262383, 17.8, guid) -- Deploy Crawler Mine
 end
 
-function mod:ChargedShot(args)
-	self:Message(args.spellId, "purple")
-	self:Nameplate(args.spellId, 17.0, args.sourceGUID)
-	self:PlaySound(args.spellId, "alert")
+do
+	local prev = 0
+	function mod:ChargedShot(args)
+		self:Nameplate(args.spellId, 17.0, args.sourceGUID)
+		if args.time - prev > 2 then
+			prev = args.time
+			self:Message(args.spellId, "red")
+			self:PlaySound(args.spellId, "alert")
+		end
+	end
 end
 
-function mod:DeployCrawlerMine(args)
-	self:Message(args.spellId, "cyan")
-	self:Nameplate(args.spellId, 35.3, args.sourceGUID)
-	self:PlaySound(args.spellId, "info")
+do
+	local prev = 0
+	function mod:DeployCrawlerMine(args)
+		self:Nameplate(args.spellId, 35.3, args.sourceGUID)
+		if args.time - prev > 2 then
+			prev = args.time
+			self:Message(args.spellId, "cyan")
+			self:PlaySound(args.spellId, "info")
+		end
+	end
 end
 
 function mod:VentureCoWarMachineDeath(args)
@@ -687,10 +763,19 @@ do
 	local prev = 0
 	function mod:SeekAndDestroyApplied(args)
 		self:TargetMessage(args.spellId, "yellow", args.destName)
-		if args.time - prev > 2 then
-			prev = args.time
-			self:PlaySound(args.spellId, "info", nil, args.destName)
+		if self:Me(args.destGUID) then
+			self:Nameplate(args.spellId, 60, args.sourceGUID, CL.fixate)
+			if args.time - prev > 2 then
+				prev = args.time
+				self:PlaySound(args.spellId, "info")
+			end
 		end
+	end
+end
+
+function mod:SeekAndDestroyRemoved(args)
+	if self:Me(args.destGUID) then
+		self:StopNameplate(args.spellId, args.sourceGUID, CL.fixate)
 	end
 end
 

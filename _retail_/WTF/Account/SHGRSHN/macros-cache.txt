@@ -8,13 +8,13 @@ VER 3 0000000000000364 ".a.y7 Pull" "134400"
 /use [known:319836]fire blast;[known:moonfire]moonfire;[known:193455]cobra shot;[known:57755]heroic throw
 /use !auto shot
 END
-VER 3 00000000000003C4 ".a.yAltDownDebuf" "134400"
-#showtooltip
-/use [known:2908]soothe;[known:1725,@cursor]distract;[known:528]dispel magic;[known:370]purge
-END
 VER 3 00000000000003E6 ".a.yAltDownDebuf" "INV_Misc_QuestionMark"
 #showtooltip
 /use [known:2908]soothe;[known:1725,@cursor]distract;[known:528]dispel magic
+END
+VER 3 00000000000003C4 ".a.yAltDownDebuf" "134400"
+#showtooltip
+/use [known:2908]soothe;[known:1725,@cursor]distract;[known:528]dispel magic;[known:370]purge
 END
 VER 3 0000000000000365 ".a.yAltUp Cure" "134400"
 #showtooltip
@@ -415,11 +415,10 @@ VER 3 0000000000000384 "Craft" "132691"
 /petattack
 /castsequence shadow bolt, hand of gul'dan
 END
-VER 3 00000000000003E0 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
-END
 VER 3 00000000000003D8 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END
+VER 3 00000000000003E0 "Decursive" "INV_MISC_QUESTIONMARK"
 /script DecursiveRootTable.Dcr:Println('No spell available')
 END
 VER 3 0000000000000386 "Distance Aggro" "878211"
@@ -446,14 +445,14 @@ VER 3 00000000000003E1 "HSTable" "134400"
 #showtooltip
 /use hearthstone game table
 END
+VER 3 00000000000003B7 "Mailbox" "134400"
+#showtooltip
+/use ohuna perch
+END
 VER 3 0000000000000389 "Mailbox" "413580"
 /tsm destroy
 /click TSMDestroyBtn
 /run AutoLootMailItem(1)
-END
-VER 3 00000000000003B7 "Mailbox" "134400"
-#showtooltip
-/use ohuna perch
 END
 VER 3 00000000000003CA "prof Overpower A" "134400"
 #showtooltip

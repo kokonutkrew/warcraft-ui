@@ -1,5 +1,89 @@
 
 ABP_PLUS_DB = {
+["global"] = {
+["bars"] = {
+["ActionbarPlusF7"] = {
+["anchor"] = {
+["y"] = 20,
+["x"] = -10,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF10"] = {
+["anchor"] = {
+["y"] = -60,
+["x"] = -10,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF4"] = {
+["anchor"] = {
+["y"] = 100,
+["x"] = -10,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF9"] = {
+["anchor"] = {
+["y"] = -60,
+["x"] = -200,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF1"] = {
+["anchor"] = {
+["y"] = -39.27775573730469,
+["x"] = 20.62202644348145,
+["point"] = "TOPLEFT",
+["relativePoint"] = "TOPLEFT",
+},
+},
+["ActionbarPlusF2"] = {
+["anchor"] = {
+["y"] = 164.4112548828125,
+["x"] = -117.1775207519531,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF6"] = {
+["anchor"] = {
+["y"] = 20,
+["x"] = -200,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF3"] = {
+["anchor"] = {
+["y"] = 100,
+["x"] = -200,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF5"] = {
+["anchor"] = {
+["y"] = 100,
+["x"] = 180,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF8"] = {
+["anchor"] = {
+["y"] = 20,
+["x"] = 180,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+},
+},
 ["profileKeys"] = {
 ["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 ["Samoanghost - Area 52"] = "Samoanghost - Area 52",
@@ -28,103 +112,19 @@ ABP_PLUS_DB = {
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
 ["Samoansizzle - Area 52"] = "[KK]",
-["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 ["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Samoanlegend - Area 52"] = "Samoanlegend - Area 52",
 ["Samoantitan - Emerald Dream"] = "[KK]",
 ["Samoantitan - Area 52"] = "[KK]",
-["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-["Crankcraft - Area 52"] = "Crankcraft - Area 52",
-["Herbcraft - Area 52"] = "Herbcraft - Area 52",
 ["Samoanrocket - Area 52"] = "Samoanrocket - Area 52",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+["Crankcraft - Area 52"] = "[KK]",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Samoansage - Area 52"] = "Samoansage - Area 52",
 ["Farmcraft - Area 52"] = "Farmcraft - Area 52",
-["Samoanlegend - Area 52"] = "Samoanlegend - Area 52",
-["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-},
-["global"] = {
-["bars"] = {
-["ActionbarPlusF7"] = {
-["anchor"] = {
-["y"] = 20,
-["x"] = -10,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF10"] = {
-["anchor"] = {
-["y"] = -60,
-["x"] = -10,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF4"] = {
-["anchor"] = {
-["y"] = 100,
-["x"] = -10,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF2"] = {
-["anchor"] = {
-["y"] = 164.4112548828125,
-["x"] = -117.1775207519531,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF3"] = {
-["anchor"] = {
-["y"] = 100,
-["x"] = -200,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF9"] = {
-["anchor"] = {
-["y"] = -60,
-["x"] = -200,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF6"] = {
-["anchor"] = {
-["y"] = 20,
-["x"] = -200,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF1"] = {
-["anchor"] = {
-["y"] = -39.27775573730469,
-["x"] = 20.62202644348145,
-["point"] = "TOPLEFT",
-["relativePoint"] = "TOPLEFT",
-},
-},
-["ActionbarPlusF5"] = {
-["anchor"] = {
-["y"] = 100,
-["x"] = 180,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-["ActionbarPlusF8"] = {
-["anchor"] = {
-["y"] = 20,
-["x"] = 180,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-},
-},
+["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 },
 ["profiles"] = {
 ["Samoanslayer - Emerald Dream"] = {
@@ -136,9 +136,9 @@ ABP_PLUS_DB = {
 ["name"] = "Magmote",
 ["link"] = "|cff1eff00|Hitem:202173::::::::80:73:::::::::|h[Magmote]|h|r",
 ["id"] = 202173,
-["stackCount"] = 5000,
-["icon"] = 511515,
 ["count"] = 4,
+["icon"] = 511515,
+["stackCount"] = 5000,
 },
 ["type"] = "item",
 },
@@ -155,9 +155,9 @@ ABP_PLUS_DB = {
 ["name"] = "Bag of Timewarped Badges",
 ["link"] = "|cff0070dd|Hitem:232598::::::::76:581:::::::::|h[Bag of Timewarped Badges]|h|r",
 ["id"] = 232598,
-["count"] = 36,
-["icon"] = 1519428,
 ["stackCount"] = 1,
+["icon"] = 1519428,
+["count"] = 36,
 },
 ["type"] = "item",
 },
@@ -180,9 +180,9 @@ ABP_PLUS_DB = {
 ["name"] = "Box of Timewarped Badges",
 ["link"] = "|cffa335ee|Hitem:235506::::::::76:257:::::::::|h[Box of Timewarped Badges]|h|r",
 ["id"] = 235506,
-["count"] = 4,
-["icon"] = 132596,
 ["stackCount"] = 1,
+["icon"] = 132596,
+["count"] = 4,
 },
 ["type"] = "item",
 },
@@ -191,9 +191,9 @@ ABP_PLUS_DB = {
 ["name"] = "Bag of Timewarped Badges",
 ["link"] = "|cff1eff00|Hitem:232598::::::::76:257:::::::::|h[Bag of Timewarped Badges]|h|r",
 ["id"] = 232598,
-["count"] = 18,
-["icon"] = 1519428,
 ["stackCount"] = 1,
+["icon"] = 1519428,
+["count"] = 18,
 },
 ["type"] = "item",
 },
@@ -218,11 +218,11 @@ ABP_PLUS_DB = {
 ["isStealth"] = false,
 ["label"] = "Overload Empowered Herb |c00747474(Overload Empowered Herb)|r",
 ["isShapeshift"] = false,
-["name"] = "Overload Empowered Herb",
 ["maxRange"] = 5,
-["minRange"] = 0,
-["isProwl"] = false,
+["name"] = "Overload Empowered Herb",
 ["castTime"] = 1889,
+["isProwl"] = false,
+["minRange"] = 0,
 ["icon"] = 4554443,
 ["rank"] = "Overload Empowered Herb",
 },
@@ -233,9 +233,9 @@ ABP_PLUS_DB = {
 ["name"] = "Magical Mulch",
 ["link"] = "|cff1eff00|Hitem:219194::::::::80:1468:::::::::|h[Magical Mulch]|h|r",
 ["id"] = 219194,
-["count"] = 5,
-["icon"] = 133668,
 ["stackCount"] = 1000,
+["icon"] = 133668,
+["count"] = 5,
 },
 ["type"] = "item",
 },
@@ -254,9 +254,9 @@ ABP_PLUS_DB = {
 ["name"] = "Bag of Timewarped Badges",
 ["link"] = "|cff0070dd|Hitem:232598::::::::80:73:::::::::|h[Bag of Timewarped Badges]|h|r",
 ["id"] = 232598,
-["count"] = 26,
-["icon"] = 1519428,
 ["stackCount"] = 1,
+["icon"] = 1519428,
+["count"] = 26,
 },
 ["type"] = "item",
 },
@@ -279,26 +279,6 @@ ABP_PLUS_DB = {
 ["[KK]"] = {
 ["character_specific_anchors"] = false,
 ["bars"] = {
-["ActionbarPlusF3"] = {
-["widget"] = {
-["rowSize"] = 1,
-["colSize"] = 20,
-},
-},
-["ActionbarPlusF2"] = {
-["enabled"] = false,
-["locked"] = "in-combat",
-["anchor"] = {
-["y"] = 164.4112548828125,
-["x"] = -117.1775207519531,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-},
-["widget"] = {
-["buttonAlpha"] = 0.2,
-},
-["show_keybind_text"] = true,
-},
 ["ActionbarPlusF1"] = {
 ["buttons"] = {
 ["ActionbarPlusF1Button245"] = {
@@ -325,9 +305,9 @@ ABP_PLUS_DB = {
 ["name"] = "Conjured Mana Bun",
 ["link"] = "|cffffffff|Hitem:113509::::::::80:65:::::::::|h[Conjured Mana Bun]|h|r",
 ["id"] = 113509,
-["stackCount"] = 20,
-["icon"] = 134029,
 ["count"] = 80,
+["icon"] = 134029,
+["stackCount"] = 20,
 },
 },
 ["ActionbarPlusF1Button169"] = {
@@ -345,9 +325,9 @@ ABP_PLUS_DB = {
 ["name"] = "Cavedweller's Delight",
 ["link"] = "|cffffffff|Hitem:212242::::::::80:65:::::::::|h[Cavedweller's Delight |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
 ["id"] = 212242,
-["stackCount"] = 200,
-["icon"] = 236873,
 ["count"] = 84,
+["icon"] = 236873,
+["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button232"] = {
@@ -411,9 +391,9 @@ ABP_PLUS_DB = {
 ["name"] = "Algari Mana Oil",
 ["link"] = "|cff1eff00|Hitem:224107::::::::80:65:::::::::|h[Algari Mana Oil |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
 ["id"] = 224107,
-["stackCount"] = 20,
-["icon"] = 609892,
 ["count"] = 1,
+["icon"] = 609892,
+["stackCount"] = 20,
 },
 },
 ["ActionbarPlusF1Button189"] = {
@@ -430,6 +410,17 @@ ABP_PLUS_DB = {
 },
 ["ActionbarPlusF1Button271"] = {
 ["type"] = "",
+},
+["ActionbarPlusF1Button21"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Malfunctioning Stealthman 54",
+["link"] = "|cff0070dd|Hitem:192495::::::::80:253:::::::::|h[Malfunctioning Stealthman 54]|h|r",
+["id"] = 192495,
+["count"] = 1,
+["icon"] = 465877,
+["stackCount"] = 1,
+},
 },
 ["ActionbarPlusF1Button113"] = {
 ["type"] = "",
@@ -467,21 +458,23 @@ ABP_PLUS_DB = {
 ["name"] = "Fleeting Algari Mana Potion",
 ["link"] = "|cffffffff|Hitem:212947::::::::80:65:::::::::|h[Fleeting Algari Mana Potion |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
 ["id"] = 212947,
-["stackCount"] = 200,
-["icon"] = 5931166,
 ["count"] = 0,
+["icon"] = 5931166,
+["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button155"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button4"] = {
-["type"] = "equipmentset",
-["equipmentset"] = {
-["id"] = 5,
-["type"] = "equipmentset",
-["name"] = "Speed",
-["icon"] = 538536,
+["type"] = "item",
+["item"] = {
+["name"] = "Algari Mana Oil",
+["link"] = "|cff1eff00|Hitem:224107::::::::80:66:::::::::|h[Algari Mana Oil |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+["id"] = 224107,
+["stackCount"] = 20,
+["icon"] = 609892,
+["count"] = 4,
 },
 },
 ["ActionbarPlusF1Button107"] = {
@@ -511,8 +504,15 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button129"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button140"] = {
-["type"] = "",
+["ActionbarPlusF1Button1"] = {
+["macro"] = {
+["type"] = "macro",
+["index"] = 135,
+["name"] = "Paste",
+["icon"] = 134400,
+["body"] = "/paste show\n",
+},
+["type"] = "macro",
 },
 ["ActionbarPlusF1Button86"] = {
 ["type"] = "",
@@ -529,9 +529,9 @@ ABP_PLUS_DB = {
 ["name"] = "Elite Pennant",
 ["link"] = "|cff0070dd|Hitem:134032::::::::80:65:::::::::|h[Elite Pennant]|h|r",
 ["id"] = 134032,
-["stackCount"] = 1,
-["icon"] = 236344,
 ["count"] = 0,
+["icon"] = 236344,
+["stackCount"] = 1,
 },
 },
 ["ActionbarPlusF1Button85"] = {
@@ -543,9 +543,9 @@ ABP_PLUS_DB = {
 ["name"] = "Thunderous Drums",
 ["link"] = "|cff1eff00|Hitem:219905::::::::80:65:::::::::|h[Thunderous Drums]|h|r",
 ["id"] = 219905,
-["stackCount"] = 200,
-["icon"] = 4559223,
 ["count"] = 10,
+["icon"] = 4559223,
+["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button119"] = {
@@ -557,9 +557,9 @@ ABP_PLUS_DB = {
 ["name"] = "Everburning Ignition",
 ["link"] = "|cff0070dd|Hitem:224765::::::::80:65:::::::::|h[Everburning Ignition]|h|r",
 ["id"] = 224765,
-["stackCount"] = 10,
-["icon"] = 5931165,
 ["count"] = 0,
+["icon"] = 5931165,
+["stackCount"] = 10,
 },
 },
 ["ActionbarPlusF1Button247"] = {
@@ -583,9 +583,9 @@ ABP_PLUS_DB = {
 ["name"] = "Glittering Vault Shard",
 ["link"] = "|cff0070dd|Hitem:235017::::::::80:70:::::::::|h[Glittering Vault Shard]|h|r",
 ["id"] = 235017,
-["count"] = 0,
-["icon"] = 4631319,
 ["stackCount"] = 1,
+["icon"] = 4631319,
+["count"] = 0,
 },
 },
 ["ActionbarPlusF1Button15"] = {
@@ -594,9 +594,9 @@ ABP_PLUS_DB = {
 ["name"] = "Crystallized Augment Rune",
 ["link"] = "|cff0070dd|Hitem:224572::::::::80:65:::::::::|h[Crystallized Augment Rune]|h|r",
 ["id"] = 224572,
-["stackCount"] = 20,
-["icon"] = 4549102,
 ["count"] = 0,
+["icon"] = 4549102,
+["stackCount"] = 20,
 },
 },
 ["ActionbarPlusF1Button167"] = {
@@ -617,16 +617,8 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button90"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button17"] = {
-["type"] = "item",
-["item"] = {
-["name"] = "Jester's Board",
-["link"] = "|cff0070dd|Hitem:222730::::::::80:65:::::::::|h[Jester's Board]|h|r",
-["id"] = 222730,
-["stackCount"] = 200,
-["icon"] = 350563,
-["count"] = 16,
-},
+["ActionbarPlusF1Button186"] = {
+["type"] = "",
 },
 ["ActionbarPlusF1Button182"] = {
 ["type"] = "",
@@ -637,9 +629,9 @@ ABP_PLUS_DB = {
 ["name"] = "Algari Mana Potion",
 ["link"] = "|cffffffff|Hitem:212241::::::::80:65:::::::::|h[Algari Mana Potion |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
 ["id"] = 212241,
-["stackCount"] = 200,
-["icon"] = 5931166,
 ["count"] = 1,
+["icon"] = 5931166,
+["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button103"] = {
@@ -657,9 +649,9 @@ ABP_PLUS_DB = {
 ["name"] = "Algari Mana Oil",
 ["link"] = "|cff1eff00|Hitem:224105::::::::80:66:::::::::|h[Algari Mana Oil |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
 ["id"] = 224105,
-["count"] = 5,
-["icon"] = 609892,
 ["stackCount"] = 20,
+["icon"] = 609892,
+["count"] = 5,
 },
 },
 ["ActionbarPlusF1Button231"] = {
@@ -680,28 +672,30 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button175"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button3"] = {
-["type"] = "equipmentset",
-["equipmentset"] = {
-["id"] = 9,
-["type"] = "equipmentset",
-["name"] = "iLvl",
-["icon"] = 6215518,
+["ActionbarPlusF1Button5"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Angler's Delight",
+["link"] = "|cff0070dd|Hitem:222727::::::::80:66:::::::::|h[Angler's Delight]|h|r",
+["id"] = 222727,
+["stackCount"] = 200,
+["icon"] = 4672192,
+["count"] = 8,
 },
 },
 ["ActionbarPlusF1Button276"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button275"] = {
+["ActionbarPlusF1Button158"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button273"] = {
+["ActionbarPlusF1Button275"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button280"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button269"] = {
+["ActionbarPlusF1Button273"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button132"] = {
@@ -710,13 +704,13 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button195"] = {
 ["type"] = "",
 },
+["ActionbarPlusF1Button269"] = {
+["type"] = "",
+},
 ["ActionbarPlusF1Button268"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button267"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button264"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button181"] = {
@@ -728,13 +722,13 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button242"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button262"] = {
+["ActionbarPlusF1Button264"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button257"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button258"] = {
+["ActionbarPlusF1Button262"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button187"] = {
@@ -755,39 +749,37 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button213"] = {
 ["type"] = "",
 },
+["ActionbarPlusF1Button258"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button255"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button130"] = {
+["type"] = "",
+},
 ["ActionbarPlusF1Button254"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button253"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button130"] = {
+["ActionbarPlusF1Button84"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button249"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button20"] = {
-["type"] = "item",
-["item"] = {
-["name"] = "Coffee, Light Ice",
-["link"] = "|cffffffff|Hitem:227314::::::::80:65:::::::::|h[Coffee, Light Ice]|h|r",
-["id"] = 227314,
-["stackCount"] = 20,
-["icon"] = 4621579,
-["count"] = 37,
-},
-},
-["ActionbarPlusF1Button248"] = {
+["ActionbarPlusF1Button157"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button84"] = {
+["ActionbarPlusF1Button248"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button237"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button157"] = {
+["ActionbarPlusF1Button250"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button236"] = {
@@ -796,7 +788,7 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button234"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button250"] = {
+["ActionbarPlusF1Button124"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button230"] = {
@@ -805,16 +797,22 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button225"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button124"] = {
-["type"] = "",
-},
 ["ActionbarPlusF1Button223"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button220"] = {
 ["type"] = "",
 },
+["ActionbarPlusF1Button219"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button134"] = {
+["type"] = "",
+},
 ["ActionbarPlusF1Button216"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button82"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button211"] = {
@@ -823,13 +821,7 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button210"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button134"] = {
-["type"] = "",
-},
 ["ActionbarPlusF1Button208"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button82"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button206"] = {
@@ -838,25 +830,16 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button205"] = {
 ["type"] = "",
 },
+["ActionbarPlusF1Button145"] = {
+["type"] = "",
+},
 ["ActionbarPlusF1Button198"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button193"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button191"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button145"] = {
-["type"] = "",
-},
 ["ActionbarPlusF1Button190"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button186"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button185"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button97"] = {
@@ -865,8 +848,16 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button180"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button219"] = {
-["type"] = "",
+["ActionbarPlusF1Button35"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Ghastly Ooze",
+["link"] = "|cff9d9d9d|Hitem:158865::::::::80:269:::::::::|h[Ghastly Ooze]|h|r",
+["id"] = 158865,
+["stackCount"] = 200,
+["icon"] = 603530,
+["count"] = 1,
+},
 },
 ["ActionbarPlusF1Button212"] = {
 ["type"] = "",
@@ -898,8 +889,16 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button164"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button255"] = {
-["type"] = "",
+["ActionbarPlusF1Button19"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Algari Mana Potion",
+["link"] = "|cffffffff|Hitem:212241::::::::80:65:::::::::|h[Algari Mana Potion |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+["id"] = 212241,
+["count"] = 4,
+["icon"] = 5931166,
+["stackCount"] = 200,
+},
 },
 ["ActionbarPlusF1Button162"] = {
 ["type"] = "",
@@ -910,9 +909,9 @@ ABP_PLUS_DB = {
 ["name"] = "Flask of Alchemical Chaos",
 ["link"] = "|cffffffff|Hitem:212283::::::::80:65:::::::::|h[Flask of Alchemical Chaos |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
 ["id"] = 212283,
-["stackCount"] = 200,
-["icon"] = 5931173,
 ["count"] = 0,
+["icon"] = 5931173,
+["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button121"] = {
@@ -930,10 +929,10 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button153"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button158"] = {
+["ActionbarPlusF1Button144"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button144"] = {
+["ActionbarPlusF1Button143"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button111"] = {
@@ -945,7 +944,7 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button272"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button143"] = {
+["ActionbarPlusF1Button140"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button135"] = {
@@ -961,6 +960,9 @@ ABP_PLUS_DB = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button125"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button123"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button114"] = {
@@ -981,16 +983,8 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button197"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button278"] = {
-["type"] = "item",
-["item"] = {
-["name"] = "Slumbering Soul Serum",
-["link"] = "|cffffffff|Hitem:212245::::::::80:65:::::::::|h[Slumbering Soul Serum |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
-["id"] = 212245,
-["stackCount"] = 200,
-["icon"] = 5931168,
-["count"] = 0,
-},
+["ActionbarPlusF1Button185"] = {
+["type"] = "",
 },
 ["ActionbarPlusF1Button102"] = {
 ["type"] = "",
@@ -1001,31 +995,11 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button152"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button13"] = {
-["type"] = "item",
-["item"] = {
-["name"] = "Flask of Tempered Aggression",
-["link"] = "|cffffffff|Hitem:212270::::::::80:65:::::::::|h[Flask of Tempered Aggression |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
-["id"] = 212270,
-["stackCount"] = 200,
-["icon"] = 5931175,
-["count"] = 10,
-},
-},
 ["ActionbarPlusF1Button174"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF1Button224"] = {
 ["type"] = "",
-},
-["ActionbarPlusF1Button2"] = {
-["type"] = "equipmentset",
-["equipmentset"] = {
-["id"] = 8,
-["type"] = "equipmentset",
-["name"] = "PVP",
-["icon"] = 1322720,
-},
 },
 ["ActionbarPlusF1Button147"] = {
 ["type"] = "",
@@ -1036,24 +1010,13 @@ ABP_PLUS_DB = {
 ["name"] = "Heavenly Drum",
 ["link"] = "|cff0070dd|Hitem:180062::::::::80:70:::::::::|h[Heavenly Drum]|h|r",
 ["id"] = 180062,
-["count"] = 1,
-["icon"] = 3528453,
 ["stackCount"] = 1,
+["icon"] = 3528453,
+["count"] = 1,
 },
 },
 ["ActionbarPlusF1Button183"] = {
 ["type"] = "",
-},
-["ActionbarPlusF1Button35"] = {
-["type"] = "item",
-["item"] = {
-["name"] = "Ghastly Ooze",
-["link"] = "|cff9d9d9d|Hitem:158865::::::::80:269:::::::::|h[Ghastly Ooze]|h|r",
-["id"] = 158865,
-["count"] = 1,
-["icon"] = 603530,
-["stackCount"] = 200,
-},
 },
 ["ActionbarPlusF1Button270"] = {
 ["type"] = "",
@@ -1061,8 +1024,30 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button259"] = {
 ["type"] = "",
 },
+["ActionbarPlusF1Button22"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Dented Can",
+["link"] = "|cff0070dd|Hitem:202360::::::::80:253:::::::::|h[Dented Can]|h|r",
+["id"] = 202360,
+["count"] = 1,
+["icon"] = 132808,
+["stackCount"] = 1,
+},
+},
 ["ActionbarPlusF1Button243"] = {
 ["type"] = "",
+},
+["ActionbarPlusF1Button20"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Coffee, Light Ice",
+["link"] = "|cffffffff|Hitem:227314::::::::80:65:::::::::|h[Coffee, Light Ice]|h|r",
+["id"] = 227314,
+["count"] = 37,
+["icon"] = 4621579,
+["stackCount"] = 20,
+},
 },
 ["ActionbarPlusF1Button214"] = {
 ["type"] = "",
@@ -1075,6 +1060,17 @@ ABP_PLUS_DB = {
 },
 ["ActionbarPlusF1Button163"] = {
 ["type"] = "",
+},
+["ActionbarPlusF1Button34"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Flask of Alchemical Chaos",
+["link"] = "|cffffffff|Hitem:212282::::::::80:65:::::::::|h[Flask of Alchemical Chaos |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
+["id"] = 212282,
+["count"] = 0,
+["icon"] = 5931173,
+["stackCount"] = 200,
+},
 },
 ["ActionbarPlusF1Button146"] = {
 ["type"] = "",
@@ -1094,34 +1090,13 @@ ABP_PLUS_DB = {
 ["name"] = "Flask of Tempered Swiftness",
 ["link"] = "|cffffffff|Hitem:212273::::::::80:65:::::::::|h[Flask of Tempered Swiftness |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
 ["id"] = 212273,
-["stackCount"] = 200,
-["icon"] = 5931172,
 ["count"] = 10,
-},
-},
-["ActionbarPlusF1Button11"] = {
-["type"] = "item",
-["item"] = {
-["name"] = "Frontline Potion",
-["link"] = "|cffffffff|Hitem:212260::::::::80:65:::::::::|h[Frontline Potion |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
-["id"] = 212260,
-["count"] = 5,
-["icon"] = 236887,
+["icon"] = 5931172,
 ["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button244"] = {
 ["type"] = "",
-},
-["ActionbarPlusF1Button1"] = {
-["macro"] = {
-["type"] = "macro",
-["index"] = 134,
-["name"] = "Paste",
-["icon"] = 134400,
-["body"] = "/paste show\n",
-},
-["type"] = "macro",
 },
 ["ActionbarPlusF1Button8"] = {
 ["macro"] = {
@@ -1130,6 +1105,27 @@ ABP_PLUS_DB = {
 ["name"] = "pvpSlowGun",
 ["icon"] = 1412207,
 ["body"] = "#showtooltip Gravimetric Scrambler Cannon\n/cast [@cursor] Gravimetric Scrambler Cannon\n/use [known:393839]qalashi wingshredder\n/cast net-o-matic 5000\n",
+},
+["type"] = "macro",
+},
+["ActionbarPlusF1Button278"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Slumbering Soul Serum",
+["link"] = "|cffffffff|Hitem:212245::::::::80:65:::::::::|h[Slumbering Soul Serum |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
+["id"] = 212245,
+["count"] = 0,
+["icon"] = 5931168,
+["stackCount"] = 200,
+},
+},
+["ActionbarPlusF1Button9"] = {
+["macro"] = {
+["type"] = "macro",
+["index"] = 100,
+["name"] = "pvpBanner",
+["icon"] = 3578234,
+["body"] = "#showtooltip Banner of Cooperation\n/cast Banner of Cooperation\n/cast Standard of Unity\n/cast Alliance Battle Standard\n/cast Battle Standard of Coordination\n/cast Battle Flag: Phalanx Defense\n",
 },
 ["type"] = "macro",
 },
@@ -1142,29 +1138,19 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button109"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button19"] = {
+["ActionbarPlusF1Button17"] = {
 ["type"] = "item",
 ["item"] = {
-["name"] = "Algari Mana Potion",
-["link"] = "|cffffffff|Hitem:212241::::::::80:65:::::::::|h[Algari Mana Potion |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
-["id"] = 212241,
+["name"] = "Jester's Board",
+["link"] = "|cff0070dd|Hitem:222730::::::::80:65:::::::::|h[Jester's Board]|h|r",
+["id"] = 222730,
+["count"] = 16,
+["icon"] = 350563,
 ["stackCount"] = 200,
-["icon"] = 5931166,
-["count"] = 4,
 },
 },
 ["ActionbarPlusF1Button126"] = {
 ["type"] = "",
-},
-["ActionbarPlusF1Button9"] = {
-["macro"] = {
-["type"] = "macro",
-["index"] = 100,
-["name"] = "pvpBanner",
-["icon"] = 3578234,
-["body"] = "#showtooltip Banner of Cooperation\n/cast Banner of Cooperation\n/cast Standard of Unity\n/cast Alliance Battle Standard\n/cast Battle Standard of Coordination\n/cast Battle Flag: Phalanx Defense\n",
-},
-["type"] = "macro",
 },
 ["ActionbarPlusF1Button252"] = {
 ["type"] = "",
@@ -1175,13 +1161,35 @@ ABP_PLUS_DB = {
 ["name"] = "The Sushi Special",
 ["link"] = "|cffa335ee|Hitem:222720::::::::80:65:::::::::|h[The Sushi Special]|h|r",
 ["id"] = 222720,
-["stackCount"] = 200,
-["icon"] = 1053713,
 ["count"] = 0,
+["icon"] = 1053713,
+["stackCount"] = 200,
 },
 },
 ["ActionbarPlusF1Button149"] = {
 ["type"] = "",
+},
+["ActionbarPlusF1Button13"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Flask of Tempered Aggression",
+["link"] = "|cffffffff|Hitem:212270::::::::80:65:::::::::|h[Flask of Tempered Aggression |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
+["id"] = 212270,
+["count"] = 10,
+["icon"] = 5931175,
+["stackCount"] = 200,
+},
+},
+["ActionbarPlusF1Button24"] = {
+["type"] = "item",
+["item"] = {
+["name"] = "Flask of Tempered Versatility",
+["link"] = "|cffffffff|Hitem:212277::::::::80:66:::::::::|h[Flask of Tempered Versatility |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+["id"] = 212277,
+["stackCount"] = 200,
+["icon"] = 5931170,
+["count"] = 4,
+},
 },
 ["ActionbarPlusF1Button233"] = {
 ["type"] = "",
@@ -1195,33 +1203,53 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF1Button83"] = {
 ["type"] = "",
 },
-["ActionbarPlusF1Button34"] = {
+["ActionbarPlusF1Button191"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button11"] = {
 ["type"] = "item",
 ["item"] = {
-["name"] = "Flask of Alchemical Chaos",
-["link"] = "|cffffffff|Hitem:212282::::::::80:65:::::::::|h[Flask of Alchemical Chaos |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
-["id"] = 212282,
+["name"] = "Frontline Potion",
+["link"] = "|cffffffff|Hitem:212260::::::::80:65:::::::::|h[Frontline Potion |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
+["id"] = 212260,
 ["stackCount"] = 200,
-["icon"] = 5931173,
-["count"] = 0,
+["icon"] = 236887,
+["count"] = 5,
 },
-},
-["ActionbarPlusF1Button123"] = {
-["type"] = "",
 },
 },
 ["locked"] = "in-combat",
-["anchor"] = {
-["y"] = -39.27775573730469,
-["x"] = 20.62202644348145,
-},
+["show_keybind_text"] = true,
 ["widget"] = {
 ["show_empty_buttons"] = false,
 ["rowSize"] = 14,
 ["colSize"] = 20,
 ["buttonAlpha"] = 0.33,
 },
+["anchor"] = {
+["y"] = -39.27775573730469,
+["x"] = 20.62202644348145,
+},
+},
+["ActionbarPlusF2"] = {
+["enabled"] = false,
+["locked"] = "in-combat",
 ["show_keybind_text"] = true,
+["widget"] = {
+["buttonAlpha"] = 0.2,
+},
+["anchor"] = {
+["y"] = 164.4112548828125,
+["x"] = -117.1775207519531,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
+},
+["ActionbarPlusF3"] = {
+["widget"] = {
+["rowSize"] = 1,
+["colSize"] = 20,
+},
 },
 },
 },
@@ -1236,51 +1264,8 @@ ABP_PLUS_DB = {
 ["Forgecraft - Emerald Dream"] = {
 },
 ["Samoanlegend - Tichondrius"] = {
+["character_specific_anchors"] = false,
 ["bars"] = {
-["ActionbarPlusF1"] = {
-["anchor"] = {
-["y"] = -102.6666793823242,
-["x"] = 234.3330841064453,
-},
-["buttons"] = {
-["ActionbarPlusF1Button11"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button8"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button1"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button10"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button5"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button3"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button9"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button7"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button4"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button2"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button12"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button6"] = {
-["type"] = "",
-},
-},
-},
 ["ActionbarPlusF2"] = {
 ["anchor"] = {
 ["y"] = -103.0000152587891,
@@ -1298,13 +1283,13 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF2Button7"] = {
 ["type"] = "",
 },
-["ActionbarPlusF2Button3"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button9"] = {
-["type"] = "",
-},
 ["ActionbarPlusF2Button12"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button8"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button4"] = {
 ["type"] = "",
 },
 ["ActionbarPlusF2Button1"] = {
@@ -1319,16 +1304,59 @@ ABP_PLUS_DB = {
 ["ActionbarPlusF2Button6"] = {
 ["type"] = "",
 },
-["ActionbarPlusF2Button8"] = {
+["ActionbarPlusF2Button9"] = {
 ["type"] = "",
 },
-["ActionbarPlusF2Button4"] = {
+["ActionbarPlusF2Button3"] = {
+["type"] = "",
+},
+},
+},
+["ActionbarPlusF1"] = {
+["anchor"] = {
+["y"] = -102.6666793823242,
+["x"] = 234.3330841064453,
+},
+["buttons"] = {
+["ActionbarPlusF1Button12"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button6"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button5"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button7"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button2"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button3"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button9"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button10"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button4"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button1"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button8"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button11"] = {
 ["type"] = "",
 },
 },
 },
 },
-["character_specific_anchors"] = false,
 },
 ["Samoanstrafe - Area 52"] = {
 ["bars"] = {
@@ -1339,9 +1367,9 @@ ABP_PLUS_DB = {
 ["name"] = "Pile of Rusted Scrap",
 ["link"] = "|cff1eff00|Hitem:219150::::::::80:253:::::::::|h[Pile of Rusted Scrap]|h|r",
 ["id"] = 219150,
-["stackCount"] = 5000,
-["icon"] = 134070,
 ["count"] = 31,
+["icon"] = 134070,
+["stackCount"] = 5000,
 },
 ["type"] = "item",
 },
@@ -1353,9 +1381,9 @@ ABP_PLUS_DB = {
 },
 ["Samoansizzle - Area 52"] = {
 },
-["Samoansage - Emerald Dream"] = {
+["Samoansavage - Emerald Dream"] = {
 },
-["Samoanbeast - Ravenholdt"] = {
+["Samoanlegend - Area 52"] = {
 },
 ["Shgrshn - Tichondrius"] = {
 },
@@ -1363,7 +1391,128 @@ ABP_PLUS_DB = {
 },
 ["Buycraft - Area 52"] = {
 },
-["Threadcraft - Area 52"] = {
+["Samoantitan - Emerald Dream"] = {
+["bars"] = {
+["ActionbarPlusF1"] = {
+["anchor"] = {
+["y"] = -109.9999618530273,
+["x"] = 30.90554809570313,
+},
+["buttons"] = {
+["ActionbarPlusF1Button8"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button11"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button2"] = {
+["item"] = {
+["name"] = "The Sushi Special",
+["link"] = "|cffa335ee|Hitem:222720::::::::80:70:::::::::|h[The Sushi Special]|h|r",
+["id"] = 222720,
+["count"] = 7,
+["icon"] = 1053713,
+["stackCount"] = 200,
+},
+["type"] = "item",
+},
+["ActionbarPlusF1Button10"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button5"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button3"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button9"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button7"] = {
+["item"] = {
+["name"] = "Flask of Alchemical Chaos",
+["link"] = "|cffffffff|Hitem:212282::::::::80:70:::::::::|h[Flask of Alchemical Chaos |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
+["id"] = 212282,
+["count"] = 6,
+["icon"] = 5931173,
+["stackCount"] = 200,
+},
+["type"] = "item",
+},
+["ActionbarPlusF1Button4"] = {
+["item"] = {
+["name"] = "Vicious Flask of Honor",
+["link"] = "|cffffffff|Hitem:212292::::::::80:70:::::::::|h[Vicious Flask of Honor]|h|r",
+["id"] = 212292,
+["count"] = 20,
+["icon"] = 464027,
+["stackCount"] = 200,
+},
+["type"] = "item",
+},
+["ActionbarPlusF1Button1"] = {
+["item"] = {
+["name"] = "Algari Mana Oil",
+["link"] = "|cff1eff00|Hitem:224107::::::::80:70:::::::::|h[Algari Mana Oil |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+["id"] = 224107,
+["count"] = 7,
+["icon"] = 609892,
+["stackCount"] = 20,
+},
+["type"] = "item",
+},
+["ActionbarPlusF1Button6"] = {
+["type"] = "",
+},
+["ActionbarPlusF1Button12"] = {
+["type"] = "",
+},
+},
+},
+["ActionbarPlusF2"] = {
+["widget"] = {
+["buttonAlpha"] = 0.22,
+},
+["buttons"] = {
+["ActionbarPlusF2Button5"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button10"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button7"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button9"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button8"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button4"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button1"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button12"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button3"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button6"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button11"] = {
+["type"] = "",
+},
+["ActionbarPlusF2Button2"] = {
+["type"] = "",
+},
+},
+},
+},
 },
 ["Dustcraft - Emerald Dream"] = {
 },
@@ -1376,20 +1525,9 @@ ABP_PLUS_DB = {
 ["name"] = "Lynx Leash",
 ["link"] = "|cffffffff|Hitem:212329::::::::80:266:::::::::|h[Lynx Leash]|h|r",
 ["id"] = 212329,
-["count"] = 1,
-["icon"] = 1392562,
 ["stackCount"] = 20,
-},
-["type"] = "item",
-},
-["ActionbarPlusF1Button12"] = {
-["item"] = {
-["name"] = "Sentry Flare Launcher",
-["link"] = "|cff0070dd|Hitem:217344::::::::80:266:::::::::|h[Sentry Flare Launcher]|h|r",
-["id"] = 217344,
+["icon"] = 1392562,
 ["count"] = 1,
-["icon"] = 132863,
-["stackCount"] = 1,
 },
 ["type"] = "item",
 },
@@ -1398,9 +1536,20 @@ ABP_PLUS_DB = {
 ["name"] = "Sentry Flare",
 ["link"] = "|cffffffff|Hitem:211073::::::::80:266:::::::::|h[Sentry Flare]|h|r",
 ["id"] = 211073,
-["count"] = 1,
-["icon"] = 132863,
 ["stackCount"] = 1,
+["icon"] = 132863,
+["count"] = 1,
+},
+["type"] = "item",
+},
+["ActionbarPlusF1Button12"] = {
+["item"] = {
+["name"] = "Sentry Flare Launcher",
+["link"] = "|cff0070dd|Hitem:217344::::::::80:266:::::::::|h[Sentry Flare Launcher]|h|r",
+["id"] = 217344,
+["stackCount"] = 1,
+["icon"] = 132863,
+["count"] = 1,
 },
 ["type"] = "item",
 },
@@ -1417,9 +1566,9 @@ ABP_PLUS_DB = {
 ["name"] = "Phial of Concentrated Ingenuity",
 ["link"] = "|cffffffff|Hitem:212305::::::::80:266:::::::::|h[Phial of Concentrated Ingenuity |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r",
 ["id"] = 212305,
-["count"] = 4,
-["icon"] = 134791,
 ["stackCount"] = 200,
+["icon"] = 134791,
+["count"] = 4,
 },
 ["type"] = "item",
 },
@@ -1428,9 +1577,9 @@ ABP_PLUS_DB = {
 ["name"] = "Dauntless Strike Flare",
 ["link"] = "|cffa335ee|Hitem:216851::::::::80:266:::::::::|h[Dauntless Strike Flare]|h|r",
 ["id"] = 216851,
-["count"] = 1,
-["icon"] = 134536,
 ["stackCount"] = 1,
+["icon"] = 134536,
+["count"] = 1,
 },
 ["type"] = "item",
 },
@@ -1439,9 +1588,9 @@ ABP_PLUS_DB = {
 ["name"] = "Bag of Angry Fungus",
 ["link"] = "|cffffffff|Hitem:224256::::::::80:266:::::::::|h[Bag of Angry Fungus]|h|r",
 ["id"] = 224256,
-["count"] = 8,
-["icon"] = 133669,
 ["stackCount"] = 100,
+["icon"] = 133669,
+["count"] = 8,
 },
 ["type"] = "item",
 },
@@ -1451,136 +1600,15 @@ ABP_PLUS_DB = {
 },
 ["Default"] = {
 },
-["Samoantitan - Emerald Dream"] = {
-["bars"] = {
-["ActionbarPlusF2"] = {
-["widget"] = {
-["buttonAlpha"] = 0.22,
-},
-["buttons"] = {
-["ActionbarPlusF2Button5"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button10"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button7"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button2"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button11"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button4"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button1"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button12"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button3"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button6"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button9"] = {
-["type"] = "",
-},
-["ActionbarPlusF2Button8"] = {
-["type"] = "",
-},
-},
-},
-["ActionbarPlusF1"] = {
-["anchor"] = {
-["y"] = -109.9999618530273,
-["x"] = 30.90554809570313,
-},
-["buttons"] = {
-["ActionbarPlusF1Button12"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button6"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button1"] = {
-["item"] = {
-["name"] = "Algari Mana Oil",
-["link"] = "|cff1eff00|Hitem:224107::::::::80:70:::::::::|h[Algari Mana Oil |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
-["id"] = 224107,
-["stackCount"] = 20,
-["icon"] = 609892,
-["count"] = 7,
-},
-["type"] = "item",
-},
-["ActionbarPlusF1Button7"] = {
-["item"] = {
-["name"] = "Flask of Alchemical Chaos",
-["link"] = "|cffffffff|Hitem:212282::::::::80:70:::::::::|h[Flask of Alchemical Chaos |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r",
-["id"] = 212282,
-["stackCount"] = 200,
-["icon"] = 5931173,
-["count"] = 6,
-},
-["type"] = "item",
-},
-["ActionbarPlusF1Button2"] = {
-["item"] = {
-["name"] = "The Sushi Special",
-["link"] = "|cffa335ee|Hitem:222720::::::::80:70:::::::::|h[The Sushi Special]|h|r",
-["id"] = 222720,
-["stackCount"] = 200,
-["icon"] = 1053713,
-["count"] = 7,
-},
-["type"] = "item",
-},
-["ActionbarPlusF1Button3"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button9"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button10"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button4"] = {
-["item"] = {
-["name"] = "Vicious Flask of Honor",
-["link"] = "|cffffffff|Hitem:212292::::::::80:70:::::::::|h[Vicious Flask of Honor]|h|r",
-["id"] = 212292,
-["stackCount"] = 200,
-["icon"] = 464027,
-["count"] = 20,
-},
-["type"] = "item",
-},
-["ActionbarPlusF1Button5"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button8"] = {
-["type"] = "",
-},
-["ActionbarPlusF1Button11"] = {
-["type"] = "",
-},
-},
-},
-},
+["Threadcraft - Area 52"] = {
 },
 ["Samoansage - Area 52"] = {
 },
 ["Farmcraft - Area 52"] = {
 },
-["Samoanlegend - Area 52"] = {
+["Samoanbeast - Ravenholdt"] = {
 },
-["Samoansavage - Emerald Dream"] = {
+["Samoansage - Emerald Dream"] = {
 },
 },
 }

@@ -747,280 +747,6 @@ do
 
                 filterCasts = true,
                 castRemainingThreshold = 0.25,
-                castFilters = {
-                    [40167] = {
-                    desc = "Grim Batol - Twilight Beguiler",
-                        [76711] = "Sear Mind",
-                    },
-                    [129370] = {
-                        desc = "Siege of Boralus - Irontide Waveshaper",
-                        [256957] = "Watertight Shell",
-                    },
-                    [141284] = {
-                        desc = "Siege of Boralus - Kul Tiran Wavetender",
-                        [256957] = "Watertight Shell",
-                    },
-                    [144071] = {
-                        desc = "Siege of Boralus - Irontide Waveshaper",
-                        [256957] = "Watertight Shell",
-                    },
-                    [129367] = {
-                        desc = "Siege of Boralus - Bilge Rat Tempest",
-                        [272571] = "Choking Waters",
-                    },
-                    [128969] = {
-                        desc = "Siege of Boralus - Ashvane Commander",
-                        [275826] = "Bolstering Shout",
-                    },
-                    [164517] = {
-                        desc = "Mists of Tirna Scithe - Tred'ova",
-                        [322450] = "Consumption",
-                        [337235] = "Parasitic Pacification",
-                    },
-                    [164921] = {
-                        desc = "Mists of Tirna Scithe - Drust Harvester",
-                        [322938] = "Harvest Essence",
-                    },
-                    [165919] = {
-                        desc = "The Necrotic Wake - Skeletal Marauder",
-                        [324293] = "Rasping Scream",
-                    },
-                    [171095] = {
-                        desc = "The Necrotic Wake - Grisly Colossus",
-                        [324293] = "Rasping Scream",
-                    },
-                    [166275] = {
-                        desc = "Mists of Tirna Scithe - Mistveil Shaper",
-                        [324776] = "Bramblethorn Coat",
-                    },
-                    [166299] = {
-                        desc = "Mists of Tirna Scithe - Mistveil Tender",
-                        [324914] = "Nourish the Forest",
-                    },
-                    [167111] = {
-                        desc = "Mists of Tirna Scithe - Spinemaw Staghorn",
-                        [326046] = "Stimulate Resistance",
-                        [340544] = "Stimulate Regeneration",
-                    },
-                    [165872] = {
-                        desc = "The Necrotic Wake - Flesh Crafter",
-                        [327130] = "Repair Flesh",
-                    },
-                    [166302] = {
-                        desc = "The Necrotic Wake - Corpse Harvester",
-                        [334748] = "Drain Fluids",
-                    },
-                    [173016] = {
-                        desc = "The Necrotic Wake - Corpse Collector",
-                        [334748] = "Drain Fluids",
-                        [338353] = "Goresplatter",
-                    },
-                    [173044] = {
-                        desc = "The Necrotic Wake - Stitching Assistant",
-                        [334748] = "Drain Fluids",
-                    },
-                    [165222] = {
-                        desc = "The Necrotic Wake - Zolramus Bonemender",
-                        [335143] = "Bonemend",
-                    },
-                    [207939] = {
-                        desc = "Priory of the Sacred Flame - Baron Braunpyke",
-                        [423051] = "Burning Light",
-                    },
-                    [207946] = {
-                        desc = "Priory of the Sacred Flame - Captain Dailcry",
-                        [424419] = "Battle Cry",
-                    },
-                    [211289] = {
-                        desc = "Priory of the Sacred Flame - Taener Duelmal",
-                        [424420] = "Cinderblast",
-                    },
-                    [208745] = {
-                        desc = "Darkflame Cleft - The Candle King",
-                        [426145] = "Paranoid Mind",
-                    },
-                    [212389] = {
-                        desc = "The Stonevault - Cursedheart Invader",
-                        [426283] = "Arcing Void",
-                    },
-                    [212403] = {
-                        desc = "The Stonevault - Cursedheart Invader",
-                        [426283] = "Arcing Void",
-                    },
-                    [212412] = {
-                        desc = "Darkflame Cleft - Sootsnout",
-                        [426295] = "Flaming Tether",
-                    },
-                    [208747] = {
-                        desc = "Darkflame Cleft - The Darkness",
-                        [427157] = "Call Darkspawn",
-                    },
-                    [206697] = {
-                        desc = "Priory of the Sacred Flame - Devout Priest",
-                        [427356] = "Greater Heal",
-                    },
-                    [83893] = {
-                        desc = "The Everbloom - Earthshaper Telu",
-                        [427460] = "Toxic Bloom",
-                    },
-                    [213338] = {
-                        desc = "The Stonevault - Forgebound Mender",
-                        [429109] = "Restoring Metals",
-                    },
-                    [224962] = {
-                        desc = "The Stonevault - Cursedforge Mender",
-                        [429109] = "Restoring Metals",
-                    },
-                    [214350] = {
-                        desc = "The Stonevault - Turned Speaker",
-                        [429545] = "Censoring Gear",
-                    },
-                    [223469] = {
-                        desc = "The Ringing Deeps - Voidtouched Speaker",
-                        [429545] = "Censoring Gear",
-                    },
-                    [214421] = {
-                        desc = "The Rookery - Coalescing Void Diffuser",
-                        [430805] = "Arcing Void",
-                    },
-                    [213892] = {
-                        desc = "The Dawnbreaker - Nightfall Shadowmage",
-                        [431309] = "Ensnaring Shadows",
-                    },
-                    [228540] = {
-                        desc = "The Dawnbreaker - Nightfall Shadowmage",
-                        [431309] = "Ensnaring Shadows",
-                    },
-                    [213893] = {
-                        desc = "The Dawnbreaker - Nightfall Darkcaster",
-                        [431333] = "Tormenting Beam",
-                    },
-                    [225605] = {
-                        desc = "The Dawnbreaker - Nightfall Darkcaster",
-                        [431333] = "Tormenting Beam",
-                    },
-                    [228539] = {
-                        desc = "The Dawnbreaker - Nightfall Darkcaster",
-                        [431333] = "Tormenting Beam",
-                    },
-                    [212793] = {
-                        desc = "The Rookery - Void Ascendant",
-                        [432959] = "Void Volley",
-                    },
-                    [216364] = {
-                        desc = "Ara-Kara, City of Echoes - Blood Overseer",
-                        [433841] = "Venom Volley",
-                    },
-                    [216293] = {
-                        desc = "Ara-Kara, City of Echoes - Trilling Attendant",
-                        [434793] = "Resonant Barrage",
-                    },
-                    [217531] = {
-                        desc = "Ara-Kara, City of Echoes - Ixin",
-                        [434802] = "Horrifying Shrill",
-                    },
-                    [217533] = {
-                        desc = "Ara-Kara, City of Echoes - Atik",
-                        [436322] = "Poison Bolt",
-                    },
-                    [218671] = {
-                        desc = "Cinderbrew Meadery - Venture Co. Pyromaniac",
-                        [437721] = "Boiling Flames",
-                    },
-                    [220141] = {
-                        desc = "Cinderbrew Meadery - Royal Jelly Purveyor",
-                        [440687] = "Honey Volley",
-                    },
-                    [214673] = {
-                        desc = "Cinderbrew Meadery - Flavor Scientist",
-                        [441627] = "Rejuvenating Honey",
-                    },
-                    [222964] = {
-                        desc = "Cinderbrew Meadery - Flavor Scientist",
-                        [441627] = "Rejuvenating Honey",
-                    },
-                    [220599] = {
-                        desc = "Ara-Kara, City of Echoes - Bloodstained Webmage",
-                        [442210] = "Silken Restraints",
-                    },
-                    [223844] = {
-                        desc = "City of Threads - Covert Webmancer",
-                        [442536] = "Grimweave Blast",
-                        [452162] = "Mending Web",
-                    },
-                    [224732] = {
-                        desc = "City of Threads - Covert Webmancer",
-                        [442536] = "Grimweave Blast",
-                        [452162] = "Mending Web",
-                    },
-                    [220195] = {
-                        desc = "City of Threads - Sureki Silkbinder",
-                        [443430] = "Silk Binding",
-                    },
-                    [220196] = {
-                        desc = "City of Threads - Herald of Ansurek",
-                        [443433] = "Twist Thoughts",
-                    },
-                    [221760] = {
-                        desc = "Priory of the Sacred Flame - Risen Mage",
-                        [444743] = "Fireball Volley",
-                    },
-                    [221979] = {
-                        desc = "The Stonevault - Void Bound Howler",
-                        [445207] = "Piercing Wail",
-                    },
-                    [220401] = {
-                        desc = "City of Threads - Pale Priest",
-                        [448047] = "Web Wrap",
-                    },
-                    [223253] = {
-                        desc = "Ara-Kara, City of Echoes - Bloodstained Webmage",
-                        [448248] = "Revolting Volley",
-                    },
-                    [212453] = {
-                        desc = "The Stonevault - Ghastly Voidsoul",
-                        [449455] = "Howling Fear",
-                    },
-                    [214762] = {
-                        desc = "The Dawnbreaker - Nightfall Commander",
-                        [450756] = "Abyssal Howl",
-                    },
-                    [213932] = {
-                        desc = "The Dawnbreaker - Sureki Militant",
-                        [451097] = "Silken Shell",
-                    },
-                    [224219] = {
-                        desc = "Grim Batol - Twilight Earthcaller",
-                        [451871] = "Mass Tremor",
-                    },
-                    [135241] = {
-                        desc = "Siege of Boralus - Bilge Rat Pillager",
-                        [454440] = "Stinky Vomit",
-                    },
-
-
-                    -- Nerub'ar Palace
-                    [203669] = {
-                        desc = "Nerub'ar Palace - Rasha'nan",
-                        [436996] = "Stalking Shadows"
-                    },
-                    [201792] = {
-                        desc = "Nerub'ar Palace - Nexus-Princess Ky'veza",
-                        [437839] = "Nether Rift",
-                        [436787] = "Regicide",
-                        [436996] = "Stalking Shadows",
-                    },
-                    [201793] = {
-                        desc = "Nerub'ar Palace - The Silken Court",
-                        [438200] = "Poison Bolt",
-                        [441772] = "Void Bolt"
-                    },
-                    [201794] = {
-                        desc = "Nerub'ar Palace - Queen Ansurek",
-                        [451600] = "Expulsion Beam",
-                        [439865] = "Silken Tomb",
-                    },
-                },
 
                 iconStore = {
                     hide = false,
@@ -8561,38 +8287,6 @@ do
                                     order = 2,
                                 },
 
-                        funnel = {
-                            type = "group",
-                            name = "",
-                            inline = true,
-                            order = 8,
-                            args = {
-                                key = {
-                                    type = "keybinding",
-                                    name = "Funnel Priority",
-                                    desc = "Set a key to toggle Funnel Priority on or off, for specializations which support it.",
-                                    width = 1,
-                                    order = 1,
-                                        },
-
-                                value = {
-                                    type = "toggle",
-                                    name = "Enable Funnel Priority",
-                                    desc = "If checked, priorities for funnel specializations may change slightly to use single target spenders in AoE.\n\n",
-                                    width = 2,
-                                    order = 2,
-                                        },
-                                    
-                                supportedSpecs = {
-                                    type = "description",
-                                    name = "Supported Specializations: Subtlety, Assassination, Enhancement, Destruction",
-                                    desc = "",
-                                    width = "full",
-                                    order = 3,
-                                        },
-                                },
-                        },
-
                                 --[[ potLineBreak1 = {
                                     type = "description",
                                     name = "",
@@ -8640,7 +8334,39 @@ do
                                 },
                             }
                         },
-                    }
+
+                        funnel = {
+                            type = "group",
+                            name = "",
+                            inline = true,
+                            order = 8,
+                            args = {
+                                key = {
+                                    type = "keybinding",
+                                    name = "Funnel Priority",
+                                    desc = "Set a key to toggle Funnel Priority on or off, for specializations which support it.",
+                                    width = 1,
+                                    order = 1,
+                                },
+
+                                value = {
+                                    type = "toggle",
+                                    name = "Enable Funnel Priority",
+                                    desc = "If checked, priorities for funnel specializations may change slightly to use single target spenders in AoE.\n\n",
+                                    width = 2,
+                                    order = 2,
+                                },
+
+                                supportedSpecs = {
+                                    type = "description",
+                                    name = "Supported Specializations: Subtlety, Assassination, Enhancement, Destruction",
+                                    desc = "",
+                                    width = "full",
+                                    order = 3,
+                                },
+                            },
+                        },
+                    },
                 },
 
                 interrupts = {
@@ -8703,7 +8429,7 @@ do
 
                         filterCasts  ={
                             type = "toggle",
-                            name = format( "%s Filter M+ Interrupts (TWW Season 1)", NewFeature ),
+                            name = format( "%s Filter M+ Interrupts", NewFeature ),
                             desc = format( "If checked, low-priority enemy casts will be ignored when your target may use an ability that should be interrupted.\n\n"
                                 .. "Example:  In Everbloom, Earthshaper Telu's |W%s|w will be ignored and |W%s|w will be interrupted.", ( GetSpellInfo( 168040 ) or "Nature's Wrath" ),
                                 ( GetSpellInfo( 427459 ) or "Toxic Bloom" ) ),
@@ -10959,6 +10685,7 @@ function Hekili:CmdLine( input )
     -- Execute the corresponding command handler or show error message
     if commandHandlers[ command ] then
         commandHandlers[ command ]()
+        self:UpdateDisplayVisibility()
         return true
     elseif command == "help" then
         self:DisplayChatCommandList( "all" )
@@ -12278,7 +12005,7 @@ do
     function Hekili:FireToggle( name, explicitState )
         local toggle = name and self.DB.profile.toggles[ name ]
         if not toggle then return end
-    
+
         -- Handle mode toggle with explicitState if provided
         if name == 'mode' then
             if explicitState then
@@ -12288,11 +12015,11 @@ do
                 local current = toggle.value
                 local c_index = modeIndex[ current ][1]
                 local i = c_index + 1
-    
+
                 while true do
                     if i > #modes then i = i % #modes end
                     if i == c_index then break end
-    
+
                     local newMode = modes[i]
                     if toggle [ newMode ] then
                         toggle.value = newMode
@@ -12306,15 +12033,15 @@ do
                     self:Print( modeIndex[ toggle.value ][2] .. " mode activated." )
                 end
             end
-    
+
         elseif name == 'pause' then
             self:TogglePause()
             return
-    
+
         elseif name == 'snapshot' then
             self:MakeSnapshot()
             return
-    
+
         else
             -- Handle other toggles with explicit state if provided
             if explicitState == "on" then
@@ -12329,16 +12056,16 @@ do
                 self:Print( "Invalid state specified. Use 'on' or 'off'." )
                 return
             end
-    
+
             if toggle.name then toggles[ name ] = toggle.name end
-    
+
             if self.DB.profile.notifications.enabled then
                 self:Notify( toggles[ name ] .. ": " .. ( toggle.value and "ON" or "OFF" ) )
             else
                 self:Print( toggles[ name ] .. ( toggle.value and " |cFF00FF00ENABLED|r." or " |cFFFF0000DISABLED|r." ) )
             end
         end
-    
+
         if WeakAuras and WeakAuras.ScanEvents then WeakAuras.ScanEvents( "HEKILI_TOGGLE", name, toggle.value ) end
         if ns.UI.Minimap then ns.UI.Minimap:RefreshDataText() end
         self:UpdateDisplayVisibility()

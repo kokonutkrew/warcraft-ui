@@ -1,7 +1,6 @@
 # Auctionator
 
-## [266](https://github.com/Auctionator/Auctionator/tree/266) (2025-02-26)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/265...266) 
+## [268](https://github.com/Auctionator/Auctionator/tree/268) (2025-03-09)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/267...268) 
 
-- [Fixes #1653] Cata: Full Scan: Workaround for missing FrameXML global  
-    Now uses internal item data loading code  
+- [Fixes #1654] Retail: Fix missing prices in AH item tooltips  

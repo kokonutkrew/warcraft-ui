@@ -9,12 +9,15 @@ BigWigs:AddColors("Fungarian Delve Trash", {
 	[424891] = "orange",
 	[425040] = "red",
 	[425042] = "orange",
-	[427710] = "orange",
+	[1217589] = "orange",
 })
 
 BigWigs:AddColors("Goblin Delve Trash", {
+	[472842] = {"blue","yellow"},
+	[473541] = "red",
 	[473550] = "orange",
 	[473684] = "yellow",
+	[473696] = "orange",
 	[473972] = "yellow",
 	[473995] = "yellow",
 	[474001] = "red",
@@ -33,6 +36,7 @@ BigWigs:AddColors("Kobold Delve Trash", {
 BigWigs:AddColors("Kobyss Delve Trash", {
 	[374898] = "red",
 	[430037] = "red",
+	[433040] = "yellow",
 	[440622] = "yellow",
 	[445252] = "red",
 	[445407] = {"blue","red"},
@@ -63,6 +67,7 @@ BigWigs:AddColors("Nightfall Delve Trash", {
 })
 
 BigWigs:AddColors("Old God Delve Trash", {
+	[455662] = "blue",
 	[474155] = "blue",
 	[474206] = "orange",
 	[474223] = "purple",
@@ -82,45 +87,24 @@ BigWigs:AddColors("The Underkeep Trash", {
 	[453149] = "yellow",
 })
 
-BigWigs:AddColors("Zekvir Rares", {
-	[400335] = "yellow",
-	[415250] = "red",
-	[415253] = "orange",
+BigWigs:AddColors("Underpin Rares", {
 	[418295] = "yellow",
 	[418297] = "red",
-	[445718] = "purple",
-	[445781] = "red",
-	[449038] = "yellow",
-	[450492] = "yellow",
-	[450505] = {"blue","red"},
-	[450519] = "orange",
-	[457448] = "orange",
-	[457880] = "yellow",
-	[458090] = "yellow",
-	[458099] = "red",
-	[458104] = {"red","yellow"},
-	[458311] = "purple",
-	[458325] = "cyan",
-	[458369] = {"red","yellow"},
-	[458397] = "yellow",
-	[459421] = "yellow",
-	[461741] = {"blue","orange"},
-	[462686] = "red",
-	["zekvir_breach"] = "cyan",
-})
-
-BigWigs:AddColors("Underpin Rares", {
 	[433045] = "yellow",
 	[1213497] = "red",
+	[1213852] = "orange",
+	[1214147] = {"cyan","yellow"},
 	[1214238] = "red",
 	[1214246] = "purple",
 	[1216790] = "orange",
 	[1216794] = "red",
 	[1216805] = "red",
 	[1216806] = "orange",
+	[1216937] = "cyan",
 	[1217301] = "red",
 	[1217326] = "orange",
 	[1217361] = "orange",
+	[1217371] = "red",
 	[1217418] = "cyan",
 	[1217449] = "cyan",
 	[1217452] = "cyan",

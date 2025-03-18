@@ -17,6 +17,7 @@ Rematch5Settings = {
 ["HideTruncatedTooltips"] = false,
 ["PetCardForLinks"] = false,
 ["HideRarityBorders"] = false,
+["EchoTeamDrag"] = false,
 ["LockPosition"] = false,
 ["QueueAutoLearn"] = false,
 ["PetCardAlwaysShowHPXPText"] = false,
@@ -40,7 +41,6 @@ Rematch5Settings = {
 ["PetCardAlwaysShowHPBar"] = false,
 ["ShowNewGroupTab"] = false,
 ["SpecialSlots"] = {
-0,
 },
 ["QueueRandomWhenEmpty"] = false,
 ["PickAggressiveCounters"] = false,
@@ -76,17 +76,17 @@ Rematch5Settings = {
 },
 ["Anchor"] = "BOTTOMRIGHT",
 ["LoadHealthiest"] = false,
-["currentTeamID"] = "team:24",
-["LastToastedPetID"] = "BattlePet-0-0000118345F2",
+["currentTeamID"] = "team:25",
+["LastToastedPetID"] = "BattlePet-0-00001178A1D9",
 ["DontConfirmDeleteTeams"] = true,
 ["KeepNotesOnScreen"] = false,
 ["NotesFont"] = "GameFontHighlight",
 ["KeepCompanion"] = false,
-["PetNotes"] = {
+["ExpandedOptionsHeaders"] = {
 },
-["PetCardBackground"] = "Expansion",
-["HideBreedsLists"] = false,
-["HideBreedsLoadouts"] = false,
+["ReverseToolbar"] = false,
+["ClickToDrag"] = false,
+["BoringLoreFont"] = false,
 ["EnableDrag"] = true,
 ["ScriptFilters"] = {
 {
@@ -107,37 +107,91 @@ Rematch5Settings = {
 },
 },
 ["HidePetToast"] = false,
-["PrioritizeBreedOnImport"] = false,
-["CompactPetList"] = false,
+["PetCardInBattle"] = false,
+["CurrentLayout"] = "3-teams",
 ["RankWinsByPercent"] = false,
 ["BackupCount"] = 1,
 ["HideToolbarTooltips"] = false,
 ["ConvertedTeams"] = {
 },
-["QueueSkipDead"] = false,
-["ShowAbilityNumbers"] = false,
+["PreferencesPaused"] = false,
+["LastOpenLayout"] = "3-teams",
 ["HideOptionTooltips"] = false,
 ["MousewheelSpeed"] = "Normal",
-["DefaultPreferences"] = {
-},
+["MinimizePetSummary"] = true,
 ["TooltipBehavior"] = "Normal",
 ["HideNotesButtonInBattle"] = false,
-["GroupOrder"] = {
-"group:favorites",
-"group:none",
-},
+["BreedFormat"] = 1,
 ["NotesLeft"] = false,
 ["NoSummonOnDblClick"] = false,
-["PetMarkerNames"] = {
-},
+["AlwaysUsePetSatchel"] = false,
 ["ResetFilters"] = false,
+["NeverTeamTabs"] = false,
+["MinimapButtonPosition"] = -162,
+["ResetExceptSearch"] = false,
+["HideLevelingBadges"] = false,
+["AbilityBackground"] = "Icon",
+["ResetSortWithFilters"] = false,
+["QueueSortOrder"] = 1,
+["CardBehavior"] = "Normal",
+["InteractOnTarget"] = 0,
+["CompactQueueList"] = false,
+["StrongVsLevel"] = false,
+["WarnWhenRandomNot25"] = false,
+["LockWindow"] = false,
+["ImportConflictOverwrite"] = false,
+["ExpandedGroups"] = {
+["group:favorites"] = true,
+["group:none"] = true,
+},
+["ColorTargetNames"] = true,
+["HideMarkerBadges"] = false,
+["BarChartCategory"] = 1,
+["HideTooltips"] = false,
+["LevelingQueue"] = {
+{
+["preferred"] = true,
+["petID"] = "BattlePet-0-00001178A1D9",
+["added"] = 20250105004047,
+["petTag"] = "Q14A1G8",
+},
+{
+["preferred"] = true,
+["petID"] = "BattlePet-0-000011787792",
+["added"] = 20250105004045,
+["petTag"] = "Q14A1G8",
+},
+{
+["preferred"] = true,
+["petID"] = "BattlePet-0-00001178A1E8",
+["added"] = 20250105004053,
+["petTag"] = "Q14A1G8",
+},
+{
+["preferred"] = true,
+["petID"] = "BattlePet-0-00000BF095E8",
+["added"] = 20250105004134,
+["petTag"] = "Q1472HT",
+},
+{
+["preferred"] = true,
+["petID"] = "BattlePet-0-000011051987",
+["added"] = 20250106234652,
+["petTag"] = "Q1487I",
+},
+{
+["petID"] = "BattlePet-0-0000119036A1",
+["preferred"] = true,
+["added"] = 20250302205235,
+["petTag"] = "Q1401K1",
+},
+},
 ["Filters"] = {
 ["Other"] = {
 },
 ["Stats"] = {
 },
 ["Strong"] = {
-[9] = true,
 },
 ["Marker"] = {
 },
@@ -155,7 +209,7 @@ Rematch5Settings = {
 },
 ["Rarity"] = {
 },
-["RawSearchText"] = "\"Pillarnest Bonedrinker\"",
+["RawSearchText"] = "\"Rotten Little Helper\"",
 ["Similar"] = {
 },
 ["Search"] = {
@@ -171,83 +225,28 @@ Rematch5Settings = {
 ["Moveset"] = {
 },
 },
-["MinimapButtonPosition"] = -162,
-["LevelingQueue"] = {
-{
-["petID"] = "BattlePet-0-0000118345F2",
-["preferred"] = true,
-["added"] = 20250105004440,
-["petTag"] = "Q1474FH",
-},
-{
-["petID"] = "BattlePet-0-00001178A1D9",
-["preferred"] = true,
-["added"] = 20250105004047,
-["petTag"] = "Q14A1G8",
-},
-{
-["petID"] = "BattlePet-0-000011787792",
-["preferred"] = true,
-["added"] = 20250105004045,
-["petTag"] = "Q14A1G8",
-},
-{
-["petID"] = "BattlePet-0-00001178A1E8",
-["preferred"] = true,
-["added"] = 20250105004053,
-["petTag"] = "Q14A1G8",
-},
-{
-["petID"] = "BattlePet-0-00000BF095E8",
-["preferred"] = true,
-["added"] = 20250105004134,
-["petTag"] = "Q1472HT",
-},
-{
-["petID"] = "BattlePet-0-000011051987",
-["preferred"] = true,
-["added"] = 20250106234652,
-["petTag"] = "Q1487I",
-},
-},
-["HideLevelingBadges"] = false,
-["AbilityBackground"] = "Icon",
-["BarChartCategory"] = 1,
-["QueueSortOrder"] = 1,
-["CardBehavior"] = "Normal",
-["InteractOnTarget"] = 0,
-["ColorTargetNames"] = true,
-["StrongVsLevel"] = false,
-["WarnWhenRandomNot25"] = false,
-["LockWindow"] = false,
-["ImportConflictOverwrite"] = false,
-["ExpandedGroups"] = {
-["group:favorites"] = true,
-["group:none"] = true,
-},
-["CompactQueueList"] = false,
-["HideMarkerBadges"] = false,
-["ResetSortWithFilters"] = false,
-["HideTooltips"] = false,
-["ResetExceptSearch"] = false,
-["NeverTeamTabs"] = false,
 ["SortByNickname"] = false,
-["AlwaysUsePetSatchel"] = false,
-["BreedFormat"] = 1,
+["PetMarkerNames"] = {
+},
+["GroupOrder"] = {
+"group:favorites",
+"group:none",
+},
 ["WasShownOnLogout"] = false,
-["MinimizePetSummary"] = true,
-["LastOpenLayout"] = "3-teams",
-["PreferencesPaused"] = false,
+["DefaultPreferences"] = {
+},
+["ShowAbilityNumbers"] = false,
+["QueueSkipDead"] = false,
 ["LockNotesPosition"] = false,
 ["PetMarkers"] = {
 },
-["CurrentLayout"] = "3-teams",
-["PetCardInBattle"] = false,
+["CompactPetList"] = false,
+["PrioritizeBreedOnImport"] = false,
 ["NoBackupReminder"] = false,
-["BoringLoreFont"] = false,
-["ClickToDrag"] = false,
-["ReverseToolbar"] = false,
-["ExpandedOptionsHeaders"] = {
+["HideBreedsLoadouts"] = false,
+["HideBreedsLists"] = false,
+["PetCardBackground"] = "Expansion",
+["PetNotes"] = {
 },
 }
 Rematch5SavedTeams = {
@@ -367,9 +366,9 @@ Rematch5SavedTeams = {
 },
 ["name"] = "Catching Littles",
 ["tags"] = {
-"1126143",
-"1126143",
-"1218KA",
+"1120143",
+"1120143",
+"1210KA",
 },
 ["teamID"] = "team:11",
 ["groupID"] = "group:favorites",
@@ -413,6 +412,42 @@ Rematch5SavedTeams = {
 223406,
 },
 },
+["team:13"] = {
+["pets"] = {
+"BattlePet-0-000011863CDA",
+"BattlePet-0-000011868E20",
+"BattlePet-0-00000ACE2354",
+},
+["name"] = "\"Secret2\"",
+["tags"] = {
+"121338V",
+"122338E",
+"11192BB",
+},
+["teamID"] = "team:13",
+["groupID"] = "group:favorites",
+["targets"] = {
+11859,
+},
+},
+["team:21"] = {
+["pets"] = {
+"BattlePet-0-0000118CF415",
+"BattlePet-0-000011753CC2",
+0,
+},
+["name"] = "Robot Killer",
+["tags"] = {
+"21241A5",
+"122430S",
+"ZL",
+},
+["teamID"] = "team:21",
+["groupID"] = "group:favorites",
+["targets"] = {
+223442,
+},
+},
 ["team:17"] = {
 ["pets"] = {
 "BattlePet-0-0000118D69B8",
@@ -429,24 +464,6 @@ Rematch5SavedTeams = {
 ["groupID"] = "group:favorites",
 ["targets"] = {
 223446,
-},
-},
-["team:19"] = {
-["pets"] = {
-"BattlePet-0-000006C39BBB",
-"BattlePet-0-000007AFD5B8",
-"BattlePet-0-00001147076B",
-},
-["name"] = "Ikky",
-["tags"] = {
-"11181FS",
-"121A9V",
-"1126143",
-},
-["teamID"] = "team:19",
-["groupID"] = "group:favorites",
-["targets"] = {
-222535,
 },
 },
 ["team:1"] = {
@@ -467,6 +484,24 @@ Rematch5SavedTeams = {
 85519,
 },
 },
+["team:24"] = {
+["pets"] = {
+0,
+"BattlePet-0-00000DD61ACB",
+"BattlePet-0-00000DD89BBA",
+},
+["name"] = "Prezly Wavecutter",
+["tags"] = {
+"ZL",
+"1120143",
+"11102OQ",
+},
+["teamID"] = "team:24",
+["groupID"] = "group:none",
+["targets"] = {
+237712,
+},
+},
 ["team:3"] = {
 ["pets"] = {
 "BattlePet-0-00000748CBAC",
@@ -485,44 +520,40 @@ Rematch5SavedTeams = {
 67370,
 },
 },
-["team:8"] = {
+["team:20"] = {
 ["pets"] = {
 0,
-"BattlePet-0-000007F6BB00",
-"BattlePet-0-0000117F8529",
+"BattlePet-0-000011753CC2",
+"BattlePet-0-0000118CF415",
 },
-["notes"] = "Strategy added by Chocolatebar#2530\nTurn 1: Acidic Goo\nTurns 2-3: Burrow\nTurns 4-6: Swarm until your pet or the enemy dies\nBring in your Iron Starlette\nTurn 8: Wind-Up\nTurn 9: Supercharge if enemy doesn't have  (ID: 542)\nTurn 10: Wind-Up\nSwoopgrasp comes in\nTurn 12: Wind-Up\nTurn 13: Supercharge if CD is up\nTurn 14: Wind-Up\nTurn 15: 2x Wind-Up if needed and Swoopgrasp dies\n",
-["name"] = "Ziriak",
+["name"] = "Kyrie",
 ["tags"] = {
 "ZL",
-"2215198",
-"12192R4",
-},
-["teamID"] = "team:8",
-["targets"] = {
-223443,
-},
-["groupID"] = "group:none",
-["preferences"] = {
-["minXP"] = 25,
-},
-},
-["team:22"] = {
-["pets"] = {
-"BattlePet-0-0000118D69B8",
-"BattlePet-0-0000118CF415",
-"BattlePet-0-00001147076B",
-},
-["name"] = "Fast Kill",
-["tags"] = {
-"221616M",
+"122430S",
 "21241A5",
-"1126143",
 },
-["teamID"] = "team:22",
-["groupID"] = "group:favorites",
+["teamID"] = "team:20",
+["groupID"] = "group:none",
 ["targets"] = {
 223442,
+},
+},
+["team:10"] = {
+["pets"] = {
+"BattlePet-0-00001147076B",
+"BattlePet-0-00000DD61ACB",
+0,
+},
+["name"] = "Catching",
+["tags"] = {
+"1126143",
+"1126143",
+"ZL",
+},
+["teamID"] = "team:10",
+["groupID"] = "group:favorites",
+["targets"] = {
+223446,
 },
 },
 ["team:12"] = {
@@ -579,58 +610,58 @@ Rematch5SavedTeams = {
 },
 ["groupID"] = "group:favorites",
 },
-["team:13"] = {
+["team:25"] = {
 ["pets"] = {
-"BattlePet-0-000011863CDA",
-"BattlePet-0-000011868E20",
-"BattlePet-0-00000ACE2354",
-},
-["name"] = "\"Secret2\"",
-["tags"] = {
-"121338V",
-"122338E",
-"11192BB",
-},
-["teamID"] = "team:13",
-["groupID"] = "group:favorites",
-["targets"] = {
-11859,
-},
-},
-["team:10"] = {
-["pets"] = {
-"BattlePet-0-00001147076B",
-"BattlePet-0-00000DD61ACB",
-0,
-},
-["name"] = "Catching",
-["tags"] = {
-"1126143",
-"1126143",
-"ZL",
-},
-["teamID"] = "team:10",
-["groupID"] = "group:favorites",
-["targets"] = {
-223446,
-},
-},
-["team:20"] = {
-["pets"] = {
-0,
-"BattlePet-0-000011753CC2",
+"BattlePet-0-00001191AE39",
+"BattlePet-0-00001191AE37",
 "BattlePet-0-0000118CF415",
 },
-["name"] = "Kyrie",
+["name"] = "3 Gnomes",
 ["tags"] = {
-"ZL",
-"122430S",
+"21241A5",
+"21241A5",
 "21241A5",
 },
-["teamID"] = "team:20",
-["groupID"] = "group:none",
+["teamID"] = "team:25",
+["groupID"] = "group:favorites",
 ["targets"] = {
 223442,
+},
+},
+["team:22"] = {
+["pets"] = {
+"BattlePet-0-0000118D69B8",
+"BattlePet-0-0000118CF415",
+"BattlePet-0-00001147076B",
+},
+["name"] = "Fast Kill",
+["tags"] = {
+"221616M",
+"21241A5",
+"1126143",
+},
+["teamID"] = "team:22",
+["groupID"] = "group:favorites",
+["targets"] = {
+223442,
+},
+},
+["team:19"] = {
+["pets"] = {
+"BattlePet-0-000006C39BBB",
+"BattlePet-0-000007AFD5B8",
+"BattlePet-0-00001147076B",
+},
+["name"] = "Ikky",
+["tags"] = {
+"11181FS",
+"121A9V",
+"1126143",
+},
+["teamID"] = "team:19",
+["groupID"] = "group:favorites",
+["targets"] = {
+222535,
 },
 },
 ["team:15"] = {
@@ -651,40 +682,44 @@ Rematch5SavedTeams = {
 223446,
 },
 },
-["team:21"] = {
+["team:8"] = {
 ["pets"] = {
-"BattlePet-0-0000118CF415",
-"BattlePet-0-000011753CC2",
 0,
+"BattlePet-0-000007F6BB00",
+"BattlePet-0-0000117F8529",
 },
-["name"] = "Robot Killer",
+["notes"] = "Strategy added by Chocolatebar#2530\nTurn 1: Acidic Goo\nTurns 2-3: Burrow\nTurns 4-6: Swarm until your pet or the enemy dies\nBring in your Iron Starlette\nTurn 8: Wind-Up\nTurn 9: Supercharge if enemy doesn't have  (ID: 542)\nTurn 10: Wind-Up\nSwoopgrasp comes in\nTurn 12: Wind-Up\nTurn 13: Supercharge if CD is up\nTurn 14: Wind-Up\nTurn 15: 2x Wind-Up if needed and Swoopgrasp dies\n",
+["name"] = "Ziriak",
+["tags"] = {
+"ZL",
+"2215198",
+"12192R4",
+},
+["teamID"] = "team:8",
+["preferences"] = {
+["minXP"] = 25,
+},
+["targets"] = {
+223443,
+},
+["groupID"] = "group:none",
+},
+["team:26"] = {
+["pets"] = {
+"BattlePet-0-00001191AE39",
+"BattlePet-0-00001191AE37",
+"BattlePet-0-0000118CF415",
+},
+["name"] = "Precision Powerdrill",
 ["tags"] = {
 "21241A5",
-"122430S",
-"ZL",
+"21241A5",
+"21241A5",
 },
-["teamID"] = "team:21",
-["groupID"] = "group:favorites",
-["targets"] = {
-223442,
-},
-},
-["team:24"] = {
-["pets"] = {
-0,
-"BattlePet-0-00000DD61ACB",
-"BattlePet-0-00000DD89BBA",
-},
-["name"] = "Prezly Wavecutter",
-["tags"] = {
-"ZL",
-"1120143",
-"11102OQ",
-},
-["teamID"] = "team:24",
+["teamID"] = "team:26",
 ["groupID"] = "group:none",
 ["targets"] = {
-237712,
+237701,
 },
 },
 }
@@ -692,13 +727,10 @@ Rematch5SavedGroups = {
 ["group:favorites"] = {
 ["sortMode"] = 1,
 ["name"] = "Favorite Teams",
-["isExpanded"] = true,
-["meta"] = true,
-["icon"] = "Interface\\Icons\\ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2",
-["groupID"] = "group:favorites",
 ["teams"] = {
 "team:12",
 "team:13",
+"team:25",
 "team:15",
 "team:10",
 "team:11",
@@ -710,14 +742,14 @@ Rematch5SavedGroups = {
 "team:17",
 "team:16",
 },
+["meta"] = true,
+["groupID"] = "group:favorites",
+["icon"] = "Interface\\Icons\\ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2",
+["isExpanded"] = true,
 },
 ["group:none"] = {
 ["sortMode"] = 1,
 ["name"] = "Ungrouped Teams",
-["isExpanded"] = true,
-["meta"] = true,
-["icon"] = "Interface\\Icons\\INV_Pet_BattlePetTraining",
-["groupID"] = "group:none",
 ["teams"] = {
 "team:6",
 "team:1",
@@ -728,16 +760,18 @@ Rematch5SavedGroups = {
 "team:3",
 "team:20",
 "team:2",
+"team:26",
 "team:24",
 "team:5",
 "team:8",
 },
+["meta"] = true,
+["groupID"] = "group:none",
+["icon"] = "Interface\\Icons\\INV_Pet_BattlePetTraining",
+["isExpanded"] = true,
 },
 }
 Rematch5SavedTargets = {
-[237712] = {
-"team:24",
-},
 [223446] = {
 "team:7",
 "team:10",
@@ -745,51 +779,58 @@ Rematch5SavedTargets = {
 "team:15",
 "team:17",
 },
-[231086] = {
-"team:18",
+[67370] = {
+"team:3",
 },
-[201858] = {
-"team:2",
-},
-[217395] = {
-"team:23",
-},
-[223442] = {
-"team:20",
-"team:21",
-"team:22",
-},
-[223444] = {
-"team:14",
+[223443] = {
+"team:8",
 },
 [85519] = {
 "team:1",
 },
-[67370] = {
-"team:3",
-},
-[222535] = {
-"team:4",
-"team:19",
-},
-[223407] = {
-"team:6",
-},
 [223409] = {
 "team:9",
+},
+[223444] = {
+"team:14",
+},
+[237712] = {
+"team:24",
 },
 [11859] = {
 "team:12",
 "team:13",
 },
-[223443] = {
-"team:8",
+[231086] = {
+"team:18",
+},
+[223406] = {
+"team:5",
+},
+[237701] = {
+"team:26",
+},
+[222535] = {
+"team:4",
+"team:19",
+},
+[223442] = {
+"team:20",
+"team:21",
+"team:22",
+"team:25",
+},
+[201858] = {
+"team:2",
+},
+[223407] = {
+"team:6",
 },
 [62822] = {
 "team:16",
 },
-[223406] = {
-"team:5",
+[217395] = {
+"team:23",
 },
 }
 Rematch4Saved = nil

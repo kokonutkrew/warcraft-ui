@@ -21,7 +21,7 @@ local ALLIANCE_ONLY, HORDE_ONLY = unpack(app.Modules.FactionData.FACTION_RACES);
 local GetRelativeValue = app.GetRelativeValue;
 
 -- Module locals
-local ActiveCustomCollects, FactionID, CollectibleHeirlooms, SettingsUnobtainable;
+local ActiveCustomCollects, FactionID, SettingsUnobtainable;
 local SettingsFilterIDs = {};
 
 -- Filter API Implementation
@@ -100,8 +100,6 @@ local function FilterBind(group)
 	return group.b == 1;-- or group.b == 4;
 end
 api.Filters.Bind = FilterBind;
--- Used in a lot of places, need to keep for now
-app.IsBoP = FilterBind;
 local function FilterInGame(item)
 	return not item.u or item.u > 2;
 end
@@ -211,6 +209,12 @@ end
 api.Get.ItemUnbound = function() return SettingsFilterItemUnbound == api.Filters.ItemUnbound end
 
 -- FilterID
+do
+local FilterFilterID_IgnoredTypes = {}
+app.AddEventHandler("OnRecalculate_NewSettings", function()
+	FilterFilterID_IgnoredTypes.Heirloom = app.Settings.Collectibles.Heirlooms
+	FilterFilterID_IgnoredTypes.HeirloomAndAppearance = app.Settings.Collectibles.Heirlooms
+end)
 DefineToggleFilter("FilterID", CharacterFilters,
 function(item)
 	local f = item.f;
@@ -219,14 +223,15 @@ function(item)
 		if SettingsFilterIDs[f] then
 			return true;
 		end
-		-- don't filter Heirlooms by their Type if they are collectible as Heirlooms
-		if CollectibleHeirlooms and item.__type == "Heirloom" then
+		-- don't filter Types by their FilterID in some cases
+		if FilterFilterID_IgnoredTypes[item.__type or 0] then
 			return true;
 		end
 	else
 		return true;
 	end
-end);
+end)
+end
 
 -- Bound
 DefineToggleFilter("Bound", CharacterFilters,
@@ -555,7 +560,6 @@ app.RecursiveFilter = RecursiveFilter;
 
 -- Caching Helpers
 local function CacheSettingsData()
-	CollectibleHeirlooms = app.Settings.Collectibles.Heirlooms;
 	SettingsUnobtainable = app.Settings:GetRawSettings("Unobtainable");
 	wipe(SettingsFilterIDs)
 	local rawFilters = app.Settings:GetRawFilters();

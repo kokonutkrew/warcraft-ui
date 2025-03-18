@@ -35,6 +35,9 @@ PremadeGroupsFilterState = {
 ["expression"] = "",
 },
 },
+["c3f6"] = {
+["enabled"] = true,
+},
 ["c121f4"] = {
 ["role"] = {
 ["heals"] = {
@@ -47,9 +50,6 @@ PremadeGroupsFilterState = {
 },
 ["expression"] = "",
 },
-},
-["c3f6"] = {
-["enabled"] = true,
 },
 ["version"] = 6,
 ["c6f4"] = {

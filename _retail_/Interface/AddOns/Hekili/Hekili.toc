@@ -1,5 +1,5 @@
-## Interface: 110007
-## Version: v11.1.0-1.0.2
+## Interface: 110100
+## Version: v11.1.0-1.0.7
 ## Title: Hekili
 ## Author: Hekili
 ## IconTexture: Interface\AddOns\Hekili\Textures\LOGO-ORANGE.blp
@@ -42,6 +42,7 @@ Dragonflight\Classes.lua
 
 TheWarWithin\Items.lua
 
+TheWarWithin\Classes.lua
 TheWarWithin\DeathKnightBlood.lua
 TheWarWithin\DeathKnightFrost.lua
 TheWarWithin\DeathKnightUnholy.lua

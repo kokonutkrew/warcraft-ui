@@ -18,6 +18,7 @@ BigWigs:AddSounds("I'pa", {
 
 BigWigs:AddSounds("Benk Buzzbee", {
 	[438025] = "info",
+	[438971] = "info",
 	[439524] = "alert",
 	[440134] = {"alarm","underyou"},
 })
@@ -31,6 +32,7 @@ BigWigs:AddSounds("Goldie Baronbottom", {
 
 BigWigs:AddSounds("Cinderbrew Meadery Trash", {
 	[434706] = "alarm",
+	[434756] = "alert",
 	[434998] = "long",
 	[437721] = "alert",
 	[437956] = "alarm",
@@ -39,6 +41,7 @@ BigWigs:AddSounds("Cinderbrew Meadery Trash", {
 	[440876] = "alarm",
 	[441119] = "alarm",
 	[441179] = "underyou",
+	[441214] = "info",
 	[441242] = "alert",
 	[441351] = "alert",
 	[441434] = "info",

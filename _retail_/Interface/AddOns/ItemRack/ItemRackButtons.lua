@@ -503,7 +503,7 @@ function ItemRack.ButtonPostClick(self,button)
 	elseif IsAltKeyDown() then
 		if id<20 and ItemRackSettings.DisableAltClick=="OFF" then
 			if not ItemRackUser.Queues[id] then
-				LoadAddOn("ItemRackOptions")
+				C_AddOns.LoadAddOn("ItemRackOptions")
 				ItemRackOptFrame:Show()
 				ItemRackOpt.TabOnClick(self,4)
 				ItemRackOpt.SetupQueue(id)
@@ -596,7 +596,7 @@ function ItemRack.ButtonMenuOnClick(self)
 		if ItemRackOptFrame and ItemRackOptFrame:IsVisible() then
 			ItemRackOptFrame:Hide()
 		else
-			LoadAddOn("ItemRackOptions")
+			C_AddOns.LoadAddOn("ItemRackOptions")
 			ItemRackOptFrame:Show()
 			if ItemRack.menuOpen<20 then
 				ItemRackOpt.TabOnClick(self,4)

@@ -1,6 +1,6 @@
 Version: 1
 Frame: CraftScanScannerMenuButton
-FrameLevel: 54
+FrameLevel: 66
 Anchor: TOPRIGHT
 X: -320
 Y: 4
@@ -27,3 +27,10 @@ X: 0
 Y: 9
 W: 784
 H: 260
+Frame: ZygorPetBattleFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -10
+Y: 64
+W: 450
+H: 600

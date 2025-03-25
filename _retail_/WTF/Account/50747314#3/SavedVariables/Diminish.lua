@@ -2,16 +2,15 @@
 DiminishDB = {
 ["profileKeys"] = {
 ["Floide-Moon Guard"] = "Default",
-["Voidspeakerr-Emerald Dream"] = "Default",
 ["Timecaster-Emerald Dream"] = "Default",
+["Voidspeakerr-Emerald Dream"] = "Default",
+["Deathscar-Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["categoryTextures"] = {
 },
-["timerColors"] = false,
-["categoryTextMaxLines"] = 2,
-["trackNPCs"] = true,
+["timerSwipe"] = true,
 ["unitFrames"] = {
 ["nameplate"] = {
 ["enabled"] = false,
@@ -151,21 +150,23 @@ DiminishDB = {
 ["isEnabledForZone"] = false,
 },
 },
-["timerEdge"] = true,
+["timerColors"] = false,
+["announceDRs"] = false,
+["categoryTextMaxLines"] = 2,
 ["border"] = {
 ["edgeSize"] = 2.5,
 ["layer"] = "BORDER",
 ["name"] = "Default",
 ["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
 },
-["announceDRs"] = false,
+["timerEdge"] = true,
 ["version"] = "1.11",
 ["timerStartAuraEnd"] = false,
 ["showCategoryText"] = true,
 ["timerTextOutline"] = "NONE",
 ["colorBlind"] = false,
+["trackNPCs"] = true,
 ["timerText"] = true,
-["timerSwipe"] = true,
 ["categoryFont"] = {
 ["size"] = 9,
 ["x"] = 0,

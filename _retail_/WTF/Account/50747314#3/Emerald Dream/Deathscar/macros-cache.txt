@@ -1,0 +1,185 @@
+VER 3 0100000000000001 ".a.LeftClick" "133808"
+/target
+/use [harm] spell;[help] spell;[mod:shift] spell
+END
+VER 3 0100000000000002 ".a.y7 Pull" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount
+/use [known:319836]fire blast;[known:moonfire]moonfire;[known:193455]cobra shot;[known:57755]heroic throw
+/use !auto shot
+END
+VER 3 0100000000000004 ".a.yAltDownDebuf" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2908]soothe;[known:1725,@cursor]distract;[known:528]dispel magic;[known:370]purge
+END
+VER 3 0100000000000003 ".a.yAltDownDebuf" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2908]soothe;[known:1725,@cursor]distract;[known:528]dispel magic
+END
+VER 3 0100000000000005 ".a.yAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2782]remove corruption;[known:213644]cleanse toxins;[known:130]slow fall;[known:18499]berserker rage;[known:360823]naturalize;[known:4987]cleanse;[known:31224]cloak of shadows;[known:527]purify
+END
+VER 3 0100000000000006 ".a.yE Talent 3" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:2094]blind;[known:118]polymorph;[known:195645]wing clip;[known:30283]shadowfury;[known:102359]mass entanglement;[known:1715]hamstring;[known:368970]tail swipe;[known:853]hammer of justice;[known;119381]leg sweep
+END
+VER 3 0100000000000007 ".a.yQ Interrupt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:1766]kick;[known:78675]solar beam;[known:147362]counter shot;[known:2139] counterspell;[known:106839]skull bash;[known:96231]rebuke;[known:6552]pummel;[known:quell]quell;[known:57994]wind shear
+END
+VER 3 0100000000000008 ".a.yScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:186257]aspect of the cheetah;[known:2983]sprint;[known:dash]dash;[known:190784]divine steed;[known:1953]blink;[known:111400]burning rush;[known:100]charge;[known:121536,@player]angelic feather;[known:109132]roll
+END
+VER 3 0100000000000009 ".a01 Skull" "132097"
+/run SetRaidTargetIcon("target", 8)
+/attacktarget
+/i Attack {skull} %t, ty kindly!
+/ping [@mouseover,harm,nodead] Attack; [@mouseover,exists,nodead] Assist
+/stopmacro [@mouseover,exists]
+/ping [@target] attack
+END
+VER 3 010000000000000A ".a02 Set Targets" "236188"
+/script if (charm == nil) or (charm < 0) then charm=8; end; charm=charm-1; SetRaidTarget("mouseover", charm)
+/ping [@mouseover,exists,nodead,help] Assist
+/stopmacro [@mouseover,exists]
+/ping
+END
+VER 3 010000000000000B ".a03 CC Target" "538563"
+/run SetRaidTargetIcon("mouseover", 5)
+/incoming
+/s CC on {moon}
+/ping [@mouseover]warning; [@target] warning
+END
+VER 3 010000000000000C ".a04 Triangle" "252271"
+/worldmarker 2
+/ping
+END
+VER 3 010000000000000D ".a05 Diamond" "252272"
+/worldmarker 3
+/ping
+END
+VER 3 010000000000000E ".a06 Star" "252269"
+/worldmarker 5
+/ping
+END
+VER 3 010000000000000F ".a10 Racial" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:265221]fireblood;[known:20572]blood fury;[known:58984]shadowmeld;[known:68992]darkflight
+END
+VER 3 0100000000000010 ".f01 TargetSelf" "135914"
+/focus [mod:shift] arena1
+/focus
+/target player
+END
+VER 3 0100000000000011 ".f02 FollowParty1" "135914"
+/focus arena2
+/follow party1
+/assist party1
+/target party1
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000012 ".f03 FollowParty2" "135914"
+/follow party2
+/assist party2
+/target party2
+/focus arena3
+END
+VER 3 0100000000000013 ".f06 Follow Mast" "135914"
+/sg follow
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000014 ".f07 T Dummy" "135914"
+/use tuskarr training dummy
+/use the golden banana
+/use totem of harmony
+/use turnip punching bag
+END
+VER 3 0100000000000015 ".f08 Set Master" "135914"
+/sg master
+/sg follow
+/run InviteUnit("Goldsquid-Moonguard");
+/ffa
+/changeactionbar 2
+/click EMAAssistMaster
+/click EMATargetMaster
+/click EMAFocusMaster
+END
+VER 3 0100000000000016 ".f09 GuildInvite" "135914"
+/fgi nextSearch
+/fgi invite
+/use [@mouseover,dead] Skinning
+/click TSMDestroyBtn LeftButton 1
+/click TSMCraftingBtn LeftButton 1
+/run AutoLootMailItem(1)
+END
+VER 3 0100000000000017 ".f11 Bait" "INV_Misc_QuestionMark"
+#showtooltip
+/use shiny bauble
+/use 28
+END
+VER 3 0100000000000018 ".f13 Battle Pet" "INV_Misc_QuestionMark"
+#showtooltip
+/click RematchFrame.LoadedTargetPanel.MediumLoadButton
+/use [equipped:bow] [equipped:gun] [equipped:crossbow] hunter's call
+/castsequence [nomod] reset=480 Revive Battle Pets, Battle Pet Bandage
+/randompet
+END
+VER 3 0100000000000019 ".f13 ExtraAction" "INV_Misc_QuestionMark"
+#showtooltip
+/use gateway control shard
+/click ExtraActionButton1
+/click ExtraActionButton2
+/click ExtraActionButton3
+/click ExtraActionButton4
+/click ExtraActionButton5
+/click ExtraActionButton6
+/click ExtraActionButton7
+/click ExtraActionButton8
+END
+VER 3 010000000000001A ".f13 Fish Bait" "236553"
+/use survey
+/use [nomod] fishing
+/use disenchant
+/equipset [mod:alt] Fishing
+/castsequence [mod:ctrl] anglers fishing raft, sharpened tuskarr spear
+/castsequence [mod:shift] shiny buable, 28
+END
+VER 3 010000000000001B ".f13 Mount AH" "INV_Misc_QuestionMark"
+#showtooltip trader's gilded brutosaur
+/use coldflame ring
+/use kindness of chi-ji
+/use golden dragon goblet
+/use Trader's Gilded Brutosaur
+/use Grand Expedition Yak
+/use Summon Chauffeur
+END
+VER 3 010000000000001C ".f13 Mount Auto" "INV_Misc_QuestionMark"
+#showtooltip
+/use bubble wand
+/use [known:783] Travel Form
+/use [nostance:2] Cat Form
+/rfp
+/use [swimming]the hivemind
+/use [group,noflyable]grand black war mammoth
+/use [group,flyable]obsidian nightwing
+/run C_MountJournal.SummonByID(0)
+END
+VER 3 010000000000001D ".f13 Mount Multi" "6029241"
+/use [swimming]the hivemind
+/use [group,noflyable]grand black war mammoth
+/use [group,flyable]delver's dirigible
+/use delver's dirigible
+END
+VER 3 010000000000001E ".f13 Mount XMOG" "INV_Misc_QuestionMark"
+#showtooltip Grand Expedition Yak
+/use nightmarish hitching post
+/use Grand Expedition Yak
+/use Trader's Gilded Brutosaur
+/use Summon Chauffeur
+END

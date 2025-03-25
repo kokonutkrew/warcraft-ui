@@ -1,4 +1,4 @@
-## Interface: 110007
+## Interface: 110100
 ## Title: ItemRack
 ## Author: Gello - Updated for WoW 4.0 by Kiki + Kharthus + Yewbacca
 ## AddonCompartmentFunc: ItemRack_OnAddonCompartmentClick

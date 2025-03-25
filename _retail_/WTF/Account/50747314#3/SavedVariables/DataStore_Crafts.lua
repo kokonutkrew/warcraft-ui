@@ -138,7 +138,7 @@ DataStore_Crafts_Characters = {
 {
 ["Professions"] = {
 },
-["lastUpdate"] = 1724095447,
+["lastUpdate"] = 1742275856,
 ["Indices"] = {
 },
 ["Ranks"] = {
@@ -1075,7 +1075,7 @@ DataStore_Crafts_RecipeCategories = {
 [2074] = "A Full Belly",
 [1076] = "Outland Mining",
 [1765] = "Section I - Serevite",
-[1998] = "Optional Embellishments",
+[2075] = "Nutritious and Delicious",
 [2071] = "Hearty Meals",
 [2073] = "Quick and Easy",
 [180] = "Trinkets",
@@ -1084,6 +1084,6 @@ DataStore_Crafts_RecipeCategories = {
 [1078] = "Mining",
 [2072] = "Snacks",
 [2077] = "Cooking For Others",
-[2075] = "Nutritious and Delicious",
+[1998] = "Optional Embellishments",
 [2124] = "Secret Recipes",
 }

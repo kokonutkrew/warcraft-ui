@@ -2,19 +2,25 @@
 WeakAurasSaved = {
 ["dynamicIconCache"] = {
 },
+["CurrentEncounter"] = {
+["id"] = 1442,
+["boss_guids"] = {
+},
+["zone_id"] = 994,
+},
 ["displays"] = {
 },
 ["login_squelch_time"] = 10,
-["lastArchiveClear"] = 1718640404,
+["lastArchiveClear"] = 1742271599,
 ["minimap"] = {
 ["hide"] = false,
 },
-["lastUpgrade"] = 1725716849,
-["dbVersion"] = 75,
-["migrationCutoff"] = 730,
-["registered"] = {
-},
 ["historyCutoff"] = 730,
+["dbVersion"] = 83,
+["migrationCutoff"] = 730,
 ["features"] = {
+},
+["lastUpgrade"] = 1742271611,
+["registered"] = {
 },
 }

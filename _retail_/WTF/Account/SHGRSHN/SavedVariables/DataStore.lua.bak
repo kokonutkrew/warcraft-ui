@@ -1,13 +1,13 @@
 
 DataStore_GuildIDs = {
-["Set"] = {
-["Default.Emerald Dream.KK"] = 2,
-["Default.Area 52.KK"] = 1,
-},
-["Count"] = 2,
 ["List"] = {
 "Default.Area 52.KK",
 "Default.Emerald Dream.KK",
+},
+["Count"] = 2,
+["Set"] = {
+["Default.Emerald Dream.KK"] = 2,
+["Default.Area 52.KK"] = 1,
 },
 }
 DataStore_GuildFactions = {
@@ -15,25 +15,6 @@ DataStore_GuildFactions = {
 "Alliance",
 }
 DataStore_CharacterIDs = {
-["Set"] = {
-["Default.Area 52.Herbcraft"] = 4,
-["Default.Area 52.Samoanreaper"] = 8,
-["Default.Area 52.Samoantitan"] = 1,
-["Default.Emerald Dream.Samoansage"] = 13,
-["Default.Area 52.Samoansifu"] = 10,
-["Default.Area 52.Threadcraft"] = 3,
-["Default.Area 52.Samoanghost"] = 6,
-["Default.Area 52.Samoanlegend"] = 14,
-["Default.Area 52.Forgecraft"] = 7,
-["Default.Area 52.Crankcraft"] = 2,
-["Default.Emerald Dream.Samoandrake"] = 16,
-["Default.Area 52.Samoansizzle"] = 11,
-["Default.Area 52.Samoanstrafe"] = 9,
-["Default.Area 52.Farmcraft"] = 5,
-["Default.Area 52.Samoanseraph"] = 12,
-["Default.Area 52.Samoanrocket"] = 15,
-},
-["Count"] = 16,
 ["List"] = {
 "Default.Area 52.Samoantitan",
 "Default.Area 52.Crankcraft",
@@ -51,6 +32,29 @@ DataStore_CharacterIDs = {
 "Default.Area 52.Samoanlegend",
 "Default.Area 52.Samoanrocket",
 "Default.Emerald Dream.Samoandrake",
+"Default.Area 52.Samoansurge",
+"Default.Area 52.Saigold",
+},
+["Count"] = 18,
+["Set"] = {
+["Default.Area 52.Samoansurge"] = 17,
+["Default.Area 52.Samoansifu"] = 10,
+["Default.Area 52.Forgecraft"] = 7,
+["Default.Area 52.Crankcraft"] = 2,
+["Default.Area 52.Farmcraft"] = 5,
+["Default.Area 52.Samoanrocket"] = 15,
+["Default.Area 52.Herbcraft"] = 4,
+["Default.Area 52.Samoanreaper"] = 8,
+["Default.Emerald Dream.Samoansage"] = 13,
+["Default.Area 52.Saigold"] = 18,
+["Default.Area 52.Samoanlegend"] = 14,
+["Default.Area 52.Samoanseraph"] = 12,
+["Default.Emerald Dream.Samoandrake"] = 16,
+["Default.Area 52.Samoansizzle"] = 11,
+["Default.Area 52.Samoanstrafe"] = 9,
+["Default.Area 52.Threadcraft"] = 3,
+["Default.Area 52.Samoanghost"] = 6,
+["Default.Area 52.Samoantitan"] = 1,
 },
 }
 DataStore_CharacterGUIDs = {
@@ -70,6 +74,8 @@ DataStore_CharacterGUIDs = {
 "Player-3676-0EA522BF",
 "Player-3676-0EA16CFA",
 "Player-162-0B8E1826",
+"Player-3676-0EA9AE76",
+"Player-3676-0EAA5441",
 }
 DataStore_CharacterGuilds = {
 1,
@@ -84,14 +90,15 @@ DataStore_CharacterGuilds = {
 1,
 1,
 1,
-2,
-nil,
-nil,
-2,
+1,
+[16] = 2,
+[17] = 1,
 }
 DataStore_AltGroups = {
 }
 DataStore_ConnectedRealms = {
+["Emerald Dream"] = "Area 52",
+["Area 52"] = "Emerald Dream",
 }
 DataStore_RealmNames = {
 ["Area52"] = "Area 52",

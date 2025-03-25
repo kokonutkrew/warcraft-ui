@@ -1,6 +1,6 @@
 
 g_clubIdToSeenApplicants = {
 [486927781] = {
-["Player-3676-0E9350EE"] = true,
+["Player-57-09AA5496"] = true,
 },
 }

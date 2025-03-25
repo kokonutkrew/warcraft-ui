@@ -23,7 +23,7 @@ spec:RegisterResource( Enum.PowerType.Insanity, {
         end,
 
         interval = function () return class.auras.mind_flay.tick_time end,
-        value = 2,
+        value = 2
     },
 
     mind_flay_insanity = {
@@ -38,7 +38,7 @@ spec:RegisterResource( Enum.PowerType.Insanity, {
         end,
 
         interval = function () return class.auras.mind_flay_insanity_dot.tick_time end,
-        value = 3,
+        value = 3
     },
 
     void_lasher_mind_sear = {
@@ -53,7 +53,7 @@ spec:RegisterResource( Enum.PowerType.Insanity, {
         end,
 
         interval = function () return class.auras.void_lasher_mind_sear.tick_time end,
-        value = 1,
+        value = 1
     },
 
     void_tendril_mind_flay = {
@@ -68,7 +68,7 @@ spec:RegisterResource( Enum.PowerType.Insanity, {
         end,
 
         interval = function () return class.auras.void_tendril_mind_flay.tick_time end,
-        value = 1,
+        value = 1
     },
 
     void_torrent = {
@@ -82,7 +82,7 @@ spec:RegisterResource( Enum.PowerType.Insanity, {
         end,
 
         interval = function () return class.abilities.void_torrent.tick_time end,
-        value = 6,
+        value = 6
     },
 
     voidwraith = {
@@ -128,7 +128,6 @@ spec:RegisterResource( Enum.PowerType.Insanity, {
     }
 } )
 spec:RegisterResource( Enum.PowerType.Mana )
-
 
 -- Talents
 spec:RegisterTalents( {
@@ -273,7 +272,6 @@ spec:RegisterTalents( {
     voidwraith                 = { 100212, 451234, 1 }, -- Transform your Shadowfiend or Mindbender into a Voidwraith. Voidwraith
 } )
 
-
 -- PvP Talents
 spec:RegisterPvpTalents( {
     absolute_faith       = 5481, -- (408853)
@@ -288,199 +286,9 @@ spec:RegisterPvpTalents( {
     void_volley          = 5447, -- (357711)
 } )
 
+
 spec:RegisterHook( "TALENTS_UPDATED", function()
     talent.shadow_crash = talent.shadow_crash_targeted.enabled and talent.shadow_crash_targeted or talent.shadow_crash_ground
-end )
-
-spec:RegisterTotem( "mindbender", 136214 )
-spec:RegisterTotem( "shadowfiend", 136199 )
-spec:RegisterTotem( "voidwraith", 615099 )
-
-
-local entropic_rift_expires = 0
-local er_extensions = 0
-
-spec:RegisterHook( "COMBAT_LOG_EVENT_UNFILTERED", function( _, subtype, _, sourceGUID, _, _, _, _, _, _, _, spellID )
-    if sourceGUID ~= GUID then return end
-
-    if subtype == "SPELL_AURA_REMOVED" and spellID == 341207 then
-        Hekili:ForceUpdate( subtype )
-
-    elseif subtype == "SPELL_AURA_APPLIED" and spellID == 341207 then
-        Hekili:ForceUpdate( subtype )
-
-    elseif ( subtype == "SPELL_AURA_APPLIED" or subtype == "SPELL_AURA_REFRESH" ) and spellID == 450193 then
-        entropic_rift_expires = GetTime() + 8 -- Assuming it will re-refresh from VT ticks and be caught by SPELL_AURA_REFRESH.
-        er_extensions = 0
-        return
-
-    elseif state.talent.darkening_horizon.enabled and subtype == "SPELL_CAST_SUCCESS" and er_extensions < 3 and spellID == 450405 and entropic_rift_expires > GetTime() then
-        entropic_rift_expires = entropic_rift_expires + 1
-        er_extensions = er_extensions + 1
-    end
-
-end, false )
-
-spec:RegisterStateExpr( "rift_extensions", function()
-    return er_extensions
-end )
-
-spec:RegisterStateTable( "priest", setmetatable( {},{
-    __index = function( t, k )
-        if k == "self_power_infusion" then return true
-    elseif k == "force_devour_matter" then return debuff.all_absorbs.up end
-        return false
-    end
-} ) )
-
-local ExpireVoidform = setfenv( function()
-    applyBuff( "shadowform" )
-    if Hekili.ActiveDebug then Hekili:Debug( "Voidform expired, Shadowform applied.  Did it stick?  %s.", buff.voidform.up and "Yes" or "No" ) end
-end, state )
-
-local PowerSurge = setfenv( function()
-    class.abilities.halo.handler()
-end, state )
-
-
-
--- The War Within
-spec:RegisterGear( "tww2", 229334, 229332, 229337, 229335, 229333 )
-
--- Dragonflight
-spec:RegisterGear( "tier29", 200327, 200329, 200324, 200326, 200328 )
-spec:RegisterAuras( {
-    dark_reveries = {
-        id = 394963,
-        duration = 8,
-        max_stack = 1
-    },
-    gathering_shadows = {
-        id = 394961,
-        duration = 15,
-        max_stack = 3
-    }
-} )
-
-spec:RegisterGear( "tier30", 202543, 202542, 202541, 202545, 202540, 217202, 217204, 217205, 217201, 217203 )
-spec:RegisterAuras( {
-    darkflame_embers = {
-        id = 409502,
-        duration = 3600,
-        max_stack = 4
-    },
-    darkflame_shroud = {
-        id = 410871,
-        duration = 10,
-        max_stack = 1
-    }
-} )
-
-spec:RegisterGear( "tier31", 207279, 207280, 207281, 207282, 207284 )
-spec:RegisterAura( "deaths_torment", {
-    id = 423726,
-    duration = 60,
-    max_stack = 12
-} )
-
-
--- Don't need to actually snapshot this, the APL only cares about the power of the cast.
-spec:RegisterStateExpr( "pmultiplier", function ()
-    if this_action ~= "devouring_plague" then return 1 end
-
-    local mult = 1
-    if buff.gathering_shadows.up then mult = mult * ( 1 + ( buff.gathering_shadows.stack * 0.12 ) ) end
-    if buff.mind_devourer.up     then mult = mult * 1.2                                             end
-
-    return mult
-end )
-
-
-spec:RegisterHook( "reset_precast", function ()
-    if buff.voidform.up or time > 0 then
-        applyBuff( "shadowform" )
-    end
-
-    if debuff.unfurling_darkness_cd.up then applyBuff( "unfurling_darkness_cd", debuff.unfurling_darkness_cd.remains ) end
-
-    if pet.mindbender.active then
-        applyBuff( "mindbender", pet.mindbender.remains )
-        buff.mindbender.applied = action.mindbender.lastCast
-        buff.mindbender.duration = 15
-        buff.mindbender.expires = action.mindbender.lastCast + 15
-    elseif pet.shadowfiend.active then
-        applyBuff( "shadowfiend", pet.shadowfiend.remains )
-        buff.shadowfiend.applied = action.shadowfiend.lastCast
-        buff.shadowfiend.duration = 15
-        buff.shadowfiend.expires = action.shadowfiend.lastCast + 15
-    elseif pet.voidwraith.active then
-        applyBuff( "voidwraith", pet.voidwraith.remains )
-        buff.voidwraith.applied = action.voidwraith.lastCast
-        buff.voidwraith.duration = 15
-        buff.voidwraith.expires = action.voidwraith.lastCast + 15
-    end
-
-    if buff.voidform.up then
-        state:QueueAuraExpiration( "voidform", ExpireVoidform, buff.voidform.expires )
-    end
-
-    if not IsSpellKnownOrOverridesKnown( 391403 ) then
-        removeBuff( "mind_flay_insanity" )
-    end
-
-    if IsActiveSpell( 356532 ) then
-        applyBuff( "direct_mask", class.abilities.fae_guardians.lastCast + 20 - now )
-    end
-
-    -- If we are channeling Mind Sear, see if it started with Thought Harvester.
-    local _, _, _, start, finish, _, _, spellID = UnitChannelInfo( "player" )
-
-    if settings.pad_void_bolt and cooldown.void_bolt.remains > 0 then
-        reduceCooldown( "void_bolt", latency * 2 )
-    end
-
-    if settings.pad_ascended_blast and cooldown.ascended_blast.remains > 0 then
-        reduceCooldown( "ascended_blast", latency * 2 )
-    end
-
-    if buff.voidheart.up then
-        applyBuff( "entropic_rift", buff.voidheart.remains )
-    elseif entropic_rift_expires > query_time then
-        applyBuff( "entropic_rift", entropic_rift_expires - query_time )
-    end
-
-    -- Sanity check that Void Blast is enabled.
-    if buff.entropic_rift.up and talent.void_blast.enabled and not IsSpellKnownOrOverridesKnown( 450983 ) then
-        -- Void Blast isn't known for some reason; let's remove ER so MB can be queued.
-        removeBuff( "entropic_rift" )
-    end
-
-    rift_extensions = nil
-
-    if talent.power_surge.enabled and query_time - action.halo.lastCast < 10 then
-        applyBuff( "power_surge", 10 - ( query_time - action.halo.lastCast ) )
-        if buff.power_surge.remains > 5 then
-            state:QueueAuraEvent( "power_surge", PowerSurge, buff.power_surge.expires - 5, "TICK" )
-        end
-        state:QueueAuraExpiration( "power_surge", PowerSurge, buff.power_surge.expires )
-    end
-end )
-
-spec:RegisterHook( "TALENTS_UPDATED", function()
-    local sf = talent.voidwraith.enabled and "voidwraith" or talent.mindbender.enabled and "mindbender" or "shadowfiend"
-    class.totems.fiend = spec.totems[ sf ]
-    totem.fiend = totem[ sf ]
-    cooldown.fiend = cooldown[ sf ]
-    pet.fiend = pet[ sf ]
-end )
-
-
-spec:RegisterHook( "pregain", function( amount, resource, overcap )
-    if amount > 0 and resource == "insanity" and state.buff.memory_of_lucid_dreams.up then
-        amount = amount * 2
-    end
-
-    return amount, resource, overcap
 end )
 
 -- Auras
@@ -488,7 +296,7 @@ spec:RegisterAuras( {
     angelic_feather = {
         id = 121557,
         duration = 5,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Movement speed reduced by $s1%.
     -- https://wowhead.com/beta/spell=390669
@@ -502,7 +310,7 @@ spec:RegisterAuras( {
         id = 390771,
         duration = 6,
         tick_time = 2,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Movement speed increased by $s1%.
     -- https://wowhead.com/beta/spell=65081
@@ -510,7 +318,7 @@ spec:RegisterAuras( {
         id = 65081,
         duration = 3,
         type = "Magic",
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Your non-periodic Shadow damage is increased by $w1%. $?s341240[Critical strike chance increased by ${$W4}.1%.][]
     -- https://wowhead.com/beta/spell=391109
@@ -535,7 +343,7 @@ spec:RegisterAuras( {
     death_and_madness_debuff = {
         id = 322098,
         duration = 7,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Shadow Word: Death damage increased by $s2% and your next Shadow Word: Death deals damage as if striking a target below $32379s2% health.
     -- https://wowhead.com/beta/spell=392511
@@ -660,7 +468,7 @@ spec:RegisterAuras( {
         id = 111759,
         duration = 600,
         type = "Magic",
-        max_stack = 1,
+        max_stack = 1
     },
     mental_fortitude = {
         id = 377066,
@@ -704,7 +512,7 @@ spec:RegisterAuras( {
         duration = function () return 2 * haste end,
         tick_time = function () return 0.5 * haste end,
         type = "Magic",
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: The cast time of your next Mind Blast is reduced by $w1% and its critical strike chance is increased by $s2%.
     -- https://wowhead.com/beta/spell=391092
@@ -775,7 +583,7 @@ spec:RegisterAuras( {
         duration = 3600,
         type = "Magic",
         max_stack = 1,
-        shared = "player", -- use anyone's buff on the player, not just player's.
+        shared = "player" -- use anyone's buff on the player, not just player's.
     },
     -- Absorbs $w1 damage.
     -- https://wowhead.com/beta/spell=17
@@ -789,7 +597,7 @@ spec:RegisterAuras( {
     protective_light = {
         id = 193065,
         duration = 10,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Stunned.
     -- https://wowhead.com/beta/spell=64044
@@ -843,7 +651,7 @@ spec:RegisterAuras( {
     screams_of_the_void = {
         id = 393919,
         duration = 3,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Shackled.
     -- https://wowhead.com/beta/spell=9484
@@ -866,7 +674,7 @@ spec:RegisterAuras( {
         duration = function() return talent.misery.enabled and 21 or 16 end,
         tick_time = function () return 2 * haste * ( 1 - 0.4 * ( buff.screams_of_the_void.up and talent.screams_of_the_void.rank or 0 ) ) end,
         type = "Magic",
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: 343726
     -- https://wowhead.com/beta/spell=34433
@@ -885,7 +693,7 @@ spec:RegisterAuras( {
         max_stack = 1
     },
     shadowy_apparitions = {
-        id = 78203,
+        id = 78203
     },
     shadowy_insight = {
         id = 375981,
@@ -926,12 +734,12 @@ spec:RegisterAuras( {
     ultimate_penitence = {
         id = 421453,
         duration = 6.0,
-        max_stack = 1,
+        max_stack = 1
     },
     unfurling_darkness = {
         id = 341282,
-        duration = 15,
-        max_stack = 1,
+        duration = 8,
+        max_stack = 1
     },
     unfurling_darkness_cd = {
         id = 341291,
@@ -954,7 +762,7 @@ spec:RegisterAuras( {
         duration = 12.0,
         tick_time = 0.5,
         pandemic = true,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Suffering $w2 Shadow damage every $t2 sec.
     -- https://wowhead.com/beta/spell=34914
@@ -997,7 +805,7 @@ spec:RegisterAuras( {
     voidform = {
         id = 194249,
         duration = 15, -- function () return talent.legacy_of_the_void.enabled and 3600 or 15 end,
-        max_stack = 1,
+        max_stack = 1
     },
     void_tendril_mind_flay = {
         id = 193473,
@@ -1014,13 +822,13 @@ spec:RegisterAuras( {
     weakened_soul = {
         id = 6788,
         duration = function () return 7.5 * haste end,
-        max_stack = 1,
+        max_stack = 1
     },
     -- The damage of your next Smite is increased by $w1%, or the absorb of your next Power Word: Shield is increased by $w2%.
     weal_and_woe = {
         id = 390787,
         duration = 20.0,
-        max_stack = 1,
+        max_stack = 1
     },
     -- Talent: Damage and healing of Smite and Holy Nova is increased by $s1%.
     -- https://wowhead.com/beta/spell=390933
@@ -1034,12 +842,12 @@ spec:RegisterAuras( {
     chorus_of_insanity = {
         id = 279572,
         duration = 120,
-        max_stack = 120,
+        max_stack = 120
     },
     death_denied = {
         id = 287723,
         duration = 10,
-        max_stack = 1,
+        max_stack = 1
     },
     depth_of_the_shadows = {
         id = 275544,
@@ -1067,14 +875,14 @@ spec:RegisterAuras( {
     shadow_word_manipulation = {
         id = 357028,
         duration = 10,
-        max_stack = 1,
+        max_stack = 1
     },
 
     -- Conduits
     dissonant_echoes = {
         id = 343144,
         duration = 10,
-        max_stack = 1,
+        max_stack = 1
     },
     lights_inspiration = {
         id = 337749,
@@ -1087,6 +895,210 @@ spec:RegisterAuras( {
         max_stack = 1
     },
 } )
+
+
+spec:RegisterTotems( {
+    mindbender = {
+        id = 136214
+    },
+    shadowfiend = {
+        id = 136199
+    },
+    voidwraith = {
+        id = 615099
+    },
+} )
+
+local entropic_rift_expires = 0
+local er_extensions = 0
+
+spec:RegisterHook( "COMBAT_LOG_EVENT_UNFILTERED", function( _, subtype, _, sourceGUID, _, _, _, _, _, _, _, spellID )
+    if sourceGUID ~= GUID then return end
+
+    if subtype == "SPELL_AURA_REMOVED" and spellID == 341207 then
+        Hekili:ForceUpdate( subtype )
+
+    elseif subtype == "SPELL_AURA_APPLIED" and spellID == 341207 then
+        Hekili:ForceUpdate( subtype )
+
+    elseif ( subtype == "SPELL_AURA_APPLIED" or subtype == "SPELL_AURA_REFRESH" ) and spellID == 450193 then
+        entropic_rift_expires = GetTime() + 8 -- Assuming it will re-refresh from VT ticks and be caught by SPELL_AURA_REFRESH.
+        er_extensions = 0
+        return
+
+    elseif state.talent.darkening_horizon.enabled and subtype == "SPELL_CAST_SUCCESS" and er_extensions < 3 and spellID == 450405 and entropic_rift_expires > GetTime() then
+        entropic_rift_expires = entropic_rift_expires + 1
+        er_extensions = er_extensions + 1
+    end
+
+end, false )
+
+spec:RegisterStateExpr( "rift_extensions", function()
+    return er_extensions
+end )
+
+spec:RegisterStateTable( "priest", setmetatable( {},{
+    __index = function( t, k )
+        if k == "self_power_infusion" then return true
+    elseif k == "force_devour_matter" then return debuff.all_absorbs.up end
+        return false
+    end
+} ) )
+
+local ExpireVoidform = setfenv( function()
+    applyBuff( "shadowform" )
+    if Hekili.ActiveDebug then Hekili:Debug( "Voidform expired, Shadowform applied.  Did it stick?  %s.", buff.voidform.up and "Yes" or "No" ) end
+end, state )
+
+local PowerSurge = setfenv( function()
+    class.abilities.halo.handler()
+end, state )
+
+spec:RegisterGear( {
+    -- The War Within
+    tww2 = {
+        items = { 229334, 229332, 229337, 229335, 229333 }
+    },
+    -- Dragonflight
+    tier31 = {
+        items = { 207279, 207280, 207281, 207282, 207284 },
+        auras = {
+            deaths_torment = {
+                id = 423726,
+                duration = 60,
+                max_stack = 12
+            }
+        }
+    },
+    tier30 = {
+        items = { 202543, 202542, 202541, 202545, 202540, 217202, 217204, 217205, 217201, 217203 },
+        auras = {
+            darkflame_embers = {
+                id = 409502,
+                duration = 3600,
+                max_stack = 4
+            },
+            darkflame_shroud = {
+                id = 410871,
+                duration = 10,
+                max_stack = 1
+            }
+        }
+    },
+    tier29 = {
+        items = { 200327, 200329, 200324, 200326, 200328 },
+        auras = {
+            dark_reveries = {
+                id = 394963,
+                duration = 8,
+                max_stack = 1
+            },
+            gathering_shadows = {
+                id = 394961,
+                duration = 15,
+                max_stack = 3
+            }
+        }
+    }
+} )
+
+
+-- Don't need to actually snapshot this, the APL only cares about the power of the cast.
+spec:RegisterStateExpr( "pmultiplier", function ()
+    if this_action ~= "devouring_plague" then return 1 end
+
+    local mult = 1
+    if buff.gathering_shadows.up then mult = mult * ( 1 + ( buff.gathering_shadows.stack * 0.12 ) ) end
+    if buff.mind_devourer.up     then mult = mult * 1.2                                             end
+
+    return mult
+end )
+
+spec:RegisterHook( "reset_precast", function ()
+    if buff.voidform.up or time > 0 then
+        applyBuff( "shadowform" )
+    end
+
+    if debuff.unfurling_darkness_cd.up then applyBuff( "unfurling_darkness_cd", debuff.unfurling_darkness_cd.remains ) end
+
+    if pet.mindbender.active then
+        applyBuff( "mindbender", pet.mindbender.remains )
+        buff.mindbender.applied = action.mindbender.lastCast
+        buff.mindbender.duration = 15
+        buff.mindbender.expires = action.mindbender.lastCast + 15
+    elseif pet.shadowfiend.active then
+        applyBuff( "shadowfiend", pet.shadowfiend.remains )
+        buff.shadowfiend.applied = action.shadowfiend.lastCast
+        buff.shadowfiend.duration = 15
+        buff.shadowfiend.expires = action.shadowfiend.lastCast + 15
+    elseif pet.voidwraith.active then
+        applyBuff( "voidwraith", pet.voidwraith.remains )
+        buff.voidwraith.applied = action.voidwraith.lastCast
+        buff.voidwraith.duration = 15
+        buff.voidwraith.expires = action.voidwraith.lastCast + 15
+    end
+
+    if buff.voidform.up then
+        state:QueueAuraExpiration( "voidform", ExpireVoidform, buff.voidform.expires )
+    end
+
+    if not IsSpellKnownOrOverridesKnown( 391403 ) then
+        removeBuff( "mind_flay_insanity" )
+    end
+
+    if IsActiveSpell( 356532 ) then
+        applyBuff( "direct_mask", class.abilities.fae_guardians.lastCast + 20 - now )
+    end
+
+    -- If we are channeling Mind Sear, see if it started with Thought Harvester.
+    local _, _, _, start, finish, _, _, spellID = UnitChannelInfo( "player" )
+
+    if settings.pad_void_bolt and cooldown.void_bolt.remains > 0 then
+        reduceCooldown( "void_bolt", latency * 2 )
+    end
+
+    if settings.pad_ascended_blast and cooldown.ascended_blast.remains > 0 then
+        reduceCooldown( "ascended_blast", latency * 2 )
+    end
+
+    if buff.voidheart.up then
+        applyBuff( "entropic_rift", buff.voidheart.remains )
+    elseif entropic_rift_expires > query_time then
+        applyBuff( "entropic_rift", entropic_rift_expires - query_time )
+    end
+
+    -- Sanity check that Void Blast is enabled.
+    if buff.entropic_rift.up and talent.void_blast.enabled and not IsSpellKnownOrOverridesKnown( 450983 ) then
+        -- Void Blast isn't known for some reason; let's remove ER so MB can be queued.
+        removeBuff( "entropic_rift" )
+    end
+
+    rift_extensions = nil
+
+    if talent.power_surge.enabled and query_time - action.halo.lastCast < 10 then
+        applyBuff( "power_surge", 10 - ( query_time - action.halo.lastCast ) )
+        if buff.power_surge.remains > 5 then
+            state:QueueAuraEvent( "power_surge", PowerSurge, buff.power_surge.expires - 5, "TICK" )
+        end
+        state:QueueAuraExpiration( "power_surge", PowerSurge, buff.power_surge.expires )
+    end
+end )
+
+spec:RegisterHook( "TALENTS_UPDATED", function()
+    local sf = talent.voidwraith.enabled and "voidwraith" or talent.mindbender.enabled and "mindbender" or "shadowfiend"
+    class.totems.fiend = spec.totems[ sf ]
+    totem.fiend = totem[ sf ]
+    cooldown.fiend = cooldown[ sf ]
+    pet.fiend = pet[ sf ]
+end )
+
+spec:RegisterHook( "pregain", function( amount, resource, overcap )
+    if amount > 0 and resource == "insanity" and state.buff.memory_of_lucid_dreams.up then
+        amount = amount * 2
+    end
+
+    return amount, resource, overcap
+end )
 
 local InescapableTorment = setfenv( function ()
     if buff.mindbender.up then buff.mindbender.expires = buff.mindbender.expires + 0.7
@@ -2429,7 +2441,6 @@ spec:RegisterAbilities( {
     },
 } )
 
-
 spec:RegisterRanges( "mind_blast", "dispel_magic" )
 
 spec:RegisterOptions( {
@@ -2447,9 +2458,8 @@ spec:RegisterOptions( {
 
     potion = "tempered_potion",
 
-    package = "Shadow",
+    package = "Shadow"
 } )
-
 
 spec:RegisterSetting( "pad_void_bolt", true, {
     name = "Pad |T1035040:0|t Void Bolt Cooldown",
@@ -2472,7 +2482,7 @@ spec:RegisterSetting( "sw_death_protection", 50, {
     min = 0,
     max = 100,
     step = 0.1,
-    width = "full",
+    width = "full"
 } )
 
-spec:RegisterPack( "Shadow", 202503010, [[Hekili:T3xBZTTrsc)Br1wlnPTfnjLKJJFezQS2XxCQNSxQvjB(WvNiHahkIYGa8WlsrxPI)2VU75fmZGzaaPOwN6QRQ7YktmONE6PFV7zW1JV(xV(QLbfSR)7tgn5IrNnE0WXNp5IZV46RkEyl76R2ge(LGBH)ijyd8FVADWY07XF(H40GL4RNNwMfcpADrX283)M3CBuX6YBggMU5n5rBkJdkIstcZcwvG)7W3C9v3ugfx85KRVX5CpA81xfuwSondMUOnFaGC0YLm(Wz5HxFfo8thD2PJh9(DlWHSBXVTfH0UFA3pjF4OZgogE8NI(JDl(4VSBryAYYiev2Tio92OWDlks3Tytqr46DlqeZ8LrixUDBAwXUfBZIy5fdxLcRZ5lz3bl45WlwWYQENjNo5DW78R)(VdVilihNNjxFvCuErosLwffhZYG)6Vt0CwsWnXSLx)34RPSOTiQD9vFinjVCdB3c2MTP3ZYyl3TG)Q5avjKpOWG4458)XCCc4tZC(oK6fNlMYcG(AnLsaDxWMTrzrHZlsldxda(HWy28IGSBzawdy6vaMblZOaGDiiMLumSmzvzwCuYTZxgK9LewE(qbG3TO3Uf3uUALJXmpC5Wm2MGOK8DlUewD)blSSaMQiCTcVNa6rjjSS5)xLrSIsfGTjrb5WEY)uG6ajhXD(U52Su4h(n50dB8I5hjcN5HiKtS0ZVpnBjS5guS2CvJ0IHRzbXfRhUnSGq)jJ2T4Xh3TOVybtVw(wwWxyzdl3YFyoRy(nPjW6OiILD245t2ci3aA5UmTyiNrcPsBJdUTKbdl8lW)0X2aG9NFyyVGQc0VGT47c70zBWFtFtBlScxfXswoeH6Dm3yWfEWGnrjaVwCWdw7tFUa2RJrubyxFy3IGDlYcswMUz3IKYn3acplsVd)VJhEbshbsBmSvb7KRd4cp1zhJsaWLvUTyE0ky5beS8ztN0lmnngOcjdVlnAjq0JlKCBZMElW6Tj4p6DBfl4LthzaQnBylJqfrxzWXtBTiebb)n02ApunIVPc4mMUBHy62T4L4c7Tx8nN9o956240BcIXjcOOV1IIwBJRswoVeicoe1OFFE6Q5aceKev8GI9Zj2lGlH7meHGDQkXm5oQnNjIRFtxvH88RWWn7578GGRdItT4mVk4oqRdssqLgtgbtr0kGbD5s4VcYy4U8gs)rEkqF0xuGqoO7vmZ7wmd2KXj)B9m57TM6XJ8YtCYUf3fa)f8KHRbMqKCbMvZx36oR(a2YYwXclWjf5lQT3l0NqaMqiBZvgI95BJ(IN9JX(m6OPVORc4niTUgyrO)YJm2ysTVIZo6oqz48Cyk1XnCCTOGLtqm5J(TCGvH7r0UfFGVvC)6Oy4x3KEhXafKtk(ItV)uWlIuyZe1egY9d5(1SejB39alaOymTGy(aieLWTZKZqpxYn4cZcWD57W9t8ThIJDgF4Wo9joS9C(2qAv6tjUlZin6mGBZInrG(Da2GhsFeH((rNWLNqbaTiS1B2WI44JoE429PFuhN2s8QTIs)squY(GriZdUg(1ZgVBbUr7cdlWjEvqzCHYhufkctuc6bVHaHT4B6wyKScDn)CLr4FfdgjUAvqCo9VYek4m0s5YfS2HzFBlUkDBET6Ewh0hIgivWfT5mpipKLKJdY0uP1dvqyahi6td4AvMTRvsTU5peUgmsc24(IXZnxCsiyS2oxku3G2)tQBVxFJylmlO(EWQAUlNjReS5oaoNLW2aX8W1Qa7rfGf(cshqNSSfKYAYJXSYeVVkUW5SR0F5iEP2zAelc0jBt3tG1dqq5shQLiUnYb1qDD9GsvWkv0TRl03ibPsWfaY3i(G1IsXpve0nEM((bGz5ZHTi)IzO1VAUsXD5mgI)XGhQMmsD2OVJgLpgOxIEMx3IYa6)Zw8cGZKDlELIIqMZ3WI1WPxsdzGLQUVhDS6E4)h5gjDA4RcmU4ckhWWpusOngRqAc(FlZPWFtHye(NW66Eg43w2qBgBCHGqIdhVSfZzK2PrkUKXnfu4(ezShxyTuK0IFW(PMwkZQV)tZF1lco3e(fU9ytvmercIYteJAV2vbsrNt6GS2l)rqUGYlILHi0F6qzkmCehoe5lfybgKhmI0TGisM0(v1ECtb8Q73zNXPFM40UcFl(paBJ8)GLKwIV3NfXp1rmCiSMsf(RLWWnceyltXxlkxoEceGf5HoeMpKD6(nSzdpBmj6jnCb6utZqh9ZaV0Widvq6v0qpTtSMNAWAMpN9aZqqFSmLgIrHHBzAN9eppRfo3bhpMx6FhP2GXFZPRY3F)ePJY2MU0K2tr24EyA5aBdZ1ds9SrsNciVJrma0FmFzeJhP4fYnXgmMlTgzBeM0N2jJVcB8(CsUIq63vukzqaEG)NFwnEuTCfzN7sACQ050AjKJEBNU2sHyZxKIHL)qsOuOb1vSBX3l3p1P995zoZ2NAzMZiYRIWkmYE0mWlzj7FGB9d029BX5YMCpvFwv2LXxOosrZAtjVzpJ6RH8GR7XS(d8KdxUU6FrPR2xqzy8XpKwkyzWjUs1mj0c)ygMrXpstkWTsZAt5dQs1AZl2(EYsRIaJUsAMhBvA3aYqw6wW7HSOv(YpOgxPHtBHRdssyXs2zJ4y4jmYm)Tk2kvgaH48IcJk4y443AXorQB5MwwvcQrYyWmIjrSsHPbo25fKd(BAU4uWkwbLvHkT)QHyK8YonPwmw)TyQ6aBsr(LBkZW)X7VhupWw((MsuxTuE(04nQrfR0kLnNl)GoQyBGSbB26A2aDl6WyqLTup571Ds)C8AUxa2SH1sCSXwGYVOy0hR)Pa07w8d)byFGXt1kjthIP5pabj8JfdDM(tdV(esTwfmBZ24OWGcC9Suo1yHfcd2YdX4gopbzOPenYfj89BBwAbdZDvWT4Qg(doYGz1hqpeGm0YKVqXCMNvN7dTkPzl5aOt0YO0Y85anZuYzF1kPKlBQ0fVrdxoT5H(xnL5FP2)exsJgo5IN3zCgnlJg3y6PvGXLxoitjFtMcqaTMGoB9GHF7X4EfYuWjJK)9rmWX)FNj50qEyYxMBsXYxHECamaSWGsZzbJiGhsBqyi4ED0nyQ9O9ygNPJlIaoFGEoDBzqwqsbd99dw0rBkHNXwHIW6SIou4Z133R7uE(owZjSF)0nQL8f7xKpDJjeCp0FAlB0LC65jxHZQNRqrI8QtmjC9T(uUP0WWtqn)LRk4GposHv(dZ8IYnx7mp6urKhAbQrYiIntZS6qO5Co2Vd(OsEGmPMzUgC79KgJb22CVOxaiT2)kN0cYyOICwgiTT2kLaOPhZSm4TSpA6pAARQTYbJYwEuaTBXF7Gvb9j08pvqGQWXcxZWONxZYedDtaMTJ8s8FZ7sMLPS8KxaW7(aUnWuzeC9JgIW9EwuggZ3NE)NrJFNQhx2)2h(4GgRH0rmNznKbxKQEHDbD3sXR(BF6JQcLyV1lqsxLpQfb8F(kGwG5G8N)0NRYo0pu1Foxr1MhOHFFw460KbdBkqDdP8kpGPeAvveFrMqMjZHNU)00qnfAQGdwxv)G5KgHKPwHMA9GtAq7s7L42x0O1TZ4At(bkoVQ01HIpFu(MqmLclnOsaEnvrHEsAAfpwF(VsWctgHEpNmEuENs1ZuIpGASnkBANtRlFrCUF2pDBi6SlmcX2FCcMSdgbw1ZDuGIh1HkTHAZpZ0JphQSRBmAqnEy3Xe6iQpKFQU6th73CfEGVsr)3mS3oqnMdXelqDWxyuwyjslvbFWBZJGTBjOG7JvSuO(oK1aj6)opNusc(Uf)dofxe(cszkOKAXd5KZhLMi4adKQUPrugxeDQidrehJVOr7URcTwwWwnY31edGB(t6GRB04gARHwZQNYonUxePeiPmYNWcY4rlHPYjVGSI)pX61iIFJ27wt9VZhkwxMi(zoK)bjNhMAPYeA7aD9wwjaQss)GGsa7KaPamcxgfJTxbwloFrFA2dih((rD7zaDBvgdG)nX267C1DjMPCTIrMSyjMpX6u0nte1Xo1SYkuGCLBHHW2GpeI54wQUTt8gu1t3cFx7e0wkxMm9rnw7ENDt6H4FX3hcabPZGhgebYoujJr)lySGuaH1i8ixOkT(GUcf3Fmpx4fO9iYN2XtYTsHUGfa37OT7G7cIIdOijX2ut0uoMBjxnUHnp74nS4mnI24exjwNRxxJdwq8DNc8jsZmpH5sVi2G2(53jAcVrUlCYuT6tPBFZOmagAUCkHkEUrE8Cu2MkTTDQicN0Avj2dGsCL(I8up5zTe3zZPLTtz2TH4o71npf0zaCvH)6QjdqziU5kmvlRKv8vKoykUVNs9P4q7JI1RUqOyuOg3k1XBZychlmnmr7s(I40HBIzn2kYTNC3MZARR(yBIVG7ASKJkN7lWIeXct3Ctq9(mJcfGxSjatlIkkx2wtNzyyL3WZ8cuk7Xjtl04pFW9zwbq7)cQ4A8W1bGsNC2CCgfzB5R7dJYhMhDBcRaB1BiygkZ)OVrkTjAdUkRmQyuMjk59a9MNr8kZhtZPZgdB)iCtAAr815H7bHBYEt4Mur4SfBqchyv0hPt1iy6vdQQdnVAKRk43ryAuDinyo2vLG7km52A1H2exfzTJGlkhG28TP8mHBVUTJkQJa1TLcDaBwDPBKNPn4LyjuTw2eKem)gQeYpuvDb5KgKbH8XQIlZqZvTSN7inc2UNu1Ck17PaEMt94xZLtT7ie6uo4k7ZvOHXrxWWNdoaFNMJjU6FCoQ0euMXD3YtCtUY2QTVhDWvhHFiT46KJIrBmudW1YA6DQjLVtsVItcuVMH1uB6JLl5K9tS3zpOUE1CMR14RFhYpzka7qa3Hn42N5rgAz8lNFqwMDDUdmJTajRVRtXx3eMT)M(oweCx2ooAeCxgr(Zbb3LPOw91qOj0vG7VIKu5DOClAh61jnnduvBUEmN2XPw3IMwik)6)(h)3FpM5qeL5PQCfESKltGHfr1q4g26G7IsvDAAzcL7E8rKHHCdVgQAFCxgGBLiwF5CAJu2buMAoxNV4o)j5Qduwh2cPtsN2AS2zhXLxbTUs7c7sdPS7G3(1LZtkdIX3AEW2TXraYtQ5f(qM7sxVGc8aq(kwNXcwo)(miyR7Zc2c8bOVUPRwn)2WLxRFIm8n(qN9Us9Ml297RnA9CaFI)Aj0EvC5wM73YusfhDg3M5EuMHMGzHm1ZZKMIDyVtCewUHLHnHXCslp4qnEhi4J07CWv09B1Z5jpBv9eHZ64nvTb9urHLSTzYrWegeKs888hsGLhkiToijeBQxFiP3xOEjj5rQtf(RPwYt(iLyGveLEE6e5tvoPvp9gnKijdxKpFKg25izWdCzAxK0I4aGzyzA(8TrXPfZjBd(jFEgEB7YExDAe6OKvLo6BI2wAIh7VF0NmYL7f8v)TmWYoSHSKLLdmFWAB(xyp0G6fVVqduaxoGOIny7dBOk8Kp)E2n(5c9tCKYqAqkJH3yhQ6EJ1R8TUioyfXrwNw4a9r6nvh5RDw61nDwiW6xHeDDvFtCA6Y4YQc42oTy8OkUMoov9BKbJcqDWFQiJnvZ(jTir1R5x)TJAutyLRp(l2AtG)SrA5)2EZeerO8DYfETKDC4mDDPPJVcibfVv10kMjzQ2CKNnj9vSrY(VkJ2ULTCOhJwvm813h6KErLAiuDhqQ2KZDlRwdR4W9m5R6OXD8Ku9MaGrh7489rRmlD6OOeqBt5)VUI647xUuR0WA3csuvIfn8LO1yWW8Y5bOWbPmCe5PVVn(QEUzRAtrGs)HJKGDMuQvgdQsXN1ZT0kcoagw0o3aj45AtYQ4lowrhIkVoGoVtZNdi4qAf5YnWVAiiMidjgcUVMZYORTihoA91dfVqdfrc48vL8u62Wb77RhkI60YlqfDyz2AYRjt8ZvPqVeB(Xm2QPVqEHSD)93p8(07xdreXVv2WqnMoE0O3o6ne8ovcVxm7xW)n2lu8F4Y3emtDvu0zi)TNp58V9nsI1lMjpdiCOHQD6kOo7BhpE03(gKcFQIc)IzwhrqoCLD6ZDyFF9H1uLCxccqH0jkpyvblt29Gu)Y2vCOZekSDZO(L16z6NEyEF(JKGMpMJ7h7MtLNKUeHUrxfx4ClF3oPzD31pNSEv3BXNVZrhy0f)oASoe(GuLlftPqWA88p64UH6N1AAA9J(Af3fSMzROM9BBQOk)w7Ly674TvQw7QblVOBtIwffgGzGG7QicJOemJsilb1p2BcsEy3cvd8ul7n6XMBLrf77Xn63vek(tmJEw3RvTtyTcUMEO7Ae9mZfeFsK8mosYNDJi34Dtx3cqOo3LwgPunfYuvxc1A0eg8xnK8b9tsY5AsOoB92MBCMbUsMRkZM6OWXGF1SRue94YYsm50(BIgjucH)veDnfQRW6q49(kZDTV8nI(GLRs7jVzBNp7)xd1ulN71payA5Zns1V14p2NtwF1UfxiZkV2kX6ENqnkPMb)9d)PUiMWB(wUXVkHmtTlxxRDb0KhBSxOuj2x1)aoGaicVLbgQWM0i4b3xfdFuogSBMXbXdmdVZ14xEH5RtlJx67WZJguslwJV2YGnb3I6b4Tmpzu6gwm(oFZf)vDwpJl0TP4JP4pHv4DGJ(iUjUREXBx3RV6(GSeaKGzQFfpGfrB43xUuKLVGha9lWgeL6E2LyFQIsqbLfPB4hyx8WUJhUKD)0))iSFTNa4)hstGjJE8le7V1Bg4xWjg(hGKdagy)X)XG2MbJwf2c4oBJyB4EUp4wtKPg09kuzphV19CyFuDSMaFNKNocDdJpwG2P9tB4(np77P09a9ZbQ7dWMTCPfKD3pMvGE3p5qyrQ1y)exg3W6MmJ5ArBumUARyli2ArbHaLkR4PBD4TnF)lEfGNxZUVaGr32SD0482JvH6MdPRleXl0rfaMggTwmU9jVJq(jtL(Fnymtpl226VDvnHwuNi6oO9tBYzptRzpW9iSl1egxXKxdHTUOo7iu1VdpTv57469SLDivBY)e3JeLuH3)4uaj4fHm45vy1s3SjZRnOMx87)eiBg7da08QA9qtyE1qoUa)jG1OVXbfryGhnH5Md74pjpHvWAK00eUlhWXeWpb8fJyPj0v88Jiy3FK1ZrpWb89pYoov1kOQJjX1yEwbVcW1cns8wt6IkfpdYaZpctGVT3oaAFQvCoKJlWFcyDtQt8oSJ)K8ewbUvT4yahta)eWxNkxQ)8Jiy3FKTR6SAAKDCQAxPI7X8ScEfGPi))TKC(Nake2YgfzN66e4)aZHPRJo0)5)p8uExGhZSLr5K3Gva2tIIQ3U0VW0ht)9tDfrH8ZCvACC69uM(cG1vo2KhyE753M2rYBBi5QatDjMk7c54OZ16kiwsJrVCjo4Lbfb3eKZEp4vlDRTbmFECWnifLH2dxB9KNOJcHHpdV7zCgCsdcxUNj0XdnqRMFwOMJQbAVQ9aZQceybY6vo4RgeJoMzp1ZCCecd1dKFYbo3aDwvvjhK6AvCQJYbpH9ppq8OU)1aw)KOgF7rNA4bIhvQrdynvSmhiTrr06i8QvznBbeFvERfnJyPl3pvJEY06rr5nFg8uAONqUO9arITeVX7DXUQ)jbWgEEYm1rSukEMHJng)eOPE8F6GXqpW74JHhbrPgH)rKlObA8bPCXd8W2VYcu6FIiEEGINmWFe1J88vvcFUWOFJ7Bdy9NTNMw5oPuDPZ7ssWXDsFhH(ZLH7JMCMh4)Kk(BJq(j7W4)Yleo2uJQRP8xy7mJJRW82aCk1YlaMKZd(SrSShpjtPQUKTx9lUWlvFay7Fsti2Jp201A4SP63tDd613S9a1V3F)RI570ggICmdEP4pUCkETPF0a7SP49JEx2O)tjj8nDyTU)uW9bQccyfB64wytJSU1wNn(Tn8vj(VQH0QTP9deVXaeviAtoX(K0a8CvDyFaMD4LeVzaFeSd3iX4WCACShVgilH0HmZLjsJBW5VIG8i1cAJ94QWrZKUVj4PZf)C5KZyp(k8KfpM4jG6Jyye(MINCZwoXJwUJOt8)RykAky7NcpJpa)K5YN4jeSJGlX(a9taN39tFEJS6nVZSGhyALOlWPq8kV8D4Twz6Qi8MBHpQ8HQ(Z5vtFJRlUYD)KRrwDnu(6OvtpHCUY4gR09RjVImEn2c5tfvOsElA8A66SzA)Q6XxVQ2p(OJNkQDSZNDxvLzD(CQgOoFcwYh9h4PqGGdEvJPwH2MnDYOb7dTyIBAHRk8xHC1RJUZN5KwyxpyNpXKw4TOOA0chfDSZ0cJllYxlAXVPJED62P01JyxGHXLdPcgJ3pyWVfKQE7j71RBExjDGRJ6x2JDgqYc5kWgNvW19BAEbqU7N(l)fPwLMMbhxXpUbpM1kuTbEQH7zECCUC6596BCioNbK9rp(O9WM4Hts)MqdNd)xtHxo9DqCEUo4Lp(O)3A2yVSW6x7w4uRcISULYhF8eom8CZTnOkcux3MJnIGVdaoszHb5yT1Z)BofxAQfhsl5FV81)jtMtJBrmKBeMrHMl6BKV)3u)d1U5l2V5dKOkg9xEwpxwhF8Xk9o2NFy5ly(GbGInnajy6LJvVJxTIsTW8RpoY6EI7lyTENyN9bDkJ9PSsinLYEn)ZrpO1c4MmfaMnrhcwFN5LAVGa2R2phca0RgoXoGMIo(MrEd38JZ(UXtAg6wkan2Mhvnzhoqict9BUrqLX7618n24)hHXlHb01FmUhhBg5f3SJwI(cE86y4RE3l73OcZEEv1oyWSP23RHGgsp3OHnJ1nOVRV9CCQ3fZGlph3E8OQW7cXYs5SwypQFFmUheBp6X2tsPoV0X825PAHdwpOWwW)fzYTwwEPFO2n9WJps)EnledQ58XzOZh1UrEe)obeRBIhWCc5xJbCUC6zJSXA1DEd5kKt0SxT1Jxe39S(o7jT6AS5zCw1v)jMw1vtZZ50EH90AEDZ8mp1aV()39sdxPYxT7LgksL)JFK9fii3)ZDl(7P3KUeM7Bttsc4FlBXpuwdnJOHZReImlXu4Usxu15sqMhL7F1zG89ivSVJ6v)ELXPYjfp1eowwhtJsUl9lGDG)aiOjbnJYDMX2iAbb(nq43A9lkhh0p)yLsbzdcGoeQOW(CjSD(isy7WVcIQB)4GjBw2lanUasBh)65JgGb05Zu0(Yym(c9Ik6EuWSciINOBBJzDkMMM)c(HP7aUYvE2UIGS31KzrqgOwvdc3RV9nHrp3xPiZGq20Y3mF9bKTA)wVtQDzIyNsIzt6vv04AD3yfqTc(uBNKs5TXLYY0rvVNVOCDgL8mvuYNl4CnZNEvSWg)(tyB)yCt7yVdBS0iXYUVV(SSl2(Uf6P4SXxSNeDZLTjhYFsw3Arly34dGUMhFuwu)zt7p(IxDXl1XcQL5GFtkbyxeZtTxEV8TdQrvCNLer6MZRC)6Fv3Mm121SUPBW9TQBzMlN(nxONZb7RFvaavfLwDlP(AJljv9ec479nUKvR)6OHBGq9JiDhxtKdw2hrgkISTzPHH0y(17PFffE)eswnS9RMD3BpibGsZxr6QQcfvGqeRCWkaEQG0m(vWH9K5WM7T3ck1bqcq)H5i0iBUcgPS1bBZbh8ujWBz0Da378CyfR(n0mXaost8h)YVFL0jHp8pK2EW0wGCjIzeJA9tQpOY0hjp(bgczaki)yHnw0phKBfvlw9jQebJ0rZDl4NkjGqxu9TFnsDFqru6aboHkbh6H6QvyU81rS4LhpIPGmfM9aq2IJr6h4towFjYtP)cvSY8sSP1zvFkW5yMMn5wyeS5x5aMmcu77vif3pW(HNlnrf45UvGLG3XmAL5DlMEnxeQxqFoXQXpERxQ3nx9u6i1kEVdusKKkAdBjQyXnwr5Nttjb6Xl31t6LaPtWuCMTtICp5MG(N7Sp0KFJrpy0YNzGE1UGXWDXpJUSfJxSwiFfXpNbw)tbFVtk3CdkSGFI53Ty8WleN)o9pf5tCGNkvzUWpBxZBO3XQkwW4HV9IV5S39AS4PzOhfZJ2SHTmcKoqOw9RW6hiFGL0jnaxL7v90(saC50rAa6240BcI1vzRwD2ByAeD7(hIZFs)nkmR6Covaj60bxok(1vCHhNg5YFPipYtgLZvSk(SntU)LUHBnkf8G1bgl903iP7y(p5k1P3nqAINRAhvvlTF)fyd9MaytvOWLRBpVAajSsmjrVgXaU6A(3QyunEux0jhhTID00i)u0PE4wMvxe9yEEt)s(8na)olbrQScL7FObcw(P9hp6uUdU8bLfassjHSHuQLXmUpEupNdOC7RjtmHlNEHFfuQQ36REAUy1vvSZOnC8PDHC0YV)vDqvuiMHltLhTPsPJ6hQ8IPYTwRpo2ImcUj9Ui5hj9a8lM(9NsDIb5DH0RU7xZsKYBCgB6KphMk)E9JxS85mmN85Ue)S3uYcqQ(DiTgbkyPy2Kr9CMRH64VP327ZYaX0AfayFnTv3I7refpaSY7SZ)anVhtUqX3VE24DlikFJiZwa8UdpqGo)iOZLRXoq(nH3oqaUACK1IS7hI)5nmUEyYhruzBuHixa4FO(AshwsLohFTYTwky11mju(RHxFKeoaYfkD8Nb8ZuAvr(sX39VNExGu(7FicwHpl4Hp4bmSarnt)tWcb0W(W8eaJvozjJVI)P1zkiKBf4LEeTO1)x1PY8kSLuVWJZMY5if5KGNJIdOKV1BxIlpJe0(EK6I23fDvfizrPJI3yvFhODTICLMqeTCfbgZW19mWzMSHTSQD0ZwCcq0kv95P)35S4CSI)v(Cv1)82NWd7Un5767224lRREEWGkhH7p5v6jHcpWOVCcpVF)iqvXiVSvSG8MHYyaDfs2ILL8uKq3GgPBbIEMEI45unheT2Ce1J7MAo76Whv7LxV6K2QKZrhywI9(snh(RsDMr8foAOi6udDERKpEwpVc95G)duIaW)GLKwIV3NvjfOteZHa5pviJNWKAqQY7aF8eiaJb1zy18bQI5RjswFN0S(J9MuVxn(uV7rNANCWxoEqpT81uLet8F5z7AWHVF1tgi1LtT8Cr(fFWME52jAS51Ie9XOzDGodZfC9(Vz8f967XN26zKDGTZbuO3cT86jMh5YKlAUtcXPs3fQLDf6TD6SbflghjedlNkXgNxYBn004O4ieLXAu7UTdhYmt0trbe2hoyn929RHF6UwhvAYw4VHbLWuO60QUExcWutU)xuY9(CJeDcGYHmrNbtkHvI5e3h8Jzywt(iLFaSomuQgTj0T6tjs)b1qS8IHROwG24OrRAcs9FKwiIIYSHkjZnLz4)493hHoO8(6kVvQgCn997(bKuKidMXr5Xo)nkgedtH4nNrcd1Sygqy1j1g21JSpTHth)wT9CTY40WbcTtiPglMrbEW(X1v1G6gqPTgLU(y0UrvXT)H)yl5Xi6GiXBr(ggChvmok1fwBB1Y90(U5PrsQKI17xFTkDABsOsU3O78hu)S56muERHzJqEY)LUhVcIW9brfVgc4DQlUadgaJU(W3GU0)2yphpsMqi377Yftd1z8YXI0YVzBCui)sKzPKbbt1AyWwUNTIVMXKU8s0osuHk96fm8BFqWT4Sc)bNLH)TioebiJu(70VbUyVLtRQ0WuBZC)pO1hTdy9EDyY7(jSEVal)iwxzlhLE50zY7qu9pAY)bdN2IPD6IDIVflKZDryFv97m5MnkStwSVjfZPoAkfdlmmO0Cwq3b5bZeegYe9Mj1cglz89DUUeW6k6FWTLb4H4GHL1cq)OnLWZyRq5qpgbGzbzgQPOT7NmCtDCkwyEwFe(fFiAY0I00E4xoDS7QNutTs)NyhyC2GQQJlPnWS)w9sGrcF)Q8J2DakpIhoNfRTIPa1Z3uevAwh7UMDHxzMhdcL4SNLj2RSYIwORiZ7rGOFlUzHNZhFDjJvxWq6FgykrbUVCWYuFcnfTdZSwLx0HRz4xtyE1FlOErQQRyUkAZhqjowEYla4H2t2X7yjUJ39JgIWv0vZ)8NE)NrfQNQ7o9)2h(4GgKNCS51uzUKYqxTLIq43(0h3jtwOnlKiS0JAW4EZOZLtVWJS9pF1N5nBXp)PpxfZ7puvH5ROcGb0YVplCDAYG6(Y0TQIq89v(Fz2Gf8yjNnXiPb0q07GhJMQq9kNu7DQKiSlJ3jELI4oO8J4hXc6wgn5wkQFGfn6)wEXBuSg1iSkct8FvfSk5f(cZIxo(fze9mu42VzTMO88LTD7MPxI)3z68Z8SfGjteZ01qNUl1TciDuQ91H1Ahk(EEZfxLkfuzWhLQ7Gy0eFBUqQjVqiIo8qDYd4)ktEJWQxN6XJYB3gK7Kbmv2yLV68DA9Pun8IVT8h4wpUHGmbOAKRwt3NGHrzHLuYDxPhijinX7apCXwT0rTm4s4SlaFg4bWlDhhpypK)4IWfqKSiahmp0p(6nnrqPcKkmPrugxeDQic72PhouJu3u4zx0Zxed(6JoxEhJCpTzt(SxQIEXPv9bo7qpNbQrIUggGu2VXnOif3eLQVegwUc0tymUE6iAJ5MjMyhfSUYUJ9dfRlte)SzBvoeZZqzIsUvMIrsPWpiqpy7fWpWEyzuSrb96OtcEpdJon33TaPX2POzx6Nm8cVf70mJwvS(Kff1zkI3mv8UkGiD2z(sMxuKpElme2g8Hz4TVPVKSWR55EqK6WHR77LL5bTsF0md3whl5ir5Cn2EpLSg94u7M4)fmieksKAeEKfv95wKBmJlAeZt1ybQPLCeE8KCRmukybuf0sRt7W2fPncir685jS1gLYp4tSZp5GEABI9CLFXj92xiw7adoR2PCF6y9GBnYnQsUXjdh9mTe0yLOz)NlDmfwnMk2gF5kb4aC31FFFtHX8usmnhAFuOFwN9qmkuxqLIITzm3TPEdP3WftJV845jTFED6ZzQQgOf6u9kiEq2A7yE1CN4So5fOSZJQgUSJSFL21db(hPRwnhm(cig39rNF22Cxj0w)y7X)IWHgzoXTNbUcGSx)(T9rWtc3XEDxOdF95uazWEtKCCJAGuiTMoCMOpRCmsrDYWQtUNtBcRepZKq4QWAb1gTg7DlTiP0oRn(YJn(Zk2zRl6hhprCT3mW1jXSnN6oFK3tR5EV0Hq9G9SLP5Z3gfNwmNu6vNM778H10HXYdk68mUnz0EJ53cEyElm0LSSCGlawgZ)c7H8A4EZaMav(2h4xJq5ZVNDJ92URvNOpvREpqHl4iViw5PN9wZ13SjNpY5wTBAKV0c1ZTq5Jp2VB4B1j3wgOQ3vW4rdADlgwqopfJdEwxQUI3CIx2nxh0YPVDKhry3z4Z9XBxEyrnzEgQ3pRoy4YR4Uogsta9OfTfW2K8kQQkHKIWZrkbqsvTcRh9GUlQJpbz6Rk91)pp]] )
+spec:RegisterPack( "Shadow", 202503024, [[Hekili:T33EZTTrsI)zr1wHM02IIK6rC8prMYRD8fN6sUuRs28hxTIccCOikdcGfpKSUsf)S)R7EgmyMbZaa(qXPU6Q6USYed6PNE63DpdUE81)21xTWlND9Vmz0KZhD6KZgoA84V98RVk)Xe21xL45)zV7G)iYBn8FVAL3I4hWF(XWyVf4BNfxK6dpAvEEs2Bp5K7cYxvC7q)41NKfSUi0lpioYp1Bzo(V9p56RUTiim)trxFR1PEYKRVYRiFvCkmDbRFpa5Gfly8HZY8V(ky4ND8OtpEYzVDZn)dwwECkBZnElwehDCwcZpyzG)MBwheTyzO3JNKLe8z45brzErb5pU5MBlwUCZn(Ry(Fo71BUbNKn387jiUS5N28ti2GGF8Pa4xg8f8vV3lmyXMBszlzPSiFwM2ah9w3qz0Pdhdp(JiC(WVctBC0IaKKS5MW47qenpgqwVC)vBUbjq6Vmc5IKK408n3KKgal2HlJb698fS7bc)C4fZzPvVZKJN8g4D(T)4pGxK5LHZdqqddYYZWDRLbHHSu4V(fARNf5DBiBX1)DoTnnibrTRV69XrzfRbQgBDs8dWAEbskWxnd2D85dY3lmCo)FmhNa4xsdaSjW76R6ZjZdXDH50oW8YnGHfjBU5PNuhaUpP)8bCCEoNTtIfZf4FoW0yG)Ly19ERtcsd8NNhx4VcWPh9dzZZ9sVJbKayzRGL5EHSO8HfrllsddIUB(cV0phXYYgka8MB6jWZ6JzU)IHPS1EaEV5Mlbs1xy(f5WufGeo49eqpikILo)FxeWYlKa2KE7LbBW)tbQd7FiUZznssJHF43lNEGlsm)ir4uheHmsoD(dXPlaofV8v6RAKwmCfZlmF1We)Cc9NmszxHEhqwY7ZSuA)awolIZhY56qQqsO3DfSH5b(Fg(NwiZa2D2UHDcQgqF8sW3f2jtxJ)M6MscScwgWIwmeH69m7yW5oWajxNX(WNYH9YqevaEBqvHhiZ7fTiE9MBIkwFliPDt894)D8WZrsfq6cHTcyNALhxsRo7wqeaU0IK85blHLhqWYMnDsp)44qGken8(4GfZVnomVKBA207awR1EFP3DvSyxoDKgOwVMTia1EELghnT7Hqe0sSUCNZ9ub78t3CJy62CZlXf2fN)TN(g156UW4B9cXjcOOxyqrRTXvjRMvaeblIs0VppEPdncMyVaUeUZqec2PQeJk3rn5mrC9B7QkINFfc2zpFJdeCLxySbN5vE3dAvqscQuyYiykcwsw9G)YdnacwCj9dzXa9rDrbYXGIAXmV5MzWMmo5FNJjVUA9w0epEKtEIJ2CZ9EWFbpz4kGjejxGVazRADNvDajS0Lm)CCsr(IA79c9jeGjeY02MMypznY((Xyxgvu0x0vb8gKwxbSi0F5qgBmPwxYzhCpOmCEgmLQ4goUwuWYji68r)EgWQWDJBZnVNVv8WQGq4xxhFpXa5Lrk(cJF4yWLJ4uYPjoOXXYIkz7EaybafJXGwWSeVhIqpL4gsYyOFozASHPE42894gk(6dXXodhoTuCPP2ITc3RN)agf49ZhWXTnllhCdM66SHtj0EzRO0V6feT3yuoorl9kcZLoWjrjaWrOB4AmiMSZXjWiz5QAc5cN4FfcknVAPxyg9Vsfc8AsT2C5ODy230cKuw3PvOt7G(b0GHeUOo45Ez(SOmCq6MomEOecd4arDAaxnsnD1Oulu2J(RaJgGo)pR9C9fxje0wBNrdSzTHhv3(N6grcmlO(pWktMnNRQe04oenNfXwdbmWfYG9OCWIxoPWQtA69Izn5bvArKZxfx4C2v6VSeSr7mnIfb60PU5Ay9aeuU0HCjIBJCqnuv3hOJb0AhC3QC1nsqkemjs(kWhSIx5UPIGb9tv3pamlBoSf5wmdTguZ1cUlyHG)(A8q1KrQZg990OCXa9s0t16kyhq)FMIxaCMS5MxjPiK5T1SqfC6L0qgyOA7DOJgpa))i3iPddFvGXfxqzag((ccTrFNJJW)Brgf7ym4Z8)ewxpWa)yshAYyJleesC44KTyoJ0onsYLmUPGG2MibD4sNHIKw8l0n10qzw99)QyHPxem27)zEyz6QyiIee1tvyzTPcKIgL0bzSx(JGCbLubdl8O)L(LX)BjUtisqYrBmOhyeXjGisk6maAZTApUPaav9dRZ40ptCAxXZMd(dW2i)pyrXf479jzkE6egoewtXc)xIy4gbcSfX4RfKvoEceNL4p0IW8USt3VHnB4zJjrVsdxbyYTqhFtHG1XiLKq6v0qpUtSMhRXAMnN9ittqFmPKOcZXWp0TZEKJN1cN7GdhZl9VRYHh(BOJMC7MGYwiS2OISH5p8WeUfIZSz9srGpg5K7HP1cmpmxnUTthv6xaLNeejaviZxeW4bpDE5(yd2ZlnizAhMuP2j7VcZ8U8bTIw627tk)iaEG)NFwoEuZCfLN7fAyCP)O1Ybf92w9MLI6KVifdl7Xi)s5guDXMBEx5wQrYbr76MUrxMmjI8kjSc7ShmB8LCL93XT(bk7(T4FztEOQoRstZ4luhPOzTP8zylFAnyRRH8iR60S6dCK2sU66FvQU2vCyyiJpgxiyzWjUs7mj3c)ykMKTpqtkWTsZAtPiPs7AZl2(osCPKaJ6k0tDRmtuazinobCGinyPRuMPWvQ53geKFuelSKDwlugEou0tPPKTsMumiuVa)GCogo(cd2jsJl36YYcqnskdMrmVAv6m1WXoVGSWFtZfNcwXkinmuzaqoeT851Pj1GX6VhsjeFnvzNBlsX)XBFaupWw82MYDvTSaUF8g1OIvALsNZLFqFvmTr2GzBvnBGUfvymOYCQJuGAppywEn7lat2WA5svBlq6Aui6M1)ua6n38dFbSpW4zFKKP9XmF7HGe(X8HwZiOMJFcPwJcoTojmW3lhxplkNAmx7(Ej8OmULZtqgAkqJCbc3)ssJZzyvm8Udx1WFWrgmr3a6HaKHwMCfnM1upADFOvjntjhaDcweexKnhOz6soBRwjPCztzZ)efC54Mh63OlZ)sL)jUKgnCY5pVZ4mAwgnUXm2kbJnVCqMs(MmfJaAnbD26rnx3dX9kKPGtgjx8dyGV))bRKtd5HjFzUngROd6XbWaW89k0NfmOaEuTE((Gh2b3IzZJ2JzCMoUic48b650DfEPEr5m03pyrhSUaEgBjkcRYkArHpxFFVUt557ynNd7Tt3Os(xmFr(0nMqWTq)PPSrxsRNJ0foRE6cf5YRoXKW1lCPCtQHjoQ6LRYbVlosHv(DZ8I0nxZKpAvrKdAbvKCvD66MzvHqZPDSFh8rL8azsnZCn427rnggSP5Er5VjT2)gN0cYyOICwkiTTYiRaOPh9en4Ssik6pAARQTkKIYwouaT5M)(oRc6JO5FQgavHJr9LcSMzPIHU2dt4rwb(V5DzYIyww0la49Gh3gyCzeC9dgIW9bwqkgZ3hF7NqJFhRgx2)X7)WGgR4YbmTznKexKQEUznotO4v)9p(bzTrm36fiPTQZ0Ia(pFfqlW0q(ZF8tvji6hQ6VLROYvd0W3L6VkoAWWMcuxtk3zNUisgYSY04P6pnnuDHgxneJjyoQriPRvOPQXFudAxAVQVUIgTUDgBBYpsX5vLXou85dLVjetPWsdQeGxMruONKMwYJ1N)ReSWKrO2ggJhL1Pu9mL4dOguJsOgLYOXUI4C7SFA3q0PNRfIT74e0zh0cSQN9OafpQdfBd1MFQUhFwuzx3y0GA8W2Jj0suFi)uD1Nw2V5k8aFLc(Fyy7oGAmhIjwG6ao)Gu)cKwkd(G35dEjjeuW9XkwkuFhYAGe9)GNtQsco23Gefxe(cszYPKAXd5KZhfhj4a9kvDtJOimp4yrgIiogxrJ2DxfATYGTAKVRjga38N0bx3OXn0udTIvpPDACViqkqsjLpI5LYJwctLtwozf)FILSre)gT3TIAPL3NVQis8ZCi)dLCEyQLkIOTd017YIbqft6heucyNeifGr4IGqSHdWYX5k6t92Iy33pQBpdOBltza8Picm90TPCZJcmAnOJwYn5Xcu3HjBDXHEECRKoiZGIfHG4j6AiIKBMV3YkFGS6jWqyRXhcbYChvp4joJuB)DBORDuzlLHRmNun2taw7kZDXPL35dabPZGBlebYm(lTr)RyaMuuM1i8iRTSwbGciPivipb75OroYr5XtYmYlVGfa37OTBV79cc5mJy7Gj65t9TKRg3WMNzqmgS7AHWCKTS1Znwykw4kV6tkfA2J5sT44GjK53lA2Tr2RgZuL6EPA0uR2cAQdTk2lEUwYbTulOkLbDQYeh1APo2cGsCLUcNvnJCTemBZ56TtPlUHGz71n3puzaS15a1vt6HYqCBGy(BwwwjzroMPGj3NIEXH2heRxvHqXOqnUvQJtszcVv0T2r7sUcJ1IVNPn2YVTNX4MtfST(HBIRigBSoMYigYXkpX8JxFRx9(xJIVGxblatZdYlw0wZSPzTM3yX8QEw27u6M9XFEN7FTCG2)zuX14HR8aLozS58trcLcNVUpmaCzi4Uiwo2s1qesu5eqhUKAtugCvQEKb(mtuk9bQnLJ4vMpMMtRnC22r4M00I4RZd3cc3KTMWnPIWzk2GeoWQOlsNSbZulXuvNFE1iBTfqhHPwjNuG5yBLxURWKBRvfAtSv52ocUGmaAZtI5Px3CDBgQvhbQDlfQawVKv3wEG3GxIfrfWzTxK38BP6s)yvjlkNuVuioswvWEAAUQLsEl5MW09KQMEPEJkWthRd)AUCQzBMqNMaBP0UcnAkceeGVXrqu2s9QPpdDWffH)dT4YJLktRn0TjMQ3iNuChWPJWKvlSty3PEyvhhQ1gRFpUlQl2yrSYILV2N5rAY2ULU2j7HghHolE0J8NVPdHk3mMT9gCoueCBASpyeCBQU)Rbb3MbGwTWl0)ylC5xrYz8(nUfz7EDspXazHJRhPNz0H1TJOeyWV9F9H)l6WdJO8gkRJ0j9TicgwavoGBzR8Upiw23OfruA4XhrQJZ0Svx1m42m71krS(Y54gPSdO8JCMkFX9UZxvhOSwSarNtmL1yTtcInBXTUs7c7sdzFBN3(vLZJk8cX3AUxssyaG8KAEHNBz201lOapcKV8vPmVfZFifcX5HuVeGpa9WmE5Y535V4A1ZxHRX7BTnuQ3QW2FFLrRMo3JCxwG2lil3UA)wMsQoNZ4jozlQyqtWmVmlYcWoWM9oXbs5wwk2pfZjT8GBS41sGlsV1bxr3VtntJ8Ce1teePL3u2uZtf1iY0MjhbJyqObHZZEmcwEOG0kViFS)CDHKoFH6vxKhFmvdVM6UUYhjfdmIJZXtNu(uPlw1tQqdPVrZX0Z0oh51tb7aBM2fPki0dygweNnpjimoFozBWn5ZXWBBx25QtHqheTSWslq02st8y3Two)WoA6EbF1FhdSSdBilyPzaZhS2M)z2JnOEX5l0afWMdisp7tECnvSMS5pWU1nxOBItPmKcKsz4LxHSe2yPhVWgXblUnY60chOlsVU6ixDMsVUPZcbw)kKORR6BdJJxewuvl22PfJhvX10XPQFJmyuyHd(lfzSPYVpPfjQEn)6xmQrnHvU(4UUPnb(thPK1zZntqeHYYix41q2XIZ01LMo8kGeu8wvtlzMktWLLSBvsFfBKS)DrqscBXqhgTQy4RVp0j9Is1qO6oGuToJ7wwTEpXI7zLVQLEWXrQSBcaAnFJ13hTYSWQJILakjM))AlQJ3TyHsbzvUqGOAZk6DlrxUGH5LXdqHdYYWre1gTv(QE2zRAtrGu)HLupDQMuRUwV22QjPkB7ag1ZWc6Ul6Z6a6OKARLqKF0YXMpEF1qqmlfLyi4BAglLUXDS4f1xpu8CfuejGZxwWZsAdhaVVEOiQWklh1IHvUQjxI0XpBvx8sSjftzlN(IYlaThE4HHpe)WkiCh(TGgghX0XJgDXOti4DCj8EXSFf)3yplX)HlpXBM8wIOZq(7oBYzF3jLeRxmR8SAWHgQtPRG60VB84rF3jif(yjf(fZmokFC4w2ro3J9N17xrfhDbia5th(BVL5S0YU8J6R1UIdDMqHTfg1xRgpt9G(Y7hFKe08XrC7y3SQzK0LiumAlF9Nz4y2rnRy26rA1P6Cdw9nnFEbTC9c9ZknzS6rfTAxgMy2sQ54sIffW2GMI5iJ3gMkT3fGvb3fHxjFEyy(C)XqyeeHPTb3AO(xETx0JBUr2Bk1srIAaWgPTW8QaJ(DPhn8NOhIQQRHkhkzjC1Dd22i6PNWf(KuU3zjtAMnUBJxVzDZl86TUIsAFK97WuzdW0Ql74GA11XP6N8IZuKuS2QQn3tidSLXuz6dvrHdb)QEdxiAFJffygGD3FiLqXh(xb0nDNQIJDH37Rm312Y3i6BuUEL9EZ2mPX)VgQPsITRFGPusAAGS)KXFSpNS(Qn3CEzQVvwjgxvdYrvQzWD)JFSnIj8MxWncvjKPRD56AvcxrESX28rM9CzPXTabqeoHbbyI9FG3J2V6c(q5yWU)fhep6h82QKF)3LTkUiCHRdBoAqjoFf(Al8w7DhQhG3I5KrPBzH478TN)nQSEAxfMtXhtb5bRW7bhUrCtCh1oA8PxF1dEPraebRu)gEEecwZVEwPO3Ebpi1xGT(i1xOlWoWefG8kYJxZpFR4zdhplgB(P)ZaS9MNaO)7JJG5IE8leBV1BZ1xWPfUhqjdamW(J)YG2MbTMG1a4wBqwt4EMl4wtIPg0DktzohxyFompzlgtGRd(shHUMThdqB18PjC)2N99u6Ah(5a1Dby9Mj0aY270WkqV5NSiSuQ0y7exg3W6MSIzBrRvWRARydi2AH3G4vkQ4PBD4TnF)jVcWJ3y3xaWOBB2oyCEBXQqErB01fI4f6OcaD7Iglg7UK3riV3uP)xdgZuZuSP(BBzSVf1jIoWz70MC6Z0A2bCpa7snHXvm51qyJR2Yocv1B9stv(wUqmBzhs2a475EKOSf8oJMIhbVkDbpV8Rw66TpDTb18IF7NGY2mEhanVYrp2eMxnKdlW3dSgDn2lpaJ7OjmxFyh(jzpwbRqstt4E5aoKaEpWxmGLMqxXZpGGD7rwhnvVf47EKDCQQv0sltITX8ScEjGRfAK4TM0fvkogKgMFaMaxBVDa0UuRyDihwGVhyDtQtCoSd)KShRa7QwSmGdjG3d81QYL6p)ac2Thz7QoRMgzhNQ2vQyFmpRGxcykY)FpkJ)fhcHDzZySrE67)VXuyA7qX8V()HNF5C8auTiiJ8gScWosuu9ws(f6(y6UNLRikKFMlJddJFGs0NhSUYWgPatBp)(NoO8Y5PCvGzUeZKDE54OtS5siwsTrJFtPWejM7DRxg7TGxT0LCgW85WbxVyugAlCT1rEIoieg(m8MNXzWknWFXwMqhh0aLs(zGAwkgO5Q2bmRQpGbiRx4GVAqm4qM9uhZXbimuhqEVdCUb6SSOswi11k4uhLd2J9phq8GU)1awVxuJV7GtnCaXdk1ObSMQvMfKwRgADeE1kSMPaIRcV1IMrSYLBNQrhzA9GO8Mpdokn0EKlAhqKylX7iEBSRQxI(MWZrMPoGLsXXmCOX49GM6W)PDgdDaVdpgEaeLAe(hqUGgOX7KYfhWd7(kdqP(rv45bkoYa)bupYZxvjC5cJ6fuVjGvF2wAAL7Ks1D0UnjblxH7De6pxgUpyYzoG)Ev83gH8E7W4F6fch7Pr5T69lmDMXYn(DBaoM64fatY4bF2iw2JNKPyzZQ2R(983LYpHO9pQje7PNA6waC2u1BGTb967(AY9BeZ3XnmKYXm4LI)4YP4Tm(bdSZMIxN4DzJ(VKKWt6WAD7PGBdufeWk20XTWMgyCjNoB8fn8DT9BuqA5202bIt0arfI2KtS7LgGNRQd7cWSDVK4nd4dGD4gjg7MtJJD41azjKoix2mrQDHh)veKhOwqBSdxfoyM0Dnb7px8ZLtoJD4RWElEmXHj9dyyetCeZ(FctXE3pNtCOi9agNWFgtrtXZVpSLUa8ElinXruEhaVUDb69aN38tFADzbIEJEnvWmxr3dt(49f5BWR8X4Lb4fWYF7VT5MYt(1Db5RkULFOVcwxesov4N6Tmh)3(NapyDqE2j5Ryp4LYVnIp5D00u(Xg7)eNSt4FkZe8ddX3DZpHt0VNWxqlO(iNFEWWVDcVfVpQtXlBMXFhQma)g3G30olNm5IrNIRm(IjBOStLE10tSD5uAFKvx1KVoy50Ji3m1UvkT)ALxihVg7L(PIA1vEND8A6YZzA)QotOE99F6jlpvufDRp7(QAuB95u1GT(eS4xQpWrjrbxDRgtTsooB6Krd2gAXe70cB96qfYvVJcS(mR0cZkJB9j60cNLhwHwyP8RDMwODHq(ArZooD0RJtMsxbIDbgAxaKsymE7Gb)oxQ6TNSvVU(nZ0oUoQFHo2zavwsBb2yTw22Ft9l5rUMM2NblxOq2bpM)ouTbEmM7PFUKUC6z96RDQsNbK9rp9K5WM4Gts9ExdNd3xpIxo9nU2auVUUqGidmUUP5NE6iomCCJVnOkQAB3HJp9KBeC2BaGth17k114kK)fWx9N0zz0UjXqEeGdrOpH(Q37(nv)0RR)I9B(8skZHWlpTNntRp9uL2aZJzC5lO)GbG6gfajyflhRAh5AefDU(3tCKH6i7xYA9oYm7iQugZdbMGhpM9A(hyEqxcWzOZwoBIkem(YXxQtjis18laqN6De7akQF4BgnD7po77hpPzOBOwsBBEu1KT7aHim1V9gbb530RLVOe)Fegxegqd8H4UCSzKxC7oAi6l4XRJHV6nVSFJk)65uT5GbZMAE3gcA7CCRg2mw3G(U(MZXXoxmdU8mC7XHQcNled7xZAH9O(DY4wqSDOhBljLQ8shYBONQfoy9GcMa)xK5ZAzHM(HAxiep9e971SqmOMlbNIUeqdw9w5bSzqUuOn4lNE6itutE)3qEHyfx6vdPDID2N13yoPvxPnpJZQQooX0kVMAEoN2ZnNw9REMN5Pgde()7oQX)R6DudfKW)9pY(meF5)AZn)s8TXlG5(U4Oip(3Fw8JB1q9Gj48k(iZsifPzPFOQCjiZJ0hV6mqUEKmSZr90VJzMFwIVvnqsEQjCSSoMgeDF8NbL9FbiOrEnJYDMXgIbOg(nq4CA9lnhl0p3yLu7ydcGweQOiUSjSD2isyB3VoIQBKyNjBggfanUasBg64zJgGrG5YEZ2Yym(8bebyNUvwE2UfHmjQLXxxgSuvte3RV5LLrp736iZGWMusymF9bEvu736DuT7BeZG1NnPxvHLR1bKva1iaqLI9s5Sw7EBz6OQ3ZvKMwJuDMms1Zemw6jeVkEuTFFp22pexgpM7WAlnsQP77Rpl7ITVBHUpoB85BjrxFzRZH8xK1TIh7MnhbOa6PNkl8)SP9hF(Ro)LQyb1wDWVvkbywOZJnxEV8Ib1Ok2ZuHirSzvEh9N1fotTDnJldhCFR6IO5YPF75QX9BEnOcaOQW1YBR0xRDzLQguUR3x7YoT(RJ2vbc1pI0DCnr()yEmAOOIssJ99PX8Bpq)kk8(rKSQzAwo723EqcaLQT84LvLqjhHiMt9La8KbkP9RG)0rZHn37UduQdGeG(JZrOrMefmsPR8sYa)VKjrBrW9a378myfl)n0mXarzKq(JF9pUQ0g(7)hL2EWuhGCjIzeJC8JYVrX0Nio(HkczaYj3mHnw0neKBfvlw9bAKQtLWpWn3Wp5saHoV6ZPAG8kJIO0EcCcvco0b1vPKvzRcyHloCetbzYp9rGSfgI0pWLzSYlKJm)nQAJzfyJTZQ(6AZXmfBYTWiyYVw5dKf2(k3HQZtJHiXXkYcsTp1FuG7aVlEW3e1FN7tcwaElORrAWnKyu8VOE585u6g)UNEPA7I1tQGvP09wqjrwMOD7fOwj7yfLGnfnmYKfqVdizdMXjJowBOTYpdN7807YwrVAxuz4U1Nq)6cXlOlK5Jy6tbxeIb)NJkwFlkrHFA33CZ4HNloiFQFcWNybpL8g2Wpt3RBOj0QYQ)4HxC(3E6BEnw7Xu0TJ5bRxZweaIqiuR(vy9dKpWC7KgGR0hSEkxB)xoDKcGUlm(wVqv96YvN5gMcr3SrK48H0FJs81LIuPd28M8RRybpwlkUGcrcFNmkJR9v8LnM8rmEn3Kvm4MRfmUmCaTSJJjQKR5NExVs)a46)JIRmY)zyd9wpytvOvMBaiRAarScmrpVgXaUoD(NZxuxFqxuChgSKDWuBVZkE3lZ3YBnEmHSXFoB(AGFNfHivAU0hr0kcl74(JhDmxjoFqPEGKuKpBiLdym14Jh1Z6aksEnzhYFX0ZDRGsw8txf(YgRUS0AAnBJlTlKzj3oH1bvr(ywQ0vE0MkLoQFOYvNkFFn((rlYQ3647dk)oI7HFuXF44erB3u563dRyrLYBCgB6iuNL4HzsdZ0gEnXNXWSNNzt(ZCxj1dj73JeBeQGPIztgjYF2vpMgS8Fr9QZVeJIwL(FTOijmWNCEhMOmujbfUjafS1GuCJZU37BZkgxtYK6BvOOJwcRBiU(oYoJM7G9zNZo)tE8bBYtaWzpedX0)JGkz((Qx5xvDZGj4A5ropYTaF8pVLXvtt(zI6IdYf5ta)d53Jz)cQe44RvKyO)vvXLW2GcE9bs2bipOWZFfWpDHzj5lgF3Fj(EVsXZ)HiGh(SGhYHhXqle1(8Valeqb8JZJamw6dwzmA8ptotNmQNrWBQrfJoh8QovUwHPM6fqC2uohPiVg88CSdLUfxaIjPSBCoLeSEhsDrZ)IEwcKKOuAXBBPVhu(wrUIJiIwMKaJzj7bg4Rt6Www1w6ikobiyPSo70)7Cwygw5(kxYQ6tFZtsIzxJ899TB68L1vEpyqLFY9N8k1ezHhm1xoHhv2pcuvmamtLTiVPFzCK2Imdu9ZtZcDtDeNae9u1CTZPAwiAT5NQdVrv8f2IlSMlVE1jTvXNshmxI9(sL4bQs)Mw4hwAmi60jDwRKpEMtVcDjH)duYeW)GffxGV3NKjwOteZHa5pwiJRycwM7c(4jqCwIFDgwfxKQy(AIK13knR)yNjg8vJp25E0XMjy8LJh0tjNpvjcf)xo2UgS77x9kJZ6suP2r1RXsn6LDFSXMqlq0LG6L65umFY17JMXN3RVdxERNv3bModqrMl0YRMCFKlRCrZDkimU09GAjzHEBRoxqHQXrcXWYOQOX5LCwMmfokocr5hc1UB6WrzIl6jPac7d7SMEZ(UWnDxPlh1zlC34FLWuO60O0DxwwPnUC)VkL7D52i6eaLhAIodMu8ReZjUp4htXKQ8bk9byTCO0vAsOB1hsK(Z7g)HlPgmw7iylBMr1FKwiIc7SMkRZTfP4)4TpeGoO826kVLQgSn997(bXuKNdM2rgYm9osgentH4n0red1SOhVy1jch21dmpvJthFHYEUsPGA4GN2jKuHftRirypYARIsDdO0wJuxFiA3OQ(1)WxsipgrhejElY3qV7Pc6rz2WyBRwQP22npfssLuSA3WRuTuttcvY9A9((G6NbyRr6BmmteYr6Xu94vqeEWli)1qaQtTXfOXaGKJwh0LU3g7z5rL5lY((E5IPHAvE5yrQ9xlc4Eb3YpXGGzI13lH7zR4ltmPlVaTJeKlZYEod)el4DhoRWFWzz4FxH9raYiL)w9BGl2B40Qmln12m3(d09b7GCVvhA9UFsU3kWYpk3v2YrPxoDM8oev)JM8FuZPTqANg3TOp5lKZDbyRt9hSYnBuyNSyFBmMYD0ukgwOVxH(SGUdYdMXZ3Nj6XsQnowW477CDjG1v0)G7k8WJibdlngG(bRlGNXwIYHomcaZcYmutrB3pb6664KSW8m9i8lEx0KPePP5WVC6y7fxPMAL(7zxCC6GQkSxsBGz)c1kHrcF)w5hGBpuEep6l3SYiMcupFtruPyDS7A2fELPFCgKIZowMypVwwtdvfzopkd9BXnl8u04QtBm6Kgs)ZaDjkW9LDwM6JOPOnyM0Q8I2Ffd)YaZRGCo1ptvDwdE(frjoww0la4H2t2W76jUJ39dgIWv0DY)8hF7NqfQhR6o9)X7)WGgKNSS51uvWkLHUkHIq43)4h2uMCqtwiZ0dwo17tW4oZOZLtp3HS9pF1N4nSXp)XpvfZ7puvL6RO6Jb0Y3L6VkoAqDFz6wrtAUA1uSKZMOL0aAiUlID5RCuT3PsIWSkFh5ukI7GYpIFSmOBZ0O7OO(bw0G)NYl4J8vOgHLbyDbQkWvbVUyyw8YWpaJONHc3(1lffLNV0KK1tVe)VZu5N5zlatMiMPRHwDxQB1x6GuASDR9qK898(hUkvkOYGpuQUdIrt8jadPM86Ki6se5jiG)RSYBEw1YypEuw72GSNmGPLn67RoBJsVovdV4BlFb36XneKjavJC1k6El0pi1VGsU7s1ajbPjEx8Hl2QLo)KAV5Mtph8zGhaFP744b0H8hxeUaIK5E4G5H(XxVXrckLxPctAefH5bhlIWUD6Hf1i1nfE659CfXGREXZM3Xi3tB2Kp9LYOxSAvFG1U8ZAGAKORMbiP9BCdkqYnrP6lIHLRa9egJRNoa0yUzcj2rbRBzh2((8vfrIFwV1mhI5zOisk3wMIrsPWpiqpy7fWpWEyrqOw5(6OtcoplIwn33TaPXUTOzx6Nm8CN1cvpJwvS(Kff5zdI3qw8MoGiDMz(QmVOiFCcme2A8HP4T8PRKSWRi6wqKA(qYv5lzD7OnEoBhZvZ9UYkeHg4pywWBRNNSKJDUYENhuwTUKQDVd(vm(fkiMA7zi3T8dcj3oixQkKNLYCujn5d94jzgj3uW9iRfMsJ(HnIsBeqI05YjAJ9yPl0hzMAZb9u3)TLAYj92wiw7mdoR2XpF6y14I1sRQuKZkVk9mLC7yKJA3hZCm7xnMf3gF5kzFpC31DBNtraTp50MdTpiuTRYEigfQgPshtskZExY3qMrSX04kfGoYyOt)fTMLRbkrDvV4J7Kz6oMso75CRtoqw2ttvdVSHWFLY92a(hXlxohSBdig3ZtRFz5Sxe1w)EaY)O1H2NoYUtf2I9Sx)(T9D6ReUJD6Prh(a5jbYGTMiz5QUaPqkTZ4mrhCzzKIsSHf2ClN2iwbEIkHiDH1cQnAf2vykbHPCuFCLcC8NLSZg3apwEI4(OzGTZPzB(dE2iNNLZTEPdrjc7zlIZMNeegNpNu6vNM760Jz)aDHnA32DCtNmARX87aNtVdg6cwAgWfalJ5FM9ywnCVzatGkl5r(97t28hy3AUTBB1j6a2Q3du4cXaicZE6PxOV(Mn5Srw3QTtJCLrPE2fkF6P(DdFvpu3TScgpAqRBXWcY6zCCWZ6s1wOQtCYUz7yyo9IroeHTNCq7h(9YJsQoZZq1oL1cdxwf31HqAcOhTOTa2MkV7OQYLPiYEKsaKuzt26qpO96b5sqM(UxF9))p]] )

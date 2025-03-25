@@ -1,0 +1,15 @@
+
+BattlePetCompletionistDB = {
+["global"] = {
+["minimap"] = {
+},
+},
+["profileKeys"] = {
+["Deathscar - Emerald Dream"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["dataVersion"] = 7,
+},
+},
+}

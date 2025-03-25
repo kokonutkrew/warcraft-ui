@@ -1,3 +1,11 @@
+__ New in 3.40 - By Kharthus __
+
+* Fixed C_AddOns calls
+
+__ New in 3.39 - By Kharthus __
+
+* TOC update for 11.1.0 patch
+
 __ New in 3.38 - By Kharthus __
 
 * TOC update for 11.0.7 patch

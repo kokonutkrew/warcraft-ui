@@ -6,29 +6,29 @@ Prat3DB = {
 ["Default"] = {
 ["colors"] = {
 ["general"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["trade"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["localdefense"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["lookingforgroup"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["craftscan"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 },
 },
@@ -38,9 +38,101 @@ Prat3DB = {
 ["global"] = {
 ["cham"] = 0,
 ["nham"] = 0,
-["nspam"] = 28,
-["cspam"] = 0,
-["cunsure"] = 0,
+["probcache"] = {
+{
+[0] = 0.8448275862068967,
+},
+{
+[0] = 0.9081632653061225,
+},
+{
+[0] = 0.9347826086956521,
+},
+{
+[0] = 0.9494382022471909,
+},
+{
+[0] = 0.9587155963302751,
+},
+{
+[0] = 0.9651162790697674,
+},
+{
+[0] = 0.9697986577181207,
+},
+nil,
+{
+[0] = 0.9761904761904763,
+},
+{
+[0] = 0.9784688995215312,
+},
+nil,
+{
+[0] = 0.9819277108433735,
+},
+{
+[0] = 0.983271375464684,
+},
+{
+[0] = 0.9844290657439446,
+},
+{
+[0] = 0.9854368932038835,
+},
+{
+[0] = 0.9863221884498482,
+},
+{
+[0] = 0.9871060171919772,
+},
+{
+[0] = 0.9878048780487806,
+},
+{
+[0] = 0.988431876606684,
+},
+nil,
+{
+[0] = 0.9895104895104896,
+},
+{
+[0] = 0.989977728285078,
+},
+{
+[0] = 0.990405117270789,
+},
+{
+[0] = 0.99079754601227,
+},
+{
+[0] = 0.9911591355599215,
+},
+{
+[0] = 0.9914933837429112,
+},
+nil,
+{
+[0] = 0.9920913884007031,
+},
+nil,
+{
+[0] = 0.9926108374384237,
+},
+nil,
+{
+[0] = 0.9930662557781201,
+},
+[34] = {
+[0] = 0.9934687953555877,
+},
+[48] = {
+[0] = 0.9953560371517027,
+},
+[39] = {
+[0] = 0.9942965779467681,
+},
+},
 ["worddb"] = {
 ["-4x"] = {
 ["hamcount"] = 0,
@@ -410,25 +502,25 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 4,
 },
-["-y"] = {
+["-4"] = {
 ["hamcount"] = 0,
-["spamcount"] = 12,
+["spamcount"] = 2,
 },
 ["-111687578"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-of"] = {
+["-loot"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 3,
 },
-["-any"] = {
+["-multi"] = {
 ["hamcount"] = 0,
-["spamcount"] = 14,
+["spamcount"] = 12,
 },
-["-prices"] = {
+["-0"] = {
 ["hamcount"] = 0,
-["spamcount"] = 4,
+["spamcount"] = 1,
 },
 ["-obligation"] = {
 ["hamcount"] = 0,
@@ -438,19 +530,19 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 2,
 },
-["-multiply"] = {
+["-ask"] = {
 ["hamcount"] = 0,
-["spamcount"] = 2,
+["spamcount"] = 1,
 },
 ["-80"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 25,
 },
-["-70"] = {
+["-can"] = {
 ["hamcount"] = 0,
-["spamcount"] = 48,
+["spamcount"] = 16,
 },
-["-5"] = {
+["-nivel"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
@@ -462,13 +554,13 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 21,
 },
-["-we"] = {
+["-discount"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 4,
 },
-["-ally"] = {
+["-800k"] = {
 ["hamcount"] = 0,
-["spamcount"] = 12,
+["spamcount"] = 2,
 },
 ["-6"] = {
 ["hamcount"] = 0,
@@ -478,25 +570,25 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 3,
 },
-["-t"] = {
-["hamcount"] = 0,
-["spamcount"] = 12,
-},
-["-12"] = {
-["hamcount"] = 0,
-["spamcount"] = 24,
-},
-["-stormwind"] = {
+["-now"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
+},
+["-aotc"] = {
+["hamcount"] = 0,
+["spamcount"] = 1,
+},
+["-offer"] = {
+["hamcount"] = 0,
+["spamcount"] = 4,
 },
 ["-x8"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 12,
 },
-["-offer"] = {
+["-stormwind"] = {
 ["hamcount"] = 0,
-["spamcount"] = 4,
+["spamcount"] = 1,
 },
 ["-h"] = {
 ["hamcount"] = 0,
@@ -506,9 +598,9 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-300k"] = {
+["-respond"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 2,
 },
 ["-only"] = {
 ["hamcount"] = 0,
@@ -518,11 +610,11 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 24,
 },
-["-respond"] = {
+["-300k"] = {
 ["hamcount"] = 0,
-["spamcount"] = 2,
+["spamcount"] = 1,
 },
-["-run"] = {
+["-under"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 2,
 },
@@ -530,9 +622,9 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-both"] = {
+["-clear"] = {
 ["hamcount"] = 0,
-["spamcount"] = 14,
+["spamcount"] = 1,
 },
 ["-powerleveling"] = {
 ["hamcount"] = 0,
@@ -550,9 +642,9 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-just"] = {
+["-c"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 12,
 },
 ["-bosses"] = {
 ["hamcount"] = 0,
@@ -566,9 +658,9 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-80min"] = {
+["-parks"] = {
 ["hamcount"] = 0,
-["spamcount"] = 4,
+["spamcount"] = 1,
 },
 ["-specific"] = {
 ["hamcount"] = 0,
@@ -590,7 +682,7 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 19,
 },
-["-500k"] = {
+["-3m"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
@@ -602,6 +694,26 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 12,
 },
+["-play"] = {
+["hamcount"] = 0,
+["spamcount"] = 3,
+},
+["-choice"] = {
+["hamcount"] = 0,
+["spamcount"] = 2,
+},
+["-powerlevel"] = {
+["hamcount"] = 0,
+["spamcount"] = 1,
+},
+["-guaranteed"] = {
+["hamcount"] = 0,
+["spamcount"] = 2,
+},
+["-or"] = {
+["hamcount"] = 0,
+["spamcount"] = 18,
+},
 ["-quick"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
@@ -610,31 +722,11 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 2,
 },
-["-powerlevel"] = {
-["hamcount"] = 0,
-["spamcount"] = 1,
-},
-["-or"] = {
-["hamcount"] = 0,
-["spamcount"] = 18,
-},
-["-guaranteed"] = {
-["hamcount"] = 0,
-["spamcount"] = 2,
-},
-["-choice"] = {
-["hamcount"] = 0,
-["spamcount"] = 2,
-},
-["-play"] = {
-["hamcount"] = 0,
-["spamcount"] = 3,
-},
 ["-liberation"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-3m"] = {
+["-500k"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
@@ -646,13 +738,13 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 2,
 },
-["-parks"] = {
+["-80min"] = {
+["hamcount"] = 0,
+["spamcount"] = 4,
+},
+["-just"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
-},
-["-c"] = {
-["hamcount"] = 0,
-["spamcount"] = 12,
 },
 ["-hclubfinder"] = {
 ["hamcount"] = 0,
@@ -662,11 +754,11 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 2,
 },
-["-clear"] = {
+["-both"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 14,
 },
-["-under"] = {
+["-run"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 2,
 },
@@ -682,47 +774,47 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-aotc"] = {
+["-12"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 24,
 },
-["-now"] = {
+["-t"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 12,
 },
-["-800k"] = {
+["-ally"] = {
 ["hamcount"] = 0,
-["spamcount"] = 2,
+["spamcount"] = 12,
 },
-["-discount"] = {
+["-we"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 4,
 },
-["-nivel"] = {
+["-5"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-can"] = {
+["-70"] = {
 ["hamcount"] = 0,
-["spamcount"] = 16,
+["spamcount"] = 48,
 },
-["-ask"] = {
+["-multiply"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 2,
 },
 ["-discounts"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 12,
 },
-["-0"] = {
+["-prices"] = {
 ["hamcount"] = 0,
-["spamcount"] = 1,
+["spamcount"] = 4,
 },
-["-multi"] = {
+["-any"] = {
 ["hamcount"] = 0,
-["spamcount"] = 12,
+["spamcount"] = 14,
 },
-["-loot"] = {
+["-of"] = {
 ["hamcount"] = 0,
 ["spamcount"] = 3,
 },
@@ -730,106 +822,14 @@ Prat3DB = {
 ["hamcount"] = 0,
 ["spamcount"] = 1,
 },
-["-4"] = {
+["-y"] = {
 ["hamcount"] = 0,
-["spamcount"] = 2,
+["spamcount"] = 12,
 },
 },
-["probcache"] = {
-{
-[0] = 0.8448275862068967,
-},
-{
-[0] = 0.9081632653061225,
-},
-{
-[0] = 0.9347826086956521,
-},
-{
-[0] = 0.9494382022471909,
-},
-{
-[0] = 0.9587155963302751,
-},
-{
-[0] = 0.9651162790697674,
-},
-{
-[0] = 0.9697986577181207,
-},
-nil,
-{
-[0] = 0.9761904761904763,
-},
-{
-[0] = 0.9784688995215312,
-},
-nil,
-{
-[0] = 0.9819277108433735,
-},
-{
-[0] = 0.983271375464684,
-},
-{
-[0] = 0.9844290657439446,
-},
-{
-[0] = 0.9854368932038835,
-},
-{
-[0] = 0.9863221884498482,
-},
-{
-[0] = 0.9871060171919772,
-},
-{
-[0] = 0.9878048780487806,
-},
-{
-[0] = 0.988431876606684,
-},
-nil,
-{
-[0] = 0.9895104895104896,
-},
-{
-[0] = 0.989977728285078,
-},
-{
-[0] = 0.990405117270789,
-},
-{
-[0] = 0.99079754601227,
-},
-{
-[0] = 0.9911591355599215,
-},
-{
-[0] = 0.9914933837429112,
-},
-nil,
-{
-[0] = 0.9920913884007031,
-},
-nil,
-{
-[0] = 0.9926108374384237,
-},
-nil,
-{
-[0] = 0.9930662557781201,
-},
-[34] = {
-[0] = 0.9934687953555877,
-},
-[48] = {
-[0] = 0.9953560371517027,
-},
-[39] = {
-[0] = 0.9942965779467681,
-},
-},
+["cunsure"] = 0,
+["cspam"] = 0,
+["nspam"] = 28,
 },
 ["profiles"] = {
 ["Default"] = {
@@ -903,19 +903,19 @@ nil,
 ["profiles"] = {
 ["Default"] = {
 ["incoming"] = {
-["PARTY"] = "None",
+["GROUP_LEAD"] = "None",
 ["RAID"] = "None",
 ["GUILD"] = "None",
 ["WHISPER"] = "IM",
 ["BN_WHISPER"] = "IM",
 ["OFFICER"] = "None",
-["GROUP_LEAD"] = "None",
+["PARTY"] = "None",
 },
 ["on"] = true,
 },
 },
 },
-["Prat_UrlCopy"] = {
+["Prat_Bubbles"] = {
 },
 ["Prat_Font"] = {
 },
@@ -934,14 +934,9 @@ nil,
 },
 ["Prat_Achievements"] = {
 },
+["Prat_Alias"] = {
+},
 ["Prat_NewcomersChat"] = {
-},
-["Prat_Clear"] = {
-["profiles"] = {
-["Default"] = {
-["on"] = true,
-},
-},
 },
 ["Prat_OriginalButtons"] = {
 },
@@ -960,7 +955,12 @@ nil,
 },
 },
 },
-["Prat_Alias"] = {
+["Prat_Clear"] = {
+["profiles"] = {
+["Default"] = {
+["on"] = true,
+},
+},
 },
 ["Prat_ChatLog"] = {
 ["profiles"] = {
@@ -973,7 +973,7 @@ nil,
 },
 ["Prat_Buttons"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_UrlCopy"] = {
 },
 ["Prat_HoverTips"] = {
 },
@@ -997,41 +997,42 @@ nil,
 ["Herbcraft - Emerald Dream"] = "Default",
 ["Samoansneaky - Tichondrius"] = "Default",
 ["Samoanrelic - Emerald Dream"] = "Default",
+["Okko - Area 52"] = "Default",
 ["Samoansteel - Area 52"] = "Default",
-["Dustcraft - Emerald Dream"] = "Default",
+["Samoanrocket - Area 52"] = "Default",
 ["Samoanruin - Stormrage"] = "Default",
 ["Samoanreaper - Area 52"] = "Default",
-["Samoanrocket - Area 52"] = "Default",
-["Okko - Area 52"] = "Default",
+["Dustcraft - Emerald Dream"] = "Default",
 ["Samoanlegend - Area 52"] = "Default",
+["Samoansurge - Area 52"] = "Default",
 ["Tyrielle - Area 52"] = "Default",
 ["Samoanranger - Area 52"] = "Default",
-["Samoansurge - Area 52"] = "Default",
-["Samoansage - Tichondrius"] = "Default",
+["Mf - Emerald Dream"] = "Default",
+["Shadowcraft - Emerald Dream"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Threadcraft - Area 52"] = "Default",
-["Samoansage - Emerald Dream"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
 ["Samoantank - Tichondrius"] = "Default",
-["Samoantitan - Emerald Dream"] = "Default",
-["Herbcraft - Area 52"] = "Default",
-["Forgecraft - Emerald Dream"] = "Default",
 ["Samoantitan - Area 52"] = "Default",
-["Samoanranger - Emerald Dream"] = "Default",
+["Forgecraft - Emerald Dream"] = "Default",
+["Saigold - Area 52"] = "Default",
+["Samoanbreach - Area 52"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
-["Samoanbeast - Ravenholdt"] = "Default",
-["Samoansizzle - Area 52"] = "Default",
-["Crankcraft - Area 52"] = "Default",
-["Farmcraft - Emerald Dream"] = "Default",
 ["Shgrshn - Tichondrius"] = "Default",
+["Samoansizzle - Area 52"] = "Default",
 ["Buycraft - Area 52"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
-["Samoanbreach - Area 52"] = "Default",
+["Farmcraft - Emerald Dream"] = "Default",
+["Crankcraft - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
+["Samoanranger - Emerald Dream"] = "Default",
+["Herbcraft - Area 52"] = "Default",
 ["Kkelly - Moon Guard"] = "Default",
 ["Samoanshield - Area 52"] = "Default",
-["Shadowcraft - Emerald Dream"] = "Default",
-["Mf - Emerald Dream"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoansage - Tichondrius"] = "Default",
 ["Samoansage - Area 52"] = "Default",
 ["Farmcraft - Area 52"] = "Default",
 ["Samoanghost - Emerald Dream"] = "Default",

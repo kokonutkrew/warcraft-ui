@@ -46,7 +46,7 @@ DataStore_Garrisons_Characters = {
 ["lastUpdate"] = 1719190795,
 },
 {
-["lastUpdate"] = 1724095448,
+["lastUpdate"] = 1742273006,
 },
 {
 ["lastUpdate"] = 1723950869,
@@ -70,7 +70,7 @@ DataStore_Garrisons_Characters = {
 ["lastUpdate"] = 1725406294,
 },
 {
-["lastUpdate"] = 1726980250,
+["lastUpdate"] = 1727019497,
 },
 {
 ["lastUpdate"] = 1725683215,
@@ -162,7 +162,7 @@ DataStore_Garrisons_Missions = {
 },
 },
 {
-["lastUpdate"] = 1724095448,
+["lastUpdate"] = 1742273006,
 ["Infos"] = {
 },
 },
@@ -202,7 +202,7 @@ DataStore_Garrisons_Missions = {
 },
 },
 {
-["lastUpdate"] = 1726980250,
+["lastUpdate"] = 1727019497,
 ["Infos"] = {
 },
 },

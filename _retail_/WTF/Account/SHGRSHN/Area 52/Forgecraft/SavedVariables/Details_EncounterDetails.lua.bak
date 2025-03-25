@@ -3459,14 +3459,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Orator Krix'vizk",
 },
-[431897] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[443150] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Thirsty Patron",
+["source"] = "The Coaglamation",
 },
 [59358] = {
 ["school"] = 32,
@@ -3950,15 +3948,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Speaker Shadowcrown",
 },
-[451606] = {
-["school"] = 2,
+[470020] = {
+["school"] = 64,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Prioress Murrpray",
+["source"] = "Arcanotron Mk. II",
 },
 [464392] = {
 ["school"] = 1,
@@ -3994,30 +3991,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
-[425264] = {
-["school"] = 32,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Speaker Shadowcrown",
-},
-[464394] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "General Angerforge",
-},
-[470020] = {
-["school"] = 64,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Arcanotron Mk. II",
-},
 [439586] = {
 ["school"] = 8,
 ["type"] = "DEBUFF",
@@ -4026,6 +3999,31 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Benk Buzzbee",
+},
+[464394] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "General Angerforge",
+},
+[451606] = {
+["school"] = 2,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Prioress Murrpray",
+},
+[425264] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Speaker Shadowcrown",
 },
 [462348] = {
 ["school"] = 12,
@@ -4311,14 +4309,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hadronox",
 },
-[428086] = {
-["school"] = 32,
+[463891] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Speaker Shadowcrown",
+["source"] = "Bael'Gar",
 },
 [21049] = {
 ["school"] = 8,
@@ -4329,12 +4325,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Alliance Berserker",
 },
-[463891] = {
-["school"] = 1,
+[428086] = {
+["school"] = 32,
 ["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Bael'Gar",
+["source"] = "Speaker Shadowcrown",
 },
 [427002] = {
 ["school"] = 1,
@@ -4561,6 +4559,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bronjahm",
 },
+[50155] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Keristrasza",
+},
 [59362] = {
 ["school"] = 8,
 ["type"] = "DEBUFF",
@@ -4571,14 +4577,6 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Anub'ar Webspinner",
-},
-[50155] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Keristrasza",
 },
 [443694] = {
 ["school"] = 1,
@@ -4603,20 +4601,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Divine Image",
 },
-[427583] = {
-["school"] = 2,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Elaena Emberlanz",
-},
-[41172] = {
-["school"] = 1,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Alliance Ranger",
-},
 [464411] = {
 ["school"] = 4,
 ["type"] = "BUFF",
@@ -4634,6 +4618,20 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Lord Incendius",
+},
+[427583] = {
+["school"] = 2,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Elaena Emberlanz",
+},
+[41172] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Alliance Ranger",
 },
 [52470] = {
 ["school"] = 1,
@@ -5295,12 +5293,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Captain Dailcry",
 },
-[443150] = {
-["school"] = 32,
+[431897] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "The Coaglamation",
+["source"] = "Thirsty Patron",
 },
 [57063] = {
 ["school"] = 64,

@@ -1,12 +1,11 @@
 
-AltoholicDB = nil
 Altoholic_UI_Options = {
 ["Transparency"] = 1,
 ["AHColorCoding"] = true,
 ["Mail"] = {
 ["AutoCompletePriority"] = 1,
 ["GuildMailWarning"] = true,
-["LastExpiryWarning"] = 1727015769,
+["LastExpiryWarning"] = 1742271618,
 ["AutoCompleteRecipient"] = true,
 ["TimeToNextWarning"] = 3,
 },

@@ -46,7 +46,7 @@ DataStore_Garrisons_Characters = {
 ["lastUpdate"] = 1719190795,
 },
 {
-["lastUpdate"] = 1724095448,
+["lastUpdate"] = 1742275856,
 },
 {
 ["lastUpdate"] = 1723950869,
@@ -162,7 +162,7 @@ DataStore_Garrisons_Missions = {
 },
 },
 {
-["lastUpdate"] = 1724095448,
+["lastUpdate"] = 1742275856,
 ["Infos"] = {
 },
 },

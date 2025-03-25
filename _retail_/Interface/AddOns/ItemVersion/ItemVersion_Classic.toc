@@ -1,7 +1,7 @@
 ## Title: ItemVersion
-## Version: 2025.10.0
+## Version: 2025.12.0
 ## Interface: 40402
-## X-BuildDateTime: 2025-03-11T16:31:03.831847+00:00
+## X-BuildDateTime: 2025-03-25T16:30:28.044359+00:00
 ## X-BuildTool: wap 0.12.0
 ## Author: Tim Martin
 ## Notes: Shows in what version of the game an item was added in the tooltip

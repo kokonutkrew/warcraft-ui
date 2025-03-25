@@ -4,10 +4,10 @@ FGI_DB = {
 ["Floide - Moon Guard"] = "Default",
 ["Powndcake - Moon Guard"] = "Default",
 ["Furyfistss - Emerald Dream"] = "Default",
-["Deathscar - Emerald Dream"] = "Default",
+["Cyclonekk - Emerald Dream"] = "Default",
 ["Jadewarrior - Emerald Dream"] = "Default",
 ["Demolishes - Emerald Dream"] = "Default",
-["Cyclonekk - Emerald Dream"] = "Default",
+["Deathscar - Emerald Dream"] = "Default",
 ["Timecaster - Emerald Dream"] = "Default",
 ["Voidspeakerr - Emerald Dream"] = "Default",
 ["Migget - Emerald Dream"] = "Default",
@@ -18,15 +18,14 @@ FGI_DB = {
 },
 ["factionrealm"] = {
 ["Horde - Moon Guard"] = {
+["guild"] = "KK",
 ["history"] = {
 ["leave"] = {
 1728756000,
 },
 },
-["guild"] = "KK",
 },
 ["Alliance - Emerald Dream"] = {
-["guild"] = "KK",
 ["history"] = {
 ["leave"] = {
 1726963200,
@@ -34,6 +33,7 @@ FGI_DB = {
 1726974000,
 },
 },
+["guild"] = "KK",
 },
 },
 ["realm"] = {
@@ -56,10 +56,10 @@ FGI_DEBUG = {
 ["Floide - Moon Guard"] = "Floide - Moon Guard",
 ["Powndcake - Moon Guard"] = "Powndcake - Moon Guard",
 ["Furyfistss - Emerald Dream"] = "Furyfistss - Emerald Dream",
-["Deathscar - Emerald Dream"] = "Deathscar - Emerald Dream",
+["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
 ["Jadewarrior - Emerald Dream"] = "Jadewarrior - Emerald Dream",
 ["Demolishes - Emerald Dream"] = "Demolishes - Emerald Dream",
-["Cyclonekk - Emerald Dream"] = "Cyclonekk - Emerald Dream",
+["Deathscar - Emerald Dream"] = "Deathscar - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
 ["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
 ["Migget - Emerald Dream"] = "Migget - Emerald Dream",

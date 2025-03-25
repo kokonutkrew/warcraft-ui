@@ -29,16 +29,17 @@ MouseoverActionSettingsDB = {
 ["Samoanskully - Area 52"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
 ["Crankcraft - Area 52"] = "Default",
-["Buycraft - Area 52"] = "Default",
+["Samoantitan - Emerald Dream"] = "Default",
+["Samoanlegend - Area 52"] = "Default",
 ["Shadowcraft - Emerald Dream"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
-["Samoanrocket - Area 52"] = "Default",
-["Samoanstrafe - Area 52"] = "Default",
 ["Samoantitan - Area 52"] = "Default",
+["Samoanstrafe - Area 52"] = "Default",
+["Samoanrocket - Area 52"] = "Default",
 ["Samoansage - Area 52"] = "Default",
 ["Farmcraft - Area 52"] = "Default",
-["Samoanlegend - Area 52"] = "Default",
-["Samoantitan - Emerald Dream"] = "Default",
+["Buycraft - Area 52"] = "Default",
+["Saigold - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -57,21 +58,21 @@ MouseoverActionSettingsDB = {
 ["MultiBarBottomLeft"] = {
 ["links"] = {
 ["MultiBarRight"] = true,
-["MultiBarLeft"] = true,
-["MultiBar6"] = true,
 ["MainMenuBar"] = true,
+["MultiBar6"] = true,
+["MultiBarLeft"] = true,
 ["MultiBarBottomRight"] = true,
 ["MultiBar5"] = true,
 ["BuffFrame"] = true,
 ["MultiBar7"] = true,
 },
 },
-["TargetFrame"] = {
+["Minimap"] = {
+["enabled"] = false,
 },
 ["ChatFrame"] = {
 },
-["Minimap"] = {
-["enabled"] = false,
+["TargetFrame"] = {
 },
 ["MultiBarLeft"] = {
 ["links"] = {
@@ -81,12 +82,12 @@ MouseoverActionSettingsDB = {
 ["MainMenuBar"] = {
 ["links"] = {
 ["MultiBarRight"] = true,
-["MultiBar5"] = true,
 ["MultiBar6"] = true,
+["MultiBar5"] = true,
 ["MultiBarLeft"] = true,
 ["MultiBarBottomRight"] = true,
-["BuffFrame"] = true,
 ["MultiBarBottomLeft"] = true,
+["BuffFrame"] = true,
 ["MultiBar7"] = true,
 },
 },
@@ -99,13 +100,13 @@ MouseoverActionSettingsDB = {
 ["MultiBar7"] = {
 ["links"] = {
 ["MultiBarRight"] = true,
+["MultiBarLeft"] = true,
 ["MultiBar6"] = true,
-["MultiBar5"] = true,
 ["MainMenuBar"] = true,
 ["MultiBarBottomRight"] = true,
-["MultiBarBottomLeft"] = true,
 ["BuffFrame"] = true,
-["MultiBarLeft"] = true,
+["MultiBarBottomLeft"] = true,
+["MultiBar5"] = true,
 },
 ["COMBAT_UPDATE"] = true,
 },
@@ -117,12 +118,12 @@ MouseoverActionSettingsDB = {
 ["MultiBarBottomRight"] = {
 ["links"] = {
 ["MultiBarRight"] = true,
-["MultiBar5"] = true,
 ["MultiBar6"] = true,
+["MultiBar5"] = true,
 ["MainMenuBar"] = true,
-["MultiBarBottomLeft"] = true,
-["MultiBarLeft"] = true,
 ["BuffFrame"] = true,
+["MultiBarLeft"] = true,
+["MultiBarBottomLeft"] = true,
 ["MultiBar7"] = true,
 },
 },

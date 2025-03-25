@@ -1,33 +1,69 @@
-VER 3 010000000000000E ".a.yAltDownDebuf" "INV_Misc_QuestionMark"
+VER 3 010000000000001E ".LeftClick" "132163"
 #showtooltip
-/use [known:2908]soothe
+/target
+/use [dead][dead,@mouseover]mass resurrection
+/use [mod:alt]puify
+/use [@mouseover,help,nodead][help]renew
+/use [@mouseover,harm,nodead][harm]shadow word: pain; renew
 END
-VER 3 010000000000000F ".a.yAltUp Cure" "INV_Misc_QuestionMark"
+VER 3 010000000000001F ".RightClick" "132163"
 #showtooltip
-/use [known:2782]remove corruption;[known:213644]cleanse toxins;[known:130]slow fall;[known:18499]berserker rage;[known:360823]naturalize;[known:4987]cleanse
+/use [mod:shift]pain suppression
+/castsequence [help][@mouseover] reset=3 power word: shield, pain suppression, pain supression
 END
 VER 3 0100000000000009 "Angelic Feather" "134400"
-#showtooltip Angelic Feather
-/cast [mod:shift, @cursor][@player][] Angelic Feather
+#showtooltip
+/cast [mod:shift, @cursor][@player][] angelic feather
+/stopspelltarget
+END
+VER 3 0100000000000017 "Barrier" "134400"
+#showtooltip
+/use [known:62618,@cursor] power word: barrier
 END
 VER 3 0100000000000010 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Purify;  [@mouseover,exists,mod:ctrl] Dispel Magic; [@mouseover,exists,mod:shift] Purify
 END
-VER 3 0100000000000011 "FishBackup" "134400"
-/use survey
-/castsequence [nomod] Fishing
-/equipset [mod:alt] Max Fishing
-/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
-/use [mod:shift] Worm Supreme
-END
-VER 3 0100000000000012 "profCookingFire" "INV_Misc_QuestionMark"
+VER 3 0100000000000016 "Dispel Magic" "134400"
 #showtooltip
-/use little wickerman
+/use [known:528]dispel magic
+END
+VER 3 0100000000000013 "E" "134400"
+#showtooltip
+/use [known:8122]psychic scream
+END
+VER 3 0100000000000014 "Fortitude" "134400"
+#showtooltip
+/use [known:21562,@player]Power Word: Fortitude
+END
+VER 3 0100000000000018 "Levitate" "134400"
+#showtooltip
+/use [known:1706,@mouseover][]levitate;levitate
+END
+VER 3 0100000000000015 "Mass Dispell" "134400"
+#showtooltip
+/use [known:32375,@cursor]mass dispel
+END
+VER 3 0100000000000019 "Mind Control" "134400"
+#showtooltip
+/use [known:605]mind control
+END
+VER 3 010000000000001C "Penance Harm" "134400"
+#showtooltip
+/use [harm] penance
+END
+VER 3 010000000000001D "Penance Help" "134400"
+#showtooltip
+/cast [@mouseover,help] penance
+END
+VER 3 010000000000001B "Premonition" "134400"
+#showtooltip
+/cast Premonition
+/cqs [known:Premonition of Insight] [known:Premonition of Clairvoyance]
 END
 VER 3 010000000000000D "PW: Shield" "134400"
 #showtooltip Power Word: Shield
-/use [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
+/use [target=mouseover,help,nodead][@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
 END
 VER 3 010000000000000A "Renew" "134400"
 #showtooltip renew
@@ -40,4 +76,8 @@ END
 VER 3 010000000000000C "Shadow Word Pain" "134400"
 #showtooltip Shadow Word: Pain
 /cast [mod:alt,@player] [@mouseover,help,nodead] Renew; [@mouseover,harm,nodead] [harm] Shadow Word: Pain; Renew
+END
+VER 3 010000000000001A "Smite" "134400"
+#showtooltip smite
+/cast [nochanneling:penance,nochanneling:dark reprimand] smite
 END

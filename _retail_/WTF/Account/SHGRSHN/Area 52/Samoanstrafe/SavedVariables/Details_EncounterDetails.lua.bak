@@ -2,1203 +2,34 @@
 EncounterDetailsDB = {
 ["chartData"] = {
 [1122] = {
-["Raid Damage Done"] = {
-940334,
-335786,
-1283399,
-258738,
-633261,
-508483,
-755235,
-1385759,
-1377769,
-1726810,
-1728243,
-2372338,
-4632357,
-2101206,
-819520,
-4550519,
-2712255,
-6014165,
-3326490,
-4539946,
-4429077,
-2549583,
-2651914,
-1733974,
-974631,
-68344,
-8536,
-676573,
-910678,
-2223823,
-3653857,
-442130,
-240342,
-262028,
-141924,
-185765,
-2302481,
-391153,
-1302059,
-4377545,
-2200328,
-595263,
-811143,
-445259,
-299700,
-382844,
-66159,
-1454970,
-747,
-0,
-0,
-4818810,
-1967891,
-1658503,
-3109059,
-409271,
-1986517,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 6014165,
-["__time"] = 1740251419,
-},
 },
 [1141] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-422734,
-108847,
-0,
-15910,
-134439,
-137417,
-348041,
-112908,
-1084826,
-395659,
-740114,
-504898,
-1677352,
-650713,
-699118,
-1309163,
-1510109,
-1131423,
-229740,
-236428,
-794586,
-406943,
-636384,
-1156166,
-1938022,
-516570,
-718288,
-444033,
-1057351,
-870051,
-604845,
-928132,
-673524,
-333061,
-535190,
-603295,
-456138,
-181028,
-274482,
-414174,
-739010,
-44008,
-401981,
-274787,
-451463,
-350736,
-270715,
-506132,
-147627,
-497067,
-1718085,
-1654780,
-1274325,
-561364,
-2029517,
-1603015,
-2172247,
-3520416,
-455227,
-27570,
-55105,
-0,
-28719,
-28719,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 3520416,
-["__time"] = 1740252171,
-},
 },
 [1145] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-245443,
-383179,
-222814,
-108514,
-308198,
-505062,
-161518,
-224480,
-1021389,
-836367,
-891789,
-472949,
-1131886,
-373416,
-673090,
-905957,
-819624,
-536950,
-306655,
-576048,
-212933,
-480169,
-365200,
-512070,
-719074,
-613264,
-2099822,
-1804133,
-896850,
-1633914,
-1293810,
-618775,
-1141562,
-380250,
-974972,
-956282,
-197238,
-1612908,
-365685,
-387762,
-115103,
-1890193,
-862369,
-102718,
-1274028,
-412858,
-977635,
-430459,
-732828,
-240282,
-782254,
-832527,
-779386,
-538533,
-562840,
-533700,
-313452,
-95144,
-545040,
-648532,
-962099,
-2174786,
-261666,
-153610,
-417774,
-116340,
-252132,
-48769,
-533769,
-151033,
-822603,
-503504,
-392848,
-218014,
-704404,
-770176,
-1633782,
-1364914,
-1322958,
-1239594,
-631682,
-600676,
-639337,
-999825,
-654131,
-543976,
-562438,
-337513,
-426456,
-307534,
-600570,
-487316,
-749170,
-738049,
-686990,
-617222,
-53117,
-139464,
-76112,
-77993,
-1038,
-115432,
-76954,
-0,
-0,
-["max_value"] = 2174786,
-["__time"] = 1740252650,
-},
 },
 [1123] = {
-["Raid Damage Done"] = {
-38987,
-876040,
-1506844,
-1841024,
-1216430,
-1784323,
-213432,
-0,
-48047,
-["max_value"] = 1841024,
-["__time"] = 1740251429,
-},
 },
 [1142] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-421690,
-0,
-95310,
-258781,
-181257,
-522635,
-2343907,
-2472833,
-978863,
-1688263,
-636349,
-1455376,
-790726,
-1110160,
-2308719,
-1517985,
-1334273,
-1294658,
-725437,
-1170226,
-1494946,
-930345,
-577560,
-1690776,
-870590,
-588030,
-217390,
-849163,
-385006,
-359776,
-715008,
-836207,
-858239,
-1531634,
-661087,
-232291,
-737753,
-258002,
-1200180,
-431119,
-2323468,
-1012780,
-235048,
-822196,
-549173,
-860110,
-255396,
-629756,
-100175,
-167812,
-4470,
-458974,
-93169,
-869136,
-405832,
-839593,
-289958,
-502957,
-109403,
-519466,
-22315,
-340584,
-194604,
-84464,
-35695,
-126220,
-35694,
-84464,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 2472833,
-["__time"] = 1740252286,
-},
 },
 [1146] = {
-["Raid Damage Done"] = {
-0,
-0,
-134364,
-98110,
-38010,
-196218,
-273066,
-339834,
-35640,
-98108,
-0,
-177068,
-41086,
-342207,
-0,
-683183,
-204303,
-249877,
-116565,
-239148,
-["max_value"] = 683183,
-["__time"] = 1740252675,
-},
-},
-[1126] = {
-["Raid Damage Done"] = {
-40193,
-27,
-7553,
-27,
-27,
-80492,
-99061,
-69507,
-497740,
-173442,
-248389,
-3288146,
-1197700,
-1892861,
-1538087,
-2036027,
-2576443,
-2221933,
-1968647,
-33427,
-33426,
-1028439,
-871782,
-461807,
-1075252,
-1982400,
-1218159,
-1170187,
-3386074,
-2944460,
-1055491,
-915605,
-873374,
-218546,
-93109,
-137008,
-281174,
-400597,
-555178,
-1475836,
-2239797,
-1345894,
-1514855,
-1516540,
-334759,
-2026587,
-894175,
-591894,
-0,
-29723,
-183458,
-95089,
-534561,
-433140,
-753106,
-1061713,
-["max_value"] = 3386074,
-["__time"] = 1740251538,
-},
-},
-[1124] = {
-["Raid Damage Done"] = {
-310878,
-2417706,
-1219161,
-1552737,
-471547,
-665637,
-1156330,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 2417706,
-["__time"] = 1740251443,
-},
-},
-[1143] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-27733,
-129869,
-139978,
-191583,
-239647,
-565282,
-87847,
-394201,
-1087003,
-45055,
-195554,
-22117,
-23601,
-717933,
-488605,
-846887,
-99165,
-972344,
-703394,
-487360,
-1144451,
-858017,
-987532,
-526949,
-1743479,
-762923,
-1011835,
-1140071,
-2768176,
-881774,
-1331979,
-974867,
-1216391,
-2779769,
-1744770,
-861160,
-2261875,
-880683,
-1163419,
-975979,
-863642,
-487077,
-427896,
-749076,
-1090759,
-762443,
-556482,
-373144,
-421852,
-2093505,
-864794,
-1266528,
-1503415,
-725936,
-772890,
-743042,
-351822,
-774055,
-867170,
-739284,
-279213,
-504818,
-129553,
-483841,
-234505,
-400020,
-2023,
-472534,
-1334879,
-468136,
-295566,
-105945,
-825947,
-2679905,
-1349194,
-130689,
-730202,
-543078,
-576916,
-225711,
-410694,
-394845,
-791400,
-586126,
-56200,
-95549,
-115223,
-157655,
-0,
-115952,
-95549,
-95549,
-165874,
-329073,
-242256,
-666429,
-1129496,
-782239,
-376663,
-156769,
-174293,
-373900,
-309816,
-440033,
-514562,
-1458351,
-604803,
-670701,
-473274,
-622793,
-486850,
-325321,
-733726,
-421770,
-1789408,
-997213,
-1257446,
-1109384,
-1030556,
-783345,
-1638243,
-166460,
-216893,
-111955,
-192929,
-133763,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 2779769,
-["__time"] = 1740252456,
-},
-},
-[1125] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-194755,
-506575,
-21669,
-0,
-628963,
-5005,
-979653,
-978637,
-773756,
-274465,
-669401,
-1515600,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 1515600,
-["__time"] = 1740251466,
-},
-},
-[1121] = {
-["Raid Damage Done"] = {
-96249,
-39725,
-1580,
-232000,
-26155,
-10847,
-8860,
-70791,
-51827,
-1624371,
-["max_value"] = 1624371,
-["__time"] = 1740251354,
-},
-},
-[1140] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-25207,
-0,
-19999,
-19703,
-19999,
-0,
-60452,
-303423,
-23403,
-117475,
-1040182,
-300056,
-44473,
-192187,
-349745,
-357823,
-716518,
-49075,
-64236,
-147892,
-235533,
-353110,
-335361,
-270595,
-306347,
-149539,
-258052,
-538098,
-689691,
-1121261,
-1197644,
-974967,
-886657,
-1193291,
-633350,
-1067031,
-494722,
-1868219,
-2777615,
-892261,
-1110953,
-1877563,
-1113360,
-832194,
-586088,
-1398243,
-611717,
-508358,
-217924,
-1152437,
-968153,
-481391,
-436477,
-510310,
-210036,
-125074,
-117345,
-601858,
-813233,
-899948,
-230630,
-964451,
-453606,
-905779,
-461154,
-747207,
-610119,
-494037,
-535714,
-460174,
-313484,
-498698,
-159771,
-179650,
-136630,
-491948,
-1309334,
-1381609,
-929576,
-549781,
-2968323,
-91762,
-142049,
-70414,
-148754,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 2968323,
-["__time"] = 1740252042,
-},
-},
-[1144] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-58763,
-566156,
-883694,
-529233,
-818333,
-905045,
-1533019,
-2107440,
-227407,
-1013727,
-425576,
-772027,
-944023,
-1176027,
-843435,
-144195,
-1003174,
-2503104,
-982250,
-631743,
-616240,
-1072827,
-1604555,
-726739,
-1011597,
-626278,
-148554,
-75851,
-118486,
-50082,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 2503104,
-["__time"] = 1740252531,
-},
-},
-[1092] = {
-["Raid Damage Done"] = {
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-591169,
-0,
-156963,
-238137,
-29322,
-611264,
-309989,
-198594,
-649177,
-446630,
-246937,
-872533,
-923445,
-1645461,
-1058508,
-1144114,
-1782602,
-618728,
-2421281,
-2083171,
-58147,
-652538,
-65002,
-682949,
-972774,
-1158546,
-856301,
-2648938,
-820376,
-1579865,
-1086372,
-1034740,
-945080,
-664855,
-1102069,
-939890,
-1003009,
-742183,
-374838,
-701673,
-529727,
-681258,
-850192,
-1352668,
-631017,
-725894,
-711005,
-848004,
-309054,
-818600,
-237650,
-592576,
-414504,
-378259,
-518490,
-314335,
-738709,
-491899,
-562909,
-927773,
-1003775,
-169999,
-994919,
-281814,
-716845,
-1613183,
-1357932,
-144618,
-615843,
-0,
-113222,
-150273,
-254685,
-460476,
-247914,
-192491,
-236495,
-137498,
-274611,
-180416,
-183966,
-139498,
-482666,
-503183,
-645078,
-194184,
-825201,
-382503,
-774249,
-690221,
-684985,
-565204,
-314126,
-439492,
-290016,
-890928,
-302760,
-1399413,
-718179,
-479029,
-648327,
-1539527,
-1408660,
-1388751,
-1274376,
-459811,
-1507670,
-701221,
-1032640,
-1351126,
-1295884,
-982883,
-1200491,
-665098,
-1158957,
-785360,
-609561,
-518270,
-298415,
-770541,
-673249,
-1199248,
-1387568,
-905012,
-439225,
-0,
-27516,
-0,
-27149,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-["max_value"] = 2648938,
-["__time"] = 1740250091,
-},
 },
 [1127] = {
-["Raid Damage Done"] = {
-439361,
-1576498,
-1148378,
-1153307,
-826581,
-234844,
-974568,
-1063641,
-1832122,
-1544193,
-463687,
-582338,
-396590,
-1290829,
-620224,
-643600,
-559647,
-374680,
-1288234,
-1484751,
-2603967,
-2652033,
-5278221,
-2202316,
-["max_value"] = 5278221,
-["__time"] = 1740251563,
 },
+[1124] = {
+},
+[1143] = {
+},
+[1092] = {
+},
+[1121] = {
+},
+[1125] = {
+},
+[1144] = {
+},
+[1140] = {
+},
+[1126] = {
 },
 },
 ["encounter_spells"] = {
@@ -1841,14 +672,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
-[457465] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+[281036] = {
+["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Void Speaker Eirich",
+["source"] = "Azurewind-Illidan",
 },
 [453140] = {
 ["school"] = 32,
@@ -1887,13 +717,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Speaker Shadowcrown",
 },
-[427315] = {
+[455441] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Void Rift",
+["source"] = "Sylasande-WyrmrestAccord",
 },
 [439600] = {
 ["school"] = 1,
@@ -1903,13 +733,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crystal Shard",
 },
-[438675] = {
+[462181] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Engorged Crawler",
+["source"] = "Taktokx",
 },
 [5697] = {
 ["school"] = 32,
@@ -1935,12 +765,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'ikkaj",
 },
-[458357] = {
-["school"] = 8,
+[439577] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_HEAL"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Surging Totem",
+["source"] = "Speaker Dorlita",
 },
 [462972] = {
 ["school"] = 1,
@@ -1958,15 +789,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Roccor",
 },
-[432031] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+[462180] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Black Blood",
+["source"] = "Gluttone-Illidan",
 },
 [416224] = {
 ["school"] = 8,
@@ -1992,12 +821,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Incendius",
 },
-[426793] = {
-["school"] = 32,
+[463074] = {
+["school"] = 6,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Anub'ikkaj",
+["source"] = "Hillmàn",
 },
 [2645] = {
 ["school"] = 8,
@@ -2041,21 +870,6 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 },
-[427852] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Void Speaker Eirich",
-},
-[438966] = {
-["school"] = 8,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Avanoxx",
-},
 [435006] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -2065,6 +879,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Brann's Epic Egg",
 },
+[438966] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Avanoxx",
+},
+[427852] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Void Speaker Eirich",
+},
 [451997] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -2073,13 +902,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Studioone-Elune",
 },
-[428737] = {
+[459759] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Treant",
+["source"] = "Azurewind-Illidan",
 },
 [463495] = {
 ["school"] = 4,
@@ -2109,14 +938,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Web General Ab'enar",
 },
-[422233] = {
+[8220] = {
 ["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Skarmorak",
+["source"] = "Kaottix-Illidan",
 },
 [431303] = {
 ["school"] = 32,
@@ -2127,21 +955,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Nightfall Shadowmage",
 },
-[427854] = {
-["school"] = 32,
+[422233] = {
+["school"] = 1,
 ["token"] = {
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Void Speaker Eirich",
+["source"] = "Skarmorak",
 },
-[68054] = {
-["school"] = 1,
-["type"] = "BUFF",
+[255937] = {
+["school"] = 6,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Jeeves",
+["source"] = "Hillmàn",
 },
 [433731] = {
 ["school"] = 1,
@@ -2167,13 +995,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twokayz",
 },
-[462183] = {
-["school"] = 1,
-["type"] = "BUFF",
+[429999] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Hematoma-Illidan",
+["source"] = "Vent Stalker",
 },
 [462348] = {
 ["school"] = 12,
@@ -2207,12 +1035,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathbandit-Mal'Ganis",
 },
-[427461] = {
-["school"] = 32,
+[435012] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
 },
+["source"] = "Anub'zekt",
 },
 [463499] = {
 ["school"] = 4,
@@ -2222,13 +1051,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Incendius",
 },
-[450552] = {
-["school"] = 1,
-["type"] = "BUFF",
+[190784] = {
+["school"] = 2,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Annyka-Aegwynn",
+["source"] = "Andròs",
 },
 [360022] = {
 ["school"] = 1,
@@ -2263,13 +1091,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Drema-Thrall",
 },
-[5761] = {
+[290121] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Valdranne",
+["source"] = "Voltier-Aegwynn",
 },
 [462351] = {
 ["school"] = 12,
@@ -2326,13 +1154,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Annera",
 },
-[428212] = {
+[462182] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Speaker Brokk",
+["source"] = "Rovfågel-Illidan",
 },
 [465] = {
 ["school"] = 2,
@@ -2367,13 +1195,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lovdruid",
 },
-[449167] = {
-["school"] = 1,
+[424879] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Speaker Dorlita",
+["source"] = "E.D.N.A",
 },
 [463504] = {
 ["school"] = 4,
@@ -2392,12 +1221,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Divine Image",
 },
-[388598] = {
-["school"] = 1,
-["type"] = "BUFF",
+[424889] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
+["source"] = "E.D.N.A",
 },
 [460822] = {
 ["school"] = 2,
@@ -2407,22 +1238,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Korivàsh",
 },
-[235313] = {
-["school"] = 4,
+[98021] = {
+["school"] = 8,
+["token"] = {
+["SPELL_HEAL"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Spirit Link Totem",
+},
+[34702] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Agano-Illidan",
-},
-[424795] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "E.D.N.A",
+["source"] = "Time Watcher",
 },
 [452519] = {
 ["school"] = 1,
@@ -2459,13 +1289,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Tutankamonk",
 },
-[454693] = {
-["school"] = 1,
-["type"] = "BUFF",
+[428120] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Hillmàn",
+["source"] = "Speaker Dorlita",
 },
 [463890] = {
 ["school"] = 1,
@@ -2500,12 +1329,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Annyka-Aegwynn",
 },
-[463891] = {
+[454693] = {
 ["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Bael'Gar",
+["source"] = "Hillmàn",
 },
 [381748] = {
 ["school"] = 64,
@@ -2561,13 +1391,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mehganfox-Illidan",
 },
-[182104] = {
-["school"] = 2,
+[201671] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Korivàsh",
+["source"] = "Kidxxkronik-Mal'Ganis",
 },
 [438471] = {
 ["school"] = 1,
@@ -2598,13 +1428,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathscreamer Iken'tak",
 },
-[455020] = {
-["school"] = 1,
+[448888] = {
+["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Annyka-Aegwynn",
+["source"] = "Rasha'nan",
 },
 [427869] = {
 ["school"] = 32,
@@ -2647,28 +1480,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Gromscream",
 },
-[452127] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+[408067] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Anub'ikkaj",
+["source"] = "Bänth",
 },
-[52127] = {
+[391974] = {
 ["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Thuja",
+["source"] = "Lofimole",
 },
-[448887] = {
+[434579] = {
 ["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Rasha'nan",
 },
@@ -2695,28 +1528,27 @@ EncounterDetailsDB = {
 },
 ["source"] = "Auroriana",
 },
-[391974] = {
+[52127] = {
 ["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Lofimole",
+["source"] = "Thuja",
 },
-[451233] = {
+[456820] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Tutankamonk",
 },
-[427490] = {
+[131347] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
+["source"] = "Bustybeams-Tichondrius",
 },
 [435793] = {
 ["school"] = 8,
@@ -2748,22 +1580,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Son of Roccor",
 },
-[433622] = {
+[427490] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Brann Bronzebeard",
 },
 [156322] = {
 ["school"] = 6,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_HEAL"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_HEAL"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_HEAL"] = true,
 },
 ["source"] = "Hillmàn",
 },
@@ -2825,16 +1656,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Treant",
 },
-[448444] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+[403296] = {
+["school"] = 64,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Web General Ab'enar",
+["source"] = "Seraxion-Illidan",
 },
 [381758] = {
 ["school"] = 64,
@@ -2852,13 +1680,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[456109] = {
+[448444] = {
 ["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Sha of Anger",
+["source"] = "Web General Ab'enar",
 },
 [158486] = {
 ["school"] = 1,
@@ -2875,15 +1706,7 @@ EncounterDetailsDB = {
 },
 ["source"] = "Rasha'nan",
 },
-[108211] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Valdranne",
-},
-[381756] = {
+[381750] = {
 ["school"] = 64,
 ["type"] = "BUFF",
 ["token"] = {
@@ -2891,31 +1714,37 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kaottix-Illidan",
 },
-[420418] = {
+[43308] = {
 ["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Zügstones",
-},
-[453173] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Speaker Shadowcrown",
+["source"] = "Exzeàon",
 },
-[434576] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[377656] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Rasha'nan",
+["source"] = "Walmarthas",
+},
+[272790] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Azurewind-Illidan",
+},
+[432021] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Nightínday",
 },
 [417275] = {
 ["school"] = 1,
@@ -2925,13 +1754,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Chickenfryer",
 },
-[461860] = {
-["school"] = 1,
-["type"] = "BUFF",
+[453173] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Valdranne",
+["source"] = "Speaker Shadowcrown",
 },
 [1126] = {
 ["school"] = 8,
@@ -2965,13 +1795,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Vent Stalker",
 },
-[462757] = {
-["school"] = 8,
+[428520] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Skorpyo",
+["source"] = "Scrap Block",
 },
 [382912] = {
 ["school"] = 1,
@@ -3004,6 +1834,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'zekt",
 },
+[383169] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Valdranne",
+},
+[462757] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Skorpyo",
+},
 [423538] = {
 ["school"] = 32,
 ["token"] = {
@@ -3013,29 +1859,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
-[428520] = {
+[461593] = {
 ["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Scrap Block",
-},
-[383169] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Valdranne",
-},
-[462320] = {
-["school"] = 12,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Lord Roccor",
+["source"] = "Censered",
 },
 [426860] = {
 ["school"] = 32,
@@ -3045,31 +1874,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'ikkaj",
 },
-[219788] = {
-["school"] = 32,
+[423228] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Walmarthas",
-},
-[388536] = {
-["school"] = 2,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Xraidr",
-},
-[434655] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Rasha'nan",
+["source"] = "Skarmorak",
 },
 [263852] = {
 ["school"] = 1,
@@ -3079,6 +1890,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bird of Prey",
 },
+[382022] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Thuja",
+},
+[388536] = {
+["school"] = 2,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Xraidr",
+},
 [382021] = {
 ["school"] = 8,
 ["type"] = "BUFF",
@@ -3087,13 +1914,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Thuja",
 },
-[435550] = {
+[431973] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Zyrnd",
+["source"] = "Fildormin",
 },
 [40120] = {
 ["school"] = 1,
@@ -3111,13 +1938,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Zügstones",
 },
-[382022] = {
-["school"] = 8,
-["type"] = "BUFF",
+[434655] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Thuja",
+["source"] = "Rasha'nan",
 },
 [2782] = {
 ["school"] = 64,
@@ -3135,30 +1964,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Speaker Shadowcrown",
 },
-[431973] = {
+[435550] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Fildormin",
+["source"] = "Zyrnd",
 },
-[424903] = {
-["school"] = 1,
+[227034] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "E.D.N.A",
+["source"] = "Lovdruid",
 },
-[361584] = {
+[388539] = {
 ["school"] = 1,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Exzeàon",
+["source"] = "Karlochh-Bonechewer",
 },
 [289277] = {
 ["school"] = 1,
@@ -3176,14 +2003,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Plundge",
 },
-[382024] = {
-["school"] = 8,
+[361584] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_HEAL"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Arepunk-Ragnaros",
+["source"] = "Exzeàon",
 },
 [392883] = {
 ["school"] = 16,
@@ -3193,13 +2020,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Annyka-Aegwynn",
 },
-[294133] = {
-["school"] = 2,
+[394289] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Exzeàon",
+["source"] = "Zix-Gurubashi",
 },
 [198103] = {
 ["school"] = 8,
@@ -3209,21 +2036,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Uccito-Illidan",
 },
-[394289] = {
-["school"] = 1,
+[294133] = {
+["school"] = 2,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Zix-Gurubashi",
+["source"] = "Exzeàon",
 },
-[336135] = {
-["school"] = 1,
+[439841] = {
+["school"] = 6,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Bustybeams-Tichondrius",
+["source"] = "Hillmàn",
 },
 [453310] = {
 ["school"] = 32,
@@ -3231,29 +2058,6 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Speaker Shadowcrown",
-},
-[449734] = {
-["school"] = 8,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Rasha'nan",
-},
-[464426] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "General Angerforge",
-},
-[129914] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Annyka-Aegwynn",
 },
 [461487] = {
 ["school"] = 8,
@@ -3265,6 +2069,29 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Ki'katal the Harvester",
+},
+[35346] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Warp Stalker",
+},
+[381684] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Sahuura-Illidan",
+},
+[449734] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Rasha'nan",
 },
 [427378] = {
 ["school"] = 32,
@@ -3282,21 +2109,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Speaker Brokk",
 },
-[433766] = {
+[464426] = {
 ["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Anub'zekt",
-},
-[317898] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Bloodstained Webmage",
+["source"] = "General Angerforge",
+},
+[388367] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Exzeàon",
 },
 [384455] = {
 ["school"] = 64,
@@ -3314,21 +2141,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crab",
 },
-[433550] = {
+[176151] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Andròs",
+["source"] = "Beåchbum-Illidan",
 },
-[438494] = {
-["school"] = 1,
-["type"] = "BUFF",
+[317898] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Avanoxx",
+["source"] = "Bloodstained Webmage",
 },
 [435533] = {
 ["school"] = 1,
@@ -3338,13 +2165,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Glibb",
 },
-[434407] = {
-["school"] = 8,
+[438495] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Rasha'nan",
+["source"] = "Avanoxx",
 },
 [430191] = {
 ["school"] = 1,
@@ -3354,28 +2180,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Annyka-Aegwynn",
 },
-[438495] = {
-["school"] = 1,
+[434407] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Avanoxx",
+["source"] = "Rasha'nan",
 },
-[463730] = {
+[452146] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Walmarthas",
-},
-[435813] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Skarmorak",
+["source"] = "Bbyvash",
 },
 [190824] = {
 ["school"] = 64,
@@ -3387,6 +2206,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Booteh-Tichondrius",
 },
+[435813] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Skarmorak",
+},
 [434408] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -3396,13 +2223,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'zekt",
 },
-[431971] = {
-["school"] = 1,
-["type"] = "BUFF",
+[426734] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Thuja",
+["source"] = "Speaker Shadowcrown",
 },
 [85416] = {
 ["school"] = 1,
@@ -3420,13 +2247,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Treant",
 },
-[449609] = {
+[462949] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Dahfu",
+["source"] = "Bael'Gar",
 },
 [462131] = {
 ["school"] = 8,
@@ -3460,6 +2286,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Valdranne",
 },
+[426736] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Speaker Shadowcrown",
+},
 [55164] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -3468,14 +2303,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mortystabz-Illidan",
 },
-[427001] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Anub'ikkaj",
-},
 [783] = {
 ["school"] = 1,
 ["token"] = {
@@ -3483,13 +2310,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Dénnes",
 },
-[428535] = {
-["school"] = 4,
+[311464] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Scrap Block",
+["source"] = "Boomboomroom",
 },
 [450380] = {
 ["school"] = 1,
@@ -3499,12 +2326,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Dahfu",
 },
-[427002] = {
-["school"] = 1,
+[428535] = {
+["school"] = 4,
 ["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Anub'ikkaj",
+["source"] = "Scrap Block",
 },
 [434284] = {
 ["school"] = 1,
@@ -3513,13 +2341,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'zekt",
 },
-[390898] = {
+[395836] = {
 ["school"] = 8,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Rotcoil-Mal'Ganis",
+["source"] = "Anvilrage Warden",
 },
 [431985] = {
 ["school"] = 1,
@@ -3539,14 +2366,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Arathi Bomb",
 },
-[432117] = {
+[6201] = {
 ["school"] = 32,
 ["token"] = {
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Ki'katal the Harvester",
+["source"] = "Aandryna-Illidan",
 },
 [21562] = {
 ["school"] = 2,
@@ -3556,37 +2382,38 @@ EncounterDetailsDB = {
 },
 ["source"] = "Needler",
 },
-[428820] = {
-["school"] = 4,
-["type"] = "BUFF",
+[434441] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Vent Stalker",
+["source"] = "Rasha'nan",
 },
-[143625] = {
+[427007] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Anub'ikkaj",
+},
+[433674] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Crimsonsaber",
+["source"] = "Exzeàon",
 },
-[430097] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Speaker Brokk",
-},
-[449364] = {
-["school"] = 1,
+[192106] = {
+["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Censered",
+["source"] = "Johnsby",
 },
 [451916] = {
 ["school"] = 1,
@@ -3596,21 +2423,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Azright-Illidan",
 },
-[167898] = {
-["school"] = 1,
-["type"] = "BUFF",
+[448215] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Rasha'nan",
+},
+[432119] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Ogarna",
-},
-[451026] = {
-["school"] = 32,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Speaker Shadowcrown",
+["source"] = "Ki'katal the Harvester",
 },
 [455366] = {
 ["school"] = 1,
@@ -3636,13 +2464,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Valdranne",
 },
-[431481] = {
-["school"] = 6,
+[457925] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Hillmàn",
+["source"] = "Slightlyused",
 },
 [448213] = {
 ["school"] = 8,
@@ -3660,13 +2488,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Wahgwann",
 },
-[6201] = {
+[432117] = {
 ["school"] = 32,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Aandryna-Illidan",
+["source"] = "Ki'katal the Harvester",
 },
 [457284] = {
 ["school"] = 1,
@@ -3676,23 +2505,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Astharott-Illidan",
 },
-[396092] = {
+[143625] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Nevervate",
+["source"] = "Crimsonsaber",
 },
-[442210] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[449364] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Bloodstained Webmage",
+["source"] = "Censered",
 },
 [469421] = {
 ["school"] = 2,
@@ -3709,29 +2536,29 @@ EncounterDetailsDB = {
 },
 ["source"] = "Xraidr",
 },
-[448215] = {
-["school"] = 8,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Rasha'nan",
-},
-[469424] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Censered",
-},
-[231390] = {
+[167898] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "Ogarna",
+},
+[447962] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Thomastrainn",
+},
+[451026] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Speaker Shadowcrown",
 },
 [457797] = {
 ["school"] = 1,
@@ -3749,20 +2576,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Nightínday",
 },
-[463674] = {
-["school"] = 12,
+[431481] = {
+["school"] = 6,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Lord Roccor",
+["source"] = "Hillmàn",
 },
-[372608] = {
+[72968] = {
 ["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Exzeàon",
+["source"] = "Nightínday",
 },
 [433781] = {
 ["school"] = 8,
@@ -3773,14 +2601,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'zekt",
 },
-[108446] = {
-["school"] = 32,
+[974] = {
+["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Unknown",
+["source"] = "Floofydancer-MoonGuard",
 },
 [19750] = {
 ["school"] = 2,
@@ -3790,22 +2617,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[447962] = {
+[469424] = {
 ["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Censered",
+},
+[108446] = {
+["school"] = 32,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Thomastrainn",
-},
-[428161] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Speaker Brokk",
+["source"] = "Unknown",
 },
 [5215] = {
 ["school"] = 1,
@@ -3816,12 +2642,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lofimole",
 },
-[196811] = {
-["school"] = 2,
+[64238] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Divine Image",
+["source"] = "Bael'Gar",
 },
 [452226] = {
 ["school"] = 1,
@@ -3831,6 +2659,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Unseën",
 },
+[433656] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Reinforced Drone",
+},
 [452307] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -3838,22 +2674,6 @@ EncounterDetailsDB = {
 ["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "Annyka-Aegwynn",
-},
-[292364] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Exzeàon",
-},
-[236502] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Thuja",
 },
 [445409] = {
 ["school"] = 1,
@@ -3863,6 +2683,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
+[236502] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Thuja",
+},
 [453314] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -3871,15 +2699,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Slightlyused",
 },
-[443494] = {
-["school"] = 32,
-["type"] = "DEBUFF",
+[461507] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Crystal Shard",
+["source"] = "Ki'katal the Harvester",
 },
 [449370] = {
 ["school"] = 1,
@@ -3896,13 +2721,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Zyrnd",
 },
-[448604] = {
-["school"] = 1,
-["type"] = "BUFF",
+[443494] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Sylasande-WyrmrestAccord",
+["source"] = "Crystal Shard",
 },
 [409896] = {
 ["school"] = 1,
@@ -3912,23 +2739,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Nelatan",
 },
-[61295] = {
-["school"] = 8,
-["token"] = {
-["SPELL_PERIODIC_HEAL"] = true,
-},
-["source"] = "Arepunk-Ragnaros",
-},
-[448443] = {
+[453859] = {
 ["school"] = 32,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Web General Ab'enar",
+["source"] = "Speaker Shadowcrown",
+},
+[372610] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Annyka-Aegwynn",
 },
 [381664] = {
 ["school"] = 1,
@@ -3945,13 +2769,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[387552] = {
-["school"] = 32,
-["type"] = "BUFF",
+[142421] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Azarasha",
+["source"] = "Treant",
 },
 [387158] = {
 ["school"] = 127,
@@ -3961,13 +2784,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Píèrrè-Illidan",
 },
-[403265] = {
-["school"] = 64,
+[201633] = {
+["school"] = 2,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Seraxion-Illidan",
+["source"] = "Earthen Wall Totem",
 },
 [258860] = {
 ["school"] = 127,
@@ -3976,20 +2799,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Kolber-Illidan",
 },
-[455456] = {
+[195072] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Drslicegood",
+},
+[386208] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Annera",
-},
-[431333] = {
-["school"] = 32,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Nightfall Darkcaster",
+["source"] = "Alkeres",
 },
 [445541] = {
 ["school"] = 1,
@@ -4000,14 +2823,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Speaker Brokk",
 },
-[463428] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[463427] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Rasha'nan",
+["source"] = "Glibb",
 },
 [469303] = {
 ["school"] = 1,
@@ -4016,15 +2837,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bael'Gar",
 },
-[982] = {
+[460234] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Griegndhur",
+["source"] = "Drslicegood",
 },
 [2383] = {
 ["school"] = 1,
@@ -4057,22 +2876,24 @@ EncounterDetailsDB = {
 },
 ["source"] = "Valdranne",
 },
-[461895] = {
-["school"] = 32,
-["type"] = "BUFF",
+[463428] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Orb of Ascendance",
+["source"] = "Rasha'nan",
 },
-[195181] = {
+[453214] = {
 ["school"] = 32,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Walmarthas",
+["source"] = "Speaker Shadowcrown",
 },
 [453508] = {
 ["school"] = 1,
@@ -4090,38 +2911,38 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ki'katal the Harvester",
 },
-[452099] = {
+[436023] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Ororeo",
+},
+[462854] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Johnsby",
+},
+[378990] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Lofimole",
+},
+[7870] = {
 ["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_START"] = true,
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Animated Shadow",
-},
-[80354] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Annera",
-},
-[372470] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Desghîdorah",
-},
-[457684] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Tutankamonk",
+["source"] = "Kalthea",
 },
 [423572] = {
 ["school"] = 32,
@@ -4164,6 +2985,23 @@ EncounterDetailsDB = {
 },
 ["source"] = "Vyndendril",
 },
+[315496] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Mortystabz-Illidan",
+},
+[1459] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Unseën",
+},
 [378989] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -4182,6 +3020,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Speaker Shadowcrown",
 },
+[369536] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Mortystabz-Illidan",
+},
 [59638] = {
 ["school"] = 16,
 ["type"] = "DEBUFF",
@@ -4191,63 +3037,38 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mirror Image",
 },
-[1459] = {
-["school"] = 64,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Unseën",
-},
-[369536] = {
+[457684] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Mortystabz-Illidan",
+["source"] = "Tutankamonk",
 },
-[315496] = {
+[372470] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Mortystabz-Illidan",
+["source"] = "Desghîdorah",
 },
-[7870] = {
+[80354] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Annera",
+},
+[452099] = {
 ["school"] = 32,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Kalthea",
-},
-[378990] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Lofimole",
-},
-[462854] = {
-["school"] = 8,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Johnsby",
-},
-[436023] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Ororeo",
+["source"] = "Animated Shadow",
 },
 [378991] = {
 ["school"] = 1,
@@ -4257,60 +3078,63 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lovdruid",
 },
-[453214] = {
+[195181] = {
 ["school"] = 32,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Speaker Shadowcrown",
+["source"] = "Walmarthas",
 },
-[460234] = {
-["school"] = 1,
+[461895] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Orb of Ascendance",
+},
+[982] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Griegndhur",
+},
+[431333] = {
+["school"] = 32,
+["token"] = {
 ["SPELL_CAST_START"] = true,
 },
-["source"] = "Drslicegood",
+["source"] = "Nightfall Darkcaster",
 },
-[463427] = {
-["school"] = 1,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Glibb",
-},
-[386208] = {
+[455456] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Alkeres",
+["source"] = "Annera",
 },
-[195072] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Drslicegood",
-},
-[201633] = {
-["school"] = 2,
+[403265] = {
+["school"] = 64,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Earthen Wall Totem",
+["source"] = "Seraxion-Illidan",
 },
-[142421] = {
-["school"] = 8,
+[387552] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_HEAL"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Treant",
+["source"] = "Azarasha",
 },
 [459731] = {
 ["school"] = 1,
@@ -4320,27 +3144,31 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ogarna",
 },
-[372610] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Annyka-Aegwynn",
-},
-[453859] = {
+[448443] = {
 ["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Web General Ab'enar",
+},
+[61295] = {
+["school"] = 8,
+["token"] = {
+["SPELL_PERIODIC_HEAL"] = true,
+},
+["source"] = "Arepunk-Ragnaros",
+},
+[448604] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Speaker Shadowcrown",
-},
-[461507] = {
-["school"] = 8,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Ki'katal the Harvester",
+["source"] = "Sylasande-WyrmrestAccord",
 },
 [385126] = {
 ["school"] = 1,
@@ -4360,13 +3188,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Orb of Ascendance",
 },
-[433656] = {
+[292364] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Reinforced Drone",
+["source"] = "Exzeàon",
 },
 [423324] = {
 ["school"] = 32,
@@ -4378,30 +3206,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
-[64238] = {
-["school"] = 1,
-["type"] = "BUFF",
+[196811] = {
+["school"] = 2,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Divine Image",
+},
+[428161] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Speaker Brokk",
+},
+[372608] = {
+["school"] = 1,
+["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Bael'Gar",
-},
-[974] = {
-["school"] = 8,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Floofydancer-MoonGuard",
-},
-[72968] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Nightínday",
+["source"] = "Exzeàon",
 },
 [221883] = {
 ["school"] = 2,
@@ -4411,21 +3237,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Dragunöv-Illidan",
 },
-[457925] = {
+[463674] = {
+["school"] = 12,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Lord Roccor",
+},
+[231390] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Slightlyused",
-},
-[432119] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Ki'katal the Harvester",
+["source"] = "Ogarna",
 },
 [428819] = {
 ["school"] = 4,
@@ -4435,38 +3261,39 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 },
-[192106] = {
+[442210] = {
 ["school"] = 8,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Johnsby",
+["source"] = "Bloodstained Webmage",
 },
-[433674] = {
+[430097] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Speaker Brokk",
+},
+[396092] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Exzeàon",
+["source"] = "Nevervate",
 },
-[427007] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Anub'ikkaj",
-},
-[434441] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[428820] = {
+["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Rasha'nan",
+["source"] = "Vent Stalker",
 },
 [423327] = {
 ["school"] = 32,
@@ -4477,20 +3304,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
-[395836] = {
+[390898] = {
 ["school"] = 8,
-["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Anvilrage Warden",
-},
-[311464] = {
-["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Boomboomroom",
+["source"] = "Rotcoil-Mal'Ganis",
+},
+[427002] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Anub'ikkaj",
 },
 [423200] = {
 ["school"] = 1,
@@ -4500,21 +3327,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skarmorak",
 },
-[426736] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Speaker Shadowcrown",
-},
-[462949] = {
+[427001] = {
 ["school"] = 1,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Bael'Gar",
+["source"] = "Anub'ikkaj",
+},
+[449609] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Dahfu",
 },
 [32223] = {
 ["school"] = 2,
@@ -4524,13 +3351,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Censered",
 },
-[426734] = {
-["school"] = 32,
+[431971] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Speaker Shadowcrown",
+["source"] = "Thuja",
 },
 [457566] = {
 ["school"] = 1,
@@ -4540,13 +3367,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Arepunk-Ragnaros",
 },
-[452146] = {
+[463730] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Bbyvash",
+["source"] = "Walmarthas",
 },
 [461910] = {
 ["school"] = 32,
@@ -4565,37 +3392,37 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[176151] = {
+[433550] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Beåchbum-Illidan",
+["source"] = "Andròs",
 },
-[388367] = {
+[438494] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Exzeàon",
+["source"] = "Avanoxx",
 },
-[381684] = {
+[129914] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Sahuura-Illidan",
+["source"] = "Annyka-Aegwynn",
 },
-[35346] = {
-["school"] = 64,
-["type"] = "DEBUFF",
+[433766] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Warp Stalker",
+["source"] = "Anub'zekt",
 },
 [221886] = {
 ["school"] = 2,
@@ -4605,13 +3432,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Andròs",
 },
-[439841] = {
-["school"] = 6,
+[336135] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Hillmàn",
+["source"] = "Bustybeams-Tichondrius",
 },
 [393438] = {
 ["school"] = 1,
@@ -4621,20 +3448,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Alkeres",
 },
-[388539] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[382024] = {
+["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_HEAL"] = true,
 },
-["source"] = "Karlochh-Bonechewer",
+["source"] = "Arepunk-Ragnaros",
 },
-[227034] = {
-["school"] = 8,
+[424903] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_HEAL"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Lovdruid",
+["source"] = "E.D.N.A",
 },
 [447988] = {
 ["school"] = 1,
@@ -4661,20 +3490,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[423228] = {
-["school"] = 1,
+[219788] = {
+["school"] = 32,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Skarmorak",
+["source"] = "Walmarthas",
 },
-[461593] = {
-["school"] = 1,
+[462320] = {
+["school"] = 12,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Censered",
+["source"] = "Lord Roccor",
 },
 [464980] = {
 ["school"] = 32,
@@ -4690,45 +3520,46 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[432021] = {
+[434576] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Rasha'nan",
+},
+[461860] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Nightínday",
+["source"] = "Valdranne",
 },
-[272790] = {
+[420418] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Azurewind-Illidan",
+["source"] = "Zügstones",
 },
-[377656] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Walmarthas",
-},
-[43308] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Exzeàon",
-},
-[381750] = {
+[381756] = {
 ["school"] = 64,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "Kaottix-Illidan",
+},
+[108211] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Valdranne",
 },
 [115192] = {
 ["school"] = 1,
@@ -4746,13 +3577,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Catthia",
 },
-[403296] = {
-["school"] = 64,
-["type"] = "BUFF",
+[456109] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Seraxion-Illidan",
+["source"] = "Sha of Anger",
 },
 [417715] = {
 ["school"] = 1,
@@ -4770,26 +3601,26 @@ EncounterDetailsDB = {
 },
 ["source"] = "Exzeàon",
 },
-[131347] = {
+[433622] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Bustybeams-Tichondrius",
+["source"] = "Brann Bronzebeard",
 },
-[456820] = {
+[451233] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
+["source"] = "Tutankamonk",
 },
-[434579] = {
+[448887] = {
 ["school"] = 8,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Rasha'nan",
 },
@@ -4801,13 +3632,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Thuja",
 },
-[408067] = {
-["school"] = 1,
-["type"] = "BUFF",
+[452127] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Bänth",
+["source"] = "Anub'ikkaj",
 },
 [426787] = {
 ["school"] = 32,
@@ -4819,24 +3652,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Anub'ikkaj",
 },
-[448888] = {
-["school"] = 8,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Rasha'nan",
-},
-[201671] = {
+[455020] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Kidxxkronik-Mal'Ganis",
+["source"] = "Annyka-Aegwynn",
+},
+[182104] = {
+["school"] = 2,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Korivàsh",
 },
 [162997] = {
 ["school"] = 1,
@@ -4854,12 +3684,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ogarna",
 },
-[428120] = {
-["school"] = 4,
+[463891] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Speaker Dorlita",
+["source"] = "Bael'Gar",
 },
 [386164] = {
 ["school"] = 1,
@@ -4869,47 +3699,45 @@ EncounterDetailsDB = {
 },
 ["source"] = "Cuthu-Illidan",
 },
-[34702] = {
+[424795] = {
 ["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Time Watcher",
-},
-[98021] = {
-["school"] = 8,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-["SPELL_HEAL"] = true,
-},
-["source"] = "Spirit Link Totem",
-},
-[424889] = {
-["school"] = 8,
 ["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "E.D.N.A",
-},
-[424879] = {
-["school"] = 8,
-["token"] = {
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "E.D.N.A",
 },
-[462182] = {
+[235313] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Agano-Illidan",
+},
+[388598] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Rovfågel-Illidan",
+},
+[449167] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Speaker Dorlita",
+},
+[428212] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Speaker Brokk",
 },
 [5487] = {
 ["school"] = 1,
@@ -4920,28 +3748,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lovdruid",
 },
-[290121] = {
+[5761] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Voltier-Aegwynn",
+["source"] = "Valdranne",
 },
-[190784] = {
-["school"] = 2,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Andròs",
-},
-[435012] = {
+[450552] = {
 ["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Annyka-Aegwynn",
+},
+[427461] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
 },
-["source"] = "Anub'zekt",
 },
 [449275] = {
 ["school"] = 1,
@@ -4951,28 +3779,29 @@ EncounterDetailsDB = {
 },
 ["source"] = "Azurewind-Illidan",
 },
-[429999] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Vent Stalker",
-},
-[255937] = {
-["school"] = 6,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Hillmàn",
-},
-[8220] = {
+[462183] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Kaottix-Illidan",
+["source"] = "Hematoma-Illidan",
+},
+[68054] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Jeeves",
+},
+[427854] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Void Speaker Eirich",
 },
 [463073] = {
 ["school"] = 6,
@@ -4982,13 +3811,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hillmàn",
 },
-[459759] = {
+[428737] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Azurewind-Illidan",
+["source"] = "Treant",
 },
 [883] = {
 ["school"] = 1,
@@ -5005,20 +3834,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Cuthu-Illidan",
 },
-[463074] = {
-["school"] = 6,
+[426793] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_HEAL"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Hillmàn",
+["source"] = "Anub'ikkaj",
 },
-[462180] = {
-["school"] = 1,
-["type"] = "BUFF",
+[432031] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Gluttone-Illidan",
+["source"] = "Black Blood",
 },
 [459753] = {
 ["school"] = 1,
@@ -5029,13 +3860,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Fenryr",
 },
-[439577] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[458357] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Speaker Dorlita",
+["source"] = "Surging Totem",
 },
 [435992] = {
 ["school"] = 1,
@@ -5045,29 +3875,30 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ororeo",
 },
-[462181] = {
+[438675] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Taktokx",
+["source"] = "Engorged Crawler",
 },
-[455441] = {
+[427315] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Sylasande-WyrmrestAccord",
+["source"] = "Void Rift",
 },
-[281036] = {
-["school"] = 8,
-["type"] = "BUFF",
+[457465] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Azurewind-Illidan",
+["source"] = "Void Speaker Eirich",
 },
 },
 ["emotes"] = {

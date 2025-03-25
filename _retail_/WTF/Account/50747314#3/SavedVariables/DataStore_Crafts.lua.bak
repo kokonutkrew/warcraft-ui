@@ -138,7 +138,7 @@ DataStore_Crafts_Characters = {
 {
 ["Professions"] = {
 },
-["lastUpdate"] = 1724095447,
+["lastUpdate"] = 1742273096,
 ["Indices"] = {
 },
 ["Ranks"] = {
@@ -547,12 +547,12 @@ DataStore_Crafts_Characters = {
 55728928,
 55729056,
 55729184,
-55728556,
 55728684,
+55728556,
 },
 [1993] = {
-55721248,
 55721120,
+55721248,
 55720992,
 55729568,
 55729440,
@@ -564,15 +564,15 @@ DataStore_Crafts_Characters = {
 55728416,
 55727788,
 55727532,
-55728032,
-55728288,
+55728044,
+55728300,
 },
 [1995] = {
-55721888,
-55721634,
+55721900,
+55721646,
 55721390,
-55721519,
 55721775,
+55721519,
 },
 [1996] = {
 55723296,
@@ -660,7 +660,7 @@ DataStore_Crafts_Characters = {
 },
 },
 ["CategoryInfo"] = {
-2007076896,
+2007076898,
 390377473,
 },
 },
@@ -894,7 +894,7 @@ DataStore_Crafts_Characters = {
 ["CurrentLevelName"] = "Khaz Algar Fishing",
 },
 },
-["lastUpdate"] = 1726984212,
+["lastUpdate"] = 1727019528,
 ["Indices"] = {
 ["Jewelcrafting"] = 2,
 ["Mining"] = 1,
@@ -903,7 +903,7 @@ DataStore_Crafts_Characters = {
 },
 ["Ranks"] = {
 26214476,
-26214433,
+26214435,
 26214417,
 },
 },
@@ -1074,8 +1074,8 @@ DataStore_Crafts_RecipeCategories = {
 [1918] = "Khaz Algar Mining",
 [2074] = "A Full Belly",
 [2124] = "Secret Recipes",
-[1998] = "Optional Embellishments",
 [2075] = "Nutritious and Delicious",
+[1998] = "Optional Embellishments",
 [2071] = "Hearty Meals",
 [2072] = "Snacks",
 [180] = "Trinkets",

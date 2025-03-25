@@ -5,19 +5,6 @@ CraftScan_DB = {
 ["show_chat_orders_tab"] = true,
 ["customer_timeout"] = 10,
 ["alert_icon_scale"] = 100,
-["inclusions"] = "LF, LFC, WTB, recraft",
-["greeting"] = {
-["GREETING_ALT_SUFFIX"] = "",
-["GREETING_ALT_CAN_CRAFT_ITEM"] = "I can craft {item} at R5 for 5k commission--send to {crafter}",
-["GREETING_ALT_HAS_PROF"] = "I can craft--send {profession} orders to {crafter}",
-["GREETING_BUSY"] = "I am busy now, but can craft that later if you send it.",
-["GREETING_I_HAVE_PROF"] = "I have {profession}.",
-["GREETING_I_CAN_CRAFT_ITEM"] = "I can craft {item} at R5 for 5k commission--send to {crafter}",
-},
-["banner_direction"] = 1,
-["discoverable"] = true,
-["exclusions"] = "LFW, WTS, LF work",
-["show_button_height"] = 0,
 ["disabled_addon_whitelist"] = {
 "AllTheThings",
 "CraftSim",
@@ -27,9 +14,22 @@ CraftScan_DB = {
 "Auctionator",
 "BuyEmAll",
 },
+["greeting"] = {
+["GREETING_ALT_SUFFIX"] = "",
+["GREETING_ALT_CAN_CRAFT_ITEM"] = "I can craft {item} at R5 for 7k commission--send to {crafter}",
+["GREETING_ALT_HAS_PROF"] = "I can craft--send {profession} orders to {crafter}. R5 crafts for 7k commission.",
+["GREETING_I_CAN_CRAFT_ITEM"] = "I can craft {item} at R5 for 7k commission--send to {crafter}",
+["GREETING_I_HAVE_PROF"] = "I have {profession}. R5 crafts for 7k commission.",
+["GREETING_BUSY"] = "I am busy now, but can craft that later if you send it.",
+},
+["banner_direction"] = 1,
+["discoverable"] = true,
+["exclusions"] = "LFW, WTS, LF work",
+["show_button_height"] = 0,
+["inclusions"] = "LF, LFC, WTB, recraft",
 ["ping_sound"] = "Interface\\Addons\\WeakAuras\\Media\\Sounds\\Glass.mp3",
-["collapse_chat_context"] = false,
 ["last_loaded_version"] = "v1.3.2",
+["collapse_chat_context"] = false,
 ["permissive_matching"] = true,
 ["explanations"] = {
 },
@@ -101,9 +101,19 @@ CraftScan_DB = {
 ["recipes"] = {
 },
 },
+[2874] = {
+["parentProfID"] = 333,
+["recipes"] = {
+},
+},
 },
 ["parent_professions"] = {
 [197] = {
+["sound_alert_enabled"] = false,
+["visual_alert_enabled"] = true,
+["scanning_enabled"] = true,
+},
+[333] = {
 ["sound_alert_enabled"] = false,
 ["visual_alert_enabled"] = true,
 ["scanning_enabled"] = true,
@@ -123,49 +133,49 @@ CraftScan_DB = {
 },
 [447332] = {
 },
-[447366] = {
+[447364] = {
 },
 [438922] = {
 },
-[447378] = {
+[425139] = {
 },
-[438925] = {
+[447367] = {
 },
-[447369] = {
+[438926] = {
 },
 [447365] = {
 },
-[447370] = {
+[438928] = {
 },
 [447334] = {
 },
 [447350] = {
 },
-[438924] = {
+[447366] = {
 },
-[447314] = {
+[447377] = {
 },
 [447335] = {
 },
 [447351] = {
 },
-[447367] = {
+[438925] = {
 },
-[438929] = {
+[447371] = {
 },
 [447336] = {
 },
-[447312] = {
+[447310] = {
 },
 [447368] = {
 },
-[459299] = {
+[447329] = {
 },
 [447337] = {
 },
 [447353] = {
 },
-[438927] = {
+[447369] = {
 },
 [447322] = {
 },
@@ -173,7 +183,7 @@ CraftScan_DB = {
 },
 [447354] = {
 },
-[438928] = {
+[447370] = {
 },
 [447323] = {
 },
@@ -181,7 +191,7 @@ CraftScan_DB = {
 },
 [447355] = {
 },
-[447371] = {
+[438929] = {
 },
 [447324] = {
 },
@@ -211,9 +221,9 @@ CraftScan_DB = {
 },
 [447343] = {
 },
-[447376] = {
+[447313] = {
 },
-[447375] = {
+[447312] = {
 },
 [447328] = {
 },
@@ -221,25 +231,25 @@ CraftScan_DB = {
 },
 [447360] = {
 },
-[447313] = {
+[447376] = {
 },
-[447329] = {
+[459299] = {
 },
-[447310] = {
+[447375] = {
 },
 [447361] = {
 },
-[447377] = {
+[447314] = {
 },
 [447330] = {
 },
-[438926] = {
+[438927] = {
 },
 [447362] = {
 },
-[425139] = {
+[447378] = {
 },
-[447364] = {
+[438924] = {
 },
 },
 ["all_enabled"] = true,
@@ -255,7 +265,7 @@ CraftScan_DB = {
 },
 [444103] = {
 },
-[425142] = {
+[444118] = {
 },
 [443710] = {
 },
@@ -265,15 +275,15 @@ CraftScan_DB = {
 },
 [443695] = {
 },
-[441062] = {
+[443708] = {
 },
-[444105] = {
+[425142] = {
 },
 [444121] = {
 },
 [443696] = {
 },
-[443708] = {
+[444086] = {
 },
 [441460] = {
 },
@@ -281,35 +291,35 @@ CraftScan_DB = {
 },
 [443697] = {
 },
+[444075] = {
+},
 [444107] = {
-},
-[441461] = {
-},
-[443698] = {
 },
 [444076] = {
 },
-[438911] = {
+[443698] = {
+},
+[443951] = {
 },
 [444108] = {
 },
-[441061] = {
+[443707] = {
 },
-[443699] = {
+[438911] = {
 },
 [443960] = {
 },
 [443709] = {
 },
+[438910] = {
+},
 [443700] = {
 },
-[444078] = {
-},
-[443706] = {
+[443958] = {
 },
 [444110] = {
 },
-[444068] = {
+[438902] = {
 },
 [444079] = {
 },
@@ -321,7 +331,7 @@ CraftScan_DB = {
 },
 [443702] = {
 },
-[444077] = {
+[443950] = {
 },
 [444112] = {
 },
@@ -333,7 +343,7 @@ CraftScan_DB = {
 },
 [444113] = {
 },
-[443703] = {
+[441058] = {
 },
 [443704] = {
 },
@@ -341,37 +351,37 @@ CraftScan_DB = {
 },
 [444114] = {
 },
-[441058] = {
+[443703] = {
 },
 [443705] = {
 },
-[443950] = {
+[444077] = {
 },
 [444115] = {
 },
-[438902] = {
+[444068] = {
 },
-[443958] = {
+[443706] = {
 },
-[438910] = {
+[444078] = {
 },
 [444116] = {
 },
 [438903] = {
 },
-[443707] = {
+[441061] = {
 },
-[443951] = {
+[443699] = {
 },
 [444117] = {
 },
-[444075] = {
+[441461] = {
 },
-[444086] = {
+[441062] = {
 },
 [444102] = {
 },
-[444118] = {
+[444105] = {
 },
 },
 ["all_enabled"] = true,
@@ -383,24 +393,55 @@ CraftScan_DB = {
 ["scanning_enabled_last"] = true,
 ["scanning_enabled"] = true,
 ["sound_alert_enabled"] = true,
+["visual_alert_enabled"] = true,
 ["primary_crafter"] = true,
 ["primary_expansion"] = 2880,
-["visual_alert_enabled"] = true,
 },
 [333] = {
 ["sound_alert_enabled"] = false,
-["character_disabled"] = true,
-["visual_alert_enabled"] = true,
 ["scanning_enabled"] = true,
+["visual_alert_enabled"] = true,
+["character_disabled"] = true,
 },
 [202] = {
 ["sound_alert_enabled_last"] = true,
 ["scanning_enabled_last"] = true,
 ["scanning_enabled"] = true,
 ["sound_alert_enabled"] = true,
+["visual_alert_enabled"] = true,
 ["primary_crafter"] = true,
 ["primary_expansion"] = 2875,
+},
+},
+},
+["Samoansurge-Area52"] = {
+["professions"] = {
+[2872] = {
+["parentProfID"] = 164,
+["recipes"] = {
+},
+},
+[2874] = {
+["parentProfID"] = 333,
+["recipes"] = {
+},
+},
+[2822] = {
+["parentProfID"] = 164,
+["recipes"] = {
+},
+},
+},
+["parent_professions"] = {
+[164] = {
+["sound_alert_enabled"] = false,
 ["visual_alert_enabled"] = true,
+["scanning_enabled"] = true,
+},
+[333] = {
+["sound_alert_enabled"] = false,
+["visual_alert_enabled"] = true,
+["scanning_enabled"] = true,
 },
 },
 },
@@ -410,9 +451,9 @@ CraftScan_DB = {
 ["parent_professions"] = {
 [333] = {
 ["sound_alert_enabled"] = false,
-["scanning_enabled"] = true,
-["visual_alert_enabled"] = true,
 ["character_disabled"] = true,
+["visual_alert_enabled"] = true,
+["scanning_enabled"] = true,
 },
 },
 },
@@ -632,15 +673,15 @@ CraftScan_DB = {
 },
 [446932] = {
 },
-[446995] = {
+[438895] = {
 },
 [446964] = {
 },
-[446963] = {
+[438891] = {
 },
 [446996] = {
 },
-[456706] = {
+[438896] = {
 },
 [446965] = {
 },
@@ -648,7 +689,7 @@ CraftScan_DB = {
 },
 [446997] = {
 },
-[446989] = {
+[438892] = {
 },
 [446966] = {
 },
@@ -664,15 +705,15 @@ CraftScan_DB = {
 },
 [446999] = {
 },
-[438892] = {
+[446989] = {
 },
 [446968] = {
 },
-[438896] = {
+[456706] = {
 },
-[438891] = {
+[446963] = {
 },
-[438895] = {
+[446995] = {
 },
 },
 ["all_enabled"] = true,
@@ -684,18 +725,18 @@ CraftScan_DB = {
 ["scanning_enabled_last"] = true,
 ["scanning_enabled"] = true,
 ["sound_alert_enabled"] = true,
+["primary_expansion"] = 2883,
 ["primary_crafter"] = true,
 ["visual_alert_enabled"] = true,
-["primary_expansion"] = 2883,
 },
 [333] = {
 ["sound_alert_enabled_last"] = true,
 ["scanning_enabled_last"] = true,
 ["scanning_enabled"] = true,
 ["sound_alert_enabled"] = true,
+["primary_expansion"] = 2874,
 ["primary_crafter"] = true,
 ["visual_alert_enabled"] = true,
-["primary_expansion"] = 2874,
 },
 },
 },
@@ -705,9 +746,249 @@ CraftScan_DB = {
 ["parent_professions"] = {
 [197] = {
 ["sound_alert_enabled"] = false,
-["character_disabled"] = true,
-["visual_alert_enabled"] = true,
 ["scanning_enabled"] = true,
+["visual_alert_enabled"] = true,
+["character_disabled"] = true,
+},
+},
+},
+["Forgecraft-Area52"] = {
+["professions"] = {
+[2872] = {
+["parentProfID"] = 164,
+["recipes"] = {
+[450229] = {
+},
+[450261] = {
+},
+[450277] = {
+},
+[450230] = {
+},
+[450246] = {
+},
+[453727] = {
+},
+[455003] = {
+},
+[450231] = {
+},
+[450263] = {
+},
+[450216] = {
+},
+[450232] = {
+},
+[450264] = {
+},
+[450217] = {
+},
+[450265] = {
+},
+[450218] = {
+},
+[450234] = {
+},
+[450266] = {
+},
+[450219] = {
+},
+[450235] = {
+},
+[450251] = {
+},
+[450267] = {
+},
+[450283] = {
+},
+[450252] = {
+},
+[450268] = {
+},
+[450284] = {
+},
+[450237] = {
+},
+[450253] = {
+},
+[450269] = {
+},
+[450262] = {
+},
+[450238] = {
+},
+[450254] = {
+},
+[450270] = {
+},
+[450282] = {
+},
+[450260] = {
+},
+[438915] = {
+},
+[450271] = {
+},
+[450287] = {
+},
+[450257] = {
+},
+[450256] = {
+},
+[454997] = {
+},
+[450288] = {
+},
+[425136] = {
+},
+[438917] = {
+},
+[450273] = {
+},
+[450289] = {
+},
+[450258] = {
+},
+[438918] = {
+},
+[450274] = {
+},
+[450259] = {
+},
+[438914] = {
+},
+[438919] = {
+},
+[438916] = {
+},
+[450291] = {
+},
+[450272] = {
+},
+[438920] = {
+},
+[450255] = {
+},
+[438921] = {
+},
+},
+["all_enabled"] = true,
+},
+[2879] = {
+["parentProfID"] = 755,
+["recipes"] = {
+[434542] = {
+},
+[435377] = {
+},
+[435330] = {
+},
+[435331] = {
+},
+[435379] = {
+},
+[435332] = {
+},
+[435380] = {
+},
+[435333] = {
+},
+[435318] = {
+},
+[434547] = {
+},
+[435319] = {
+},
+[435383] = {
+},
+[434549] = {
+},
+[435384] = {
+},
+[435337] = {
+},
+[434550] = {
+},
+[435385] = {
+},
+[435323] = {
+},
+[434552] = {
+},
+[435324] = {
+},
+[435230] = {
+},
+[434537] = {
+},
+[435372] = {
+},
+[435325] = {
+},
+[434018] = {
+},
+[434538] = {
+},
+[434554] = {
+},
+[435326] = {
+},
+[434019] = {
+},
+[434539] = {
+},
+[435374] = {
+},
+[435327] = {
+},
+[434020] = {
+},
+[434540] = {
+},
+[435375] = {
+},
+[434563] = {
+},
+[435386] = {
+},
+[435322] = {
+},
+[435387] = {
+},
+[435329] = {
+},
+[435373] = {
+},
+[435371] = {
+},
+},
+["all_enabled"] = true,
+},
+},
+["parent_professions"] = {
+[755] = {
+["sound_alert_enabled_last"] = true,
+["scanning_enabled_last"] = true,
+["scanning_enabled"] = true,
+["sound_alert_enabled"] = true,
+["primary_crafter"] = true,
+["primary_expansion"] = 2879,
+["visual_alert_enabled"] = true,
+},
+[164] = {
+["sound_alert_enabled_last"] = true,
+["scanning_enabled_last"] = true,
+["scanning_enabled"] = true,
+["sound_alert_enabled"] = true,
+["primary_crafter"] = true,
+["primary_expansion"] = 2872,
+["visual_alert_enabled"] = true,
+},
+[333] = {
+["sound_alert_enabled"] = false,
+["scanning_enabled"] = true,
+["visual_alert_enabled"] = true,
+["character_disabled"] = true,
 },
 },
 },
@@ -776,13 +1057,13 @@ CraftScan_DB = {
 },
 [430603] = {
 },
-[427214] = {
+[430315] = {
 },
 [430604] = {
 },
 [430597] = {
 },
-[430315] = {
+[427214] = {
 },
 },
 ["all_enabled"] = true,
@@ -862,23 +1143,23 @@ CraftScan_DB = {
 },
 [444210] = {
 },
-[444336] = {
+[471132] = {
+},
+[447868] = {
 },
 [444211] = {
 },
-[444337] = {
-},
-[444338] = {
+[444212] = {
 },
 [472951] = {
 },
 [444196] = {
 },
-[444212] = {
+[444338] = {
 },
-[447868] = {
+[444337] = {
 },
-[471132] = {
+[444336] = {
 },
 },
 ["all_enabled"] = true,
@@ -886,35 +1167,23 @@ CraftScan_DB = {
 },
 ["parent_professions"] = {
 [171] = {
-["sound_alert_enabled"] = true,
+["primary_crafter"] = true,
 ["sound_alert_enabled_last"] = true,
 ["scanning_enabled_last"] = true,
 ["scanning_enabled"] = true,
-["exclusions"] = "",
-["primary_expansion"] = 2871,
+["sound_alert_enabled"] = true,
 ["visual_alert_enabled"] = true,
-["primary_crafter"] = true,
+["primary_expansion"] = 2871,
+["exclusions"] = "",
 },
 [773] = {
 ["sound_alert_enabled_last"] = true,
 ["scanning_enabled_last"] = true,
 ["scanning_enabled"] = true,
 ["sound_alert_enabled"] = true,
+["primary_crafter"] = true,
 ["visual_alert_enabled"] = true,
 ["primary_expansion"] = 2878,
-["primary_crafter"] = true,
-},
-},
-},
-["Samoanghost-Area52"] = {
-["professions"] = {
-},
-["parent_professions"] = {
-[333] = {
-["sound_alert_enabled"] = false,
-["scanning_enabled"] = true,
-["visual_alert_enabled"] = true,
-["character_disabled"] = true,
 },
 },
 },
@@ -929,9 +1198,9 @@ CraftScan_DB = {
 ["parent_professions"] = {
 [333] = {
 ["sound_alert_enabled"] = false,
-["character_disabled"] = true,
-["visual_alert_enabled"] = true,
 ["scanning_enabled"] = true,
+["visual_alert_enabled"] = true,
+["character_disabled"] = true,
 },
 [164] = {
 ["sound_alert_enabled"] = false,
@@ -940,238 +1209,10 @@ CraftScan_DB = {
 },
 },
 },
-["Forgecraft-Area52"] = {
+["Samoanghost-Area52"] = {
 ["professions"] = {
-[2872] = {
-["parentProfID"] = 164,
-["recipes"] = {
-[450229] = {
-},
-[450261] = {
-},
-[450277] = {
-},
-[450230] = {
-},
-[450246] = {
-},
-[453727] = {
-},
-[455003] = {
-},
-[450231] = {
-},
-[450263] = {
-},
-[450216] = {
-},
-[450232] = {
-},
-[450264] = {
-},
-[450217] = {
-},
-[450265] = {
-},
-[450218] = {
-},
-[450234] = {
-},
-[450266] = {
-},
-[450219] = {
-},
-[450235] = {
-},
-[450251] = {
-},
-[450267] = {
-},
-[450283] = {
-},
-[450252] = {
-},
-[450268] = {
-},
-[450284] = {
-},
-[450237] = {
-},
-[450253] = {
-},
-[450269] = {
-},
-[438921] = {
-},
-[450238] = {
-},
-[450254] = {
-},
-[450270] = {
-},
-[438915] = {
-},
-[438920] = {
-},
-[450255] = {
-},
-[450271] = {
-},
-[450287] = {
-},
-[454997] = {
-},
-[450256] = {
-},
-[450272] = {
-},
-[450288] = {
-},
-[450273] = {
-},
-[438917] = {
-},
-[425136] = {
-},
-[450289] = {
-},
-[438916] = {
-},
-[438918] = {
-},
-[450274] = {
-},
-[438919] = {
-},
-[438914] = {
-},
-[450259] = {
-},
-[450258] = {
-},
-[450291] = {
-},
-[450257] = {
-},
-[450260] = {
-},
-[450282] = {
-},
-[450262] = {
-},
-},
-["all_enabled"] = true,
-},
-[2879] = {
-["parentProfID"] = 755,
-["recipes"] = {
-[434542] = {
-},
-[435377] = {
-},
-[435330] = {
-},
-[435331] = {
-},
-[435379] = {
-},
-[435332] = {
-},
-[435380] = {
-},
-[435333] = {
-},
-[435318] = {
-},
-[434547] = {
-},
-[435319] = {
-},
-[435383] = {
-},
-[434549] = {
-},
-[435384] = {
-},
-[435337] = {
-},
-[434550] = {
-},
-[435385] = {
-},
-[435323] = {
-},
-[434552] = {
-},
-[435324] = {
-},
-[435371] = {
-},
-[434537] = {
-},
-[435372] = {
-},
-[435325] = {
-},
-[434018] = {
-},
-[434538] = {
-},
-[434554] = {
-},
-[435326] = {
-},
-[434019] = {
-},
-[434539] = {
-},
-[435374] = {
-},
-[435327] = {
-},
-[434020] = {
-},
-[434540] = {
-},
-[435375] = {
-},
-[435373] = {
-},
-[435386] = {
-},
-[435387] = {
-},
-[435322] = {
-},
-[435329] = {
-},
-[434563] = {
-},
-[435230] = {
-},
-},
-["all_enabled"] = true,
-},
 },
 ["parent_professions"] = {
-[755] = {
-["sound_alert_enabled_last"] = true,
-["scanning_enabled_last"] = true,
-["scanning_enabled"] = true,
-["sound_alert_enabled"] = true,
-["primary_expansion"] = 2879,
-["visual_alert_enabled"] = true,
-["primary_crafter"] = true,
-},
-[164] = {
-["sound_alert_enabled_last"] = true,
-["scanning_enabled_last"] = true,
-["scanning_enabled"] = true,
-["sound_alert_enabled"] = true,
-["primary_expansion"] = 2872,
-["visual_alert_enabled"] = true,
-["primary_crafter"] = true,
-},
 [333] = {
 ["sound_alert_enabled"] = false,
 ["character_disabled"] = true,
@@ -1180,179 +1221,216 @@ CraftScan_DB = {
 },
 },
 },
+["Samoanseraph-Area52"] = {
+["professions"] = {
+[2883] = {
+["parentProfID"] = 197,
+["recipes"] = {
+},
+},
+[2874] = {
+["parentProfID"] = 333,
+["recipes"] = {
+},
+},
+},
+["parent_professions"] = {
+[197] = {
+["sound_alert_enabled"] = false,
+["visual_alert_enabled"] = true,
+["scanning_enabled"] = true,
+},
+[333] = {
+["sound_alert_enabled"] = false,
+["visual_alert_enabled"] = true,
+["scanning_enabled"] = true,
+},
+},
+},
 },
 ["listed_orders"] = {
-["Stinkules-Area52-447327"] = {
-["customerName"] = "Stinkules-Area52",
-["responseID"] = 447327,
+["Halimo-Area52-435385"] = {
+["customerName"] = "Halimo-Area52",
+["responseID"] = 435385,
 },
-["Kîngsham-Area52-446958"] = {
-["customerName"] = "Kîngsham-Area52",
-["responseID"] = 446958,
+["Zaclesx-Area52-446940"] = {
+["customerName"] = "Zaclesx-Area52",
+["responseID"] = 446940,
 },
-["Dripy-Area52-435384"] = {
-["customerName"] = "Dripy-Area52",
-["responseID"] = 435384,
-},
-["Blankw-Area52-450260"] = {
-["customerName"] = "Blankw-Area52",
-["responseID"] = 450260,
+["Outro-Area52-441058"] = {
+["customerName"] = "Outro-Area52",
+["responseID"] = 441058,
 },
 },
 ["analytics"] = {
 },
 ["customers"] = {
-["Kîngsham-Area52"] = {
+["Zaclesx-Area52"] = {
 ["chat_history"] = {
 {
-["message"] = "|cff979797|Hpratcopy|h[23:48:12]|h|r |cff40ff40|Hpratfilter:2942:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:2942:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kîngsham-Area52:2942:CHANNEL:2|h|A:classicon-SHAMAN:12:12:0:-2|a|cff0070ddKîngsham|r|h|cffd8d8d8]|r: LF CRAFT |T5465213:12:12:0:-2:64:64:0:64:0:64|t|cff0070dd|Hitem:222835::::::::80:264:::::::::|h[Pioneer's Perfected Cloak (Cloth Back)]|h|r",
+["message"] = "|cff979797|Hpratcopy|h[16:46:38]|h|r |cff40ff40|Hpratfilter:4030:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:4030:1|h[++]|h|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Zaclesx-Area52:4030:CHANNEL:7|h|A:classicon-WARRIOR:12:12:0:-2|a|cffc69b6dZaclesx|r|h|cffd8d8d8]|r: LF CRAFT |T5660121:12:12:0:-2:64:64:0:64:0:64|t|cffa335ee|Hitem:222817::::::::80:71:::::::::|h[Consecrated Cloak (Cloth Back 577)]|h|r",
 ["args"] = {
 1,
 0.7529412508010864,
 0.7529412508010864,
-70,
-48,
-104,
+75,
+3,
+285,
+["n"] = 6,
+},
+},
+{
+["message"] = "|cff979797|Hpratcopy|h[16:46:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Zaclesx-Area52:4032:WHISPER:ZACLESX-AREA52|h|A:classicon-WARRIOR:12:12:0:-2|a|cffc69b6dZaclesx|r|h|cffd8d8d8]|r: I can craft |T5660121:12:12:0:-2:64:64:0:64:0:64|t|cffa335ee|Hitem:222817::::::::80:66:::::::::|h[Consecrated Cloak (Cloth Back 577)]|h|r at R5 for 7k commission--send to |cff3fc7ebThreadcraft|r",
+["args"] = {
+1,
+0.501960813999176,
+1,
+10,
+287,
+288,
 ["n"] = 6,
 },
 },
 },
 ["responses"] = {
 [0] = {
+["greeting_sent"] = true,
 ["parentProfID"] = 197,
 ["professionID"] = 2883,
-["recipeID"] = 446958,
+["recipeID"] = 446940,
 ["crafterName"] = "Threadcraft",
 ["message"] = {
-"I can craft |cff0070dd|Hitem:222835::::::::80:66:::::::::|h[Pioneer's Perfected Cloak]|h|r at R5 for 5k commission--send to Threadcraft ",
+"I can craft |cffa335ee|Hitem:222817::::::::80:66:::::::::|h[Consecrated Cloak]|h|r at R5 for 7k commission--send to Threadcraft ",
 },
-["itemID"] = 222835,
-["responseID"] = 446958,
+["itemID"] = 222817,
+["responseID"] = 446940,
 ["professionName"] = "Tailoring",
-["time"] = 1742269692,
+["time"] = 1742935598,
 ["less_granular"] = {
 0,
 2883,
 },
 },
 [2883] = {
+["greeting_sent"] = true,
 ["parentProfID"] = 197,
 ["professionID"] = 2883,
-["recipeID"] = 446958,
+["recipeID"] = 446940,
 ["crafterName"] = "Threadcraft",
 ["message"] = {
-"I can craft |cff0070dd|Hitem:222835::::::::80:66:::::::::|h[Pioneer's Perfected Cloak]|h|r at R5 for 5k commission--send to Threadcraft ",
+"I can craft |cffa335ee|Hitem:222817::::::::80:66:::::::::|h[Consecrated Cloak]|h|r at R5 for 7k commission--send to Threadcraft ",
 },
-["itemID"] = 222835,
-["responseID"] = 446958,
+["itemID"] = 222817,
+["responseID"] = 446940,
 ["professionName"] = "Tailoring",
-["time"] = 1742269692,
+["time"] = 1742935598,
 ["less_granular"] = {
 0,
 2883,
 },
 },
-[446958] = {
+[446940] = {
+["greeting_sent"] = true,
 ["parentProfID"] = 197,
 ["professionID"] = 2883,
-["recipeID"] = 446958,
+["recipeID"] = 446940,
 ["crafterName"] = "Threadcraft",
 ["message"] = {
-"I can craft |cff0070dd|Hitem:222835::::::::80:66:::::::::|h[Pioneer's Perfected Cloak]|h|r at R5 for 5k commission--send to Threadcraft ",
+"I can craft |cffa335ee|Hitem:222817::::::::80:66:::::::::|h[Consecrated Cloak]|h|r at R5 for 7k commission--send to Threadcraft ",
 },
-["itemID"] = 222835,
-["responseID"] = 446958,
+["itemID"] = 222817,
+["responseID"] = 446940,
 ["professionName"] = "Tailoring",
-["time"] = 1742269692,
+["time"] = 1742935598,
 ["less_granular"] = {
 0,
 2883,
 },
 },
 },
-["guid"] = "Player-3676-0E8AEFD3",
+["guid"] = "Player-3676-0EA935B1",
 },
-["Stinkules-Area52"] = {
+["Outro-Area52"] = {
 ["chat_history"] = {
 {
-["message"] = "|cff979797|Hpratcopy|h[23:44:38]|h|r |cff40ff40|Hpratfilter:2785:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:2785:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stinkules-Area52:2785:CHANNEL:2|h|A:classicon-WARRIOR:12:12:0:-2|a|cffc69b6dStinkules|r|h|cffd8d8d8]|r: wtb r5|T4611537:12:12:0:-2:64:64:0:64:0:64|t|cff0070dd|Hitem:221791::::::::80:73:::::::::|h[Aqirite Fisherfriend (Fishing Profession Tool 535)]|h|r craft",
+["message"] = "|cff979797|Hpratcopy|h[16:53:35]|h|r |cff40ff40|Hpratfilter:4182:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:4182:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Outro-Area52:4182:CHANNEL:2|h|A:classicon-DRUID:12:12:0:-2|a|cffff7c0aOutro|r|h|cffd8d8d8]|r: LF Recraft |T5648238:12:12:0:-2:64:64:0:64:0:64|t|cffa335ee|Hitem:219334:7391:213494::::::80:102::13:10:10421:9633:8902:9627:11144:11109:8960:8793:10222:11307:10:28:2734:29:49:30:40:38:8:40:1436:46:224073:47:219506:48:222584:49:211296:52:226677::::Player-3676-0B3D1499:|h[Rune-Branded Armbands |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a (Leather Wrist)]|h|r",
 ["args"] = {
 1,
 0.7529412508010864,
 0.7529412508010864,
 70,
-48,
-101,
+6,
+295,
 ["n"] = 6,
 },
 },
 },
 ["responses"] = {
 [0] = {
-["parentProfID"] = 202,
-["professionID"] = 2875,
-["recipeID"] = 447327,
+["parentProfID"] = 165,
+["professionID"] = 2880,
+["recipeID"] = 441058,
 ["crafterName"] = "Crankcraft",
 ["message"] = {
-"I can craft |cff0070dd|Hitem:221791::::::::80:66:::::::::|h[Aqirite Fisherfriend]|h|r at R5 for 5k commission--send to Crankcraft ",
+"I can craft |cffa335ee|Hitem:219334::::::::80:66:::::::::|h[Rune-Branded Armbands]|h|r at R5 for 7k commission--send to Crankcraft ",
 },
-["itemID"] = 221791,
-["responseID"] = 447327,
-["professionName"] = "Engineering",
-["time"] = 1742269478,
+["itemID"] = 219334,
+["responseID"] = 441058,
+["professionName"] = "Leatherworking",
+["time"] = 1742936015,
 ["less_granular"] = {
 0,
-2875,
+2880,
 },
 },
-[447327] = {
-["parentProfID"] = 202,
-["professionID"] = 2875,
-["recipeID"] = 447327,
+[2880] = {
+["parentProfID"] = 165,
+["professionID"] = 2880,
+["recipeID"] = 441058,
 ["crafterName"] = "Crankcraft",
 ["message"] = {
-"I can craft |cff0070dd|Hitem:221791::::::::80:66:::::::::|h[Aqirite Fisherfriend]|h|r at R5 for 5k commission--send to Crankcraft ",
+"I can craft |cffa335ee|Hitem:219334::::::::80:66:::::::::|h[Rune-Branded Armbands]|h|r at R5 for 7k commission--send to Crankcraft ",
 },
-["itemID"] = 221791,
-["responseID"] = 447327,
-["professionName"] = "Engineering",
-["time"] = 1742269478,
+["itemID"] = 219334,
+["responseID"] = 441058,
+["professionName"] = "Leatherworking",
+["time"] = 1742936015,
 ["less_granular"] = {
 0,
-2875,
+2880,
 },
 },
-[2875] = {
-["parentProfID"] = 202,
-["professionID"] = 2875,
-["recipeID"] = 447327,
+[441058] = {
+["parentProfID"] = 165,
+["professionID"] = 2880,
+["recipeID"] = 441058,
 ["crafterName"] = "Crankcraft",
 ["message"] = {
-"I can craft |cff0070dd|Hitem:221791::::::::80:66:::::::::|h[Aqirite Fisherfriend]|h|r at R5 for 5k commission--send to Crankcraft ",
+"I can craft |cffa335ee|Hitem:219334::::::::80:66:::::::::|h[Rune-Branded Armbands]|h|r at R5 for 7k commission--send to Crankcraft ",
 },
-["itemID"] = 221791,
-["responseID"] = 447327,
-["professionName"] = "Engineering",
-["time"] = 1742269478,
+["itemID"] = 219334,
+["responseID"] = 441058,
+["professionName"] = "Leatherworking",
+["time"] = 1742936015,
 ["less_granular"] = {
 0,
-2875,
+2880,
 },
 },
 },
-["guid"] = "Player-3676-0DE9ADA3",
+["guid"] = "Player-3676-0E1E9F52",
 },
-["Dripy-Area52"] = {
+["Halimo-Area52"] = {
 ["chat_history"] = {
 {
-["message"] = "|cff979797|Hpratcopy|h[23:39:31]|h|r |cff40ff40|Hpratfilter:2503:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:2503:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dripy-Area52:2503:CHANNEL:2|h|A:classicon-DRUID:12:12:0:-2|a|cffff7c0aDripy|r|h|cffd8d8d8]|r: LF  |T6012024:12:12:0:-2:64:64:0:64:0:64|t|cffa335ee|Hitem:215135::::::::80:102::13:1:3524:6:40:1278:38:8:43:230906:44:213770:46:222584:47:230935:::::|h[Ring of Earthen Craftsmanship |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a (Miscellaneous Finger 675)]|h|r 675 recraft pst",
+["message"] = "|cff979797|Hpratcopy|h[16:54:16]|h|r |cff40ff40|Hpratfilter:4192:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:4192:1|h[++]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Halimo-Area52:4192:CHANNEL:2|h|A:classicon-PALADIN:12:12:0:-2|a|cfff48cbaHalimo|r|h|cffd8d8d8]|r: LF craft |T6012019:12:12:0:-2:64:64:0:64:0:64|t|cffa335ee|Hitem:215136::::::::80:70::13:1:3524:5:40:1279:38:8:43:230906:46:222587:47:230935:::::|h[Amulet of Earthen Craftsmanship |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a (Miscellaneous Neck 675)]|h|r 675",
 ["args"] = {
 1,
 0.7529412508010864,
 0.7529412508010864,
 70,
-48,
-93,
+6,
+299,
 ["n"] = 6,
 },
 },
@@ -1361,32 +1439,15 @@ CraftScan_DB = {
 [0] = {
 ["parentProfID"] = 755,
 ["professionID"] = 2879,
-["recipeID"] = 435384,
+["recipeID"] = 435385,
 ["crafterName"] = "Forgecraft",
 ["message"] = {
-"I can craft |cffa335ee|Hitem:215135::::::::80:66:::::::::|h[Ring of Earthen Craftsmanship]|h|r at R5 for 5k commission--send to Forgecraft ",
+"I can craft |cffa335ee|Hitem:215136::::::::80:66:::::::::|h[Amulet of Earthen Craftsmanship]|h|r at R5 for 7k commission--send to Forgecraft ",
 },
-["itemID"] = 215135,
-["responseID"] = 435384,
+["itemID"] = 215136,
+["responseID"] = 435385,
 ["professionName"] = "Jewelcrafting",
-["time"] = 1742269171,
-["less_granular"] = {
-0,
-2879,
-},
-},
-[435384] = {
-["parentProfID"] = 755,
-["professionID"] = 2879,
-["recipeID"] = 435384,
-["crafterName"] = "Forgecraft",
-["message"] = {
-"I can craft |cffa335ee|Hitem:215135::::::::80:66:::::::::|h[Ring of Earthen Craftsmanship]|h|r at R5 for 5k commission--send to Forgecraft ",
-},
-["itemID"] = 215135,
-["responseID"] = 435384,
-["professionName"] = "Jewelcrafting",
-["time"] = 1742269171,
+["time"] = 1742936056,
 ["less_granular"] = {
 0,
 2879,
@@ -1395,92 +1456,39 @@ CraftScan_DB = {
 [2879] = {
 ["parentProfID"] = 755,
 ["professionID"] = 2879,
-["recipeID"] = 435384,
+["recipeID"] = 435385,
 ["crafterName"] = "Forgecraft",
 ["message"] = {
-"I can craft |cffa335ee|Hitem:215135::::::::80:66:::::::::|h[Ring of Earthen Craftsmanship]|h|r at R5 for 5k commission--send to Forgecraft ",
+"I can craft |cffa335ee|Hitem:215136::::::::80:66:::::::::|h[Amulet of Earthen Craftsmanship]|h|r at R5 for 7k commission--send to Forgecraft ",
 },
-["itemID"] = 215135,
-["responseID"] = 435384,
+["itemID"] = 215136,
+["responseID"] = 435385,
 ["professionName"] = "Jewelcrafting",
-["time"] = 1742269171,
+["time"] = 1742936056,
+["less_granular"] = {
+0,
+2879,
+},
+},
+[435385] = {
+["parentProfID"] = 755,
+["professionID"] = 2879,
+["recipeID"] = 435385,
+["crafterName"] = "Forgecraft",
+["message"] = {
+"I can craft |cffa335ee|Hitem:215136::::::::80:66:::::::::|h[Amulet of Earthen Craftsmanship]|h|r at R5 for 7k commission--send to Forgecraft ",
+},
+["itemID"] = 215136,
+["responseID"] = 435385,
+["professionName"] = "Jewelcrafting",
+["time"] = 1742936056,
 ["less_granular"] = {
 0,
 2879,
 },
 },
 },
-["guid"] = "Player-3676-0E5A7158",
-},
-["Blankw-Area52"] = {
-["chat_history"] = {
-{
-["message"] = "|cff979797|Hpratcopy|h[23:40:30]|h|r |cff40ff40|Hpratfilter:2541:0|h[--]|h|r|cffd8d8d8[|r|cffff404099%|r|cffd8d8d8]|r|cffff4040|Hpratfilter:2541:1|h[++]|h|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Blankw-Area52:2541:CHANNEL:7|h|A:classicon-WARRIOR:12:12:0:-2|a|cffc69b6dBlankw|r|h|cffd8d8d8]|r: |T5501597:12:12:0:-2:64:64:0:64:0:64|t|cff0070dd|Hitem:222473::::::::80:71::13:1:3524:2:40:2180:38:4:::::|h[Dredger's Developed Greatbelt |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a (Plate Waist)]|h|r LF CRAFT R5",
-["args"] = {
-1,
-0.7529412508010864,
-0.7529412508010864,
-75,
-51,
-52,
-["n"] = 6,
-},
-},
-},
-["responses"] = {
-[0] = {
-["parentProfID"] = 164,
-["professionID"] = 2872,
-["recipeID"] = 450260,
-["crafterName"] = "Forgecraft",
-["message"] = {
-"I can craft |cff0070dd|Hitem:222473::::::::80:66:::::::::|h[Dredger's Developed Greatbelt]|h|r at R5 for 5k commission--send to Forgecraft ",
-},
-["itemID"] = 222473,
-["responseID"] = 450260,
-["professionName"] = "Blacksmithing",
-["time"] = 1742269230,
-["less_granular"] = {
-0,
-2872,
-},
-},
-[450260] = {
-["parentProfID"] = 164,
-["professionID"] = 2872,
-["recipeID"] = 450260,
-["crafterName"] = "Forgecraft",
-["message"] = {
-"I can craft |cff0070dd|Hitem:222473::::::::80:66:::::::::|h[Dredger's Developed Greatbelt]|h|r at R5 for 5k commission--send to Forgecraft ",
-},
-["itemID"] = 222473,
-["responseID"] = 450260,
-["professionName"] = "Blacksmithing",
-["time"] = 1742269230,
-["less_granular"] = {
-0,
-2872,
-},
-},
-[2872] = {
-["parentProfID"] = 164,
-["professionID"] = 2872,
-["recipeID"] = 450260,
-["crafterName"] = "Forgecraft",
-["message"] = {
-"I can craft |cff0070dd|Hitem:222473::::::::80:66:::::::::|h[Dredger's Developed Greatbelt]|h|r at R5 for 5k commission--send to Forgecraft ",
-},
-["itemID"] = 222473,
-["responseID"] = 450260,
-["professionName"] = "Blacksmithing",
-["time"] = 1742269230,
-["less_granular"] = {
-0,
-2872,
-},
-},
-},
-["guid"] = "Player-3676-0E1AD452",
+["guid"] = "Player-3676-0E999F5F",
 },
 },
 },

@@ -1,10 +1,16 @@
 
 ABP_PLUS_DB = {
 ["profileKeys"] = {
+["Deathscar - Emerald Dream"] = "Deathscar - Emerald Dream",
 ["Timecaster - Emerald Dream"] = "Timecaster - Emerald Dream",
+["Voidspeakerr - Emerald Dream"] = "Voidspeakerr - Emerald Dream",
 },
 ["profiles"] = {
+["Deathscar - Emerald Dream"] = {
+},
 ["Timecaster - Emerald Dream"] = {
+},
+["Voidspeakerr - Emerald Dream"] = {
 },
 },
 }

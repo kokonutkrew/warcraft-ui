@@ -20,31 +20,32 @@ SimulationCraftDB = {
 ["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 ["Samoanbreach - Area 52"] = "Samoanbreach - Area 52",
 ["Samoanranger - Area 52"] = "Samoanranger - Area 52",
-["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
+["Samoantitan - Area 52"] = "Samoantitan - Area 52",
 ["Threadcraft - Area 52"] = "Threadcraft - Area 52",
+["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 ["Samoanscout - Moon Guard"] = "Samoanscout - Moon Guard",
 ["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-["Herbcraft - Area 52"] = "Herbcraft - Area 52",
-["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
 ["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-["Tyrielle - Area 52"] = "Tyrielle - Area 52",
-["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+["Samoanranger - Moon Guard"] = "Samoanranger - Moon Guard",
+["Herbcraft - Area 52"] = "Herbcraft - Area 52",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
+["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
-["Kk - Bloodhoof"] = "Kk - Bloodhoof",
+["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 ["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
-["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-["Samoanwraith - Area 52"] = "Samoanwraith - Area 52",
 ["Crankcraft - Area 52"] = "Crankcraft - Area 52",
+["Samoanwraith - Area 52"] = "Samoanwraith - Area 52",
+["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 ["Samoanbeast - Area 52"] = "Samoanbeast - Area 52",
 ["Forgecraft - Illidan"] = "Forgecraft - Illidan",
 ["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 ["Kkelly - Moon Guard"] = "Kkelly - Moon Guard",
 ["Samoanshield - Area 52"] = "Samoanshield - Area 52",
-["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+["Kk - Bloodhoof"] = "Kk - Bloodhoof",
 ["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+["Tyrielle - Area 52"] = "Tyrielle - Area 52",
 ["Kkelly - Wyrmrest Accord"] = "Kkelly - Wyrmrest Accord",
 ["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
 ["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
@@ -91,9 +92,11 @@ SimulationCraftDB = {
 },
 ["Samoanranger - Area 52"] = {
 },
-["Shadowcraft - Emerald Dream"] = {
+["Samoantitan - Area 52"] = {
 },
 ["Threadcraft - Area 52"] = {
+},
+["Shadowcraft - Emerald Dream"] = {
 },
 ["Farmcraft - Emerald Dream"] = {
 },
@@ -101,29 +104,29 @@ SimulationCraftDB = {
 },
 ["Samoantank - Tichondrius"] = {
 },
-["Herbcraft - Area 52"] = {
+["Forgecraft - Emerald Dream"] = {
 },
 ["Samoanranger - Moon Guard"] = {
 },
-["Forgecraft - Emerald Dream"] = {
+["Herbcraft - Area 52"] = {
 },
-["Tyrielle - Area 52"] = {
-},
-["Samoansavage - Emerald Dream"] = {
+["Samoanbeast - Ravenholdt"] = {
 },
 ["Samoanstrafe - Area 52"] = {
 },
+["Samoansavage - Emerald Dream"] = {
+},
 ["Samoanskully - Area 52"] = {
 },
-["Kk - Bloodhoof"] = {
+["Samoanranger - Emerald Dream"] = {
 },
 ["Samoansizzle - Area 52"] = {
 },
-["Shgrshn - Tichondrius"] = {
+["Crankcraft - Area 52"] = {
 },
 ["Samoanwraith - Area 52"] = {
 },
-["Crankcraft - Area 52"] = {
+["Shgrshn - Tichondrius"] = {
 },
 ["Samoanbeast - Area 52"] = {
 },
@@ -135,11 +138,11 @@ SimulationCraftDB = {
 },
 ["Samoanshield - Area 52"] = {
 },
-["Samoanranger - Emerald Dream"] = {
+["Kk - Bloodhoof"] = {
 },
 ["Samoansage - Tichondrius"] = {
 },
-["Samoanbeast - Ravenholdt"] = {
+["Tyrielle - Area 52"] = {
 },
 ["Kkelly - Wyrmrest Accord"] = {
 },

@@ -2,16 +2,13 @@
 DecursiveDB = {
 ["global"] = {
 ["NoStartMessages"] = true,
-["LastVersionAnnounce"] = 1742268675,
-["NewerVersionName"] = "2.7.26",
-["delayedDebuffOccurences"] = 716,
-["delayedUnDebuffOccurences"] = 633,
-["NewerVersionAlert"] = 1742227599,
-["TocExpiredDetection"] = 1740525184,
+["LastVersionAnnounce"] = 1742934771,
+["delayedDebuffOccurences"] = 808,
+["delayedUnDebuffOccurences"] = 699,
+["NewerVersionAlert"] = 1742586215,
 ["t_BleedEffectsIDCheck"] = {
 [36965] = true,
 },
-["NewerVersionDetected"] = 1742180281,
 },
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {
@@ -117,7 +114,7 @@ nil,
 },
 },
 ["PRIEST"] = {
-["CureOrder-3"] = {
+["CureOrder-1"] = {
 1,
 5,
 nil,
@@ -127,7 +124,7 @@ nil,
 [32] = 6,
 [8] = 3,
 },
-["CureOrder-1"] = {
+["CureOrder-3"] = {
 1,
 5,
 nil,
@@ -148,8 +145,18 @@ nil,
 [8] = 3,
 },
 },
-["DEATHKNIGHT"] = {
+["SHAMAN"] = {
 ["CureOrder-1"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
+},
+["CureOrder-3"] = {
 1,
 5,
 nil,
@@ -170,18 +177,8 @@ nil,
 [8] = 3,
 },
 },
-["MONK"] = {
+["EVOKER"] = {
 ["CureOrder-3"] = {
-1,
-5,
-nil,
-2,
-[64] = 7,
-[16] = 4,
-[32] = 6,
-[8] = 3,
-},
-["CureOrder-1"] = {
 1,
 5,
 nil,
@@ -203,7 +200,7 @@ nil,
 },
 },
 ["WARLOCK"] = {
-["CureOrder-3"] = {
+["CureOrder-1"] = {
 1,
 5,
 nil,
@@ -213,7 +210,7 @@ nil,
 [32] = 6,
 [8] = 3,
 },
-["CureOrder-1"] = {
+["CureOrder-3"] = {
 1,
 5,
 nil,
@@ -320,7 +317,17 @@ nil,
 [8] = 3,
 },
 },
-["EVOKER"] = {
+["MONK"] = {
+["CureOrder-1"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
+},
 ["CureOrder-3"] = {
 1,
 5,
@@ -342,17 +349,7 @@ nil,
 [8] = 3,
 },
 },
-["SHAMAN"] = {
-["CureOrder-3"] = {
-1,
-5,
-nil,
-2,
-[64] = 7,
-[16] = 4,
-[32] = 6,
-[8] = 3,
-},
+["DEATHKNIGHT"] = {
 ["CureOrder-1"] = {
 1,
 5,
@@ -401,19 +398,20 @@ nil,
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
-["Samoansurge - Area 52"] = "Default",
+["Saigold - Area 52"] = "Default",
+["Samoanrocket - Area 52"] = "Default",
 ["Crankcraft - Area 52"] = "Default",
-["Threadcraft - Area 52"] = "Default",
+["Samoansavage - Emerald Dream"] = "Default",
 ["Samoantitan - Emerald Dream"] = "Default",
 ["Forgecraft - Emerald Dream"] = "Default",
-["Buycraft - Area 52"] = "Default",
+["Samoansage - Emerald Dream"] = "Default",
 ["Samoanshield - Area 52"] = "Default",
 ["Samoanbeast - Ravenholdt"] = "Default",
-["Samoansage - Emerald Dream"] = "Default",
+["Buycraft - Area 52"] = "Default",
 ["Samoansage - Area 52"] = "Default",
 ["Farmcraft - Area 52"] = "Default",
-["Samoansavage - Emerald Dream"] = "Default",
-["Samoanrocket - Area 52"] = "Default",
+["Threadcraft - Area 52"] = "Default",
+["Samoansurge - Area 52"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

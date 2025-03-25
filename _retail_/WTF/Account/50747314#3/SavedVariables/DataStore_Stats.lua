@@ -181,15 +181,16 @@ DataStore_Stats_Characters = {
 ["dungeonScore"] = 0,
 },
 {
-["Ranged"] = "2169-2232|2.6350002288818|3689|0|19.93",
-["Spell"] = "1713|1854|0|19.93|568|0",
-["Melee"] = "1997-1998|2.64|3689|0|19.93|0",
+["Ranged"] = "20928-24357|2.4570000171661|33078|0|26.36",
+["Spell"] = "14471|14813|0|26.36|6362|0",
+["Melee"] = "16930-16931|2.46|33078|0|26.36|0",
 ["MaxPower"] = "2|100",
-["lastUpdate"] = 1724095448,
-["PVP"] = "0|0",
-["HealthMax"] = 236563,
-["Defense"] = "544|0|10.521850585938|0.00|0.00|0",
-["Base"] = "1273|3689|10952|1713|544",
+["lastUpdate"] = 1742275857,
+["PVP"] = "24|0",
+["HealthMax"] = 3376317,
+["hasRewards"] = false,
+["Defense"] = "0|0|10.837295532227|0.00|0.00|0",
+["Base"] = "10763|33078|156311|14471|0",
 ["dungeonScore"] = 0,
 },
 {
@@ -339,6 +340,11 @@ DataStore_Stats_Characters = {
 }
 DataStore_Stats_Weekly = {
 [24] = {
+["RaidReward"] = 0,
+["WorldReward"] = 0,
+["ActivitiesReward"] = 0,
+},
+[16] = {
 ["RaidReward"] = 0,
 ["WorldReward"] = 0,
 ["ActivitiesReward"] = 0,

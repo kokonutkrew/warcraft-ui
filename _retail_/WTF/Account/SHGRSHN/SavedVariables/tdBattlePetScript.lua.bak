@@ -1,5 +1,38 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+["global"] = {
+["version"] = "0.0.0.0",
+["scripts"] = {
+["AllInOne"] = {
+},
+["FirstEnemy"] = {
+},
+["Base"] = {
+},
+["Rematch"] = {
+["team:2"] = {
+["name"] = "Lyver",
+["code"] = "use(919) [round=1] \nuse(581) [round=2] \nuse(1370) [round=5]",
+},
+["team:20"] = {
+["name"] = "Kyrie",
+["code"] = "standby [round=1]\nchange(#2) [round=2]\nuse(Time Bomb:602) [round=3]\nuse(Armageddon:1025)\nuse(Booby-Trapped Presents:1080) [round=5]\nuse(Call Blizzard:206) [round=6]\nuse(Ice Lance:413)\nuse(#1)\nchange(#3)",
+},
+["team:1"] = {
+["name"] = "Christoph VonFeasel",
+["code"] = "use(#1) [round=1]\nchange(Lil' Bling:1320) [self(#1).active]\nuse(Extra Plating:392) [round=3]\nuse(Make it Rain:985)\nuse(Inflation:1002)\nuse(Wind-Up:459)\nchange(#2)",
+},
+["team:3"] = {
+["name"] = "Jeremy Feasel",
+["code"] = "change(#3) [enemy(#3).active & enemy.round=1]\nchange(#2) [self(#3).active]\nability(Thunderbolt:779) [round=1]\nability(Decoy:334) [enemy(#2).active]\nability(Thunderbolt:779) [enemy(#2).active]\nability(Wind-Up:459) [enemy(#2).active & !self.aura(Wind-Up:458).exists]\nability(Powerball:566) [enemy(#2).active]\nability(Supercharge:208) [enemy(#3).active]\nability(#1)\nstandby\nchange(next)",
+},
+["team:13"] = {
+["name"] = "\"Secret2\"",
+["code"] = "quit [!enemy(#2).dead & self(#2).dead]\nquit [self(#2).dead & !enemy.aura(Flame Breath:500).exists & enemy(#1).active]\nchange(#3) [enemy(#3).active & enemy.round=1]\nchange(#1) [enemy(#3).active & enemy.round=2]\nuse(Flash Freeze:1955) [round=1]\nuse(Deep Freeze:481) [round=2]\nchange(#2) [round=3]\nuse(Flame Breath:501) [!enemy.aura(Flame Breath:500).exists]\nuse(Deep Burn:1407)\nuse(Bite:110) [enemy(#1).active]\nuse(Flash Freeze:1955)\nuse(Deep Freeze:481)\nuse(Bite:110)\nuse(#3)\nuse(#2)\nuse(#1)\nstandby\nchange(#1)",
+},
+},
+},
+},
 ["profileKeys"] = {
 ["Samoanslayer - Emerald Dream"] = "Default",
 ["Samoanghost - Area 52"] = "Default",
@@ -42,18 +75,19 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 ["Samoanranger - Area 52"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Threadcraft - Area 52"] = "Default",
+["Saigold - Area 52"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
 ["Samoantank - Tichondrius"] = "Default",
-["Fishcraft - Area 52"] = "Default",
+["Samoanslayer - Area 52"] = "Default",
 ["Samoanbeast - Area 52"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
-["Samoanbeast - Ravenholdt"] = "Default",
+["Samoanlegend - Area 52"] = "Default",
 ["Samoanlegend - Tichondrius"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
 ["Samoanmystic - Emerald Dream"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
-["Samoansteel - Area 52"] = "Default",
+["Kk - Bloodhoof"] = "Default",
 ["Samoanwraith - Area 52"] = "Default",
 ["Crankcraft - Area 52"] = "Default",
 ["Samoantitan - Emerald Dream"] = "Default",
@@ -61,45 +95,12 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 ["Samoanscout - Moon Guard"] = "Default",
 ["Kkelly - Moon Guard"] = "Default",
 ["Samoanshield - Area 52"] = "Default",
-["Kk - Bloodhoof"] = "Default",
+["Samoansteel - Area 52"] = "Default",
 ["Samoansage - Tichondrius"] = "Default",
-["Samoanlegend - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
 ["Kkelly - Wyrmrest Accord"] = "Default",
-["Samoanslayer - Area 52"] = "Default",
+["Fishcraft - Area 52"] = "Default",
 ["Gearcraft - Emerald Dream"] = "Default",
-},
-["global"] = {
-["version"] = "0.0.0.0",
-["scripts"] = {
-["Rematch"] = {
-["team:2"] = {
-["name"] = "Lyver",
-["code"] = "use(919) [round=1] \nuse(581) [round=2] \nuse(1370) [round=5]",
-},
-["team:20"] = {
-["name"] = "Kyrie",
-["code"] = "standby [round=1]\nchange(#2) [round=2]\nuse(Time Bomb:602) [round=3]\nuse(Armageddon:1025)\nuse(Booby-Trapped Presents:1080) [round=5]\nuse(Call Blizzard:206) [round=6]\nuse(Ice Lance:413)\nuse(#1)\nchange(#3)",
-},
-["team:1"] = {
-["name"] = "Christoph VonFeasel",
-["code"] = "use(#1) [round=1]\nchange(Lil' Bling:1320) [self(#1).active]\nuse(Extra Plating:392) [round=3]\nuse(Make it Rain:985)\nuse(Inflation:1002)\nuse(Wind-Up:459)\nchange(#2)",
-},
-["team:3"] = {
-["name"] = "Jeremy Feasel",
-["code"] = "change(#3) [enemy(#3).active & enemy.round=1]\nchange(#2) [self(#3).active]\nability(Thunderbolt:779) [round=1]\nability(Decoy:334) [enemy(#2).active]\nability(Thunderbolt:779) [enemy(#2).active]\nability(Wind-Up:459) [enemy(#2).active & !self.aura(Wind-Up:458).exists]\nability(Powerball:566) [enemy(#2).active]\nability(Supercharge:208) [enemy(#3).active]\nability(#1)\nstandby\nchange(next)",
-},
-["team:13"] = {
-["name"] = "\"Secret2\"",
-["code"] = "quit [!enemy(#2).dead & self(#2).dead]\nquit [self(#2).dead & !enemy.aura(Flame Breath:500).exists & enemy(#1).active]\nchange(#3) [enemy(#3).active & enemy.round=1]\nchange(#1) [enemy(#3).active & enemy.round=2]\nuse(Flash Freeze:1955) [round=1]\nuse(Deep Freeze:481) [round=2]\nchange(#2) [round=3]\nuse(Flame Breath:501) [!enemy.aura(Flame Breath:500).exists]\nuse(Deep Burn:1407)\nuse(Bite:110) [enemy(#1).active]\nuse(Flash Freeze:1955)\nuse(Deep Freeze:481)\nuse(Bite:110)\nuse(#3)\nuse(#2)\nuse(#1)\nstandby\nchange(#1)",
-},
-},
-["Base"] = {
-},
-["FirstEnemy"] = {
-},
-["AllInOne"] = {
-},
-},
 },
 ["profiles"] = {
 ["Default"] = {

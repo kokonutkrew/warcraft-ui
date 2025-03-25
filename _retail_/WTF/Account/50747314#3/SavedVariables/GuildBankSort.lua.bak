@@ -1,0 +1,47 @@
+
+gbsDB = {
+["version"] = "2.0.0",
+["profiles"] = {
+["Default"] = {
+["forcedFlag"] = {
+},
+["options"] = {
+["ignoreTab"] = {
+["1"] = false,
+["8"] = false,
+["3"] = false,
+["2"] = false,
+["5"] = false,
+["4"] = false,
+["7"] = false,
+["6"] = false,
+},
+["showPreview"] = true,
+["keepBlacklisted"] = true,
+["stackItems"] = true,
+["sortBy"] = true,
+["printStepsLeft"] = true,
+["updateItems"] = true,
+},
+["priority"] = {
+},
+["flag"] = {
+},
+["stack"] = {
+},
+["whitelist"] = {
+},
+["blacklist"] = {
+},
+},
+},
+["theme"] = {
+["hex"] = "00ccff",
+["b"] = 1,
+["g"] = 0.8,
+["r"] = 0,
+},
+["currentProfile"] = {
+["Deathscar-EmeraldDream"] = "Default",
+},
+}

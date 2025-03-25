@@ -1,8 +1,12 @@
 
 DecursiveDB = {
 ["global"] = {
-["LastVersionAnnounce"] = 1735151635,
+["LastVersionAnnounce"] = 1742274620,
+["NewerVersionName"] = "2.7.26",
 ["TocExpiredDetection"] = 1735151625,
+["LastExpirationAlert"] = 1742271610,
+["NewerVersionAlert"] = 1742273188,
+["NewerVersionDetected"] = 1742180281,
 },
 ["class"] = {
 ["DEATHKNIGHT"] = {
@@ -29,7 +33,19 @@ nil,
 [8] = 3,
 },
 },
-["SHAMAN"] = {
+["HUNTER"] = {
+["CureOrder-1"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
+},
+},
+["ROGUE"] = {
 ["CureOrder-1"] = {
 1,
 5,
@@ -51,7 +67,7 @@ nil,
 [8] = 3,
 },
 },
-["ROGUE"] = {
+["SHAMAN"] = {
 ["CureOrder-1"] = {
 1,
 5,
@@ -87,6 +103,7 @@ nil,
 },
 },
 ["profileKeys"] = {
+["Deathscar - Emerald Dream"] = "Default",
 ["Voidspeakerr - Emerald Dream"] = "Default",
 ["Shadowdaggr - Area 52"] = "Default",
 ["Flameing - Emerald Dream"] = "Default",

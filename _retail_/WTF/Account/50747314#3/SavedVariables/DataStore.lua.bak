@@ -4,18 +4,21 @@ DataStore_GuildIDs = {
 "Default.Emerald Dream.KK",
 "Default.Emerald Dream.Holy Rollers",
 "Default.Moon Guard.KK",
+"Default.Emerald Dream.kk",
 },
-["Count"] = 3,
+["Count"] = 4,
 ["Set"] = {
 ["Default.Emerald Dream.Holy Rollers"] = 2,
 ["Default.Moon Guard.KK"] = 3,
 ["Default.Emerald Dream.KK"] = 1,
+["Default.Emerald Dream.kk"] = 4,
 },
 }
 DataStore_GuildFactions = {
 "Alliance",
 "Alliance",
 "Horde",
+"Alliance",
 }
 DataStore_CharacterIDs = {
 ["List"] = {
@@ -111,10 +114,11 @@ DataStore_CharacterGUIDs = {
 "Player-162-0BE33C51",
 }
 DataStore_CharacterGuilds = {
-[14] = 1,
+[24] = 4,
+[16] = 1,
 [19] = 1,
 [23] = 2,
-[24] = 1,
+[14] = 1,
 }
 DataStore_AltGroups = {
 }

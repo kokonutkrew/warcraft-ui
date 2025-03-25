@@ -1,16 +1,16 @@
 
 DataStore_Garrisons_Characters = {
 {
-["lastUpdate"] = 1742268676,
+["lastUpdate"] = 1742935337,
 },
 {
-["lastUpdate"] = 1742247679,
+["lastUpdate"] = 1742799951,
 },
 {
-["lastUpdate"] = 1742248754,
+["lastUpdate"] = 1742844537,
 },
 {
-["lastUpdate"] = 1742232173,
+["lastUpdate"] = 1742851153,
 },
 {
 ["lastUpdate"] = 1742249275,
@@ -19,28 +19,28 @@ DataStore_Garrisons_Characters = {
 ["lastUpdate"] = 1741218816,
 },
 {
-["lastUpdate"] = 1742243311,
+["lastUpdate"] = 1742799723,
 },
 {
-["lastUpdate"] = 1742081890,
+["lastUpdate"] = 1742737756,
 },
 {
-["lastUpdate"] = 1741394961,
+["lastUpdate"] = 1742737911,
 },
 {
-["lastUpdate"] = 1742085697,
+["lastUpdate"] = 1742696962,
 },
 {
-["lastUpdate"] = 1741547423,
+["lastUpdate"] = 1742279229,
 },
 {
-["lastUpdate"] = 1742083487,
+["lastUpdate"] = 1742847825,
 },
 {
-["lastUpdate"] = 1742077479,
+["lastUpdate"] = 1742276192,
 },
 {
-["lastUpdate"] = 1742128785,
+["lastUpdate"] = 1742533840,
 },
 {
 ["lastUpdate"] = 1742127276,
@@ -48,10 +48,16 @@ DataStore_Garrisons_Characters = {
 {
 ["lastUpdate"] = 1742127206,
 },
+{
+["lastUpdate"] = 1742801007,
+},
+{
+["lastUpdate"] = 1742850969,
+},
 }
 DataStore_Garrisons_Missions = {
 {
-["lastUpdate"] = 1742268676,
+["lastUpdate"] = 1742935337,
 ["Infos"] = {
 [1911] = {
 ["successChance"] = 200,
@@ -71,17 +77,17 @@ DataStore_Garrisons_Missions = {
 },
 },
 {
-["lastUpdate"] = 1742247679,
+["lastUpdate"] = 1742799951,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1742248754,
+["lastUpdate"] = 1742844537,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1742232173,
+["lastUpdate"] = 1742851153,
 ["Infos"] = {
 },
 },
@@ -103,79 +109,76 @@ DataStore_Garrisons_Missions = {
 },
 },
 {
-["lastUpdate"] = 1742243311,
+["lastUpdate"] = 1742799723,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1742081890,
+["lastUpdate"] = 1742737756,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1741394961,
+["lastUpdate"] = 1742737911,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1742085697,
+["lastUpdate"] = 1742696962,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1741547423,
+["lastUpdate"] = 1742279229,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1742083487,
+["lastUpdate"] = 1742847825,
 ["Infos"] = {
 },
 },
 {
-["lastUpdate"] = 1742077479,
+["lastUpdate"] = 1742276192,
 ["Infos"] = {
 },
 ["Available"] = {
 {
 65,
-126,
-133,
-141,
-153,
-163,
-187,
-143,
-151,
-176,
-212,
-271,
-272,
-301,
 361,
-369,
-372,
-666,
-667,
-472,
-188,
 222,
-365,
+162,
+183,
+190,
+188,
+364,
+133,
+667,
+266,
+120,
+666,
+272,
+276,
+136,
+151,
+135,
+142,
+211,
+369,
+368,
 },
-nil,
-nil,
-{
+[4] = {
 2171,
+2170,
 2177,
-2181,
-2245,
 2261,
+2194,
 2309,
 },
 },
 },
 {
-["lastUpdate"] = 1742128785,
+["lastUpdate"] = 1742533840,
 ["Infos"] = {
 },
 },
@@ -189,152 +192,332 @@ nil,
 ["Infos"] = {
 },
 },
+{
+["lastUpdate"] = 1742801007,
+["Infos"] = {
+},
+["Available"] = {
+{
+65,
+125,
+150,
+151,
+222,
+663,
+133,
+163,
+176,
+136,
+142,
+171,
+175,
+300,
+266,
+273,
+276,
+},
+nil,
+nil,
+{
+2180,
+2228,
+2313,
+},
+},
+},
+{
+["lastUpdate"] = 1742850969,
+["Infos"] = {
+},
+},
 }
 DataStore_Garrisons_MissionInfos = {
 ["Infos"] = {
-[2141] = 55029278990401,
-[2078] = 55029278978113,
-[365] = 32218821258,
-[2142] = 55029279011206,
-[126] = 42952299081,
+[131] = 42953609801,
+[155] = 36509872713,
+[163] = 39731122761,
+[171] = 32214925897,
+[179] = 38654734921,
+[187] = 34359792201,
+[211] = 38658699849,
+[469] = 33289933515,
+[2073] = 55029278978373,
+[2074] = 55029278978178,
+[2075] = 55029278974082,
+[2076] = 55029278978373,
+[114] = 42953626185,
 [2079] = 55029289463873,
-[1889] = 55029273727041,
-[1905] = 55029289488644,
-[1890] = 55029273727041,
-[2177] = 55040008589454,
-[1891] = 55029278974017,
-[1907] = 55029289463873,
-[176] = 35433534025,
-[1908] = 55029289463873,
-[2181] = 55040019071821,
-[2245] = 55040012456078,
+[126] = 42952299081,
+[2080] = 55029278998593,
 [188] = 35433534025,
-[1909] = 55029279039553,
-[271] = 42953626120,
-[2152] = 55029278978113,
-[1894] = 55029273727041,
-[2153] = 55029278978113,
 [212] = 39732441673,
+[472] = 33289933515,
+[133] = 42949694025,
+[141] = 33288647241,
+[1882] = 55029273727041,
+[361] = 42956284489,
+[205] = 33290007113,
+[1884] = 55029273727041,
+[266] = 42953609801,
+[1885] = 55029273727041,
+[1886] = 55029278974017,
+[1887] = 55029278969921,
+[1888] = 55029273735233,
+[267] = 42953609801,
+[142] = 33288647241,
+[150] = 35436130889,
+[1890] = 55029273727041,
+[190] = 37581017673,
+[198] = 35438801481,
+[1891] = 55029289459777,
 [222] = 33288671752,
-[1911] = 55029289472130,
-[666] = 42953609801,
+[1892] = 55029278969921,
+[1893] = 55029273727041,
+[300] = 42954928713,
+[1894] = 55029273727041,
+[364] = 32214881169,
+[663] = 42953609801,
 [1896] = 55029273731137,
 [2127] = 55029294719431,
-[1913] = 55029278978113,
-[133] = 42949694025,
-[667] = 42953609801,
-[141] = 33288647241,
-[143] = 33288647241,
-[151] = 35436151369,
-[153] = 36509872713,
-[1883] = 55029273727041,
-[1899] = 55029294719041,
-[1915] = 55029289484418,
-[1884] = 55029273727041,
-[1900] = 55029278978373,
-[2261] = 55040008523983,
-[372] = 36512522825,
-[1885] = 55029273727041,
-[1901] = 55029278978113,
-[272] = 42952315400,
-[1892] = 55029278969921,
-[2073] = 55029278978373,
-[1886] = 55029278998593,
-[187] = 34359792201,
-[361] = 42956284489,
-[2140] = 55029278990401,
-[301] = 42957550153,
-[65] = 32213615112,
-[369] = 33291297353,
-[2075] = 55029278974082,
-[1887] = 55029273727041,
+[135] = 32214925897,
 [1897] = 55029278974017,
-[2171] = 55040019063564,
-[2076] = 55029278978373,
-[1882] = 55029273727041,
+[301] = 42957550153,
+[159] = 38657405513,
+[333] = 32212349906,
+[175] = 34359792201,
+[183] = 32212304457,
+[191] = 38654734921,
+[1899] = 55029294719041,
+[2261] = 55040008523983,
+[2262] = 55040008523918,
+[1901] = 55029278978113,
+[2138] = 55029278978113,
+[2140] = 55029278990401,
+[2141] = 55029278990401,
+[667] = 42953609801,
+[120] = 42952299081,
+[2143] = 55029278998918,
+[271] = 42953626120,
+[1905] = 55029289488644,
+[160] = 38657380937,
+[176] = 35433534025,
+[1907] = 55029289463873,
 [924] = 52264388554947,
-[163] = 39731122761,
-[472] = 33289933515,
-[1888] = 55029273727041,
+[1908] = 55029289463873,
+[2151] = 55029278982209,
+[272] = 42952315400,
+[1909] = 55029279039553,
+[2153] = 55029278978113,
+[368] = 32217555529,
+[1911] = 55029289472130,
+[1912] = 55029294702657,
+[129] = 42952307273,
+[273] = 42954928648,
+[1913] = 55029278978113,
+[153] = 36509872713,
+[161] = 38657405513,
+[1914] = 55029279006785,
+[369] = 33291297353,
+[385] = 42953609801,
+[1915] = 55029289484418,
+[1916] = 55029278982209,
+[65] = 32213615112,
+[2168] = 55040008524556,
+[2169] = 55040008590157,
+[2170] = 55040019088205,
+[2171] = 55040019063564,
+[2144] = 55029279011206,
+[2078] = 55029278978113,
+[365] = 32218821258,
+[117] = 42952307273,
+[2142] = 55029279011206,
+[125] = 42954920521,
+[373] = 37586264649,
+[1889] = 55029273735233,
+[136] = 32214925897,
+[154] = 36509893193,
+[162] = 39731147337,
+[2178] = 55040008524621,
+[274] = 42952307208,
+[371] = 35438781001,
+[1858] = 55029278970181,
+[2180] = 55040019071183,
+[1906] = 55029310439489,
+[2181] = 55040019071821,
 [2309] = 55040012522256,
+[2177] = 55040008589454,
+[2310] = 55040012542736,
+[2179] = 55040013861709,
+[2311] = 55040012522256,
+[276] = 42956284424,
+[2211] = 55040012456781,
+[334] = 42956284489,
+[2313] = 55040012522256,
+[2245] = 55040012456078,
+[2152] = 55029278978113,
+[372] = 36512522825,
+[666] = 42953609801,
+[143] = 33288647241,
+[1883] = 55029273727041,
+[1866] = 55029273727041,
+[151] = 35436151369,
+[2194] = 55040012456781,
+[1900] = 55029278978373,
+[2228] = 55040012456716,
 },
-["Durations"] = {
-["List"] = {
-14400,
-43200,
-28800,
-64800,
-21600,
-129600,
-3600,
-86400,
-144000,
-57600,
-172800,
-1800,
-2700,
-36000,
-6750,
-39600,
-16200,
-259200,
-},
-["Count"] = 18,
+["TypeAtlas"] = {
 ["Set"] = {
-[43200] = 2,
-[86400] = 8,
-[172800] = 11,
-[6750] = 15,
-[1800] = 12,
-[3600] = 7,
-[14400] = 1,
-[28800] = 3,
-[57600] = 10,
-[16200] = 17,
-[36000] = 14,
-[64800] = 4,
-[129600] = 6,
-[259200] = 18,
-[2700] = 13,
-[39600] = 16,
-[21600] = 5,
-[144000] = 9,
+["GarrMission_MissionIcon-Patrol"] = 8,
+["BfAMission-Icon-Stealth"] = 5,
+["BfAMission-Icon-Normal"] = 1,
+["GarrMission_MissionIcon-Combat"] = 9,
+["ClassHall-QuestIcon-Desaturated"] = 3,
+["BfAMission-Icon-HUB"] = 7,
+["ShipMissionIcon-Legendary-Map"] = 13,
+["BfAMission-Icon-QuickStrike"] = 2,
+["ClassHall-TreasureIcon-Desaturated"] = 12,
+["GarrMission_MissionIcon-Provision"] = 14,
+["GarrMission_MissionIcon-Logistics"] = 15,
+["GarrMission_MissionIcon-Exploration"] = 11,
+["BfAMission-Icon-DeepSea"] = 6,
+["BfAMission-Icon-LongCampaign"] = 4,
+["GarrMission_MissionIcon-Training"] = 10,
+},
+["Count"] = 15,
+["List"] = {
+"BfAMission-Icon-Normal",
+"BfAMission-Icon-QuickStrike",
+"ClassHall-QuestIcon-Desaturated",
+"BfAMission-Icon-LongCampaign",
+"BfAMission-Icon-Stealth",
+"BfAMission-Icon-DeepSea",
+"BfAMission-Icon-HUB",
+"GarrMission_MissionIcon-Patrol",
+"GarrMission_MissionIcon-Combat",
+"GarrMission_MissionIcon-Training",
+"GarrMission_MissionIcon-Exploration",
+"ClassHall-TreasureIcon-Desaturated",
+"ShipMissionIcon-Legendary-Map",
+"GarrMission_MissionIcon-Provision",
+"GarrMission_MissionIcon-Logistics",
 },
 },
 ["Rewards"] = {
-[2141] = {
+[131] = {
 {
+["itemID"] = 120301,
 ["quantity"] = 1,
-["itemID"] = 168327,
-["itemLink"] = "|cffffffff|Hitem:168327::::::::80:66:::::::::|h[]|h|r",
 },
 },
-[2078] = {
+[155] = {
 {
-["icon"] = 2032592,
-["quantity"] = 400,
+["title"] = "Bonus Follower XP",
+["followerXP"] = 500,
+["tooltip"] = "+500 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+500 XP",
+},
+},
+[163] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 800,
+["tooltip"] = "+800 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+800 XP",
+},
+},
+[171] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 100,
+["tooltip"] = "+100 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+100 XP",
+},
+},
+[179] = {
+{
+["icon"] = 1005027,
+["quantity"] = 42,
 ["title"] = "Currency Reward",
-["currencyID"] = 1579,
+["currencyID"] = 824,
 },
 },
-[365] = {
+[187] = {
 {
-["itemID"] = 118354,
-["quantity"] = 1,
-},
-},
-[2142] = {
-{
-["icon"] = 2065624,
-["quantity"] = 479,
+["icon"] = 1005027,
+["quantity"] = 34,
 ["title"] = "Currency Reward",
-["currencyID"] = 1553,
+["currencyID"] = 824,
 },
 },
-[126] = {
+[211] = {
 {
-["itemID"] = 120302,
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1050,
+["tooltip"] = "+1,050 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,050 XP",
+},
+{
+["icon"] = 1005027,
+["quantity"] = 200,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[469] = {
+{
+["icon"] = 970886,
+["quantity"] = 25,
+["title"] = "Currency Reward",
+["currencyID"] = 821,
+},
+{
+["itemID"] = 108439,
 ["quantity"] = 1,
+},
+},
+[2073] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 325,
+["icon"] = 2032594,
+["currencyID"] = 1592,
+},
+},
+[2074] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 375,
+["icon"] = 2032594,
+["currencyID"] = 1592,
+},
+},
+[2075] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 375,
+["icon"] = 2032596,
+["currencyID"] = 1594,
+},
+},
+[2076] = {
+{
+["icon"] = 2032596,
+["quantity"] = 325,
+["title"] = "Currency Reward",
+["currencyID"] = 1594,
+},
+},
+[114] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 8000,
+["tooltip"] = "+8,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+8,000 XP",
 },
 },
 [2079] = {
@@ -344,135 +527,25 @@ DataStore_Garrisons_MissionInfos = {
 ["itemLink"] = "|cffffffff|Hitem:163036::::::::80:66:::::::::|h[Polished Pet Charm]|h|r",
 },
 },
-[1889] = {
+[126] = {
 {
-["title"] = "Currency Reward",
-["quantity"] = 200,
-["icon"] = 2032592,
-["currencyID"] = 1579,
-},
-},
-[1905] = {
-{
-["icon"] = 2065624,
-["quantity"] = 458,
-["title"] = "Currency Reward",
-["currencyID"] = 1553,
-},
-},
-[1890] = {
-{
-["icon"] = 2032591,
-["quantity"] = 125,
-["title"] = "Currency Reward",
-["currencyID"] = 1599,
-},
-},
-[2177] = {
-{
-["quantity"] = 7,
-["itemID"] = 181544,
-["itemLink"] = "|cff1eff00|Hitem:181544::::::::80:262:::::::::|h[Confessions of Misdeed]|h|r",
-},
-},
-[1891] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 100,
-["icon"] = 2032595,
-["currencyID"] = 1593,
-},
-},
-[1907] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 225,
-["icon"] = 2032595,
-["currencyID"] = 1593,
-},
-},
-[176] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 36,
-["icon"] = 1005027,
-["currencyID"] = 824,
-},
-},
-[1908] = {
-{
-["icon"] = 2032591,
-["quantity"] = 225,
-["title"] = "Currency Reward",
-["currencyID"] = 1599,
-},
-},
-[2181] = {
-{
+["itemID"] = 120302,
 ["quantity"] = 1,
-["itemID"] = 184630,
-["itemLink"] = "|cffffffff|Hitem:184630::::::::80:262::31:::::::|h[Adventurer's Tailoring Cache]|h|r",
 },
 },
-[2245] = {
+[2080] = {
 {
-["quantity"] = 1,
-["itemID"] = 188650,
-["itemLink"] = "|cff0070dd|Hitem:188650::::::::80:262:::::::::|h[Grimoire of Knowledge]|h|r",
-},
-{
-["title"] = "Currency Reward",
-["quantity"] = 1,
-["icon"] = 255347,
-["currencyID"] = 1889,
+["quantity"] = 13,
+["itemID"] = 163036,
+["itemLink"] = "|cffffffff|Hitem:163036::::::::80:66:::::::::|h[Polished Pet Charm]|h|r",
 },
 },
 [188] = {
 {
-["title"] = "Currency Reward",
-["quantity"] = 36,
 ["icon"] = 1005027,
+["quantity"] = 36,
+["title"] = "Currency Reward",
 ["currencyID"] = 824,
-},
-},
-[1909] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 200,
-["icon"] = 2032594,
-["currencyID"] = 1592,
-},
-},
-[271] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 10000,
-["tooltip"] = "+10,000 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+10,000 XP",
-},
-},
-[2152] = {
-{
-["icon"] = 2065624,
-["quantity"] = 353,
-["title"] = "Currency Reward",
-["currencyID"] = 1553,
-},
-},
-[1894] = {
-{
-["icon"] = 2065624,
-["quantity"] = 265,
-["title"] = "Currency Reward",
-["currencyID"] = 1553,
-},
-},
-[2153] = {
-{
-["quantity"] = 1,
-["itemID"] = 169480,
-["itemLink"] = "|cffa335ee|Hitem:169480::::::::80:66::::1:28:464:::::|h[Benthic Chestguard]|h|r",
 },
 },
 [212] = {
@@ -484,10 +557,164 @@ DataStore_Garrisons_MissionInfos = {
 ["name"] = "+1,200 XP",
 },
 {
-["title"] = "Currency Reward",
+["icon"] = 1005027,
 ["quantity"] = 225,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[472] = {
+{
+["icon"] = 136086,
+["quantity"] = 50,
+["title"] = "Currency Reward",
+["currencyID"] = 828,
+},
+},
+[133] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 175,
 ["icon"] = 1005027,
 ["currencyID"] = 824,
+},
+},
+[141] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 200,
+["tooltip"] = "+200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+200 XP",
+},
+},
+[1882] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 252,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[361] = {
+{
+["itemID"] = 120302,
+["quantity"] = 1,
+},
+},
+[205] = {
+{
+["icon"] = 1005027,
+["quantity"] = 100,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 300,
+["tooltip"] = "+300 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+300 XP",
+},
+},
+[1884] = {
+{
+["icon"] = 2032594,
+["quantity"] = 75,
+["title"] = "Currency Reward",
+["currencyID"] = 1592,
+},
+},
+[266] = {
+{
+["itemID"] = 120302,
+["quantity"] = 1,
+},
+},
+[1885] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 125,
+["icon"] = 2032591,
+["currencyID"] = 1599,
+},
+},
+[1886] = {
+{
+["icon"] = 2032591,
+["quantity"] = 75,
+["title"] = "Currency Reward",
+["currencyID"] = 1599,
+},
+},
+[1887] = {
+{
+["icon"] = 2065624,
+["quantity"] = 250,
+["title"] = "Currency Reward",
+["currencyID"] = 1553,
+},
+},
+[1888] = {
+{
+["icon"] = 2032596,
+["quantity"] = 100,
+["title"] = "Currency Reward",
+["currencyID"] = 1594,
+},
+},
+[267] = {
+{
+["itemID"] = 120301,
+["quantity"] = 1,
+},
+},
+[142] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 200,
+["tooltip"] = "+200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+200 XP",
+},
+},
+[150] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 400,
+["tooltip"] = "+400 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+400 XP",
+},
+},
+[1890] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 125,
+["icon"] = 2032591,
+["currencyID"] = 1599,
+},
+},
+[190] = {
+{
+["icon"] = 1005027,
+["quantity"] = 40,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[198] = {
+{
+["itemID"] = 114096,
+["quantity"] = 1,
+},
+},
+[1891] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 75,
+["icon"] = 2032595,
+["currencyID"] = 1593,
 },
 },
 [222] = {
@@ -499,15 +726,46 @@ DataStore_Garrisons_MissionInfos = {
 ["name"] = "+300 XP",
 },
 },
-[1911] = {
+[1892] = {
 {
 ["title"] = "Currency Reward",
-["quantity"] = 440,
+["quantity"] = 239,
 ["icon"] = 2065624,
 ["currencyID"] = 1553,
 },
 },
-[666] = {
+[1893] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 248,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[300] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 8000,
+["tooltip"] = "+8,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+8,000 XP",
+},
+},
+[1894] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 265,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[364] = {
+{
+["itemID"] = 118428,
+["quantity"] = 1,
+},
+},
+[663] = {
 {
 ["title"] = "Currency Reward",
 ["quantity"] = 25,
@@ -531,190 +789,21 @@ DataStore_Garrisons_MissionInfos = {
 ["currencyID"] = 1166,
 },
 },
-[1913] = {
+[135] = {
 {
-["icon"] = 2032591,
+["title"] = "Bonus Follower XP",
+["followerXP"] = 100,
+["tooltip"] = "+100 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+100 XP",
+},
+},
+[1897] = {
+{
+["title"] = "Currency Reward",
 ["quantity"] = 225,
-["title"] = "Currency Reward",
-["currencyID"] = 1599,
-},
-},
-[133] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 175,
-["icon"] = 1005027,
-["currencyID"] = 824,
-},
-},
-[667] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 25,
-["icon"] = 1131085,
-["currencyID"] = 1101,
-},
-},
-[141] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 200,
-["tooltip"] = "+200 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+200 XP",
-},
-},
-[143] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 200,
-["tooltip"] = "+200 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+200 XP",
-},
-},
-[151] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 400,
-["tooltip"] = "+400 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+400 XP",
-},
-},
-[153] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 500,
-["tooltip"] = "+500 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+500 XP",
-},
-},
-[1883] = {
-{
-["icon"] = 2065624,
-["quantity"] = 229,
-["title"] = "Currency Reward",
-["currencyID"] = 1553,
-},
-},
-[1899] = {
-{
-["quantity"] = 3,
-["itemID"] = 160053,
-["itemLink"] = "|cff0070dd|Hitem:160053::::::::80:66:::::::::|h[Battle-Scarred Augment Rune]|h|r",
-},
-},
-[1915] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 460,
-["icon"] = 2065624,
-["currencyID"] = 1553,
-},
-},
-[1884] = {
-{
-["icon"] = 2032594,
-["quantity"] = 100,
-["title"] = "Currency Reward",
-["currencyID"] = 1592,
-},
-},
-[1900] = {
-{
-["icon"] = 2032591,
-["quantity"] = 375,
-["title"] = "Currency Reward",
-["currencyID"] = 1599,
-},
-},
-[2261] = {
-{
-["title"] = "Money Reward",
-["quantity"] = 230298,
-["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-["currencyID"] = 0,
-},
-},
-[372] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 1000,
-["tooltip"] = "+1,000 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+1,000 XP",
-},
-},
-[1885] = {
-{
-["icon"] = 2032591,
-["quantity"] = 125,
-["title"] = "Currency Reward",
-["currencyID"] = 1599,
-},
-},
-[1901] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 375,
 ["icon"] = 2032592,
 ["currencyID"] = 1579,
-},
-},
-[272] = {
-{
-["title"] = "Bonus Follower XP",
-["followerXP"] = 10000,
-["tooltip"] = "+10,000 XP",
-["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+10,000 XP",
-},
-},
-[1892] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 273,
-["icon"] = 2065624,
-["currencyID"] = 1553,
-},
-},
-[2073] = {
-{
-["icon"] = 2032594,
-["quantity"] = 375,
-["title"] = "Currency Reward",
-["currencyID"] = 1592,
-},
-},
-[1886] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 75,
-["icon"] = 2032591,
-["currencyID"] = 1599,
-},
-},
-[187] = {
-{
-["title"] = "Currency Reward",
-["quantity"] = 34,
-["icon"] = 1005027,
-["currencyID"] = 824,
-},
-},
-[361] = {
-{
-["itemID"] = 120302,
-["quantity"] = 1,
-},
-},
-[2140] = {
-{
-["quantity"] = 1,
-["itemID"] = 170489,
-["itemLink"] = "|cffffffff|Hitem:170489::::::::80:66::31::1:28:464:::::|h[]|h|r",
 },
 },
 [301] = {
@@ -726,13 +815,280 @@ DataStore_Garrisons_MissionInfos = {
 ["name"] = "+8,000 XP",
 },
 },
-[65] = {
+[159] = {
 {
 ["title"] = "Bonus Follower XP",
-["followerXP"] = 150,
-["tooltip"] = "+150 XP",
+["followerXP"] = 700,
+["tooltip"] = "+700 XP",
 ["icon"] = "Interface\\Icons\\XPBonus_Icon",
-["name"] = "+150 XP",
+["name"] = "+700 XP",
+},
+},
+[333] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 100,
+["tooltip"] = "+100 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+100 XP",
+},
+},
+[175] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 34,
+["icon"] = 1005027,
+["currencyID"] = 824,
+},
+},
+[183] = {
+{
+["icon"] = 1005027,
+["quantity"] = 30,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[191] = {
+{
+["icon"] = 1005027,
+["quantity"] = 42,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[1899] = {
+{
+["quantity"] = 3,
+["itemID"] = 160053,
+["itemLink"] = "|cff0070dd|Hitem:160053::::::::80:66:::::::::|h[Battle-Scarred Augment Rune]|h|r",
+},
+},
+[2261] = {
+{
+["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+["quantity"] = 237788,
+["title"] = "Money Reward",
+["currencyID"] = 0,
+},
+},
+[2262] = {
+{
+["quantity"] = 7,
+["itemID"] = 181544,
+["itemLink"] = "|cffffffff|Hitem:181544::::::::80:262:::::::::|h[]|h|r",
+},
+},
+[1901] = {
+{
+["icon"] = 2032592,
+["quantity"] = 375,
+["title"] = "Currency Reward",
+["currencyID"] = 1579,
+},
+},
+[2138] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 328,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[2140] = {
+{
+["quantity"] = 1,
+["itemID"] = 170489,
+["itemLink"] = "|cffffffff|Hitem:170489::::::::80:66::31::1:28:464:::::|h[]|h|r",
+},
+},
+[2141] = {
+{
+["quantity"] = 1,
+["itemID"] = 168327,
+["itemLink"] = "|cffffffff|Hitem:168327::::::::80:66:::::::::|h[]|h|r",
+},
+},
+[667] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 25,
+["icon"] = 1131085,
+["currencyID"] = 1101,
+},
+},
+[120] = {
+{
+["itemID"] = 120302,
+["quantity"] = 1,
+},
+},
+[2143] = {
+{
+["icon"] = 2065624,
+["quantity"] = 462,
+["title"] = "Currency Reward",
+["currencyID"] = 1553,
+},
+},
+[271] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 10000,
+["tooltip"] = "+10,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+10,000 XP",
+},
+},
+[1905] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 458,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[160] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 700,
+["tooltip"] = "+700 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+700 XP",
+},
+},
+[176] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 36,
+["icon"] = 1005027,
+["currencyID"] = 824,
+},
+},
+[1907] = {
+{
+["icon"] = 2032595,
+["quantity"] = 225,
+["title"] = "Currency Reward",
+["currencyID"] = 1593,
+},
+},
+[924] = {
+{
+["itemID"] = 138121,
+["quantity"] = 1,
+},
+},
+[1908] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 225,
+["icon"] = 2032591,
+["currencyID"] = 1599,
+},
+},
+[2151] = {
+{
+["quantity"] = 1,
+["itemID"] = 169610,
+["itemLink"] = "|cff0070dd|Hitem:169610::::::::80:66:::::::::|h[S.P.A.R.E. Crate]|h|r",
+},
+},
+[272] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 10000,
+["tooltip"] = "+10,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+10,000 XP",
+},
+},
+[1909] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 200,
+["icon"] = 2032594,
+["currencyID"] = 1592,
+},
+},
+[2153] = {
+{
+["quantity"] = 1,
+["itemID"] = 169480,
+["itemLink"] = "|cffa335ee|Hitem:169480::::::::80:66::::1:28:464:::::|h[Benthic Chestguard]|h|r",
+},
+},
+[368] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 200,
+["tooltip"] = "+200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+200 XP",
+},
+},
+[1911] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 440,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[1912] = {
+{
+["quantity"] = 3,
+["itemID"] = 160053,
+["itemLink"] = "|cff0070dd|Hitem:160053::::::::80:66:::::::::|h[Battle-Scarred Augment Rune]|h|r",
+},
+},
+[129] = {
+{
+["itemID"] = 114616,
+["quantity"] = 1,
+},
+},
+[273] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 10000,
+["tooltip"] = "+10,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+10,000 XP",
+},
+},
+[1913] = {
+{
+["icon"] = 2032591,
+["quantity"] = 250,
+["title"] = "Currency Reward",
+["currencyID"] = 1599,
+},
+},
+[153] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 500,
+["tooltip"] = "+500 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+500 XP",
+},
+},
+[161] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 700,
+["tooltip"] = "+700 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+700 XP",
+},
+},
+[1914] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 355,
+["icon"] = 2065624,
+["currencyID"] = 1553,
 },
 },
 [369] = {
@@ -744,28 +1100,58 @@ DataStore_Garrisons_MissionInfos = {
 ["name"] = "+400 XP",
 },
 },
-[2075] = {
+[385] = {
 {
-["icon"] = 2032596,
-["quantity"] = 375,
-["title"] = "Currency Reward",
-["currencyID"] = 1594,
+["itemID"] = 120302,
+["quantity"] = 1,
 },
 },
-[1887] = {
+[1915] = {
 {
 ["icon"] = 2065624,
-["quantity"] = 253,
+["quantity"] = 460,
 ["title"] = "Currency Reward",
 ["currencyID"] = 1553,
 },
 },
-[1897] = {
+[1916] = {
 {
-["icon"] = 2032592,
-["quantity"] = 225,
+["icon"] = 2065624,
+["quantity"] = 356,
 ["title"] = "Currency Reward",
-["currencyID"] = 1579,
+["currencyID"] = 1553,
+},
+},
+[65] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 150,
+["tooltip"] = "+150 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+150 XP",
+},
+},
+[2168] = {
+{
+["quantity"] = 7,
+["itemID"] = 181643,
+["itemLink"] = "|cff1eff00|Hitem:181643::::::::80:262:::::::::|h[Weeping Corpseshroom]|h|r",
+},
+},
+[2169] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1000,
+["tooltip"] = "+1,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,000 XP",
+},
+},
+[2170] = {
+{
+["quantity"] = 1,
+["itemID"] = 184635,
+["itemLink"] = "|cffffffff|Hitem:184635::::::::80:262::31:::::::|h[Adventurer's Mining Cache]|h|r",
 },
 },
 [2171] = {
@@ -777,29 +1163,87 @@ DataStore_Garrisons_MissionInfos = {
 ["name"] = "+1,200 XP",
 },
 },
-[2076] = {
+[2144] = {
 {
+["icon"] = 463858,
+["quantity"] = 8,
 ["title"] = "Currency Reward",
-["quantity"] = 375,
-["icon"] = 2032596,
-["currencyID"] = 1594,
+["currencyID"] = 1721,
 },
 },
-[1882] = {
+[2078] = {
 {
-["icon"] = 2065624,
-["quantity"] = 238,
+["icon"] = 2032592,
+["quantity"] = 350,
 ["title"] = "Currency Reward",
-["currencyID"] = 1553,
+["currencyID"] = 1579,
 },
 },
-[924] = {
+[365] = {
 {
-["itemID"] = 138121,
+["itemID"] = 118354,
 ["quantity"] = 1,
 },
 },
-[163] = {
+[117] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 8000,
+["tooltip"] = "+8,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+8,000 XP",
+},
+},
+[2142] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 479,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[125] = {
+{
+["itemID"] = 120301,
+["quantity"] = 1,
+},
+},
+[373] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1200,
+["tooltip"] = "+1,200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,200 XP",
+},
+},
+[1889] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 250,
+["icon"] = 2032592,
+["currencyID"] = 1579,
+},
+},
+[136] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 100,
+["tooltip"] = "+100 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+100 XP",
+},
+},
+[154] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 500,
+["tooltip"] = "+500 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+500 XP",
+},
+},
+[162] = {
 {
 ["title"] = "Bonus Follower XP",
 ["followerXP"] = 800,
@@ -808,20 +1252,60 @@ DataStore_Garrisons_MissionInfos = {
 ["name"] = "+800 XP",
 },
 },
-[472] = {
+[2178] = {
 {
-["title"] = "Currency Reward",
-["quantity"] = 50,
-["icon"] = 136086,
-["currencyID"] = 828,
+["title"] = "Money Reward",
+["quantity"] = 231446,
+["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+["currencyID"] = 0,
 },
 },
-[1888] = {
+[274] = {
 {
-["icon"] = 2032596,
-["quantity"] = 100,
+["title"] = "Bonus Follower XP",
+["followerXP"] = 10000,
+["tooltip"] = "+10,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+10,000 XP",
+},
+},
+[371] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 800,
+["tooltip"] = "+800 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+800 XP",
+},
+},
+[1858] = {
+{
 ["title"] = "Currency Reward",
-["currencyID"] = 1594,
+["quantity"] = 471,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[2180] = {
+{
+["quantity"] = 1,
+["itemID"] = 184635,
+["itemLink"] = "|cffffffff|Hitem:184635::::::::80:262::31:::::::|h[Adventurer's Mining Cache]|h|r",
+},
+},
+[1906] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 250,
+["icon"] = 2032591,
+["currencyID"] = 1599,
+},
+},
+[2181] = {
+{
+["quantity"] = 1,
+["itemID"] = 184630,
+["itemLink"] = "|cffffffff|Hitem:184630::::::::80:262::31:::::::|h[Adventurer's Tailoring Cache]|h|r",
 },
 },
 [2309] = {
@@ -831,47 +1315,286 @@ DataStore_Garrisons_MissionInfos = {
 ["itemLink"] = "|cff0070dd|Hitem:187577::::::::80:262::31:::::::|h[Korthian Meat Cache]|h|r",
 },
 {
-["title"] = "Currency Reward",
-["quantity"] = 22,
 ["icon"] = 4067362,
+["quantity"] = 19,
+["title"] = "Currency Reward",
 ["currencyID"] = 1906,
 },
 },
+[2177] = {
+{
+["quantity"] = 7,
+["itemID"] = 184148,
+["itemLink"] = "|cff1eff00|Hitem:184148::::::::80:262:::::::::|h[Concealed Sinvyr Flask]|h|r",
 },
-["TypeAtlas"] = {
-["List"] = {
-"BfAMission-Icon-Normal",
-"BfAMission-Icon-QuickStrike",
-"ClassHall-QuestIcon-Desaturated",
-"BfAMission-Icon-LongCampaign",
-"BfAMission-Icon-Stealth",
-"BfAMission-Icon-DeepSea",
-"BfAMission-Icon-HUB",
-"GarrMission_MissionIcon-Patrol",
-"GarrMission_MissionIcon-Combat",
-"GarrMission_MissionIcon-Training",
-"GarrMission_MissionIcon-Exploration",
-"ClassHall-TreasureIcon-Desaturated",
-"ShipMissionIcon-Legendary-Map",
 },
-["Count"] = 13,
+[2310] = {
+{
+["quantity"] = 1,
+["itemID"] = 187576,
+["itemLink"] = "|cff0070dd|Hitem:187576::::::::80:262::31:::::::|h[Korthian Skinning Cache]|h|r",
+},
+{
+["icon"] = 4067362,
+["quantity"] = 30,
+["title"] = "Currency Reward",
+["currencyID"] = 1906,
+},
+},
+[2179] = {
+{
+["quantity"] = 1,
+["itemID"] = 181191,
+["itemLink"] = "|cffa335ee|Hitem:181191::::::::80:262::25:3:1472:5904:6646::::::|h[Devourer Wrangler's Coif]|h|r",
+},
+},
+[2311] = {
+{
+["icon"] = 4067362,
+["quantity"] = 18,
+["title"] = "Currency Reward",
+["currencyID"] = 1906,
+},
+{
+["quantity"] = 7,
+["itemID"] = 181468,
+["itemLink"] = "|cffffffff|Hitem:181468::::::::80:262:::::::::|h[]|h|r",
+},
+},
+[276] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 15000,
+["tooltip"] = "+15,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+15,000 XP",
+},
+},
+[2211] = {
+{
+["quantity"] = 1,
+["itemID"] = 188650,
+["itemLink"] = "|cffffffff|Hitem:188650::::::::80:262:::::::::|h[]|h|r",
+},
+{
+["icon"] = 255347,
+["quantity"] = 1,
+["title"] = "Currency Reward",
+["currencyID"] = 1889,
+},
+},
+[334] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 20000,
+["tooltip"] = "+20,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+20,000 XP",
+},
+{
+["icon"] = 1005027,
+["quantity"] = 250,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[2313] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 29,
+["icon"] = 4067362,
+["currencyID"] = 1906,
+},
+{
+["quantity"] = 7,
+["itemID"] = 181468,
+["itemLink"] = "|cff0070dd|Hitem:181468::::::::80:262:::::::::|h[Veiled Augment Rune]|h|r",
+},
+},
+[2245] = {
+{
+["quantity"] = 1,
+["itemID"] = 188650,
+["itemLink"] = "|cff0070dd|Hitem:188650::::::::80:262:::::::::|h[Grimoire of Knowledge]|h|r",
+},
+{
+["icon"] = 255347,
+["quantity"] = 1,
+["title"] = "Currency Reward",
+["currencyID"] = 1889,
+},
+},
+[2152] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 353,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[372] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1000,
+["tooltip"] = "+1,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,000 XP",
+},
+},
+[666] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 25,
+["icon"] = 1131085,
+["currencyID"] = 1101,
+},
+},
+[143] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 200,
+["tooltip"] = "+200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+200 XP",
+},
+},
+[1883] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 250,
+["icon"] = 2065624,
+["currencyID"] = 1553,
+},
+},
+[1866] = {
+{
+["icon"] = 2065624,
+["quantity"] = 256,
+["title"] = "Currency Reward",
+["currencyID"] = 1553,
+},
+},
+[151] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 400,
+["tooltip"] = "+400 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+400 XP",
+},
+},
+[2194] = {
+{
+["quantity"] = 1,
+["itemID"] = 188650,
+["itemLink"] = "|cff0070dd|Hitem:188650::::::::80:262:::::::::|h[Grimoire of Knowledge]|h|r",
+},
+{
+["icon"] = 255347,
+["quantity"] = 1,
+["title"] = "Currency Reward",
+["currencyID"] = 1889,
+},
+},
+[1900] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 375,
+["icon"] = 2032591,
+["currencyID"] = 1599,
+},
+},
+[2228] = {
+{
+["quantity"] = 1,
+["itemID"] = 188650,
+["itemLink"] = "|cff0070dd|Hitem:188650::::::::80:262:::::::::|h[Grimoire of Knowledge]|h|r",
+},
+{
+["title"] = "Currency Reward",
+["quantity"] = 1,
+["icon"] = 255347,
+["currencyID"] = 1889,
+},
+},
+},
+["Durations"] = {
 ["Set"] = {
-["GarrMission_MissionIcon-Patrol"] = 8,
-["BfAMission-Icon-Stealth"] = 5,
-["BfAMission-Icon-Normal"] = 1,
-["GarrMission_MissionIcon-Combat"] = 9,
-["ClassHall-QuestIcon-Desaturated"] = 3,
-["BfAMission-Icon-HUB"] = 7,
-["BfAMission-Icon-QuickStrike"] = 2,
-["BfAMission-Icon-LongCampaign"] = 4,
-["GarrMission_MissionIcon-Training"] = 10,
-["GarrMission_MissionIcon-Exploration"] = 11,
-["BfAMission-Icon-DeepSea"] = 6,
-["ClassHall-TreasureIcon-Desaturated"] = 12,
-["ShipMissionIcon-Legendary-Map"] = 13,
+[43200] = 2,
+[86400] = 8,
+[172800] = 11,
+[46800] = 20,
+[6750] = 15,
+[1800] = 12,
+[3600] = 7,
+[14400] = 1,
+[28800] = 3,
+[57600] = 10,
+[115200] = 21,
+[30600] = 24,
+[16200] = 17,
+[2700] = 13,
+[18000] = 22,
+[36000] = 14,
+[64800] = 4,
+[144000] = 9,
+[259200] = 18,
+[39600] = 16,
+[5400] = 19,
+[300] = 23,
+[21600] = 5,
+[129600] = 6,
+},
+["Count"] = 24,
+["List"] = {
+14400,
+43200,
+28800,
+64800,
+21600,
+129600,
+3600,
+86400,
+144000,
+57600,
+172800,
+1800,
+2700,
+36000,
+6750,
+39600,
+16200,
+259200,
+5400,
+46800,
+115200,
+18000,
+300,
+30600,
 },
 },
 ["Types"] = {
+["Set"] = {
+["9.0 Encounter - Ardenweald"] = 13,
+["Combat"] = 9,
+["8.0 - Quick Strike"] = 2,
+["9.0 Encounter - Bastion"] = 15,
+["8.0 - Stealth"] = 5,
+["Exploration"] = 11,
+["9.0 Encounter - Maldraxxus"] = 12,
+["8.0 - Long Campaign"] = 4,
+["9.0 Encounter - Maw Assault"] = 16,
+["9.0 Encounter - Revendreth"] = 14,
+["8.2 - Deep Sea"] = 6,
+["8.0 - Generic Missions"] = 1,
+["8.2 - Holiday Mission"] = 7,
+["7.0 Class Hall - Campaign Missions"] = 3,
+["Patrol"] = 8,
+["Training"] = 10,
+["Provision"] = 17,
+["Logistics"] = 18,
+},
+["Count"] = 18,
 ["List"] = {
 "8.0 - Generic Missions",
 "8.0 - Quick Strike",
@@ -889,25 +1612,8 @@ DataStore_Garrisons_MissionInfos = {
 "9.0 Encounter - Revendreth",
 "9.0 Encounter - Bastion",
 "9.0 Encounter - Maw Assault",
-},
-["Count"] = 16,
-["Set"] = {
-["9.0 Encounter - Maw Assault"] = 16,
-["Training"] = 10,
-["Patrol"] = 8,
-["8.0 - Quick Strike"] = 2,
-["9.0 Encounter - Ardenweald"] = 13,
-["9.0 Encounter - Revendreth"] = 14,
-["9.0 Encounter - Bastion"] = 15,
-["7.0 Class Hall - Campaign Missions"] = 3,
-["8.2 - Deep Sea"] = 6,
-["8.0 - Stealth"] = 5,
-["8.0 - Generic Missions"] = 1,
-["Combat"] = 9,
-["Exploration"] = 11,
-["8.2 - Holiday Mission"] = 7,
-["9.0 Encounter - Maldraxxus"] = 12,
-["8.0 - Long Campaign"] = 4,
+"Provision",
+"Logistics",
 },
 },
 }
@@ -920,22 +1626,7 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1742268676,
-["Followers"] = {
-},
-["Infos"] = 0,
-["AbilityCounters"] = {
-},
-},
-{
-["LevelCount"] = 0,
-["FollowerLinks"] = {
-},
-["Abilities"] = {
-},
-["Traits"] = {
-},
-["lastUpdate"] = 1742247679,
+["lastUpdate"] = 1742935337,
 ["Followers"] = {
 },
 ["AbilityCounters"] = {
@@ -950,7 +1641,7 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1742248754,
+["lastUpdate"] = 1742799951,
 ["Followers"] = {
 },
 ["Infos"] = 0,
@@ -965,12 +1656,27 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1741564869,
+["lastUpdate"] = 1742800314,
 ["Followers"] = {
 },
 ["AbilityCounters"] = {
 },
 ["Infos"] = 0,
+},
+{
+["LevelCount"] = 0,
+["FollowerLinks"] = {
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["lastUpdate"] = 1742800569,
+["Followers"] = {
+},
+["Infos"] = 0,
+["AbilityCounters"] = {
+},
 },
 {
 ["LevelCount"] = 0,
@@ -989,9 +1695,9 @@ DataStore_Garrisons_Followers = {
 [639] = 41943840,
 [763] = 400,
 },
-["Infos"] = 0,
 ["AbilityCounters"] = {
 },
+["Infos"] = 0,
 },
 {
 ["FollowerLinks"] = {
@@ -1013,22 +1719,7 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1742026874,
-["Followers"] = {
-},
-["Infos"] = 0,
-["AbilityCounters"] = {
-},
-},
-{
-["LevelCount"] = 0,
-["FollowerLinks"] = {
-},
-["Abilities"] = {
-},
-["Traits"] = {
-},
-["lastUpdate"] = 1741328208,
+["lastUpdate"] = 1742799723,
 ["Followers"] = {
 },
 ["AbilityCounters"] = {
@@ -1043,22 +1734,7 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1741394961,
-["Followers"] = {
-},
-["AbilityCounters"] = {
-},
-["Infos"] = 0,
-},
-{
-["LevelCount"] = 0,
-["FollowerLinks"] = {
-},
-["Abilities"] = {
-},
-["Traits"] = {
-},
-["lastUpdate"] = 1741582681,
+["lastUpdate"] = 1742737756,
 ["Followers"] = {
 },
 ["Infos"] = 0,
@@ -1073,10 +1749,108 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1741547423,
+["lastUpdate"] = 1742737911,
 ["Followers"] = {
 },
 ["Infos"] = 0,
+["AbilityCounters"] = {
+},
+},
+{
+["LevelCount"] = 0,
+["FollowerLinks"] = {
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["lastUpdate"] = 1742659125,
+["Followers"] = {
+},
+["AbilityCounters"] = {
+},
+["Infos"] = 0,
+},
+{
+["LevelCount"] = 0,
+["FollowerLinks"] = {
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["lastUpdate"] = 1742279229,
+["Followers"] = {
+},
+["AbilityCounters"] = {
+},
+["Infos"] = 0,
+},
+{
+["LevelCount"] = 0,
+["FollowerLinks"] = {
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["lastUpdate"] = 1742743987,
+["Followers"] = {
+},
+["Infos"] = 0,
+["AbilityCounters"] = {
+},
+},
+{
+["LevelCount"] = 1,
+["FollowerLinks"] = {
+[176] = "|cff0070dd|Hgarrfollower:176:3:33:600:140:0:0:0:52:7:0:0:0|h[Pitfighter Vaandaam]|h|r",
+[474] = "|cffa335ee|Hgarrfollower:474:4:40:600:102:122:0:0:244:44:49:0:0|h[Ariok]|h|r",
+[463] = "|cff0070dd|Hgarrfollower:463:3:30:600:148:0:0:0:67:256:0:0:0|h[Daleera Moonfang]|h|r",
+[212] = "|cff1eff00|Hgarrfollower:212:2:34:600:104:0:0:0:39:0:0:0:0|h[Rangari Erdanii]|h|r",
+[34] = "|cff1eff00|Hgarrfollower:34:2:30:600:108:0:0:0:56:0:0:0:0|h[Qiana Moonshadow]|h|r",
+[153] = "|cff1eff00|Hgarrfollower:153:2:30:600:161:0:0:0:54:0:0:0:0|h[Bruma Swiftstone]|h|r",
+[216] = "|cff0070dd|Hgarrfollower:216:3:31:600:115:0:0:0:231:49:0:0:0|h[Delvar Ironfist]|h|r",
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["lastUpdate"] = 1742276192,
+["Followers"] = {
+[176] = 943721600,
+[474] = 0,
+[463] = 800,
+[212] = 419434400,
+[34] = 629146400,
+[153] = 419431200,
+[216] = 629147200,
+},
+["Infos"] = 10317987906311,
+["AbilityCounters"] = {
+},
+},
+{
+["FollowerLinks"] = {
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["Followers"] = {
+},
+["AbilityCounters"] = {
+},
+},
+{
+["FollowerLinks"] = {
+},
+["Abilities"] = {
+},
+["Traits"] = {
+},
+["Followers"] = {
+},
 ["AbilityCounters"] = {
 },
 },
@@ -1097,9 +1871,9 @@ DataStore_Garrisons_Followers = {
 ["FollowerLinks"] = {
 [153] = "|cff1eff00|Hgarrfollower:153:2:30:600:161:0:0:0:54:0:0:0:0|h[Bruma Swiftstone]|h|r",
 [474] = "|cffa335ee|Hgarrfollower:474:4:40:600:102:122:0:0:244:44:49:0:0|h[Ariok]|h|r",
-[463] = "|cff0070dd|Hgarrfollower:463:3:30:600:148:0:0:0:67:256:0:0:0|h[Daleera Moonfang]|h|r",
-[212] = "|cff1eff00|Hgarrfollower:212:2:34:600:104:0:0:0:39:0:0:0:0|h[Rangari Erdanii]|h|r",
 [34] = "|cff1eff00|Hgarrfollower:34:2:30:600:108:0:0:0:56:0:0:0:0|h[Qiana Moonshadow]|h|r",
+[212] = "|cff1eff00|Hgarrfollower:212:2:34:600:104:0:0:0:39:0:0:0:0|h[Rangari Erdanii]|h|r",
+[463] = "|cff0070dd|Hgarrfollower:463:3:30:600:148:0:0:0:67:256:0:0:0|h[Daleera Moonfang]|h|r",
 [216] = "|cff0070dd|Hgarrfollower:216:3:31:600:115:0:0:0:231:49:0:0:0|h[Delvar Ironfist]|h|r",
 [176] = "|cff0070dd|Hgarrfollower:176:3:33:600:140:0:0:0:52:7:0:0:0|h[Pitfighter Vaandaam]|h|r",
 },
@@ -1107,43 +1881,19 @@ DataStore_Garrisons_Followers = {
 },
 ["Traits"] = {
 },
-["lastUpdate"] = 1742077479,
+["lastUpdate"] = 1742801007,
 ["Followers"] = {
 [153] = 419431200,
 [474] = 0,
-[463] = 800,
-[212] = 419434400,
 [34] = 629146400,
+[212] = 419434400,
+[463] = 800,
 [216] = 629147200,
 [176] = 943721600,
 },
 ["AbilityCounters"] = {
 },
 ["Infos"] = 10317987906311,
-},
-{
-["FollowerLinks"] = {
-},
-["Abilities"] = {
-},
-["Traits"] = {
-},
-["Followers"] = {
-},
-["AbilityCounters"] = {
-},
-},
-{
-["FollowerLinks"] = {
-},
-["Abilities"] = {
-},
-["Traits"] = {
-},
-["Followers"] = {
-},
-["AbilityCounters"] = {
-},
 },
 {
 ["FollowerLinks"] = {
@@ -1195,71 +1945,75 @@ DataStore_Garrisons_FollowerNamesToID = {
 ["Delas Moonfang"] = 756,
 ["Millhouse Manastorm"] = 455,
 ["Nerus Moonfang"] = 1000,
-["Dreamgrove Treants"] = 763,
+["Delvar Ironfist"] = 216,
 ["Naralex"] = 639,
-["Ariok"] = 474,
+["Dowser Goodwell"] = 581,
 ["Rangari Kaalya"] = 159,
 ["Hulda Shadowblade"] = 453,
-["Broll Bearmantle"] = 641,
+["Dark Ranger Velonara"] = 453,
 ["Kimzee Pinchwhistle"] = 192,
 ["Weldon Barov"] = 195,
-["Solar Priest Vayx"] = 582,
-["Garona Halforcen"] = 466,
+["Bruto"] = 176,
+["Kaz the Shrieker"] = 159,
 ["Lantresor of the Blade"] = 157,
 ["Archdruid Hamuul Runetotem"] = 643,
-["Glirin"] = 211,
-["Keeper Remulos"] = 646,
-["Phylarch the Evergreen"] = 194,
+["Penny Clobberbottom"] = 211,
+["Magister Krelas"] = 154,
+["Ulna Thresher"] = 463,
 ["Dagg"] = 32,
-["Fen Tao"] = 467,
+["Lokra"] = 185,
 ["Vivianne"] = 216,
 ["Arator the Redeemer"] = 758,
-["Bruma Swiftstone"] = 153,
-["Tormmok"] = 193,
-["Lothraxion"] = 759,
 ["Magister Serena"] = 154,
-["Vindicator Heluun"] = 458,
+["Tormmok"] = 193,
+["Fen Tao"] = 467,
+["Bruma Swiftstone"] = 153,
+["Karg Bloodfury"] = 459,
 ["Benjamin Gibb"] = 204,
 ["Weaponsmith Na'Shra"] = 179,
 ["Croman"] = 177,
-["Meatball"] = 203,
+["Harrison Jones"] = 465,
 ["Choluna"] = 217,
-["Aponi Brightmane"] = 757,
-["Brightwing"] = 645,
+["Mulverick"] = 182,
+["Blook"] = 189,
 ["Lady Liadrin"] = 478,
-["Morketh Bladehowl"] = 155,
+["Meatball"] = 203,
 ["Gronnstalker Rokash"] = 183,
 ["Zen'tabra"] = 640,
 ["Spirit of Bony Xuk"] = 212,
-["Leeroy Jenkins"] = 178,
+["Artificer Romuul"] = 179,
+["Rangari Erdanii"] = 212,
 ["Apprentice Artificer Andren"] = 184,
-["Miall"] = 155,
-["Professor Felblast"] = 460,
+["Lord Maxwell Tyrosus"] = 480,
 ["Daleera Moonfang"] = 463,
-["Qiana Moonshadow"] = 34,
 ["Dawnseeker Rukaryx"] = 462,
+["Qiana Moonshadow"] = 34,
 ["Leorajh"] = 219,
 ["Fiona"] = 180,
-["Lord Maxwell Tyrosus"] = 480,
-["Rangari Erdanii"] = 212,
-["Artificer Romuul"] = 179,
-["Blook"] = 189,
-["Mulverick"] = 182,
-["Harrison Jones"] = 465,
-["Karg Bloodfury"] = 459,
+["Professor Felblast"] = 460,
+["Miall"] = 155,
+["Leeroy Jenkins"] = 178,
+["Brightwing"] = 645,
+["Aponi Brightmane"] = 757,
+["Morketh Bladehowl"] = 155,
+["Vindicator Heluun"] = 458,
 ["Admiral Taylor"] = 204,
-["Lokra"] = 185,
-["Ulna Thresher"] = 463,
-["Magister Krelas"] = 154,
-["Penny Clobberbottom"] = 211,
+["Lothraxion"] = 759,
+["Phylarch the Evergreen"] = 194,
+["Keeper Remulos"] = 646,
+["Glirin"] = 211,
 ["Image of Archmage Vargoth"] = 190,
-["Kaz the Shrieker"] = 159,
-["Bruto"] = 176,
-["Dark Ranger Velonara"] = 453,
-["Dowser Goodwell"] = 581,
-["Delvar Ironfist"] = 216,
+["Garona Halforcen"] = 466,
+["Solar Priest Vayx"] = 582,
+["Broll Bearmantle"] = 641,
+["Ariok"] = 474,
+["Dreamgrove Treants"] = 763,
 }
 DataStore_Garrisons_Buildings = {
+{
+},
+{
+},
 {
 },
 {
@@ -1299,12 +2053,6 @@ DataStore_Garrisons_CypherEquipment = {
 }
 DataStore_Garrisons_Shipments = {
 {
-["artifactResearchNumReady"] = 0,
-["artifactResearchDuration"] = 0,
-["artifactResearchCreationTime"] = 0,
-["artifactResearchNumTotal"] = 0,
-},
-{
 ["artifactResearchCreationTime"] = 0,
 ["artifactResearchDuration"] = 0,
 ["artifactResearchNumReady"] = 0,
@@ -1347,12 +2095,6 @@ DataStore_Garrisons_Shipments = {
 ["artifactResearchNumTotal"] = 0,
 },
 {
-["artifactResearchCreationTime"] = 0,
-["artifactResearchDuration"] = 0,
-["artifactResearchNumReady"] = 0,
-["artifactResearchNumTotal"] = 0,
-},
-{
 ["artifactResearchNumReady"] = 0,
 ["artifactResearchDuration"] = 0,
 ["artifactResearchCreationTime"] = 0,
@@ -1365,9 +2107,9 @@ DataStore_Garrisons_Shipments = {
 ["artifactResearchNumTotal"] = 0,
 },
 {
-["artifactResearchNumReady"] = 0,
-["artifactResearchDuration"] = 0,
 ["artifactResearchCreationTime"] = 0,
+["artifactResearchDuration"] = 0,
+["artifactResearchNumReady"] = 0,
 ["artifactResearchNumTotal"] = 0,
 },
 {
@@ -1389,9 +2131,33 @@ DataStore_Garrisons_Shipments = {
 ["artifactResearchNumTotal"] = 0,
 },
 {
+["artifactResearchNumReady"] = 0,
+["artifactResearchDuration"] = 0,
+["artifactResearchCreationTime"] = 0,
+["artifactResearchNumTotal"] = 0,
+},
+{
 ["artifactResearchCreationTime"] = 0,
 ["artifactResearchDuration"] = 0,
 ["artifactResearchNumReady"] = 0,
+["artifactResearchNumTotal"] = 0,
+},
+{
+["artifactResearchNumReady"] = 0,
+["artifactResearchDuration"] = 0,
+["artifactResearchCreationTime"] = 0,
+["artifactResearchNumTotal"] = 0,
+},
+{
+["artifactResearchCreationTime"] = 0,
+["artifactResearchDuration"] = 0,
+["artifactResearchNumReady"] = 0,
+["artifactResearchNumTotal"] = 0,
+},
+{
+["artifactResearchNumReady"] = 0,
+["artifactResearchDuration"] = 0,
+["artifactResearchCreationTime"] = 0,
 ["artifactResearchNumTotal"] = 0,
 },
 }

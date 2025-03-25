@@ -1,0 +1,29 @@
+
+RaiderIO_Config = {
+["profilePoint"] = {
+["y"] = 0,
+["x"] = -16,
+["point"] = "TOPLEFT",
+},
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
+}
+RaiderIO_LastCharacter = "us-Deathscar-emerald-dream"
+RaiderIO_MissingCharacters = {
+["us-Deathscar-emerald-dream"] = true,
+["us-Deathscar-Emerald Dream"] = true,
+["us-Adorkablle-sargeras"] = true,
+["us-Auroraheals-Emerald Dream"] = true,
+["us-Auroraheals-area-52"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}
+RaiderIO_CompletedReplays = {
+}

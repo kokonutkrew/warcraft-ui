@@ -1,23 +1,26 @@
 
 DataStore_GuildIDs = {
 ["Set"] = {
-["Default.Emerald Dream.Holy Rollers"] = 2,
-["Default.Moon Guard.KK"] = 3,
-["Default.Emerald Dream.kk"] = 4,
 ["Default.Emerald Dream.KK"] = 1,
+["Default.Emerald Dream.kk"] = 4,
+["Default.Moon Guard.KK"] = 3,
+["Default.Emerald Dream.Holy Rollers"] = 2,
+["Default.Area52.KK"] = 5,
 },
-["Count"] = 4,
+["Count"] = 5,
 ["List"] = {
 "Default.Emerald Dream.KK",
 "Default.Emerald Dream.Holy Rollers",
 "Default.Moon Guard.KK",
 "Default.Emerald Dream.kk",
+"Default.Area52.KK",
 },
 }
 DataStore_GuildFactions = {
 "Alliance",
 "Alliance",
 "Horde",
+"Alliance",
 "Alliance",
 }
 DataStore_CharacterIDs = {
@@ -114,16 +117,18 @@ DataStore_CharacterGUIDs = {
 "Player-162-0BE33C51",
 }
 DataStore_CharacterGuilds = {
+[24] = 4,
 [14] = 1,
 [19] = 1,
+[16] = 5,
 [23] = 2,
-[24] = 4,
 }
 DataStore_AltGroups = {
 }
 DataStore_ConnectedRealms = {
-["Emerald Dream"] = "Moon Guard",
 ["Moon Guard"] = "Emerald Dream",
+["Area52"] = "Emerald Dream",
+["Emerald Dream"] = "Area52",
 }
 DataStore_RealmNames = {
 ["EmeraldDream"] = "Emerald Dream",

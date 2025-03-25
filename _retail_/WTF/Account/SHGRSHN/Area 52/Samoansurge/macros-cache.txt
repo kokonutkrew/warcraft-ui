@@ -1,0 +1,84 @@
+VER 3 0100000000000024 ".Cyclone" "INV_Misc_QuestionMark"
+#showtooltip
+/focus [harm,noexists] [harm,mod:shift]
+/cast [@focus,exists,harm] entangling roots
+END
+VER 3 0100000000000025 ".Form Treant" "INV_Misc_QuestionMark"
+#showtooltip
+/use [noform:1]treant form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
+END
+VER 3 0100000000000026 ".FormBear" "INV_Misc_QuestionMark"
+#showtooltip
+/use [noform:1]bear form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
+END
+VER 3 0100000000000027 ".FormCat" "INV_Misc_QuestionMark"
+#showtooltip
+/use [stealth,spec:2]rake;[stealth,talent:3/2]rake;[stealth]shred;[nostealth,nocombat,stance:2]prowl;[nostance:2]cat form; [nostealth,combat]shadowmeld
+END
+VER 3 0100000000000028 ".FormMoonkin" "INV_Misc_QuestionMark"
+#showtooltip
+/use [form:4]barkskin;[spec:1] moonkin form; [noform]barkskin; aquatic form
+/cancelform [noform:4][spec:4,form:4]
+END
+VER 3 0100000000000029 ".FormTravel" "INV_Misc_QuestionMark"
+#showtooltip Travel Form
+/castsequence [mod:shift]fishing; [indoors]cat form; [form:3] cat form; travel form
+END
+VER 3 010000000000002A ".KeyAltUp Cure" "INV_Misc_QuestionMark"
+#showtooltip
+/use [combat,help,dead,@mouseover]rebirth; [spec:4,help,dead]revitalize; [@mouseover,help,dead]revive; [harm,combat]soothe; [harm,nocombat]hibernate; [nospec:4]remove corruption; nature's cure
+END
+VER 3 010000000000002B ".KeyClickLeft" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/castsequence reset=target/combat/1 rejuvenation, swiftmend, regrowth, regrowth, regrowth; regrowth
+/target mouseover
+END
+VER 3 010000000000002C ".KeyQ Spec Spell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [known:soloar beam] solar beam; [known:skull bash] skull bash; [known:ursol's vortex] ursol's vortex
+END
+VER 3 010000000000002D ".KeyScroll Speed" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom [harm]wild charge; dash, stampeding roar, bull rush
+END
+VER 3 0100000000000017 "001_KK_RESTO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] 001_KK_RESTO RightButton; [button:3] 001_KK_RESTO MiddleButton; [button:4] 001_KK_RESTO Button4; [button:5] 001_KK_RESTO Button5; 001_KK_RESTO
+END
+VER 3 0100000000000022 "AutoPotion" "INV_Misc_QuestionMark"
+#showtooltip 
+/castsequence [@player] reset=combat Renewal, item:212242
+END
+VER 3 010000000000000F "Capacitor Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform
+/use [@cursor] capacitor totem
+END
+VER 3 010000000000001E "CovenantSpell" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Vesper Totem
+/cast Chain Harvest
+/cast Primordial Wave
+/cast Fae Transfusion
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Vesper Totem" or G"Chain Harvest" or G"Primordial Wave"or G"Fae Transfusion")
+END
+VER 3 010000000000001F "CovenantUtility" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Door of Shadows
+/cast Soulshape
+/cast Fleshcraft
+/cast Summon Steward
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
+END
+VER 3 0100000000000023 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse Spirit;  [@mouseover,exists,mod:ctrl] Purge; [@mouseover,exists,mod:shift] Cleanse Spirit
+END
+VER 3 0100000000000014 "Earthbind Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] earthbind totem
+END
+VER 3 010000000000001B "Earthgrab Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] earthgrab totem
+END

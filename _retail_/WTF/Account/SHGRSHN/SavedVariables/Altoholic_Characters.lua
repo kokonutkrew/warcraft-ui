@@ -6,10 +6,10 @@ Altoholic_CharactersTab_Options = {
 ["GarrisonMissions"] = 1,
 ["ViewBagsAllInOne"] = false,
 ["ViewBags"] = true,
-["ViewVoidStorage"] = true,
+["ViewSpellTab"] = 1,
 ["ViewLearnedRecipes"] = true,
 ["SortAscending"] = true,
 ["ViewBagsRarity"] = 0,
 ["ViewUnlearnedRecipes"] = false,
-["ViewSpellTab"] = 1,
+["ViewVoidStorage"] = true,
 }

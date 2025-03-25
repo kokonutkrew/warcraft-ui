@@ -1783,20 +1783,20 @@ DataStore_Mails_Characters = {
 },
 },
 {
-["lastUpdate"] = 1726982361,
+["lastUpdate"] = 1727018181,
 ["Mails"] = {
 {
-["lastCheck"] = 1726982361,
+["icon"] = 134327,
 ["sender"] = "Thaumaturge Vashreen",
 ["subject"] = "Lost Item",
 ["returned"] = false,
 ["money"] = 0,
 ["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
-["icon"] = 134327,
-["daysLeft"] = 16.81065940856934,
+["lastCheck"] = 1727018181,
+["daysLeft"] = 16.39621543884277,
 },
 },
-["lastVisitDate"] = "2024/09/21 23:19",
+["lastVisitDate"] = "2024/09/22 09:16",
 ["MailCache"] = {
 },
 },

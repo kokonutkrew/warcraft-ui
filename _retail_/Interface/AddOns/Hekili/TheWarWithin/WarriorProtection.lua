@@ -940,7 +940,7 @@ spec:RegisterAbilities( {
             setDistance( 5 )
             applyDebuff( "target", "charge" )
             if legendary.reprisal.enabled then
-                applyBuff( "shield_block", 4 )
+                applyBuff( "shield_block", buff.shield_block.remains + 4 )
                 applyBuff( "revenge" )
                 gain( 20, "rage" )
             end
@@ -1228,7 +1228,7 @@ spec:RegisterAbilities( {
 
         handler = function ()
             if legendary.reprisal.enabled then
-                applyBuff( "shield_block", 4 )
+                applyBuff( "shield_block", buff.shield_block.remains + 4 )
                 applyBuff( "revenge" )
                 gain( 20, "rage" )
             end
@@ -1282,7 +1282,7 @@ spec:RegisterAbilities( {
             applyBuff( "last_stand" )
 
             if talent.bolster.enabled then
-                applyBuff( "shield_block", buff.last_stand.duration )
+                applyBuff( "shield_block", buff.shield_block.remains + buff.last_stand.duration )
             end
 
             if talent.unnerving_focus.enabled then
@@ -1501,7 +1501,7 @@ spec:RegisterAbilities( {
         end,
 
         handler = function ()
-            applyBuff( "shield_block" )
+            applyBuff( "shield_block", buff.shield_block.remains + buff.shield_block.duration )
         end,
     },
 
@@ -1524,7 +1524,7 @@ spec:RegisterAbilities( {
                 applyBuff( "battering_ram" )
             end
             if talent.champions_bulwark.enabled then
-                applyBuff( "shield_block" )
+                applyBuff( "shield_block", buff.shield_block.remains + buff.shield_block.duration )
                 applyBuff( "revenge" )
             end
         end,
@@ -1698,7 +1698,7 @@ spec:RegisterAbilities( {
             if not t.up then
                 return false, "Target is not casting"
             end
-            if not class.reflectableFilters[ zone ][ npcid ][ t.v1 ] then
+            if not state.target.is_dummy and not class.reflectableFilters[ zone ][ npcid ][ t.v1 ] then
                 return false, "spell[" .. t.v1 .. "] in zone[" .. zone .. "] by npc[" .. npcid .. "] is not reflectable"
             end
             if not UnitIsUnit( "player", t.caster .. "target" ) then

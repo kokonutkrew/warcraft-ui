@@ -1,11 +1,13 @@
 
 BattleGroundEnemiesDB = {
 ["profileKeys"] = {
+["Deathscar - Emerald Dream"] = "Default",
 ["Timecaster - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["lastReadVersion"] = "9.0.5.6",
+["dbVersion"] = 2,
+["lastReadVersion"] = "11.0.5.9",
 },
 },
 }

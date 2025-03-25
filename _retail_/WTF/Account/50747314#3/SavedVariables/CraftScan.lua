@@ -1,0 +1,32 @@
+
+CraftScan_DB = {
+["settings"] = {
+["banner_timeout"] = 20,
+["banner_direction"] = 1,
+["discoverable"] = true,
+["show_chat_orders_tab"] = true,
+["exclusions"] = "LFW, WTS, LF work",
+["alert_icon_scale"] = 100,
+["inclusions"] = "LF, LFC, WTB, recraft",
+["show_button_height"] = 0,
+["customer_timeout"] = 10,
+["ping_sound"] = "Interface\\Addons\\WeakAuras\\Media\\Sounds\\RobotBlip.ogg",
+["collapse_chat_context"] = false,
+["last_loaded_version"] = "v1.3.2",
+["permissive_matching"] = false,
+["explanations"] = {
+},
+},
+["realms"] = {
+["Emerald Dream"] = {
+["characters"] = {
+},
+["listed_orders"] = {
+},
+["analytics"] = {
+},
+["customers"] = {
+},
+},
+},
+}

@@ -42,21 +42,22 @@ RecklessAbandonDB = {
 ["Samoanblast - Emerald Dream"] = "Default",
 ["Tyrielle - Area 52"] = "Default",
 ["Samoanranger - Area 52"] = "Default",
+["Saigold - Area 52"] = "Default",
 ["Samoanbeast - Emerald Dream"] = "Default",
 ["Threadcraft - Area 52"] = "Default",
 ["Fishcraft - Area 52"] = "Default",
 ["Ikkl - Emerald Dream"] = "Default",
 ["Samoantank - Tichondrius"] = "Default",
-["Samoanlegend - Area 52"] = "Default",
+["Samoanstrap - Area 52"] = "Default",
 ["Samoanmystic - Emerald Dream"] = "Default",
 ["Herbcraft - Area 52"] = "Default",
-["Samoanslayer - Area 52"] = "Default",
+["Samoanbeast - Ravenholdt"] = "Default",
 ["Samoanlegend - Tichondrius"] = "Default",
 ["Samoanstrafe - Area 52"] = "Default",
 ["Samoanskully - Area 52"] = "Default",
 ["Samoansage - Emerald Dream"] = "Default",
 ["Samoansizzle - Area 52"] = "Default",
-["Samoanscout - Moon Guard"] = "Default",
+["Samoansurge - Area 52"] = "Default",
 ["Samoanwraith - Area 52"] = "Default",
 ["Crankcraft - Area 52"] = "Default",
 ["Farmcraft - Emerald Dream"] = "Default",
@@ -64,11 +65,11 @@ RecklessAbandonDB = {
 ["Samoanrocket - Area 52"] = "Default",
 ["Kkelly - Moon Guard"] = "Default",
 ["Samoanshield - Area 52"] = "Default",
-["Samoansurge - Area 52"] = "Default",
+["Samoanscout - Moon Guard"] = "Default",
 ["Samoansage - Tichondrius"] = "Default",
-["Samoanbeast - Ravenholdt"] = "Default",
+["Samoanslayer - Area 52"] = "Default",
 ["Kkelly - Wyrmrest Accord"] = "Default",
-["Samoanstrap - Area 52"] = "Default",
+["Samoanlegend - Area 52"] = "Default",
 ["Gearcraft - Emerald Dream"] = "Default",
 },
 ["profiles"] = {
@@ -125,21 +126,22 @@ RecklessAbandonPrivateDB = {
 ["Samoanblast - Emerald Dream"] = "Samoanblast - Emerald Dream",
 ["Tyrielle - Area 52"] = "Tyrielle - Area 52",
 ["Samoanranger - Area 52"] = "Samoanranger - Area 52",
+["Saigold - Area 52"] = "Saigold - Area 52",
 ["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 ["Threadcraft - Area 52"] = "Threadcraft - Area 52",
 ["Fishcraft - Area 52"] = "Fishcraft - Area 52",
 ["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
 ["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-["Samoanlegend - Area 52"] = "Samoanlegend - Area 52",
+["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
 ["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 ["Herbcraft - Area 52"] = "Herbcraft - Area 52",
-["Samoanslayer - Area 52"] = "Samoanslayer - Area 52",
+["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 ["Samoanlegend - Tichondrius"] = "Samoanlegend - Tichondrius",
 ["Samoanstrafe - Area 52"] = "Samoanstrafe - Area 52",
 ["Samoanskully - Area 52"] = "Samoanskully - Area 52",
 ["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 ["Samoansizzle - Area 52"] = "Samoansizzle - Area 52",
-["Samoanscout - Moon Guard"] = "Samoanscout - Moon Guard",
+["Samoansurge - Area 52"] = "Samoansurge - Area 52",
 ["Samoanwraith - Area 52"] = "Samoanwraith - Area 52",
 ["Crankcraft - Area 52"] = "Crankcraft - Area 52",
 ["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
@@ -147,11 +149,11 @@ RecklessAbandonPrivateDB = {
 ["Samoanrocket - Area 52"] = "Samoanrocket - Area 52",
 ["Kkelly - Moon Guard"] = "Kkelly - Moon Guard",
 ["Samoanshield - Area 52"] = "Samoanshield - Area 52",
-["Samoansurge - Area 52"] = "Samoansurge - Area 52",
+["Samoanscout - Moon Guard"] = "Samoanscout - Moon Guard",
 ["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+["Samoanslayer - Area 52"] = "Samoanslayer - Area 52",
 ["Kkelly - Wyrmrest Accord"] = "Kkelly - Wyrmrest Accord",
-["Samoanstrap - Area 52"] = "Samoanstrap - Area 52",
+["Samoanlegend - Area 52"] = "Samoanlegend - Area 52",
 ["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
 },
 ["profiles"] = {
@@ -162,8 +164,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Darkness, I Dream",
 ["source"] = 1,
 },
-[72977] = {
-["title"] = "Where the Flames Fell",
+[55519] = {
+["title"] = "A Fresh Trauma",
 ["source"] = 1,
 },
 [40519] = {
@@ -178,16 +180,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Expedition Awaits",
 ["source"] = 1,
 },
-[72291] = {
-["title"] = "Story of a Memorable Victory",
+[72977] = {
+["title"] = "Where the Flames Fell",
 ["source"] = 1,
 },
 [77433] = {
 ["title"] = "Excavation: Riverbed",
 ["source"] = 1,
 },
-[55519] = {
-["title"] = "A Fresh Trauma",
+[72291] = {
+["title"] = "Story of a Memorable Victory",
 ["source"] = 1,
 },
 },
@@ -266,12 +268,12 @@ RecklessAbandonPrivateDB = {
 ["Samoansifu - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[53028] = {
-["title"] = "A Dying World",
-["source"] = 1,
-},
 [83137] = {
 ["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
+[53028] = {
+["title"] = "A Dying World",
 ["source"] = 1,
 },
 },
@@ -304,20 +306,12 @@ RecklessAbandonPrivateDB = {
 ["Samoanseraph - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[11007] = {
-["title"] = "Kael'thas and the Verdant Sphere",
-["source"] = 1,
-},
-[72292] = {
-["title"] = "Story of a Spectacular Victory",
-["source"] = 1,
-},
 [83137] = {
 ["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
-[72192] = {
-["title"] = "Halls of Infusion: Entropy to Order",
+[75890] = {
+["title"] = "The Clarion Call",
 ["source"] = 1,
 },
 },
@@ -426,10 +420,6 @@ RecklessAbandonPrivateDB = {
 ["title"] = "A Brother's Help",
 ["source"] = 1,
 },
-[84370] = {
-["title"] = "The Key to Success",
-["source"] = 1,
-},
 [55519] = {
 ["title"] = "A Fresh Trauma",
 ["source"] = 1,
@@ -475,16 +465,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Lost to the Skies",
 ["source"] = 1,
 },
-[70339] = {
-["title"] = "In Tyr's Footsteps: The Ohn'ahran Plains",
+[71219] = {
+["title"] = "The Wayward Waywatcher",
+["source"] = 1,
+},
+[72067] = {
+["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
 [40519] = {
 ["title"] = "Legion: The Legion Returns",
-["source"] = 1,
-},
-[66997] = {
-["title"] = "Nursery Direction",
 ["source"] = 1,
 },
 [29829] = {
@@ -499,12 +489,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Critical Path",
 ["source"] = 1,
 },
-[72067] = {
-["title"] = "Relaxation Time!",
+[66997] = {
+["title"] = "Nursery Direction",
 ["source"] = 1,
 },
-[71219] = {
-["title"] = "The Wayward Waywatcher",
+[70339] = {
+["title"] = "In Tyr's Footsteps: The Ohn'ahran Plains",
 ["source"] = 1,
 },
 },
@@ -608,12 +598,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Darkness, I Dream",
 ["source"] = 1,
 },
-[13181] = {
-["title"] = "Victory in Wintergrasp",
-["source"] = 1,
-},
 [55519] = {
 ["title"] = "A Fresh Trauma",
+["source"] = 1,
+},
+[13181] = {
+["title"] = "Victory in Wintergrasp",
 ["source"] = 1,
 },
 },
@@ -691,8 +681,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Mysterious Seeds",
 ["source"] = 1,
 },
-[72591] = {
-["title"] = "A Debt That Must Be Paid",
+[75877] = {
+["title"] = "Time to Fly",
 ["source"] = 1,
 },
 [40519] = {
@@ -703,8 +693,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Identity Crisis",
 ["source"] = 1,
 },
-[75877] = {
-["title"] = "Time to Fly",
+[72591] = {
+["title"] = "A Debt That Must Be Paid",
 ["source"] = 1,
 },
 },
@@ -724,12 +714,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Lost Mail",
 ["source"] = 1,
 },
-[64833] = {
-["title"] = "Forging Unity from Diversity",
+[65749] = {
+["title"] = "The Necessity Of Equipment",
 ["source"] = 1,
 },
-[64210] = {
-["title"] = "The Box of Many Things",
+[82539] = {
+["title"] = "Radiant Echoes",
 ["source"] = 1,
 },
 [72644] = {
@@ -740,12 +730,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Further Research: Aealic",
 ["source"] = 1,
 },
-[82539] = {
-["title"] = "Radiant Echoes",
+[64210] = {
+["title"] = "The Box of Many Things",
 ["source"] = 1,
 },
-[65749] = {
-["title"] = "The Necessity Of Equipment",
+[64833] = {
+["title"] = "Forging Unity from Diversity",
 ["source"] = 1,
 },
 },
@@ -862,12 +852,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Mysterious Seeds",
 ["source"] = 1,
 },
-[75665] = {
-["title"] = "A Worthy Ally: Loamm Niffen",
-["source"] = 1,
-},
 [82672] = {
 ["title"] = "Another Timely Invitation",
+["source"] = 1,
+},
+[75665] = {
+["title"] = "A Worthy Ally: Loamm Niffen",
 ["source"] = 1,
 },
 },
@@ -930,12 +920,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Advance to Faerin",
 ["source"] = 1,
 },
-[83137] = {
-["title"] = "When Opportunity Explodes",
-["source"] = 1,
-},
 [57043] = {
 ["title"] = "Old Friends, New Opportunities",
+["source"] = 1,
+},
+[83137] = {
+["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 },
@@ -955,12 +945,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "A Concerned Friend",
 ["source"] = 1,
 },
-[40519] = {
-["title"] = "Legion: The Legion Returns",
-["source"] = 1,
-},
 [85666] = {
 ["title"] = "Delver's Call: Spiral Weave",
+["source"] = 1,
+},
+[40519] = {
+["title"] = "Legion: The Legion Returns",
 ["source"] = 1,
 },
 },
@@ -1013,24 +1003,24 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Shoveltusk Soul",
 ["source"] = 1,
 },
-[70845] = {
-["title"] = "In Tyr's Footsteps",
+[75877] = {
+["title"] = "Time to Fly",
 ["source"] = 1,
 },
 [29444] = {
 ["title"] = "An Exotic Egg",
 ["source"] = 1,
 },
-[29451] = {
-["title"] = "The Master Strategist",
-["source"] = 1,
-},
 [40519] = {
 ["title"] = "Legion: The Legion Returns",
 ["source"] = 1,
 },
-[75877] = {
-["title"] = "Time to Fly",
+[29451] = {
+["title"] = "The Master Strategist",
+["source"] = 1,
+},
+[70845] = {
+["title"] = "In Tyr's Footsteps",
 ["source"] = 1,
 },
 },
@@ -1054,8 +1044,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Azure Span",
 ["source"] = 1,
 },
-[24683] = {
-["title"] = "The Pit of Saron",
+[30757] = {
+["title"] = "Lord of the Shado-Pan",
 ["source"] = 1,
 },
 [29803] = {
@@ -1070,8 +1060,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Stealing Their Thunder",
 ["source"] = 1,
 },
-[30757] = {
-["title"] = "Lord of the Shado-Pan",
+[24683] = {
+["title"] = "The Pit of Saron",
 ["source"] = 1,
 },
 },
@@ -1168,6 +1158,15 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
+["Saigold - Area 52"] = {
+["automationOptions"] = {
+["autoAbandonQuests"] = {
+["questType"] = {
+["ids"] = "",
+},
+},
+},
+},
 ["Samoanbeast - Emerald Dream"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
@@ -1192,12 +1191,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
-[57043] = {
-["title"] = "Old Friends, New Opportunities",
-["source"] = 1,
-},
 [83497] = {
 ["title"] = "A Concerned Friend",
+["source"] = 1,
+},
+[57043] = {
+["title"] = "Old Friends, New Opportunities",
 ["source"] = 1,
 },
 },
@@ -1273,7 +1272,47 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanlegend - Area 52"] = {
+["Samoanstrap - Area 52"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[66012] = {
+["title"] = "The Sealed Door",
+["source"] = 1,
+},
+[77896] = {
+["title"] = "A Sleepy Search",
+["source"] = 1,
+},
+[66964] = {
+["title"] = "Artifacts in the Wrong Hands",
+["source"] = 1,
+},
+[75725] = {
+["title"] = "Off to the Track",
+["source"] = 1,
+},
+[76566] = {
+["title"] = "The Dryad Garden",
+["source"] = 1,
+},
+[77662] = {
+["title"] = "A Call to Aid",
+["source"] = 1,
+},
+[29433] = {
+["title"] = "Test Your Strength",
+["source"] = 1,
+},
+[75721] = {
+["title"] = "Bartering 101",
+["source"] = 1,
+},
+[73707] = {
+["title"] = "TICKET: Glimmerogg Games",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -1302,6 +1341,10 @@ RecklessAbandonPrivateDB = {
 ["Herbcraft - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
+[76163] = {
+["title"] = "A Lighter Shade of Fel",
+["source"] = 1,
+},
 [31363] = {
 ["title"] = "Lighting the Way",
 ["source"] = 1,
@@ -1310,16 +1353,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Old Friends, New Opportunities",
 ["source"] = 1,
 },
-[76427] = {
-["title"] = "A Dark Summons",
+[83137] = {
+["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 [31364] = {
 ["title"] = "That's a Big Bug!",
-["source"] = 1,
-},
-[83137] = {
-["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 },
@@ -1332,11 +1371,47 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanslayer - Area 52"] = {
+["Samoanbeast - Ravenholdt"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[32249] = {
-["title"] = "Meet the Scout",
+[83324] = {
+["title"] = "A Silken Thread",
+["source"] = 1,
+},
+[83325] = {
+["title"] = "Bountiful Beetles",
+["source"] = 1,
+},
+[79651] = {
+["title"] = "Trade Partners",
+["source"] = 1,
+},
+[78231] = {
+["title"] = "Like a Spider on the Wall",
+["source"] = 1,
+},
+[82672] = {
+["title"] = "Another Timely Invitation",
+["source"] = 1,
+},
+[83716] = {
+["title"] = "Beneath the Roots",
+["source"] = 1,
+},
+[83306] = {
+["title"] = "Where the Wild Things Camp",
+["source"] = 1,
+},
+[79349] = {
+["title"] = "Entrepreneur, Inc.",
+["source"] = 1,
+},
+[81686] = {
+["title"] = "Subterfuge in Silk",
+["source"] = 1,
+},
+[54976] = {
+["title"] = "The Shadow of Gilneas",
 ["source"] = 1,
 },
 },
@@ -1377,10 +1452,6 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Visit to the Shop",
 ["source"] = 1,
 },
-[86461] = {
-["title"] = "Ancient Curiosity: Combat",
-["source"] = 1,
-},
 },
 },
 ["automationOptions"] = {
@@ -1410,12 +1481,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Advance to Faerin",
 ["source"] = 1,
 },
-[83324] = {
-["title"] = "A Silken Thread",
-["source"] = 1,
-},
 [79651] = {
 ["title"] = "Trade Partners",
+["source"] = 1,
+},
+[83324] = {
+["title"] = "A Silken Thread",
 ["source"] = 1,
 },
 },
@@ -1455,24 +1526,24 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Legion: The Legion Returns",
 ["source"] = 1,
 },
-[70589] = {
-["title"] = "Blacksmithing Services Requested",
-["source"] = 1,
-},
-[65795] = {
-["title"] = "Next Steppes",
-["source"] = 1,
-},
-[70930] = {
-["title"] = "All Tea, No Shadeleaf",
+[83137] = {
+["title"] = "When Opportunity Explodes",
 ["source"] = 1,
 },
 [72067] = {
 ["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
-[83137] = {
-["title"] = "When Opportunity Explodes",
+[70930] = {
+["title"] = "All Tea, No Shadeleaf",
+["source"] = 1,
+},
+[65795] = {
+["title"] = "Next Steppes",
+["source"] = 1,
+},
+[70589] = {
+["title"] = "Blacksmithing Services Requested",
 ["source"] = 1,
 },
 },
@@ -1488,20 +1559,28 @@ RecklessAbandonPrivateDB = {
 ["Samoansizzle - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
+[7905] = {
+["title"] = "The Darkmoon Faire",
+["source"] = 1,
+},
 [44486] = {
 ["title"] = "Fel-Ravaged Tome",
 ["source"] = 1,
 },
-[7905] = {
-["title"] = "The Darkmoon Faire",
+[11007] = {
+["title"] = "Kael'thas and the Verdant Sphere",
 ["source"] = 1,
 },
 [84365] = {
 ["title"] = "Something on the Horizon",
 ["source"] = 1,
 },
-[11007] = {
-["title"] = "Kael'thas and the Verdant Sphere",
+[83137] = {
+["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
+[84370] = {
+["title"] = "The Key to Success",
 ["source"] = 1,
 },
 },
@@ -1514,27 +1593,51 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanscout - Moon Guard"] = {
+["Samoansurge - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
+[76317] = {
+["title"] = "Call of the Dream",
+["source"] = 1,
+},
 [71219] = {
 ["title"] = "The Wayward Waywatcher",
 ["source"] = 1,
 },
-[72291] = {
-["title"] = "Story of a Memorable Victory",
+[70650] = {
+["title"] = "In Tyr's Footsteps: The Waking Shores",
+["source"] = 1,
+},
+[75665] = {
+["title"] = "A Worthy Ally: Loamm Niffen",
+["source"] = 1,
+},
+[76566] = {
+["title"] = "The Dryad Garden",
 ["source"] = 1,
 },
 [72067] = {
 ["title"] = "Relaxation Time!",
 ["source"] = 1,
 },
-[70125] = {
-["title"] = "Where is Wrathion?",
+[65795] = {
+["title"] = "Next Steppes",
 ["source"] = 1,
 },
-[65837] = {
-["title"] = "Trouble In The Pines",
+[83137] = {
+["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
+[70930] = {
+["title"] = "All Tea, No Shadeleaf",
+["source"] = 1,
+},
+[40519] = {
+["title"] = "Legion: The Legion Returns",
+["source"] = 1,
+},
+[70589] = {
+["title"] = "Blacksmithing Services Requested",
 ["source"] = 1,
 },
 },
@@ -1575,12 +1678,12 @@ RecklessAbandonPrivateDB = {
 ["title"] = "The Magical Kingdom of Dalaran",
 ["source"] = 1,
 },
-[57043] = {
-["title"] = "Old Friends, New Opportunities",
-["source"] = 1,
-},
 [81990] = {
 ["title"] = "The Light's Call",
+["source"] = 1,
+},
+[57043] = {
+["title"] = "Old Friends, New Opportunities",
 ["source"] = 1,
 },
 },
@@ -1600,8 +1703,8 @@ RecklessAbandonPrivateDB = {
 ["title"] = "In Darkness, I Dream",
 ["source"] = 1,
 },
-[55519] = {
-["title"] = "A Fresh Trauma",
+[51432] = {
+["title"] = "An Unusual Mentor",
 ["source"] = 1,
 },
 [56374] = {
@@ -1616,16 +1719,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "That's a Big Bug!",
 ["source"] = 1,
 },
-[54938] = {
-["title"] = "A Brother's Help",
+[55519] = {
+["title"] = "A Fresh Trauma",
 ["source"] = 1,
 },
 [54100] = {
 ["title"] = "A Way Out",
 ["source"] = 1,
 },
-[51432] = {
-["title"] = "An Unusual Mentor",
+[54938] = {
+["title"] = "A Brother's Help",
 ["source"] = 1,
 },
 },
@@ -1692,20 +1795,20 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Nesingwary's Trek",
 ["source"] = 1,
 },
-[49662] = {
-["title"] = "The Missing Key",
+[49122] = {
+["title"] = "A Port in Peril",
 ["source"] = 1,
 },
 [50794] = {
 ["title"] = "Seeking Shelter",
 ["source"] = 1,
 },
-[53155] = {
-["title"] = "Notched Coin",
+[49662] = {
+["title"] = "The Missing Key",
 ["source"] = 1,
 },
-[49122] = {
-["title"] = "A Port in Peril",
+[53155] = {
+["title"] = "Notched Coin",
 ["source"] = 1,
 },
 },
@@ -1718,7 +1821,31 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoansurge - Area 52"] = {
+["Samoanscout - Moon Guard"] = {
+["exclusions"] = {
+["excludedQuests"] = {
+[71219] = {
+["title"] = "The Wayward Waywatcher",
+["source"] = 1,
+},
+[65837] = {
+["title"] = "Trouble In The Pines",
+["source"] = 1,
+},
+[72291] = {
+["title"] = "Story of a Memorable Victory",
+["source"] = 1,
+},
+[70125] = {
+["title"] = "Where is Wrathion?",
+["source"] = 1,
+},
+[72067] = {
+["title"] = "Relaxation Time!",
+["source"] = 1,
+},
+},
+},
 ["automationOptions"] = {
 ["autoAbandonQuests"] = {
 ["questType"] = {
@@ -1748,47 +1875,11 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanbeast - Ravenholdt"] = {
+["Samoanslayer - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[83324] = {
-["title"] = "A Silken Thread",
-["source"] = 1,
-},
-[83325] = {
-["title"] = "Bountiful Beetles",
-["source"] = 1,
-},
-[79651] = {
-["title"] = "Trade Partners",
-["source"] = 1,
-},
-[78231] = {
-["title"] = "Like a Spider on the Wall",
-["source"] = 1,
-},
-[82672] = {
-["title"] = "Another Timely Invitation",
-["source"] = 1,
-},
-[54976] = {
-["title"] = "The Shadow of Gilneas",
-["source"] = 1,
-},
-[81686] = {
-["title"] = "Subterfuge in Silk",
-["source"] = 1,
-},
-[79349] = {
-["title"] = "Entrepreneur, Inc.",
-["source"] = 1,
-},
-[83306] = {
-["title"] = "Where the Wild Things Camp",
-["source"] = 1,
-},
-[83716] = {
-["title"] = "Beneath the Roots",
+[32249] = {
+["title"] = "Meet the Scout",
 ["source"] = 1,
 },
 },
@@ -1810,43 +1901,27 @@ RecklessAbandonPrivateDB = {
 },
 },
 },
-["Samoanstrap - Area 52"] = {
+["Samoanlegend - Area 52"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[66012] = {
-["title"] = "The Sealed Door",
+[29596] = {
+["title"] = "The End of the Exarch",
 ["source"] = 1,
 },
-[77896] = {
-["title"] = "A Sleepy Search",
+[29590] = {
+["title"] = "The Dead Watcher",
 ["source"] = 1,
 },
-[66964] = {
-["title"] = "Artifacts in the Wrong Hands",
+[29598] = {
+["title"] = "Taretha's Diversion",
 ["source"] = 1,
 },
-[75725] = {
-["title"] = "Off to the Track",
+[29830] = {
+["title"] = "Containment",
 ["source"] = 1,
 },
-[76566] = {
-["title"] = "The Dryad Garden",
-["source"] = 1,
-},
-[77662] = {
-["title"] = "A Call to Aid",
-["source"] = 1,
-},
-[29433] = {
-["title"] = "Test Your Strength",
-["source"] = 1,
-},
-[73707] = {
-["title"] = "TICKET: Glimmerogg Games",
-["source"] = 1,
-},
-[75721] = {
-["title"] = "Bartering 101",
+[29591] = {
+["title"] = "Raging Spirits",
 ["source"] = 1,
 },
 },
@@ -1890,16 +1965,16 @@ RecklessAbandonPrivateDB = {
 ["title"] = "Hornstrider Havoc",
 ["source"] = 1,
 },
-[66997] = {
-["title"] = "Nursery Direction",
+[58665] = {
+["title"] = "Rebellious Souls",
 ["source"] = 1,
 },
 [40519] = {
 ["title"] = "Legion: The Legion Returns",
 ["source"] = 1,
 },
-[58665] = {
-["title"] = "Rebellious Souls",
+[66997] = {
+["title"] = "Nursery Direction",
 ["source"] = 1,
 },
 },

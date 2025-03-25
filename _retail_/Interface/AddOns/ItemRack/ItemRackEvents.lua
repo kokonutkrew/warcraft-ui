@@ -261,7 +261,7 @@ function ItemRack.ToggleEvents(self)
 	ItemRackUser.EnableEvents = ItemRackUser.EnableEvents=="ON" and "OFF" or "ON"
 	if not next(ItemRackUser.Events.Enabled) then
 		-- user is turning on events with no events enabled, go to events frame
-		LoadAddOn("ItemRackOptions")
+		C_AddOns.LoadAddOn("ItemRackOptions")
 		ItemRackOptFrame:Show()
 		ItemRackOpt.TabOnClick(self,3)
 	else

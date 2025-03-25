@@ -15,14 +15,14 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
+["displayWeeklyGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Crankcraft-area-52"
+RaiderIO_LastCharacter = "us-Samoantitan-area-52"
 RaiderIO_MissingCharacters = {
-["us-Crankcraft-area-52"] = true,
-["us-Lithaneus-area-52"] = true,
+["us-Yikeslight-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

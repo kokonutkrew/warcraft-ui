@@ -1067,7 +1067,9 @@ local function ApplySettingsForWindow(self, windowSettings)
 	if windowSettings.movable then
 		self:ClearAllPoints();
 		if windowSettings.x then
-			self:SetPoint(windowSettings.point or "CENTER", windowSettings.relativeTo or UIParent, windowSettings.relativePoint or "CENTER", windowSettings.x, windowSettings.y);
+			local relativeTo = windowSettings.relativeTo;
+			if relativeTo and not _G[relativeTo] then relativeTo = UIParent; end
+			self:SetPoint(windowSettings.point or "CENTER", relativeTo or UIParent, windowSettings.relativePoint or "CENTER", windowSettings.x, windowSettings.y);
 		else
 			self:SetPoint("CENTER", UIParent, "CENTER");
 		end

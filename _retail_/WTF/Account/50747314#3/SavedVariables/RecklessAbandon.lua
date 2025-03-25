@@ -97,8 +97,32 @@ RecklessAbandonPrivateDB = {
 ["Deathscar - Emerald Dream"] = {
 ["exclusions"] = {
 ["excludedQuests"] = {
-[80446] = {
-["title"] = "Looking for Group",
+[57638] = {
+["title"] = "Korrak the Bloodrager",
+["source"] = 1,
+},
+[83137] = {
+["title"] = "When Opportunity Explodes",
+["source"] = 1,
+},
+[84365] = {
+["title"] = "Something on the Horizon",
+["source"] = 1,
+},
+[86560] = {
+["title"] = "A Shrouded Journey Through Time",
+["source"] = 1,
+},
+[72291] = {
+["title"] = "Story of a Memorable Victory",
+["source"] = 1,
+},
+[84370] = {
+["title"] = "The Key to Success",
+["source"] = 1,
+},
+[45563] = {
+["title"] = "The Shrouded Coin",
 ["source"] = 1,
 },
 },

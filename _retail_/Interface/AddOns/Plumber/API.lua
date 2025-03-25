@@ -1728,7 +1728,7 @@ do  -- Reputation
                 factionStandingtext = L["Renown Level Label"] .. majorFactionData.renownLevel;
 
                 if isParagon then
-                    local totalEarned, threshold, rewardQuestID, hasRewardPending = C_Reputation.GetFactionParagonInfo(factionID);
+                    local totalEarned, threshold, rewardQuestID, hasRewardPending = GetFactionParagonInfo(factionID);
                     if totalEarned and threshold and threshold ~= 0 then
                         local paragonLevel = floor(totalEarned / threshold);
                         local currentValue = totalEarned - paragonLevel * threshold;
@@ -2530,6 +2530,12 @@ do  -- Chat Message
         print(ADDON_ICON.." |cffb8c8d1Plumber:|r "..msg);
     end
     API.PrintMessage = PrintMessage;
+
+    function API.DisplayErrorMessage(msg)
+        if not msg then return end;
+        local messageType = 0;
+        UIErrorsFrame:TryDisplayMessage(messageType, (ADDON_ICON.." |cffb8c8d1Plumber:|r ")..msg, RED_FONT_COLOR:GetRGB());
+    end
 end
 
 do  -- Custom Hyperlink ItemRef
@@ -2858,6 +2864,34 @@ do  --Professions
     end
     PlumberGlobals.OpenProfessionFrame = API.OpenProfessionFrame;
 end
+
+do  --Addon Skin
+    local AddOnSkinHandler = {
+        ElvUI = {
+            global = "ElvUI",
+            root = function() local E = ElvUI[1]; return E:GetModule("Skins") end,
+            handlerKey = {
+                editbox = "HandleEditBox";
+            };
+        },
+    };
+
+    function API.SetupSkinExternal(object)
+        local objectType = object:GetObjectType();
+        objectType = string.lower(objectType);
+
+        for addOnName, v in pairs(AddOnSkinHandler) do
+            if _G[v.global] then
+                local root = v.root();
+                if v.handlerKey[objectType] then
+                    root[v.handlerKey[objectType]](root, object);
+                    return true, addOnName
+                end
+            end
+        end
+    end
+end
+
 
 --[[
 local DEBUG = CreateFrame("Frame");

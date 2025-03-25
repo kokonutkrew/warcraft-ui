@@ -1,5 +1,5 @@
 
 CCUDB = {
-["lastEquippedCloak"] = 221109,
+["lastEquippedCloak"] = 221054,
 ["showWelcomeMessage"] = true,
 }

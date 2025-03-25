@@ -1,6 +1,7 @@
 
 OmniCDDB = {
 ["profileKeys"] = {
+["Deathscar - Emerald Dream"] = "Default",
 ["Voidspeakerr - Emerald Dream"] = "Default",
 ["Shadowdaggr - Area 52"] = "Default",
 ["Flameing - Emerald Dream"] = "Default",
@@ -10,12 +11,28 @@ OmniCDDB = {
 ["namespaces"] = {
 ["LibDualSpec-1.0"] = {
 },
+["BattleRes"] = {
+},
 },
 ["cooldowns"] = {
 },
 ["version"] = 4,
 ["profiles"] = {
 ["Default"] = {
+["Party"] = {
+["party"] = {
+["extraBars"] = {
+["raidBar1"] = {
+["manualPos"] = {
+["raidBar1"] = {
+["y"] = 384.3926290869713,
+["x"] = 682.2740446973912,
+},
+},
+},
+},
+},
+},
 },
 },
 }

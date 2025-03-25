@@ -227,7 +227,7 @@ MythicDungeonTools: enabled
 PasteNG: enabled
 Plumber: enabled
 RaiderIO_DB_US_M: enabled
-RaiderIO: disabled
+RaiderIO: enabled
 RaiderIO_DB_US_R: enabled
 RaiderIO_DB_US_F: enabled
 TidyPlates_ThreatPlates: enabled
@@ -262,3 +262,4 @@ CoordinationCloakUtility: enabled
 LossOfControlMessages: enabled
 MessageBarker: enabled
 PublicOrdersReagentsColumn: enabled
+AstralMailer: enabled
